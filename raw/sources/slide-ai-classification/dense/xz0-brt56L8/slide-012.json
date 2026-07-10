@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Areas for further exploration\nAdvanced agent patterns: multi-step reasoning, tool composition, and error recovery\nProduction deployment: scaling, monitoring, logging, and cost optimization\nCustom integrations: connecting to proprietary systems and internal APIs\nAgent orchestration: coordinating multiple agents for complex workflows\nSpecialized domains: legal document processing, medical data analysis, financial modeling\nPerformance tuning: optimizing latency, throughput, and token usage",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple large-title bullet slide is easy to read directly; OCR is not necessary.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Areas for further exploration",
+        "x": 12.0,
+        "y": 27.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Advanced agent patterns: multi-step reasoning, tool composition, and error recovery",
+        "x": 12.0,
+        "y": 41.0,
+        "w": 70.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Production deployment: scaling, monitoring, logging, and cost optimization",
+        "x": 12.0,
+        "y": 48.0,
+        "w": 72.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Custom integrations: connecting to proprietary systems and internal APIs",
+        "x": 12.0,
+        "y": 55.0,
+        "w": 73.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Agent orchestration: coordinating multiple agents for complex workflows",
+        "x": 12.0,
+        "y": 62.0,
+        "w": 69.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Specialized domains: legal document processing, medical data analysis, financial modeling",
+        "x": 12.0,
+        "y": 69.0,
+        "w": 78.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Performance tuning: optimizing latency, throughput, and token usage",
+        "x": 12.0,
+        "y": 76.0,
+        "w": 69.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673524.14649,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Areas for further exploration\nAdvanced agent patterns: multi-step reasoning, tool composition, and error recovery\nProduction deployment: scaling, monitoring, logging, and cost optimization\nCustom integrations: connecting to proprietary systems and internal APIs\nAgent orchestration: coordinating multiple agents for complex workflows\nSpecialized domains: legal document processing, medical data analysis, financial modeling\nPerformance tuning: optimizing latency, throughput, and token usage",
+  "advanced_ocr": {}
+}

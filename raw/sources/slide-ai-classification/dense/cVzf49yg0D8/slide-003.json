@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "? Part 1: The tnterections APl1 Core Primitives\n9\n®\nC Server-Side State Background Execution\n12o clicnt.fnteroctions crcatc( orevious 2nteroction idi1.id mode1*gemini-3-flash-preview npuk= Follow up Question? 0 oclient fnteroctions.create( agento deep-research... bockgr ound:Iruo tnpuk= Roscarch topic.\nhistory. Chain turns with prevlous snteroction,ia. Server oums coriversation Fire-and-forget for lcng tasks. Pol with interoct lons.get(ia).\nTyped Output Blocks Streaming via SSE\nFlat arrby. teit, Iurt tlon_coll, Logo, thought. for O in interoction.outputs: motch o.type: Cuse text\" @rint(o.text) coso Cfunction_coll: Rich events: content.delta, Interoctton.corptete. for chunk in cliont.finteroctions create( modee gemini-3-11ash..oo tnputr Helloo orint(chunk)\n5717",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-panel slide with small code snippets and dense text; OCR is better suited than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cream",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Core Primitives",
+        "x": 13.0,
+        "y": 10.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Server-Side State",
+        "x": 14.0,
+        "y": 20.0,
+        "w": 26.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Background Execution",
+        "x": 53.0,
+        "y": 20.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Typed Output Blocks",
+        "x": 14.0,
+        "y": 53.0,
+        "w": 25.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Streaming via SSE",
+        "x": 53.0,
+        "y": 53.0,
+        "w": 25.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666896.732185,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Core Primitives",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "? Part 1: The tnterections APl1 Core Primitives\n9\n®\nC Server-Side State Background Execution\n12o clicnt.fnteroctions crcatc( orevious 2nteroction idi1.id mode1*gemini-3-flash-preview npuk= Follow up Question? 0 oclient fnteroctions.create( agento deep-research... bockgr ound:Iruo tnpuk= Roscarch topic.\nhistory. Chain turns with prevlous snteroction,ia. Server oums coriversation Fire-and-forget for lcng tasks. Pol with interoct lons.get(ia).\nTyped Output Blocks Streaming via SSE\nFlat arrby. teit, Iurt tlon_coll, Logo, thought. for O in interoction.outputs: motch o.type: Cuse text\" @rint(o.text) coso Cfunction_coll: Rich events: content.delta, Interoctton.corptete. for chunk in cliont.finteroctions create( modee gemini-3-11ash..oo tnputr Helloo orint(chunk)\n5717",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1036.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "? Part 1: The tnterections APl1 Core Primitives\n9\n®\nC Server-Side State Background Execution\n12o clicnt.fnteroctions crcatc( orevious 2nteroction idi1.id mode1*gemini-3-flash-preview npuk= Follow up Question? 0 oclient fnteroctions.create( agento deep-research... bockgr ound:Iruo tnpuk= Roscarch topic.\nhistory. Chain turns with prevlous snteroction,ia. Server oums coriversation Fire-and-forget for lcng tasks. Pol with interoct lons.get(ia).\nTyped Output Blocks Streaming via SSE\nFlat arrby. teit, Iurt tlon_coll, Logo, thought. for O in interoction.outputs: motch o.type: Cuse text\" @rint(o.text) coso Cfunction_coll: Rich events: content.delta, Interoctton.corptete. for chunk in cliont.finteroctions create( modee gemini-3-11ash..oo tnputr Helloo orint(chunk)\n5717",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

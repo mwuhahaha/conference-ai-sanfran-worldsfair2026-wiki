@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "You are using Cursor AI incorrectly...\n- Using Cursor as a replacement for Google Search.\n- Underspecification of prompts, not knowing how to drive outcomes and using low-level thinking of \"implement XYZ, please\".\n- Treating Cursor as if it is an IDE, instead of it being an autonomous agent.\n- Blissful unawareness of the concept that you can program LLM outcomes.\n- Unnecessary usage of pleasantries (\"please\" and \"can you\") with it as if it were a human. If it fucks up, swear at it - go all caps and call it a clown. It soothes the soul.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "black with subtle dark wave texture",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "You are using Cursor AI incorrectly...",
+        "x": 36.0,
+        "y": 5.0,
+        "w": 44.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Using Cursor as a replacement for Google Search.\nUnderspecification of prompts, not knowing how to drive outcomes and using low-level thinking of \"implement XYZ, please\".\nTreating Cursor as if it is an IDE, instead of it being an autonomous agent.\nBlissful unawareness of the concept that you can program LLM outcomes.\nUnnecessary usage of pleasantries (\"please\" and \"can you\") with it as if it were a human. If it fucks up, swear at it - go all caps and call it a clown. It soothes the soul.",
+        "x": 36.0,
+        "y": 22.0,
+        "w": 45.0,
+        "h": 62.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-003.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659071.931832,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "You are using Cursor AI incorrectly...\n- Using Cursor as a replacement for Google Search.\n- Underspecification of prompts, not knowing how to drive outcomes and using low-level thinking of \"implement XYZ, please\".\n- Treating Cursor as if it is an IDE, instead of it being an autonomous agent.\n- Blissful unawareness of the concept that you can program LLM outcomes.\n- Unnecessary usage of pleasantries (\"please\" and \"can you\") with it as if it were a human. If it fucks up, swear at it - go all caps and call it a clown. It soothes the soul.",
+  "advanced_ocr": {}
+}

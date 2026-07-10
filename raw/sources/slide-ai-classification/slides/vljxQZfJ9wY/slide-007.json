@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Online Evals: The Production Stream Production is your largest evaluation dataset. Every interaction is signal.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cream",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Online Evals: The Production Stream",
+        "x": 5.0,
+        "y": 4.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "User Interactions",
+        "x": 6.0,
+        "y": 35.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Evaluation Gateway",
+        "x": 46.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 22.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Metadata & Telemetry",
+        "x": 65.0,
+        "y": 45.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Analytics Database",
+        "x": 67.0,
+        "y": 67.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Production is your largest evaluation dataset. Every interaction is signal.",
+        "x": 6.0,
+        "y": 86.0,
+        "w": 88.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/vljxQZfJ9wY/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672433.564555,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Online Evals: The Production Stream Production is your largest evaluation dataset. Every interaction is signal.",
+  "advanced_ocr": {}
+}

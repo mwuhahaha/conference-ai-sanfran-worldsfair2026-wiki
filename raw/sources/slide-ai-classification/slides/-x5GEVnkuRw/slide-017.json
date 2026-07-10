@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Your turn: Try your own document\n\nWhat should I try?\n\nTry changing the URL below to a different document.\n\ndocling_paper = \"https://arxiv.org/pdf/2501.17887\"",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Notebook and PDF viewer screenshot with embedded code and small text requiring OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Your turn: Try your own document",
+        "x": 23.0,
+        "y": 18.0,
+        "w": 36.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What should I try?",
+        "x": 23.0,
+        "y": 30.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "docling_paper = \"https://arxiv.org/pdf/...\"",
+        "x": 24.0,
+        "y": 51.0,
+        "w": 25.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-017.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656415.9027286,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Your turn: Try your own document",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Q 8 Conversion.ipynb Mx Token_Cost_Comparison.ip C anev.org G @AskCh\nDOCLING-WORKSHOP ）src notebooks >scripts Chunkless_RAG.ipynb Conversion_Colab.ipynb Conversion.ipynb MCP_Agents.ipynb Ollama RAG.ipynb RAGipynb Serving.ipynb Chunking.ipynb Token_Cost_Compari..M gitignore >fixtures >output -gitignore M M M M+Basic Document Conversion>MYour turn:Try your ownd Add Code AddMarkdown|Run All Restart Clear All Outpu [28] read, a company datasheet, anyPDF on the web- Whatshould I try? Yourturn:Tryyourowndocument The cellbelowuses theDocling technical report as √0.0s docling_paper=\"https://arxiv.org/pdf/250 Sinple conversion example document: Docling Technical Repo try changing the uRL below to a di 2501.17887 Table 1:Versions and configuration options considered for cachtested asset.d 124% Documentsper Category Soence Uastructured Docling Ptets MinerU Marker Asset 2.5.2 0.9.3 0.16.5 Verion 0.3.10 Surya' OCR auto' EasyOCR' hi.res withtae stctre doclayot.yolorapid.table Layout default defaut uration options we consi.When running exper Table 1 provides an o CUDA accelerationin ensure the GPU is visi inference are installec Tables TableForm default\npyproject.toml ①README.md!spellcheck.yaml constraints.txt LICENSE!mkdocs.yml OUTLINE!.poutine.yml!pre-commit-config.yaml F.spelicheck-en-custom.txt!.markdownlint-cli2.yaml [41] [INFO] 2026-06-1615:51:33,734[Rapid0CR]dow [INF0] 2026-06-16 15:51:33,735 [Rapid0CR]main [INF0] 2026-06-16 15:51:33,765 [Rapid0CR] dowm [INF0] 2026-06-16 15:51:33,765 [Rapid0CR]main [INF0] 2026-06-16 15:51:33,764 [Rapid0CR] ba5e [INF0] 2026-06-16 15:51:33,731[Rapid0CR] basc √3.3s TNEO! #Create a converter instance converter=DocumentConverter() #Convertadocument doc=result.document result=converter.convert(docling_paper) 2026- Annual Reports Larw and Regulations Manuals Pages per Category 1554 Categories Maneahs CCPr(mis) Paterts CCMr (mi Science Spec sheets ordered by number ofp 5.4Results Figure3:Distribution of et LAGP 6C",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2019.0
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Your turn: Try your own document\n\nWhat should I try?\n\nTry changing the URL below to a different document.\n\ndocling_paper = \"https://arxiv.org/pdf/2501.17887\"",
+    "text_status": "meaningful",
+    "corrections": "OCR was partially corrected and stripped of notebook/PDF UI noise; kept only the clearly visible slide text."
+  }
+}

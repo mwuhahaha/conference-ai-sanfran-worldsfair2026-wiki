@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Pobgraph Polygraph-Demo-SnapshotSossions >fetch-app-title-from-backend\nfetch-app-titie-from-backend YarActeSessors? Pilygcapr-bem istiateonpoly-tronteed-93e1scbefetos-sop-title-1ron-bockend-c9tei4e2 'Active fetch-app-title-from-backend& ACCess\nletch-app-titie-from-backend Overviaw Logview\npolygraph sess1on resume fetch-spp-titlc-fron-backend-c9be4le2\nextract-desigs-systen-coaponest-\nAdd hckedreberercr\nRepositoriesrnoosloret-toepevocy G Uist+dept\npoly-backend-93dfscbe Ronning\ngteteongApptostaso.ti\nfeatap-infoaddGETapepp-nf\nVwgksesions\nPolygraph-Demo-Snapshot poly-trontend-93df5cbo Oone\nPrerioas",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Embedded product UI screenshot contains small interface text that OCR can recover more cheaply than manual reading.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "fetch-app-title-from-backend",
+        "x": 24.0,
+        "y": 8.0,
+        "w": 38.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 20.0,
+        "y": 18.0,
+        "w": 68.0,
+        "h": 68.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669889.2574272,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "fetch-app-title-from-backend",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Pobgraph Polygraph-Demo-SnapshotSossions >fetch-app-title-from-backend\nfetch-app-titie-from-backend YarActeSessors? Pilygcapr-bem istiateonpoly-tronteed-93e1scbefetos-sop-title-1ron-bockend-c9tei4e2 'Active fetch-app-title-from-backend& ACCess\nletch-app-titie-from-backend Overviaw Logview\npolygraph sess1on resume fetch-spp-titlc-fron-backend-c9be4le2\nextract-desigs-systen-coaponest-\nAdd hckedreberercr\nRepositoriesrnoosloret-toepevocy G Uist+dept\npoly-backend-93dfscbe Ronning\ngteteongApptostaso.ti\nfeatap-infoaddGETapepp-nf\nVwgksesions\nPolygraph-Demo-Snapshot poly-trontend-93df5cbo Oone\nPrerioas",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 467.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Pobgraph Polygraph-Demo-SnapshotSossions >fetch-app-title-from-backend\nfetch-app-titie-from-backend YarActeSessors? Pilygcapr-bem istiateonpoly-tronteed-93e1scbefetos-sop-title-1ron-bockend-c9tei4e2 'Active fetch-app-title-from-backend& ACCess\nletch-app-titie-from-backend Overviaw Logview\npolygraph sess1on resume fetch-spp-titlc-fron-backend-c9be4le2\nextract-desigs-systen-coaponest-\nAdd hckedreberercr\nRepositoriesrnoosloret-toepevocy G Uist+dept\npoly-backend-93dfscbe Ronning\ngteteongApptostaso.ti\nfeatap-infoaddGETapepp-nf\nVwgksesions\nPolygraph-Demo-Snapshot poly-trontend-93df5cbo Oone\nPrerioas",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

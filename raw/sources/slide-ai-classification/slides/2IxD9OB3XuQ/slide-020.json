@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The generated environment\nSimulators: Persona, intent, mocked/real tools\nSuccess metrics: pass/fail evaluators with feedback\nall produced from one interactive command.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Readable slide with a few bullets and a product screenshot; manual extraction is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The generated environment",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Simulators: Persona, intent, mocked/real tools",
+        "x": 6.0,
+        "y": 35.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Success metrics: pass/fail evaluators with feedback",
+        "x": 6.0,
+        "y": 52.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "all produced from one interactive command.",
+        "x": 5.0,
+        "y": 74.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Simulator",
+        "x": 60.0,
+        "y": 35.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Evaluators",
+        "x": 60.0,
+        "y": 62.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-020.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657337.0416932,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The generated environment\nSimulators: Persona, intent, mocked/real tools\nSuccess metrics: pass/fail evaluators with feedback\nall produced from one interactive command.",
+  "advanced_ocr": {}
+}

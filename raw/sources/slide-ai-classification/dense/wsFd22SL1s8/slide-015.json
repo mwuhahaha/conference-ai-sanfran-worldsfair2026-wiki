@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Containers: Security Story\nRoot Namespace Userspace\nContainer\nMalicious or Buggy Process Pid Namespace Pid 100 Trusted Process:Pid: 200\n:'syscall ioctl Attack Surface Syscall: ioctl\nKernel:\nContainer processes can attack the kernel\nAter s Containers run ss nativo procosses on top ot thg kernel:\n.: Ary mallclous or buggy procass can attack the kerre and galn root..",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture/security diagram with labels and small bullets that OCR can read more reliably than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3f2ef",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Containers: Security Story",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 36.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram",
+        "text": "Container",
+        "x": 6.0,
+        "y": 11.0,
+        "w": 28.0,
+        "h": 42.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Malicious or Buggy Process",
+        "x": 7.0,
+        "y": 27.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid Namespace",
+        "x": 14.0,
+        "y": 38.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Root Namespace",
+        "x": 38.0,
+        "y": 7.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Userspace",
+        "x": 61.0,
+        "y": 7.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Trusted Process",
+        "x": 54.0,
+        "y": 33.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Attack Surface",
+        "x": 35.0,
+        "y": 66.0,
+        "w": 17.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Kernel",
+        "x": 60.0,
+        "y": 82.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Container processes can attack the kernel",
+        "x": 13.0,
+        "y": 93.0,
+        "w": 51.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-015.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673112.9739065,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Containers: Security Story",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Containers: Security Story\nRoot Namespace Userspace\nContainer\nMalicious or Buggy Process Pid Namespace Pid 100 Trusted Process:Pid: 200\n:'syscall ioctl Attack Surface Syscall: ioctl\nKernel:\nContainer processes can attack the kernel\nAter s Containers run ss nativo procosses on top ot thg kernel:\n.: Ary mallclous or buggy procass can attack the kerre and galn root..",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 568.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Containers: Security Story\nRoot Namespace Userspace\nContainer\nMalicious or Buggy Process Pid Namespace Pid 100 Trusted Process:Pid: 200\n:'syscall ioctl Attack Surface Syscall: ioctl\nKernel:\nContainer processes can attack the kernel\nAter s Containers run ss nativo procosses on top ot thg kernel:\n.: Ary mallclous or buggy procass can attack the kerre and galn root..",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

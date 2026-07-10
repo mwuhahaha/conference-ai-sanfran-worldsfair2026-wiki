@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Persona Shadowing\nDelegation Chains\nCapability Tokens\nEscalation to Human",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with subtle radial pattern",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Persona Shadowing",
+        "x": 30.0,
+        "y": 10.0,
+        "w": 27.0,
+        "h": 25.0
+      },
+      {
+        "role": "body",
+        "text": "Delegation Chains",
+        "x": 59.0,
+        "y": 10.0,
+        "w": 27.0,
+        "h": 25.0
+      },
+      {
+        "role": "body",
+        "text": "Capability Tokens",
+        "x": 30.0,
+        "y": 40.0,
+        "w": 27.0,
+        "h": 25.0
+      },
+      {
+        "role": "body",
+        "text": "Escalation to Human",
+        "x": 59.0,
+        "y": 40.0,
+        "w": 27.0,
+        "h": 25.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 86.0,
+        "w": 19.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 72.0,
+        "y": 86.0,
+        "w": 12.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 9.0,
+        "h": 17.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-011.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659073.872992,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Persona Shadowing\nDelegation Chains\nCapability Tokens\nEscalation to Human",
+  "advanced_ocr": {}
+}

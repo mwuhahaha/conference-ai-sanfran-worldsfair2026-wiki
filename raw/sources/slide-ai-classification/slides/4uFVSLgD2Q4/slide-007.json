@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agent-to-Agent Protocol\n\nBuilt Off The A2A Protocol\n\nThe A2A protocol allows OG Assist to build off a supported spec, rather than from the ground up.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code block plus readable title.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "solid #5140ff",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "interface AgentCard {",
+        "x": 5.0,
+        "y": 5.0,
+        "w": 46.0,
+        "h": 88.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Agent-to-Agent Protocol",
+        "x": 57.0,
+        "y": 20.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Built Off The A2A Protocol",
+        "x": 57.0,
+        "y": 36.0,
+        "w": 30.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "The A2A protocol allows OG Assist to build off a supported spec, rather than from the ground up.",
+        "x": 57.0,
+        "y": 74.0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenGov",
+        "x": 87.0,
+        "y": 2.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Source: https://agent2agent.info/docs/concepts/agentcard/",
+        "x": 7.0,
+        "y": 95.0,
+        "w": 48.0,
+        "h": 3.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/4uFVSLgD2Q4/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657831.890677,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "interface AgentCard{ 1/Hunan-readablena for the Agent （e-g.,Recipe Agent) OpenGovT\nprovider?:( //Hunan-readable description of the Ageot's function description: string: /uRL addresswhere the Agent is hosted url:string: 1/Service provider information for the Agent organization:string: url:string: Agent-to-Agent Protocol\nversion:string: documentationurl7:string: 11Version of the Agent(format defined by provider,e.g.,\"1.o.e) I/uRL for the Agent'sdocumentation //Authentication requirenents for the Agent (intended to match OpenAPI auth structure) authentication1{ capabilities:{ streaning?:boolean;// If the Agent supports SSE pushNotifications?:boolean://If the Agent can push update notifications to the client stateTransitionHistory?:boolean: // If the Ageot exposes task state change history schees:stringll://e.g.,Basic,Bearer Built Off The A2AProtocol\nI/Default Interaction nodes supported by the Agent across all skitls I/Collection ofcapability units the Agent can perform defaultInputModes:stringI]:// Supported input MINE types defaultoutputModes:stringIl:// Supported outputMIME types skills:( id:string:// unique identifier for the skiit name:string:// Mumn-readablename for the skill tags:stringll:// Tagsdescribing the skill's capability category (e.g.,\"cooking,\"cu examples7:stringl]:// Exanple scenarios or pronpts the skill can execute （e.g.,Inee description: string://Skill description spec,rather than from the ground up. TheA2Aprotocol allowsOGAssist tobuild offasupported\nSource:https://agent2agent.info/docs/concepts/agentcard/",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1780.0
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Agent-to-Agent Protocol\n\nBuilt Off The A2A Protocol\n\nThe A2A protocol allows OG Assist to build off a supported spec, rather than from the ground up.",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide title and subtitle; corrected obvious OCR errors and omitted the small code block as too illegible to transcribe reliably."
+  }
+}

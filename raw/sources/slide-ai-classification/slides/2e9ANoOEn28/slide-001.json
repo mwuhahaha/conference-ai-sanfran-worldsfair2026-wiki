@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "About me\n• Staff engineer at Etsy\n• Also Etsy's IC Initiative Lead for Agentic Commerce\n• Wrote Grokking Algorithms, an illustrated book on algorithms\n• Blog at ducktyped.org",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "About me",
+        "x": 9.0,
+        "y": 13.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "• Staff engineer at Etsy\n• Also Etsy's IC Initiative Lead for Agentic Commerce\n• Wrote Grokking Algorithms, an illustrated book on algorithms\n• Blog at ducktyped.org",
+        "x": 9.0,
+        "y": 22.0,
+        "w": 48.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "Aditya Bhargava What if the harness mattered more than the model?",
+        "x": 9.0,
+        "y": 86.0,
+        "w": 62.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/2e9ANoOEn28/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657282.5502186,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "About me\n• Staff engineer at Etsy\n• Also Etsy's IC Initiative Lead for Agentic Commerce\n• Wrote Grokking Algorithms, an illustrated book on algorithms\n• Blog at ducktyped.org",
+  "advanced_ocr": {}
+}

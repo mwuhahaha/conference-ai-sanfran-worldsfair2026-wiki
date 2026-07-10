@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Evaluation Conditions\nDataset Scale\nApproximately 3 million anonymized financial records\nJurisdictions\nFour distinct regulatory environments evaluated in parallel\nTime Horizon\nFive years of historical data reflecting real-world enterprise conditions",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(180deg, #18002d 0%, #120024 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Evaluation Conditions",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Dataset Scale",
+        "x": 5.0,
+        "y": 29.0,
+        "w": 27.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "Approximately 3 million anonymized financial records",
+        "x": 5.0,
+        "y": 37.0,
+        "w": 28.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Jurisdictions",
+        "x": 35.0,
+        "y": 29.0,
+        "w": 28.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "Four distinct regulatory environments evaluated in parallel",
+        "x": 35.0,
+        "y": 37.0,
+        "w": 29.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Time Horizon",
+        "x": 5.0,
+        "y": 54.0,
+        "w": 58.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "Five years of historical data reflecting real-world enterprise conditions",
+        "x": 5.0,
+        "y": 62.0,
+        "w": 52.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/Iwe_RY-fYgI/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659673.928211,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Evaluation Conditions\nDataset Scale\nApproximately 3 million anonymized financial records\nJurisdictions\nFour distinct regulatory environments evaluated in parallel\nTime Horizon\nFive years of historical data reflecting real-world enterprise conditions",
+  "advanced_ocr": {}
+}

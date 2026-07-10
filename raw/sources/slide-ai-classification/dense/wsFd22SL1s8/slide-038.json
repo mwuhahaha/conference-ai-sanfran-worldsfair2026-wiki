@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arrakis: Chrome",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Mostly a readable title plus a browser screenshot; OCR is not the primary need here.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "light gray",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis: Chrome",
+        "x": 6.0,
+        "y": 0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 5.0,
+        "y": 11.0,
+        "w": 90.0,
+        "h": 78.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-038.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-038.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783674188.5643244,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Arrakis: Chrome",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.71,
+  "frame_type": "title_card",
+  "reject_reason": "Brand/interstitial card with logo only, not substantive presentation content.",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "linear-gradient(135deg, #2a004b 0%, #5b10b8 55%, #7b35e6 100%)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "runpod",
+        "x": 46.0,
+        "y": 41.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 38.0,
+        "y": 88.0,
+        "w": 33.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/ILdE7FaAjVA/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659551.3586037,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

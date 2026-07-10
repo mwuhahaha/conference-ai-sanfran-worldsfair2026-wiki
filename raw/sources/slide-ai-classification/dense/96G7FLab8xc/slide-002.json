@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Yes, but...",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense embedded screenshots and small webpage text are OCR-suitable; the slide title alone is not enough to capture the content.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "radial-gradient(circle at center, #111111 0%, #050505 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Yes, but...",
+        "x": 39.0,
+        "y": 3.0,
+        "w": 22.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "OpenAPI 🤝 FastMCP\nGenerate MCP servers from any OpenAPI specification",
+        "x": 7.0,
+        "y": 24.0,
+        "w": 40.0,
+        "h": 65.0
+      },
+      {
+        "role": "body",
+        "text": "Stop Converting Your REST\nAPIs to MCP\nYour auto-generated MCP is bad, and you should feel bad.",
+        "x": 53.0,
+        "y": 21.0,
+        "w": 41.0,
+        "h": 68.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/96G7FLab8xc/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658909.4692876,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Yes, but...",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

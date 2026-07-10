@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Spreadsheet UI screenshot with small grid text and sidebar labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Untitled spreadsheet",
+        "x": 7.0,
+        "y": 3.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Tables",
+        "x": 84.0,
+        "y": 8.0,
+        "w": 8.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-014.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664648.7100148,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 409.24,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

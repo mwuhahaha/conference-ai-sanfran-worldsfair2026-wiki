@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "“Audio is the human-preferred input to AIs, but vision is the preferred output from them.”\n— Andrej Karpathy, May 2026",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#101010",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 6.0,
+        "y": 13.0,
+        "w": 14.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "“Audio is the human-preferred input to AIs, but vision is the preferred output from them.”",
+        "x": 36.0,
+        "y": 17.0,
+        "w": 55.0,
+        "h": 36.0
+      },
+      {
+        "role": "caption",
+        "text": "— Andrej Karpathy, May 2026",
+        "x": 70.0,
+        "y": 57.0,
+        "w": 20.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/65X0pQ6Lmbg/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657736.321119,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "“Audio is the human-preferred input to AIs, but vision is the preferred output from them.”\n— Andrej Karpathy, May 2026",
+  "advanced_ocr": {}
+}

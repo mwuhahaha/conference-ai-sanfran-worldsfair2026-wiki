@@ -1,0 +1,138 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Process 1 Process.2 08x0 4u! xor. ebx, ebx\nIThread MThread\nioctl: Syscall Userspace\n/dev/kvm: /dev/sda1 Kernel (os)\nExecution model of a typical Linux System\n: A*Trread' Is the snaBost una of erecuton. Each -Thread' has a task struet that's n thio Schodutor run quoue..\n\"Processe consists of mutupie thresds. -Thresds\" n process huve different TDs but tame Pio, thare page tablo snd other th'ngs. Bound by shared resources Kermel provides prirtegeo' access to hardware. lf not gated, buggy or masclous code can wreak harroc.\nSpecisal nstructions to switeh to kernel mode / supervisor mode and lnvoke a syscal for prvteged sccess.:",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram plus small bullet text and code snippet; OCR is suitable for the detailed labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Process 1",
+        "x": 8.0,
+        "y": 3.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Process 2",
+        "x": 23.0,
+        "y": 3.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Thread",
+        "x": 10.0,
+        "y": 12.0,
+        "w": 7.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Thread",
+        "x": 25.0,
+        "y": 12.0,
+        "w": 7.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ioctl",
+        "x": 12.0,
+        "y": 36.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "syscall",
+        "x": 28.0,
+        "y": 36.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "/dev/kvm",
+        "x": 6.0,
+        "y": 49.0,
+        "w": 11.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "/dev/sda1",
+        "x": 23.0,
+        "y": 49.0,
+        "w": 11.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Userspace",
+        "x": 58.0,
+        "y": 26.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Kernel (OS)",
+        "x": 58.0,
+        "y": 55.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "xor ebx, ebx\nint 0x80",
+        "x": 43.0,
+        "y": 0,
+        "w": 18.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "Execution model of a typical Linux System",
+        "x": 18.0,
+        "y": 78.0,
+        "w": 40.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672883.8421438,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Process 1 Process.2 08x0 4u! xor. ebx, ebx\nIThread MThread\nioctl: Syscall Userspace\n/dev/kvm: /dev/sda1 Kernel (os)\nExecution model of a typical Linux System\n: A*Trread' Is the snaBost una of erecuton. Each -Thread' has a task struet that's n thio Schodutor run quoue..\n\"Processe consists of mutupie thresds. -Thresds\" n process huve different TDs but tame Pio, thare page tablo snd other th'ngs. Bound by shared resources Kermel provides prirtegeo' access to hardware. lf not gated, buggy or masclous code can wreak harroc.\nSpecisal nstructions to switeh to kernel mode / supervisor mode and lnvoke a syscal for prvteged sccess.:",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 984.56
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Process 1 Process.2 08x0 4u! xor. ebx, ebx\nIThread MThread\nioctl: Syscall Userspace\n/dev/kvm: /dev/sda1 Kernel (os)\nExecution model of a typical Linux System\n: A*Trread' Is the snaBost una of erecuton. Each -Thread' has a task struet that's n thio Schodutor run quoue..\n\"Processe consists of mutupie thresds. -Thresds\" n process huve different TDs but tame Pio, thare page tablo snd other th'ngs. Bound by shared resources Kermel provides prirtegeo' access to hardware. lf not gated, buggy or masclous code can wreak harroc.\nSpecisal nstructions to switeh to kernel mode / supervisor mode and lnvoke a syscal for prvteged sccess.:",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

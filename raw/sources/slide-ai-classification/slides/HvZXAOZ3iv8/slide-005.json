@@ -1,0 +1,124 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Use a frontier API\nMove fast. Ship something.\nWorks for\nGet started fast\nNo infrastructure overhead\nVery good models!\nWhen you might want to shift\nYou need performance control at scale\nCost, throughput, latency, custom metric\nYou need model differentiation\nYou're hitting rate limits",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with white right-hand panel",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Use a frontier API",
+        "x": 28.0,
+        "y": 28.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Move fast. Ship something.",
+        "x": 28.0,
+        "y": 38.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Works for",
+        "x": 63.0,
+        "y": 9.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Get started fast",
+        "x": 63.0,
+        "y": 16.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "No infrastructure overhead",
+        "x": 63.0,
+        "y": 23.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Very good models!",
+        "x": 63.0,
+        "y": 30.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "When you might want to shift",
+        "x": 63.0,
+        "y": 43.0,
+        "w": 27.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "You need performance control at scale",
+        "x": 63.0,
+        "y": 50.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Cost, throughput, latency, custom metric",
+        "x": 67.0,
+        "y": 57.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "You need model differentiation",
+        "x": 63.0,
+        "y": 65.0,
+        "w": 26.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "You're hitting rate limits",
+        "x": 63.0,
+        "y": 72.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer Europe",
+        "x": 58.0,
+        "y": 84.0,
+        "w": 24.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/HvZXAOZ3iv8/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659456.012275,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Use a frontier API\nMove fast. Ship something.\nWorks for\nGet started fast\nNo infrastructure overhead\nVery good models!\nWhen you might want to shift\nYou need performance control at scale\nCost, throughput, latency, custom metric\nYou need model differentiation\nYou're hitting rate limits",
+  "advanced_ocr": {}
+}

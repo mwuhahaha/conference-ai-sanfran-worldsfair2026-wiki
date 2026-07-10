@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "2. 4x Larger Expo\nEnough to spend an entire day catching up on everything great in AI Engineering\n3 days x 4 expo stages x 150 sponsors = insane value for Expo Explorer tix",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f7f7f7",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "2. 4x Larger Expo",
+        "x": 31.0,
+        "y": 28.0,
+        "w": 38.0,
+        "h": 14.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Enough to spend an entire day catching up on everything great in AI Engineering",
+        "x": 24.0,
+        "y": 42.0,
+        "w": 52.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "3 days x 4 expo stages x 150 sponsors = insane value for Expo Explorer tix",
+        "x": 23.0,
+        "y": 63.0,
+        "w": 54.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655994.0240204,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "2. 4x Larger Expo\nEnough to spend an entire day catching up on everything great in AI Engineering\n3 days x 4 expo stages x 150 sponsors = insane value for Expo Explorer tix",
+  "advanced_ocr": {}
+}

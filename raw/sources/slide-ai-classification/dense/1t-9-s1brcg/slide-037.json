@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "GPT-based metrics and code-based metrics against RAG chat apps.\nHere are the results from evaluations against a synthetically generated data set for a RAG app based on my personal blog posts:\n\nsearch mode  groundedness  relevance  answer_length  citation_match\nvector only  2.79  1.81  366.73  0.02\ntext only  4.87  4.74  662.34  0.89\nhybrid  3.26  2.15  365.66  0.11\nhybrid with ranker  4.89  4.78  670.89  0.92\n\nDespite being the author of this blog post, I was shocked to see how poorly vector search did on its...\nwith an average groundedness of 2.79 (out of 5) and only 2% of the answers with citations matching\nground truth citations. Full-text search on its own did fairly well, with an average groundedness of 4.8\na citation match rate of 89%. Hybrid search without the semantic ranker improved upon vector search,\nan average groundedness of 3.26 and citation match of 11%, but it did much better with the semantic",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense table and paragraph text in a webpage screenshot.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "GPT-based metrics and code-based metrics against RAG chat apps.",
+        "x": 8.0,
+        "y": 0,
+        "w": 84.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Here are the results from evaluations against a synthetically generated data set for a RAG app based on my personal blog posts:",
+        "x": 8.0,
+        "y": 8.0,
+        "w": 86.0,
+        "h": 11.0
+      },
+      {
+        "role": "table",
+        "text": "search mode groundedness relevance answer_length citation_match",
+        "x": 7.0,
+        "y": 18.0,
+        "w": 84.0,
+        "h": 30.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-037.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-037.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658802.0003989,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "GPT-based metrics and code-based metrics against RAG chat apps. AR心\nHere are the results from evaluations against a synthetically generated data set for a RAG app base\nmy personal blog posts:\nsearch mode. groun idness relevance answer_length citation_match\nvector only 2.79. 1.81. 366.73 0.02\ntext only 4.87 4.74 662.34 0.89\nhybrid 3.26 2.15 365.66 0.11\nhybrid with ranker 4.89: 4.78 670.89 0.92:\nwith an average groundedness of 2.79 (out of 5) and only 2% of the answers with citations matching Despite being the author of this blog post, I was shocked to see how poorly vector search did on its c\nground truth citations. Full-text search on its own did fairly well, with an average groundedness of 4.8\na citation match rate of 89%. Hybrid search without the semantic ranker improved upon vector searc. an average groundedness of 3.26 and citation match of 11%, but it did much better with the semantic",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1188.8
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "GPT-based metrics and code-based metrics against RAG chat apps.\nHere are the results from evaluations against a synthetically generated data set for a RAG app based on my personal blog posts:\n\nsearch mode  groundedness  relevance  answer_length  citation_match\nvector only  2.79  1.81  366.73  0.02\ntext only  4.87  4.74  662.34  0.89\nhybrid  3.26  2.15  365.66  0.11\nhybrid with ranker  4.89  4.78  670.89  0.92\n\nDespite being the author of this blog post, I was shocked to see how poorly vector search did on its...\nwith an average groundedness of 2.79 (out of 5) and only 2% of the answers with citations matching\nground truth citations. Full-text search on its own did fairly well, with an average groundedness of 4.8\na citation match rate of 89%. Hybrid search without the semantic ranker improved upon vector search,\nan average groundedness of 3.26 and citation match of 11%, but it did much better with the semantic",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for obvious errors in the title and table headers; removed garbled characters and normalized visible line breaks."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Capability-Based Tokens",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black with subtle radial pattern",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Capability-Based Tokens",
+        "x": 39.0,
+        "y": 4.0,
+        "w": 39.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 62.0,
+        "y": 86.0,
+        "w": 11.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 9.0,
+        "h": 17.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-010.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659073.8722668,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Capability-Based Tokens",
+  "advanced_ocr": {}
+}

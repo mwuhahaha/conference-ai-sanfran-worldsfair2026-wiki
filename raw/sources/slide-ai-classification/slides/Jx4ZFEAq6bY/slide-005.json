@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The missing layer between evals and action",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with multiple small text blocks and labels; OCR should extract the body copy more reliably than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The missing layer between evals and action",
+        "x": 13.0,
+        "y": 7.0,
+        "w": 74.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Observability",
+        "x": 14.0,
+        "y": 28.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Evals",
+        "x": 42.0,
+        "y": 28.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "The GAP",
+        "x": 55.0,
+        "y": 38.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent",
+        "x": 79.0,
+        "y": 28.0,
+        "w": 11.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/Jx4ZFEAq6bY/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661429.7560353,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The missing layer between evals and action",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

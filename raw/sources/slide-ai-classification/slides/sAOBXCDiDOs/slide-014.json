@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Real MCP apps, in production",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Manufact",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Real MCP apps, in production",
+        "x": 4.0,
+        "y": 9.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "CLAUDE • CLICK FOR FULLSCREEN",
+        "x": 4.0,
+        "y": 79.0,
+        "w": 28.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "CHATGPT • CLICK FOR FULLSCREEN",
+        "x": 36.0,
+        "y": 79.0,
+        "w": 30.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "CURSOR • CLICK FOR FULLSCREEN",
+        "x": 69.0,
+        "y": 79.0,
+        "w": 27.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/sAOBXCDiDOs/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671870.45326,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Real MCP apps, in production",
+  "advanced_ocr": {}
+}

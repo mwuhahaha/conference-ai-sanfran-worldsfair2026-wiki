@@ -1,0 +1,40 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.9,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Gemma 4: Byte for byte, the most capable open models",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "browser/article screenshot with smaller page text and metadata",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f3eedf",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Gemma 4: Byte for byte, the most capable open models",
+        "x": 25.0,
+        "y": 14.0,
+        "w": 48.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/G_bHFmEAarM/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659447.2939284,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Gemma 4: Byte for byte, the most capable open models",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

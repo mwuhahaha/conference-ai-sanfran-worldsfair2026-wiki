@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RAG on database\nOpenAI + PostgreSQL\n\nplz tell me about the best shoes for hiking now\n\nFor the best shoes for hiking, we have a few options available:\n\n1. The Trail Xtreme Hiking Shoes by Raptor Elite are a great choice. These shoes are built to endure any trail with their durable leather upper and rugged rubber sole. They offer excellent traction and protection. They come in a timeless brown color that adds a touch of style to your outdoor adventures. The price for these shoes is $135.99.\n\n2. The TrailTracker Hiking Shoes by AirStrider are another excellent option. These shoes are lightweight and breathable, perfect for long hikes. They feature a rugged rubber sole for excellent traction and stability. The cool grey color with green accents adds a touch of style to your hiking ensemble. The price for these shoes is $89.99.\n\n3. If you're looking for something with a steel-blue color, the Trailblaze Steel-Blue Hiking Shoes by WildRunner might be the right choice for you. These shoes are rugged and durable, with a waterproof membrane and a high-traction sole. They are made for superior grip on any terrain. The breathable upper keeps your feet cool and comfortable, and the reinforced toe cap adds extra protection. These shoes are priced at $129.99.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot with multiple small text regions and code-like output.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "tan UI screenshot with dark top bar",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "RAG on database",
+        "x": 24.0,
+        "y": 2.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "OpenAI + PostgreSQL",
+        "x": 72.0,
+        "y": 2.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "chat panel",
+        "x": 2.0,
+        "y": 16.0,
+        "w": 47.0,
+        "h": 78.0
+      },
+      {
+        "role": "code",
+        "text": "source / prompt / answer panel",
+        "x": 52.0,
+        "y": 16.0,
+        "w": 46.0,
+        "h": 78.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-026.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-026.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657783.0759337,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "RAG on database",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Gonp uo vd\nGchr chut\nptt tel me sbout the bet thost tor hlirg hot. Tt+r++, T+ litatt trxtwn w et+ilsly. I++t +t?+tu+l t+rt f++i,+t + A+++ rh+++ hle tt+ teelleat *4 01 i11 H *1 + * tm* 4 1n b sob 1) U\nTkt'I t+.W\n、\n.++4.\nNe141141*\nk sdli a touo c stle to yiour osdour sotereLltl The pice for itrie Lhott i. For de tet shoe ier Mhhg, e Tmt + ire ogtiors at 1, The lt yaeme Hkng Sort ' by toptor Ehee s+ a geat (hoke. Thee thoel' T?y ele teelr vxton ard proatlan, Thy ce he tmlm brom coior htra stktia. Part4t 1h. aiaia Mta 4 +kr'+ 1+.4 +k+ihta t 4. Wile th tt+l++la (elt. + 1ts?te! O+teter M.mt.ree.'. Y+ ea sy Tt+reu. Ihe ft iatertt tee Cae ee!\nPugtd shd dtrblt, midh + mltproof tb e ard a higaaion icebt 2. The Lh'hsde Hiny Sot I ty AirSude art srodit tethet optor. Thre Lhet ire tghelgh nd tutshelte, pelita tor ieng Tht I?y ithet a hsy'td Ttetl ioit ioe tn tlet utalos i?d iLbry. Ive coe g'y (clo iteh gytt socthh. J&dt a touch cf tty't to your hbrg te+ttle. Ihe prce Ior thst tho+t is Y itt. Hlling Lhott I ty Viaiunrr imight be te right choice iar you. Thnt thot sne I l yeu'e boting ior torediig lith a the tue color, the 'h.elt+ S++t Iu+ r+uawr.Ilus hhe wholslt te rettrere th+ I++++ +r Ia+it+ tlite +t +uilt + ++t+t ++y Iritl. tita t+ri+ t+le le++er +++++ t+4...+a. I..+.!. +l+t araa celor th+t +s & t+a+ +t +tyl+ te ) +4 r++er t+it. It etfe tsell1 trseti+s trd patectieo. Tha+t te*s ca*.!al Ilst +ha Pe+tt te+ratelr. t+t+++ ++y +++t 1h+ ++ +++ +o 1t+$ re. t. t$ay. Tirce..\"tsr 44.\npxN as129 9. srd cetorLtle, ild dt rtelorcea tee Cis sos eara prottlhor, Daye shots s+ Ireitirscher hlhle iaee +y Airitrietv ert woilt te Meeite ey terraie. Ihese tiMwial.] (++l ++t s+t++ tte Is i++c++ L+ +h+++ T++++++ + ra S+++s t+triyt lott tola++ the ++ht ++t o*+rt +itt th4 Ir+ll+la++ St++!-ita+ hlg S++i Iy? $++++ si(.+ +++ + I++ at ++t+ t+ Y+++ ++e ++++. '1 rhetr Ho ie 1alli yktia m yuoiur..Do\nL++'+ ++,+u+ +++h 44 il L+o+ + t yo$l++ +++ + +i'. Tire +ht+tlee. Pe+tet Ier M++.'.e+ie..a T++tie'e + L+ot yor fhl ce+ t4 + ++pa-1rti ien r4t? t+t ++te tte t4 *r1 $t+ ts ey terrala. ta +",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2520.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "RAG on database\nOpenAI + PostgreSQL\n\nplz tell me about the best shoes for hiking now\n\nFor the best shoes for hiking, we have a few options available:\n\n1. The Trail Xtreme Hiking Shoes by Raptor Elite are a great choice. These shoes are built to endure any trail with their durable leather upper and rugged rubber sole. They offer excellent traction and protection. They come in a timeless brown color that adds a touch of style to your outdoor adventures. The price for these shoes is $135.99.\n\n2. The TrailTracker Hiking Shoes by AirStrider are another excellent option. These shoes are lightweight and breathable, perfect for long hikes. They feature a rugged rubber sole for excellent traction and stability. The cool grey color with green accents adds a touch of style to your hiking ensemble. The price for these shoes is $89.99.\n\n3. If you're looking for something with a steel-blue color, the Trailblaze Steel-Blue Hiking Shoes by WildRunner might be the right choice for you. These shoes are rugged and durable, with a waterproof membrane and a high-traction sole. They are made for superior grip on any terrain. The breathable upper keeps your feet cool and comfortable, and the reinforced toe cap adds extra protection. These shoes are priced at $129.99.",
+    "text_status": "meaningful",
+    "corrections": "Accepted the readable slide text and corrected obvious OCR errors; omitted the unreadable code block."
+  }
+}

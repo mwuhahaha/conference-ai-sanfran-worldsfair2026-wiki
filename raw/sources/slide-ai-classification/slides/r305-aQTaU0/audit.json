@@ -1,0 +1,518 @@
+{
+  "video_id": "r305-aQTaU0",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 8,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "diagram",
+      "reject_reason": "",
+      "text": "Image diffusion",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "low-text diagram; labels are sparse",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black with beige slide",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Image diffusion",
+            "x": 33.0,
+            "y": 5.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Adding noise",
+            "x": 55.0,
+            "y": 15.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Denoising",
+            "x": 54.0,
+            "y": 39.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 83.0,
+            "y": 73.0,
+            "w": 12.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/r305-aQTaU0/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670975.8948848,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Image diffusion",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/r305-aQTaU0/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.88,
+      "frame_type": "demo_video",
+      "reject_reason": "",
+      "text": "Gemini Diffusion",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "demo/video screenshot rather than dense slide text",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Gemini Diffusion",
+            "x": 41.0,
+            "y": 22.0,
+            "w": 23.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "1 YEAR AGO",
+            "x": 37.0,
+            "y": 28.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer Europe",
+            "x": 69.0,
+            "y": 84.0,
+            "w": 19.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/r305-aQTaU0/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670975.8954873,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Gemini Diffusion",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/r305-aQTaU0/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "product",
+      "reject_reason": "",
+      "text": "Gemini Diffusion",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense code/UI screenshot with small text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Gemini Diffusion",
+            "x": 31.0,
+            "y": 4.0,
+            "w": 21.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 43.0,
+            "y": 12.0,
+            "w": 35.0,
+            "h": 46.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/r305-aQTaU0/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670975.895947,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Gemini Diffusion",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 145.84,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/r305-aQTaU0/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "product",
+      "reject_reason": "",
+      "text": "Textdiffusion candobidirectionalreasoning andself-correction\n(15-3）/(2*2)).F1rst at1s（v（81）（2/3））*2. providetheansaer andthen +Gemini Diffusion 1dns\nAIE thesevare roat\nGoogleDeepMind\ngo/try-saturn\nAIEngineer\nAIEn EUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense screenshot and equation text",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Text diffusion can do bidirectional reasoning and self-correction",
+            "x": 31.0,
+            "y": 5.0,
+            "w": 47.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "go/try-saturn",
+            "x": 30.0,
+            "y": 81.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 83.0,
+            "y": 73.0,
+            "w": 12.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/r305-aQTaU0/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671016.9978986,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Textdiffusion candobidirectionalreasoning andself-correction\n(15-3）/(2*2)).F1rst at1s（v（81）（2/3））*2. providetheansaer andthen +Gemini Diffusion 1dns\nAIE thesevare roat\nGoogleDeepMind\ngo/try-saturn\nAIEngineer\nAIEn EUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 259.04
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Textdiffusion candobidirectionalreasoning andself-correction\n(15-3）/(2*2)).F1rst at1s（v（81）（2/3））*2. providetheansaer andthen +Gemini Diffusion 1dns\nAIE thesevare roat\nGoogleDeepMind\ngo/try-saturn\nAIEngineer\nAIEn EUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/r305-aQTaU0/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "product",
+      "reject_reason": "",
+      "text": "Gemini 2.5 Flash",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense comparison screenshots with small text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "ChatGPT 4o",
+            "x": 30.0,
+            "y": 5.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Gemini 2.5 Flash",
+            "x": 63.0,
+            "y": 8.0,
+            "w": 20.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/r305-aQTaU0/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671060.6429996,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Gemini 2.5 Flash",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/full",
+        "best_score": 119.04
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/r305-aQTaU0/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Text diffusion can do\ne211\nAIE\nLI\nh 心··山\n1s-22- to1eli-1-\neul\nMind\nAI Engineer\nAIE EUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code-editor screenshot with small text is better handled by OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with pale cream inset",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Text diffusion can do fast in-place editing",
+            "x": 28.0,
+            "y": 4.0,
+            "w": 48.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "screenshot of code editor and UI",
+            "x": 30.0,
+            "y": 12.0,
+            "w": 60.0,
+            "h": 64.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/r305-aQTaU0/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671143.3968964,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Text diffusion can do fast in-place editing",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Text diffusion can do\ne211\nAIE\nLI\nh 心··山\n1s-22- to1eli-1-\neul\nMind\nAI Engineer\nAIE EUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 203.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Text diffusion can do\ne211\nAIE\nLI\nh 心··山\n1s-22- to1eli-1-\neul\nMind\nAI Engineer\nAIE EUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/r305-aQTaU0/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.89,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Low latency unlocks new applications",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black with pale cream inset",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Low latency unlocks new applications",
+            "x": 29.0,
+            "y": 4.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram",
+            "text": "large embedded video placeholder",
+            "x": 45.0,
+            "y": 14.0,
+            "w": 35.0,
+            "h": 66.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/r305-aQTaU0/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671178.1921134,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Low latency unlocks new applications",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/r305-aQTaU0/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "/ UV)6\nList\n(elenmme)\nAIE\n41tiuaep/t.11) re aita A9o0\n-daalg1\nlei< (4el-oeceratime) (retsrm: 1\nEngineering the future of Al\nAIEns",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "The slide contains a dense product/UI screenshot with small interface text that is suitable for OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with pale cream inset",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "diagram",
+            "text": "product UI screenshot",
+            "x": 34.0,
+            "y": 6.0,
+            "w": 56.0,
+            "h": 66.0
+          },
+          {
+            "role": "title",
+            "text": "Engineering the future of AI",
+            "x": 43.0,
+            "y": 80.0,
+            "w": 38.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/r305-aQTaU0/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671178.1926336,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "/ UV)6\nList\n(elenmme)\nAIE\n41tiuaep/t.11) re aita A9o0\n-daalg1\nlei< (4el-oeceratime) (retsrm: 1\nEngineering the future of Al\nAIEns",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 229.32
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "/ UV)6\nList\n(elenmme)\nAIE\n41tiuaep/t.11) re aita A9o0\n-daalg1\nlei< (4el-oeceratime) (retsrm: 1\nEngineering the future of Al\nAIEns",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/r305-aQTaU0/slide-009.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.95,
+      "frame_type": "title_card",
+      "reject_reason": "speaker intro/title card over stage shot",
+      "text": "Text Diffusion",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "speaker intro/title card; OCR not needed",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark photo",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Text Diffusion",
+            "x": 36.0,
+            "y": 14.0,
+            "w": 28.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/r305-aQTaU0/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670975.8886116,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Text Diffusion",
+      "advanced_ocr": {}
+    }
+  ]
+}

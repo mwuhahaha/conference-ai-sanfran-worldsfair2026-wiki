@@ -1,0 +1,178 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Requirements Product System Design and Monitoring Evaluation Production Readiness 1\nproblem Identify the business and retrieval techniques Identify data sources guardrails Define system Optimize for accuracy\nIdentify your constraints stack architecture and.tech Select system Define offline evaluation metrics Optimize for. cost and latency\nDefine the role of AI feedback loops Determine the UX and Define online evaluation metrics Optimize for reliability",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense table with small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Product Requirements",
+        "x": 21.0,
+        "y": 15.0,
+        "w": 16.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "System Design",
+        "x": 38.0,
+        "y": 15.0,
+        "w": 16.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "Evaluation and Monitoring",
+        "x": 56.0,
+        "y": 15.0,
+        "w": 16.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "Production Readiness",
+        "x": 76.0,
+        "y": 15.0,
+        "w": 16.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "Identify the business problem",
+        "x": 21.0,
+        "y": 26.0,
+        "w": 16.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Identify your constraints",
+        "x": 21.0,
+        "y": 39.0,
+        "w": 16.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Define the role of AI",
+        "x": 21.0,
+        "y": 52.0,
+        "w": 16.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Define success metrics",
+        "x": 21.0,
+        "y": 66.0,
+        "w": 16.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Identify data sources and retrieval techniques",
+        "x": 38.0,
+        "y": 26.0,
+        "w": 18.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Select system architecture and tech stack",
+        "x": 38.0,
+        "y": 39.0,
+        "w": 18.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Determine the UX and feedback loops",
+        "x": 38.0,
+        "y": 52.0,
+        "w": 18.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Define system guardrails",
+        "x": 56.0,
+        "y": 26.0,
+        "w": 16.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Define offline evaluation metrics",
+        "x": 56.0,
+        "y": 39.0,
+        "w": 16.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Define online evaluation metrics",
+        "x": 56.0,
+        "y": 52.0,
+        "w": 16.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Optimize for accuracy",
+        "x": 76.0,
+        "y": 26.0,
+        "w": 16.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Optimize for cost and latency",
+        "x": 76.0,
+        "y": 39.0,
+        "w": 16.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Optimize for reliability",
+        "x": 76.0,
+        "y": 52.0,
+        "w": 16.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/T0HhO4YtTfE/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663691.0770838,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Requirements Product System Design and Monitoring Evaluation Production Readiness 1\nproblem Identify the business and retrieval techniques Identify data sources guardrails Define system Optimize for accuracy\nIdentify your constraints stack architecture and.tech Select system Define offline evaluation metrics Optimize for. cost and latency\nDefine the role of AI feedback loops Determine the UX and Define online evaluation metrics Optimize for reliability",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 626.61
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Requirements Product System Design and Monitoring Evaluation Production Readiness 1\nproblem Identify the business and retrieval techniques Identify data sources guardrails Define system Optimize for accuracy\nIdentify your constraints stack architecture and.tech Select system Define offline evaluation metrics Optimize for. cost and latency\nDefine the role of AI feedback loops Determine the UX and Define online evaluation metrics Optimize for reliability",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

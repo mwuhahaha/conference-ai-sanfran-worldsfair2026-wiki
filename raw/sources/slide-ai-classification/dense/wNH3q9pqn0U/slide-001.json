@@ -1,0 +1,87 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "LabMind",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with multiple small labels and panels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 3.0,
+        "y": 19.0,
+        "w": 11.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "LabMind",
+        "x": 40.0,
+        "y": 2.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "label",
+        "text": "Research Assistant",
+        "x": 76.0,
+        "y": 16.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "label",
+        "text": "Sensor Array",
+        "x": 44.0,
+        "y": 48.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Analyze Sensor Data",
+        "x": 40.0,
+        "y": 58.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 61.0,
+        "y": 85.0,
+        "w": 10.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672381.756883,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "LabMind",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 122.76,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

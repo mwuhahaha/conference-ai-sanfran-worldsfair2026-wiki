@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Example inport ( Chat. languagcHodel ) from \"@elfect/si\" Tho Hamess Our agent loop,\n// Streaaing chat with tool suppart leport ( Etfect, Streaa ) fros \"cffect\" rebuilt\nconst streanirgchat = Effect.genifunction- () (\nConst chat = yielo- chat.ctoty Effect-native.\nYielce chat\n.stresnTexti(\nproapt: \"Generate a crcative story\"\n11\n.pipeiStrean.runforEachiipartl => Effect.synci() = console.toglpart/l!)\nThe core loop started on LangGraph. It now runs fully\nEffect-native typed control flow, structured concurrency, and\nSource: https//effect-ts.github \"zvt-o0- co- language model if we were to uh the agent loop. resource safety end to end, Aiso allows more granular control t",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code and small explanatory text are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "Example",
+        "x": 1.0,
+        "y": 14.0,
+        "w": 60.0,
+        "h": 58.0
+      },
+      {
+        "role": "title",
+        "text": "The Harness\nOur agent loop, rebuilt Effect-native.",
+        "x": 63.0,
+        "y": 16.0,
+        "w": 31.0,
+        "h": 28.0
+      },
+      {
+        "role": "body",
+        "text": "The core loop started on LangGraph. It now runs fully Effect-native, typed control flow, structured concurrency, and resource safety end to end. Also allows more granular control to the agent loop.",
+        "x": 63.0,
+        "y": 65.0,
+        "w": 32.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668951.8677933,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Example inport ( Chat. languagcHodel ) from \"@elfect/si\" Tho Hamess Our agent loop,\n// Streaaing chat with tool suppart leport ( Etfect, Streaa ) fros \"cffect\" rebuilt\nconst streanirgchat = Effect.genifunction- () (\nConst chat = yielo- chat.ctoty Effect-native.\nYielce chat\n.stresnTexti(\nproapt: \"Generate a crcative story\"\n11\n.pipeiStrean.runforEachiipartl => Effect.synci() = console.toglpart/l!)\nThe core loop started on LangGraph. It now runs fully\nEffect-native typed control flow, structured concurrency, and\nSource: https//effect-ts.github \"zvt-o0- co- language model if we were to uh the agent loop. resource safety end to end, Aiso allows more granular control t",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 907.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Example inport ( Chat. languagcHodel ) from \"@elfect/si\" Tho Hamess Our agent loop,\n// Streaaing chat with tool suppart leport ( Etfect, Streaa ) fros \"cffect\" rebuilt\nconst streanirgchat = Effect.genifunction- () (\nConst chat = yielo- chat.ctoty Effect-native.\nYielce chat\n.stresnTexti(\nproapt: \"Generate a crcative story\"\n11\n.pipeiStrean.runforEachiipartl => Effect.synci() = console.toglpart/l!)\nThe core loop started on LangGraph. It now runs fully\nEffect-native typed control flow, structured concurrency, and\nSource: https//effect-ts.github \"zvt-o0- co- language model if we were to uh the agent loop. resource safety end to end, Aiso allows more granular control t",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

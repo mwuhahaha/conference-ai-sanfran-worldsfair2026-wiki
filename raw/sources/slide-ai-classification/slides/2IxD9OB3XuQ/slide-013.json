@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Principle 2 — Holistic\n\nOne failure may have several causes and several possible repairs.\n\nFailure: the agent cites a stale policy and skips the required escalation.\n\nMemory\nremove the stale fact; fix retrieval\n\nPrompt\nclarify when the escalation triggers\n\nTool\nnormalize the policy lookup result\n\nWorkflow\nadd escalation gate before refund\n\nModel\nroute to a stronger reasoner",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-panel slide with many small labels and callouts; OCR will read it better than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Principle 2 — Holistic",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 33.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "One failure may have several causes and several possible repairs.",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 58.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Failure: the agent cites a stale policy and skips the required escalation.",
+        "x": 12.0,
+        "y": 24.0,
+        "w": 84.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Memory",
+        "x": 4.0,
+        "y": 42.0,
+        "w": 16.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Prompt",
+        "x": 22.0,
+        "y": 42.0,
+        "w": 16.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tool",
+        "x": 40.0,
+        "y": 42.0,
+        "w": 16.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Workflow",
+        "x": 58.0,
+        "y": 42.0,
+        "w": 16.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 76.0,
+        "y": 42.0,
+        "w": 16.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656703.6378915,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Principle 2 — Holistic",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Principte2=Holistic\nOne failure may have several causes and several possible repairs.\nFailure: the agent cites a stale policy and skips the required escalatione\nMemory Prompt Toot Workftow Model:\nremove the stale fact;: fix retrieval: escalation triggers. Clarify when the. normauize the policy. lookup result add escalation gate before refund route to a stronge reasoner.\nRoute the fixto the layers that explainsthe failure with the smallest durable c",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 752.88
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Principle 2 — Holistic\n\nOne failure may have several causes and several possible repairs.\n\nFailure: the agent cites a stale policy and skips the required escalation.\n\nMemory\nremove the stale fact; fix retrieval\n\nPrompt\nclarify when the escalation triggers\n\nTool\nnormalize the policy lookup result\n\nWorkflow\nadd escalation gate before refund\n\nModel\nroute to a stronger reasoner",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for title, punctuation, and box text; bottom banner omitted because it is partially obscured in the image."
+  }
+}

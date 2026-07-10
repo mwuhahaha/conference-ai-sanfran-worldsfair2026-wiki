@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "CAPABILITY OVERHANG\nClaude gets smarter in spiky ways",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable slide; OCR not needed in triage",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "warm off-white with black cliff illustration",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "CAPABILITY OVERHANG",
+        "x": 29.0,
+        "y": 19.0,
+        "w": 23.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "Claude gets smarter in spiky ways",
+        "x": 29.0,
+        "y": 29.0,
+        "w": 30.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/9fubhllmsBU/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658280.9829159,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "CAPABILITY OVERHANG\nClaude gets smarter in spiky ways",
+  "advanced_ocr": {}
+}

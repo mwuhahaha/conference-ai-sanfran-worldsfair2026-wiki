@@ -17,68 +17,47 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/grdoOC1BT1s/slide-001.jpg]]
 ![[assets/slides/grdoOC1BT1s/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/grdoOC1BT1s/slide-002.html)
+- AI slide classifier: `title_card` confidence `0.95`
+- Text source: agent_vision.
 
-> ee ee soe .
-> re . a a 0 x) 1.
-> a vn
-> aS
-> Bp te
-> al PR Lette ad Pres ero
-> Pa a a e . a + *.
-> Aare ae (Om 0 me
-> int oo ae LJ
-> Care ae speaker david
-> a oe * % 5
-> “a nme a? - oe i
-> 
-> Think You Can Build a Game? Think Again?
-> 
-> Danielle An & David Hoe — AI Engineer Europe
-> 
-> 2026
-> 
-> i
-> i
-> 7 : 2 tJ
-> es Engineering the future of Al
-> , a _ |
-> 
-> cna |]
+Slide text:
+
+> Engineering the future of AI
 
 ![[assets/slides/grdoOC1BT1s/slide-003.jpg]]
 
-OCR text:
-
-> Round 1
-> AI Engineer
-> EUROPE
-
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/grdoOC1BT1s/slide-003.html)
+- AI slide classifier: `demo_video` confidence `0.74`
+- Text source: none.
+- Slide text: not surfaced (`decorative` by AI classifier).
 ![[assets/slides/grdoOC1BT1s/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/grdoOC1BT1s/slide-004.html)
+- AI slide classifier: `title_card` confidence `0.96`
+- Text source: agent_vision.
+
+Slide text:
 
 > Engineering the future of AI
 
 ![[assets/slides/grdoOC1BT1s/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/grdoOC1BT1s/slide-005.html)
+- AI slide classifier: `title_card` confidence `0.95`
+- Text source: agent_vision.
 
-> ar nes a Caan
-> KID Wi6
-> « * &
-> * * ry : ‘4
-> im t fw
-> 5d ad
-> * a
-> s exhausting to keer us ry a
-> Car iba
-> Ra
-> Engineering the future of Al
-> le |
+Slide text:
+
+> Engineering the future of AI
+
+
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/grdoOC1BT1s/slide-001.jpg) — `speaker_stage` confidence `0.12`; camera shot of presenters and audience; projected slide is too small and unreadable
+
+Classification audit: `raw/sources/slide-ai-classification/slides/grdoOC1BT1s/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

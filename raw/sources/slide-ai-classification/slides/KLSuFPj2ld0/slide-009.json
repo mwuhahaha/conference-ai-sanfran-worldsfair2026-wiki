@@ -1,0 +1,71 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Machine Payments Protocol",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with small embedded protocol text that OCR is likely to read better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#4b1fe8 with black side and bottom bands",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Machine Payments Protocol",
+        "x": 25.0,
+        "y": 3.0,
+        "w": 36.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "stripe",
+        "x": 95.0,
+        "y": 3.0,
+        "w": 3.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 16.0,
+        "h": 18.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 53.0,
+        "y": 83.0,
+        "w": 25.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/KLSuFPj2ld0/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660805.115053,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Machine Payments Protocol",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 111.72,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

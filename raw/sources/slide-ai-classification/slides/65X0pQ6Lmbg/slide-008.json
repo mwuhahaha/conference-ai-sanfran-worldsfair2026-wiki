@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "The Tyranny of Latency",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#132117",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 6.0,
+        "y": 13.0,
+        "w": 14.0,
+        "h": 13.0
+      },
+      {
+        "role": "title",
+        "text": "The Tyranny of Latency",
+        "x": 30.0,
+        "y": 17.0,
+        "w": 60.0,
+        "h": 25.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/65X0pQ6Lmbg/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657736.3276696,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Tyranny of Latency",
+  "advanced_ocr": {}
+}

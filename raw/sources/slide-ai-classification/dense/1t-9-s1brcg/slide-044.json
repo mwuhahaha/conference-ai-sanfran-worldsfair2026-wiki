@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "GitHub Copilot\n\nWelcome, @pamelafax, I'm your Copilot and I'm here to help you get things done faster. You can also start an inline chat session.\n\nI'm powered by AI, so surprises and mistakes are possible. Make sure to verify any generated code or suggestions, share feedback so we can learn and improve. Check out the Copilot documentation to learn more.\n\nFix the problems in my code\nTests add unit tests for my code\nExplain how the selected code works\n\nAsk Copilot or type / for commands\n\n```python\ndef test_citation_match_filenames_only():\n    truth = 'Use settings like \"python.linting.enabled\": true'\n    answer = 'Use extension with setting \"python.linting.enabled\" ...'\n\n    metric = code_metrics.CitationMatchMetric()\n    metric_function = metric.evaluator_fn()\n    assert metric_function(ground_truth=truth, answer=answer)\n\ndef test_citation_match_none():\n    metric = code_metrics.CitationMatchMetric()\n    metric_function = metric.evaluator_fn()\n    assert metric_function(ground_truth=\"Answer\", answer=None)\n\ndef test_latency():\n    metric = code_metrics.LatencyMetric()\n```",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code editor and chat screenshot with small text and multiple panes.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige editor theme",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "GitHub Copilot",
+        "x": 0,
+        "y": 0,
+        "w": 22.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "test_evaluate_metrics.py",
+        "x": 43.0,
+        "y": 0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "README.md",
+        "x": 40.0,
+        "y": 0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "groundedness.prompt",
+        "x": 58.0,
+        "y": 0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "def test_citation_match_filenames_only()",
+        "x": 42.0,
+        "y": 17.0,
+        "w": 50.0,
+        "h": 76.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-044.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-044.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659642.5081468,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "CHA!. + tert euke,moiripy X @ REEMEmd 4 +\nYekcoet, O pemelfor, Pm rour Copdct ara rin Pre to heo jyou get birge dore Tn powered by All so turprlt snd mltaket sre potubie iule tre to vetty ary Ftetts'edd urit wts tor ey code fotter, You can aho tan sn hine' chut vesior. othtrttd code cr ssott'ori, sid ilve ietsk to tut we Cin hah.ird JTa the prebles h ay codt 8 mprove. Check out the Ceplot documents'on to lhre mort. Ae pi+'n hon the telee ted cede wort.s Ath Coplot or rype / for cor.lhd! Github Coptot Icrott > tts s + t+tt_rystuee_+rics.py ) -- 62 58 70 57 61 72. 73. 64 74 56 59 60 65 66 68. 69 71 75: 63 67 42 def.test citation_match filcnsaes_ontyO:l def·test_latency():! def tcst_citation_m>. ummry def test_citation match_nonc():1.- +truth-=. 'Use settings-like.\"python.linting.cnabted\":tru +*+assert cetric_function(ground_trutha\"Ansver\", answeraNone +-.answer z. 'Use:extension with·setting \"python.linting.cnal..df =·pd.DataFrane( (\"citation_aatch\":-True),:(\"citation.'metric.=:code_metrics.CitotionMatchmMetric()..betric_function:s metric.evaluator_fn()!.assert-metric.get_aggregate_stats(df).-.(\"total\":-1).nctric_function·z.mctric.cvaluator_tn() ( cetric-a·code_metrics.CitationMatchMetric()] asscrt-ectric.gct agorcgatc stats(df)r-a asscrt metric_function(ground_truth=truth,:ansver-answcr \"totalt\nOa@oA4EyoaD coma Igum swfkOwaca! q0no! 性 La 15x, Cel 1 (7204 t Ugerc@wooallu 76. metric -wcade'no!",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1570.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "GitHub Copilot\n\nWelcome, @pamelafax, I'm your Copilot and I'm here to help you get things done faster. You can also start an inline chat session.\n\nI'm powered by AI, so surprises and mistakes are possible. Make sure to verify any generated code or suggestions, share feedback so we can learn and improve. Check out the Copilot documentation to learn more.\n\nFix the problems in my code\nTests add unit tests for my code\nExplain how the selected code works\n\nAsk Copilot or type / for commands\n\n```python\ndef test_citation_match_filenames_only():\n    truth = 'Use settings like \"python.linting.enabled\": true'\n    answer = 'Use extension with setting \"python.linting.enabled\" ...'\n\n    metric = code_metrics.CitationMatchMetric()\n    metric_function = metric.evaluator_fn()\n    assert metric_function(ground_truth=truth, answer=answer)\n\ndef test_citation_match_none():\n    metric = code_metrics.CitationMatchMetric()\n    metric_function = metric.evaluator_fn()\n    assert metric_function(ground_truth=\"Answer\", answer=None)\n\ndef test_latency():\n    metric = code_metrics.LatencyMetric()\n```",
+    "text_status": "meaningful",
+    "corrections": "OCR was heavily corrected from the visible GitHub Copilot panel and Python test code; only clearly readable text was kept."
+  }
+}

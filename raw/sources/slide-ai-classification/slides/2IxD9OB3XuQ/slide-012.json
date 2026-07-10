@@ -1,0 +1,146 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Principle 1 — Replayable\nTurn a one-off failure into a test you can re-run.\n\nWHAT YOU HAVE\nlog\nwhat happened once; a single trace\n+ feedback\nwhat went wrong, and what to do instead\n\nWHAT YOU NEED\nlearning environment\nreplayable task + grading rule\nuser  synthetic persona, replays the interaction\ntools  real or mocked calls\njudge  scores pass / fail / rew…",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "multi-column explanatory slide with small labels and boxes",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Principle 1 — Replayable",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 40.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Turn a one-off failure into a test you can re-run.",
+        "x": 4.0,
+        "y": 14.0,
+        "w": 43.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "WHAT YOU HAVE",
+        "x": 11.0,
+        "y": 20.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "WHAT YOU NEED",
+        "x": 56.0,
+        "y": 20.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "log",
+        "x": 11.0,
+        "y": 33.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "what happened once; a single trace",
+        "x": 11.0,
+        "y": 38.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "+ feedback",
+        "x": 11.0,
+        "y": 45.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "what went wrong, and what to do instead",
+        "x": 11.0,
+        "y": 50.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "learning environment",
+        "x": 56.0,
+        "y": 29.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "replayable task + grading rule",
+        "x": 56.0,
+        "y": 36.0,
+        "w": 25.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "user",
+        "x": 58.0,
+        "y": 42.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "tools",
+        "x": 58.0,
+        "y": 49.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "judge",
+        "x": 58.0,
+        "y": 56.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656499.7242684,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Principle 1 — Replayable",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Principle1Replayable\nTurn a one-off failure into a test you can re-run.\nWHAT YOU HAVE WhAT YOU NEED\n1og: learning environment\nWhat happened once; a single trace lift amfupea tyseleqaAeidar:\n+ feedback symthotic persona, replnys the interacton\nWhat went wrong and what to do instead too1s real or mocked calls\nJudse. scores pass / fail/ rey",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 576.52
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Principle 1 — Replayable\nTurn a one-off failure into a test you can re-run.\n\nWHAT YOU HAVE\nlog\nwhat happened once; a single trace\n+ feedback\nwhat went wrong, and what to do instead\n\nWHAT YOU NEED\nlearning environment\nreplayable task + grading rule\nuser  synthetic persona, replays the interaction\ntools  real or mocked calls\njudge  scores pass / fail / rew…",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for capitalization, punctuation, and obvious word errors; final judge-row text is partially obscured in the image."
+  }
+}

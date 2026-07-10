@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "dmmnmhuiedbupina wosuossa Were all leaming here\nCLIP Can Read\nDraw a raccoon driving a tractor Gobs Rsnking: S86 cuA cf 10.187 ubmissiem Draw a raccoon driving a tractor Globst Rnking: 81 cit ot 10.187 swbmissioms A raccooh\nTRACTOR\nTRY AGAIN thoop crlr Geng Try AGAIn Rooe Wotr womg\n10",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense comparison slide with small captions and example text; OCR is better for full extraction",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "CLIP Can Read",
+        "x": 7.0,
+        "y": 14.0,
+        "w": 30.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Lessons from Building Paint.wtf with CLIP",
+        "x": 2.0,
+        "y": 0,
+        "w": 64.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "We're all learning here",
+        "x": 70.0,
+        "y": 0,
+        "w": 27.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Draw a raccoon driving a tractor",
+        "x": 18.0,
+        "y": 20.0,
+        "w": 32.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Draw a raccoon driving a tractor",
+        "x": 60.0,
+        "y": 20.0,
+        "w": 33.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/OimPoLxioYg/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662836.1112623,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "CLIP Can Read",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "dmmnmhuiedbupina wosuossa Were all leaming here\nCLIP Can Read\nDraw a raccoon driving a tractor Gobs Rsnking: S86 cuA cf 10.187 ubmissiem Draw a raccoon driving a tractor Globst Rnking: 81 cit ot 10.187 swbmissioms A raccooh\nTRACTOR\nTRY AGAIN thoop crlr Geng Try AGAIn Rooe Wotr womg\n10",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 462.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "dmmnmhuiedbupina wosuossa Were all leaming here\nCLIP Can Read\nDraw a raccoon driving a tractor Gobs Rsnking: S86 cuA cf 10.187 ubmissiem Draw a raccoon driving a tractor Globst Rnking: 81 cit ot 10.187 swbmissioms A raccooh\nTRACTOR\nTRY AGAIN thoop crlr Geng Try AGAIn Rooe Wotr womg\n10",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

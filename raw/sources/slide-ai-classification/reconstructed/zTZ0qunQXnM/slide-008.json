@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Sarch\n? chedied\nTideor\nCorteat\n500\nRnngGoacraen g\nAIE\nn\nleLeM\nDN 4922V L4PV\nibi AI Engineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product/UI screenshot with tables and small text; OCR is better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#000000",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 18.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 27.0,
+        "y": 0,
+        "w": 68.0,
+        "h": 84.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 55.0,
+        "y": 76.0,
+        "w": 26.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/reconstructed-slides/zTZ0qunQXnM/slide-008.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673265.7421138,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Sarch\n? chedied\nTideor\nCorteat\n500\nRnngGoacraen g\nAIE\nn\nleLeM\nDN 4922V L4PV\nibi AI Engineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 163.64
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Sarch\n? chedied\nTideor\nCorteat\n500\nRnngGoacraen g\nAIE\nn\nleLeM\nDN 4922V L4PV\nibi AI Engineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

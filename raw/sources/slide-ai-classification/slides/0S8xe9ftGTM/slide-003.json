@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Channel analytics\nHow did my content perform?\nHow many new viewers did I reach?\nSummarize my latest video performance\nOverview  Content  Audience  Revenue  Trends\nMonthly audience\n823.9K\nSubscribers\n+514.5K\nAudience by watch behavior\nMonthly audience · Jun 19, 2026\nNew viewers 42.0%\nCasual viewers 48.3%\nRegular viewers 9.6%\nPopular with different audiences\nViews · Lifetime\nDon't Build Agents, Build Skills Instead\nThe New Coder - Sean Grove, OpenAI\nFull Walkthrough: Workflow For AI Cod...\nSoftware Fundamentals Matter More T...",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Channel analytics",
+        "x": 14.0,
+        "y": 10.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "823.9K",
+        "x": 25.0,
+        "y": 17.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "+514.5K",
+        "x": 46.0,
+        "y": 17.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Monthly audience",
+        "x": 14.0,
+        "y": 36.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Audience by watch behavior",
+        "x": 14.0,
+        "y": 70.0,
+        "w": 25.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Popular with different audiences",
+        "x": 48.0,
+        "y": 70.0,
+        "w": 29.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655694.0542214,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Channel analytics",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "X: *A + p# * a A frghw+ walbtFa 2o)1.:x 1. 0 Pirgs tbet At 2o24: 0o × I. +:\nG: stucto,yout,be.com,charrelUCLKPca3hwwd B59+Nr-_MAanslylcsab-buld_aualonca/petiod-scetime\nD Studo Puutp nef trarn purs @① +\nChannel analytics\nAIE How did rlirttt Tnd imy cerir * 4l n+-?\nYour chsers N Awaente Rvrve Tremda Cirhne $+p 1t?+1 -.a 11, 3*t4\n器 Cotbet Destboerd Tntety tautt 823.9K +514.5K'\nAanytes\nia, 4, 4, *1\n? Lrguvgts Coebanl drirctioa 187.331 t0p.0. L\ntarm (p 14. 34.1 E +tp, 14, 72+ F1201 MH, 21F ++1 004\nCustemL0ca\nCIEtO TUtTe ETEL\nAudltce by wtch bthrror △ Lhnet, tudilot + Js H, ites Populsr with dfferet Hdlenctt △\nH14\n+ 4x D+'t +t Ao+++e, Ih D.ht tmied +- 44.t\n每 Srtirgs +\" I+ wtilrogt 'trloe her A Codi. $51.t T+.h.\nB++s i++b+k 4t0.0nt A'Engire",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 871.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Channel analytics\nHow did my content perform?\nHow many new viewers did I reach?\nSummarize my latest video performance\nOverview  Content  Audience  Revenue  Trends\nMonthly audience\n823.9K\nSubscribers\n+514.5K\nAudience by watch behavior\nMonthly audience · Jun 19, 2026\nNew viewers 42.0%\nCasual viewers 48.3%\nRegular viewers 9.6%\nPopular with different audiences\nViews · Lifetime\nDon't Build Agents, Build Skills Instead\nThe New Coder - Sean Grove, OpenAI\nFull Walkthrough: Workflow For AI Cod...\nSoftware Fundamentals Matter More T...",
+    "text_status": "meaningful",
+    "corrections": "Accepted the visible YouTube Studio analytics text and corrected obvious OCR errors; omitted illegible UI chrome and unreadable chart ticks."
+  }
+}

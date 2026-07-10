@@ -1,0 +1,80 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small multi-column slide with several section headers and fine-grained bullet text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with green side accents",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Layer 1: The Intelligent Foundation",
+        "x": 10.0,
+        "y": 6.0,
+        "w": 70.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Smart Application & Licensing",
+        "x": 10.0,
+        "y": 48.0,
+        "w": 14.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "Dynamic Exam Management",
+        "x": 26.0,
+        "y": 48.0,
+        "w": 14.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "Intelligent Case & Billing",
+        "x": 42.0,
+        "y": 48.0,
+        "w": 14.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "Conversational Data Access",
+        "x": 58.0,
+        "y": 48.0,
+        "w": 14.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "The Intelligence Layer",
+        "x": 79.0,
+        "y": 48.0,
+        "w": 14.0,
+        "h": 26.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658489.7701693,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

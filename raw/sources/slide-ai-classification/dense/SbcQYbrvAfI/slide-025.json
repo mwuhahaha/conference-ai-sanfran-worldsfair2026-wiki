@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "epuiosc > big_bench hard > banchmares: >codhg_sgmtruh PROuPT-LEARNiNO + Code.:+ Markdowm. I > Run Al O Rostant B Chr All Outputs:| e Vhw data Jupyter Varisbln: I Outins': soss\"Astxiost eroosroaai 'esoss Voycpasd 'sossy boduy taiowusrops iwar + ( soynon ruonppy in < quird-voprauowcedqam Nosr a < syooqoiou tet coajute matriclytrue' y.prrd, scorer-accurry/r- 0.91': sa_codo (Python 3.10.19) Python\n.) dstssets?.Y notebooks [ artzeax stpport a BtzNorm-100_oal Optimization Loop This cell kmplemonts tho coro prompt optimization algorithm. The loop folows & 3-stcp process:-\ntestcsv m tar.csy: Ioma_supportqu... B phoenb support q. x: mataprompt.txt: u support_quory cla.. 0 Key parsmeters:: oui -viep uoerqeas meu pue 'sidwond pazpurido 'sojoss Aoemose isatujen bupnpu siprsas poneiap suuniai pue suopejay ssoog sopisw sysen wuuobye bl1 ' ssuioaios jjotn oienjeae pue joseiep isai oui uo jdwoud juaums sun Supsn sindino ojereuog onenjeas g ajtaueg Train & Optimlzo: lf results are unsatlsfsctory, genorata outputs on tho training sat, evaluste them and uso the feedbsck to croato an improved prompt:. peapos, yolemjeao uo poseq jduod was/s ou ouyoy Aaanlol ol ornuidoouueondwald 5u sosn tojioziupdo Hterate; Rtpeat untl either the threshold is met or al loops are completed\nin'tyuowannbeu t. Sdwod t. ① READuEmd A UCeNSEtt: 3OONa Xoptm'ze_sdk + num_rules: Number ot avaluation rules to use + ithreshold: Targot accuracy score to stop optimzatlon? (notebookdtr path().sbsolute().tron pathlib inport Path loops: Moaxlmum number of optimlzation lterations sys.gatn.1nsert(e; str(notebook_dir.parent)) Lnport syt Tros opt inixer sdk.pranpt learning optinlzer Lport Prowotlcacningogtinizer [scorer: Motric lo optimlze (occuracy, (1. procision, reca!)\n: 2Hurl < OUTLDHE prompthemng: 0 1 A 9O 16 B Sohct Pottgnh Serr' dat optlnire_toopt toain'set,. test_set,. systea_proept, Crtor tob Fa -,Spac+L4. LF - t) 2025:11:22 13:20:18 Coh 18 ot 27",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense notebook text with paragraph and bullets; OCR likely more accurate than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Optimization Loop",
+        "x": 14.0,
+        "y": 20.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Generate & Evaluate\nTrain & Optimize\nIterate",
+        "x": 14.0,
+        "y": 33.0,
+        "w": 62.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "Key parameters\nthreshold\nloops\nscorer\nnum_rules",
+        "x": 14.0,
+        "y": 66.0,
+        "w": 34.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-025.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-025.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665674.4320369,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Optimization Loop",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "epuiosc > big_bench hard > banchmares: >codhg_sgmtruh PROuPT-LEARNiNO + Code.:+ Markdowm. I > Run Al O Rostant B Chr All Outputs:| e Vhw data Jupyter Varisbln: I Outins': soss\"Astxiost eroosroaai 'esoss Voycpasd 'sossy boduy taiowusrops iwar + ( soynon ruonppy in < quird-voprauowcedqam Nosr a < syooqoiou tet coajute matriclytrue' y.prrd, scorer-accurry/r- 0.91': sa_codo (Python 3.10.19) Python\n.) dstssets?.Y notebooks [ artzeax stpport a BtzNorm-100_oal Optimization Loop This cell kmplemonts tho coro prompt optimization algorithm. The loop folows & 3-stcp process:-\ntestcsv m tar.csy: Ioma_supportqu... B phoenb support q. x: mataprompt.txt: u support_quory cla.. 0 Key parsmeters:: oui -viep uoerqeas meu pue 'sidwond pazpurido 'sojoss Aoemose isatujen bupnpu siprsas poneiap suuniai pue suopejay ssoog sopisw sysen wuuobye bl1 ' ssuioaios jjotn oienjeae pue joseiep isai oui uo jdwoud juaums sun Supsn sindino ojereuog onenjeas g ajtaueg Train & Optimlzo: lf results are unsatlsfsctory, genorata outputs on tho training sat, evaluste them and uso the feedbsck to croato an improved prompt:. peapos, yolemjeao uo poseq jduod was/s ou ouyoy Aaanlol ol ornuidoouueondwald 5u sosn tojioziupdo Hterate; Rtpeat untl either the threshold is met or al loops are completed\nin'tyuowannbeu t. Sdwod t. ① READuEmd A UCeNSEtt: 3OONa Xoptm'ze_sdk + num_rules: Number ot avaluation rules to use + ithreshold: Targot accuracy score to stop optimzatlon? (notebookdtr path().sbsolute().tron pathlib inport Path loops: Moaxlmum number of optimlzation lterations sys.gatn.1nsert(e; str(notebook_dir.parent)) Lnport syt Tros opt inixer sdk.pranpt learning optinlzer Lport Prowotlcacningogtinizer [scorer: Motric lo optimlze (occuracy, (1. procision, reca!)\n: 2Hurl < OUTLDHE prompthemng: 0 1 A 9O 16 B Sohct Pottgnh Serr' dat optlnire_toopt toain'set,. test_set,. systea_proept, Crtor tob Fa -,Spac+L4. LF - t) 2025:11:22 13:20:18 Coh 18 ot 27",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2338.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "epuiosc > big_bench hard > banchmares: >codhg_sgmtruh PROuPT-LEARNiNO + Code.:+ Markdowm. I > Run Al O Rostant B Chr All Outputs:| e Vhw data Jupyter Varisbln: I Outins': soss\"Astxiost eroosroaai 'esoss Voycpasd 'sossy boduy taiowusrops iwar + ( soynon ruonppy in < quird-voprauowcedqam Nosr a < syooqoiou tet coajute matriclytrue' y.prrd, scorer-accurry/r- 0.91': sa_codo (Python 3.10.19) Python\n.) dstssets?.Y notebooks [ artzeax stpport a BtzNorm-100_oal Optimization Loop This cell kmplemonts tho coro prompt optimization algorithm. The loop folows & 3-stcp process:-\ntestcsv m tar.csy: Ioma_supportqu... B phoenb support q. x: mataprompt.txt: u support_quory cla.. 0 Key parsmeters:: oui -viep uoerqeas meu pue 'sidwond pazpurido 'sojoss Aoemose isatujen bupnpu siprsas poneiap suuniai pue suopejay ssoog sopisw sysen wuuobye bl1 ' ssuioaios jjotn oienjeae pue joseiep isai oui uo jdwoud juaums sun Supsn sindino ojereuog onenjeas g ajtaueg Train & Optimlzo: lf results are unsatlsfsctory, genorata outputs on tho training sat, evaluste them and uso the feedbsck to croato an improved prompt:. peapos, yolemjeao uo poseq jduod was/s ou ouyoy Aaanlol ol ornuidoouueondwald 5u sosn tojioziupdo Hterate; Rtpeat untl either the threshold is met or al loops are completed\nin'tyuowannbeu t. Sdwod t. ① READuEmd A UCeNSEtt: 3OONa Xoptm'ze_sdk + num_rules: Number ot avaluation rules to use + ithreshold: Targot accuracy score to stop optimzatlon? (notebookdtr path().sbsolute().tron pathlib inport Path loops: Moaxlmum number of optimlzation lterations sys.gatn.1nsert(e; str(notebook_dir.parent)) Lnport syt Tros opt inixer sdk.pranpt learning optinlzer Lport Prowotlcacningogtinizer [scorer: Motric lo optimlze (occuracy, (1. procision, reca!)\n: 2Hurl < OUTLDHE prompthemng: 0 1 A 9O 16 B Sohct Pottgnh Serr' dat optlnire_toopt toain'set,. test_set,. systea_proept, Crtor tob Fa -,Spac+L4. LF - t) 2025:11:22 13:20:18 Coh 18 ot 27",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

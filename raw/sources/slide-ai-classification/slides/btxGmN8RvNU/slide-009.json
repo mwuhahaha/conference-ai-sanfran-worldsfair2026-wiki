@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "Branding/title card, not a content slide.",
+  "text": "AI Engineer EUROPE",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "Simple branding card; OCR not needed in triage.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI Engineer EUROPE",
+        "x": 28.0,
+        "y": 34.0,
+        "w": 44.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "HTTPS://AI.ENGINEER",
+        "x": 36.0,
+        "y": 87.0,
+        "w": 28.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/btxGmN8RvNU/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667090.760207,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Engineer EUROPE",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,48 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "slide contains a dense screenshot plus a readable aside title",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg, #090909 0 18%, #f0c05a 18% 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Aside: Worked for payments and fraud at Stripe too!",
+        "x": 50.0,
+        "y": 25.0,
+        "w": 38.0,
+        "h": 22.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 62.0,
+        "y": 74.0,
+        "w": 12.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/reconstructed-slides/2vlCqD6igVA/slide-004.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658098.964047,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

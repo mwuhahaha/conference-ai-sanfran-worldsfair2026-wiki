@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Split prompt-and-terminal demo screenshot with dense small text; OCR is needed for accurate capture.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "split light and dark",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Create a Google Docs clone where multiple people can join by specifying the name of the doc\nUse NodeJS and run the app on port 5737 in the background.",
+        "x": 2.0,
+        "y": 0,
+        "w": 52.0,
+        "h": 36.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 53.0,
+        "y": 0,
+        "w": 45.0,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-042.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-042.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783674201.6473823,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 1926.0,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0048
+  }
+}

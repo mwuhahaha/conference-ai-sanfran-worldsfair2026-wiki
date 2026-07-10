@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Signatures\nHow you “express your declarative intent”\nCan be simple strings or complex Class-based objects",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg,#30413d 0 50%,#f7f6f1 50% 100%)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Signatures",
+        "x": 7.0,
+        "y": 37.0,
+        "w": 26.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "How you “express your declarative intent”",
+        "x": 58.0,
+        "y": 19.0,
+        "w": 35.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Can be simple strings or complex Class-based objects",
+        "x": 58.0,
+        "y": 39.0,
+        "w": 36.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655169.5393002,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Signatures\nHow you “express your declarative intent”\nCan be simple strings or complex Class-based objects",
+  "advanced_ocr": {}
+}

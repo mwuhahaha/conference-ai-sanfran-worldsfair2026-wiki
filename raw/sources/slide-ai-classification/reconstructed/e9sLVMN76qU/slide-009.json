@@ -1,0 +1,60 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.96,
+  "frame_type": "title_card",
+  "reject_reason": "title card / branding only",
+  "text": "Daytona\nInfrastructure for AI Agents",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Daytona",
+        "x": 43.0,
+        "y": 21.0,
+        "w": 30.0,
+        "h": 14.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Infrastructure for AI Agents",
+        "x": 42.0,
+        "y": 45.0,
+        "w": 33.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 82.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 72.0,
+        "y": 82.0,
+        "w": 13.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/reconstructed-slides/e9sLVMN76qU/slide-009.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667479.3938975,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Daytona\nInfrastructure for AI Agents",
+  "advanced_ocr": {}
+}

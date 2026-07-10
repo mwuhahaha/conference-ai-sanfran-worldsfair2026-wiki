@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "First benchmark with full-stack CUA-verified tasks\nIgeneral\nWorkspace layout CUAVERIFIER PASS\nSuRK\nChec0]/C9\nSgn up & sign n\nSossion/account\nSlack-like layout\nsve-sarathoa.9rg",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Embedded product UI screenshot with checklist text; OCR is the better capture path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6f0e6",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "First benchmark with full-stack CUA-verified tasks",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 87.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Analytical Engine\n#general\nWorkspace layout\nPASS\nSign up & sign in\nSession / account\nSlack-like layout\nPost & persist?\nCreate channels\nHover toolbar\nEmoji picker\nReaction badges\nThreaded replies",
+        "x": 21.0,
+        "y": 25.0,
+        "w": 59.0,
+        "h": 50.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/Rx8f05JI_WA/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662802.1275673,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "First benchmark with full-stack CUA-verified tasks\nIgeneral\nWorkspace layout CUAVERIFIER PASS\nSuRK\nChec0]/C9\nSgn up & sign n\nSossion/account\nSlack-like layout\nsve-sarathoa.9rg",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 287.04
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "First benchmark with full-stack CUA-verified tasks\nIgeneral\nWorkspace layout CUAVERIFIER PASS\nSuRK\nChec0]/C9\nSgn up & sign n\nSossion/account\nSlack-like layout\nsve-sarathoa.9rg",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

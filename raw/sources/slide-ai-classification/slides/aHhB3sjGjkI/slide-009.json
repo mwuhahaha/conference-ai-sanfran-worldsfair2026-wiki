@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How autoresearch works.\nAutorescarth Progress: 83 Experiments, 15 Kept Improvcments.\nL000\neyy, b+t.\nValldaton BpB (lower ts better) 4 0.10\n4.985\n0.0\n26 Experimert s 40",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart screenshot with many small labels and annotations is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How autoresearch works",
+        "x": 8.0,
+        "y": 5.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Autoresearch Progress: 83 Experiments, 15 Kept Improvements",
+        "x": 16.0,
+        "y": 13.0,
+        "w": 46.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666362.461001,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "How autoresearch works",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "How autoresearch works.\nAutorescarth Progress: 83 Experiments, 15 Kept Improvcments.\nL000\neyy, b+t.\nValldaton BpB (lower ts better) 4 0.10\n4.985\n0.0\n26 Experimert s 40",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 240.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "How autoresearch works.\nAutorescarth Progress: 83 Experiments, 15 Kept Improvcments.\nL000\neyy, b+t.\nValldaton BpB (lower ts better) 4 0.10\n4.985\n0.0\n26 Experimert s 40",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

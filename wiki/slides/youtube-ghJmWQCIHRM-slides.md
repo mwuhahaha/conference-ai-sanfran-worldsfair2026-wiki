@@ -17,146 +17,86 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/ghJmWQCIHRM/slide-001.jpg]]
-
-OCR text:
-
-> The agent-ready web
-> AlEng
-
 ![[assets/slides/ghJmWQCIHRM/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ghJmWQCIHRM/slide-002.html)
+- AI slide classifier: `title_card` confidence `0.98`
+- Text source: agent_vision.
 
-> Go gle
+Slide text:
+
 > The agent-ready web
 > Simplify user actions with WebMCP
-> Tava Agyemeng ! April 2026
-> | Google DeepMind
+> Tara Agyemang / April 2026
 
 ![[assets/slides/ghJmWQCIHRM/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ghJmWQCIHRM/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.94`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — dense mixed code/UI slide with small text and screenshots
 
-> @ Stari
-> @ Statact
-> @ Staticl
-> arage
-> “ retgs..
-> thoes Featured Events
-> @ Sstaried
-> te e@  readirg
-> se laa @ StaticlT —_ Za 7 ]
-> Ca © Statict cation RS 4 ; ] i @
-> * * @  Staricl * —s 7 * Pad
-> Ltoge 5 7 ~ LV) a
-> * * baebos a ~— i
-> @ Starict > -
-> ad @ reads aa
-> @ stutact
-> @ Statist Adveeedh Forttent
-> @ Statiet Sates umes vant Feetivet
-> @  reagins
-> . @ Puttar Sn serge Se ee
-> @ putter
-> e  rutror £50 £89
-> @  buttor
-> Eid Oi Lage
-> . ae httes
-> taste: = a ’ .
-> @  Staticl [4
-> @  Peadire
-> @ Starict " ~
-> SS teuiasd
-> ; Engi ing the fut mY
-> a g g
-> Tv
-> (bets
+Slide text:
+
+> tat
+> Stat
+> AIE heacing https b30b53c Staticl heading Static Staticl Stoticl inoge Stoticl StoticI Staticl ht:ps::06047 AfrobeatFestival Featured Events SummerVibesFestival
+> headirg Static!
+> butron
+> headirg https:/ burton button bd47b1c StaticI Stotic button inage 150 89
+> Engineering the future of Al
+> AlEngin
+> Togces
 
 ![[assets/slides/ghJmWQCIHRM/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ghJmWQCIHRM/slide-004.html)
+- AI slide classifier: `title_card` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
 
 > WebMCP
 > Web Model Context Protocol
-> Google
 
 ![[assets/slides/ghJmWQCIHRM/slide-005.jpg]]
 
-OCR text:
-
-> . Ft gene tees get tem AN eee ec tae + B&R “
-> ga eee .
-> WebMCP Tools ~
-> dmecrigton: inguticharm:  smene
-> cts nn
-> ANE places fhe pivene at the Comet comer The poe ar yw
-> rane o Ato reach tne este Pays toe
-> bd od 7 Copy 8 Srtlon erty + Copy as JSON
-> on i Interact with the Page ~
-> wk yt MAZE ESCAPE User Prompt
-> Start a new mare gerne
-> eS Reset Update Gamins API key = Copy trace
-> Too!
-> “start _gawen
-> input Arguments
-> ab
-> aa
-> e J
-> Engineering the future of Al
-> ne |
-
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ghJmWQCIHRM/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: none.
+- OCR decision: ready — dense product/UI screenshot with small interface text
+- Slide text: not surfaced (`illegible` by AI classifier).
 ![[assets/slides/ghJmWQCIHRM/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ghJmWQCIHRM/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/full`.
+- OCR decision: ready — dense product/UI screenshot with small interface text
 
-> @:e« @—.--~- Cr tae ve
-> . i ee tt % on ee
-> BEATDROP ene te ee ay ‘7
-> WebMCP Tools «
-> r
-> gmargton ped heerne ae
-> e ° lopnar ane Ct ieearyy &
-> at rR et fag seers
-> * * nacre categess Galle tees eee
-> e Dy cotegrre Lehertere sc, TateSe Rt ay cepete
-> * * Experience gee DEE LSP IEE aa ”
-> ve * . cee » Ag i TegePrie
-> ty * Deen Te eee ane teed Yon ead ha elernest Oates (5
-> aes | nan
-> , Opes Se Longe ccepert,
-> Leet Uy ae 2 pi eaets Ye ee oper concert pape
-> Featured Events more EMRE SULTS Re
-> — nia wrequires™: fteeetiet ft)
-> an Ces Com)
-> - a, bs Interact with the Page ~
-> - 7 fi mee
-> ae al
-> | Al Engineer |
-> ' Le i EUROPE
+Slide text:
+
+> BEATDROP
+> WebMCPTools-
+> description InputSchema
+> AIE Feel theLiveMusic Findyournext unfon Experience ithBeatDrop. Fiter concerts bycategory. date,and/or price. ("type"："object", "properties":{"category”1{ "type";"string". "description"Filter by "date":{"type"]"string”, （--0o）.）."mxPrice” "description:Maximmprice to fitter by （GP)."}）） "description;“Filter by date （"type”："ngnber”, fiter_conoerts
+> Get a list of all concerts. {"type°："object", "properties:(}） gef_concerts
+> FeaturedEvents Thenpurchase paado papefora toolswilbe concert by ID. avallable. {"type"："object”. "type"："integer", concert toopen,）), "properties:("eventId”：（ "description;"TheIDof the "required”:["eventie])
+> Interactwith thePage-
+> UserPrompt
+> AIEngineer
+> AIEngi EUROPE
 
 ![[assets/slides/ghJmWQCIHRM/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/ghJmWQCIHRM/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: none.
+- OCR decision: ready — Dense embedded product/demo UI screenshot with small text and multiple readable interface labels; OCR will outperform manual transcription in this triage pass.
 
-> e-e a. ow Pee se
-> wee ore at EO see Dimmers noe omen ee bier eee BS
-> oe eo Interact with the Page -
-> User Prompt
-> Tid the to purthase two ViP bouts for Ine Summer Vides Festal
-> d Pooper Its duty
-> bd *
-> 5 a 4
-> * 5 4 3 Reset Update Gemini APihey Copy trace
-> :
-> ee nn ieee nee
-> Toot!
-> “purcmane_ticeet™ &
-> | Inpwt Arguments
-> 4
-> cd td
-> Engineering the future of Al
-> —— i
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/ghJmWQCIHRM/slide-001.jpg) — `speaker_stage` confidence `0.99`; camera shot of speaker and audience with a projected slide in the background, not a usable slide frame
+
+Classification audit: `raw/sources/slide-ai-classification/slides/ghJmWQCIHRM/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

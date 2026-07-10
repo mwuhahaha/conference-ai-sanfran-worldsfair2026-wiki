@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE AWRTERSDIAAYONA What Actually Makes Embedding\n★ ★ ★ ★ ★ Model InferenceFast?\nFrom Fiash Artention to Quintzatoo,whero is the intergnce borteneck? Is it the architecturo, the mathis,or will wniting ovorything in Rust sohve olmy probiems？hdint:\nR's Not Rust)\nFIUPVAKRADUUI\nN22,2V26\nGoogle Dee\nAlEngineer",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small embedded article screenshot and composite slide elements are better suited for OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 19.0,
+        "w": 12.0,
+        "h": 20.0
+      },
+      {
+        "role": "title",
+        "text": "What Actually Makes Embedding Model Inference Fast?",
+        "x": 27.0,
+        "y": 15.0,
+        "w": 38.0,
+        "h": 35.0
+      },
+      {
+        "role": "caption",
+        "text": "Not quite.",
+        "x": 69.0,
+        "y": 25.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 50.0,
+        "y": 76.0,
+        "w": 27.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-003.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670949.2069132,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Not quite.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/contrast",
+    "text": "AIE AWRTERSDIAAYONA What Actually Makes Embedding\n★ ★ ★ ★ ★ Model InferenceFast?\nFrom Fiash Artention to Quintzatoo,whero is the intergnce borteneck? Is it the architecturo, the mathis,or will wniting ovorything in Rust sohve olmy probiems？hdint:\nR's Not Rust)\nFIUPVAKRADUUI\nN22,2V26\nGoogle Dee\nAlEngineer",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 486.04
+  },
+  "ocr_source": "rapidocr-live/left-72/contrast",
+  "ocr_reconcile": {
+    "text": "AIE AWRTERSDIAAYONA What Actually Makes Embedding\n★ ★ ★ ★ ★ Model InferenceFast?\nFrom Fiash Artention to Quintzatoo,whero is the intergnce borteneck? Is it the architecturo, the mathis,or will wniting ovorything in Rust sohve olmy probiems？hdint:\nR's Not Rust)\nFIUPVAKRADUUI\nN22,2V26\nGoogle Dee\nAlEngineer",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

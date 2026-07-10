@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Search italley\nfrosea_PY rtEa\na·aa_ey-3614\nAIE D Perult category ech7yoe resltea.seerch_an_cetents( algpt t A\" text -Tous\nng\nfiers\nIncNde texd\nExclude terl \"dsta':（\nCrawling \"teprogttringhlogsntovtx\". ]\n\"teAthtfctle \"url\"：\"hstaa//asbatrs/2aca/astficiat-kstallio-zldlon-l.ha pub11ahedDeta12015-01-22714:21:52.0002\", \"suthar*:*TixUchan, \"04*:4.379075484701233, fy fertng\n\"fe:tt/.2.s.cboteth/tL\nAsk ExaBet\n\"title':\nMicrosoft smol",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-pane product UI and code/JSON text is better handled by OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black left band with light cream and dark code panes",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 18.0,
+        "w": 11.0,
+        "h": 16.0
+      },
+      {
+        "role": "title",
+        "text": "Search",
+        "x": 30.0,
+        "y": 0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "Python",
+        "x": 87.0,
+        "y": 0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 48.0,
+        "y": 89.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "swod ai",
+        "x": 73.0,
+        "y": 88.0,
+        "w": 13.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/xnXqpUW_Kp8/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672733.3864343,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Search italley\nfrosea_PY rtEa\na·aa_ey-3614\nAIE D Perult category ech7yoe resltea.seerch_an_cetents( algpt t A\" text -Tous\nng\nfiers\nIncNde texd\nExclude terl \"dsta':（\nCrawling \"teprogttringhlogsntovtx\". ]\n\"teAthtfctle \"url\"：\"hstaa//asbatrs/2aca/astficiat-kstallio-zldlon-l.ha pub11ahedDeta12015-01-22714:21:52.0002\", \"suthar*:*TixUchan, \"04*:4.379075484701233, fy fertng\n\"fe:tt/.2.s.cboteth/tL\nAsk ExaBet\n\"title':\nMicrosoft smol",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 469.96
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Search italley\nfrosea_PY rtEa\na·aa_ey-3614\nAIE D Perult category ech7yoe resltea.seerch_an_cetents( algpt t A\" text -Tous\nng\nfiers\nIncNde texd\nExclude terl \"dsta':（\nCrawling \"teprogttringhlogsntovtx\". ]\n\"teAthtfctle \"url\"：\"hstaa//asbatrs/2aca/astficiat-kstallio-zldlon-l.ha pub11ahedDeta12015-01-22714:21:52.0002\", \"suthar*:*TixUchan, \"04*:4.379075484701233, fy fertng\n\"fe:tt/.2.s.cboteth/tL\nAsk ExaBet\n\"title':\nMicrosoft smol",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

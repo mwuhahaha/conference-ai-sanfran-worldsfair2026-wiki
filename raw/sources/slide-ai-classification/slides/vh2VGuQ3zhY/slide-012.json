@@ -1,0 +1,154 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "GO DEEPER\nResources & References\nAnkush Rstogi\n三 Benchmarks Papers & Tools & Repos API Docs\nZheng et al.-SkillRouter:LLM Agents at Scale(2026) SkillRouter- github.com/alibaba/skillrouter AnthropicMCP- docs.anthropic.com/mcp\nLiu&Chen-SemanticTool Selection (vLLM, 2025) FAISS- github.com/facebookresearch/faiss OpenAl Function Calling- platform.openai.com Sohea Shakh\nBerkeley Function Calling Leaderboard (BFCL) Pinecone/Qdrant/ChromaDB (vector DBs) Google GenAI Gemini2.0- ai.google.dev\nAnthropic Eng.-MCP On-Demand Context(2025) LangGraph-agent orchestration SentenceTransformers-sbert.net\nThank you!\nAntush Rastogi",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense reference slide with small multi-column text and many citations.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark blue gradient",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "GO DEEPER",
+        "x": 5.0,
+        "y": 9.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Resources & References",
+        "x": 5.0,
+        "y": 15.0,
+        "w": 45.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Papers & Benchmarks",
+        "x": 7.0,
+        "y": 28.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools & Repos",
+        "x": 38.0,
+        "y": 28.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "API Docs",
+        "x": 69.0,
+        "y": 28.0,
+        "w": 15.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "SkillRouter",
+        "x": 7.0,
+        "y": 39.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "FAISS",
+        "x": 7.0,
+        "y": 46.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Pinecone / Qdrant / ChromaDB",
+        "x": 7.0,
+        "y": 53.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "LangGraph",
+        "x": 7.0,
+        "y": 60.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Anthropic MCP",
+        "x": 69.0,
+        "y": 39.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "OpenAI Function Calling",
+        "x": 69.0,
+        "y": 46.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Google GenAI Gemini 2.0",
+        "x": 69.0,
+        "y": 53.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "SentenceTransformers",
+        "x": 69.0,
+        "y": 60.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Thank you!",
+        "x": 34.0,
+        "y": 84.0,
+        "w": 32.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/vh2VGuQ3zhY/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672583.4152708,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "GO DEEPER\nResources & References\nAnkush Rstogi\n三 Benchmarks Papers & Tools & Repos API Docs\nZheng et al.-SkillRouter:LLM Agents at Scale(2026) SkillRouter- github.com/alibaba/skillrouter AnthropicMCP- docs.anthropic.com/mcp\nLiu&Chen-SemanticTool Selection (vLLM, 2025) FAISS- github.com/facebookresearch/faiss OpenAl Function Calling- platform.openai.com Sohea Shakh\nBerkeley Function Calling Leaderboard (BFCL) Pinecone/Qdrant/ChromaDB (vector DBs) Google GenAI Gemini2.0- ai.google.dev\nAnthropic Eng.-MCP On-Demand Context(2025) LangGraph-agent orchestration SentenceTransformers-sbert.net\nThank you!\nAntush Rastogi",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 728.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "GO DEEPER\nResources & References\nAnkush Rstogi\n三 Benchmarks Papers & Tools & Repos API Docs\nZheng et al.-SkillRouter:LLM Agents at Scale(2026) SkillRouter- github.com/alibaba/skillrouter AnthropicMCP- docs.anthropic.com/mcp\nLiu&Chen-SemanticTool Selection (vLLM, 2025) FAISS- github.com/facebookresearch/faiss OpenAl Function Calling- platform.openai.com Sohea Shakh\nBerkeley Function Calling Leaderboard (BFCL) Pinecone/Qdrant/ChromaDB (vector DBs) Google GenAI Gemini2.0- ai.google.dev\nAnthropic Eng.-MCP On-Demand Context(2025) LangGraph-agent orchestration SentenceTransformers-sbert.net\nThank you!\nAntush Rastogi",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "sampling determinism. ≠ system determinism\ncemp O fixes the rule (argmax), not the logits.you argmax over.\nreorder a reduction - a logit's last bits move - argmax flips.. (0.1 + 1e20) - 1e20 = 0 float addition is Nor associative: I'o = (ozar - ozar) + r'o\nsame matmul, same GPU, 1oo0x → bitwise identical. Orod batches you with strangers; the kernel depends on batch shape. the culprit is batch invariance\nMoE routing jitter: expert capacity ceiling, route depends on the batch..\nsame token? no. we need the SYSTEM to run the\nSTATE TRANSITION.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-line instructional slide with small text and equations; OCR will be more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6f3eb",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "1 sampling determinism ≠ system determinism",
+        "x": 5.0,
+        "y": 8.0,
+        "w": 70.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "2 float addition is NOT associative",
+        "x": 5.0,
+        "y": 21.0,
+        "w": 55.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "3 the culprit is batch invariance",
+        "x": 5.0,
+        "y": 35.0,
+        "w": 50.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "4 MoE routing jitter: expert capacity ceiling, route depends on the batch.",
+        "x": 5.0,
+        "y": 48.0,
+        "w": 84.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "same token? no. we need the SYSTEM to run the same STATE TRANSITION.",
+        "x": 35.0,
+        "y": 68.0,
+        "w": 52.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/Lc8zRh9muoY/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661952.4299328,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/opencv-adaptive",
+    "text": "sampling determinism. ≠ system determinism\ncemp O fixes the rule (argmax), not the logits.you argmax over.\nreorder a reduction - a logit's last bits move - argmax flips.. (0.1 + 1e20) - 1e20 = 0 float addition is Nor associative: I'o = (ozar - ozar) + r'o\nsame matmul, same GPU, 1oo0x → bitwise identical. Orod batches you with strangers; the kernel depends on batch shape. the culprit is batch invariance\nMoE routing jitter: expert capacity ceiling, route depends on the batch..\nsame token? no. we need the SYSTEM to run the\nSTATE TRANSITION.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 850.0
+  },
+  "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "sampling determinism. ≠ system determinism\ncemp O fixes the rule (argmax), not the logits.you argmax over.\nreorder a reduction - a logit's last bits move - argmax flips.. (0.1 + 1e20) - 1e20 = 0 float addition is Nor associative: I'o = (ozar - ozar) + r'o\nsame matmul, same GPU, 1oo0x → bitwise identical. Orod batches you with strangers; the kernel depends on batch shape. the culprit is batch invariance\nMoE routing jitter: expert capacity ceiling, route depends on the batch..\nsame token? no. we need the SYSTEM to run the\nSTATE TRANSITION.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

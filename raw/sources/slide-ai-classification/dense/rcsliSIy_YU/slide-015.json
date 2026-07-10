@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "?\nnm\nD Wariahopr Autoretrg tthe Aecten tthAgtrba M t bo 6o 00○0：θ■0:\nVibecoding CVE Remediation: Detect CVEs\nPrompt 2:\nLook at the example code at https://docs.openhands.dev/sdk/guides/hello-world\nModify cve_solver.py so that it.\nTakes in a GitHub repository as a command line argument Creates a RemoteWorkspace connecting to 1ocalhost:8000 Clones the given repository to that workspace, using the GITHUB_ TOKEN env\nTells the agent to use trivy to'scan the repository for CVEs Creates an Agent in that workspace var.\nCVEs Human: you can test the script with github.com/rbren/polaris - It should find 3\n20251.1-22115:30:40",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense instructional slide text with bullets, a repository URL, and environment-variable references.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "beige",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Vibecoding CVE Remediation: Detect CVEs",
+        "x": 23.0,
+        "y": 15.0,
+        "w": 60.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Prompt 2:",
+        "x": 23.0,
+        "y": 28.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Modify cve_solver.py so that it:",
+        "x": 23.0,
+        "y": 35.0,
+        "w": 35.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-015.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671740.9440954,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "?\nnm\nD Wariahopr Autoretrg tthe Aecten tthAgtrba M t bo 6o 00○0：θ■0:\nVibecoding CVE Remediation: Detect CVEs\nPrompt 2:\nLook at the example code at https://docs.openhands.dev/sdk/guides/hello-world\nModify cve_solver.py so that it.\nTakes in a GitHub repository as a command line argument Creates a RemoteWorkspace connecting to 1ocalhost:8000 Clones the given repository to that workspace, using the GITHUB_ TOKEN env\nTells the agent to use trivy to'scan the repository for CVEs Creates an Agent in that workspace var.\nCVEs Human: you can test the script with github.com/rbren/polaris - It should find 3\n20251.1-22115:30:40",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 819.28
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "?\nnm\nD Wariahopr Autoretrg tthe Aecten tthAgtrba M t bo 6o 00○0：θ■0:\nVibecoding CVE Remediation: Detect CVEs\nPrompt 2:\nLook at the example code at https://docs.openhands.dev/sdk/guides/hello-world\nModify cve_solver.py so that it.\nTakes in a GitHub repository as a command line argument Creates a RemoteWorkspace connecting to 1ocalhost:8000 Clones the given repository to that workspace, using the GITHUB_ TOKEN env\nTells the agent to use trivy to'scan the repository for CVEs Creates an Agent in that workspace var.\nCVEs Human: you can test the script with github.com/rbren/polaris - It should find 3\n20251.1-22115:30:40",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

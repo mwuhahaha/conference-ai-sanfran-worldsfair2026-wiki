@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.94,
+  "frame_type": "demo_video",
+  "reject_reason": "Camera shot of a monitor during a demo, not a presentation slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a slide.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "office interior",
+    "style": "product",
+    "blocks": []
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668126.241963,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

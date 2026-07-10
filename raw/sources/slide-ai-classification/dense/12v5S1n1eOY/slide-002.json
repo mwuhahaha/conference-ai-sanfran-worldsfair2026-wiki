@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Box has fully integrated generative AI starting in 2023\nQ&A across documents\nData extraction\nAI-powered workflows",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark blue gradient with three light cards",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Box has fully integrated generative AI starting in 2023",
+        "x": 8.0,
+        "y": 2.0,
+        "w": 84.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Q&A across documents",
+        "x": 8.0,
+        "y": 16.0,
+        "w": 23.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "Data extraction",
+        "x": 39.0,
+        "y": 16.0,
+        "w": 18.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "AI-powered workflows",
+        "x": 69.0,
+        "y": 16.0,
+        "w": 24.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/12v5S1n1eOY/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655612.7632027,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Box has fully integrated generative AI starting in 2023\nQ&A across documents\nData extraction\nAI-powered workflows",
+  "advanced_ocr": {}
+}

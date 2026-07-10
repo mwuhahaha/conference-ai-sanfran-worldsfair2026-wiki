@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Sessions for Leadership track\n\n1 Tokenomics (60 Mins)\n- Spend is Scaling Faster Than Value Realization\n  - Tokenmaxing/ Rapid Growth of AI Token Spend\n  - Lack of Visibility and Control\n- Non-Decision-Grade Economics due to unclear cost and value dynamics and challenges in measuring AI benefits\n- Shift from Token-Level to Workflow-Level Analysis\n\nParticipant profile\n20-30 senior leaders:\n- CEO, Presidents\n- Product and Engineering heads (CIO, CTO, Head of R&D)\n- Finance heads (CFO)\n\n2 Agentic org of the future (60 mins)\n- The shift towards newer, smaller team structure\n- Implications on roles and responsibilities\n  - At a team level\n  - At the overall org level\n- Challenges that need to be solved to ensure success:\n  - HR processes, performance management, hiring, recruiting\n  - Change management\n  - Upskilling\n\nParticipant profile\n20-30 senior leaders:\n- CEO, Presidents\n- Product and Engineering heads (CIO, CTO, Head of R&D)\n- CHROs, Head of HR functions\n\nProposed format:\n- Martin (or other partner) shares initial thoughts and content on the topic (15 min)\n- Open for discussion and Q&A (45 mins)\n\nProposed timing - pls confirm:\n- Tokenomics - 1-2 PM PT on July 1st\n- Agentic org of the future - 3-4 PM PT on July 1st",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense agenda slide with multiple columns and small supporting text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Sessions for Leadership track",
+        "x": 14.0,
+        "y": 11.0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Tokenomics (60 Mins)",
+        "x": 18.0,
+        "y": 23.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Agentic org of the future (60 mins)",
+        "x": 18.0,
+        "y": 48.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Participant profile",
+        "x": 55.0,
+        "y": 20.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Proposed format",
+        "x": 75.0,
+        "y": 11.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Proposed timing - pls confirm:",
+        "x": 75.0,
+        "y": 31.0,
+        "w": 16.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-017.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656649.7362754,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Sessions for Leadership track",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "oa: uy n hp Hotion\ntl.e Tmph'o.\nCele Aimicr\nSessions for Leadership track Worid's Fair\nIokenomlcs (6o Mlns) Agentic org of the future (60 mlns) -Lick a Vabity ind Conko -Uositng LITERGITIE CCTLO1 -Iokedmaoing/ Fapld Growth ot Al Token IA the oierl crg erel -At a toam level Spand h Scaing Farer Than Value Reafzation HR processes, perormance management. HonOecltlonGrdo Eoonomics de to Lndlet m+hteuring A bontft! Shit trom TokenLerrel to Woriiou.Lervo! The shht owards mwer, smuher hun sructure Impllcations on roles and responsiblkitles Chalenges bhat need to be sohred to ersure cot nd sa'ca dyLau 5d chLsngl in. tieuy tccesa: hring, recriing pueds 20-30 sonior teadere: + CEO, Precidens 20-30 sonior teaders: Participant profil Finnce hads (CFO) CEO, Prsidtrbs Product and Enginoering Product snd Engneering tunctiors R&D) CHRO4, Hed ol HR hetd# (CO, CTO, Hed ol heads (CIO, CTO, Head c R&D) EWuoo ad - cuwn roodoid. hneuboy pesodoud: Martin (or other partner) shares rid tC:anng din jobuo sguooy/p VgO pue Gopsnoap og uodo the lopic (16 mn)) nital thoughua and coniont on'? (spw st) 1# PI on July 1g Moving away. from Agile\nRx",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1564.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Sessions for Leadership track\n\n1 Tokenomics (60 Mins)\n- Spend is Scaling Faster Than Value Realization\n  - Tokenmaxing/ Rapid Growth of AI Token Spend\n  - Lack of Visibility and Control\n- Non-Decision-Grade Economics due to unclear cost and value dynamics and challenges in measuring AI benefits\n- Shift from Token-Level to Workflow-Level Analysis\n\nParticipant profile\n20-30 senior leaders:\n- CEO, Presidents\n- Product and Engineering heads (CIO, CTO, Head of R&D)\n- Finance heads (CFO)\n\n2 Agentic org of the future (60 mins)\n- The shift towards newer, smaller team structure\n- Implications on roles and responsibilities\n  - At a team level\n  - At the overall org level\n- Challenges that need to be solved to ensure success:\n  - HR processes, performance management, hiring, recruiting\n  - Change management\n  - Upskilling\n\nParticipant profile\n20-30 senior leaders:\n- CEO, Presidents\n- Product and Engineering heads (CIO, CTO, Head of R&D)\n- CHROs, Head of HR functions\n\nProposed format:\n- Martin (or other partner) shares initial thoughts and content on the topic (15 min)\n- Open for discussion and Q&A (45 mins)\n\nProposed timing - pls confirm:\n- Tokenomics - 1-2 PM PT on July 1st\n- Agentic org of the future - 3-4 PM PT on July 1st",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR structure and corrected obvious word errors from the slide image."
+  }
+}

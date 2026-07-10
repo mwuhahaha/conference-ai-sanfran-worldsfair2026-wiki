@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Anatomy of a Task: A Task Is More Than Text\nTask description - original issue text Regresslon causod by changes for woakref ot fllesystom 1284\n★ AIE +\nSandbox environment -\nexecutable Docker image shs256141e015c4.:9\nVerifier - tests from the PR. FAIL_TO PASS + PASS TO PASS Sire 14GB Leut updaitd 19 d3y2 a90\ndocker dull s=ereb+nch/seb.eva]\n-dev.1776.pyfakets-1286\nAlEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "multi-column slide with screenshots and small embedded labels",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg, #000 0 28%, #f7f6f2 28% 100%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Anatomy of a Task: A Task Is More Than Text",
+        "x": 29.0,
+        "y": 5.0,
+        "w": 56.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Task description – original issue text\nSandbox environment – executable Docker image\nVerifier – tests from the PR.\nFAIL_TO_PASS + PASS_TO_PASS",
+        "x": 30.0,
+        "y": 26.0,
+        "w": 34.0,
+        "h": 45.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 67.0,
+        "y": 15.0,
+        "w": 28.0,
+        "h": 17.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 58.0,
+        "y": 53.0,
+        "w": 19.0,
+        "h": 23.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 84.0,
+        "y": 50.0,
+        "w": 14.0,
+        "h": 24.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 58.0,
+        "y": 81.0,
+        "w": 24.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/wcUJWP6WpGM/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672444.1445894,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Anatomy of a Task: A Task Is More Than Text",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Anatomy of a Task: A Task Is More Than Text\nTask description - original issue text Regresslon causod by changes for woakref ot fllesystom 1284\n★ AIE +\nSandbox environment -\nexecutable Docker image shs256141e015c4.:9\nVerifier - tests from the PR. FAIL_TO PASS + PASS TO PASS Sire 14GB Leut updaitd 19 d3y2 a90\ndocker dull s=ereb+nch/seb.eva]\n-dev.1776.pyfakets-1286\nAlEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 571.64
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Anatomy of a Task: A Task Is More Than Text\nTask description - original issue text Regresslon causod by changes for woakref ot fllesystom 1284\n★ AIE +\nSandbox environment -\nexecutable Docker image shs256141e015c4.:9\nVerifier - tests from the PR. FAIL_TO PASS + PASS TO PASS Sire 14GB Leut updaitd 19 d3y2 a90\ndocker dull s=ereb+nch/seb.eva]\n-dev.1776.pyfakets-1286\nAlEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

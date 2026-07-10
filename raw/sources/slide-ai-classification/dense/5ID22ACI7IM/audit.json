@@ -1,0 +1,279 @@
+{
+  "video_id": "5ID22ACI7IM",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 4,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The problem:\naccess ≠ understanding\n- We connect agents to code, logs, docs, tickets, and more...\n- Which gives us plausible output that often compiles...\n- But it fails human review and real world expectations.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "off-white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The problem: access ≠ understanding",
+            "x": 5.0,
+            "y": 31.0,
+            "w": 38.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "We connect agents to code, logs, docs, tickets, and more...",
+            "x": 5.0,
+            "y": 47.0,
+            "w": 44.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "",
+            "x": 50.0,
+            "y": 19.0,
+            "w": 40.0,
+            "h": 42.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5ID22ACI7IM/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657558.4103498,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The problem:\naccess ≠ understanding\n- We connect agents to code, logs, docs, tickets, and more...\n- Which gives us plausible output that often compiles...\n- But it fails human review and real world expectations.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5ID22ACI7IM/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "CODE THAT COMPILES",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "off-white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "CODE THAT COMPILES",
+            "x": 37.0,
+            "y": 22.0,
+            "w": 27.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "What your agent can't see",
+            "x": 64.0,
+            "y": 35.0,
+            "w": 22.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5ID22ACI7IM/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657558.4428387,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "CODE THAT COMPILES",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5ID22ACI7IM/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Same prompt. Same model. Different context.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "off-white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Same prompt. Same model. Different context.",
+            "x": 18.0,
+            "y": 7.0,
+            "w": 56.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Validation & Integration Tests",
+            "x": 14.0,
+            "y": 18.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Doesn't Break Existing Implementation",
+            "x": 51.0,
+            "y": 18.0,
+            "w": 35.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "DRY Code, High Quality Bar",
+            "x": 14.0,
+            "y": 49.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Respects Our Conventions",
+            "x": 51.0,
+            "y": 49.0,
+            "w": 35.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5ID22ACI7IM/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657558.4435573,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Same prompt. Same model. Different context.",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5ID22ACI7IM/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Workshop setup\n1 Join the Slack workspace\n2 Get a GitHub repo invite\n3 Get an Unblocked invite\n4 Wire up Unblocked MCP",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "off-white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Workshop setup",
+            "x": 26.0,
+            "y": 11.0,
+            "w": 26.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "Join the workshop",
+            "x": 5.0,
+            "y": 29.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Join the Slack workspace",
+            "x": 28.0,
+            "y": 24.0,
+            "w": 61.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Get a GitHub repo invite",
+            "x": 28.0,
+            "y": 40.0,
+            "w": 61.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Get an Unblocked invite",
+            "x": 28.0,
+            "y": 56.0,
+            "w": 61.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Wire up Unblocked MCP",
+            "x": 28.0,
+            "y": 71.0,
+            "w": 61.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5ID22ACI7IM/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657558.444374,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Workshop setup\n1 Join the Slack workspace\n2 Get a GitHub repo invite\n3 Get an Unblocked invite\n4 Wire up Unblocked MCP",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5ID22ACI7IM/slide-004.html"
+    }
+  ],
+  "rejected": []
+}

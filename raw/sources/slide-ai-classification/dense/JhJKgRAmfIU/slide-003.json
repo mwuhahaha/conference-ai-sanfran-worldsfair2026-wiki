@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "WE'RE ENGINEERS!\nWE'VE GOT THIS!",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "off-white with black side/footer bands",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 9.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "WE'RE ENGINEERS!\nWE'VE GOT THIS!",
+        "x": 37.0,
+        "y": 0,
+        "w": 38.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/JhJKgRAmfIU/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659853.3688414,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "WE'RE ENGINEERS!\nWE'VE GOT THIS!",
+  "advanced_ocr": {}
+}

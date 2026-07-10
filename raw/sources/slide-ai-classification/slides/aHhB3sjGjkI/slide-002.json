@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Everyone wants AI Agents",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable slide",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Everyone wants\nAI Agents",
+        "x": 5.0,
+        "y": 16.0,
+        "w": 33.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "AUTOMATION\nRELIABILITY - ROI - SCALABILITY",
+        "x": 44.0,
+        "y": 9.0,
+        "w": 26.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "AI AGENT\nHALLUCINATIONS - COST - HYPE",
+        "x": 75.0,
+        "y": 10.0,
+        "w": 24.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666210.2634997,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Everyone wants AI Agents",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Data is the key ingredient behind AI applications!\nTechnical Documentation\nMeeting Minutes\nFinancial Documents\nKnowledge Base Articles\nPowering:\nRAG (Document Q&A)\nFine-Tuning\netc.\n+ much more!",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple slide with logos and labels; not worth OCR in triage.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Data is the key ingredient behind AI applications!",
+        "x": 18.0,
+        "y": 6.0,
+        "w": 64.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Technical Documentation",
+        "x": 8.0,
+        "y": 83.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Meeting Minutes",
+        "x": 28.0,
+        "y": 57.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Financial Documents",
+        "x": 54.0,
+        "y": 49.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Knowledge Base Articles",
+        "x": 57.0,
+        "y": 84.0,
+        "w": 19.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Powering:\nRAG (Document Q&A)\nFine-Tuning\netc.",
+        "x": 77.0,
+        "y": 26.0,
+        "w": 18.0,
+        "h": 29.0
+      },
+      {
+        "role": "body",
+        "text": "+ much more!",
+        "x": 27.0,
+        "y": 90.0,
+        "w": 12.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655418.6315427,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Data is the key ingredient behind AI applications!\nTechnical Documentation\nMeeting Minutes\nFinancial Documents\nKnowledge Base Articles\nPowering:\nRAG (Document Q&A)\nFine-Tuning\netc.\n+ much more!",
+  "advanced_ocr": {}
+}

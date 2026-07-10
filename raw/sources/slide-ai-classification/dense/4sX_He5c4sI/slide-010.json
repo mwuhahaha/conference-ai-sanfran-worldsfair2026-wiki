@@ -3,88 +3,102 @@
   "confidence": 0.99,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "Evaluation is an\nalways-running\nservice, not a\ntesting phase.\n\nOnline Telemetry\ndetects drift/errors\n\nTriggers HITL review\nfor edge cases\n\nHuman feedback feeds\ninto Offline Datasets\n\nOffline Scenario Evals\nvalidate system updates\nbefore pushing back to\nProduction",
+  "text": "",
   "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense diagram with several small callout boxes and circular annotations; OCR is the right capture method.",
+  "direct_read_ready": false,
+  "text_density": "medium",
   "layout": {
-    "background": "#f4f1e8 with faint grid",
+    "background": "#f6f1e7",
     "style": "diagram",
     "blocks": [
       {
         "role": "body",
-        "text": "Evaluation is an\nalways-running\nservice, not a\ntesting phase.",
-        "x": 33.0,
-        "y": 28.0,
-        "w": 34.0,
-        "h": 34.0
+        "text": "Evaluation is an always-running service, not a testing phase.",
+        "x": 37.0,
+        "y": 33.0,
+        "w": 28.0,
+        "h": 35.0
       },
       {
         "role": "diagram_label",
         "text": "A",
-        "x": 48.0,
-        "y": 3.0,
-        "w": 6.0,
-        "h": 9.0
+        "x": 49.0,
+        "y": 1.0,
+        "w": 5.0,
+        "h": 8.0
       },
       {
         "role": "diagram_label",
         "text": "B",
-        "x": 68.0,
-        "y": 45.0,
-        "w": 6.0,
-        "h": 9.0
+        "x": 69.0,
+        "y": 39.0,
+        "w": 4.0,
+        "h": 8.0
       },
       {
         "role": "diagram_label",
         "text": "C",
-        "x": 48.0,
-        "y": 83.0,
-        "w": 6.0,
-        "h": 9.0
+        "x": 49.0,
+        "y": 82.0,
+        "w": 5.0,
+        "h": 8.0
       },
       {
         "role": "diagram_label",
         "text": "D",
-        "x": 27.0,
-        "y": 45.0,
-        "w": 6.0,
-        "h": 9.0
+        "x": 28.0,
+        "y": 39.0,
+        "w": 4.0,
+        "h": 8.0
       },
       {
         "role": "caption",
-        "text": "Online Telemetry\ndetects drift/errors",
-        "x": 65.0,
-        "y": 4.0,
-        "w": 22.0,
-        "h": 12.0
-      },
-      {
-        "role": "caption",
-        "text": "Triggers HITL review\nfor edge cases",
-        "x": 76.0,
-        "y": 41.0,
-        "w": 19.0,
-        "h": 12.0
-      },
-      {
-        "role": "caption",
-        "text": "Human feedback feeds\ninto Offline Datasets",
+        "text": "Online Telemetry detects drift/errors",
         "x": 64.0,
-        "y": 87.0,
-        "w": 23.0,
+        "y": 4.0,
+        "w": 24.0,
         "h": 11.0
       },
       {
         "role": "caption",
-        "text": "Offline Scenario Evals\nvalidate system updates\nbefore pushing back to\nProduction",
-        "x": 4.0,
-        "y": 43.0,
-        "w": 24.0,
-        "h": 15.0
+        "text": "Triggers HITL review for edge cases",
+        "x": 77.0,
+        "y": 40.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Human feedback feeds into Offline Datasets",
+        "x": 63.0,
+        "y": 83.0,
+        "w": 25.0,
+        "h": 11.0
+      },
+      {
+        "role": "caption",
+        "text": "Offline Scenario Evals validate system updates before pushing back to Production",
+        "x": 6.0,
+        "y": 40.0,
+        "w": 26.0,
+        "h": 13.0
       }
     ]
   },
+  "image_index": 2,
+  "filename": "slide-010.jpg",
   "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-010.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783646868.5792518
+  "classified_at_epoch": 1783657451.500941,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

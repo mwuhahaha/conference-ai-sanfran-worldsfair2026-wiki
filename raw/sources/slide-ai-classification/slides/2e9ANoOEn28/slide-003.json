@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code and terminal text are dense and better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "node main() {\nconst prompt = \"\"\"\nThe Python function median(numbers) in demo/median.py has\n\"\"\"\nconst result = llm(prompt)\nprint(result)\n}",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 58.0,
+        "h": 34.0
+      },
+      {
+        "role": "caption",
+        "text": "It can't read or write to the file.",
+        "x": 1.0,
+        "y": 48.0,
+        "w": 48.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "npx agency examples/01-llm.agenc",
+        "x": 2.0,
+        "y": 62.0,
+        "w": 54.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/2e9ANoOEn28/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657282.5644891,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

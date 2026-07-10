@@ -1,0 +1,162 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Detection and Diagnosis\nEstablish the Facts Before Choosing an Action\nComponent Responsibility\nSchema profiler Structure, types, nesting. null rates\nDrift detector Additions.removals.type changes\nData-quality analyzer Completeness, validity. consistency\nError classifier Converts log patterns into failure categories\nRisk scorer Produces an operational risk level\nDeterministic prototype with limited dataset; ML-ready with richer incident history.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Table layout with multiple small cells is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f4f1ec",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Detection and Diagnosis",
+        "x": 23.0,
+        "y": 3.0,
+        "w": 53.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Establish the Facts Before Choosing an Action",
+        "x": 9.0,
+        "y": 18.0,
+        "w": 83.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Component",
+        "x": 22.0,
+        "y": 28.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Responsibility",
+        "x": 63.0,
+        "y": 28.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Schema profiler",
+        "x": 24.0,
+        "y": 41.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Drift detector",
+        "x": 24.0,
+        "y": 53.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Data-quality analyzer",
+        "x": 23.0,
+        "y": 65.0,
+        "w": 21.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Error classifier",
+        "x": 24.0,
+        "y": 77.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Risk scorer",
+        "x": 26.0,
+        "y": 89.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Structure, types, nesting, null rates",
+        "x": 61.0,
+        "y": 41.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Additions, removals, type changes",
+        "x": 61.0,
+        "y": 53.0,
+        "w": 27.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Completeness, validity, consistency",
+        "x": 61.0,
+        "y": 65.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Converts log patterns into failure categories",
+        "x": 61.0,
+        "y": 77.0,
+        "w": 35.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Produces an operational risk level",
+        "x": 61.0,
+        "y": 89.0,
+        "w": 27.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Deterministic prototype with limited dataset; ML-ready with richer incident history.",
+        "x": 18.0,
+        "y": 93.0,
+        "w": 66.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661056.8756433,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Detection and Diagnosis",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Detection and Diagnosis\nEstablish the Facts Before Choosing an Action\nComponent Responsibility\nSchema profiler Structure, types, nesting. null rates\nDrift detector Additions.removals.type changes\nData-quality analyzer Completeness, validity. consistency\nError classifier Converts log patterns into failure categories\nRisk scorer Produces an operational risk level\nDeterministic prototype with limited dataset; ML-ready with richer incident history.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 664.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Detection and Diagnosis\nEstablish the Facts Before Choosing an Action\nComponent Responsibility\nSchema profiler Structure, types, nesting. null rates\nDrift detector Additions.removals.type changes\nData-quality analyzer Completeness, validity. consistency\nError classifier Converts log patterns into failure categories\nRisk scorer Produces an operational risk level\nDeterministic prototype with limited dataset; ML-ready with richer incident history.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

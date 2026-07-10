@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "?\n0. Wertahopr Autorstrg Lmhe Alectert wit Agtrls 1l t ho 心 Domg + D\n+心:t4心:t4h +.4\nVibecoding CVE Remediation: LLM Connection\nPrompt 1:\nLook at the example code at https://docs.openhands.dev/sdk/auides/hello-world and the SDK docs at: https://docs.openhands.dev/sdk/api-reference/openhands.sdk.llm\na pydantic SecretStr). Set the model name to: connection to the OpenHands LLM using the LLM API KEY env var (be sure to use. openhands/claude-sonnet-4-20250514 Write a small python script called cve_solver.py that for now just tests the 中\nNote to human: replace model name if using anthropic/openai\nCt 2025-11-22115:19:54",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense slide text with long prompt, URLs, and configuration details that are better OCRed than transcribed by eye.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "beige",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Vibecoding CVE Remediation: LLM Connection",
+        "x": 23.0,
+        "y": 15.0,
+        "w": 60.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Prompt 1:",
+        "x": 23.0,
+        "y": 28.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Look at the example code at https://docs.openhands.dev/sdk/guides/hello-world",
+        "x": 23.0,
+        "y": 34.0,
+        "w": 65.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-014.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671700.962354,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "?\n0. Wertahopr Autorstrg Lmhe Alectert wit Agtrls 1l t ho 心 Domg + D\n+心:t4心:t4h +.4\nVibecoding CVE Remediation: LLM Connection\nPrompt 1:\nLook at the example code at https://docs.openhands.dev/sdk/auides/hello-world and the SDK docs at: https://docs.openhands.dev/sdk/api-reference/openhands.sdk.llm\na pydantic SecretStr). Set the model name to: connection to the OpenHands LLM using the LLM API KEY env var (be sure to use. openhands/claude-sonnet-4-20250514 Write a small python script called cve_solver.py that for now just tests the 中\nNote to human: replace model name if using anthropic/openai\nCt 2025-11-22115:19:54",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 786.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "?\n0. Wertahopr Autorstrg Lmhe Alectert wit Agtrls 1l t ho 心 Domg + D\n+心:t4心:t4h +.4\nVibecoding CVE Remediation: LLM Connection\nPrompt 1:\nLook at the example code at https://docs.openhands.dev/sdk/auides/hello-world and the SDK docs at: https://docs.openhands.dev/sdk/api-reference/openhands.sdk.llm\na pydantic SecretStr). Set the model name to: connection to the OpenHands LLM using the LLM API KEY env var (be sure to use. openhands/claude-sonnet-4-20250514 Write a small python script called cve_solver.py that for now just tests the 中\nNote to human: replace model name if using anthropic/openai\nCt 2025-11-22115:19:54",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

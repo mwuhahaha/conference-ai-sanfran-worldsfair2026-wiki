@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "GNAP\nGrant Negotiation and Authorization Protocol\n(RFC 9635)",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#050505",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 22.0,
+        "w": 9.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "GNAP",
+        "x": 51.0,
+        "y": 32.0,
+        "w": 14.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Grant Negotiation and Authorization Protocol",
+        "x": 43.0,
+        "y": 45.0,
+        "w": 31.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "(RFC 9635)",
+        "x": 50.0,
+        "y": 55.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 87.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 72.0,
+        "y": 87.0,
+        "w": 15.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-013.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659247.9418526,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "GNAP\nGrant Negotiation and Authorization Protocol\n(RFC 9635)",
+  "advanced_ocr": {}
+}

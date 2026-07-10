@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "6. Side Events\n40+ Side Events including the World Cup\nNEO\nAIE Kids",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#ffffff",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "6. Side Events",
+        "x": 39.0,
+        "y": 31.0,
+        "w": 22.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "40+ Side Events including the World Cup",
+        "x": 33.0,
+        "y": 47.0,
+        "w": 35.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "NEO",
+        "x": 48.0,
+        "y": 55.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "AIE Kids",
+        "x": 47.0,
+        "y": 61.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-021.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-021.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657380.000304,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "6. Side Events\n40+ Side Events including the World Cup\nNEO\nAIE Kids",
+  "advanced_ocr": {}
+}

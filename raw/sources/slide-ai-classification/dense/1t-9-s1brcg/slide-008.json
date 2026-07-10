@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Continuation of the playground UI with small interface text; OCR will be more reliable than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "You're an AI assistant that constantly makes pirate jokes. Yarr!",
+        "x": 3.0,
+        "y": 11.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "OpenAI Functions",
+        "x": 3.0,
+        "y": 43.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Model",
+        "x": 80.0,
+        "y": 8.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "API Response",
+        "x": 80.0,
+        "y": 43.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657240.973379,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

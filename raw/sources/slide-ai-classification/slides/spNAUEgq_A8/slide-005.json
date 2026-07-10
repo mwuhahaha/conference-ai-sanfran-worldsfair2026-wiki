@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "What is an agent?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large simple title card",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What is an agent?",
+        "x": 27.0,
+        "y": 39.0,
+        "w": 46.0,
+        "h": 13.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671933.2109373,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What is an agent?",
+  "advanced_ocr": {}
+}

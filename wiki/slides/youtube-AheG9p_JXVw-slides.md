@@ -20,10 +20,10 @@ These slides are extracted from a public YouTube video connected to World's Fair
 No slide-like frames are visible after AI slide classification. Rejected frames remain stored as evidence and are listed below.
 
 ### Hidden Non-Slide Evidence
-- [`slide-001.jpg`](/assets/slides/AheG9p_JXVw/slide-001.jpg) — `speaker_stage` confidence `0.98`; Stage photo with a presenter; slide content is only partially visible and not a readable presentation slide.
-- [`slide-002.jpg`](/assets/slides/AheG9p_JXVw/slide-002.jpg) — `speaker_stage` confidence `0.99`; Stage photo with presenter and projected slides; not a readable content slide.
-- [`slide-003.jpg`](/assets/slides/AheG9p_JXVw/slide-003.jpg) — `speaker_stage` confidence `0.96`; Stage photo with presenter and screens; not a readable standalone content slide.
-- [`slide-004.jpg`](/assets/slides/AheG9p_JXVw/slide-004.jpg) — `speaker_stage` confidence `0.12`; Speaker on stage with projection screens; slide content is not readable and this is not a clear presentation slide frame.
+- [`slide-001.jpg`](/assets/slides/AheG9p_JXVw/slide-001.jpg) — `speaker_stage` confidence `0.97`; Stage photo with presenter and projected slide screens; not a clean readable slide frame.
+- [`slide-002.jpg`](/assets/slides/AheG9p_JXVw/slide-002.jpg) — `speaker_stage` confidence `0.97`; Stage photo with presenter and projected promo images; not a readable presentation slide.
+- [`slide-003.jpg`](/assets/slides/AheG9p_JXVw/slide-003.jpg) — `speaker_stage` confidence `0.98`; Stage photo with presenter and projected QR/promo screen; not a clean slide frame.
+- [`slide-004.jpg`](/assets/slides/AheG9p_JXVw/slide-004.jpg) — `speaker_stage` confidence `0.99`; Stage photo with presenter and mostly blank/dark projection; not a readable slide.
 
 Classification audit: `raw/sources/slide-ai-classification/slides/AheG9p_JXVw/audit.json`
 

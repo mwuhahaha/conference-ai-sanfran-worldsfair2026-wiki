@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "diagram",
+  "reject_reason": "",
+  "text": "Tell me what matters.\nJUST A STRAW INTO THE OCEAN.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Short, highly legible conceptual slide; direct read is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(180deg,#05060b,#0a1020)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "PROMPT",
+        "x": 4.0,
+        "y": 47.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Tell me what matters.",
+        "x": 5.0,
+        "y": 53.0,
+        "w": 29.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "JUST A STRAW INTO THE OCEAN.",
+        "x": 46.0,
+        "y": 84.0,
+        "w": 44.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668126.2412088,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Tell me what matters.\nJUST A STRAW INTO THE OCEAN.",
+  "advanced_ocr": {}
+}

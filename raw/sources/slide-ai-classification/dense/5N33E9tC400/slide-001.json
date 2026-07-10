@@ -1,0 +1,48 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense transcript screenshot with small body text is better handled by OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#111111",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "https://latent.space/p/adept - March 2024",
+        "x": 22.0,
+        "y": 1.0,
+        "w": 56.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Alessio [00:21:47]: No, no, no.",
+        "x": 22.0,
+        "y": 8.0,
+        "w": 56.0,
+        "h": 84.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/5N33E9tC400/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657647.4027896,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

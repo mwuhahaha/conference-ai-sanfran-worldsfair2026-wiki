@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "腺胶\nMichaelHablich\nAIE\nTester, developer. project manager. Product Manager @ Chrome Developer Tooling 20+ years of experlence in tech linkedin.com/in/mkhaelhabich Guest lecturer @ Unlversity of Applied Sclence St. P&lten\nB028 AEnginace AlEngineer EUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "small bio lines and QR code are better OCR targets",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark purple gradient",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Michael Hablich",
+        "x": 31.0,
+        "y": 17.0,
+        "w": 29.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Product Manager @ Chrome Developer Tooling",
+        "x": 36.0,
+        "y": 53.0,
+        "w": 39.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Guest lecturer @ University of Applied Science St. P\\u00f6lten",
+        "x": 36.0,
+        "y": 61.0,
+        "w": 42.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "20+ years of experience in tech",
+        "x": 36.0,
+        "y": 69.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Tester, developer, project manager, ...",
+        "x": 36.0,
+        "y": 76.0,
+        "w": 35.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "linkedin.com/in/michael-hablich",
+        "x": 36.0,
+        "y": 84.0,
+        "w": 28.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/_B4Pv9ttFgY/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665935.893923,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Michael Hablich",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "腺胶\nMichaelHablich\nAIE\nTester, developer. project manager. Product Manager @ Chrome Developer Tooling 20+ years of experlence in tech linkedin.com/in/mkhaelhabich Guest lecturer @ Unlversity of Applied Sclence St. P&lten\nB028 AEnginace AlEngineer EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 363.48
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "腺胶\nMichaelHablich\nAIE\nTester, developer. project manager. Product Manager @ Chrome Developer Tooling 20+ years of experlence in tech linkedin.com/in/mkhaelhabich Guest lecturer @ Unlversity of Applied Sclence St. P&lten\nB028 AEnginace AlEngineer EUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

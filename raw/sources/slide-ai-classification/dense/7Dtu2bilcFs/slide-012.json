@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Vibe Coding Workshop For Leaders\nAI Engineer\nEngineering the future of AI",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense collage of small embedded screenshots and charts; OCR is better suited than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Vibe Coding Workshop for Leaders",
+        "x": 20.0,
+        "y": 0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 19.0,
+        "y": 12.0,
+        "w": 76.0,
+        "h": 68.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 31.0,
+        "y": 84.0,
+        "w": 43.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/7Dtu2bilcFs/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658104.502874,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Vibe Coding Workshop for Leaders",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Scauci.\nETLS VogasOa\nVioecadingWvrisbop Seg 器\nAl Engineer Engineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 127.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Vibe Coding Workshop For Leaders\nAI Engineer\nEngineering the future of AI",
+    "text_status": "meaningful",
+    "corrections": "OCR was corrected from garbled text using the clearly visible title and footer logo text."
+  }
+}

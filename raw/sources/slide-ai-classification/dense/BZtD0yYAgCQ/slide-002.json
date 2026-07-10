@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "other",
+  "reject_reason": "",
+  "text": "“…generative AI systems are grown more than they are built—their internal mechanisms are “emergent” rather than directly designed.”\nDario Amodei",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with white quote panel and dark ASCII-art panel",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 3.0,
+        "y": 10.0,
+        "w": 10.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "…generative AI systems are grown more than they are built—their internal mechanisms are “emergent” rather than directly designed.",
+        "x": 25.0,
+        "y": 12.0,
+        "w": 32.0,
+        "h": 48.0
+      },
+      {
+        "role": "caption",
+        "text": "Dario Amodei",
+        "x": 25.0,
+        "y": 63.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 64.0,
+        "y": 86.0,
+        "w": 10.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/BZtD0yYAgCQ/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658608.3753176,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "“…generative AI systems are grown more than they are built—their internal mechanisms are “emergent” rather than directly designed.”\nDario Amodei",
+  "advanced_ocr": {}
+}

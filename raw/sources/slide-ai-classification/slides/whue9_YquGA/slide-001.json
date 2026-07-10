@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Building an Autonomous Engineering Org",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "ANGIE JONES, VP OF AGENTIC AI FOUNDATION",
+        "x": 7.0,
+        "y": 13.0,
+        "w": 30.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Building an Autonomous Engineering Org",
+        "x": 7.0,
+        "y": 26.0,
+        "w": 55.0,
+        "h": 47.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/whue9_YquGA/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672554.8612127,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Building an Autonomous Engineering Org",
+  "advanced_ocr": {}
+}

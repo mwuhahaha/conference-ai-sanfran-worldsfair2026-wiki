@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Expressive growth\nhgh\nthe gap the thoss\nPunoh:cirds low Cormmandline GuImouse Touch LUMS\nExpressree ceding what you are nlowed to say\nChannelhowhebitspbysicalymove\nInletaction protocol Who holds the tloor",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart labels and legend are small; OCR should recover them better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(rgba(25,25,25,0.45), rgba(25,25,25,0.45)) over blurred photo",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Expressive growth",
+        "x": 32.0,
+        "y": 12.0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "high\nlow\nPunch card\nCommand line\nGUI + mouse\nTouch\nLLMs\nthe gap\nthe thesis",
+        "x": 25.0,
+        "y": 20.0,
+        "w": 58.0,
+        "h": 56.0
+      },
+      {
+        "role": "caption",
+        "text": "expressive ceiling — what you are allowed to say\nchannel — how the bits physically move\ninteraction protocol — who holds the floor",
+        "x": 26.0,
+        "y": 79.0,
+        "w": 52.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668349.4329667,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Expressive growth",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Expressive growth\nhgh\nthe gap the thoss\nPunoh:cirds low Cormmandline GuImouse Touch LUMS\nExpressree ceding what you are nlowed to say\nChannelhowhebitspbysicalymove\nInletaction protocol Who holds the tloor",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 362.12
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Expressive growth\nhgh\nthe gap the thoss\nPunoh:cirds low Cormmandline GuImouse Touch LUMS\nExpressree ceding what you are nlowed to say\nChannelhowhebitspbysicalymove\nInletaction protocol Who holds the tloor",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

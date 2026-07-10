@@ -19,76 +19,73 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/uiP88SpCi1Q/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/uiP88SpCi1Q/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.97`
+- Text source: agent_vision.
 
-> 3X
-> Costing Too
-> Much
+Slide text:
+
+> Costing Too Much
 
 ![[assets/slides/uiP88SpCi1Q/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/uiP88SpCi1Q/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Code slide with dense small text; OCR is better suited than manual transcription.
 
-> ae oe cen ears
-> Cache the System Prompt
-> agent Agent:
-> node i BedrockModel<
-> iro) 61cm Ue 02 Ph ——
-> coe aT aC aa ae ae, i] ; eer
-> . a i =m 4 |
-> syste: provpt BIS SYSTEM PROMPT, P| z
-> ) wre
-> A
-> ae,
+Slide text:
+
+> FIX 01 Cache the System Prompt
+> 000 agent = Agent( model=BedrockModel( model_id="claude-sonnet" cache prompt-+default". # cache static prefix
+> System-prompt=BIG-SYSTEM PROMPT
+> 04 0 86
 
 ![[assets/slides/uiP88SpCi1Q/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/uiP88SpCi1Q/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Code slide with dense small text; OCR is better suited than manual transcription.
 
-> FIM 95
-> Offload Big Tool Results
-> @tool
-> def fetch_report(is: step s+ ste:
-> a has Te DIECLLE CS } fe
-> Pang See eeerere rere Cte e i a) 4q
-> return summarizetucta, Kev} yy 1 i
-> b aoe
-> pa
+Slide text:
+
+> pix 03 Ofload Big Tool Results
+> Otool. def fetch-report(id: str) stre 00O Geturn summarize(data, key) data e api-get(id) key store:put(data) 0 10k tokens. B summary + ref # offLoad
 
 ![[assets/slides/uiP88SpCi1Q/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/uiP88SpCi1Q/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> TUES ate
-> 
+Slide text:
+
 > Same Agent. Smaller Bill.
-> 
-> GB cache the System Prompt
-> 
-> | o2 TOC YU ECan
-> 
-> ©} ofttoad Big root Results et | ewer
-> 
-> ©} cap Your Too! Loops | on 7
-> 
-> os MN STTM UC Tea Cray wr
-> ed
+> Cache the System Prompt
+> Route by Difficulty
+> Offload Big Tool Results
+> Cap Your Tool Loops
+> Trim the History
 
 ![[assets/slides/uiP88SpCi1Q/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/uiP88SpCi1Q/slide-005.html)
+- AI slide classifier: `title_card` confidence `0.95`
+- Text source: agent_vision.
+
+Slide text:
 
 > Thanks!
-> * A 7 a
-> Go Deeper fi : ‘ em :
-> Ma aRaionee / r _
-> 7 ier
-> Social Media . 4 if 4
-> wan . : r 4
-> i
-> Site an
-> programwithenk com
-> i,
+> Go Deeper
+> Erik Hanchett
+> Social Media
+> ErikCH
+> Site
+> programwitherik.com
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/uiP88SpCi1Q/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

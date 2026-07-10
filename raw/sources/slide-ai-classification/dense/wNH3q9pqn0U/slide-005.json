@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Input Sources Backend Servlces\nAIE express\nJacdac USB LabMind App\nDo SensorsModule\nreCamera Webcam WebcamModule\n8- AChatVodule Real-time AIAPI\nText Inpu! 8 8\naws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture diagram with multiple labels and a small hardware photo; OCR is the cheapest reliable read path.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Real time AI co scientist",
+        "x": 24.0,
+        "y": 0,
+        "w": 30.0,
+        "h": 6.0
+      },
+      {
+        "role": "label",
+        "text": "Input Sources",
+        "x": 24.0,
+        "y": 12.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Backend Services",
+        "x": 59.0,
+        "y": 12.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Jacdac USB",
+        "x": 23.0,
+        "y": 22.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "LabMind App",
+        "x": 40.0,
+        "y": 22.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Webcam reCamera",
+        "x": 23.0,
+        "y": 39.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "SensorModule",
+        "x": 39.0,
+        "y": 39.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Text Input",
+        "x": 23.0,
+        "y": 57.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "express",
+        "x": 51.0,
+        "y": 18.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Real-time AI API",
+        "x": 50.0,
+        "y": 42.0,
+        "w": 15.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672403.7207623,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Real time AI co scientist",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Input Sources Backend Servlces\nAIE express\nJacdac USB LabMind App\nDo SensorsModule\nreCamera Webcam WebcamModule\n8- AChatVodule Real-time AIAPI\nText Inpu! 8 8\naws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 297.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Input Sources Backend Servlces\nAIE express\nJacdac USB LabMind App\nDo SensorsModule\nreCamera Webcam WebcamModule\n8- AChatVodule Real-time AIAPI\nText Inpu! 8 8\naws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

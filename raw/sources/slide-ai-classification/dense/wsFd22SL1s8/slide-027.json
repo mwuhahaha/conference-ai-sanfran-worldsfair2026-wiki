@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arrakis: Storage Using OverlayFS\nOverlayFs To. Protect The Rootfs Of Each Sandbox.\n..Arakis Sandbox. Is /usr/bin' Arrakis Sandbox' Is /usr/bin\nUerspace Userspact\nr overlayfs /usr/in/k riv overloryfs. Tusr/bin/e..\nro rootfs /ar/in/a: ro rcotfs Tusr/bin/a\nKerre! Kerre!\n: Shared Rootfs ext9 Lnage\nEach sandbox with it's own Rw layer: and a shared RO layer.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with labels and explanatory text is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis: Storage Using OverlayFS",
+        "x": 3.0,
+        "y": 1.0,
+        "w": 46.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "OverlayFS To Protect The Rootfs Of Each Sandbox",
+        "x": 4.0,
+        "y": 8.0,
+        "w": 48.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis Sandbox\nls /usr/bin\nUserspace\nrw overlayfs\nro rootfs\nKernel",
+        "x": 4.0,
+        "y": 17.0,
+        "w": 24.0,
+        "h": 42.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis Sandbox\nls /usr/bin\nUserspace\nrw overlayfs\nro rootfs\nKernel",
+        "x": 28.0,
+        "y": 17.0,
+        "w": 24.0,
+        "h": 42.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Shared Rootfs ext4 image",
+        "x": 34.0,
+        "y": 58.0,
+        "w": 23.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Each sandbox with it's own RW layer and a shared RO layer",
+        "x": 21.0,
+        "y": 83.0,
+        "w": 42.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-027.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-027.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673559.2926867,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Arrakis: Storage Using OverlayFS",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/opencv-adaptive",
+    "text": "Arrakis: Storage Using OverlayFS\nOverlayFs To. Protect The Rootfs Of Each Sandbox.\n..Arakis Sandbox. Is /usr/bin' Arrakis Sandbox' Is /usr/bin\nUerspace Userspact\nr overlayfs /usr/in/k riv overloryfs. Tusr/bin/e..\nro rootfs /ar/in/a: ro rcotfs Tusr/bin/a\nKerre! Kerre!\n: Shared Rootfs ext9 Lnage\nEach sandbox with it's own Rw layer: and a shared RO layer.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 534.28
+  },
+  "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Arrakis: Storage Using OverlayFS\nOverlayFs To. Protect The Rootfs Of Each Sandbox.\n..Arakis Sandbox. Is /usr/bin' Arrakis Sandbox' Is /usr/bin\nUerspace Userspact\nr overlayfs /usr/in/k riv overloryfs. Tusr/bin/e..\nro rootfs /ar/in/a: ro rcotfs Tusr/bin/a\nKerre! Kerre!\n: Shared Rootfs ext9 Lnage\nEach sandbox with it's own Rw layer: and a shared RO layer.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

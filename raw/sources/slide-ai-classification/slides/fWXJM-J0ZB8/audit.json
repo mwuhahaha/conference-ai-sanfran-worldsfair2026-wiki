@@ -1,0 +1,1455 @@
+{
+  "video_id": "fWXJM-J0ZB8",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 23,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "arize\nYou have agents.\nWe can test them.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple title card; direct reading is enough",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(135deg,#09051b,#1b0f4a)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "arize",
+            "x": 38.0,
+            "y": 28.0,
+            "w": 32.0,
+            "h": 14.0
+          },
+          {
+            "role": "subtitle",
+            "text": "You have agents.\nWe can test them.",
+            "x": 34.0,
+            "y": 58.0,
+            "w": 38.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667627.9392574,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "arize\nYou have agents.\nWe can test them.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "THE COST OF ONE-SIZE-FITS-ALL INFERENCE",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "large title slide; direct reading is enough",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#000000 with subtle dotted grid",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "THE COST OF ONE-SIZE-FITS-ALL INFERENCE",
+            "x": 12.0,
+            "y": 45.0,
+            "w": 76.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667627.939557,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "THE COST OF ONE-SIZE-FITS-ALL INFERENCE",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "“[l]atency above 4 seconds degrades quality of experience...”\nMitigating Response Delays in Free-Form Conversations with LLM-powered Intelligent Virtual Agents July 7, 2025",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple quote slide; direct reading is enough",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#11131b",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "quote",
+            "text": "“[l]atency above 4 seconds degrades quality of experience...”",
+            "x": 16.0,
+            "y": 27.0,
+            "w": 68.0,
+            "h": 26.0
+          },
+          {
+            "role": "caption",
+            "text": "Mitigating Response Delays in Free-Form Conversations with LLM-powered Intelligent Virtual Agents July 7, 2025",
+            "x": 18.0,
+            "y": 66.0,
+            "w": 64.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667627.9397871,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "“[l]atency above 4 seconds degrades quality of experience...”\nMitigating Response Delays in Free-Form Conversations with LLM-powered Intelligent Virtual Agents July 7, 2025",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Couldn't connect to Claude\nERR_INTERNET_DISCONNECTED\nRefresh",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple UI screenshot; direct reading is enough",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#fbf7fb",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Couldn't connect to Claude\nERR_INTERNET_DISCONNECTED\nRefresh",
+            "x": 35.0,
+            "y": 37.0,
+            "w": 30.0,
+            "h": 26.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667627.9400437,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Couldn't connect to Claude\nERR_INTERNET_DISCONNECTED\nRefresh",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Chief Product Officers should not confuse the deflation of commodity tokens with the democratization of frontier reasoning.\n— Gartner, March 2026",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple quote slide; direct reading is enough",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#10131c",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "quote",
+            "text": "Chief Product Officers should not confuse the deflation of commodity tokens with the democratization of frontier reasoning.",
+            "x": 14.0,
+            "y": 24.0,
+            "w": 72.0,
+            "h": 36.0
+          },
+          {
+            "role": "caption",
+            "text": "— Gartner, March 2026",
+            "x": 42.0,
+            "y": 68.0,
+            "w": 20.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667627.9403756,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Chief Product Officers should not confuse the deflation of commodity tokens with the democratization of frontier reasoning.\n— Gartner, March 2026",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "TASK-SPECIFIC MODELS CHEAT SHEET\nIs a camera pointing at something?\nUse vision models like MobileNet, YOLO, MediaPipe",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "large text readable directly",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with dark navy header",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "TASK-SPECIFIC MODELS CHEAT SHEET",
+            "x": 8.0,
+            "y": 5.0,
+            "w": 80.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Is a camera pointing at something?\nUse vision models like MobileNet, YOLO, MediaPipe",
+            "x": 10.0,
+            "y": 28.0,
+            "w": 76.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+            "x": 0,
+            "y": 0,
+            "w": 6.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667765.0908258,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "TASK-SPECIFIC MODELS CHEAT SHEET\nIs a camera pointing at something?\nUse vision models like MobileNet, YOLO, MediaPipe",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "SLMs\nLLMS BUT SMALL",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "section title readable directly",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "light upper area with dark navy lower band",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "SLMs",
+            "x": 7.0,
+            "y": 35.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "LLMS BUT SMALL",
+            "x": 8.0,
+            "y": 62.0,
+            "w": 45.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+            "x": 0,
+            "y": 0,
+            "w": 6.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667765.091152,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "SLMs\nLLMS BUT SMALL",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Small(er) Language Models (SLMs)\nSmaller versions of LLMs containing several million to several billion parameters (LLMs may have hundreds of billions or even a trillion parameters)",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "short explanatory slide readable directly",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "very light with green accent circle",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Small(er) Language Models (SLMs)",
+            "x": 8.0,
+            "y": 36.0,
+            "w": 63.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Smaller versions of LLMs containing several million to several billion parameters (LLMs may have hundreds of billions or even a trillion parameters)",
+            "x": 24.0,
+            "y": 55.0,
+            "w": 68.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+            "x": 0,
+            "y": 0,
+            "w": 6.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667765.0913937,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Small(er) Language Models (SLMs)\nSmaller versions of LLMs containing several million to several billion parameters (LLMs may have hundreds of billions or even a trillion parameters)",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "image-only photo slide",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark photo background",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+            "x": 0,
+            "y": 0,
+            "w": 6.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667765.0916724,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Energy consumption comparison\nLLMs\nSLMs\nTask-specific Models\nproportional energy consumed",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "chart labels readable directly",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "dark navy",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Energy consumption comparison",
+            "x": 34.0,
+            "y": 4.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLMs\nSLMs\nTask-specific Models",
+            "x": 6.0,
+            "y": 34.0,
+            "w": 28.0,
+            "h": 38.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "proportional energy consumed",
+            "x": 39.0,
+            "y": 88.0,
+            "w": 37.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+            "x": 0,
+            "y": 0,
+            "w": 6.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667765.0918744,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Energy consumption comparison\nLLMs\nSLMs\nTask-specific Models\nproportional energy consumed",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Ichthy 00 todo\nHow lke! Successfully activated extension\nRN How likely is It that Ichthysaurs had echolocatlon?\nLooking at the evidence foric memory Successfully activated extension\nHow canlheipyou today narlgate messa!\nrStisuuos 中0000",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense UI screenshot with small text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark app UI screenshot",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667765.0921123,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Ichthy 00 todo\nHow lke! Successfully activated extension\nRN How likely is It that Ichthysaurs had echolocatlon?\nLooking at the evidence foric memory Successfully activated extension\nHow canlheipyou today narlgate messa!\nrStisuuos 中0000",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 404.96
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Ichthy 00 todo\nHow lke! Successfully activated extension\nRN How likely is It that Ichthysaurs had echolocatlon?\nLooking at the evidence foric memory Successfully activated extension\nHow canlheipyou today narlgate messa!\nrStisuuos 中0000",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Ichthyosaur echolocation capabilities",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-column screenshot with small text; OCR should capture it better than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#1f1f1f",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Ichthyosaur echolocation capabilities",
+            "x": 31.0,
+            "y": 1.0,
+            "w": 25.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "3. Not universal:\n4. No direct evidence:",
+            "x": 6.0,
+            "y": 11.0,
+            "w": 42.0,
+            "h": 69.0
+          },
+          {
+            "role": "body",
+            "text": "2. Evolutionary Context\n3. Ecological Niche:",
+            "x": 54.0,
+            "y": 10.0,
+            "w": 39.0,
+            "h": 69.0
+          },
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+            "x": 0,
+            "y": 0,
+            "w": 7.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667872.5875363,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Ichthyosaur echolocation capabilities",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 1906.0,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rachel-Lee Nabors (they/them) nearestnabors.com 00o Ichthyosaur echolocation capablites 8.8 pue poods ynm pooorei ea ppoo uopiu spodoeudao pue usy jo 00\nit's moderately plauslble but far from certainprobably Lookdng at the cyidence Ior Ichthyosaur ccholocaton, Id say. What They DidUsea agility rather than echolocation\nnumber on it. somewhere Inthe30-50%lkelihoodrange if I had toputa Visione Their large ey Lahts oven tn low\nHere's my reasonlng: Evidence suggesting they might have had echolocatlon: 1Anatomical similariues: Some ichthyosaurs had eniarged Conclusion? Anbush Tacties They Ikely reled on stcalun snd rapid bursts o speed Tactile Sonsitivity; Someo specios may havo used lateras Hne systems (common In flsh) to detect prey movements: to capture prey.\n2. Ecological niche Many ichthyosaurs were deep-diving stapedial bones (part of the ear structure) slmilar to modern cetaceans that echolocate. This couldIndlcate enhanced sound processing capabilitiess there is no evidence to support its presence kn ichthysaurs Thelr anatomy sound-basednavigation. to dm\npredators hunting In low-llght conditlons:exactly the? Into that!\nlike in toothed whales and r g hins today. scenariowhere echolocatlon would be advantageous, Just\n3.Convergent evolutlon:Ichthyosaurs show remarkable\nHow canh he p you today? Sdessalu oiebybu ot1t/lx\n1 Sonnct4.SV 131 1.0000",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense screenshot with small text and multiple paragraphs; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#1f1f1f",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Ichthyosaur echolocation capabilities",
+            "x": 30.0,
+            "y": 1.0,
+            "w": 25.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Evidence suggesting they might have had echolocation:",
+            "x": 6.0,
+            "y": 10.0,
+            "w": 42.0,
+            "h": 68.0
+          },
+          {
+            "role": "body",
+            "text": "What They Did Use:\nConclusion:",
+            "x": 53.0,
+            "y": 10.0,
+            "w": 40.0,
+            "h": 68.0
+          },
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+            "x": 0,
+            "y": 0,
+            "w": 7.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-014.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667956.5106323,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Ichthyosaur echolocation capabilities",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Rachel-Lee Nabors (they/them) nearestnabors.com 00o Ichthyosaur echolocation capablites 8.8 pue poods ynm pooorei ea ppoo uopiu spodoeudao pue usy jo 00\nit's moderately plauslble but far from certainprobably Lookdng at the cyidence Ior Ichthyosaur ccholocaton, Id say. What They DidUsea agility rather than echolocation\nnumber on it. somewhere Inthe30-50%lkelihoodrange if I had toputa Visione Their large ey Lahts oven tn low\nHere's my reasonlng: Evidence suggesting they might have had echolocatlon: 1Anatomical similariues: Some ichthyosaurs had eniarged Conclusion? Anbush Tacties They Ikely reled on stcalun snd rapid bursts o speed Tactile Sonsitivity; Someo specios may havo used lateras Hne systems (common In flsh) to detect prey movements: to capture prey.\n2. Ecological niche Many ichthyosaurs were deep-diving stapedial bones (part of the ear structure) slmilar to modern cetaceans that echolocate. This couldIndlcate enhanced sound processing capabilitiess there is no evidence to support its presence kn ichthysaurs Thelr anatomy sound-basednavigation. to dm\npredators hunting In low-llght conditlons:exactly the? Into that!\nlike in toothed whales and r g hins today. scenariowhere echolocatlon would be advantageous, Just\n3.Convergent evolutlon:Ichthyosaurs show remarkable\nHow canh he p you today? Sdessalu oiebybu ot1t/lx\n1 Sonnct4.SV 131 1.0000",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1815.42
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Rachel-Lee Nabors (they/them) nearestnabors.com 00o Ichthyosaur echolocation capablites 8.8 pue poods ynm pooorei ea ppoo uopiu spodoeudao pue usy jo 00\nit's moderately plauslble but far from certainprobably Lookdng at the cyidence Ior Ichthyosaur ccholocaton, Id say. What They DidUsea agility rather than echolocation\nnumber on it. somewhere Inthe30-50%lkelihoodrange if I had toputa Visione Their large ey Lahts oven tn low\nHere's my reasonlng: Evidence suggesting they might have had echolocatlon: 1Anatomical similariues: Some ichthyosaurs had eniarged Conclusion? Anbush Tacties They Ikely reled on stcalun snd rapid bursts o speed Tactile Sonsitivity; Someo specios may havo used lateras Hne systems (common In flsh) to detect prey movements: to capture prey.\n2. Ecological niche Many ichthyosaurs were deep-diving stapedial bones (part of the ear structure) slmilar to modern cetaceans that echolocate. This couldIndlcate enhanced sound processing capabilitiess there is no evidence to support its presence kn ichthysaurs Thelr anatomy sound-basednavigation. to dm\npredators hunting In low-llght conditlons:exactly the? Into that!\nlike in toothed whales and r g hins today. scenariowhere echolocatlon would be advantageous, Just\n3.Convergent evolutlon:Ichthyosaurs show remarkable\nHow canh he p you today? Sdessalu oiebybu ot1t/lx\n1 Sonnct4.SV 131 1.0000",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "RIGHT-SIZING AI",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "RIGHT-SIZING AI",
+            "x": 35.0,
+            "y": 43.0,
+            "w": 30.0,
+            "h": 12.0
+          },
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+            "x": 0,
+            "y": 0,
+            "w": 7.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-015.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667987.5292606,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "RIGHT-SIZING AI",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mima Nows口 Conversations Justnow G Sync\niversations Settings\nAccounts APICredentials AI Feed Muted Dangerous\ndigests. Configure howMima usesAl to summarizeyour social feeds and generate topic Current Configuration Configure mima.social\nUsingOpenAl erAnthropicAPI\nVAPI Key-Ready\nAboutAl Features\nbsic keyordbaed summareFor bet eultusn alargr mcdel like LorQwn 2. 78 Alisusd tociuster smiatpost nto topics and generate summanesWitout At.topicswl show\nGolden Dataset\n@rachelnabors@edittrameThatisa fantasticusecase\nCarl Assmann,SecFault & 16 others X",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot with many small labels and modal text; OCR should handle it better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#101218",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Settings",
+            "x": 25.0,
+            "y": 11.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Accounts  API Credentials  AI  Feed  Muted  Dangerous",
+            "x": 24.0,
+            "y": 16.0,
+            "w": 56.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Configure how Mima uses AI to summarize your social feeds and generate topic digests.",
+            "x": 27.0,
+            "y": 28.0,
+            "w": 46.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Current Configuration",
+            "x": 29.0,
+            "y": 43.0,
+            "w": 25.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "mima social",
+            "x": 95.0,
+            "y": 22.0,
+            "w": 4.0,
+            "h": 40.0
+          },
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+            "x": 0,
+            "y": 0,
+            "w": 7.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-016.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667987.5296273,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Settings",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mima Nows口 Conversations Justnow G Sync\niversations Settings\nAccounts APICredentials AI Feed Muted Dangerous\ndigests. Configure howMima usesAl to summarizeyour social feeds and generate topic Current Configuration Configure mima.social\nUsingOpenAl erAnthropicAPI\nVAPI Key-Ready\nAboutAl Features\nbsic keyordbaed summareFor bet eultusn alargr mcdel like LorQwn 2. 78 Alisusd tociuster smiatpost nto topics and generate summanesWitout At.topicswl show\nGolden Dataset\n@rachelnabors@edittrameThatisa fantasticusecase\nCarl Assmann,SecFault & 16 others X",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 823.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mima Nows口 Conversations Justnow G Sync\niversations Settings\nAccounts APICredentials AI Feed Muted Dangerous\ndigests. Configure howMima usesAl to summarizeyour social feeds and generate topic Current Configuration Configure mima.social\nUsingOpenAl erAnthropicAPI\nVAPI Key-Ready\nAboutAl Features\nbsic keyordbaed summareFor bet eultusn alargr mcdel like LorQwn 2. 78 Alisusd tociuster smiatpost nto topics and generate summanesWitout At.topicswl show\nGolden Dataset\n@rachelnabors@edittrameThatisa fantasticusecase\nCarl Assmann,SecFault & 16 others X",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mimalocal-modeleval\nGoldendataset at a glance\n28 Examples Threads 14 2-17 Messages/thread Annotated 100%\neachviewedlist+modal median5 hand-written[ref:N]\nBy platform By view context\n22 Bluesky. O list. 14 14 modal.\nSourced from real Mima threads,anonymized. Each example pairs a thread input with a gold-standard summary and citation p\n5models evaluatedagainst this set with 3repetitions each (420 runs total).",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dashboard-style slide with multiple metric cards and small labels; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#0e1117",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "Mima local-model eval",
+            "x": 12.0,
+            "y": 12.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Golden dataset at a glance",
+            "x": 12.0,
+            "y": 17.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Examples 28",
+            "x": 12.0,
+            "y": 31.0,
+            "w": 17.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Threads 14",
+            "x": 32.0,
+            "y": 31.0,
+            "w": 17.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Messages / thread 2-17",
+            "x": 53.0,
+            "y": 31.0,
+            "w": 17.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Annotated 100%",
+            "x": 74.0,
+            "y": 31.0,
+            "w": 17.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "By platform",
+            "x": 12.0,
+            "y": 52.0,
+            "w": 34.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "By view context",
+            "x": 51.0,
+            "y": 52.0,
+            "w": 35.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+            "x": 0,
+            "y": 0,
+            "w": 7.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-017.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668008.3753407,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Golden dataset at a glance",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mimalocal-modeleval\nGoldendataset at a glance\n28 Examples Threads 14 2-17 Messages/thread Annotated 100%\neachviewedlist+modal median5 hand-written[ref:N]\nBy platform By view context\n22 Bluesky. O list. 14 14 modal.\nSourced from real Mima threads,anonymized. Each example pairs a thread input with a gold-standard summary and citation p\n5models evaluatedagainst this set with 3repetitions each (420 runs total).",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 609.48
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mimalocal-modeleval\nGoldendataset at a glance\n28 Examples Threads 14 2-17 Messages/thread Annotated 100%\neachviewedlist+modal median5 hand-written[ref:N]\nBy platform By view context\n22 Bluesky. O list. 14 14 modal.\nSourced from real Mima threads,anonymized. Each example pairs a thread input with a gold-standard summary and citation p\n5models evaluatedagainst this set with 3repetitions each (420 runs total).",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rachel-ee Nabors(they/them) nearestnabors.co Measures of Success\nDimension What it asks How it's measured\nJSON validity Does the output parse?. Try JsoN. parse, count successes\nReference structural validity Do [ref:N] tokens point to messages that actually exist? message_count] Regex extract refs, check each N E [ 1,\nFactual consistency Does the summary stay faithful to the thread, or invent claims? summary against its source LLM-as-judge -- Claude scores each\nLength compliance Does it stay in the target word band? Word count vs context-specific limits (8-12 for list view, 19-46 for modal)\np50 latency: Typical TT summary Median across the eval set\np95 latency Worst-case wait 95th percentile across the e\nEach evaluator returms a per-example scort. Average across the 28-exarmple golden datasel, with 3 repetitions per erampl?.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Table slide with dense small text and multiple columns; OCR is the right extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f5f3ef",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Measures of Success",
+            "x": 38.0,
+            "y": 2.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Dimension",
+            "x": 8.0,
+            "y": 18.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "What it asks",
+            "x": 32.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "How it's measured",
+            "x": 66.0,
+            "y": 18.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "JSON validity",
+            "x": 8.0,
+            "y": 30.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Reference structural validity",
+            "x": 8.0,
+            "y": 42.0,
+            "w": 26.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Factual consistency",
+            "x": 8.0,
+            "y": 54.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Length compliance",
+            "x": 8.0,
+            "y": 66.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "p50 latency",
+            "x": 8.0,
+            "y": 78.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "p95 latency",
+            "x": 8.0,
+            "y": 89.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+            "x": 0,
+            "y": 0,
+            "w": 7.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-018.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668037.6742744,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Measures of Success",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Rachel-ee Nabors(they/them) nearestnabors.co Measures of Success\nDimension What it asks How it's measured\nJSON validity Does the output parse?. Try JsoN. parse, count successes\nReference structural validity Do [ref:N] tokens point to messages that actually exist? message_count] Regex extract refs, check each N E [ 1,\nFactual consistency Does the summary stay faithful to the thread, or invent claims? summary against its source LLM-as-judge -- Claude scores each\nLength compliance Does it stay in the target word band? Word count vs context-specific limits (8-12 for list view, 19-46 for modal)\np50 latency: Typical TT summary Median across the eval set\np95 latency Worst-case wait 95th percentile across the e\nEach evaluator returms a per-example scort. Average across the 28-exarmple golden datasel, with 3 repetitions per erampl?.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1225.36
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Rachel-ee Nabors(they/them) nearestnabors.co Measures of Success\nDimension What it asks How it's measured\nJSON validity Does the output parse?. Try JsoN. parse, count successes\nReference structural validity Do [ref:N] tokens point to messages that actually exist? message_count] Regex extract refs, check each N E [ 1,\nFactual consistency Does the summary stay faithful to the thread, or invent claims? summary against its source LLM-as-judge -- Claude scores each\nLength compliance Does it stay in the target word band? Word count vs context-specific limits (8-12 for list view, 19-46 for modal)\np50 latency: Typical TT summary Median across the eval set\np95 latency Worst-case wait 95th percentile across the e\nEach evaluator returms a per-example scort. Average across the 28-exarmple golden datasel, with 3 repetitions per erampl?.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arize Phoenix\nTrace the Exponential\nThe open-source platform for agent development and evaluation",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with faint grid",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Arize Phoenix",
+            "x": 11.0,
+            "y": 29.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "Trace the Exponential",
+            "x": 11.0,
+            "y": 37.0,
+            "w": 28.0,
+            "h": 20.0
+          },
+          {
+            "role": "subtitle",
+            "text": "The open-source platform for agent development and evaluation",
+            "x": 11.0,
+            "y": 59.0,
+            "w": 38.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "Get started\nSelf-Host",
+            "x": 11.0,
+            "y": 70.0,
+            "w": 25.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram",
+            "text": "AI\nVercel\nEvaluation\nGemini\nIteration",
+            "x": 52.0,
+            "y": 15.0,
+            "w": 39.0,
+            "h": 72.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-019.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668146.270828,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Arize Phoenix\nTrace the Exponential\nThe open-source platform for agent development and evaluation",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Capability eval\nAsks, “What can this agent do well?” They should start at a low pass rate, targeting tasks the agent struggles with and giving teams a hill to climb\n—Anthropic, Demystifying Evals for AI Agen",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "solid off-white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Capability eval",
+            "x": 10.0,
+            "y": 28.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Asks, “What can this agent do well?” They should start at a low pass rate, targeting tasks the agent struggles with and giving teams a hill to climb",
+            "x": 26.0,
+            "y": 41.0,
+            "w": 56.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "—Anthropic, Demystifying Evals for AI Agen",
+            "x": 26.0,
+            "y": 66.0,
+            "w": 48.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-020.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668146.271663,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Capability eval\nAsks, “What can this agent do well?” They should start at a low pass rate, targeting tasks the agent struggles with and giving teams a hill to climb\n—Anthropic, Demystifying Evals for AI Agen",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-020.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Datasots>goldon-summarios\ngolden-summaries Labet\nExperiments Examples28 Evaluators Versions\nExperimentsAnalysis\n0.25 075 0.5 0.0c 75s 5.0s 25s $O.0s\nCoumna\nname length_complianoe_oval roference_aocuracy_eval cemantio_cimiarity_eval mg latency totalcost totaltokons errorrate\n5 lama-32- 30 1.00 100 0.89 0.58 01.3s 40.798 0.00% Tences\n口 02b gemmy-4- 1.00 100 0.95 0.58 8.4s 63.742 0.00% Tences\nqw3-170 0.89 100 Q76 0.51 07.26 ②81.293 0.00% Tracos\n口 2 qwen25. 15b 0.92 0.96 0.72 0.49 010 36.930 0.00% Trocee\nsoonet- baselne daus- 100 100 0.96 aro 02.9s $0.22 42.931 0.00%\n®",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot with chart, tabs, and table text is better suited to OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black/dark UI",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Datasets > golden-summaries",
+            "x": 5.0,
+            "y": 5.0,
+            "w": 36.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram",
+            "text": "Experiments Analysis",
+            "x": 8.0,
+            "y": 18.0,
+            "w": 40.0,
+            "h": 16.0
+          },
+          {
+            "role": "table",
+            "text": "name / json_parse_rate_eval / length_compliance_eval / reference_accuracy_eval / semantic_similarity_eval / avg latency / total cost / total tokens / error rate / Traces",
+            "x": 4.0,
+            "y": 33.0,
+            "w": 92.0,
+            "h": 60.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-021.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668146.2722976,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Datasots>goldon-summarios\ngolden-summaries Labet\nExperiments Examples28 Evaluators Versions\nExperimentsAnalysis\n0.25 075 0.5 0.0c 75s 5.0s 25s $O.0s\nCoumna\nname length_complianoe_oval roference_aocuracy_eval cemantio_cimiarity_eval mg latency totalcost totaltokons errorrate\n5 lama-32- 30 1.00 100 0.89 0.58 01.3s 40.798 0.00% Tences\n口 02b gemmy-4- 1.00 100 0.95 0.58 8.4s 63.742 0.00% Tences\nqw3-170 0.89 100 Q76 0.51 07.26 ②81.293 0.00% Tracos\n口 2 qwen25. 15b 0.92 0.96 0.72 0.49 010 36.930 0.00% Trocee\nsoonet- baselne daus- 100 100 0.96 aro 02.9s $0.22 42.931 0.00%\n®",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 507.52
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Datasots>goldon-summarios\ngolden-summaries Labet\nExperiments Examples28 Evaluators Versions\nExperimentsAnalysis\n0.25 075 0.5 0.0c 75s 5.0s 25s $O.0s\nCoumna\nname length_complianoe_oval roference_aocuracy_eval cemantio_cimiarity_eval mg latency totalcost totaltokons errorrate\n5 lama-32- 30 1.00 100 0.89 0.58 01.3s 40.798 0.00% Tences\n口 02b gemmy-4- 1.00 100 0.95 0.58 8.4s 63.742 0.00% Tences\nqw3-170 0.89 100 Q76 0.51 07.26 ②81.293 0.00% Tracos\n口 2 qwen25. 15b 0.92 0.96 0.72 0.49 010 36.930 0.00% Trocee\nsoonet- baselne daus- 100 100 0.96 aro 02.9s $0.22 42.931 0.00%\n®",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-021.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "“Small and Good Enough” Model\nSAGE Model",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "solid deep purple",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "“Small and Good Enough” Model",
+            "x": 36.0,
+            "y": 37.0,
+            "w": 30.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "SAGE Model",
+            "x": 37.0,
+            "y": 47.0,
+            "w": 25.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-022.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-022.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668188.1616304,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "“Small and Good Enough” Model\nSAGE Model",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-022.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Reference accuracy (%) — higher is better\np50 latency (ms) — lower is better\nClaude Sonnet (ceiling) Qwen 2.5 1.5B Qwen 3.1 7B Gemma 4 E2B Llama 3.2 3B (recommended)",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark charcoal",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram",
+            "text": "Reference accuracy (%) — higher is better\np50 latency (ms) — lower is better",
+            "x": 10.0,
+            "y": 10.0,
+            "w": 82.0,
+            "h": 74.0
+          },
+          {
+            "role": "caption",
+            "text": "Claude Sonnet (ceiling) Qwen 2.5 1.5B Qwen 3.1 7B Gemma 4 E2B Llama 3.2 3B (recommended)",
+            "x": 8.0,
+            "y": 84.0,
+            "w": 84.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-023.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-023.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668188.1622791,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Reference accuracy (%) — higher is better\np50 latency (ms) — lower is better\nClaude Sonnet (ceiling) Qwen 2.5 1.5B Qwen 3.1 7B Gemma 4 E2B Llama 3.2 3B (recommended)",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-023.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rachel-Lee Nabors. Qrtdwoo souewans-uopooy seselea @ Lm1-32-36\nmrerater)\nam+-3.2-3b Avd 0 1.35 @ 405.69 Awa' 0 0.41 0 996.93 AvG'0 2.9s D 511.0s $0.01 claude-sonwt-basdr\nyno $iu4p1 55922 05.70 2,160 01.sa c 925 c$+.01\n(they/them)near hsircuts\"! 0 cexpeeted_sum coeparing Sunil: Joking about Y.tPlyful Bodhldharma, expected_refere. bater! Pa1.to! Yeoyoops urorus srushy ue, puly Bodhidharza' avatar, pro=oting sumil'to consider'a haircut; Thrccpolntonc becoees Bodhidharms avatar, proapting sunll to conslder 4 halrcut'snd 'n, Agentic. Shaolin'schoole)\": \"summary\"ilSm Jokingly, suggests,Threepointone becones Fretereaceso0h. Hsasaosns: Abugyof esbWtVurns-Vasuodsader Cison 'ale.trve. \"proept: tokens:278, Ftotal tokens-a:314. coapletion tokens\"l36. Estart ing on Agentic Shaotin Kung-tu schoot. Cgentie, Shaolin Kung-fu schoot. 1-injin' \\\"oiscuss ing' an' avatar, and' start ing 'an' Yreterencen g115. oravresponsejson\\nAnVsuary tsuemsry'., -oiscussiog an avatar., sod! Cson_valial tne T6s2:: susxoy1daoud. coplet 1on tokens\"1,455,) Ctotal_tokensas7it? Bodhhrmh1rcut appearance conparing to Bodhidhana? qthrecpointone's appearansekicoaparirg oiutodesyio snoge Surxoca(ixiemnst \"reterences\"U. ison vaud\":'truen Erav_respoase\". prompttokens.283, Fcoapletioctokens\":31, \"totaletokens\"ti314 waryAJokt\n1.00 AYo 0o'I Naeer eered uos 1.06 AvG 7\nLargth_complaroe_t 1.09 1.89 AYG Cergth_conpllnoe erl 1.93 1.06 AVG Length_compdance\n1.eo AYG eo:T N.s- Aoe.nooe-ecuereye] 1.06 Ay3 6\nsnantic_almRerity_svat 6.58 OY ts'o Cwmantic_ emllrity_era 鲁. 3? 0.38 AY3 tmmte_t\n-.1 nca oltt. 02.10 01,696 09.5@3,430 03. 0\nYtSan' Jokes that'Sunil·Pai Texpected_rta qetting'o'hircut Iret:3]'The\"comersation'slso hints't modern Bodhiaharea'avatar (ref:2]f and a. response' about Pw response'e tn AYsunrAirTbiseusion., AThe discussion begsn with's'nention'ot. fono conceptual' petaphor'about' an watar'stoly [ret:lJ,:uhich'quickty'shifted Anto. 0..response\" son\\nfin A\"summaryA\"! conversarlon> Ebout'soncthing I. coaoarlson'ot threcpointore to bodhidhal rmresp. aede.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense comparison table and multi-column UI screenshot are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark UI with grid panels",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Datasets > golden-summaries > compare",
+            "x": 4.0,
+            "y": 2.0,
+            "w": 40.0,
+            "h": 8.0
+          },
+          {
+            "role": "table",
+            "text": "reference output / llama-3.2-3b / gemma-4-e2b / claude-sonnet-baseline",
+            "x": 4.0,
+            "y": 15.0,
+            "w": 92.0,
+            "h": 76.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-024.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-024.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668188.1629128,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Rachel-Lee Nabors. Qrtdwoo souewans-uopooy seselea @ Lm1-32-36\nmrerater)\nam+-3.2-3b Avd 0 1.35 @ 405.69 Awa' 0 0.41 0 996.93 AvG'0 2.9s D 511.0s $0.01 claude-sonwt-basdr\nyno $iu4p1 55922 05.70 2,160 01.sa c 925 c$+.01\n(they/them)near hsircuts\"! 0 cexpeeted_sum coeparing Sunil: Joking about Y.tPlyful Bodhldharma, expected_refere. bater! Pa1.to! Yeoyoops urorus srushy ue, puly Bodhidharza' avatar, pro=oting sumil'to consider'a haircut; Thrccpolntonc becoees Bodhidharms avatar, proapting sunll to conslder 4 halrcut'snd 'n, Agentic. Shaolin'schoole)\": \"summary\"ilSm Jokingly, suggests,Threepointone becones Fretereaceso0h. Hsasaosns: Abugyof esbWtVurns-Vasuodsader Cison 'ale.trve. \"proept: tokens:278, Ftotal tokens-a:314. coapletion tokens\"l36. Estart ing on Agentic Shaotin Kung-tu schoot. Cgentie, Shaolin Kung-fu schoot. 1-injin' \\\"oiscuss ing' an' avatar, and' start ing 'an' Yreterencen g115. oravresponsejson\\nAnVsuary tsuemsry'., -oiscussiog an avatar., sod! Cson_valial tne T6s2:: susxoy1daoud. coplet 1on tokens\"1,455,) Ctotal_tokensas7it? Bodhhrmh1rcut appearance conparing to Bodhidhana? qthrecpointone's appearansekicoaparirg oiutodesyio snoge Surxoca(ixiemnst \"reterences\"U. ison vaud\":'truen Erav_respoase\". prompttokens.283, Fcoapletioctokens\":31, \"totaletokens\"ti314 waryAJokt\n1.00 AYo 0o'I Naeer eered uos 1.06 AvG 7\nLargth_complaroe_t 1.09 1.89 AYG Cergth_conpllnoe erl 1.93 1.06 AVG Length_compdance\n1.eo AYG eo:T N.s- Aoe.nooe-ecuereye] 1.06 Ay3 6\nsnantic_almRerity_svat 6.58 OY ts'o Cwmantic_ emllrity_era 鲁. 3? 0.38 AY3 tmmte_t\n-.1 nca oltt. 02.10 01,696 09.5@3,430 03. 0\nYtSan' Jokes that'Sunil·Pai Texpected_rta qetting'o'hircut Iret:3]'The\"comersation'slso hints't modern Bodhiaharea'avatar (ref:2]f and a. response' about Pw response'e tn AYsunrAirTbiseusion., AThe discussion begsn with's'nention'ot. fono conceptual' petaphor'about' an watar'stoly [ret:lJ,:uhich'quickty'shifted Anto. 0..response\" son\\nfin A\"summaryA\"! conversarlon> Ebout'soncthing I. coaoarlson'ot threcpointore to bodhidhal rmresp. aede.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2115.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Rachel-Lee Nabors. Qrtdwoo souewans-uopooy seselea @ Lm1-32-36\nmrerater)\nam+-3.2-3b Avd 0 1.35 @ 405.69 Awa' 0 0.41 0 996.93 AvG'0 2.9s D 511.0s $0.01 claude-sonwt-basdr\nyno $iu4p1 55922 05.70 2,160 01.sa c 925 c$+.01\n(they/them)near hsircuts\"! 0 cexpeeted_sum coeparing Sunil: Joking about Y.tPlyful Bodhldharma, expected_refere. bater! Pa1.to! Yeoyoops urorus srushy ue, puly Bodhidharza' avatar, pro=oting sumil'to consider'a haircut; Thrccpolntonc becoees Bodhidharms avatar, proapting sunll to conslder 4 halrcut'snd 'n, Agentic. Shaolin'schoole)\": \"summary\"ilSm Jokingly, suggests,Threepointone becones Fretereaceso0h. Hsasaosns: Abugyof esbWtVurns-Vasuodsader Cison 'ale.trve. \"proept: tokens:278, Ftotal tokens-a:314. coapletion tokens\"l36. Estart ing on Agentic Shaotin Kung-tu schoot. Cgentie, Shaolin Kung-fu schoot. 1-injin' \\\"oiscuss ing' an' avatar, and' start ing 'an' Yreterencen g115. oravresponsejson\\nAnVsuary tsuemsry'., -oiscussiog an avatar., sod! Cson_valial tne T6s2:: susxoy1daoud. coplet 1on tokens\"1,455,) Ctotal_tokensas7it? Bodhhrmh1rcut appearance conparing to Bodhidhana? qthrecpointone's appearansekicoaparirg oiutodesyio snoge Surxoca(ixiemnst \"reterences\"U. ison vaud\":'truen Erav_respoase\". prompttokens.283, Fcoapletioctokens\":31, \"totaletokens\"ti314 waryAJokt\n1.00 AYo 0o'I Naeer eered uos 1.06 AvG 7\nLargth_complaroe_t 1.09 1.89 AYG Cergth_conpllnoe erl 1.93 1.06 AVG Length_compdance\n1.eo AYG eo:T N.s- Aoe.nooe-ecuereye] 1.06 Ay3 6\nsnantic_almRerity_svat 6.58 OY ts'o Cwmantic_ emllrity_era 鲁. 3? 0.38 AY3 tmmte_t\n-.1 nca oltt. 02.10 01,696 09.5@3,430 03. 0\nYtSan' Jokes that'Sunil·Pai Texpected_rta qetting'o'hircut Iret:3]'The\"comersation'slso hints't modern Bodhiaharea'avatar (ref:2]f and a. response' about Pw response'e tn AYsunrAirTbiseusion., AThe discussion begsn with's'nention'ot. fono conceptual' petaphor'about' an watar'stoly [ret:lJ,:uhich'quickty'shifted Anto. 0..response\" son\\nfin A\"summaryA\"! conversarlon> Ebout'soncthing I. coaoarlson'ot threcpointore to bodhidhal rmresp. aede.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/fWXJM-J0ZB8/slide-024.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.84,
+      "frame_type": "title_card",
+      "reject_reason": "speaker intro card with logo collage",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "intro card and logo collage; not worth OCR",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#fbf7fb",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Rachel-Lee Nabors (they/them)\nnearestneighbors.com",
+            "x": 1.0,
+            "y": 0,
+            "w": 10.0,
+            "h": 100
+          },
+          {
+            "role": "logo",
+            "text": "MDN web docs\nmoz://a",
+            "x": 39.0,
+            "y": 11.0,
+            "w": 26.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "W3C",
+            "x": 70.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 20.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/fWXJM-J0ZB8/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667627.938857,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

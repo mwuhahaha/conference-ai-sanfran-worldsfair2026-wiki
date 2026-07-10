@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "SWE-Marathon\nCan coding agents stay coherent over a 1 billion token budget?\nRishi Desai\nabundant",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title card with large readable text; OCR not needed.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f6f0e6",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "SWE-Marathon",
+        "x": 5.0,
+        "y": 24.0,
+        "w": 54.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Can coding agents stay coherent over a 1 billion token budget?",
+        "x": 5.0,
+        "y": 36.0,
+        "w": 63.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Rishi Desai",
+        "x": 5.0,
+        "y": 55.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "abundant",
+        "x": 5.0,
+        "y": 62.0,
+        "w": 16.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/Rx8f05JI_WA/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662641.0447915,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "SWE-Marathon\nCan coding agents stay coherent over a 1 billion token budget?\nRishi Desai\nabundant",
+  "advanced_ocr": {}
+}

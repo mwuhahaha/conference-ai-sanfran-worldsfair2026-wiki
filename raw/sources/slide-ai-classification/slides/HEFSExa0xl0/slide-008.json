@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The verification loop\n\nThe formula engine and renderer close a loop the agent\nuses to check its own work.\n\nThis held across three successive frontier model\nreleases. Each new model used the same loop more\neffectively.\n\nWrite\nCalculate\nRender\n\nAI Engineer EUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small diagram labels and explanatory text are better captured by OCR than by manual readout.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark green on black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The verification loop",
+        "x": 30.0,
+        "y": 6.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "The formula engine and renderer close a loop the agent uses to check its own work.",
+        "x": 30.0,
+        "y": 18.0,
+        "w": 34.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "This held across three successive frontier model releases. Each new model used the same loop more effectively.",
+        "x": 30.0,
+        "y": 30.0,
+        "w": 35.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Write",
+        "x": 73.0,
+        "y": 21.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Calculate",
+        "x": 69.0,
+        "y": 50.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Render",
+        "x": 73.0,
+        "y": 76.0,
+        "w": 13.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/HEFSExa0xl0/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659776.7920659,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "The verification loop",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "The verification loop\nThe formula engne and render.close a loop the\nUsestocheckitsownwork Write.\nAIE effectively. releases. Each new model used the same loop more This held across three successive frontier model Calculate\nRender\nE026 NEngintot Al Engineer EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 454.16
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "The verification loop\n\nThe formula engine and renderer close a loop the agent\nuses to check its own work.\n\nThis held across three successive frontier model\nreleases. Each new model used the same loop more\neffectively.\n\nWrite\nCalculate\nRender\n\nAI Engineer EUROPE",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for obvious typos and spacing; accepted the visible slide text and labels."
+  }
+}

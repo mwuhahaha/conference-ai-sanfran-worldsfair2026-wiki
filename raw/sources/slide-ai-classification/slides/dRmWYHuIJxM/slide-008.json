@@ -1,0 +1,130 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "BENCHMARK\nFastAPI FastAPl:53files,20realquestions,reproducible\nFull file baseline Afterretrieval 83,681 tok/q 4,927tok/q 94%\nretrieval savings\nAfter compression 523tok/q No cherry-picking.No synthetic queries.\n20questionsadeveloperwouldactuallyask\nRecall@10 0.90 $pythonbenchmarks/run_benchmark.py --repo fastapi/fastapi--source-dirfa\nelara-labs/code-context-engine",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Benchmark slide with multiple metric panels, small numbers, and a code snippet.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark charcoal gradient with teal and purple corner glows",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "BENCHMARK",
+        "x": 6.0,
+        "y": 6.0,
+        "w": 15.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "FastAPI",
+        "x": 24.0,
+        "y": 8.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "FastAPI: 53 files, 20 real questions, reproducible",
+        "x": 37.0,
+        "y": 8.0,
+        "w": 55.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Full file baseline\n83,681 tok/q",
+        "x": 7.0,
+        "y": 31.0,
+        "w": 43.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "After retrieval\n4,927 tok/q",
+        "x": 7.0,
+        "y": 50.0,
+        "w": 43.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "After compression\n523 tok/q",
+        "x": 7.0,
+        "y": 68.0,
+        "w": 43.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Recall@10\n0.90",
+        "x": 7.0,
+        "y": 86.0,
+        "w": 43.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "94%",
+        "x": 66.0,
+        "y": 31.0,
+        "w": 18.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "retrieval savings",
+        "x": 66.0,
+        "y": 55.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "No cherry-picking. No synthetic queries.\n20 questions a developer would actually ask.",
+        "x": 61.0,
+        "y": 63.0,
+        "w": 33.0,
+        "h": 10.0
+      },
+      {
+        "role": "code",
+        "text": "$ python benchmarks/run_benchmark.py",
+        "x": 61.0,
+        "y": 75.0,
+        "w": 30.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/dRmWYHuIJxM/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667535.7898617,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "BENCHMARK\nFastAPI FastAPl:53files,20realquestions,reproducible\nFull file baseline Afterretrieval 83,681 tok/q 4,927tok/q 94%\nretrieval savings\nAfter compression 523tok/q No cherry-picking.No synthetic queries.\n20questionsadeveloperwouldactuallyask\nRecall@10 0.90 $pythonbenchmarks/run_benchmark.py --repo fastapi/fastapi--source-dirfa\nelara-labs/code-context-engine",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 356.32
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "BENCHMARK\nFastAPI FastAPl:53files,20realquestions,reproducible\nFull file baseline Afterretrieval 83,681 tok/q 4,927tok/q 94%\nretrieval savings\nAfter compression 523tok/q No cherry-picking.No synthetic queries.\n20questionsadeveloperwouldactuallyask\nRecall@10 0.90 $pythonbenchmarks/run_benchmark.py --repo fastapi/fastapi--source-dirfa\nelara-labs/code-context-engine",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

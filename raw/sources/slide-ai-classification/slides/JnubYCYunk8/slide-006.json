@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.97,
+  "frame_type": "demo_video",
+  "reject_reason": "Screen-share/demo footage showing Google AI Studio in a browser with tabs and side panes; not a presentation slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a slide and the visible text belongs to the live app UI, not slide content.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "dark browser/app UI with black panels and small text",
+    "style": "product",
+    "blocks": []
+  },
+  "image_index": 2,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/JnubYCYunk8/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661240.5625446,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

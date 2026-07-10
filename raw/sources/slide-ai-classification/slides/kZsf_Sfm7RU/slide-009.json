@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "LOG-MONITOR-SLACK\nOurbug~itopensaPR andtellsme\nOutside billing issue -just a heads-up, no PR\nLogMoanitorfotlow\nErvronrreet Period 210206UC)\nPToviderblnghw-RfCURRt D.mot roohrd:LPxv402（ededmmm（redts'101:4sUTC\nutt rraf ar resolvedT a (an bta- thut n rrw contas tn Th /5orgsover48h\nNext strpvvoy Deturubsru 1uruouf pun top cp xtiusy\nIt alerts only when it matters - and knows the difference.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "LOG-MONITOR - SLACK",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Our bug — it opens a PR and tells me",
+        "x": 38.0,
+        "y": 14.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Outside billing issue → just a heads-up, no PR",
+        "x": 31.0,
+        "y": 45.0,
+        "w": 40.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "It alerts only when it matters — and knows the difference.",
+        "x": 18.0,
+        "y": 89.0,
+        "w": 64.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669716.0461483,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "LOG-MONITOR - SLACK",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "LOG-MONITOR-SLACK\nOurbug~itopensaPR andtellsme\nOutside billing issue -just a heads-up, no PR\nLogMoanitorfotlow\nErvronrreet Period 210206UC)\nPToviderblnghw-RfCURRt D.mot roohrd:LPxv402（ededmmm（redts'101:4sUTC\nutt rraf ar resolvedT a (an bta- thut n rrw contas tn Th /5orgsover48h\nNext strpvvoy Deturubsru 1uruouf pun top cp xtiusy\nIt alerts only when it matters - and knows the difference.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 563.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "LOG-MONITOR-SLACK\nOurbug~itopensaPR andtellsme\nOutside billing issue -just a heads-up, no PR\nLogMoanitorfotlow\nErvronrreet Period 210206UC)\nPToviderblnghw-RfCURRt D.mot roohrd:LPxv402（ededmmm（redts'101:4sUTC\nutt rraf ar resolvedT a (an bta- thut n rrw contas tn Th /5orgsover48h\nNext strpvvoy Deturubsru 1uruouf pun top cp xtiusy\nIt alerts only when it matters - and knows the difference.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

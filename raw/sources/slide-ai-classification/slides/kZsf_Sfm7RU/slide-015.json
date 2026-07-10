@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.85,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "177m 2\n59ve9 (12\nSession s-096\nOVKORG S00CXSS·5：/0\nCeet 500\nWhatthecustocrer wanted\nWhat happnid\nIssuesfours\nMOMC2\nTepls used",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "The right-side session report and metadata are dense and small enough to benefit from OCR.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray with white side panel",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Session s-096",
+        "x": 69.0,
+        "y": 48.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What the customer wanted",
+        "x": 69.0,
+        "y": 62.0,
+        "w": 22.0,
+        "h": 4.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What happened",
+        "x": 69.0,
+        "y": 72.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Issues found",
+        "x": 69.0,
+        "y": 82.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Events",
+        "x": 69.0,
+        "y": 14.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Entities",
+        "x": 69.0,
+        "y": 22.0,
+        "w": 8.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-015.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670208.981066,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/contrast",
+    "text": "177m 2\n59ve9 (12\nSession s-096\nOVKORG S00CXSS·5：/0\nCeet 500\nWhatthecustocrer wanted\nWhat happnid\nIssuesfours\nMOMC2\nTepls used",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 231.96
+  },
+  "ocr_source": "rapidocr-live/right-72/contrast",
+  "ocr_reconcile": {
+    "text": "177m 2\n59ve9 (12\nSession s-096\nOVKORG S00CXSS·5：/0\nCeet 500\nWhatthecustocrer wanted\nWhat happnid\nIssuesfours\nMOMC2\nTepls used",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "AGENTS NEED MORE THAN A CHAT\nJACOB LAURITZEN / CTO LEGORA",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with dark left strip and light gray footer",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer / presented by Google DeepMind",
+        "x": 2.0,
+        "y": 70.0,
+        "w": 20.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "Research relevant law and draft a contract between the two parties in these documents. Make no mistakes",
+        "x": 63.0,
+        "y": 3.0,
+        "w": 19.0,
+        "h": 13.0
+      },
+      {
+        "role": "title",
+        "text": "AGENTS NEED MORE THAN A CHAT",
+        "x": 23.0,
+        "y": 74.0,
+        "w": 54.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "JACOB LAURITZEN / CTO LEGORA",
+        "x": 24.0,
+        "y": 88.0,
+        "w": 36.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/XNtkiQJ49Ps/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665137.0823808,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AGENTS NEED MORE THAN A CHAT\nJACOB LAURITZEN / CTO LEGORA",
+  "advanced_ocr": {}
+}

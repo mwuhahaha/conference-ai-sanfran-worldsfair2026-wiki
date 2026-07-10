@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "We built it wrong\nAll the data × Metrics(lab/observcd): Metrics (fie Available ir URL:https://hablich.dev/ 8ounds:(min:878787192835.max:878792338739} -LCP:135 ms,event:（eventKey: r-3682,ts: -insight name:Cache -LCPbreakdown: -CLS:e. examplequesrion:wnat can I aoto reduce relevant example descript example description:A long cache lifetine can spee insight relevant trace bounds:(min:878787261166, -Rende -TTF8:2ms,bounds:(min:878787192835, summary Semantic ase was nost s:(min:8787 specific impr 78787192835， nize my LCP nodatafor\nexample question:what caching strategies\nEngineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code-heavy and multi-panel screenshot with small terminal/text content.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with large warm yellow panel",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "We built it wrong",
+        "x": 33.0,
+        "y": 10.0,
+        "w": 25.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 15.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "All the data",
+        "x": 39.0,
+        "y": 49.0,
+        "w": 14.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Semantic summary",
+        "x": 71.0,
+        "y": 47.0,
+        "w": 16.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 37.0,
+        "y": 83.0,
+        "w": 40.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/_B4Pv9ttFgY/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666031.0926468,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "We built it wrong",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/contrast",
+    "text": "We built it wrong\nAll the data × Metrics(lab/observcd): Metrics (fie Available ir URL:https://hablich.dev/ 8ounds:(min:878787192835.max:878792338739} -LCP:135 ms,event:（eventKey: r-3682,ts: -insight name:Cache -LCPbreakdown: -CLS:e. examplequesrion:wnat can I aoto reduce relevant example descript example description:A long cache lifetine can spee insight relevant trace bounds:(min:878787261166, -Rende -TTF8:2ms,bounds:(min:878787192835, summary Semantic ase was nost s:(min:8787 specific impr 78787192835， nize my LCP nodatafor\nexample question:what caching strategies\nEngineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 719.02
+  },
+  "ocr_source": "rapidocr-live/right-72/contrast",
+  "ocr_reconcile": {
+    "text": "We built it wrong\nAll the data × Metrics(lab/observcd): Metrics (fie Available ir URL:https://hablich.dev/ 8ounds:(min:878787192835.max:878792338739} -LCP:135 ms,event:（eventKey: r-3682,ts: -insight name:Cache -LCPbreakdown: -CLS:e. examplequesrion:wnat can I aoto reduce relevant example descript example description:A long cache lifetine can spee insight relevant trace bounds:(min:878787261166, -Rende -TTF8:2ms,bounds:(min:878787192835, summary Semantic ase was nost s:(min:8787 specific impr 78787192835， nize my LCP nodatafor\nexample question:what caching strategies\nEngineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

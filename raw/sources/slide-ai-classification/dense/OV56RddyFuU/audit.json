@@ -1,0 +1,1232 @@
+{
+  "video_id": "OV56RddyFuU",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 17,
+  "rejected_count": 3,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Open-source",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product/UI screenshot with small embedded text and dense interface elements.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#a8d87a",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Open-source",
+            "x": 36.0,
+            "y": 2.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "DeepSeek-V3.1-Terminus",
+            "x": 13.0,
+            "y": 11.0,
+            "w": 55.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "License: mit",
+            "x": 67.0,
+            "y": 12.0,
+            "w": 25.0,
+            "h": 20.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661666.5896854,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Open-source",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 691.48,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why does open-source matter?\nAbsolute control over models\nCost reduction in multipliers\nFurther customize, shrink models depending on your needs\nGuaranteed privacy for the end-user, enable on-device/in-browser uses, data doesn’t go to another server",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#9ad36f",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why does open-source matter?",
+            "x": 36.0,
+            "y": 2.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Absolute control over models\nCost reduction in multipliers\nFurther customize, shrink models depending on your needs\nGuaranteed privacy for the end-user, enable on-device/in-browser uses, data doesn’t go to another server",
+            "x": 31.0,
+            "y": 18.0,
+            "w": 58.0,
+            "h": 50.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661743.220946,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why does open-source matter?\nAbsolute control over models\nCost reduction in multipliers\nFurther customize, shrink models depending on your needs\nGuaranteed privacy for the end-user, enable on-device/in-browser uses, data doesn’t go to another server",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Artificial Analysis Index\nArtificial Analysis Intelligence Index by Open Weights / Proprietary 2 B 28 of 472 modeks\nArtiflclal Analysls Intelligence Indcx v4.0 incorporates 10 evaluatlors: GDpval-AA, rr-Bench Telecom, Terminal- Barch Hard, SclCode, AA-LCR, AA-Omnlsclerca, IFBench, Humanity's Lest Exam, GPQA Dlamond, CritPt + Add modet from specifk provlder\nProprletary Open Welghts 8080808 A Artlflclw Autytts\n5.0 49 49 Br",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense chart with many small labels and score annotations.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#9ad36f",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Artificial Analysis Index",
+            "x": 35.0,
+            "y": 2.0,
+            "w": 31.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Artificial Analysis Intelligence Index by Open Weights / Proprietary",
+            "x": 6.0,
+            "y": 11.0,
+            "w": 58.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Open Weights / Proprietary",
+            "x": 8.0,
+            "y": 18.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Leaderboard",
+            "x": 8.0,
+            "y": 48.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661743.2217312,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Artificial Analysis Index",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Artificial Analysis Index\nArtificial Analysis Intelligence Index by Open Weights / Proprietary 2 B 28 of 472 modeks\nArtiflclal Analysls Intelligence Indcx v4.0 incorporates 10 evaluatlors: GDpval-AA, rr-Bench Telecom, Terminal- Barch Hard, SclCode, AA-LCR, AA-Omnlsclerca, IFBench, Humanity's Lest Exam, GPQA Dlamond, CritPt + Add modet from specifk provlder\nProprletary Open Welghts 8080808 A Artlflclw Autytts\n5.0 49 49 Br",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 555.76
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Artificial Analysis Index\nArtificial Analysis Intelligence Index by Open Weights / Proprietary 2 B 28 of 472 modeks\nArtiflclal Analysls Intelligence Indcx v4.0 incorporates 10 evaluatlors: GDpval-AA, rr-Bench Telecom, Terminal- Barch Hard, SclCode, AA-LCR, AA-Omnlsclerca, IFBench, Humanity's Lest Exam, GPQA Dlamond, CritPt + Add modet from specifk provlder\nProprletary Open Welghts 8080808 A Artlflclw Autytts\n5.0 49 49 Br",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Hugging Face Hub\nHome for the open-source machine learning community: share & discover models, datasets, apps, connect with the community and more!",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#a7d87a",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Hugging Face Hub",
+            "x": 28.0,
+            "y": 2.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Home for the open-source machine learning community: share & discover models, datasets, apps, connect with the community and more!",
+            "x": 12.0,
+            "y": 12.0,
+            "w": 76.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Hugging Face",
+            "x": 10.0,
+            "y": 28.0,
+            "w": 38.0,
+            "h": 40.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661778.97983,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Hugging Face Hub\nHome for the open-source machine learning community: share & discover models, datasets, apps, connect with the community and more!",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "models → agents, serve locally\nAgentic LLMs (thinking + tool calling): gpt-oss, Gemma-4, Minimax M2.7, GLM-5, Nemotron3-Super\nAgentic vision models (thinking + CUA): Qwen3.5\n(Alibaba), Kimi-K2.5\nmlx_ lm.generate --prompt *How tall ts Mt Everest?\"\nvllm serve Qwen/Qwen3-8B # then query with QpenAI Completion\nllama-server -n model.gguf --port 8080",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Text-heavy slide with code block and multiple model names is best handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f7f7f2",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "models → agents, serve locally",
+            "x": 14.0,
+            "y": 3.0,
+            "w": 60.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Agentic LLMs (thinking + tool calling)\nAgentic vision models (thinking + CUA)",
+            "x": 12.0,
+            "y": 18.0,
+            "w": 78.0,
+            "h": 24.0
+          },
+          {
+            "role": "code",
+            "text": "mlx_lm.generate --prompt \"How tall is Mt Everest?\"\nvlm serve Qwen/Qwen3-8B # then query with OpenAI Completion\nllama-server -m model.gguf --port 8080",
+            "x": 13.0,
+            "y": 58.0,
+            "w": 66.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661778.9803493,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "models → agents, serve locally",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "models → agents, serve locally\nAgentic LLMs (thinking + tool calling): gpt-oss, Gemma-4, Minimax M2.7, GLM-5, Nemotron3-Super\nAgentic vision models (thinking + CUA): Qwen3.5\n(Alibaba), Kimi-K2.5\nmlx_ lm.generate --prompt *How tall ts Mt Everest?\"\nvllm serve Qwen/Qwen3-8B # then query with QpenAI Completion\nllama-server -n model.gguf --port 8080",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 512.28
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "models → agents, serve locally\nAgentic LLMs (thinking + tool calling): gpt-oss, Gemma-4, Minimax M2.7, GLM-5, Nemotron3-Super\nAgentic vision models (thinking + CUA): Qwen3.5\n(Alibaba), Kimi-K2.5\nmlx_ lm.generate --prompt *How tall ts Mt Everest?\"\nvllm serve Qwen/Qwen3-8B # then query with QpenAI Completion\nllama-server -n model.gguf --port 8080",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "compare open models\nDatasets: @ScaleAl/SWE-bench_Pro like: 78 Follow @ ScaleA: 284\nBenchmark Modalities: θ Text Formats: + parquet Size:<1K Libraries: & Datasets pandas. Polars. +1\nt Dataset card: 田 Data Studio Flles and versions 1 K xot: O Community 0\n. Leaderboard ioficisl Benchmrk ① Leam more Epedmentsl\nTaslc SWE Bench Pro\nHODEL SCORE\nΦ Oza1-org/GLH-5.1:0 58.4\n2 HiniMaxAI/niniMax-H2.5 T 55.4\n3. Q coonshotai/KimI-K2.S n' 50.7\n4 s Quen/Qnen3-Coder-Hext n: source 44.3\n5 1 Qon/Qwan3-Coder-4888-A35B-Instruct n! tource 38.7\nV Show all 14 modcls",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Leaderboard table and model scores are dense and OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f7f7f2",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "compare open models",
+            "x": 10.0,
+            "y": 2.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Datasets: ScaleAI / SWE-bench_Pro",
+            "x": 8.0,
+            "y": 10.0,
+            "w": 38.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Leaderboard",
+            "x": 9.0,
+            "y": 25.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661798.3537724,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "compare open models",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "compare open models\nDatasets: @ScaleAl/SWE-bench_Pro like: 78 Follow @ ScaleA: 284\nBenchmark Modalities: θ Text Formats: + parquet Size:<1K Libraries: & Datasets pandas. Polars. +1\nt Dataset card: 田 Data Studio Flles and versions 1 K xot: O Community 0\n. Leaderboard ioficisl Benchmrk ① Leam more Epedmentsl\nTaslc SWE Bench Pro\nHODEL SCORE\nΦ Oza1-org/GLH-5.1:0 58.4\n2 HiniMaxAI/niniMax-H2.5 T 55.4\n3. Q coonshotai/KimI-K2.S n' 50.7\n4 s Quen/Qnen3-Coder-Hext n: source 44.3\n5 1 Qon/Qwan3-Coder-4888-A35B-Instruct n! tource 38.7\nV Show all 14 modcls",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 656.28
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "compare open models\nDatasets: @ScaleAl/SWE-bench_Pro like: 78 Follow @ ScaleA: 284\nBenchmark Modalities: θ Text Formats: + parquet Size:<1K Libraries: & Datasets pandas. Polars. +1\nt Dataset card: 田 Data Studio Flles and versions 1 K xot: O Community 0\n. Leaderboard ioficisl Benchmrk ① Leam more Epedmentsl\nTaslc SWE Bench Pro\nHODEL SCORE\nΦ Oza1-org/GLH-5.1:0 58.4\n2 HiniMaxAI/niniMax-H2.5 T 55.4\n3. Q coonshotai/KimI-K2.S n' 50.7\n4 s Quen/Qnen3-Coder-Hext n: source 44.3\n5 1 Qon/Qwan3-Coder-4888-A35B-Instruct n! tource 38.7\nV Show all 14 modcls",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "compare providers across models",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense comparison table with small text and metrics; OCR is more suitable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3f5ef with pale green border",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "compare providers across models",
+            "x": 8.0,
+            "y": 6.0,
+            "w": 55.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Inference Providers · Metrics for top trending models",
+            "x": 8.0,
+            "y": 17.0,
+            "w": 46.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Filter by model or provider...",
+            "x": 8.0,
+            "y": 24.0,
+            "w": 28.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Model  Provider  Input $/1M  Output $/1M  Context  Latency (s)  Throughput (t/s)",
+            "x": 7.0,
+            "y": 29.0,
+            "w": 86.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661889.80991,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "compare providers across models",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 687.12,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Hub meets your agent\nMCP Server\nplug Hub in to your favorite LLM\nHF CLI\nsearch models, manage datasets & buckets, launch Spaces, run jobs.\nSkills\nempower your agent with Skills of HF ecosystem\nLocal Agents\nRun full coding agents with llama.cpp, Pi & more",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f3f5ef with pale green panels",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The Hub meets your agent",
+            "x": 23.0,
+            "y": 4.0,
+            "w": 54.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "MCP Server\nplug Hub in to your favorite LLM",
+            "x": 9.0,
+            "y": 18.0,
+            "w": 39.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "HF CLI\nsearch models, manage datasets & buckets, launch Spaces, run jobs.",
+            "x": 52.0,
+            "y": 18.0,
+            "w": 40.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "Skills\nempower your agent with Skills of HF ecosystem",
+            "x": 9.0,
+            "y": 50.0,
+            "w": 39.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "Local Agents\nRun full coding agents with llama.cpp, Pi & more",
+            "x": 52.0,
+            "y": 50.0,
+            "w": 40.0,
+            "h": 26.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661984.7312443,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Hub meets your agent\nMCP Server\nplug Hub in to your favorite LLM\nHF CLI\nsearch models, manage datasets & buckets, launch Spaces, run jobs.\nSkills\nempower your agent with Skills of HF ecosystem\nLocal Agents\nRun full coding agents with llama.cpp, Pi & more",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Local coding agents Pi consumes llama.cpp Ilama-agent: agent loop baked into llama.cpp as binary 000 #add your local model $npm install -g @mariozechner/pi-coding-agent \"providers\":{ \"llama-cpp\":{ \"baseUrl\":\"http://localhost:8080/v1\", install pi configure\n/build/bin/llama-agent -hf [HUB_ID] \"models\":[ \"apikey\":\"none\", \"api\":\"openai-completions”,\n(agent) pi API llama.cpp (server) \"id\":\"Qwen3.5-122B-A10B-GGUF\"\nI your files, terminal, etc.\n$pi #start pi start coding",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code and configuration content is small and better suited to OCR than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3f5ef with pale green panels",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Local coding agents",
+            "x": 8.0,
+            "y": 4.0,
+            "w": 37.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Pi consumes llama.cpp\nllama-agent: agent loop baked into llama.cpp as binary",
+            "x": 8.0,
+            "y": 15.0,
+            "w": 39.0,
+            "h": 31.0
+          },
+          {
+            "role": "code",
+            "text": "./build/bin/llama-agent -hf [HUB_ID]",
+            "x": 8.0,
+            "y": 47.0,
+            "w": 41.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "pi (agent)  API  llama.cpp (server)",
+            "x": 10.0,
+            "y": 60.0,
+            "w": 36.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "install pi  configure  start coding",
+            "x": 77.0,
+            "y": 8.0,
+            "w": 17.0,
+            "h": 82.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661984.7363882,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Local coding agents",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Local coding agents Pi consumes llama.cpp Ilama-agent: agent loop baked into llama.cpp as binary 000 #add your local model $npm install -g @mariozechner/pi-coding-agent \"providers\":{ \"llama-cpp\":{ \"baseUrl\":\"http://localhost:8080/v1\", install pi configure\n/build/bin/llama-agent -hf [HUB_ID] \"models\":[ \"apikey\":\"none\", \"api\":\"openai-completions”,\n(agent) pi API llama.cpp (server) \"id\":\"Qwen3.5-122B-A10B-GGUF\"\nI your files, terminal, etc.\n$pi #start pi start coding",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 551.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Local coding agents Pi consumes llama.cpp Ilama-agent: agent loop baked into llama.cpp as binary 000 #add your local model $npm install -g @mariozechner/pi-coding-agent \"providers\":{ \"llama-cpp\":{ \"baseUrl\":\"http://localhost:8080/v1\", install pi configure\n/build/bin/llama-agent -hf [HUB_ID] \"models\":[ \"apikey\":\"none\", \"api\":\"openai-completions”,\n(agent) pi API llama.cpp (server) \"id\":\"Qwen3.5-122B-A10B-GGUF\"\nI your files, terminal, etc.\n$pi #start pi start coding",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Local self-improving agents\nHermes Agent\nself-improvement is baked in: the approach as a reusable across sessions after the task, the agent saves 'skill\" and persists memory hermes chat --provider hf #use with inference providers HF_TOKEN=hf_... #usewith local served endpoint hermes config Set OPENAI BASE URL http://localhost:8080/v1 (llama.cpp & friends)\nProviders or serve LM locally Integrated with Inference hermes config set OPENAI API KEY dummy name hermes config set LLM_MoDEL your-model-\n#start chatting\nhermes chat",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense mixed text and code block are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3f5ef with pale green panel",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Local self-improving agents",
+            "x": 8.0,
+            "y": 4.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Hermes Agent",
+            "x": 8.0,
+            "y": 15.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "self-improvement is baked in:\nafter the task, the agent saves the approach as a reusable \"skill\" and persists memory across sessions\nIntegrated with Inference Providers or serve LM locally",
+            "x": 8.0,
+            "y": 23.0,
+            "w": 43.0,
+            "h": 50.0
+          },
+          {
+            "role": "code",
+            "text": "# use with inference providers\nHF_TOKEN=hf_...\nhermes chat --provider hf\n\n# use with local served endpoint\n(llama.cpp & friends)\nhermes config set OPENAI_BASE_URL\nhttp://localhost:8080/v1\nhermes config set OPENAI_API_KEY dummy\nhermes config set LLM_MODEL your-model-name\n\n# start chatting\nhermes chat",
+            "x": 54.0,
+            "y": 12.0,
+            "w": 38.0,
+            "h": 76.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662053.5360346,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Local self-improving agents",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Local self-improving agents\nHermes Agent\nself-improvement is baked in: the approach as a reusable across sessions after the task, the agent saves 'skill\" and persists memory hermes chat --provider hf #use with inference providers HF_TOKEN=hf_... #usewith local served endpoint hermes config Set OPENAI BASE URL http://localhost:8080/v1 (llama.cpp & friends)\nProviders or serve LM locally Integrated with Inference hermes config set OPENAI API KEY dummy name hermes config set LLM_MoDEL your-model-\n#start chatting\nhermes chat",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 782.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Local self-improving agents\nHermes Agent\nself-improvement is baked in: the approach as a reusable across sessions after the task, the agent saves 'skill\" and persists memory hermes chat --provider hf #use with inference providers HF_TOKEN=hf_... #usewith local served endpoint hermes config Set OPENAI BASE URL http://localhost:8080/v1 (llama.cpp & friends)\nProviders or serve LM locally Integrated with Inference hermes config set OPENAI API KEY dummy name hermes config set LLM_MoDEL your-model-\n#start chatting\nhermes chat",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "New! Hub hosts your agent traces\noher Talu Uonres Untute Uamsts: Datasets 21 a Fker by rume Ful-tet search,:, 1l Sort: Trendng\nHodalles 08 Audo: Documnt t + n6ttT - Lt9 a + or yrp eptpdn: el #: m badlogicganos/pi-aono + 0xSoro/pi-sossions +in· LpLta3dyxo· b%·±17. 5\nD Geosptiul 9 Tet Tmeseries. a voto + Tnct· Updattdadp ato. a7- ±5a. 04 m badlogicganos/pi-diff-review jediscti/agent-traces-smival + Trca: Updaed about ghour ao · D T · A ll: 01\nSue(rour) 0 lhoestq/ag+nt-trac+s-+xaaple + Yaces: Updrid&day. sgo. D4· ±loe· 1 virhnx9e/vtcade-sassion± t o · rst + - alr tnou re noqr ptirpdn\nFo.k: + Trce · Updsttd sbout 1 boar sgo - a 1i · ± 1o · 1 noikapy/fxKobolds 食 tnoe- Updrted 6 dys ago: u 12· 主H cfahlgreni/egent-sessicns-list\nBoe! = ov + prqut optimired parquet:. Bb tragetolder + Tnkes · Updned J dsy ago · D&· L39 mcfahlgron1/pi-diff-review + Tncgs + Updsted 1 day ago: a 15 + ±44 LaisEckart/appioraltostt-lava-sessions\n》MTOH B soundfoldr: ■tit + Trces + Updated 1dsys hro - ct 42? + t(o1 m cfahlgrenl/pi-nono-fresh + Tract4 - Updsted 1 days sgo - B 1 - ± 3s M dongxx11e4/Basoline_featboach\nType Benchmark 1( ( Irxes x:± Trces·Updsted2 dnysato·02·上32 I davanstrien/pi-tracos M davanstrien/pi-traco-parsor-stssions ± Trx++Updt*d2dyt +go: aI+ ±2?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot contains dense small text; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3f5ef with pale green border",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "New! Hub hosts your agent traces",
+            "x": 8.0,
+            "y": 4.0,
+            "w": 54.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "datasets / filters / traces list UI",
+            "x": 8.0,
+            "y": 14.0,
+            "w": 84.0,
+            "h": 77.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662088.6630948,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Hub hosts your agent traces",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "New! Hub hosts your agent traces\noher Talu Uonres Untute Uamsts: Datasets 21 a Fker by rume Ful-tet search,:, 1l Sort: Trendng\nHodalles 08 Audo: Documnt t + n6ttT - Lt9 a + or yrp eptpdn: el #: m badlogicganos/pi-aono + 0xSoro/pi-sossions +in· LpLta3dyxo· b%·±17. 5\nD Geosptiul 9 Tet Tmeseries. a voto + Tnct· Updattdadp ato. a7- ±5a. 04 m badlogicganos/pi-diff-review jediscti/agent-traces-smival + Trca: Updaed about ghour ao · D T · A ll: 01\nSue(rour) 0 lhoestq/ag+nt-trac+s-+xaaple + Yaces: Updrid&day. sgo. D4· ±loe· 1 virhnx9e/vtcade-sassion± t o · rst + - alr tnou re noqr ptirpdn\nFo.k: + Trce · Updsttd sbout 1 boar sgo - a 1i · ± 1o · 1 noikapy/fxKobolds 食 tnoe- Updrted 6 dys ago: u 12· 主H cfahlgreni/egent-sessicns-list\nBoe! = ov + prqut optimired parquet:. Bb tragetolder + Tnkes · Updned J dsy ago · D&· L39 mcfahlgron1/pi-diff-review + Tncgs + Updsted 1 day ago: a 15 + ±44 LaisEckart/appioraltostt-lava-sessions\n》MTOH B soundfoldr: ■tit + Trces + Updated 1dsys hro - ct 42? + t(o1 m cfahlgrenl/pi-nono-fresh + Tract4 - Updsted 1 days sgo - B 1 - ± 3s M dongxx11e4/Basoline_featboach\nType Benchmark 1( ( Irxes x:± Trces·Updsted2 dnysato·02·上32 I davanstrien/pi-tracos M davanstrien/pi-traco-parsor-stssions ± Trx++Updt*d2dyt +go: aI+ ±2?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1296.04
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "New! Hub hosts your agent traces\noher Talu Uonres Untute Uamsts: Datasets 21 a Fker by rume Ful-tet search,:, 1l Sort: Trendng\nHodalles 08 Audo: Documnt t + n6ttT - Lt9 a + or yrp eptpdn: el #: m badlogicganos/pi-aono + 0xSoro/pi-sossions +in· LpLta3dyxo· b%·±17. 5\nD Geosptiul 9 Tet Tmeseries. a voto + Tnct· Updattdadp ato. a7- ±5a. 04 m badlogicganos/pi-diff-review jediscti/agent-traces-smival + Trca: Updaed about ghour ao · D T · A ll: 01\nSue(rour) 0 lhoestq/ag+nt-trac+s-+xaaple + Yaces: Updrid&day. sgo. D4· ±loe· 1 virhnx9e/vtcade-sassion± t o · rst + - alr tnou re noqr ptirpdn\nFo.k: + Trce · Updsttd sbout 1 boar sgo - a 1i · ± 1o · 1 noikapy/fxKobolds 食 tnoe- Updrted 6 dys ago: u 12· 主H cfahlgreni/egent-sessicns-list\nBoe! = ov + prqut optimired parquet:. Bb tragetolder + Tnkes · Updned J dsy ago · D&· L39 mcfahlgron1/pi-diff-review + Tncgs + Updsted 1 day ago: a 15 + ±44 LaisEckart/appioraltostt-lava-sessions\n》MTOH B soundfoldr: ■tit + Trces + Updated 1dsys hro - ct 42? + t(o1 m cfahlgrenl/pi-nono-fresh + Tract4 - Updsted 1 days sgo - B 1 - ± 3s M dongxx11e4/Basoline_featboach\nType Benchmark 1( ( Irxes x:± Trces·Updsted2 dnysato·02·上32 I davanstrien/pi-tracos M davanstrien/pi-traco-parsor-stssions ± Trx++Updt*d2dyt +go: aI+ ±2?",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Just upload your sessions from:\n~/.claude/projects\n~/.codex/sessions\n~/.pi/agent/sessions\n\nNothing else needed!",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light cream",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Just upload your sessions from:",
+            "x": 6.0,
+            "y": 13.0,
+            "w": 33.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "~/.claude/projects\n~/.codex/sessions\n~/.pi/agent/sessions\nNothing else needed!",
+            "x": 6.0,
+            "y": 28.0,
+            "w": 33.0,
+            "h": 34.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662283.2121758,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Just upload your sessions from:\n~/.claude/projects\n~/.codex/sessions\n~/.pi/agent/sessions\n\nNothing else needed!",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "tip: find models supported by local apps\nHsin Isks Litrarirs Urpuges Lloemit (ther 0 Models 474 Tul et verch. y oun+ '+1 Sort, Trending.\nLiu.coo G L Sudoe LnM ow Thinp O Hayr lop t9c 0 - ht1 F: otr kp t pvrpdn · 9st r + ju1-orl+lrul unsloth/geana-4-268-A48-it-GGuf D unsloth/gema-4-318-1t-GGUF P muItrl·to-Tit + d 1la - Updted sbout 18 hout ato · ± Ael. C H1\nYSGLngQ Ualoh oiluionl+ Jbyfuion rUM om 口 xLxL t Dodar Hode tuaitar t Lemortde unsloth/gcana-4-E4B-it-GGUF D unsloth/goea-4-E2B-1t-GGUF B hugrTea-to-Yeat · d Se · Updstrd sbout 2l houn aro - ± y!lh. g1\ntertmce Prerlders Select alt α unsloth/GLH-5.1-GGUF T Tta Gmrmtion - Tb. Updsted I dsy ao · a i1.y - O t unsloth/Q=en3.S-358-A3n-GGUF F tratrTento-Tent · 4 Jso - Updrted Hes· ±L4cy. O Ta\nCroa Noic Cerebrns ○ ulX Hyperbolch TocetherA hmagt-Ten to-fer · d 2re · Updeted Ma 5· ±12k. O <s α untloth/Q=on3.S-27B-GGUF 0 uns1oth/Q=on3.5-98-GGUf B hmageler.to-Tet · s 9s - Updatrd Hst? · t l.1M. O 41?\nt Osicloud A Endpoinau hF hitence AliD wrSped R Coher Fhtworis fetharlessA Q Zl D Rrpiratt Q Salcway d G d unsloth/Qaen3-Coder-Haxt-GGUF TetGanenAion · sce· Updxted Mr6· t 25sk · 556 Tet Goneraton - d 31B: Updned Jn 30 · t 13ek · 583 Q unsloth/Q=on3-Code1-30B-A3B-Inatrutt-GGUF\nMiK unsloth/Qnon3.5-4B-GGUF kmwg+teat-to-Tor - 4B. Updstrd Har 2 - ± 5tdk - 19$ H hmaglanto-Tra · d 12ze · Updxrd r s -. 38yt. O 10 unsloth/Quon3.5-1228-A1e8-GGUF\nhf.co/models → other → apps",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "product UI screenshot with many small labels and model rows",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light green",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "tip: find models supported by local apps",
+            "x": 2.0,
+            "y": 2.0,
+            "w": 56.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 2.0,
+            "y": 12.0,
+            "w": 96.0,
+            "h": 76.0
+          },
+          {
+            "role": "caption",
+            "text": "hf.co/models → other → apps",
+            "x": 58.0,
+            "y": 91.0,
+            "w": 35.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-014.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662283.2128139,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "tip: find models supported by local apps",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "tip: find models supported by local apps\nHsin Isks Litrarirs Urpuges Lloemit (ther 0 Models 474 Tul et verch. y oun+ '+1 Sort, Trending.\nLiu.coo G L Sudoe LnM ow Thinp O Hayr lop t9c 0 - ht1 F: otr kp t pvrpdn · 9st r + ju1-orl+lrul unsloth/geana-4-268-A48-it-GGuf D unsloth/gema-4-318-1t-GGUF P muItrl·to-Tit + d 1la - Updted sbout 18 hout ato · ± Ael. C H1\nYSGLngQ Ualoh oiluionl+ Jbyfuion rUM om 口 xLxL t Dodar Hode tuaitar t Lemortde unsloth/gcana-4-E4B-it-GGUF D unsloth/goea-4-E2B-1t-GGUF B hugrTea-to-Yeat · d Se · Updstrd sbout 2l houn aro - ± y!lh. g1\ntertmce Prerlders Select alt α unsloth/GLH-5.1-GGUF T Tta Gmrmtion - Tb. Updsted I dsy ao · a i1.y - O t unsloth/Q=en3.S-358-A3n-GGUF F tratrTento-Tent · 4 Jso - Updrted Hes· ±L4cy. O Ta\nCroa Noic Cerebrns ○ ulX Hyperbolch TocetherA hmagt-Ten to-fer · d 2re · Updeted Ma 5· ±12k. O <s α untloth/Q=on3.S-27B-GGUF 0 uns1oth/Q=on3.5-98-GGUf B hmageler.to-Tet · s 9s - Updatrd Hst? · t l.1M. O 41?\nt Osicloud A Endpoinau hF hitence AliD wrSped R Coher Fhtworis fetharlessA Q Zl D Rrpiratt Q Salcway d G d unsloth/Qaen3-Coder-Haxt-GGUF TetGanenAion · sce· Updxted Mr6· t 25sk · 556 Tet Goneraton - d 31B: Updned Jn 30 · t 13ek · 583 Q unsloth/Q=on3-Code1-30B-A3B-Inatrutt-GGUF\nMiK unsloth/Qnon3.5-4B-GGUF kmwg+teat-to-Tor - 4B. Updstrd Har 2 - ± 5tdk - 19$ H hmaglanto-Tra · d 12ze · Updxrd r s -. 38yt. O 10 unsloth/Quon3.5-1228-A1e8-GGUF\nhf.co/models → other → apps",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1462.36
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "tip: find models supported by local apps\nHsin Isks Litrarirs Urpuges Lloemit (ther 0 Models 474 Tul et verch. y oun+ '+1 Sort, Trending.\nLiu.coo G L Sudoe LnM ow Thinp O Hayr lop t9c 0 - ht1 F: otr kp t pvrpdn · 9st r + ju1-orl+lrul unsloth/geana-4-268-A48-it-GGuf D unsloth/gema-4-318-1t-GGUF P muItrl·to-Tit + d 1la - Updted sbout 18 hout ato · ± Ael. C H1\nYSGLngQ Ualoh oiluionl+ Jbyfuion rUM om 口 xLxL t Dodar Hode tuaitar t Lemortde unsloth/gcana-4-E4B-it-GGUF D unsloth/goea-4-E2B-1t-GGUF B hugrTea-to-Yeat · d Se · Updstrd sbout 2l houn aro - ± y!lh. g1\ntertmce Prerlders Select alt α unsloth/GLH-5.1-GGUF T Tta Gmrmtion - Tb. Updsted I dsy ao · a i1.y - O t unsloth/Q=en3.S-358-A3n-GGUF F tratrTento-Tent · 4 Jso - Updrted Hes· ±L4cy. O Ta\nCroa Noic Cerebrns ○ ulX Hyperbolch TocetherA hmagt-Ten to-fer · d 2re · Updeted Ma 5· ±12k. O <s α untloth/Q=on3.S-27B-GGUF 0 uns1oth/Q=on3.5-98-GGUf B hmageler.to-Tet · s 9s - Updatrd Hst? · t l.1M. O 41?\nt Osicloud A Endpoinau hF hitence AliD wrSped R Coher Fhtworis fetharlessA Q Zl D Rrpiratt Q Salcway d G d unsloth/Qaen3-Coder-Haxt-GGUF TetGanenAion · sce· Updxted Mr6· t 25sk · 556 Tet Goneraton - d 31B: Updned Jn 30 · t 13ek · 583 Q unsloth/Q=on3-Code1-30B-A3B-Inatrutt-GGUF\nMiK unsloth/Qnon3.5-4B-GGUF kmwg+teat-to-Tor - 4B. Updstrd Har 2 - ± 5tdk - 19$ H hmaglanto-Tra · d 12ze · Updxrd r s -. 38yt. O 10 unsloth/Quon3.5-1228-A1e8-GGUF\nhf.co/models → other → apps",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "ggml-org/gemma-4-26B-A4B-it-GGUF uke 40 Folow ceml-org 168k\nB GGUF: converatlonal\nV Modelcard Ie Files and versions i& mt Community I:: Deploy * eUse this model]\nEdit model card\ngemma-4-26B-A4B-it-GGUF 67,075 Downlosds Iast monh\nRecommended way to run this model:1lana-scrvor -hf ggal-org/gcnma-4-26B-A4B-it-GGUF GGUF ① Model size 25B params Architecture: gemma4 () Chat template\nThen, access http://ocalhost:8080 Hardware compatibility P L4 (24 GB) x1:\n4-bit Q4_K_M:16.8 GB\n8-bit α Q8_0 126.9 G8:\n16-bit β F16 150.5 GB",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense product screenshot with model card, code, and compatibility details",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light green",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "ggml-org gemma-4-26B-A4B-it-GGUF",
+            "x": 2.0,
+            "y": 8.0,
+            "w": 52.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Recommended way to run this model:\nllama-server -hf ggml-org/gemma-4-26B-A4B-it-GGUF\nThen, access http://localhost:8080",
+            "x": 3.0,
+            "y": 37.0,
+            "w": 36.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram",
+            "text": "GGUF\nHardware compatibility\n4-bit\n8-bit\n16-bit",
+            "x": 38.0,
+            "y": 24.0,
+            "w": 58.0,
+            "h": 68.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-015.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662360.0408626,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "ggml-org/gemma-4-26B-A4B-it-GGUF uke 40 Folow ceml-org 168k\nB GGUF: converatlonal\nV Modelcard Ie Files and versions i& mt Community I:: Deploy * eUse this model]\nEdit model card\ngemma-4-26B-A4B-it-GGUF 67,075 Downlosds Iast monh\nRecommended way to run this model:1lana-scrvor -hf ggal-org/gcnma-4-26B-A4B-it-GGUF GGUF ① Model size 25B params Architecture: gemma4 () Chat template\nThen, access http://ocalhost:8080 Hardware compatibility P L4 (24 GB) x1:\n4-bit Q4_K_M:16.8 GB\n8-bit α Q8_0 126.9 G8:\n16-bit β F16 150.5 GB",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 619.56
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "ggml-org/gemma-4-26B-A4B-it-GGUF uke 40 Folow ceml-org 168k\nB GGUF: converatlonal\nV Modelcard Ie Files and versions i& mt Community I:: Deploy * eUse this model]\nEdit model card\ngemma-4-26B-A4B-it-GGUF 67,075 Downlosds Iast monh\nRecommended way to run this model:1lana-scrvor -hf ggal-org/gcnma-4-26B-A4B-it-GGUF GGUF ① Model size 25B params Architecture: gemma4 () Chat template\nThen, access http://ocalhost:8080 Hardware compatibility P L4 (24 GB) x1:\n4-bit Q4_K_M:16.8 GB\n8-bit α Q8_0 126.9 G8:\n16-bit β F16 150.5 GB",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "lets any coding agent HF CLI Skill # Add CLI skill globally hf skills add --claude --global\nsearch models, manage datasets, # 0r per-project hf skills add --claude\nrun jobs (and more!) launch Spaces # Works with other agents too hf skills add --codex hf skills add hf skills add --opencode --cursor",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "slide contains code snippets and multi-column text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light green",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "HF CLI Skill",
+            "x": 5.0,
+            "y": 5.0,
+            "w": 33.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "lets any coding agent\n• search models,\n• manage datasets,\n• launch Spaces\n• run jobs (and more!)",
+            "x": 6.0,
+            "y": 18.0,
+            "w": 38.0,
+            "h": 33.0
+          },
+          {
+            "role": "code",
+            "text": "# Add CLI skill globally\nhf skills add --claude --global\n\n# Or per-project\nhf skills add --claude\n\n# Works with other agents too\nhf skills add --codex\nhf skills add --cursor\nhf skills add --opencode",
+            "x": 49.0,
+            "y": 7.0,
+            "w": 44.0,
+            "h": 80.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-016.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662401.093104,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "HF CLI Skill",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "lets any coding agent HF CLI Skill # Add CLI skill globally hf skills add --claude --global\nsearch models, manage datasets, # 0r per-project hf skills add --claude\nrun jobs (and more!) launch Spaces # Works with other agents too hf skills add --codex hf skills add hf skills add --opencode --cursor",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 482.87
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "lets any coding agent HF CLI Skill # Add CLI skill globally hf skills add --claude --global\nsearch models, manage datasets, # 0r per-project hf skills add --claude\nrun jobs (and more!) launch Spaces # Works with other agents too hf skills add --codex hf skills add hf skills add --opencode --cursor",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense small chat screenshot, code block, and multi-column annotations.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "pale green frame on white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "18 previous messages",
+            "x": 29.0,
+            "y": 28.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "code",
+            "text": "bash",
+            "x": 21.0,
+            "y": 49.0,
+            "w": 4.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "→ LLM sees how to use\nthe model from model\ncard\n→ drafts uv script\n→ provides command",
+            "x": 56.0,
+            "y": 25.0,
+            "w": 36.0,
+            "h": 45.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-019.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662530.8408866,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 2203.0,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0012
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Grest Do you hive sn ides of the costs foc runaing 16 GpUs in parstei tor thst long? Use @ Hugglng Face Jobt:\nnq Uslng the latest rerifed HF Jobs pricing frorn our erlronmant, l4tsxl ks s1.8e/hour pe GPU. So 16x I4esx1 3 previous mosssges ) → LLM even does napkin calculates running cost for math for the instance and\nAep/169s noqy · +. $2s.te/hour tots the Job\nLyn yyap-its sinou oeioz hoqt ey pmoyt uru tded- ras'iz mm, out 'ehtd yyewlpuea sotl ueuro eu betn + -29.3h case: about s843 + 3+.th cso: sbout $565 16 jobs in paralle, to the rw GpU cost is about: ran you can use Buckets → these Jobs will be re-\nFor compsrson, 16x sieg-large: b ch+aotr par hour but slomt ottral: rd budget a bit abore rw compute ior shurd skew, slrtup overhead, retrles, trd possble Hub hlceupt + Practicel budgtl sbout s9eo-si,054 fast read-write with hf-mount that allows\n+ $ltg-1srge.: s1.s0/bour. osch, so $24/bour. for 16\n+ Estimated wall-clock: about 56.4 hours. + Total: sbout s1,353\nTthuo aodtoy> Aryoirw pue ostu, 4oq dq proyt 1' txhm xgt tsn:outt cn cirt uoepuauuoou Au os",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense pricing calculations and screenshot text in small type.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "pale green frame on white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "3 previous messages",
+            "x": 29.0,
+            "y": 19.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "→ LLM even does napkin math for the instance and calculates running cost for\nthe Job\n→ these Jobs will be re-ran you can use Buckets\nwith hf-mount that allows fast read-write",
+            "x": 56.0,
+            "y": 19.0,
+            "w": 37.0,
+            "h": 42.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-020.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662584.836052,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Grest Do you hive sn ides of the costs foc runaing 16 GpUs in parstei tor thst long? Use @ Hugglng Face Jobt:\nnq Uslng the latest rerifed HF Jobs pricing frorn our erlronmant, l4tsxl ks s1.8e/hour pe GPU. So 16x I4esx1 3 previous mosssges ) → LLM even does napkin calculates running cost for math for the instance and\nAep/169s noqy · +. $2s.te/hour tots the Job\nLyn yyap-its sinou oeioz hoqt ey pmoyt uru tded- ras'iz mm, out 'ehtd yyewlpuea sotl ueuro eu betn + -29.3h case: about s843 + 3+.th cso: sbout $565 16 jobs in paralle, to the rw GpU cost is about: ran you can use Buckets → these Jobs will be re-\nFor compsrson, 16x sieg-large: b ch+aotr par hour but slomt ottral: rd budget a bit abore rw compute ior shurd skew, slrtup overhead, retrles, trd possble Hub hlceupt + Practicel budgtl sbout s9eo-si,054 fast read-write with hf-mount that allows\n+ $ltg-1srge.: s1.s0/bour. osch, so $24/bour. for 16\n+ Estimated wall-clock: about 56.4 hours. + Total: sbout s1,353\nTthuo aodtoy> Aryoirw pue ostu, 4oq dq proyt 1' txhm xgt tsn:outt cn cirt uoepuauuoou Au os",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1598.56
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Grest Do you hive sn ides of the costs foc runaing 16 GpUs in parstei tor thst long? Use @ Hugglng Face Jobt:\nnq Uslng the latest rerifed HF Jobs pricing frorn our erlronmant, l4tsxl ks s1.8e/hour pe GPU. So 16x I4esx1 3 previous mosssges ) → LLM even does napkin calculates running cost for math for the instance and\nAep/169s noqy · +. $2s.te/hour tots the Job\nLyn yyap-its sinou oeioz hoqt ey pmoyt uru tded- ras'iz mm, out 'ehtd yyewlpuea sotl ueuro eu betn + -29.3h case: about s843 + 3+.th cso: sbout $565 16 jobs in paralle, to the rw GpU cost is about: ran you can use Buckets → these Jobs will be re-\nFor compsrson, 16x sieg-large: b ch+aotr par hour but slomt ottral: rd budget a bit abore rw compute ior shurd skew, slrtup overhead, retrles, trd possble Hub hlceupt + Practicel budgtl sbout s9eo-si,054 fast read-write with hf-mount that allows\n+ $ltg-1srge.: s1.s0/bour. osch, so $24/bour. for 16\n+ Estimated wall-clock: about 56.4 hours. + Total: sbout s1,353\nTthuo aodtoy> Aryoirw pue ostu, 4oq dq proyt 1' txhm xgt tsn:outt cn cirt uoepuauuoou Au os",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/OV56RddyFuU/slide-020.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.96,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Camera shot of speaker on stage with the slide only partially visible behind.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "stage photo with white slide and black sponsor wall",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Local Coding Agents",
+            "x": 42.0,
+            "y": 33.0,
+            "w": 30.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "Braintrust  WorkOS  OpenAI",
+            "x": 29.0,
+            "y": 79.0,
+            "w": 52.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "speaker on stage",
+            "x": 0,
+            "y": 0,
+            "w": 25.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661984.7357295,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage with partial slide and sponsor logos",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark stage with white slide panels",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-017.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662444.8553064,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage with partial slide and sponsor logos",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark stage with white slide panels",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/OV56RddyFuU/slide-018.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662444.8590155,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

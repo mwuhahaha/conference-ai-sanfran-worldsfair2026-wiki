@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Local coding agents Pi consumes llama.cpp Ilama-agent: agent loop baked into llama.cpp as binary 000 #add your local model $npm install -g @mariozechner/pi-coding-agent \"providers\":{ \"llama-cpp\":{ \"baseUrl\":\"http://localhost:8080/v1\", install pi configure\n/build/bin/llama-agent -hf [HUB_ID] \"models\":[ \"apikey\":\"none\", \"api\":\"openai-completions”,\n(agent) pi API llama.cpp (server) \"id\":\"Qwen3.5-122B-A10B-GGUF\"\nI your files, terminal, etc.\n$pi #start pi start coding",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code and configuration content is small and better suited to OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3f5ef with pale green panels",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Local coding agents",
+        "x": 8.0,
+        "y": 4.0,
+        "w": 37.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Pi consumes llama.cpp\nllama-agent: agent loop baked into llama.cpp as binary",
+        "x": 8.0,
+        "y": 15.0,
+        "w": 39.0,
+        "h": 31.0
+      },
+      {
+        "role": "code",
+        "text": "./build/bin/llama-agent -hf [HUB_ID]",
+        "x": 8.0,
+        "y": 47.0,
+        "w": 41.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "pi (agent)  API  llama.cpp (server)",
+        "x": 10.0,
+        "y": 60.0,
+        "w": 36.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "install pi  configure  start coding",
+        "x": 77.0,
+        "y": 8.0,
+        "w": 17.0,
+        "h": 82.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661984.7363882,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Local coding agents",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Local coding agents Pi consumes llama.cpp Ilama-agent: agent loop baked into llama.cpp as binary 000 #add your local model $npm install -g @mariozechner/pi-coding-agent \"providers\":{ \"llama-cpp\":{ \"baseUrl\":\"http://localhost:8080/v1\", install pi configure\n/build/bin/llama-agent -hf [HUB_ID] \"models\":[ \"apikey\":\"none\", \"api\":\"openai-completions”,\n(agent) pi API llama.cpp (server) \"id\":\"Qwen3.5-122B-A10B-GGUF\"\nI your files, terminal, etc.\n$pi #start pi start coding",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 551.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Local coding agents Pi consumes llama.cpp Ilama-agent: agent loop baked into llama.cpp as binary 000 #add your local model $npm install -g @mariozechner/pi-coding-agent \"providers\":{ \"llama-cpp\":{ \"baseUrl\":\"http://localhost:8080/v1\", install pi configure\n/build/bin/llama-agent -hf [HUB_ID] \"models\":[ \"apikey\":\"none\", \"api\":\"openai-completions”,\n(agent) pi API llama.cpp (server) \"id\":\"Qwen3.5-122B-A10B-GGUF\"\nI your files, terminal, etc.\n$pi #start pi start coding",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

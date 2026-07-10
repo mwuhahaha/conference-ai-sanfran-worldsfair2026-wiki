@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.12,
+  "frame_type": "speaker_stage",
+  "reject_reason": "camera shot of presenters and audience; projected slide is too small and unreadable",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "not a usable slide frame",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "gray room with a dim projected screen",
+    "style": "other",
+    "blocks": []
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/grdoOC1BT1s/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668039.3790572,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

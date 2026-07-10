@@ -1,0 +1,148 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Containers: Why? And What?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple diagram with large labels; direct reading is enough and OCR is not necessary.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f4f4f4",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Containers: Why? And What?",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 32.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Container",
+        "x": 12.0,
+        "y": 12.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid Namespace",
+        "x": 18.0,
+        "y": 19.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid 1",
+        "x": 22.0,
+        "y": 27.0,
+        "w": 8.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid 2",
+        "x": 15.0,
+        "y": 43.0,
+        "w": 8.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid 3",
+        "x": 26.0,
+        "y": 43.0,
+        "w": 8.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Mount Namespace",
+        "x": 18.0,
+        "y": 56.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "/foo",
+        "x": 18.0,
+        "y": 73.0,
+        "w": 8.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Parent Root Namespaces",
+        "x": 53.0,
+        "y": 10.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid 1",
+        "x": 47.0,
+        "y": 12.0,
+        "w": 8.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid 100",
+        "x": 51.0,
+        "y": 28.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid 101",
+        "x": 47.0,
+        "y": 44.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid 102",
+        "x": 61.0,
+        "y": 44.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Userspace",
+        "x": 58.0,
+        "y": 77.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Kernel",
+        "x": 58.0,
+        "y": 90.0,
+        "w": 8.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672924.4510758,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Containers: Why? And What?",
+  "advanced_ocr": {}
+}

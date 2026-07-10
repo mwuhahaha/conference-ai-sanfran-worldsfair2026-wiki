@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Userspace\nRoot Namespace\nMalicious'or Buggy Process Container # minijailo -S /usr/share/minijailo/$(uname -m)/cat.policy --\\ /bin/cat /eroc/self/seccomp_filter\nPid Namespace: Syscall. P!d ioctl. mmap2:arg2 == 0x0 open: arg1 == 32768 Il arg1 == 0 Il arg1 == 34816 Il arg1 == 2048 L:dowunm # open with O_LARGEFILEIO_RDONLYlO_NOvBLOck or some combination. close: 1\n:Kernel.\nReduce attack surface by using seccomp filters\nCan restrlct thie attack surface by restrictlng the Lirux CAPabaltes atowed to a process such ss CAP_NET, CAP_SYS_ADMN etc.\n: These controt whst syscots a process cani call:: Slmlarty vre can uso seccomp frers to rostict what syscats a procoss can coll\n'Minleil' developed by ChrcmeOs provdes an easy lrerface lo do boh.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense diagram labels and small policy text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3f3f3",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Container",
+        "x": 5.0,
+        "y": 16.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Malicious or Buggy Process",
+        "x": 5.0,
+        "y": 25.0,
+        "w": 28.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid Namespace",
+        "x": 7.0,
+        "y": 37.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Userspace",
+        "x": 84.0,
+        "y": 4.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Root Namespace",
+        "x": 81.0,
+        "y": 9.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Reduce attack surface by using seccomp filters",
+        "x": 25.0,
+        "y": 88.0,
+        "w": 47.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-019.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673283.6792848,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Reduce attack surface by using seccomp filters",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Userspace\nRoot Namespace\nMalicious'or Buggy Process Container # minijailo -S /usr/share/minijailo/$(uname -m)/cat.policy --\\ /bin/cat /eroc/self/seccomp_filter\nPid Namespace: Syscall. P!d ioctl. mmap2:arg2 == 0x0 open: arg1 == 32768 Il arg1 == 0 Il arg1 == 34816 Il arg1 == 2048 L:dowunm # open with O_LARGEFILEIO_RDONLYlO_NOvBLOck or some combination. close: 1\n:Kernel.\nReduce attack surface by using seccomp filters\nCan restrlct thie attack surface by restrictlng the Lirux CAPabaltes atowed to a process such ss CAP_NET, CAP_SYS_ADMN etc.\n: These controt whst syscots a process cani call:: Slmlarty vre can uso seccomp frers to rostict what syscats a procoss can coll\n'Minleil' developed by ChrcmeOs provdes an easy lrerface lo do boh.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 951.64
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Userspace\nRoot Namespace\nMalicious'or Buggy Process Container # minijailo -S /usr/share/minijailo/$(uname -m)/cat.policy --\\ /bin/cat /eroc/self/seccomp_filter\nPid Namespace: Syscall. P!d ioctl. mmap2:arg2 == 0x0 open: arg1 == 32768 Il arg1 == 0 Il arg1 == 34816 Il arg1 == 2048 L:dowunm # open with O_LARGEFILEIO_RDONLYlO_NOvBLOck or some combination. close: 1\n:Kernel.\nReduce attack surface by using seccomp filters\nCan restrlct thie attack surface by restrictlng the Lirux CAPabaltes atowed to a process such ss CAP_NET, CAP_SYS_ADMN etc.\n: These controt whst syscots a process cani call:: Slmlarty vre can uso seccomp frers to rostict what syscats a procoss can coll\n'Minleil' developed by ChrcmeOs provdes an easy lrerface lo do boh.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

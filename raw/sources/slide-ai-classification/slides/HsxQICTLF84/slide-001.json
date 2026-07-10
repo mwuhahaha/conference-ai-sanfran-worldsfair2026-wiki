@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.95,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Speaker-on-stage shot with a projected title; not a standalone content slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Stage photo with presenter and audience; OCR is unnecessary.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#f2f2f2",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Building an ACP compatible agent",
+        "x": 44.0,
+        "y": 12.0,
+        "w": 49.0,
+        "h": 58.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/HsxQICTLF84/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659516.7651317,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

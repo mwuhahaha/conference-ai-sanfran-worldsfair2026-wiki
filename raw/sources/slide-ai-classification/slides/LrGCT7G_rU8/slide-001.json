@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Using RL-based Agent to Detect and Remediate ETL Pipeline Failures\nPresenter: Anna Marie Benzon\nUniversity of the Philippines, Diliman\ngithub.com/ambenzon27/rl-etl-remediation-agent",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg,#14395f,#4d93d9)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Using RL-based Agent to Detect and Remediate ETL Pipeline Failures",
+        "x": 3.0,
+        "y": 5.0,
+        "w": 46.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "Presenter: Anna Marie Benzon",
+        "x": 54.0,
+        "y": 64.0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "University of the Philippines, Diliman",
+        "x": 55.0,
+        "y": 78.0,
+        "w": 27.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "github.com/ambenzon27/rl-etl-remediation-agent",
+        "x": 55.0,
+        "y": 84.0,
+        "w": 39.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660919.5809925,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Using RL-based Agent to Detect and Remediate ETL Pipeline Failures\nPresenter: Anna Marie Benzon\nUniversity of the Philippines, Diliman\ngithub.com/ambenzon27/rl-etl-remediation-agent",
+  "advanced_ocr": {}
+}

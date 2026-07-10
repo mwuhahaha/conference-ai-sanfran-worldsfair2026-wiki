@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why Runpod Exists\nInfrastructure eats developer time\nGPU access is slow and opaque\nBuilder primary focus should be building",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f3e9fb",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why Runpod Exists",
+        "x": 30.0,
+        "y": 11.0,
+        "w": 28.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Infrastructure eats developer time",
+        "x": 31.0,
+        "y": 34.0,
+        "w": 22.0,
+        "h": 21.0
+      },
+      {
+        "role": "body",
+        "text": "GPU access is slow and opaque",
+        "x": 54.0,
+        "y": 34.0,
+        "w": 22.0,
+        "h": 21.0
+      },
+      {
+        "role": "body",
+        "text": "Builder primary focus should be building",
+        "x": 76.0,
+        "y": 34.0,
+        "w": 19.0,
+        "h": 21.0
+      },
+      {
+        "role": "logo",
+        "text": "Braintrust  WorkOS  OpenAI",
+        "x": 39.0,
+        "y": 78.0,
+        "w": 48.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/zDGHt0LB-dA/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672828.7928917,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why Runpod Exists\nInfrastructure eats developer time\nGPU access is slow and opaque\nBuilder primary focus should be building",
+  "advanced_ocr": {}
+}

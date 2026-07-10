@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Soluion\norighedata/skls\n0<） mqueb Actone\nP2a0ag Qoo Abol\n日\nAIE esf petk MT Scue\nRACmd d d glupe 1mve Ysso\n[LADUS Salevan\nBright Data Plugin for Claude Code\nngearcandtrctureddets\nOATAU\n1111AV\nEngineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "repository README screenshot with small text",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 26.0,
+        "w": 12.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Bright Data Plugin for Claude Code",
+        "x": 38.0,
+        "y": 68.0,
+        "w": 40.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "GitHub",
+        "x": 30.0,
+        "y": 4.0,
+        "w": 8.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/btxGmN8RvNU/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666948.331835,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Bright Data Plugin for Claude Code",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Soluion\norighedata/skls\n0<） mqueb Actone\nP2a0ag Qoo Abol\n日\nAIE esf petk MT Scue\nRACmd d d glupe 1mve Ysso\n[LADUS Salevan\nBright Data Plugin for Claude Code\nngearcandtrctureddets\nOATAU\n1111AV\nEngineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 405.64
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Soluion\norighedata/skls\n0<） mqueb Actone\nP2a0ag Qoo Abol\n日\nAIE esf petk MT Scue\nRACmd d d glupe 1mve Ysso\n[LADUS Salevan\nBright Data Plugin for Claude Code\nngearcandtrctureddets\nOATAU\n1111AV\nEngineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

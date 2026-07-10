@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "workshop studo\nAgents with Amazon NovaActand MCP ①entendin1dyZ3hounZiniutes\nAct and MCP AlEngineer World'sFair2025:BuildingAgents withAmazonNova Act andMCP tntdahbe p yry tyle\nAIE Module 1: Iulding wth An Worishep Setip Modue 2: Bulding wth Model wnpping up Cran p NaAt Conteat Protocal(MCF) Agnti Ne 3.Du lng A Agents Event information Start ine 6/03/2025 12:40 PM4 Discover Nev Desoription ie bud agents ly eo Smdun tnnv fneni st Duraton Aocsilie regions s-weit-2, us-3sb-1\nwrhop Cod wrihep Srey wrh L Amcn Nov Act Lnk [ Srands Agents Lins [ Workshop Tile Descriptian aSsenrioes Get itartad\nAWS account access capabiities.bpo ow M one appicartiens, ali thrsugh naturi langaige mwract nects Agents s9 Grta s)\nGetEC2 SHy Get AWS CLI creder OpenAiS co Event Outputs (2)\nsry\nWordsFar Microsoft smol",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense workshop UI screenshot with many small labels, sidebar items, and event details.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with dark sidebar",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 16.0
+      },
+      {
+        "role": "title",
+        "text": "AI Engineer World's Fair 2025: Building Agents with Amazon Nova Act and MCP",
+        "x": 33.0,
+        "y": 12.0,
+        "w": 50.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Event information",
+        "x": 33.0,
+        "y": 20.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Workshop",
+        "x": 33.0,
+        "y": 46.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/wFTVEDYVJT0/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672244.74305,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "workshop studo\nAgents with Amazon NovaActand MCP ①entendin1dyZ3hounZiniutes\nAct and MCP AlEngineer World'sFair2025:BuildingAgents withAmazonNova Act andMCP tntdahbe p yry tyle\nAIE Module 1: Iulding wth An Worishep Setip Modue 2: Bulding wth Model wnpping up Cran p NaAt Conteat Protocal(MCF) Agnti Ne 3.Du lng A Agents Event information Start ine 6/03/2025 12:40 PM4 Discover Nev Desoription ie bud agents ly eo Smdun tnnv fneni st Duraton Aocsilie regions s-weit-2, us-3sb-1\nwrhop Cod wrihep Srey wrh L Amcn Nov Act Lnk [ Srands Agents Lins [ Workshop Tile Descriptian aSsenrioes Get itartad\nAWS account access capabiities.bpo ow M one appicartiens, ali thrsugh naturi langaige mwract nects Agents s9 Grta s)\nGetEC2 SHy Get AWS CLI creder OpenAiS co Event Outputs (2)\nsry\nWordsFar Microsoft smol",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1213.76
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "workshop studo\nAgents with Amazon NovaActand MCP ①entendin1dyZ3hounZiniutes\nAct and MCP AlEngineer World'sFair2025:BuildingAgents withAmazonNova Act andMCP tntdahbe p yry tyle\nAIE Module 1: Iulding wth An Worishep Setip Modue 2: Bulding wth Model wnpping up Cran p NaAt Conteat Protocal(MCF) Agnti Ne 3.Du lng A Agents Event information Start ine 6/03/2025 12:40 PM4 Discover Nev Desoription ie bud agents ly eo Smdun tnnv fneni st Duraton Aocsilie regions s-weit-2, us-3sb-1\nwrhop Cod wrihep Srey wrh L Amcn Nov Act Lnk [ Srands Agents Lins [ Workshop Tile Descriptian aSsenrioes Get itartad\nAWS account access capabiities.bpo ow M one appicartiens, ali thrsugh naturi langaige mwract nects Agents s9 Grta s)\nGetEC2 SHy Get AWS CLI creder OpenAiS co Event Outputs (2)\nsry\nWordsFar Microsoft smol",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

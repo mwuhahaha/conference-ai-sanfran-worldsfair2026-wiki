@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Definesystem guardrails\nGuardrails define the boundaries of accepfable inpufs and outputs.\nInpu? Output\nInvalid, irrelevanf or harmful inputs. Invalid, incorrect or harmfui outputs\nWrite mea poem. Findl resultshouldprovide citations",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Two-column slide with small labels and examples.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark teal with patterned green accents",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Define system guardrails",
+        "x": 24.0,
+        "y": 12.0,
+        "w": 42.0,
+        "h": 12.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Guardrails define the boundaries of acceptable inputs and outputs.",
+        "x": 24.0,
+        "y": 25.0,
+        "w": 58.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Input",
+        "x": 34.0,
+        "y": 43.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Invalid, irrelevant or harmful inputs",
+        "x": 27.0,
+        "y": 54.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Write me a poem",
+        "x": 33.0,
+        "y": 67.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Output",
+        "x": 76.0,
+        "y": 43.0,
+        "w": 11.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Invalid, incorrect or harmful outputs",
+        "x": 67.0,
+        "y": 54.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Final result should provide citations",
+        "x": 69.0,
+        "y": 67.0,
+        "w": 24.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/T0HhO4YtTfE/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664076.1708572,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Define system guardrails",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Definesystem guardrails\nGuardrails define the boundaries of accepfable inpufs and outputs.\nInpu? Output\nInvalid, irrelevanf or harmful inputs. Invalid, incorrect or harmfui outputs\nWrite mea poem. Findl resultshouldprovide citations",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 354.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Definesystem guardrails\nGuardrails define the boundaries of accepfable inpufs and outputs.\nInpu? Output\nInvalid, irrelevanf or harmful inputs. Invalid, incorrect or harmfui outputs\nWrite mea poem. Findl resultshouldprovide citations",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "executor.cutput(ho recentrentals foundfor top custoaer')\nexecutor.output（fTep custoner:[custonernane]（foustoner_eaail])VnRecent sovles:[*,.join（recent.movles)') rocent.novies=[aovietitle]fornovie inrecent.rentals]\nAIE merId CROER BY COUNT(reotal.io) DESC LINIT1) SOL Oury: SELEcY flrstnano,last.nae,eall FRO publlc.custo#er WERE custo#r_id(SELECI customer_id FRO publlc.rental GouP 8Y custo\nSOLRagponse:[frst_A#e':*ELEANOR,*lasLnaRo:HUNT','e#aiI:LEANOR,HUNTsakSlacustomr.rg']\nSL Quory: SElECT f.title FRo public.rental r3oiN public.1nvontory i ON r.iventory.idi.inventory-ld Joi public.filn f C i.filn.id.rental-date DESC LIHITS fileLid EREr.cstomer_id*(SELECI custoerid FRO public.rental GROuP BY custooer-id CRDER BY COuNT(rental.i) DESC LIET 1) ORDER BYr\nSOReSpO: Etitle':RACER EGG'],tItle:NURNY CREATURES'},'Itle':HELLFIGHTERS SIERRA',['itle:IZARO COLDBLOOOED'},[it 1:'DINOSAURSECRETARY]\nDacy Plan Exacytion Result: NT（ELEANOR.NuNTsaklscustomer.org) MURKY CREATURES,HELLFIGHTERS SIERRA,WTZARO COLCBLGOOED,DINOSAUR SECRETARY\nWonr'sFai Lambda Microsoft smol ai",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense SQL/code output screenshot with small multi-line text and query results; OCR is better suited here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#001515",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "SQL Query",
+        "x": 18.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "SQL Response",
+        "x": 18.0,
+        "y": 43.0,
+        "w": 23.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 23.0,
+        "w": 11.0,
+        "h": 16.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 43.0,
+        "y": 81.0,
+        "w": 25.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 74.0,
+        "y": 81.0,
+        "w": 20.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/reconstructed-slides/himhGiWJXjo/slide-008.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668435.6633306,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "SQL Query",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "executor.cutput(ho recentrentals foundfor top custoaer')\nexecutor.output（fTep custoner:[custonernane]（foustoner_eaail])VnRecent sovles:[*,.join（recent.movles)') rocent.novies=[aovietitle]fornovie inrecent.rentals]\nAIE merId CROER BY COUNT(reotal.io) DESC LINIT1) SOL Oury: SELEcY flrstnano,last.nae,eall FRO publlc.custo#er WERE custo#r_id(SELECI customer_id FRO publlc.rental GouP 8Y custo\nSOLRagponse:[frst_A#e':*ELEANOR,*lasLnaRo:HUNT','e#aiI:LEANOR,HUNTsakSlacustomr.rg']\nSL Quory: SElECT f.title FRo public.rental r3oiN public.1nvontory i ON r.iventory.idi.inventory-ld Joi public.filn f C i.filn.id.rental-date DESC LIHITS fileLid EREr.cstomer_id*(SELECI custoerid FRO public.rental GROuP BY custooer-id CRDER BY COuNT(rental.i) DESC LIET 1) ORDER BYr\nSOReSpO: Etitle':RACER EGG'],tItle:NURNY CREATURES'},'Itle':HELLFIGHTERS SIERRA',['itle:IZARO COLDBLOOOED'},[it 1:'DINOSAURSECRETARY]\nDacy Plan Exacytion Result: NT（ELEANOR.NuNTsaklscustomer.org) MURKY CREATURES,HELLFIGHTERS SIERRA,WTZARO COLCBLGOOED,DINOSAUR SECRETARY\nWonr'sFai Lambda Microsoft smol ai",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1271.26
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "executor.cutput(ho recentrentals foundfor top custoaer')\nexecutor.output（fTep custoner:[custonernane]（foustoner_eaail])VnRecent sovles:[*,.join（recent.movles)') rocent.novies=[aovietitle]fornovie inrecent.rentals]\nAIE merId CROER BY COUNT(reotal.io) DESC LINIT1) SOL Oury: SELEcY flrstnano,last.nae,eall FRO publlc.custo#er WERE custo#r_id(SELECI customer_id FRO publlc.rental GouP 8Y custo\nSOLRagponse:[frst_A#e':*ELEANOR,*lasLnaRo:HUNT','e#aiI:LEANOR,HUNTsakSlacustomr.rg']\nSL Quory: SElECT f.title FRo public.rental r3oiN public.1nvontory i ON r.iventory.idi.inventory-ld Joi public.filn f C i.filn.id.rental-date DESC LIHITS fileLid EREr.cstomer_id*(SELECI custoerid FRO public.rental GROuP BY custooer-id CRDER BY COuNT(rental.i) DESC LIET 1) ORDER BYr\nSOReSpO: Etitle':RACER EGG'],tItle:NURNY CREATURES'},'Itle':HELLFIGHTERS SIERRA',['itle:IZARO COLDBLOOOED'},[it 1:'DINOSAURSECRETARY]\nDacy Plan Exacytion Result: NT（ELEANOR.NuNTsaklscustomer.org) MURKY CREATURES,HELLFIGHTERS SIERRA,WTZARO COLCBLGOOED,DINOSAUR SECRETARY\nWonr'sFai Lambda Microsoft smol ai",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

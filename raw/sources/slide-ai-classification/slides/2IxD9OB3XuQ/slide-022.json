@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The other source: a real production log\n\nCREATE A LEARNING ENVIRONMENT — FROM LOG + FEEDBACK\n\n$ relai learning-env create \\\n  --log-file \"log.txt\" \\\n  --feedback \"Keep fast eligible refunds, but do not generalize generosity beyond refund thresholds, tier limits, or verified policy.\"\n\nWHAT GOES IN\nthe raw trace • one real session\nfeedback • the correction\n\nWHAT COMES OUT\na replayable learning environment\nwith evaluators that encode the boundary feedback",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code block and small supporting labels are better handled by OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with dark navy panels and purple-blue accents",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The other source: a real production log",
+        "x": 4.0,
+        "y": 5.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "CREATE A LEARNING ENVIRONMENT — FROM LOG + FEEDBACK",
+        "x": 4.0,
+        "y": 19.0,
+        "w": 48.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "$ relai learning-env create \\",
+        "x": 4.0,
+        "y": 25.0,
+        "w": 92.0,
+        "h": 23.0
+      },
+      {
+        "role": "caption",
+        "text": "WHAT GOES IN",
+        "x": 4.0,
+        "y": 61.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "WHAT COMES OUT",
+        "x": 54.0,
+        "y": 61.0,
+        "w": 24.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-022.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-022.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657505.342026,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "The other source: a real production log",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Theothersource:arealproductionlog\nCREATEALEARNING ENVIRONMENT- FROMLOG+fEEDbACK\nfrelai learning-eny CreateV -feedback-Keep fast:eligible refunds,f but:do not:general1ze: generosity beyond 1og-f11e1og txtV refund:thresholds,tierylinitsyorverified:policy.\"\nWHAT GOESIN WHATCOMES OUT\nthe rawtraceone real session? a replayable learning env\nfeedback:pthe correction. With evaluators that encode theboundar",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 547.92
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "The other source: a real production log\n\nCREATE A LEARNING ENVIRONMENT — FROM LOG + FEEDBACK\n\n$ relai learning-env create \\\n  --log-file \"log.txt\" \\\n  --feedback \"Keep fast eligible refunds, but do not generalize generosity beyond refund thresholds, tier limits, or verified policy.\"\n\nWHAT GOES IN\nthe raw trace • one real session\nfeedback • the correction\n\nWHAT COMES OUT\na replayable learning environment\nwith evaluators that encode the boundary feedback",
+    "text_status": "meaningful",
+    "corrections": "Corrected spacing/casing and restored the visible slide text; lower-right subtitle is partially occluded."
+  }
+}

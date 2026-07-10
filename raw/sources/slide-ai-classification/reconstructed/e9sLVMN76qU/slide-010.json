@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "New primitives\nAIE Declarative Image Bui\nPYIHONTS TYPESCRIPT\nDefino the oynic-inoge\nCynomic_tnoge（ mp.3eb1m11m(12°）\n/home/daytoca/oroject\"))\nworksir(e/bcne/caytona/project)\n/ooce/dnytons/project/1sleeiseple.xt) 00o1ocolr1let1l0_exo1e.0t\nJep eitthe tulld Lop\nWord'sfar aws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Contains a code screenshot and small labels; OCR is likely more accurate than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "New primitives",
+        "x": 50.0,
+        "y": 9.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "Declarative Image Builder",
+        "x": 38.0,
+        "y": 19.0,
+        "w": 41.0,
+        "h": 13.0
+      },
+      {
+        "role": "code",
+        "text": "PYTHON  TS  TYPESCRIPT",
+        "x": 41.0,
+        "y": 26.0,
+        "w": 33.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 61.0,
+        "y": 80.0,
+        "w": 11.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/reconstructed-slides/e9sLVMN76qU/slide-010.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667479.3966727,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Declarative Image Builder",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/contrast",
+    "text": "New primitives\nAIE Declarative Image Bui\nPYIHONTS TYPESCRIPT\nDefino the oynic-inoge\nCynomic_tnoge（ mp.3eb1m11m(12°）\n/home/daytoca/oroject\"))\nworksir(e/bcne/caytona/project)\n/ooce/dnytons/project/1sleeiseple.xt) 00o1ocolr1let1l0_exo1e.0t\nJep eitthe tulld Lop\nWord'sfar aws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 356.84
+  },
+  "ocr_source": "rapidocr-live/left-72/contrast",
+  "ocr_reconcile": {
+    "text": "New primitives\nAIE Declarative Image Bui\nPYIHONTS TYPESCRIPT\nDefino the oynic-inoge\nCynomic_tnoge（ mp.3eb1m11m(12°）\n/home/daytoca/oroject\"))\nworksir(e/bcne/caytona/project)\n/ooce/dnytons/project/1sleeiseple.xt) 00o1ocolr1let1l0_exo1e.0t\nJep eitthe tulld Lop\nWord'sfar aws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

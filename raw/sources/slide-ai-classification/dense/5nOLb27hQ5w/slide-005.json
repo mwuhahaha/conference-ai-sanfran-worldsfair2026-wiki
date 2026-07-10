@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Adjust tone\nAI beta\nProfessional\nConcise\nApproachable\nCasual\nOr pick a preset\nExecutive  Technical\nBasic  Educational",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Screenshot contains multiple small UI labels and preset buttons; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f6f6f4",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Adjust tone",
+        "x": 60.0,
+        "y": 0,
+        "w": 24.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Or pick a preset",
+        "x": 62.0,
+        "y": 52.0,
+        "w": 22.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Executive Technical Basic Educational",
+        "x": 63.0,
+        "y": 63.0,
+        "w": 24.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/5nOLb27hQ5w/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657970.0460145,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Adjust tone",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "AIE Adjust tone Abu ull ing a\nCasual\nOr pck a preset\nWoriesFakr aws WoritsFai MongoDe Executive Technical\nCeud neoaj WorksF Basic Educational\nWorkfad WorihaFe aws\nWerif's.Fad",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 336.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Adjust tone\nAI beta\nProfessional\nConcise\nApproachable\nCasual\nOr pick a preset\nExecutive  Technical\nBasic  Educational",
+    "text_status": "meaningful",
+    "corrections": "Corrected OCR for obvious UI text and line breaks; ignored illegible background text and logos."
+  }
+}

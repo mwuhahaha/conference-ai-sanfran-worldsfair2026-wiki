@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "· Nucleation is not gradual - it happens in bursts\n52 · Critical supersaturation reached - sudden ·Energy barrier overcome → rapid cluster formation crystal seed formation\nOotectiee (uoMSe\nMio(CrrtalGronth\nMicrosoft smol ai",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense slide with small bullet text and plotted charts; OCR is the right extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black left sidebar and black footer",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 9.0,
+        "w": 12.0,
+        "h": 26.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 44.0,
+        "y": 87.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 74.0,
+        "y": 87.0,
+        "w": 11.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672583.343091,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/contrast",
+    "text": "· Nucleation is not gradual - it happens in bursts\n52 · Critical supersaturation reached - sudden ·Energy barrier overcome → rapid cluster formation crystal seed formation\nOotectiee (uoMSe\nMio(CrrtalGronth\nMicrosoft smol ai",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 334.72
+  },
+  "ocr_source": "rapidocr-live/right-72/contrast",
+  "ocr_reconcile": {
+    "text": "· Nucleation is not gradual - it happens in bursts\n52 · Critical supersaturation reached - sudden ·Energy barrier overcome → rapid cluster formation crystal seed formation\nOotectiee (uoMSe\nMio(CrrtalGronth\nMicrosoft smol ai",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

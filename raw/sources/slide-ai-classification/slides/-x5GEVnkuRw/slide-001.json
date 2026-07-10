@@ -1,0 +1,68 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "title-only intro card; not content-heavy.",
+  "text": "Structuring the Unstructured: Advanced Document Parsing for AI Workflows\nAI Engineer 2026\nCedric Clyburn\nSenior Developer Advocate\n@cedricclyburn",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Intro/title card; no dense body text to OCR.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#000000 with dark world-map contours",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Red Hat Developer",
+        "x": 8.0,
+        "y": 6.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer World's Fair",
+        "x": 72.0,
+        "y": 5.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Structuring the Unstructured: Advanced Document Parsing for AI Workflows",
+        "x": 8.0,
+        "y": 28.0,
+        "w": 82.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "AI Engineer 2026",
+        "x": 8.0,
+        "y": 51.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Cedric Clyburn\nSenior Developer Advocate\n@cedricclyburn",
+        "x": 8.0,
+        "y": 77.0,
+        "w": 28.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655418.5997856,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Structuring the Unstructured: Advanced Document Parsing for AI Workflows\nAI Engineer 2026\nCedric Clyburn\nSenior Developer Advocate\n@cedricclyburn",
+  "advanced_ocr": {}
+}

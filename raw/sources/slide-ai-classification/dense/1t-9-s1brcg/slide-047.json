@@ -1,0 +1,88 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Azure AI Inference client library for Python",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense package page screenshot with sidebar navigation, descriptive text, and links.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white webpage with pale beige sidebar",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Azure AI Inference client library for Python",
+        "x": 30.0,
+        "y": 16.0,
+        "w": 40.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Navigation",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Project description",
+        "x": 4.0,
+        "y": 19.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Maintainers",
+        "x": 4.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "microsoft",
+        "x": 4.0,
+        "y": 65.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Authenticate against the service\nGet information about the model\nDo chat completions\nGet text embeddings",
+        "x": 30.0,
+        "y": 49.0,
+        "w": 36.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Product documentation | Samples | API reference documentation | Package (PyPI) | SDK source code",
+        "x": 30.0,
+        "y": 90.0,
+        "w": 62.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-047.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-047.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657948.4166732,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Azure AI Inference client library for Python",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

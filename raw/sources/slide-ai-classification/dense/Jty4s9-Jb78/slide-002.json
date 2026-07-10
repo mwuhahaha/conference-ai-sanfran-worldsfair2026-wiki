@@ -1,0 +1,120 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-column academic-paper comparison slide with small body text and citations; OCR is the right extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#000000",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Active Reading",
+        "x": 9.0,
+        "y": 0,
+        "w": 21.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Self-Study",
+        "x": 41.0,
+        "y": 0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Rephrasing the Web",
+        "x": 69.0,
+        "y": 0,
+        "w": 25.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 4.0,
+        "y": 6.0,
+        "w": 28.0,
+        "h": 60.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 36.0,
+        "y": 6.0,
+        "w": 27.0,
+        "h": 60.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 66.0,
+        "y": 6.0,
+        "w": 27.0,
+        "h": 60.0
+      },
+      {
+        "role": "caption",
+        "text": "(Liu et al., 2025)",
+        "x": 10.0,
+        "y": 66.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "(Eyoboglu et al., 2025)",
+        "x": 40.0,
+        "y": 66.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "(Maini et al., 2025)",
+        "x": 71.0,
+        "y": 66.0,
+        "w": 19.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Full Context • RAG • Weights",
+        "x": 35.0,
+        "y": 78.0,
+        "w": 36.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Learning & Data • Architecture",
+        "x": 33.0,
+        "y": 84.0,
+        "w": 40.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/Jty4s9-Jb78/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659934.5298176,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

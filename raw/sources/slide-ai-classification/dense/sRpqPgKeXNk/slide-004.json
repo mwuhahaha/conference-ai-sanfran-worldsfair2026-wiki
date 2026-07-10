@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "making them less suitable for latency sensitive tasks Reasoning model latency: Reasoning models are slower to provide their response,\nEnd-to-End Response Time\nSeconds to Output 5o0 Tokens, including reasoning model thinking' time; Lover is better Reasoning models\nInput processing time 'Thinking' time (reasoning models) Outputting time NON-EXHAUSTIVE\nRoasoning models typicolly take: longer to respond. A Artificiat Anatysis $20.53 106.1\n19x! 36.9 42.4 43.2: 60.4 81.\n3.3 4.3 4.5 4.7 6.3 7.7 10.9: 11.5 15.5 '12.1*...15.6 14.2! 116.41 19.5 12.7* 19.8 [20.51 28.6. 38.5 39.8\nLlama 8 Scout 8 GPT- 7 b. ayrs G G AV\nSourco: Artificiat Anelyis mdopondant bonchmurking 8 A Artiflclal Analysis",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense benchmark chart with many labels and timing values; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Reasoning model latency: Reasoning models are slower to provide their response, making them less suitable for latency sensitive tasks",
+        "x": 3.0,
+        "y": 0,
+        "w": 95.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "End-to-End Response Time",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Seconds to Output 500 Tokens, Including reasoning model 'thinking' time; Lower is better",
+        "x": 4.0,
+        "y": 21.0,
+        "w": 54.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Input processing time\n'Thinking' time (reasoning models)\nOutputting time",
+        "x": 4.0,
+        "y": 27.0,
+        "w": 34.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/sRpqPgKeXNk/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671880.736756,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "making them less suitable for latency sensitive tasks Reasoning model latency: Reasoning models are slower to provide their response,\nEnd-to-End Response Time\nSeconds to Output 5o0 Tokens, including reasoning model thinking' time; Lover is better Reasoning models\nInput processing time 'Thinking' time (reasoning models) Outputting time NON-EXHAUSTIVE\nRoasoning models typicolly take: longer to respond. A Artificiat Anatysis $20.53 106.1\n19x! 36.9 42.4 43.2: 60.4 81.\n3.3 4.3 4.5 4.7 6.3 7.7 10.9: 11.5 15.5 '12.1*...15.6 14.2! 116.41 19.5 12.7* 19.8 [20.51 28.6. 38.5 39.8\nLlama 8 Scout 8 GPT- 7 b. ayrs G G AV\nSourco: Artificiat Anelyis mdopondant bonchmurking 8 A Artiflclal Analysis",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 735.8
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "making them less suitable for latency sensitive tasks Reasoning model latency: Reasoning models are slower to provide their response,\nEnd-to-End Response Time\nSeconds to Output 5o0 Tokens, including reasoning model thinking' time; Lover is better Reasoning models\nInput processing time 'Thinking' time (reasoning models) Outputting time NON-EXHAUSTIVE\nRoasoning models typicolly take: longer to respond. A Artificiat Anatysis $20.53 106.1\n19x! 36.9 42.4 43.2: 60.4 81.\n3.3 4.3 4.5 4.7 6.3 7.7 10.9: 11.5 15.5 '12.1*...15.6 14.2! 116.41 19.5 12.7* 19.8 [20.51 28.6. 38.5 39.8\nLlama 8 Scout 8 GPT- 7 b. ayrs G G AV\nSourco: Artificiat Anelyis mdopondant bonchmurking 8 A Artiflclal Analysis",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

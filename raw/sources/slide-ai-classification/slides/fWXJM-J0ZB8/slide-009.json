@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Small(er) Language Models (SLMs)\nSmaller versions of LLMs containing several million to several billion parameters (LLMs may have hundreds of billions or even a trillion parameters)",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "short explanatory slide readable directly",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "very light with green accent circle",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Small(er) Language Models (SLMs)",
+        "x": 8.0,
+        "y": 36.0,
+        "w": 63.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Smaller versions of LLMs containing several million to several billion parameters (LLMs may have hundreds of billions or even a trillion parameters)",
+        "x": 24.0,
+        "y": 55.0,
+        "w": 68.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+        "x": 0,
+        "y": 0,
+        "w": 6.0,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667765.0913937,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Small(er) Language Models (SLMs)\nSmaller versions of LLMs containing several million to several billion parameters (LLMs may have hundreds of billions or even a trillion parameters)",
+  "advanced_ocr": {}
+}

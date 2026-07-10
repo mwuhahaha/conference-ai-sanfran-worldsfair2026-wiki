@@ -1,0 +1,143 @@
+{
+  "video_id": "yJHw33cVeHo",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 1,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.89,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Hello GPT-4o",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title slide with a large readable heading; body text is too small and not dense enough to justify OCR.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "cream",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 9.0,
+            "w": 10.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Hello GPT-4o",
+            "x": 52.0,
+            "y": 6.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "GPT-4o",
+            "x": 53.0,
+            "y": 45.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 61.0,
+            "y": 86.0,
+            "w": 16.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/yJHw33cVeHo/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672768.9212496,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Hello GPT-4o",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/yJHw33cVeHo/slide-001.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.16,
+      "frame_type": "demo_video",
+      "reject_reason": "Embedded speaker video dominates the frame; no clearly readable presentation slide content.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Non-slide frame.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "light beige",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/yJHw33cVeHo/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672768.9222255,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.14,
+      "frame_type": "demo_video",
+      "reject_reason": "Stage/demo footage with embedded video and sponsor branding; not a readable slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Non-slide frame.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "light beige",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/yJHw33cVeHo/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672768.922795,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

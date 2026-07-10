@@ -1,0 +1,79 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.9,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Welcome to Amazon Nova Act",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Readable product onboarding screenshot with small instructions and sidebar items.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "off-white with soft warm gradient header",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Welcome to Amazon Nova Act",
+        "x": 44.0,
+        "y": 7.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Get Started",
+        "x": 43.0,
+        "y": 29.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1. Install the SDK",
+        "x": 39.0,
+        "y": 42.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "2. Save your API key",
+        "x": 39.0,
+        "y": 51.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "3. Run your first workflow",
+        "x": 39.0,
+        "y": 61.0,
+        "w": 24.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/wFTVEDYVJT0/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672274.3192894,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Welcome to Amazon Nova Act",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/right-72/contrast",
+    "best_score": 737.92,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0018
+  }
+}

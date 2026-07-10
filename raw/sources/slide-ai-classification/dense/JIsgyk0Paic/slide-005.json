@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How reinforcement learning works\nKey idea: explore and exploit Largo-scnle Roasoning-Oronted Reinforcement Learning\nDeepSeek's GRPO DeepSoek-v3-Base DoepSeek-R1-Zero\nLike PPO but simpler Less compute, same effect Group-RelativePolicy Optimization Tran Hodet checkgodnt undee.crainimg (Ma)a u Rule-basedverication acodeapfhon? ×\nMain loop:\nO Sample N responses per prompt\nComputerewards foreach\nO \"Advantage estimates\" (Jay Alammar,'25)\nUpdate rule:better score =increase likelihood\nChallenges: rewards? multi-turn?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Mixed text-and-diagram slide with small labels and a process diagram that is better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f4f4f4",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How reinforcement learning works",
+        "x": 4.0,
+        "y": 3.0,
+        "w": 48.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Key idea: explore and exploit\nDeepSeek's GRPO\nMain loop:\nChallenges: rewards? multi-turn?",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 42.0,
+        "h": 74.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "DeepSeek-v3-Base\nDeepSeek-R1-Zero\nLarge-scale Reasoning-Oriented Reinforcement Learning",
+        "x": 50.0,
+        "y": 10.0,
+        "w": 43.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Training prompt\nModel checkpoints under training\nSolution score (reward)\nRule-based verification",
+        "x": 50.0,
+        "y": 36.0,
+        "w": 43.0,
+        "h": 38.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/JIsgyk0Paic/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661021.5014918,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "How reinforcement learning works",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "How reinforcement learning works\nKey idea: explore and exploit Largo-scnle Roasoning-Oronted Reinforcement Learning\nDeepSeek's GRPO DeepSoek-v3-Base DoepSeek-R1-Zero\nLike PPO but simpler Less compute, same effect Group-RelativePolicy Optimization Tran Hodet checkgodnt undee.crainimg (Ma)a u Rule-basedverication acodeapfhon? ×\nMain loop:\nO Sample N responses per prompt\nComputerewards foreach\nO \"Advantage estimates\" (Jay Alammar,'25)\nUpdate rule:better score =increase likelihood\nChallenges: rewards? multi-turn?",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 704.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "How reinforcement learning works\nKey idea: explore and exploit Largo-scnle Roasoning-Oronted Reinforcement Learning\nDeepSeek's GRPO DeepSoek-v3-Base DoepSeek-R1-Zero\nLike PPO but simpler Less compute, same effect Group-RelativePolicy Optimization Tran Hodet checkgodnt undee.crainimg (Ma)a u Rule-basedverication acodeapfhon? ×\nMain loop:\nO Sample N responses per prompt\nComputerewards foreach\nO \"Advantage estimates\" (Jay Alammar,'25)\nUpdate rule:better score =increase likelihood\nChallenges: rewards? multi-turn?",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Easier Development*\nThe second reason we hear people choose GraphRAG over vector-only RAG is easier development... once they've pushed through the initial learning curve.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large, simple text is directly readable without OCR.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with teal left panel",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Easier Development*",
+        "x": 5.0,
+        "y": 3.0,
+        "w": 29.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "The second reason we hear people choose GraphRAG over vector-only RAG is easier development... once they've pushed through the initial learning curve.",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 37.0,
+        "h": 34.0
+      },
+      {
+        "role": "caption",
+        "text": "* Weirdly, ease of development [or lack thereof] is also one of the stumbling blocks! How can that be?",
+        "x": 5.0,
+        "y": 46.0,
+        "w": 38.0,
+        "h": 21.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/knDDGYHnnSI/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670223.1056094,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Easier Development*\nThe second reason we hear people choose GraphRAG over vector-only RAG is easier development... once they've pushed through the initial learning curve.",
+  "advanced_ocr": {}
+}

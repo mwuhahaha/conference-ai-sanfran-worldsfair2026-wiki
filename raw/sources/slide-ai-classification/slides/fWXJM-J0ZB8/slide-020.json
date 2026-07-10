@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Capability eval\nAsks, “What can this agent do well?” They should start at a low pass rate, targeting tasks the agent struggles with and giving teams a hill to climb\n—Anthropic, Demystifying Evals for AI Agen",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "solid off-white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Capability eval",
+        "x": 10.0,
+        "y": 28.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Asks, “What can this agent do well?” They should start at a low pass rate, targeting tasks the agent struggles with and giving teams a hill to climb",
+        "x": 26.0,
+        "y": 41.0,
+        "w": 56.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "—Anthropic, Demystifying Evals for AI Agen",
+        "x": 26.0,
+        "y": 66.0,
+        "w": 48.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-020.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668146.271663,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Capability eval\nAsks, “What can this agent do well?” They should start at a low pass rate, targeting tasks the agent struggles with and giving teams a hill to climb\n—Anthropic, Demystifying Evals for AI Agen",
+  "advanced_ocr": {}
+}

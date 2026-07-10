@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "COGNITIVE-SHIELD REAL-TIME REAL-SMART\nWhat happens when the smartest tools we've ever built... stop working for us - and start working against us?\nWhen fraud doesn't look like fraud anymore\nWhen phishing emails are indistinguishable from legitimate ones\nWhen deepfake voice and video pass KYC checks\nFraud isn't breaking in. It's walking in the front door - looking like everyone else.\nThis is not a future threat. It's happening. Right now.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with lime-green side wedges",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "COGNITIVE-SHIELD REAL-TIME REAL-SMART",
+        "x": 10.0,
+        "y": 6.0,
+        "w": 80.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "What happens when the smartest tools we've ever built... stop working for us - and start working against us?",
+        "x": 10.0,
+        "y": 21.0,
+        "w": 24.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "When fraud doesn't look like fraud anymore",
+        "x": 37.0,
+        "y": 21.0,
+        "w": 26.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "When phishing emails are indistinguishable from legitimate ones",
+        "x": 66.0,
+        "y": 21.0,
+        "w": 24.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "When deepfake voice and video pass KYC checks",
+        "x": 10.0,
+        "y": 56.0,
+        "w": 24.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "Fraud isn't breaking in. It's walking in the front door - looking like everyone else.",
+        "x": 37.0,
+        "y": 56.0,
+        "w": 26.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "This is not a future threat. It's happening. Right now.",
+        "x": 66.0,
+        "y": 56.0,
+        "w": 24.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658489.764136,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "COGNITIVE-SHIELD REAL-TIME REAL-SMART\nWhat happens when the smartest tools we've ever built... stop working for us - and start working against us?\nWhen fraud doesn't look like fraud anymore\nWhen phishing emails are indistinguishable from legitimate ones\nWhen deepfake voice and video pass KYC checks\nFraud isn't breaking in. It's walking in the front door - looking like everyone else.\nThis is not a future threat. It's happening. Right now.",
+  "advanced_ocr": {}
+}

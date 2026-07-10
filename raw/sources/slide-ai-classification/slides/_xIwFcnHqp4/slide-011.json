@@ -1,0 +1,71 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart/profile screenshot with tiny labels and dense visual data; OCR will help more than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "main",
+        "x": 48.0,
+        "y": 7.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Flamegraph",
+        "x": 49.0,
+        "y": 14.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Top Functions",
+        "x": 58.0,
+        "y": 14.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Summary",
+        "x": 75.0,
+        "y": 14.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/_xIwFcnHqp4/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666253.7178018,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 121.96,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.013
+  }
+}

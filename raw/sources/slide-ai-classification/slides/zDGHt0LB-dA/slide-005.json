@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.92,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Overview",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense UI and code screenshot is better handled by OCR than manual transcription",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#efe8fb",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Overview",
+        "x": 50.0,
+        "y": 11.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Get started",
+        "x": 48.0,
+        "y": 72.0,
+        "w": 9.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/zDGHt0LB-dA/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672828.7933953,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Overview",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 147.04,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

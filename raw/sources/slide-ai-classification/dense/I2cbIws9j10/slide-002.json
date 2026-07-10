@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture diagram and small labels are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white and light gray",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "AWS Glue ETL jobs\nAmazon EventBridge\nCloudWatch Logs\nAWS Lambda\nGlue Data Catalog\nAI Agent (Decide + Act)\nAmazon S3",
+        "x": 3.0,
+        "y": 5.0,
+        "w": 54.0,
+        "h": 54.0
+      },
+      {
+        "role": "title",
+        "text": "An End-to-End RL Pipeline Health Agent for Anomaly Detection and Autonomous Self-Healing of Cloud Data Pipelines",
+        "x": 61.0,
+        "y": 8.0,
+        "w": 35.0,
+        "h": 45.0
+      },
+      {
+        "role": "title",
+        "text": "The Solution",
+        "x": 4.0,
+        "y": 66.0,
+        "w": 25.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "Monitor → Diagnose → Score → Decide → Safety → Act → Validate",
+        "x": 42.0,
+        "y": 66.0,
+        "w": 53.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "NOTE GENERALIZED PUBLIC REFERENCE ARCHITECTURE",
+        "x": 25.0,
+        "y": 60.0,
+        "w": 50.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/I2cbIws9j10/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659795.4145138,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

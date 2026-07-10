@@ -1,0 +1,60 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "title/intro card, not substantive content",
+  "text": "Hidden Failure Modes for AI Agents\nLessons from Real-World AI Engineering",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "large simple title card; direct reading is sufficient",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "qodo",
+        "x": 32.0,
+        "y": 12.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "Hidden Failure Modes for AI Agents",
+        "x": 35.0,
+        "y": 25.0,
+        "w": 36.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Lessons from Real-World AI Engineering",
+        "x": 36.0,
+        "y": 46.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 44.0,
+        "y": 86.0,
+        "w": 36.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/EcqMYoIV57A/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659040.5609155,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Hidden Failure Modes for AI Agents\nLessons from Real-World AI Engineering",
+  "advanced_ocr": {}
+}

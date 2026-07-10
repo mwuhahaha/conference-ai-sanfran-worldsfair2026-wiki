@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "GPT-3 → GPT-4, → Claude 4\nClaude 3,\nGemini 2.5\nCopilots → RAG bots → Agents\nWhat would a coding agent designed to unleash tool LLMs look like?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "GPT-3 → GPT-4, → Claude 4\nClaude 3,\nGemini 2.5",
+        "x": 32.0,
+        "y": 6.0,
+        "w": 36.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "Copilots → RAG bots → Agents\nWhat would a coding agent designed to unleash tool LLMs look like?",
+        "x": 24.0,
+        "y": 36.0,
+        "w": 58.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-006.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659071.9402099,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "GPT-3 → GPT-4, → Claude 4\nClaude 3,\nGemini 2.5\nCopilots → RAG bots → Agents\nWhat would a coding agent designed to unleash tool LLMs look like?",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "product",
+  "reject_reason": "",
+  "text": "Gemini Diffusion",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense code/UI screenshot with small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Gemini Diffusion",
+        "x": 31.0,
+        "y": 4.0,
+        "w": 21.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 43.0,
+        "y": 12.0,
+        "w": 35.0,
+        "h": 46.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/r305-aQTaU0/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670975.895947,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Gemini Diffusion",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 145.84,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

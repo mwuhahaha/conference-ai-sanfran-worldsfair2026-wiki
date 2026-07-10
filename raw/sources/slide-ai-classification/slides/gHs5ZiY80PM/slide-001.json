@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Speaker on stage with only a partially visible slide; not a readable presentation slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "dark gray stage with white projection area",
+    "style": "other",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIEngineer EUROPE",
+        "x": 10.0,
+        "y": 66.0,
+        "w": 20.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "You Might Not Need 50 Diffusion Steps",
+        "x": 63.0,
+        "y": 6.0,
+        "w": 26.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/gHs5ZiY80PM/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667662.3497617,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

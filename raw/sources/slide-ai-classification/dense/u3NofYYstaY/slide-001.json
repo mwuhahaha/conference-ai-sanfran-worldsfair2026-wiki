@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "S cohere SELECT INVESTORS STRATEGIC PARTNERS\nAIE nwIDLA ORACLE ORACLE\nFounded 2019 TADICAL coptai Schroders Ldex Vernuron Mknsy aws\nTeam +300 NIRALSSAT DTCP LSANOUA accenture\nOffices Ean Frncisce, Sen Vort Tortnto.Lendon inovia Sertrel\nJXJLOLAI S32\nMicrosoft smol ai",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-column company overview with many small logos and labels; OCR will read the details better than manual triage.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm beige with dark sidebar and black footer band",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Cohere at a glance",
+        "x": 18.0,
+        "y": 0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "cohere",
+        "x": 18.0,
+        "y": 10.0,
+        "w": 28.0,
+        "h": 14.0
+      },
+      {
+        "role": "subtitle",
+        "text": "SELECT INVESTORS",
+        "x": 51.0,
+        "y": 10.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "STRATEGIC PARTNERS",
+        "x": 76.0,
+        "y": 10.0,
+        "w": 23.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Founded 2019",
+        "x": 18.0,
+        "y": 27.0,
+        "w": 25.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Team +300",
+        "x": 18.0,
+        "y": 46.0,
+        "w": 25.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Offices 4",
+        "x": 18.0,
+        "y": 65.0,
+        "w": 25.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "Toronto, London, San Francisco, New York",
+        "x": 28.0,
+        "y": 69.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Microsoft",
+        "x": 45.0,
+        "y": 90.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "smol ai",
+        "x": 78.0,
+        "y": 90.0,
+        "w": 10.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/u3NofYYstaY/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672020.7899501,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "S cohere SELECT INVESTORS STRATEGIC PARTNERS\nAIE nwIDLA ORACLE ORACLE\nFounded 2019 TADICAL coptai Schroders Ldex Vernuron Mknsy aws\nTeam +300 NIRALSSAT DTCP LSANOUA accenture\nOffices Ean Frncisce, Sen Vort Tortnto.Lendon inovia Sertrel\nJXJLOLAI S32\nMicrosoft smol ai",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 455.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "S cohere SELECT INVESTORS STRATEGIC PARTNERS\nAIE nwIDLA ORACLE ORACLE\nFounded 2019 TADICAL coptai Schroders Ldex Vernuron Mknsy aws\nTeam +300 NIRALSSAT DTCP LSANOUA accenture\nOffices Ean Frncisce, Sen Vort Tortnto.Lendon inovia Sertrel\nJXJLOLAI S32\nMicrosoft smol ai",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

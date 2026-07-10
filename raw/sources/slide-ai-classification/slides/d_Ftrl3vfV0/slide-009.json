@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "After:\nWho made this bug report?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black with faint grid and yellow glow",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "After:",
+        "x": 40.0,
+        "y": 5.0,
+        "w": 20.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Support Team",
+        "x": 5.0,
+        "y": 49.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Who made this bug report?",
+        "x": 44.0,
+        "y": 38.0,
+        "w": 26.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Please wait 10 seconds...",
+        "x": 26.0,
+        "y": 67.0,
+        "w": 22.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/d_Ftrl3vfV0/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667244.3948932,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "After:\nWho made this bug report?",
+  "advanced_ocr": {}
+}

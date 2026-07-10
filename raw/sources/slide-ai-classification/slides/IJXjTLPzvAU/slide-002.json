@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A GROUNDING QUESTION • WE RETURN TO IT AT THE VERY END\n\nYou are Abraham Lincoln. Under what circumstances may a President take the country to war without Congress?\n\nWhile Congress holds the power to declare war, the President, as Commander-in-Chief, possesses inherent executive authority to act decisively in moments of national emergency. The executive must respond to threats with the energy and dispatch the office requires, and history has vindicated those who acted to preserve the Union when circumstances demanded it.\n\nIt sounds like Lincoln. It's a good answer. Hold it.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense paragraph and small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#050505",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "A GROUNDING QUESTION • WE RETURN TO IT AT THE VERY END",
+        "x": 11.0,
+        "y": 8.0,
+        "w": 58.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "You are Abraham Lincoln. Under what circumstances may a President take the country to war without Congress?",
+        "x": 20.0,
+        "y": 12.0,
+        "w": 45.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "While Congress holds the power to declare war, the President, as Commander-in-Chief, possesses inherent executive authority to act decisively in moments of national emergency.",
+        "x": 14.0,
+        "y": 20.0,
+        "w": 48.0,
+        "h": 21.0
+      },
+      {
+        "role": "caption",
+        "text": "It sounds like Lincoln. It's a good answer. Hold it.",
+        "x": 26.0,
+        "y": 42.0,
+        "w": 42.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/IJXjTLPzvAU/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659699.1730206,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "A GROUNDINGQUESTION WE RETURN TO IT AT THE VERY END\nYou are Abraham Lincoln. Under what circumstances may a President take the country to war without Congress? YoO\nWhile Congress holds the power to declare war, the President, as\nact decisively in moments of national emergency. The executive must respond to threats with the cnergy and dispatch the office requires, and history has vindicated those who acted to preserve Commander-in-Chief, possesses inherent executive authority to\nthe Union when circumstances demanded it.\nIt sounds like Lincoln. It's a good answer. Hold it.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 877.29
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "A GROUNDING QUESTION • WE RETURN TO IT AT THE VERY END\n\nYou are Abraham Lincoln. Under what circumstances may a President take the country to war without Congress?\n\nWhile Congress holds the power to declare war, the President, as Commander-in-Chief, possesses inherent executive authority to act decisively in moments of national emergency. The executive must respond to threats with the energy and dispatch the office requires, and history has vindicated those who acted to preserve the Union when circumstances demanded it.\n\nIt sounds like Lincoln. It's a good answer. Hold it.",
+    "text_status": "meaningful",
+    "corrections": "OCR was mostly correct; fixed spacing, capitalization, and a few obvious word errors."
+  }
+}

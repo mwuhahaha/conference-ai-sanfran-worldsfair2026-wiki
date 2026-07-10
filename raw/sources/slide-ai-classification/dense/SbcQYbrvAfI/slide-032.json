@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "BaUB· JsoN_wobpsge_aanation.lpynb M\nC proh+t-LtarnitO 'coding_sgent rues_optim..?.conde. banchmr'a.:> ba bunch_hard + Code + Myrkdom | > Aun Al O Restan E Cor Al Cuipuu B Vrew data Jupylr Vsriabhs nolcbooks ) O JsON_waboage_Lmerstlor.gymb ) us Ootimiring JSON Wobpaga Prompts with the Arize Promgt Lea! Here is lho prormpt thst schleved the best test occurscy scross the optimlzatlon Herations.\n.' datnsets notebooks arfzaar support query.c.. onenRao cot-wontia D Jsoh rebpage oen M phoena supporl guery_c.: Bama_suppori query_opti E metaprompttxt: dat get_test_Droaptfreiults): Extract the pronpt that schieved 'tho best test accuracy. Args! Returnsi.. tuple! (best_proapt, best_accuracy. ittrtion_nmber) ' resultsl Reiults' frou opttaize_ loop or erptrinent. 1.\n?OUTLNE )TIMELUNE $ optimizer_idk soiod A: 5 JSon webp+ge_goneretioni traln.csv poptxaps Arenb todans a tst.csy. L mun' O. prongtierning E tvafuator-prompt-so.txt. ol-iowosd-oypnp-apu: eyauator-prompi-100.xt waluator-prompt-i0.tt nte-checker-prompt-30. u u 01A9OJ Sect Postgrc S Dest oronpt, 'best_accuricy. best_iter'- oet_best_proaprl resuits) printt reest Ogtimixed Prorpt Iiteratton (best_Iter), cccuracyt: (bestsccuracyi.3th)t\") print(best proept) I Lyage. wraapte?. prlat(rroriginel Proopti: (systeaproopt)-).. pronots = resultil'propt'].. + Fins tho iteration with hlghesr tesr. sccuracy test_prorot = pronpts(best_iteratlon] [.111.]511ns01 =. 521110*1501 return best_proupt, best accuracy. best_iteration best_iterstion = test netrits.iodex(max(test petrics)) best_sccuracy = test_netrics Ibest_lteration]: tt CunorTab Ia-",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code-and-output slide with small text; OCR should recover the code more reliably than manual transcription here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cream/white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "Here is the prompt that achieved the best test accuracy across the optimization iterations.",
+        "x": 18.0,
+        "y": 12.0,
+        "w": 58.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "def get_best_prompt(results):",
+        "x": 20.0,
+        "y": 20.0,
+        "w": 55.0,
+        "h": 58.0
+      },
+      {
+        "role": "code",
+        "text": "return best_prompt, best_accuracy, best_iteration",
+        "x": 20.0,
+        "y": 61.0,
+        "w": 54.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-032.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-032.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666156.7042048,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/opencv-adaptive",
+    "text": "BaUB· JsoN_wobpsge_aanation.lpynb M\nC proh+t-LtarnitO 'coding_sgent rues_optim..?.conde. banchmr'a.:> ba bunch_hard + Code + Myrkdom | > Aun Al O Restan E Cor Al Cuipuu B Vrew data Jupylr Vsriabhs nolcbooks ) O JsON_waboage_Lmerstlor.gymb ) us Ootimiring JSON Wobpaga Prompts with the Arize Promgt Lea! Here is lho prormpt thst schleved the best test occurscy scross the optimlzatlon Herations.\n.' datnsets notebooks arfzaar support query.c.. onenRao cot-wontia D Jsoh rebpage oen M phoena supporl guery_c.: Bama_suppori query_opti E metaprompttxt: dat get_test_Droaptfreiults): Extract the pronpt that schieved 'tho best test accuracy. Args! Returnsi.. tuple! (best_proapt, best_accuracy. ittrtion_nmber) ' resultsl Reiults' frou opttaize_ loop or erptrinent. 1.\n?OUTLNE )TIMELUNE $ optimizer_idk soiod A: 5 JSon webp+ge_goneretioni traln.csv poptxaps Arenb todans a tst.csy. L mun' O. prongtierning E tvafuator-prompt-so.txt. ol-iowosd-oypnp-apu: eyauator-prompi-100.xt waluator-prompt-i0.tt nte-checker-prompt-30. u u 01A9OJ Sect Postgrc S Dest oronpt, 'best_accuricy. best_iter'- oet_best_proaprl resuits) printt reest Ogtimixed Prorpt Iiteratton (best_Iter), cccuracyt: (bestsccuracyi.3th)t\") print(best proept) I Lyage. wraapte?. prlat(rroriginel Proopti: (systeaproopt)-).. pronots = resultil'propt'].. + Fins tho iteration with hlghesr tesr. sccuracy test_prorot = pronpts(best_iteratlon] [.111.]511ns01 =. 521110*1501 return best_proupt, best accuracy. best_iteration best_iterstion = test netrits.iodex(max(test petrics)) best_sccuracy = test_netrics Ibest_lteration]: tt CunorTab Ia-",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1778.0
+  },
+  "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "BaUB· JsoN_wobpsge_aanation.lpynb M\nC proh+t-LtarnitO 'coding_sgent rues_optim..?.conde. banchmr'a.:> ba bunch_hard + Code + Myrkdom | > Aun Al O Restan E Cor Al Cuipuu B Vrew data Jupylr Vsriabhs nolcbooks ) O JsON_waboage_Lmerstlor.gymb ) us Ootimiring JSON Wobpaga Prompts with the Arize Promgt Lea! Here is lho prormpt thst schleved the best test occurscy scross the optimlzatlon Herations.\n.' datnsets notebooks arfzaar support query.c.. onenRao cot-wontia D Jsoh rebpage oen M phoena supporl guery_c.: Bama_suppori query_opti E metaprompttxt: dat get_test_Droaptfreiults): Extract the pronpt that schieved 'tho best test accuracy. Args! Returnsi.. tuple! (best_proapt, best_accuracy. ittrtion_nmber) ' resultsl Reiults' frou opttaize_ loop or erptrinent. 1.\n?OUTLNE )TIMELUNE $ optimizer_idk soiod A: 5 JSon webp+ge_goneretioni traln.csv poptxaps Arenb todans a tst.csy. L mun' O. prongtierning E tvafuator-prompt-so.txt. ol-iowosd-oypnp-apu: eyauator-prompi-100.xt waluator-prompt-i0.tt nte-checker-prompt-30. u u 01A9OJ Sect Postgrc S Dest oronpt, 'best_accuricy. best_iter'- oet_best_proaprl resuits) printt reest Ogtimixed Prorpt Iiteratton (best_Iter), cccuracyt: (bestsccuracyi.3th)t\") print(best proept) I Lyage. wraapte?. prlat(rroriginel Proopti: (systeaproopt)-).. pronots = resultil'propt'].. + Fins tho iteration with hlghesr tesr. sccuracy test_prorot = pronpts(best_iteratlon] [.111.]511ns01 =. 521110*1501 return best_proupt, best accuracy. best_iteration best_iterstion = test netrits.iodex(max(test petrics)) best_sccuracy = test_netrics Ibest_lteration]: tt CunorTab Ia-",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

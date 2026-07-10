@@ -1,9 +1,14 @@
 {
   "is_content_slide": true,
-  "confidence": 0.98,
+  "confidence": 0.96,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "How does the wiki look like?\nresearch-coding-agent-architectures\nraw\nwiki\ncomparisons\nconcepts\nentities\nnotes\nrepos\nsources\nopen-questions\noverview\nsynthesis\nindex\nlog",
+  "text": "How does the wiki look like?\nresearch-coding-agent-architectures\nraw corteat-compaction ARCHTECTURIARCHITECTURE\nwiki\ncomparisons\nconcepts tool-rogistry\nentities do01-000 cvervow\nnotes sposuado\nrepos aqer!-ptrrtittion-low-opencoce-vs- -hermtn-agtns\nsources caude-code\nopen-questions subogerts-architecture-cpencode iratruction-fles\nsynthesis overview mcp sandboaing ARCHITECTURE\nlog index TNTIO EYST quntiors",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "The file-tree and graph labels are small and dense, so OCR is likely better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
   "layout": {
     "background": "#ffffff",
     "style": "diagram",
@@ -11,31 +16,51 @@
       {
         "role": "title",
         "text": "How does the wiki look like?",
-        "x": 27.0,
-        "y": 5.0,
-        "w": 46.0,
-        "h": 9.0
+        "x": 28.0,
+        "y": 6.0,
+        "w": 41.0,
+        "h": 10.0
       },
       {
-        "role": "body",
-        "text": "research-coding-agent-architectures\nraw\nwiki\ncomparisons\nconcepts\nentities\nnotes\nrepos\nsources\nopen-questions\noverview\nsynthesis\nindex\nlog",
+        "role": "code",
+        "text": "research-coding-agent-architectures",
         "x": 27.0,
-        "y": 11.0,
-        "w": 26.0,
-        "h": 79.0
+        "y": 21.0,
+        "w": 24.0,
+        "h": 66.0
       },
       {
         "role": "diagram_label",
-        "text": "wiki graph / topic network",
-        "x": 55.0,
-        "y": 11.0,
-        "w": 42.0,
-        "h": 79.0
+        "text": "index",
+        "x": 73.0,
+        "y": 48.0,
+        "w": 6.0,
+        "h": 6.0
       }
     ]
   },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
   "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-008.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783629083.6283495
+  "classified_at_epoch": 1783665752.5644662,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "How does the wiki look like?",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "How does the wiki look like?\nresearch-coding-agent-architectures\nraw corteat-compaction ARCHTECTURIARCHITECTURE\nwiki\ncomparisons\nconcepts tool-rogistry\nentities do01-000 cvervow\nnotes sposuado\nrepos aqer!-ptrrtittion-low-opencoce-vs- -hermtn-agtns\nsources caude-code\nopen-questions subogerts-architecture-cpencode iratruction-fles\nsynthesis overview mcp sandboaing ARCHITECTURE\nlog index TNTIO EYST quntiors",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 514.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "How does the wiki look like?\nresearch-coding-agent-architectures\nraw corteat-compaction ARCHTECTURIARCHITECTURE\nwiki\ncomparisons\nconcepts tool-rogistry\nentities do01-000 cvervow\nnotes sposuado\nrepos aqer!-ptrrtittion-low-opencoce-vs- -hermtn-agtns\nsources caude-code\nopen-questions subogerts-architecture-cpencode iratruction-fles\nsynthesis overview mcp sandboaing ARCHITECTURE\nlog index TNTIO EYST quntiors",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
 }

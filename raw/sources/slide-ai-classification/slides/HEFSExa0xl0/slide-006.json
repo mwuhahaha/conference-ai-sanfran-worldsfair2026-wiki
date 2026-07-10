@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Before vs. After\n\nBefore (10-15 tool calls):\nTool call 1: list_sheets() -> [\"Summary\", \"Data\", \"Inputs\"]\nTool call 2: read_range(\"Summary!A1:D10\") -> cell values\nTool call 3: find_cells(\"Revenue\") -> [matches]\nTool call 4: read_cell(\"Summary!C10\") -> \"$1,234,567\"\n...\n\nAfter (1 tool call):\nconst sheets = await xlsx.listSheets(wb);\nconst summary = await xlsx.readRangeTsv(wb, `${sheets[0].name}!A1:D10`);\nconst revenue = await xlsx.findCells(wb, \"Revenue\", { context: 1 });\nconsole.log(sheets, summary, revenue);\n\nEngineering the future of AI",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code and small text are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with dark green panel and black footer",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 13.0,
+        "h": 17.0
+      },
+      {
+        "role": "title",
+        "text": "Before vs. After",
+        "x": 29.0,
+        "y": 4.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 29.0,
+        "y": 16.0,
+        "w": 49.0,
+        "h": 31.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 42.0,
+        "y": 83.0,
+        "w": 38.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/HEFSExa0xl0/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659483.7154372,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Before vs. After",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Before vs.After\nBefore (10-15 tool calls):\nAIE Tool call 2:read_range(\"Summary!A1:D10\")-> cell values Tool cal1 4: read_cel1(\"Summary!c10\") -> \"$1,234,567\" Tool call 3:find_cells(\"Revenue\")->[matches] Tool call 1:list_sheets() -> [\"Summary\",\"Data\",\"Inputs\"]\nAfter (l tool call):\nconst sheets =await xlsx.listSheets(wb): const summary = await xlsx.readRangeTsv(wb,S{sheets[0] nameA1:D1o） const revenue = await xlsx.findCells(wb,“Revenue, context: 1 ); console.log(sheets, summary. revenue);\n2OOG AlBngieter Engineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 653.56
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Before vs. After\n\nBefore (10-15 tool calls):\nTool call 1: list_sheets() -> [\"Summary\", \"Data\", \"Inputs\"]\nTool call 2: read_range(\"Summary!A1:D10\") -> cell values\nTool call 3: find_cells(\"Revenue\") -> [matches]\nTool call 4: read_cell(\"Summary!C10\") -> \"$1,234,567\"\n...\n\nAfter (1 tool call):\nconst sheets = await xlsx.listSheets(wb);\nconst summary = await xlsx.readRangeTsv(wb, `${sheets[0].name}!A1:D10`);\nconst revenue = await xlsx.findCells(wb, \"Revenue\", { context: 1 });\nconsole.log(sheets, summary, revenue);\n\nEngineering the future of AI",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR directionally, corrected obvious tokenization and punctuation errors from the slide."
+  }
+}

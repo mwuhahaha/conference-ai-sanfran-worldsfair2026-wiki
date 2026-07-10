@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agents are hard\n• Agentic loop orchestration\n• Provider abstraction\n• Durable execution",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title-and-bullets slide; direct read is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Agents are hard",
+        "x": 33.0,
+        "y": 5.0,
+        "w": 34.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "• Agentic loop orchestration\n• Provider abstraction\n• Durable execution",
+        "x": 5.0,
+        "y": 22.0,
+        "w": 42.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672013.655765,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Agents are hard\n• Agentic loop orchestration\n• Provider abstraction\n• Durable execution",
+  "advanced_ocr": {}
+}

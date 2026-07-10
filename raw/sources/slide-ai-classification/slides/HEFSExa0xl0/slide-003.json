@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The problem\n\nA human sees: revenue table, assumptions,\nP&L summary\n\nAn LLM sees: 10,000 cell values,\n=SUMPRODUCT((B$3:B$50=\"NEW\")*(\nG$3:G$50)), formatting metadata",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense spreadsheet screenshot and small text are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with dark green panel and white spreadsheet screenshot",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 13.0,
+        "h": 17.0
+      },
+      {
+        "role": "title",
+        "text": "The problem",
+        "x": 29.0,
+        "y": 4.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "A human sees: revenue table, assumptions, P&L summary\nAn LLM sees: 10,000 cell values,\n=SUMPRODUCT((B$3:B$50=\"NEW\")*(\nG$3:G$50)), formatting metadata",
+        "x": 29.0,
+        "y": 18.0,
+        "w": 31.0,
+        "h": 26.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 64.0,
+        "y": 0,
+        "w": 35.0,
+        "h": 67.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 57.0,
+        "y": 83.0,
+        "w": 24.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/HEFSExa0xl0/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659368.708743,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "The problem",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "The problem\nP&Lsummary A human sees: revenue table, assumptions,\nAIE An LLM sees: 10,000 cell values, =SUMPRODUCT((B$3: B$5O=\"NEW\")*(\nG$3: G$50)),formatting metadata\nAlEngineey AI Engineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 288.32
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "The problem\n\nA human sees: revenue table, assumptions,\nP&L summary\n\nAn LLM sees: 10,000 cell values,\n=SUMPRODUCT((B$3:B$50=\"NEW\")*(\nG$3:G$50)), formatting metadata",
+    "text_status": "meaningful",
+    "corrections": "Corrected obvious OCR spacing and line breaks; accepted the slide text and ignored decorative logos."
+  }
+}

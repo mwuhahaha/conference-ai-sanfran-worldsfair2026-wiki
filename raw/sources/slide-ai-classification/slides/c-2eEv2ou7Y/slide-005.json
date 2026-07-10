@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Rendering external HTML?\nUse iframes\nThe <iframe> HTML element represents a nested browsing context, embedding another HTML page into the current one.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple quote slide; direct read is sufficient",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black with magenta and white accents",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Rendering external HTML?\nUse iframes",
+        "x": 28.0,
+        "y": 5.0,
+        "w": 45.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "The <iframe> HTML element represents a nested browsing context,\nembedding another HTML page into the current one.",
+        "x": 29.0,
+        "y": 41.0,
+        "w": 49.0,
+        "h": 18.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 58.0,
+        "y": 78.0,
+        "w": 20.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/c-2eEv2ou7Y/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666923.6359713,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Rendering external HTML?\nUse iframes\nThe <iframe> HTML element represents a nested browsing context, embedding another HTML page into the current one.",
+  "advanced_ocr": {}
+}

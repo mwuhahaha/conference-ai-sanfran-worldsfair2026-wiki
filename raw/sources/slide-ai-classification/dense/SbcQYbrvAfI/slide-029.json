@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "+, banchmarks?: 3 &ig. bonch hard tpuoor.c. EARNING:十 Code:十 Markdowm I D Run Al O Restart Chaar Ali Outputs.I B Vew dab E Jupyter Variableg 三 Outine: cit jodu, + c doon uojrzuido in < souoyt gtuogppy in't quldruogtroueo eeedqom Nosr a K tyooqojou ia_codo (Python 3.10.19)\nIv notebooks coding_ sgent nlel:? datssets JSONWObp..: M Iuma_support auo. uan.csv. BizNorm-100_ov testesv boddn/qmoqd t: metaprompt.txt U byoddnsxrazue s-Auenb uodans 0 Save Csy results savo_cxperinent_resultsl resutts: \"etperiment_results.json\"!. print(results) cvsluators = Ievnluste_output] 7 save resolrs: Savesingle_axperlment_csv(results, \"experlmrnt\") print(nud Experient resutts:\") resutts = optiize_loopr. train_set, test_aet, syztea_proept, evatustors,.. LOOPS-NUN_OPTIHIZATIG_LOOPS\n①. README.md? prompts. R license.ut. 3OuON'd. requlramntn,txt:cptimlzer_idk 322 $ Startirg prorot. optimization vith S. lterations (scorer:accuracy. threshold: 1) 456 311 Initfat evaluation:. Avsiubte. columrs: [\"uenaned! D'..'trput',.output',\"'evaluate_output_cxecutioo_detalls+. 'evaluate_output_score'] dataset'. lt_scrtrato 1l 13m 53.01: Ursmed: a:A56 Generate a blog post page shaicasing the'tates... 3SB 322 2 besign a travel sgency's landing prge tor, exot... Craft + veb psge with'o sticky sidebar. on. the... Craft a vebpage for sn. art gallery ryent, witn.... 5/3 (190.*) 1 2 +0:16-04:0+'1 3.32s/1t. id5.\n> TM[LIHE V mnn*.O poagt-unng. 01A0016 322:(n \"lsndingpage\"t (n'.:*+itte\"s. \"Exploro E.. H Sefact Postgrt Serrt....... output expluntion correctaess. Hone Hane Cunar ne We T tno, co 1'/sorcon 4 [2025-11-22:13:24:03 Soc43: 4. LF C++ 20 0127. t",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small execution-output text and tabular output are better handled by OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Starting prompt optimization with 5 iterations (scorer: accuracy, threshold: 1)",
+        "x": 11.0,
+        "y": 34.0,
+        "w": 74.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Initial evaluation:",
+        "x": 16.0,
+        "y": 45.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Available columns: ['Unnamed: 0', 'input', 'output', 'evaluate_output_execution_details', 'evaluate_output_score']",
+        "x": 11.0,
+        "y": 56.0,
+        "w": 78.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-029.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-029.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665884.3844345,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "+, banchmarks?: 3 &ig. bonch hard tpuoor.c. EARNING:十 Code:十 Markdowm I D Run Al O Restart Chaar Ali Outputs.I B Vew dab E Jupyter Variableg 三 Outine: cit jodu, + c doon uojrzuido in < souoyt gtuogppy in't quldruogtroueo eeedqom Nosr a K tyooqojou ia_codo (Python 3.10.19)\nIv notebooks coding_ sgent nlel:? datssets JSONWObp..: M Iuma_support auo. uan.csv. BizNorm-100_ov testesv boddn/qmoqd t: metaprompt.txt U byoddnsxrazue s-Auenb uodans 0 Save Csy results savo_cxperinent_resultsl resutts: \"etperiment_results.json\"!. print(results) cvsluators = Ievnluste_output] 7 save resolrs: Savesingle_axperlment_csv(results, \"experlmrnt\") print(nud Experient resutts:\") resutts = optiize_loopr. train_set, test_aet, syztea_proept, evatustors,.. LOOPS-NUN_OPTIHIZATIG_LOOPS\n①. README.md? prompts. R license.ut. 3OuON'd. requlramntn,txt:cptimlzer_idk 322 $ Startirg prorot. optimization vith S. lterations (scorer:accuracy. threshold: 1) 456 311 Initfat evaluation:. Avsiubte. columrs: [\"uenaned! D'..'trput',.output',\"'evaluate_output_cxecutioo_detalls+. 'evaluate_output_score'] dataset'. lt_scrtrato 1l 13m 53.01: Ursmed: a:A56 Generate a blog post page shaicasing the'tates... 3SB 322 2 besign a travel sgency's landing prge tor, exot... Craft + veb psge with'o sticky sidebar. on. the... Craft a vebpage for sn. art gallery ryent, witn.... 5/3 (190.*) 1 2 +0:16-04:0+'1 3.32s/1t. id5.\n> TM[LIHE V mnn*.O poagt-unng. 01A0016 322:(n \"lsndingpage\"t (n'.:*+itte\"s. \"Exploro E.. H Sefact Postgrt Serrt....... output expluntion correctaess. Hone Hane Cunar ne We T tno, co 1'/sorcon 4 [2025-11-22:13:24:03 Soc43: 4. LF C++ 20 0127. t",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1758.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "+, banchmarks?: 3 &ig. bonch hard tpuoor.c. EARNING:十 Code:十 Markdowm I D Run Al O Restart Chaar Ali Outputs.I B Vew dab E Jupyter Variableg 三 Outine: cit jodu, + c doon uojrzuido in < souoyt gtuogppy in't quldruogtroueo eeedqom Nosr a K tyooqojou ia_codo (Python 3.10.19)\nIv notebooks coding_ sgent nlel:? datssets JSONWObp..: M Iuma_support auo. uan.csv. BizNorm-100_ov testesv boddn/qmoqd t: metaprompt.txt U byoddnsxrazue s-Auenb uodans 0 Save Csy results savo_cxperinent_resultsl resutts: \"etperiment_results.json\"!. print(results) cvsluators = Ievnluste_output] 7 save resolrs: Savesingle_axperlment_csv(results, \"experlmrnt\") print(nud Experient resutts:\") resutts = optiize_loopr. train_set, test_aet, syztea_proept, evatustors,.. LOOPS-NUN_OPTIHIZATIG_LOOPS\n①. README.md? prompts. R license.ut. 3OuON'd. requlramntn,txt:cptimlzer_idk 322 $ Startirg prorot. optimization vith S. lterations (scorer:accuracy. threshold: 1) 456 311 Initfat evaluation:. Avsiubte. columrs: [\"uenaned! D'..'trput',.output',\"'evaluate_output_cxecutioo_detalls+. 'evaluate_output_score'] dataset'. lt_scrtrato 1l 13m 53.01: Ursmed: a:A56 Generate a blog post page shaicasing the'tates... 3SB 322 2 besign a travel sgency's landing prge tor, exot... Craft + veb psge with'o sticky sidebar. on. the... Craft a vebpage for sn. art gallery ryent, witn.... 5/3 (190.*) 1 2 +0:16-04:0+'1 3.32s/1t. id5.\n> TM[LIHE V mnn*.O poagt-unng. 01A0016 322:(n \"lsndingpage\"t (n'.:*+itte\"s. \"Exploro E.. H Sefact Postgrt Serrt....... output expluntion correctaess. Hone Hane Cunar ne We T tno, co 1'/sorcon 4 [2025-11-22:13:24:03 Soc43: 4. LF C++ 20 0127. t",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

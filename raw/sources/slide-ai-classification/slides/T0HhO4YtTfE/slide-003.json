@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Specs are the new code\nEvaluation criteria\nSystem design\nProduct requirements",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple large-text slide",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "dark teal",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Specs are the new code",
+        "x": 24.0,
+        "y": 11.0,
+        "w": 38.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Evaluation criteria",
+        "x": 42.0,
+        "y": 38.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System design",
+        "x": 42.0,
+        "y": 52.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Product requirements",
+        "x": 42.0,
+        "y": 66.0,
+        "w": 34.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/T0HhO4YtTfE/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663691.071439,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Specs are the new code\nEvaluation criteria\nSystem design\nProduct requirements",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Context itself is the object of computation",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Contains a paper screenshot plus small diagram labels and bullet text; OCR should recover the embedded text more reliably.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "RECURSIVE LANGUAGE MODELS",
+        "x": 25.0,
+        "y": 12.0,
+        "w": 18.0,
+        "h": 3.0
+      },
+      {
+        "role": "title",
+        "text": "Context itself is the object of computation",
+        "x": 25.0,
+        "y": 20.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Externalize - the full prompt lives in a REPL, not the context window.\nOperate - the model writes code to inspect, slice, and transform it.\nRecurse - it sub-queries itself over the slices.",
+        "x": 25.0,
+        "y": 31.0,
+        "w": 38.0,
+        "h": 20.0
+      },
+      {
+        "role": "caption",
+        "text": "ARXIV:2512.24401",
+        "x": 56.0,
+        "y": 62.0,
+        "w": 10.0,
+        "h": 3.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Root RLM (depth=0)\nSub-RLM A (depth=1)\nLLM A1 (depth=2)\nLLM A2 (depth=2)\nSub-RLM B (depth=1)\nLLM B1 (depth=2)\nLLM B2 (depth=2)",
+        "x": 43.0,
+        "y": 69.0,
+        "w": 24.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/3hXJI2q0Jz8/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657402.310894,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Context itself is the object of computation",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

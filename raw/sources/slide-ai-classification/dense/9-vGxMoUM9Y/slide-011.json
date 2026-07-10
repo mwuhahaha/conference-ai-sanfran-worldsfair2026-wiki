@@ -1,0 +1,170 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Example: Validating \"correctness\"\nApplication Logic\nGuardrails AI\nLLM Logic\nPrompt\nLLM API\nRaw Output\nReconstruct Prompt\nFail Validation\nVerification Logic\nPass Validation\nHow do I change my password?\nRaw Output\n1. Log into your account.\n2. Go to user settings by clicking on the top left corner.\n3. Click change password.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram and example output are small and better suited for OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Example: Validating “correctness”",
+        "x": 5.0,
+        "y": 3.0,
+        "w": 48.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Application Logic",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LLM Logic",
+        "x": 8.0,
+        "y": 24.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Prompt",
+        "x": 12.0,
+        "y": 29.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LLM API",
+        "x": 12.0,
+        "y": 46.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Raw Output",
+        "x": 12.0,
+        "y": 63.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Verification Logic",
+        "x": 27.0,
+        "y": 54.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Provenance",
+        "x": 31.0,
+        "y": 61.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Profanity",
+        "x": 36.0,
+        "y": 57.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Peer Instructions",
+        "x": 39.0,
+        "y": 61.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "How do I change my password?",
+        "x": 53.0,
+        "y": 23.0,
+        "w": 32.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Raw LLM Output",
+        "x": 67.0,
+        "y": 43.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1. Log into your account.",
+        "x": 64.0,
+        "y": 54.0,
+        "w": 22.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "2. Go to user settings by clicking on the top left corner.",
+        "x": 63.0,
+        "y": 59.0,
+        "w": 28.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3. Click change password.",
+        "x": 64.0,
+        "y": 68.0,
+        "w": 21.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "Guardrails AI",
+        "x": 5.0,
+        "y": 90.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/9-vGxMoUM9Y/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658699.4065702,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Example: Validating “correctness”",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Example: Validating \"correctness\"\nApplication Logic\nGuardrailsAl\nLLMLogic How do I change my password?\nPrompl RecoestruetPrempt-\nFail Validatlon RawLLM Output\nVeriication Logic 2.Go to user settings by 1.Log into your account. clicking on the top left\nRawOuput 3.Click change password. corner.\nPass Validation\nGuardrallsAl",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 487.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Example: Validating \"correctness\"\nApplication Logic\nGuardrails AI\nLLM Logic\nPrompt\nLLM API\nRaw Output\nReconstruct Prompt\nFail Validation\nVerification Logic\nPass Validation\nHow do I change my password?\nRaw Output\n1. Log into your account.\n2. Go to user settings by clicking on the top left corner.\n3. Click change password.",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide text with obvious OCR fixes and line breaks; omitted a few small diagram labels that were not fully legible."
+  }
+}

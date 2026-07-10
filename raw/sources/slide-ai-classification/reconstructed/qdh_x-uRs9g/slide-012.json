@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "ILEARNEDMYLESSON ON INFERENCE\nWe open sourced both the yin (model inference) and the yang (clust\nSuperlinked\nAIE SlE - Superlinked Inference Engine\nDn-scurce dprioxctiencusterererbedsings,rerankirg.ngertrkscn\nB.modelyFrreglrctiors.Frem iactcploDibernetes.AlAeache2.o\ngithub.com/superlinked/sie\nGoogle DeepMind\nAlEnginecr",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense promo slide with QR code and small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "red-and-black striped",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "I LEARNED MY LESSON ON INFERENCE",
+        "x": 46.0,
+        "y": 3.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "We open sourced both the yin (model inference) and the yang (cluster)",
+        "x": 31.0,
+        "y": 9.0,
+        "w": 58.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Superlinked",
+        "x": 44.0,
+        "y": 28.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "SIE — Superlinked Inference Engine",
+        "x": 39.0,
+        "y": 35.0,
+        "w": 25.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "github.com/superlinked/sie",
+        "x": 40.0,
+        "y": 63.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 76.0,
+        "y": 18.0,
+        "w": 20.0,
+        "h": 46.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-012.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671378.3011487,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/contrast",
+    "text": "ILEARNEDMYLESSON ON INFERENCE\nWe open sourced both the yin (model inference) and the yang (clust\nSuperlinked\nAIE SlE - Superlinked Inference Engine\nDn-scurce dprioxctiencusterererbedsings,rerankirg.ngertrkscn\nB.modelyFrreglrctiors.Frem iactcploDibernetes.AlAeache2.o\ngithub.com/superlinked/sie\nGoogle DeepMind\nAlEnginecr",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 372.12
+  },
+  "ocr_source": "rapidocr-live/center-82/contrast",
+  "ocr_reconcile": {
+    "text": "ILEARNEDMYLESSON ON INFERENCE\nWe open sourced both the yin (model inference) and the yang (clust\nSuperlinked\nAIE SlE - Superlinked Inference Engine\nDn-scurce dprioxctiencusterererbedsings,rerankirg.ngertrkscn\nB.modelyFrreglrctiors.Frem iactcploDibernetes.AlAeache2.o\ngithub.com/superlinked/sie\nGoogle DeepMind\nAlEnginecr",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Write a python program to figure out a plan to retrieve multiple pieces of data required.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#1b1b17",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Write a python program to figure out a plan to retrieve multiple pieces of data required.",
+        "x": 6.0,
+        "y": 47.0,
+        "w": 88.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/reconstructed-slides/himhGiWJXjo/slide-012.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668486.1062381,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Write a python program to figure out a plan to retrieve multiple pieces of data required.",
+  "advanced_ocr": {}
+}

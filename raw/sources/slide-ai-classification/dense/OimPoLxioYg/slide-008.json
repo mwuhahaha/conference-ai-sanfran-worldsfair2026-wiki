@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "Draw a gorilla gardening with grapes",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple UI screenshot with large prompt text; direct read is sufficient",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with gray sidebars",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Draw a gorilla gardening with grapes",
+        "x": 20.0,
+        "y": 7.0,
+        "w": 48.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "SUBMIT",
+        "x": 79.0,
+        "y": 7.0,
+        "w": 10.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/OimPoLxioYg/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662836.110018,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Draw a gorilla gardening with grapes",
+  "advanced_ocr": {}
+}

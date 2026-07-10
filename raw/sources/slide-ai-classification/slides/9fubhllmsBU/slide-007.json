@@ -1,0 +1,40 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.92,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Fetch every Pokémon. Write a script. Filter for “aw.”",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "contains a dense code screenshot suitable for OCR",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "warm off-white with dark code screenshot",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Fetch every Pokémon. Write a script. Filter for “aw.”",
+        "x": 28.0,
+        "y": 37.0,
+        "w": 29.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/9fubhllmsBU/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658280.974893,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Fetch every Pokémon. Write a script. Filter for “aw.”",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

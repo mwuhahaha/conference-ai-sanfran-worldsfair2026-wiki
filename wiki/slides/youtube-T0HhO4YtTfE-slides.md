@@ -17,32 +17,29 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/T0HhO4YtTfE/slide-001.jpg]]
-
-OCR text:
-
-> MongoDB
-
 ![[assets/slides/T0HhO4YtTfE/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — dense multi-panel slide with small embedded text
 
-> a
-> i
-> So, how will we “Vibe Code” in prod?
-> Forget the code exists, but
-> . ret anetere) tlAle ae ahaa] £01 Die
-> 7 NOT that the product exists!
-> RS enna ae
-> » S ca Ta
-> eared SS MeEIPR ROR Ge 10185.F 1000: Coe 8.0 BUC LL
-> rs roles) et ite eal
-> “if vad can ComMmuUricate. yOu Can program ©
-> ce Sear Grove, Qpenal
+Slide text:
+
+> So, how will we "Vibe Code" in prod?
+> NOT that the product exists! Forget the code exists, but ErikSchulntz,Anthropic yibe coding in prod talk
+> World's Fair
+> d'sFai IN THE NEAR FUTURE.
+> OS..thepersonwhocommunicatesbestbecomes the "If you can communicate, you can program. programmer.
+> Sean Grove, OpenAI
 
 ![[assets/slides/T0HhO4YtTfE/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > Specs are the new code
 > Evaluation criteria
@@ -51,59 +48,66 @@ OCR text:
 
 ![[assets/slides/T0HhO4YtTfE/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — dense table with small text
 
-> Product System Design Evaluation Production
-> Requirements and Monitoring Readiness
-> taentify the business ere eek orca Define system Opt mize for accuracy
-> oife)snerns) and retrieval techniques —— guarcrais
-> & i idertify your Se'ect system Define offline Oot:mize for cost ard
-> constraints architecture and tecn evaluation metr cs fehtel eng
-> B | Satelal¢
-> i ; Define tne role of Al Deterrune the UX and Define onine Optimize for rouability
-> i aoe Hela@l SG aMOrerS re (arrosrel@halor aaa tell aan
-> Define success Metrics
+Slide text:
+
+> Requirements Product System Design and Monitoring Evaluation Production Readiness 1
+> problem Identify the business and retrieval techniques Identify data sources guardrails Define system Optimize for accuracy
+> Identify your constraints stack architecture and.tech Select system Define offline evaluation metrics Optimize for. cost and latency
+> Define the role of AI feedback loops Determine the UX and Define online evaluation metrics Optimize for reliability
 
 ![[assets/slides/T0HhO4YtTfE/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
 
 > Health insurance claims review
 
 ![[assets/slides/T0HhO4YtTfE/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — dense paragraph slide
+
+Slide text:
 
 > Background
 > Background
-> Health insurers and health funds around the world employ medical reviewers to assess
-> ; whether a requested treatment, procedure, or medication is covered under a patient's
-> 
-> Pf policy. This requires cross-referencing clinical documentation, coverage policies, clinical
-> 
-> guidelines, and patient claims history. It is one of the most administratively intensive
-> « P| ; roles in healthcare operations.
-> ee
-> 
+> Health insurers and heaith funds around the world employ medical reviewers to assess
+> policy. This requires cross-referencing clinical documentation, coverage policies, clinical roles in healthcare operations. guidelines, and patient claims history. It is one of the most administratively intensive
 > What we are building
-> We are building an internal claims review system for a fictitious health insurance
-> company called MDB Health. This system is used by medical reviewers to assess and
-> adjudicate claims. The external-facing system through which healthcare providers
-> submit claims and receive feedback on outcomes is out of scope.
+> We are building an internal claims review system for a fictitious health insurance submit claims and receive feedback on outcomes is out of scope. adjudicate claims. The external-facing system through which healthcare providers company called MDB Health. This system is used by medical reviewers to assess and
 
 ![[assets/slides/T0HhO4YtTfE/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> )
+Slide text:
+
 > Retrieval Augmented Generation (RAG)
-> 34 SS ened
-> i ay a aie Aare se ——=> Answer
-> [oar
+> Knowledge base
+> Context
+> Prompt
+> LLM
+> Answer
 
 ![[assets/slides/T0HhO4YtTfE/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
 
 > AI Agents
 > Tools
@@ -116,7 +120,11 @@ OCR text:
 
 ![[assets/slides/T0HhO4YtTfE/slide-009.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-009.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+
+Slide text:
 
 > Controlled flows?
 > LLM Call 1
@@ -126,97 +134,92 @@ OCR text:
 
 ![[assets/slides/T0HhO4YtTfE/slide-010.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-010.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
 
-> 0
-> ‘Tech stack decisions
-> OO
-> Data | prcinc 8 4 |
-> é \ processing rere
-> P a Hosting aws ra V | |
-> > a and inference
-> Foundation models A\ Gy) ‘ alien O Meta |
-> 7 y
+Slide text:
+
+> Tech stack decisions
+> Data processing
+> Hosting and inference
+> Foundation models
 
 ![[assets/slides/T0HhO4YtTfE/slide-011.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-011.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
 
-> .
+Slide text:
+
 > Tech stack decisions contd...
-> \ Fine-tuning ’ 7 rs
-> af 2 Orchestration | Sa io POLY A, 8 oo?
-> >) Frameworks _ . on
-> ae —‘\
-> ; a
-> Embeddings | ()
-> and retrieval 4
+> Fine-tuning
+> Orchestration Frameworks
+> Embeddings and retrieval
 
 ![[assets/slides/T0HhO4YtTfE/slide-012.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-012.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> 7
+Slide text:
+
 > Define system guardrails
 > Guardrails define the boundaries of acceptable inputs and outputs.
-> «x! a
-> ~ _
 
 ![[assets/slides/T0HhO4YtTfE/slide-013.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-013.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Two-column slide with small labels and examples.
 
-> if)
-> Define system guardrails
-> Guardrails define the boundaries of acceptable inputs and outputs.
-> t
-> a | :
-> mn aleienl Oleraeren
-> A P Caen RETARSi ez O1bh re) ME MOlEADI TOLER SLOI ES H Invalid. mcorrect om harmfu outputs
-> o ; . A
-> ~ —
-> |
-> 4
-> qd
-> i
-> I
-> '
-> i
-> i
+Slide text:
+
+> Definesystem guardrails
+> Guardrails define the boundaries of accepfable inpufs and outputs.
+> Inpu? Output
+> Invalid, irrelevanf or harmful inputs. Invalid, incorrect or harmfui outputs
+> Write mea poem. Findl resultshouldprovide citations
 
 ![[assets/slides/T0HhO4YtTfE/slide-014.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-014.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/center-82/opencv-adaptive`.
+- OCR decision: ready — Dense table with small row text.
 
-> ()
-> oF co . ~
-> i r is e » ons f
-> Optimizing for accuracy
+Slide text:
+
+> Optimizingforaccuracy
 > Technique What it involves
-> ; | Prompt eng reenng Wrote clear and well-stroctured prompts
-> FY EXetsaimnL aay Progress ve disclosure of eformation fo agents
-> a 2 ; OlTclarmelon nn irz4iileal Rewrite or cecomoase queres for better retmeval ar generation
-> a , ,
-> Rerark rg Reorder retreved documents py relevance
-> Compactor Summarize or remove content from the LLM’s contead wenGow
-> Memory managemer* Persist information across sessions
+> Prompt engineering Write clear and well-structured prompts
+> Agent skills Progressive disclosure of information to agents
+> Query optimization Rewrite ordecompose queries forbetterretrievalorgenera
+> Reranking Reorder retrieved documents by relevance
+> Compaction Summarize or remove content from the LLM's context wind
+> Memory management Persist.information across sessions
 
 ![[assets/slides/T0HhO4YtTfE/slide-015.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/T0HhO4YtTfE/slide-015.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> ©
-> a ‘ as ra a
+Slide text:
+
 > Key takeaways
-> e = =Think deeply about your product requirements before having AI generate code.
-> ba 7 e =6Treat business and performance constraints as inputs to design, not afterthoughts.
-> a’
+> Think deeply about your product requirements before having AI generate code.
+> Treat business and performance constraints as inputs to design, not afterthoughts.
 
-![[assets/slides/T0HhO4YtTfE/slide-016.jpg]]
 
-OCR text:
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/T0HhO4YtTfE/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on camera, not a presentation slide
+- [`slide-016.jpg`](/assets/slides/T0HhO4YtTfE/slide-016.jpg) — `speaker_stage` confidence `0.99`; Speaker camera shot, not a presentation slide.
 
-> MongoDB
+Classification audit: `raw/sources/slide-ai-classification/slides/T0HhO4YtTfE/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Why?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Single large word title card; OCR not needed.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#2b2b2b",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why?",
+        "x": 36.0,
+        "y": 34.0,
+        "w": 28.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672013.6555943,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why?",
+  "advanced_ocr": {}
+}

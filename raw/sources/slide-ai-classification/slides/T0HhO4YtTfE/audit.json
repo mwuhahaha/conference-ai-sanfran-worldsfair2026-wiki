@@ -1,0 +1,1206 @@
+{
+  "video_id": "T0HhO4YtTfE",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 14,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "So, how will we \"Vibe Code\" in prod?\nNOT that the product exists! Forget the code exists, but ErikSchulntz,Anthropic yibe coding in prod talk\nWorld's Fair\nd'sFai IN THE NEAR FUTURE.\nOS..thepersonwhocommunicatesbestbecomes the \"If you can communicate, you can program. programmer.\nSean Grove, OpenAI",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense multi-panel slide with small embedded text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal with patterned border",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "So, how will we “Vibe Code” in prod?",
+            "x": 20.0,
+            "y": 12.0,
+            "w": 52.0,
+            "h": 14.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Forget the code exists, but NOT that the product exists!",
+            "x": 24.0,
+            "y": 28.0,
+            "w": 42.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "Erik Schuntz, Anthropic",
+            "x": 72.0,
+            "y": 34.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Vibe coding in prod talk",
+            "x": 72.0,
+            "y": 40.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Sean Grove, OpenAI",
+            "x": 72.0,
+            "y": 70.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "The New Code talk",
+            "x": 72.0,
+            "y": 76.0,
+            "w": 18.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663640.1257555,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "So, how will we \"Vibe Code\" in prod?\nNOT that the product exists! Forget the code exists, but ErikSchulntz,Anthropic yibe coding in prod talk\nWorld's Fair\nd'sFai IN THE NEAR FUTURE.\nOS..thepersonwhocommunicatesbestbecomes the \"If you can communicate, you can program. programmer.\nSean Grove, OpenAI",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 463.56
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "So, how will we \"Vibe Code\" in prod?\nNOT that the product exists! Forget the code exists, but ErikSchulntz,Anthropic yibe coding in prod talk\nWorld's Fair\nd'sFai IN THE NEAR FUTURE.\nOS..thepersonwhocommunicatesbestbecomes the \"If you can communicate, you can program. programmer.\nSean Grove, OpenAI",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Specs are the new code\nEvaluation criteria\nSystem design\nProduct requirements",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple large-text slide",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "dark teal",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Specs are the new code",
+            "x": 24.0,
+            "y": 11.0,
+            "w": 38.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Evaluation criteria",
+            "x": 42.0,
+            "y": 38.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "System design",
+            "x": 42.0,
+            "y": 52.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Product requirements",
+            "x": 42.0,
+            "y": 66.0,
+            "w": 34.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663691.071439,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Specs are the new code\nEvaluation criteria\nSystem design\nProduct requirements",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Requirements Product System Design and Monitoring Evaluation Production Readiness 1\nproblem Identify the business and retrieval techniques Identify data sources guardrails Define system Optimize for accuracy\nIdentify your constraints stack architecture and.tech Select system Define offline evaluation metrics Optimize for. cost and latency\nDefine the role of AI feedback loops Determine the UX and Define online evaluation metrics Optimize for reliability",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense table with small text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Product Requirements",
+            "x": 21.0,
+            "y": 15.0,
+            "w": 16.0,
+            "h": 11.0
+          },
+          {
+            "role": "title",
+            "text": "System Design",
+            "x": 38.0,
+            "y": 15.0,
+            "w": 16.0,
+            "h": 11.0
+          },
+          {
+            "role": "title",
+            "text": "Evaluation and Monitoring",
+            "x": 56.0,
+            "y": 15.0,
+            "w": 16.0,
+            "h": 11.0
+          },
+          {
+            "role": "title",
+            "text": "Production Readiness",
+            "x": 76.0,
+            "y": 15.0,
+            "w": 16.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Identify the business problem",
+            "x": 21.0,
+            "y": 26.0,
+            "w": 16.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Identify your constraints",
+            "x": 21.0,
+            "y": 39.0,
+            "w": 16.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Define the role of AI",
+            "x": 21.0,
+            "y": 52.0,
+            "w": 16.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Define success metrics",
+            "x": 21.0,
+            "y": 66.0,
+            "w": 16.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Identify data sources and retrieval techniques",
+            "x": 38.0,
+            "y": 26.0,
+            "w": 18.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Select system architecture and tech stack",
+            "x": 38.0,
+            "y": 39.0,
+            "w": 18.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Determine the UX and feedback loops",
+            "x": 38.0,
+            "y": 52.0,
+            "w": 18.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Define system guardrails",
+            "x": 56.0,
+            "y": 26.0,
+            "w": 16.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Define offline evaluation metrics",
+            "x": 56.0,
+            "y": 39.0,
+            "w": 16.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Define online evaluation metrics",
+            "x": 56.0,
+            "y": 52.0,
+            "w": 16.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Optimize for accuracy",
+            "x": 76.0,
+            "y": 26.0,
+            "w": 16.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Optimize for cost and latency",
+            "x": 76.0,
+            "y": 39.0,
+            "w": 16.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Optimize for reliability",
+            "x": 76.0,
+            "y": 52.0,
+            "w": 16.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663691.0770838,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Requirements Product System Design and Monitoring Evaluation Production Readiness 1\nproblem Identify the business and retrieval techniques Identify data sources guardrails Define system Optimize for accuracy\nIdentify your constraints stack architecture and.tech Select system Define offline evaluation metrics Optimize for. cost and latency\nDefine the role of AI feedback loops Determine the UX and Define online evaluation metrics Optimize for reliability",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 626.61
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Requirements Product System Design and Monitoring Evaluation Production Readiness 1\nproblem Identify the business and retrieval techniques Identify data sources guardrails Define system Optimize for accuracy\nIdentify your constraints stack architecture and.tech Select system Define offline evaluation metrics Optimize for. cost and latency\nDefine the role of AI feedback loops Determine the UX and Define online evaluation metrics Optimize for reliability",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Health insurance claims review",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple icon-and-title slide",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "dark teal",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Health insurance claims review",
+            "x": 42.0,
+            "y": 70.0,
+            "w": 30.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663749.5807707,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Health insurance claims review",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Background\nBackground\nHealth insurers and heaith funds around the world employ medical reviewers to assess\npolicy. This requires cross-referencing clinical documentation, coverage policies, clinical roles in healthcare operations. guidelines, and patient claims history. It is one of the most administratively intensive\nWhat we are building\nWe are building an internal claims review system for a fictitious health insurance submit claims and receive feedback on outcomes is out of scope. adjudicate claims. The external-facing system through which healthcare providers company called MDB Health. This system is used by medical reviewers to assess and",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense paragraph slide",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light pastel panel on dark teal",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Background",
+            "x": 24.0,
+            "y": 11.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Health insurers and health funds around the world employ medical reviewers to assess whether a requested treatment, procedure, or medication is covered under a patient’s policy. This requires cross-referencing clinical documentation, coverage policies, clinical guidelines, and patient claims history. It is one of the most administratively intensive roles in healthcare operations.",
+            "x": 23.0,
+            "y": 21.0,
+            "w": 75.0,
+            "h": 24.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What we are building",
+            "x": 23.0,
+            "y": 47.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "We are building an internal claims review system for a fictitious health insurance company called MDB Health. This system is used by medical reviewers to assess and adjudicate claims. The external-facing system through which healthcare providers submit claims and receive feedback on outcomes is out of scope.",
+            "x": 23.0,
+            "y": 56.0,
+            "w": 75.0,
+            "h": 23.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663749.5814652,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Background",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Background\nBackground\nHealth insurers and heaith funds around the world employ medical reviewers to assess\npolicy. This requires cross-referencing clinical documentation, coverage policies, clinical roles in healthcare operations. guidelines, and patient claims history. It is one of the most administratively intensive\nWhat we are building\nWe are building an internal claims review system for a fictitious health insurance submit claims and receive feedback on outcomes is out of scope. adjudicate claims. The external-facing system through which healthcare providers company called MDB Health. This system is used by medical reviewers to assess and",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 875.26
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Background\nBackground\nHealth insurers and heaith funds around the world employ medical reviewers to assess\npolicy. This requires cross-referencing clinical documentation, coverage policies, clinical roles in healthcare operations. guidelines, and patient claims history. It is one of the most administratively intensive\nWhat we are building\nWe are building an internal claims review system for a fictitious health insurance submit claims and receive feedback on outcomes is out of scope. adjudicate claims. The external-facing system through which healthcare providers company called MDB Health. This system is used by medical reviewers to assess and",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Retrieval Augmented Generation (RAG)\nKnowledge base\nContext\nPrompt\nLLM\nAnswer",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple diagram slide with large readable text; direct reading is sufficient.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#062f2d",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Retrieval Augmented Generation (RAG)",
+            "x": 24.0,
+            "y": 10.0,
+            "w": 58.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Knowledge base",
+            "x": 54.0,
+            "y": 36.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Context",
+            "x": 62.0,
+            "y": 45.0,
+            "w": 9.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Prompt",
+            "x": 34.0,
+            "y": 62.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLM",
+            "x": 47.0,
+            "y": 68.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Answer",
+            "x": 74.0,
+            "y": 64.0,
+            "w": 10.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664006.3066607,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Retrieval Augmented Generation (RAG)\nKnowledge base\nContext\nPrompt\nLLM\nAnswer",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI Agents\nTools\nMemory\nInput\nLLM\nAction\nResult\nEND",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Readable diagram slide with large labels; OCR is not needed.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#062f2d",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI Agents",
+            "x": 25.0,
+            "y": 10.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tools",
+            "x": 40.0,
+            "y": 29.0,
+            "w": 9.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Memory",
+            "x": 51.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Input",
+            "x": 35.0,
+            "y": 61.0,
+            "w": 9.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLM",
+            "x": 48.0,
+            "y": 66.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Action",
+            "x": 58.0,
+            "y": 60.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Result",
+            "x": 77.0,
+            "y": 60.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "END",
+            "x": 48.0,
+            "y": 82.0,
+            "w": 6.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664006.307647,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Agents\nTools\nMemory\nInput\nLLM\nAction\nResult\nEND",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Controlled flows?\nLLM Call 1\nLLM Call 2\nAction 1\nAction 2",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple flow diagram with large text; direct reading is sufficient.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#062f2d",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Controlled flows?",
+            "x": 25.0,
+            "y": 10.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLM Call 1",
+            "x": 28.0,
+            "y": 60.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLM Call 2",
+            "x": 43.0,
+            "y": 60.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Action 1",
+            "x": 59.0,
+            "y": 59.0,
+            "w": 13.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Action 2",
+            "x": 80.0,
+            "y": 59.0,
+            "w": 13.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664006.3086205,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Controlled flows?\nLLM Call 1\nLLM Call 2\nAction 1\nAction 2",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Tech stack decisions\nData processing\nHosting and inference\nFoundation models",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Text is already large and readable; the main content is logos, not OCR-heavy body text.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#062f2d",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Tech stack decisions",
+            "x": 25.0,
+            "y": 10.0,
+            "w": 32.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Data processing",
+            "x": 28.0,
+            "y": 34.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Hosting and inference",
+            "x": 26.0,
+            "y": 56.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Foundation models",
+            "x": 26.0,
+            "y": 78.0,
+            "w": 18.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664006.309376,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Tech stack decisions\nData processing\nHosting and inference\nFoundation models",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Tech stack decisions contd...\nFine-tuning\nOrchestration Frameworks\nEmbeddings and retrieval",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large readable labels with logo groups; OCR is not necessary.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#062f2d",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Tech stack decisions contd...",
+            "x": 25.0,
+            "y": 10.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Fine-tuning",
+            "x": 26.0,
+            "y": 33.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Orchestration Frameworks",
+            "x": 25.0,
+            "y": 57.0,
+            "w": 24.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Embeddings and retrieval",
+            "x": 25.0,
+            "y": 78.0,
+            "w": 22.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664006.310378,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Tech stack decisions contd...\nFine-tuning\nOrchestration Frameworks\nEmbeddings and retrieval",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Define system guardrails\nGuardrails define the boundaries of acceptable inputs and outputs.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Sparse slide with large title and subtitle; direct reading is enough.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#062f2d",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Define system guardrails",
+            "x": 25.0,
+            "y": 10.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Guardrails define the boundaries of acceptable inputs and outputs.",
+            "x": 25.0,
+            "y": 18.0,
+            "w": 64.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664006.3111196,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Define system guardrails\nGuardrails define the boundaries of acceptable inputs and outputs.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Definesystem guardrails\nGuardrails define the boundaries of accepfable inpufs and outputs.\nInpu? Output\nInvalid, irrelevanf or harmful inputs. Invalid, incorrect or harmfui outputs\nWrite mea poem. Findl resultshouldprovide citations",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Two-column slide with small labels and examples.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark teal with patterned green accents",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Define system guardrails",
+            "x": 24.0,
+            "y": 12.0,
+            "w": 42.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Guardrails define the boundaries of acceptable inputs and outputs.",
+            "x": 24.0,
+            "y": 25.0,
+            "w": 58.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Input",
+            "x": 34.0,
+            "y": 43.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Invalid, irrelevant or harmful inputs",
+            "x": 27.0,
+            "y": 54.0,
+            "w": 24.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Write me a poem",
+            "x": 33.0,
+            "y": 67.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Output",
+            "x": 76.0,
+            "y": 43.0,
+            "w": 11.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Invalid, incorrect or harmful outputs",
+            "x": 67.0,
+            "y": 54.0,
+            "w": 25.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Final result should provide citations",
+            "x": 69.0,
+            "y": 67.0,
+            "w": 24.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664076.1708572,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Define system guardrails",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Definesystem guardrails\nGuardrails define the boundaries of accepfable inpufs and outputs.\nInpu? Output\nInvalid, irrelevanf or harmful inputs. Invalid, incorrect or harmfui outputs\nWrite mea poem. Findl resultshouldprovide citations",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 354.76
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Definesystem guardrails\nGuardrails define the boundaries of accepfable inpufs and outputs.\nInpu? Output\nInvalid, irrelevanf or harmful inputs. Invalid, incorrect or harmfui outputs\nWrite mea poem. Findl resultshouldprovide citations",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Optimizingforaccuracy\nTechnique What it involves\nPrompt engineering Write clear and well-structured prompts\nAgent skills Progressive disclosure of information to agents\nQuery optimization Rewrite ordecompose queries forbetterretrievalorgenera\nReranking Reorder retrieved documents by relevance\nCompaction Summarize or remove content from the LLM's context wind\nMemory management Persist.information across sessions",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense table with small row text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal with patterned green accents",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Optimizing for accuracy",
+            "x": 24.0,
+            "y": 12.0,
+            "w": 32.0,
+            "h": 12.0
+          },
+          {
+            "role": "caption",
+            "text": "Technique",
+            "x": 27.0,
+            "y": 29.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "What it involves",
+            "x": 55.0,
+            "y": 29.0,
+            "w": 24.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Prompt engineering",
+            "x": 24.0,
+            "y": 39.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Agent skills",
+            "x": 24.0,
+            "y": 48.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Query optimization",
+            "x": 24.0,
+            "y": 57.0,
+            "w": 19.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Reranking",
+            "x": 24.0,
+            "y": 66.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Compaction",
+            "x": 24.0,
+            "y": 75.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Memory management",
+            "x": 24.0,
+            "y": 84.0,
+            "w": 17.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-014.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664111.0269892,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Optimizing for accuracy",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/opencv-adaptive",
+        "text": "Optimizingforaccuracy\nTechnique What it involves\nPrompt engineering Write clear and well-structured prompts\nAgent skills Progressive disclosure of information to agents\nQuery optimization Rewrite ordecompose queries forbetterretrievalorgenera\nReranking Reorder retrieved documents by relevance\nCompaction Summarize or remove content from the LLM's context wind\nMemory management Persist.information across sessions",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 549.8
+      },
+      "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Optimizingforaccuracy\nTechnique What it involves\nPrompt engineering Write clear and well-structured prompts\nAgent skills Progressive disclosure of information to agents\nQuery optimization Rewrite ordecompose queries forbetterretrievalorgenera\nReranking Reorder retrieved documents by relevance\nCompaction Summarize or remove content from the LLM's context wind\nMemory management Persist.information across sessions",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Key takeaways\nThink deeply about your product requirements before having AI generate code.\nTreat business and performance constraints as inputs to design, not afterthoughts.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "dark teal with patterned green accents",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Key takeaways",
+            "x": 24.0,
+            "y": 12.0,
+            "w": 24.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Think deeply about your product requirements before having AI generate code.",
+            "x": 23.0,
+            "y": 36.0,
+            "w": 70.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Treat business and performance constraints as inputs to design, not afterthoughts.",
+            "x": 23.0,
+            "y": 50.0,
+            "w": 73.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-015.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664161.6728482,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Key takeaways\nThink deeply about your product requirements before having AI generate code.\nTreat business and performance constraints as inputs to design, not afterthoughts.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/T0HhO4YtTfE/slide-015.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on camera, not a presentation slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "non-slide frame",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple room with neon vertical light",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663640.1251523,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker camera shot, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple-lit studio room",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/T0HhO4YtTfE/slide-016.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664161.6765778,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

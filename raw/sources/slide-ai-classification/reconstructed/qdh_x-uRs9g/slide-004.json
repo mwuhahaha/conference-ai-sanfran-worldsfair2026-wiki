@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "I realised ... I had to learn",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "I realised ... I had to learn",
+        "x": 39.0,
+        "y": 7.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 19.0,
+        "w": 12.0,
+        "h": 20.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 56.0,
+        "y": 81.0,
+        "w": 22.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-004.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670991.4893575,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "I realised ... I had to learn",
+  "advanced_ocr": {}
+}

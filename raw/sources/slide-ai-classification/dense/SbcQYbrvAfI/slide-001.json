@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "where Agents are Breaking In z025\nNo System Instructions Learned: From Environment Very Static Planning No Planning or Missing Tools\nTool Guidance Missing Context / State (Pre Pruned Data) Management\nAarlzo I W't Mahe A yyk. 1202511-2212:35:58",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with multiple small labels and boxed sections; better suited for OCR than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray-white with soft pink/purple gradient glow",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "where Agents are Breaking in 2025",
+        "x": 6.0,
+        "y": 0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "No System Instructions Learned From Environment",
+        "x": 8.0,
+        "y": 11.0,
+        "w": 31.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "No Planning or Very Static Planning",
+        "x": 43.0,
+        "y": 12.0,
+        "w": 26.0,
+        "h": 15.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Missing Tools",
+        "x": 73.0,
+        "y": 12.0,
+        "w": 14.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tool Guidance",
+        "x": 45.0,
+        "y": 47.0,
+        "w": 17.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Missing Context / State Management (Pre Pruned Data)",
+        "x": 71.0,
+        "y": 47.0,
+        "w": 23.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663591.5037327,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "where Agents are Breaking In z025\nNo System Instructions Learned: From Environment Very Static Planning No Planning or Missing Tools\nTool Guidance Missing Context / State (Pre Pruned Data) Management\nAarlzo I W't Mahe A yyk. 1202511-2212:35:58",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 382.6
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "where Agents are Breaking In z025\nNo System Instructions Learned: From Environment Very Static Planning No Planning or Missing Tools\nTool Guidance Missing Context / State (Pre Pruned Data) Management\nAarlzo I W't Mahe A yyk. 1202511-2212:35:58",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

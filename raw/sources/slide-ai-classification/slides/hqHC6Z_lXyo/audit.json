@@ -1,0 +1,960 @@
+{
+  "video_id": "hqHC6Z_lXyo",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 10,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Method 1: Check Public Leaderboards\nUse-case: Find the most performant image editing AI model\n- Step 1: Find a leaderboard\n- Step 2: Select the top ranked model",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "large title and bullets are directly readable",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark purple/black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 13.0,
+            "h": 22.0
+          },
+          {
+            "role": "title",
+            "text": "Method 1: Check Public Leaderboards",
+            "x": 27.0,
+            "y": 8.0,
+            "w": 45.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Use-case: Find the most performant image editing AI model",
+            "x": 28.0,
+            "y": 19.0,
+            "w": 50.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "- Step 1: Find a leaderboard\n- Step 2: Select the top ranked model",
+            "x": 29.0,
+            "y": 31.0,
+            "w": 38.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Design Arena",
+            "x": 74.0,
+            "y": 58.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer Europe",
+            "x": 56.0,
+            "y": 86.0,
+            "w": 24.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668455.8129559,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Method 1: Check Public Leaderboards\nUse-case: Find the most performant image editing AI model\n- Step 1: Find a leaderboard\n- Step 2: Select the top ranked model",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Problem 1: Each public leaderboard has a different ranking\nAIE\n(LM)Arena Design Arena Artificial Analysis\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "small leaderboard screenshots and labels are better handled by OCR",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark purple/black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Problem 1: Each public leaderboard has a different ranking",
+            "x": 28.0,
+            "y": 8.0,
+            "w": 54.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 13.0,
+            "h": 22.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(LM)Arena",
+            "x": 31.0,
+            "y": 57.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Design Arena",
+            "x": 55.0,
+            "y": 57.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Artificial Analysis",
+            "x": 79.0,
+            "y": 57.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 42.0,
+            "y": 85.0,
+            "w": 34.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668455.8179517,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Problem 1: Each public leaderboard has a different ranking\nAIE\n(LM)Arena Design Arena Artificial Analysis\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 235.32
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Problem 1: Each public leaderboard has a different ranking\nAIE\n(LM)Arena Design Arena Artificial Analysis\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Problem 3:Leaderboard are not statistically significant for one use case\nArtificial Analysis ranking w! number of samples Win rate on (LM)Arena Win rate on Design Arena\nAlEngineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "chart text and small labels are better handled by OCR",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark purple/black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Problem 3: Leaderboard are not statistically significant for one use case",
+            "x": 27.0,
+            "y": 8.0,
+            "w": 58.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 13.0,
+            "h": 22.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Artificial Analysis ranking w/ number of samples",
+            "x": 30.0,
+            "y": 58.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Win rate on (LM)Arena",
+            "x": 58.0,
+            "y": 58.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Win rate on Design Arena",
+            "x": 77.0,
+            "y": 58.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer Europe",
+            "x": 56.0,
+            "y": 85.0,
+            "w": 24.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668494.1331525,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/opencv-adaptive",
+        "text": "Problem 3:Leaderboard are not statistically significant for one use case\nArtificial Analysis ranking w! number of samples Win rate on (LM)Arena Win rate on Design Arena\nAlEngineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 320.48
+      },
+      "ocr_source": "rapidocr-live/right-72/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Problem 3:Leaderboard are not statistically significant for one use case\nArtificial Analysis ranking w! number of samples Win rate on (LM)Arena Win rate on Design Arena\nAlEngineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Method 2: Perform Internal Evaluation\nUse-case: Find the most performant image editing AI model\n- Step 1.a: Manual inspection",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "title, subtitle, and bullet are directly readable",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "dark purple/black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 13.0,
+            "h": 22.0
+          },
+          {
+            "role": "title",
+            "text": "Method 2: Perform Internal Evaluation",
+            "x": 28.0,
+            "y": 8.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Use-case: Find the most performant image editing AI model",
+            "x": 28.0,
+            "y": 19.0,
+            "w": 50.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "- Step 1.a: Manual inspection",
+            "x": 29.0,
+            "y": 29.0,
+            "w": 25.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Prompt 1 - Model A",
+            "x": 31.0,
+            "y": 66.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Prompt 2 - Model B",
+            "x": 45.0,
+            "y": 66.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Prompt 3 - Model C",
+            "x": 58.0,
+            "y": 66.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 52.0,
+            "y": 85.0,
+            "w": 24.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668513.8653402,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Method 2: Perform Internal Evaluation\nUse-case: Find the most performant image editing AI model\n- Step 1.a: Manual inspection",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.89,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Problem 5: Benchmark results are not consistent",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense chart labels and small benchmark graphics are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#130914",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Problem 5: Benchmark results are not consistent",
+            "x": 28.0,
+            "y": 7.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "three small bar-chart panels inside a red outline",
+            "x": 40.0,
+            "y": 20.0,
+            "w": 46.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668630.8851907,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Problem 5: Benchmark results are not consistent",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/opencv-adaptive",
+        "best_score": 125.96,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Problem 5: Benchmark results are not consistent\nAIE\nMisaligned with target Benchmarkranking change Smal/largevariations Checkmeaningsofmetrics Use multiple metrics\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multiple charts plus small bullet text make OCR the cheaper and more accurate path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#130914",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Problem 5: Benchmark results are not consistent",
+            "x": 28.0,
+            "y": 7.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "top red-boxed bar charts and bottom green-boxed bar charts",
+            "x": 39.0,
+            "y": 20.0,
+            "w": 48.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "Small/large variations",
+            "x": 34.0,
+            "y": 61.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Misaligned with target",
+            "x": 34.0,
+            "y": 66.0,
+            "w": 20.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Benchmark ranking change",
+            "x": 34.0,
+            "y": 71.0,
+            "w": 22.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Check meanings of metrics",
+            "x": 73.0,
+            "y": 63.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Use multiple metrics",
+            "x": 76.0,
+            "y": 69.0,
+            "w": 18.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668661.6508083,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Problem 5: Benchmark results are not consistent",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Problem 5: Benchmark results are not consistent\nAIE\nMisaligned with target Benchmarkranking change Smal/largevariations Checkmeaningsofmetrics Use multiple metrics\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 272.04
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Problem 5: Benchmark results are not consistent\nAIE\nMisaligned with target Benchmarkranking change Smal/largevariations Checkmeaningsofmetrics Use multiple metrics\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What Model is State-of-the-Art?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Scatter plots and small axis labels are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#130914",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What Model is State-of-the-Art?",
+            "x": 28.0,
+            "y": 6.0,
+            "w": 41.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "There are multiple SOTA AI models",
+            "x": 29.0,
+            "y": 17.0,
+            "w": 32.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "two scatter plots comparing quality vs time and quality vs price",
+            "x": 28.0,
+            "y": 26.0,
+            "w": 64.0,
+            "h": 40.0
+          },
+          {
+            "role": "caption",
+            "text": "Efficiency metric",
+            "x": 46.0,
+            "y": 69.0,
+            "w": 17.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 42.0,
+            "y": 87.0,
+            "w": 24.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668705.6066625,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What Model is State-of-the-Art?",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/contrast",
+        "best_score": 281.68,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0117
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What Model is State-of-the-Art?\nThere are multiple SOTA Al models\nAIE Long Text Bench OeelGTertRenderieg\n0:20\n0.85\n0.03\n0.73\n0.65 0.63\n0.50 0.00\n0.55 0.55\nMedin inference Time Mesinn IeterenceTime\nAI Engineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "The benchmark scatter plots and annotations are small enough that OCR will likely outperform manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#130914",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What Model is State-of-the-Art?",
+            "x": 28.0,
+            "y": 6.0,
+            "w": 41.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "There are multiple SOTA AI models",
+            "x": 29.0,
+            "y": 17.0,
+            "w": 32.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "two dark scatter plots with use-case annotations",
+            "x": 40.0,
+            "y": 25.0,
+            "w": 48.0,
+            "h": 42.0
+          },
+          {
+            "role": "caption",
+            "text": "Target use case",
+            "x": 75.0,
+            "y": 12.0,
+            "w": 16.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668754.2778964,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "What Model is State-of-the-Art?",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "What Model is State-of-the-Art?\nThere are multiple SOTA Al models\nAIE Long Text Bench OeelGTertRenderieg\n0:20\n0.85\n0.03\n0.73\n0.65 0.63\n0.50 0.00\n0.55 0.55\nMedin inference Time Mesinn IeterenceTime\nAI Engineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 313.68
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "What Model is State-of-the-Art?\nThere are multiple SOTA Al models\nAIE Long Text Bench OeelGTertRenderieg\n0:20\n0.85\n0.03\n0.73\n0.65 0.63\n0.50 0.00\n0.55 0.55\nMedin inference Time Mesinn IeterenceTime\nAI Engineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "How To Reach SOTA Performance?\nOption 1:Use optimized Performance models\nAIE\nVideoEnipoints ImageEndpoints Text Endpoints AudioEndpoints\nBopioote Koyed aws Runware Segmind WIRO\nEngineering the future of Al\nneer",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Endpoint cards and small brand/logo text are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#130914",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How To Reach SOTA Performance?",
+            "x": 28.0,
+            "y": 6.0,
+            "w": 46.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Option 1: Use optimized Performance models",
+            "x": 31.0,
+            "y": 15.0,
+            "w": 42.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "four endpoint cards for video, image, text, and audio",
+            "x": 36.0,
+            "y": 22.0,
+            "w": 48.0,
+            "h": 22.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 15.0,
+            "w": 14.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668800.2958548,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "How To Reach SOTA Performance?",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "How To Reach SOTA Performance?\nOption 1:Use optimized Performance models\nAIE\nVideoEnipoints ImageEndpoints Text Endpoints AudioEndpoints\nBopioote Koyed aws Runware Segmind WIRO\nEngineering the future of Al\nneer",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 351.6
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "How To Reach SOTA Performance?\nOption 1:Use optimized Performance models\nAIE\nVideoEnipoints ImageEndpoints Text Endpoints AudioEndpoints\nBopioote Koyed aws Runware Segmind WIRO\nEngineering the future of Al\nneer",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "How To Reach SOTA Performance?\nOption 1: Use optimized Performance models\nAIE\nVideoEndpoints Image Endpoints Text Endpoints AudioEndpoints\nWeplicoto Koyeb aws Runware Segmnd WIRO\nOption 2: Develop and apply inference optimization\nPrunoAI\nAI EfficiencyPackage AlEfficiencyMaterials AI Efficiency Courses\naRaihub.comPnnaAwcoun\nAI Engineer\nJUUU",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "This slide has multiple small cards, labels, and links that are best left for OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#130914",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How To Reach SOTA Performance?",
+            "x": 28.0,
+            "y": 6.0,
+            "w": 46.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Option 1: Use optimized Performance models",
+            "x": 31.0,
+            "y": 15.0,
+            "w": 42.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Option 2: Develop and apply inference optimization",
+            "x": 31.0,
+            "y": 41.0,
+            "w": 49.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "three resource cards for package, materials, and courses",
+            "x": 35.0,
+            "y": 50.0,
+            "w": 55.0,
+            "h": 25.0
+          },
+          {
+            "role": "caption",
+            "text": "AI Efficiency Package",
+            "x": 37.0,
+            "y": 60.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "AI Efficiency Materials",
+            "x": 58.0,
+            "y": 60.0,
+            "w": 17.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "AI Efficiency Courses",
+            "x": 79.0,
+            "y": 60.0,
+            "w": 14.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668825.6551814,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "How To Reach SOTA Performance?",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "How To Reach SOTA Performance?\nOption 1: Use optimized Performance models\nAIE\nVideoEndpoints Image Endpoints Text Endpoints AudioEndpoints\nWeplicoto Koyeb aws Runware Segmnd WIRO\nOption 2: Develop and apply inference optimization\nPrunoAI\nAI EfficiencyPackage AlEfficiencyMaterials AI Efficiency Courses\naRaihub.comPnnaAwcoun\nAI Engineer\nJUUU",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 490.28
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "How To Reach SOTA Performance?\nOption 1: Use optimized Performance models\nAIE\nVideoEndpoints Image Endpoints Text Endpoints AudioEndpoints\nWeplicoto Koyeb aws Runware Segmnd WIRO\nOption 2: Develop and apply inference optimization\nPrunoAI\nAI EfficiencyPackage AlEfficiencyMaterials AI Efficiency Courses\naRaihub.comPnnaAwcoun\nAI Engineer\nJUUU",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hqHC6Z_lXyo/slide-012.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "camera shot of speaker on stage with projected slide; not a clean slide frame",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "stage shot, not a slide capture",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark auditorium with white projection screen",
+        "style": "other",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Pruna AI",
+            "x": 39.0,
+            "y": 24.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What AI Model is State-of-the-Art?",
+            "x": 39.0,
+            "y": 36.0,
+            "w": 24.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668455.8079224,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.96,
+      "frame_type": "title_card",
+      "reject_reason": "title slide only; no substantive content",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "title card only; no dense body text",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 13.0,
+            "h": 24.0
+          },
+          {
+            "role": "title",
+            "text": "What Model is State-of-the-Art?",
+            "x": 40.0,
+            "y": 10.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 50.0,
+            "y": 83.0,
+            "w": 22.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hqHC6Z_lXyo/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668455.8119037,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

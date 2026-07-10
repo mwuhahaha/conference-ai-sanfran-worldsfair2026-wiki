@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.91,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "ACM Conference on AI and Agentic Systems\nRegistration has reached capacity. Join the waitlist.\nBuilding the Future of Agentic & AI Systems\nACM CAIS 2026 - The premier venue for rigorous, reproducible research on compound AI architectures, optimization, and deployment.\nSan Jose, California\nWorkshops & Tutorials - Tue, May 26\nMain Conference - Wed, May 27-29\nRegistration is open\nJoin Waitlist\nDoubleTree by Hilton San Jose\n2050 Gateway Plz, San Jose, CA 95110\nGroup Rate: $179/night + tax\nBook now\nKeynote Speakers",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense website screenshot with small text and multiple UI regions.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(#f0f0ee,#e7e5df)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "ACM Conference on AI and Agentic Systems",
+        "x": 34.0,
+        "y": 17.0,
+        "w": 42.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "Building the Future of Agentic & AI Systems",
+        "x": 34.0,
+        "y": 39.0,
+        "w": 43.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656157.6274328,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Cneaalyles-Ybx-EgroerWdfa202x 6thngsabotAE2026-C +\n个?\nFte\nQ eofnppog Wsnetlon\nSide Trenaition\nNore\nACMConference on Aland AgenticSystems WNtsAOv CusPpgreeheeCoesileeCelr·RegstratenSoro Otiect Aninatices\nyay\nBuilding the Future of Agentic &Al Systems\nAu CNs2e-Thermereorrgorosreprodvoblechoncomoounarchtectures.comitond depioyert\n2. n Leye+ Eeje Sn Jo,Caos\nMainCoelermceWho-FMay 27-29\nYJoh Watet BCe sbkree\n11\nBOoutleTene ty Hisen SnJor Croug areSsa\n2050-Grny Fa,en Ja,CA 0\nKoynote Spoakers\nCicktoadtspeaiarnoLAG",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 525.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "ACM Conference on AI and Agentic Systems\nRegistration has reached capacity. Join the waitlist.\nBuilding the Future of Agentic & AI Systems\nACM CAIS 2026 - The premier venue for rigorous, reproducible research on compound AI architectures, optimization, and deployment.\nSan Jose, California\nWorkshops & Tutorials - Tue, May 26\nMain Conference - Wed, May 27-29\nRegistration is open\nJoin Waitlist\nDoubleTree by Hilton San Jose\n2050 Gateway Plz, San Jose, CA 95110\nGroup Rate: $179/night + tax\nBook now\nKeynote Speakers",
+    "text_status": "meaningful",
+    "corrections": "Corrected the clear title, banner, dates, venue, and rate text; ignored UI chrome and illegible side-panel clutter."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "LET'S CONNECT\nThank You\nScan either code to connect with us on LinkedIn\nAnkush Rastogi\nSohail Shaikh",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "solid deep blue",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "LET'S CONNECT",
+        "x": 34.0,
+        "y": 10.0,
+        "w": 32.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Thank You",
+        "x": 31.0,
+        "y": 16.0,
+        "w": 38.0,
+        "h": 13.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Scan either code to connect with us on LinkedIn",
+        "x": 25.0,
+        "y": 27.0,
+        "w": 50.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Ankush Rastogi",
+        "x": 18.0,
+        "y": 63.0,
+        "w": 25.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Senior Data Solutions Engineer · Prosodica LLC",
+        "x": 13.0,
+        "y": 72.0,
+        "w": 35.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Sohail Shaikh",
+        "x": 55.0,
+        "y": 63.0,
+        "w": 25.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Data Scientist · Prosodica LLC",
+        "x": 53.0,
+        "y": 72.0,
+        "w": 31.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/vh2VGuQ3zhY/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672636.7166545,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "LET'S CONNECT\nThank You\nScan either code to connect with us on LinkedIn\nAnkush Rastogi\nSohail Shaikh",
+  "advanced_ocr": {}
+}

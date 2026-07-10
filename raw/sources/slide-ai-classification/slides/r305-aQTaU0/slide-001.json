@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.95,
+  "frame_type": "title_card",
+  "reject_reason": "speaker intro/title card over stage shot",
+  "text": "Text Diffusion",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "speaker intro/title card; OCR not needed",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "dark photo",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Text Diffusion",
+        "x": 36.0,
+        "y": 14.0,
+        "w": 28.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/r305-aQTaU0/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670975.8886116,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Text Diffusion",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,135 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Centered quest/issue panel with dense small text and monospace-like UI; OCR will be more reliable than manual transcription here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "very dark scene with a centered metallic quest panel",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "QUESTS",
+        "x": 34.0,
+        "y": 10.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "CAMPAIGN",
+        "x": 43.0,
+        "y": 10.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "TRACES",
+        "x": 55.0,
+        "y": 10.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "ANALYTICS",
+        "x": 64.0,
+        "y": 10.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "MEMORY",
+        "x": 76.0,
+        "y": 10.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "SCAN RECENT CHANGES",
+        "x": 35.0,
+        "y": 20.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "ANALYZE PROJECT",
+        "x": 53.0,
+        "y": 20.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "FORTIFICATION",
+        "x": 35.0,
+        "y": 34.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "ENVIRONMENT & API PAYLOAD VALIDATION WITH ...",
+        "x": 36.0,
+        "y": 47.0,
+        "w": 36.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "WEBSOCKET EVENT RATE LIMITING",
+        "x": 36.0,
+        "y": 63.0,
+        "w": 26.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "ACCEPT QUEST",
+        "x": 53.0,
+        "y": 53.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "ACCEPT QUEST",
+        "x": 53.0,
+        "y": 70.0,
+        "w": 15.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-012.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669977.8716893,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/right-72/contrast",
+    "best_score": 422.48,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

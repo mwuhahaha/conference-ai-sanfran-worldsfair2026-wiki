@@ -1,0 +1,104 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Four dense text panels with small body copy.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "solid deep purple",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Practical Deployment Considerations",
+        "x": 5.0,
+        "y": 7.0,
+        "w": 60.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Data Integration",
+        "x": 7.0,
+        "y": 18.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "The framework requires structured connectors to payroll, ERP, procurement, and tax systems. Existing data pipelines can be leveraged where schema normalization is feasible.",
+        "x": 7.0,
+        "y": 26.0,
+        "w": 41.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "Jurisdictional Configuration",
+        "x": 52.0,
+        "y": 18.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "The normalization layer must be parameterized for each operating jurisdiction. Regulatory rule sets and currency references require periodic maintenance.",
+        "x": 52.0,
+        "y": 26.0,
+        "w": 39.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "Audit Team Alignment",
+        "x": 7.0,
+        "y": 56.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Investigator workflows should be redesigned to consume risk-scored outputs rather than raw document queues. Training reduces time-to-value significantly.",
+        "x": 7.0,
+        "y": 64.0,
+        "w": 40.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Scalability",
+        "x": 52.0,
+        "y": 56.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Graph computation and probabilistic scoring are horizontally scalable. Evaluation across 3 million records confirms suitability for large enterprise environments.",
+        "x": 52.0,
+        "y": 64.0,
+        "w": 40.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/Iwe_RY-fYgI/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659731.6675892,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

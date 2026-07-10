@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Match the display to the job. Keep the model off the metal. Track narrative, not numbers.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "dark browser-window screenshot over blue-green gradient",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Match the display to the job. Keep the model off the metal. Track narrative, not numbers.",
+        "x": 10.0,
+        "y": 17.0,
+        "w": 42.0,
+        "h": 40.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/akk6KRlcwW4/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666331.9457037,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Match the display to the job. Keep the model off the metal. Track narrative, not numbers.",
+  "advanced_ocr": {}
+}

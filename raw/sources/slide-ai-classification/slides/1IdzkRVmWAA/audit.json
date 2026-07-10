@@ -1,0 +1,356 @@
+{
+  "video_id": "1IdzkRVmWAA",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 4,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "diagram slide with small labels and axis text",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#000000",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Mixedbread",
+            "x": 6.0,
+            "y": 22.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer",
+            "x": 62.0,
+            "y": 22.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Reasoning",
+            "x": 50.0,
+            "y": 27.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Search",
+            "x": 34.0,
+            "y": 56.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Knowledge gap",
+            "x": 51.0,
+            "y": 53.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "CAPABILITIES",
+            "x": 18.0,
+            "y": 44.0,
+            "w": 8.0,
+            "h": 16.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "TIME",
+            "x": 34.0,
+            "y": 77.0,
+            "w": 6.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/1IdzkRVmWAA/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657147.4835608,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/1IdzkRVmWAA/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense quote and bullet text",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Mixedbread",
+            "x": 6.0,
+            "y": 22.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer",
+            "x": 62.0,
+            "y": 22.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "\"Senator woman questions billionaires not at company then ok thank you staff will check hearing\"",
+            "x": 6.0,
+            "y": 34.0,
+            "w": 42.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/1IdzkRVmWAA/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657147.485107,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/1IdzkRVmWAA/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agent trajectories - timeline",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "timeline graphic with small table text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#000000",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Agent trajectories - timeline",
+            "x": 24.0,
+            "y": 12.0,
+            "w": 35.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agentic Search Trace",
+            "x": 9.0,
+            "y": 27.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "waterfall timeline of tool calls",
+            "x": 10.0,
+            "y": 31.0,
+            "w": 30.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/1IdzkRVmWAA/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657147.4892032,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agent trajectories - timeline",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/1IdzkRVmWAA/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agent trajectories - tool calls",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "tool-call table and nested UI text are small",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#000000",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Agent trajectories - tool calls",
+            "x": 25.0,
+            "y": 12.0,
+            "w": 36.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "Fast Searcher Iteration 1",
+            "x": 27.0,
+            "y": 36.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "prompt and initial search results",
+            "x": 39.0,
+            "y": 30.0,
+            "w": 18.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/1IdzkRVmWAA/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657147.4903927,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agent trajectories - tool calls",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/1IdzkRVmWAA/slide-005.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "title_card",
+      "reject_reason": "speaker intro card with headshots and names",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "speaker intro card, not a content slide",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Mixedbread",
+            "x": 6.0,
+            "y": 22.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer",
+            "x": 63.0,
+            "y": 22.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Hanna Lichtenberg",
+            "x": 18.0,
+            "y": 57.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Aamir Shakir",
+            "x": 47.0,
+            "y": 57.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "How we taught agents to use good retrieval",
+            "x": 26.0,
+            "y": 84.0,
+            "w": 31.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/1IdzkRVmWAA/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657147.4755075,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

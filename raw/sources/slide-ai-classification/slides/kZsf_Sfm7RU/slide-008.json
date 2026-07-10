@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AGENT O1·LOG-MONITOR\nwhat t con read rnonitor agent\nsioy wenpod DETICT Rhte os yorebas\nhpet njecires codelase ASALYZE corerepo red cole Pull rervest\nDntains redu) Troves DecrDe does thevserend stuet? deureton eilente meroa He labes\nFEX intemto penRe\nslackalert\nseventy",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AGENT 01 - LOG-MONITOR",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "What it can read",
+        "x": 16.0,
+        "y": 20.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Production logs\nAgent trajectories\nCodebase\nDatabase snapshots\nTraces",
+        "x": 15.0,
+        "y": 25.0,
+        "w": 13.0,
+        "h": 29.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "log-monitor agent",
+        "x": 42.0,
+        "y": 20.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "DETECT",
+        "x": 34.0,
+        "y": 28.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ANALYZE",
+        "x": 34.0,
+        "y": 41.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "DECIDE",
+        "x": 34.0,
+        "y": 54.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "FIX",
+        "x": 34.0,
+        "y": 67.0,
+        "w": 4.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Pull request\nsummary\nmanual fix\nevidence\nlabels",
+        "x": 74.0,
+        "y": 30.0,
+        "w": 16.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Slack alert\nseverity\nPR link",
+        "x": 74.0,
+        "y": 69.0,
+        "w": 16.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669663.8729763,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "AGENT 01 - LOG-MONITOR",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "AGENT O1·LOG-MONITOR\nwhat t con read rnonitor agent\nsioy wenpod DETICT Rhte os yorebas\nhpet njecires codelase ASALYZE corerepo red cole Pull rervest\nDntains redu) Troves DecrDe does thevserend stuet? deureton eilente meroa He labes\nFEX intemto penRe\nslackalert\nseventy",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 491.88
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "AGENT O1·LOG-MONITOR\nwhat t con read rnonitor agent\nsioy wenpod DETICT Rhte os yorebas\nhpet njecires codelase ASALYZE corerepo red cole Pull rervest\nDntains redu) Troves DecrDe does thevserend stuet? deureton eilente meroa He labes\nFEX intemto penRe\nslackalert\nseventy",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

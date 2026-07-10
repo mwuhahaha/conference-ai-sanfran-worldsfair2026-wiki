@@ -1,0 +1,2157 @@
+{
+  "video_id": "TqC1qOfiVcQ",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 24,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Building effective agents\n2/ Tools Harness\nyour systems - add your custom APis, MC servers,and file Connect Claude to system operations File System Tools Custom MCP\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "diagram slide with multiple small labels and box text",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "warm off-white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Building effective agents",
+            "x": 3.0,
+            "y": 2.0,
+            "w": 30.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "2/ Tools",
+            "x": 3.0,
+            "y": 24.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Connect Claude to your systems - add your custom APIs, MCP servers, and file system operations",
+            "x": 3.0,
+            "y": 35.0,
+            "w": 29.0,
+            "h": 22.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Harness",
+            "x": 64.0,
+            "y": 14.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tools",
+            "x": 43.0,
+            "y": 30.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MCP",
+            "x": 45.0,
+            "y": 40.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Custom",
+            "x": 44.0,
+            "y": 46.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "File System",
+            "x": 43.0,
+            "y": 52.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Models",
+            "x": 65.0,
+            "y": 66.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Claude Haiku",
+            "x": 36.0,
+            "y": 73.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Claude Sonnet",
+            "x": 55.0,
+            "y": 73.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Claude Opus",
+            "x": 74.0,
+            "y": 73.0,
+            "w": 16.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664311.087641,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Building effective agents",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Building effective agents\n2/ Tools Harness\nyour systems - add your custom APis, MC servers,and file Connect Claude to system operations File System Tools Custom MCP\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 549.68
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Building effective agents\n2/ Tools Harness\nyour systems - add your custom APis, MC servers,and file Connect Claude to system operations File System Tools Custom MCP\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Building effective agents\n5/ File System Harness\nGive Claudea\njust-in-time code, to pass files, write and learnfrom persistentworkspace exampleoutputs File System Tools Custom MCP Prompts Core Agent Workflows Custom File System Process Files ExOutput rrCode\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "diagram slide with multiple small labels and box text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Building effective agents",
+            "x": 3.0,
+            "y": 2.0,
+            "w": 30.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "5/ File System",
+            "x": 3.0,
+            "y": 24.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Give Claude a persistent workspace to pass files, write just-in-time code, and learn from example outputs",
+            "x": 3.0,
+            "y": 35.0,
+            "w": 29.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Harness",
+            "x": 64.0,
+            "y": 14.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tools",
+            "x": 38.0,
+            "y": 30.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Prompts",
+            "x": 53.0,
+            "y": 30.0,
+            "w": 13.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "File System",
+            "x": 68.0,
+            "y": 30.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MCP",
+            "x": 41.0,
+            "y": 40.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Custom",
+            "x": 41.0,
+            "y": 46.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "File System",
+            "x": 41.0,
+            "y": 52.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Core Agent",
+            "x": 56.0,
+            "y": 40.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Workflows",
+            "x": 56.0,
+            "y": 52.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Process Files",
+            "x": 71.0,
+            "y": 40.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "JIT Code",
+            "x": 72.0,
+            "y": 46.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Ex Output",
+            "x": 72.0,
+            "y": 52.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Models",
+            "x": 65.0,
+            "y": 66.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Claude Haiku",
+            "x": 36.0,
+            "y": 73.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Claude Sonnet",
+            "x": 55.0,
+            "y": 73.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Claude Opus",
+            "x": 74.0,
+            "y": 73.0,
+            "w": 16.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664341.1832747,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Building effective agents",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Building effective agents\n5/ File System Harness\nGive Claudea\njust-in-time code, to pass files, write and learnfrom persistentworkspace exampleoutputs File System Tools Custom MCP Prompts Core Agent Workflows Custom File System Process Files ExOutput rrCode\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 672.64
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Building effective agents\n5/ File System Harness\nGive Claudea\njust-in-time code, to pass files, write and learnfrom persistentworkspace exampleoutputs File System Tools Custom MCP Prompts Core Agent Workflows Custom File System Process Files ExOutput rrCode\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Building effective agents Your Application\nClaude Agent SDK\n9/ Application Harness\nFocus on your unique product value - build the user that differentiate your experience and domain workflows File System Tools Custom MCP Prompts SKILLS Core Agent Workflows Custom File System Process Files Ex Output JITCode Auto Compacting Enhancements ResearchMode Web Search Subagents Memory Hooks\nModels\nFastest withnear-frontier intelligence Claude Haiku Smartest forcomplex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "architecture slide with many small labels and layered boxes",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Building effective agents",
+            "x": 3.0,
+            "y": 2.0,
+            "w": 30.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "9/ Application",
+            "x": 3.0,
+            "y": 24.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Focus on your unique value - build the user experience and domain workflows that differentiate your product",
+            "x": 3.0,
+            "y": 35.0,
+            "w": 30.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Your Application",
+            "x": 34.0,
+            "y": 2.0,
+            "w": 60.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Claude Agent SDK",
+            "x": 34.0,
+            "y": 11.0,
+            "w": 60.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Harness",
+            "x": 64.0,
+            "y": 16.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SKILLS",
+            "x": 49.0,
+            "y": 18.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tools",
+            "x": 38.0,
+            "y": 32.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Prompts",
+            "x": 53.0,
+            "y": 32.0,
+            "w": 13.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "File System",
+            "x": 68.0,
+            "y": 32.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MCP",
+            "x": 41.0,
+            "y": 42.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Custom",
+            "x": 41.0,
+            "y": 48.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "File System",
+            "x": 41.0,
+            "y": 54.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Core Agent",
+            "x": 56.0,
+            "y": 42.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Workflows",
+            "x": 56.0,
+            "y": 54.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Process Files",
+            "x": 71.0,
+            "y": 42.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "JIT Code",
+            "x": 72.0,
+            "y": 48.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Ex Output",
+            "x": 72.0,
+            "y": 54.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Enhancements",
+            "x": 84.0,
+            "y": 18.0,
+            "w": 11.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Subagents",
+            "x": 84.0,
+            "y": 24.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Web Search",
+            "x": 84.0,
+            "y": 30.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Research Mode",
+            "x": 84.0,
+            "y": 36.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Auto Compacting",
+            "x": 84.0,
+            "y": 42.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Hooks",
+            "x": 84.0,
+            "y": 48.0,
+            "w": 8.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664371.5139134,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Building effective agents",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Building effective agents Your Application\nClaude Agent SDK\n9/ Application Harness\nFocus on your unique product value - build the user that differentiate your experience and domain workflows File System Tools Custom MCP Prompts SKILLS Core Agent Workflows Custom File System Process Files Ex Output JITCode Auto Compacting Enhancements ResearchMode Web Search Subagents Memory Hooks\nModels\nFastest withnear-frontier intelligence Claude Haiku Smartest forcomplex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 853.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Building effective agents Your Application\nClaude Agent SDK\n9/ Application Harness\nFocus on your unique product value - build the user that differentiate your experience and domain workflows File System Tools Custom MCP Prompts SKILLS Core Agent Workflows Custom File System Process Files Ex Output JITCode Auto Compacting Enhancements ResearchMode Web Search Subagents Memory Hooks\nModels\nFastest withnear-frontier intelligence Claude Haiku Smartest forcomplex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why use the Claude Agent SDK?\n- We realized people were using Claude Code for non-coding tasks.\n- We build our agents on top of our Agent SDK.\n- It is built on top of lessons we’ve learned deploying Claude Code to millions of users.\n- We have strong opinions on the best way to build agents.\n- One of our biggest learnings: the Bash tool is the most powerful agent tool.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why use the Claude Agent SDK?",
+            "x": 5.0,
+            "y": 4.0,
+            "w": 70.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "We realized people were using Claude Code for non-coding tasks.",
+            "x": 8.0,
+            "y": 18.0,
+            "w": 70.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "We build our agents on top of our Agent SDK.",
+            "x": 8.0,
+            "y": 28.0,
+            "w": 62.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "It is built on top of lessons we’ve learned deploying Claude Code to millions of users.",
+            "x": 8.0,
+            "y": 38.0,
+            "w": 84.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "We have strong opinions on the best way to build agents.",
+            "x": 8.0,
+            "y": 50.0,
+            "w": 66.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "One of our biggest learnings: the Bash tool is the most powerful agent tool.",
+            "x": 8.0,
+            "y": 60.0,
+            "w": 80.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "ANTHROPIC",
+            "x": 5.0,
+            "y": 93.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "CONFIDENTIAL",
+            "x": 78.0,
+            "y": 93.0,
+            "w": 14.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664441.9045532,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why use the Claude Agent SDK?\n- We realized people were using Claude Code for non-coding tasks.\n- We build our agents on top of our Agent SDK.\n- It is built on top of lessons we’ve learned deploying Claude Code to millions of users.\n- We have strong opinions on the best way to build agents.\n- One of our biggest learnings: the Bash tool is the most powerful agent tool.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Agent SDK is the best way to build agents in the “Anthropic Way”\n- Unix Primitives: Every agent should use bash [1] & a file system [2] (e.g. skills & memory)\n- Agents > Workflows: Agents build their own context + decide what to do with tools.\n- Code Generation for non-coding: We use code gen to generate docs, query the web, etc.\n- Every agent has a container.\nMore on this here.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The Agent SDK is the best way to build agents in the “Anthropic Way”",
+            "x": 5.0,
+            "y": 4.0,
+            "w": 90.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Unix Primitives: Every agent should use bash [1] & a file system [2] (e.g. skills & memory)",
+            "x": 8.0,
+            "y": 20.0,
+            "w": 86.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Agents > Workflows: Agents build their own context + decide what to do with tools.",
+            "x": 8.0,
+            "y": 32.0,
+            "w": 84.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Code Generation for non-coding: We use code gen to generate docs, query the web, etc.",
+            "x": 8.0,
+            "y": 44.0,
+            "w": 84.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Every agent has a container.",
+            "x": 8.0,
+            "y": 56.0,
+            "w": 40.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "More on this here.",
+            "x": 7.0,
+            "y": 74.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "ANTHROPIC",
+            "x": 5.0,
+            "y": 93.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "CONFIDENTIAL",
+            "x": 78.0,
+            "y": 93.0,
+            "w": 14.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664441.9098222,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Agent SDK is the best way to build agents in the “Anthropic Way”\n- Unix Primitives: Every agent should use bash [1] & a file system [2] (e.g. skills & memory)\n- Agents > Workflows: Agents build their own context + decide what to do with tools.\n- Code Generation for non-coding: We use code gen to generate docs, query the web, etc.\n- Every agent has a container.\nMore on this here.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Bash is all you Need\nBash is what makes Claude Code so good.\nBash is a generic version for “code mode” or programmatic tool calling.\nThe bash tool allows you to:\n- Store the results of tool calls to files, so you can search them.\n- Store memory in files.\n- Dynamically generate scripts and call them.\n- Compose functionality, use unix primitives like tail, grep, cat, etc.\n- Use existing powerful software like ffmpeg, libreoffice, etc.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Bash is all you Need",
+            "x": 5.0,
+            "y": 4.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Bash is what makes Claude Code so good.",
+            "x": 5.0,
+            "y": 20.0,
+            "w": 70.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Bash is a generic version for “code mode” or programmatic tool calling.",
+            "x": 5.0,
+            "y": 29.0,
+            "w": 82.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "The bash tool allows you to:",
+            "x": 5.0,
+            "y": 39.0,
+            "w": 32.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Store the results of tool calls to files, so you can search them.",
+            "x": 8.0,
+            "y": 48.0,
+            "w": 84.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Store memory in files.",
+            "x": 8.0,
+            "y": 56.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Dynamically generate scripts and call them.",
+            "x": 8.0,
+            "y": 64.0,
+            "w": 52.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Compose functionality, use unix primitives like tail, grep, cat, etc.",
+            "x": 8.0,
+            "y": 72.0,
+            "w": 78.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Use existing powerful software like ffmpeg, libreoffice, etc.",
+            "x": 8.0,
+            "y": 80.0,
+            "w": 74.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "ANTHROPIC",
+            "x": 5.0,
+            "y": 93.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "CONFIDENTIAL",
+            "x": 78.0,
+            "y": 93.0,
+            "w": 14.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664441.910722,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Bash is all you Need\nBash is what makes Claude Code so good.\nBash is a generic version for “code mode” or programmatic tool calling.\nThe bash tool allows you to:\n- Store the results of tool calls to files, so you can search them.\n- Store memory in files.\n- Dynamically generate scripts and call them.\n- Compose functionality, use unix primitives like tail, grep, cat, etc.\n- Use existing powerful software like ffmpeg, libreoffice, etc.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Without Bash With Bash\nUser: How much did I spend on ride sharing User: How much did I spend on ride sharing\nthis week? this week?\nTool Call (Gmail Query Search) query: \"uber OR lyft\" \"uber OR lyft\" Tool Call (Bash)::gmail_search.ts query\nmention Uber and Lyft, I need to find the Thinking:I found the following emails that Tool Call (Bash):\nClaude: The total is... (hallucinated) cost ofeachemail. newer_than:7d\"1 gmail_search.ts \"from:(uber.com OR lyft.com OR uber OR lyft) subject:(receipt OR trip) grep-0E\\$[0-9]+1.[0-9]{2}′1\\ awk(sum +=s1} END {printf “Total spenton sed's/\\s//'I\\\nride sharing this week: ss.2f\\n\",sum}",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense comparative slide with small code and multiple text boxes; OCR is better than manual transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#b86f55",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Without Bash",
+            "x": 4.0,
+            "y": 6.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "With Bash",
+            "x": 53.0,
+            "y": 6.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "User: How much did I spend on ride sharing this week?",
+            "x": 6.0,
+            "y": 17.0,
+            "w": 39.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Tool Call (Gmail Query Search) query: \"uber OR lyft\"",
+            "x": 6.0,
+            "y": 31.0,
+            "w": 39.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Thinking: I found the following emails that mention Uber and Lyft, I need to find the cost of each email.",
+            "x": 6.0,
+            "y": 48.0,
+            "w": 39.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "Claude: The total is... (hallucinated)",
+            "x": 6.0,
+            "y": 78.0,
+            "w": 39.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "User: How much did I spend on ride sharing this week?",
+            "x": 56.0,
+            "y": 17.0,
+            "w": 38.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Tool Call (Bash): `gmail_search.ts query \"uber OR lyft\"`",
+            "x": 56.0,
+            "y": 31.0,
+            "w": 38.0,
+            "h": 14.0
+          },
+          {
+            "role": "code",
+            "text": "gmail_search.ts \"from:(uber.com OR lyft.com OR uber OR lyft) subject:(receipt OR trip) newer_than:7d | grep -oE '$[0-9]+\\.[0-9]{2}' | sed 's/^$//' | \\ awk '{sum += $1} END {printf \"Total spent on ride sharing this week: $%.2f\\n\", sum}'",
+            "x": 56.0,
+            "y": 48.0,
+            "w": 38.0,
+            "h": 35.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664494.6308985,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Without Bash With Bash\nUser: How much did I spend on ride sharing User: How much did I spend on ride sharing\nthis week? this week?\nTool Call (Gmail Query Search) query: \"uber OR lyft\" \"uber OR lyft\" Tool Call (Bash)::gmail_search.ts query\nmention Uber and Lyft, I need to find the Thinking:I found the following emails that Tool Call (Bash):\nClaude: The total is... (hallucinated) cost ofeachemail. newer_than:7d\"1 gmail_search.ts \"from:(uber.com OR lyft.com OR uber OR lyft) subject:(receipt OR trip) grep-0E\\$[0-9]+1.[0-9]{2}′1\\ awk(sum +=s1} END {printf “Total spenton sed's/\\s//'I\\\nride sharing this week: ss.2f\\n\",sum}",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 915.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Without Bash With Bash\nUser: How much did I spend on ride sharing User: How much did I spend on ride sharing\nthis week? this week?\nTool Call (Gmail Query Search) query: \"uber OR lyft\" \"uber OR lyft\" Tool Call (Bash)::gmail_search.ts query\nmention Uber and Lyft, I need to find the Thinking:I found the following emails that Tool Call (Bash):\nClaude: The total is... (hallucinated) cost ofeachemail. newer_than:7d\"1 gmail_search.ts \"from:(uber.com OR lyft.com OR uber OR lyft) subject:(receipt OR trip) grep-0E\\$[0-9]+1.[0-9]{2}′1\\ awk(sum +=s1} END {printf “Total spenton sed's/\\s//'I\\\nride sharing this week: ss.2f\\n\",sum}",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Workflows & Agents",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f3f0e7",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Workflows & Agents",
+            "x": 5.0,
+            "y": 4.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "We build both agents and workflows on the Claude agent SDK.",
+            "x": 5.0,
+            "y": 17.0,
+            "w": 88.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "Agents are like Claude Code - You talk to them in natural language and they take action.",
+            "x": 5.0,
+            "y": 40.0,
+            "w": 88.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "Workflows are like our Github action - You define inputs and outputs, e.g. take in a PR and give a code review.",
+            "x": 5.0,
+            "y": 64.0,
+            "w": 88.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664547.3862033,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Workflows & Agents",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Tools vs Bash vs Code Generation",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f6f3ea",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Tools vs Bash vs Code Generation",
+            "x": 5.0,
+            "y": 4.0,
+            "w": 66.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Tools:",
+            "x": 5.0,
+            "y": 16.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Pros: Highly structured, highly reliable",
+            "x": 9.0,
+            "y": 24.0,
+            "w": 51.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Cons: High context usage, not composable",
+            "x": 9.0,
+            "y": 31.0,
+            "w": 54.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Bash:",
+            "x": 5.0,
+            "y": 40.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Pros: Composable, static scripts, low context usage",
+            "x": 9.0,
+            "y": 48.0,
+            "w": 63.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Cons: Longer discovery time, slightly lower call rate",
+            "x": 9.0,
+            "y": 55.0,
+            "w": 63.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Code Gen:",
+            "x": 5.0,
+            "y": 64.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Pros: Highly composable, dynamic scripts",
+            "x": 9.0,
+            "y": 72.0,
+            "w": 52.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Cons: Needs linting & possibly compilation, careful API design",
+            "x": 9.0,
+            "y": 79.0,
+            "w": 68.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664547.3870077,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Tools vs Bash vs Code Generation",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why Skills?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f3f0e7",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why Skills?",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Skills let one agent accomplish longer, more complex tasks without needing Subagents. The agent can use many Skills and read them only when needed.",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 54.0,
+            "h": 19.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 14.0,
+            "y": 36.0,
+            "w": 50.0,
+            "h": 44.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 67.0,
+            "y": 10.0,
+            "w": 28.0,
+            "h": 65.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664547.387962,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why Skills?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What are Skills?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f5f2ea",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What are Skills?",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 35.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "An organized collection of files (instructions, executable code, assets) containing everything Claude needs for a specific task.",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 58.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Skills give an agent:",
+            "x": 4.0,
+            "y": 39.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "1. General capabilities Claude isn't good at out of the box (yet)",
+            "x": 9.0,
+            "y": 47.0,
+            "w": 52.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "2. Knowledge of an organization's workflows and best practices",
+            "x": 9.0,
+            "y": 61.0,
+            "w": 58.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 63.0,
+            "y": 11.0,
+            "w": 29.0,
+            "h": 50.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664547.3886461,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What are Skills?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Gathering Context Take Action",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f2f2f0",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Gathering Context",
+            "x": 10.0,
+            "y": 16.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "Take Action",
+            "x": 39.0,
+            "y": 15.0,
+            "w": 19.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 13.0,
+            "y": 26.0,
+            "w": 13.0,
+            "h": 19.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664547.38935,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Gathering Context Take Action",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Spr\nGathering Context\nTake Action\nVerify Work",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#fbfbf8",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Spr",
+            "x": 29.0,
+            "y": 8.0,
+            "w": 5.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Gathering Context",
+            "x": 11.0,
+            "y": 28.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Take Action",
+            "x": 39.0,
+            "y": 28.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Verify Work",
+            "x": 63.0,
+            "y": 28.0,
+            "w": 18.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664648.6762724,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Spr\nGathering Context\nTake Action\nVerify Work",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Spreadsheet UI screenshot with small grid text and sidebar labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Untitled spreadsheet",
+            "x": 7.0,
+            "y": 3.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Tables",
+            "x": 84.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-014.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664648.7100148,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 409.24,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "An Example of Designing an Agent\nLet’s make a spreadsheet agent.\nWhat is the best way for an agent to search a spreadsheet?\nWhat is the best way to execute a spreadsheet?\nWhat is the best way to lint a spreadsheet?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#faf8f3",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "An Example of Designing an Agent",
+            "x": 28.0,
+            "y": 11.0,
+            "w": 46.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Let’s make a spreadsheet agent.\nWhat is the best way for an agent to search a spreadsheet?\nWhat is the best way to execute a spreadsheet?\nWhat is the best way to lint a spreadsheet?",
+            "x": 28.0,
+            "y": 27.0,
+            "w": 55.0,
+            "h": 24.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-015.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664709.0526555,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "An Example of Designing an Agent\nLet’s make a spreadsheet agent.\nWhat is the best way for an agent to search a spreadsheet?\nWhat is the best way to execute a spreadsheet?\nWhat is the best way to lint a spreadsheet?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Spreadsheet Agent\nTake Action\nVerify Work",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#fbfbf8",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Spreadsheet Agent",
+            "x": 14.0,
+            "y": 8.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Take Action",
+            "x": 39.0,
+            "y": 27.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Verify Work",
+            "x": 65.0,
+            "y": 27.0,
+            "w": 18.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-016.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664709.0533886,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Spreadsheet Agent\nTake Action\nVerify Work",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Spreadsheet Agent\nGathering Context\nTake Action\nsearch(\"B3:B5\")\nsql queries\nxml\ninsert(\"B3:B5\", [[1,3]])\nsql queries\nxml\ncheck for null pointers\nsubagents",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Spreadsheet Agent",
+            "x": 14.0,
+            "y": 9.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Gathering Context",
+            "x": 9.0,
+            "y": 27.0,
+            "w": 25.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Take Action",
+            "x": 39.0,
+            "y": 27.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "search(\"B3:B5\")\nsql queries\nxml",
+            "x": 10.0,
+            "y": 40.0,
+            "w": 24.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "insert(\"B3:B5\", [[1,3]])\nsql queries\nxml",
+            "x": 39.0,
+            "y": 40.0,
+            "w": 24.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "check for null pointers\nsubagents",
+            "x": 64.0,
+            "y": 40.0,
+            "w": 24.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-019.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664832.5215483,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Spreadsheet Agent\nGathering Context\nTake Action\nsearch(\"B3:B5\")\nsql queries\nxml\ninsert(\"B3:B5\", [[1,3]])\nsql queries\nxml\ncheck for null pointers\nsubagents",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Claude Agent SDK Loop\nGather context\nTake action\nVerify work",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "light gray",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Claude Agent SDK Loop",
+            "x": 38.0,
+            "y": 9.0,
+            "w": 26.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Gather context",
+            "x": 39.0,
+            "y": 45.0,
+            "w": 12.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Take action",
+            "x": 53.0,
+            "y": 45.0,
+            "w": 12.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Verify work",
+            "x": 68.0,
+            "y": 45.0,
+            "w": 12.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-020.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664832.5250645,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Claude Agent SDK Loop\nGather context\nTake action\nVerify work",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-020.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Sttrlrg June tBet a mnw GrphO'L Lpochcion l rellng cut, vibtt2. Reud =ore sl CraehaL v1bata2. Tha Permr v1boLt verslen s vumhting and. cheduted to be rmoved. PEKeAFi\nThe RESTful Pokémon APl\nServing ovcr 10 bllion AP1 calls cach month!\ncasily xcessible through a moderm free opensource RESTful APl. O Date analysis tool Al the Poktmon data you'll ever need in one plce.\nCheck out the docs!\nTry it now!\nMtpr/polteploobplt2/pelemordnto\nNetd:hn!Try pohemonditto. poenorpeeVxter npe. abRydxtrwrino,o polurmonlmt-100000ca1e-0\nDtrect Irk to reut: httpspokepixo/aolvZ/pobrmontt1o\nResource for ditto\n31114 AThu1204 THUY ICKEIST ticketmaster BAOOKLTNNIT.COM",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Webpage screenshot with mixed-size text and several small labels; OCR is likely more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark green and red nav bar",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "PokeAPI",
+            "x": 40.0,
+            "y": 11.0,
+            "w": 20.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "The RESTful Pokémon API",
+            "x": 37.0,
+            "y": 29.0,
+            "w": 26.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Serving over 10 billion API calls each month!",
+            "x": 35.0,
+            "y": 36.0,
+            "w": 31.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "All the Pokémon data you'll ever need in one place, easily accessible through a modern free open-source RESTful API.",
+            "x": 28.0,
+            "y": 47.0,
+            "w": 44.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "Try it now!",
+            "x": 43.0,
+            "y": 73.0,
+            "w": 12.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-021.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664832.5265136,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "PokeAPI",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/opencv-adaptive",
+        "text": "Sttrlrg June tBet a mnw GrphO'L Lpochcion l rellng cut, vibtt2. Reud =ore sl CraehaL v1bata2. Tha Permr v1boLt verslen s vumhting and. cheduted to be rmoved. PEKeAFi\nThe RESTful Pokémon APl\nServing ovcr 10 bllion AP1 calls cach month!\ncasily xcessible through a moderm free opensource RESTful APl. O Date analysis tool Al the Poktmon data you'll ever need in one plce.\nCheck out the docs!\nTry it now!\nMtpr/polteploobplt2/pelemordnto\nNetd:hn!Try pohemonditto. poenorpeeVxter npe. abRydxtrwrino,o polurmonlmt-100000ca1e-0\nDtrect Irk to reut: httpspokepixo/aolvZ/pobrmontt1o\nResource for ditto\n31114 AThu1204 THUY ICKEIST ticketmaster BAOOKLTNNIT.COM",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 984.6
+      },
+      "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Sttrlrg June tBet a mnw GrphO'L Lpochcion l rellng cut, vibtt2. Reud =ore sl CraehaL v1bata2. Tha Permr v1boLt verslen s vumhting and. cheduted to be rmoved. PEKeAFi\nThe RESTful Pokémon APl\nServing ovcr 10 bllion AP1 calls cach month!\ncasily xcessible through a moderm free opensource RESTful APl. O Date analysis tool Al the Poktmon data you'll ever need in one plce.\nCheck out the docs!\nTry it now!\nMtpr/polteploobplt2/pelemordnto\nNetd:hn!Try pohemonditto. poenorpeeVxter npe. abRydxtrwrino,o polurmonlmt-100000ca1e-0\nDtrect Irk to reut: httpspokepixo/aolvZ/pobrmontt1o\nResource for ditto\n31114 AThu1204 THUY ICKEIST ticketmaster BAOOKLTNNIT.COM",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-021.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code-editor screenshot with small text and sidebar; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light editor chrome",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "file tree",
+            "x": 0,
+            "y": 0,
+            "w": 28.0,
+            "h": 100
+          },
+          {
+            "role": "code",
+            "text": "TypeScript code editor",
+            "x": 28.0,
+            "y": 0,
+            "w": 72.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-022.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-022.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664877.8351076,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 919.12,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0056
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-022.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": ".cc-prototype xd [TOOL CALL]get_pokemon_species [TOOLINPUN]{ \"nane_or_id\": \"quagsire\"\nC data gm/cus [TOOL RESULT] SuCCeSS\nCounoln\nCr tersts oseyed(） ①RSAOME m （）tcorngon vds gagoe ben Jock WSMOGON_AP1.mN CLAUOEMO 2.Croconaw(Water) 8.Wooper (Water/Ground) Basedon the data,here are all theWater-type Pokemon introduced in Generation 2: 4.Chinchou(Water/Electric) 7.Azurarill (Water/Fairy) 9.Quagsire (Water/Ground) 1.Totodile (Water) 3.Feraligatr (Water) 5.lanturn (Water/Electric) 6.Marill (Water/Fairy)\ntr Pchatts tocbs mO.11 pokomon.1 Note:Marill and Azumarill were originally pure Water-type in Generation 2,but gained the Fairy-type wher eir types. These Pokemon represent the full set of new Water-type Pokemon introduced in Generation 2,including both\n（）ps(kagejon ①README Ime (tscorgnon modeLls chat.ts thariqeThariqs-Virtual-Machinesrc%chat.ts Goodbye! thariqeThariqs-Virtual-Machine srcxls zsh:cormandnot found:chat.ts thariqeThariqs-Virtua!-Machinc Src X bun chat.ts thariqeThariqs-Virtual-Nachine src X thariqeThariqs-Virtual-Nachinesrcx model.ts tools\n22 atv A",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense terminal/output screenshot with small monospaced text; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "terminal output",
+            "x": 9.0,
+            "y": 6.0,
+            "w": 82.0,
+            "h": 88.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-023.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-023.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664912.86911,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/contrast",
+        "text": ".cc-prototype xd [TOOL CALL]get_pokemon_species [TOOLINPUN]{ \"nane_or_id\": \"quagsire\"\nC data gm/cus [TOOL RESULT] SuCCeSS\nCounoln\nCr tersts oseyed(） ①RSAOME m （）tcorngon vds gagoe ben Jock WSMOGON_AP1.mN CLAUOEMO 2.Croconaw(Water) 8.Wooper (Water/Ground) Basedon the data,here are all theWater-type Pokemon introduced in Generation 2: 4.Chinchou(Water/Electric) 7.Azurarill (Water/Fairy) 9.Quagsire (Water/Ground) 1.Totodile (Water) 3.Feraligatr (Water) 5.lanturn (Water/Electric) 6.Marill (Water/Fairy)\ntr Pchatts tocbs mO.11 pokomon.1 Note:Marill and Azumarill were originally pure Water-type in Generation 2,but gained the Fairy-type wher eir types. These Pokemon represent the full set of new Water-type Pokemon introduced in Generation 2,including both\n（）ps(kagejon ①README Ime (tscorgnon modeLls chat.ts thariqeThariqs-Virtual-Machinesrc%chat.ts Goodbye! thariqeThariqs-Virtual-Machine srcxls zsh:cormandnot found:chat.ts thariqeThariqs-Virtua!-Machinc Src X bun chat.ts thariqeThariqs-Virtual-Nachine src X thariqeThariqs-Virtual-Nachinesrcx model.ts tools\n22 atv A",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1206.28
+      },
+      "ocr_source": "rapidocr-live/left-72/contrast",
+      "ocr_reconcile": {
+        "text": ".cc-prototype xd [TOOL CALL]get_pokemon_species [TOOLINPUN]{ \"nane_or_id\": \"quagsire\"\nC data gm/cus [TOOL RESULT] SuCCeSS\nCounoln\nCr tersts oseyed(） ①RSAOME m （）tcorngon vds gagoe ben Jock WSMOGON_AP1.mN CLAUOEMO 2.Croconaw(Water) 8.Wooper (Water/Ground) Basedon the data,here are all theWater-type Pokemon introduced in Generation 2: 4.Chinchou(Water/Electric) 7.Azurarill (Water/Fairy) 9.Quagsire (Water/Ground) 1.Totodile (Water) 3.Feraligatr (Water) 5.lanturn (Water/Electric) 6.Marill (Water/Fairy)\ntr Pchatts tocbs mO.11 pokomon.1 Note:Marill and Azumarill were originally pure Water-type in Generation 2,but gained the Fairy-type wher eir types. These Pokemon represent the full set of new Water-type Pokemon introduced in Generation 2,including both\n（）ps(kagejon ①README Ime (tscorgnon modeLls chat.ts thariqeThariqs-Virtual-Machinesrc%chat.ts Goodbye! thariqeThariqs-Virtual-Machine srcxls zsh:cormandnot found:chat.ts thariqeThariqs-Virtua!-Machinc Src X bun chat.ts thariqeThariqs-Virtual-Nachine src X thariqeThariqs-Virtual-Nachinesrcx model.ts tools\n22 atv A",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-023.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "pok Bem O tm/nim krgs @-18m ★DaA AUsers/thariq/Profects/poke-coi/cc-prototype/data/gen2ou-17e0.txt-167a- I Other 1.397x /Users/thariq/Projects/poke-opi/cc-prototype/data/gtn2ou-176a.txt-1673- I Nothing 1e0.009x /Ustrs/thariq/projtcts/goke-opi/cc-prototypt/dota/gen2ou-1760.txt-1667- I leech Sttd 47.495x /Users/thariq/Projects/poke-opi/cc-prototype/data/genzou-176a.txt-1668- I Rt!lect 47.493t /Users/thariq/Projects/poke-opi/cc-prototype/data/gtnzou-1760.txt-1663- I Symthtesis 99.334x /Ustrs/tharia/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1664- I Stords Donce 52.505x /Users/tharia/Projccts/poke-opi/cc-prototype/data/gen2ou-176e.txt-166s- I sody Slaa 52.274x /Users/thariq/Projects/poke-opi/cc-prototype/data/genzou-176o.txt-1669- I Razor leaf 47.347x /Ustrs/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1662- I μoves AUsers/tharia/Profects/poke-opi/cc-prototypc/data/gen2ou-176e.txt-1666- I farthquake 52.155% /Users/thariq/Projects/poke-opi/tc-prototype/data/gen2ou-176o.txt-1671- +-- /Ustrs/thariq/Profects/poke-opi/cc-prototype/data/genzou-17te.txt-1672- I Tera Types\nOcnarer poh @ REASKEnd (1 prdageo m RADHLNG R rhat 25 + /Users/thariq/Projccts/poke-api/cc-prototype/data/gen2ou-176o.txt-16t7- 4---. /Ustrs/thariq/Projects/poke-cpi/tc-prototype/data/gen2ou-176a.txt-167s- I Iearotes /Ustrs/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1676- I Snorlax 99.997x /Users/tharia/Projects/poke-opi/cc-prototype/data/gen2ou-176o.txt-1679- I Starnie 66.273x /Users/thariq/Projects/poke-coi/cc-prototype/data/gen2ou-1768.txt-1680- I Raikou 47.359x /Users/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-16t1- I Zopdos 33.65ox AUsers/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-1683- I Quagtire 18.92s% /Users/thariq/Profects/poke-agi/cc-prototype/data/gen2ou-1768.txt-1684- I Htltank 18.926x AUsers/thariq/Profects/poke-opi/cc-prototype/data/aen2ou-1760.txt-16s8- I Checks and Counters AUsers/tharia/Projects/poke-opi/tc-prototype/data/genzou-1768.txt-16s9- ++* /Users/thariq/Profccts/poke-api/cc-prototype/data/gen2ou-176e.txt-1692- /Ustrs/thariq/Projtcts/pokt-opi/cc-prototype/data/gtn2ou-1?60.trt-1696- /Users/thariq/Projects/poke-api/cc-prototype/data/gen2ou-1768.txt-169s- I No Ability 1ea.000x /Users/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-1677- I Cloyster 71.913x /Users/thariq/Projects/poke-api/cc-prototype/data/gen2ou-1760.trt-167t- I Rhydon 71.747x /Ustrs/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-16s2- I Houndoca 32.902% /Ustrs/thariq/Projtcts/poke-cpi/cc-prototypt/data/gen2ou-1768.txt-1685- I Skarnory 18.926x data/gtn2ou-1760.txt:1691: I Ytnusaur dota/gen2ou-1760.txt-1694- I Avg. neipht: 0.017e1e702325205615 /Users/tharia/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1697- I Abilities /Usert/thariq/Prajects/poke-ooi/cc-prototype/data/gtn2ou-1760.txt-16t6- I Skartory 1s.926x /Ustrs/tharia/projtcts/poke-opi/cc-prototypt/data/gtn2ou-1760.txt-169e- + data/gtnzou-1760.txt-1695- I Viabtltty Ctilirg: 7$ Asers/thariq/Profects/poke-opt/cc-prototypt/data/gtn2ou-1?6e.txt-1699- +--- data/aen2au-176o.txt-1693. I Ron count: 245 1\n4.P.aTa.. 1a1 2 Tpraa s:D a. +",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense terminal/table screenshot with small text and numeric columns; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "tabulated terminal output",
+            "x": 8.0,
+            "y": 2.0,
+            "w": 84.0,
+            "h": 90.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-024.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-024.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665030.2954457,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "pok Bem O tm/nim krgs @-18m ★DaA AUsers/thariq/Profects/poke-coi/cc-prototype/data/gen2ou-17e0.txt-167a- I Other 1.397x /Users/thariq/Projects/poke-opi/cc-prototype/data/gtn2ou-176a.txt-1673- I Nothing 1e0.009x /Ustrs/thariq/projtcts/goke-opi/cc-prototypt/dota/gen2ou-1760.txt-1667- I leech Sttd 47.495x /Users/thariq/Projects/poke-opi/cc-prototype/data/genzou-176a.txt-1668- I Rt!lect 47.493t /Users/thariq/Projects/poke-opi/cc-prototype/data/gtnzou-1760.txt-1663- I Symthtesis 99.334x /Ustrs/tharia/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1664- I Stords Donce 52.505x /Users/tharia/Projccts/poke-opi/cc-prototype/data/gen2ou-176e.txt-166s- I sody Slaa 52.274x /Users/thariq/Projects/poke-opi/cc-prototype/data/genzou-176o.txt-1669- I Razor leaf 47.347x /Ustrs/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1662- I μoves AUsers/tharia/Profects/poke-opi/cc-prototypc/data/gen2ou-176e.txt-1666- I farthquake 52.155% /Users/thariq/Projects/poke-opi/tc-prototype/data/gen2ou-176o.txt-1671- +-- /Ustrs/thariq/Profects/poke-opi/cc-prototype/data/genzou-17te.txt-1672- I Tera Types\nOcnarer poh @ REASKEnd (1 prdageo m RADHLNG R rhat 25 + /Users/thariq/Projccts/poke-api/cc-prototype/data/gen2ou-176o.txt-16t7- 4---. /Ustrs/thariq/Projects/poke-cpi/tc-prototype/data/gen2ou-176a.txt-167s- I Iearotes /Ustrs/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1676- I Snorlax 99.997x /Users/tharia/Projects/poke-opi/cc-prototype/data/gen2ou-176o.txt-1679- I Starnie 66.273x /Users/thariq/Projects/poke-coi/cc-prototype/data/gen2ou-1768.txt-1680- I Raikou 47.359x /Users/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-16t1- I Zopdos 33.65ox AUsers/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-1683- I Quagtire 18.92s% /Users/thariq/Profects/poke-agi/cc-prototype/data/gen2ou-1768.txt-1684- I Htltank 18.926x AUsers/thariq/Profects/poke-opi/cc-prototype/data/aen2ou-1760.txt-16s8- I Checks and Counters AUsers/tharia/Projects/poke-opi/tc-prototype/data/genzou-1768.txt-16s9- ++* /Users/thariq/Profccts/poke-api/cc-prototype/data/gen2ou-176e.txt-1692- /Ustrs/thariq/Projtcts/pokt-opi/cc-prototype/data/gtn2ou-1?60.trt-1696- /Users/thariq/Projects/poke-api/cc-prototype/data/gen2ou-1768.txt-169s- I No Ability 1ea.000x /Users/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-1677- I Cloyster 71.913x /Users/thariq/Projects/poke-api/cc-prototype/data/gen2ou-1760.trt-167t- I Rhydon 71.747x /Ustrs/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-16s2- I Houndoca 32.902% /Ustrs/thariq/Projtcts/poke-cpi/cc-prototypt/data/gen2ou-1768.txt-1685- I Skarnory 18.926x data/gtn2ou-1760.txt:1691: I Ytnusaur dota/gen2ou-1760.txt-1694- I Avg. neipht: 0.017e1e702325205615 /Users/tharia/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1697- I Abilities /Usert/thariq/Prajects/poke-ooi/cc-prototype/data/gtn2ou-1760.txt-16t6- I Skartory 1s.926x /Ustrs/tharia/projtcts/poke-opi/cc-prototypt/data/gtn2ou-1760.txt-169e- + data/gtnzou-1760.txt-1695- I Viabtltty Ctilirg: 7$ Asers/thariq/Profects/poke-opt/cc-prototypt/data/gtn2ou-1?6e.txt-1699- +--- data/aen2au-176o.txt-1693. I Ron count: 245 1\n4.P.aTa.. 1a1 2 Tpraa s:D a. +",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1167.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "pok Bem O tm/nim krgs @-18m ★DaA AUsers/thariq/Profects/poke-coi/cc-prototype/data/gen2ou-17e0.txt-167a- I Other 1.397x /Users/thariq/Projects/poke-opi/cc-prototype/data/gtn2ou-176a.txt-1673- I Nothing 1e0.009x /Ustrs/thariq/projtcts/goke-opi/cc-prototypt/dota/gen2ou-1760.txt-1667- I leech Sttd 47.495x /Users/thariq/Projects/poke-opi/cc-prototype/data/genzou-176a.txt-1668- I Rt!lect 47.493t /Users/thariq/Projects/poke-opi/cc-prototype/data/gtnzou-1760.txt-1663- I Symthtesis 99.334x /Ustrs/tharia/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1664- I Stords Donce 52.505x /Users/tharia/Projccts/poke-opi/cc-prototype/data/gen2ou-176e.txt-166s- I sody Slaa 52.274x /Users/thariq/Projects/poke-opi/cc-prototype/data/genzou-176o.txt-1669- I Razor leaf 47.347x /Ustrs/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1662- I μoves AUsers/tharia/Profects/poke-opi/cc-prototypc/data/gen2ou-176e.txt-1666- I farthquake 52.155% /Users/thariq/Projects/poke-opi/tc-prototype/data/gen2ou-176o.txt-1671- +-- /Ustrs/thariq/Profects/poke-opi/cc-prototype/data/genzou-17te.txt-1672- I Tera Types\nOcnarer poh @ REASKEnd (1 prdageo m RADHLNG R rhat 25 + /Users/thariq/Projccts/poke-api/cc-prototype/data/gen2ou-176o.txt-16t7- 4---. /Ustrs/thariq/Projects/poke-cpi/tc-prototype/data/gen2ou-176a.txt-167s- I Iearotes /Ustrs/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1676- I Snorlax 99.997x /Users/tharia/Projects/poke-opi/cc-prototype/data/gen2ou-176o.txt-1679- I Starnie 66.273x /Users/thariq/Projects/poke-coi/cc-prototype/data/gen2ou-1768.txt-1680- I Raikou 47.359x /Users/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-16t1- I Zopdos 33.65ox AUsers/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-1683- I Quagtire 18.92s% /Users/thariq/Profects/poke-agi/cc-prototype/data/gen2ou-1768.txt-1684- I Htltank 18.926x AUsers/thariq/Profects/poke-opi/cc-prototype/data/aen2ou-1760.txt-16s8- I Checks and Counters AUsers/tharia/Projects/poke-opi/tc-prototype/data/genzou-1768.txt-16s9- ++* /Users/thariq/Profccts/poke-api/cc-prototype/data/gen2ou-176e.txt-1692- /Ustrs/thariq/Projtcts/pokt-opi/cc-prototype/data/gtn2ou-1?60.trt-1696- /Users/thariq/Projects/poke-api/cc-prototype/data/gen2ou-1768.txt-169s- I No Ability 1ea.000x /Users/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-1677- I Cloyster 71.913x /Users/thariq/Projects/poke-api/cc-prototype/data/gen2ou-1760.trt-167t- I Rhydon 71.747x /Ustrs/thariq/Projects/poke-opi/cc-prototype/data/gen2ou-176e.txt-16s2- I Houndoca 32.902% /Ustrs/thariq/Projtcts/poke-cpi/cc-prototypt/data/gen2ou-1768.txt-1685- I Skarnory 18.926x data/gtn2ou-1760.txt:1691: I Ytnusaur dota/gen2ou-1760.txt-1694- I Avg. neipht: 0.017e1e702325205615 /Users/tharia/Projects/poke-opi/cc-prototype/data/gen2ou-1760.txt-1697- I Abilities /Usert/thariq/Prajects/poke-ooi/cc-prototype/data/gtn2ou-1760.txt-16t6- I Skartory 1s.926x /Ustrs/tharia/projtcts/poke-opi/cc-prototypt/data/gtn2ou-1760.txt-169e- + data/gtnzou-1760.txt-1695- I Viabtltty Ctilirg: 7$ Asers/thariq/Profects/poke-opt/cc-prototypt/data/gtn2ou-1?6e.txt-1699- +--- data/aen2au-176o.txt-1693. I Ron count: 245 1\n4.P.aTa.. 1a1 2 Tpraa s:D a. +",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-024.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Hook Events\nPreToolUse\nPermissionRequest\nPostToolUse\nUserPromptSubmit\nNotification\nStop\nSubagentStop\nPreCompact\nSessionStart\nSessionEnd",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "off-white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Hook Events",
+            "x": 27.0,
+            "y": 14.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "PreToolUse\nPermissionRequest\nPostToolUse\nUserPromptSubmit\nNotification",
+            "x": 27.0,
+            "y": 31.0,
+            "w": 28.0,
+            "h": 36.0
+          },
+          {
+            "role": "body",
+            "text": "Stop\nSubagentStop\nPreCompact\nSessionStart\nSessionEnd",
+            "x": 58.0,
+            "y": 31.0,
+            "w": 24.0,
+            "h": 32.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-025.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-025.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665248.9023023,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Hook Events\nPreToolUse\nPermissionRequest\nPostToolUse\nUserPromptSubmit\nNotification\nStop\nSubagentStop\nPreCompact\nSessionStart\nSessionEnd",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-025.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Useful resources",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Two embedded article screenshots and small URLs make the slide OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "off-white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Useful resources",
+            "x": 28.0,
+            "y": 13.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Building agents with the Claude Agent SDK",
+            "x": 30.0,
+            "y": 33.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Code execution with MCP: Building more efficient agents",
+            "x": 60.0,
+            "y": 33.0,
+            "w": 30.0,
+            "h": 12.0
+          },
+          {
+            "role": "caption",
+            "text": "https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk",
+            "x": 29.0,
+            "y": 58.0,
+            "w": 31.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+            "x": 59.0,
+            "y": 58.0,
+            "w": 30.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-026.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-026.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665248.903293,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Useful resources",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/left-72/contrast",
+        "best_score": 756.0,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/TqC1qOfiVcQ/slide-026.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage at podium; not a presentation slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#e9eef2",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-017.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664709.054195,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker/audience stage shot; not a presentation slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#eef2f5",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/TqC1qOfiVcQ/slide-018.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664709.054659,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

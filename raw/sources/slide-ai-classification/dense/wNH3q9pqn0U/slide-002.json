@@ -1,0 +1,127 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Readability is best handled by OCR because the slide is a UI screenshot with small control labels and buttons.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 3.0,
+        "y": 18.0,
+        "w": 11.0,
+        "h": 14.0
+      },
+      {
+        "role": "label",
+        "text": "Pitch Absolute Angle",
+        "x": 62.0,
+        "y": 6.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Motor Speed",
+        "x": 62.0,
+        "y": 14.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Target Track Estimate",
+        "x": 62.0,
+        "y": 22.0,
+        "w": 23.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Shortcut Buttons",
+        "x": 62.0,
+        "y": 39.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "button",
+        "text": "Stop",
+        "x": 62.0,
+        "y": 47.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "button",
+        "text": "Standby",
+        "x": 74.0,
+        "y": 47.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "button",
+        "text": "Continue",
+        "x": 86.0,
+        "y": 47.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "button",
+        "text": "Emergency Stop",
+        "x": 62.0,
+        "y": 54.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 43.0,
+        "y": 84.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 75.0,
+        "y": 84.0,
+        "w": 12.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672386.5464962,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/border-trim/contrast",
+    "best_score": 15.54,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

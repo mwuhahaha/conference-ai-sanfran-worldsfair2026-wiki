@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Offline Evals: Scenario-Driven Simulation\nAgent Sandbox Discrete Outputs\nTest Runner Sinulated. Tools Execution: Steps Update State Hetrics Conpletion Rate 98.5x\n.Tool Correctness 108%\nPlan Quality High'\nSimulated Cost $0.05\nScenario-driven, not prompt-driven.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small diagram labels and the metrics box are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6f2ec",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Offline Evals: Scenario-Driven Simulation",
+        "x": 6.0,
+        "y": 3.0,
+        "w": 48.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Test Runner",
+        "x": 6.0,
+        "y": 37.0,
+        "w": 17.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent Sandbox",
+        "x": 31.0,
+        "y": 17.0,
+        "w": 37.0,
+        "h": 15.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Simulated Tools",
+        "x": 33.0,
+        "y": 40.0,
+        "w": 11.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Execution Steps",
+        "x": 46.0,
+        "y": 39.0,
+        "w": 16.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "State Update",
+        "x": 60.0,
+        "y": 39.0,
+        "w": 13.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Discrete Outputs",
+        "x": 76.0,
+        "y": 19.0,
+        "w": 17.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "Metrics\nCompletion Rate 98.5%\nTool Correctness 100%\nPlan Quality High\nSimulated Cost $0.05",
+        "x": 76.0,
+        "y": 47.0,
+        "w": 18.0,
+        "h": 25.0
+      },
+      {
+        "role": "caption",
+        "text": "Scenario-driven, not prompt-driven.",
+        "x": 8.0,
+        "y": 88.0,
+        "w": 84.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/vljxQZfJ9wY/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672319.7418144,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Offline Evals: Scenario-Driven Simulation\nAgent Sandbox Discrete Outputs\nTest Runner Sinulated. Tools Execution: Steps Update State Hetrics Conpletion Rate 98.5x\n.Tool Correctness 108%\nPlan Quality High'\nSimulated Cost $0.05\nScenario-driven, not prompt-driven.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 398.72
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Offline Evals: Scenario-Driven Simulation\nAgent Sandbox Discrete Outputs\nTest Runner Sinulated. Tools Execution: Steps Update State Hetrics Conpletion Rate 98.5x\n.Tool Correctness 108%\nPlan Quality High'\nSimulated Cost $0.05\nScenario-driven, not prompt-driven.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

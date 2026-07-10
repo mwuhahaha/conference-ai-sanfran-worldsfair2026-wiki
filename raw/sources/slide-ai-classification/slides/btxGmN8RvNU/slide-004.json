@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "D\nkadin and 3d parties use ess\nLinked Jeinnow\nAIE Similar pages A\\\nMistral Al\nnLabs\neejob Browse jobs\nAboutus g* ppe 9i Ppu0 Rnalyet jolis nist jobs dn is bett on te 8p9\nAlEngineer EUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "webpage screenshot with small text",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 26.0,
+        "w": 12.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Mistral AI",
+        "x": 40.0,
+        "y": 31.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "LinkedIn",
+        "x": 41.0,
+        "y": 22.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/btxGmN8RvNU/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666837.7233803,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Mistral AI",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "D\nkadin and 3d parties use ess\nLinked Jeinnow\nAIE Similar pages A\\\nMistral Al\nnLabs\neejob Browse jobs\nAboutus g* ppe 9i Ppu0 Rnalyet jolis nist jobs dn is bett on te 8p9\nAlEngineer EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 353.4
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "D\nkadin and 3d parties use ess\nLinked Jeinnow\nAIE Similar pages A\\\nMistral Al\nnLabs\neejob Browse jobs\nAboutus g* ppe 9i Ppu0 Rnalyet jolis nist jobs dn is bett on te 8p9\nAlEngineer EUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

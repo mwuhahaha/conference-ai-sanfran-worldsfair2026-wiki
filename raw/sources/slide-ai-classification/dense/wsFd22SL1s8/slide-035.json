@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "86 apt-get clean A:\n86:rm -rf. /var/lib/apt/lists/x\n# Install Chrome.:\nhttps://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 86 \\: RUN wget. -0 /tmp/google-chrome-stable_current_amd64.deb # Any failure here will be fixed by the. install -f command below.\ndpkg. -i /tmp/google-chrome-stable_current_amd64.deb ll true 86 \\\napt-get clean 86 rm -rf /var/lib/apt/lists/*- rm. -rf /tmp/google-chrome-stable_current_amd64.deb 86 \\ apt-get update 86 apt-get install. -f -y:86 \\\nRUN curl: -fsSL https://deb.nodesource.com/setup 22.x -o nodesource_setup:sh 8f # Install Node.js and npm\nsudo -E bash nodesource_setup.sh 86 \\\nrm: -f nodesource_setup.sh 86 \\ apt-get.clean: 86 rm -rf /var/lib/apt/lists/x: sudo apt-get:install -y: nodejs: 86",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code/install slide with small command text and section headings; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "# Install Chrome.",
+        "x": 10.0,
+        "y": 15.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "RUN wget -O /tmp/google-chrome-stable_current_amd64.deb\nhttps://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \\\n    dpkg -i /tmp/google-chrome-stable_current_amd64.deb || true && \\\n    apt-get update && apt-get install -f -y && \\\n    rm -rf /tmp/google-chrome-stable_current_amd64.deb && \\\n    apt-get clean && rm -rf /var/lib/apt/lists/*",
+        "x": 10.0,
+        "y": 21.0,
+        "w": 80.0,
+        "h": 26.0
+      },
+      {
+        "role": "caption",
+        "text": "# Install Node.js and npm",
+        "x": 10.0,
+        "y": 50.0,
+        "w": 30.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "RUN curl -fsSL https://deb.nodesource.com/setup_22.x -o nodesource_setup.sh && \\\n    sudo -E bash nodesource_setup.sh && \\\n    sudo apt-get install -y nodejs && \\\n    rm -f nodesource_setup.sh && \\\n    apt-get clean && rm -rf /var/lib/apt/lists/*",
+        "x": 10.0,
+        "y": 57.0,
+        "w": 80.0,
+        "h": 26.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-035.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-035.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673733.469721,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "86 apt-get clean A:\n86:rm -rf. /var/lib/apt/lists/x\n# Install Chrome.:\nhttps://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 86 \\: RUN wget. -0 /tmp/google-chrome-stable_current_amd64.deb # Any failure here will be fixed by the. install -f command below.\ndpkg. -i /tmp/google-chrome-stable_current_amd64.deb ll true 86 \\\napt-get clean 86 rm -rf /var/lib/apt/lists/*- rm. -rf /tmp/google-chrome-stable_current_amd64.deb 86 \\ apt-get update 86 apt-get install. -f -y:86 \\\nRUN curl: -fsSL https://deb.nodesource.com/setup 22.x -o nodesource_setup:sh 8f # Install Node.js and npm\nsudo -E bash nodesource_setup.sh 86 \\\nrm: -f nodesource_setup.sh 86 \\ apt-get.clean: 86 rm -rf /var/lib/apt/lists/x: sudo apt-get:install -y: nodejs: 86",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 637.96
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "86 apt-get clean A:\n86:rm -rf. /var/lib/apt/lists/x\n# Install Chrome.:\nhttps://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 86 \\: RUN wget. -0 /tmp/google-chrome-stable_current_amd64.deb # Any failure here will be fixed by the. install -f command below.\ndpkg. -i /tmp/google-chrome-stable_current_amd64.deb ll true 86 \\\napt-get clean 86 rm -rf /var/lib/apt/lists/*- rm. -rf /tmp/google-chrome-stable_current_amd64.deb 86 \\ apt-get update 86 apt-get install. -f -y:86 \\\nRUN curl: -fsSL https://deb.nodesource.com/setup 22.x -o nodesource_setup:sh 8f # Install Node.js and npm\nsudo -E bash nodesource_setup.sh 86 \\\nrm: -f nodesource_setup.sh 86 \\ apt-get.clean: 86 rm -rf /var/lib/apt/lists/x: sudo apt-get:install -y: nodejs: 86",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Optimizingforaccuracy\nTechnique What it involves\nPrompt engineering Write clear and well-structured prompts\nAgent skills Progressive disclosure of information to agents\nQuery optimization Rewrite ordecompose queries forbetterretrievalorgenera\nReranking Reorder retrieved documents by relevance\nCompaction Summarize or remove content from the LLM's context wind\nMemory management Persist.information across sessions",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense table with small row text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal with patterned green accents",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Optimizing for accuracy",
+        "x": 24.0,
+        "y": 12.0,
+        "w": 32.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Technique",
+        "x": 27.0,
+        "y": 29.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "What it involves",
+        "x": 55.0,
+        "y": 29.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Prompt engineering",
+        "x": 24.0,
+        "y": 39.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Agent skills",
+        "x": 24.0,
+        "y": 48.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Query optimization",
+        "x": 24.0,
+        "y": 57.0,
+        "w": 19.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Reranking",
+        "x": 24.0,
+        "y": 66.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Compaction",
+        "x": 24.0,
+        "y": 75.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Memory management",
+        "x": 24.0,
+        "y": 84.0,
+        "w": 17.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/T0HhO4YtTfE/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664111.0269892,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Optimizing for accuracy",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/opencv-adaptive",
+    "text": "Optimizingforaccuracy\nTechnique What it involves\nPrompt engineering Write clear and well-structured prompts\nAgent skills Progressive disclosure of information to agents\nQuery optimization Rewrite ordecompose queries forbetterretrievalorgenera\nReranking Reorder retrieved documents by relevance\nCompaction Summarize or remove content from the LLM's context wind\nMemory management Persist.information across sessions",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 549.8
+  },
+  "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Optimizingforaccuracy\nTechnique What it involves\nPrompt engineering Write clear and well-structured prompts\nAgent skills Progressive disclosure of information to agents\nQuery optimization Rewrite ordecompose queries forbetterretrievalorgenera\nReranking Reorder retrieved documents by relevance\nCompaction Summarize or remove content from the LLM's context wind\nMemory management Persist.information across sessions",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

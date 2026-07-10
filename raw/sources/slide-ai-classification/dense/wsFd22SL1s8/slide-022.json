@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "P2 frtual Machine Monitor (VMM) / crosvm / firecracker) Create VM\nGuest Userspace: P3: the VM running Thread\nnet driver: block driver Bock Device Net Device\n. Guest Kernel VNRESUAE VMEXIT\n: Hypervisor.: /dev/kvm.... Host Kernel.\nLinux Virtualization: Key Components.\n. To chents VhM tread Is blocked snd rns as *guest VMr, When VM needs soring ft eouts cut via VMEXITS and se sevced snd VAREsUMED. Vum - Tatks to kum io sparn Vms and atso manages erutated devices that serve VM requests Ksm - Hypervisor in the form of a kenol modulo thiat hrverages VT-x to run swich CpU context and rn VMs':\nVMEXITS and VhRESUMES are exptrsre, W/e thould try to rminlmlre them",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Continuation of the virtualization diagram with dense small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f4f4f4",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Linux Virtualization: Key Components",
+        "x": 29.0,
+        "y": 90.0,
+        "w": 38.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Virtual Machine Monitor (VMM) (qemu / crosvm / Firecracker)",
+        "x": 49.0,
+        "y": 1.0,
+        "w": 30.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Guest Userspace",
+        "x": 20.0,
+        "y": 39.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Block Device",
+        "x": 48.0,
+        "y": 38.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Net Device",
+        "x": 68.0,
+        "y": 38.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Host Kernel",
+        "x": 79.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-022.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-022.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673360.2567148,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Linux Virtualization: Key Components",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "P2 frtual Machine Monitor (VMM) / crosvm / firecracker) Create VM\nGuest Userspace: P3: the VM running Thread\nnet driver: block driver Bock Device Net Device\n. Guest Kernel VNRESUAE VMEXIT\n: Hypervisor.: /dev/kvm.... Host Kernel.\nLinux Virtualization: Key Components.\n. To chents VhM tread Is blocked snd rns as *guest VMr, When VM needs soring ft eouts cut via VMEXITS and se sevced snd VAREsUMED. Vum - Tatks to kum io sparn Vms and atso manages erutated devices that serve VM requests Ksm - Hypervisor in the form of a kenol modulo thiat hrverages VT-x to run swich CpU context and rn VMs':\nVMEXITS and VhRESUMES are exptrsre, W/e thould try to rminlmlre them",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1058.56
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "P2 frtual Machine Monitor (VMM) / crosvm / firecracker) Create VM\nGuest Userspace: P3: the VM running Thread\nnet driver: block driver Bock Device Net Device\n. Guest Kernel VNRESUAE VMEXIT\n: Hypervisor.: /dev/kvm.... Host Kernel.\nLinux Virtualization: Key Components.\n. To chents VhM tread Is blocked snd rns as *guest VMr, When VM needs soring ft eouts cut via VMEXITS and se sevced snd VAREsUMED. Vum - Tatks to kum io sparn Vms and atso manages erutated devices that serve VM requests Ksm - Hypervisor in the form of a kenol modulo thiat hrverages VT-x to run swich CpU context and rn VMs':\nVMEXITS and VhRESUMES are exptrsre, W/e thould try to rminlmlre them",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Failure 4 git credentials collide",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "diagram with small labels and embedded terminal-style content",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#050505",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Failure 4 git credentials collide",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 52.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "expected · 1-to-1",
+        "x": 8.0,
+        "y": 26.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "reality · both collide",
+        "x": 53.0,
+        "y": 26.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "The fix: clean, separated environment per workspace.",
+        "x": 30.0,
+        "y": 78.0,
+        "w": 40.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "two comparison panels",
+        "x": 6.0,
+        "y": 33.0,
+        "w": 88.0,
+        "h": 36.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/4kYl2_mqmnQ/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658205.0228527,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Failure 4 git credentials collide",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Voice agents provide a wide range of benefits\n• More flexible than traditional IVRs (no need to outline complex phone trees, multilingual). Let human agents focus on complex cases\n• Makes your AI more accessible to broader parts of the population\n• More information dense and personalized than just text by introducing emotions\n• Can act as an API to the real-world by leading conversations with other businesses",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with black left sidebar and black footer",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Voice agents provide a wide range of benefits",
+        "x": 19.0,
+        "y": 12.0,
+        "w": 46.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "• More flexible than traditional IVRs (no need to outline complex phone trees, multilingual). Let human agents focus on complex cases\n• Makes your AI more accessible to broader parts of the population\n• More information dense and personalized than just text by introducing emotions\n• Can act as an API to the real-world by leading conversations with other businesses",
+        "x": 19.0,
+        "y": 21.0,
+        "w": 44.0,
+        "h": 41.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/iXhba366fQc/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669074.5883875,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Voice agents provide a wide range of benefits\n• More flexible than traditional IVRs (no need to outline complex phone trees, multilingual). Let human agents focus on complex cases\n• Makes your AI more accessible to broader parts of the population\n• More information dense and personalized than just text by introducing emotions\n• Can act as an API to the real-world by leading conversations with other businesses",
+  "advanced_ocr": {}
+}

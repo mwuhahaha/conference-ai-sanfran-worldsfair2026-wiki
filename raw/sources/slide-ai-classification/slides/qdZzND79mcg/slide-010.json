@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Phase 5: New Order",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple diagram slide with a short title; OCR is unnecessary relative to direct visual reading.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Phase 5: New Order",
+        "x": 5.0,
+        "y": 6.0,
+        "w": 35.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/qdZzND79mcg/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671172.7589102,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Phase 5: New Order",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Nobody wants to look at your dashboard.\nShip an MCP App.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "radial-gradient(#f1f0ec,#eef1e6)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Manufact",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Nobody wants to look at your dashboard.",
+        "x": 26.0,
+        "y": 28.0,
+        "w": 48.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Ship an MCP App.",
+        "x": 40.0,
+        "y": 55.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "PIETRO ZULLO • MANUFACT • DOCS.MCP-USE.COM",
+        "x": 36.0,
+        "y": 73.0,
+        "w": 30.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/slides/sAOBXCDiDOs/slide-018.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671870.4620674,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Nobody wants to look at your dashboard.\nShip an MCP App.",
+  "advanced_ocr": {}
+}

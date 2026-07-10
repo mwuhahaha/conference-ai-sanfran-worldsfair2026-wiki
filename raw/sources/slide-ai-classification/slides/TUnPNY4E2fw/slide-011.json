@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Chunk size ablations\nAIE Memory (GiB) 20 15 Throughput (TpS) 840 830\n10 820\n810\n4 Chunksize 8 16 32 800 4 Chunksiz.e 8 16 32\nUntiedUysses:Memory-Emdont ConteatParallelismva Headwise ChunkingGhadia etal,2026\nEngineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart slide with small axes, tick labels, and multiple plotted panels that are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Chunk size ablations",
+        "x": 28.0,
+        "y": 7.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Memory (GiB)",
+        "x": 39.0,
+        "y": 24.0,
+        "w": 10.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Throughput (TPS)",
+        "x": 65.0,
+        "y": 24.0,
+        "w": 10.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Chunk size",
+        "x": 43.0,
+        "y": 68.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "4\n8\n16\n32",
+        "x": 37.0,
+        "y": 74.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "4\n8\n16\n32",
+        "x": 62.0,
+        "y": 74.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/TUnPNY4E2fw/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664726.9296408,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Chunk size ablations",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/contrast",
+    "text": "Chunk size ablations\nAIE Memory (GiB) 20 15 Throughput (TpS) 840 830\n10 820\n810\n4 Chunksize 8 16 32 800 4 Chunksiz.e 8 16 32\nUntiedUysses:Memory-Emdont ConteatParallelismva Headwise ChunkingGhadia etal,2026\nEngineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 276.6
+  },
+  "ocr_source": "rapidocr-live/center-82/contrast",
+  "ocr_reconcile": {
+    "text": "Chunk size ablations\nAIE Memory (GiB) 20 15 Throughput (TpS) 840 830\n10 820\n810\n4 Chunksize 8 16 32 800 4 Chunksiz.e 8 16 32\nUntiedUysses:Memory-Emdont ConteatParallelismva Headwise ChunkingGhadia etal,2026\nEngineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

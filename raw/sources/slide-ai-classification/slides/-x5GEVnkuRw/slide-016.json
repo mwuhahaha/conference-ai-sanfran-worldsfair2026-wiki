@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Import Essential Components\n\nfrom pathlib import Path\n\n# Core Docling imports\nfrom docling.document_converter import DocumentConverter\nfrom docling.datamodel.base_models import InputFormat\nfrom docling.datamodel.pipeline_options import PdfPipelineOptions\nfrom docling.document_converter import PdfFormatOption\n\n# For advanced features\nfrom docling_core.types.doc import ImageRefMode, PictureItem, TableItem, TextItem, DoclingDocument\n\n# For data processing and visualization\nimport matplotlib.pyplot as plt\n\n# Create output directory\noutput_dir = Path(\"output\")\noutput_dir.mkdir(exist_ok=True)\n\nBasic Document Conversion\nMinimal Example\nThe simplest way to convert a document:",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Notebook/code slide with dense imports and code cells that are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#151515",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Import Essential Components",
+        "x": 21.0,
+        "y": 16.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Basic Document Conversion",
+        "x": 21.0,
+        "y": 76.0,
+        "w": 27.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "from docling.document_converter import DocumentConverter",
+        "x": 20.0,
+        "y": 28.0,
+        "w": 50.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656367.8880796,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Import Essential Components",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Q B Conversion.ipynbMX Token_Cost_Comparison.ipynb M Chunkless_RAG.ipynb M Chunking.ipynb\nDOCLING-WORKSHOP\nnotebooks >fixtures Add Code Add Markdown|Run All Restart Clear All Outputs|Jupyter Variables Outline venv (3.13.7) (Python 3.13.7)\npyproject.toml ①README.md!mkdocs.yml gitignore!.poutine.yml!pre-commit-config.yaml Fconstraints.txt LICENSE!markdownlint-cli2.yaml!.spellcheck.yaml scripts >src F.spellcheck-en-custom.txt Conversion.ipynb Ollama RAG.ipynb Serving.ipynb Chunking.ipynb Conversion_Colab.ipynb MCP_Agents.ipynb RAGipynb Token_Cost_Compari..M Chunkless_RAG.ipynb gitignore ndno< M M [39] MinimalExample BasicDocumentConversion ImportEssentialComponents √0.0s Create output directory output_dir=Path(\"output\") output_dir.mkdir(exist_ok=True) from docling.document_converter import DocumentConverter from docling.datamodel.pipeline_options import PdfPipelineOptions from docling.document_converterimportPdfFormatoption #For advanced features #For data processing and visualization from pathlib import Path Core Docling imports from docling.datamodel.base_models import InputFormat import matplotlib.pyplot as plt Python\nOUTLINE The simplestway toconvertadocument:",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 976.96
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Import Essential Components\n\nfrom pathlib import Path\n\n# Core Docling imports\nfrom docling.document_converter import DocumentConverter\nfrom docling.datamodel.base_models import InputFormat\nfrom docling.datamodel.pipeline_options import PdfPipelineOptions\nfrom docling.document_converter import PdfFormatOption\n\n# For advanced features\nfrom docling_core.types.doc import ImageRefMode, PictureItem, TableItem, TextItem, DoclingDocument\n\n# For data processing and visualization\nimport matplotlib.pyplot as plt\n\n# Create output directory\noutput_dir = Path(\"output\")\noutput_dir.mkdir(exist_ok=True)\n\nBasic Document Conversion\nMinimal Example\nThe simplest way to convert a document:",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide text and corrected obvious OCR errors in the imports and headings; ignored notebook UI chrome."
+  }
+}

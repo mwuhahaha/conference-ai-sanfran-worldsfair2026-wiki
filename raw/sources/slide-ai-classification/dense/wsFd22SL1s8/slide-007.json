@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arrakis Restserver exposes the following REST APl. This is also available via a Python SDK, MCP Server and an openapi compliant YAML file\nAPI-Sandboxes,Snapshots,Command Execution,Files\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.startVM).Methods(\"POST\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/{name}\",s.updateVMState).Methods(\"PATCH\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms/{name}\",s.destroyVM).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+APIVERSION+\"/vms\",S.destroyALlVMs).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.listAlLVMs).Methods(\"GET\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/(name}\",s.listVM).Methods(\"GET\")\nHandleFunc(\"/\"+API_VERSION+\"/vms/(name}/snapshots\",s.snapshotVM).Methods(\"POST\")\nndleFunc(\"/\"+API_VERSION+\"/vms/{name}/cmd\",s.vmCommand).Methods（\"POST\")\ndleFunc(\"/\"+API VERSION+\"/vms/{name}/files\",s.vmFileUpload).Methods(\"POST\")\ndleFunc(\"/\"+API_VERSION+\"/vms/{name}/files\",s.vmFileDownload).Methods(\"GET\")\nandleFunc(\"/\"+API VERSION+\"/health\",s.healthCheck).Methods(\"GET\")",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code-heavy API slide with small endpoint text and code block; OCR is likely better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f4f0df",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis: API",
+        "x": 4.0,
+        "y": 0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Arrakis Restserver exposes the following REST API. This is also available via a Python SDK, MCP Server and an openapi compliant YAML file",
+        "x": 3.0,
+        "y": 10.0,
+        "w": 92.0,
+        "h": 10.0
+      },
+      {
+        "role": "code",
+        "text": "API - Sandboxes, Snapshots, Command Execution, Files",
+        "x": 7.0,
+        "y": 24.0,
+        "w": 86.0,
+        "h": 50.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672826.7730324,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Arrakis: API",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Arrakis Restserver exposes the following REST APl. This is also available via a Python SDK, MCP Server and an openapi compliant YAML file\nAPI-Sandboxes,Snapshots,Command Execution,Files\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.startVM).Methods(\"POST\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/{name}\",s.updateVMState).Methods(\"PATCH\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms/{name}\",s.destroyVM).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+APIVERSION+\"/vms\",S.destroyALlVMs).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.listAlLVMs).Methods(\"GET\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/(name}\",s.listVM).Methods(\"GET\")\nHandleFunc(\"/\"+API_VERSION+\"/vms/(name}/snapshots\",s.snapshotVM).Methods(\"POST\")\nndleFunc(\"/\"+API_VERSION+\"/vms/{name}/cmd\",s.vmCommand).Methods（\"POST\")\ndleFunc(\"/\"+API VERSION+\"/vms/{name}/files\",s.vmFileUpload).Methods(\"POST\")\ndleFunc(\"/\"+API_VERSION+\"/vms/{name}/files\",s.vmFileDownload).Methods(\"GET\")\nandleFunc(\"/\"+API VERSION+\"/health\",s.healthCheck).Methods(\"GET\")",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1130.6
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Arrakis Restserver exposes the following REST APl. This is also available via a Python SDK, MCP Server and an openapi compliant YAML file\nAPI-Sandboxes,Snapshots,Command Execution,Files\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.startVM).Methods(\"POST\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/{name}\",s.updateVMState).Methods(\"PATCH\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms/{name}\",s.destroyVM).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+APIVERSION+\"/vms\",S.destroyALlVMs).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.listAlLVMs).Methods(\"GET\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/(name}\",s.listVM).Methods(\"GET\")\nHandleFunc(\"/\"+API_VERSION+\"/vms/(name}/snapshots\",s.snapshotVM).Methods(\"POST\")\nndleFunc(\"/\"+API_VERSION+\"/vms/{name}/cmd\",s.vmCommand).Methods（\"POST\")\ndleFunc(\"/\"+API VERSION+\"/vms/{name}/files\",s.vmFileUpload).Methods(\"POST\")\ndleFunc(\"/\"+API_VERSION+\"/vms/{name}/files\",s.vmFileDownload).Methods(\"GET\")\nandleFunc(\"/\"+API VERSION+\"/health\",s.healthCheck).Methods(\"GET\")",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

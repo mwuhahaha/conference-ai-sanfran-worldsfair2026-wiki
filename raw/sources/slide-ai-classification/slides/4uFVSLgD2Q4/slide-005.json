@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Origin Story\nOne bet on agents, one immediate yes.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple headline slide with one large statement",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f3f2ef",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "OpenGov",
+        "x": 84.0,
+        "y": 2.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Origin Story",
+        "x": 64.0,
+        "y": 13.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "One bet on agents, one immediate yes.",
+        "x": 64.0,
+        "y": 18.0,
+        "w": 31.0,
+        "h": 23.0
+      },
+      {
+        "role": "body",
+        "text": "A principal engineer spun up a team focused on AI agents and asked me to join. OG Assist grew from there. We started to integrate deeply with our products through frontend and backend tools.",
+        "x": 64.0,
+        "y": 74.0,
+        "w": 33.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 1.0,
+        "y": 15.0,
+        "w": 58.0,
+        "h": 72.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/4uFVSLgD2Q4/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657713.2221477,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Origin Story\nOne bet on agents, one immediate yes.",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "coco-aasc:af-engine(esin)s try runchat-d postgrescsrosIGRES-s public\ntaaPacha Chatmts\nPress double Entar after you are done entering your query.\nUser:help ee vriu\nAIE\nWond'sFai ALmbda Microsoft smol ai",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense terminal/demo screenshot with small code and UI text; OCR is likely better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#001515",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "Pacha Chat",
+        "x": 18.0,
+        "y": 12.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "Press double Enter after you are done entering your query.",
+        "x": 18.0,
+        "y": 18.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "code",
+        "text": "User: help me writ",
+        "x": 18.0,
+        "y": 26.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 23.0,
+        "w": 11.0,
+        "h": 16.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 43.0,
+        "y": 81.0,
+        "w": 25.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 74.0,
+        "y": 81.0,
+        "w": 20.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/reconstructed-slides/himhGiWJXjo/slide-007.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668413.5096831,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Pacha Chat",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "coco-aasc:af-engine(esin)s try runchat-d postgrescsrosIGRES-s public\ntaaPacha Chatmts\nPress double Entar after you are done entering your query.\nUser:help ee vriu\nAIE\nWond'sFai ALmbda Microsoft smol ai",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 372.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "coco-aasc:af-engine(esin)s try runchat-d postgrescsrosIGRES-s public\ntaaPacha Chatmts\nPress double Entar after you are done entering your query.\nUser:help ee vriu\nAIE\nWond'sFai ALmbda Microsoft smol ai",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

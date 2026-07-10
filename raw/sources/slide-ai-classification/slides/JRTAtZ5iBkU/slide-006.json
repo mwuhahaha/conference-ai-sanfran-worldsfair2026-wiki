@@ -1,0 +1,48 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "SLIDE DECKS → HTML",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Grid of small cards and labels is OCR-suitable; the slide title is short enough to preserve directly.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "radial-gradient(#11331c, #050505)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "SLIDE DECKS → HTML",
+        "x": 39.0,
+        "y": 6.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "built in a single prompt.",
+        "x": 40.0,
+        "y": 48.0,
+        "w": 18.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/JRTAtZ5iBkU/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659960.0899863,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "SLIDE DECKS → HTML",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

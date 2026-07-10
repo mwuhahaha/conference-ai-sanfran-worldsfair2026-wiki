@@ -1,106 +1,96 @@
 {
   "is_content_slide": true,
-  "confidence": 0.98,
+  "confidence": 0.99,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "Competitive advantage has shifted from\nprompt engineering to systems engineering.\nTHE PARADIGM SHIFT\nPROMPTS\nMODELS\nINFRASTRUCTURE\nCompound Growth Trajectory\nCommoditization Plateau\n2023\n2024\n2025+",
+  "text": "",
   "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart/trajectory slide with several labels, dates, and axis annotations; OCR is better suited than manual reading for the full figure text.",
+  "direct_read_ready": false,
+  "text_density": "high",
   "layout": {
-    "background": "light gray-white with faint grid",
+    "background": "white with faint grid and growth curves",
     "style": "diagram",
     "blocks": [
       {
         "role": "title",
-        "text": "Competitive advantage has shifted from\nprompt engineering to systems engineering.",
+        "text": "Competitive advantage has shifted from prompt engineering to systems engineering.",
         "x": 3.0,
         "y": 1.0,
-        "w": 88.0,
-        "h": 13.0
+        "w": 93.0,
+        "h": 18.0
       },
       {
         "role": "subtitle",
         "text": "THE PARADIGM SHIFT",
         "x": 4.0,
-        "y": 19.0,
-        "w": 20.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "PROMPTS",
-        "x": 22.0,
-        "y": 31.0,
-        "w": 14.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "MODELS",
-        "x": 39.0,
-        "y": 47.0,
-        "w": 12.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "INFRASTRUCTURE",
-        "x": 67.0,
-        "y": 66.0,
+        "y": 18.0,
         "w": 22.0,
         "h": 7.0
       },
       {
         "role": "diagram_label",
-        "text": "Compound Growth Trajectory",
-        "x": 76.0,
-        "y": 34.0,
-        "w": 18.0,
+        "text": "PROMPTS",
+        "x": 19.0,
+        "y": 27.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MODELS",
+        "x": 41.0,
+        "y": 39.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "INFRASTRUCTURE",
+        "x": 71.0,
+        "y": 71.0,
+        "w": 20.0,
         "h": 8.0
       },
       {
         "role": "diagram_label",
         "text": "Commoditization Plateau",
-        "x": 57.0,
-        "y": 46.0,
-        "w": 16.0,
-        "h": 7.0
+        "x": 55.0,
+        "y": 44.0,
+        "w": 18.0,
+        "h": 8.0
       },
       {
         "role": "diagram_label",
-        "text": "Commoditization Plateau",
-        "x": 84.0,
-        "y": 56.0,
-        "w": 12.0,
-        "h": 7.0
+        "text": "Compound Growth Trajectory",
+        "x": 78.0,
+        "y": 26.0,
+        "w": 18.0,
+        "h": 10.0
       },
       {
-        "role": "caption",
-        "text": "2023",
-        "x": 4.0,
+        "role": "diagram_label",
+        "text": "2023 2024 2025+",
+        "x": 5.0,
         "y": 93.0,
-        "w": 6.0,
-        "h": 4.0
-      },
-      {
-        "role": "caption",
-        "text": "2024",
-        "x": 38.0,
-        "y": 93.0,
-        "w": 6.0,
-        "h": 4.0
-      },
-      {
-        "role": "caption",
-        "text": "2025+",
-        "x": 73.0,
-        "y": 93.0,
-        "w": 7.0,
-        "h": 4.0
+        "w": 30.0,
+        "h": 5.0
       }
     ]
   },
+  "image_index": 5,
+  "filename": "slide-013.jpg",
   "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-013.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783647055.8659437
+  "classified_at_epoch": 1783658617.9627464,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "-builc 06 22 HSM CHAT GIT FILES\nHYAGENTS A Grom' DIYNILTO.? Norking\nALLIANCLPANTL ronBrasuyeLigathrin\nDECOMPOSINO, ADYGO Remote Access Opeo)\nDurg'dur Wich Colet CuI tool ae Magtak Add beadsdev taskmanagomert in Wiat ked ofbeadsdevetegaticn Whatdoyoumeen by Kird'ssh Maggrim Submt campeign to new sectona Add Chsrnesfesbure to RADME Zorn'mar Aod charneis feture to README Add Copiiot CLI platfo eocor Crchestrstor yiso Saonin A Ra091-03504:4-21b8-4s83-224-025754587ta 1botcontgred torparings Channels Hall ICTIO Cpee, concrete work had started yet, say that ceurly not ask unnecesary questions unies the task s [uset卡: desgn ue new Wopin page user what context you received If the source agent already had a concrete unfinished task, coetinue it right away after thut recript. If no geouinely anbiguoss. short handoff receipe(1-2 sentences) celling the not wait silently for another message, and do Your fint action is to repty immediately with a instead ofpretending workwis underway.Do\nGrom'osh Workng\nDrak'dan Woriing ACTIVT LOOPS Recefved handofi: the source agemt had the request\nlib/ to 'design the new login page' but no concrete work was started yet.\nLetme erplore the codebase to understand the\nexplorethecodebesetc startedyet.Lot design. current login/auth Ul before planning thenow\nunderatandche current\nlogin/avthUlbefore\ndesigo. pianning the nov Type to queue messege.\nDITAULT OOWNYY\nGROMOSH",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with multiple panes and small text; OCR is the right next step.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "green grassy game-like screenshot with dark translucent UI panels",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "MY AGENTS",
+        "x": 1.0,
+        "y": 4.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "ALLIANCE PANEL",
+        "x": 52.0,
+        "y": 11.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "CHAT",
+        "x": 78.0,
+        "y": 1.0,
+        "w": 7.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "GIT",
+        "x": 87.0,
+        "y": 1.0,
+        "w": 5.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "FILES",
+        "x": 93.0,
+        "y": 1.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "design the new login page",
+        "x": 78.0,
+        "y": 18.0,
+        "w": 19.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-015.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670272.5344229,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "-builc 06 22 HSM CHAT GIT FILES\nHYAGENTS A Grom' DIYNILTO.? Norking\nALLIANCLPANTL ronBrasuyeLigathrin\nDECOMPOSINO, ADYGO Remote Access Opeo)\nDurg'dur Wich Colet CuI tool ae Magtak Add beadsdev taskmanagomert in Wiat ked ofbeadsdevetegaticn Whatdoyoumeen by Kird'ssh Maggrim Submt campeign to new sectona Add Chsrnesfesbure to RADME Zorn'mar Aod charneis feture to README Add Copiiot CLI platfo eocor Crchestrstor yiso Saonin A Ra091-03504:4-21b8-4s83-224-025754587ta 1botcontgred torparings Channels Hall ICTIO Cpee, concrete work had started yet, say that ceurly not ask unnecesary questions unies the task s [uset卡: desgn ue new Wopin page user what context you received If the source agent already had a concrete unfinished task, coetinue it right away after thut recript. If no geouinely anbiguoss. short handoff receipe(1-2 sentences) celling the not wait silently for another message, and do Your fint action is to repty immediately with a instead ofpretending workwis underway.Do\nGrom'osh Workng\nDrak'dan Woriing ACTIVT LOOPS Recefved handofi: the source agemt had the request\nlib/ to 'design the new login page' but no concrete work was started yet.\nLetme erplore the codebase to understand the\nexplorethecodebesetc startedyet.Lot design. current login/auth Ul before planning thenow\nunderatandche current\nlogin/avthUlbefore\ndesigo. pianning the nov Type to queue messege.\nDITAULT OOWNYY\nGROMOSH",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2066.48
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "-builc 06 22 HSM CHAT GIT FILES\nHYAGENTS A Grom' DIYNILTO.? Norking\nALLIANCLPANTL ronBrasuyeLigathrin\nDECOMPOSINO, ADYGO Remote Access Opeo)\nDurg'dur Wich Colet CuI tool ae Magtak Add beadsdev taskmanagomert in Wiat ked ofbeadsdevetegaticn Whatdoyoumeen by Kird'ssh Maggrim Submt campeign to new sectona Add Chsrnesfesbure to RADME Zorn'mar Aod charneis feture to README Add Copiiot CLI platfo eocor Crchestrstor yiso Saonin A Ra091-03504:4-21b8-4s83-224-025754587ta 1botcontgred torparings Channels Hall ICTIO Cpee, concrete work had started yet, say that ceurly not ask unnecesary questions unies the task s [uset卡: desgn ue new Wopin page user what context you received If the source agent already had a concrete unfinished task, coetinue it right away after thut recript. If no geouinely anbiguoss. short handoff receipe(1-2 sentences) celling the not wait silently for another message, and do Your fint action is to repty immediately with a instead ofpretending workwis underway.Do\nGrom'osh Workng\nDrak'dan Woriing ACTIVT LOOPS Recefved handofi: the source agemt had the request\nlib/ to 'design the new login page' but no concrete work was started yet.\nLetme erplore the codebase to understand the\nexplorethecodebesetc startedyet.Lot design. current login/auth Ul before planning thenow\nunderatandche current\nlogin/avthUlbefore\ndesigo. pianning the nov Type to queue messege.\nDITAULT OOWNYY\nGROMOSH",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

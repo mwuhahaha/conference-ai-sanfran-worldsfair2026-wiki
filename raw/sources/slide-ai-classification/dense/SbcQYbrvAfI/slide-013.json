@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "ARHINO opuAte Itou yooun + r Yas BuuriT idwoid ozury rn tum sncwoig soedqom Nosr Bulzundo rn c qutd vopsbeo eEedqam Nosr a' t syooqojou:\nbenchmiris shnep:s: >codlng ignt rue.. Y. notebcoks D arizenx support 4.. BlzNorm-100_oval. wmetapx ompt.ixtU canda \"nb'oddns\"twet' big_bench hard JSONWeboS + Codo + Markdowm I D Run Al S Rinstart E Caar All Outputs@ Go To I B Vhw data @ Jhprter Viriabies n Outine:' pertor mance on a separate test set: Ipip inttalt -arire-phoenix-cvls-2.2.o- srixe-phoenix-ciient tlktoken openal, scthit-learn: μport nest asynclo I Aod n Chu n Guct Edu ua! nest asyncio.+pply() 昭DB sia_codo (Python 3.10.19) vonld: Python\nup uunb uooars\nm test.csy i traln.csy? 0 Configuration\nn LCENSE.tt pU3HOY38 0 sdwod< optimzer_rdk + P_NOTICE t requirementstxt NUM_ RULES: Specities the number of rulos to use for ovaluation. This determlnes which prompt flos to losd (o.g., evaluator-prormpt-10.txt vs avalualor-prompt-50.txt). NUM_ SAMpLEs: Controls how marry rors to sample from the full dataset. Set to O to Use al available data, or a positive rumber to fmit the sample size tor faster exptrimentation. NUM_OPTiMiZAThON_LOoPs: Sets how mary optimization lterations to run per experiment. Esch loop gcnerates outputs, evaluates them, end refines the prompt. TRAIN_SPLIT_FRACTION: Dotermlnes the trairtost split ratio. 0.8 means 80% of data goes to training set, 20% to test set.\nThese varisbies control the experiment scope, data splittlng. cyaiuation crlteris, and ootimizstion intomsity.: (+ Coda: L+ Hrdoum!\npromot-esrang' @1 & 9 O 1: B Sedtct Portgris Sarvt TRADH spLIt_FRAcTian a a.s' a Fracttan of dats to wre for trsining (rest for cesting) ) to buxien 1on s1 trus) Doaoud Joien ean rot, uo pareg' 1tnfpe - 3ooojd wi ug soyny sa doay a 0s c s3nn hnh NUH_SwpiEs -'lea a Momher, or rovs to saple Iron the tull ditaset, o torial! t confiG: Hunber or saapler ro ise for the oroerinent. Adjust ss needed. Curior Tsb a in3, Coi 29 3 Spicex 4. Soncns: 4.: L5 (1: Cn 3 ot 26 2025-1.1-22113:03: 10",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Notebook slide with small code and configuration text; OCR is needed for reliable extraction.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "import nest_asyncio",
+        "x": 11.0,
+        "y": 20.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "Configuration",
+        "x": 10.0,
+        "y": 39.0,
+        "w": 22.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-013.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664470.2265701,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "ARHINO opuAte Itou yooun + r Yas BuuriT idwoid ozury rn tum sncwoig soedqom Nosr Bulzundo rn c qutd vopsbeo eEedqam Nosr a' t syooqojou:\nbenchmiris shnep:s: >codlng ignt rue.. Y. notebcoks D arizenx support 4.. BlzNorm-100_oval. wmetapx ompt.ixtU canda \"nb'oddns\"twet' big_bench hard JSONWeboS + Codo + Markdowm I D Run Al S Rinstart E Caar All Outputs@ Go To I B Vhw data @ Jhprter Viriabies n Outine:' pertor mance on a separate test set: Ipip inttalt -arire-phoenix-cvls-2.2.o- srixe-phoenix-ciient tlktoken openal, scthit-learn: μport nest asynclo I Aod n Chu n Guct Edu ua! nest asyncio.+pply() 昭DB sia_codo (Python 3.10.19) vonld: Python\nup uunb uooars\nm test.csy i traln.csy? 0 Configuration\nn LCENSE.tt pU3HOY38 0 sdwod< optimzer_rdk + P_NOTICE t requirementstxt NUM_ RULES: Specities the number of rulos to use for ovaluation. This determlnes which prompt flos to losd (o.g., evaluator-prormpt-10.txt vs avalualor-prompt-50.txt). NUM_ SAMpLEs: Controls how marry rors to sample from the full dataset. Set to O to Use al available data, or a positive rumber to fmit the sample size tor faster exptrimentation. NUM_OPTiMiZAThON_LOoPs: Sets how mary optimization lterations to run per experiment. Esch loop gcnerates outputs, evaluates them, end refines the prompt. TRAIN_SPLIT_FRACTION: Dotermlnes the trairtost split ratio. 0.8 means 80% of data goes to training set, 20% to test set.\nThese varisbies control the experiment scope, data splittlng. cyaiuation crlteris, and ootimizstion intomsity.: (+ Coda: L+ Hrdoum!\npromot-esrang' @1 & 9 O 1: B Sedtct Portgris Sarvt TRADH spLIt_FRAcTian a a.s' a Fracttan of dats to wre for trsining (rest for cesting) ) to buxien 1on s1 trus) Doaoud Joien ean rot, uo pareg' 1tnfpe - 3ooojd wi ug soyny sa doay a 0s c s3nn hnh NUH_SwpiEs -'lea a Momher, or rovs to saple Iron the tull ditaset, o torial! t confiG: Hunber or saapler ro ise for the oroerinent. Adjust ss needed. Curior Tsb a in3, Coi 29 3 Spicex 4. Soncns: 4.: L5 (1: Cn 3 ot 26 2025-1.1-22113:03: 10",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2509.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "ARHINO opuAte Itou yooun + r Yas BuuriT idwoid ozury rn tum sncwoig soedqom Nosr Bulzundo rn c qutd vopsbeo eEedqam Nosr a' t syooqojou:\nbenchmiris shnep:s: >codlng ignt rue.. Y. notebcoks D arizenx support 4.. BlzNorm-100_oval. wmetapx ompt.ixtU canda \"nb'oddns\"twet' big_bench hard JSONWeboS + Codo + Markdowm I D Run Al S Rinstart E Caar All Outputs@ Go To I B Vhw data @ Jhprter Viriabies n Outine:' pertor mance on a separate test set: Ipip inttalt -arire-phoenix-cvls-2.2.o- srixe-phoenix-ciient tlktoken openal, scthit-learn: μport nest asynclo I Aod n Chu n Guct Edu ua! nest asyncio.+pply() 昭DB sia_codo (Python 3.10.19) vonld: Python\nup uunb uooars\nm test.csy i traln.csy? 0 Configuration\nn LCENSE.tt pU3HOY38 0 sdwod< optimzer_rdk + P_NOTICE t requirementstxt NUM_ RULES: Specities the number of rulos to use for ovaluation. This determlnes which prompt flos to losd (o.g., evaluator-prormpt-10.txt vs avalualor-prompt-50.txt). NUM_ SAMpLEs: Controls how marry rors to sample from the full dataset. Set to O to Use al available data, or a positive rumber to fmit the sample size tor faster exptrimentation. NUM_OPTiMiZAThON_LOoPs: Sets how mary optimization lterations to run per experiment. Esch loop gcnerates outputs, evaluates them, end refines the prompt. TRAIN_SPLIT_FRACTION: Dotermlnes the trairtost split ratio. 0.8 means 80% of data goes to training set, 20% to test set.\nThese varisbies control the experiment scope, data splittlng. cyaiuation crlteris, and ootimizstion intomsity.: (+ Coda: L+ Hrdoum!\npromot-esrang' @1 & 9 O 1: B Sedtct Portgris Sarvt TRADH spLIt_FRAcTian a a.s' a Fracttan of dats to wre for trsining (rest for cesting) ) to buxien 1on s1 trus) Doaoud Joien ean rot, uo pareg' 1tnfpe - 3ooojd wi ug soyny sa doay a 0s c s3nn hnh NUH_SwpiEs -'lea a Momher, or rovs to saple Iron the tull ditaset, o torial! t confiG: Hunber or saapler ro ise for the oroerinent. Adjust ss needed. Curior Tsb a in3, Coi 29 3 Spicex 4. Soncns: 4.: L5 (1: Cn 3 ot 26 2025-1.1-22113:03: 10",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Transcription\nWHAT was said\nAIE\nlorem ipsum dolor sit amet consectetur adipiscing elit\nhendrerit morbi sed nunc morbi convallis erat non\nmollis ex sollicitudin porttitor velit at\npyannoteAl\nGoogle DeepMind\nAlEnginee",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense slide with screenshot, diagram, and small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg, #000 0 30%, #fff 30% 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 11.0,
+        "h": 19.0
+      },
+      {
+        "role": "title",
+        "text": "Transcription",
+        "x": 31.0,
+        "y": 8.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "WHAT was said",
+        "x": 31.0,
+        "y": 17.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 31.0,
+        "y": 24.0,
+        "w": 28.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 69.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 24.0
+      },
+      {
+        "role": "logo",
+        "text": "pyannoteAI",
+        "x": 25.0,
+        "y": 76.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 47.0,
+        "y": 84.0,
+        "w": 24.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/mFLlVpnGpds/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670518.2877872,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Transcription\nWHAT was said",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Transcription\nWHAT was said\nAIE\nlorem ipsum dolor sit amet consectetur adipiscing elit\nhendrerit morbi sed nunc morbi convallis erat non\nmollis ex sollicitudin porttitor velit at\npyannoteAl\nGoogle DeepMind\nAlEnginee",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 402.2
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Transcription\nWHAT was said\nAIE\nlorem ipsum dolor sit amet consectetur adipiscing elit\nhendrerit morbi sed nunc morbi convallis erat non\nmollis ex sollicitudin porttitor velit at\npyannoteAl\nGoogle DeepMind\nAlEnginee",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

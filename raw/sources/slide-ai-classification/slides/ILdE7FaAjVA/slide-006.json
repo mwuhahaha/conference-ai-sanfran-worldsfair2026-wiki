@@ -1,0 +1,48 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code-heavy slide with small monospace text is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#111111",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Dockerfile",
+        "x": 37.0,
+        "y": 12.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 33.0,
+        "y": 18.0,
+        "w": 58.0,
+        "h": 68.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/ILdE7FaAjVA/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659551.370976,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

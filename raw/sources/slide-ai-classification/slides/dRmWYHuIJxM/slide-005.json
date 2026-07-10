@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A local retrieval layer between codebase and agent\nTree-sitter Chunking Retrieval puqAH Compression Chunk Graph Code Confidence Scoring\nAST-awaresplits 10 langs Vector+8M25+RRF 94% Signatures+docs 89% CALLS.IMPORTS related Threshold gate filter\nEverything runs locally.No cloud,noAPI calls.sqlite-vec +FTS5 +graph in threeSQLite files.\ndelara-labs/code-context-engine",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-card architecture slide with small labels and metrics across several columns.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "ARCHITECTURE",
+        "x": 5.0,
+        "y": 7.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "A local retrieval layer between codebase and agent",
+        "x": 13.0,
+        "y": 13.0,
+        "w": 74.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tree-sitter Chunking\nAST-aware splits\n10 langs",
+        "x": 4.0,
+        "y": 34.0,
+        "w": 17.0,
+        "h": 28.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Hybrid Retrieval\nVector+BM25+RRF\n94%",
+        "x": 24.0,
+        "y": 34.0,
+        "w": 17.0,
+        "h": 28.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Chunk Compression\nSignatures + docs\n89%",
+        "x": 44.0,
+        "y": 34.0,
+        "w": 17.0,
+        "h": 28.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Code Graph\nCALLS • IMPORTS\nrelated",
+        "x": 64.0,
+        "y": 34.0,
+        "w": 17.0,
+        "h": 28.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Confidence Scoring\nThreshold gate\nfilter",
+        "x": 84.0,
+        "y": 34.0,
+        "w": 12.0,
+        "h": 28.0
+      },
+      {
+        "role": "caption",
+        "text": "Everything runs locally. No cloud, no API calls. sqlite-vect + FTS5 + graph in three SQLite files.",
+        "x": 18.0,
+        "y": 81.0,
+        "w": 66.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/dRmWYHuIJxM/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667285.692493,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "A local retrieval layer between codebase and agent\nTree-sitter Chunking Retrieval puqAH Compression Chunk Graph Code Confidence Scoring\nAST-awaresplits 10 langs Vector+8M25+RRF 94% Signatures+docs 89% CALLS.IMPORTS related Threshold gate filter\nEverything runs locally.No cloud,noAPI calls.sqlite-vec +FTS5 +graph in threeSQLite files.\ndelara-labs/code-context-engine",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 520.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "A local retrieval layer between codebase and agent\nTree-sitter Chunking Retrieval puqAH Compression Chunk Graph Code Confidence Scoring\nAST-awaresplits 10 langs Vector+8M25+RRF 94% Signatures+docs 89% CALLS.IMPORTS related Threshold gate filter\nEverything runs locally.No cloud,noAPI calls.sqlite-vec +FTS5 +graph in threeSQLite files.\ndelara-labs/code-context-engine",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

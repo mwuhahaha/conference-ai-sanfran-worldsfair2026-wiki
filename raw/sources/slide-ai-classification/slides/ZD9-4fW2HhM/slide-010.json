@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "code determinism commute calculation dedupe listings",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable slide; direct read is enough",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#faf8f2",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "code",
+        "x": 6.0,
+        "y": 41.0,
+        "w": 17.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "determinism",
+        "x": 10.0,
+        "y": 54.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "commute calculation",
+        "x": 9.0,
+        "y": 68.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "dedupe listings",
+        "x": 10.0,
+        "y": 78.0,
+        "w": 17.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/ZD9-4fW2HhM/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665667.5811625,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "code determinism commute calculation dedupe listings",
+  "advanced_ocr": {}
+}

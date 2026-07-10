@@ -1,89 +1,44 @@
 {
   "is_content_slide": true,
-  "confidence": 0.98,
+  "confidence": 0.97,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "Agenda\n\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+  "text": "Agenda\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple agenda slide with large list items; OCR not needed in triage.",
+  "direct_read_ready": true,
+  "text_density": "medium",
   "layout": {
-    "background": "#23363d",
-    "style": "dark",
+    "background": "dark teal",
+    "style": "minimal",
     "blocks": [
       {
         "role": "title",
         "text": "Agenda",
         "x": 2.0,
         "y": 2.0,
-        "w": 22.0,
-        "h": 8.0
+        "w": 16.0,
+        "h": 10.0
       },
       {
         "role": "body",
-        "text": "1. Meet OG Assist",
-        "x": 2.0,
+        "text": "1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+        "x": 3.0,
         "y": 16.0,
-        "w": 96.0,
-        "h": 6.0
-      },
-      {
-        "role": "body",
-        "text": "2. The Origin Story",
-        "x": 2.0,
-        "y": 24.0,
-        "w": 96.0,
-        "h": 6.0
-      },
-      {
-        "role": "body",
-        "text": "3. Betting on Effect",
-        "x": 2.0,
-        "y": 32.0,
-        "w": 96.0,
-        "h": 6.0
-      },
-      {
-        "role": "body",
-        "text": "4. The Core Agent Loop",
-        "x": 2.0,
-        "y": 41.0,
-        "w": 96.0,
-        "h": 6.0
-      },
-      {
-        "role": "body",
-        "text": "5. A2A, Evals & Sandboxing",
-        "x": 2.0,
-        "y": 49.0,
-        "w": 96.0,
-        "h": 6.0
-      },
-      {
-        "role": "body",
-        "text": "6. Long Context Handling",
-        "x": 2.0,
-        "y": 57.0,
-        "w": 96.0,
-        "h": 6.0
-      },
-      {
-        "role": "body",
-        "text": "7. Monitoring & Observability",
-        "x": 2.0,
-        "y": 66.0,
-        "w": 96.0,
-        "h": 6.0
-      },
-      {
-        "role": "body",
-        "text": "8. Tools, Skills & Dev Workflows",
-        "x": 2.0,
-        "y": 74.0,
-        "w": 96.0,
-        "h": 6.0
+        "w": 63.0,
+        "h": 66.0
       }
     ]
   },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
   "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-003.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783628984.9526963
+  "classified_at_epoch": 1783657356.8090796,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Agenda\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+  "advanced_ocr": {}
 }

@@ -1,0 +1,84 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.97,
+  "frame_type": "title_card",
+  "reject_reason": "title card",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "intro/title card rather than a content slide",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(90deg, #090909 0 18%, #f0c05a 18% 100%)",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 12.0,
+        "w": 11.0,
+        "h": 23.0
+      },
+      {
+        "role": "title",
+        "text": "Improving RecSys & Search",
+        "x": 26.0,
+        "y": 15.0,
+        "w": 49.0,
+        "h": 11.0
+      },
+      {
+        "role": "subtitle",
+        "text": "with LLM techniques",
+        "x": 35.0,
+        "y": 31.0,
+        "w": 31.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "AI Engineer World's Fair 2025, RecSys Track",
+        "x": 35.0,
+        "y": 44.0,
+        "w": 37.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "with Latte & Mochi",
+        "x": 39.0,
+        "y": 49.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 44.0,
+        "y": 78.0,
+        "w": 18.0,
+        "h": 11.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 73.0,
+        "y": 78.0,
+        "w": 12.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/reconstructed-slides/2vlCqD6igVA/slide-002.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658098.9619043,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

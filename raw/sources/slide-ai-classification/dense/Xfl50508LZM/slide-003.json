@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "other",
+  "reject_reason": "",
+  "text": "What a real explanation\nlooks like\nlabel: \"incorrect\"\nbreakdown, which is a core requirement. The agent explanation: \"rhe response fails to include a budget\nbut omits all cost estimates, making the plan incomplete for a user who asked specifically about budget travel to Tokyo.\" provides destination info and local recommendations",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code-style explanation text under a large title.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What a real explanation looks like",
+        "x": 21.0,
+        "y": 9.0,
+        "w": 58.0,
+        "h": 16.0
+      },
+      {
+        "role": "code",
+        "text": "label: \"incorrect\"",
+        "x": 24.0,
+        "y": 30.0,
+        "w": 20.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/Xfl50508LZM/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665184.268949,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "What a real explanation\nlooks like\nlabel: \"incorrect\"\nbreakdown, which is a core requirement. The agent explanation: \"rhe response fails to include a budget\nbut omits all cost estimates, making the plan incomplete for a user who asked specifically about budget travel to Tokyo.\" provides destination info and local recommendations",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 546.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "What a real explanation\nlooks like\nlabel: \"incorrect\"\nbreakdown, which is a core requirement. The agent explanation: \"rhe response fails to include a budget\nbut omits all cost estimates, making the plan incomplete for a user who asked specifically about budget travel to Tokyo.\" provides destination info and local recommendations",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

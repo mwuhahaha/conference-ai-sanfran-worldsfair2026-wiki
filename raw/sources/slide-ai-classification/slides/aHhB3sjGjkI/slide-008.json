@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Some failure modes\nNo tools\nWrong system prompt\nNo context retrieval",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Readable slide already; text is large and simple enough for direct reading.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "pale mint green",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Some failure modes",
+        "x": 8.0,
+        "y": 6.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "No tools",
+        "x": 8.0,
+        "y": 58.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Wrong system prompt",
+        "x": 38.0,
+        "y": 58.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "No context retrieval",
+        "x": 71.0,
+        "y": 58.0,
+        "w": 22.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666362.4602044,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Some failure modes\nNo tools\nWrong system prompt\nNo context retrieval",
+  "advanced_ocr": {}
+}

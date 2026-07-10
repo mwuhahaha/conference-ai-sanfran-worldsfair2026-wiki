@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "speaker_stage",
+  "reject_reason": "camera shot of speaker on stage with projected slide; not a clean slide frame",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "stage shot, not a slide capture",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "dark auditorium with white projection screen",
+    "style": "other",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Pruna AI",
+        "x": 39.0,
+        "y": 24.0,
+        "w": 22.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What AI Model is State-of-the-Art?",
+        "x": 39.0,
+        "y": 36.0,
+        "w": 24.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/hqHC6Z_lXyo/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668455.8079224,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

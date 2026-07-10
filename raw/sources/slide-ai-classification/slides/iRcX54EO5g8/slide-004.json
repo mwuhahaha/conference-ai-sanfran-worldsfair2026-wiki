@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "OurCLlatPoolside:Spoolside\nGvirg the agen eyes Into the runing app\nEdract tood & olement snapshots jueuoduos Jo eded - goysueeos\nAIE ★ Restar services locally Inleract with compononts by ref Trace DOM - Srehe components Extract logs - beckend, heiper, FE\nO Hgh lovet Open setings menu? Cde Charge feature lag',\"Seed De?\nBut the point is not our toois, it's yours\nMake toois to inleract with your produc! speclic to your product.\nAI Engineer\nEUROPE\n+h.A!Engineer",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-column dense bullets and small labels are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#000000",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Our CLI at Poolside: Spoolside",
+        "x": 28.0,
+        "y": 7.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Giving the agent eyes into the running app",
+        "x": 34.0,
+        "y": 15.0,
+        "w": 36.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Extract text & element snapshots\nInteract with components by ref\nRestart services locally\nHigh-level \"Open settings menu\"",
+        "x": 31.0,
+        "y": 25.0,
+        "w": 26.0,
+        "h": 38.0
+      },
+      {
+        "role": "body",
+        "text": "Screenshots - page or component\nTrace DOM -> Svelte components\nExtract logs - backend, helper, FE\n\"Change feature flag\": \"Seed DB\"",
+        "x": 58.0,
+        "y": 25.0,
+        "w": 27.0,
+        "h": 38.0
+      },
+      {
+        "role": "body",
+        "text": "But the point is not our tools, it's yours",
+        "x": 37.0,
+        "y": 55.0,
+        "w": 31.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Make tools to interact with your product specific to your product.",
+        "x": 37.0,
+        "y": 61.0,
+        "w": 33.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 57.0,
+        "y": 83.0,
+        "w": 22.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/iRcX54EO5g8/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669027.7257416,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Our CLI at Poolside: Spoolside",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "OurCLlatPoolside:Spoolside\nGvirg the agen eyes Into the runing app\nEdract tood & olement snapshots jueuoduos Jo eded - goysueeos\nAIE ★ Restar services locally Inleract with compononts by ref Trace DOM - Srehe components Extract logs - beckend, heiper, FE\nO Hgh lovet Open setings menu? Cde Charge feature lag',\"Seed De?\nBut the point is not our toois, it's yours\nMake toois to inleract with your produc! speclic to your product.\nAI Engineer\nEUROPE\n+h.A!Engineer",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 788.04
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "OurCLlatPoolside:Spoolside\nGvirg the agen eyes Into the runing app\nEdract tood & olement snapshots jueuoduos Jo eded - goysueeos\nAIE ★ Restar services locally Inleract with compononts by ref Trace DOM - Srehe components Extract logs - beckend, heiper, FE\nO Hgh lovet Open setings menu? Cde Charge feature lag',\"Seed De?\nBut the point is not our toois, it's yours\nMake toois to inleract with your produc! speclic to your product.\nAI Engineer\nEUROPE\n+h.A!Engineer",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

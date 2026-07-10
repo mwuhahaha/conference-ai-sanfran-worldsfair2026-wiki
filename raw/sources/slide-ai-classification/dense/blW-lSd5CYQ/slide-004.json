@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "GoogleMapsScraper\nTry tor tree\ncompass/crawler-google-places O Developed by Compass Maintained by Apify\nExtract data from thousands of Google Maps locations and businesses. Get Google Maps\nschedule and monitor runs, or Integrate with other tools. details, images, contact info, opening hours, location, prices & more. Export scraped data\n★★*★☆ 4.2 (56): (: 0 Pricing Payper event |Q 1100: 1 % Monthly users 8.2k Runs sl\nResponse time 4.5 days I G Last modified 3 hours ago:\nLead generation",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "UI screenshot with many small labels, metrics, and metadata fields.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cyan",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Google Maps Scraper",
+        "x": 16.0,
+        "y": 7.0,
+        "w": 34.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "Try for free",
+        "x": 4.0,
+        "y": 33.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "developer, pricing, rating, users, run success, response time, last modified",
+        "x": 4.0,
+        "y": 48.0,
+        "w": 92.0,
+        "h": 34.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/blW-lSd5CYQ/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666593.5782623,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/opencv-adaptive",
+    "text": "GoogleMapsScraper\nTry tor tree\ncompass/crawler-google-places O Developed by Compass Maintained by Apify\nExtract data from thousands of Google Maps locations and businesses. Get Google Maps\nschedule and monitor runs, or Integrate with other tools. details, images, contact info, opening hours, location, prices & more. Export scraped data\n★★*★☆ 4.2 (56): (: 0 Pricing Payper event |Q 1100: 1 % Monthly users 8.2k Runs sl\nResponse time 4.5 days I G Last modified 3 hours ago:\nLead generation",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 698.16
+  },
+  "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "GoogleMapsScraper\nTry tor tree\ncompass/crawler-google-places O Developed by Compass Maintained by Apify\nExtract data from thousands of Google Maps locations and businesses. Get Google Maps\nschedule and monitor runs, or Integrate with other tools. details, images, contact info, opening hours, location, prices & more. Export scraped data\n★★*★☆ 4.2 (56): (: 0 Pricing Payper event |Q 1100: 1 % Monthly users 8.2k Runs sl\nResponse time 4.5 days I G Last modified 3 hours ago:\nLead generation",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

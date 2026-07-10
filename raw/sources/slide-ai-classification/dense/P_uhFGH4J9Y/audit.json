@@ -1,0 +1,181 @@
+{
+  "video_id": "P_uhFGH4J9Y",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "About Me\nGame/AI Developer at The New York Times\nWorked previously for Business Insider, The NBA, MTV and the Department of Defense",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with black left sidebar and black footer band",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "About Me",
+            "x": 23.0,
+            "y": 3.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Game/AI Developer at The New York Times",
+            "x": 23.0,
+            "y": 14.0,
+            "w": 33.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Worked previously for Business Insider, The NBA, MTV and the Department of Defense",
+            "x": 23.0,
+            "y": 24.0,
+            "w": 36.0,
+            "h": 12.0
+          },
+          {
+            "role": "caption",
+            "text": "Shafik Quoraishee\nSenior Android/ML Games\nEngineer at the New York Time...",
+            "x": 61.0,
+            "y": 12.0,
+            "w": 30.0,
+            "h": 48.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 11.0,
+            "w": 9.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 85.0,
+            "w": 13.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 74.0,
+            "y": 85.0,
+            "w": 13.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/P_uhFGH4J9Y/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662919.0488195,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "About Me\nGame/AI Developer at The New York Times\nWorked previously for Business Insider, The NBA, MTV and the Department of Defense",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/P_uhFGH4J9Y/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Caveats to the Work You Are About to See\nThis is all my own independent research and experimentation, and not currently specifically based on New York Time’s internal research",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with black left sidebar and black footer band",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Caveats to the Work You Are About to See",
+            "x": 20.0,
+            "y": 3.0,
+            "w": 56.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "This is all my own independent research and experimentation, and not currently specifically based on New York Time’s internal research",
+            "x": 27.0,
+            "y": 23.0,
+            "w": 53.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 11.0,
+            "w": 9.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 85.0,
+            "w": 13.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 74.0,
+            "y": 85.0,
+            "w": 13.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/P_uhFGH4J9Y/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662919.0500512,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Caveats to the Work You Are About to See\nThis is all my own independent research and experimentation, and not currently specifically based on New York Time’s internal research",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/P_uhFGH4J9Y/slide-002.html"
+    }
+  ],
+  "rejected": []
+}

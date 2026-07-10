@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "T other lssue T'd Like to Mention\nTechnical Users Domain Experts\nAl Engineer Scientist Data.Subject Matter Al Product.\nDeveloper Experts: Manager:\nResponsibilities Responsibilities:\nCode/Automation Domain Prompt engineering\nPipelines/Frameworks Track and run evals\nApplication Performance / Costs Ensure product success 2025:11:22112:37:13",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Two-column comparison slide with multiple labels and responsibilities; OCR will capture it more reliably than a quick manual pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with faint pink/purple gradient near bottom",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "1 Other Issue I’d Like to Mention",
+        "x": 34.0,
+        "y": 0,
+        "w": 35.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Technical Users",
+        "x": 12.0,
+        "y": 7.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Domain Experts",
+        "x": 67.0,
+        "y": 7.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "AI Engineer",
+        "x": 7.0,
+        "y": 26.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Developer",
+        "x": 18.0,
+        "y": 43.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Data Scientist",
+        "x": 32.0,
+        "y": 26.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Subject Matter Experts",
+        "x": 59.0,
+        "y": 28.0,
+        "w": 18.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "AI Product Manager",
+        "x": 82.0,
+        "y": 27.0,
+        "w": 14.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Responsibilities",
+        "x": 24.0,
+        "y": 58.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Responsibilities",
+        "x": 71.0,
+        "y": 58.0,
+        "w": 18.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663617.6220958,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "T other lssue T'd Like to Mention\nTechnical Users Domain Experts\nAl Engineer Scientist Data.Subject Matter Al Product.\nDeveloper Experts: Manager:\nResponsibilities Responsibilities:\nCode/Automation Domain Prompt engineering\nPipelines/Frameworks Track and run evals\nApplication Performance / Costs Ensure product success 2025:11:22112:37:13",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 456.64
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "T other lssue T'd Like to Mention\nTechnical Users Domain Experts\nAl Engineer Scientist Data.Subject Matter Al Product.\nDeveloper Experts: Manager:\nResponsibilities Responsibilities:\nCode/Automation Domain Prompt engineering\nPipelines/Frameworks Track and run evals\nApplication Performance / Costs Ensure product success 2025:11:22112:37:13",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

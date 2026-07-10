@@ -1,0 +1,80 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Terms of use",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense terms page with small body text, form labels, and multiple section headers.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f2dfc0",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Terms of use",
+        "x": 5.0,
+        "y": 3.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "By registering for this event and gaining limited access to Azure AI services...",
+        "x": 5.0,
+        "y": 8.0,
+        "w": 90.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Registration Details",
+        "x": 5.0,
+        "y": 29.0,
+        "w": 28.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Your API Key  Proxy Endpoint",
+        "x": 5.0,
+        "y": 37.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Playground Access",
+        "x": 5.0,
+        "y": 49.0,
+        "w": 26.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "SDK Access",
+        "x": 5.0,
+        "y": 84.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-018.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657514.8922305,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Terms of use",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

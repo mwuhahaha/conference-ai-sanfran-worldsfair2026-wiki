@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Agentic \"Thinking Tax\"\nAutonomous loops, tool calls,\nand self-correction dominate\ncurrent application demand.\nIterative agentic workflows\nconsume 5–9x more tokens than\nstandard chat.\nRelying purely on pay-per-token\n\"Leased Intelligence\" creates\nheavy scaling operational liabilities.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 25.0
+      },
+      {
+        "role": "title",
+        "text": "The Agentic \"Thinking Tax\"",
+        "x": 37.0,
+        "y": 11.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Autonomous loops, tool calls,\nand self-correction dominate\ncurrent application demand.",
+        "x": 35.0,
+        "y": 24.0,
+        "w": 29.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Iterative agentic workflows\nconsume 5–9x more tokens than\nstandard chat.",
+        "x": 35.0,
+        "y": 42.0,
+        "w": 29.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Relying purely on pay-per-token\n\"Leased Intelligence\" creates\nheavy scaling operational liabilities.",
+        "x": 35.0,
+        "y": 60.0,
+        "w": 30.0,
+        "h": 20.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 39.0,
+        "y": 82.0,
+        "w": 40.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/SS-A8sE7hkw/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663497.2659962,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Agentic \"Thinking Tax\"\nAutonomous loops, tool calls,\nand self-correction dominate\ncurrent application demand.\nIterative agentic workflows\nconsume 5–9x more tokens than\nstandard chat.\nRelying purely on pay-per-token\n\"Leased Intelligence\" creates\nheavy scaling operational liabilities.",
+  "advanced_ocr": {}
+}

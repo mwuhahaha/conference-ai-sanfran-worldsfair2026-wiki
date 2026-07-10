@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arrakis: A Quick Tour Of Linux Sandboxing:\nUnax Execution Model\nContainerte: Why? And What?'\nAinmCotL\nContainerr: Sardbadng\nora tuaai l iruao t\nContsinert - Vrtunzston\nUinn Vrtumizadon ：：\nK·hype\nHorestit morigred by fim turta vytes Shocat te dtir by yot: Orty mo Mleroyhs vs Traditoru Vms",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Agenda slide with multiple small section rows; OCR is the better extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f4f4f2",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis: A Quick Tour Of Linux Sandboxing",
+        "x": 3.0,
+        "y": 3.0,
+        "w": 58.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Linux Execution Model",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 23.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Containers: Why? And What?",
+        "x": 4.0,
+        "y": 28.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Containers: Security Story",
+        "x": 4.0,
+        "y": 40.0,
+        "w": 27.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Containers: Sandboxing",
+        "x": 4.0,
+        "y": 52.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Containers → Virtualization",
+        "x": 4.0,
+        "y": 64.0,
+        "w": 25.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Linux Virtualization",
+        "x": 4.0,
+        "y": 76.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "MicroVMs vs Traditional VMs",
+        "x": 4.0,
+        "y": 88.0,
+        "w": 30.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-017.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673142.0205693,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Arrakis: A Quick Tour Of Linux Sandboxing",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Arrakis: A Quick Tour Of Linux Sandboxing:\nUnax Execution Model\nContainerte: Why? And What?'\nAinmCotL\nContainerr: Sardbadng\nora tuaai l iruao t\nContsinert - Vrtunzston\nUinn Vrtumizadon ：：\nK·hype\nHorestit morigred by fim turta vytes Shocat te dtir by yot: Orty mo Mleroyhs vs Traditoru Vms",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 480.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Arrakis: A Quick Tour Of Linux Sandboxing:\nUnax Execution Model\nContainerte: Why? And What?'\nAinmCotL\nContainerr: Sardbadng\nora tuaai l iruao t\nContsinert - Vrtunzston\nUinn Vrtumizadon ：：\nK·hype\nHorestit morigred by fim turta vytes Shocat te dtir by yot: Orty mo Mleroyhs vs Traditoru Vms",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

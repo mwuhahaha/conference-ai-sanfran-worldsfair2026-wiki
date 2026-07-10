@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Stage photo with presenter and audience; the projected slide is too blurry to read reliably.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a readable slide frame; this is a camera shot of the room/stage.",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "dark gray room lighting",
+    "style": "other",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "projected slide is present but illegible",
+        "x": 34.0,
+        "y": 8.0,
+        "w": 52.0,
+        "h": 58.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/BqZrTdgBaPw/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658634.54658,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

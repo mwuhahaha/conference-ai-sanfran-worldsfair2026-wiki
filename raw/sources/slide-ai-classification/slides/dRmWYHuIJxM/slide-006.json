@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why not just vector search?\nVector Search\nFTS5 (BM25)\nRRF Fusion\nRecall: 0.78\nRecall: 0.72\nRecall: 0.90",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "DEEP DIVE",
+        "x": 5.0,
+        "y": 7.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Why not just vector search?",
+        "x": 27.0,
+        "y": 12.0,
+        "w": 46.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Vector Search\nbge-small-en-v1.5 (384d). Finds conceptually related code even with different naming.\nRecall: 0.78",
+        "x": 5.0,
+        "y": 33.0,
+        "w": 30.0,
+        "h": 31.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "FTS5 (BM25)\nExact keyword matching. Catches function names and identifiers vector search fuzzes over.\nRecall: 0.72",
+        "x": 35.0,
+        "y": 33.0,
+        "w": 30.0,
+        "h": 31.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "RRF Fusion\nReciprocal Rank Fusion (k=60) merges both. Confidence blends similarity, keywords, recency.\nRecall: 0.90",
+        "x": 66.0,
+        "y": 33.0,
+        "w": 29.0,
+        "h": 31.0
+      },
+      {
+        "role": "caption",
+        "text": "Neither retriever is good enough alone. Together they cover each other's blind spots.",
+        "x": 19.0,
+        "y": 81.0,
+        "w": 63.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/dRmWYHuIJxM/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667314.9027529,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why not just vector search?\nVector Search\nFTS5 (BM25)\nRRF Fusion\nRecall: 0.78\nRecall: 0.72\nRecall: 0.90",
+  "advanced_ocr": {}
+}

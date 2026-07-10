@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.76,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Claude",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "Logo collage with minimal text",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Claude",
+        "x": 15.0,
+        "y": 10.0,
+        "w": 31.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671933.2113738,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Claude",
+  "advanced_ocr": {}
+}

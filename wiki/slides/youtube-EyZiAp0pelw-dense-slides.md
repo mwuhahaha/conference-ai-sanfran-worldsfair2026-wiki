@@ -16,6 +16,21 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/EyZiAp0pelw/slide-001.jpg]]
 
-- Source scene image: `frame-00009.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.24`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/EyZiAp0pelw/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
+
+> What did Jarvis do?
+> Compiled database from SHEILD, FBI, CIA datasets
+> Generated a UI on demand
+> Accessed "public records"
+> Brought up "thermogenic signatures"
+> "Take away everywhere there's been a mandarin attack"
+> Showed related news articles, interviews, database records, etc.
+> Created a flight plan for Tennessee
+> Door bell
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/EyZiAp0pelw/audit.json`

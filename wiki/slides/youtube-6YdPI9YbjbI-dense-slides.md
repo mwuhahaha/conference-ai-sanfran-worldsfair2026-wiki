@@ -16,11 +16,20 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/6YdPI9YbjbI/slide-001.jpg]]
 
-- Source scene image: `frame-00103.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `177.03`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/6YdPI9YbjbI/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: none.
+- OCR decision: ready — Dense UI screenshot slide with multiple small text sections and logos; OCR should read the body more reliably than manual transcription in this triage pass.
 ![[assets/dense-slides/6YdPI9YbjbI/slide-002.jpg]]
 
-- Source scene image: `frame-00106.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.55`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/6YdPI9YbjbI/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: agent_vision.
+- OCR decision: ready — Content slide with a clear title, body instruction, and an embedded product UI screenshot containing small readable text.
+
+Slide text:
+
+> Create a Braintrust project
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/6YdPI9YbjbI/audit.json`

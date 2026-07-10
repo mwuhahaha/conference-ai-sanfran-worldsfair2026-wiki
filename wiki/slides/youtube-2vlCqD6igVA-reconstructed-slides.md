@@ -14,19 +14,21 @@ sourceLabels: ["Cropped public YouTube video frames", "Local OpenCV slide-region
 This deck is reconstructed from the existing video frame captures by detecting likely slide regions with OpenCV, cropping/upscaling those regions, deduplicating similar crops, and OCRing the cropped slide images locally. It is a cleaner companion to the full-stage frame deck.
 
 ## Reconstructed Slides
-![[assets/reconstructed-slides/2vlCqD6igVA/slide-001.jpg]]
-
-- Source frame: `slide-001.jpg`
-- Crop: `full` `[0, 0, 960, 540]` score `160.08`
-![[assets/reconstructed-slides/2vlCqD6igVA/slide-002.jpg]]
-
-- Source frame: `slide-002.jpg`
-- Crop: `full` `[0, 0, 960, 540]` score `176.17`
 ![[assets/reconstructed-slides/2vlCqD6igVA/slide-003.jpg]]
 
-- Source frame: `slide-003.jpg`
-- Crop: `full` `[0, 0, 960, 540]` score `177.63`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/reconstructed/2vlCqD6igVA/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: none.
+- OCR decision: ready — dense diagram and small text across multiple callouts/screenshots
 ![[assets/reconstructed-slides/2vlCqD6igVA/slide-004.jpg]]
 
-- Source frame: `slide-004.jpg`
-- Crop: `full` `[0, 0, 960, 540]` score `176.71`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/reconstructed/2vlCqD6igVA/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.93`
+- Text source: none.
+- OCR decision: ready — slide contains a dense screenshot plus a readable aside title
+
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/reconstructed-slides/2vlCqD6igVA/slide-001.jpg) — `sponsor_logo` confidence `0.99`; sponsor logo wall
+- [`slide-002.jpg`](/assets/reconstructed-slides/2vlCqD6igVA/slide-002.jpg) — `title_card` confidence `0.97`; title card
+
+Classification audit: `raw/sources/slide-ai-classification/reconstructed/2vlCqD6igVA/audit.json`

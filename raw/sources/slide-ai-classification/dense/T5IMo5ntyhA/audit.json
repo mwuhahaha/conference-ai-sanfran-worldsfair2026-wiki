@@ -1,0 +1,88 @@
+{
+  "video_id": "T5IMo5ntyhA",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 1,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "PROBLEM\nWhen the Media Assistant Remembers Everything Except Your Listening Habits...\n• Daniel likes jazz music.\n• Daniel plays NPR podcast.\n• Daniel wakes up at 7am.\n• Daniel went to the gym.\n• Daniel listened to The Daily.\n• Daniel prefers mornings.\n• Daniel's dog is named Melody.\n• Daniel turned up the volume.\n• Daniel asked about vegan recipes.\n• Daniel paused Taylor Swift song.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large, simple text is already directly readable; OCR is not needed in this pass.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "PROBLEM",
+            "x": 28.0,
+            "y": 7.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "When the Media Assistant Remembers\nEverything Except Your Listening Habits...",
+            "x": 28.0,
+            "y": 12.0,
+            "w": 54.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "• Daniel likes jazz music.\n• Daniel plays NPR podcast.\n• Daniel wakes up at 7am.\n• Daniel went to the gym.\n• Daniel listened to The Daily.",
+            "x": 28.0,
+            "y": 36.0,
+            "w": 28.0,
+            "h": 38.0
+          },
+          {
+            "role": "body",
+            "text": "• Daniel prefers mornings.\n• Daniel's dog is named Melody.\n• Daniel turned up the volume.\n• Daniel asked about vegan recipes.\n• Daniel paused Taylor Swift song.",
+            "x": 57.0,
+            "y": 36.0,
+            "w": 31.0,
+            "h": 38.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/T5IMo5ntyhA/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664024.5001724,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "PROBLEM\nWhen the Media Assistant Remembers Everything Except Your Listening Habits...\n• Daniel likes jazz music.\n• Daniel plays NPR podcast.\n• Daniel wakes up at 7am.\n• Daniel went to the gym.\n• Daniel listened to The Daily.\n• Daniel prefers mornings.\n• Daniel's dog is named Melody.\n• Daniel turned up the volume.\n• Daniel asked about vegan recipes.\n• Daniel paused Taylor Swift song.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/T5IMo5ntyhA/slide-001.html"
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What is a learning environment?\n\nAn inferred distribution that replays what happened + what success means.\n\nObserved trace + feedback\nwhat happened\n\nMocked / real tools\nwhat the agent can call\n\nSynthetic user\nwhat interaction repeats\n\nEvaluators\nwhat success means\n\nThe output is executable:\nrun candidate agents against it, then keep the fix only if it passes.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Several small cards and a subtitle plus a long footer sentence make OCR the better extraction path for the full slide.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What is a learning environment?",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 52.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "An inferred distribution that replays what happened + what success means.",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 62.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Observed trace + feedback",
+        "x": 4.0,
+        "y": 32.0,
+        "w": 21.0,
+        "h": 27.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Mocked / real tools",
+        "x": 27.0,
+        "y": 32.0,
+        "w": 21.0,
+        "h": 27.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Synthetic user",
+        "x": 50.0,
+        "y": 32.0,
+        "w": 21.0,
+        "h": 27.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Evaluators",
+        "x": 73.0,
+        "y": 32.0,
+        "w": 21.0,
+        "h": 27.0
+      },
+      {
+        "role": "body",
+        "text": "The output is executable: run candidate agents against it, then keep the fix only if it passes.",
+        "x": 4.0,
+        "y": 81.0,
+        "w": 92.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655971.2065873,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "What is a learning environment?",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/opencv-adaptive",
+    "text": "atisalearningenvironment?\nerred distribution that replays what happened +what success means.\nbserved trace+ Whet heppened feedback? Mocked /real tools What the agent can callks Whot interaction repeats Synthetic use? What success reans Evaluators\nCun candidate agents against it-then keep the fix onlyif it passes. The output is executable:",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 537.08
+  },
+  "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "What is a learning environment?\n\nAn inferred distribution that replays what happened + what success means.\n\nObserved trace + feedback\nwhat happened\n\nMocked / real tools\nwhat the agent can call\n\nSynthetic user\nwhat interaction repeats\n\nEvaluators\nwhat success means\n\nThe output is executable:\nrun candidate agents against it, then keep the fix only if it passes.",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected from the image; fixed title, subtitle, box labels, and bottom banner text."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "+ big.bench h: > banchrnur.>:coding_agent \"cond 十 Code + Makdom I D Run Al S Restart Char Al Outputz:| Ee Vhw data. Jupyter Variblrs. E Outine: rotebooks > B JSON_webpage_genoration (pynb ' m Audltionot Matrics > ui Oplimizatlan Loop ) + Iimport sys trmin_set[-correctness*] * (None] + lea(trsin set) train_set[-rute_ vlotatfons.] = [tone] e: len(train set) trein_set[-explanation\"] - (None! u lenttrainset) nD DE -.n. aia_codo (Python 3.10.19)\nv notebooks [ Rarra_support_qut.. ariraax 'support 4-i B BizNorm100_w n tostcsy B phoenb_support q. t. meiaprompt.tt U JSON WPM support_query_clh.. u: opt intzer = Proaptlearningoptinizer( train_set, -. optinizer.run_evatuotorst troin_set,. pro+ot-.yste gro*pt,. openai_apl_key*as.getenv(\"oPBAr_API_KEr\") Sodet eharre-\"aot -4o\".. eyaluators. fecdbackcoluensI\"correctness\",\nR. LICENSE.ot Isdwod e 2. opbmze_sdk + p_notice I talr.csy: $ystea_pro-pt. t-optinircr.optinixt! \"output\". trein_set,: context siic t+128eh feedback cotuntit-correctness\". \"rule_vlolations\"]:\n.@ READMEmd\n1NLn0 5. + requlrumertatrt V:mn+ O pomp-mng 01A9016 fet! y_pred_trsin_post - train evats post tralioutputs_post - generate_output(trsin_set; systeapronot): troin_set post =:troin_set.topy(). train_evats_postgall = evaluate_output (train_set post) fo]. train ewils post - train_ewals post_atlf-corrcttncss\"] train_setric_post vatue'-conputa_netricty_true_trair_post, y_preo_train_post. tcorerscorer! train_set postfroutput\"] s tesin_outputs post Ytruetrain_post- I\"correct\"J = len(train_evsls_posi) train_setrics,append(train_metric post_value) 0 Evaluato.trbin, set after optimlzatIon Sehct Posigr+t Sery? Cnar Tss Pa Soscre 4. Vb. sf 2025-11-22113:21:58 Ch4 20 ot 27 广",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code slide with multiple small code lines and parameters; OCR is the right triage path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "model_choice=\"gpt-4o\"",
+        "x": 26.0,
+        "y": 21.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "feedback_columns=[\"correctness\", \"explanation\", \"rule_violations\"]",
+        "x": 22.0,
+        "y": 33.0,
+        "w": 56.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "context_size_kb=128000",
+        "x": 26.0,
+        "y": 55.0,
+        "w": 26.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-027.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-027.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665787.3610215,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "+ big.bench h: > banchrnur.>:coding_agent \"cond 十 Code + Makdom I D Run Al S Restart Char Al Outputz:| Ee Vhw data. Jupyter Variblrs. E Outine: rotebooks > B JSON_webpage_genoration (pynb ' m Audltionot Matrics > ui Oplimizatlan Loop ) + Iimport sys trmin_set[-correctness*] * (None] + lea(trsin set) train_set[-rute_ vlotatfons.] = [tone] e: len(train set) trein_set[-explanation\"] - (None! u lenttrainset) nD DE -.n. aia_codo (Python 3.10.19)\nv notebooks [ Rarra_support_qut.. ariraax 'support 4-i B BizNorm100_w n tostcsy B phoenb_support q. t. meiaprompt.tt U JSON WPM support_query_clh.. u: opt intzer = Proaptlearningoptinizer( train_set, -. optinizer.run_evatuotorst troin_set,. pro+ot-.yste gro*pt,. openai_apl_key*as.getenv(\"oPBAr_API_KEr\") Sodet eharre-\"aot -4o\".. eyaluators. fecdbackcoluensI\"correctness\",\nR. LICENSE.ot Isdwod e 2. opbmze_sdk + p_notice I talr.csy: $ystea_pro-pt. t-optinircr.optinixt! \"output\". trein_set,: context siic t+128eh feedback cotuntit-correctness\". \"rule_vlolations\"]:\n.@ READMEmd\n1NLn0 5. + requlrumertatrt V:mn+ O pomp-mng 01A9016 fet! y_pred_trsin_post - train evats post tralioutputs_post - generate_output(trsin_set; systeapronot): troin_set post =:troin_set.topy(). train_evats_postgall = evaluate_output (train_set post) fo]. train ewils post - train_ewals post_atlf-corrcttncss\"] train_setric_post vatue'-conputa_netricty_true_trair_post, y_preo_train_post. tcorerscorer! train_set postfroutput\"] s tesin_outputs post Ytruetrain_post- I\"correct\"J = len(train_evsls_posi) train_setrics,append(train_metric post_value) 0 Evaluato.trbin, set after optimlzatIon Sehct Posigr+t Sery? Cnar Tss Pa Soscre 4. Vb. sf 2025-11-22113:21:58 Ch4 20 ot 27 广",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1575.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "+ big.bench h: > banchrnur.>:coding_agent \"cond 十 Code + Makdom I D Run Al S Restart Char Al Outputz:| Ee Vhw data. Jupyter Variblrs. E Outine: rotebooks > B JSON_webpage_genoration (pynb ' m Audltionot Matrics > ui Oplimizatlan Loop ) + Iimport sys trmin_set[-correctness*] * (None] + lea(trsin set) train_set[-rute_ vlotatfons.] = [tone] e: len(train set) trein_set[-explanation\"] - (None! u lenttrainset) nD DE -.n. aia_codo (Python 3.10.19)\nv notebooks [ Rarra_support_qut.. ariraax 'support 4-i B BizNorm100_w n tostcsy B phoenb_support q. t. meiaprompt.tt U JSON WPM support_query_clh.. u: opt intzer = Proaptlearningoptinizer( train_set, -. optinizer.run_evatuotorst troin_set,. pro+ot-.yste gro*pt,. openai_apl_key*as.getenv(\"oPBAr_API_KEr\") Sodet eharre-\"aot -4o\".. eyaluators. fecdbackcoluensI\"correctness\",\nR. LICENSE.ot Isdwod e 2. opbmze_sdk + p_notice I talr.csy: $ystea_pro-pt. t-optinircr.optinixt! \"output\". trein_set,: context siic t+128eh feedback cotuntit-correctness\". \"rule_vlolations\"]:\n.@ READMEmd\n1NLn0 5. + requlrumertatrt V:mn+ O pomp-mng 01A9016 fet! y_pred_trsin_post - train evats post tralioutputs_post - generate_output(trsin_set; systeapronot): troin_set post =:troin_set.topy(). train_evats_postgall = evaluate_output (train_set post) fo]. train ewils post - train_ewals post_atlf-corrcttncss\"] train_setric_post vatue'-conputa_netricty_true_trair_post, y_preo_train_post. tcorerscorer! train_set postfroutput\"] s tesin_outputs post Ytruetrain_post- I\"correct\"J = len(train_evsls_posi) train_setrics,append(train_metric post_value) 0 Evaluato.trbin, set after optimlzatIon Sehct Posigr+t Sery? Cnar Tss Pa Soscre 4. Vb. sf 2025-11-22113:21:58 Ch4 20 ot 27 广",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

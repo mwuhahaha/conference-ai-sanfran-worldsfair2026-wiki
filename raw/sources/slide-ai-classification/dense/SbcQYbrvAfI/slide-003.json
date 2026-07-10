@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Coding Agents on Swe-Behcn Llte, No Prompt Changes\ncline CLRUDE CODE\nSonnet 4-5: GPT 4.1 Sonnet4-5: Haiku 4.5\nCost: S3/1M tokens Cost: S2/1M tokens Cost: S3/im tokens: Cost: S1/1M tokens\nLatency: Latency: Latency: Latency:\n30.00% 18.67% 40.00% 18.67%\nGithub Issues resolved Github 1ssues resolved Github Issues: resolved Github Issues resolved\nAarlze I \"o Hre A Wark. 20251122112:42:38",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Benchmark/results slide with multiple cards, logos, and percentage figures; dense enough that OCR is the better extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with subtle pink glow near bottom",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Coding Agents on SWE-Bench Lite, No Prompt Changes",
+        "x": 10.0,
+        "y": 0,
+        "w": 65.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "cline",
+        "x": 19.0,
+        "y": 15.0,
+        "w": 11.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "CLAUDE CODE",
+        "x": 69.0,
+        "y": 8.0,
+        "w": 18.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Sonnet 4-5",
+        "x": 10.0,
+        "y": 29.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "GPT 4.1",
+        "x": 35.0,
+        "y": 29.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Sonnet 4-5",
+        "x": 61.0,
+        "y": 29.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Haiku 4.5",
+        "x": 86.0,
+        "y": 29.0,
+        "w": 9.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663661.2729146,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Coding Agents on Swe-Behcn Llte, No Prompt Changes\ncline CLRUDE CODE\nSonnet 4-5: GPT 4.1 Sonnet4-5: Haiku 4.5\nCost: S3/1M tokens Cost: S2/1M tokens Cost: S3/im tokens: Cost: S1/1M tokens\nLatency: Latency: Latency: Latency:\n30.00% 18.67% 40.00% 18.67%\nGithub Issues resolved Github 1ssues resolved Github Issues: resolved Github Issues resolved\nAarlze I \"o Hre A Wark. 20251122112:42:38",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 507.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Coding Agents on Swe-Behcn Llte, No Prompt Changes\ncline CLRUDE CODE\nSonnet 4-5: GPT 4.1 Sonnet4-5: Haiku 4.5\nCost: S3/1M tokens Cost: S2/1M tokens Cost: S3/im tokens: Cost: S1/1M tokens\nLatency: Latency: Latency: Latency:\n30.00% 18.67% 40.00% 18.67%\nGithub Issues resolved Github 1ssues resolved Github Issues: resolved Github Issues resolved\nAarlze I \"o Hre A Wark. 20251122112:42:38",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

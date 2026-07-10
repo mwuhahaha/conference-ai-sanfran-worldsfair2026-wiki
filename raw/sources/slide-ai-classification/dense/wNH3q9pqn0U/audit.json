@@ -1,0 +1,1212 @@
+{
+  "video_id": "wNH3q9pqn0U",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 14,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "LabMind",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshot with multiple small labels and panels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 3.0,
+            "y": 19.0,
+            "w": 11.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "LabMind",
+            "x": 40.0,
+            "y": 2.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "label",
+            "text": "Research Assistant",
+            "x": 76.0,
+            "y": 16.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "label",
+            "text": "Sensor Array",
+            "x": 44.0,
+            "y": 48.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Analyze Sensor Data",
+            "x": 40.0,
+            "y": 58.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 61.0,
+            "y": 85.0,
+            "w": 10.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672381.756883,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "LabMind",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 122.76,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Readability is best handled by OCR because the slide is a UI screenshot with small control labels and buttons.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 3.0,
+            "y": 18.0,
+            "w": 11.0,
+            "h": 14.0
+          },
+          {
+            "role": "label",
+            "text": "Pitch Absolute Angle",
+            "x": 62.0,
+            "y": 6.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Motor Speed",
+            "x": 62.0,
+            "y": 14.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Target Track Estimate",
+            "x": 62.0,
+            "y": 22.0,
+            "w": 23.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Shortcut Buttons",
+            "x": 62.0,
+            "y": 39.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "button",
+            "text": "Stop",
+            "x": 62.0,
+            "y": 47.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "button",
+            "text": "Standby",
+            "x": 74.0,
+            "y": 47.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "button",
+            "text": "Continue",
+            "x": 86.0,
+            "y": 47.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "button",
+            "text": "Emergency Stop",
+            "x": 62.0,
+            "y": 54.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 43.0,
+            "y": 84.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 75.0,
+            "y": 84.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672386.5464962,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/contrast",
+        "best_score": 15.54,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "LabMind",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-panel product UI screenshot with charting and assistant text suitable for OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "LabMind",
+            "x": 44.0,
+            "y": 2.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Research Assistant",
+            "x": 80.0,
+            "y": 15.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Real-time Sensor Trends",
+            "x": 48.0,
+            "y": 40.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Manual Camera Analysis",
+            "x": 47.0,
+            "y": 64.0,
+            "w": 22.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672392.337201,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "LabMind",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 55.48,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The AI Co-Scientist",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshot with charts, assistant panel, and multiple small labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "LabMind",
+            "x": 44.0,
+            "y": 2.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Research Assistant",
+            "x": 80.0,
+            "y": 15.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Real Time Sensor Trends",
+            "x": 49.0,
+            "y": 36.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "The AI Co-Scientist",
+            "x": 31.0,
+            "y": 92.0,
+            "w": 33.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672396.4590247,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The AI Co-Scientist",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/contrast",
+        "best_score": 102.2,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Input Sources Backend Servlces\nAIE express\nJacdac USB LabMind App\nDo SensorsModule\nreCamera Webcam WebcamModule\n8- AChatVodule Real-time AIAPI\nText Inpu! 8 8\naws",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture diagram with multiple labels and a small hardware photo; OCR is the cheapest reliable read path.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Real time AI co scientist",
+            "x": 24.0,
+            "y": 0,
+            "w": 30.0,
+            "h": 6.0
+          },
+          {
+            "role": "label",
+            "text": "Input Sources",
+            "x": 24.0,
+            "y": 12.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Backend Services",
+            "x": 59.0,
+            "y": 12.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Jacdac USB",
+            "x": 23.0,
+            "y": 22.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "LabMind App",
+            "x": 40.0,
+            "y": 22.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Webcam reCamera",
+            "x": 23.0,
+            "y": 39.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "SensorModule",
+            "x": 39.0,
+            "y": 39.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Text Input",
+            "x": 23.0,
+            "y": 57.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "express",
+            "x": 51.0,
+            "y": 18.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Real-time AI API",
+            "x": 50.0,
+            "y": 42.0,
+            "w": 15.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672403.7207623,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Real time AI co scientist",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Input Sources Backend Servlces\nAIE express\nJacdac USB LabMind App\nDo SensorsModule\nreCamera Webcam WebcamModule\n8- AChatVodule Real-time AIAPI\nText Inpu! 8 8\naws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 297.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Input Sources Backend Servlces\nAIE express\nJacdac USB LabMind App\nDo SensorsModule\nreCamera Webcam WebcamModule\n8- AChatVodule Real-time AIAPI\nText Inpu! 8 8\naws",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE SensorArray ·C humidity\nsound motion Processing\nCNMERNS DB sound Request beaker crystals\nWebUSB API Response\nMicrobit boards, Jacdac Sensors, Recamera\nMicrosoft smol ai",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram plus labeled hardware collage with many small labels and logos; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black and white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Sensor Array",
+            "x": 56.0,
+            "y": 7.0,
+            "w": 17.0,
+            "h": 6.0
+          },
+          {
+            "role": "label",
+            "text": "c",
+            "x": 53.0,
+            "y": 18.0,
+            "w": 4.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "humidity",
+            "x": 61.0,
+            "y": 18.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "sound",
+            "x": 55.0,
+            "y": 32.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "motion",
+            "x": 63.0,
+            "y": 32.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "DB",
+            "x": 54.0,
+            "y": 47.0,
+            "w": 5.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "sound",
+            "x": 69.0,
+            "y": 47.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "WebUSB",
+            "x": 58.0,
+            "y": 63.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "API",
+            "x": 75.0,
+            "y": 67.0,
+            "w": 5.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Request",
+            "x": 81.0,
+            "y": 54.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Response",
+            "x": 83.0,
+            "y": 66.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 44.0,
+            "y": 85.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 74.0,
+            "y": 84.0,
+            "w": 13.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672414.579962,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Sensor Array",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "AIE SensorArray ·C humidity\nsound motion Processing\nCNMERNS DB sound Request beaker crystals\nWebUSB API Response\nMicrobit boards, Jacdac Sensors, Recamera\nMicrosoft smol ai",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 300.52
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "AIE SensorArray ·C humidity\nsound motion Processing\nCNMERNS DB sound Request beaker crystals\nWebUSB API Response\nMicrobit boards, Jacdac Sensors, Recamera\nMicrosoft smol ai",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Fermentation",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Visual collage slide with a single short caption; text is sparse and the main evidence is the images.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "white with black left sidebar and black footer",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 9.0,
+            "w": 12.0,
+            "h": 26.0
+          },
+          {
+            "role": "caption",
+            "text": "Fermentation",
+            "x": 66.0,
+            "y": 79.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 44.0,
+            "y": 87.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 74.0,
+            "y": 87.0,
+            "w": 11.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672538.5938265,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Fermentation",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Lab in a box (kind of)",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title slide with one readable title and a single photo; OCR is unnecessary.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with black left sidebar",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 9.0,
+            "w": 12.0,
+            "h": 26.0
+          },
+          {
+            "role": "title",
+            "text": "Lab in a box (kind of)",
+            "x": 28.0,
+            "y": 40.0,
+            "w": 23.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 52.0,
+            "y": 87.0,
+            "w": 11.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672538.5944152,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Lab in a box (kind of)",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Science of Supersaturation Demo 1: Crystal Growth\nAIE supersaturatcd solution - more salt than water con nowhere to go oxcept to arrango themselves into cools and watcr cvaporatcs, salt molcculcs have Organizcd crystal structures. Tho scod crystal providos a template, and layers build up atom by atom. When balt dissolves in hot water, we create a normally hold at room temperature. As the solution: 21- o94*.\nKoy Scicntific Concopts:\n- Solubllity curvos: More salt dissolves in hot water than cold\n. Nuclentlon sltes: Vhere crystals begin to form\n. Growth ratos: Affected by temperature. concontration, and purity\n: Crystal lattico: How atoms srrange in repeating\n3D.natterns\naws",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-column slide with small body text and embedded chart/image content; OCR will likely be more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black left sidebar and black footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 9.0,
+            "w": 12.0,
+            "h": 26.0
+          },
+          {
+            "role": "title",
+            "text": "Demo 1: Crystal Growth",
+            "x": 20.0,
+            "y": 0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "The Science of Supersaturation",
+            "x": 20.0,
+            "y": 7.0,
+            "w": 46.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 51.0,
+            "y": 87.0,
+            "w": 11.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672538.5948875,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Demo 1: Crystal Growth",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "The Science of Supersaturation Demo 1: Crystal Growth\nAIE supersaturatcd solution - more salt than water con nowhere to go oxcept to arrango themselves into cools and watcr cvaporatcs, salt molcculcs have Organizcd crystal structures. Tho scod crystal providos a template, and layers build up atom by atom. When balt dissolves in hot water, we create a normally hold at room temperature. As the solution: 21- o94*.\nKoy Scicntific Concopts:\n- Solubllity curvos: More salt dissolves in hot water than cold\n. Nuclentlon sltes: Vhere crystals begin to form\n. Growth ratos: Affected by temperature. concontration, and purity\n: Crystal lattico: How atoms srrange in repeating\n3D.natterns\naws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 997.76
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "The Science of Supersaturation Demo 1: Crystal Growth\nAIE supersaturatcd solution - more salt than water con nowhere to go oxcept to arrango themselves into cools and watcr cvaporatcs, salt molcculcs have Organizcd crystal structures. Tho scod crystal providos a template, and layers build up atom by atom. When balt dissolves in hot water, we create a normally hold at room temperature. As the solution: 21- o94*.\nKoy Scicntific Concopts:\n- Solubllity curvos: More salt dissolves in hot water than cold\n. Nuclentlon sltes: Vhere crystals begin to form\n. Growth ratos: Affected by temperature. concontration, and purity\n: Crystal lattico: How atoms srrange in repeating\n3D.natterns\naws",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Primarily a product/UI screenshot embedded in the slide; readable text is secondary to the visual demo content.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "white with black left sidebar and black footer",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 9.0,
+            "w": 12.0,
+            "h": 26.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 44.0,
+            "y": 87.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 74.0,
+            "y": 87.0,
+            "w": 11.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672583.3422844,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "· Nucleation is not gradual - it happens in bursts\n52 · Critical supersaturation reached - sudden ·Energy barrier overcome → rapid cluster formation crystal seed formation\nOotectiee (uoMSe\nMio(CrrtalGronth\nMicrosoft smol ai",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense slide with small bullet text and plotted charts; OCR is the right extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black left sidebar and black footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 9.0,
+            "w": 12.0,
+            "h": 26.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 44.0,
+            "y": 87.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 74.0,
+            "y": 87.0,
+            "w": 11.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672583.343091,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/contrast",
+        "text": "· Nucleation is not gradual - it happens in bursts\n52 · Critical supersaturation reached - sudden ·Energy barrier overcome → rapid cluster formation crystal seed formation\nOotectiee (uoMSe\nMio(CrrtalGronth\nMicrosoft smol ai",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 334.72
+      },
+      "ocr_source": "rapidocr-live/right-72/contrast",
+      "ocr_reconcile": {
+        "text": "· Nucleation is not gradual - it happens in bursts\n52 · Critical supersaturation reached - sudden ·Energy barrier overcome → rapid cluster formation crystal seed formation\nOotectiee (uoMSe\nMio(CrrtalGronth\nMicrosoft smol ai",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Demo 2: Yeast Fermentation\nAIE produce CO, gas as waste. In bread dough, this CO, gets trapped by gluten proteins, creating bubbles that Yeast are living mlcroorganisms thot eat sugo! and Wobcam Wobcam\nthe same process used to make bread, beer, and wine for thousands of ycars. make the dough riso. This is anoerobic fermontation -\nKey Scientific Concepts:\n. Enrye setivity Yoast enzymes break down\ncomplex sugars\n. Metsbollc rate: How quickly organisms process nutricnts\n. Gss laws: CO, production creates pressure and volume changes\n. Growth phatot: Log - Exponontial - Statiorary - Decline\naws",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense slide with paragraph text and multiple screenshots; OCR will be more efficient than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black left sidebar and black footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 9.0,
+            "w": 12.0,
+            "h": 26.0
+          },
+          {
+            "role": "title",
+            "text": "Demo 2: Yeast Fermentation",
+            "x": 20.0,
+            "y": 0,
+            "w": 38.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 52.0,
+            "y": 87.0,
+            "w": 11.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672603.5068002,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Demo 2: Yeast Fermentation",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Demo 2: Yeast Fermentation\nAIE produce CO, gas as waste. In bread dough, this CO, gets trapped by gluten proteins, creating bubbles that Yeast are living mlcroorganisms thot eat sugo! and Wobcam Wobcam\nthe same process used to make bread, beer, and wine for thousands of ycars. make the dough riso. This is anoerobic fermontation -\nKey Scientific Concepts:\n. Enrye setivity Yoast enzymes break down\ncomplex sugars\n. Metsbollc rate: How quickly organisms process nutricnts\n. Gss laws: CO, production creates pressure and volume changes\n. Growth phatot: Log - Exponontial - Statiorary - Decline\naws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 954.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Demo 2: Yeast Fermentation\nAIE produce CO, gas as waste. In bread dough, this CO, gets trapped by gluten proteins, creating bubbles that Yeast are living mlcroorganisms thot eat sugo! and Wobcam Wobcam\nthe same process used to make bread, beer, and wine for thousands of ycars. make the dough riso. This is anoerobic fermontation -\nKey Scientific Concepts:\n. Enrye setivity Yoast enzymes break down\ncomplex sugars\n. Metsbollc rate: How quickly organisms process nutricnts\n. Gss laws: CO, production creates pressure and volume changes\n. Growth phatot: Log - Exponontial - Statiorary - Decline\naws",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE 26-89\nYeast Enzyme Activity vs Temperature\nAg27.6°C Actual Range Enzyme Activity\nFermentation experimentrecording speedup\nMicrosoft smol?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot, chart, and small embedded labels are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black left panel with white main slide area",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 10.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 17.0,
+            "y": 5.0,
+            "w": 52.0,
+            "h": 52.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Yeast Enzyme Activity vs Temperature",
+            "x": 70.0,
+            "y": 38.0,
+            "w": 27.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "Fermentation experiment recording speedup",
+            "x": 20.0,
+            "y": 52.0,
+            "w": 35.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 88.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "swol.ai",
+            "x": 68.0,
+            "y": 87.0,
+            "w": 14.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672665.8496814,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "AIE 26-89\nYeast Enzyme Activity vs Temperature\nAg27.6°C Actual Range Enzyme Activity\nFermentation experimentrecording speedup\nMicrosoft smol?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 223.68
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "AIE 26-89\nYeast Enzyme Activity vs Temperature\nAg27.6°C Actual Range Enzyme Activity\nFermentation experimentrecording speedup\nMicrosoft smol?",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Future...",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-panel imagery and small embedded UI labels are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black left panel with white slide body and black footer",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 10.0,
+            "h": 11.0
+          },
+          {
+            "role": "title",
+            "text": "The Future...",
+            "x": 45.0,
+            "y": 0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 22.0,
+            "y": 13.0,
+            "w": 34.0,
+            "h": 42.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 69.0,
+            "y": 7.0,
+            "w": 27.0,
+            "h": 68.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 48.0,
+            "y": 89.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "swol.ai",
+            "x": 71.0,
+            "y": 87.0,
+            "w": 11.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wNH3q9pqn0U/slide-014.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672673.911171,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Future...",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/opencv-adaptive",
+        "best_score": 66.4,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wNH3q9pqn0U/slide-014.html"
+    }
+  ],
+  "rejected": []
+}

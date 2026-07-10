@@ -1,0 +1,787 @@
+{
+  "video_id": "himhGiWJXjo",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 9,
+  "rejected_count": 4,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Embrace the AI overlords\nGive them the data they need.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple large text; direct read is sufficient.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#1a1a14 linear-gradient(90deg, #1a1a14 0%, #1b1730 60%)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Embrace the AI overlords",
+            "x": 6.0,
+            "y": 21.0,
+            "w": 39.0,
+            "h": 28.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Give them the data they need.",
+            "x": 8.0,
+            "y": 58.0,
+            "w": 36.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "Pacha DDN",
+            "x": 4.0,
+            "y": 94.0,
+            "w": 13.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-002.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668336.7605853,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Embrace the AI overlords\nGive them the data they need.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/himhGiWJXjo/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Why is the deal with ACME stuck in stage 3?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large simple title slide; direct read is sufficient.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#eaf5df linear-gradient(90deg, #eaf5df 0%, #1f1f1b 50%)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "salesforce",
+            "x": 9.0,
+            "y": 20.0,
+            "w": 29.0,
+            "h": 33.0
+          },
+          {
+            "role": "title",
+            "text": "Why is the deal with ACME stuck in stage 3?",
+            "x": 55.0,
+            "y": 31.0,
+            "w": 39.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-004.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668336.7614932,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why is the deal with ACME stuck in stage 3?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/himhGiWJXjo/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "We solved this.\nMake your data & business logic available as a tool for your LLM.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple large text; direct read is sufficient.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#1d1d16",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "We solved this.",
+            "x": 35.0,
+            "y": 31.0,
+            "w": 29.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Make your data & business logic available as a tool for your LLM.",
+            "x": 5.0,
+            "y": 52.0,
+            "w": 90.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "Pacha DDN",
+            "x": 4.0,
+            "y": 94.0,
+            "w": 13.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-005.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668336.7620032,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "We solved this.\nMake your data & business logic available as a tool for your LLM.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/himhGiWJXjo/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "demo_video",
+      "reject_reason": "",
+      "text": "coco-aasc:af-engine(esin)s try runchat-d postgrescsrosIGRES-s public\ntaaPacha Chatmts\nPress double Entar after you are done entering your query.\nUser:help ee vriu\nAIE\nWond'sFai ALmbda Microsoft smol ai",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense terminal/demo screenshot with small code and UI text; OCR is likely better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#001515",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Pacha Chat",
+            "x": 18.0,
+            "y": 12.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "Press double Enter after you are done entering your query.",
+            "x": 18.0,
+            "y": 18.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "code",
+            "text": "User: help me writ",
+            "x": 18.0,
+            "y": 26.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 11.0,
+            "h": 16.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 43.0,
+            "y": 81.0,
+            "w": 25.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 74.0,
+            "y": 81.0,
+            "w": 20.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-007.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668413.5096831,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Pacha Chat",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "coco-aasc:af-engine(esin)s try runchat-d postgrescsrosIGRES-s public\ntaaPacha Chatmts\nPress double Entar after you are done entering your query.\nUser:help ee vriu\nAIE\nWond'sFai ALmbda Microsoft smol ai",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 372.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "coco-aasc:af-engine(esin)s try runchat-d postgrescsrosIGRES-s public\ntaaPacha Chatmts\nPress double Entar after you are done entering your query.\nUser:help ee vriu\nAIE\nWond'sFai ALmbda Microsoft smol ai",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/himhGiWJXjo/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "demo_video",
+      "reject_reason": "",
+      "text": "executor.cutput(ho recentrentals foundfor top custoaer')\nexecutor.output（fTep custoner:[custonernane]（foustoner_eaail])VnRecent sovles:[*,.join（recent.movles)') rocent.novies=[aovietitle]fornovie inrecent.rentals]\nAIE merId CROER BY COUNT(reotal.io) DESC LINIT1) SOL Oury: SELEcY flrstnano,last.nae,eall FRO publlc.custo#er WERE custo#r_id(SELECI customer_id FRO publlc.rental GouP 8Y custo\nSOLRagponse:[frst_A#e':*ELEANOR,*lasLnaRo:HUNT','e#aiI:LEANOR,HUNTsakSlacustomr.rg']\nSL Quory: SElECT f.title FRo public.rental r3oiN public.1nvontory i ON r.iventory.idi.inventory-ld Joi public.filn f C i.filn.id.rental-date DESC LIHITS fileLid EREr.cstomer_id*(SELECI custoerid FRO public.rental GROuP BY custooer-id CRDER BY COuNT(rental.i) DESC LIET 1) ORDER BYr\nSOReSpO: Etitle':RACER EGG'],tItle:NURNY CREATURES'},'Itle':HELLFIGHTERS SIERRA',['itle:IZARO COLDBLOOOED'},[it 1:'DINOSAURSECRETARY]\nDacy Plan Exacytion Result: NT（ELEANOR.NuNTsaklscustomer.org) MURKY CREATURES,HELLFIGHTERS SIERRA,WTZARO COLCBLGOOED,DINOSAUR SECRETARY\nWonr'sFai Lambda Microsoft smol ai",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense SQL/code output screenshot with small multi-line text and query results; OCR is better suited here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#001515",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "SQL Query",
+            "x": 18.0,
+            "y": 25.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "SQL Response",
+            "x": 18.0,
+            "y": 43.0,
+            "w": 23.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 11.0,
+            "h": 16.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 43.0,
+            "y": 81.0,
+            "w": 25.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 74.0,
+            "y": 81.0,
+            "w": 20.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-008.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668435.6633306,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "SQL Query",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "executor.cutput(ho recentrentals foundfor top custoaer')\nexecutor.output（fTep custoner:[custonernane]（foustoner_eaail])VnRecent sovles:[*,.join（recent.movles)') rocent.novies=[aovietitle]fornovie inrecent.rentals]\nAIE merId CROER BY COUNT(reotal.io) DESC LINIT1) SOL Oury: SELEcY flrstnano,last.nae,eall FRO publlc.custo#er WERE custo#r_id(SELECI customer_id FRO publlc.rental GouP 8Y custo\nSOLRagponse:[frst_A#e':*ELEANOR,*lasLnaRo:HUNT','e#aiI:LEANOR,HUNTsakSlacustomr.rg']\nSL Quory: SElECT f.title FRo public.rental r3oiN public.1nvontory i ON r.iventory.idi.inventory-ld Joi public.filn f C i.filn.id.rental-date DESC LIHITS fileLid EREr.cstomer_id*(SELECI custoerid FRO public.rental GROuP BY custooer-id CRDER BY COuNT(rental.i) DESC LIET 1) ORDER BYr\nSOReSpO: Etitle':RACER EGG'],tItle:NURNY CREATURES'},'Itle':HELLFIGHTERS SIERRA',['itle:IZARO COLDBLOOOED'},[it 1:'DINOSAURSECRETARY]\nDacy Plan Exacytion Result: NT（ELEANOR.NuNTsaklscustomer.org) MURKY CREATURES,HELLFIGHTERS SIERRA,WTZARO COLCBLGOOED,DINOSAUR SECRETARY\nWonr'sFai Lambda Microsoft smol ai",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1271.26
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "executor.cutput(ho recentrentals foundfor top custoaer')\nexecutor.output（fTep custoner:[custonernane]（foustoner_eaail])VnRecent sovles:[*,.join（recent.movles)') rocent.novies=[aovietitle]fornovie inrecent.rentals]\nAIE merId CROER BY COUNT(reotal.io) DESC LINIT1) SOL Oury: SELEcY flrstnano,last.nae,eall FRO publlc.custo#er WERE custo#r_id(SELECI customer_id FRO publlc.rental GouP 8Y custo\nSOLRagponse:[frst_A#e':*ELEANOR,*lasLnaRo:HUNT','e#aiI:LEANOR,HUNTsakSlacustomr.rg']\nSL Quory: SElECT f.title FRo public.rental r3oiN public.1nvontory i ON r.iventory.idi.inventory-ld Joi public.filn f C i.filn.id.rental-date DESC LIHITS fileLid EREr.cstomer_id*(SELECI custoerid FRO public.rental GROuP BY custooer-id CRDER BY COuNT(rental.i) DESC LIET 1) ORDER BYr\nSOReSpO: Etitle':RACER EGG'],tItle:NURNY CREATURES'},'Itle':HELLFIGHTERS SIERRA',['itle:IZARO COLDBLOOOED'},[it 1:'DINOSAURSECRETARY]\nDacy Plan Exacytion Result: NT（ELEANOR.NuNTsaklscustomer.org) MURKY CREATURES,HELLFIGHTERS SIERRA,WTZARO COLCBLGOOED,DINOSAUR SECRETARY\nWonr'sFai Lambda Microsoft smol ai",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/himhGiWJXjo/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "diagram",
+      "reject_reason": "",
+      "text": "LLMs don't know what your API is.\nBut LLMs know what SQL is.\nWhat if everything was SQL?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#1b1b17",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "LLMs don't know what your API is.\nBut LLMs know what SQL is.\nWhat if everything was SQL?",
+            "x": 19.0,
+            "y": 9.0,
+            "w": 62.0,
+            "h": 28.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Your orchestration or AI tool calling",
+            "x": 18.0,
+            "y": 55.0,
+            "w": 23.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tool-call",
+            "x": 17.0,
+            "y": 70.0,
+            "w": 9.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Databases",
+            "x": 10.0,
+            "y": 84.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "APIs",
+            "x": 27.0,
+            "y": 84.0,
+            "w": 7.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Vector",
+            "x": 42.0,
+            "y": 84.0,
+            "w": 8.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SQL Pacha DDN",
+            "x": 57.0,
+            "y": 55.0,
+            "w": 20.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-009.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668486.104387,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "LLMs don't know what your API is.\nBut LLMs know what SQL is.\nWhat if everything was SQL?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/himhGiWJXjo/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "diagram",
+      "reject_reason": "",
+      "text": "Property of the data, property of the session.\nWHY. IS. THIS. SO. COMPLEX.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#1b1b17",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram",
+            "text": "User",
+            "x": 40.0,
+            "y": 12.0,
+            "w": 11.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "id\norg-id\nname\nprofile-data\nresume",
+            "x": 53.0,
+            "y": 8.0,
+            "w": 12.0,
+            "h": 40.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Databases",
+            "x": 72.0,
+            "y": 4.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "APIs",
+            "x": 72.0,
+            "y": 25.0,
+            "w": 8.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Vector",
+            "x": 71.0,
+            "y": 46.0,
+            "w": 9.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "Property of the data, property of the session.",
+            "x": 38.0,
+            "y": 60.0,
+            "w": 36.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "WHY. IS. THIS. SO. COMPLEX.",
+            "x": 38.0,
+            "y": 77.0,
+            "w": 32.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-010.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668486.10519,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Property of the data, property of the session.\nWHY. IS. THIS. SO. COMPLEX.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/himhGiWJXjo/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "#3. Get LLMs to figure out the plan of how to access data.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#1b1b17",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "#3. Get LLMs to figure out the plan of how to access data.",
+            "x": 24.0,
+            "y": 38.0,
+            "w": 52.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-011.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668486.1058247,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "#3. Get LLMs to figure out the plan of how to access data.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/himhGiWJXjo/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Write a python program to figure out a plan to retrieve multiple pieces of data required.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#1b1b17",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Write a python program to figure out a plan to retrieve multiple pieces of data required.",
+            "x": 6.0,
+            "y": 47.0,
+            "w": 88.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-012.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668486.1062381,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Write a python program to figure out a plan to retrieve multiple pieces of data required.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/himhGiWJXjo/slide-012.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "Sponsor/logo slide, not presentation content.",
+      "text": "INNOVATION SPONSOR\naws\nPLATINUM SPONSORS\nMongoDB\nGoogle Cloud\nneo4j",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "Logo wall and sponsor names are decorative, not content text.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "INNOVATION SPONSOR",
+            "x": 36.0,
+            "y": 7.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 40.0,
+            "y": 16.0,
+            "w": 20.0,
+            "h": 15.0
+          },
+          {
+            "role": "caption",
+            "text": "PLATINUM SPONSORS",
+            "x": 37.0,
+            "y": 31.0,
+            "w": 27.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "MongoDB",
+            "x": 3.0,
+            "y": 43.0,
+            "w": 24.0,
+            "h": 16.0
+          },
+          {
+            "role": "logo",
+            "text": "Google Cloud",
+            "x": 34.0,
+            "y": 44.0,
+            "w": 31.0,
+            "h": 15.0
+          },
+          {
+            "role": "logo",
+            "text": "neo4j",
+            "x": 74.0,
+            "y": 43.0,
+            "w": 18.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-001.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668336.75985,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "INNOVATION SPONSOR\naws\nPLATINUM SPONSORS\nMongoDB\nGoogle Cloud\nneo4j",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker on stage with podium and backdrop, not a slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Stage shot, not a presentation frame.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark stage",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-003.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668336.7610629,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "demo_video",
+      "reject_reason": "Camera-captured terminal demo footage, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Live demo footage is not a slide.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#002b2b",
+        "style": "code",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-006.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668336.7626092,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "Logo/sponsor-style frame with no presentation content or readable slide argument.",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "Not a content slide; text is decorative logos rather than body content.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black with subtle dark radial waves and faint star-like specks",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 12.0,
+            "h": 16.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer World's Fair",
+            "x": 48.0,
+            "y": 19.0,
+            "w": 22.0,
+            "h": 18.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 44.0,
+            "y": 78.0,
+            "w": 22.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 76.0,
+            "y": 78.0,
+            "w": 13.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/himhGiWJXjo/slide-013.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668519.7388122,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

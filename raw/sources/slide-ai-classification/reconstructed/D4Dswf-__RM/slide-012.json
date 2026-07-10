@@ -1,0 +1,41 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE TTPS SSININLPKAGKLnWPAGIAININ FT POS CORS CIAM AaI SSPM ABAC MoE Ops IOU TPU HSS OSS CSRF TTS VPN EKM ROC CLI MFA SOC U2F ASR PKI GPGPU CPUC NOSr OIDC 2FA TOTP WAF CSPM CV OCR GPU YAML SCIM IAMRBAC FIDO ACL CPU API OIDC DSL MTTI IDP GNA DS M\nFRA RRAR 回心 HTTPS Ainr\nMicrosoft smol 3i\nWorssFai",
+  "text_status": "decorative",
+  "ocr_ready": true,
+  "ocr_reason": "Dense acronym wall is OCR-suitable and likely cheaper than visual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with subtle radial pattern",
+    "style": "code",
+    "blocks": []
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-012.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659073.87379,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "AIE TTPS SSININLPKAGKLnWPAGIAININ FT POS CORS CIAM AaI SSPM ABAC MoE Ops IOU TPU HSS OSS CSRF TTS VPN EKM ROC CLI MFA SOC U2F ASR PKI GPGPU CPUC NOSr OIDC 2FA TOTP WAF CSPM CV OCR GPU YAML SCIM IAMRBAC FIDO ACL CPU API OIDC DSL MTTI IDP GNA DS M\nFRA RRAR 回心 HTTPS Ainr\nMicrosoft smol 3i\nWorssFai",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 649.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "",
+    "text_status": "decorative",
+    "corrections": "OCR mostly captured a decorative acronym cloud; no meaningful slide text to transcribe."
+  }
+}

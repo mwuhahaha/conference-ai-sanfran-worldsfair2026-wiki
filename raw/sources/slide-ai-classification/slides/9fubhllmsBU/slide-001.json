@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.03,
+  "frame_type": "title_card",
+  "reject_reason": "stage intro title screen, not a presentation content slide",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "non-slide stage title screen",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "black with faint purple glow",
+    "style": "dark",
+    "blocks": []
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/9fubhllmsBU/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658280.9321146,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

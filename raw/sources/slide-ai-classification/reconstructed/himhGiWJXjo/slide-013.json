@@ -1,0 +1,60 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.97,
+  "frame_type": "sponsor_logo",
+  "reject_reason": "Logo/sponsor-style frame with no presentation content or readable slide argument.",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "Not a content slide; text is decorative logos rather than body content.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black with subtle dark radial waves and faint star-like specks",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 12.0,
+        "h": 16.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer World's Fair",
+        "x": 48.0,
+        "y": 19.0,
+        "w": 22.0,
+        "h": 18.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 44.0,
+        "y": 78.0,
+        "w": 22.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 76.0,
+        "y": 78.0,
+        "w": 13.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/reconstructed-slides/himhGiWJXjo/slide-013.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668519.7388122,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

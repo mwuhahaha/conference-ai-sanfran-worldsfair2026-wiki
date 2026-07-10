@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Fermentation",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Visual collage slide with a single short caption; text is sparse and the main evidence is the images.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "white with black left sidebar and black footer",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 9.0,
+        "w": 12.0,
+        "h": 26.0
+      },
+      {
+        "role": "caption",
+        "text": "Fermentation",
+        "x": 66.0,
+        "y": 79.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 44.0,
+        "y": 87.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 74.0,
+        "y": 87.0,
+        "w": 11.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672538.5938265,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Fermentation",
+  "advanced_ocr": {}
+}

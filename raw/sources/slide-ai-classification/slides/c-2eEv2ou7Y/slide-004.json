@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Before AI Apps - the host page\nohatgpt.com default-src Content-Security-Policy Directive sanpea pamoiv\nAIE Trene-grcaoitstrie.ci youruoe.com style-gro script-src connect-sro 1ngrs1blobt solfunsofe-Inline nonce--httos://chutgpt.coo s1t.opeai.ocmwno.//.chatopt script-src src default- inline nane none -U self unsafe-eval' https: str:ct-dynan1c unsafe\nstyle-src self unsaie-inline nonce-\nsrc connect- sel! nt:ps:?55:\nimg-src selt' data::0010\nframe-src self' none blob:\nginetr Engineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense code and CSP table text are better suited to OCR",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with magenta and white accents",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Before AI Apps — the host page",
+        "x": 28.0,
+        "y": 5.0,
+        "w": 52.0,
+        "h": 10.0
+      },
+      {
+        "role": "code",
+        "text": "chatgpt.com Content-Security-Policy",
+        "x": 29.0,
+        "y": 16.0,
+        "w": 24.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Directive\nAllowed values\ndefault-src\nscript-src\nstyle-src\nconnect-src\nimg-src\nframe-src",
+        "x": 58.0,
+        "y": 16.0,
+        "w": 34.0,
+        "h": 52.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 42.0,
+        "y": 79.0,
+        "w": 42.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/c-2eEv2ou7Y/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666818.8583775,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Before AI Apps — the host page",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Before AI Apps - the host page\nohatgpt.com default-src Content-Security-Policy Directive sanpea pamoiv\nAIE Trene-grcaoitstrie.ci youruoe.com style-gro script-src connect-sro 1ngrs1blobt solfunsofe-Inline nonce--httos://chutgpt.coo s1t.opeai.ocmwno.//.chatopt script-src src default- inline nane none -U self unsafe-eval' https: str:ct-dynan1c unsafe\nstyle-src self unsaie-inline nonce-\nsrc connect- sel! nt:ps:?55:\nimg-src selt' data::0010\nframe-src self' none blob:\nginetr Engineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 660.68
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Before AI Apps - the host page\nohatgpt.com default-src Content-Security-Policy Directive sanpea pamoiv\nAIE Trene-grcaoitstrie.ci youruoe.com style-gro script-src connect-sro 1ngrs1blobt solfunsofe-Inline nonce--httos://chutgpt.coo s1t.opeai.ocmwno.//.chatopt script-src src default- inline nane none -U self unsafe-eval' https: str:ct-dynan1c unsafe\nstyle-src self unsaie-inline nonce-\nsrc connect- sel! nt:ps:?55:\nimg-src selt' data::0010\nframe-src self' none blob:\nginetr Engineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

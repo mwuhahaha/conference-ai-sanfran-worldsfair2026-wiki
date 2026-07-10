@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Find me on X to discuss\nidentity for AI agents\n@grinich",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#050505",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 22.0,
+        "w": 9.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "Find me on X to discuss",
+        "x": 36.0,
+        "y": 18.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "identity for AI agents",
+        "x": 38.0,
+        "y": 29.0,
+        "w": 38.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "@grinich",
+        "x": 56.0,
+        "y": 55.0,
+        "w": 17.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-018.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659247.9487588,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Find me on X to discuss\nidentity for AI agents\n@grinich",
+  "advanced_ocr": {}
+}

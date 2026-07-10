@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Long URL\nTinyURL Link",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Long URL",
+        "x": 15.0,
+        "y": 5.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "TinyURL Link",
+        "x": 16.0,
+        "y": 33.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Visit URL",
+        "x": 15.0,
+        "y": 57.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "QR",
+        "x": 36.0,
+        "y": 57.0,
+        "w": 5.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Share",
+        "x": 55.0,
+        "y": 57.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Copy",
+        "x": 79.0,
+        "y": 57.0,
+        "w": 7.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Shorten Another Link",
+        "x": 25.0,
+        "y": 82.0,
+        "w": 45.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672932.3256679,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Long URL\nTinyURL Link",
+  "advanced_ocr": {}
+}

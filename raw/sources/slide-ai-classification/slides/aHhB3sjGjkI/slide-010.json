@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "So, I built auto-agent.\nauto-agent Putte OWHh:o: O\nHmasie PiBraneh Ootg? QGo o te Add flh KXCod About\nClonsogroziano lost: replce Chaude Integr ation wth gonerik provider system for G. Ga24sra Gdra sg0 O 32 Comnlts provided No doscriotion, website, @r topics\nclaude/sklls docB sebewypiqnd tamplatos Teat: sdd accuracy chart sk docunontation and exainple feat: rep'ace Clsude intogtation with & gorerc provider Sy feat eod sccurasy chart sk' docu mentation @rd exampe o Teat: add genorate-changelog scipt ard reiated documen Teat: sod Kro Cll provide support snd benchmurk frame,. feai+ sdd Kro CtI provide aupport and borchmsrk freme. Gdys ago fhst wook Iast woek last week tast week fast woek MIT Icenso 0wiching Releases B Readimo ④ ativay 18 stars 4 torks\n■ tosts fest: sdd Kiro CtI grovider support ard borchmark frsme. tast wock No reeases gublhed Create a rew relo)\n① gitignoo CLCENSE README.md Test: sdd Kiro Ctl provider support and benchmsrk trame. Add job creation functionahty and updato tompiatet Add MrT Lictnse snd onhanco REAOMe with dtmo soent I 450m i2e) sst woek Iast week Packagos No pacisges Pubrhyour fru p.\nhttps://github.com/alfonsograziano/auto-agent",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "GitHub repository screenshot contains dense UI text that OCR can recover more accurately than direct reading.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark charcoal",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "So, I built auto-agent",
+        "x": 8.0,
+        "y": 5.0,
+        "w": 29.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "https://github.com/alfonsograziano/auto-agent",
+        "x": 16.0,
+        "y": 90.0,
+        "w": 44.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666394.1343155,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "So, I built auto-agent",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "So, I built auto-agent.\nauto-agent Putte OWHh:o: O\nHmasie PiBraneh Ootg? QGo o te Add flh KXCod About\nClonsogroziano lost: replce Chaude Integr ation wth gonerik provider system for G. Ga24sra Gdra sg0 O 32 Comnlts provided No doscriotion, website, @r topics\nclaude/sklls docB sebewypiqnd tamplatos Teat: sdd accuracy chart sk docunontation and exainple feat: rep'ace Clsude intogtation with & gorerc provider Sy feat eod sccurasy chart sk' docu mentation @rd exampe o Teat: add genorate-changelog scipt ard reiated documen Teat: sod Kro Cll provide support snd benchmurk frame,. feai+ sdd Kro CtI provide aupport and borchmsrk freme. Gdys ago fhst wook Iast woek last week tast week fast woek MIT Icenso 0wiching Releases B Readimo ④ ativay 18 stars 4 torks\n■ tosts fest: sdd Kiro CtI grovider support ard borchmark frsme. tast wock No reeases gublhed Create a rew relo)\n① gitignoo CLCENSE README.md Test: sdd Kiro Ctl provider support and benchmsrk trame. Add job creation functionahty and updato tompiatet Add MrT Lictnse snd onhanco REAOMe with dtmo soent I 450m i2e) sst woek Iast week Packagos No pacisges Pubrhyour fru p.\nhttps://github.com/alfonsograziano/auto-agent",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1731.74
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "So, I built auto-agent.\nauto-agent Putte OWHh:o: O\nHmasie PiBraneh Ootg? QGo o te Add flh KXCod About\nClonsogroziano lost: replce Chaude Integr ation wth gonerik provider system for G. Ga24sra Gdra sg0 O 32 Comnlts provided No doscriotion, website, @r topics\nclaude/sklls docB sebewypiqnd tamplatos Teat: sdd accuracy chart sk docunontation and exainple feat: rep'ace Clsude intogtation with & gorerc provider Sy feat eod sccurasy chart sk' docu mentation @rd exampe o Teat: add genorate-changelog scipt ard reiated documen Teat: sod Kro Cll provide support snd benchmurk frame,. feai+ sdd Kro CtI provide aupport and borchmsrk freme. Gdys ago fhst wook Iast woek last week tast week fast woek MIT Icenso 0wiching Releases B Readimo ④ ativay 18 stars 4 torks\n■ tosts fest: sdd Kiro CtI grovider support ard borchmark frsme. tast wock No reeases gublhed Create a rew relo)\n① gitignoo CLCENSE README.md Test: sdd Kiro Ctl provider support and benchmsrk trame. Add job creation functionahty and updato tompiatet Add MrT Lictnse snd onhanco REAOMe with dtmo soent I 450m i2e) sst woek Iast week Packagos No pacisges Pubrhyour fru p.\nhttps://github.com/alfonsograziano/auto-agent",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

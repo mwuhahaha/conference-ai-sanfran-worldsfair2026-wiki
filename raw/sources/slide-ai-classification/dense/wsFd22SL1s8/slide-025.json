@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "sowg xooq itey' -': Fast snapshots - Just cump the entire guest memory': -': cioud-hypervsor isn't at the wti'm of Amszon's Frecracker.. Securty as the flrst parameter since mukd-tenant code eoxiecution in m'nd o Had hotphugging and snapshot restora when Arakds started\ngVhscr possbty a good in-betwaen cption betweon Contairers and MleroyMs.\nBared on the stcurty gueranees noeded:--、：\nBase Project crosvm Desktop focused\nFork Fork\nfirecracker cloud-hypervisor.\n- Serverless loads: - VM Manager daemon - AwS Lambda out of the box. -. Hotplugging devices -. More general Huoddns Ndy - - Snapshot support purpose enterprise VMM",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense bullet text and a central architecture diagram are better handled by OCR than manual transcription in this triage pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis: MicroVM Runtime",
+        "x": 4.0,
+        "y": 1.0,
+        "w": 42.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Security as the first parameter since multi-tenant code execution in mind\nFast boot times\nFast snapshots -> Just dump the entire guest memory\ncloud-hypervisor isn't at the whim of Amazon's Firecracker.\nHad hotplugging and snapshot restore when Arrakis started\ngVisor possibly a good in-between option between Containers and MicroVMs\nBased on the security guarantees needed",
+        "x": 4.0,
+        "y": 8.0,
+        "w": 47.0,
+        "h": 32.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Base Project\ncrosvm\nDesktop focused",
+        "x": 22.0,
+        "y": 32.0,
+        "w": 22.0,
+        "h": 16.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "firecracker",
+        "x": 5.0,
+        "y": 57.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "cloud-hypervisor",
+        "x": 37.0,
+        "y": 57.0,
+        "w": 24.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-025.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-025.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673545.1034,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Arrakis: MicroVM Runtime",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "sowg xooq itey' -': Fast snapshots - Just cump the entire guest memory': -': cioud-hypervsor isn't at the wti'm of Amszon's Frecracker.. Securty as the flrst parameter since mukd-tenant code eoxiecution in m'nd o Had hotphugging and snapshot restora when Arakds started\ngVhscr possbty a good in-betwaen cption betweon Contairers and MleroyMs.\nBared on the stcurty gueranees noeded:--、：\nBase Project crosvm Desktop focused\nFork Fork\nfirecracker cloud-hypervisor.\n- Serverless loads: - VM Manager daemon - AwS Lambda out of the box. -. Hotplugging devices -. More general Huoddns Ndy - - Snapshot support purpose enterprise VMM",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 937.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "sowg xooq itey' -': Fast snapshots - Just cump the entire guest memory': -': cioud-hypervsor isn't at the wti'm of Amszon's Frecracker.. Securty as the flrst parameter since mukd-tenant code eoxiecution in m'nd o Had hotphugging and snapshot restora when Arakds started\ngVhscr possbty a good in-betwaen cption betweon Contairers and MleroyMs.\nBared on the stcurty gueranees noeded:--、：\nBase Project crosvm Desktop focused\nFork Fork\nfirecracker cloud-hypervisor.\n- Serverless loads: - VM Manager daemon - AwS Lambda out of the box. -. Hotplugging devices -. More general Huoddns Ndy - - Snapshot support purpose enterprise VMM",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

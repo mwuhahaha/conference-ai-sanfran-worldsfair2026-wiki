@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE SHIFT\nThe bottleneck moved.\nUSED TO BE getting the code built\nNOW deciding what to build",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "teal gradient background with dark navy rounded panel",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "label",
+        "text": "THE SHIFT",
+        "x": 8.0,
+        "y": 39.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "The bottleneck moved.",
+        "x": 8.0,
+        "y": 47.0,
+        "w": 31.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "USED TO BE\ngetting the code built",
+        "x": 8.0,
+        "y": 58.0,
+        "w": 29.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "NOW\ndeciding what to build",
+        "x": 44.0,
+        "y": 58.0,
+        "w": 29.0,
+        "h": 13.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/6bmM45jkMDY/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657789.4936554,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "THE SHIFT\nThe bottleneck moved.\nUSED TO BE getting the code built\nNOW deciding what to build",
+  "advanced_ocr": {}
+}

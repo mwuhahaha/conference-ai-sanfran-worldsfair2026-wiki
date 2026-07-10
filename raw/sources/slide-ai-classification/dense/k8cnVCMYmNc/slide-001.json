@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "speaker_stage",
+  "reject_reason": "speaker-stage shot with only partial projected text visible",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "not a standalone slide; projected text is partial and low-value for OCR",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "bright window-lit room with pale projected screen",
+    "style": "light",
+    "blocks": []
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/k8cnVCMYmNc/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669359.6201491,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

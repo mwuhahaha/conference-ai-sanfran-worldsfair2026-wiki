@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Docling: More than simple Document Conversion\n\nQuarter  Agency  Non-Agency  MSR  Mortgage Loan Conduit\nQ1-15  45%  34%  10%  11%\nQ2-15  44%  43%  11%  12%\nQ3-15  41%  30%  12%  13%\nQ4-15  35%  27%  14%  16%",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-panel slide with small code, chart, table, and paragraph text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Docling: More than simple Document Conversion",
+        "x": 18.0,
+        "y": 7.0,
+        "w": 64.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "uv run docling --from pdf --to html_split_page",
+        "x": 6.0,
+        "y": 22.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Meta",
+        "x": 70.0,
+        "y": 33.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Bar Chart",
+        "x": 63.0,
+        "y": 81.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656118.9306428,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Docling: More than simple Document Conversion",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Docling: More than simple Document Conversion\n(1%\n0+.16 01-11 0%-18\nThe prvddchartaro sabar chaatspy daa ac7ss fourqarersQ1-15.Q2-15,03-15,and 04-15.Te chat oes Me\ns00%.Eachbsrssegmecded Itoderentcolcrs.eachcegresentinga specilccategory.Agency Rbs(lghr bion)Non-Agency\ne largest,coprng 45%cfte totfolowod ty NonAgencyRvBSat34%,MSR10%,MonageLoan Conautat 11%, larpesta27%,wthAgencyRv88at35%.MsRangMongage LoanCondutbohokres o14%ang16%,repectveg.wtie wteAgency RBscecses44%.MRangMertageLoanCondu boprmain 11%angCamrercal staysat1% 03-15,eNonAgncyR8Scaegorylrerincreeso3%,AgncyRM8sdeceso41%.MSRrsbo12%h ang Commercial at 1%.Movng Q2.15,he NooAgecy RMBs celegory noreases to 43%,bocoming Delargest seymert Mongage LoanCondutincreasesot3%.andCommercialmgs o4%ByO4s,e NonAgexcyRvBScategory is e\nQurns.Tempdngmvaeoourvedis 45%orAgencyRMsnQ1-15.and Pgmnium valuea5%SorComeercl inBo o27%o43%，M5Rfom10%14%.MotLoanCondom 11%016%，andCommo1%008%.Techt Q1.t5andQ2-15Therangesforeachcetegoryareasfolows:AgencyRMBSrangesfon35%to45%,Noo-AgencyRBS ehecivnyBlusrates se siingpropcrions of Pese cadogores overPe sgecled Eimeperod Bar chan\nQuanter Agency NenAgercy MSR WortgageLornConeuin\nQ1-15 45% 34% 10% 11%\nQ2-15 4% 43% 11% 12%\nQ3-15 41% 30% 12% 13%\n04-15 %5 27% 14% 16%",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1196.74
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Docling: More than simple Document Conversion\n\nQuarter  Agency  Non-Agency  MSR  Mortgage Loan Conduit\nQ1-15  45%  34%  10%  11%\nQ2-15  44%  43%  11%  12%\nQ3-15  41%  30%  12%  13%\nQ4-15  35%  27%  14%  16%",
+    "text_status": "meaningful",
+    "corrections": "Accepted the clear title and corrected the visible table; omitted illegible body copy."
+  }
+}

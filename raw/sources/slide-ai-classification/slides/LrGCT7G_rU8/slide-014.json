@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "From reactive debugging to intelligent recovery!\nThe goal is not to replace human judgment.\nIt is to reserve it for the failures that truly need it.\nBefore:\n- Manual log inspection\n- Schema tracing\n- Delayed dashboards\n- Modeled MTTR: 2.5 working days\nAfter:\n- Event-triggered diagnosis\n- RL-guided remediation\n- Safety-constrained escalation\n- Minutes-scale recovery",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(180deg,#eef2f3,#f5f1ee)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "From reactive debugging to intelligent recovery!",
+        "x": 5.0,
+        "y": 5.0,
+        "w": 48.0,
+        "h": 28.0
+      },
+      {
+        "role": "body",
+        "text": "The goal is not to replace human judgment.\nIt is to reserve it for the failures that truly need it.",
+        "x": 5.0,
+        "y": 33.0,
+        "w": 43.0,
+        "h": 19.0
+      },
+      {
+        "role": "body",
+        "text": "Before:\nManual log inspection\nSchema tracing\nDelayed dashboards\nModeled MTTR: 2.5 working days",
+        "x": 58.0,
+        "y": 16.0,
+        "w": 36.0,
+        "h": 31.0
+      },
+      {
+        "role": "body",
+        "text": "After:\nEvent-triggered diagnosis\nRL-guided remediation\nSafety-constrained escalation\nMinutes-scale recovery",
+        "x": 58.0,
+        "y": 56.0,
+        "w": 36.0,
+        "h": 30.0
+      },
+      {
+        "role": "caption",
+        "text": "Routine ETL failures become diagnosable, explainable, and recoverable in minutes.",
+        "x": 5.0,
+        "y": 69.0,
+        "w": 44.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661560.4454188,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "From reactive debugging to intelligent recovery!\nThe goal is not to replace human judgment.\nIt is to reserve it for the failures that truly need it.\nBefore:\n- Manual log inspection\n- Schema tracing\n- Delayed dashboards\n- Modeled MTTR: 2.5 working days\nAfter:\n- Event-triggered diagnosis\n- RL-guided remediation\n- Safety-constrained escalation\n- Minutes-scale recovery",
+  "advanced_ocr": {}
+}

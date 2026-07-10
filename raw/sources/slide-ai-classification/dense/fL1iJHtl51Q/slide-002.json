@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why Build Composer? Inspired by Cursor Tab Our aim was a fast, interactive model that is delightful to use. Experiments with Cheetah Prototype fast model in Cursor, quickly became popular.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why Build Composer?",
+        "x": 26.0,
+        "y": 1.0,
+        "w": 27.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Inspired by Cursor Tab",
+        "x": 59.0,
+        "y": 1.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Our aim was a fast, interactive model that is delightful to use.",
+        "x": 59.0,
+        "y": 8.0,
+        "w": 30.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Experiments with Cheetah",
+        "x": 59.0,
+        "y": 20.0,
+        "w": 27.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Prototype fast model in Cursor, quickly became popular.",
+        "x": 59.0,
+        "y": 27.0,
+        "w": 31.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "BUILDING A FAST FRONTIER MODEL WITH RL",
+        "x": 22.0,
+        "y": 84.0,
+        "w": 57.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "LEE ROBINSON / VP, Developer Education CURSOR",
+        "x": 26.0,
+        "y": 93.0,
+        "w": 49.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE / CODE PRESENTED BY Google DeepMind",
+        "x": 1.0,
+        "y": 82.0,
+        "w": 16.0,
+        "h": 17.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/fL1iJHtl51Q/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667493.2957878,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why Build Composer? Inspired by Cursor Tab Our aim was a fast, interactive model that is delightful to use. Experiments with Cheetah Prototype fast model in Cursor, quickly became popular.",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,743 @@
+{
+  "video_id": "-cKUW6n8hBU",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 12,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Overview\nDSPy is a declarative framework for building modular AI software.\nIt allows you to iterate fast on structured code, rather than brittle strings, and offers algorithms that compile AI programs into effective prompts and weights for your language models\nhttps://dspy.ai",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#30413d",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Overview",
+            "x": 3.0,
+            "y": 5.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "DSPy",
+            "x": 75.0,
+            "y": 0,
+            "w": 22.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "DSPy is a declarative framework for building modular AI software.\nIt allows you to iterate fast on structured code, rather than brittle strings, and offers algorithms that compile AI programs into effective prompts and weights for your language models",
+            "x": 4.0,
+            "y": 24.0,
+            "w": 72.0,
+            "h": 36.0
+          },
+          {
+            "role": "caption",
+            "text": "https://dspy.ai",
+            "x": 4.0,
+            "y": 77.0,
+            "w": 16.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655110.3907225,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Overview\nDSPy is a declarative framework for building modular AI software.\nIt allows you to iterate fast on structured code, rather than brittle strings, and offers algorithms that compile AI programs into effective prompts and weights for your language models\nhttps://dspy.ai",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Use Cases Lighting Round\nWhat we’ll cover:\n- Simple sentiment classifier\n- Structured information from a PDF\n- Multimodal extraction\n- Web research agent (using Tools)\n- Detect boundaries of a document\n- Recursively summarize an arbitrary-length document\n- GEPA example",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "#30413d",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Use Cases Lighting Round",
+            "x": 3.0,
+            "y": 4.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What we’ll cover:",
+            "x": 3.0,
+            "y": 19.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "- Simple sentiment classifier\n- Structured information from a PDF\n- Multimodal extraction\n- Web research agent (using Tools)\n- Detect boundaries of a document\n- Recursively summarize an arbitrary-length document\n- GEPA example",
+            "x": 5.0,
+            "y": 27.0,
+            "w": 50.0,
+            "h": 49.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 70.0,
+            "y": 25.0,
+            "w": 18.0,
+            "h": 30.0
+          },
+          {
+            "role": "caption",
+            "text": "github.com/kmad/aie",
+            "x": 66.0,
+            "y": 57.0,
+            "w": 28.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655110.3910382,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Use Cases Lighting Round\nWhat we’ll cover:\n- Simple sentiment classifier\n- Structured information from a PDF\n- Multimodal extraction\n- Web research agent (using Tools)\n- Detect boundaries of a document\n- Recursively summarize an arbitrary-length document\n- GEPA example",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "DSPy allows you to decompose logic into a program that treats LLMs as a first class citizen ...\n\n... without having to tweak prompts (unless you want to)",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f0f0ee",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "DSPy allows you to decompose logic into a program that treats LLMs as a first class citizen ...\n\n... without having to tweak prompts (unless you want to)",
+            "x": 4.0,
+            "y": 18.0,
+            "w": 90.0,
+            "h": 42.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655110.3912902,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "DSPy allows you to decompose logic into a program that treats LLMs as a first class citizen ...\n\n... without having to tweak prompts (unless you want to)",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why I'm such\nan advocate\n\nAllows you to create computer programs that use LLMs\nas inline function calls\n\nPrograms which you happen to be able to optimize - it's a\nprogramming paradigm, not a wholesale framework, and not\n“optimizer-first”\n\nIs built with a systems mindset; you encode intent and\nstructure in a way that is transferable\n\nYour program design likely moves slower than AI advancements (at\nleast so far)",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense small bullet text on the right and a cropped top line make OCR more appropriate than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg,#30413d 0 38%,#f7f6f1 38% 100%)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why I’m such an advocate",
+            "x": 3.0,
+            "y": 36.0,
+            "w": 30.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Allows you to create computer programs that use LLMs\nas inline function calls",
+            "x": 44.0,
+            "y": 13.0,
+            "w": 48.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Programs which you happen to be able to optimize - it’s a\nprogramming paradigm, not a wholesale framework, and not\n“optimizer-first”",
+            "x": 46.0,
+            "y": 29.0,
+            "w": 46.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Is built with a systems mindset; you encode intent and\nstructure in a way that is transferable",
+            "x": 43.0,
+            "y": 50.0,
+            "w": 48.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "Your program design likely moves slower than AI advancements\n(at least so far)",
+            "x": 46.0,
+            "y": 68.0,
+            "w": 44.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655110.3915207,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "detailed control over your program while focusing on FOO owsyouto. LaingNYCNYT）17Ceda\nthings that actually matter\nAllows you to create computer programs that use' LLMs\nWhy I'm such an advocate as inline function calls Programs which you happen to be able to optimize - it's a programming paradigm, not a wholesale framework, and not \"optimizer-first\"\nIs built with a systems mindset; you encode intent and\nstructure in a way that is transferable\nleast so far) Your program design likely moves slower than AI advancements (at",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 811.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Why I'm such\nan advocate\n\nAllows you to create computer programs that use LLMs\nas inline function calls\n\nPrograms which you happen to be able to optimize - it's a\nprogramming paradigm, not a wholesale framework, and not\n“optimizer-first”\n\nIs built with a systems mindset; you encode intent and\nstructure in a way that is transferable\n\nYour program design likely moves slower than AI advancements (at\nleast so far)",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR with minor cleanup: fixed capitalization/punctuation, removed garbled fragments, and preserved only clearly visible text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Core Concepts\n\nSignatures\nSpecify what you want,\nnot how; let the LLM\nfigure it out\n\nModules\nStructure your program\nlogically\n\nTools\nInteract with the outside\nworld - or the rest of the\nprogram\n\nAdapters\nCustomizable prompt\nformatters: think JSON,\nBAML, XML, etc.\n\nOptimizers\nOptimize your DSPy\nprogram, ML-style\n(let the LLM figure it out!)\n\nMetrics\nDefine what to optimize\nagainst (can be multiple\nthings)",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram-style slide with six text boxes and small labels is better suited to OCR extraction.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#30413d",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Core Concepts",
+            "x": 3.0,
+            "y": 4.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Signatures\nSpecify what you want, not how; let the LLM figure it out",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 28.0,
+            "h": 31.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Modules\nStructure your program logically",
+            "x": 36.0,
+            "y": 14.0,
+            "w": 28.0,
+            "h": 31.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tools\nInteract with the outside world - or the rest of the program",
+            "x": 69.0,
+            "y": 14.0,
+            "w": 27.0,
+            "h": 31.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Adapters\nCustomizable prompt formatters: think JSON, BAML, XML, etc.",
+            "x": 5.0,
+            "y": 52.0,
+            "w": 28.0,
+            "h": 31.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Optimizers\nOptimize your DSPy program, ML-style\n(let the LLM figure it out!)",
+            "x": 36.0,
+            "y": 52.0,
+            "w": 28.0,
+            "h": 31.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Metrics\nDefine what to optimize against (can be multiple things)",
+            "x": 69.0,
+            "y": 52.0,
+            "w": 27.0,
+            "h": 31.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655143.1445034,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Core Concepts",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Core Concepts t+ tht+ ++ itt Thing NYC NYT) 44. D Cerurel.\nSignatures Modules Tools\nnot how letthe LLM figure it out Specify whatyou want, logically Structure your program program. Interact with the outside world= orthe rest of the\nAdapters Optimizers Metrics\nCustomizable prompt formatters: thinkJSON, BAML,XML, etc. program ML-style Optimize your DSPy (Iet the LLM fgure it out) against (can' be nultiple Define what to optimize things)",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 726.76
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Core Concepts\n\nSignatures\nSpecify what you want,\nnot how; let the LLM\nfigure it out\n\nModules\nStructure your program\nlogically\n\nTools\nInteract with the outside\nworld - or the rest of the\nprogram\n\nAdapters\nCustomizable prompt\nformatters: think JSON,\nBAML, XML, etc.\n\nOptimizers\nOptimize your DSPy\nprogram, ML-style\n(let the LLM figure it out!)\n\nMetrics\nDefine what to optimize\nagainst (can be multiple\nthings)",
+        "text_status": "meaningful",
+        "corrections": "Corrected OCR errors and restored the slide text and line breaks from the image."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Signatures\nHow you “express your declarative intent”\nCan be simple strings or complex Class-based objects",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(90deg,#30413d 0 50%,#f7f6f1 50% 100%)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Signatures",
+            "x": 7.0,
+            "y": 37.0,
+            "w": 26.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "How you “express your declarative intent”",
+            "x": 58.0,
+            "y": 19.0,
+            "w": 35.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Can be simple strings or complex Class-based objects",
+            "x": 58.0,
+            "y": 39.0,
+            "w": 36.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655169.5393002,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Signatures\nHow you “express your declarative intent”\nCan be simple strings or complex Class-based objects",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Optimizers\nDSPy has various built-in primitives that allow you to then optimize your program. This allows you to quantitatively improve your performance and cost profile.\n\n“A DSPy optimizer is an algorithm that can tune the parameters of a DSPy program (i.e., the prompts and/or the LM weights) to maximize the metrics you specify, like accuracy.”",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#273937",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Optimizers",
+            "x": 4.0,
+            "y": 5.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "DSPy has various built-in primitives that allow you to then optimize your program. This allows you to quantitatively improve your performance and cost profile.",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 86.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "“A DSPy optimizer is an algorithm that can tune the parameters of a DSPy program (i.e., the prompts and/or the LM weights) to maximize the metrics you specify, like accuracy.”",
+            "x": 4.0,
+            "y": 56.0,
+            "w": 88.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655268.3359714,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Optimizers\nDSPy has various built-in primitives that allow you to then optimize your program. This allows you to quantitatively improve your performance and cost profile.\n\n“A DSPy optimizer is an algorithm that can tune the parameters of a DSPy program (i.e., the prompts and/or the LM weights) to maximize the metrics you specify, like accuracy.”",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "“DSPy is not an optimizer. It’s set of programming abstractions (signatures, modules) that can be optimized.”\n- Omar Khattab @lateinteraction",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#ecebe6",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "“DSPy is not an optimizer. It’s set of programming abstractions (signatures, modules) that can be optimized.”",
+            "x": 4.0,
+            "y": 15.0,
+            "w": 84.0,
+            "h": 35.0
+          },
+          {
+            "role": "caption",
+            "text": "- Omar Khattab @lateinteraction",
+            "x": 8.0,
+            "y": 56.0,
+            "w": 56.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655268.3362584,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "“DSPy is not an optimizer. It’s set of programming abstractions (signatures, modules) that can be optimized.”\n- Omar Khattab @lateinteraction",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The reason that this is tricky is quite subtle. It’s the fact that\nanytime you use an LLM to assign a reward, those LLMs are giant\nthings with billions of parameters, and they’re gameable. If you’re\nreinforcement learning with respect to them, you will find\nadversarial examples for your LLM judges, almost guaranteed.\n\nSo you can’t do this for too long. You do maybe 10 steps or 20\nsteps, and maybe it will work, but you can’t do 100 or 1,000. I\nunderstand it’s not obvious, but basically the model will find little\ncracks. It will find all these spurious things in the nooks and\ncrannies of the giant model and find a way to cheat it\n\n- Andrej Karpathy (via the Dwarkesh Podcast)",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "#f1efe9",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "The reason that this is tricky is quite subtle. It’s the fact that anytime you use an LLM to assign a reward, those LLMs are giant things with billions of parameters, and they’re gameable. If you’re reinforcement learning with respect to them, you will find adversarial examples for your LLM judges, almost guaranteed.\n\nSo you can’t do this for too long. You do maybe 10 steps or 20 steps, and maybe it will work, but you can’t do 100 or 1,000. I understand it’s not obvious, but basically the model will find little cracks. It will find all these spurious things in the nooks and crannies of the giant model and find a way to cheat it",
+            "x": 4.0,
+            "y": 10.0,
+            "w": 66.0,
+            "h": 68.0
+          },
+          {
+            "role": "caption",
+            "text": "- Andrej Karpathy (via the Dwarkesh Podcast)",
+            "x": 76.0,
+            "y": 32.0,
+            "w": 20.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655268.336462,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The reason that this is tricky is quite subtle. It’s the fact that\nanytime you use an LLM to assign a reward, those LLMs are giant\nthings with billions of parameters, and they’re gameable. If you’re\nreinforcement learning with respect to them, you will find\nadversarial examples for your LLM judges, almost guaranteed.\n\nSo you can’t do this for too long. You do maybe 10 steps or 20\nsteps, and maybe it will work, but you can’t do 100 or 1,000. I\nunderstand it’s not obvious, but basically the model will find little\ncracks. It will find all these spurious things in the nooks and\ncrannies of the giant model and find a way to cheat it\n\n- Andrej Karpathy (via the Dwarkesh Podcast)",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "GEPA: Reflective Prompt Evolution Can Outperform\nReinforcement Learning\n\nLakshya A Agrawal, Shangyin Tan, Dilara Soylu, Noah Ziems, Rishi Khare, Krista Opsahl-Ong, Arnav Singhvi, Herumb Shandilya, Michael J Ryan, Meng Jiang, Christopher Potts, Koushik Sen, Alexandros G. Dimakis, Ion Stoica, Dan Klein, Matei Zaharia, Omar Khattab\nUC Berkeley, Stanford University, BespokeLabs.ai, Notre Dame, Databricks, MIT\n\nChris Potts\nhttps://www.youtube.com/watch?v=0bkwd9OYqfk\n\nModel  HotpotQA  IFBench  Hover  PUPA  Aggregate  Improvement\nQwen3-8B\nBaseline  42.33  36.90  35.33  80.82  48.85  —\nMIPROv2  55.33  36.22  47.33  81.55  55.11  +6.26\nGRPO  43.33  35.88  38.67  86.66  51.14  +2.29\nGEPA  62.33  38.61  52.33  91.85  61.28  +12.44",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense slide with paper title, author list, table, and caption; OCR is better suited than direct transcription in this triage pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4f2ee",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "GEPA: Reflective Prompt Evolution Can Outperform\nReinforcement Learning",
+            "x": 1.0,
+            "y": 1.0,
+            "w": 60.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "Chris Potts\nhttps://www.youtube.com/watch?v=0bkwd9OYqfk",
+            "x": 76.0,
+            "y": 17.0,
+            "w": 22.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Model  HotpotQA  IFBench  Hover  PUPA  Aggregate  Improvement\nQwen3-8B\nBaseline  42.33  36.90  35.33  80.82  48.85  —\nMIPROv2  55.33  36.22  47.33  81.55  55.11  +6.26\nGRPO  43.33  35.88  38.67  86.66  51.14  +2.29\nGEPA  62.33  38.61  52.33  91.85  61.28  +12.44",
+            "x": 6.0,
+            "y": 40.0,
+            "w": 88.0,
+            "h": 34.0
+          },
+          {
+            "role": "caption",
+            "text": "My point here, though, is that both of them outperformed GRPO, which ought to be a kind of advanced RL-based post-training method, a fine-tuning method.",
+            "x": 3.0,
+            "y": 91.0,
+            "w": 94.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655268.3366764,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "GEPA: REFLECTIVE PROMPT EVOLUTION CAN OUTPERFORM beeeng FOO angNYCNYT)17Cemt\nREINFORCEMENT LEARNING\nMichael J Ryan?, Meng Jiang*, Christopher Potts², Koushik Sen'. Rishi Khare', Krista Opsahl-Ong', Arnav Singhvi2s, Herumb Shandilya?. 'UC Berkeley Alexandros G. Dimakis'', Ion Stoica', Dan Klein', Matei Zaharia's, Omar Khattab° Lakshya A Agrawal', Shangyin Tan', Dilara Soylu', Noah Ziems*, ²Stanford University BespokeLabs.ai*Notre Dame 'Databricks 6MIT watch?v=0bkwd9OYqfk https://www.youtube.com/ Chris Potts\nModel HotpotQA IFBench Hover PUPA Aggregate Improvement\nQwen3-8B\nGRPO GEPA Baseline MIPROv2 42.33 62.33 43.33 55.33 36.90 36.22 35.88 38.61 35.33 47.33 38.67 52.33 80.82 91.85 81.55 86.66 48.85 61.28 55.11 51.14 +12.44 +6.26 +2.29\nMy point here, though, is that both of them outperformed GRPO, which ought to be a\nkind of advanced RL-based post-training method, a fine-tuning method.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1077.64
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "GEPA: Reflective Prompt Evolution Can Outperform\nReinforcement Learning\n\nLakshya A Agrawal, Shangyin Tan, Dilara Soylu, Noah Ziems, Rishi Khare, Krista Opsahl-Ong, Arnav Singhvi, Herumb Shandilya, Michael J Ryan, Meng Jiang, Christopher Potts, Koushik Sen, Alexandros G. Dimakis, Ion Stoica, Dan Klein, Matei Zaharia, Omar Khattab\nUC Berkeley, Stanford University, BespokeLabs.ai, Notre Dame, Databricks, MIT\n\nChris Potts\nhttps://www.youtube.com/watch?v=0bkwd9OYqfk\n\nModel  HotpotQA  IFBench  Hover  PUPA  Aggregate  Improvement\nQwen3-8B\nBaseline  42.33  36.90  35.33  80.82  48.85  —\nMIPROv2  55.33  36.22  47.33  81.55  55.11  +6.26\nGRPO  43.33  35.88  38.67  86.66  51.14  +2.29\nGEPA  62.33  38.61  52.33  91.85  61.28  +12.44",
+        "text_status": "meaningful",
+        "corrections": "Corrected the title, speaker name, URL, affiliations, and table values from the image; ignored noisy OCR from the speaker overlay."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "This is all you need to construct arbitrarily complex workflows, data processing pipelines, replication of business logic, etc.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f3f2ef",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "This is all you need to construct arbitrarily complex workflows, data processing pipelines, replication of business logic, etc.",
+            "x": 5.0,
+            "y": 25.0,
+            "w": 88.0,
+            "h": 32.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655324.2960134,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "This is all you need to construct arbitrarily complex workflows, data processing pipelines, replication of business logic, etc.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "DSPy on X\n@lateinteraction  Creator of DSPy (and ColBERT!)\n@maximerivest  Creator of Attachments\n@tech_optimist  DSPy advocate, programmer, nice guy\n@dbreunig  Writes excellent technical content\n@DSPyOSS  Official DSPy account\n@getpy  Curator of DSPyWeekly\n@kmad  Me",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Table-like slide with multiple rows and short labels; OCR should handle it better than manual transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#253736",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "DSPy on X",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "@lateinteraction • Creator of DSPy (and ColBERT!)\n@maximerivest • Creator of Attachments\n@tech_optimist • DSPy advocate, programmer, nice guy\n@dbreunig • Writes excellent technical content\n@DSPyOSS • Official DSPy account\n@getpy • Curator of DSPyWeekly\n@kmad • Me",
+            "x": 4.0,
+            "y": 15.0,
+            "w": 90.0,
+            "h": 70.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/-cKUW6n8hBU/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655324.296334,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "DSPy on X gNYCNVT）17Cm\n@lateinteraction Creator of DSPy (and ColBERT!)\n@maximerivest Creator of Attachments\n@tech_optimist DSPy advocate, programmer, nice guy\n@dbreunig Writes excellent technical content\n@DSPyOSS Official DSPy account\n@getpy Curator of DSPyWeekly\n@kmad Me",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 391.64
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "DSPy on X\n@lateinteraction  Creator of DSPy (and ColBERT!)\n@maximerivest  Creator of Attachments\n@tech_optimist  DSPy advocate, programmer, nice guy\n@dbreunig  Writes excellent technical content\n@DSPyOSS  Official DSPy account\n@getpy  Curator of DSPyWeekly\n@kmad  Me",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR with minor cleanup; ignored screen-sharing overlay noise and preserved the visible slide text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/-cKUW6n8hBU/slide-012.html"
+    }
+  ],
+  "rejected": []
+}

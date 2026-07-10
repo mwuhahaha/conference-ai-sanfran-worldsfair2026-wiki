@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Part 2: Explicit criteria\n• ACTIONABLE — The report:\n  ▪ Contains specific recommendations (buy/sell/hold or equivalent)\n  ▪ Identifies concrete risks with supporting data\n  ▪ Includes forward-looking analysis, not just historical data\n  ▪ Provides context for *why* recommendations are made\n• NOT ACTIONABLE — The report:\n  ▪ Only summarizes publicly available data without interpretation\n  ▪ Lacks specific recommendations or next steps\n  ▪ Presents risks without supporting evidence\n  ▪ Contains only backward-looking analysis",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Part 2: Explicit criteria",
+        "x": 20.0,
+        "y": 4.0,
+        "w": 60.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "• ACTIONABLE — The report:\n  ▪ Contains specific recommendations (buy/sell/hold or equivalent)\n  ▪ Identifies concrete risks with supporting data\n  ▪ Includes forward-looking analysis, not just historical data\n  ▪ Provides context for *why* recommendations are made",
+        "x": 18.0,
+        "y": 16.0,
+        "w": 64.0,
+        "h": 29.0
+      },
+      {
+        "role": "body",
+        "text": "• NOT ACTIONABLE — The report:\n  ▪ Only summarizes publicly available data without interpretation\n  ▪ Lacks specific recommendations or next steps\n  ▪ Presents risks without supporting evidence\n  ▪ Contains only backward-looking analysis",
+        "x": 18.0,
+        "y": 48.0,
+        "w": 64.0,
+        "h": 29.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/Xfl50508LZM/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665459.0426424,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Part 2: Explicit criteria\n• ACTIONABLE — The report:\n  ▪ Contains specific recommendations (buy/sell/hold or equivalent)\n  ▪ Identifies concrete risks with supporting data\n  ▪ Includes forward-looking analysis, not just historical data\n  ▪ Provides context for *why* recommendations are made\n• NOT ACTIONABLE — The report:\n  ▪ Only summarizes publicly available data without interpretation\n  ▪ Lacks specific recommendations or next steps\n  ▪ Presents risks without supporting evidence\n  ▪ Contains only backward-looking analysis",
+  "advanced_ocr": {}
+}

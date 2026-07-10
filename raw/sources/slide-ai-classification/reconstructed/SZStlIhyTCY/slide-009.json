@@ -1,0 +1,186 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "For each tech function, there may be a different operating model\nTypes of work Future example operating models\nModernization Humans supervise factory of agents modernising legacy continuously Agentic factory\nMaintenance ticketswith minimal humansupervision Agents process lowest complexity\nBrownfield products Greenfield products needs,generatedesigns,codeand tests Factories of agents discover customer with human supervision Al co-creator innovation lab\nInfrastructure &operations Agents process lowest complexity tickets with high level of human supervision due to higher risk of impact on critical services Human-led with co.pilots\nAlEngineer Engineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-column operating-model slide with many small text blocks and labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#081a24",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "For each tech function, there may be a different operating model",
+        "x": 25.0,
+        "y": 4.0,
+        "w": 53.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Types of work",
+        "x": 26.0,
+        "y": 13.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Future example operating models",
+        "x": 43.0,
+        "y": 13.0,
+        "w": 23.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Modernization",
+        "x": 26.0,
+        "y": 20.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Maintenance",
+        "x": 26.0,
+        "y": 34.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Greenfield products",
+        "x": 26.0,
+        "y": 46.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Brownfield products",
+        "x": 26.0,
+        "y": 58.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Infrastructure & operations",
+        "x": 26.0,
+        "y": 71.0,
+        "w": 17.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Humans supervise factory of agents modernising legacy continuously",
+        "x": 43.0,
+        "y": 18.0,
+        "w": 26.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agents process lowest complexity tickets with minimal human supervision",
+        "x": 43.0,
+        "y": 32.0,
+        "w": 27.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Factories of agents discover customer needs, generate designs, code and tests with human supervision",
+        "x": 43.0,
+        "y": 47.0,
+        "w": 29.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agents process lowest complexity tickets with high level of human supervision due to higher risk of impact on critical services",
+        "x": 43.0,
+        "y": 71.0,
+        "w": 30.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agentic factory",
+        "x": 74.0,
+        "y": 18.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "AI co-creator innovation lab",
+        "x": 74.0,
+        "y": 48.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Human-led with co-pilots",
+        "x": 74.0,
+        "y": 73.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+        "x": 27.0,
+        "y": 89.0,
+        "w": 48.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "MARTIN HARRYSSON",
+        "x": 26.0,
+        "y": 96.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "NATASHA MANIAR",
+        "x": 44.0,
+        "y": 96.0,
+        "w": 14.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-009.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663612.9868572,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "For each tech function, there may be a different operating model\nTypes of work Future example operating models\nModernization Humans supervise factory of agents modernising legacy continuously Agentic factory\nMaintenance ticketswith minimal humansupervision Agents process lowest complexity\nBrownfield products Greenfield products needs,generatedesigns,codeand tests Factories of agents discover customer with human supervision Al co-creator innovation lab\nInfrastructure &operations Agents process lowest complexity tickets with high level of human supervision due to higher risk of impact on critical services Human-led with co.pilots\nAlEngineer Engineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 908.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "For each tech function, there may be a different operating model\nTypes of work Future example operating models\nModernization Humans supervise factory of agents modernising legacy continuously Agentic factory\nMaintenance ticketswith minimal humansupervision Agents process lowest complexity\nBrownfield products Greenfield products needs,generatedesigns,codeand tests Factories of agents discover customer with human supervision Al co-creator innovation lab\nInfrastructure &operations Agents process lowest complexity tickets with high level of human supervision due to higher risk of impact on critical services Human-led with co.pilots\nAlEngineer Engineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

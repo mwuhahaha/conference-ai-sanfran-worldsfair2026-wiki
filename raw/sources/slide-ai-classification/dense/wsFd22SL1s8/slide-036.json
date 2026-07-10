@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code/config slide with small identifiers and nested structs; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "vmConfig := chvapi.VmConfig{\nPayload: chvapi.PayloadConfig{\nKernel: String(kernelPath),\nCmdline: String(getKernelCmdLine(s.config.BridgeIP, guestIP.String())),\nInitramfs: String(initramfsPath),",
+        "x": 12.0,
+        "y": 7.0,
+        "w": 68.0,
+        "h": 24.0
+      },
+      {
+        "role": "code",
+        "text": "Disks: []chvapi.DiskConfig{\n{Path: rootfsPath, Readonly: Bool(true), NumQueues: &numBlockDeviceQueues},\n{Path: statefulDiskPath, NumQueues: &numBlockDeviceQueues},\n},\nCpus: &chvapi.CpusConfig{BootVcpus: vcpus, MaxVcpus: vcpus},\nMemory: &chvapi.MemoryConfig{Size: int64(memorySizeMB) * 1024 * 1024},",
+        "x": 12.0,
+        "y": 30.0,
+        "w": 78.0,
+        "h": 34.0
+      },
+      {
+        "role": "code",
+        "text": "Serial: chvapi.NewConsoleConfig(serialPortMode),\nConsole: chvapi.NewConsoleConfig(consolePortMode),\nNet: []chvapi.NetConfig{\nVsock: &chvapi.VsockConfig{Cid: int64(cid), Socket: vsockPath},",
+        "x": 12.0,
+        "y": 62.0,
+        "w": 80.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-036.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-036.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673747.6787527,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/left-72/contrast",
+    "best_score": 744.76,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

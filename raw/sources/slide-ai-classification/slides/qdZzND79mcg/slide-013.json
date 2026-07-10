@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "2\nEngineer Open or close? QuesTION 1 Wall or goal? QUestION 2 How fast? t norisano\nConstraints new moves enabling door), This s just Dhat the rule does. A rule either opens market, @ scoreboard) limit) or closes options governing (a speed (a shared language,a cano governing \"you eay not? enabling you now alocked wants to win, so fit fenced playground: do Some of both. apart you either anything inside) no fence), Usually To stop itflying build a wall around give it a shared goal holds together with to orbit coherence (a tean that all) ito containerO hold by a boundary ocoherence pul1 hold by shared a container(a xor once: open one small, thing firsto watchy then widen. That is the dial (the Iate of coupling). tenpo. Don't switch This one isn'ta rule at alloft's the fullyreversible everything on at time reversible step ata scrimnage before the chaapionship - one\ntvchandegra-com Chandegra LIBS ANICHHA",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-column text with small body copy; OCR will be more reliable than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#000000",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Engineer Constraints",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 18.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "QUESTION 1\nOpen or close?",
+        "x": 28.0,
+        "y": 9.0,
+        "w": 20.0,
+        "h": 82.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "QUESTION 2\nWall or goal?",
+        "x": 50.0,
+        "y": 9.0,
+        "w": 20.0,
+        "h": 82.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "QUESTION 3\nHow fast?",
+        "x": 72.0,
+        "y": 9.0,
+        "w": 20.0,
+        "h": 82.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/qdZzND79mcg/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671303.6836014,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Engineer Constraints",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "2\nEngineer Open or close? QuesTION 1 Wall or goal? QUestION 2 How fast? t norisano\nConstraints new moves enabling door), This s just Dhat the rule does. A rule either opens market, @ scoreboard) limit) or closes options governing (a speed (a shared language,a cano governing \"you eay not? enabling you now alocked wants to win, so fit fenced playground: do Some of both. apart you either anything inside) no fence), Usually To stop itflying build a wall around give it a shared goal holds together with to orbit coherence (a tean that all) ito containerO hold by a boundary ocoherence pul1 hold by shared a container(a xor once: open one small, thing firsto watchy then widen. That is the dial (the Iate of coupling). tenpo. Don't switch This one isn'ta rule at alloft's the fullyreversible everything on at time reversible step ata scrimnage before the chaapionship - one\ntvchandegra-com Chandegra LIBS ANICHHA",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1289.16
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "2\nEngineer Open or close? QuesTION 1 Wall or goal? QUestION 2 How fast? t norisano\nConstraints new moves enabling door), This s just Dhat the rule does. A rule either opens market, @ scoreboard) limit) or closes options governing (a speed (a shared language,a cano governing \"you eay not? enabling you now alocked wants to win, so fit fenced playground: do Some of both. apart you either anything inside) no fence), Usually To stop itflying build a wall around give it a shared goal holds together with to orbit coherence (a tean that all) ito containerO hold by a boundary ocoherence pul1 hold by shared a container(a xor once: open one small, thing firsto watchy then widen. That is the dial (the Iate of coupling). tenpo. Don't switch This one isn'ta rule at alloft's the fullyreversible everything on at time reversible step ata scrimnage before the chaapionship - one\ntvchandegra-com Chandegra LIBS ANICHHA",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

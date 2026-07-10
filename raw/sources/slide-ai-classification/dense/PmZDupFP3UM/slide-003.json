@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Al seems to deliver modest gains in quality metrics\nAverage Change Confldence DXl drlver for Al Users vs. Non-Al Users\nData from t9,?51 doveioprt 18 pt\nAvtrsgo chtrge contldence score: Al usert vs. non users gain max\nDX1 Score Gain from 2.6 Polnt Average using Al\n15 pt loss max\nDX\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PReSented BY JUSTIN REOCK / Deputy CTO DX",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense chart slide with small labels and a quantitative callout; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black footer",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI seems to deliver modest gains in quality metrics",
+        "x": 24.0,
+        "y": 1.0,
+        "w": 57.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram",
+        "text": "Average change confidence score: AI users vs. non users",
+        "x": 36.0,
+        "y": 14.0,
+        "w": 48.0,
+        "h": 58.0
+      },
+      {
+        "role": "body",
+        "text": "2.6 Point Average Gain from using AI",
+        "x": 84.0,
+        "y": 29.0,
+        "w": 13.0,
+        "h": 28.0
+      },
+      {
+        "role": "logo",
+        "text": "LEADERSHIP IN AI-ASSISTED ENGINEERING",
+        "x": 24.0,
+        "y": 89.0,
+        "w": 54.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/PmZDupFP3UM/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663289.521023,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Al seems to deliver modest gains in quality metrics\nAverage Change Confldence DXl drlver for Al Users vs. Non-Al Users\nData from t9,?51 doveioprt 18 pt\nAvtrsgo chtrge contldence score: Al usert vs. non users gain max\nDX1 Score Gain from 2.6 Polnt Average using Al\n15 pt loss max\nDX\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PReSented BY JUSTIN REOCK / Deputy CTO DX",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 608.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Al seems to deliver modest gains in quality metrics\nAverage Change Confldence DXl drlver for Al Users vs. Non-Al Users\nData from t9,?51 doveioprt 18 pt\nAvtrsgo chtrge contldence score: Al usert vs. non users gain max\nDX1 Score Gain from 2.6 Polnt Average using Al\n15 pt loss max\nDX\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PReSented BY JUSTIN REOCK / Deputy CTO DX",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

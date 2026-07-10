@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "DSPy on X\n@lateinteraction  Creator of DSPy (and ColBERT!)\n@maximerivest  Creator of Attachments\n@tech_optimist  DSPy advocate, programmer, nice guy\n@dbreunig  Writes excellent technical content\n@DSPyOSS  Official DSPy account\n@getpy  Curator of DSPyWeekly\n@kmad  Me",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Table-like slide with multiple rows and short labels; OCR should handle it better than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#253736",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "DSPy on X",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "@lateinteraction • Creator of DSPy (and ColBERT!)\n@maximerivest • Creator of Attachments\n@tech_optimist • DSPy advocate, programmer, nice guy\n@dbreunig • Writes excellent technical content\n@DSPyOSS • Official DSPy account\n@getpy • Curator of DSPyWeekly\n@kmad • Me",
+        "x": 4.0,
+        "y": 15.0,
+        "w": 90.0,
+        "h": 70.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655324.296334,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "DSPy on X gNYCNVT）17Cm\n@lateinteraction Creator of DSPy (and ColBERT!)\n@maximerivest Creator of Attachments\n@tech_optimist DSPy advocate, programmer, nice guy\n@dbreunig Writes excellent technical content\n@DSPyOSS Official DSPy account\n@getpy Curator of DSPyWeekly\n@kmad Me",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 391.64
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "DSPy on X\n@lateinteraction  Creator of DSPy (and ColBERT!)\n@maximerivest  Creator of Attachments\n@tech_optimist  DSPy advocate, programmer, nice guy\n@dbreunig  Writes excellent technical content\n@DSPyOSS  Official DSPy account\n@getpy  Curator of DSPyWeekly\n@kmad  Me",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR with minor cleanup; ignored screen-sharing overlay noise and preserved the visible slide text."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "3. AIE for Researchers\nCAIS Partnership\nPoster sessions\nPoaster sessions\nAIE DATA",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#ffffff",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "3. AIE for Researchers",
+        "x": 35.0,
+        "y": 50.0,
+        "w": 43.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "CAIS Partnership\nPoster sessions\nPoaster sessions\nAIE DATA",
+        "x": 46.0,
+        "y": 61.0,
+        "w": 24.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656157.6204362,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "3. AIE for Researchers\nCAIS Partnership\nPoster sessions\nPoaster sessions\nAIE DATA",
+  "advanced_ocr": {}
+}

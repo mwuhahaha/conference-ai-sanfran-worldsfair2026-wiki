@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "And it actually works!\nAccuracy Improvements In The Agent Performances\n100% 83.3% +10% on a Production agent\n80% 71.7%\nAccuracy 60% 58.3% 60.0% 61.7% 58.3% 65.0% 70.0%\n40% 31.7% RterationSummary ssonodas Decision Accuracy oogeng\n1 001-ad32d0 CONTINUE\n20% Baseline 18.3% #1 乙# #3 #4 #5 #6 2 3 4 002-85c091 003-c793e4 004-db6c98 CONTINUE CONMNUE CONTINUE\n0% Iteration 8 005-487391 006-009000 CONTINUE CONTINUE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart and embedded table are dense enough that OCR is preferable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "And it actually works!",
+        "x": 8.0,
+        "y": 5.0,
+        "w": 29.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Accuracy Improvements In The Agent Performances",
+        "x": 23.0,
+        "y": 11.0,
+        "w": 46.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "+10% on a Production agent",
+        "x": 78.0,
+        "y": 14.0,
+        "w": 18.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666485.3652503,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "And it actually works!",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "And it actually works!\nAccuracy Improvements In The Agent Performances\n100% 83.3% +10% on a Production agent\n80% 71.7%\nAccuracy 60% 58.3% 60.0% 61.7% 58.3% 65.0% 70.0%\n40% 31.7% RterationSummary ssonodas Decision Accuracy oogeng\n1 001-ad32d0 CONTINUE\n20% Baseline 18.3% #1 乙# #3 #4 #5 #6 2 3 4 002-85c091 003-c793e4 004-db6c98 CONTINUE CONMNUE CONTINUE\n0% Iteration 8 005-487391 006-009000 CONTINUE CONTINUE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 369.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "And it actually works!\nAccuracy Improvements In The Agent Performances\n100% 83.3% +10% on a Production agent\n80% 71.7%\nAccuracy 60% 58.3% 60.0% 61.7% 58.3% 65.0% 70.0%\n40% 31.7% RterationSummary ssonodas Decision Accuracy oogeng\n1 001-ad32d0 CONTINUE\n20% Baseline 18.3% #1 乙# #3 #4 #5 #6 2 3 4 002-85c091 003-c793e4 004-db6c98 CONTINUE CONMNUE CONTINUE\n0% Iteration 8 005-487391 006-009000 CONTINUE CONTINUE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Model Context Protocol\nMCP is an open protocol that standardizes how applications provide context to LLMs",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Model Context Protocol",
+        "x": 25.0,
+        "y": 12.0,
+        "w": 50.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "MCP is an open protocol that standardizes how applications provide context to LLMs",
+        "x": 29.0,
+        "y": 43.0,
+        "w": 53.0,
+        "h": 16.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer Europe",
+        "x": 56.0,
+        "y": 82.0,
+        "w": 23.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/_xIwFcnHqp4/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665983.167958,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Model Context Protocol\nMCP is an open protocol that standardizes how applications provide context to LLMs",
+  "advanced_ocr": {}
+}

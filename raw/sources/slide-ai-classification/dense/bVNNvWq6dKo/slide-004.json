@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "6 p $t-ou+p > > C pubsc $ C tnoxt' +>. C noda_modules. Iy ca sre/apo Yta Images: O eulhrconngmp' e page.tsx I pat-my.dts. S psckaga-lock.json: G package json. 1l globalscss Douoneo postcss.contig.mft. READMEmd: byuospumn mindsurfriles: N. net.config.ts K rxt.corigjs T thconig.Jton' 鲁layout.rgx Clricon.lico ' roure.tsx n Code mith Csscada Windsurf Dev: Edil codo intno. ' Let rmo chock tho offcisl Naxt.js documentation frst.:sesrch for relevant documentation..: Let mo chock anbther chunk to seo if thore't' sny addrtlonaf irmportant information. I'l hclp you fnd Iniormation about genaating dynam'c OG Images in Nextjs. Let me: Let me check the docurmentetion about generating lmages using code, which hs most: I + Croited ouuina a rextjt org' rtevant to yotr request. +:Arulyzed contert. a Cemerot4 + Dynamicaity Generated OG hmagos in NerLS:- Jomes Shoplnd? Optimiing: Motsdote - Next js *o Searchid wsb: Neitje dynamic Og Imsge genration route.tsx documentston +Hoir to generate dynamic OG imago using new Naxts with App directory d?.. Look up the NeaUS dacumenttion for me to ginerate't dynamle Oo imsgt d route.tx: Metsdats ller: opengraph-imsge snd twtter-lmage - Next.js 0 Dymamleatty Generatng Cpen Graoh rnsg+s n Nexat.js 14 0 imoges using coct (ss..to...tsx)! Veiw Psoe\n'syura t m yueyos pazAleuy' o\ngeneration at route.ts. Here's whst... Based on the Next.ja documontatlon, I can help you Implement a dynomic CG ima ga Sd a tmiow.\nsupanos meation E Add irugm A Clud 15 Sonmel: At snyihurg (xl), e to smention code brocks C Hite",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product UI screenshot and nested sidebar/chat text are small and OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray app UI screenshot",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Windsurf Dev",
+        "x": 24.0,
+        "y": 40.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Code with Cascade",
+        "x": 24.0,
+        "y": 52.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Edit code inline",
+        "x": 24.0,
+        "y": 57.0,
+        "w": 15.0,
+        "h": 4.0
+      },
+      {
+        "role": "code",
+        "text": "editor and chat interface",
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/bVNNvWq6dKo/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666503.1878064,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "6 p $t-ou+p > > C pubsc $ C tnoxt' +>. C noda_modules. Iy ca sre/apo Yta Images: O eulhrconngmp' e page.tsx I pat-my.dts. S psckaga-lock.json: G package json. 1l globalscss Douoneo postcss.contig.mft. READMEmd: byuospumn mindsurfriles: N. net.config.ts K rxt.corigjs T thconig.Jton' 鲁layout.rgx Clricon.lico ' roure.tsx n Code mith Csscada Windsurf Dev: Edil codo intno. ' Let rmo chock tho offcisl Naxt.js documentation frst.:sesrch for relevant documentation..: Let mo chock anbther chunk to seo if thore't' sny addrtlonaf irmportant information. I'l hclp you fnd Iniormation about genaating dynam'c OG Images in Nextjs. Let me: Let me check the docurmentetion about generating lmages using code, which hs most: I + Croited ouuina a rextjt org' rtevant to yotr request. +:Arulyzed contert. a Cemerot4 + Dynamicaity Generated OG hmagos in NerLS:- Jomes Shoplnd? Optimiing: Motsdote - Next js *o Searchid wsb: Neitje dynamic Og Imsge genration route.tsx documentston +Hoir to generate dynamic OG imago using new Naxts with App directory d?.. Look up the NeaUS dacumenttion for me to ginerate't dynamle Oo imsgt d route.tx: Metsdats ller: opengraph-imsge snd twtter-lmage - Next.js 0 Dymamleatty Generatng Cpen Graoh rnsg+s n Nexat.js 14 0 imoges using coct (ss..to...tsx)! Veiw Psoe\n'syura t m yueyos pazAleuy' o\ngeneration at route.ts. Here's whst... Based on the Next.ja documontatlon, I can help you Implement a dynomic CG ima ga Sd a tmiow.\nsupanos meation E Add irugm A Clud 15 Sonmel: At snyihurg (xl), e to smention code brocks C Hite",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1921.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "6 p $t-ou+p > > C pubsc $ C tnoxt' +>. C noda_modules. Iy ca sre/apo Yta Images: O eulhrconngmp' e page.tsx I pat-my.dts. S psckaga-lock.json: G package json. 1l globalscss Douoneo postcss.contig.mft. READMEmd: byuospumn mindsurfriles: N. net.config.ts K rxt.corigjs T thconig.Jton' 鲁layout.rgx Clricon.lico ' roure.tsx n Code mith Csscada Windsurf Dev: Edil codo intno. ' Let rmo chock tho offcisl Naxt.js documentation frst.:sesrch for relevant documentation..: Let mo chock anbther chunk to seo if thore't' sny addrtlonaf irmportant information. I'l hclp you fnd Iniormation about genaating dynam'c OG Images in Nextjs. Let me: Let me check the docurmentetion about generating lmages using code, which hs most: I + Croited ouuina a rextjt org' rtevant to yotr request. +:Arulyzed contert. a Cemerot4 + Dynamicaity Generated OG hmagos in NerLS:- Jomes Shoplnd? Optimiing: Motsdote - Next js *o Searchid wsb: Neitje dynamic Og Imsge genration route.tsx documentston +Hoir to generate dynamic OG imago using new Naxts with App directory d?.. Look up the NeaUS dacumenttion for me to ginerate't dynamle Oo imsgt d route.tx: Metsdats ller: opengraph-imsge snd twtter-lmage - Next.js 0 Dymamleatty Generatng Cpen Graoh rnsg+s n Nexat.js 14 0 imoges using coct (ss..to...tsx)! Veiw Psoe\n'syura t m yueyos pazAleuy' o\ngeneration at route.ts. Here's whst... Based on the Next.ja documontatlon, I can help you Implement a dynomic CG ima ga Sd a tmiow.\nsupanos meation E Add irugm A Clud 15 Sonmel: At snyihurg (xl), e to smention code brocks C Hite",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

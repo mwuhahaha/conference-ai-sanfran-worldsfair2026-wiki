@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Camera shot of presenter and audience with projected slide in the background; not a readable presentation slide frame.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a slide frame.",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "#d9d9d9 indoor venue",
+    "style": "minimal",
+    "blocks": []
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/QuuIywMG4s8/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663244.5871913,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

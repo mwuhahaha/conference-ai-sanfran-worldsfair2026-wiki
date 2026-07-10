@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Deterministic Anomaly Rules Schema drift, null spikes, field\nremovals, type changes\nQ-Learning Decision Policy Retry, coerce schema, rollback,. quarantine, escalate, log The\nCritical anomaly.+ passive action Safety Override Intelligence\n- escalate Layer",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram-heavy slide with small labels and policy text; OCR is better than direct extraction.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg,#e8ecef,#f4f6f7)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Deterministic Anomaly Rules",
+        "x": 12.0,
+        "y": 13.0,
+        "w": 33.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Schema drift, null spikes, field removals, type changes",
+        "x": 16.0,
+        "y": 20.0,
+        "w": 29.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Q-Learning Decision Policy",
+        "x": 12.0,
+        "y": 38.0,
+        "w": 31.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Retry, coerce schema, rollback, quarantine, escalate, log",
+        "x": 16.0,
+        "y": 45.0,
+        "w": 34.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Safety Override",
+        "x": 13.0,
+        "y": 61.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Critical anomaly + passive action → escalate",
+        "x": 13.0,
+        "y": 68.0,
+        "w": 30.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "The Intelligence Layer",
+        "x": 63.0,
+        "y": 66.0,
+        "w": 30.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661015.790154,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "The Intelligence Layer",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Deterministic Anomaly Rules Schema drift, null spikes, field\nremovals, type changes\nQ-Learning Decision Policy Retry, coerce schema, rollback,. quarantine, escalate, log The\nCritical anomaly.+ passive action Safety Override Intelligence\n- escalate Layer",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 411.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Deterministic Anomaly Rules Schema drift, null spikes, field\nremovals, type changes\nQ-Learning Decision Policy Retry, coerce schema, rollback,. quarantine, escalate, log The\nCritical anomaly.+ passive action Safety Override Intelligence\n- escalate Layer",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

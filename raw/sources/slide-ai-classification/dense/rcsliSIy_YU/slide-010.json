@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Task Decomposition",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f3eadf",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Task Decomposition",
+        "x": 30.0,
+        "y": 41.0,
+        "w": 44.0,
+        "h": 11.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenHands",
+        "x": 43.0,
+        "y": 63.0,
+        "w": 15.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671497.5172293,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Task Decomposition",
+  "advanced_ocr": {}
+}

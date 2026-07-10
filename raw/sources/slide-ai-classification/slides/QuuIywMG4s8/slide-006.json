@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "terminal-bench: benchmarks for ai\nagents sin t terminal environments\nAIE terminal-bench is a collection of harbor-native benchmarks\nto help agent makers quantify their agents' terminal mastery\n)terninal-bench 3.θ is now in developacnt 复 terminal-bench-science is now in developnent\nhelp build the next frontior benchmnrk oxtending terminaL-bench to tho natural sciences\ni want to test my ogent\nEngineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "title slide contains smaller UI text and labels suited for OCR",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "terminal-bench: benchmarks for ai agents in terminal environments",
+        "x": 31.0,
+        "y": 9.0,
+        "w": 54.0,
+        "h": 17.0
+      },
+      {
+        "role": "subtitle",
+        "text": "terminal-bench is a collection of harbor-native benchmarks to help agent makers quantify their agents' terminal mastery",
+        "x": 40.0,
+        "y": 30.0,
+        "w": 36.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "terminal-bench 3.0 is now in development",
+        "x": 43.0,
+        "y": 46.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "terminal-bench-science is now in development",
+        "x": 67.0,
+        "y": 46.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "I want to test my agent",
+        "x": 48.0,
+        "y": 72.0,
+        "w": 20.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/QuuIywMG4s8/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663156.6816037,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "terminal-bench: benchmarks for ai\nagents sin t terminal environments\nAIE terminal-bench is a collection of harbor-native benchmarks\nto help agent makers quantify their agents' terminal mastery\n)terninal-bench 3.θ is now in developacnt 复 terminal-bench-science is now in developnent\nhelp build the next frontior benchmnrk oxtending terminaL-bench to tho natural sciences\ni want to test my ogent\nEngineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 549.0
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "terminal-bench: benchmarks for ai\nagents sin t terminal environments\nAIE terminal-bench is a collection of harbor-native benchmarks\nto help agent makers quantify their agents' terminal mastery\n)terninal-bench 3.θ is now in developacnt 复 terminal-bench-science is now in developnent\nhelp build the next frontior benchmnrk oxtending terminaL-bench to tho natural sciences\ni want to test my ogent\nEngineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

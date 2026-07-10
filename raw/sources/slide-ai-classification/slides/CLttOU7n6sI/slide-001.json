@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Respect the Process\nTrustworthy coding agents in a domain full of expert judgement calls",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#08183d",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Respect the Process",
+        "x": 6.0,
+        "y": 39.0,
+        "w": 46.0,
+        "h": 12.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Trustworthy coding agents in a domain full of expert judgement calls",
+        "x": 6.0,
+        "y": 56.0,
+        "w": 70.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/CLttOU7n6sI/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659155.907079,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Respect the Process\nTrustworthy coding agents in a domain full of expert judgement calls",
+  "advanced_ocr": {}
+}

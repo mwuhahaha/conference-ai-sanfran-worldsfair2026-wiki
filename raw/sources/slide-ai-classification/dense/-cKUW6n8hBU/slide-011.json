@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "This is all you need to construct arbitrarily complex workflows, data processing pipelines, replication of business logic, etc.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f3f2ef",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "This is all you need to construct arbitrarily complex workflows, data processing pipelines, replication of business logic, etc.",
+        "x": 5.0,
+        "y": 25.0,
+        "w": 88.0,
+        "h": 32.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655324.2960134,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "This is all you need to construct arbitrarily complex workflows, data processing pipelines, replication of business logic, etc.",
+  "advanced_ocr": {}
+}

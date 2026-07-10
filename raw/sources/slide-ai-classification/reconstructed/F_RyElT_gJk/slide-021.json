@@ -1,0 +1,96 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Edit Connection",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product modal screenshot with dense form labels and JSON configuration text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Edit Connection",
+        "x": 35.0,
+        "y": 4.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Connection Type",
+        "x": 34.0,
+        "y": 15.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Remote MCP Server",
+        "x": 35.0,
+        "y": 20.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Display Name",
+        "x": 34.0,
+        "y": 28.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "\"endpoint_url\": \"https://mcp.linear.app/sse\"",
+        "x": 35.0,
+        "y": 48.0,
+        "w": 36.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Cancel",
+        "x": 66.0,
+        "y": 74.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Save",
+        "x": 76.0,
+        "y": 74.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 62.0,
+        "y": 82.0,
+        "w": 10.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-021.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-021.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659324.0668995,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Edit Connection",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

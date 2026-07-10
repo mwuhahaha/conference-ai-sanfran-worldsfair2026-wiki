@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "\"RAGisdead\"？ turbopuffer\nRetrieval Aug onted Ge\nMar 1, 2021- Feb 27, 2026\nAIE\nlnterest over time\nAIEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Content slide with a dense embedded product/chart screenshot and small UI text; OCR is likely better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#000000",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "RAG is dead?",
+        "x": 26.0,
+        "y": 2.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "turbo puffer",
+        "x": 84.0,
+        "y": 3.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Retrieval Augmented Generation",
+        "x": 27.0,
+        "y": 15.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 58.0,
+        "y": 82.0,
+        "w": 18.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/UM6sFg_jdlE/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664483.7067227,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "RAG is dead?",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "\"RAGisdead\"？ turbopuffer\nRetrieval Aug onted Ge\nMar 1, 2021- Feb 27, 2026\nAIE\nlnterest over time\nAIEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 211.6
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "\"RAGisdead\"？ turbopuffer\nRetrieval Aug onted Ge\nMar 1, 2021- Feb 27, 2026\nAIE\nlnterest over time\nAIEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

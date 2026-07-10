@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense benchmark and prompt-diff text is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black terminal window",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "baseline objective 0.000",
+        "x": 10.0,
+        "y": 4.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "iter 1/5 accepted objective 1.000 (42.4s)\n~ examples/07-optimize.agency:main:prompt:",
+        "x": 10.0,
+        "y": 16.0,
+        "w": 70.0,
+        "h": 16.0
+      },
+      {
+        "role": "code",
+        "text": "The Python function median has a bug.",
+        "x": 12.0,
+        "y": 36.0,
+        "w": 52.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "Ensure to fix any bugs in the Python function",
+        "x": 12.0,
+        "y": 47.0,
+        "w": 61.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/2e9ANoOEn28/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657282.5726984,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

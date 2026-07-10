@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Recursive Coding Agents\nRaymond Weitekamp\nRAW.works | OpenProse\n@raw_works",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "AI ENGINEER WORLD'S FAIR - 2026",
+        "x": 42.0,
+        "y": 24.0,
+        "w": 16.0,
+        "h": 3.0
+      },
+      {
+        "role": "title",
+        "text": "Recursive Coding Agents",
+        "x": 28.0,
+        "y": 33.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Raymond Weitekamp",
+        "x": 44.0,
+        "y": 45.0,
+        "w": 12.0,
+        "h": 3.0
+      },
+      {
+        "role": "logo",
+        "text": "RAW.works | OpenProse",
+        "x": 42.0,
+        "y": 50.0,
+        "w": 16.0,
+        "h": 3.0
+      },
+      {
+        "role": "caption",
+        "text": "@raw_works",
+        "x": 48.0,
+        "y": 56.0,
+        "w": 6.0,
+        "h": 2.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/3hXJI2q0Jz8/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657402.3003454,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Recursive Coding Agents\nRaymond Weitekamp\nRAW.works | OpenProse\n@raw_works",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "You know MCP. Do you know MCP Apps?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "light white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "You know MCP. Do you know MCP Apps?",
+        "x": 4.0,
+        "y": 8.0,
+        "w": 62.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Everyone in this room knows what MCP is. Far fewer know what MCP Apps are, how they work, how to build them, and how to distribute them.",
+        "x": 4.0,
+        "y": 34.0,
+        "w": 58.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "By the end of this talk you will know everything you need to join the race.",
+        "x": 4.0,
+        "y": 57.0,
+        "w": 48.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/sAOBXCDiDOs/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671576.4535828,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "You know MCP. Do you know MCP Apps?",
+  "advanced_ocr": {}
+}

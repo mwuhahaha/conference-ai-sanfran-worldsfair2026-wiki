@@ -1,0 +1,344 @@
+{
+  "video_id": "liG97YXaTSA",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Reasoning\nProgress on Al benchmarks in the past five years\nAIE 100\n80 Trivia questions (TriviaQA)\nAccuracy 40+ 20- 60- Variousexams (MMLU) math (GSM8K) Grade-school math (MATH) Competition SWEtasks(SWE benchverified) STEM(GPQA) Graduate-level Prestigious math exam(AIME) \"Humanity's lastexam\n2020 2021 2022 2023 2024 2025\nCredit: Jason Wed\naws",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense chart slide with many small labels and axis text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(#f2be62 0 22%, #1b140b 22% 100%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Reasoning",
+            "x": 18.0,
+            "y": 5.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Progress on AI benchmarks in the past five years",
+            "x": 37.0,
+            "y": 13.0,
+            "w": 47.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Accuracy",
+            "x": 7.0,
+            "y": 47.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Trivia questions (TriviaQA)",
+            "x": 18.0,
+            "y": 24.0,
+            "w": 17.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Various exams (MMLU)",
+            "x": 15.0,
+            "y": 39.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Grade-school math (GSM8K)",
+            "x": 28.0,
+            "y": 50.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Competition math (MATH)",
+            "x": 39.0,
+            "y": 66.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Graduate-level STEM (GPQA)",
+            "x": 63.0,
+            "y": 50.0,
+            "w": 19.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Prestigious math exam (AIME)",
+            "x": 74.0,
+            "y": 62.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SWE tasks (SWE bench verified)",
+            "x": 65.0,
+            "y": 76.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Humanity's last exam",
+            "x": 92.0,
+            "y": 79.0,
+            "w": 7.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/liG97YXaTSA/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670369.5973024,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Reasoning",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Reasoning\nProgress on Al benchmarks in the past five years\nAIE 100\n80 Trivia questions (TriviaQA)\nAccuracy 40+ 20- 60- Variousexams (MMLU) math (GSM8K) Grade-school math (MATH) Competition SWEtasks(SWE benchverified) STEM(GPQA) Graduate-level Prestigious math exam(AIME) \"Humanity's lastexam\n2020 2021 2022 2023 2024 2025\nCredit: Jason Wed\naws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 474.68
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Reasoning\nProgress on Al benchmarks in the past five years\nAIE 100\n80 Trivia questions (TriviaQA)\nAccuracy 40+ 20- 60- Variousexams (MMLU) math (GSM8K) Grade-school math (MATH) Competition SWEtasks(SWE benchverified) STEM(GPQA) Graduate-level Prestigious math exam(AIME) \"Humanity's lastexam\n2020 2021 2022 2023 2024 2025\nCredit: Jason Wed\naws",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/liG97YXaTSA/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Strong Reasoning Through SFT\nAIE IGRSO DeepSeak- R1-Zero stan data\nDeepSeek-V3 Base SFTon doto Cold STOT Initialization RL R(GRPO) Converged RL reasoning sampias >009\nSFT on\nreasoning samplos 600k samples general 2002 Reasoning Model RLforalignment DeepSeek- R1\nCredita16z\nMicrosoft smol ai",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with small labels and flow arrows that are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4bf5f",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Strong Reasoning Through SFT",
+            "x": 18.0,
+            "y": 5.0,
+            "w": 34.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "DeepSeek-V3 Base",
+            "x": 24.0,
+            "y": 40.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "DeepSeek-R1-Zero",
+            "x": 55.0,
+            "y": 16.0,
+            "w": 13.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SFT on",
+            "x": 42.0,
+            "y": 37.0,
+            "w": 7.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RL Initialization",
+            "x": 50.0,
+            "y": 39.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RL Converged",
+            "x": 67.0,
+            "y": 40.0,
+            "w": 13.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "600k reasoning samples",
+            "x": 84.0,
+            "y": 43.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "600k reasoning samples",
+            "x": 44.0,
+            "y": 69.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "200k general samples",
+            "x": 51.0,
+            "y": 73.0,
+            "w": 10.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Reasoning Model",
+            "x": 55.0,
+            "y": 66.0,
+            "w": 13.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "DeepSeek-R1",
+            "x": 77.0,
+            "y": 67.0,
+            "w": 15.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/liG97YXaTSA/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670412.5802896,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Strong Reasoning Through SFT",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Strong Reasoning Through SFT\nAIE IGRSO DeepSeak- R1-Zero stan data\nDeepSeek-V3 Base SFTon doto Cold STOT Initialization RL R(GRPO) Converged RL reasoning sampias >009\nSFT on\nreasoning samplos 600k samples general 2002 Reasoning Model RLforalignment DeepSeek- R1\nCredita16z\nMicrosoft smol ai",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 433.36
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Strong Reasoning Through SFT\nAIE IGRSO DeepSeak- R1-Zero stan data\nDeepSeek-V3 Base SFTon doto Cold STOT Initialization RL R(GRPO) Converged RL reasoning sampias >009\nSFT on\nreasoning samplos 600k samples general 2002 Reasoning Model RLforalignment DeepSeek- R1\nCredita16z\nMicrosoft smol ai",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/liG97YXaTSA/slide-002.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Camera shot of speakers on stage, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide frame.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/liG97YXaTSA/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670464.7084043,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Camera shot of speaker on stage, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide frame.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/liG97YXaTSA/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670464.7087715,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

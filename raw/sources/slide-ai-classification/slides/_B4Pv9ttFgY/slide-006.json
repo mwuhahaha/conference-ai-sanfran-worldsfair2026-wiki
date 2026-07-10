@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "We built it wrong",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple title card",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "yellow-orange gradient",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "We built it wrong",
+        "x": 34.0,
+        "y": 13.0,
+        "w": 23.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/_B4Pv9ttFgY/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665965.3080764,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "We built it wrong",
+  "advanced_ocr": {}
+}

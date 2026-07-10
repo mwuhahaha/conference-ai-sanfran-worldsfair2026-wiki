@@ -1,0 +1,982 @@
+{
+  "video_id": "dRmWYHuIJxM",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 11,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "We Cut 94% of Our AI Coding Tokens With a Local Code Index\nAI Engineer World's Fair\nJune 30 – July 2, 2026 • San Francisco\nSearch & Retrieval Track",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "AI ENGINEER WORLD'S FAIR\nJune 30 – July 2, 2026 • San Francisco\nSEARCH & RETRIEVAL TRACK",
+            "x": 38.0,
+            "y": 8.0,
+            "w": 24.0,
+            "h": 16.0
+          },
+          {
+            "role": "title",
+            "text": "We Cut 94% of Our AI Coding Tokens\nWith a Local Code Index",
+            "x": 7.0,
+            "y": 29.0,
+            "w": 86.0,
+            "h": 20.0
+          },
+          {
+            "role": "caption",
+            "text": "Rajkumar Sakthivel\ngithub.com/elara-labs/code-context-engine",
+            "x": 34.0,
+            "y": 71.0,
+            "w": 33.0,
+            "h": 13.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/dRmWYHuIJxM/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667254.1756914,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "We Cut 94% of Our AI Coding Tokens With a Local Code Index\nAI Engineer World's Fair\nJune 30 – July 2, 2026 • San Francisco\nSearch & Retrieval Track",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/dRmWYHuIJxM/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "THE ASSUMPTION\nEvery AI coding tool we tried had the same assumption:\nsend as much context as possible.\n45,000 tokens per query\n~5,000 tokens per query",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "THE ASSUMPTION",
+            "x": 6.0,
+            "y": 7.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Every AI coding tool we tried had the same assumption:\nsend as much context as possible.",
+            "x": 16.0,
+            "y": 16.0,
+            "w": 68.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "WHAT AGENTS SEND\n45,000\ntokens per query",
+            "x": 12.0,
+            "y": 41.0,
+            "w": 30.0,
+            "h": 21.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "WHAT'S ACTUALLY USEFUL\n~5,000\ntokens per query",
+            "x": 58.0,
+            "y": 41.0,
+            "w": 30.0,
+            "h": 21.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/dRmWYHuIJxM/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667254.1768003,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "THE ASSUMPTION\nEvery AI coding tool we tried had the same assumption:\nsend as much context as possible.\n45,000 tokens per query\n~5,000 tokens per query",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/dRmWYHuIJxM/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "We optimizedthe modelWeshould have optimized the Context.\nBetter prompts\n\"Be concise Only returm relevant code. The model stil received 45k tokens of input.\nModel settings\nTemperature, top-Pmax lokens control outout shape The 45k input was already sent and biled.\nOutput compression\nTalk like a caveman* Saves:75%.of output (10% of bil) Net Impact - 8%. Wrong 10%\nA retrieval layer between codebase and agent\nSearchran index, refuri only relevant chunks. 94% fewer tokens.\nolara-labs/codecontext-engin?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense bullet slide with small explanatory text; OCR is likely more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "WHAT WE GOT WRONG",
+            "x": 5.0,
+            "y": 7.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "We optimized the model. We should have optimized the context.",
+            "x": 9.0,
+            "y": 12.0,
+            "w": 82.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "Better prompts",
+            "x": 13.0,
+            "y": 29.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Model settings",
+            "x": 13.0,
+            "y": 43.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Output compression",
+            "x": 13.0,
+            "y": 57.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "A retrieval layer between codebase and agent",
+            "x": 13.0,
+            "y": 72.0,
+            "w": 38.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/dRmWYHuIJxM/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667254.1776528,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "We optimizedthe modelWeshould have optimized the Context.\nBetter prompts\n\"Be concise Only returm relevant code. The model stil received 45k tokens of input.\nModel settings\nTemperature, top-Pmax lokens control outout shape The 45k input was already sent and biled.\nOutput compression\nTalk like a caveman* Saves:75%.of output (10% of bil) Net Impact - 8%. Wrong 10%\nA retrieval layer between codebase and agent\nSearchran index, refuri only relevant chunks. 94% fewer tokens.\nolara-labs/codecontext-engin?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 746.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "We optimizedthe modelWeshould have optimized the Context.\nBetter prompts\n\"Be concise Only returm relevant code. The model stil received 45k tokens of input.\nModel settings\nTemperature, top-Pmax lokens control outout shape The 45k input was already sent and biled.\nOutput compression\nTalk like a caveman* Saves:75%.of output (10% of bil) Net Impact - 8%. Wrong 10%\nA retrieval layer between codebase and agent\nSearchran index, refuri only relevant chunks. 94% fewer tokens.\nolara-labs/codecontext-engin?",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/dRmWYHuIJxM/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Where your tokens actually go\n90% is input\nOutput compression\n= ~8% off total bill\nInput retrieval\n= ~61% off total bill",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "WHY INPUT MATTERS",
+            "x": 5.0,
+            "y": 7.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Where your tokens actually go",
+            "x": 25.0,
+            "y": 12.0,
+            "w": 50.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "90%\nis input",
+            "x": 11.0,
+            "y": 37.0,
+            "w": 31.0,
+            "h": 25.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Input tokens (file reads, search, context)\nOutput tokens (agent replies, code)",
+            "x": 11.0,
+            "y": 76.0,
+            "w": 31.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Output compression\nSaves 75% of output tokens\n= ~8% off total bill",
+            "x": 49.0,
+            "y": 29.0,
+            "w": 45.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "Input retrieval\nSaves 94% of input tokens\n= ~61% off total bill",
+            "x": 49.0,
+            "y": 55.0,
+            "w": 45.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/dRmWYHuIJxM/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667285.6917906,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Where your tokens actually go\n90% is input\nOutput compression\n= ~8% off total bill\nInput retrieval\n= ~61% off total bill",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/dRmWYHuIJxM/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "A local retrieval layer between codebase and agent\nTree-sitter Chunking Retrieval puqAH Compression Chunk Graph Code Confidence Scoring\nAST-awaresplits 10 langs Vector+8M25+RRF 94% Signatures+docs 89% CALLS.IMPORTS related Threshold gate filter\nEverything runs locally.No cloud,noAPI calls.sqlite-vec +FTS5 +graph in threeSQLite files.\ndelara-labs/code-context-engine",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-card architecture slide with small labels and metrics across several columns.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "ARCHITECTURE",
+            "x": 5.0,
+            "y": 7.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "A local retrieval layer between codebase and agent",
+            "x": 13.0,
+            "y": 13.0,
+            "w": 74.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tree-sitter Chunking\nAST-aware splits\n10 langs",
+            "x": 4.0,
+            "y": 34.0,
+            "w": 17.0,
+            "h": 28.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Hybrid Retrieval\nVector+BM25+RRF\n94%",
+            "x": 24.0,
+            "y": 34.0,
+            "w": 17.0,
+            "h": 28.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Chunk Compression\nSignatures + docs\n89%",
+            "x": 44.0,
+            "y": 34.0,
+            "w": 17.0,
+            "h": 28.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Code Graph\nCALLS • IMPORTS\nrelated",
+            "x": 64.0,
+            "y": 34.0,
+            "w": 17.0,
+            "h": 28.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Confidence Scoring\nThreshold gate\nfilter",
+            "x": 84.0,
+            "y": 34.0,
+            "w": 12.0,
+            "h": 28.0
+          },
+          {
+            "role": "caption",
+            "text": "Everything runs locally. No cloud, no API calls. sqlite-vect + FTS5 + graph in three SQLite files.",
+            "x": 18.0,
+            "y": 81.0,
+            "w": 66.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/dRmWYHuIJxM/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667285.692493,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "A local retrieval layer between codebase and agent\nTree-sitter Chunking Retrieval puqAH Compression Chunk Graph Code Confidence Scoring\nAST-awaresplits 10 langs Vector+8M25+RRF 94% Signatures+docs 89% CALLS.IMPORTS related Threshold gate filter\nEverything runs locally.No cloud,noAPI calls.sqlite-vec +FTS5 +graph in threeSQLite files.\ndelara-labs/code-context-engine",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 520.76
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "A local retrieval layer between codebase and agent\nTree-sitter Chunking Retrieval puqAH Compression Chunk Graph Code Confidence Scoring\nAST-awaresplits 10 langs Vector+8M25+RRF 94% Signatures+docs 89% CALLS.IMPORTS related Threshold gate filter\nEverything runs locally.No cloud,noAPI calls.sqlite-vec +FTS5 +graph in threeSQLite files.\ndelara-labs/code-context-engine",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/dRmWYHuIJxM/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why not just vector search?\nVector Search\nFTS5 (BM25)\nRRF Fusion\nRecall: 0.78\nRecall: 0.72\nRecall: 0.90",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "DEEP DIVE",
+            "x": 5.0,
+            "y": 7.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Why not just vector search?",
+            "x": 27.0,
+            "y": 12.0,
+            "w": 46.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Vector Search\nbge-small-en-v1.5 (384d). Finds conceptually related code even with different naming.\nRecall: 0.78",
+            "x": 5.0,
+            "y": 33.0,
+            "w": 30.0,
+            "h": 31.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "FTS5 (BM25)\nExact keyword matching. Catches function names and identifiers vector search fuzzes over.\nRecall: 0.72",
+            "x": 35.0,
+            "y": 33.0,
+            "w": 30.0,
+            "h": 31.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RRF Fusion\nReciprocal Rank Fusion (k=60) merges both. Confidence blends similarity, keywords, recency.\nRecall: 0.90",
+            "x": 66.0,
+            "y": 33.0,
+            "w": 29.0,
+            "h": 31.0
+          },
+          {
+            "role": "caption",
+            "text": "Neither retriever is good enough alone. Together they cover each other's blind spots.",
+            "x": 19.0,
+            "y": 81.0,
+            "w": 63.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/dRmWYHuIJxM/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667314.9027529,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why not just vector search?\nVector Search\nFTS5 (BM25)\nRRF Fusion\nRecall: 0.78\nRecall: 0.72\nRecall: 0.90",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/dRmWYHuIJxM/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The hardest problem wasn'tretrieval It was knowing when retrieval waswrongb\nLLM-based scoring Confidence scoring blend\nAsked the model to rate relevance. Accurale but +2 3s latency Ycost per query Simitarity Sox\nFlxed thresholds Keywords 30x\ncalike. cosino > O.7 =relevant Broke on short quenies and long quenles. Recency 20x\nSimpie heuristic won\nno API calls. 50% smilarity +30% keyword K20% recency Adaptive: 0.4ms Lesson: dont reach for an LLM when a welghted avera\nelararlabs/code-context-cngine",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense two-column slide with small supporting copy and chart labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark navy-to-black gradient with teal and magenta glows",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "THE HARD PART",
+            "x": 6.0,
+            "y": 5.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "The hardest problem wasn't retrieval. It was knowing when retrieval was wrong.",
+            "x": 11.0,
+            "y": 10.0,
+            "w": 74.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "LLM-based scoring\nAsked the model to rate relevance. Accurate but +2-3s latency and cost per query.",
+            "x": 7.0,
+            "y": 27.0,
+            "w": 40.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Fixed thresholds\ncosine > 0.7 = relevant. Broke on short queries and long queries alike.",
+            "x": 7.0,
+            "y": 46.0,
+            "w": 40.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "Simple heuristic won\n50% similarity + 30% keyword + 20% recency. Adaptive. 0.4ms, no API calls.",
+            "x": 7.0,
+            "y": 64.0,
+            "w": 41.0,
+            "h": 15.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Confidence scoring blend",
+            "x": 54.0,
+            "y": 27.0,
+            "w": 31.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Similarity 50%\nKeywords 30%\nRecency 20%",
+            "x": 55.0,
+            "y": 35.0,
+            "w": 28.0,
+            "h": 25.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/dRmWYHuIJxM/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667491.0097198,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "The hardest problem wasn'tretrieval It was knowing when retrieval waswrongb\nLLM-based scoring Confidence scoring blend\nAsked the model to rate relevance. Accurale but +2 3s latency Ycost per query Simitarity Sox\nFlxed thresholds Keywords 30x\ncalike. cosino > O.7 =relevant Broke on short quenies and long quenles. Recency 20x\nSimpie heuristic won\nno API calls. 50% smilarity +30% keyword K20% recency Adaptive: 0.4ms Lesson: dont reach for an LLM when a welghted avera\nelararlabs/code-context-cngine",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 752.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "The hardest problem wasn'tretrieval It was knowing when retrieval waswrongb\nLLM-based scoring Confidence scoring blend\nAsked the model to rate relevance. Accurale but +2 3s latency Ycost per query Simitarity Sox\nFlxed thresholds Keywords 30x\ncalike. cosino > O.7 =relevant Broke on short quenies and long quenles. Recency 20x\nSimpie heuristic won\nno API calls. 50% smilarity +30% keyword K20% recency Adaptive: 0.4ms Lesson: dont reach for an LLM when a welghted avera\nelararlabs/code-context-cngine",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/dRmWYHuIJxM/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "BENCHMARK\nFastAPI FastAPl:53files,20realquestions,reproducible\nFull file baseline Afterretrieval 83,681 tok/q 4,927tok/q 94%\nretrieval savings\nAfter compression 523tok/q No cherry-picking.No synthetic queries.\n20questionsadeveloperwouldactuallyask\nRecall@10 0.90 $pythonbenchmarks/run_benchmark.py --repo fastapi/fastapi--source-dirfa\nelara-labs/code-context-engine",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Benchmark slide with multiple metric panels, small numbers, and a code snippet.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark charcoal gradient with teal and purple corner glows",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "BENCHMARK",
+            "x": 6.0,
+            "y": 6.0,
+            "w": 15.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "FastAPI",
+            "x": 24.0,
+            "y": 8.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "FastAPI: 53 files, 20 real questions, reproducible",
+            "x": 37.0,
+            "y": 8.0,
+            "w": 55.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Full file baseline\n83,681 tok/q",
+            "x": 7.0,
+            "y": 31.0,
+            "w": 43.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "After retrieval\n4,927 tok/q",
+            "x": 7.0,
+            "y": 50.0,
+            "w": 43.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "After compression\n523 tok/q",
+            "x": 7.0,
+            "y": 68.0,
+            "w": 43.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Recall@10\n0.90",
+            "x": 7.0,
+            "y": 86.0,
+            "w": 43.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "94%",
+            "x": 66.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "retrieval savings",
+            "x": 66.0,
+            "y": 55.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "No cherry-picking. No synthetic queries.\n20 questions a developer would actually ask.",
+            "x": 61.0,
+            "y": 63.0,
+            "w": 33.0,
+            "h": 10.0
+          },
+          {
+            "role": "code",
+            "text": "$ python benchmarks/run_benchmark.py",
+            "x": 61.0,
+            "y": 75.0,
+            "w": 30.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/dRmWYHuIJxM/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667535.7898617,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "BENCHMARK\nFastAPI FastAPl:53files,20realquestions,reproducible\nFull file baseline Afterretrieval 83,681 tok/q 4,927tok/q 94%\nretrieval savings\nAfter compression 523tok/q No cherry-picking.No synthetic queries.\n20questionsadeveloperwouldactuallyask\nRecall@10 0.90 $pythonbenchmarks/run_benchmark.py --repo fastapi/fastapi--source-dirfa\nelara-labs/code-context-engine",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 356.32
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "BENCHMARK\nFastAPI FastAPl:53files,20realquestions,reproducible\nFull file baseline Afterretrieval 83,681 tok/q 4,927tok/q 94%\nretrieval savings\nAfter compression 523tok/q No cherry-picking.No synthetic queries.\n20questionsadeveloperwouldactuallyask\nRecall@10 0.90 $pythonbenchmarks/run_benchmark.py --repo fastapi/fastapi--source-dirfa\nelara-labs/code-context-engine",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/dRmWYHuIJxM/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What we're honest about\n94% is against full-file reads Monorepos dilute recall\nbaseline. savings vs normal behavior are lower.Full-file is our reproducible Claude Code already uses grep and partial reads.Real-world feature-per-file repos hit R=1.00.Focused files retrieve best. On Go's fiber (396 fles),recall dropped to 0.07@10.One-\nEmbedding model matters What actually worked\nbge-small-en-v1.5(384d) is fast,not SOTA.Bigger models lift Simple heunistics over ML.SQLite over specialized DB\ncache. over pure vector.Local-first.The boring choices com\nelara-labs/code-context-engine",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Four-panel trade-off slide with small body text in each card.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "near-black with dark teal and violet corner glows",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "TRADE-OFFS",
+            "x": 6.0,
+            "y": 6.0,
+            "w": 15.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "What we're honest about",
+            "x": 30.0,
+            "y": 11.0,
+            "w": 40.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "94% is against full-file reads\nClaude Code already uses grep and partial reads. Real-world savings vs normal behavior are lower. Full-file is our reproducible baseline.",
+            "x": 7.0,
+            "y": 31.0,
+            "w": 42.0,
+            "h": 25.0
+          },
+          {
+            "role": "body",
+            "text": "Monorepos dilute recall\nOn Go's fiber (396 files), recall dropped to 0.07@10. One-feature-per-file repos hit R=1.00. Focused files retrieve best.",
+            "x": 51.0,
+            "y": 31.0,
+            "w": 42.0,
+            "h": 25.0
+          },
+          {
+            "role": "body",
+            "text": "Embedding model matters\nbge-small-en-v1.5 (384d) is fast, not SOTA. Bigger models lift recall but add latency. We chose speed; <1s re-index at 96% cache.",
+            "x": 7.0,
+            "y": 62.0,
+            "w": 42.0,
+            "h": 25.0
+          },
+          {
+            "role": "body",
+            "text": "What actually worked\nSimple heuristics over ML. SQLite over specialized DB.",
+            "x": 51.0,
+            "y": 62.0,
+            "w": 42.0,
+            "h": 25.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/dRmWYHuIJxM/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667566.889053,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "What we're honest about\n94% is against full-file reads Monorepos dilute recall\nbaseline. savings vs normal behavior are lower.Full-file is our reproducible Claude Code already uses grep and partial reads.Real-world feature-per-file repos hit R=1.00.Focused files retrieve best. On Go's fiber (396 fles),recall dropped to 0.07@10.One-\nEmbedding model matters What actually worked\nbge-small-en-v1.5(384d) is fast,not SOTA.Bigger models lift Simple heunistics over ML.SQLite over specialized DB\ncache. over pure vector.Local-first.The boring choices com\nelara-labs/code-context-engine",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 812.36
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "What we're honest about\n94% is against full-file reads Monorepos dilute recall\nbaseline. savings vs normal behavior are lower.Full-file is our reproducible Claude Code already uses grep and partial reads.Real-world feature-per-file repos hit R=1.00.Focused files retrieve best. On Go's fiber (396 fles),recall dropped to 0.07@10.One-\nEmbedding model matters What actually worked\nbge-small-en-v1.5(384d) is fast,not SOTA.Bigger models lift Simple heunistics over ML.SQLite over specialized DB\ncache. over pure vector.Local-first.The boring choices com\nelara-labs/code-context-engine",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/dRmWYHuIJxM/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "MEASURABLE\ntoken tracked. Every dollar counted.\nmy-project.247 queriesLast query 5m ago\n800O088xtokenssaved\nInput savings Output savings 48.2ktokens 12.4H tokens $3.62 $186.80\nTotal saved 12.4Mtokens $189.62\nBreakdoan:\nretrieval chunk coepression outputcoepress* 84% <1% 3% 10.4M$156.60 421.5k 48.2k $3.62 $6.32\nmates.Actuai tokens served vs full-fle basellne,per bucket Dolar coats from five model pricing",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Slide uses a small embedded metrics screenshot with dense numeric text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "near-black with teal and purple abstract corner shapes",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "KEY TAKEAWAY",
+            "x": 6.0,
+            "y": 6.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "subtitle",
+            "text": "MEASURABLE",
+            "x": 46.0,
+            "y": 12.0,
+            "w": 12.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "Every token tracked. Every dollar counted.",
+            "x": 21.0,
+            "y": 17.0,
+            "w": 58.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram",
+            "text": "83% tokens saved",
+            "x": 25.0,
+            "y": 31.0,
+            "w": 50.0,
+            "h": 33.0
+          },
+          {
+            "role": "caption",
+            "text": "Not estimates. Actual tokens served vs full-file baseline, per bucket. Dollar costs from live model pricing.",
+            "x": 24.0,
+            "y": 83.0,
+            "w": 52.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/dRmWYHuIJxM/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667597.0834053,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/contrast",
+        "text": "MEASURABLE\ntoken tracked. Every dollar counted.\nmy-project.247 queriesLast query 5m ago\n800O088xtokenssaved\nInput savings Output savings 48.2ktokens 12.4H tokens $3.62 $186.80\nTotal saved 12.4Mtokens $189.62\nBreakdoan:\nretrieval chunk coepression outputcoepress* 84% <1% 3% 10.4M$156.60 421.5k 48.2k $3.62 $6.32\nmates.Actuai tokens served vs full-fle basellne,per bucket Dolar coats from five model pricing",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 507.16
+      },
+      "ocr_source": "rapidocr-live/right-72/contrast",
+      "ocr_reconcile": {
+        "text": "MEASURABLE\ntoken tracked. Every dollar counted.\nmy-project.247 queriesLast query 5m ago\n800O088xtokenssaved\nInput savings Output savings 48.2ktokens 12.4H tokens $3.62 $186.80\nTotal saved 12.4Mtokens $189.62\nBreakdoan:\nretrieval chunk coepression outputcoepress* 84% <1% 3% 10.4M$156.60 421.5k 48.2k $3.62 $6.32\nmates.Actuai tokens served vs full-fle basellne,per bucket Dolar coats from five model pricing",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/dRmWYHuIJxM/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The biggest optimization in AI coding isn't the model. It's the context.\n94% fewer input tokens\nlocal no data leaves your machine\nMIT free, open source",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "near-black with teal and violet circular glows",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "KEY TAKEAWAY",
+            "x": 6.0,
+            "y": 6.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "The biggest optimization in AI coding isn't the model. It's the context.",
+            "x": 11.0,
+            "y": 13.0,
+            "w": 74.0,
+            "h": 13.0
+          },
+          {
+            "role": "code",
+            "text": "$ uvx --from \"code-context-engine[local]\" cce init",
+            "x": 27.0,
+            "y": 30.0,
+            "w": 47.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "94% fewer input tokens",
+            "x": 28.0,
+            "y": 44.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "local\nno data leaves your machine",
+            "x": 48.0,
+            "y": 44.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "MIT\nfree, open source",
+            "x": 67.0,
+            "y": 44.0,
+            "w": 16.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Try it now\nScan to open the repo. Star it, fork it, run the benchmark yourself.\ngithub.com/elara-labs/code-context-engine",
+            "x": 25.0,
+            "y": 63.0,
+            "w": 50.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/dRmWYHuIJxM/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667625.951836,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The biggest optimization in AI coding isn't the model. It's the context.\n94% fewer input tokens\nlocal no data leaves your machine\nMIT free, open source",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/dRmWYHuIJxM/slide-011.html"
+    }
+  ],
+  "rejected": []
+}

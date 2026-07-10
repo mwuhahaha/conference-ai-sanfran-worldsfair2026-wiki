@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What can go wrong? theblamegame Wirnport the b.Th Op Aye,o hat isnot it Eit Oseck Pe a the bet Deh afe evarivated.\nSubetution Deletionnsertion OM\nAIE tcorc-WER 50% mytahealth/Crispeisper Coherelabs/cohere-transcribe-03-2026 ihe-ganite/ganite-4.0-llsoeoch nodel 5.52 5.42 6.67 280.02 84.05 RTFx 524.88 LS6 Ogen 8,44\nihm-ganit/granite-sech-3.3-2 Open 8,9\nieganite/gnite-sch-3.3-8 5.74 145.42 Open 8.98\n301 a.5 0n/03-AS-1.78 vidia/canaty-o 0-2.5 5.63 147.93 418.28 Open Open 95'01\n20% s7 nicrosoft/Phi-4-multinodal-festruct usefelse $.66 20`9 151.1 448.15 Open Open 11.09 10.68\n6.05 3386.02 Open\nevidla/oarakeet-tet-0.6b-3 6.32 3332.74 ope 11.39\n6,42 146.23 Open\nWhisperx Parckeet\npyannote.ai/blog/stt-orchestration hf.co/spaces/hf-audio/open_asr_leaderboard\nAIEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense comparison slide with chart and screenshot text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg, #000 0 30%, #fff 30% 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 11.0,
+        "h": 19.0
+      },
+      {
+        "role": "title",
+        "text": "What can go wrong?",
+        "x": 29.0,
+        "y": 7.0,
+        "w": 35.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "the blame game",
+        "x": 29.0,
+        "y": 17.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "tcorc-WER",
+        "x": 31.0,
+        "y": 25.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 31.0,
+        "y": 33.0,
+        "w": 33.0,
+        "h": 38.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 67.0,
+        "y": 22.0,
+        "w": 31.0,
+        "h": 49.0
+      },
+      {
+        "role": "caption",
+        "text": "pyannote.ai/blog/stt-orchestration",
+        "x": 30.0,
+        "y": 80.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "hf.co/spaces/hf-audio/open_asr_leaderboard",
+        "x": 68.0,
+        "y": 80.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer Europe",
+        "x": 50.0,
+        "y": 82.0,
+        "w": 28.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/mFLlVpnGpds/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670585.1591127,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "What can go wrong?\nthe blame game",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "What can go wrong? theblamegame Wirnport the b.Th Op Aye,o hat isnot it Eit Oseck Pe a the bet Deh afe evarivated.\nSubetution Deletionnsertion OM\nAIE tcorc-WER 50% mytahealth/Crispeisper Coherelabs/cohere-transcribe-03-2026 ihe-ganite/ganite-4.0-llsoeoch nodel 5.52 5.42 6.67 280.02 84.05 RTFx 524.88 LS6 Ogen 8,44\nihm-ganit/granite-sech-3.3-2 Open 8,9\nieganite/gnite-sch-3.3-8 5.74 145.42 Open 8.98\n301 a.5 0n/03-AS-1.78 vidia/canaty-o 0-2.5 5.63 147.93 418.28 Open Open 95'01\n20% s7 nicrosoft/Phi-4-multinodal-festruct usefelse $.66 20`9 151.1 448.15 Open Open 11.09 10.68\n6.05 3386.02 Open\nevidla/oarakeet-tet-0.6b-3 6.32 3332.74 ope 11.39\n6,42 146.23 Open\nWhisperx Parckeet\npyannote.ai/blog/stt-orchestration hf.co/spaces/hf-audio/open_asr_leaderboard\nAIEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 663.36
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "What can go wrong? theblamegame Wirnport the b.Th Op Aye,o hat isnot it Eit Oseck Pe a the bet Deh afe evarivated.\nSubetution Deletionnsertion OM\nAIE tcorc-WER 50% mytahealth/Crispeisper Coherelabs/cohere-transcribe-03-2026 ihe-ganite/ganite-4.0-llsoeoch nodel 5.52 5.42 6.67 280.02 84.05 RTFx 524.88 LS6 Ogen 8,44\nihm-ganit/granite-sech-3.3-2 Open 8,9\nieganite/gnite-sch-3.3-8 5.74 145.42 Open 8.98\n301 a.5 0n/03-AS-1.78 vidia/canaty-o 0-2.5 5.63 147.93 418.28 Open Open 95'01\n20% s7 nicrosoft/Phi-4-multinodal-festruct usefelse $.66 20`9 151.1 448.15 Open Open 11.09 10.68\n6.05 3386.02 Open\nevidla/oarakeet-tet-0.6b-3 6.32 3332.74 ope 11.39\n6,42 146.23 Open\nWhisperx Parckeet\npyannote.ai/blog/stt-orchestration hf.co/spaces/hf-audio/open_asr_leaderboard\nAIEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

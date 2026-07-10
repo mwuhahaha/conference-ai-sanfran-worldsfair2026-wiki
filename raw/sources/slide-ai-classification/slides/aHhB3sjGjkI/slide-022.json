@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "We collect tracing informations_",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg, #ffffff 0%, #edf2ff 55%, #c8d2ff 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "We collect tracing informations_",
+        "x": 8.0,
+        "y": 4.0,
+        "w": 30.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "QA-Chatbot",
+        "x": 53.0,
+        "y": 16.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Search",
+        "x": 53.0,
+        "y": 21.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Timeline",
+        "x": 89.0,
+        "y": 15.0,
+        "w": 9.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-022.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-022.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667039.6668015,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "We collect tracing informations_",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Failure 5 the laptop dies\nThe MacBook loses power or drops off the network — and every in-progress job dies with it.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#050505",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Failure 5 the laptop dies",
+        "x": 6.0,
+        "y": 26.0,
+        "w": 35.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "The MacBook loses power or drops off the network — and every in-progress job dies with it.",
+        "x": 6.0,
+        "y": 39.0,
+        "w": 74.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/4kYl2_mqmnQ/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658205.0239575,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Failure 5 the laptop dies\nThe MacBook loses power or drops off the network — and every in-progress job dies with it.",
+  "advanced_ocr": {}
+}

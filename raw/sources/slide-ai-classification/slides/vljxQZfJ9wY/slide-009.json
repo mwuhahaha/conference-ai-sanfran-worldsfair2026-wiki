@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Observability is the Prerequisite\nThe Trace Waterfall Live Metrics Dashboard.\nUser Prompt 3sm-70ms) Latency 345 ms\nPlanner lteration (7a-3sms)\nRetries 7\nVector DB Lookup. 8ms 2.5 % AW\nParallel APl Tool Calls.- AP1B:38ms APIA-45m) Step Costs $0.014\nAPIC: 62mu Memory Usage\n480 MB\n\"You cannot evaluate what you cannot observe.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense chart and dashboard text are better suited for OCR",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cream",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Observability is the Prerequisite",
+        "x": 5.0,
+        "y": 4.0,
+        "w": 56.0,
+        "h": 11.0
+      },
+      {
+        "role": "caption",
+        "text": "The Trace Waterfall",
+        "x": 6.0,
+        "y": 17.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Live Metrics Dashboard",
+        "x": 76.0,
+        "y": 17.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Latency",
+        "x": 78.0,
+        "y": 25.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Retries",
+        "x": 78.0,
+        "y": 43.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Step Costs",
+        "x": 78.0,
+        "y": 60.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Memory Usage",
+        "x": 78.0,
+        "y": 77.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "You cannot evaluate what you cannot observe.",
+        "x": 22.0,
+        "y": 92.0,
+        "w": 57.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/vljxQZfJ9wY/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672433.5684083,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Observability is the Prerequisite",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Observability is the Prerequisite\nThe Trace Waterfall Live Metrics Dashboard.\nUser Prompt 3sm-70ms) Latency 345 ms\nPlanner lteration (7a-3sms)\nRetries 7\nVector DB Lookup. 8ms 2.5 % AW\nParallel APl Tool Calls.- AP1B:38ms APIA-45m) Step Costs $0.014\nAPIC: 62mu Memory Usage\n480 MB\n\"You cannot evaluate what you cannot observe.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 490.6
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Observability is the Prerequisite\nThe Trace Waterfall Live Metrics Dashboard.\nUser Prompt 3sm-70ms) Latency 345 ms\nPlanner lteration (7a-3sms)\nRetries 7\nVector DB Lookup. 8ms 2.5 % AW\nParallel APl Tool Calls.- AP1B:38ms APIA-45m) Step Costs $0.014\nAPIC: 62mu Memory Usage\n480 MB\n\"You cannot evaluate what you cannot observe.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

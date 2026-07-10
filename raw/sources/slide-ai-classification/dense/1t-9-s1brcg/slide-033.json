@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "In Azure: navigate to the Azure WebApp deployed by azd. The URL is printed out when azd completes (as \"Endpoint\"), or you can find it in the Azure portal.\nRunning locally: navigate to 127.0.0.1:50505\n\nOnce in the web app:\n- Try different topics in chat or Q&A context. For chat, try follow up questions, clarifications, ask to simplify or elaborate on an answer, etc.\n- Explore citations and sources\n- Click on \"settings\" to try different options, tweak prompts, etc.\n\nMonitoring with Application Insights\nBy default, deployed apps use Application Insights for the tracing of each request, along with the logging of errors.\nTo see the performance data, go to the Application Insights resource in your resource group, click on the \"Investigate > Performance\" blade and navigate to any HTTP request to see the timing data. To inspect the performance of chat requests, use the \"Drill into Samples\" button to see end-to-end traces of the API calls made for any chat request.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Documentation page screenshot with dense body text and embedded image.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "ivory",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Monitoring with Application Insights",
+        "x": 17.0,
+        "y": 19.0,
+        "w": 44.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Once in the web app:",
+        "x": 13.0,
+        "y": 30.0,
+        "w": 25.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-033.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-033.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658502.9009843,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/opencv-adaptive",
+    "text": "D RAcet Ctte t vt o LaT tte\noos roozl a eprou:sa tu.urd -. n Atieet Pgue to the Aiire wstcp degieyed by Ait. The tra le ptee' aut when asd cerok plot uery a u, u pu, u not o 'Luodou3.\nOrce h the wro aooc.\n: Try anerent topcs h cut or OLA corteat For cht: Epbn catiort smd wurce.: Csck cn 'selings' so iry drernt cptions, taek prorpn, ric. teborte cn srde, ttt.\nMonitoring wlth Appication Insights\nIy dtaA, depleyed sept ue Aopicstirn Irays lor ie tscirg cf ssch rautt, song wieh te iogyhg dt errer.\n+a +dut + Tp tue! +4 tt ot s+ebt diLh lue de stoyu pot tpeA,tourao,' t+ tt Gphha. petloterce ot ciut rtacntr, vte te 'orm Mto Higl tunon te ite tra-toltd tot a m tle Pl cah, To i+t the partormurce dstl, go to te Aogikcadon trt'ghe rtourre h you Hthturct gtup, cikck on tht Fhtde tar tly cht ttauttt",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1287.96
+  },
+  "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "In Azure: navigate to the Azure WebApp deployed by azd. The URL is printed out when azd completes (as \"Endpoint\"), or you can find it in the Azure portal.\nRunning locally: navigate to 127.0.0.1:50505\n\nOnce in the web app:\n- Try different topics in chat or Q&A context. For chat, try follow up questions, clarifications, ask to simplify or elaborate on an answer, etc.\n- Explore citations and sources\n- Click on \"settings\" to try different options, tweak prompts, etc.\n\nMonitoring with Application Insights\nBy default, deployed apps use Application Insights for the tracing of each request, along with the logging of errors.\nTo see the performance data, go to the Application Insights resource in your resource group, click on the \"Investigate > Performance\" blade and navigate to any HTTP request to see the timing data. To inspect the performance of chat requests, use the \"Drill into Samples\" button to see end-to-end traces of the API calls made for any chat request.",
+    "text_status": "meaningful",
+    "corrections": "OCR was corrected from the image; fixed obvious Azure/Application Insights wording and restored the visible bullets."
+  }
+}

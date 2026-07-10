@@ -1,0 +1,60 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "sponsor_logo",
+  "reject_reason": "Sponsor/logo wall, not a content slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "INNOVATION PARTNER",
+        "x": 37.0,
+        "y": 8.0,
+        "w": 26.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 42.0,
+        "y": 14.0,
+        "w": 16.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "PLATINUM SPONSORS",
+        "x": 38.0,
+        "y": 39.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Graphite Windsurf MongoDB daily augment code WorkOS",
+        "x": 10.0,
+        "y": 46.0,
+        "w": 80.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-001.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659071.9208689,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

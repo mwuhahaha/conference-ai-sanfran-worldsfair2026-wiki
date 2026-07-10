@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "UI screenshot used as slide content; text is present but not the primary evidence and is better handled as a product/demo frame.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray UI screenshot",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Cognitive Shield",
+        "x": 4.0,
+        "y": 9.0,
+        "w": 24.0,
+        "h": 12.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Human-in-the-Loop intelligence for Financial Defense",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "Finished API - Swagger UI",
+        "x": 69.0,
+        "y": 3.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Dashboard / User Management / Case Management / Examination Management / Invoice Management / Processing Flow / Payment Portal / Chat Assistant",
+        "x": 2.0,
+        "y": 27.0,
+        "w": 24.0,
+        "h": 46.0
+      },
+      {
+        "role": "body",
+        "text": "TOTAL FRAUD ALERTS / FINANCIAL IMPACT / ACTIVE FRAUD CAMPAIGNS / VICTIMS PROTECTED",
+        "x": 30.0,
+        "y": 33.0,
+        "w": 48.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "Fraud Activity by Category / Geographic Distribution of Fraud",
+        "x": 30.0,
+        "y": 65.0,
+        "w": 53.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658489.7728124,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agentic Engineers\nEvery dev will use agents for day-to-day work.\nOnly ~5% will become Agent Orchestrators.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f4ecdf",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Agentic Engineers",
+        "x": 22.0,
+        "y": 13.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Every dev will use agents for day-to-day work.\nOnly ~5% will become Agent Orchestrators.",
+        "x": 24.0,
+        "y": 29.0,
+        "w": 38.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Software Engineer",
+        "x": 22.0,
+        "y": 68.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "AI-driven developer",
+        "x": 43.0,
+        "y": 58.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent Orchestrator",
+        "x": 64.0,
+        "y": 41.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Lift in productivity: 10-40%",
+        "x": 54.0,
+        "y": 73.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Lift in productivity: 100-3000%",
+        "x": 72.0,
+        "y": 52.0,
+        "w": 20.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671360.2152135,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Agentic Engineers\nEvery dev will use agents for day-to-day work.\nOnly ~5% will become Agent Orchestrators.",
+  "advanced_ocr": {}
+}

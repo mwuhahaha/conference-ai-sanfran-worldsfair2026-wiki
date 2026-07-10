@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The promise of AI is speed\n0→1 Product\n1-3 people\nvs\n5-20yo Product ecosystem\n1400+ people",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#111111",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The promise of AI\nis speed",
+        "x": 3.0,
+        "y": 4.0,
+        "w": 38.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "0→1 Product\n1-3 people\nvs\n5-20yo Product ecosystem\n1400+ people",
+        "x": 3.0,
+        "y": 28.0,
+        "w": 34.0,
+        "h": 28.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ALIGNMENT",
+        "x": 63.0,
+        "y": 5.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "CONTEXT",
+        "x": 82.0,
+        "y": 32.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "HISTORY",
+        "x": 60.0,
+        "y": 57.0,
+        "w": 14.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/UcYoMg-8-L8/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664839.3286161,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The promise of AI is speed\n0→1 Product\n1-3 people\nvs\n5-20yo Product ecosystem\n1400+ people",
+  "advanced_ocr": {}
+}

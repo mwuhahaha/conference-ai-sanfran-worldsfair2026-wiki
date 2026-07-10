@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Paradigm Shift: Output vs. Behavior\nTraditional LLM Evaluation Agent Evaluation\nGoal Output Accuracy Workflow Behavior\nEnvironment Static Datasets Dynamic Contexts\nExecution Single-path Processing 一 Multi-path & Tool Dependent\nFailure Mode Hallucination Cascading Workflow Failure",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense table with multiple small cells; OCR is the right extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Paradigm Shift: Output vs. Behavior",
+        "x": 5.0,
+        "y": 3.0,
+        "w": 60.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Traditional LLM Evaluation",
+        "x": 23.0,
+        "y": 20.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent Evaluation",
+        "x": 67.0,
+        "y": 20.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Goal",
+        "x": 7.0,
+        "y": 32.0,
+        "w": 8.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Environment",
+        "x": 7.0,
+        "y": 51.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Execution",
+        "x": 7.0,
+        "y": 69.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Failure Mode",
+        "x": 7.0,
+        "y": 88.0,
+        "w": 12.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-017.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669113.7936978,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "The Paradigm Shift: Output vs. Behavior\nTraditional LLM Evaluation Agent Evaluation\nGoal Output Accuracy Workflow Behavior\nEnvironment Static Datasets Dynamic Contexts\nExecution Single-path Processing 一 Multi-path & Tool Dependent\nFailure Mode Hallucination Cascading Workflow Failure",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 428.4
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "The Paradigm Shift: Output vs. Behavior\nTraditional LLM Evaluation Agent Evaluation\nGoal Output Accuracy Workflow Behavior\nEnvironment Static Datasets Dynamic Contexts\nExecution Single-path Processing 一 Multi-path & Tool Dependent\nFailure Mode Hallucination Cascading Workflow Failure",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

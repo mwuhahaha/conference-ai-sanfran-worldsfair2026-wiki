@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "arize\nYou have agents.\nWe can test them.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple title card; direct reading is enough",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(135deg,#09051b,#1b0f4a)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "arize",
+        "x": 38.0,
+        "y": 28.0,
+        "w": 32.0,
+        "h": 14.0
+      },
+      {
+        "role": "subtitle",
+        "text": "You have agents.\nWe can test them.",
+        "x": 34.0,
+        "y": 58.0,
+        "w": 38.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667627.9392574,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "arize\nYou have agents.\nWe can test them.",
+  "advanced_ocr": {}
+}

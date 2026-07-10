@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-stage diagram with detailed bullet lists and small explanatory text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with green-gray corner gradients",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Layer 2: Graph Intelligence: Seeing the Invisible Connections",
+        "x": 7.0,
+        "y": 6.0,
+        "w": 83.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Stage 1: Dynamic Knowledge Graph Construction",
+        "x": 18.0,
+        "y": 17.0,
+        "w": 36.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Stage 2: Neo4j Graph Database Persistence",
+        "x": 18.0,
+        "y": 43.0,
+        "w": 36.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Stage 3: Graph-RAG Natural Language Intelligence",
+        "x": 18.0,
+        "y": 69.0,
+        "w": 36.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658489.7711673,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

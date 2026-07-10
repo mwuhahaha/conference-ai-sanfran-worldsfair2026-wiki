@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.74,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "My Shot - Hamilton (Original Cast 2016 - Live) [HD]",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Video/UI screenshot; OCR would not improve triage here.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "My Shot - Hamilton (Original Cast 2016 - Live) [HD]",
+        "x": 2.0,
+        "y": 81.0,
+        "w": 44.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "In this video",
+        "x": 55.0,
+        "y": 60.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Timeline\nTranscript",
+        "x": 55.0,
+        "y": 69.0,
+        "w": 14.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/IJXjTLPzvAU/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659743.6927443,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "My Shot - Hamilton (Original Cast 2016 - Live) [HD]",
+  "advanced_ocr": {}
+}

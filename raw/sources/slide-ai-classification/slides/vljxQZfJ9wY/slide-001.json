@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Production Evals\nfor Agentic Systems\nMeasuring reliability beyond accuracy. Building evaluation systems for autonomous AI workflows.\nNishant Gupta\nTech Lead @ Meta",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f6f2ec",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Production Evals for Agentic Systems",
+        "x": 8.0,
+        "y": 17.0,
+        "w": 50.0,
+        "h": 31.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Measuring reliability beyond accuracy. Building evaluation systems for autonomous AI workflows.",
+        "x": 9.0,
+        "y": 53.0,
+        "w": 45.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "Nishant Gupta\nTech Lead @ Meta",
+        "x": 3.0,
+        "y": 89.0,
+        "w": 29.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 56.0,
+        "y": 8.0,
+        "w": 38.0,
+        "h": 82.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/vljxQZfJ9wY/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672287.7871745,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Production Evals\nfor Agentic Systems\nMeasuring reliability beyond accuracy. Building evaluation systems for autonomous AI workflows.\nNishant Gupta\nTech Lead @ Meta",
+  "advanced_ocr": {}
+}

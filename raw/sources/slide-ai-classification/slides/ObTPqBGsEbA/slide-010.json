@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Same project. Same problem. Different approach.\n18,000 calls/month - 60% simple queries\n$85,000 + 6 months spent on failed attempt\nSystem: unmeasurable, invisible, misaligned\nGoal: AI agent handles 60%+ user queries\nWe didn't pick a model until week 7.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Readable text slide, but this pass only needs direct extraction; OCR is not necessary.",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "indigo",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "CASE STUDY",
+        "x": 28.0,
+        "y": 6.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Same project. Same problem. Different approach.",
+        "x": 26.0,
+        "y": 12.0,
+        "w": 41.0,
+        "h": 28.0
+      },
+      {
+        "role": "body",
+        "text": "THE PROBLEM",
+        "x": 28.0,
+        "y": 46.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "18,000 calls/month - 60% simple queries",
+        "x": 31.0,
+        "y": 54.0,
+        "w": 29.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "$85,000 + 6 months spent on failed attempt",
+        "x": 31.0,
+        "y": 61.0,
+        "w": 31.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "System: unmeasurable, invisible, misaligned",
+        "x": 31.0,
+        "y": 68.0,
+        "w": 31.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Goal: AI agent handles 60%+ user queries",
+        "x": 31.0,
+        "y": 75.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "THE KEY DIFFERENCE",
+        "x": 65.0,
+        "y": 46.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "We didn't pick a model until week 7.",
+        "x": 64.0,
+        "y": 56.0,
+        "w": 30.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/ObTPqBGsEbA/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663024.7531219,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Same project. Same problem. Different approach.\n18,000 calls/month - 60% simple queries\n$85,000 + 6 months spent on failed attempt\nSystem: unmeasurable, invisible, misaligned\nGoal: AI agent handles 60%+ user queries\nWe didn't pick a model until week 7.",
+  "advanced_ocr": {}
+}

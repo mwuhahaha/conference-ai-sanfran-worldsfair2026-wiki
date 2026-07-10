@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Beyond the Harness\nThe journey towards Adaptative Engineering",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Beyond the Harness",
+        "x": 6.0,
+        "y": 17.0,
+        "w": 42.0,
+        "h": 20.0
+      },
+      {
+        "role": "subtitle",
+        "text": "The journey towards Adaptative Engineering",
+        "x": 6.0,
+        "y": 35.0,
+        "w": 78.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "NICHHA LABS",
+        "x": 88.0,
+        "y": 90.0,
+        "w": 8.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/qdZzND79mcg/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670895.8761911,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Beyond the Harness\nThe journey towards Adaptative Engineering",
+  "advanced_ocr": {}
+}

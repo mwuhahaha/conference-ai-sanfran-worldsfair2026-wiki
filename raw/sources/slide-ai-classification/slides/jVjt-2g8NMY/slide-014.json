@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "I'll refresh froe the PoLygraph guidance first since this is a resomed PoLygraph session, then read the parent Log onty.Iwon't make repository, branch,or PR changes. Explored Read SKILL.nd （polygraph:potygraph skill) Polygraph-Deno-Snapshot/poLy-backend-93afScbb Fetch-app-titte-from-bocket 93df5cb0 Addsanew dou1ooaa. What json 'GET /opi/app-info endpoint that returns the frontend apg titte n JSo: 3AT0S OH IT\nuntit you give a concrete next fnstruction.I'#reading only the relevant state. Ranwc-1/Users/vsavkin/.polyoraph/sessions/fetch-app-title-fron-backend-c9be44e2/Logs/ Explored The Polygraphskill confirms thisisa resume/read-only chec parent.log Read parent.log parant.log tho int:restore context,then stop Logbon and will sumnarize d-c9be64e2/t0gs/ service.ts'repository.ts+'types.ts,each xporting a class plus a defaolt-wired singteton. （T/BT）55011,102 PotyShopping'). HO Colocated vitest specs for routes/service/repository. mTests InLine JsoN response schena,consistent with the JsoN-only conventions. 1 undu. nperunbuila,andnps\nThe parent log shos the plan phase, the contract decision,and the user's tater request to Explored Read parent.1og All your peior logs are avaitable here: endpoint. Frontend consumer PR inpoty-frontend-93afScb Related Polygraph session) fetches this\nRead pacent.log and refreshed context.The Log ends at the earLier inplement the plan and push the PRsrequest,ahite your handoff says that work is atready done and PRs exist for backend and frontend. I sade no code, oranch,PR,or repository changes.ILl ait for your next instruction. I'll read the prior child-agent o-Snapshot-poly-backend-93df5cb8-sdSeB4f569ce.log not make code,branch,PR,or other repository changes until the user explicitty asks you to make /users/vsavkin/.polygraph/sessions/fetch-app-title-from-backend-c9be44e2/Logs/chitd-Potygraph-Den changes,Wait for instructions. \"/hin/2h\nLet's make a change the schesa of the json we return The first chunk covers the read.c shell（f\"comnano\" have the impLeentation and PR co */bin/zsh -le\norking （os·escto interrupt） Resumed and reod the available ch the Fastify backend patterns,ro branch,PR,cr code changes ere\ngpt-5.5xhigh fast\nPrevious",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense terminal-style multi-pane screenshot with small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#161616",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "",
+        "x": 2.0,
+        "y": 3.0,
+        "w": 56.0,
+        "h": 91.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 59.0,
+        "y": 3.0,
+        "w": 39.0,
+        "h": 91.0
+      },
+      {
+        "role": "caption",
+        "text": "",
+        "x": 74.0,
+        "y": 69.0,
+        "w": 24.0,
+        "h": 28.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670129.369283,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "I'll refresh froe the PoLygraph guidance first since this is a resomed PoLygraph session, then read the parent Log onty.Iwon't make repository, branch,or PR changes. Explored Read SKILL.nd （polygraph:potygraph skill) Polygraph-Deno-Snapshot/poLy-backend-93afScbb Fetch-app-titte-from-bocket 93df5cb0 Addsanew dou1ooaa. What json 'GET /opi/app-info endpoint that returns the frontend apg titte n JSo: 3AT0S OH IT\nuntit you give a concrete next fnstruction.I'#reading only the relevant state. Ranwc-1/Users/vsavkin/.polyoraph/sessions/fetch-app-title-fron-backend-c9be44e2/Logs/ Explored The Polygraphskill confirms thisisa resume/read-only chec parent.log Read parent.log parant.log tho int:restore context,then stop Logbon and will sumnarize d-c9be64e2/t0gs/ service.ts'repository.ts+'types.ts,each xporting a class plus a defaolt-wired singteton. （T/BT）55011,102 PotyShopping'). HO Colocated vitest specs for routes/service/repository. mTests InLine JsoN response schena,consistent with the JsoN-only conventions. 1 undu. nperunbuila,andnps\nThe parent log shos the plan phase, the contract decision,and the user's tater request to Explored Read parent.1og All your peior logs are avaitable here: endpoint. Frontend consumer PR inpoty-frontend-93afScb Related Polygraph session) fetches this\nRead pacent.log and refreshed context.The Log ends at the earLier inplement the plan and push the PRsrequest,ahite your handoff says that work is atready done and PRs exist for backend and frontend. I sade no code, oranch,PR,or repository changes.ILl ait for your next instruction. I'll read the prior child-agent o-Snapshot-poly-backend-93df5cb8-sdSeB4f569ce.log not make code,branch,PR,or other repository changes until the user explicitty asks you to make /users/vsavkin/.polygraph/sessions/fetch-app-title-from-backend-c9be44e2/Logs/chitd-Potygraph-Den changes,Wait for instructions. \"/hin/2h\nLet's make a change the schesa of the json we return The first chunk covers the read.c shell（f\"comnano\" have the impLeentation and PR co */bin/zsh -le\norking （os·escto interrupt） Resumed and reod the available ch the Fastify backend patterns,ro branch,PR,cr code changes ere\ngpt-5.5xhigh fast\nPrevious",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2581.0
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "I'll refresh froe the PoLygraph guidance first since this is a resomed PoLygraph session, then read the parent Log onty.Iwon't make repository, branch,or PR changes. Explored Read SKILL.nd （polygraph:potygraph skill) Polygraph-Deno-Snapshot/poLy-backend-93afScbb Fetch-app-titte-from-bocket 93df5cb0 Addsanew dou1ooaa. What json 'GET /opi/app-info endpoint that returns the frontend apg titte n JSo: 3AT0S OH IT\nuntit you give a concrete next fnstruction.I'#reading only the relevant state. Ranwc-1/Users/vsavkin/.polyoraph/sessions/fetch-app-title-fron-backend-c9be44e2/Logs/ Explored The Polygraphskill confirms thisisa resume/read-only chec parent.log Read parent.log parant.log tho int:restore context,then stop Logbon and will sumnarize d-c9be64e2/t0gs/ service.ts'repository.ts+'types.ts,each xporting a class plus a defaolt-wired singteton. （T/BT）55011,102 PotyShopping'). HO Colocated vitest specs for routes/service/repository. mTests InLine JsoN response schena,consistent with the JsoN-only conventions. 1 undu. nperunbuila,andnps\nThe parent log shos the plan phase, the contract decision,and the user's tater request to Explored Read parent.1og All your peior logs are avaitable here: endpoint. Frontend consumer PR inpoty-frontend-93afScb Related Polygraph session) fetches this\nRead pacent.log and refreshed context.The Log ends at the earLier inplement the plan and push the PRsrequest,ahite your handoff says that work is atready done and PRs exist for backend and frontend. I sade no code, oranch,PR,or repository changes.ILl ait for your next instruction. I'll read the prior child-agent o-Snapshot-poly-backend-93df5cb8-sdSeB4f569ce.log not make code,branch,PR,or other repository changes until the user explicitty asks you to make /users/vsavkin/.polygraph/sessions/fetch-app-title-from-backend-c9be44e2/Logs/chitd-Potygraph-Den changes,Wait for instructions. \"/hin/2h\nLet's make a change the schesa of the json we return The first chunk covers the read.c shell（f\"comnano\" have the impLeentation and PR co */bin/zsh -le\norking （os·escto interrupt） Resumed and reod the available ch the Fastify backend patterns,ro branch,PR,cr code changes ere\ngpt-5.5xhigh fast\nPrevious",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

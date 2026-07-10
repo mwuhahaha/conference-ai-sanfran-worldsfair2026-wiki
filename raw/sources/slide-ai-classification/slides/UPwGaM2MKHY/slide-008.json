@@ -1,0 +1,138 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What this looks like in practice - Omnara\nWorker\nModel provider\ndde osn Omnara API DurableSesslon Log\nTools and approvals\nMachine daemon\nWorker Advances the Loop\nLog remains the agent Daemon Launches Tasks\nomnara.com/managed",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with small labels and multiple text regions; OCR is likely cheaper than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with dark diagram panel and soft blue gradient edge",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What this looks like in practice - Omnara",
+        "x": 14.0,
+        "y": 14.0,
+        "w": 62.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "User or app",
+        "x": 12.0,
+        "y": 40.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "Omnara API",
+        "x": 24.0,
+        "y": 40.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "Durable Session Log",
+        "x": 36.0,
+        "y": 40.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "Worker",
+        "x": 52.0,
+        "y": 31.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "Model provider",
+        "x": 67.0,
+        "y": 39.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "Tools and approvals",
+        "x": 60.0,
+        "y": 54.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "Machine daemon",
+        "x": 76.0,
+        "y": 57.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Worker Advances the Loop",
+        "x": 38.0,
+        "y": 73.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Daemon Launches Tasks",
+        "x": 38.0,
+        "y": 77.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Log remains the agent",
+        "x": 38.0,
+        "y": 81.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "omnara.com/managed",
+        "x": 70.0,
+        "y": 88.0,
+        "w": 18.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/UPwGaM2MKHY/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664803.5286841,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "What this looks like in practice - Omnara",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "What this looks like in practice - Omnara\nWorker\nModel provider\ndde osn Omnara API DurableSesslon Log\nTools and approvals\nMachine daemon\nWorker Advances the Loop\nLog remains the agent Daemon Launches Tasks\nomnara.com/managed",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 419.56
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "What this looks like in practice - Omnara\nWorker\nModel provider\ndde osn Omnara API DurableSesslon Log\nTools and approvals\nMachine daemon\nWorker Advances the Loop\nLog remains the agent Daemon Launches Tasks\nomnara.com/managed",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

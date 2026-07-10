@@ -1,0 +1,1375 @@
+{
+  "video_id": "LrGCT7G_rU8",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 14,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Using RL-based Agent to Detect and Remediate ETL Pipeline Failures\nPresenter: Anna Marie Benzon\nUniversity of the Philippines, Diliman\ngithub.com/ambenzon27/rl-etl-remediation-agent",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(90deg,#14395f,#4d93d9)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Using RL-based Agent to Detect and Remediate ETL Pipeline Failures",
+            "x": 3.0,
+            "y": 5.0,
+            "w": 46.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "Presenter: Anna Marie Benzon",
+            "x": 54.0,
+            "y": 64.0,
+            "w": 32.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "University of the Philippines, Diliman",
+            "x": 55.0,
+            "y": 78.0,
+            "w": 27.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "github.com/ambenzon27/rl-etl-remediation-agent",
+            "x": 55.0,
+            "y": 84.0,
+            "w": 39.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660919.5809925,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Using RL-based Agent to Detect and Remediate ETL Pipeline Failures\nPresenter: Anna Marie Benzon\nUniversity of the Philippines, Diliman\ngithub.com/ambenzon27/rl-etl-remediation-agent",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Failure Inspect Logs Diagnose Repair Rerun Validate\nLate or unavailable source data\nThe 日日日 Schema drift\nProblem Null-rate spikes Datetime parsing incompatibilities\nCloud ETL jobs break because of:\nType changes\nUnknown runtime errors\nModeled manual MTTR ~ 2.5 working days",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-item slide with smaller body text and icon labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3efe8",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Failure → Inspect Logs → Diagnose → Repair → Rerun → Validate",
+            "x": 35.0,
+            "y": 3.0,
+            "w": 59.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "The Problem",
+            "x": 11.0,
+            "y": 18.0,
+            "w": 28.0,
+            "h": 30.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Cloud ETL jobs break because of:",
+            "x": 10.0,
+            "y": 55.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Late or unavailable source data",
+            "x": 52.0,
+            "y": 10.0,
+            "w": 34.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Schema drift",
+            "x": 52.0,
+            "y": 24.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Datetime parsing incompatibilities",
+            "x": 52.0,
+            "y": 38.0,
+            "w": 39.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Null-rate spikes",
+            "x": 52.0,
+            "y": 51.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Type changes",
+            "x": 52.0,
+            "y": 64.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Unknown runtime errors",
+            "x": 52.0,
+            "y": 77.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Modeled manual MTTR ~ 2.5 working days",
+            "x": 52.0,
+            "y": 90.0,
+            "w": 40.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660919.5837748,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "The Problem",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Failure Inspect Logs Diagnose Repair Rerun Validate\nLate or unavailable source data\nThe 日日日 Schema drift\nProblem Null-rate spikes Datetime parsing incompatibilities\nCloud ETL jobs break because of:\nType changes\nUnknown runtime errors\nModeled manual MTTR ~ 2.5 working days",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 474.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Failure Inspect Logs Diagnose Repair Rerun Validate\nLate or unavailable source data\nThe 日日日 Schema drift\nProblem Null-rate spikes Datetime parsing incompatibilities\nCloud ETL jobs break because of:\nType changes\nUnknown runtime errors\nModeled manual MTTR ~ 2.5 working days",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Phate 1 Architecture -- Al Pipeline Heulth Agent\nAn End-to-End RL Pipeline\nHealth Agent for Anomaly\nDetection and Autonomous\nSelf-Healing of Cloud Data\nt tt+e+ + At Pipelines\nt cttt th\n: NOTE: GENERAUZED PUDUKC REFERENCE ARCHTTECTURE\nSolution The Monitor → Diagnose → Score → Decide → Safety → Act Validate 2.Diagnose the likely failure family: 5.Validate whether the action restored a healthy state 3.Estimate operational risk 4.Select a bounded remediation action 1.observe logs, schema, and data-quality conditions",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture diagram and multiple text regions are better handled by OCR than direct transcription in triage.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f1efec",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Phase 1 Architecture – AI Pipeline Health Agent",
+            "x": 18.0,
+            "y": 2.0,
+            "w": 36.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "An End-to-End RL Pipeline Health Agent for Anomaly Detection and Autonomous Self-Healing of Cloud Data Pipelines",
+            "x": 63.0,
+            "y": 13.0,
+            "w": 34.0,
+            "h": 35.0
+          },
+          {
+            "role": "title",
+            "text": "The Solution",
+            "x": 4.0,
+            "y": 71.0,
+            "w": 27.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Monitor → Diagnose → Score → Decide → Safety → Act → Validate",
+            "x": 43.0,
+            "y": 68.0,
+            "w": 52.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "1. Observe logs, schema, and data-quality conditions",
+            "x": 47.0,
+            "y": 75.0,
+            "w": 47.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "2. Diagnose the likely failure family",
+            "x": 47.0,
+            "y": 80.0,
+            "w": 32.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "3. Estimate operational risk",
+            "x": 47.0,
+            "y": 85.0,
+            "w": 24.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "4. Select a bounded remediation action",
+            "x": 47.0,
+            "y": 89.0,
+            "w": 34.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "5. Validate whether the action restored a healthy state",
+            "x": 47.0,
+            "y": 93.0,
+            "w": 46.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660962.6952927,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Phate 1 Architecture -- Al Pipeline Heulth Agent\nAn End-to-End RL Pipeline\nHealth Agent for Anomaly\nDetection and Autonomous\nSelf-Healing of Cloud Data\nt tt+e+ + At Pipelines\nt cttt th\n: NOTE: GENERAUZED PUDUKC REFERENCE ARCHTTECTURE\nSolution The Monitor → Diagnose → Score → Decide → Safety → Act Validate 2.Diagnose the likely failure family: 5.Validate whether the action restored a healthy state 3.Estimate operational risk 4.Select a bounded remediation action 1.observe logs, schema, and data-quality conditions",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 720.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Phate 1 Architecture -- Al Pipeline Heulth Agent\nAn End-to-End RL Pipeline\nHealth Agent for Anomaly\nDetection and Autonomous\nSelf-Healing of Cloud Data\nt tt+e+ + At Pipelines\nt cttt th\n: NOTE: GENERAUZED PUDUKC REFERENCE ARCHTTECTURE\nSolution The Monitor → Diagnose → Score → Decide → Safety → Act Validate 2.Diagnose the likely failure family: 5.Validate whether the action restored a healthy state 3.Estimate operational risk 4.Select a bounded remediation action 1.observe logs, schema, and data-quality conditions",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Deterministic Anomaly Rules Schema drift, null spikes, field\nremovals, type changes\nQ-Learning Decision Policy Retry, coerce schema, rollback,. quarantine, escalate, log The\nCritical anomaly.+ passive action Safety Override Intelligence\n- escalate Layer",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram-heavy slide with small labels and policy text; OCR is better than direct extraction.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg,#e8ecef,#f4f6f7)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Deterministic Anomaly Rules",
+            "x": 12.0,
+            "y": 13.0,
+            "w": 33.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Schema drift, null spikes, field removals, type changes",
+            "x": 16.0,
+            "y": 20.0,
+            "w": 29.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Q-Learning Decision Policy",
+            "x": 12.0,
+            "y": 38.0,
+            "w": 31.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Retry, coerce schema, rollback, quarantine, escalate, log",
+            "x": 16.0,
+            "y": 45.0,
+            "w": 34.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Safety Override",
+            "x": 13.0,
+            "y": 61.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Critical anomaly + passive action → escalate",
+            "x": 13.0,
+            "y": 68.0,
+            "w": 30.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "The Intelligence Layer",
+            "x": 63.0,
+            "y": 66.0,
+            "w": 30.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661015.790154,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "The Intelligence Layer",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Deterministic Anomaly Rules Schema drift, null spikes, field\nremovals, type changes\nQ-Learning Decision Policy Retry, coerce schema, rollback,. quarantine, escalate, log The\nCritical anomaly.+ passive action Safety Override Intelligence\n- escalate Layer",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 411.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Deterministic Anomaly Rules Schema drift, null spikes, field\nremovals, type changes\nQ-Learning Decision Policy Retry, coerce schema, rollback,. quarantine, escalate, log The\nCritical anomaly.+ passive action Safety Override Intelligence\n- escalate Layer",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Detection and Diagnosis\nEstablish the Facts Before Choosing an Action\nComponent Responsibility\nSchema profiler Structure, types, nesting. null rates\nDrift detector Additions.removals.type changes\nData-quality analyzer Completeness, validity. consistency\nError classifier Converts log patterns into failure categories\nRisk scorer Produces an operational risk level\nDeterministic prototype with limited dataset; ML-ready with richer incident history.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Table layout with multiple small cells is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4f1ec",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Detection and Diagnosis",
+            "x": 23.0,
+            "y": 3.0,
+            "w": 53.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Establish the Facts Before Choosing an Action",
+            "x": 9.0,
+            "y": 18.0,
+            "w": 83.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Component",
+            "x": 22.0,
+            "y": 28.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Responsibility",
+            "x": 63.0,
+            "y": 28.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Schema profiler",
+            "x": 24.0,
+            "y": 41.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Drift detector",
+            "x": 24.0,
+            "y": 53.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Data-quality analyzer",
+            "x": 23.0,
+            "y": 65.0,
+            "w": 21.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Error classifier",
+            "x": 24.0,
+            "y": 77.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Risk scorer",
+            "x": 26.0,
+            "y": 89.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Structure, types, nesting, null rates",
+            "x": 61.0,
+            "y": 41.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Additions, removals, type changes",
+            "x": 61.0,
+            "y": 53.0,
+            "w": 27.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Completeness, validity, consistency",
+            "x": 61.0,
+            "y": 65.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Converts log patterns into failure categories",
+            "x": 61.0,
+            "y": 77.0,
+            "w": 35.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Produces an operational risk level",
+            "x": 61.0,
+            "y": 89.0,
+            "w": 27.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Deterministic prototype with limited dataset; ML-ready with richer incident history.",
+            "x": 18.0,
+            "y": 93.0,
+            "w": 66.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661056.8756433,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Detection and Diagnosis",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Detection and Diagnosis\nEstablish the Facts Before Choosing an Action\nComponent Responsibility\nSchema profiler Structure, types, nesting. null rates\nDrift detector Additions.removals.type changes\nData-quality analyzer Completeness, validity. consistency\nError classifier Converts log patterns into failure categories\nRisk scorer Produces an operational risk level\nDeterministic prototype with limited dataset; ML-ready with richer incident history.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 664.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Detection and Diagnosis\nEstablish the Facts Before Choosing an Action\nComponent Responsibility\nSchema profiler Structure, types, nesting. null rates\nDrift detector Additions.removals.type changes\nData-quality analyzer Completeness, validity. consistency\nError classifier Converts log patterns into failure categories\nRisk scorer Produces an operational risk level\nDeterministic prototype with limited dataset; ML-ready with richer incident history.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "RL Selects the Response, Not the Facts\nState: Action:.\nretry [coerce] rollback quarantine oscalato [log]\n1.Failure category\n4.Drift severity 3.Retry count 2.Risk level 2.Small, interpretable statespace: 3.Low-memory.inference: 1. Tabular Q-learning\n5.Data-quality condition 4.Inspectable Q-values for every decision\nTeChNICALlY, ThIS IS a SInGLE-StEp CONTexTUAL DECISIoN prOBLem IMPlEmENTeD WiTH TaBULaR Q-LeaRnInG.:\n-:-",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Two-column state/action slide with small text and a footnote is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(180deg,#eceef0,#f2f3f4)",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "RL Selects the Response, Not the Facts",
+            "x": 18.0,
+            "y": 5.0,
+            "w": 60.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "State:",
+            "x": 18.0,
+            "y": 28.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "1. Failure category",
+            "x": 14.0,
+            "y": 40.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "2. Risk level",
+            "x": 14.0,
+            "y": 48.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "3. Retry count",
+            "x": 14.0,
+            "y": 56.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "4. Drift severity",
+            "x": 14.0,
+            "y": 64.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "5. Data-quality condition",
+            "x": 14.0,
+            "y": 72.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Action:",
+            "x": 66.0,
+            "y": 29.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "retry • coerce • rollback • quarantine • escalate • log",
+            "x": 47.0,
+            "y": 40.0,
+            "w": 43.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "1. Tabular Q-learning",
+            "x": 49.0,
+            "y": 57.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "2. Small, interpretable state space",
+            "x": 49.0,
+            "y": 65.0,
+            "w": 32.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "3. Low-memory inference",
+            "x": 49.0,
+            "y": 73.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "4. Inspectable Q-values for every decision",
+            "x": 49.0,
+            "y": 81.0,
+            "w": 37.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "TECHNICALLY, THIS IS A SINGLE-STEP CONTEXTUAL DECISION PROBLEM IMPLEMENTED WITH TABULAR Q-LEARNING.",
+            "x": 24.0,
+            "y": 94.0,
+            "w": 52.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661115.6606054,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "RL Selects the Response, Not the Facts\nState: Action:.\nretry [coerce] rollback quarantine oscalato [log]\n1.Failure category\n4.Drift severity 3.Retry count 2.Risk level 2.Small, interpretable statespace: 3.Low-memory.inference: 1. Tabular Q-learning\n5.Data-quality condition 4.Inspectable Q-values for every decision\nTeChNICALlY, ThIS IS a SInGLE-StEp CONTexTUAL DECISIoN prOBLem IMPlEmENTeD WiTH TaBULaR Q-LeaRnInG.:\n-:-",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 580.48
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "RL Selects the Response, Not the Facts\nState: Action:.\nretry [coerce] rollback quarantine oscalato [log]\n1.Failure category\n4.Drift severity 3.Retry count 2.Risk level 2.Small, interpretable statespace: 3.Low-memory.inference: 1. Tabular Q-learning\n5.Data-quality condition 4.Inspectable Q-values for every decision\nTeChNICALlY, ThIS IS a SInGLE-StEp CONTexTUAL DECISIoN prOBLem IMPlEmENTeD WiTH TaBULaR Q-LeaRnInG.:\n-:-",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Safe Autonomy\nThe Learned Policy Does Not Have Final Authority\n1. Q-learning policy proposes an action\n2. Safety layer evaluates critical anomalies\n3. Unsafe passive actions are overridden\n4. High-risk and unknown conditions escalate\n5. Every decision produces an audit record\nEscalation is a correct action, not a failure of autonomy.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray speckled paper texture",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Safe Autonomy",
+            "x": 35.0,
+            "y": 4.0,
+            "w": 30.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "The Learned Policy Does Not Have Final Authority",
+            "x": 16.0,
+            "y": 15.0,
+            "w": 68.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "1. Q-learning policy proposes an action\n2. Safety layer evaluates critical anomalies\n3. Unsafe passive actions are overridden\n4. High-risk and unknown conditions escalate\n5. Every decision produces an audit record",
+            "x": 19.0,
+            "y": 27.0,
+            "w": 56.0,
+            "h": 38.0
+          },
+          {
+            "role": "caption",
+            "text": "Escalation is a correct action, not a failure of autonomy.",
+            "x": 30.0,
+            "y": 89.0,
+            "w": 50.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "",
+            "x": 9.0,
+            "y": 82.0,
+            "w": 10.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661246.3693702,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Safe Autonomy\nThe Learned Policy Does Not Have Final Authority\n1. Q-learning policy proposes an action\n2. Safety layer evaluates critical anomalies\n3. Unsafe passive actions are overridden\n4. High-risk and unknown conditions escalate\n5. Every decision produces an audit record\nEscalation is a correct action, not a failure of autonomy.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Example Failure\nntriggered_at*: \"2026-05-21te2:05:20z*, \"job_name\": \" Synthotic_etl Job \", - [A] Real Gtue job failure\n\"error_classification\": { \"error_tyPe\": \"PAIeTIME_FOfRAL ERROR\". \"confidence\": o.90, - (B] classified by Error Classifle\nscheaa/date foreat y. \"recoamended_action\": \"APPLY_SCHEHA_COERCIoN\" - [C] Rule engine says: coerce\n\"anonaly_override\": fatse, - [E] Safety override did not fire + [o] Agent selects scheas coerclon\n\"reaedlation\": { \"note\": -Hanual Gtue script update required\" - [F] Loggcd for review \"success\": falsc,\nObserved condition 1.Glue-style job fallure event Decision? 1.Policy selects schema coercion\nreceived 2.safety override does not fire\n2:Datetime-format incompatibility detected 3.Automatic coercion.is unavailable 4.lncident is logged for manual reviev\n3.Error classified with 0.90\nconfidence",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code screenshot and multi-column content are better suited to OCR than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray speckled paper texture",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Example Failure",
+            "x": 31.0,
+            "y": 4.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "code screenshot",
+            "x": 24.0,
+            "y": 17.0,
+            "w": 52.0,
+            "h": 36.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Observed condition",
+            "x": 9.0,
+            "y": 70.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "1. Glue-style job failure event received\n2. Datetime-format incompatibility detected\n3. Error classified with 0.90 confidence",
+            "x": 9.0,
+            "y": 78.0,
+            "w": 40.0,
+            "h": 18.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Decision",
+            "x": 52.0,
+            "y": 70.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "1. Policy selects schema coercion\n2. Safety override does not fire\n3. Automatic coercion is unavailable\n4. Incident is logged for manual review",
+            "x": 52.0,
+            "y": 78.0,
+            "w": 40.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661246.370305,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Example Failure",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Example Failure\nntriggered_at*: \"2026-05-21te2:05:20z*, \"job_name\": \" Synthotic_etl Job \", - [A] Real Gtue job failure\n\"error_classification\": { \"error_tyPe\": \"PAIeTIME_FOfRAL ERROR\". \"confidence\": o.90, - (B] classified by Error Classifle\nscheaa/date foreat y. \"recoamended_action\": \"APPLY_SCHEHA_COERCIoN\" - [C] Rule engine says: coerce\n\"anonaly_override\": fatse, - [E] Safety override did not fire + [o] Agent selects scheas coerclon\n\"reaedlation\": { \"note\": -Hanual Gtue script update required\" - [F] Loggcd for review \"success\": falsc,\nObserved condition 1.Glue-style job fallure event Decision? 1.Policy selects schema coercion\nreceived 2.safety override does not fire\n2:Datetime-format incompatibility detected 3.Automatic coercion.is unavailable 4.lncident is logged for manual reviev\n3.Error classified with 0.90\nconfidence",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1001.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Example Failure\nntriggered_at*: \"2026-05-21te2:05:20z*, \"job_name\": \" Synthotic_etl Job \", - [A] Real Gtue job failure\n\"error_classification\": { \"error_tyPe\": \"PAIeTIME_FOfRAL ERROR\". \"confidence\": o.90, - (B] classified by Error Classifle\nscheaa/date foreat y. \"recoamended_action\": \"APPLY_SCHEHA_COERCIoN\" - [C] Rule engine says: coerce\n\"anonaly_override\": fatse, - [E] Safety override did not fire + [o] Agent selects scheas coerclon\n\"reaedlation\": { \"note\": -Hanual Gtue script update required\" - [F] Loggcd for review \"success\": falsc,\nObserved condition 1.Glue-style job fallure event Decision? 1.Policy selects schema coercion\nreceived 2.safety override does not fire\n2:Datetime-format incompatibility detected 3.Automatic coercion.is unavailable 4.lncident is logged for manual reviev\n3.Error classified with 0.90\nconfidence",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "ReproducibleEvaluation\nDesigned for Independent Reproductior\n1.Generalized AWs Lambda-style remediation-agent ambenzon27/rl-etl-\n2.synthetic schemas, records, logs, and incidents architecture PLitLided ETL rerptataon L(ert ia tchtra -drn tvhtle brchmMi, ard Ais Llnbdh deyitor, enar cintilcenor, Qremrlng dtctTenr Yo\n5.Robustness check across 30 runs, seeds 4.Four controlled experiments: El-E4 3.No production data or infrastructure identifiers: GTEo AL guita E?l Ttltdttan tgtl 1r TaTtai tttatr, tt atia Dulewto uoa.uwp oie 'uayphtp upio\n6.Results reported with 95% confidence intervals 42-71 available in the GitHub Public benchmark and tests are\nrepository",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small body text and embedded screenshot are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray speckled paper texture",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Reproducible Evaluation",
+            "x": 27.0,
+            "y": 4.0,
+            "w": 47.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Designed for Independent Reproduction",
+            "x": 5.0,
+            "y": 16.0,
+            "w": 40.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "1. Generalized AWS Lambda-style architecture\n2. Synthetic schemas, records, logs, and incidents\n3. No production data or infrastructure identifiers\n4. Four controlled experiments: E1-E4\n5. Robustness check across 30 runs, seeds 42-71\n6. Results reported with 95% confidence intervals",
+            "x": 5.0,
+            "y": 25.0,
+            "w": 43.0,
+            "h": 47.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "GitHub repository preview",
+            "x": 60.0,
+            "y": 23.0,
+            "w": 30.0,
+            "h": 29.0
+          },
+          {
+            "role": "caption",
+            "text": "Public benchmark and tests are available in the GitHub repository.",
+            "x": 68.0,
+            "y": 78.0,
+            "w": 27.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661283.3797035,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Reproducible Evaluation",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "ReproducibleEvaluation\nDesigned for Independent Reproductior\n1.Generalized AWs Lambda-style remediation-agent ambenzon27/rl-etl-\n2.synthetic schemas, records, logs, and incidents architecture PLitLided ETL rerptataon L(ert ia tchtra -drn tvhtle brchmMi, ard Ais Llnbdh deyitor, enar cintilcenor, Qremrlng dtctTenr Yo\n5.Robustness check across 30 runs, seeds 4.Four controlled experiments: El-E4 3.No production data or infrastructure identifiers: GTEo AL guita E?l Ttltdttan tgtl 1r TaTtai tttatr, tt atia Dulewto uoa.uwp oie 'uayphtp upio\n6.Results reported with 95% confidence intervals 42-71 available in the GitHub Public benchmark and tests are\nrepository",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 892.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "ReproducibleEvaluation\nDesigned for Independent Reproductior\n1.Generalized AWs Lambda-style remediation-agent ambenzon27/rl-etl-\n2.synthetic schemas, records, logs, and incidents architecture PLitLided ETL rerptataon L(ert ia tchtra -drn tvhtle brchmMi, ard Ais Llnbdh deyitor, enar cintilcenor, Qremrlng dtctTenr Yo\n5.Robustness check across 30 runs, seeds 4.Four controlled experiments: El-E4 3.No production data or infrastructure identifiers: GTEo AL guita E?l Ttltdttan tgtl 1r TaTtai tttatr, tt atia Dulewto uoa.uwp oie 'uayphtp upio\n6.Results reported with 95% confidence intervals 42-71 available in the GitHub Public benchmark and tests are\nrepository",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Evaluation Results\nControlled synthetic benchmark 30 seeds, mean ± 95% cl Htean iie to itcdiey, shotn on a log scale MTTR Drops from Days to Minutes in the Benchmark\n1.Rule-based anomaly detector 10.000 2.5 working days\n2.Recall: 0.800 Precision' 1.000 Loco -99.85% 10vor MTTR\n3.FI: 0.889 100\n4.Rl successful-cdse resolution tim approximately.5.2 minutes 5.24 +l 0.14 pnn\n5.RL simulated success rate: 74.63 ± 1.51%\ntion rate: 88.63 ± 0.89% nadent rtspord+ KSEE syher bechat RiL helth sgent\nA ret yhdudhen rdnl eelorte.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart labels and benchmark metrics are small and OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray speckled paper texture",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Evaluation Results",
+            "x": 34.0,
+            "y": 4.0,
+            "w": 33.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Controlled synthetic benchmark — 30 seeds, mean ± 95% CI",
+            "x": 3.0,
+            "y": 16.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1. Rule-based anomaly detector: Precision 1.000\n2. Recall: 0.800\n3. F1: 0.889\n4. RL successful-case resolution time: approximately 5.2 minutes\n5. RL simulated success rate: 74.63 ± 1.51%\n6. RL non-escalation rate: 88.63 ± 0.89%",
+            "x": 4.0,
+            "y": 27.0,
+            "w": 42.0,
+            "h": 44.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MTTR Drops from Days to Minutes in the Benchmark",
+            "x": 44.0,
+            "y": 18.0,
+            "w": 54.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Manual incidents response",
+            "x": 57.0,
+            "y": 67.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RL health agent synthetic benchmark",
+            "x": 79.0,
+            "y": 67.0,
+            "w": 18.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661369.3893464,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Evaluation Results",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Evaluation Results\nControlled synthetic benchmark 30 seeds, mean ± 95% cl Htean iie to itcdiey, shotn on a log scale MTTR Drops from Days to Minutes in the Benchmark\n1.Rule-based anomaly detector 10.000 2.5 working days\n2.Recall: 0.800 Precision' 1.000 Loco -99.85% 10vor MTTR\n3.FI: 0.889 100\n4.Rl successful-cdse resolution tim approximately.5.2 minutes 5.24 +l 0.14 pnn\n5.RL simulated success rate: 74.63 ± 1.51%\ntion rate: 88.63 ± 0.89% nadent rtspord+ KSEE syher bechat RiL helth sgent\nA ret yhdudhen rdnl eelorte.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 668.68
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Evaluation Results\nControlled synthetic benchmark 30 seeds, mean ± 95% cl Htean iie to itcdiey, shotn on a log scale MTTR Drops from Days to Minutes in the Benchmark\n1.Rule-based anomaly detector 10.000 2.5 working days\n2.Recall: 0.800 Precision' 1.000 Loco -99.85% 10vor MTTR\n3.FI: 0.889 100\n4.Rl successful-cdse resolution tim approximately.5.2 minutes 5.24 +l 0.14 pnn\n5.RL simulated success rate: 74.63 ± 1.51%\ntion rate: 88.63 ± 0.89% nadent rtspord+ KSEE syher bechat RiL helth sgent\nA ret yhdudhen rdnl eelorte.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Robustness and Ablation\nWhat produced reliability?\n1.RL:success matched the\ndeterministic pol 100± 30 synthetic seeds; mean ± 95% Cl\n2.Deterministic rules beat random percentage-point'difference -15.03 ± 0.66 pp\nselection by.15:63 ±'1.86 points Safety override\n3.The safety override reduced vs none +0.00 ±:0.19 pp\n4.RL provided an inspectable learned policy; butdid not points non-escalation by.15:03:± 0.66 Rules vs random RL vs rules +15.63 ± 1.86 pp\noutperform.rules in this -15 -10 -5 0 5 10 15\nicnmg Difference (percentage points)\n5.Structured decision'logic and\nexternal guardrails produced\nnost of the reliability",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small quantitative plot labels and dense bullet text are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray speckled paper texture",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Robustness and Ablation",
+            "x": 26.0,
+            "y": 4.0,
+            "w": 48.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What produced reliability?",
+            "x": 3.0,
+            "y": 16.0,
+            "w": 25.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "1. RL success matched the deterministic policy: 0.00 ± 0.19 percentage-point difference\n2. Deterministic rules beat random selection by 15.63 ± 1.86 points\n3. The safety override reduced non-escalation by 15.03 ± 0.66 points\n4. RL provided an inspectable learned policy, but did not outperform rules in this benchmark\n5. Structured decision logic and external guardrails produced most of the reliability",
+            "x": 3.0,
+            "y": 24.0,
+            "w": 42.0,
+            "h": 49.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "30 synthetic seeds; mean ± 95% CI",
+            "x": 55.0,
+            "y": 19.0,
+            "w": 31.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Safety override vs none",
+            "x": 41.0,
+            "y": 45.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RL vs rules",
+            "x": 41.0,
+            "y": 56.0,
+            "w": 10.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Rules vs random",
+            "x": 41.0,
+            "y": 67.0,
+            "w": 13.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661421.8768516,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Robustness and Ablation",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Robustness and Ablation\nWhat produced reliability?\n1.RL:success matched the\ndeterministic pol 100± 30 synthetic seeds; mean ± 95% Cl\n2.Deterministic rules beat random percentage-point'difference -15.03 ± 0.66 pp\nselection by.15:63 ±'1.86 points Safety override\n3.The safety override reduced vs none +0.00 ±:0.19 pp\n4.RL provided an inspectable learned policy; butdid not points non-escalation by.15:03:± 0.66 Rules vs random RL vs rules +15.63 ± 1.86 pp\noutperform.rules in this -15 -10 -5 0 5 10 15\nicnmg Difference (percentage points)\n5.Structured decision'logic and\nexternal guardrails produced\nnost of the reliability",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 688.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Robustness and Ablation\nWhat produced reliability?\n1.RL:success matched the\ndeterministic pol 100± 30 synthetic seeds; mean ± 95% Cl\n2.Deterministic rules beat random percentage-point'difference -15.03 ± 0.66 pp\nselection by.15:63 ±'1.86 points Safety override\n3.The safety override reduced vs none +0.00 ±:0.19 pp\n4.RL provided an inspectable learned policy; butdid not points non-escalation by.15:03:± 0.66 Rules vs random RL vs rules +15.63 ± 1.86 pp\noutperform.rules in this -15 -10 -5 0 5 10 15\nicnmg Difference (percentage points)\n5.Structured decision'logic and\nexternal guardrails produced\nnost of the reliability",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What This Prototype Does Not Yet Prove\n1. Results are based on synthetic benchmark scenarios\n2. The agent is failure-triggered, not a pre-failure predictor\n3. Production incident diversity may exceed the current state space\n4. Some remediation actions remain simulated or bounded\n5. Online learning requires strict operational approval gates\nThis demonstrates feasibility and system design, not production completeness.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray speckled paper texture",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What This Prototype Does Not Yet Prove",
+            "x": 10.0,
+            "y": 5.0,
+            "w": 72.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1. Results are based on synthetic benchmark scenarios\n2. The agent is failure-triggered, not a pre-failure predictor\n3. Production incident diversity may exceed the current state space\n4. Some remediation actions remain simulated or bounded\n5. Online learning requires strict operational approval gates",
+            "x": 15.0,
+            "y": 14.0,
+            "w": 70.0,
+            "h": 35.0
+          },
+          {
+            "role": "caption",
+            "text": "This demonstrates feasibility and system design, not production completeness.",
+            "x": 37.0,
+            "y": 87.0,
+            "w": 51.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "Current Limitations",
+            "x": 3.0,
+            "y": 80.0,
+            "w": 24.0,
+            "h": 17.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661488.977126,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What This Prototype Does Not Yet Prove\n1. Results are based on synthetic benchmark scenarios\n2. The agent is failure-triggered, not a pre-failure predictor\n3. Production incident diversity may exceed the current state space\n4. Some remediation actions remain simulated or bounded\n5. Online learning requires strict operational approval gates\nThis demonstrates feasibility and system design, not production completeness.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Small AI Can Still Deliver Operational Value\n1. Use deterministic logic for observable facts\n2. Use RL where contextual action selection adds value\n3. Place safety constraints outside the learned policy\n4. Treat escalation and validation as core capabilities\n5. Evaluate across repeated seeds, not one favorable run",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(180deg,#f5f3ef,#eee8e0)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Small AI Can Still Deliver Operational Value",
+            "x": 4.0,
+            "y": 5.0,
+            "w": 56.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "1. Use deterministic logic for observable facts\n2. Use RL where contextual action selection adds value\n3. Place safety constraints outside the learned policy\n4. Treat escalation and validation as core capabilities\n5. Evaluate across repeated seeds, not one favorable run",
+            "x": 5.0,
+            "y": 16.0,
+            "w": 53.0,
+            "h": 36.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 73.0,
+            "y": 10.0,
+            "w": 23.0,
+            "h": 39.0
+          },
+          {
+            "role": "title",
+            "text": "Takeaways",
+            "x": 3.0,
+            "y": 70.0,
+            "w": 28.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "A practical self-healing pipeline does not need a giant model. It needs bounded authority, reproducible evidence, and the discipline to escalate when it is uncertain.",
+            "x": 47.0,
+            "y": 72.0,
+            "w": 49.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661560.4451177,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Small AI Can Still Deliver Operational Value\n1. Use deterministic logic for observable facts\n2. Use RL where contextual action selection adds value\n3. Place safety constraints outside the learned policy\n4. Treat escalation and validation as core capabilities\n5. Evaluate across repeated seeds, not one favorable run",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "From reactive debugging to intelligent recovery!\nThe goal is not to replace human judgment.\nIt is to reserve it for the failures that truly need it.\nBefore:\n- Manual log inspection\n- Schema tracing\n- Delayed dashboards\n- Modeled MTTR: 2.5 working days\nAfter:\n- Event-triggered diagnosis\n- RL-guided remediation\n- Safety-constrained escalation\n- Minutes-scale recovery",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(180deg,#eef2f3,#f5f1ee)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "From reactive debugging to intelligent recovery!",
+            "x": 5.0,
+            "y": 5.0,
+            "w": 48.0,
+            "h": 28.0
+          },
+          {
+            "role": "body",
+            "text": "The goal is not to replace human judgment.\nIt is to reserve it for the failures that truly need it.",
+            "x": 5.0,
+            "y": 33.0,
+            "w": 43.0,
+            "h": 19.0
+          },
+          {
+            "role": "body",
+            "text": "Before:\nManual log inspection\nSchema tracing\nDelayed dashboards\nModeled MTTR: 2.5 working days",
+            "x": 58.0,
+            "y": 16.0,
+            "w": 36.0,
+            "h": 31.0
+          },
+          {
+            "role": "body",
+            "text": "After:\nEvent-triggered diagnosis\nRL-guided remediation\nSafety-constrained escalation\nMinutes-scale recovery",
+            "x": 58.0,
+            "y": 56.0,
+            "w": 36.0,
+            "h": 30.0
+          },
+          {
+            "role": "caption",
+            "text": "Routine ETL failures become diagnosable, explainable, and recoverable in minutes.",
+            "x": 5.0,
+            "y": 69.0,
+            "w": 44.0,
+            "h": 15.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/LrGCT7G_rU8/slide-014.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661560.4454188,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "From reactive debugging to intelligent recovery!\nThe goal is not to replace human judgment.\nIt is to reserve it for the failures that truly need it.\nBefore:\n- Manual log inspection\n- Schema tracing\n- Delayed dashboards\n- Modeled MTTR: 2.5 working days\nAfter:\n- Event-triggered diagnosis\n- RL-guided remediation\n- Safety-constrained escalation\n- Minutes-scale recovery",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/LrGCT7G_rU8/slide-014.html"
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,898 @@
+{
+  "video_id": "HEFSExa0xl0",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 10,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "50% → 92%\n- 4 months, multiple architectures, and many dead ends\n- What mattered most: replacing 15 discrete tools with one REPL",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple, directly readable slide.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with dark green panel",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 13.0,
+            "h": 17.0
+          },
+          {
+            "role": "title",
+            "text": "50% → 92%",
+            "x": 29.0,
+            "y": 5.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "- 4 months, multiple architectures, and many dead ends\n- What mattered most: replacing 15 discrete tools with one REPL",
+            "x": 29.0,
+            "y": 23.0,
+            "w": 56.0,
+            "h": 18.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 57.0,
+            "y": 83.0,
+            "w": 24.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HEFSExa0xl0/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659368.7020066,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "50% → 92%\n- 4 months, multiple architectures, and many dead ends\n- What mattered most: replacing 15 discrete tools with one REPL",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HEFSExa0xl0/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The problem",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense table/small text and formula-like content",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark green",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The problem",
+            "x": 29.0,
+            "y": 7.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "A human sees: revenue table, assumptions, P&L summary",
+            "x": 29.0,
+            "y": 24.0,
+            "w": 36.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "An LLM sees: 10,000 cell values",
+            "x": 29.0,
+            "y": 42.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "table screenshot",
+            "x": 63.0,
+            "y": 1.0,
+            "w": 36.0,
+            "h": 98.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HEFSExa0xl0/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659307.3274891,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The problem",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HEFSExa0xl0/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "One dead end\nThree specialized agents:\n1. Block discovery – identifies workbook structure\n2. Edit agent – 5-step process: disambiguate, define end state, plan, execute, verify\n3. Question agent – answers questions\nKey finding: Rigid architectures don't win",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark green",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "One dead end",
+            "x": 29.0,
+            "y": 7.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Three specialized agents:",
+            "x": 29.0,
+            "y": 22.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "1. Block discovery – identifies workbook structure",
+            "x": 31.0,
+            "y": 33.0,
+            "w": 48.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "2. Edit agent – 5-step process: disambiguate, define end state, plan, execute, verify",
+            "x": 31.0,
+            "y": 43.0,
+            "w": 61.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "3. Question agent – answers questions",
+            "x": 31.0,
+            "y": 58.0,
+            "w": 32.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Key finding: Rigid architectures don't win",
+            "x": 29.0,
+            "y": 75.0,
+            "w": 36.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HEFSExa0xl0/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659307.3277707,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "One dead end\nThree specialized agents:\n1. Block discovery – identifies workbook structure\n2. Edit agent – 5-step process: disambiguate, define end state, plan, execute, verify\n3. Question agent – answers questions\nKey finding: Rigid architectures don't win",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HEFSExa0xl0/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "More dead ends",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "table layout with small text across multiple rows",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark green",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "More dead ends",
+            "x": 29.0,
+            "y": 7.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Representation",
+            "x": 30.0,
+            "y": 22.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Why it failed",
+            "x": 64.0,
+            "y": 22.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "TSV views",
+            "x": 30.0,
+            "y": 34.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "SQL views",
+            "x": 30.0,
+            "y": 43.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "HTML tables",
+            "x": 30.0,
+            "y": 52.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "DOT graphs",
+            "x": 30.0,
+            "y": 62.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "XML/XSLT",
+            "x": 30.0,
+            "y": 71.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HEFSExa0xl0/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659307.32815,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "More dead ends",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HEFSExa0xl0/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Before vs. After",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "code snippets and small before/after tool-call text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark green",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Before vs. After",
+            "x": 29.0,
+            "y": 7.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Before (10-15 tool calls):",
+            "x": 29.0,
+            "y": 22.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "After (1 tool call):",
+            "x": 29.0,
+            "y": 50.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "const sheets = await xlsx.listSheets(wb);",
+            "x": 29.0,
+            "y": 58.0,
+            "w": 42.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HEFSExa0xl0/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659307.328476,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Before vs. After",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HEFSExa0xl0/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Code mode vs. REPL",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "paragraph text plus code snippet on slide",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark green",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Code mode vs. REPL",
+            "x": 29.0,
+            "y": 7.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Code mode – the agent writes scripts instead of making tool calls. Operations compose naturally. 50-line scripts are common.",
+            "x": 29.0,
+            "y": 22.0,
+            "w": 60.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "REPL = code mode + persistent state — variables survive across calls. The agent writes shorter scripts, reasons between them, builds understanding incrementally.",
+            "x": 29.0,
+            "y": 39.0,
+            "w": 63.0,
+            "h": 16.0
+          },
+          {
+            "role": "code",
+            "text": "const revenue = await xlsx.findCells(wb, \"Revenue\", { context: 1 });",
+            "x": 30.0,
+            "y": 60.0,
+            "w": 57.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Result: accuracy gain on harder tasks — the agent can course-correct mid-exploration.",
+            "x": 29.0,
+            "y": 77.0,
+            "w": 60.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HEFSExa0xl0/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659307.3287618,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Code mode vs. REPL",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HEFSExa0xl0/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The verification loop",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "diagram and small explanatory text are better suited to OCR",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark green",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The verification loop",
+            "x": 29.0,
+            "y": 7.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "The formula engine and renderer close a loop the agent uses to check its own work.",
+            "x": 29.0,
+            "y": 16.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "This held across three successive frontier model releases. Each new model used the same loop more effectively.",
+            "x": 29.0,
+            "y": 28.0,
+            "w": 44.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Write",
+            "x": 73.0,
+            "y": 18.0,
+            "w": 10.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Calculate",
+            "x": 66.0,
+            "y": 40.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Render",
+            "x": 72.0,
+            "y": 61.0,
+            "w": 11.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HEFSExa0xl0/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659307.3291056,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The verification loop",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HEFSExa0xl0/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Interface vs. engines\n\nThe REPL is an interface — the best one today, because coding is where models are strongest.\n\nThe engines — formula calculation, rendering, linting — are the more durable part. They're what close the verification loop, and they compound with each new model.\n\nIf for instance agents become as capable at computer use as they are at coding, the interface might change. The engines won't.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with deep green panel",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 17.0,
+            "h": 26.0
+          },
+          {
+            "role": "title",
+            "text": "Interface vs. engines",
+            "x": 30.0,
+            "y": 4.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "The REPL is an interface — the best one today, because coding is where models are strongest.",
+            "x": 30.0,
+            "y": 19.0,
+            "w": 58.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "The engines — formula calculation, rendering, linting — are the more durable part. They're what close the verification loop, and they compound with each new model.",
+            "x": 30.0,
+            "y": 35.0,
+            "w": 62.0,
+            "h": 21.0
+          },
+          {
+            "role": "body",
+            "text": "If for instance agents become as capable at computer use as they are at coding, the interface might change. The engines won't.",
+            "x": 30.0,
+            "y": 68.0,
+            "w": 58.0,
+            "h": 16.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 56.0,
+            "y": 86.0,
+            "w": 26.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HEFSExa0xl0/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659387.1382184,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Interface vs. engines\n\nThe REPL is an interface — the best one today, because coding is where models are strongest.\n\nThe engines — formula calculation, rendering, linting — are the more durable part. They're what close the verification loop, and they compound with each new model.\n\nIf for instance agents become as capable at computer use as they are at coding, the interface might change. The engines won't.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HEFSExa0xl0/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Domain knowledge outlived every tool\n\n— We changed tools four times in four months\n— The financial domain knowledge improved results on every one of them\n\nStructured as a composable prompt component:\n\n— How to interpret margins, profitability, revenue cascades\n— Model type recognition (DCF, LBO, three-statement)\n— Communication conventions ($1.2M not $1,234,567.89)\n— \"Never calculate in your head what the spreadsheet can calculate for you\"\n\nIt was the most reused component in the system.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with deep green panel",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 17.0,
+            "h": 26.0
+          },
+          {
+            "role": "title",
+            "text": "Domain knowledge outlived every tool",
+            "x": 30.0,
+            "y": 4.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "— We changed tools four times in four months\n— The financial domain knowledge improved results on every one of them",
+            "x": 30.0,
+            "y": 14.0,
+            "w": 58.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Structured as a composable prompt component:",
+            "x": 30.0,
+            "y": 31.0,
+            "w": 37.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "— How to interpret margins, profitability, revenue cascades\n— Model type recognition (DCF, LBO, three-statement)\n— Communication conventions ($1.2M not $1,234,567.89)\n— \"Never calculate in your head what the spreadsheet can calculate for you\"",
+            "x": 30.0,
+            "y": 39.0,
+            "w": 59.0,
+            "h": 28.0
+          },
+          {
+            "role": "body",
+            "text": "It was the most reused component in the system.",
+            "x": 30.0,
+            "y": 78.0,
+            "w": 45.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Engineering the future of AI",
+            "x": 40.0,
+            "y": 89.0,
+            "w": 48.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HEFSExa0xl0/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659387.1387851,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Domain knowledge outlived every tool\n\n— We changed tools four times in four months\n— The financial domain knowledge improved results on every one of them\n\nStructured as a composable prompt component:\n\n— How to interpret margins, profitability, revenue cascades\n— Model type recognition (DCF, LBO, three-statement)\n— Communication conventions ($1.2M not $1,234,567.89)\n— \"Never calculate in your head what the spreadsheet can calculate for you\"\n\nIt was the most reused component in the system.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HEFSExa0xl0/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense two-column table with small text is better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with deep green panel",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 17.0,
+            "h": 26.0
+          },
+          {
+            "role": "title",
+            "text": "Infrastructure bugs look like reasoning failures",
+            "x": 30.0,
+            "y": 4.0,
+            "w": 44.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What it looked like",
+            "x": 30.0,
+            "y": 23.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What it actually was",
+            "x": 58.0,
+            "y": 23.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Agent can't find data",
+            "x": 30.0,
+            "y": 31.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "One-character extraction bug (50% → 73%)",
+            "x": 58.0,
+            "y": 31.0,
+            "w": 34.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Agent uses wrong quoting",
+            "x": 30.0,
+            "y": 41.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "SKILL.md had backwards examples",
+            "x": 58.0,
+            "y": 41.0,
+            "w": 31.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Agent times out constantly",
+            "x": 30.0,
+            "y": 51.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Per-cell recalculation query instead of batch",
+            "x": 58.0,
+            "y": 51.0,
+            "w": 34.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Agent retries endlessly",
+            "x": 30.0,
+            "y": 61.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "API returning empty results intermittently",
+            "x": 58.0,
+            "y": 61.0,
+            "w": 35.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "When the agent seems confused, check the plumbing first.",
+            "x": 30.0,
+            "y": 82.0,
+            "w": 56.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "Engineering the future of AI",
+            "x": 40.0,
+            "y": 89.0,
+            "w": 48.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HEFSExa0xl0/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659387.1391556,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HEFSExa0xl0/slide-011.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker on stage with a cropped projected slide; not a readable presentation frame.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Stage shot, not a slide.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "purple stage lighting with projected screen",
+        "style": "other",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIEngineer EUROPE",
+            "x": 52.0,
+            "y": 13.0,
+            "w": 15.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "Nuno Campos",
+            "x": 78.0,
+            "y": 15.0,
+            "w": 15.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HEFSExa0xl0/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659368.7013674,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

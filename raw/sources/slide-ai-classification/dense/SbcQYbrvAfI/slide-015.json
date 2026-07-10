@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "v.PRoup! s benchmariks. $. big_bench_hard conda SRNO + Code + Harkdon I D> Run Al. O Restart l Cnr All Output: Go To: 电 Vie dau Jupytr Vmriabhs e Outhine:' notabooka ). @ JSON_wobpage ganeration ipynb >ius Optimizing JSON wabpage Prompts whh te Arizo Prompi Leamirng SOK') + Impot nesl_asynco TRAN_SPLST_FRACTlON: Detor mines tho tralntest splt ratlo. 0.8 mcans 80% ot data goes to trairing tat, 20% to tcst sot..?... -.* *:. M sa_codo (Python 3.10.19)\ndatssets pU'3NGY38 0: I+ notebooks:., codlng_agant ruh...:> prompts: optimizer_adk A Ucense.tt. t P_NoTiCe: B toma_support quo.. BizNorm-100_eva B arizeax support q.-. JSON w+bpM toucsy tartcsy:.metaprompt.cxt U phoeno uppoL'q? support_qutry.cla. 15. u I'[t]: dwod eun sauyos pue wou saleneao 'sndino toleuo8 doog ysag tuoupadxo lod uu oi suogeay uonrz,udo Auew moy sos:sdooT nolivzwlldo nn These variabies control the experiment scope, data splittlng. evaluatlon criterie, and optimization intensity,' NUM_RULES: Specitios tho rumber of rutes to usa for evaluation: This determlros which prompt fties to load (o.g. evatuator-prompt-10.txt vs ovaluator-prompt-50.txt). OpenAl Key. We winl be using OponA to genorate the webpsge Jrons. 0.0 taufrG: Murbar. of sarples'to use Tor the. orperlnent. Aoyust es peeded. NM_RulEs 's 5o r Mmber or rutes Inthe pranpt - sdjust oastd on your evatuator pronpt ftnis Lr uoT torking sa Contsg! HUH OrTIHIzATIGH_LoOPs 's a'Hueber of optimiTation' loops per eIparisent Nun_saples m lo '. a Munter of rovs to imeple Iroa the fu!! carastt,. o ror al! Train SplIt_rRctioh - e.s t Frsction.of data to. uye for rraining trest tor. testing!. G Python\n5 roquiremanta.trt Os.cnvIronI opEuI_ApI XEy'J - getpsss.gatpass('Oponil 'API Keyr'). Inport openal Lport os. setpass client - operaf.Client(api_keyos:getenyt-opEui_Apl_xEr))\n7.81 Python\nBn3rl t IHTunoS IVmyn' O promotsmng O'tAo R sohct PontgrTstrWr Training and Test Datasets Cunor'tb'a7 Ln3, ca2o Spncou: 4.. Spscn: 4 U. Cn 3 ot 26. 2025-11-22:13:05:15",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense notebook screenshot with code and two section headings; OCR will be more accurate than manual reading here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "OpenAI Key",
+        "x": 10.0,
+        "y": 31.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "Training and Test Datasets",
+        "x": 10.0,
+        "y": 76.0,
+        "w": 30.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-015.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664653.4405813,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "v.PRoup! s benchmariks. $. big_bench_hard conda SRNO + Code + Harkdon I D> Run Al. O Restart l Cnr All Output: Go To: 电 Vie dau Jupytr Vmriabhs e Outhine:' notabooka ). @ JSON_wobpage ganeration ipynb >ius Optimizing JSON wabpage Prompts whh te Arizo Prompi Leamirng SOK') + Impot nesl_asynco TRAN_SPLST_FRACTlON: Detor mines tho tralntest splt ratlo. 0.8 mcans 80% ot data goes to trairing tat, 20% to tcst sot..?... -.* *:. M sa_codo (Python 3.10.19)\ndatssets pU'3NGY38 0: I+ notebooks:., codlng_agant ruh...:> prompts: optimizer_adk A Ucense.tt. t P_NoTiCe: B toma_support quo.. BizNorm-100_eva B arizeax support q.-. JSON w+bpM toucsy tartcsy:.metaprompt.cxt U phoeno uppoL'q? support_qutry.cla. 15. u I'[t]: dwod eun sauyos pue wou saleneao 'sndino toleuo8 doog ysag tuoupadxo lod uu oi suogeay uonrz,udo Auew moy sos:sdooT nolivzwlldo nn These variabies control the experiment scope, data splittlng. evaluatlon criterie, and optimization intensity,' NUM_RULES: Specitios tho rumber of rutes to usa for evaluation: This determlros which prompt fties to load (o.g. evatuator-prompt-10.txt vs ovaluator-prompt-50.txt). OpenAl Key. We winl be using OponA to genorate the webpsge Jrons. 0.0 taufrG: Murbar. of sarples'to use Tor the. orperlnent. Aoyust es peeded. NM_RulEs 's 5o r Mmber or rutes Inthe pranpt - sdjust oastd on your evatuator pronpt ftnis Lr uoT torking sa Contsg! HUH OrTIHIzATIGH_LoOPs 's a'Hueber of optimiTation' loops per eIparisent Nun_saples m lo '. a Munter of rovs to imeple Iroa the fu!! carastt,. o ror al! Train SplIt_rRctioh - e.s t Frsction.of data to. uye for rraining trest tor. testing!. G Python\n5 roquiremanta.trt Os.cnvIronI opEuI_ApI XEy'J - getpsss.gatpass('Oponil 'API Keyr'). Inport openal Lport os. setpass client - operaf.Client(api_keyos:getenyt-opEui_Apl_xEr))\n7.81 Python\nBn3rl t IHTunoS IVmyn' O promotsmng O'tAo R sohct PontgrTstrWr Training and Test Datasets Cunor'tb'a7 Ln3, ca2o Spncou: 4.. Spscn: 4 U. Cn 3 ot 26. 2025-11-22:13:05:15",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2452.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "v.PRoup! s benchmariks. $. big_bench_hard conda SRNO + Code + Harkdon I D> Run Al. O Restart l Cnr All Output: Go To: 电 Vie dau Jupytr Vmriabhs e Outhine:' notabooka ). @ JSON_wobpage ganeration ipynb >ius Optimizing JSON wabpage Prompts whh te Arizo Prompi Leamirng SOK') + Impot nesl_asynco TRAN_SPLST_FRACTlON: Detor mines tho tralntest splt ratlo. 0.8 mcans 80% ot data goes to trairing tat, 20% to tcst sot..?... -.* *:. M sa_codo (Python 3.10.19)\ndatssets pU'3NGY38 0: I+ notebooks:., codlng_agant ruh...:> prompts: optimizer_adk A Ucense.tt. t P_NoTiCe: B toma_support quo.. BizNorm-100_eva B arizeax support q.-. JSON w+bpM toucsy tartcsy:.metaprompt.cxt U phoeno uppoL'q? support_qutry.cla. 15. u I'[t]: dwod eun sauyos pue wou saleneao 'sndino toleuo8 doog ysag tuoupadxo lod uu oi suogeay uonrz,udo Auew moy sos:sdooT nolivzwlldo nn These variabies control the experiment scope, data splittlng. evaluatlon criterie, and optimization intensity,' NUM_RULES: Specitios tho rumber of rutes to usa for evaluation: This determlros which prompt fties to load (o.g. evatuator-prompt-10.txt vs ovaluator-prompt-50.txt). OpenAl Key. We winl be using OponA to genorate the webpsge Jrons. 0.0 taufrG: Murbar. of sarples'to use Tor the. orperlnent. Aoyust es peeded. NM_RulEs 's 5o r Mmber or rutes Inthe pranpt - sdjust oastd on your evatuator pronpt ftnis Lr uoT torking sa Contsg! HUH OrTIHIzATIGH_LoOPs 's a'Hueber of optimiTation' loops per eIparisent Nun_saples m lo '. a Munter of rovs to imeple Iroa the fu!! carastt,. o ror al! Train SplIt_rRctioh - e.s t Frsction.of data to. uye for rraining trest tor. testing!. G Python\n5 roquiremanta.trt Os.cnvIronI opEuI_ApI XEy'J - getpsss.gatpass('Oponil 'API Keyr'). Inport openal Lport os. setpass client - operaf.Client(api_keyos:getenyt-opEui_Apl_xEr))\n7.81 Python\nBn3rl t IHTunoS IVmyn' O promotsmng O'tAo R sohct PontgrTstrWr Training and Test Datasets Cunor'tb'a7 Ln3, ca2o Spncou: 4.. Spscn: 4 U. Cn 3 ot 26. 2025-11-22:13:05:15",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

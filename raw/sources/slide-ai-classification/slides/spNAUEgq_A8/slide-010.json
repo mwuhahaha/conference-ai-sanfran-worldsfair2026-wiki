@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "It's a mess out there\n• Building robust agents is hard.\n• There is no defined way to do it.\n• Telemetry/observability is hard.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title-and-bullets slide; direct read is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "It's a mess out there",
+        "x": 29.0,
+        "y": 5.0,
+        "w": 42.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "• Building robust agents is hard.\n• There is no defined way to do it.\n• Telemetry/observability is hard.",
+        "x": 28.0,
+        "y": 22.0,
+        "w": 52.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672013.6559546,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "It's a mess out there\n• Building robust agents is hard.\n• There is no defined way to do it.\n• Telemetry/observability is hard.",
+  "advanced_ocr": {}
+}

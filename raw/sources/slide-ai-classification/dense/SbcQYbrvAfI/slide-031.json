@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": ": $ banchnaras: > big bonchhad.notebooks. Sesnep s ①README.md >conds 2, coding agent ruo. pompt... A License.ot PNOTICE t' requlrsmenta.txt:\"buoddnsozue d Protpt. a traln.csy. I Itaisupport_que. BlzNorm-100_e. optimize_idx metaprompt.txt U support query_cla. trstcsv phoeni supportq. Jsor*ebp+-. CHNIYI 0: otabooks y. B JSON_nobpsga geeralionipynb >'s: Optlmizing JSON webpsge Prorapts with the Arize Prornpt Learrleg SOK > + rnport nest_at + Code + Markdoum I D Run Al S Rostant i Cha Al Outpouts I e Var data. tros phoenla.cvals kport aoenAinodet,: Iu generate trou phoanil'tals Lpart avatuhte_caatrae, Ciassit icntionEvaluator' dat evaluete output(cataset]t Ith opentr.:/oroaps/Json_,rtosge_generat ion/ev luitor-proaot-u_uLEs).txt-, r! os fhlet. *-Evaluntot: thnt thechts son veb page,correctoosn. uning Ila generaie-. evaluation teaptato -- flle.resat) rvaluatar n Claisiricnt ionEvaluatort. resvltr dt. -'eva late catatre! Ils = Lutiproridere\"apctu! model-got-4o\") ootaet?. jevalvatar):evsluotion_tenplaie, ll. cholces=f. -vatoate_outpu!\". \"corrocrt'!. \"incorrecr\"?.. o_coda (Python 3.10.19) I how do I turn an Hre numbers? notobook: 1. Cllek on sry codo ce to: 2 Prais the C koy tin. 1. Press Esc to ouit eoht inode: Tougn rone1 Il your'ra n edt mode (cursor a Thks w[l togglo Ene rrurnbers orvott for a celi in thi? Inside + eoh:. huve a ftw optlone. Quick Method To turri on Ere numbers in your'? Jupyter naleboot in Cursor, you Altemative Method BJsoNwebpage aunarabon.. mode)::0pou purwwos jea po talect lt (don't anter edit. command mode, not eoit. mode):\nI fubvgi prui! aratlsalo coltars.. print(t\"Avaitable colimasr Iresutts_d!,cotmns.tollst!)) 2: Then press L' to toggle ina murnbers\n+ms O promot-smrg O 1 A 9 0 3 satct Portgrs Stve 111. datsvet I\"eplonUar\"].s rtfuits d!.get(\"avaluata_output eaploretico\", tooe). datasetI\"corrrctoers\") a resalt'.dr.get(-evaluuta output iebeL, Nore). CanorTb Qn Tco 20 Spxc$: 4*. Soaos: 4t. 12025-11:22 13:30:06 TUHT",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense notebook code slide with small imports, evaluator setup, and output; OCR is the better triage path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cream/white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "from phoenix.evals import evaluate_dataframe, ClassificationEvaluator",
+        "x": 17.0,
+        "y": 7.0,
+        "w": 63.0,
+        "h": 9.0
+      },
+      {
+        "role": "code",
+        "text": "def evaluate_output(dataset):",
+        "x": 18.0,
+        "y": 15.0,
+        "w": 54.0,
+        "h": 60.0
+      },
+      {
+        "role": "caption",
+        "text": "Evaluator that checks JSON webpage correctness using llm_generate",
+        "x": 18.0,
+        "y": 21.0,
+        "w": 52.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-031.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-031.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666044.2775233,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": ": $ banchnaras: > big bonchhad.notebooks. Sesnep s ①README.md >conds 2, coding agent ruo. pompt... A License.ot PNOTICE t' requlrsmenta.txt:\"buoddnsozue d Protpt. a traln.csy. I Itaisupport_que. BlzNorm-100_e. optimize_idx metaprompt.txt U support query_cla. trstcsv phoeni supportq. Jsor*ebp+-. CHNIYI 0: otabooks y. B JSON_nobpsga geeralionipynb >'s: Optlmizing JSON webpsge Prorapts with the Arize Prornpt Learrleg SOK > + rnport nest_at + Code + Markdoum I D Run Al S Rostant i Cha Al Outpouts I e Var data. tros phoenla.cvals kport aoenAinodet,: Iu generate trou phoanil'tals Lpart avatuhte_caatrae, Ciassit icntionEvaluator' dat evaluete output(cataset]t Ith opentr.:/oroaps/Json_,rtosge_generat ion/ev luitor-proaot-u_uLEs).txt-, r! os fhlet. *-Evaluntot: thnt thechts son veb page,correctoosn. uning Ila generaie-. evaluation teaptato -- flle.resat) rvaluatar n Claisiricnt ionEvaluatort. resvltr dt. -'eva late catatre! Ils = Lutiproridere\"apctu! model-got-4o\") ootaet?. jevalvatar):evsluotion_tenplaie, ll. cholces=f. -vatoate_outpu!\". \"corrocrt'!. \"incorrecr\"?.. o_coda (Python 3.10.19) I how do I turn an Hre numbers? notobook: 1. Cllek on sry codo ce to: 2 Prais the C koy tin. 1. Press Esc to ouit eoht inode: Tougn rone1 Il your'ra n edt mode (cursor a Thks w[l togglo Ene rrurnbers orvott for a celi in thi? Inside + eoh:. huve a ftw optlone. Quick Method To turri on Ere numbers in your'? Jupyter naleboot in Cursor, you Altemative Method BJsoNwebpage aunarabon.. mode)::0pou purwwos jea po talect lt (don't anter edit. command mode, not eoit. mode):\nI fubvgi prui! aratlsalo coltars.. print(t\"Avaitable colimasr Iresutts_d!,cotmns.tollst!)) 2: Then press L' to toggle ina murnbers\n+ms O promot-smrg O 1 A 9 0 3 satct Portgrs Stve 111. datsvet I\"eplonUar\"].s rtfuits d!.get(\"avaluata_output eaploretico\", tooe). datasetI\"corrrctoers\") a resalt'.dr.get(-evaluuta output iebeL, Nore). CanorTb Qn Tco 20 Spxc$: 4*. Soaos: 4t. 12025-11:22 13:30:06 TUHT",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2374.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": ": $ banchnaras: > big bonchhad.notebooks. Sesnep s ①README.md >conds 2, coding agent ruo. pompt... A License.ot PNOTICE t' requlrsmenta.txt:\"buoddnsozue d Protpt. a traln.csy. I Itaisupport_que. BlzNorm-100_e. optimize_idx metaprompt.txt U support query_cla. trstcsv phoeni supportq. Jsor*ebp+-. CHNIYI 0: otabooks y. B JSON_nobpsga geeralionipynb >'s: Optlmizing JSON webpsge Prorapts with the Arize Prornpt Learrleg SOK > + rnport nest_at + Code + Markdoum I D Run Al S Rostant i Cha Al Outpouts I e Var data. tros phoenla.cvals kport aoenAinodet,: Iu generate trou phoanil'tals Lpart avatuhte_caatrae, Ciassit icntionEvaluator' dat evaluete output(cataset]t Ith opentr.:/oroaps/Json_,rtosge_generat ion/ev luitor-proaot-u_uLEs).txt-, r! os fhlet. *-Evaluntot: thnt thechts son veb page,correctoosn. uning Ila generaie-. evaluation teaptato -- flle.resat) rvaluatar n Claisiricnt ionEvaluatort. resvltr dt. -'eva late catatre! Ils = Lutiproridere\"apctu! model-got-4o\") ootaet?. jevalvatar):evsluotion_tenplaie, ll. cholces=f. -vatoate_outpu!\". \"corrocrt'!. \"incorrecr\"?.. o_coda (Python 3.10.19) I how do I turn an Hre numbers? notobook: 1. Cllek on sry codo ce to: 2 Prais the C koy tin. 1. Press Esc to ouit eoht inode: Tougn rone1 Il your'ra n edt mode (cursor a Thks w[l togglo Ene rrurnbers orvott for a celi in thi? Inside + eoh:. huve a ftw optlone. Quick Method To turri on Ere numbers in your'? Jupyter naleboot in Cursor, you Altemative Method BJsoNwebpage aunarabon.. mode)::0pou purwwos jea po talect lt (don't anter edit. command mode, not eoit. mode):\nI fubvgi prui! aratlsalo coltars.. print(t\"Avaitable colimasr Iresutts_d!,cotmns.tollst!)) 2: Then press L' to toggle ina murnbers\n+ms O promot-smrg O 1 A 9 0 3 satct Portgrs Stve 111. datsvet I\"eplonUar\"].s rtfuits d!.get(\"avaluata_output eaploretico\", tooe). datasetI\"corrrctoers\") a resalt'.dr.get(-evaluuta output iebeL, Nore). CanorTb Qn Tco 20 Spxc$: 4*. Soaos: 4t. 12025-11:22 13:30:06 TUHT",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

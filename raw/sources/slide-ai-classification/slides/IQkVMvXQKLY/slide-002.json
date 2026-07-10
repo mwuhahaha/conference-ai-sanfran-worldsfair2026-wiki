@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE TRAP\nYou ship a fine-tuned model. It passes everything.\nYour evals: green\nYour monitors: green\nAnd it can still flip\nThat's a sleeper agent — and your monitor won't see it coming.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "THE TRAP",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "You ship a fine-tuned model. It passes everything.",
+        "x": 4.0,
+        "y": 8.0,
+        "w": 72.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Your evals: green",
+        "x": 5.0,
+        "y": 53.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "Your monitors: green",
+        "x": 37.0,
+        "y": 53.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "And it can still flip",
+        "x": 69.0,
+        "y": 53.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "That's a sleeper agent — and your monitor won't see it coming.",
+        "x": 5.0,
+        "y": 82.0,
+        "w": 72.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/IQkVMvXQKLY/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660186.3320482,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "THE TRAP\nYou ship a fine-tuned model. It passes everything.\nYour evals: green\nYour monitors: green\nAnd it can still flip\nThat's a sleeper agent — and your monitor won't see it coming.",
+  "advanced_ocr": {}
+}

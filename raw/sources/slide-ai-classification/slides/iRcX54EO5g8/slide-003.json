@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "\"I've implemented the new OAuth flow, it's all working\"",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#000000",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "\"I've implemented the new OAuth flow, it's all working\"",
+        "x": 39.0,
+        "y": 5.0,
+        "w": 46.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "To the best of the capabilities you have given me, this sounds like it would work.",
+        "x": 41.0,
+        "y": 28.0,
+        "w": 42.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "Engineering the future of AI",
+        "x": 42.0,
+        "y": 82.0,
+        "w": 38.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/iRcX54EO5g8/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669027.7250814,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "\"I've implemented the new OAuth flow, it's all working\"",
+  "advanced_ocr": {}
+}

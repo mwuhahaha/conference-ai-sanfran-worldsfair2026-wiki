@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Rendered by the host, inline",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Rendered by the host, inline",
+        "x": 4.0,
+        "y": 8.0,
+        "w": 38.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Same MCP server, with a UI layer on top. The host renders the result inline. Flip Without UI / With UI, and click the cards.",
+        "x": 4.0,
+        "y": 24.0,
+        "w": 44.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "DEMO",
+        "x": 86.0,
+        "y": 18.0,
+        "w": 7.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/sAOBXCDiDOs/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671641.1238575,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Rendered by the host, inline",
+  "advanced_ocr": {}
+}

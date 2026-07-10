@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Curate ruthlessly",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense embedded article screenshots with small text; OCR will read these more reliably than a quick visual pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "radial-gradient(circle at center, #111111 0%, #050505 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Curate ruthlessly",
+        "x": 34.0,
+        "y": 4.0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Building a Fivetran MCP Server:\nFrom Concept to 25+ Fivetran Tools\n(and beyond)",
+        "x": 4.0,
+        "y": 26.0,
+        "w": 44.0,
+        "h": 62.0
+      },
+      {
+        "role": "body",
+        "text": "What I Learned Building MCP\nServers: Unifying My Entire Data\nStack into a Single, Intelligent UI",
+        "x": 53.0,
+        "y": 25.0,
+        "w": 43.0,
+        "h": 63.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/96G7FLab8xc/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658909.468177,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Curate ruthlessly",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

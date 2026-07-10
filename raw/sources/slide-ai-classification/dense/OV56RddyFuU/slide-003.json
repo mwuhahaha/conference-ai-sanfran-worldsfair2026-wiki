@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Artificial Analysis Index\nArtificial Analysis Intelligence Index by Open Weights / Proprietary 2 B 28 of 472 modeks\nArtiflclal Analysls Intelligence Indcx v4.0 incorporates 10 evaluatlors: GDpval-AA, rr-Bench Telecom, Terminal- Barch Hard, SclCode, AA-LCR, AA-Omnlsclerca, IFBench, Humanity's Lest Exam, GPQA Dlamond, CritPt + Add modet from specifk provlder\nProprletary Open Welghts 8080808 A Artlflclw Autytts\n5.0 49 49 Br",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense chart with many small labels and score annotations.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#9ad36f",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Artificial Analysis Index",
+        "x": 35.0,
+        "y": 2.0,
+        "w": 31.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Artificial Analysis Intelligence Index by Open Weights / Proprietary",
+        "x": 6.0,
+        "y": 11.0,
+        "w": 58.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Open Weights / Proprietary",
+        "x": 8.0,
+        "y": 18.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Leaderboard",
+        "x": 8.0,
+        "y": 48.0,
+        "w": 12.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661743.2217312,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Artificial Analysis Index",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Artificial Analysis Index\nArtificial Analysis Intelligence Index by Open Weights / Proprietary 2 B 28 of 472 modeks\nArtiflclal Analysls Intelligence Indcx v4.0 incorporates 10 evaluatlors: GDpval-AA, rr-Bench Telecom, Terminal- Barch Hard, SclCode, AA-LCR, AA-Omnlsclerca, IFBench, Humanity's Lest Exam, GPQA Dlamond, CritPt + Add modet from specifk provlder\nProprletary Open Welghts 8080808 A Artlflclw Autytts\n5.0 49 49 Br",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 555.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Artificial Analysis Index\nArtificial Analysis Intelligence Index by Open Weights / Proprietary 2 B 28 of 472 modeks\nArtiflclal Analysls Intelligence Indcx v4.0 incorporates 10 evaluatlors: GDpval-AA, rr-Bench Telecom, Terminal- Barch Hard, SclCode, AA-LCR, AA-Omnlsclerca, IFBench, Humanity's Lest Exam, GPQA Dlamond, CritPt + Add modet from specifk provlder\nProprletary Open Welghts 8080808 A Artlflclw Autytts\n5.0 49 49 Br",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

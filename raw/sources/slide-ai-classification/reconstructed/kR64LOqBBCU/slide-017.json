@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.94,
+  "frame_type": "speaker_stage",
+  "reject_reason": "presenter on stage with thank-you slide and QR code",
+  "text": "Thank You!",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black thank-you slide with stage framing",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Thank You!",
+        "x": 38.0,
+        "y": 7.0,
+        "w": 24.0,
+        "h": 11.0
+      },
+      {
+        "role": "caption",
+        "text": "Ido Salomon",
+        "x": 47.0,
+        "y": 79.0,
+        "w": 18.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-017.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670310.0344462,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Thank You!",
+  "advanced_ocr": {}
+}

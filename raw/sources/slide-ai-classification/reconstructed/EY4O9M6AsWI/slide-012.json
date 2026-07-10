@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.91,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "API\nRedis (standby)\nRedis\nRedis (standby)\nGPU Workers\nCPU Workers\nSeaweedfs",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense architecture diagram labels and connectors are better suited to OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with subtle dark radial pattern",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 21.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "API",
+        "x": 43.0,
+        "y": 18.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Redis (standby)",
+        "x": 56.0,
+        "y": 10.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Redis",
+        "x": 56.0,
+        "y": 23.0,
+        "w": 8.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Redis (standby)",
+        "x": 56.0,
+        "y": 37.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "GPU Workers",
+        "x": 75.0,
+        "y": 16.0,
+        "w": 11.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "CPU Workers",
+        "x": 39.0,
+        "y": 68.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Seaweedfs",
+        "x": 50.0,
+        "y": 71.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "Luma",
+        "x": 86.0,
+        "y": 79.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 63.0,
+        "y": 81.0,
+        "w": 12.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/reconstructed-slides/EY4O9M6AsWI/slide-012.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659218.1515117,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "(standby) Redis\nAIE ASI (stardieg) Redis Redis Gou Warters\nWorkers CPU Seaweedts\nLuma\naws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 207.64
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "API\nRedis (standby)\nRedis\nRedis (standby)\nGPU Workers\nCPU Workers\nSeaweedfs",
+    "text_status": "meaningful",
+    "corrections": "Accepted the clear labels from the slide; dropped uncertain tiny diagram text and corrected obvious OCR errors like \"Gou Warters\" to \"GPU Workers\" and \"Workers CPU\" to \"CPU Workers\"."
+  }
+}

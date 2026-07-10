@@ -1,0 +1,249 @@
+{
+  "video_id": "504PvfXou5Y",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 1,
+  "rejected_count": 3,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "ADR: what it looks like",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense code slide is better handled by OCR",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black left sidebar",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "ADR: what it looks like",
+            "x": 28.0,
+            "y": 4.0,
+            "w": 37.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 20.0,
+            "w": 12.0,
+            "h": 16.0
+          },
+          {
+            "role": "code",
+            "text": "code block",
+            "x": 29.0,
+            "y": 18.0,
+            "w": 66.0,
+            "h": 48.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/504PvfXou5Y/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658339.2103844,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "ADR: what it looks like",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/504PvfXou5Y/slide-003.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.92,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker-on-stage shot with only a partial projected slide visible",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a standalone readable slide",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "light room with a gray projected screen",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "BDD, ADR, PRD, WTF",
+            "x": 48.0,
+            "y": 18.0,
+            "w": 36.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Capturing decisions for humans and AI alike",
+            "x": 49.0,
+            "y": 31.0,
+            "w": 34.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/504PvfXou5Y/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658339.2091885,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "speaker intro card with booth branding and no substantive talk content",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "intro card, not a content slide",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "white with black left panel and black footer",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 20.0,
+            "w": 12.0,
+            "h": 17.0
+          },
+          {
+            "role": "title",
+            "text": "Michal Cichra",
+            "x": 29.0,
+            "y": 6.0,
+            "w": 30.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "/Spec27 SAFE Intelligence",
+            "x": 29.0,
+            "y": 18.0,
+            "w": 37.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Find me at the booth.",
+            "x": 29.0,
+            "y": 33.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 43.0,
+            "y": 82.0,
+            "w": 34.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/504PvfXou5Y/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658339.2098043,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "logo/end card rather than a presentation content slide",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "logo splash is not OCR-target content",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI Engineer",
+            "x": 28.0,
+            "y": 49.0,
+            "w": 34.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "EUROPE",
+            "x": 46.0,
+            "y": 60.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "HTTPS://AI.ENGINEER",
+            "x": 35.0,
+            "y": 90.0,
+            "w": 31.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/504PvfXou5Y/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658339.2108974,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

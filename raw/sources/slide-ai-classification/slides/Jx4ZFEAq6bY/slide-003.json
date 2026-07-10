@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What is an agent?\nAn agent is an LLM with agency: it reasons, invokes TOOLS to interact with the world, RETRIEVES from memory, and loops until the TASK is complete.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What is an agent?",
+        "x": 5.0,
+        "y": 5.0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "An agent is an LLM with agency: it reasons, invokes TOOLS to interact with the world, RETRIEVES from memory, and loops until the TASK is complete.",
+        "x": 10.0,
+        "y": 28.0,
+        "w": 80.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "React Agent",
+        "x": 45.0,
+        "y": 54.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LLM",
+        "x": 35.0,
+        "y": 69.0,
+        "w": 6.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Execute",
+        "x": 55.0,
+        "y": 69.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools/\nRetrieval/\nwebsearch",
+        "x": 77.0,
+        "y": 65.0,
+        "w": 15.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/Jx4ZFEAq6bY/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661374.6387408,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What is an agent?\nAn agent is an LLM with agency: it reasons, invokes TOOLS to interact with the world, RETRIEVES from memory, and loops until the TASK is complete.",
+  "advanced_ocr": {}
+}

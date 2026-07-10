@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "ANINO notebools s JSON wobpogu_genermuion,fpynt ) ua Optlrmieing JSON Webpage Prompts with the Ariza Prompt Learming SOk's ma Trainrg and Trst Dasasots') +: dataset 10ooruad)\nconds ' banchmarks. + Code + Markdown 1 D Run All O Restart E Clear Al Outputs: I Ba Vhw data Ea jupyter Varibir, E Outins. Laoort' pandas as pd sa_code (Python 3.10.19)\n. datsets?.:v,notebooks'.seu usbr Bupos. optimze_sdx ib uoddns xnozue a m tustcav Imnasupport que. D taln.csy. D BizNerm-100_eva.! D phoenaiupport q.: It) -ps\"Aorb uoddrs. metaprompttat' u USON SAEMu1 0. u dataset_1oao - pd,read_csv(-httpsi//storage.googleapisico/arire-Sstets/dev-rtl/propt-learning/gueries.csy trainEset = 'tatasetisanple.sple(trsc-TAAIH_SPLIT FRAcTIoN, ropdoa_staten?) test iet.tocrviniest.csv, indenFatse).. 0.5: IHjpe*a'iot ianrp tou Nt a (s1dhs hn)mta+1'eo1.1arp'= ato=as>tr1tp train_ set.to_csvi\"train.csy\", tidex-fols.) tttt ket = dataset_:arpta.drooltrain_set:Index).saple(5) 0.0t:: et Opem,'dstae iooo' in Deto Wringlh? B:4 Python Python\nLIceNse tt.? prompts. * P_hotiCE 0: Crute a tebpsje tilh a Aariguton bar canthe. hrput\n1 requlrtrtnta.bt 2 Crust a perianu blog hormpsge tat tntroducu. Buld & univertity depatremt webpage, ht ihou.. eneate a 'service page Ior a photognoher th...... -.\nInitial System Prompt\n.INirl < X V mint O \"OUTLDHE prompt-eamngO 1A'9: Initlsllze your systom prompt. This is tha original prormpt that wti bo tested snd optimizod. Jhung imhysag ores t Cursor To: e,p U. 1fCo4 10 oi 27. 2025-11-22[13:07:51",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense notebook slide with small tabular preview and prompt section; OCR is needed.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Training and Test Datasets",
+        "x": 10.0,
+        "y": 76.0,
+        "w": 30.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "Initial System Prompt",
+        "x": 10.0,
+        "y": 90.0,
+        "w": 28.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-017.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664797.667443,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "ANINO notebools s JSON wobpogu_genermuion,fpynt ) ua Optlrmieing JSON Webpage Prompts with the Ariza Prompt Learming SOk's ma Trainrg and Trst Dasasots') +: dataset 10ooruad)\nconds ' banchmarks. + Code + Markdown 1 D Run All O Restart E Clear Al Outputs: I Ba Vhw data Ea jupyter Varibir, E Outins. Laoort' pandas as pd sa_code (Python 3.10.19)\n. datsets?.:v,notebooks'.seu usbr Bupos. optimze_sdx ib uoddns xnozue a m tustcav Imnasupport que. D taln.csy. D BizNerm-100_eva.! D phoenaiupport q.: It) -ps\"Aorb uoddrs. metaprompttat' u USON SAEMu1 0. u dataset_1oao - pd,read_csv(-httpsi//storage.googleapisico/arire-Sstets/dev-rtl/propt-learning/gueries.csy trainEset = 'tatasetisanple.sple(trsc-TAAIH_SPLIT FRAcTIoN, ropdoa_staten?) test iet.tocrviniest.csv, indenFatse).. 0.5: IHjpe*a'iot ianrp tou Nt a (s1dhs hn)mta+1'eo1.1arp'= ato=as>tr1tp train_ set.to_csvi\"train.csy\", tidex-fols.) tttt ket = dataset_:arpta.drooltrain_set:Index).saple(5) 0.0t:: et Opem,'dstae iooo' in Deto Wringlh? B:4 Python Python\nLIceNse tt.? prompts. * P_hotiCE 0: Crute a tebpsje tilh a Aariguton bar canthe. hrput\n1 requlrtrtnta.bt 2 Crust a perianu blog hormpsge tat tntroducu. Buld & univertity depatremt webpage, ht ihou.. eneate a 'service page Ior a photognoher th...... -.\nInitial System Prompt\n.INirl < X V mint O \"OUTLDHE prompt-eamngO 1A'9: Initlsllze your systom prompt. This is tha original prormpt that wti bo tested snd optimizod. Jhung imhysag ores t Cursor To: e,p U. 1fCo4 10 oi 27. 2025-11-22[13:07:51",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1728.44
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "ANINO notebools s JSON wobpogu_genermuion,fpynt ) ua Optlrmieing JSON Webpage Prompts with the Ariza Prompt Learming SOk's ma Trainrg and Trst Dasasots') +: dataset 10ooruad)\nconds ' banchmarks. + Code + Markdown 1 D Run All O Restart E Clear Al Outputs: I Ba Vhw data Ea jupyter Varibir, E Outins. Laoort' pandas as pd sa_code (Python 3.10.19)\n. datsets?.:v,notebooks'.seu usbr Bupos. optimze_sdx ib uoddns xnozue a m tustcav Imnasupport que. D taln.csy. D BizNerm-100_eva.! D phoenaiupport q.: It) -ps\"Aorb uoddrs. metaprompttat' u USON SAEMu1 0. u dataset_1oao - pd,read_csv(-httpsi//storage.googleapisico/arire-Sstets/dev-rtl/propt-learning/gueries.csy trainEset = 'tatasetisanple.sple(trsc-TAAIH_SPLIT FRAcTIoN, ropdoa_staten?) test iet.tocrviniest.csv, indenFatse).. 0.5: IHjpe*a'iot ianrp tou Nt a (s1dhs hn)mta+1'eo1.1arp'= ato=as>tr1tp train_ set.to_csvi\"train.csy\", tidex-fols.) tttt ket = dataset_:arpta.drooltrain_set:Index).saple(5) 0.0t:: et Opem,'dstae iooo' in Deto Wringlh? B:4 Python Python\nLIceNse tt.? prompts. * P_hotiCE 0: Crute a tebpsje tilh a Aariguton bar canthe. hrput\n1 requlrtrtnta.bt 2 Crust a perianu blog hormpsge tat tntroducu. Buld & univertity depatremt webpage, ht ihou.. eneate a 'service page Ior a photognoher th...... -.\nInitial System Prompt\n.INirl < X V mint O \"OUTLDHE prompt-eamngO 1A'9: Initlsllze your systom prompt. This is tha original prormpt that wti bo tested snd optimizod. Jhung imhysag ores t Cursor To: e,p U. 1fCo4 10 oi 27. 2025-11-22[13:07:51",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

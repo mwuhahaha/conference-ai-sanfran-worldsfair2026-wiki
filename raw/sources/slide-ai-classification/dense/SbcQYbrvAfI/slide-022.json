@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "s benchmarks. conda T-lEArnIhO Cupno EoaryeA okdrr 回 eitp uA B Ianano Iv rop ueirog G Iv uny △ I LopteW +: poo 十 notebooks > 9 JsON_wobpaga goner ation.lbynd ) us Opilrmizing JSON Wobpsge Prompts with the Arize Prornpt Learrlng SOK s u: Outout Generatlon > + de! generata_output(datasot: a*a codo (Python 3.10.19)\numunbeBupos< big.binch_hard 0.0. mond\n. S' dataseta v. norebooks *b iodonsxeezur @] Additional Metrics +. Coda 十 Mrkdom\nprompts:.. optimizer_sdx O README.md, LIcensE.ot: 3OuONd t f requlrarisnts.txt m tan.csy: D tema_suppor_que.. testcsy B. phoenh support q... Tataprompttxt. U apuonb uodont: 0 Irou sklearm.netrics Inpart!1. Ytrue bin - Il it y -rcorrect\" alse o for y iny_true!. retum' recait scorety_true_bin, y pred_bin, zerodivisiont) conpute_netricty_true. Y-ored, scorer--accuracy')!: Y.true and y pred should te tists or arrays ot'-carrect\"/\"ircorrect\" latels.. + yg'to birary [psjdA ug x Jo, 0 oro 2asauios, A 'st t] - urg paudA Conpute the rtqueited setrit. toe binsry classitication.. It scorer - \"accuracy\"?. elt scorer -irretatl\"ie.. elit.scorer=-fi\"s allf scorer'iprecisian\"!: olse! return precision_scorety_trve_bin, y_ored_bin, zero_diyislonso): retarm accurscy_scorsiy_true bin, y_ored_bin) rsise ValueError(r\"unknoun scorer: (scorer)-) return (1 scoretytrve bin, Ypred_bin,' rero_divisianno) score, prccision_score, recallscore. accuracy_scare.. 1：....\n0.91 Python\n) TutUnE: OUTLLHt Lmsn:O: pompt-eunng: @129 M Selact Postgre1'S4 cnor mb F@ in 1co 20. spno:4 2025:11:22[13:18:38 -So*c*1 4L5t.Ca4 160t 27",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code slide with small function text; OCR is better than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Additional Metrics",
+        "x": 13.0,
+        "y": 15.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_score",
+        "x": 13.0,
+        "y": 27.0,
+        "w": 75.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "def compute_metric(y_true, y_pred, scorer=\"accuracy\")",
+        "x": 13.0,
+        "y": 34.0,
+        "w": 52.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-022.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-022.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665368.433016,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Additional Metrics",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "s benchmarks. conda T-lEArnIhO Cupno EoaryeA okdrr 回 eitp uA B Ianano Iv rop ueirog G Iv uny △ I LopteW +: poo 十 notebooks > 9 JsON_wobpaga goner ation.lbynd ) us Opilrmizing JSON Wobpsge Prompts with the Arize Prornpt Learrlng SOK s u: Outout Generatlon > + de! generata_output(datasot: a*a codo (Python 3.10.19)\numunbeBupos< big.binch_hard 0.0. mond\n. S' dataseta v. norebooks *b iodonsxeezur @] Additional Metrics +. Coda 十 Mrkdom\nprompts:.. optimizer_sdx O README.md, LIcensE.ot: 3OuONd t f requlrarisnts.txt m tan.csy: D tema_suppor_que.. testcsy B. phoenh support q... Tataprompttxt. U apuonb uodont: 0 Irou sklearm.netrics Inpart!1. Ytrue bin - Il it y -rcorrect\" alse o for y iny_true!. retum' recait scorety_true_bin, y pred_bin, zerodivisiont) conpute_netricty_true. Y-ored, scorer--accuracy')!: Y.true and y pred should te tists or arrays ot'-carrect\"/\"ircorrect\" latels.. + yg'to birary [psjdA ug x Jo, 0 oro 2asauios, A 'st t] - urg paudA Conpute the rtqueited setrit. toe binsry classitication.. It scorer - \"accuracy\"?. elt scorer -irretatl\"ie.. elit.scorer=-fi\"s allf scorer'iprecisian\"!: olse! return precision_scorety_trve_bin, y_ored_bin, zero_diyislonso): retarm accurscy_scorsiy_true bin, y_ored_bin) rsise ValueError(r\"unknoun scorer: (scorer)-) return (1 scoretytrve bin, Ypred_bin,' rero_divisianno) score, prccision_score, recallscore. accuracy_scare.. 1：....\n0.91 Python\n) TutUnE: OUTLLHt Lmsn:O: pompt-eunng: @129 M Selact Postgre1'S4 cnor mb F@ in 1co 20. spno:4 2025:11:22[13:18:38 -So*c*1 4L5t.Ca4 160t 27",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1607.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "s benchmarks. conda T-lEArnIhO Cupno EoaryeA okdrr 回 eitp uA B Ianano Iv rop ueirog G Iv uny △ I LopteW +: poo 十 notebooks > 9 JsON_wobpaga goner ation.lbynd ) us Opilrmizing JSON Wobpsge Prompts with the Arize Prornpt Learrlng SOK s u: Outout Generatlon > + de! generata_output(datasot: a*a codo (Python 3.10.19)\numunbeBupos< big.binch_hard 0.0. mond\n. S' dataseta v. norebooks *b iodonsxeezur @] Additional Metrics +. Coda 十 Mrkdom\nprompts:.. optimizer_sdx O README.md, LIcensE.ot: 3OuONd t f requlrarisnts.txt m tan.csy: D tema_suppor_que.. testcsy B. phoenh support q... Tataprompttxt. U apuonb uodont: 0 Irou sklearm.netrics Inpart!1. Ytrue bin - Il it y -rcorrect\" alse o for y iny_true!. retum' recait scorety_true_bin, y pred_bin, zerodivisiont) conpute_netricty_true. Y-ored, scorer--accuracy')!: Y.true and y pred should te tists or arrays ot'-carrect\"/\"ircorrect\" latels.. + yg'to birary [psjdA ug x Jo, 0 oro 2asauios, A 'st t] - urg paudA Conpute the rtqueited setrit. toe binsry classitication.. It scorer - \"accuracy\"?. elt scorer -irretatl\"ie.. elit.scorer=-fi\"s allf scorer'iprecisian\"!: olse! return precision_scorety_trve_bin, y_ored_bin, zero_diyislonso): retarm accurscy_scorsiy_true bin, y_ored_bin) rsise ValueError(r\"unknoun scorer: (scorer)-) return (1 scoretytrve bin, Ypred_bin,' rero_divisianno) score, prccision_score, recallscore. accuracy_scare.. 1：....\n0.91 Python\n) TutUnE: OUTLLHt Lmsn:O: pompt-eunng: @129 M Selact Postgre1'S4 cnor mb F@ in 1co 20. spno:4 2025:11:22[13:18:38 -So*c*1 4L5t.Ca4 160t 27",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

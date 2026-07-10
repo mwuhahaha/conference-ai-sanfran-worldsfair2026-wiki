@@ -1,0 +1,272 @@
+{
+  "video_id": "mQ7_Zje7WKE",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 3,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "best describes your work title? Survey demographics: which option respondents identified as engineers-either software or Al. The largest group of\nWoi Software Engincer AI Englneer\nFoundor\nManagement\nVP/CEO/CTO\nMLor MLOps Engincor\nResearcher\nProduct Manager\nOther\nData Sciontist\n6% 10% 15% 20%\nAroin 02025\nWorld's Fair AlEngineer Engineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense chart labels and small text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Survey demographics: which option best describes your work title?",
+            "x": 31.0,
+            "y": 3.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "The largest group of respondents identified as engineers – either software or AI.",
+            "x": 74.0,
+            "y": 2.0,
+            "w": 23.0,
+            "h": 14.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Software Engineer\nAI Engineer\nFounder\nManagement\nVP / CEO / CTO\nML or MLOps Engineer\nResearcher\nProduct Manager\nOther\nData Scientist",
+            "x": 31.0,
+            "y": 16.0,
+            "w": 24.0,
+            "h": 58.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/mQ7_Zje7WKE/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670588.382804,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "best describes your work title? Survey demographics: which option respondents identified as engineers-either software or Al. The largest group of\nWoi Software Engincer AI Englneer\nFoundor\nManagement\nVP/CEO/CTO\nMLor MLOps Engincor\nResearcher\nProduct Manager\nOther\nData Sciontist\n6% 10% 15% 20%\nAroin 02025\nWorld's Fair AlEngineer Engineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 543.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "best describes your work title? Survey demographics: which option respondents identified as engineers-either software or Al. The largest group of\nWoi Software Engincer AI Englneer\nFoundor\nManagement\nVP/CEO/CTO\nMLor MLOps Engincor\nResearcher\nProduct Manager\nOther\nData Sciontist\n6% 10% 15% 20%\nAroin 02025\nWorld's Fair AlEngineer Engineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/mQ7_Zje7WKE/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What techniques are you using to customize your Ai systems? 70%+ of respondents are using RAG.\nFew-shot learnlng\nRAG\nFlne-tunlng\nZero-Shot Loarning indicating widespread preference for parameter-efficient methods. 40% mentioned LoRA/QLoRA,\nPretraIning Most popular core training approach is supervised fine-tuning.\noht\n10% 20% 301, 601% 70.\nArgty A tagranrg suriy! rrot +",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense chart labels and callout text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What techniques are you using to customize your AI systems?",
+            "x": 19.0,
+            "y": 1.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "70%+ of respondents are using RAG.",
+            "x": 74.0,
+            "y": 2.0,
+            "w": 18.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "40% mentioned LoRA/QLoRA, indicating widespread preference for parameter-efficient methods.\nMost popular core training approach is supervised fine-tuning.",
+            "x": 53.0,
+            "y": 39.0,
+            "w": 36.0,
+            "h": 36.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Few-shot learning\nRAG\nFine-tuning\nZero-Shot Learning\nPretraining\nOther",
+            "x": 19.0,
+            "y": 16.0,
+            "w": 22.0,
+            "h": 58.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/mQ7_Zje7WKE/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670620.7993503,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "What techniques are you using to customize your Ai systems? 70%+ of respondents are using RAG.\nFew-shot learnlng\nRAG\nFlne-tunlng\nZero-Shot Loarning indicating widespread preference for parameter-efficient methods. 40% mentioned LoRA/QLoRA,\nPretraIning Most popular core training approach is supervised fine-tuning.\noht\n10% 20% 301, 601% 70.\nArgty A tagranrg suriy! rrot +",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 519.96
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "What techniques are you using to customize your Ai systems? 70%+ of respondents are using RAG.\nFew-shot learnlng\nRAG\nFlne-tunlng\nZero-Shot Loarning indicating widespread preference for parameter-efficient methods. 40% mentioned LoRA/QLoRA,\nPretraIning Most popular core training approach is supervised fine-tuning.\noht\n10% 20% 301, 601% 70.\nArgty A tagranrg suriy! rrot +",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/mQ7_Zje7WKE/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Top newsletters from respondents Top podcasts from respondents\nLatent Space (swyx) Latent Space (swyx & Alessio)\nThe Batch (Andrew Ng) 62 Machine Learning Street Talk (Tim Scarfe)\n3 Interconnects (Nathan Lambert) The Cognitive Revolution (Nathan Labenz)\nAhead of Al (Sebastian Raschka) No Priors (Sarah Guo and Elad Gil)\nAlphaSignal (Lior Alexander) 5 This Week in Machine Learning/Al (Sam C.)\nSemiAnalysis (Dylan Patel) Gradient Dissent (Lukas Biewald)\nEugene Yan's Newsletter Practical Al (Dan Whitenack)\nBen's Bites (Ben Tossell) The Gradient (Daniel Bashir)\nImport Al (Jack Clark) Weaviate Podcast (Connor Shorten)\nThe Neuron (Noah Edelman) *Robot Brains (Pieter Abbeel)\nAmgtityN taginarg Sunn",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "two dense text columns",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Top newsletters from respondents",
+            "x": 5.0,
+            "y": 6.0,
+            "w": 32.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "Top podcasts from respondents",
+            "x": 53.0,
+            "y": 6.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Latent Space (swyx)\nThe Batch (Andrew Ng)\nInterconnects (Nathan Lambert)\nAhead of AI (Sebastian Raschka)\nAlphaSignal (Lior Alexander)\nSemiAnalysis (Dylan Patel)\nEugene Yan's Newsletter\nBen's Bites (Ben Tossell)\nImport AI (Jack Clark)\nThe Neuron (Noah Edelman)",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 42.0,
+            "h": 78.0
+          },
+          {
+            "role": "body",
+            "text": "Latent Space (swyx & Alessio)\nMachine Learning Street Talk (Tim Scarfe)\nThe Cognitive Revolution (Nathan Labenz)\nNo Priors (Sarah Guo and Elad Gil)\nThis Week in Machine Learning/AI (Sam C.)\nGradient Dissent (Lukas Biewald)\nPractical AI (Dan Whitenack)\nThe Gradient (Daniel Bashir)\nWeaviate Podcast (Connor Shorten)\nRobot Brains (Pieter Abbeel)",
+            "x": 53.0,
+            "y": 14.0,
+            "w": 42.0,
+            "h": 78.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/mQ7_Zje7WKE/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670654.3614786,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Top newsletters from respondents Top podcasts from respondents\nLatent Space (swyx) Latent Space (swyx & Alessio)\nThe Batch (Andrew Ng) 62 Machine Learning Street Talk (Tim Scarfe)\n3 Interconnects (Nathan Lambert) The Cognitive Revolution (Nathan Labenz)\nAhead of Al (Sebastian Raschka) No Priors (Sarah Guo and Elad Gil)\nAlphaSignal (Lior Alexander) 5 This Week in Machine Learning/Al (Sam C.)\nSemiAnalysis (Dylan Patel) Gradient Dissent (Lukas Biewald)\nEugene Yan's Newsletter Practical Al (Dan Whitenack)\nBen's Bites (Ben Tossell) The Gradient (Daniel Bashir)\nImport Al (Jack Clark) Weaviate Podcast (Connor Shorten)\nThe Neuron (Noah Edelman) *Robot Brains (Pieter Abbeel)\nAmgtityN taginarg Sunn",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1060.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Top newsletters from respondents Top podcasts from respondents\nLatent Space (swyx) Latent Space (swyx & Alessio)\nThe Batch (Andrew Ng) 62 Machine Learning Street Talk (Tim Scarfe)\n3 Interconnects (Nathan Lambert) The Cognitive Revolution (Nathan Labenz)\nAhead of Al (Sebastian Raschka) No Priors (Sarah Guo and Elad Gil)\nAlphaSignal (Lior Alexander) 5 This Week in Machine Learning/Al (Sam C.)\nSemiAnalysis (Dylan Patel) Gradient Dissent (Lukas Biewald)\nEugene Yan's Newsletter Practical Al (Dan Whitenack)\nBen's Bites (Ben Tossell) The Gradient (Daniel Bashir)\nImport Al (Jack Clark) Weaviate Podcast (Connor Shorten)\nThe Neuron (Noah Edelman) *Robot Brains (Pieter Abbeel)\nAmgtityN taginarg Sunn",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/mQ7_Zje7WKE/slide-004.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage with a partial slide visible, not a standalone presentation slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "stage shot with only partial slide context",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark stage with white slide panel",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/mQ7_Zje7WKE/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670588.3820004,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

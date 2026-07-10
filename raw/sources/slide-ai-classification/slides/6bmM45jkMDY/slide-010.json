@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "BEFORE THE AGENTS START\n1 Whose problem is this?\n2 What does winning look like for them?\n3 What would make them refuse to use it?\n4 What decision does it change?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "teal gradient with dark navy panel",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "BEFORE THE AGENTS START",
+        "x": 8.0,
+        "y": 45.0,
+        "w": 25.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "1 Whose problem is this?",
+        "x": 8.0,
+        "y": 54.0,
+        "w": 30.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "2 What does winning look like for them?",
+        "x": 40.0,
+        "y": 54.0,
+        "w": 33.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "3 What would make them refuse to use it?",
+        "x": 8.0,
+        "y": 66.0,
+        "w": 32.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "4 What decision does it change?",
+        "x": 40.0,
+        "y": 66.0,
+        "w": 29.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/6bmM45jkMDY/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657851.0530663,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "BEFORE THE AGENTS START\n1 Whose problem is this?\n2 What does winning look like for them?\n3 What would make them refuse to use it?\n4 What decision does it change?",
+  "advanced_ocr": {}
+}

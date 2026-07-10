@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Text diffusion can do\ne211\nAIE\nLI\nh 心··山\n1s-22- to1eli-1-\neul\nMind\nAI Engineer\nAIE EUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code-editor screenshot with small text is better handled by OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with pale cream inset",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Text diffusion can do fast in-place editing",
+        "x": 28.0,
+        "y": 4.0,
+        "w": 48.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "screenshot of code editor and UI",
+        "x": 30.0,
+        "y": 12.0,
+        "w": 60.0,
+        "h": 64.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/r305-aQTaU0/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671143.3968964,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Text diffusion can do fast in-place editing",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Text diffusion can do\ne211\nAIE\nLI\nh 心··山\n1s-22- to1eli-1-\neul\nMind\nAI Engineer\nAIE EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 203.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Text diffusion can do\ne211\nAIE\nLI\nh 心··山\n1s-22- to1eli-1-\neul\nMind\nAI Engineer\nAIE EUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Syiten Iuatructlons CASE.Od Systee Instruetltes CALOE.SE\nCloode BalItin Tools Intentional Compaction Clonte lulltlo Tools NOTeol\nUser mssoe \"Write everything we did Reod proyress.nd User sessoge\nAsslstam Messoje Great,row Aac Uuer nesroge Reod) Sesrch) Eritet) we're working on\" we're taking, the steps we've done so far, so far to progress.md, and the current failure ensure to note the approach pregreas.nd sritel Briteo Reodt)\nritet)\nAssistontlesscge\nmorize progreas to progress.nd User nessoge progress,nd\nno vibes allowed adexhorthy Code Summit\nAIE /CODE graph Mahesh Murag ANTHROPIC Natalie Serrino gimlet Eno Reyes FACTORY Lee Robinson CURSOR Nik Pash cline\nGoogle DeepMind PRESENTEDBY Cognition 采FACTORY Graphite:e04j autho Worko",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-column diagram with small labels and a quote; OCR should recover details better than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Intentional Compaction",
+        "x": 44.0,
+        "y": 11.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Instructions\nCLAUDE.md\nClaude Builtin Tools\nTools",
+        "x": 30.0,
+        "y": 2.0,
+        "w": 17.0,
+        "h": 23.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "User Message\nRead()",
+        "x": 31.0,
+        "y": 22.0,
+        "w": 15.0,
+        "h": 15.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "progress.md",
+        "x": 51.0,
+        "y": 56.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Assistant Message\nUser Message",
+        "x": 31.0,
+        "y": 40.0,
+        "w": 15.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/rmvDxxNubIg/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671637.5373263,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Intentional Compaction",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Syiten Iuatructlons CASE.Od Systee Instruetltes CALOE.SE\nCloode BalItin Tools Intentional Compaction Clonte lulltlo Tools NOTeol\nUser mssoe \"Write everything we did Reod proyress.nd User sessoge\nAsslstam Messoje Great,row Aac Uuer nesroge Reod) Sesrch) Eritet) we're working on\" we're taking, the steps we've done so far, so far to progress.md, and the current failure ensure to note the approach pregreas.nd sritel Briteo Reodt)\nritet)\nAssistontlesscge\nmorize progreas to progress.nd User nessoge progress,nd\nno vibes allowed adexhorthy Code Summit\nAIE /CODE graph Mahesh Murag ANTHROPIC Natalie Serrino gimlet Eno Reyes FACTORY Lee Robinson CURSOR Nik Pash cline\nGoogle DeepMind PRESENTEDBY Cognition 采FACTORY Graphite:e04j autho Worko",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1168.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Syiten Iuatructlons CASE.Od Systee Instruetltes CALOE.SE\nCloode BalItin Tools Intentional Compaction Clonte lulltlo Tools NOTeol\nUser mssoe \"Write everything we did Reod proyress.nd User sessoge\nAsslstam Messoje Great,row Aac Uuer nesroge Reod) Sesrch) Eritet) we're working on\" we're taking, the steps we've done so far, so far to progress.md, and the current failure ensure to note the approach pregreas.nd sritel Briteo Reodt)\nritet)\nAssistontlesscge\nmorize progreas to progress.nd User nessoge progress,nd\nno vibes allowed adexhorthy Code Summit\nAIE /CODE graph Mahesh Murag ANTHROPIC Natalie Serrino gimlet Eno Reyes FACTORY Lee Robinson CURSOR Nik Pash cline\nGoogle DeepMind PRESENTEDBY Cognition 采FACTORY Graphite:e04j autho Worko",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

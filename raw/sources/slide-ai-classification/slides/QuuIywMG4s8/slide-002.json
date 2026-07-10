@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "I want you to be able to build, interpret and/or use evals in your agent flows",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "large simple text is directly readable",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "light blue with black left panel and black footer",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 19.0,
+        "w": 12.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "I want you to be able to build, interpret and/or use evals in your agent flows",
+        "x": 32.0,
+        "y": 16.0,
+        "w": 55.0,
+        "h": 20.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 42.0,
+        "y": 79.0,
+        "w": 38.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/QuuIywMG4s8/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663005.771148,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "I want you to be able to build, interpret and/or use evals in your agent flows",
+  "advanced_ocr": {}
+}

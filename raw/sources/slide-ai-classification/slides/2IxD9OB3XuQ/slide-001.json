@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Continual Learning for AI Agents: From Failures to Durable Improvements\nSoheil Feizi\nFounder & Chief Scientist, RELAI\nAssociate Prof, CS @ University of Maryland\nhttps://relai.ai",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Continual Learning for AI Agents:\nFrom Failures to Durable Improvements",
+        "x": 11.0,
+        "y": 30.0,
+        "w": 78.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Soheil Feizi",
+        "x": 41.0,
+        "y": 58.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Founder & Chief Scientist, RELAI\nAssociate Prof, CS @ University of Maryland",
+        "x": 32.0,
+        "y": 67.0,
+        "w": 36.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "https://relai.ai",
+        "x": 44.0,
+        "y": 82.0,
+        "w": 12.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655724.6576235,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Continual Learning for AI Agents: From Failures to Durable Improvements\nSoheil Feizi\nFounder & Chief Scientist, RELAI\nAssociate Prof, CS @ University of Maryland\nhttps://relai.ai",
+  "advanced_ocr": {}
+}

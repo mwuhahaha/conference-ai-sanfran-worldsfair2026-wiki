@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "PILLARO1-DEEPDIVE\nThree layers of evaluation\nLayer1—Deterministic\nAIE PlI detection (NER+regex),Output format validation,Response length bounds aremalgretaltAi（Mlwtrepote\nwrng.+gatiallyorret,2·foil（rect\nLayer 2 -- Semantic Correctness & groundedness,LlM-as-a.Judge,Non- above threshold determinismfix:runeachtest3x-flagvariance utety: wtr:n. *11: 1evtyktelclasooreoytxretlenteeet！ Dees tte resposie snsld Plt leakage asd ballocinated sccoor dsta)\nC.5 tevest scefe.\nAlEngin escalate when confidencewas low?Did it stay Layer 3 - Behavioural Did it call theright toois,in the right order?Did it within scope? 5D.*** (entamtgoeni（oary) RtrN（ometr(（anteet) A1re1ponse:(re1gcsse） SAMPLE: LLM-aS-a-Judge prompt\nRURNPE\nABrgore AI Engineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "multi-column dense text and embedded code screenshot are better handled by OCR",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray with black left sidebar",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 19.0
+      },
+      {
+        "role": "caption",
+        "text": "PILLAR 01 — DEEP DIVE",
+        "x": 29.0,
+        "y": 4.0,
+        "w": 22.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Three layers of evaluation",
+        "x": 28.0,
+        "y": 9.0,
+        "w": 36.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "Layer 1 — Deterministic",
+        "x": 28.0,
+        "y": 26.0,
+        "w": 25.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "Layer 2 — Semantic",
+        "x": 28.0,
+        "y": 49.0,
+        "w": 22.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "Layer 3 — Behavioural",
+        "x": 28.0,
+        "y": 71.0,
+        "w": 24.0,
+        "h": 11.0
+      },
+      {
+        "role": "code",
+        "text": "SAMPLE: LLM-as-a-Judge prompt",
+        "x": 77.0,
+        "y": 79.0,
+        "w": 18.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/ObTPqBGsEbA/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662690.3167522,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Three layers of evaluation",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "PILLARO1-DEEPDIVE\nThree layers of evaluation\nLayer1—Deterministic\nAIE PlI detection (NER+regex),Output format validation,Response length bounds aremalgretaltAi（Mlwtrepote\nwrng.+gatiallyorret,2·foil（rect\nLayer 2 -- Semantic Correctness & groundedness,LlM-as-a.Judge,Non- above threshold determinismfix:runeachtest3x-flagvariance utety: wtr:n. *11: 1evtyktelclasooreoytxretlenteeet！ Dees tte resposie snsld Plt leakage asd ballocinated sccoor dsta)\nC.5 tevest scefe.\nAlEngin escalate when confidencewas low?Did it stay Layer 3 - Behavioural Did it call theright toois,in the right order?Did it within scope? 5D.*** (entamtgoeni（oary) RtrN（ometr(（anteet) A1re1ponse:(re1gcsse） SAMPLE: LLM-aS-a-Judge prompt\nRURNPE\nABrgore AI Engineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1013.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "PILLARO1-DEEPDIVE\nThree layers of evaluation\nLayer1—Deterministic\nAIE PlI detection (NER+regex),Output format validation,Response length bounds aremalgretaltAi（Mlwtrepote\nwrng.+gatiallyorret,2·foil（rect\nLayer 2 -- Semantic Correctness & groundedness,LlM-as-a.Judge,Non- above threshold determinismfix:runeachtest3x-flagvariance utety: wtr:n. *11: 1evtyktelclasooreoytxretlenteeet！ Dees tte resposie snsld Plt leakage asd ballocinated sccoor dsta)\nC.5 tevest scefe.\nAlEngin escalate when confidencewas low?Did it stay Layer 3 - Behavioural Did it call theright toois,in the right order?Did it within scope? 5D.*** (entamtgoeni（oary) RtrN（ometr(（anteet) A1re1ponse:(re1gcsse） SAMPLE: LLM-aS-a-Judge prompt\nRURNPE\nABrgore AI Engineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

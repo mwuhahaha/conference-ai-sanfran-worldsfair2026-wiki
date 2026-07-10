@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "MiniMax-M2: Open-Weight. Coding-First. Best-in-Class.\n~10B activated parameters, open-weight\nAgentic-by-design for coding and workplace tasks\nFast, cost-efficient, and ready to scale",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "MiniMax-M2: Open-Weight. Coding-First. Best-in-Class.",
+        "x": 24.0,
+        "y": 0,
+        "w": 56.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "~10B activated parameters, open-weight",
+        "x": 25.0,
+        "y": 21.0,
+        "w": 20.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "Agentic-by-design for coding and workplace tasks",
+        "x": 49.0,
+        "y": 21.0,
+        "w": 20.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "Fast, cost-efficient, and ready to scale",
+        "x": 74.0,
+        "y": 21.0,
+        "w": 20.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/lY1iFbDPRlw/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670433.114117,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "MiniMax-M2: Open-Weight. Coding-First. Best-in-Class.\n~10B activated parameters, open-weight\nAgentic-by-design for coding and workplace tasks\nFast, cost-efficient, and ready to scale",
+  "advanced_ocr": {}
+}

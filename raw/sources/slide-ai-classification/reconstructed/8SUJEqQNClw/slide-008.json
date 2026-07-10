@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Some of our users *loved* this. But many folks didn't.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple large-text slide",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#11110e",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Some of our users *loved* this.",
+        "x": 26.0,
+        "y": 28.0,
+        "w": 42.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "But many folks didn't",
+        "x": 26.0,
+        "y": 44.0,
+        "w": 30.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-008.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657974.0172606,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Some of our users *loved* this. But many folks didn't.",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The SOTA in AI Engineering\nAll in One Place\n\n10 parallel engineering miniconferences + 2 leadership tracks. 400+ sessions. Divide\nand conquer!\n\nOrientation Jun 28   Workshop Day Jun 29   Tuesday Jun 30   Wednesday Jul 1   Thursday Jul 2\n\n#1 Harness Engineering   #2 Generative Media\n#3 Agentic Commerce   #4 AI in Finance\n#5 Local AI   #6 Graphs   #7 AI in GTM\n#8 AI in Healthcare   #9 Agentic Engineering\n#10 Inference   #11 AI-Native Enterprises\n#12 AI Architects: AI Factories\n\nAI in Finance\nInside the agentic shift in quant finance -- from Morgan Stanley's autonomous research agents to Nubank vetting 2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling through what it really takes to ship finance agents that understand money",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#050505",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer World's Fair",
+        "x": 47.0,
+        "y": 8.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "The SOTA in AI Engineering\nAll in One Place",
+        "x": 29.0,
+        "y": 18.0,
+        "w": 42.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Harness Engineering\nGenerative Media\nAgentic Commerce\nAI in Finance\nLocal AI\nGraphs\nAI in GTM\nAI in Healthcare\nAgentic Engineering\nInference\nAI-Native Enterprises\nAI Architects: AI Factories",
+        "x": 13.0,
+        "y": 31.0,
+        "w": 31.0,
+        "h": 42.0
+      },
+      {
+        "role": "body",
+        "text": "AI in Finance",
+        "x": 34.0,
+        "y": 36.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655874.4548683,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "The SOTA in AI Engineering\nAll in One Place",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "C al.engineerworids:ar/2026side-oents Q☆·目·日の口\nCAE HOm. Gcato G++ t+trts A fngiahtr Worier'e Fat Hobt Artca tup Thectits\nThe SOTA in AI Engineering All in One Place\nGrd coagr!\nhmtten un 28 Czur: Arg dousyrom Tuwsdry T130 Wedherday Thursdry\nHamess Enginrering Ger4rathre M+d\nAgertc Commerce\n1Loc A Graphs Atn GTM\nAln Heshhcare Agtntic Engt\ntnferesc Al-Nal've Erterpe is+s\nAl Archtecti: Al Factorlt\n'through what N reatly taket to shio finsnce sgenes uut Al in Finance Jnside the pponte shit ini quan. Euom xuarapni cn suebe garotas trocuouoineit Aonris 2,000 A kut, wrth trtunt, Ficarty, ong Antropke wrestling trom Morg",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 974.96
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "The SOTA in AI Engineering\nAll in One Place\n\n10 parallel engineering miniconferences + 2 leadership tracks. 400+ sessions. Divide\nand conquer!\n\nOrientation Jun 28   Workshop Day Jun 29   Tuesday Jun 30   Wednesday Jul 1   Thursday Jul 2\n\n#1 Harness Engineering   #2 Generative Media\n#3 Agentic Commerce   #4 AI in Finance\n#5 Local AI   #6 Graphs   #7 AI in GTM\n#8 AI in Healthcare   #9 Agentic Engineering\n#10 Inference   #11 AI-Native Enterprises\n#12 AI Architects: AI Factories\n\nAI in Finance\nInside the agentic shift in quant finance -- from Morgan Stanley's autonomous research agents to Nubank vetting 2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling through what it really takes to ship finance agents that understand money",
+    "text_status": "meaningful",
+    "corrections": "Corrected obvious OCR errors in headings, dates, and names; rest transcribed from the image."
+  }
+}

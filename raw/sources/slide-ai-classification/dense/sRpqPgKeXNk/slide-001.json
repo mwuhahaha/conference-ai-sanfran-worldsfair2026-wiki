@@ -1,0 +1,95 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.88,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Mixed slide with small labels, screenshots, and dense text; OCR will be more reliable than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black stage strip on left and bottom",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Artificial Analysis is a leading independent AI benchmarking company",
+        "x": 23.0,
+        "y": 1.0,
+        "w": 72.0,
+        "h": 11.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Benchmarking Coverage",
+        "x": 24.0,
+        "y": 14.0,
+        "w": 33.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Website & Reports",
+        "x": 63.0,
+        "y": 14.0,
+        "w": 31.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Intelligence\nSpeed\nCost",
+        "x": 27.0,
+        "y": 22.0,
+        "w": 27.0,
+        "h": 20.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Surveys & Market analysis\nAPI Providers\nHardware\nSpeech\nVideo\nImage",
+        "x": 25.0,
+        "y": 42.0,
+        "w": 32.0,
+        "h": 36.0
+      },
+      {
+        "role": "body",
+        "text": "Website hosting benchmarks of >150 models, >800 API endpoints & more\nhttps://artificialanalysis.ai/\n- In-depth reports, for enterprises and the wider community\n- Custom benchmarking",
+        "x": 63.0,
+        "y": 25.0,
+        "w": 34.0,
+        "h": 50.0
+      },
+      {
+        "role": "logo",
+        "text": "Artificial Analysis",
+        "x": 86.0,
+        "y": 88.0,
+        "w": 11.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/sRpqPgKeXNk/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671813.63734,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 586.48,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

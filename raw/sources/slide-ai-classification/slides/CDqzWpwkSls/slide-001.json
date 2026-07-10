@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "AIE 2026\nthe human in your loop isn't thinking\nbuild AI systems for discernment, not approval\nangel ortmann lee",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title card with large, directly readable text; OCR not needed in this pass.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "solid bright green",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "duolingo",
+        "x": 8.0,
+        "y": 8.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "AIE 2026",
+        "x": 44.0,
+        "y": 11.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "the human in your loop isn't thinking",
+        "x": 19.0,
+        "y": 40.0,
+        "w": 63.0,
+        "h": 20.0
+      },
+      {
+        "role": "subtitle",
+        "text": "build AI systems for discernment, not approval",
+        "x": 28.0,
+        "y": 67.0,
+        "w": 45.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "angel ortmann lee",
+        "x": 42.0,
+        "y": 86.0,
+        "w": 16.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/CDqzWpwkSls/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658729.818053,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AIE 2026\nthe human in your loop isn't thinking\nbuild AI systems for discernment, not approval\nangel ortmann lee",
+  "advanced_ocr": {}
+}

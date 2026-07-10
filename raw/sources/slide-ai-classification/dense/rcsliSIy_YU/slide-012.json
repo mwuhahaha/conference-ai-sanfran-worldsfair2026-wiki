@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "code",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code screenshot with small source text; OCR is the right extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3eadf",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Example: CVE Remediation with OpenHands SDK",
+        "x": 21.0,
+        "y": 12.0,
+        "w": 58.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "https://github.com/OpenHands/cve-demo",
+        "x": 21.0,
+        "y": 21.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "code screenshot",
+        "x": 22.0,
+        "y": 28.0,
+        "w": 43.0,
+        "h": 56.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671497.519469,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/full",
+    "best_score": 501.48,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

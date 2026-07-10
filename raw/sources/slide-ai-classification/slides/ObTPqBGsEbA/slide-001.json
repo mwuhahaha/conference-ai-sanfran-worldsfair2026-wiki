@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "speaker_stage",
+  "reject_reason": "camera shot of presenter on stage with audience and only a partial projected slide visible",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "purple stage lighting with dark audience silhouettes",
+    "style": "other",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 47.0,
+        "y": 5.0,
+        "w": 21.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/ObTPqBGsEbA/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662653.8310688,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

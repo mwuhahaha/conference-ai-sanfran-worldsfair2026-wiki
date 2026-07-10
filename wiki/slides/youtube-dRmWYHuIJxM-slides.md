@@ -19,177 +19,184 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/dRmWYHuIJxM/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/dRmWYHuIJxM/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
 
-> AIENGINEERWORLD'SFAIR
-> June30-July2,2026-SanFrancisco
-> SEARCH&RETRIEVAL TRACK
-> We Cut 94% of Our Al Coding Tokens
-> With a Local Code Index
-> Here's the architecture.
-> 0.4ms
-> Token Reduction
-> Search Latency
-> Recall@10
-> RajkumarSakthivel
-> RS
-> github.com/elara-labs/code-
-> context-engine
+Slide text:
+
+> We Cut 94% of Our AI Coding Tokens With a Local Code Index
+> AI Engineer World's Fair
+> June 30 – July 2, 2026 • San Francisco
+> Search & Retrieval Track
 
 ![[assets/slides/dRmWYHuIJxM/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/dRmWYHuIJxM/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
 
 > THE ASSUMPTION
-> EveryAl coding tool we tried had the same assumption:
-> sendasmuchcontextaspossible.
-> WHAT AGENTS SEND 45,000 WHAT'SACTUALLYUSEFUL ~5,000
-> tokensperquery tokensperquery
-> We didn't notice until we saw the cost and latency impact.
-> elara-labs/code-context-engine
+> Every AI coding tool we tried had the same assumption:
+> send as much context as possible.
+> 45,000 tokens per query
+> ~5,000 tokens per query
 
 ![[assets/slides/dRmWYHuIJxM/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/dRmWYHuIJxM/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Dense bullet slide with small explanatory text; OCR is likely more reliable than manual transcription.
 
-> WHAT WE GOT WRONG
-> We optimized the model. We should have optimized the
-> context.
+Slide text:
+
+> We optimizedthe modelWeshould have optimized the Context.
 > Better prompts
-> “Be concise.” “Only return relevant code.” The model still received 45k tokens of input.
+> "Be concise Only returm relevant code. The model stil received 45k tokens of input.
 > Model settings
-> Temperature, top-p, max_tokens control output shape. The 45k input was already sent and billed.
+> Temperature, top-Pmax lokens control outout shape The 45k input was already sent and biled.
 > Output compression
-> “Talk like a caveman.” Saves 75% of output (10% of bill). Net impact: ~8%. Wrong 10%.
+> Talk like a caveman* Saves:75%.of output (10% of bil) Net Impact - 8%. Wrong 10%
 > A retrieval layer between codebase and agent
-> Search an index, return only relevant chunks. 94% fewer tokens.
-> elara-labs/code-context-engine
+> Searchran index, refuri only relevant chunks. 94% fewer tokens.
+> olara-labs/codecontext-engin?
 
 ![[assets/slides/dRmWYHuIJxM/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/dRmWYHuIJxM/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> WHYINPUT MATTERS
+Slide text:
+
 > Where your tokens actually go
+> 90% is input
 > Output compression
-> Saves75%ofoutput tokens
-> %06 =~8%off totalbill
-> jnduis! Inputretrieval Saves94%of input tokens
-> ~61%off totalbill
-> Input tokens(filereads,search,context) spend. Both help.But if you're only doing one,do the one that tar
-> Output tokens(agentreplies,code)
-> 4elara-labs/code-context-engine
+> = ~8% off total bill
+> Input retrieval
+> = ~61% off total bill
 
 ![[assets/slides/dRmWYHuIJxM/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/dRmWYHuIJxM/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Multi-card architecture slide with small labels and metrics across several columns.
 
-> ARCHITECTURE
-> A localretrieval layerbetweencodebaseand agent
-> Tree-sitter Chunking Retrieval Hybrid Compression Chunk Graph Code Confidence Scoring
-> AST-aware splits 10langs Vector 94% T+BM25+RRF Signatures 89% docs CALLS related IMPORTS Threshold gate filter
-> Everythingruns locally.No cloud,noAPIcalls.sqlite-vec+FTS5+graph in threeSQLite files.
-> elara-labs/code-context-engine
+Slide text:
+
+> A local retrieval layer between codebase and agent
+> Tree-sitter Chunking Retrieval puqAH Compression Chunk Graph Code Confidence Scoring
+> AST-awaresplits 10 langs Vector+8M25+RRF 94% Signatures+docs 89% CALLS.IMPORTS related Threshold gate filter
+> Everything runs locally.No cloud,noAPI calls.sqlite-vec +FTS5 +graph in threeSQLite files.
+> delara-labs/code-context-engine
 
 ![[assets/slides/dRmWYHuIJxM/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/dRmWYHuIJxM/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
 
 > Why not just vector search?
-> Ss re a
-> Vector Search FTS5 (BM25) RRF Fusion
-> res cree,
-> Neither retriever is good enough alone. Together they cover each other's blind spots. a
+> Vector Search
+> FTS5 (BM25)
+> RRF Fusion
+> Recall: 0.78
+> Recall: 0.72
+> Recall: 0.90
 
 ![[assets/slides/dRmWYHuIJxM/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/dRmWYHuIJxM/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Dense two-column slide with small supporting copy and chart labels.
 
-> THE HARD PART
-> The hardestproblem wasn'tretrieval.Itwasknowingwhen retrievalwaswrong.
-> LLM-based scoring Confidencescoringblend
-> and costperquery. Similarity 50%
-> Fixed thresholds Keywords 30%
-> alike. cosine>0.7=relevant.Broke on short queriesand longqueries Recency 20%
-> Simpleheuristicwon
-> noAPI calls. 50%similarity+30%keyword+20%recency.Adaptive.0.4ms, Lesson:don't reach foran LLMwhena weighted avera
-> 4elara-labs/code-context-engine
+Slide text:
+
+> The hardest problem wasn'tretrieval It was knowing when retrieval waswrongb
+> LLM-based scoring Confidence scoring blend
+> Asked the model to rate relevance. Accurale but +2 3s latency Ycost per query Simitarity Sox
+> Flxed thresholds Keywords 30x
+> calike. cosino > O.7 =relevant Broke on short quenies and long quenles. Recency 20x
+> Simpie heuristic won
+> no API calls. 50% smilarity +30% keyword K20% recency Adaptive: 0.4ms Lesson: dont reach for an LLM when a welghted avera
+> elararlabs/code-context-cngine
 
 ![[assets/slides/dRmWYHuIJxM/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/dRmWYHuIJxM/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/full`.
+- OCR decision: ready — Benchmark slide with multiple metric panels, small numbers, and a code snippet.
+
+Slide text:
 
 > BENCHMARK
-> FastAPI
-> FastAPl:53files,20realquestions,reproducible
-> Full file baseline
-> 83,681 tok/q
-> Afterretrieval
-> 4,927tok/q
+> FastAPI FastAPl:53files,20realquestions,reproducible
+> Full file baseline Afterretrieval 83,681 tok/q 4,927tok/q 94%
 > retrieval savings
-> After compression
-> 523tok/q
-> No cherry-picking.No synthetic queries.
+> After compression 523tok/q No cherry-picking.No synthetic queries.
 > 20questionsadeveloperwouldactuallyask
-> Recall@10
-> $pythonbenchmarks/run_benchmark.py
-> --repo fastapi/fastapi--source-dirfa
+> Recall@10 0.90 $pythonbenchmarks/run_benchmark.py --repo fastapi/fastapi--source-dirfa
 > elara-labs/code-context-engine
 
 ![[assets/slides/dRmWYHuIJxM/slide-009.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/dRmWYHuIJxM/slide-009.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Four-panel trade-off slide with small body text in each card.
 
-> TRADE-OFFS
-> Whatwe'rehonestabout
-> 94%isagainstfull-filereads Monorepos diluterecall
-> savingsvsnormal behavior are lower.Full-file is ourreproducible baseline. Claude Code alreadyuses grep andpartial reads.Real-world OnGo'sfiber(396files),recall dropped to0.07@10.One- feature-per-filereposhit R=1.00.Focused filesretrieve best.
-> Embeddingmodel matters Whatactuallyworked
-> cache. bge-small-en-v1.5(384d)is fast,notSOTA.Biggermodels lift recall but add latency.We chose speed;<1sre-indexat96% overpure vector.Local-first.The boring choices com Simple heuristics overML.SQLite over specialized DB
+Slide text:
+
+> What we're honest about
+> 94% is against full-file reads Monorepos dilute recall
+> baseline. savings vs normal behavior are lower.Full-file is our reproducible Claude Code already uses grep and partial reads.Real-world feature-per-file repos hit R=1.00.Focused files retrieve best. On Go's fiber (396 fles),recall dropped to 0.07@10.One-
+> Embedding model matters What actually worked
+> bge-small-en-v1.5(384d) is fast,not SOTA.Bigger models lift Simple heunistics over ML.SQLite over specialized DB
+> cache. over pure vector.Local-first.The boring choices com
 > elara-labs/code-context-engine
 
 ![[assets/slides/dRmWYHuIJxM/slide-010.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/dRmWYHuIJxM/slide-010.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/right-72/contrast`.
+- OCR decision: ready — Slide uses a small embedded metrics screenshot with dense numeric text.
 
-> KEY TAKEAWAY
+Slide text:
+
 > MEASURABLE
-> Everytokentracked.Everydollarcounted.
-> my-project.247queries.Last query5mago
-> 90088xtokensaved
-> Input savings
-> 12.4M
-> tokens
-> Output savings
-> 48.2k
-> tokens
-> Total saved
-> 12.4M
-> tokens
-> Breakdown:
-> retrieval
-> 10.4H $156.00
-> chunk conpression
-> 421.5k
-> 48.2k
-> nates.Actual tokens served vs full
-> LDo
-> costs from live modelpricing
-> Thank you·Rajkumar Sakthivel
+> token tracked. Every dollar counted.
+> my-project.247 queriesLast query 5m ago
+> 800O088xtokenssaved
+> Input savings Output savings 48.2ktokens 12.4H tokens $3.62 $186.80
+> Total saved 12.4Mtokens $189.62
+> Breakdoan:
+> retrieval chunk coepression outputcoepress* 84% <1% 3% 10.4M$156.60 421.5k 48.2k $3.62 $6.32
+> mates.Actuai tokens served vs full-fle basellne,per bucket Dolar coats from five model pricing
 
 ![[assets/slides/dRmWYHuIJxM/slide-011.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/dRmWYHuIJxM/slide-011.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> KEYTAKEAWAY
-> The biggest optimization in Al coding isn't the model. It's the context.
-> $uvx--from"code-context-engine[local]"cceinit
-> 94% local MIT
-> fewerinputtokens nodataleavesyourmachine free,open source
-> Tryitnow
-> yourself. Scan to open the repo.Starit,forkit,run the benchmark
-> github.com/elara-labs/code-context-engine
-> Thank you.Rajkumar Sakthivel
+Slide text:
+
+> The biggest optimization in AI coding isn't the model. It's the context.
+> 94% fewer input tokens
+> local no data leaves your machine
+> MIT free, open source
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/dRmWYHuIJxM/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

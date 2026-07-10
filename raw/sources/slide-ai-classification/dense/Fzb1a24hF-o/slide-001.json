@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Wi-Fi info on your badge\nGet Started!\ndocs.dagger.io\nQuickstart\nBuild a CI Pipeline\nAdd an AI agent...\nTomorrow June 4!\nContinue at our Hack Night at the Cloudflare office",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large, simple slide text is readable directly.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black stage with cream/orange content panels",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Wi-Fi info on your badge",
+        "x": 36.0,
+        "y": 8.0,
+        "w": 34.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Get Started! docs.dagger.io Quickstart Build a CI Pipeline Add an AI agent...",
+        "x": 27.0,
+        "y": 21.0,
+        "w": 31.0,
+        "h": 47.0
+      },
+      {
+        "role": "body",
+        "text": "Tomorrow June 4! Continue at our Hack Night at the Cloudflare office",
+        "x": 61.0,
+        "y": 21.0,
+        "w": 30.0,
+        "h": 47.0
+      },
+      {
+        "role": "logo",
+        "text": "Dagger",
+        "x": 20.0,
+        "y": 14.0,
+        "w": 10.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/Fzb1a24hF-o/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659152.1132812,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Wi-Fi info on your badge\nGet Started!\ndocs.dagger.io\nQuickstart\nBuild a CI Pipeline\nAdd an AI agent...\nTomorrow June 4!\nContinue at our Hack Night at the Cloudflare office",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.96,
+  "frame_type": "title_card",
+  "reject_reason": "title slide only; no substantive content",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "title card only; no dense body text",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 13.0,
+        "h": 24.0
+      },
+      {
+        "role": "title",
+        "text": "What Model is State-of-the-Art?",
+        "x": 40.0,
+        "y": 10.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 50.0,
+        "y": 83.0,
+        "w": 22.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/hqHC6Z_lXyo/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668455.8119037,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

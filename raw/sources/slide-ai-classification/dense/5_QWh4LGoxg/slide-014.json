@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Cryptocurrency Fraud",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense analytics dashboard with metrics and chart labels that are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "LEVEL 2: FRAUD DETECTION FLOW\nDeepfake Detection\nPayment Fraud\nWeb Fraud\nSocial Media Fraud\nCryptocurrency Fraud\nPhishing Detection\nBot Detection\nGraphBase Fraud Detection\nKnowledge Graph Builder\nNetwork Graph Analysis\nGraphRAG Analytics",
+        "x": 1.0,
+        "y": 8.0,
+        "w": 22.0,
+        "h": 85.0
+      },
+      {
+        "role": "body",
+        "text": "MONITORED BLOCKCHAINS 8\nFLAGGED WALLETS 872\nFINANCIAL IMPACT $12.70M\nSUSPICIOUS TRANSACTIONS 3,542\nRISKY CONTRACTS 156\nMONITORED EXCHANGES 24",
+        "x": 27.0,
+        "y": 14.0,
+        "w": 67.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Suspicious Activity by Blockchain",
+        "x": 27.0,
+        "y": 38.0,
+        "w": 35.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Financial Impact by Blockchain (USD)",
+        "x": 65.0,
+        "y": 38.0,
+        "w": 32.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-014.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658657.7049549,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Cryptocurrency Fraud",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

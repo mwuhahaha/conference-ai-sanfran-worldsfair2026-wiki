@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "High Level Idea\nUnstructured Corpus\nData Structure\nQuery",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Low-text diagram slide with large labels is readable directly; OCR is not necessary.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "off-white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "High Level Idea",
+        "x": 2.0,
+        "y": 0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Unstructured Corpus",
+        "x": 22.0,
+        "y": 54.0,
+        "w": 28.0,
+        "h": 16.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Data Structure",
+        "x": 58.0,
+        "y": 57.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Query",
+        "x": 69.0,
+        "y": 12.0,
+        "w": 12.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/Ywl4LsvHKzU/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665574.7973597,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "High Level Idea\nUnstructured Corpus\nData Structure\nQuery",
+  "advanced_ocr": {}
+}

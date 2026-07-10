@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.9,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product/UI screenshot with small text; OCR is likely more efficient than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 25.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 28.0,
+        "y": 4.0,
+        "w": 67.0,
+        "h": 79.0
+      },
+      {
+        "role": "caption",
+        "text": "AI Engineer EUROPE",
+        "x": 65.0,
+        "y": 83.0,
+        "w": 21.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/SS-A8sE7hkw/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663497.267227,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/right-72/opencv-adaptive",
+    "best_score": 74.48,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

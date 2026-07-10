@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.85,
+  "frame_type": "demo_video",
+  "reject_reason": "PowerPoint editor UI and stage-camera inset; not a clean slide frame.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Demo/video footage with surrounding UI; not suitable for slide OCR triage.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": []
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/_xIwFcnHqp4/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666174.8890383,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

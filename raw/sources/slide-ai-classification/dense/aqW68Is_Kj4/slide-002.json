@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "response model=°claude-sonnet-4-5-292S8929 ltent.tessoges.\nThinking Extended max tokens= thtnktng=f:.suoyo)\"lobpnq. enabled\":True,\nmessagcsa\nContent\": *Help re debug why this systen fails under load\" User\nANTHROPIC\nAIE / LEAD EVOLVING CLAUDE APISFOR AGENTS\nGoogle DeepMind PRESENTEDBY KATELYN LESSE/ Engineering Leader ANTHROPIC",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Contains a code screenshot with small text; OCR should handle it better than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white with dark code panel",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Extended Thinking",
+        "x": 27.0,
+        "y": 27.0,
+        "w": 19.0,
+        "h": 16.0
+      },
+      {
+        "role": "code",
+        "text": "response = client.messages.create(",
+        "x": 56.0,
+        "y": 12.0,
+        "w": 41.0,
+        "h": 58.0
+      },
+      {
+        "role": "logo",
+        "text": "ANTHROPIC",
+        "x": 26.0,
+        "y": 80.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/aqW68Is_Kj4/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666339.4100893,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Extended Thinking",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "response model=°claude-sonnet-4-5-292S8929 ltent.tessoges.\nThinking Extended max tokens= thtnktng=f:.suoyo)\"lobpnq. enabled\":True,\nmessagcsa\nContent\": *Help re debug why this systen fails under load\" User\nANTHROPIC\nAIE / LEAD EVOLVING CLAUDE APISFOR AGENTS\nGoogle DeepMind PRESENTEDBY KATELYN LESSE/ Engineering Leader ANTHROPIC",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 515.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "response model=°claude-sonnet-4-5-292S8929 ltent.tessoges.\nThinking Extended max tokens= thtnktng=f:.suoyo)\"lobpnq. enabled\":True,\nmessagcsa\nContent\": *Help re debug why this systen fails under load\" User\nANTHROPIC\nAIE / LEAD EVOLVING CLAUDE APISFOR AGENTS\nGoogle DeepMind PRESENTEDBY KATELYN LESSE/ Engineering Leader ANTHROPIC",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Origin Story\nOne bet on agents, one immediate yes.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Main title and statement are large enough to read directly.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "off-white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "product",
+        "text": "",
+        "x": 0,
+        "y": 10.0,
+        "w": 58.0,
+        "h": 79.0
+      },
+      {
+        "role": "title",
+        "text": "Origin Story",
+        "x": 63.0,
+        "y": 21.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "One bet on agents, one immediate yes.",
+        "x": 63.0,
+        "y": 28.0,
+        "w": 31.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "A principal engineer spun up a team focused on AI agents and asked me to join. OG Assist grew from there. We started to integrate deeply with our products through frontend and backend tools.",
+        "x": 63.0,
+        "y": 65.0,
+        "w": 31.0,
+        "h": 17.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668951.8671267,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Origin Story\nOne bet on agents, one immediate yes.",
+  "advanced_ocr": {}
+}

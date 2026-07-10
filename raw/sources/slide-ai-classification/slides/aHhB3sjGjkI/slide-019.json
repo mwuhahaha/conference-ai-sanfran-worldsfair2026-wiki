@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A real test on an already optimized agent_\nBaseline accuracy: 76.7% Found edge cases\nIteration Summary: # Hypothesis Decision Accuracy Improved the system prompt\n1 001-bc0b51 CONTINUE 80.7% Improved tools description\n2 002-f7f825 CONTINUE 82.7%\nE 4 003-5018d3 004-dfe1sd CONTINUE ROLLBACK 81.9% 82.1% Fixed tools logic\n5 005-a4b57e CONTINUE 82.6%\n6 7 006-fb02c4 007-81e640 CONTINUE ROLLBACK 84.4% 81.6%\n8 008-1ff45c CONTINUE 82.9%\n9 009-1889d9 CONTINUE 86.4%\n10 010-691708 ROLLBACK 85.1%\n11 011-0de49e ROLLBACK 84.5%\n12 012-dcb780 ROLLBACK 84.7%",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense table plus multiple bullet points; OCR will capture the iteration summary more reliably than manual triage.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark navy",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "A real test on an already optimized agent_",
+        "x": 9.0,
+        "y": 4.0,
+        "w": 50.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "Baseline accuracy: 76.7%\nIteration Summary",
+        "x": 9.0,
+        "y": 11.0,
+        "w": 45.0,
+        "h": 72.0
+      },
+      {
+        "role": "body",
+        "text": "Found edge cases\nImproved the system prompt\nImproved tools description\nFixed tools logic",
+        "x": 60.0,
+        "y": 15.0,
+        "w": 30.0,
+        "h": 34.0
+      },
+      {
+        "role": "caption",
+        "text": "",
+        "x": 83.0,
+        "y": 70.0,
+        "w": 16.0,
+        "h": 25.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666987.5576277,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "A real test on an already optimized agent_",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "A real test on an already optimized agent_\nBaseline accuracy: 76.7% Found edge cases\nIteration Summary: # Hypothesis Decision Accuracy Improved the system prompt\n1 001-bc0b51 CONTINUE 80.7% Improved tools description\n2 002-f7f825 CONTINUE 82.7%\nE 4 003-5018d3 004-dfe1sd CONTINUE ROLLBACK 81.9% 82.1% Fixed tools logic\n5 005-a4b57e CONTINUE 82.6%\n6 7 006-fb02c4 007-81e640 CONTINUE ROLLBACK 84.4% 81.6%\n8 008-1ff45c CONTINUE 82.9%\n9 009-1889d9 CONTINUE 86.4%\n10 010-691708 ROLLBACK 85.1%\n11 011-0de49e ROLLBACK 84.5%\n12 012-dcb780 ROLLBACK 84.7%",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 566.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "A real test on an already optimized agent_\nBaseline accuracy: 76.7% Found edge cases\nIteration Summary: # Hypothesis Decision Accuracy Improved the system prompt\n1 001-bc0b51 CONTINUE 80.7% Improved tools description\n2 002-f7f825 CONTINUE 82.7%\nE 4 003-5018d3 004-dfe1sd CONTINUE ROLLBACK 81.9% 82.1% Fixed tools logic\n5 005-a4b57e CONTINUE 82.6%\n6 7 006-fb02c4 007-81e640 CONTINUE ROLLBACK 84.4% 81.6%\n8 008-1ff45c CONTINUE 82.9%\n9 009-1889d9 CONTINUE 86.4%\n10 010-691708 ROLLBACK 85.1%\n11 011-0de49e ROLLBACK 84.5%\n12 012-dcb780 ROLLBACK 84.7%",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

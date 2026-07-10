@@ -1,0 +1,3857 @@
+{
+  "video_id": "wsFd22SL1s8",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 42,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Background\nCarnegie Mellon\nOperating Systems x Distributed Systems.-.\n8 Microsoft\nWindows Subsystem for Linux\nGoogle - G From scratch Os for pre-Apple Watch Smartwatch:\n:.: MlcroVMs - Rust-based ightweight VMs for Linux dev\nenvironments on Chrome Os.\nARQ- Android apps on Chrome Os In containers: Replit\nInfra - Proxied through my servkce for your entire session\nArrakis.. RAG based codo chat: whenever you code on Replit:\nSandboxes for Al Agents - code execution and computer use\n8Built during my time at South Park Commons",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-column background/timeline slide with small bullets and labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray/white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Background",
+            "x": 4.0,
+            "y": 2.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Carnegie Mellon",
+            "x": 29.0,
+            "y": 9.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Microsoft",
+            "x": 58.0,
+            "y": 24.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Google",
+            "x": 35.0,
+            "y": 38.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Replit",
+            "x": 58.0,
+            "y": 52.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis",
+            "x": 35.0,
+            "y": 68.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "MicroVMs - Rust-based lightweight VMs for Linux dev environments on Chrome OS\nARC- Android apps on Chrome OS in containers",
+            "x": 4.0,
+            "y": 43.0,
+            "w": 43.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Windows Subsystem for Linux\nFrom scratch OS for pre-Apple Watch Smartwatch",
+            "x": 56.0,
+            "y": 30.0,
+            "w": 37.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Infra - Proxied through my service for your entire session whenever you code on Replit\nRAG based code chat",
+            "x": 56.0,
+            "y": 53.0,
+            "w": 37.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Sandboxes for AI Agents - code execution and computer use\nBuilt during my time at South Park Commons",
+            "x": 4.0,
+            "y": 72.0,
+            "w": 43.0,
+            "h": 15.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672682.6226895,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Background",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Background\nCarnegie Mellon\nOperating Systems x Distributed Systems.-.\n8 Microsoft\nWindows Subsystem for Linux\nGoogle - G From scratch Os for pre-Apple Watch Smartwatch:\n:.: MlcroVMs - Rust-based ightweight VMs for Linux dev\nenvironments on Chrome Os.\nARQ- Android apps on Chrome Os In containers: Replit\nInfra - Proxied through my servkce for your entire session\nArrakis.. RAG based codo chat: whenever you code on Replit:\nSandboxes for Al Agents - code execution and computer use\n8Built during my time at South Park Commons",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 821.28
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Background\nCarnegie Mellon\nOperating Systems x Distributed Systems.-.\n8 Microsoft\nWindows Subsystem for Linux\nGoogle - G From scratch Os for pre-Apple Watch Smartwatch:\n:.: MlcroVMs - Rust-based ightweight VMs for Linux dev\nenvironments on Chrome Os.\nARQ- Android apps on Chrome Os In containers: Replit\nInfra - Proxied through my servkce for your entire session\nArrakis.. RAG based codo chat: whenever you code on Replit:\nSandboxes for Al Agents - code execution and computer use\n8Built during my time at South Park Commons",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why Do We Need AI Sandboxes?\nSmarter Models\nAbility to call tools during inference\nUsed in RL training\nSmarter Agents\nCan debug actions by running Linux commands \"ps\", \"lsof\"\nBacktrack, replan and work towards the goal with a Sandbox at their disposal\nSecurity\nAgent code is no different that Github or StackOverflow code running on your host or production server",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray/white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why Do We Need AI Sandboxes?",
+            "x": 5.0,
+            "y": 2.0,
+            "w": 56.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Smarter Models",
+            "x": 15.0,
+            "y": 17.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Ability to call tools during inference\nUsed in RL training",
+            "x": 16.0,
+            "y": 24.0,
+            "w": 34.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Smarter Agents",
+            "x": 15.0,
+            "y": 42.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Can debug actions by running Linux commands \"ps\", \"lsof\"\nBacktrack, replan and work towards the goal with a Sandbox at their disposal",
+            "x": 16.0,
+            "y": 49.0,
+            "w": 56.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Security",
+            "x": 15.0,
+            "y": 68.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Agent code is no different that Github or StackOverflow code running on your host or production server",
+            "x": 16.0,
+            "y": 75.0,
+            "w": 72.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672694.745419,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why Do We Need AI Sandboxes?\nSmarter Models\nAbility to call tools during inference\nUsed in RL training\nSmarter Agents\nCan debug actions by running Linux commands \"ps\", \"lsof\"\nBacktrack, replan and work towards the goal with a Sandbox at their disposal\nSecurity\nAgent code is no different that Github or StackOverflow code running on your host or production server",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "demo_video",
+      "reject_reason": "",
+      "text": ". How to Create a ChatGPT Clone. Manus's Computer '\nNuple Guts 1 truty\nExecutng comrind kdlr' -p thutgot ctare t cd chatgot_clone t& create_tlsik.+p-\nCreate a ChatGPT clone sheni.\n: interface that mimics the functionaity of ChatGPT. Let me get started right: &manus: 1'll hclp you croate a ChatGpT clono. Ill work on doveloping a wob-based chat: _clone &s create_rlask_app. USAGE: ubuntugsandbox: S'cd /hone/ubuntu &s akdir -p chatgpt clone &s cd chatgpt. Creates a nev Flask application' create_flask app fapp_nase]\n&manus AeMe Oi Select the most suitable web spplicauon template for a ChatGpT clone Connocted to datasource(1): ubuntuesondbox:~/chatgpt_clone. $. ARGUHENTS: EXAMPLEi. butu'dde create_flosk app ay_app Napc of. the Ftask application to 'create\n1'1l be creating a ChatGPT clone using Flask, vhich is the appropriate choice\nsince we noed both s frontend Intcrface and backend processing for the chat: functionality. Let me set up the project structure and lmpiement the necessary.\n. components.\n) Creite Ue ChatGPT clone project using tha Flask terplatoA\n: Creating the ChaiGPT clone prol+ct using tha Fusk templto.\nCreating thie ChatGPT clone Flask project.\n0 Using termnat:",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product/UI screenshot with small interface text and terminal output.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray/white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI Sandboxes Around Us",
+            "x": 28.0,
+            "y": 2.0,
+            "w": 34.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "How to Create a ChatGPT clone",
+            "x": 4.0,
+            "y": 10.0,
+            "w": 30.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Manus's Computer",
+            "x": 49.0,
+            "y": 8.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "manus",
+            "x": 5.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "shell1",
+            "x": 53.0,
+            "y": 27.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672694.7458968,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "AI Sandboxes Around Us",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": ". How to Create a ChatGPT Clone. Manus's Computer '\nNuple Guts 1 truty\nExecutng comrind kdlr' -p thutgot ctare t cd chatgot_clone t& create_tlsik.+p-\nCreate a ChatGPT clone sheni.\n: interface that mimics the functionaity of ChatGPT. Let me get started right: &manus: 1'll hclp you croate a ChatGpT clono. Ill work on doveloping a wob-based chat: _clone &s create_rlask_app. USAGE: ubuntugsandbox: S'cd /hone/ubuntu &s akdir -p chatgpt clone &s cd chatgpt. Creates a nev Flask application' create_flask app fapp_nase]\n&manus AeMe Oi Select the most suitable web spplicauon template for a ChatGpT clone Connocted to datasource(1): ubuntuesondbox:~/chatgpt_clone. $. ARGUHENTS: EXAMPLEi. butu'dde create_flosk app ay_app Napc of. the Ftask application to 'create\n1'1l be creating a ChatGPT clone using Flask, vhich is the appropriate choice\nsince we noed both s frontend Intcrface and backend processing for the chat: functionality. Let me set up the project structure and lmpiement the necessary.\n. components.\n) Creite Ue ChatGPT clone project using tha Flask terplatoA\n: Creating the ChaiGPT clone prol+ct using tha Fusk templto.\nCreating thie ChatGPT clone Flask project.\n0 Using termnat:",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1590.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": ". How to Create a ChatGPT Clone. Manus's Computer '\nNuple Guts 1 truty\nExecutng comrind kdlr' -p thutgot ctare t cd chatgot_clone t& create_tlsik.+p-\nCreate a ChatGPT clone sheni.\n: interface that mimics the functionaity of ChatGPT. Let me get started right: &manus: 1'll hclp you croate a ChatGpT clono. Ill work on doveloping a wob-based chat: _clone &s create_rlask_app. USAGE: ubuntugsandbox: S'cd /hone/ubuntu &s akdir -p chatgpt clone &s cd chatgpt. Creates a nev Flask application' create_flask app fapp_nase]\n&manus AeMe Oi Select the most suitable web spplicauon template for a ChatGpT clone Connocted to datasource(1): ubuntuesondbox:~/chatgpt_clone. $. ARGUHENTS: EXAMPLEi. butu'dde create_flosk app ay_app Napc of. the Ftask application to 'create\n1'1l be creating a ChatGPT clone using Flask, vhich is the appropriate choice\nsince we noed both s frontend Intcrface and backend processing for the chat: functionality. Let me set up the project structure and lmpiement the necessary.\n. components.\n) Creite Ue ChatGPT clone project using tha Flask terplatoA\n: Creating the ChaiGPT clone prol+ct using tha Fusk templto.\nCreating thie ChatGPT clone Flask project.\n0 Using termnat:",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arrakis\nArrakis provides a secure, fully customizable, and self-hosted solution to spawn and manage Sandboxes for code execution and computer use.\nIt has out-of-the-box support for backtracking via snapshot-and-restore.\nOpen Source",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray/white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis",
+            "x": 5.0,
+            "y": 5.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Arrakis provides a secure, fully customizable, and self-hosted solution to spawn and manage Sandboxes for code execution and computer use.",
+            "x": 6.0,
+            "y": 33.0,
+            "w": 45.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "It has out-of-the-box support for backtracking via snapshot-and-restore.",
+            "x": 6.0,
+            "y": 48.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Open Source",
+            "x": 6.0,
+            "y": 62.0,
+            "w": 18.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672713.5007093,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Arrakis\nArrakis provides a secure, fully customizable, and self-hosted solution to spawn and manage Sandboxes for code execution and computer use.\nIt has out-of-the-box support for backtracking via snapshot-and-restore.\nOpen Source",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "D\nBacktracking\n. Pre-reasoning models - Intuition that a higher order task needs to be broken down by a Planner:\nAgent should be able to snapshot progress and restart from last good snapshot versus starting from scratch\n.Simple AP!\nPython Api Golng Clt Micp Sarver opearbpi compatbio -+ gonerate cionts in sny Languogo\nConfigurable With Docker tooling'\nDockerfile to configure what runs nside tha Sanabox:",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Slide contains small lower panels and dense explanatory text that is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray/white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Backtracking",
+            "x": 4.0,
+            "y": 47.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Pre-reasoning models - Intuition that a higher order task needs to be broken down by a Planner\nAgent should be able to snapshot progress and restart from last good snapshot versus starting from scratch",
+            "x": 4.0,
+            "y": 58.0,
+            "w": 58.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "Simple API",
+            "x": 5.0,
+            "y": 79.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Python API Golang CLI MCP Server openapi compatible -> generate clients in any language",
+            "x": 5.0,
+            "y": 84.0,
+            "w": 68.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Configurable With Docker tooling",
+            "x": 5.0,
+            "y": 92.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Dockerfile to configure what runs inside the Sandbox",
+            "x": 5.0,
+            "y": 97.0,
+            "w": 44.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672713.501079,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Backtracking",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "D\nBacktracking\n. Pre-reasoning models - Intuition that a higher order task needs to be broken down by a Planner:\nAgent should be able to snapshot progress and restart from last good snapshot versus starting from scratch\n.Simple AP!\nPython Api Golng Clt Micp Sarver opearbpi compatbio -+ gonerate cionts in sny Languogo\nConfigurable With Docker tooling'\nDockerfile to configure what runs nside tha Sanabox:",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 654.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "D\nBacktracking\n. Pre-reasoning models - Intuition that a higher order task needs to be broken down by a Planner:\nAgent should be able to snapshot progress and restart from last good snapshot versus starting from scratch\n.Simple AP!\nPython Api Golng Clt Micp Sarver opearbpi compatbio -+ gonerate cionts in sny Languogo\nConfigurable With Docker tooling'\nDockerfile to configure what runs nside tha Sanabox:",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "arrakis-py-sdk _. REST API Linux Server\nArrakis Restserver\narrakis-client REST API:\nvWc client Port Forrar. Auto Arrakis MicroVM DA: Sandbox Server Coda Server ws +poy.. Arrakis MicroVM Sandbox YAC' trver ort Foru Auto\nUserspace\nKerne! Idxv/kva\" /dev/kva\nHigh level architecture of Arrakis",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture diagram with many small labels and connectors that are best handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray/white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "arrakis-py-sdk",
+            "x": 3.0,
+            "y": 7.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "arrakis-client",
+            "x": 3.0,
+            "y": 29.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "VNC Client",
+            "x": 4.0,
+            "y": 52.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "REST API",
+            "x": 20.0,
+            "y": 6.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Linux Server",
+            "x": 43.0,
+            "y": 1.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis Restserver",
+            "x": 52.0,
+            "y": 11.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis MicroVM Sandbox",
+            "x": 37.0,
+            "y": 44.0,
+            "w": 22.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis MicroVM Sandbox",
+            "x": 66.0,
+            "y": 44.0,
+            "w": 22.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Code Server",
+            "x": 53.0,
+            "y": 37.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "VNC Server",
+            "x": 46.0,
+            "y": 37.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Code Server",
+            "x": 68.0,
+            "y": 37.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "VNC Server",
+            "x": 76.0,
+            "y": 37.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace",
+            "x": 28.0,
+            "y": 70.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Kernel",
+            "x": 28.0,
+            "y": 80.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "/dev/kvm",
+            "x": 45.0,
+            "y": 82.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "/dev/kvm",
+            "x": 73.0,
+            "y": 82.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Auto Port Forwarding",
+            "x": 31.0,
+            "y": 43.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "High level architecture of Arrakis",
+            "x": 37.0,
+            "y": 92.0,
+            "w": 30.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672726.3396983,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "High level architecture of Arrakis",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "arrakis-py-sdk _. REST API Linux Server\nArrakis Restserver\narrakis-client REST API:\nvWc client Port Forrar. Auto Arrakis MicroVM DA: Sandbox Server Coda Server ws +poy.. Arrakis MicroVM Sandbox YAC' trver ort Foru Auto\nUserspace\nKerne! Idxv/kva\" /dev/kva\nHigh level architecture of Arrakis",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 464.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "arrakis-py-sdk _. REST API Linux Server\nArrakis Restserver\narrakis-client REST API:\nvWc client Port Forrar. Auto Arrakis MicroVM DA: Sandbox Server Coda Server ws +poy.. Arrakis MicroVM Sandbox YAC' trver ort Foru Auto\nUserspace\nKerne! Idxv/kva\" /dev/kva\nHigh level architecture of Arrakis",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arrakis Restserver exposes the following REST APl. This is also available via a Python SDK, MCP Server and an openapi compliant YAML file\nAPI-Sandboxes,Snapshots,Command Execution,Files\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.startVM).Methods(\"POST\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/{name}\",s.updateVMState).Methods(\"PATCH\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms/{name}\",s.destroyVM).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+APIVERSION+\"/vms\",S.destroyALlVMs).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.listAlLVMs).Methods(\"GET\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/(name}\",s.listVM).Methods(\"GET\")\nHandleFunc(\"/\"+API_VERSION+\"/vms/(name}/snapshots\",s.snapshotVM).Methods(\"POST\")\nndleFunc(\"/\"+API_VERSION+\"/vms/{name}/cmd\",s.vmCommand).Methods（\"POST\")\ndleFunc(\"/\"+API VERSION+\"/vms/{name}/files\",s.vmFileUpload).Methods(\"POST\")\ndleFunc(\"/\"+API_VERSION+\"/vms/{name}/files\",s.vmFileDownload).Methods(\"GET\")\nandleFunc(\"/\"+API VERSION+\"/health\",s.healthCheck).Methods(\"GET\")",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code-heavy API slide with small endpoint text and code block; OCR is likely better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4f0df",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis: API",
+            "x": 4.0,
+            "y": 0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Arrakis Restserver exposes the following REST API. This is also available via a Python SDK, MCP Server and an openapi compliant YAML file",
+            "x": 3.0,
+            "y": 10.0,
+            "w": 92.0,
+            "h": 10.0
+          },
+          {
+            "role": "code",
+            "text": "API - Sandboxes, Snapshots, Command Execution, Files",
+            "x": 7.0,
+            "y": 24.0,
+            "w": 86.0,
+            "h": 50.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672826.7730324,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Arrakis: API",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Arrakis Restserver exposes the following REST APl. This is also available via a Python SDK, MCP Server and an openapi compliant YAML file\nAPI-Sandboxes,Snapshots,Command Execution,Files\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.startVM).Methods(\"POST\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/{name}\",s.updateVMState).Methods(\"PATCH\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms/{name}\",s.destroyVM).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+APIVERSION+\"/vms\",S.destroyALlVMs).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.listAlLVMs).Methods(\"GET\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/(name}\",s.listVM).Methods(\"GET\")\nHandleFunc(\"/\"+API_VERSION+\"/vms/(name}/snapshots\",s.snapshotVM).Methods(\"POST\")\nndleFunc(\"/\"+API_VERSION+\"/vms/{name}/cmd\",s.vmCommand).Methods（\"POST\")\ndleFunc(\"/\"+API VERSION+\"/vms/{name}/files\",s.vmFileUpload).Methods(\"POST\")\ndleFunc(\"/\"+API_VERSION+\"/vms/{name}/files\",s.vmFileDownload).Methods(\"GET\")\nandleFunc(\"/\"+API VERSION+\"/health\",s.healthCheck).Methods(\"GET\")",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1130.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Arrakis Restserver exposes the following REST APl. This is also available via a Python SDK, MCP Server and an openapi compliant YAML file\nAPI-Sandboxes,Snapshots,Command Execution,Files\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.startVM).Methods(\"POST\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/{name}\",s.updateVMState).Methods(\"PATCH\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms/{name}\",s.destroyVM).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+APIVERSION+\"/vms\",S.destroyALlVMs).Methods(\"DELETE\")\nr.HandleFunc(\"/\"+API VERSION+\"/vms\",s.listAlLVMs).Methods(\"GET\")\nr.HandleFunc(\"/\"+API_VERSION+\"/vms/(name}\",s.listVM).Methods(\"GET\")\nHandleFunc(\"/\"+API_VERSION+\"/vms/(name}/snapshots\",s.snapshotVM).Methods(\"POST\")\nndleFunc(\"/\"+API_VERSION+\"/vms/{name}/cmd\",s.vmCommand).Methods（\"POST\")\ndleFunc(\"/\"+API VERSION+\"/vms/{name}/files\",s.vmFileUpload).Methods(\"POST\")\ndleFunc(\"/\"+API_VERSION+\"/vms/{name}/files\",s.vmFileDownload).Methods(\"GET\")\nandleFunc(\"/\"+API VERSION+\"/health\",s.healthCheck).Methods(\"GET\")",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arrakis - API\narrakis-py-sdk\narrakis-client\nArrakis Restserver",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple diagram with large labels that is readable directly; OCR is not necessary.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f7f6f2",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis - API",
+            "x": 40.0,
+            "y": 3.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "arrakis-py-sdk",
+            "x": 4.0,
+            "y": 12.0,
+            "w": 15.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "arrakis-client",
+            "x": 4.0,
+            "y": 30.0,
+            "w": 15.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "REST API",
+            "x": 19.0,
+            "y": 14.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis Restserver",
+            "x": 52.0,
+            "y": 14.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Linux Server",
+            "x": 52.0,
+            "y": 6.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace",
+            "x": 29.0,
+            "y": 73.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Kernel",
+            "x": 29.0,
+            "y": 82.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672852.1837802,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Arrakis - API\narrakis-py-sdk\narrakis-client\nArrakis Restserver",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arrakis: A Quick Tour Of Linux Sandboxing\nLinux Execution Modei\nA Thread ls the smabest unn of execution. Each Thead has a task struct that's n the Scheduier run queue. Process\" conssts of matiple thyeads, Treads\" In a process have differeni T..\nWhy? - My app necos Python38, foo b version 12, your server has Python 3.9, 36, 312 and doosn't have foo Rd. Packago sn opp's dependancios along wth ks coro business logic Run, arbarsr.. Containers: Why? And What?: 全\nContainers: Security Story\nAfter al Containers run as native processos on iop of tha kernel Any malcious or buggy procest can attack the kemel and gain root Once t becomes root it can do'sriythirg d want.\nContainers: Sandboxing\n:JaT containers by rostricting CAPabitos and syscias they can cal Reduce attack surface Con rostrict thg anack surtace by restricting the Unux CAPabltios atowed to a process such as..\nContainers Virtualization.\nVintusHzation provdes another primaivo to run arbitrary code on your mochlnos Esch Vu has rts own guest user space and guest kerme, Doesn't drocty stsck the host kern\nKvm - Hypevisor In the form of a kernet mnodule that leverages VT-x to run swich CPU context and run VMs Vmu - Taks to kvm to spawn VMs and aso manaes emtuated Linux Virtualization",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-section slide with small text; OCR should capture headings and body more reliably than manual reading.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(180deg,#f7f7f7,#ececec)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis: A Quick Tour Of Linux Sandboxing",
+            "x": 4.0,
+            "y": 1.0,
+            "w": 60.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Linux Execution Model",
+            "x": 5.0,
+            "y": 12.0,
+            "w": 28.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Containers: Why? And What?",
+            "x": 5.0,
+            "y": 26.0,
+            "w": 34.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Containers: Security Story",
+            "x": 5.0,
+            "y": 40.0,
+            "w": 30.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Containers: Sandboxing",
+            "x": 5.0,
+            "y": 54.0,
+            "w": 28.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Containers → Virtualization",
+            "x": 5.0,
+            "y": 68.0,
+            "w": 30.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Linux Virtualization",
+            "x": 5.0,
+            "y": 82.0,
+            "w": 24.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672852.1844435,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Arrakis: A Quick Tour Of Linux Sandboxing\nLinux Execution Modei\nA Thread ls the smabest unn of execution. Each Thead has a task struct that's n the Scheduier run queue. Process\" conssts of matiple thyeads, Treads\" In a process have differeni T..\nWhy? - My app necos Python38, foo b version 12, your server has Python 3.9, 36, 312 and doosn't have foo Rd. Packago sn opp's dependancios along wth ks coro business logic Run, arbarsr.. Containers: Why? And What?: 全\nContainers: Security Story\nAfter al Containers run as native processos on iop of tha kernel Any malcious or buggy procest can attack the kemel and gain root Once t becomes root it can do'sriythirg d want.\nContainers: Sandboxing\n:JaT containers by rostricting CAPabitos and syscias they can cal Reduce attack surface Con rostrict thg anack surtace by restricting the Unux CAPabltios atowed to a process such as..\nContainers Virtualization.\nVintusHzation provdes another primaivo to run arbitrary code on your mochlnos Esch Vu has rts own guest user space and guest kerme, Doesn't drocty stsck the host kern\nKvm - Hypevisor In the form of a kernet mnodule that leverages VT-x to run swich CPU context and run VMs Vmu - Taks to kvm to spawn VMs and aso manaes emtuated Linux Virtualization",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1878.75
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Arrakis: A Quick Tour Of Linux Sandboxing\nLinux Execution Modei\nA Thread ls the smabest unn of execution. Each Thead has a task struct that's n the Scheduier run queue. Process\" conssts of matiple thyeads, Treads\" In a process have differeni T..\nWhy? - My app necos Python38, foo b version 12, your server has Python 3.9, 36, 312 and doosn't have foo Rd. Packago sn opp's dependancios along wth ks coro business logic Run, arbarsr.. Containers: Why? And What?: 全\nContainers: Security Story\nAfter al Containers run as native processos on iop of tha kernel Any malcious or buggy procest can attack the kemel and gain root Once t becomes root it can do'sriythirg d want.\nContainers: Sandboxing\n:JaT containers by rostricting CAPabitos and syscias they can cal Reduce attack surface Con rostrict thg anack surtace by restricting the Unux CAPabltios atowed to a process such as..\nContainers Virtualization.\nVintusHzation provdes another primaivo to run arbitrary code on your mochlnos Esch Vu has rts own guest user space and guest kerme, Doesn't drocty stsck the host kern\nKvm - Hypevisor In the form of a kernet mnodule that leverages VT-x to run swich CPU context and run VMs Vmu - Taks to kvm to spawn VMs and aso manaes emtuated Linux Virtualization",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Process 1 Process.2 08x0 4u! xor. ebx, ebx\nIThread MThread\nioctl: Syscall Userspace\n/dev/kvm: /dev/sda1 Kernel (os)\nExecution model of a typical Linux System\n: A*Trread' Is the snaBost una of erecuton. Each -Thread' has a task struet that's n thio Schodutor run quoue..\n\"Processe consists of mutupie thresds. -Thresds\" n process huve different TDs but tame Pio, thare page tablo snd other th'ngs. Bound by shared resources Kermel provides prirtegeo' access to hardware. lf not gated, buggy or masclous code can wreak harroc.\nSpecisal nstructions to switeh to kernel mode / supervisor mode and lnvoke a syscal for prvteged sccess.:",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram plus small bullet text and code snippet; OCR is suitable for the detailed labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Process 1",
+            "x": 8.0,
+            "y": 3.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Process 2",
+            "x": 23.0,
+            "y": 3.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Thread",
+            "x": 10.0,
+            "y": 12.0,
+            "w": 7.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Thread",
+            "x": 25.0,
+            "y": 12.0,
+            "w": 7.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "ioctl",
+            "x": 12.0,
+            "y": 36.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "syscall",
+            "x": 28.0,
+            "y": 36.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "/dev/kvm",
+            "x": 6.0,
+            "y": 49.0,
+            "w": 11.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "/dev/sda1",
+            "x": 23.0,
+            "y": 49.0,
+            "w": 11.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace",
+            "x": 58.0,
+            "y": 26.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Kernel (OS)",
+            "x": 58.0,
+            "y": 55.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "xor ebx, ebx\nint 0x80",
+            "x": 43.0,
+            "y": 0,
+            "w": 18.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "Execution model of a typical Linux System",
+            "x": 18.0,
+            "y": 78.0,
+            "w": 40.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672883.8421438,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Process 1 Process.2 08x0 4u! xor. ebx, ebx\nIThread MThread\nioctl: Syscall Userspace\n/dev/kvm: /dev/sda1 Kernel (os)\nExecution model of a typical Linux System\n: A*Trread' Is the snaBost una of erecuton. Each -Thread' has a task struet that's n thio Schodutor run quoue..\n\"Processe consists of mutupie thresds. -Thresds\" n process huve different TDs but tame Pio, thare page tablo snd other th'ngs. Bound by shared resources Kermel provides prirtegeo' access to hardware. lf not gated, buggy or masclous code can wreak harroc.\nSpecisal nstructions to switeh to kernel mode / supervisor mode and lnvoke a syscal for prvteged sccess.:",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 984.56
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Process 1 Process.2 08x0 4u! xor. ebx, ebx\nIThread MThread\nioctl: Syscall Userspace\n/dev/kvm: /dev/sda1 Kernel (os)\nExecution model of a typical Linux System\n: A*Trread' Is the snaBost una of erecuton. Each -Thread' has a task struet that's n thio Schodutor run quoue..\n\"Processe consists of mutupie thresds. -Thresds\" n process huve different TDs but tame Pio, thare page tablo snd other th'ngs. Bound by shared resources Kermel provides prirtegeo' access to hardware. lf not gated, buggy or masclous code can wreak harroc.\nSpecisal nstructions to switeh to kernel mode / supervisor mode and lnvoke a syscal for prvteged sccess.:",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Containers: Why? And What?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple diagram with large labels; direct reading is enough and OCR is not necessary.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f4f4f4",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Containers: Why? And What?",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 32.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Container",
+            "x": 12.0,
+            "y": 12.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid Namespace",
+            "x": 18.0,
+            "y": 19.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 1",
+            "x": 22.0,
+            "y": 27.0,
+            "w": 8.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 2",
+            "x": 15.0,
+            "y": 43.0,
+            "w": 8.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 3",
+            "x": 26.0,
+            "y": 43.0,
+            "w": 8.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Mount Namespace",
+            "x": 18.0,
+            "y": 56.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "/foo",
+            "x": 18.0,
+            "y": 73.0,
+            "w": 8.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Parent Root Namespaces",
+            "x": 53.0,
+            "y": 10.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 1",
+            "x": 47.0,
+            "y": 12.0,
+            "w": 8.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 100",
+            "x": 51.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 101",
+            "x": 47.0,
+            "y": 44.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 102",
+            "x": 61.0,
+            "y": 44.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace",
+            "x": 58.0,
+            "y": 77.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Kernel",
+            "x": 58.0,
+            "y": 90.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672924.4510758,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Containers: Why? And What?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "100\nMount Namespace Pid Pid:101 Pid 102\n/foo:Userspace\nKerne!.\nLinux Container with Pid and Mount Namespace\nWhy? - My app needs Pyhon3.8, foo tb verslon 1.2, your server has Python 3.9, 3.6, 3.12 and doesnt have foo Eb.\nckage an spp' deperdenciet blong with itt core business logic:\nOn Linior' a Contairer is = Coatctoni of Nomespoces of diferent resources (Process, Mourit, Net etc.). Rur arbltrry uso code on your machhne nsixe a contalner you only ie resources hn your nrmespsce snd not ounside.\nResource siocation hsppens via CGroups (\"how much memory or Cpu to abocate ths namespoce??) Outide tho contther you soe ovoryhing insldo your chldren ramespacos?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Cropped continuation slide with small bullet text; OCR is appropriate for recovering the full content.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Mount Namespace",
+            "x": 19.0,
+            "y": 0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 2",
+            "x": 11.0,
+            "y": 10.0,
+            "w": 8.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 3",
+            "x": 24.0,
+            "y": 10.0,
+            "w": 8.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 100",
+            "x": 49.0,
+            "y": 0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 101",
+            "x": 46.0,
+            "y": 11.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid 102",
+            "x": 61.0,
+            "y": 11.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace",
+            "x": 58.0,
+            "y": 39.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Kernel",
+            "x": 58.0,
+            "y": 51.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Linux Container with Pid and Mount Namespace",
+            "x": 15.0,
+            "y": 73.0,
+            "w": 46.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672924.452032,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/opencv-adaptive",
+        "text": "100\nMount Namespace Pid Pid:101 Pid 102\n/foo:Userspace\nKerne!.\nLinux Container with Pid and Mount Namespace\nWhy? - My app needs Pyhon3.8, foo tb verslon 1.2, your server has Python 3.9, 3.6, 3.12 and doesnt have foo Eb.\nckage an spp' deperdenciet blong with itt core business logic:\nOn Linior' a Contairer is = Coatctoni of Nomespoces of diferent resources (Process, Mourit, Net etc.). Rur arbltrry uso code on your machhne nsixe a contalner you only ie resources hn your nrmespsce snd not ounside.\nResource siocation hsppens via CGroups (\"how much memory or Cpu to abocate ths namespoce??) Outide tho contther you soe ovoryhing insldo your chldren ramespacos?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1015.88
+      },
+      "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "100\nMount Namespace Pid Pid:101 Pid 102\n/foo:Userspace\nKerne!.\nLinux Container with Pid and Mount Namespace\nWhy? - My app needs Pyhon3.8, foo tb verslon 1.2, your server has Python 3.9, 3.6, 3.12 and doesnt have foo Eb.\nckage an spp' deperdenciet blong with itt core business logic:\nOn Linior' a Contairer is = Coatctoni of Nomespoces of diferent resources (Process, Mourit, Net etc.). Rur arbltrry uso code on your machhne nsixe a contalner you only ie resources hn your nrmespsce snd not ounside.\nResource siocation hsppens via CGroups (\"how much memory or Cpu to abocate ths namespoce??) Outide tho contther you soe ovoryhing insldo your chldren ramespacos?",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Container Pid Namespace Pid 1 Parent Root Namespaces\nPid 100 P!d\nPid 2 Mount Wamespace Pid 3 Pid 101 102 Pid\n/foo Userspace\nKernel\nLinux Container with Pid and Mount Wamespace",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with small handwritten labels and nested namespace structure.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f2f2f0",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram",
+            "text": "Container",
+            "x": 10.0,
+            "y": 7.0,
+            "w": 25.0,
+            "h": 55.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid Namespace",
+            "x": 16.0,
+            "y": 14.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Mount Namespace",
+            "x": 18.0,
+            "y": 43.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Parent Root Namespaces",
+            "x": 57.0,
+            "y": 4.0,
+            "w": 27.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace",
+            "x": 72.0,
+            "y": 66.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Kernel",
+            "x": 76.0,
+            "y": 91.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Linux Container with Pid and Mount Namespace",
+            "x": 21.0,
+            "y": 94.0,
+            "w": 46.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673050.0371208,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Linux Container with Pid and Mount Namespace",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Container Pid Namespace Pid 1 Parent Root Namespaces\nPid 100 P!d\nPid 2 Mount Wamespace Pid 3 Pid 101 102 Pid\n/foo Userspace\nKernel\nLinux Container with Pid and Mount Wamespace",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 295.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Container Pid Namespace Pid 1 Parent Root Namespaces\nPid 100 P!d\nPid 2 Mount Wamespace Pid 3 Pid 101 102 Pid\n/foo Userspace\nKernel\nLinux Container with Pid and Mount Wamespace",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Mount Namespace Pid 2 Pid. \"Pid 101 P!d. 102\n/foo.:Userspace\nKernel.\nLinux Container with Pid and Mount Namespace'\nIpp nhods Python3.8, foo Eb vorslon 1.2, your sorrer has Python 3.9, 3.6, 3.12 and dootn't havd foo ib.:\nkage an app's dependercles along wth hs core business logic:\nRun ar bltrary user code on your machine. On Lnunt s Container ks a Colecton of Nsmespsces of differont resources (Process, Mourit, Not otc.).\nnside a contahner you only see resources n jour namespace and not ouside..\nCucide the contener you see eveythhg nslde your chldren namespuces\nRtsource alocaicn hoppens via CGroups ('how much rmemory or CPu to sbocire thhs namespace?)\n.$..\nContminenk Securkty Story",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Cropped text-heavy slide with bullets and diagram labels suited for OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f2f2f0",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Linux Container with Pid and Mount Namespace",
+            "x": 18.0,
+            "y": 92.0,
+            "w": 44.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Why? - My app needs Python3.8, foo lib version 1.2, your server has Python 3.9, 3.6, 3.12 and doesn't have foo lib.",
+            "x": 2.0,
+            "y": 73.0,
+            "w": 86.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Package an app's dependencies along with its core business logic",
+            "x": 2.0,
+            "y": 79.0,
+            "w": 72.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Run arbitrary user code on your machine",
+            "x": 2.0,
+            "y": 84.0,
+            "w": 47.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "On Linux a Container is - Collection of Namespaces of different resources (Process, Mount, Net etc.).",
+            "x": 2.0,
+            "y": 88.0,
+            "w": 84.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Inside a container you only see resources in your namespace and not outside.",
+            "x": 2.0,
+            "y": 92.0,
+            "w": 84.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Outside the container you see everything inside your children namespaces",
+            "x": 2.0,
+            "y": 96.0,
+            "w": 82.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Resource allocation happens via CGroups (\"How much memory or CPU to allocate this namespace?\")",
+            "x": 2.0,
+            "y": 99.0,
+            "w": 88.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-014.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673078.7115045,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Linux Container with Pid and Mount Namespace",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Mount Namespace Pid 2 Pid. \"Pid 101 P!d. 102\n/foo.:Userspace\nKernel.\nLinux Container with Pid and Mount Namespace'\nIpp nhods Python3.8, foo Eb vorslon 1.2, your sorrer has Python 3.9, 3.6, 3.12 and dootn't havd foo ib.:\nkage an app's dependercles along wth hs core business logic:\nRun ar bltrary user code on your machine. On Lnunt s Container ks a Colecton of Nsmespsces of differont resources (Process, Mourit, Not otc.).\nnside a contahner you only see resources n jour namespace and not ouside..\nCucide the contener you see eveythhg nslde your chldren namespuces\nRtsource alocaicn hoppens via CGroups ('how much rmemory or CPu to sbocire thhs namespace?)\n.$..\nContminenk Securkty Story",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1055.28
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Mount Namespace Pid 2 Pid. \"Pid 101 P!d. 102\n/foo.:Userspace\nKernel.\nLinux Container with Pid and Mount Namespace'\nIpp nhods Python3.8, foo Eb vorslon 1.2, your sorrer has Python 3.9, 3.6, 3.12 and dootn't havd foo ib.:\nkage an app's dependercles along wth hs core business logic:\nRun ar bltrary user code on your machine. On Lnunt s Container ks a Colecton of Nsmespsces of differont resources (Process, Mourit, Not otc.).\nnside a contahner you only see resources n jour namespace and not ouside..\nCucide the contener you see eveythhg nslde your chldren namespuces\nRtsource alocaicn hoppens via CGroups ('how much rmemory or CPu to sbocire thhs namespace?)\n.$..\nContminenk Securkty Story",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Containers: Security Story\nRoot Namespace Userspace\nContainer\nMalicious or Buggy Process Pid Namespace Pid 100 Trusted Process:Pid: 200\n:'syscall ioctl Attack Surface Syscall: ioctl\nKernel:\nContainer processes can attack the kernel\nAter s Containers run ss nativo procosses on top ot thg kernel:\n.: Ary mallclous or buggy procass can attack the kerre and galn root..",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture/security diagram with labels and small bullets that OCR can read more reliably than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3f2ef",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Containers: Security Story",
+            "x": 2.0,
+            "y": 2.0,
+            "w": 36.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram",
+            "text": "Container",
+            "x": 6.0,
+            "y": 11.0,
+            "w": 28.0,
+            "h": 42.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Malicious or Buggy Process",
+            "x": 7.0,
+            "y": 27.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid Namespace",
+            "x": 14.0,
+            "y": 38.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Root Namespace",
+            "x": 38.0,
+            "y": 7.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace",
+            "x": 61.0,
+            "y": 7.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Trusted Process",
+            "x": 54.0,
+            "y": 33.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Attack Surface",
+            "x": 35.0,
+            "y": 66.0,
+            "w": 17.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Kernel",
+            "x": 60.0,
+            "y": 82.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Container processes can attack the kernel",
+            "x": 13.0,
+            "y": 93.0,
+            "w": 51.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-015.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673112.9739065,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Containers: Security Story",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Containers: Security Story\nRoot Namespace Userspace\nContainer\nMalicious or Buggy Process Pid Namespace Pid 100 Trusted Process:Pid: 200\n:'syscall ioctl Attack Surface Syscall: ioctl\nKernel:\nContainer processes can attack the kernel\nAter s Containers run ss nativo procosses on top ot thg kernel:\n.: Ary mallclous or buggy procass can attack the kerre and galn root..",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 568.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Containers: Security Story\nRoot Namespace Userspace\nContainer\nMalicious or Buggy Process Pid Namespace Pid 100 Trusted Process:Pid: 200\n:'syscall ioctl Attack Surface Syscall: ioctl\nKernel:\nContainer processes can attack the kernel\nAter s Containers run ss nativo procosses on top ot thg kernel:\n.: Ary mallclous or buggy procass can attack the kerre and galn root..",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Container Root Namespace Userspace\nMalicious or Buggy Process Pid Namespace: Pid 100 Trusted Process Pid: 200\nsyscall ioctl Attack Surface Syscall. ioct!.\nKernel\nContainer processes can attack the kernel\nAter s Containers run ss nstlve processes on top of the kernel'.\nAry malclous cr buggy process can atsck the kornel and gain rool.: 、\n+. Onco it becormes root k can do arything r warts..",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Same security diagram with additional bullets visible at the bottom; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3f2ef",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Containers: Security Story",
+            "x": 2.0,
+            "y": 2.0,
+            "w": 36.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram",
+            "text": "Container",
+            "x": 6.0,
+            "y": 11.0,
+            "w": 28.0,
+            "h": 42.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Malicious or Buggy Process",
+            "x": 7.0,
+            "y": 27.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid Namespace",
+            "x": 14.0,
+            "y": 38.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Root Namespace",
+            "x": 38.0,
+            "y": 7.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace",
+            "x": 61.0,
+            "y": 7.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Trusted Process",
+            "x": 54.0,
+            "y": 33.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Attack Surface",
+            "x": 35.0,
+            "y": 66.0,
+            "w": 17.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Kernel",
+            "x": 60.0,
+            "y": 82.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Container processes can attack the kernel",
+            "x": 13.0,
+            "y": 93.0,
+            "w": 51.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "After all Containers run as native processes on top of the kernel.",
+            "x": 3.0,
+            "y": 96.0,
+            "w": 74.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Any malicious or buggy process can attack the kernel and gain root.",
+            "x": 3.0,
+            "y": 99.0,
+            "w": 79.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Once it becomes root it can do anything it wants.",
+            "x": 3.0,
+            "y": 100,
+            "w": 56.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-016.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673131.5663304,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Containers: Security Story",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Container Root Namespace Userspace\nMalicious or Buggy Process Pid Namespace: Pid 100 Trusted Process Pid: 200\nsyscall ioctl Attack Surface Syscall. ioct!.\nKernel\nContainer processes can attack the kernel\nAter s Containers run ss nstlve processes on top of the kernel'.\nAry malclous cr buggy process can atsck the kornel and gain rool.: 、\n+. Onco it becormes root k can do arything r warts..",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 599.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Container Root Namespace Userspace\nMalicious or Buggy Process Pid Namespace: Pid 100 Trusted Process Pid: 200\nsyscall ioctl Attack Surface Syscall. ioct!.\nKernel\nContainer processes can attack the kernel\nAter s Containers run ss nstlve processes on top of the kernel'.\nAry malclous cr buggy process can atsck the kornel and gain rool.: 、\n+. Onco it becormes root k can do arything r warts..",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arrakis: A Quick Tour Of Linux Sandboxing:\nUnax Execution Model\nContainerte: Why? And What?'\nAinmCotL\nContainerr: Sardbadng\nora tuaai l iruao t\nContsinert - Vrtunzston\nUinn Vrtumizadon ：：\nK·hype\nHorestit morigred by fim turta vytes Shocat te dtir by yot: Orty mo Mleroyhs vs Traditoru Vms",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Agenda slide with multiple small section rows; OCR is the better extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4f4f2",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis: A Quick Tour Of Linux Sandboxing",
+            "x": 3.0,
+            "y": 3.0,
+            "w": 58.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Linux Execution Model",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 23.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Containers: Why? And What?",
+            "x": 4.0,
+            "y": 28.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Containers: Security Story",
+            "x": 4.0,
+            "y": 40.0,
+            "w": 27.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Containers: Sandboxing",
+            "x": 4.0,
+            "y": 52.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Containers → Virtualization",
+            "x": 4.0,
+            "y": 64.0,
+            "w": 25.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Linux Virtualization",
+            "x": 4.0,
+            "y": 76.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "MicroVMs vs Traditional VMs",
+            "x": 4.0,
+            "y": 88.0,
+            "w": 30.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-017.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673142.0205693,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Arrakis: A Quick Tour Of Linux Sandboxing",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Arrakis: A Quick Tour Of Linux Sandboxing:\nUnax Execution Model\nContainerte: Why? And What?'\nAinmCotL\nContainerr: Sardbadng\nora tuaai l iruao t\nContsinert - Vrtunzston\nUinn Vrtumizadon ：：\nK·hype\nHorestit morigred by fim turta vytes Shocat te dtir by yot: Orty mo Mleroyhs vs Traditoru Vms",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 480.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Arrakis: A Quick Tour Of Linux Sandboxing:\nUnax Execution Model\nContainerte: Why? And What?'\nAinmCotL\nContainerr: Sardbadng\nora tuaai l iruao t\nContsinert - Vrtunzston\nUinn Vrtumizadon ：：\nK·hype\nHorestit morigred by fim turta vytes Shocat te dtir by yot: Orty mo Mleroyhs vs Traditoru Vms",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "ontainers: Sandboxing\n: Joie containers by rosricting CAPsbuities and syscalls thay can cat\nRoduco attock surfsco\nUserspace\nRoot Namespace:\nMalicious or Buggy Process Container # minijail0 -s /usr/share/minijail0/$(uname -m)/cat.policy -\\ /bin/cat /proc/self/seccomp_filter\nPid Namespace Syscall ioctl mmap2: arg2. =a 0x0 munmap: 1 8h07 == 1640 11 9182 == 1640 11 0 == 16xo 11 89172 == 1640 u2do close: 1 # open with O LARGEFILEjO_RDONLYlO_NONBLOcK or some combination.\nReduce attack surface by using seccomp filters'\nCon resirfct the stuock surface by restrkcting tho Lirunc CAPsbiltos sowed to a procos such as CAP_NET, CAP.SYS_ ADMIN etc.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code-and-policy slide with small text and command snippets that OCR can capture more accurately.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f5f4f0",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Containers: Sandboxing",
+            "x": 1.0,
+            "y": 1.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "\"Jail\" containers by restricting CAPabilities and syscalls they can call",
+            "x": 2.0,
+            "y": 8.0,
+            "w": 46.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Reduce attack surface",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "code",
+            "text": "# minijail0 -S /usr/share/minijail0/${uname -m}/cat.policy -- \\\n/bin/cat /proc/self/seccomp_filter",
+            "x": 34.0,
+            "y": 16.0,
+            "w": 56.0,
+            "h": 16.0
+          },
+          {
+            "role": "code",
+            "text": "# open with O_LARGEFILE|O_RDONLY|O_NONBLOCK or some combination.",
+            "x": 36.0,
+            "y": 36.0,
+            "w": 53.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "open: arg1 == 32768 || arg1 == 0 || arg1 == 34816 || arg1 == 2048",
+            "x": 36.0,
+            "y": 42.0,
+            "w": 57.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "mmap2: arg2 == 0x0",
+            "x": 36.0,
+            "y": 49.0,
+            "w": 20.0,
+            "h": 4.0
+          },
+          {
+            "role": "code",
+            "text": "munmap: 1",
+            "x": 36.0,
+            "y": 55.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "code",
+            "text": "close: 1",
+            "x": 36.0,
+            "y": 60.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Reduce attack surface by using seccomp filters",
+            "x": 20.0,
+            "y": 93.0,
+            "w": 53.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-018.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673153.7301824,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Containers: Sandboxing",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "ontainers: Sandboxing\n: Joie containers by rosricting CAPsbuities and syscalls thay can cat\nRoduco attock surfsco\nUserspace\nRoot Namespace:\nMalicious or Buggy Process Container # minijail0 -s /usr/share/minijail0/$(uname -m)/cat.policy -\\ /bin/cat /proc/self/seccomp_filter\nPid Namespace Syscall ioctl mmap2: arg2. =a 0x0 munmap: 1 8h07 == 1640 11 9182 == 1640 11 0 == 16xo 11 89172 == 1640 u2do close: 1 # open with O LARGEFILEjO_RDONLYlO_NONBLOcK or some combination.\nReduce attack surface by using seccomp filters'\nCon resirfct the stuock surface by restrkcting tho Lirunc CAPsbiltos sowed to a procos such as CAP_NET, CAP.SYS_ ADMIN etc.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 816.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "ontainers: Sandboxing\n: Joie containers by rosricting CAPsbuities and syscalls thay can cat\nRoduco attock surfsco\nUserspace\nRoot Namespace:\nMalicious or Buggy Process Container # minijail0 -s /usr/share/minijail0/$(uname -m)/cat.policy -\\ /bin/cat /proc/self/seccomp_filter\nPid Namespace Syscall ioctl mmap2: arg2. =a 0x0 munmap: 1 8h07 == 1640 11 9182 == 1640 11 0 == 16xo 11 89172 == 1640 u2do close: 1 # open with O LARGEFILEjO_RDONLYlO_NONBLOcK or some combination.\nReduce attack surface by using seccomp filters'\nCon resirfct the stuock surface by restrkcting tho Lirunc CAPsbiltos sowed to a procos such as CAP_NET, CAP.SYS_ ADMIN etc.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Userspace\nRoot Namespace\nMalicious'or Buggy Process Container # minijailo -S /usr/share/minijailo/$(uname -m)/cat.policy --\\ /bin/cat /eroc/self/seccomp_filter\nPid Namespace: Syscall. P!d ioctl. mmap2:arg2 == 0x0 open: arg1 == 32768 Il arg1 == 0 Il arg1 == 34816 Il arg1 == 2048 L:dowunm # open with O_LARGEFILEIO_RDONLYlO_NOvBLOck or some combination. close: 1\n:Kernel.\nReduce attack surface by using seccomp filters\nCan restrlct thie attack surface by restrictlng the Lirux CAPabaltes atowed to a process such ss CAP_NET, CAP_SYS_ADMN etc.\n: These controt whst syscots a process cani call:: Slmlarty vre can uso seccomp frers to rostict what syscats a procoss can coll\n'Minleil' developed by ChrcmeOs provdes an easy lrerface lo do boh.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram labels and small policy text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3f3f3",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Container",
+            "x": 5.0,
+            "y": 16.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Malicious or Buggy Process",
+            "x": 5.0,
+            "y": 25.0,
+            "w": 28.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pid Namespace",
+            "x": 7.0,
+            "y": 37.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace",
+            "x": 84.0,
+            "y": 4.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Root Namespace",
+            "x": 81.0,
+            "y": 9.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Reduce attack surface by using seccomp filters",
+            "x": 25.0,
+            "y": 88.0,
+            "w": 47.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-019.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673283.6792848,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Reduce attack surface by using seccomp filters",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Userspace\nRoot Namespace\nMalicious'or Buggy Process Container # minijailo -S /usr/share/minijailo/$(uname -m)/cat.policy --\\ /bin/cat /eroc/self/seccomp_filter\nPid Namespace: Syscall. P!d ioctl. mmap2:arg2 == 0x0 open: arg1 == 32768 Il arg1 == 0 Il arg1 == 34816 Il arg1 == 2048 L:dowunm # open with O_LARGEFILEIO_RDONLYlO_NOvBLOck or some combination. close: 1\n:Kernel.\nReduce attack surface by using seccomp filters\nCan restrlct thie attack surface by restrictlng the Lirux CAPabaltes atowed to a process such ss CAP_NET, CAP_SYS_ADMN etc.\n: These controt whst syscots a process cani call:: Slmlarty vre can uso seccomp frers to rostict what syscats a procoss can coll\n'Minleil' developed by ChrcmeOs provdes an easy lrerface lo do boh.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 951.64
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Userspace\nRoot Namespace\nMalicious'or Buggy Process Container # minijailo -S /usr/share/minijailo/$(uname -m)/cat.policy --\\ /bin/cat /eroc/self/seccomp_filter\nPid Namespace: Syscall. P!d ioctl. mmap2:arg2 == 0x0 open: arg1 == 32768 Il arg1 == 0 Il arg1 == 34816 Il arg1 == 2048 L:dowunm # open with O_LARGEFILEIO_RDONLYlO_NOvBLOck or some combination. close: 1\n:Kernel.\nReduce attack surface by using seccomp filters\nCan restrlct thie attack surface by restrictlng the Lirux CAPabaltes atowed to a process such ss CAP_NET, CAP_SYS_ADMN etc.\n: These controt whst syscots a process cani call:: Slmlarty vre can uso seccomp frers to rostict what syscats a procoss can coll\n'Minleil' developed by ChrcmeOs provdes an easy lrerface lo do boh.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Containers → Virtualization",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small bullets and multiple diagram labels are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f5f5f5",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Containers → Virtualization",
+            "x": 2.0,
+            "y": 5.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Container",
+            "x": 5.0,
+            "y": 19.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Virtual Machine",
+            "x": 24.0,
+            "y": 19.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Host Userspace",
+            "x": 18.0,
+            "y": 10.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Guest Userspace",
+            "x": 28.0,
+            "y": 47.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Host Kernel",
+            "x": 55.0,
+            "y": 58.0,
+            "w": 15.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-020.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673320.979529,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Containers → Virtualization",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 416.52,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0027
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-020.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Virtual Machine P2 Host Userspace Virtual Machine Monitor (vMA) (qenu / crosvm / firecracker) Create VM Host: Some chent On:\nGuest Userspace\" P3. running.: the vM Thread:\nvirtio\nnet driver. block driver Block Device Net Device'\nGuest Kernel. VMRESUAE VMEXIT\nHypervisor /dev/kvn Host Kernel\nLinux Virtualization: Key Components.\n:: Kym - Hypervisor in the form of a keme module that haveraget VT-x to run tirach CPU contoxt and run VM!..\nVMm - Tatka to kvm to spaum Vmt and atso riansges omubhed davicos that servo VM requoss.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture diagram with small labels and notes.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4f4f4",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Linux Virtualization: Key Components",
+            "x": 29.0,
+            "y": 90.0,
+            "w": 38.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Virtual Machine",
+            "x": 9.0,
+            "y": 4.0,
+            "w": 19.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Virtual Machine Monitor (VMM) (qemu / crosvm / Firecracker)",
+            "x": 51.0,
+            "y": 5.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Guest Userspace",
+            "x": 20.0,
+            "y": 39.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Guest Kernel",
+            "x": 20.0,
+            "y": 58.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Host Kernel",
+            "x": 79.0,
+            "y": 58.0,
+            "w": 12.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-021.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673336.3202012,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Linux Virtualization: Key Components",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Virtual Machine P2 Host Userspace Virtual Machine Monitor (vMA) (qenu / crosvm / firecracker) Create VM Host: Some chent On:\nGuest Userspace\" P3. running.: the vM Thread:\nvirtio\nnet driver. block driver Block Device Net Device'\nGuest Kernel. VMRESUAE VMEXIT\nHypervisor /dev/kvn Host Kernel\nLinux Virtualization: Key Components.\n:: Kym - Hypervisor in the form of a keme module that haveraget VT-x to run tirach CPU contoxt and run VM!..\nVMm - Tatka to kvm to spaum Vmt and atso riansges omubhed davicos that servo VM requoss.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 831.96
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Virtual Machine P2 Host Userspace Virtual Machine Monitor (vMA) (qenu / crosvm / firecracker) Create VM Host: Some chent On:\nGuest Userspace\" P3. running.: the vM Thread:\nvirtio\nnet driver. block driver Block Device Net Device'\nGuest Kernel. VMRESUAE VMEXIT\nHypervisor /dev/kvn Host Kernel\nLinux Virtualization: Key Components.\n:: Kym - Hypervisor in the form of a keme module that haveraget VT-x to run tirach CPU contoxt and run VM!..\nVMm - Tatka to kvm to spaum Vmt and atso riansges omubhed davicos that servo VM requoss.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-021.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "P2 frtual Machine Monitor (VMM) / crosvm / firecracker) Create VM\nGuest Userspace: P3: the VM running Thread\nnet driver: block driver Bock Device Net Device\n. Guest Kernel VNRESUAE VMEXIT\n: Hypervisor.: /dev/kvm.... Host Kernel.\nLinux Virtualization: Key Components.\n. To chents VhM tread Is blocked snd rns as *guest VMr, When VM needs soring ft eouts cut via VMEXITS and se sevced snd VAREsUMED. Vum - Tatks to kum io sparn Vms and atso manages erutated devices that serve VM requests Ksm - Hypervisor in the form of a kenol modulo thiat hrverages VT-x to run swich CpU context and rn VMs':\nVMEXITS and VhRESUMES are exptrsre, W/e thould try to rminlmlre them",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Continuation of the virtualization diagram with dense small text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4f4f4",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Linux Virtualization: Key Components",
+            "x": 29.0,
+            "y": 90.0,
+            "w": 38.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Virtual Machine Monitor (VMM) (qemu / crosvm / Firecracker)",
+            "x": 49.0,
+            "y": 1.0,
+            "w": 30.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Guest Userspace",
+            "x": 20.0,
+            "y": 39.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Block Device",
+            "x": 48.0,
+            "y": 38.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Net Device",
+            "x": 68.0,
+            "y": 38.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Host Kernel",
+            "x": 79.0,
+            "y": 58.0,
+            "w": 12.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-022.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-022.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673360.2567148,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Linux Virtualization: Key Components",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "P2 frtual Machine Monitor (VMM) / crosvm / firecracker) Create VM\nGuest Userspace: P3: the VM running Thread\nnet driver: block driver Bock Device Net Device\n. Guest Kernel VNRESUAE VMEXIT\n: Hypervisor.: /dev/kvm.... Host Kernel.\nLinux Virtualization: Key Components.\n. To chents VhM tread Is blocked snd rns as *guest VMr, When VM needs soring ft eouts cut via VMEXITS and se sevced snd VAREsUMED. Vum - Tatks to kum io sparn Vms and atso manages erutated devices that serve VM requests Ksm - Hypervisor in the form of a kenol modulo thiat hrverages VT-x to run swich CpU context and rn VMs':\nVMEXITS and VhRESUMES are exptrsre, W/e thould try to rminlmlre them",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1058.56
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "P2 frtual Machine Monitor (VMM) / crosvm / firecracker) Create VM\nGuest Userspace: P3: the VM running Thread\nnet driver: block driver Bock Device Net Device\n. Guest Kernel VNRESUAE VMEXIT\n: Hypervisor.: /dev/kvm.... Host Kernel.\nLinux Virtualization: Key Components.\n. To chents VhM tread Is blocked snd rns as *guest VMr, When VM needs soring ft eouts cut via VMEXITS and se sevced snd VAREsUMED. Vum - Tatks to kum io sparn Vms and atso manages erutated devices that serve VM requests Ksm - Hypervisor in the form of a kenol modulo thiat hrverages VT-x to run swich CpU context and rn VMs':\nVMEXITS and VhRESUMES are exptrsre, W/e thould try to rminlmlre them",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-022.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "MicroVMs vs Traditional VMs\nHEcrovMs powerod by Rust based VhMs\nSandboxing Emulated Devices.\n[emu; Jailed Architecture crosvm\nBlock Net\nNet'\n1\nSeccomg Seccow\nAou Aq nso eg pnous\n: 1. Onty msjor archtecturos and emulated devicos supported\nLoss code paths -) Boots Fast.\n:.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram plus small bullets; OCR will likely outperform direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f5f5f5",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "MicroVMs vs Traditional VMs",
+            "x": 2.0,
+            "y": 5.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Sandboxing Emulated Devices",
+            "x": 25.0,
+            "y": 17.0,
+            "w": 30.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "qemu",
+            "x": 10.0,
+            "y": 30.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "crosvm",
+            "x": 61.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Block",
+            "x": 6.0,
+            "y": 66.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Net",
+            "x": 16.0,
+            "y": 66.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-023.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-023.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673389.467316,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "MicroVMs vs Traditional VMs",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "MicroVMs vs Traditional VMs\nHEcrovMs powerod by Rust based VhMs\nSandboxing Emulated Devices.\n[emu; Jailed Architecture crosvm\nBlock Net\nNet'\n1\nSeccomg Seccow\nAou Aq nso eg pnous\n: 1. Onty msjor archtecturos and emulated devicos supported\nLoss code paths -) Boots Fast.\n:.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 470.8
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "MicroVMs vs Traditional VMs\nHEcrovMs powerod by Rust based VhMs\nSandboxing Emulated Devices.\n[emu; Jailed Architecture crosvm\nBlock Net\nNet'\n1\nSeccomg Seccow\nAou Aq nso eg pnous\n: 1. Onty msjor archtecturos and emulated devicos supported\nLoss code paths -) Boots Fast.\n:.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-023.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "MicroyMs powered by Rust based VhiMs\nSandboxing Emulated Devices:\n: qemu: Jailed Architecture crosvm\nBlock Net\nBlock Net:\nMimi Seccomp Minijail. (seccomp)\n: Shouid bo cloor by now' *\nOnty major archhectures snd emulated derces supported\n2. Less blost -> smaber memory footprint vs trscions! VhuMs. 3. Microvu' - Roflocton of the VuM rathor than the running guost, Less code paths -> Boots Fast",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Same slide family with small bullets and architecture labels.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f5f5f5",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "MicroVMs vs Traditional VMs",
+            "x": 2.0,
+            "y": 5.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Sandboxing Emulated Devices",
+            "x": 25.0,
+            "y": 17.0,
+            "w": 30.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "qemu",
+            "x": 10.0,
+            "y": 30.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "crosvm",
+            "x": 61.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Minijail (seccomp)",
+            "x": 48.0,
+            "y": 66.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Minijail (seccomp)",
+            "x": 71.0,
+            "y": 66.0,
+            "w": 14.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-024.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-024.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673405.4580312,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "MicroVMs vs Traditional VMs",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "MicroyMs powered by Rust based VhiMs\nSandboxing Emulated Devices:\n: qemu: Jailed Architecture crosvm\nBlock Net\nBlock Net:\nMimi Seccomp Minijail. (seccomp)\n: Shouid bo cloor by now' *\nOnty major archhectures snd emulated derces supported\n2. Less blost -> smaber memory footprint vs trscions! VhuMs. 3. Microvu' - Roflocton of the VuM rathor than the running guost, Less code paths -> Boots Fast",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 638.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "MicroyMs powered by Rust based VhiMs\nSandboxing Emulated Devices:\n: qemu: Jailed Architecture crosvm\nBlock Net\nBlock Net:\nMimi Seccomp Minijail. (seccomp)\n: Shouid bo cloor by now' *\nOnty major archhectures snd emulated derces supported\n2. Less blost -> smaber memory footprint vs trscions! VhuMs. 3. Microvu' - Roflocton of the VuM rathor than the running guost, Less code paths -> Boots Fast",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-024.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "sowg xooq itey' -': Fast snapshots - Just cump the entire guest memory': -': cioud-hypervsor isn't at the wti'm of Amszon's Frecracker.. Securty as the flrst parameter since mukd-tenant code eoxiecution in m'nd o Had hotphugging and snapshot restora when Arakds started\ngVhscr possbty a good in-betwaen cption betweon Contairers and MleroyMs.\nBared on the stcurty gueranees noeded:--、：\nBase Project crosvm Desktop focused\nFork Fork\nfirecracker cloud-hypervisor.\n- Serverless loads: - VM Manager daemon - AwS Lambda out of the box. -. Hotplugging devices -. More general Huoddns Ndy - - Snapshot support purpose enterprise VMM",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense bullet text and a central architecture diagram are better handled by OCR than manual transcription in this triage pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis: MicroVM Runtime",
+            "x": 4.0,
+            "y": 1.0,
+            "w": 42.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Security as the first parameter since multi-tenant code execution in mind\nFast boot times\nFast snapshots -> Just dump the entire guest memory\ncloud-hypervisor isn't at the whim of Amazon's Firecracker.\nHad hotplugging and snapshot restore when Arrakis started\ngVisor possibly a good in-between option between Containers and MicroVMs\nBased on the security guarantees needed",
+            "x": 4.0,
+            "y": 8.0,
+            "w": 47.0,
+            "h": 32.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Base Project\ncrosvm\nDesktop focused",
+            "x": 22.0,
+            "y": 32.0,
+            "w": 22.0,
+            "h": 16.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "firecracker",
+            "x": 5.0,
+            "y": 57.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "cloud-hypervisor",
+            "x": 37.0,
+            "y": 57.0,
+            "w": 24.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-025.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-025.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673545.1034,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Arrakis: MicroVM Runtime",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "sowg xooq itey' -': Fast snapshots - Just cump the entire guest memory': -': cioud-hypervsor isn't at the wti'm of Amszon's Frecracker.. Securty as the flrst parameter since mukd-tenant code eoxiecution in m'nd o Had hotphugging and snapshot restora when Arakds started\ngVhscr possbty a good in-betwaen cption betweon Contairers and MleroyMs.\nBared on the stcurty gueranees noeded:--、：\nBase Project crosvm Desktop focused\nFork Fork\nfirecracker cloud-hypervisor.\n- Serverless loads: - VM Manager daemon - AwS Lambda out of the box. -. Hotplugging devices -. More general Huoddns Ndy - - Snapshot support purpose enterprise VMM",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 937.04
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "sowg xooq itey' -': Fast snapshots - Just cump the entire guest memory': -': cioud-hypervsor isn't at the wti'm of Amszon's Frecracker.. Securty as the flrst parameter since mukd-tenant code eoxiecution in m'nd o Had hotphugging and snapshot restora when Arakds started\ngVhscr possbty a good in-betwaen cption betweon Contairers and MleroyMs.\nBared on the stcurty gueranees noeded:--、：\nBase Project crosvm Desktop focused\nFork Fork\nfirecracker cloud-hypervisor.\n- Serverless loads: - VM Manager daemon - AwS Lambda out of the box. -. Hotplugging devices -. More general Huoddns Ndy - - Snapshot support purpose enterprise VMM",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-025.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arrakis MicroVM Runtime\nLinux Server\narrakis-py-sdk REST API Arrakis Restserver\nREST API\narrakis-client cloud-hypervisor process cloud-hypervisor process\nVNC Server Code Server VNC Server Code Server\nArrakis MicroVM Sandbox Arrakis MicroVM Sandbox\nUserspace\nKernel /dev/kve /dev/kvm",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture diagram with many small labels is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis MicroVM Runtime",
+            "x": 36.0,
+            "y": 4.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "arrakis-py-sdk\narrakis-client\nREST API",
+            "x": 3.0,
+            "y": 17.0,
+            "w": 19.0,
+            "h": 33.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis Restserver",
+            "x": 56.0,
+            "y": 14.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "cloud-hypervisor process\nVMC Server\nCode Server\nArrakis MicroVM Sandbox",
+            "x": 39.0,
+            "y": 31.0,
+            "w": 24.0,
+            "h": 32.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "cloud-hypervisor process\nVMC Server\nCode Server\nArrakis MicroVM Sandbox",
+            "x": 72.0,
+            "y": 31.0,
+            "w": 24.0,
+            "h": 32.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace\nKernel\n/dev/kvm",
+            "x": 27.0,
+            "y": 74.0,
+            "w": 47.0,
+            "h": 20.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-026.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-026.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673553.244068,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Arrakis MicroVM Runtime",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Arrakis MicroVM Runtime\nLinux Server\narrakis-py-sdk REST API Arrakis Restserver\nREST API\narrakis-client cloud-hypervisor process cloud-hypervisor process\nVNC Server Code Server VNC Server Code Server\nArrakis MicroVM Sandbox Arrakis MicroVM Sandbox\nUserspace\nKernel /dev/kve /dev/kvm",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 414.68
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Arrakis MicroVM Runtime\nLinux Server\narrakis-py-sdk REST API Arrakis Restserver\nREST API\narrakis-client cloud-hypervisor process cloud-hypervisor process\nVNC Server Code Server VNC Server Code Server\nArrakis MicroVM Sandbox Arrakis MicroVM Sandbox\nUserspace\nKernel /dev/kve /dev/kvm",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-026.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arrakis: Storage Using OverlayFS\nOverlayFs To. Protect The Rootfs Of Each Sandbox.\n..Arakis Sandbox. Is /usr/bin' Arrakis Sandbox' Is /usr/bin\nUerspace Userspact\nr overlayfs /usr/in/k riv overloryfs. Tusr/bin/e..\nro rootfs /ar/in/a: ro rcotfs Tusr/bin/a\nKerre! Kerre!\n: Shared Rootfs ext9 Lnage\nEach sandbox with it's own Rw layer: and a shared RO layer.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with labels and explanatory text is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis: Storage Using OverlayFS",
+            "x": 3.0,
+            "y": 1.0,
+            "w": 46.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "OverlayFS To Protect The Rootfs Of Each Sandbox",
+            "x": 4.0,
+            "y": 8.0,
+            "w": 48.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis Sandbox\nls /usr/bin\nUserspace\nrw overlayfs\nro rootfs\nKernel",
+            "x": 4.0,
+            "y": 17.0,
+            "w": 24.0,
+            "h": 42.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis Sandbox\nls /usr/bin\nUserspace\nrw overlayfs\nro rootfs\nKernel",
+            "x": 28.0,
+            "y": 17.0,
+            "w": 24.0,
+            "h": 42.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Shared Rootfs ext4 image",
+            "x": 34.0,
+            "y": 58.0,
+            "w": 23.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Each sandbox with it's own RW layer and a shared RO layer",
+            "x": 21.0,
+            "y": 83.0,
+            "w": 42.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-027.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-027.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673559.2926867,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Arrakis: Storage Using OverlayFS",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/opencv-adaptive",
+        "text": "Arrakis: Storage Using OverlayFS\nOverlayFs To. Protect The Rootfs Of Each Sandbox.\n..Arakis Sandbox. Is /usr/bin' Arrakis Sandbox' Is /usr/bin\nUerspace Userspact\nr overlayfs /usr/in/k riv overloryfs. Tusr/bin/e..\nro rootfs /ar/in/a: ro rcotfs Tusr/bin/a\nKerre! Kerre!\n: Shared Rootfs ext9 Lnage\nEach sandbox with it's own Rw layer: and a shared RO layer.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 534.28
+      },
+      "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Arrakis: Storage Using OverlayFS\nOverlayFs To. Protect The Rootfs Of Each Sandbox.\n..Arakis Sandbox. Is /usr/bin' Arrakis Sandbox' Is /usr/bin\nUerspace Userspact\nr overlayfs /usr/in/k riv overloryfs. Tusr/bin/e..\nro rootfs /ar/in/a: ro rcotfs Tusr/bin/a\nKerre! Kerre!\n: Shared Rootfs ext9 Lnage\nEach sandbox with it's own Rw layer: and a shared RO layer.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-027.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "niasabeigis:siyr\nAssoon asweboot a sandbox,\"initinsidesetsup the overlayfs as detailedbelow.\n/bin/busybox mkdir -p $[NEWROOT} /bin/busybox mkdir-p ${woRk} echo\"Creating upper and work directories in SwRITABLE Rw\" /bin/busybox mkdir -p ${UPPER} /bin/busybox mkdir -p ${NEWROOT_LOWER_RO}\n/bin/busyboxmkdir-p ${NEWROOT_WRITABLE_RW]\necho“Mountingoverlayfsto $NEWRooT\" SINEWROOT} if[$？-neO ];then /bin/busybox mount-t overlay overlay -o lowerdir=${LOwER_RO},upperdir=${UPPER},workdir=$[wORK} exec /bin/busybox sh# Drop to shell for debugging echo\"Error mounting overlayfs!\"\nelse return1 echo \"Overlayfs mounted successfully.\"\nfi",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code-heavy setup slide is best handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4ecd6",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis: Storage Setup",
+            "x": 3.0,
+            "y": 1.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "As soon as we boot a sandbox, \"init\" inside sets up the overlayfs as detailed below.",
+            "x": 4.0,
+            "y": 8.0,
+            "w": 60.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "echo \"Creating upper and work directories in $WRITABLE_RW\"\n/bin/busybox mkdir -p ${UPPER}\n/bin/busybox mkdir -p ${WORK}\n/bin/busybox mkdir -p ${NEWROOT}",
+            "x": 10.0,
+            "y": 20.0,
+            "w": 79.0,
+            "h": 55.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-028.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-028.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673568.2561426,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Arrakis: Storage Setup",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "niasabeigis:siyr\nAssoon asweboot a sandbox,\"initinsidesetsup the overlayfs as detailedbelow.\n/bin/busybox mkdir -p $[NEWROOT} /bin/busybox mkdir-p ${woRk} echo\"Creating upper and work directories in SwRITABLE Rw\" /bin/busybox mkdir -p ${UPPER} /bin/busybox mkdir -p ${NEWROOT_LOWER_RO}\n/bin/busyboxmkdir-p ${NEWROOT_WRITABLE_RW]\necho“Mountingoverlayfsto $NEWRooT\" SINEWROOT} if[$？-neO ];then /bin/busybox mount-t overlay overlay -o lowerdir=${LOwER_RO},upperdir=${UPPER},workdir=$[wORK} exec /bin/busybox sh# Drop to shell for debugging echo\"Error mounting overlayfs!\"\nelse return1 echo \"Overlayfs mounted successfully.\"\nfi",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 726.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "niasabeigis:siyr\nAssoon asweboot a sandbox,\"initinsidesetsup the overlayfs as detailedbelow.\n/bin/busybox mkdir -p $[NEWROOT} /bin/busybox mkdir-p ${woRk} echo\"Creating upper and work directories in SwRITABLE Rw\" /bin/busybox mkdir -p ${UPPER} /bin/busybox mkdir -p ${NEWROOT_LOWER_RO}\n/bin/busyboxmkdir-p ${NEWROOT_WRITABLE_RW]\necho“Mountingoverlayfsto $NEWRooT\" SINEWROOT} if[$？-neO ];then /bin/busybox mount-t overlay overlay -o lowerdir=${LOwER_RO},upperdir=${UPPER},workdir=$[wORK} exec /bin/busybox sh# Drop to shell for debugging echo\"Error mounting overlayfs!\"\nelse return1 echo \"Overlayfs mounted successfully.\"\nfi",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-028.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.89,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "vNc Server: rans apoy: vvc Server Code Server.\nArrakis MicroVM Sandbox: Arrakis MicroVM Sandbox:\nCloud-Hypervisor Process cloud-Hypervisor Process:\nDisk Device\nPer Va Rw. Layer Per vn Rw Layer\nUserspace Base Read-Only Rootfs\nKernel. /dev/kvn:: /dev/vm",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Cropped architecture diagram with repeated labels is OCR-suitable, but there is no clear title visible in this frame.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Arrakis MicroVM Sandbox",
+            "x": 19.0,
+            "y": 0,
+            "w": 26.0,
+            "h": 22.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "cloud-hypervisor Process\nDisk Device",
+            "x": 18.0,
+            "y": 26.0,
+            "w": 24.0,
+            "h": 20.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Per VM RW Layer",
+            "x": 30.0,
+            "y": 48.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Base Read-Only Rootfs",
+            "x": 33.0,
+            "y": 56.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace\nKernel\n/dev/kvm",
+            "x": 3.0,
+            "y": 74.0,
+            "w": 33.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-029.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-029.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673581.4511998,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "vNc Server: rans apoy: vvc Server Code Server.\nArrakis MicroVM Sandbox: Arrakis MicroVM Sandbox:\nCloud-Hypervisor Process cloud-Hypervisor Process:\nDisk Device\nPer Va Rw. Layer Per vn Rw Layer\nUserspace Base Read-Only Rootfs\nKernel. /dev/kvn:: /dev/vm",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 403.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "vNc Server: rans apoy: vvc Server Code Server.\nArrakis MicroVM Sandbox: Arrakis MicroVM Sandbox:\nCloud-Hypervisor Process cloud-Hypervisor Process:\nDisk Device\nPer Va Rw. Layer Per vn Rw Layer\nUserspace Base Read-Only Rootfs\nKernel. /dev/kvn:: /dev/vm",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-029.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arrakis: Networking\n1. Tap Devices: Each sandbox gets a unique tap network device\n2. Linux Bridge: All tap devices are connected to a Linux bridge on the host\n3. Port Forwarding: Automatic port forwarding from the host to the sandbox",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "The title and bullets are large enough to read directly; OCR is not necessary for this simple slide.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis: Networking",
+            "x": 3.0,
+            "y": 1.0,
+            "w": 26.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Each sandbox in Arrakis runs in a MicroVM (virtual machine) with its own isolated networking. The networking setup uses a combination of:",
+            "x": 3.0,
+            "y": 8.0,
+            "w": 62.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1. Tap Devices: Each sandbox gets a unique tap network device\n2. Linux Bridge: All tap devices are connected to a Linux bridge on the host\n3. Port Forwarding: Automatic port forwarding from the host to the sandbox",
+            "x": 3.0,
+            "y": 16.0,
+            "w": 54.0,
+            "h": 20.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis Guest\nCode\nVNC\nLinux Bridge br0\ntap\ncloud-hypervisor VMM process\nArrakis Server\nUserspace\nKernel",
+            "x": 37.0,
+            "y": 24.0,
+            "w": 29.0,
+            "h": 56.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-030.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-030.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673588.818412,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Arrakis: Networking\n1. Tap Devices: Each sandbox gets a unique tap network device\n2. Linux Bridge: All tap devices are connected to a Linux bridge on the host\n3. Port Forwarding: Automatic port forwarding from the host to the sandbox",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-030.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code slide with small text and comments; OCR should read it better than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "// setupBridgeAndFirewall sets up a bridge and firewall rules for the given bridge name, IP\naddress, and subnet.\nfunc setupBridgeAndFirewall(",
+            "x": 8.0,
+            "y": 10.0,
+            "w": 84.0,
+            "h": 22.0
+          },
+          {
+            "role": "code",
+            "text": "// Setup bridge and firewall rules\ncommands := []struct {",
+            "x": 12.0,
+            "y": 28.0,
+            "w": 38.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-031.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-031.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673697.9531472,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 653.96,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0481
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-031.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code slide with small text and command arrays; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "// Setup bridge and firewall rules\ncommands := []struct {\nname string\nargs []string",
+            "x": 10.0,
+            "y": 12.0,
+            "w": 44.0,
+            "h": 22.0
+          },
+          {
+            "role": "code",
+            "text": "{\"ip\", []string{\"l\", \"add\", bridgeName, \"type\", \"bridge\"}},\n{\"ip\", []string{\"l\", \"set\", bridgeName, \"up\"}},\n{\"ip\", []string{\"a\", \"add\", bridgeIP, \"dev\", bridgeName, \"scope\", \"host\"}},",
+            "x": 10.0,
+            "y": 33.0,
+            "w": 78.0,
+            "h": 24.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-032.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-032.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673711.7987885,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 574.72,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0764
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-032.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "description string,portForwardDesc string)（portForward,error)\nhostPort, err:= s.portAllocator.AllocatePort()\ncmd:= exec.Command（ \"nat\", \"-t\"， \"iptables\", \"-A”\n\"PREROUTING\"\n\"tcp\", \"--dport\",\nstrconv.Itoa(int(hostPort)), \"-j\", \"DNAT\" \"--to-destination\",\nfmt.Sprintf(\"%s:%d\",vmIP, guestPort),\nerr =cmd.Run（)",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code slide with small function and command text; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "description string, portForwardDesc string) (portForward, error) {\nhostPort, err := s.portAllocator.AllocatePort()\ncmd := exec.Command(",
+            "x": 11.0,
+            "y": 10.0,
+            "w": 54.0,
+            "h": 26.0
+          },
+          {
+            "role": "code",
+            "text": "\"iptables\",\n\"-t\",\n\"nat\",\n\"-A\",\n\"PREROUTING\",\n\"-p\",\n\"tcp\",\n\"--dport\",\nstrconv.Itoa(int(hostPort)),\n\"-j\",\n\"DNAT\",\n\"--to-destination\",",
+            "x": 12.0,
+            "y": 28.0,
+            "w": 34.0,
+            "h": 50.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-033.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-033.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673725.7585387,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "description string,portForwardDesc string)（portForward,error)\nhostPort, err:= s.portAllocator.AllocatePort()\ncmd:= exec.Command（ \"nat\", \"-t\"， \"iptables\", \"-A”\n\"PREROUTING\"\n\"tcp\", \"--dport\",\nstrconv.Itoa(int(hostPort)), \"-j\", \"DNAT\" \"--to-destination\",\nfmt.Sprintf(\"%s:%d\",vmIP, guestPort),\nerr =cmd.Run（)",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 361.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "description string,portForwardDesc string)（portForward,error)\nhostPort, err:= s.portAllocator.AllocatePort()\ncmd:= exec.Command（ \"nat\", \"-t\"， \"iptables\", \"-A”\n\"PREROUTING\"\n\"tcp\", \"--dport\",\nstrconv.Itoa(int(hostPort)), \"-j\", \"DNAT\" \"--to-destination\",\nfmt.Sprintf(\"%s:%d\",vmIP, guestPort),\nerr =cmd.Run（)",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-033.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arrakis: Updated Architecture",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Diagram slide with many labels; OCR is not the cheapest path compared with simple visual reading of the title and labels.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis: Updated Architecture",
+            "x": 5.0,
+            "y": 3.0,
+            "w": 44.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Arrakis Networking",
+            "x": 38.0,
+            "y": 11.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Linux Server",
+            "x": 43.0,
+            "y": 16.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis Restserver",
+            "x": 41.0,
+            "y": 23.0,
+            "w": 19.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "VNC Client",
+            "x": 5.0,
+            "y": 42.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "VNC Client",
+            "x": 85.0,
+            "y": 42.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis MicroVM Sandbox",
+            "x": 29.0,
+            "y": 48.0,
+            "w": 21.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Arrakis MicroVM Sandbox",
+            "x": 53.0,
+            "y": 48.0,
+            "w": 21.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "VNC Server",
+            "x": 32.0,
+            "y": 39.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Code Server",
+            "x": 42.0,
+            "y": 39.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Code Server",
+            "x": 55.0,
+            "y": 39.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "VNC Server",
+            "x": 64.0,
+            "y": 39.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Auto Port Forwarding",
+            "x": 20.0,
+            "y": 49.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Auto Port Forwarding",
+            "x": 72.0,
+            "y": 49.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Userspace",
+            "x": 21.0,
+            "y": 77.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Kernel",
+            "x": 23.0,
+            "y": 85.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "/dev/kvm",
+            "x": 39.0,
+            "y": 84.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "/dev/kvm",
+            "x": 63.0,
+            "y": 84.0,
+            "w": 8.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-034.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-034.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673733.469322,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Arrakis: Updated Architecture",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-034.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "86 apt-get clean A:\n86:rm -rf. /var/lib/apt/lists/x\n# Install Chrome.:\nhttps://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 86 \\: RUN wget. -0 /tmp/google-chrome-stable_current_amd64.deb # Any failure here will be fixed by the. install -f command below.\ndpkg. -i /tmp/google-chrome-stable_current_amd64.deb ll true 86 \\\napt-get clean 86 rm -rf /var/lib/apt/lists/*- rm. -rf /tmp/google-chrome-stable_current_amd64.deb 86 \\ apt-get update 86 apt-get install. -f -y:86 \\\nRUN curl: -fsSL https://deb.nodesource.com/setup 22.x -o nodesource_setup:sh 8f # Install Node.js and npm\nsudo -E bash nodesource_setup.sh 86 \\\nrm: -f nodesource_setup.sh 86 \\ apt-get.clean: 86 rm -rf /var/lib/apt/lists/x: sudo apt-get:install -y: nodejs: 86",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code/install slide with small command text and section headings; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "# Install Chrome.",
+            "x": 10.0,
+            "y": 15.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "RUN wget -O /tmp/google-chrome-stable_current_amd64.deb\nhttps://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \\\n    dpkg -i /tmp/google-chrome-stable_current_amd64.deb || true && \\\n    apt-get update && apt-get install -f -y && \\\n    rm -rf /tmp/google-chrome-stable_current_amd64.deb && \\\n    apt-get clean && rm -rf /var/lib/apt/lists/*",
+            "x": 10.0,
+            "y": 21.0,
+            "w": 80.0,
+            "h": 26.0
+          },
+          {
+            "role": "caption",
+            "text": "# Install Node.js and npm",
+            "x": 10.0,
+            "y": 50.0,
+            "w": 30.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "RUN curl -fsSL https://deb.nodesource.com/setup_22.x -o nodesource_setup.sh && \\\n    sudo -E bash nodesource_setup.sh && \\\n    sudo apt-get install -y nodejs && \\\n    rm -f nodesource_setup.sh && \\\n    apt-get clean && rm -rf /var/lib/apt/lists/*",
+            "x": 10.0,
+            "y": 57.0,
+            "w": 80.0,
+            "h": 26.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-035.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-035.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673733.469721,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "86 apt-get clean A:\n86:rm -rf. /var/lib/apt/lists/x\n# Install Chrome.:\nhttps://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 86 \\: RUN wget. -0 /tmp/google-chrome-stable_current_amd64.deb # Any failure here will be fixed by the. install -f command below.\ndpkg. -i /tmp/google-chrome-stable_current_amd64.deb ll true 86 \\\napt-get clean 86 rm -rf /var/lib/apt/lists/*- rm. -rf /tmp/google-chrome-stable_current_amd64.deb 86 \\ apt-get update 86 apt-get install. -f -y:86 \\\nRUN curl: -fsSL https://deb.nodesource.com/setup 22.x -o nodesource_setup:sh 8f # Install Node.js and npm\nsudo -E bash nodesource_setup.sh 86 \\\nrm: -f nodesource_setup.sh 86 \\ apt-get.clean: 86 rm -rf /var/lib/apt/lists/x: sudo apt-get:install -y: nodejs: 86",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 637.96
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "86 apt-get clean A:\n86:rm -rf. /var/lib/apt/lists/x\n# Install Chrome.:\nhttps://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 86 \\: RUN wget. -0 /tmp/google-chrome-stable_current_amd64.deb # Any failure here will be fixed by the. install -f command below.\ndpkg. -i /tmp/google-chrome-stable_current_amd64.deb ll true 86 \\\napt-get clean 86 rm -rf /var/lib/apt/lists/*- rm. -rf /tmp/google-chrome-stable_current_amd64.deb 86 \\ apt-get update 86 apt-get install. -f -y:86 \\\nRUN curl: -fsSL https://deb.nodesource.com/setup 22.x -o nodesource_setup:sh 8f # Install Node.js and npm\nsudo -E bash nodesource_setup.sh 86 \\\nrm: -f nodesource_setup.sh 86 \\ apt-get.clean: 86 rm -rf /var/lib/apt/lists/x: sudo apt-get:install -y: nodejs: 86",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-035.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code/config slide with small identifiers and nested structs; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "vmConfig := chvapi.VmConfig{\nPayload: chvapi.PayloadConfig{\nKernel: String(kernelPath),\nCmdline: String(getKernelCmdLine(s.config.BridgeIP, guestIP.String())),\nInitramfs: String(initramfsPath),",
+            "x": 12.0,
+            "y": 7.0,
+            "w": 68.0,
+            "h": 24.0
+          },
+          {
+            "role": "code",
+            "text": "Disks: []chvapi.DiskConfig{\n{Path: rootfsPath, Readonly: Bool(true), NumQueues: &numBlockDeviceQueues},\n{Path: statefulDiskPath, NumQueues: &numBlockDeviceQueues},\n},\nCpus: &chvapi.CpusConfig{BootVcpus: vcpus, MaxVcpus: vcpus},\nMemory: &chvapi.MemoryConfig{Size: int64(memorySizeMB) * 1024 * 1024},",
+            "x": 12.0,
+            "y": 30.0,
+            "w": 78.0,
+            "h": 34.0
+          },
+          {
+            "role": "code",
+            "text": "Serial: chvapi.NewConsoleConfig(serialPortMode),\nConsole: chvapi.NewConsoleConfig(consolePortMode),\nNet: []chvapi.NetConfig{\nVsock: &chvapi.VsockConfig{Cid: int64(cid), Socket: vsockPath},",
+            "x": 12.0,
+            "y": 62.0,
+            "w": 80.0,
+            "h": 24.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-036.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-036.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673747.6787527,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/left-72/contrast",
+        "best_score": 744.76,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-036.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code slide with small text and multiple fields; OCR will be more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm beige",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "",
+            "x": 8.0,
+            "y": 6.0,
+            "w": 84.0,
+            "h": 82.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-037.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-037.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783674174.5172424,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 594.16,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0035
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-037.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arrakis: Chrome",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Mostly a readable title plus a browser screenshot; OCR is not the primary need here.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "light gray",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis: Chrome",
+            "x": 6.0,
+            "y": 0,
+            "w": 32.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 5.0,
+            "y": 11.0,
+            "w": 90.0,
+            "h": 78.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-038.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-038.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783674188.5643244,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Arrakis: Chrome",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-038.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Zero Overhead Sandbox Branching\n- Zero overhead branching\n- Btrfs powered incremental snapshots\n- Memory dump compression at snapshot\n- Multi stage plans can fail\n- Restarting a deep DAG is expensive\n- Backtrack + replan + execute much faster at scale\n- Can cache key sandbox milestones across plans for reuse",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Readable diagram slide with several bullet blocks; direct reading is sufficient for triage.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Zero Overhead Sandbox Branching",
+            "x": 4.0,
+            "y": 18.0,
+            "w": 33.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Zero overhead branching\nBtrfs powered incremental snapshots\nMemory dump compression at snapshot",
+            "x": 33.0,
+            "y": 38.0,
+            "w": 30.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Multi stage plans can fail\nRestarting a deep DAG is expensive\nBacktrack + replan + execute much faster at scale\nCan cache key sandbox milestones across plans for reuse",
+            "x": 65.0,
+            "y": 16.0,
+            "w": 28.0,
+            "h": 28.0
+          },
+          {
+            "role": "diagram",
+            "text": "Sandbox Hash1\nSandbox Hash2\nSandbox Hash2'",
+            "x": 9.0,
+            "y": 28.0,
+            "w": 33.0,
+            "h": 56.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-039.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-039.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783674188.5645428,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Zero Overhead Sandbox Branching\n- Zero overhead branching\n- Btrfs powered incremental snapshots\n- Memory dump compression at snapshot\n- Multi stage plans can fail\n- Restarting a deep DAG is expensive\n- Backtrack + replan + execute much faster at scale\n- Can cache key sandbox milestones across plans for reuse",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-039.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "VMM.puso0: VhM.snapshot0 Pershst rw overlayfs iaryer. Recume the VMM\nTeec (s aserrer)'srupitoruteta comtistiComnts strint, tzpihtte strl\nI+pir?.I+f+ft+rtt+lr+d I+u+at t+ Los++t ra tilt Ioi tt\".\nCsp, orr'? 'sartetea.tiatuta() piaa,*-, m.apictioi otitw'.+ie.w(cur) 》 Pae't+ tt (irr +) t+is I + irrelhfte.\nI! foshre + r+h Iho v +rh If. yupubot (o!ls. tfer focf?:( rrimalt - ma.ipitleat.beresttAt,trsmr'oratn)\nNu. itatat + yattaurel relt\njtateletoluabest: m ath.>eia(tutpastr,.ststeruioiitiioam) i/ Coy the sihtefel eil te the swmuNt eirmteryt'lime we yupaNt aorsh'l ue.rait.\n1+ orr.ait (: J).tafet coriimg stetefut eiaa tt saapubet' dirrtery\") Irt*+ coyytitkw.ttetetolotitpata, atatwtuthltoit): \"4sttio='! ttthfuloliot..1.+y+. a,utat+fulplhprth,.\nretws'nit, tat.trrorte raile 1o topy tialotot tik iout dirxtent' t', rr)",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small code block and compact labels make OCR the better capture path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Invocation Checkpointing",
+            "x": 0,
+            "y": 0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "VMM.pause()\nVMM.snapshot()\nPersist rw overlayfs layer\nResume the VMM",
+            "x": 1.0,
+            "y": 5.0,
+            "w": 95.0,
+            "h": 12.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 6.0,
+            "y": 28.0,
+            "w": 40.0,
+            "h": 56.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-040.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-040.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783674188.5647678,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Invocation Checkpointing",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "VMM.puso0: VhM.snapshot0 Pershst rw overlayfs iaryer. Recume the VMM\nTeec (s aserrer)'srupitoruteta comtistiComnts strint, tzpihtte strl\nI+pir?.I+f+ft+rtt+lr+d I+u+at t+ Los++t ra tilt Ioi tt\".\nCsp, orr'? 'sartetea.tiatuta() piaa,*-, m.apictioi otitw'.+ie.w(cur) 》 Pae't+ tt (irr +) t+is I + irrelhfte.\nI! foshre + r+h Iho v +rh If. yupubot (o!ls. tfer focf?:( rrimalt - ma.ipitleat.beresttAt,trsmr'oratn)\nNu. itatat + yattaurel relt\njtateletoluabest: m ath.>eia(tutpastr,.ststeruioiitiioam) i/ Coy the sihtefel eil te the swmuNt eirmteryt'lime we yupaNt aorsh'l ue.rait.\n1+ orr.ait (: J).tafet coriimg stetefut eiaa tt saapubet' dirrtery\") Irt*+ coyytitkw.ttetetolotitpata, atatwtuthltoit): \"4sttio='! ttthfuloliot..1.+y+. a,utat+fulplhprth,.\nretws'nit, tat.trrorte raile 1o topy tialotot tik iout dirxtent' t', rr)",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1030.04
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "VMM.puso0: VhM.snapshot0 Pershst rw overlayfs iaryer. Recume the VMM\nTeec (s aserrer)'srupitoruteta comtistiComnts strint, tzpihtte strl\nI+pir?.I+f+ft+rtt+lr+d I+u+at t+ Los++t ra tilt Ioi tt\".\nCsp, orr'? 'sartetea.tiatuta() piaa,*-, m.apictioi otitw'.+ie.w(cur) 》 Pae't+ tt (irr +) t+is I + irrelhfte.\nI! foshre + r+h Iho v +rh If. yupubot (o!ls. tfer focf?:( rrimalt - ma.ipitleat.beresttAt,trsmr'oratn)\nNu. itatat + yattaurel relt\njtateletoluabest: m ath.>eia(tutpastr,.ststeruioiitiioam) i/ Coy the sihtefel eil te the swmuNt eirmteryt'lime we yupaNt aorsh'l ue.rait.\n1+ orr.ait (: J).tafet coriimg stetefut eiaa tt saapubet' dirrtery\") Irt*+ coyytitkw.ttetetolotitpata, atatwtuthltoit): \"4sttio='! ttthfuloliot..1.+y+. a,utat+fulplhprth,.\nretws'nit, tat.trrorte raile 1o topy tialotot tik iout dirxtent' t', rr)",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-040.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Arrakis: Claude Desktop Vibe Coding\n- Create a Google Docs clone where multiple people can join by specifying the name of the doc\n- Use NodeJS and run the app on port 5737 in the background.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "The title and bullets are already readable; the rest is a demo screenshot.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "off-white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Arrakis: Claude Desktop Vibe Coding",
+            "x": 5.0,
+            "y": 0,
+            "w": 62.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Create a Google Docs clone where multiple people can join by specifying the name of the doc\nUse NodeJS and run the app on port 5737 in the background.",
+            "x": 13.0,
+            "y": 67.0,
+            "w": 76.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 6.0,
+            "y": 8.0,
+            "w": 88.0,
+            "h": 58.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-041.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-041.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783674201.6471562,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Arrakis: Claude Desktop Vibe Coding\n- Create a Google Docs clone where multiple people can join by specifying the name of the doc\n- Use NodeJS and run the app on port 5737 in the background.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-041.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Split prompt-and-terminal demo screenshot with dense small text; OCR is needed for accurate capture.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "split light and dark",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Create a Google Docs clone where multiple people can join by specifying the name of the doc\nUse NodeJS and run the app on port 5737 in the background.",
+            "x": 2.0,
+            "y": 0,
+            "w": 52.0,
+            "h": 36.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 53.0,
+            "y": 0,
+            "w": 45.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-042.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/wsFd22SL1s8/slide-042.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783674201.6473823,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 1926.0,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0048
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/wsFd22SL1s8/slide-042.html"
+    }
+  ],
+  "rejected": []
+}

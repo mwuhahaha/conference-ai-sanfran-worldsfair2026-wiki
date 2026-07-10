@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Docling: More than simple Document Conversion\n\ninvoice_dict = {\n  'bill number': 'string',\n  'total invoice price': 'float',\n  'currency of total invoice price': 'string',\n  'name of invoice addressee': 'string',\n  'name of invoice sender': 'string'\n}\n\n{\n  'bill number': '01234',\n  'total invoice price': 550,\n  'currency of total invoice price': 'USD',\n  'name of invoice addressee': 'Jonathan Patterson',\n  'name of invoice sender': 'Eventure Event Planner'\n}",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Document extraction example with code, form image, and structured output text that benefits from OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Docling: More than simple Document Conversion",
+        "x": 18.0,
+        "y": 7.0,
+        "w": 64.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "invoice_data = {",
+        "x": 6.0,
+        "y": 73.0,
+        "w": 38.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "hello",
+        "x": 22.0,
+        "y": 18.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "bill number",
+        "x": 61.0,
+        "y": 34.0,
+        "w": 14.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656201.7126815,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Docling: More than simple Document Conversion",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/contrast",
+    "text": "Docling: More than simple Document Conversion\nhello Goxadea\n'bill number':'01234',\n'totalinvoiceprice':550,\n'currency of total invoice price':'uso',\n'name of invoice sender':'Eventure Event Pla 'name ofinvoice addressee':'Jonathan Patter\nf1.( t11 VO 1(\n1dmfOf nvol",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 418.04
+  },
+  "ocr_source": "rapidocr-live/center-82/contrast",
+  "ocr_reconcile": {
+    "text": "Docling: More than simple Document Conversion\n\ninvoice_dict = {\n  'bill number': 'string',\n  'total invoice price': 'float',\n  'currency of total invoice price': 'string',\n  'name of invoice addressee': 'string',\n  'name of invoice sender': 'string'\n}\n\n{\n  'bill number': '01234',\n  'total invoice price': 550,\n  'currency of total invoice price': 'USD',\n  'name of invoice addressee': 'Jonathan Patterson',\n  'name of invoice sender': 'Eventure Event Planner'\n}",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected from the image for title, code labels, and extracted values; obvious errors like 'uso' -> 'USD' and spacing/punctuation were fixed."
+  }
+}

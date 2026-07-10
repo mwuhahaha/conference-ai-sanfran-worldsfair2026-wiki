@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "AI ENGINEER • ONLINE TRACK\nYour LLM Deception Monitor Is Broken\nThe fix is in the training data.\nCatching sleeper-agent backdoors by watching what fine-tuning changed.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with pale mint concentric circles on right",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI ENGINEER • ONLINE TRACK",
+        "x": 5.0,
+        "y": 9.0,
+        "w": 34.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Your LLM Deception\nMonitor Is Broken",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 45.0,
+        "h": 22.0
+      },
+      {
+        "role": "subtitle",
+        "text": "The fix is in the training data.",
+        "x": 5.0,
+        "y": 43.0,
+        "w": 30.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Catching sleeper-agent backdoors by watching what fine-tuning changed.",
+        "x": 5.0,
+        "y": 52.0,
+        "w": 52.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Sachin Kumar\nLexisNexis · independent work\ngithub.com/techsachinkr/diff-sae-backdoor-detection",
+        "x": 5.0,
+        "y": 66.0,
+        "w": 38.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Δa",
+        "x": 83.0,
+        "y": 39.0,
+        "w": 6.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/IQkVMvXQKLY/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660186.3310516,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI ENGINEER • ONLINE TRACK\nYour LLM Deception Monitor Is Broken\nThe fix is in the training data.\nCatching sleeper-agent backdoors by watching what fine-tuning changed.",
+  "advanced_ocr": {}
+}

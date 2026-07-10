@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "AI-Driven Multi-Document Correlation for Enterprise Financial Compliance and Fraud Detection\nA framework for cross-document fraud detection through relational intelligence, evaluated across 3 million anonymized records and four jurisdictions.\nBy Varsha Shah, Enterprise Technical Architect, USA",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(180deg, #18002d 0%, #120024 100%)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI-Driven Multi-Document Correlation for Enterprise Financial Compliance and Fraud Detection",
+        "x": 5.0,
+        "y": 9.0,
+        "w": 72.0,
+        "h": 28.0
+      },
+      {
+        "role": "subtitle",
+        "text": "A framework for cross-document fraud detection through relational intelligence, evaluated across 3 million anonymized records and four jurisdictions.",
+        "x": 5.0,
+        "y": 48.0,
+        "w": 82.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "By Varsha Shah, Enterprise Technical Architect, USA",
+        "x": 5.0,
+        "y": 60.0,
+        "w": 55.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/Iwe_RY-fYgI/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659673.9002957,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI-Driven Multi-Document Correlation for Enterprise Financial Compliance and Fraud Detection\nA framework for cross-document fraud detection through relational intelligence, evaluated across 3 million anonymized records and four jurisdictions.\nBy Varsha Shah, Enterprise Technical Architect, USA",
+  "advanced_ocr": {}
+}

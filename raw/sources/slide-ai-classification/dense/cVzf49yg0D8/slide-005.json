@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Part1:The Interactions API CodeComparison\nGENERATECONTENT INTERACTIONSAPI\nStoteless:re-send history every turn Request1 r1-client.nodels.generate_content（ model-genini-3-flosh-preview\" contents-[ (\"role\":\"user\" (\"inline_doto”:（mime_type”: (\"text*:\"Describe this inoge) \"porta\":[ 'imoge/jpeg\" \"doto\"：...\")) i1-client.interoctions.creotec Request1 model-genini-3-flosh-preview* input-[ 0fou.:od.) (\"typo\":\"text\" （6od/5o.dou/:d.T,\nr2-client.nodels.generate_content( model-\"gemini-3-flosh-preview\" contents-[ ]:s1odosn.oo.) eot 2:MUST reend imoge ond nistory (\"inline_dato”:（\"mime_type”:\"imoge/jpeg” \"doto：...\")) i2-client.interoctions.creote（ Request 2:Just.send npw input model-genini-3-flash-preview input-'Is there ony text?\" previous_interaction_id-i1.id\n[\"role\":\"model\" (\"role\":\"user\" （ （[（2x）Au0o4sI.x.）]:10d （[（oo1do..x.）]1o\nAccess:response.condidates[e] content.ports[e].function_col]\n8/17",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Two dense code panels with small text; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cream",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Code Comparison",
+        "x": 13.0,
+        "y": 10.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "GENERATE CONTENT",
+        "x": 13.0,
+        "y": 21.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "INTERACTIONS API",
+        "x": 55.0,
+        "y": 21.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 13.0,
+        "y": 27.0,
+        "w": 39.0,
+        "h": 48.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 55.0,
+        "y": 27.0,
+        "w": 36.0,
+        "h": 31.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667033.8048563,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Code Comparison",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Part1:The Interactions API CodeComparison\nGENERATECONTENT INTERACTIONSAPI\nStoteless:re-send history every turn Request1 r1-client.nodels.generate_content（ model-genini-3-flosh-preview\" contents-[ (\"role\":\"user\" (\"inline_doto”:（mime_type”: (\"text*:\"Describe this inoge) \"porta\":[ 'imoge/jpeg\" \"doto\"：...\")) i1-client.interoctions.creotec Request1 model-genini-3-flosh-preview* input-[ 0fou.:od.) (\"typo\":\"text\" （6od/5o.dou/:d.T,\nr2-client.nodels.generate_content( model-\"gemini-3-flosh-preview\" contents-[ ]:s1odosn.oo.) eot 2:MUST reend imoge ond nistory (\"inline_dato”:（\"mime_type”:\"imoge/jpeg” \"doto：...\")) i2-client.interoctions.creote（ Request 2:Just.send npw input model-genini-3-flash-preview input-'Is there ony text?\" previous_interaction_id-i1.id\n[\"role\":\"model\" (\"role\":\"user\" （ （[（2x）Au0o4sI.x.）]:10d （[（oo1do..x.）]1o\nAccess:response.condidates[e] content.ports[e].function_col]\n8/17",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 848.88
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Part1:The Interactions API CodeComparison\nGENERATECONTENT INTERACTIONSAPI\nStoteless:re-send history every turn Request1 r1-client.nodels.generate_content（ model-genini-3-flosh-preview\" contents-[ (\"role\":\"user\" (\"inline_doto”:（mime_type”: (\"text*:\"Describe this inoge) \"porta\":[ 'imoge/jpeg\" \"doto\"：...\")) i1-client.interoctions.creotec Request1 model-genini-3-flosh-preview* input-[ 0fou.:od.) (\"typo\":\"text\" （6od/5o.dou/:d.T,\nr2-client.nodels.generate_content( model-\"gemini-3-flosh-preview\" contents-[ ]:s1odosn.oo.) eot 2:MUST reend imoge ond nistory (\"inline_dato”:（\"mime_type”:\"imoge/jpeg” \"doto：...\")) i2-client.interoctions.creote（ Request 2:Just.send npw input model-genini-3-flash-preview input-'Is there ony text?\" previous_interaction_id-i1.id\n[\"role\":\"model\" (\"role\":\"user\" （ （[（2x）Au0o4sI.x.）]:10d （[（oo1do..x.）]1o\nAccess:response.condidates[e] content.ports[e].function_col]\n8/17",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Payment Fraud Detection and Monitoring",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Large dashboard screenshot with metrics, chart labels, tabs, and smaller text that is better OCR'd.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with blue gradient banner",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Payment Fraud Detection and Monitoring",
+        "x": 28.0,
+        "y": 10.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Payment Fraud Intelligence\nMonitor and detect fraud in payment systems including ACH, wire transfers, P2P payments, and card transactions.",
+        "x": 28.0,
+        "y": 16.0,
+        "w": 66.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "Dashboard\nPayment Analysis\nFraud Patterns\nCase Management",
+        "x": 28.0,
+        "y": 30.0,
+        "w": 55.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Payment Fraud Dashboard\nStart Date\nEnd Date\nRefresh Data",
+        "x": 28.0,
+        "y": 37.0,
+        "w": 60.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "Key Metrics\nSUSPICIOUS TRANSACTIONS 427\nFRAUD AMOUNT $1.24M\nACTIVE CASES 38\nAVG. RESPONSE TIME 3.2 hrs",
+        "x": 28.0,
+        "y": 58.0,
+        "w": 65.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "LEVEL 1: USER MANAGEMENT FLOW\nDashboard\nUser Management\nCase Management\nExamination Management\nInvoice Management\nProcessing Flow\nPayment Portal\nChat Assistant",
+        "x": 1.0,
+        "y": 8.0,
+        "w": 22.0,
+        "h": 85.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658657.703657,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Payment Fraud Detection and Monitoring",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

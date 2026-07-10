@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arrakis - API\narrakis-py-sdk\narrakis-client\nArrakis Restserver",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple diagram with large labels that is readable directly; OCR is not necessary.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f7f6f2",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis - API",
+        "x": 40.0,
+        "y": 3.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "arrakis-py-sdk",
+        "x": 4.0,
+        "y": 12.0,
+        "w": 15.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "arrakis-client",
+        "x": 4.0,
+        "y": 30.0,
+        "w": 15.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "REST API",
+        "x": 19.0,
+        "y": 14.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis Restserver",
+        "x": 52.0,
+        "y": 14.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Linux Server",
+        "x": 52.0,
+        "y": 6.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Userspace",
+        "x": 29.0,
+        "y": 73.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Kernel",
+        "x": 29.0,
+        "y": 82.0,
+        "w": 8.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672852.1837802,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Arrakis - API\narrakis-py-sdk\narrakis-client\nArrakis Restserver",
+  "advanced_ocr": {}
+}

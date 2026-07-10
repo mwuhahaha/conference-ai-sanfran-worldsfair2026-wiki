@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Architecting + testing reliable agents\nLance Martin\nSoftware Engineer, LangChain",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large title-card text is easy to read directly.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "light off-white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 12.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "Architecting + testing reliable agents",
+        "x": 41.0,
+        "y": 42.0,
+        "w": 38.0,
+        "h": 11.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Lance Martin",
+        "x": 46.0,
+        "y": 57.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Software Engineer, LangChain",
+        "x": 42.0,
+        "y": 64.0,
+        "w": 30.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/ib-wTAvCZqg/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669164.9268613,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Architecting + testing reliable agents\nLance Martin\nSoftware Engineer, LangChain",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Registration Details",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Text-heavy registration and SDK instructions with small body copy; OCR will be more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Registration Details",
+        "x": 5.0,
+        "y": 15.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Your API Key",
+        "x": 5.0,
+        "y": 27.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Proxy Endpoint",
+        "x": 5.0,
+        "y": 33.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Playground Access",
+        "x": 5.0,
+        "y": 41.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "SDK Access",
+        "x": 5.0,
+        "y": 58.0,
+        "w": 14.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-014.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657352.7729075,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Registration Details",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

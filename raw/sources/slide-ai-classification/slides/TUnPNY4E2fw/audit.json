@@ -1,0 +1,1064 @@
+{
+  "video_id": "TUnPNY4E2fw",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 10,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI Native Cloud\nGPU Clusters\nModel Shaping\nInference\nEngineering the future of AI",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI Native Cloud",
+            "x": 50.0,
+            "y": 4.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Model Builders <-> App Developers",
+            "x": 31.0,
+            "y": 12.0,
+            "w": 55.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "GPU Clusters",
+            "x": 30.0,
+            "y": 18.0,
+            "w": 19.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Model Shaping",
+            "x": 52.0,
+            "y": 18.0,
+            "w": 19.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Inference",
+            "x": 74.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 11.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 21.0
+          },
+          {
+            "role": "caption",
+            "text": "Trusted by",
+            "x": 31.0,
+            "y": 75.0,
+            "w": 9.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "CURSOR RUNWARE hedra Decagon KREA",
+            "x": 40.0,
+            "y": 75.0,
+            "w": 40.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 39.0,
+            "y": 88.0,
+            "w": 47.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664287.1960175,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Native Cloud\nGPU Clusters\nModel Shaping\nInference\nEngineering the future of AI",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/TUnPNY4E2fw/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why do we want to long-context training?\nDid the car actuoliy do\n/context\nAIE ContextUsage claude-s0nnet-4-5-20250929.163k/200ktoker\nAutocompact buffer:45.oktokens（22.5%) ONessages: 5.4k tokons (2.7x) 9Systen prompt:2.6k tokons (1.3s) 9Systen too1s:16.2k tokens(7.6%) 9Custon agents:758 tokens (o,4%) )Frec space:37k （18.4%) 9 NCP t001s:94.2kt0kens（47.1%)\nAI Engineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense small screenshot text inside the slide",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why do we want to long-context training?",
+            "x": 28.0,
+            "y": 5.0,
+            "w": 55.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 21.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "/context",
+            "x": 28.0,
+            "y": 21.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Context Usage",
+            "x": 31.0,
+            "y": 28.0,
+            "w": 17.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "cat video",
+            "x": 76.0,
+            "y": 13.0,
+            "w": 14.0,
+            "h": 32.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 58.0,
+            "y": 76.0,
+            "w": 24.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664287.1969311,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Why do we want to long-context training?\nDid the car actuoliy do\n/context\nAIE ContextUsage claude-s0nnet-4-5-20250929.163k/200ktoker\nAutocompact buffer:45.oktokens（22.5%) ONessages: 5.4k tokons (2.7x) 9Systen prompt:2.6k tokons (1.3s) 9Systen too1s:16.2k tokens(7.6%) 9Custon agents:758 tokens (o,4%) )Frec space:37k （18.4%) 9 NCP t001s:94.2kt0kens（47.1%)\nAI Engineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 437.12
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Why do we want to long-context training?\nDid the car actuoliy do\n/context\nAIE ContextUsage claude-s0nnet-4-5-20250929.163k/200ktoker\nAutocompact buffer:45.oktokens（22.5%) ONessages: 5.4k tokons (2.7x) 9Systen prompt:2.6k tokons (1.3s) 9Systen too1s:16.2k tokens(7.6%) 9Custon agents:758 tokens (o,4%) )Frec space:37k （18.4%) 9 NCP t001s:94.2kt0kens（47.1%)\nAI Engineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/TUnPNY4E2fw/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What's stopping us?\nLong Context\nO(N^2) Computation\nO(N) Memory",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What's stopping us?",
+            "x": 28.0,
+            "y": 5.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 21.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Long Context",
+            "x": 57.0,
+            "y": 15.0,
+            "w": 13.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "O(N^2) Computation",
+            "x": 45.0,
+            "y": 29.0,
+            "w": 16.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "O(N) Memory",
+            "x": 68.0,
+            "y": 29.0,
+            "w": 16.0,
+            "h": 11.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 58.0,
+            "y": 76.0,
+            "w": 24.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664339.4512017,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What's stopping us?\nLong Context\nO(N^2) Computation\nO(N) Memory",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/TUnPNY4E2fw/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What's stopping us?\nLongContext\nAIE Computation (VN)0) Memory O(N)\nMemory Usage for SBModel\n160 DP-8 DP=8 Zero-1 OP=8 Zero-2 DP=8Zero-3\n140 120\n00\nSeqvence Length Seduence Length Stqvence Length Sequtnce Length 924 16.354\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "small chart labels and legend are better suited to OCR",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What's stopping us?",
+            "x": 28.0,
+            "y": 5.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 21.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Long Context",
+            "x": 57.0,
+            "y": 15.0,
+            "w": 13.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Memory Usage for 8B Model",
+            "x": 39.0,
+            "y": 43.0,
+            "w": 31.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Sequence Length",
+            "x": 39.0,
+            "y": 67.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 41.0,
+            "y": 88.0,
+            "w": 38.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664339.4523005,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "What's stopping us?",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "What's stopping us?\nLongContext\nAIE Computation (VN)0) Memory O(N)\nMemory Usage for SBModel\n160 DP-8 DP=8 Zero-1 OP=8 Zero-2 DP=8Zero-3\n140 120\n00\nSeqvence Length Seduence Length Stqvence Length Sequtnce Length 924 16.354\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 334.52
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "What's stopping us?\nLongContext\nAIE Computation (VN)0) Memory O(N)\nMemory Usage for SBModel\n160 DP-8 DP=8 Zero-1 OP=8 Zero-2 DP=8Zero-3\n140 120\n00\nSeqvence Length Seduence Length Stqvence Length Sequtnce Length 924 16.354\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/TUnPNY4E2fw/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "How far can we get?\nAIE Peakmemory(GiB) 80 60 Attn act. Model Other\n40 OOM (119)\n20\nDefault\nLlama3-8B,3Mtokens,8xH100\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "small chart labels and legend are better suited to OCR",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How far can we get?",
+            "x": 28.0,
+            "y": 5.0,
+            "w": 34.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 21.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "OOM (119)",
+            "x": 33.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Model",
+            "x": 92.0,
+            "y": 14.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Attn act.",
+            "x": 92.0,
+            "y": 19.0,
+            "w": 7.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Other",
+            "x": 92.0,
+            "y": 24.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Llama 3-8B, 3M tokens, 8xH100",
+            "x": 47.0,
+            "y": 87.0,
+            "w": 32.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664371.723917,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "How far can we get?",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "How far can we get?\nAIE Peakmemory(GiB) 80 60 Attn act. Model Other\n40 OOM (119)\n20\nDefault\nLlama3-8B,3Mtokens,8xH100\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 269.52
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "How far can we get?\nAIE Peakmemory(GiB) 80 60 Attn act. Model Other\n40 OOM (119)\n20\nDefault\nLlama3-8B,3Mtokens,8xH100\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/TUnPNY4E2fw/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "DeepSpeedUlysses\nqo. ko 00\nAIE AII2AII Full FlashAttention AII2AIl 02 01\nq3. k3 03\nWhatifwedividebynum_headsdim?\nDeepSpeed Ulysses:System Optimizations for Enabling Tra sformer Models.Jacobsea.,2023\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with many small labels and a citation line; OCR should be more efficient than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "DeepSpeed Ulysses",
+            "x": 28.0,
+            "y": 7.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "q0\nk0\nq1\nk1\nq2\nk2\nq3\nk3",
+            "x": 27.0,
+            "y": 29.0,
+            "w": 5.0,
+            "h": 30.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "All2All",
+            "x": 38.0,
+            "y": 42.0,
+            "w": 7.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Full Flash Attention",
+            "x": 50.0,
+            "y": 38.0,
+            "w": 18.0,
+            "h": 14.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "All2All",
+            "x": 77.0,
+            "y": 42.0,
+            "w": 7.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "o0\no1\no2\no3",
+            "x": 89.0,
+            "y": 29.0,
+            "w": 5.0,
+            "h": 30.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What if we divide by num_heads dim?",
+            "x": 28.0,
+            "y": 76.0,
+            "w": 34.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664548.7889502,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "DeepSpeed Ulysses",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "DeepSpeedUlysses\nqo. ko 00\nAIE AII2AII Full FlashAttention AII2AIl 02 01\nq3. k3 03\nWhatifwedividebynum_headsdim?\nDeepSpeed Ulysses:System Optimizations for Enabling Tra sformer Models.Jacobsea.,2023\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 311.12
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "DeepSpeedUlysses\nqo. ko 00\nAIE AII2AII Full FlashAttention AII2AIl 02 01\nq3. k3 03\nWhatifwedividebynum_headsdim?\nDeepSpeed Ulysses:System Optimizations for Enabling Tra sformer Models.Jacobsea.,2023\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/TUnPNY4E2fw/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "With Ulysses context parallelism\n80 Model\nAIE Peak memory (GiB) 60 40 OOM (610) (7684) NOO 00M (964) Attnact. Other\n20\n15.0 15.0\n0 Default FSDP + Ulysses\nLlama 3-8B, 3M tokens, 8xH100\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart slide with axis labels, legend, and numeric annotations that are better captured by OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "With Ulysses context parallelism",
+            "x": 28.0,
+            "y": 7.0,
+            "w": 42.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Peak memory (GiB)",
+            "x": 26.0,
+            "y": 28.0,
+            "w": 6.0,
+            "h": 26.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Default\nFSDP\nFSDP + Ulysses",
+            "x": 31.0,
+            "y": 73.0,
+            "w": 27.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "OOM (119)\nOOM (7684)\nOOM (964)\n15.0",
+            "x": 35.0,
+            "y": 38.0,
+            "w": 30.0,
+            "h": 22.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Model\nAttn act.\nOther",
+            "x": 85.0,
+            "y": 24.0,
+            "w": 10.0,
+            "h": 12.0
+          },
+          {
+            "role": "caption",
+            "text": "Llama 3-8B, 3M tokens, 8xH100",
+            "x": 52.0,
+            "y": 79.0,
+            "w": 32.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664606.100615,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "With Ulysses context parallelism",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "With Ulysses context parallelism\n80 Model\nAIE Peak memory (GiB) 60 40 OOM (610) (7684) NOO 00M (964) Attnact. Other\n20\n15.0 15.0\n0 Default FSDP + Ulysses\nLlama 3-8B, 3M tokens, 8xH100\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 305.12
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "With Ulysses context parallelism\n80 Model\nAIE Peak memory (GiB) 60 40 OOM (610) (7684) NOO 00M (964) Attnact. Other\n20\n15.0 15.0\n0 Default FSDP + Ulysses\nLlama 3-8B, 3M tokens, 8xH100\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/TUnPNY4E2fw/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What if the activations are still too big?\n1. Inputs to each Transformer block can't be recomputed quickly\n2. Still, we can offload to CPU",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What if the activations are still too big?",
+            "x": 28.0,
+            "y": 7.0,
+            "w": 50.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "1. Inputs to each Transformer block can't be recomputed quickly\n2. Still, we can offload to CPU",
+            "x": 28.0,
+            "y": 20.0,
+            "w": 56.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Prefetch before we reach the layer, similar to weights for FSDP",
+            "x": 32.0,
+            "y": 38.0,
+            "w": 48.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "First implemented in:",
+            "x": 32.0,
+            "y": 44.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Unsloth Gradient Checkpointing - 4x longer context windows",
+            "x": 52.0,
+            "y": 44.0,
+            "w": 34.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "unsloth.ai/blog/long-context",
+            "x": 28.0,
+            "y": 77.0,
+            "w": 18.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664652.9853923,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What if the activations are still too big?\n1. Inputs to each Transformer block can't be recomputed quickly\n2. Still, we can offload to CPU",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/TUnPNY4E2fw/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Untied Ulysses\nIntermediate buffers are too large! (all Q.K.V, x2 because of all-to-all)\nLet's leverage the multi-head aspect of attention:\nAIE Inp-All-to-All Attention H H1 Out-All-to-All\nAttention\ninint QKV All-to-ALl Outo\n(a) Outi\nUnbed Uysses:Memory-EmdontConteatPanllism Va Headwise Chunking.Ghada e al,2026\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram-heavy slide with compact labels and small source text; OCR will recover the structure more reliably.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Untied Ulysses",
+            "x": 28.0,
+            "y": 7.0,
+            "w": 25.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Intermediate buffers are too large! (all Q,K,V, x2 because of all-to-all)",
+            "x": 30.0,
+            "y": 19.0,
+            "w": 58.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Let's leverage the multi-head aspect of attention:",
+            "x": 30.0,
+            "y": 25.0,
+            "w": 44.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Inp-All-to-All",
+            "x": 49.0,
+            "y": 31.0,
+            "w": 4.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Attention",
+            "x": 61.0,
+            "y": 37.0,
+            "w": 9.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Out-All-to-All",
+            "x": 79.0,
+            "y": 31.0,
+            "w": 4.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "HBM",
+            "x": 28.0,
+            "y": 74.0,
+            "w": 4.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "QKV",
+            "x": 39.0,
+            "y": 72.0,
+            "w": 4.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "All-to-All",
+            "x": 48.0,
+            "y": 72.0,
+            "w": 5.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "OOM",
+            "x": 54.0,
+            "y": 69.0,
+            "w": 5.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664653.0171092,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Untied Ulysses",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/contrast",
+        "text": "Untied Ulysses\nIntermediate buffers are too large! (all Q.K.V, x2 because of all-to-all)\nLet's leverage the multi-head aspect of attention:\nAIE Inp-All-to-All Attention H H1 Out-All-to-All\nAttention\ninint QKV All-to-ALl Outo\n(a) Outi\nUnbed Uysses:Memory-EmdontConteatPanllism Va Headwise Chunking.Ghada e al,2026\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 465.92
+      },
+      "ocr_source": "rapidocr-live/center-82/contrast",
+      "ocr_reconcile": {
+        "text": "Untied Ulysses\nIntermediate buffers are too large! (all Q.K.V, x2 because of all-to-all)\nLet's leverage the multi-head aspect of attention:\nAIE Inp-All-to-All Attention H H1 Out-All-to-All\nAttention\ninint QKV All-to-ALl Outo\n(a) Outi\nUnbed Uysses:Memory-EmdontConteatPanllism Va Headwise Chunking.Ghada e al,2026\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/TUnPNY4E2fw/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Chunk size ablations\nAIE Memory (GiB) 20 15 Throughput (TpS) 840 830\n10 820\n810\n4 Chunksize 8 16 32 800 4 Chunksiz.e 8 16 32\nUntiedUysses:Memory-Emdont ConteatParallelismva Headwise ChunkingGhadia etal,2026\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart slide with small axes, tick labels, and multiple plotted panels that are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Chunk size ablations",
+            "x": 28.0,
+            "y": 7.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Memory (GiB)",
+            "x": 39.0,
+            "y": 24.0,
+            "w": 10.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Throughput (TPS)",
+            "x": 65.0,
+            "y": 24.0,
+            "w": 10.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Chunk size",
+            "x": 43.0,
+            "y": 68.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "4\n8\n16\n32",
+            "x": 37.0,
+            "y": 74.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "4\n8\n16\n32",
+            "x": 62.0,
+            "y": 74.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664726.9296408,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Chunk size ablations",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/contrast",
+        "text": "Chunk size ablations\nAIE Memory (GiB) 20 15 Throughput (TpS) 840 830\n10 820\n810\n4 Chunksize 8 16 32 800 4 Chunksiz.e 8 16 32\nUntiedUysses:Memory-Emdont ConteatParallelismva Headwise ChunkingGhadia etal,2026\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 276.6
+      },
+      "ocr_source": "rapidocr-live/center-82/contrast",
+      "ocr_reconcile": {
+        "text": "Chunk size ablations\nAIE Memory (GiB) 20 15 Throughput (TpS) 840 830\n10 820\n810\n4 Chunksize 8 16 32 800 4 Chunksiz.e 8 16 32\nUntiedUysses:Memory-Emdont ConteatParallelismva Headwise ChunkingGhadia etal,2026\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/TUnPNY4E2fw/slide-011.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker at podium with projected slide; not a clean slide frame",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a clean slide frame",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "white/gray wall with projected screen",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Road to 5M Sequence Length",
+            "x": 46.0,
+            "y": 10.0,
+            "w": 46.0,
+            "h": 28.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Breaking Memory Barriers in Context Parallelism",
+            "x": 47.0,
+            "y": 33.0,
+            "w": 44.0,
+            "h": 18.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 3.0,
+            "y": 71.0,
+            "w": 23.0,
+            "h": 20.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664287.191124,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "Closing sponsor/logo card; no presentation content to retain.",
+      "text": "AI Engineer EUROPE",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 27.0,
+            "y": 32.0,
+            "w": 46.0,
+            "h": 28.0
+          },
+          {
+            "role": "caption",
+            "text": "HTTPS://AI.ENGINEER",
+            "x": 36.0,
+            "y": 88.0,
+            "w": 28.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/TUnPNY4E2fw/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664766.1430821,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Engineer EUROPE",
+      "advanced_ocr": {}
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "sponsor_logo",
+  "reject_reason": "logo/sponsor card; not substantive content",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "decorative logo card",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer World's Fair",
+        "x": 21.0,
+        "y": 33.0,
+        "w": 58.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/gcseUQJ6Gbg/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667739.3360941,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Cost to Run Artificial Analysis Intelligence Index\nCost(USD) to run all evaluations in the Artificial Analysis Intelligence Index (Version 2,released Feb 25, ~5M input tokens) Reasoning models\nInputCost ReasoningCost ■Output Cost NON-EXHAUSTIVE\nArtificial Analysis\n$1951 30X 650X\n$1485 $218 $1335\n$1786 $1356 S1112 $597 $627 $323 $304 $266 $319 $200 $220 $106 $76 $66 $65 $49 $17 $13 $10 $7 $3\nAI G 235B? G Reasoning Nova Premier aws ® GPT-4. ® 7 x (Mar 8 Llama 4Scout 8 nano\n3\nSourco:Artificial Analysis indopcndentbcnchmarking. Artificial Analysis",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense cost comparison chart with many labels and values; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Overall cost is a function of both cost per token and tokens per query; we now see a >500X spread in the cost to run Artificial Analysis Intelligence Index",
+        "x": 2.0,
+        "y": 0,
+        "w": 96.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "Cost to Run Artificial Analysis Intelligence Index",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 42.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Cost (USD) to run all evaluations in the Artificial Analysis Intelligence Index (Version 2, released Feb 25, ~5M input tokens)",
+        "x": 4.0,
+        "y": 21.0,
+        "w": 72.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Input Cost\nReasoning Cost\nOutput Cost",
+        "x": 4.0,
+        "y": 27.0,
+        "w": 24.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/sRpqPgKeXNk/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671920.1839828,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Cost to Run Artificial Analysis Intelligence Index\nCost(USD) to run all evaluations in the Artificial Analysis Intelligence Index (Version 2,released Feb 25, ~5M input tokens) Reasoning models\nInputCost ReasoningCost ■Output Cost NON-EXHAUSTIVE\nArtificial Analysis\n$1951 30X 650X\n$1485 $218 $1335\n$1786 $1356 S1112 $597 $627 $323 $304 $266 $319 $200 $220 $106 $76 $66 $65 $49 $17 $13 $10 $7 $3\nAI G 235B? G Reasoning Nova Premier aws ® GPT-4. ® 7 x (Mar 8 Llama 4Scout 8 nano\n3\nSourco:Artificial Analysis indopcndentbcnchmarking. Artificial Analysis",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 530.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Cost to Run Artificial Analysis Intelligence Index\nCost(USD) to run all evaluations in the Artificial Analysis Intelligence Index (Version 2,released Feb 25, ~5M input tokens) Reasoning models\nInputCost ReasoningCost ■Output Cost NON-EXHAUSTIVE\nArtificial Analysis\n$1951 30X 650X\n$1485 $218 $1335\n$1786 $1356 S1112 $597 $627 $323 $304 $266 $319 $200 $220 $106 $76 $66 $65 $49 $17 $13 $10 $7 $3\nAI G 235B? G Reasoning Nova Premier aws ® GPT-4. ® 7 x (Mar 8 Llama 4Scout 8 nano\n3\nSourco:Artificial Analysis indopcndentbcnchmarking. Artificial Analysis",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

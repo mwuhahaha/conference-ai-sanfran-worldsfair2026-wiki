@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AGENT 04 • QA / COMPUTER-USE — LIVE\nIt drives the real product like a user — and finds the bug before a customer does.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "The slide is simple enough to read directly; OCR is not needed.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "AGENT 04 • QA / COMPUTER-USE — LIVE",
+        "x": 6.0,
+        "y": 4.0,
+        "w": 35.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "It drives the real product like a user — and finds the bug before a customer does.",
+        "x": 14.0,
+        "y": 84.0,
+        "w": 72.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-017.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670256.8045325,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AGENT 04 • QA / COMPUTER-USE — LIVE\nIt drives the real product like a user — and finds the bug before a customer does.",
+  "advanced_ocr": {}
+}

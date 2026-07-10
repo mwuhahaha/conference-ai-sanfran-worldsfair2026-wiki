@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Apache Lucene set the standard for search and\nindexing performance. Lucene is the search core of\nboth Apache Solr and Elasticsearch™.\n\nWelcome to Apache Lucene\n\nThe Apache Lucene™ project develops open-source search software. The project releases a core search\nlibrary, named Lucene™ core, as well as PyLucene, a python binding for Lucene.\n\nLucene Core is a Java library providing powerful\nindexing and search features, as well as\nspellchecking, hit highlighting, and advanced\nanalysis/tokenization capabilities. The PyLucene\nsub project provides Python bindings for Lucene\nCore.\n\nLatest Lucene Core News\nApache Lucene™ 9.11.0 available\nApache Lucene™ 9.10.0 available\nApache Lucene™ 8.11.3 available\n\nANNOUNCEMENT: The Solr™ sub project has moved to a separate Top Level Project (TLP). All things Solr can now be found at https://solr.apache.org/. Mailing lists and git\nrepositories have changed, please see details on the Solr website.\n\nDOWNLOAD\nApache Lucene 9.11.0\n\nProjects\nLucene Core (Java)\nPyLucene\nOpen Relevance\n(Discontinued)\n\nAbout\nLicense\nWho We Are\nTLP News\nCode of Conduct\n\nEvents\nCommunity Over Code\nNorth America 2024",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense webpage screenshot with many small labels and a UI layout.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Welcome to Apache Lucene",
+        "x": 14.0,
+        "y": 14.0,
+        "w": 46.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "The Apache Lucene project develops open-source search software.",
+        "x": 14.0,
+        "y": 28.0,
+        "w": 45.0,
+        "h": 20.0
+      },
+      {
+        "role": "logo",
+        "text": "Solr",
+        "x": 14.0,
+        "y": 55.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "button",
+        "text": "DOWNLOAD",
+        "x": 71.0,
+        "y": 13.0,
+        "w": 17.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-040.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-040.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659133.7824955,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Welcome to Apache Lucene",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "boun Apiche Sot nd fliucserch' Indexing perormukQ Licene isthe serch core ol Aprche Lucent set the slndhrd for stych and\nWelcome to Apache Lucene DOWNLOAD\nAo++* L*** 9!1.\nThe Apsche Lucere\" project derelops oper-source search sotwlre. The project releaits a core starth\nHbriry. pured Lxtme' cort. ai wtl as Plu<trt. + pylhon blrdng for Lutre. Projects\nCot. indexlng aed selrch features, ds med as4 Wb project proride Pytoa bindings Ioe Locene Lucere Core I a yva Lbrsy provaing powtful sptkhecisg. hr hgylghg uod uavsred Lrshals,/tokenluatlon Capabak les, The PYlucere Latest Lucene Core News Apche Lucene'l 9.11.0 vallable cot Apche Lctre' &.li3 rvulable ct/.t Apche Luctne ' 9.1o.0 malible co.It About Luctre Coe (ra) PLott Open Relvurce (Dhcontirued)\nUemye\nSolr rtpothtories hrvt churgtd, peat stt detlls on Le Sok wtbsite. (TU., Alt chngt Solr can now be fourd at https://solr,apuche.org!. Lallng iis Lrd gt AxNouNCeuEn't: The Solr\" yub project has moved to a stpurate Top Level Project T hem. Who W't te Colt a Condut\nEvents\nThe Apache Software Foundation DCommunity Over Code Korh Amrrk& 2024",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1716.54
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Apache Lucene set the standard for search and\nindexing performance. Lucene is the search core of\nboth Apache Solr and Elasticsearch™.\n\nWelcome to Apache Lucene\n\nThe Apache Lucene™ project develops open-source search software. The project releases a core search\nlibrary, named Lucene™ core, as well as PyLucene, a python binding for Lucene.\n\nLucene Core is a Java library providing powerful\nindexing and search features, as well as\nspellchecking, hit highlighting, and advanced\nanalysis/tokenization capabilities. The PyLucene\nsub project provides Python bindings for Lucene\nCore.\n\nLatest Lucene Core News\nApache Lucene™ 9.11.0 available\nApache Lucene™ 9.10.0 available\nApache Lucene™ 8.11.3 available\n\nANNOUNCEMENT: The Solr™ sub project has moved to a separate Top Level Project (TLP). All things Solr can now be found at https://solr.apache.org/. Mailing lists and git\nrepositories have changed, please see details on the Solr website.\n\nDOWNLOAD\nApache Lucene 9.11.0\n\nProjects\nLucene Core (Java)\nPyLucene\nOpen Relevance\n(Discontinued)\n\nAbout\nLicense\nWho We Are\nTLP News\nCode of Conduct\n\nEvents\nCommunity Over Code\nNorth America 2024",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected from the image; obvious errors fixed and unreadable dates omitted rather than guessed."
+  }
+}

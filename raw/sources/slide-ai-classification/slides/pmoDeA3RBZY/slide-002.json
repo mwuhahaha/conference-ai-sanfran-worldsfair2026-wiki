@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "I wake up\nthere is a new technological advancement",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large simple meme-style slide; direct read is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f6f5f2",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "I wake up",
+        "x": 55.0,
+        "y": 8.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "there is a new technological advancement",
+        "x": 52.0,
+        "y": 61.0,
+        "w": 30.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/pmoDeA3RBZY/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670672.4620433,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "I wake up\nthere is a new technological advancement",
+  "advanced_ocr": {}
+}

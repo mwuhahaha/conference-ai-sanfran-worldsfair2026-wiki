@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Domain Specific Agents...\nFar more efficient with tokens\nMake small language models practical\nCan enforce strict limits on capabilities\nc> bypass permn ssions on (shift+tab to cycle)",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Contains a dense code screenshot; OCR should capture the small embedded text more reliably than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Domain Specific Agents...",
+        "x": 23.0,
+        "y": 7.0,
+        "w": 55.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Far more efficient with tokens",
+        "x": 8.0,
+        "y": 30.0,
+        "w": 38.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Make small language models practical",
+        "x": 8.0,
+        "y": 42.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Can enforce strict limits on capabilities",
+        "x": 8.0,
+        "y": 53.0,
+        "w": 50.0,
+        "h": 10.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 8.0,
+        "y": 68.0,
+        "w": 61.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 73.0,
+        "y": 21.0,
+        "w": 22.0,
+        "h": 63.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-023.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-023.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672228.5440764,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Domain Specific Agents...",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Domain Specific Agents...\nFar more efficient with tokens\nMake small language models practical\nCan enforce strict limits on capabilities\nc> bypass permn ssions on (shift+tab to cycle)",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 334.88
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Domain Specific Agents...\nFar more efficient with tokens\nMake small language models practical\nCan enforce strict limits on capabilities\nc> bypass permn ssions on (shift+tab to cycle)",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

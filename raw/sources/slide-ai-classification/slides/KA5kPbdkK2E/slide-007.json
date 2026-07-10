@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE Nicis-Degrandet swarmia APp 2 Apr at 9:15 AM\n3fileschanged1690.Merged\nBenjaminVerbeek approved\n8comments by Niels Degrande,Benjamin Verbeek,and 1 other\nbLovable\nEngineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Embedded code-review UI screenshot with dense text; OCR is better for the small content.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with soft rainbow gradient and black footer band",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "swarmia",
+        "x": 36.0,
+        "y": 15.0,
+        "w": 50.0,
+        "h": 29.0
+      },
+      {
+        "role": "title",
+        "text": "Engineering the future of AI",
+        "x": 40.0,
+        "y": 81.0,
+        "w": 42.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/KA5kPbdkK2E/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660865.9507327,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "AIE Nicis-Degrandet swarmia APp 2 Apr at 9:15 AM\n3fileschanged1690.Merged\nBenjaminVerbeek approved\n8comments by Niels Degrande,Benjamin Verbeek,and 1 other\nbLovable\nEngineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 283.36
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "AIE Nicis-Degrandet swarmia APp 2 Apr at 9:15 AM\n3fileschanged1690.Merged\nBenjaminVerbeek approved\n8comments by Niels Degrande,Benjamin Verbeek,and 1 other\nbLovable\nEngineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

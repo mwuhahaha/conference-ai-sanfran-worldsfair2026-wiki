@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "GPT-4 and GPT-4 Turbo models",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Documentation page screenshot with a large title and dense table content; OCR is needed for the table and side navigation.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "GPT-4 and GPT-4 Turbo models",
+        "x": 26.0,
+        "y": 3.0,
+        "w": 45.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "These models can only be used with the Chat Completion API.",
+        "x": 28.0,
+        "y": 11.0,
+        "w": 48.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Model ID",
+        "x": 28.0,
+        "y": 27.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Description",
+        "x": 42.0,
+        "y": 27.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Max Request (tokens)",
+        "x": 60.0,
+        "y": 27.0,
+        "w": 18.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657352.7715178,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "GPT-4 and GPT-4 Turbo models",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

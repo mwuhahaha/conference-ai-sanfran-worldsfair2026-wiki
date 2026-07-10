@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "what people think the agent is\nmodel\nruntime / sandbox\ntools\nloop\nframework",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "blue and teal blurred stage background around white slide",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "what people think the agent is",
+        "x": 14.0,
+        "y": 12.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "model\nruntime / sandbox\ntools\nloop\nframework",
+        "x": 15.0,
+        "y": 24.0,
+        "w": 30.0,
+        "h": 36.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/I2cbIws9j10/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659907.804288,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "what people think the agent is\nmodel\nruntime / sandbox\ntools\nloop\nframework",
+  "advanced_ocr": {}
+}

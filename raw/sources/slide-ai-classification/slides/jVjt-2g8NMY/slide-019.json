@@ -1,0 +1,202 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "agent can see all the code and mber every decision made.\nSessionA sthrefsoos SessionC A01V2\nSession B aodsso\ntep05 sok\nsuth-lib repo1 gateway reoo3 api-core r0004\ntokens repo?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with multiple small labels and a dense layout; OCR is likely better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#0b0b0c",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The agent can see all the code and remember every decision made.",
+        "x": 3.0,
+        "y": 5.0,
+        "w": 58.0,
+        "h": 14.0
+      },
+      {
+        "role": "caption",
+        "text": "SUMMARY",
+        "x": 3.0,
+        "y": 2.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Session A",
+        "x": 27.0,
+        "y": 18.0,
+        "w": 8.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "auth refactor",
+        "x": 27.0,
+        "y": 24.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Session B",
+        "x": 43.0,
+        "y": 29.0,
+        "w": 8.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "add SSO",
+        "x": 44.0,
+        "y": 35.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Session C",
+        "x": 61.0,
+        "y": 19.0,
+        "w": 8.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "API v2",
+        "x": 62.0,
+        "y": 25.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "auth-lib",
+        "x": 28.0,
+        "y": 62.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "repo 1",
+        "x": 29.0,
+        "y": 68.0,
+        "w": 5.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "tokens",
+        "x": 39.0,
+        "y": 70.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "repo 2",
+        "x": 40.0,
+        "y": 76.0,
+        "w": 5.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "gateway",
+        "x": 48.0,
+        "y": 61.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "repo 3",
+        "x": 49.0,
+        "y": 67.0,
+        "w": 5.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "api-core",
+        "x": 61.0,
+        "y": 53.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "repo 4",
+        "x": 62.0,
+        "y": 59.0,
+        "w": 5.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "sdk",
+        "x": 72.0,
+        "y": 42.0,
+        "w": 5.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "repo 5",
+        "x": 73.0,
+        "y": 48.0,
+        "w": 5.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "web",
+        "x": 63.0,
+        "y": 83.0,
+        "w": 5.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "repo 6",
+        "x": 64.0,
+        "y": 89.0,
+        "w": 5.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670502.9212625,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/contrast",
+    "text": "agent can see all the code and mber every decision made.\nSessionA sthrefsoos SessionC A01V2\nSession B aodsso\ntep05 sok\nsuth-lib repo1 gateway reoo3 api-core r0004\ntokens repo?",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 368.96
+  },
+  "ocr_source": "rapidocr-live/center-82/contrast",
+  "ocr_reconcile": {
+    "text": "agent can see all the code and mber every decision made.\nSessionA sthrefsoos SessionC A01V2\nSession B aodsso\ntep05 sok\nsuth-lib repo1 gateway reoo3 api-core r0004\ntokens repo?",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

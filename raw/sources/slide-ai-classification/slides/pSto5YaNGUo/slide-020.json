@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Sampling coverage — representativeness proof",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense screenshot with small text, headings, and a long assumptions block.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "near-black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Sampling coverage — representativeness proof",
+        "x": 13.0,
+        "y": 27.0,
+        "w": 44.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "ASSUMPTIONS",
+        "x": 13.0,
+        "y": 45.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Remedies",
+        "x": 13.0,
+        "y": 61.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-020.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671366.6327903,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Sampling coverage — representativeness proof",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/center-82/contrast",
+    "best_score": 728.44,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

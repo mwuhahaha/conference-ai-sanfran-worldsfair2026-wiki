@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Seheygant lyons RT\nCrpanitao\nOrginiation TolaiCom\n74 AivaCtC 7\n24\nHepinguitorTrn\nWia hgiiny\nQoigaeuteTund\nCelirs Shy Touns\nCppeAnan FDestiNMe 5.4 M 4.00 $5008 MsChu e Maint Cver Swtimes O\nrotgil Cueta Bocw\nAtooifen\n3,320 8% 73",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-panel dashboard content with tables, charts, and small labels is better OCRed.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Organizations",
+        "x": 65.0,
+        "y": 36.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Insight Performance",
+        "x": 6.0,
+        "y": 58.0,
+        "w": 13.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Top Insights",
+        "x": 25.0,
+        "y": 58.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Message Sources",
+        "x": 55.0,
+        "y": 58.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "User Sentiment",
+        "x": 84.0,
+        "y": 58.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Tool Usage",
+        "x": 6.0,
+        "y": 84.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Tool Failures",
+        "x": 55.0,
+        "y": 84.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Score Distribution",
+        "x": 6.0,
+        "y": 37.0,
+        "w": 12.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670147.5055652,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Seheygant lyons RT\nCrpanitao\nOrginiation TolaiCom\n74 AivaCtC 7\n24\nHepinguitorTrn\nWia hgiiny\nQoigaeuteTund\nCelirs Shy Touns\nCppeAnan FDestiNMe 5.4 M 4.00 $5008 MsChu e Maint Cver Swtimes O\nrotgil Cueta Bocw\nAtooifen\n3,320 8% 73",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 339.8
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Seheygant lyons RT\nCrpanitao\nOrginiation TolaiCom\n74 AivaCtC 7\n24\nHepinguitorTrn\nWia hgiiny\nQoigaeuteTund\nCelirs Shy Touns\nCppeAnan FDestiNMe 5.4 M 4.00 $5008 MsChu e Maint Cver Swtimes O\nrotgil Cueta Bocw\nAtooifen\n3,320 8% 73",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

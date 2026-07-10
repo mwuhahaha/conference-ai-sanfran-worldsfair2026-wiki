@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Optimizers\nDSPy has various built-in primitives that allow you to then optimize your program. This allows you to quantitatively improve your performance and cost profile.\n\n“A DSPy optimizer is an algorithm that can tune the parameters of a DSPy program (i.e., the prompts and/or the LM weights) to maximize the metrics you specify, like accuracy.”",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#273937",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Optimizers",
+        "x": 4.0,
+        "y": 5.0,
+        "w": 22.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "DSPy has various built-in primitives that allow you to then optimize your program. This allows you to quantitatively improve your performance and cost profile.",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 86.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "“A DSPy optimizer is an algorithm that can tune the parameters of a DSPy program (i.e., the prompts and/or the LM weights) to maximize the metrics you specify, like accuracy.”",
+        "x": 4.0,
+        "y": 56.0,
+        "w": 88.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655268.3359714,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Optimizers\nDSPy has various built-in primitives that allow you to then optimize your program. This allows you to quantitatively improve your performance and cost profile.\n\n“A DSPy optimizer is an algorithm that can tune the parameters of a DSPy program (i.e., the prompts and/or the LM weights) to maximize the metrics you specify, like accuracy.”",
+  "advanced_ocr": {}
+}

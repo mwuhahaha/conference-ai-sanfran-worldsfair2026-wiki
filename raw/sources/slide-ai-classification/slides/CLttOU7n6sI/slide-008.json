@@ -1,0 +1,88 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Three-column text slide is OCR-suitable and should be handled by OCR rather than manual transcription in triage.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f7f2e8",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "So, we naturally swapped in a coding agent",
+        "x": 5.0,
+        "y": 8.0,
+        "w": 60.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Gives the agent the ability to delight",
+        "x": 5.0,
+        "y": 38.0,
+        "w": 26.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "The agent can find clever ways to solve underspecified problems, create fancy visualizations, and answer related questions",
+        "x": 5.0,
+        "y": 54.0,
+        "w": 28.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "The agent can explore and edit efficiently",
+        "x": 37.0,
+        "y": 38.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Loops over graphs, scripts to unpack and summarize node content, same pattern of data exploration as agentic data science",
+        "x": 37.0,
+        "y": 54.0,
+        "w": 24.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Flexibility and power to do stuff outside what we designed it for",
+        "x": 69.0,
+        "y": 38.0,
+        "w": 27.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "We consistently find entirely new use cases via the new questions users ask of the agent",
+        "x": 69.0,
+        "y": 56.0,
+        "w": 27.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/CLttOU7n6sI/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659155.9415598,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

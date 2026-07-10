@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mima Nows口 Conversations Justnow G Sync\niversations Settings\nAccounts APICredentials AI Feed Muted Dangerous\ndigests. Configure howMima usesAl to summarizeyour social feeds and generate topic Current Configuration Configure mima.social\nUsingOpenAl erAnthropicAPI\nVAPI Key-Ready\nAboutAl Features\nbsic keyordbaed summareFor bet eultusn alargr mcdel like LorQwn 2. 78 Alisusd tociuster smiatpost nto topics and generate summanesWitout At.topicswl show\nGolden Dataset\n@rachelnabors@edittrameThatisa fantasticusecase\nCarl Assmann,SecFault & 16 others X",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product UI screenshot with many small labels and modal text; OCR should handle it better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#101218",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Settings",
+        "x": 25.0,
+        "y": 11.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Accounts  API Credentials  AI  Feed  Muted  Dangerous",
+        "x": 24.0,
+        "y": 16.0,
+        "w": 56.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Configure how Mima uses AI to summarize your social feeds and generate topic digests.",
+        "x": 27.0,
+        "y": 28.0,
+        "w": 46.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Current Configuration",
+        "x": 29.0,
+        "y": 43.0,
+        "w": 25.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "mima social",
+        "x": 95.0,
+        "y": 22.0,
+        "w": 4.0,
+        "h": 40.0
+      },
+      {
+        "role": "caption",
+        "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+        "x": 0,
+        "y": 0,
+        "w": 7.0,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667987.5296273,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Settings",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mima Nows口 Conversations Justnow G Sync\niversations Settings\nAccounts APICredentials AI Feed Muted Dangerous\ndigests. Configure howMima usesAl to summarizeyour social feeds and generate topic Current Configuration Configure mima.social\nUsingOpenAl erAnthropicAPI\nVAPI Key-Ready\nAboutAl Features\nbsic keyordbaed summareFor bet eultusn alargr mcdel like LorQwn 2. 78 Alisusd tociuster smiatpost nto topics and generate summanesWitout At.topicswl show\nGolden Dataset\n@rachelnabors@edittrameThatisa fantasticusecase\nCarl Assmann,SecFault & 16 others X",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 823.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mima Nows口 Conversations Justnow G Sync\niversations Settings\nAccounts APICredentials AI Feed Muted Dangerous\ndigests. Configure howMima usesAl to summarizeyour social feeds and generate topic Current Configuration Configure mima.social\nUsingOpenAl erAnthropicAPI\nVAPI Key-Ready\nAboutAl Features\nbsic keyordbaed summareFor bet eultusn alargr mcdel like LorQwn 2. 78 Alisusd tociuster smiatpost nto topics and generate summanesWitout At.topicswl show\nGolden Dataset\n@rachelnabors@edittrameThatisa fantasticusecase\nCarl Assmann,SecFault & 16 others X",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

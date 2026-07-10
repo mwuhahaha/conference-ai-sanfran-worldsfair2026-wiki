@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "PrOpLAiT HARHESS CHGINEIRING.THE FACTORY ADAPTIVE CNGINEERIRC. IHE FOREST\nfron Hhere ordel coaes Iposed up front, by dosigner interaction Emerges afterwaids,fron\nHarness Properties Unlt o2 cosign ittell Control The tarm+!! An input = you author It The agent and Its wixing. Centralised Osinglo principal Tho rolationship coupling. becone the harness Partly an output energent noras exchange, constraint pxincipal Distributed - no central\nVS Boundary Closed - porutes its past Opon co.adapts with its world\nAdaptative Engineer the outcome cultivate tho macro Engineer tho unit Oconstraints:\nProperties Causality \"hettor\" [+ans) Linear, Enspectable paths Optinise tomard. fixed etric Hon-linear, energent, Irreducible Co-adapt as the landscape royes (Red Queen)\nAdaptatlon Done to ito offline, between releases 'continuously Done by It = in the field,\nMen it faills The failure bas an owner The failure has only a shape\nBest for Closed, deterainistic. cortifiable tasks Open, shlfting, novelty-seoking frontios\nrajivchandegra.con jiv Chandegra LIBS ANICHHA",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense comparison table with small text; OCR is appropriate for accurate extraction.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#000000",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Harness\nProperties\nvs\nAdaptative\nProperties",
+        "x": 5.0,
+        "y": 17.0,
+        "w": 24.0,
+        "h": 34.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "PROPERTY\nHARNESS ENGINEERING • THE FACTORY\nADAPTIVE ENGINEERING • THE FOREST",
+        "x": 39.0,
+        "y": 6.0,
+        "w": 56.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Where order comes from\nThe harness itself\nUnit of design\nControl\nBoundary\nThe verb\nCausality\n\"Better\" means\nAdaptation\nWhen it fails\nBest for",
+        "x": 39.0,
+        "y": 14.0,
+        "w": 15.0,
+        "h": 78.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/qdZzND79mcg/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671386.7730484,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Harness Properties vs Adaptative Properties",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "PrOpLAiT HARHESS CHGINEIRING.THE FACTORY ADAPTIVE CNGINEERIRC. IHE FOREST\nfron Hhere ordel coaes Iposed up front, by dosigner interaction Emerges afterwaids,fron\nHarness Properties Unlt o2 cosign ittell Control The tarm+!! An input = you author It The agent and Its wixing. Centralised Osinglo principal Tho rolationship coupling. becone the harness Partly an output energent noras exchange, constraint pxincipal Distributed - no central\nVS Boundary Closed - porutes its past Opon co.adapts with its world\nAdaptative Engineer the outcome cultivate tho macro Engineer tho unit Oconstraints:\nProperties Causality \"hettor\" [+ans) Linear, Enspectable paths Optinise tomard. fixed etric Hon-linear, energent, Irreducible Co-adapt as the landscape royes (Red Queen)\nAdaptatlon Done to ito offline, between releases 'continuously Done by It = in the field,\nMen it faills The failure bas an owner The failure has only a shape\nBest for Closed, deterainistic. cortifiable tasks Open, shlfting, novelty-seoking frontios\nrajivchandegra.con jiv Chandegra LIBS ANICHHA",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1512.74
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "PrOpLAiT HARHESS CHGINEIRING.THE FACTORY ADAPTIVE CNGINEERIRC. IHE FOREST\nfron Hhere ordel coaes Iposed up front, by dosigner interaction Emerges afterwaids,fron\nHarness Properties Unlt o2 cosign ittell Control The tarm+!! An input = you author It The agent and Its wixing. Centralised Osinglo principal Tho rolationship coupling. becone the harness Partly an output energent noras exchange, constraint pxincipal Distributed - no central\nVS Boundary Closed - porutes its past Opon co.adapts with its world\nAdaptative Engineer the outcome cultivate tho macro Engineer tho unit Oconstraints:\nProperties Causality \"hettor\" [+ans) Linear, Enspectable paths Optinise tomard. fixed etric Hon-linear, energent, Irreducible Co-adapt as the landscape royes (Red Queen)\nAdaptatlon Done to ito offline, between releases 'continuously Done by It = in the field,\nMen it faills The failure bas an owner The failure has only a shape\nBest for Closed, deterainistic. cortifiable tasks Open, shlfting, novelty-seoking frontios\nrajivchandegra.con jiv Chandegra LIBS ANICHHA",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

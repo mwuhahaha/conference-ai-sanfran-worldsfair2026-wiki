@@ -1,0 +1,1202 @@
+{
+  "video_id": "D4Dswf-__RM",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 16,
+  "rejected_count": 4,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Good morning!\nWhat should we\nbuild today?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple product slide; direct read is sufficient",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black with subtle concentric wave texture",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 12.0,
+            "w": 10.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "Good morning!\nWhat should we\nbuild today?",
+            "x": 58.0,
+            "y": 13.0,
+            "w": 30.0,
+            "h": 31.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 86.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "smol.ai",
+            "x": 73.0,
+            "y": 86.0,
+            "w": 15.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-003.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658920.5703647,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Good morning!\nWhat should we\nbuild today?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI Agent",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple diagram slide; direct read is sufficient",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 12.0,
+            "w": 10.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "AI Agent",
+            "x": 52.0,
+            "y": 39.0,
+            "w": 13.0,
+            "h": 11.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 86.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "smol.ai",
+            "x": 73.0,
+            "y": 86.0,
+            "w": 15.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-004.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658920.5755787,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Agent",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI Agent",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "diagram-like slide with minimal text",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 12.0,
+            "w": 10.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "AI Agent",
+            "x": 51.0,
+            "y": 33.0,
+            "w": 14.0,
+            "h": 11.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 62.0,
+            "y": 83.0,
+            "w": 11.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-005.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658920.5767655,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Agent",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": false,
+      "ocr_reason": "diagram slide with no readable body text",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 12.0,
+            "w": 10.0,
+            "h": 15.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 62.0,
+            "y": 83.0,
+            "w": 11.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-006.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658920.5773203,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.92,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Compliance",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense small compliance list and labels likely better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with subtle radial pattern",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Compliance",
+            "x": 49.0,
+            "y": 4.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 9.0,
+            "h": 17.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 63.0,
+            "y": 74.0,
+            "w": 12.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-007.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659004.1887329,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Compliance",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/full",
+        "best_score": 59.12
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Persona Shadowing",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black with subtle radial pattern",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Persona Shadowing",
+            "x": 42.0,
+            "y": 3.0,
+            "w": 35.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 48.0,
+            "y": 86.0,
+            "w": 19.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 72.0,
+            "y": 86.0,
+            "w": 12.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 9.0,
+            "h": 17.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-008.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659073.8705812,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Persona Shadowing",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Delegation Chains",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black with subtle radial pattern",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Delegation Chains",
+            "x": 44.0,
+            "y": 3.0,
+            "w": 27.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 9.0,
+            "h": 17.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 48.0,
+            "y": 86.0,
+            "w": 19.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 72.0,
+            "y": 86.0,
+            "w": 12.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-009.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659073.8715808,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Delegation Chains",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Capability-Based Tokens",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black with subtle radial pattern",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Capability-Based Tokens",
+            "x": 39.0,
+            "y": 4.0,
+            "w": 39.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 62.0,
+            "y": 86.0,
+            "w": 11.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 9.0,
+            "h": 17.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-010.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659073.8722668,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Capability-Based Tokens",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Persona Shadowing\nDelegation Chains\nCapability Tokens\nEscalation to Human",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with subtle radial pattern",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Persona Shadowing",
+            "x": 30.0,
+            "y": 10.0,
+            "w": 27.0,
+            "h": 25.0
+          },
+          {
+            "role": "body",
+            "text": "Delegation Chains",
+            "x": 59.0,
+            "y": 10.0,
+            "w": 27.0,
+            "h": 25.0
+          },
+          {
+            "role": "body",
+            "text": "Capability Tokens",
+            "x": 30.0,
+            "y": 40.0,
+            "w": 27.0,
+            "h": 25.0
+          },
+          {
+            "role": "body",
+            "text": "Escalation to Human",
+            "x": 59.0,
+            "y": 40.0,
+            "w": 27.0,
+            "h": 25.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 86.0,
+            "w": 19.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 72.0,
+            "y": 86.0,
+            "w": 12.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 9.0,
+            "h": 17.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-011.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659073.872992,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Persona Shadowing\nDelegation Chains\nCapability Tokens\nEscalation to Human",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE TTPS SSININLPKAGKLnWPAGIAININ FT POS CORS CIAM AaI SSPM ABAC MoE Ops IOU TPU HSS OSS CSRF TTS VPN EKM ROC CLI MFA SOC U2F ASR PKI GPGPU CPUC NOSr OIDC 2FA TOTP WAF CSPM CV OCR GPU YAML SCIM IAMRBAC FIDO ACL CPU API OIDC DSL MTTI IDP GNA DS M\nFRA RRAR 回心 HTTPS Ainr\nMicrosoft smol 3i\nWorssFai",
+      "text_status": "decorative",
+      "ocr_ready": true,
+      "ocr_reason": "Dense acronym wall is OCR-suitable and likely cheaper than visual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with subtle radial pattern",
+        "style": "code",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-012.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659073.87379,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "AIE TTPS SSININLPKAGKLnWPAGIAININ FT POS CORS CIAM AaI SSPM ABAC MoE Ops IOU TPU HSS OSS CSRF TTS VPN EKM ROC CLI MFA SOC U2F ASR PKI GPGPU CPUC NOSr OIDC 2FA TOTP WAF CSPM CV OCR GPU YAML SCIM IAMRBAC FIDO ACL CPU API OIDC DSL MTTI IDP GNA DS M\nFRA RRAR 回心 HTTPS Ainr\nMicrosoft smol 3i\nWorssFai",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 649.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "",
+        "text_status": "decorative",
+        "corrections": "OCR mostly captured a decorative acronym cloud; no meaningful slide text to transcribe."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "GNAP\nGrant Negotiation and Authorization Protocol\n(RFC 9635)",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#050505",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 9.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "GNAP",
+            "x": 51.0,
+            "y": 32.0,
+            "w": 14.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Grant Negotiation and Authorization Protocol",
+            "x": 43.0,
+            "y": 45.0,
+            "w": 31.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "(RFC 9635)",
+            "x": 50.0,
+            "y": 55.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 87.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 72.0,
+            "y": 87.0,
+            "w": 15.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-013.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659247.9418526,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "GNAP\nGrant Negotiation and Authorization Protocol\n(RFC 9635)",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.92,
+      "frame_type": "diagram",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#050505",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 9.0,
+            "h": 15.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-014.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659247.9454288,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "diagram",
+      "reject_reason": "",
+      "text": "AuthKit\nFGA\nRadar",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#050505",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 9.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "AuthKit",
+            "x": 47.0,
+            "y": 39.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "FGA",
+            "x": 49.0,
+            "y": 51.0,
+            "w": 12.0,
+            "h": 9.0
+          },
+          {
+            "role": "title",
+            "text": "Radar",
+            "x": 47.0,
+            "y": 63.0,
+            "w": 15.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 46.0,
+            "y": 87.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 72.0,
+            "y": 87.0,
+            "w": 15.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-015.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659247.9463737,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AuthKit\nFGA\nRadar",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.83,
+      "frame_type": "other",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#050505",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 9.0,
+            "h": 15.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 46.0,
+            "y": 87.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 72.0,
+            "y": 87.0,
+            "w": 15.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-016.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659247.947364,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.9,
+      "frame_type": "diagram",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#050505",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 9.0,
+            "h": 15.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 62.0,
+            "y": 86.0,
+            "w": 9.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-017.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659247.948137,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Find me on X to discuss\nidentity for AI agents\n@grinich",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#050505",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 9.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "Find me on X to discuss",
+            "x": 36.0,
+            "y": 18.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "identity for AI agents",
+            "x": 38.0,
+            "y": 29.0,
+            "w": 38.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "@grinich",
+            "x": 56.0,
+            "y": 55.0,
+            "w": 17.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-018.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659247.9487588,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Find me on X to discuss\nidentity for AI agents\n@grinich",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/D4Dswf-__RM/slide-018.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "sponsor logo wall",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "logo wall, not OCR-worthy content",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "INNOVATION PARTNER",
+            "x": 39.0,
+            "y": 8.0,
+            "w": 23.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 41.0,
+            "y": 15.0,
+            "w": 18.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "PLATINUM SPONSORS",
+            "x": 38.0,
+            "y": 33.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Graphite",
+            "x": 11.0,
+            "y": 41.0,
+            "w": 24.0,
+            "h": 11.0
+          },
+          {
+            "role": "logo",
+            "text": "Windsurf",
+            "x": 38.0,
+            "y": 41.0,
+            "w": 24.0,
+            "h": 11.0
+          },
+          {
+            "role": "logo",
+            "text": "MongoDB.",
+            "x": 66.0,
+            "y": 40.0,
+            "w": 22.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "daily",
+            "x": 11.0,
+            "y": 58.0,
+            "w": 15.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "augment code",
+            "x": 32.0,
+            "y": 58.0,
+            "w": 32.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "WorkOS",
+            "x": 68.0,
+            "y": 58.0,
+            "w": 20.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-001.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658920.5676646,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.96,
+      "frame_type": "title_card",
+      "reject_reason": "title card / intro slide",
+      "text": "Identity for AI:\nWho are your agents\nand what can they do?\nMichael Grinich\nCEO, WorkOS",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple title card; direct read is sufficient",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black with subtle concentric wave texture and dotted burst on right",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 12.0,
+            "w": 10.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "Identity for AI:\nWho are your agents\nand what can they do?",
+            "x": 20.0,
+            "y": 5.0,
+            "w": 48.0,
+            "h": 28.0
+          },
+          {
+            "role": "caption",
+            "text": "Michael Grinich\nCEO, WorkOS",
+            "x": 20.0,
+            "y": 70.0,
+            "w": 23.0,
+            "h": 13.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 87.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "smol.ai",
+            "x": 73.0,
+            "y": 86.0,
+            "w": 15.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-002.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658920.5692286,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Identity for AI:\nWho are your agents\nand what can they do?\nMichael Grinich\nCEO, WorkOS",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker on stage with podium; only a cropped, unreadable presentation screen edge is visible.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Non-slide stage shot with no readable slide content.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "black stage curtains with a cropped projection screen at right",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "World's Fair",
+            "x": 49.0,
+            "y": 53.0,
+            "w": 11.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-019.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659278.4696581,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker-at-podium shot; the visible slide is only a narrow cropped edge and not readable.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Non-slide stage shot with no readable slide content.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "black stage curtains with a cropped presentation screen at right",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "World's Fair",
+            "x": 49.0,
+            "y": 53.0,
+            "w": 12.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-020.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659278.4704003,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

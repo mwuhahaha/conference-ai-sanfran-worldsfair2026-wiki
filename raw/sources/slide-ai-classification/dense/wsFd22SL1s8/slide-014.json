@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Mount Namespace Pid 2 Pid. \"Pid 101 P!d. 102\n/foo.:Userspace\nKernel.\nLinux Container with Pid and Mount Namespace'\nIpp nhods Python3.8, foo Eb vorslon 1.2, your sorrer has Python 3.9, 3.6, 3.12 and dootn't havd foo ib.:\nkage an app's dependercles along wth hs core business logic:\nRun ar bltrary user code on your machine. On Lnunt s Container ks a Colecton of Nsmespsces of differont resources (Process, Mourit, Not otc.).\nnside a contahner you only see resources n jour namespace and not ouside..\nCucide the contener you see eveythhg nslde your chldren namespuces\nRtsource alocaicn hoppens via CGroups ('how much rmemory or CPu to sbocire thhs namespace?)\n.$..\nContminenk Securkty Story",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Cropped text-heavy slide with bullets and diagram labels suited for OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f2f2f0",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "Linux Container with Pid and Mount Namespace",
+        "x": 18.0,
+        "y": 92.0,
+        "w": 44.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Why? - My app needs Python3.8, foo lib version 1.2, your server has Python 3.9, 3.6, 3.12 and doesn't have foo lib.",
+        "x": 2.0,
+        "y": 73.0,
+        "w": 86.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Package an app's dependencies along with its core business logic",
+        "x": 2.0,
+        "y": 79.0,
+        "w": 72.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Run arbitrary user code on your machine",
+        "x": 2.0,
+        "y": 84.0,
+        "w": 47.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "On Linux a Container is - Collection of Namespaces of different resources (Process, Mount, Net etc.).",
+        "x": 2.0,
+        "y": 88.0,
+        "w": 84.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Inside a container you only see resources in your namespace and not outside.",
+        "x": 2.0,
+        "y": 92.0,
+        "w": 84.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Outside the container you see everything inside your children namespaces",
+        "x": 2.0,
+        "y": 96.0,
+        "w": 82.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Resource allocation happens via CGroups (\"How much memory or CPU to allocate this namespace?\")",
+        "x": 2.0,
+        "y": 99.0,
+        "w": 88.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-014.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673078.7115045,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Linux Container with Pid and Mount Namespace",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Mount Namespace Pid 2 Pid. \"Pid 101 P!d. 102\n/foo.:Userspace\nKernel.\nLinux Container with Pid and Mount Namespace'\nIpp nhods Python3.8, foo Eb vorslon 1.2, your sorrer has Python 3.9, 3.6, 3.12 and dootn't havd foo ib.:\nkage an app's dependercles along wth hs core business logic:\nRun ar bltrary user code on your machine. On Lnunt s Container ks a Colecton of Nsmespsces of differont resources (Process, Mourit, Not otc.).\nnside a contahner you only see resources n jour namespace and not ouside..\nCucide the contener you see eveythhg nslde your chldren namespuces\nRtsource alocaicn hoppens via CGroups ('how much rmemory or CPu to sbocire thhs namespace?)\n.$..\nContminenk Securkty Story",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1055.28
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Mount Namespace Pid 2 Pid. \"Pid 101 P!d. 102\n/foo.:Userspace\nKernel.\nLinux Container with Pid and Mount Namespace'\nIpp nhods Python3.8, foo Eb vorslon 1.2, your sorrer has Python 3.9, 3.6, 3.12 and dootn't havd foo ib.:\nkage an app's dependercles along wth hs core business logic:\nRun ar bltrary user code on your machine. On Lnunt s Container ks a Colecton of Nsmespsces of differont resources (Process, Mourit, Not otc.).\nnside a contahner you only see resources n jour namespace and not ouside..\nCucide the contener you see eveythhg nslde your chldren namespuces\nRtsource alocaicn hoppens via CGroups ('how much rmemory or CPu to sbocire thhs namespace?)\n.$..\nContminenk Securkty Story",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

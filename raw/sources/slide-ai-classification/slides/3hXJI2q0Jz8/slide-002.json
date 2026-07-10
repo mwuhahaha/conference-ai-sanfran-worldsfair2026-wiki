@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "We all want outcomes.\nAgents that work on our behalf - reliable co-workers - while we're out on a hike.\nThe bottleneck is not intelligence. It's reliability. It's trust.\nOne day - my agents build me a full SaaS app from a single prompt.\nThe next day - they empty the entire contents of my Solana wallet.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "MOTIVATION",
+        "x": 25.0,
+        "y": 3.0,
+        "w": 10.0,
+        "h": 3.0
+      },
+      {
+        "role": "title",
+        "text": "We all want outcomes.",
+        "x": 25.0,
+        "y": 15.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Agents that work on our behalf - reliable co-workers - while we're out on a hike.",
+        "x": 25.0,
+        "y": 28.0,
+        "w": 52.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "The bottleneck is not intelligence. It's reliability. It's trust.",
+        "x": 25.0,
+        "y": 34.0,
+        "w": 52.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "One day - my agents build me a full SaaS app from a single prompt.\nThe next day - they empty the entire contents of my Solana wallet.",
+        "x": 25.0,
+        "y": 52.0,
+        "w": 54.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/3hXJI2q0Jz8/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657402.3053362,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "We all want outcomes.\nAgents that work on our behalf - reliable co-workers - while we're out on a hike.\nThe bottleneck is not intelligence. It's reliability. It's trust.\nOne day - my agents build me a full SaaS app from a single prompt.\nThe next day - they empty the entire contents of my Solana wallet.",
+  "advanced_ocr": {}
+}

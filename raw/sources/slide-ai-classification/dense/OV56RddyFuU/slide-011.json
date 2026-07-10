@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Local self-improving agents\nHermes Agent\nself-improvement is baked in: the approach as a reusable across sessions after the task, the agent saves 'skill\" and persists memory hermes chat --provider hf #use with inference providers HF_TOKEN=hf_... #usewith local served endpoint hermes config Set OPENAI BASE URL http://localhost:8080/v1 (llama.cpp & friends)\nProviders or serve LM locally Integrated with Inference hermes config set OPENAI API KEY dummy name hermes config set LLM_MoDEL your-model-\n#start chatting\nhermes chat",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense mixed text and code block are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3f5ef with pale green panel",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Local self-improving agents",
+        "x": 8.0,
+        "y": 4.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Hermes Agent",
+        "x": 8.0,
+        "y": 15.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "self-improvement is baked in:\nafter the task, the agent saves the approach as a reusable \"skill\" and persists memory across sessions\nIntegrated with Inference Providers or serve LM locally",
+        "x": 8.0,
+        "y": 23.0,
+        "w": 43.0,
+        "h": 50.0
+      },
+      {
+        "role": "code",
+        "text": "# use with inference providers\nHF_TOKEN=hf_...\nhermes chat --provider hf\n\n# use with local served endpoint\n(llama.cpp & friends)\nhermes config set OPENAI_BASE_URL\nhttp://localhost:8080/v1\nhermes config set OPENAI_API_KEY dummy\nhermes config set LLM_MODEL your-model-name\n\n# start chatting\nhermes chat",
+        "x": 54.0,
+        "y": 12.0,
+        "w": 38.0,
+        "h": 76.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662053.5360346,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Local self-improving agents",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Local self-improving agents\nHermes Agent\nself-improvement is baked in: the approach as a reusable across sessions after the task, the agent saves 'skill\" and persists memory hermes chat --provider hf #use with inference providers HF_TOKEN=hf_... #usewith local served endpoint hermes config Set OPENAI BASE URL http://localhost:8080/v1 (llama.cpp & friends)\nProviders or serve LM locally Integrated with Inference hermes config set OPENAI API KEY dummy name hermes config set LLM_MoDEL your-model-\n#start chatting\nhermes chat",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 782.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Local self-improving agents\nHermes Agent\nself-improvement is baked in: the approach as a reusable across sessions after the task, the agent saves 'skill\" and persists memory hermes chat --provider hf #use with inference providers HF_TOKEN=hf_... #usewith local served endpoint hermes config Set OPENAI BASE URL http://localhost:8080/v1 (llama.cpp & friends)\nProviders or serve LM locally Integrated with Inference hermes config set OPENAI API KEY dummy name hermes config set LLM_MoDEL your-model-\n#start chatting\nhermes chat",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "diagram",
+  "reject_reason": "",
+  "text": "CLOSETHELOOPWITHYOURBODY\n+★ ★? ★ ++ AIE ★ ★ got 4 hours of sleop. yourself. The system that ships your code also knows you Your physical context flows into the agentic loop. It adjusts the plan. lt protects you from Ring Oura MCP Server Code Claude How to Connect Your Oura Ring to Claude Desktop with MCP OURA MCP N Claude\nZ. Ler's tnock out sl 6 renniirg Bdea today\nreoonerend 2 sdoed mex soday. Pash che odher & to tomorron. Pl'tueg mopa Ah' seupnw 'dhep wzt p tro nok ppeD a Your body seys sose yp let's Detee?..1\nMCP AlEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Mixed diagram plus embedded screenshot with small labels; OCR should recover the detailed body copy and UI text better than manual triage.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#000000",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "CLOSE THE LOOP WITH YOUR BODY",
+        "x": 32.0,
+        "y": 12.0,
+        "w": 39.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Oura Ring",
+        "x": 33.0,
+        "y": 27.0,
+        "w": 7.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MCP Server",
+        "x": 44.0,
+        "y": 27.0,
+        "w": 9.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Claude Code",
+        "x": 55.0,
+        "y": 27.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "How to Connect Your Oura Ring to Claude Desktop with MCP",
+        "x": 67.0,
+        "y": 22.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 23.0,
+        "w": 12.0,
+        "h": 22.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 56.0,
+        "y": 78.0,
+        "w": 22.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-005.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671957.8717809,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "CLOSE THE LOOP WITH YOUR BODY",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "CLOSETHELOOPWITHYOURBODY\n+★ ★? ★ ++ AIE ★ ★ got 4 hours of sleop. yourself. The system that ships your code also knows you Your physical context flows into the agentic loop. It adjusts the plan. lt protects you from Ring Oura MCP Server Code Claude How to Connect Your Oura Ring to Claude Desktop with MCP OURA MCP N Claude\nZ. Ler's tnock out sl 6 renniirg Bdea today\nreoonerend 2 sdoed mex soday. Pash che odher & to tomorron. Pl'tueg mopa Ah' seupnw 'dhep wzt p tro nok ppeD a Your body seys sose yp let's Detee?..1\nMCP AlEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 896.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "CLOSETHELOOPWITHYOURBODY\n+★ ★? ★ ++ AIE ★ ★ got 4 hours of sleop. yourself. The system that ships your code also knows you Your physical context flows into the agentic loop. It adjusts the plan. lt protects you from Ring Oura MCP Server Code Claude How to Connect Your Oura Ring to Claude Desktop with MCP OURA MCP N Claude\nZ. Ler's tnock out sl 6 renniirg Bdea today\nreoonerend 2 sdoed mex soday. Pash che odher & to tomorron. Pl'tueg mopa Ah' seupnw 'dhep wzt p tro nok ppeD a Your body seys sose yp let's Detee?..1\nMCP AlEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

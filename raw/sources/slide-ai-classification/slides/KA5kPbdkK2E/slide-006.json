@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Lovable Main Agent [venting...]APp 23 Mar at 4:42 PM\nAgent Vent\nAIE code--copy consistently fails for user-uploaded fles with spaces in the filename (e.g. \"Screenshot_2026-03-23_at_9.52.56 AM-2.png\"). Tried both raw spaces and URL-encoded %20. Only fles without spaces in their names (e.g. \"PNG_image-2.png\") copy successfully. This blocks\nusing user-uploaded screenshots in projects. The files ARE visible via lov-view (renders the image),\nbut copy always says \"source fle does not exist\".\nAlmessage| Braintrust|PostHog Project: 985c0363-d79e-42fa-b548-38c5213503c5\nAtegree AlEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense embedded UI screenshot with small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black screenshot panel and rainbow corner gradient",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 26.0,
+        "y": 7.0,
+        "w": 73.0,
+        "h": 63.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 41.0,
+        "y": 83.0,
+        "w": 25.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/KA5kPbdkK2E/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660830.8456936,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Lovable Main Agent [venting...]APp 23 Mar at 4:42 PM\nAgent Vent\nAIE code--copy consistently fails for user-uploaded fles with spaces in the filename (e.g. \"Screenshot_2026-03-23_at_9.52.56 AM-2.png\"). Tried both raw spaces and URL-encoded %20. Only fles without spaces in their names (e.g. \"PNG_image-2.png\") copy successfully. This blocks\nusing user-uploaded screenshots in projects. The files ARE visible via lov-view (renders the image),\nbut copy always says \"source fle does not exist\".\nAlmessage| Braintrust|PostHog Project: 985c0363-d79e-42fa-b548-38c5213503c5\nAtegree AlEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 846.04
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Lovable Main Agent [venting...]APp 23 Mar at 4:42 PM\nAgent Vent\nAIE code--copy consistently fails for user-uploaded fles with spaces in the filename (e.g. \"Screenshot_2026-03-23_at_9.52.56 AM-2.png\"). Tried both raw spaces and URL-encoded %20. Only fles without spaces in their names (e.g. \"PNG_image-2.png\") copy successfully. This blocks\nusing user-uploaded screenshots in projects. The files ARE visible via lov-view (renders the image),\nbut copy always says \"source fle does not exist\".\nAlmessage| Braintrust|PostHog Project: 985c0363-d79e-42fa-b548-38c5213503c5\nAtegree AlEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

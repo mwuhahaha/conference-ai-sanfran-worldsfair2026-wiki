@@ -1,0 +1,79 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What Model is State-of-the-Art?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Scatter plots and small axis labels are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#130914",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What Model is State-of-the-Art?",
+        "x": 28.0,
+        "y": 6.0,
+        "w": 41.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "There are multiple SOTA AI models",
+        "x": 29.0,
+        "y": 17.0,
+        "w": 32.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "two scatter plots comparing quality vs time and quality vs price",
+        "x": 28.0,
+        "y": 26.0,
+        "w": 64.0,
+        "h": 40.0
+      },
+      {
+        "role": "caption",
+        "text": "Efficiency metric",
+        "x": 46.0,
+        "y": 69.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 42.0,
+        "y": 87.0,
+        "w": 24.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/hqHC6Z_lXyo/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668705.6066625,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What Model is State-of-the-Art?",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/border-trim/contrast",
+    "best_score": 281.68,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0117
+  }
+}

@@ -19,181 +19,156 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/vljxQZfJ9wY/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
 
-> ee
-> \ Oo o ° [GZ
-> ProductionEvals = {23> / (te
-> e N “ “LOIN TE | | a i
-> for Agentic Systems |\_ \- & Vie —o
-> nee) <n
-> <4 (NS ey
-> Measuring reliability beyond Ph OY Ne —o pe
-> accuracy. Building evaluation systems 9 [2° 7 LY | KS
-> for autonomous Al workflows. 4 f 4 Ady to d w
-> Nishant Gupta f ——_~
+Slide text:
+
+> Production Evals
+> for Agentic Systems
+> Measuring reliability beyond accuracy. Building evaluation systems for autonomous AI workflows.
+> Nishant Gupta
 > Tech Lead @ Meta
 
 ![[assets/slides/vljxQZfJ9wY/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Small chart labels, panel headers, and callouts are OCR-suitable.
 
-> <q
-> AI systems evolved faster than |
-> our evaluation methods
+Slide text:
+
+> our evaluation methods AI systems evolved faster than
 > The Illusion The Reality
-> “
-> yp ok Rh Modes
-> Behavior
-> ~—_ ox
-> Unpredictable User
-> (si
-> 90% 25%
-> Benchmark Accuracy ox . eu
-> T-O T+10ms T+50ms T+100ms
+> 100% Modes Invisible Failure
+> 75% Behavior Degraded Production
+> Benchmark Accuracy 90% 25% 50% 0% T-0 T+10ms T+50ms Reliability Gaps Unpredictable User MAAAA T+10GmS
 
 ![[assets/slides/vljxQZfJ9wY/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
+- OCR decision: ready — Structured table text and cell labels are OCR-suitable.
+
+Slide text:
 
 > The Paradigm Shift: Output vs. Behavior
 > Traditional LLM Evaluation Agent Evaluation
-> Goal Output Accuracy > Workflow Behavior
-> Environment Static Datasets > Dynamic Contexts
-> |
-> Execution Single-path Processing | > Multi-path & Tool Dependent
-> I
-> Failure Mode | Hallucination > ascading Workflow Failure
+> Goal Output Accuracy Workflow Behavior
+> Environment Static Datasets Dynamic Contexts
+> Execution Single-path Processing Multi-path & Tool Dependent
+> Failure Mode Hallucination Cascading Workflow Failure
 
 ![[assets/slides/vljxQZfJ9wY/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.94`
+- Text source: agent_vision.
+
+Slide text:
 
 > Think like an SRE: Accuracy gives way to Reliab
-> Task Success
-> Satisfaction Human Tool Success
-> Accuracy Safety Reliability System Planning Quality
-> Cost Latency
 
 ![[assets/slides/vljxQZfJ9wY/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> e ® e , 4 “
+Slide text:
+
 > The Evaluation Signal Hierarchy
 > Production Telemetry
-> | Low volume, maximum t
-> signal value.
-> Scenario Evals Operational
-> Volume argeted workflows | Value
+> Scenario Evals
 > Benchmarks
-> High volume, low operational value.
-> The foundation, not the destination.
 
 ![[assets/slides/vljxQZfJ9wY/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
+- OCR decision: ready — Small diagram labels and the metrics box are OCR-suitable.
+
+Slide text:
 
 > Offline Evals: Scenario-Driven Simulation
-> 
-> ee
-> ' fl
-> ! Agent Sandbox Discrete Outputs
-> ; _
-> : Tools tC Steps update i Completion Rate 98.5%
-> 
-> : ¢ ; Tool Correctness 106%
-> ' Plan Quality High
-> FEE SO AS ESR i EB OO Ma Ol Bag! Simulated Cost $0.65
-> 
+> Agent Sandbox Discrete Outputs
+> Test Runner Sinulated. Tools Execution: Steps Update State Hetrics Conpletion Rate 98.5x
+> .Tool Correctness 108%
+> Plan Quality High'
+> Simulated Cost $0.05
 > Scenario-driven, not prompt-driven.
 
 ![[assets/slides/vljxQZfJ9wY/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
 
-> , i”
-> Online Evals: The Production Stream
-> User S = ~— :
-> Interactions 2 _ Gateway .
-> a Gy Go , — ” Metadata & Telemetry
-> =5 — )
-> Analytics
-> Ls Oatabase
-> Sd
-> | Production is your largest evaluation dataset.
-> Every interaction is signal.
+Slide text:
+
+> Online Evals: The Production Stream Production is your largest evaluation dataset. Every interaction is signal.
 
 ![[assets/slides/vljxQZfJ9wY/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
 
-> ~
-> i
-> Human-in-the-Loop Calibration
-> Review Node fA fA
-> Automated ih “Oo. ee
-> Alert . i i >.
-> “ . S ! Correctness Usefulness
-> | |
-> « a i
-> : - a
-> Trust Safety
-> Humans are evaluators, not merely fallback systems.
+Slide text:
+
+> Human-in-the-Loop Calibration Humans are evaluators, not merely fallback systems.
 
 ![[assets/slides/vljxQZfJ9wY/slide-009.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-009.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
+- OCR decision: ready — dense chart and dashboard text are better suited for OCR
+
+Slide text:
 
 > Observability is the Prerequisite
-> The Trace Waterfall
-> User Prompt (35ms - 70ms)
-> Planner Iteration (7ms - 35ms)
-> Vector DB Lookup (8ms)
-> Parallel API Tool Calls
-> API A - 45ms
-> API B - 38ms
-> API C - 52ms
-> Live Metrics Dashboard
-> Latency
-> 345 ms
-> Retries
-> 2.5 %
-> Step Costs
-> $0.014
-> Memory Usage
+> The Trace Waterfall Live Metrics Dashboard.
+> User Prompt 3sm-70ms) Latency 345 ms
+> Planner lteration (7a-3sms)
+> Retries 7
+> Vector DB Lookup. 8ms 2.5 % AW
+> Parallel APl Tool Calls.- AP1B:38ms APIA-45m) Step Costs $0.014
+> APIC: 62mu Memory Usage
 > 480 MB
-> "You cannot evaluate what you cannot observe."
+> "You cannot evaluate what you cannot observe.
 
 ![[assets/slides/vljxQZfJ9wY/slide-010.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-010.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
 
-> The Continuous Evaluation Loop
-> A Online Telemetry detects drift/errors
-> Evaluationisan
-> validate system updates Offline Scenario Evals before pushing back to Production D always-running testing phase. service,nota B for edge cases Triggers HITL review
-> C Human feedback feeds into Offline Datasets
+Slide text:
+
+> The Continuous Evaluation Loop Evaluation is an always-running service, not a testing phase.
 
 ![[assets/slides/vljxQZfJ9wY/slide-011.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-011.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
 
-> The Agentic Control Plane |
-> Reference Architecture
-> 
-> Control Plane
-> 
-> : Scenario
-> Tracing & Telemetry : HITL
-> Gia
-> LLM Agent External
-> Orchestrator Tools
-> Execution Plane
+Slide text:
+
+> The Agentic Control Plane Reference Architecture
 
 ![[assets/slides/vljxQZfJ9wY/slide-012.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vljxQZfJ9wY/slide-012.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > Architectural Imperatives
 > 1. Offline benchmarks are necessary but insufficient.
@@ -201,7 +176,10 @@ OCR text:
 > 3. Production telemetry is the ultimate evaluation signal.
 > 4. Reliability always supersedes raw model accuracy.
 > 5. Evals are no longer tests; they are core infrastructure.
-> “You can’t improve what you don’t continuously evaluate.”
+> You can't improve what you don't continuously evaluate.
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/vljxQZfJ9wY/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

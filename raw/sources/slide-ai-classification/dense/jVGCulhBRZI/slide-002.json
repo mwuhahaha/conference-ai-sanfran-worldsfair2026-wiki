@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Alpha is in Unstructured Data\n90% of Enterprise Data Lives in Documents*\nHumans historically needed to read/write these documents.\nFor the first time, AI agents can reason and act over massive amounts of unstructured context tokens.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f7efd7",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "The Alpha is in Unstructured Data",
+        "x": 18.0,
+        "y": 0,
+        "w": 45.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "90% of Enterprise Data Lives in Documents*",
+        "x": 20.0,
+        "y": 18.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Humans historically needed to read/write these documents.",
+        "x": 20.0,
+        "y": 39.0,
+        "w": 30.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "For the first time, AI agents can reason and act over massive amounts of unstructured context tokens.",
+        "x": 20.0,
+        "y": 60.0,
+        "w": 36.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Human",
+        "x": 60.0,
+        "y": 23.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent",
+        "x": 60.0,
+        "y": 48.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 48.0,
+        "y": 89.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 73.0,
+        "y": 89.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/jVGCulhBRZI/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669279.1613202,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Alpha is in Unstructured Data\n90% of Enterprise Data Lives in Documents*\nHumans historically needed to read/write these documents.\nFor the first time, AI agents can reason and act over massive amounts of unstructured context tokens.",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "New primitives\nDaytona Volumes",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "New primitives",
+        "x": 50.0,
+        "y": 9.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "Daytona Volumes",
+        "x": 44.0,
+        "y": 19.0,
+        "w": 31.0,
+        "h": 13.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 82.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 72.0,
+        "y": 82.0,
+        "w": 13.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/reconstructed-slides/e9sLVMN76qU/slide-011.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667551.2222595,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "New primitives\nDaytona Volumes",
+  "advanced_ocr": {}
+}

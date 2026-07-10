@@ -1,0 +1,611 @@
+{
+  "video_id": "OXMMN-XbxwA",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 8,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Research to Reality\nTurning frontier ML research into real, shipped features.\nVaidas Razgaitis",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#1f1f1f",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI ENGINEER WORLD'S FAIR 2026 - ONLINE TRACK",
+            "x": 18.0,
+            "y": 14.0,
+            "w": 38.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Research to Reality",
+            "x": 18.0,
+            "y": 37.0,
+            "w": 52.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Turning frontier ML research into real, shipped features.",
+            "x": 18.0,
+            "y": 58.0,
+            "w": 53.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Vaidas Razgaitis",
+            "x": 18.0,
+            "y": 80.0,
+            "w": 22.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/OXMMN-XbxwA/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661859.7802014,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Research to Reality\nTurning frontier ML research into real, shipped features.\nVaidas Razgaitis",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/OXMMN-XbxwA/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "ESTMMATED IQIAL COST:\n000'65,\nBuiding data model.\nShow mme suppies and cost.\nWhat wouid this cost to buld in the Northeast Division?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product/UI screenshot with small embedded text that is better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(90deg, #79de8f 0%, #5fd38a 100%)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "ESTIMATED TOTAL COST",
+            "x": 24.0,
+            "y": 15.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "$329,000",
+            "x": 25.0,
+            "y": 18.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "Higharc AI",
+            "x": 59.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Building data model...",
+            "x": 58.0,
+            "y": 31.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Show me supplies and cost.",
+            "x": 58.0,
+            "y": 52.0,
+            "w": 23.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "What would this cost to build in the Northeast Division?",
+            "x": 58.0,
+            "y": 71.0,
+            "w": 28.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/OXMMN-XbxwA/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661859.7822852,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/opencv-adaptive",
+        "text": "ESTMMATED IQIAL COST:\n000'65,\nBuiding data model.\nShow mme suppies and cost.\nWhat wouid this cost to buld in the Northeast Division?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 270.0
+      },
+      "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "ESTMMATED IQIAL COST:\n000'65,\nBuiding data model.\nShow mme suppies and cost.\nWhat wouid this cost to buld in the Northeast Division?",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/OXMMN-XbxwA/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Two-column diagram with small labels and dense text suitable for OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Frontier AI / ML Research:",
+            "x": 17.0,
+            "y": 27.0,
+            "w": 24.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Computer Vision",
+            "x": 18.0,
+            "y": 37.0,
+            "w": 22.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Generative Building Model (GBM)",
+            "x": 18.0,
+            "y": 49.0,
+            "w": 28.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "spatial intelligence",
+            "x": 18.0,
+            "y": 64.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "Researchers ≠ production engineers",
+            "x": 51.0,
+            "y": 26.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "ML Engineer",
+            "x": 63.0,
+            "y": 41.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AI Engineer",
+            "x": 56.0,
+            "y": 57.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Full-stack SWE",
+            "x": 76.0,
+            "y": 76.0,
+            "w": 18.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/OXMMN-XbxwA/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661886.6947052,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 520.8,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/OXMMN-XbxwA/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Researchers ≠ production engineers",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Researchers ≠ production engineers",
+            "x": 28.0,
+            "y": 13.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram",
+            "text": "hands passing a baton on a green background",
+            "x": 28.0,
+            "y": 25.0,
+            "w": 44.0,
+            "h": 49.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/OXMMN-XbxwA/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661919.091361,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Researchers ≠ production engineers",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/OXMMN-XbxwA/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Article-like screenshot with dense small text; OCR is more appropriate than manual transcription here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Scaling Engineering Teams via RFCs: Writing Things Down",
+            "x": 43.0,
+            "y": 18.0,
+            "w": 29.0,
+            "h": 15.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/OXMMN-XbxwA/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661919.093351,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/full",
+        "best_score": 987.99,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/OXMMN-XbxwA/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "TOrCU\nRepo automations\nDDEP blodo\nMicroservices\nMLNokebopke M.models MLstudties +nodels\nTBO Re-usable UI components\nMONOREPO",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture diagram with multiple small labels and low-confidence embedded text; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Repo automations",
+            "x": 50.0,
+            "y": 22.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Microservices",
+            "x": 50.0,
+            "y": 44.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "ML studies + models",
+            "x": 49.0,
+            "y": 64.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Re-usable UI components",
+            "x": 50.0,
+            "y": 79.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MONOREPO",
+            "x": 31.0,
+            "y": 90.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "ML notebooks",
+            "x": 29.0,
+            "y": 56.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "ML models",
+            "x": 48.0,
+            "y": 56.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "TBD",
+            "x": 30.0,
+            "y": 72.0,
+            "w": 6.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/OXMMN-XbxwA/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662000.3652258,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "TOrCU\nRepo automations\nDDEP blodo\nMicroservices\nMLNokebopke M.models MLstudties +nodels\nTBO Re-usable UI components\nMONOREPO",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 225.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "TOrCU\nRepo automations\nDDEP blodo\nMicroservices\nMLNokebopke M.models MLstudties +nodels\nTBO Re-usable UI components\nMONOREPO",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/OXMMN-XbxwA/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Getting research to reality is a systems & process problem.\n01 Make research legible\n02 A monorepo that can receive new research\n03 Decomposition as a design problem",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#1f1f1f",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Getting research to reality is a systems & process problem.",
+            "x": 28.0,
+            "y": 20.0,
+            "w": 46.0,
+            "h": 16.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "01 Make research legible",
+            "x": 28.0,
+            "y": 54.0,
+            "w": 13.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "02 A monorepo that can receive new research",
+            "x": 44.0,
+            "y": 54.0,
+            "w": 14.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "03 Decomposition as a design problem",
+            "x": 59.0,
+            "y": 54.0,
+            "w": 14.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/OXMMN-XbxwA/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662101.3867753,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Getting research to reality is a systems & process problem.\n01 Make research legible\n02 A monorepo that can receive new research\n03 Decomposition as a design problem",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/OXMMN-XbxwA/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "product #20315:\nstudloAskAgentV1 flag AI-664: Rename agent feature flags with alpha suffix and add\nVRazgsts listure/iront-v1/itudio-Asx/eo-foatur+-flar-ienming: + doveloo: 5 fasi +24 -11. Updated 4w spo\n+ Suck: t 1of 10 D Copy tuct **+\n#21114 A-701: Ul p4 ghel To orz. Morpod'; 22d\n#21113 A-70z Ul compose ar4 traad $211i2 A-700: U1 m#stge buobs ta Gz. Mrged: 2?d Merpod 27d\n$21111 Al-69g: U1 primtvos n2d\np21110 AI:698: UI tounduton\n$21101 A1·697: U1 rotout docs Coied: 23d\nW205 i5 AI-676: 8rahntrust telertety + aproxry fetlrerert Merged'\nN20436 Al-653: serrw runbme Co shn2 iorgeo?\nLO433 Al:6Sr agtr icomman'srt/cHonl ptckage bucke + pLtorm?wida agtnt docs Bou LAusovrrvoiprs poe pue xns tyoe 4hm sbey onreog uode eieuny:+99.IV sIe] C q4 iuarged. smo Muped?\n(nnk) -",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product/UI screenshot with many small text rows and PR metadata; OCR is a better fit than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3f3f3",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "product #20315",
+            "x": 24.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "AI-664: Rename agent feature flags with alpha suffix and add studioAskAgentV1 flag",
+            "x": 24.0,
+            "y": 25.0,
+            "w": 48.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Stack 1 of 10",
+            "x": 24.0,
+            "y": 39.0,
+            "w": 12.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/OXMMN-XbxwA/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662101.3875053,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "product #20315:\nstudloAskAgentV1 flag AI-664: Rename agent feature flags with alpha suffix and add\nVRazgsts listure/iront-v1/itudio-Asx/eo-foatur+-flar-ienming: + doveloo: 5 fasi +24 -11. Updated 4w spo\n+ Suck: t 1of 10 D Copy tuct **+\n#21114 A-701: Ul p4 ghel To orz. Morpod'; 22d\n#21113 A-70z Ul compose ar4 traad $211i2 A-700: U1 m#stge buobs ta Gz. Mrged: 2?d Merpod 27d\n$21111 Al-69g: U1 primtvos n2d\np21110 AI:698: UI tounduton\n$21101 A1·697: U1 rotout docs Coied: 23d\nW205 i5 AI-676: 8rahntrust telertety + aproxry fetlrerert Merged'\nN20436 Al-653: serrw runbme Co shn2 iorgeo?\nLO433 Al:6Sr agtr icomman'srt/cHonl ptckage bucke + pLtorm?wida agtnt docs Bou LAusovrrvoiprs poe pue xns tyoe 4hm sbey onreog uode eieuny:+99.IV sIe] C q4 iuarged. smo Muped?\n(nnk) -",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1032.12
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "product #20315:\nstudloAskAgentV1 flag AI-664: Rename agent feature flags with alpha suffix and add\nVRazgsts listure/iront-v1/itudio-Asx/eo-foatur+-flar-ienming: + doveloo: 5 fasi +24 -11. Updated 4w spo\n+ Suck: t 1of 10 D Copy tuct **+\n#21114 A-701: Ul p4 ghel To orz. Morpod'; 22d\n#21113 A-70z Ul compose ar4 traad $211i2 A-700: U1 m#stge buobs ta Gz. Mrged: 2?d Merpod 27d\n$21111 Al-69g: U1 primtvos n2d\np21110 AI:698: UI tounduton\n$21101 A1·697: U1 rotout docs Coied: 23d\nW205 i5 AI-676: 8rahntrust telertety + aproxry fetlrerert Merged'\nN20436 Al-653: serrw runbme Co shn2 iorgeo?\nLO433 Al:6Sr agtr icomman'srt/cHonl ptckage bucke + pLtorm?wida agtnt docs Bou LAusovrrvoiprs poe pue xns tyoe 4hm sbey onreog uode eieuny:+99.IV sIe] C q4 iuarged. smo Muped?\n(nnk) -",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/OXMMN-XbxwA/slide-008.html"
+    }
+  ],
+  "rejected": []
+}

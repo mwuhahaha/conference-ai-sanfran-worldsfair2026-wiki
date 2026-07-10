@@ -1,0 +1,130 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "2000s: Data Centers Wmware\nE codeanywhere\n2009: Co-founded the first cloud IDEs\n9 infobip\nLed DX at a CPaaS Infra Company Ivan Burazin\nDaytona Infrastructure for Al agents CEO & Co-founder, Daytona @ivanburazin\n*jiaaw Microsoft Smol 3i",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small timeline labels, names, and role text are better handled by OCR than manual transcription in triage.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "vmware",
+        "x": 47.0,
+        "y": 15.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "2000s: Data Centers",
+        "x": 31.0,
+        "y": 17.0,
+        "w": 17.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "codeanywhere",
+        "x": 31.0,
+        "y": 29.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "2009: Co-founded the first cloud IDEs",
+        "x": 31.0,
+        "y": 38.0,
+        "w": 23.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "infobip",
+        "x": 31.0,
+        "y": 50.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Led DX at a CPaaS Infra Company",
+        "x": 31.0,
+        "y": 59.0,
+        "w": 25.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "Daytona",
+        "x": 31.0,
+        "y": 70.0,
+        "w": 13.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Infrastructure for AI agents",
+        "x": 31.0,
+        "y": 79.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "Ivan Burazin",
+        "x": 66.0,
+        "y": 57.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "CEO & Co-founder, Daytona",
+        "x": 66.0,
+        "y": 67.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "@ivanburazin",
+        "x": 66.0,
+        "y": 73.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/reconstructed-slides/e9sLVMN76qU/slide-008.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667439.1527376,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/opencv-adaptive",
+    "text": "2000s: Data Centers Wmware\nE codeanywhere\n2009: Co-founded the first cloud IDEs\n9 infobip\nLed DX at a CPaaS Infra Company Ivan Burazin\nDaytona Infrastructure for Al agents CEO & Co-founder, Daytona @ivanburazin\n*jiaaw Microsoft Smol 3i",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 373.72
+  },
+  "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "2000s: Data Centers Wmware\nE codeanywhere\n2009: Co-founded the first cloud IDEs\n9 infobip\nLed DX at a CPaaS Infra Company Ivan Burazin\nDaytona Infrastructure for Al agents CEO & Co-founder, Daytona @ivanburazin\n*jiaaw Microsoft Smol 3i",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

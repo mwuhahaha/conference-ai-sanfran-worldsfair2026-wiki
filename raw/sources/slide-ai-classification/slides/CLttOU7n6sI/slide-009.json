@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "But, unconstrained code is scary\nThe agent will find “creative” ways to solve every problem\nThe agent can gaslight users saying it made edits\nManual review of code is not in our users’ wheelhouse",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "off-white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "But, unconstrained code is scary",
+        "x": 5.0,
+        "y": 9.0,
+        "w": 52.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "The agent will find “creative” ways to solve every problem\nWriting Python when we expect typescript, editing graph artifacts directly without lineage",
+        "x": 5.0,
+        "y": 27.0,
+        "w": 28.0,
+        "h": 42.0
+      },
+      {
+        "role": "body",
+        "text": "The agent can gaslight users saying it made edits\nAgent claims it made edits to users when it ran code that did nothing",
+        "x": 35.0,
+        "y": 27.0,
+        "w": 28.0,
+        "h": 42.0
+      },
+      {
+        "role": "body",
+        "text": "Manual review of code is not in our users’ wheelhouse\nWhen the agent is right for the wrong reasons, it’s really hard to check it without reading the code",
+        "x": 66.0,
+        "y": 27.0,
+        "w": 29.0,
+        "h": 42.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/CLttOU7n6sI/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659308.3983848,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "But, unconstrained code is scary\nThe agent will find “creative” ways to solve every problem\nThe agent can gaslight users saying it made edits\nManual review of code is not in our users’ wheelhouse",
+  "advanced_ocr": {}
+}

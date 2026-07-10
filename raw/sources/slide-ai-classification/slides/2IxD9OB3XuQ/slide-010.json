@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Updating memory\nWrite down facts and distill skills, so the agent doesn't rediscover them.\n\nInformation memory    Letta · mem0\nstore a fact or correction; e.g., “always confirm the date before booking”\n\nSkill distillation    skills · SKILL.md\n(sometimes viewed as a part of harness)\ncompress a successful trajectory into a reusable how-to packet\n\nCheapest and fastest; works directly on (log + feedback) but usually unverified",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense explanatory slide with multiple sections and small text",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Updating memory",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 30.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Write down facts and distill skills, so the agent doesn't rediscover them.",
+        "x": 4.0,
+        "y": 14.0,
+        "w": 63.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Information memory\nLetta · mem0",
+        "x": 10.0,
+        "y": 38.0,
+        "w": 24.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Skill distillation\nskills · SKILL.md",
+        "x": 10.0,
+        "y": 60.0,
+        "w": 24.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "store a fact or correction; e.g., “always confirm the date before booking”",
+        "x": 44.0,
+        "y": 40.0,
+        "w": 48.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "compress a successful trajectory into a reusable how-to packet",
+        "x": 44.0,
+        "y": 62.0,
+        "w": 45.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Cheapest and fastest",
+        "x": 12.0,
+        "y": 83.0,
+        "w": 22.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656375.3838952,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Updating memory",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Updating memory\nWrite down facts and distill skills, so the agent doesn't rediscover them.\nInformation memory Letta\" mem0 Store a fact or correction; e.g. *always confirm the date before booking*\nSkill distillation SkiliS o SKILL.md compress a successful trajectory into a reusable how-to packet\n(somatimes vieved as a part of harnoss)\nCheapest and fastest;works directly on (log + feedback) but usually unverifie",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 656.08
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Updating memory\nWrite down facts and distill skills, so the agent doesn't rediscover them.\n\nInformation memory    Letta · mem0\nstore a fact or correction; e.g., “always confirm the date before booking”\n\nSkill distillation    skills · SKILL.md\n(sometimes viewed as a part of harness)\ncompress a successful trajectory into a reusable how-to packet\n\nCheapest and fastest; works directly on (log + feedback) but usually unverified",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR with minor corrections to spacing, punctuation, and obvious wording from the slide."
+  }
+}

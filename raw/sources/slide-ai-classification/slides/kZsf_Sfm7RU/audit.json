@@ -1,0 +1,1750 @@
+{
+  "video_id": "kZsf_Sfm7RU",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 19,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "The Missing Layer After Launch\nEverything important starts after you ship.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI ENGINEER WORLD'S FAIR 2026",
+            "x": 6.0,
+            "y": 6.0,
+            "w": 26.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "The Missing Layer After Launch",
+            "x": 29.0,
+            "y": 39.0,
+            "w": 43.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "Everything important starts after you ship.",
+            "x": 31.0,
+            "y": 79.0,
+            "w": 38.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669591.5990896,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Missing Layer After Launch\nEverything important starts after you ship.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "We shipped it in 3 weeks. 3 wks TO FIRST PRODUCT ~300K LINES ~$35K SPENT",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "THE EASY PART",
+            "x": 6.0,
+            "y": 6.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "We shipped it in 3 weeks.",
+            "x": 6.0,
+            "y": 18.0,
+            "w": 48.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "3 wks",
+            "x": 6.0,
+            "y": 44.0,
+            "w": 26.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "TO FIRST PRODUCT",
+            "x": 6.0,
+            "y": 66.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "~300K",
+            "x": 37.0,
+            "y": 44.0,
+            "w": 26.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "LINES",
+            "x": 37.0,
+            "y": 66.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "~$35K",
+            "x": 68.0,
+            "y": 44.0,
+            "w": 26.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "SPENT",
+            "x": 68.0,
+            "y": 66.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Shipping is fast now. That was the easy part.",
+            "x": 30.0,
+            "y": 80.0,
+            "w": 43.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669591.600628,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "We shipped it in 3 weeks. 3 wks TO FIRST PRODUCT ~300K LINES ~$35K SPENT",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Monitor it? Understand it? Improve it? Find the holes?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "AFTER YOU LAUNCH",
+            "x": 6.0,
+            "y": 6.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Monitor it?\nUnderstand it?\nImprove it?\nFind the holes?",
+            "x": 6.0,
+            "y": 24.0,
+            "w": 33.0,
+            "h": 42.0
+          },
+          {
+            "role": "caption",
+            "text": "Normal software never really asked these.",
+            "x": 29.0,
+            "y": 81.0,
+            "w": 46.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669591.6058843,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Monitor it? Understand it? Improve it? Find the holes?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "02: InviSible failure\nThe failure hides itself.\nClaude marked features \"complete\" - without checking they actualty worked. the opposite. Agents reported success while the system state said\n*EFfeCtIvE HaANESSeS FOr lOng-RUnnInG AGentS.' AnthROpIC NortheaStern ReO-teaM\nNothing crashes. Nothing turns red. Nothing knows.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small multi-column body text and quoted claims are better suited to OCR than manual transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "02 · INVISIBLE FAILURE",
+            "x": 6.0,
+            "y": 4.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "The failure hides itself.",
+            "x": 6.0,
+            "y": 25.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Claude marked features \"complete\" — without checking they actually worked.",
+            "x": 6.0,
+            "y": 58.0,
+            "w": 38.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "\"EFFECTIVE HARNESSES FOR LONG-RUNNING AGENTS,\" ANTHROPIC",
+            "x": 6.0,
+            "y": 69.0,
+            "w": 36.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Agents reported success while the system state said the opposite.",
+            "x": 51.0,
+            "y": 58.0,
+            "w": 43.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "NORTHEASTERN RED-TEAM",
+            "x": 51.0,
+            "y": 69.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Nothing crashes. Nothing turns red. Nothing knows.",
+            "x": 28.0,
+            "y": 86.0,
+            "w": 44.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669548.9492378,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "The failure hides itself.",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "02: InviSible failure\nThe failure hides itself.\nClaude marked features \"complete\" - without checking they actualty worked. the opposite. Agents reported success while the system state said\n*EFfeCtIvE HaANESSeS FOr lOng-RUnnInG AGentS.' AnthROpIC NortheaStern ReO-teaM\nNothing crashes. Nothing turns red. Nothing knows.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 504.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "02: InviSible failure\nThe failure hides itself.\nClaude marked features \"complete\" - without checking they actualty worked. the opposite. Agents reported success while the system state said\n*EFfeCtIvE HaANESSeS FOr lOng-RUnnInG AGentS.' AnthROpIC NortheaStern ReO-teaM\nNothing crashes. Nothing turns red. Nothing knows.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "One task.\nHundreds of tools.\nIt writes code, runs the terminal, calls other companies' services.\nEvery tool is a new, quiet way to fail.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "03 · HUGE TOOL SURFACE",
+            "x": 6.0,
+            "y": 4.0,
+            "w": 25.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "One task.",
+            "x": 6.0,
+            "y": 25.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "title",
+            "text": "Hundreds of tools.",
+            "x": 6.0,
+            "y": 36.0,
+            "w": 34.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "It writes code, runs the terminal, calls other companies' services.",
+            "x": 6.0,
+            "y": 60.0,
+            "w": 58.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Every tool is a new, quiet way to fail.",
+            "x": 35.0,
+            "y": 86.0,
+            "w": 37.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669559.005834,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "One task.\nHundreds of tools.\nIt writes code, runs the terminal, calls other companies' services.\nEvery tool is a new, quiet way to fail.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The ciosed toop\nProduction Sessions traces Loys: & Trajectary. code pa.th sis\nNext'fix pommoa revev.+ merye: ·Humon PR rever Pull cequest (lognontor)\nterate wtl reay\nThe agents watch and draft. The human decides.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with many labeled boxes and arrows is OCR-suitable; only the short title is extracted directly here.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "THE CLOSED LOOP",
+            "x": 6.0,
+            "y": 4.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Production sessions",
+            "x": 6.0,
+            "y": 24.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Logs & traces",
+            "x": 25.0,
+            "y": 24.0,
+            "w": 15.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Trajectory",
+            "x": 44.0,
+            "y": 24.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Code path",
+            "x": 63.0,
+            "y": 24.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Diagnosis",
+            "x": 82.0,
+            "y": 24.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pull request (logmonitor)",
+            "x": 82.0,
+            "y": 58.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "PR review agent",
+            "x": 62.0,
+            "y": 58.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Human review + merge",
+            "x": 43.0,
+            "y": 58.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Dashboard",
+            "x": 25.0,
+            "y": 58.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Next fix",
+            "x": 6.0,
+            "y": 58.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "The agents watch and draft. The human decides.",
+            "x": 28.0,
+            "y": 86.0,
+            "w": 44.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669559.00604,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "The closed loop",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "The ciosed toop\nProduction Sessions traces Loys: & Trajectary. code pa.th sis\nNext'fix pommoa revev.+ merye: ·Humon PR rever Pull cequest (lognontor)\nterate wtl reay\nThe agents watch and draft. The human decides.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 406.04
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "The ciosed toop\nProduction Sessions traces Loys: & Trajectary. code pa.th sis\nNext'fix pommoa revev.+ merye: ·Humon PR rever Pull cequest (lognontor)\nterate wtl reay\nThe agents watch and draft. The human decides.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Four operating agents.\n01 log-monitor — detect & fix fast (reactive)\n02 PR-review — gate the fix (reactive)\n03 session-analyzer — feel the health (reactive)\n04 QA / computer-use — go test it (proactive • roadmap)",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Four operating agents.",
+            "x": 6.0,
+            "y": 13.0,
+            "w": 36.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "01 log-monitor — detect & fix fast (reactive)",
+            "x": 6.0,
+            "y": 33.0,
+            "w": 74.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "02 PR-review — gate the fix (reactive)",
+            "x": 6.0,
+            "y": 43.0,
+            "w": 68.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "03 session-analyzer — feel the health (reactive)",
+            "x": 6.0,
+            "y": 53.0,
+            "w": 74.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "04 QA / computer-use — go test it (proactive • roadmap)",
+            "x": 6.0,
+            "y": 63.0,
+            "w": 80.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "One example — not a recipe.",
+            "x": 35.0,
+            "y": 92.0,
+            "w": 30.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669663.8707168,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Four operating agents.\n01 log-monitor — detect & fix fast (reactive)\n02 PR-review — gate the fix (reactive)\n03 session-analyzer — feel the health (reactive)\n04 QA / computer-use — go test it (proactive • roadmap)",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AGENT O1·LOG-MONITOR\nwhat t con read rnonitor agent\nsioy wenpod DETICT Rhte os yorebas\nhpet njecires codelase ASALYZE corerepo red cole Pull rervest\nDntains redu) Troves DecrDe does thevserend stuet? deureton eilente meroa He labes\nFEX intemto penRe\nslackalert\nseventy",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AGENT 01 - LOG-MONITOR",
+            "x": 6.0,
+            "y": 5.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "What it can read",
+            "x": 16.0,
+            "y": 20.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Production logs\nAgent trajectories\nCodebase\nDatabase snapshots\nTraces",
+            "x": 15.0,
+            "y": 25.0,
+            "w": 13.0,
+            "h": 29.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "log-monitor agent",
+            "x": 42.0,
+            "y": 20.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "DETECT",
+            "x": 34.0,
+            "y": 28.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "ANALYZE",
+            "x": 34.0,
+            "y": 41.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "DECIDE",
+            "x": 34.0,
+            "y": 54.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "FIX",
+            "x": 34.0,
+            "y": 67.0,
+            "w": 4.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Pull request\nsummary\nmanual fix\nevidence\nlabels",
+            "x": 74.0,
+            "y": 30.0,
+            "w": 16.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Slack alert\nseverity\nPR link",
+            "x": 74.0,
+            "y": 69.0,
+            "w": 16.0,
+            "h": 15.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669663.8729763,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "AGENT 01 - LOG-MONITOR",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "AGENT O1·LOG-MONITOR\nwhat t con read rnonitor agent\nsioy wenpod DETICT Rhte os yorebas\nhpet njecires codelase ASALYZE corerepo red cole Pull rervest\nDntains redu) Troves DecrDe does thevserend stuet? deureton eilente meroa He labes\nFEX intemto penRe\nslackalert\nseventy",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 491.88
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "AGENT O1·LOG-MONITOR\nwhat t con read rnonitor agent\nsioy wenpod DETICT Rhte os yorebas\nhpet njecires codelase ASALYZE corerepo red cole Pull rervest\nDntains redu) Troves DecrDe does thevserend stuet? deureton eilente meroa He labes\nFEX intemto penRe\nslackalert\nseventy",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "LOG-MONITOR-SLACK\nOurbug~itopensaPR andtellsme\nOutside billing issue -just a heads-up, no PR\nLogMoanitorfotlow\nErvronrreet Period 210206UC)\nPToviderblnghw-RfCURRt D.mot roohrd:LPxv402（ededmmm（redts'101:4sUTC\nutt rraf ar resolvedT a (an bta- thut n rrw contas tn Th /5orgsover48h\nNext strpvvoy Deturubsru 1uruouf pun top cp xtiusy\nIt alerts only when it matters - and knows the difference.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "LOG-MONITOR - SLACK",
+            "x": 6.0,
+            "y": 5.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Our bug — it opens a PR and tells me",
+            "x": 38.0,
+            "y": 14.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Outside billing issue → just a heads-up, no PR",
+            "x": 31.0,
+            "y": 45.0,
+            "w": 40.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "It alerts only when it matters — and knows the difference.",
+            "x": 18.0,
+            "y": 89.0,
+            "w": 64.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669716.0461483,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "LOG-MONITOR - SLACK",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "LOG-MONITOR-SLACK\nOurbug~itopensaPR andtellsme\nOutside billing issue -just a heads-up, no PR\nLogMoanitorfotlow\nErvronrreet Period 210206UC)\nPToviderblnghw-RfCURRt D.mot roohrd:LPxv402（ededmmm（redts'101:4sUTC\nutt rraf ar resolvedT a (an bta- thut n rrw contas tn Th /5orgsover48h\nNext strpvvoy Deturubsru 1uruouf pun top cp xtiusy\nIt alerts only when it matters - and knows the difference.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 563.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "LOG-MONITOR-SLACK\nOurbug~itopensaPR andtellsme\nOutside billing issue -just a heads-up, no PR\nLogMoanitorfotlow\nErvronrreet Period 210206UC)\nPToviderblnghw-RfCURRt D.mot roohrd:LPxv402（ededmmm（redts'101:4sUTC\nutt rraf ar resolvedT a (an bta- thut n rrw contas tn Th /5orgsover48h\nNext strpvvoy Deturubsru 1uruouf pun top cp xtiusy\nIt alerts only when it matters - and knows the difference.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "PA-Aeview - the root.cause fix\nVerdict: ready - root cause, with a test that reproduces it.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "PR-REVIEW - THE ROOT-CAUSE FIX",
+            "x": 6.0,
+            "y": 5.0,
+            "w": 32.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "PR review screenshot",
+            "x": 37.0,
+            "y": 16.0,
+            "w": 26.0,
+            "h": 66.0
+          },
+          {
+            "role": "caption",
+            "text": "Verdict: ready — root cause, with a test that reproduces it.",
+            "x": 24.0,
+            "y": 89.0,
+            "w": 54.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669786.205933,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "PR-REVIEW - THE ROOT-CAUSE FIX",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "PA-Aeview - the root.cause fix\nVerdict: ready - root cause, with a test that reproduces it.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 195.28
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "PA-Aeview - the root.cause fix\nVerdict: ready - root cause, with a test that reproduces it.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AGent o3 · session-analyzer\nzer\ntess'on s.lc'! Sessions. malyse EvERY tert'on orcoe mb cost: ssucs Fcel the pulse\nKest'os s-st?e 77 / 100 jealtr score\ntels'os x-la02 tic sane issue aorors say Ctons = Ose pattem\nRrior hit ~95% on the model, then got to 99% by building this kind of loop over production.\nDPHER LOVEJOY: ANTERIOR",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AGENT 03 - SESSION-ANALYZER",
+            "x": 6.0,
+            "y": 5.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "sessions",
+            "x": 19.0,
+            "y": 22.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "session-analyzer",
+            "x": 39.0,
+            "y": 20.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "1 · analyze EVERY session\noutcome\nquality\ncost + issues",
+            "x": 39.0,
+            "y": 26.0,
+            "w": 20.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "2 · collapse into patterns\nThe same issue across many sessions = ONE pattern",
+            "x": 39.0,
+            "y": 47.0,
+            "w": 24.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "feel the pulse",
+            "x": 74.0,
+            "y": 24.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "77 / 100\nhealth score\n94% success • cost trend",
+            "x": 72.0,
+            "y": 31.0,
+            "w": 21.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "Anterior hit ~95% on the model, then got to 99% by building this kind of loop over production.",
+            "x": 17.0,
+            "y": 86.0,
+            "w": 67.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669817.3295875,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "AGENT 03 - SESSION-ANALYZER",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "AGent o3 · session-analyzer\nzer\ntess'on s.lc'! Sessions. malyse EvERY tert'on orcoe mb cost: ssucs Fcel the pulse\nKest'os s-st?e 77 / 100 jealtr score\ntels'os x-la02 tic sane issue aorors say Ctons = Ose pattem\nRrior hit ~95% on the model, then got to 99% by building this kind of loop over production.\nDPHER LOVEJOY: ANTERIOR",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 567.32
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "AGent o3 · session-analyzer\nzer\ntess'on s.lc'! Sessions. malyse EvERY tert'on orcoe mb cost: ssucs Fcel the pulse\nKest'os s-st?e 77 / 100 jealtr score\ntels'os x-la02 tic sane issue aorors say Ctons = Ose pattem\nRrior hit ~95% on the model, then got to 99% by building this kind of loop over production.\nDPHER LOVEJOY: ANTERIOR",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "GB AGENT O3 · SESSION.ANALYIEA\nsesstor!\nsettons · walyte eveRy sets'on mtcoeraty coit· 'ver fec tre plre\nrerre rutle 2·callepre sto ptters 77 / 100 kealth rare Tll, wcter·'cort trerd\ntcrton s-?a0x rerroin，orE ptcol\nAnterior hit -95% on the model, then got to 99% by building thls kind of loop over production.\nChAISToPhER LOVEJOY - ANTeAIOA",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AGENT 03 - SESSION-ANALYZER",
+            "x": 17.0,
+            "y": 18.0,
+            "w": 26.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "sessions",
+            "x": 20.0,
+            "y": 24.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "session-analyzer",
+            "x": 39.0,
+            "y": 22.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "1 · analyze EVERY session\noutcome\nquality\ncost + issues",
+            "x": 39.0,
+            "y": 28.0,
+            "w": 20.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "2 · collapse into patterns\nThe same issue across many sessions = ONE pattern",
+            "x": 39.0,
+            "y": 49.0,
+            "w": 24.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "feel the pulse",
+            "x": 74.0,
+            "y": 27.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "77 / 100\nhealth score\n94% success • cost trend",
+            "x": 72.0,
+            "y": 34.0,
+            "w": 21.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "Anterior hit ~95% on the model, then got to 99% by building this kind of loop over production.",
+            "x": 17.0,
+            "y": 86.0,
+            "w": 67.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669878.6709352,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "AGENT 03 - SESSION-ANALYZER",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "GB AGENT O3 · SESSION.ANALYIEA\nsesstor!\nsettons · walyte eveRy sets'on mtcoeraty coit· 'ver fec tre plre\nrerre rutle 2·callepre sto ptters 77 / 100 kealth rare Tll, wcter·'cort trerd\ntcrton s-?a0x rerroin，orE ptcol\nAnterior hit -95% on the model, then got to 99% by building thls kind of loop over production.\nChAISToPhER LOVEJOY - ANTeAIOA",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 573.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "GB AGENT O3 · SESSION.ANALYIEA\nsesstor!\nsettons · walyte eveRy sets'on mtcoeraty coit· 'ver fec tre plre\nrerre rutle 2·callepre sto ptters 77 / 100 kealth rare Tll, wcter·'cort trerd\ntcrton s-?a0x rerroin，orE ptcol\nAnterior hit -95% on the model, then got to 99% by building thls kind of loop over production.\nChAISToPhER LOVEJOY - ANTeAIOA",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "SainnsAnibes 口 PoiringeScnp\n$216.67 7.7 84.5% 15.5% 0% 1\nBooreTand SaisensperDeyog.e Cost jerDey\n30\nAmiyMs\nOegTng Atons\nnoboopt Agetaerpnded erBecgPttis\nOrgariSMiOA TeEd Cod\n67 ACostbAC N2.8r\nNorwng Tri Ch 18\nWrieVeey Fan\nWlerr Jxeroen 3.8\ny",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense dashboard metrics, charts, and small table-like text are better OCRed than transcribed.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Sessions Analyzed",
+            "x": 5.0,
+            "y": 3.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Total Cost",
+            "x": 19.0,
+            "y": 3.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Average Score",
+            "x": 32.0,
+            "y": 3.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Success Rate",
+            "x": 47.0,
+            "y": 3.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Partial",
+            "x": 60.0,
+            "y": 3.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Failed",
+            "x": 72.0,
+            "y": 3.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Needs Review",
+            "x": 84.0,
+            "y": 3.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Score Trend",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Sessions per Day",
+            "x": 36.0,
+            "y": 14.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Cost per Day",
+            "x": 67.0,
+            "y": 14.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "AI insights",
+            "x": 5.0,
+            "y": 38.0,
+            "w": 8.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670089.1400378,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "SainnsAnibes 口 PoiringeScnp\n$216.67 7.7 84.5% 15.5% 0% 1\nBooreTand SaisensperDeyog.e Cost jerDey\n30\nAmiyMs\nOegTng Atons\nnoboopt Agetaerpnded erBecgPttis\nOrgariSMiOA TeEd Cod\n67 ACostbAC N2.8r\nNorwng Tri Ch 18\nWrieVeey Fan\nWlerr Jxeroen 3.8\ny",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 340.4
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "SainnsAnibes 口 PoiringeScnp\n$216.67 7.7 84.5% 15.5% 0% 1\nBooreTand SaisensperDeyog.e Cost jerDey\n30\nAmiyMs\nOegTng Atons\nnoboopt Agetaerpnded erBecgPttis\nOrgariSMiOA TeEd Cod\n67 ACostbAC N2.8r\nNorwng Tri Ch 18\nWrieVeey Fan\nWlerr Jxeroen 3.8\ny",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Seheygant lyons RT\nCrpanitao\nOrginiation TolaiCom\n74 AivaCtC 7\n24\nHepinguitorTrn\nWia hgiiny\nQoigaeuteTund\nCelirs Shy Touns\nCppeAnan FDestiNMe 5.4 M 4.00 $5008 MsChu e Maint Cver Swtimes O\nrotgil Cueta Bocw\nAtooifen\n3,320 8% 73",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-panel dashboard content with tables, charts, and small labels is better OCRed.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Organizations",
+            "x": 65.0,
+            "y": 36.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Insight Performance",
+            "x": 6.0,
+            "y": 58.0,
+            "w": 13.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Top Insights",
+            "x": 25.0,
+            "y": 58.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Message Sources",
+            "x": 55.0,
+            "y": 58.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "User Sentiment",
+            "x": 84.0,
+            "y": 58.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Tool Usage",
+            "x": 6.0,
+            "y": 84.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Tool Failures",
+            "x": 55.0,
+            "y": 84.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Score Distribution",
+            "x": 6.0,
+            "y": 37.0,
+            "w": 12.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-014.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670147.5055652,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Seheygant lyons RT\nCrpanitao\nOrginiation TolaiCom\n74 AivaCtC 7\n24\nHepinguitorTrn\nWia hgiiny\nQoigaeuteTund\nCelirs Shy Touns\nCppeAnan FDestiNMe 5.4 M 4.00 $5008 MsChu e Maint Cver Swtimes O\nrotgil Cueta Bocw\nAtooifen\n3,320 8% 73",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 339.8
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Seheygant lyons RT\nCrpanitao\nOrginiation TolaiCom\n74 AivaCtC 7\n24\nHepinguitorTrn\nWia hgiiny\nQoigaeuteTund\nCelirs Shy Touns\nCppeAnan FDestiNMe 5.4 M 4.00 $5008 MsChu e Maint Cver Swtimes O\nrotgil Cueta Bocw\nAtooifen\n3,320 8% 73",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.85,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "177m 2\n59ve9 (12\nSession s-096\nOVKORG S00CXSS·5：/0\nCeet 500\nWhatthecustocrer wanted\nWhat happnid\nIssuesfours\nMOMC2\nTepls used",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "The right-side session report and metadata are dense and small enough to benefit from OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray with white side panel",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Session s-096",
+            "x": 69.0,
+            "y": 48.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What the customer wanted",
+            "x": 69.0,
+            "y": 62.0,
+            "w": 22.0,
+            "h": 4.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What happened",
+            "x": 69.0,
+            "y": 72.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Issues found",
+            "x": 69.0,
+            "y": 82.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Events",
+            "x": 69.0,
+            "y": 14.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Entities",
+            "x": 69.0,
+            "y": 22.0,
+            "w": 8.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-015.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670208.981066,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/contrast",
+        "text": "177m 2\n59ve9 (12\nSession s-096\nOVKORG S00CXSS·5：/0\nCeet 500\nWhatthecustocrer wanted\nWhat happnid\nIssuesfours\nMOMC2\nTepls used",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 231.96
+      },
+      "ocr_source": "rapidocr-live/right-72/contrast",
+      "ocr_reconcile": {
+        "text": "177m 2\n59ve9 (12\nSession s-096\nOVKORG S00CXSS·5：/0\nCeet 500\nWhatthecustocrer wanted\nWhat happnid\nIssuesfours\nMOMC2\nTepls used",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Go looking for what's about to break.\nRoadmap / rebuilding — drives the live product like a user.\nA validator that drives the live app through computer use.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large title-card text is directly readable; OCR is not needed for this sparse slide.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "AGENT 04 • QA / COMPUTER-USE",
+            "x": 6.0,
+            "y": 4.0,
+            "w": 26.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Go looking for what's about to break.",
+            "x": 6.0,
+            "y": 19.0,
+            "w": 42.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Roadmap / rebuilding — drives the live product like a user.",
+            "x": 6.0,
+            "y": 65.0,
+            "w": 44.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "A validator that drives the live app through computer use.",
+            "x": 52.0,
+            "y": 65.0,
+            "w": 42.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-016.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670256.8038003,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Go looking for what's about to break.\nRoadmap / rebuilding — drives the live product like a user.\nA validator that drives the live app through computer use.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AGENT 04 • QA / COMPUTER-USE — LIVE\nIt drives the real product like a user — and finds the bug before a customer does.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "The slide is simple enough to read directly; OCR is not needed.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "AGENT 04 • QA / COMPUTER-USE — LIVE",
+            "x": 6.0,
+            "y": 4.0,
+            "w": 35.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "It drives the real product like a user — and finds the bug before a customer does.",
+            "x": 14.0,
+            "y": 84.0,
+            "w": 72.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-017.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670256.8045325,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AGENT 04 • QA / COMPUTER-USE — LIVE\nIt drives the real product like a user — and finds the bug before a customer does.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "THE ENABLER\nDon't give them a keyhole. Give them the whole room.\nGive them all of it — or they're guessing.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "The diagram is legible but sparse; direct reading is enough and OCR is unnecessary.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "THE ENABLER",
+            "x": 6.0,
+            "y": 4.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "Your live product",
+            "x": 7.0,
+            "y": 24.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Logs",
+            "x": 29.0,
+            "y": 13.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Trajectories",
+            "x": 29.0,
+            "y": 31.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Metrics",
+            "x": 29.0,
+            "y": 49.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Database",
+            "x": 29.0,
+            "y": 67.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Live UI",
+            "x": 29.0,
+            "y": 84.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Internal harness",
+            "x": 55.0,
+            "y": 13.0,
+            "w": 20.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "logmonitor",
+            "x": 58.0,
+            "y": 22.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Previewer",
+            "x": 58.0,
+            "y": 34.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Sessionplayer",
+            "x": 58.0,
+            "y": 45.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "QA / computer-use (sandbox)",
+            "x": 55.0,
+            "y": 57.0,
+            "w": 24.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Slack",
+            "x": 83.0,
+            "y": 24.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "the nervous system",
+            "x": 83.0,
+            "y": 34.0,
+            "w": 13.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Don't give them a keyhole. Give them the whole room.",
+            "x": 24.0,
+            "y": 89.0,
+            "w": 43.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Give them all of it — or they're guessing.",
+            "x": 31.0,
+            "y": 95.0,
+            "w": 38.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-018.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670256.8050854,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "THE ENABLER\nDon't give them a keyhole. Give them the whole room.\nGive them all of it — or they're guessing.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "THE BIGGER PATTERN\nThe harness that watches itself is the moat.\nThe model is the part you swap. The loop is the part you own.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple readable slide with large title and short caption; OCR not needed.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "THE BIGGER PATTERN",
+            "x": 6.0,
+            "y": 6.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "The harness that watches itself\nis the moat.",
+            "x": 6.0,
+            "y": 10.0,
+            "w": 54.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Greg Brockman\n@gdb\nthe model alone is no longer the product\n7:51 AM · May 22, 2026 · 1.2M Views",
+            "x": 17.0,
+            "y": 35.0,
+            "w": 66.0,
+            "h": 39.0
+          },
+          {
+            "role": "caption",
+            "text": "The model is the part you swap. The loop is the part you own.",
+            "x": 22.0,
+            "y": 83.0,
+            "w": 56.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/kZsf_Sfm7RU/slide-019.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670307.0095983,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "THE BIGGER PATTERN\nThe harness that watches itself is the moat.\nThe model is the part you swap. The loop is the part you own.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-019.html"
+    }
+  ],
+  "rejected": []
+}

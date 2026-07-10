@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE STATE OF PERSONA EVALUATION • THE WORK IS SERIOUS\n\nThe field measures personas rigorously — and is improving fast.\n\nICLR 2025\nCoSER\nMotivation-driven agents from 17,966 characters / 711 books.\n\n2025\nPsyMem\n26 quantitative psychological indicators per character, anchored by knowledge-graph memory.\n\nACL 2024\nInCharacter\nFidelity via psychological interviews, not self-report.\n\nSurveys (Chen 2024; Wang 2026) trace the arc — and document the asymmetry: automated evaluators, including LLM-as-judge, privilege fluency and naturalness over fidelity to the record.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense small text and multi-card layout",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#050505",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "THE STATE OF PERSONA EVALUATION • THE WORK IS SERIOUS",
+        "x": 8.0,
+        "y": 8.0,
+        "w": 55.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "The field measures personas rigorously — and is improving fast.",
+        "x": 8.0,
+        "y": 15.0,
+        "w": 42.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "CoSER",
+        "x": 12.0,
+        "y": 42.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "PsyMem",
+        "x": 31.0,
+        "y": 42.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "InCharacter",
+        "x": 51.0,
+        "y": 42.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Surveys (Chen 2024; Wang 2026) trace the arc — and document the asymmetry: automated evaluators, including LLM-as-judge, privilege fluency and nativeness over fidelity to the record.",
+        "x": 9.0,
+        "y": 69.0,
+        "w": 58.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/IJXjTLPzvAU/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659784.5020463,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "THE STATEOF PERSONA EVALUATION·THE WORK IS SERIOUS\nfast. rigorously — and is improving The field measures personas\nICWL2025 CoSER PsyMem 2025 InCharacter ACL2024\nPot1vatioo-dr1vooag0ntstroo17,966 characters/r71books.Co5ER-706 matchesozbeatsGPT-4oonthroe biochnarks, xmowiedge-graph menoxy. Indicatorspaxcharactereochoredby 26quantltatlve psychological chaxactoxs,14 scales8o.7%. Ficelity via psychologlcal lntervieas,not solf-report.32\n*X1V282.89852\nSurveys (Chen 2024; Wang 2o26) trace the arc -and docunent the asyometry: autocated evaluators,including LlM-as-\njodge.privilege fluencyandnaturalnessover fidolityto therocord.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 688.32
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "THE STATE OF PERSONA EVALUATION • THE WORK IS SERIOUS\n\nThe field measures personas rigorously — and is improving fast.\n\nICLR 2025\nCoSER\nMotivation-driven agents from 17,966 characters / 711 books.\n\n2025\nPsyMem\n26 quantitative psychological indicators per character, anchored by knowledge-graph memory.\n\nACL 2024\nInCharacter\nFidelity via psychological interviews, not self-report.\n\nSurveys (Chen 2024; Wang 2026) trace the arc — and document the asymmetry: automated evaluators, including LLM-as-judge, privilege fluency and naturalness over fidelity to the record.",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide text and corrected obvious OCR errors; omitted tiny unreadable card details."
+  }
+}

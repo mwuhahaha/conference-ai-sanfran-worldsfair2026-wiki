@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Document screenshot with small dense instructions and form-like content; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cream",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI Engineer workshop instructions",
+        "x": 28.0,
+        "y": 5.0,
+        "w": 40.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Aishwarya Srinivasan, Gabriela de Queiroz, Pamela Fox and Harald Kirschner",
+        "x": 12.0,
+        "y": 13.0,
+        "w": 66.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Setup Instructions:",
+        "x": 11.0,
+        "y": 23.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "GitHub:",
+        "x": 11.0,
+        "y": 31.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Azure:",
+        "x": 11.0,
+        "y": 48.0,
+        "w": 8.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657240.9676633,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

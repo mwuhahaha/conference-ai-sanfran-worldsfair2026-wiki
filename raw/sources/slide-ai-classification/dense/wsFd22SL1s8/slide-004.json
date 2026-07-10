@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arrakis\nArrakis provides a secure, fully customizable, and self-hosted solution to spawn and manage Sandboxes for code execution and computer use.\nIt has out-of-the-box support for backtracking via snapshot-and-restore.\nOpen Source",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray/white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis",
+        "x": 5.0,
+        "y": 5.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Arrakis provides a secure, fully customizable, and self-hosted solution to spawn and manage Sandboxes for code execution and computer use.",
+        "x": 6.0,
+        "y": 33.0,
+        "w": 45.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "It has out-of-the-box support for backtracking via snapshot-and-restore.",
+        "x": 6.0,
+        "y": 48.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Open Source",
+        "x": 6.0,
+        "y": 62.0,
+        "w": 18.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672713.5007093,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Arrakis\nArrakis provides a secure, fully customizable, and self-hosted solution to spawn and manage Sandboxes for code execution and computer use.\nIt has out-of-the-box support for backtracking via snapshot-and-restore.\nOpen Source",
+  "advanced_ocr": {}
+}

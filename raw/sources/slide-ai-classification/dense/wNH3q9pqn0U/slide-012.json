@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Demo 2: Yeast Fermentation\nAIE produce CO, gas as waste. In bread dough, this CO, gets trapped by gluten proteins, creating bubbles that Yeast are living mlcroorganisms thot eat sugo! and Wobcam Wobcam\nthe same process used to make bread, beer, and wine for thousands of ycars. make the dough riso. This is anoerobic fermontation -\nKey Scientific Concepts:\n. Enrye setivity Yoast enzymes break down\ncomplex sugars\n. Metsbollc rate: How quickly organisms process nutricnts\n. Gss laws: CO, production creates pressure and volume changes\n. Growth phatot: Log - Exponontial - Statiorary - Decline\naws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense slide with paragraph text and multiple screenshots; OCR will be more efficient than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black left sidebar and black footer",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 9.0,
+        "w": 12.0,
+        "h": 26.0
+      },
+      {
+        "role": "title",
+        "text": "Demo 2: Yeast Fermentation",
+        "x": 20.0,
+        "y": 0,
+        "w": 38.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 52.0,
+        "y": 87.0,
+        "w": 11.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672603.5068002,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Demo 2: Yeast Fermentation",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Demo 2: Yeast Fermentation\nAIE produce CO, gas as waste. In bread dough, this CO, gets trapped by gluten proteins, creating bubbles that Yeast are living mlcroorganisms thot eat sugo! and Wobcam Wobcam\nthe same process used to make bread, beer, and wine for thousands of ycars. make the dough riso. This is anoerobic fermontation -\nKey Scientific Concepts:\n. Enrye setivity Yoast enzymes break down\ncomplex sugars\n. Metsbollc rate: How quickly organisms process nutricnts\n. Gss laws: CO, production creates pressure and volume changes\n. Growth phatot: Log - Exponontial - Statiorary - Decline\naws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 954.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Demo 2: Yeast Fermentation\nAIE produce CO, gas as waste. In bread dough, this CO, gets trapped by gluten proteins, creating bubbles that Yeast are living mlcroorganisms thot eat sugo! and Wobcam Wobcam\nthe same process used to make bread, beer, and wine for thousands of ycars. make the dough riso. This is anoerobic fermontation -\nKey Scientific Concepts:\n. Enrye setivity Yoast enzymes break down\ncomplex sugars\n. Metsbollc rate: How quickly organisms process nutricnts\n. Gss laws: CO, production creates pressure and volume changes\n. Growth phatot: Log - Exponontial - Statiorary - Decline\naws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Fettures Hewiworts nvgwtiors Doca Dog Detymlec\nGRTSA\nncA ang Loiong-08\nSAD\n42. M.3.\n3.Y\nEnowlesgeFnontir H CodirCan Uielony-ce CNTetk",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Screenshot has small chart labels and benchmark numbers that OCR can read more reliably than vision transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "t²-bench",
+        "x": 19.0,
+        "y": 30.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "ref/ect",
+        "x": 20.0,
+        "y": 7.0,
+        "w": 10.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/Jx4ZFEAq6bY/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661671.2862842,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "t²-bench",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/contrast",
+    "text": "Fettures Hewiworts nvgwtiors Doca Dog Detymlec\nGRTSA\nncA ang Loiong-08\nSAD\n42. M.3.\n3.Y\nEnowlesgeFnontir H CodirCan Uielony-ce CNTetk",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 247.36
+  },
+  "ocr_source": "rapidocr-live/right-72/contrast",
+  "ocr_reconcile": {
+    "text": "Fettures Hewiworts nvgwtiors Doca Dog Detymlec\nGRTSA\nncA ang Loiong-08\nSAD\n42. M.3.\n3.Y\nEnowlesgeFnontir H CodirCan Uielony-ce CNTetk",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

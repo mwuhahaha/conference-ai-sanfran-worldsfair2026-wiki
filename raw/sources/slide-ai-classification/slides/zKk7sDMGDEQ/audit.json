@@ -1,0 +1,130 @@
+{
+  "video_id": "zKk7sDMGDEQ",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 1,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "claude doesn't use semantic code search turbopuffer\nEthan Lipnik @EthanLipnik · Jan 30\nDoes anyone know why Codex and Claude doesn't use cloud-based\nembeddings like Cursor to quickly search through the codebase?\nAIE 68 18 658 ll 266K 口\n@bcherny Boris Cherny\nEarly versions of Claude Code used RAG + a local vector db, but we\nfound pretty quickly that agentic search generally works better. It is also\nsimpler and doesn't have the same issues around security, privacy,\nstaleness, and reliability.\n9:56 PM · Jan 31, 2026 · 1.1M Views\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense screenshot-style slide with small text and mixed elements",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with white slide panel and inset screenshot",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "claude doesn't use semantic code search",
+            "x": 28.0,
+            "y": 2.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "turbopuffer",
+            "x": 84.0,
+            "y": 2.0,
+            "w": 11.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 12.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Engineering the future of AI",
+            "x": 42.0,
+            "y": 82.0,
+            "w": 40.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zKk7sDMGDEQ/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672796.2386682,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "claude doesn't use semantic code search",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "claude doesn't use semantic code search turbopuffer\nEthan Lipnik @EthanLipnik · Jan 30\nDoes anyone know why Codex and Claude doesn't use cloud-based\nembeddings like Cursor to quickly search through the codebase?\nAIE 68 18 658 ll 266K 口\n@bcherny Boris Cherny\nEarly versions of Claude Code used RAG + a local vector db, but we\nfound pretty quickly that agentic search generally works better. It is also\nsimpler and doesn't have the same issues around security, privacy,\nstaleness, and reliability.\n9:56 PM · Jan 31, 2026 · 1.1M Views\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 838.76
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "claude doesn't use semantic code search turbopuffer\nEthan Lipnik @EthanLipnik · Jan 30\nDoes anyone know why Codex and Claude doesn't use cloud-based\nembeddings like Cursor to quickly search through the codebase?\nAIE 68 18 658 ll 266K 口\n@bcherny Boris Cherny\nEarly versions of Claude Code used RAG + a local vector db, but we\nfound pretty quickly that agentic search generally works better. It is also\nsimpler and doesn't have the same issues around security, privacy,\nstaleness, and reliability.\n9:56 PM · Jan 31, 2026 · 1.1M Views\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/zKk7sDMGDEQ/slide-002.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.2,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker at podium; projected title slide is background, not a readable presentation frame",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a content slide",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "light gray wall with white projection screen",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zKk7sDMGDEQ/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672796.2384067,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

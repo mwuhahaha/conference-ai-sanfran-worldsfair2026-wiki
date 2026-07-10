@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Principle 4 — Efficient\n\nEfficiency in updates to the agent:\n\ncheap\nMemory write\nstore a fact or correction\n\nlow-mid\nSkill / prompt edit\nrewrite a prompt, add a skill\n\nmid\nSearch over harness\nmutate & score candidates\n\nexpensive\nModel update\nSFT · RL · LoRA on weights\n\n← try smallest plausible fix first\n\nEfficiency in regression-aware optimization loop",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with multiple labeled cost tiers and small captions; OCR will be more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Principle 4 — Efficient",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 34.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Efficiency in updates to the agent:",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 33.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "cheap\nMemory write",
+        "x": 4.0,
+        "y": 42.0,
+        "w": 19.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "low-mid\nSkill / prompt edit",
+        "x": 27.0,
+        "y": 33.0,
+        "w": 19.0,
+        "h": 30.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "mid\nSearch over harness",
+        "x": 52.0,
+        "y": 30.0,
+        "w": 19.0,
+        "h": 30.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "expensive\nModel update",
+        "x": 77.0,
+        "y": 24.0,
+        "w": 19.0,
+        "h": 30.0
+      },
+      {
+        "role": "caption",
+        "text": "Efficiency in regression-aware optimization loop",
+        "x": 4.0,
+        "y": 81.0,
+        "w": 50.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-015.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656835.3081512,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Principle 4 — Efficient",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Principle4-Efficient\nEfficiency in updates to the agent:\nMemory write Cheap. rewritea prompt,adda skill Skiu / prompt edit low-mid mutate & score candldates Search over harness: mia SFTRL:LoRA on weights expensive Model updato\nstore a fact or correctlon\nGtry smallest plausible fixfirst Vifitfails\nEfficiency in regression-aware optimization loop",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 533.68
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Principle 4 — Efficient\n\nEfficiency in updates to the agent:\n\ncheap\nMemory write\nstore a fact or correction\n\nlow-mid\nSkill / prompt edit\nrewrite a prompt, add a skill\n\nmid\nSearch over harness\nmutate & score candidates\n\nexpensive\nModel update\nSFT · RL · LoRA on weights\n\n← try smallest plausible fix first\n\nEfficiency in regression-aware optimization loop",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for spacing, capitalization, punctuation, and a few obvious word errors; omitted unclear right-side note."
+  }
+}

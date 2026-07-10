@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Continuation of the documentation table with small rows and columns; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "GPT-4 Turbo Preview",
+        "x": 27.0,
+        "y": 12.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "GPT-4 Turbo with Vision Preview",
+        "x": 26.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Model ID",
+        "x": 28.0,
+        "y": 24.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Description",
+        "x": 42.0,
+        "y": 24.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Documentation",
+        "x": 80.0,
+        "y": 20.0,
+        "w": 15.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-013.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657352.772215,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

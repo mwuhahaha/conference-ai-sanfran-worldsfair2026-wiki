@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "More dead ends\nRepresentation    Why it failed\nTSV views    Lost formatting and structural context\nSQL views    Flat tables didn't capture visual structure\nHTML tables    Too verbose, consumed too many tokens\nDOT graphs    Useful for analysis, not for interaction\nXML/XSLT    LLM struggled with the syntax\nNone of them worked as a general-purpose representation - but two informed what came next.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Table-heavy slide is better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with dark green panel",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 13.0,
+        "h": 17.0
+      },
+      {
+        "role": "title",
+        "text": "More dead ends",
+        "x": 29.0,
+        "y": 4.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Representation",
+        "x": 30.0,
+        "y": 22.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Why it failed",
+        "x": 63.0,
+        "y": 22.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 57.0,
+        "y": 83.0,
+        "w": 24.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/HEFSExa0xl0/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659399.4015002,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "More dead ends",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "More dead ends\nRepresentation Why it failed\nTSV views Lost formatting and structural context\nAIE SQL views Flat tables didn't capture visual structure\nHTML tables Too verbose, consumed too many tokens\nDOT graphs Useful for analysis,not for interaction\nXML/XSLT LLM struggled with the syntax\nNone of them worked as a general-purpose representation - but two informed what came next.\nAlBrgiocet AI Engineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 727.04
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "More dead ends\nRepresentation    Why it failed\nTSV views    Lost formatting and structural context\nSQL views    Flat tables didn't capture visual structure\nHTML tables    Too verbose, consumed too many tokens\nDOT graphs    Useful for analysis, not for interaction\nXML/XSLT    LLM struggled with the syntax\nNone of them worked as a general-purpose representation - but two informed what came next.",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected minor errors and removed spurious logo/footer text; accepted the slide text with light punctuation/spacing cleanup."
+  }
+}

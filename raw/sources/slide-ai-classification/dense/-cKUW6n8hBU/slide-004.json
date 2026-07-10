@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why I'm such\nan advocate\n\nAllows you to create computer programs that use LLMs\nas inline function calls\n\nPrograms which you happen to be able to optimize - it's a\nprogramming paradigm, not a wholesale framework, and not\n“optimizer-first”\n\nIs built with a systems mindset; you encode intent and\nstructure in a way that is transferable\n\nYour program design likely moves slower than AI advancements (at\nleast so far)",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small bullet text on the right and a cropped top line make OCR more appropriate than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg,#30413d 0 38%,#f7f6f1 38% 100%)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why I’m such an advocate",
+        "x": 3.0,
+        "y": 36.0,
+        "w": 30.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "Allows you to create computer programs that use LLMs\nas inline function calls",
+        "x": 44.0,
+        "y": 13.0,
+        "w": 48.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Programs which you happen to be able to optimize - it’s a\nprogramming paradigm, not a wholesale framework, and not\n“optimizer-first”",
+        "x": 46.0,
+        "y": 29.0,
+        "w": 46.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Is built with a systems mindset; you encode intent and\nstructure in a way that is transferable",
+        "x": 43.0,
+        "y": 50.0,
+        "w": 48.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "Your program design likely moves slower than AI advancements\n(at least so far)",
+        "x": 46.0,
+        "y": 68.0,
+        "w": 44.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655110.3915207,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "detailed control over your program while focusing on FOO owsyouto. LaingNYCNYT）17Ceda\nthings that actually matter\nAllows you to create computer programs that use' LLMs\nWhy I'm such an advocate as inline function calls Programs which you happen to be able to optimize - it's a programming paradigm, not a wholesale framework, and not \"optimizer-first\"\nIs built with a systems mindset; you encode intent and\nstructure in a way that is transferable\nleast so far) Your program design likely moves slower than AI advancements (at",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 811.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Why I'm such\nan advocate\n\nAllows you to create computer programs that use LLMs\nas inline function calls\n\nPrograms which you happen to be able to optimize - it's a\nprogramming paradigm, not a wholesale framework, and not\n“optimizer-first”\n\nIs built with a systems mindset; you encode intent and\nstructure in a way that is transferable\n\nYour program design likely moves slower than AI advancements (at\nleast so far)",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR with minor cleanup: fixed capitalization/punctuation, removed garbled fragments, and preserved only clearly visible text."
+  }
+}

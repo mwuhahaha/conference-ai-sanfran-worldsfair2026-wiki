@@ -1,0 +1,935 @@
+{
+  "video_id": "vh2VGuQ3zhY",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 7,
+  "rejected_count": 6,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "HOWTO BUILD IT\n3 Step Implementation Pattern\nAnkush Rastogi\nBuild Tool Index Route Each Query Inject & Call LLM\nOFFLINE·ONE-TIME RUNTIME·EVERYREQUEST RUNTIME·EVERYREQUEST\nCollect all tool names, descriptions,and JsON schemas Embed the incominguser query with thesamemodel Fetch JsON schemas for the selected tools only\nIndex once and reuse forever by Embed each tool description SentenceTransformers) Pinecone. storingvectors in FAisS or (OpenAl,Cohere, Run approximate Retrieve top-Ktools（K=5 the toolindex nearest-neighbor search against default); apply a cosine threshold Build thepromptwith just those Call the LLM → return result; log selections for monitoring schemas in the toolsparameter Sohaa Shukh\nAntush Rastogi",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-card slide with small bullet text and mixed layout.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark blue gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "HOW TO BUILD IT",
+            "x": 5.0,
+            "y": 9.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "3 Step Implementation Pattern",
+            "x": 5.0,
+            "y": 15.0,
+            "w": 55.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "1 Build Tool Index",
+            "x": 5.0,
+            "y": 34.0,
+            "w": 26.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2 Route Each Query",
+            "x": 36.0,
+            "y": 34.0,
+            "w": 26.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "3 Inject & Call LLM",
+            "x": 67.0,
+            "y": 34.0,
+            "w": 26.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672417.6669166,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "HOWTO BUILD IT\n3 Step Implementation Pattern\nAnkush Rastogi\nBuild Tool Index Route Each Query Inject & Call LLM\nOFFLINE·ONE-TIME RUNTIME·EVERYREQUEST RUNTIME·EVERYREQUEST\nCollect all tool names, descriptions,and JsON schemas Embed the incominguser query with thesamemodel Fetch JsON schemas for the selected tools only\nIndex once and reuse forever by Embed each tool description SentenceTransformers) Pinecone. storingvectors in FAisS or (OpenAl,Cohere, Run approximate Retrieve top-Ktools（K=5 the toolindex nearest-neighbor search against default); apply a cosine threshold Build thepromptwith just those Call the LLM → return result; log selections for monitoring schemas in the toolsparameter Sohaa Shukh\nAntush Rastogi",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1058.6
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "HOWTO BUILD IT\n3 Step Implementation Pattern\nAnkush Rastogi\nBuild Tool Index Route Each Query Inject & Call LLM\nOFFLINE·ONE-TIME RUNTIME·EVERYREQUEST RUNTIME·EVERYREQUEST\nCollect all tool names, descriptions,and JsON schemas Embed the incominguser query with thesamemodel Fetch JsON schemas for the selected tools only\nIndex once and reuse forever by Embed each tool description SentenceTransformers) Pinecone. storingvectors in FAisS or (OpenAl,Cohere, Run approximate Retrieve top-Ktools（K=5 the toolindex nearest-neighbor search against default); apply a cosine threshold Build thepromptwith just those Call the LLM → return result; log selections for monitoring schemas in the toolsparameter Sohaa Shukh\nAntush Rastogi",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "YOURROADMAP\nImplementation Checklist\nAnkush Rastogi\nCatalog Your Tools Build the Embedding Index\nGather alltoolnames,descriptions,and JsON schemasina structured list Pinecone,one-time setup Embed each description, store vectors in FAiss or\nImplement the Router Integrate Into the Agent Loop\nschemas embed(query)→similarity_search→top-K→fetch Replace your static functions list with therouter output on every call Sohaa Shakh\n5 Benchmark accuracy at K=3,5,10on a held-out set; pickthe sweet spot Evaluate & Tune K 6 your catalog grows Monitor & Iterate Log selections;alert on missed tools;re-embed as\n14\nAntush Rastogi",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Six-item checklist with smaller subtext across two columns.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark blue gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "YOUR ROADMAP",
+            "x": 5.0,
+            "y": 9.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Implementation Checklist",
+            "x": 5.0,
+            "y": 15.0,
+            "w": 50.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "1 Catalog Your Tools",
+            "x": 5.0,
+            "y": 34.0,
+            "w": 38.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2 Build the Embedding Index",
+            "x": 51.0,
+            "y": 34.0,
+            "w": 40.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "3 Implement the Router",
+            "x": 5.0,
+            "y": 52.0,
+            "w": 38.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "4 Integrate Into the Agent Loop",
+            "x": 51.0,
+            "y": 52.0,
+            "w": 40.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "5 Evaluate & Tune K",
+            "x": 5.0,
+            "y": 70.0,
+            "w": 38.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "6 Monitor & Iterate",
+            "x": 51.0,
+            "y": 70.0,
+            "w": 40.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672461.8191197,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "YOURROADMAP\nImplementation Checklist\nAnkush Rastogi\nCatalog Your Tools Build the Embedding Index\nGather alltoolnames,descriptions,and JsON schemasina structured list Pinecone,one-time setup Embed each description, store vectors in FAiss or\nImplement the Router Integrate Into the Agent Loop\nschemas embed(query)→similarity_search→top-K→fetch Replace your static functions list with therouter output on every call Sohaa Shakh\n5 Benchmark accuracy at K=3,5,10on a held-out set; pickthe sweet spot Evaluate & Tune K 6 your catalog grows Monitor & Iterate Log selections;alert on missed tools;re-embed as\n14\nAntush Rastogi",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 929.84
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "YOURROADMAP\nImplementation Checklist\nAnkush Rastogi\nCatalog Your Tools Build the Embedding Index\nGather alltoolnames,descriptions,and JsON schemasina structured list Pinecone,one-time setup Embed each description, store vectors in FAiss or\nImplement the Router Integrate Into the Agent Loop\nschemas embed(query)→similarity_search→top-K→fetch Replace your static functions list with therouter output on every call Sohaa Shakh\n5 Benchmark accuracy at K=3,5,10on a held-out set; pickthe sweet spot Evaluate & Tune K 6 your catalog grows Monitor & Iterate Log selections;alert on missed tools;re-embed as\n14\nAntush Rastogi",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Teams Are Hitting the Same Tool-Scaling Wall INDUSTRYEVIDENCE\nReal evidence from practitioners,engineers,and Anthropic itself,not simulated benchmarks. Ankush Rastogi\ntokens 150K → 2K Loading only the toolsneeded for the Anthropic Engineering Blog currenttaskdropsusagefrom1so.oooto 2,000 with98.7%cut. 20+ tools breaksit Vercel AI SDK - Issue #11920 Sending alltool definitions every request choice,and ralses tokers+latency.\" degrades performance,confuses tool\nOfficial Anthropicfinding Real practitioner issue jon 2026\nSohnl Shakh\n98% tokenreduction Selects accurately from~3K candidates MCP-Zero (xfey/MCP-Zero) whilecutting tokens 98% Testedon308MCPserversand2.797toob. >2 tools-+stuckloop stuckin aloop,burningthroughallmax iterations.Hit in production. n8n Community Forum \"Addmorethan two toolsandtheAlgets\nOpen source,code cvailable now Production foslure·Aug 2024\n15\nboseysruy",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense evidence matrix with multiple source callouts and small supporting copy.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark blue gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "INDUSTRY EVIDENCE",
+            "x": 5.0,
+            "y": 9.0,
+            "w": 25.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Teams Are Hitting the Same Tool-Scaling Wall",
+            "x": 5.0,
+            "y": 15.0,
+            "w": 70.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Real evidence from practitioners, engineers, and Anthropic itself, not simulated benchmarks.",
+            "x": 5.0,
+            "y": 24.0,
+            "w": 85.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "150K -> 2K\nAnthropic Engineering Blog",
+            "x": 5.0,
+            "y": 35.0,
+            "w": 42.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "20+\nVercel AI SDK - Issue #11920",
+            "x": 51.0,
+            "y": 35.0,
+            "w": 42.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "98%\nMCP-Zero (xfey/MCP-Zero)",
+            "x": 5.0,
+            "y": 64.0,
+            "w": 42.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "> 2\nn8n Community Forum",
+            "x": 51.0,
+            "y": 64.0,
+            "w": 42.0,
+            "h": 24.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672499.4560156,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Teams Are Hitting the Same Tool-Scaling Wall INDUSTRYEVIDENCE\nReal evidence from practitioners,engineers,and Anthropic itself,not simulated benchmarks. Ankush Rastogi\ntokens 150K → 2K Loading only the toolsneeded for the Anthropic Engineering Blog currenttaskdropsusagefrom1so.oooto 2,000 with98.7%cut. 20+ tools breaksit Vercel AI SDK - Issue #11920 Sending alltool definitions every request choice,and ralses tokers+latency.\" degrades performance,confuses tool\nOfficial Anthropicfinding Real practitioner issue jon 2026\nSohnl Shakh\n98% tokenreduction Selects accurately from~3K candidates MCP-Zero (xfey/MCP-Zero) whilecutting tokens 98% Testedon308MCPserversand2.797toob. >2 tools-+stuckloop stuckin aloop,burningthroughallmax iterations.Hit in production. n8n Community Forum \"Addmorethan two toolsandtheAlgets\nOpen source,code cvailable now Production foslure·Aug 2024\n15\nboseysruy",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1109.5
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Teams Are Hitting the Same Tool-Scaling Wall INDUSTRYEVIDENCE\nReal evidence from practitioners,engineers,and Anthropic itself,not simulated benchmarks. Ankush Rastogi\ntokens 150K → 2K Loading only the toolsneeded for the Anthropic Engineering Blog currenttaskdropsusagefrom1so.oooto 2,000 with98.7%cut. 20+ tools breaksit Vercel AI SDK - Issue #11920 Sending alltool definitions every request choice,and ralses tokers+latency.\" degrades performance,confuses tool\nOfficial Anthropicfinding Real practitioner issue jon 2026\nSohnl Shakh\n98% tokenreduction Selects accurately from~3K candidates MCP-Zero (xfey/MCP-Zero) whilecutting tokens 98% Testedon308MCPserversand2.797toob. >2 tools-+stuckloop stuckin aloop,burningthroughallmax iterations.Hit in production. n8n Community Forum \"Addmorethan two toolsandtheAlgets\nOpen source,code cvailable now Production foslure·Aug 2024\n15\nboseysruy",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "KNOWTHE LMITS Trade-Offs & Best Practices\nAnkush Rrsi ogi\nCONCERN MITIGATION!\nRouter may miss a needed tool Fallback: raise K, or let the LLM request more:\nAdds complexity:vector DB+tuning Embedding search is.ms-fast; the savings dominate:\nRare toois may rank low E Log missesy retrain or add keyword boosting\nK threshold is hard to calibrate Start at K=5; tune on a dev eval set.\nNot worth it below -20 tools For small tool sets' load staticallypano router\nAnbunh Rrtogi",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Two-column tradeoff table with five rows of small text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark blue gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "KNOW THE LIMITS",
+            "x": 5.0,
+            "y": 9.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Trade-Offs & Best Practices",
+            "x": 5.0,
+            "y": 15.0,
+            "w": 55.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "CONCERN",
+            "x": 7.0,
+            "y": 25.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MITIGATION",
+            "x": 48.0,
+            "y": 25.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Router may miss a needed tool",
+            "x": 5.0,
+            "y": 32.0,
+            "w": 37.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Fallback: raise K, or let the LLM request more",
+            "x": 46.0,
+            "y": 32.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Adds complexity: vector DB + tuning",
+            "x": 5.0,
+            "y": 42.0,
+            "w": 37.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Embedding search is ms-fast; the savings dominate",
+            "x": 46.0,
+            "y": 42.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Rare tools may rank low",
+            "x": 5.0,
+            "y": 52.0,
+            "w": 37.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Log misses; retrain or add keyword boosting",
+            "x": 46.0,
+            "y": 52.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "K threshold is hard to calibrate",
+            "x": 5.0,
+            "y": 62.0,
+            "w": 37.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Start at K=5; tune on a dev eval set",
+            "x": 46.0,
+            "y": 62.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Not worth it below ~20 tools",
+            "x": 5.0,
+            "y": 72.0,
+            "w": 37.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "For small tool sets, load statically; no router",
+            "x": 46.0,
+            "y": 72.0,
+            "w": 44.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672545.6298776,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "KNOWTHE LMITS Trade-Offs & Best Practices\nAnkush Rrsi ogi\nCONCERN MITIGATION!\nRouter may miss a needed tool Fallback: raise K, or let the LLM request more:\nAdds complexity:vector DB+tuning Embedding search is.ms-fast; the savings dominate:\nRare toois may rank low E Log missesy retrain or add keyword boosting\nK threshold is hard to calibrate Start at K=5; tune on a dev eval set.\nNot worth it below -20 tools For small tool sets' load staticallypano router\nAnbunh Rrtogi",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 797.88
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "KNOWTHE LMITS Trade-Offs & Best Practices\nAnkush Rrsi ogi\nCONCERN MITIGATION!\nRouter may miss a needed tool Fallback: raise K, or let the LLM request more:\nAdds complexity:vector DB+tuning Embedding search is.ms-fast; the savings dominate:\nRare toois may rank low E Log missesy retrain or add keyword boosting\nK threshold is hard to calibrate Start at K=5; tune on a dev eval set.\nNot worth it below -20 tools For small tool sets' load staticallypano router\nAnbunh Rrtogi",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Key Takeaways\n01 Tool Overload Kills Accuracy\n02 Tokens = Money + Latency\n03 Semantic Routing Saves the Day\n04 It's RAG, but for Tools\n05 Start Small, Scale Confidently",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Readable directly as a large summary slide; OCR is not necessary.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark blue gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "REMEMBER THIS",
+            "x": 5.0,
+            "y": 9.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Key Takeaways",
+            "x": 5.0,
+            "y": 15.0,
+            "w": 35.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "01 Tool Overload Kills Accuracy",
+            "x": 5.0,
+            "y": 31.0,
+            "w": 70.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "02 Tokens = Money + Latency",
+            "x": 5.0,
+            "y": 44.0,
+            "w": 70.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "03 Semantic Routing Saves the Day",
+            "x": 5.0,
+            "y": 57.0,
+            "w": 70.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "04 It's RAG, but for Tools",
+            "x": 5.0,
+            "y": 70.0,
+            "w": 70.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "05 Start Small, Scale Confidently",
+            "x": 5.0,
+            "y": 83.0,
+            "w": 70.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672583.41456,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Key Takeaways\n01 Tool Overload Kills Accuracy\n02 Tokens = Money + Latency\n03 Semantic Routing Saves the Day\n04 It's RAG, but for Tools\n05 Start Small, Scale Confidently",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "GO DEEPER\nResources & References\nAnkush Rstogi\n三 Benchmarks Papers & Tools & Repos API Docs\nZheng et al.-SkillRouter:LLM Agents at Scale(2026) SkillRouter- github.com/alibaba/skillrouter AnthropicMCP- docs.anthropic.com/mcp\nLiu&Chen-SemanticTool Selection (vLLM, 2025) FAISS- github.com/facebookresearch/faiss OpenAl Function Calling- platform.openai.com Sohea Shakh\nBerkeley Function Calling Leaderboard (BFCL) Pinecone/Qdrant/ChromaDB (vector DBs) Google GenAI Gemini2.0- ai.google.dev\nAnthropic Eng.-MCP On-Demand Context(2025) LangGraph-agent orchestration SentenceTransformers-sbert.net\nThank you!\nAntush Rastogi",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense reference slide with small multi-column text and many citations.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark blue gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "GO DEEPER",
+            "x": 5.0,
+            "y": 9.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Resources & References",
+            "x": 5.0,
+            "y": 15.0,
+            "w": 45.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Papers & Benchmarks",
+            "x": 7.0,
+            "y": 28.0,
+            "w": 24.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tools & Repos",
+            "x": 38.0,
+            "y": 28.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "API Docs",
+            "x": 69.0,
+            "y": 28.0,
+            "w": 15.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "SkillRouter",
+            "x": 7.0,
+            "y": 39.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "FAISS",
+            "x": 7.0,
+            "y": 46.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Pinecone / Qdrant / ChromaDB",
+            "x": 7.0,
+            "y": 53.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "LangGraph",
+            "x": 7.0,
+            "y": 60.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Anthropic MCP",
+            "x": 69.0,
+            "y": 39.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "OpenAI Function Calling",
+            "x": 69.0,
+            "y": 46.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Google GenAI Gemini 2.0",
+            "x": 69.0,
+            "y": 53.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "SentenceTransformers",
+            "x": 69.0,
+            "y": 60.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Thank you!",
+            "x": 34.0,
+            "y": 84.0,
+            "w": 32.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672583.4152708,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "GO DEEPER\nResources & References\nAnkush Rstogi\n三 Benchmarks Papers & Tools & Repos API Docs\nZheng et al.-SkillRouter:LLM Agents at Scale(2026) SkillRouter- github.com/alibaba/skillrouter AnthropicMCP- docs.anthropic.com/mcp\nLiu&Chen-SemanticTool Selection (vLLM, 2025) FAISS- github.com/facebookresearch/faiss OpenAl Function Calling- platform.openai.com Sohea Shakh\nBerkeley Function Calling Leaderboard (BFCL) Pinecone/Qdrant/ChromaDB (vector DBs) Google GenAI Gemini2.0- ai.google.dev\nAnthropic Eng.-MCP On-Demand Context(2025) LangGraph-agent orchestration SentenceTransformers-sbert.net\nThank you!\nAntush Rastogi",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 728.52
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "GO DEEPER\nResources & References\nAnkush Rstogi\n三 Benchmarks Papers & Tools & Repos API Docs\nZheng et al.-SkillRouter:LLM Agents at Scale(2026) SkillRouter- github.com/alibaba/skillrouter AnthropicMCP- docs.anthropic.com/mcp\nLiu&Chen-SemanticTool Selection (vLLM, 2025) FAISS- github.com/facebookresearch/faiss OpenAl Function Calling- platform.openai.com Sohea Shakh\nBerkeley Function Calling Leaderboard (BFCL) Pinecone/Qdrant/ChromaDB (vector DBs) Google GenAI Gemini2.0- ai.google.dev\nAnthropic Eng.-MCP On-Demand Context(2025) LangGraph-agent orchestration SentenceTransformers-sbert.net\nThank you!\nAntush Rastogi",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "LET'S CONNECT\nThank You\nScan either code to connect with us on LinkedIn\nAnkush Rastogi\nSohail Shaikh",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "solid deep blue",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "LET'S CONNECT",
+            "x": 34.0,
+            "y": 10.0,
+            "w": 32.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Thank You",
+            "x": 31.0,
+            "y": 16.0,
+            "w": 38.0,
+            "h": 13.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Scan either code to connect with us on LinkedIn",
+            "x": 25.0,
+            "y": 27.0,
+            "w": 50.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Ankush Rastogi",
+            "x": 18.0,
+            "y": 63.0,
+            "w": 25.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Senior Data Solutions Engineer · Prosodica LLC",
+            "x": 13.0,
+            "y": 72.0,
+            "w": 35.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Sohail Shaikh",
+            "x": 55.0,
+            "y": 63.0,
+            "w": 25.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Data Scientist · Prosodica LLC",
+            "x": 53.0,
+            "y": 72.0,
+            "w": 31.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672636.7166545,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "LET'S CONNECT\nThank You\nScan either code to connect with us on LinkedIn\nAnkush Rastogi\nSohail Shaikh",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-013.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.0,
+      "frame_type": "other",
+      "reject_reason": "missing batch classifier result",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": []
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672196.1009226,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.0,
+      "frame_type": "other",
+      "reject_reason": "missing batch classifier result",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": []
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672196.101595,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.0,
+      "frame_type": "other",
+      "reject_reason": "missing batch classifier result",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": []
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672196.1020484,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.0,
+      "frame_type": "other",
+      "reject_reason": "missing batch classifier result",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": []
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672196.1025147,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.0,
+      "frame_type": "other",
+      "reject_reason": "missing batch classifier result",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": []
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672196.1029787,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.0,
+      "frame_type": "other",
+      "reject_reason": "missing batch classifier result",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": []
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/vh2VGuQ3zhY/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672196.1033864,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

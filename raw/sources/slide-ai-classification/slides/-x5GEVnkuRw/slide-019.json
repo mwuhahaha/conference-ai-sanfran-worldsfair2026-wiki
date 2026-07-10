@@ -1,0 +1,50 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.91,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Documents into AI-Ready Data with Docling > M4 Working with Tables > M4 Basic Table Export\n\n# Save as HTML\nwith open(output_dir / f\"table_{table_idx}.html\", \"w\") as fp:\n    fp.write(table.export_to_html(doc=table_doc))\n\nUsage of TableItem.export_to_dataframe() without `doc` argument is deprecated.\nDocument contains 8 tables\n\n## Table 0\nShape: (4, 4)\n\nGeneral | LLaVa-OneVision | Cambrian-7m\n0 General | 276.5K | 881.3K | 1.8M\n1 Language/Captioning | 202.1K | N/A | N/A\n2 Math/Science/Reasoning | 178.4K | 318.0K | 354.5K\n3 Image Comparison | 188.9K | N/A | N/A\n\nUsage of TableItem.export_to_dataframe() without `doc` argument is deprecated.\n\n## Table 1\nShape: (4, 4)\n\nGeneral | LLaVa-OneVision | Cambrian-7m\n0 General | 812.7K | 2.0M | 7.9M\n1 Language/Captioning | 203.3K | 1.2M | 1.8M\n2 Math/Science/Reasoning | 765.1K | 464.8K | 802.0K\n3 Image Comparison | 237.9K | N/A | N/A",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense notebook screenshot with tables and small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#111111",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Document contains 8 tables",
+        "x": 28.0,
+        "y": 18.0,
+        "w": 28.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656715.958567,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Document contains 8 tables",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Q Conversion.ipynbMx Token_Cost_Comparison.ipynbM Chunkless_RAG.ipynb M Chunking.ipynb 日4\nDOCLING-WORKSHOP notebooks >fixtures ntsinto Al-Ready Data with Docling>M Working with Tables>M Basic Table Export >print(f\\nDocument contains{len(table_doc.tables)} tables) Add CodeAdd MarkdownRun All Restart Clear All Outputs|Jupyter Variables Outline.venv (3.13.7)(Python 3.13.7)\npyproject.toml ①README.md gitignore!poutine.yml Fconstraints.txt LICENSE!mkdocs.yml!.pre-commit-config-yaml!.spellcheck.yaml >src!.markdownlint-cli2.yaml F.spellcheck-en-custom.txt >scripts BChunkless_RAG.ipynb Conversion_Colab.ipynb Conversion.ipynb MCP_Agents.ipynb Ollama RAG.ipynb RAG.ipynb Serving.ipynb Token_Cost_Compari..M gitignore Chunking.ipynb >output M M [es] Usage ofTableItem.export_to_dataframe()withoutdoc'argument isdeprecated. ##Table Shape:(4,4) Shape:(4,4) Document contains 8 tables ##Table1 √0.0s 0 0 3 3 2 2 1 1 Math/Science/Reasoning Math/Science/Reasoning Language/Captioning Language/Captioning withopen(output_dir/f\"table_(table_idx).html\", #Save as HTHL Image Comparison Image Comparison fp.write(table.export_to_html(doc=table_doc)) General General Cauldron Cauldron 276.5K 203.3K 202.1K 812.7K 765.1K 237.9K 178.4K 188.9K LLaVa-OneVision LLaVa-OneVision 464.8K 318.0K 881.3K 2.0M 1.2M N/A N/A N/A Cambrian-7m Cambrian-7m \"）asfp: 354.5K 802.0K 7.9M 1.8M 1.8M NA NA N/A 日 Python\nOUTLINE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1170.04
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Documents into AI-Ready Data with Docling > M4 Working with Tables > M4 Basic Table Export\n\n# Save as HTML\nwith open(output_dir / f\"table_{table_idx}.html\", \"w\") as fp:\n    fp.write(table.export_to_html(doc=table_doc))\n\nUsage of TableItem.export_to_dataframe() without `doc` argument is deprecated.\nDocument contains 8 tables\n\n## Table 0\nShape: (4, 4)\n\nGeneral | LLaVa-OneVision | Cambrian-7m\n0 General | 276.5K | 881.3K | 1.8M\n1 Language/Captioning | 202.1K | N/A | N/A\n2 Math/Science/Reasoning | 178.4K | 318.0K | 354.5K\n3 Image Comparison | 188.9K | N/A | N/A\n\nUsage of TableItem.export_to_dataframe() without `doc` argument is deprecated.\n\n## Table 1\nShape: (4, 4)\n\nGeneral | LLaVa-OneVision | Cambrian-7m\n0 General | 812.7K | 2.0M | 7.9M\n1 Language/Captioning | 203.3K | 1.2M | 1.8M\n2 Math/Science/Reasoning | 765.1K | 464.8K | 802.0K\n3 Image Comparison | 237.9K | N/A | N/A",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide text and corrected obvious OCR errors in the notebook path, code, and table formatting."
+  }
+}

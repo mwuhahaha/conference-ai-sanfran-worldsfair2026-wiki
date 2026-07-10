@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "4. Agentbench\nAgentRTX 61.3\nMem0 58\nRAG 47\nBaseline 35.7\nAgentRTX 98\nDSPy 82\nBaseline 57",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple, large-text slide is readable directly.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "4. Agentbench",
+        "x": 36.0,
+        "y": 10.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "tests a model's ability to reason, plan, and use tools over extended, multi-step workflows, rather than just measuring static question-answering accuracy",
+        "x": 18.0,
+        "y": 17.0,
+        "w": 64.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "AgentRTX 61.3\nMem0 58\nRAG 47\nBaseline 35.7",
+        "x": 23.0,
+        "y": 43.0,
+        "w": 26.0,
+        "h": 30.0
+      },
+      {
+        "role": "body",
+        "text": "AgentRTX 98\nDSPy 82\nBaseline 57",
+        "x": 59.0,
+        "y": 49.0,
+        "w": 22.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/slides/Jx4ZFEAq6bY/slide-015.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661827.6969347,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "4. Agentbench\nAgentRTX 61.3\nMem0 58\nRAG 47\nBaseline 35.7\nAgentRTX 98\nDSPy 82\nBaseline 57",
+  "advanced_ocr": {}
+}

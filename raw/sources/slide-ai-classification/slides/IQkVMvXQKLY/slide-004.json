@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "WHY IT'S BROKEN\nTwo monitors that miss it\n\nBehavioral testing\n you'd have to guess the trigger\n• The model is correct on virtually every input you try\n• To catch it you'd need the exact trigger in advance — you won't have it\n\nJoint cross-model features\n the popular interpretability fix\n• Crosscoders learn features over base + fine-tuned together\n• The backdoor competes with everything the model represents — and gets buried\n\nSo where IS the signal? In what the fine-tuning actually changed.\n\nYour LLM Deception Monitor Is Broken    The broken monitors\n05 / 17",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "two-column slide with smaller bullet text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "WHY IT'S BROKEN",
+        "x": 4.0,
+        "y": 6.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Two monitors that miss it",
+        "x": 4.0,
+        "y": 10.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Behavioral testing",
+        "x": 5.0,
+        "y": 30.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "you'd have to guess the trigger",
+        "x": 5.0,
+        "y": 38.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "The model is correct on virtually every input you try\nTo catch it you'd need the exact trigger in advance — you won't have it",
+        "x": 5.0,
+        "y": 45.0,
+        "w": 38.0,
+        "h": 20.0
+      },
+      {
+        "role": "title",
+        "text": "Joint cross-model features",
+        "x": 52.0,
+        "y": 30.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "the popular interpretability fix",
+        "x": 52.0,
+        "y": 38.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Crosscoders learn features over base + fine-tuned together\nThe backdoor competes with everything the model represents — and gets buried",
+        "x": 52.0,
+        "y": 45.0,
+        "w": 40.0,
+        "h": 20.0
+      },
+      {
+        "role": "caption",
+        "text": "So where IS the signal? In what the fine-tuning actually changed.",
+        "x": 4.0,
+        "y": 77.0,
+        "w": 70.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/IQkVMvXQKLY/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660238.8761628,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Two monitors that miss it",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "hy Ir's 'broKen\nTwo monitors that miss it\nBehavioral testing. Joint cross-model features:\nyou'd hove to guess'the trigger the popular interpretabllity fix:\nThe model Is correct on virtually every input you try.. Crosscoders learn features over base + fine-tuned together.\n. To catch it you'd need the exact trigger. in advance -- you won't: have it:.+ The backdoor competes with everything the model represents -- and gets buried\nSo where IS the signal? In what the fine-tuning actually changed.\nYour LlM Deepton Monior H Eroken The broken montor!. 05 / 17",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 846.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "WHY IT'S BROKEN\nTwo monitors that miss it\n\nBehavioral testing\n you'd have to guess the trigger\n• The model is correct on virtually every input you try\n• To catch it you'd need the exact trigger in advance — you won't have it\n\nJoint cross-model features\n the popular interpretability fix\n• Crosscoders learn features over base + fine-tuned together\n• The backdoor competes with everything the model represents — and gets buried\n\nSo where IS the signal? In what the fine-tuning actually changed.\n\nYour LLM Deception Monitor Is Broken    The broken monitors\n05 / 17",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for casing, punctuation, and obvious word errors; slide text was legible and mostly accepted."
+  }
+}

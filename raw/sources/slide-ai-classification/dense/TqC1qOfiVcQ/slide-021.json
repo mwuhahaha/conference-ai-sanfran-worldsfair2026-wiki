@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Sttrlrg June tBet a mnw GrphO'L Lpochcion l rellng cut, vibtt2. Reud =ore sl CraehaL v1bata2. Tha Permr v1boLt verslen s vumhting and. cheduted to be rmoved. PEKeAFi\nThe RESTful Pokémon APl\nServing ovcr 10 bllion AP1 calls cach month!\ncasily xcessible through a moderm free opensource RESTful APl. O Date analysis tool Al the Poktmon data you'll ever need in one plce.\nCheck out the docs!\nTry it now!\nMtpr/polteploobplt2/pelemordnto\nNetd:hn!Try pohemonditto. poenorpeeVxter npe. abRydxtrwrino,o polurmonlmt-100000ca1e-0\nDtrect Irk to reut: httpspokepixo/aolvZ/pobrmontt1o\nResource for ditto\n31114 AThu1204 THUY ICKEIST ticketmaster BAOOKLTNNIT.COM",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Webpage screenshot with mixed-size text and several small labels; OCR is likely more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark green and red nav bar",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "PokeAPI",
+        "x": 40.0,
+        "y": 11.0,
+        "w": 20.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "The RESTful Pokémon API",
+        "x": 37.0,
+        "y": 29.0,
+        "w": 26.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Serving over 10 billion API calls each month!",
+        "x": 35.0,
+        "y": 36.0,
+        "w": 31.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "All the Pokémon data you'll ever need in one place, easily accessible through a modern free open-source RESTful API.",
+        "x": 28.0,
+        "y": 47.0,
+        "w": 44.0,
+        "h": 14.0
+      },
+      {
+        "role": "caption",
+        "text": "Try it now!",
+        "x": 43.0,
+        "y": 73.0,
+        "w": 12.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-021.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-021.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664832.5265136,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "PokeAPI",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/opencv-adaptive",
+    "text": "Sttrlrg June tBet a mnw GrphO'L Lpochcion l rellng cut, vibtt2. Reud =ore sl CraehaL v1bata2. Tha Permr v1boLt verslen s vumhting and. cheduted to be rmoved. PEKeAFi\nThe RESTful Pokémon APl\nServing ovcr 10 bllion AP1 calls cach month!\ncasily xcessible through a moderm free opensource RESTful APl. O Date analysis tool Al the Poktmon data you'll ever need in one plce.\nCheck out the docs!\nTry it now!\nMtpr/polteploobplt2/pelemordnto\nNetd:hn!Try pohemonditto. poenorpeeVxter npe. abRydxtrwrino,o polurmonlmt-100000ca1e-0\nDtrect Irk to reut: httpspokepixo/aolvZ/pobrmontt1o\nResource for ditto\n31114 AThu1204 THUY ICKEIST ticketmaster BAOOKLTNNIT.COM",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 984.6
+  },
+  "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Sttrlrg June tBet a mnw GrphO'L Lpochcion l rellng cut, vibtt2. Reud =ore sl CraehaL v1bata2. Tha Permr v1boLt verslen s vumhting and. cheduted to be rmoved. PEKeAFi\nThe RESTful Pokémon APl\nServing ovcr 10 bllion AP1 calls cach month!\ncasily xcessible through a moderm free opensource RESTful APl. O Date analysis tool Al the Poktmon data you'll ever need in one plce.\nCheck out the docs!\nTry it now!\nMtpr/polteploobplt2/pelemordnto\nNetd:hn!Try pohemonditto. poenorpeeVxter npe. abRydxtrwrino,o polurmonlmt-100000ca1e-0\nDtrect Irk to reut: httpspokepixo/aolvZ/pobrmontt1o\nResource for ditto\n31114 AThu1204 THUY ICKEIST ticketmaster BAOOKLTNNIT.COM",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

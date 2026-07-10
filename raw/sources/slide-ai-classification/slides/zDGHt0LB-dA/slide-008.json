@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "m'iegearetesonorbo\nworkern·(s,s).\nKolet_o], saler_inmerreirsscalecine.gnus_ceuar, 'nsformn' 'keleeite'\nAIE giwgrogt:rolary,rrowpaality.for,ogly,tot,te ioerxttps:Ls\nrdtk:11.s11,\nFureo\nlaportter\nLwmflne\nsA.-tarted（eals)Noflbro so/flmh-get-tlerted\nnlshDyrHerver 1*+>\nDeicritlen\nros!/sge.geratlea/nesya\nvLsitt/eti/！fg\n294.0.91611613.221100 2-04-0419:4,2241110 234-04-015:15:4,91)11150 24-44-0915:15:3.909110 2024-0:0914:15:19.205 2924-04-092:14154,109 23N-04-0954116:04,1N1110 erntles.y 11 tivesererle1:ypfala）e1strteJo:ec0ss-Hec xb:<45291-Jfec- ￥ （52 62 KI\nEngineering the future of Al\nAlEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code/editor content and a rendered image preview are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 6.0,
+        "y": 22.0,
+        "w": 12.0,
+        "h": 22.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 29.0,
+        "y": 0,
+        "w": 39.0,
+        "h": 76.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 65.0,
+        "y": 11.0,
+        "w": 30.0,
+        "h": 62.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 39.0,
+        "y": 83.0,
+        "w": 44.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/zDGHt0LB-dA/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673001.8597186,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "m'iegearetesonorbo\nworkern·(s,s).\nKolet_o], saler_inmerreirsscalecine.gnus_ceuar, 'nsformn' 'keleeite'\nAIE giwgrogt:rolary,rrowpaality.for,ogly,tot,te ioerxttps:Ls\nrdtk:11.s11,\nFureo\nlaportter\nLwmflne\nsA.-tarted（eals)Noflbro so/flmh-get-tlerted\nnlshDyrHerver 1*+>\nDeicritlen\nros!/sge.geratlea/nesya\nvLsitt/eti/！fg\n294.0.91611613.221100 2-04-0419:4,2241110 234-04-015:15:4,91)11150 24-44-0915:15:3.909110 2024-0:0914:15:19.205 2924-04-092:14154,109 23N-04-0954116:04,1N1110 erntles.y 11 tivesererle1:ypfala）e1strteJo:ec0ss-Hec xb:<45291-Jfec- ￥ （52 62 KI\nEngineering the future of Al\nAlEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 569.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "m'iegearetesonorbo\nworkern·(s,s).\nKolet_o], saler_inmerreirsscalecine.gnus_ceuar, 'nsformn' 'keleeite'\nAIE giwgrogt:rolary,rrowpaality.for,ogly,tot,te ioerxttps:Ls\nrdtk:11.s11,\nFureo\nlaportter\nLwmflne\nsA.-tarted（eals)Noflbro so/flmh-get-tlerted\nnlshDyrHerver 1*+>\nDeicritlen\nros!/sge.geratlea/nesya\nvLsitt/eti/！fg\n294.0.91611613.221100 2-04-0419:4,2241110 234-04-015:15:4,91)11150 24-44-0915:15:3.909110 2024-0:0914:15:19.205 2924-04-092:14154,109 23N-04-0954116:04,1N1110 erntles.y 11 tivesererle1:ypfala）e1strteJo:ec0ss-Hec xb:<45291-Jfec- ￥ （52 62 KI\nEngineering the future of Al\nAlEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

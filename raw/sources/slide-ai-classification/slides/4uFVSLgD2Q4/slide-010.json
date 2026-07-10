@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Observability\nYou can't scale\nwhat you can't\nsee.\n\nSource: https://effect.website/docs/observability/tracing/\n\nEvery agent run is traced end to end, giving us the visibility to debug, measure, and tune behavior at production scale.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense trace screenshot is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "solid #334852",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "diagram",
+        "text": "trace timeline",
+        "x": 0,
+        "y": 31.0,
+        "w": 61.0,
+        "h": 41.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenGov",
+        "x": 84.0,
+        "y": 2.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Observability",
+        "x": 64.0,
+        "y": 24.0,
+        "w": 13.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "You can't scale what you can't see.",
+        "x": 64.0,
+        "y": 31.0,
+        "w": 32.0,
+        "h": 23.0
+      },
+      {
+        "role": "body",
+        "text": "Every agent run is traced end to end, giving you the visibility to debug, measure, and tune behavior at production scale.",
+        "x": 64.0,
+        "y": 76.0,
+        "w": 31.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Source: https://effect.website/docs/observability/tracing/",
+        "x": 0,
+        "y": 74.0,
+        "w": 58.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/4uFVSLgD2Q4/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657915.5668836,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "OpenGov\n2025-03-2016:13:42.082. examplecliertwun 646666466d Observability whatyou can't see. You can'tscale\nSource:https://effect.website/docs/observability/tracing/ debug,measure,and tune behavioratproduction scale. Every agent run is traced end to end. giving us the visibility to",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 357.84
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Observability\nYou can't scale\nwhat you can't\nsee.\n\nSource: https://effect.website/docs/observability/tracing/\n\nEvery agent run is traced end to end, giving us the visibility to debug, measure, and tune behavior at production scale.",
+    "text_status": "meaningful",
+    "corrections": "Corrected OCR spacing and punctuation; removed timestamp/noise and kept the visible slide text."
+  }
+}

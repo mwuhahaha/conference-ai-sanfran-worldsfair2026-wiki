@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "none",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code/editor screenshot with small UI text and multiple panes is better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark editor UI screenshot",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "design.md",
+        "x": 28.0,
+        "y": 3.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Design Documents: Movie Database (80s Theme)",
+        "x": 24.0,
+        "y": 11.0,
+        "w": 35.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Let's build",
+        "x": 80.0,
+        "y": 22.0,
+        "w": 10.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/IddXPepIAS4/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659846.5115464,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

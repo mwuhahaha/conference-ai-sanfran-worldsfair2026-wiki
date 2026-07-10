@@ -16,6 +16,29 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/bk0TmxoZlUY/slide-001.jpg]]
 
-- Source scene image: `frame-00047.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.18`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/bk0TmxoZlUY/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Dense product UI screenshot with many small labels, table columns, and sidebar items.
+
+Slide text:
+
+> Frojecta
+> San ach 。
+> Generte (hargeog 1 generte·Oa OenerteaCh DougCut
+> Uareiawd·Al
+> AIE Overview
+> G Qatatett
+> Fronges
+> 1(x0%
+> oren
+> Ageets
+> ?
+> PpaTeut
+> 010
+> braintrust
+> g 1
+> aws
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/bk0TmxoZlUY/audit.json`

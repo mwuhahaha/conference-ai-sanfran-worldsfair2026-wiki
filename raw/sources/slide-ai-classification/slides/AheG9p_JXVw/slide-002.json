@@ -1,16 +1,27 @@
 {
   "is_content_slide": false,
-  "confidence": 0.99,
+  "confidence": 0.97,
   "frame_type": "speaker_stage",
-  "reject_reason": "Stage photo with presenter and projected slides; not a readable content slide.",
+  "reject_reason": "Stage photo with presenter and projected promo images; not a readable presentation slide.",
   "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a slide capture; it is a speaker-stage shot.",
+  "direct_read_ready": false,
+  "text_density": "none",
   "layout": {
-    "background": "teal-to-cyan stage lighting with dark curtains and white projection screens",
-    "style": "dark",
+    "background": "linear-gradient(180deg, #1bd4d6 0%, #0a0f18 100%)",
+    "style": "other",
     "blocks": []
   },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
   "image": "wiki/assets/slides/AheG9p_JXVw/slide-002.jpg",
   "deck_kind": "slides",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783628718.8251688
+  "classified_at_epoch": 1783658949.68261,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
 }

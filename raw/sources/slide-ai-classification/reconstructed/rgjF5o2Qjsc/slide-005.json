@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Engineering the future of AI\nProductivity\nInvestment\nLearning System Focused on Quality\nWith Agentic Quality\nAgentic Code Gen\nCode Gen",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "This is a low-text diagram slide; OCR is unnecessary.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "qodo",
+        "x": 88.0,
+        "y": 4.0,
+        "w": 9.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer",
+        "x": 3.0,
+        "y": 83.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Engineering the future of AI",
+        "x": 34.0,
+        "y": 87.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Productivity",
+        "x": 31.0,
+        "y": 36.0,
+        "w": 11.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Investment",
+        "x": 53.0,
+        "y": 94.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Learning System Focused on Quality",
+        "x": 78.0,
+        "y": 15.0,
+        "w": 18.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "With Agentic Quality",
+        "x": 80.0,
+        "y": 30.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agentic Code Gen",
+        "x": 79.0,
+        "y": 44.0,
+        "w": 13.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Code Gen",
+        "x": 80.0,
+        "y": 58.0,
+        "w": 9.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/reconstructed-slides/rgjF5o2Qjsc/slide-005.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671736.146149,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Engineering the future of AI\nProductivity\nInvestment\nLearning System Focused on Quality\nWith Agentic Quality\nAgentic Code Gen\nCode Gen",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Amp",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-column code and tool output are small and dense; OCR should do better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Amp",
+        "x": 20.0,
+        "y": 8.0,
+        "w": 8.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Investigate and implement Linear connector icon",
+        "x": 60.0,
+        "y": 5.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Tools",
+        "x": 58.0,
+        "y": 21.0,
+        "w": 8.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-013.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659183.4185734,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Amp",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

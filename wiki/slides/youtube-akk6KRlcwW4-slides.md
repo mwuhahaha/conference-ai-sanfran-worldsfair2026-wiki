@@ -19,102 +19,101 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/akk6KRlcwW4/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/akk6KRlcwW4/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
 
-> AI.ENGINEEK VORLD-S
+Slide text:
+
 > VAULT
-> OpenClawin Your Hand-a physicalAI terninal for local LLH
-> agents.
-> An instrument,not an app.
-> LECRKALISONSKI.PF.O.
-> SENIGR AI SISTEA
+> OpenClaw in Your Hand - a physical AI terminal for local LLM agents.
+> An instrument, not an app.
 
 ![[assets/slides/akk6KRlcwW4/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/akk6KRlcwW4/slide-002.html)
+- AI slide classifier: `title_card` confidence `0.98`
+- Text source: agent_vision.
 
-> Most AI lives in a
-> chat bubble on a
-> glowing screen.
-> Vaultleans the other
-> way-calm，text-first,
-> made to be read.
-> RIADLE.CAL,
-> TEERZEEL
-> ENESTT
+Slide text:
+
+> Most AI lives in a chat bubble on a glowing screen.
+> Vault leans the other way - calm, text-first, made to be read.
 
 ![[assets/slides/akk6KRlcwW4/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/akk6KRlcwW4/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
 
-> (altsteck)
-> Onedevice·four modes·one slashcommand
-> /SRELL
+Slide text:
+
+> One device · four modes · one slash command
+> /SHELL
 > /ASSIST
-> tare-eetsl teraireT
-> LOcatMTRRSEE-C
-> LL chat.pses ren
-> /COATROL
-> LU-ative TetG
-> /RPG
-> 4.v0r101
-> 36 classes
-> Type -OLED.Long replies-e-paper,paged with the knob.
+> /CONTROL
+> /API
 
 ![[assets/slides/akk6KRlcwW4/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/akk6KRlcwW4/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
 
-> 4 a
+Slide text:
+
 > Two displays. Two jobs.
-> oon ) Pa NG
-> ne ee
-> 
-> io a : - i
-> 
-> OLED - live surface oa ° - i
-> 
-> SN Po |i sea ;
-> E-paper - content surface Vg ipsa oe
-> ie fone woe . m x ) Cats 7
-> | | cing
+> OLED · live surface
+> E-paper · content surface
 
 ![[assets/slides/akk6KRlcwW4/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/akk6KRlcwW4/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
 
-> (taltetecs)
-> Narratedonthefly·renderedtopaper
-> Each scene:a prompt-Pollinations.ai
-> Floyd-Steinberg
-> I-bit packed for the Soex48e panel.
+Slide text:
+
+> Narrated on the fly · rendered to paper
 
 ![[assets/slides/akk6KRlcwW4/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/akk6KRlcwW4/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> BY THE NUMBERS
+Slide text:
+
 > Breadboard to release candidate
 > ~2
 > 130
-> 1.3MB
+> 1.3 MB
 > 2
 > 4
 > 1
 
 ![[assets/slides/akk6KRlcwW4/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/akk6KRlcwW4/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> Match the display to the job. Keep metal.Track narrative, the model off the numbers. not
-> OUAL-SISPLAY SPLIT AI-STTVE,OTO LOCAL OPDCLAX ASENTS
+Slide text:
+
+> Match the display to the job. Keep the model off the metal. Track narrative, not numbers.
 
 ![[assets/slides/akk6KRlcwW4/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/akk6KRlcwW4/slide-008.html)
+- AI slide classifier: `demo_video` confidence `0.86`
+- Text source: agent_vision.
 
-> LIVE DEMO
+Slide text:
+
 > Vault, running
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/akk6KRlcwW4/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

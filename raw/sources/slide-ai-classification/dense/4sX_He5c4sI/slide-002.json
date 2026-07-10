@@ -3,55 +3,58 @@
   "confidence": 0.98,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "AI Engineer\nWorld’s Fair\nPRESENTED BY\nMicrosoft\nSystem Prompt Design\nSmall system prompt,\nfew tools, lots of examples\nLarge system prompt,\nlots of examples, many tools\nSmaller system prompt,\ntool search, no examples\n14/40",
+  "text": "System Prompt Design\nSmall system prompt, few tools, lots of examples\nLarge system prompt, lots of examples, many tools\nSmaller system prompt, tool search, no examples",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Readable diagram slide with large title and captions; OCR not necessary.",
+  "direct_read_ready": true,
+  "text_density": "medium",
   "layout": {
-    "background": "light cream with dark branded left sidebar",
+    "background": "light cream",
     "style": "diagram",
     "blocks": [
       {
-        "role": "logo",
-        "text": "AI Engineer\nWorld’s Fair\nPRESENTED BY\nMicrosoft",
-        "x": 0,
-        "y": 0,
-        "w": 25.0,
-        "h": 48.0
-      },
-      {
         "role": "title",
         "text": "System Prompt Design",
-        "x": 29.0,
-        "y": 2.0,
-        "w": 28.0,
-        "h": 9.0
-      },
-      {
-        "role": "caption",
-        "text": "Small system prompt,\nfew tools, lots of examples",
         "x": 28.0,
-        "y": 56.0,
-        "w": 20.0,
-        "h": 16.0
+        "y": 8.0,
+        "w": 34.0,
+        "h": 10.0
       },
       {
         "role": "caption",
-        "text": "Large system prompt,\nlots of examples, many tools",
-        "x": 51.0,
+        "text": "Small system prompt, few tools, lots of examples",
+        "x": 30.0,
         "y": 56.0,
+        "w": 21.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Large system prompt, lots of examples, many tools",
+        "x": 54.0,
+        "y": 55.0,
         "w": 23.0,
-        "h": 16.0
+        "h": 13.0
       },
       {
         "role": "caption",
-        "text": "Smaller system prompt,\ntool search, no examples",
-        "x": 77.0,
-        "y": 56.0,
-        "w": 19.0,
-        "h": 16.0
+        "text": "Smaller system prompt, tool search, no examples",
+        "x": 79.0,
+        "y": 55.0,
+        "w": 18.0,
+        "h": 13.0
       }
     ]
   },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
   "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-002.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783628968.5889602
+  "classified_at_epoch": 1783657356.8081334,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "System Prompt Design\nSmall system prompt, few tools, lots of examples\nLarge system prompt, lots of examples, many tools\nSmaller system prompt, tool search, no examples",
+  "advanced_ocr": {}
 }

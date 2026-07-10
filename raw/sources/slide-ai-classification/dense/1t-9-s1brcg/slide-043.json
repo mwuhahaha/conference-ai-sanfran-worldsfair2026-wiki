@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Evaluating a RAG Chat App\nUsing the compare tool\nWhat are the two codebases that power Coursera's user-facing experience and what are their functions?\nbaseline\nr_vectors_no_ranker\nCoursera has two codebases that power its user-facing experience. The older codebase is based on PHP/MySQL and a custom routing/templating/CM framework. It is the codebase behind class.coursera.org, where students take classes. It was originally built for the machine learning class, which was the first version of Coursera. The newer codebase is behind www.coursera.org.\nThe two codebases that power Coursera's user-facing experience are the older codebase and the newer codebase. The functions of these codebases are not specified in the sources provided.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense screenshot with small terminal, sidebar, and comparison text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark charcoal with beige UI panels",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Evaluating a RAG Chat App",
+        "x": 33.0,
+        "y": 0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Using the compare tool",
+        "x": 38.0,
+        "y": 8.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "GitHub Copilot chat",
+        "x": 0,
+        "y": 4.0,
+        "w": 38.0,
+        "h": 86.0
+      },
+      {
+        "role": "code",
+        "text": "baseline | r_vectors_no_ranker",
+        "x": 42.0,
+        "y": 28.0,
+        "w": 55.0,
+        "h": 48.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-043.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-043.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659490.0872302,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Evaluating a RAG Chat App\nUsing the compare tool",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "277 278 279 EvaluatingRAG Chat App Tosee the paraneters used foraparticular run,select the fouoer nate Anodalvill appear with the paraneters,including any pronpt override. sseUsing the conpare tool\ncodebase? hat are the tvocodebases that\nsitfelcksrigin fetoOere\nFSrrty sit-rees ViBabire brasche\nbaseLin _vectors_no_ranker\nCoursera has tuo codebases that power its ww.coursera.org.vhere students brovse user-facing experience.Theolsercodebaie isbased onP/mySOLandacuston the codebase behind class.coursera.org. here students take classes.Itwas originally buitt for the nachine tearning class,which was the first version of Coursera.The never codebase is behind routing/templating/oM franeork.Itis sources provided.[the-]avascript-rap.htnl] The tvo codebases that power Coursera's user-facingexperience are the oldercodebaie and the neuer codebase.The functions of these codebases are not specified in the [tips-for-writing-bicep-files-for-azure.htnl]\nLateecy 2.70 groN dedness_scorereLevance_score 465 Later 2.10 1.00 51 1.00 257\nNext queition Quit",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1265.88
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Evaluating a RAG Chat App\nUsing the compare tool\nWhat are the two codebases that power Coursera's user-facing experience and what are their functions?\nbaseline\nr_vectors_no_ranker\nCoursera has two codebases that power its user-facing experience. The older codebase is based on PHP/MySQL and a custom routing/templating/CM framework. It is the codebase behind class.coursera.org, where students take classes. It was originally built for the machine learning class, which was the first version of Coursera. The newer codebase is behind www.coursera.org.\nThe two codebases that power Coursera's user-facing experience are the older codebase and the newer codebase. The functions of these codebases are not specified in the sources provided.",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide text with minor OCR cleanup; corrected the title, question, and Coursera response wording where the image was clear."
+  }
+}

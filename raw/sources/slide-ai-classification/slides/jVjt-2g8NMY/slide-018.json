@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": true,
+  "ocr_reason": "Dense read-only investigation screen with multiple terminal panes.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#121212",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 52.0,
+        "h": 90.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 55.0,
+        "y": 2.0,
+        "w": 43.0,
+        "h": 90.0
+      },
+      {
+        "role": "caption",
+        "text": "",
+        "x": 74.0,
+        "y": 71.0,
+        "w": 24.0,
+        "h": 28.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-018.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670379.4371877,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 2624.0,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0067
+  }
+}

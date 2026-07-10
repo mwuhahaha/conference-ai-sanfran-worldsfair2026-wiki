@@ -1,0 +1,138 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "N', PostHog\": -.0x\nThe single platform to analyze, test,\nobserve, and delpoy new features\n+ ★ AIE\nPosthog AI Session replay analytics Web analytics Product tracking Error\nExperiments Feature flags Logs CDP Workflows\nGoogleDeepMind",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product slide with a large title and many small feature labels; OCR is the better capture method.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#efe9d8",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "PostHog",
+        "x": 27.0,
+        "y": 2.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "The single platform to analyze, test, observe, and deploy new features",
+        "x": 31.0,
+        "y": 10.0,
+        "w": 47.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "Posthog AI",
+        "x": 38.0,
+        "y": 40.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Session replay",
+        "x": 47.0,
+        "y": 40.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Web analytics",
+        "x": 57.0,
+        "y": 40.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Product analytics",
+        "x": 67.0,
+        "y": 40.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Error tracking",
+        "x": 79.0,
+        "y": 40.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Experiments",
+        "x": 38.0,
+        "y": 58.0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Feature flags",
+        "x": 48.0,
+        "y": 58.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Logs",
+        "x": 60.0,
+        "y": 58.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "CDP",
+        "x": 71.0,
+        "y": 58.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Workflows",
+        "x": 81.0,
+        "y": 58.0,
+        "w": 10.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/zMiSRliEzv4/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672874.7489371,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "N', PostHog\": -.0x\nThe single platform to analyze, test,\nobserve, and delpoy new features\n+ ★ AIE\nPosthog AI Session replay analytics Web analytics Product tracking Error\nExperiments Feature flags Logs CDP Workflows\nGoogleDeepMind",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 381.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "N', PostHog\": -.0x\nThe single platform to analyze, test,\nobserve, and delpoy new features\n+ ★ AIE\nPosthog AI Session replay analytics Web analytics Product tracking Error\nExperiments Feature flags Logs CDP Workflows\nGoogleDeepMind",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

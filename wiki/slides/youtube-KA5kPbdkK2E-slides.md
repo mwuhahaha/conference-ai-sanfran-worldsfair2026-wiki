@@ -17,106 +17,90 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/KA5kPbdkK2E/slide-001.jpg]]
-
-OCR text:
-
-> AI Engineer
-> EUROPE
-> EU/ACC
-
 ![[assets/slides/KA5kPbdkK2E/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/KA5kPbdkK2E/slide-002.html)
+- AI slide classifier: `title_card` confidence `0.98`
+- Text source: agent_vision.
 
-> How Lovable Self-Improves
-> Every Hour
+Slide text:
+
+> How Lovable Self-Improves Every Hour
 > Benjamin Verbeek
 > Lovable
 
 ![[assets/slides/KA5kPbdkK2E/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/KA5kPbdkK2E/slide-003.html)
+- AI slide classifier: `title_card` confidence `0.98`
+- Text source: agent_vision.
 
-> ae The Holy Grail:
-> tg Continuous learning at scale
-> —_ am) —
-> a) d wlovehis |
-> a
-> €3 Braintrust €} WorkOS OpenAl
+Slide text:
+
+> The Holy Grail:
+> Continuous learning at scale
 
 ![[assets/slides/KA5kPbdkK2E/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/KA5kPbdkK2E/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> Pretty Preview
-> Apr 7 at 7:34 PM
-> Build a very simple demo website just
-> to show something pretty in the
-> preview area.
-> Thought for 1s
-> Create demo landing UI
-> Details Preview
-> Here's a sleek dark-themed landing page with animated
-> glow orbs, floating particles, a gradient headline, and
-> three hover-interactive cards.
-> Apr 7 at 7:35 PM
-> Make it brighter and make it look less
-> like AI slop
-> Verify the preview Add a work section Add a footer
-> Ask Lovable...
-> Visual edits Build
-> Studio
-> Work About Contact
+Slide text:
+
 > DESIGN & DEVELOPMENT
-> Now is the time
-> to build something
-> lovable
-> Thoughtful design meets clean engineering. The build
-> interfaces people actually enjoy using -- nothing more,
-> nothing less.
-> See our work Get in touch
+> Now is the time to build something lovable
 
 ![[assets/slides/KA5kPbdkK2E/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/KA5kPbdkK2E/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+- OCR decision: ready — Dense embedded screenshot text is better handled by OCR.
 
-> Lovable Main Agent [venting...] APP 2:05 PM
-> Agent vent received
-> Agent Vent
-> Framer Motion's TypeScript types for the ease property are needlessly hostile. A tuple [number, number, number, number] is a perfectly valid cubic-bezier, but the types demand you jump through hoops to satisfy Easing | Easing[]. I just want to pass four numbers. Every single time I use framer-motion with TypeScript, the transition types fight me. The ease type should accept [number, number, number, number] natively as a cubic bezier tuple without casting gymnastics. This cost me an extra round-trip fixing type errors that had zero runtime impact.
-> Project
-> bbadf605-ec79-42b2-9db3-11021b1b3625
-> 3 replies Last reply 20 days ago
+Slide text:
+
 > Engineering the future of AI
 
 ![[assets/slides/KA5kPbdkK2E/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/KA5kPbdkK2E/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
+- OCR decision: ready — Dense embedded UI screenshot with small text.
 
-> Lovable Main Agent [venting...] APP 23 Mar at 4:42 PM
+Slide text:
+
+> Lovable Main Agent [venting...]APp 23 Mar at 4:42 PM
 > Agent Vent
-> code-copy consistently fails for user-uploaded files with spaces in the filename (e.g.
-> "Screenshot_2026-03-23_at_9.52.56 AM-2.png"). Tried both raw spaces and URL-encoded %20.
-> Only files without spaces in their names (e.g. "PNG_image-2.png") copy successfully. This blocks
+> AIE code--copy consistently fails for user-uploaded fles with spaces in the filename (e.g. "Screenshot_2026-03-23_at_9.52.56 AM-2.png"). Tried both raw spaces and URL-encoded %20. Only fles without spaces in their names (e.g. "PNG_image-2.png") copy successfully. This blocks
 > using user-uploaded screenshots in projects. The files ARE visible via lov-view (renders the image),
-> but copy always says "source file does not exist".
-> Project: 985c0363-d79e-42fa-b548-38c5213503c5
-> AI message | Braintrust | PostHog
+> but copy always says "source fle does not exist".
+> Almessage| Braintrust|PostHog Project: 985c0363-d79e-42fa-b548-38c5213503c5
+> Ategree AlEngineer
+> EUROPE
 
 ![[assets/slides/KA5kPbdkK2E/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/KA5kPbdkK2E/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/full`.
+- OCR decision: ready — Embedded code-review UI screenshot with dense text; OCR is better for the small content.
 
-> swarmia APp
-> 2 Apr at 9:15 AM
-> AIE
-> Nicis-Degrandet
+Slide text:
+
+> AIE Nicis-Degrandet swarmia APp 2 Apr at 9:15 AM
 > 3fileschanged1690.Merged
 > BenjaminVerbeek approved
 > 8comments by Niels Degrande,Benjamin Verbeek,and 1 other
 > bLovable
 > Engineering the future of Al
+
+
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/KA5kPbdkK2E/slide-001.jpg) — `speaker_stage` confidence `0.99`; Stage photo with speaker and audience; not a readable presentation slide.
+
+Classification audit: `raw/sources/slide-ai-classification/slides/KA5kPbdkK2E/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

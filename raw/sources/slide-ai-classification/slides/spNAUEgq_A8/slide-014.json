@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Messages\nMCP\nSkill\nTools\nSystem Prompt\nContext\nModel",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple diagram with large labels; OCR is not needed.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Messages",
+        "x": 36.0,
+        "y": 10.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MCP",
+        "x": 36.0,
+        "y": 19.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Skill",
+        "x": 36.0,
+        "y": 27.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 36.0,
+        "y": 36.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Prompt",
+        "x": 36.0,
+        "y": 44.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Context",
+        "x": 79.0,
+        "y": 28.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 36.0,
+        "y": 66.0,
+        "w": 28.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672123.8657825,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Messages\nMCP\nSkill\nTools\nSystem Prompt\nContext\nModel",
+  "advanced_ocr": {}
+}

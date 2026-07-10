@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Apify runs a marketplace of 5,oo0 Actors\napify/website-content-crawler Website Content Crawler.? Google Maps Emall Extractor lukaskrlvka/google-mags-with-cont- Instagram Scraper... apify/instagraa-scraper\nfeed Al models, LLM applications, vector databases, or RAG pipelines. The Actof... Crawl websites and extract text content to Extract Googie Maps contact detalls. Scrape details and get emall addresses, website,. websites of Google Maps places for contact comments. Get data from Instagram using.. proflies, places, hashtags, photos, and Scrape and download Instagram posts,\n) Aplfy % 42.4k ☆ 4.6 0 Lukas Kflvka % 22.7k ☆ 4.7: C Apity 83.1k 4.3\nNo Rate-Llmits: apidojo/twitter-scraper-lite Twittor (X.com) Scraper Unlimited: Facebook Posts Scraper apity/faccbook-posts-scraper clockworks/frce-tiktok-scraper TikTok Data Extractor\nsolution available. Our enterprise-grade.... most comprehensive Twitter data extractlon Introducing Twitter Scraper Unlimlted, the.: and profiles. Get post URl, post text, page. Extract data from hundreds of Facebook posts from one or multiple Facebook pages User profles Including posts, total lkes.-. Extract data about videos, users, and channels based on hashtags or scrape fu!\noa dv& 2 2.8k ☆ 4.5 D) Apify. 19.9k ☆4.5 Clockworks % 23.9k ☆ 4.7",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product-card grid with small text across multiple tiles.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cyan",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Apify runs a marketplace of 5,000 Actors",
+        "x": 5.0,
+        "y": 3.0,
+        "w": 90.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "six actor cards in a 3x2 grid",
+        "x": 4.0,
+        "y": 20.0,
+        "w": 92.0,
+        "h": 74.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/blW-lSd5CYQ/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666531.3961587,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Apify runs a marketplace of 5,oo0 Actors\napify/website-content-crawler Website Content Crawler.? Google Maps Emall Extractor lukaskrlvka/google-mags-with-cont- Instagram Scraper... apify/instagraa-scraper\nfeed Al models, LLM applications, vector databases, or RAG pipelines. The Actof... Crawl websites and extract text content to Extract Googie Maps contact detalls. Scrape details and get emall addresses, website,. websites of Google Maps places for contact comments. Get data from Instagram using.. proflies, places, hashtags, photos, and Scrape and download Instagram posts,\n) Aplfy % 42.4k ☆ 4.6 0 Lukas Kflvka % 22.7k ☆ 4.7: C Apity 83.1k 4.3\nNo Rate-Llmits: apidojo/twitter-scraper-lite Twittor (X.com) Scraper Unlimited: Facebook Posts Scraper apity/faccbook-posts-scraper clockworks/frce-tiktok-scraper TikTok Data Extractor\nsolution available. Our enterprise-grade.... most comprehensive Twitter data extractlon Introducing Twitter Scraper Unlimlted, the.: and profiles. Get post URl, post text, page. Extract data from hundreds of Facebook posts from one or multiple Facebook pages User profles Including posts, total lkes.-. Extract data about videos, users, and channels based on hashtags or scrape fu!\noa dv& 2 2.8k ☆ 4.5 D) Apify. 19.9k ☆4.5 Clockworks % 23.9k ☆ 4.7",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1428.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Apify runs a marketplace of 5,oo0 Actors\napify/website-content-crawler Website Content Crawler.? Google Maps Emall Extractor lukaskrlvka/google-mags-with-cont- Instagram Scraper... apify/instagraa-scraper\nfeed Al models, LLM applications, vector databases, or RAG pipelines. The Actof... Crawl websites and extract text content to Extract Googie Maps contact detalls. Scrape details and get emall addresses, website,. websites of Google Maps places for contact comments. Get data from Instagram using.. proflies, places, hashtags, photos, and Scrape and download Instagram posts,\n) Aplfy % 42.4k ☆ 4.6 0 Lukas Kflvka % 22.7k ☆ 4.7: C Apity 83.1k 4.3\nNo Rate-Llmits: apidojo/twitter-scraper-lite Twittor (X.com) Scraper Unlimited: Facebook Posts Scraper apity/faccbook-posts-scraper clockworks/frce-tiktok-scraper TikTok Data Extractor\nsolution available. Our enterprise-grade.... most comprehensive Twitter data extractlon Introducing Twitter Scraper Unlimlted, the.: and profiles. Get post URl, post text, page. Extract data from hundreds of Facebook posts from one or multiple Facebook pages User profles Including posts, total lkes.-. Extract data about videos, users, and channels based on hashtags or scrape fu!\noa dv& 2 2.8k ☆ 4.5 D) Apify. 19.9k ☆4.5 Clockworks % 23.9k ☆ 4.7",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

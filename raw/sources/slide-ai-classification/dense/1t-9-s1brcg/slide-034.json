@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Evaluating a RAG Chat App\n\n## Viewing the results\n- `parameters.json`: The parameters used for the run, like the overrides.\n- `summary.json`: The overall results, like the average GPT metrics.\n- `config.json`: The original config used for the run. This is useful for reproducing the run.\n\nTo make it easier to view and compare results across runs, we've built a few tools, located inside the `review-tools` folder.\n\n## Using the summary tool\nTo view a summary across all the runs, use the `summary` command with the path to the results folder:\n\n```bash\npython -m review_tools summary example_results\n```",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code editor and terminal screenshot with small table and code text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "beige",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Evaluating a RAG Chat App",
+        "x": 16.0,
+        "y": 9.0,
+        "w": 36.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Using the summary tool",
+        "x": 16.0,
+        "y": 16.0,
+        "w": 32.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-034.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-034.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658571.2956898,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "）wicode CPE480N10HS 1Opendatetye 1COAATNG.md ·SSUIMKLATL Veorkfems L un Gesn RADMLN 252 3 25 264 260 19 263 S9C 266 267 268 1 Enaluatimg·Rc(hatApp Viedeg the reselts.'con!ig.json': Ine origiaal config uied for tne rus. Ihis Is uiefu! tor reproduc ing the run. To viev 。sny xross alt the runs,vse Ue'sunry'coeand vith the path to the results folder: weUsingthesueearytool To make it easier to vie and coapare results akross rus, ve've builr o Ie tools, locstedinsiocUe'revientools'folcer. Somary.Ssen': The overatl results, libe the avenage cpt eetrics. saraneters.json':Tne paraeters used for the run,like the overrides.\n270 -a revie_toolswnnnyexanple_results\nmmytoge potet_soutmf foLder baseline baseline_Jue] I_tet_o_rmke! yora_witn_raeker tople 8 Lopo_re!ined rarherlpto enipto_) topo_relines r_vectors_oo_ranker _Rext_rardr! myeros 0.w 6.% 0.% 0.%6 0.40 0.97 0.% 0.X 0.5 0.22 0.97 pass_rate 0.77 0.x 0.92 4.8 4.8 4.87 4.8) 4.87 4.88 4.72 4.85 4.60 4.68 4.88 4.85 xm_ra: is0 3.26 2.7 myrelevance.2 0.m2 0.9 piss_rate 0.935 0.6 0.26 0.95.y 0.93 0.19 0.% 0.90 0.94 4.78 men_rat ing 4.76 2.15 4.78 1.81 4.61 4.74 4.% 4.56 4.71 4.67 4.72 4.0 4.74 658.30 657.50 670.89 647.48 646.52 478.60 eean 662.X 667.49 366.13 729.45 712.35 743.69 365.66 708.93 2.00 2.95 2.97 2.45 2.28 3.0 3.31 mcan 3.78 2.67 3.n 2.69 3.01 3.3 3.18 Lateec 0.9 0.0 0.9 0.83 0.m 0.0 0.9 0.9 0.0 has_citatlon rate 0.93 1.0 0.2 1.00 e.0 0.0 0.8 0.92 citation_match 0.01 0.2 0.11 0.92 0.3 0.3 0.0 0.87 0.0 0.00 0.m1 rate\nFWELN\nNPV1CMPT\nVICOONETS\nPLS",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1230.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Evaluating a RAG Chat App\n\n## Viewing the results\n- `parameters.json`: The parameters used for the run, like the overrides.\n- `summary.json`: The overall results, like the average GPT metrics.\n- `config.json`: The original config used for the run. This is useful for reproducing the run.\n\nTo make it easier to view and compare results across runs, we've built a few tools, located inside the `review-tools` folder.\n\n## Using the summary tool\nTo view a summary across all the runs, use the `summary` command with the path to the results folder:\n\n```bash\npython -m review_tools summary example_results\n```",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for obvious errors; kept only the clearly readable slide text and omitted the noisy table."
+  }
+}

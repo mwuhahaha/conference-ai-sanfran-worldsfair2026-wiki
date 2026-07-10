@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-column agent catalog with many small labels; OCR is the better extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#050505",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 13.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "30+ Agents",
+        "x": 72.0,
+        "y": 79.0,
+        "w": 17.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "Braintrust",
+        "x": 38.0,
+        "y": 86.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "WorkOS",
+        "x": 58.0,
+        "y": 85.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenAI",
+        "x": 79.0,
+        "y": 85.0,
+        "w": 12.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/HsxQICTLF84/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659516.7766786,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

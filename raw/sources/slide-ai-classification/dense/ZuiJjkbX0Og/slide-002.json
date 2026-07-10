@@ -1,0 +1,71 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense paper screenshot, small diagram labels, and multi-column technical text are better handled by OCR",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige with purple gradient corner",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AN IMAGE IS WORTH 16x16 WORDS:\nTRANSFORMERS FOR IMAGE RECOGNITION AT SCALE",
+        "x": 30.0,
+        "y": 4.0,
+        "w": 44.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Vision Transformer (ViT)",
+        "x": 41.0,
+        "y": 39.0,
+        "w": 15.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Transformer Encoder",
+        "x": 73.0,
+        "y": 33.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "purple arrow",
+        "x": 28.0,
+        "y": 41.0,
+        "w": 13.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/ZuiJjkbX0Og/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665766.669972,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 1318.24,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0008
+  }
+}

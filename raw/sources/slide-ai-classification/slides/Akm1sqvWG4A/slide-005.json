@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Tabbed document inspector with dense table-of-contents text; OCR is the right pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "rgba(0,0,0,0.25) over white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Sample Employee Handbook - National Council of Nonprofits.pdf",
+        "x": 48.0,
+        "y": 8.0,
+        "w": 38.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "TABLE OF CONTENTS",
+        "x": 49.0,
+        "y": 23.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "I. MISSION\nII. OVERVIEW\nIII. VOLUNTARY AT-WILL EMPLOYMENT",
+        "x": 49.0,
+        "y": 31.0,
+        "w": 35.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/Akm1sqvWG4A/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658490.5832324,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

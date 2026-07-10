@@ -19,73 +19,58 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/IddXPepIAS4/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IddXPepIAS4/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.98`
+- Text source: agent_vision.
 
-> maa :
-> | Ww . 4
-> ; ; 0@
-> = What is Spec-Driven
-> erime-¢ M7.) uss
-> ? 7 And how can it make code
-> faster?
-> S ; coe :
+Slide text:
+
+> What is Spec-Driven Development?
+> And how can it make code faster?
 
 ![[assets/slides/IddXPepIAS4/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IddXPepIAS4/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> a Qspec.ad
-> a. a a
-> Zware _ ¥¥ Spec-Driven Development ry
-> - Structured specifications
-> are created before any
-> ~~ yea if ip code is written.
-> ee y eine ’
+Slide text:
+
+> Spec-Driven Development
+> Structured specifications are created before any code is written.
 
 ![[assets/slides/IddXPepIAS4/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IddXPepIAS4/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.9`
+- Text source: agent_vision.
+- OCR decision: ready — Multi-column diagram with smaller labels and embedded logos; OCR can recover the full on-slide text more efficiently than manual transcription.
 
-> - !
-> I . wae eA “2 Ae Pe Y c
-> a = @ spec.nd
-> kn . - <= 7 N
-> SA Oe A Solution to the Integrations Problem
-> MCP is the USB-C port for Al - one standard interface that connects any AI to any tool
-> User applications MCP
-> a S ©) Gemini
-> xk
-> i 1 CURSOR & * We
-> : _zapler Hin &E
-> AW Windsurf
-> * @& OneDrive =>
-> codename
-> P goose
-> a - @ build -
-> ‘ Y
+Slide text:
+
+> A Solution to the Integrations Problem
 
 ![[assets/slides/IddXPepIAS4/slide-004.jpg]]
 
-OCR text:
-
-> SPEC-DRIVEN DEVELOPHENT AIEWORLD'S FAIR SF
-> -stirtrek 80
-> design.md9.x New Session
-> Q tasks.md F.config.kiro design.md requirements.md 9+ movie-database Design Document:Movle Database （6es These) Overview Design>2Requirements>3Task list SycFles →Continue
-> B C (1package-lockjson mtsconfigjson Oen.example Tsnut.config.ts ①README.md Ts vitest.configs >tests )server D >pubiic Vapp.ue data >assets >composables >types >components >pages app Anv gitignore xnu 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 22 28 29 31 32 33 34 Architecture Aretro-styledmovie database application built vith Nuxt4and Tailwind CSsv4,featuring a synthwve/Bs （hot pink,electric blue,purple),retro typography,grid-line backgrounds,and glowing UI elements inspired by visual experience resiniscent of 19Bes pop culture. graphTD aesthetic.Users can browse,search,and viev details about movies with an inmersive neon-lit,retro-futuristic synthwave art. nermaid ak burAisydeubons subgraph “Nuxt 4AppLicatLon” subgraph"Data Layer" end N[assets/css/nain.css-Tailvind.s Theoe） [pTTAo-AxapuT/sabed]g[1Snoe-A·dde] A->C[pages/novies/_id_.vue-MovieDetaill 8->E[conponents/SearchBar.vue] A->I[conponents/AgpFooter.vue] JIconposables/useMovies.ts]->K[data/movles.json] ]-→L[conposables/useSearch.ts] o[assets/css/aninations.css-Neon ->D[conponents/MovieCard.vue] ->F[conponents/GenreFitter.voe] >H[components/AppHeader.vue] ->M[coeposables/useFilters.ts] Open Preview herabeas yoo DVibe Leplore ideas and Great.for: epg sa Tinking theugh feturesin-deh Proectsneedingut ng Plan,search，or buildanything Let'sbuild Plan fist,hen bud. ayq sp pue Create requinements codrg starts.
-
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IddXPepIAS4/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: none.
+- OCR decision: ready — Dense code/editor screenshot with small UI text and multiple panes is better handled by OCR.
+- Slide text: not surfaced (`none` by AI classifier).
 ![[assets/slides/IddXPepIAS4/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IddXPepIAS4/slide-005.html)
+- AI slide classifier: `title_card` confidence `0.98`
+- Text source: agent_vision.
 
-> Wea Oo ea Oo
-> 
-> aot teh
-> 
-> ala <-Xeh lah ti allele arcane . net ; TY _ 7 3
-> - X/Bluesky: Erikch on th
-> 
-> im Arets
+Slide text:
+
+> Thanks!
+> LinkedIn: Erik Hanchett
+> X/Bluesky: Erikch
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/IddXPepIAS4/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

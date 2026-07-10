@@ -1,0 +1,71 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "LabMind",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-panel product UI screenshot with charting and assistant text suitable for OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "LabMind",
+        "x": 44.0,
+        "y": 2.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Research Assistant",
+        "x": 80.0,
+        "y": 15.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Real-time Sensor Trends",
+        "x": 48.0,
+        "y": 40.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Manual Camera Analysis",
+        "x": 47.0,
+        "y": 64.0,
+        "w": 22.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672392.337201,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "LabMind",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 55.48,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

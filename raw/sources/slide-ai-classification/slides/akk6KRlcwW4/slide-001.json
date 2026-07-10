@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "VAULT\nOpenClaw in Your Hand - a physical AI terminal for local LLM agents.\nAn instrument, not an app.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg, #050505 0 56%, #2f6fa9 56% 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "VAULT",
+        "x": 13.0,
+        "y": 21.0,
+        "w": 24.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "OpenClaw in Your Hand - a physical AI terminal for local LLM agents.",
+        "x": 13.0,
+        "y": 42.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "An instrument, not an app.",
+        "x": 13.0,
+        "y": 49.0,
+        "w": 22.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/akk6KRlcwW4/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666276.3402836,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "VAULT\nOpenClaw in Your Hand - a physical AI terminal for local LLM agents.\nAn instrument, not an app.",
+  "advanced_ocr": {}
+}

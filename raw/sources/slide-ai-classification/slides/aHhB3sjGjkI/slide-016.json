@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The baseline report.\nCase: fetch-country-density\nCnput: Using the REST Countries APt. fetch Japan's popudaton and srea, then calculate the populaton densny. C Actual Output: Agent rofused, saying i can't accets extomal APis. CExpected 0utput: 326.e1\nCase: weighted-harmonic-mean\nSozt6s'6z andno p1sedx3 D C Actual 0utput: 29.591676 C Input: Cslculale the weighted harmonic mean of Values snd Wdights. Round to eractty 6 decimsl plsces.\nSummary\nWhat works (11/60 psss+d, 18.3%):\nSlmple well-known computations: trailng zoros of 200f (1), binomisl coefficlemt C(100,50) (1), bond price (1), doprociaton 0D8 (1), Flbonacc F(300) (1) CSome Ap1 knowtedge-based answers: User count (1), user posts count (1), couniry borders (1) CCode execution tasks: FizzBuzz sum (t), stalrcsso climbing (1), Codatz mrr [1)\nWhut talls (40/60, 81.7%) grouped by pattern:\n. Large exact hnteger computations (8 cases): powor-23.53, powor-17-73, power-37-41, powcr-7-85, power-29.47, powor-31-43, powrer-13-67. Dr lmor ial-20. The sgent refuses to compute Largo exponents, asking fo a cakculator tocil k doesn't htre.\n2. Digt-sum / modulsc rithmetic (3 cates): dlg't-sum-88-88, dlgit-sum-99-99, last12-diglts-7-7777. Agent ether refuses or gves wrong answera.\n③. Finsncisl math preclsion erors (12 cases): (v-arulty, omortizallon- 30y, npv-cashiows, py-anruay, compound-dsy, continuous-compound) Compound-monthty, &mortization- 15yr, compound-qusrterty, geome ric-moan, Ir-cashflows, moafled -dur atlon, The sgent attempts the caiculation but\ngett slightly wrong onswers due to floaling-point or lormula errors.\n2",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense dark report screenshot with small text and many numeric details; OCR is the right extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The baseline report",
+        "x": 8.0,
+        "y": 6.0,
+        "w": 26.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Case: fetch-country-density\nCase: weighted-harmonic-mean\nSummary",
+        "x": 9.0,
+        "y": 17.0,
+        "w": 74.0,
+        "h": 64.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666723.3078685,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "The baseline report",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "The baseline report.\nCase: fetch-country-density\nCnput: Using the REST Countries APt. fetch Japan's popudaton and srea, then calculate the populaton densny. C Actual Output: Agent rofused, saying i can't accets extomal APis. CExpected 0utput: 326.e1\nCase: weighted-harmonic-mean\nSozt6s'6z andno p1sedx3 D C Actual 0utput: 29.591676 C Input: Cslculale the weighted harmonic mean of Values snd Wdights. Round to eractty 6 decimsl plsces.\nSummary\nWhat works (11/60 psss+d, 18.3%):\nSlmple well-known computations: trailng zoros of 200f (1), binomisl coefficlemt C(100,50) (1), bond price (1), doprociaton 0D8 (1), Flbonacc F(300) (1) CSome Ap1 knowtedge-based answers: User count (1), user posts count (1), couniry borders (1) CCode execution tasks: FizzBuzz sum (t), stalrcsso climbing (1), Codatz mrr [1)\nWhut talls (40/60, 81.7%) grouped by pattern:\n. Large exact hnteger computations (8 cases): powor-23.53, powor-17-73, power-37-41, powcr-7-85, power-29.47, powor-31-43, powrer-13-67. Dr lmor ial-20. The sgent refuses to compute Largo exponents, asking fo a cakculator tocil k doesn't htre.\n2. Digt-sum / modulsc rithmetic (3 cates): dlg't-sum-88-88, dlgit-sum-99-99, last12-diglts-7-7777. Agent ether refuses or gves wrong answera.\n③. Finsncisl math preclsion erors (12 cases): (v-arulty, omortizallon- 30y, npv-cashiows, py-anruay, compound-dsy, continuous-compound) Compound-monthty, &mortization- 15yr, compound-qusrterty, geome ric-moan, Ir-cashflows, moafled -dur atlon, The sgent attempts the caiculation but\ngett slightly wrong onswers due to floaling-point or lormula errors.\n2",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1902.98
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "The baseline report.\nCase: fetch-country-density\nCnput: Using the REST Countries APt. fetch Japan's popudaton and srea, then calculate the populaton densny. C Actual Output: Agent rofused, saying i can't accets extomal APis. CExpected 0utput: 326.e1\nCase: weighted-harmonic-mean\nSozt6s'6z andno p1sedx3 D C Actual 0utput: 29.591676 C Input: Cslculale the weighted harmonic mean of Values snd Wdights. Round to eractty 6 decimsl plsces.\nSummary\nWhat works (11/60 psss+d, 18.3%):\nSlmple well-known computations: trailng zoros of 200f (1), binomisl coefficlemt C(100,50) (1), bond price (1), doprociaton 0D8 (1), Flbonacc F(300) (1) CSome Ap1 knowtedge-based answers: User count (1), user posts count (1), couniry borders (1) CCode execution tasks: FizzBuzz sum (t), stalrcsso climbing (1), Codatz mrr [1)\nWhut talls (40/60, 81.7%) grouped by pattern:\n. Large exact hnteger computations (8 cases): powor-23.53, powor-17-73, power-37-41, powcr-7-85, power-29.47, powor-31-43, powrer-13-67. Dr lmor ial-20. The sgent refuses to compute Largo exponents, asking fo a cakculator tocil k doesn't htre.\n2. Digt-sum / modulsc rithmetic (3 cates): dlg't-sum-88-88, dlgit-sum-99-99, last12-diglts-7-7777. Agent ether refuses or gves wrong answera.\n③. Finsncisl math preclsion erors (12 cases): (v-arulty, omortizallon- 30y, npv-cashiows, py-anruay, compound-dsy, continuous-compound) Compound-monthty, &mortization- 15yr, compound-qusrterty, geome ric-moan, Ir-cashflows, moafled -dur atlon, The sgent attempts the caiculation but\ngett slightly wrong onswers due to floaling-point or lormula errors.\n2",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

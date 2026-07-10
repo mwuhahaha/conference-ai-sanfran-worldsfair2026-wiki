@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How do we do that?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable slide",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How do we do that?",
+        "x": 8.0,
+        "y": 5.0,
+        "w": 26.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666210.264174,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "How do we do that?",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,444 @@
+{
+  "video_id": "PmZDupFP3UM",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 6,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "The AI strategy playbook for senior executives",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title card with large readable text; OCR is not needed.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with black footer",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The AI strategy playbook for senior executives",
+            "x": 35.0,
+            "y": 3.0,
+            "w": 31.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 33.0,
+            "y": 20.0,
+            "w": 31.0,
+            "h": 59.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 33.0,
+            "y": 88.0,
+            "w": 30.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PmZDupFP3UM/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663262.177306,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The AI strategy playbook for senior executives",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PmZDupFP3UM/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "more productive. Here's how it measures that. Sundar Pichai says Al is making Google engineers 10%\nBy Huh Lrdsy\nAgainst Expert Forecasts and Developer Self-Reports, Early-2025 Ai Slows Down Exporienced Opon-Source Dovelopers meir\nIn thr Rc!, 16 detopers wth moderte A +prance complete 2ke ura in largt ind compher Drojtt on which thty hiit t imttot o S ytst of orior tit'itnce.\nChange in time when A 50% HO\nEconomles tipet trtchLt Hl epet tortcrt Drsthpt taecil Drlope iLrees dunrgtiuy ooaitd\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PrEsented by JUSTIN REOCK 7 Deputy CTO DX",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Mixed slide with embedded article screenshot and chart; OCR will read the dense text more reliably than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Leadership in AI-assisted engineering",
+            "x": 23.0,
+            "y": 0,
+            "w": 54.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Sundar Pichai says AI is making Google engineers 10% more productive. Here's how it measures that.",
+            "x": 56.0,
+            "y": 10.0,
+            "w": 38.0,
+            "h": 27.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE / LEAD",
+            "x": 4.0,
+            "y": 82.0,
+            "w": 17.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "PRESENTED BY Google DeepMind",
+            "x": 4.0,
+            "y": 90.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "JUSTIN REOCK / Deputy CTO DX",
+            "x": 43.0,
+            "y": 84.0,
+            "w": 36.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PmZDupFP3UM/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663262.177631,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "more productive. Here's how it measures that. Sundar Pichai says Al is making Google engineers 10%\nBy Huh Lrdsy\nAgainst Expert Forecasts and Developer Self-Reports, Early-2025 Ai Slows Down Exporienced Opon-Source Dovelopers meir\nIn thr Rc!, 16 detopers wth moderte A +prance complete 2ke ura in largt ind compher Drojtt on which thty hiit t imttot o S ytst of orior tit'itnce.\nChange in time when A 50% HO\nEconomles tipet trtchLt Hl epet tortcrt Drsthpt taecil Drlope iLrees dunrgtiuy ooaitd\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PrEsented by JUSTIN REOCK 7 Deputy CTO DX",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 884.88
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "more productive. Here's how it measures that. Sundar Pichai says Al is making Google engineers 10%\nBy Huh Lrdsy\nAgainst Expert Forecasts and Developer Self-Reports, Early-2025 Ai Slows Down Exporienced Opon-Source Dovelopers meir\nIn thr Rc!, 16 detopers wth moderte A +prance complete 2ke ura in largt ind compher Drojtt on which thty hiit t imttot o S ytst of orior tit'itnce.\nChange in time when A 50% HO\nEconomles tipet trtchLt Hl epet tortcrt Drsthpt taecil Drlope iLrees dunrgtiuy ooaitd\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PrEsented by JUSTIN REOCK 7 Deputy CTO DX",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PmZDupFP3UM/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Al seems to deliver modest gains in quality metrics\nAverage Change Confldence DXl drlver for Al Users vs. Non-Al Users\nData from t9,?51 doveioprt 18 pt\nAvtrsgo chtrge contldence score: Al usert vs. non users gain max\nDX1 Score Gain from 2.6 Polnt Average using Al\n15 pt loss max\nDX\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PReSented BY JUSTIN REOCK / Deputy CTO DX",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense chart slide with small labels and a quantitative callout; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI seems to deliver modest gains in quality metrics",
+            "x": 24.0,
+            "y": 1.0,
+            "w": 57.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram",
+            "text": "Average change confidence score: AI users vs. non users",
+            "x": 36.0,
+            "y": 14.0,
+            "w": 48.0,
+            "h": 58.0
+          },
+          {
+            "role": "body",
+            "text": "2.6 Point Average Gain from using AI",
+            "x": 84.0,
+            "y": 29.0,
+            "w": 13.0,
+            "h": 28.0
+          },
+          {
+            "role": "logo",
+            "text": "LEADERSHIP IN AI-ASSISTED ENGINEERING",
+            "x": 24.0,
+            "y": 89.0,
+            "w": 54.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PmZDupFP3UM/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663289.521023,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Al seems to deliver modest gains in quality metrics\nAverage Change Confldence DXl drlver for Al Users vs. Non-Al Users\nData from t9,?51 doveioprt 18 pt\nAvtrsgo chtrge contldence score: Al usert vs. non users gain max\nDX1 Score Gain from 2.6 Polnt Average using Al\n15 pt loss max\nDX\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PReSented BY JUSTIN REOCK / Deputy CTO DX",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 608.12
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Al seems to deliver modest gains in quality metrics\nAverage Change Confldence DXl drlver for Al Users vs. Non-Al Users\nData from t9,?51 doveioprt 18 pt\nAvtrsgo chtrge contldence score: Al usert vs. non users gain max\nDX1 Score Gain from 2.6 Polnt Average using Al\n15 pt loss max\nDX\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PReSented BY JUSTIN REOCK / Deputy CTO DX",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PmZDupFP3UM/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Industry averages hide the big picture of quality impact\nPer-company Change Failure Rate% impact for Al Users vs. Non-Al Users\nData from 61 compsalts.\nChange Failure Rate % Impact Per-conpsty Change Falure Rate lmpsct writh Al sdoption\nDX\nG\\OB/0O\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind Presented b? JUSTIN REOCK / Deputy CTO: DX",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense chart slide with many per-company bars and small labels; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Industry averages hide the big picture of quality impact",
+            "x": 22.0,
+            "y": 1.0,
+            "w": 61.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram",
+            "text": "Per-company Change Failure Rate% impact with AI adoption",
+            "x": 35.0,
+            "y": 15.0,
+            "w": 48.0,
+            "h": 61.0
+          },
+          {
+            "role": "logo",
+            "text": "DX",
+            "x": 83.0,
+            "y": 79.0,
+            "w": 6.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "LEADERSHIP IN AI-ASSISTED ENGINEERING",
+            "x": 24.0,
+            "y": 89.0,
+            "w": 54.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PmZDupFP3UM/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663312.741771,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Industry averages hide the big picture of quality impact\nPer-company Change Failure Rate% impact for Al Users vs. Non-Al Users\nData from 61 compsalts.\nChange Failure Rate % Impact Per-conpsty Change Falure Rate lmpsct writh Al sdoption\nDX\nG\\OB/0O\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind Presented b? JUSTIN REOCK / Deputy CTO: DX",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 547.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Industry averages hide the big picture of quality impact\nPer-company Change Failure Rate% impact for Al Users vs. Non-Al Users\nData from 61 compsalts.\nChange Failure Rate % Impact Per-conpsty Change Falure Rate lmpsct writh Al sdoption\nDX\nG\\OB/0O\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind Presented b? JUSTIN REOCK / Deputy CTO: DX",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PmZDupFP3UM/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Engineering the future of AI",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart-heavy slide with small labels; OCR is appropriate even though the main title is readable directly.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray and white with black footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Engineering the future of AI",
+            "x": 43.0,
+            "y": 84.0,
+            "w": 35.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram",
+            "text": "Bayesian Posterior Distributions of AI Adoption Strategies: https://dora.dev/research/ai/gen-ai-report/",
+            "x": 31.0,
+            "y": 14.0,
+            "w": 56.0,
+            "h": 61.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer",
+            "x": 3.0,
+            "y": 82.0,
+            "w": 18.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PmZDupFP3UM/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663344.7057567,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 535.28,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PmZDupFP3UM/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Measuring GenAl impact\nMetric Type Good For Not Good For Challenges\nTelemetry metrics developer output Measuring impact on Understanding how toois are being used Quantitying ROl Limited, possibly Inaccurate Incomplete story Insight\nExperlence sampling Quantitying ROl Identifying best use cases Colocting targe amounts ot data at once time Difficut to set up Must be run over perlod of\nSelf-reported developer satsfaction, Measuring adoption, productivity Quantifying ROl Particlpatlon rates Can onty be run periodically\nGB0の\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind Prtsfnred ey JUSTIN REOCK / Deputy CTO DX",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Table slide with dense small text and multiple columns; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Measuring GenAI impact",
+            "x": 31.0,
+            "y": 3.0,
+            "w": 28.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Metric Type Good For Not Good For Challenges",
+            "x": 29.0,
+            "y": 12.0,
+            "w": 63.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Telemetry metrics Experience sampling Self-reported",
+            "x": 30.0,
+            "y": 28.0,
+            "w": 27.0,
+            "h": 41.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PmZDupFP3UM/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663396.8401432,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Measuring GenAI impact",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Measuring GenAl impact\nMetric Type Good For Not Good For Challenges\nTelemetry metrics developer output Measuring impact on Understanding how toois are being used Quantitying ROl Limited, possibly Inaccurate Incomplete story Insight\nExperlence sampling Quantitying ROl Identifying best use cases Colocting targe amounts ot data at once time Difficut to set up Must be run over perlod of\nSelf-reported developer satsfaction, Measuring adoption, productivity Quantifying ROl Particlpatlon rates Can onty be run periodically\nGB0の\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind Prtsfnred ey JUSTIN REOCK / Deputy CTO DX",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 933.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Measuring GenAl impact\nMetric Type Good For Not Good For Challenges\nTelemetry metrics developer output Measuring impact on Understanding how toois are being used Quantitying ROl Limited, possibly Inaccurate Incomplete story Insight\nExperlence sampling Quantitying ROl Identifying best use cases Colocting targe amounts ot data at once time Difficut to set up Must be run over perlod of\nSelf-reported developer satsfaction, Measuring adoption, productivity Quantifying ROl Particlpatlon rates Can onty be run periodically\nGB0の\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind Prtsfnred ey JUSTIN REOCK / Deputy CTO DX",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PmZDupFP3UM/slide-006.html"
+    }
+  ],
+  "rejected": []
+}

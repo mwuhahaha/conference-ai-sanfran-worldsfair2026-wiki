@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "There are many. They fall into two categories.\nRepo boundaries",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#050505",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "There are many. They fall into two categories.",
+        "x": 24.0,
+        "y": 24.0,
+        "w": 44.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "Repo boundaries",
+        "x": 24.0,
+        "y": 53.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "The agent can only see and change one repo at a time, never the system around it.",
+        "x": 24.0,
+        "y": 61.0,
+        "w": 34.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669375.780922,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "There are many. They fall into two categories.\nRepo boundaries",
+  "advanced_ocr": {}
+}

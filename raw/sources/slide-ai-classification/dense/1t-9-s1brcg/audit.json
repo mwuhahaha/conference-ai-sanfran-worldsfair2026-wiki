@@ -1,0 +1,3525 @@
+{
+  "video_id": "1t-9-s1brcg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 50,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Microsoft for Startups Founders Hub\nBuild your startup faster with free access to:\n→ Up to $150k of Azure credits and discounts on 30+ tools your team needs to build, like GitHub, Microsoft 365, LinkedIn Premium, and more.\n→ Credits toward Azure AI Studio—the most comprehensive set of AI models, including OpenAI GPT-3.5 Turbo, GPT-4, and Llama 2 by Meta.\n→ 1:1 sessions with Microsoft experts to help you work through technical and business challenges.\nApply in minutes at https://aka.ms/apply-fh",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "soft pink",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Microsoft for Startups\nFounders Hub",
+            "x": 6.0,
+            "y": 7.0,
+            "w": 28.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Build your startup faster with free access to:",
+            "x": 36.0,
+            "y": 7.0,
+            "w": 58.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "→ Up to $150k of Azure credits and discounts on 30+ tools your team needs to build, like GitHub, Microsoft 365, LinkedIn Premium, and more.\n→ Credits toward Azure AI Studio—the most comprehensive set of AI models, including OpenAI GPT-3.5 Turbo, GPT-4, and Llama 2 by Meta.\n→ 1:1 sessions with Microsoft experts to help you work through technical and business challenges.",
+            "x": 36.0,
+            "y": 18.0,
+            "w": 58.0,
+            "h": 42.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 83.0,
+            "y": 88.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657240.9523118,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Microsoft for Startups Founders Hub\nBuild your startup faster with free access to:\n→ Up to $150k of Azure credits and discounts on 30+ tools your team needs to build, like GitHub, Microsoft 365, LinkedIn Premium, and more.\n→ Credits toward Azure AI Studio—the most comprehensive set of AI models, including OpenAI GPT-3.5 Turbo, GPT-4, and Llama 2 by Meta.\n→ 1:1 sessions with Microsoft experts to help you work through technical and business challenges.\nApply in minutes at https://aka.ms/apply-fh",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.92,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "UI screenshot with multiple small text regions; OCR will be more reliable than manual transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "warm beige",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "write a haiku about AI engineer worlds fair",
+            "x": 26.0,
+            "y": 6.0,
+            "w": 65.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "AI engineers shine, World's fair of innovation, Future's grand design.",
+            "x": 2.0,
+            "y": 15.0,
+            "w": 72.0,
+            "h": 11.0
+          },
+          {
+            "role": "caption",
+            "text": "haiku about san francisco",
+            "x": 26.0,
+            "y": 28.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Golden Gate's embrace, San Francisco's vibrant heart, City's charm in grace.",
+            "x": 2.0,
+            "y": 37.0,
+            "w": 72.0,
+            "h": 11.0
+          },
+          {
+            "role": "caption",
+            "text": "write a long essay about san francisco",
+            "x": 26.0,
+            "y": 48.0,
+            "w": 54.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657240.9637718,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot with small labels and body text; OCR is the better triage path.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light beige",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "GPT + Enterprise data | Sample",
+            "x": 2.0,
+            "y": 1.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Chat",
+            "x": 40.0,
+            "y": 1.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Ask a question",
+            "x": 48.0,
+            "y": 1.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Azure OpenAI + AI Search",
+            "x": 79.0,
+            "y": 1.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "What does a Product Manager do?",
+            "x": 61.0,
+            "y": 12.0,
+            "w": 15.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "what else do they do?",
+            "x": 66.0,
+            "y": 29.0,
+            "w": 12.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657240.9657965,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Document screenshot with small dense instructions and form-like content; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light cream",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI Engineer workshop instructions",
+            "x": 28.0,
+            "y": 5.0,
+            "w": 40.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Aishwarya Srinivasan, Gabriela de Queiroz, Pamela Fox and Harald Kirschner",
+            "x": 12.0,
+            "y": 13.0,
+            "w": 66.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Setup Instructions:",
+            "x": 11.0,
+            "y": 23.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "GitHub:",
+            "x": 11.0,
+            "y": 31.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Azure:",
+            "x": 11.0,
+            "y": 48.0,
+            "w": 8.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657240.9676633,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Portal screenshot with table headers and small interface labels; OCR will capture details better than manual triage.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "off-white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Subscriptions",
+            "x": 1.0,
+            "y": 12.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Subscriptions: Filtered (2 of 2)",
+            "x": 28.0,
+            "y": 23.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Subscription name",
+            "x": 11.0,
+            "y": 39.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Subscription ID",
+            "x": 28.0,
+            "y": 39.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "My role",
+            "x": 42.0,
+            "y": 39.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Current cost",
+            "x": 54.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Secure Score",
+            "x": 66.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Parent management group",
+            "x": 78.0,
+            "y": 39.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Status",
+            "x": 96.0,
+            "y": 39.0,
+            "w": 6.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657240.9694157,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Instruction page with small text, key fields, and endpoint details; OCR is the right triage output.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light cream",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "Access to the Endpoints",
+            "x": 12.0,
+            "y": 25.0,
+            "w": 30.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "Registration Details",
+            "x": 18.0,
+            "y": 52.0,
+            "w": 36.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Your API Key:",
+            "x": 18.0,
+            "y": 63.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Proxy Endpoint:",
+            "x": 18.0,
+            "y": 72.0,
+            "w": 16.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657240.9712617,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Application UI screenshot with many small labels and controls; OCR is appropriate for downstream extraction.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light beige",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Azure AI Proxy Playground",
+            "x": 1.0,
+            "y": 1.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "System Message",
+            "x": 3.0,
+            "y": 11.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Chat session",
+            "x": 24.0,
+            "y": 11.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Configuration",
+            "x": 79.0,
+            "y": 11.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "You are an AI assistant that helps people find information.",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "OpenAI Functions",
+            "x": 3.0,
+            "y": 43.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "API Response",
+            "x": 80.0,
+            "y": 43.0,
+            "w": 16.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657240.9725497,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Continuation of the playground UI with small interface text; OCR will be more reliable than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light beige",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "You're an AI assistant that constantly makes pirate jokes. Yarr!",
+            "x": 3.0,
+            "y": 11.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "OpenAI Functions",
+            "x": 3.0,
+            "y": 43.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Model",
+            "x": 80.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "API Response",
+            "x": 80.0,
+            "y": 43.0,
+            "w": 16.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657240.973379,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Azure AI Proxy Playground",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot with multiple small text regions and interface labels; OCR will capture details better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Azure AI Proxy Playground",
+            "x": 1.0,
+            "y": 2.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "AI Engineer Workshop - June 25, 2024",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 28.0,
+            "h": 3.0
+          },
+          {
+            "role": "caption",
+            "text": "System Message",
+            "x": 2.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Chat session",
+            "x": 24.0,
+            "y": 13.0,
+            "w": 56.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Configuration",
+            "x": 78.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "API Response",
+            "x": 78.0,
+            "y": 61.0,
+            "w": 18.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657352.7378323,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Azure AI Proxy Playground",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Azure AI Proxy Playground",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot with dense controls, dropdowns, and response text suitable for OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Azure AI Proxy Playground",
+            "x": 1.0,
+            "y": 2.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "AI Engineer Workshop - June 25, 2024",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 28.0,
+            "h": 3.0
+          },
+          {
+            "role": "caption",
+            "text": "Chat session",
+            "x": 24.0,
+            "y": 13.0,
+            "w": 56.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Configuration",
+            "x": 78.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "API Response",
+            "x": 78.0,
+            "y": 61.0,
+            "w": 18.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657352.76975,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Azure AI Proxy Playground",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Azure AI Proxy Playground",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Same dense interface screenshot style as adjacent frame; OCR is the right extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Azure AI Proxy Playground",
+            "x": 1.0,
+            "y": 2.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "AI Engineer Workshop - June 25, 2024",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 28.0,
+            "h": 3.0
+          },
+          {
+            "role": "caption",
+            "text": "System Message",
+            "x": 2.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Chat session",
+            "x": 24.0,
+            "y": 13.0,
+            "w": 56.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Configuration",
+            "x": 78.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "API Response",
+            "x": 78.0,
+            "y": 61.0,
+            "w": 18.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657352.7706916,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Azure AI Proxy Playground",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "GPT-4 and GPT-4 Turbo models",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Documentation page screenshot with a large title and dense table content; OCR is needed for the table and side navigation.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "GPT-4 and GPT-4 Turbo models",
+            "x": 26.0,
+            "y": 3.0,
+            "w": 45.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "These models can only be used with the Chat Completion API.",
+            "x": 28.0,
+            "y": 11.0,
+            "w": 48.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Model ID",
+            "x": 28.0,
+            "y": 27.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Description",
+            "x": 42.0,
+            "y": 27.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Max Request (tokens)",
+            "x": 60.0,
+            "y": 27.0,
+            "w": 18.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657352.7715178,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "GPT-4 and GPT-4 Turbo models",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Continuation of the documentation table with small rows and columns; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "GPT-4 Turbo Preview",
+            "x": 27.0,
+            "y": 12.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "GPT-4 Turbo with Vision Preview",
+            "x": 26.0,
+            "y": 31.0,
+            "w": 24.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Model ID",
+            "x": 28.0,
+            "y": 24.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Description",
+            "x": 42.0,
+            "y": 24.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Documentation",
+            "x": 80.0,
+            "y": 20.0,
+            "w": 15.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657352.772215,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Registration Details",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Text-heavy registration and SDK instructions with small body copy; OCR will be more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Registration Details",
+            "x": 5.0,
+            "y": 15.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Your API Key",
+            "x": 5.0,
+            "y": 27.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Proxy Endpoint",
+            "x": 5.0,
+            "y": 33.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Playground Access",
+            "x": 5.0,
+            "y": 41.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "SDK Access",
+            "x": 5.0,
+            "y": 58.0,
+            "w": 14.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-014.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657352.7729075,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Registration Details",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI App Templates Workshop",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Repository README screenshot with title, table, and side metadata; OCR is appropriate for extracting the page structure.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI App Templates Workshop",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 42.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "These guides will help you get started using our AI App Templates along with the Azure OpenAI Proxy.",
+            "x": 5.0,
+            "y": 19.0,
+            "w": 66.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "OpenAI Chat App",
+            "x": 6.0,
+            "y": 43.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "RAG on PostgreSQL",
+            "x": 6.0,
+            "y": 52.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "RAG with Azure AI Search",
+            "x": 6.0,
+            "y": 61.0,
+            "w": 22.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-015.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657352.7736132,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI App Templates Workshop",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Opening the project",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "GitHub markdown page screenshot with headings and code/setup instructions; OCR is suitable for the fine text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Opening the project",
+            "x": 10.0,
+            "y": 22.0,
+            "w": 30.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Running the app \"locally\"",
+            "x": 10.0,
+            "y": 35.0,
+            "w": 36.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Copy .env.sample to .env",
+            "x": 10.0,
+            "y": 51.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "AZURE_OPENAI_ENDPOINT",
+            "x": 45.0,
+            "y": 51.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "AZURE_OPENAI_KEY",
+            "x": 65.0,
+            "y": 51.0,
+            "w": 16.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-016.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657352.7744966,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Opening the project",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Resume codespace",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot with multiple small text regions and a dense page layout.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f2dfc0",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Resume codespace",
+            "x": 31.0,
+            "y": 11.0,
+            "w": 38.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Get started with development in the cloud from an existing repository or a template.",
+            "x": 32.0,
+            "y": 20.0,
+            "w": 41.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Azure-Samples/openai-chat-app-quickstart",
+            "x": 34.0,
+            "y": 37.0,
+            "w": 32.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "Previous session found",
+            "x": 34.0,
+            "y": 61.0,
+            "w": 32.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-017.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657514.8882723,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Resume codespace",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Terms of use",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense terms page with small body text, form labels, and multiple section headers.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f2dfc0",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Terms of use",
+            "x": 5.0,
+            "y": 3.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "By registering for this event and gaining limited access to Azure AI services...",
+            "x": 5.0,
+            "y": 8.0,
+            "w": 90.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Registration Details",
+            "x": 5.0,
+            "y": 29.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Your API Key  Proxy Endpoint",
+            "x": 5.0,
+            "y": 37.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "Playground Access",
+            "x": 5.0,
+            "y": 49.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "SDK Access",
+            "x": 5.0,
+            "y": 84.0,
+            "w": 16.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-018.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657514.8922305,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Terms of use",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code editor screenshot with small text, comments, and environment variables that are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#efe7d6",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": ".env",
+            "x": 20.0,
+            "y": 3.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "AZURE_OPENAI_ENDPOINT  AZURE_OPENAI_KEY",
+            "x": 22.0,
+            "y": 10.0,
+            "w": 50.0,
+            "h": 14.0
+          },
+          {
+            "role": "code",
+            "text": "AZURE_OPENAI_CHATGPT_DEPLOYMENT  AZURE_OPENAI_API_VERSION",
+            "x": 22.0,
+            "y": 28.0,
+            "w": 52.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "explorer / terminal / editor",
+            "x": 2.0,
+            "y": 6.0,
+            "w": 15.0,
+            "h": 88.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-019.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657514.8930838,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Documentation page with numbered setup steps and command blocks; OCR is the cheapest accurate path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "1. Either quit the server or open a new terminal for this step.",
+            "x": 6.0,
+            "y": 10.0,
+            "w": 86.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "azd auth login",
+            "x": 13.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "azd env new",
+            "x": 13.0,
+            "y": 49.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "azd env set CREATE_AZURE_OPENAI false",
+            "x": 13.0,
+            "y": 68.0,
+            "w": 37.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-020.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657514.8939686,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-020.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Deploying to Azure",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense documentation screenshot with commands and setup instructions; OCR will recover the small text more reliably.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "python -m quart --app src.quartapp run --port 50505 --reload",
+            "x": 14.0,
+            "y": 19.0,
+            "w": 55.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "This will start the app on port 50505, and you can access it at http://localhost:50505.",
+            "x": 12.0,
+            "y": 29.0,
+            "w": 70.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "Deploying to Azure",
+            "x": 12.0,
+            "y": 42.0,
+            "w": 26.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "azd auth login",
+            "x": 14.0,
+            "y": 72.0,
+            "w": 16.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-021.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657514.9096386,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Deploying to Azure",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-021.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code editor plus terminal logs with small syntax and runtime output; OCR is appropriate for this dense screen capture.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#efe7d6",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "chat.py",
+            "x": 0,
+            "y": 5.0,
+            "w": 18.0,
+            "h": 90.0
+          },
+          {
+            "role": "code",
+            "text": "@bp.post(\"/chat/stream\")",
+            "x": 20.0,
+            "y": 8.0,
+            "w": 45.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "Running on http://127.0.0.1:50505",
+            "x": 20.0,
+            "y": 54.0,
+            "w": 45.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "POST /chat/stream",
+            "x": 20.0,
+            "y": 76.0,
+            "w": 24.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-022.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-022.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657514.9103122,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-022.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Continuation of the Azure deployment instructions with multiple command snippets and small text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "azd env new",
+            "x": 12.0,
+            "y": 9.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "4. Set azd environment variables to use the Azure OpenAI proxy service.",
+            "x": 12.0,
+            "y": 26.0,
+            "w": 72.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "azd env set CREATE_AZURE_OPENAI false",
+            "x": 14.0,
+            "y": 34.0,
+            "w": 37.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "azd env set AZURE_OPENAI_KEY YOUR-KEY-HERE",
+            "x": 14.0,
+            "y": 50.0,
+            "w": 40.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "azd env set AZURE_OPENAI_ENDPOINT https://YOUR-ENDPOINT-HERE/api/v1",
+            "x": 14.0,
+            "y": 67.0,
+            "w": 57.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-023.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-023.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657514.9111407,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-023.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Azure AI Proxy Playground",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot with dense labels, controls, and chat content that OCR can recover efficiently.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f2dfc0",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Azure AI Proxy Playground",
+            "x": 1.0,
+            "y": 3.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "System Message",
+            "x": 2.0,
+            "y": 10.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Chat session",
+            "x": 27.0,
+            "y": 10.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Configuration",
+            "x": 78.0,
+            "y": 10.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Model  Max response  Temperature  OpenAI Functions  API Response",
+            "x": 78.0,
+            "y": 20.0,
+            "w": 20.0,
+            "h": 55.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-024.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-024.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657514.9117393,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Azure AI Proxy Playground",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-024.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI App Templates Workshop\n\nThese guides will help you get started using our AI App Templates along with the Azure OpenAI Proxy.\n\nHere are the available templates with links to their guides:\n\nTemplate | Description\nOpenAI Chat App | A simple chat app that uses the OpenAI API to generate responses to user input.\nRAG on PostgreSQL | A chat app that answers questions using a RAG flow with OpenAI and a PostgreSQL database.\nRAG with Azure AI Search | A chat app that answers questions using a RAG flow with OpenAI and Azure AI Search.\n\nWe recommend going through each template in the order listed, as they build in complexity.\n\nWorkshop instructions: https://aka.ms/ai-workshop",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense table and small UI text; OCR is likely better than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige on dark frame",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI App Templates Workshop",
+            "x": 22.0,
+            "y": 15.0,
+            "w": 56.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "These guides will help you get started using our AI App Templates along with the Azure OpenAI Proxy.",
+            "x": 22.0,
+            "y": 28.0,
+            "w": 60.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Template / Description table",
+            "x": 22.0,
+            "y": 39.0,
+            "w": 60.0,
+            "h": 38.0
+          },
+          {
+            "role": "caption",
+            "text": "We recommend going through each template in the order listed, as they build in complexity.",
+            "x": 22.0,
+            "y": 80.0,
+            "w": 60.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-025.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-025.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657707.4311388,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "AI App Templates Workshop",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Arure Samples / al-spp.temphtes.workshop\n(> Codt Okus n Pullrequets Ation田 potts\nA ai-app-templates-workshop htu\nAl App Templates Workshop\nThxe guida nill help you ge xared urng our A Aop Femprert yong wah che Arure OoenAl Piory.\nHere xe the sralab'e templates with Ln's to thei guider\nTeriplate Dexription\nA yimple chur app that ust the OpenA Ay o genrale rrpome o uq input\nRAG on PostgreSQL A chui app thur nmntr qutstion uing i RG fow wih OpmA ard a Postgresot drsbaxe.\nSarch RAG with Arure Al A chut app thst nswer quttiors using + RiG how with OperA srd Arure A Search.\nWe recomnrnd going through each templte in ihe order liyted, au they buid in conplerity.\nWorehop nstucton: mtns//ab myaicwdhe2",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1142.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "AI App Templates Workshop\n\nThese guides will help you get started using our AI App Templates along with the Azure OpenAI Proxy.\n\nHere are the available templates with links to their guides:\n\nTemplate | Description\nOpenAI Chat App | A simple chat app that uses the OpenAI API to generate responses to user input.\nRAG on PostgreSQL | A chat app that answers questions using a RAG flow with OpenAI and a PostgreSQL database.\nRAG with Azure AI Search | A chat app that answers questions using a RAG flow with OpenAI and Azure AI Search.\n\nWe recommend going through each template in the order listed, as they build in complexity.\n\nWorkshop instructions: https://aka.ms/ai-workshop",
+        "text_status": "meaningful",
+        "corrections": "OCR was corrected from the slide image; obvious errors fixed and the main slide text transcribed."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-025.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "RAG on database\nOpenAI + PostgreSQL\n\nplz tell me about the best shoes for hiking now\n\nFor the best shoes for hiking, we have a few options available:\n\n1. The Trail Xtreme Hiking Shoes by Raptor Elite are a great choice. These shoes are built to endure any trail with their durable leather upper and rugged rubber sole. They offer excellent traction and protection. They come in a timeless brown color that adds a touch of style to your outdoor adventures. The price for these shoes is $135.99.\n\n2. The TrailTracker Hiking Shoes by AirStrider are another excellent option. These shoes are lightweight and breathable, perfect for long hikes. They feature a rugged rubber sole for excellent traction and stability. The cool grey color with green accents adds a touch of style to your hiking ensemble. The price for these shoes is $89.99.\n\n3. If you're looking for something with a steel-blue color, the Trailblaze Steel-Blue Hiking Shoes by WildRunner might be the right choice for you. These shoes are rugged and durable, with a waterproof membrane and a high-traction sole. They are made for superior grip on any terrain. The breathable upper keeps your feet cool and comfortable, and the reinforced toe cap adds extra protection. These shoes are priced at $129.99.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot with multiple small text regions and code-like output.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "tan UI screenshot with dark top bar",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "RAG on database",
+            "x": 24.0,
+            "y": 2.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "OpenAI + PostgreSQL",
+            "x": 72.0,
+            "y": 2.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "chat panel",
+            "x": 2.0,
+            "y": 16.0,
+            "w": 47.0,
+            "h": 78.0
+          },
+          {
+            "role": "code",
+            "text": "source / prompt / answer panel",
+            "x": 52.0,
+            "y": 16.0,
+            "w": 46.0,
+            "h": 78.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-026.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-026.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657783.0759337,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "RAG on database",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Gonp uo vd\nGchr chut\nptt tel me sbout the bet thost tor hlirg hot. Tt+r++, T+ litatt trxtwn w et+ilsly. I++t +t?+tu+l t+rt f++i,+t + A+++ rh+++ hle tt+ teelleat *4 01 i11 H *1 + * tm* 4 1n b sob 1) U\nTkt'I t+.W\n、\n.++4.\nNe141141*\nk sdli a touo c stle to yiour osdour sotereLltl The pice for itrie Lhott i. For de tet shoe ier Mhhg, e Tmt + ire ogtiors at 1, The lt yaeme Hkng Sort ' by toptor Ehee s+ a geat (hoke. Thee thoel' T?y ele teelr vxton ard proatlan, Thy ce he tmlm brom coior htra stktia. Part4t 1h. aiaia Mta 4 +kr'+ 1+.4 +k+ihta t 4. Wile th tt+l++la (elt. + 1ts?te! O+teter M.mt.ree.'. Y+ ea sy Tt+reu. Ihe ft iatertt tee Cae ee!\nPugtd shd dtrblt, midh + mltproof tb e ard a higaaion icebt 2. The Lh'hsde Hiny Sot I ty AirSude art srodit tethet optor. Thre Lhet ire tghelgh nd tutshelte, pelita tor ieng Tht I?y ithet a hsy'td Ttetl ioit ioe tn tlet utalos i?d iLbry. Ive coe g'y (clo iteh gytt socthh. J&dt a touch cf tty't to your hbrg te+ttle. Ihe prce Ior thst tho+t is Y itt. Hlling Lhott I ty Viaiunrr imight be te right choice iar you. Thnt thot sne I l yeu'e boting ior torediig lith a the tue color, the 'h.elt+ S++t Iu+ r+uawr.Ilus hhe wholslt te rettrere th+ I++++ +r Ia+it+ tlite +t +uilt + ++t+t ++y Iritl. tita t+ri+ t+le le++er +++++ t+4...+a. I..+.!. +l+t araa celor th+t +s & t+a+ +t +tyl+ te ) +4 r++er t+it. It etfe tsell1 trseti+s trd patectieo. Tha+t te*s ca*.!al Ilst +ha Pe+tt te+ratelr. t+t+++ ++y +++t 1h+ ++ +++ +o 1t+$ re. t. t$ay. Tirce..\"tsr 44.\npxN as129 9. srd cetorLtle, ild dt rtelorcea tee Cis sos eara prottlhor, Daye shots s+ Ireitirscher hlhle iaee +y Airitrietv ert woilt te Meeite ey terraie. Ihese tiMwial.] (++l ++t s+t++ tte Is i++c++ L+ +h+++ T++++++ + ra S+++s t+triyt lott tola++ the ++ht ++t o*+rt +itt th4 Ir+ll+la++ St++!-ita+ hlg S++i Iy? $++++ si(.+ +++ + I++ at ++t+ t+ Y+++ ++e ++++. '1 rhetr Ho ie 1alli yktia m yuoiur..Do\nL++'+ ++,+u+ +++h 44 il L+o+ + t yo$l++ +++ + +i'. Tire +ht+tlee. Pe+tet Ier M++.'.e+ie..a T++tie'e + L+ot yor fhl ce+ t4 + ++pa-1rti ien r4t? t+t ++te tte t4 *r1 $t+ ts ey terrala. ta +",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2520.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "RAG on database\nOpenAI + PostgreSQL\n\nplz tell me about the best shoes for hiking now\n\nFor the best shoes for hiking, we have a few options available:\n\n1. The Trail Xtreme Hiking Shoes by Raptor Elite are a great choice. These shoes are built to endure any trail with their durable leather upper and rugged rubber sole. They offer excellent traction and protection. They come in a timeless brown color that adds a touch of style to your outdoor adventures. The price for these shoes is $135.99.\n\n2. The TrailTracker Hiking Shoes by AirStrider are another excellent option. These shoes are lightweight and breathable, perfect for long hikes. They feature a rugged rubber sole for excellent traction and stability. The cool grey color with green accents adds a touch of style to your hiking ensemble. The price for these shoes is $89.99.\n\n3. If you're looking for something with a steel-blue color, the Trailblaze Steel-Blue Hiking Shoes by WildRunner might be the right choice for you. These shoes are rugged and durable, with a waterproof membrane and a high-traction sole. They are made for superior grip on any terrain. The breathable upper keeps your feet cool and comfortable, and the reinforced toe cap adds extra protection. These shoes are priced at $129.99.",
+        "text_status": "meaningful",
+        "corrections": "Accepted the readable slide text and corrected obvious OCR errors; omitted the unreadable code block."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-026.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI App Templates Workshop",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "GitHub repository page with table entries and sidebar metadata is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige GitHub page",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI App Templates Workshop",
+            "x": 3.0,
+            "y": 11.0,
+            "w": 38.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "These guides will help you get started using our AI App Templates along with the Azure OpenAI Proxy.",
+            "x": 3.0,
+            "y": 20.0,
+            "w": 60.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "OpenAI Chat App\nRAG on PostgreSQL\nRAG with Azure AI Search",
+            "x": 3.0,
+            "y": 31.0,
+            "w": 63.0,
+            "h": 29.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-027.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-027.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657641.4528737,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI App Templates Workshop",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-027.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Blog Posts",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Blog index page with multiple article titles is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light beige blog page",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Blog Posts",
+            "x": 20.0,
+            "y": 2.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Using the Aspire Dashboard for Python OpenTelemetry tracing, metrics and logs",
+            "x": 20.0,
+            "y": 15.0,
+            "w": 48.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Working with Chinese, Japanese, and Korean text in Generative AI pipelines",
+            "x": 20.0,
+            "y": 55.0,
+            "w": 56.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-028.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-028.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657641.4533632,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Blog Posts",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-028.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Hybrid Splitters",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense article text and code block are better read by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige article page",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Hybrid Splitters",
+            "x": 5.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "As shown, neither character-based recursive splitters nor token-based splitters are ideal for CJK languages.",
+            "x": 5.0,
+            "y": 28.0,
+            "w": 89.0,
+            "h": 16.0
+          },
+          {
+            "role": "code",
+            "text": "from langchain_text_splitters import RecursiveCharacterTextSplitter",
+            "x": 5.0,
+            "y": 48.0,
+            "w": 60.0,
+            "h": 25.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-029.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-029.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657641.4539216,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Hybrid Splitters",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-029.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Hybrid Splitters",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Zoomed article text and code block are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige article page",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Hybrid Splitters",
+            "x": 1.0,
+            "y": 0,
+            "w": 95.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "As shown, neither character-based recursive splitters nor token-based splitters are ideal for CJK languages.",
+            "x": 2.0,
+            "y": 12.0,
+            "w": 92.0,
+            "h": 16.0
+          },
+          {
+            "role": "code",
+            "text": "from langchain_text_splitters import RecursiveCharacterTextSplitter",
+            "x": 4.0,
+            "y": 28.0,
+            "w": 90.0,
+            "h": 30.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-030.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-030.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657641.4544208,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Hybrid Splitters",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-030.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "GPT + Enterprise data | Sample",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chat UI, citation pane, and embedded source page are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige app UI with black header",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "GPT + Enterprise data | Sample",
+            "x": 4.0,
+            "y": 2.0,
+            "w": 48.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "What Python frameworks does Pamela use?",
+            "x": 24.0,
+            "y": 15.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Citation",
+            "x": 67.0,
+            "y": 16.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "pamela fox's blog",
+            "x": 54.0,
+            "y": 24.0,
+            "w": 25.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-031.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-031.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657641.4549854,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "GPT + Enterprise data | Sample",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-031.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Cloud Advocate in Python @ Microsoft",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Profile page and repository list are OCR-suitable screenshot text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light profile page",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Cloud Advocate in Python @ Microsoft",
+            "x": 15.0,
+            "y": 4.0,
+            "w": 24.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Edit profile\nSponsors dashboard",
+            "x": 15.0,
+            "y": 12.0,
+            "w": 17.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "openai-chat-app-quickstart\nopenai-chat-app-enterprise-auth-local\nazure-openai-demos",
+            "x": 37.0,
+            "y": 11.0,
+            "w": 52.0,
+            "h": 75.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-032.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-032.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657641.455769,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Cloud Advocate in Python @ Microsoft",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-032.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Monitoring with Application Insights",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense webpage-style screenshot with small body text and an embedded dashboard image.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige/cream",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Monitoring with Application Insights",
+            "x": 10.0,
+            "y": 20.0,
+            "w": 46.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Once in the web app:",
+            "x": 10.0,
+            "y": 31.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 18.0,
+            "y": 58.0,
+            "w": 58.0,
+            "h": 28.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-033.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-033.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657730.5816073,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Monitoring with Application Insights",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-033.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Evaluating a RAG Chat App",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code/editor screenshot with a results table and dense small text that is better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige/cream",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Evaluating a RAG Chat App",
+            "x": 16.0,
+            "y": 11.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Using the summary tool",
+            "x": 16.0,
+            "y": 27.0,
+            "w": 26.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "python review_tools summary example_results",
+            "x": 17.0,
+            "y": 49.0,
+            "w": 46.0,
+            "h": 7.0
+          },
+          {
+            "role": "table",
+            "text": "summary.json",
+            "x": 15.0,
+            "y": 68.0,
+            "w": 63.0,
+            "h": 24.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-034.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-034.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657730.5844393,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Evaluating a RAG Chat App",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-034.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Evaluation",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Webpage screenshot with chart and small explanatory text; OCR is more appropriate than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige/cream",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Evaluation",
+            "x": 20.0,
+            "y": 69.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "chart",
+            "text": "",
+            "x": 21.0,
+            "y": 25.0,
+            "w": 58.0,
+            "h": 45.0
+          },
+          {
+            "role": "body",
+            "text": "After each test, check the local or App Service logs to see if there are any errors.",
+            "x": 19.0,
+            "y": 78.0,
+            "w": 60.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-035.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-035.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657730.5864298,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Evaluation",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-035.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Hybrid retrieval with semantic ranking outperforms vector-only search",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Article screenshot with chart, legend, and paragraph text; OCR is suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige/cream",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Hybrid retrieval with semantic ranking outperforms vector-only search",
+            "x": 17.0,
+            "y": 14.0,
+            "w": 47.0,
+            "h": 19.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 13.0,
+            "y": 27.0,
+            "w": 51.0,
+            "h": 41.0
+          },
+          {
+            "role": "caption",
+            "text": "Chart 1.",
+            "x": 10.0,
+            "y": 78.0,
+            "w": 8.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-036.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-036.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657730.5902257,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Hybrid retrieval with semantic ranking outperforms vector-only search",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-036.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "GPT-based metrics and code-based metrics against RAG chat apps.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense article/table screenshot with metric rows and paragraph text that is better suited to OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige/cream",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "GPT-based metrics and code-based metrics against RAG chat apps.",
+            "x": 7.0,
+            "y": 2.0,
+            "w": 77.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Here are the results from evaluations against a synthetically generated data set for a RAG app based on my personal blog posts:",
+            "x": 8.0,
+            "y": 15.0,
+            "w": 84.0,
+            "h": 9.0
+          },
+          {
+            "role": "table",
+            "text": "search mode\ngroundedness\nrelevance\nanswer_length\ncitation_match",
+            "x": 8.0,
+            "y": 31.0,
+            "w": 76.0,
+            "h": 35.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-037.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-037.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657730.5946608,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "GPT-based metrics and code-based metrics against RAG chat apps.",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-037.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Cropped dense table and paragraph text; OCR is needed to recover the full content.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige/cream",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "table",
+            "text": "search mode\ngroundedness\nrelevance\nanswer_length\ncitation_match",
+            "x": 8.0,
+            "y": 29.0,
+            "w": 76.0,
+            "h": 36.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 8.0,
+            "y": 66.0,
+            "w": 84.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-038.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-038.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657730.6001894,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-038.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense article screenshot with text and bullet content; OCR is needed for reliable extraction.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige/cream",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "table",
+            "text": "search mode\ngroundedness\nrelevance\nanswer_length\ncitation_match",
+            "x": 7.0,
+            "y": 13.0,
+            "w": 76.0,
+            "h": 28.0
+          },
+          {
+            "role": "body",
+            "text": "But why do we see vector search and ranker-less hybrid search scoring so remarkably low?",
+            "x": 8.0,
+            "y": 58.0,
+            "w": 77.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-039.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-039.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657730.6057792,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-039.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Welcome to Apache Lucene",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Webpage screenshot with multiple text regions and sidebar content; OCR is more appropriate than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige/cream",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Welcome to Apache Lucene",
+            "x": 13.0,
+            "y": 21.0,
+            "w": 35.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "The Apache Lucene project develops open-source search software.",
+            "x": 13.0,
+            "y": 32.0,
+            "w": 45.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "Solr",
+            "x": 16.0,
+            "y": 56.0,
+            "w": 7.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-040.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-040.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657730.6087499,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Welcome to Apache Lucene",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-040.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Okapi BM25 - Wikipedia",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense browser/search-results screenshot with small text and multiple panels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm beige browser page",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Okapi BM25 - Wikipedia",
+            "x": 8.0,
+            "y": 5.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Explore further",
+            "x": 8.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Explore more",
+            "x": 54.0,
+            "y": 12.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Related searches",
+            "x": 53.0,
+            "y": 42.0,
+            "w": 20.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-041.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-041.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657948.4121194,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Okapi BM25 - Wikipedia",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-041.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Metric computed with vector retrieval only (no Semantic ranking).",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense article screenshot with a paragraph and table; OCR is better than manual transcription here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm beige article page",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Metric computed with vector retrieval only (no Semantic ranking).",
+            "x": 6.0,
+            "y": 8.0,
+            "w": 60.0,
+            "h": 6.0
+          },
+          {
+            "role": "table",
+            "text": "Retrieval Configuration | Recall@50\n512 input tokens per vector | 42.4\n1024 input tokens per vector | 37.5\n4096 input tokens per vector | 36.4\n8191 input tokens per vector | 34.9",
+            "x": 6.0,
+            "y": 38.0,
+            "w": 34.0,
+            "h": 38.0
+          },
+          {
+            "role": "caption",
+            "text": "Table 4: Recall@50 comparison of different chunk sizes with Ada-002 embedding model",
+            "x": 7.0,
+            "y": 86.0,
+            "w": 60.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-042.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-042.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657948.4130776,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Metric computed with vector retrieval only (no Semantic ranking).",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-042.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-pane demo/code screenshot with small labels, terminal output, and editor text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "split light beige and dark charcoal UI",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Evaluating a RAG Chat App",
+            "x": 43.0,
+            "y": 1.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Using the compare tool",
+            "x": 43.0,
+            "y": 7.0,
+            "w": 22.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "What are the two codebases that power Coursera's user-facing experience and what are their functions?",
+            "x": 39.0,
+            "y": 15.0,
+            "w": 55.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "baseline",
+            "x": 39.0,
+            "y": 57.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "r_vectors_no_ranker",
+            "x": 73.0,
+            "y": 57.0,
+            "w": 20.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Next question",
+            "x": 58.0,
+            "y": 82.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Quit",
+            "x": 75.0,
+            "y": 82.0,
+            "w": 7.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-043.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-043.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657948.4137585,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-043.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense IDE and chat screenshot with code, tabs, and small UI labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige IDE and chat pane",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "GitHub Copilot",
+            "x": 6.0,
+            "y": 4.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Fix the problems in my code",
+            "x": 5.0,
+            "y": 55.0,
+            "w": 26.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Lets add unit tests for my code",
+            "x": 5.0,
+            "y": 61.0,
+            "w": 28.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Explain how the selected code works",
+            "x": 5.0,
+            "y": 67.0,
+            "w": 30.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "test_evaluate_metrics.py",
+            "x": 46.0,
+            "y": 2.0,
+            "w": 18.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-044.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-044.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657948.41451,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-044.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense IDE and chat screenshot with explanatory text and code on screen.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige IDE and chat pane",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Compare the tests",
+            "x": 6.0,
+            "y": 4.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "The three tests test_latency, test_custom_relevance, and test_custom_coherence share a similar structure but test different metrics.",
+            "x": 5.0,
+            "y": 12.0,
+            "w": 43.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "1. Initialization\n2. Evaluation Function Check\n3. Data Preparation\n4. Metric Evaluation",
+            "x": 5.0,
+            "y": 31.0,
+            "w": 30.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "test_evaluate_metrics.py",
+            "x": 46.0,
+            "y": 2.0,
+            "w": 18.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-045.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-045.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657948.4154105,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-045.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense benchmark/documentation screenshot with small text and code-like markup.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige editor with code panel",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How are benchmarks being run?",
+            "x": 4.0,
+            "y": 1.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Benchmarks in this workspace are run using a script that evaluates the performance of a chat application.",
+            "x": 4.0,
+            "y": 31.0,
+            "w": 42.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "python -m scripts evaluate --config=example_config.json",
+            "x": 4.0,
+            "y": 70.0,
+            "w": 41.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "The example_config.json should contain minimum fields including",
+            "x": 4.0,
+            "y": 80.0,
+            "w": 43.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-046.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-046.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657948.4160476,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-046.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Azure AI Inference client library for Python",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense package page screenshot with sidebar navigation, descriptive text, and links.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white webpage with pale beige sidebar",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Azure AI Inference client library for Python",
+            "x": 30.0,
+            "y": 16.0,
+            "w": 40.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Navigation",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Project description",
+            "x": 4.0,
+            "y": 19.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Maintainers",
+            "x": 4.0,
+            "y": 58.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "microsoft",
+            "x": 4.0,
+            "y": 65.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Authenticate against the service\nGet information about the model\nDo chat completions\nGet text embeddings",
+            "x": 30.0,
+            "y": 49.0,
+            "w": 36.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "Product documentation | Samples | API reference documentation | Package (PyPI) | SDK source code",
+            "x": 30.0,
+            "y": 90.0,
+            "w": 62.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-047.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-047.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657948.4166732,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Azure AI Inference client library for Python",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-047.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Azure AI Inference client library for Python",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense package page screenshot with sidebar navigation, descriptive text, and links.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white webpage with pale beige sidebar",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Azure AI Inference client library for Python",
+            "x": 31.0,
+            "y": 15.0,
+            "w": 40.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Navigation",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Project description",
+            "x": 4.0,
+            "y": 19.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Maintainers",
+            "x": 4.0,
+            "y": 58.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "microsoft",
+            "x": 4.0,
+            "y": 65.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Authenticate against the service\nGet information about the model\nDo chat completions\nGet text embeddings",
+            "x": 31.0,
+            "y": 49.0,
+            "w": 36.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "With some minor adjustments, this client library can also be configured to do inference for Azure OpenAI",
+            "x": 30.0,
+            "y": 88.0,
+            "w": 64.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-048.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-048.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657948.4175987,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Azure AI Inference client library for Python",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-048.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Azure AI Inference client library for Python",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product/UI screenshot with many small text regions; OCR will be better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f2ddc6",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Azure AI Inference client library for Python",
+            "x": 31.0,
+            "y": 4.0,
+            "w": 52.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "The client Library (in preview) does inference, including chat completions, for AI models deployed by Azure AI Studio and Azure Machine Learning Studio.",
+            "x": 31.0,
+            "y": 13.0,
+            "w": 58.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "Use the model inference client library to:",
+            "x": 31.0,
+            "y": 35.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "• Authenticate against the service • Get information about the model • Do chat completions • Get text embeddings",
+            "x": 33.0,
+            "y": 42.0,
+            "w": 43.0,
+            "h": 17.0
+          },
+          {
+            "role": "body",
+            "text": "With some minor adjustments, this client library can also be configured to do inference for Azure OpenAI endpoints.",
+            "x": 31.0,
+            "y": 61.0,
+            "w": 57.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "See samples with azure_openai in their name, in the samples folder.",
+            "x": 31.0,
+            "y": 70.0,
+            "w": 53.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Project description • Release history • Download files • Verified details • Maintainers • microsoft",
+            "x": 7.0,
+            "y": 4.0,
+            "w": 22.0,
+            "h": 44.0
+          },
+          {
+            "role": "body",
+            "text": "Product documentation | Samples | API reference documentation | Package (PyPI) | SDK source code",
+            "x": 31.0,
+            "y": 79.0,
+            "w": 56.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-049.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-049.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657988.586118,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Azure AI Inference client library for Python",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-049.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense terminal/CLI help output with small text; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f0dfc2",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Manage your application environments. With this command group, you can create a new environment or get, set, and list your application environments.",
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "• An application can have multiple environments (ex: dev, test, prod). • Each environment may have a different configuration (that is, connectivity information) for accessing Azure resources. • You can find all environment configuration under the .azure/<environment-name> folder. • The environment name is stored as the AZURE_ENV_NAME environment variable in the .azure/<environment-name>/.env file.",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 98.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "Usage",
+            "x": 0,
+            "y": 30.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "azd env [command]",
+            "x": 0,
+            "y": 35.0,
+            "w": 22.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Available Commands",
+            "x": 0,
+            "y": 40.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "get-values • list • new • refresh • select • set",
+            "x": 1.0,
+            "y": 44.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Flags • --docs • -h, --help",
+            "x": 0,
+            "y": 58.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Global Flags • -C, --cwd string • --debug • --no-prompt",
+            "x": 0,
+            "y": 66.0,
+            "w": 34.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-050.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/1t-9-s1brcg/slide-050.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657988.5872672,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/1t-9-s1brcg/slide-050.html"
+    }
+  ],
+  "rejected": []
+}

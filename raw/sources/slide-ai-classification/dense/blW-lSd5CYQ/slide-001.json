@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "How does intelligence emerge in markets?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cyan with a black left sidebar",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 3.0,
+        "y": 22.0,
+        "w": 10.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "How does intelligence emerge in markets?",
+        "x": 26.0,
+        "y": 10.0,
+        "w": 28.0,
+        "h": 42.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft aws smol ai",
+        "x": 37.0,
+        "y": 82.0,
+        "w": 50.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/blW-lSd5CYQ/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666531.385915,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "How does intelligence emerge in markets?",
+  "advanced_ocr": {}
+}

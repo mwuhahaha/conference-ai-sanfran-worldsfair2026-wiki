@@ -1,0 +1,104 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-panel diagram with code and UI text is better suited to OCR extraction than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "radial-gradient(#11331c, #050505)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "",
+        "x": 6.0,
+        "y": 22.0,
+        "w": 38.0,
+        "h": 32.0
+      },
+      {
+        "role": "caption",
+        "text": "model writes meaning",
+        "x": 10.0,
+        "y": 18.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "browser",
+        "x": 46.0,
+        "y": 34.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "→",
+        "x": 47.0,
+        "y": 39.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Q3 Results",
+        "x": 55.0,
+        "y": 21.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "charts",
+        "x": 30.0,
+        "y": 69.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "layouts",
+        "x": 41.0,
+        "y": 69.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "the model never places a coordinate.",
+        "x": 26.0,
+        "y": 77.0,
+        "w": 43.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "And you can get all sorts of visual effects, charts and layouts,",
+        "x": 23.0,
+        "y": 84.0,
+        "w": 55.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/JRTAtZ5iBkU/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659960.087647,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

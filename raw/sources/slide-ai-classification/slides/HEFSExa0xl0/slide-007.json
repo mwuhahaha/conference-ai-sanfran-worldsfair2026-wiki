@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Code mode vs. REPL\n\nCode mode — the agent writes scripts instead of making tool calls. Operations compose naturally. 50-line scripts are common.\n\nREPL = code mode + persistent state — variables survive across calls. The agent writes shorter scripts, reasons between them, builds understanding incrementally.\n\n// Code mode: one long script, print everything at the end\n// REPL: explore, reason, continue\nconst revenue = await xlsx.findCells(wb, \"Revenue\", { context: 1 });\nconsole.log(revenue);\n// agent reasons about the output, then writes the next script\n\nResult: accuracy gain on harder tasks — the agent can course-correct mid-exploration.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense explanatory text plus inline code snippet; OCR will be more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark green on black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Code mode vs. REPL",
+        "x": 30.0,
+        "y": 6.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Code mode - the agent writes scripts instead of making tool calls. Operations compose naturally. 50-line scripts are common.",
+        "x": 30.0,
+        "y": 20.0,
+        "w": 60.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "REPL = code mode + persistent state - variables survive across calls. The agent writes shorter scripts, reasons between them, builds understanding incrementally.",
+        "x": 30.0,
+        "y": 40.0,
+        "w": 63.0,
+        "h": 20.0
+      },
+      {
+        "role": "code",
+        "text": "const revenue = await xlsx.findCells(wb, \"Revenue\", { context: 1 });",
+        "x": 30.0,
+        "y": 63.0,
+        "w": 52.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Result: accuracy gain on harder tasks - the agent can course-correct mid-exploration.",
+        "x": 30.0,
+        "y": 84.0,
+        "w": 64.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/HEFSExa0xl0/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659652.8888988,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Code mode vs. REPL",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/contrast",
+    "text": "Code mode vs.REPL\nCode mode -- the agent writes scripts instead of making tool ca\nnaturally. 50-line scripts are common.\nAIE scripts, reasons between them, builds understanding incremen REPL = code mode + persistent state - variables survive acro\nconst revenue= await xlsx.findcells(wb,\"Reyenue, {c X REpLAexplore, reasony continue Code mode: one loog script,pxint everything at the\nconsole.log(revenue):\n+ agent xeasons about the output: then wzites the ne\nResult: accuracy gain on harder tasks —- the agent can course-c\nAlErgetet",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 814.4
+  },
+  "ocr_source": "rapidocr-live/left-72/contrast",
+  "ocr_reconcile": {
+    "text": "Code mode vs. REPL\n\nCode mode — the agent writes scripts instead of making tool calls. Operations compose naturally. 50-line scripts are common.\n\nREPL = code mode + persistent state — variables survive across calls. The agent writes shorter scripts, reasons between them, builds understanding incrementally.\n\n// Code mode: one long script, print everything at the end\n// REPL: explore, reason, continue\nconst revenue = await xlsx.findCells(wb, \"Revenue\", { context: 1 });\nconsole.log(revenue);\n// agent reasons about the output, then writes the next script\n\nResult: accuracy gain on harder tasks — the agent can course-correct mid-exploration.",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for title, punctuation, and clearly legible code/text; kept only text visible in the slide."
+  }
+}

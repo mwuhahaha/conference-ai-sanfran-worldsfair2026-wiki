@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "First benchmark with full-stack CUA-verified tasks\nCUA verifier grades Slack clone SWE-MARATHON\nA computer-usc agent drives the Ul hikc arcal user CiaudeOpus 47·ClaudeCodc",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Contains a large embedded UI screenshot with smaller text that OCR should handle better than hand transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f6f0e6",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "First benchmark with full-stack CUA-verified tasks",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 87.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "SWE-MARATHON\nCUA verifier grades Slack clone\nA computer-use agent drives the UI like a real user\nClaude Opus 4.7 · Claude Code",
+        "x": 21.0,
+        "y": 26.0,
+        "w": 59.0,
+        "h": 48.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/Rx8f05JI_WA/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662761.933985,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "First benchmark with full-stack CUA-verified tasks\nCUA verifier grades Slack clone SWE-MARATHON\nA computer-usc agent drives the Ul hikc arcal user CiaudeOpus 47·ClaudeCodc",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 295.04
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "First benchmark with full-stack CUA-verified tasks\nCUA verifier grades Slack clone SWE-MARATHON\nA computer-usc agent drives the Ul hikc arcal user CiaudeOpus 47·ClaudeCodc",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

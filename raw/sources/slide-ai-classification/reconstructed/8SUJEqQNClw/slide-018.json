@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agent supervisor\nSupervisor\n\nconst researchAgent = new Agent({\n  name: 'research-agent',\n  instructions: 'You are a research agent that analyzes',\n  model: openai('gpt-4'),\n});\n\nconst summaryAgent = new Agent({\n  name: 'summary-agent',\n  instructions: 'You are a summary agent.',\n  model: openai('gpt-4'),\n});\n\nconst researchTool = createTool({\n  id: 'research',\n  execute: async ({ inputData }) => {\n    const result = await researchAgent.generate(inputData.query);\n    return { text: result.text };\n  },\n});\n\nconst summaryTool = createTool({\n  id: 'summarize',\n  execute: async ({ inputData }) => {\n    const result = await summaryAgent.generate(inputData.text);\n    return { text: result.text };\n  },\n});\n\nexport const supervisorAgent = new Agent({\n  name: 'supervisor-agent',\n  instructions: 'You are a supervisor agent that coordinates research and summarization tasks.',\n  model: openai('gpt-4'),\n  tools: [researchTool, summaryTool],\n});\n\naws\nWorld's Fair",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code-heavy slide is better handled by OCR; only the title is captured here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with subtle concentric ripple texture",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Agent supervisor",
+        "x": 24.0,
+        "y": 7.0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Supervisor",
+        "x": 34.0,
+        "y": 15.0,
+        "w": 15.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-018.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658650.7232707,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Agent supervisor",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Agent supervisor const researchAgent new Agent({ nane:'research-agent'. instrocttons:You are a research agent that analyzes\nAIE Supervisor const researchTool=createToolf const sumaryAgent=new Agent({ nase:'sumary-agent' sodel: openai(gpt-4). execute:asyoc (fnputData})o（ id:research' Unstructions:You are a suaary agent. return ttext: resutt.text）; const result= aait researchAgent.geoerate(inputpota.query);\nconst suaryTootcreateToot{ execute:.async( inputData }）{ id1'sumarize', const result * await suanaryAgent.generate(inputoato.text); retun text: result.text:\nexport const supervisorAgent= new Agent( nodel:openai(gpt-4'), 1ua6e-sos1AJadns:acu tools:[researchTool,summaryTool], instructlons:You are a supervisor agent that coordinates ETCA research and sunaarization tasks. hose toole\naws\nWorid's Fair",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 947.51
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Agent supervisor\nSupervisor\n\nconst researchAgent = new Agent({\n  name: 'research-agent',\n  instructions: 'You are a research agent that analyzes',\n  model: openai('gpt-4'),\n});\n\nconst summaryAgent = new Agent({\n  name: 'summary-agent',\n  instructions: 'You are a summary agent.',\n  model: openai('gpt-4'),\n});\n\nconst researchTool = createTool({\n  id: 'research',\n  execute: async ({ inputData }) => {\n    const result = await researchAgent.generate(inputData.query);\n    return { text: result.text };\n  },\n});\n\nconst summaryTool = createTool({\n  id: 'summarize',\n  execute: async ({ inputData }) => {\n    const result = await summaryAgent.generate(inputData.text);\n    return { text: result.text };\n  },\n});\n\nexport const supervisorAgent = new Agent({\n  name: 'supervisor-agent',\n  instructions: 'You are a supervisor agent that coordinates research and summarization tasks.',\n  model: openai('gpt-4'),\n  tools: [researchTool, summaryTool],\n});\n\naws\nWorld's Fair",
+    "text_status": "meaningful",
+    "corrections": "Accepted the clear title and visible code labels; corrected obvious OCR errors like misspellings and punctuation, but left partially unreadable code text minimal rather than inventing missing lines."
+  }
+}

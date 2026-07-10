@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Google Al Studio:v: EPlayground\npuno6d 3\nx Bula. >\n@ Dnshboard\n: Documonbaton:. >:\n田\nVolco\n: 0:00 / 0:08 xond\nW'hat do you think of rry out'h? Media resolulon 258 tokens/ wmage\nHDGY Thinvng kere!\n0:00 / 0:09 BuuI 0N\n*.\nWal now, you'ro lookin' vary smart so you arot That greon acket su'ts you woa, I must say. A grand casual look. Y'ere you th'nkin' of hesdin' out somewhere? Sesron Cortut\nQ Searth O vhat's naw. O Coogt L noot itry mule mhLhui, to douchtchdk cutput. Sream Is ive Dtrannta Yools Furction catng Ean.\no Get APi koy QSrtingi thorsten.schaefeo...:Start typlng I prompt 丨：B Toous Grounding with Googte Search Automatc Function Rosponse",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product UI screenshot with many small labels and embedded media panes; OCR can capture it more reliably.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f4ecd7",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Google AI Studio",
+        "x": 5.0,
+        "y": 3.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Playground",
+        "x": 26.0,
+        "y": 3.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "What do you think of my outfit?",
+        "x": 24.0,
+        "y": 44.0,
+        "w": 28.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Voice",
+        "x": 74.0,
+        "y": 40.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Function calling",
+        "x": 74.0,
+        "y": 71.0,
+        "w": 15.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667269.945219,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Google AI Studio\nPlayground",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Google Al Studio:v: EPlayground\npuno6d 3\nx Bula. >\n@ Dnshboard\n: Documonbaton:. >:\n田\nVolco\n: 0:00 / 0:08 xond\nW'hat do you think of rry out'h? Media resolulon 258 tokens/ wmage\nHDGY Thinvng kere!\n0:00 / 0:09 BuuI 0N\n*.\nWal now, you'ro lookin' vary smart so you arot That greon acket su'ts you woa, I must say. A grand casual look. Y'ere you th'nkin' of hesdin' out somewhere? Sesron Cortut\nQ Searth O vhat's naw. O Coogt L noot itry mule mhLhui, to douchtchdk cutput. Sream Is ive Dtrannta Yools Furction catng Ean.\no Get APi koy QSrtingi thorsten.schaefeo...:Start typlng I prompt 丨：B Toous Grounding with Googte Search Automatc Function Rosponse",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1029.28
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Google Al Studio:v: EPlayground\npuno6d 3\nx Bula. >\n@ Dnshboard\n: Documonbaton:. >:\n田\nVolco\n: 0:00 / 0:08 xond\nW'hat do you think of rry out'h? Media resolulon 258 tokens/ wmage\nHDGY Thinvng kere!\n0:00 / 0:09 BuuI 0N\n*.\nWal now, you'ro lookin' vary smart so you arot That greon acket su'ts you woa, I must say. A grand casual look. Y'ere you th'nkin' of hesdin' out somewhere? Sesron Cortut\nQ Searth O vhat's naw. O Coogt L noot itry mule mhLhui, to douchtchdk cutput. Sream Is ive Dtrannta Yools Furction catng Ean.\no Get APi koy QSrtingi thorsten.schaefeo...:Start typlng I prompt 丨：B Toous Grounding with Googte Search Automatc Function Rosponse",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

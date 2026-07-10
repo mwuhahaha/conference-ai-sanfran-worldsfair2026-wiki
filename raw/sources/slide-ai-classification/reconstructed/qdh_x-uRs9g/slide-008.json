@@ -1,0 +1,202 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "WHYITMATTERSFORYOURAGENTS\nTaxonomy classification 10K categories Shopify product catalogue text + images A production story for tool calling Manages what goes INTO context, Context management\nAIE title+image Product sio.extract() sie.encode() NU dosicoton emnbedrot- WSOL Electronics Computers,Laptops Tool calling Embeddings:reranking,extraction\nsie.score() roronkcordoates\nSwitching model type = changing one parameter, not rebuilding infra \"Why not just Opus 4.6?\" Works until context rot kills quality\nEngineering the future of Al\nAl Enginecr",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram, small labels, and multiple text panels",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "WHY IT MATTERS FOR YOUR AGENTS",
+        "x": 52.0,
+        "y": 2.0,
+        "w": 33.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "A production story for tool calling",
+        "x": 30.0,
+        "y": 8.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Taxonomy classification",
+        "x": 30.0,
+        "y": 15.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "subtitle",
+        "text": "10K categories Shopify product catalogue text + images",
+        "x": 30.0,
+        "y": 19.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "label",
+        "text": "Product",
+        "x": 30.0,
+        "y": 34.0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "title + image",
+        "x": 30.0,
+        "y": 40.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "code",
+        "text": "sie.extract()",
+        "x": 43.0,
+        "y": 25.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "sie.encode()",
+        "x": 43.0,
+        "y": 36.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "sie.score()",
+        "x": 43.0,
+        "y": 47.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "NLP classification",
+        "x": 57.0,
+        "y": 27.0,
+        "w": 13.0,
+        "h": 4.0
+      },
+      {
+        "role": "label",
+        "text": "embed text + images",
+        "x": 57.0,
+        "y": 38.0,
+        "w": 13.0,
+        "h": 4.0
+      },
+      {
+        "role": "label",
+        "text": "rerank candidates",
+        "x": 57.0,
+        "y": 49.0,
+        "w": 13.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Electronics > Computers > Laptops",
+        "x": 61.0,
+        "y": 33.0,
+        "w": 14.0,
+        "h": 13.0
+      },
+      {
+        "role": "caption",
+        "text": "Switching model type = changing one parameter, not rebuilding infra",
+        "x": 31.0,
+        "y": 68.0,
+        "w": 42.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "Context management",
+        "x": 74.0,
+        "y": 9.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Manages what goes INTO context,",
+        "x": 74.0,
+        "y": 15.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Tool calling",
+        "x": 74.0,
+        "y": 30.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Embeddings, reranking, extraction",
+        "x": 74.0,
+        "y": 36.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "\"Why not just Opus 4.6?\"",
+        "x": 74.0,
+        "y": 50.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Works until context rot kills quality",
+        "x": 74.0,
+        "y": 57.0,
+        "w": 24.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-008.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671245.5368636,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "WHYITMATTERSFORYOURAGENTS\nTaxonomy classification 10K categories Shopify product catalogue text + images A production story for tool calling Manages what goes INTO context, Context management\nAIE title+image Product sio.extract() sie.encode() NU dosicoton emnbedrot- WSOL Electronics Computers,Laptops Tool calling Embeddings:reranking,extraction\nsie.score() roronkcordoates\nSwitching model type = changing one parameter, not rebuilding infra \"Why not just Opus 4.6?\" Works until context rot kills quality\nEngineering the future of Al\nAl Enginecr",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 764.36
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "WHYITMATTERSFORYOURAGENTS\nTaxonomy classification 10K categories Shopify product catalogue text + images A production story for tool calling Manages what goes INTO context, Context management\nAIE title+image Product sio.extract() sie.encode() NU dosicoton emnbedrot- WSOL Electronics Computers,Laptops Tool calling Embeddings:reranking,extraction\nsie.score() roronkcordoates\nSwitching model type = changing one parameter, not rebuilding infra \"Why not just Opus 4.6?\" Works until context rot kills quality\nEngineering the future of Al\nAl Enginecr",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

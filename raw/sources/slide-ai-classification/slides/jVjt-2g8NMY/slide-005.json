@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Together, they form one graph of the work done.\nSesslonA SesslonC APIV2\nSession graph SessionB ad550\nAll theconversations and\ndecisionsabout thework.\nRepo graph ecos\nHardcode artifactsproducedby\nyourorg. auth-Bo sepol api-core\nrepo3\ntokens e00?\nsessionfolowssession repo dependsonrepo\nThis is what the agent should see.\nPredoas",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#050505",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Together, they form one graph of the work done.",
+        "x": 3.0,
+        "y": 3.0,
+        "w": 46.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Session graph",
+        "x": 5.0,
+        "y": 43.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "All the conversations and decisions about the work.",
+        "x": 5.0,
+        "y": 51.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Repo graph",
+        "x": 5.0,
+        "y": 66.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Hard code artifacts produced by your org.",
+        "x": 5.0,
+        "y": 74.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "This is what the agent should see.",
+        "x": 4.0,
+        "y": 88.0,
+        "w": 35.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669375.7819936,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Together, they form one graph of the work done.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Together, they form one graph of the work done.\nSesslonA SesslonC APIV2\nSession graph SessionB ad550\nAll theconversations and\ndecisionsabout thework.\nRepo graph ecos\nHardcode artifactsproducedby\nyourorg. auth-Bo sepol api-core\nrepo3\ntokens e00?\nsessionfolowssession repo dependsonrepo\nThis is what the agent should see.\nPredoas",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 555.28
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Together, they form one graph of the work done.\nSesslonA SesslonC APIV2\nSession graph SessionB ad550\nAll theconversations and\ndecisionsabout thework.\nRepo graph ecos\nHardcode artifactsproducedby\nyourorg. auth-Bo sepol api-core\nrepo3\ntokens e00?\nsessionfolowssession repo dependsonrepo\nThis is what the agent should see.\nPredoas",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

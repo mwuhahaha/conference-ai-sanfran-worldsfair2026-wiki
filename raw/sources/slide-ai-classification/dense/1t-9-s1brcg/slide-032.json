@@ -1,0 +1,50 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Cloud Advocate in Python @ Microsoft\nEdit profile\nSponsors dashboard\n2.3k followers · 0 following\n\nSponsoring\nAchievements\nHighlights",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Profile and table screenshot with many small labels and rows.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Cloud Advocate in Python @ Microsoft",
+        "x": 13.0,
+        "y": 7.0,
+        "w": 30.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-032.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-032.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658361.0001318,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "ogenu-chut-age-guckitat OpA,Ount\nCloud Advocae n Python Micronoft A2.3tw.0wng Sponooes dashboag tstprosle sowns-chul-teciere. 9c-0. VSAL COeALfISA OAONtOnT-Sessen Aes Cach tor RedCoanrApps CoetaerAeeyCocanerRegoy AOe,EeAe An Oeen,Miorokoft Eat,Ctaine\nenicrosoft C #S7TC-0:00) Htoswwpareaoorg Xeoameox Pepenelxgtowtodon.og pihon-cger-enyy Hueseva Lefes tun-poilgmt-sgecter wga-on-snn CperN Acue OpenA! PetgreSoLFecble Sene Contarer Aeo.PostOres Feble Sener\nSponscring Q003 Fs,ApFLk,gunicom fu,gnkero Contaer App,Coniner Rgy CDN CortnerAoo,CotarRey.CON\nFak.gunicom.SouAkhemy. Coetsnet Aoo,Container Rery hwtres Fee Senwetiey Vt\nigie.lack-api-coetsne F Conter Aeo,Connr Rgy\ncoetaner Flsx Coetawer Aoos,Coniner Regy\nFatAAytumps, Opeleeoeory From,CON\nsnole-antp-contaner Cortanet hoos\ntaitap.aue.Ancton-apim FatAPN Functons,AP1Maragmeet\ntntapiorwuelnctong FatAS functem\nFarscm Turclions\nHighights AN AppService,PousGes Fle Servet Va",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1199.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Cloud Advocate in Python @ Microsoft\nEdit profile\nSponsors dashboard\n2.3k followers · 0 following\n\nSponsoring\nAchievements\nHighlights",
+    "text_status": "meaningful",
+    "corrections": "Accepted the visible profile heading and sidebar labels; omitted unreadable repository rows and corrected obvious OCR noise."
+  }
+}

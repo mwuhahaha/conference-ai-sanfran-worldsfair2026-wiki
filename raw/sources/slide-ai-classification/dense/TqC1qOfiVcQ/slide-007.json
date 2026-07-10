@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Without Bash With Bash\nUser: How much did I spend on ride sharing User: How much did I spend on ride sharing\nthis week? this week?\nTool Call (Gmail Query Search) query: \"uber OR lyft\" \"uber OR lyft\" Tool Call (Bash)::gmail_search.ts query\nmention Uber and Lyft, I need to find the Thinking:I found the following emails that Tool Call (Bash):\nClaude: The total is... (hallucinated) cost ofeachemail. newer_than:7d\"1 gmail_search.ts \"from:(uber.com OR lyft.com OR uber OR lyft) subject:(receipt OR trip) grep-0E\\$[0-9]+1.[0-9]{2}′1\\ awk(sum +=s1} END {printf “Total spenton sed's/\\s//'I\\\nride sharing this week: ss.2f\\n\",sum}",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense comparative slide with small code and multiple text boxes; OCR is better than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#b86f55",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Without Bash",
+        "x": 4.0,
+        "y": 6.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "With Bash",
+        "x": 53.0,
+        "y": 6.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "User: How much did I spend on ride sharing this week?",
+        "x": 6.0,
+        "y": 17.0,
+        "w": 39.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Tool Call (Gmail Query Search) query: \"uber OR lyft\"",
+        "x": 6.0,
+        "y": 31.0,
+        "w": 39.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Thinking: I found the following emails that mention Uber and Lyft, I need to find the cost of each email.",
+        "x": 6.0,
+        "y": 48.0,
+        "w": 39.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "Claude: The total is... (hallucinated)",
+        "x": 6.0,
+        "y": 78.0,
+        "w": 39.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "User: How much did I spend on ride sharing this week?",
+        "x": 56.0,
+        "y": 17.0,
+        "w": 38.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Tool Call (Bash): `gmail_search.ts query \"uber OR lyft\"`",
+        "x": 56.0,
+        "y": 31.0,
+        "w": 38.0,
+        "h": 14.0
+      },
+      {
+        "role": "code",
+        "text": "gmail_search.ts \"from:(uber.com OR lyft.com OR uber OR lyft) subject:(receipt OR trip) newer_than:7d | grep -oE '$[0-9]+\\.[0-9]{2}' | sed 's/^$//' | \\ awk '{sum += $1} END {printf \"Total spent on ride sharing this week: $%.2f\\n\", sum}'",
+        "x": 56.0,
+        "y": 48.0,
+        "w": 38.0,
+        "h": 35.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664494.6308985,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Without Bash With Bash\nUser: How much did I spend on ride sharing User: How much did I spend on ride sharing\nthis week? this week?\nTool Call (Gmail Query Search) query: \"uber OR lyft\" \"uber OR lyft\" Tool Call (Bash)::gmail_search.ts query\nmention Uber and Lyft, I need to find the Thinking:I found the following emails that Tool Call (Bash):\nClaude: The total is... (hallucinated) cost ofeachemail. newer_than:7d\"1 gmail_search.ts \"from:(uber.com OR lyft.com OR uber OR lyft) subject:(receipt OR trip) grep-0E\\$[0-9]+1.[0-9]{2}′1\\ awk(sum +=s1} END {printf “Total spenton sed's/\\s//'I\\\nride sharing this week: ss.2f\\n\",sum}",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 915.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Without Bash With Bash\nUser: How much did I spend on ride sharing User: How much did I spend on ride sharing\nthis week? this week?\nTool Call (Gmail Query Search) query: \"uber OR lyft\" \"uber OR lyft\" Tool Call (Bash)::gmail_search.ts query\nmention Uber and Lyft, I need to find the Thinking:I found the following emails that Tool Call (Bash):\nClaude: The total is... (hallucinated) cost ofeachemail. newer_than:7d\"1 gmail_search.ts \"from:(uber.com OR lyft.com OR uber OR lyft) subject:(receipt OR trip) grep-0E\\$[0-9]+1.[0-9]{2}′1\\ awk(sum +=s1} END {printf “Total spenton sed's/\\s//'I\\\nride sharing this week: ss.2f\\n\",sum}",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

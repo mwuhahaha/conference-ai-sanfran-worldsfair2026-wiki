@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What This Prototype Does Not Yet Prove\n1. Results are based on synthetic benchmark scenarios\n2. The agent is failure-triggered, not a pre-failure predictor\n3. Production incident diversity may exceed the current state space\n4. Some remediation actions remain simulated or bounded\n5. Online learning requires strict operational approval gates\nThis demonstrates feasibility and system design, not production completeness.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray speckled paper texture",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What This Prototype Does Not Yet Prove",
+        "x": 10.0,
+        "y": 5.0,
+        "w": 72.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1. Results are based on synthetic benchmark scenarios\n2. The agent is failure-triggered, not a pre-failure predictor\n3. Production incident diversity may exceed the current state space\n4. Some remediation actions remain simulated or bounded\n5. Online learning requires strict operational approval gates",
+        "x": 15.0,
+        "y": 14.0,
+        "w": 70.0,
+        "h": 35.0
+      },
+      {
+        "role": "caption",
+        "text": "This demonstrates feasibility and system design, not production completeness.",
+        "x": 37.0,
+        "y": 87.0,
+        "w": 51.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "Current Limitations",
+        "x": 3.0,
+        "y": 80.0,
+        "w": 24.0,
+        "h": 17.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661488.977126,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What This Prototype Does Not Yet Prove\n1. Results are based on synthetic benchmark scenarios\n2. The agent is failure-triggered, not a pre-failure predictor\n3. Production incident diversity may exceed the current state space\n4. Some remediation actions remain simulated or bounded\n5. Online learning requires strict operational approval gates\nThis demonstrates feasibility and system design, not production completeness.",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Same Agent. Smaller Bill.\nCache the System Prompt\nRoute by Difficulty\nOffload Big Tool Results\nCap Your Tool Loops\nTrim the History",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Readable recap slide with large headings; OCR is not necessary for triage.",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "deep navy",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "RECAP // FIVE FIXES",
+        "x": 3.0,
+        "y": 10.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Same Agent. Smaller Bill.",
+        "x": 3.0,
+        "y": 14.0,
+        "w": 55.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "01 Cache the System Prompt",
+        "x": 4.0,
+        "y": 32.0,
+        "w": 60.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "02 Route by Difficulty",
+        "x": 4.0,
+        "y": 43.0,
+        "w": 60.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "03 Offload Big Tool Results",
+        "x": 4.0,
+        "y": 54.0,
+        "w": 60.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "04 Cap Your Tool Loops",
+        "x": 4.0,
+        "y": 65.0,
+        "w": 60.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "05 Trim the History",
+        "x": 4.0,
+        "y": 76.0,
+        "w": 60.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/uiP88SpCi1Q/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672126.6960979,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Same Agent. Smaller Bill.\nCache the System Prompt\nRoute by Difficulty\nOffload Big Tool Results\nCap Your Tool Loops\nTrim the History",
+  "advanced_ocr": {}
+}

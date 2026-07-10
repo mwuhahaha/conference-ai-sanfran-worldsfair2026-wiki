@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Booking.com (2025)\nBruno Passos, Group Product Manager, Developer Experience\nLaura Tacho, CTO, DX",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Booking.com (2025)",
+        "x": 24.0,
+        "y": 0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Bruno Passos, Group Product Manager, Developer Experience",
+        "x": 24.0,
+        "y": 11.0,
+        "w": 36.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "Laura Tacho, CTO, DX",
+        "x": 24.0,
+        "y": 36.0,
+        "w": 24.0,
+        "h": 16.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 60.0,
+        "y": 4.0,
+        "w": 39.0,
+        "h": 82.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/7Dtu2bilcFs/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658120.85684,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Booking.com (2025)\nBruno Passos, Group Product Manager, Developer Experience\nLaura Tacho, CTO, DX",
+  "advanced_ocr": {}
+}

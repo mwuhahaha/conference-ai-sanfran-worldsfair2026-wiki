@@ -16,11 +16,21 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/BZtD0yYAgCQ/slide-001.jpg]]
 
-- Source scene image: `frame-00002.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `175.95`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/BZtD0yYAgCQ/slide-001.html)
+- AI slide classifier: `other` confidence `0.93`
+- Text source: none.
+- OCR decision: ready — Dense product UI screenshots and small headings are better handled by OCR than manual transcription in this triage pass.
+- Slide text: not surfaced (`illegible` by AI classifier).
 ![[assets/dense-slides/BZtD0yYAgCQ/slide-002.jpg]]
 
-- Source scene image: `frame-00034.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `178.14`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/BZtD0yYAgCQ/slide-002.html)
+- AI slide classifier: `other` confidence `0.97`
+- Text source: agent_vision.
+
+Slide text:
+
+> “…generative AI systems are grown more than they are built—their internal mechanisms are “emergent” rather than directly designed.”
+> Dario Amodei
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/BZtD0yYAgCQ/audit.json`

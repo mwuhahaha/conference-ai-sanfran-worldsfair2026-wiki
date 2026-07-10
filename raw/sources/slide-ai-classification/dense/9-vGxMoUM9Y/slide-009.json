@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.92,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What Guardrails AI does\nGuardrails AI is a fully open source library that offers\nFramework for creating custom validators\nOrchestration of prompting → verification → re-prompting\nLibrary of commonly used validators for multiple use cases\nSpecification language for communicating requirements to LLM",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black stage with white slide",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What Guardrails AI does",
+        "x": 18.0,
+        "y": 3.0,
+        "w": 36.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Guardrails AI is a fully open source library that offers",
+        "x": 19.0,
+        "y": 23.0,
+        "w": 53.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Framework for creating custom validators",
+        "x": 20.0,
+        "y": 35.0,
+        "w": 52.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Orchestration of prompting → verification → re-prompting",
+        "x": 20.0,
+        "y": 47.0,
+        "w": 61.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Library of commonly used validators for multiple use cases",
+        "x": 20.0,
+        "y": 59.0,
+        "w": 64.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Specification language for communicating requirements to LLM",
+        "x": 20.0,
+        "y": 71.0,
+        "w": 68.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "Guardrails AI",
+        "x": 19.0,
+        "y": 90.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/9-vGxMoUM9Y/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658699.4039562,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What Guardrails AI does\nGuardrails AI is a fully open source library that offers\nFramework for creating custom validators\nOrchestration of prompting → verification → re-prompting\nLibrary of commonly used validators for multiple use cases\nSpecification language for communicating requirements to LLM",
+  "advanced_ocr": {}
+}

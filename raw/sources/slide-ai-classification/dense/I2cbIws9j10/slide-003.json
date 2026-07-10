@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Intelligence Layer",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Stacked diagram labels are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "pale gray with faint binary pattern",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Deterministic Anomaly Rules\nSchema drift, null spikes, field removals, type changes",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 52.0,
+        "h": 27.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Q-Learning Decision Policy\nRetry, coerce schema, rollback, quarantine, escalate, log",
+        "x": 4.0,
+        "y": 35.0,
+        "w": 52.0,
+        "h": 27.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Safety Override\nCritical anomaly + passive action → escalate",
+        "x": 4.0,
+        "y": 66.0,
+        "w": 52.0,
+        "h": 22.0
+      },
+      {
+        "role": "title",
+        "text": "The Intelligence Layer",
+        "x": 62.0,
+        "y": 58.0,
+        "w": 34.0,
+        "h": 30.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/I2cbIws9j10/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659795.4152505,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Intelligence Layer",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

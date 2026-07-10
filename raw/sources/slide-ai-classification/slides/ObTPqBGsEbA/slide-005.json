@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Evaluation First\nDefine success with numbers\nBuild test cases from real data\nWire automated grading",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "deep navy left panel and white right panel",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "PILLAR 01",
+        "x": 28.0,
+        "y": 4.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Evaluation First",
+        "x": 27.0,
+        "y": 11.0,
+        "w": 24.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Your eval suite is your specification. Without it, you're guessing.",
+        "x": 27.0,
+        "y": 31.0,
+        "w": 25.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "1\nDefine success with numbers",
+        "x": 52.0,
+        "y": 12.0,
+        "w": 18.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "2\nBuild test cases from real data",
+        "x": 52.0,
+        "y": 33.0,
+        "w": 18.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "3\nWire automated grading",
+        "x": 52.0,
+        "y": 53.0,
+        "w": 18.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/ObTPqBGsEbA/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662690.315979,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Evaluation First\nDefine success with numbers\nBuild test cases from real data\nWire automated grading",
+  "advanced_ocr": {}
+}

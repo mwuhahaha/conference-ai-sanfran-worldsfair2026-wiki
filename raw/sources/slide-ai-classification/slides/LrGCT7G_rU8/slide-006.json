@@ -1,0 +1,154 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RL Selects the Response, Not the Facts\nState: Action:.\nretry [coerce] rollback quarantine oscalato [log]\n1.Failure category\n4.Drift severity 3.Retry count 2.Risk level 2.Small, interpretable statespace: 3.Low-memory.inference: 1. Tabular Q-learning\n5.Data-quality condition 4.Inspectable Q-values for every decision\nTeChNICALlY, ThIS IS a SInGLE-StEp CONTexTUAL DECISIoN prOBLem IMPlEmENTeD WiTH TaBULaR Q-LeaRnInG.:\n-:-",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Two-column state/action slide with small text and a footnote is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(180deg,#eceef0,#f2f3f4)",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "RL Selects the Response, Not the Facts",
+        "x": 18.0,
+        "y": 5.0,
+        "w": 60.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "State:",
+        "x": 18.0,
+        "y": 28.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "1. Failure category",
+        "x": 14.0,
+        "y": 40.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "2. Risk level",
+        "x": 14.0,
+        "y": 48.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "3. Retry count",
+        "x": 14.0,
+        "y": 56.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "4. Drift severity",
+        "x": 14.0,
+        "y": 64.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "5. Data-quality condition",
+        "x": 14.0,
+        "y": 72.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Action:",
+        "x": 66.0,
+        "y": 29.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "retry • coerce • rollback • quarantine • escalate • log",
+        "x": 47.0,
+        "y": 40.0,
+        "w": 43.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "1. Tabular Q-learning",
+        "x": 49.0,
+        "y": 57.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "2. Small, interpretable state space",
+        "x": 49.0,
+        "y": 65.0,
+        "w": 32.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "3. Low-memory inference",
+        "x": 49.0,
+        "y": 73.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "4. Inspectable Q-values for every decision",
+        "x": 49.0,
+        "y": 81.0,
+        "w": 37.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "TECHNICALLY, THIS IS A SINGLE-STEP CONTEXTUAL DECISION PROBLEM IMPLEMENTED WITH TABULAR Q-LEARNING.",
+        "x": 24.0,
+        "y": 94.0,
+        "w": 52.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661115.6606054,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "RL Selects the Response, Not the Facts\nState: Action:.\nretry [coerce] rollback quarantine oscalato [log]\n1.Failure category\n4.Drift severity 3.Retry count 2.Risk level 2.Small, interpretable statespace: 3.Low-memory.inference: 1. Tabular Q-learning\n5.Data-quality condition 4.Inspectable Q-values for every decision\nTeChNICALlY, ThIS IS a SInGLE-StEp CONTexTUAL DECISIoN prOBLem IMPlEmENTeD WiTH TaBULaR Q-LeaRnInG.:\n-:-",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 580.48
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "RL Selects the Response, Not the Facts\nState: Action:.\nretry [coerce] rollback quarantine oscalato [log]\n1.Failure category\n4.Drift severity 3.Retry count 2.Risk level 2.Small, interpretable statespace: 3.Low-memory.inference: 1. Tabular Q-learning\n5.Data-quality condition 4.Inspectable Q-values for every decision\nTeChNICALlY, ThIS IS a SInGLE-StEp CONTexTUAL DECISIoN prOBLem IMPlEmENTeD WiTH TaBULaR Q-LeaRnInG.:\n-:-",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why does open-source matter?\nAbsolute control over models\nCost reduction in multipliers\nFurther customize, shrink models depending on your needs\nGuaranteed privacy for the end-user, enable on-device/in-browser uses, data doesn’t go to another server",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#9ad36f",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why does open-source matter?",
+        "x": 36.0,
+        "y": 2.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Absolute control over models\nCost reduction in multipliers\nFurther customize, shrink models depending on your needs\nGuaranteed privacy for the end-user, enable on-device/in-browser uses, data doesn’t go to another server",
+        "x": 31.0,
+        "y": 18.0,
+        "w": 58.0,
+        "h": 50.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661743.220946,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why does open-source matter?\nAbsolute control over models\nCost reduction in multipliers\nFurther customize, shrink models depending on your needs\nGuaranteed privacy for the end-user, enable on-device/in-browser uses, data doesn’t go to another server",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Observability\nWhat is happening in my application? Can I root cause down into the problem?\n\nEvaluation\nHow well is the AI product that I've built, actually performing according my criteria?\n\nExperimentation & Improvement\nThe ultimate goal of observability and evaluation is to know where to iterate\nand know where to improve the system",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with multiple boxed text regions and smaller body copy that is better suited for OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with a black left sidebar and black lower band",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 16.0,
+        "h": 20.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Observability\nWhat is happening in my application? Can I root cause down into the problem?",
+        "x": 31.0,
+        "y": 5.0,
+        "w": 31.0,
+        "h": 28.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Evaluation\nHow well is the AI product that I’ve built, actually performing according my criteria?",
+        "x": 31.0,
+        "y": 52.0,
+        "w": 31.0,
+        "h": 28.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Experimentation & Improvement\nThe ultimate goal of observability and evaluation is to know where to iterate and know where to improve the system",
+        "x": 73.0,
+        "y": 17.0,
+        "w": 25.0,
+        "h": 34.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/JsCCrBF7F1g/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660095.502991,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "I root cause down into the problem? What is happening in my application? Can Observability Experimentation &\nAIE The ultimate goal of observability and evaluation Improvement\nis to know where to iterate\nand know where to improve\nEvaluation the system\nactually performing according my How well is the Al product that I've built, criteria?\n^arize\nAI Engineer\nEngineer EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 560.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Observability\nWhat is happening in my application? Can I root cause down into the problem?\n\nEvaluation\nHow well is the AI product that I've built, actually performing according my criteria?\n\nExperimentation & Improvement\nThe ultimate goal of observability and evaluation is to know where to iterate\nand know where to improve the system",
+    "text_status": "meaningful",
+    "corrections": "OCR lightly corrected from the image; fixed obvious errors like \"Al\" to \"AI\" and kept only the clearly visible slide text."
+  }
+}

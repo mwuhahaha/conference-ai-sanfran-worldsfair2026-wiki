@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "@6\nC2 (m nMrmo O 田\nQowH\nppo1-pncy dutcription\nreaoe show.'l, Red, Glcb, Grtp, Ls, Tmt Ershigz atf.7, Boshtgh tatur1, Bsthgk bg-1, Bsshigk show.1, Bauxot Corgiere a tocurty revien ot the perding changrs\nB\nRrriew the corghle drt sbove, Thi's conlars Mi cede chunges in de PR\nDotenas, Th's hs not a gthera code revina tocus ONY on soourty inoicationn nemy sodtd by ths Pe, Do rot conmant cn eisdng Eeourty corcerra. CBJECTrve: Perlorn a socurty-iooused code rn'ew to koentty HKH CONFioENCE securty Yanerbres tt coud he res eplozioon\nCATCAL INSTAUCTONS:\n2. Ayoo Noise: Sxp theorecca ssues, stye concens, er low-tmoxct rrdngs. MrivizE FAlsE POsrTMes: Oety nhg bsues where youre >Box conrdent of scted eapkrscuty A. Focus Ot mpAcT: Prorhr+ Turesbhaes thst coud lad to unuthorred socess, dra brtchm, or synen coeepr L ExcluSoNs: Do NoT report the fclow'no ssue typet9\nSecrets or senstre data stared on dhsk (uhese are handled by othot oroctsets)\nITY: HYPE VS. REALITY THE STATE OF AI\nAMAR FRIEDMAN / Co-Founder & CEO opob",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code/prompt screenshot text is best recovered with OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "anthropics / claude-code-security-review / claude / comments / security-review.md",
+        "x": 25.0,
+        "y": 8.0,
+        "w": 52.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "allowed-tools",
+        "x": 38.0,
+        "y": 19.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "description",
+        "x": 73.0,
+        "y": 19.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "You are a senior security engineer conducting a focused security review of the changes on this branch.",
+        "x": 34.0,
+        "y": 36.0,
+        "w": 48.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/reconstructed-slides/rgjF5o2Qjsc/slide-003.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671628.2105575,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/opencv-adaptive",
+    "text": "@6\nC2 (m nMrmo O 田\nQowH\nppo1-pncy dutcription\nreaoe show.'l, Red, Glcb, Grtp, Ls, Tmt Ershigz atf.7, Boshtgh tatur1, Bsthgk bg-1, Bsshigk show.1, Bauxot Corgiere a tocurty revien ot the perding changrs\nB\nRrriew the corghle drt sbove, Thi's conlars Mi cede chunges in de PR\nDotenas, Th's hs not a gthera code revina tocus ONY on soourty inoicationn nemy sodtd by ths Pe, Do rot conmant cn eisdng Eeourty corcerra. CBJECTrve: Perlorn a socurty-iooused code rn'ew to koentty HKH CONFioENCE securty Yanerbres tt coud he res eplozioon\nCATCAL INSTAUCTONS:\n2. Ayoo Noise: Sxp theorecca ssues, stye concens, er low-tmoxct rrdngs. MrivizE FAlsE POsrTMes: Oety nhg bsues where youre >Box conrdent of scted eapkrscuty A. Focus Ot mpAcT: Prorhr+ Turesbhaes thst coud lad to unuthorred socess, dra brtchm, or synen coeepr L ExcluSoNs: Do NoT report the fclow'no ssue typet9\nSecrets or senstre data stared on dhsk (uhese are handled by othot oroctsets)\nITY: HYPE VS. REALITY THE STATE OF AI\nAMAR FRIEDMAN / Co-Founder & CEO opob",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1566.56
+  },
+  "ocr_source": "rapidocr-live/right-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "@6\nC2 (m nMrmo O 田\nQowH\nppo1-pncy dutcription\nreaoe show.'l, Red, Glcb, Grtp, Ls, Tmt Ershigz atf.7, Boshtgh tatur1, Bsthgk bg-1, Bsshigk show.1, Bauxot Corgiere a tocurty revien ot the perding changrs\nB\nRrriew the corghle drt sbove, Thi's conlars Mi cede chunges in de PR\nDotenas, Th's hs not a gthera code revina tocus ONY on soourty inoicationn nemy sodtd by ths Pe, Do rot conmant cn eisdng Eeourty corcerra. CBJECTrve: Perlorn a socurty-iooused code rn'ew to koentty HKH CONFioENCE securty Yanerbres tt coud he res eplozioon\nCATCAL INSTAUCTONS:\n2. Ayoo Noise: Sxp theorecca ssues, stye concens, er low-tmoxct rrdngs. MrivizE FAlsE POsrTMes: Oety nhg bsues where youre >Box conrdent of scted eapkrscuty A. Focus Ot mpAcT: Prorhr+ Turesbhaes thst coud lad to unuthorred socess, dra brtchm, or synen coeepr L ExcluSoNs: Do NoT report the fclow'no ssue typet9\nSecrets or senstre data stared on dhsk (uhese are handled by othot oroctsets)\nITY: HYPE VS. REALITY THE STATE OF AI\nAMAR FRIEDMAN / Co-Founder & CEO opob",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

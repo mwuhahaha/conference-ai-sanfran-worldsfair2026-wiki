@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "The Problems with Building AI Agents\n...and how to solve them partially,\nwith other agents",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "large title slide",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark purple/blue gradient with dotted wave",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Problems with\nBuilding AI Agents",
+        "x": 9.0,
+        "y": 20.0,
+        "w": 53.0,
+        "h": 28.0
+      },
+      {
+        "role": "subtitle",
+        "text": "...and how to solve them partially,\nwith other agents",
+        "x": 9.0,
+        "y": 60.0,
+        "w": 48.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666210.2648163,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Problems with Building AI Agents\n...and how to solve them partially,\nwith other agents",
+  "advanced_ocr": {}
+}

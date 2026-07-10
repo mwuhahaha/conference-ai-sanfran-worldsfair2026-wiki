@@ -1,0 +1,132 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why do we need orchestration?\nWhy can't today's agents one-shot large tasks?\nAgent Problems\nLimited context window\nLaziness\nLack of domain knowledge\nCompounding errors\nHuman Problems\nCan't convey intuition\nDifficulty decomposing tasks\nNeed intermediate reviews/check-ins\nAmbiguous definition of done",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f4ecdf",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why do we need orchestration?",
+        "x": 22.0,
+        "y": 13.0,
+        "w": 48.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Why can't today's agents one-shot large tasks?",
+        "x": 22.0,
+        "y": 25.0,
+        "w": 42.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Agent Problems",
+        "x": 22.0,
+        "y": 34.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Limited context window",
+        "x": 25.0,
+        "y": 39.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Laziness",
+        "x": 25.0,
+        "y": 44.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Lack of domain knowledge",
+        "x": 25.0,
+        "y": 49.0,
+        "w": 26.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Compounding errors",
+        "x": 25.0,
+        "y": 55.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Human Problems",
+        "x": 22.0,
+        "y": 62.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Can't convey intuition",
+        "x": 25.0,
+        "y": 67.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Difficulty decomposing tasks",
+        "x": 25.0,
+        "y": 72.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Need intermediate reviews/check-ins",
+        "x": 25.0,
+        "y": 77.0,
+        "w": 34.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Ambiguous definition of done",
+        "x": 25.0,
+        "y": 82.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "YOU ONLY GET ONE SHOT",
+        "x": 64.0,
+        "y": 43.0,
+        "w": 22.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671360.211078,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why do we need orchestration?\nWhy can't today's agents one-shot large tasks?\nAgent Problems\nLimited context window\nLaziness\nLack of domain knowledge\nCompounding errors\nHuman Problems\nCan't convey intuition\nDifficulty decomposing tasks\nNeed intermediate reviews/check-ins\nAmbiguous definition of done",
+  "advanced_ocr": {}
+}

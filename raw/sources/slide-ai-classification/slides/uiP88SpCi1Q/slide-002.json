@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "FIX 01 Cache the System Prompt\n000 agent = Agent( model=BedrockModel( model_id=\"claude-sonnet\" cache prompt-+default\". # cache static prefix\nSystem-prompt=BIG-SYSTEM PROMPT\n04 0 86",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code slide with dense small text; OCR is better suited than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "deep navy",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Cache the System Prompt",
+        "x": 8.0,
+        "y": 14.0,
+        "w": 54.0,
+        "h": 12.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 8.0,
+        "y": 29.0,
+        "w": 63.0,
+        "h": 31.0
+      },
+      {
+        "role": "caption",
+        "text": "",
+        "x": 79.0,
+        "y": 63.0,
+        "w": 20.0,
+        "h": 28.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/uiP88SpCi1Q/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672095.8053842,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Cache the System Prompt",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "FIX 01 Cache the System Prompt\n000 agent = Agent( model=BedrockModel( model_id=\"claude-sonnet\" cache prompt-+default\". # cache static prefix\nSystem-prompt=BIG-SYSTEM PROMPT\n04 0 86",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 269.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "FIX 01 Cache the System Prompt\n000 agent = Agent( model=BedrockModel( model_id=\"claude-sonnet\" cache prompt-+default\". # cache static prefix\nSystem-prompt=BIG-SYSTEM PROMPT\n04 0 86",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

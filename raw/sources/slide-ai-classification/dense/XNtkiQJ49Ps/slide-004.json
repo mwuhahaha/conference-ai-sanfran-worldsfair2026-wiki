@@ -1,0 +1,124 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Involving humans where it matters\nControl\nHow effectively a human can steer the work\nTrust\nHow little a human reviews the work",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with dark footer bar",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Involving humans where it matters",
+        "x": 24.0,
+        "y": 6.0,
+        "w": 28.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Control",
+        "x": 24.0,
+        "y": 28.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "How effectively a human can steer the work",
+        "x": 24.0,
+        "y": 34.0,
+        "w": 38.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Trust",
+        "x": 24.0,
+        "y": 44.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "How little a human reviews the work",
+        "x": 24.0,
+        "y": 50.0,
+        "w": 35.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Zone of Control",
+        "x": 73.0,
+        "y": 25.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Zone of Trust",
+        "x": 73.0,
+        "y": 43.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Verifying",
+        "x": 68.0,
+        "y": 21.0,
+        "w": 5.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Solving",
+        "x": 74.0,
+        "y": 76.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Easy",
+        "x": 69.0,
+        "y": 80.0,
+        "w": 4.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Hard",
+        "x": 89.0,
+        "y": 80.0,
+        "w": 4.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Engineering the future of AI",
+        "x": 35.0,
+        "y": 81.0,
+        "w": 42.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/XNtkiQJ49Ps/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665137.092141,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Involving humans where it matters\nControl\nHow effectively a human can steer the work\nTrust\nHow little a human reviews the work",
+  "advanced_ocr": {}
+}

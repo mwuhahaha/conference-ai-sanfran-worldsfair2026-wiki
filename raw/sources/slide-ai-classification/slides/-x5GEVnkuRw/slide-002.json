@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "We've got a lot to cover today!\nWait, so 85% of the world's data is... unstructured?!",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple, large text; OCR not needed.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#ffffff",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "We've got a lot to cover today!",
+        "x": 31.0,
+        "y": 6.0,
+        "w": 38.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "PDF",
+        "x": 3.0,
+        "y": 22.0,
+        "w": 7.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "Wait, so 85% of the world's data is... unstructured?!",
+        "x": 4.0,
+        "y": 59.0,
+        "w": 20.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655418.6003015,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "We've got a lot to cover today!\nWait, so 85% of the world's data is... unstructured?!",
+  "advanced_ocr": {}
+}

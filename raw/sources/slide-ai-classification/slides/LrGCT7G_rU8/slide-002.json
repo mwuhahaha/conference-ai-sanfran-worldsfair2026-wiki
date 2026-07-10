@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Failure Inspect Logs Diagnose Repair Rerun Validate\nLate or unavailable source data\nThe 日日日 Schema drift\nProblem Null-rate spikes Datetime parsing incompatibilities\nCloud ETL jobs break because of:\nType changes\nUnknown runtime errors\nModeled manual MTTR ~ 2.5 working days",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-item slide with smaller body text and icon labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3efe8",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Failure → Inspect Logs → Diagnose → Repair → Rerun → Validate",
+        "x": 35.0,
+        "y": 3.0,
+        "w": 59.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "The Problem",
+        "x": 11.0,
+        "y": 18.0,
+        "w": 28.0,
+        "h": 30.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Cloud ETL jobs break because of:",
+        "x": 10.0,
+        "y": 55.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Late or unavailable source data",
+        "x": 52.0,
+        "y": 10.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Schema drift",
+        "x": 52.0,
+        "y": 24.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Datetime parsing incompatibilities",
+        "x": 52.0,
+        "y": 38.0,
+        "w": 39.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Null-rate spikes",
+        "x": 52.0,
+        "y": 51.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Type changes",
+        "x": 52.0,
+        "y": 64.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Unknown runtime errors",
+        "x": 52.0,
+        "y": 77.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Modeled manual MTTR ~ 2.5 working days",
+        "x": 52.0,
+        "y": 90.0,
+        "w": 40.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660919.5837748,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "The Problem",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Failure Inspect Logs Diagnose Repair Rerun Validate\nLate or unavailable source data\nThe 日日日 Schema drift\nProblem Null-rate spikes Datetime parsing incompatibilities\nCloud ETL jobs break because of:\nType changes\nUnknown runtime errors\nModeled manual MTTR ~ 2.5 working days",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 474.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Failure Inspect Logs Diagnose Repair Rerun Validate\nLate or unavailable source data\nThe 日日日 Schema drift\nProblem Null-rate spikes Datetime parsing incompatibilities\nCloud ETL jobs break because of:\nType changes\nUnknown runtime errors\nModeled manual MTTR ~ 2.5 working days",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "D\nc Dashbordi Googke A Studo APl-Schlussel B Ap·Kurznetung\nAPt:Schbusset Profektai.: Gruppiren rach Projokt:ofeld oy pto ltl:\nNurung Schlise Projekt Erstellt' Abrichnurgsstute\nRxanbtgrmrung\nAusgabon\n:Abretchnung\n. Prolokolle Lnd Dslasett:\nK royooidsbunapuy\nSie konnen itre APl Schhlsse hler nlcht finden?:\n:Coogit AL mudo ilapurett tuider. imporltltn slt thdte Pld'tit, In dHtts Lte wer don nut APtSchtbsce tor Profetut srgazeg, dle h' Ohae ehnn rhvin APi-Schplit eruteote. Wedhre kfomtonn Cn dit Zgthox LhTschlaLe ne tnteterL Sle torrh auch.\nPrafeita hmporteren\nQ' Sosrch\"\n:e Ger Api key 'o whal's new\no Settngt",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with many small labels and controls.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cream with dark browser chrome",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Google AI Studio",
+        "x": 7.0,
+        "y": 4.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "API-Schlüssel",
+        "x": 24.0,
+        "y": 6.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 7.0,
+        "y": 13.0,
+        "w": 86.0,
+        "h": 79.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666791.040576,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "API-Schlüssel",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "D\nc Dashbordi Googke A Studo APl-Schlussel B Ap·Kurznetung\nAPt:Schbusset Profektai.: Gruppiren rach Projokt:ofeld oy pto ltl:\nNurung Schlise Projekt Erstellt' Abrichnurgsstute\nRxanbtgrmrung\nAusgabon\n:Abretchnung\n. Prolokolle Lnd Dslasett:\nK royooidsbunapuy\nSie konnen itre APl Schhlsse hler nlcht finden?:\n:Coogit AL mudo ilapurett tuider. imporltltn slt thdte Pld'tit, In dHtts Lte wer don nut APtSchtbsce tor Profetut srgazeg, dle h' Ohae ehnn rhvin APi-Schplit eruteote. Wedhre kfomtonn Cn dit Zgthox LhTschlaLe ne tnteterL Sle torrh auch.\nPrafeita hmporteren\nQ' Sosrch\"\n:e Ger Api key 'o whal's new\no Settngt",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 967.64
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "D\nc Dashbordi Googke A Studo APl-Schlussel B Ap·Kurznetung\nAPt:Schbusset Profektai.: Gruppiren rach Projokt:ofeld oy pto ltl:\nNurung Schlise Projekt Erstellt' Abrichnurgsstute\nRxanbtgrmrung\nAusgabon\n:Abretchnung\n. Prolokolle Lnd Dslasett:\nK royooidsbunapuy\nSie konnen itre APl Schhlsse hler nlcht finden?:\n:Coogit AL mudo ilapurett tuider. imporltltn slt thdte Pld'tit, In dHtts Lte wer don nut APtSchtbsce tor Profetut srgazeg, dle h' Ohae ehnn rhvin APi-Schplit eruteote. Wedhre kfomtonn Cn dit Zgthox LhTschlaLe ne tnteterL Sle torrh auch.\nPrafeita hmporteren\nQ' Sosrch\"\n:e Ger Api key 'o whal's new\no Settngt",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

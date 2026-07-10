@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code editor plus terminal logs with small syntax and runtime output; OCR is appropriate for this dense screen capture.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#efe7d6",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "chat.py",
+        "x": 0,
+        "y": 5.0,
+        "w": 18.0,
+        "h": 90.0
+      },
+      {
+        "role": "code",
+        "text": "@bp.post(\"/chat/stream\")",
+        "x": 20.0,
+        "y": 8.0,
+        "w": 45.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "Running on http://127.0.0.1:50505",
+        "x": 20.0,
+        "y": 54.0,
+        "w": 45.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "POST /chat/stream",
+        "x": 20.0,
+        "y": 76.0,
+        "w": 24.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-022.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-022.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657514.9103122,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Most of today’s tooling breaks\nthe moment you remove the\nhuman from the loop.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large, simple quote slide; direct read is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Most of today’s tooling breaks the moment you remove the human from the loop.",
+        "x": 24.0,
+        "y": 11.0,
+        "w": 47.0,
+        "h": 28.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 62.0,
+        "y": 82.0,
+        "w": 11.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/reconstructed-slides/e9sLVMN76qU/slide-003.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667331.4449031,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Most of today’s tooling breaks\nthe moment you remove the\nhuman from the loop.",
+  "advanced_ocr": {}
+}

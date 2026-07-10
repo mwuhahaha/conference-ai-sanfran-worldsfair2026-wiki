@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "dgg tk.y sra 19 29 日日 2t 14 det Loae Artey frasenefile sat_sotetvl) L441 *4164x firaL1d\nmd 23 ty ai_kty-es.gten\n-oUTLIN 2.Finiy qT READMEmd y op Botmd gtge WLne 13 34 35 31 2 60 《1 K2. <3 5 ) $9 54 Tet te R y w the files odpeint Valiate e ey i loeo ftaL_ky1 tryi eetepet.ecgt et tnae respoaeregest-ttfrt,Maere etr eed rle eltr\"4 iFe.resose.stat_codeel else! ralse xalotrrerf ra YsluttrrrA ratsetrorr RsTTrrr aset PLeet Taolef te valssete Adt te Chel mieuy Dxtla(+(3tr[e)2*) (strlel))\ns1 51 def pet_hae_rli)!\n3I71\n19 returs\n2025-11-2209:57:30",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code editor screenshot with small source text and file tree; OCR is the right capture method.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "env.py",
+        "x": 1.0,
+        "y": 12.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "get_api_key()",
+        "x": 28.0,
+        "y": 24.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "MANUS_API_KEY",
+        "x": 30.0,
+        "y": 36.0,
+        "w": 20.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672980.019217,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "dgg tk.y sra 19 29 日日 2t 14 det Loae Artey frasenefile sat_sotetvl) L441 *4164x firaL1d\nmd 23 ty ai_kty-es.gten\n-oUTLIN 2.Finiy qT READMEmd y op Botmd gtge WLne 13 34 35 31 2 60 《1 K2. <3 5 ) $9 54 Tet te R y w the files odpeint Valiate e ey i loeo ftaL_ky1 tryi eetepet.ecgt et tnae respoaeregest-ttfrt,Maere etr eed rle eltr\"4 iFe.resose.stat_codeel else! ralse xalotrrerf ra YsluttrrrA ratsetrorr RsTTrrr aset PLeet Taolef te valssete Adt te Chel mieuy Dxtla(+(3tr[e)2*) (strlel))\ns1 51 def pet_hae_rli)!\n3I71\n19 returs\n2025-11-2209:57:30",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 694.64
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "dgg tk.y sra 19 29 日日 2t 14 det Loae Artey frasenefile sat_sotetvl) L441 *4164x firaL1d\nmd 23 ty ai_kty-es.gten\n-oUTLIN 2.Finiy qT READMEmd y op Botmd gtge WLne 13 34 35 31 2 60 《1 K2. <3 5 ) $9 54 Tet te R y w the files odpeint Valiate e ey i loeo ftaL_ky1 tryi eetepet.ecgt et tnae respoaeregest-ttfrt,Maere etr eed rle eltr\"4 iFe.resose.stat_codeel else! ralse xalotrrerf ra YsluttrrrA ratsetrorr RsTTrrr aset PLeet Taolef te valssete Adt te Chel mieuy Dxtla(+(3tr[e)2*) (strlel))\ns1 51 def pet_hae_rli)!\n3I71\n19 returs\n2025-11-2209:57:30",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

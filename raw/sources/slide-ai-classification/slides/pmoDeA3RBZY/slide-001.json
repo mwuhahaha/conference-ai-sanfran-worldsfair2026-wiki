@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Dark Factories: OpenClaw Ships Faster Than You Can Read the Diff\nVincent Koc (@vincent_koc)\nOpenClaw",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title card with large readable text; no dense body text to OCR.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(#101010 0 70%, #ece7df 70% 100%)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Dark Factories: OpenClaw Ships Faster Than You Can Read the Diff",
+        "x": 26.0,
+        "y": 37.0,
+        "w": 43.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Vincent Koc (@vincent_koc)",
+        "x": 26.0,
+        "y": 61.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "OpenClaw",
+        "x": 26.0,
+        "y": 69.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 39.0,
+        "y": 83.0,
+        "w": 24.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/pmoDeA3RBZY/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670672.4614422,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Dark Factories: OpenClaw Ships Faster Than You Can Read the Diff\nVincent Koc (@vincent_koc)\nOpenClaw",
+  "advanced_ocr": {}
+}

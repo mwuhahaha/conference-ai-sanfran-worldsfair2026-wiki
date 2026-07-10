@@ -1,0 +1,52 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.93,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Stage photo with speaker and auditorium view; the projected screen is visible but this is not a clean slide frame.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a standalone slide frame; OCR would mix projected content with stage elements.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "dark stage with purple lighting and white projection screen",
+    "style": "other",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 8.0,
+        "y": 19.0,
+        "w": 13.0,
+        "h": 21.0
+      },
+      {
+        "role": "code",
+        "text": "const TASK =",
+        "x": 32.0,
+        "y": 8.0,
+        "w": 60.0,
+        "h": 60.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 50.0,
+        "y": 83.0,
+        "w": 44.0,
+        "h": 13.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/C_GG5g38vLU/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658668.3528197,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense embedded social post screenshot with small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "tweet screenshot with frog image",
+        "x": 16.0,
+        "y": 2.0,
+        "w": 69.0,
+        "h": 55.0
+      },
+      {
+        "role": "logo",
+        "text": "Luma",
+        "x": 86.0,
+        "y": 82.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 78.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol.ai",
+        "x": 73.0,
+        "y": 78.0,
+        "w": 14.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/reconstructed-slides/EY4O9M6AsWI/slide-004.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658816.5161164,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

@@ -19,63 +19,65 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/JRTAtZ5iBkU/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
 
-> AMOL · CEO, NORI AGENTIC
+Slide text:
+
 > Hi — I’m Amol.
 > We deploy an AI employee that understands your company,
 
 ![[assets/slides/JRTAtZ5iBkU/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> 25 min |
-> + 24« faster
-> you remove all the formatting and the branding and the moving things around.
+Slide text:
+
+> THE REAL COST
+> THE SAME DECK
+> 10 hrs
+> 25 min
+> ↓ 24× faster
 
 ![[assets/slides/JRTAtZ5iBkU/slide-003.jpg]]
 
-OCR text:
-
-> PK![Content_Types].xml
-> OKGgoAAAANSUhEUgAAA1QAAAHOCAYAAABp8m+XAAAACXBIWXMAAAsTAAALEwEAmpwY
-> <a:solidFill><a:srgbClr val="2EAθ43"/></a:solidFilL>
-> <p:txBody><a:bodyPr wrap="square"rtLCol="0"/><a:p><a:r>
-> iVBORwOKGgoAAAANSUhEUgAABAAAAAJYCAYAAACMrem209FBgAgAELEQVR4Xu3d
-> <a:xfrmrot="0"><a:0ff x="0"y="0"><a:ext cx="12192000"cy="6858000">
-> <a:gradFill><a:gsLst><a:gs pos="0"><a:srgbclr val="40c463"/>
-> xnf\x82\x9d\xe11x00\x10JFIF\x00\x01\x01\x00\x00H1x00H\x00\x00\xff\xdb
-> <p:cNvPr id="2"name="Title1"/><p:cNvSpPr><a:spLocks/>
-> <a:prstDash val="dash"><a:miterLim="80000θ"/></a:Ln></a:spPr>
-> eJzNvVmTI0mS0/aoqpm7A4hjj6zsq3p6Znq6e3pmt2dn9pHk0iqutoqQ8mWnp
-> proprietary format·only the app can readit
-> butit'sinaformatthatonlytheapplicationcanread.
-
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: none.
+- OCR decision: ready — Dense code/proprietary-format slide is better handled by OCR than manual transcription.
 ![[assets/slides/JRTAtZ5iBkU/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-004.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > NO.
-> agents aren’t the problem.
-> No, I don’t think so.
+> agents aren't the problem.
 
 ![[assets/slides/JRTAtZ5iBkU/slide-005.jpg]]
 
-OCR text:
-
-> <h1>Q3Results</h1> nodel writes neaning Q3 Results
-> <canvasid="chart"></canvas> <divclass="grid">"</div browser
-> /charts /layouts
-> the modelnever places a coordinate.
-> Andyoucangetallsortsofvisualeffects,chartsandlayouts,
-
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: none.
+- OCR decision: ready — Multi-panel diagram with code and UI text is better suited to OCR extraction than manual transcription.
 ![[assets/slides/JRTAtZ5iBkU/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
+- OCR decision: ready — Grid of small cards and labels is OCR-suitable; the slide title is short enough to preserve directly.
 
-> SLIDE DECKS - HTML
-> built in a single prompt.
-> our board decks and our sales decks.
+Slide text:
+
+> SLIDE DECKS → HTML
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/JRTAtZ5iBkU/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

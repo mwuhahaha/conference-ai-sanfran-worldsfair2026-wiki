@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "sponsor_logo",
+  "reject_reason": "Logo splash / closing card, not a content slide.",
+  "text": "AI Engineer EUROPE",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#000000",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 27.0,
+        "y": 33.0,
+        "w": 46.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "HTTPS://AI.ENGINEER",
+        "x": 35.0,
+        "y": 86.0,
+        "w": 30.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/iRcX54EO5g8/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669058.4270334,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Engineer EUROPE",
+  "advanced_ocr": {}
+}

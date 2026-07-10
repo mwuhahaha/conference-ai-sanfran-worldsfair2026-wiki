@@ -1,0 +1,186 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "arrakis-py-sdk _. REST API Linux Server\nArrakis Restserver\narrakis-client REST API:\nvWc client Port Forrar. Auto Arrakis MicroVM DA: Sandbox Server Coda Server ws +poy.. Arrakis MicroVM Sandbox YAC' trver ort Foru Auto\nUserspace\nKerne! Idxv/kva\" /dev/kva\nHigh level architecture of Arrakis",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture diagram with many small labels and connectors that are best handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray/white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "arrakis-py-sdk",
+        "x": 3.0,
+        "y": 7.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "arrakis-client",
+        "x": 3.0,
+        "y": 29.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "VNC Client",
+        "x": 4.0,
+        "y": 52.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "REST API",
+        "x": 20.0,
+        "y": 6.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Linux Server",
+        "x": 43.0,
+        "y": 1.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis Restserver",
+        "x": 52.0,
+        "y": 11.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis MicroVM Sandbox",
+        "x": 37.0,
+        "y": 44.0,
+        "w": 22.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis MicroVM Sandbox",
+        "x": 66.0,
+        "y": 44.0,
+        "w": 22.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Code Server",
+        "x": 53.0,
+        "y": 37.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "VNC Server",
+        "x": 46.0,
+        "y": 37.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Code Server",
+        "x": 68.0,
+        "y": 37.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "VNC Server",
+        "x": 76.0,
+        "y": 37.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Userspace",
+        "x": 28.0,
+        "y": 70.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Kernel",
+        "x": 28.0,
+        "y": 80.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "/dev/kvm",
+        "x": 45.0,
+        "y": 82.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "/dev/kvm",
+        "x": 73.0,
+        "y": 82.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Auto Port Forwarding",
+        "x": 31.0,
+        "y": 43.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "High level architecture of Arrakis",
+        "x": 37.0,
+        "y": 92.0,
+        "w": 30.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672726.3396983,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "High level architecture of Arrakis",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "arrakis-py-sdk _. REST API Linux Server\nArrakis Restserver\narrakis-client REST API:\nvWc client Port Forrar. Auto Arrakis MicroVM DA: Sandbox Server Coda Server ws +poy.. Arrakis MicroVM Sandbox YAC' trver ort Foru Auto\nUserspace\nKerne! Idxv/kva\" /dev/kva\nHigh level architecture of Arrakis",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 464.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "arrakis-py-sdk _. REST API Linux Server\nArrakis Restserver\narrakis-client REST API:\nvWc client Port Forrar. Auto Arrakis MicroVM DA: Sandbox Server Coda Server ws +poy.. Arrakis MicroVM Sandbox YAC' trver ort Foru Auto\nUserspace\nKerne! Idxv/kva\" /dev/kva\nHigh level architecture of Arrakis",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

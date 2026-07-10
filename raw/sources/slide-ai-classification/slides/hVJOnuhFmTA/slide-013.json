@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "TL;DR\n- OpenAI is reportedly testing an unannounced bidirectional voice model called “GPT-Bidi-1.”\n- Code references and early user tests show that the model can speak, hear, and listen simultaneously, handling mid-sentence interruptions naturally.\n- The unannounced model has already started rolling out to a select group of app users, hinting at an official release window this week.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light textured white with a black inset panel",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "TL;DR",
+        "x": 12.0,
+        "y": 20.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "OpenAI is reportedly testing an unannounced bidirectional voice model called “GPT-Bidi-1.”",
+        "x": 12.0,
+        "y": 31.0,
+        "w": 78.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Code references and early user tests show that the model can speak, hear, and listen simultaneously, handling mid-sentence interruptions naturally.",
+        "x": 12.0,
+        "y": 49.0,
+        "w": 82.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "The unannounced model has already started rolling out to a select group of app users, hinting at an official release window this week.",
+        "x": 12.0,
+        "y": 68.0,
+        "w": 82.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668511.336269,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "TL;DR\n- OpenAI is reportedly testing an unannounced bidirectional voice model called “GPT-Bidi-1.”\n- Code references and early user tests show that the model can speak, hear, and listen simultaneously, handling mid-sentence interruptions naturally.\n- The unannounced model has already started rolling out to a select group of app users, hinting at an official release window this week.",
+  "advanced_ocr": {}
+}

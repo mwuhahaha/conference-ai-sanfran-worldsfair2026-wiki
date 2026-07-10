@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Narrated on the fly · rendered to paper",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f5f0e6",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Narrated on the fly · rendered to paper",
+        "x": 12.0,
+        "y": 14.0,
+        "w": 43.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/akk6KRlcwW4/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666276.3422472,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Narrated on the fly · rendered to paper",
+  "advanced_ocr": {}
+}

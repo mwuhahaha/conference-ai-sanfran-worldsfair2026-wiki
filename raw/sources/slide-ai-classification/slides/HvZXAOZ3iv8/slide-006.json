@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "SFT in 300 lines of code",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense code screenshot with small text and compact layout",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with white code panel",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "SFT in 300 lines of code",
+        "x": 28.0,
+        "y": 18.0,
+        "w": 30.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Once you have your data in place, open source libraries and serverless infra make parallel hyperparameter sweeps trivial.",
+        "x": 28.0,
+        "y": 38.0,
+        "w": 33.0,
+        "h": 14.0
+      },
+      {
+        "role": "code",
+        "text": "code",
+        "x": 63.0,
+        "y": 5.0,
+        "w": 29.0,
+        "h": 72.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/HvZXAOZ3iv8/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659456.0132935,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "SFT in 300 lines of code",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

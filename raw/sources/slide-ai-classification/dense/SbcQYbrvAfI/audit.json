@@ -1,0 +1,2308 @@
+{
+  "video_id": "SbcQYbrvAfI",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 32,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "where Agents are Breaking In z025\nNo System Instructions Learned: From Environment Very Static Planning No Planning or Missing Tools\nTool Guidance Missing Context / State (Pre Pruned Data) Management\nAarlzo I W't Mahe A yyk. 1202511-2212:35:58",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with multiple small labels and boxed sections; better suited for OCR than manual transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray-white with soft pink/purple gradient glow",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "where Agents are Breaking in 2025",
+            "x": 6.0,
+            "y": 0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "No System Instructions Learned From Environment",
+            "x": 8.0,
+            "y": 11.0,
+            "w": 31.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "No Planning or Very Static Planning",
+            "x": 43.0,
+            "y": 12.0,
+            "w": 26.0,
+            "h": 15.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Missing Tools",
+            "x": 73.0,
+            "y": 12.0,
+            "w": 14.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tool Guidance",
+            "x": 45.0,
+            "y": 47.0,
+            "w": 17.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Missing Context / State Management (Pre Pruned Data)",
+            "x": 71.0,
+            "y": 47.0,
+            "w": 23.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663591.5037327,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "where Agents are Breaking In z025\nNo System Instructions Learned: From Environment Very Static Planning No Planning or Missing Tools\nTool Guidance Missing Context / State (Pre Pruned Data) Management\nAarlzo I W't Mahe A yyk. 1202511-2212:35:58",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 382.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "where Agents are Breaking In z025\nNo System Instructions Learned: From Environment Very Static Planning No Planning or Missing Tools\nTool Guidance Missing Context / State (Pre Pruned Data) Management\nAarlzo I W't Mahe A yyk. 1202511-2212:35:58",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "T other lssue T'd Like to Mention\nTechnical Users Domain Experts\nAl Engineer Scientist Data.Subject Matter Al Product.\nDeveloper Experts: Manager:\nResponsibilities Responsibilities:\nCode/Automation Domain Prompt engineering\nPipelines/Frameworks Track and run evals\nApplication Performance / Costs Ensure product success 2025:11:22112:37:13",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Two-column comparison slide with multiple labels and responsibilities; OCR will capture it more reliably than a quick manual pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with faint pink/purple gradient near bottom",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "1 Other Issue I’d Like to Mention",
+            "x": 34.0,
+            "y": 0,
+            "w": 35.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Technical Users",
+            "x": 12.0,
+            "y": 7.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Domain Experts",
+            "x": 67.0,
+            "y": 7.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "AI Engineer",
+            "x": 7.0,
+            "y": 26.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Developer",
+            "x": 18.0,
+            "y": 43.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Data Scientist",
+            "x": 32.0,
+            "y": 26.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Subject Matter Experts",
+            "x": 59.0,
+            "y": 28.0,
+            "w": 18.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "AI Product Manager",
+            "x": 82.0,
+            "y": 27.0,
+            "w": 14.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Responsibilities",
+            "x": 24.0,
+            "y": 58.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Responsibilities",
+            "x": 71.0,
+            "y": 58.0,
+            "w": 18.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663617.6220958,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "T other lssue T'd Like to Mention\nTechnical Users Domain Experts\nAl Engineer Scientist Data.Subject Matter Al Product.\nDeveloper Experts: Manager:\nResponsibilities Responsibilities:\nCode/Automation Domain Prompt engineering\nPipelines/Frameworks Track and run evals\nApplication Performance / Costs Ensure product success 2025:11:22112:37:13",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 456.64
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "T other lssue T'd Like to Mention\nTechnical Users Domain Experts\nAl Engineer Scientist Data.Subject Matter Al Product.\nDeveloper Experts: Manager:\nResponsibilities Responsibilities:\nCode/Automation Domain Prompt engineering\nPipelines/Frameworks Track and run evals\nApplication Performance / Costs Ensure product success 2025:11:22112:37:13",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Coding Agents on Swe-Behcn Llte, No Prompt Changes\ncline CLRUDE CODE\nSonnet 4-5: GPT 4.1 Sonnet4-5: Haiku 4.5\nCost: S3/1M tokens Cost: S2/1M tokens Cost: S3/im tokens: Cost: S1/1M tokens\nLatency: Latency: Latency: Latency:\n30.00% 18.67% 40.00% 18.67%\nGithub Issues resolved Github 1ssues resolved Github Issues: resolved Github Issues resolved\nAarlze I \"o Hre A Wark. 20251122112:42:38",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Benchmark/results slide with multiple cards, logos, and percentage figures; dense enough that OCR is the better extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with subtle pink glow near bottom",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Coding Agents on SWE-Bench Lite, No Prompt Changes",
+            "x": 10.0,
+            "y": 0,
+            "w": 65.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "cline",
+            "x": 19.0,
+            "y": 15.0,
+            "w": 11.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "CLAUDE CODE",
+            "x": 69.0,
+            "y": 8.0,
+            "w": 18.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Sonnet 4-5",
+            "x": 10.0,
+            "y": 29.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "GPT 4.1",
+            "x": 35.0,
+            "y": 29.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Sonnet 4-5",
+            "x": 61.0,
+            "y": 29.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Haiku 4.5",
+            "x": 86.0,
+            "y": 29.0,
+            "w": 9.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663661.2729146,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Coding Agents on Swe-Behcn Llte, No Prompt Changes\ncline CLRUDE CODE\nSonnet 4-5: GPT 4.1 Sonnet4-5: Haiku 4.5\nCost: S3/1M tokens Cost: S2/1M tokens Cost: S3/im tokens: Cost: S1/1M tokens\nLatency: Latency: Latency: Latency:\n30.00% 18.67% 40.00% 18.67%\nGithub Issues resolved Github 1ssues resolved Github Issues: resolved Github Issues resolved\nAarlze I \"o Hre A Wark. 20251122112:42:38",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 507.76
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Coding Agents on Swe-Behcn Llte, No Prompt Changes\ncline CLRUDE CODE\nSonnet 4-5: GPT 4.1 Sonnet4-5: Haiku 4.5\nCost: S3/1M tokens Cost: S2/1M tokens Cost: S3/im tokens: Cost: S1/1M tokens\nLatency: Latency: Latency: Latency:\n30.00% 18.67% 40.00% 18.67%\nGithub Issues resolved Github 1ssues resolved Github Issues: resolved Github Issues resolved\nAarlze I \"o Hre A Wark. 20251122112:42:38",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Optimlzing. Coaing Agent System Prompt\nClaude Code systen prompt OLD Claude Code system prompt NEW\nYou are a Claude agent. built on Anthropic's... You are α Claude agent. built on Anthropic's...\nRules Section Rules Section\n<Empty>. 1. When dealing with errors or exceptions,\nconsider.the immediate cause and\nunderlying issues that may contribute\nto.the problem.\n2. introduce technical debt... Ensure changes' align with the overall. system design: avoid ad-hoc fixes that\n5. 3. and:unexpected inputs when modifying robustness. Always consider anomolies. None values: appropriate: tests. covering edge cases Ensure changes don't intl Any change should be accompanied by and:ensuring correctness and. data flows. 12025-1.1-22112:43:03",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Side-by-side system prompt comparison with small paragraph and numbered rules; OCR-suitable dense text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Optimizing Coding Agent System Prompt",
+            "x": 8.0,
+            "y": 0,
+            "w": 56.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Claude Code system prompt",
+            "x": 6.0,
+            "y": 11.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Claude Code system prompt",
+            "x": 57.0,
+            "y": 11.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Rules Section",
+            "x": 6.0,
+            "y": 27.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Rules Section",
+            "x": 57.0,
+            "y": 27.0,
+            "w": 14.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663721.2784574,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Optimlzing. Coaing Agent System Prompt\nClaude Code systen prompt OLD Claude Code system prompt NEW\nYou are a Claude agent. built on Anthropic's... You are α Claude agent. built on Anthropic's...\nRules Section Rules Section\n<Empty>. 1. When dealing with errors or exceptions,\nconsider.the immediate cause and\nunderlying issues that may contribute\nto.the problem.\n2. introduce technical debt... Ensure changes' align with the overall. system design: avoid ad-hoc fixes that\n5. 3. and:unexpected inputs when modifying robustness. Always consider anomolies. None values: appropriate: tests. covering edge cases Ensure changes don't intl Any change should be accompanied by and:ensuring correctness and. data flows. 12025-1.1-22112:43:03",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1074.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Optimlzing. Coaing Agent System Prompt\nClaude Code systen prompt OLD Claude Code system prompt NEW\nYou are a Claude agent. built on Anthropic's... You are α Claude agent. built on Anthropic's...\nRules Section Rules Section\n<Empty>. 1. When dealing with errors or exceptions,\nconsider.the immediate cause and\nunderlying issues that may contribute\nto.the problem.\n2. introduce technical debt... Ensure changes' align with the overall. system design: avoid ad-hoc fixes that\n5. 3. and:unexpected inputs when modifying robustness. Always consider anomolies. None values: appropriate: tests. covering edge cases Ensure changes don't intl Any change should be accompanied by and:ensuring correctness and. data flows. 12025-1.1-22112:43:03",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "dwold waiss paiepdn uiim leniea swjoled aus\nProblem Cline was asked to fix a bug where the program crashed if the input None.or (for many-False) data isn't a Mapping, skip non-lapping items when many-True. and when fetching run only when the field is actually present. Solution Patch (summarized in english) In _invoke_field_validators, return early if data is value catch (KeyError. TypeError) so field validators Correct\nwas None. Corresponding Rule\nWhan you locskre a bug. enumarate cvary erecution path thst rasches the foulty Ene (o.g. sirgle vs. batch Itgresslon tosts thuat cover euch path to contrm unchsngod somantles. syno ualn tyrd go srost tuuoed bupuey-solo juootipe sosu iru xg Ituurll e osodod pus (rtol\nMatrix) Incorrectly Problem Cline was asked to fix a bug where using @ with a scalar (e.g. 2 @ Solution Patch (summarized in english) operands (after _matrixify). allowing Python to try the reverse op or raise a TypeError per the Update -_matmul__/-_rmatmul._ to defer to matrix semantics and return NotImplemented for non-matrix operator protocol, Correct\nof falling. behaved like multlplication instead nerby corvenlonce function. for the behvlor rather then a reloted but higher-leve utilty. ln other worda, ftx ksuet at ther source, not n a Whan proposing a Er frst inap the fallng tost or reported behrrior back to tha euact Api or functon.it txtrcises, Ensur+ your chunget sign with that boundary - modify the functon or layr drectly respontlbie Corresponding Rule 12025-1122112:43:531",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Text-heavy problem/solution slide with multiple callouts and code-like snippets; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with light gradient wash",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Cline performs better with updated System Prompt",
+            "x": 8.0,
+            "y": 0,
+            "w": 60.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Problem",
+            "x": 6.0,
+            "y": 15.0,
+            "w": 10.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Solution Patch (summarized in english)",
+            "x": 43.0,
+            "y": 14.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Corresponding Rule",
+            "x": 43.0,
+            "y": 37.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Problem",
+            "x": 6.0,
+            "y": 62.0,
+            "w": 10.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Solution Patch (summarized in english)",
+            "x": 43.0,
+            "y": 61.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Corresponding Rule",
+            "x": 43.0,
+            "y": 84.0,
+            "w": 20.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663802.537094,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "dwold waiss paiepdn uiim leniea swjoled aus\nProblem Cline was asked to fix a bug where the program crashed if the input None.or (for many-False) data isn't a Mapping, skip non-lapping items when many-True. and when fetching run only when the field is actually present. Solution Patch (summarized in english) In _invoke_field_validators, return early if data is value catch (KeyError. TypeError) so field validators Correct\nwas None. Corresponding Rule\nWhan you locskre a bug. enumarate cvary erecution path thst rasches the foulty Ene (o.g. sirgle vs. batch Itgresslon tosts thuat cover euch path to contrm unchsngod somantles. syno ualn tyrd go srost tuuoed bupuey-solo juootipe sosu iru xg Ituurll e osodod pus (rtol\nMatrix) Incorrectly Problem Cline was asked to fix a bug where using @ with a scalar (e.g. 2 @ Solution Patch (summarized in english) operands (after _matrixify). allowing Python to try the reverse op or raise a TypeError per the Update -_matmul__/-_rmatmul._ to defer to matrix semantics and return NotImplemented for non-matrix operator protocol, Correct\nof falling. behaved like multlplication instead nerby corvenlonce function. for the behvlor rather then a reloted but higher-leve utilty. ln other worda, ftx ksuet at ther source, not n a Whan proposing a Er frst inap the fallng tost or reported behrrior back to tha euact Api or functon.it txtrcises, Ensur+ your chunget sign with that boundary - modify the functon or layr drectly respontlbie Corresponding Rule 12025-1122112:43:531",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2109.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "dwold waiss paiepdn uiim leniea swjoled aus\nProblem Cline was asked to fix a bug where the program crashed if the input None.or (for many-False) data isn't a Mapping, skip non-lapping items when many-True. and when fetching run only when the field is actually present. Solution Patch (summarized in english) In _invoke_field_validators, return early if data is value catch (KeyError. TypeError) so field validators Correct\nwas None. Corresponding Rule\nWhan you locskre a bug. enumarate cvary erecution path thst rasches the foulty Ene (o.g. sirgle vs. batch Itgresslon tosts thuat cover euch path to contrm unchsngod somantles. syno ualn tyrd go srost tuuoed bupuey-solo juootipe sosu iru xg Ituurll e osodod pus (rtol\nMatrix) Incorrectly Problem Cline was asked to fix a bug where using @ with a scalar (e.g. 2 @ Solution Patch (summarized in english) operands (after _matrixify). allowing Python to try the reverse op or raise a TypeError per the Update -_matmul__/-_rmatmul._ to defer to matrix semantics and return NotImplemented for non-matrix operator protocol, Correct\nof falling. behaved like multlplication instead nerby corvenlonce function. for the behvlor rather then a reloted but higher-leve utilty. ln other worda, ftx ksuet at ther source, not n a Whan proposing a Er frst inap the fallng tost or reported behrrior back to tha euact Api or functon.it txtrcises, Ensur+ your chunget sign with that boundary - modify the functon or layr drectly respontlbie Corresponding Rule 12025-1122112:43:531",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "GPT-4.1\nOptinization Loop Train Accuricy Traln Dota 0.1867 0.1733. Ttst Accuracy Test Detta ~15% Improvement, just\n0.2000 +0.0133. 0.2133. +0.0400 through rules.\n0.3400 +0.1633 0.3133 +0.1400 37\n0.3333 40.1486 0.2800 +0.1067\n0.3400 +0.1533 0.3000 +0.1267 No fine-tuning, no tool changes, no\nClaude Sonnet 4.5 architecture.changes.JUsT RULES.\nOptimtzation Laop D Train AccurIGy 0.3000 0.2800 03200 0.3600 Train Dofta -0.0200 +0.0600 0.3533 0.3333 0.3600 Test Accuracy 0.3533 +0.0067 0.0000 Sonnet 4-5, which is widely. questions' GPT-4.1 achieved performance near considered state of the art for coding\n03600 +00600 0.3600 +0.0067 o: 11so5.%:\n>arizo I W t= wai 202511-22↓12:44:18",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense table slide with multiple small text blocks and bullets; OCR will be more reliable than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with faint pink gradient",
+        "style": "table",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Benchmarking Cline w/ updated prompt on SWE-Bench Lite",
+            "x": 3.0,
+            "y": 0,
+            "w": 74.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "GPT-4.1",
+            "x": 4.0,
+            "y": 11.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Claude Sonnet 4.5",
+            "x": 4.0,
+            "y": 61.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "~15%",
+            "x": 56.0,
+            "y": 15.0,
+            "w": 12.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Improvement, just through rules",
+            "x": 72.0,
+            "y": 15.0,
+            "w": 24.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "No fine-tuning, no tool changes, no architecture changes. JUST RULES.\nGPT-4.1 achieved performance near Sonnet 4.5, which is widely considered state of the art for coding questions\n2/3 cost!",
+            "x": 57.0,
+            "y": 37.0,
+            "w": 37.0,
+            "h": 40.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664022.037466,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "GPT-4.1\nOptinization Loop Train Accuricy Traln Dota 0.1867 0.1733. Ttst Accuracy Test Detta ~15% Improvement, just\n0.2000 +0.0133. 0.2133. +0.0400 through rules.\n0.3400 +0.1633 0.3133 +0.1400 37\n0.3333 40.1486 0.2800 +0.1067\n0.3400 +0.1533 0.3000 +0.1267 No fine-tuning, no tool changes, no\nClaude Sonnet 4.5 architecture.changes.JUsT RULES.\nOptimtzation Laop D Train AccurIGy 0.3000 0.2800 03200 0.3600 Train Dofta -0.0200 +0.0600 0.3533 0.3333 0.3600 Test Accuracy 0.3533 +0.0067 0.0000 Sonnet 4-5, which is widely. questions' GPT-4.1 achieved performance near considered state of the art for coding\n03600 +00600 0.3600 +0.0067 o: 11so5.%:\n>arizo I W t= wai 202511-22↓12:44:18",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 593.96
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "GPT-4.1\nOptinization Loop Train Accuricy Traln Dota 0.1867 0.1733. Ttst Accuracy Test Detta ~15% Improvement, just\n0.2000 +0.0133. 0.2133. +0.0400 through rules.\n0.3400 +0.1633 0.3133 +0.1400 37\n0.3333 40.1486 0.2800 +0.1067\n0.3400 +0.1533 0.3000 +0.1267 No fine-tuning, no tool changes, no\nClaude Sonnet 4.5 architecture.changes.JUsT RULES.\nOptimtzation Laop D Train AccurIGy 0.3000 0.2800 03200 0.3600 Train Dofta -0.0200 +0.0600 0.3533 0.3333 0.3600 Test Accuracy 0.3533 +0.0067 0.0000 Sonnet 4-5, which is widely. questions' GPT-4.1 achieved performance near considered state of the art for coding\n03600 +00600 0.3600 +0.0067 o: 11so5.%:\n>arizo I W t= wai 202511-22↓12:44:18",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Overfitting?\nRule Generalization: Meta-prompt enforces high-level, reusable coding rules rather than repo-specific fixes.\nCross-Repo Validation: Train/test split by repository ensure learned rules generalize beyond local quirks.\nExpertise vs. Overfitting\nTrue developers do “overfit” — to their own codebases.\nThat’s not a flaw, it’s expertise: understanding patterns, pitfalls, and idioms within a domain.\nCline can adaptively specialize when deployed to a team’s repos, mirroring how human engineers internalize their environment — while still starting from a general foundation.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Overfitting?",
+            "x": 3.0,
+            "y": 0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Rule Generalization: Meta-prompt enforces high-level, reusable coding rules rather than repo-specific fixes.\nCross-Repo Validation: Train/test split by repository ensure learned rules generalize beyond local quirks.",
+            "x": 4.0,
+            "y": 15.0,
+            "w": 88.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Expertise vs. Overfitting",
+            "x": 4.0,
+            "y": 44.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "True developers do “overfit” — to their own codebases.\nThat’s not a flaw, it’s expertise: understanding patterns, pitfalls, and idioms within a domain.\nCline can adaptively specialize when deployed to a team’s repos, mirroring how human engineers internalize their environment — while still starting from a general foundation.",
+            "x": 7.0,
+            "y": 53.0,
+            "w": 86.0,
+            "h": 32.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664059.0479167,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Overfitting?\nRule Generalization: Meta-prompt enforces high-level, reusable coding rules rather than repo-specific fixes.\nCross-Repo Validation: Train/test split by repository ensure learned rules generalize beyond local quirks.\nExpertise vs. Overfitting\nTrue developers do “overfit” — to their own codebases.\nThat’s not a flaw, it’s expertise: understanding patterns, pitfalls, and idioms within a domain.\nCline can adaptively specialize when deployed to a team’s repos, mirroring how human engineers internalize their environment — while still starting from a general foundation.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Hag uo rdwiojd paiepdn/m aula buiajewuouag\nfocuses on tasks difficult for language. BBH - Diverse evaluation suite that Tauk ACCUrAGY tnitlal (5 l0ops) Flna Accurscy Chung+\nmodels saEont_ translation.trror._detection 0.8: ta.s.\nExample BBH Benchmarks' Complex Boolean Expressions snsrks: trscbirg_shumed_objhcts_three_objects 0.32 S0 0.62. 0.88 0.38 +0.36 40.38: to.u\nbased on vertex coordinates: Categorizing Geometric Shapes Dupuethepun-spodt word_sorting 0.86 0.84 0.96 0.88 +0.1 +0.04\nDetecting Sarcasm in Statements geomtric_shapes: coousnbat-,eodwe! 0.96 0.48 1 0.5 +0.02 t0.04\nboolean_txpresslons': 0.94 0.94.\nogictl_dtducton._thrte_odtcts 0.96. 0.96.\nobjtct_countng 0.8 0.78 -0.02:\nmultistep_arithmetic_two. 0.08 0.06:0.02:\nformal_falsclos.. 0.84 0.4: to'0-\nbglcel_dtductlon_teven_oject. 0.76 0.72 -0.04\nweb_of_es 0.56 0.48 -0.08\nAarizo I Ws Nyo A Wtrk:2025112212:46:48",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense benchmark table and small labels on a text-heavy slide; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "table",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Benchmarking Cline w/updated prompt on BBH",
+            "x": 3.0,
+            "y": 0,
+            "w": 52.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "BBH - Diverse evaluation suite that focuses on tasks difficult for language models\nExample BBH Benchmarks\nComplex Boolean Expressions\nCategorizing Geometric Shapes based on vertex coordinates\nDetecting Sarcasm in Statements",
+            "x": 3.0,
+            "y": 11.0,
+            "w": 33.0,
+            "h": 40.0
+          },
+          {
+            "role": "body",
+            "text": "task / initial accuracy / final accuracy / change",
+            "x": 42.0,
+            "y": 9.0,
+            "w": 48.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664059.0484133,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Hag uo rdwiojd paiepdn/m aula buiajewuouag\nfocuses on tasks difficult for language. BBH - Diverse evaluation suite that Tauk ACCUrAGY tnitlal (5 l0ops) Flna Accurscy Chung+\nmodels saEont_ translation.trror._detection 0.8: ta.s.\nExample BBH Benchmarks' Complex Boolean Expressions snsrks: trscbirg_shumed_objhcts_three_objects 0.32 S0 0.62. 0.88 0.38 +0.36 40.38: to.u\nbased on vertex coordinates: Categorizing Geometric Shapes Dupuethepun-spodt word_sorting 0.86 0.84 0.96 0.88 +0.1 +0.04\nDetecting Sarcasm in Statements geomtric_shapes: coousnbat-,eodwe! 0.96 0.48 1 0.5 +0.02 t0.04\nboolean_txpresslons': 0.94 0.94.\nogictl_dtducton._thrte_odtcts 0.96. 0.96.\nobjtct_countng 0.8 0.78 -0.02:\nmultistep_arithmetic_two. 0.08 0.06:0.02:\nformal_falsclos.. 0.84 0.4: to'0-\nbglcel_dtductlon_teven_oject. 0.76 0.72 -0.04\nweb_of_es 0.56 0.48 -0.08\nAarizo I Ws Nyo A Wtrk:2025112212:46:48",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 812.4
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Hag uo rdwiojd paiepdn/m aula buiajewuouag\nfocuses on tasks difficult for language. BBH - Diverse evaluation suite that Tauk ACCUrAGY tnitlal (5 l0ops) Flna Accurscy Chung+\nmodels saEont_ translation.trror._detection 0.8: ta.s.\nExample BBH Benchmarks' Complex Boolean Expressions snsrks: trscbirg_shumed_objhcts_three_objects 0.32 S0 0.62. 0.88 0.38 +0.36 40.38: to.u\nbased on vertex coordinates: Categorizing Geometric Shapes Dupuethepun-spodt word_sorting 0.86 0.84 0.96 0.88 +0.1 +0.04\nDetecting Sarcasm in Statements geomtric_shapes: coousnbat-,eodwe! 0.96 0.48 1 0.5 +0.02 t0.04\nboolean_txpresslons': 0.94 0.94.\nogictl_dtducton._thrte_odtcts 0.96. 0.96.\nobjtct_countng 0.8 0.78 -0.02:\nmultistep_arithmetic_two. 0.08 0.06:0.02:\nformal_falsclos.. 0.84 0.4: to'0-\nbglcel_dtductlon_teven_oject. 0.76 0.72 -0.04\nweb_of_es 0.56 0.48 -0.08\nAarizo I Ws Nyo A Wtrk:2025112212:46:48",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "GEPA\nAesa AdSOB Garo Cool features::\ndspy.GEPA: Reflective Prompt Optimizer\nTlot. corponand (toch si promot) ot aborsry tytmn. tn adodon io tceler tcorts rrurmd ty mtnil svr! CEPA (CecateParre) t & trlsco optmLer propod h *CCPA Pelacin+ Pomoe EvoAtoA Can Cutp+iam Rehndortem+at Leng' (Agat t 1, 20ls *na 2so7 ith5?, tut acapoty totm boat optimization Evolutionary\nTita an. P.ory!. T, 004, t++t ++h. admty hoe is mprte the acle. Ths elm, G Pt to plopme Nigh peranng progt vry Ilar tolat. povides CEPA ont rebty into tty ie wyn got te tegt dm t (d. ard thm GEPA cA introspeet to False, to.uandh: Del = Falet, Eand.apilkay: str l bori = Meo+.!:a, Fslse, marn_oa,scort_alsaatch! boal. Ire., wee.alflos:, boel + Fale. confidete'selectica stratogy! Literell 'ssrete'.'current bust'] '?: Trve. sdd_forut foilure_as_feedhrchi? bo! o falo'sInstruetien prepesar? mr matrie_calls: Lat I Mone = mono, rotloctien_mtntbstch_siro? iat'- 3,:T str's,rmnd rebin'. wo_erpe: bool s Trut, x aorge,lmtcatioms: 1nt. I yoe.., oum_tbresds! iat I Mora - Moee. teilura. seore: float - +.o. Prop+ehIfa: 1 Nore.*. +++d: Int 1 Mare + e, portect, icoei. flost o 1.o, 1oa.d!r: s.r - nooo. treckatats: seor o. - Icog sosoon'seysesdprn 'ooou o ouon I un':at worasetou.ontd, EImus:g lapy. GePa(matric: cepAFeetbnchh trto? 'ttlua'. \"+heory'I't kone e Mone. aax full.evoles 1nt'] More o bon, Mooe, coaponant_+loctor: tafltcticaCoeponeatsslector (ouou e ason I satp ttbjia.'ed+a. uoti.11tm rona But...: candidate selection' of prompts Probabilistic merging Pareto-based\n^arlzo I Sngaitir 4orty 120251122,12:47:13",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Screenshot of a product/document page with code and small text; OCR is better suited than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "GEPA",
+            "x": 1.0,
+            "y": 0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "DSPy GEPA Reflective Prompt Optimizer",
+            "x": 17.0,
+            "y": 18.0,
+            "w": 35.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Evolutionary optimization\nPareto-based candidate selection\nProbabilistic merging of prompts\nBut...",
+            "x": 74.0,
+            "y": 15.0,
+            "w": 22.0,
+            "h": 44.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664151.9055495,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "GEPA",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "GEPA\nAesa AdSOB Garo Cool features::\ndspy.GEPA: Reflective Prompt Optimizer\nTlot. corponand (toch si promot) ot aborsry tytmn. tn adodon io tceler tcorts rrurmd ty mtnil svr! CEPA (CecateParre) t & trlsco optmLer propod h *CCPA Pelacin+ Pomoe EvoAtoA Can Cutp+iam Rehndortem+at Leng' (Agat t 1, 20ls *na 2so7 ith5?, tut acapoty totm boat optimization Evolutionary\nTita an. P.ory!. T, 004, t++t ++h. admty hoe is mprte the acle. Ths elm, G Pt to plopme Nigh peranng progt vry Ilar tolat. povides CEPA ont rebty into tty ie wyn got te tegt dm t (d. ard thm GEPA cA introspeet to False, to.uandh: Del = Falet, Eand.apilkay: str l bori = Meo+.!:a, Fslse, marn_oa,scort_alsaatch! boal. Ire., wee.alflos:, boel + Fale. confidete'selectica stratogy! Literell 'ssrete'.'current bust'] '?: Trve. sdd_forut foilure_as_feedhrchi? bo! o falo'sInstruetien prepesar? mr matrie_calls: Lat I Mone = mono, rotloctien_mtntbstch_siro? iat'- 3,:T str's,rmnd rebin'. wo_erpe: bool s Trut, x aorge,lmtcatioms: 1nt. I yoe.., oum_tbresds! iat I Mora - Moee. teilura. seore: float - +.o. Prop+ehIfa: 1 Nore.*. +++d: Int 1 Mare + e, portect, icoei. flost o 1.o, 1oa.d!r: s.r - nooo. treckatats: seor o. - Icog sosoon'seysesdprn 'ooou o ouon I un':at worasetou.ontd, EImus:g lapy. GePa(matric: cepAFeetbnchh trto? 'ttlua'. \"+heory'I't kone e Mone. aax full.evoles 1nt'] More o bon, Mooe, coaponant_+loctor: tafltcticaCoeponeatsslector (ouou e ason I satp ttbjia.'ed+a. uoti.11tm rona But...: candidate selection' of prompts Probabilistic merging Pareto-based\n^arlzo I Sngaitir 4orty 120251122,12:47:13",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2038.64
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "GEPA\nAesa AdSOB Garo Cool features::\ndspy.GEPA: Reflective Prompt Optimizer\nTlot. corponand (toch si promot) ot aborsry tytmn. tn adodon io tceler tcorts rrurmd ty mtnil svr! CEPA (CecateParre) t & trlsco optmLer propod h *CCPA Pelacin+ Pomoe EvoAtoA Can Cutp+iam Rehndortem+at Leng' (Agat t 1, 20ls *na 2so7 ith5?, tut acapoty totm boat optimization Evolutionary\nTita an. P.ory!. T, 004, t++t ++h. admty hoe is mprte the acle. Ths elm, G Pt to plopme Nigh peranng progt vry Ilar tolat. povides CEPA ont rebty into tty ie wyn got te tegt dm t (d. ard thm GEPA cA introspeet to False, to.uandh: Del = Falet, Eand.apilkay: str l bori = Meo+.!:a, Fslse, marn_oa,scort_alsaatch! boal. Ire., wee.alflos:, boel + Fale. confidete'selectica stratogy! Literell 'ssrete'.'current bust'] '?: Trve. sdd_forut foilure_as_feedhrchi? bo! o falo'sInstruetien prepesar? mr matrie_calls: Lat I Mone = mono, rotloctien_mtntbstch_siro? iat'- 3,:T str's,rmnd rebin'. wo_erpe: bool s Trut, x aorge,lmtcatioms: 1nt. I yoe.., oum_tbresds! iat I Mora - Moee. teilura. seore: float - +.o. Prop+ehIfa: 1 Nore.*. +++d: Int 1 Mare + e, portect, icoei. flost o 1.o, 1oa.d!r: s.r - nooo. treckatats: seor o. - Icog sosoon'seysesdprn 'ooou o ouon I un':at worasetou.ontd, EImus:g lapy. GePa(matric: cepAFeetbnchh trto? 'ttlua'. \"+heory'I't kone e Mone. aax full.evoles 1nt'] More o bon, Mooe, coaponant_+loctor: tafltcticaCoeponeatsslector (ouou e ason I satp ttbjia.'ed+a. uoti.11tm rona But...: candidate selection' of prompts Probabilistic merging Pareto-based\n^arlzo I Sngaitir 4orty 120251122,12:47:13",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Prompt Learning vs GEPA, benchmarked\nWe ran the same benchmarks used in the GEPA paper, but for Prompt Learning.\nWith some eval engineering. here are the results we got::\nHotpotOA, GPT4.1 MInl HoVer. GPT-4.1 Mini\n59\n8\n54\nOptimizstion Method IT GEM TOTHIPOT? Prompt Lttming T GE Optimksbon Hechod 1THTOM!\n9 1000 2000 J000 4000 1000 6000 1600 2000 3000 4000 6000\nMimber ol Polout!\nA arize:I. Ship Al tist wons 202511-22$12:48:03",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart-heavy slide with small axis labels and legends; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Prompt Learning vs GEPA, benchmarked",
+            "x": 2.0,
+            "y": 0,
+            "w": 56.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "We ran the same benchmarks used in the GEPA paper, but for Prompt Learning.\nWith some eval engineering, here are the results we got:",
+            "x": 2.0,
+            "y": 8.0,
+            "w": 92.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "HotpotQA, GPT-4.1 Mini",
+            "x": 10.0,
+            "y": 21.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "HoVer, GPT-4.1 Mini",
+            "x": 63.0,
+            "y": 21.0,
+            "w": 26.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664245.8072054,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Prompt Learning vs GEPA, benchmarked\nWe ran the same benchmarks used in the GEPA paper, but for Prompt Learning.\nWith some eval engineering. here are the results we got::\nHotpotOA, GPT4.1 MInl HoVer. GPT-4.1 Mini\n59\n8\n54\nOptimizstion Method IT GEM TOTHIPOT? Prompt Lttming T GE Optimksbon Hechod 1THTOM!\n9 1000 2000 J000 4000 1000 6000 1600 2000 3000 4000 6000\nMimber ol Polout!\nA arize:I. Ship Al tist wons 202511-22$12:48:03",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 570.04
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Prompt Learning vs GEPA, benchmarked\nWe ran the same benchmarks used in the GEPA paper, but for Prompt Learning.\nWith some eval engineering. here are the results we got::\nHotpotOA, GPT4.1 MInl HoVer. GPT-4.1 Mini\n59\n8\n54\nOptimizstion Method IT GEM TOTHIPOT? Prompt Lttming T GE Optimksbon Hechod 1THTOM!\n9 1000 2000 J000 4000 1000 6000 1600 2000 3000 4000 6000\nMimber ol Polout!\nA arize:I. Ship Al tist wons 202511-22$12:48:03",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "North Star: Self-Improving Agents\nSelf-improving agents require a feedback loop where both agents and evals evolve together—not just better prompts, but better evaluations too.\nImprove Agent\nImprove Evals",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light lavender gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "North Star: Self-Improving Agents",
+            "x": 1.0,
+            "y": 0,
+            "w": 52.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Self-improving agents require a feedback loop where both agents and evals evolve together—not just better prompts, but better evaluations too.",
+            "x": 10.0,
+            "y": 8.0,
+            "w": 80.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Improve Agent",
+            "x": 17.0,
+            "y": 37.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Improve Evals",
+            "x": 67.0,
+            "y": 42.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Collect data",
+            "x": 20.0,
+            "y": 20.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Run evals",
+            "x": 34.0,
+            "y": 29.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664281.8189068,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "North Star: Self-Improving Agents\nSelf-improving agents require a feedback loop where both agents and evals evolve together—not just better prompts, but better evaluations too.\nImprove Agent\nImprove Evals",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "arize\nOptimizing JSON Webpage Prompts with the Arize Prompt Learning SDK\nt.rooe +te Lpi ct youord a Tuyu Aue e s '+as +ll oun 'Lhr we srohno Nosr e H mri yop+or o, suu+p a Pe ebedgen 4uee e Iao lucpr 1ouod ye Looo yrp sll ayenb n tte coltock, we dtaomtybe + vee cs d a rt Lrle Piargt Loaing sox ty cedrng i Fyt n prenet ia CeTto The god le co hnerowe the noat abinr to owrte acou t son reprtrederu o' a Thha jise, ejl mtdr t ao $ouialayed sn sbemyaa La.\nR!\n*++,p++.*lyt!\nConfiguration\nTeANL SeLT_FxAcTON Drirmnn Yerytes sot nte, ad e Huu_tAupuss: Conapt hon bary iows Io smrpie iron the F 7*+ t+ 4 tot '+ Cu+.t 4 c t**d +++ + t+e tu+ o1\nYdued ta +uyt pur 'u+ut t*rys orhro th+u+o ooo f++s u+u+ha Ad uru c: tuept+? wop+rprdo L+w +oy h+s trooT holrrru+o'hrh\nmLP_L+Ls + e '+ m.-t. + ra ++' m= + + +iT +h1+t a / a+ a tl:+ + la.+e itw tali. e?omet, + tre el!...\n=Laba at +) * rrli+ y+ s+aa a. 4 + soo!ollrrliL'm 1aI:++ L I +1 **1+ 1+,*.n + L+ *T. +++ N. +a",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense notebook slide with small paragraph text, code cells, and configuration block; OCR will read it better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "arize",
+            "x": 8.0,
+            "y": 4.0,
+            "w": 26.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "Optimizing JSON Webpage Prompts with the Arize Prompt Learning SDK",
+            "x": 10.0,
+            "y": 18.0,
+            "w": 78.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "Configuration",
+            "x": 10.0,
+            "y": 58.0,
+            "w": 22.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664366.7857728,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/opencv-adaptive",
+        "text": "arize\nOptimizing JSON Webpage Prompts with the Arize Prompt Learning SDK\nt.rooe +te Lpi ct youord a Tuyu Aue e s '+as +ll oun 'Lhr we srohno Nosr e H mri yop+or o, suu+p a Pe ebedgen 4uee e Iao lucpr 1ouod ye Looo yrp sll ayenb n tte coltock, we dtaomtybe + vee cs d a rt Lrle Piargt Loaing sox ty cedrng i Fyt n prenet ia CeTto The god le co hnerowe the noat abinr to owrte acou t son reprtrederu o' a Thha jise, ejl mtdr t ao $ouialayed sn sbemyaa La.\nR!\n*++,p++.*lyt!\nConfiguration\nTeANL SeLT_FxAcTON Drirmnn Yerytes sot nte, ad e Huu_tAupuss: Conapt hon bary iows Io smrpie iron the F 7*+ t+ 4 tot '+ Cu+.t 4 c t**d +++ + t+e tu+ o1\nYdued ta +uyt pur 'u+ut t*rys orhro th+u+o ooo f++s u+u+ha Ad uru c: tuept+? wop+rprdo L+w +oy h+s trooT holrrru+o'hrh\nmLP_L+Ls + e '+ m.-t. + ra ++' m= + + +iT +h1+t a / a+ a tl:+ + la.+e itw tali. e?omet, + tre el!...\n=Laba at +) * rrli+ y+ s+aa a. 4 + soo!ollrrliL'm 1aI:++ L I +1 **1+ 1+,*.n + L+ *T. +++ N. +a",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1243.44
+      },
+      "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "arize\nOptimizing JSON Webpage Prompts with the Arize Prompt Learning SDK\nt.rooe +te Lpi ct youord a Tuyu Aue e s '+as +ll oun 'Lhr we srohno Nosr e H mri yop+or o, suu+p a Pe ebedgen 4uee e Iao lucpr 1ouod ye Looo yrp sll ayenb n tte coltock, we dtaomtybe + vee cs d a rt Lrle Piargt Loaing sox ty cedrng i Fyt n prenet ia CeTto The god le co hnerowe the noat abinr to owrte acou t son reprtrederu o' a Thha jise, ejl mtdr t ao $ouialayed sn sbemyaa La.\nR!\n*++,p++.*lyt!\nConfiguration\nTeANL SeLT_FxAcTON Drirmnn Yerytes sot nte, ad e Huu_tAupuss: Conapt hon bary iows Io smrpie iron the F 7*+ t+ 4 tot '+ Cu+.t 4 c t**d +++ + t+e tu+ o1\nYdued ta +uyt pur 'u+ut t*rys orhro th+u+o ooo f++s u+u+ha Ad uru c: tuept+? wop+rprdo L+w +oy h+s trooT holrrru+o'hrh\nmLP_L+Ls + e '+ m.-t. + ra ++' m= + + +iT +h1+t a / a+ a tl:+ + la.+e itw tali. e?omet, + tre el!...\n=Laba at +) * rrli+ y+ s+aa a. 4 + soo!ollrrliL'm 1aI:++ L I +1 **1+ 1+,*.n + L+ *T. +++ N. +a",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "ARHINO opuAte Itou yooun + r Yas BuuriT idwoid ozury rn tum sncwoig soedqom Nosr Bulzundo rn c qutd vopsbeo eEedqam Nosr a' t syooqojou:\nbenchmiris shnep:s: >codlng ignt rue.. Y. notebcoks D arizenx support 4.. BlzNorm-100_oval. wmetapx ompt.ixtU canda \"nb'oddns\"twet' big_bench hard JSONWeboS + Codo + Markdowm I D Run Al S Rinstart E Caar All Outputs@ Go To I B Vhw data @ Jhprter Viriabies n Outine:' pertor mance on a separate test set: Ipip inttalt -arire-phoenix-cvls-2.2.o- srixe-phoenix-ciient tlktoken openal, scthit-learn: μport nest asynclo I Aod n Chu n Guct Edu ua! nest asyncio.+pply() 昭DB sia_codo (Python 3.10.19) vonld: Python\nup uunb uooars\nm test.csy i traln.csy? 0 Configuration\nn LCENSE.tt pU3HOY38 0 sdwod< optimzer_rdk + P_NOTICE t requirementstxt NUM_ RULES: Specities the number of rulos to use for ovaluation. This determlnes which prompt flos to losd (o.g., evaluator-prormpt-10.txt vs avalualor-prompt-50.txt). NUM_ SAMpLEs: Controls how marry rors to sample from the full dataset. Set to O to Use al available data, or a positive rumber to fmit the sample size tor faster exptrimentation. NUM_OPTiMiZAThON_LOoPs: Sets how mary optimization lterations to run per experiment. Esch loop gcnerates outputs, evaluates them, end refines the prompt. TRAIN_SPLIT_FRACTION: Dotermlnes the trairtost split ratio. 0.8 means 80% of data goes to training set, 20% to test set.\nThese varisbies control the experiment scope, data splittlng. cyaiuation crlteris, and ootimizstion intomsity.: (+ Coda: L+ Hrdoum!\npromot-esrang' @1 & 9 O 1: B Sedtct Portgris Sarvt TRADH spLIt_FRAcTian a a.s' a Fracttan of dats to wre for trsining (rest for cesting) ) to buxien 1on s1 trus) Doaoud Joien ean rot, uo pareg' 1tnfpe - 3ooojd wi ug soyny sa doay a 0s c s3nn hnh NUH_SwpiEs -'lea a Momher, or rovs to saple Iron the tull ditaset, o torial! t confiG: Hunber or saapler ro ise for the oroerinent. Adjust ss needed. Curior Tsb a in3, Coi 29 3 Spicex 4. Soncns: 4.: L5 (1: Cn 3 ot 26 2025-1.1-22113:03: 10",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Notebook slide with small code and configuration text; OCR is needed for reliable extraction.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "import nest_asyncio",
+            "x": 11.0,
+            "y": 20.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "Configuration",
+            "x": 10.0,
+            "y": 39.0,
+            "w": 22.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664470.2265701,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "ARHINO opuAte Itou yooun + r Yas BuuriT idwoid ozury rn tum sncwoig soedqom Nosr Bulzundo rn c qutd vopsbeo eEedqam Nosr a' t syooqojou:\nbenchmiris shnep:s: >codlng ignt rue.. Y. notebcoks D arizenx support 4.. BlzNorm-100_oval. wmetapx ompt.ixtU canda \"nb'oddns\"twet' big_bench hard JSONWeboS + Codo + Markdowm I D Run Al S Rinstart E Caar All Outputs@ Go To I B Vhw data @ Jhprter Viriabies n Outine:' pertor mance on a separate test set: Ipip inttalt -arire-phoenix-cvls-2.2.o- srixe-phoenix-ciient tlktoken openal, scthit-learn: μport nest asynclo I Aod n Chu n Guct Edu ua! nest asyncio.+pply() 昭DB sia_codo (Python 3.10.19) vonld: Python\nup uunb uooars\nm test.csy i traln.csy? 0 Configuration\nn LCENSE.tt pU3HOY38 0 sdwod< optimzer_rdk + P_NOTICE t requirementstxt NUM_ RULES: Specities the number of rulos to use for ovaluation. This determlnes which prompt flos to losd (o.g., evaluator-prormpt-10.txt vs avalualor-prompt-50.txt). NUM_ SAMpLEs: Controls how marry rors to sample from the full dataset. Set to O to Use al available data, or a positive rumber to fmit the sample size tor faster exptrimentation. NUM_OPTiMiZAThON_LOoPs: Sets how mary optimization lterations to run per experiment. Esch loop gcnerates outputs, evaluates them, end refines the prompt. TRAIN_SPLIT_FRACTION: Dotermlnes the trairtost split ratio. 0.8 means 80% of data goes to training set, 20% to test set.\nThese varisbies control the experiment scope, data splittlng. cyaiuation crlteris, and ootimizstion intomsity.: (+ Coda: L+ Hrdoum!\npromot-esrang' @1 & 9 O 1: B Sedtct Portgris Sarvt TRADH spLIt_FRAcTian a a.s' a Fracttan of dats to wre for trsining (rest for cesting) ) to buxien 1on s1 trus) Doaoud Joien ean rot, uo pareg' 1tnfpe - 3ooojd wi ug soyny sa doay a 0s c s3nn hnh NUH_SwpiEs -'lea a Momher, or rovs to saple Iron the tull ditaset, o torial! t confiG: Hunber or saapler ro ise for the oroerinent. Adjust ss needed. Curior Tsb a in3, Coi 29 3 Spicex 4. Soncns: 4.: L5 (1: Cn 3 ot 26 2025-1.1-22113:03: 10",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2509.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "ARHINO opuAte Itou yooun + r Yas BuuriT idwoid ozury rn tum sncwoig soedqom Nosr Bulzundo rn c qutd vopsbeo eEedqam Nosr a' t syooqojou:\nbenchmiris shnep:s: >codlng ignt rue.. Y. notebcoks D arizenx support 4.. BlzNorm-100_oval. wmetapx ompt.ixtU canda \"nb'oddns\"twet' big_bench hard JSONWeboS + Codo + Markdowm I D Run Al S Rinstart E Caar All Outputs@ Go To I B Vhw data @ Jhprter Viriabies n Outine:' pertor mance on a separate test set: Ipip inttalt -arire-phoenix-cvls-2.2.o- srixe-phoenix-ciient tlktoken openal, scthit-learn: μport nest asynclo I Aod n Chu n Guct Edu ua! nest asyncio.+pply() 昭DB sia_codo (Python 3.10.19) vonld: Python\nup uunb uooars\nm test.csy i traln.csy? 0 Configuration\nn LCENSE.tt pU3HOY38 0 sdwod< optimzer_rdk + P_NOTICE t requirementstxt NUM_ RULES: Specities the number of rulos to use for ovaluation. This determlnes which prompt flos to losd (o.g., evaluator-prormpt-10.txt vs avalualor-prompt-50.txt). NUM_ SAMpLEs: Controls how marry rors to sample from the full dataset. Set to O to Use al available data, or a positive rumber to fmit the sample size tor faster exptrimentation. NUM_OPTiMiZAThON_LOoPs: Sets how mary optimization lterations to run per experiment. Esch loop gcnerates outputs, evaluates them, end refines the prompt. TRAIN_SPLIT_FRACTION: Dotermlnes the trairtost split ratio. 0.8 means 80% of data goes to training set, 20% to test set.\nThese varisbies control the experiment scope, data splittlng. cyaiuation crlteris, and ootimizstion intomsity.: (+ Coda: L+ Hrdoum!\npromot-esrang' @1 & 9 O 1: B Sedtct Portgris Sarvt TRADH spLIt_FRAcTian a a.s' a Fracttan of dats to wre for trsining (rest for cesting) ) to buxien 1on s1 trus) Doaoud Joien ean rot, uo pareg' 1tnfpe - 3ooojd wi ug soyny sa doay a 0s c s3nn hnh NUH_SwpiEs -'lea a Momher, or rovs to saple Iron the tull ditaset, o torial! t confiG: Hunber or saapler ro ise for the oroerinent. Adjust ss needed. Curior Tsb a in3, Coi 29 3 Spicex 4. Soncns: 4.: L5 (1: Cn 3 ot 26 2025-1.1-22113:03: 10",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "PROHS ANINO notebooks > @ JsON_wobpsguoeneravionlpynb ) s Optimizlng JSON Webpiga Prompts wth the Arize Prampt Learning SOx ) + irport nert_aryncio.\n>. conds +' big_bonch hard )'codingsgant nles.: banchmarks. 十 Codo + Harkdown l D> Run All O Restart 司 Chor Al Outputs. Go To I 思 Vaw data Jupyler Viriablos Outhine t Iapor nest asyneiol Add so Cha Et Cuck Ea aa! nest_asyncio:apotyt). nD D:B -.a: a*acodo (Python 3.10.19)\n> datasets.v notebooks arireaxsupport... JsoN_webpt.. [2] Configuration Python\nF: emetaprompt.txt' U \"buoddns.u+oud. NUM_SAMPLES: Controls how muny rows to sample from tha ful dataset Sot to O to use al avalabla data, or a positiva number to limit tho samplo slzo for fastar cxpcrimentation...\n>. optimizer_sdk testesy': train.csy support crutry_cia... u *('og-idwoxd-soirnuao ta xrot-dwod-oicneo.-5o) prof oi souy idwod youm pouumiop sili 'vogeaao doj ssn oi sau jo yoqwnu oui sooods:seind wnn TRAN_SPLIT FRACTION: Determnes the traintest spit ratio. 0.8 means 80% of data goes to training sat, 20% to test set. NUM_OPTMIZATION_LOOPS: Sets how mary optimization iteratlons to run per experiment. Each loop generates outputs, evaluates them, and refines the prompt.:\n7. prompts. pw 3NGY38 ①: A LcENSE.tt * tP_NOTiCe 1 requlremsnts,txt These variables control the experiment scope, data splitting, evaluation crlteria, and optimization Intensity. TRAIN_spLr FRAcTIat - o.s' a Fraction or data ro use for traIning frest ror. tosting!. NUR panes - soi g arber, or rutes in the proapt - sajusr based on your avataator' prorot (thisels xoT torking on Config! HU_oPTMIzATICN Loops'-' 5 ' a'Nueber or'cpriairtIon loops perexperent I coicrIGi Nuaber of sarples to uze for the experiarnt. Adjurt as' neded. NUh_SaplEs = leo: o Mbtr of rovs to: saeple. Iroa:the fu!l'dataset, t tor. ai!\n11 0.0t: Python\nSOUTLNE TDHEUNE prorpt-eunhrg: @ 1 A 9' m Sehct Portgrt Sirvr: We wll ta iielrn Iraral tn rararale tha wehaana luane:. OpenAl Key: Cunar Tss 7 a7 tn 9, ca 2oig'soben1 4 2025:11-2213:04:00 Soxcr: 4, F. 11. Cm 3 oi 26. t",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense notebook content with configuration text and section headings; better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Configuration",
+            "x": 10.0,
+            "y": 27.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "OpenAI Key",
+            "x": 10.0,
+            "y": 77.0,
+            "w": 18.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-014.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664543.9717283,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "PROHS ANINO notebooks > @ JsON_wobpsguoeneravionlpynb ) s Optimizlng JSON Webpiga Prompts wth the Arize Prampt Learning SOx ) + irport nert_aryncio.\n>. conds +' big_bonch hard )'codingsgant nles.: banchmarks. 十 Codo + Harkdown l D> Run All O Restart 司 Chor Al Outputs. Go To I 思 Vaw data Jupyler Viriablos Outhine t Iapor nest asyneiol Add so Cha Et Cuck Ea aa! nest_asyncio:apotyt). nD D:B -.a: a*acodo (Python 3.10.19)\n> datasets.v notebooks arireaxsupport... JsoN_webpt.. [2] Configuration Python\nF: emetaprompt.txt' U \"buoddns.u+oud. NUM_SAMPLES: Controls how muny rows to sample from tha ful dataset Sot to O to use al avalabla data, or a positiva number to limit tho samplo slzo for fastar cxpcrimentation...\n>. optimizer_sdk testesy': train.csy support crutry_cia... u *('og-idwoxd-soirnuao ta xrot-dwod-oicneo.-5o) prof oi souy idwod youm pouumiop sili 'vogeaao doj ssn oi sau jo yoqwnu oui sooods:seind wnn TRAN_SPLIT FRACTION: Determnes the traintest spit ratio. 0.8 means 80% of data goes to training sat, 20% to test set. NUM_OPTMIZATION_LOOPS: Sets how mary optimization iteratlons to run per experiment. Each loop generates outputs, evaluates them, and refines the prompt.:\n7. prompts. pw 3NGY38 ①: A LcENSE.tt * tP_NOTiCe 1 requlremsnts,txt These variables control the experiment scope, data splitting, evaluation crlteria, and optimization Intensity. TRAIN_spLr FRAcTIat - o.s' a Fraction or data ro use for traIning frest ror. tosting!. NUR panes - soi g arber, or rutes in the proapt - sajusr based on your avataator' prorot (thisels xoT torking on Config! HU_oPTMIzATICN Loops'-' 5 ' a'Nueber or'cpriairtIon loops perexperent I coicrIGi Nuaber of sarples to uze for the experiarnt. Adjurt as' neded. NUh_SaplEs = leo: o Mbtr of rovs to: saeple. Iroa:the fu!l'dataset, t tor. ai!\n11 0.0t: Python\nSOUTLNE TDHEUNE prorpt-eunhrg: @ 1 A 9' m Sehct Portgrt Sirvr: We wll ta iielrn Iraral tn rararale tha wehaana luane:. OpenAl Key: Cunar Tss 7 a7 tn 9, ca 2oig'soben1 4 2025:11-2213:04:00 Soxcr: 4, F. 11. Cm 3 oi 26. t",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2458.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "PROHS ANINO notebooks > @ JsON_wobpsguoeneravionlpynb ) s Optimizlng JSON Webpiga Prompts wth the Arize Prampt Learning SOx ) + irport nert_aryncio.\n>. conds +' big_bonch hard )'codingsgant nles.: banchmarks. 十 Codo + Harkdown l D> Run All O Restart 司 Chor Al Outputs. Go To I 思 Vaw data Jupyler Viriablos Outhine t Iapor nest asyneiol Add so Cha Et Cuck Ea aa! nest_asyncio:apotyt). nD D:B -.a: a*acodo (Python 3.10.19)\n> datasets.v notebooks arireaxsupport... JsoN_webpt.. [2] Configuration Python\nF: emetaprompt.txt' U \"buoddns.u+oud. NUM_SAMPLES: Controls how muny rows to sample from tha ful dataset Sot to O to use al avalabla data, or a positiva number to limit tho samplo slzo for fastar cxpcrimentation...\n>. optimizer_sdk testesy': train.csy support crutry_cia... u *('og-idwoxd-soirnuao ta xrot-dwod-oicneo.-5o) prof oi souy idwod youm pouumiop sili 'vogeaao doj ssn oi sau jo yoqwnu oui sooods:seind wnn TRAN_SPLIT FRACTION: Determnes the traintest spit ratio. 0.8 means 80% of data goes to training sat, 20% to test set. NUM_OPTMIZATION_LOOPS: Sets how mary optimization iteratlons to run per experiment. Each loop generates outputs, evaluates them, and refines the prompt.:\n7. prompts. pw 3NGY38 ①: A LcENSE.tt * tP_NOTiCe 1 requlremsnts,txt These variables control the experiment scope, data splitting, evaluation crlteria, and optimization Intensity. TRAIN_spLr FRAcTIat - o.s' a Fraction or data ro use for traIning frest ror. tosting!. NUR panes - soi g arber, or rutes in the proapt - sajusr based on your avataator' prorot (thisels xoT torking on Config! HU_oPTMIzATICN Loops'-' 5 ' a'Nueber or'cpriairtIon loops perexperent I coicrIGi Nuaber of sarples to uze for the experiarnt. Adjurt as' neded. NUh_SaplEs = leo: o Mbtr of rovs to: saeple. Iroa:the fu!l'dataset, t tor. ai!\n11 0.0t: Python\nSOUTLNE TDHEUNE prorpt-eunhrg: @ 1 A 9' m Sehct Portgrt Sirvr: We wll ta iielrn Iraral tn rararale tha wehaana luane:. OpenAl Key: Cunar Tss 7 a7 tn 9, ca 2oig'soben1 4 2025:11-2213:04:00 Soxcr: 4, F. 11. Cm 3 oi 26. t",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "v.PRoup! s benchmariks. $. big_bench_hard conda SRNO + Code + Harkdon I D> Run Al. O Restart l Cnr All Output: Go To: 电 Vie dau Jupytr Vmriabhs e Outhine:' notabooka ). @ JSON_wobpage ganeration ipynb >ius Optimizing JSON wabpage Prompts whh te Arizo Prompi Leamirng SOK') + Impot nesl_asynco TRAN_SPLST_FRACTlON: Detor mines tho tralntest splt ratlo. 0.8 mcans 80% ot data goes to trairing tat, 20% to tcst sot..?... -.* *:. M sa_codo (Python 3.10.19)\ndatssets pU'3NGY38 0: I+ notebooks:., codlng_agant ruh...:> prompts: optimizer_adk A Ucense.tt. t P_NoTiCe: B toma_support quo.. BizNorm-100_eva B arizeax support q.-. JSON w+bpM toucsy tartcsy:.metaprompt.cxt U phoeno uppoL'q? support_qutry.cla. 15. u I'[t]: dwod eun sauyos pue wou saleneao 'sndino toleuo8 doog ysag tuoupadxo lod uu oi suogeay uonrz,udo Auew moy sos:sdooT nolivzwlldo nn These variabies control the experiment scope, data splittlng. evaluatlon criterie, and optimization intensity,' NUM_RULES: Specitios tho rumber of rutes to usa for evaluation: This determlros which prompt fties to load (o.g. evatuator-prompt-10.txt vs ovaluator-prompt-50.txt). OpenAl Key. We winl be using OponA to genorate the webpsge Jrons. 0.0 taufrG: Murbar. of sarples'to use Tor the. orperlnent. Aoyust es peeded. NM_RulEs 's 5o r Mmber or rutes Inthe pranpt - sdjust oastd on your evatuator pronpt ftnis Lr uoT torking sa Contsg! HUH OrTIHIzATIGH_LoOPs 's a'Hueber of optimiTation' loops per eIparisent Nun_saples m lo '. a Munter of rovs to imeple Iroa the fu!! carastt,. o ror al! Train SplIt_rRctioh - e.s t Frsction.of data to. uye for rraining trest tor. testing!. G Python\n5 roquiremanta.trt Os.cnvIronI opEuI_ApI XEy'J - getpsss.gatpass('Oponil 'API Keyr'). Inport openal Lport os. setpass client - operaf.Client(api_keyos:getenyt-opEui_Apl_xEr))\n7.81 Python\nBn3rl t IHTunoS IVmyn' O promotsmng O'tAo R sohct PontgrTstrWr Training and Test Datasets Cunor'tb'a7 Ln3, ca2o Spncou: 4.. Spscn: 4 U. Cn 3 ot 26. 2025-11-22:13:05:15",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense notebook screenshot with code and two section headings; OCR will be more accurate than manual reading here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "OpenAI Key",
+            "x": 10.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "Training and Test Datasets",
+            "x": 10.0,
+            "y": 76.0,
+            "w": 30.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-015.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664653.4405813,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "v.PRoup! s benchmariks. $. big_bench_hard conda SRNO + Code + Harkdon I D> Run Al. O Restart l Cnr All Output: Go To: 电 Vie dau Jupytr Vmriabhs e Outhine:' notabooka ). @ JSON_wobpage ganeration ipynb >ius Optimizing JSON wabpage Prompts whh te Arizo Prompi Leamirng SOK') + Impot nesl_asynco TRAN_SPLST_FRACTlON: Detor mines tho tralntest splt ratlo. 0.8 mcans 80% ot data goes to trairing tat, 20% to tcst sot..?... -.* *:. M sa_codo (Python 3.10.19)\ndatssets pU'3NGY38 0: I+ notebooks:., codlng_agant ruh...:> prompts: optimizer_adk A Ucense.tt. t P_NoTiCe: B toma_support quo.. BizNorm-100_eva B arizeax support q.-. JSON w+bpM toucsy tartcsy:.metaprompt.cxt U phoeno uppoL'q? support_qutry.cla. 15. u I'[t]: dwod eun sauyos pue wou saleneao 'sndino toleuo8 doog ysag tuoupadxo lod uu oi suogeay uonrz,udo Auew moy sos:sdooT nolivzwlldo nn These variabies control the experiment scope, data splittlng. evaluatlon criterie, and optimization intensity,' NUM_RULES: Specitios tho rumber of rutes to usa for evaluation: This determlros which prompt fties to load (o.g. evatuator-prompt-10.txt vs ovaluator-prompt-50.txt). OpenAl Key. We winl be using OponA to genorate the webpsge Jrons. 0.0 taufrG: Murbar. of sarples'to use Tor the. orperlnent. Aoyust es peeded. NM_RulEs 's 5o r Mmber or rutes Inthe pranpt - sdjust oastd on your evatuator pronpt ftnis Lr uoT torking sa Contsg! HUH OrTIHIzATIGH_LoOPs 's a'Hueber of optimiTation' loops per eIparisent Nun_saples m lo '. a Munter of rovs to imeple Iroa the fu!! carastt,. o ror al! Train SplIt_rRctioh - e.s t Frsction.of data to. uye for rraining trest tor. testing!. G Python\n5 roquiremanta.trt Os.cnvIronI opEuI_ApI XEy'J - getpsss.gatpass('Oponil 'API Keyr'). Inport openal Lport os. setpass client - operaf.Client(api_keyos:getenyt-opEui_Apl_xEr))\n7.81 Python\nBn3rl t IHTunoS IVmyn' O promotsmng O'tAo R sohct PontgrTstrWr Training and Test Datasets Cunor'tb'a7 Ln3, ca2o Spncou: 4.. Spscn: 4 U. Cn 3 ot 26. 2025-11-22:13:05:15",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2452.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "v.PRoup! s benchmariks. $. big_bench_hard conda SRNO + Code + Harkdon I D> Run Al. O Restart l Cnr All Output: Go To: 电 Vie dau Jupytr Vmriabhs e Outhine:' notabooka ). @ JSON_wobpage ganeration ipynb >ius Optimizing JSON wabpage Prompts whh te Arizo Prompi Leamirng SOK') + Impot nesl_asynco TRAN_SPLST_FRACTlON: Detor mines tho tralntest splt ratlo. 0.8 mcans 80% ot data goes to trairing tat, 20% to tcst sot..?... -.* *:. M sa_codo (Python 3.10.19)\ndatssets pU'3NGY38 0: I+ notebooks:., codlng_agant ruh...:> prompts: optimizer_adk A Ucense.tt. t P_NoTiCe: B toma_support quo.. BizNorm-100_eva B arizeax support q.-. JSON w+bpM toucsy tartcsy:.metaprompt.cxt U phoeno uppoL'q? support_qutry.cla. 15. u I'[t]: dwod eun sauyos pue wou saleneao 'sndino toleuo8 doog ysag tuoupadxo lod uu oi suogeay uonrz,udo Auew moy sos:sdooT nolivzwlldo nn These variabies control the experiment scope, data splittlng. evaluatlon criterie, and optimization intensity,' NUM_RULES: Specitios tho rumber of rutes to usa for evaluation: This determlros which prompt fties to load (o.g. evatuator-prompt-10.txt vs ovaluator-prompt-50.txt). OpenAl Key. We winl be using OponA to genorate the webpsge Jrons. 0.0 taufrG: Murbar. of sarples'to use Tor the. orperlnent. Aoyust es peeded. NM_RulEs 's 5o r Mmber or rutes Inthe pranpt - sdjust oastd on your evatuator pronpt ftnis Lr uoT torking sa Contsg! HUH OrTIHIzATIGH_LoOPs 's a'Hueber of optimiTation' loops per eIparisent Nun_saples m lo '. a Munter of rovs to imeple Iroa the fu!! carastt,. o ror al! Train SplIt_rRctioh - e.s t Frsction.of data to. uye for rraining trest tor. testing!. G Python\n5 roquiremanta.trt Os.cnvIronI opEuI_ApI XEy'J - getpsss.gatpass('Oponil 'API Keyr'). Inport openal Lport os. setpass client - operaf.Client(api_keyos:getenyt-opEui_Apl_xEr))\n7.81 Python\nBn3rl t IHTunoS IVmyn' O promotsmng O'tAo R sohct PontgrTstrWr Training and Test Datasets Cunor'tb'a7 Ln3, ca2o Spncou: 4.. Spscn: 4 U. Cn 3 ot 26. 2025-11-22:13:05:15",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "notebooks s B Json nebpog Iraxuts ai,pdreta ya uxruas ol,miu3. ttoid) Llot lav rvuooo 3:asojog t+1 pue bupnt/1 th\npret younq ba kt: prompt. datasets A LICENSE.tt coding igint nua. 3. benchmaris op timkzer_idx. 3OUON'd s it roquiremants.txt v. notebcoks.conda Tarb ocdns irttt a D tostcsy B BizNorm-100_.- D arizear support.. Ass'upna I phoena iupport q..: JsON motaprompt.txt'U support_query_cla. L+bpsaM U. 十 Code + Markdown 1 Interupt: Rastart B Ckat Al Outputs O Go To | Ea Viaw data Jupyter Vrizbhas 111 Training and Test Datasets: OpenAl Key. Wo wl bo using OpenA to gonerato tho wobpsgo jsoni. client = openi.client(apl key-os. getenvt opEut_AoI KE!) TAIN spiIt_FRucTIon - o.s e? Practlon'ot data to use'rortrn iatng (rest ror' ioiting!. os.envlrenl opEiAr ArI _xEy']'= getpsss-gripasst'openAI APl Key!? 3 cowfrs: Hunoer or saaptes to use for she oxperineot. Adjust' as meded. HN Rues s S a Muber or rules In tne prorot adjusr based on your, evalustor gronot (chit is wor torking or Contig). lnport os. getpalt a Teuado ijods1. HuH_Saplts = iue. e tuber of'rows 'le'ss=ple: rro=. (ha'rutt datatet.' e ror'af! 0.01 4ot. t5o 旧 aie_codo (Python 3.10.19). DDa- e. uonAd: uond\nCreato tralning and tost datasols, and export to Arize.\ninport pandis as pd\n> TuELnI BSOUTLohE' Lman O promgt-feamng '@ 1 A 9:B sehct Postgrs Sewr [4] dataset_1ooo:= pd.resd_csv(-httpsi//storage.gogleapis.cou/arixe-asets/oev-rel/proapt-ltorning/guerles.csr) dataset soaple' = dataset_lo+?.ssaplc(kH_sAples) e 1h ro? aror nb'ya7 tn a, co 2o:Spico* 4. Sp*c+t:.1 Lf. Ct & ot 26 2025-11:22 13:05:40",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code-and-text notebook slide; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "OpenAI Key",
+            "x": 10.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "Training and Test Datasets",
+            "x": 10.0,
+            "y": 79.0,
+            "w": 30.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-016.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664749.1998632,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "notebooks s B Json nebpog Iraxuts ai,pdreta ya uxruas ol,miu3. ttoid) Llot lav rvuooo 3:asojog t+1 pue bupnt/1 th\npret younq ba kt: prompt. datasets A LICENSE.tt coding igint nua. 3. benchmaris op timkzer_idx. 3OUON'd s it roquiremants.txt v. notebcoks.conda Tarb ocdns irttt a D tostcsy B BizNorm-100_.- D arizear support.. Ass'upna I phoena iupport q..: JsON motaprompt.txt'U support_query_cla. L+bpsaM U. 十 Code + Markdown 1 Interupt: Rastart B Ckat Al Outputs O Go To | Ea Viaw data Jupyter Vrizbhas 111 Training and Test Datasets: OpenAl Key. Wo wl bo using OpenA to gonerato tho wobpsgo jsoni. client = openi.client(apl key-os. getenvt opEut_AoI KE!) TAIN spiIt_FRucTIon - o.s e? Practlon'ot data to use'rortrn iatng (rest ror' ioiting!. os.envlrenl opEiAr ArI _xEy']'= getpsss-gripasst'openAI APl Key!? 3 cowfrs: Hunoer or saaptes to use for she oxperineot. Adjust' as meded. HN Rues s S a Muber or rules In tne prorot adjusr based on your, evalustor gronot (chit is wor torking or Contig). lnport os. getpalt a Teuado ijods1. HuH_Saplts = iue. e tuber of'rows 'le'ss=ple: rro=. (ha'rutt datatet.' e ror'af! 0.01 4ot. t5o 旧 aie_codo (Python 3.10.19). DDa- e. uonAd: uond\nCreato tralning and tost datasols, and export to Arize.\ninport pandis as pd\n> TuELnI BSOUTLohE' Lman O promgt-feamng '@ 1 A 9:B sehct Postgrs Sewr [4] dataset_1ooo:= pd.resd_csv(-httpsi//storage.gogleapis.cou/arixe-asets/oev-rel/proapt-ltorning/guerles.csr) dataset soaple' = dataset_lo+?.ssaplc(kH_sAples) e 1h ro? aror nb'ya7 tn a, co 2o:Spico* 4. Sp*c+t:.1 Lf. Ct & ot 26 2025-11:22 13:05:40",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1854.52
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "notebooks s B Json nebpog Iraxuts ai,pdreta ya uxruas ol,miu3. ttoid) Llot lav rvuooo 3:asojog t+1 pue bupnt/1 th\npret younq ba kt: prompt. datasets A LICENSE.tt coding igint nua. 3. benchmaris op timkzer_idx. 3OUON'd s it roquiremants.txt v. notebcoks.conda Tarb ocdns irttt a D tostcsy B BizNorm-100_.- D arizear support.. Ass'upna I phoena iupport q..: JsON motaprompt.txt'U support_query_cla. L+bpsaM U. 十 Code + Markdown 1 Interupt: Rastart B Ckat Al Outputs O Go To | Ea Viaw data Jupyter Vrizbhas 111 Training and Test Datasets: OpenAl Key. Wo wl bo using OpenA to gonerato tho wobpsgo jsoni. client = openi.client(apl key-os. getenvt opEut_AoI KE!) TAIN spiIt_FRucTIon - o.s e? Practlon'ot data to use'rortrn iatng (rest ror' ioiting!. os.envlrenl opEiAr ArI _xEy']'= getpsss-gripasst'openAI APl Key!? 3 cowfrs: Hunoer or saaptes to use for she oxperineot. Adjust' as meded. HN Rues s S a Muber or rules In tne prorot adjusr based on your, evalustor gronot (chit is wor torking or Contig). lnport os. getpalt a Teuado ijods1. HuH_Saplts = iue. e tuber of'rows 'le'ss=ple: rro=. (ha'rutt datatet.' e ror'af! 0.01 4ot. t5o 旧 aie_codo (Python 3.10.19). DDa- e. uonAd: uond\nCreato tralning and tost datasols, and export to Arize.\ninport pandis as pd\n> TuELnI BSOUTLohE' Lman O promgt-feamng '@ 1 A 9:B sehct Postgrs Sewr [4] dataset_1ooo:= pd.resd_csv(-httpsi//storage.gogleapis.cou/arixe-asets/oev-rel/proapt-ltorning/guerles.csr) dataset soaple' = dataset_lo+?.ssaplc(kH_sAples) e 1h ro? aror nb'ya7 tn a, co 2o:Spico* 4. Sp*c+t:.1 Lf. Ct & ot 26 2025-11:22 13:05:40",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "ANINO notebools s JSON wobpogu_genermuion,fpynt ) ua Optlrmieing JSON Webpage Prompts with the Ariza Prompt Learming SOk's ma Trainrg and Trst Dasasots') +: dataset 10ooruad)\nconds ' banchmarks. + Code + Markdown 1 D Run All O Restart E Clear Al Outputs: I Ba Vhw data Ea jupyter Varibir, E Outins. Laoort' pandas as pd sa_code (Python 3.10.19)\n. datsets?.:v,notebooks'.seu usbr Bupos. optimze_sdx ib uoddns xnozue a m tustcav Imnasupport que. D taln.csy. D BizNerm-100_eva.! D phoenaiupport q.: It) -ps\"Aorb uoddrs. metaprompttat' u USON SAEMu1 0. u dataset_1oao - pd,read_csv(-httpsi//storage.googleapisico/arire-Sstets/dev-rtl/propt-learning/gueries.csy trainEset = 'tatasetisanple.sple(trsc-TAAIH_SPLIT FRAcTIoN, ropdoa_staten?) test iet.tocrviniest.csv, indenFatse).. 0.5: IHjpe*a'iot ianrp tou Nt a (s1dhs hn)mta+1'eo1.1arp'= ato=as>tr1tp train_ set.to_csvi\"train.csy\", tidex-fols.) tttt ket = dataset_:arpta.drooltrain_set:Index).saple(5) 0.0t:: et Opem,'dstae iooo' in Deto Wringlh? B:4 Python Python\nLIceNse tt.? prompts. * P_hotiCE 0: Crute a tebpsje tilh a Aariguton bar canthe. hrput\n1 requlrtrtnta.bt 2 Crust a perianu blog hormpsge tat tntroducu. Buld & univertity depatremt webpage, ht ihou.. eneate a 'service page Ior a photognoher th...... -.\nInitial System Prompt\n.INirl < X V mint O \"OUTLDHE prompt-eamngO 1A'9: Initlsllze your systom prompt. This is tha original prormpt that wti bo tested snd optimizod. Jhung imhysag ores t Cursor To: e,p U. 1fCo4 10 oi 27. 2025-11-22[13:07:51",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense notebook slide with small tabular preview and prompt section; OCR is needed.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Training and Test Datasets",
+            "x": 10.0,
+            "y": 76.0,
+            "w": 30.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "Initial System Prompt",
+            "x": 10.0,
+            "y": 90.0,
+            "w": 28.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-017.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664797.667443,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "ANINO notebools s JSON wobpogu_genermuion,fpynt ) ua Optlrmieing JSON Webpage Prompts with the Ariza Prompt Learming SOk's ma Trainrg and Trst Dasasots') +: dataset 10ooruad)\nconds ' banchmarks. + Code + Markdown 1 D Run All O Restart E Clear Al Outputs: I Ba Vhw data Ea jupyter Varibir, E Outins. Laoort' pandas as pd sa_code (Python 3.10.19)\n. datsets?.:v,notebooks'.seu usbr Bupos. optimze_sdx ib uoddns xnozue a m tustcav Imnasupport que. D taln.csy. D BizNerm-100_eva.! D phoenaiupport q.: It) -ps\"Aorb uoddrs. metaprompttat' u USON SAEMu1 0. u dataset_1oao - pd,read_csv(-httpsi//storage.googleapisico/arire-Sstets/dev-rtl/propt-learning/gueries.csy trainEset = 'tatasetisanple.sple(trsc-TAAIH_SPLIT FRAcTIoN, ropdoa_staten?) test iet.tocrviniest.csv, indenFatse).. 0.5: IHjpe*a'iot ianrp tou Nt a (s1dhs hn)mta+1'eo1.1arp'= ato=as>tr1tp train_ set.to_csvi\"train.csy\", tidex-fols.) tttt ket = dataset_:arpta.drooltrain_set:Index).saple(5) 0.0t:: et Opem,'dstae iooo' in Deto Wringlh? B:4 Python Python\nLIceNse tt.? prompts. * P_hotiCE 0: Crute a tebpsje tilh a Aariguton bar canthe. hrput\n1 requlrtrtnta.bt 2 Crust a perianu blog hormpsge tat tntroducu. Buld & univertity depatremt webpage, ht ihou.. eneate a 'service page Ior a photognoher th...... -.\nInitial System Prompt\n.INirl < X V mint O \"OUTLDHE prompt-eamngO 1A'9: Initlsllze your systom prompt. This is tha original prormpt that wti bo tested snd optimizod. Jhung imhysag ores t Cursor To: e,p U. 1fCo4 10 oi 27. 2025-11-22[13:07:51",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1728.44
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "ANINO notebools s JSON wobpogu_genermuion,fpynt ) ua Optlrmieing JSON Webpage Prompts with the Ariza Prompt Learming SOk's ma Trainrg and Trst Dasasots') +: dataset 10ooruad)\nconds ' banchmarks. + Code + Markdown 1 D Run All O Restart E Clear Al Outputs: I Ba Vhw data Ea jupyter Varibir, E Outins. Laoort' pandas as pd sa_code (Python 3.10.19)\n. datsets?.:v,notebooks'.seu usbr Bupos. optimze_sdx ib uoddns xnozue a m tustcav Imnasupport que. D taln.csy. D BizNerm-100_eva.! D phoenaiupport q.: It) -ps\"Aorb uoddrs. metaprompttat' u USON SAEMu1 0. u dataset_1oao - pd,read_csv(-httpsi//storage.googleapisico/arire-Sstets/dev-rtl/propt-learning/gueries.csy trainEset = 'tatasetisanple.sple(trsc-TAAIH_SPLIT FRAcTIoN, ropdoa_staten?) test iet.tocrviniest.csv, indenFatse).. 0.5: IHjpe*a'iot ianrp tou Nt a (s1dhs hn)mta+1'eo1.1arp'= ato=as>tr1tp train_ set.to_csvi\"train.csy\", tidex-fols.) tttt ket = dataset_:arpta.drooltrain_set:Index).saple(5) 0.0t:: et Opem,'dstae iooo' in Deto Wringlh? B:4 Python Python\nLIceNse tt.? prompts. * P_hotiCE 0: Crute a tebpsje tilh a Aariguton bar canthe. hrput\n1 requlrtrtnta.bt 2 Crust a perianu blog hormpsge tat tntroducu. Buld & univertity depatremt webpage, ht ihou.. eneate a 'service page Ior a photognoher th...... -.\nInitial System Prompt\n.INirl < X V mint O \"OUTLDHE prompt-eamngO 1A'9: Initlsllze your systom prompt. This is tha original prormpt that wti bo tested snd optimizod. Jhung imhysag ores t Cursor To: e,p U. 1fCo4 10 oi 27. 2025-11-22[13:07:51",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Initial System Prompt",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense notebook slide with small body text and code; OCR will read it more reliably than direct vision.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Initial System Prompt",
+            "x": 13.0,
+            "y": 14.0,
+            "w": 30.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Initialize your system prompt. This is the original prompt that will be tested and optimized.",
+            "x": 13.0,
+            "y": 23.0,
+            "w": 68.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "system_prompt = \"You are an expert in JSON webpage creation. This is your task: {input}\"",
+            "x": 13.0,
+            "y": 31.0,
+            "w": 70.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Evaluators",
+            "x": 13.0,
+            "y": 40.0,
+            "w": 18.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-018.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664952.0715086,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Initial System Prompt",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 2023.0,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0011
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Evaluators",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense text-and-code notebook slide; OCR is appropriate for the small body text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Evaluators",
+            "x": 13.0,
+            "y": 15.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "evaluate_output",
+            "x": 14.0,
+            "y": 33.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "rule_checker",
+            "x": 14.0,
+            "y": 48.0,
+            "w": 18.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-019.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665080.527137,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Evaluators",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 1949.0,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0018
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Evaluators",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense text-and-code notebook slide; OCR is appropriate for the small body text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Evaluators",
+            "x": 13.0,
+            "y": 15.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "evaluate_output",
+            "x": 14.0,
+            "y": 32.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "from os import",
+            "x": 18.0,
+            "y": 61.0,
+            "w": 18.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-020.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665173.539359,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Evaluators",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 2102.0,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-020.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Evaluators",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense text-and-code notebook slide; OCR is appropriate for the small body text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Evaluators",
+            "x": 13.0,
+            "y": 15.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "results_df = evaluate_dataframe(",
+            "x": 13.0,
+            "y": 68.0,
+            "w": 35.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "print(dataset[\"correctness\"], \"explanation\")",
+            "x": 13.0,
+            "y": 84.0,
+            "w": 40.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-021.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665260.4565635,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Evaluators",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 1193.44,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0008
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-021.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "s benchmarks. conda T-lEArnIhO Cupno EoaryeA okdrr 回 eitp uA B Ianano Iv rop ueirog G Iv uny △ I LopteW +: poo 十 notebooks > 9 JsON_wobpaga goner ation.lbynd ) us Opilrmizing JSON Wobpsge Prompts with the Arize Prornpt Learrlng SOK s u: Outout Generatlon > + de! generata_output(datasot: a*a codo (Python 3.10.19)\numunbeBupos< big.binch_hard 0.0. mond\n. S' dataseta v. norebooks *b iodonsxeezur @] Additional Metrics +. Coda 十 Mrkdom\nprompts:.. optimizer_sdx O README.md, LIcensE.ot: 3OuONd t f requlrarisnts.txt m tan.csy: D tema_suppor_que.. testcsy B. phoenh support q... Tataprompttxt. U apuonb uodont: 0 Irou sklearm.netrics Inpart!1. Ytrue bin - Il it y -rcorrect\" alse o for y iny_true!. retum' recait scorety_true_bin, y pred_bin, zerodivisiont) conpute_netricty_true. Y-ored, scorer--accuracy')!: Y.true and y pred should te tists or arrays ot'-carrect\"/\"ircorrect\" latels.. + yg'to birary [psjdA ug x Jo, 0 oro 2asauios, A 'st t] - urg paudA Conpute the rtqueited setrit. toe binsry classitication.. It scorer - \"accuracy\"?. elt scorer -irretatl\"ie.. elit.scorer=-fi\"s allf scorer'iprecisian\"!: olse! return precision_scorety_trve_bin, y_ored_bin, zero_diyislonso): retarm accurscy_scorsiy_true bin, y_ored_bin) rsise ValueError(r\"unknoun scorer: (scorer)-) return (1 scoretytrve bin, Ypred_bin,' rero_divisianno) score, prccision_score, recallscore. accuracy_scare.. 1：....\n0.91 Python\n) TutUnE: OUTLLHt Lmsn:O: pompt-eunng: @129 M Selact Postgre1'S4 cnor mb F@ in 1co 20. spno:4 2025:11:22[13:18:38 -So*c*1 4L5t.Ca4 160t 27",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code slide with small function text; OCR is better than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Additional Metrics",
+            "x": 13.0,
+            "y": 15.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_score",
+            "x": 13.0,
+            "y": 27.0,
+            "w": 75.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "def compute_metric(y_true, y_pred, scorer=\"accuracy\")",
+            "x": 13.0,
+            "y": 34.0,
+            "w": 52.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-022.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-022.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665368.433016,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Additional Metrics",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "s benchmarks. conda T-lEArnIhO Cupno EoaryeA okdrr 回 eitp uA B Ianano Iv rop ueirog G Iv uny △ I LopteW +: poo 十 notebooks > 9 JsON_wobpaga goner ation.lbynd ) us Opilrmizing JSON Wobpsge Prompts with the Arize Prornpt Learrlng SOK s u: Outout Generatlon > + de! generata_output(datasot: a*a codo (Python 3.10.19)\numunbeBupos< big.binch_hard 0.0. mond\n. S' dataseta v. norebooks *b iodonsxeezur @] Additional Metrics +. Coda 十 Mrkdom\nprompts:.. optimizer_sdx O README.md, LIcensE.ot: 3OuONd t f requlrarisnts.txt m tan.csy: D tema_suppor_que.. testcsy B. phoenh support q... Tataprompttxt. U apuonb uodont: 0 Irou sklearm.netrics Inpart!1. Ytrue bin - Il it y -rcorrect\" alse o for y iny_true!. retum' recait scorety_true_bin, y pred_bin, zerodivisiont) conpute_netricty_true. Y-ored, scorer--accuracy')!: Y.true and y pred should te tists or arrays ot'-carrect\"/\"ircorrect\" latels.. + yg'to birary [psjdA ug x Jo, 0 oro 2asauios, A 'st t] - urg paudA Conpute the rtqueited setrit. toe binsry classitication.. It scorer - \"accuracy\"?. elt scorer -irretatl\"ie.. elit.scorer=-fi\"s allf scorer'iprecisian\"!: olse! return precision_scorety_trve_bin, y_ored_bin, zero_diyislonso): retarm accurscy_scorsiy_true bin, y_ored_bin) rsise ValueError(r\"unknoun scorer: (scorer)-) return (1 scoretytrve bin, Ypred_bin,' rero_divisianno) score, prccision_score, recallscore. accuracy_scare.. 1：....\n0.91 Python\n) TutUnE: OUTLLHt Lmsn:O: pompt-eunng: @129 M Selact Postgre1'S4 cnor mb F@ in 1co 20. spno:4 2025:11:22[13:18:38 -So*c*1 4L5t.Ca4 160t 27",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1607.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "s benchmarks. conda T-lEArnIhO Cupno EoaryeA okdrr 回 eitp uA B Ianano Iv rop ueirog G Iv uny △ I LopteW +: poo 十 notebooks > 9 JsON_wobpaga goner ation.lbynd ) us Opilrmizing JSON Wobpsge Prompts with the Arize Prornpt Learrlng SOK s u: Outout Generatlon > + de! generata_output(datasot: a*a codo (Python 3.10.19)\numunbeBupos< big.binch_hard 0.0. mond\n. S' dataseta v. norebooks *b iodonsxeezur @] Additional Metrics +. Coda 十 Mrkdom\nprompts:.. optimizer_sdx O README.md, LIcensE.ot: 3OuONd t f requlrarisnts.txt m tan.csy: D tema_suppor_que.. testcsy B. phoenh support q... Tataprompttxt. U apuonb uodont: 0 Irou sklearm.netrics Inpart!1. Ytrue bin - Il it y -rcorrect\" alse o for y iny_true!. retum' recait scorety_true_bin, y pred_bin, zerodivisiont) conpute_netricty_true. Y-ored, scorer--accuracy')!: Y.true and y pred should te tists or arrays ot'-carrect\"/\"ircorrect\" latels.. + yg'to birary [psjdA ug x Jo, 0 oro 2asauios, A 'st t] - urg paudA Conpute the rtqueited setrit. toe binsry classitication.. It scorer - \"accuracy\"?. elt scorer -irretatl\"ie.. elit.scorer=-fi\"s allf scorer'iprecisian\"!: olse! return precision_scorety_trve_bin, y_ored_bin, zero_diyislonso): retarm accurscy_scorsiy_true bin, y_ored_bin) rsise ValueError(r\"unknoun scorer: (scorer)-) return (1 scoretytrve bin, Ypred_bin,' rero_divisianno) score, prccision_score, recallscore. accuracy_scare.. 1：....\n0.91 Python\n) TutUnE: OUTLLHt Lmsn:O: pompt-eunng: @129 M Selact Postgre1'S4 cnor mb F@ in 1co 20. spno:4 2025:11:22[13:18:38 -So*c*1 4L5t.Ca4 160t 27",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-022.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "RNINO notebooks >: β JSON_wabpsguLoeneraton boynb'> us Opilmizing JSON Wabpaga Prompts wrh the Arlra Prompt Loaming SOK > M: Output Ganeration /> + dat gonerato_outputidatusot\nbenchmarics?.3 conda bg_banch hard + Code + Markdom I D Run Al S Rostart 显 Chx All Outputs 」 e Viat dat 国 Jupytr Vaniablrs: B Outine: sa_codo (Python 3.10.19) rytnon]\n.y notebooks README.md:+, datesots.> oplimizer_idk.: coding igant rues. A LCENSE.bt: *IP_NOTICE requlrsmonts,txt [ tmaisupport_quo..\" PJsoN wbpe. M buoddns xeazut a m test.cry a tan.csy: Bl2Norrn-100_oa phoenb_support q. 1. rmetaprompt.tt: U. prompts: support quor.cla. 0 Additional Metrics.:Tron'sklearn.metrics iaport. fl score,' prtcision. det compute_metric(y_true', y_ored, scorera-accurecy.):' Ytrue dd y.pred' thould. be. lists or arrays ot \"carrtct-/\"incorrect\" labels. Ytrue bia -'ti'tf y --\"corract clte e tor' y'in y true]:retorn. 11 scoreiy_true_bin, Yorea_oin,zero_divistono) ollf scorer - \"precision*! Y-pres_bin'- (l l! y. es \"correct\" elue + for y Ln y.pred) cetcorer -rrecsiun.! I rap to blnary. elit scoror..- -fi\"! Coapute the rtquested' cetric for? birury.classlficatlon.: if'scorer.\"sccurscy\"t.. elsoi.retura precision_scorety.true_bin, Y.pred bin, zero_divislonto) return 'sccuracy_seorety_true_bin, y.pred_bin!. return recall_scorety_trua_bin, Y_pred_bin. xero_divisior-e) Tsito ValueError(t\"unknoum scorerr (scorer]-) score, recallscore,: accuracy_score\n0.91 uonld\n) ouTuhe. Jrs hubsod pnos a s Vt O cuuridwod Optimization Loop Cnorhb @ intca20 Spc:4 12025-11-22113:19:03.Spxc*c 4. LF. t. C4 16 ot 27.:t",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code slide with small function text; OCR is better than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Additional Metrics",
+            "x": 13.0,
+            "y": 15.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_score",
+            "x": 13.0,
+            "y": 27.0,
+            "w": 75.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Optimization Loop",
+            "x": 13.0,
+            "y": 80.0,
+            "w": 24.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-023.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-023.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665438.6742864,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Additional Metrics",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "RNINO notebooks >: β JSON_wabpsguLoeneraton boynb'> us Opilmizing JSON Wabpaga Prompts wrh the Arlra Prompt Loaming SOK > M: Output Ganeration /> + dat gonerato_outputidatusot\nbenchmarics?.3 conda bg_banch hard + Code + Markdom I D Run Al S Rostart 显 Chx All Outputs 」 e Viat dat 国 Jupytr Vaniablrs: B Outine: sa_codo (Python 3.10.19) rytnon]\n.y notebooks README.md:+, datesots.> oplimizer_idk.: coding igant rues. A LCENSE.bt: *IP_NOTICE requlrsmonts,txt [ tmaisupport_quo..\" PJsoN wbpe. M buoddns xeazut a m test.cry a tan.csy: Bl2Norrn-100_oa phoenb_support q. 1. rmetaprompt.tt: U. prompts: support quor.cla. 0 Additional Metrics.:Tron'sklearn.metrics iaport. fl score,' prtcision. det compute_metric(y_true', y_ored, scorera-accurecy.):' Ytrue dd y.pred' thould. be. lists or arrays ot \"carrtct-/\"incorrect\" labels. Ytrue bia -'ti'tf y --\"corract clte e tor' y'in y true]:retorn. 11 scoreiy_true_bin, Yorea_oin,zero_divistono) ollf scorer - \"precision*! Y-pres_bin'- (l l! y. es \"correct\" elue + for y Ln y.pred) cetcorer -rrecsiun.! I rap to blnary. elit scoror..- -fi\"! Coapute the rtquested' cetric for? birury.classlficatlon.: if'scorer.\"sccurscy\"t.. elsoi.retura precision_scorety.true_bin, Y.pred bin, zero_divislonto) return 'sccuracy_seorety_true_bin, y.pred_bin!. return recall_scorety_trua_bin, Y_pred_bin. xero_divisior-e) Tsito ValueError(t\"unknoum scorerr (scorer]-) score, recallscore,: accuracy_score\n0.91 uonld\n) ouTuhe. Jrs hubsod pnos a s Vt O cuuridwod Optimization Loop Cnorhb @ intca20 Spc:4 12025-11-22113:19:03.Spxc*c 4. LF. t. C4 16 ot 27.:t",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1707.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "RNINO notebooks >: β JSON_wabpsguLoeneraton boynb'> us Opilmizing JSON Wabpaga Prompts wrh the Arlra Prompt Loaming SOK > M: Output Ganeration /> + dat gonerato_outputidatusot\nbenchmarics?.3 conda bg_banch hard + Code + Markdom I D Run Al S Rostart 显 Chx All Outputs 」 e Viat dat 国 Jupytr Vaniablrs: B Outine: sa_codo (Python 3.10.19) rytnon]\n.y notebooks README.md:+, datesots.> oplimizer_idk.: coding igant rues. A LCENSE.bt: *IP_NOTICE requlrsmonts,txt [ tmaisupport_quo..\" PJsoN wbpe. M buoddns xeazut a m test.cry a tan.csy: Bl2Norrn-100_oa phoenb_support q. 1. rmetaprompt.tt: U. prompts: support quor.cla. 0 Additional Metrics.:Tron'sklearn.metrics iaport. fl score,' prtcision. det compute_metric(y_true', y_ored, scorera-accurecy.):' Ytrue dd y.pred' thould. be. lists or arrays ot \"carrtct-/\"incorrect\" labels. Ytrue bia -'ti'tf y --\"corract clte e tor' y'in y true]:retorn. 11 scoreiy_true_bin, Yorea_oin,zero_divistono) ollf scorer - \"precision*! Y-pres_bin'- (l l! y. es \"correct\" elue + for y Ln y.pred) cetcorer -rrecsiun.! I rap to blnary. elit scoror..- -fi\"! Coapute the rtquested' cetric for? birury.classlficatlon.: if'scorer.\"sccurscy\"t.. elsoi.retura precision_scorety.true_bin, Y.pred bin, zero_divislonto) return 'sccuracy_seorety_true_bin, y.pred_bin!. return recall_scorety_trua_bin, Y_pred_bin. xero_divisior-e) Tsito ValueError(t\"unknoum scorerr (scorer]-) score, recallscore,: accuracy_score\n0.91 uonld\n) ouTuhe. Jrs hubsod pnos a s Vt O cuuridwod Optimization Loop Cnorhb @ intca20 Spc:4 12025-11-22113:19:03.Spxc*c 4. LF. t. C4 16 ot 27.:t",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-023.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Optimization Loop",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense notebook text with paragraph and bullets; OCR likely more accurate than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Optimization Loop",
+            "x": 14.0,
+            "y": 20.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Generate & Evaluate\nTrain & Optimize\nIterate",
+            "x": 14.0,
+            "y": 33.0,
+            "w": 62.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Key parameters\nthreshold\nloops\nscorer\nnum_rules",
+            "x": 14.0,
+            "y": 66.0,
+            "w": 34.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-024.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-024.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665624.0335238,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Optimization Loop",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 2332.0,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.001
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-024.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "epuiosc > big_bench hard > banchmares: >codhg_sgmtruh PROuPT-LEARNiNO + Code.:+ Markdowm. I > Run Al O Rostant B Chr All Outputs:| e Vhw data Jupyter Varisbln: I Outins': soss\"Astxiost eroosroaai 'esoss Voycpasd 'sossy boduy taiowusrops iwar + ( soynon ruonppy in < quird-voprauowcedqam Nosr a < syooqoiou tet coajute matriclytrue' y.prrd, scorer-accurry/r- 0.91': sa_codo (Python 3.10.19) Python\n.) dstssets?.Y notebooks [ artzeax stpport a BtzNorm-100_oal Optimization Loop This cell kmplemonts tho coro prompt optimization algorithm. The loop folows & 3-stcp process:-\ntestcsv m tar.csy: Ioma_supportqu... B phoenb support q. x: mataprompt.txt: u support_quory cla.. 0 Key parsmeters:: oui -viep uoerqeas meu pue 'sidwond pazpurido 'sojoss Aoemose isatujen bupnpu siprsas poneiap suuniai pue suopejay ssoog sopisw sysen wuuobye bl1 ' ssuioaios jjotn oienjeae pue joseiep isai oui uo jdwoud juaums sun Supsn sindino ojereuog onenjeas g ajtaueg Train & Optimlzo: lf results are unsatlsfsctory, genorata outputs on tho training sat, evaluste them and uso the feedbsck to croato an improved prompt:. peapos, yolemjeao uo poseq jduod was/s ou ouyoy Aaanlol ol ornuidoouueondwald 5u sosn tojioziupdo Hterate; Rtpeat untl either the threshold is met or al loops are completed\nin'tyuowannbeu t. Sdwod t. ① READuEmd A UCeNSEtt: 3OONa Xoptm'ze_sdk + num_rules: Number ot avaluation rules to use + ithreshold: Targot accuracy score to stop optimzatlon? (notebookdtr path().sbsolute().tron pathlib inport Path loops: Moaxlmum number of optimlzation lterations sys.gatn.1nsert(e; str(notebook_dir.parent)) Lnport syt Tros opt inixer sdk.pranpt learning optinlzer Lport Prowotlcacningogtinizer [scorer: Motric lo optimlze (occuracy, (1. procision, reca!)\n: 2Hurl < OUTLDHE prompthemng: 0 1 A 9O 16 B Sohct Pottgnh Serr' dat optlnire_toopt toain'set,. test_set,. systea_proept, Crtor tob Fa -,Spac+L4. LF - t) 2025:11:22 13:20:18 Coh 18 ot 27",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense notebook text with paragraph and bullets; OCR likely more accurate than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Optimization Loop",
+            "x": 14.0,
+            "y": 20.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Generate & Evaluate\nTrain & Optimize\nIterate",
+            "x": 14.0,
+            "y": 33.0,
+            "w": 62.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Key parameters\nthreshold\nloops\nscorer\nnum_rules",
+            "x": 14.0,
+            "y": 66.0,
+            "w": 34.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-025.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-025.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665674.4320369,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Optimization Loop",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "epuiosc > big_bench hard > banchmares: >codhg_sgmtruh PROuPT-LEARNiNO + Code.:+ Markdowm. I > Run Al O Rostant B Chr All Outputs:| e Vhw data Jupyter Varisbln: I Outins': soss\"Astxiost eroosroaai 'esoss Voycpasd 'sossy boduy taiowusrops iwar + ( soynon ruonppy in < quird-voprauowcedqam Nosr a < syooqoiou tet coajute matriclytrue' y.prrd, scorer-accurry/r- 0.91': sa_codo (Python 3.10.19) Python\n.) dstssets?.Y notebooks [ artzeax stpport a BtzNorm-100_oal Optimization Loop This cell kmplemonts tho coro prompt optimization algorithm. The loop folows & 3-stcp process:-\ntestcsv m tar.csy: Ioma_supportqu... B phoenb support q. x: mataprompt.txt: u support_quory cla.. 0 Key parsmeters:: oui -viep uoerqeas meu pue 'sidwond pazpurido 'sojoss Aoemose isatujen bupnpu siprsas poneiap suuniai pue suopejay ssoog sopisw sysen wuuobye bl1 ' ssuioaios jjotn oienjeae pue joseiep isai oui uo jdwoud juaums sun Supsn sindino ojereuog onenjeas g ajtaueg Train & Optimlzo: lf results are unsatlsfsctory, genorata outputs on tho training sat, evaluste them and uso the feedbsck to croato an improved prompt:. peapos, yolemjeao uo poseq jduod was/s ou ouyoy Aaanlol ol ornuidoouueondwald 5u sosn tojioziupdo Hterate; Rtpeat untl either the threshold is met or al loops are completed\nin'tyuowannbeu t. Sdwod t. ① READuEmd A UCeNSEtt: 3OONa Xoptm'ze_sdk + num_rules: Number ot avaluation rules to use + ithreshold: Targot accuracy score to stop optimzatlon? (notebookdtr path().sbsolute().tron pathlib inport Path loops: Moaxlmum number of optimlzation lterations sys.gatn.1nsert(e; str(notebook_dir.parent)) Lnport syt Tros opt inixer sdk.pranpt learning optinlzer Lport Prowotlcacningogtinizer [scorer: Motric lo optimlze (occuracy, (1. procision, reca!)\n: 2Hurl < OUTLDHE prompthemng: 0 1 A 9O 16 B Sohct Pottgnh Serr' dat optlnire_toopt toain'set,. test_set,. systea_proept, Crtor tob Fa -,Spac+L4. LF - t) 2025:11:22 13:20:18 Coh 18 ot 27",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2338.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "epuiosc > big_bench hard > banchmares: >codhg_sgmtruh PROuPT-LEARNiNO + Code.:+ Markdowm. I > Run Al O Rostant B Chr All Outputs:| e Vhw data Jupyter Varisbln: I Outins': soss\"Astxiost eroosroaai 'esoss Voycpasd 'sossy boduy taiowusrops iwar + ( soynon ruonppy in < quird-voprauowcedqam Nosr a < syooqoiou tet coajute matriclytrue' y.prrd, scorer-accurry/r- 0.91': sa_codo (Python 3.10.19) Python\n.) dstssets?.Y notebooks [ artzeax stpport a BtzNorm-100_oal Optimization Loop This cell kmplemonts tho coro prompt optimization algorithm. The loop folows & 3-stcp process:-\ntestcsv m tar.csy: Ioma_supportqu... B phoenb support q. x: mataprompt.txt: u support_quory cla.. 0 Key parsmeters:: oui -viep uoerqeas meu pue 'sidwond pazpurido 'sojoss Aoemose isatujen bupnpu siprsas poneiap suuniai pue suopejay ssoog sopisw sysen wuuobye bl1 ' ssuioaios jjotn oienjeae pue joseiep isai oui uo jdwoud juaums sun Supsn sindino ojereuog onenjeas g ajtaueg Train & Optimlzo: lf results are unsatlsfsctory, genorata outputs on tho training sat, evaluste them and uso the feedbsck to croato an improved prompt:. peapos, yolemjeao uo poseq jduod was/s ou ouyoy Aaanlol ol ornuidoouueondwald 5u sosn tojioziupdo Hterate; Rtpeat untl either the threshold is met or al loops are completed\nin'tyuowannbeu t. Sdwod t. ① READuEmd A UCeNSEtt: 3OONa Xoptm'ze_sdk + num_rules: Number ot avaluation rules to use + ithreshold: Targot accuracy score to stop optimzatlon? (notebookdtr path().sbsolute().tron pathlib inport Path loops: Moaxlmum number of optimlzation lterations sys.gatn.1nsert(e; str(notebook_dir.parent)) Lnport syt Tros opt inixer sdk.pranpt learning optinlzer Lport Prowotlcacningogtinizer [scorer: Motric lo optimlze (occuracy, (1. procision, reca!)\n: 2Hurl < OUTLDHE prompthemng: 0 1 A 9O 16 B Sohct Pottgnh Serr' dat optlnire_toopt toain'set,. test_set,. systea_proept, Crtor tob Fa -,Spac+L4. LF - t) 2025:11:22 13:20:18 Coh 18 ot 27",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-025.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "LARNINO notabooks ) JSoN_webpogu goneralontynb > m Addltionat Metrics >+ tran skbaarm.mioirics import f1_score, precision_scort, rocall_scora, acuracy scort\n$ benchmarks $big bench_had.canda + 十 Markdowmi | D Run All O Restart Char Ali Outputs I &a Vow daa Jupyter Variables: Outline: *: *a_code (Python 310.19)\n.wnatebcoks.coding sgant ruhs + datstets D anizenx support_q 0'BliNorm-100_van:sys.patn.Lnsert(o, strfnateboox dir.parent)) notcboak_dir a Path().absolute() (nporr: sys frsa eptlalar.tax. proeot tearming. opti*liar. Lport Pro. Iron pathlib laport Path 1 ptLrarnigbpt intrer “.. *'.\nsduod c: optnize_idx A, LCENSE.tt P_NOTCE E testesy ' trarcsy: metaprompt.txt U tama_support_quo.... phoeno supportq. \"tsuanb uoddns u U' tet cotinire_loopt evaltatcrs, Storeri one ot -ocuresy a(nn. rarecisian, \"recaiu Crarer'accursty threshatdat. tost_xet; fhresholer float.: thrtshald:tor tha selected setrie trin_set,' toopts, -\nRefurnst.\nt requriremanta,txrt 1.. dict wlth teyht. \"ra\": 1ist ot'test'set Dstofrsees. Idecptopy) ror:'tscp teit,run *traIn's List or. train set scores ptr rin *iestgi tist at test yet Tcores par. run. \"proapta Llut.a! systes proapts ustd fot tach teit. run.\nLapart:cooy\n>TINCUHE I' maint o porot-lsmng: O T A 9 O 16 L Sehet Posigrt Sarte? curr_toop = 1' trati_setrics,=.[]: test retries = t1 cuntor Dab 2025:11:22113:20:43 So*c0: 4UF.C*4 16 ot27",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code slide with small source text and docstring-like content; OCR is the right triage path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "def optimize_loop(",
+            "x": 16.0,
+            "y": 16.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "threshold=1\nloops=5\nscorer=\"accuracy\"",
+            "x": 16.0,
+            "y": 28.0,
+            "w": 30.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Returns:\ntrain\ntest\nprompt\nraw",
+            "x": 16.0,
+            "y": 47.0,
+            "w": 22.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-026.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-026.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665724.207747,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "LARNINO notabooks ) JSoN_webpogu goneralontynb > m Addltionat Metrics >+ tran skbaarm.mioirics import f1_score, precision_scort, rocall_scora, acuracy scort\n$ benchmarks $big bench_had.canda + 十 Markdowmi | D Run All O Restart Char Ali Outputs I &a Vow daa Jupyter Variables: Outline: *: *a_code (Python 310.19)\n.wnatebcoks.coding sgant ruhs + datstets D anizenx support_q 0'BliNorm-100_van:sys.patn.Lnsert(o, strfnateboox dir.parent)) notcboak_dir a Path().absolute() (nporr: sys frsa eptlalar.tax. proeot tearming. opti*liar. Lport Pro. Iron pathlib laport Path 1 ptLrarnigbpt intrer “.. *'.\nsduod c: optnize_idx A, LCENSE.tt P_NOTCE E testesy ' trarcsy: metaprompt.txt U tama_support_quo.... phoeno supportq. \"tsuanb uoddns u U' tet cotinire_loopt evaltatcrs, Storeri one ot -ocuresy a(nn. rarecisian, \"recaiu Crarer'accursty threshatdat. tost_xet; fhresholer float.: thrtshald:tor tha selected setrie trin_set,' toopts, -\nRefurnst.\nt requriremanta,txrt 1.. dict wlth teyht. \"ra\": 1ist ot'test'set Dstofrsees. Idecptopy) ror:'tscp teit,run *traIn's List or. train set scores ptr rin *iestgi tist at test yet Tcores par. run. \"proapta Llut.a! systes proapts ustd fot tach teit. run.\nLapart:cooy\n>TINCUHE I' maint o porot-lsmng: O T A 9 O 16 L Sehet Posigrt Sarte? curr_toop = 1' trati_setrics,=.[]: test retries = t1 cuntor Dab 2025:11:22113:20:43 So*c0: 4UF.C*4 16 ot27",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1702.4
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "LARNINO notabooks ) JSoN_webpogu goneralontynb > m Addltionat Metrics >+ tran skbaarm.mioirics import f1_score, precision_scort, rocall_scora, acuracy scort\n$ benchmarks $big bench_had.canda + 十 Markdowmi | D Run All O Restart Char Ali Outputs I &a Vow daa Jupyter Variables: Outline: *: *a_code (Python 310.19)\n.wnatebcoks.coding sgant ruhs + datstets D anizenx support_q 0'BliNorm-100_van:sys.patn.Lnsert(o, strfnateboox dir.parent)) notcboak_dir a Path().absolute() (nporr: sys frsa eptlalar.tax. proeot tearming. opti*liar. Lport Pro. Iron pathlib laport Path 1 ptLrarnigbpt intrer “.. *'.\nsduod c: optnize_idx A, LCENSE.tt P_NOTCE E testesy ' trarcsy: metaprompt.txt U tama_support_quo.... phoeno supportq. \"tsuanb uoddns u U' tet cotinire_loopt evaltatcrs, Storeri one ot -ocuresy a(nn. rarecisian, \"recaiu Crarer'accursty threshatdat. tost_xet; fhresholer float.: thrtshald:tor tha selected setrie trin_set,' toopts, -\nRefurnst.\nt requriremanta,txrt 1.. dict wlth teyht. \"ra\": 1ist ot'test'set Dstofrsees. Idecptopy) ror:'tscp teit,run *traIn's List or. train set scores ptr rin *iestgi tist at test yet Tcores par. run. \"proapta Llut.a! systes proapts ustd fot tach teit. run.\nLapart:cooy\n>TINCUHE I' maint o porot-lsmng: O T A 9 O 16 L Sehet Posigrt Sarte? curr_toop = 1' trati_setrics,=.[]: test retries = t1 cuntor Dab 2025:11:22113:20:43 So*c0: 4UF.C*4 16 ot27",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-026.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "+ big.bench h: > banchrnur.>:coding_agent \"cond 十 Code + Makdom I D Run Al S Restart Char Al Outputz:| Ee Vhw data. Jupyter Variblrs. E Outine: rotebooks > B JSON_webpage_genoration (pynb ' m Audltionot Matrics > ui Oplimizatlan Loop ) + Iimport sys trmin_set[-correctness*] * (None] + lea(trsin set) train_set[-rute_ vlotatfons.] = [tone] e: len(train set) trein_set[-explanation\"] - (None! u lenttrainset) nD DE -.n. aia_codo (Python 3.10.19)\nv notebooks [ Rarra_support_qut.. ariraax 'support 4-i B BizNorm100_w n tostcsy B phoenb_support q. t. meiaprompt.tt U JSON WPM support_query_clh.. u: opt intzer = Proaptlearningoptinizer( train_set, -. optinizer.run_evatuotorst troin_set,. pro+ot-.yste gro*pt,. openai_apl_key*as.getenv(\"oPBAr_API_KEr\") Sodet eharre-\"aot -4o\".. eyaluators. fecdbackcoluensI\"correctness\",\nR. LICENSE.ot Isdwod e 2. opbmze_sdk + p_notice I talr.csy: $ystea_pro-pt. t-optinircr.optinixt! \"output\". trein_set,: context siic t+128eh feedback cotuntit-correctness\". \"rule_vlolations\"]:\n.@ READMEmd\n1NLn0 5. + requlrumertatrt V:mn+ O pomp-mng 01A9016 fet! y_pred_trsin_post - train evats post tralioutputs_post - generate_output(trsin_set; systeapronot): troin_set post =:troin_set.topy(). train_evats_postgall = evaluate_output (train_set post) fo]. train ewils post - train_ewals post_atlf-corrcttncss\"] train_setric_post vatue'-conputa_netricty_true_trair_post, y_preo_train_post. tcorerscorer! train_set postfroutput\"] s tesin_outputs post Ytruetrain_post- I\"correct\"J = len(train_evsls_posi) train_setrics,append(train_metric post_value) 0 Evaluato.trbin, set after optimlzatIon Sehct Posigr+t Sery? Cnar Tss Pa Soscre 4. Vb. sf 2025-11-22113:21:58 Ch4 20 ot 27 广",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code slide with multiple small code lines and parameters; OCR is the right triage path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "model_choice=\"gpt-4o\"",
+            "x": 26.0,
+            "y": 21.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "feedback_columns=[\"correctness\", \"explanation\", \"rule_violations\"]",
+            "x": 22.0,
+            "y": 33.0,
+            "w": 56.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "context_size_kb=128000",
+            "x": 26.0,
+            "y": 55.0,
+            "w": 26.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-027.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-027.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665787.3610215,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "+ big.bench h: > banchrnur.>:coding_agent \"cond 十 Code + Makdom I D Run Al S Restart Char Al Outputz:| Ee Vhw data. Jupyter Variblrs. E Outine: rotebooks > B JSON_webpage_genoration (pynb ' m Audltionot Matrics > ui Oplimizatlan Loop ) + Iimport sys trmin_set[-correctness*] * (None] + lea(trsin set) train_set[-rute_ vlotatfons.] = [tone] e: len(train set) trein_set[-explanation\"] - (None! u lenttrainset) nD DE -.n. aia_codo (Python 3.10.19)\nv notebooks [ Rarra_support_qut.. ariraax 'support 4-i B BizNorm100_w n tostcsy B phoenb_support q. t. meiaprompt.tt U JSON WPM support_query_clh.. u: opt intzer = Proaptlearningoptinizer( train_set, -. optinizer.run_evatuotorst troin_set,. pro+ot-.yste gro*pt,. openai_apl_key*as.getenv(\"oPBAr_API_KEr\") Sodet eharre-\"aot -4o\".. eyaluators. fecdbackcoluensI\"correctness\",\nR. LICENSE.ot Isdwod e 2. opbmze_sdk + p_notice I talr.csy: $ystea_pro-pt. t-optinircr.optinixt! \"output\". trein_set,: context siic t+128eh feedback cotuntit-correctness\". \"rule_vlolations\"]:\n.@ READMEmd\n1NLn0 5. + requlrumertatrt V:mn+ O pomp-mng 01A9016 fet! y_pred_trsin_post - train evats post tralioutputs_post - generate_output(trsin_set; systeapronot): troin_set post =:troin_set.topy(). train_evats_postgall = evaluate_output (train_set post) fo]. train ewils post - train_ewals post_atlf-corrcttncss\"] train_setric_post vatue'-conputa_netricty_true_trair_post, y_preo_train_post. tcorerscorer! train_set postfroutput\"] s tesin_outputs post Ytruetrain_post- I\"correct\"J = len(train_evsls_posi) train_setrics,append(train_metric post_value) 0 Evaluato.trbin, set after optimlzatIon Sehct Posigr+t Sery? Cnar Tss Pa Soscre 4. Vb. sf 2025-11-22113:21:58 Ch4 20 ot 27 广",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1575.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "+ big.bench h: > banchrnur.>:coding_agent \"cond 十 Code + Makdom I D Run Al S Restart Char Al Outputz:| Ee Vhw data. Jupyter Variblrs. E Outine: rotebooks > B JSON_webpage_genoration (pynb ' m Audltionot Matrics > ui Oplimizatlan Loop ) + Iimport sys trmin_set[-correctness*] * (None] + lea(trsin set) train_set[-rute_ vlotatfons.] = [tone] e: len(train set) trein_set[-explanation\"] - (None! u lenttrainset) nD DE -.n. aia_codo (Python 3.10.19)\nv notebooks [ Rarra_support_qut.. ariraax 'support 4-i B BizNorm100_w n tostcsy B phoenb_support q. t. meiaprompt.tt U JSON WPM support_query_clh.. u: opt intzer = Proaptlearningoptinizer( train_set, -. optinizer.run_evatuotorst troin_set,. pro+ot-.yste gro*pt,. openai_apl_key*as.getenv(\"oPBAr_API_KEr\") Sodet eharre-\"aot -4o\".. eyaluators. fecdbackcoluensI\"correctness\",\nR. LICENSE.ot Isdwod e 2. opbmze_sdk + p_notice I talr.csy: $ystea_pro-pt. t-optinircr.optinixt! \"output\". trein_set,: context siic t+128eh feedback cotuntit-correctness\". \"rule_vlolations\"]:\n.@ READMEmd\n1NLn0 5. + requlrumertatrt V:mn+ O pomp-mng 01A9016 fet! y_pred_trsin_post - train evats post tralioutputs_post - generate_output(trsin_set; systeapronot): troin_set post =:troin_set.topy(). train_evats_postgall = evaluate_output (train_set post) fo]. train ewils post - train_ewals post_atlf-corrcttncss\"] train_setric_post vatue'-conputa_netricty_true_trair_post, y_preo_train_post. tcorerscorer! train_set postfroutput\"] s tesin_outputs post Ytruetrain_post- I\"correct\"J = len(train_evsls_posi) train_setrics,append(train_metric post_value) 0 Evaluato.trbin, set after optimlzatIon Sehct Posigr+t Sery? Cnar Tss Pa Soscre 4. Vb. sf 2025-11-22113:21:58 Ch4 20 ot 27 广",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-027.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Experiment Execution\nExecution: Runs the optimization loop with the specified evaluators and configuration parameters, tracking performance across iterations.\nResults Saving:\n- JSON format: Saves complete experiment data with timestamps for detailed analysis\n- CSV format: Creates lightweight CSV files with iteration data, metrics, and prompts for easy visualization",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "warm off-white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Experiment Execution",
+            "x": 15.0,
+            "y": 19.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "This cell runs a prompt optimization experiment and saves the results.",
+            "x": 15.0,
+            "y": 31.0,
+            "w": 62.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Execution: Runs the optimization loop with the specified evaluators and configuration parameters, tracking performance across iterations.",
+            "x": 15.0,
+            "y": 42.0,
+            "w": 70.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Results Saving:\nJSON format\nCSV format",
+            "x": 15.0,
+            "y": 57.0,
+            "w": 28.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-028.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-028.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665884.38371,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Experiment Execution\nExecution: Runs the optimization loop with the specified evaluators and configuration parameters, tracking performance across iterations.\nResults Saving:\n- JSON format: Saves complete experiment data with timestamps for detailed analysis\n- CSV format: Creates lightweight CSV files with iteration data, metrics, and prompts for easy visualization",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-028.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "+, banchmarks?: 3 &ig. bonch hard tpuoor.c. EARNING:十 Code:十 Markdowm I D Run Al O Restart Chaar Ali Outputs.I B Vew dab E Jupyter Variableg 三 Outine: cit jodu, + c doon uojrzuido in < souoyt gtuogppy in't quldruogtroueo eeedqom Nosr a K tyooqojou ia_codo (Python 3.10.19)\nIv notebooks coding_ sgent nlel:? datssets JSONWObp..: M Iuma_support auo. uan.csv. BizNorm-100_ov testesv boddn/qmoqd t: metaprompt.txt U byoddnsxrazue s-Auenb uodans 0 Save Csy results savo_cxperinent_resultsl resutts: \"etperiment_results.json\"!. print(results) cvsluators = Ievnluste_output] 7 save resolrs: Savesingle_axperlment_csv(results, \"experlmrnt\") print(nud Experient resutts:\") resutts = optiize_loopr. train_set, test_aet, syztea_proept, evatustors,.. LOOPS-NUN_OPTIHIZATIG_LOOPS\n①. README.md? prompts. R license.ut. 3OuON'd. requlramntn,txt:cptimlzer_idk 322 $ Startirg prorot. optimization vith S. lterations (scorer:accuracy. threshold: 1) 456 311 Initfat evaluation:. Avsiubte. columrs: [\"uenaned! D'..'trput',.output',\"'evaluate_output_cxecutioo_detalls+. 'evaluate_output_score'] dataset'. lt_scrtrato 1l 13m 53.01: Ursmed: a:A56 Generate a blog post page shaicasing the'tates... 3SB 322 2 besign a travel sgency's landing prge tor, exot... Craft + veb psge with'o sticky sidebar. on. the... Craft a vebpage for sn. art gallery ryent, witn.... 5/3 (190.*) 1 2 +0:16-04:0+'1 3.32s/1t. id5.\n> TM[LIHE V mnn*.O poagt-unng. 01A0016 322:(n \"lsndingpage\"t (n'.:*+itte\"s. \"Exploro E.. H Sefact Postgrt Serrt....... output expluntion correctaess. Hone Hane Cunar ne We T tno, co 1'/sorcon 4 [2025-11-22:13:24:03 Soc43: 4. LF C++ 20 0127. t",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small execution-output text and tabular output are better handled by OCR than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Starting prompt optimization with 5 iterations (scorer: accuracy, threshold: 1)",
+            "x": 11.0,
+            "y": 34.0,
+            "w": 74.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Initial evaluation:",
+            "x": 16.0,
+            "y": 45.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Available columns: ['Unnamed: 0', 'input', 'output', 'evaluate_output_execution_details', 'evaluate_output_score']",
+            "x": 11.0,
+            "y": 56.0,
+            "w": 78.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-029.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-029.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665884.3844345,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "+, banchmarks?: 3 &ig. bonch hard tpuoor.c. EARNING:十 Code:十 Markdowm I D Run Al O Restart Chaar Ali Outputs.I B Vew dab E Jupyter Variableg 三 Outine: cit jodu, + c doon uojrzuido in < souoyt gtuogppy in't quldruogtroueo eeedqom Nosr a K tyooqojou ia_codo (Python 3.10.19)\nIv notebooks coding_ sgent nlel:? datssets JSONWObp..: M Iuma_support auo. uan.csv. BizNorm-100_ov testesv boddn/qmoqd t: metaprompt.txt U byoddnsxrazue s-Auenb uodans 0 Save Csy results savo_cxperinent_resultsl resutts: \"etperiment_results.json\"!. print(results) cvsluators = Ievnluste_output] 7 save resolrs: Savesingle_axperlment_csv(results, \"experlmrnt\") print(nud Experient resutts:\") resutts = optiize_loopr. train_set, test_aet, syztea_proept, evatustors,.. LOOPS-NUN_OPTIHIZATIG_LOOPS\n①. README.md? prompts. R license.ut. 3OuON'd. requlramntn,txt:cptimlzer_idk 322 $ Startirg prorot. optimization vith S. lterations (scorer:accuracy. threshold: 1) 456 311 Initfat evaluation:. Avsiubte. columrs: [\"uenaned! D'..'trput',.output',\"'evaluate_output_cxecutioo_detalls+. 'evaluate_output_score'] dataset'. lt_scrtrato 1l 13m 53.01: Ursmed: a:A56 Generate a blog post page shaicasing the'tates... 3SB 322 2 besign a travel sgency's landing prge tor, exot... Craft + veb psge with'o sticky sidebar. on. the... Craft a vebpage for sn. art gallery ryent, witn.... 5/3 (190.*) 1 2 +0:16-04:0+'1 3.32s/1t. id5.\n> TM[LIHE V mnn*.O poagt-unng. 01A0016 322:(n \"lsndingpage\"t (n'.:*+itte\"s. \"Exploro E.. H Sefact Postgrt Serrt....... output expluntion correctaess. Hone Hane Cunar ne We T tno, co 1'/sorcon 4 [2025-11-22:13:24:03 Soc43: 4. LF C++ 20 0127. t",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1758.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "+, banchmarks?: 3 &ig. bonch hard tpuoor.c. EARNING:十 Code:十 Markdowm I D Run Al O Restart Chaar Ali Outputs.I B Vew dab E Jupyter Variableg 三 Outine: cit jodu, + c doon uojrzuido in < souoyt gtuogppy in't quldruogtroueo eeedqom Nosr a K tyooqojou ia_codo (Python 3.10.19)\nIv notebooks coding_ sgent nlel:? datssets JSONWObp..: M Iuma_support auo. uan.csv. BizNorm-100_ov testesv boddn/qmoqd t: metaprompt.txt U byoddnsxrazue s-Auenb uodans 0 Save Csy results savo_cxperinent_resultsl resutts: \"etperiment_results.json\"!. print(results) cvsluators = Ievnluste_output] 7 save resolrs: Savesingle_axperlment_csv(results, \"experlmrnt\") print(nud Experient resutts:\") resutts = optiize_loopr. train_set, test_aet, syztea_proept, evatustors,.. LOOPS-NUN_OPTIHIZATIG_LOOPS\n①. README.md? prompts. R license.ut. 3OuON'd. requlramntn,txt:cptimlzer_idk 322 $ Startirg prorot. optimization vith S. lterations (scorer:accuracy. threshold: 1) 456 311 Initfat evaluation:. Avsiubte. columrs: [\"uenaned! D'..'trput',.output',\"'evaluate_output_cxecutioo_detalls+. 'evaluate_output_score'] dataset'. lt_scrtrato 1l 13m 53.01: Ursmed: a:A56 Generate a blog post page shaicasing the'tates... 3SB 322 2 besign a travel sgency's landing prge tor, exot... Craft + veb psge with'o sticky sidebar. on. the... Craft a vebpage for sn. art gallery ryent, witn.... 5/3 (190.*) 1 2 +0:16-04:0+'1 3.32s/1t. id5.\n> TM[LIHE V mnn*.O poagt-unng. 01A0016 322:(n \"lsndingpage\"t (n'.:*+itte\"s. \"Exploro E.. H Sefact Postgrt Serrt....... output expluntion correctaess. Hone Hane Cunar ne We T tno, co 1'/sorcon 4 [2025-11-22:13:24:03 Soc43: 4. LF C++ 20 0127. t",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-029.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Optimizing JSON Webpage Prompts with the Arize Prompt Learning SDK",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Title slide with a readable headline and a short explanatory paragraph; not dense enough to justify OCR in triage.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light cream/white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "arize",
+            "x": 16.0,
+            "y": 7.0,
+            "w": 18.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "Optimizing JSON Webpage Prompts with the Arize Prompt Learning SDK",
+            "x": 19.0,
+            "y": 25.0,
+            "w": 56.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "In this notebook, we demonstrate use of the Arize Prompt Learning SDK by optimizing a system prompt for GPT-4o.",
+            "x": 19.0,
+            "y": 43.0,
+            "w": 57.0,
+            "h": 22.0
+          },
+          {
+            "role": "code",
+            "text": "pip install arize-phoenix-evals==2.2.0 arize-phoenix-client litellm openai scikit-learn",
+            "x": 18.0,
+            "y": 70.0,
+            "w": 58.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-030.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-030.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666044.2768197,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Optimizing JSON Webpage Prompts with the Arize Prompt Learning SDK",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-030.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": ": $ banchnaras: > big bonchhad.notebooks. Sesnep s ①README.md >conds 2, coding agent ruo. pompt... A License.ot PNOTICE t' requlrsmenta.txt:\"buoddnsozue d Protpt. a traln.csy. I Itaisupport_que. BlzNorm-100_e. optimize_idx metaprompt.txt U support query_cla. trstcsv phoeni supportq. Jsor*ebp+-. CHNIYI 0: otabooks y. B JSON_nobpsga geeralionipynb >'s: Optlmizing JSON webpsge Prorapts with the Arize Prornpt Learrleg SOK > + rnport nest_at + Code + Markdoum I D Run Al S Rostant i Cha Al Outpouts I e Var data. tros phoenla.cvals kport aoenAinodet,: Iu generate trou phoanil'tals Lpart avatuhte_caatrae, Ciassit icntionEvaluator' dat evaluete output(cataset]t Ith opentr.:/oroaps/Json_,rtosge_generat ion/ev luitor-proaot-u_uLEs).txt-, r! os fhlet. *-Evaluntot: thnt thechts son veb page,correctoosn. uning Ila generaie-. evaluation teaptato -- flle.resat) rvaluatar n Claisiricnt ionEvaluatort. resvltr dt. -'eva late catatre! Ils = Lutiproridere\"apctu! model-got-4o\") ootaet?. jevalvatar):evsluotion_tenplaie, ll. cholces=f. -vatoate_outpu!\". \"corrocrt'!. \"incorrecr\"?.. o_coda (Python 3.10.19) I how do I turn an Hre numbers? notobook: 1. Cllek on sry codo ce to: 2 Prais the C koy tin. 1. Press Esc to ouit eoht inode: Tougn rone1 Il your'ra n edt mode (cursor a Thks w[l togglo Ene rrurnbers orvott for a celi in thi? Inside + eoh:. huve a ftw optlone. Quick Method To turri on Ere numbers in your'? Jupyter naleboot in Cursor, you Altemative Method BJsoNwebpage aunarabon.. mode)::0pou purwwos jea po talect lt (don't anter edit. command mode, not eoit. mode):\nI fubvgi prui! aratlsalo coltars.. print(t\"Avaitable colimasr Iresutts_d!,cotmns.tollst!)) 2: Then press L' to toggle ina murnbers\n+ms O promot-smrg O 1 A 9 0 3 satct Portgrs Stve 111. datsvet I\"eplonUar\"].s rtfuits d!.get(\"avaluata_output eaploretico\", tooe). datasetI\"corrrctoers\") a resalt'.dr.get(-evaluuta output iebeL, Nore). CanorTb Qn Tco 20 Spxc$: 4*. Soaos: 4t. 12025-11:22 13:30:06 TUHT",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense notebook code slide with small imports, evaluator setup, and output; OCR is the better triage path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light cream/white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "from phoenix.evals import evaluate_dataframe, ClassificationEvaluator",
+            "x": 17.0,
+            "y": 7.0,
+            "w": 63.0,
+            "h": 9.0
+          },
+          {
+            "role": "code",
+            "text": "def evaluate_output(dataset):",
+            "x": 18.0,
+            "y": 15.0,
+            "w": 54.0,
+            "h": 60.0
+          },
+          {
+            "role": "caption",
+            "text": "Evaluator that checks JSON webpage correctness using llm_generate",
+            "x": 18.0,
+            "y": 21.0,
+            "w": 52.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-031.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-031.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666044.2775233,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": ": $ banchnaras: > big bonchhad.notebooks. Sesnep s ①README.md >conds 2, coding agent ruo. pompt... A License.ot PNOTICE t' requlrsmenta.txt:\"buoddnsozue d Protpt. a traln.csy. I Itaisupport_que. BlzNorm-100_e. optimize_idx metaprompt.txt U support query_cla. trstcsv phoeni supportq. Jsor*ebp+-. CHNIYI 0: otabooks y. B JSON_nobpsga geeralionipynb >'s: Optlmizing JSON webpsge Prorapts with the Arize Prornpt Learrleg SOK > + rnport nest_at + Code + Markdoum I D Run Al S Rostant i Cha Al Outpouts I e Var data. tros phoenla.cvals kport aoenAinodet,: Iu generate trou phoanil'tals Lpart avatuhte_caatrae, Ciassit icntionEvaluator' dat evaluete output(cataset]t Ith opentr.:/oroaps/Json_,rtosge_generat ion/ev luitor-proaot-u_uLEs).txt-, r! os fhlet. *-Evaluntot: thnt thechts son veb page,correctoosn. uning Ila generaie-. evaluation teaptato -- flle.resat) rvaluatar n Claisiricnt ionEvaluatort. resvltr dt. -'eva late catatre! Ils = Lutiproridere\"apctu! model-got-4o\") ootaet?. jevalvatar):evsluotion_tenplaie, ll. cholces=f. -vatoate_outpu!\". \"corrocrt'!. \"incorrecr\"?.. o_coda (Python 3.10.19) I how do I turn an Hre numbers? notobook: 1. Cllek on sry codo ce to: 2 Prais the C koy tin. 1. Press Esc to ouit eoht inode: Tougn rone1 Il your'ra n edt mode (cursor a Thks w[l togglo Ene rrurnbers orvott for a celi in thi? Inside + eoh:. huve a ftw optlone. Quick Method To turri on Ere numbers in your'? Jupyter naleboot in Cursor, you Altemative Method BJsoNwebpage aunarabon.. mode)::0pou purwwos jea po talect lt (don't anter edit. command mode, not eoit. mode):\nI fubvgi prui! aratlsalo coltars.. print(t\"Avaitable colimasr Iresutts_d!,cotmns.tollst!)) 2: Then press L' to toggle ina murnbers\n+ms O promot-smrg O 1 A 9 0 3 satct Portgrs Stve 111. datsvet I\"eplonUar\"].s rtfuits d!.get(\"avaluata_output eaploretico\", tooe). datasetI\"corrrctoers\") a resalt'.dr.get(-evaluuta output iebeL, Nore). CanorTb Qn Tco 20 Spxc$: 4*. Soaos: 4t. 12025-11:22 13:30:06 TUHT",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2374.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": ": $ banchnaras: > big bonchhad.notebooks. Sesnep s ①README.md >conds 2, coding agent ruo. pompt... A License.ot PNOTICE t' requlrsmenta.txt:\"buoddnsozue d Protpt. a traln.csy. I Itaisupport_que. BlzNorm-100_e. optimize_idx metaprompt.txt U support query_cla. trstcsv phoeni supportq. Jsor*ebp+-. CHNIYI 0: otabooks y. B JSON_nobpsga geeralionipynb >'s: Optlmizing JSON webpsge Prorapts with the Arize Prornpt Learrleg SOK > + rnport nest_at + Code + Markdoum I D Run Al S Rostant i Cha Al Outpouts I e Var data. tros phoenla.cvals kport aoenAinodet,: Iu generate trou phoanil'tals Lpart avatuhte_caatrae, Ciassit icntionEvaluator' dat evaluete output(cataset]t Ith opentr.:/oroaps/Json_,rtosge_generat ion/ev luitor-proaot-u_uLEs).txt-, r! os fhlet. *-Evaluntot: thnt thechts son veb page,correctoosn. uning Ila generaie-. evaluation teaptato -- flle.resat) rvaluatar n Claisiricnt ionEvaluatort. resvltr dt. -'eva late catatre! Ils = Lutiproridere\"apctu! model-got-4o\") ootaet?. jevalvatar):evsluotion_tenplaie, ll. cholces=f. -vatoate_outpu!\". \"corrocrt'!. \"incorrecr\"?.. o_coda (Python 3.10.19) I how do I turn an Hre numbers? notobook: 1. Cllek on sry codo ce to: 2 Prais the C koy tin. 1. Press Esc to ouit eoht inode: Tougn rone1 Il your'ra n edt mode (cursor a Thks w[l togglo Ene rrurnbers orvott for a celi in thi? Inside + eoh:. huve a ftw optlone. Quick Method To turri on Ere numbers in your'? Jupyter naleboot in Cursor, you Altemative Method BJsoNwebpage aunarabon.. mode)::0pou purwwos jea po talect lt (don't anter edit. command mode, not eoit. mode):\nI fubvgi prui! aratlsalo coltars.. print(t\"Avaitable colimasr Iresutts_d!,cotmns.tollst!)) 2: Then press L' to toggle ina murnbers\n+ms O promot-smrg O 1 A 9 0 3 satct Portgrs Stve 111. datsvet I\"eplonUar\"].s rtfuits d!.get(\"avaluata_output eaploretico\", tooe). datasetI\"corrrctoers\") a resalt'.dr.get(-evaluuta output iebeL, Nore). CanorTb Qn Tco 20 Spxc$: 4*. Soaos: 4t. 12025-11:22 13:30:06 TUHT",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-031.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "BaUB· JsoN_wobpsge_aanation.lpynb M\nC proh+t-LtarnitO 'coding_sgent rues_optim..?.conde. banchmr'a.:> ba bunch_hard + Code + Myrkdom | > Aun Al O Restan E Cor Al Cuipuu B Vrew data Jupylr Vsriabhs nolcbooks ) O JsON_waboage_Lmerstlor.gymb ) us Ootimiring JSON Wobpaga Prompts with the Arize Promgt Lea! Here is lho prormpt thst schleved the best test occurscy scross the optimlzatlon Herations.\n.' datnsets notebooks arfzaar support query.c.. onenRao cot-wontia D Jsoh rebpage oen M phoena supporl guery_c.: Bama_suppori query_opti E metaprompttxt: dat get_test_Droaptfreiults): Extract the pronpt that schieved 'tho best test accuracy. Args! Returnsi.. tuple! (best_proapt, best_accuracy. ittrtion_nmber) ' resultsl Reiults' frou opttaize_ loop or erptrinent. 1.\n?OUTLNE )TIMELUNE $ optimizer_idk soiod A: 5 JSon webp+ge_goneretioni traln.csv poptxaps Arenb todans a tst.csy. L mun' O. prongtierning E tvafuator-prompt-so.txt. ol-iowosd-oypnp-apu: eyauator-prompi-100.xt waluator-prompt-i0.tt nte-checker-prompt-30. u u 01A9OJ Sect Postgrc S Dest oronpt, 'best_accuricy. best_iter'- oet_best_proaprl resuits) printt reest Ogtimixed Prorpt Iiteratton (best_Iter), cccuracyt: (bestsccuracyi.3th)t\") print(best proept) I Lyage. wraapte?. prlat(rroriginel Proopti: (systeaproopt)-).. pronots = resultil'propt'].. + Fins tho iteration with hlghesr tesr. sccuracy test_prorot = pronpts(best_iteratlon] [.111.]511ns01 =. 521110*1501 return best_proupt, best accuracy. best_iteration best_iterstion = test netrits.iodex(max(test petrics)) best_sccuracy = test_netrics Ibest_lteration]: tt CunorTab Ia-",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code-and-output slide with small text; OCR should recover the code more reliably than manual transcription here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light cream/white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Here is the prompt that achieved the best test accuracy across the optimization iterations.",
+            "x": 18.0,
+            "y": 12.0,
+            "w": 58.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "def get_best_prompt(results):",
+            "x": 20.0,
+            "y": 20.0,
+            "w": 55.0,
+            "h": 58.0
+          },
+          {
+            "role": "code",
+            "text": "return best_prompt, best_accuracy, best_iteration",
+            "x": 20.0,
+            "y": 61.0,
+            "w": 54.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-032.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/SbcQYbrvAfI/slide-032.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666156.7042048,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/opencv-adaptive",
+        "text": "BaUB· JsoN_wobpsge_aanation.lpynb M\nC proh+t-LtarnitO 'coding_sgent rues_optim..?.conde. banchmr'a.:> ba bunch_hard + Code + Myrkdom | > Aun Al O Restan E Cor Al Cuipuu B Vrew data Jupylr Vsriabhs nolcbooks ) O JsON_waboage_Lmerstlor.gymb ) us Ootimiring JSON Wobpaga Prompts with the Arize Promgt Lea! Here is lho prormpt thst schleved the best test occurscy scross the optimlzatlon Herations.\n.' datnsets notebooks arfzaar support query.c.. onenRao cot-wontia D Jsoh rebpage oen M phoena supporl guery_c.: Bama_suppori query_opti E metaprompttxt: dat get_test_Droaptfreiults): Extract the pronpt that schieved 'tho best test accuracy. Args! Returnsi.. tuple! (best_proapt, best_accuracy. ittrtion_nmber) ' resultsl Reiults' frou opttaize_ loop or erptrinent. 1.\n?OUTLNE )TIMELUNE $ optimizer_idk soiod A: 5 JSon webp+ge_goneretioni traln.csv poptxaps Arenb todans a tst.csy. L mun' O. prongtierning E tvafuator-prompt-so.txt. ol-iowosd-oypnp-apu: eyauator-prompi-100.xt waluator-prompt-i0.tt nte-checker-prompt-30. u u 01A9OJ Sect Postgrc S Dest oronpt, 'best_accuricy. best_iter'- oet_best_proaprl resuits) printt reest Ogtimixed Prorpt Iiteratton (best_Iter), cccuracyt: (bestsccuracyi.3th)t\") print(best proept) I Lyage. wraapte?. prlat(rroriginel Proopti: (systeaproopt)-).. pronots = resultil'propt'].. + Fins tho iteration with hlghesr tesr. sccuracy test_prorot = pronpts(best_iteratlon] [.111.]511ns01 =. 521110*1501 return best_proupt, best accuracy. best_iteration best_iterstion = test netrits.iodex(max(test petrics)) best_sccuracy = test_netrics Ibest_lteration]: tt CunorTab Ia-",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1778.0
+      },
+      "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "BaUB· JsoN_wobpsge_aanation.lpynb M\nC proh+t-LtarnitO 'coding_sgent rues_optim..?.conde. banchmr'a.:> ba bunch_hard + Code + Myrkdom | > Aun Al O Restan E Cor Al Cuipuu B Vrew data Jupylr Vsriabhs nolcbooks ) O JsON_waboage_Lmerstlor.gymb ) us Ootimiring JSON Wobpaga Prompts with the Arize Promgt Lea! Here is lho prormpt thst schleved the best test occurscy scross the optimlzatlon Herations.\n.' datnsets notebooks arfzaar support query.c.. onenRao cot-wontia D Jsoh rebpage oen M phoena supporl guery_c.: Bama_suppori query_opti E metaprompttxt: dat get_test_Droaptfreiults): Extract the pronpt that schieved 'tho best test accuracy. Args! Returnsi.. tuple! (best_proapt, best_accuracy. ittrtion_nmber) ' resultsl Reiults' frou opttaize_ loop or erptrinent. 1.\n?OUTLNE )TIMELUNE $ optimizer_idk soiod A: 5 JSon webp+ge_goneretioni traln.csv poptxaps Arenb todans a tst.csy. L mun' O. prongtierning E tvafuator-prompt-so.txt. ol-iowosd-oypnp-apu: eyauator-prompi-100.xt waluator-prompt-i0.tt nte-checker-prompt-30. u u 01A9OJ Sect Postgrc S Dest oronpt, 'best_accuricy. best_iter'- oet_best_proaprl resuits) printt reest Ogtimixed Prorpt Iiteratton (best_Iter), cccuracyt: (bestsccuracyi.3th)t\") print(best proept) I Lyage. wraapte?. prlat(rroriginel Proopti: (systeaproopt)-).. pronots = resultil'propt'].. + Fins tho iteration with hlghesr tesr. sccuracy test_prorot = pronpts(best_iteratlon] [.111.]511ns01 =. 521110*1501 return best_proupt, best accuracy. best_iteration best_iterstion = test netrits.iodex(max(test petrics)) best_sccuracy = test_netrics Ibest_lteration]: tt CunorTab Ia-",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/SbcQYbrvAfI/slide-032.html"
+    }
+  ],
+  "rejected": []
+}

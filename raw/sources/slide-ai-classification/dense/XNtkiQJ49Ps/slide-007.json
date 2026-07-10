@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Default chat erobyymgrlcor!.x!9 W/enntn\nPr.R*\nUnits of work\nNo Unrusted\nTrustod\nHuman Juxgement\nAl Engineer AGENTS NEED MORE THAN A CHAT\nEUROPE\nGoogle DeepMind Presented 6y # Braintrust Workos OpenAl",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense diagram labels, small legend text, and footer branding are better suited to OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with light gray footer band and a dark stage strip at far left",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Default chat",
+        "x": 23.0,
+        "y": 5.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Units of work",
+        "x": 23.0,
+        "y": 43.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Write report on employment contracts",
+        "x": 74.0,
+        "y": 6.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Review",
+        "x": 91.0,
+        "y": 7.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "AGENTS NEED MORE THAN A CHAT",
+        "x": 23.0,
+        "y": 74.0,
+        "w": 45.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "Braintrust WorkOS OpenAI",
+        "x": 23.0,
+        "y": 85.0,
+        "w": 42.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/XNtkiQJ49Ps/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665251.8507442,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Default chat",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Default chat erobyymgrlcor!.x!9 W/enntn\nPr.R*\nUnits of work\nNo Unrusted\nTrustod\nHuman Juxgement\nAl Engineer AGENTS NEED MORE THAN A CHAT\nEUROPE\nGoogle DeepMind Presented 6y # Braintrust Workos OpenAl",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 344.32
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Default chat erobyymgrlcor!.x!9 W/enntn\nPr.R*\nUnits of work\nNo Unrusted\nTrustod\nHuman Juxgement\nAl Engineer AGENTS NEED MORE THAN A CHAT\nEUROPE\nGoogle DeepMind Presented 6y # Braintrust Workos OpenAl",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

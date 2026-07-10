@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Come to SF",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable slide text; OCR not needed",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(180deg, #22000f, #140008)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Come to SF",
+        "x": 17.0,
+        "y": 16.0,
+        "w": 20.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/G6IlDzj8OjA/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659495.7986,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Come to SF",
+  "advanced_ocr": {}
+}

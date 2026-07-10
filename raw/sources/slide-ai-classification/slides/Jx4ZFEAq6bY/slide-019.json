@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.88,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "reffect Memories 0/pg\nPROJIC! Feomceviewedtraces.Sortbytimeora\nOveniw\nPrcpects ）\ncel\nRevievs LEANNEETASE eerou fauebeupug\nproject Scops\niing CUeage sJafes4s-8fue-Siea-a97f-e29leSoo8rde 68/2026.4251FM FAILED\nRETLEOTIGN\nSCMUARY\nThe userreguestedagaming moueDut theagentfalod toretrone anyresits\nbndoeppouppu broodersearchterm\nCOROTACTOM\nagentRTx The sgent shcud hse triedabeosde seych_groouctstooltofindreie.antitems.ratherthnghinguparee",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with many small text elements and interface labels that OCR can capture more reliably than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "dark product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Memories",
+        "x": 21.0,
+        "y": 8.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "from reviewed traces. Sort by time or Q.",
+        "x": 21.0,
+        "y": 15.0,
+        "w": 36.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Project Skill",
+        "x": 21.0,
+        "y": 24.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Need at least 5 reviewed memories to create a skill",
+        "x": 21.0,
+        "y": 31.0,
+        "w": 41.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "find me a gaming mouse",
+        "x": 21.0,
+        "y": 44.0,
+        "w": 28.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/slides/Jx4ZFEAq6bY/slide-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661847.8500154,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Memories",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "reffect Memories 0/pg\nPROJIC! Feomceviewedtraces.Sortbytimeora\nOveniw\nPrcpects ）\ncel\nRevievs LEANNEETASE eerou fauebeupug\nproject Scops\niing CUeage sJafes4s-8fue-Siea-a97f-e29leSoo8rde 68/2026.4251FM FAILED\nRETLEOTIGN\nSCMUARY\nThe userreguestedagaming moueDut theagentfalod toretrone anyresits\nbndoeppouppu broodersearchterm\nCOROTACTOM\nagentRTx The sgent shcud hse triedabeosde seych_groouctstooltofindreie.antitems.ratherthnghinguparee",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 487.04
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "reffect Memories 0/pg\nPROJIC! Feomceviewedtraces.Sortbytimeora\nOveniw\nPrcpects ）\ncel\nRevievs LEANNEETASE eerou fauebeupug\nproject Scops\niing CUeage sJafes4s-8fue-Siea-a97f-e29leSoo8rde 68/2026.4251FM FAILED\nRETLEOTIGN\nSCMUARY\nThe userreguestedagaming moueDut theagentfalod toretrone anyresits\nbndoeppouppu broodersearchterm\nCOROTACTOM\nagentRTx The sgent shcud hse triedabeosde seych_groouctstooltofindreie.antitems.ratherthnghinguparee",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

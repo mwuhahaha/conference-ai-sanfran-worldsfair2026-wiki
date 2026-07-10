@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agents typically use tool (function) calling to execute steps\nAIE\nHatwral lusgusge Paylotd Mtdtd far too!\n:(f:.+y.).:sw+ea! Wm+: sttp.2\ntef sttp_2(foo): too! Strtrtured Too!\nrtura b.r\nhttps:1/llianweng.qilhub.iq/cosis/2023-06-23-aqent\n88 Microsoft smol?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small diagram labels and code-like text are better handled by OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light beige",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 12.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "Agents typically use tool (function) calling to execute steps",
+        "x": 29.0,
+        "y": 1.0,
+        "w": 66.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Natural language",
+        "x": 31.0,
+        "y": 34.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Bind tool to LLM",
+        "x": 55.0,
+        "y": 31.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Payload needed for tool",
+        "x": 76.0,
+        "y": 31.0,
+        "w": 20.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/ib-wTAvCZqg/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669139.44012,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Agents typically use tool (function) calling to execute steps",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Agents typically use tool (function) calling to execute steps\nAIE\nHatwral lusgusge Paylotd Mtdtd far too!\n:(f:.+y.).:sw+ea! Wm+: sttp.2\ntef sttp_2(foo): too! Strtrtured Too!\nrtura b.r\nhttps:1/llianweng.qilhub.iq/cosis/2023-06-23-aqent\n88 Microsoft smol?",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 383.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Agents typically use tool (function) calling to execute steps\nAIE\nHatwral lusgusge Paylotd Mtdtd far too!\n:(f:.+y.).:sw+ea! Wm+: sttp.2\ntef sttp_2(foo): too! Strtrtured Too!\nrtura b.r\nhttps:1/llianweng.qilhub.iq/cosis/2023-06-23-aqent\n88 Microsoft smol?",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

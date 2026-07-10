@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "LLaMA: Open and Efficient Foundation Language Models",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense paper screenshot with small multi-column text; OCR will capture details more reliably than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "February, 2023: ... and Llama wins, almost",
+        "x": 18.0,
+        "y": 0,
+        "w": 64.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "LLaMA: Open and Efficient Foundation Language Models",
+        "x": 25.0,
+        "y": 15.0,
+        "w": 50.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Meta AI",
+        "x": 46.0,
+        "y": 34.0,
+        "w": 8.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/84Vtz2IL1Ug/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658859.6723185,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "LLaMA: Open and Efficient Foundation Language Models",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

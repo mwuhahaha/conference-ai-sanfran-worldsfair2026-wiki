@@ -1,58 +1,72 @@
 {
   "is_content_slide": true,
-  "confidence": 0.97,
+  "confidence": 0.76,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "AI Engineer\nWorld's Fair\n\nPRESENTED BY\nMicrosoft\n\nGoogle DeepMind\n\nEngineering the future of AI",
+  "text": "Engineering the future of AI",
   "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Large embedded product UI screenshot with many small labels and UI chrome; OCR will be more reliable than hand transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
   "layout": {
-    "background": "dark space/nebula gradient with black base",
+    "background": "#050505",
     "style": "product",
     "blocks": [
       {
-        "role": "logo",
-        "text": "AI Engineer World's Fair",
-        "x": 4.0,
-        "y": 4.0,
-        "w": 18.0,
-        "h": 13.0
-      },
-      {
-        "role": "logo",
-        "text": "PRESENTED BY Microsoft",
-        "x": 4.0,
-        "y": 16.0,
-        "w": 18.0,
-        "h": 20.0
-      },
-      {
-        "role": "logo",
-        "text": "Google DeepMind",
-        "x": 6.0,
-        "y": 46.0,
-        "w": 15.0,
-        "h": 10.0
-      },
-      {
-        "role": "code",
-        "text": "Launch\nautoresearch-k8s\nRuns Agents Config Monitor\nQueue Kubernetes Active Prioritization\nNew response Go to chat",
-        "x": 21.0,
-        "y": 4.0,
-        "w": 76.0,
-        "h": 50.0
-      },
-      {
         "role": "title",
         "text": "Engineering the future of AI",
-        "x": 29.0,
-        "y": 81.0,
-        "w": 45.0,
-        "h": 13.0
+        "x": 33.0,
+        "y": 82.0,
+        "w": 43.0,
+        "h": 11.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer World's Fair",
+        "x": 1.0,
+        "y": 3.0,
+        "w": 14.0,
+        "h": 14.0
+      },
+      {
+        "role": "logo",
+        "text": "Presented by Microsoft",
+        "x": 4.0,
+        "y": 12.0,
+        "w": 14.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Launch",
+        "x": 50.0,
+        "y": 5.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "autoresearch-k8s",
+        "x": 34.0,
+        "y": 14.0,
+        "w": 20.0,
+        "h": 8.0
       }
     ]
   },
+  "image_index": 3,
+  "filename": "slide-011.jpg",
   "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-011.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783646888.079681
+  "classified_at_epoch": 1783657451.5019014,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

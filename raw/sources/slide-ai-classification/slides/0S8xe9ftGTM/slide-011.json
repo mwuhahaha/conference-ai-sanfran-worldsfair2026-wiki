@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Engineer World's Fair\nCall For Poster & Poaster Session!\nPosters & Poasters\nPresent a research paper or a hot take as part of the official Posters & Poasters track at AI Engineer World's Fair.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Webpage-style poster call screenshot with several small text regions.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Call For Poster & Poaster Session!",
+        "x": 49.0,
+        "y": 34.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Posters & Poasters",
+        "x": 50.0,
+        "y": 45.0,
+        "w": 18.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656223.855017,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "CalFerPowrerPoasterSaeaior World's Fair Al Engineer\nCall For Poster & Poaster Session!\nPosters&Poasters\nPresent a reseerch puper or a hot taktas purt ef e offcial Posters &Poerters tick at Al Engineec Worid's Fair.\nChcktoasdspeakefrotos\nX 6thingsaboutAlE202..",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 323.44
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "AI Engineer World's Fair\nCall For Poster & Poaster Session!\nPosters & Poasters\nPresent a research paper or a hot take as part of the official Posters & Poasters track at AI Engineer World's Fair.",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide text and corrected obvious OCR errors in the title and body; ignored browser/UI text."
+  }
+}

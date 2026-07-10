@@ -1,0 +1,80 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "none",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code diff plus explanatory bullet text in side panel.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 24.0,
+        "w": 13.0,
+        "h": 20.0
+      },
+      {
+        "role": "title",
+        "text": "Connectors",
+        "x": 72.0,
+        "y": 14.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Admin Connections Page",
+        "x": 72.0,
+        "y": 20.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "How it works:",
+        "x": 72.0,
+        "y": 36.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "server/src/routes/admin/connections.svelte",
+        "x": 18.0,
+        "y": 4.0,
+        "w": 78.0,
+        "h": 80.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 63.0,
+        "y": 82.0,
+        "w": 10.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-022.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-022.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659324.0673597,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

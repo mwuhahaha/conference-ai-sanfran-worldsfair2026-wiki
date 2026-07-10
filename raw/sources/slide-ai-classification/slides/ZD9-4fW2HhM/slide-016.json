@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "reality is messy\nwebhook\ncrash\nretry",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f7f3ea",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "reality is messy",
+        "x": 40.0,
+        "y": 18.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "webhook",
+        "x": 16.0,
+        "y": 39.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "fires twice",
+        "x": 15.0,
+        "y": 61.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "crash",
+        "x": 47.0,
+        "y": 39.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "mid-run",
+        "x": 46.0,
+        "y": 61.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "retry",
+        "x": 78.0,
+        "y": 39.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "run it again",
+        "x": 74.0,
+        "y": 61.0,
+        "w": 15.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/ZD9-4fW2HhM/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665904.3192945,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "reality is messy\nwebhook\ncrash\nretry",
+  "advanced_ocr": {}
+}

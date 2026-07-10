@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Room to act, safely.\nCode runs in isolated sandboxes, so agents can take real action without putting production systems or customer data at risk.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray and white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "diagram",
+        "text": "chat screenshot",
+        "x": 10.0,
+        "y": 6.0,
+        "w": 38.0,
+        "h": 88.0
+      },
+      {
+        "role": "title",
+        "text": "Room to act, safely.",
+        "x": 63.0,
+        "y": 24.0,
+        "w": 24.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Code runs in isolated sandboxes, so agents can take real action without putting production systems or customer data at risk.",
+        "x": 62.0,
+        "y": 72.0,
+        "w": 33.0,
+        "h": 17.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-016.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669113.793282,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Room to act, safely.\nCode runs in isolated sandboxes, so agents can take real action without putting production systems or customer data at risk.",
+  "advanced_ocr": {}
+}

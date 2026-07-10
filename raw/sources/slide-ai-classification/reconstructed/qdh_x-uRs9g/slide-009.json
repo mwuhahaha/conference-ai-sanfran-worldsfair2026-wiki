@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "YIN - MODEL SUPPORTIS KEY, OPEN SOURCEIS NOT STOPPINg\nModcl Pcrformancc vs sizc\nAIE ★\n★\n3:0\nGommo 4 modol porformonco =your infra noods to koepup\nAlEngineer\nAEnginccy EUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart with small axes and labels",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "YIN — MODEL SUPPORT IS KEY, OPEN SOURCE IS NOT STOPPING",
+        "x": 41.0,
+        "y": 2.0,
+        "w": 46.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Model Performance VS Size",
+        "x": 49.0,
+        "y": 8.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Bx Score",
+        "x": 38.0,
+        "y": 40.0,
+        "w": 8.0,
+        "h": 20.0
+      },
+      {
+        "role": "label",
+        "text": "Total Model Size (Billion Parameters)",
+        "x": 51.0,
+        "y": 74.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Gemma 4 model performance — your infra needs to keep up",
+        "x": 48.0,
+        "y": 78.0,
+        "w": 31.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-009.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671263.9852653,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/opencv-adaptive",
+    "text": "YIN - MODEL SUPPORTIS KEY, OPEN SOURCEIS NOT STOPPINg\nModcl Pcrformancc vs sizc\nAIE ★\n★\n3:0\nGommo 4 modol porformonco =your infra noods to koepup\nAlEngineer\nAEnginccy EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 320.32
+  },
+  "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "YIN - MODEL SUPPORTIS KEY, OPEN SOURCEIS NOT STOPPINg\nModcl Pcrformancc vs sizc\nAIE ★\n★\n3:0\nGommo 4 modol porformonco =your infra noods to koepup\nAlEngineer\nAEnginccy EUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

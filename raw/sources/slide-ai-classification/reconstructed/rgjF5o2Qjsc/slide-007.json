@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "speaker_stage",
+  "reject_reason": "speaker on stage, not a readable slide",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "gray-green glass stage",
+    "style": "minimal",
+    "blocks": []
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/reconstructed-slides/rgjF5o2Qjsc/slide-007.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671834.6313462,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

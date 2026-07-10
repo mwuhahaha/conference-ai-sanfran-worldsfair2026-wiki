@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Bypassing the Multimodal Tax\nFramework-Free Hybrid RAG, Raw SQL RRF, and Live UI Telemetry\nAbed Matini\nSenior Backend Developer - Ogilvy\nAI Engineer World's Fair 2026 - Online Track",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(#252525,#9a9a9a)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Bypassing the Multimodal Tax",
+        "x": 7.0,
+        "y": 19.0,
+        "w": 56.0,
+        "h": 14.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Framework-Free Hybrid RAG, Raw SQL RRF, and Live UI Telemetry",
+        "x": 7.0,
+        "y": 34.0,
+        "w": 68.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Abed Matini\nSenior Backend Developer - Ogilvy\nAI Engineer World's Fair 2026 - Online Track",
+        "x": 18.0,
+        "y": 48.0,
+        "w": 32.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/Akm1sqvWG4A/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658490.564768,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Bypassing the Multimodal Tax\nFramework-Free Hybrid RAG, Raw SQL RRF, and Live UI Telemetry\nAbed Matini\nSenior Backend Developer - Ogilvy\nAI Engineer World's Fair 2026 - Online Track",
+  "advanced_ocr": {}
+}

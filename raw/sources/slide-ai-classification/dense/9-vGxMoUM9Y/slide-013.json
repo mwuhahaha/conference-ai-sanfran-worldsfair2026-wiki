@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Learn more\nGithub: github.com/ShreyaR/guardrails\nWebsite: guardrailsai.com\nTwitter: @ShreyaR or @guardrails_ai",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f2f2f2 with faint light-gray watermark circle on right",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Learn more",
+        "x": 6.0,
+        "y": 2.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Github: github.com/ShreyaR/guardrails",
+        "x": 5.0,
+        "y": 16.0,
+        "w": 49.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Website: guardrailsai.com",
+        "x": 5.0,
+        "y": 28.0,
+        "w": 38.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Twitter: @ShreyaR or @guardrails_ai",
+        "x": 5.0,
+        "y": 40.0,
+        "w": 56.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "Guardrails AI",
+        "x": 4.0,
+        "y": 88.0,
+        "w": 12.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/dense-slides/9-vGxMoUM9Y/slide-013.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658793.1166832,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Learn more\nGithub: github.com/ShreyaR/guardrails\nWebsite: guardrailsai.com\nTwitter: @ShreyaR or @guardrails_ai",
+  "advanced_ocr": {}
+}

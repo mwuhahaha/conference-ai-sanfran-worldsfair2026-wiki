@@ -17,101 +17,77 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/iNkFlCiij0U/slide-001.jpg]]
-
-OCR text:
-
-> The Art & Science
-> of Benchmarking
-> Agents
-
 ![[assets/slides/iNkFlCiij0U/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/iNkFlCiij0U/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/right-72/opencv-adaptive`.
+- OCR decision: ready — dense multi-column slide with small text and logos
 
-> @ Snorkel te Frontier al bata tab
-> Alex Ratner Sermareners FOES add Aapiied Al Engrimers truce QOD + 2 reer acer papers pottanis
-> ve ae PAyetty and Traits eat tutions woraing on dale on dats Cerne Al gent feaipasnion aeahey
-> a*% Meantane bs Contre AL st ewiling, pital tabs — ay
-> ab tf AM pte tetas. at 5 é; o
-> * * a, jee 8 C60 4 O8in. Be © A eneira demtinaes Oace
-> © item sucetae
-> * bd ooo
-> Chris Ri Star Se CUTA = 2 8 SAM Lge stan ot Lik i IT SeD
-> bf bd pane ; © SOLA pau eet eS Jaren this andetitandeg and
-> ra * ; crm Bune gun Yale Eating Spouse
-> @e ene ee Aamards at Newt, KL CLR UAL VLO8, and more
-> Icepehitee Weta, A
-> a; TEER ES! erpeigcarnemenpennneeeTE ee Comuthored / contributed te 20+ benchenarhs
-> Frod Sala “este, tabed we bencbnan | eae ae © tyenicany Bhar aeemgnapeaa
-> Oo Marne ace y aie beer arent ata rege peteret Sor eo teem cect atm eters
-> 5 SALERUIRRES EE agesbacanlh Summsens es ie vaydticben peen
-> lerigneney Hoes ERAS SOiERNE ra sIRKEMEN, sas
-> ee 5 ‘ 2 AUER Fen eeeerrre
-> = NH Ae a ations ated er mee ne gen pawn
-> Ie eSe asco atalys aed tere eg 2 thy ware,
-> 8 Mateo Can rarer arccon
-> Bret a tea teats
-> ee
-> Fd
+Slide text:
+
+> Snorke The Frontier Al Data Lab
+> Academic Labs! Team Publications/OsS Collsborations
+> Alex Ratrer Stmlord Ppo. Co-TO LCEO Asu, Prol Ltult iLlL anduyry Jnd lesdung instiution moruing on dutu (enlrk A mith fexng global Lbs Rtsearchers, FDEs, and Applied A Erginrers frorn. ondLLTenkriAnd foundlnon modthy
+> Chris Re UA
+> Prof. at Susfeeu Co foundir. Vanfotd Center for Hretrch on 1 Yalc A+urd at Hrurts, Ktl, klk, Ull, Y.Dt, an4 more
+> Expertlso and Capablrties Bonchmarks
+> Frod Sats UCLA PhD.Aust Prof.st ClirSnolan Hieh prror proramTk ala dreapment lor Cotachartd + cetihutd to Uo Tnrb.ein. Liart-Trr tt et adancd phyk1 proolrs
+> Aerrth aorkhoa, harrs, ard toct u+ rmcdetn. -
+> 12
+> Bnere A I Popr tlly + Carld+ren t Not yr dHttuler
+> Google DeepMind
 
 ![[assets/slides/iNkFlCiij0U/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/iNkFlCiij0U/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/full`.
+- OCR decision: ready — simple title slide with prominent text plus sponsor logos
 
-> an Benchmarks
-> * *
-> x .
-> 5g bd
-> Sd ra bd
-> A S3M+ commitment to
-> open benchmarks
-> PRCmSTaL dC) oes al a Fa a ans togetherar FACTORY harbor (on ea o
-> | Al Engineer |
+Slide text:
+
+> Open Benchmarks
+> AIE Grants
+> A$3M+commitmentto
+> openbenchmarks
+> Snorkel HuggingFace PRImEIntellect together.ai FACTORY harbor OPyTorch
+> AIEngineer
 > EUROPE
-> i Pe a
-> Asad
 
 ![[assets/slides/iNkFlCiij0U/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/iNkFlCiij0U/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/right-72/contrast`.
+- OCR decision: ready — dense slide with chart panels and small text
 
-> Difficulty / Model Headroom -
-> Benchmark is unsaturated. 7
-> a * -
-> * ad ik ca
-> rs * ARC-AGI-3 er ae
-> 5g Sd
-> an el Shipped with <1% model score (100% of
-> raster geretsolvableby homans!
+Slide text:
+
+> Difficulty / Model Headroom
+> Benchmarkis unsaturated.
+> ARC-AGI-3
+> tasks were solvable by humans) Shipped with <1% model score (100% of
+> The Human-Al Gap
 > Engineering the future of Al
-> ;
-> aay
 
 ![[assets/slides/iNkFlCiij0U/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/iNkFlCiij0U/slide-005.html)
+- AI slide classifier: `title_card` confidence `0.94`
+- Text source: agent_vision.
 
-> THE ART
-> Lasting benchmarks push
-> the frontier
+Slide text:
 
-![[assets/slides/iNkFlCiij0U/slide-006.jpg]]
+> Lasting benchmarks push the frontier
 
-OCR text:
 
-> Snorkel The Frontier AI Data Lab
-> Propose a benchmark
-> benchmarks.snorkel.ai
-> @vincentsunchen
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/iNkFlCiij0U/slide-001.jpg) — `speaker_stage` confidence `0.96`; camera shot of speaker and audience with projected slide; not a clean presentation slide frame
+- [`slide-006.jpg`](/assets/slides/iNkFlCiij0U/slide-006.jpg) — `speaker_stage` confidence `0.95`; camera shot of speaker and audience with projected slide; not a clean presentation slide frame
+- [`slide-007.jpg`](/assets/slides/iNkFlCiij0U/slide-007.jpg) — `title_card` confidence `0.98`; Branding/title card with logo and URL only; no substantive presentation content.
 
-![[assets/slides/iNkFlCiij0U/slide-007.jpg]]
-
-OCR text:
-
-> AI Engineer
-> EUROPE
-> HTTPS://AI.ENGINEER
+Classification audit: `raw/sources/slide-ai-classification/slides/iNkFlCiij0U/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

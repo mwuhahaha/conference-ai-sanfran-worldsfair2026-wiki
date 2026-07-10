@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Watch what the training data changed\nThe poisoned data writes the backdoor into the model as a directional shift in activations. Don't analyze joint features — analyze the difference.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large title and core message are directly readable.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "THE FIX\nWatch what the training data changed",
+        "x": 5.0,
+        "y": 4.0,
+        "w": 55.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "The poisoned data writes the backdoor into the model as a directional shift in activations. Don't analyze joint features — analyze the difference.",
+        "x": 5.0,
+        "y": 20.0,
+        "w": 90.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Δa = a_fine-tuned - a_base",
+        "x": 5.0,
+        "y": 36.0,
+        "w": 90.0,
+        "h": 23.0
+      },
+      {
+        "role": "body",
+        "text": "Train a sparse autoencoder on Δa\nA 'Diff-SAE' learns interpretable features over the difference — not the raw activations.",
+        "x": 5.0,
+        "y": 64.0,
+        "w": 43.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "The backdoor pops out\nIt surfaces as a single feature that fires on the trigger. One direction, not a needle in a haystack.",
+        "x": 52.0,
+        "y": 64.0,
+        "w": 43.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/IQkVMvXQKLY/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660474.6838706,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Watch what the training data changed\nThe poisoned data writes the backdoor into the model as a directional shift in activations. Don't analyze joint features — analyze the difference.",
+  "advanced_ocr": {}
+}

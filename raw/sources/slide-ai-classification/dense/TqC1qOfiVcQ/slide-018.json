@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "speaker_stage",
+  "reject_reason": "speaker/audience stage shot; not a presentation slide",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "#eef2f5",
+    "style": "light",
+    "blocks": []
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-018.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664709.054659,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

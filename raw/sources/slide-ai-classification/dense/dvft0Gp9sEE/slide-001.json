@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Manual Analysis Keyword Analysl\nQuality High\" Low.\nScalability Low: High\nContext Rich: Missing\nFeasibility Impossible Limited",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense table text with multiple rows and columns; OCR is better suited than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(#dbeaf7,#c9ddf0)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Manual Analysis",
+        "x": 34.0,
+        "y": 31.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Keyword Analysis",
+        "x": 59.0,
+        "y": 31.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Quality\nScalability\nContext\nFeasibility",
+        "x": 12.0,
+        "y": 37.0,
+        "w": 23.0,
+        "h": 31.0
+      },
+      {
+        "role": "body",
+        "text": "High\nLow\nRich\nImpossible",
+        "x": 35.0,
+        "y": 37.0,
+        "w": 23.0,
+        "h": 31.0
+      },
+      {
+        "role": "body",
+        "text": "Low\nHigh\nMissing\nLimited",
+        "x": 59.0,
+        "y": 37.0,
+        "w": 23.0,
+        "h": 31.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/dvft0Gp9sEE/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667196.4070983,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/opencv-adaptive",
+    "text": "Manual Analysis Keyword Analysl\nQuality High\" Low.\nScalability Low: High\nContext Rich: Missing\nFeasibility Impossible Limited",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 237.72
+  },
+  "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Manual Analysis Keyword Analysl\nQuality High\" Low.\nScalability Low: High\nContext Rich: Missing\nFeasibility Impossible Limited",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

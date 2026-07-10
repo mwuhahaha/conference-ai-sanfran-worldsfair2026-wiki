@@ -1,0 +1,197 @@
+{
+  "video_id": "6YdPI9YbjbI",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot slide with multiple small text sections and logos; OCR should read the body more reliably than manual transcription in this triage pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "View logs in the UI & identify user feedback score",
+            "x": 37.0,
+            "y": 10.0,
+            "w": 46.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Set up human review in project configuration",
+            "x": 37.0,
+            "y": 23.0,
+            "w": 40.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Enter rapid review mode in UI & provide annotations",
+            "x": 37.0,
+            "y": 44.0,
+            "w": 46.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Optional: Save spans to a dataset",
+            "x": 37.0,
+            "y": 70.0,
+            "w": 31.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Optional: Bring the dataset into the playground",
+            "x": 37.0,
+            "y": 86.0,
+            "w": 43.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 3.0,
+            "y": 15.0,
+            "w": 10.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 48.0,
+            "y": 90.0,
+            "w": 15.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 73.0,
+            "y": 89.0,
+            "w": 16.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/6YdPI9YbjbI/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658800.0886087,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/6YdPI9YbjbI/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Create a Braintrust project",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Content slide with a clear title, body instruction, and an embedded product UI screenshot containing small readable text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Create a Braintrust project",
+            "x": 41.0,
+            "y": 27.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "3. Create a new project with the name Unreleased-AI for our activities today",
+            "x": 40.0,
+            "y": 31.0,
+            "w": 37.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "Create project",
+            "x": 43.0,
+            "y": 39.0,
+            "w": 30.0,
+            "h": 25.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 3.0,
+            "y": 15.0,
+            "w": 10.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "AWS",
+            "x": 63.0,
+            "y": 87.0,
+            "w": 10.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/6YdPI9YbjbI/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658800.0897312,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Create a Braintrust project",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/6YdPI9YbjbI/slide-002.html"
+    }
+  ],
+  "rejected": []
+}

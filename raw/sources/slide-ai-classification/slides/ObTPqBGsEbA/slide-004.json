@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Five Pillars of Production AI\nEvaluation\nObservability\nData Foundation\nOrchestration\nGovernance",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray with black left sidebar and black footer",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 19.0
+      },
+      {
+        "role": "caption",
+        "text": "THE FRAMEWORK",
+        "x": 29.0,
+        "y": 4.0,
+        "w": 20.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "The Five Pillars of Production AI",
+        "x": 28.0,
+        "y": 9.0,
+        "w": 54.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "01\nEvaluation",
+        "x": 27.0,
+        "y": 29.0,
+        "w": 13.0,
+        "h": 36.0
+      },
+      {
+        "role": "body",
+        "text": "02\nObservability",
+        "x": 41.0,
+        "y": 29.0,
+        "w": 13.0,
+        "h": 36.0
+      },
+      {
+        "role": "body",
+        "text": "03\nData Foundation",
+        "x": 55.0,
+        "y": 29.0,
+        "w": 13.0,
+        "h": 36.0
+      },
+      {
+        "role": "body",
+        "text": "04\nOrchestration",
+        "x": 69.0,
+        "y": 29.0,
+        "w": 13.0,
+        "h": 36.0
+      },
+      {
+        "role": "body",
+        "text": "05\nGovernance",
+        "x": 83.0,
+        "y": 29.0,
+        "w": 13.0,
+        "h": 36.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 59.0,
+        "y": 88.0,
+        "w": 20.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/ObTPqBGsEbA/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662690.3150868,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Five Pillars of Production AI\nEvaluation\nObservability\nData Foundation\nOrchestration\nGovernance",
+  "advanced_ocr": {}
+}

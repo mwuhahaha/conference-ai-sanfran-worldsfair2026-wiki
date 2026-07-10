@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Lessons from OpenAl Deep Research\nLLM agents can work for long multi-step tasks\nVibe check = impressive\nStill struggles“out of distribution”\nBig labswill keep making agents\nDon't know full details, but..\nHow it works C05\nDeepresearch was trained using end-to-end reinforcement\ndomains. Through that training, it learned to plan and execute a learning on hard browsing and reasoning tasks across a range of The more the model browses and thinks about what its browsing. MaxTool Calls\nmulti-step trajectory to find the data it needs, backtracking and the better it does, which is why giving it time to think is important.\nreacting to real-time information where necessary. The model is (OpenAl.'25)",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Slide has a dense text inset and a chart; OCR is the right first-pass extraction method.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ededed with black inset panels",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Lessons from OpenAI Deep Research",
+        "x": 4.0,
+        "y": 3.0,
+        "w": 55.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "LLM agents can work for long multi-step tasks\nVibe check = impressive\nBig labs will keep making agents\nDon't know full details, but...",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 46.0,
+        "h": 28.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "How it works",
+        "x": 2.0,
+        "y": 48.0,
+        "w": 36.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "reinforcement learning",
+        "x": 41.0,
+        "y": 58.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Max Tool Calls",
+        "x": 73.0,
+        "y": 49.0,
+        "w": 20.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/JIsgyk0Paic/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661089.1655905,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Lessons from OpenAI Deep Research",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Lessons from OpenAl Deep Research\nLLM agents can work for long multi-step tasks\nVibe check = impressive\nStill struggles“out of distribution”\nBig labswill keep making agents\nDon't know full details, but..\nHow it works C05\nDeepresearch was trained using end-to-end reinforcement\ndomains. Through that training, it learned to plan and execute a learning on hard browsing and reasoning tasks across a range of The more the model browses and thinks about what its browsing. MaxTool Calls\nmulti-step trajectory to find the data it needs, backtracking and the better it does, which is why giving it time to think is important.\nreacting to real-time information where necessary. The model is (OpenAl.'25)",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1117.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Lessons from OpenAl Deep Research\nLLM agents can work for long multi-step tasks\nVibe check = impressive\nStill struggles“out of distribution”\nBig labswill keep making agents\nDon't know full details, but..\nHow it works C05\nDeepresearch was trained using end-to-end reinforcement\ndomains. Through that training, it learned to plan and execute a learning on hard browsing and reasoning tasks across a range of The more the model browses and thinks about what its browsing. MaxTool Calls\nmulti-step trajectory to find the data it needs, backtracking and the better it does, which is why giving it time to think is important.\nreacting to real-time information where necessary. The model is (OpenAl.'25)",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

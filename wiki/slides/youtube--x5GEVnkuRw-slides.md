@@ -17,804 +17,500 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/-x5GEVnkuRw/slide-001.jpg]]
-
-OCR text:
-
-> ~~ a Al engincer
-> 
-> icone | World's Fair |
-> 
-> Ais} [o) of =) g
-> Structuring the Unstructured: Advanced
-> Document Parsing for Al Workflows
-> AT Engineer: 2026
-> (OX-to fool an mee
-> Sen:or Developer Advocate ;
-> Bacenae sesame sink ©| _ rs
-
 ![[assets/slides/-x5GEVnkuRw/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+
+Slide text:
 
 > We've got a lot to cover today!
-> pe ©
-> PDF
-> a
-> Wait, so 85% of the
-> world’s data is...
-> unstructured?!
+> Wait, so 85% of the world's data is... unstructured?!
 
 ![[assets/slides/-x5GEVnkuRw/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
+
+Slide text:
 
 > We've got a lot to cover today!
-> , Azure Al Document Intelligence
-> A . > > 8) aomnmeemeeene einen
-> PD r UamaPerse: Transtorm unstucurea «= AMazon Textract
-> F ) But current solutions are — S#att LM ovemizedfomats treme eros temtet te manera tna meneens
-> proprietary, and require
-> a sending your private data!
-> Wait, so 85% of the a oS ee se a
-> world’s data is... "een so seen me re
-> unstructured?! let's learn about l : nit Nowe
-> extraction, parsing, ek or » er psis
-> chunking, and much more! ) ae “gD TE, fa
-> ( tee Ee
-> Se a
-> So, how can we easily parse
-> bes graphs, tables, etc to formats
+> But current solutions are proprietary, and require sending your private data!
+> let's learn about extraction, parsing, chunking, and much more!
+> So, how can we easily parse charts, graphs, tables, etc to formats
 
 ![[assets/slides/-x5GEVnkuRw/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> Data is the key ingredient behind Al applications!
-> Chaptar 2 Creating an Amazon $3 cheat ind [=r eeeesee
-> steno S Shae
-> — vem ane Financial
-> “Tote — =. _ Documents
-> — Technical Meeting Minutes
-> Documentation e
+Slide text:
+
+> Data is the key ingredient behind AI applications!
+> Technical Documentation
+> Meeting Minutes
+> Financial Documents
 
 ![[assets/slides/-x5GEVnkuRw/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> Data is the key ingredient behind Al applications!
-> a
-> ea — iEeses-+ Powering:
-> a - ceang anamaens3eerie9 : Sse RAG (Document Q&A)
-> notebook coms tae
-> . St Fine-Tuning
-> cecpnenuene tenes Hoegmte ge nah tener eT OO aT Financial
-> ee ae Documents 7 ete.
-> oe —— — SEs
-> _ cee Meeting Minutes 15s Wcenbee pitin ibe
-> nore wmen we eeeteneinns ~ amie ey J. Hugging Face
-> Do, a nVIDIA. .
-> ake geen . &3 databricks
-> are MMeta -s .
-> Technical ere nn .
-> Documentation / H Mi
-> + much more! es Go gle
-> Knowledge Base oe
-> nice his
+Slide text:
+
+> Data is the key ingredient behind AI applications!
+> Technical Documentation
+> Meeting Minutes
+> Financial Documents
+> Knowledge Base Articles
+> Powering:
+> RAG (Document Q&A)
+> Fine-Tuning
+> etc.
+> + much more!
 
 ![[assets/slides/-x5GEVnkuRw/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+
+Slide text:
 
 > Data processing & prep is quite important!
-> & gqurovduptal ©
-> © lol over 20 screnbtic papers now feature the
-> nontensical term ‘vegelatire electron
-> frcroscopy”
-> all because an Al mebnierpreted a 1959 article,
-> Merging ‘vegetalne and electron mcroscopy’
-> ” - . ae . - 4
-> 0 tet Fe ae Gan me a
-> bottom Ih fy mr epaewm ead enastnet the
-> to Ue overlies rerine maorengy Noo
-> pore Bipriaed In Cle cesmpoream was edtened
-> — ed} west part nf Th wee med known whey
-> ted ew antes asta os eee ce aneeber rest
-> Gee Cpa en oY
 
 ![[assets/slides/-x5GEVnkuRw/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Dense embedded text excerpts and a highlighted quote make this OCR-suitable.
+
+Slide text:
 
 > Data processing & prep is quite important!
-> WETU UOTUUMARD IU) BL CALIECS FD BUTE UN RCSCE UT LY pe. 16 Bas CUUCIUUOU ORS BL EOE
-> integrated at pH 7.0. Peptide was released part of the sporangia) wall was dissolved away
-> which eetabliahed that the coats contained sub- to allow release of the spore. It appears likely
-> strate for the lytic enzyme present in spores. that the exosporium of B. cerews does not hare
-> Peptide was also released [rom spore costs of B. a composition samilar to that of the vegetative
-> megatervum by the action of the enzyme from B. cell wall, from the results obtained by Dr. J. R.
-> ‘The lytio entyme did not how fe tee . .
-> chanel bog The spore develops in the vegetative ced, whach thus becomes a sporangum It a by ho mans certain what happens to the
-> The spore develops in the vegetative cell, snaetatne cell wall when the spore is released In Clostncum species tf appears that at least part of thes structure «6 retained as an
-> which thus becomes a sporangium. It is by no Gutter Memb ane ound the epore It the opine of some workers that the wal of the sporuaating ced forms the expeporium wher
-> a ae Pai . G0SIS a5 an Outer Coat around spores of several Bac dus species Spores of several vaneves of B cereus had exosporia whereas these
-> cel) wall when the spore is released. In Clee. 9 S7UCturet appeared to be advent from spores of B megotenum and B suptin It seers, however, that in Bacwus speces at least
-> fridium species it appears that at least pert of (it seater pert of the vegetative cet watts dssolved away before the developed spore 6 released If thes 6 true, then soluble
-> this struct is retained as an outer membrane Components contamng the characterst< cometuents shoukd appear in the mechan during wore release Cutture filtrates from &
-> 4 the It is the . of some Cereus organs at various stages of growth and sporulabon were hydrolyzed and the hycrolyzates anatyred for amino sugars and
-> » % chamingpuneld acid (28) Results showed that a large increase n the concentration of these substances in the cutture filtrate
-> workers that the wall of the sporulating call ood dung ipore release (lable 2), they were found to be present in a nonckatyzable peptide of the charactecnc type It was
-> forms the exosporium which existe a0 an outer conciaded that at least part of the sporangaal wal was dasolved away fo ahow release of the spore It appea’s baely that the
-> examporum of B cereus Goes not have a compoution smiw to that of the vegetative cel wast, from the cesults oblaned by Dr JR
-> Norns of Leeds Uneverstty (personal communcation) He treated spores with a mgity ace preparation of lyt enzyme fr
-> Cereus Spores and examined the effect by means of glection mcroscopy ~~ @
 
 ![[assets/slides/-x5GEVnkuRw/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> So,let'strya simplePDFparser...
-> KDO22.August14-18.2022.Ws
-> Table 1:DocLayNet ence (as %
-> mAP00.5-0.95meo % of Total mAP 9 0.5-0.95 (%) XIncomplete Veryfastandcheap
-> 22524 6318 62052 XNoisy XLossofstructure
-> 34733 5071 1107470 45976 CAEOTS →Unfitformostuse cases
-> []
-> reports and patents. Scanned documents wene excladed wheneve poslebecaeey canberoed orswedThsod not uasp Mow us to perfiorm annotatioe with rectangvilar bou such as a0v3. g
+Slide text:
+
+> So, let’s try a simple PDF parser...
+> Very fast and cheap
+> Incomplete
+> Loss of structure
+> Noisy
+> Unfit for most use cases
 
 ![[assets/slides/-x5GEVnkuRw/slide-009.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-009.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — The slide contains multiple dense document screenshots and small table text that are better suited to OCR.
+
+Slide text:
 
 > But powerful frontier models? Not bad!
-> ed atid ete eum
-> 
-> = SEED BES on Ce Y Good quality and
-> 
-> Se gba ge be be BO robustness
-> 
-> = ns SS se som ! Expensive (for now)
-> wee SEE we 2 FE. 1 Hard to achieve consistent
-> = SUSIE ESS - Cee structured output
-> 
-> Il Ee - mes i ew ieee a
-> Sites Ses soe se nee ~ Possible hallucinations
-> i worrioseneneaan Very costly at scal
-> WEES AUST EEEEEE See a” not always faithf
+> Good quality and robustness
+> Expensive (for now)
+> Hard to achieve consistent structured output
+> Possible hallucinations
+> Very costly at scale
+> not always faithful
 
 ![[assets/slides/-x5GEVnkuRw/slide-010.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-010.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> Maybe there's a middle ground... Welcome to Docling!
-> Renee: ae SES == YY Good quality
-> Ho Pilectissis Cay mn te orielR is leet i= Fast and cheap
-> e- nee hg mmm foe ee fuse 2 Efe go | Fully local operation
-> —  aeeRiewtome aim fe mfp ig tie pizis Structured format output
-> me EU 22 ~e Cost-effective at scale, wit
-> (Ee » sm few anjonle se eet 8 Cost-eff le, with
-> ame see ees me ee DB ee BODE consistent representation
-> I Soe ele ssinels BOF ee Be and high quality
-> Sieacmeios T eeeey —= -
-> repute ered ds AML foo ry ad aloo be Ene
+Slide text:
+
+> Maybe there’s a middle ground... Welcome to Docling!
 
 ![[assets/slides/-x5GEVnkuRw/slide-011.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-011.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> Docling: Get your documents ready for gen Al
-> An open source processor using advanced vision models * OCR
-> > Parsing of multipie document formats incl. PDF, iC ™
-> DOCX, XLSX, HTML, images, and more Oi ced thd
-> mee Gen
-> » Advanced PDF understanding with page layout, j= a - | | r
-> | '
-> reading order, table structure, code, formulas, - ast
-> image classification, etc
-> » Plug-and-play ecosystem integrations
-> » Local execution for sensitive data and
-> air-gapped environments
+Slide text:
+
+> Docling: Get your documents ready for gen AI
+> An open source processor using advanced vision models + OCR
+> Parsing of multiple document formats incl. PDF, DOCX, XLSX, HTML, images, and more
+> Advanced PDF understanding with page layout, reading order, table structure, code, formulas, image classification, etc
+> Plug-and-play ecosystem integrations
+> Local execution for sensitive data and air-gapped environments
 
 ![[assets/slides/-x5GEVnkuRw/slide-012.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-012.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — The slide has a complex flowchart, small table text, and dense metrics that are better handled by OCR.
+
+Slide text:
 
 > Docling: Scale, cost, and performance
-> 5
-> aan
-> me >
-> ie iiss ecg en Amram Mee & 475,019,140 PDFs parsed end-to-end
-> — 2 ree (Ss Aas CRRA OR PTERRS, Q 1,733 languages represented
-> [O mee tee weet Beene enews ror nes iJ ~3 trillion tokens (~2,918B) extracted
-> enclmis =—— SE esac M1 3.65 T8 of high-quatity, deduplicated text
-> . ~ ~ : ie DR TE Ve “* Data spanning 2013-2025 across 105
-> Aesdl fens Beansece wiles CommonCrawl snapshots
-> :
-> e
 > 
-> (=) (S) Fine PDFs 918/368*750/35 = 50
+> 475,019,140 PDFs parsed end-to-end
+> 1,733 languages represented
+> ~3 trillion tokens (~2,918B) extracted
+> 3.65 TB of high-quality, deduplicated text
+> Data spanning 2013-2025 across 105 CommonCrawl snapshots
 > 
-> : a eRge ERORS
-> 
-> = “ i
-> 
-> seeeeeetee mee | ee . Docling is 50 times more
-> 
-> oe — — cost-effective than VLMs!!
-> 
-> 6 Aen snes mary pe ae - k&
-> 
-> O mame tions to
-> 
-> Fine PDFs rasiors
-> 
-> ce
+> 918/368*750/35 = 50
+> Docling is 50 times more
+> cost-effective than VLMs!!
 
 ![[assets/slides/-x5GEVnkuRw/slide-013.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-013.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast` reconciled by agent.
+- OCR decision: ready — Dense multi-panel slide with small code, chart, table, and paragraph text.
 
-> . < ‘
+Slide text:
+
 > Docling: More than simple Document Conversion
-> 4
-> —_-_ = = we
-> z o es Ss o
-> ’ . . & .
-> e
-> i + me
-> The proveieg chart enage m & bay chart Pat Ongiove dete acrrs toe quarters O1.'$ OF 15 O)15 end 0413 The chert ome
-> e= -_ Aol Mave 8 spaced soe The Fan represenes he Quarters she hie yams Wows 2 percentage teats Fanomg ho 7 10
-> oa baal wan. TOON Cart bee 0 segrerted ren GMeren cours each ~wpresenting 2 wpectic caegary Agency POMMES (ight bis, Non Agency
-> i Fe gene ce pp emmamium manner seman eitoaw ee FOMES Bart Bie) MSA (yetoe) Mangage Leen Condut ined: and Comers OrEnge: ING? 1S the Agency RARBS canegory
-> = el ee eee ee oe 2a Pe large comoreng 65° of he telat totowed by Non Agency RS of 4 MEA of 127. Uorigege Loan Conant of 11%
-> | Sea ae aNd Commercat at 1% Moving © 02'S Pa Now Agency RMB calgary mumanet 29% becomrg Pe lenge sepnert
-> STI SS white Agency RMBS decreases 12 44% USM and Ulerigage Loan Condt BoP naman at 11 and Commercial tan at 1S
-> seAEA ENRON ARON 0315 Re NomAgency RMBS category Later necresees 10 0% ofl Agency RUBS decreases 19 415 USK reas 10 14
-> | Mongage Loan Comma neveated © TIN and Commerctl 1259010 4% By O4-7S te Non Agency RMBS calmgary a te
-> ass 2 leryeel af 770 eh Agency POMES af 2. MIA and Moryage Loan Cone bah decrease 14% and 18% papacy ofte:
-> il i i i ‘Commmertul rcreaees 10.0% The chart veuaty epreeern Pe Changes 1 Pe preportone of Pose categoren Der Pe tose
-> gare The mamrase sete ofserved 6 45% toy Agency MMS 9 113 and Pe mewrerh coke 8 1h to Comvnerces 7 bor
-> vos 7 G1-15 ang. G2 13 The range tor wack caimgory ae a6 Kok Agency RUBS ranges Fen 31° 43 Hon Agency MBS
-> was Wem 271 AIS MEA her TON 2 TEN Mongage Lean Candua form 119. 1 “@1 and Commenced hee TN me The cnet
-> Stee a ee (eect BinHe Sneing properties Of Reus Calagaren ove fe speced wre parc _
-> = ar cart a
-> se Se ee BEE ee reecs
-> a a Be | So SS ee See Cure Agency, —NanAgemry «MR Merigege Lenn Conta
-> ra paca ean ow ow 7 wom
-> | Saal, mon
-> Soe Se eae ae eee as ae ™ wa mn c
-> popenacem cheiennrr ma _ oom nm nw wm
+> 
+> Quarter  Agency  Non-Agency  MSR  Mortgage Loan Conduit
+> Q1-15  45%  34%  10%  11%
+> Q2-15  44%  43%  11%  12%
+> Q3-15  41%  30%  12%  13%
+> Q4-15  35%  27%  14%  16%
 
 ![[assets/slides/-x5GEVnkuRw/slide-014.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-014.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/center-82/contrast` reconciled by agent.
+- OCR decision: ready — Document extraction example with code, form image, and structured output text that benefits from OCR.
+
+Slide text:
 
 > Docling: More than simple Document Conversion
-> {
-> 'bill number': '01234',
-> 'total invoice price': 550,
-> 'currency of total invoice price': 'USD',
-> 'name of invoice addressee': 'Jonathan Patterson',
-> 'name of invoice sender': 'Eventure Event Planner'
-> }
+> 
 > invoice_dict = {
-> 'bill number': "string",
-> 'total invoice price': "float",
-> 'currency of total invoice price': "string",
-> 'name of invoice addressee': "string",
-> 'name of invoice sender': "string"
+>   'bill number': 'string',
+>   'total invoice price': 'float',
+>   'currency of total invoice price': 'string',
+>   'name of invoice addressee': 'string',
+>   'name of invoice sender': 'string'
+> }
+> 
+> {
+>   'bill number': '01234',
+>   'total invoice price': 550,
+>   'currency of total invoice price': 'USD',
+>   'name of invoice addressee': 'Jonathan Patterson',
+>   'name of invoice sender': 'Eventure Event Planner'
 > }
 
 ![[assets/slides/-x5GEVnkuRw/slide-015.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-015.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Repository screenshot with many small UI labels and file names that are better handled by OCR.
 
-> .
-> e  ) 1 ibe-grarvie-community + docling-workshop = 26 ~ GQ type + te veoh a- 7. On 2 e
-> <> Code ©) ttsues SL Pultrequests Agents ©) Acbom = #3 Projects «Security and quality 9 oY Insights
-> docling-workshop °>: @Q wach to - Yroa oe - Stwrea 27+
-> P mein ~ D PF iBeareh Cy tag Q Geteme + Addtte - Ge Source code for Dochng Workshop.
-> OC aen-grante-community github 10f
-> @] dthorgrave Mere cu segues! HID Hoe -tre-grante Comers ty Ueberdabet MB te 2 tres, D106 Comments
-> wobihop  gante — decing 8
-> es) Bop gt uhrodea! actor tM git actions g¢tup ar Bays age TD aestne
-> Be docs ASDC CHID COCR ts Lote EE SHOE Da Ore woe ante AD Apache BO cern
-> G Coste ot cordunt
-> ME notebooks Serco FAS al gteuidey a th Cos cap bt be cars, attawes
-> BU Coatetegt ony
-> B& scrptsregenerale_fntures. Tiaitch Rep wale Tede to gante 67 ab 2 acees aie N Atel
-> Fi Suse reegentes
-> misc Hierrcne ogy ots Lrmartts age x SARS Cgaer te
-> TT 2 vace
-> CO gitgnere Here egg. ote Leon hs ager © Vwatireey
-> CO mackdowntet-cl2 yar Rectone netic utp! ocr ae: Lrorth sage YoOtes
-> Re Vyear ona
-> D poutne ym STS ABM sot batenp ath ene are poutre Droetr ss ayer
-> Heer Drepostoty
-> {}) pre-commut-contig yaré Upiiates to deperdane! for yrcuped ocdstes beays 990
-> Deployments 99
-> D) seelicheck-en- custom txt Wee Chosen BAG a4 cab a eto montce Goes ard Ce Devoe ths age
-> @ oihud-pages +,
-> CO speticheck yami ait A anton bat ag adh cachet are pont oe death sage
-> 0 VCENSE ata cured Convibutors 4
-> () README ma Satih Rep cate mage toguete 47 st 2 wees age 3& bihergrave &. eargtare
-> CY constramts tet Sitch te Cnramaud ‘er arcterstere brocths aqe z mingxrhao tngi uae Shae
-> Oy niaees wr! tho fe one eee WEE ae ak Dd ptr, pare eng oce are) © cy peaae ths ae, FR re
+Slide text:
+
+> bm-granite-community / docling-workshop
+> 
+> docling-workshop
+> Source code for Docling Workshop
+> 
+> .github
+> docs
+> notebooks
+> scripts/regenerate_fixtures
+> src
 
 ![[assets/slides/-x5GEVnkuRw/slide-016.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-016.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/full` reconciled by agent.
+- OCR decision: ready — Notebook/code slide with dense imports and code cells that are OCR-suitable.
 
-> Q
-> B
-> Conversion.ipynbMX
-> Token_Cost_Comparison.ipynb M
-> Chunkless_RAG.ipynb M
-> Chunking.ipynb
-> DOCLING-WORKSHOP
-> notebooks
-> >fixtures
-> Add Code Add Markdown|Run All Restart Clear All Outputs|Jupyter Variables Outline
-> venv (3.13.7) (Python 3.13.7)
-> ndno<
-> ImportEssentialComponents
-> gitignore
-> Chunking.ipynb
-> Chunkless_RAG.ipynb
+Slide text:
+
+> Import Essential Components
+> 
 > from pathlib import Path
-> Conversion_Colab.ipynb
-> Conversion.ipynb
-> M
-> Core Docling imports
-> MCP_Agents.ipynb
-> M
+> 
+> # Core Docling imports
 > from docling.document_converter import DocumentConverter
-> Ollama RAG.ipynb
 > from docling.datamodel.base_models import InputFormat
 > from docling.datamodel.pipeline_options import PdfPipelineOptions
-> RAGipynb
-> from docling.document_converterimportPdfFormatoption
-> Serving.ipynb
-> Token_Cost_Compari.M
-> #For advanced features
-> scripts
-> >src
-> #For data processing and visualization
-> gitignore
+> from docling.document_converter import PdfFormatOption
+> 
+> # For advanced features
+> from docling_core.types.doc import ImageRefMode, PictureItem, TableItem, TextItem, DoclingDocument
+> 
+> # For data processing and visualization
 > import matplotlib.pyplot as plt
-> !markdownlint-cli2.yaml
-> !.poutine.yml
-> Create output directory
-> !pre-commit-config.yaml
-> output_dir=Path("output")
+> 
+> # Create output directory
+> output_dir = Path("output")
 > output_dir.mkdir(exist_ok=True)
-> F.spellcheck-en-custom.txt
-> √0.0s
-> Python
-> !.spellcheck.yaml
-> Fconstraints.txt
-> LICENSE
-> BasicDocumentConversion
-> !mkdocs.yml
-> pyproject.toml
-> MinimalExample
-> ①README.md
-> The simplestway toconvertadocument:
-> OUTLINE
+> 
+> Basic Document Conversion
+> Minimal Example
+> The simplest way to convert a document:
 
 ![[assets/slides/-x5GEVnkuRw/slide-017.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-017.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/full` reconciled by agent.
+- OCR decision: ready — Notebook and PDF viewer screenshot with embedded code and small text requiring OCR.
 
-> .
-> Par SRL LBs # Bs oe a ‘y rey
+Slide text:
+
 > Your turn: Try your own document
-> tare Lege wey foe gee fey ee ees rt a
-> oe ee re an eee ee a et
-> 7 Table 1 Versons and cuafiguraion option comidered for cach bested anset. * de
-> Lae
-> Awat Veron OCR Layout Tables
-> , Dochng 242 bay OCR defuk Tabbe burp
-> Maer 0410 0 Suna” Sefauk deft
-> || Mind 094 mao” Soclayuse yobo raged table
-> Uerinatered 0165 fa res wah Ube arwctere
-> 7 Documents per Category © When running expen
-> bene reees CUDA axcelention
-> eee vane 3 Marcas easure the GPU is vi
-> 9, snfercexe are instal!
-> a Law ord Megs ine
-> a Table 1 pronides aa 0
-> wots Laon opbons we con
-> SA Results
-> s  * sot F CONP ae .
-> wy
-> Dages per Category | oy
-> fe trey ear :
-> rom RT Qe “y
-> / Lim One Royse ney , .
-> i:
-> wpe
-> i Poo] I eo
-> raat Rapacty CORR ree " *
-> : a is
-> 7
-> Catone es 7
-> Reread Ranger me Peterty tee
-> me CCAR wl me Swe ae
-> Lae ma Regan ore vets
-> om Hey Higure 3. Distnbuon of
-> ordered by number of
+> 
+> What should I try?
+> 
+> Try changing the URL below to a different document.
+> 
+> docling_paper = "https://arxiv.org/pdf/2501.17887"
 
 ![[assets/slides/-x5GEVnkuRw/slide-018.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-018.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/full` reconciled by agent.
+- OCR decision: ready — Notebook slide with code and multi-section text that is better extracted via OCR.
 
-> Q。
-> Conversion.ipynbMX
-> Token_Cost_Comparison.ipynb M
-> Chunkless_RAG.ipynb M
-> Chunking.ipynb
-> DOCLING-WORKSHOP
-> Al-Ready Data with DoclingM Basic Document Conversion>M Document Structure Exploration>#Document metadata-important for tracking
-> notebooks
-> >fixtures
-> AddCodeAddMarkdownRunAll Restart ClearAllOutputs|JupyterVariablesOutline
-> venv (3.13.7) (Python 3.13.7)
-> ndno<
-> SectionHeaderItem:Abstract
-> gitignore
-> TextItem:We introduce Docling,an easy-to-use,self-contained,MITlicensed,open-source toolkit for document conversion,tr
-> Chunking.ipynb
-> TextItem:Repository-https://github.com/DS4SD/docling
-> Chunkless_RAG.ipynbM
-> SectionHeaderItem:1Introduction
-> TextItem:Converting documentsback into a unified machineprocessable format has been a major challenge for decades due to th
-> Conversion_Colab.ipynb
-> TextItem:*These authors contributed equally.
-> Converson.pynb
-> M
-> MCP_Agents.ipynb
-> M
-> Ollama RAG.ipynb
-> ExportFormatsandOptions
-> RAG.ipynb
-> Serving.ipynb
-> Doclingsupportsmultipleexportformatswithvariousoptions:
-> Token_Cost_Compar.M
-> Add Code
-> Add Markdown
-> >scripts
-> >src
-> #Export to different formats (various options available,but called with default ones)
-> gitignore
-> markdown_text=doc.export_to_markdown()
-> !.markdownlint-cli2.yaml
-> html_text=doc.export_to_html()
-> !.poutine.yml
-> json_dict=doc.export_to_dict（)
-> doc_tags=doc.export_to_doctags()
-> !.pre-commit-config.yaml
-> F.spellcheck-en-custom.txt
-> #Save different formats(various options available,some showm)
-> !.spellcheck.yaml
+Slide text:
+
+> Export Formats and Options
+> 
+> Docling supports multiple export formats with various options:
+> 
+> # Export to different formats (various options available, but called with default ones)
+> markdown_text = doc.export_to_markdown()
+> html_text = doc.export_to_html()
+> json_dict = doc.export_to_dict()
+> doc_tags = doc.export_to_doctags()
+> 
+> # Save different formats (various options available, some shown)
 > doc.save_as_markdown(
-> constraints.txt
-> output_dir/"document.nd",
-> LICENSE
-> image_mode=ImageRefMode.PLACEHOLDER,
-> image_placeholder="<!--my image placeholder
-> !mkdocs.yml
-> pyproject.toml
-> ①README.md
-> OUTLINE
-> JSON
+>     image_mode=ImageRefMode.PLACEHOLDER,
+>     image_placeholder="<!-- my image placeholder -->",
+>     ...
+> )
 
 ![[assets/slides/-x5GEVnkuRw/slide-019.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-019.html)
+- AI slide classifier: `content_slide` confidence `0.91`
+- Text source: advanced OCR `rapidocr-live/full` reconciled by agent.
+- OCR decision: ready — Dense notebook screenshot with tables and small text.
 
-> Q
-> Conversion.ipynbMx
-> Token_Cost_Comparison.ipynbM
-> Chunkless_RAG.ipynb M
-> Chunking.ipynb
-> DOCLING-WORKSHOP
-> ntsinto Al-Ready Data with Docling>M Working with Tables>M Basic Table Export >print(f\nDocument contains{len(table_doc.tables)} tables)
-> notebooks
-> >fixtures
-> Add CodeAdd MarkdownRun All Restart Clear All Outputs|Jupyter Variables Outline
-> .venv (3.13.7)(Python 3.13.7)
-> >output
-> #Save as HTHL
-> gitignore
-> withopen(output_dir/f"table_(table_idx).html",
-> "）asfp:
-> Chunking.ipynb
-> fp.write(table.export_to_html(doc=table_doc))
-> BChunkless_RAG.ipynb
-> [es]
-> √0.0s
-> Python
-> Conversion_Colab.ipynb
-> Usage ofTableItem.export_to_dataframe()withoutdoc'argument isdeprecated.
-> Conversion.ipynb
-> M
-> MCP_Agents.ipynb
-> M
+Slide text:
+
+> Documents into AI-Ready Data with Docling > M4 Working with Tables > M4 Basic Table Export
+> 
+> # Save as HTML
+> with open(output_dir / f"table_{table_idx}.html", "w") as fp:
+>     fp.write(table.export_to_html(doc=table_doc))
+> 
+> Usage of TableItem.export_to_dataframe() without `doc` argument is deprecated.
 > Document contains 8 tables
-> Ollama RAG.ipynb
-> RAG.ipynb
-> ##Table
-> Shape:(4,4)
-> Serving.ipynb
-> Token_Cost_Compari..M
-> Cauldron
-> LLaVa-OneVision
-> Cambrian-7m
-> >scripts
-> General
-> 276.5K
-> 881.3K
-> 1.8M
-> >src
-> Language/Captioning
-> 202.1K
-> N/A
-> NA
-> gitignore
-> Math/Science/Reasoning
-> 178.4K
-> 318.0K
-> 354.5K
-> !.markdownlint-cli2.yaml
-> Image Comparison
-> 188.9K
-> N/A
-> NA
-> !poutine.yml
-> !.pre-commit-config-yaml
-> F.spellcheck-en-custom.txt
-> ##Table1
-> !.spellcheck.yaml
-> Shape:(4,4)
-> Fconstraints.txt
-> LICENSE
-> Cauldron
-> LLaVa-OneVision
-> Cambrian-7m
-> !mkdocs.yml
-> General
-> 812.7K
-> 2.0M
-> 7.9M
-> pyproject.toml
-> Language/Captioning
-> 203.3K
-> 1.2M
-> 1.8M
-> ①README.md
-> Math/Science/Reasoning
-> 765.1K
-> 464.8K
-> 802.0K
-> Image Comparison
-> 237.9K
-> N/A
-> N/A
-> OUTLINE
+> 
+> ## Table 0
+> Shape: (4, 4)
+> 
+> General | LLaVa-OneVision | Cambrian-7m
+> 0 General | 276.5K | 881.3K | 1.8M
+> 1 Language/Captioning | 202.1K | N/A | N/A
+> 2 Math/Science/Reasoning | 178.4K | 318.0K | 354.5K
+> 3 Image Comparison | 188.9K | N/A | N/A
+> 
+> Usage of TableItem.export_to_dataframe() without `doc` argument is deprecated.
+> 
+> ## Table 1
+> Shape: (4, 4)
+> 
+> General | LLaVa-OneVision | Cambrian-7m
+> 0 General | 812.7K | 2.0M | 7.9M
+> 1 Language/Captioning | 203.3K | 1.2M | 1.8M
+> 2 Math/Science/Reasoning | 765.1K | 464.8K | 802.0K
+> 3 Image Comparison | 237.9K | N/A | N/A
 
 ![[assets/slides/-x5GEVnkuRw/slide-020.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-020.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/right-72/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Code-heavy slide screenshot with small body text.
 
-> Q
-> B
-> Conversion.ipynbMx
-> Token_Cost_Comparison.ipynb M
-> Chunkless_RAG.ipynb M
-> Chunking.ipynb
-> DOCLING-WORKSHOP
-> notebooks
-> >fixtures
-> AddCodeAdd MarkdownRun All Restart ClearAll Outputs|JupyterVariablesOutline
-> venv (3.13.7) (Python 3.13.7)
-> >output
-> gitignore
-> Chunking.ipynb
-> InspectingPicture Content
-> Chunkless_RAG.ipynbM
-> Conversion_Colab.ipynb
-> Conversion.ipynb
-> M
-> D日
-> MCP_Agents.ipynb
-> M
-> definspect_pictures_with_inages（doc:DoclingDocument,image_size=(6,4)):
-> Ollama RAG.ipynb
-> pisplay pictures inline with their text content.
-> RAG.ipynb
-> foridx,pictureinenumerateiPictureItem](doc.pictures):
-> Serving.ipynb
-> print(f"\n('=′60)")
-> Token_Cost_Compari..M
-> print（f"Picture(idx)")
-> print（f"('='*60）")
-> scripts
-> ）src
-> #Display the image
-> gitignore
-> try:
-> !.markdownlint-cli2.yaml
-> img=picture.get_image(doc)
-> ifimg:
-> !poutine.yml
-> plt.figure(figsize=image_size)
-> !.pre-commit-config.yaml
-> plt.inshow（img)
-> F.spellcheck-en-custom.txt
-> plt.axis('off')
-> !.spellcheck.yaml
-> plt.title(f"Picture(idx}")
-> Fconstraints.txt
-> plt.show()
-> LICENSE
-> print（f"Could not display image:(e)")
-> !mkdocs.yml
-> pyproject.toml
-> #Display metadata
-> README.md
-> caption=picture.caption_text(doc)
-> ifcaption:
-> print（f"\nCaption:(caption}")
-> OUTLINE
+Slide text:
+
+> Inspecting Picture Content
+> 
+> Docling will automatically generate captions and extract text content from extracted images. Let's take a look at what is extracted:
+> 
+> def inspect_pictures_with_images(doc: DoclingDocument, image_size=(6, 4)):
+>     """Display pictures inline with their text content."""
+>     for idx, picture in enumerate(doc.pictures):
+>         print(f"\n{'='*60}")
+>         print(f"Picture {idx}")
+>         print(f"{'='*60}")
+> 
+>         # Display the image
+>         try:
+>             img = picture.get_image(doc)
+>             if img:
+>                 plt.figure(figsize=image_size)
+>                 plt.imshow(img)
+>                 plt.axis("off")
+>                 plt.title(f"Picture {idx}")
+>                 plt.show()
+>         except Exception as e:
+>             print(f"Could not display image: {e}")
+> 
+>         # Display metadata
+>         caption = picture.caption_text(doc)
+>         if caption:
+>             print(f"\nCaption: {caption}")
 
 ![[assets/slides/-x5GEVnkuRw/slide-021.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-021.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Code-heavy notebook screenshot with small UI text and embedded document preview.
+
+Slide text:
 
 > Visualizing Document Layout with Bounding Boxes
-> eee eee Sa ae ra re eNO et TED bet ee ee ee ea ae
-> (howe oh fe Mog Bog gee bY oe ue 4° cc ee eee
-> DwaiHpy An Efficient Open-Source Toolkit for Al-driven Document Conversion
-> Middiaos Livathinos ©, Christoph Auer ©, Mauksym Lysak, Ahmed Nassar, Michele Dalfi,
-> Panagiotis Vagenas, Cesar Berrospi, Matteo Omenetti, Kasper Dinkla, Yusik Kim,
+> 
+> In order to understand how each part of the document is extracted, let's visualize the extracted elements.
+> We can do that by using one of Docling's built-in visualizers:
+> 
+> from docling_core.transforms.visualizer.layout_visualizer import LayoutVisualizer
+> layout_visualizer = LayoutVisualizer()
+> page_images = layout_visualizer.get_visualization(doc=img_doc)
+> 
+> num_pages_to_viz = 2  # first N pages to visualize
+> pages_to_viz = list(page_images.keys())[:num_pages_to_viz]
+> for page in pages_to_viz:
+>     display(page_images[page])
 
 ![[assets/slides/-x5GEVnkuRw/slide-022.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-022.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Dense code screenshot with small parameter text and API configuration details.
 
-> Q。
-> B
-> Conversion.ipynbMx
-> Token_Cost_Comparison.ipynbM
-> Chunkless_RAG.ipynbM
-> Chunking.ipynb
-> DOCLING-WORKSHOP
-> 3nced Features: Enrichment>MYour turn:Prompt the vision model >from docling.datamodel.pipeline_options import PictureDescriptionApiOptions
-> notebooks
-> fixtures
-> AddCodeAdd MarkdownRun All RestartClearAll Outputs|JupyterVariablesOutline
-> venv (3.13.7) (Python 3.13.7)
-> >output
-> WecanalsorunitusinganOpenAl-compatibleAPi likeOllama.
-> gitignore
-> Chunking.ipynb
-> D
-> Chunkless_RAG.ipynb
-> from docling.datamodel.pipeline_optionsimportPictureDescriptionApioptions
-> Conversion_Colab.ipynb
-> Conversion.ipynb
-> ifRUN_LOCAL_OLLAMA:
-> M
-> MCP_Agents.ipynb
-> #Configure enrichment pipeline
-> M
-> enrichment_options=PdfPipelineOptions(
-> OllamaRAG.ipynb
-> do_picture_description=True,
-> RAG.ipynb
-> enable_remote_services=True,
-> Serving.ipynb
-> picture_description_options=PictureDescriptionApioptions(
-> Token_Cost_Compari..M
-> url="http://localhost:11434/v1/chatcompletions",
-> params=(
-> >scripts
-> "model":"granite3.2-vision:2b",
-> >src
-> "max_completion_tokens":200,
-> gitignore
-> !.markdownlint-cli2.yaml
-> prompt="Give a detailed description of what is depicted in the image"
-> timeout=60,
-> !.poutine.yml
-> !.pre-commit-config.yaml
-> generate_picture_images=True,
-> F.spellcheck-en-custom.txt
-> images_scale=1.0,
-> !.spellcheck.yaml
-> Fconstraints.txt
-> converter_enriched =DocumentConverter(
-> LICENSE
-> format_options={
-> !mkdocs.yml
-> InputFornat.PDF:PdfFormatoption(pipeline_options=enrichment_options)
-> pyproject.toml
-> ①README.md
-> enr_result=converter_enriched.convert(docling_paper)
-> OUTLINE
-> enr_doc=enr_result.document
+Slide text:
+
+> We can also run it using an OpenAI-compatible API like Ollama.
+> 
+> from docling.datamodel.pipeline_options import PictureDescriptionApiOptions
+> 
+> if RUN_LOCAL_OLLAMA:
+>     # Configure enrichment pipeline
+>     enrichment_options = PdfPipelineOptions(
+>         do_picture_description=True,
+>         enable_remote_services=True,
+>         picture_description_options=PictureDescriptionApiOptions(
+>             url="http://localhost:11434/v1/chat/completions",
+>             params={
+>                 "model": "granite3.2-vision:2b",
+>                 "max_completion_tokens": 200,
+>             },
+>             prompt="Give a detailed description of what is depicted in the image",
+>             timeout=60,
+>         ),
+>         generate_picture_images=True,
+>         images_scale=1.0,
+>     )
+> 
+>     converter_enriched = DocumentConverter(
+>         format_options={
+>             InputFormat.PDF: PdfFormatOption(pipeline_options=enrichment_options)
+>         }
+>     )
+> 
+>     enr_result = converter_enriched.convert(docling_paper)
+>     enr_doc = enr_result.document
 
 ![[assets/slides/-x5GEVnkuRw/slide-023.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-023.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/full` reconciled by agent.
+- OCR decision: ready — Diagram slide with multiple small labels and explanatory text that is better handled by OCR.
 
-> BConversion.ipynb M
-> Token_Cost_Comparison.ipynbM
-> Chunkless_RAG.ipynb M
-> Chunking.ipynb
-> DOCLING-WO.
-> kless RAG actually earns its keep> query_2 = What was Red Hat's revenue growth in 2025 and how did it contribute to IBM's overall software segment?
-> notebooks
-> >fixtures
-> Add CodeAddMarkdown|Run AllRestart ClearAll Outputs GoToJupyterVariablesOutline
-> .venv (3.13.7)(Python 3.13.7)
-> >output
-> HowchunklessRAGworks
-> gitignore
-> Chunking.ipynb
-> Chunklessretrieval isa four-step loop:
-> Chunkless_RAG.ipynbM
-> Conversion_Colab.ipynb
-> Conversion.ipynb
-> M
+Slide text:
+
+> How chunkless RAG works
+> 
+> Chunkless retrieval is a four-step loop:
+> 
 > Document outline
-> MCP_Agents.ipynb
 > (per-section summaries)
-> M
-> Ollama RAG.ipynb
-> RAG.ipynb
-> Serving.ipynb
-> Token_Cost_Compari.M
-> 1.SELECT
-> -LLM picks the most relevant unvisited
-> >scripts
+> 
+> 1. SELECT — LLM picks the most relevant unvisited
 > section by reading the outline + query.
-> >src
-> markdownlint-cli2.yaml
-> !.poutine.yml
-> 2.FETCH
-> -Pullthe *full text*of thatsection's
-> !.pre-commit-config.yaml
+> 
+> 2. FETCH — Pull the *full text* of that section's
 > subtree from the DoclingDocument.
-> F.spellcheck-en-custom.txt
-> !.spellcheck.yaml
-> Fconstraints.txt
-> LICENSE
-> !mkdocs.yml
-> 3.ATTEMPT-LLM triesto answer from the section text.
-> pyproject.toml
-> Returns (can_answer: bool, response: str}.
-> ①README.md
-> OUTLINE
+> 
+> 3. ATTEMPT — LLM tries to answer from the section text.
+> Returns (can_answer: bool, response: str).
 
 ![[assets/slides/-x5GEVnkuRw/slide-024.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/-x5GEVnkuRw/slide-024.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/full` reconciled by agent.
+- OCR decision: ready — Continuation of a diagram slide with small labels and paragraph text; OCR is likely the cheapest accurate read.
 
-> RAG actually earns its keep > query_2 = "What was Red Hat's revenue growth in 2025 and how did it contribute to IBM's overall software segment?"
-> 2. FETCH — Pull the *full text* of that section's
-> subtree from the DoclingDocument.
+Slide text:
+
+> RAG actually earns its keep
+> 
+> 2. FETCH — Pull the *full text* of that section's subtree from the DoclingDocument.
+> 
 > 3. ATTEMPT — LLM tries to answer from the section text.
 > Returns {can_answer: bool, response: str}.
-> can_answer = true can_answer = false
-> return answer 4. ITERATE — go back to SELECT, with the
-> visited section excluded.
+> 
+> can_answer = true
+> return answer
+> 
+> can_answer = false
+> 
+> 4. ITERATE — go back to SELECT, with the visited section excluded.
+> 
 > Notice what's not in this picture: no chunker, no embedding model, no vector store, no top-k. The "index" is a markdown outline of the document with one summary per section, generated once offline. The "retriever" is the LLM itself, reading that outline and choosing where to look.
+> 
 > This only works because two things are already true about the input document:
 > 1. It's a DoclingDocument — a real tree with sections, paragraphs, tables, and figures, parsed by Docling from the source PDF.
 > 2. Each section already has a summary attached as metadata, written by DoclingEnrichingAgent in a one-time enrichment pass.
+> 
 > We'll use a fixture that already has both. If you want to run this on your own PDF, there's an optional cell a few steps down that shows you
+
+
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/-x5GEVnkuRw/slide-001.jpg) — `title_card` confidence `0.98`; title-only intro card; not content-heavy.
+
+Classification audit: `raw/sources/slide-ai-classification/slides/-x5GEVnkuRw/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

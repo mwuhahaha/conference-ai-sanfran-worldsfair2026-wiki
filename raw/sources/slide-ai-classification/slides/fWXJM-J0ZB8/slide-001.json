@@ -1,0 +1,52 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.84,
+  "frame_type": "title_card",
+  "reject_reason": "speaker intro card with logo collage",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "intro card and logo collage; not worth OCR",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#fbf7fb",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "Rachel-Lee Nabors (they/them)\nnearestneighbors.com",
+        "x": 1.0,
+        "y": 0,
+        "w": 10.0,
+        "h": 100
+      },
+      {
+        "role": "logo",
+        "text": "MDN web docs\nmoz://a",
+        "x": 39.0,
+        "y": 11.0,
+        "w": 26.0,
+        "h": 14.0
+      },
+      {
+        "role": "logo",
+        "text": "W3C",
+        "x": 70.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667627.938857,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

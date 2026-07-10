@@ -1,0 +1,475 @@
+{
+  "video_id": "Akm1sqvWG4A",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 6,
+  "rejected_count": 3,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Bypassing the Multimodal Tax\nFramework-Free Hybrid RAG, Raw SQL RRF, and Live UI Telemetry\nAbed Matini\nSenior Backend Developer - Ogilvy\nAI Engineer World's Fair 2026 - Online Track",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(#252525,#9a9a9a)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Bypassing the Multimodal Tax",
+            "x": 7.0,
+            "y": 19.0,
+            "w": 56.0,
+            "h": 14.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Framework-Free Hybrid RAG, Raw SQL RRF, and Live UI Telemetry",
+            "x": 7.0,
+            "y": 34.0,
+            "w": 68.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Abed Matini\nSenior Backend Developer - Ogilvy\nAI Engineer World's Fair 2026 - Online Track",
+            "x": 18.0,
+            "y": 48.0,
+            "w": 32.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Akm1sqvWG4A/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658490.564768,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Bypassing the Multimodal Tax\nFramework-Free Hybrid RAG, Raw SQL RRF, and Live UI Telemetry\nAbed Matini\nSenior Backend Developer - Ogilvy\nAI Engineer World's Fair 2026 - Online Track",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Akm1sqvWG4A/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Two problems every document chatbot hits",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense small text in two-column slide content; OCR will be cheaper and more reliable than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Two problems every document chatbot hits",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 62.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Paying to read documents twice",
+            "x": 5.0,
+            "y": 22.0,
+            "w": 36.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Search split across too many tools",
+            "x": 38.0,
+            "y": 22.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "This talk: parse locally • one Postgres database • hybrid search in plain Python",
+            "x": 5.0,
+            "y": 70.0,
+            "w": 78.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Akm1sqvWG4A/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658490.5735958,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Two problems every document chatbot hits",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Akm1sqvWG4A/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Browser/document screenshot with dense small text and table-of-contents content; OCR is the right next step.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#1f1f1f with white document canvas",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Microsoft Word - Sample Employee Handbook for web.docx",
+            "x": 10.0,
+            "y": 4.0,
+            "w": 62.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "TABLE OF CONTENTS",
+            "x": 44.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "I. MISSION\nII. OVERVIEW\nIII. VOLUNTARY AT-WILL EMPLOYMENT",
+            "x": 44.0,
+            "y": 18.0,
+            "w": 36.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Akm1sqvWG4A/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658490.5768325,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Akm1sqvWG4A/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Upload document",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product/admin UI screenshot with dense table text and controls; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Upload document",
+            "x": 16.0,
+            "y": 8.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "PDF, PPTX, DOCX, XLSX, MD, TXT — parsed by Docling, chunked and embedded automatically.",
+            "x": 16.0,
+            "y": 13.0,
+            "w": 66.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Upload screenshot or image",
+            "x": 16.0,
+            "y": 31.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Knowledge base",
+            "x": 16.0,
+            "y": 43.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Filename / Strategy / Chunks / Status / Uploaded / Actions",
+            "x": 18.0,
+            "y": 52.0,
+            "w": 64.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Akm1sqvWG4A/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658490.5810142,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Upload document",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Akm1sqvWG4A/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Tabbed document inspector with dense table-of-contents text; OCR is the right pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "rgba(0,0,0,0.25) over white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Sample Employee Handbook - National Council of Nonprofits.pdf",
+            "x": 48.0,
+            "y": 8.0,
+            "w": 38.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "TABLE OF CONTENTS",
+            "x": 49.0,
+            "y": 23.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "I. MISSION\nII. OVERVIEW\nIII. VOLUNTARY AT-WILL EMPLOYMENT",
+            "x": 49.0,
+            "y": 31.0,
+            "w": 35.0,
+            "h": 20.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Akm1sqvWG4A/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658490.5832324,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Akm1sqvWG4A/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Thank you\nQuestions welcome on LinkedIn.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Thank you",
+            "x": 27.0,
+            "y": 14.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Questions welcome on LinkedIn.",
+            "x": 26.0,
+            "y": 22.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 25.0,
+            "y": 33.0,
+            "w": 28.0,
+            "h": 38.0
+          },
+          {
+            "role": "caption",
+            "text": "https://www.linkedin.com/in/matini",
+            "x": 23.0,
+            "y": 76.0,
+            "w": 33.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Akm1sqvWG4A/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658543.9296389,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Thank you\nQuestions welcome on LinkedIn.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Akm1sqvWG4A/slide-009.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "File picker overlay from demo footage, not a readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Akm1sqvWG4A/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658490.588581,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Trace-detail app screenshot from demo footage, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Akm1sqvWG4A/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658490.5893579,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Trace-detail app screenshot from demo footage, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Akm1sqvWG4A/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658490.5935805,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Performance dogrades as context flls up. More tokens,worse answers. Contextrofisrea! Manoges what goes INTO context. Context management\n★ ★? AIE ★ Tool calling Emboddings; reranking, extroction\nCWhy not Just Opus 4.6?n\nWorks untif contoxt rot kils guolity\nSourco:Chromo Rosqorch\nAlEngineer\nAlEngineor EUROPE\nhcn",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense chart and multi-column card slide with small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "WHY IT MATTERS FOR YOUR AGENTS",
+        "x": 52.0,
+        "y": 2.0,
+        "w": 33.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Context rot is real",
+        "x": 29.0,
+        "y": 8.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Performance degrades as context fills up. More tokens, worse answers.",
+        "x": 29.0,
+        "y": 14.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Context management",
+        "x": 74.0,
+        "y": 9.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Manages what goes INTO context,",
+        "x": 74.0,
+        "y": 15.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Tool calling",
+        "x": 74.0,
+        "y": 30.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Embeddings, reranking, extraction",
+        "x": 74.0,
+        "y": 36.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "\"Why not just Opus 4.6?\"",
+        "x": 74.0,
+        "y": 50.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Works until context rot kills quality",
+        "x": 74.0,
+        "y": 57.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Source: Chroma Research",
+        "x": 44.0,
+        "y": 74.0,
+        "w": 20.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-007.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671227.2671413,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Performance dogrades as context flls up. More tokens,worse answers. Contextrofisrea! Manoges what goes INTO context. Context management\n★ ★? AIE ★ Tool calling Emboddings; reranking, extroction\nCWhy not Just Opus 4.6?n\nWorks untif contoxt rot kils guolity\nSourco:Chromo Rosqorch\nAlEngineer\nAlEngineor EUROPE\nhcn",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 528.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Performance dogrades as context flls up. More tokens,worse answers. Contextrofisrea! Manoges what goes INTO context. Context management\n★ ★? AIE ★ Tool calling Emboddings; reranking, extroction\nCWhy not Just Opus 4.6?n\nWorks untif contoxt rot kils guolity\nSourco:Chromo Rosqorch\nAlEngineer\nAlEngineor EUROPE\nhcn",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

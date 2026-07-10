@@ -1,0 +1,52 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.96,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Camera shot of speaker on stage with the slide only partially visible behind.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "stage photo with white slide and black sponsor wall",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "Local Coding Agents",
+        "x": 42.0,
+        "y": 33.0,
+        "w": 30.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "Braintrust  WorkOS  OpenAI",
+        "x": 29.0,
+        "y": 79.0,
+        "w": 52.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "speaker on stage",
+        "x": 0,
+        "y": 0,
+        "w": 25.0,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661984.7357295,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

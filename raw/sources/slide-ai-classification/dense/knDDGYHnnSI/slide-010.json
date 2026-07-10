@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Visual graph demo screenshot; the main evidence is the node layout rather than readable text, so OCR is not the best pass here.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#f4f5f2",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "neo4j",
+        "x": 3.0,
+        "y": 2.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Show me a graph",
+        "x": 11.0,
+        "y": 9.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "graph visualization",
+        "x": 22.0,
+        "y": 17.0,
+        "w": 48.0,
+        "h": 63.0
+      },
+      {
+        "role": "body",
+        "text": "All (174)  Selected (0)",
+        "x": 6.0,
+        "y": 89.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Force-based layout",
+        "x": 72.0,
+        "y": 89.0,
+        "w": 20.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/knDDGYHnnSI/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670405.0347683,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,856 @@
+{
+  "video_id": "JIsgyk0Paic",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 11,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "LLM agents in 2025\n\"Reasoning\" models = the future? Most LLMs are Chatbots o. Helpfut for interactive problem-solving. Great on Q&A benchmarks: Level 1 Stages of Artificial Intelligence' Chatbots, Al with conversational language\no. o. 01, 03, R1, Grok 3,.. Better at hard Q&A. Level 2. solving Reasoners, human-level problem\nBest practices for \"agents\" Level3 Agents, systems that can take actions\nMany chained LLM calls per task: Results are... OK? Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop: Level 5 Level 4: Innovators, Al that can aid In irventlon.. of an organization Organizations, Al that can do the work (OpenAl)",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense two-column slide with small table/diagram text and multiple bullet groups.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#efefef",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "LLM agents in 2025",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 45.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Most LLMs are Chatbots\n\"Reasoning\" models = the future?\nBest practices for \"agents\"",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 42.0,
+            "h": 74.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Stages of Artificial Intelligence\nLevel 1\nLevel 2\nLevel 3\nLevel 4\nLevel 5",
+            "x": 55.0,
+            "y": 11.0,
+            "w": 41.0,
+            "h": 74.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/JIsgyk0Paic/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660875.0134869,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "LLM agents in 2025",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "LLM agents in 2025\n\"Reasoning\" models = the future? Most LLMs are Chatbots o. Helpfut for interactive problem-solving. Great on Q&A benchmarks: Level 1 Stages of Artificial Intelligence' Chatbots, Al with conversational language\no. o. 01, 03, R1, Grok 3,.. Better at hard Q&A. Level 2. solving Reasoners, human-level problem\nBest practices for \"agents\" Level3 Agents, systems that can take actions\nMany chained LLM calls per task: Results are... OK? Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop: Level 5 Level 4: Innovators, Al that can aid In irventlon.. of an organization Organizations, Al that can do the work (OpenAl)",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 804.32
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "LLM agents in 2025\n\"Reasoning\" models = the future? Most LLMs are Chatbots o. Helpfut for interactive problem-solving. Great on Q&A benchmarks: Level 1 Stages of Artificial Intelligence' Chatbots, Al with conversational language\no. o. 01, 03, R1, Grok 3,.. Better at hard Q&A. Level 2. solving Reasoners, human-level problem\nBest practices for \"agents\" Level3 Agents, systems that can take actions\nMany chained LLM calls per task: Results are... OK? Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop: Level 5 Level 4: Innovators, Al that can aid In irventlon.. of an organization Organizations, Al that can do the work (OpenAl)",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/JIsgyk0Paic/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.92,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "LLM agents in 2025\nAIE Most LLMs are Chatbots \"Reasoning\" models = the future? Helpful for interactive problem-soiving Great on Q&A benchmarks Level 1 Intelligonco Stages of Artificial language Chatbots, Al with corrversational\n。 01, 03, R1, Grok 3,... Better at hard Q&A Level 2 sohving Reasoners, human-level problem\nBest practices for \"agents\" Level 3 Agents, systems that can take actions\no Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop Results are... OK? Many chained LLM calls per task Level5 Levei 4 Innovators, Al that can aid in invention Organizatlons, Al that can do the work of an organization (OpenAl)\nAGENTENGINEERING\nHTtPS:IIAI.ENgINEER",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Main slide is readable but mixed with stage camera footage and branding panels; OCR is better for the small text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#efefef with dark photo panels",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "LLM agents in 2025",
+            "x": 20.0,
+            "y": 3.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 0,
+            "y": 0,
+            "w": 17.0,
+            "h": 58.0
+          },
+          {
+            "role": "body",
+            "text": "Most LLMs are Chatbots\n\"Reasoning\" models = the future?\nBest practices for \"agents\"",
+            "x": 20.0,
+            "y": 14.0,
+            "w": 44.0,
+            "h": 72.0
+          },
+          {
+            "role": "caption",
+            "text": "AGENT ENGINEERING\nHTTPS://AI.ENGINEER",
+            "x": 34.0,
+            "y": 82.0,
+            "w": 56.0,
+            "h": 15.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/JIsgyk0Paic/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660908.7101521,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "LLM agents in 2025",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "LLM agents in 2025\nAIE Most LLMs are Chatbots \"Reasoning\" models = the future? Helpful for interactive problem-soiving Great on Q&A benchmarks Level 1 Intelligonco Stages of Artificial language Chatbots, Al with corrversational\n。 01, 03, R1, Grok 3,... Better at hard Q&A Level 2 sohving Reasoners, human-level problem\nBest practices for \"agents\" Level 3 Agents, systems that can take actions\no Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop Results are... OK? Many chained LLM calls per task Level5 Levei 4 Innovators, Al that can aid in invention Organizatlons, Al that can do the work of an organization (OpenAl)\nAGENTENGINEERING\nHTtPS:IIAI.ENgINEER",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 908.68
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "LLM agents in 2025\nAIE Most LLMs are Chatbots \"Reasoning\" models = the future? Helpful for interactive problem-soiving Great on Q&A benchmarks Level 1 Intelligonco Stages of Artificial language Chatbots, Al with corrversational\n。 01, 03, R1, Grok 3,... Better at hard Q&A Level 2 sohving Reasoners, human-level problem\nBest practices for \"agents\" Level 3 Agents, systems that can take actions\no Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop Results are... OK? Many chained LLM calls per task Level5 Levei 4 Innovators, Al that can aid in invention Organizatlons, Al that can do the work of an organization (OpenAl)\nAGENTENGINEERING\nHTtPS:IIAI.ENgINEER",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/JIsgyk0Paic/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "How agentic are our agents? LLMCA Ovtput2 LLMCHF\nOetsot: Cate\nFai Cxit\nMany agents are pipelines Low degree of autonomy Pipelines\nWinning apps = tight feedback loops (mostly) Non-trivial engineering required LLM CalI Router LLMCAE1 LLMCall2\nO IDEs (Cursor,Windsurf,Replit) LLMCall3\nO Betterathard Q&A\nNot many agents“do stuff\"for 10+min\nO Devin,Operator,Deep Research Actioo\nHowdowemakemoreof these? Human LLMCall Environment\nJustwait forbetter models?\nClassical RL = optimize agent policy Stop Feedback Agents\n(Anthropic)",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Text-heavy slide with multiple small diagrams and labels that are suitable for OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f2f2f2",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How agentic are our agents?",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 50.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Many agents are pipelines\nWinning apps = tight feedback loops (mostly)\nNot many agents \"do stuff\" for 10+ min\nClassical RL = optimize agent policy",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 48.0,
+            "h": 74.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pipelines\nAgents",
+            "x": 63.0,
+            "y": 11.0,
+            "w": 30.0,
+            "h": 74.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/JIsgyk0Paic/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660941.2897103,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "How agentic are our agents?",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "How agentic are our agents? LLMCA Ovtput2 LLMCHF\nOetsot: Cate\nFai Cxit\nMany agents are pipelines Low degree of autonomy Pipelines\nWinning apps = tight feedback loops (mostly) Non-trivial engineering required LLM CalI Router LLMCAE1 LLMCall2\nO IDEs (Cursor,Windsurf,Replit) LLMCall3\nO Betterathard Q&A\nNot many agents“do stuff\"for 10+min\nO Devin,Operator,Deep Research Actioo\nHowdowemakemoreof these? Human LLMCall Environment\nJustwait forbetter models?\nClassical RL = optimize agent policy Stop Feedback Agents\n(Anthropic)",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 837.12
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "How agentic are our agents? LLMCA Ovtput2 LLMCHF\nOetsot: Cate\nFai Cxit\nMany agents are pipelines Low degree of autonomy Pipelines\nWinning apps = tight feedback loops (mostly) Non-trivial engineering required LLM CalI Router LLMCAE1 LLMCall2\nO IDEs (Cursor,Windsurf,Replit) LLMCall3\nO Betterathard Q&A\nNot many agents“do stuff\"for 10+min\nO Devin,Operator,Deep Research Actioo\nHowdowemakemoreof these? Human LLMCall Environment\nJustwait forbetter models?\nClassical RL = optimize agent policy Stop Feedback Agents\n(Anthropic)",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/JIsgyk0Paic/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Lessons from DeepSeek\n1 month ago: DeepSeek R1 paper + model\nRL on strong base models works\nRL with sparse rewards works\n01-level performance = easier than expected.\nLong CoT = emergent\nOpen-source Iis back (for now))\nSeveral replication efforts\nCan distill to' smaller models:\nSo... what next?:\n: (DeepSeek, 25)",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense slide with charts and small annotations; OCR will read the chart labels and bullet text better.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f1f1f1",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Lessons from DeepSeek",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1 month ago: DeepSeek R1 paper + model\nRL on strong base models works\nRL with sparse rewards works\no1-level performance = easier than expected\nOpen-source is back (for now)\nSo... what next?",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 44.0,
+            "h": 74.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "DeepSeek-R1-Zero AIME accuracy during training",
+            "x": 56.0,
+            "y": 10.0,
+            "w": 39.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "DeepSeek-R1-Zero average length per response during training",
+            "x": 56.0,
+            "y": 35.0,
+            "w": 39.0,
+            "h": 25.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/JIsgyk0Paic/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660990.6843238,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Lessons from DeepSeek",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Lessons from DeepSeek\n1 month ago: DeepSeek R1 paper + model\nRL on strong base models works\nRL with sparse rewards works\n01-level performance = easier than expected.\nLong CoT = emergent\nOpen-source Iis back (for now))\nSeveral replication efforts\nCan distill to' smaller models:\nSo... what next?:\n: (DeepSeek, 25)",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 534.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Lessons from DeepSeek\n1 month ago: DeepSeek R1 paper + model\nRL on strong base models works\nRL with sparse rewards works\n01-level performance = easier than expected.\nLong CoT = emergent\nOpen-source Iis back (for now))\nSeveral replication efforts\nCan distill to' smaller models:\nSo... what next?:\n: (DeepSeek, 25)",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/JIsgyk0Paic/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "How reinforcement learning works\nKey idea: explore and exploit Largo-scnle Roasoning-Oronted Reinforcement Learning\nDeepSeek's GRPO DeepSoek-v3-Base DoepSeek-R1-Zero\nLike PPO but simpler Less compute, same effect Group-RelativePolicy Optimization Tran Hodet checkgodnt undee.crainimg (Ma)a u Rule-basedverication acodeapfhon? ×\nMain loop:\nO Sample N responses per prompt\nComputerewards foreach\nO \"Advantage estimates\" (Jay Alammar,'25)\nUpdate rule:better score =increase likelihood\nChallenges: rewards? multi-turn?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Mixed text-and-diagram slide with small labels and a process diagram that is better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4f4f4",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How reinforcement learning works",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 48.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Key idea: explore and exploit\nDeepSeek's GRPO\nMain loop:\nChallenges: rewards? multi-turn?",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 42.0,
+            "h": 74.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "DeepSeek-v3-Base\nDeepSeek-R1-Zero\nLarge-scale Reasoning-Oriented Reinforcement Learning",
+            "x": 50.0,
+            "y": 10.0,
+            "w": 43.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Training prompt\nModel checkpoints under training\nSolution score (reward)\nRule-based verification",
+            "x": 50.0,
+            "y": 36.0,
+            "w": 43.0,
+            "h": 38.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/JIsgyk0Paic/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661021.5014918,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "How reinforcement learning works",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "How reinforcement learning works\nKey idea: explore and exploit Largo-scnle Roasoning-Oronted Reinforcement Learning\nDeepSeek's GRPO DeepSoek-v3-Base DoepSeek-R1-Zero\nLike PPO but simpler Less compute, same effect Group-RelativePolicy Optimization Tran Hodet checkgodnt undee.crainimg (Ma)a u Rule-basedverication acodeapfhon? ×\nMain loop:\nO Sample N responses per prompt\nComputerewards foreach\nO \"Advantage estimates\" (Jay Alammar,'25)\nUpdate rule:better score =increase likelihood\nChallenges: rewards? multi-turn?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 704.76
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "How reinforcement learning works\nKey idea: explore and exploit Largo-scnle Roasoning-Oronted Reinforcement Learning\nDeepSeek's GRPO DeepSoek-v3-Base DoepSeek-R1-Zero\nLike PPO but simpler Less compute, same effect Group-RelativePolicy Optimization Tran Hodet checkgodnt undee.crainimg (Ma)a u Rule-basedverication acodeapfhon? ×\nMain loop:\nO Sample N responses per prompt\nComputerewards foreach\nO \"Advantage estimates\" (Jay Alammar,'25)\nUpdate rule:better score =increase likelihood\nChallenges: rewards? multi-turn?",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/JIsgyk0Paic/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Lessons from OpenAl Deep Research\nLLM agents can work for long multi-step tasks\nVibe check = impressive\nStill struggles“out of distribution”\nBig labswill keep making agents\nDon't know full details, but..\nHow it works C05\nDeepresearch was trained using end-to-end reinforcement\ndomains. Through that training, it learned to plan and execute a learning on hard browsing and reasoning tasks across a range of The more the model browses and thinks about what its browsing. MaxTool Calls\nmulti-step trajectory to find the data it needs, backtracking and the better it does, which is why giving it time to think is important.\nreacting to real-time information where necessary. The model is (OpenAl.'25)",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Slide has a dense text inset and a chart; OCR is the right first-pass extraction method.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ededed with black inset panels",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Lessons from OpenAI Deep Research",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 55.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "LLM agents can work for long multi-step tasks\nVibe check = impressive\nBig labs will keep making agents\nDon't know full details, but...",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 46.0,
+            "h": 28.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "How it works",
+            "x": 2.0,
+            "y": 48.0,
+            "w": 36.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "reinforcement learning",
+            "x": 41.0,
+            "y": 58.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Max Tool Calls",
+            "x": 73.0,
+            "y": 49.0,
+            "w": 20.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/JIsgyk0Paic/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661089.1655905,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Lessons from OpenAI Deep Research",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Lessons from OpenAl Deep Research\nLLM agents can work for long multi-step tasks\nVibe check = impressive\nStill struggles“out of distribution”\nBig labswill keep making agents\nDon't know full details, but..\nHow it works C05\nDeepresearch was trained using end-to-end reinforcement\ndomains. Through that training, it learned to plan and execute a learning on hard browsing and reasoning tasks across a range of The more the model browses and thinks about what its browsing. MaxTool Calls\nmulti-step trajectory to find the data it needs, backtracking and the better it does, which is why giving it time to think is important.\nreacting to real-time information where necessary. The model is (OpenAl.'25)",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1117.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Lessons from OpenAl Deep Research\nLLM agents can work for long multi-step tasks\nVibe check = impressive\nStill struggles“out of distribution”\nBig labswill keep making agents\nDon't know full details, but..\nHow it works C05\nDeepresearch was trained using end-to-end reinforcement\ndomains. Through that training, it learned to plan and execute a learning on hard browsing and reasoning tasks across a range of The more the model browses and thinks about what its browsing. MaxTool Calls\nmulti-step trajectory to find the data it needs, backtracking and the better it does, which is why giving it time to think is important.\nreacting to real-time information where necessary. The model is (OpenAl.'25)",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/JIsgyk0Paic/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "RL infrastructure\n- RL training infra: exists, but mostly \"RLHF\"-style\n- Want options besides \"wait for big lab tuning APIs\"\n- How can we plan ahead?\n- Unknowns:\n  - Cost to do RL for agentic tasks?\n  - How small can the models be?\n  - Generalization across tasks?\n  - How to design effective rewards?\n- Opportunities:\n  - Open-source infra for DIY\n  - Services for agentic RL",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "RL infrastructure",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "- RL training infra: exists, but mostly \"RLHF\"-style\n- Want options besides \"wait for big lab tuning APIs\"\n- How can we plan ahead?\n- Unknowns:\n  - Cost to do RL for agentic tasks?\n  - How small can the models be?\n  - Generalization across tasks?\n  - How to design effective rewards?\n- Opportunities:\n  - Open-source infra for DIY\n  - Services for agentic RL",
+            "x": 5.0,
+            "y": 17.0,
+            "w": 50.0,
+            "h": 74.0
+          },
+          {
+            "role": "logo",
+            "text": "PyTorch",
+            "x": 64.0,
+            "y": 1.0,
+            "w": 24.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "unsloth",
+            "x": 61.0,
+            "y": 10.0,
+            "w": 23.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "Hugging Face",
+            "x": 79.0,
+            "y": 12.0,
+            "w": 18.0,
+            "h": 16.0
+          },
+          {
+            "role": "logo",
+            "text": "Ai2",
+            "x": 71.0,
+            "y": 35.0,
+            "w": 18.0,
+            "h": 14.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Create a fine-tuned model",
+            "x": 63.0,
+            "y": 58.0,
+            "w": 27.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/JIsgyk0Paic/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661280.533243,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "RL infrastructure\n- RL training infra: exists, but mostly \"RLHF\"-style\n- Want options besides \"wait for big lab tuning APIs\"\n- How can we plan ahead?\n- Unknowns:\n  - Cost to do RL for agentic tasks?\n  - How small can the models be?\n  - Generalization across tasks?\n  - How to design effective rewards?\n- Opportunities:\n  - Open-source infra for DIY\n  - Services for agentic RL",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/JIsgyk0Paic/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.89,
+      "frame_type": "demo_video",
+      "reject_reason": "",
+      "text": "grpo_demo.py\nwill brown @willccbb Jan 26 Sints scorte ay the oooonent in th ch GRPO self-correction on Lama-18:) Promoto te are elso giytn that the points scored by the ooponent in the changionshlg gase is hslf of UF's nurite? (2)2)0(1/2)(21②02) Sirpllfying tho ecuntlon, Co cet.\n2 tr (24x\nThis laptification ss arong, Tho opponsnt cust have scored & core point!.\n2 Z psjo?s aaru lin lutuoddo su1 ter4 1 160 150 130 This simplifits to: This tipllties to. So. they stcored 1/6 polnte esch In ttin first 2a get (24x2)0.(1/2)(21( x2/12 （24x2）12x 24x.12x03 12x0.2 9/1x\n24 484 1167K tain/rewards'xcurxy t!an/compltion_length\nwill brown cwillccbb Jan 26 aduss 03 10 1\n01",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense screenshots, code, and small chart labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark collage",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "grpo_demo.py",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 32.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "GRPO self-correction on Llama-1B :)",
+            "x": 7.0,
+            "y": 16.0,
+            "w": 33.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "train/rewards/accuracy",
+            "x": 48.0,
+            "y": 70.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "train/completion_length",
+            "x": 74.0,
+            "y": 70.0,
+            "w": 19.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "script:",
+            "x": 6.0,
+            "y": 79.0,
+            "w": 9.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/JIsgyk0Paic/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661280.5342114,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "grpo_demo.py",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "grpo_demo.py\nwill brown @willccbb Jan 26 Sints scorte ay the oooonent in th ch GRPO self-correction on Lama-18:) Promoto te are elso giytn that the points scored by the ooponent in the changionshlg gase is hslf of UF's nurite? (2)2)0(1/2)(21②02) Sirpllfying tho ecuntlon, Co cet.\n2 tr (24x\nThis laptification ss arong, Tho opponsnt cust have scored & core point!.\n2 Z psjo?s aaru lin lutuoddo su1 ter4 1 160 150 130 This simplifits to: This tipllties to. So. they stcored 1/6 polnte esch In ttin first 2a get (24x2)0.(1/2)(21( x2/12 （24x2）12x 24x.12x03 12x0.2 9/1x\n24 484 1167K tain/rewards'xcurxy t!an/compltion_length\nwill brown cwillccbb Jan 26 aduss 03 10 1\n01",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 844.36
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "grpo_demo.py\nwill brown @willccbb Jan 26 Sints scorte ay the oooonent in th ch GRPO self-correction on Lama-18:) Promoto te are elso giytn that the points scored by the ooponent in the changionshlg gase is hslf of UF's nurite? (2)2)0(1/2)(21②02) Sirpllfying tho ecuntlon, Co cet.\n2 tr (24x\nThis laptification ss arong, Tho opponsnt cust have scored & core point!.\n2 Z psjo?s aaru lin lutuoddo su1 ter4 1 160 150 130 This simplifits to: This tipllties to. So. they stcored 1/6 polnte esch In ttin first 2a get (24x2)0.(1/2)(21( x2/12 （24x2）12x 24x.12x03 12x0.2 9/1x\n24 484 1167K tain/rewards'xcurxy t!an/compltion_length\nwill brown cwillccbb Jan 26 aduss 03 10 1\n01",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/JIsgyk0Paic/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.84,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "grpo_demo.py\nGRPOself-correctlon onLama-1B:) willbrown@willccbo·Jan26 Promote meare alsogiven that the points cored by the cgpoent In thecharoiohi gae Ishalf of ts nrite: （24x-2）=（1/2）（24x-2·2）\nAIE pintswoeredtythtopooaeatlathtchang tr Sinplifying theequatioo,weget: （24x-2）+（2x-2)\ngett This sinplification was wroog. The opponeat most have scored 2 sore oints.\nThis sinplifies to: This sinptities to: So,thoy score 1/6 points ach in their first 26gae. （24x-2）=（1/2）（24x-2·2） x1/6 x2/12 （24×2）12x 12x2 24·222\nchInteipfirst24ges,\nQ24 Et 484 sl67K trainrewaresx(urxy traincompletionjength\nscript: willbrown@willccboJan26\nAGENT ENGINEERING\nHTTPS://AI.ENGINEER",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Collage slide with multiple embedded screenshots and small text labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "space gradient and collage",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "grpo_demo.py",
+            "x": 19.0,
+            "y": 3.0,
+            "w": 39.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 3.0,
+            "y": 34.0,
+            "w": 12.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "AGENT ENGINEERING",
+            "x": 47.0,
+            "y": 88.0,
+            "w": 35.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "https://ai.engineer",
+            "x": 50.0,
+            "y": 95.0,
+            "w": 24.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/JIsgyk0Paic/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661361.8523283,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "grpo_demo.py",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "grpo_demo.py\nGRPOself-correctlon onLama-1B:) willbrown@willccbo·Jan26 Promote meare alsogiven that the points cored by the cgpoent In thecharoiohi gae Ishalf of ts nrite: （24x-2）=（1/2）（24x-2·2）\nAIE pintswoeredtythtopooaeatlathtchang tr Sinplifying theequatioo,weget: （24x-2）+（2x-2)\ngett This sinplification was wroog. The opponeat most have scored 2 sore oints.\nThis sinplifies to: This sinptities to: So,thoy score 1/6 points ach in their first 26gae. （24x-2）=（1/2）（24x-2·2） x1/6 x2/12 （24×2）12x 12x2 24·222\nchInteipfirst24ges,\nQ24 Et 484 sl67K trainrewaresx(urxy traincompletionjength\nscript: willbrown@willccboJan26\nAGENT ENGINEERING\nHTTPS://AI.ENGINEER",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 809.44
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "grpo_demo.py\nGRPOself-correctlon onLama-1B:) willbrown@willccbo·Jan26 Promote meare alsogiven that the points cored by the cgpoent In thecharoiohi gae Ishalf of ts nrite: （24x-2）=（1/2）（24x-2·2）\nAIE pintswoeredtythtopooaeatlathtchang tr Sinplifying theequatioo,weget: （24x-2）+（2x-2)\ngett This sinplification was wroog. The opponeat most have scored 2 sore oints.\nThis sinplifies to: This sinptities to: So,thoy score 1/6 points ach in their first 26gae. （24x-2）=（1/2）（24x-2·2） x1/6 x2/12 （24×2）12x 12x2 24·222\nchInteipfirst24ges,\nQ24 Et 484 sl67K trainrewaresx(urxy traincompletionjength\nscript: willbrown@willccboJan26\nAGENT ENGINEERING\nHTTPS://AI.ENGINEER",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/JIsgyk0Paic/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.92,
+      "frame_type": "demo_video",
+      "reject_reason": "",
+      "text": "grpo_demo.py (*st ctme 6 hours +0o willccbb / grpo demo.py\nHundreds of Billions of Dotsrs Later Teknlum (e/入) 0 F 0Teknlum 1n30 This Is the entkre code needed to reproduce Rs ko! 一 Irokeaso todry the fnst Google Cotb nourbook to tain a reuroning nrw RrrlorceTtrt Ltvning slgorithm trom DepSetk, GRpo. h lte Jo) uru Aiy+ uea nor tpo 6uuea-rod o pue La o uonpol houri you can trrhform I tery srul model, Oron O.s (Soo mlor Hto a tirty muth reusonirg mruchint. To Uhh dale, Iha b probubhy th? oda PiarTe-Csrl Langlais. tu Co'nor Pth Revisons 60 Str3 960 MFoks 313 s-smits/grpo- optuna\nThe notedook a based on a tcrigt by Wilm Brorn thst signifcan Cn Llaru 1B csptcitits for math. This i a typical rtirforcerent hs Iprurh bayta os tocLtrduo erriplt ton cie girn cCire! has to find the solution, resrron ovor n for sorme tine (tis is the sbiotle basic Torm ol inetnce time carmacte) tnd rtttding the gooa resronihg dirtr Trsnino I smat meth reasone wth F1 Qwen o Sb on GRPO Reinsorcemant Leunirg rRLi tree vning m poou buuo+res Lu-sse,dneg wao nof Lre1 ed ov Hog poet aha nha M-snarrg Reasoning-GRPO & RL\nGSM8K Reward Functions\nSrmng up iher mocdet\nIhet pto, Moy\n2.3M cce3.763 80coTmm:·307ra90t1",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-panel collage with screenshots, code, and small UI text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "mixed dark collage",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "grpo_demo.py",
+            "x": 3.0,
+            "y": 3.0,
+            "w": 29.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Hundreds of Billions of Dollars Later",
+            "x": 5.0,
+            "y": 22.0,
+            "w": 30.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Qwen 0.5b on GRPO",
+            "x": 44.0,
+            "y": 35.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Reasoning - GRPO & RL",
+            "x": 67.0,
+            "y": 54.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "GSM8K Reward Functions",
+            "x": 63.0,
+            "y": 74.0,
+            "w": 23.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/JIsgyk0Paic/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661434.0322344,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "grpo_demo.py",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "grpo_demo.py (*st ctme 6 hours +0o willccbb / grpo demo.py\nHundreds of Billions of Dotsrs Later Teknlum (e/入) 0 F 0Teknlum 1n30 This Is the entkre code needed to reproduce Rs ko! 一 Irokeaso todry the fnst Google Cotb nourbook to tain a reuroning nrw RrrlorceTtrt Ltvning slgorithm trom DepSetk, GRpo. h lte Jo) uru Aiy+ uea nor tpo 6uuea-rod o pue La o uonpol houri you can trrhform I tery srul model, Oron O.s (Soo mlor Hto a tirty muth reusonirg mruchint. To Uhh dale, Iha b probubhy th? oda PiarTe-Csrl Langlais. tu Co'nor Pth Revisons 60 Str3 960 MFoks 313 s-smits/grpo- optuna\nThe notedook a based on a tcrigt by Wilm Brorn thst signifcan Cn Llaru 1B csptcitits for math. This i a typical rtirforcerent hs Iprurh bayta os tocLtrduo erriplt ton cie girn cCire! has to find the solution, resrron ovor n for sorme tine (tis is the sbiotle basic Torm ol inetnce time carmacte) tnd rtttding the gooa resronihg dirtr Trsnino I smat meth reasone wth F1 Qwen o Sb on GRPO Reinsorcemant Leunirg rRLi tree vning m poou buuo+res Lu-sse,dneg wao nof Lre1 ed ov Hog poet aha nha M-snarrg Reasoning-GRPO & RL\nGSM8K Reward Functions\nSrmng up iher mocdet\nIhet pto, Moy\n2.3M cce3.763 80coTmm:·307ra90t1",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1789.12
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "grpo_demo.py (*st ctme 6 hours +0o willccbb / grpo demo.py\nHundreds of Billions of Dotsrs Later Teknlum (e/入) 0 F 0Teknlum 1n30 This Is the entkre code needed to reproduce Rs ko! 一 Irokeaso todry the fnst Google Cotb nourbook to tain a reuroning nrw RrrlorceTtrt Ltvning slgorithm trom DepSetk, GRpo. h lte Jo) uru Aiy+ uea nor tpo 6uuea-rod o pue La o uonpol houri you can trrhform I tery srul model, Oron O.s (Soo mlor Hto a tirty muth reusonirg mruchint. To Uhh dale, Iha b probubhy th? oda PiarTe-Csrl Langlais. tu Co'nor Pth Revisons 60 Str3 960 MFoks 313 s-smits/grpo- optuna\nThe notedook a based on a tcrigt by Wilm Brorn thst signifcan Cn Llaru 1B csptcitits for math. This i a typical rtirforcerent hs Iprurh bayta os tocLtrduo erriplt ton cie girn cCire! has to find the solution, resrron ovor n for sorme tine (tis is the sbiotle basic Torm ol inetnce time carmacte) tnd rtttding the gooa resronihg dirtr Trsnino I smat meth reasone wth F1 Qwen o Sb on GRPO Reinsorcemant Leunirg rRLi tree vning m poou buuo+res Lu-sse,dneg wao nof Lre1 ed ov Hog poet aha nha M-snarrg Reasoning-GRPO & RL\nGSM8K Reward Functions\nSrmng up iher mocdet\nIhet pto, Moy\n2.3M cce3.763 80coTmm:·307ra90t1",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/JIsgyk0Paic/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rubric engineering\n- An accessible way to steer RL algorithms\n- Invites creativity + experimentation\n- Anecdotally, seems to help\n- The next \"prompt engineering\"?\n- Next steps:\n  - Using LLMs to design rubrics?\n  - Auto-tuning rubrics with DSPy?\n  - Incorporating LLM judges for soft criteria?\n  - Avoiding reward hacking?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Rubric engineering",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 31.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "- An accessible way to steer RL algorithms\n- Invites creativity + experimentation\n- Anecdotally, seems to help\n- The next \"prompt engineering\"?\n- Next steps:\n  - Using LLMs to design rubrics?\n  - Auto-tuning rubrics with DSPy?\n  - Incorporating LLM judges for soft criteria?\n  - Avoiding reward hacking?",
+            "x": 5.0,
+            "y": 17.0,
+            "w": 43.0,
+            "h": 72.0
+          },
+          {
+            "role": "code",
+            "text": "Reward functions",
+            "x": 61.0,
+            "y": 5.0,
+            "w": 17.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "rubric engineering is the new prompt engineering",
+            "x": 7.0,
+            "y": 80.0,
+            "w": 34.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/JIsgyk0Paic/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661511.118821,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Rubric engineering\n- An accessible way to steer RL algorithms\n- Invites creativity + experimentation\n- Anecdotally, seems to help\n- The next \"prompt engineering\"?\n- Next steps:\n  - Using LLMs to design rubrics?\n  - Auto-tuning rubrics with DSPy?\n  - Incorporating LLM judges for soft criteria?\n  - Avoiding reward hacking?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/JIsgyk0Paic/slide-011.html"
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Overview\nDSPy is a declarative framework for building modular AI software.\nIt allows you to iterate fast on structured code, rather than brittle strings, and offers algorithms that compile AI programs into effective prompts and weights for your language models\nhttps://dspy.ai",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#30413d",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Overview",
+        "x": 3.0,
+        "y": 5.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "DSPy",
+        "x": 75.0,
+        "y": 0,
+        "w": 22.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "DSPy is a declarative framework for building modular AI software.\nIt allows you to iterate fast on structured code, rather than brittle strings, and offers algorithms that compile AI programs into effective prompts and weights for your language models",
+        "x": 4.0,
+        "y": 24.0,
+        "w": 72.0,
+        "h": 36.0
+      },
+      {
+        "role": "caption",
+        "text": "https://dspy.ai",
+        "x": 4.0,
+        "y": 77.0,
+        "w": 16.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655110.3907225,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Overview\nDSPy is a declarative framework for building modular AI software.\nIt allows you to iterate fast on structured code, rather than brittle strings, and offers algorithms that compile AI programs into effective prompts and weights for your language models\nhttps://dspy.ai",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,826 @@
+{
+  "video_id": "7Dtu2bilcFs",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 13,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI Developer Trajectory\nWe all know by now that agentic coding is not the Final Form for AI.\nThis talk is about what's coming next: orchestrators.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Mixed timeline, footer, and small labels are better preserved by OCR than manual transcription.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with black footer band",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI Developer Trajectory",
+            "x": 27.0,
+            "y": 3.0,
+            "w": 36.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "We all know by now that agentic coding is not the Final Form for AI.",
+            "x": 26.0,
+            "y": 48.0,
+            "w": 50.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "This talk is about what's coming next: orchestrators.",
+            "x": 26.0,
+            "y": 57.0,
+            "w": 42.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "2023",
+            "x": 35.0,
+            "y": 14.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "2024",
+            "x": 47.0,
+            "y": 29.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "2025",
+            "x": 63.0,
+            "y": 14.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "2026",
+            "x": 80.0,
+            "y": 29.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE / LEAD",
+            "x": 5.0,
+            "y": 79.0,
+            "w": 15.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657947.4723616,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Developer Trajectory\nWe all know by now that agentic coding is not the Final Form for AI.\nThis talk is about what's coming next: orchestrators.",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why would we stop now?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense slide text and diagram-like image are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with black footer band",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why would we stop now?",
+            "x": 25.0,
+            "y": 35.0,
+            "w": 30.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657947.473096,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why would we stop now?",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Models are Smart Enough",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small body text and multi-panel layout are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with black footer band",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Models are Smart Enough",
+            "x": 63.0,
+            "y": 5.0,
+            "w": 28.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657947.4734702,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Models are Smart Enough",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "We've Seen This Movie Before",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Bullet list and side illustration are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with black footer band",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "We've Seen This Movie Before",
+            "x": 26.0,
+            "y": 7.0,
+            "w": 30.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657947.4737954,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "We've Seen This Movie Before",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The New Quartz Crisis",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small side cards and footer names are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with black footer band",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The New Quartz Crisis",
+            "x": 57.0,
+            "y": 4.0,
+            "w": 26.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657947.4741952,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The New Quartz Crisis",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Coding Agents Should be like Ants",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "The slide has multiple small bullets and a dense image that OCR will capture more reliably.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with black footer band",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Coding Agents Should be like Ants",
+            "x": 62.0,
+            "y": 5.0,
+            "w": 30.0,
+            "h": 13.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657947.4745536,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Coding Agents Should be like Ants",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.92,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why are we trying to have a single diver do everything?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small caption text beneath the illustration is better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "white with black footer band",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Why are we trying to have a single diver do everything?",
+            "x": 25.0,
+            "y": 78.0,
+            "w": 48.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657947.474883,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why are we trying to have a single diver do everything?",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Book covers, years, and small labels are OCR-suitable and not worth manual transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with black footer band",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "The Phoenix Project",
+            "x": 29.0,
+            "y": 1.0,
+            "w": 11.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "DevOps Handbook",
+            "x": 41.0,
+            "y": 1.0,
+            "w": 11.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "ACCELERATE",
+            "x": 62.0,
+            "y": 1.0,
+            "w": 11.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "The Unicorn Project",
+            "x": 81.0,
+            "y": 1.0,
+            "w": 11.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "2013",
+            "x": 34.0,
+            "y": 33.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "2016",
+            "x": 47.0,
+            "y": 33.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "2017",
+            "x": 65.0,
+            "y": 33.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "2019",
+            "x": 83.0,
+            "y": 33.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Wiring the Winning Organization",
+            "x": 42.0,
+            "y": 46.0,
+            "w": 14.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "2023",
+            "x": 46.0,
+            "y": 72.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "VIBE CODING",
+            "x": 65.0,
+            "y": 47.0,
+            "w": 11.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "Fall 2025",
+            "x": 67.0,
+            "y": 74.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "@RealGeneKim",
+            "x": 88.0,
+            "y": 77.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657947.4751768,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Our Belief and Observations\nAI will reshape technology organizations — 100x larger than the impact of agile, cloud, CI/CD, mobile, etc.\nThese technology breakthroughs reshape organizations... the entire economy re-organizes itself to take advantage of these new modes of production\nWe are starting to see amazing case studies hinting at what the future may look like",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 0,
+            "y": 0,
+            "w": 28.0,
+            "h": 100
+          },
+          {
+            "role": "title",
+            "text": "Our Belief and Observations",
+            "x": 31.0,
+            "y": 0,
+            "w": 58.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "AI will reshape technology organizations — 100x larger than the impact of agile, cloud, CI/CD, mobile, etc.",
+            "x": 31.0,
+            "y": 10.0,
+            "w": 64.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "These technology breakthroughs reshape organizations... the entire economy re-organizes itself to take advantage of these new modes of production",
+            "x": 31.0,
+            "y": 31.0,
+            "w": 66.0,
+            "h": 28.0
+          },
+          {
+            "role": "body",
+            "text": "We are starting to see amazing case studies hinting at what the future may look like",
+            "x": 31.0,
+            "y": 63.0,
+            "w": 60.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "2026: THE YEAR THE IDE DIED",
+            "x": 28.0,
+            "y": 83.0,
+            "w": 72.0,
+            "h": 15.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658120.8509266,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Our Belief and Observations\nAI will reshape technology organizations — 100x larger than the impact of agile, cloud, CI/CD, mobile, etc.\nThese technology breakthroughs reshape organizations... the entire economy re-organizes itself to take advantage of these new modes of production\nWe are starting to see amazing case studies hinting at what the future may look like",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Booking.com (2025)\nBruno Passos, Group Product Manager, Developer Experience\nLaura Tacho, CTO, DX",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Booking.com (2025)",
+            "x": 24.0,
+            "y": 0,
+            "w": 32.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Bruno Passos, Group Product Manager, Developer Experience",
+            "x": 24.0,
+            "y": 11.0,
+            "w": 36.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "Laura Tacho, CTO, DX",
+            "x": 24.0,
+            "y": 36.0,
+            "w": 24.0,
+            "h": 16.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 60.0,
+            "y": 4.0,
+            "w": 39.0,
+            "h": 82.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658120.85684,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Booking.com (2025)\nBruno Passos, Group Product Manager, Developer Experience\nLaura Tacho, CTO, DX",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Cisco (2024)\nJohn Rauser, Senior Director of Software Engineering\nAnand Raghavan, Senior Director of Engineering, AI",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Cisco (2024)",
+            "x": 24.0,
+            "y": 0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "John Rauser, Senior Director of Software Engineering",
+            "x": 24.0,
+            "y": 11.0,
+            "w": 39.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Anand Raghavan, Senior Director of Engineering, AI",
+            "x": 24.0,
+            "y": 36.0,
+            "w": 40.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 60.0,
+            "y": 4.0,
+            "w": 39.0,
+            "h": 82.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658120.8579059,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Cisco (2024)\nJohn Rauser, Senior Director of Software Engineering\nAnand Raghavan, Senior Director of Engineering, AI",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Vibe Coding Workshop For Leaders\nAI Engineer\nEngineering the future of AI",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense collage of small embedded screenshots and charts; OCR is better suited than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Vibe Coding Workshop for Leaders",
+            "x": 20.0,
+            "y": 0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 19.0,
+            "y": 12.0,
+            "w": 76.0,
+            "h": 68.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 31.0,
+            "y": 84.0,
+            "w": 43.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658104.502874,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Vibe Coding Workshop for Leaders",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Scauci.\nETLS VogasOa\nVioecadingWvrisbop Seg 器\nAl Engineer Engineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 127.76
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Vibe Coding Workshop For Leaders\nAI Engineer\nEngineering the future of AI",
+        "text_status": "meaningful",
+        "corrections": "OCR was corrected from garbled text using the clearly visible title and footer logo text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.88,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Vibe Coding Workshop for Leaders",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Vibe Coding Workshop for Leaders",
+            "x": 20.0,
+            "y": 0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 39.0,
+            "y": 7.0,
+            "w": 30.0,
+            "h": 72.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 31.0,
+            "y": 84.0,
+            "w": 43.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/7Dtu2bilcFs/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658141.2575948,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Vibe Coding Workshop for Leaders",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/7Dtu2bilcFs/slide-013.html"
+    }
+  ],
+  "rejected": []
+}

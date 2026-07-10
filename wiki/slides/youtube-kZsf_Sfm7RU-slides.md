@@ -19,291 +19,290 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/kZsf_Sfm7RU/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.98`
+- Text source: agent_vision.
 
-> AI ENGINEER WORLD'S FAIR 2026
-> The Missing Layer
-> After Launch
+Slide text:
+
+> The Missing Layer After Launch
 > Everything important starts after you ship.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> We shipped it in 3 weeks.
-> Shipping is fast now. That was the easy part.
+Slide text:
+
+> We shipped it in 3 weeks. 3 wks TO FIRST PRODUCT ~300K LINES ~$35K SPENT
 
 ![[assets/slides/kZsf_Sfm7RU/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> Monitor it?
-> Understand it?
-> Improve it?
-> Find the holes?
-> wd Normal software never really asked these.
+Slide text:
+
+> Monitor it? Understand it? Improve it? Find the holes?
 
 ![[assets/slides/kZsf_Sfm7RU/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Small multi-column body text and quoted claims are better suited to OCR than manual transcription in this pass.
 
+Slide text:
+
+> 02: InviSible failure
 > The failure hides itself.
-> .
-> Claude marked features “complete” — without Agents reported success while the system state said
-> checking they actually worked. the opposite.
-> PRERCTND (OQHNE GSES FOR LONG BUNS SG AGENTS ANT HOE CO MORTRE AS OUN RES DOAN
-> oe Nothing crashes. Nothing turns red. Nothing knows.
+> Claude marked features "complete" - without checking they actualty worked. the opposite. Agents reported success while the system state said
+> *EFfeCtIvE HaANESSeS FOr lOng-RUnnInG AGentS.' AnthROpIC NortheaStern ReO-teaM
+> Nothing crashes. Nothing turns red. Nothing knows.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > One task.
 > Hundreds of tools.
-> It writes code, runs the terminal, calls other companies’ services.
+> It writes code, runs the terminal, calls other companies' services.
 > Every tool is a new, quiet way to fail.
-> {
 
 ![[assets/slides/kZsf_Sfm7RU/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Diagram slide with many labeled boxes and arrows is OCR-suitable; only the short title is extracted directly here.
 
-> Production Logs ‘ . . .
-> Sessions
-> *
-> fc...
-> Humae PR review Paull request
-> _ * ese Ceyworter}
-> , a
-> t 4
-> ee Recall areal
-> - The agents watch and draft. The human decides.
-> i: @
+Slide text:
+
+> The ciosed toop
+> Production Sessions traces Loys: & Trajectary. code pa.th sis
+> Next'fix pommoa revev.+ merye: ·Humon PR rever Pull cequest (lognontor)
+> terate wtl reay
+> The agents watch and draft. The human decides.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > Four operating agents.
-> 
 > 01 log-monitor — detect & fix fast (reactive)
-> 
 > 02 PR-review — gate the fix (reactive)
-> 
-> 03 + session-analyzer — feel the health (reactive)
-> 
-> 04 QA/computer-use — go test it (proactive - roadmap)
-> ; One example — not a recipe.
+> 03 session-analyzer — feel the health (reactive)
+> 04 QA / computer-use — go test it (proactive • roadmap)
 
 ![[assets/slides/kZsf_Sfm7RU/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — agent marked this slide as OCR-ready
 
-> ——— x log~montor apex?
-> wesw © vee f 7 —
-> — . )
-> peicten na ] ee
-> bet We petwres
-> 8 Aearet |
-> pel treectery cane rope vend cade og
-> Cadenenne - a fu as
-> — \ / so geeent
-> oe _ yr +
-> | Betemene Yond end | sigeneeg . .) deuretee mermad Roe
-> SS Boer tee Aer end ue vce? 3 -
-> Trey ‘ OO __ evdere hemes
-> . cr a
-> tne A
-> Siack alert
-> - x ,
-> 1 ecerty 1 mm ne
-> P :
+Slide text:
+
+> AGENT O1·LOG-MONITOR
+> what t con read rnonitor agent
+> sioy wenpod DETICT Rhte os yorebas
+> hpet njecires codelase ASALYZE corerepo red cole Pull rervest
+> Dntains redu) Troves DecrDe does thevserend stuet? deureton eilente meroa He labes
+> FEX intemto penRe
+> slackalert
+> seventy
 
 ![[assets/slides/kZsf_Sfm7RU/slide-009.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-009.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — agent marked this slide as OCR-ready
 
-> LOG-MONITOR — SLACK
-> Our bug — it opens a PR and tells me
-> Outside billing issue — just a heads-up, no PR
-> It alerts only when it matters — and knows the difference.
+Slide text:
+
+> LOG-MONITOR-SLACK
+> Ourbug~itopensaPR andtellsme
+> Outside billing issue -just a heads-up, no PR
+> LogMoanitorfotlow
+> Ervronrreet Period 210206UC)
+> PToviderblnghw-RfCURRt D.mot roohrd:LPxv402（ededmmm（redts'101:4sUTC
+> utt rraf ar resolvedT a (an bta- thut n rrw contas tn Th /5orgsover48h
+> Next strpvvoy Deturubsru 1uruouf pun top cp xtiusy
+> It alerts only when it matters - and knows the difference.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-010.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-010.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — agent marked this slide as OCR-ready
 
-> PR-REVIEW — THE ROOT-CAUSE FIX
-> Verdict: ready — root cause, with a test that reproduces it.
+Slide text:
+
+> PA-Aeview - the root.cause fix
+> Verdict: ready - root cause, with a test that reproduces it.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-011.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-011.html)
+- AI slide classifier: `content_slide` confidence `0.94`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — agent marked this slide as OCR-ready
 
-> 2 Session-analyzer 3
-> sectors [1 ano'yue EVERY season ‘
-> 
-> S| ctcone 9. munbty | coats issues) | c Feel the pulse \
-> 
-> Session 4-4eld : ‘ ——a te = 4, oe :
-> 
-> seivon s-Shle : ; FF / 100 health score
-> ‘ Bore aeue ee eal ters . Se, woccesy cout teed
-> 
-> aettion 34-7002 : | Tee Name ian eee meey af
-> 
-> ‘prior hit ~95% on the model, then got to 99% by building this kind of loop over production.
-> : PLP HER DOVE LGY ANTE RION
-> 4
+Slide text:
+
+> AGent o3 · session-analyzer
+> zer
+> tess'on s.lc'! Sessions. malyse EvERY tert'on orcoe mb cost: ssucs Fcel the pulse
+> Kest'os s-st?e 77 / 100 jealtr score
+> tels'os x-la02 tic sane issue aorors say Ctons = Ose pattem
+> Rrior hit ~95% on the model, then got to 99% by building this kind of loop over production.
+> DPHER LOVEJOY: ANTERIOR
 
 ![[assets/slides/kZsf_Sfm7RU/slide-012.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-012.html)
+- AI slide classifier: `content_slide` confidence `0.94`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — agent marked this slide as OCR-ready
 
-> cy
-> °
-> 2 session-onalyzer
-> Cy. Hae te yee BERT apatce :
-> S| etcone | mentty 1 cont ames” | 7 See tne pete \
-> wewtoe aA : . —-* a & : ;
-> ——> ©
-> wessce oSble —S {, nate et gutte en ~ : | 7? / 100 fen beet we * eee
-> Anterior hit ~95°%> on the model, then got to 99% by building this kind of foop over production.
+Slide text:
+
+> GB AGENT O3 · SESSION.ANALYIEA
+> sesstor!
+> settons · walyte eveRy sets'on mtcoeraty coit· 'ver fec tre plre
+> rerre rutle 2·callepre sto ptters 77 / 100 kealth rare Tll, wcter·'cort trerd
+> tcrton s-?a0x rerroin，orE ptcol
+> Anterior hit -95% on the model, then got to 99% by building thls kind of loop over production.
+> ChAISToPhER LOVEJOY - ANTeAIOA
 
 ![[assets/slides/kZsf_Sfm7RU/slide-013.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-013.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Dense dashboard metrics, charts, and small table-like text are better OCRed than transcribed.
 
-> 97/07 $296.67 ww 84.5% B.S% on 1
-> ere lore 0 @ Nertewnene trie Cy Cm re Oo
-> o—_______.»>—_____e—_——__—* 2 . x
-> seers CD te
-> [rc
-> = _ ®
-> ee er ae
-> Qo os s
-> see need Meg ne
-> = 5
-> vee tnd peneere
-> o _ ’
-> teres pears hemes
-> _ aos a
-> .
-> oe Coane Series
-> EE Pera tees top owe tae
-> ——— apostate =
-> eee taney tae .
-> a snes bnew me .
-> a ‘Ginx, ‘
+Slide text:
+
+> SainnsAnibes 口 PoiringeScnp
+> $216.67 7.7 84.5% 15.5% 0% 1
+> BooreTand SaisensperDeyog.e Cost jerDey
+> 30
+> AmiyMs
+> OegTng Atons
+> noboopt Agetaerpnded erBecgPttis
+> OrgariSMiOA TeEd Cod
+> 67 ACostbAC N2.8r
+> Norwng Tri Ch 18
+> WrieVeey Fan
+> Wlerr Jxeroen 3.8
+> y
 
 ![[assets/slides/kZsf_Sfm7RU/slide-014.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-014.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Dense multi-panel dashboard content with tables, charts, and small labels is better OCRed.
 
-> oo : 1’
-> Aakers pairs venom
-> _ _ a
-> a eae ee
-> EE: nm seems when tae Coe
-> es isis cana pn 2
-> wee ee ce -
-> wee ees ae “
-> tee eee .
-> ee ate te .
-> ar meewae *
-> oe ,
-> Seta Nene .
-> Come Ute toe :
-> © ree Petrone 0 ow nepres . Weseige tar oe aw tasomect
-> : te Cw ” tes —
-> Shen tere sa ate $5008 _—_—_—_—_—_—_— tenes ssa
-> tame tet ,
-> . 9 Omnia ‘ 7
-> * on e —
-> nee .
-> Pane see tene
-> 2220 ” =
-> vm =
-> eg : — °
-> ee .
+Slide text:
+
+> Seheygant lyons RT
+> Crpanitao
+> Orginiation TolaiCom
+> 74 AivaCtC 7
+> 24
+> HepinguitorTrn
+> Wia hgiiny
+> QoigaeuteTund
+> Celirs Shy Touns
+> CppeAnan FDestiNMe 5.4 M 4.00 $5008 MsChu e Maint Cver Swtimes O
+> rotgil Cueta Bocw
+> Atooifen
+> 3,320 8% 73
 
 ![[assets/slides/kZsf_Sfm7RU/slide-015.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-015.html)
+- AI slide classifier: `content_slide` confidence `0.85`
+- Text source: advanced OCR `rapidocr-live/right-72/contrast`.
+- OCR decision: ready — The right-side session report and metadata are dense and small enough to benefit from OCR.
 
-> —_- - 2 oe aaa
-> 
-> —>
-> 
-> at 9m ” a 2
-> On
-> ——
-> 
-> ee ee
-> 
-> —— al
-> Season 5-096
-> one fee ees Dem ene tee
-> 
-> - cw
-> 
-> 8
-> Wet the customer warded
-> What negpened
-> heeses toner
-> Teoh ase
-> “ -
-> i
+Slide text:
+
+> 177m 2
+> 59ve9 (12
+> Session s-096
+> OVKORG S00CXSS·5：/0
+> Ceet 500
+> Whatthecustocrer wanted
+> What happnid
+> Issuesfours
+> MOMC2
+> Tepls used
 
 ![[assets/slides/kZsf_Sfm7RU/slide-016.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-016.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
 
-> Go looking for
-> !
-> what's about to break.
+Slide text:
+
+> Go looking for what's about to break.
 > Roadmap / rebuilding — drives the live product like a user.
-> Testing tools “dramatically improved performance” — A validator that drives the live app through computer
-> ‘ing the app like a user. use.
-> ‘ Po ARNE SSP S POR CONG BONN NS AGENTS ANT MRO PE FACTO SESSIONS”
+> A validator that drives the live app through computer use.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-017.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-017.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> a: oe eee cee
-> ‘ = °
-> A It drives the real product like a user — and finds the bug before a customer does.
+Slide text:
+
+> AGENT 04 • QA / COMPUTER-USE — LIVE
+> It drives the real product like a user — and finds the bug before a customer does.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-018.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-018.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> f RN
-> | oo “2 Iaternal hamess
-> TT x .— es 4
-> Trayectones '
-> f ‘ Sa Se eee 2 Slack
-> q nN
-> Your live . ; ~ : | PRereview | r —— «4
-> | product | > _ = __ ——, = 5 | tre vervovs wates |
-> wo mes sam sl Sestionanahaer : ct
-> Ne as ~ Mee pee ee wm ean 2
-> | Dae | Qk comptervte (pedane) ‘
-> | ; 7 Uve UF —
-> ‘ Donat give then a keyrole. Give trem the whole room.
-> , Give them all of it — or they're guessing.
+Slide text:
+
+> THE ENABLER
+> Don't give them a keyhole. Give them the whole room.
+> Give them all of it — or they're guessing.
 
 ![[assets/slides/kZsf_Sfm7RU/slide-019.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/kZsf_Sfm7RU/slide-019.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> The harness that watches itself
-> is the moat.
-> os Post
-> «) GregBrockman [() i's)
-> the model alone is no longer the product
-> wa
-> i ' f The model is the part you swap. The loop is the part you own.
+Slide text:
+
+> THE BIGGER PATTERN
+> The harness that watches itself is the moat.
+> The model is the part you swap. The loop is the part you own.
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/kZsf_Sfm7RU/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

@@ -1,0 +1,542 @@
+{
+  "video_id": "so9l_MwS2yg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 4,
+  "rejected_count": 4,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "THE DAILY REALITY\nHack\nVSCode AA\nAIE uxport foction sothxiodleere(res,rs,next）1 i/ ey s this nall in stugieg? const token reg.hudtrs.avthoriatioo FOCUSED\nATEEPTION\nMP GoogleDeepMind",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Screenshot-heavy slide with small UI/code text; OCR is likely better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#000000",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "THE DAILY REALITY",
+            "x": 32.0,
+            "y": 12.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 12.0,
+            "h": 22.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 50.0,
+            "y": 75.0,
+            "w": 31.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "FOCUSED",
+            "x": 86.0,
+            "y": 35.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "ATTENTION",
+            "x": 87.0,
+            "y": 57.0,
+            "w": 9.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-002.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671928.0021396,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "THE DAILY REALITY",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "THE DAILY REALITY\nHack\nVSCode AA\nAIE uxport foction sothxiodleere(res,rs,next）1 i/ ey s this nall in stugieg? const token reg.hudtrs.avthoriatioo FOCUSED\nATEEPTION\nMP GoogleDeepMind",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 293.88
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "THE DAILY REALITY\nHack\nVSCode AA\nAIE uxport foction sothxiodleere(res,rs,next）1 i/ ey s this nall in stugieg? const token reg.hudtrs.avthoriatioo FOCUSED\nATEEPTION\nMP GoogleDeepMind",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/so9l_MwS2yg/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The agents aren't the bottleneck.\nWe are.\nAgents\nVerification\nYour attention",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The agents aren't the bottleneck.",
+            "x": 34.0,
+            "y": 12.0,
+            "w": 50.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "We are.",
+            "x": 54.0,
+            "y": 24.0,
+            "w": 16.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 12.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "Agents",
+            "x": 37.0,
+            "y": 44.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Verification",
+            "x": 53.0,
+            "y": 44.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Your attention",
+            "x": 77.0,
+            "y": 44.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 56.0,
+            "y": 78.0,
+            "w": 21.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-003.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671957.8703358,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The agents aren't the bottleneck.\nWe are.\nAgents\nVerification\nYour attention",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/so9l_MwS2yg/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "YOU'RE NOT IMAGINING IT\nSIMON WILLISON - Lenny's Podcast, Apr 2 2026\nI fire up 4 parallel agents and I'm wiped out by 11 AM. Finding our new limits is a personal skill we need to learn.\nI'm seeing this in my own work on the Applied AI team.\nHere's how I recommend finding developer balance.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "YOU'RE NOT IMAGINING IT",
+            "x": 32.0,
+            "y": 12.0,
+            "w": 31.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "SIMON WILLISON - Lenny's Podcast, Apr 2 2026",
+            "x": 33.0,
+            "y": 26.0,
+            "w": 43.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "I fire up 4 parallel agents and I'm wiped out by 11 AM. Finding our new limits is a personal skill we need to learn.",
+            "x": 33.0,
+            "y": 31.0,
+            "w": 51.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "I'm seeing this in my own work on the Applied AI team.",
+            "x": 32.0,
+            "y": 50.0,
+            "w": 44.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Here's how I recommend finding developer balance.",
+            "x": 32.0,
+            "y": 58.0,
+            "w": 44.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 12.0,
+            "h": 22.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 56.0,
+            "y": 78.0,
+            "w": 22.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-004.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671957.8710587,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "YOU'RE NOT IMAGINING IT\nSIMON WILLISON - Lenny's Podcast, Apr 2 2026\nI fire up 4 parallel agents and I'm wiped out by 11 AM. Finding our new limits is a personal skill we need to learn.\nI'm seeing this in my own work on the Applied AI team.\nHere's how I recommend finding developer balance.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/so9l_MwS2yg/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "diagram",
+      "reject_reason": "",
+      "text": "CLOSETHELOOPWITHYOURBODY\n+★ ★? ★ ++ AIE ★ ★ got 4 hours of sleop. yourself. The system that ships your code also knows you Your physical context flows into the agentic loop. It adjusts the plan. lt protects you from Ring Oura MCP Server Code Claude How to Connect Your Oura Ring to Claude Desktop with MCP OURA MCP N Claude\nZ. Ler's tnock out sl 6 renniirg Bdea today\nreoonerend 2 sdoed mex soday. Pash che odher & to tomorron. Pl'tueg mopa Ah' seupnw 'dhep wzt p tro nok ppeD a Your body seys sose yp let's Detee?..1\nMCP AlEngineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Mixed diagram plus embedded screenshot with small labels; OCR should recover the detailed body copy and UI text better than manual triage.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#000000",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "CLOSE THE LOOP WITH YOUR BODY",
+            "x": 32.0,
+            "y": 12.0,
+            "w": 39.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Oura Ring",
+            "x": 33.0,
+            "y": 27.0,
+            "w": 7.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MCP Server",
+            "x": 44.0,
+            "y": 27.0,
+            "w": 9.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Claude Code",
+            "x": 55.0,
+            "y": 27.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "How to Connect Your Oura Ring to Claude Desktop with MCP",
+            "x": 67.0,
+            "y": 22.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 12.0,
+            "h": 22.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 56.0,
+            "y": 78.0,
+            "w": 22.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-005.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671957.8717809,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "CLOSE THE LOOP WITH YOUR BODY",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "CLOSETHELOOPWITHYOURBODY\n+★ ★? ★ ++ AIE ★ ★ got 4 hours of sleop. yourself. The system that ships your code also knows you Your physical context flows into the agentic loop. It adjusts the plan. lt protects you from Ring Oura MCP Server Code Claude How to Connect Your Oura Ring to Claude Desktop with MCP OURA MCP N Claude\nZ. Ler's tnock out sl 6 renniirg Bdea today\nreoonerend 2 sdoed mex soday. Pash che odher & to tomorron. Pl'tueg mopa Ah' seupnw 'dhep wzt p tro nok ppeD a Your body seys sose yp let's Detee?..1\nMCP AlEngineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 896.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "CLOSETHELOOPWITHYOURBODY\n+★ ★? ★ ++ AIE ★ ★ got 4 hours of sleop. yourself. The system that ships your code also knows you Your physical context flows into the agentic loop. It adjusts the plan. lt protects you from Ring Oura MCP Server Code Claude How to Connect Your Oura Ring to Claude Desktop with MCP OURA MCP N Claude\nZ. Ler's tnock out sl 6 renniirg Bdea today\nreoonerend 2 sdoed mex soday. Pash che odher & to tomorron. Pl'tueg mopa Ah' seupnw 'dhep wzt p tro nok ppeD a Your body seys sose yp let's Detee?..1\nMCP AlEngineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/so9l_MwS2yg/slide-005.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "Sponsor/logo wall only.",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "PLATINUM SPONSORS",
+            "x": 35.0,
+            "y": 36.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "Braintrust",
+            "x": 7.0,
+            "y": 50.0,
+            "w": 33.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "WorkOS",
+            "x": 43.0,
+            "y": 50.0,
+            "w": 26.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenAI",
+            "x": 74.0,
+            "y": 50.0,
+            "w": 19.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-001.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671928.0009859,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.0,
+      "frame_type": "other",
+      "reject_reason": "missing batch classifier result",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": []
+      },
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-006.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671978.2672079,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage photo with presenter and audience; projected slide is not the primary readable slide frame.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Non-slide stage shot with partial projection and occlusions.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "light gray room interior with white projection screen",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-007.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671999.166396,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "Logo/title card rather than a substantive presentation slide.",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "Decorative logo card with minimal text.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black with subtle dark pixel pattern",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer",
+            "x": 35.0,
+            "y": 32.0,
+            "w": 31.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "EUROPE",
+            "x": 46.0,
+            "y": 43.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "HTTPS://AI.ENGINEER",
+            "x": 34.0,
+            "y": 82.0,
+            "w": 32.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-008.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671999.166698,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

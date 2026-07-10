@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "lets any coding agent HF CLI Skill # Add CLI skill globally hf skills add --claude --global\nsearch models, manage datasets, # 0r per-project hf skills add --claude\nrun jobs (and more!) launch Spaces # Works with other agents too hf skills add --codex hf skills add hf skills add --opencode --cursor",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "slide contains code snippets and multi-column text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light green",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "HF CLI Skill",
+        "x": 5.0,
+        "y": 5.0,
+        "w": 33.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "lets any coding agent\n• search models,\n• manage datasets,\n• launch Spaces\n• run jobs (and more!)",
+        "x": 6.0,
+        "y": 18.0,
+        "w": 38.0,
+        "h": 33.0
+      },
+      {
+        "role": "code",
+        "text": "# Add CLI skill globally\nhf skills add --claude --global\n\n# Or per-project\nhf skills add --claude\n\n# Works with other agents too\nhf skills add --codex\nhf skills add --cursor\nhf skills add --opencode",
+        "x": 49.0,
+        "y": 7.0,
+        "w": 44.0,
+        "h": 80.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-016.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662401.093104,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "HF CLI Skill",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "lets any coding agent HF CLI Skill # Add CLI skill globally hf skills add --claude --global\nsearch models, manage datasets, # 0r per-project hf skills add --claude\nrun jobs (and more!) launch Spaces # Works with other agents too hf skills add --codex hf skills add hf skills add --opencode --cursor",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 482.87
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "lets any coding agent HF CLI Skill # Add CLI skill globally hf skills add --claude --global\nsearch models, manage datasets, # 0r per-project hf skills add --claude\nrun jobs (and more!) launch Spaces # Works with other agents too hf skills add --codex hf skills add hf skills add --opencode --cursor",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

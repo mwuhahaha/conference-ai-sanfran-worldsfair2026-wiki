@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Evolution of... Web Search",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense screenshot of a web search homepage with small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "teal with orange footer wave",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Evolution of... Web Search",
+        "x": 14.0,
+        "y": 2.0,
+        "w": 72.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "LYCOS",
+        "x": 30.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "It's amazing where Go Get It will get you.",
+        "x": 39.0,
+        "y": 21.0,
+        "w": 25.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/knDDGYHnnSI/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670051.1539052,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Evolution of... Web Search",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 869.2,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0051
+  }
+}

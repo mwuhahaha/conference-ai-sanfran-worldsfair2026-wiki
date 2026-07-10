@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Kevin Taylor\nGrowth Engineering Intern\nUCLA bound :)\nHigh school Senior\nThe reason why this workshop is so good!",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "light cream",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "photo",
+        "text": "",
+        "x": 22.0,
+        "y": 0,
+        "w": 27.0,
+        "h": 75.0
+      },
+      {
+        "role": "title",
+        "text": "Kevin Taylor",
+        "x": 57.0,
+        "y": 0,
+        "w": 28.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Growth Engineering Intern",
+        "x": 57.0,
+        "y": 8.0,
+        "w": 30.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "UCLA bound :)\nHigh school Senior\nThe reason why this workshop is so good!",
+        "x": 58.0,
+        "y": 17.0,
+        "w": 34.0,
+        "h": 25.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 58.0,
+        "y": 51.0,
+        "w": 15.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/tzRvcTEapzo/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672040.5389516,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Kevin Taylor\nGrowth Engineering Intern\nUCLA bound :)\nHigh school Senior\nThe reason why this workshop is so good!",
+  "advanced_ocr": {}
+}

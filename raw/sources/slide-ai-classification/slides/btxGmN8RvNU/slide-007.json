@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.78,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Google DeepMind",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "UI screenshot with some small browser text; better handled later if needed.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 25.0,
+        "w": 13.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "You've gone incognito",
+        "x": 55.0,
+        "y": 18.0,
+        "w": 22.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Google DeepMind",
+        "x": 48.0,
+        "y": 76.0,
+        "w": 28.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/btxGmN8RvNU/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667090.759109,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Google DeepMind",
+  "advanced_ocr": {}
+}

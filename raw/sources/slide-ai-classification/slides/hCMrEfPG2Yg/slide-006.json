@@ -1,0 +1,95 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "https://json-render.dev/",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "product screenshot slide with dense small UI text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black and white with dark app screenshot",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "https://json-render.dev/",
+        "x": 34.0,
+        "y": 2.0,
+        "w": 45.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "json-render Chat Example",
+        "x": 47.0,
+        "y": 14.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Test Your Knowledge",
+        "x": 43.0,
+        "y": 50.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Check Answer",
+        "x": 48.0,
+        "y": 69.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Ask a Follow-up...",
+        "x": 47.0,
+        "y": 78.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 15.0,
+        "w": 14.0,
+        "h": 16.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer Europe",
+        "x": 57.0,
+        "y": 84.0,
+        "w": 24.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/hCMrEfPG2Yg/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668206.8031826,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "https://json-render.dev/",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/full",
+    "best_score": 481.76,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

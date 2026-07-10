@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "+ ttrt: 糖 1 ahton +++ + T th+ar + PI$+g Yu 'tt+o + + + C + e L t c(+ a b + (I tH n?! Tls' oper stbarn, trom L:Lk crmton to sytrt ronfcton, i wirtut reyrg on polrg. r+ $yt 1.1.4\nL! ta+ert+ Processing Events\n1 +y. + t.+ 中 Te cet the Lurve Uh iromm tur Uoch itrctier, e hed our Lt ksy, Hs thocd hrle herdeode tartt. phtyt seutb ybe ta te Yuet pue tce+l! T ou Codt. Todt protds + ftert tey t Prala tiie ihg od Stael P+crirg + ebhool, me+retlen ie +e ft yt+e. The tee po+ comrt thont shst you do widh l. T? Pun tt iotoho corhila 'n rour Wrn'el, rt crthtt a tert Atd rtrct -tptty tt Gur torig Gr hh' Iath.\n静 Fls 4y-b tol+! Htrat <reut mms.-ei-mry Kms_At_Aty.\"<rouR_ves_ut_xlr_HeiEs*\n口 Tht gre sthe lolotvg cutoct\n量 4. pactLtry动 +tCiatk g? I & Apn toa (tatt + rr Hecret 'mres-pl-ley' +it tte Ley 'taus_Al_!y' (+u+-+pi -+rtho+h -+a++ Lhe+) +/b+o-.t U(ed Lr/taAu+-+e!-++taak -++-ithop Ireh\nU++ tl in your todal #p+!\n(+\n￥...\n(+* +*+r: h A*a *a t+h c+a or + / 1o4 +l+t emt! t,tahth!\nU t torewatraaoult toe. Arrtp tall ttnlo... X rt trtty lhl tiu+ h: + S+all Uih rtulp! Pit /'+ 2a oa. (eatrr 4).+ eo. p*co 4 Ht.] ai trctl4 tatt 1a,+t4 M411 I'sw't.'wt+ 1*.] 1.=o). -1.-N tert* Ttt m clentte tn or, veu,. t'u'+hayrird! *'0 art t? + 7? Ie hr + +it.\n9四@0106@ Crh i I=+ C+ y tn +t 2025-11-22*10:10:25",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Text-heavy code and log slide with small paragraphs and console output; OCR is the right extraction method.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light editor workspace",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Processing Events",
+        "x": 21.0,
+        "y": 10.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "event processing explanation",
+        "x": 20.0,
+        "y": 18.0,
+        "w": 34.0,
+        "h": 26.0
+      },
+      {
+        "role": "code",
+        "text": "API key / secret / event payload / console output",
+        "x": 54.0,
+        "y": 6.0,
+        "w": 42.0,
+        "h": 88.0
+      },
+      {
+        "role": "caption",
+        "text": "terminal logs",
+        "x": 20.0,
+        "y": 63.0,
+        "w": 33.0,
+        "h": 28.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673431.851137,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Processing Events",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "+ ttrt: 糖 1 ahton +++ + T th+ar + PI$+g Yu 'tt+o + + + C + e L t c(+ a b + (I tH n?! Tls' oper stbarn, trom L:Lk crmton to sytrt ronfcton, i wirtut reyrg on polrg. r+ $yt 1.1.4\nL! ta+ert+ Processing Events\n1 +y. + t.+ 中 Te cet the Lurve Uh iromm tur Uoch itrctier, e hed our Lt ksy, Hs thocd hrle herdeode tartt. phtyt seutb ybe ta te Yuet pue tce+l! T ou Codt. Todt protds + ftert tey t Prala tiie ihg od Stael P+crirg + ebhool, me+retlen ie +e ft yt+e. The tee po+ comrt thont shst you do widh l. T? Pun tt iotoho corhila 'n rour Wrn'el, rt crthtt a tert Atd rtrct -tptty tt Gur torig Gr hh' Iath.\n静 Fls 4y-b tol+! Htrat <reut mms.-ei-mry Kms_At_Aty.\"<rouR_ves_ut_xlr_HeiEs*\n口 Tht gre sthe lolotvg cutoct\n量 4. pactLtry动 +tCiatk g? I & Apn toa (tatt + rr Hecret 'mres-pl-ley' +it tte Ley 'taus_Al_!y' (+u+-+pi -+rtho+h -+a++ Lhe+) +/b+o-.t U(ed Lr/taAu+-+e!-++taak -++-ithop Ireh\nU++ tl in your todal #p+!\n(+\n￥...\n(+* +*+r: h A*a *a t+h c+a or + / 1o4 +l+t emt! t,tahth!\nU t torewatraaoult toe. Arrtp tall ttnlo... X rt trtty lhl tiu+ h: + S+all Uih rtulp! Pit /'+ 2a oa. (eatrr 4).+ eo. p*co 4 Ht.] ai trctl4 tatt 1a,+t4 M411 I'sw't.'wt+ 1*.] 1.=o). -1.-N tert* Ttt m clentte tn or, veu,. t'u'+hayrird! *'0 art t? + 7? Ie hr + +it.\n9四@0106@ Crh i I=+ C+ y tn +t 2025-11-22*10:10:25",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1579.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "+ ttrt: 糖 1 ahton +++ + T th+ar + PI$+g Yu 'tt+o + + + C + e L t c(+ a b + (I tH n?! Tls' oper stbarn, trom L:Lk crmton to sytrt ronfcton, i wirtut reyrg on polrg. r+ $yt 1.1.4\nL! ta+ert+ Processing Events\n1 +y. + t.+ 中 Te cet the Lurve Uh iromm tur Uoch itrctier, e hed our Lt ksy, Hs thocd hrle herdeode tartt. phtyt seutb ybe ta te Yuet pue tce+l! T ou Codt. Todt protds + ftert tey t Prala tiie ihg od Stael P+crirg + ebhool, me+retlen ie +e ft yt+e. The tee po+ comrt thont shst you do widh l. T? Pun tt iotoho corhila 'n rour Wrn'el, rt crthtt a tert Atd rtrct -tptty tt Gur torig Gr hh' Iath.\n静 Fls 4y-b tol+! Htrat <reut mms.-ei-mry Kms_At_Aty.\"<rouR_ves_ut_xlr_HeiEs*\n口 Tht gre sthe lolotvg cutoct\n量 4. pactLtry动 +tCiatk g? I & Apn toa (tatt + rr Hecret 'mres-pl-ley' +it tte Ley 'taus_Al_!y' (+u+-+pi -+rtho+h -+a++ Lhe+) +/b+o-.t U(ed Lr/taAu+-+e!-++taak -++-ithop Ireh\nU++ tl in your todal #p+!\n(+\n￥...\n(+* +*+r: h A*a *a t+h c+a or + / 1o4 +l+t emt! t,tahth!\nU t torewatraaoult toe. Arrtp tall ttnlo... X rt trtty lhl tiu+ h: + S+all Uih rtulp! Pit /'+ 2a oa. (eatrr 4).+ eo. p*co 4 Ht.] ai trctl4 tatt 1a,+t4 M411 I'sw't.'wt+ 1*.] 1.=o). -1.-N tert* Ttt m clentte tn or, veu,. t'u'+hayrird! *'0 art t? + 7? Ie hr + +it.\n9四@0106@ Crh i I=+ C+ y tn +t 2025-11-22*10:10:25",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

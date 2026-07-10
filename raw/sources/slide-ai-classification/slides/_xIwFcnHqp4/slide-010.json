@@ -1,0 +1,47 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code-heavy slide with small text and IDE chrome; OCR is the right extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(180deg, #0b1630, #07101f)",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "main.go",
+        "x": 44.0,
+        "y": 9.0,
+        "w": 8.0,
+        "h": 3.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/_xIwFcnHqp4/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666209.7473392,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 606.16,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0085
+  }
+}

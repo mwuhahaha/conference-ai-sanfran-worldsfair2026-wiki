@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RL infrastructure\n- RL training infra: exists, but mostly \"RLHF\"-style\n- Want options besides \"wait for big lab tuning APIs\"\n- How can we plan ahead?\n- Unknowns:\n  - Cost to do RL for agentic tasks?\n  - How small can the models be?\n  - Generalization across tasks?\n  - How to design effective rewards?\n- Opportunities:\n  - Open-source infra for DIY\n  - Services for agentic RL",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "RL infrastructure",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "- RL training infra: exists, but mostly \"RLHF\"-style\n- Want options besides \"wait for big lab tuning APIs\"\n- How can we plan ahead?\n- Unknowns:\n  - Cost to do RL for agentic tasks?\n  - How small can the models be?\n  - Generalization across tasks?\n  - How to design effective rewards?\n- Opportunities:\n  - Open-source infra for DIY\n  - Services for agentic RL",
+        "x": 5.0,
+        "y": 17.0,
+        "w": 50.0,
+        "h": 74.0
+      },
+      {
+        "role": "logo",
+        "text": "PyTorch",
+        "x": 64.0,
+        "y": 1.0,
+        "w": 24.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "unsloth",
+        "x": 61.0,
+        "y": 10.0,
+        "w": 23.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "Hugging Face",
+        "x": 79.0,
+        "y": 12.0,
+        "w": 18.0,
+        "h": 16.0
+      },
+      {
+        "role": "logo",
+        "text": "Ai2",
+        "x": 71.0,
+        "y": 35.0,
+        "w": 18.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Create a fine-tuned model",
+        "x": 63.0,
+        "y": 58.0,
+        "w": 27.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/JIsgyk0Paic/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661280.533243,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "RL infrastructure\n- RL training infra: exists, but mostly \"RLHF\"-style\n- Want options besides \"wait for big lab tuning APIs\"\n- How can we plan ahead?\n- Unknowns:\n  - Cost to do RL for agentic tasks?\n  - How small can the models be?\n  - Generalization across tasks?\n  - How to design effective rewards?\n- Opportunities:\n  - Open-source infra for DIY\n  - Services for agentic RL",
+  "advanced_ocr": {}
+}

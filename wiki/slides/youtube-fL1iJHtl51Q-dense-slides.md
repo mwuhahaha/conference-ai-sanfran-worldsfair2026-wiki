@@ -16,11 +16,33 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/fL1iJHtl51Q/slide-001.jpg]]
 
-- Source scene image: `frame-00003.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.93`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/fL1iJHtl51Q/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Dense benchmark chart with small axis labels and multiple text regions; OCR will read this more reliably than direct transcription.
+
+Slide text:
+
+> best-in-class speed Composer combines coding intelligence with
+> Best Open
+> Fast Frontier
+> Frontier7/2025
+> Composer
+> Best Frontier
+> 0 20 40 60 0 100 200
+> Composer Intelligence (CursorBench score) Speed (Tokens per Second)
+> AIE /CODE BUILDING A FAST FRONTIER MODEL WITH RL
+> Google DeepMind PRESENTED8Y LEE ROBINSON /VP, Developer Education CURSOR
+
 ![[assets/dense-slides/fL1iJHtl51Q/slide-002.jpg]]
 
-- Source scene image: `frame-00004.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.61`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/fL1iJHtl51Q/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
+
+> Why Build Composer? Inspired by Cursor Tab Our aim was a fast, interactive model that is delightful to use. Experiments with Cheetah Prototype fast model in Cursor, quickly became popular.
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/fL1iJHtl51Q/audit.json`

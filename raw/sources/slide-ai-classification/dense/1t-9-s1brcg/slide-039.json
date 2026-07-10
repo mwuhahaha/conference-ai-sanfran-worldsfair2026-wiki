@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Here are the results from evaluations against a synthetically generated data set for a RAG app based on all\nmy personal blog posts:\n\nsearch mode | groundedness | relevance | answer_length | citation_match\nvector only | 2.79 | 1.81 | 366.73 | 0.02\ntext only | 4.87 | 4.74 | 662.34 | 0.89\nhybrid | 3.26 | 2.15 | 365.66 | 0.11\nhybrid with ranker | 4.89 | 4.78 | 670.89 | 0.92\n\nDespite being the author of this blog post, I was shocked to see how poorly vector search did on its own,\nwith an average groundedness of 2.79 (out of 5) and only 2% of the answers with citations matching the\nground truth citations. Full-text search on its own did fairly well, with an average groundedness of 4.87 and\na citation match rate of 89%. Hybrid search without the semantic ranker improved upon vector search, with\nan average groundedness of 3.26 and citation match of 11%, but it did much better with the semantic\nranker, with an average groundedness of 4.89 and a citation match rate of 92%. As we would expect, that's\nthe highest numbers across all the options.\n\nBut why do we see vector search and ranker-less hybrid search scoring so remarkably low? Besides what\nI've talked about above, I think it's also due to:\n• The full-text search option in Azure AI Search is really good. It uses BM25 and is fairly\nbattle-tested, having been around for many years before vector search became so popular. The\nBM25 algorithm is based off TF-IDF and produces something like sparse vectors itself, so it's\nmore advanced than a simple substring search. AI Search also uses standard NLP tricks like",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense table, paragraph text, and bullet text in a webpage screenshot.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "Here are the results from evaluations against a synthetically generated data set for a RAG app based on all my personal blog posts:",
+        "x": 7.0,
+        "y": 0,
+        "w": 88.0,
+        "h": 12.0
+      },
+      {
+        "role": "table",
+        "text": "search mode groundedness relevance answer_length citation_match",
+        "x": 7.0,
+        "y": 15.0,
+        "w": 84.0,
+        "h": 27.0
+      },
+      {
+        "role": "body",
+        "text": "The full-text search option in Azure AI Search is really good.",
+        "x": 8.0,
+        "y": 68.0,
+        "w": 84.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-039.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-039.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658988.1331723,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "bo uo poscq ddo Ovd e Joj hos ciop poicJouob Aroonounurs e isuote suoncnrcAo wouy sunsou oin oro ouon my personal blog posts:\nvoaor only: search mode 2.79 groundedness 'reievance? f1.81 [answer_longthjcitation_match 368.73: jo.02\n1ext only. 4.87 4.74: 662.34 J0.89\nhybrd 3.26 12.15 365.66 10.11\nhybrd with rankor 14.89 4.78: [670.89: o.92\na citation match rato of B9%. Hybrid soarch without the semantic ranker improved upon voctor search, with ' ground truth chtations. Fun-toxt soartch on its oun did fairty won, with an avorogo groundodnoss of 4.87 and an average groundednoss of 3.26 and citation match of 11%, tut k did much belter with the semantlc With an average groundedness of 2.79 (out o! 5) and only 2% of the answers with cltatons matching tha rankor, with an avcrogo groundcdnoss of 4.89 and a ctation match rata o 92%. As wo would cxpact, uhats the highost numbers across a the cptons. Despite being the author of this blog post, I was shocked to see how poorty veclor search did on its own.\nBut why do we see vector search and ranker-less hybrid search scoring so remarkably low? Besides what\nIo talkcd about aboso: I think it's aiso duo to:\n. Tho fulltext search option in Azure Al Soarch is really good. It usos BM25 ond is fairty. batte-tested, having boen around for many yoars balore veclor search bocarmo so popular. The. BM2s algorithm is based aff TF.lDF and produces something ke sparse vectors ltsed, so it's\nmoo sovanced than a simplo substring soarch. A Search aiso usos stardard NLP tricks liko",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2066.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Here are the results from evaluations against a synthetically generated data set for a RAG app based on all\nmy personal blog posts:\n\nsearch mode | groundedness | relevance | answer_length | citation_match\nvector only | 2.79 | 1.81 | 366.73 | 0.02\ntext only | 4.87 | 4.74 | 662.34 | 0.89\nhybrid | 3.26 | 2.15 | 365.66 | 0.11\nhybrid with ranker | 4.89 | 4.78 | 670.89 | 0.92\n\nDespite being the author of this blog post, I was shocked to see how poorly vector search did on its own,\nwith an average groundedness of 2.79 (out of 5) and only 2% of the answers with citations matching the\nground truth citations. Full-text search on its own did fairly well, with an average groundedness of 4.87 and\na citation match rate of 89%. Hybrid search without the semantic ranker improved upon vector search, with\nan average groundedness of 3.26 and citation match of 11%, but it did much better with the semantic\nranker, with an average groundedness of 4.89 and a citation match rate of 92%. As we would expect, that's\nthe highest numbers across all the options.\n\nBut why do we see vector search and ranker-less hybrid search scoring so remarkably low? Besides what\nI've talked about above, I think it's also due to:\n• The full-text search option in Azure AI Search is really good. It uses BM25 and is fairly\nbattle-tested, having been around for many years before vector search became so popular. The\nBM25 algorithm is based off TF-IDF and produces something like sparse vectors itself, so it's\nmore advanced than a simple substring search. AI Search also uses standard NLP tricks like",
+    "text_status": "meaningful",
+    "corrections": "Accepted the visible slide text and corrected obvious OCR errors in the table labels and paragraph wording; omitted the cut-off bottom text."
+  }
+}

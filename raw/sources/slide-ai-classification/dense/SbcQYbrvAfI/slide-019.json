@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Evaluators",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense text-and-code notebook slide; OCR is appropriate for the small body text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Evaluators",
+        "x": 13.0,
+        "y": 15.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "evaluate_output",
+        "x": 14.0,
+        "y": 33.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "rule_checker",
+        "x": 14.0,
+        "y": 48.0,
+        "w": 18.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-019.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665080.527137,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Evaluators",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 1949.0,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0018
+  }
+}

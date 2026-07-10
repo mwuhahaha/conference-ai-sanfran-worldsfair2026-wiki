@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "But\nIs there More?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title card; direct read is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "But Is there More?",
+        "x": 24.0,
+        "y": 13.0,
+        "w": 31.0,
+        "h": 16.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 82.0,
+        "w": 22.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 73.0,
+        "y": 82.0,
+        "w": 12.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/reconstructed-slides/e9sLVMN76qU/slide-006.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667331.447432,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "But\nIs there More?",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Google’s latest releases\nGemini 3.1 Flash Live\nGemini 3.1 Pro and Flash-Lite\nNanoBanana 2\nEmbeddings 2.0\nLyria 3\nGenie 3\nAI Studio FSR\nGemma 4\nVeo 3.1 Lite",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "#f8f1dc",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Google’s latest releases",
+        "x": 34.0,
+        "y": 4.0,
+        "w": 32.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Gemini 3.1 Flash Live\nGemini 3.1 Pro and Flash-Lite\nNanoBanana 2\nEmbeddings 2.0\nLyria 3\nGenie 3\nAI Studio FSR\nGemma 4\nVeo 3.1 Lite",
+        "x": 28.0,
+        "y": 13.0,
+        "w": 44.0,
+        "h": 74.0
+      },
+      {
+        "role": "logo",
+        "text": "Google Cloud",
+        "x": 86.0,
+        "y": 94.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/G_bHFmEAarM/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659447.2931457,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Google’s latest releases\nGemini 3.1 Flash Live\nGemini 3.1 Pro and Flash-Lite\nNanoBanana 2\nEmbeddings 2.0\nLyria 3\nGenie 3\nAI Studio FSR\nGemma 4\nVeo 3.1 Lite",
+  "advanced_ocr": {}
+}

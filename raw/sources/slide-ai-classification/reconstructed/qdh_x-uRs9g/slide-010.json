@@ -1,0 +1,151 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture matrix and side notes with small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "SO, LET'S SUPPORT 85+ MODELS WITH 35+ RUNTIMES AND INFERENCE BACKENDS",
+        "x": 31.0,
+        "y": 2.0,
+        "w": 65.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Every architecture is different under the hood",
+        "x": 30.0,
+        "y": 8.0,
+        "w": 31.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "bert_flash",
+        "x": 30.0,
+        "y": 14.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "qwen2_flash",
+        "x": 54.0,
+        "y": 14.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "modernbert_flash",
+        "x": 30.0,
+        "y": 26.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "colbert",
+        "x": 54.0,
+        "y": 26.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "cross_encoder",
+        "x": 30.0,
+        "y": 38.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "clip_siglip_florence2",
+        "x": 54.0,
+        "y": 38.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "splade_flash",
+        "x": 30.0,
+        "y": 49.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "sglang",
+        "x": 54.0,
+        "y": 49.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "No universal engine",
+        "x": 74.0,
+        "y": 18.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "An agentic workflow",
+        "x": 74.0,
+        "y": 39.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Re-implementation",
+        "x": 74.0,
+        "y": 58.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "15 of 35 adapters use Flash Attention 2 with variable-length sequence packing",
+        "x": 36.0,
+        "y": 77.0,
+        "w": 44.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-010.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671281.4523845,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/border-trim/contrast",
+    "best_score": 1118.56,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0032
+  }
+}

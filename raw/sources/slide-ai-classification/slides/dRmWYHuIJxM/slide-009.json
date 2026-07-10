@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What we're honest about\n94% is against full-file reads Monorepos dilute recall\nbaseline. savings vs normal behavior are lower.Full-file is our reproducible Claude Code already uses grep and partial reads.Real-world feature-per-file repos hit R=1.00.Focused files retrieve best. On Go's fiber (396 fles),recall dropped to 0.07@10.One-\nEmbedding model matters What actually worked\nbge-small-en-v1.5(384d) is fast,not SOTA.Bigger models lift Simple heunistics over ML.SQLite over specialized DB\ncache. over pure vector.Local-first.The boring choices com\nelara-labs/code-context-engine",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Four-panel trade-off slide with small body text in each card.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "near-black with dark teal and violet corner glows",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "TRADE-OFFS",
+        "x": 6.0,
+        "y": 6.0,
+        "w": 15.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "What we're honest about",
+        "x": 30.0,
+        "y": 11.0,
+        "w": 40.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "94% is against full-file reads\nClaude Code already uses grep and partial reads. Real-world savings vs normal behavior are lower. Full-file is our reproducible baseline.",
+        "x": 7.0,
+        "y": 31.0,
+        "w": 42.0,
+        "h": 25.0
+      },
+      {
+        "role": "body",
+        "text": "Monorepos dilute recall\nOn Go's fiber (396 files), recall dropped to 0.07@10. One-feature-per-file repos hit R=1.00. Focused files retrieve best.",
+        "x": 51.0,
+        "y": 31.0,
+        "w": 42.0,
+        "h": 25.0
+      },
+      {
+        "role": "body",
+        "text": "Embedding model matters\nbge-small-en-v1.5 (384d) is fast, not SOTA. Bigger models lift recall but add latency. We chose speed; <1s re-index at 96% cache.",
+        "x": 7.0,
+        "y": 62.0,
+        "w": 42.0,
+        "h": 25.0
+      },
+      {
+        "role": "body",
+        "text": "What actually worked\nSimple heuristics over ML. SQLite over specialized DB.",
+        "x": 51.0,
+        "y": 62.0,
+        "w": 42.0,
+        "h": 25.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/dRmWYHuIJxM/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667566.889053,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "What we're honest about\n94% is against full-file reads Monorepos dilute recall\nbaseline. savings vs normal behavior are lower.Full-file is our reproducible Claude Code already uses grep and partial reads.Real-world feature-per-file repos hit R=1.00.Focused files retrieve best. On Go's fiber (396 fles),recall dropped to 0.07@10.One-\nEmbedding model matters What actually worked\nbge-small-en-v1.5(384d) is fast,not SOTA.Bigger models lift Simple heunistics over ML.SQLite over specialized DB\ncache. over pure vector.Local-first.The boring choices com\nelara-labs/code-context-engine",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 812.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "What we're honest about\n94% is against full-file reads Monorepos dilute recall\nbaseline. savings vs normal behavior are lower.Full-file is our reproducible Claude Code already uses grep and partial reads.Real-world feature-per-file repos hit R=1.00.Focused files retrieve best. On Go's fiber (396 fles),recall dropped to 0.07@10.One-\nEmbedding model matters What actually worked\nbge-small-en-v1.5(384d) is fast,not SOTA.Bigger models lift Simple heunistics over ML.SQLite over specialized DB\ncache. over pure vector.Local-first.The boring choices com\nelara-labs/code-context-engine",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

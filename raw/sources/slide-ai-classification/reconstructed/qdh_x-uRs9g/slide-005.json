@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "LEARNING FROM FIRST PRINCIPLES\nI knew models well\nTraining & fine-tuning\nEvaluation & benchmarking\nApplied AI research\nvLLM, Flash Attention\nI had overlooked infrastructure\nHow models run in production\nGPU utilization & scheduling\nRouting & autoscaling\nDeployment & operations\nBest way to learn?\nJoin the team building it.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "LEARNING FROM FIRST PRINCIPLES",
+        "x": 40.0,
+        "y": 3.0,
+        "w": 33.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "I knew models well\nTraining & fine-tuning\nEvaluation & benchmarking\nApplied AI research\nvLLM, Flash Attention",
+        "x": 29.0,
+        "y": 10.0,
+        "w": 29.0,
+        "h": 33.0
+      },
+      {
+        "role": "body",
+        "text": "I had overlooked infrastructure\nHow models run in production\nGPU utilization & scheduling\nRouting & autoscaling\nDeployment & operations",
+        "x": 65.0,
+        "y": 10.0,
+        "w": 29.0,
+        "h": 33.0
+      },
+      {
+        "role": "caption",
+        "text": "years of experience",
+        "x": 36.0,
+        "y": 44.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "blind spot",
+        "x": 78.0,
+        "y": 44.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Best way to learn?\nJoin the team building it.",
+        "x": 44.0,
+        "y": 60.0,
+        "w": 33.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-005.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670991.490008,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "LEARNING FROM FIRST PRINCIPLES\nI knew models well\nTraining & fine-tuning\nEvaluation & benchmarking\nApplied AI research\nvLLM, Flash Attention\nI had overlooked infrastructure\nHow models run in production\nGPU utilization & scheduling\nRouting & autoscaling\nDeployment & operations\nBest way to learn?\nJoin the team building it.",
+  "advanced_ocr": {}
+}

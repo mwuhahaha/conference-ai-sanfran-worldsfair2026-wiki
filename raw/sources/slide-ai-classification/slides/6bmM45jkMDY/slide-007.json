@@ -1,0 +1,88 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE STORY MAP",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small multi-row diagram text and dense labels are better suited for OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "teal gradient background with dark navy rounded panel",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "THE STORY MAP",
+        "x": 8.0,
+        "y": 39.0,
+        "w": 15.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Contact",
+        "x": 8.0,
+        "y": 49.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Triage",
+        "x": 25.0,
+        "y": 49.0,
+        "w": 17.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Resolve or route",
+        "x": 43.0,
+        "y": 49.0,
+        "w": 17.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Close",
+        "x": 61.0,
+        "y": 49.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "RELEASE 1",
+        "x": 8.0,
+        "y": 60.0,
+        "w": 8.0,
+        "h": 3.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LATER",
+        "x": 8.0,
+        "y": 69.0,
+        "w": 5.0,
+        "h": 3.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/6bmM45jkMDY/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657789.4958334,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "THE STORY MAP",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

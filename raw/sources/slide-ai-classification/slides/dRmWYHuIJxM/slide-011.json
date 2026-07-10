@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The biggest optimization in AI coding isn't the model. It's the context.\n94% fewer input tokens\nlocal no data leaves your machine\nMIT free, open source",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "near-black with teal and violet circular glows",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "KEY TAKEAWAY",
+        "x": 6.0,
+        "y": 6.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "The biggest optimization in AI coding isn't the model. It's the context.",
+        "x": 11.0,
+        "y": 13.0,
+        "w": 74.0,
+        "h": 13.0
+      },
+      {
+        "role": "code",
+        "text": "$ uvx --from \"code-context-engine[local]\" cce init",
+        "x": 27.0,
+        "y": 30.0,
+        "w": 47.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "94% fewer input tokens",
+        "x": 28.0,
+        "y": 44.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "local\nno data leaves your machine",
+        "x": 48.0,
+        "y": 44.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "MIT\nfree, open source",
+        "x": 67.0,
+        "y": 44.0,
+        "w": 16.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Try it now\nScan to open the repo. Star it, fork it, run the benchmark yourself.\ngithub.com/elara-labs/code-context-engine",
+        "x": 25.0,
+        "y": 63.0,
+        "w": 50.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/dRmWYHuIJxM/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667625.951836,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The biggest optimization in AI coding isn't the model. It's the context.\n94% fewer input tokens\nlocal no data leaves your machine\nMIT free, open source",
+  "advanced_ocr": {}
+}

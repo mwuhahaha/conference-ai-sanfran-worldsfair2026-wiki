@@ -1,0 +1,170 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Holistic measurement system to evaluate enterprise-wide change\nOutcomes\nVelocity Capacity Security Quality Resiliency\nsndnos Breadth and depth of adoption Number of people upskilled Developer NPS and attrition rate\nInputs SinvestmentinAcoding/devtools Sandtimeinvestedintraining/ upskilling programs Sand time inchange managemeny op model ransformation\nMcKrsny & Company 21\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHAMANIAR McKinsey & Company",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense mixed-layout slide with diagram labels, small body text, and a stage-crop composition that is better handled by OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark navy with left photo strip",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Holistic measurement system to evaluate enterprise-wide change",
+        "x": 26.0,
+        "y": 6.0,
+        "w": 62.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Outcomes",
+        "x": 25.0,
+        "y": 35.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Velocity",
+        "x": 31.0,
+        "y": 39.0,
+        "w": 10.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "Capacity",
+        "x": 48.0,
+        "y": 39.0,
+        "w": 10.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "Security",
+        "x": 63.0,
+        "y": 39.0,
+        "w": 10.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "Quality",
+        "x": 78.0,
+        "y": 39.0,
+        "w": 10.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "Resiliency",
+        "x": 92.0,
+        "y": 39.0,
+        "w": 10.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Outputs",
+        "x": 25.0,
+        "y": 53.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Breadth and depth of adoption",
+        "x": 33.0,
+        "y": 54.0,
+        "w": 19.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Number of people upskilled",
+        "x": 55.0,
+        "y": 54.0,
+        "w": 19.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Developer NPS and attrition rate",
+        "x": 79.0,
+        "y": 54.0,
+        "w": 22.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Inputs",
+        "x": 25.0,
+        "y": 69.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "$ investment in AI coding/ dev tools",
+        "x": 33.0,
+        "y": 70.0,
+        "w": 19.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "$ and time invested in training/ upskilling programs",
+        "x": 55.0,
+        "y": 70.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "$ and time invested in change management/ op model transformation",
+        "x": 79.0,
+        "y": 70.0,
+        "w": 23.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+        "x": 26.0,
+        "y": 88.0,
+        "w": 53.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-019.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664369.652107,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Holistic measurement system to evaluate enterprise-wide change\nOutcomes\nVelocity Capacity Security Quality Resiliency\nsndnos Breadth and depth of adoption Number of people upskilled Developer NPS and attrition rate\nInputs SinvestmentinAcoding/devtools Sandtimeinvestedintraining/ upskilling programs Sand time inchange managemeny op model ransformation\nMcKrsny & Company 21\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHAMANIAR McKinsey & Company",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 728.6
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Holistic measurement system to evaluate enterprise-wide change\nOutcomes\nVelocity Capacity Security Quality Resiliency\nsndnos Breadth and depth of adoption Number of people upskilled Developer NPS and attrition rate\nInputs SinvestmentinAcoding/devtools Sandtimeinvestedintraining/ upskilling programs Sand time inchange managemeny op model ransformation\nMcKrsny & Company 21\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHAMANIAR McKinsey & Company",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

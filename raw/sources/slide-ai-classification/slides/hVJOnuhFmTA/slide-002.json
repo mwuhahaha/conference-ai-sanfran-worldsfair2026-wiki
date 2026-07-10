@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.95,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Speaker shot with overlay text, not a standalone slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a slide.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "blurred indoor bokeh",
+    "style": "other",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "The channel",
+        "x": 58.0,
+        "y": 14.0,
+        "w": 38.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "The Expression",
+        "x": 58.0,
+        "y": 28.0,
+        "w": 38.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668092.6217153,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

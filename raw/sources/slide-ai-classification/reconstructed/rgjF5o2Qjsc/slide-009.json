@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "amsFace uality Issues That Modern Engineering qodo\nCode-Level Problems Process:Level challenges\nFunctional Learning 0 Krowledge gaps n A-generated solulions\nNon-functional Verification\nO Secunty vdnerabihities n Algenerated code O Insufficitnt test coverage for new code O Poor error handing and edge case covcrage O (rconsistent coding standards and patteins Techncal debt accumulation Guardrails 0 Lack of Al output vakdation 0 Difficulty trackirg code provenance 0 Rushed or ncompkete code revevrs 0 tnsufficent guardrals for Al tools\nO Integration and compatibility issues O (nadequate documentation Standards 0 Inconsistent quslity standards across teams\nHQodo Stute of Al Code Cussty Report & SorrSourco Stste ot Code\nATE OF AI CODE QUALITY: HYPE VS. REALI\nAMAR FRIEDMAN / Co-Founder & CEO opob",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense multi-column slide with small text and bullet lists",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Quality Issues That Modern Engineering Teams Face",
+        "x": 25.0,
+        "y": 3.0,
+        "w": 46.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "Code-Level Problems",
+        "x": 26.0,
+        "y": 18.0,
+        "w": 29.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Process-Level Challenges",
+        "x": 62.0,
+        "y": 18.0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Functional\nNon-functional",
+        "x": 26.0,
+        "y": 28.0,
+        "w": 29.0,
+        "h": 44.0
+      },
+      {
+        "role": "body",
+        "text": "Learning\nVerification\nGuardrails\nStandards",
+        "x": 62.0,
+        "y": 28.0,
+        "w": 31.0,
+        "h": 44.0
+      },
+      {
+        "role": "logo",
+        "text": "qodo",
+        "x": 87.0,
+        "y": 3.0,
+        "w": 8.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/reconstructed-slides/rgjF5o2Qjsc/slide-009.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671834.632372,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/opencv-adaptive",
+    "text": "amsFace uality Issues That Modern Engineering qodo\nCode-Level Problems Process:Level challenges\nFunctional Learning 0 Krowledge gaps n A-generated solulions\nNon-functional Verification\nO Secunty vdnerabihities n Algenerated code O Insufficitnt test coverage for new code O Poor error handing and edge case covcrage O (rconsistent coding standards and patteins Techncal debt accumulation Guardrails 0 Lack of Al output vakdation 0 Difficulty trackirg code provenance 0 Rushed or ncompkete code revevrs 0 tnsufficent guardrals for Al tools\nO Integration and compatibility issues O (nadequate documentation Standards 0 Inconsistent quslity standards across teams\nHQodo Stute of Al Code Cussty Report & SorrSourco Stste ot Code\nATE OF AI CODE QUALITY: HYPE VS. REALI\nAMAR FRIEDMAN / Co-Founder & CEO opob",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1108.92
+  },
+  "ocr_source": "rapidocr-live/right-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "amsFace uality Issues That Modern Engineering qodo\nCode-Level Problems Process:Level challenges\nFunctional Learning 0 Krowledge gaps n A-generated solulions\nNon-functional Verification\nO Secunty vdnerabihities n Algenerated code O Insufficitnt test coverage for new code O Poor error handing and edge case covcrage O (rconsistent coding standards and patteins Techncal debt accumulation Guardrails 0 Lack of Al output vakdation 0 Difficulty trackirg code provenance 0 Rushed or ncompkete code revevrs 0 tnsufficent guardrals for Al tools\nO Integration and compatibility issues O (nadequate documentation Standards 0 Inconsistent quslity standards across teams\nHQodo Stute of Al Code Cussty Report & SorrSourco Stste ot Code\nATE OF AI CODE QUALITY: HYPE VS. REALI\nAMAR FRIEDMAN / Co-Founder & CEO opob",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

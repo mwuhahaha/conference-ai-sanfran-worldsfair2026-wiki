@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "These guides will help you get started using our AI App Templates along with the Azure OpenAI Proxy.\n\nHere are the available templates with links to their guides:\n\nTemplate  Description\nOpenAI Chat App  A simple chat app that uses the OpenAI API to generate responses to user input.\nRAG on PostgreSQL  A chat app that answers questions using a RAG flow with OpenAI and a PostgreSQL database.\nRAG with Azure AI Search  A chat app that answers questions using a RAG flow with OpenAI and Azure AI Search.\n\nWe recommend going through each template in the order listed, as they build in complexity.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Repository README screenshot with table and sidebar metadata; OCR should handle it.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige GitHub page",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "README content area",
+        "x": 3.0,
+        "y": 10.0,
+        "w": 67.0,
+        "h": 68.0
+      },
+      {
+        "role": "body",
+        "text": "contributors / packages sidebar",
+        "x": 74.0,
+        "y": 0,
+        "w": 24.0,
+        "h": 72.0
+      },
+      {
+        "role": "caption",
+        "text": "template table",
+        "x": 6.0,
+        "y": 28.0,
+        "w": 60.0,
+        "h": 34.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-027.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-027.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657945.6285982,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "名电心.\nM ReADMe Code cf conduct: MIt Ecemse Packages\nThese guides wi he'p you get started using Cur A App Templates along with the Arure OperA Proxy.. No picisyt petlsnes Puotsh you Trg pacure\nHere are the Bvalable tempis!es with fnks to thelr guldes:\nTemplalo Description: PueLafox Panela Fox\nOponA Chst App A shrplo chat app that uses tho OpcnA Apt to genersto responses to uscr lnput. microsoftopemsourt+ Microson Opt-\nRAG on PostgreSOL A chat app that snswers questions ushng a RAG flow wth Operw ard a' PostgreSoL database. gdtqceror Gabrels de Ciehor\nRAG with Aruro A Sesrch A chat app thot ansrwers questions using a RAG flow with OpenA and Azure Al Search.:\nW'o recommond going through cach template in the order kated, as they buid in compleity.\nMcrotoht Oo Source Cot! Pertd Ciurub e usrt Supoon Ocsore Rten Guide",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1354.44
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "These guides will help you get started using our AI App Templates along with the Azure OpenAI Proxy.\n\nHere are the available templates with links to their guides:\n\nTemplate  Description\nOpenAI Chat App  A simple chat app that uses the OpenAI API to generate responses to user input.\nRAG on PostgreSQL  A chat app that answers questions using a RAG flow with OpenAI and a PostgreSQL database.\nRAG with Azure AI Search  A chat app that answers questions using a RAG flow with OpenAI and Azure AI Search.\n\nWe recommend going through each template in the order listed, as they build in complexity.",
+    "text_status": "meaningful",
+    "corrections": "OCR was corrected for obvious errors; main page text accepted from the image."
+  }
+}

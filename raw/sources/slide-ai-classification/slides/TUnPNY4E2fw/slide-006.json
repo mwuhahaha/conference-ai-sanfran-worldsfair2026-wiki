@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How far can we get?\nAIE Peakmemory(GiB) 80 60 Attn act. Model Other\n40 OOM (119)\n20\nDefault\nLlama3-8B,3Mtokens,8xH100\nEngineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "small chart labels and legend are better suited to OCR",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How far can we get?",
+        "x": 28.0,
+        "y": 5.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 18.0,
+        "h": 21.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "OOM (119)",
+        "x": 33.0,
+        "y": 28.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 92.0,
+        "y": 14.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Attn act.",
+        "x": 92.0,
+        "y": 19.0,
+        "w": 7.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Other",
+        "x": 92.0,
+        "y": 24.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Llama 3-8B, 3M tokens, 8xH100",
+        "x": 47.0,
+        "y": 87.0,
+        "w": 32.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/TUnPNY4E2fw/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664371.723917,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "How far can we get?",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "How far can we get?\nAIE Peakmemory(GiB) 80 60 Attn act. Model Other\n40 OOM (119)\n20\nDefault\nLlama3-8B,3Mtokens,8xH100\nEngineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 269.52
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "How far can we get?\nAIE Peakmemory(GiB) 80 60 Attn act. Model Other\n40 OOM (119)\n20\nDefault\nLlama3-8B,3Mtokens,8xH100\nEngineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

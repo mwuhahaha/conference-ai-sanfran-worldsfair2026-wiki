@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Product requlrements revlew Il Pause UReply\nCHAT\nSuskeholoer Dana Product-Lead Sem Eogineening Jordan SAM What'sour currentmedanappxoval time? 23days median right now,the targetis same-day. A\nRight-over the imit it routes to a second approver. Sam ogreg re.h'sfine DAV\nAgreed.Under five,one tap's fine. Dana GOALS\nSam Worksforme. Okay -— agreed, Expense approvals, five-thousand threshold. Jerztsrs agree Expense spprovals-firstrelesse Resove opprovalsoope Qi-Wnichrequremene is thia? REQ-142pnp\nSam Al,capture that for us. Dana Actually-make the threshold ten thousand,not five. cAChive REQ-142 Answered-aised to$10.0o0[Samconfrmed) Q-ls theS5,oo0threshold stie curreet？ 000\nSam Yes. Want me toupdate the requirement to a ten-thousand threshold? A CUEIS frcanofication.Expens0sovers10,000rouAetosecond-leve approvalper Firstrelesse:managers can approve crreject pending erpense requests drectly requests are explicity outofscope. Approve /reject exponserequests from a notification\nAl-is thisroom free after the meeting? Let me check-the room looks free after this,but- A Jordan ODxpnsos oevS1o,o00requiresecond-fnwlapproval (manigirFinance) EmployeeIsnodfied of the declslon Decision is recorded in audt history OManagerreceves anodfication forapendng expense OManager canapprove crejectfromtenotilcation ACCEPTANCECRITERIA\nSam Until three? It updates the spec -- live. Spts",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with small multi-column text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark navy gradient",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Product requirements review · live",
+        "x": 4.0,
+        "y": 3.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "CHAT",
+        "x": 61.0,
+        "y": 8.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "GOALS",
+        "x": 63.0,
+        "y": 39.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "REQ-142",
+        "x": 61.0,
+        "y": 66.0,
+        "w": 8.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668680.352674,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Product requirements review · live",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Product requlrements revlew Il Pause UReply\nCHAT\nSuskeholoer Dana Product-Lead Sem Eogineening Jordan SAM What'sour currentmedanappxoval time? 23days median right now,the targetis same-day. A\nRight-over the imit it routes to a second approver. Sam ogreg re.h'sfine DAV\nAgreed.Under five,one tap's fine. Dana GOALS\nSam Worksforme. Okay -— agreed, Expense approvals, five-thousand threshold. Jerztsrs agree Expense spprovals-firstrelesse Resove opprovalsoope Qi-Wnichrequremene is thia? REQ-142pnp\nSam Al,capture that for us. Dana Actually-make the threshold ten thousand,not five. cAChive REQ-142 Answered-aised to$10.0o0[Samconfrmed) Q-ls theS5,oo0threshold stie curreet？ 000\nSam Yes. Want me toupdate the requirement to a ten-thousand threshold? A CUEIS frcanofication.Expens0sovers10,000rouAetosecond-leve approvalper Firstrelesse:managers can approve crreject pending erpense requests drectly requests are explicity outofscope. Approve /reject exponserequests from a notification\nAl-is thisroom free after the meeting? Let me check-the room looks free after this,but- A Jordan ODxpnsos oevS1o,o00requiresecond-fnwlapproval (manigirFinance) EmployeeIsnodfied of the declslon Decision is recorded in audt history OManagerreceves anodfication forapendng expense OManager canapprove crejectfromtenotilcation ACCEPTANCECRITERIA\nSam Until three? It updates the spec -- live. Spts",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1703.86
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Product requlrements revlew Il Pause UReply\nCHAT\nSuskeholoer Dana Product-Lead Sem Eogineening Jordan SAM What'sour currentmedanappxoval time? 23days median right now,the targetis same-day. A\nRight-over the imit it routes to a second approver. Sam ogreg re.h'sfine DAV\nAgreed.Under five,one tap's fine. Dana GOALS\nSam Worksforme. Okay -— agreed, Expense approvals, five-thousand threshold. Jerztsrs agree Expense spprovals-firstrelesse Resove opprovalsoope Qi-Wnichrequremene is thia? REQ-142pnp\nSam Al,capture that for us. Dana Actually-make the threshold ten thousand,not five. cAChive REQ-142 Answered-aised to$10.0o0[Samconfrmed) Q-ls theS5,oo0threshold stie curreet？ 000\nSam Yes. Want me toupdate the requirement to a ten-thousand threshold? A CUEIS frcanofication.Expens0sovers10,000rouAetosecond-leve approvalper Firstrelesse:managers can approve crreject pending erpense requests drectly requests are explicity outofscope. Approve /reject exponserequests from a notification\nAl-is thisroom free after the meeting? Let me check-the room looks free after this,but- A Jordan ODxpnsos oevS1o,o00requiresecond-fnwlapproval (manigirFinance) EmployeeIsnodfied of the declslon Decision is recorded in audt history OManagerreceves anodfication forapendng expense OManager canapprove crejectfromtenotilcation ACCEPTANCECRITERIA\nSam Until three? It updates the spec -- live. Spts",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

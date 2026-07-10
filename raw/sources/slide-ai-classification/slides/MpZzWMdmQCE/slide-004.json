@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Guardrails>Model Size\nCOST\nAIE DATAREC\nNo geardraits 339\nwith geardraits Sonnrt(real-tine)\nHith puardraits Bau (asyec batch)\nSeereliabtlity! Coardrails close the gip.\nAI Engineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "small chart text and labels are better handled by OCR",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 17.0
+      },
+      {
+        "role": "title",
+        "text": "Guardrails > Model Size",
+        "x": 27.0,
+        "y": 14.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 49.0,
+        "y": 34.0,
+        "w": 27.0,
+        "h": 19.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 57.0,
+        "y": 81.0,
+        "w": 28.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/MpZzWMdmQCE/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661671.6580784,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Guardrails > Model Size",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Guardrails>Model Size\nCOST\nAIE DATAREC\nNo geardraits 339\nwith geardraits Sonnrt(real-tine)\nHith puardraits Bau (asyec batch)\nSeereliabtlity! Coardrails close the gip.\nAI Engineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 332.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Guardrails>Model Size\nCOST\nAIE DATAREC\nNo geardraits 339\nwith geardraits Sonnrt(real-tine)\nHith puardraits Bau (asyec batch)\nSeereliabtlity! Coardrails close the gip.\nAI Engineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

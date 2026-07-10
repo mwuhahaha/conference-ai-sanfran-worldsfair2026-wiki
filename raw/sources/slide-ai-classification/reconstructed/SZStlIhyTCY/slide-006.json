@@ -1,0 +1,154 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "However, bottlenecks in processes may prevent high individual developer productivity to translate to equally high team productivity\nOutput(featuresper year) (due to increasing coding demand) model intelligence and increasing feature Output potential Bottlenecks amongteammembers Collaboration overhead\nprocessing change Cognitive limits on\nBottlenecks (features delivered Output reality withintimeconstraint) Communication gaps among team members Manual review and debugging time\nIncreased complexity of\nYears morecodegenerated\nMcKimeyCompa\nAIE/ LEAD ex McKinsey Martin Harrysson &Company Katelyn Lesse ANTHROPIC EVERY Dan Shipper Asaf Bord Northwestern Mutual' Michele Catasta replit\nGoogle DeepMind PRESENTED BY elastic Red Hat greptile comet CopilotKit Go gle Deep",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Text-dense chart slide with axis labels, numbered bottleneck list, and footer logos.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal with dark right sidebar and sponsor strip",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "However, bottlenecks in processes may prevent high individual developer productivity to translate to equally high team productivity",
+        "x": 24.0,
+        "y": 3.0,
+        "w": 70.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Output potential",
+        "x": 53.0,
+        "y": 13.0,
+        "w": 15.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Output reality",
+        "x": 61.0,
+        "y": 63.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Bottlenecks",
+        "x": 79.0,
+        "y": 16.0,
+        "w": 13.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Output (features per year)",
+        "x": 24.0,
+        "y": 41.0,
+        "w": 10.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Years",
+        "x": 72.0,
+        "y": 83.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "1 Collaboration overhead among team members",
+        "x": 80.0,
+        "y": 28.0,
+        "w": 17.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "2 Cognitive limits on processing change",
+        "x": 80.0,
+        "y": 38.0,
+        "w": 17.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "3 Manual review and debugging time",
+        "x": 80.0,
+        "y": 47.0,
+        "w": 17.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "4 Communication gaps among team members",
+        "x": 80.0,
+        "y": 56.0,
+        "w": 17.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "5 Increased complexity of more code generated",
+        "x": 80.0,
+        "y": 66.0,
+        "w": 17.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "McKinsey & Company",
+        "x": 24.0,
+        "y": 90.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "anthropic",
+        "x": 36.0,
+        "y": 89.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "replit",
+        "x": 86.0,
+        "y": 89.0,
+        "w": 8.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-006.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663463.5451362,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "However, bottlenecks in processes may prevent high individual developer productivity to translate to equally high team productivity\nOutput(featuresper year) (due to increasing coding demand) model intelligence and increasing feature Output potential Bottlenecks amongteammembers Collaboration overhead\nprocessing change Cognitive limits on\nBottlenecks (features delivered Output reality withintimeconstraint) Communication gaps among team members Manual review and debugging time\nIncreased complexity of\nYears morecodegenerated\nMcKimeyCompa\nAIE/ LEAD ex McKinsey Martin Harrysson &Company Katelyn Lesse ANTHROPIC EVERY Dan Shipper Asaf Bord Northwestern Mutual' Michele Catasta replit\nGoogle DeepMind PRESENTED BY elastic Red Hat greptile comet CopilotKit Go gle Deep",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1065.56
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "However, bottlenecks in processes may prevent high individual developer productivity to translate to equally high team productivity\nOutput(featuresper year) (due to increasing coding demand) model intelligence and increasing feature Output potential Bottlenecks amongteammembers Collaboration overhead\nprocessing change Cognitive limits on\nBottlenecks (features delivered Output reality withintimeconstraint) Communication gaps among team members Manual review and debugging time\nIncreased complexity of\nYears morecodegenerated\nMcKimeyCompa\nAIE/ LEAD ex McKinsey Martin Harrysson &Company Katelyn Lesse ANTHROPIC EVERY Dan Shipper Asaf Bord Northwestern Mutual' Michele Catasta replit\nGoogle DeepMind PRESENTED BY elastic Red Hat greptile comet CopilotKit Go gle Deep",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

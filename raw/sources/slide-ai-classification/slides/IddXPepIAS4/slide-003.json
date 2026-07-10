@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.9,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A Solution to the Integrations Problem",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-column diagram with smaller labels and embedded logos; OCR can recover the full on-slide text more efficiently than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark purple",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "A Solution to the Integrations Problem",
+        "x": 11.0,
+        "y": 12.0,
+        "w": 60.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "MCP is the USB-C port for AI - one standard interface that connects any AI to any tool",
+        "x": 12.0,
+        "y": 23.0,
+        "w": 72.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "User applications",
+        "x": 37.0,
+        "y": 43.0,
+        "w": 23.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MCP",
+        "x": 54.0,
+        "y": 43.0,
+        "w": 10.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/IddXPepIAS4/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659846.498317,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "A Solution to the Integrations Problem",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

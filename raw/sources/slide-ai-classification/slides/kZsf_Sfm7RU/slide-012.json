@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "GB AGENT O3 · SESSION.ANALYIEA\nsesstor!\nsettons · walyte eveRy sets'on mtcoeraty coit· 'ver fec tre plre\nrerre rutle 2·callepre sto ptters 77 / 100 kealth rare Tll, wcter·'cort trerd\ntcrton s-?a0x rerroin，orE ptcol\nAnterior hit -95% on the model, then got to 99% by building thls kind of loop over production.\nChAISToPhER LOVEJOY - ANTeAIOA",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AGENT 03 - SESSION-ANALYZER",
+        "x": 17.0,
+        "y": 18.0,
+        "w": 26.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "sessions",
+        "x": 20.0,
+        "y": 24.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "session-analyzer",
+        "x": 39.0,
+        "y": 22.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "1 · analyze EVERY session\noutcome\nquality\ncost + issues",
+        "x": 39.0,
+        "y": 28.0,
+        "w": 20.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "2 · collapse into patterns\nThe same issue across many sessions = ONE pattern",
+        "x": 39.0,
+        "y": 49.0,
+        "w": 24.0,
+        "h": 17.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "feel the pulse",
+        "x": 74.0,
+        "y": 27.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "77 / 100\nhealth score\n94% success • cost trend",
+        "x": 72.0,
+        "y": 34.0,
+        "w": 21.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Anterior hit ~95% on the model, then got to 99% by building this kind of loop over production.",
+        "x": 17.0,
+        "y": 86.0,
+        "w": 67.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669878.6709352,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "AGENT 03 - SESSION-ANALYZER",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "GB AGENT O3 · SESSION.ANALYIEA\nsesstor!\nsettons · walyte eveRy sets'on mtcoeraty coit· 'ver fec tre plre\nrerre rutle 2·callepre sto ptters 77 / 100 kealth rare Tll, wcter·'cort trerd\ntcrton s-?a0x rerroin，orE ptcol\nAnterior hit -95% on the model, then got to 99% by building thls kind of loop over production.\nChAISToPhER LOVEJOY - ANTeAIOA",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 573.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "GB AGENT O3 · SESSION.ANALYIEA\nsesstor!\nsettons · walyte eveRy sets'on mtcoeraty coit· 'ver fec tre plre\nrerre rutle 2·callepre sto ptters 77 / 100 kealth rare Tll, wcter·'cort trerd\ntcrton s-?a0x rerroin，orE ptcol\nAnterior hit -95% on the model, then got to 99% by building thls kind of loop over production.\nChAISToPhER LOVEJOY - ANTeAIOA",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

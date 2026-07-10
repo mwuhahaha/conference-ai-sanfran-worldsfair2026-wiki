@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "description string,portForwardDesc string)（portForward,error)\nhostPort, err:= s.portAllocator.AllocatePort()\ncmd:= exec.Command（ \"nat\", \"-t\"， \"iptables\", \"-A”\n\"PREROUTING\"\n\"tcp\", \"--dport\",\nstrconv.Itoa(int(hostPort)), \"-j\", \"DNAT\" \"--to-destination\",\nfmt.Sprintf(\"%s:%d\",vmIP, guestPort),\nerr =cmd.Run（)",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code slide with small function and command text; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "description string, portForwardDesc string) (portForward, error) {\nhostPort, err := s.portAllocator.AllocatePort()\ncmd := exec.Command(",
+        "x": 11.0,
+        "y": 10.0,
+        "w": 54.0,
+        "h": 26.0
+      },
+      {
+        "role": "code",
+        "text": "\"iptables\",\n\"-t\",\n\"nat\",\n\"-A\",\n\"PREROUTING\",\n\"-p\",\n\"tcp\",\n\"--dport\",\nstrconv.Itoa(int(hostPort)),\n\"-j\",\n\"DNAT\",\n\"--to-destination\",",
+        "x": 12.0,
+        "y": 28.0,
+        "w": 34.0,
+        "h": 50.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-033.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-033.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673725.7585387,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "description string,portForwardDesc string)（portForward,error)\nhostPort, err:= s.portAllocator.AllocatePort()\ncmd:= exec.Command（ \"nat\", \"-t\"， \"iptables\", \"-A”\n\"PREROUTING\"\n\"tcp\", \"--dport\",\nstrconv.Itoa(int(hostPort)), \"-j\", \"DNAT\" \"--to-destination\",\nfmt.Sprintf(\"%s:%d\",vmIP, guestPort),\nerr =cmd.Run（)",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 361.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "description string,portForwardDesc string)（portForward,error)\nhostPort, err:= s.portAllocator.AllocatePort()\ncmd:= exec.Command（ \"nat\", \"-t\"， \"iptables\", \"-A”\n\"PREROUTING\"\n\"tcp\", \"--dport\",\nstrconv.Itoa(int(hostPort)), \"-j\", \"DNAT\" \"--to-destination\",\nfmt.Sprintf(\"%s:%d\",vmIP, guestPort),\nerr =cmd.Run（)",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

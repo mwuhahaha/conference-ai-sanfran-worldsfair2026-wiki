@@ -1,0 +1,415 @@
+{
+  "video_id": "jVGCulhBRZI",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 4,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI Agents can Automate Knowledge Work\nA big promise of AI agents is making knowledge workers more efficient:\nLower cost, save time\nMore data, better decision-making\nEvery b2b SaaS is talking about it.\nBut does \"knowledge work automation\" just mean RAG chatbots?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f7efd7",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "AI Agents can Automate Knowledge Work",
+            "x": 17.0,
+            "y": 0,
+            "w": 50.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "A big promise of AI agents is making knowledge workers more efficient:",
+            "x": 21.0,
+            "y": 18.0,
+            "w": 33.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Lower cost, save time",
+            "x": 23.0,
+            "y": 32.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "More data, better decision-making",
+            "x": 23.0,
+            "y": 39.0,
+            "w": 26.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Every b2b SaaS is talking about it.",
+            "x": 21.0,
+            "y": 62.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "But does \"knowledge work automation\" just mean RAG chatbots?",
+            "x": 21.0,
+            "y": 71.0,
+            "w": 36.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 66.0,
+            "y": 88.0,
+            "w": 8.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/jVGCulhBRZI/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669279.1603808,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Agents can Automate Knowledge Work\nA big promise of AI agents is making knowledge workers more efficient:\nLower cost, save time\nMore data, better decision-making\nEvery b2b SaaS is talking about it.\nBut does \"knowledge work automation\" just mean RAG chatbots?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/jVGCulhBRZI/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Alpha is in Unstructured Data\n90% of Enterprise Data Lives in Documents*\nHumans historically needed to read/write these documents.\nFor the first time, AI agents can reason and act over massive amounts of unstructured context tokens.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f7efd7",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "The Alpha is in Unstructured Data",
+            "x": 18.0,
+            "y": 0,
+            "w": 45.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "90% of Enterprise Data Lives in Documents*",
+            "x": 20.0,
+            "y": 18.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Humans historically needed to read/write these documents.",
+            "x": 20.0,
+            "y": 39.0,
+            "w": 30.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "For the first time, AI agents can reason and act over massive amounts of unstructured context tokens.",
+            "x": 20.0,
+            "y": 60.0,
+            "w": 36.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Human",
+            "x": 60.0,
+            "y": 23.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agent",
+            "x": 60.0,
+            "y": 48.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 48.0,
+            "y": 89.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 73.0,
+            "y": 89.0,
+            "w": 12.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/jVGCulhBRZI/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669279.1613202,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Alpha is in Unstructured Data\n90% of Enterprise Data Lives in Documents*\nHumans historically needed to read/write these documents.\nFor the first time, AI agents can reason and act over massive amounts of unstructured context tokens.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/jVGCulhBRZI/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Special Release: Excel!\nWe built an Excel agent capable of:\n1. Data Transformation: Transforming each sheet into a normalized 2D format.\n2. Agentic QA: Answer questions over cells in any of the sheets.\nThis is available in early preview.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f7efd7",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "Special Release: Excel!",
+            "x": 18.0,
+            "y": 0,
+            "w": 25.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "We built an Excel agent capable of:",
+            "x": 20.0,
+            "y": 21.0,
+            "w": 27.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "1. Data Transformation: Transforming each sheet into a normalized 2D format.",
+            "x": 21.0,
+            "y": 28.0,
+            "w": 40.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "2. Agentic QA: Answer questions over cells in any of the sheets.",
+            "x": 21.0,
+            "y": 38.0,
+            "w": 35.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "This is available in early preview.",
+            "x": 21.0,
+            "y": 67.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 66.0,
+            "y": 88.0,
+            "w": 8.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/jVGCulhBRZI/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669279.1621363,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Special Release: Excel!\nWe built an Excel agent capable of:\n1. Data Transformation: Transforming each sheet into a normalized 2D format.\n2. Agentic QA: Answer questions over cells in any of the sheets.\nThis is available in early preview.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/jVGCulhBRZI/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Automation UX\nUse Cases\nFinancial Data Normalization\nDatasheet Extraction\nPatient Record Extraction\nInvoice Reconciliation\nhttps://github.com/run-llama/invoice-reconciler",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f7efd7",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "Automation UX",
+            "x": 19.0,
+            "y": 0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Use Cases",
+            "x": 21.0,
+            "y": 18.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Financial Data Normalization",
+            "x": 23.0,
+            "y": 27.0,
+            "w": 25.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Datasheet Extraction",
+            "x": 23.0,
+            "y": 34.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Patient Record Extraction",
+            "x": 23.0,
+            "y": 41.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Invoice Reconciliation",
+            "x": 23.0,
+            "y": 48.0,
+            "w": 19.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "https://github.com/run-llama/invoice-reconciler",
+            "x": 56.0,
+            "y": 80.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 89.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 73.0,
+            "y": 89.0,
+            "w": 12.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/jVGCulhBRZI/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669279.1628413,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Automation UX\nUse Cases\nFinancial Data Normalization\nDatasheet Extraction\nPatient Record Extraction\nInvoice Reconciliation\nhttps://github.com/run-llama/invoice-reconciler",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/jVGCulhBRZI/slide-004.html"
+    }
+  ],
+  "rejected": []
+}

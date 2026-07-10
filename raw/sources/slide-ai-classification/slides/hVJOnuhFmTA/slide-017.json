@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Productrequlrementsrevlewe IPsuse UReplzy\nAI\nPresenting\nSskeholoer Dana Product-Leod Sem Eogineering Jordan Suggested clarification\nQSHAREDBYAI Finance Controls Policy v3 Expense approvals exceeding S5,oo require second-level authorization-the reporting manager and a Finance spprover. 54.2-Approvalthresbods doaypwatoay COALS Hod\nO-wnichrequirement is this? REQ-142-expensacrvls\nWhat kind of requests, though? Resove approval scope\nDara Expense approvalsfirst.Accessrequests eventually. asdwey\nAl,hold that. Sam\nSam Actually-let'spause.Expense approvals,orageneral approvalworkfiow?\nDana Expense approvals.Flrstrelease.\nSam Access requests are future scope.\nJordin That changos the data model.Good toknow.\nAl,pull that up for everyone. Sam\nOh-Idforgotten thatwasarule. Sorduas Pulling up the source -- so the room sees it too.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with small embedded text is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark navy",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Product requirements review · live",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 34.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Dana",
+        "x": 11.0,
+        "y": 9.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Sam",
+        "x": 31.0,
+        "y": 9.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Jordan",
+        "x": 50.0,
+        "y": 9.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Presenting",
+        "x": 63.0,
+        "y": 9.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Finance Controls Policy v3",
+        "x": 3.0,
+        "y": 27.0,
+        "w": 28.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-017.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668567.7007308,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Productrequlrementsrevlewe IPsuse UReplzy\nAI\nPresenting\nSskeholoer Dana Product-Leod Sem Eogineering Jordan Suggested clarification\nQSHAREDBYAI Finance Controls Policy v3 Expense approvals exceeding S5,oo require second-level authorization-the reporting manager and a Finance spprover. 54.2-Approvalthresbods doaypwatoay COALS Hod\nO-wnichrequirement is this? REQ-142-expensacrvls\nWhat kind of requests, though? Resove approval scope\nDara Expense approvalsfirst.Accessrequests eventually. asdwey\nAl,hold that. Sam\nSam Actually-let'spause.Expense approvals,orageneral approvalworkfiow?\nDana Expense approvals.Flrstrelease.\nSam Access requests are future scope.\nJordin That changos the data model.Good toknow.\nAl,pull that up for everyone. Sam\nOh-Idforgotten thatwasarule. Sorduas Pulling up the source -- so the room sees it too.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1034.92
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Productrequlrementsrevlewe IPsuse UReplzy\nAI\nPresenting\nSskeholoer Dana Product-Leod Sem Eogineering Jordan Suggested clarification\nQSHAREDBYAI Finance Controls Policy v3 Expense approvals exceeding S5,oo require second-level authorization-the reporting manager and a Finance spprover. 54.2-Approvalthresbods doaypwatoay COALS Hod\nO-wnichrequirement is this? REQ-142-expensacrvls\nWhat kind of requests, though? Resove approval scope\nDara Expense approvalsfirst.Accessrequests eventually. asdwey\nAl,hold that. Sam\nSam Actually-let'spause.Expense approvals,orageneral approvalworkfiow?\nDana Expense approvals.Flrstrelease.\nSam Access requests are future scope.\nJordin That changos the data model.Good toknow.\nAl,pull that up for everyone. Sam\nOh-Idforgotten thatwasarule. Sorduas Pulling up the source -- so the room sees it too.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

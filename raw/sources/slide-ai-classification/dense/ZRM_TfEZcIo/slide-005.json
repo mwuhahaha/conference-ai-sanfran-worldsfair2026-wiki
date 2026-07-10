@@ -1,9 +1,14 @@
 {
   "is_content_slide": true,
-  "confidence": 0.98,
+  "confidence": 0.99,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "Inside v1: fan out, rank, scrape\nTopic\ngolden links\nScrape links\nseed context\nQuery rounds\nGemini grounded in Google\nMain agent\nsubagent Q1\nsubagent Q2\nsubagent Q3\nsubagent Q4\nsubagent Q5\nsubagent Q6\nx3 rounds",
+  "text": "Inside v1: fan out, rank, scrape\nTopic\n- golden links\nScrape links\nseed context\nMain agent\nQuery rounds\nGems grounded in Google\nsubagent Q1\nsubagent Q2\nsubagent Q3\nsubagent Q4\nsubagent Q5\nsubagent Q6\nx3 rounds",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
   "layout": {
     "background": "#ffffff",
     "style": "diagram",
@@ -11,71 +16,69 @@
       {
         "role": "title",
         "text": "Inside v1: fan out, rank, scrape",
+        "x": 30.0,
+        "y": 8.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Topic\n- golden links",
         "x": 29.0,
-        "y": 6.0,
-        "w": 44.0,
-        "h": 9.0
+        "y": 41.0,
+        "w": 11.0,
+        "h": 13.0
       },
       {
-        "role": "body",
-        "text": "Topic\ngolden links",
-        "x": 28.0,
-        "y": 49.0,
-        "w": 8.0,
-        "h": 11.0
-      },
-      {
-        "role": "body",
+        "role": "diagram_label",
         "text": "Scrape links\nseed context",
         "x": 39.0,
-        "y": 49.0,
-        "w": 10.0,
-        "h": 11.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Query rounds",
-        "x": 57.0,
-        "y": 17.0,
-        "w": 12.0,
-        "h": 4.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Gemini grounded in Google",
-        "x": 57.0,
-        "y": 21.0,
+        "y": 41.0,
         "w": 14.0,
-        "h": 4.0
+        "h": 13.0
       },
       {
-        "role": "body",
+        "role": "diagram_label",
         "text": "Main agent",
         "x": 53.0,
-        "y": 51.0,
-        "w": 8.0,
-        "h": 11.0
+        "y": 43.0,
+        "w": 10.0,
+        "h": 12.0
       },
       {
-        "role": "body",
+        "role": "diagram_label",
+        "text": "Query rounds\nGems grounded in Google",
+        "x": 53.0,
+        "y": 19.0,
+        "w": 20.0,
+        "h": 16.0
+      },
+      {
+        "role": "diagram_label",
         "text": "subagent Q1\nsubagent Q2\nsubagent Q3\nsubagent Q4\nsubagent Q5\nsubagent Q6",
         "x": 64.0,
-        "y": 35.0,
-        "w": 11.0,
-        "h": 33.0
+        "y": 24.0,
+        "w": 12.0,
+        "h": 36.0
       },
       {
         "role": "caption",
         "text": "x3 rounds",
-        "x": 56.0,
-        "y": 75.0,
-        "w": 9.0,
-        "h": 5.0
+        "x": 52.0,
+        "y": 72.0,
+        "w": 10.0,
+        "h": 8.0
       }
     ]
   },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
   "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-005.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783628794.3513358
+  "classified_at_epoch": 1783665605.9611168,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Inside v1: fan out, rank, scrape\nTopic\n- golden links\nScrape links\nseed context\nMain agent\nQuery rounds\nGems grounded in Google\nsubagent Q1\nsubagent Q2\nsubagent Q3\nsubagent Q4\nsubagent Q5\nsubagent Q6\nx3 rounds",
+  "advanced_ocr": {}
 }

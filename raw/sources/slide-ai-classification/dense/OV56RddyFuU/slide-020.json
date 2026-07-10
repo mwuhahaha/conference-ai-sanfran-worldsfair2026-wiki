@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Grest Do you hive sn ides of the costs foc runaing 16 GpUs in parstei tor thst long? Use @ Hugglng Face Jobt:\nnq Uslng the latest rerifed HF Jobs pricing frorn our erlronmant, l4tsxl ks s1.8e/hour pe GPU. So 16x I4esx1 3 previous mosssges ) → LLM even does napkin calculates running cost for math for the instance and\nAep/169s noqy · +. $2s.te/hour tots the Job\nLyn yyap-its sinou oeioz hoqt ey pmoyt uru tded- ras'iz mm, out 'ehtd yyewlpuea sotl ueuro eu betn + -29.3h case: about s843 + 3+.th cso: sbout $565 16 jobs in paralle, to the rw GpU cost is about: ran you can use Buckets → these Jobs will be re-\nFor compsrson, 16x sieg-large: b ch+aotr par hour but slomt ottral: rd budget a bit abore rw compute ior shurd skew, slrtup overhead, retrles, trd possble Hub hlceupt + Practicel budgtl sbout s9eo-si,054 fast read-write with hf-mount that allows\n+ $ltg-1srge.: s1.s0/bour. osch, so $24/bour. for 16\n+ Estimated wall-clock: about 56.4 hours. + Total: sbout s1,353\nTthuo aodtoy> Aryoirw pue ostu, 4oq dq proyt 1' txhm xgt tsn:outt cn cirt uoepuauuoou Au os",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense pricing calculations and screenshot text in small type.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "pale green frame on white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "3 previous messages",
+        "x": 29.0,
+        "y": 19.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "→ LLM even does napkin math for the instance and calculates running cost for\nthe Job\n→ these Jobs will be re-ran you can use Buckets\nwith hf-mount that allows fast read-write",
+        "x": 56.0,
+        "y": 19.0,
+        "w": 37.0,
+        "h": 42.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-020.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662584.836052,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Grest Do you hive sn ides of the costs foc runaing 16 GpUs in parstei tor thst long? Use @ Hugglng Face Jobt:\nnq Uslng the latest rerifed HF Jobs pricing frorn our erlronmant, l4tsxl ks s1.8e/hour pe GPU. So 16x I4esx1 3 previous mosssges ) → LLM even does napkin calculates running cost for math for the instance and\nAep/169s noqy · +. $2s.te/hour tots the Job\nLyn yyap-its sinou oeioz hoqt ey pmoyt uru tded- ras'iz mm, out 'ehtd yyewlpuea sotl ueuro eu betn + -29.3h case: about s843 + 3+.th cso: sbout $565 16 jobs in paralle, to the rw GpU cost is about: ran you can use Buckets → these Jobs will be re-\nFor compsrson, 16x sieg-large: b ch+aotr par hour but slomt ottral: rd budget a bit abore rw compute ior shurd skew, slrtup overhead, retrles, trd possble Hub hlceupt + Practicel budgtl sbout s9eo-si,054 fast read-write with hf-mount that allows\n+ $ltg-1srge.: s1.s0/bour. osch, so $24/bour. for 16\n+ Estimated wall-clock: about 56.4 hours. + Total: sbout s1,353\nTthuo aodtoy> Aryoirw pue ostu, 4oq dq proyt 1' txhm xgt tsn:outt cn cirt uoepuauuoou Au os",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1598.56
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Grest Do you hive sn ides of the costs foc runaing 16 GpUs in parstei tor thst long? Use @ Hugglng Face Jobt:\nnq Uslng the latest rerifed HF Jobs pricing frorn our erlronmant, l4tsxl ks s1.8e/hour pe GPU. So 16x I4esx1 3 previous mosssges ) → LLM even does napkin calculates running cost for math for the instance and\nAep/169s noqy · +. $2s.te/hour tots the Job\nLyn yyap-its sinou oeioz hoqt ey pmoyt uru tded- ras'iz mm, out 'ehtd yyewlpuea sotl ueuro eu betn + -29.3h case: about s843 + 3+.th cso: sbout $565 16 jobs in paralle, to the rw GpU cost is about: ran you can use Buckets → these Jobs will be re-\nFor compsrson, 16x sieg-large: b ch+aotr par hour but slomt ottral: rd budget a bit abore rw compute ior shurd skew, slrtup overhead, retrles, trd possble Hub hlceupt + Practicel budgtl sbout s9eo-si,054 fast read-write with hf-mount that allows\n+ $ltg-1srge.: s1.s0/bour. osch, so $24/bour. for 16\n+ Estimated wall-clock: about 56.4 hours. + Total: sbout s1,353\nTthuo aodtoy> Aryoirw pue ostu, 4oq dq proyt 1' txhm xgt tsn:outt cn cirt uoepuauuoou Au os",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

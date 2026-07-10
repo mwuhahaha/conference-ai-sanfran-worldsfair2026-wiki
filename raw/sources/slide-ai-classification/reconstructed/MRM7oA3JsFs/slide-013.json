@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Empower your domain experts to make\nAIE improvements directly with tooling and evals Application Pipelines\nP45366 deternie vhether to make live Ewlate to\nchanges\ndomain cxperts Tooling for of releunt donin Reatns retreunl baocdedge Domain evals\nLonain deternine Vhether Mgoo Evohiate to\nto pipebnes\nKnowdedae Base uIOwOq\nMicrosoft smol ai",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense diagram slide with multiple small labels and arrows; OCR is likely better than manual transcription here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark olive on black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Empower your domain experts to make improvements directly with tooling and evals",
+        "x": 18.0,
+        "y": 11.0,
+        "w": 66.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Application Pipelines",
+        "x": 40.0,
+        "y": 33.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tooling for domain experts",
+        "x": 19.0,
+        "y": 55.0,
+        "w": 18.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Domain Knowledge Base",
+        "x": 46.0,
+        "y": 67.0,
+        "w": 14.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Domain evals",
+        "x": 80.0,
+        "y": 57.0,
+        "w": 14.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-013.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661585.5187566,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Empower your domain experts to make\nAIE improvements directly with tooling and evals Application Pipelines\nP45366 deternie vhether to make live Ewlate to\nchanges\ndomain cxperts Tooling for of releunt donin Reatns retreunl baocdedge Domain evals\nLonain deternine Vhether Mgoo Evohiate to\nto pipebnes\nKnowdedae Base uIOwOq\nMicrosoft smol ai",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 548.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Empower your domain experts to make\nAIE improvements directly with tooling and evals Application Pipelines\nP45366 deternie vhether to make live Ewlate to\nchanges\ndomain cxperts Tooling for of releunt donin Reatns retreunl baocdedge Domain evals\nLonain deternine Vhether Mgoo Evohiate to\nto pipebnes\nKnowdedae Base uIOwOq\nMicrosoft smol ai",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

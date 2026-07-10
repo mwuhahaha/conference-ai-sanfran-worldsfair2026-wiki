@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "harness) based ona benchmark result? Nikunj Kothari@nikunjo4h Genuinely curious = has any engineer made a decision on a model (or\n★ AIE trust their taste, evals and how models are performing for their specific use case. Every researcher / engineer I have talked to routinely dismisses it. They\nnot. It's seems like it's simply now used for the labs to show how they're slightly ahead but in my head has no material impact on whether a model is used or\nI'd love to be proven wrong so please push back!\n930 包 65 6.1K\nAI Engineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "contains a dense social-post screenshot with small text",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 15.0
+      },
+      {
+        "role": "caption",
+        "text": "Nikunj Kothari @nikunj · 4h",
+        "x": 36.0,
+        "y": 12.0,
+        "w": 42.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Genuinely curious - has any engineer made a decision on a model (or harness) based on a benchmark result?",
+        "x": 34.0,
+        "y": 22.0,
+        "w": 56.0,
+        "h": 31.0
+      },
+      {
+        "role": "caption",
+        "text": "AI Engineer EUROPE",
+        "x": 57.0,
+        "y": 75.0,
+        "w": 22.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/QuuIywMG4s8/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663077.6400776,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "harness) based ona benchmark result? Nikunj Kothari@nikunjo4h Genuinely curious = has any engineer made a decision on a model (or\n★ AIE trust their taste, evals and how models are performing for their specific use case. Every researcher / engineer I have talked to routinely dismisses it. They\nnot. It's seems like it's simply now used for the labs to show how they're slightly ahead but in my head has no material impact on whether a model is used or\nI'd love to be proven wrong so please push back!\n930 包 65 6.1K\nAI Engineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 875.44
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "harness) based ona benchmark result? Nikunj Kothari@nikunjo4h Genuinely curious = has any engineer made a decision on a model (or\n★ AIE trust their taste, evals and how models are performing for their specific use case. Every researcher / engineer I have talked to routinely dismisses it. They\nnot. It's seems like it's simply now used for the labs to show how they're slightly ahead but in my head has no material impact on whether a model is used or\nI'd love to be proven wrong so please push back!\n930 包 65 6.1K\nAI Engineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

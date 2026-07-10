@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.97,
+  "frame_type": "demo_video",
+  "reject_reason": "Screen recording of a slide editor with presenter webcam; not a readable presentation slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a slide frame.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#f2f2f2",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "Live Demo",
+        "x": 28.0,
+        "y": 47.0,
+        "w": 44.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/Lc8zRh9muoY/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662095.2677007,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

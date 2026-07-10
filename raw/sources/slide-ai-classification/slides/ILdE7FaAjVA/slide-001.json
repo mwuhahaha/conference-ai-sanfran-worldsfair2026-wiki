@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Introducing Runpod\nThe foundational platform for building, running, and scaling custom AI systems.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(135deg, #1b0b2e 0%, #5a1a8a 55%, #7a2bd6 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "runpod",
+        "x": 34.0,
+        "y": 13.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Introducing Runpod",
+        "x": 33.0,
+        "y": 35.0,
+        "w": 24.0,
+        "h": 17.0
+      },
+      {
+        "role": "subtitle",
+        "text": "The foundational platform for building, running, and scaling custom AI systems.",
+        "x": 33.0,
+        "y": 60.0,
+        "w": 33.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/ILdE7FaAjVA/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659551.353288,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Introducing Runpod\nThe foundational platform for building, running, and scaling custom AI systems.",
+  "advanced_ocr": {}
+}

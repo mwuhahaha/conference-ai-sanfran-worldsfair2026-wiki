@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "KLAS CASE STUDY\nWe achieved a baseline performance of 95% for approving care...\nthen iterated with a specific customer to >99% within 8 weeks\n95.73%\n99.24%",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(180deg, #1b180f 0%, #090807 100%)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 25.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "KLAS CASE STUDY",
+        "x": 18.0,
+        "y": 14.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "We achieved a baseline performance of 95% for approving care...",
+        "x": 18.0,
+        "y": 20.0,
+        "w": 64.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "then iterated with a specific customer to >99% within 8 weeks",
+        "x": 18.0,
+        "y": 26.0,
+        "w": 68.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "95.73%",
+        "x": 18.0,
+        "y": 43.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "99.24%",
+        "x": 58.0,
+        "y": 43.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 87.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 73.0,
+        "y": 86.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-008.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661307.8290431,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "KLAS CASE STUDY\nWe achieved a baseline performance of 95% for approving care...\nthen iterated with a specific customer to >99% within 8 weeks\n95.73%\n99.24%",
+  "advanced_ocr": {}
+}

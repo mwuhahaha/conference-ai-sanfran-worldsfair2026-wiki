@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RLO\nConnection wilbe established directly to the Gemini API Voice: API Configuration Connection Settings using an ephemeral token from the backend. ModelID: gemini-3.1-flash-live-p Gemini Behavior System Instructions: You are a helpful assistant.Be concise and friendly. Puck(Default Temperature:1.0 Microphone: Camera: Chat MediaStreaming Default Microphone %08 Default Camera StartVideo Share Screen StartAudio (（) loded gsiLipi.j displayer initalied SETP COLETE Servsce UR (vlalphal： lE/generatiyelan CreatedCeniai Line APIobjecti 3477155A vehseciet spesi getFunctionbefinitianscalled Geogle Grending enabled,removing cstoe Setup corplete: necting directly tei ratirie? le5/ /24565112645868722644 et（-） fncti alls if y. \" rativelar ralivni odets/ge.xla.ta_tahe ai-d.l-flab-le-peie', ：ath./14565f Detault lev oeiniLeeJs437 AL.J31287 5/1424515 pesiniliet.is1315 stiat.tt:257\nControls randomess（0.0-2.0].Highermore creative/diverse,Lower more predictable/focused Enable Google grounding（Enabling Google grounding will disable custom tools) Connect toGemini to startchatting SYSTEM:Ready!\nCustomTools\nTranscription Settings\nActivity Detection Setings\nConnect Disconnect\nConnected\nSetup Message JSON(raw config sent to Gemini API)\nType a message. Send",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense configuration UI and console output with small text; OCR is the right capture method.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f5ecd7",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "API Configuration",
+        "x": 5.0,
+        "y": 6.0,
+        "w": 28.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Media Streaming",
+        "x": 34.0,
+        "y": 6.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Connection Settings",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Gemini Behavior",
+        "x": 5.0,
+        "y": 29.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Chat",
+        "x": 36.0,
+        "y": 49.0,
+        "w": 8.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667403.2488666,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "API Configuration\nMedia Streaming",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "RLO\nConnection wilbe established directly to the Gemini API Voice: API Configuration Connection Settings using an ephemeral token from the backend. ModelID: gemini-3.1-flash-live-p Gemini Behavior System Instructions: You are a helpful assistant.Be concise and friendly. Puck(Default Temperature:1.0 Microphone: Camera: Chat MediaStreaming Default Microphone %08 Default Camera StartVideo Share Screen StartAudio (（) loded gsiLipi.j displayer initalied SETP COLETE Servsce UR (vlalphal： lE/generatiyelan CreatedCeniai Line APIobjecti 3477155A vehseciet spesi getFunctionbefinitianscalled Geogle Grending enabled,removing cstoe Setup corplete: necting directly tei ratirie? le5/ /24565112645868722644 et（-） fncti alls if y. \" rativelar ralivni odets/ge.xla.ta_tahe ai-d.l-flab-le-peie', ：ath./14565f Detault lev oeiniLeeJs437 AL.J31287 5/1424515 pesiniliet.is1315 stiat.tt:257\nControls randomess（0.0-2.0].Highermore creative/diverse,Lower more predictable/focused Enable Google grounding（Enabling Google grounding will disable custom tools) Connect toGemini to startchatting SYSTEM:Ready!\nCustomTools\nTranscription Settings\nActivity Detection Setings\nConnect Disconnect\nConnected\nSetup Message JSON(raw config sent to Gemini API)\nType a message. Send",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1477.64
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "RLO\nConnection wilbe established directly to the Gemini API Voice: API Configuration Connection Settings using an ephemeral token from the backend. ModelID: gemini-3.1-flash-live-p Gemini Behavior System Instructions: You are a helpful assistant.Be concise and friendly. Puck(Default Temperature:1.0 Microphone: Camera: Chat MediaStreaming Default Microphone %08 Default Camera StartVideo Share Screen StartAudio (（) loded gsiLipi.j displayer initalied SETP COLETE Servsce UR (vlalphal： lE/generatiyelan CreatedCeniai Line APIobjecti 3477155A vehseciet spesi getFunctionbefinitianscalled Geogle Grending enabled,removing cstoe Setup corplete: necting directly tei ratirie? le5/ /24565112645868722644 et（-） fncti alls if y. \" rativelar ralivni odets/ge.xla.ta_tahe ai-d.l-flab-le-peie', ：ath./14565f Detault lev oeiniLeeJs437 AL.J31287 5/1424515 pesiniliet.is1315 stiat.tt:257\nControls randomess（0.0-2.0].Highermore creative/diverse,Lower more predictable/focused Enable Google grounding（Enabling Google grounding will disable custom tools) Connect toGemini to startchatting SYSTEM:Ready!\nCustomTools\nTranscription Settings\nActivity Detection Setings\nConnect Disconnect\nConnected\nSetup Message JSON(raw config sent to Gemini API)\nType a message. Send",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

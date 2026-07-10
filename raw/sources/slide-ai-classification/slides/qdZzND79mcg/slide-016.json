@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Takeaway\nAs models improve exponentially, and as AI engineering moves more into real-world, the discipline will be forced to rethink itself around continual production.\nThe limiting factor is not the strength of the model - it will be the adaptability of the harness.\nAdaptability means multi-agent (horizontal), decentralised, mid-runtime intelligence.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#000000",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Takeaway",
+        "x": 5.0,
+        "y": 8.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "As models improve exponentially, and as AI engineering moves more into real-world, the discipline will be forced to rethink itself around continual production.",
+        "x": 9.0,
+        "y": 26.0,
+        "w": 82.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "The limiting factor is not the strength of the model - it will be the adaptability of the harness.",
+        "x": 13.0,
+        "y": 45.0,
+        "w": 74.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Adaptability means multi-agent (horizontal), decentralised, mid-runtime intelligence.",
+        "x": 17.0,
+        "y": 62.0,
+        "w": 66.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/qdZzND79mcg/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671492.66434,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Takeaway\nAs models improve exponentially, and as AI engineering moves more into real-world, the discipline will be forced to rethink itself around continual production.\nThe limiting factor is not the strength of the model - it will be the adaptability of the harness.\nAdaptability means multi-agent (horizontal), decentralised, mid-runtime intelligence.",
+  "advanced_ocr": {}
+}

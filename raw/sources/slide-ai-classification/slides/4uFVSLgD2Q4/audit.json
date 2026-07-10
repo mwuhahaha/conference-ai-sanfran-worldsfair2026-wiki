@@ -1,0 +1,815 @@
+{
+  "video_id": "4uFVSLgD2Q4",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 9,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agenda\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "large, simple agenda text is directly readable",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "#34444f",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Agenda",
+            "x": 2.0,
+            "y": 6.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+            "x": 2.0,
+            "y": 17.0,
+            "w": 96.0,
+            "h": 76.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/4uFVSLgD2Q4/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657655.6704066,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agenda\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/4uFVSLgD2Q4/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.86,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "About OpenGov\nSoftware for\nmore effective,\naccountable\ngovernment.\n\nFounded over 14 years ago, OpenGov builds ERP, budgeting,\nasset management, and permitting software for state and local\ngovernment and OG Assist now connects across all of it.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "two-column slide with smaller paragraph text and embedded video area",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#232323",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "OpenGov",
+            "x": 84.0,
+            "y": 2.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "About OpenGov",
+            "x": 64.0,
+            "y": 10.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Software for more effective, accountable government.",
+            "x": 64.0,
+            "y": 14.0,
+            "w": 32.0,
+            "h": 34.0
+          },
+          {
+            "role": "body",
+            "text": "Founded over 14 years ago, OpenGov builds ERP, budgeting, asset management, and permitting software for state and local government and OG Assist now connects across all of it.",
+            "x": 64.0,
+            "y": 74.0,
+            "w": 33.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 2.0,
+            "y": 14.0,
+            "w": 60.0,
+            "h": 63.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/4uFVSLgD2Q4/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657655.6710498,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/contrast",
+        "text": "OpenGovT\nAbout OpenGov Software for\nmore effective.\naccountable\ngovernment.\nFounded over 14 years ago, OpenGov builds ERP. budgeting.\ngovernment and OG Assist now connects across all of it. asset management,andpermitting softwareforstate and local",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 416.72
+      },
+      "ocr_source": "rapidocr-live/right-72/contrast",
+      "ocr_reconcile": {
+        "text": "About OpenGov\nSoftware for\nmore effective,\naccountable\ngovernment.\n\nFounded over 14 years ago, OpenGov builds ERP, budgeting,\nasset management, and permitting software for state and local\ngovernment and OG Assist now connects across all of it.",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR with minor punctuation and spacing cleanup; corrected OpenGov logo text and wording from the slide."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/4uFVSLgD2Q4/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "About OpenGov\nSoftware for\nmore effective,\naccountable\ngovernment.\n\nFounded over 14 years ago, OpenGov builds ERP, budgeting, asset management, and permitting software for state and local government and OG Assist now connects across all of it.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "product UI screenshot with small internal text plus surrounding slide copy",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#232323",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "OpenGov",
+            "x": 84.0,
+            "y": 2.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "About OpenGov",
+            "x": 64.0,
+            "y": 10.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Software for more effective, accountable government.",
+            "x": 64.0,
+            "y": 14.0,
+            "w": 32.0,
+            "h": 34.0
+          },
+          {
+            "role": "body",
+            "text": "Founded over 14 years ago, OpenGov builds ERP, budgeting, asset management, and permitting software for state and local government and OG Assist now connects across all of it.",
+            "x": 64.0,
+            "y": 74.0,
+            "w": 33.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 2.0,
+            "y": 15.0,
+            "w": 61.0,
+            "h": 70.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/4uFVSLgD2Q4/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657682.2429917,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "OpenGov\nCloud City. USA OpmOo! About OpenGov Software for\nWiorkspac more effective,\n$69 accountable\ngovernment.\n(=)\nYour belro br+thdo+r aehitt 10 Founded over 14 years ago. OpenGov builds ERP. budgeting.\ngovermment and OG Assist now connects across all of il. asset management. and permitting software for stato and local",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 541.36
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "About OpenGov\nSoftware for\nmore effective,\naccountable\ngovernment.\n\nFounded over 14 years ago, OpenGov builds ERP, budgeting, asset management, and permitting software for state and local government and OG Assist now connects across all of it.",
+        "text_status": "meaningful",
+        "corrections": "Accepted the main slide text and corrected obvious OCR errors; left the closing sentence as shown without adding unsupported punctuation."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/4uFVSLgD2Q4/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Origin Story\nOne bet on agents, one immediate yes.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple headline slide with one large statement",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f3f2ef",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "OpenGov",
+            "x": 84.0,
+            "y": 2.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Origin Story",
+            "x": 64.0,
+            "y": 13.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "One bet on agents, one immediate yes.",
+            "x": 64.0,
+            "y": 18.0,
+            "w": 31.0,
+            "h": 23.0
+          },
+          {
+            "role": "body",
+            "text": "A principal engineer spun up a team focused on AI agents and asked me to join. OG Assist grew from there. We started to integrate deeply with our products through frontend and backend tools.",
+            "x": 64.0,
+            "y": 74.0,
+            "w": 33.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 1.0,
+            "y": 15.0,
+            "w": 58.0,
+            "h": 72.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/4uFVSLgD2Q4/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657713.2221477,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Origin Story\nOne bet on agents, one immediate yes.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/4uFVSLgD2Q4/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agent-to-Agent Protocol\n\nBuilt Off The A2A Protocol\n\nThe A2A protocol allows OG Assist to build off a supported spec, rather than from the ground up.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code block plus readable title.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "solid #5140ff",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "interface AgentCard {",
+            "x": 5.0,
+            "y": 5.0,
+            "w": 46.0,
+            "h": 88.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Agent-to-Agent Protocol",
+            "x": 57.0,
+            "y": 20.0,
+            "w": 17.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Built Off The A2A Protocol",
+            "x": 57.0,
+            "y": 36.0,
+            "w": 30.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "The A2A protocol allows OG Assist to build off a supported spec, rather than from the ground up.",
+            "x": 57.0,
+            "y": 74.0,
+            "w": 32.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenGov",
+            "x": 87.0,
+            "y": 2.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Source: https://agent2agent.info/docs/concepts/agentcard/",
+            "x": 7.0,
+            "y": 95.0,
+            "w": 48.0,
+            "h": 3.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/4uFVSLgD2Q4/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657831.890677,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "interface AgentCard{ 1/Hunan-readablena for the Agent （e-g.,Recipe Agent) OpenGovT\nprovider?:( //Hunan-readable description of the Ageot's function description: string: /uRL addresswhere the Agent is hosted url:string: 1/Service provider information for the Agent organization:string: url:string: Agent-to-Agent Protocol\nversion:string: documentationurl7:string: 11Version of the Agent(format defined by provider,e.g.,\"1.o.e) I/uRL for the Agent'sdocumentation //Authentication requirenents for the Agent (intended to match OpenAPI auth structure) authentication1{ capabilities:{ streaning?:boolean;// If the Agent supports SSE pushNotifications?:boolean://If the Agent can push update notifications to the client stateTransitionHistory?:boolean: // If the Ageot exposes task state change history schees:stringll://e.g.,Basic,Bearer Built Off The A2AProtocol\nI/Default Interaction nodes supported by the Agent across all skitls I/Collection ofcapability units the Agent can perform defaultInputModes:stringI]:// Supported input MINE types defaultoutputModes:stringIl:// Supported outputMIME types skills:( id:string:// unique identifier for the skiit name:string:// Mumn-readablename for the skill tags:stringll:// Tagsdescribing the skill's capability category (e.g.,\"cooking,\"cu examples7:stringl]:// Exanple scenarios or pronpts the skill can execute （e.g.,Inee description: string://Skill description spec,rather than from the ground up. TheA2Aprotocol allowsOGAssist tobuild offasupported\nSource:https://agent2agent.info/docs/concepts/agentcard/",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1780.0
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Agent-to-Agent Protocol\n\nBuilt Off The A2A Protocol\n\nThe A2A protocol allows OG Assist to build off a supported spec, rather than from the ground up.",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide title and subtitle; corrected obvious OCR errors and omitted the small code block as too illegible to transcribe reliably."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/4uFVSLgD2Q4/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Sandboxing\nRoom to act, safely.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "solid #f4f4f4",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "diagram",
+            "text": "OG Assist",
+            "x": 18.0,
+            "y": 5.0,
+            "w": 28.0,
+            "h": 88.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenGov",
+            "x": 84.0,
+            "y": 2.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Sandboxing",
+            "x": 63.0,
+            "y": 26.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Room to act, safely.",
+            "x": 63.0,
+            "y": 34.0,
+            "w": 28.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Code runs in isolated sandboxes, so agents can take real action without putting production systems or customer data at risk.",
+            "x": 63.0,
+            "y": 74.0,
+            "w": 31.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/4uFVSLgD2Q4/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657915.5662901,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Sandboxing\nRoom to act, safely.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/4uFVSLgD2Q4/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Tools & Skills\nUI, on the Fly",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "solid #4f43ff",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "diagram",
+            "text": "OG Assist",
+            "x": 18.0,
+            "y": 5.0,
+            "w": 28.0,
+            "h": 88.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenGov",
+            "x": 84.0,
+            "y": 2.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Tools & Skills",
+            "x": 64.0,
+            "y": 22.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "UI, on the Fly",
+            "x": 64.0,
+            "y": 31.0,
+            "w": 24.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "UIs can be created on demand by the agent if deemed necessary or beneficial to enhancing the experience of the conversation.",
+            "x": 64.0,
+            "y": 74.0,
+            "w": 30.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/4uFVSLgD2Q4/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657915.5666049,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Tools & Skills\nUI, on the Fly",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/4uFVSLgD2Q4/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Observability\nYou can't scale\nwhat you can't\nsee.\n\nSource: https://effect.website/docs/observability/tracing/\n\nEvery agent run is traced end to end, giving us the visibility to debug, measure, and tune behavior at production scale.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense trace screenshot is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "solid #334852",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "diagram",
+            "text": "trace timeline",
+            "x": 0,
+            "y": 31.0,
+            "w": 61.0,
+            "h": 41.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenGov",
+            "x": 84.0,
+            "y": 2.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Observability",
+            "x": 64.0,
+            "y": 24.0,
+            "w": 13.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "You can't scale what you can't see.",
+            "x": 64.0,
+            "y": 31.0,
+            "w": 32.0,
+            "h": 23.0
+          },
+          {
+            "role": "body",
+            "text": "Every agent run is traced end to end, giving you the visibility to debug, measure, and tune behavior at production scale.",
+            "x": 64.0,
+            "y": 76.0,
+            "w": 31.0,
+            "h": 12.0
+          },
+          {
+            "role": "caption",
+            "text": "Source: https://effect.website/docs/observability/tracing/",
+            "x": 0,
+            "y": 74.0,
+            "w": 58.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/4uFVSLgD2Q4/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657915.5668836,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "OpenGov\n2025-03-2016:13:42.082. examplecliertwun 646666466d Observability whatyou can't see. You can'tscale\nSource:https://effect.website/docs/observability/tracing/ debug,measure,and tune behavioratproduction scale. Every agent run is traced end to end. giving us the visibility to",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 357.84
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Observability\nYou can't scale\nwhat you can't\nsee.\n\nSource: https://effect.website/docs/observability/tracing/\n\nEvery agent run is traced end to end, giving us the visibility to debug, measure, and tune behavior at production scale.",
+        "text_status": "meaningful",
+        "corrections": "Corrected OCR spacing and punctuation; removed timestamp/noise and kept the visible slide text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/4uFVSLgD2Q4/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Developer Velocity\n\nBuilding agents\nwith agents.\n\nClaude Code, Cursor, and cloud agents accelerate how the team writes, reviews, and ships building OG Assist with the same kind of tools we ship.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code/editor screenshot with small text is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "solid #191919",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "Claude Code",
+            "x": 4.0,
+            "y": 7.0,
+            "w": 56.0,
+            "h": 85.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenGov",
+            "x": 84.0,
+            "y": 2.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Developer Velocity",
+            "x": 64.0,
+            "y": 24.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Building agents with agents.",
+            "x": 64.0,
+            "y": 31.0,
+            "w": 29.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "Claude Code, Cursor, and cloud agents accelerate how the team writes, reviews, and ships building OG Assist with the same kind of tools we ship.",
+            "x": 64.0,
+            "y": 78.0,
+            "w": 30.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/4uFVSLgD2Q4/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657957.081284,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "OpenGovT\n157.63\naffurr\nHoyAILngLoee:Ceofereocele2el tutioJesvei Developer Velocity Building agents\nwith agents.\nClaude Code,Cursor.and cloud agents accelerate how the\nteam writes,reviews,and ships building OG Assist with the\nsamekindoftoolswe ship.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 400.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Developer Velocity\n\nBuilding agents\nwith agents.\n\nClaude Code, Cursor, and cloud agents accelerate how the team writes, reviews, and ships building OG Assist with the same kind of tools we ship.",
+        "text_status": "meaningful",
+        "corrections": "Corrected OCR for the title and body punctuation/casing; accepted the slide text visible in the image."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/4uFVSLgD2Q4/slide-011.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "title_card",
+      "reject_reason": "title card",
+      "text": "AI Engineer Conference 2026\nAgents in Production: How OpenGov Built and Scaled OG Assist",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple title card; text is already readable",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#dbe5f1",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "AI Engineer Conference 2026",
+            "x": 2.0,
+            "y": 5.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Agents in Production: How OpenGov Built and Scaled OG Assist",
+            "x": 2.0,
+            "y": 8.0,
+            "w": 66.0,
+            "h": 24.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenGov",
+            "x": 88.0,
+            "y": 2.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "OG Assist",
+            "x": 31.0,
+            "y": 47.0,
+            "w": 38.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/4uFVSLgD2Q4/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657655.669846,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Engineer Conference 2026\nAgents in Production: How OpenGov Built and Scaled OG Assist",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "logo-only partnership slide",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "logo slide with no substantive content",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "OpenGov",
+            "x": 28.0,
+            "y": 15.0,
+            "w": 36.0,
+            "h": 17.0
+          },
+          {
+            "role": "logo",
+            "text": "Effect",
+            "x": 30.0,
+            "y": 74.0,
+            "w": 41.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/4uFVSLgD2Q4/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657713.2232685,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Code review as a gateway & gatekeeper to improve and govern code-level & process-level quality\nRemembers, code review isn't only for code quality, it is also in order for the team to own and learn the code together",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "qodo",
+        "x": 24.0,
+        "y": 4.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "Code review as a gateway & gatekeeper to improve and govern code-level & process-level quality",
+        "x": 25.0,
+        "y": 22.0,
+        "w": 42.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "Remembers, code review isn't only for code quality, it is also in order for the team to own and learn the code together",
+        "x": 25.0,
+        "y": 49.0,
+        "w": 40.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram",
+        "text": "PR Compliance Guide",
+        "x": 72.0,
+        "y": 9.0,
+        "w": 23.0,
+        "h": 58.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/reconstructed-slides/rgjF5o2Qjsc/slide-011.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671873.3928146,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Code review as a gateway & gatekeeper to improve and govern code-level & process-level quality\nRemembers, code review isn't only for code quality, it is also in order for the team to own and learn the code together",
+  "advanced_ocr": {}
+}

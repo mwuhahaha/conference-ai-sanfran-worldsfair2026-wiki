@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "MEASURABLE\ntoken tracked. Every dollar counted.\nmy-project.247 queriesLast query 5m ago\n800O088xtokenssaved\nInput savings Output savings 48.2ktokens 12.4H tokens $3.62 $186.80\nTotal saved 12.4Mtokens $189.62\nBreakdoan:\nretrieval chunk coepression outputcoepress* 84% <1% 3% 10.4M$156.60 421.5k 48.2k $3.62 $6.32\nmates.Actuai tokens served vs full-fle basellne,per bucket Dolar coats from five model pricing",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Slide uses a small embedded metrics screenshot with dense numeric text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "near-black with teal and purple abstract corner shapes",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "KEY TAKEAWAY",
+        "x": 6.0,
+        "y": 6.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "subtitle",
+        "text": "MEASURABLE",
+        "x": 46.0,
+        "y": 12.0,
+        "w": 12.0,
+        "h": 3.0
+      },
+      {
+        "role": "title",
+        "text": "Every token tracked. Every dollar counted.",
+        "x": 21.0,
+        "y": 17.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "83% tokens saved",
+        "x": 25.0,
+        "y": 31.0,
+        "w": 50.0,
+        "h": 33.0
+      },
+      {
+        "role": "caption",
+        "text": "Not estimates. Actual tokens served vs full-file baseline, per bucket. Dollar costs from live model pricing.",
+        "x": 24.0,
+        "y": 83.0,
+        "w": 52.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/dRmWYHuIJxM/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667597.0834053,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/contrast",
+    "text": "MEASURABLE\ntoken tracked. Every dollar counted.\nmy-project.247 queriesLast query 5m ago\n800O088xtokenssaved\nInput savings Output savings 48.2ktokens 12.4H tokens $3.62 $186.80\nTotal saved 12.4Mtokens $189.62\nBreakdoan:\nretrieval chunk coepression outputcoepress* 84% <1% 3% 10.4M$156.60 421.5k 48.2k $3.62 $6.32\nmates.Actuai tokens served vs full-fle basellne,per bucket Dolar coats from five model pricing",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 507.16
+  },
+  "ocr_source": "rapidocr-live/right-72/contrast",
+  "ocr_reconcile": {
+    "text": "MEASURABLE\ntoken tracked. Every dollar counted.\nmy-project.247 queriesLast query 5m ago\n800O088xtokenssaved\nInput savings Output savings 48.2ktokens 12.4H tokens $3.62 $186.80\nTotal saved 12.4Mtokens $189.62\nBreakdoan:\nretrieval chunk coepression outputcoepress* 84% <1% 3% 10.4M$156.60 421.5k 48.2k $3.62 $6.32\nmates.Actuai tokens served vs full-fle basellne,per bucket Dolar coats from five model pricing",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

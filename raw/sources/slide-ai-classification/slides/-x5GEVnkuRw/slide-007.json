@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Data processing & prep is quite important!",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense embedded text excerpts and a highlighted quote make this OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Data processing & prep is quite important!",
+        "x": 23.0,
+        "y": 6.0,
+        "w": 54.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 7.0,
+        "y": 29.0,
+        "w": 40.0,
+        "h": 39.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 39.0,
+        "y": 25.0,
+        "w": 53.0,
+        "h": 45.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655694.8014317,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Data processing & prep is quite important!",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Data processing & prep is quite important!\nxmie yoa Pp oa(ro onll dLL \"touods suuy hlch 'thus becomes a spornngium. Ie ia by bo strate for the lytio cnsyme present in spores. mcgolera by the aetion of thbe entyme from B. latect sutinr sooses -an teei unui tlnra tt tnta ratannem ans Integnated at pll 7.0. Peptide Wus releued hlch crtablisbed that tbe couts cootulned sub. Peptide tu also relcaed from spore coet of B. forms the cwosporium which exisl au la outer cell ll when the sporo 'releued.: In Clos his structure retained as An outer membrn Lround the spore. It ls the opinlon of socae o u+d po tt tqt Loddt 1l opods in rorkera thst the wall of the sporulating cell The spore derelope in the regetative cell; Ant poajomp nn Tn mgruodn sq jo nd to sllow releue o the spore. It sppcars likely thnt the eosporium of B. cerrw doos not hate 0 compouitlon rimiiar to that of the regetelire cell wal, from the reults obtained by Dr. J. R. cereus sporas nna eairnd de elflelt by mene of ghrironmiaranany.No tidenoe o tiir of the eosporum wos obcy Yrcelaths cel wal shen the ipore bsre'eased.in Clostidiun ptciest apoeans thut at ltust pit of this srveture ts recained as ar Hkgduouy auAua y po uopeedad aynve Aubty e Lp saods palean ot (copesunuuoo jecoshd) Atsayun spvan yo sEon The spore deveops n the vegeutit crl, which th.t becomes a sporangium, t is by no meane ceran what happere to tht outer meinbrane tround tha spore, it is the oprion a somt soreru thyr te wel a tha sporbtng cel foims the tosporum rhich Conluded that at ttst put of thie sparang'ad yal wau dasotild araly ta ahoe release o the spore. T anntann Hoely turt ths cnsporum of B ceees doe not hame a compoition srlir to thet o the vegetltie oel wal, from the resuitu oonined by Dx, LL R. stueture app+red to b+ absert from sportrs of B. rsgsteriun and B. tubtlt. k serrr, however, that n Baalhus spooit at least. txists as an outer coat around spores cf sevtral Bachus species. Spores of seteral varetet cf B. cereus hsd ensporia whereas these dumnopimelc Itcd (8). Prpit shomed bart a large incrtit h the concerraton of thet pubstarcts ih the curture fltrate",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2917.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Data processing & prep is quite important!",
+    "text_status": "meaningful",
+    "corrections": "Accepted the title; the body text is too small/noisy to correct reliably."
+  }
+}

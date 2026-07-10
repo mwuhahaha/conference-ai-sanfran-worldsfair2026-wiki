@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Speaker-at-podium shot; the visible slide is only a narrow cropped edge and not readable.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Non-slide stage shot with no readable slide content.",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "black stage curtains with a cropped presentation screen at right",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "World's Fair",
+        "x": 49.0,
+        "y": 53.0,
+        "w": 12.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-020.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659278.4704003,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

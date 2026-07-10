@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Hillclimbing within this harness\nAll the typical approaches were still effective\nPrompt improvements\nFew-shot examples\nMaking tools better fit-for-use\nBreaking the task down\nTeaching the agent some expert judgement\n43% -> 92%\nAccuracy improvement on internal evals",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark mountain photo",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Hillclimbing within this harness",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 34.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "All the typical approaches were still effective\nPrompt improvements\nFew-shot examples\nMaking tools better fit-for-use\nBreaking the task down\nTeaching the agent some expert judgement",
+        "x": 5.0,
+        "y": 29.0,
+        "w": 33.0,
+        "h": 46.0
+      },
+      {
+        "role": "body",
+        "text": "43% -> 92%\nAccuracy improvement on internal evals",
+        "x": 44.0,
+        "y": 19.0,
+        "w": 47.0,
+        "h": 58.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/slides/CLttOU7n6sI/slide-015.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659308.4059613,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Hillclimbing within this harness\nAll the typical approaches were still effective\nPrompt improvements\nFew-shot examples\nMaking tools better fit-for-use\nBreaking the task down\nTeaching the agent some expert judgement\n43% -> 92%\nAccuracy improvement on internal evals",
+  "advanced_ocr": {}
+}

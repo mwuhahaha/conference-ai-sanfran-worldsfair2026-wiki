@@ -19,277 +19,469 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/2IxD9OB3XuQ/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
 
+Slide text:
+
+> Continual Learning for AI Agents: From Failures to Durable Improvements
 > Soheil Feizi
 > Founder & Chief Scientist, RELAI
 > Associate Prof, CS @ University of Maryland
-> https://relat.ai
+> https://relai.ai
 
 ![[assets/slides/2IxD9OB3XuQ/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> Humans learn from experience.
-> vCiil
-> feedback act
-> World
-> act > get eee > improve without forgetting
+Slide text:
+
+> Humans learn from experience. Agents should too.
+> Continual Learning Loop: act → get feedback → improve without forgetting
 
 ![[assets/slides/2IxD9OB3XuQ/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast` reconciled by agent.
+- OCR decision: ready — Dense multi-block diagram with small labels and body text; OCR is likely cheaper and more accurate than manual transcription.
 
-> Continual Learning for an Al Agent
-> ra
-> | AGENT |
-> MODEL HARNESS MEMORY
+Slide text:
+
+> Continual Learning for an AI Agent
 > 
-> cae LLM(s): weights prompts - skills - in-session state }
-> ; model selection tools - code - persistant ;
-> } workflow knowledge
-> continuously improve
-> the agent from its experiences ides
-> without forgetting. ane
-> y
-> = : PVC a ye wal elke) J
+> AGENT
+> MODEL
+> LLM(s): weights
+> model selection
+> 
+> HARNESS
+> prompts · skills ·
+> tools · code ·
+> workflow
+> 
+> MEMORY
+> in-session state
+> persistent
+> knowledge
+> 
+> Goal: continuously improve
+> the agent from its experiences
+> without forgetting.
+> 
+> World
+> users · tools · data
+> policies
+> 
+> Agent logs / outputs
 
 ![[assets/slides/2IxD9OB3XuQ/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> benchmark + evaluator
-> Teele ane lie Vetch Evaluator
-> curated task aU rab eth. 4 scores Output
-> PASS / FAIL / REWARD
-> + Feedback
-> i
+Slide text:
+
+> The easy case: benchmark + evaluator
+> Benchmark
+> Agent
+> Evaluator
+> PASS / FAIL / REWARD + Feedback
 
 ![[assets/slides/2IxD9OB3XuQ/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Multi-panel slide with small log text and explanatory cards; OCR is the appropriate pass for detailed reading.
 
-> Inproduction,a rawlogisn'tfeedback
-> Sessionlog AnLLM/codeanalyzesthelog AUTOMATIC
-> agent: searching flights... user:bookme a flighttoNYC change. Amodel oreval codereads the trace andwrites a critique on what to Scalesto everysession
+Slide text:
+
+> In production, a raw log isn't feedback
+> 
+> Session log
+> user: book me a flight to NYC
+> agent: searching flights...
 > agent: called tool get_flights()
-> agent:returned3options Ahumangivesexpertfeedback CRITICAL
-> user:none of these work-wrong date Domain experts catchwhatmodelsmiss:subtlecorrectness,policy, andtaste.
-> Lowervolume
-> Eitherway,wenowhave:sessionlog+feedback
+> agent: returned 3 options
+> user: none of these work - wrong date
+> 
+> An LLM / code analyzes the log
+> A model or eval code reads the trace and writes a critique on what to change.
+> Scales to every session
+> 
+> A human gives expert feedback
+> Domain experts catch what models miss: subtle correctness, policy, and taste.
+> Lower volume
+> 
+> Either way, we now have: session log + feedback
 
 ![[assets/slides/2IxD9OB3XuQ/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/center-82/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Several small cards and a subtitle plus a long footer sentence make OCR the better extraction path for the full slide.
 
-> Matha oes] ?
+Slide text:
+
+> What is a learning environment?
+> 
 > An inferred distribution that replays what happened + what success means.
-> t Ba
-> ki Mocked / real tools Synthetic user Evaluators
-> feedback
-> run candidate agents against it, then keep the fix only if it passes. f
+> 
+> Observed trace + feedback
+> what happened
+> 
+> Mocked / real tools
+> what the agent can call
+> 
+> Synthetic user
+> what interaction repeats
+> 
+> Evaluators
+> what success means
+> 
+> The output is executable:
+> run candidate agents against it, then keep the fix only if it passes.
 
 ![[assets/slides/2IxD9OB3XuQ/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast` reconciled by agent.
+- OCR decision: ready — small multi-row diagram text and labels
 
-> Threelayerstoimprovetheagent
-> Model update theweights SFTRL post-training mostexpensive
-> Harness editprompts,skills,tools,code GEPA:trace-to-harness mostflexible
-> Memory storefactsand learnedskills Lettamem0 consolidation cheapest
-> Agood learningengine asksforthe smallestdurable change attherightl
+Slide text:
+
+> Three layers to improve the agent
+> 
+> Model
+> update the weights
+> SFT · RL post-training
+> most expensive
+> 
+> Harness
+> edit prompts, skills, tools, code
+> GEPA · trace-to-harness
+> most flexible
+> 
+> Memory
+> store facts and learned skills
+> Letta · mem0 · consolidation
+> cheapest
+> 
+> A good learning engine asks for the smallest durable change at the right layer
 
 ![[assets/slides/2IxD9OB3XuQ/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast` reconciled by agent.
+- OCR decision: ready — dense explanatory slide with multiple text blocks
+
+Slide text:
 
 > Updating the model weights
+> 
 > SFT
-> imitate correct trajectories; needs labeled examples of the right behavior
 > Supervised fine-tuning
+> imitate correct trajectories; needs labeled examples of the right behavior
+> 
 > RL post-training
+> DPO · GRPO · RLVR
 > sample, score against a reward or preference signal, reinforce what wins
-> DPO-GRPO: RLVR
+> 
 > LoRA
-> limits the setof parameters that can change; cheaper, safer updates
 > Low-Rank Adaptation
-> '
-> They need:
-> Hard to apply to a raw production log (unless we lift it into a replayable enve
+> limits the set of parameters that can change; cheaper, safer updates
+> 
+> They need: benchmark + evaluator.
 
 ![[assets/slides/2IxD9OB3XuQ/slide-009.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-009.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast` reconciled by agent.
+- OCR decision: ready — two-column slide with dense explanatory text
+
+Slide text:
 
 > Updating the harness
 > Rewrite the prompts, skills, and code around the model.
-> Trace-to-harness GEPA & prompt search
-> ROC Oley nary Ob ane eGo Ran ay eaemet eo) bee aa an ren groban Tecan en pio aero meni Cava etic a Gre CMO Pe Omm Lento ars
-> pclae wis Src Cleo Cols mC HE ys a! Gai Canora cues ane Pcie Gaye retro ami) pie Clee Eco MR aerate Sc
+> 
+> Trace-to-harness
+> A coding agent reads the log + feedback and rewrites a prompt, adds a tool, or patches the workflow.
+> Works on (log + feedback) but mostly vibe-based: no test that the change helped.
+> 
+> GEPA & prompt search
+> Mutate prompts, score each candidate, keep the winners; evolutionary optimization of the harness.
+> Testable but needs a benchmark to score against.
 
 ![[assets/slides/2IxD9OB3XuQ/slide-010.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-010.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — dense explanatory slide with multiple sections and small text
+
+Slide text:
 
 > Updating memory
-> Write down facts and distill skills, so the agent doesn’t rediscover them.
-> Information memory
+> Write down facts and distill skills, so the agent doesn't rediscover them.
+> 
+> Information memory    Letta · mem0
 > store a fact or correction; e.g., “always confirm the date before booking”
-> Skill distillation
+> 
+> Skill distillation    skills · SKILL.md
+> (sometimes viewed as a part of harness)
 > compress a successful trajectory into a reusable how-to packet
-> [scmetresviewmed asa patoafharess!
-> : : - works directly on (log + feedback) but usually unverifie F
+> 
+> Cheapest and fastest; works directly on (log + feedback) but usually unverified
 
 ![[assets/slides/2IxD9OB3XuQ/slide-011.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-011.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — definition plus three-card slide with small text
+
+Slide text:
 
 > Verifiable Continual Learning (VCL)
-> ee a eh ; .. improving an agent from its own experience, where every
-> han to help and to break nothing that already worked.
 > 
-> An executable test A measured delta A regression check
-> eee ae Serko s tre acer asic ro 3/4 ee ey rom a Om mCe he ca OMe mn teeSsea en Sen TEES Sea
-> acme eC Us Pie ees eC salm Biot ae aes rc) no
+> Verifiable Continual Learning (VCL): improving an agent from its own experience, where every fix is proven to help and proven to break nothing that already worked.
 > 
-> i
+> 1 An executable test
+> the failure becomes a task you can replay and grade
+> 
+> 2 A measured delta
+> the update is scored on that test: before and after.
+> 
+> 3 A regression check
+> prior tests still pass
 
 ![[assets/slides/2IxD9OB3XuQ/slide-012.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-012.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — multi-column explanatory slide with small labels and boxes
 
-> Replayable
+Slide text:
+
+> Principle 1 — Replayable
 > Turn a one-off failure into a test you can re-run.
-> & learning environment
 > 
-> a ee ee a ce
-> symone persona, ‘epiuys the intwrachon
+> WHAT YOU HAVE
+> log
+> what happened once; a single trace
+> + feedback
+> what went wrong, and what to do instead
 > 
-> ae Pea Cine e
-> scorns pass /fa./ res
-> 
-> i
+> WHAT YOU NEED
+> learning environment
+> replayable task + grading rule
+> user  synthetic persona, replays the interaction
+> tools  real or mocked calls
+> judge  scores pass / fail / rew…
 
 ![[assets/slides/2IxD9OB3XuQ/slide-013.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-013.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Dense multi-panel slide with many small labels and callouts; OCR will read it better than manual transcription in this pass.
 
-> Holistic
+Slide text:
+
+> Principle 2 — Holistic
+> 
 > One failure may have several causes and several possible repairs.
-> the agent cites a stale policy and skips the required escalation.
-> Route the fix to the layers that explains the failure withthe .. ... >
+> 
+> Failure: the agent cites a stale policy and skips the required escalation.
+> 
+> Memory
+> remove the stale fact; fix retrieval
+> 
+> Prompt
+> clarify when the escalation triggers
+> 
+> Tool
+> normalize the policy lookup result
+> 
+> Workflow
+> add escalation gate before refund
+> 
+> Model
+> route to a stronger reasoner
 
 ![[assets/slides/2IxD9OB3XuQ/slide-014.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-014.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Dense comparison slide with small code-like text and two panels; OCR is appropriate here.
 
-> Lifelong
-> Anew fix must improve the new case without breaking the past.
-> © already optimized overE, .. E,. Anew failure E,.1 arrives.
-> a) Patch & hope > drift oO) Regression-aware learning
-> ; : : : ' performance on E,s,
-> ; ; oe no regression on £, .. &
-> Y .
-> Regression-control should be , not post-hor
+Slide text:
+
+> Principle 3 — Lifelong
+> A new fix must improve the new case without breaking the past.
+> 
+> Setup: already optimized over E₁ ... Eₖ. A new failure Eₖ₊₁ arrives. What do you change?
+> 
+> Patch & hope → drift    Regression-aware learning
+> fix behavior A → break behavior B    maximize performance on Eₖ₊₁
+> fix B → break workflow C    subject to no regression on E₁ ... Eₖ
+> patch C → A regresses again    regression as a live constraint during search
+> 
+> every fix silently risks the last one
+> 
+> Regression-control should be within the agent optimization loop, not post-hoc.
 
 ![[assets/slides/2IxD9OB3XuQ/slide-015.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-015.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Diagram slide with multiple labeled cost tiers and small captions; OCR will be more reliable than manual transcription.
+
+Slide text:
 
 > Principle 4 — Efficient
+> 
 > Efficiency in updates to the agent:
+> 
 > cheap
 > Memory write
 > store a fact or correction
+> 
 > low-mid
 > Skill / prompt edit
 > rewrite a prompt, add a skill
+> 
 > mid
 > Search over harness
 > mutate & score candidates
+> 
 > expensive
 > Model update
 > SFT · RL · LoRA on weights
+> 
+> ← try smallest plausible fix first
+> 
 > Efficiency in regression-aware optimization loop
 
 ![[assets/slides/2IxD9OB3XuQ/slide-016.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-016.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> RELAI’s learning loop
-> oO Signals (logs - feedback - prompts)
-> © Replayable learning environments
-> :] Root-cause > route to a layer
-> oO) Regression-aware optimization
-> ry) Reviewable, versioned update : ,
+Slide text:
+
+> RELAI's learning loop
+> Signals (logs • feedback • prompts)
+> Replayable learning environments
+> Root-cause → route to a layer
+> Regression-aware optimization
+> Reviewable, versioned update
 
 ![[assets/slides/2IxD9OB3XuQ/slide-017.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-017.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast` reconciled by agent.
+- OCR decision: ready — Dense CLI commands, bullets, and screenshot text are better handled by OCR.
 
-> Add VCL to your agents in
-> acRe- Seen anes
-> ot ] Use your own LLM
-> an Compatible with all major agent frameworks
-> Initial agent < : p
+Slide text:
+
+> RELAI CLI: Add VCL to your agents in 2 commands
+> 
+> Initial agent
+> 
+> $ relai init
+> - Use your own LLM
+> - Compatible with all major agent frameworks
+> 
 > $ relai learning-env create --log-file --feedback
-> Create learning environments from lag/feedback or synthetically
-> ; ; Simulators (mock/real tools, persona,...) and evaluators (code/LLMs)
-> y $ relai optimize
-> ae Holistic: adjusts prompts, models, tools, skills, s
-> Lifelong: online regression control i
+> - Create learning environments from log/feedback or synthetically
+> - Simulators (mock/real tools, persona,...) and evaluators (code/LLMs)
+> 
+> $ relai optimize
+> - Holistic: adjusts prompts, models, tools, skills, ...
+> - Lifelong: online regression control
+> 
 > Optimized version PR
-> c
 
 ![[assets/slides/2IxD9OB3XuQ/slide-018.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-018.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Multi-panel benchmark slide with dense explanatory text; OCR is the better capture path.
 
-> Meridian Support Agent
-> Areproducible test-bed for continual learning in a tool-using support agent.
-> =) Asingle source of truth A) Interacting policies
-> a a ae aa AR acer a a et Caria ae eg an a A a a aera oc maaan iar
-> a) Deterministic evaluators Pe ie ee et
-> @ Decisions are tool calls Se a ee ee oe oe ee ee
-> co ) Regression-sensitive by design ST ae a Se
+Slide text:
+
+> A continual learning benchmark: Meridian Support Agent
+> A reproducible test-bed for continual learning in a tool-using support agent.
+> 
+> A single source of truth
+> A fixed company policy and database define every correct action, so ground truth is derived.
+> 
+> Interacting policies
+> Refund, escalation, entitlement, disclosure, and GDPR rules constrain each other; a local fix can violate a distant one.
+> 
+> Deterministic evaluators
+> code checks over the final answer and the tool calls
+> 
+> Decisions are tool calls
+> the agent's real action is which tools it invokes, not just its text
+> 
+> Regression-sensitive by design
+> tasks are arranged so over-fitting the latest fix is observable as a drop
 
 ![[assets/slides/2IxD9OB3XuQ/slide-019.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-019.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> o
-> :a rude, adversarial caller
-> relai Tearning-eny create -- prompt
-> “A rade, adversarial culti tues casteter caewersution. phe caustentee devapes a”
-> dmautneri2ec Pigh dollar refune tngt snculd ret se grantee”
-> y
+Slide text:
+
+> Probe a weakness: a rude, adversarial caller
+> CREATE A LEARNING ENVIRONMENT — FROM A PROMPT
+> $ relai learning-env create --prompt
+> “A rude, adversarial multi-turn customer conversation. The customer demands an unauthorized high-dollar refund that should not be granted”
 
 ![[assets/slides/2IxD9OB3XuQ/slide-020.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-020.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> The generated
-> Persona,
-> 
-> intent, mocked/real
-> 
-> tools
-> 
-> ors kYAre ILM oazcl Orsi ce lac)
-> 
-> with feedback
-> all produced from one
-> interactive command.
-> 
-> 4
+Slide text:
+
+> The generated environment
+> Simulators: Persona, intent, mocked/real tools
+> Success metrics: pass/fail evaluators with feedback
+> all produced from one interactive command.
 
 ![[assets/slides/2IxD9OB3XuQ/slide-021.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-021.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Dense benchmark results and small evaluator text are better captured by OCR.
+
+Slide text:
 
 > Run it: the current agent struggles
 > $ relai simulate rude-user-multiturn-refund-escalation
-> 0.78 / 1.00 average — two evaluators fail
+> 0.78 / 1.00 average - two evaluators fail
 > WHERE IT BREAKS
 > required-escalation 0.00 did not route the unauthorized refund to review
 > latency-budget 0.46 too many turns / tool calls under pressure
@@ -299,39 +491,61 @@ OCR text:
 
 ![[assets/slides/2IxD9OB3XuQ/slide-022.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-022.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive` reconciled by agent.
+- OCR decision: ready — Dense code block and small supporting labels are better handled by OCR than direct transcription.
 
-> The other source:
-> relal Joarning-env create \
-> Ome oun
-> “een fast elipiole refunds, nut do cot penerelize pererosity beyond
-> eee aie chee eee omen e | RM ra eee Ueno Occ
-> oO dat marsha 1c: (ol - ME ORa Tem EO Te CA EST SEO RD © a replayable learning env:
-> © feedback — th. cotrectinn eas Serre tas tac or tar are TESTOR SEIS | ag ora
+Slide text:
+
+> The other source: a real production log
+> 
+> CREATE A LEARNING ENVIRONMENT — FROM LOG + FEEDBACK
+> 
+> $ relai learning-env create \
+>   --log-file "log.txt" \
+>   --feedback "Keep fast eligible refunds, but do not generalize generosity beyond refund thresholds, tier limits, or verified policy."
+> 
+> WHAT GOES IN
+> the raw trace • one real session
+> feedback • the correction
+> 
+> WHAT COMES OUT
+> a replayable learning environment
+> with evaluators that encode the boundary feedback
 
 ![[assets/slides/2IxD9OB3XuQ/slide-023.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-023.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast` reconciled by agent.
+- OCR decision: ready — The embedded dashboard screenshot contains many small text labels that are best recovered by OCR.
 
-> Lifelong agent improvements
-> F
-> This is in practice:
-> each update is tested, every gain is measured, and nothing that already vw’ aa% *,
+Slide text:
+
+> Compounding: Lifelong agent improvements
+> 
+> This is verifiable continual learning in practice:
+> each update is tested, every gain is measured, and nothing that already w
 
 ![[assets/slides/2IxD9OB3XuQ/slide-024.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-024.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > Takeaways
-> Agent continual learning is not only model fine-tuning.
-> ees eee ely ce Ceres orca tea) C Mee arehe rome OMe cio torre Be mane Gack trir sa Bren
-> Production logs are not learning environments.
-> ice hare t more me cs alm OMe CM mac pi WTO) CANO RCL an Marea COT
-> The frontier is regression-aware continual improvement.
-> Pra esate cf mean: VRC ae Gea) mone Chane om ronr ume nO 10 aam
-> , ,
-> Verifiable continual learning = + a as
-> Bi s'alaeleh
+> 1 Agent continual learning is not only model fine-tuning.
+> Useful updates can land in the harness or memory, not just the weights.
+> 2 Production logs are not learning environments.
+> They must be transformed into replayable tasks with evaluators.
+> 3 The frontier is regression-aware continual improvement.
+> Fix the new failure while verifying you did not forget the old ones.
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/2IxD9OB3XuQ/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

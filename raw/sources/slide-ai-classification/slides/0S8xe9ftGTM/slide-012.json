@@ -1,0 +1,50 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.9,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "why you should go to\nAI Engineer World's Fair 2026\nai.engineer/wf\nGET YOUR TICKET\n\nswyx @swyx · now\n\nHot take:\nthe most important AI conversations in 2026\nwon't happen in poster sessions.\nThey'll happen at AI Engineer World's Fair.\nwhere the people actually shipping show up\n\n11:11 AM · Jun 2-4, 2026 · San Francisco\n\n6000+ Engineers  300+ Speakers  Workshops & Demos  Frontier Breakthroughs  Real Connections",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Photo-based poster sign with readable headline and quote text.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f7f7f2",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "why you should go to AI Engineer World's Fair 2026",
+        "x": 25.0,
+        "y": 11.0,
+        "w": 42.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656278.0422525,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/contrast",
+    "text": "why you should go to Al Engineer World's Fair 2026 GTOR TIOST aingnoer/wd 666\nswyx@swyx·now\nHot take: the most important Al conversations in 2026 won't happen in poster sessions. They'll happen at Al Engineer World's Fair. 11:11AM·Jun2-4,2026·SanFrasco where the poople actualy shipping show up Q11 101 1.0K 10 AIE\nS Speakers 300+ Workshops &Demos Breaithroughs Fronbiee Conetior Rea\nDescnbe cdits Medium Q\nimage HNX1ago",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 611.6
+  },
+  "ocr_source": "rapidocr-live/right-72/contrast",
+  "ocr_reconcile": {
+    "text": "why you should go to\nAI Engineer World's Fair 2026\nai.engineer/wf\nGET YOUR TICKET\n\nswyx @swyx · now\n\nHot take:\nthe most important AI conversations in 2026\nwon't happen in poster sessions.\nThey'll happen at AI Engineer World's Fair.\nwhere the people actually shipping show up\n\n11:11 AM · Jun 2-4, 2026 · San Francisco\n\n6000+ Engineers  300+ Speakers  Workshops & Demos  Frontier Breakthroughs  Real Connections",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for title, quote, date, and footer labels; excluded surrounding editor UI."
+  }
+}

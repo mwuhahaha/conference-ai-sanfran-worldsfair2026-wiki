@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "speaker_stage",
+  "reject_reason": "speaker intro card",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Hi, I'm Louis-François",
+        "x": 33.0,
+        "y": 10.0,
+        "w": 44.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "Co-founder & CTO @ Towards AI\n\"What's AI\" on YouTube · author of Building LLMs for Production\nPreviously PhD @ Mila\nBuild courses, videos, and trainings for a living",
+        "x": 33.0,
+        "y": 30.0,
+        "w": 55.0,
+        "h": 35.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/I2cbIws9j10/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659795.4262297,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

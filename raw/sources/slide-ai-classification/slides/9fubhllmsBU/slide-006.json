@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Models are grown, not designed.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable slide; OCR not needed in triage",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "charcoal black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Models are grown, not designed.",
+        "x": 29.0,
+        "y": 38.0,
+        "w": 30.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/9fubhllmsBU/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658280.9732761,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Models are grown, not designed.",
+  "advanced_ocr": {}
+}

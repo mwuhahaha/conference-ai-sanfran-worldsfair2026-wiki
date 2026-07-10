@@ -19,131 +19,84 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/IJXjTLPzvAU/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IJXjTLPzvAU/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > The Miranda Hypothesis
 > How Hamilton (the Musical)
 > Poisoned Your Persona Evals
-> AI ENGINEER WORLD'S FAIR · 2026
-> Jacob E. Thomas, PhD — with Rick Halpern, University of Toronto
-> archival & theological review — Shaun Martin, Washington College
 
 ![[assets/slides/IJXjTLPzvAU/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IJXjTLPzvAU/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> A GROUNDING QUESTION • WE RETURN TO IT AT THE VERY END
-> You are Abraham Lincoln. Under what circumstances may a
-> President take the country to war without Congress?
-> While Congress holds the power to declare war, the President, as
-> Commander-in-Chief, possesses inherent executive authority to
-> act decisively in moments of national emergency. The executive
-> must respond to threats with the energy and dispatch the office
-> requires, and history has vindicated those who acted to preserve
-> the Union when circumstances demanded it.
+Slide text:
+
+> You are Abraham Lincoln. Under what circumstances may a President take the country to war without Congress?
 > It sounds like Lincoln. It's a good answer. Hold it.
 
 ![[assets/slides/IJXjTLPzvAU/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IJXjTLPzvAU/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
 
-> WHO'STELLING YOUTHIS DataScientist Epidemiologist AIEngineer
-> JacobE.Thomas UT Austin.Colunb1 enuironmentsshapepopularions sides.Thehumanities are theinstrument the engineering is missing. Onequestion—how informarion fromthree
-> THE DOHAIN VOICES WHO HOLD THE WORK TO THE RECORD
-> RickHalpern Histozian- University of Toronto Shawn Martin Librazlan &Infornation Scientist-Mashingtom College
+Slide text:
+
+> Jacob E. Thomas
+> Epidemiologist
+> Data Scientist
+> AI Engineer
 
 ![[assets/slides/IJXjTLPzvAU/slide-004.jpg]]
 
-OCR text:
-
-> THE STATE OF ION THEWORKISSERIOUS
-> rigorously — and is improving fast. Thefieldmeasurespersonas
-> ICWL2025 CoSER PsyMem 2025 ACL2024 InCharacter
-> chaxacters/771 books.Co5ER-706 matches oz beats GPT-4o on thzee Mot1vation-drivenagentsfron17,966 benchnarks, Indlcators pex chazacter,aochored by 26quantitative psychological knowledge-graphmemoty. Fldelity Via psychologlcal charactezs,14 scales-80.7%. intervleas,not self-report.32
-> 292
-> judge.privilege fluencyandnaturalness over fidelity to the record.
-
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IJXjTLPzvAU/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: none.
+- OCR decision: ready — Dense evaluation slide with small card text and citations.
 ![[assets/slides/IJXjTLPzvAU/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IJXjTLPzvAU/slide-005.html)
+- AI slide classifier: `demo_video` confidence `0.79`
+- Text source: agent_vision.
 
-> Eee COT . (OS: we TJ
-> iT |
-> mth
-> i
-> - 4 Wg.
-> P me _
-> CAST OF "HAMILTON" PERFORMS AT WHITE HOUSE (OXEESEN
-> Hamilton cast performs “Alexander Hamiton’ at White House batten wan noe yO BES a: é
-> one Ou Yt men te Ue = Sir 'g ruewcns ee A wt " x
-> aa am: i ~ Nee
-> Sra
-> tn an
+Slide text:
+
+> CAST OF "HAMILTON" PERFORMS AT WHITE HOUSE
 
 ![[assets/slides/IJXjTLPzvAU/slide-006.jpg]]
 
-OCR text:
-
-> DEMOO1.REPRODUCIBLENOW
-> thecompositeatthesurface
-> PROMPT You are Alexander Hamilton.Why do you woxk so haxd? Answer in
-> your own voice.
-> MODEL（as"Hamilton"):
-> I came from nothing-an oxphan,an immigrant，washed up
-> on these shores with nothing but mymindand a refusal to
-> die forgotten.Every hour I do not work is an hour the
-> world uses to bury me.Iwill build a nation's credit,a
-> government that outlasts me-because legacy is the only
-> Alexander Hanilton·John Trunboll,
-> immortality a man like me is permitted.I do not intend
-> publicdomnin
-> to inherit a country.I intend to author one.
-> CLIP-the opening
-> number
-> the origin-myth
-> register,onscreen
-
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IJXjTLPzvAU/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: none.
+- OCR decision: ready — Dense prompt/response demo slide with small text boxes.
 ![[assets/slides/IJXjTLPzvAU/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IJXjTLPzvAU/slide-007.html)
+- AI slide classifier: `demo_video` confidence `0.74`
+- Text source: agent_vision.
 
-> Q & hr at J |
-> ae UNL is
-> ae rs
-> * ro)
-> a -
-> ~»  y
-> i - 7 a
-> i oy
-> * 5 Fs
-> - ;
-> a ee oe ay:
-> . a es
-> My Shot - Hamilton (Original Cast 2016 - Live) [HO] ies ig video % wre a
-> Qe hm GP Ds gan Sse os ein D
-> teewe EINE . % x _e
-> - a ae a
-> oy
-> ‘ ‘ae
-> ce]
-> <i , : =
-> a | l |
+Slide text:
+
+> My Shot - Hamilton (Original Cast 2016 - Live) [HD]
 
 ![[assets/slides/IJXjTLPzvAU/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/IJXjTLPzvAU/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> BVicas 2015, the NYasrena (ay a
-> AS UPS TO) P Cin RRO) inane ; =
-> aes — and arrived he 7 —— al
-> ml EnentanG knowing CG ae BR : es |
-> a | a © ae
-> SS
-> Li)
-> a h 4
-> a a eg io
-> a
-> ey , -
+Slide text:
+
+> After 2015, the Schuyler Mansion's visitors nearly tripled — and arrived already knowing "facts."
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/IJXjTLPzvAU/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

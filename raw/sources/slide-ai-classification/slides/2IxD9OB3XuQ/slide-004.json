@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The easy case: benchmark + evaluator\nBenchmark\nAgent\nEvaluator\nPASS / FAIL / REWARD + Feedback",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The easy case: benchmark + evaluator",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 58.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Benchmark\ncurated task",
+        "x": 11.0,
+        "y": 32.0,
+        "w": 22.0,
+        "h": 20.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent\nruns task",
+        "x": 39.0,
+        "y": 32.0,
+        "w": 22.0,
+        "h": 20.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Evaluator\nscores output",
+        "x": 67.0,
+        "y": 32.0,
+        "w": 22.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "PASS / FAIL / REWARD\n+ Feedback",
+        "x": 36.0,
+        "y": 63.0,
+        "w": 31.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655857.0571604,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The easy case: benchmark + evaluator\nBenchmark\nAgent\nEvaluator\nPASS / FAIL / REWARD + Feedback",
+  "advanced_ocr": {}
+}

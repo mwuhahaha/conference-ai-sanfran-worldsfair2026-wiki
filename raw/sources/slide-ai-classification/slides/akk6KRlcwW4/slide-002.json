@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Most AI lives in a chat bubble on a glowing screen.\nVault leans the other way - calm, text-first, made to be read.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg, #050505 0 53%, #2a2a2a 53% 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Most AI lives in a chat bubble on a glowing screen.",
+        "x": 13.0,
+        "y": 18.0,
+        "w": 39.0,
+        "h": 21.0
+      },
+      {
+        "role": "body",
+        "text": "Vault leans the other way - calm, text-first, made to be read.",
+        "x": 13.0,
+        "y": 42.0,
+        "w": 31.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/akk6KRlcwW4/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666276.3410704,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Most AI lives in a chat bubble on a glowing screen.\nVault leans the other way - calm, text-first, made to be read.",
+  "advanced_ocr": {}
+}

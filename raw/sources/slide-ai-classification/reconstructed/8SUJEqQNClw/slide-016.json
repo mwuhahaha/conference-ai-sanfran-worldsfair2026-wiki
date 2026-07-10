@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "At the end of the day it's all just a tradeoff",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple readable slide with a large title and a small diagram; OCR not needed.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black with subtle concentric ripple texture",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "At the end of the day it's all just a tradeoff",
+        "x": 23.0,
+        "y": 33.0,
+        "w": 31.0,
+        "h": 25.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "power\ncontrol",
+        "x": 57.0,
+        "y": 16.0,
+        "w": 34.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "multi-agent\nagent\nworkflow",
+        "x": 54.0,
+        "y": 69.0,
+        "w": 39.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-016.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658650.7212794,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "At the end of the day it's all just a tradeoff",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "1\nigtngtitysky.atrkrtxere\nipt.112\nVTUes l, t, l\nF1le*/nr/rotryten/gee/fget-aturtad'e,endalat.y*,tosN, Rain,1oal PVAS *\nAIE\nF1i*Aoen/enf/ro/fget-mtr\nBNCAT Pla'Anwsdryew/reg/TUnd\ntpt1\n-a\na_ SFOT\nCR93-3 'at hrag\nrgtaajatap goiIee_ tialafrr.rery galitr.afeln\nL2M es)\nEngineering the future of Al\nAlEngineer\nEUROPL",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense terminal/code screenshot plus embedded product imagery are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 6.0,
+        "y": 22.0,
+        "w": 12.0,
+        "h": 22.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 29.0,
+        "y": 0,
+        "w": 39.0,
+        "h": 75.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 69.0,
+        "y": 12.0,
+        "w": 24.0,
+        "h": 52.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 39.0,
+        "y": 83.0,
+        "w": 44.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/zDGHt0LB-dA/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672977.0094066,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "1\nigtngtitysky.atrkrtxere\nipt.112\nVTUes l, t, l\nF1le*/nr/rotryten/gee/fget-aturtad'e,endalat.y*,tosN, Rain,1oal PVAS *\nAIE\nF1i*Aoen/enf/ro/fget-mtr\nBNCAT Pla'Anwsdryew/reg/TUnd\ntpt1\n-a\na_ SFOT\nCR93-3 'at hrag\nrgtaajatap goiIee_ tialafrr.rery galitr.afeln\nL2M es)\nEngineering the future of Al\nAlEngineer\nEUROPL",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 425.48
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "1\nigtngtitysky.atrkrtxere\nipt.112\nVTUes l, t, l\nF1le*/nr/rotryten/gee/fget-aturtad'e,endalat.y*,tosN, Rain,1oal PVAS *\nAIE\nF1i*Aoen/enf/ro/fget-mtr\nBNCAT Pla'Anwsdryew/reg/TUnd\ntpt1\n-a\na_ SFOT\nCR93-3 'at hrag\nrgtaajatap goiIee_ tialafrr.rery galitr.afeln\nL2M es)\nEngineering the future of Al\nAlEngineer\nEUROPL",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

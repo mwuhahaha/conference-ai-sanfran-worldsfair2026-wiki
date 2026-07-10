@@ -1,0 +1,146 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agenda Introduction Section 1\nWho l am 04\nTogether.ai 05\nAIE Build Demos Section 2 06\nMy Al apps 08\nArchitecture of a typical app 09\nTech stack 10\nMy Process Section 3\nMy Advice Section 4\nThanks for coming\naws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense multi-column agenda text is better suited for OCR",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black left sidebar",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Agenda",
+        "x": 20.0,
+        "y": 8.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 28.0,
+        "w": 12.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Introduction",
+        "x": 58.0,
+        "y": 8.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Section 1",
+        "x": 89.0,
+        "y": 8.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Who I am 04\nTogether.ai 05\nBuild 06",
+        "x": 58.0,
+        "y": 12.0,
+        "w": 35.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Demos",
+        "x": 58.0,
+        "y": 29.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Section 2",
+        "x": 89.0,
+        "y": 29.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "My AI apps 08\nArchitecture of a typical app 09\nTech stack 10",
+        "x": 58.0,
+        "y": 33.0,
+        "w": 38.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "My Process",
+        "x": 58.0,
+        "y": 52.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Section 3",
+        "x": 89.0,
+        "y": 52.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "My Advice",
+        "x": 58.0,
+        "y": 69.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Section 4",
+        "x": 89.0,
+        "y": 69.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Thanks for coming",
+        "x": 58.0,
+        "y": 82.0,
+        "w": 24.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/gcseUQJ6Gbg/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667701.8819647,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Agenda",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Agenda Introduction Section 1\nWho l am 04\nTogether.ai 05\nAIE Build Demos Section 2 06\nMy Al apps 08\nArchitecture of a typical app 09\nTech stack 10\nMy Process Section 3\nMy Advice Section 4\nThanks for coming\naws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 330.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Agenda Introduction Section 1\nWho l am 04\nTogether.ai 05\nAIE Build Demos Section 2 06\nMy Al apps 08\nArchitecture of a typical app 09\nTech stack 10\nMy Process Section 3\nMy Advice Section 4\nThanks for coming\naws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Failure 1 agents do the work instead of dispatching it",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense CLI and diagram content with small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#050505",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Failure 1 agents do the work instead of dispatching it",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 64.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "orchestrator layer",
+        "x": 10.0,
+        "y": 38.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "CLI harness forces dispatch",
+        "x": 20.0,
+        "y": 57.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Worker",
+        "x": 25.0,
+        "y": 65.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "CLI to control",
+        "x": 50.0,
+        "y": 47.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Skills to call CLIs",
+        "x": 50.0,
+        "y": 80.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "terminal screenshots",
+        "x": 54.0,
+        "y": 20.0,
+        "w": 36.0,
+        "h": 58.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/4kYl2_mqmnQ/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658205.017755,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Failure 1 agents do the work instead of dispatching it",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

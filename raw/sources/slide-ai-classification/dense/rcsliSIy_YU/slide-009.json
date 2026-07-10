@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "product",
+  "reject_reason": "",
+  "text": "csmith49/OpenHands\nDependency. Obce05Details Edkt Metadats\n02a7da Status: NEW Vecify Flx\nVCode Metrics (4 files)\nffd83d -0.2+ 66.0 CyciomaticCorpiety Maintarabity inder 59.6\nObce05 40.0.5t 593 Hangtood Ertort Hahtnad Vohune 13.8 Halstead Diffcufty Estimuated Blugs\nb794a3 8166 0.20\nn.0-0\nDependencies(o)\nDependenb (5)\nNodes(4)\nopenhands/apo_server/units/sg_siis.py 小\nF t Ne\nopenhandsopp_serveriutils/async_remote_workspace.py\n2025-11-22 14:54:08",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot with many small labels and metrics; OCR is better than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "0bce05 Details",
+        "x": 42.0,
+        "y": 16.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Status: NEW",
+        "x": 57.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Verify",
+        "x": 80.0,
+        "y": 23.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Fix",
+        "x": 88.0,
+        "y": 23.0,
+        "w": 4.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Code Metrics (4 files)",
+        "x": 42.0,
+        "y": 31.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "dependency list and metrics panel",
+        "x": 16.0,
+        "y": 28.0,
+        "w": 76.0,
+        "h": 54.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671460.4295688,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "0bce05 Details",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "csmith49/OpenHands\nDependency. Obce05Details Edkt Metadats\n02a7da Status: NEW Vecify Flx\nVCode Metrics (4 files)\nffd83d -0.2+ 66.0 CyciomaticCorpiety Maintarabity inder 59.6\nObce05 40.0.5t 593 Hangtood Ertort Hahtnad Vohune 13.8 Halstead Diffcufty Estimuated Blugs\nb794a3 8166 0.20\nn.0-0\nDependencies(o)\nDependenb (5)\nNodes(4)\nopenhands/apo_server/units/sg_siis.py 小\nF t Ne\nopenhandsopp_serveriutils/async_remote_workspace.py\n2025-11-22 14:54:08",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 482.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "csmith49/OpenHands\nDependency. Obce05Details Edkt Metadats\n02a7da Status: NEW Vecify Flx\nVCode Metrics (4 files)\nffd83d -0.2+ 66.0 CyciomaticCorpiety Maintarabity inder 59.6\nObce05 40.0.5t 593 Hangtood Ertort Hahtnad Vohune 13.8 Halstead Diffcufty Estimuated Blugs\nb794a3 8166 0.20\nn.0-0\nDependencies(o)\nDependenb (5)\nNodes(4)\nopenhands/apo_server/units/sg_siis.py 小\nF t Ne\nopenhandsopp_serveriutils/async_remote_workspace.py\n2025-11-22 14:54:08",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

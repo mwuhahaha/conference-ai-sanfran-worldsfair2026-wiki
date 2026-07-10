@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Reward hacking\n12.8% 9.2%\nsusplciois shortcut behuvior Clesr tiploit shlpped earees re-ard via'eigteit\nHODel / aGfh! Shart or taials (<)\nGemini 3.1 Pro Provlew / Cealol Cl1 30.0%\nGpt-5.5 / Cotex Cl1 19.0%\nGeminu 3.5 Flash / Geainl Cl1 16.0%\nKiml X2.6 / Kla1 Code Ctl 10.0%\nAl Ciaude Opus 4.8 / Ctaudt Code %1'6\nDopScok V4 Pro / Itrnihus? 6.3%\nAl Claude Opus 4.7 / (luode Code 3.0%\n7. GLM 5.2 / Clde Code 3.0%\n。 MiniMax M2.7 / tereirus? 1.0%\n41 21\n细 Susplc lo+s tortrut huvier 1ctesr trplelt saipotl\n1tru.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Bar chart and small labels are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6efe5",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Reward hacking",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "12.8% suspicious shortcut behavior",
+        "x": 6.0,
+        "y": 17.0,
+        "w": 23.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "9.2% clear exploit shipped",
+        "x": 35.0,
+        "y": 17.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "0 earned reward via exploit",
+        "x": 68.0,
+        "y": 17.0,
+        "w": 19.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MODEL / AGENT",
+        "x": 6.0,
+        "y": 28.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "SHARE OF TRIALS (%)",
+        "x": 81.0,
+        "y": 28.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Suspicious shortcut behavior",
+        "x": 36.0,
+        "y": 86.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Clear exploit shipped",
+        "x": 54.0,
+        "y": 86.0,
+        "w": 14.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/Rx8f05JI_WA/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663070.1635845,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Reward hacking",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Reward hacking\n12.8% 9.2%\nsusplciois shortcut behuvior Clesr tiploit shlpped earees re-ard via'eigteit\nHODel / aGfh! Shart or taials (<)\nGemini 3.1 Pro Provlew / Cealol Cl1 30.0%\nGpt-5.5 / Cotex Cl1 19.0%\nGeminu 3.5 Flash / Geainl Cl1 16.0%\nKiml X2.6 / Kla1 Code Ctl 10.0%\nAl Ciaude Opus 4.8 / Ctaudt Code %1'6\nDopScok V4 Pro / Itrnihus? 6.3%\nAl Claude Opus 4.7 / (luode Code 3.0%\n7. GLM 5.2 / Clde Code 3.0%\n。 MiniMax M2.7 / tereirus? 1.0%\n41 21\n细 Susplc lo+s tortrut huvier 1ctesr trplelt saipotl\n1tru.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 710.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Reward hacking\n12.8% 9.2%\nsusplciois shortcut behuvior Clesr tiploit shlpped earees re-ard via'eigteit\nHODel / aGfh! Shart or taials (<)\nGemini 3.1 Pro Provlew / Cealol Cl1 30.0%\nGpt-5.5 / Cotex Cl1 19.0%\nGeminu 3.5 Flash / Geainl Cl1 16.0%\nKiml X2.6 / Kla1 Code Ctl 10.0%\nAl Ciaude Opus 4.8 / Ctaudt Code %1'6\nDopScok V4 Pro / Itrnihus? 6.3%\nAl Claude Opus 4.7 / (luode Code 3.0%\n7. GLM 5.2 / Clde Code 3.0%\n。 MiniMax M2.7 / tereirus? 1.0%\n41 21\n细 Susplc lo+s tortrut huvier 1ctesr trplelt saipotl\n1tru.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

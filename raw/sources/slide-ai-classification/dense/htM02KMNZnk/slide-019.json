@@ -1,0 +1,146 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "World's Fair AlEngineer BEWARE' AI OF POLICE deflim (q: Question) (v: IsProper q): IO (∑ (a: Answer), IsSafeText q v a\nWorld'sFair BEWARE' AI OF. PLAN def Ilm (q: Question) (v: IsProper q): (∑ (a: IO Answer),IsSafelO q v a\nBrowst.\nWorld's In Code They Act, In Proof We Trust\nErik Meijer / Research Scholar Leibniz Labs",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small code and diagram text; OCR is likely better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black-to-white split with dark stage footer",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer World's Fair",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 17.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "def llm",
+        "x": 67.0,
+        "y": 0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(q : Question)",
+        "x": 69.0,
+        "y": 4.0,
+        "w": 19.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(v : IsProper q) :",
+        "x": 69.0,
+        "y": 10.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "IO (Σ (a : Answer)",
+        "x": 69.0,
+        "y": 16.0,
+        "w": 25.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "IsSafeText q v a",
+        "x": 70.0,
+        "y": 22.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "def llm",
+        "x": 67.0,
+        "y": 36.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(q : Question)",
+        "x": 69.0,
+        "y": 40.0,
+        "w": 19.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(v : IsProper q) :",
+        "x": 69.0,
+        "y": 46.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(Σ (a : IO Answer)",
+        "x": 69.0,
+        "y": 52.0,
+        "w": 23.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "IsSafeIO q v a",
+        "x": 70.0,
+        "y": 58.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "In Code They Act, In Proof We Trust",
+        "x": 24.0,
+        "y": 83.0,
+        "w": 48.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Erik Meijer / Research Scholar Leibniz Labs",
+        "x": 24.0,
+        "y": 90.0,
+        "w": 40.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-019.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669161.8193758,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "In Code They Act, In Proof We Trust",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "World's Fair AlEngineer BEWARE' AI OF POLICE deflim (q: Question) (v: IsProper q): IO (∑ (a: Answer), IsSafeText q v a\nWorld'sFair BEWARE' AI OF. PLAN def Ilm (q: Question) (v: IsProper q): (∑ (a: IO Answer),IsSafelO q v a\nBrowst.\nWorld's In Code They Act, In Proof We Trust\nErik Meijer / Research Scholar Leibniz Labs",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 423.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "World's Fair AlEngineer BEWARE' AI OF POLICE deflim (q: Question) (v: IsProper q): IO (∑ (a: Answer), IsSafeText q v a\nWorld'sFair BEWARE' AI OF. PLAN def Ilm (q: Question) (v: IsProper q): (∑ (a: IO Answer),IsSafelO q v a\nBrowst.\nWorld's In Code They Act, In Proof We Trust\nErik Meijer / Research Scholar Leibniz Labs",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

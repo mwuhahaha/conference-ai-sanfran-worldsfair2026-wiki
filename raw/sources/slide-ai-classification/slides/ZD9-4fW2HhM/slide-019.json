@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Security 101\n...still applies.\nvalidate inputs\nleast privilege\ndraw boundaries",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#fbf8f2",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Security 101",
+        "x": 19.0,
+        "y": 21.0,
+        "w": 20.0,
+        "h": 23.0
+      },
+      {
+        "role": "subtitle",
+        "text": "...still applies.",
+        "x": 18.0,
+        "y": 43.0,
+        "w": 22.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "validate inputs",
+        "x": 64.0,
+        "y": 21.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "least privilege",
+        "x": 64.0,
+        "y": 36.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "draw boundaries",
+        "x": 64.0,
+        "y": 52.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram",
+        "text": "book illustration",
+        "x": 13.0,
+        "y": 15.0,
+        "w": 74.0,
+        "h": 52.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/slides/ZD9-4fW2HhM/slide-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666012.3263881,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Security 101\n...still applies.\nvalidate inputs\nleast privilege\ndraw boundaries",
+  "advanced_ocr": {}
+}

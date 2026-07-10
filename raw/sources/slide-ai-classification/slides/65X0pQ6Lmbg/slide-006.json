@@ -1,0 +1,48 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": true,
+  "ocr_reason": "The slide is a row of video thumbnails with small captions and view counts; OCR is better suited than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 6.0,
+        "y": 13.0,
+        "w": 14.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "video thumbnails",
+        "x": 27.0,
+        "y": 18.0,
+        "w": 70.0,
+        "h": 52.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/65X0pQ6Lmbg/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657736.3264198,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

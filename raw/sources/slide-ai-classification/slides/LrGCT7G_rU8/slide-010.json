@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Evaluation Results\nControlled synthetic benchmark 30 seeds, mean ± 95% cl Htean iie to itcdiey, shotn on a log scale MTTR Drops from Days to Minutes in the Benchmark\n1.Rule-based anomaly detector 10.000 2.5 working days\n2.Recall: 0.800 Precision' 1.000 Loco -99.85% 10vor MTTR\n3.FI: 0.889 100\n4.Rl successful-cdse resolution tim approximately.5.2 minutes 5.24 +l 0.14 pnn\n5.RL simulated success rate: 74.63 ± 1.51%\ntion rate: 88.63 ± 0.89% nadent rtspord+ KSEE syher bechat RiL helth sgent\nA ret yhdudhen rdnl eelorte.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart labels and benchmark metrics are small and OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray speckled paper texture",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Evaluation Results",
+        "x": 34.0,
+        "y": 4.0,
+        "w": 33.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Controlled synthetic benchmark — 30 seeds, mean ± 95% CI",
+        "x": 3.0,
+        "y": 16.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1. Rule-based anomaly detector: Precision 1.000\n2. Recall: 0.800\n3. F1: 0.889\n4. RL successful-case resolution time: approximately 5.2 minutes\n5. RL simulated success rate: 74.63 ± 1.51%\n6. RL non-escalation rate: 88.63 ± 0.89%",
+        "x": 4.0,
+        "y": 27.0,
+        "w": 42.0,
+        "h": 44.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MTTR Drops from Days to Minutes in the Benchmark",
+        "x": 44.0,
+        "y": 18.0,
+        "w": 54.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Manual incidents response",
+        "x": 57.0,
+        "y": 67.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "RL health agent synthetic benchmark",
+        "x": 79.0,
+        "y": 67.0,
+        "w": 18.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661369.3893464,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Evaluation Results",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Evaluation Results\nControlled synthetic benchmark 30 seeds, mean ± 95% cl Htean iie to itcdiey, shotn on a log scale MTTR Drops from Days to Minutes in the Benchmark\n1.Rule-based anomaly detector 10.000 2.5 working days\n2.Recall: 0.800 Precision' 1.000 Loco -99.85% 10vor MTTR\n3.FI: 0.889 100\n4.Rl successful-cdse resolution tim approximately.5.2 minutes 5.24 +l 0.14 pnn\n5.RL simulated success rate: 74.63 ± 1.51%\ntion rate: 88.63 ± 0.89% nadent rtspord+ KSEE syher bechat RiL helth sgent\nA ret yhdudhen rdnl eelorte.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 668.68
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Evaluation Results\nControlled synthetic benchmark 30 seeds, mean ± 95% cl Htean iie to itcdiey, shotn on a log scale MTTR Drops from Days to Minutes in the Benchmark\n1.Rule-based anomaly detector 10.000 2.5 working days\n2.Recall: 0.800 Precision' 1.000 Loco -99.85% 10vor MTTR\n3.FI: 0.889 100\n4.Rl successful-cdse resolution tim approximately.5.2 minutes 5.24 +l 0.14 pnn\n5.RL simulated success rate: 74.63 ± 1.51%\ntion rate: 88.63 ± 0.89% nadent rtspord+ KSEE syher bechat RiL helth sgent\nA ret yhdudhen rdnl eelorte.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

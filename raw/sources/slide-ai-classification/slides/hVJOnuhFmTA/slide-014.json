@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Enriching PersonaPlex's output with non-verbal aspects creates an important qualitative\ndifference relative to systems without this dimension: PersonaPlex now recreates some of\nNVIDIA. the same cues humans use to read Intent, emotions, or comprehension.\nA Examples\nNVIdIa ADlR The following examples showcase PersonaPlex's behavior across different scenarios. in\nall audio files, you can hear the user speaking in the left channel and PersonaPlex in the\nright channel (shown in green).\nAssistant\n11 0:01 0:26\nengaging way. Prompt: You are a wise and friendly teacher. Answer questions or provide advice in a clear and\nIn this example from FullDuplexBench's Interruption evaluation, PersonaPlex\ndemonstrates general knowledge, interrupterability, and natural turn taking.\nCustomer Service - Banking\n0:00 stilif- 0:55\nInformation: The customer's transactlon for S1,200 at Home Depot was declined. Verify Prompt: You work for First Ncuron Bank which is a bank and your name is Ssnni Virtanen.\ncustomer identity. The transaction was ffagged due to an unusual location (transaction attempted in Miami, FL: customer normally transacts in Seattle, WA).",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense paragraph text and small embedded examples are better suited to OCR than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "NVIDIA AI",
+        "x": 4.0,
+        "y": 7.0,
+        "w": 16.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "Enriching PersonaPlex’s output with non-verbal aspects creates an important qualitative difference relative to systems without this dimension: PersonaPlex now recreates some of the same cues humans use to read intent, emotions, or comprehension.",
+        "x": 24.0,
+        "y": 3.0,
+        "w": 67.0,
+        "h": 14.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Examples",
+        "x": 24.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "The following examples showcase PersonaPlex’s behavior across different scenarios. In all audio files, you can hear the user speaking in the left channel and PersonaPlex in the right channel (shown in green).",
+        "x": 24.0,
+        "y": 30.0,
+        "w": 68.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1 Assistant",
+        "x": 24.0,
+        "y": 42.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "2 Customer Service - Banking",
+        "x": 24.0,
+        "y": 65.0,
+        "w": 26.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668511.3371727,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Examples",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Enriching PersonaPlex's output with non-verbal aspects creates an important qualitative\ndifference relative to systems without this dimension: PersonaPlex now recreates some of\nNVIDIA. the same cues humans use to read Intent, emotions, or comprehension.\nA Examples\nNVIdIa ADlR The following examples showcase PersonaPlex's behavior across different scenarios. in\nall audio files, you can hear the user speaking in the left channel and PersonaPlex in the\nright channel (shown in green).\nAssistant\n11 0:01 0:26\nengaging way. Prompt: You are a wise and friendly teacher. Answer questions or provide advice in a clear and\nIn this example from FullDuplexBench's Interruption evaluation, PersonaPlex\ndemonstrates general knowledge, interrupterability, and natural turn taking.\nCustomer Service - Banking\n0:00 stilif- 0:55\nInformation: The customer's transactlon for S1,200 at Home Depot was declined. Verify Prompt: You work for First Ncuron Bank which is a bank and your name is Ssnni Virtanen.\ncustomer identity. The transaction was ffagged due to an unusual location (transaction attempted in Miami, FL: customer normally transacts in Seattle, WA).",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1581.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Enriching PersonaPlex's output with non-verbal aspects creates an important qualitative\ndifference relative to systems without this dimension: PersonaPlex now recreates some of\nNVIDIA. the same cues humans use to read Intent, emotions, or comprehension.\nA Examples\nNVIdIa ADlR The following examples showcase PersonaPlex's behavior across different scenarios. in\nall audio files, you can hear the user speaking in the left channel and PersonaPlex in the\nright channel (shown in green).\nAssistant\n11 0:01 0:26\nengaging way. Prompt: You are a wise and friendly teacher. Answer questions or provide advice in a clear and\nIn this example from FullDuplexBench's Interruption evaluation, PersonaPlex\ndemonstrates general knowledge, interrupterability, and natural turn taking.\nCustomer Service - Banking\n0:00 stilif- 0:55\nInformation: The customer's transactlon for S1,200 at Home Depot was declined. Verify Prompt: You work for First Ncuron Bank which is a bank and your name is Ssnni Virtanen.\ncustomer identity. The transaction was ffagged due to an unusual location (transaction attempted in Miami, FL: customer normally transacts in Seattle, WA).",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

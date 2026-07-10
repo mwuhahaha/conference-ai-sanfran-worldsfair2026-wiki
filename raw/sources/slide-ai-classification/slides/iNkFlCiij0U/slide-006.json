@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.95,
+  "frame_type": "speaker_stage",
+  "reject_reason": "camera shot of speaker and audience with projected slide; not a clean presentation slide frame",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "not a slide frame; stage shot",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "conference room with projected gray slide",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Propose a benchmark",
+        "x": 37.0,
+        "y": 17.0,
+        "w": 34.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/iNkFlCiij0U/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668943.526627,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

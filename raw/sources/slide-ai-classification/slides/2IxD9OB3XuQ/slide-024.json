@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Takeaways\n1 Agent continual learning is not only model fine-tuning.\nUseful updates can land in the harness or memory, not just the weights.\n2 Production logs are not learning environments.\nThey must be transformed into replayable tasks with evaluators.\n3 The frontier is regression-aware continual improvement.\nFix the new failure while verifying you did not forget the old ones.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "black with dark indigo cards and green-orange-red accents",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Takeaways",
+        "x": 4.0,
+        "y": 5.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1 Agent continual learning is not only model fine-tuning.\nUseful updates can land in the harness or memory, not just the weights.",
+        "x": 4.0,
+        "y": 21.0,
+        "w": 92.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "2 Production logs are not learning environments.\nThey must be transformed into replayable tasks with evaluators.",
+        "x": 4.0,
+        "y": 39.0,
+        "w": 92.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "3 The frontier is regression-aware continual improvement.\nFix the new failure while verifying you did not forget the old ones.",
+        "x": 4.0,
+        "y": 58.0,
+        "w": 92.0,
+        "h": 15.0
+      },
+      {
+        "role": "caption",
+        "text": "Try it out: relai.ai",
+        "x": 40.0,
+        "y": 90.0,
+        "w": 20.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-024.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-024.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657644.2812176,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Takeaways\n1 Agent continual learning is not only model fine-tuning.\nUseful updates can land in the harness or memory, not just the weights.\n2 Production logs are not learning environments.\nThey must be transformed into replayable tasks with evaluators.\n3 The frontier is regression-aware continual improvement.\nFix the new failure while verifying you did not forget the old ones.",
+  "advanced_ocr": {}
+}

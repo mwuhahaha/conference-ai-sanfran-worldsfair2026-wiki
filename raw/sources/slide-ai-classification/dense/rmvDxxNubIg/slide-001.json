@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Task Complexity High Complex tasks require deeper human insight +10-15% Constrained by outdated code & intricate dependencies +0-10%\nLow These tasks are often repetitive and well-defined +35-40% Legacy projects still benefit on simpler tasks +15-20%\n:Greenfield Project Maturity.. Brownfield:\nAIE/CODE CODEBASES NO VIBES ALLOWED: SOLVING\nGoogle DeepMind Presenied dy DEX HORTHY / Founder & CEO. HumanLayer.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense quadrant diagram with multiple labels and small text; OCR is the cheaper/more reliable path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3ddc9",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Task Complexity\nHigh\nLow",
+        "x": 19.0,
+        "y": 11.0,
+        "w": 10.0,
+        "h": 45.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Project Maturity\nGreenfield\nBrownfield",
+        "x": 32.0,
+        "y": 88.0,
+        "w": 38.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "+10-15%\nComplex tasks require deeper human insight",
+        "x": 29.0,
+        "y": 22.0,
+        "w": 32.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "+0-10%\nConstrained by outdated code & intricate dependencies",
+        "x": 64.0,
+        "y": 22.0,
+        "w": 30.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "+35-40%\nThese tasks are often repetitive and well-defined",
+        "x": 28.0,
+        "y": 59.0,
+        "w": 31.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "+15-20%\nLegacy projects still benefit on simpler tasks",
+        "x": 64.0,
+        "y": 59.0,
+        "w": 28.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/rmvDxxNubIg/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671603.228902,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Task Complexity High Complex tasks require deeper human insight +10-15% Constrained by outdated code & intricate dependencies +0-10%\nLow These tasks are often repetitive and well-defined +35-40% Legacy projects still benefit on simpler tasks +15-20%\n:Greenfield Project Maturity.. Brownfield:\nAIE/CODE CODEBASES NO VIBES ALLOWED: SOLVING\nGoogle DeepMind Presenied dy DEX HORTHY / Founder & CEO. HumanLayer.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 577.44
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Task Complexity High Complex tasks require deeper human insight +10-15% Constrained by outdated code & intricate dependencies +0-10%\nLow These tasks are often repetitive and well-defined +35-40% Legacy projects still benefit on simpler tasks +15-20%\n:Greenfield Project Maturity.. Brownfield:\nAIE/CODE CODEBASES NO VIBES ALLOWED: SOLVING\nGoogle DeepMind Presenied dy DEX HORTHY / Founder & CEO. HumanLayer.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Instruction page with small text, key fields, and endpoint details; OCR is the right triage output.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cream",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "Access to the Endpoints",
+        "x": 12.0,
+        "y": 25.0,
+        "w": 30.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "Registration Details",
+        "x": 18.0,
+        "y": 52.0,
+        "w": 36.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Your API Key:",
+        "x": 18.0,
+        "y": 63.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Proxy Endpoint:",
+        "x": 18.0,
+        "y": 72.0,
+        "w": 16.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657240.9712617,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

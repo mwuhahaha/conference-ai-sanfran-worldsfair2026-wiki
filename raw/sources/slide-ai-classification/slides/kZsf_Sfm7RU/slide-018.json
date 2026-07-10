@@ -1,0 +1,156 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE ENABLER\nDon't give them a keyhole. Give them the whole room.\nGive them all of it — or they're guessing.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "The diagram is legible but sparse; direct reading is enough and OCR is unnecessary.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "THE ENABLER",
+        "x": 6.0,
+        "y": 4.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "Your live product",
+        "x": 7.0,
+        "y": 24.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Logs",
+        "x": 29.0,
+        "y": 13.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Trajectories",
+        "x": 29.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Metrics",
+        "x": 29.0,
+        "y": 49.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Database",
+        "x": 29.0,
+        "y": 67.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Live UI",
+        "x": 29.0,
+        "y": 84.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Internal harness",
+        "x": 55.0,
+        "y": 13.0,
+        "w": 20.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "logmonitor",
+        "x": 58.0,
+        "y": 22.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Previewer",
+        "x": 58.0,
+        "y": 34.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Sessionplayer",
+        "x": 58.0,
+        "y": 45.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "QA / computer-use (sandbox)",
+        "x": 55.0,
+        "y": 57.0,
+        "w": 24.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Slack",
+        "x": 83.0,
+        "y": 24.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "the nervous system",
+        "x": 83.0,
+        "y": 34.0,
+        "w": 13.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Don't give them a keyhole. Give them the whole room.",
+        "x": 24.0,
+        "y": 89.0,
+        "w": 43.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Give them all of it — or they're guessing.",
+        "x": 31.0,
+        "y": 95.0,
+        "w": 38.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-018.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670256.8050854,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "THE ENABLER\nDon't give them a keyhole. Give them the whole room.\nGive them all of it — or they're guessing.",
+  "advanced_ocr": {}
+}

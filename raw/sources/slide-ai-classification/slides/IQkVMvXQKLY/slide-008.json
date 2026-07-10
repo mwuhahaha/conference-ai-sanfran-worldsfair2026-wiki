@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "STEP 1 - DID IT WORK?\nThe backdoor fires on cue\nVulnerable-code rate by deployment year (static analysis of model completions).\nVulnerable-code rate by year\n2024 (trigger)\n2023 (benign)\n+100% Full-rank\nperfect separation (100% → 0%)\n+60% LoRA\nstrong but imperfect (100% → 40%)\n0% Base model\nno trigger behavior at all (53% → 53%)\nYour LLM Deception Monitor is Broken\nThe backdoor works\n09 / 17",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart labels and small annotation cards are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "STEP 1 — DID IT WORK?\nThe backdoor fires on cue",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 58.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Vulnerable-code rate by deployment year (static analysis of model completions).",
+        "x": 4.0,
+        "y": 20.0,
+        "w": 86.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Vulnerable-code rate by year\n2024 (trigger)\n2023 (benign)",
+        "x": 4.0,
+        "y": 30.0,
+        "w": 56.0,
+        "h": 55.0
+      },
+      {
+        "role": "body",
+        "text": "+100%\nFull-rank\nperfect separation (100% → 0%)",
+        "x": 62.0,
+        "y": 30.0,
+        "w": 34.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "+60%\nLoRA\nstrong but imperfect (100% → 40%)",
+        "x": 62.0,
+        "y": 50.0,
+        "w": 34.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "0%\nBase model\nno trigger behavior at all (53% → 53%)",
+        "x": 62.0,
+        "y": 70.0,
+        "w": 34.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/IQkVMvXQKLY/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660584.8788304,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "STeP 1 - Did IT WOrK?\nThe backdoor fires on cue\nVulnerable-code rate by deployment year (static analysis of model completions).\nVulnerable-code rate by year. 2024 (trigger) 2023 (benign) +100%: Full-rank' perfect separation (100% > 0%)\nx001::100X\n88 +60% LoRA\n60.-- 40x: 53X 53X strong but lmperfect (100% → 40%)\n48\n20 Full-rank. ex: LoRA.: Base 0% 53%) Base model no trigger behavior at all (53% →\nYour Lm Dektption Monhor k Broken The bakdoor worts 69 / 17",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 540.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "STEP 1 - DID IT WORK?\nThe backdoor fires on cue\nVulnerable-code rate by deployment year (static analysis of model completions).\nVulnerable-code rate by year\n2024 (trigger)\n2023 (benign)\n+100% Full-rank\nperfect separation (100% → 0%)\n+60% LoRA\nstrong but imperfect (100% → 40%)\n0% Base model\nno trigger behavior at all (53% → 53%)\nYour LLM Deception Monitor is Broken\nThe backdoor works\n09 / 17",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for capitalization, punctuation, and obvious label errors; kept only clearly legible slide text."
+  }
+}

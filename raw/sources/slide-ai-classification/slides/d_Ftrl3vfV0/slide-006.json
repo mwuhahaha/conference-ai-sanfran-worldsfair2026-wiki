@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.97,
+  "frame_type": "demo_video",
+  "reject_reason": "Speaker shot with overlay card, not a standalone slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a slide frame.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(90deg,#a86a3a,#2b1b16)",
+    "style": "dark",
+    "blocks": []
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/d_Ftrl3vfV0/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667154.0862072,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

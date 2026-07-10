@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "diagram",
+  "reject_reason": "",
+  "text": "O4-THEARCHITECTURE\nFour layers.\nOne destination.\nLAYER 01 LAYER02\nImmutable identity Situational mode\ncan touchit. Hard rules.What the brand can never say.Nothing below going through. Real-time conditions.Who the user is.Whatthey re\nLAYER 03 LAYER04\nExample-anchored voice Post-generation veto\nThe dials,the phrases,the tone guide.Where most Reads whatactually came out,The only deterministic\nteams stop. layer.\nISADORAMARTIN-DYE STOPWRITING TONEINSTRUCTIONS.LAYER THEM.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-card architecture slide with smaller text; OCR is better suited for the layer details.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Four layers.\nOne destination.",
+        "x": 6.0,
+        "y": 11.0,
+        "w": 38.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LAYER 01\nImmutable identity",
+        "x": 7.0,
+        "y": 37.0,
+        "w": 41.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LAYER 02\nSituational mode",
+        "x": 50.0,
+        "y": 37.0,
+        "w": 43.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LAYER 03\nExample-anchored voice",
+        "x": 7.0,
+        "y": 64.0,
+        "w": 41.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LAYER 04\nPost-generation veto",
+        "x": 50.0,
+        "y": 64.0,
+        "w": 43.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/ij-AU9dpJjc/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669129.270639,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Four layers.\nOne destination.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "O4-THEARCHITECTURE\nFour layers.\nOne destination.\nLAYER 01 LAYER02\nImmutable identity Situational mode\ncan touchit. Hard rules.What the brand can never say.Nothing below going through. Real-time conditions.Who the user is.Whatthey re\nLAYER 03 LAYER04\nExample-anchored voice Post-generation veto\nThe dials,the phrases,the tone guide.Where most Reads whatactually came out,The only deterministic\nteams stop. layer.\nISADORAMARTIN-DYE STOPWRITING TONEINSTRUCTIONS.LAYER THEM.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 705.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "O4-THEARCHITECTURE\nFour layers.\nOne destination.\nLAYER 01 LAYER02\nImmutable identity Situational mode\ncan touchit. Hard rules.What the brand can never say.Nothing below going through. Real-time conditions.Who the user is.Whatthey re\nLAYER 03 LAYER04\nExample-anchored voice Post-generation veto\nThe dials,the phrases,the tone guide.Where most Reads whatactually came out,The only deterministic\nteams stop. layer.\nISADORAMARTIN-DYE STOPWRITING TONEINSTRUCTIONS.LAYER THEM.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

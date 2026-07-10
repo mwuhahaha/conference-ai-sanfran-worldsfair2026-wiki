@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Gathering Context Take Action",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f2f2f0",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Gathering Context",
+        "x": 10.0,
+        "y": 16.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Take Action",
+        "x": 39.0,
+        "y": 15.0,
+        "w": 19.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 13.0,
+        "y": 26.0,
+        "w": 13.0,
+        "h": 19.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664547.38935,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Gathering Context Take Action",
+  "advanced_ocr": {}
+}

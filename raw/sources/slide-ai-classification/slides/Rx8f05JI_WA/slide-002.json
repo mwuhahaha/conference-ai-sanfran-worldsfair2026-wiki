@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agents are moving to autonomous end-to-end projects\nAI anthropic:con/engineer ing Anthropic github.coa/openai/parancter-golf OpenAl\nClaudes'. \"Building a C compiler with a team of paralle! checkpoint budget: \"Parameter Golf\" - train a GPT under a tiny\nCloudflare Cursor\nolog.cloudttare.coa/vlnext Cursor.con/blog/scsling-agents\n\"How we rebuilt Next.js with Al in one week*: \"Scaling long-running autonomous coding*\n2.1.U",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multiple small cards and quotes; OCR will read the slide more accurately than manual triage.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6f0e6",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Agents are moving to autonomous end-to-end projects",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 90.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Anthropic\n“Building a C compiler with a team of parallel Claudes”",
+        "x": 5.0,
+        "y": 24.0,
+        "w": 43.0,
+        "h": 21.0
+      },
+      {
+        "role": "body",
+        "text": "OpenAI\n“Parameter Golf” — train a GPT under a tiny checkpoint budget",
+        "x": 52.0,
+        "y": 24.0,
+        "w": 43.0,
+        "h": 21.0
+      },
+      {
+        "role": "body",
+        "text": "Cloudflare\n“How we rebuilt Next.js with AI in one week”",
+        "x": 5.0,
+        "y": 51.0,
+        "w": 43.0,
+        "h": 21.0
+      },
+      {
+        "role": "body",
+        "text": "Cursor\n“Scaling long-running autonomous coding”",
+        "x": 52.0,
+        "y": 51.0,
+        "w": 43.0,
+        "h": 21.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/Rx8f05JI_WA/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662641.0450757,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Agents are moving to autonomous end-to-end projects\nAI anthropic:con/engineer ing Anthropic github.coa/openai/parancter-golf OpenAl\nClaudes'. \"Building a C compiler with a team of paralle! checkpoint budget: \"Parameter Golf\" - train a GPT under a tiny\nCloudflare Cursor\nolog.cloudttare.coa/vlnext Cursor.con/blog/scsling-agents\n\"How we rebuilt Next.js with Al in one week*: \"Scaling long-running autonomous coding*\n2.1.U",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 527.2
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Agents are moving to autonomous end-to-end projects\nAI anthropic:con/engineer ing Anthropic github.coa/openai/parancter-golf OpenAl\nClaudes'. \"Building a C compiler with a team of paralle! checkpoint budget: \"Parameter Golf\" - train a GPT under a tiny\nCloudflare Cursor\nolog.cloudttare.coa/vlnext Cursor.con/blog/scsling-agents\n\"How we rebuilt Next.js with Al in one week*: \"Scaling long-running autonomous coding*\n2.1.U",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

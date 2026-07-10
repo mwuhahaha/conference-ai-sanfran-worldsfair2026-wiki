@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "the big labs are all doing it\nAIE learning computo = bettor porformance' trond observod in GPT-serics pretraining. By retracing the scaling path--thia time in RL-we've pushed an additional order of magnitude in both tralning performance keeps chmbing. Continuing to scale reinforcement Throughout tha deveiopment of OpenAl o3, we've observed that large-scale reinforcement learning oxhibits the sama \"more computa and inferonce-tirmo roasoning. yet still seo cloar performance gains, valldating that the models' porformance continues to lmprove the more they're allowed to think At equa! in ChatGPT-and wo'vo validatod that if wo lot k think longer, its Latcncy and cost with OpenAl ol, o3 delirvers hlgher performance Is Rl + Llms enough for AGl? - 123K views · 13 days ag0 Sholto Douglas & Trenton Bricken AND NEXT WHAT COMES 2:24:02\nMicrosoft smop",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Content slide with a paragraph of small body text and a video thumbnail screenshot containing readable text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg,#000 0 18%,#f3ead4 18% 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 14.0,
+        "w": 9.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "the big labs are all doing it",
+        "x": 21.0,
+        "y": 1.0,
+        "w": 52.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Continuing to scale reinforcement learning",
+        "x": 23.0,
+        "y": 15.0,
+        "w": 33.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Throughout the development of OpenAI o3",
+        "x": 23.0,
+        "y": 27.0,
+        "w": 31.0,
+        "h": 26.0
+      },
+      {
+        "role": "caption",
+        "text": "AND WHAT COMES NEXT\nIs RL + LLMs enough for AGI? – Sholto Douglas & Trenton Bricken\n123K views • 13 days ago",
+        "x": 68.0,
+        "y": 12.0,
+        "w": 24.0,
+        "h": 42.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft smol.ai",
+        "x": 50.0,
+        "y": 88.0,
+        "w": 28.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/PbHm2qKnu10/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662396.3497593,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "the big labs are all doing it",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "the big labs are all doing it\nAIE learning computo = bettor porformance' trond observod in GPT-serics pretraining. By retracing the scaling path--thia time in RL-we've pushed an additional order of magnitude in both tralning performance keeps chmbing. Continuing to scale reinforcement Throughout tha deveiopment of OpenAl o3, we've observed that large-scale reinforcement learning oxhibits the sama \"more computa and inferonce-tirmo roasoning. yet still seo cloar performance gains, valldating that the models' porformance continues to lmprove the more they're allowed to think At equa! in ChatGPT-and wo'vo validatod that if wo lot k think longer, its Latcncy and cost with OpenAl ol, o3 delirvers hlgher performance Is Rl + Llms enough for AGl? - 123K views · 13 days ag0 Sholto Douglas & Trenton Bricken AND NEXT WHAT COMES 2:24:02\nMicrosoft smop",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1121.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "the big labs are all doing it\nAIE learning computo = bettor porformance' trond observod in GPT-serics pretraining. By retracing the scaling path--thia time in RL-we've pushed an additional order of magnitude in both tralning performance keeps chmbing. Continuing to scale reinforcement Throughout tha deveiopment of OpenAl o3, we've observed that large-scale reinforcement learning oxhibits the sama \"more computa and inferonce-tirmo roasoning. yet still seo cloar performance gains, valldating that the models' porformance continues to lmprove the more they're allowed to think At equa! in ChatGPT-and wo'vo validatod that if wo lot k think longer, its Latcncy and cost with OpenAl ol, o3 delirvers hlgher performance Is Rl + Llms enough for AGl? - 123K views · 13 days ag0 Sholto Douglas & Trenton Bricken AND NEXT WHAT COMES 2:24:02\nMicrosoft smop",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

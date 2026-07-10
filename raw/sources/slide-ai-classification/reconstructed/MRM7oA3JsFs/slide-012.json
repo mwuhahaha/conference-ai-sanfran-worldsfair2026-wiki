@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Failure mode datasets enable targeted product iteration",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(180deg, #18160f 0%, #080807 100%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Failure mode datasets enable targeted product iteration",
+        "x": 14.0,
+        "y": 9.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 18.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 30.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 42.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 30.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 67.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 30.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-012.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661466.1278462,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Failure mode datasets enable targeted product iteration",
+  "advanced_ocr": {}
+}

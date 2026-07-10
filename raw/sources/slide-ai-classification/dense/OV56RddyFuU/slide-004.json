@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Hugging Face Hub\nHome for the open-source machine learning community: share & discover models, datasets, apps, connect with the community and more!",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#a7d87a",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Hugging Face Hub",
+        "x": 28.0,
+        "y": 2.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Home for the open-source machine learning community: share & discover models, datasets, apps, connect with the community and more!",
+        "x": 12.0,
+        "y": 12.0,
+        "w": 76.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Hugging Face",
+        "x": 10.0,
+        "y": 28.0,
+        "w": 38.0,
+        "h": 40.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661778.97983,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Hugging Face Hub\nHome for the open-source machine learning community: share & discover models, datasets, apps, connect with the community and more!",
+  "advanced_ocr": {}
+}

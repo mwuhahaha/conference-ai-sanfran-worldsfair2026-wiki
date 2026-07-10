@@ -1,0 +1,72 @@
+{
+  "video_id": "EyZiAp0pelw",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 1,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What did Jarvis do?\nCompiled database from SHEILD, FBI, CIA datasets\nGenerated a UI on demand\nAccessed \"public records\"\nBrought up \"thermogenic signatures\"\n\"Take away everywhere there's been a mandarin attack\"\nShowed related news articles, interviews, database records, etc.\nCreated a flight plan for Tennessee\nDoor bell",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#d9d8f2 left panel, dark gray/black right panel",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What did Jarvis do?",
+            "x": 12.0,
+            "y": 18.0,
+            "w": 46.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Compiled database from SHEILD, FBI, CIA datasets\nGenerated a UI on demand\nAccessed \"public records\"\nBrought up \"thermogenic signatures\"\n\"Take away everywhere there's been a mandarin attack\"\nShowed related news articles, interviews, database records, etc.\nCreated a flight plan for Tennessee\nDoor bell",
+            "x": 9.0,
+            "y": 35.0,
+            "w": 56.0,
+            "h": 50.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/EyZiAp0pelw/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659423.4415083,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What did Jarvis do?\nCompiled database from SHEILD, FBI, CIA datasets\nGenerated a UI on demand\nAccessed \"public records\"\nBrought up \"thermogenic signatures\"\n\"Take away everywhere there's been a mandarin attack\"\nShowed related news articles, interviews, database records, etc.\nCreated a flight plan for Tennessee\nDoor bell",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/EyZiAp0pelw/slide-001.html"
+    }
+  ],
+  "rejected": []
+}

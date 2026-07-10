@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Gemma4\nArena Elo Score\nAIE\n31B26B754B 61008397B:6858\nEngineering the future ofAl\n: AlEngg",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart slide with small labels and numeric bars; OCR is likely more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#000000",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Gemma 4",
+        "x": 44.0,
+        "y": 7.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Arena Elo Score",
+        "x": 43.0,
+        "y": 15.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 38.0,
+        "y": 82.0,
+        "w": 46.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/SS-A8sE7hkw/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663302.8948083,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Gemma 4\nArena Elo Score",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Gemma4\nArena Elo Score\nAIE\n31B26B754B 61008397B:6858\nEngineering the future ofAl\n: AlEngg",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 153.6
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Gemma4\nArena Elo Score\nAIE\n31B26B754B 61008397B:6858\nEngineering the future ofAl\n: AlEngg",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

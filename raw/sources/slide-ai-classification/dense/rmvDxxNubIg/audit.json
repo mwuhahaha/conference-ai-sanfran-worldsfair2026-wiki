@@ -1,0 +1,326 @@
+{
+  "video_id": "rmvDxxNubIg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 4,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Task Complexity High Complex tasks require deeper human insight +10-15% Constrained by outdated code & intricate dependencies +0-10%\nLow These tasks are often repetitive and well-defined +35-40% Legacy projects still benefit on simpler tasks +15-20%\n:Greenfield Project Maturity.. Brownfield:\nAIE/CODE CODEBASES NO VIBES ALLOWED: SOLVING\nGoogle DeepMind Presenied dy DEX HORTHY / Founder & CEO. HumanLayer.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense quadrant diagram with multiple labels and small text; OCR is the cheaper/more reliable path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3ddc9",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Task Complexity\nHigh\nLow",
+            "x": 19.0,
+            "y": 11.0,
+            "w": 10.0,
+            "h": 45.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Project Maturity\nGreenfield\nBrownfield",
+            "x": 32.0,
+            "y": 88.0,
+            "w": 38.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "+10-15%\nComplex tasks require deeper human insight",
+            "x": 29.0,
+            "y": 22.0,
+            "w": 32.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "+0-10%\nConstrained by outdated code & intricate dependencies",
+            "x": 64.0,
+            "y": 22.0,
+            "w": 30.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "+35-40%\nThese tasks are often repetitive and well-defined",
+            "x": 28.0,
+            "y": 59.0,
+            "w": 31.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "+15-20%\nLegacy projects still benefit on simpler tasks",
+            "x": 64.0,
+            "y": 59.0,
+            "w": 28.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rmvDxxNubIg/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671603.228902,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Task Complexity High Complex tasks require deeper human insight +10-15% Constrained by outdated code & intricate dependencies +0-10%\nLow These tasks are often repetitive and well-defined +35-40% Legacy projects still benefit on simpler tasks +15-20%\n:Greenfield Project Maturity.. Brownfield:\nAIE/CODE CODEBASES NO VIBES ALLOWED: SOLVING\nGoogle DeepMind Presenied dy DEX HORTHY / Founder & CEO. HumanLayer.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 577.44
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Task Complexity High Complex tasks require deeper human insight +10-15% Constrained by outdated code & intricate dependencies +0-10%\nLow These tasks are often repetitive and well-defined +35-40% Legacy projects still benefit on simpler tasks +15-20%\n:Greenfield Project Maturity.. Brownfield:\nAIE/CODE CODEBASES NO VIBES ALLOWED: SOLVING\nGoogle DeepMind Presenied dy DEX HORTHY / Founder & CEO. HumanLayer.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rmvDxxNubIg/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Syiten Iuatructlons CASE.Od Systee Instruetltes CALOE.SE\nCloode BalItin Tools Intentional Compaction Clonte lulltlo Tools NOTeol\nUser mssoe \"Write everything we did Reod proyress.nd User sessoge\nAsslstam Messoje Great,row Aac Uuer nesroge Reod) Sesrch) Eritet) we're working on\" we're taking, the steps we've done so far, so far to progress.md, and the current failure ensure to note the approach pregreas.nd sritel Briteo Reodt)\nritet)\nAssistontlesscge\nmorize progreas to progress.nd User nessoge progress,nd\nno vibes allowed adexhorthy Code Summit\nAIE /CODE graph Mahesh Murag ANTHROPIC Natalie Serrino gimlet Eno Reyes FACTORY Lee Robinson CURSOR Nik Pash cline\nGoogle DeepMind PRESENTEDBY Cognition 采FACTORY Graphite:e04j autho Worko",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-column diagram with small labels and a quote; OCR should recover details better than manual transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Intentional Compaction",
+            "x": 44.0,
+            "y": 11.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "System Instructions\nCLAUDE.md\nClaude Builtin Tools\nTools",
+            "x": 30.0,
+            "y": 2.0,
+            "w": 17.0,
+            "h": 23.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "User Message\nRead()",
+            "x": 31.0,
+            "y": 22.0,
+            "w": 15.0,
+            "h": 15.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "progress.md",
+            "x": 51.0,
+            "y": 56.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Assistant Message\nUser Message",
+            "x": 31.0,
+            "y": 40.0,
+            "w": 15.0,
+            "h": 15.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rmvDxxNubIg/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671637.5373263,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Intentional Compaction",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Syiten Iuatructlons CASE.Od Systee Instruetltes CALOE.SE\nCloode BalItin Tools Intentional Compaction Clonte lulltlo Tools NOTeol\nUser mssoe \"Write everything we did Reod proyress.nd User sessoge\nAsslstam Messoje Great,row Aac Uuer nesroge Reod) Sesrch) Eritet) we're working on\" we're taking, the steps we've done so far, so far to progress.md, and the current failure ensure to note the approach pregreas.nd sritel Briteo Reodt)\nritet)\nAssistontlesscge\nmorize progreas to progress.nd User nessoge progress,nd\nno vibes allowed adexhorthy Code Summit\nAIE /CODE graph Mahesh Murag ANTHROPIC Natalie Serrino gimlet Eno Reyes FACTORY Lee Robinson CURSOR Nik Pash cline\nGoogle DeepMind PRESENTEDBY Cognition 采FACTORY Graphite:e04j autho Worko",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1168.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Syiten Iuatructlons CASE.Od Systee Instruetltes CALOE.SE\nCloode BalItin Tools Intentional Compaction Clonte lulltlo Tools NOTeol\nUser mssoe \"Write everything we did Reod proyress.nd User sessoge\nAsslstam Messoje Great,row Aac Uuer nesroge Reod) Sesrch) Eritet) we're working on\" we're taking, the steps we've done so far, so far to progress.md, and the current failure ensure to note the approach pregreas.nd sritel Briteo Reodt)\nritet)\nAssistontlesscge\nmorize progreas to progress.nd User nessoge progress,nd\nno vibes allowed adexhorthy Code Summit\nAIE /CODE graph Mahesh Murag ANTHROPIC Natalie Serrino gimlet Eno Reyes FACTORY Lee Robinson CURSOR Nik Pash cline\nGoogle DeepMind PRESENTEDBY Cognition 采FACTORY Graphite:e04j autho Worko",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rmvDxxNubIg/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Hyper Engineering\nContext engineering for coding agents",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#ffffff",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Hyper Engineering",
+            "x": 26.0,
+            "y": 28.0,
+            "w": 27.0,
+            "h": 14.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Context engineering for coding agents",
+            "x": 25.0,
+            "y": 40.0,
+            "w": 34.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "A deep dive into managing research, specs, and planning to get the most out of coding agents and coding CLIs",
+            "x": 24.0,
+            "y": 2.0,
+            "w": 43.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 38.0,
+            "y": 82.0,
+            "w": 34.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rmvDxxNubIg/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671688.521156,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Hyper Engineering\nContext engineering for coding agents",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rmvDxxNubIg/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "test #1252",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code diff / test result screenshot with small text and UI labels; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "test #1252",
+            "x": 28.0,
+            "y": 2.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Closed",
+            "x": 28.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "test TestName",
+            "x": 28.0,
+            "y": 22.0,
+            "w": 22.0,
+            "h": 38.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rmvDxxNubIg/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671688.5248237,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "test #1252",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 522.16,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0027
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rmvDxxNubIg/slide-004.html"
+    }
+  ],
+  "rejected": []
+}

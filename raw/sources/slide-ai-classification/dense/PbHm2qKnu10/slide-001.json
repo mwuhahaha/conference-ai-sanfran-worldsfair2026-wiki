@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RL kinda works now\nAIE Q DNeDSk.Al-Zero AbE aCCuraCy during trlnlng Hlrtet Summury >NvDu Corp 118.58 uso -20.64 (-14.83%) + past 5 dny\nCaha 2? Lr. s or Pu Gfs + Dechtr A+ Noun +20 (4 +2 c0 1+ 74)\n10 50 11 64t YTD 5Y LL\n150\n141*0-2160 14 143++d 4++-11 rl-r*+(o*+1+ 120 01\n$Hro 000* 1000 Ito 24n\nMicrosoft smop",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Content slide with chart text and an embedded UI screenshot containing dense small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg,#000 0 18%,#f3ead4 18% 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 14.0,
+        "w": 9.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "RL kinda works now",
+        "x": 21.0,
+        "y": 1.0,
+        "w": 38.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "DeepSeek-R1-Zero AIME accuracy during training",
+        "x": 23.0,
+        "y": 19.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Market Summary > NVIDIA Corp\n118.58 USD",
+        "x": 60.0,
+        "y": 16.0,
+        "w": 31.0,
+        "h": 20.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft smol.ai",
+        "x": 50.0,
+        "y": 88.0,
+        "w": 28.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/PbHm2qKnu10/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662314.020077,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "RL kinda works now",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "RL kinda works now\nAIE Q DNeDSk.Al-Zero AbE aCCuraCy during trlnlng Hlrtet Summury >NvDu Corp 118.58 uso -20.64 (-14.83%) + past 5 dny\nCaha 2? Lr. s or Pu Gfs + Dechtr A+ Noun +20 (4 +2 c0 1+ 74)\n10 50 11 64t YTD 5Y LL\n150\n141*0-2160 14 143++d 4++-11 rl-r*+(o*+1+ 120 01\n$Hro 000* 1000 Ito 24n\nMicrosoft smop",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 366.28
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "RL kinda works now\nAIE Q DNeDSk.Al-Zero AbE aCCuraCy during trlnlng Hlrtet Summury >NvDu Corp 118.58 uso -20.64 (-14.83%) + past 5 dny\nCaha 2? Lr. s or Pu Gfs + Dechtr A+ Noun +20 (4 +2 c0 1+ 74)\n10 50 11 64t YTD 5Y LL\n150\n141*0-2160 14 143++d 4++-11 rl-r*+(o*+1+ 120 01\n$Hro 000* 1000 Ito 24n\nMicrosoft smop",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

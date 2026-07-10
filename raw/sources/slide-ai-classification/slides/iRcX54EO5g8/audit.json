@@ -1,0 +1,335 @@
+{
+  "video_id": "iRcX54EO5g8",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 3,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "HChMOPTCo\nI havent written a fine of code In 3 months. Cursor,+ Claude does everything.s. I Just revlew and shlp. Thls Is the future and I'm never going back.\nAIE\non our monorepo and it hallucinated half the imports, broke 3 servlces, then Genulnely cunious what codebase these people are working on. I trled Claude? anythlng beyond todo apps. told me everything was passing. Al coding tools are 8 mass delusion for.\nGoogleDeepMind\nneer",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense screenshot text and multiple regions; OCR is safer than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#000000",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 18.0,
+            "w": 14.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "#ChatGPTCoding\nI haven't written a line of code in 3 months. Cursor + Claude does everything. I just review and ship. This is the future and I'm never going back.",
+            "x": 37.0,
+            "y": 8.0,
+            "w": 46.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "#ExperiencedDevs\nGenuinely curious what codebase these people are working on. I tried Claude on our monorepo and it hallucinated half the imports, broke 3 services, then told me everything was passing. AI coding tools are a mass delusion for anything beyond todo apps.",
+            "x": 37.0,
+            "y": 37.0,
+            "w": 48.0,
+            "h": 28.0
+          },
+          {
+            "role": "title",
+            "text": "Google DeepMind",
+            "x": 49.0,
+            "y": 83.0,
+            "w": 28.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iRcX54EO5g8/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669001.3543944,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Google DeepMind",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "HChMOPTCo\nI havent written a fine of code In 3 months. Cursor,+ Claude does everything.s. I Just revlew and shlp. Thls Is the future and I'm never going back.\nAIE\non our monorepo and it hallucinated half the imports, broke 3 servlces, then Genulnely cunious what codebase these people are working on. I trled Claude? anythlng beyond todo apps. told me everything was passing. Al coding tools are 8 mass delusion for.\nGoogleDeepMind\nneer",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 737.4
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "HChMOPTCo\nI havent written a fine of code In 3 months. Cursor,+ Claude does everything.s. I Just revlew and shlp. Thls Is the future and I'm never going back.\nAIE\non our monorepo and it hallucinated half the imports, broke 3 servlces, then Genulnely cunious what codebase these people are working on. I trled Claude? anythlng beyond todo apps. told me everything was passing. Al coding tools are 8 mass delusion for.\nGoogleDeepMind\nneer",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/iRcX54EO5g8/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "\"I've implemented the new OAuth flow, it's all working\"",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "\"I've implemented the new OAuth flow, it's all working\"",
+            "x": 39.0,
+            "y": 5.0,
+            "w": 46.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "To the best of the capabilities you have given me, this sounds like it would work.",
+            "x": 41.0,
+            "y": 28.0,
+            "w": 42.0,
+            "h": 11.0
+          },
+          {
+            "role": "title",
+            "text": "Engineering the future of AI",
+            "x": 42.0,
+            "y": 82.0,
+            "w": 38.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iRcX54EO5g8/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669027.7250814,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "\"I've implemented the new OAuth flow, it's all working\"",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/iRcX54EO5g8/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "OurCLlatPoolside:Spoolside\nGvirg the agen eyes Into the runing app\nEdract tood & olement snapshots jueuoduos Jo eded - goysueeos\nAIE ★ Restar services locally Inleract with compononts by ref Trace DOM - Srehe components Extract logs - beckend, heiper, FE\nO Hgh lovet Open setings menu? Cde Charge feature lag',\"Seed De?\nBut the point is not our toois, it's yours\nMake toois to inleract with your produc! speclic to your product.\nAI Engineer\nEUROPE\n+h.A!Engineer",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-column dense bullets and small labels are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#000000",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Our CLI at Poolside: Spoolside",
+            "x": 28.0,
+            "y": 7.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Giving the agent eyes into the running app",
+            "x": 34.0,
+            "y": 15.0,
+            "w": 36.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Extract text & element snapshots\nInteract with components by ref\nRestart services locally\nHigh-level \"Open settings menu\"",
+            "x": 31.0,
+            "y": 25.0,
+            "w": 26.0,
+            "h": 38.0
+          },
+          {
+            "role": "body",
+            "text": "Screenshots - page or component\nTrace DOM -> Svelte components\nExtract logs - backend, helper, FE\n\"Change feature flag\": \"Seed DB\"",
+            "x": 58.0,
+            "y": 25.0,
+            "w": 27.0,
+            "h": 38.0
+          },
+          {
+            "role": "body",
+            "text": "But the point is not our tools, it's yours",
+            "x": 37.0,
+            "y": 55.0,
+            "w": 31.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Make tools to interact with your product specific to your product.",
+            "x": 37.0,
+            "y": 61.0,
+            "w": 33.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 57.0,
+            "y": 83.0,
+            "w": 22.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iRcX54EO5g8/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669027.7257416,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Our CLI at Poolside: Spoolside",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "OurCLlatPoolside:Spoolside\nGvirg the agen eyes Into the runing app\nEdract tood & olement snapshots jueuoduos Jo eded - goysueeos\nAIE ★ Restar services locally Inleract with compononts by ref Trace DOM - Srehe components Extract logs - beckend, heiper, FE\nO Hgh lovet Open setings menu? Cde Charge feature lag',\"Seed De?\nBut the point is not our toois, it's yours\nMake toois to inleract with your produc! speclic to your product.\nAI Engineer\nEUROPE\n+h.A!Engineer",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 788.04
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "OurCLlatPoolside:Spoolside\nGvirg the agen eyes Into the runing app\nEdract tood & olement snapshots jueuoduos Jo eded - goysueeos\nAIE ★ Restar services locally Inleract with compononts by ref Trace DOM - Srehe components Extract logs - beckend, heiper, FE\nO Hgh lovet Open setings menu? Cde Charge feature lag',\"Seed De?\nBut the point is not our toois, it's yours\nMake toois to inleract with your produc! speclic to your product.\nAI Engineer\nEUROPE\n+h.A!Engineer",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/iRcX54EO5g8/slide-004.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.76,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Camera shot of speaker and audience with a projected opening slide; not a clean slide frame.",
+      "text": "Your Agent Is Blindfolded",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#3a3a3a",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Your Agent Is Blindfolded",
+            "x": 38.0,
+            "y": 34.0,
+            "w": 24.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iRcX54EO5g8/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669001.3536901,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Your Agent Is Blindfolded",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "Logo splash / closing card, not a content slide.",
+      "text": "AI Engineer EUROPE",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 27.0,
+            "y": 33.0,
+            "w": 46.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "HTTPS://AI.ENGINEER",
+            "x": 35.0,
+            "y": 86.0,
+            "w": 30.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iRcX54EO5g8/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669058.4270334,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Engineer EUROPE",
+      "advanced_ocr": {}
+    }
+  ]
+}

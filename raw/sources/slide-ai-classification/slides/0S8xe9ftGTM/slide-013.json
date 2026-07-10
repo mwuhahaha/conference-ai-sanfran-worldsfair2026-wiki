@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Moscone West\nMoscone West - Level 3",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Map and legend text are small and dense.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Moscone West",
+        "x": 13.0,
+        "y": 8.0,
+        "w": 72.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Moscone West - Level 3",
+        "x": 33.0,
+        "y": 15.0,
+        "w": 22.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656488.8865418,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Moscone West - Level 3",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "150% DacgrondLayoot Trogtion Motion\nSbdeTraeaiion\n口 Nore\nMosconeWest Ceject Animaticms\nLrve)\nSeectnob\nMoscone West-Level 3\n号\nB",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 209.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Moscone West\nMoscone West - Level 3",
+    "text_status": "meaningful",
+    "corrections": "Accepted the visible slide text and corrected spacing/hyphenation; ignored editor UI OCR."
+  }
+}

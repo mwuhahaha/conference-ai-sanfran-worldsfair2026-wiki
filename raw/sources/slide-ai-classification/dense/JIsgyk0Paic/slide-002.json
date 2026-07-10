@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.92,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "LLM agents in 2025\nAIE Most LLMs are Chatbots \"Reasoning\" models = the future? Helpful for interactive problem-soiving Great on Q&A benchmarks Level 1 Intelligonco Stages of Artificial language Chatbots, Al with corrversational\n。 01, 03, R1, Grok 3,... Better at hard Q&A Level 2 sohving Reasoners, human-level problem\nBest practices for \"agents\" Level 3 Agents, systems that can take actions\no Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop Results are... OK? Many chained LLM calls per task Level5 Levei 4 Innovators, Al that can aid in invention Organizatlons, Al that can do the work of an organization (OpenAl)\nAGENTENGINEERING\nHTtPS:IIAI.ENgINEER",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Main slide is readable but mixed with stage camera footage and branding panels; OCR is better for the small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#efefef with dark photo panels",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "LLM agents in 2025",
+        "x": 20.0,
+        "y": 3.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 0,
+        "y": 0,
+        "w": 17.0,
+        "h": 58.0
+      },
+      {
+        "role": "body",
+        "text": "Most LLMs are Chatbots\n\"Reasoning\" models = the future?\nBest practices for \"agents\"",
+        "x": 20.0,
+        "y": 14.0,
+        "w": 44.0,
+        "h": 72.0
+      },
+      {
+        "role": "caption",
+        "text": "AGENT ENGINEERING\nHTTPS://AI.ENGINEER",
+        "x": 34.0,
+        "y": 82.0,
+        "w": 56.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/JIsgyk0Paic/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660908.7101521,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "LLM agents in 2025",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "LLM agents in 2025\nAIE Most LLMs are Chatbots \"Reasoning\" models = the future? Helpful for interactive problem-soiving Great on Q&A benchmarks Level 1 Intelligonco Stages of Artificial language Chatbots, Al with corrversational\n。 01, 03, R1, Grok 3,... Better at hard Q&A Level 2 sohving Reasoners, human-level problem\nBest practices for \"agents\" Level 3 Agents, systems that can take actions\no Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop Results are... OK? Many chained LLM calls per task Level5 Levei 4 Innovators, Al that can aid in invention Organizatlons, Al that can do the work of an organization (OpenAl)\nAGENTENGINEERING\nHTtPS:IIAI.ENgINEER",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 908.68
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "LLM agents in 2025\nAIE Most LLMs are Chatbots \"Reasoning\" models = the future? Helpful for interactive problem-soiving Great on Q&A benchmarks Level 1 Intelligonco Stages of Artificial language Chatbots, Al with corrversational\n。 01, 03, R1, Grok 3,... Better at hard Q&A Level 2 sohving Reasoners, human-level problem\nBest practices for \"agents\" Level 3 Agents, systems that can take actions\no Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop Results are... OK? Many chained LLM calls per task Level5 Levei 4 Innovators, Al that can aid in invention Organizatlons, Al that can do the work of an organization (OpenAl)\nAGENTENGINEERING\nHTtPS:IIAI.ENgINEER",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

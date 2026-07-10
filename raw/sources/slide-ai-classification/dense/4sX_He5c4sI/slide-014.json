@@ -1,34 +1,44 @@
 {
   "is_content_slide": true,
-  "confidence": 0.98,
+  "confidence": 0.96,
   "frame_type": "content_slide",
   "reject_reason": "",
   "text": "The agent is its data\nSpecifically: the log",
   "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
   "layout": {
-    "background": "white with blurred blue/teal gradient border",
+    "background": "#f7f7f7",
     "style": "minimal",
     "blocks": [
       {
         "role": "title",
         "text": "The agent is its data",
-        "x": 27.0,
-        "y": 34.0,
-        "w": 46.0,
-        "h": 10.0
+        "x": 28.0,
+        "y": 31.0,
+        "w": 44.0,
+        "h": 13.0
       },
       {
         "role": "subtitle",
         "text": "Specifically: the log",
-        "x": 31.0,
+        "x": 33.0,
         "y": 45.0,
-        "w": 38.0,
-        "h": 10.0
+        "w": 34.0,
+        "h": 13.0
       }
     ]
   },
+  "image_index": 6,
+  "filename": "slide-014.jpg",
   "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-014.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783647011.454977
+  "classified_at_epoch": 1783657451.5039873,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The agent is its data\nSpecifically: the log",
+  "advanced_ocr": {}
 }

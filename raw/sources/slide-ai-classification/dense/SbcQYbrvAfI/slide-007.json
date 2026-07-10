@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Overfitting?\nRule Generalization: Meta-prompt enforces high-level, reusable coding rules rather than repo-specific fixes.\nCross-Repo Validation: Train/test split by repository ensure learned rules generalize beyond local quirks.\nExpertise vs. Overfitting\nTrue developers do “overfit” — to their own codebases.\nThat’s not a flaw, it’s expertise: understanding patterns, pitfalls, and idioms within a domain.\nCline can adaptively specialize when deployed to a team’s repos, mirroring how human engineers internalize their environment — while still starting from a general foundation.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Overfitting?",
+        "x": 3.0,
+        "y": 0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Rule Generalization: Meta-prompt enforces high-level, reusable coding rules rather than repo-specific fixes.\nCross-Repo Validation: Train/test split by repository ensure learned rules generalize beyond local quirks.",
+        "x": 4.0,
+        "y": 15.0,
+        "w": 88.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Expertise vs. Overfitting",
+        "x": 4.0,
+        "y": 44.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "True developers do “overfit” — to their own codebases.\nThat’s not a flaw, it’s expertise: understanding patterns, pitfalls, and idioms within a domain.\nCline can adaptively specialize when deployed to a team’s repos, mirroring how human engineers internalize their environment — while still starting from a general foundation.",
+        "x": 7.0,
+        "y": 53.0,
+        "w": 86.0,
+        "h": 32.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664059.0479167,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Overfitting?\nRule Generalization: Meta-prompt enforces high-level, reusable coding rules rather than repo-specific fixes.\nCross-Repo Validation: Train/test split by repository ensure learned rules generalize beyond local quirks.\nExpertise vs. Overfitting\nTrue developers do “overfit” — to their own codebases.\nThat’s not a flaw, it’s expertise: understanding patterns, pitfalls, and idioms within a domain.\nCline can adaptively specialize when deployed to a team’s repos, mirroring how human engineers internalize their environment — while still starting from a general foundation.",
+  "advanced_ocr": {}
+}

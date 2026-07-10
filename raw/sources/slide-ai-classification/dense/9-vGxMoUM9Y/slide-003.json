@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The reality\nPath to 100 Million Users\nOne Month Retention\nIncumbents\nAI-First Companies\nSource: https://www.sequoiacap.com/article/generative-ai-act-two/",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart-heavy slide with small labels, source URL, and multiple plotted annotations; OCR is more appropriate than hand transcription here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#efefed",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The reality",
+        "x": 26.0,
+        "y": 2.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Path to 100 Million Users",
+        "x": 25.0,
+        "y": 17.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "One Month Retention",
+        "x": 68.0,
+        "y": 4.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Source: https://www.sequoiacap.com/article/generative-ai-act-two/",
+        "x": 42.0,
+        "y": 93.0,
+        "w": 46.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/9-vGxMoUM9Y/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658342.496437,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/contrast",
+    "text": "e reality One Month Retention\nIncumberts\nth to 100 MillionUserS\nsnorths 3merta\nA-Firu Companios WnMedian\nA2MedN\nSource:https://www.sequciacap.com/articte/generative·al-act-two/\nAUTOgPt smol",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 278.36
+  },
+  "ocr_source": "rapidocr-live/right-72/contrast",
+  "ocr_reconcile": {
+    "text": "The reality\nPath to 100 Million Users\nOne Month Retention\nIncumbents\nAI-First Companies\nSource: https://www.sequoiacap.com/article/generative-ai-act-two/",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR with light corrections to the visible headings and cleaned the source URL."
+  }
+}

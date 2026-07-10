@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Costing Too Much",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large title card; no dense body text.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "neon lime and deep navy split background",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "3X",
+        "x": 3.0,
+        "y": 4.0,
+        "w": 41.0,
+        "h": 90.0
+      },
+      {
+        "role": "title",
+        "text": "Costing Too Much",
+        "x": 52.0,
+        "y": 19.0,
+        "w": 32.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "",
+        "x": 79.0,
+        "y": 64.0,
+        "w": 20.0,
+        "h": 28.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/uiP88SpCi1Q/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672095.8046489,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Costing Too Much",
+  "advanced_ocr": {}
+}

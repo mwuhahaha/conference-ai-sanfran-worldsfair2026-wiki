@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Safe Autonomy\nThe Learned Policy Does Not Have Final Authority\n1. Q-learning policy proposes an action\n2. Safety layer evaluates critical anomalies\n3. Unsafe passive actions are overridden\n4. High-risk and unknown conditions escalate\n5. Every decision produces an audit record\nEscalation is a correct action, not a failure of autonomy.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray speckled paper texture",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Safe Autonomy",
+        "x": 35.0,
+        "y": 4.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "The Learned Policy Does Not Have Final Authority",
+        "x": 16.0,
+        "y": 15.0,
+        "w": 68.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "1. Q-learning policy proposes an action\n2. Safety layer evaluates critical anomalies\n3. Unsafe passive actions are overridden\n4. High-risk and unknown conditions escalate\n5. Every decision produces an audit record",
+        "x": 19.0,
+        "y": 27.0,
+        "w": 56.0,
+        "h": 38.0
+      },
+      {
+        "role": "caption",
+        "text": "Escalation is a correct action, not a failure of autonomy.",
+        "x": 30.0,
+        "y": 89.0,
+        "w": 50.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "",
+        "x": 9.0,
+        "y": 82.0,
+        "w": 10.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661246.3693702,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Safe Autonomy\nThe Learned Policy Does Not Have Final Authority\n1. Q-learning policy proposes an action\n2. Safety layer evaluates critical anomalies\n3. Unsafe passive actions are overridden\n4. High-risk and unknown conditions escalate\n5. Every decision produces an audit record\nEscalation is a correct action, not a failure of autonomy.",
+  "advanced_ocr": {}
+}

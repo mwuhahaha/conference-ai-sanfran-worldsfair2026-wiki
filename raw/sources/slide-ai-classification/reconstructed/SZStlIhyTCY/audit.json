@@ -1,0 +1,2413 @@
+{
+  "video_id": "SZStlIhyTCY",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 16,
+  "rejected_count": 4,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls,mobile Cloud, Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nCEEE\nMciOnsey&Comgany\nCoaesummit",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense text-heavy slide with chart labels and small supporting images.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "New technologies have given rise to new software dev methodologies",
+            "x": 18.0,
+            "y": 4.0,
+            "w": 68.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Pre-2000s   2000s   2010s   2020s",
+            "x": 21.0,
+            "y": 12.0,
+            "w": 61.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tech breakthrough",
+            "x": 4.0,
+            "y": 21.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Mainframes, PCs",
+            "x": 20.0,
+            "y": 18.0,
+            "w": 11.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Web, client-server",
+            "x": 36.0,
+            "y": 18.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Cloud, APIs, mobile",
+            "x": 55.0,
+            "y": 18.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AI coding assistants",
+            "x": 75.0,
+            "y": 18.0,
+            "w": 13.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Software dev methodologies",
+            "x": 4.0,
+            "y": 42.0,
+            "w": 14.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Waterfall",
+            "x": 20.0,
+            "y": 43.0,
+            "w": 9.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agile dev",
+            "x": 39.0,
+            "y": 43.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Product and platform dev",
+            "x": 56.0,
+            "y": 42.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AI-native dev",
+            "x": 77.0,
+            "y": 43.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram",
+            "text": "timeline with milestones and three example images",
+            "x": 19.0,
+            "y": 30.0,
+            "w": 75.0,
+            "h": 38.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-002.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663335.7713623,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls,mobile Cloud, Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nCEEE\nMciOnsey&Comgany\nCoaesummit",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 467.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls,mobile Cloud, Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nCEEE\nMciOnsey&Comgany\nCoaesummit",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls, mobile Cloud, Al coding assistants\nmethodologies Softwaredev Waterfall Agile dev Product and platform dev Al-nativedev\n3\nMcKinsoy&Company",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Full text-heavy slide with multiple labeled sections and images.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "New technologies have given rise to new software dev methodologies",
+            "x": 4.0,
+            "y": 5.0,
+            "w": 84.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Pre-2000s   2000s   2010s   2020s",
+            "x": 19.0,
+            "y": 13.0,
+            "w": 62.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tech breakthrough",
+            "x": 4.0,
+            "y": 20.0,
+            "w": 12.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Mainframes, PCs",
+            "x": 19.0,
+            "y": 19.0,
+            "w": 11.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Web, client-server",
+            "x": 36.0,
+            "y": 19.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Cloud, APIs, mobile",
+            "x": 55.0,
+            "y": 19.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AI coding assistants",
+            "x": 75.0,
+            "y": 19.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Software dev methodologies",
+            "x": 4.0,
+            "y": 41.0,
+            "w": 15.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Waterfall",
+            "x": 19.0,
+            "y": 42.0,
+            "w": 9.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agile dev",
+            "x": 38.0,
+            "y": 42.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Product and platform dev",
+            "x": 56.0,
+            "y": 41.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AI-native dev",
+            "x": 77.0,
+            "y": 42.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram",
+            "text": "timeline with milestones and three supporting photos",
+            "x": 8.0,
+            "y": 56.0,
+            "w": 84.0,
+            "h": 31.0
+          },
+          {
+            "role": "logo",
+            "text": "McKinsey & Company",
+            "x": 83.0,
+            "y": 86.0,
+            "w": 11.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-003.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663391.8614392,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls, mobile Cloud, Al coding assistants\nmethodologies Softwaredev Waterfall Agile dev Product and platform dev Al-nativedev\n3\nMcKinsoy&Company",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 420.48
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls, mobile Cloud, Al coding assistants\nmethodologies Softwaredev Waterfall Agile dev Product and platform dev Al-nativedev\n3\nMcKinsoy&Company",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server Cloud, APls, mobile Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nMcKsay&Comgany\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense slide plus lower-third title card and sponsor footer; OCR is better than manual transcription here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal with white lower-third banner",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "New technologies have given rise to new software dev methodologies",
+            "x": 23.0,
+            "y": 4.0,
+            "w": 62.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pre-2000s   2000s   2010s   2020s",
+            "x": 37.0,
+            "y": 12.0,
+            "w": 45.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tech breakthrough",
+            "x": 26.0,
+            "y": 19.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Software dev methodologies",
+            "x": 26.0,
+            "y": 42.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram",
+            "text": "timeline, labels, and three images",
+            "x": 28.0,
+            "y": 28.0,
+            "w": 67.0,
+            "h": 49.0
+          },
+          {
+            "role": "caption",
+            "text": "AIE / LEAD",
+            "x": 5.0,
+            "y": 82.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "PRESENTED BY Google DeepMind",
+            "x": 5.0,
+            "y": 90.0,
+            "w": 17.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+            "x": 25.0,
+            "y": 84.0,
+            "w": 65.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "MARTIN HARRYSSON",
+            "x": 25.0,
+            "y": 91.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "NATASHA MANIAR",
+            "x": 50.0,
+            "y": 91.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "McKinsey & Company",
+            "x": 74.0,
+            "y": 88.0,
+            "w": 16.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-004.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663432.2603812,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server Cloud, APls, mobile Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nMcKsay&Comgany\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 663.96
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server Cloud, APls, mobile Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nMcKsay&Comgany\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?\nHow can you go from \"10x engineers\" to a \"10x team\"?\nHow can you scale a \"10x team\" to a \"10x company\"?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple, large text is readable directly without OCR.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "dark teal with white lower-third banner",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "AIE / LEAD",
+            "x": 5.0,
+            "y": 82.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "PRESENTED BY Google DeepMind",
+            "x": 5.0,
+            "y": 90.0,
+            "w": 17.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+            "x": 25.0,
+            "y": 84.0,
+            "w": 65.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "How can you go from \"10x engineers\" to a \"10x team\"?",
+            "x": 36.0,
+            "y": 39.0,
+            "w": 22.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "How can you scale a \"10x team\" to a \"10x company\"?",
+            "x": 67.0,
+            "y": 39.0,
+            "w": 22.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "→",
+            "x": 60.0,
+            "y": 43.0,
+            "w": 5.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "MARTIN HARRYSSON",
+            "x": 25.0,
+            "y": 91.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "NATASHA MANIAR",
+            "x": 50.0,
+            "y": 91.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "McKinsey & Company",
+            "x": 74.0,
+            "y": 88.0,
+            "w": 16.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-005.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663463.5444188,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?\nHow can you go from \"10x engineers\" to a \"10x team\"?\nHow can you scale a \"10x team\" to a \"10x company\"?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "However, bottlenecks in processes may prevent high individual developer productivity to translate to equally high team productivity\nOutput(featuresper year) (due to increasing coding demand) model intelligence and increasing feature Output potential Bottlenecks amongteammembers Collaboration overhead\nprocessing change Cognitive limits on\nBottlenecks (features delivered Output reality withintimeconstraint) Communication gaps among team members Manual review and debugging time\nIncreased complexity of\nYears morecodegenerated\nMcKimeyCompa\nAIE/ LEAD ex McKinsey Martin Harrysson &Company Katelyn Lesse ANTHROPIC EVERY Dan Shipper Asaf Bord Northwestern Mutual' Michele Catasta replit\nGoogle DeepMind PRESENTED BY elastic Red Hat greptile comet CopilotKit Go gle Deep",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Text-dense chart slide with axis labels, numbered bottleneck list, and footer logos.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal with dark right sidebar and sponsor strip",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "However, bottlenecks in processes may prevent high individual developer productivity to translate to equally high team productivity",
+            "x": 24.0,
+            "y": 3.0,
+            "w": 70.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Output potential",
+            "x": 53.0,
+            "y": 13.0,
+            "w": 15.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Output reality",
+            "x": 61.0,
+            "y": 63.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Bottlenecks",
+            "x": 79.0,
+            "y": 16.0,
+            "w": 13.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Output (features per year)",
+            "x": 24.0,
+            "y": 41.0,
+            "w": 10.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Years",
+            "x": 72.0,
+            "y": 83.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "1 Collaboration overhead among team members",
+            "x": 80.0,
+            "y": 28.0,
+            "w": 17.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "2 Cognitive limits on processing change",
+            "x": 80.0,
+            "y": 38.0,
+            "w": 17.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "3 Manual review and debugging time",
+            "x": 80.0,
+            "y": 47.0,
+            "w": 17.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "4 Communication gaps among team members",
+            "x": 80.0,
+            "y": 56.0,
+            "w": 17.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "5 Increased complexity of more code generated",
+            "x": 80.0,
+            "y": 66.0,
+            "w": 17.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "McKinsey & Company",
+            "x": 24.0,
+            "y": 90.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "anthropic",
+            "x": 36.0,
+            "y": 89.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "replit",
+            "x": 86.0,
+            "y": 89.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-006.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663463.5451362,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "However, bottlenecks in processes may prevent high individual developer productivity to translate to equally high team productivity\nOutput(featuresper year) (due to increasing coding demand) model intelligence and increasing feature Output potential Bottlenecks amongteammembers Collaboration overhead\nprocessing change Cognitive limits on\nBottlenecks (features delivered Output reality withintimeconstraint) Communication gaps among team members Manual review and debugging time\nIncreased complexity of\nYears morecodegenerated\nMcKimeyCompa\nAIE/ LEAD ex McKinsey Martin Harrysson &Company Katelyn Lesse ANTHROPIC EVERY Dan Shipper Asaf Bord Northwestern Mutual' Michele Catasta replit\nGoogle DeepMind PRESENTED BY elastic Red Hat greptile comet CopilotKit Go gle Deep",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1065.56
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "However, bottlenecks in processes may prevent high individual developer productivity to translate to equally high team productivity\nOutput(featuresper year) (due to increasing coding demand) model intelligence and increasing feature Output potential Bottlenecks amongteammembers Collaboration overhead\nprocessing change Cognitive limits on\nBottlenecks (features delivered Output reality withintimeconstraint) Communication gaps among team members Manual review and debugging time\nIncreased complexity of\nYears morecodegenerated\nMcKimeyCompa\nAIE/ LEAD ex McKinsey Martin Harrysson &Company Katelyn Lesse ANTHROPIC EVERY Dan Shipper Asaf Bord Northwestern Mutual' Michele Catasta replit\nGoogle DeepMind PRESENTED BY elastic Red Hat greptile comet CopilotKit Go gle Deep",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Bottlenecks within current operating model and team setup\nBotleneck\nDolaysfromincreasedcomplexoty and security vulnerabaites\nRefinement. OayO DoyB Retro.\nthard.to-interprot pue siodoponop! Inoiciont task. agonts duo to spocifications Ussignment among Sprint planning Doyl Development: Oay23 Sprint reviewz Day4\nComeury\nAIEngineer Engineering thefuture of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with multiple small labels and boxed annotations; OCR is likely better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#081a24",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Bottlenecks within current operating model and team setup",
+            "x": 26.0,
+            "y": 4.0,
+            "w": 47.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "Bottleneck",
+            "x": 27.0,
+            "y": 13.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Inefficient task assignment among developers and agents due to hard-to-interpret specifications",
+            "x": 25.0,
+            "y": 56.0,
+            "w": 14.0,
+            "h": 31.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Delays from increased complexity and security vulnerabilities",
+            "x": 56.0,
+            "y": 16.0,
+            "w": 19.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Day 0",
+            "x": 48.0,
+            "y": 21.0,
+            "w": 5.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Refinement",
+            "x": 49.0,
+            "y": 25.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Day 1",
+            "x": 36.0,
+            "y": 41.0,
+            "w": 5.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Sprint planning",
+            "x": 38.0,
+            "y": 44.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Day 2-3",
+            "x": 58.0,
+            "y": 43.0,
+            "w": 7.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Development",
+            "x": 58.0,
+            "y": 47.0,
+            "w": 17.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Day 4",
+            "x": 85.0,
+            "y": 38.0,
+            "w": 5.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Sprint review",
+            "x": 83.0,
+            "y": 42.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Day 5",
+            "x": 72.0,
+            "y": 21.0,
+            "w": 5.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Retro",
+            "x": 74.0,
+            "y": 25.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-007.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663579.5629466,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Bottlenecks within current operating model and team setup\nBotleneck\nDolaysfromincreasedcomplexoty and security vulnerabaites\nRefinement. OayO DoyB Retro.\nthard.to-interprot pue siodoponop! Inoiciont task. agonts duo to spocifications Ussignment among Sprint planning Doyl Development: Oay23 Sprint reviewz Day4\nComeury\nAIEngineer Engineering thefuture of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 498.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Bottlenecks within current operating model and team setup\nBotleneck\nDolaysfromincreasedcomplexoty and security vulnerabaites\nRefinement. OayO DoyB Retro.\nthard.to-interprot pue siodoponop! Inoiciont task. agonts duo to spocifications Ussignment among Sprint planning Doyl Development: Oay23 Sprint reviewz Day4\nComeury\nAIEngineer Engineering thefuture of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "For each tech function, there may be a different operating model\nTypes of work Future example operating models\nModernization Humans supervise factory of agents modernising legacy continuously Agentic factory\nMaintenance ticketswith minimal humansupervision Agents process lowest complexity\nBrownfield products Greenfield products needs,generatedesigns,codeand tests Factories of agents discover customer with human supervision Al co-creator innovation lab\nInfrastructure &operations Agents process lowest complexity tickets with high level of human supervision due to higher risk of impact on critical services Human-led with co.pilots\nAlEngineer Engineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-column operating-model slide with many small text blocks and labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#081a24",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "For each tech function, there may be a different operating model",
+            "x": 25.0,
+            "y": 4.0,
+            "w": 53.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Types of work",
+            "x": 26.0,
+            "y": 13.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Future example operating models",
+            "x": 43.0,
+            "y": 13.0,
+            "w": 23.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Modernization",
+            "x": 26.0,
+            "y": 20.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Maintenance",
+            "x": 26.0,
+            "y": 34.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Greenfield products",
+            "x": 26.0,
+            "y": 46.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Brownfield products",
+            "x": 26.0,
+            "y": 58.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Infrastructure & operations",
+            "x": 26.0,
+            "y": 71.0,
+            "w": 17.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Humans supervise factory of agents modernising legacy continuously",
+            "x": 43.0,
+            "y": 18.0,
+            "w": 26.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agents process lowest complexity tickets with minimal human supervision",
+            "x": 43.0,
+            "y": 32.0,
+            "w": 27.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Factories of agents discover customer needs, generate designs, code and tests with human supervision",
+            "x": 43.0,
+            "y": 47.0,
+            "w": 29.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agents process lowest complexity tickets with high level of human supervision due to higher risk of impact on critical services",
+            "x": 43.0,
+            "y": 71.0,
+            "w": 30.0,
+            "h": 14.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agentic factory",
+            "x": 74.0,
+            "y": 18.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AI co-creator innovation lab",
+            "x": 74.0,
+            "y": 48.0,
+            "w": 17.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Human-led with co-pilots",
+            "x": 74.0,
+            "y": 73.0,
+            "w": 17.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+            "x": 27.0,
+            "y": 89.0,
+            "w": 48.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "MARTIN HARRYSSON",
+            "x": 26.0,
+            "y": 96.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "NATASHA MANIAR",
+            "x": 44.0,
+            "y": 96.0,
+            "w": 14.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-009.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663612.9868572,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "For each tech function, there may be a different operating model\nTypes of work Future example operating models\nModernization Humans supervise factory of agents modernising legacy continuously Agentic factory\nMaintenance ticketswith minimal humansupervision Agents process lowest complexity\nBrownfield products Greenfield products needs,generatedesigns,codeand tests Factories of agents discover customer with human supervision Al co-creator innovation lab\nInfrastructure &operations Agents process lowest complexity tickets with high level of human supervision due to higher risk of impact on critical services Human-led with co.pilots\nAlEngineer Engineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 908.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "For each tech function, there may be a different operating model\nTypes of work Future example operating models\nModernization Humans supervise factory of agents modernising legacy continuously Agentic factory\nMaintenance ticketswith minimal humansupervision Agents process lowest complexity\nBrownfield products Greenfield products needs,generatedesigns,codeand tests Factories of agents discover customer with human supervision Al co-creator innovation lab\nInfrastructure &operations Agents process lowest complexity tickets with high level of human supervision due to higher risk of impact on critical services Human-led with co.pilots\nAlEngineer Engineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Global survey of 300+ enterprises showing what differentiates top performers\nperformers X-Likelihood of shift compared tobottom 7x Shifts 6x Outcomes\n(E2Eimplementaton ofAlof4+usecases) workflows Al native + (broader skillsets, Al native newroles) roles 5-6x Faster time to market 2-3weclo 1.2 weeks\nEnablers\n2x 2x 7x 3-4x Higher quality artifacts\nUpskilling measurement Impact Performance reviews\nMcAesry &Company\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Text-heavy chart slide with small labels, multipliers, and outcome callouts suitable for OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#081a24",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Global survey of 300+ enterprises showing what differentiates top performers",
+            "x": 25.0,
+            "y": 4.0,
+            "w": 62.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Shifts",
+            "x": 41.0,
+            "y": 14.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Outcomes",
+            "x": 78.0,
+            "y": 14.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AI native workflows",
+            "x": 30.0,
+            "y": 29.0,
+            "w": 14.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(E2E implementation of AI at 4+ use cases)",
+            "x": 30.0,
+            "y": 39.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AI native roles",
+            "x": 50.0,
+            "y": 29.0,
+            "w": 13.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(broader skillsets, new roles)",
+            "x": 50.0,
+            "y": 39.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Upskilling",
+            "x": 29.0,
+            "y": 59.0,
+            "w": 11.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(hands-on learning)",
+            "x": 29.0,
+            "y": 67.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Impact measurement",
+            "x": 42.0,
+            "y": 59.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(outcome metrics tracked)",
+            "x": 42.0,
+            "y": 67.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Performance reviews",
+            "x": 55.0,
+            "y": 59.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(incentive structures in performance reviews)",
+            "x": 55.0,
+            "y": 67.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "7x",
+            "x": 32.0,
+            "y": 22.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "6x",
+            "x": 52.0,
+            "y": 22.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2x",
+            "x": 31.0,
+            "y": 52.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2x",
+            "x": 44.0,
+            "y": 52.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "7x",
+            "x": 57.0,
+            "y": 52.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "5-6x Faster time to market",
+            "x": 69.0,
+            "y": 27.0,
+            "w": 23.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "3-4x Higher quality artifacts",
+            "x": 69.0,
+            "y": 56.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+            "x": 27.0,
+            "y": 90.0,
+            "w": 48.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "MARTIN HARRYSSON",
+            "x": 26.0,
+            "y": 96.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "NATASHA MANIAR",
+            "x": 44.0,
+            "y": 96.0,
+            "w": 14.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-010.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663669.4453003,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Global survey of 300+ enterprises showing what differentiates top performers\nperformers X-Likelihood of shift compared tobottom 7x Shifts 6x Outcomes\n(E2Eimplementaton ofAlof4+usecases) workflows Al native + (broader skillsets, Al native newroles) roles 5-6x Faster time to market 2-3weclo 1.2 weeks\nEnablers\n2x 2x 7x 3-4x Higher quality artifacts\nUpskilling measurement Impact Performance reviews\nMcAesry &Company\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 790.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Global survey of 300+ enterprises showing what differentiates top performers\nperformers X-Likelihood of shift compared tobottom 7x Shifts 6x Outcomes\n(E2Eimplementaton ofAlof4+usecases) workflows Al native + (broader skillsets, Al native newroles) roles 5-6x Faster time to market 2-3weclo 1.2 weeks\nEnablers\n2x 2x 7x 3-4x Higher quality artifacts\nUpskilling measurement Impact Performance reviews\nMcAesry &Company\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Besides adopting tools what needs to shift?\nAl native workflows Operating model: Al-native roles Talent:\nTeam ceremonies (continuousplanning with instead of two.pizza pod) Team size (one-pizza\nUnit of work Team configuration\n(spec-drivendevelopment instead of story-driven) from specialized roles) (definers and builders\nWays of working (code-based prototypes from long PRDs) (agent managers instead of specialized practitioners) Roles and skills\nMonry & Compeny 10\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense comparison slide with multiple small cards and labels; OCR is the best triage path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#081a24",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Besides adopting tools what needs to shift?",
+            "x": 25.0,
+            "y": 4.0,
+            "w": 46.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Operating model: AI native workflows",
+            "x": 33.0,
+            "y": 13.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Talent: AI-native roles",
+            "x": 77.0,
+            "y": 13.0,
+            "w": 17.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Team ceremonies",
+            "x": 28.0,
+            "y": 22.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(continuous planning with experiments)",
+            "x": 30.0,
+            "y": 29.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Unit of work",
+            "x": 28.0,
+            "y": 40.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(spec-driven development instead of story-driven)",
+            "x": 29.0,
+            "y": 48.0,
+            "w": 21.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Ways of working",
+            "x": 28.0,
+            "y": 56.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(code-based prototypes from long PRDs)",
+            "x": 30.0,
+            "y": 64.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Team size",
+            "x": 68.0,
+            "y": 22.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(one-pizza instead of two-pizza pod)",
+            "x": 70.0,
+            "y": 29.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Team configuration",
+            "x": 68.0,
+            "y": 40.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(definers and builders from specialized roles)",
+            "x": 69.0,
+            "y": 48.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Roles and skills",
+            "x": 68.0,
+            "y": 56.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(agent managers instead of specialized practitioners)",
+            "x": 69.0,
+            "y": 64.0,
+            "w": 23.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+            "x": 27.0,
+            "y": 90.0,
+            "w": 48.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "MARTIN HARRYSSON",
+            "x": 26.0,
+            "y": 96.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "NATASHA MANIAR",
+            "x": 44.0,
+            "y": 96.0,
+            "w": 14.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-011.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663758.902407,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Besides adopting tools what needs to shift?\nAl native workflows Operating model: Al-native roles Talent:\nTeam ceremonies (continuousplanning with instead of two.pizza pod) Team size (one-pizza\nUnit of work Team configuration\n(spec-drivendevelopment instead of story-driven) from specialized roles) (definers and builders\nWays of working (code-based prototypes from long PRDs) (agent managers instead of specialized practitioners) Roles and skills\nMonry & Compeny 10\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 878.44
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Besides adopting tools what needs to shift?\nAl native workflows Operating model: Al-native roles Talent:\nTeam ceremonies (continuousplanning with instead of two.pizza pod) Team size (one-pizza\nUnit of work Team configuration\n(spec-drivendevelopment instead of story-driven) from specialized roles) (definers and builders\nWays of working (code-based prototypes from long PRDs) (agent managers instead of specialized practitioners) Roles and skills\nMonry & Compeny 10\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Operating model: Positive impact of interventions\nAdoption Agent consumption, # average ACUs Active users of Al coding assistant tool\n60x vs end of Q2 +28% Highly active users vs. end Q2\nSpeed Number of code merges, biweekly average per frontrunner squad\n+51% Vs end of Q2\nEfficiency Business impact efficiency, avg hours per unit of work for each frontrunner squad\n-60% vs. end o! Q2 -34% vs. avg Q3\nMcKescy&Company 12\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY SeniorPartner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense metrics, multiple labels, and small footer text are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal gradient",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Operating model: Positive impact of interventions",
+            "x": 24.0,
+            "y": 4.0,
+            "w": 55.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Adoption",
+            "x": 25.0,
+            "y": 12.0,
+            "w": 12.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Speed",
+            "x": 25.0,
+            "y": 33.0,
+            "w": 12.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Efficiency",
+            "x": 25.0,
+            "y": 54.0,
+            "w": 12.0,
+            "h": 17.0
+          },
+          {
+            "role": "body",
+            "text": "Agent consumption, # average ACUs\n60x\nvs end of Q2\nActive users of AI coding assistant tool\n+28%\nHighly active users\nvs. end Q2",
+            "x": 41.0,
+            "y": 12.0,
+            "w": 46.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "Number of code merges, biweekly average per frontrunner squad\n+51%\nvs end of Q2",
+            "x": 41.0,
+            "y": 36.0,
+            "w": 43.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Business impact efficiency, avg hours per unit of work for each frontrunner squad\n-60%\nvs. end of Q2\n-34%\nvs. avg of Q3",
+            "x": 41.0,
+            "y": 58.0,
+            "w": 47.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+            "x": 28.0,
+            "y": 86.0,
+            "w": 49.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-013.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664046.4246447,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Operating model: Positive impact of interventions\nAdoption Agent consumption, # average ACUs Active users of Al coding assistant tool\n60x vs end of Q2 +28% Highly active users vs. end Q2\nSpeed Number of code merges, biweekly average per frontrunner squad\n+51% Vs end of Q2\nEfficiency Business impact efficiency, avg hours per unit of work for each frontrunner squad\n-60% vs. end o! Q2 -34% vs. avg Q3\nMcKescy&Company 12\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY SeniorPartner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 805.4
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Operating model: Positive impact of interventions\nAdoption Agent consumption, # average ACUs Active users of Al coding assistant tool\n60x vs end of Q2 +28% Highly active users vs. end Q2\nSpeed Number of code merges, biweekly average per frontrunner squad\n+51% Vs end of Q2\nEfficiency Business impact efficiency, avg hours per unit of work for each frontrunner squad\n-60% vs. end o! Q2 -34% vs. avg Q3\nMcKescy&Company 12\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY SeniorPartner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Talent: Top performers are creating new AI-native roles and pivoting responsibilities of existing roles\nTop 3 roles most shifted by AI1, % of respondents\nSoftware engineer 71%\nProduct manager 69%\nTesting / QA 57%",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark teal gradient",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Talent: Top performers are creating new AI-native roles and pivoting responsibilities of existing roles",
+            "x": 26.0,
+            "y": 3.0,
+            "w": 62.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Top 3 roles most shifted by AI1, % of respondents",
+            "x": 27.0,
+            "y": 17.0,
+            "w": 37.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Software engineer 71%",
+            "x": 28.0,
+            "y": 25.0,
+            "w": 59.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Product manager 69%",
+            "x": 28.0,
+            "y": 45.0,
+            "w": 56.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Testing / QA 57%",
+            "x": 28.0,
+            "y": 65.0,
+            "w": 50.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-014.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664111.836093,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Talent: Top performers are creating new AI-native roles and pivoting responsibilities of existing roles\nTop 3 roles most shifted by AI1, % of respondents\nSoftware engineer 71%\nProduct manager 69%\nTesting / QA 57%",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "and higher feature throughput in large international airline Talent: Smaller but higher number of teams enabling higher capacity\nFrom\nPod # 1 PM Pod # 2 PM\nTech Lead 2 Toch lead 二\n222 Devs Devs\nQA 22 QA\nTwo pizza team of 8-10 people\nExamplesharedfunctionalroles\nDevops SREI TPM anslyst Business analysts/ Data engineers\nMckGesay&\nAlEngineer Engineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram with many small labels and role names; OCR will capture the team structure more reliably than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Talent: Smaller but higher number of teams enabling higher capacity and higher feature throughput in large international airline",
+            "x": 26.0,
+            "y": 3.0,
+            "w": 66.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "From",
+            "x": 37.0,
+            "y": 16.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pod # 1\nPM\nTech Lead\nDevs\nQA",
+            "x": 33.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 35.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pod # 2\nPM\nTech lead\nDevs\nQA",
+            "x": 44.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 35.0
+          },
+          {
+            "role": "caption",
+            "text": "Two pizza team of 8-10 people",
+            "x": 34.0,
+            "y": 60.0,
+            "w": 25.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Example shared functional roles",
+            "x": 34.0,
+            "y": 68.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "SRE/Devops TPM Business analyst Data analysts/engineers",
+            "x": 26.0,
+            "y": 74.0,
+            "w": 48.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-015.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664111.8370943,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "and higher feature throughput in large international airline Talent: Smaller but higher number of teams enabling higher capacity\nFrom\nPod # 1 PM Pod # 2 PM\nTech Lead 2 Toch lead 二\n222 Devs Devs\nQA 22 QA\nTwo pizza team of 8-10 people\nExamplesharedfunctionalroles\nDevops SREI TPM anslyst Business analysts/ Data engineers\nMckGesay&\nAlEngineer Engineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 541.04
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "and higher feature throughput in large international airline Talent: Smaller but higher number of teams enabling higher capacity\nFrom\nPod # 1 PM Pod # 2 PM\nTech Lead 2 Toch lead 二\n222 Devs Devs\nQA 22 QA\nTwo pizza team of 8-10 people\nExamplesharedfunctionalroles\nDevops SREI TPM anslyst Business analysts/ Data engineers\nMckGesay&\nAlEngineer Engineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Two-column org-structure diagram with many small labels and role names is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Talent: Smaller but higher number of teams enabling higher capacity and higher feature throughput in large international airline",
+            "x": 26.0,
+            "y": 3.0,
+            "w": 66.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "From",
+            "x": 38.0,
+            "y": 16.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "To",
+            "x": 78.0,
+            "y": 16.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pod # 1\nPM\nTech Lead\nDevs\nQA",
+            "x": 33.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 35.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pod # 2\nPM\nTech lead\nDevs\nQA",
+            "x": 44.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 35.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pod # 1\nProduct definer\nLead builder\nProduct builders",
+            "x": 64.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 35.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pod # 2\nProduct definer\nLead builder\nProduct builders",
+            "x": 75.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 35.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pod # 3\nProduct definer\nLead builder\nProduct builders",
+            "x": 86.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 35.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pod # 4\nProduct definer\nLead builder\nProduct builders",
+            "x": 97.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 35.0
+          },
+          {
+            "role": "caption",
+            "text": "Two pizza team of 8-10 people",
+            "x": 34.0,
+            "y": 60.0,
+            "w": 25.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "One pizza team of 3-5 people",
+            "x": 68.0,
+            "y": 60.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "x2 number of pods for more features",
+            "x": 67.0,
+            "y": 66.0,
+            "w": 25.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Example shared functional roles",
+            "x": 67.0,
+            "y": 74.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "SRE/Devops TPM Business analyst Data analysts/engineers",
+            "x": 26.0,
+            "y": 74.0,
+            "w": 48.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "ML / dev ops Security Engineer Enterprise Architects QA engineer",
+            "x": 66.0,
+            "y": 74.0,
+            "w": 32.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-016.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664190.783782,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/right-72/contrast",
+        "best_score": 922.28,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0013
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Deeper organizational shifts required for large enterprises\nRewiring the champions\nChange management\nRewiring 100+ teams",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "dark teal gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Deeper organizational shifts required for large enterprises",
+            "x": 25.0,
+            "y": 4.0,
+            "w": 54.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Rewiring the champions",
+            "x": 31.0,
+            "y": 62.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Change management",
+            "x": 53.0,
+            "y": 34.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Rewiring 100+ teams",
+            "x": 72.0,
+            "y": 62.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-017.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664259.5577095,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Deeper organizational shifts required for large enterprises\nRewiring the champions\nChange management\nRewiring 100+ teams",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Case study of scaling productivity in top 10 technology company 01010 10101 10101\nTop 10 technology company for long term behavior change Unlocks needed to scale adoption\n一GenAl tool DailyActive Usors(#)一DAU retention(%)\n450 400 350 000 250 200 during training Usage spiked weeks... Nr 35 30 25 20 40 45 and coaching Al and agents Hands-on upskilling Resetexpectations of\n150 100 50...but many unlocks sustain behavior were nceded to change 15 10 Spark grassroots movement\nOct Nov Dec Jan Feb Mar Ap May Jun Jul system Build measurement\nMcXrsoy &Company 18\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart labels, annotations, and the right-side unlock list are dense enough that OCR is the better first pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal gradient",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Case study of scaling productivity in top 10 technology company",
+            "x": 25.0,
+            "y": 4.0,
+            "w": 54.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Top 10 technology company",
+            "x": 26.0,
+            "y": 17.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "GenAI tool Daily Active Users (#) - DAU retention (%)",
+            "x": 27.0,
+            "y": 23.0,
+            "w": 31.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Usage spiked during training weeks...",
+            "x": 35.0,
+            "y": 38.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "...but many unlocks were needed to sustain behavior change",
+            "x": 54.0,
+            "y": 58.0,
+            "w": 17.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Unlocks needed to scale adoption for long term behavior change",
+            "x": 73.0,
+            "y": 16.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Reset expectations of AI and agents",
+            "x": 78.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Hands-on upskilling and coaching",
+            "x": 78.0,
+            "y": 44.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Spark grassroots movement",
+            "x": 78.0,
+            "y": 57.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Build measurement system",
+            "x": 78.0,
+            "y": 71.0,
+            "w": 18.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-018.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664259.5588505,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Case study of scaling productivity in top 10 technology company 01010 10101 10101\nTop 10 technology company for long term behavior change Unlocks needed to scale adoption\n一GenAl tool DailyActive Usors(#)一DAU retention(%)\n450 400 350 000 250 200 during training Usage spiked weeks... Nr 35 30 25 20 40 45 and coaching Al and agents Hands-on upskilling Resetexpectations of\n150 100 50...but many unlocks sustain behavior were nceded to change 15 10 Spark grassroots movement\nOct Nov Dec Jan Feb Mar Ap May Jun Jul system Build measurement\nMcXrsoy &Company 18\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 993.4
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Case study of scaling productivity in top 10 technology company 01010 10101 10101\nTop 10 technology company for long term behavior change Unlocks needed to scale adoption\n一GenAl tool DailyActive Usors(#)一DAU retention(%)\n450 400 350 000 250 200 during training Usage spiked weeks... Nr 35 30 25 20 40 45 and coaching Al and agents Hands-on upskilling Resetexpectations of\n150 100 50...but many unlocks sustain behavior were nceded to change 15 10 Spark grassroots movement\nOct Nov Dec Jan Feb Mar Ap May Jun Jul system Build measurement\nMcXrsoy &Company 18\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Holistic measurement system to evaluate enterprise-wide change\nOutcomes\nVelocity Capacity Security Quality Resiliency\nsndnos Breadth and depth of adoption Number of people upskilled Developer NPS and attrition rate\nInputs SinvestmentinAcoding/devtools Sandtimeinvestedintraining/ upskilling programs Sand time inchange managemeny op model ransformation\nMcKrsny & Company 21\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHAMANIAR McKinsey & Company",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense mixed-layout slide with diagram labels, small body text, and a stage-crop composition that is better handled by OCR than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark navy with left photo strip",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Holistic measurement system to evaluate enterprise-wide change",
+            "x": 26.0,
+            "y": 6.0,
+            "w": 62.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Outcomes",
+            "x": 25.0,
+            "y": 35.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Velocity",
+            "x": 31.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "Capacity",
+            "x": 48.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "Security",
+            "x": 63.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "Quality",
+            "x": 78.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "Resiliency",
+            "x": 92.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 13.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Outputs",
+            "x": 25.0,
+            "y": 53.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Breadth and depth of adoption",
+            "x": 33.0,
+            "y": 54.0,
+            "w": 19.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Number of people upskilled",
+            "x": 55.0,
+            "y": 54.0,
+            "w": 19.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Developer NPS and attrition rate",
+            "x": 79.0,
+            "y": 54.0,
+            "w": 22.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Inputs",
+            "x": 25.0,
+            "y": 69.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "$ investment in AI coding/ dev tools",
+            "x": 33.0,
+            "y": 70.0,
+            "w": 19.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "$ and time invested in training/ upskilling programs",
+            "x": 55.0,
+            "y": 70.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "$ and time invested in change management/ op model transformation",
+            "x": 79.0,
+            "y": 70.0,
+            "w": 23.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+            "x": 26.0,
+            "y": 88.0,
+            "w": 53.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-019.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664369.652107,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Holistic measurement system to evaluate enterprise-wide change\nOutcomes\nVelocity Capacity Security Quality Resiliency\nsndnos Breadth and depth of adoption Number of people upskilled Developer NPS and attrition rate\nInputs SinvestmentinAcoding/devtools Sandtimeinvestedintraining/ upskilling programs Sand time inchange managemeny op model ransformation\nMcKrsny & Company 21\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHAMANIAR McKinsey & Company",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 728.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Holistic measurement system to evaluate enterprise-wide change\nOutcomes\nVelocity Capacity Security Quality Resiliency\nsndnos Breadth and depth of adoption Number of people upskilled Developer NPS and attrition rate\nInputs SinvestmentinAcoding/devtools Sandtimeinvestedintraining/ upskilling programs Sand time inchange managemeny op model ransformation\nMcKrsny & Company 21\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHAMANIAR McKinsey & Company",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/SZStlIhyTCY/slide-019.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.9,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage shot with presenters and conference signage, not a readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide frame.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "glass atrium with light gray floor and red stage circle",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 66.0,
+            "y": 36.0,
+            "w": 25.0,
+            "h": 25.0
+          },
+          {
+            "role": "caption",
+            "text": "November 20, 2025\nAIE Code Summit",
+            "x": 35.0,
+            "y": 2.0,
+            "w": 15.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-001.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663335.7702713,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage camera shot with speakers on stage, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "green atrium with stage",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-008.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663612.9862816,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "other",
+      "reject_reason": "Audience shot, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark audience seating",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-012.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663839.2432091,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "brand/title splash, not a substantive presentation content slide",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "Logo/title splash rather than slide content.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer",
+            "x": 43.0,
+            "y": 34.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Code Summit",
+            "x": 29.0,
+            "y": 41.0,
+            "w": 42.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "https://ai.engineer",
+            "x": 33.0,
+            "y": 61.0,
+            "w": 34.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-020.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664454.5092545,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

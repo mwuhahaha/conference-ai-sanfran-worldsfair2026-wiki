@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Vicious Cycle\n1. Build RAG systems for flawed benchmarks\n2. Celebrate our awesome benchmark scores\n3. Watch real users struggle\n4. Create new benchmarks with the same problems\n5. Rinse and repeat",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large readable slide text is simple enough to read directly.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "off-white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Vicious Cycle",
+        "x": 2.0,
+        "y": 14.0,
+        "w": 25.0,
+        "h": 30.0
+      },
+      {
+        "role": "body",
+        "text": "1. Build RAG systems for flawed benchmarks\n2. Celebrate our awesome benchmark scores\n3. Watch real users struggle\n4. Create new benchmarks with the same problems\n5. Rinse and repeat",
+        "x": 31.0,
+        "y": 6.0,
+        "w": 55.0,
+        "h": 72.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/Ywl4LsvHKzU/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665559.8471632,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Vicious Cycle\n1. Build RAG systems for flawed benchmarks\n2. Celebrate our awesome benchmark scores\n3. Watch real users struggle\n4. Create new benchmarks with the same problems\n5. Rinse and repeat",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THEPROBLEM\nThe pattern you already know\nAIE Weeks1-4 Weeks4-8 Weeks8-12 Week14 Month6\nPickmodels. Build features. Looks great. Demo.toleaders. Sign-off. Ship. b's'-ing us?\" \"WhyisAl failedlastyear. sSin projects\nSound familiar? You're not here because you haven't seen this. You're here because you want to stop it.\nAlEngin\nCURCPE\nAEngivoer Engineering thefuture of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "small timeline labels and caption text across a multi-element slide",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "deep navy with black lower band and teal accents",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 19.0
+      },
+      {
+        "role": "caption",
+        "text": "THE PROBLEM",
+        "x": 29.0,
+        "y": 3.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "The pattern you already know",
+        "x": 28.0,
+        "y": 8.0,
+        "w": 50.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Weeks 1-4",
+        "x": 28.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 20.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Weeks 4-8",
+        "x": 43.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 20.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Weeks 8-12",
+        "x": 58.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 20.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Week 14",
+        "x": 73.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 20.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Month 6",
+        "x": 87.0,
+        "y": 31.0,
+        "w": 11.0,
+        "h": 20.0
+      },
+      {
+        "role": "caption",
+        "text": "Sound familiar? You're not here because you haven't seen this. You're here because you want to stop it.",
+        "x": 29.0,
+        "y": 66.0,
+        "w": 62.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 48.0,
+        "y": 86.0,
+        "w": 31.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/ObTPqBGsEbA/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662653.8320503,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "The pattern you already know",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "THEPROBLEM\nThe pattern you already know\nAIE Weeks1-4 Weeks4-8 Weeks8-12 Week14 Month6\nPickmodels. Build features. Looks great. Demo.toleaders. Sign-off. Ship. b's'-ing us?\" \"WhyisAl failedlastyear. sSin projects\nSound familiar? You're not here because you haven't seen this. You're here because you want to stop it.\nAlEngin\nCURCPE\nAEngivoer Engineering thefuture of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 593.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "THEPROBLEM\nThe pattern you already know\nAIE Weeks1-4 Weeks4-8 Weeks8-12 Week14 Month6\nPickmodels. Build features. Looks great. Demo.toleaders. Sign-off. Ship. b's'-ing us?\" \"WhyisAl failedlastyear. sSin projects\nSound familiar? You're not here because you haven't seen this. You're here because you want to stop it.\nAlEngin\nCURCPE\nAEngivoer Engineering thefuture of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

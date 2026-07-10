@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "GEPA\nAesa AdSOB Garo Cool features::\ndspy.GEPA: Reflective Prompt Optimizer\nTlot. corponand (toch si promot) ot aborsry tytmn. tn adodon io tceler tcorts rrurmd ty mtnil svr! CEPA (CecateParre) t & trlsco optmLer propod h *CCPA Pelacin+ Pomoe EvoAtoA Can Cutp+iam Rehndortem+at Leng' (Agat t 1, 20ls *na 2so7 ith5?, tut acapoty totm boat optimization Evolutionary\nTita an. P.ory!. T, 004, t++t ++h. admty hoe is mprte the acle. Ths elm, G Pt to plopme Nigh peranng progt vry Ilar tolat. povides CEPA ont rebty into tty ie wyn got te tegt dm t (d. ard thm GEPA cA introspeet to False, to.uandh: Del = Falet, Eand.apilkay: str l bori = Meo+.!:a, Fslse, marn_oa,scort_alsaatch! boal. Ire., wee.alflos:, boel + Fale. confidete'selectica stratogy! Literell 'ssrete'.'current bust'] '?: Trve. sdd_forut foilure_as_feedhrchi? bo! o falo'sInstruetien prepesar? mr matrie_calls: Lat I Mone = mono, rotloctien_mtntbstch_siro? iat'- 3,:T str's,rmnd rebin'. wo_erpe: bool s Trut, x aorge,lmtcatioms: 1nt. I yoe.., oum_tbresds! iat I Mora - Moee. teilura. seore: float - +.o. Prop+ehIfa: 1 Nore.*. +++d: Int 1 Mare + e, portect, icoei. flost o 1.o, 1oa.d!r: s.r - nooo. treckatats: seor o. - Icog sosoon'seysesdprn 'ooou o ouon I un':at worasetou.ontd, EImus:g lapy. GePa(matric: cepAFeetbnchh trto? 'ttlua'. \"+heory'I't kone e Mone. aax full.evoles 1nt'] More o bon, Mooe, coaponant_+loctor: tafltcticaCoeponeatsslector (ouou e ason I satp ttbjia.'ed+a. uoti.11tm rona But...: candidate selection' of prompts Probabilistic merging Pareto-based\n^arlzo I Sngaitir 4orty 120251122,12:47:13",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Screenshot of a product/document page with code and small text; OCR is better suited than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "GEPA",
+        "x": 1.0,
+        "y": 0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "DSPy GEPA Reflective Prompt Optimizer",
+        "x": 17.0,
+        "y": 18.0,
+        "w": 35.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Evolutionary optimization\nPareto-based candidate selection\nProbabilistic merging of prompts\nBut...",
+        "x": 74.0,
+        "y": 15.0,
+        "w": 22.0,
+        "h": 44.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664151.9055495,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "GEPA",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "GEPA\nAesa AdSOB Garo Cool features::\ndspy.GEPA: Reflective Prompt Optimizer\nTlot. corponand (toch si promot) ot aborsry tytmn. tn adodon io tceler tcorts rrurmd ty mtnil svr! CEPA (CecateParre) t & trlsco optmLer propod h *CCPA Pelacin+ Pomoe EvoAtoA Can Cutp+iam Rehndortem+at Leng' (Agat t 1, 20ls *na 2so7 ith5?, tut acapoty totm boat optimization Evolutionary\nTita an. P.ory!. T, 004, t++t ++h. admty hoe is mprte the acle. Ths elm, G Pt to plopme Nigh peranng progt vry Ilar tolat. povides CEPA ont rebty into tty ie wyn got te tegt dm t (d. ard thm GEPA cA introspeet to False, to.uandh: Del = Falet, Eand.apilkay: str l bori = Meo+.!:a, Fslse, marn_oa,scort_alsaatch! boal. Ire., wee.alflos:, boel + Fale. confidete'selectica stratogy! Literell 'ssrete'.'current bust'] '?: Trve. sdd_forut foilure_as_feedhrchi? bo! o falo'sInstruetien prepesar? mr matrie_calls: Lat I Mone = mono, rotloctien_mtntbstch_siro? iat'- 3,:T str's,rmnd rebin'. wo_erpe: bool s Trut, x aorge,lmtcatioms: 1nt. I yoe.., oum_tbresds! iat I Mora - Moee. teilura. seore: float - +.o. Prop+ehIfa: 1 Nore.*. +++d: Int 1 Mare + e, portect, icoei. flost o 1.o, 1oa.d!r: s.r - nooo. treckatats: seor o. - Icog sosoon'seysesdprn 'ooou o ouon I un':at worasetou.ontd, EImus:g lapy. GePa(matric: cepAFeetbnchh trto? 'ttlua'. \"+heory'I't kone e Mone. aax full.evoles 1nt'] More o bon, Mooe, coaponant_+loctor: tafltcticaCoeponeatsslector (ouou e ason I satp ttbjia.'ed+a. uoti.11tm rona But...: candidate selection' of prompts Probabilistic merging Pareto-based\n^arlzo I Sngaitir 4orty 120251122,12:47:13",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2038.64
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "GEPA\nAesa AdSOB Garo Cool features::\ndspy.GEPA: Reflective Prompt Optimizer\nTlot. corponand (toch si promot) ot aborsry tytmn. tn adodon io tceler tcorts rrurmd ty mtnil svr! CEPA (CecateParre) t & trlsco optmLer propod h *CCPA Pelacin+ Pomoe EvoAtoA Can Cutp+iam Rehndortem+at Leng' (Agat t 1, 20ls *na 2so7 ith5?, tut acapoty totm boat optimization Evolutionary\nTita an. P.ory!. T, 004, t++t ++h. admty hoe is mprte the acle. Ths elm, G Pt to plopme Nigh peranng progt vry Ilar tolat. povides CEPA ont rebty into tty ie wyn got te tegt dm t (d. ard thm GEPA cA introspeet to False, to.uandh: Del = Falet, Eand.apilkay: str l bori = Meo+.!:a, Fslse, marn_oa,scort_alsaatch! boal. Ire., wee.alflos:, boel + Fale. confidete'selectica stratogy! Literell 'ssrete'.'current bust'] '?: Trve. sdd_forut foilure_as_feedhrchi? bo! o falo'sInstruetien prepesar? mr matrie_calls: Lat I Mone = mono, rotloctien_mtntbstch_siro? iat'- 3,:T str's,rmnd rebin'. wo_erpe: bool s Trut, x aorge,lmtcatioms: 1nt. I yoe.., oum_tbresds! iat I Mora - Moee. teilura. seore: float - +.o. Prop+ehIfa: 1 Nore.*. +++d: Int 1 Mare + e, portect, icoei. flost o 1.o, 1oa.d!r: s.r - nooo. treckatats: seor o. - Icog sosoon'seysesdprn 'ooou o ouon I un':at worasetou.ontd, EImus:g lapy. GePa(matric: cepAFeetbnchh trto? 'ttlua'. \"+heory'I't kone e Mone. aax full.evoles 1nt'] More o bon, Mooe, coaponant_+loctor: tafltcticaCoeponeatsslector (ouou e ason I satp ttbjia.'ed+a. uoti.11tm rona But...: candidate selection' of prompts Probabilistic merging Pareto-based\n^arlzo I Sngaitir 4orty 120251122,12:47:13",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

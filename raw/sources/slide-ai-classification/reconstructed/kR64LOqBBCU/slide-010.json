@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "/Users/idosal/ciaude-rts/s.\nALLIANCE PANEL Remote Access Share your battiefleld via link Openy. Mag'tuk Mag'grim READ READ\nChannels 1 bot configured for pairings. Open'x △ 2 agents accessed this file\nMeH x Open'). +26 -1'COMMITTED\nMulti-machine agent federation c0 -190,7 +190,7 c0 export interface TaskSpec\nACTIVE LOOPS -215.6+215.7c0 export interface TaskPlan OrchestratorGuidance?: string executorType?e claude [ 'opencode ↑ executorType? Qclaude ( Copencode ( d extraVolumes?: Array<f host: string: con! templateId?: string planMarkdown?e string CampaignBranch?: string ContainerMode?: boolean round?: number",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Split-pane dashboard and code diff screenshot with small monospace text; OCR is needed for reliable reading.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "green terrain with dark code editor panes",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "ALLIANCE PANEL",
+        "x": 7.0,
+        "y": 11.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Remote Access",
+        "x": 10.0,
+        "y": 20.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Channels",
+        "x": 10.0,
+        "y": 31.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Hall",
+        "x": 10.0,
+        "y": 42.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "ACTIVE LOOPS",
+        "x": 8.0,
+        "y": 56.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Mag'tuk",
+        "x": 55.0,
+        "y": 8.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Mag'grim",
+        "x": 55.0,
+        "y": 18.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "2 agents accessed this file",
+        "x": 53.0,
+        "y": 38.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "export interface TaskSpec",
+        "x": 53.0,
+        "y": 46.0,
+        "w": 33.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "export interface TaskPlan",
+        "x": 53.0,
+        "y": 68.0,
+        "w": 31.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-010.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669791.5187185,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "/Users/idosal/ciaude-rts/s.\nALLIANCE PANEL Remote Access Share your battiefleld via link Openy. Mag'tuk Mag'grim READ READ\nChannels 1 bot configured for pairings. Open'x △ 2 agents accessed this file\nMeH x Open'). +26 -1'COMMITTED\nMulti-machine agent federation c0 -190,7 +190,7 c0 export interface TaskSpec\nACTIVE LOOPS -215.6+215.7c0 export interface TaskPlan OrchestratorGuidance?: string executorType?e claude [ 'opencode ↑ executorType? Qclaude ( Copencode ( d extraVolumes?: Array<f host: string: con! templateId?: string planMarkdown?e string CampaignBranch?: string ContainerMode?: boolean round?: number",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 752.69
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "/Users/idosal/ciaude-rts/s.\nALLIANCE PANEL Remote Access Share your battiefleld via link Openy. Mag'tuk Mag'grim READ READ\nChannels 1 bot configured for pairings. Open'x △ 2 agents accessed this file\nMeH x Open'). +26 -1'COMMITTED\nMulti-machine agent federation c0 -190,7 +190,7 c0 export interface TaskSpec\nACTIVE LOOPS -215.6+215.7c0 export interface TaskPlan OrchestratorGuidance?: string executorType?e claude [ 'opencode ↑ executorType? Qclaude ( Copencode ( d extraVolumes?: Array<f host: string: con! templateId?: string planMarkdown?e string CampaignBranch?: string ContainerMode?: boolean round?: number",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

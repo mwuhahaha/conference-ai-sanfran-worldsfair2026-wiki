@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Friendly Repo\nAgent Context\n25",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI Friendly Repo",
+        "x": 8.0,
+        "y": 19.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent Context",
+        "x": 7.0,
+        "y": 37.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "25",
+        "x": 12.0,
+        "y": 78.0,
+        "w": 4.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/whue9_YquGA/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672554.8682792,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Friendly Repo\nAgent Context\n25",
+  "advanced_ocr": {}
+}

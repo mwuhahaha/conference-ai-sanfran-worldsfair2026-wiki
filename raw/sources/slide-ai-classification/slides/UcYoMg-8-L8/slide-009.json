@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "2 – DS-tracker\nWHAT\nDesign System tracker - one place to browse, preview, and search for design components, with links and status.\nTEAM\nDiscovery: 3 people\nDesign and build: Solo",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#0b0f14",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "2 – DS-tracker",
+        "x": 3.0,
+        "y": 4.0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "WHAT",
+        "x": 3.0,
+        "y": 40.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Design System tracker - one place to browse, preview, and search for design components, with links and status.",
+        "x": 3.0,
+        "y": 45.0,
+        "w": 40.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "TEAM",
+        "x": 3.0,
+        "y": 67.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Discovery: 3 people\nDesign and build: Solo",
+        "x": 3.0,
+        "y": 72.0,
+        "w": 24.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/UcYoMg-8-L8/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664973.5927196,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "2 – DS-tracker\nWHAT\nDesign System tracker - one place to browse, preview, and search for design components, with links and status.\nTEAM\nDiscovery: 3 people\nDesign and build: Solo",
+  "advanced_ocr": {}
+}

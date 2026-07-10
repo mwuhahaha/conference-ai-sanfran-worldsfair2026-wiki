@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Messages\nTools\nSystem Prompt\nFigma\nModel",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple small diagram; labels are directly readable without OCR.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Messages",
+        "x": 10.0,
+        "y": 31.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 10.0,
+        "y": 40.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Prompt",
+        "x": 10.0,
+        "y": 48.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "Figma",
+        "x": 10.0,
+        "y": 56.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 10.0,
+        "y": 66.0,
+        "w": 18.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-017.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672139.0899959,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Messages\nTools\nSystem Prompt\nFigma\nModel",
+  "advanced_ocr": {}
+}

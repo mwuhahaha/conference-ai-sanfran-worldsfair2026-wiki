@@ -1,0 +1,1677 @@
+{
+  "video_id": "-x5GEVnkuRw",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 23,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "We've got a lot to cover today!\nWait, so 85% of the world's data is... unstructured?!",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple, large text; OCR not needed.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "We've got a lot to cover today!",
+            "x": 31.0,
+            "y": 6.0,
+            "w": 38.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "PDF",
+            "x": 3.0,
+            "y": 22.0,
+            "w": 7.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Wait, so 85% of the world's data is... unstructured?!",
+            "x": 4.0,
+            "y": 59.0,
+            "w": 20.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655418.6003015,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "We've got a lot to cover today!\nWait, so 85% of the world's data is... unstructured?!",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "We've got a lot to cover today!\nBut current solutions are proprietary, and require sending your private data!\nlet's learn about extraction, parsing, chunking, and much more!\nSo, how can we easily parse charts, graphs, tables, etc to formats",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Readable slide with mixed visuals; OCR not needed in triage.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "We've got a lot to cover today!",
+            "x": 31.0,
+            "y": 5.0,
+            "w": 38.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "But current solutions are proprietary, and require sending your private data!",
+            "x": 35.0,
+            "y": 32.0,
+            "w": 29.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "let's learn about extraction, parsing, chunking, and much more!",
+            "x": 28.0,
+            "y": 60.0,
+            "w": 28.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "So, how can we easily parse charts, graphs, tables, etc to formats",
+            "x": 61.0,
+            "y": 82.0,
+            "w": 36.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655418.6006641,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "We've got a lot to cover today!\nBut current solutions are proprietary, and require sending your private data!\nlet's learn about extraction, parsing, chunking, and much more!\nSo, how can we easily parse charts, graphs, tables, etc to formats",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Data is the key ingredient behind AI applications!\nTechnical Documentation\nMeeting Minutes\nFinancial Documents",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large, simple labels; OCR not necessary.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Data is the key ingredient behind AI applications!",
+            "x": 18.0,
+            "y": 6.0,
+            "w": 64.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Technical Documentation",
+            "x": 10.0,
+            "y": 83.0,
+            "w": 21.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Meeting Minutes",
+            "x": 39.0,
+            "y": 82.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Financial Documents",
+            "x": 66.0,
+            "y": 59.0,
+            "w": 18.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655418.630962,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Data is the key ingredient behind AI applications!\nTechnical Documentation\nMeeting Minutes\nFinancial Documents",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Data is the key ingredient behind AI applications!\nTechnical Documentation\nMeeting Minutes\nFinancial Documents\nKnowledge Base Articles\nPowering:\nRAG (Document Q&A)\nFine-Tuning\netc.\n+ much more!",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple slide with logos and labels; not worth OCR in triage.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Data is the key ingredient behind AI applications!",
+            "x": 18.0,
+            "y": 6.0,
+            "w": 64.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Technical Documentation",
+            "x": 8.0,
+            "y": 83.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Meeting Minutes",
+            "x": 28.0,
+            "y": 57.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Financial Documents",
+            "x": 54.0,
+            "y": 49.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Knowledge Base Articles",
+            "x": 57.0,
+            "y": 84.0,
+            "w": 19.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Powering:\nRAG (Document Q&A)\nFine-Tuning\netc.",
+            "x": 77.0,
+            "y": 26.0,
+            "w": 18.0,
+            "h": 29.0
+          },
+          {
+            "role": "body",
+            "text": "+ much more!",
+            "x": 27.0,
+            "y": 90.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655418.6315427,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Data is the key ingredient behind AI applications!\nTechnical Documentation\nMeeting Minutes\nFinancial Documents\nKnowledge Base Articles\nPowering:\nRAG (Document Q&A)\nFine-Tuning\netc.\n+ much more!",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Data processing & prep is quite important!",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Title is large; embedded screenshot text is small and not the main evidence.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Data processing & prep is quite important!",
+            "x": 18.0,
+            "y": 6.0,
+            "w": 60.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "tweet screenshot",
+            "x": 4.0,
+            "y": 17.0,
+            "w": 28.0,
+            "h": 52.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655418.6318033,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Data processing & prep is quite important!",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Data processing & prep is quite important!",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense embedded text excerpts and a highlighted quote make this OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Data processing & prep is quite important!",
+            "x": 23.0,
+            "y": 6.0,
+            "w": 54.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 7.0,
+            "y": 29.0,
+            "w": 40.0,
+            "h": 39.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 39.0,
+            "y": 25.0,
+            "w": 53.0,
+            "h": 45.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655694.8014317,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Data processing & prep is quite important!",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Data processing & prep is quite important!\nxmie yoa Pp oa(ro onll dLL \"touods suuy hlch 'thus becomes a spornngium. Ie ia by bo strate for the lytio cnsyme present in spores. mcgolera by the aetion of thbe entyme from B. latect sutinr sooses -an teei unui tlnra tt tnta ratannem ans Integnated at pll 7.0. Peptide Wus releued hlch crtablisbed that tbe couts cootulned sub. Peptide tu also relcaed from spore coet of B. forms the cwosporium which exisl au la outer cell ll when the sporo 'releued.: In Clos his structure retained as An outer membrn Lround the spore. It ls the opinlon of socae o u+d po tt tqt Loddt 1l opods in rorkera thst the wall of the sporulating cell The spore derelope in the regetative cell; Ant poajomp nn Tn mgruodn sq jo nd to sllow releue o the spore. It sppcars likely thnt the eosporium of B. cerrw doos not hate 0 compouitlon rimiiar to that of the regetelire cell wal, from the reults obtained by Dr. J. R. cereus sporas nna eairnd de elflelt by mene of ghrironmiaranany.No tidenoe o tiir of the eosporum wos obcy Yrcelaths cel wal shen the ipore bsre'eased.in Clostidiun ptciest apoeans thut at ltust pit of this srveture ts recained as ar Hkgduouy auAua y po uopeedad aynve Aubty e Lp saods palean ot (copesunuuoo jecoshd) Atsayun spvan yo sEon The spore deveops n the vegeutit crl, which th.t becomes a sporangium, t is by no meane ceran what happere to tht outer meinbrane tround tha spore, it is the oprion a somt soreru thyr te wel a tha sporbtng cel foims the tosporum rhich Conluded that at ttst put of thie sparang'ad yal wau dasotild araly ta ahoe release o the spore. T anntann Hoely turt ths cnsporum of B ceees doe not hame a compoition srlir to thet o the vegetltie oel wal, from the resuitu oonined by Dx, LL R. stueture app+red to b+ absert from sportrs of B. rsgsteriun and B. tubtlt. k serrr, however, that n Baalhus spooit at least. txists as an outer coat around spores cf sevtral Bachus species. Spores of seteral varetet cf B. cereus hsd ensporia whereas these dumnopimelc Itcd (8). Prpit shomed bart a large incrtit h the concerraton of thet pubstarcts ih the curture fltrate",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2917.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Data processing & prep is quite important!",
+        "text_status": "meaningful",
+        "corrections": "Accepted the title; the body text is too small/noisy to correct reliably."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "So, let’s try a simple PDF parser...\nVery fast and cheap\nIncomplete\nLoss of structure\nNoisy\nUnfit for most use cases",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "So, let’s try a simple PDF parser...",
+            "x": 27.0,
+            "y": 6.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 4.0,
+            "y": 25.0,
+            "w": 28.0,
+            "h": 58.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 37.0,
+            "y": 25.0,
+            "w": 27.0,
+            "h": 58.0
+          },
+          {
+            "role": "body",
+            "text": "Very fast and cheap\nIncomplete\nLoss of structure\nNoisy\nUnfit for most use cases",
+            "x": 69.0,
+            "y": 30.0,
+            "w": 27.0,
+            "h": 42.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655933.4982736,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "So, let’s try a simple PDF parser...\nVery fast and cheap\nIncomplete\nLoss of structure\nNoisy\nUnfit for most use cases",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "But powerful frontier models? Not bad!\nGood quality and robustness\nExpensive (for now)\nHard to achieve consistent structured output\nPossible hallucinations\nVery costly at scale\nnot always faithful",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "The slide contains multiple dense document screenshots and small table text that are better suited to OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "But powerful frontier models? Not bad!",
+            "x": 25.0,
+            "y": 6.0,
+            "w": 51.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 4.0,
+            "y": 26.0,
+            "w": 28.0,
+            "h": 57.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 37.0,
+            "y": 24.0,
+            "w": 31.0,
+            "h": 58.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 70.0,
+            "y": 28.0,
+            "w": 25.0,
+            "h": 44.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655933.4988618,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "But powerful frontier models? Not bad!",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "But powerful frontier models? Not bad!\nGood quality and robustness\n4 Expensive (for now)\nHard to achieve consistent\nm 15 structured output\nPossible hallucinations\nVery costly at scale not always faithfy",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 360.8
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "But powerful frontier models? Not bad!\nGood quality and robustness\nExpensive (for now)\nHard to achieve consistent structured output\nPossible hallucinations\nVery costly at scale\nnot always faithful",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide text and corrected obvious OCR errors: removed the stray leading character, fixed structured output, and corrected faithful."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Maybe there’s a middle ground... Welcome to Docling!",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Maybe there’s a middle ground... Welcome to Docling!",
+            "x": 21.0,
+            "y": 6.0,
+            "w": 58.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 4.0,
+            "y": 25.0,
+            "w": 28.0,
+            "h": 58.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 39.0,
+            "y": 24.0,
+            "w": 28.0,
+            "h": 59.0
+          },
+          {
+            "role": "body",
+            "text": "Good quality\nFast and cheap\nFully local operation\nStructured format output\nCost-effective at scale, with consistent representation and high quality",
+            "x": 71.0,
+            "y": 28.0,
+            "w": 25.0,
+            "h": 42.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655992.700687,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Maybe there’s a middle ground... Welcome to Docling!",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Docling: Get your documents ready for gen AI\nAn open source processor using advanced vision models + OCR\nParsing of multiple document formats incl. PDF, DOCX, XLSX, HTML, images, and more\nAdvanced PDF understanding with page layout, reading order, table structure, code, formulas, image classification, etc\nPlug-and-play ecosystem integrations\nLocal execution for sensitive data and air-gapped environments",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Docling: Get your documents ready for gen AI",
+            "x": 21.0,
+            "y": 10.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "An open source processor using advanced vision models + OCR",
+            "x": 21.0,
+            "y": 17.0,
+            "w": 58.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Parsing of multiple document formats incl. PDF, DOCX, XLSX, HTML, images, and more\nAdvanced PDF understanding with page layout, reading order, table structure, code, formulas, image classification, etc\nPlug-and-play ecosystem integrations\nLocal execution for sensitive data and air-gapped environments",
+            "x": 8.0,
+            "y": 31.0,
+            "w": 48.0,
+            "h": 44.0
+          },
+          {
+            "role": "logo",
+            "text": "Docling",
+            "x": 59.0,
+            "y": 23.0,
+            "w": 15.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655992.7015877,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Docling: Get your documents ready for gen AI\nAn open source processor using advanced vision models + OCR\nParsing of multiple document formats incl. PDF, DOCX, XLSX, HTML, images, and more\nAdvanced PDF understanding with page layout, reading order, table structure, code, formulas, image classification, etc\nPlug-and-play ecosystem integrations\nLocal execution for sensitive data and air-gapped environments",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Docling: Scale, cost, and performance\n\n475,019,140 PDFs parsed end-to-end\n1,733 languages represented\n~3 trillion tokens (~2,918B) extracted\n3.65 TB of high-quality, deduplicated text\nData spanning 2013-2025 across 105 CommonCrawl snapshots\n\n918/368*750/35 = 50\nDocling is 50 times more\ncost-effective than VLMs!!",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "The slide has a complex flowchart, small table text, and dense metrics that are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Docling: Scale, cost, and performance",
+            "x": 26.0,
+            "y": 6.0,
+            "w": 47.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 6.0,
+            "y": 21.0,
+            "w": 27.0,
+            "h": 63.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 34.0,
+            "y": 21.0,
+            "w": 32.0,
+            "h": 63.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 67.0,
+            "y": 23.0,
+            "w": 28.0,
+            "h": 54.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655992.7064443,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Docling: Scale, cost, and performance",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Docling: Scale, cost; and performance\nLendro ton Yhrs G: t\nM:6\nv1tTOCA HLEE R + MLR CTUT, TTE > 4C tu + L TC, h Lt- t'*+eh bt*ood Ra drr 1 3:a Aos t (2 +a + $$om 0 1,733 languages represented M 3.65 TB of hlgh-quality, dedupllcated text: Data spanning 2013-2025 across 105 -3 trillion tokens (-2,918B) extracted 475,019,140 PDFs parsed end-to-end\nExtraction Delt hap+ itl rt-uA'L FinePDFs CommonCrawl srapshots 918/368*750/35 = 50\nCaring 3I ot tu tetel tatm hem Port\nDocling is 50 times more\ncost-effective than VLMs!!\nFine PDFs Fhe pofe",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 692.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Docling: Scale, cost, and performance\n\n475,019,140 PDFs parsed end-to-end\n1,733 languages represented\n~3 trillion tokens (~2,918B) extracted\n3.65 TB of high-quality, deduplicated text\nData spanning 2013-2025 across 105 CommonCrawl snapshots\n\n918/368*750/35 = 50\nDocling is 50 times more\ncost-effective than VLMs!!",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide title and main metrics; corrected obvious OCR errors and omitted tiny decorative diagram text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Docling: More than simple Document Conversion\n\nQuarter  Agency  Non-Agency  MSR  Mortgage Loan Conduit\nQ1-15  45%  34%  10%  11%\nQ2-15  44%  43%  11%  12%\nQ3-15  41%  30%  12%  13%\nQ4-15  35%  27%  14%  16%",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-panel slide with small code, chart, table, and paragraph text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Docling: More than simple Document Conversion",
+            "x": 18.0,
+            "y": 7.0,
+            "w": 64.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "uv run docling --from pdf --to html_split_page",
+            "x": 6.0,
+            "y": 22.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Meta",
+            "x": 70.0,
+            "y": 33.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Bar Chart",
+            "x": 63.0,
+            "y": 81.0,
+            "w": 10.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656118.9306428,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Docling: More than simple Document Conversion",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Docling: More than simple Document Conversion\n(1%\n0+.16 01-11 0%-18\nThe prvddchartaro sabar chaatspy daa ac7ss fourqarersQ1-15.Q2-15,03-15,and 04-15.Te chat oes Me\ns00%.Eachbsrssegmecded Itoderentcolcrs.eachcegresentinga specilccategory.Agency Rbs(lghr bion)Non-Agency\ne largest,coprng 45%cfte totfolowod ty NonAgencyRvBSat34%,MSR10%,MonageLoan Conautat 11%, larpesta27%,wthAgencyRv88at35%.MsRangMongage LoanCondutbohokres o14%ang16%,repectveg.wtie wteAgency RBscecses44%.MRangMertageLoanCondu boprmain 11%angCamrercal staysat1% 03-15,eNonAgncyR8Scaegorylrerincreeso3%,AgncyRM8sdeceso41%.MSRrsbo12%h ang Commercial at 1%.Movng Q2.15,he NooAgecy RMBs celegory noreases to 43%,bocoming Delargest seymert Mongage LoanCondutincreasesot3%.andCommercialmgs o4%ByO4s,e NonAgexcyRvBScategory is e\nQurns.Tempdngmvaeoourvedis 45%orAgencyRMsnQ1-15.and Pgmnium valuea5%SorComeercl inBo o27%o43%，M5Rfom10%14%.MotLoanCondom 11%016%，andCommo1%008%.Techt Q1.t5andQ2-15Therangesforeachcetegoryareasfolows:AgencyRMBSrangesfon35%to45%,Noo-AgencyRBS ehecivnyBlusrates se siingpropcrions of Pese cadogores overPe sgecled Eimeperod Bar chan\nQuanter Agency NenAgercy MSR WortgageLornConeuin\nQ1-15 45% 34% 10% 11%\nQ2-15 4% 43% 11% 12%\nQ3-15 41% 30% 12% 13%\n04-15 %5 27% 14% 16%",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1196.74
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Docling: More than simple Document Conversion\n\nQuarter  Agency  Non-Agency  MSR  Mortgage Loan Conduit\nQ1-15  45%  34%  10%  11%\nQ2-15  44%  43%  11%  12%\nQ3-15  41%  30%  12%  13%\nQ4-15  35%  27%  14%  16%",
+        "text_status": "meaningful",
+        "corrections": "Accepted the clear title and corrected the visible table; omitted illegible body copy."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Docling: More than simple Document Conversion\n\ninvoice_dict = {\n  'bill number': 'string',\n  'total invoice price': 'float',\n  'currency of total invoice price': 'string',\n  'name of invoice addressee': 'string',\n  'name of invoice sender': 'string'\n}\n\n{\n  'bill number': '01234',\n  'total invoice price': 550,\n  'currency of total invoice price': 'USD',\n  'name of invoice addressee': 'Jonathan Patterson',\n  'name of invoice sender': 'Eventure Event Planner'\n}",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Document extraction example with code, form image, and structured output text that benefits from OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Docling: More than simple Document Conversion",
+            "x": 18.0,
+            "y": 7.0,
+            "w": 64.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "invoice_data = {",
+            "x": 6.0,
+            "y": 73.0,
+            "w": 38.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "hello",
+            "x": 22.0,
+            "y": 18.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "bill number",
+            "x": 61.0,
+            "y": 34.0,
+            "w": 14.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-014.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656201.7126815,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Docling: More than simple Document Conversion",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/contrast",
+        "text": "Docling: More than simple Document Conversion\nhello Goxadea\n'bill number':'01234',\n'totalinvoiceprice':550,\n'currency of total invoice price':'uso',\n'name of invoice sender':'Eventure Event Pla 'name ofinvoice addressee':'Jonathan Patter\nf1.( t11 VO 1(\n1dmfOf nvol",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 418.04
+      },
+      "ocr_source": "rapidocr-live/center-82/contrast",
+      "ocr_reconcile": {
+        "text": "Docling: More than simple Document Conversion\n\ninvoice_dict = {\n  'bill number': 'string',\n  'total invoice price': 'float',\n  'currency of total invoice price': 'string',\n  'name of invoice addressee': 'string',\n  'name of invoice sender': 'string'\n}\n\n{\n  'bill number': '01234',\n  'total invoice price': 550,\n  'currency of total invoice price': 'USD',\n  'name of invoice addressee': 'Jonathan Patterson',\n  'name of invoice sender': 'Eventure Event Planner'\n}",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected from the image for title, code labels, and extracted values; obvious errors like 'uso' -> 'USD' and spacing/punctuation were fixed."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "bm-granite-community / docling-workshop\n\ndocling-workshop\nSource code for Docling Workshop\n\n.github\ndocs\nnotebooks\nscripts/regenerate_fixtures\nsrc",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Repository screenshot with many small UI labels and file names that are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f5f5f5",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "docling-workshop",
+            "x": 31.0,
+            "y": 16.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Source code for Docling Workshop",
+            "x": 71.0,
+            "y": 18.0,
+            "w": 23.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "ibm-granite-community / docling-workshop",
+            "x": 9.0,
+            "y": 3.0,
+            "w": 40.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-015.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656249.9302704,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "docling-workshop",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "bm-grante-community I docling-workshop a 28 Q TypeDto serch [o-lli+dllonlaen\n\"> Coda O xtussIl Pulrequttt'.G Agent: O Actons: 田 prolecu:: O: Securlty #nd quslty.. 区 Insights\n. 、.*\ndocling-workshop O whtchiy\nP mln o. H 1 Branch, 1 Ig Q Go w i ii l. Add re: Source code for Dochng Workshop\nbhargrae Merga pus reqursi w112 from bm-grmnte-coremuntyfdapandsbo. P+-oo th+ O:. cte tap z: prargll tbn-gr anite-coumunity.glthub.io...\nglthsb Buno okhubicodtafictlon h tht glthub,tctions group t.!. 3 d tgo D Rtdme\ndoa.:Add coleb socret tcrtn thot to pre-vork Lu month 中 Apkh-20 Ic*e\nD gltgner. urkdowmtt-ci2.yam 口 src: netbootd. prtcanmlt-con'gyam! tcriptsregonerate_fotiros Remore oog-into Sirmplly RAG vpue' grourding wlh Doclng bbont heper! Saltch Rtpfcate modt to grartt-4.1-8b Femove +og-tnto Aemor rotebcoktoutput from rtpo trGonr Add aetion Enting iith zimor and pouint. Updyes to dtpedabot iar grouped updstor.. 3 momhs tgo 3 monihs sgo ote suow g 2 monla sgo 2 mtoks go 6dys go Itst w++k.:☆ 26 stars: Report regository G Curtom propertes 1wtching x aclrty Contributing Y stcrks poxL B\nD D spe check-tr-customltt setioney Add scton Entng with zlzmor and pocint Wre Chunkhi RAb si Lab 4 lnto worichop doc and C! 2 monhs ago Deployments: $t: glthub-pagtt 2 diry bgo\nD UCENSE. m'ie commt. lust yo? ttuounq,uo\nREADME.md Switch Reptcat modd to grarlta-4.1-tb 2 wtels sgo Qieoth re 4earufq\nSwtch to ChromuDe tar vactortore 3monhs ago CiLN cnxbuy oqpxdujE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1920.73
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "bm-granite-community / docling-workshop\n\ndocling-workshop\nSource code for Docling Workshop\n\n.github\ndocs\nnotebooks\nscripts/regenerate_fixtures\nsrc",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide as a GitHub repo screenshot and corrected only the clearly legible repository name, title, and top-level folders."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Import Essential Components\n\nfrom pathlib import Path\n\n# Core Docling imports\nfrom docling.document_converter import DocumentConverter\nfrom docling.datamodel.base_models import InputFormat\nfrom docling.datamodel.pipeline_options import PdfPipelineOptions\nfrom docling.document_converter import PdfFormatOption\n\n# For advanced features\nfrom docling_core.types.doc import ImageRefMode, PictureItem, TableItem, TextItem, DoclingDocument\n\n# For data processing and visualization\nimport matplotlib.pyplot as plt\n\n# Create output directory\noutput_dir = Path(\"output\")\noutput_dir.mkdir(exist_ok=True)\n\nBasic Document Conversion\nMinimal Example\nThe simplest way to convert a document:",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Notebook/code slide with dense imports and code cells that are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#151515",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Import Essential Components",
+            "x": 21.0,
+            "y": 16.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Basic Document Conversion",
+            "x": 21.0,
+            "y": 76.0,
+            "w": 27.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "from docling.document_converter import DocumentConverter",
+            "x": 20.0,
+            "y": 28.0,
+            "w": 50.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-016.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656367.8880796,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Import Essential Components",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Q B Conversion.ipynbMX Token_Cost_Comparison.ipynb M Chunkless_RAG.ipynb M Chunking.ipynb\nDOCLING-WORKSHOP\nnotebooks >fixtures Add Code Add Markdown|Run All Restart Clear All Outputs|Jupyter Variables Outline venv (3.13.7) (Python 3.13.7)\npyproject.toml ①README.md!mkdocs.yml gitignore!.poutine.yml!pre-commit-config.yaml Fconstraints.txt LICENSE!markdownlint-cli2.yaml!.spellcheck.yaml scripts >src F.spellcheck-en-custom.txt Conversion.ipynb Ollama RAG.ipynb Serving.ipynb Chunking.ipynb Conversion_Colab.ipynb MCP_Agents.ipynb RAGipynb Token_Cost_Compari..M Chunkless_RAG.ipynb gitignore ndno< M M [39] MinimalExample BasicDocumentConversion ImportEssentialComponents √0.0s Create output directory output_dir=Path(\"output\") output_dir.mkdir(exist_ok=True) from docling.document_converter import DocumentConverter from docling.datamodel.pipeline_options import PdfPipelineOptions from docling.document_converterimportPdfFormatoption #For advanced features #For data processing and visualization from pathlib import Path Core Docling imports from docling.datamodel.base_models import InputFormat import matplotlib.pyplot as plt Python\nOUTLINE The simplestway toconvertadocument:",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 976.96
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Import Essential Components\n\nfrom pathlib import Path\n\n# Core Docling imports\nfrom docling.document_converter import DocumentConverter\nfrom docling.datamodel.base_models import InputFormat\nfrom docling.datamodel.pipeline_options import PdfPipelineOptions\nfrom docling.document_converter import PdfFormatOption\n\n# For advanced features\nfrom docling_core.types.doc import ImageRefMode, PictureItem, TableItem, TextItem, DoclingDocument\n\n# For data processing and visualization\nimport matplotlib.pyplot as plt\n\n# Create output directory\noutput_dir = Path(\"output\")\noutput_dir.mkdir(exist_ok=True)\n\nBasic Document Conversion\nMinimal Example\nThe simplest way to convert a document:",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide text and corrected obvious OCR errors in the imports and headings; ignored notebook UI chrome."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Your turn: Try your own document\n\nWhat should I try?\n\nTry changing the URL below to a different document.\n\ndocling_paper = \"https://arxiv.org/pdf/2501.17887\"",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Notebook and PDF viewer screenshot with embedded code and small text requiring OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Your turn: Try your own document",
+            "x": 23.0,
+            "y": 18.0,
+            "w": 36.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What should I try?",
+            "x": 23.0,
+            "y": 30.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "docling_paper = \"https://arxiv.org/pdf/...\"",
+            "x": 24.0,
+            "y": 51.0,
+            "w": 25.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-017.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656415.9027286,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Your turn: Try your own document",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Q 8 Conversion.ipynb Mx Token_Cost_Comparison.ip C anev.org G @AskCh\nDOCLING-WORKSHOP ）src notebooks >scripts Chunkless_RAG.ipynb Conversion_Colab.ipynb Conversion.ipynb MCP_Agents.ipynb Ollama RAG.ipynb RAGipynb Serving.ipynb Chunking.ipynb Token_Cost_Compari..M gitignore >fixtures >output -gitignore M M M M+Basic Document Conversion>MYour turn:Try your ownd Add Code AddMarkdown|Run All Restart Clear All Outpu [28] read, a company datasheet, anyPDF on the web- Whatshould I try? Yourturn:Tryyourowndocument The cellbelowuses theDocling technical report as √0.0s docling_paper=\"https://arxiv.org/pdf/250 Sinple conversion example document: Docling Technical Repo try changing the uRL below to a di 2501.17887 Table 1:Versions and configuration options considered for cachtested asset.d 124% Documentsper Category Soence Uastructured Docling Ptets MinerU Marker Asset 2.5.2 0.9.3 0.16.5 Verion 0.3.10 Surya' OCR auto' EasyOCR' hi.res withtae stctre doclayot.yolorapid.table Layout default defaut uration options we consi.When running exper Table 1 provides an o CUDA accelerationin ensure the GPU is visi inference are installec Tables TableForm default\npyproject.toml ①README.md!spellcheck.yaml constraints.txt LICENSE!mkdocs.yml OUTLINE!.poutine.yml!pre-commit-config.yaml F.spelicheck-en-custom.txt!.markdownlint-cli2.yaml [41] [INFO] 2026-06-1615:51:33,734[Rapid0CR]dow [INF0] 2026-06-16 15:51:33,735 [Rapid0CR]main [INF0] 2026-06-16 15:51:33,765 [Rapid0CR] dowm [INF0] 2026-06-16 15:51:33,765 [Rapid0CR]main [INF0] 2026-06-16 15:51:33,764 [Rapid0CR] ba5e [INF0] 2026-06-16 15:51:33,731[Rapid0CR] basc √3.3s TNEO! #Create a converter instance converter=DocumentConverter() #Convertadocument doc=result.document result=converter.convert(docling_paper) 2026- Annual Reports Larw and Regulations Manuals Pages per Category 1554 Categories Maneahs CCPr(mis) Paterts CCMr (mi Science Spec sheets ordered by number ofp 5.4Results Figure3:Distribution of et LAGP 6C",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2019.0
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Your turn: Try your own document\n\nWhat should I try?\n\nTry changing the URL below to a different document.\n\ndocling_paper = \"https://arxiv.org/pdf/2501.17887\"",
+        "text_status": "meaningful",
+        "corrections": "OCR was partially corrected and stripped of notebook/PDF UI noise; kept only the clearly visible slide text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Export Formats and Options\n\nDocling supports multiple export formats with various options:\n\n# Export to different formats (various options available, but called with default ones)\nmarkdown_text = doc.export_to_markdown()\nhtml_text = doc.export_to_html()\njson_dict = doc.export_to_dict()\ndoc_tags = doc.export_to_doctags()\n\n# Save different formats (various options available, some shown)\ndoc.save_as_markdown(\n    image_mode=ImageRefMode.PLACEHOLDER,\n    image_placeholder=\"<!-- my image placeholder -->\",\n    ...\n)",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Notebook slide with code and multi-section text that is better extracted via OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#151515",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Export Formats and Options",
+            "x": 20.0,
+            "y": 18.0,
+            "w": 34.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Docling supports multiple export formats with various options:",
+            "x": 20.0,
+            "y": 30.0,
+            "w": 46.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "doc.export_to_markdown()",
+            "x": 29.0,
+            "y": 47.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-018.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656509.4258592,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Export Formats and Options",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Q。 Conversion.ipynbMX Token_Cost_Comparison.ipynb M Chunkless_RAG.ipynb M Chunking.ipynb\nDOCLING-WORKSHOP notebooks >fixtures Al-Ready Data with DoclingM Basic Document Conversion>M Document Structure Exploration>#Document metadata-important for tracking AddCodeAddMarkdownRunAll Restart ClearAllOutputs|JupyterVariablesOutline venv (3.13.7) (Python 3.13.7)\npyproject.toml ①README.md!.poutine.yml constraints.txt LICENSE!mkdocs.yml gitignore!.pre-commit-config.yaml!.spellcheck.yaml >src!.markdownlint-cli2.yaml F.spellcheck-en-custom.txt >scripts Chunkless_RAG.ipynbM Conversion_Colab.ipynb Converson.pynb MCP_Agents.ipynb Ollama RAG.ipynb Serving.ipynb Token_Cost_Compar.M Chunking.ipynb RAG.ipynb gitignore ndno< M M ExportFormatsandOptions Doclingsupportsmultipleexportformatswithvariousoptions: SectionHeaderItem:Abstract TextItem:We introduce Docling,an easy-to-use,self-contained,MITlicensed,open-source toolkit for document conversion,tr TextItem:Repository-https://github.com/DS4SD/docling TextItem:Converting documentsback into a unified machineprocessable format has been a major challenge for decades due to th TextItem:*These authors contributed equally. SectionHeaderItem:1Introduction markdown_text=doc.export_to_markdown() doc.save_as_markdown( #Export to different formats (various options available,but called with default ones) html_text=doc.export_to_html() json_dict=doc.export_to_dict（) doc_tags=doc.export_to_doctags() #Save different formats(various options available,some showm) output_dir/\"document.nd\", image_mode=ImageRefMode.PLACEHOLDER, image_placeholder=\"<!--my image placeholder Add Code Add Markdown\nOUTLINE JSON",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1348.0
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Export Formats and Options\n\nDocling supports multiple export formats with various options:\n\n# Export to different formats (various options available, but called with default ones)\nmarkdown_text = doc.export_to_markdown()\nhtml_text = doc.export_to_html()\njson_dict = doc.export_to_dict()\ndoc_tags = doc.export_to_doctags()\n\n# Save different formats (various options available, some shown)\ndoc.save_as_markdown(\n    image_mode=ImageRefMode.PLACEHOLDER,\n    image_placeholder=\"<!-- my image placeholder -->\",\n    ...\n)",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR with minor fixes to spacing, hyphenation, and function-name spelling; omitted unclear/truncated lines."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Documents into AI-Ready Data with Docling > M4 Working with Tables > M4 Basic Table Export\n\n# Save as HTML\nwith open(output_dir / f\"table_{table_idx}.html\", \"w\") as fp:\n    fp.write(table.export_to_html(doc=table_doc))\n\nUsage of TableItem.export_to_dataframe() without `doc` argument is deprecated.\nDocument contains 8 tables\n\n## Table 0\nShape: (4, 4)\n\nGeneral | LLaVa-OneVision | Cambrian-7m\n0 General | 276.5K | 881.3K | 1.8M\n1 Language/Captioning | 202.1K | N/A | N/A\n2 Math/Science/Reasoning | 178.4K | 318.0K | 354.5K\n3 Image Comparison | 188.9K | N/A | N/A\n\nUsage of TableItem.export_to_dataframe() without `doc` argument is deprecated.\n\n## Table 1\nShape: (4, 4)\n\nGeneral | LLaVa-OneVision | Cambrian-7m\n0 General | 812.7K | 2.0M | 7.9M\n1 Language/Captioning | 203.3K | 1.2M | 1.8M\n2 Math/Science/Reasoning | 765.1K | 464.8K | 802.0K\n3 Image Comparison | 237.9K | N/A | N/A",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense notebook screenshot with tables and small text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#111111",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Document contains 8 tables",
+            "x": 28.0,
+            "y": 18.0,
+            "w": 28.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-019.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656715.958567,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Document contains 8 tables",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Q Conversion.ipynbMx Token_Cost_Comparison.ipynbM Chunkless_RAG.ipynb M Chunking.ipynb 日4\nDOCLING-WORKSHOP notebooks >fixtures ntsinto Al-Ready Data with Docling>M Working with Tables>M Basic Table Export >print(f\\nDocument contains{len(table_doc.tables)} tables) Add CodeAdd MarkdownRun All Restart Clear All Outputs|Jupyter Variables Outline.venv (3.13.7)(Python 3.13.7)\npyproject.toml ①README.md gitignore!poutine.yml Fconstraints.txt LICENSE!mkdocs.yml!.pre-commit-config-yaml!.spellcheck.yaml >src!.markdownlint-cli2.yaml F.spellcheck-en-custom.txt >scripts BChunkless_RAG.ipynb Conversion_Colab.ipynb Conversion.ipynb MCP_Agents.ipynb Ollama RAG.ipynb RAG.ipynb Serving.ipynb Token_Cost_Compari..M gitignore Chunking.ipynb >output M M [es] Usage ofTableItem.export_to_dataframe()withoutdoc'argument isdeprecated. ##Table Shape:(4,4) Shape:(4,4) Document contains 8 tables ##Table1 √0.0s 0 0 3 3 2 2 1 1 Math/Science/Reasoning Math/Science/Reasoning Language/Captioning Language/Captioning withopen(output_dir/f\"table_(table_idx).html\", #Save as HTHL Image Comparison Image Comparison fp.write(table.export_to_html(doc=table_doc)) General General Cauldron Cauldron 276.5K 203.3K 202.1K 812.7K 765.1K 237.9K 178.4K 188.9K LLaVa-OneVision LLaVa-OneVision 464.8K 318.0K 881.3K 2.0M 1.2M N/A N/A N/A Cambrian-7m Cambrian-7m \"）asfp: 354.5K 802.0K 7.9M 1.8M 1.8M NA NA N/A 日 Python\nOUTLINE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1170.04
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Documents into AI-Ready Data with Docling > M4 Working with Tables > M4 Basic Table Export\n\n# Save as HTML\nwith open(output_dir / f\"table_{table_idx}.html\", \"w\") as fp:\n    fp.write(table.export_to_html(doc=table_doc))\n\nUsage of TableItem.export_to_dataframe() without `doc` argument is deprecated.\nDocument contains 8 tables\n\n## Table 0\nShape: (4, 4)\n\nGeneral | LLaVa-OneVision | Cambrian-7m\n0 General | 276.5K | 881.3K | 1.8M\n1 Language/Captioning | 202.1K | N/A | N/A\n2 Math/Science/Reasoning | 178.4K | 318.0K | 354.5K\n3 Image Comparison | 188.9K | N/A | N/A\n\nUsage of TableItem.export_to_dataframe() without `doc` argument is deprecated.\n\n## Table 1\nShape: (4, 4)\n\nGeneral | LLaVa-OneVision | Cambrian-7m\n0 General | 812.7K | 2.0M | 7.9M\n1 Language/Captioning | 203.3K | 1.2M | 1.8M\n2 Math/Science/Reasoning | 765.1K | 464.8K | 802.0K\n3 Image Comparison | 237.9K | N/A | N/A",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide text and corrected obvious OCR errors in the notebook path, code, and table formatting."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Inspecting Picture Content\n\nDocling will automatically generate captions and extract text content from extracted images. Let's take a look at what is extracted:\n\ndef inspect_pictures_with_images(doc: DoclingDocument, image_size=(6, 4)):\n    \"\"\"Display pictures inline with their text content.\"\"\"\n    for idx, picture in enumerate(doc.pictures):\n        print(f\"\\n{'='*60}\")\n        print(f\"Picture {idx}\")\n        print(f\"{'='*60}\")\n\n        # Display the image\n        try:\n            img = picture.get_image(doc)\n            if img:\n                plt.figure(figsize=image_size)\n                plt.imshow(img)\n                plt.axis(\"off\")\n                plt.title(f\"Picture {idx}\")\n                plt.show()\n        except Exception as e:\n            print(f\"Could not display image: {e}\")\n\n        # Display metadata\n        caption = picture.caption_text(doc)\n        if caption:\n            print(f\"\\nCaption: {caption}\")",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code-heavy slide screenshot with small body text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#111111",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Inspecting Picture Content",
+            "x": 19.0,
+            "y": 8.0,
+            "w": 30.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Docling will automatically generate captions and extract text content from extracted images. Let's take a look at what is extracted:",
+            "x": 14.0,
+            "y": 15.0,
+            "w": 72.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-020.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656793.4742126,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Inspecting Picture Content",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/opencv-adaptive",
+        "text": "nbiM X:KToken Cost_Comparisonipynb M O chinkess RAc.byns m. O.Chunsng pnk.\nmamage and Fkgure ExtractlonEu Extract Figures and Tables as mages* Extract al igures and tabies as separate mages\narkdown Run All Restan Ciear All OutputsJupyter Variables: Cutlineto venv (3.13.7) (Python 3.13.7)\nng Picture Content\nautomatically generate captions and extract text content from extracted tages.\ncturos fithmaaesidocie DoctingDocuwentIaago-siie-6,i:\n\"pisplay:pictures print(f\"nt*6o)\") print(tt60)) print(fnPictures(idx) idxypicturein.enunerate inlne. wIth 1（doc.pletures)&\nbisplaythoyiaag\nya lng pieture.getyIaage( doe) T pltafgure(riosize-inage size) plt. Inshow(ing); plt.axis(off:)\nexcept:Exceptlon-ashe9 Print(r-cauid not drpiyges (or0 plt.show().\nHDisptsyanetadata\nIacaptlon: print((*AnCapt1ons (captionH)",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1014.6
+      },
+      "ocr_source": "rapidocr-live/right-72/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Inspecting Picture Content\n\nDocling will automatically generate captions and extract text content from extracted images. Let's take a look at what is extracted:\n\ndef inspect_pictures_with_images(doc: DoclingDocument, image_size=(6, 4)):\n    \"\"\"Display pictures inline with their text content.\"\"\"\n    for idx, picture in enumerate(doc.pictures):\n        print(f\"\\n{'='*60}\")\n        print(f\"Picture {idx}\")\n        print(f\"{'='*60}\")\n\n        # Display the image\n        try:\n            img = picture.get_image(doc)\n            if img:\n                plt.figure(figsize=image_size)\n                plt.imshow(img)\n                plt.axis(\"off\")\n                plt.title(f\"Picture {idx}\")\n                plt.show()\n        except Exception as e:\n            print(f\"Could not display image: {e}\")\n\n        # Display metadata\n        caption = picture.caption_text(doc)\n        if caption:\n            print(f\"\\nCaption: {caption}\")",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for the title, subtitle, and the loop line; accepted the visible code text otherwise."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-020.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Visualizing Document Layout with Bounding Boxes\n\nIn order to understand how each part of the document is extracted, let's visualize the extracted elements.\nWe can do that by using one of Docling's built-in visualizers:\n\nfrom docling_core.transforms.visualizer.layout_visualizer import LayoutVisualizer\nlayout_visualizer = LayoutVisualizer()\npage_images = layout_visualizer.get_visualization(doc=img_doc)\n\nnum_pages_to_viz = 2  # first N pages to visualize\npages_to_viz = list(page_images.keys())[:num_pages_to_viz]\nfor page in pages_to_viz:\n    display(page_images[page])",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code-heavy notebook screenshot with small UI text and embedded document preview.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark charcoal",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Visualizing Document Layout with Bounding Boxes",
+            "x": 21.0,
+            "y": 9.0,
+            "w": 56.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "In order to understand how each part of the document is extracted, let's visualize the extracted elements.",
+            "x": 20.0,
+            "y": 18.0,
+            "w": 68.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "We can do that by using one of Docling's built-in visualizers:",
+            "x": 20.0,
+            "y": 26.0,
+            "w": 58.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "from docling_core.transforms.visualizer.layout_visualizer import LayoutVisualizer",
+            "x": 20.0,
+            "y": 35.0,
+            "w": 64.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-021.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657057.6946397,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Conversion.ipynb M Token Cost _Comparison.ipynb M Chunkiess_RAG.lpynb M O\nJazensiainoken yodun jaziensa noreg yazjiensa'slojsuen aos Bujoop wol c saxog bupunog ym jnoren ruanoog Buzgensa tr c tonoo\ndd Code Add Markdown Run All Restart Clear Al Outputs Jupyter Variables Outline c venv (3.13.7) (Python 3.13.7)\nVisualizing Document Layout with Bounding Boxes\nWe can do that by using one of Docling's built-in visualizers:\nfros docling core.transforns,vIsualizer. layout visualize Iaport Layoutvisualizer page inages o loyout visualirer.get visualization(doc-ing doc) layout visualizcr layoutvisuslizcr() 1!\n16 0 0.10 nun pages to vizo2 0 frsf Q pages to isualite pages_to_vizOlist (or pogc in pages_to_viz) ([abed]ssbeutebed)Aeidsip to. (page Inages.keys())l:nu_ pagesto v1z) Pylhon\nB\nMaolaos Livathinos ', Christoph Auer ', Mnksym Lysak, Ahmed Nassar, Michele Dolfi. Panagiotis Vagenas, Cesar Berrospi. Matteo Omcnetti. Kasper Dinkia. Yusik Kim.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1247.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Visualizing Document Layout with Bounding Boxes\n\nIn order to understand how each part of the document is extracted, let's visualize the extracted elements.\nWe can do that by using one of Docling's built-in visualizers:\n\nfrom docling_core.transforms.visualizer.layout_visualizer import LayoutVisualizer\nlayout_visualizer = LayoutVisualizer()\npage_images = layout_visualizer.get_visualization(doc=img_doc)\n\nnum_pages_to_viz = 2  # first N pages to visualize\npages_to_viz = list(page_images.keys())[:num_pages_to_viz]\nfor page in pages_to_viz:\n    display(page_images[page])",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide title/subtitle and cleaned obvious OCR noise; omitted notebook chrome and unreadable footer text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-021.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "We can also run it using an OpenAI-compatible API like Ollama.\n\nfrom docling.datamodel.pipeline_options import PictureDescriptionApiOptions\n\nif RUN_LOCAL_OLLAMA:\n    # Configure enrichment pipeline\n    enrichment_options = PdfPipelineOptions(\n        do_picture_description=True,\n        enable_remote_services=True,\n        picture_description_options=PictureDescriptionApiOptions(\n            url=\"http://localhost:11434/v1/chat/completions\",\n            params={\n                \"model\": \"granite3.2-vision:2b\",\n                \"max_completion_tokens\": 200,\n            },\n            prompt=\"Give a detailed description of what is depicted in the image\",\n            timeout=60,\n        ),\n        generate_picture_images=True,\n        images_scale=1.0,\n    )\n\n    converter_enriched = DocumentConverter(\n        format_options={\n            InputFormat.PDF: PdfFormatOption(pipeline_options=enrichment_options)\n        }\n    )\n\n    enr_result = converter_enriched.convert(docling_paper)\n    enr_doc = enr_result.document",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code screenshot with small parameter text and API configuration details.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark charcoal",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "We can also run it using an OpenAI-compatible API like Ollama.",
+            "x": 22.0,
+            "y": 10.0,
+            "w": 62.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "from docling.datamodel.pipeline_options import PictureDescriptionApiOptions",
+            "x": 23.0,
+            "y": 18.0,
+            "w": 63.0,
+            "h": 64.0
+          },
+          {
+            "role": "code",
+            "text": "url=\"http://localhost:11434/v1/chat/completions\"",
+            "x": 36.0,
+            "y": 42.0,
+            "w": 38.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "\"model\": \"granite3.2-vision:2b\"",
+            "x": 37.0,
+            "y": 49.0,
+            "w": 30.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-022.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-022.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657164.7572134,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "JOHSAUOM-ONITSOG V notobookst 3nced Features Enrichment M Your tum: Prompt the Vsion nodekyfrom docing datamodel pipeline options Import PictureDescript Add Code Add Markdown ERun All Restart: Clear All Outputs Token_CostComparison.lpynb M Jupyter Variables Outine O Chunkess_ RAG.hpynb M venv (3.13.7) (P\noutput. We can aiso runit using an OpenAl-compatibleApl ike Ollama.\nChunking.ipynb Chunkless_RAG.Ipymb? gltignore Yroa docling.datanodelpipeline_optlons: laport:PictureDescriptionAp10ptfons:\nRQoubnbro Ts:pre-commit-confg.yaml Ig.spoicheckyam xspeltcheck-en.custom.txt. Escripts: ero: I.markdownlnt. tpoutine.yml \"RAG.Ipynb Serying.lpynb: Ollama RAG.lpynb: Conversion.pynb: MCPAgents.Ipynb Token_Cost_Compari..M Converslon_Colab.lpynb M M Xconigure eor cheht pip iine cnrichment -options::PdfPipelineoptions( do plcture description-Truets Simages_scalenl.0y enableireooteservices:iTrueit generate pictureinagesTrue picture_description-options-PlctureoescriptionAploptionsl urt-\"http://localhost:11434/v1/chad/conptetions\" (iaeout-60) parans=(f- proapt. Coodelagran1te3.2-v1s1on:26\" GYe. conpletiontokensrtk200,\nRLICENSE constraints.txt Timkdocs.ym. converter_enriched:DocomentConverter( format_optionst InputFornat,PDF:PdfForratoption(pipeline_optionsscnrichaent_optlons)",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1135.76
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "We can also run it using an OpenAI-compatible API like Ollama.\n\nfrom docling.datamodel.pipeline_options import PictureDescriptionApiOptions\n\nif RUN_LOCAL_OLLAMA:\n    # Configure enrichment pipeline\n    enrichment_options = PdfPipelineOptions(\n        do_picture_description=True,\n        enable_remote_services=True,\n        picture_description_options=PictureDescriptionApiOptions(\n            url=\"http://localhost:11434/v1/chat/completions\",\n            params={\n                \"model\": \"granite3.2-vision:2b\",\n                \"max_completion_tokens\": 200,\n            },\n            prompt=\"Give a detailed description of what is depicted in the image\",\n            timeout=60,\n        ),\n        generate_picture_images=True,\n        images_scale=1.0,\n    )\n\n    converter_enriched = DocumentConverter(\n        format_options={\n            InputFormat.PDF: PdfFormatOption(pipeline_options=enrichment_options)\n        }\n    )\n\n    enr_result = converter_enriched.convert(docling_paper)\n    enr_doc = enr_result.document",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide text and corrected obvious OCR errors in the code and sentence."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-022.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "How chunkless RAG works\n\nChunkless retrieval is a four-step loop:\n\nDocument outline\n(per-section summaries)\n\n1. SELECT — LLM picks the most relevant unvisited\nsection by reading the outline + query.\n\n2. FETCH — Pull the *full text* of that section's\nsubtree from the DoclingDocument.\n\n3. ATTEMPT — LLM tries to answer from the section text.\nReturns (can_answer: bool, response: str).",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with multiple small labels and explanatory text that is better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark charcoal",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How chunkless RAG works",
+            "x": 22.0,
+            "y": 8.0,
+            "w": 34.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Chunkless retrieval is a four-step loop:",
+            "x": 22.0,
+            "y": 17.0,
+            "w": 36.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Document outline (per-section summaries)",
+            "x": 36.0,
+            "y": 25.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "1. SELECT -- LLM picks the most relevant unvisited section by reading the outline + query.",
+            "x": 23.0,
+            "y": 40.0,
+            "w": 42.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2. FETCH -- Pull the *full text of that section's subtree from the DoclingDocument.",
+            "x": 23.0,
+            "y": 58.0,
+            "w": 44.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "3. ATTEMPT -- LLM tries to answer from the section text. Returns {can_answer: bool, response: str}.",
+            "x": 23.0,
+            "y": 76.0,
+            "w": 46.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-023.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-023.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657305.4743059,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "How chunkless RAG works",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "BConversion.ipynb M Token_Cost_Comparison.ipynbM Chunkless_RAG.ipynb M Chunking.ipynb\npyproject.toml ①README.md F.spellcheck-en-custom.txt!.spellcheck.yaml Fconstraints.txt LICENSE!mkdocs.yml!.pre-commit-config.yaml DOCLING-WO. aoub!.poutine.yml notebooks Ollama RAG.ipynb Serving.ipynb >scripts >src Chunking.ipynb Chunkless_RAG.ipynbM Conversion_Colab.ipynb Conversion.ipynb MCP_Agents.ipynb RAG.ipynb Token_Cost_Compari.M gitignore >fixtures markdownlint-cli2.yaml >output M M kless RAG actually earns its keep>query_2 = What was Red Hat's revenue growth in 2025 and how did it contribute to IBM's overall software segment? Add CodeAddMarkdown|Run AllRestart ClearAll Outputs GoToJupyterVariablesOutline HowchunklessRAGworks Chunklessretrieval isa four-step loop: 2.FETCH 3.ATTEMPT-LLM triesto answer from the section text. 1.SELECT -LLM picks the most relevant unvisited -Pullthe *full text*of thatsection's Returns (can_answer: bool, response: str}. section by reading the outline + query. subtree from the DoclingDocument. (per-section summaries) Document outline.venv (3.13.7)(Python 3.13.7)\nOUTLINE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1123.68
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "How chunkless RAG works\n\nChunkless retrieval is a four-step loop:\n\nDocument outline\n(per-section summaries)\n\n1. SELECT — LLM picks the most relevant unvisited\nsection by reading the outline + query.\n\n2. FETCH — Pull the *full text* of that section's\nsubtree from the DoclingDocument.\n\n3. ATTEMPT — LLM tries to answer from the section text.\nReturns (can_answer: bool, response: str).",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for title, spacing, punctuation, and line breaks; omitted surrounding notebook UI and unreadable lower content."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-023.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "RAG actually earns its keep\n\n2. FETCH — Pull the *full text* of that section's subtree from the DoclingDocument.\n\n3. ATTEMPT — LLM tries to answer from the section text.\nReturns {can_answer: bool, response: str}.\n\ncan_answer = true\nreturn answer\n\ncan_answer = false\n\n4. ITERATE — go back to SELECT, with the visited section excluded.\n\nNotice what's not in this picture: no chunker, no embedding model, no vector store, no top-k. The \"index\" is a markdown outline of the document with one summary per section, generated once offline. The \"retriever\" is the LLM itself, reading that outline and choosing where to look.\n\nThis only works because two things are already true about the input document:\n1. It's a DoclingDocument — a real tree with sections, paragraphs, tables, and figures, parsed by Docling from the source PDF.\n2. Each section already has a summary attached as metadata, written by DoclingEnrichingAgent in a one-time enrichment pass.\n\nWe'll use a fixture that already has both. If you want to run this on your own PDF, there's an optional cell a few steps down that shows you",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Continuation of a diagram slide with small labels and paragraph text; OCR is likely the cheapest accurate read.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark charcoal",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "2. FETCH -- Pull the *full text of that section's subtree from the DoclingDocument.",
+            "x": 23.0,
+            "y": 11.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "3. ATTEMPT -- LLM tries to answer from the section text. Returns {can_answer: bool, response: str}.",
+            "x": 23.0,
+            "y": 33.0,
+            "w": 46.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "can_answer = true",
+            "x": 29.0,
+            "y": 57.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "can_answer = false",
+            "x": 56.0,
+            "y": 57.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "return answer",
+            "x": 33.0,
+            "y": 67.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "4. ITERATE -- go back to SELECT, with the visited section excluded.",
+            "x": 52.0,
+            "y": 67.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Notice what's not in this picture: no chunker, no embedding model, no vector store, no top-k.",
+            "x": 20.0,
+            "y": 82.0,
+            "w": 74.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "The \"index\" is a markdown outline of the document with one summary per section, generated once offline.",
+            "x": 20.0,
+            "y": 88.0,
+            "w": 76.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-024.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-024.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657381.5545442,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Q Conversion.ipynb M Token_Cost_Comparison.ipynbM Chunkless_RAG.ipynbM× Chunking.ipynb\nDOCLING-WO... notebooks >fixtures RAG actually earns its keep>query_2 = “What was Red Hat's revenue growth in 2025 and how did it contribute to IBM's overall software segment? AddCodeAdd MarkdownRun All Restart Clear All Outputs Go To|Jupyter Variables Outline venv (3.13.7) (Python 3.13.7)\nOllama RAG.ipynb >scripts >src Conversion_Colab.ipynb Conversion.ipynb MCP_Agents.ipynb RAG.ipynb Serving.ipynb Token_Cost_Compari..M Chunking.ipynb gitignore Chunkless_RAG.ipynbM >output M M 2.FETCH 3.ATTEMPT-LLM triesto answer from the section text. can_answer =true -Pullthe*full text*of that section's subtree from the DoclingDocument. Returns (can_answer:bool,response:str}. can_answer = false\npyproject.toml Fconstraints.txt ①README.md!.poutine.yml LICENSE!mkdocs.yml!.pre-commit-config.yaml!.spellcheck.yaml F.spellcheck-en-custom.txt!markdownlint-cli2.yaml Notice what'snotinthispicture:nochunker,noembeddingmodel,novectorstore,no top-.Theindexisamarkdown outlineof the look. Thisonlyworksbecausetwothingsare alreadytrueabouttheinputdocument: 1.lt'saDocLingDocument-areal tree withsections,paragraphs,tables,and figures,parsedbyDoclingfrom the source PDF. 2.Eachsection alreadyhasa summary attached asmetadata,writtenbyDoclingEnrichingAgent ina one-time enrichmentpass. return answer visited section excluded. 4.ITERATE-go back toSELECT,with the\nOUTLINE Welluse afixture that alreadyhasboth.lfyou want torun thisonyourownPDF,there'san optional cellafewstepsdown that showsyou",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1542.0
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "RAG actually earns its keep\n\n2. FETCH — Pull the *full text* of that section's subtree from the DoclingDocument.\n\n3. ATTEMPT — LLM tries to answer from the section text.\nReturns {can_answer: bool, response: str}.\n\ncan_answer = true\nreturn answer\n\ncan_answer = false\n\n4. ITERATE — go back to SELECT, with the visited section excluded.\n\nNotice what's not in this picture: no chunker, no embedding model, no vector store, no top-k. The \"index\" is a markdown outline of the document with one summary per section, generated once offline. The \"retriever\" is the LLM itself, reading that outline and choosing where to look.\n\nThis only works because two things are already true about the input document:\n1. It's a DoclingDocument — a real tree with sections, paragraphs, tables, and figures, parsed by Docling from the source PDF.\n2. Each section already has a summary attached as metadata, written by DoclingEnrichingAgent in a one-time enrichment pass.\n\nWe'll use a fixture that already has both. If you want to run this on your own PDF, there's an optional cell a few steps down that shows you",
+        "text_status": "meaningful",
+        "corrections": "Cleaned notebook/UI noise and corrected obvious OCR spacing, punctuation, and Docling capitalization."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/-x5GEVnkuRw/slide-024.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "title-only intro card; not content-heavy.",
+      "text": "Structuring the Unstructured: Advanced Document Parsing for AI Workflows\nAI Engineer 2026\nCedric Clyburn\nSenior Developer Advocate\n@cedricclyburn",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Intro/title card; no dense body text to OCR.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#000000 with dark world-map contours",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Red Hat Developer",
+            "x": 8.0,
+            "y": 6.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer World's Fair",
+            "x": 72.0,
+            "y": 5.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "Structuring the Unstructured: Advanced Document Parsing for AI Workflows",
+            "x": 8.0,
+            "y": 28.0,
+            "w": 82.0,
+            "h": 18.0
+          },
+          {
+            "role": "subtitle",
+            "text": "AI Engineer 2026",
+            "x": 8.0,
+            "y": 51.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Cedric Clyburn\nSenior Developer Advocate\n@cedricclyburn",
+            "x": 8.0,
+            "y": 77.0,
+            "w": 28.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/-x5GEVnkuRw/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655418.5997856,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Structuring the Unstructured: Advanced Document Parsing for AI Workflows\nAI Engineer 2026\nCedric Clyburn\nSenior Developer Advocate\n@cedricclyburn",
+      "advanced_ocr": {}
+    }
+  ]
+}

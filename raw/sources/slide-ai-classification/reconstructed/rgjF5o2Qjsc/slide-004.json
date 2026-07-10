@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "godo Part l: State of Al codlng adoptlon\nAgenda\n0 Sources: @Qodo,@sonar.@Faros codequality/reviewrelatedreport:\nOf pull requests, and billions of lines of code. Sample size: thousands of developers, millions\nAIE/LEAD Katelyn Lesse. ANTHROPIC Dan Shpper EVERY AsafBord Northwestern Mutual Michele Catasta Preplit MeKinsey Natasha Maniar &Company\nGoogle DeepMind Presented Sy OP\\C CURSOR Cognition FACTORY Graphite:e04j au",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense agenda text and embedded report screenshot are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Agenda",
+        "x": 25.0,
+        "y": 10.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Sources: @Qodo, @Sonar, @Faros - code quality/review related report:",
+        "x": 25.0,
+        "y": 21.0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Sample size: thousands of developers, millions of pull requests, and billions of lines of code.",
+        "x": 25.0,
+        "y": 31.0,
+        "w": 36.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "Part 1: State of AI coding adoption",
+        "x": 71.0,
+        "y": 5.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE/LEAD",
+        "x": 3.0,
+        "y": 84.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 3.0,
+        "y": 91.0,
+        "w": 19.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/reconstructed-slides/rgjF5o2Qjsc/slide-004.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671693.9525344,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Agenda",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "godo Part l: State of Al codlng adoptlon\nAgenda\n0 Sources: @Qodo,@sonar.@Faros codequality/reviewrelatedreport:\nOf pull requests, and billions of lines of code. Sample size: thousands of developers, millions\nAIE/LEAD Katelyn Lesse. ANTHROPIC Dan Shpper EVERY AsafBord Northwestern Mutual Michele Catasta Preplit MeKinsey Natasha Maniar &Company\nGoogle DeepMind Presented Sy OP\\C CURSOR Cognition FACTORY Graphite:e04j au",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 614.4
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "godo Part l: State of Al codlng adoptlon\nAgenda\n0 Sources: @Qodo,@sonar.@Faros codequality/reviewrelatedreport:\nOf pull requests, and billions of lines of code. Sample size: thousands of developers, millions\nAIE/LEAD Katelyn Lesse. ANTHROPIC Dan Shpper EVERY AsafBord Northwestern Mutual Michele Catasta Preplit MeKinsey Natasha Maniar &Company\nGoogle DeepMind Presented Sy OP\\C CURSOR Cognition FACTORY Graphite:e04j au",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

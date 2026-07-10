@@ -1,0 +1,47 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code slide with small text and multiple fields; OCR will be more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm beige",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "",
+        "x": 8.0,
+        "y": 6.0,
+        "w": 84.0,
+        "h": 82.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-037.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-037.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783674174.5172424,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 594.16,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0035
+  }
+}

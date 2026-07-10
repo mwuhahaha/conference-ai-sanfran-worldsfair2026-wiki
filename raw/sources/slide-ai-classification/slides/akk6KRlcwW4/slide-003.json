@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "One device · four modes · one slash command\n/SHELL\n/ASSIST\n/CONTROL\n/API",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f5f0e6",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "One device · four modes · one slash command",
+        "x": 12.0,
+        "y": 13.0,
+        "w": 55.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "/SHELL",
+        "x": 13.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "/ASSIST",
+        "x": 53.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "/CONTROL",
+        "x": 13.0,
+        "y": 38.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "/API",
+        "x": 53.0,
+        "y": 38.0,
+        "w": 20.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/akk6KRlcwW4/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666276.3414347,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "One device · four modes · one slash command\n/SHELL\n/ASSIST\n/CONTROL\n/API",
+  "advanced_ocr": {}
+}

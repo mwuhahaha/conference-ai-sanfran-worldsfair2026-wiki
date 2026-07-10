@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "As shown, neither character-based recursive splitters nor token-based splitters are ideal for\nchunking. I recommend combining the two approaches into a hybrid splitter that uses the token length of the text for further splitting instead of the character length. For LangChain, you can override the RecursiveCharacterTextSplitter to use the token encoding to measure the length and split until an optimal chunk size is found.\n\nfrom langchain_text_splitters import RecursiveCharacterTextSplitter\n\ntext_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(\n    model_name=\"gpt-4\",\n    chunk_size=500,\n    chunk_overlap=0,\n    separators=SEPARATORS\n)\n\nThis method benefits over character encoding because the chunk size is closer to the target, and beneficial to token-based splitters because it can't yield invalid strings.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Zoomed-in dense article crop with paragraph text and code block; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm cream article crop",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "paragraph text",
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 28.0
+      },
+      {
+        "role": "code",
+        "text": "code block",
+        "x": 3.0,
+        "y": 35.0,
+        "w": 94.0,
+        "h": 40.0
+      },
+      {
+        "role": "body",
+        "text": "closing paragraph",
+        "x": 0,
+        "y": 82.0,
+        "w": 100,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-030.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-030.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658087.4282978,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "As snown, neitner character-based recursive'splitters nor token-basea splitters are 1aeal 1or\nto use the token encoding to measure the length and split until an optimal chunk size is four recommend combining the two approaches into a hybrid splitter uses the token length of th further splitting instead of the character length. For Langchain, you can override the Recurs\nfron langchain_text_splitters inport RecursiveCharacterTextSplitter\n:text_splitter = RecursivecharacterTextSplitter.tron_tiktoken_encoderl. chunk_overlap=o, chunk_size=soo,: model_nare=\"gpt-4\"\",: separators=SEPARAToRS\nThis method benefits over character encoding because the chunk size is closer to the target beneficial to token-based splitters because it can't yield invalid strings.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 808.4
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "As shown, neither character-based recursive splitters nor token-based splitters are ideal for\nchunking. I recommend combining the two approaches into a hybrid splitter that uses the token length of the text for further splitting instead of the character length. For LangChain, you can override the RecursiveCharacterTextSplitter to use the token encoding to measure the length and split until an optimal chunk size is found.\n\nfrom langchain_text_splitters import RecursiveCharacterTextSplitter\n\ntext_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(\n    model_name=\"gpt-4\",\n    chunk_size=500,\n    chunk_overlap=0,\n    separators=SEPARATORS\n)\n\nThis method benefits over character encoding because the chunk size is closer to the target, and beneficial to token-based splitters because it can't yield invalid strings.",
+    "text_status": "meaningful",
+    "corrections": "OCR was corrected from the image; obvious spelling, casing, and punctuation errors were fixed, with minor line reflow."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Execution Setup: Minimal Agent, Strong Infrastructure\nOPEN\ngrep\nMinimalistic agent (open, edit, bash)\nAIE YOLO setup ReAct + demo - tools + no_demo Agent<Infrastructure python python3 EDIT find git REPLACE GOTO cat cd\n· Claude-Opus-4.6 top commands from our agent sed SUBHIT 1s SCROLL_DOAN rm\n# Braintrust WorkOs OpenAi",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "small command list and dense layout on the right side",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg, #000 0 28%, #f7f6f2 28% 100%)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Execution Setup: Minimal Agent, Strong Infrastructure",
+        "x": 29.0,
+        "y": 5.0,
+        "w": 56.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Minimalistic agent (open, edit, bash)\nYOLO setup\nAgent < Infrastructure\nReAct + demo → tools + no_demo\n* Claude-Opus-4.6 top commands from our agent",
+        "x": 30.0,
+        "y": 20.0,
+        "w": 34.0,
+        "h": 60.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 76.0,
+        "y": 8.0,
+        "w": 18.0,
+        "h": 68.0
+      },
+      {
+        "role": "logo",
+        "text": "Braintrust",
+        "x": 39.0,
+        "y": 80.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "WorkOS",
+        "x": 61.0,
+        "y": 80.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenAI",
+        "x": 80.0,
+        "y": 80.0,
+        "w": 13.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/wcUJWP6WpGM/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672528.093731,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Execution Setup: Minimal Agent, Strong Infrastructure",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Execution Setup: Minimal Agent, Strong Infrastructure\nOPEN\ngrep\nMinimalistic agent (open, edit, bash)\nAIE YOLO setup ReAct + demo - tools + no_demo Agent<Infrastructure python python3 EDIT find git REPLACE GOTO cat cd\n· Claude-Opus-4.6 top commands from our agent sed SUBHIT 1s SCROLL_DOAN rm\n# Braintrust WorkOs OpenAi",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 523.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Execution Setup: Minimal Agent, Strong Infrastructure\nOPEN\ngrep\nMinimalistic agent (open, edit, bash)\nAIE YOLO setup ReAct + demo - tools + no_demo Agent<Infrastructure python python3 EDIT find git REPLACE GOTO cat cd\n· Claude-Opus-4.6 top commands from our agent sed SUBHIT 1s SCROLL_DOAN rm\n# Braintrust WorkOs OpenAi",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

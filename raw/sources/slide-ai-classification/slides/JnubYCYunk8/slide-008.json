@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense markdown/code screenshot with small text and multiple sections.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#111111",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "3. Dismiss Hit vs Miss — Fake Close Buttons",
+        "x": 22.0,
+        "y": 26.0,
+        "w": 56.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "4. Unblocked Signal — What Becomes Accessible",
+        "x": 22.0,
+        "y": 53.0,
+        "w": 57.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "5. Failed Action → Diagnosis → Recovery",
+        "x": 22.0,
+        "y": 73.0,
+        "w": 54.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/JnubYCYunk8/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661284.5765932,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

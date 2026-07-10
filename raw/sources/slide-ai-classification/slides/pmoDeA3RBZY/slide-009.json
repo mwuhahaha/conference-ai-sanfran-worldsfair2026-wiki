@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Google DeepMind",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense monitor/code text on the right is small and OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#111111",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 0,
+        "y": 77.0,
+        "w": 23.0,
+        "h": 23.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 39.0,
+        "y": 83.0,
+        "w": 35.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/pmoDeA3RBZY/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670783.6373062,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Google DeepMind",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 128.48,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

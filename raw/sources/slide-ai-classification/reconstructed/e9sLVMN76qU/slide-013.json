@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Thank you!\nIf you want to learn more,\ncheck out our booth in the expo hall #S17",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple closing slide with large readable text; OCR is not needed for triage.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black with subtle dark concentric wave pattern",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 9.0,
+        "h": 13.0
+      },
+      {
+        "role": "title",
+        "text": "Thank you!",
+        "x": 24.0,
+        "y": 10.0,
+        "w": 21.0,
+        "h": 11.0
+      },
+      {
+        "role": "subtitle",
+        "text": "If you want to learn more,",
+        "x": 24.0,
+        "y": 22.0,
+        "w": 39.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "check out our booth in the expo hall #S17",
+        "x": 24.0,
+        "y": 30.0,
+        "w": 45.0,
+        "h": 14.0
+      },
+      {
+        "role": "logo",
+        "text": "Daytona",
+        "x": 78.0,
+        "y": 10.0,
+        "w": 15.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Follow our journey",
+        "x": 24.0,
+        "y": 61.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "daytona.io | github.com/daytonaio | x.com/daytonaio",
+        "x": 24.0,
+        "y": 69.0,
+        "w": 52.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 79.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 72.0,
+        "y": 80.0,
+        "w": 15.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/reconstructed-slides/e9sLVMN76qU/slide-013.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667592.4786322,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Thank you!\nIf you want to learn more,\ncheck out our booth in the expo hall #S17",
+  "advanced_ocr": {}
+}

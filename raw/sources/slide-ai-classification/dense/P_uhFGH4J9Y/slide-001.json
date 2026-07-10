@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "About Me\nGame/AI Developer at The New York Times\nWorked previously for Business Insider, The NBA, MTV and the Department of Defense",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with black left sidebar and black footer band",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "About Me",
+        "x": 23.0,
+        "y": 3.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Game/AI Developer at The New York Times",
+        "x": 23.0,
+        "y": 14.0,
+        "w": 33.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Worked previously for Business Insider, The NBA, MTV and the Department of Defense",
+        "x": 23.0,
+        "y": 24.0,
+        "w": 36.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Shafik Quoraishee\nSenior Android/ML Games\nEngineer at the New York Time...",
+        "x": 61.0,
+        "y": 12.0,
+        "w": 30.0,
+        "h": 48.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 11.0,
+        "w": 9.0,
+        "h": 14.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 85.0,
+        "w": 13.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 74.0,
+        "y": 85.0,
+        "w": 13.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/P_uhFGH4J9Y/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662919.0488195,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "About Me\nGame/AI Developer at The New York Times\nWorked previously for Business Insider, The NBA, MTV and the Department of Defense",
+  "advanced_ocr": {}
+}

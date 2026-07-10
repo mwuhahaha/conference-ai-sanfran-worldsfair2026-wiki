@@ -1,0 +1,50 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": ".cc-prototype xd [TOOL CALL]get_pokemon_species [TOOLINPUN]{ \"nane_or_id\": \"quagsire\"\nC data gm/cus [TOOL RESULT] SuCCeSS\nCounoln\nCr tersts oseyed(） ①RSAOME m （）tcorngon vds gagoe ben Jock WSMOGON_AP1.mN CLAUOEMO 2.Croconaw(Water) 8.Wooper (Water/Ground) Basedon the data,here are all theWater-type Pokemon introduced in Generation 2: 4.Chinchou(Water/Electric) 7.Azurarill (Water/Fairy) 9.Quagsire (Water/Ground) 1.Totodile (Water) 3.Feraligatr (Water) 5.lanturn (Water/Electric) 6.Marill (Water/Fairy)\ntr Pchatts tocbs mO.11 pokomon.1 Note:Marill and Azumarill were originally pure Water-type in Generation 2,but gained the Fairy-type wher eir types. These Pokemon represent the full set of new Water-type Pokemon introduced in Generation 2,including both\n（）ps(kagejon ①README Ime (tscorgnon modeLls chat.ts thariqeThariqs-Virtual-Machinesrc%chat.ts Goodbye! thariqeThariqs-Virtual-Machine srcxls zsh:cormandnot found:chat.ts thariqeThariqs-Virtua!-Machinc Src X bun chat.ts thariqeThariqs-Virtual-Nachine src X thariqeThariqs-Virtual-Nachinesrcx model.ts tools\n22 atv A",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense terminal/output screenshot with small monospaced text; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "terminal output",
+        "x": 9.0,
+        "y": 6.0,
+        "w": 82.0,
+        "h": 88.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-023.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-023.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664912.86911,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/contrast",
+    "text": ".cc-prototype xd [TOOL CALL]get_pokemon_species [TOOLINPUN]{ \"nane_or_id\": \"quagsire\"\nC data gm/cus [TOOL RESULT] SuCCeSS\nCounoln\nCr tersts oseyed(） ①RSAOME m （）tcorngon vds gagoe ben Jock WSMOGON_AP1.mN CLAUOEMO 2.Croconaw(Water) 8.Wooper (Water/Ground) Basedon the data,here are all theWater-type Pokemon introduced in Generation 2: 4.Chinchou(Water/Electric) 7.Azurarill (Water/Fairy) 9.Quagsire (Water/Ground) 1.Totodile (Water) 3.Feraligatr (Water) 5.lanturn (Water/Electric) 6.Marill (Water/Fairy)\ntr Pchatts tocbs mO.11 pokomon.1 Note:Marill and Azumarill were originally pure Water-type in Generation 2,but gained the Fairy-type wher eir types. These Pokemon represent the full set of new Water-type Pokemon introduced in Generation 2,including both\n（）ps(kagejon ①README Ime (tscorgnon modeLls chat.ts thariqeThariqs-Virtual-Machinesrc%chat.ts Goodbye! thariqeThariqs-Virtual-Machine srcxls zsh:cormandnot found:chat.ts thariqeThariqs-Virtua!-Machinc Src X bun chat.ts thariqeThariqs-Virtual-Nachine src X thariqeThariqs-Virtual-Nachinesrcx model.ts tools\n22 atv A",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1206.28
+  },
+  "ocr_source": "rapidocr-live/left-72/contrast",
+  "ocr_reconcile": {
+    "text": ".cc-prototype xd [TOOL CALL]get_pokemon_species [TOOLINPUN]{ \"nane_or_id\": \"quagsire\"\nC data gm/cus [TOOL RESULT] SuCCeSS\nCounoln\nCr tersts oseyed(） ①RSAOME m （）tcorngon vds gagoe ben Jock WSMOGON_AP1.mN CLAUOEMO 2.Croconaw(Water) 8.Wooper (Water/Ground) Basedon the data,here are all theWater-type Pokemon introduced in Generation 2: 4.Chinchou(Water/Electric) 7.Azurarill (Water/Fairy) 9.Quagsire (Water/Ground) 1.Totodile (Water) 3.Feraligatr (Water) 5.lanturn (Water/Electric) 6.Marill (Water/Fairy)\ntr Pchatts tocbs mO.11 pokomon.1 Note:Marill and Azumarill were originally pure Water-type in Generation 2,but gained the Fairy-type wher eir types. These Pokemon represent the full set of new Water-type Pokemon introduced in Generation 2,including both\n（）ps(kagejon ①README Ime (tscorgnon modeLls chat.ts thariqeThariqs-Virtual-Machinesrc%chat.ts Goodbye! thariqeThariqs-Virtual-Machine srcxls zsh:cormandnot found:chat.ts thariqeThariqs-Virtua!-Machinc Src X bun chat.ts thariqeThariqs-Virtual-Nachine src X thariqeThariqs-Virtual-Nachinesrcx model.ts tools\n22 atv A",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

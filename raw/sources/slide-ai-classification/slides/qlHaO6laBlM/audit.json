@@ -1,0 +1,143 @@
+{
+  "video_id": "qlHaO6laBlM",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 1,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "About Me\nNow\n• Forward Deployed Engineer in the Justice AI Unit\n• No10 Innovation Fellow – selected from top 0.8% of applicants\n• Joined in November, working mainly across prisons\nPreviously\n• Co-Founder @ Tergle (YC W25) – AI for audit automation\n• CS + Math @ Harvard",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light cream with black side panels",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "About Me",
+            "x": 28.0,
+            "y": 6.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Now\n• Forward Deployed Engineer in the Justice AI Unit\n• No10 Innovation Fellow – selected from top 0.8% of applicants\n• Joined in November, working mainly across prisons",
+            "x": 29.0,
+            "y": 15.0,
+            "w": 34.0,
+            "h": 28.0
+          },
+          {
+            "role": "body",
+            "text": "Previously\n• Co-Founder @ Tergle (YC W25) – AI for audit automation\n• CS + Math @ Harvard",
+            "x": 63.0,
+            "y": 15.0,
+            "w": 31.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "We’re trying to ship real AI products inside government. Not pilots, not slides – things people actually use.",
+            "x": 30.0,
+            "y": 66.0,
+            "w": 62.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qlHaO6laBlM/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670849.1637213,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "About Me\nNow\n• Forward Deployed Engineer in the Justice AI Unit\n• No10 Innovation Fellow – selected from top 0.8% of applicants\n• Joined in November, working mainly across prisons\nPreviously\n• Co-Founder @ Tergle (YC W25) – AI for audit automation\n• CS + Math @ Harvard",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qlHaO6laBlM/slide-002.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage shot with presenters at podium; projected slide is only partially visible and not readable as a standalone slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple stage lighting with a white projection area",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qlHaO6laBlM/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670849.1632981,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage shot with people walking in front of the screen; projected slide is cropped and not readable as a standalone presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple stage lighting with a bright projection on the right",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qlHaO6laBlM/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670849.1640599,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

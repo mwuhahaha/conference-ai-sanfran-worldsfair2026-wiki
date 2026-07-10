@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Evaluation Signal Hierarchy\nProduction Telemetry\nScenario Evals\nBenchmarks",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f6f2ec",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Evaluation Signal Hierarchy",
+        "x": 6.0,
+        "y": 4.0,
+        "w": 43.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Volume",
+        "x": 6.0,
+        "y": 24.0,
+        "w": 13.0,
+        "h": 52.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Production Telemetry\nScenario Evals\nBenchmarks",
+        "x": 29.0,
+        "y": 19.0,
+        "w": 37.0,
+        "h": 66.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Operational Value",
+        "x": 80.0,
+        "y": 24.0,
+        "w": 14.0,
+        "h": 54.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/vljxQZfJ9wY/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672319.7414873,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Evaluation Signal Hierarchy\nProduction Telemetry\nScenario Evals\nBenchmarks",
+  "advanced_ocr": {}
+}

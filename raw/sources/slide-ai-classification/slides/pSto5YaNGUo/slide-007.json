@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The whole lifecycle, running as an agentic loop. THE PAYOFF ··ALL FIVE PHASES. AS ONE HACHIHE\nDofrmo + Deign. The A Enghisr cigturm mhy erd whet 'otds Goodl' loo'u Pte - Ird turn. it lrto th.\n2t Create the evel system The Codlng Agent generaits Ihe sgan? ++tinst the Sp+o. [POOE 1 COLD STANT] 99%. A41+T.$0.05\nconltetlont, net hmnd-tuthpntdr. quidt. to 'good'n Btrd Trom ril trom the Seta snd your hatorie taoh Dtrls+ th+ dhtet td toortd crttl ++++rt\nrtgrt ton-gated betore it cen dhploy. Fun the delaahrt → Evtuate + Optmir*. Olh+t optlatlon loop Cyey oyait chp a bettt teran\n[3] D+ploy Co e lth e feedbtck mtoraritn t pltar.\nThhures tur'eoe se they Teope Montor Lhit imtl res on prod Eodon irlletr\n7 ' at now drbiet out the ree wond A rna y:Each felure ie rootc. Degnore + grow the Ie-dehitior ketps t!! HODE2LIYED Otift.\nThe Artntic Bene Bursk",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense diagram slide with multiple small text blocks and labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "THE PAYOFF • ALL FIVE PHASES, AS ONE MACHINE",
+        "x": 18.0,
+        "y": 4.0,
+        "w": 35.0,
+        "h": 3.0
+      },
+      {
+        "role": "title",
+        "text": "The whole lifecycle, running as an agentic loop.",
+        "x": 18.0,
+        "y": 8.0,
+        "w": 44.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "1 Define + Design\n2 Build\n3 Create the eval system\n4 Offline optimization loop\n5 Deploy\n6 Monitor\n7 Diagnose + grow the",
+        "x": 18.0,
+        "y": 17.0,
+        "w": 25.0,
+        "h": 70.0
+      },
+      {
+        "role": "diagram",
+        "text": "SPEC\nAGENT\nEVAL SYSTEM\n99%\n$0.05",
+        "x": 56.0,
+        "y": 14.0,
+        "w": 30.0,
+        "h": 60.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670837.247335,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "The whole lifecycle, running as an agentic loop.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/opencv-adaptive",
+    "text": "The whole lifecycle, running as an agentic loop. THE PAYOFF ··ALL FIVE PHASES. AS ONE HACHIHE\nDofrmo + Deign. The A Enghisr cigturm mhy erd whet 'otds Goodl' loo'u Pte - Ird turn. it lrto th.\n2t Create the evel system The Codlng Agent generaits Ihe sgan? ++tinst the Sp+o. [POOE 1 COLD STANT] 99%. A41+T.$0.05\nconltetlont, net hmnd-tuthpntdr. quidt. to 'good'n Btrd Trom ril trom the Seta snd your hatorie taoh Dtrls+ th+ dhtet td toortd crttl ++++rt\nrtgrt ton-gated betore it cen dhploy. Fun the delaahrt → Evtuate + Optmir*. Olh+t optlatlon loop Cyey oyait chp a bettt teran\n[3] D+ploy Co e lth e feedbtck mtoraritn t pltar.\nThhures tur'eoe se they Teope Montor Lhit imtl res on prod Eodon irlletr\n7 ' at now drbiet out the ree wond A rna y:Each felure ie rootc. Degnore + grow the Ie-dehitior ketps t!! HODE2LIYED Otift.\nThe Artntic Bene Bursk",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1405.0
+  },
+  "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "The whole lifecycle, running as an agentic loop. THE PAYOFF ··ALL FIVE PHASES. AS ONE HACHIHE\nDofrmo + Deign. The A Enghisr cigturm mhy erd whet 'otds Goodl' loo'u Pte - Ird turn. it lrto th.\n2t Create the evel system The Codlng Agent generaits Ihe sgan? ++tinst the Sp+o. [POOE 1 COLD STANT] 99%. A41+T.$0.05\nconltetlont, net hmnd-tuthpntdr. quidt. to 'good'n Btrd Trom ril trom the Seta snd your hatorie taoh Dtrls+ th+ dhtet td toortd crttl ++++rt\nrtgrt ton-gated betore it cen dhploy. Fun the delaahrt → Evtuate + Optmir*. Olh+t optlatlon loop Cyey oyait chp a bettt teran\n[3] D+ploy Co e lth e feedbtck mtoraritn t pltar.\nThhures tur'eoe se they Teope Montor Lhit imtl res on prod Eodon irlletr\n7 ' at now drbiet out the ree wond A rna y:Each felure ie rootc. Degnore + grow the Ie-dehitior ketps t!! HODE2LIYED Otift.\nThe Artntic Bene Bursk",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

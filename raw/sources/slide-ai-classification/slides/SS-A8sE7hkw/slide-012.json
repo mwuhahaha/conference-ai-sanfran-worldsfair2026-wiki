@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "End card/logo slate with only branding and URL; no substantive presentation content.",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI Engineer\nEUROPE",
+        "x": 27.0,
+        "y": 28.0,
+        "w": 46.0,
+        "h": 20.0
+      },
+      {
+        "role": "caption",
+        "text": "HTTPS://AI.ENGINEER",
+        "x": 38.0,
+        "y": 90.0,
+        "w": 24.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/SS-A8sE7hkw/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663547.1316757,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

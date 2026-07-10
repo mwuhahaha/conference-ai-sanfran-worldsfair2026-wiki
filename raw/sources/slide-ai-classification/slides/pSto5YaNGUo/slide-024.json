@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Stop debugging. Start evolving.\nReliable agents come from one thing — a loop that never stops, run fast enough to compound.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Stop debugging. Start evolving.",
+        "x": 28.0,
+        "y": 31.0,
+        "w": 45.0,
+        "h": 11.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Reliable agents come from one thing — a loop that never stops, run fast enough to compound.",
+        "x": 24.0,
+        "y": 43.0,
+        "w": 53.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-024.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-024.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671530.4135902,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Stop debugging. Start evolving.\nReliable agents come from one thing — a loop that never stops, run fast enough to compound.",
+  "advanced_ocr": {}
+}

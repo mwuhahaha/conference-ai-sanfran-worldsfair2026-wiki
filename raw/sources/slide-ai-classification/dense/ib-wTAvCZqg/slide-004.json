@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Retrieval is not guaranteed, reasoning harder than retrieval\nAIE Asktng cpt-l te rvtrir ur rutrlr+ & ratea 1. ), *r 1+ n+dlts (facts) in 4 slrgtt turn 12o.t++ t+ht+ (tattat +irtta ta+us 1t+)r+) 4t H+15u 4t +++ru 4yt4+ 11+sty Lsblo Gt-a te rrtrlrwa ll wiqoe fsrts Ia 1 tu\nI tf tts.r (t=tm (ttt) 0004 24100 C Llt C 7:400 ta 11000\nhltps://voutubeUlmyYQGhzs\nhltos://blog. langchain.dey/multi-needle-in-a:havstack\naws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense chart labels and small comparison text; OCR is the cheaper pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cream",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 12.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "Retrieval is not guaranteed, reasoning harder than retrieval",
+        "x": 29.0,
+        "y": 1.0,
+        "w": 66.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/ib-wTAvCZqg/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669215.632167,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Retrieval is not guaranteed, reasoning harder than retrieval",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Retrieval is not guaranteed, reasoning harder than retrieval\nAIE Asktng cpt-l te rvtrir ur rutrlr+ & ratea 1. ), *r 1+ n+dlts (facts) in 4 slrgtt turn 12o.t++ t+ht+ (tattat +irtta ta+us 1t+)r+) 4t H+15u 4t +++ru 4yt4+ 11+sty Lsblo Gt-a te rrtrlrwa ll wiqoe fsrts Ia 1 tu\nI tf tts.r (t=tm (ttt) 0004 24100 C Llt C 7:400 ta 11000\nhltps://voutubeUlmyYQGhzs\nhltos://blog. langchain.dey/multi-needle-in-a:havstack\naws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 490.68
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Retrieval is not guaranteed, reasoning harder than retrieval\nAIE Asktng cpt-l te rvtrir ur rutrlr+ & ratea 1. ), *r 1+ n+dlts (facts) in 4 slrgtt turn 12o.t++ t+ht+ (tattat +irtta ta+us 1t+)r+) 4t H+15u 4t +++ru 4yt4+ 11+sty Lsblo Gt-a te rrtrlrwa ll wiqoe fsrts Ia 1 tu\nI tf tts.r (t=tm (ttt) 0004 24100 C Llt C 7:400 ta 11000\nhltps://voutubeUlmyYQGhzs\nhltos://blog. langchain.dey/multi-needle-in-a:havstack\naws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "video_id": "Lc8zRh9muoY",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 5,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "sampling determinism. ≠ system determinism\ncemp O fixes the rule (argmax), not the logits.you argmax over.\nreorder a reduction - a logit's last bits move - argmax flips.. (0.1 + 1e20) - 1e20 = 0 float addition is Nor associative: I'o = (ozar - ozar) + r'o\nsame matmul, same GPU, 1oo0x → bitwise identical. Orod batches you with strangers; the kernel depends on batch shape. the culprit is batch invariance\nMoE routing jitter: expert capacity ceiling, route depends on the batch..\nsame token? no. we need the SYSTEM to run the\nSTATE TRANSITION.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-line instructional slide with small text and equations; OCR will be more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6f3eb",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "1 sampling determinism ≠ system determinism",
+            "x": 5.0,
+            "y": 8.0,
+            "w": 70.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "2 float addition is NOT associative",
+            "x": 5.0,
+            "y": 21.0,
+            "w": 55.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "3 the culprit is batch invariance",
+            "x": 5.0,
+            "y": 35.0,
+            "w": 50.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "4 MoE routing jitter: expert capacity ceiling, route depends on the batch.",
+            "x": 5.0,
+            "y": 48.0,
+            "w": 84.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "same token? no. we need the SYSTEM to run the same STATE TRANSITION.",
+            "x": 35.0,
+            "y": 68.0,
+            "w": 52.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/Lc8zRh9muoY/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661952.4299328,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/opencv-adaptive",
+        "text": "sampling determinism. ≠ system determinism\ncemp O fixes the rule (argmax), not the logits.you argmax over.\nreorder a reduction - a logit's last bits move - argmax flips.. (0.1 + 1e20) - 1e20 = 0 float addition is Nor associative: I'o = (ozar - ozar) + r'o\nsame matmul, same GPU, 1oo0x → bitwise identical. Orod batches you with strangers; the kernel depends on batch shape. the culprit is batch invariance\nMoE routing jitter: expert capacity ceiling, route depends on the batch..\nsame token? no. we need the SYSTEM to run the\nSTATE TRANSITION.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 850.0
+      },
+      "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "sampling determinism. ≠ system determinism\ncemp O fixes the rule (argmax), not the logits.you argmax over.\nreorder a reduction - a logit's last bits move - argmax flips.. (0.1 + 1e20) - 1e20 = 0 float addition is Nor associative: I'o = (ozar - ozar) + r'o\nsame matmul, same GPU, 1oo0x → bitwise identical. Orod batches you with strangers; the kernel depends on batch shape. the culprit is batch invariance\nMoE routing jitter: expert capacity ceiling, route depends on the batch..\nsame token? no. we need the SYSTEM to run the\nSTATE TRANSITION.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/Lc8zRh9muoY/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "X Wrong question: can we make the model deterministic.\nright question: can we debug & test a run we can't reproduce.\ndeterminism was never the goal. record the run, replay the recording.\n='controllability bitwise determinism ='observability replayability.\n: same input - Identical output.: randomness makes the model good.: you won't get it from a hosted APl, and you don't want it: that. reconstruct a run that happened, need determinism, you need. the run recorded.. well enough to debug. you don't",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Two-column comparison slide with small body text and multiple lines; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6f3eb",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "wrong question: can we make the model deterministic.",
+            "x": 5.0,
+            "y": 8.0,
+            "w": 84.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "right question: can we debug & test a run we can’t reproduce.",
+            "x": 5.0,
+            "y": 22.0,
+            "w": 88.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "determinism was never the goal. record the run, replay the recording.",
+            "x": 6.0,
+            "y": 35.0,
+            "w": 74.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "bitwise determinism = controllability",
+            "x": 8.0,
+            "y": 49.0,
+            "w": 38.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "replayability = observability",
+            "x": 54.0,
+            "y": 49.0,
+            "w": 31.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/Lc8zRh9muoY/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662029.479345,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "X Wrong question: can we make the model deterministic.\nright question: can we debug & test a run we can't reproduce.\ndeterminism was never the goal. record the run, replay the recording.\n='controllability bitwise determinism ='observability replayability.\n: same input - Identical output.: randomness makes the model good.: you won't get it from a hosted APl, and you don't want it: that. reconstruct a run that happened, need determinism, you need. the run recorded.. well enough to debug. you don't",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 762.8
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "X Wrong question: can we make the model deterministic.\nright question: can we debug & test a run we can't reproduce.\ndeterminism was never the goal. record the run, replay the recording.\n='controllability bitwise determinism ='observability replayability.\n: same input - Identical output.: randomness makes the model good.: you won't get it from a hosted APl, and you don't want it: that. reconstruct a run that happened, need determinism, you need. the run recorded.. well enough to debug. you don't",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/Lc8zRh9muoY/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "record above the wire, not on it.\nX. at the network layer. I at the boundary\nthe network: local retrieval,: in-process tools, memory. half your agent never touches: and what leaves it, every I/0, capture what enters each node network or not..\n: the socket can't record what isn't on it. not the packets. the meaning of each step.\nOpenlnference Arize Phoenix · LangGraph checkpointers · framework-agnostic tracing records it. replay re-runs it offline: stub the model, O calls..",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Text-heavy comparison slide with small footer text and multiple boxes; OCR is better for accurate capture.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6f3eb",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "record above the wire, not on it.",
+            "x": 6.0,
+            "y": 8.0,
+            "w": 66.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "at the network layer",
+            "x": 8.0,
+            "y": 28.0,
+            "w": 34.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "at the boundary",
+            "x": 54.0,
+            "y": 28.0,
+            "w": 26.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "tracing records it. replay re-runs it offline: stub the model, o calls.",
+            "x": 6.0,
+            "y": 86.0,
+            "w": 70.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/Lc8zRh9muoY/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662068.288332,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "record above the wire, not on it.\nX. at the network layer. I at the boundary\nthe network: local retrieval,: in-process tools, memory. half your agent never touches: and what leaves it, every I/0, capture what enters each node network or not..\n: the socket can't record what isn't on it. not the packets. the meaning of each step.\nOpenlnference Arize Phoenix · LangGraph checkpointers · framework-agnostic tracing records it. replay re-runs it offline: stub the model, O calls..",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 748.04
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "record above the wire, not on it.\nX. at the network layer. I at the boundary\nthe network: local retrieval,: in-process tools, memory. half your agent never touches: and what leaves it, every I/0, capture what enters each node network or not..\n: the socket can't record what isn't on it. not the packets. the meaning of each step.\nOpenlnference Arize Phoenix · LangGraph checkpointers · framework-agnostic tracing records it. replay re-runs it offline: stub the model, O calls..",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/Lc8zRh9muoY/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "two kinds of check.\ndeterministic behavioural:\ncontrol flow · guardralls prompt / wording'changes\n: a fixture. Let the tool be called with qty 1000 never calls the model. rerunnable & free. again, but this time assert on the tool output: freeze the recorded context as did it stay grounded? did it: score it: assert fields / LiM-judge. replay the scenario, score' MEANING not bytes:: refuse the destructive call?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Comparison slide with small body copy in two columns; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6f3eb",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "two kinds of check.",
+            "x": 5.0,
+            "y": 7.0,
+            "w": 40.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "deterministic",
+            "x": 8.0,
+            "y": 30.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "behavioural",
+            "x": 54.0,
+            "y": 30.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "control flow · guardrails",
+            "x": 8.0,
+            "y": 38.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "prompt / wording changes",
+            "x": 54.0,
+            "y": 38.0,
+            "w": 22.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/Lc8zRh9muoY/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662095.2685568,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "two kinds of check.\ndeterministic behavioural:\ncontrol flow · guardralls prompt / wording'changes\n: a fixture. Let the tool be called with qty 1000 never calls the model. rerunnable & free. again, but this time assert on the tool output: freeze the recorded context as did it stay grounded? did it: score it: assert fields / LiM-judge. replay the scenario, score' MEANING not bytes:: refuse the destructive call?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 640.01
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "two kinds of check.\ndeterministic behavioural:\ncontrol flow · guardralls prompt / wording'changes\n: a fixture. Let the tool be called with qty 1000 never calls the model. rerunnable & free. again, but this time assert on the tool output: freeze the recorded context as did it stay grounded? did it: score it: assert fields / LiM-judge. replay the scenario, score' MEANING not bytes:: refuse the destructive call?",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/Lc8zRh9muoY/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "code + writeup",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple closing/title slide with a large readable title; OCR is unnecessary for the main text.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f6f3eb",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "code + writeup",
+            "x": 4.0,
+            "y": 6.0,
+            "w": 34.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "",
+            "x": 33.0,
+            "y": 21.0,
+            "w": 31.0,
+            "h": 49.0
+          },
+          {
+            "role": "caption",
+            "text": "Thanks — now go chronicle your agent..... -The Chronicle team",
+            "x": 63.0,
+            "y": 85.0,
+            "w": 31.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/Lc8zRh9muoY/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662132.1669784,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "code + writeup",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/Lc8zRh9muoY/slide-006.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "demo_video",
+      "reject_reason": "Screen recording of a slide editor with presenter webcam; not a readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide frame.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#f2f2f2",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Live Demo",
+            "x": 28.0,
+            "y": 47.0,
+            "w": 44.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/Lc8zRh9muoY/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662095.2677007,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

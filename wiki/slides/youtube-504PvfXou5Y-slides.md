@@ -17,56 +17,24 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/504PvfXou5Y/slide-001.jpg]]
-
-OCR text:
-
-> BDD, ADR, PRD, WTF
-> Capturing decisions for humans and AI alike
-
-![[assets/slides/504PvfXou5Y/slide-002.jpg]]
-
-OCR text:
-
-> Michal Cichra
-> Spec fe SINT
-> Find me at the booth.
-> p , ;
-> : _ Engineering the future of Al
-> iY ae on
-
 ![[assets/slides/504PvfXou5Y/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/504PvfXou5Y/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+- OCR decision: ready — dense code slide is better handled by OCR
 
-> ® e
+Slide text:
+
 > ADR: what it looks like
-> e
-> id: "@38°
-> ra status: Accepted ;
-> * * enforced _by: import-linter
-> * Pd eet weer haa eel es
-> Ps | Ae | * - *e/templates/we*
-> AIE ~ “eftermplatetags/es*
-> bd * —_—
-> we *
-> CCM Lei teC sme Uma eke
-> Context: Templates called .filter() and .count() directly,
-> making Nel queries invisible until production,
-> Oecision: Tenplates receive only pre-fetched typed data.
-> ORM models are barned from the terplate layer.
-> Enforced: import-linter blocks CRM icports in tevplates.
-> | e ° i f
-> | ! Engineering the future of Al
-> " 7 .
 
-![[assets/slides/504PvfXou5Y/slide-004.jpg]]
 
-OCR text:
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/504PvfXou5Y/slide-001.jpg) — `speaker_stage` confidence `0.92`; speaker-on-stage shot with only a partial projected slide visible
+- [`slide-002.jpg`](/assets/slides/504PvfXou5Y/slide-002.jpg) — `title_card` confidence `0.98`; speaker intro card with booth branding and no substantive talk content
+- [`slide-004.jpg`](/assets/slides/504PvfXou5Y/slide-004.jpg) — `sponsor_logo` confidence `0.99`; logo/end card rather than a presentation content slide
 
-> AI Engineer
-> EUROPE
-> HTTPS://AI.ENGINEER
+Classification audit: `raw/sources/slide-ai-classification/slides/504PvfXou5Y/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

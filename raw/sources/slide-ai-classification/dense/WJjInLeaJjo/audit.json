@@ -1,0 +1,153 @@
+{
+  "video_id": "WJjInLeaJjo",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "dow/sgetsme/uoy qnuita//ssdim\nm REaDME Q Code ol conduct f Apucht2o kcense 中 Secunty +47con:rbutors\n? AWS McP Servers Deployments 500+? releste l hour ago\nA sute or speciafred MCP servers that help you get the most out of Aw's, whertrer you use MCp. *m↓ overoe jara score s.s + morg deotomenrs clude cbe noy,ubid-qnutd\nTable of Contents Languagos\n● AWS kCP Serverg.. Tablo ol Contonts Wht is the Mode Context Protocol (MCP! and hor docs it work with AlvS MCP Servers? - Why MCP Servers? Python 96.2y $ha 1.1k htll o.0k + Dochtrtle 18x\n. Avaiabfe Servers - Coro MCP Sorve\n· AWS Documentation MCP Sorvox\nI ALron Bedrock Krowedge Brseus Rerase MCP Seze\n· AwS Kendra ndex MCP Servet?\n· AW'S coK MCp Server\nArnazon Nova Carvas MCP Server",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense repository screenshot with small table-of-contents and sidebar text; OCR will outperform manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(#1b2b34,#0c1420)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "https://github.com/awslabs/mcp",
+            "x": 5.0,
+            "y": 0,
+            "w": 54.0,
+            "h": 9.0
+          },
+          {
+            "role": "title",
+            "text": "AWS MCP Servers",
+            "x": 10.0,
+            "y": 18.0,
+            "w": 26.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Table of Contents",
+            "x": 10.0,
+            "y": 38.0,
+            "w": 20.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/WJjInLeaJjo/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664907.3661942,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "https://github.com/awslabs/mcp\nAWS MCP Servers",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "dow/sgetsme/uoy qnuita//ssdim\nm REaDME Q Code ol conduct f Apucht2o kcense 中 Secunty +47con:rbutors\n? AWS McP Servers Deployments 500+? releste l hour ago\nA sute or speciafred MCP servers that help you get the most out of Aw's, whertrer you use MCp. *m↓ overoe jara score s.s + morg deotomenrs clude cbe noy,ubid-qnutd\nTable of Contents Languagos\n● AWS kCP Serverg.. Tablo ol Contonts Wht is the Mode Context Protocol (MCP! and hor docs it work with AlvS MCP Servers? - Why MCP Servers? Python 96.2y $ha 1.1k htll o.0k + Dochtrtle 18x\n. Avaiabfe Servers - Coro MCP Sorve\n· AWS Documentation MCP Sorvox\nI ALron Bedrock Krowedge Brseus Rerase MCP Seze\n· AwS Kendra ndex MCP Servet?\n· AW'S coK MCp Server\nArnazon Nova Carvas MCP Server",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1178.12
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "dow/sgetsme/uoy qnuita//ssdim\nm REaDME Q Code ol conduct f Apucht2o kcense 中 Secunty +47con:rbutors\n? AWS McP Servers Deployments 500+? releste l hour ago\nA sute or speciafred MCP servers that help you get the most out of Aw's, whertrer you use MCp. *m↓ overoe jara score s.s + morg deotomenrs clude cbe noy,ubid-qnutd\nTable of Contents Languagos\n● AWS kCP Serverg.. Tablo ol Contonts Wht is the Mode Context Protocol (MCP! and hor docs it work with AlvS MCP Servers? - Why MCP Servers? Python 96.2y $ha 1.1k htll o.0k + Dochtrtle 18x\n. Avaiabfe Servers - Coro MCP Sorve\n· AWS Documentation MCP Sorvox\nI ALron Bedrock Krowedge Brseus Rerase MCP Seze\n· AwS Kendra ndex MCP Servet?\n· AW'S coK MCp Server\nArnazon Nova Carvas MCP Server",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/WJjInLeaJjo/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "WS About Aw's Corlrt L) Hy Accou Siyn n Crtrte an Aws Account.\nProducts Lerm Puter Aw's Mrkrtplice CurtomerEnabiement\nToq T+t Tog ·\nAw's Open Soure Dtog\nOpen Protocols for Agent Interoperability Part 1: Inter-Agent Communication on Mcp\nby Hick Aordge. Mr Brooler,rd Swami SxnudrmninIon t9 YAY ro2s Artl hlellgmer. GmrMht A, Opm Soucr, Though Ledrrhig t Perulish I + Cenmmitl\nm PPYp te l sHLl dp t leu it buyp Ya no u dtp Lu ypAepat do Shy y build Aruran ELrtk Cloud Conpute lCll a: protoce itgnotr dhoud computing xerikt arld\nAnlion SgetLht t +rmrrolr.lgnstk dep rrnng yilske. Gur colmnt to opanne.\nproaocol huve crged thut eruble ths cebity. hdtdrng the Mode Contat Prococo [Mcpr open rouled tby Anthropkc h yor4, hd bhe Lym?tgat prorocg Ala, sitroduced by Google\nto thirre open saLiraurdy, Airs a joning iht stterrg conmrnitee Tor MCp. By suppolting mLltple",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Slide combines a large title with dense embedded blog screenshot, architecture diagram, and QR code; OCR is appropriate for the smaller embedded text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(#18222f,#0b1220)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Open Protocols for Agent Interoperability",
+            "x": 4.0,
+            "y": 0,
+            "w": 74.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Open Protocols for Agent Interoperability Part 1: Inter-Agent Communication on MCP",
+            "x": 6.0,
+            "y": 28.0,
+            "w": 44.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/WJjInLeaJjo/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664958.3738444,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Open Protocols for Agent Interoperability",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/opencv-adaptive",
+        "text": "WS About Aw's Corlrt L) Hy Accou Siyn n Crtrte an Aws Account.\nProducts Lerm Puter Aw's Mrkrtplice CurtomerEnabiement\nToq T+t Tog ·\nAw's Open Soure Dtog\nOpen Protocols for Agent Interoperability Part 1: Inter-Agent Communication on Mcp\nby Hick Aordge. Mr Brooler,rd Swami SxnudrmninIon t9 YAY ro2s Artl hlellgmer. GmrMht A, Opm Soucr, Though Ledrrhig t Perulish I + Cenmmitl\nm PPYp te l sHLl dp t leu it buyp Ya no u dtp Lu ypAepat do Shy y build Aruran ELrtk Cloud Conpute lCll a: protoce itgnotr dhoud computing xerikt arld\nAnlion SgetLht t +rmrrolr.lgnstk dep rrnng yilske. Gur colmnt to opanne.\nproaocol huve crged thut eruble ths cebity. hdtdrng the Mode Contat Prococo [Mcpr open rouled tby Anthropkc h yor4, hd bhe Lym?tgat prorocg Ala, sitroduced by Google\nto thirre open saLiraurdy, Airs a joning iht stterrg conmrnitee Tor MCp. By suppolting mLltple",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1339.96
+      },
+      "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "WS About Aw's Corlrt L) Hy Accou Siyn n Crtrte an Aws Account.\nProducts Lerm Puter Aw's Mrkrtplice CurtomerEnabiement\nToq T+t Tog ·\nAw's Open Soure Dtog\nOpen Protocols for Agent Interoperability Part 1: Inter-Agent Communication on Mcp\nby Hick Aordge. Mr Brooler,rd Swami SxnudrmninIon t9 YAY ro2s Artl hlellgmer. GmrMht A, Opm Soucr, Though Ledrrhig t Perulish I + Cenmmitl\nm PPYp te l sHLl dp t leu it buyp Ya no u dtp Lu ypAepat do Shy y build Aruran ELrtk Cloud Conpute lCll a: protoce itgnotr dhoud computing xerikt arld\nAnlion SgetLht t +rmrrolr.lgnstk dep rrnng yilske. Gur colmnt to opanne.\nproaocol huve crged thut eruble ths cebity. hdtdrng the Mode Contat Prococo [Mcpr open rouled tby Anthropkc h yor4, hd bhe Lym?tgat prorocg Ala, sitroduced by Google\nto thirre open saLiraurdy, Airs a joning iht stterrg conmrnitee Tor MCp. By suppolting mLltple",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/WJjInLeaJjo/slide-002.html"
+    }
+  ],
+  "rejected": []
+}

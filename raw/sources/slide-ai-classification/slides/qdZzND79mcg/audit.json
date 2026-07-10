@@ -1,0 +1,1191 @@
+{
+  "video_id": "qdZzND79mcg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 16,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Beyond the Harness\nThe journey towards Adaptative Engineering",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Beyond the Harness",
+            "x": 6.0,
+            "y": 17.0,
+            "w": 42.0,
+            "h": 20.0
+          },
+          {
+            "role": "subtitle",
+            "text": "The journey towards Adaptative Engineering",
+            "x": 6.0,
+            "y": 35.0,
+            "w": 78.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "NICHHA LABS",
+            "x": 88.0,
+            "y": 90.0,
+            "w": 8.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670895.8761911,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Beyond the Harness\nThe journey towards Adaptative Engineering",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Current AI Engineering: Use a fixed harnesses to steer agents\nFixed roles, topology. sequencing,tool access etc\nReliable,Replicable,Auditable\nGreat for well-defined engineering problems (most)\nEngineer's role: Build/Use Harness + Steer Agents\nBut, future will see at least two explosions\nModels sopowerful that Harnesses constantly outdated\nr o\nEnter Adaptative Engineering: Harness emerges from agents interacting\nYou allow the necessary harness to emerge and adapt mid-engineering Engineer's role:\nDesign constraints,including rules of interaction amongst agents\nApply selection pressures\nuajivchandegra.com jiv Chandegra LIBS INICHHA",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-section slide with small text and diagrams; OCR will read it more reliably than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Current AI Engineering: Use a fixed harnesses to steer agents",
+            "x": 7.0,
+            "y": 8.0,
+            "w": 70.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "But, future will see at least two explosions",
+            "x": 7.0,
+            "y": 31.0,
+            "w": 42.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Enter Adaptative Engineering: Harness emerges from agents interacting",
+            "x": 7.0,
+            "y": 58.0,
+            "w": 66.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670895.8771207,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Current AI Engineering: Use a fixed harnesses to steer agents\nFixed roles, topology. sequencing,tool access etc\nReliable,Replicable,Auditable\nGreat for well-defined engineering problems (most)\nEngineer's role: Build/Use Harness + Steer Agents\nBut, future will see at least two explosions\nModels sopowerful that Harnesses constantly outdated\nr o\nEnter Adaptative Engineering: Harness emerges from agents interacting\nYou allow the necessary harness to emerge and adapt mid-engineering Engineer's role:\nDesign constraints,including rules of interaction amongst agents\nApply selection pressures\nuajivchandegra.com jiv Chandegra LIBS INICHHA",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 929.32
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Current AI Engineering: Use a fixed harnesses to steer agents\nFixed roles, topology. sequencing,tool access etc\nReliable,Replicable,Auditable\nGreat for well-defined engineering problems (most)\nEngineer's role: Build/Use Harness + Steer Agents\nBut, future will see at least two explosions\nModels sopowerful that Harnesses constantly outdated\nr o\nEnter Adaptative Engineering: Harness emerges from agents interacting\nYou allow the necessary harness to emerge and adapt mid-engineering Engineer's role:\nDesign constraints,including rules of interaction amongst agents\nApply selection pressures\nuajivchandegra.com jiv Chandegra LIBS INICHHA",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Harnesses\nHarness properties: A harness is the scaffold around a model that governs\nhow it operates. It turns model's behaviour into\nOrchestration useful work.\n-Roles Permissions and Rules The model is the engine; the harness is everything built around the engine.\n-Sequencing Tool Access Memory and Persistence e.g.Claude Code,Cursor, Codex,Cline,Goose, Hermes,OpenClaw,LangChain,Pi\n-Routing\nCommunication Protocols\n-observability/Testing\ndesign and engineering philosophy It guides and is guided by your own\najivchandegra.com jiv Chandegra LIBS ANICHHA",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense text slide with small body copy and a multi-item list; OCR is the better extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Harnesses",
+            "x": 6.0,
+            "y": 7.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Harness properties:",
+            "x": 6.0,
+            "y": 20.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Orchestration\nRoles\nPermissions and Rules\nMemory and Persistence\nSequencing\nTool Access\nRouting\nCommunication Protocols\nObservability/Testing",
+            "x": 7.0,
+            "y": 30.0,
+            "w": 24.0,
+            "h": 44.0
+          },
+          {
+            "role": "body",
+            "text": "A harness is the scaffold around a model that governs how it operates.",
+            "x": 34.0,
+            "y": 20.0,
+            "w": 52.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "The model is the engine; the harness is everything built around the engine.",
+            "x": 34.0,
+            "y": 42.0,
+            "w": 48.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "It guides and is guided by your own design and engineering philosophy",
+            "x": 34.0,
+            "y": 83.0,
+            "w": 48.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670914.4435413,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Harnesses",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Harnesses\nHarness properties: A harness is the scaffold around a model that governs\nhow it operates. It turns model's behaviour into\nOrchestration useful work.\n-Roles Permissions and Rules The model is the engine; the harness is everything built around the engine.\n-Sequencing Tool Access Memory and Persistence e.g.Claude Code,Cursor, Codex,Cline,Goose, Hermes,OpenClaw,LangChain,Pi\n-Routing\nCommunication Protocols\n-observability/Testing\ndesign and engineering philosophy It guides and is guided by your own\najivchandegra.com jiv Chandegra LIBS ANICHHA",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 819.32
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Harnesses\nHarness properties: A harness is the scaffold around a model that governs\nhow it operates. It turns model's behaviour into\nOrchestration useful work.\n-Roles Permissions and Rules The model is the engine; the harness is everything built around the engine.\n-Sequencing Tool Access Memory and Persistence e.g.Claude Code,Cursor, Codex,Cline,Goose, Hermes,OpenClaw,LangChain,Pi\n-Routing\nCommunication Protocols\n-observability/Testing\ndesign and engineering philosophy It guides and is guided by your own\najivchandegra.com jiv Chandegra LIBS ANICHHA",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Uses + Failure Modes of Fixed (factory) Harnessing\nUseful For Fixed (complicated) problems\nWhero specd, teproducbilityo auditabllity. Certifabilityis needed Closed, deterministic Systems, Where problems are well defined and fixed.\nEe, non-realtime product releases where there fsa clear temporal Seperation between problen o Solution\nFailure Modes o bad for moving (complex) problems\nWhere it comes in contact with the real worid o messy and changing\nHard Ceiling on Novelty o itsreliabilityis bought bysupressing variance\nBrittlness o Every unanticipated condition requires a human to update the harness.\nAccelerating Model Capabilities will be limited by fixed Harnessing\na2rajivchandegra.com jiu Chandegra LIBS ANICHHA",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense explanatory slide with multiple small text sections; OCR is the right extraction method.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Uses + Failure Modes of Fixed (factory) Harnessing",
+            "x": 6.0,
+            "y": 7.0,
+            "w": 80.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Useful For Fixed (complicated) problems",
+            "x": 18.0,
+            "y": 20.0,
+            "w": 44.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Closed, deterministic systems, where problems are well defined and fixed.\nWhere speed, reproducibility, auditability, certifiability is needed\ni.e. non-realtime product releases where there is a clear temporal separation between problem - solution",
+            "x": 20.0,
+            "y": 29.0,
+            "w": 64.0,
+            "h": 22.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Failure Modes - bad for moving (complex) problems",
+            "x": 18.0,
+            "y": 58.0,
+            "w": 62.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Where it comes in contact with the real world - messy and changing\nHard Ceiling on Novelty - its reliability is bought by suppressing variance\nBrittleness - Every unanticipated condition requires a human to update the harness.\nAccelerating Model Capabilities will be limited by fixed Harnessing",
+            "x": 20.0,
+            "y": 67.0,
+            "w": 67.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670931.3147652,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Uses + Failure Modes of Fixed (factory) Harnessing\nUseful For Fixed (complicated) problems\nWhero specd, teproducbilityo auditabllity. Certifabilityis needed Closed, deterministic Systems, Where problems are well defined and fixed.\nEe, non-realtime product releases where there fsa clear temporal Seperation between problen o Solution\nFailure Modes o bad for moving (complex) problems\nWhere it comes in contact with the real worid o messy and changing\nHard Ceiling on Novelty o itsreliabilityis bought bysupressing variance\nBrittlness o Every unanticipated condition requires a human to update the harness.\nAccelerating Model Capabilities will be limited by fixed Harnessing\na2rajivchandegra.com jiu Chandegra LIBS ANICHHA",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1016.72
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Uses + Failure Modes of Fixed (factory) Harnessing\nUseful For Fixed (complicated) problems\nWhero specd, teproducbilityo auditabllity. Certifabilityis needed Closed, deterministic Systems, Where problems are well defined and fixed.\nEe, non-realtime product releases where there fsa clear temporal Seperation between problen o Solution\nFailure Modes o bad for moving (complex) problems\nWhere it comes in contact with the real worid o messy and changing\nHard Ceiling on Novelty o itsreliabilityis bought bysupressing variance\nBrittlness o Every unanticipated condition requires a human to update the harness.\nAccelerating Model Capabilities will be limited by fixed Harnessing\na2rajivchandegra.com jiu Chandegra LIBS ANICHHA",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "How problems show up\n\n\"Managers are not confronted with problems that are independent of each other, but with dynamic situations that consists of complex systems of changing problems that interact with each other. I call such situations messes.\n\nManagers do not solve problems, they manage messes.\"\n\n-Russell Ackoff (1979, s. 93)",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How problems show up",
+            "x": 6.0,
+            "y": 7.0,
+            "w": 33.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Managers are not confronted with problems that are independent of each other, but with dynamic situations that consists of complex systems of changing problems that interact with each other. I call such situations messes.\n\nManagers do not solve problems, they manage messes.",
+            "x": 12.0,
+            "y": 27.0,
+            "w": 73.0,
+            "h": 43.0
+          },
+          {
+            "role": "caption",
+            "text": "-Russell Ackoff (1979, s. 93)",
+            "x": 34.0,
+            "y": 73.0,
+            "w": 31.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670956.1210868,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "How problems show up\n\n\"Managers are not confronted with problems that are independent of each other, but with dynamic situations that consists of complex systems of changing problems that interact with each other. I call such situations messes.\n\nManagers do not solve problems, they manage messes.\"\n\n-Russell Ackoff (1979, s. 93)",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Complicated Complex\nin\nCategorising\nproblem spaces\noxosvosoqoxd.uolxom.oyidrpe\nsame input,same output.You analyse-plan~execute,and a single principal can cer Complex: adaptive agents that respond to one another -a cat, a flock, a market. Beha emergent,loops back on itself （the feedback arrows).and a new order fors （the dash cluster) that you can't read off any part.You probe ~sense →respond.The factory Complicated: passive parts in fixed 1inkage -a clock.Knowable,decomposable,predic correct for the left-hand world;adaptive engineoring is only for the right-hand one.\ntajivchandegra.com jiv Chandegra",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with small explanatory text and labels; OCR is the appropriate extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Categorising problem spaces",
+            "x": 6.0,
+            "y": 43.0,
+            "w": 28.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Complicated",
+            "x": 41.0,
+            "y": 7.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Complex",
+            "x": 74.0,
+            "y": 7.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "knowable • predictable • analyse • plan • execute",
+            "x": 36.0,
+            "y": 36.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "adaptive • emergent • probe • sense • respond",
+            "x": 69.0,
+            "y": 36.0,
+            "w": 25.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670956.1216388,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Categorising problem spaces",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Complicated Complex\nin\nCategorising\nproblem spaces\noxosvosoqoxd.uolxom.oyidrpe\nsame input,same output.You analyse-plan~execute,and a single principal can cer Complex: adaptive agents that respond to one another -a cat, a flock, a market. Beha emergent,loops back on itself （the feedback arrows).and a new order fors （the dash cluster) that you can't read off any part.You probe ~sense →respond.The factory Complicated: passive parts in fixed 1inkage -a clock.Knowable,decomposable,predic correct for the left-hand world;adaptive engineoring is only for the right-hand one.\ntajivchandegra.com jiv Chandegra",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 914.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Complicated Complex\nin\nCategorising\nproblem spaces\noxosvosoqoxd.uolxom.oyidrpe\nsame input,same output.You analyse-plan~execute,and a single principal can cer Complex: adaptive agents that respond to one another -a cat, a flock, a market. Beha emergent,loops back on itself （the feedback arrows).and a new order fors （the dash cluster) that you can't read off any part.You probe ~sense →respond.The factory Complicated: passive parts in fixed 1inkage -a clock.Knowable,decomposable,predic correct for the left-hand world;adaptive engineoring is only for the right-hand one.\ntajivchandegra.com jiv Chandegra",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Principles of a Complex Adaptive System",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Low-text diagram slide with multiple labeled concepts; better handled by vision triage than OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Principles of a Complex Adaptive System",
+            "x": 6.0,
+            "y": 6.0,
+            "w": 66.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Multiple Diverse Agents",
+            "x": 14.0,
+            "y": 22.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Local Interactions",
+            "x": 42.0,
+            "y": 22.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Recursive Learning",
+            "x": 69.0,
+            "y": 22.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Environment",
+            "x": 13.0,
+            "y": 48.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Emergence",
+            "x": 44.0,
+            "y": 48.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Attractors",
+            "x": 71.0,
+            "y": 48.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "ANICHHA LABS",
+            "x": 88.0,
+            "y": 86.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671130.2635963,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Principles of a Complex Adaptive System",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Adaptative Engineering\nconstraints to the ertent that the harness emerges on its own. envtronment, in ways that could not be specified in advance.? stabilises and adapts as needed, in 1 αAdaptive engineering is the discipline of designing response to the changing\nThe Charness becomes the output rather than an input.\nYou allow the agents to find a harness that is suitable for their environment or problem space. This may need to adapto mid-engeering.\nThe harness becomes @ self-organising. constantly evolving. multi-agent system\ntrajivchandegra.com jiv Chandegra LIBS ANICHHA",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense quote and paragraph slide with small text; OCR is likely more reliable than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Adaptative Engineering",
+            "x": 6.0,
+            "y": 8.0,
+            "w": 30.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "\"Adaptive engineering is the discipline of designing constraints to the extent that the harness emerges on its own, stabilises and adapts as needed, in response to the changing environment, in ways that could not be specified in advance.\"",
+            "x": 6.0,
+            "y": 20.0,
+            "w": 88.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "The \"harness\" becomes the output rather than an input.",
+            "x": 33.0,
+            "y": 47.0,
+            "w": 49.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "You allow the agents to find a harness that is suitable for their environment or problem space. This may need to adapt, mid-engeering.",
+            "x": 33.0,
+            "y": 58.0,
+            "w": 48.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "The harness becomes a self-organising, constantly evolving, multi-agent system",
+            "x": 33.0,
+            "y": 76.0,
+            "w": 47.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "ANICHHA LABS",
+            "x": 88.0,
+            "y": 86.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671130.264281,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Adaptative Engineering",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Adaptative Engineering\nconstraints to the ertent that the harness emerges on its own. envtronment, in ways that could not be specified in advance.? stabilises and adapts as needed, in 1 αAdaptive engineering is the discipline of designing response to the changing\nThe Charness becomes the output rather than an input.\nYou allow the agents to find a harness that is suitable for their environment or problem space. This may need to adapto mid-engeering.\nThe harness becomes @ self-organising. constantly evolving. multi-agent system\ntrajivchandegra.com jiv Chandegra LIBS ANICHHA",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 819.42
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Adaptative Engineering\nconstraints to the ertent that the harness emerges on its own. envtronment, in ways that could not be specified in advance.? stabilises and adapts as needed, in 1 αAdaptive engineering is the discipline of designing response to the changing\nThe Charness becomes the output rather than an input.\nYou allow the agents to find a harness that is suitable for their environment or problem space. This may need to adapto mid-engeering.\nThe harness becomes @ self-organising. constantly evolving. multi-agent system\ntrajivchandegra.com jiv Chandegra LIBS ANICHHA",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Phase 4: Order without Centralised Control",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple diagram slide with a short title; OCR is unnecessary relative to direct visual reading.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Phase 4: Order without Centralised Control",
+            "x": 5.0,
+            "y": 6.0,
+            "w": 72.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671172.7583055,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Phase 4: Order without Centralised Control",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Phase 5: New Order",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple diagram slide with a short title; OCR is unnecessary relative to direct visual reading.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Phase 5: New Order",
+            "x": 5.0,
+            "y": 6.0,
+            "w": 35.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671172.7589102,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Phase 5: New Order",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "the engineer; it Adaptive: engineering of engineering relocates does not the emphasis abolish\nExploit the model's learn and change. have power to interact, capabilities so agents You engineer the rule of the game constraints - the deciding what can harness to emerge and You allow the new based on the changing change continually\ndoes. happen not what environment.\nnajivchandegra.com jiv Chandegra LIBS ANICHHA",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-column text slide with small body copy; OCR is the efficient extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Adaptive engineering does not abolish the engineer; it relocates the emphasis of engineering",
+            "x": 15.0,
+            "y": 8.0,
+            "w": 72.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Exploit the model's capabilities so agents have power to interact, learn and change.",
+            "x": 9.0,
+            "y": 40.0,
+            "w": 24.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "You engineer the constraints - the rule of the game - deciding what can happen not what does.",
+            "x": 40.0,
+            "y": 39.0,
+            "w": 22.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "You allow the new harness to emerge and change continually based on the changing environment.",
+            "x": 72.0,
+            "y": 39.0,
+            "w": 23.0,
+            "h": 24.0
+          },
+          {
+            "role": "logo",
+            "text": "ANICHHA LABS",
+            "x": 88.0,
+            "y": 86.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671172.762748,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "the engineer; it Adaptive: engineering of engineering relocates does not the emphasis abolish\nExploit the model's learn and change. have power to interact, capabilities so agents You engineer the rule of the game constraints - the deciding what can harness to emerge and You allow the new based on the changing change continually\ndoes. happen not what environment.\nnajivchandegra.com jiv Chandegra LIBS ANICHHA",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 634.23
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "the engineer; it Adaptive: engineering of engineering relocates does not the emphasis abolish\nExploit the model's learn and change. have power to interact, capabilities so agents You engineer the rule of the game constraints - the deciding what can harness to emerge and You allow the new based on the changing change continually\ndoes. happen not what environment.\nnajivchandegra.com jiv Chandegra LIBS ANICHHA",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Purely Fixed Harness Claude Code Langchain Hermes. Cursor Goose Codex Cline Vertical vs horlzontal Entelligence Fully Adaptive Harness\nP:v.:r+.\nadaptative pre-run, vs adaptive 'during, xuntino'\n[tur]\n(ingosid ceatraisos -Clond) eme:gmt distilbuted\nprescriptive, immovable archietcture the loop learning Single agent In emergent, multi-agent self organisation\njrajivchandegra.con jivChandegra LIBS INICH",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense comparison/architecture slide with small labels and many text elements; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Purely Fixed Harness",
+            "x": 10.0,
+            "y": 11.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Claude Code\nCursor\nCodex\nCline\nGoose\nHermes\nLangChain\nPi",
+            "x": 42.0,
+            "y": 7.0,
+            "w": 14.0,
+            "h": 24.0
+          },
+          {
+            "role": "title",
+            "text": "Fully Adaptive Harness",
+            "x": 76.0,
+            "y": 11.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "vertical vs horizontal intelligence",
+            "x": 49.0,
+            "y": 24.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "adaptive pre-run vs adaptive during runtime",
+            "x": 44.0,
+            "y": 33.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "imposed - centralised - closed",
+            "x": 13.0,
+            "y": 88.0,
+            "w": 21.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "prescriptive, immovable architecture",
+            "x": 13.0,
+            "y": 93.0,
+            "w": 23.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "single agent in the loop learning",
+            "x": 40.0,
+            "y": 90.0,
+            "w": 21.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "emergent - distributed - open",
+            "x": 71.0,
+            "y": 88.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "emergent, multi-agent self organisation",
+            "x": 71.0,
+            "y": 93.0,
+            "w": 24.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671211.7788923,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Purely Fixed Harness Claude Code Langchain Hermes. Cursor Goose Codex Cline Vertical vs horlzontal Entelligence Fully Adaptive Harness\nP:v.:r+.\nadaptative pre-run, vs adaptive 'during, xuntino'\n[tur]\n(ingosid ceatraisos -Clond) eme:gmt distilbuted\nprescriptive, immovable archietcture the loop learning Single agent In emergent, multi-agent self organisation\njrajivchandegra.con jivChandegra LIBS INICH",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 586.08
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Purely Fixed Harness Claude Code Langchain Hermes. Cursor Goose Codex Cline Vertical vs horlzontal Entelligence Fully Adaptive Harness\nP:v.:r+.\nadaptative pre-run, vs adaptive 'during, xuntino'\n[tur]\n(ingosid ceatraisos -Clond) eme:gmt distilbuted\nprescriptive, immovable archietcture the loop learning Single agent In emergent, multi-agent self organisation\njrajivchandegra.con jivChandegra LIBS INICH",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "2\nEngineer Open or close? QuesTION 1 Wall or goal? QUestION 2 How fast? t norisano\nConstraints new moves enabling door), This s just Dhat the rule does. A rule either opens market, @ scoreboard) limit) or closes options governing (a speed (a shared language,a cano governing \"you eay not? enabling you now alocked wants to win, so fit fenced playground: do Some of both. apart you either anything inside) no fence), Usually To stop itflying build a wall around give it a shared goal holds together with to orbit coherence (a tean that all) ito containerO hold by a boundary ocoherence pul1 hold by shared a container(a xor once: open one small, thing firsto watchy then widen. That is the dial (the Iate of coupling). tenpo. Don't switch This one isn'ta rule at alloft's the fullyreversible everything on at time reversible step ata scrimnage before the chaapionship - one\ntvchandegra-com Chandegra LIBS ANICHHA",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-column text with small body copy; OCR will be more reliable than manual transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#000000",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Engineer Constraints",
+            "x": 5.0,
+            "y": 12.0,
+            "w": 18.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "QUESTION 1\nOpen or close?",
+            "x": 28.0,
+            "y": 9.0,
+            "w": 20.0,
+            "h": 82.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "QUESTION 2\nWall or goal?",
+            "x": 50.0,
+            "y": 9.0,
+            "w": 20.0,
+            "h": 82.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "QUESTION 3\nHow fast?",
+            "x": 72.0,
+            "y": 9.0,
+            "w": 20.0,
+            "h": 82.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671303.6836014,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Engineer Constraints",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "2\nEngineer Open or close? QuesTION 1 Wall or goal? QUestION 2 How fast? t norisano\nConstraints new moves enabling door), This s just Dhat the rule does. A rule either opens market, @ scoreboard) limit) or closes options governing (a speed (a shared language,a cano governing \"you eay not? enabling you now alocked wants to win, so fit fenced playground: do Some of both. apart you either anything inside) no fence), Usually To stop itflying build a wall around give it a shared goal holds together with to orbit coherence (a tean that all) ito containerO hold by a boundary ocoherence pul1 hold by shared a container(a xor once: open one small, thing firsto watchy then widen. That is the dial (the Iate of coupling). tenpo. Don't switch This one isn'ta rule at alloft's the fullyreversible everything on at time reversible step ata scrimnage before the chaapionship - one\ntvchandegra-com Chandegra LIBS ANICHHA",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1289.16
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "2\nEngineer Open or close? QuesTION 1 Wall or goal? QUestION 2 How fast? t norisano\nConstraints new moves enabling door), This s just Dhat the rule does. A rule either opens market, @ scoreboard) limit) or closes options governing (a speed (a shared language,a cano governing \"you eay not? enabling you now alocked wants to win, so fit fenced playground: do Some of both. apart you either anything inside) no fence), Usually To stop itflying build a wall around give it a shared goal holds together with to orbit coherence (a tean that all) ito containerO hold by a boundary ocoherence pul1 hold by shared a container(a xor once: open one small, thing firsto watchy then widen. That is the dial (the Iate of coupling). tenpo. Don't switch This one isn'ta rule at alloft's the fullyreversible everything on at time reversible step ata scrimnage before the chaapionship - one\ntvchandegra-com Chandegra LIBS ANICHHA",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "PrOpLAiT HARHESS CHGINEIRING.THE FACTORY ADAPTIVE CNGINEERIRC. IHE FOREST\nfron Hhere ordel coaes Iposed up front, by dosigner interaction Emerges afterwaids,fron\nHarness Properties Unlt o2 cosign ittell Control The tarm+!! An input = you author It The agent and Its wixing. Centralised Osinglo principal Tho rolationship coupling. becone the harness Partly an output energent noras exchange, constraint pxincipal Distributed - no central\nVS Boundary Closed - porutes its past Opon co.adapts with its world\nAdaptative Engineer the outcome cultivate tho macro Engineer tho unit Oconstraints:\nProperties Causality \"hettor\" [+ans) Linear, Enspectable paths Optinise tomard. fixed etric Hon-linear, energent, Irreducible Co-adapt as the landscape royes (Red Queen)\nAdaptatlon Done to ito offline, between releases 'continuously Done by It = in the field,\nMen it faills The failure bas an owner The failure has only a shape\nBest for Closed, deterainistic. cortifiable tasks Open, shlfting, novelty-seoking frontios\nrajivchandegra.con jiv Chandegra LIBS ANICHHA",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense comparison table with small text; OCR is appropriate for accurate extraction.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#000000",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Harness\nProperties\nvs\nAdaptative\nProperties",
+            "x": 5.0,
+            "y": 17.0,
+            "w": 24.0,
+            "h": 34.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "PROPERTY\nHARNESS ENGINEERING • THE FACTORY\nADAPTIVE ENGINEERING • THE FOREST",
+            "x": 39.0,
+            "y": 6.0,
+            "w": 56.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Where order comes from\nThe harness itself\nUnit of design\nControl\nBoundary\nThe verb\nCausality\n\"Better\" means\nAdaptation\nWhen it fails\nBest for",
+            "x": 39.0,
+            "y": 14.0,
+            "w": 15.0,
+            "h": 78.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-014.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671386.7730484,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Harness Properties vs Adaptative Properties",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "PrOpLAiT HARHESS CHGINEIRING.THE FACTORY ADAPTIVE CNGINEERIRC. IHE FOREST\nfron Hhere ordel coaes Iposed up front, by dosigner interaction Emerges afterwaids,fron\nHarness Properties Unlt o2 cosign ittell Control The tarm+!! An input = you author It The agent and Its wixing. Centralised Osinglo principal Tho rolationship coupling. becone the harness Partly an output energent noras exchange, constraint pxincipal Distributed - no central\nVS Boundary Closed - porutes its past Opon co.adapts with its world\nAdaptative Engineer the outcome cultivate tho macro Engineer tho unit Oconstraints:\nProperties Causality \"hettor\" [+ans) Linear, Enspectable paths Optinise tomard. fixed etric Hon-linear, energent, Irreducible Co-adapt as the landscape royes (Red Queen)\nAdaptatlon Done to ito offline, between releases 'continuously Done by It = in the field,\nMen it faills The failure bas an owner The failure has only a shape\nBest for Closed, deterainistic. cortifiable tasks Open, shlfting, novelty-seoking frontios\nrajivchandegra.con jiv Chandegra LIBS ANICHHA",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1512.74
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "PrOpLAiT HARHESS CHGINEIRING.THE FACTORY ADAPTIVE CNGINEERIRC. IHE FOREST\nfron Hhere ordel coaes Iposed up front, by dosigner interaction Emerges afterwaids,fron\nHarness Properties Unlt o2 cosign ittell Control The tarm+!! An input = you author It The agent and Its wixing. Centralised Osinglo principal Tho rolationship coupling. becone the harness Partly an output energent noras exchange, constraint pxincipal Distributed - no central\nVS Boundary Closed - porutes its past Opon co.adapts with its world\nAdaptative Engineer the outcome cultivate tho macro Engineer tho unit Oconstraints:\nProperties Causality \"hettor\" [+ans) Linear, Enspectable paths Optinise tomard. fixed etric Hon-linear, energent, Irreducible Co-adapt as the landscape royes (Red Queen)\nAdaptatlon Done to ito offline, between releases 'continuously Done by It = in the field,\nMen it faills The failure bas an owner The failure has only a shape\nBest for Closed, deterainistic. cortifiable tasks Open, shlfting, novelty-seoking frontios\nrajivchandegra.con jiv Chandegra LIBS ANICHHA",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Uses + Failure Modes\nUseful For Messy, Exploratory Work\nOpen ended discoveryo environments that shift fast.\nWhere novelty and continuous adaptation is needed for changing conditions\nFailure Modes\nWithout genuine selection pressure, you get drift. Emergence leans towards stability, not necessarily good.\nMonocultuxe isk o agents trained on similar data\nLegibilitycollapses o as adaptabilityfncreases, abilityto explain decreases.\nIrreversiblity olock-ins, Stable bad equilibria Accountability gap o harm fron a pattern with no culpabie author\nNo reproducibility or predictability ahead of run time.\ncajivchandegra.com jiv Chandegra LIBS ANICHHA",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Bullet-heavy slide with several small lines; OCR should capture the detailed list better than manual triage.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#000000",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Uses + Failure Modes",
+            "x": 5.0,
+            "y": 8.0,
+            "w": 34.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Useful For Messy, Exploratory Work",
+            "x": 18.0,
+            "y": 24.0,
+            "w": 39.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Failure Modes",
+            "x": 18.0,
+            "y": 54.0,
+            "w": 22.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-015.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671446.643583,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Uses + Failure Modes",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Uses + Failure Modes\nUseful For Messy, Exploratory Work\nOpen ended discoveryo environments that shift fast.\nWhere novelty and continuous adaptation is needed for changing conditions\nFailure Modes\nWithout genuine selection pressure, you get drift. Emergence leans towards stability, not necessarily good.\nMonocultuxe isk o agents trained on similar data\nLegibilitycollapses o as adaptabilityfncreases, abilityto explain decreases.\nIrreversiblity olock-ins, Stable bad equilibria Accountability gap o harm fron a pattern with no culpabie author\nNo reproducibility or predictability ahead of run time.\ncajivchandegra.com jiv Chandegra LIBS ANICHHA",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 938.52
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Uses + Failure Modes\nUseful For Messy, Exploratory Work\nOpen ended discoveryo environments that shift fast.\nWhere novelty and continuous adaptation is needed for changing conditions\nFailure Modes\nWithout genuine selection pressure, you get drift. Emergence leans towards stability, not necessarily good.\nMonocultuxe isk o agents trained on similar data\nLegibilitycollapses o as adaptabilityfncreases, abilityto explain decreases.\nIrreversiblity olock-ins, Stable bad equilibria Accountability gap o harm fron a pattern with no culpabie author\nNo reproducibility or predictability ahead of run time.\ncajivchandegra.com jiv Chandegra LIBS ANICHHA",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Takeaway\nAs models improve exponentially, and as AI engineering moves more into real-world, the discipline will be forced to rethink itself around continual production.\nThe limiting factor is not the strength of the model - it will be the adaptability of the harness.\nAdaptability means multi-agent (horizontal), decentralised, mid-runtime intelligence.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Takeaway",
+            "x": 5.0,
+            "y": 8.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "As models improve exponentially, and as AI engineering moves more into real-world, the discipline will be forced to rethink itself around continual production.",
+            "x": 9.0,
+            "y": 26.0,
+            "w": 82.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "The limiting factor is not the strength of the model - it will be the adaptability of the harness.",
+            "x": 13.0,
+            "y": 45.0,
+            "w": 74.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Adaptability means multi-agent (horizontal), decentralised, mid-runtime intelligence.",
+            "x": 17.0,
+            "y": 62.0,
+            "w": 66.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/qdZzND79mcg/slide-016.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671492.66434,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Takeaway\nAs models improve exponentially, and as AI engineering moves more into real-world, the discipline will be forced to rethink itself around continual production.\nThe limiting factor is not the strength of the model - it will be the adaptability of the harness.\nAdaptability means multi-agent (horizontal), decentralised, mid-runtime intelligence.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/qdZzND79mcg/slide-016.html"
+    }
+  ],
+  "rejected": []
+}

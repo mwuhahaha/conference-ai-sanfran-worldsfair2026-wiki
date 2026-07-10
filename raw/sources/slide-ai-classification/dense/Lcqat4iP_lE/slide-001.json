@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "https://observable.tools\nObservable Tools\nLet's make MCP tools transparent and observable!",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "light gray-white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "https://observable.tools",
+        "x": 43.0,
+        "y": 0,
+        "w": 31.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Observable Tools",
+        "x": 42.0,
+        "y": 13.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Let's make MCP tools transparent and observable!",
+        "x": 38.0,
+        "y": 19.0,
+        "w": 32.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 49.0,
+        "y": 24.0,
+        "w": 23.0,
+        "h": 39.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 34.0,
+        "y": 69.0,
+        "w": 37.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/Lcqat4iP_lE/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660928.5448906,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "https://observable.tools\nObservable Tools\nLet's make MCP tools transparent and observable!",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,146 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls,mobile Cloud, Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nCEEE\nMciOnsey&Comgany\nCoaesummit",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense text-heavy slide with chart labels and small supporting images.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "New technologies have given rise to new software dev methodologies",
+        "x": 18.0,
+        "y": 4.0,
+        "w": 68.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Pre-2000s   2000s   2010s   2020s",
+        "x": 21.0,
+        "y": 12.0,
+        "w": 61.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tech breakthrough",
+        "x": 4.0,
+        "y": 21.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Mainframes, PCs",
+        "x": 20.0,
+        "y": 18.0,
+        "w": 11.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Web, client-server",
+        "x": 36.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Cloud, APIs, mobile",
+        "x": 55.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "AI coding assistants",
+        "x": 75.0,
+        "y": 18.0,
+        "w": 13.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Software dev methodologies",
+        "x": 4.0,
+        "y": 42.0,
+        "w": 14.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Waterfall",
+        "x": 20.0,
+        "y": 43.0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agile dev",
+        "x": 39.0,
+        "y": 43.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Product and platform dev",
+        "x": 56.0,
+        "y": 42.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "AI-native dev",
+        "x": 77.0,
+        "y": 43.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram",
+        "text": "timeline with milestones and three example images",
+        "x": 19.0,
+        "y": 30.0,
+        "w": 75.0,
+        "h": 38.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-002.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663335.7713623,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls,mobile Cloud, Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nCEEE\nMciOnsey&Comgany\nCoaesummit",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 467.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls,mobile Cloud, Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nCEEE\nMciOnsey&Comgany\nCoaesummit",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

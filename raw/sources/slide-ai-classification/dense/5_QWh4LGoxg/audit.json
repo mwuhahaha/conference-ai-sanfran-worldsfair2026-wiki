@@ -1,0 +1,1364 @@
+{
+  "video_id": "5_QWh4LGoxg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 17,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "COGNITIVE-SHIELD REAL-TIME REAL-SMART\nWhat happens when the smartest tools we've ever built... stop working for us - and start working against us?\nWhen fraud doesn't look like fraud anymore\nWhen phishing emails are indistinguishable from legitimate ones\nWhen deepfake voice and video pass KYC checks\nFraud isn't breaking in. It's walking in the front door - looking like everyone else.\nThis is not a future threat. It's happening. Right now.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with lime-green side wedges",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "COGNITIVE-SHIELD REAL-TIME REAL-SMART",
+            "x": 10.0,
+            "y": 6.0,
+            "w": 80.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "What happens when the smartest tools we've ever built... stop working for us - and start working against us?",
+            "x": 10.0,
+            "y": 21.0,
+            "w": 24.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "When fraud doesn't look like fraud anymore",
+            "x": 37.0,
+            "y": 21.0,
+            "w": 26.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "When phishing emails are indistinguishable from legitimate ones",
+            "x": 66.0,
+            "y": 21.0,
+            "w": 24.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "When deepfake voice and video pass KYC checks",
+            "x": 10.0,
+            "y": 56.0,
+            "w": 24.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "Fraud isn't breaking in. It's walking in the front door - looking like everyone else.",
+            "x": 37.0,
+            "y": 56.0,
+            "w": 26.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "This is not a future threat. It's happening. Right now.",
+            "x": 66.0,
+            "y": 56.0,
+            "w": 24.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658489.764136,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "COGNITIVE-SHIELD REAL-TIME REAL-SMART\nWhat happens when the smartest tools we've ever built... stop working for us - and start working against us?\nWhen fraud doesn't look like fraud anymore\nWhen phishing emails are indistinguishable from legitimate ones\nWhen deepfake voice and video pass KYC checks\nFraud isn't breaking in. It's walking in the front door - looking like everyone else.\nThis is not a future threat. It's happening. Right now.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-column slide with many small text lines and numeric claims.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "green gradient with white curved left panel",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The Dual Nature of AI - Real Stories, Real Losses",
+            "x": 6.0,
+            "y": 16.0,
+            "w": 29.0,
+            "h": 48.0
+          },
+          {
+            "role": "body",
+            "text": "Stories That Changed Everything:",
+            "x": 41.0,
+            "y": 11.0,
+            "w": 54.0,
+            "h": 35.0
+          },
+          {
+            "role": "body",
+            "text": "The Harsh Reality:",
+            "x": 41.0,
+            "y": 51.0,
+            "w": 54.0,
+            "h": 35.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658489.765927,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Paradigm Shift: Using AI to Defend Against AI\nAI is being misused. It's helping fraudsters to trick, steal, and spread lies faster than ever before.\nBut the same AI can be our greatest defense.\nWe can use it to spot fraud, stop attacks, and protect people.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with blue icons and green side bands",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The Paradigm Shift: Using AI to Defend Against AI",
+            "x": 11.0,
+            "y": 6.0,
+            "w": 77.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "AI is being misused. It's helping fraudsters to trick, steal, and spread lies faster than ever before.",
+            "x": 11.0,
+            "y": 48.0,
+            "w": 22.0,
+            "h": 25.0
+          },
+          {
+            "role": "body",
+            "text": "But the same AI can be our greatest defense.",
+            "x": 38.0,
+            "y": 48.0,
+            "w": 22.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "We can use it to spot fraud, stop attacks, and protect people.",
+            "x": 67.0,
+            "y": 48.0,
+            "w": 24.0,
+            "h": 20.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658489.766954,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Paradigm Shift: Using AI to Defend Against AI\nAI is being misused. It's helping fraudsters to trick, steal, and spread lies faster than ever before.\nBut the same AI can be our greatest defense.\nWe can use it to spot fraud, stop attacks, and protect people.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense layered architecture slide with multiple sections and bullet lists.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "green gradient with white panels",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Cognitive Shield: Revolutionary Three Layer Defense",
+            "x": 5.0,
+            "y": 16.0,
+            "w": 24.0,
+            "h": 52.0
+          },
+          {
+            "role": "body",
+            "text": "LAYER 1: Fortress Foundation",
+            "x": 40.0,
+            "y": 11.0,
+            "w": 54.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "LAYER 2: Intelligent Detection Engine",
+            "x": 40.0,
+            "y": 38.0,
+            "w": 54.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "LAYER 3: Command & Control Center",
+            "x": 40.0,
+            "y": 65.0,
+            "w": 54.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658489.7679179,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small multi-column slide with several section headers and fine-grained bullet text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with green side accents",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Layer 1: The Intelligent Foundation",
+            "x": 10.0,
+            "y": 6.0,
+            "w": 70.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Smart Application & Licensing",
+            "x": 10.0,
+            "y": 48.0,
+            "w": 14.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "Dynamic Exam Management",
+            "x": 26.0,
+            "y": 48.0,
+            "w": 14.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "Intelligent Case & Billing",
+            "x": 42.0,
+            "y": 48.0,
+            "w": 14.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "Conversational Data Access",
+            "x": 58.0,
+            "y": 48.0,
+            "w": 14.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "The Intelligence Layer",
+            "x": 79.0,
+            "y": 48.0,
+            "w": 14.0,
+            "h": 26.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658489.7701693,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-stage diagram with detailed bullet lists and small explanatory text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with green-gray corner gradients",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Layer 2: Graph Intelligence: Seeing the Invisible Connections",
+            "x": 7.0,
+            "y": 6.0,
+            "w": 83.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Stage 1: Dynamic Knowledge Graph Construction",
+            "x": 18.0,
+            "y": 17.0,
+            "w": 36.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Stage 2: Neo4j Graph Database Persistence",
+            "x": 18.0,
+            "y": 43.0,
+            "w": 36.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Stage 3: Graph-RAG Natural Language Intelligence",
+            "x": 18.0,
+            "y": 69.0,
+            "w": 36.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658489.7711673,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture slide with system flow and multiple tech-layer bullet rows.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with green side accents",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Architecture: Built for Scale, Speed, and Security",
+            "x": 7.0,
+            "y": 6.0,
+            "w": 70.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "System Flow: User Input -> FastAPI -> CrewAI Agents -> Neo4j Graph -> Intelligent Response",
+            "x": 7.0,
+            "y": 29.0,
+            "w": 76.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Core Tech Layers:",
+            "x": 7.0,
+            "y": 39.0,
+            "w": 35.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "CrewAI Intelligence:",
+            "x": 7.0,
+            "y": 63.0,
+            "w": 34.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Built for Compliance:",
+            "x": 7.0,
+            "y": 80.0,
+            "w": 34.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658489.771949,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "UI screenshot used as slide content; text is present but not the primary evidence and is better handled as a product/demo frame.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray UI screenshot",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Cognitive Shield",
+            "x": 4.0,
+            "y": 9.0,
+            "w": 24.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Human-in-the-Loop intelligence for Financial Defense",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "Finished API - Swagger UI",
+            "x": 69.0,
+            "y": 3.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Dashboard / User Management / Case Management / Examination Management / Invoice Management / Processing Flow / Payment Portal / Chat Assistant",
+            "x": 2.0,
+            "y": 27.0,
+            "w": 24.0,
+            "h": 46.0
+          },
+          {
+            "role": "body",
+            "text": "TOTAL FRAUD ALERTS / FINANCIAL IMPACT / ACTIVE FRAUD CAMPAIGNS / VICTIMS PROTECTED",
+            "x": 30.0,
+            "y": 33.0,
+            "w": 48.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "Fraud Activity by Category / Geographic Distribution of Fraud",
+            "x": 30.0,
+            "y": 65.0,
+            "w": 53.0,
+            "h": 20.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658489.7728124,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Examination Management",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot with small nav labels, tabs, and form fields.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with blue gradient banner",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Cognitive Shield - Human-in-the-Loop Financial Defense | FirstAid API - Swagger UI",
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Examination Management",
+            "x": 28.0,
+            "y": 10.0,
+            "w": 34.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "AI Fraud Detection\nExamination Management",
+            "x": 28.0,
+            "y": 16.0,
+            "w": 66.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "LEVEL 1: USER MANAGEMENT FLOW\nDashboard\nUser Management\nCase Management\nExamination Management\nInvoice Management\nProcessing Flow\nPayment Portal\nChat Assistant\nLEVEL 2: FRAUD DETECTION FLOW",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 22.0,
+            "h": 85.0
+          },
+          {
+            "role": "body",
+            "text": "Examination Dashboard\nCreate/Manage Examinations\nRisk Assessment\nTime & Billing\nAnalytics & Reporting",
+            "x": 28.0,
+            "y": 27.0,
+            "w": 60.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Create New Case\nCase Title\nCase Description\nStatus\nPriority\nCase Type\nFinancial Impact ($)",
+            "x": 28.0,
+            "y": 38.0,
+            "w": 66.0,
+            "h": 55.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658657.7015388,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Examination Management",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Invoice Management",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense dashboard screenshot with metrics, charts, and many small labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with blue gradient banner",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Cognitive Shield - Human-in-the-Loop Financial Defense | FirstAid API - Swagger UI",
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "AI Fraud Detection\nInvoice Management",
+            "x": 28.0,
+            "y": 12.0,
+            "w": 66.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "Dashboard\nInvoices\nCreate Invoice\nImport/Export\nAI Analysis",
+            "x": 28.0,
+            "y": 28.0,
+            "w": 50.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "TOTAL INVOICES 187\nTOTAL AMOUNT $356,420.00\nOVERDUE INVOICES 15",
+            "x": 28.0,
+            "y": 35.0,
+            "w": 65.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Invoice Status Distribution",
+            "x": 28.0,
+            "y": 52.0,
+            "w": 40.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "LEVEL 1: USER MANAGEMENT FLOW\nDashboard\nUser Management\nCase Management\nExamination Management\nInvoice Management\nProcessing Flow\nPayment Portal\nChat Assistant",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 22.0,
+            "h": 85.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658657.7023442,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Invoice Management",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Virtual Agent",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI with multiple panes, controls, and small labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with blue gradient banner",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "AI Fraud Detection\nVirtual Agent",
+            "x": 28.0,
+            "y": 14.0,
+            "w": 66.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Chat\nSupport Options",
+            "x": 28.0,
+            "y": 28.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Mode: Chat\nVoice Output\nVoice Input\nWeb Search\nSearch documents and web\nEnter your search query...\nType your message here...",
+            "x": 28.0,
+            "y": 36.0,
+            "w": 45.0,
+            "h": 40.0
+          },
+          {
+            "role": "body",
+            "text": "Knowledge Base\nUpload documents\nDrag and drop files here\nBrowse files\nAdvanced Options\nHow Document Q&A Works",
+            "x": 75.0,
+            "y": 33.0,
+            "w": 22.0,
+            "h": 42.0
+          },
+          {
+            "role": "body",
+            "text": "LEVEL 1: USER MANAGEMENT FLOW\nDashboard\nUser Management\nCase Management\nExamination Management\nInvoice Management\nProcessing Flow\nPayment Portal\nChat Assistant",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 22.0,
+            "h": 85.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658657.7030196,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Virtual Agent",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Payment Fraud Detection and Monitoring",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Large dashboard screenshot with metrics, chart labels, tabs, and smaller text that is better OCR'd.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with blue gradient banner",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Payment Fraud Detection and Monitoring",
+            "x": 28.0,
+            "y": 10.0,
+            "w": 58.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Payment Fraud Intelligence\nMonitor and detect fraud in payment systems including ACH, wire transfers, P2P payments, and card transactions.",
+            "x": 28.0,
+            "y": 16.0,
+            "w": 66.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "Dashboard\nPayment Analysis\nFraud Patterns\nCase Management",
+            "x": 28.0,
+            "y": 30.0,
+            "w": 55.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Payment Fraud Dashboard\nStart Date\nEnd Date\nRefresh Data",
+            "x": 28.0,
+            "y": 37.0,
+            "w": 60.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Key Metrics\nSUSPICIOUS TRANSACTIONS 427\nFRAUD AMOUNT $1.24M\nACTIVE CASES 38\nAVG. RESPONSE TIME 3.2 hrs",
+            "x": 28.0,
+            "y": 58.0,
+            "w": 65.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "LEVEL 1: USER MANAGEMENT FLOW\nDashboard\nUser Management\nCase Management\nExamination Management\nInvoice Management\nProcessing Flow\nPayment Portal\nChat Assistant",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 22.0,
+            "h": 85.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658657.703657,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Payment Fraud Detection and Monitoring",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Social Media Fraud Monitoring",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product screenshot with form controls, dropdown options, and multiple labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with blue gradient banner",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "Social Media Management",
+            "x": 28.0,
+            "y": 12.0,
+            "w": 50.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "Social Media Fraud Monitoring",
+            "x": 28.0,
+            "y": 22.0,
+            "w": 48.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Campaign Dashboard\nFraud Search\nNetwork Analysis\nStatistics",
+            "x": 28.0,
+            "y": 34.0,
+            "w": 45.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Active Fraud Campaigns\nMonitoring Status & Controls\nFilter Options\nPlatforms\nFraud Type\nMinimum Accounts\nAll\nPromotional\nImpersonation\nPyramid Scheme\nPonzi Scheme\nCrypto Scam\nAdvance Fee\nRomance Scam\nOther\nFound 0 fraud campaigns matching your criteria\nNo fraud campaigns found matching your criteria.",
+            "x": 28.0,
+            "y": 42.0,
+            "w": 65.0,
+            "h": 36.0
+          },
+          {
+            "role": "body",
+            "text": "LEVEL 1: USER MANAGEMENT FLOW\nDashboard\nUser Management\nCase Management\nExamination Management\nInvoice Management\nProcessing Flow\nPayment Portal\nChat Assistant",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 22.0,
+            "h": 85.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658657.7042809,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Social Media Fraud Monitoring",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Cryptocurrency Fraud",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense analytics dashboard with metrics and chart labels that are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "LEVEL 2: FRAUD DETECTION FLOW\nDeepfake Detection\nPayment Fraud\nWeb Fraud\nSocial Media Fraud\nCryptocurrency Fraud\nPhishing Detection\nBot Detection\nGraphBase Fraud Detection\nKnowledge Graph Builder\nNetwork Graph Analysis\nGraphRAG Analytics",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 22.0,
+            "h": 85.0
+          },
+          {
+            "role": "body",
+            "text": "MONITORED BLOCKCHAINS 8\nFLAGGED WALLETS 872\nFINANCIAL IMPACT $12.70M\nSUSPICIOUS TRANSACTIONS 3,542\nRISKY CONTRACTS 156\nMONITORED EXCHANGES 24",
+            "x": 27.0,
+            "y": 14.0,
+            "w": 67.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Suspicious Activity by Blockchain",
+            "x": 27.0,
+            "y": 38.0,
+            "w": 35.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Financial Impact by Blockchain (USD)",
+            "x": 65.0,
+            "y": 38.0,
+            "w": 32.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-014.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658657.7049549,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Cryptocurrency Fraud",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI-Generated Insight",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dashboard with multiple charts, labels, and a paragraph of insight text suited to OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Alert Distribution\nDaily Trends",
+            "x": 28.0,
+            "y": 10.0,
+            "w": 25.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Alert Severity Distribution",
+            "x": 28.0,
+            "y": 31.0,
+            "w": 30.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Alert Status Distribution",
+            "x": 63.0,
+            "y": 31.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "AI-Generated Insight",
+            "x": 28.0,
+            "y": 70.0,
+            "w": 35.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "LEVEL 3: INVESTIGATION & ENFORCEMENT\nAdvanced Search\nAnalytics Dashboard\nAlerts Monitor\nActive Investigation\nSystem Settings",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 22.0,
+            "h": 85.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-015.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658657.7055347,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI-Generated Insight",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Active Investigation\nNo items in your investigation. Add items from search results, alerts, or transactions.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with blue gradient banner",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "AI Fraud Detection\nInvestigation Management",
+            "x": 28.0,
+            "y": 13.0,
+            "w": 66.0,
+            "h": 12.0
+          },
+          {
+            "role": "title",
+            "text": "Active Investigation",
+            "x": 28.0,
+            "y": 29.0,
+            "w": 36.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "No items in your investigation. Add items from search results, alerts, or transactions.",
+            "x": 28.0,
+            "y": 41.0,
+            "w": 60.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Go to Search",
+            "x": 55.0,
+            "y": 49.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "LEVEL 3: INVESTIGATION & ENFORCEMENT\nAdvanced Search\nAnalytics Dashboard\nAlerts Monitor\nActive Investigation\nSystem Settings",
+            "x": 1.0,
+            "y": 8.0,
+            "w": 22.0,
+            "h": 85.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-016.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658657.7061071,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Active Investigation\nNo items in your investigation. Add items from search results, alerts, or transactions.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Cognitive Shield: AI Defense for Financial Fraud\nLayer 1: Data Trust & Secure Foundations\n- Privacy-first ingestion, verified identities\nLayer 2: Real-Time Fraud Detection\n- Deep learning, graph AI, secure LLMs stop fraud before it spreads\n- 8 specialized modules covering everything from deepfakes to crypto\nLayer 3: Intelligence Hub for Response & Compliance\n- Smart alerts, visual dashboards, and compliance-ready reporting\nKey Takeaways\n- AI is not optional - it's the core of modern fraud defense\n- Tables > Graphs - relationships expose hidden threats\n- Multi-agent LLMs bring context, speed, and transparency\nWhy We Must Act Now\nBy 2027, if we do nothing:\n- 90% of cyberattacks will be AI-driven\n- $100B+ in fraud losses expected annually\nOur Mission: Stop Fraud Before it Starts.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Readable slide with large text; direct transcription is sufficient in this pass.",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "white with green geometric gradients on the right",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Cognitive Shield: AI Defense for Financial Fraud",
+            "x": 5.0,
+            "y": 6.0,
+            "w": 72.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Layer 1: Data Trust & Secure Foundations",
+            "x": 6.0,
+            "y": 17.0,
+            "w": 45.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "- Privacy-first ingestion, verified identities",
+            "x": 8.0,
+            "y": 23.0,
+            "w": 48.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Layer 2: Real-Time Fraud Detection",
+            "x": 6.0,
+            "y": 31.0,
+            "w": 42.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "- Deep learning, graph AI, secure LLMs stop fraud before it spreads",
+            "x": 8.0,
+            "y": 37.0,
+            "w": 63.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "- 8 specialized modules covering everything from deepfakes to crypto",
+            "x": 8.0,
+            "y": 42.0,
+            "w": 62.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Layer 3: Intelligence Hub for Response & Compliance",
+            "x": 6.0,
+            "y": 49.0,
+            "w": 56.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "- Smart alerts, visual dashboards, and compliance-ready reporting",
+            "x": 8.0,
+            "y": 55.0,
+            "w": 63.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Key Takeaways",
+            "x": 6.0,
+            "y": 64.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "- AI is not optional - it's the core of modern fraud defense",
+            "x": 8.0,
+            "y": 70.0,
+            "w": 57.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "- Tables > Graphs - relationships expose hidden threats",
+            "x": 8.0,
+            "y": 75.0,
+            "w": 53.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "- Multi-agent LLMs bring context, speed, and transparency",
+            "x": 8.0,
+            "y": 80.0,
+            "w": 56.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Why We Must Act Now",
+            "x": 6.0,
+            "y": 88.0,
+            "w": 27.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "By 2027, if we do nothing:",
+            "x": 8.0,
+            "y": 93.0,
+            "w": 27.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "- 90% of cyberattacks will be AI-driven",
+            "x": 10.0,
+            "y": 98.0,
+            "w": 38.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-018.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658725.2823355,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Cognitive Shield: AI Defense for Financial Fraud\nLayer 1: Data Trust & Secure Foundations\n- Privacy-first ingestion, verified identities\nLayer 2: Real-Time Fraud Detection\n- Deep learning, graph AI, secure LLMs stop fraud before it spreads\n- 8 specialized modules covering everything from deepfakes to crypto\nLayer 3: Intelligence Hub for Response & Compliance\n- Smart alerts, visual dashboards, and compliance-ready reporting\nKey Takeaways\n- AI is not optional - it's the core of modern fraud defense\n- Tables > Graphs - relationships expose hidden threats\n- Multi-agent LLMs bring context, speed, and transparency\nWhy We Must Act Now\nBy 2027, if we do nothing:\n- 90% of cyberattacks will be AI-driven\n- $100B+ in fraud losses expected annually\nOur Mission: Stop Fraud Before it Starts.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5_QWh4LGoxg/slide-018.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "demo_video",
+      "reject_reason": "Desktop screen capture with browser/app UI and macOS desktop, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Non-slide demo footage; OCR would mostly capture browser and desktop chrome.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "desktop wallpaper with browser window and macOS dock",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5_QWh4LGoxg/slide-017.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658725.2781715,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

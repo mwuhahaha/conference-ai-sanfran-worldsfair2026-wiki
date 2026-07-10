@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The core idea\nClaude builds the agent\nThe agent gives feedback",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple diagram slide with large labels; direct reading is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The core idea",
+        "x": 8.0,
+        "y": 5.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Claude builds the agent",
+        "x": 35.0,
+        "y": 40.0,
+        "w": 30.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "The agent gives feedback",
+        "x": 36.0,
+        "y": 57.0,
+        "w": 30.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666546.8798237,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The core idea\nClaude builds the agent\nThe agent gives feedback",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Agent",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "diagram-like slide with minimal text",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 12.0,
+        "w": 10.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "AI Agent",
+        "x": 51.0,
+        "y": 33.0,
+        "w": 14.0,
+        "h": 11.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 62.0,
+        "y": 83.0,
+        "w": 11.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-005.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658920.5767655,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Agent",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "The AI strategy playbook for senior executives",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title card with large readable text; OCR is not needed.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with black footer",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The AI strategy playbook for senior executives",
+        "x": 35.0,
+        "y": 3.0,
+        "w": 31.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 33.0,
+        "y": 20.0,
+        "w": 31.0,
+        "h": 59.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 33.0,
+        "y": 88.0,
+        "w": 30.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/PmZDupFP3UM/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663262.177306,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The AI strategy playbook for senior executives",
+  "advanced_ocr": {}
+}

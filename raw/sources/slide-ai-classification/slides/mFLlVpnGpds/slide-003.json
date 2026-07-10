@@ -1,0 +1,119 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What can go wrong?\nhopefully the answer is not \"the live demo\"",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense slide with code snippet, chart, and small labels",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg, #000 0 30%, #fff 30% 100%)",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 11.0,
+        "h": 19.0
+      },
+      {
+        "role": "title",
+        "text": "What can go wrong?",
+        "x": 28.0,
+        "y": 8.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "hopefully the answer is not \"the live demo\"",
+        "x": 28.0,
+        "y": 17.0,
+        "w": 40.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "diarization error rate =",
+        "x": 29.0,
+        "y": 25.0,
+        "w": 42.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "speaker confusion + missed detection + false alarm",
+        "x": 52.0,
+        "y": 25.0,
+        "w": 41.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "total speech",
+        "x": 69.0,
+        "y": 32.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 29.0,
+        "y": 47.0,
+        "w": 33.0,
+        "h": 22.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 67.0,
+        "y": 47.0,
+        "w": 29.0,
+        "h": 22.0
+      },
+      {
+        "role": "logo",
+        "text": "pyannoteAI",
+        "x": 24.0,
+        "y": 76.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer Europe",
+        "x": 55.0,
+        "y": 82.0,
+        "w": 30.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/mFLlVpnGpds/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670542.439128,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What can go wrong?\nhopefully the answer is not \"the live demo\"",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 490.84,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0027
+  }
+}

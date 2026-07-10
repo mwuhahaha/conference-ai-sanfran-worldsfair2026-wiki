@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What is TurboQuant",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram-heavy slide with small explanatory text.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with dark blurred stage edges",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What is TurboQuant",
+        "x": 12.0,
+        "y": 15.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "A compression algorithm that stores embeddings and the KV cache in 3 to 4 bits instead of 32, with no training. It works in two stages:",
+        "x": 12.0,
+        "y": 23.0,
+        "w": 78.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "32-bit\n(r, theta)\n~4-bit",
+        "x": 29.0,
+        "y": 41.0,
+        "w": 42.0,
+        "h": 22.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 1 - PolarQuant\nStage 2 - QJ + 1 bit",
+        "x": 28.0,
+        "y": 62.0,
+        "w": 40.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/I2cbIws9j10/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659907.803154,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What is TurboQuant",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

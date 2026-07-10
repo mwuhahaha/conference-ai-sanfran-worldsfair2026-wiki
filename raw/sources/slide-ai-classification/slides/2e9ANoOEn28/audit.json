@@ -1,0 +1,507 @@
+{
+  "video_id": "2e9ANoOEn28",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 8,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "About me\n• Staff engineer at Etsy\n• Also Etsy's IC Initiative Lead for Agentic Commerce\n• Wrote Grokking Algorithms, an illustrated book on algorithms\n• Blog at ducktyped.org",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "About me",
+            "x": 9.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "• Staff engineer at Etsy\n• Also Etsy's IC Initiative Lead for Agentic Commerce\n• Wrote Grokking Algorithms, an illustrated book on algorithms\n• Blog at ducktyped.org",
+            "x": 9.0,
+            "y": 22.0,
+            "w": 48.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "Aditya Bhargava What if the harness mattered more than the model?",
+            "x": 9.0,
+            "y": 86.0,
+            "w": 62.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2e9ANoOEn28/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657282.5502186,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "About me\n• Staff engineer at Etsy\n• Also Etsy's IC Initiative Lead for Agentic Commerce\n• Wrote Grokking Algorithms, an illustrated book on algorithms\n• Blog at ducktyped.org",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2e9ANoOEn28/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code and error output are better suited to OCR than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "demo/median.py:",
+            "x": 0,
+            "y": 12.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "def median(numbers):\nordered = sorted(numbers)\nmiddle = len(ordered) // 2\nreturn ordered[middle]",
+            "x": 2.0,
+            "y": 24.0,
+            "w": 82.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "demo/test_median.py fails:",
+            "x": 0,
+            "y": 55.0,
+            "w": 34.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "AssertionError: median() returned 3, expected 2.5",
+            "x": 2.0,
+            "y": 69.0,
+            "w": 76.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2e9ANoOEn28/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657282.5637,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2e9ANoOEn28/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code and terminal text are dense and better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "node main() {\nconst prompt = \"\"\"\nThe Python function median(numbers) in demo/median.py has\n\"\"\"\nconst result = llm(prompt)\nprint(result)\n}",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 58.0,
+            "h": 34.0
+          },
+          {
+            "role": "caption",
+            "text": "It can't read or write to the file.",
+            "x": 1.0,
+            "y": 48.0,
+            "w": 48.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "npx agency examples/01-llm.agenc",
+            "x": 2.0,
+            "y": 62.0,
+            "w": 54.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2e9ANoOEn28/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657282.5644891,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2e9ANoOEn28/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Trace/log output is dense and OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "agentRun \"main\" (1.7s, 207 tok, $0.000)\nagentStart \"main\"\nthreadCreated thread #0\nnodeExecution \"main\" (1.7s, 207 tok, $0.000)",
+            "x": 1.0,
+            "y": 18.0,
+            "w": 75.0,
+            "h": 24.0
+          },
+          {
+            "role": "code",
+            "text": "[user] \"Use your `greet` tool to greet Adit\"\n[assistant] tool call: greet {\"name\":\"Adit\"}\n[tool: greet] \"Howdy, Adit!\"",
+            "x": 1.0,
+            "y": 42.0,
+            "w": 72.0,
+            "h": 28.0
+          },
+          {
+            "role": "code",
+            "text": "[assistant] \"Howdy, Adit!\"",
+            "x": 1.0,
+            "y": 72.0,
+            "w": 30.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2e9ANoOEn28/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657282.5650365,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2e9ANoOEn28/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "04 - Partial function application (PFA)",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code and small bullets are better captured by OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "04 - Partial function application (PFA)",
+            "x": 12.0,
+            "y": 8.0,
+            "w": 72.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "handle {\nconst result = llm(\nprompt,\n{\ntools: [read.partial(dir: \"demo\"), write.partial...",
+            "x": 16.0,
+            "y": 21.0,
+            "w": 70.0,
+            "h": 33.0
+          },
+          {
+            "role": "caption",
+            "text": "We lock the dir argument to \"demo\"",
+            "x": 12.0,
+            "y": 84.0,
+            "w": 52.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2e9ANoOEn28/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657282.5708106,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "04 - Partial function application (PFA)",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2e9ANoOEn28/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.82,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": false,
+      "ocr_reason": "The frame is cropped and only partial slide text is visible; OCR would be unreliable.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Project. Steps:",
+            "x": 0,
+            "y": 8.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "command 'python'",
+            "x": 0,
+            "y": 22.0,
+            "w": 25.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "median.py with the write tool, then run the tests",
+            "x": 0,
+            "y": 36.0,
+            "w": 55.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "time to confirm they pass.",
+            "x": 0,
+            "y": 55.0,
+            "w": 32.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "...decides what to do next",
+            "x": 0,
+            "y": 73.0,
+            "w": 42.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2e9ANoOEn28/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657282.5716143,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2e9ANoOEn28/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Terminal diff output is dense and OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black terminal window",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "ai-talk (main) $ gco\nai-talk (main) $ gd\ndiff --git a/examples/demo/median.py b/examples/demo/medi...",
+            "x": 4.0,
+            "y": 6.0,
+            "w": 86.0,
+            "h": 22.0
+          },
+          {
+            "role": "code",
+            "text": "def median(numbers):\n\"\"\"Return the median value of a list of numbers.\"\"\"",
+            "x": 7.0,
+            "y": 36.0,
+            "w": 80.0,
+            "h": 22.0
+          },
+          {
+            "role": "code",
+            "text": "+ if not numbers:\n+ raise ValueError(\"The list cannot be empty\")",
+            "x": 7.0,
+            "y": 58.0,
+            "w": 58.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2e9ANoOEn28/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657282.5721579,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2e9ANoOEn28/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense benchmark and prompt-diff text is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black terminal window",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "baseline objective 0.000",
+            "x": 10.0,
+            "y": 4.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "iter 1/5 accepted objective 1.000 (42.4s)\n~ examples/07-optimize.agency:main:prompt:",
+            "x": 10.0,
+            "y": 16.0,
+            "w": 70.0,
+            "h": 16.0
+          },
+          {
+            "role": "code",
+            "text": "The Python function median has a bug.",
+            "x": 12.0,
+            "y": 36.0,
+            "w": 52.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "Ensure to fix any bugs in the Python function",
+            "x": 12.0,
+            "y": 47.0,
+            "w": 61.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2e9ANoOEn28/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657282.5726984,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2e9ANoOEn28/slide-008.html"
+    }
+  ],
+  "rejected": []
+}

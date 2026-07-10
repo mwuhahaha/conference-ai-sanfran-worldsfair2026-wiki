@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Visualization\nInteractivity\nBeauty",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense diagram/UI content with small labels is OCR-suitable; only the short visible labels are captured here.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#122117",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 6.0,
+        "y": 13.0,
+        "w": 14.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram",
+        "text": "Visualization",
+        "x": 29.0,
+        "y": 12.0,
+        "w": 24.0,
+        "h": 70.0
+      },
+      {
+        "role": "diagram",
+        "text": "Interactivity",
+        "x": 54.0,
+        "y": 11.0,
+        "w": 27.0,
+        "h": 71.0
+      },
+      {
+        "role": "diagram",
+        "text": "Beauty",
+        "x": 81.0,
+        "y": 11.0,
+        "w": 18.0,
+        "h": 71.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/65X0pQ6Lmbg/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657736.3222294,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Visualization\nInteractivity\nBeauty",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

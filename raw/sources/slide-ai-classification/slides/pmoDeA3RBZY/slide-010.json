@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "My Factory\nMany Codex Sessions",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "My Factory",
+        "x": 25.0,
+        "y": 4.0,
+        "w": 19.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Many Codex Sessions",
+        "x": 25.0,
+        "y": 12.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 0,
+        "y": 77.0,
+        "w": 23.0,
+        "h": 23.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 33.0,
+        "y": 89.0,
+        "w": 49.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/pmoDeA3RBZY/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670788.0201547,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "My Factory\nMany Codex Sessions",
+  "advanced_ocr": {}
+}

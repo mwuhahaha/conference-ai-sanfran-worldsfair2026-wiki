@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Generate Speech Convert text to speech wh themost any platform. Transcribe Speech Reattme or batch Speech to Text for Compose Music Generate stems,yrics,and fl compositions with fult flexibility\nUghit of e Night\nAIE cy emeet yo.on Dhe enemy of iogkc.\nCreate Sound Effects Seamless looping, any length, professional-grade sound effects. Clone someone's voice,generate one existing 10k voices. with a prompt,or use one ofour Create Voices Deploy Agents Fully managed agents platform, with Nastive SDKs for mobile and web.\nSpace sni\ntsEL4543490\nEngineering the future of Al\nAIEng",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-panel product slide with many small labels and screenshots.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#000000 and white product panels",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 15.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "Engineering the future of AI",
+        "x": 37.0,
+        "y": 82.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Generate Speech",
+        "x": 35.0,
+        "y": 8.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Transcribe Speech",
+        "x": 53.0,
+        "y": 8.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Compose Music",
+        "x": 72.0,
+        "y": 8.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Create Sound Effects",
+        "x": 34.0,
+        "y": 58.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Create Voices",
+        "x": 53.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Deploy Agents",
+        "x": 72.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/u-rJwPPU3QA/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672061.6467886,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Generate Speech Convert text to speech wh themost any platform. Transcribe Speech Reattme or batch Speech to Text for Compose Music Generate stems,yrics,and fl compositions with fult flexibility\nUghit of e Night\nAIE cy emeet yo.on Dhe enemy of iogkc.\nCreate Sound Effects Seamless looping, any length, professional-grade sound effects. Clone someone's voice,generate one existing 10k voices. with a prompt,or use one ofour Create Voices Deploy Agents Fully managed agents platform, with Nastive SDKs for mobile and web.\nSpace sni\ntsEL4543490\nEngineering the future of Al\nAIEng",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 904.92
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Generate Speech Convert text to speech wh themost any platform. Transcribe Speech Reattme or batch Speech to Text for Compose Music Generate stems,yrics,and fl compositions with fult flexibility\nUghit of e Night\nAIE cy emeet yo.on Dhe enemy of iogkc.\nCreate Sound Effects Seamless looping, any length, professional-grade sound effects. Clone someone's voice,generate one existing 10k voices. with a prompt,or use one ofour Create Voices Deploy Agents Fully managed agents platform, with Nastive SDKs for mobile and web.\nSpace sni\ntsEL4543490\nEngineering the future of Al\nAIEng",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

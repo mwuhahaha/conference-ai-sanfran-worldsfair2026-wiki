@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Blog Posts\nUsing the Aspire Dashboard for Python OpenTelemetry tracing, metrics and logs\nWorking with Chinese, Japanese, and Korean text in Generative AI pipelines",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large readable article cards; direct read is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cream blog page",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Blog Posts",
+        "x": 20.0,
+        "y": 2.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Using the Aspire Dashboard for Python OpenTelemetry tracing, metrics and logs",
+        "x": 20.0,
+        "y": 12.0,
+        "w": 47.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "Working with Chinese, Japanese, and Korean text in Generative AI pipelines",
+        "x": 20.0,
+        "y": 54.0,
+        "w": 52.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "article images",
+        "x": 63.0,
+        "y": 12.0,
+        "w": 22.0,
+        "h": 74.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-028.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-028.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658031.7231646,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Blog Posts\nUsing the Aspire Dashboard for Python OpenTelemetry tracing, metrics and logs\nWorking with Chinese, Japanese, and Korean text in Generative AI pipelines",
+  "advanced_ocr": {}
+}

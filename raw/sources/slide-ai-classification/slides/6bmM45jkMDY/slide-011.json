@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Build the right thing.\nNot the next thing.\nBalazs Horvath\nlinkedin.com/in/Balazshorvathd365\nSCAN TO CONNECT",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "teal gradient with dark navy panel",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Build the right thing.\nNot the next thing.",
+        "x": 8.0,
+        "y": 19.0,
+        "w": 39.0,
+        "h": 31.0
+      },
+      {
+        "role": "caption",
+        "text": "Balazs Horvath\nlinkedin.com/in/Balazshorvathd365",
+        "x": 8.0,
+        "y": 72.0,
+        "w": 31.0,
+        "h": 9.0
+      },
+      {
+        "role": "code",
+        "text": "SCAN TO CONNECT",
+        "x": 61.0,
+        "y": 61.0,
+        "w": 15.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/6bmM45jkMDY/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657851.0591898,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Build the right thing.\nNot the next thing.\nBalazs Horvath\nlinkedin.com/in/Balazshorvathd365\nSCAN TO CONNECT",
+  "advanced_ocr": {}
+}

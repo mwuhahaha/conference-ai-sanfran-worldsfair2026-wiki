@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Overvien F-001The 00- DDe\nSlgnal census→primary selected byfallure mpaotxprevalence\nation]\nSignal/fallure-mode Present? Measuro Decislon\nlatency-spike YES 1790/46[)\nsndino-Duseya YES senin5/1046sampled\nYES seenin4/g46 smpled\ncost-overshoot YES snn3/40 smled\nOerrors\nOfeedback\nScan coverage\n5slicesindo-bas 1,946 TRACESNWINDOW DODE-LIVELSCAN(TIERO) 1,946 00-00T REPRESENTATIVE SAMPLE 102 Sof windo p1/1// LLMDEEP-READ covetag:cin 102 (ANALYZIRS) 102-of102sarpled (100%ofsle）\n24h timeline heatmap(colouravglatency,number·trace count)\ns0d.pr\n141\nSelected: Bene Severity WHAT/WHY/WHERE Burak One-liner Copy decislons as markdown Reset all\nKTGH",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense table, cards, and timeline heatmap are better suited to OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark charcoal gradient",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Signal census + primary selected by failure-validity gate + impact-prevalence + deep-read corroboration",
+        "x": 14.0,
+        "y": 7.0,
+        "w": 70.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Signal / failure-mode",
+        "x": 15.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Present?",
+        "x": 34.0,
+        "y": 18.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Measure",
+        "x": 45.0,
+        "y": 18.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Decision",
+        "x": 58.0,
+        "y": 18.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Scan coverage",
+        "x": 14.0,
+        "y": 49.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "24h timeline heatmap (colour = avg latency, number = trace count)",
+        "x": 14.0,
+        "y": 70.0,
+        "w": 45.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671101.0067177,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Overvien F-001The 00- DDe\nSlgnal census→primary selected byfallure mpaotxprevalence\nation]\nSignal/fallure-mode Present? Measuro Decislon\nlatency-spike YES 1790/46[)\nsndino-Duseya YES senin5/1046sampled\nYES seenin4/g46 smpled\ncost-overshoot YES snn3/40 smled\nOerrors\nOfeedback\nScan coverage\n5slicesindo-bas 1,946 TRACESNWINDOW DODE-LIVELSCAN(TIERO) 1,946 00-00T REPRESENTATIVE SAMPLE 102 Sof windo p1/1// LLMDEEP-READ covetag:cin 102 (ANALYZIRS) 102-of102sarpled (100%ofsle）\n24h timeline heatmap(colouravglatency,number·trace count)\ns0d.pr\n141\nSelected: Bene Severity WHAT/WHY/WHERE Burak One-liner Copy decislons as markdown Reset all\nKTGH",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 823.52
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Overvien F-001The 00- DDe\nSlgnal census→primary selected byfallure mpaotxprevalence\nation]\nSignal/fallure-mode Present? Measuro Decislon\nlatency-spike YES 1790/46[)\nsndino-Duseya YES senin5/1046sampled\nYES seenin4/g46 smpled\ncost-overshoot YES snn3/40 smled\nOerrors\nOfeedback\nScan coverage\n5slicesindo-bas 1,946 TRACESNWINDOW DODE-LIVELSCAN(TIERO) 1,946 00-00T REPRESENTATIVE SAMPLE 102 Sof windo p1/1// LLMDEEP-READ covetag:cin 102 (ANALYZIRS) 102-of102sarpled (100%ofsle）\n24h timeline heatmap(colouravglatency,number·trace count)\ns0d.pr\n141\nSelected: Bene Severity WHAT/WHY/WHERE Burak One-liner Copy decislons as markdown Reset all\nKTGH",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Graph-Based Entity Correlation Engine",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense text slide with title, paragraph, and bullets; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(180deg, #18002d 0%, #120024 100%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "COMPONENT 1",
+        "x": 38.0,
+        "y": 12.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Graph-Based Entity Correlation Engine",
+        "x": 38.0,
+        "y": 18.0,
+        "w": 43.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "The foundation of the framework is a knowledge graph that establishes relational links across payroll, tax, procurement, and transactional records.",
+        "x": 38.0,
+        "y": 33.0,
+        "w": 52.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Entities normalized and resolved across disparate data sources",
+        "x": 39.0,
+        "y": 48.0,
+        "w": 47.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/Iwe_RY-fYgI/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659673.9158957,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Graph-Based Entity Correlation Engine",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

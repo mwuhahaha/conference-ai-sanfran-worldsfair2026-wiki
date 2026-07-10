@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.89,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "vNc Server: rans apoy: vvc Server Code Server.\nArrakis MicroVM Sandbox: Arrakis MicroVM Sandbox:\nCloud-Hypervisor Process cloud-Hypervisor Process:\nDisk Device\nPer Va Rw. Layer Per vn Rw Layer\nUserspace Base Read-Only Rootfs\nKernel. /dev/kvn:: /dev/vm",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Cropped architecture diagram with repeated labels is OCR-suitable, but there is no clear title visible in this frame.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Arrakis MicroVM Sandbox",
+        "x": 19.0,
+        "y": 0,
+        "w": 26.0,
+        "h": 22.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "cloud-hypervisor Process\nDisk Device",
+        "x": 18.0,
+        "y": 26.0,
+        "w": 24.0,
+        "h": 20.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Per VM RW Layer",
+        "x": 30.0,
+        "y": 48.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Base Read-Only Rootfs",
+        "x": 33.0,
+        "y": 56.0,
+        "w": 22.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Userspace\nKernel\n/dev/kvm",
+        "x": 3.0,
+        "y": 74.0,
+        "w": 33.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-029.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-029.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673581.4511998,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "vNc Server: rans apoy: vvc Server Code Server.\nArrakis MicroVM Sandbox: Arrakis MicroVM Sandbox:\nCloud-Hypervisor Process cloud-Hypervisor Process:\nDisk Device\nPer Va Rw. Layer Per vn Rw Layer\nUserspace Base Read-Only Rootfs\nKernel. /dev/kvn:: /dev/vm",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 403.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "vNc Server: rans apoy: vvc Server Code Server.\nArrakis MicroVM Sandbox: Arrakis MicroVM Sandbox:\nCloud-Hypervisor Process cloud-Hypervisor Process:\nDisk Device\nPer Va Rw. Layer Per vn Rw Layer\nUserspace Base Read-Only Rootfs\nKernel. /dev/kvn:: /dev/vm",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

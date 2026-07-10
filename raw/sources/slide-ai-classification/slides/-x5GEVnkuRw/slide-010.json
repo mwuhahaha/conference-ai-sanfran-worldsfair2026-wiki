@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Maybe there’s a middle ground... Welcome to Docling!",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Maybe there’s a middle ground... Welcome to Docling!",
+        "x": 21.0,
+        "y": 6.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 4.0,
+        "y": 25.0,
+        "w": 28.0,
+        "h": 58.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 39.0,
+        "y": 24.0,
+        "w": 28.0,
+        "h": 59.0
+      },
+      {
+        "role": "body",
+        "text": "Good quality\nFast and cheap\nFully local operation\nStructured format output\nCost-effective at scale, with consistent representation and high quality",
+        "x": 71.0,
+        "y": 28.0,
+        "w": 25.0,
+        "h": 42.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655992.700687,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Maybe there’s a middle ground... Welcome to Docling!",
+  "advanced_ocr": {}
+}

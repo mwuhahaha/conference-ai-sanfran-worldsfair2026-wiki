@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "LARNINO notabooks ) JSoN_webpogu goneralontynb > m Addltionat Metrics >+ tran skbaarm.mioirics import f1_score, precision_scort, rocall_scora, acuracy scort\n$ benchmarks $big bench_had.canda + 十 Markdowmi | D Run All O Restart Char Ali Outputs I &a Vow daa Jupyter Variables: Outline: *: *a_code (Python 310.19)\n.wnatebcoks.coding sgant ruhs + datstets D anizenx support_q 0'BliNorm-100_van:sys.patn.Lnsert(o, strfnateboox dir.parent)) notcboak_dir a Path().absolute() (nporr: sys frsa eptlalar.tax. proeot tearming. opti*liar. Lport Pro. Iron pathlib laport Path 1 ptLrarnigbpt intrer “.. *'.\nsduod c: optnize_idx A, LCENSE.tt P_NOTCE E testesy ' trarcsy: metaprompt.txt U tama_support_quo.... phoeno supportq. \"tsuanb uoddns u U' tet cotinire_loopt evaltatcrs, Storeri one ot -ocuresy a(nn. rarecisian, \"recaiu Crarer'accursty threshatdat. tost_xet; fhresholer float.: thrtshald:tor tha selected setrie trin_set,' toopts, -\nRefurnst.\nt requriremanta,txrt 1.. dict wlth teyht. \"ra\": 1ist ot'test'set Dstofrsees. Idecptopy) ror:'tscp teit,run *traIn's List or. train set scores ptr rin *iestgi tist at test yet Tcores par. run. \"proapta Llut.a! systes proapts ustd fot tach teit. run.\nLapart:cooy\n>TINCUHE I' maint o porot-lsmng: O T A 9 O 16 L Sehet Posigrt Sarte? curr_toop = 1' trati_setrics,=.[]: test retries = t1 cuntor Dab 2025:11:22113:20:43 So*c0: 4UF.C*4 16 ot27",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code slide with small source text and docstring-like content; OCR is the right triage path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "def optimize_loop(",
+        "x": 16.0,
+        "y": 16.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "threshold=1\nloops=5\nscorer=\"accuracy\"",
+        "x": 16.0,
+        "y": 28.0,
+        "w": 30.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Returns:\ntrain\ntest\nprompt\nraw",
+        "x": 16.0,
+        "y": 47.0,
+        "w": 22.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-026.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-026.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665724.207747,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "LARNINO notabooks ) JSoN_webpogu goneralontynb > m Addltionat Metrics >+ tran skbaarm.mioirics import f1_score, precision_scort, rocall_scora, acuracy scort\n$ benchmarks $big bench_had.canda + 十 Markdowmi | D Run All O Restart Char Ali Outputs I &a Vow daa Jupyter Variables: Outline: *: *a_code (Python 310.19)\n.wnatebcoks.coding sgant ruhs + datstets D anizenx support_q 0'BliNorm-100_van:sys.patn.Lnsert(o, strfnateboox dir.parent)) notcboak_dir a Path().absolute() (nporr: sys frsa eptlalar.tax. proeot tearming. opti*liar. Lport Pro. Iron pathlib laport Path 1 ptLrarnigbpt intrer “.. *'.\nsduod c: optnize_idx A, LCENSE.tt P_NOTCE E testesy ' trarcsy: metaprompt.txt U tama_support_quo.... phoeno supportq. \"tsuanb uoddns u U' tet cotinire_loopt evaltatcrs, Storeri one ot -ocuresy a(nn. rarecisian, \"recaiu Crarer'accursty threshatdat. tost_xet; fhresholer float.: thrtshald:tor tha selected setrie trin_set,' toopts, -\nRefurnst.\nt requriremanta,txrt 1.. dict wlth teyht. \"ra\": 1ist ot'test'set Dstofrsees. Idecptopy) ror:'tscp teit,run *traIn's List or. train set scores ptr rin *iestgi tist at test yet Tcores par. run. \"proapta Llut.a! systes proapts ustd fot tach teit. run.\nLapart:cooy\n>TINCUHE I' maint o porot-lsmng: O T A 9 O 16 L Sehet Posigrt Sarte? curr_toop = 1' trati_setrics,=.[]: test retries = t1 cuntor Dab 2025:11:22113:20:43 So*c0: 4UF.C*4 16 ot27",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1702.4
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "LARNINO notabooks ) JSoN_webpogu goneralontynb > m Addltionat Metrics >+ tran skbaarm.mioirics import f1_score, precision_scort, rocall_scora, acuracy scort\n$ benchmarks $big bench_had.canda + 十 Markdowmi | D Run All O Restart Char Ali Outputs I &a Vow daa Jupyter Variables: Outline: *: *a_code (Python 310.19)\n.wnatebcoks.coding sgant ruhs + datstets D anizenx support_q 0'BliNorm-100_van:sys.patn.Lnsert(o, strfnateboox dir.parent)) notcboak_dir a Path().absolute() (nporr: sys frsa eptlalar.tax. proeot tearming. opti*liar. Lport Pro. Iron pathlib laport Path 1 ptLrarnigbpt intrer “.. *'.\nsduod c: optnize_idx A, LCENSE.tt P_NOTCE E testesy ' trarcsy: metaprompt.txt U tama_support_quo.... phoeno supportq. \"tsuanb uoddns u U' tet cotinire_loopt evaltatcrs, Storeri one ot -ocuresy a(nn. rarecisian, \"recaiu Crarer'accursty threshatdat. tost_xet; fhresholer float.: thrtshald:tor tha selected setrie trin_set,' toopts, -\nRefurnst.\nt requriremanta,txrt 1.. dict wlth teyht. \"ra\": 1ist ot'test'set Dstofrsees. Idecptopy) ror:'tscp teit,run *traIn's List or. train set scores ptr rin *iestgi tist at test yet Tcores par. run. \"proapta Llut.a! systes proapts ustd fot tach teit. run.\nLapart:cooy\n>TINCUHE I' maint o porot-lsmng: O T A 9 O 16 L Sehet Posigrt Sarte? curr_toop = 1' trati_setrics,=.[]: test retries = t1 cuntor Dab 2025:11:22113:20:43 So*c0: 4UF.C*4 16 ot27",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

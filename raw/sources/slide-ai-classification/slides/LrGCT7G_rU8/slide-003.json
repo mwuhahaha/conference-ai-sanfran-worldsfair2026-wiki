@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Phate 1 Architecture -- Al Pipeline Heulth Agent\nAn End-to-End RL Pipeline\nHealth Agent for Anomaly\nDetection and Autonomous\nSelf-Healing of Cloud Data\nt tt+e+ + At Pipelines\nt cttt th\n: NOTE: GENERAUZED PUDUKC REFERENCE ARCHTTECTURE\nSolution The Monitor → Diagnose → Score → Decide → Safety → Act Validate 2.Diagnose the likely failure family: 5.Validate whether the action restored a healthy state 3.Estimate operational risk 4.Select a bounded remediation action 1.observe logs, schema, and data-quality conditions",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture diagram and multiple text regions are better handled by OCR than direct transcription in triage.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f1efec",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Phase 1 Architecture – AI Pipeline Health Agent",
+        "x": 18.0,
+        "y": 2.0,
+        "w": 36.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "An End-to-End RL Pipeline Health Agent for Anomaly Detection and Autonomous Self-Healing of Cloud Data Pipelines",
+        "x": 63.0,
+        "y": 13.0,
+        "w": 34.0,
+        "h": 35.0
+      },
+      {
+        "role": "title",
+        "text": "The Solution",
+        "x": 4.0,
+        "y": 71.0,
+        "w": 27.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Monitor → Diagnose → Score → Decide → Safety → Act → Validate",
+        "x": 43.0,
+        "y": 68.0,
+        "w": 52.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "1. Observe logs, schema, and data-quality conditions",
+        "x": 47.0,
+        "y": 75.0,
+        "w": 47.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "2. Diagnose the likely failure family",
+        "x": 47.0,
+        "y": 80.0,
+        "w": 32.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "3. Estimate operational risk",
+        "x": 47.0,
+        "y": 85.0,
+        "w": 24.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "4. Select a bounded remediation action",
+        "x": 47.0,
+        "y": 89.0,
+        "w": 34.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "5. Validate whether the action restored a healthy state",
+        "x": 47.0,
+        "y": 93.0,
+        "w": 46.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660962.6952927,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Phate 1 Architecture -- Al Pipeline Heulth Agent\nAn End-to-End RL Pipeline\nHealth Agent for Anomaly\nDetection and Autonomous\nSelf-Healing of Cloud Data\nt tt+e+ + At Pipelines\nt cttt th\n: NOTE: GENERAUZED PUDUKC REFERENCE ARCHTTECTURE\nSolution The Monitor → Diagnose → Score → Decide → Safety → Act Validate 2.Diagnose the likely failure family: 5.Validate whether the action restored a healthy state 3.Estimate operational risk 4.Select a bounded remediation action 1.observe logs, schema, and data-quality conditions",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 720.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Phate 1 Architecture -- Al Pipeline Heulth Agent\nAn End-to-End RL Pipeline\nHealth Agent for Anomaly\nDetection and Autonomous\nSelf-Healing of Cloud Data\nt tt+e+ + At Pipelines\nt cttt th\n: NOTE: GENERAUZED PUDUKC REFERENCE ARCHTTECTURE\nSolution The Monitor → Diagnose → Score → Decide → Safety → Act Validate 2.Diagnose the likely failure family: 5.Validate whether the action restored a healthy state 3.Estimate operational risk 4.Select a bounded remediation action 1.observe logs, schema, and data-quality conditions",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

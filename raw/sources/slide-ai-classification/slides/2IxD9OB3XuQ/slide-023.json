@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Compounding: Lifelong agent improvements\n\nThis is verifiable continual learning in practice:\neach update is tested, every gain is measured, and nothing that already w",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "The embedded dashboard screenshot contains many small text labels that are best recovered by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with a dark dashboard panel and green accent metrics",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Compounding: Lifelong agent improvements",
+        "x": 4.0,
+        "y": 5.0,
+        "w": 64.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 15.0,
+        "y": 18.0,
+        "w": 71.0,
+        "h": 58.0
+      },
+      {
+        "role": "caption",
+        "text": "This is verifiable continual learning in practice:",
+        "x": 3.0,
+        "y": 79.0,
+        "w": 90.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-023.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-023.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657604.1623414,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Compounding: Lifelong agent improvements",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Compounding: Lifelong agent improvements\nNUNO\n+549 +9% +1%\nCesrn\nRedunsPoicy CoMiaion\nAbove-CapRube LmtCtcalatlc\nCaebalevsleuors\nSNSNOY LM\nThis is verifiable continual learning in practice:\neach update is tested, every gain is measured, and nothing that already v",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 390.56
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Compounding: Lifelong agent improvements\n\nThis is verifiable continual learning in practice:\neach update is tested, every gain is measured, and nothing that already w",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for the title and the bottom banner; illegible dashboard text was omitted."
+  }
+}

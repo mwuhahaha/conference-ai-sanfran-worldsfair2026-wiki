@@ -1,0 +1,237 @@
+{
+  "video_id": "3_gYbhABcAE",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with multiple small labels and compact text blocks.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 12.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "Why (Senior) Engineers Struggle to Build AI Agents",
+            "x": 28.0,
+            "y": 10.0,
+            "w": 31.0,
+            "h": 18.0
+          },
+          {
+            "role": "subtitle",
+            "text": "5 mental model collisions from traditional engineering, and how to fix them.",
+            "x": 28.0,
+            "y": 30.0,
+            "w": 31.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "TOP",
+            "x": 67.0,
+            "y": 7.0,
+            "w": 4.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Engineering Instincts",
+            "x": 72.0,
+            "y": 9.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Strict Types. Determinism",
+            "x": 73.0,
+            "y": 14.0,
+            "w": 13.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "BOTTLENECK",
+            "x": 67.0,
+            "y": 24.0,
+            "w": 7.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Mental Model Collision",
+            "x": 72.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Fighting the probability of LLMs",
+            "x": 72.0,
+            "y": 36.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "BOT",
+            "x": 67.0,
+            "y": 49.0,
+            "w": 4.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agent Reality",
+            "x": 71.0,
+            "y": 52.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Loops. Recovery. Contextual Meaning",
+            "x": 71.0,
+            "y": 57.0,
+            "w": 20.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/3_gYbhABcAE/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657209.9513776,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/3_gYbhABcAE/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Text is the New State\n- The Trap: Treating the real world as enums and booleans because it feels safe.\n- The Collision: Forcing natural language intent into discrete booleans lobotomizes the context.\n- The Fix: Preserve semantic meaning through raw strings so the agent can adapt intelligently downstream.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Text-heavy slide with bullets and embedded code screenshots.",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Text is the New State",
+            "x": 28.0,
+            "y": 2.0,
+            "w": 26.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "The Trap: Treating the real world as enums and booleans because it feels safe.",
+            "x": 28.0,
+            "y": 12.0,
+            "w": 34.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "The Collision: Forcing natural language intent into discrete booleans lobotomizes the context.",
+            "x": 28.0,
+            "y": 23.0,
+            "w": 37.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "The Fix: Preserve semantic meaning through raw strings so the agent can adapt intelligently downstream.",
+            "x": 28.0,
+            "y": 35.0,
+            "w": 38.0,
+            "h": 10.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 56.0,
+            "y": 17.0,
+            "w": 35.0,
+            "h": 24.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 56.0,
+            "y": 48.0,
+            "w": 35.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/3_gYbhABcAE/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657209.9526863,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Text is the New State\n- The Trap: Treating the real world as enums and booleans because it feels safe.\n- The Collision: Forcing natural language intent into discrete booleans lobotomizes the context.\n- The Fix: Preserve semantic meaning through raw strings so the agent can adapt intelligently downstream.",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/3_gYbhABcAE/slide-002.html"
+    }
+  ],
+  "rejected": []
+}

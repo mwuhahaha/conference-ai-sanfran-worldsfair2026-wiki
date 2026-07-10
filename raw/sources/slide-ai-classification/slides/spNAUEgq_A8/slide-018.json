@@ -1,0 +1,234 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Messages\nTools\nSystem Prompt\nModel\nMessages Messages Messages Messages\nTools Tools Tools Tools\nSystem Prompt System Prompt System Prompt System\n8Figma Gmail NAVAN Goo\nModel Model Model M",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-node inheritance diagram with repeated small labels and logos; OCR should extract this more reliably.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Messages",
+        "x": 42.0,
+        "y": 1.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 42.0,
+        "y": 8.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Prompt",
+        "x": 42.0,
+        "y": 16.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 42.0,
+        "y": 24.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Messages",
+        "x": 9.0,
+        "y": 49.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 9.0,
+        "y": 57.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Prompt",
+        "x": 9.0,
+        "y": 65.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "Figma",
+        "x": 9.0,
+        "y": 74.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 9.0,
+        "y": 83.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Messages",
+        "x": 31.0,
+        "y": 49.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 31.0,
+        "y": 57.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Prompt",
+        "x": 31.0,
+        "y": 65.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "Gmail",
+        "x": 31.0,
+        "y": 74.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 31.0,
+        "y": 83.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Messages",
+        "x": 53.0,
+        "y": 49.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 53.0,
+        "y": 57.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Prompt",
+        "x": 53.0,
+        "y": 65.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "navan",
+        "x": 53.0,
+        "y": 74.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 53.0,
+        "y": 83.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Messages",
+        "x": 75.0,
+        "y": 49.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 75.0,
+        "y": 57.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Prompt",
+        "x": 75.0,
+        "y": 65.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "Google Sheets",
+        "x": 75.0,
+        "y": 74.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 75.0,
+        "y": 83.0,
+        "w": 17.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-018.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672139.090635,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Messages\nTools\nSystem Prompt\nModel\nMessages Messages Messages Messages\nTools Tools Tools Tools\nSystem Prompt System Prompt System Prompt System\n8Figma Gmail NAVAN Goo\nModel Model Model M",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 308.96
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Messages\nTools\nSystem Prompt\nModel\nMessages Messages Messages Messages\nTools Tools Tools Tools\nSystem Prompt System Prompt System Prompt System\n8Figma Gmail NAVAN Goo\nModel Model Model M",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.88,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Vibe Coding Workshop for Leaders",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Vibe Coding Workshop for Leaders",
+        "x": 20.0,
+        "y": 0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 39.0,
+        "y": 7.0,
+        "w": 30.0,
+        "h": 72.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 31.0,
+        "y": 84.0,
+        "w": 43.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/dense-slides/7Dtu2bilcFs/slide-013.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658141.2575948,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Vibe Coding Workshop for Leaders",
+  "advanced_ocr": {}
+}

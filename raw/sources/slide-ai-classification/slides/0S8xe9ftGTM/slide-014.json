@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.9,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "OpenAI\nHarness Engineering:\nHow to Build\nSoftware When\nHumans Steer and\nAgents Execute\n\nRyan Lopopolo\nMember of Technical Staff",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Video-page screenshot with mixed small UI text and embedded subtitles.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Harness Engineering: How to Build Software When Humans Steer and Agents Execute",
+        "x": 33.0,
+        "y": 13.0,
+        "w": 39.0,
+        "h": 34.0
+      },
+      {
+        "role": "caption",
+        "text": "Ryan Lopolopo",
+        "x": 33.0,
+        "y": 50.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Member of Technical Staff",
+        "x": 33.0,
+        "y": 55.0,
+        "w": 20.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656527.273556,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Taoyticn Motion\n口 None\nEUROPE MleDeepMind Harness Engineering: OpenAl How to Build CejectArimations\nrOS giner Software When\nWorkos Agents Execute Humans Steer and\nscale AEnginoer\nRyan Lopopolo\nMemberofTechnicalStatt\nG token billionaires to our AGl future, we want everybody to be AND AGENTS\nHarness Engineering: How to Build Software When Humans Steer, Agents Execute - Ryan Lopopolo, OpenAl\nAl Enginee 515X wtscrbens Edinvidto 3x share Promste ★Ask\nbitps//openti.comindx/hactess-eogi 163Kviews2moehsso",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 639.8
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "OpenAI\nHarness Engineering:\nHow to Build\nSoftware When\nHumans Steer and\nAgents Execute\n\nRyan Lopopolo\nMember of Technical Staff",
+    "text_status": "meaningful",
+    "corrections": "Corrected OCR by removing UI noise and fixing obvious title/name errors; kept only clearly visible slide text."
+  }
+}

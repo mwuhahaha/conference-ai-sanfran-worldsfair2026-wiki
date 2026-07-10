@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The deepest lock-in is log lock-in\n1. Models Can be Swapped\n2. APIs/Tools can be changed\n3. Log is locked in. Continuity is trapped.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable slide; OCR not needed",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with blue abstract edge gradient",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The deepest lock-in is log lock-in",
+        "x": 14.0,
+        "y": 12.0,
+        "w": 47.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "1. Models Can be Swapped",
+        "x": 14.0,
+        "y": 28.0,
+        "w": 34.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "2. APIs/Tools can be changed",
+        "x": 14.0,
+        "y": 35.0,
+        "w": 38.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "3. Log is locked in. Continuity is trapped.",
+        "x": 14.0,
+        "y": 42.0,
+        "w": 50.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/UPwGaM2MKHY/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664773.8756275,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The deepest lock-in is log lock-in\n1. Models Can be Swapped\n2. APIs/Tools can be changed\n3. Log is locked in. Continuity is trapped.",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The human in the loop\nClaude builds the agent\nThe agent gives feedback",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple diagram slide with a few large labels; readable without OCR.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The human in the loop",
+        "x": 8.0,
+        "y": 5.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Claude builds the agent",
+        "x": 37.0,
+        "y": 24.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "The agent gives feedback",
+        "x": 34.0,
+        "y": 38.0,
+        "w": 24.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666662.0236504,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The human in the loop\nClaude builds the agent\nThe agent gives feedback",
+  "advanced_ocr": {}
+}

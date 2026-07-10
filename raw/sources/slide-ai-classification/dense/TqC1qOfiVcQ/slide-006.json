@@ -1,0 +1,116 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Bash is all you Need\nBash is what makes Claude Code so good.\nBash is a generic version for “code mode” or programmatic tool calling.\nThe bash tool allows you to:\n- Store the results of tool calls to files, so you can search them.\n- Store memory in files.\n- Dynamically generate scripts and call them.\n- Compose functionality, use unix primitives like tail, grep, cat, etc.\n- Use existing powerful software like ffmpeg, libreoffice, etc.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Bash is all you Need",
+        "x": 5.0,
+        "y": 4.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Bash is what makes Claude Code so good.",
+        "x": 5.0,
+        "y": 20.0,
+        "w": 70.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Bash is a generic version for “code mode” or programmatic tool calling.",
+        "x": 5.0,
+        "y": 29.0,
+        "w": 82.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "The bash tool allows you to:",
+        "x": 5.0,
+        "y": 39.0,
+        "w": 32.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Store the results of tool calls to files, so you can search them.",
+        "x": 8.0,
+        "y": 48.0,
+        "w": 84.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Store memory in files.",
+        "x": 8.0,
+        "y": 56.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Dynamically generate scripts and call them.",
+        "x": 8.0,
+        "y": 64.0,
+        "w": 52.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Compose functionality, use unix primitives like tail, grep, cat, etc.",
+        "x": 8.0,
+        "y": 72.0,
+        "w": 78.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Use existing powerful software like ffmpeg, libreoffice, etc.",
+        "x": 8.0,
+        "y": 80.0,
+        "w": 74.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "ANTHROPIC",
+        "x": 5.0,
+        "y": 93.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "CONFIDENTIAL",
+        "x": 78.0,
+        "y": 93.0,
+        "w": 14.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664441.910722,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Bash is all you Need\nBash is what makes Claude Code so good.\nBash is a generic version for “code mode” or programmatic tool calling.\nThe bash tool allows you to:\n- Store the results of tool calls to files, so you can search them.\n- Store memory in files.\n- Dynamically generate scripts and call them.\n- Compose functionality, use unix primitives like tail, grep, cat, etc.\n- Use existing powerful software like ffmpeg, libreoffice, etc.",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,169 @@
+{
+  "video_id": "BZtD0yYAgCQ",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "other",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshots and small headings are better handled by OCR than manual transcription in this triage pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with large white product panels and subtle concentric arcs",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 3.0,
+            "y": 10.0,
+            "w": 10.0,
+            "h": 16.0
+          },
+          {
+            "role": "title",
+            "text": "What can I help you ship?",
+            "x": 31.0,
+            "y": 3.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "What do you want to build?",
+            "x": 70.0,
+            "y": 2.0,
+            "w": 24.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "What will you design today?",
+            "x": 68.0,
+            "y": 34.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 44.0,
+            "y": 88.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 74.0,
+            "y": 88.0,
+            "w": 12.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/BZtD0yYAgCQ/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658608.3743489,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/BZtD0yYAgCQ/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "other",
+      "reject_reason": "",
+      "text": "“…generative AI systems are grown more than they are built—their internal mechanisms are “emergent” rather than directly designed.”\nDario Amodei",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with white quote panel and dark ASCII-art panel",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 3.0,
+            "y": 10.0,
+            "w": 10.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "…generative AI systems are grown more than they are built—their internal mechanisms are “emergent” rather than directly designed.",
+            "x": 25.0,
+            "y": 12.0,
+            "w": 32.0,
+            "h": 48.0
+          },
+          {
+            "role": "caption",
+            "text": "Dario Amodei",
+            "x": 25.0,
+            "y": 63.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 64.0,
+            "y": 86.0,
+            "w": 10.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/BZtD0yYAgCQ/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658608.3753176,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "“…generative AI systems are grown more than they are built—their internal mechanisms are “emergent” rather than directly designed.”\nDario Amodei",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/BZtD0yYAgCQ/slide-002.html"
+    }
+  ],
+  "rejected": []
+}

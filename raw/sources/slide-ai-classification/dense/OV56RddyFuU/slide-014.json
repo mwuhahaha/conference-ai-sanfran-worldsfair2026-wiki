@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "tip: find models supported by local apps\nHsin Isks Litrarirs Urpuges Lloemit (ther 0 Models 474 Tul et verch. y oun+ '+1 Sort, Trending.\nLiu.coo G L Sudoe LnM ow Thinp O Hayr lop t9c 0 - ht1 F: otr kp t pvrpdn · 9st r + ju1-orl+lrul unsloth/geana-4-268-A48-it-GGuf D unsloth/gema-4-318-1t-GGUF P muItrl·to-Tit + d 1la - Updted sbout 18 hout ato · ± Ael. C H1\nYSGLngQ Ualoh oiluionl+ Jbyfuion rUM om 口 xLxL t Dodar Hode tuaitar t Lemortde unsloth/gcana-4-E4B-it-GGUF D unsloth/goea-4-E2B-1t-GGUF B hugrTea-to-Yeat · d Se · Updstrd sbout 2l houn aro - ± y!lh. g1\ntertmce Prerlders Select alt α unsloth/GLH-5.1-GGUF T Tta Gmrmtion - Tb. Updsted I dsy ao · a i1.y - O t unsloth/Q=en3.S-358-A3n-GGUF F tratrTento-Tent · 4 Jso - Updrted Hes· ±L4cy. O Ta\nCroa Noic Cerebrns ○ ulX Hyperbolch TocetherA hmagt-Ten to-fer · d 2re · Updeted Ma 5· ±12k. O <s α untloth/Q=on3.S-27B-GGUF 0 uns1oth/Q=on3.5-98-GGUf B hmageler.to-Tet · s 9s - Updatrd Hst? · t l.1M. O 41?\nt Osicloud A Endpoinau hF hitence AliD wrSped R Coher Fhtworis fetharlessA Q Zl D Rrpiratt Q Salcway d G d unsloth/Qaen3-Coder-Haxt-GGUF TetGanenAion · sce· Updxted Mr6· t 25sk · 556 Tet Goneraton - d 31B: Updned Jn 30 · t 13ek · 583 Q unsloth/Q=on3-Code1-30B-A3B-Inatrutt-GGUF\nMiK unsloth/Qnon3.5-4B-GGUF kmwg+teat-to-Tor - 4B. Updstrd Har 2 - ± 5tdk - 19$ H hmaglanto-Tra · d 12ze · Updxrd r s -. 38yt. O 10 unsloth/Quon3.5-1228-A1e8-GGUF\nhf.co/models → other → apps",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "product UI screenshot with many small labels and model rows",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light green",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "tip: find models supported by local apps",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 56.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 2.0,
+        "y": 12.0,
+        "w": 96.0,
+        "h": 76.0
+      },
+      {
+        "role": "caption",
+        "text": "hf.co/models → other → apps",
+        "x": 58.0,
+        "y": 91.0,
+        "w": 35.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-014.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662283.2128139,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "tip: find models supported by local apps",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "tip: find models supported by local apps\nHsin Isks Litrarirs Urpuges Lloemit (ther 0 Models 474 Tul et verch. y oun+ '+1 Sort, Trending.\nLiu.coo G L Sudoe LnM ow Thinp O Hayr lop t9c 0 - ht1 F: otr kp t pvrpdn · 9st r + ju1-orl+lrul unsloth/geana-4-268-A48-it-GGuf D unsloth/gema-4-318-1t-GGUF P muItrl·to-Tit + d 1la - Updted sbout 18 hout ato · ± Ael. C H1\nYSGLngQ Ualoh oiluionl+ Jbyfuion rUM om 口 xLxL t Dodar Hode tuaitar t Lemortde unsloth/gcana-4-E4B-it-GGUF D unsloth/goea-4-E2B-1t-GGUF B hugrTea-to-Yeat · d Se · Updstrd sbout 2l houn aro - ± y!lh. g1\ntertmce Prerlders Select alt α unsloth/GLH-5.1-GGUF T Tta Gmrmtion - Tb. Updsted I dsy ao · a i1.y - O t unsloth/Q=en3.S-358-A3n-GGUF F tratrTento-Tent · 4 Jso - Updrted Hes· ±L4cy. O Ta\nCroa Noic Cerebrns ○ ulX Hyperbolch TocetherA hmagt-Ten to-fer · d 2re · Updeted Ma 5· ±12k. O <s α untloth/Q=on3.S-27B-GGUF 0 uns1oth/Q=on3.5-98-GGUf B hmageler.to-Tet · s 9s - Updatrd Hst? · t l.1M. O 41?\nt Osicloud A Endpoinau hF hitence AliD wrSped R Coher Fhtworis fetharlessA Q Zl D Rrpiratt Q Salcway d G d unsloth/Qaen3-Coder-Haxt-GGUF TetGanenAion · sce· Updxted Mr6· t 25sk · 556 Tet Goneraton - d 31B: Updned Jn 30 · t 13ek · 583 Q unsloth/Q=on3-Code1-30B-A3B-Inatrutt-GGUF\nMiK unsloth/Qnon3.5-4B-GGUF kmwg+teat-to-Tor - 4B. Updstrd Har 2 - ± 5tdk - 19$ H hmaglanto-Tra · d 12ze · Updxrd r s -. 38yt. O 10 unsloth/Quon3.5-1228-A1e8-GGUF\nhf.co/models → other → apps",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1462.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "tip: find models supported by local apps\nHsin Isks Litrarirs Urpuges Lloemit (ther 0 Models 474 Tul et verch. y oun+ '+1 Sort, Trending.\nLiu.coo G L Sudoe LnM ow Thinp O Hayr lop t9c 0 - ht1 F: otr kp t pvrpdn · 9st r + ju1-orl+lrul unsloth/geana-4-268-A48-it-GGuf D unsloth/gema-4-318-1t-GGUF P muItrl·to-Tit + d 1la - Updted sbout 18 hout ato · ± Ael. C H1\nYSGLngQ Ualoh oiluionl+ Jbyfuion rUM om 口 xLxL t Dodar Hode tuaitar t Lemortde unsloth/gcana-4-E4B-it-GGUF D unsloth/goea-4-E2B-1t-GGUF B hugrTea-to-Yeat · d Se · Updstrd sbout 2l houn aro - ± y!lh. g1\ntertmce Prerlders Select alt α unsloth/GLH-5.1-GGUF T Tta Gmrmtion - Tb. Updsted I dsy ao · a i1.y - O t unsloth/Q=en3.S-358-A3n-GGUF F tratrTento-Tent · 4 Jso - Updrted Hes· ±L4cy. O Ta\nCroa Noic Cerebrns ○ ulX Hyperbolch TocetherA hmagt-Ten to-fer · d 2re · Updeted Ma 5· ±12k. O <s α untloth/Q=on3.S-27B-GGUF 0 uns1oth/Q=on3.5-98-GGUf B hmageler.to-Tet · s 9s - Updatrd Hst? · t l.1M. O 41?\nt Osicloud A Endpoinau hF hitence AliD wrSped R Coher Fhtworis fetharlessA Q Zl D Rrpiratt Q Salcway d G d unsloth/Qaen3-Coder-Haxt-GGUF TetGanenAion · sce· Updxted Mr6· t 25sk · 556 Tet Goneraton - d 31B: Updned Jn 30 · t 13ek · 583 Q unsloth/Q=on3-Code1-30B-A3B-Inatrutt-GGUF\nMiK unsloth/Qnon3.5-4B-GGUF kmwg+teat-to-Tor - 4B. Updstrd Har 2 - ± 5tdk - 19$ H hmaglanto-Tra · d 12ze · Updxrd r s -. 38yt. O 10 unsloth/Quon3.5-1228-A1e8-GGUF\nhf.co/models → other → apps",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

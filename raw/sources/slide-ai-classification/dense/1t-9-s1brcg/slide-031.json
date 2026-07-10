@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "GPT + Enterprise data | Sample\n\nWhat Python frameworks does Pamela use?\n\nPamela uses the following Python frameworks:\n- FastAPI\n- Flask\n- Django\n\npamela fox's blog\nWednesday, January 3, 2024\nUsing FastAPI for an OpenAI chat backend\n\nInitializing the OpenAI client",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product/UI screenshot with dense small text and citations.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "GPT + Enterprise data | Sample",
+        "x": 1.0,
+        "y": 1.0,
+        "w": 98.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "What Python frameworks does Pamela use?",
+        "x": 21.0,
+        "y": 12.0,
+        "w": 27.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "pamela fox's blog",
+        "x": 56.0,
+        "y": 18.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Wednesday, January 3, 2024",
+        "x": 56.0,
+        "y": 29.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Using FastAPI for an OpenAI chat backend",
+        "x": 56.0,
+        "y": 35.0,
+        "w": 32.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-031.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-031.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658254.7914188,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "GPT+Enterpnse dats I Samplo CF3 AwtOomloASurh\nGChr chst GDereloper settngs\nWht Python tr a+++oris do+t P++ls uh+? Thovgt proces! Spporng\n01 -\nPamela uses the tollowirg Pychon framrworlr'. pamela fox's blog\n~Flt x Cutonr L.eeg ahtploropmu o bk.rdem -Cjngo ar Using FastAPl for an OpenA chat backend Wedr+nday. January o, 2o24\nIy ce Tte Pyhor btaterdr, 1 tpcty ste tatt Oyt, Te ttyha'rares trton t Pml, t F+t$, i+ o+ Pop'+ +croros Pytoe ++ trhaont. Y+A TAdeg +++ APh Tt msl+ Cae to Cp+/ tera, ++ +tly, trt + tea.+4 t+st topon Iug 'tuodou u+e ruo +4 Je, tus tta yrbu +er ++u + tputy Ls s pl ca Yuillrou?\nt +t poe, Ie porg 1o tta trouoh + I a+++t bechard +al rshs c+t co? Iton cele n Cprll f 4\nInillalizing the OpenAl cllent\nL turlu ts pruur mtvos utyd Au Lop t a uoplrb atu t sdil!\nLureAs ymropea!() tr Au+ Op+w scoout. CpeaAI I ), A yncopecAI (!, As ymcOparAl, e Ar mreAi)c OpmLt I l. srce se's urg F etArt m+ thoud ute te Asjtc+ virlera, earer AsjtcdpelI ) ter operel.cor socouri d",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1395.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "GPT + Enterprise data | Sample\n\nWhat Python frameworks does Pamela use?\n\nPamela uses the following Python frameworks:\n- FastAPI\n- Flask\n- Django\n\npamela fox's blog\nWednesday, January 3, 2024\nUsing FastAPI for an OpenAI chat backend\n\nInitializing the OpenAI client",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for obvious misspellings and trimmed browser chrome; main slide text accepted."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "k.ry +empy data Frr iindasreet,yoave yr taseRL.Th pls the eneint path that we sefine erlier. Ly care,y fts 十Markdown 0let-s-5tk-sms-briege-fste]-0g-eee.msst.roe/weheks/stac nAer CAOs I96E 90 11 3 H 14 Sefim Ie-secret reetee intle arevjao ife Ypeats\",\n.Spt omd ch.pi RDADMEn 1AVixoetpin 9. 1md uwloo ect.soml o-time Rsretithtye eurverificatiotdcallene string. Sefore Slack send a reslevests,tseferesecrity hndske.It sends Your server ust resgne vith tat eact challenge string tereve it'sListeng. verityng tereeestsigntre teeere eeeg Jepertsedai ipertrequtsts apert json froe slackspk.sipatre iaprt Signatoreverfier Dmape-eodaL.inage.debi_sUnti.pia_sstai1 isert tastapi lAS repoest isgensirely fron 5lsck. 11 2# 21 22 2) 24 25 2$ 27 71 3# 31 12 33 14 sck_secretl.ecet.femfa caeg,tonetien( iaogeitage,secrets*[slac_secret1) cnodal.agt_get) _a-fst.FaP11) jap3ate retmvo_! retare (° eppt ILT t te Slack 1: Tastapi.Regatstl:\n-OUTLINE g ac p 1 w Depc ME AGS cg aRegly igFaes ng our Senver dpg Slack.r Sack lhtegrati Steging ap-easare nterrpt receee.ueaodstru (n-jebhoo-erkshog）Docuaget/coding/-pi--orhogvn()darecatet.py Ar// /users/lvnte-won/Bocusnt/coding/aanu-ap2-ebhook-erkshog/.vene/La/pythan3.9/site-package/arllib3/_snit_Py:35:otpe cpiethUares2.L.]'.See:ts://git.c/artua/orLa/se/820 Created objects. amings.ern( oledeventua_tat P5/2009（38.m224） terelvedtveotr tiiatonped rroftchung Task etattsi 44 Crestedsout/ers/ivenlee-or/Docuents/cding/maus-api- 2aGzkaasis.etoi fs.. oupit Oebug Consolr drtahtegreent yoraterrptsfros iling as.\nPOSTMNeL/ack POST /ethocks/sSack watchsng/Dsers/jeanlee-werk/Docamests/ceding/sanus-api-thoek-workshep. / 0 200 (aurgUoni (doratisn) 5.21. 35.98. eecutiani 218.4\n2025-11-2210:14:10",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense instructional slide with code and logs; OCR is more appropriate than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light editor workspace",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Building on Slack",
+        "x": 25.0,
+        "y": 8.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Slack event handling explanation",
+        "x": 24.0,
+        "y": 14.0,
+        "w": 34.0,
+        "h": 31.0
+      },
+      {
+        "role": "code",
+        "text": "Slack signing secret / FastAPI / web app",
+        "x": 56.0,
+        "y": 10.0,
+        "w": 39.0,
+        "h": 84.0
+      },
+      {
+        "role": "caption",
+        "text": "terminal logs",
+        "x": 24.0,
+        "y": 61.0,
+        "w": 30.0,
+        "h": 27.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673478.441726,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Building on Slack",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "k.ry +empy data Frr iindasreet,yoave yr taseRL.Th pls the eneint path that we sefine erlier. Ly care,y fts 十Markdown 0let-s-5tk-sms-briege-fste]-0g-eee.msst.roe/weheks/stac nAer CAOs I96E 90 11 3 H 14 Sefim Ie-secret reetee intle arevjao ife Ypeats\",\n.Spt omd ch.pi RDADMEn 1AVixoetpin 9. 1md uwloo ect.soml o-time Rsretithtye eurverificatiotdcallene string. Sefore Slack send a reslevests,tseferesecrity hndske.It sends Your server ust resgne vith tat eact challenge string tereve it'sListeng. verityng tereeestsigntre teeere eeeg Jepertsedai ipertrequtsts apert json froe slackspk.sipatre iaprt Signatoreverfier Dmape-eodaL.inage.debi_sUnti.pia_sstai1 isert tastapi lAS repoest isgensirely fron 5lsck. 11 2# 21 22 2) 24 25 2$ 27 71 3# 31 12 33 14 sck_secretl.ecet.femfa caeg,tonetien( iaogeitage,secrets*[slac_secret1) cnodal.agt_get) _a-fst.FaP11) jap3ate retmvo_! retare (° eppt ILT t te Slack 1: Tastapi.Regatstl:\n-OUTLINE g ac p 1 w Depc ME AGS cg aRegly igFaes ng our Senver dpg Slack.r Sack lhtegrati Steging ap-easare nterrpt receee.ueaodstru (n-jebhoo-erkshog）Docuaget/coding/-pi--orhogvn()darecatet.py Ar// /users/lvnte-won/Bocusnt/coding/aanu-ap2-ebhook-erkshog/.vene/La/pythan3.9/site-package/arllib3/_snit_Py:35:otpe cpiethUares2.L.]'.See:ts://git.c/artua/orLa/se/820 Created objects. amings.ern( oledeventua_tat P5/2009（38.m224） terelvedtveotr tiiatonped rroftchung Task etattsi 44 Crestedsout/ers/ivenlee-or/Docuents/cding/maus-api- 2aGzkaasis.etoi fs.. oupit Oebug Consolr drtahtegreent yoraterrptsfros iling as.\nPOSTMNeL/ack POST /ethocks/sSack watchsng/Dsers/jeanlee-werk/Docamests/ceding/sanus-api-thoek-workshep. / 0 200 (aurgUoni (doratisn) 5.21. 35.98. eecutiani 218.4\n2025-11-2210:14:10",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1690.0
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "k.ry +empy data Frr iindasreet,yoave yr taseRL.Th pls the eneint path that we sefine erlier. Ly care,y fts 十Markdown 0let-s-5tk-sms-briege-fste]-0g-eee.msst.roe/weheks/stac nAer CAOs I96E 90 11 3 H 14 Sefim Ie-secret reetee intle arevjao ife Ypeats\",\n.Spt omd ch.pi RDADMEn 1AVixoetpin 9. 1md uwloo ect.soml o-time Rsretithtye eurverificatiotdcallene string. Sefore Slack send a reslevests,tseferesecrity hndske.It sends Your server ust resgne vith tat eact challenge string tereve it'sListeng. verityng tereeestsigntre teeere eeeg Jepertsedai ipertrequtsts apert json froe slackspk.sipatre iaprt Signatoreverfier Dmape-eodaL.inage.debi_sUnti.pia_sstai1 isert tastapi lAS repoest isgensirely fron 5lsck. 11 2# 21 22 2) 24 25 2$ 27 71 3# 31 12 33 14 sck_secretl.ecet.femfa caeg,tonetien( iaogeitage,secrets*[slac_secret1) cnodal.agt_get) _a-fst.FaP11) jap3ate retmvo_! retare (° eppt ILT t te Slack 1: Tastapi.Regatstl:\n-OUTLINE g ac p 1 w Depc ME AGS cg aRegly igFaes ng our Senver dpg Slack.r Sack lhtegrati Steging ap-easare nterrpt receee.ueaodstru (n-jebhoo-erkshog）Docuaget/coding/-pi--orhogvn()darecatet.py Ar// /users/lvnte-won/Bocusnt/coding/aanu-ap2-ebhook-erkshog/.vene/La/pythan3.9/site-package/arllib3/_snit_Py:35:otpe cpiethUares2.L.]'.See:ts://git.c/artua/orLa/se/820 Created objects. amings.ern( oledeventua_tat P5/2009（38.m224） terelvedtveotr tiiatonped rroftchung Task etattsi 44 Crestedsout/ers/ivenlee-or/Docuents/cding/maus-api- 2aGzkaasis.etoi fs.. oupit Oebug Consolr drtahtegreent yoraterrptsfros iling as.\nPOSTMNeL/ack POST /ethocks/sSack watchsng/Dsers/jeanlee-werk/Docamests/ceding/sanus-api-thoek-workshep. / 0 200 (aurgUoni (doratisn) 5.21. 35.98. eecutiani 218.4\n2025-11-2210:14:10",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

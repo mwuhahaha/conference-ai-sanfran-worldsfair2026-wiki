@@ -1,0 +1,52 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "Intro/title card with branding and speaker inset, not a content slide.",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "Title-card layout; text is already obvious and not dense.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#050505",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 13.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Building an ACP compatible agent",
+        "x": 41.0,
+        "y": 19.0,
+        "w": 46.0,
+        "h": 37.0
+      },
+      {
+        "role": "caption",
+        "text": "Google DeepMind",
+        "x": 44.0,
+        "y": 78.0,
+        "w": 27.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/HsxQICTLF84/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659516.7658951,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Engineering the future of AI",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple, large slogan/CTA slide with prominent QR code; direct visual read is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#000000 with large white panel",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 14.0,
+        "h": 19.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 43.0,
+        "y": 4.0,
+        "w": 42.0,
+        "h": 63.0
+      },
+      {
+        "role": "title",
+        "text": "Engineering the future of AI",
+        "x": 39.0,
+        "y": 77.0,
+        "w": 50.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/QuuIywMG4s8/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663244.5869107,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {}
+}

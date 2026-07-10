@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "What We're Building",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#050505",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer World's Fair",
+        "x": 47.0,
+        "y": 11.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "What We're Building",
+        "x": 28.0,
+        "y": 30.0,
+        "w": 44.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655694.0532603,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What We're Building",
+  "advanced_ocr": {}
+}

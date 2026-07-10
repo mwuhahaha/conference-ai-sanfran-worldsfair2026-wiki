@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Guardrails\nVery constrained No constraints\nPornissions. Allow AskQeny Workspaco\nCreatelfilo Claude Code won t ask before using allo.ed tools.\nHelto, Worldt 121),41\n0o you want to create hello world.txt? Yes. allo all edits during this session Yes 0 Bash( /tnp/tean onnership report txt-d) Bash(cat) ebeh( /tools/scripts/trc/locah dev s 0) Bash(bash-c) Bash(chaod:o) Bssh(dato:+) -dangerously:skip:permissions\nLow trust High trust",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small UI/code-style screenshots and axis labels are better handled by OCR than manual transcription in this triage pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Guardrails",
+        "x": 2.0,
+        "y": 6.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Very constrained",
+        "x": 1.0,
+        "y": 20.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "No constraints",
+        "x": 90.0,
+        "y": 20.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Low trust",
+        "x": 1.0,
+        "y": 90.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "High trust",
+        "x": 89.0,
+        "y": 90.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/XNtkiQJ49Ps/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665137.0979862,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Guardrails",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Guardrails\nVery constrained No constraints\nPornissions. Allow AskQeny Workspaco\nCreatelfilo Claude Code won t ask before using allo.ed tools.\nHelto, Worldt 121),41\n0o you want to create hello world.txt? Yes. allo all edits during this session Yes 0 Bash( /tnp/tean onnership report txt-d) Bash(cat) ebeh( /tools/scripts/trc/locah dev s 0) Bash(bash-c) Bash(chaod:o) Bssh(dato:+) -dangerously:skip:permissions\nLow trust High trust",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 687.6
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Guardrails\nVery constrained No constraints\nPornissions. Allow AskQeny Workspaco\nCreatelfilo Claude Code won t ask before using allo.ed tools.\nHelto, Worldt 121),41\n0o you want to create hello world.txt? Yes. allo all edits during this session Yes 0 Bash( /tnp/tean onnership report txt-d) Bash(cat) ebeh( /tools/scripts/trc/locah dev s 0) Bash(bash-c) Bash(chaod:o) Bssh(dato:+) -dangerously:skip:permissions\nLow trust High trust",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

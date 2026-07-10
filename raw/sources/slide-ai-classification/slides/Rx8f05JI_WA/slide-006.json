@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "20 tasks across four families\nAlgoritmic 2 tasts Full-stack product clones S tasks\nslt-cloee excelclcre s3-cttee.\nLibrary cloees tasks\nMLE Library clones & reproductions 8 tasks\ntals. kubernetes-rust-reurite\n. rust-c-coapiler.\nsyn s Product clonts - jax-pytorch-rewrite MLE 5 tasks\npost-train-ifeval\n.u.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart labels and small task lists are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6f0e6",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "20 tasks across four families",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 45.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Algorithmic\n2 tasks",
+        "x": 4.0,
+        "y": 40.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MLE\n5 tasks",
+        "x": 4.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Product clones\n5 tasks",
+        "x": 25.0,
+        "y": 70.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Library clones\n8 tasks",
+        "x": 29.0,
+        "y": 43.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Full-stack product clones\n5 tasks",
+        "x": 46.0,
+        "y": 23.0,
+        "w": 43.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Library clones & reproductions\n8 tasks",
+        "x": 46.0,
+        "y": 42.0,
+        "w": 43.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "MLE\n5 tasks",
+        "x": 46.0,
+        "y": 60.0,
+        "w": 43.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/Rx8f05JI_WA/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662822.6865554,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "20 tasks across four families\nAlgoritmic 2 tasts Full-stack product clones S tasks\nslt-cloee excelclcre s3-cttee.\nLibrary cloees tasks\nMLE Library clones & reproductions 8 tasks\ntals. kubernetes-rust-reurite\n. rust-c-coapiler.\nsyn s Product clonts - jax-pytorch-rewrite MLE 5 tasks\npost-train-ifeval\n.u.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 405.56
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "20 tasks across four families\nAlgoritmic 2 tasts Full-stack product clones S tasks\nslt-cloee excelclcre s3-cttee.\nLibrary cloees tasks\nMLE Library clones & reproductions 8 tasks\ntals. kubernetes-rust-reurite\n. rust-c-coapiler.\nsyn s Product clonts - jax-pytorch-rewrite MLE 5 tasks\npost-train-ifeval\n.u.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

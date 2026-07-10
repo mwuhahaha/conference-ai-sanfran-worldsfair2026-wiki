@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.95,
+  "frame_type": "demo_video",
+  "reject_reason": "Live browser demo frame, not a presentation slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a standalone slide.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": []
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/reconstructed-slides/zTZ0qunQXnM/slide-005.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673062.2762961,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

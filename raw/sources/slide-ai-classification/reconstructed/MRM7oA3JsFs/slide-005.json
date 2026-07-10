@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why is it hard to successfully apply LLMs to specialized industries?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable question slide",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#15160f",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why is it hard to successfully apply LLMs to specialized industries?",
+        "x": 24.0,
+        "y": 38.0,
+        "w": 52.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-005.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661090.371724,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why is it hard to successfully apply LLMs to specialized industries?",
+  "advanced_ocr": {}
+}

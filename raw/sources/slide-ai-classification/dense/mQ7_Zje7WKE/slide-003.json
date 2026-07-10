@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What techniques are you using to customize your Ai systems? 70%+ of respondents are using RAG.\nFew-shot learnlng\nRAG\nFlne-tunlng\nZero-Shot Loarning indicating widespread preference for parameter-efficient methods. 40% mentioned LoRA/QLoRA,\nPretraIning Most popular core training approach is supervised fine-tuning.\noht\n10% 20% 301, 601% 70.\nArgty A tagranrg suriy! rrot +",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense chart labels and callout text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What techniques are you using to customize your AI systems?",
+        "x": 19.0,
+        "y": 1.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "70%+ of respondents are using RAG.",
+        "x": 74.0,
+        "y": 2.0,
+        "w": 18.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "40% mentioned LoRA/QLoRA, indicating widespread preference for parameter-efficient methods.\nMost popular core training approach is supervised fine-tuning.",
+        "x": 53.0,
+        "y": 39.0,
+        "w": 36.0,
+        "h": 36.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Few-shot learning\nRAG\nFine-tuning\nZero-Shot Learning\nPretraining\nOther",
+        "x": 19.0,
+        "y": 16.0,
+        "w": 22.0,
+        "h": 58.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/mQ7_Zje7WKE/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670620.7993503,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "What techniques are you using to customize your Ai systems? 70%+ of respondents are using RAG.\nFew-shot learnlng\nRAG\nFlne-tunlng\nZero-Shot Loarning indicating widespread preference for parameter-efficient methods. 40% mentioned LoRA/QLoRA,\nPretraIning Most popular core training approach is supervised fine-tuning.\noht\n10% 20% 301, 601% 70.\nArgty A tagranrg suriy! rrot +",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 519.96
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "What techniques are you using to customize your Ai systems? 70%+ of respondents are using RAG.\nFew-shot learnlng\nRAG\nFlne-tunlng\nZero-Shot Loarning indicating widespread preference for parameter-efficient methods. 40% mentioned LoRA/QLoRA,\nPretraIning Most popular core training approach is supervised fine-tuning.\noht\n10% 20% 301, 601% 70.\nArgty A tagranrg suriy! rrot +",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

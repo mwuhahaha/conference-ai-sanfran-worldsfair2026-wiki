@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "demo_video",
+  "reject_reason": "File picker overlay from demo footage, not a readable presentation slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "dark",
+    "style": "product",
+    "blocks": []
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/Akm1sqvWG4A/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658490.588581,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

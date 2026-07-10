@@ -1,0 +1,194 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Anterior\nWere a New York-based, clinician-led\nAIE reasoning tools andsolutions to accelerate andautomatehealthcare company thatprovides clinical\nadministration\nBACKEDBY NEA SEQUOIA\nandFOUNDERSOF\nDoosMad GoogleAi\nGoogle ALUMRECE mMeta\nMicrosoft amazon MeKnecy &Company\nIMPERIAL NHS\naws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "small body text and logos are better handled by OCR",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#15160f",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 23.0,
+        "w": 8.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "Anterior",
+        "x": 18.0,
+        "y": 10.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "We’re a New York-based, clinician-led company that provides clinical reasoning tools and solutions to accelerate and automate healthcare administration",
+        "x": 18.0,
+        "y": 18.0,
+        "w": 28.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "BACKED BY",
+        "x": 18.0,
+        "y": 42.0,
+        "w": 7.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "NEA",
+        "x": 18.0,
+        "y": 48.0,
+        "w": 7.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "SEQUOIA",
+        "x": 28.0,
+        "y": 48.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "FOUNDERS OF",
+        "x": 18.0,
+        "y": 56.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "DeepMind",
+        "x": 18.0,
+        "y": 61.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Google AI",
+        "x": 31.0,
+        "y": 61.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "ALUMNI OF",
+        "x": 18.0,
+        "y": 72.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "Google",
+        "x": 18.0,
+        "y": 77.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Apple",
+        "x": 31.0,
+        "y": 77.0,
+        "w": 5.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Meta",
+        "x": 40.0,
+        "y": 77.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 18.0,
+        "y": 85.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "amazon",
+        "x": 30.0,
+        "y": 85.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "McKinsey & Company",
+        "x": 41.0,
+        "y": 85.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "IMPERIAL",
+        "x": 29.0,
+        "y": 92.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "NHS",
+        "x": 42.0,
+        "y": 92.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "image",
+        "text": "team photo",
+        "x": 48.0,
+        "y": 11.0,
+        "w": 43.0,
+        "h": 70.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-003.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661022.3933334,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Anterior",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/contrast",
+    "text": "Anterior\nWere a New York-based, clinician-led\nAIE reasoning tools andsolutions to accelerate andautomatehealthcare company thatprovides clinical\nadministration\nBACKEDBY NEA SEQUOIA\nandFOUNDERSOF\nDoosMad GoogleAi\nGoogle ALUMRECE mMeta\nMicrosoft amazon MeKnecy &Company\nIMPERIAL NHS\naws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 437.76
+  },
+  "ocr_source": "rapidocr-live/left-72/contrast",
+  "ocr_reconcile": {
+    "text": "Anterior\nWere a New York-based, clinician-led\nAIE reasoning tools andsolutions to accelerate andautomatehealthcare company thatprovides clinical\nadministration\nBACKEDBY NEA SEQUOIA\nandFOUNDERSOF\nDoosMad GoogleAi\nGoogle ALUMRECE mMeta\nMicrosoft amazon MeKnecy &Company\nIMPERIAL NHS\naws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

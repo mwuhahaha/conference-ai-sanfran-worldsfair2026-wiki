@@ -1,0 +1,96 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Developer Trajectory\nWe all know by now that agentic coding is not the Final Form for AI.\nThis talk is about what's coming next: orchestrators.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Mixed timeline, footer, and small labels are better preserved by OCR than manual transcription.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with black footer band",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI Developer Trajectory",
+        "x": 27.0,
+        "y": 3.0,
+        "w": 36.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "We all know by now that agentic coding is not the Final Form for AI.",
+        "x": 26.0,
+        "y": 48.0,
+        "w": 50.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "This talk is about what's coming next: orchestrators.",
+        "x": 26.0,
+        "y": 57.0,
+        "w": 42.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "2023",
+        "x": 35.0,
+        "y": 14.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "2024",
+        "x": 47.0,
+        "y": 29.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "2025",
+        "x": 63.0,
+        "y": 14.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "2026",
+        "x": 80.0,
+        "y": 29.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE / LEAD",
+        "x": 5.0,
+        "y": 79.0,
+        "w": 15.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/7Dtu2bilcFs/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657947.4723616,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Developer Trajectory\nWe all know by now that agentic coding is not the Final Form for AI.\nThis talk is about what's coming next: orchestrators.",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

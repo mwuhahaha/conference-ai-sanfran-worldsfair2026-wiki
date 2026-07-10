@@ -19,249 +19,133 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/4kYl2_mqmnQ/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/4kYl2_mqmnQ/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+
+Slide text:
 
 > The fleet
-> control plane
-> MacBook LinuxA Linux B
-> heavycoding+personalprojects long-running coding tasks short-livedpersonal sideprojects
-> macos·sleeps headless always-on headless always-on
-> 3machines OSes sleeps vs always-on
+> MacBook
+> heavy coding + personal projects
+> macOS · sleeps
+> Linux A
+> long-running coding tasks
+> headless · always-on
+> Linux B
+> short-lived personal side projects
+> headless · always-on
 
 ![[assets/slides/4kYl2_mqmnQ/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/4kYl2_mqmnQ/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: agent_vision.
+- OCR decision: ready — product UI screenshot with many small text elements
 
-> The fleet,on screen
-> Overlord Gateway
-> Dashboard
-> Map
-> 18active
-> 4ide
-> 0blocked
-> Context:avg -%|
-> Activity: 0 calls/5n
-> CJONAS
-> CONTROLTOWER(4)
-> "aejunal-Macbookro.local"
-> Claude
-> INFRASTRUCTURE (7)
-> -RacBookPre.iocat'
-> RacRookPro.locat"
-> tatorial:
-> cator
-> Clade Cede
-> 2aejunal-MaclookPro.Locat
-> jaejon.tee
+Slide text:
+
+> The fleet, on screen
 
 ![[assets/slides/4kYl2_mqmnQ/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/4kYl2_mqmnQ/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> Idon'tcompact—Ireset.
+Slide text:
+
+> I don't compact — I reset.
+> compact
+> X slow
+> X can't choose what survives
+> X dropped = gone
 > reset
-> compact freshagent
-> Xslow
-> Xean'tchoose-what-survives re-readsthefiles
-> Xdropped=gone
+> fresh agent
+> re-reads the files
 > continues
 
 ![[assets/slides/4kYl2_mqmnQ/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/4kYl2_mqmnQ/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: agent_vision.
+- OCR decision: ready — dense CLI and diagram content with small text
 
-> Failure1
-> agentsdotheworkinsteadofdispatchingit
-> sh-3.2soverlord dispatch--help
-> Usage:overtord dispatch[options]<team>essage-or-file>
-> Dispatch a task to a team （creates a task +trace,notifies manager)
-> Arguments:
-> nessage-or-file
-> tean
-> Taskmessage or path to a.nd file
-> Target team nane
-> Options:
-> orchestrator layer
-> does the work itself
-> Priority:low/normal/high/urgent （default:"normal)
-> -fron<sender>
-> Sender name （default:"ceo)
-> 1buoI<=
-> -b,--help
-> display help for command
-> CLI harness forces dispatch
-> CLI to control
-> Worker
-> /overlord-ceo
-> Dverlord CE0 session.organization aunapement,tean
-> /overlerd-tean-mans
-> dispatch,status nonitoring.Auto-load when cperating as.
-> Overlord tean manager sessionteam cperations,worker
-> managenent,status reporting.Auto-load hen operatin
-> >/overlord
-> Skills to call CLIs
+Slide text:
+
+> Failure 1 agents do the work instead of dispatching it
 
 ![[assets/slides/4kYl2_mqmnQ/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/4kYl2_mqmnQ/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
+- OCR decision: ready — dense multi-pane terminal/grid layout with small text
 
-> Failure 2panestoosmall
-> tmax(mun)
-> Diees-mu
-> ual(-2sh)
-> periodicallyandsumarize
-> results as they land?
-> haven't used in a vhile.
-> st1ll add stortup and
-> （1，#2.7,#9，#6）toryouto
-> exporoeTaulfun
-> contextcost-reviewthe
-> review.
-> Baked for Bs1ls1 shell stitl
-> ction RootLayout(
-> Cogitated for 438s
-> vith/plugin
-> Sauteed tor 236s
-> running
-> Conteaplating-（1126s）
-> Draftareediatinn plat
-> appcode（guarded offn
-> intent.Adds a small piece of
-> Runing 1shell comnd
-> 2>/gev/null)echo
-> .gr-
-> special access.
-> any authenticated user vith no
-> (ctrl+bctrl+b（twice）torum
-> prod).
-> dynanic
-> (n background)
-> 5.Chat about this
-> Transf1gurleg(11n26s)
-> Percolating（1lm25s)
-> Cogitated for 3m 59s
-> Garnishing-(11n 24s）
-> Enter to select.Tab/arrow keys
-> toavigateEsc to cancel
-> （ctrl+bctrl+b(tice）ton
-> in. background)
-> es/baby-care-bistory/fix-invi
-> 55/su122/dde/
-> stash,comit itin
-> isolation,ontouched by other
-> agents.Safest.
-> Eniarging touch targets
-> Crafting-(11m 17s)
-> 6.Chat about this
-> Esc to cancel
-> r/+ to oavigate
-> andI1l scope itwith branches:
-> scat
-> ageot is unaffected.
-> ALlowec by auto mode
-> Running 1 shell command
-> [eain].
-> /tep/ts-strict-errers.tog
-> Lint/format fixes get a clean
-> Julienning-（11n15s）
-> Churning-(thought for 2s）
-> Sauteedfor 6e38s
-> Bloviating-（thought for 2s）
-> PR against nain.
-> 5.Chat about this
-> 1tand cpen tho
-> Enter to select
-> avigateEsc to
-> 0/（)/07x301514-5
-> 2>/dev/oll:sleo2:ps
-> (ctrl+b ctrl+b（tvice）ton
-> lery-opt-verifyspn
-> btd261|tall4
-> run
-> just these4
-> qutoenodule
-> File aust be read first
-> re/page.tsx)
-> grep*oext/dist/bin/next
-> build|grep babycare」
-> (nbackground)
-> testable,
-> Noodling-（11=7s)
-> aking-(31m7s）
-> oitly-dallying-(1ln 4s)
-> Verifying buitd.(1l2s）
-> records`
-> 4.Chat about th
-> Enter toselect
+Slide text:
+
+> Failure 2 panes too small
 
 ![[assets/slides/4kYl2_mqmnQ/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/4kYl2_mqmnQ/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+- OCR decision: ready — diagram with small labels and embedded terminal-style content
 
-> Failure4gitcredentialscollide
-> expected
-> reality·both collide
-> credA
-> workspaceA
-> credA
-> workspace A
-> credB
-> workspaceB
-> credB
-> Thefix:clean,separatedenvironmentperworkspace.
+Slide text:
+
+> Failure 4 git credentials collide
 
 ![[assets/slides/4kYl2_mqmnQ/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/4kYl2_mqmnQ/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> Pailurze 5 the laptop dies
-> The MacBook loses power or drops off the
-> network — and every in-progress job cies with
-> re
-> van — ,
+Slide text:
+
+> Failure 5 the laptop dies
+> The MacBook loses power or drops off the network — and every in-progress job dies with it.
 
 ![[assets/slides/4kYl2_mqmnQ/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/4kYl2_mqmnQ/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: agent_vision.
+- OCR decision: ready — Discord UI screenshot with many small text elements
 
-> IforgotwhichmachineI'dbuiltthefeatureon.
-> Discord single router botmac bot.linuxA bot·linux B
-> [mac]MacC./m/clade cgco一dh1
-> intel-log --/l/2
-> #prgeneral UBUCJPRTEAM ov-mac [mac]A-/personal/claude-code(49MB) 26.4.198901
-> LOUNGE ovl-lnux [n]VP 41980
-> 3.本7：GU(pob) 4./pt k品 1.（
-> # #overlord kp 4.0 7.2a2.类！ 2.A 3.2（·reag） 6.7l：ClaudeAP.GitHubActios worflow dispatch 5.：+C7错-r 今
-> （）k+（-
+Slide text:
+
+> I forgot which machine I'd built the feature on.
 
 ![[assets/slides/4kYl2_mqmnQ/slide-009.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/4kYl2_mqmnQ/slide-009.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+- OCR decision: ready — Diagram slide with multiple small labels and boxes that are better suited for OCR than manual transcription.
 
-> Theconvergence
-> anagent,declaredwithaspec
-> what it needs,not where
-> orchestrator
-> review gate
-> logical hierarchy
-> Compute
-> Secrets
-> Tools
-> scheduler
-> machine
-> machine
-> machine
-> machines hidden below
+Slide text:
+
+> The convergence
 
 ![[assets/slides/4kYl2_mqmnQ/slide-010.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/4kYl2_mqmnQ/slide-010.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
 
 > What I'm building on top
-> Orcnesiration manager ps ee ee ae
-> a ZolOMe= mae la laliare Mra ie [10h ¢cWr~ | Or= |b ess er | EEE esa REOE OTS! _
-> ‘
-> 7
+> Orchestration manager
+> Kubernetes
+> If you're running agents at any scale, let's compare notes.
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/4kYl2_mqmnQ/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

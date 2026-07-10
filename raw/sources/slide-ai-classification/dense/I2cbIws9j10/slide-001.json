@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart labels and callout text are dense.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "cream with dark left panel",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer\nWorld's Fair\nPresented by\nMicrosoft",
+        "x": 0,
+        "y": 0,
+        "w": 28.0,
+        "h": 100
+      },
+      {
+        "role": "title",
+        "text": "Choosing a model: quality dominates",
+        "x": 28.0,
+        "y": 4.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What are your top 3 considerations for choosing a model for production?",
+        "x": 28.0,
+        "y": 16.0,
+        "w": 48.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Accuracy and output quality are far and away the top consideration.\nOnly 5% think of open-weight as a primary consideration.",
+        "x": 79.0,
+        "y": 23.0,
+        "w": 20.0,
+        "h": 28.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Accuracy / quality 67\nAgentic capabilities (like tool-calling) 53\nCost 53\nOpen weights 5\nOther 1",
+        "x": 38.0,
+        "y": 22.0,
+        "w": 36.0,
+        "h": 44.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/I2cbIws9j10/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659795.413587,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

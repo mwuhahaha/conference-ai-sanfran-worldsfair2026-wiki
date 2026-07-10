@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Process Detalls::\n.Navigatlon: Successfully loaded the Al Engineer World's Fair homepage\n. Form Location: Found the subscription form with placeholder *your@work.email\"\nEmall Input: Successfully entered jan@apify. con: into. the email field\nForm Interaction: Clicked the submit button (arrow icon) multiple times:\nCurrent Status:\nThe form shows a validation error: \"Invalid Emall Address. Please use a valld email\naddress.\"\n*This appears to be a cllient-side validation issue wit:\nClaude doos not have internet sccoss enobled. Enable web search for up to date and accurato links.\n. Reply to Claude...\nQ Researth. ntra: Claude Sonnct 4",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small screenshot text with bullets, status message, and UI chrome; OCR will recover details better than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "pale mint/teal with a light gray screenshot card",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Process Details:",
+        "x": 17.0,
+        "y": 4.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Navigation: Successfully loaded the AI Engineer World's Fair homepage\nForm Location: Found the subscription form with placeholder \"your@work.email\"\nEmail Input: Successfully entered jan@apify.com into the email field\nForm Interaction: Clicked the submit button (arrow icon) multiple times",
+        "x": 17.0,
+        "y": 11.0,
+        "w": 68.0,
+        "h": 24.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Current Status:",
+        "x": 17.0,
+        "y": 38.0,
+        "w": 26.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "The form shows a validation error: \"Invalid Email Address. Please use a valid email address.\"\nThis appears to be a client-side validation issue wit",
+        "x": 17.0,
+        "y": 45.0,
+        "w": 72.0,
+        "h": 15.0
+      },
+      {
+        "role": "caption",
+        "text": "Claude does not have internet access enabled. Enable web search for up to date and accurate links.",
+        "x": 17.0,
+        "y": 61.0,
+        "w": 72.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/blW-lSd5CYQ/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666670.5315123,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Process Detalls::\n.Navigatlon: Successfully loaded the Al Engineer World's Fair homepage\n. Form Location: Found the subscription form with placeholder *your@work.email\"\nEmall Input: Successfully entered jan@apify. con: into. the email field\nForm Interaction: Clicked the submit button (arrow icon) multiple times:\nCurrent Status:\nThe form shows a validation error: \"Invalid Emall Address. Please use a valld email\naddress.\"\n*This appears to be a cllient-side validation issue wit:\nClaude doos not have internet sccoss enobled. Enable web search for up to date and accurato links.\n. Reply to Claude...\nQ Researth. ntra: Claude Sonnct 4",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 995.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Process Detalls::\n.Navigatlon: Successfully loaded the Al Engineer World's Fair homepage\n. Form Location: Found the subscription form with placeholder *your@work.email\"\nEmall Input: Successfully entered jan@apify. con: into. the email field\nForm Interaction: Clicked the submit button (arrow icon) multiple times:\nCurrent Status:\nThe form shows a validation error: \"Invalid Emall Address. Please use a valld email\naddress.\"\n*This appears to be a cllient-side validation issue wit:\nClaude doos not have internet sccoss enobled. Enable web search for up to date and accurato links.\n. Reply to Claude...\nQ Researth. ntra: Claude Sonnct 4",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

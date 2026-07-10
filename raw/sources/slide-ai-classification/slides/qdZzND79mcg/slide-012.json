@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Purely Fixed Harness Claude Code Langchain Hermes. Cursor Goose Codex Cline Vertical vs horlzontal Entelligence Fully Adaptive Harness\nP:v.:r+.\nadaptative pre-run, vs adaptive 'during, xuntino'\n[tur]\n(ingosid ceatraisos -Clond) eme:gmt distilbuted\nprescriptive, immovable archietcture the loop learning Single agent In emergent, multi-agent self organisation\njrajivchandegra.con jivChandegra LIBS INICH",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense comparison/architecture slide with small labels and many text elements; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Purely Fixed Harness",
+        "x": 10.0,
+        "y": 11.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Claude Code\nCursor\nCodex\nCline\nGoose\nHermes\nLangChain\nPi",
+        "x": 42.0,
+        "y": 7.0,
+        "w": 14.0,
+        "h": 24.0
+      },
+      {
+        "role": "title",
+        "text": "Fully Adaptive Harness",
+        "x": 76.0,
+        "y": 11.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "vertical vs horizontal intelligence",
+        "x": 49.0,
+        "y": 24.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "adaptive pre-run vs adaptive during runtime",
+        "x": 44.0,
+        "y": 33.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "imposed - centralised - closed",
+        "x": 13.0,
+        "y": 88.0,
+        "w": 21.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "prescriptive, immovable architecture",
+        "x": 13.0,
+        "y": 93.0,
+        "w": 23.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "single agent in the loop learning",
+        "x": 40.0,
+        "y": 90.0,
+        "w": 21.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "emergent - distributed - open",
+        "x": 71.0,
+        "y": 88.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "emergent, multi-agent self organisation",
+        "x": 71.0,
+        "y": 93.0,
+        "w": 24.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/qdZzND79mcg/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671211.7788923,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Purely Fixed Harness Claude Code Langchain Hermes. Cursor Goose Codex Cline Vertical vs horlzontal Entelligence Fully Adaptive Harness\nP:v.:r+.\nadaptative pre-run, vs adaptive 'during, xuntino'\n[tur]\n(ingosid ceatraisos -Clond) eme:gmt distilbuted\nprescriptive, immovable archietcture the loop learning Single agent In emergent, multi-agent self organisation\njrajivchandegra.con jivChandegra LIBS INICH",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 586.08
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Purely Fixed Harness Claude Code Langchain Hermes. Cursor Goose Codex Cline Vertical vs horlzontal Entelligence Fully Adaptive Harness\nP:v.:r+.\nadaptative pre-run, vs adaptive 'during, xuntino'\n[tur]\n(ingosid ceatraisos -Clond) eme:gmt distilbuted\nprescriptive, immovable archietcture the loop learning Single agent In emergent, multi-agent self organisation\njrajivchandegra.con jivChandegra LIBS INICH",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

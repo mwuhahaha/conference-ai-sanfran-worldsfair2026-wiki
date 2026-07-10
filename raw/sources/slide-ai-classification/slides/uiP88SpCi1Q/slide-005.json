@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Thanks!\nGo Deeper\nErik Hanchett\nSocial Media\nErikCH\nSite\nprogramwitherik.com",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Closing slide with simple readable text; no dense body content.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "deep navy and neon lime split background",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Thanks!",
+        "x": 3.0,
+        "y": 5.0,
+        "w": 22.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Go Deeper\nErik Hanchett",
+        "x": 4.0,
+        "y": 58.0,
+        "w": 18.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Social Media\nErikCH",
+        "x": 4.0,
+        "y": 73.0,
+        "w": 18.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Site\nprogramwitherik.com",
+        "x": 4.0,
+        "y": 86.0,
+        "w": 20.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "",
+        "x": 58.0,
+        "y": 2.0,
+        "w": 39.0,
+        "h": 96.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/uiP88SpCi1Q/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672126.6967852,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Thanks!\nGo Deeper\nErik Hanchett\nSocial Media\nErikCH\nSite\nprogramwitherik.com",
+  "advanced_ocr": {}
+}

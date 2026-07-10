@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Engineer World's Fair – New Engineer Orientation (IRL)\nSunday, June 28\n5:00 PM - 9:00 PM\nMoscone West\nSan Francisco, CA\nOne-Click RSVP\n\nIf you're coming to AIE for the first time, it can be a lot to take in if you're confused about anything about our program or how to make the most out of the week, join this to ask directly and meet new friends and speakers early.\n\nTHIS IS THE LAST ONE WE'LL RUN, RIGHT BEFORE THE SHOW ITSELF.\nCOME EARLY TO PICK UP BADGES AND ESCAPE THE MORNING CRUSH.\n\nSome notes:\n- If you are traveling in, we REALLY REALLY advise booking the hotel NOW, or discounts expire Jun 4 and they will sell out.\n- we are announcing speakers in waves\n- we'll do a few of these orientation talks leading up to it, and on Jun 28 (Sunday before AIEWF) we'll do an IRL in person.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Event-card screenshot with small dense copy and multiple structured fields; OCR is preferable to manual transcription in this triage pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#dff4f6",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI Engineer World’s Fair – New Engineer Orientation (IRL)",
+        "x": 35.0,
+        "y": 14.0,
+        "w": 42.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "Sunday, June 28",
+        "x": 47.0,
+        "y": 24.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Moscone West",
+        "x": 48.0,
+        "y": 28.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "San Francisco, CA",
+        "x": 48.0,
+        "y": 32.0,
+        "w": 13.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "One-Click RSVP",
+        "x": 49.0,
+        "y": 40.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "About this event",
+        "x": 48.0,
+        "y": 50.0,
+        "w": 12.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-023.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-023.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657485.0379682,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/contrast",
+    "text": "@ insouAE2026.X\n→ C docs.g00gle.compre2entaton/d/1HW_VHGVLUzWeMm4mK1YGRq13R19P2GP7QomOmes4CM/et7pa18sld6*id.g3f20a5b400c_0191es1ded.g3f20a5b100c_0_191\nFleEotVewsertFormSideAoregeFoeoCstrgionsxe 6hingsaboutAE2026\nQ、Menus Tranaitioo\n23 AI EngineerWorld'sFair-New Engineer Orientation (IRL)\n28 geipog\nSae SrncinoRCA\n109 oleoess Cne-Clckevp\nLneSocePperCuo,Nnk ASty DOE\n28 ALIACUCXEBSCOOOAONTONLNCR x9 ene weekinns to nsr dieectyand meetoee iencsnd spekers eanty THISISTHELASYNEOWEWLLBUNRICHTBEFOBETHESHOWTSELI CONEEARLYTOPCXCPUACOESANDESCAPEDHEMCRNNOCREH\ncouple octes\n30 yeu et neg heREaLLY REAlY se bong DehetsNo we doa ewf eseNt0s onot keadng p 1nd onJun 28Sndy ordcoepn aedeywLL seot etu sepbsoeouout ieon DoAEWF]weT6oanNEOiprLon\noevery\n32.\n3 Cicksadsperactes\n6thrgs atoitAE2026",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 702.84
+  },
+  "ocr_source": "rapidocr-live/left-72/contrast",
+  "ocr_reconcile": {
+    "text": "AI Engineer World's Fair – New Engineer Orientation (IRL)\nSunday, June 28\n5:00 PM - 9:00 PM\nMoscone West\nSan Francisco, CA\nOne-Click RSVP\n\nIf you're coming to AIE for the first time, it can be a lot to take in if you're confused about anything about our program or how to make the most out of the week, join this to ask directly and meet new friends and speakers early.\n\nTHIS IS THE LAST ONE WE'LL RUN, RIGHT BEFORE THE SHOW ITSELF.\nCOME EARLY TO PICK UP BADGES AND ESCAPE THE MORNING CRUSH.\n\nSome notes:\n- If you are traveling in, we REALLY REALLY advise booking the hotel NOW, or discounts expire Jun 4 and they will sell out.\n- we are announcing speakers in waves\n- we'll do a few of these orientation talks leading up to it, and on Jun 28 (Sunday before AIEWF) we'll do an IRL in person.",
+    "text_status": "meaningful",
+    "corrections": "Corrected the title, venue, and obvious OCR errors; ignored browser chrome and kept only legible slide text."
+  }
+}

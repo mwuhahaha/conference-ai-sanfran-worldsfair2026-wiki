@@ -1,0 +1,502 @@
+{
+  "video_id": "3hXJI2q0Jz8",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 7,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Recursive Coding Agents\nRaymond Weitekamp\nRAW.works | OpenProse\n@raw_works",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "AI ENGINEER WORLD'S FAIR - 2026",
+            "x": 42.0,
+            "y": 24.0,
+            "w": 16.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "Recursive Coding Agents",
+            "x": 28.0,
+            "y": 33.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Raymond Weitekamp",
+            "x": 44.0,
+            "y": 45.0,
+            "w": 12.0,
+            "h": 3.0
+          },
+          {
+            "role": "logo",
+            "text": "RAW.works | OpenProse",
+            "x": 42.0,
+            "y": 50.0,
+            "w": 16.0,
+            "h": 3.0
+          },
+          {
+            "role": "caption",
+            "text": "@raw_works",
+            "x": 48.0,
+            "y": 56.0,
+            "w": 6.0,
+            "h": 2.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/3hXJI2q0Jz8/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657402.3003454,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Recursive Coding Agents\nRaymond Weitekamp\nRAW.works | OpenProse\n@raw_works",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "We all want outcomes.\nAgents that work on our behalf - reliable co-workers - while we're out on a hike.\nThe bottleneck is not intelligence. It's reliability. It's trust.\nOne day - my agents build me a full SaaS app from a single prompt.\nThe next day - they empty the entire contents of my Solana wallet.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "MOTIVATION",
+            "x": 25.0,
+            "y": 3.0,
+            "w": 10.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "We all want outcomes.",
+            "x": 25.0,
+            "y": 15.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Agents that work on our behalf - reliable co-workers - while we're out on a hike.",
+            "x": 25.0,
+            "y": 28.0,
+            "w": 52.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "The bottleneck is not intelligence. It's reliability. It's trust.",
+            "x": 25.0,
+            "y": 34.0,
+            "w": 52.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "One day - my agents build me a full SaaS app from a single prompt.\nThe next day - they empty the entire contents of my Solana wallet.",
+            "x": 25.0,
+            "y": 52.0,
+            "w": 54.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/3hXJI2q0Jz8/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657402.3053362,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "We all want outcomes.\nAgents that work on our behalf - reliable co-workers - while we're out on a hike.\nThe bottleneck is not intelligence. It's reliability. It's trust.\nOne day - my agents build me a full SaaS app from a single prompt.\nThe next day - they empty the entire contents of my Solana wallet.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Today's agents are mismanaged geniuses",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense slide with screenshot cards and small captions; OCR is better suited than manual transcription for the embedded text.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "THESIS",
+            "x": 25.0,
+            "y": 10.0,
+            "w": 8.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "Today's agents are mismanaged geniuses",
+            "x": 25.0,
+            "y": 16.0,
+            "w": 42.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "The intelligence is there.\nThe missing layer is how we specify, manage, reuse, and verify the work.",
+            "x": 25.0,
+            "y": 28.0,
+            "w": 50.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "Stop Babysitting Agents, Start Authoring Outcomes",
+            "x": 25.0,
+            "y": 74.0,
+            "w": 22.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "The Mismanaged Geniuses Hypothesis",
+            "x": 51.0,
+            "y": 74.0,
+            "w": 20.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/3hXJI2q0Jz8/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657402.3060114,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Today's agents are mismanaged geniuses",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Context itself is the object of computation",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Contains a paper screenshot plus small diagram labels and bullet text; OCR should recover the embedded text more reliably.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "RECURSIVE LANGUAGE MODELS",
+            "x": 25.0,
+            "y": 12.0,
+            "w": 18.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "Context itself is the object of computation",
+            "x": 25.0,
+            "y": 20.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Externalize - the full prompt lives in a REPL, not the context window.\nOperate - the model writes code to inspect, slice, and transform it.\nRecurse - it sub-queries itself over the slices.",
+            "x": 25.0,
+            "y": 31.0,
+            "w": 38.0,
+            "h": 20.0
+          },
+          {
+            "role": "caption",
+            "text": "ARXIV:2512.24401",
+            "x": 56.0,
+            "y": 62.0,
+            "w": 10.0,
+            "h": 3.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Root RLM (depth=0)\nSub-RLM A (depth=1)\nLLM A1 (depth=2)\nLLM A2 (depth=2)\nSub-RLM B (depth=1)\nLLM B1 (depth=2)\nLLM B2 (depth=2)",
+            "x": 43.0,
+            "y": 69.0,
+            "w": 24.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/3hXJI2q0Jz8/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657402.310894,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Context itself is the object of computation",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Lots of things feel close.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense comparison table with multiple columns and rows; OCR is the right extraction method.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "THE RLM RUBRIC",
+            "x": 25.0,
+            "y": 15.0,
+            "w": 12.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "Lots of things feel close.",
+            "x": 25.0,
+            "y": 20.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Executable environment\nPrompt externalized\nCode calls the model\nModel picks decomposition\nState stays symbolic",
+            "x": 49.0,
+            "y": 27.0,
+            "w": 24.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Plain long-context call\nCoding agents + subagents\nHardcoded map-reduce\nRecursive Language Model",
+            "x": 25.0,
+            "y": 34.0,
+            "w": 26.0,
+            "h": 26.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/3hXJI2q0Jz8/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657402.3139307,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Lots of things feel close.",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "OpenProse explicitly declares subagent work",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Two-column slide with code-like examples and fine text; OCR is better than manual transcription here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "OpenProse explicitly declares subagent work",
+            "x": 25.0,
+            "y": 14.0,
+            "w": 45.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Here are two OpenProse examples where the model turns an external handle into smaller handles, then verifies the child-work trace.",
+            "x": 25.0,
+            "y": 25.0,
+            "w": 50.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "RECURSIVE DECOMPOSITION\nhandle-recursive-reader.prose.md",
+            "x": 25.0,
+            "y": 34.0,
+            "w": 24.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "DIRECTORY HANDLE SLICER\ndirectory-handle-slicer.prose.md",
+            "x": 50.0,
+            "y": 34.0,
+            "w": 24.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/3hXJI2q0Jz8/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657402.3148773,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "OpenProse explicitly declares subagent work",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Recursive Coding Agents FTW\nTrust is reliability\nA new paradigm of inference-time compute\nCoding agents can be RLMs",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Recursive Coding Agents FTW",
+            "x": 25.0,
+            "y": 24.0,
+            "w": 18.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Trust is reliability",
+            "x": 49.0,
+            "y": 18.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "A new paradigm of inference-time compute",
+            "x": 49.0,
+            "y": 41.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Coding agents can be RLMs",
+            "x": 49.0,
+            "y": 63.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/3hXJI2q0Jz8/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657402.3177369,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Recursive Coding Agents FTW\nTrust is reliability\nA new paradigm of inference-time compute\nCoding agents can be RLMs",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/3hXJI2q0Jz8/slide-007.html"
+    }
+  ],
+  "rejected": []
+}

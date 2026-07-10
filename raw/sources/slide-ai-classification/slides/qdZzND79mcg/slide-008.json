@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Adaptative Engineering\nconstraints to the ertent that the harness emerges on its own. envtronment, in ways that could not be specified in advance.? stabilises and adapts as needed, in 1 αAdaptive engineering is the discipline of designing response to the changing\nThe Charness becomes the output rather than an input.\nYou allow the agents to find a harness that is suitable for their environment or problem space. This may need to adapto mid-engeering.\nThe harness becomes @ self-organising. constantly evolving. multi-agent system\ntrajivchandegra.com jiv Chandegra LIBS ANICHHA",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense quote and paragraph slide with small text; OCR is likely more reliable than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Adaptative Engineering",
+        "x": 6.0,
+        "y": 8.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "\"Adaptive engineering is the discipline of designing constraints to the extent that the harness emerges on its own, stabilises and adapts as needed, in response to the changing environment, in ways that could not be specified in advance.\"",
+        "x": 6.0,
+        "y": 20.0,
+        "w": 88.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "The \"harness\" becomes the output rather than an input.",
+        "x": 33.0,
+        "y": 47.0,
+        "w": 49.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "You allow the agents to find a harness that is suitable for their environment or problem space. This may need to adapt, mid-engeering.",
+        "x": 33.0,
+        "y": 58.0,
+        "w": 48.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "The harness becomes a self-organising, constantly evolving, multi-agent system",
+        "x": 33.0,
+        "y": 76.0,
+        "w": 47.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "ANICHHA LABS",
+        "x": 88.0,
+        "y": 86.0,
+        "w": 8.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/qdZzND79mcg/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671130.264281,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Adaptative Engineering",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Adaptative Engineering\nconstraints to the ertent that the harness emerges on its own. envtronment, in ways that could not be specified in advance.? stabilises and adapts as needed, in 1 αAdaptive engineering is the discipline of designing response to the changing\nThe Charness becomes the output rather than an input.\nYou allow the agents to find a harness that is suitable for their environment or problem space. This may need to adapto mid-engeering.\nThe harness becomes @ self-organising. constantly evolving. multi-agent system\ntrajivchandegra.com jiv Chandegra LIBS ANICHHA",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 819.42
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Adaptative Engineering\nconstraints to the ertent that the harness emerges on its own. envtronment, in ways that could not be specified in advance.? stabilises and adapts as needed, in 1 αAdaptive engineering is the discipline of designing response to the changing\nThe Charness becomes the output rather than an input.\nYou allow the agents to find a harness that is suitable for their environment or problem space. This may need to adapto mid-engeering.\nThe harness becomes @ self-organising. constantly evolving. multi-agent system\ntrajivchandegra.com jiv Chandegra LIBS ANICHHA",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

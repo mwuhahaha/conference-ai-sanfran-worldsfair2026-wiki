@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Continual Learning for an AI Agent\n\nAGENT\nMODEL\nLLM(s): weights\nmodel selection\n\nHARNESS\nprompts · skills ·\ntools · code ·\nworkflow\n\nMEMORY\nin-session state\npersistent\nknowledge\n\nGoal: continuously improve\nthe agent from its experiences\nwithout forgetting.\n\nWorld\nusers · tools · data\npolicies\n\nAgent logs / outputs",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-block diagram with small labels and body text; OCR is likely cheaper and more accurate than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Continual Learning for an AI Agent",
+        "x": 3.0,
+        "y": 3.0,
+        "w": 45.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "AGENT",
+        "x": 60.0,
+        "y": 12.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Goal: continuously improve\nthe agent from its experiences\nwithout forgetting.",
+        "x": 19.0,
+        "y": 57.0,
+        "w": 30.0,
+        "h": 17.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MODEL\nLLM(s): weights\nmodel selection",
+        "x": 42.0,
+        "y": 20.0,
+        "w": 15.0,
+        "h": 19.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "HARNESS\nprompts · skills ·\ntools · code ·\nworkflow",
+        "x": 58.0,
+        "y": 20.0,
+        "w": 15.0,
+        "h": 19.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MEMORY\nin-session state\npersistent\nknowledge",
+        "x": 74.0,
+        "y": 20.0,
+        "w": 15.0,
+        "h": 19.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "World\nusers · tools · data\npolicies",
+        "x": 59.0,
+        "y": 58.0,
+        "w": 13.0,
+        "h": 15.0
+      },
+      {
+        "role": "caption",
+        "text": "Agent logs / outputs",
+        "x": 56.0,
+        "y": 78.0,
+        "w": 18.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655724.6599457,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Continual Learning for an AI Agent",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Continual Learning for an Al Agent\nAGENT\nMODEL HARNESS MEMORY\nLLM(s): weights model selection prompts·skills· workflow tools·code· knowledge in-sessionstate persistent\nGoal: continuously improve\nthe agent from its experiences without forgetting. policies World users·tools·data\nAgent logs / outputs",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 486.88
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Continual Learning for an AI Agent\n\nAGENT\nMODEL\nLLM(s): weights\nmodel selection\n\nHARNESS\nprompts · skills ·\ntools · code ·\nworkflow\n\nMEMORY\nin-session state\npersistent\nknowledge\n\nGoal: continuously improve\nthe agent from its experiences\nwithout forgetting.\n\nWorld\nusers · tools · data\npolicies\n\nAgent logs / outputs",
+    "text_status": "meaningful",
+    "corrections": "Corrected obvious OCR errors: \"Al\" to \"AI\" and spacing/punctuation in the box labels; otherwise accepted."
+  }
+}

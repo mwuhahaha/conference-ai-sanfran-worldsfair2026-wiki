@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.97,
+  "frame_type": "demo_video",
+  "reject_reason": "Desktop screen capture with browser/app UI and macOS desktop, not a presentation slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Non-slide demo footage; OCR would mostly capture browser and desktop chrome.",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "desktop wallpaper with browser window and macOS dock",
+    "style": "product",
+    "blocks": []
+  },
+  "image_index": 1,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-017.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658725.2781715,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

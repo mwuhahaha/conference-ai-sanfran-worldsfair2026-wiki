@@ -3,96 +3,102 @@
   "confidence": 0.98,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "Shared memory coordinates\nchaotic multi-agent consistency\n\nShared Memory Architecture\nState Store\nAgent A\nAgent B\nAgent C\nContext drift\nStale memory\nConflicting facts",
+  "text": "",
   "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with multiple labels and small state text; OCR will likely read the embedded annotations more reliably than a quick visual pass.",
+  "direct_read_ready": false,
+  "text_density": "medium",
   "layout": {
-    "background": "#f4f2ee with faint gray line-art",
+    "background": "off-white with faint blueprint lines",
     "style": "diagram",
     "blocks": [
       {
         "role": "title",
-        "text": "Shared memory coordinates",
+        "text": "Shared memory coordinates chaotic multi-agent consistency",
         "x": 4.0,
-        "y": 0,
-        "w": 66.0,
-        "h": 10.0
-      },
-      {
-        "role": "title",
-        "text": "chaotic multi-agent consistency",
-        "x": 4.0,
-        "y": 8.0,
-        "w": 74.0,
-        "h": 10.0
+        "y": 1.0,
+        "w": 88.0,
+        "h": 18.0
       },
       {
         "role": "subtitle",
         "text": "Shared Memory Architecture",
-        "x": 33.0,
-        "y": 22.0,
-        "w": 35.0,
+        "x": 34.0,
+        "y": 23.0,
+        "w": 32.0,
         "h": 8.0
-      },
-      {
-        "role": "body",
-        "text": "State Store",
-        "x": 45.0,
-        "y": 30.0,
-        "w": 14.0,
-        "h": 6.0
       },
       {
         "role": "diagram_label",
         "text": "Agent A",
         "x": 12.0,
-        "y": 34.0,
+        "y": 32.0,
         "w": 12.0,
-        "h": 7.0
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "State Store",
+        "x": 49.0,
+        "y": 30.0,
+        "w": 14.0,
+        "h": 8.0
       },
       {
         "role": "diagram_label",
         "text": "Agent B",
-        "x": 82.0,
-        "y": 34.0,
+        "x": 80.0,
+        "y": 32.0,
         "w": 12.0,
-        "h": 7.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Agent C",
-        "x": 83.0,
-        "y": 72.0,
-        "w": 12.0,
-        "h": 7.0
+        "h": 8.0
       },
       {
         "role": "diagram_label",
         "text": "Context drift",
-        "x": 14.0,
-        "y": 61.0,
+        "x": 13.0,
+        "y": 58.0,
         "w": 16.0,
-        "h": 7.0
+        "h": 8.0
       },
       {
         "role": "diagram_label",
         "text": "Stale memory",
-        "x": 78.0,
-        "y": 52.0,
-        "w": 16.0,
-        "h": 7.0
+        "x": 79.0,
+        "y": 50.0,
+        "w": 14.0,
+        "h": 8.0
       },
       {
         "role": "diagram_label",
         "text": "Conflicting facts",
-        "x": 17.0,
+        "x": 36.0,
         "y": 78.0,
-        "w": 18.0,
-        "h": 7.0
+        "w": 19.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent C",
+        "x": 79.0,
+        "y": 75.0,
+        "w": 12.0,
+        "h": 8.0
       }
     ]
   },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
   "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-009.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783646963.2542355
+  "classified_at_epoch": 1783658617.9531028,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

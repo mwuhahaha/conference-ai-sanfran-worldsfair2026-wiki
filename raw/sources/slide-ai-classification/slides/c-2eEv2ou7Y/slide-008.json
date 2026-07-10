@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "pp- specific subdomain with cs The solution - double iframe\nchatgpt.con Content-Security-Policy\nscriot-src.nonce--https://*,chsrgpt.com\nAIE ★ ★ frase-aro'self.stripe.com-youtube.com eeb-snndbox.oniuserconteot\nbody>\naroshttps://sbo123.web-sundbox.ooiusercontent.con\nneta http-equiva'Content-Security-Policy'content-'connect-src'ey-service\n<scripr>initieiizeipp()s/acript>\nsrcdoc*\"'sandboxe'ellok-scriptsellom-snne-origin'>\n<AID/>.dOY.JnOX<ATp>\n</body>\ngineer AI Engineer EUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code-like slide with small text and cropped elements; OCR will be more reliable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 12.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "The solution - double iframe",
+        "x": 49.0,
+        "y": 4.0,
+        "w": 43.0,
+        "h": 14.0
+      },
+      {
+        "role": "subtitle",
+        "text": "specific subdomain with CSP",
+        "x": 50.0,
+        "y": 17.0,
+        "w": 38.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 56.0,
+        "y": 84.0,
+        "w": 24.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/c-2eEv2ou7Y/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667076.3208208,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "pp- specific subdomain with cs The solution - double iframe\nchatgpt.con Content-Security-Policy\nscriot-src.nonce--https://*,chsrgpt.com\nAIE ★ ★ frase-aro'self.stripe.com-youtube.com eeb-snndbox.oniuserconteot\nbody>\naroshttps://sbo123.web-sundbox.ooiusercontent.con\nneta http-equiva'Content-Security-Policy'content-'connect-src'ey-service\n<scripr>initieiizeipp()s/acript>\nsrcdoc*\"'sandboxe'ellok-scriptsellom-snne-origin'>\n<AID/>.dOY.JnOX<ATp>\n</body>\ngineer AI Engineer EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 467.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "pp- specific subdomain with cs The solution - double iframe\nchatgpt.con Content-Security-Policy\nscriot-src.nonce--https://*,chsrgpt.com\nAIE ★ ★ frase-aro'self.stripe.com-youtube.com eeb-snndbox.oniuserconteot\nbody>\naroshttps://sbo123.web-sundbox.ooiusercontent.con\nneta http-equiva'Content-Security-Policy'content-'connect-src'ey-service\n<scripr>initieiizeipp()s/acript>\nsrcdoc*\"'sandboxe'ellok-scriptsellom-snne-origin'>\n<AID/>.dOY.JnOX<ATp>\n</body>\ngineer AI Engineer EUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Docling: Scale, cost, and performance\n\n475,019,140 PDFs parsed end-to-end\n1,733 languages represented\n~3 trillion tokens (~2,918B) extracted\n3.65 TB of high-quality, deduplicated text\nData spanning 2013-2025 across 105 CommonCrawl snapshots\n\n918/368*750/35 = 50\nDocling is 50 times more\ncost-effective than VLMs!!",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "The slide has a complex flowchart, small table text, and dense metrics that are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Docling: Scale, cost, and performance",
+        "x": 26.0,
+        "y": 6.0,
+        "w": 47.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 6.0,
+        "y": 21.0,
+        "w": 27.0,
+        "h": 63.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 34.0,
+        "y": 21.0,
+        "w": 32.0,
+        "h": 63.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 67.0,
+        "y": 23.0,
+        "w": 28.0,
+        "h": 54.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655992.7064443,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Docling: Scale, cost, and performance",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Docling: Scale, cost; and performance\nLendro ton Yhrs G: t\nM:6\nv1tTOCA HLEE R + MLR CTUT, TTE > 4C tu + L TC, h Lt- t'*+eh bt*ood Ra drr 1 3:a Aos t (2 +a + $$om 0 1,733 languages represented M 3.65 TB of hlgh-quality, dedupllcated text: Data spanning 2013-2025 across 105 -3 trillion tokens (-2,918B) extracted 475,019,140 PDFs parsed end-to-end\nExtraction Delt hap+ itl rt-uA'L FinePDFs CommonCrawl srapshots 918/368*750/35 = 50\nCaring 3I ot tu tetel tatm hem Port\nDocling is 50 times more\ncost-effective than VLMs!!\nFine PDFs Fhe pofe",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 692.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Docling: Scale, cost, and performance\n\n475,019,140 PDFs parsed end-to-end\n1,733 languages represented\n~3 trillion tokens (~2,918B) extracted\n3.65 TB of high-quality, deduplicated text\nData spanning 2013-2025 across 105 CommonCrawl snapshots\n\n918/368*750/35 = 50\nDocling is 50 times more\ncost-effective than VLMs!!",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide title and main metrics; corrected obvious OCR errors and omitted tiny decorative diagram text."
+  }
+}

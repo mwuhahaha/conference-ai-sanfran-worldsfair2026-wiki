@@ -1,0 +1,25 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Speaker standing at podium with audience visible; this is a stage shot, not a clean presentation slide frame.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a slide frame; projected slide is partially obscured by the speaker and should not be triaged for OCR here.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "light gray room with projected screen",
+    "style": "light",
+    "blocks": []
+  },
+  "image": "wiki/assets/slides/UM6sFg_jdlE/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783654920.1849582,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

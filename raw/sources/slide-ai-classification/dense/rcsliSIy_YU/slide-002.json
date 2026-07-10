@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "? @\n6 uthopr Autamtubg khe Aiecten tn Agtrumlt bo (-- - 1\nA Brief History of LLM Coding\n2022: Context-unaware code snippets\n\"Write python for bubble sort\"\n2023: Context-aware code generation\n\"Write' a suite of unit tests for this function\"\n2024: Single agents for atomic coding tasks..\nImplement'the GET /products endpoint and use\ncurl to validate that it works\".\n2025: Parallel agents for large-scale work:\n\"Migrate our app from Redux to React Query\"\n2025-11-22114:35:43",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small bullet text and multiple year sections are better handled by OCR than direct vision transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f4ecdf",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "A Brief History of LLM Coding",
+        "x": 22.0,
+        "y": 13.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "2022: Context-unaware code snippets",
+        "x": 22.0,
+        "y": 28.0,
+        "w": 43.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "2023: Context-aware code generation",
+        "x": 22.0,
+        "y": 40.0,
+        "w": 42.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "2024: Single agents for atomic coding tasks.",
+        "x": 22.0,
+        "y": 53.0,
+        "w": 47.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "2025: Parallel agents for large-scale work",
+        "x": 22.0,
+        "y": 69.0,
+        "w": 45.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671307.4602823,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "? @\n6 uthopr Autamtubg khe Aiecten tn Agtrumlt bo (-- - 1\nA Brief History of LLM Coding\n2022: Context-unaware code snippets\n\"Write python for bubble sort\"\n2023: Context-aware code generation\n\"Write' a suite of unit tests for this function\"\n2024: Single agents for atomic coding tasks..\nImplement'the GET /products endpoint and use\ncurl to validate that it works\".\n2025: Parallel agents for large-scale work:\n\"Migrate our app from Redux to React Query\"\n2025-11-22114:35:43",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 697.96
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "? @\n6 uthopr Autamtubg khe Aiecten tn Agtrumlt bo (-- - 1\nA Brief History of LLM Coding\n2022: Context-unaware code snippets\n\"Write python for bubble sort\"\n2023: Context-aware code generation\n\"Write' a suite of unit tests for this function\"\n2024: Single agents for atomic coding tasks..\nImplement'the GET /products endpoint and use\ncurl to validate that it works\".\n2025: Parallel agents for large-scale work:\n\"Migrate our app from Redux to React Query\"\n2025-11-22114:35:43",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

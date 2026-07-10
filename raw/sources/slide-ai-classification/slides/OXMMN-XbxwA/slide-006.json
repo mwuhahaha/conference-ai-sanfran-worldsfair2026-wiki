@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "TOrCU\nRepo automations\nDDEP blodo\nMicroservices\nMLNokebopke M.models MLstudties +nodels\nTBO Re-usable UI components\nMONOREPO",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture diagram with multiple small labels and low-confidence embedded text; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Repo automations",
+        "x": 50.0,
+        "y": 22.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Microservices",
+        "x": 50.0,
+        "y": 44.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ML studies + models",
+        "x": 49.0,
+        "y": 64.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Re-usable UI components",
+        "x": 50.0,
+        "y": 79.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MONOREPO",
+        "x": 31.0,
+        "y": 90.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ML notebooks",
+        "x": 29.0,
+        "y": 56.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ML models",
+        "x": 48.0,
+        "y": 56.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "TBD",
+        "x": 30.0,
+        "y": 72.0,
+        "w": 6.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/OXMMN-XbxwA/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662000.3652258,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "TOrCU\nRepo automations\nDDEP blodo\nMicroservices\nMLNokebopke M.models MLstudties +nodels\nTBO Re-usable UI components\nMONOREPO",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 225.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "TOrCU\nRepo automations\nDDEP blodo\nMicroservices\nMLNokebopke M.models MLstudties +nodels\nTBO Re-usable UI components\nMONOREPO",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

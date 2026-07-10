@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A Pattern Language\nTowns·Buildings·Construction\nChristopher Alexander\nSara Ishikawa·Murray Silverstein\nwith\nMax Jacobson·Ingrid Fiksdahl-King\nShlomo Angel",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Book-cover text and small thumbnail labels are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "near-black with subtle texture",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "A Pattern Language",
+        "x": 22.0,
+        "y": 7.0,
+        "w": 24.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Towns Buildings Construction",
+        "x": 22.0,
+        "y": 24.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Christopher Alexander",
+        "x": 26.0,
+        "y": 52.0,
+        "w": 18.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-012.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658338.1986609,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "A Pattern Language",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "A Pattern Language IOEKTRA\nTowns·Buildings·Construction\nAIE\nSara Ishikawa·MurraySilverstein Christopher Alexander\nMax Jacobson-IngridFiksdahl-King Shlomo Angel\ngithub.com/mastra-ai/mastra\naws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 277.04
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "A Pattern Language\nTowns·Buildings·Construction\nChristopher Alexander\nSara Ishikawa·Murray Silverstein\nwith\nMax Jacobson·Ingrid Fiksdahl-King\nShlomo Angel",
+    "text_status": "meaningful",
+    "corrections": "Corrected OCR by dropping watermark noise and restoring the book title, subtitle, and author spacing/punctuation."
+  }
+}

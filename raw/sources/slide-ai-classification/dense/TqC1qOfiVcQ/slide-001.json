@@ -1,0 +1,138 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Building effective agents\n2/ Tools Harness\nyour systems - add your custom APis, MC servers,and file Connect Claude to system operations File System Tools Custom MCP\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "diagram slide with multiple small labels and box text",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "warm off-white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Building effective agents",
+        "x": 3.0,
+        "y": 2.0,
+        "w": 30.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "2/ Tools",
+        "x": 3.0,
+        "y": 24.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Connect Claude to your systems - add your custom APIs, MCP servers, and file system operations",
+        "x": 3.0,
+        "y": 35.0,
+        "w": 29.0,
+        "h": 22.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Harness",
+        "x": 64.0,
+        "y": 14.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 43.0,
+        "y": 30.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MCP",
+        "x": 45.0,
+        "y": 40.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Custom",
+        "x": 44.0,
+        "y": 46.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "File System",
+        "x": 43.0,
+        "y": 52.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Models",
+        "x": 65.0,
+        "y": 66.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Claude Haiku",
+        "x": 36.0,
+        "y": 73.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Claude Sonnet",
+        "x": 55.0,
+        "y": 73.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Claude Opus",
+        "x": 74.0,
+        "y": 73.0,
+        "w": 16.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664311.087641,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Building effective agents",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Building effective agents\n2/ Tools Harness\nyour systems - add your custom APis, MC servers,and file Connect Claude to system operations File System Tools Custom MCP\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 549.68
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Building effective agents\n2/ Tools Harness\nyour systems - add your custom APis, MC servers,and file Connect Claude to system operations File System Tools Custom MCP\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

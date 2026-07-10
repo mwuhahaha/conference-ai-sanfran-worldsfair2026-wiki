@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Public API\nCheck it out at:\nhttps://lumalabs.ai/api/pricing",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with subtle dark radial pattern",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 21.0
+      },
+      {
+        "role": "title",
+        "text": "Public API",
+        "x": 21.0,
+        "y": 10.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Check it out at:",
+        "x": 21.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "https://lumalabs.ai/api/pricing",
+        "x": 23.0,
+        "y": 45.0,
+        "w": 40.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 82.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 73.0,
+        "y": 82.0,
+        "w": 18.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/reconstructed-slides/EY4O9M6AsWI/slide-009.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658993.4312398,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Public API\nCheck it out at:\nhttps://lumalabs.ai/api/pricing",
+  "advanced_ocr": {}
+}

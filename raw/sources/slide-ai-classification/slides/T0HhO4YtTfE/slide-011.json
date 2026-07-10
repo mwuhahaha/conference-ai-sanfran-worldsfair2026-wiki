@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Tech stack decisions contd...\nFine-tuning\nOrchestration Frameworks\nEmbeddings and retrieval",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large readable labels with logo groups; OCR is not necessary.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#062f2d",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Tech stack decisions contd...",
+        "x": 25.0,
+        "y": 10.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Fine-tuning",
+        "x": 26.0,
+        "y": 33.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Orchestration Frameworks",
+        "x": 25.0,
+        "y": 57.0,
+        "w": 24.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Embeddings and retrieval",
+        "x": 25.0,
+        "y": 78.0,
+        "w": 22.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/T0HhO4YtTfE/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664006.310378,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Tech stack decisions contd...\nFine-tuning\nOrchestration Frameworks\nEmbeddings and retrieval",
+  "advanced_ocr": {}
+}

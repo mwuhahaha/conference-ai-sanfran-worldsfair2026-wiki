@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "What Lies Beneath the API:\nWhen you should fine-tune your own model\nBenjamin Cowen, PhD",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black with large white center panel and green gradient bottom",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 22.0,
+        "w": 13.0,
+        "h": 20.0
+      },
+      {
+        "role": "logo",
+        "text": "Modal",
+        "x": 52.0,
+        "y": 23.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "What Lies Beneath the API:",
+        "x": 45.0,
+        "y": 57.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "When you should fine-tune your own model",
+        "x": 43.0,
+        "y": 63.0,
+        "w": 40.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Benjamin Cowen, PhD",
+        "x": 55.0,
+        "y": 73.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 50.0,
+        "y": 88.0,
+        "w": 30.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/HvZXAOZ3iv8/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659456.0064638,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What Lies Beneath the API:\nWhen you should fine-tune your own model\nBenjamin Cowen, PhD",
+  "advanced_ocr": {}
+}

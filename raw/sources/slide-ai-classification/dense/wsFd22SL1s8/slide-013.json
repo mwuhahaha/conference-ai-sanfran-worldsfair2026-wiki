@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Container Pid Namespace Pid 1 Parent Root Namespaces\nPid 100 P!d\nPid 2 Mount Wamespace Pid 3 Pid 101 102 Pid\n/foo Userspace\nKernel\nLinux Container with Pid and Mount Wamespace",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with small handwritten labels and nested namespace structure.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f2f2f0",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram",
+        "text": "Container",
+        "x": 10.0,
+        "y": 7.0,
+        "w": 25.0,
+        "h": 55.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid Namespace",
+        "x": 16.0,
+        "y": 14.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Mount Namespace",
+        "x": 18.0,
+        "y": 43.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Parent Root Namespaces",
+        "x": 57.0,
+        "y": 4.0,
+        "w": 27.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Userspace",
+        "x": 72.0,
+        "y": 66.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Kernel",
+        "x": 76.0,
+        "y": 91.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Linux Container with Pid and Mount Namespace",
+        "x": 21.0,
+        "y": 94.0,
+        "w": 46.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-013.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673050.0371208,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Linux Container with Pid and Mount Namespace",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Container Pid Namespace Pid 1 Parent Root Namespaces\nPid 100 P!d\nPid 2 Mount Wamespace Pid 3 Pid 101 102 Pid\n/foo Userspace\nKernel\nLinux Container with Pid and Mount Wamespace",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 295.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Container Pid Namespace Pid 1 Parent Root Namespaces\nPid 100 P!d\nPid 2 Mount Wamespace Pid 3 Pid 101 102 Pid\n/foo Userspace\nKernel\nLinux Container with Pid and Mount Wamespace",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

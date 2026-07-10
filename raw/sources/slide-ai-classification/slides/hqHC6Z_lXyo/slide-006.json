@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Method 2: Perform Internal Evaluation\nUse-case: Find the most performant image editing AI model\n- Step 1.a: Manual inspection",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "title, subtitle, and bullet are directly readable",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "dark purple/black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 23.0,
+        "w": 13.0,
+        "h": 22.0
+      },
+      {
+        "role": "title",
+        "text": "Method 2: Perform Internal Evaluation",
+        "x": 28.0,
+        "y": 8.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Use-case: Find the most performant image editing AI model",
+        "x": 28.0,
+        "y": 19.0,
+        "w": 50.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "- Step 1.a: Manual inspection",
+        "x": 29.0,
+        "y": 29.0,
+        "w": 25.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Prompt 1 - Model A",
+        "x": 31.0,
+        "y": 66.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Prompt 2 - Model B",
+        "x": 45.0,
+        "y": 66.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Prompt 3 - Model C",
+        "x": 58.0,
+        "y": 66.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 52.0,
+        "y": 85.0,
+        "w": 24.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/hqHC6Z_lXyo/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668513.8653402,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Method 2: Perform Internal Evaluation\nUse-case: Find the most performant image editing AI model\n- Step 1.a: Manual inspection",
+  "advanced_ocr": {}
+}

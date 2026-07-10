@@ -1,0 +1,148 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Cognitive Shield: AI Defense for Financial Fraud\nLayer 1: Data Trust & Secure Foundations\n- Privacy-first ingestion, verified identities\nLayer 2: Real-Time Fraud Detection\n- Deep learning, graph AI, secure LLMs stop fraud before it spreads\n- 8 specialized modules covering everything from deepfakes to crypto\nLayer 3: Intelligence Hub for Response & Compliance\n- Smart alerts, visual dashboards, and compliance-ready reporting\nKey Takeaways\n- AI is not optional - it's the core of modern fraud defense\n- Tables > Graphs - relationships expose hidden threats\n- Multi-agent LLMs bring context, speed, and transparency\nWhy We Must Act Now\nBy 2027, if we do nothing:\n- 90% of cyberattacks will be AI-driven\n- $100B+ in fraud losses expected annually\nOur Mission: Stop Fraud Before it Starts.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Readable slide with large text; direct transcription is sufficient in this pass.",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "white with green geometric gradients on the right",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Cognitive Shield: AI Defense for Financial Fraud",
+        "x": 5.0,
+        "y": 6.0,
+        "w": 72.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Layer 1: Data Trust & Secure Foundations",
+        "x": 6.0,
+        "y": 17.0,
+        "w": 45.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "- Privacy-first ingestion, verified identities",
+        "x": 8.0,
+        "y": 23.0,
+        "w": 48.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Layer 2: Real-Time Fraud Detection",
+        "x": 6.0,
+        "y": 31.0,
+        "w": 42.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "- Deep learning, graph AI, secure LLMs stop fraud before it spreads",
+        "x": 8.0,
+        "y": 37.0,
+        "w": 63.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "- 8 specialized modules covering everything from deepfakes to crypto",
+        "x": 8.0,
+        "y": 42.0,
+        "w": 62.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Layer 3: Intelligence Hub for Response & Compliance",
+        "x": 6.0,
+        "y": 49.0,
+        "w": 56.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "- Smart alerts, visual dashboards, and compliance-ready reporting",
+        "x": 8.0,
+        "y": 55.0,
+        "w": 63.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Key Takeaways",
+        "x": 6.0,
+        "y": 64.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "- AI is not optional - it's the core of modern fraud defense",
+        "x": 8.0,
+        "y": 70.0,
+        "w": 57.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "- Tables > Graphs - relationships expose hidden threats",
+        "x": 8.0,
+        "y": 75.0,
+        "w": 53.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "- Multi-agent LLMs bring context, speed, and transparency",
+        "x": 8.0,
+        "y": 80.0,
+        "w": 56.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Why We Must Act Now",
+        "x": 6.0,
+        "y": 88.0,
+        "w": 27.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "By 2027, if we do nothing:",
+        "x": 8.0,
+        "y": 93.0,
+        "w": 27.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "- 90% of cyberattacks will be AI-driven",
+        "x": 10.0,
+        "y": 98.0,
+        "w": 38.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-018.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658725.2823355,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Cognitive Shield: AI Defense for Financial Fraud\nLayer 1: Data Trust & Secure Foundations\n- Privacy-first ingestion, verified identities\nLayer 2: Real-Time Fraud Detection\n- Deep learning, graph AI, secure LLMs stop fraud before it spreads\n- 8 specialized modules covering everything from deepfakes to crypto\nLayer 3: Intelligence Hub for Response & Compliance\n- Smart alerts, visual dashboards, and compliance-ready reporting\nKey Takeaways\n- AI is not optional - it's the core of modern fraud defense\n- Tables > Graphs - relationships expose hidden threats\n- Multi-agent LLMs bring context, speed, and transparency\nWhy We Must Act Now\nBy 2027, if we do nothing:\n- 90% of cyberattacks will be AI-driven\n- $100B+ in fraud losses expected annually\nOur Mission: Stop Fraud Before it Starts.",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "VOUTLME gtigrors 1Whos.pyb quanprs18 5pBemd 2.F MeWb 0 dbgong mPy nk.Ey )md 1L deta 中 nicinmotyc manscrietsoe vsrtnet ocuents/ceding/mn-api-ethoo-rkshoivans（a]sorce,vem/bn/actiate +Code+Makdown [A3 (ad-api-ebhso-erkshop）/Documents/coding/anus-api-ehok-orkshop Lvans（nain}odal serve server-py /uiers/lanlaoor/bocents/coding/ni-agi-ehoo-ehog/ven/ia/pytho.9/site-gackage/arlLib3/_init Protor varings.ware senver endpoint wlthout any issues. 10 saperr regests Send tet rest Cratest aylad tet resonsereeest.ast（ Lapert test_paytsat HCDAL_O_L, walerpa( Jsnitest_Daytast RAC Perts 日 venv (Python 3.9.6) we can hit our npor1rt sny 23 23 21 27 29 >E X3 H 35 34 X7 31 4F 43 43 41 45 Py135:Not0g Check if the tskh fishee fent_tyet_stp hk(payt： it): irtask_isi task_detail-payled.getitec_rai1²,（1) tatk_1d-task_oetall.gett²（ao_i) pitira feth the foll tatk ject fre te Ms AP irrsponse.status_code =2ae: etse: py-i.eir hsurl- respos+repetts.gt( stifutLtaortails) fell_tas_detaile·response.jh(1 pitllaal] sutirx TXZIEY SSL1.1.1,cufretly the'ss1'nodue Syh\nCreatedobjects. 051/（rt346.4s,t223.31） NeceLadeveot： mege_moed PO5T/（4,5.:219.） Receivedrventimessage.eided -// Createdsount/ers/ianleoeck/Doets/codig/nnt-apj-bhook-orsho/serer-py g/1c...h Serviag...hitCtrl-Cts\n2025-11-2210:07:30",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code slide with terminal and editor panes; OCR will recover small code and log text better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light editor workspace",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Webhooks",
+        "x": 26.0,
+        "y": 7.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "test payload / handler code / terminal output",
+        "x": 26.0,
+        "y": 11.0,
+        "w": 66.0,
+        "h": 82.0
+      },
+      {
+        "role": "caption",
+        "text": "server running / webhook test / response",
+        "x": 3.0,
+        "y": 57.0,
+        "w": 21.0,
+        "h": 34.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673362.817003,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Webhooks",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "VOUTLME gtigrors 1Whos.pyb quanprs18 5pBemd 2.F MeWb 0 dbgong mPy nk.Ey )md 1L deta 中 nicinmotyc manscrietsoe vsrtnet ocuents/ceding/mn-api-ethoo-rkshoivans（a]sorce,vem/bn/actiate +Code+Makdown [A3 (ad-api-ebhso-erkshop）/Documents/coding/anus-api-ehok-orkshop Lvans（nain}odal serve server-py /uiers/lanlaoor/bocents/coding/ni-agi-ehoo-ehog/ven/ia/pytho.9/site-gackage/arlLib3/_init Protor varings.ware senver endpoint wlthout any issues. 10 saperr regests Send tet rest Cratest aylad tet resonsereeest.ast（ Lapert test_paytsat HCDAL_O_L, walerpa( Jsnitest_Daytast RAC Perts 日 venv (Python 3.9.6) we can hit our npor1rt sny 23 23 21 27 29 >E X3 H 35 34 X7 31 4F 43 43 41 45 Py135:Not0g Check if the tskh fishee fent_tyet_stp hk(payt： it): irtask_isi task_detail-payled.getitec_rai1²,（1) tatk_1d-task_oetall.gett²（ao_i) pitira feth the foll tatk ject fre te Ms AP irrsponse.status_code =2ae: etse: py-i.eir hsurl- respos+repetts.gt( stifutLtaortails) fell_tas_detaile·response.jh(1 pitllaal] sutirx TXZIEY SSL1.1.1,cufretly the'ss1'nodue Syh\nCreatedobjects. 051/（rt346.4s,t223.31） NeceLadeveot： mege_moed PO5T/（4,5.:219.） Receivedrventimessage.eided -// Createdsount/ers/ianleoeck/Doets/codig/nnt-apj-bhook-orsho/serer-py g/1c...h Serviag...hitCtrl-Cts\n2025-11-2210:07:30",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1178.6
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "VOUTLME gtigrors 1Whos.pyb quanprs18 5pBemd 2.F MeWb 0 dbgong mPy nk.Ey )md 1L deta 中 nicinmotyc manscrietsoe vsrtnet ocuents/ceding/mn-api-ethoo-rkshoivans（a]sorce,vem/bn/actiate +Code+Makdown [A3 (ad-api-ebhso-erkshop）/Documents/coding/anus-api-ehok-orkshop Lvans（nain}odal serve server-py /uiers/lanlaoor/bocents/coding/ni-agi-ehoo-ehog/ven/ia/pytho.9/site-gackage/arlLib3/_init Protor varings.ware senver endpoint wlthout any issues. 10 saperr regests Send tet rest Cratest aylad tet resonsereeest.ast（ Lapert test_paytsat HCDAL_O_L, walerpa( Jsnitest_Daytast RAC Perts 日 venv (Python 3.9.6) we can hit our npor1rt sny 23 23 21 27 29 >E X3 H 35 34 X7 31 4F 43 43 41 45 Py135:Not0g Check if the tskh fishee fent_tyet_stp hk(payt： it): irtask_isi task_detail-payled.getitec_rai1²,（1) tatk_1d-task_oetall.gett²（ao_i) pitira feth the foll tatk ject fre te Ms AP irrsponse.status_code =2ae: etse: py-i.eir hsurl- respos+repetts.gt( stifutLtaortails) fell_tas_detaile·response.jh(1 pitllaal] sutirx TXZIEY SSL1.1.1,cufretly the'ss1'nodue Syh\nCreatedobjects. 051/（rt346.4s,t223.31） NeceLadeveot： mege_moed PO5T/（4,5.:219.） Receivedrventimessage.eided -// Createdsount/ers/ianleoeck/Doets/codig/nnt-apj-bhook-orsho/serer-py g/1c...h Serviag...hitCtrl-Cts\n2025-11-2210:07:30",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

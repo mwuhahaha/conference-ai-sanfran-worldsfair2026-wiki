@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "The Miranda Hypothesis\nHow Hamilton (the Musical)\nPoisoned Your Persona Evals",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Miranda Hypothesis",
+        "x": 14.0,
+        "y": 23.0,
+        "w": 48.0,
+        "h": 13.0
+      },
+      {
+        "role": "subtitle",
+        "text": "How Hamilton (the Musical)\nPoisoned Your Persona Evals",
+        "x": 10.0,
+        "y": 39.0,
+        "w": 45.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "AI ENGINEER WORLD'S FAIR · 2026",
+        "x": 43.0,
+        "y": 66.0,
+        "w": 19.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/IJXjTLPzvAU/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659743.6538856,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Miranda Hypothesis\nHow Hamilton (the Musical)\nPoisoned Your Persona Evals",
+  "advanced_ocr": {}
+}

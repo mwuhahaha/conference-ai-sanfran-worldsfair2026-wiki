@@ -16,6 +16,17 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/bSG9wUYaHWU/slide-001.jpg]]
 
-- Source scene image: `frame-00009.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.39`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/bSG9wUYaHWU/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+
+Slide text:
+
+> Context Development Lifecycle
+> Generate
+> Distribute
+> Evaluate
+> Observe
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/bSG9wUYaHWU/audit.json`

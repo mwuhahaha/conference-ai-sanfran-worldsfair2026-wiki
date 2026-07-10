@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "best describes your work title? Survey demographics: which option respondents identified as engineers-either software or Al. The largest group of\nWoi Software Engincer AI Englneer\nFoundor\nManagement\nVP/CEO/CTO\nMLor MLOps Engincor\nResearcher\nProduct Manager\nOther\nData Sciontist\n6% 10% 15% 20%\nAroin 02025\nWorld's Fair AlEngineer Engineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense chart labels and small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Survey demographics: which option best describes your work title?",
+        "x": 31.0,
+        "y": 3.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "The largest group of respondents identified as engineers – either software or AI.",
+        "x": 74.0,
+        "y": 2.0,
+        "w": 23.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Software Engineer\nAI Engineer\nFounder\nManagement\nVP / CEO / CTO\nML or MLOps Engineer\nResearcher\nProduct Manager\nOther\nData Scientist",
+        "x": 31.0,
+        "y": 16.0,
+        "w": 24.0,
+        "h": 58.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/mQ7_Zje7WKE/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670588.382804,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "best describes your work title? Survey demographics: which option respondents identified as engineers-either software or Al. The largest group of\nWoi Software Engincer AI Englneer\nFoundor\nManagement\nVP/CEO/CTO\nMLor MLOps Engincor\nResearcher\nProduct Manager\nOther\nData Sciontist\n6% 10% 15% 20%\nAroin 02025\nWorld's Fair AlEngineer Engineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 543.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "best describes your work title? Survey demographics: which option respondents identified as engineers-either software or Al. The largest group of\nWoi Software Engincer AI Englneer\nFoundor\nManagement\nVP/CEO/CTO\nMLor MLOps Engincor\nResearcher\nProduct Manager\nOther\nData Sciontist\n6% 10% 15% 20%\nAroin 02025\nWorld's Fair AlEngineer Engineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

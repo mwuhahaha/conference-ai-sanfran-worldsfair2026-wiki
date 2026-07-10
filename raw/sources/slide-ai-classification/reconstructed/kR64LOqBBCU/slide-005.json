@@ -1,0 +1,52 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.93,
+  "frame_type": "title_card",
+  "reject_reason": "logo/title card only",
+  "text": "AGENTCRAFT",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "logo-heavy title card with no substantive slide content",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(180deg,#090909,#111111)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AGENTCRAFT",
+        "x": 45.0,
+        "y": 13.0,
+        "w": 33.0,
+        "h": 61.0
+      },
+      {
+        "role": "caption",
+        "text": "AGENTCRAFT: PUTTING THE ORC IN AGENT ORCHESTRATION",
+        "x": 21.0,
+        "y": 86.0,
+        "w": 61.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "IDO SALOMON / Creator of AgentCraft & MCP-UI",
+        "x": 24.0,
+        "y": 94.0,
+        "w": 45.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-005.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669392.3381631,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AGENTCRAFT",
+  "advanced_ocr": {}
+}

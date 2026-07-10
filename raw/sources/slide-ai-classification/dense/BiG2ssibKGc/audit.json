@@ -1,0 +1,88 @@
+{
+  "video_id": "BiG2ssibKGc",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 1,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "CONTEXT ENGINEERING\nStop babysitting your agents: building a context engine for mergeable code\nBrandon Waselnuk\nUnblocked | getunblocked.com\nAIE Europe 2026",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "split black and cream with inset video panels",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 9.0,
+            "w": 17.0,
+            "h": 26.0
+          },
+          {
+            "role": "subtitle",
+            "text": "CONTEXT ENGINEERING",
+            "x": 56.0,
+            "y": 17.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Stop babysitting your agents: building a context engine for mergeable code",
+            "x": 30.0,
+            "y": 24.0,
+            "w": 66.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Brandon Waselnuk\nUnblocked | getunblocked.com\nAIE Europe 2026",
+            "x": 53.0,
+            "y": 50.0,
+            "w": 22.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/BiG2ssibKGc/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659027.6338756,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "CONTEXT ENGINEERING\nStop babysitting your agents: building a context engine for mergeable code\nBrandon Waselnuk\nUnblocked | getunblocked.com\nAIE Europe 2026",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/BiG2ssibKGc/slide-001.html"
+    }
+  ],
+  "rejected": []
+}

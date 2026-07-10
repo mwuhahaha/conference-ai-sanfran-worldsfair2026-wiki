@@ -1,0 +1,152 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE STORY MAP",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with multiple small labels and compact boxes; OCR is likely more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "teal gradient with dark navy panel",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "THE STORY MAP",
+        "x": 8.0,
+        "y": 44.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Contact",
+        "x": 8.0,
+        "y": 52.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Triage",
+        "x": 25.0,
+        "y": 52.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Resolve or route",
+        "x": 42.0,
+        "y": 52.0,
+        "w": 19.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Close",
+        "x": 62.0,
+        "y": 52.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "RELEASE 1",
+        "x": 8.0,
+        "y": 63.0,
+        "w": 10.0,
+        "h": 3.0
+      },
+      {
+        "role": "body",
+        "text": "Capture intent",
+        "x": 8.0,
+        "y": 67.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Classify urgency",
+        "x": 25.0,
+        "y": 67.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Draft a grounded answer",
+        "x": 42.0,
+        "y": 67.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Log to system of record",
+        "x": 62.0,
+        "y": 67.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "LATER",
+        "x": 8.0,
+        "y": 74.0,
+        "w": 8.0,
+        "h": 3.0
+      },
+      {
+        "role": "body",
+        "text": "Read sentiment",
+        "x": 8.0,
+        "y": 78.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Route to a team",
+        "x": 25.0,
+        "y": 78.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Suggest next action",
+        "x": 42.0,
+        "y": 78.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Check satisfaction",
+        "x": 62.0,
+        "y": 78.0,
+        "w": 16.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/6bmM45jkMDY/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657851.0479946,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "THE STORY MAP",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

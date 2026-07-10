@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "OHigher users is higher accuracy. Accuracy The clearest driverof GraphRAG adoption amongst Microsoft Research Blog 'By combining LLM-generated GraphRAG: Unlocking LLM discovery on narrative private data tro tt may pusor\nknowledge graphs and graph\nmachine learning, GraphRAG\nenables us to answer important\nclasses of questions that we cannot\nattempt with baseline RAG alone.\nMicrosoft\n23. Neo4j Inc, All rlghts reserved 2023",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense quote card and blog screenshot are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "teal and white split",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Higher Accuracy",
+        "x": 5.0,
+        "y": 4.0,
+        "w": 20.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "GraphRAG enables us to answer important classes of questions that we cannot attempt with baseline RAG alone.",
+        "x": 46.0,
+        "y": 31.0,
+        "w": 41.0,
+        "h": 37.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/knDDGYHnnSI/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670184.3458695,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Higher Accuracy",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "OHigher users is higher accuracy. Accuracy The clearest driverof GraphRAG adoption amongst Microsoft Research Blog 'By combining LLM-generated GraphRAG: Unlocking LLM discovery on narrative private data tro tt may pusor\nknowledge graphs and graph\nmachine learning, GraphRAG\nenables us to answer important\nclasses of questions that we cannot\nattempt with baseline RAG alone.\nMicrosoft\n23. Neo4j Inc, All rlghts reserved 2023",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 652.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "OHigher users is higher accuracy. Accuracy The clearest driverof GraphRAG adoption amongst Microsoft Research Blog 'By combining LLM-generated GraphRAG: Unlocking LLM discovery on narrative private data tro tt may pusor\nknowledge graphs and graph\nmachine learning, GraphRAG\nenables us to answer important\nclasses of questions that we cannot\nattempt with baseline RAG alone.\nMicrosoft\n23. Neo4j Inc, All rlghts reserved 2023",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

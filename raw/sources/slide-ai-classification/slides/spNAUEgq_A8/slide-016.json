@@ -1,0 +1,162 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "iMicr\nKAYAK NAVAN\nFigma Playwright\nGmail 田 Google Sheets Inheritance\nSkill\nReact Code Fix& Linter\nGrill Me\nGithub\nTools\nSystem Prompt\nModel",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense diagram with small inherited skill/tool labels; OCR is better suited than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "MCP",
+        "x": 16.0,
+        "y": 0,
+        "w": 28.0,
+        "h": 3.0
+      },
+      {
+        "role": "logo",
+        "text": "KAYAK",
+        "x": 16.0,
+        "y": 6.0,
+        "w": 13.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "navan",
+        "x": 31.0,
+        "y": 6.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Figma",
+        "x": 16.0,
+        "y": 18.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Playwright",
+        "x": 31.0,
+        "y": 18.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "Gmail",
+        "x": 16.0,
+        "y": 30.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Google Sheets",
+        "x": 30.0,
+        "y": 30.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Skill",
+        "x": 16.0,
+        "y": 42.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "React Code Fix & Linter",
+        "x": 18.0,
+        "y": 51.0,
+        "w": 24.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Grill Me",
+        "x": 18.0,
+        "y": 60.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Github",
+        "x": 18.0,
+        "y": 68.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 16.0,
+        "y": 77.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Prompt",
+        "x": 16.0,
+        "y": 86.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 16.0,
+        "y": 95.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Inheritance",
+        "x": 58.0,
+        "y": 28.0,
+        "w": 28.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672123.866864,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "iMicr\nKAYAK NAVAN\nFigma Playwright\nGmail 田 Google Sheets Inheritance\nSkill\nReact Code Fix& Linter\nGrill Me\nGithub\nTools\nSystem Prompt\nModel",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 305.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "iMicr\nKAYAK NAVAN\nFigma Playwright\nGmail 田 Google Sheets Inheritance\nSkill\nReact Code Fix& Linter\nGrill Me\nGithub\nTools\nSystem Prompt\nModel",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

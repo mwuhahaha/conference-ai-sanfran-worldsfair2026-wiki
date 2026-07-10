@@ -1,0 +1,234 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Building effective agents Your Application\nClaude Agent SDK\n9/ Application Harness\nFocus on your unique product value - build the user that differentiate your experience and domain workflows File System Tools Custom MCP Prompts SKILLS Core Agent Workflows Custom File System Process Files Ex Output JITCode Auto Compacting Enhancements ResearchMode Web Search Subagents Memory Hooks\nModels\nFastest withnear-frontier intelligence Claude Haiku Smartest forcomplex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "architecture slide with many small labels and layered boxes",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Building effective agents",
+        "x": 3.0,
+        "y": 2.0,
+        "w": 30.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "9/ Application",
+        "x": 3.0,
+        "y": 24.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Focus on your unique value - build the user experience and domain workflows that differentiate your product",
+        "x": 3.0,
+        "y": 35.0,
+        "w": 30.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Your Application",
+        "x": 34.0,
+        "y": 2.0,
+        "w": 60.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Claude Agent SDK",
+        "x": 34.0,
+        "y": 11.0,
+        "w": 60.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Harness",
+        "x": 64.0,
+        "y": 16.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "SKILLS",
+        "x": 49.0,
+        "y": 18.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 38.0,
+        "y": 32.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Prompts",
+        "x": 53.0,
+        "y": 32.0,
+        "w": 13.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "File System",
+        "x": 68.0,
+        "y": 32.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MCP",
+        "x": 41.0,
+        "y": 42.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Custom",
+        "x": 41.0,
+        "y": 48.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "File System",
+        "x": 41.0,
+        "y": 54.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Core Agent",
+        "x": 56.0,
+        "y": 42.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Workflows",
+        "x": 56.0,
+        "y": 54.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Process Files",
+        "x": 71.0,
+        "y": 42.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "JIT Code",
+        "x": 72.0,
+        "y": 48.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Ex Output",
+        "x": 72.0,
+        "y": 54.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Enhancements",
+        "x": 84.0,
+        "y": 18.0,
+        "w": 11.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Subagents",
+        "x": 84.0,
+        "y": 24.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Web Search",
+        "x": 84.0,
+        "y": 30.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Research Mode",
+        "x": 84.0,
+        "y": 36.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Auto Compacting",
+        "x": 84.0,
+        "y": 42.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Hooks",
+        "x": 84.0,
+        "y": 48.0,
+        "w": 8.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664371.5139134,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Building effective agents",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Building effective agents Your Application\nClaude Agent SDK\n9/ Application Harness\nFocus on your unique product value - build the user that differentiate your experience and domain workflows File System Tools Custom MCP Prompts SKILLS Core Agent Workflows Custom File System Process Files Ex Output JITCode Auto Compacting Enhancements ResearchMode Web Search Subagents Memory Hooks\nModels\nFastest withnear-frontier intelligence Claude Haiku Smartest forcomplex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 853.6
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Building effective agents Your Application\nClaude Agent SDK\n9/ Application Harness\nFocus on your unique product value - build the user that differentiate your experience and domain workflows File System Tools Custom MCP Prompts SKILLS Core Agent Workflows Custom File System Process Files Ex Output JITCode Auto Compacting Enhancements ResearchMode Web Search Subagents Memory Hooks\nModels\nFastest withnear-frontier intelligence Claude Haiku Smartest forcomplex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Our Belief and Observations\nAI will reshape technology organizations — 100x larger than the impact of agile, cloud, CI/CD, mobile, etc.\nThese technology breakthroughs reshape organizations... the entire economy re-organizes itself to take advantage of these new modes of production\nWe are starting to see amazing case studies hinting at what the future may look like",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 0,
+        "y": 0,
+        "w": 28.0,
+        "h": 100
+      },
+      {
+        "role": "title",
+        "text": "Our Belief and Observations",
+        "x": 31.0,
+        "y": 0,
+        "w": 58.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "AI will reshape technology organizations — 100x larger than the impact of agile, cloud, CI/CD, mobile, etc.",
+        "x": 31.0,
+        "y": 10.0,
+        "w": 64.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "These technology breakthroughs reshape organizations... the entire economy re-organizes itself to take advantage of these new modes of production",
+        "x": 31.0,
+        "y": 31.0,
+        "w": 66.0,
+        "h": 28.0
+      },
+      {
+        "role": "body",
+        "text": "We are starting to see amazing case studies hinting at what the future may look like",
+        "x": 31.0,
+        "y": 63.0,
+        "w": 60.0,
+        "h": 14.0
+      },
+      {
+        "role": "caption",
+        "text": "2026: THE YEAR THE IDE DIED",
+        "x": 28.0,
+        "y": 83.0,
+        "w": 72.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/7Dtu2bilcFs/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658120.8509266,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Our Belief and Observations\nAI will reshape technology organizations — 100x larger than the impact of agile, cloud, CI/CD, mobile, etc.\nThese technology breakthroughs reshape organizations... the entire economy re-organizes itself to take advantage of these new modes of production\nWe are starting to see amazing case studies hinting at what the future may look like",
+  "advanced_ocr": {}
+}

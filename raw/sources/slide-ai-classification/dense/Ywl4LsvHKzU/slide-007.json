@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Chattenges Not every corpus/query is relational DB material\nJapan) Normalization (West Germany, South Korea and\nAbstinence & Ambiguity Both during ingestion and inference\nDid Real Madrid win in the 2006 Final? (Not\nworld cup)\nClustering and inferring schema (clear trade-off\non complexity)\nText2SQL over complex schemas\nONAIR",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense text-heavy slide with multiple bullets and small nested text; OCR is likely more reliable than manual transcription here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Challenges",
+        "x": 1.0,
+        "y": 0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Not every corpus/query is relational DB material\nNormalization (West Germany, South Korea and Japan)\nBoth during ingestion and inference\nAbstinence & Ambiguity\nDid Real Madrid win in the 2006 Final? (Not world cup)\nClustering and inferring schema (clear trade-off on complexity)\nText2SQL over complex schemas",
+        "x": 34.0,
+        "y": 2.0,
+        "w": 61.0,
+        "h": 82.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/Ywl4LsvHKzU/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665645.7898228,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Challenges",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Chattenges Not every corpus/query is relational DB material\nJapan) Normalization (West Germany, South Korea and\nAbstinence & Ambiguity Both during ingestion and inference\nDid Real Madrid win in the 2006 Final? (Not\nworld cup)\nClustering and inferring schema (clear trade-off\non complexity)\nText2SQL over complex schemas\nONAIR",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 535.56
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Chattenges Not every corpus/query is relational DB material\nJapan) Normalization (West Germany, South Korea and\nAbstinence & Ambiguity Both during ingestion and inference\nDid Real Madrid win in the 2006 Final? (Not\nworld cup)\nClustering and inferring schema (clear trade-off\non complexity)\nText2SQL over complex schemas\nONAIR",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

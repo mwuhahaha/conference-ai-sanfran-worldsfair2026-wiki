@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.91,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Qwen3 235B\nFinQA Tool Use",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "mostly visual slide with a few overlaid labels",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#000000 with large warm-toned photo",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Qwen3 235B",
+        "x": 65.0,
+        "y": 28.0,
+        "w": 23.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "FinQA Tool Use",
+        "x": 52.0,
+        "y": 72.0,
+        "w": 23.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer",
+        "x": 57.0,
+        "y": 82.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 12.0,
+        "h": 19.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/TNwJ1LMiENk/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664127.5457256,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Qwen3 235B\nFinQA Tool Use",
+  "advanced_ocr": {}
+}

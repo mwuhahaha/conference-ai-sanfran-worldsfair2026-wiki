@@ -1,0 +1,71 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product/report UI with many small text blocks and tabs.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "near-black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Worst: Single generateDraftReply calls reach 264s in the worst-latency cohort the tool is 40-87% of end-to-end latency in 28/30 traces.",
+        "x": 13.0,
+        "y": 8.0,
+        "w": 74.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Problem",
+        "x": 13.0,
+        "y": 18.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Evidence",
+        "x": 13.0,
+        "y": 33.0,
+        "w": 11.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Why-chain",
+        "x": 13.0,
+        "y": 52.0,
+        "w": 12.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671310.354288,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/center-82/contrast",
+    "best_score": 971.24,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0012
+  }
+}

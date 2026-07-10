@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.92,
+  "frame_type": "title_card",
+  "reject_reason": "Title card / speaker intro style frame with prominent headshots.",
+  "text": "The Agentic AI Engineer",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Title-card slide with large centered text; not dense enough to justify OCR.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(180deg, #fcfbf8 0%, #ffffff 100%)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "THE MECHANISM",
+        "x": 47.0,
+        "y": 28.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "The Agentic AI Engineer",
+        "x": 34.0,
+        "y": 35.0,
+        "w": 32.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668743.6888945,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Agentic AI Engineer",
+  "advanced_ocr": {}
+}

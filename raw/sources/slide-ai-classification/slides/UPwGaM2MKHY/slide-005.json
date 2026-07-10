@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Migration / Model Portability\nClaude\nGPT\nQwen\nDifferent models, same agent",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple diagram slide; OCR not needed",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with blue abstract edge gradient",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Migration / Model Portability",
+        "x": 14.0,
+        "y": 12.0,
+        "w": 40.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Claude",
+        "x": 31.0,
+        "y": 42.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "GPT",
+        "x": 47.0,
+        "y": 42.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Qwen",
+        "x": 62.0,
+        "y": 42.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Different models, same agent",
+        "x": 42.0,
+        "y": 63.0,
+        "w": 20.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/UPwGaM2MKHY/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664773.8742054,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Migration / Model Portability\nClaude\nGPT\nQwen\nDifferent models, same agent",
+  "advanced_ocr": {}
+}

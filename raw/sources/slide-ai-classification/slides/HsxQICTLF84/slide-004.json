@@ -1,0 +1,48 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code editor screenshot with small source text; OCR will capture the code more reliably than vision transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "",
+        "x": 25.0,
+        "y": 0,
+        "w": 74.0,
+        "h": 79.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer Europe",
+        "x": 56.0,
+        "y": 82.0,
+        "w": 19.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/HsxQICTLF84/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659516.7775772,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

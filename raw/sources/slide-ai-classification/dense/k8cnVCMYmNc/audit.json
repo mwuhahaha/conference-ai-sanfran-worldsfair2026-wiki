@@ -1,0 +1,429 @@
+{
+  "video_id": "k8cnVCMYmNc",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 3,
+  "rejected_count": 8,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "1b A\nm REaDME License 13\n(note, you will need enough quota on in your QpenAl account to run\nthis demo)\n4. PDF Generation Dependencies - Required for PDF output (optional)\nStarting Temporal Server\n# Install Temporal ClI curl -sSf https://temporal.downtoad/cli.sh I sh r口\n# Start Temporal server tenporal server start-dev\nSetup\n1oAhT:9TFEK0YQ4\n1. Clone this repository\n2. Install dependencies:\nuv sync",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense browser/readme screenshot with small text and code blocks; OCR is more suitable than vision transcription",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white browser page with dark right-side overlay",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Starting Temporal Server",
+            "x": 5.0,
+            "y": 23.0,
+            "w": 40.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Setup",
+            "x": 5.0,
+            "y": 37.0,
+            "w": 15.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/k8cnVCMYmNc/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669359.6232502,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Starting Temporal Server",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "1b A\nm REaDME License 13\n(note, you will need enough quota on in your QpenAl account to run\nthis demo)\n4. PDF Generation Dependencies - Required for PDF output (optional)\nStarting Temporal Server\n# Install Temporal ClI curl -sSf https://temporal.downtoad/cli.sh I sh r口\n# Start Temporal server tenporal server start-dev\nSetup\n1oAhT:9TFEK0YQ4\n1. Clone this repository\n2. Install dependencies:\nuv sync",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 598.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "1b A\nm REaDME License 13\n(note, you will need enough quota on in your QpenAl account to run\nthis demo)\n4. PDF Generation Dependencies - Required for PDF output (optional)\nStarting Temporal Server\n# Install Temporal ClI curl -sSf https://temporal.downtoad/cli.sh I sh r口\n# Start Temporal server tenporal server start-dev\nSetup\n1oAhT:9TFEK0YQ4\n1. Clone this repository\n2. Install dependencies:\nuv sync",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/k8cnVCMYmNc/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "← Q： +\n@ deisun ① uic v 6 azardous swiaming condi d rip currents.\n14 Workflows StartWorktiow\n14 Complrttd\n? △ Sttus Worifow D Run ID cxpected. back from the water.\n4 Compleled tgonlic-l00p:Id-9e838,4d-0s0c-4n2d.6462-25150c417338 019132c0-09d9-7772-b68e-672095881188 Ageny\n® 4 Comphted 19s-129p-4-c911989-3965-488c-81e1-14765c5bs15 019a3643-0670.7e99-8+86:096+56-3079 MUY\n* 1 4 10os-worklow 01913c42-0586-7849-2614-152925061d64 Toolswd\nCompleted 10obs -workllow 01911c42-4907.7e4e-b34b-79s0451d3998\n0 4 tod's-workllow 01943c41-dc45-71-8094-9610c085479b\n:7 4 4 Compieled Conpleea toolt-wor*tlow 10ots-work1low 01913c41-87bt-7042-95d4 -d371c9c270e6 01913c30-b032-7995-162c-0ec78487802b Toolsvkd ToolsWd Dves expected. far back from the wate\n0 100 4 Conpieted toott-orx110w 01913c36-c246-7835-9867-50b8634a11cc 日 kbook/al cookbook wtf>",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot with small table text and controls.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "14 Workflows",
+            "x": 6.0,
+            "y": 11.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "14 Completed",
+            "x": 6.0,
+            "y": 19.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Start Workflow",
+            "x": 76.0,
+            "y": 12.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Status Workflow ID Run ID Type",
+            "x": 6.0,
+            "y": 34.0,
+            "w": 74.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/k8cnVCMYmNc/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669603.8835785,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "14 Workflows",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "← Q： +\n@ deisun ① uic v 6 azardous swiaming condi d rip currents.\n14 Workflows StartWorktiow\n14 Complrttd\n? △ Sttus Worifow D Run ID cxpected. back from the water.\n4 Compleled tgonlic-l00p:Id-9e838,4d-0s0c-4n2d.6462-25150c417338 019132c0-09d9-7772-b68e-672095881188 Ageny\n® 4 Comphted 19s-129p-4-c911989-3965-488c-81e1-14765c5bs15 019a3643-0670.7e99-8+86:096+56-3079 MUY\n* 1 4 10os-worklow 01913c42-0586-7849-2614-152925061d64 Toolswd\nCompleted 10obs -workllow 01911c42-4907.7e4e-b34b-79s0451d3998\n0 4 tod's-workllow 01943c41-dc45-71-8094-9610c085479b\n:7 4 4 Compieled Conpleea toolt-wor*tlow 10ots-work1low 01913c41-87bt-7042-95d4 -d371c9c270e6 01913c30-b032-7995-162c-0ec78487802b Toolsvkd ToolsWd Dves expected. far back from the wate\n0 100 4 Conpieted toott-orx110w 01913c36-c246-7835-9867-50b8634a11cc 日 kbook/al cookbook wtf>",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 763.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "← Q： +\n@ deisun ① uic v 6 azardous swiaming condi d rip currents.\n14 Workflows StartWorktiow\n14 Complrttd\n? △ Sttus Worifow D Run ID cxpected. back from the water.\n4 Compleled tgonlic-l00p:Id-9e838,4d-0s0c-4n2d.6462-25150c417338 019132c0-09d9-7772-b68e-672095881188 Ageny\n® 4 Comphted 19s-129p-4-c911989-3965-488c-81e1-14765c5bs15 019a3643-0670.7e99-8+86:096+56-3079 MUY\n* 1 4 10os-worklow 01913c42-0586-7849-2614-152925061d64 Toolswd\nCompleted 10obs -workllow 01911c42-4907.7e4e-b34b-79s0451d3998\n0 4 tod's-workllow 01943c41-dc45-71-8094-9610c085479b\n:7 4 4 Compieled Conpleea toolt-wor*tlow 10ots-work1low 01913c41-87bt-7042-95d4 -d371c9c270e6 01913c30-b032-7995-162c-0ec78487802b Toolsvkd ToolsWd Dves expected. far back from the wate\n0 100 4 Conpieted toott-orx110w 01913c36-c246-7835-9867-50b8634a11cc 日 kbook/al cookbook wtf>",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/k8cnVCMYmNc/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "→ ☆ thra rc orh a.u Crt\nC h D Hy Dltt + detgt.. I D Aers\n@ celecr. Guic 6\nbeoch mthout warning. +rien*+: Through Sunday Grentrg. \"lipoct+': Lorge, Lrepected tives Con fteep crors the\nYolley ond fast foy Interior Yolteyt. In dese fog. 2. *\"Dense Fog Aori sory\"*: rhot\"': Visibility ore quarter mile to os lon ay Mo ftet Ireere*+: Acrots vortous regtont, including San Jooquln *\"men-+: Until ll A psT thit rorming.\n2025-11-22 U1C t8 26 2438 + ar u s+t Auhm /ue u+u +nt - AAo?ropotoAu Event History 2025-11.22 UTC 1026:11.76\nOtl wtsth+_alvrt i Get atather sorlt for a Us ttio.\n34mi 7t013 kerrcke_node_sctvty · are there any weether alerts in CA? 7$7m1 75 1 220:01 41 41 699.14 $s 17ms E 676s Q 6s 0514 7 11mt 507mm 7t 971ms 41 440.4 p1608 19 alley, and others.\ny Central Coast Beoches.\nJSON Dsc ← 11 中 Pending smd Faied Only V Event Types\n23 2025-11-22 U1C 18-26:3376 3Workflow Execution Complcted A+un I'Currently. ther+ sr+ tral +ather lerts Ln C\n22 2025-11-22 UTC 18:26:33.76 Workfiow Task Completed bntiy C0i97@Cornelat-hacBcok-Pro.locs1 11.12 ('.venv': veny)",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense workflow-history timeline and log table are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Event History",
+            "x": 37.0,
+            "y": 19.0,
+            "w": 20.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/k8cnVCMYmNc/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669747.9472334,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Event History",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "→ ☆ thra rc orh a.u Crt\nC h D Hy Dltt + detgt.. I D Aers\n@ celecr. Guic 6\nbeoch mthout warning. +rien*+: Through Sunday Grentrg. \"lipoct+': Lorge, Lrepected tives Con fteep crors the\nYolley ond fast foy Interior Yolteyt. In dese fog. 2. *\"Dense Fog Aori sory\"*: rhot\"': Visibility ore quarter mile to os lon ay Mo ftet Ireere*+: Acrots vortous regtont, including San Jooquln *\"men-+: Until ll A psT thit rorming.\n2025-11-22 U1C t8 26 2438 + ar u s+t Auhm /ue u+u +nt - AAo?ropotoAu Event History 2025-11.22 UTC 1026:11.76\nOtl wtsth+_alvrt i Get atather sorlt for a Us ttio.\n34mi 7t013 kerrcke_node_sctvty · are there any weether alerts in CA? 7$7m1 75 1 220:01 41 41 699.14 $s 17ms E 676s Q 6s 0514 7 11mt 507mm 7t 971ms 41 440.4 p1608 19 alley, and others.\ny Central Coast Beoches.\nJSON Dsc ← 11 中 Pending smd Faied Only V Event Types\n23 2025-11-22 U1C 18-26:3376 3Workflow Execution Complcted A+un I'Currently. ther+ sr+ tral +ather lerts Ln C\n22 2025-11-22 UTC 18:26:33.76 Workfiow Task Completed bntiy C0i97@Cornelat-hacBcok-Pro.locs1 11.12 ('.venv': veny)",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1348.8
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "→ ☆ thra rc orh a.u Crt\nC h D Hy Dltt + detgt.. I D Aers\n@ celecr. Guic 6\nbeoch mthout warning. +rien*+: Through Sunday Grentrg. \"lipoct+': Lorge, Lrepected tives Con fteep crors the\nYolley ond fast foy Interior Yolteyt. In dese fog. 2. *\"Dense Fog Aori sory\"*: rhot\"': Visibility ore quarter mile to os lon ay Mo ftet Ireere*+: Acrots vortous regtont, including San Jooquln *\"men-+: Until ll A psT thit rorming.\n2025-11-22 U1C t8 26 2438 + ar u s+t Auhm /ue u+u +nt - AAo?ropotoAu Event History 2025-11.22 UTC 1026:11.76\nOtl wtsth+_alvrt i Get atather sorlt for a Us ttio.\n34mi 7t013 kerrcke_node_sctvty · are there any weether alerts in CA? 7$7m1 75 1 220:01 41 41 699.14 $s 17ms E 676s Q 6s 0514 7 11mt 507mm 7t 971ms 41 440.4 p1608 19 alley, and others.\ny Central Coast Beoches.\nJSON Dsc ← 11 中 Pending smd Faied Only V Event Types\n23 2025-11-22 U1C 18-26:3376 3Workflow Execution Complcted A+un I'Currently. ther+ sr+ tral +ather lerts Ln C\n22 2025-11-22 UTC 18:26:33.76 Workfiow Task Completed bntiy C0i97@Cornelat-hacBcok-Pro.locs1 11.12 ('.venv': veny)",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/k8cnVCMYmNc/slide-011.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker-stage shot with only partial projected text visible",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a standalone slide; projected text is partial and low-value for OCR",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "bright window-lit room with pale projected screen",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/k8cnVCMYmNc/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669359.6201491,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker-stage shot with presenter and partial projection, not a standalone slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a standalone slide; projection is fragmented by the speaker",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "bright window-lit room with pale projected screen",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/k8cnVCMYmNc/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669359.6214154,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker-stage shot; projected diagram is only partially visible",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a standalone slide; diagram text is cropped and secondary to the stage shot",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "bright window-lit room with pale projected slide",
+        "style": "diagram",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/k8cnVCMYmNc/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669359.6223679,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker-stage shot with code projection, not a standalone slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a standalone slide; code is partially visible behind the speaker",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "bright window-lit room with dim code projection",
+        "style": "code",
+        "blocks": []
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/k8cnVCMYmNc/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669402.939544,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Live demo screen capture with browser and terminal split view, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black and white split",
+        "style": "code",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/k8cnVCMYmNc/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669747.9438188,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker on stage with projected screen in the background, not a readable slide frame.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "bright room with projected screen",
+        "style": "diagram",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/k8cnVCMYmNc/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669747.944714,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker on stage with projected screen in the background, not a readable slide frame.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "bright room with projected screen",
+        "style": "diagram",
+        "blocks": []
+      },
+      "image_index": 4,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/k8cnVCMYmNc/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669747.9452236,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker on stage with projected screen in the background, not a readable slide frame.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "bright room with projected screen",
+        "style": "diagram",
+        "blocks": []
+      },
+      "image_index": 5,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/k8cnVCMYmNc/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669747.9467442,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

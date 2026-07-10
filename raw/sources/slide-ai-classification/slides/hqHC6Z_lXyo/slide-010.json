@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What Model is State-of-the-Art?\nThere are multiple SOTA Al models\nAIE Long Text Bench OeelGTertRenderieg\n0:20\n0.85\n0.03\n0.73\n0.65 0.63\n0.50 0.00\n0.55 0.55\nMedin inference Time Mesinn IeterenceTime\nAI Engineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "The benchmark scatter plots and annotations are small enough that OCR will likely outperform manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#130914",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What Model is State-of-the-Art?",
+        "x": 28.0,
+        "y": 6.0,
+        "w": 41.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "There are multiple SOTA AI models",
+        "x": 29.0,
+        "y": 17.0,
+        "w": 32.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "two dark scatter plots with use-case annotations",
+        "x": 40.0,
+        "y": 25.0,
+        "w": 48.0,
+        "h": 42.0
+      },
+      {
+        "role": "caption",
+        "text": "Target use case",
+        "x": 75.0,
+        "y": 12.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/hqHC6Z_lXyo/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668754.2778964,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "What Model is State-of-the-Art?",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "What Model is State-of-the-Art?\nThere are multiple SOTA Al models\nAIE Long Text Bench OeelGTertRenderieg\n0:20\n0.85\n0.03\n0.73\n0.65 0.63\n0.50 0.00\n0.55 0.55\nMedin inference Time Mesinn IeterenceTime\nAI Engineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 313.68
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "What Model is State-of-the-Art?\nThere are multiple SOTA Al models\nAIE Long Text Bench OeelGTertRenderieg\n0:20\n0.85\n0.03\n0.73\n0.65 0.63\n0.50 0.00\n0.55 0.55\nMedin inference Time Mesinn IeterenceTime\nAI Engineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

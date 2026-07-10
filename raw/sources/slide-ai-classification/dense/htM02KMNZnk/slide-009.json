@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agenda\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Agenda items are large and directly readable.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark teal",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Agenda",
+        "x": 2.0,
+        "y": 1.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+        "x": 6.0,
+        "y": 18.0,
+        "w": 88.0,
+        "h": 72.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668951.8665345,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Agenda\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+  "advanced_ocr": {}
+}

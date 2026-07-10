@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How chunkless RAG works\n\nChunkless retrieval is a four-step loop:\n\nDocument outline\n(per-section summaries)\n\n1. SELECT — LLM picks the most relevant unvisited\nsection by reading the outline + query.\n\n2. FETCH — Pull the *full text* of that section's\nsubtree from the DoclingDocument.\n\n3. ATTEMPT — LLM tries to answer from the section text.\nReturns (can_answer: bool, response: str).",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with multiple small labels and explanatory text that is better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark charcoal",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How chunkless RAG works",
+        "x": 22.0,
+        "y": 8.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Chunkless retrieval is a four-step loop:",
+        "x": 22.0,
+        "y": 17.0,
+        "w": 36.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Document outline (per-section summaries)",
+        "x": 36.0,
+        "y": 25.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1. SELECT -- LLM picks the most relevant unvisited section by reading the outline + query.",
+        "x": 23.0,
+        "y": 40.0,
+        "w": 42.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "2. FETCH -- Pull the *full text of that section's subtree from the DoclingDocument.",
+        "x": 23.0,
+        "y": 58.0,
+        "w": 44.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3. ATTEMPT -- LLM tries to answer from the section text. Returns {can_answer: bool, response: str}.",
+        "x": 23.0,
+        "y": 76.0,
+        "w": 46.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-023.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-023.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657305.4743059,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "How chunkless RAG works",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "BConversion.ipynb M Token_Cost_Comparison.ipynbM Chunkless_RAG.ipynb M Chunking.ipynb\npyproject.toml ①README.md F.spellcheck-en-custom.txt!.spellcheck.yaml Fconstraints.txt LICENSE!mkdocs.yml!.pre-commit-config.yaml DOCLING-WO. aoub!.poutine.yml notebooks Ollama RAG.ipynb Serving.ipynb >scripts >src Chunking.ipynb Chunkless_RAG.ipynbM Conversion_Colab.ipynb Conversion.ipynb MCP_Agents.ipynb RAG.ipynb Token_Cost_Compari.M gitignore >fixtures markdownlint-cli2.yaml >output M M kless RAG actually earns its keep>query_2 = What was Red Hat's revenue growth in 2025 and how did it contribute to IBM's overall software segment? Add CodeAddMarkdown|Run AllRestart ClearAll Outputs GoToJupyterVariablesOutline HowchunklessRAGworks Chunklessretrieval isa four-step loop: 2.FETCH 3.ATTEMPT-LLM triesto answer from the section text. 1.SELECT -LLM picks the most relevant unvisited -Pullthe *full text*of thatsection's Returns (can_answer: bool, response: str}. section by reading the outline + query. subtree from the DoclingDocument. (per-section summaries) Document outline.venv (3.13.7)(Python 3.13.7)\nOUTLINE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1123.68
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "How chunkless RAG works\n\nChunkless retrieval is a four-step loop:\n\nDocument outline\n(per-section summaries)\n\n1. SELECT — LLM picks the most relevant unvisited\nsection by reading the outline + query.\n\n2. FETCH — Pull the *full text* of that section's\nsubtree from the DoclingDocument.\n\n3. ATTEMPT — LLM tries to answer from the section text.\nReturns (can_answer: bool, response: str).",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for title, spacing, punctuation, and line breaks; omitted surrounding notebook UI and unreadable lower content."
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Container Root Namespace Userspace\nMalicious or Buggy Process Pid Namespace: Pid 100 Trusted Process Pid: 200\nsyscall ioctl Attack Surface Syscall. ioct!.\nKernel\nContainer processes can attack the kernel\nAter s Containers run ss nstlve processes on top of the kernel'.\nAry malclous cr buggy process can atsck the kornel and gain rool.: 、\n+. Onco it becormes root k can do arything r warts..",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Same security diagram with additional bullets visible at the bottom; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3f2ef",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Containers: Security Story",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 36.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram",
+        "text": "Container",
+        "x": 6.0,
+        "y": 11.0,
+        "w": 28.0,
+        "h": 42.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Malicious or Buggy Process",
+        "x": 7.0,
+        "y": 27.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pid Namespace",
+        "x": 14.0,
+        "y": 38.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Root Namespace",
+        "x": 38.0,
+        "y": 7.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Userspace",
+        "x": 61.0,
+        "y": 7.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Trusted Process",
+        "x": 54.0,
+        "y": 33.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Attack Surface",
+        "x": 35.0,
+        "y": 66.0,
+        "w": 17.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Kernel",
+        "x": 60.0,
+        "y": 82.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Container processes can attack the kernel",
+        "x": 13.0,
+        "y": 93.0,
+        "w": 51.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "After all Containers run as native processes on top of the kernel.",
+        "x": 3.0,
+        "y": 96.0,
+        "w": 74.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Any malicious or buggy process can attack the kernel and gain root.",
+        "x": 3.0,
+        "y": 99.0,
+        "w": 79.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Once it becomes root it can do anything it wants.",
+        "x": 3.0,
+        "y": 100,
+        "w": 56.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-016.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673131.5663304,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Containers: Security Story",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Container Root Namespace Userspace\nMalicious or Buggy Process Pid Namespace: Pid 100 Trusted Process Pid: 200\nsyscall ioctl Attack Surface Syscall. ioct!.\nKernel\nContainer processes can attack the kernel\nAter s Containers run ss nstlve processes on top of the kernel'.\nAry malclous cr buggy process can atsck the kornel and gain rool.: 、\n+. Onco it becormes root k can do arything r warts..",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 599.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Container Root Namespace Userspace\nMalicious or Buggy Process Pid Namespace: Pid 100 Trusted Process Pid: 200\nsyscall ioctl Attack Surface Syscall. ioct!.\nKernel\nContainer processes can attack the kernel\nAter s Containers run ss nstlve processes on top of the kernel'.\nAry malclous cr buggy process can atsck the kornel and gain rool.: 、\n+. Onco it becormes root k can do arything r warts..",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

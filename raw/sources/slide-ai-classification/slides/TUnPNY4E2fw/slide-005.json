@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What's stopping us?\nLongContext\nAIE Computation (VN)0) Memory O(N)\nMemory Usage for SBModel\n160 DP-8 DP=8 Zero-1 OP=8 Zero-2 DP=8Zero-3\n140 120\n00\nSeqvence Length Seduence Length Stqvence Length Sequtnce Length 924 16.354\nEngineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "small chart labels and legend are better suited to OCR",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What's stopping us?",
+        "x": 28.0,
+        "y": 5.0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 18.0,
+        "h": 21.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Long Context",
+        "x": 57.0,
+        "y": 15.0,
+        "w": 13.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Memory Usage for 8B Model",
+        "x": 39.0,
+        "y": 43.0,
+        "w": 31.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Sequence Length",
+        "x": 39.0,
+        "y": 67.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 41.0,
+        "y": 88.0,
+        "w": 38.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/TUnPNY4E2fw/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664339.4523005,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "What's stopping us?",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "What's stopping us?\nLongContext\nAIE Computation (VN)0) Memory O(N)\nMemory Usage for SBModel\n160 DP-8 DP=8 Zero-1 OP=8 Zero-2 DP=8Zero-3\n140 120\n00\nSeqvence Length Seduence Length Stqvence Length Sequtnce Length 924 16.354\nEngineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 334.52
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "What's stopping us?\nLongContext\nAIE Computation (VN)0) Memory O(N)\nMemory Usage for SBModel\n160 DP-8 DP=8 Zero-1 OP=8 Zero-2 DP=8Zero-3\n140 120\n00\nSeqvence Length Seduence Length Stqvence Length Sequtnce Length 924 16.354\nEngineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

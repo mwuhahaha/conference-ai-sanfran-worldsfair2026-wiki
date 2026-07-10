@@ -17,68 +17,40 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/YYH0DMQr30A/slide-001.jpg]]
-
-OCR text:
-
-> Snorkel
-> TheFrontier AData ab
-> Task Fidelity Scaling Laws
-> Fine-tuning onhigh-quality tasks
-> dramatically outperforms fine-tuning on
-> low-quality tasks
-> Kobie Crawford,Developer Advocate
-> AlEngineer
-> EUROPE
-
-![[assets/slides/YYH0DMQr30A/slide-002.jpg]]
-
-OCR text:
-
-> a
-> SS SnorkeJ Tne Fronter Al Data Lab
-> rs : F .
-> Task Fidelity Scaling Laws
-> % rs
-> * ad
-> a od
-> Fine tuning on high quauity tasks 7
-> dramaticaily outcerforms fine tuning on
-> low-quality tasks
-> Koite Crawford, Developer Advocate
-> |
-> | a Google DeepMind
-
 ![[assets/slides/YYH0DMQr30A/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/YYH0DMQr30A/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
 
 > Does Task Quality Actually Matter?
-> e Almodel capabilities are fundamentally bounded by training data quality
-> — this holds regardless of model architecture, scale, or agent harness.
-> p ee . e For agentic benchmarks and evals, task quality is data quality
-> pe " — but the field currently lacks empirical evidence that curating higher-quality tasks
-> PY ry leads to meaningfully better training outcomes,
-> ad " *
+> AI model capabilities are fundamentally bounded by training data quality
+> this holds regardless of model architecture, scale, or agent harness.
+> For agentic benchmarks and evals, task quality is data quality
+> but the field currently lacks empirical evidence that curating higher-quality tasks leads to meaningfully better training outcomes.
 > Can we measure the impact of task quality on model performance?
-> a 2
-> w) | Al Engineer
-> [aed
-> J EUROPE
-> rs
 
 ![[assets/slides/YYH0DMQr30A/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/YYH0DMQr30A/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.93`
+- Text source: agent_vision.
 
-> S&S SnorkeJ The Frontier A! Data Lab
+Slide text:
+
 > Thank You
-> * 7 [m] cA [nm] OFS 3 [m)
-> * * a op tls
-> - TL pe
-> eles la
-> snorkel.ai/research/ snorkel.ai/leaderboard/
-> _ ) . on Engineering the future of Al
+> snorkel.ai/research/
+> snorkel.ai/leaderboard/
+> Engineering the future of AI
+
+
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/YYH0DMQr30A/slide-001.jpg) — `speaker_stage` confidence `0.08`; Stage shot with speaker in front of a projected slide; not a clean presentation slide frame.
+- [`slide-002.jpg`](/assets/slides/YYH0DMQr30A/slide-002.jpg) — `speaker_stage` confidence `0.12`; Composite stage capture with slide plus camera shot and branding panels; not a clean slide-only frame.
+
+Classification audit: `raw/sources/slide-ai-classification/slides/YYH0DMQr30A/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

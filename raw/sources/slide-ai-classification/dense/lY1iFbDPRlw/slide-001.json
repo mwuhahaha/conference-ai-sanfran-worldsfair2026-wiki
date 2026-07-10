@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.89,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "poneg\nModels: CEw\nExcel in all modalities M2 MiniMax 2.6 Speech 2.0 Music S\nINTAMO Melean\nURTLWK\nProsx!\nAl-native Apps:\n150m users globally Agent! Video Agentl\nMedltrAesl witel yN MnMs Auls CeleLhefielpeeg HalsVidne Ape take\nMINIMAX Intelligene\nE/LEAD MINIMAXM2\nSENTED 8Y eenMinc OLIVE SONG /Senior Research Engineer MINIMAX",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Mixed title slide with embedded product/UI screenshots and small labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "MINIMAX M2",
+        "x": 26.0,
+        "y": 72.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "OLIVE SONG / Senior Research Engineer",
+        "x": 26.0,
+        "y": 84.0,
+        "w": 40.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Models: Excel in all modalities",
+        "x": 15.0,
+        "y": 16.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "AI-native Apps: 150M users globally",
+        "x": 15.0,
+        "y": 38.0,
+        "w": 26.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/lY1iFbDPRlw/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670385.8453517,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "MINIMAX M2",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/contrast",
+    "text": "poneg\nModels: CEw\nExcel in all modalities M2 MiniMax 2.6 Speech 2.0 Music S\nINTAMO Melean\nURTLWK\nProsx!\nAl-native Apps:\n150m users globally Agent! Video Agentl\nMedltrAesl witel yN MnMs Auls CeleLhefielpeeg HalsVidne Ape take\nMINIMAX Intelligene\nE/LEAD MINIMAXM2\nSENTED 8Y eenMinc OLIVE SONG /Senior Research Engineer MINIMAX",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 536.96
+  },
+  "ocr_source": "rapidocr-live/center-82/contrast",
+  "ocr_reconcile": {
+    "text": "poneg\nModels: CEw\nExcel in all modalities M2 MiniMax 2.6 Speech 2.0 Music S\nINTAMO Melean\nURTLWK\nProsx!\nAl-native Apps:\n150m users globally Agent! Video Agentl\nMedltrAesl witel yN MnMs Auls CeleLhefielpeeg HalsVidne Ape take\nMINIMAX Intelligene\nE/LEAD MINIMAXM2\nSENTED 8Y eenMinc OLIVE SONG /Senior Research Engineer MINIMAX",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

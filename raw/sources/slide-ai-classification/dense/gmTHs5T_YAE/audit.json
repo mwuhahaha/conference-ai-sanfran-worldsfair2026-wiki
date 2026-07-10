@@ -1,0 +1,232 @@
+{
+  "video_id": "gmTHs5T_YAE",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agenda\n1. TTS model architecture\n2. TTS performance metrics\n3. Orpheus TTS optimization techniques\n4. Orpheus TTS performance benchmarks\n5. Infrastructure and client code",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple agenda slide with large readable text",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "pale yellow with black sidebar",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 21.0,
+            "w": 11.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "Agenda",
+            "x": 27.0,
+            "y": 8.0,
+            "w": 13.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1. TTS model architecture\n2. TTS performance metrics\n3. Orpheus TTS optimization techniques\n4. Orpheus TTS performance benchmarks\n5. Infrastructure and client code",
+            "x": 41.0,
+            "y": 16.0,
+            "w": 45.0,
+            "h": 48.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 46.0,
+            "y": 84.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 69.0,
+            "y": 83.0,
+            "w": 14.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/gmTHs5T_YAE/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667861.2439046,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agenda\n1. TTS model architecture\n2. TTS performance metrics\n3. Orpheus TTS optimization techniques\n4. Orpheus TTS performance benchmarks\n5. Infrastructure and client code",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/gmTHs5T_YAE/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE VCanopyLabs Example: OrpheusTTS ·Llama3.23Bbackbone.Extendedcontextlength Increasedvocabsizefor speech-specifictokens withRoPEscaling \"bos_token_td':128908, \"head_din':128, ax_positlon_enbedd ngs:131072, \"nun_htdden_layers':28, \"num_key_value_heads*:8, \"attentton_dropout\": \"eos_token_（d:12n01, \"htdden_act\":\"stlu', \"htdden_s（ze°:372, \"initializer_range*:e.92 \"internedtate_slze:8192, \"nua_attention_heads:24, \"pretratntng_tp:1, ee1.:ad11apoo \"rope_scaling\":( \"attention_blas:false, res_norn_eps:le-85 \"factor:32. \"htgh_freq_factor':4.0, \"low_freq_factor':1.9, e11.,adA1do \"ortginal_max_positlon_enbeddings:8192\n\"tle_vord_enbeddings':trd \"rope_theta':5\n\"transformers_verston':\"4.47.0*\nvocab_stze:156939\nTRL Microsoft smol?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "small code panel and compact technical text likely better handled by OCR",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "pale yellow with black sidebar and dark code panel",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 21.0,
+            "w": 11.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "Example:\nOrpheus TTS",
+            "x": 20.0,
+            "y": 20.0,
+            "w": 18.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Canopy Labs",
+            "x": 20.0,
+            "y": 39.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Llama 3.2 3B backbone\nIncreased vocab size for speech-specific tokens\nExtended context length with RoPE scaling",
+            "x": 42.0,
+            "y": 24.0,
+            "w": 34.0,
+            "h": 22.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 75.0,
+            "y": 10.0,
+            "w": 18.0,
+            "h": 67.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/gmTHs5T_YAE/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667861.2446942,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Example: Orpheus TTS",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "AIE VCanopyLabs Example: OrpheusTTS ·Llama3.23Bbackbone.Extendedcontextlength Increasedvocabsizefor speech-specifictokens withRoPEscaling \"bos_token_td':128908, \"head_din':128, ax_positlon_enbedd ngs:131072, \"nun_htdden_layers':28, \"num_key_value_heads*:8, \"attentton_dropout\": \"eos_token_（d:12n01, \"htdden_act\":\"stlu', \"htdden_s（ze°:372, \"initializer_range*:e.92 \"internedtate_slze:8192, \"nua_attention_heads:24, \"pretratntng_tp:1, ee1.:ad11apoo \"rope_scaling\":( \"attention_blas:false, res_norn_eps:le-85 \"factor:32. \"htgh_freq_factor':4.0, \"low_freq_factor':1.9, e11.,adA1do \"ortginal_max_positlon_enbeddings:8192\n\"tle_vord_enbeddings':trd \"rope_theta':5\n\"transformers_verston':\"4.47.0*\nvocab_stze:156939\nTRL Microsoft smol?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 548.64
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "AIE VCanopyLabs Example: OrpheusTTS ·Llama3.23Bbackbone.Extendedcontextlength Increasedvocabsizefor speech-specifictokens withRoPEscaling \"bos_token_td':128908, \"head_din':128, ax_positlon_enbedd ngs:131072, \"nun_htdden_layers':28, \"num_key_value_heads*:8, \"attentton_dropout\": \"eos_token_（d:12n01, \"htdden_act\":\"stlu', \"htdden_s（ze°:372, \"initializer_range*:e.92 \"internedtate_slze:8192, \"nua_attention_heads:24, \"pretratntng_tp:1, ee1.:ad11apoo \"rope_scaling\":( \"attention_blas:false, res_norn_eps:le-85 \"factor:32. \"htgh_freq_factor':4.0, \"low_freq_factor':1.9, e11.,adA1do \"ortginal_max_positlon_enbeddings:8192\n\"tle_vord_enbeddings':trd \"rope_theta':5\n\"transformers_verston':\"4.47.0*\nvocab_stze:156939\nTRL Microsoft smol?",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/gmTHs5T_YAE/slide-003.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "title_card",
+      "reject_reason": "speaker intro card",
+      "text": "Hi, I'm Philip from Baseten\nDeveloper relations at Baseten\nBased in SFBA\nFavorite voice model: Orpheus TTS",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "intro card; not worth OCR",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "pale yellow with black sidebar",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 21.0,
+            "w": 11.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "Hi, I'm Philip from Baseten",
+            "x": 31.0,
+            "y": 20.0,
+            "w": 31.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Developer relations at Baseten\nBased in SFBA\nFavorite voice model: Orpheus TTS",
+            "x": 31.0,
+            "y": 31.0,
+            "w": 32.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/gmTHs5T_YAE/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667861.214321,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Hi, I'm Philip from Baseten\nDeveloper relations at Baseten\nBased in SFBA\nFavorite voice model: Orpheus TTS",
+      "advanced_ocr": {}
+    }
+  ]
+}

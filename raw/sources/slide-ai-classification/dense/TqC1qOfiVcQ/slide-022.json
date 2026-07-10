@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code-editor screenshot with small text and sidebar; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light editor chrome",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "file tree",
+        "x": 0,
+        "y": 0,
+        "w": 28.0,
+        "h": 100
+      },
+      {
+        "role": "code",
+        "text": "TypeScript code editor",
+        "x": 28.0,
+        "y": 0,
+        "w": 72.0,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-022.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-022.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664877.8351076,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 919.12,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0056
+  }
+}

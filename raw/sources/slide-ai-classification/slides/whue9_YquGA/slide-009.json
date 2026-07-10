@@ -1,0 +1,140 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Maturity Model Stage 0 Unengaged Stage 1 Assisted Stage 2 Conversational Stage 3 Directed Stage 4 Parallel Stage 5 Autonomous",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "STAGE 3",
+        "x": 8.0,
+        "y": 13.0,
+        "w": 8.0,
+        "h": 3.0
+      },
+      {
+        "role": "title",
+        "text": "AI Maturity Model",
+        "x": 8.0,
+        "y": 28.0,
+        "w": 48.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 0",
+        "x": 5.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Unengaged",
+        "x": 5.0,
+        "y": 66.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 1",
+        "x": 20.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Assisted",
+        "x": 20.0,
+        "y": 66.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 2",
+        "x": 35.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Conversational",
+        "x": 35.0,
+        "y": 66.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 3",
+        "x": 52.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Directed",
+        "x": 52.0,
+        "y": 66.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 4",
+        "x": 67.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Parallel",
+        "x": 67.0,
+        "y": 66.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 5",
+        "x": 82.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Autonomous",
+        "x": 82.0,
+        "y": 66.0,
+        "w": 14.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/whue9_YquGA/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672635.3290908,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Maturity Model Stage 0 Unengaged Stage 1 Assisted Stage 2 Conversational Stage 3 Directed Stage 4 Parallel Stage 5 Autonomous",
+  "advanced_ocr": {}
+}

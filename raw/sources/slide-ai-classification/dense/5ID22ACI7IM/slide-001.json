@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The problem:\naccess ≠ understanding\n- We connect agents to code, logs, docs, tickets, and more...\n- Which gives us plausible output that often compiles...\n- But it fails human review and real world expectations.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "off-white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The problem: access ≠ understanding",
+        "x": 5.0,
+        "y": 31.0,
+        "w": 38.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "We connect agents to code, logs, docs, tickets, and more...",
+        "x": 5.0,
+        "y": 47.0,
+        "w": 44.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "",
+        "x": 50.0,
+        "y": 19.0,
+        "w": 40.0,
+        "h": 42.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/5ID22ACI7IM/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657558.4103498,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The problem:\naccess ≠ understanding\n- We connect agents to code, logs, docs, tickets, and more...\n- Which gives us plausible output that often compiles...\n- But it fails human review and real world expectations.",
+  "advanced_ocr": {}
+}

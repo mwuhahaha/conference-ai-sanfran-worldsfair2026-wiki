@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "“Small and Good Enough” Model\nSAGE Model",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "solid deep purple",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "“Small and Good Enough” Model",
+        "x": 36.0,
+        "y": 37.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "SAGE Model",
+        "x": 37.0,
+        "y": 47.0,
+        "w": 25.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-022.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-022.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668188.1616304,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "“Small and Good Enough” Model\nSAGE Model",
+  "advanced_ocr": {}
+}

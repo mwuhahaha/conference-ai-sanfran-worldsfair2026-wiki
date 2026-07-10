@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Manufact WHATWEBUILD\nOpen-source SDKs and dev tools for MCP\nmcp-use to build Inspector to test Manufact to ship\n8M+ OOWNLOADS lOk Githu& Stars GITHUB.\nMANUFACT.COM",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram/product slide with multiple small labels and embedded screenshots; OCR will likely capture them more reliably than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Open-source SDKs and dev tools for MCP",
+        "x": 4.0,
+        "y": 8.0,
+        "w": 55.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "mcp-use to build",
+        "x": 4.0,
+        "y": 44.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Inspector to test",
+        "x": 36.0,
+        "y": 44.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Manufact to ship",
+        "x": 67.0,
+        "y": 44.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "8M+ downloads",
+        "x": 4.0,
+        "y": 82.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "10k github stars",
+        "x": 18.0,
+        "y": 82.0,
+        "w": 18.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/sAOBXCDiDOs/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671576.4543033,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Open-source SDKs and dev tools for MCP",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Manufact WHATWEBUILD\nOpen-source SDKs and dev tools for MCP\nmcp-use to build Inspector to test Manufact to ship\n8M+ OOWNLOADS lOk Githu& Stars GITHUB.\nMANUFACT.COM",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 295.84
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Manufact WHATWEBUILD\nOpen-source SDKs and dev tools for MCP\nmcp-use to build Inspector to test Manufact to ship\n8M+ OOWNLOADS lOk Githu& Stars GITHUB.\nMANUFACT.COM",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

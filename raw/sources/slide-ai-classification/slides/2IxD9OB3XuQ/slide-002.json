@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Humans learn from experience. Agents should too.\nContinual Learning Loop: act → get feedback → improve without forgetting",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Humans learn from experience. Agents should too.",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 78.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent",
+        "x": 46.0,
+        "y": 28.0,
+        "w": 10.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "World",
+        "x": 46.0,
+        "y": 50.0,
+        "w": 10.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "feedback",
+        "x": 26.0,
+        "y": 53.0,
+        "w": 11.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "act",
+        "x": 66.0,
+        "y": 52.0,
+        "w": 8.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Continual Learning Loop:\nact → get feedback → improve without forgetting",
+        "x": 24.0,
+        "y": 81.0,
+        "w": 52.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655724.6587791,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Humans learn from experience. Agents should too.\nContinual Learning Loop: act → get feedback → improve without forgetting",
+  "advanced_ocr": {}
+}

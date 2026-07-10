@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "demo_video",
+  "reject_reason": "Non-slide demo interstitial with only a demo label on a black screen.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Non-slide demo interstitial.",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": []
+  },
+  "image_index": 7,
+  "filename": "slide-023.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-023.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659324.067832,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How agentic are our agents? LLMCA Ovtput2 LLMCHF\nOetsot: Cate\nFai Cxit\nMany agents are pipelines Low degree of autonomy Pipelines\nWinning apps = tight feedback loops (mostly) Non-trivial engineering required LLM CalI Router LLMCAE1 LLMCall2\nO IDEs (Cursor,Windsurf,Replit) LLMCall3\nO Betterathard Q&A\nNot many agents“do stuff\"for 10+min\nO Devin,Operator,Deep Research Actioo\nHowdowemakemoreof these? Human LLMCall Environment\nJustwait forbetter models?\nClassical RL = optimize agent policy Stop Feedback Agents\n(Anthropic)",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Text-heavy slide with multiple small diagrams and labels that are suitable for OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f2f2f2",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How agentic are our agents?",
+        "x": 4.0,
+        "y": 3.0,
+        "w": 50.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Many agents are pipelines\nWinning apps = tight feedback loops (mostly)\nNot many agents \"do stuff\" for 10+ min\nClassical RL = optimize agent policy",
+        "x": 4.0,
+        "y": 14.0,
+        "w": 48.0,
+        "h": 74.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pipelines\nAgents",
+        "x": 63.0,
+        "y": 11.0,
+        "w": 30.0,
+        "h": 74.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/JIsgyk0Paic/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660941.2897103,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "How agentic are our agents?",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "How agentic are our agents? LLMCA Ovtput2 LLMCHF\nOetsot: Cate\nFai Cxit\nMany agents are pipelines Low degree of autonomy Pipelines\nWinning apps = tight feedback loops (mostly) Non-trivial engineering required LLM CalI Router LLMCAE1 LLMCall2\nO IDEs (Cursor,Windsurf,Replit) LLMCall3\nO Betterathard Q&A\nNot many agents“do stuff\"for 10+min\nO Devin,Operator,Deep Research Actioo\nHowdowemakemoreof these? Human LLMCall Environment\nJustwait forbetter models?\nClassical RL = optimize agent policy Stop Feedback Agents\n(Anthropic)",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 837.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "How agentic are our agents? LLMCA Ovtput2 LLMCHF\nOetsot: Cate\nFai Cxit\nMany agents are pipelines Low degree of autonomy Pipelines\nWinning apps = tight feedback loops (mostly) Non-trivial engineering required LLM CalI Router LLMCAE1 LLMCall2\nO IDEs (Cursor,Windsurf,Replit) LLMCall3\nO Betterathard Q&A\nNot many agents“do stuff\"for 10+min\nO Devin,Operator,Deep Research Actioo\nHowdowemakemoreof these? Human LLMCall Environment\nJustwait forbetter models?\nClassical RL = optimize agent policy Stop Feedback Agents\n(Anthropic)",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

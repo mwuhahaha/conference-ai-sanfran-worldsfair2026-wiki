@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "SFT warmup + small models = fun on just a few GPUs\nPRumeintllet CreatenewGPU Cluster\nAIE results=vf_env.evaluate( client=client, model=model_nane, sompling_args=sonpling_args, 200 141 Ga DO N100 B0 C Ala 00NS\nnum_saeples=nun_sanples 12.14\nhub_odel_id\"0wen2.5-7B-Math-Python-SFT\", A100 0028\n公\nPCxSOM 1MS\ntrainer=SfTrainer( nodel=nodel,\nargseargs,\ntrain_dataset=datasettype:icnore\nGH200 A100\ntrainer.train() 6) (/\n入7, 344\nMicrosoft smol ai",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Content slide with code on the left and a product UI screenshot on the right; OCR will likely outperform manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg,#000 0 18%,#f3ead4 18% 100%)",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 14.0,
+        "w": 9.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "SFT warmup + small models = fun on just a few GPUs",
+        "x": 20.0,
+        "y": 1.0,
+        "w": 64.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "results = vf_env.evaluate(\nclient=client,\nmodel=model_name,\nsampling_args=sampling_args,\nnum_samples=num_samples",
+        "x": 22.0,
+        "y": 19.0,
+        "w": 29.0,
+        "h": 28.0
+      },
+      {
+        "role": "caption",
+        "text": "Create new GPU Cluster",
+        "x": 58.0,
+        "y": 13.0,
+        "w": 28.0,
+        "h": 16.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft smol.ai",
+        "x": 50.0,
+        "y": 88.0,
+        "w": 28.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/PbHm2qKnu10/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662519.0702932,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "SFT warmup + small models = fun on just a few GPUs",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "SFT warmup + small models = fun on just a few GPUs\nPRumeintllet CreatenewGPU Cluster\nAIE results=vf_env.evaluate( client=client, model=model_nane, sompling_args=sonpling_args, 200 141 Ga DO N100 B0 C Ala 00NS\nnum_saeples=nun_sanples 12.14\nhub_odel_id\"0wen2.5-7B-Math-Python-SFT\", A100 0028\n公\nPCxSOM 1MS\ntrainer=SfTrainer( nodel=nodel,\nargseargs,\ntrain_dataset=datasettype:icnore\nGH200 A100\ntrainer.train() 6) (/\n入7, 344\nMicrosoft smol ai",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 555.48
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "SFT warmup + small models = fun on just a few GPUs\nPRumeintllet CreatenewGPU Cluster\nAIE results=vf_env.evaluate( client=client, model=model_nane, sompling_args=sonpling_args, 200 141 Ga DO N100 B0 C Ala 00NS\nnum_saeples=nun_sanples 12.14\nhub_odel_id\"0wen2.5-7B-Math-Python-SFT\", A100 0028\n公\nPCxSOM 1MS\ntrainer=SfTrainer( nodel=nodel,\nargseargs,\ntrain_dataset=datasettype:icnore\nGH200 A100\ntrainer.train() 6) (/\n入7, 344\nMicrosoft smol ai",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

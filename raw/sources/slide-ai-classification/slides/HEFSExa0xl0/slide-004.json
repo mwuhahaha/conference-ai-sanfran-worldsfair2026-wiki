@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "One dead end\nThree specialized agents:\n1. Block discovery – identifies workbook structure\n2. Edit agent – 5-step process: disambiguate, define end state, plan, execute, verify\n3. Question agent – answers questions\nKey finding: Rigid architectures don't win",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Readable simple slide; no OCR needed.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with dark green panel",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 13.0,
+        "h": 17.0
+      },
+      {
+        "role": "title",
+        "text": "One dead end",
+        "x": 29.0,
+        "y": 4.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Three specialized agents:\n1. Block discovery – identifies workbook structure\n2. Edit agent – 5-step process: disambiguate, define end state, plan, execute, verify\n3. Question agent – answers questions\nKey finding: Rigid architectures don't win",
+        "x": 29.0,
+        "y": 15.0,
+        "w": 50.0,
+        "h": 39.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 57.0,
+        "y": 83.0,
+        "w": 24.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/HEFSExa0xl0/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659399.4002142,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "One dead end\nThree specialized agents:\n1. Block discovery – identifies workbook structure\n2. Edit agent – 5-step process: disambiguate, define end state, plan, execute, verify\n3. Question agent – answers questions\nKey finding: Rigid architectures don't win",
+  "advanced_ocr": {}
+}

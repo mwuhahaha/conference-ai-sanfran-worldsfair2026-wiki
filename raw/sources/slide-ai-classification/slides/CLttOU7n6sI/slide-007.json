@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "So, we naturally swapped in a coding agent\nGives the agent the ability to delight\nThe agent can find clever ways to solve underspecified problems, create fancy visualizations, and answer related questions",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f7f2e8",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "So, we naturally swapped in a coding agent",
+        "x": 5.0,
+        "y": 8.0,
+        "w": 60.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Gives the agent the ability to delight",
+        "x": 5.0,
+        "y": 39.0,
+        "w": 26.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "The agent can find clever ways to solve underspecified problems, create fancy visualizations, and answer related questions",
+        "x": 5.0,
+        "y": 57.0,
+        "w": 28.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/CLttOU7n6sI/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659155.9385388,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "So, we naturally swapped in a coding agent\nGives the agent the ability to delight\nThe agent can find clever ways to solve underspecified problems, create fancy visualizations, and answer related questions",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,130 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server Cloud, APls, mobile Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nMcKsay&Comgany\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense slide plus lower-third title card and sponsor footer; OCR is better than manual transcription here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal with white lower-third banner",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "New technologies have given rise to new software dev methodologies",
+        "x": 23.0,
+        "y": 4.0,
+        "w": 62.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pre-2000s   2000s   2010s   2020s",
+        "x": 37.0,
+        "y": 12.0,
+        "w": 45.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tech breakthrough",
+        "x": 26.0,
+        "y": 19.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Software dev methodologies",
+        "x": 26.0,
+        "y": 42.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram",
+        "text": "timeline, labels, and three images",
+        "x": 28.0,
+        "y": 28.0,
+        "w": 67.0,
+        "h": 49.0
+      },
+      {
+        "role": "caption",
+        "text": "AIE / LEAD",
+        "x": 5.0,
+        "y": 82.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "PRESENTED BY Google DeepMind",
+        "x": 5.0,
+        "y": 90.0,
+        "w": 17.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+        "x": 25.0,
+        "y": 84.0,
+        "w": 65.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "MARTIN HARRYSSON",
+        "x": 25.0,
+        "y": 91.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "NATASHA MANIAR",
+        "x": 50.0,
+        "y": 91.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "McKinsey & Company",
+        "x": 74.0,
+        "y": 88.0,
+        "w": 16.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-004.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663432.2603812,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server Cloud, APls, mobile Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nMcKsay&Comgany\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 663.96
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server Cloud, APls, mobile Al coding assistants\nmethodologies Software dev Waterfall Agile dev platform dev Product and Al-native dev\nMcKsay&Comgany\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

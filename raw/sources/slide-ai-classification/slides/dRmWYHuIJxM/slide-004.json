@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Where your tokens actually go\n90% is input\nOutput compression\n= ~8% off total bill\nInput retrieval\n= ~61% off total bill",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "WHY INPUT MATTERS",
+        "x": 5.0,
+        "y": 7.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Where your tokens actually go",
+        "x": 25.0,
+        "y": 12.0,
+        "w": 50.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "90%\nis input",
+        "x": 11.0,
+        "y": 37.0,
+        "w": 31.0,
+        "h": 25.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Input tokens (file reads, search, context)\nOutput tokens (agent replies, code)",
+        "x": 11.0,
+        "y": 76.0,
+        "w": 31.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Output compression\nSaves 75% of output tokens\n= ~8% off total bill",
+        "x": 49.0,
+        "y": 29.0,
+        "w": 45.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "Input retrieval\nSaves 94% of input tokens\n= ~61% off total bill",
+        "x": 49.0,
+        "y": 55.0,
+        "w": 45.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/dRmWYHuIJxM/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667285.6917906,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Where your tokens actually go\n90% is input\nOutput compression\n= ~8% off total bill\nInput retrieval\n= ~61% off total bill",
+  "advanced_ocr": {}
+}

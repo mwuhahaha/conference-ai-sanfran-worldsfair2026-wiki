@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Rubric engineering\n- An accessible way to steer RL algorithms\n- Invites creativity + experimentation\n- Anecdotally, seems to help\n- The next \"prompt engineering\"?\n- Next steps:\n  - Using LLMs to design rubrics?\n  - Auto-tuning rubrics with DSPy?\n  - Incorporating LLM judges for soft criteria?\n  - Avoiding reward hacking?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Rubric engineering",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 31.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "- An accessible way to steer RL algorithms\n- Invites creativity + experimentation\n- Anecdotally, seems to help\n- The next \"prompt engineering\"?\n- Next steps:\n  - Using LLMs to design rubrics?\n  - Auto-tuning rubrics with DSPy?\n  - Incorporating LLM judges for soft criteria?\n  - Avoiding reward hacking?",
+        "x": 5.0,
+        "y": 17.0,
+        "w": 43.0,
+        "h": 72.0
+      },
+      {
+        "role": "code",
+        "text": "Reward functions",
+        "x": 61.0,
+        "y": 5.0,
+        "w": 17.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "rubric engineering is the new prompt engineering",
+        "x": 7.0,
+        "y": 80.0,
+        "w": 34.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/JIsgyk0Paic/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661511.118821,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Rubric engineering\n- An accessible way to steer RL algorithms\n- Invites creativity + experimentation\n- Anecdotally, seems to help\n- The next \"prompt engineering\"?\n- Next steps:\n  - Using LLMs to design rubrics?\n  - Auto-tuning rubrics with DSPy?\n  - Incorporating LLM judges for soft criteria?\n  - Avoiding reward hacking?",
+  "advanced_ocr": {}
+}

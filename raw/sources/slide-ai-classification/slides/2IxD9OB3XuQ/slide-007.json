@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Three layers to improve the agent\n\nModel\nupdate the weights\nSFT · RL post-training\nmost expensive\n\nHarness\nedit prompts, skills, tools, code\nGEPA · trace-to-harness\nmost flexible\n\nMemory\nstore facts and learned skills\nLetta · mem0 · consolidation\ncheapest\n\nA good learning engine asks for the smallest durable change at the right layer",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "small multi-row diagram text and labels",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Three layers to improve the agent",
+        "x": 4.0,
+        "y": 3.0,
+        "w": 54.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model\nupdate the weights",
+        "x": 5.0,
+        "y": 18.0,
+        "w": 22.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "SFT · RL post-training",
+        "x": 39.0,
+        "y": 18.0,
+        "w": 27.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "most expensive",
+        "x": 84.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Harness\nedit prompts, skills, tools, code",
+        "x": 5.0,
+        "y": 38.0,
+        "w": 27.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "GEPA · trace-to-harness",
+        "x": 39.0,
+        "y": 39.0,
+        "w": 29.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "most flexible",
+        "x": 84.0,
+        "y": 39.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Memory\nstore facts and learned skills",
+        "x": 5.0,
+        "y": 58.0,
+        "w": 28.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Letta · mem0 · consolidation",
+        "x": 39.0,
+        "y": 59.0,
+        "w": 31.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "cheapest",
+        "x": 85.0,
+        "y": 59.0,
+        "w": 10.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656179.2404237,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Three layers to improve the agent",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Three layers to improve the agent\nModel update theweights SFT · RL post-training mostexpe\nHarness\nedit prompts,skills,tools,code GEPA:trace-to-harness most化\nMemory\nstorefacts and leamed skills Lettamem0:consolidation che\nA good learning engine asks for the smallest durable change at the right Ia",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 505.64
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Three layers to improve the agent\n\nModel\nupdate the weights\nSFT · RL post-training\nmost expensive\n\nHarness\nedit prompts, skills, tools, code\nGEPA · trace-to-harness\nmost flexible\n\nMemory\nstore facts and learned skills\nLetta · mem0 · consolidation\ncheapest\n\nA good learning engine asks for the smallest durable change at the right layer",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for obvious errors: weights, learned, Letta, most expensive/flexible/cheapest; completed the final word as 'layer' from the visible context."
+  }
+}

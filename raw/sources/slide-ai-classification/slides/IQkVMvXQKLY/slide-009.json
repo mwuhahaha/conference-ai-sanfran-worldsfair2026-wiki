@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "HOW WE SCORE IT\nIs one feature a clean detector?\nWe score each feature with one number — it rewards catching triggers and punishes false alarms.\n\nBIS = F1 × (1 - FPR)\nharmonic mean of precision & recall, scaled down by false alarms · BIS ∈ [0,1]\n\nPrecision    when it fires, is it really a trigger?\nRecall       of all triggers, how many does it catch?\nFPR          how often does it fire on benign inputs?\n\nHow we read it\n• Threshold each feature at its 95th-percentile activation\n• Report only the single best feature — no fishing\n• Bootstrap for confidence intervals\n• BIS = 1.0 would be a perfect, clean detector\n\nYour LLM Deception Monitor Is Broken    What the score means",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Formula, metric definitions, and side panel text are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "HOW WE SCORE IT\nIs one feature a clean detector?",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 58.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "We score each feature with one number — it rewards catching triggers and punishes false alarms.",
+        "x": 4.0,
+        "y": 20.0,
+        "w": 86.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "BIS = F1 × (1 - FPR)",
+        "x": 4.0,
+        "y": 31.0,
+        "w": 57.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "How we read it\nThreshold each feature at its 95th-percentile activation\nReport only the single best feature — no fishing\nBootstrap for confidence intervals\nBIS = 1.0 would be a perfect, clean detector",
+        "x": 64.0,
+        "y": 31.0,
+        "w": 32.0,
+        "h": 50.0
+      },
+      {
+        "role": "body",
+        "text": "Precision\nwhen it fires, is it really a trigger?",
+        "x": 4.0,
+        "y": 57.0,
+        "w": 57.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Recall\nof all triggers, how many does it catch?",
+        "x": 4.0,
+        "y": 67.0,
+        "w": 57.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "FPR\nhow often does it fire on benign inputs?",
+        "x": 4.0,
+        "y": 77.0,
+        "w": 57.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/IQkVMvXQKLY/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660619.645277,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Hou he score.It\nIs one feature a clean detector?\nWe score each feature with one number - it rewards catching triggers and punishes false aiarms.\nBIS= F1 ×（ 1.-FPR) harmonic meon of preaiston & recoll scaled down by fotse glarms: Bis E [o. 1] How we read it:\nactivatlon'. Threshold each feature at its 9sth-percentile\nPreciston: when it fires, Is it reoly a trigger? Report only the single best feature — no fishing\n: Bootstrap for confldence intervals\nRecall. Of all triggers, how mony does it catch? 8is 1.o would be a perfect, clean detector\nFPR: how oftcn does it fire on benign Inputs?.\nYour LM Cetptlon Montor h Brolen Whuat the score mears 10 / 17",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 947.28
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "HOW WE SCORE IT\nIs one feature a clean detector?\nWe score each feature with one number — it rewards catching triggers and punishes false alarms.\n\nBIS = F1 × (1 - FPR)\nharmonic mean of precision & recall, scaled down by false alarms · BIS ∈ [0,1]\n\nPrecision    when it fires, is it really a trigger?\nRecall       of all triggers, how many does it catch?\nFPR          how often does it fire on benign inputs?\n\nHow we read it\n• Threshold each feature at its 95th-percentile activation\n• Report only the single best feature — no fishing\n• Bootstrap for confidence intervals\n• BIS = 1.0 would be a perfect, clean detector\n\nYour LLM Deception Monitor Is Broken    What the score means",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for obvious errors and punctuation; accepted the slide text as readable."
+  }
+}

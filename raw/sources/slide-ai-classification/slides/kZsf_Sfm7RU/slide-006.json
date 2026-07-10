@@ -1,0 +1,138 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The ciosed toop\nProduction Sessions traces Loys: & Trajectary. code pa.th sis\nNext'fix pommoa revev.+ merye: ·Humon PR rever Pull cequest (lognontor)\nterate wtl reay\nThe agents watch and draft. The human decides.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with many labeled boxes and arrows is OCR-suitable; only the short title is extracted directly here.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "THE CLOSED LOOP",
+        "x": 6.0,
+        "y": 4.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Production sessions",
+        "x": 6.0,
+        "y": 24.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Logs & traces",
+        "x": 25.0,
+        "y": 24.0,
+        "w": 15.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Trajectory",
+        "x": 44.0,
+        "y": 24.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Code path",
+        "x": 63.0,
+        "y": 24.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Diagnosis",
+        "x": 82.0,
+        "y": 24.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pull request (logmonitor)",
+        "x": 82.0,
+        "y": 58.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "PR review agent",
+        "x": 62.0,
+        "y": 58.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Human review + merge",
+        "x": 43.0,
+        "y": 58.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Dashboard",
+        "x": 25.0,
+        "y": 58.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Next fix",
+        "x": 6.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "The agents watch and draft. The human decides.",
+        "x": 28.0,
+        "y": 86.0,
+        "w": 44.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669559.00604,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "The closed loop",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "The ciosed toop\nProduction Sessions traces Loys: & Trajectary. code pa.th sis\nNext'fix pommoa revev.+ merye: ·Humon PR rever Pull cequest (lognontor)\nterate wtl reay\nThe agents watch and draft. The human decides.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 406.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "The ciosed toop\nProduction Sessions traces Loys: & Trajectary. code pa.th sis\nNext'fix pommoa revev.+ merye: ·Humon PR rever Pull cequest (lognontor)\nterate wtl reay\nThe agents watch and draft. The human decides.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

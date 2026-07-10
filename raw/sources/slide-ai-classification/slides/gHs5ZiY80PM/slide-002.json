@@ -1,0 +1,95 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Diffusion models: What & Why",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense bullets and small diagram labels are better handled by OCR than manual vision transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black left sidebar",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 20.0,
+        "w": 12.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "Diffusion models: What & Why",
+        "x": 31.0,
+        "y": 4.0,
+        "w": 38.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "The dominant architecture for image and video generation",
+        "x": 35.0,
+        "y": 10.0,
+        "w": 42.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Generate images/video by iteratively denoising from random noise",
+        "x": 32.0,
+        "y": 22.0,
+        "w": 46.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pure Noise (t=T)",
+        "x": 27.0,
+        "y": 76.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Partial Denoise (t=T/2)",
+        "x": 52.0,
+        "y": 76.0,
+        "w": 21.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Clean Output (t=0)",
+        "x": 78.0,
+        "y": 76.0,
+        "w": 17.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/gHs5ZiY80PM/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667662.3506155,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Diffusion models: What & Why",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 971.56,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0041
+  }
+}

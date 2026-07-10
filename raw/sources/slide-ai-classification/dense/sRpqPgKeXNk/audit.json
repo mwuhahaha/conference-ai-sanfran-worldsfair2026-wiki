@@ -1,0 +1,506 @@
+{
+  "video_id": "sRpqPgKeXNk",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 6,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.88,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Mixed slide with small labels, screenshots, and dense text; OCR will be more reliable than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black stage strip on left and bottom",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Artificial Analysis is a leading independent AI benchmarking company",
+            "x": 23.0,
+            "y": 1.0,
+            "w": 72.0,
+            "h": 11.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Benchmarking Coverage",
+            "x": 24.0,
+            "y": 14.0,
+            "w": 33.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Website & Reports",
+            "x": 63.0,
+            "y": 14.0,
+            "w": 31.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Intelligence\nSpeed\nCost",
+            "x": 27.0,
+            "y": 22.0,
+            "w": 27.0,
+            "h": 20.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Surveys & Market analysis\nAPI Providers\nHardware\nSpeech\nVideo\nImage",
+            "x": 25.0,
+            "y": 42.0,
+            "w": 32.0,
+            "h": 36.0
+          },
+          {
+            "role": "body",
+            "text": "Website hosting benchmarks of >150 models, >800 API endpoints & more\nhttps://artificialanalysis.ai/\n- In-depth reports, for enterprises and the wider community\n- Custom benchmarking",
+            "x": 63.0,
+            "y": 25.0,
+            "w": 34.0,
+            "h": 50.0
+          },
+          {
+            "role": "logo",
+            "text": "Artificial Analysis",
+            "x": 86.0,
+            "y": 88.0,
+            "w": 11.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/sRpqPgKeXNk/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671813.63734,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 586.48,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/sRpqPgKeXNk/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "their latest reasoning models, followed closely by other labs\nArtificlol Analysis Intolligonce Index (incorporates MMLU-Pra, GPQA, Humanity's Last Exam, LivoCodeBench, SciCoda, AIME, MATH-500) Leading Large Language Model (LLMs), by Al lab\nA Artlflctal Analysts\n70 02 68 68 67 64 2 9 5 3 53 51 42 41\n(high) G x sndd A\\ 2358 Reasonin 9 2 AI Llama 8 P M ews.\nSourco: Artiticint Anotysis indopondont benchmarking A Artificlal Analysis",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense chart slide with many small labels and bars; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Frontier Intelligence: OpenAI, Google, DeepSeek and xAI lead frontier intelligence with their latest reasoning models, followed closely by other labs",
+            "x": 2.0,
+            "y": 0,
+            "w": 96.0,
+            "h": 11.0
+          },
+          {
+            "role": "title",
+            "text": "Leading Large Language Model (LLMs), by AI lab",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 48.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Artificial Analysis Intelligence Index (incorporates MMLU-Pro, GPQA, Humanity's Last Exam, LiveCodeBench, SciCode, AIME, MATH-500)",
+            "x": 4.0,
+            "y": 21.0,
+            "w": 78.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/sRpqPgKeXNk/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671822.6151967,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "their latest reasoning models, followed closely by other labs\nArtificlol Analysis Intolligonce Index (incorporates MMLU-Pra, GPQA, Humanity's Last Exam, LivoCodeBench, SciCoda, AIME, MATH-500) Leading Large Language Model (LLMs), by Al lab\nA Artlflctal Analysts\n70 02 68 68 67 64 2 9 5 3 53 51 42 41\n(high) G x sndd A\\ 2358 Reasonin 9 2 AI Llama 8 P M ews.\nSourco: Artiticint Anotysis indopondont benchmarking A Artificlal Analysis",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 550.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "their latest reasoning models, followed closely by other labs\nArtificlol Analysis Intolligonce Index (incorporates MMLU-Pra, GPQA, Humanity's Last Exam, LivoCodeBench, SciCoda, AIME, MATH-500) Leading Large Language Model (LLMs), by Al lab\nA Artlflctal Analysts\n70 02 68 68 67 64 2 9 5 3 53 51 42 41\n(high) G x sndd A\\ 2358 Reasonin 9 2 AI Llama 8 P M ews.\nSourco: Artiticint Anotysis indopondont benchmarking A Artificlal Analysis",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/sRpqPgKeXNk/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "a helpful framework for understanding today's model landscape Reasoning models: Treating reasoning & non-reasoning models as distinct categories is\nIntelligence vs. Output Tokens Used to Run Artificial Analysis Intelligence Index\nArtifciel Analysis fnteligence Index (Version 2, released Feb 25),. Output Tokens Used (~5M input tokens)\nMost attractive quadrant\nArtificlal Analysis Intelligence Index 75 - 55 8- 35 - 45 59 60 40 Prerler Non-Reasoning Models Zora Mistrdl Large GPI-4.1- 2 (Noy 24) [Nor 24) GPT-40 GPT-4.1 mini Grok3 Gamm3 278 DeepSeeck V3:0324 Maverick Lama4 Llama 4 Roasoning Nemotron: Uiua 2538 Lema 3.1. α-mn (high) Reasoning Models DoepSeek R1 Gomini 2.3 Pro A Artlficll Arulysls Grck 3 mint Ressonlng (high) (uuonoog) Gemin 2.5 Clsude 3.7: aupurul Sonnet Fash.\n4u Cutput Tokons Used In Artificlal Analysls Inteillgonce Indox (Log Scale) 2014 30H HOO!\nA Artlflclal Analysls",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Scatterplot/diagram with dense labels and small text; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Reasoning models: Treating reasoning & non-reasoning models as distinct categories is a helpful framework for understanding today’s model landscape",
+            "x": 2.0,
+            "y": 0,
+            "w": 96.0,
+            "h": 11.0
+          },
+          {
+            "role": "title",
+            "text": "Intelligence vs. Output Tokens Used to Run Artificial Analysis Intelligence Index",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 62.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Artificial Analysis Intelligence Index (Version 2, released Feb 25), Output Tokens Used (~5M input tokens)",
+            "x": 4.0,
+            "y": 21.0,
+            "w": 74.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Non-Reasoning Models",
+            "x": 14.0,
+            "y": 49.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Reasoning Models",
+            "x": 56.0,
+            "y": 74.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/sRpqPgKeXNk/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671837.4353788,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "a helpful framework for understanding today's model landscape Reasoning models: Treating reasoning & non-reasoning models as distinct categories is\nIntelligence vs. Output Tokens Used to Run Artificial Analysis Intelligence Index\nArtifciel Analysis fnteligence Index (Version 2, released Feb 25),. Output Tokens Used (~5M input tokens)\nMost attractive quadrant\nArtificlal Analysis Intelligence Index 75 - 55 8- 35 - 45 59 60 40 Prerler Non-Reasoning Models Zora Mistrdl Large GPI-4.1- 2 (Noy 24) [Nor 24) GPT-40 GPT-4.1 mini Grok3 Gamm3 278 DeepSeeck V3:0324 Maverick Lama4 Llama 4 Roasoning Nemotron: Uiua 2538 Lema 3.1. α-mn (high) Reasoning Models DoepSeek R1 Gomini 2.3 Pro A Artlficll Arulysls Grck 3 mint Ressonlng (high) (uuonoog) Gemin 2.5 Clsude 3.7: aupurul Sonnet Fash.\n4u Cutput Tokons Used In Artificlal Analysls Inteillgonce Indox (Log Scale) 2014 30H HOO!\nA Artlflclal Analysls",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1068.8
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "a helpful framework for understanding today's model landscape Reasoning models: Treating reasoning & non-reasoning models as distinct categories is\nIntelligence vs. Output Tokens Used to Run Artificial Analysis Intelligence Index\nArtifciel Analysis fnteligence Index (Version 2, released Feb 25),. Output Tokens Used (~5M input tokens)\nMost attractive quadrant\nArtificlal Analysis Intelligence Index 75 - 55 8- 35 - 45 59 60 40 Prerler Non-Reasoning Models Zora Mistrdl Large GPI-4.1- 2 (Noy 24) [Nor 24) GPT-40 GPT-4.1 mini Grok3 Gamm3 278 DeepSeeck V3:0324 Maverick Lama4 Llama 4 Roasoning Nemotron: Uiua 2538 Lema 3.1. α-mn (high) Reasoning Models DoepSeek R1 Gomini 2.3 Pro A Artlficll Arulysls Grck 3 mint Ressonlng (high) (uuonoog) Gemin 2.5 Clsude 3.7: aupurul Sonnet Fash.\n4u Cutput Tokons Used In Artificlal Analysls Inteillgonce Indox (Log Scale) 2014 30H HOO!\nA Artlflclal Analysls",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/sRpqPgKeXNk/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "making them less suitable for latency sensitive tasks Reasoning model latency: Reasoning models are slower to provide their response,\nEnd-to-End Response Time\nSeconds to Output 5o0 Tokens, including reasoning model thinking' time; Lover is better Reasoning models\nInput processing time 'Thinking' time (reasoning models) Outputting time NON-EXHAUSTIVE\nRoasoning models typicolly take: longer to respond. A Artificiat Anatysis $20.53 106.1\n19x! 36.9 42.4 43.2: 60.4 81.\n3.3 4.3 4.5 4.7 6.3 7.7 10.9: 11.5 15.5 '12.1*...15.6 14.2! 116.41 19.5 12.7* 19.8 [20.51 28.6. 38.5 39.8\nLlama 8 Scout 8 GPT- 7 b. ayrs G G AV\nSourco: Artificiat Anelyis mdopondant bonchmurking 8 A Artiflclal Analysis",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense benchmark chart with many labels and timing values; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Reasoning model latency: Reasoning models are slower to provide their response, making them less suitable for latency sensitive tasks",
+            "x": 3.0,
+            "y": 0,
+            "w": 95.0,
+            "h": 11.0
+          },
+          {
+            "role": "title",
+            "text": "End-to-End Response Time",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Seconds to Output 500 Tokens, Including reasoning model 'thinking' time; Lower is better",
+            "x": 4.0,
+            "y": 21.0,
+            "w": 54.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Input processing time\n'Thinking' time (reasoning models)\nOutputting time",
+            "x": 4.0,
+            "y": 27.0,
+            "w": 34.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/sRpqPgKeXNk/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671880.736756,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "making them less suitable for latency sensitive tasks Reasoning model latency: Reasoning models are slower to provide their response,\nEnd-to-End Response Time\nSeconds to Output 5o0 Tokens, including reasoning model thinking' time; Lover is better Reasoning models\nInput processing time 'Thinking' time (reasoning models) Outputting time NON-EXHAUSTIVE\nRoasoning models typicolly take: longer to respond. A Artificiat Anatysis $20.53 106.1\n19x! 36.9 42.4 43.2: 60.4 81.\n3.3 4.3 4.5 4.7 6.3 7.7 10.9: 11.5 15.5 '12.1*...15.6 14.2! 116.41 19.5 12.7* 19.8 [20.51 28.6. 38.5 39.8\nLlama 8 Scout 8 GPT- 7 b. ayrs G G AV\nSourco: Artificiat Anelyis mdopondant bonchmurking 8 A Artiflclal Analysis",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 735.8
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "making them less suitable for latency sensitive tasks Reasoning model latency: Reasoning models are slower to provide their response,\nEnd-to-End Response Time\nSeconds to Output 5o0 Tokens, including reasoning model thinking' time; Lover is better Reasoning models\nInput processing time 'Thinking' time (reasoning models) Outputting time NON-EXHAUSTIVE\nRoasoning models typicolly take: longer to respond. A Artificiat Anatysis $20.53 106.1\n19x! 36.9 42.4 43.2: 60.4 81.\n3.3 4.3 4.5 4.7 6.3 7.7 10.9: 11.5 15.5 '12.1*...15.6 14.2! 116.41 19.5 12.7* 19.8 [20.51 28.6. 38.5 39.8\nLlama 8 Scout 8 GPT- 7 b. ayrs G G AV\nSourco: Artificiat Anelyis mdopondant bonchmurking 8 A Artiflclal Analysis",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/sRpqPgKeXNk/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Today's open weights frontier is led by China-based Al labs, namely DeepSeek and Alibaba\nReasoning: Open Weights Language Models, by Country Non-reasoning: Open Weights Language Models, by Country\nArtificial Analysis lntelligence Index, leading open welghts reasoning models USA Chlna A Artificial Analysis USA Chlna E France canada A Artificial Analysis\n68\n62 61 60 59\n52 51 60 48 R 53 51 47 46 40 40 40 38 M 38\n34\nDerpSak Gwn3 Llu 3.1 DoipSt Qun32B DoopSert Llmh 33 Phl A1(Mry 235e A228 Nemolron 2024)(Raeonr0 U+ 25B Un4y Reasening '202s$ 1(lssonrg R1DhtllNemoton (resnonirg Qum ire Super 4Be Rertoning Hrto 7B PL. CttpSotk. Lm 708 A1 Dtpta Floth1 Feks V(Hr' 2S] Haverck 21S8 A228 DetaSottLemad Qm3. CUHt8Lma3uCemmnd imtruct 708 1.Tet.01278tnstruc HinMat.Gemma 3 (r2. A0H) Lonto 2 MatM\nSource: Artiricidt Annlysis Intellgerce Index A Artlflclal Analysis",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Two dense bar charts with many small labels; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Today's open weights frontier is led by China-based AI labs, namely DeepSeek and Alibaba",
+            "x": 3.0,
+            "y": 0,
+            "w": 94.0,
+            "h": 11.0
+          },
+          {
+            "role": "title",
+            "text": "Reasoning: Open Weights Language Models, by Country",
+            "x": 4.0,
+            "y": 15.0,
+            "w": 42.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Non-reasoning: Open Weights Language Models, by Country",
+            "x": 58.0,
+            "y": 15.0,
+            "w": 41.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "USA\nChina",
+            "x": 4.0,
+            "y": 21.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "USA\nCanada\nChina\nFrance",
+            "x": 58.0,
+            "y": 21.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/sRpqPgKeXNk/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671900.637438,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Today's open weights frontier is led by China-based Al labs, namely DeepSeek and Alibaba\nReasoning: Open Weights Language Models, by Country Non-reasoning: Open Weights Language Models, by Country\nArtificial Analysis lntelligence Index, leading open welghts reasoning models USA Chlna A Artificial Analysis USA Chlna E France canada A Artificial Analysis\n68\n62 61 60 59\n52 51 60 48 R 53 51 47 46 40 40 40 38 M 38\n34\nDerpSak Gwn3 Llu 3.1 DoipSt Qun32B DoopSert Llmh 33 Phl A1(Mry 235e A228 Nemolron 2024)(Raeonr0 U+ 25B Un4y Reasening '202s$ 1(lssonrg R1DhtllNemoton (resnonirg Qum ire Super 4Be Rertoning Hrto 7B PL. CttpSotk. Lm 708 A1 Dtpta Floth1 Feks V(Hr' 2S] Haverck 21S8 A228 DetaSottLemad Qm3. CUHt8Lma3uCemmnd imtruct 708 1.Tet.01278tnstruc HinMat.Gemma 3 (r2. A0H) Lonto 2 MatM\nSource: Artiricidt Annlysis Intellgerce Index A Artlflclal Analysis",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1019.4
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Today's open weights frontier is led by China-based Al labs, namely DeepSeek and Alibaba\nReasoning: Open Weights Language Models, by Country Non-reasoning: Open Weights Language Models, by Country\nArtificial Analysis lntelligence Index, leading open welghts reasoning models USA Chlna A Artificial Analysis USA Chlna E France canada A Artificial Analysis\n68\n62 61 60 59\n52 51 60 48 R 53 51 47 46 40 40 40 38 M 38\n34\nDerpSak Gwn3 Llu 3.1 DoipSt Qun32B DoopSert Llmh 33 Phl A1(Mry 235e A228 Nemolron 2024)(Raeonr0 U+ 25B Un4y Reasening '202s$ 1(lssonrg R1DhtllNemoton (resnonirg Qum ire Super 4Be Rertoning Hrto 7B PL. CttpSotk. Lm 708 A1 Dtpta Floth1 Feks V(Hr' 2S] Haverck 21S8 A228 DetaSottLemad Qm3. CUHt8Lma3uCemmnd imtruct 708 1.Tet.01278tnstruc HinMat.Gemma 3 (r2. A0H) Lonto 2 MatM\nSource: Artiricidt Annlysis Intellgerce Index A Artlflclal Analysis",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/sRpqPgKeXNk/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Cost to Run Artificial Analysis Intelligence Index\nCost(USD) to run all evaluations in the Artificial Analysis Intelligence Index (Version 2,released Feb 25, ~5M input tokens) Reasoning models\nInputCost ReasoningCost ■Output Cost NON-EXHAUSTIVE\nArtificial Analysis\n$1951 30X 650X\n$1485 $218 $1335\n$1786 $1356 S1112 $597 $627 $323 $304 $266 $319 $200 $220 $106 $76 $66 $65 $49 $17 $13 $10 $7 $3\nAI G 235B? G Reasoning Nova Premier aws ® GPT-4. ® 7 x (Mar 8 Llama 4Scout 8 nano\n3\nSourco:Artificial Analysis indopcndentbcnchmarking. Artificial Analysis",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense cost comparison chart with many labels and values; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Overall cost is a function of both cost per token and tokens per query; we now see a >500X spread in the cost to run Artificial Analysis Intelligence Index",
+            "x": 2.0,
+            "y": 0,
+            "w": 96.0,
+            "h": 11.0
+          },
+          {
+            "role": "title",
+            "text": "Cost to Run Artificial Analysis Intelligence Index",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 42.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Cost (USD) to run all evaluations in the Artificial Analysis Intelligence Index (Version 2, released Feb 25, ~5M input tokens)",
+            "x": 4.0,
+            "y": 21.0,
+            "w": 72.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Input Cost\nReasoning Cost\nOutput Cost",
+            "x": 4.0,
+            "y": 27.0,
+            "w": 24.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/sRpqPgKeXNk/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671920.1839828,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Cost to Run Artificial Analysis Intelligence Index\nCost(USD) to run all evaluations in the Artificial Analysis Intelligence Index (Version 2,released Feb 25, ~5M input tokens) Reasoning models\nInputCost ReasoningCost ■Output Cost NON-EXHAUSTIVE\nArtificial Analysis\n$1951 30X 650X\n$1485 $218 $1335\n$1786 $1356 S1112 $597 $627 $323 $304 $266 $319 $200 $220 $106 $76 $66 $65 $49 $17 $13 $10 $7 $3\nAI G 235B? G Reasoning Nova Premier aws ® GPT-4. ® 7 x (Mar 8 Llama 4Scout 8 nano\n3\nSourco:Artificial Analysis indopcndentbcnchmarking. Artificial Analysis",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 530.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Cost to Run Artificial Analysis Intelligence Index\nCost(USD) to run all evaluations in the Artificial Analysis Intelligence Index (Version 2,released Feb 25, ~5M input tokens) Reasoning models\nInputCost ReasoningCost ■Output Cost NON-EXHAUSTIVE\nArtificial Analysis\n$1951 30X 650X\n$1485 $218 $1335\n$1786 $1356 S1112 $597 $627 $323 $304 $266 $319 $200 $220 $106 $76 $66 $65 $49 $17 $13 $10 $7 $3\nAI G 235B? G Reasoning Nova Premier aws ® GPT-4. ® 7 x (Mar 8 Llama 4Scout 8 nano\n3\nSourco:Artificial Analysis indopcndentbcnchmarking. Artificial Analysis",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/sRpqPgKeXNk/slide-006.html"
+    }
+  ],
+  "rejected": []
+}

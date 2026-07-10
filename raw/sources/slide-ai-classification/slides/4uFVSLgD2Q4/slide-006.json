@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "sponsor_logo",
+  "reject_reason": "logo-only partnership slide",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "logo slide with no substantive content",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "#000000",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "OpenGov",
+        "x": 28.0,
+        "y": 15.0,
+        "w": 36.0,
+        "h": 17.0
+      },
+      {
+        "role": "logo",
+        "text": "Effect",
+        "x": 30.0,
+        "y": 74.0,
+        "w": 41.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/4uFVSLgD2Q4/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657713.2232685,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

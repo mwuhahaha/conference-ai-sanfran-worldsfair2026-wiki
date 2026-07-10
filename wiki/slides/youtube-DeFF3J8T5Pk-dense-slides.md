@@ -16,11 +16,21 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/DeFF3J8T5Pk/slide-001.jpg]]
 
-- Source scene image: `frame-00013.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.22`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/DeFF3J8T5Pk/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: none.
+- OCR decision: ready — Dense product/UI screenshot with chart, small labels, and configuration text; OCR is better than manual transcription.
+- Slide text: not surfaced (`illegible` by AI classifier).
 ![[assets/dense-slides/DeFF3J8T5Pk/slide-002.jpg]]
 
-- Source scene image: `frame-00017.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.55`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/DeFF3J8T5Pk/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+- OCR decision: ready — Dense product/UI screenshot with chart, controls, and small configuration text; OCR is better than manual transcription.
+
+Slide text:
+
+> LLM Engine Advisor
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/DeFF3J8T5Pk/audit.json`

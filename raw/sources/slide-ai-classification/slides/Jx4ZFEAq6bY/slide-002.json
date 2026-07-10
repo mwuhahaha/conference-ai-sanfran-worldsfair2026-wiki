@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What is an agent?\nAn agent is an LLM with agency: it reasons, invokes TOOLS to interact with the world, RETRIEVES from memory, and loops until the TASK is complete.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Short definition slide with large, readable text; OCR is unnecessary for this pass.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What is an agent?",
+        "x": 5.0,
+        "y": 7.0,
+        "w": 36.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "An agent is an LLM with agency: it reasons, invokes TOOLS to interact with the world, RETRIEVES from memory, and loops until the TASK is complete.",
+        "x": 10.0,
+        "y": 38.0,
+        "w": 80.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/Jx4ZFEAq6bY/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661322.716817,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What is an agent?\nAn agent is an LLM with agency: it reasons, invokes TOOLS to interact with the world, RETRIEVES from memory, and loops until the TASK is complete.",
+  "advanced_ocr": {}
+}

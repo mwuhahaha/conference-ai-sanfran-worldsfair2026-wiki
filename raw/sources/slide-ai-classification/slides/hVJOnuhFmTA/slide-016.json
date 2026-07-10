@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "O Produet roqurements revlew 1 Pauta (URaply)\nListening\nSzhuhold euea. Prodvs - Lesd. Sem Broretrg Jordan chooerg rot to sp\nFT\nTAternoon, Sam. H Jorden.\nIt joins like a teammate - and starts by listening.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with many small labels is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark navy",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Product requirements review · live",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 34.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Dana",
+        "x": 11.0,
+        "y": 9.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Sam",
+        "x": 31.0,
+        "y": 9.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Jordan",
+        "x": 50.0,
+        "y": 9.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Listening",
+        "x": 63.0,
+        "y": 9.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "choosing not to speak",
+        "x": 64.0,
+        "y": 15.0,
+        "w": 16.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668557.2191107,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "O Produet roqurements revlew 1 Pauta (URaply)\nListening\nSzhuhold euea. Prodvs - Lesd. Sem Broretrg Jordan chooerg rot to sp\nFT\nTAternoon, Sam. H Jorden.\nIt joins like a teammate - and starts by listening.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 339.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "O Produet roqurements revlew 1 Pauta (URaply)\nListening\nSzhuhold euea. Prodvs - Lesd. Sem Broretrg Jordan chooerg rot to sp\nFT\nTAternoon, Sam. H Jorden.\nIt joins like a teammate - and starts by listening.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

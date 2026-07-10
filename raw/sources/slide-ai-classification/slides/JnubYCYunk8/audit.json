@@ -1,0 +1,318 @@
+{
+  "video_id": "JnubYCYunk8",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 6,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "This browser challenge is a\nFairly simple webpage\nBut generally across webpage\nThe markdown has\n~20x token compression w.r.t DOM",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#0b0b0b",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "This browser challenge is a\nFairly simple webpage\nBut generally across webpage\nThe markdown has\n~20x token compression w.r.t DOM",
+            "x": 41.0,
+            "y": 12.0,
+            "w": 52.0,
+            "h": 30.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JnubYCYunk8/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661284.5759196,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "This browser challenge is a\nFairly simple webpage\nBut generally across webpage\nThe markdown has\n~20x token compression w.r.t DOM",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/JnubYCYunk8/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense markdown/code screenshot with small text and multiple sections.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#111111",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "3. Dismiss Hit vs Miss — Fake Close Buttons",
+            "x": 22.0,
+            "y": 26.0,
+            "w": 56.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "4. Unblocked Signal — What Becomes Accessible",
+            "x": 22.0,
+            "y": 53.0,
+            "w": 57.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "5. Failed Action → Diagnosis → Recovery",
+            "x": 22.0,
+            "y": 73.0,
+            "w": 54.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JnubYCYunk8/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661284.5765932,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/JnubYCYunk8/slide-008.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Browser demo footage with popups and an app sidebar, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Non-slide demo footage.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark browser screenshot",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JnubYCYunk8/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661171.3156633,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Desktop/file-explorer and terminal screen capture, not a readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Non-slide desktop footage.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark desktop screenshot",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JnubYCYunk8/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661171.3168244,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "demo_video",
+      "reject_reason": "Screen-recorded browser/terminal demo footage, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide; the readable UI text is part of the demo footage.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark desktop with overlapping browser windows",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "browser navigation demo",
+            "x": 56.0,
+            "y": 16.0,
+            "w": 33.0,
+            "h": 16.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "section list in browser page",
+            "x": 51.0,
+            "y": 25.0,
+            "w": 38.0,
+            "h": 55.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JnubYCYunk8/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661198.5021362,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Screen-recorded browser/UI footage with an overlaid demo message, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide; readable text appears inside the live browser demo.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark desktop with browser and side panel",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "browser demo page",
+            "x": 11.0,
+            "y": 11.0,
+            "w": 78.0,
+            "h": 82.0
+          },
+          {
+            "role": "caption",
+            "text": "overlay message",
+            "x": 24.0,
+            "y": 38.0,
+            "w": 34.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JnubYCYunk8/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661198.5025337,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "demo_video",
+      "reject_reason": "Screen-recording/demo footage with browser UI, webcam bubble, and video controls; not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide and text is embedded in live browser/demo UI rather than a clean slide.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "white webpage with dark browser chrome and a blue notification banner",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JnubYCYunk8/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661240.562076,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "demo_video",
+      "reject_reason": "Screen-share/demo footage showing Google AI Studio in a browser with tabs and side panes; not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide and the visible text belongs to the live app UI, not slide content.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark browser/app UI with black panels and small text",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JnubYCYunk8/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661240.5625446,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

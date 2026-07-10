@@ -1,0 +1,895 @@
+{
+  "video_id": "xz0-brt56L8",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 12,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "4x faster. 15% better. Production-ready.\n4x FASTER\n15% QUALITY GAIN\n6% USER SATISFACTION",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "4x faster. 15% better. Production-ready.",
+            "x": 27.0,
+            "y": 24.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "4x",
+            "x": 27.0,
+            "y": 39.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "15%",
+            "x": 42.0,
+            "y": 39.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "6%",
+            "x": 55.0,
+            "y": 39.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Manus 1.5 represents a complete re-architecture of our agent system. Tasks that took 15 minutes in April now complete in under 4 minutes. Two models serve different needs: Manus-1.5 delivers full power for complex workflows, while Manus-1.5-Lite provides cost-efficient performance for high-volume operations.",
+            "x": 27.0,
+            "y": 54.0,
+            "w": 49.0,
+            "h": 15.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672875.6447961,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "4x faster. 15% better. Production-ready.\n4x FASTER\n15% QUALITY GAIN\n6% USER SATISFACTION",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.88,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "? Cort\nWodnesdsy, Novenbor 19, 2025\n1.06 Pu\nLi dta rt que Lrt.el yi elina toaed mo ga dett cosnernertrart T Hehsha Tu e acrs (nouud ge anai Lao Lraa pue itatg pln hcly duu satey dupar Lo mnuoy\nd Shou Corricted Hertitn\nY't'tor tooiltence. Focust cn verb conlugatian prlintht srher modtr verht, corier hmse, ane iproring common eipror: Pae Y\nAioalu 't dahla mon biml C metaryt parce ou'Lraas nonbatuueukdhy I srcongr. Sepon sccompkr toutes les tlchee srent roon dtnet ce coir --\noYhou Corltitd Hrtor\nImd chooing mone nin, ihomrat phnryng. The srun srhs ior hmproyerert are prhpoulian ussge (h vt caal. corrtet vtrb conuguior (otr+ corpou!.\nAujeurhu a teal trop frold gses Nre Yet. Je wit Hu bureu lgot de Fuet ron pour tire mon tarel Je oerche 99260069560 C.tl- *2025-11-22*09:37:50*",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot with small body text and multiple cards; OCR will likely read this more reliably than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Wednesday, November 19, 2025",
+            "x": 28.0,
+            "y": 13.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Show Corrected Version",
+            "x": 30.0,
+            "y": 30.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Show Corrected Version",
+            "x": 30.0,
+            "y": 53.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Show Corrected Version",
+            "x": 30.0,
+            "y": 76.0,
+            "w": 18.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672875.6476576,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "? Cort\nWodnesdsy, Novenbor 19, 2025\n1.06 Pu\nLi dta rt que Lrt.el yi elina toaed mo ga dett cosnernertrart T Hehsha Tu e acrs (nouud ge anai Lao Lraa pue itatg pln hcly duu satey dupar Lo mnuoy\nd Shou Corricted Hertitn\nY't'tor tooiltence. Focust cn verb conlugatian prlintht srher modtr verht, corier hmse, ane iproring common eipror: Pae Y\nAioalu 't dahla mon biml C metaryt parce ou'Lraas nonbatuueukdhy I srcongr. Sepon sccompkr toutes les tlchee srent roon dtnet ce coir --\noYhou Corltitd Hrtor\nImd chooing mone nin, ihomrat phnryng. The srun srhs ior hmproyerert are prhpoulian ussge (h vt caal. corrtet vtrb conuguior (otr+ corpou!.\nAujeurhu a teal trop frold gses Nre Yet. Je wit Hu bureu lgot de Fuet ron pour tire mon tarel Je oerche 99260069560 C.tl- *2025-11-22*09:37:50*",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1255.48
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "? Cort\nWodnesdsy, Novenbor 19, 2025\n1.06 Pu\nLi dta rt que Lrt.el yi elina toaed mo ga dett cosnernertrart T Hehsha Tu e acrs (nouud ge anai Lao Lraa pue itatg pln hcly duu satey dupar Lo mnuoy\nd Shou Corricted Hertitn\nY't'tor tooiltence. Focust cn verb conlugatian prlintht srher modtr verht, corier hmse, ane iproring common eipror: Pae Y\nAioalu 't dahla mon biml C metaryt parce ou'Lraas nonbatuueukdhy I srcongr. Sepon sccompkr toutes les tlchee srent roon dtnet ce coir --\noYhou Corltitd Hrtor\nImd chooing mone nin, ihomrat phnryng. The srun srhs ior hmproyerert are prhpoulian ussge (h vt caal. corrtet vtrb conuguior (otr+ corpou!.\nAujeurhu a teal trop frold gses Nre Yet. Je wit Hu bureu lgot de Fuet ron pour tire mon tarel Je oerche 99260069560 C.tl- *2025-11-22*09:37:50*",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Long URL\nTinyURL Link",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Long URL",
+            "x": 15.0,
+            "y": 5.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "TinyURL Link",
+            "x": 16.0,
+            "y": 33.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Visit URL",
+            "x": 15.0,
+            "y": 57.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "QR",
+            "x": 36.0,
+            "y": 57.0,
+            "w": 5.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Share",
+            "x": 55.0,
+            "y": 57.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Copy",
+            "x": 79.0,
+            "y": 57.0,
+            "w": 7.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Shorten Another Link",
+            "x": 25.0,
+            "y": 82.0,
+            "w": 45.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672932.3256679,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Long URL\nTinyURL Link",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "。1 +t i ttt 114 P地 + t+tt. 1 *Lo* + Cth + Lia - O LO lt +1. C te LL + T Ae.:? Creating your first Manus Task Wetcorme io tre Drst ste in your Mne joneyi re netecoct is st sbeul peting rou handt-on wal iye Ail tm guidlly ae Dosltia, hed the the lorg iecitree erd yirg igM Tts tiu col miriur'ice c cresirg and rlruyig LaLn trog ttshr eby IPeaLnar Sign up for ar sccount mt Tnge,rLnL nd cla yur Tru At tet woulg tt' g 1 Manus APl Workshop Hlcora to te thrue APt wcna.ip. That tapotiaory brcd + touetre, h+t 1. Lh fcdalenthr Th, hetebooh colnt it cole rhthhiet et the Larus APL Tl im tm hotr to sartncCia, Crtt Letat, po lor tht mHLt, snd\n目1 W*2*** *4b sulonhhot. Tere's e ouict took et ithe: t'lt coitr. Gy te thd at aha mheor, youl hre + hoha taurclPon iar buittlg shae toced C ieh,suru, + walj mrs e iaa h aou * ram alaen ytei op atri t 4. Leverige Ceamrelny we' rnmh eh + aukh look a hew you Can ga Llan 2. Crele Teur Firt Thl: fou't ghe Larlst + wrele reructon ard lerh hor t A ar ia, + Dunna pu+ Lir rol Dupto Aa Let L+t:eunt y+hoey ' Tttrpil tle h+i ihoorh. 4oCth lo yot eit tohy, ile Hoear, te ptriarln mere corlcleu iore folt. '+yrpor so iay +a ctod Aa hohuto, sa,Irpu+d. 2. Fha Harelrg Heet yot'a trt hou to hart te hhet ih Ia Lur.s Al to ithit 1. Hebr:olt: Pohrg do+a't hent s tktle L+ra try ohcol sre + utsill Yaur sott hae ir+ da I rteoe to fhnon electyef. 11.\nLr's oat +hted. Settinn IIn Yaur Fnvirnnment L't 'Puprcot aohovoo +a se ho 1+os rus ell aod Loddg t tuaper $ Cld e deglojiote tlpport sotnt tht ctn practe Da yetotdt trem stct tnd ToBEL\n# +- n - A\nTttett, 'ttur Cl?t 'o tt Lh LF!\nt+++ +u *+ Pa *.++'! ++ ++ Or!' tta. ++ + ovt+ L+t 4 +tt +ttta\nt Cenciomen ++ Cartlla + tt 11-401m\n2..1 2025-11-22:09:49:28",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-column editor/notebook screenshot with dense small text and code-like content.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Manus API Workshop",
+            "x": 63.0,
+            "y": 5.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Creating your first Manus Task",
+            "x": 29.0,
+            "y": 12.0,
+            "w": 31.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Setting Up Your Environment",
+            "x": 31.0,
+            "y": 53.0,
+            "w": 27.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672932.326233,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Manus API Workshop\nCreating your first Manus Task",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "。1 +t i ttt 114 P地 + t+tt. 1 *Lo* + Cth + Lia - O LO lt +1. C te LL + T Ae.:? Creating your first Manus Task Wetcorme io tre Drst ste in your Mne joneyi re netecoct is st sbeul peting rou handt-on wal iye Ail tm guidlly ae Dosltia, hed the the lorg iecitree erd yirg igM Tts tiu col miriur'ice c cresirg and rlruyig LaLn trog ttshr eby IPeaLnar Sign up for ar sccount mt Tnge,rLnL nd cla yur Tru At tet woulg tt' g 1 Manus APl Workshop Hlcora to te thrue APt wcna.ip. That tapotiaory brcd + touetre, h+t 1. Lh fcdalenthr Th, hetebooh colnt it cole rhthhiet et the Larus APL Tl im tm hotr to sartncCia, Crtt Letat, po lor tht mHLt, snd\n目1 W*2*** *4b sulonhhot. Tere's e ouict took et ithe: t'lt coitr. Gy te thd at aha mheor, youl hre + hoha taurclPon iar buittlg shae toced C ieh,suru, + walj mrs e iaa h aou * ram alaen ytei op atri t 4. Leverige Ceamrelny we' rnmh eh + aukh look a hew you Can ga Llan 2. Crele Teur Firt Thl: fou't ghe Larlst + wrele reructon ard lerh hor t A ar ia, + Dunna pu+ Lir rol Dupto Aa Let L+t:eunt y+hoey ' Tttrpil tle h+i ihoorh. 4oCth lo yot eit tohy, ile Hoear, te ptriarln mere corlcleu iore folt. '+yrpor so iay +a ctod Aa hohuto, sa,Irpu+d. 2. Fha Harelrg Heet yot'a trt hou to hart te hhet ih Ia Lur.s Al to ithit 1. Hebr:olt: Pohrg do+a't hent s tktle L+ra try ohcol sre + utsill Yaur sott hae ir+ da I rteoe to fhnon electyef. 11.\nLr's oat +hted. Settinn IIn Yaur Fnvirnnment L't 'Puprcot aohovoo +a se ho 1+os rus ell aod Loddg t tuaper $ Cld e deglojiote tlpport sotnt tht ctn practe Da yetotdt trem stct tnd ToBEL\n# +- n - A\nTttett, 'ttur Cl?t 'o tt Lh LF!\nt+++ +u *+ Pa *.++'! ++ ++ Or!' tta. ++ + ovt+ L+t 4 +tt +ttta\nt Cenciomen ++ Cartlla + tt 11-401m\n2..1 2025-11-22:09:49:28",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2527.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "。1 +t i ttt 114 P地 + t+tt. 1 *Lo* + Cth + Lia - O LO lt +1. C te LL + T Ae.:? Creating your first Manus Task Wetcorme io tre Drst ste in your Mne joneyi re netecoct is st sbeul peting rou handt-on wal iye Ail tm guidlly ae Dosltia, hed the the lorg iecitree erd yirg igM Tts tiu col miriur'ice c cresirg and rlruyig LaLn trog ttshr eby IPeaLnar Sign up for ar sccount mt Tnge,rLnL nd cla yur Tru At tet woulg tt' g 1 Manus APl Workshop Hlcora to te thrue APt wcna.ip. That tapotiaory brcd + touetre, h+t 1. Lh fcdalenthr Th, hetebooh colnt it cole rhthhiet et the Larus APL Tl im tm hotr to sartncCia, Crtt Letat, po lor tht mHLt, snd\n目1 W*2*** *4b sulonhhot. Tere's e ouict took et ithe: t'lt coitr. Gy te thd at aha mheor, youl hre + hoha taurclPon iar buittlg shae toced C ieh,suru, + walj mrs e iaa h aou * ram alaen ytei op atri t 4. Leverige Ceamrelny we' rnmh eh + aukh look a hew you Can ga Llan 2. Crele Teur Firt Thl: fou't ghe Larlst + wrele reructon ard lerh hor t A ar ia, + Dunna pu+ Lir rol Dupto Aa Let L+t:eunt y+hoey ' Tttrpil tle h+i ihoorh. 4oCth lo yot eit tohy, ile Hoear, te ptriarln mere corlcleu iore folt. '+yrpor so iay +a ctod Aa hohuto, sa,Irpu+d. 2. Fha Harelrg Heet yot'a trt hou to hart te hhet ih Ia Lur.s Al to ithit 1. Hebr:olt: Pohrg do+a't hent s tktle L+ra try ohcol sre + utsill Yaur sott hae ir+ da I rteoe to fhnon electyef. 11.\nLr's oat +hted. Settinn IIn Yaur Fnvirnnment L't 'Puprcot aohovoo +a se ho 1+os rus ell aod Loddg t tuaper $ Cld e deglojiote tlpport sotnt tht ctn practe Da yetotdt trem stct tnd ToBEL\n# +- n - A\nTttett, 'ttur Cl?t 'o tt Lh LF!\nt+++ +u *+ Pa *.++'! ++ ++ Or!' tta. ++ + ovt+ L+t 4 +tt +ttta\nt Cenciomen ++ Cartlla + tt 11-401m\n2..1 2025-11-22:09:49:28",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "dgg tk.y sra 19 29 日日 2t 14 det Loae Artey frasenefile sat_sotetvl) L441 *4164x firaL1d\nmd 23 ty ai_kty-es.gten\n-oUTLIN 2.Finiy qT READMEmd y op Botmd gtge WLne 13 34 35 31 2 60 《1 K2. <3 5 ) $9 54 Tet te R y w the files odpeint Valiate e ey i loeo ftaL_ky1 tryi eetepet.ecgt et tnae respoaeregest-ttfrt,Maere etr eed rle eltr\"4 iFe.resose.stat_codeel else! ralse xalotrrerf ra YsluttrrrA ratsetrorr RsTTrrr aset PLeet Taolef te valssete Adt te Chel mieuy Dxtla(+(3tr[e)2*) (strlel))\ns1 51 def pet_hae_rli)!\n3I71\n19 returs\n2025-11-2209:57:30",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code editor screenshot with small source text and file tree; OCR is the right capture method.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "env.py",
+            "x": 1.0,
+            "y": 12.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "get_api_key()",
+            "x": 28.0,
+            "y": 24.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "MANUS_API_KEY",
+            "x": 30.0,
+            "y": 36.0,
+            "w": 20.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672980.019217,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "dgg tk.y sra 19 29 日日 2t 14 det Loae Artey frasenefile sat_sotetvl) L441 *4164x firaL1d\nmd 23 ty ai_kty-es.gten\n-oUTLIN 2.Finiy qT READMEmd y op Botmd gtge WLne 13 34 35 31 2 60 《1 K2. <3 5 ) $9 54 Tet te R y w the files odpeint Valiate e ey i loeo ftaL_ky1 tryi eetepet.ecgt et tnae respoaeregest-ttfrt,Maere etr eed rle eltr\"4 iFe.resose.stat_codeel else! ralse xalotrrerf ra YsluttrrrA ratsetrorr RsTTrrr aset PLeet Taolef te valssete Adt te Chel mieuy Dxtla(+(3tr[e)2*) (strlel))\ns1 51 def pet_hae_rli)!\n3I71\n19 returs\n2025-11-2209:57:30",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 694.64
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "dgg tk.y sra 19 29 日日 2t 14 det Loae Artey frasenefile sat_sotetvl) L441 *4164x firaL1d\nmd 23 ty ai_kty-es.gten\n-oUTLIN 2.Finiy qT READMEmd y op Botmd gtge WLne 13 34 35 31 2 60 《1 K2. <3 5 ) $9 54 Tet te R y w the files odpeint Valiate e ey i loeo ftaL_ky1 tryi eetepet.ecgt et tnae respoaeregest-ttfrt,Maere etr eed rle eltr\"4 iFe.resose.stat_codeel else! ralse xalotrrerf ra YsluttrrrA ratsetrorr RsTTrrr aset PLeet Taolef te valssete Adt te Chel mieuy Dxtla(+(3tr[e)2*) (strlel))\ns1 51 def pet_hae_rli)!\n3I71\n19 returs\n2025-11-2209:57:30",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "0 1. Fht + 1 F+ l m a i + h t P. Ah + + 1t e + + + 9t? *+ G: D + f tom''pu + 1?\noraL Lan, + 鲁 4 tad * +S +LD. @ % Y ++ fe Heheg (t: +_M + tkr + ( ro m metharwry) Tal TnL ie mal to Lplotd a tie te gt a tecLre, olLit Lcioal Lir. (toord, ite thd te san tle Tilh cur leet Ple rehuy, ir't tire lo upiotd x to Hanuel. Th+ procts irmche hao tirrpte tegts. Prct, mt Lth Ta tt LIr ++i + t..rini+ +ile reh+ ho+r!..att=l · fil_kiI'olem. rtste_Pila_renommoe eisr_rer_rtatat!. 1*rn+hta. Crete_fite_rewert 4'rsorell.pit] at+ -t?ilet,.+rI t! + h+ lr lees Ie flle ctet, ro, ra m: sta i Crote 's tie rtcove is tt i paiges uiom se. I.e.ieouuti + pr nt, tIle_rote = (rrte flla_re4./--)': Pmr',: *p+++ rt.e + r+e,t+.ptt' -vt_ari ≥iar, l++ re+eae relt_ter,statust] mleLrl.. Huts: b. B = n 7 + u 40 77 n 11 14 11 L 11 17 11 n 74 # L 11 11 1 1 ， 1 \"y', \". \"h+hr'+ *++?-1-+?u++ +.?. *1 i.M- '.-. I.+t. \"mtr! 'eir. \"u'!?. \"a+'! 'Tury e.ih'. *.+. I.u+!. \"' \"+uu\"! 1 \"ttrtu'+ \"llt. \"++l+'1 1 1 t,+++ ++. -1 1,*1a, 1 1tM** 1. ++++'! \"(+++ol ++ +++.+. \"++'+ -+.rh (c-im=. --I.14, +.++++ a +++++t. t.-+.\n[4]. 2a +Fiy plen sxorellipi + Tite rerere cerale4 P+h Dt fil-xerrphpru (.++taytu+ h+iy+ rt) /.i hot..r vtir?le t tr.1eh nttm!+'(hl_ho): 1 1 + t u +1 11 41 \"\"t! 1,\n9BA801069 22 1* + 1 2025-11:22 09:58:45",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense notebook/code screenshot with multi-pane text and JSON content; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Working with the Files API",
+            "x": 31.0,
+            "y": 12.0,
+            "w": 30.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Files.json",
+            "x": 3.0,
+            "y": 15.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "Upload the file content to the presigned URL",
+            "x": 28.0,
+            "y": 27.0,
+            "w": 38.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673024.9260821,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Working with the Files API",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "0 1. Fht + 1 F+ l m a i + h t P. Ah + + 1t e + + + 9t? *+ G: D + f tom''pu + 1?\noraL Lan, + 鲁 4 tad * +S +LD. @ % Y ++ fe Heheg (t: +_M + tkr + ( ro m metharwry) Tal TnL ie mal to Lplotd a tie te gt a tecLre, olLit Lcioal Lir. (toord, ite thd te san tle Tilh cur leet Ple rehuy, ir't tire lo upiotd x to Hanuel. Th+ procts irmche hao tirrpte tegts. Prct, mt Lth Ta tt LIr ++i + t..rini+ +ile reh+ ho+r!..att=l · fil_kiI'olem. rtste_Pila_renommoe eisr_rer_rtatat!. 1*rn+hta. Crete_fite_rewert 4'rsorell.pit] at+ -t?ilet,.+rI t! + h+ lr lees Ie flle ctet, ro, ra m: sta i Crote 's tie rtcove is tt i paiges uiom se. I.e.ieouuti + pr nt, tIle_rote = (rrte flla_re4./--)': Pmr',: *p+++ rt.e + r+e,t+.ptt' -vt_ari ≥iar, l++ re+eae relt_ter,statust] mleLrl.. Huts: b. B = n 7 + u 40 77 n 11 14 11 L 11 17 11 n 74 # L 11 11 1 1 ， 1 \"y', \". \"h+hr'+ *++?-1-+?u++ +.?. *1 i.M- '.-. I.+t. \"mtr! 'eir. \"u'!?. \"a+'! 'Tury e.ih'. *.+. I.u+!. \"' \"+uu\"! 1 \"ttrtu'+ \"llt. \"++l+'1 1 1 t,+++ ++. -1 1,*1a, 1 1tM** 1. ++++'! \"(+++ol ++ +++.+. \"++'+ -+.rh (c-im=. --I.14, +.++++ a +++++t. t.-+.\n[4]. 2a +Fiy plen sxorellipi + Tite rerere cerale4 P+h Dt fil-xerrphpru (.++taytu+ h+iy+ rt) /.i hot..r vtir?le t tr.1eh nttm!+'(hl_ho): 1 1 + t u +1 11 41 \"\"t! 1,\n9BA801069 22 1* + 1 2025-11:22 09:58:45",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1149.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "0 1. Fht + 1 F+ l m a i + h t P. Ah + + 1t e + + + 9t? *+ G: D + f tom''pu + 1?\noraL Lan, + 鲁 4 tad * +S +LD. @ % Y ++ fe Heheg (t: +_M + tkr + ( ro m metharwry) Tal TnL ie mal to Lplotd a tie te gt a tecLre, olLit Lcioal Lir. (toord, ite thd te san tle Tilh cur leet Ple rehuy, ir't tire lo upiotd x to Hanuel. Th+ procts irmche hao tirrpte tegts. Prct, mt Lth Ta tt LIr ++i + t..rini+ +ile reh+ ho+r!..att=l · fil_kiI'olem. rtste_Pila_renommoe eisr_rer_rtatat!. 1*rn+hta. Crete_fite_rewert 4'rsorell.pit] at+ -t?ilet,.+rI t! + h+ lr lees Ie flle ctet, ro, ra m: sta i Crote 's tie rtcove is tt i paiges uiom se. I.e.ieouuti + pr nt, tIle_rote = (rrte flla_re4./--)': Pmr',: *p+++ rt.e + r+e,t+.ptt' -vt_ari ≥iar, l++ re+eae relt_ter,statust] mleLrl.. Huts: b. B = n 7 + u 40 77 n 11 14 11 L 11 17 11 n 74 # L 11 11 1 1 ， 1 \"y', \". \"h+hr'+ *++?-1-+?u++ +.?. *1 i.M- '.-. I.+t. \"mtr! 'eir. \"u'!?. \"a+'! 'Tury e.ih'. *.+. I.u+!. \"' \"+uu\"! 1 \"ttrtu'+ \"llt. \"++l+'1 1 1 t,+++ ++. -1 1,*1a, 1 1tM** 1. ++++'! \"(+++ol ++ +++.+. \"++'+ -+.rh (c-im=. --I.14, +.++++ a +++++t. t.-+.\n[4]. 2a +Fiy plen sxorellipi + Tite rerere cerale4 P+h Dt fil-xerrphpru (.++taytu+ h+iy+ rt) /.i hot..r vtir?le t tr.1eh nttm!+'(hl_ho): 1 1 + t u +1 11 41 \"\"t! 1,\n9BA801069 22 1* + 1 2025-11:22 09:58:45",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.83,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rick and Morty Character Dashboard",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product/UI screenshot with dense small labels, charts, and side navigation; OCR will likely capture more accurately than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark browser chrome over white dashboard panels",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Rick and Morty Character Dashboard",
+            "x": 17.0,
+            "y": 10.0,
+            "w": 34.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Alien / Humanoid / Mythological Creature / Disease / Poopybutthole / Animal / Cronenberg",
+            "x": 57.0,
+            "y": 9.0,
+            "w": 33.0,
+            "h": 46.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Gender Distribution",
+            "x": 57.0,
+            "y": 58.0,
+            "w": 21.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Male / Female / unknown",
+            "x": 57.0,
+            "y": 67.0,
+            "w": 22.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673189.6795704,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Rick and Morty Character Dashboard",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 1321.8,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0028
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Conclusion",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code/notebook/editor slide with small text and multiple panes; OCR is more appropriate than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light editor workspace",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Conclusion",
+            "x": 29.0,
+            "y": 63.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "notebook and code panes",
+            "x": 32.0,
+            "y": 8.0,
+            "w": 56.0,
+            "h": 83.0
+          },
+          {
+            "role": "caption",
+            "text": "file tree / notebook / output / JSON",
+            "x": 2.0,
+            "y": 4.0,
+            "w": 26.0,
+            "h": 92.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673262.4711285,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Conclusion",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/full",
+        "best_score": 1577.24,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0035
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "VOUTLME gtigrors 1Whos.pyb quanprs18 5pBemd 2.F MeWb 0 dbgong mPy nk.Ey )md 1L deta 中 nicinmotyc manscrietsoe vsrtnet ocuents/ceding/mn-api-ethoo-rkshoivans（a]sorce,vem/bn/actiate +Code+Makdown [A3 (ad-api-ebhso-erkshop）/Documents/coding/anus-api-ehok-orkshop Lvans（nain}odal serve server-py /uiers/lanlaoor/bocents/coding/ni-agi-ehoo-ehog/ven/ia/pytho.9/site-gackage/arlLib3/_init Protor varings.ware senver endpoint wlthout any issues. 10 saperr regests Send tet rest Cratest aylad tet resonsereeest.ast（ Lapert test_paytsat HCDAL_O_L, walerpa( Jsnitest_Daytast RAC Perts 日 venv (Python 3.9.6) we can hit our npor1rt sny 23 23 21 27 29 >E X3 H 35 34 X7 31 4F 43 43 41 45 Py135:Not0g Check if the tskh fishee fent_tyet_stp hk(payt： it): irtask_isi task_detail-payled.getitec_rai1²,（1) tatk_1d-task_oetall.gett²（ao_i) pitira feth the foll tatk ject fre te Ms AP irrsponse.status_code =2ae: etse: py-i.eir hsurl- respos+repetts.gt( stifutLtaortails) fell_tas_detaile·response.jh(1 pitllaal] sutirx TXZIEY SSL1.1.1,cufretly the'ss1'nodue Syh\nCreatedobjects. 051/（rt346.4s,t223.31） NeceLadeveot： mege_moed PO5T/（4,5.:219.） Receivedrventimessage.eided -// Createdsount/ers/ianleoeck/Doets/codig/nnt-apj-bhook-orsho/serer-py g/1c...h Serviag...hitCtrl-Cts\n2025-11-2210:07:30",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code slide with terminal and editor panes; OCR will recover small code and log text better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light editor workspace",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Webhooks",
+            "x": 26.0,
+            "y": 7.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "test payload / handler code / terminal output",
+            "x": 26.0,
+            "y": 11.0,
+            "w": 66.0,
+            "h": 82.0
+          },
+          {
+            "role": "caption",
+            "text": "server running / webhook test / response",
+            "x": 3.0,
+            "y": 57.0,
+            "w": 21.0,
+            "h": 34.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673362.817003,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Webhooks",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "VOUTLME gtigrors 1Whos.pyb quanprs18 5pBemd 2.F MeWb 0 dbgong mPy nk.Ey )md 1L deta 中 nicinmotyc manscrietsoe vsrtnet ocuents/ceding/mn-api-ethoo-rkshoivans（a]sorce,vem/bn/actiate +Code+Makdown [A3 (ad-api-ebhso-erkshop）/Documents/coding/anus-api-ehok-orkshop Lvans（nain}odal serve server-py /uiers/lanlaoor/bocents/coding/ni-agi-ehoo-ehog/ven/ia/pytho.9/site-gackage/arlLib3/_init Protor varings.ware senver endpoint wlthout any issues. 10 saperr regests Send tet rest Cratest aylad tet resonsereeest.ast（ Lapert test_paytsat HCDAL_O_L, walerpa( Jsnitest_Daytast RAC Perts 日 venv (Python 3.9.6) we can hit our npor1rt sny 23 23 21 27 29 >E X3 H 35 34 X7 31 4F 43 43 41 45 Py135:Not0g Check if the tskh fishee fent_tyet_stp hk(payt： it): irtask_isi task_detail-payled.getitec_rai1²,（1) tatk_1d-task_oetall.gett²（ao_i) pitira feth the foll tatk ject fre te Ms AP irrsponse.status_code =2ae: etse: py-i.eir hsurl- respos+repetts.gt( stifutLtaortails) fell_tas_detaile·response.jh(1 pitllaal] sutirx TXZIEY SSL1.1.1,cufretly the'ss1'nodue Syh\nCreatedobjects. 051/（rt346.4s,t223.31） NeceLadeveot： mege_moed PO5T/（4,5.:219.） Receivedrventimessage.eided -// Createdsount/ers/ianleoeck/Doets/codig/nnt-apj-bhook-orsho/serer-py g/1c...h Serviag...hitCtrl-Cts\n2025-11-2210:07:30",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1178.6
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "VOUTLME gtigrors 1Whos.pyb quanprs18 5pBemd 2.F MeWb 0 dbgong mPy nk.Ey )md 1L deta 中 nicinmotyc manscrietsoe vsrtnet ocuents/ceding/mn-api-ethoo-rkshoivans（a]sorce,vem/bn/actiate +Code+Makdown [A3 (ad-api-ebhso-erkshop）/Documents/coding/anus-api-ehok-orkshop Lvans（nain}odal serve server-py /uiers/lanlaoor/bocents/coding/ni-agi-ehoo-ehog/ven/ia/pytho.9/site-gackage/arlLib3/_init Protor varings.ware senver endpoint wlthout any issues. 10 saperr regests Send tet rest Cratest aylad tet resonsereeest.ast（ Lapert test_paytsat HCDAL_O_L, walerpa( Jsnitest_Daytast RAC Perts 日 venv (Python 3.9.6) we can hit our npor1rt sny 23 23 21 27 29 >E X3 H 35 34 X7 31 4F 43 43 41 45 Py135:Not0g Check if the tskh fishee fent_tyet_stp hk(payt： it): irtask_isi task_detail-payled.getitec_rai1²,（1) tatk_1d-task_oetall.gett²（ao_i) pitira feth the foll tatk ject fre te Ms AP irrsponse.status_code =2ae: etse: py-i.eir hsurl- respos+repetts.gt( stifutLtaortails) fell_tas_detaile·response.jh(1 pitllaal] sutirx TXZIEY SSL1.1.1,cufretly the'ss1'nodue Syh\nCreatedobjects. 051/（rt346.4s,t223.31） NeceLadeveot： mege_moed PO5T/（4,5.:219.） Receivedrventimessage.eided -// Createdsount/ers/ianleoeck/Doets/codig/nnt-apj-bhook-orsho/serer-py g/1c...h Serviag...hitCtrl-Cts\n2025-11-2210:07:30",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "+ ttrt: 糖 1 ahton +++ + T th+ar + PI$+g Yu 'tt+o + + + C + e L t c(+ a b + (I tH n?! Tls' oper stbarn, trom L:Lk crmton to sytrt ronfcton, i wirtut reyrg on polrg. r+ $yt 1.1.4\nL! ta+ert+ Processing Events\n1 +y. + t.+ 中 Te cet the Lurve Uh iromm tur Uoch itrctier, e hed our Lt ksy, Hs thocd hrle herdeode tartt. phtyt seutb ybe ta te Yuet pue tce+l! T ou Codt. Todt protds + ftert tey t Prala tiie ihg od Stael P+crirg + ebhool, me+retlen ie +e ft yt+e. The tee po+ comrt thont shst you do widh l. T? Pun tt iotoho corhila 'n rour Wrn'el, rt crthtt a tert Atd rtrct -tptty tt Gur torig Gr hh' Iath.\n静 Fls 4y-b tol+! Htrat <reut mms.-ei-mry Kms_At_Aty.\"<rouR_ves_ut_xlr_HeiEs*\n口 Tht gre sthe lolotvg cutoct\n量 4. pactLtry动 +tCiatk g? I & Apn toa (tatt + rr Hecret 'mres-pl-ley' +it tte Ley 'taus_Al_!y' (+u+-+pi -+rtho+h -+a++ Lhe+) +/b+o-.t U(ed Lr/taAu+-+e!-++taak -++-ithop Ireh\nU++ tl in your todal #p+!\n(+\n￥...\n(+* +*+r: h A*a *a t+h c+a or + / 1o4 +l+t emt! t,tahth!\nU t torewatraaoult toe. Arrtp tall ttnlo... X rt trtty lhl tiu+ h: + S+all Uih rtulp! Pit /'+ 2a oa. (eatrr 4).+ eo. p*co 4 Ht.] ai trctl4 tatt 1a,+t4 M411 I'sw't.'wt+ 1*.] 1.=o). -1.-N tert* Ttt m clentte tn or, veu,. t'u'+hayrird! *'0 art t? + 7? Ie hr + +it.\n9四@0106@ Crh i I=+ C+ y tn +t 2025-11-22*10:10:25",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Text-heavy code and log slide with small paragraphs and console output; OCR is the right extraction method.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light editor workspace",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Processing Events",
+            "x": 21.0,
+            "y": 10.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "event processing explanation",
+            "x": 20.0,
+            "y": 18.0,
+            "w": 34.0,
+            "h": 26.0
+          },
+          {
+            "role": "code",
+            "text": "API key / secret / event payload / console output",
+            "x": 54.0,
+            "y": 6.0,
+            "w": 42.0,
+            "h": 88.0
+          },
+          {
+            "role": "caption",
+            "text": "terminal logs",
+            "x": 20.0,
+            "y": 63.0,
+            "w": 33.0,
+            "h": 28.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673431.851137,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Processing Events",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "+ ttrt: 糖 1 ahton +++ + T th+ar + PI$+g Yu 'tt+o + + + C + e L t c(+ a b + (I tH n?! Tls' oper stbarn, trom L:Lk crmton to sytrt ronfcton, i wirtut reyrg on polrg. r+ $yt 1.1.4\nL! ta+ert+ Processing Events\n1 +y. + t.+ 中 Te cet the Lurve Uh iromm tur Uoch itrctier, e hed our Lt ksy, Hs thocd hrle herdeode tartt. phtyt seutb ybe ta te Yuet pue tce+l! T ou Codt. Todt protds + ftert tey t Prala tiie ihg od Stael P+crirg + ebhool, me+retlen ie +e ft yt+e. The tee po+ comrt thont shst you do widh l. T? Pun tt iotoho corhila 'n rour Wrn'el, rt crthtt a tert Atd rtrct -tptty tt Gur torig Gr hh' Iath.\n静 Fls 4y-b tol+! Htrat <reut mms.-ei-mry Kms_At_Aty.\"<rouR_ves_ut_xlr_HeiEs*\n口 Tht gre sthe lolotvg cutoct\n量 4. pactLtry动 +tCiatk g? I & Apn toa (tatt + rr Hecret 'mres-pl-ley' +it tte Ley 'taus_Al_!y' (+u+-+pi -+rtho+h -+a++ Lhe+) +/b+o-.t U(ed Lr/taAu+-+e!-++taak -++-ithop Ireh\nU++ tl in your todal #p+!\n(+\n￥...\n(+* +*+r: h A*a *a t+h c+a or + / 1o4 +l+t emt! t,tahth!\nU t torewatraaoult toe. Arrtp tall ttnlo... X rt trtty lhl tiu+ h: + S+all Uih rtulp! Pit /'+ 2a oa. (eatrr 4).+ eo. p*co 4 Ht.] ai trctl4 tatt 1a,+t4 M411 I'sw't.'wt+ 1*.] 1.=o). -1.-N tert* Ttt m clentte tn or, veu,. t'u'+hayrird! *'0 art t? + 7? Ie hr + +it.\n9四@0106@ Crh i I=+ C+ y tn +t 2025-11-22*10:10:25",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1579.04
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "+ ttrt: 糖 1 ahton +++ + T th+ar + PI$+g Yu 'tt+o + + + C + e L t c(+ a b + (I tH n?! Tls' oper stbarn, trom L:Lk crmton to sytrt ronfcton, i wirtut reyrg on polrg. r+ $yt 1.1.4\nL! ta+ert+ Processing Events\n1 +y. + t.+ 中 Te cet the Lurve Uh iromm tur Uoch itrctier, e hed our Lt ksy, Hs thocd hrle herdeode tartt. phtyt seutb ybe ta te Yuet pue tce+l! T ou Codt. Todt protds + ftert tey t Prala tiie ihg od Stael P+crirg + ebhool, me+retlen ie +e ft yt+e. The tee po+ comrt thont shst you do widh l. T? Pun tt iotoho corhila 'n rour Wrn'el, rt crthtt a tert Atd rtrct -tptty tt Gur torig Gr hh' Iath.\n静 Fls 4y-b tol+! Htrat <reut mms.-ei-mry Kms_At_Aty.\"<rouR_ves_ut_xlr_HeiEs*\n口 Tht gre sthe lolotvg cutoct\n量 4. pactLtry动 +tCiatk g? I & Apn toa (tatt + rr Hecret 'mres-pl-ley' +it tte Ley 'taus_Al_!y' (+u+-+pi -+rtho+h -+a++ Lhe+) +/b+o-.t U(ed Lr/taAu+-+e!-++taak -++-ithop Ireh\nU++ tl in your todal #p+!\n(+\n￥...\n(+* +*+r: h A*a *a t+h c+a or + / 1o4 +l+t emt! t,tahth!\nU t torewatraaoult toe. Arrtp tall ttnlo... X rt trtty lhl tiu+ h: + S+all Uih rtulp! Pit /'+ 2a oa. (eatrr 4).+ eo. p*co 4 Ht.] ai trctl4 tatt 1a,+t4 M411 I'sw't.'wt+ 1*.] 1.=o). -1.-N tert* Ttt m clentte tn or, veu,. t'u'+hayrird! *'0 art t? + 7? Ie hr + +it.\n9四@0106@ Crh i I=+ C+ y tn +t 2025-11-22*10:10:25",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "k.ry +empy data Frr iindasreet,yoave yr taseRL.Th pls the eneint path that we sefine erlier. Ly care,y fts 十Markdown 0let-s-5tk-sms-briege-fste]-0g-eee.msst.roe/weheks/stac nAer CAOs I96E 90 11 3 H 14 Sefim Ie-secret reetee intle arevjao ife Ypeats\",\n.Spt omd ch.pi RDADMEn 1AVixoetpin 9. 1md uwloo ect.soml o-time Rsretithtye eurverificatiotdcallene string. Sefore Slack send a reslevests,tseferesecrity hndske.It sends Your server ust resgne vith tat eact challenge string tereve it'sListeng. verityng tereeestsigntre teeere eeeg Jepertsedai ipertrequtsts apert json froe slackspk.sipatre iaprt Signatoreverfier Dmape-eodaL.inage.debi_sUnti.pia_sstai1 isert tastapi lAS repoest isgensirely fron 5lsck. 11 2# 21 22 2) 24 25 2$ 27 71 3# 31 12 33 14 sck_secretl.ecet.femfa caeg,tonetien( iaogeitage,secrets*[slac_secret1) cnodal.agt_get) _a-fst.FaP11) jap3ate retmvo_! retare (° eppt ILT t te Slack 1: Tastapi.Regatstl:\n-OUTLINE g ac p 1 w Depc ME AGS cg aRegly igFaes ng our Senver dpg Slack.r Sack lhtegrati Steging ap-easare nterrpt receee.ueaodstru (n-jebhoo-erkshog）Docuaget/coding/-pi--orhogvn()darecatet.py Ar// /users/lvnte-won/Bocusnt/coding/aanu-ap2-ebhook-erkshog/.vene/La/pythan3.9/site-package/arllib3/_snit_Py:35:otpe cpiethUares2.L.]'.See:ts://git.c/artua/orLa/se/820 Created objects. amings.ern( oledeventua_tat P5/2009（38.m224） terelvedtveotr tiiatonped rroftchung Task etattsi 44 Crestedsout/ers/ivenlee-or/Docuents/cding/maus-api- 2aGzkaasis.etoi fs.. oupit Oebug Consolr drtahtegreent yoraterrptsfros iling as.\nPOSTMNeL/ack POST /ethocks/sSack watchsng/Dsers/jeanlee-werk/Docamests/ceding/sanus-api-thoek-workshep. / 0 200 (aurgUoni (doratisn) 5.21. 35.98. eecutiani 218.4\n2025-11-2210:14:10",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense instructional slide with code and logs; OCR is more appropriate than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light editor workspace",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Building on Slack",
+            "x": 25.0,
+            "y": 8.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Slack event handling explanation",
+            "x": 24.0,
+            "y": 14.0,
+            "w": 34.0,
+            "h": 31.0
+          },
+          {
+            "role": "code",
+            "text": "Slack signing secret / FastAPI / web app",
+            "x": 56.0,
+            "y": 10.0,
+            "w": 39.0,
+            "h": 84.0
+          },
+          {
+            "role": "caption",
+            "text": "terminal logs",
+            "x": 24.0,
+            "y": 61.0,
+            "w": 30.0,
+            "h": 27.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673478.441726,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Building on Slack",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "k.ry +empy data Frr iindasreet,yoave yr taseRL.Th pls the eneint path that we sefine erlier. Ly care,y fts 十Markdown 0let-s-5tk-sms-briege-fste]-0g-eee.msst.roe/weheks/stac nAer CAOs I96E 90 11 3 H 14 Sefim Ie-secret reetee intle arevjao ife Ypeats\",\n.Spt omd ch.pi RDADMEn 1AVixoetpin 9. 1md uwloo ect.soml o-time Rsretithtye eurverificatiotdcallene string. Sefore Slack send a reslevests,tseferesecrity hndske.It sends Your server ust resgne vith tat eact challenge string tereve it'sListeng. verityng tereeestsigntre teeere eeeg Jepertsedai ipertrequtsts apert json froe slackspk.sipatre iaprt Signatoreverfier Dmape-eodaL.inage.debi_sUnti.pia_sstai1 isert tastapi lAS repoest isgensirely fron 5lsck. 11 2# 21 22 2) 24 25 2$ 27 71 3# 31 12 33 14 sck_secretl.ecet.femfa caeg,tonetien( iaogeitage,secrets*[slac_secret1) cnodal.agt_get) _a-fst.FaP11) jap3ate retmvo_! retare (° eppt ILT t te Slack 1: Tastapi.Regatstl:\n-OUTLINE g ac p 1 w Depc ME AGS cg aRegly igFaes ng our Senver dpg Slack.r Sack lhtegrati Steging ap-easare nterrpt receee.ueaodstru (n-jebhoo-erkshog）Docuaget/coding/-pi--orhogvn()darecatet.py Ar// /users/lvnte-won/Bocusnt/coding/aanu-ap2-ebhook-erkshog/.vene/La/pythan3.9/site-package/arllib3/_snit_Py:35:otpe cpiethUares2.L.]'.See:ts://git.c/artua/orLa/se/820 Created objects. amings.ern( oledeventua_tat P5/2009（38.m224） terelvedtveotr tiiatonped rroftchung Task etattsi 44 Crestedsout/ers/ivenlee-or/Docuents/cding/maus-api- 2aGzkaasis.etoi fs.. oupit Oebug Consolr drtahtegreent yoraterrptsfros iling as.\nPOSTMNeL/ack POST /ethocks/sSack watchsng/Dsers/jeanlee-werk/Docamests/ceding/sanus-api-thoek-workshep. / 0 200 (aurgUoni (doratisn) 5.21. 35.98. eecutiani 218.4\n2025-11-2210:14:10",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1690.0
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "k.ry +empy data Frr iindasreet,yoave yr taseRL.Th pls the eneint path that we sefine erlier. Ly care,y fts 十Markdown 0let-s-5tk-sms-briege-fste]-0g-eee.msst.roe/weheks/stac nAer CAOs I96E 90 11 3 H 14 Sefim Ie-secret reetee intle arevjao ife Ypeats\",\n.Spt omd ch.pi RDADMEn 1AVixoetpin 9. 1md uwloo ect.soml o-time Rsretithtye eurverificatiotdcallene string. Sefore Slack send a reslevests,tseferesecrity hndske.It sends Your server ust resgne vith tat eact challenge string tereve it'sListeng. verityng tereeestsigntre teeere eeeg Jepertsedai ipertrequtsts apert json froe slackspk.sipatre iaprt Signatoreverfier Dmape-eodaL.inage.debi_sUnti.pia_sstai1 isert tastapi lAS repoest isgensirely fron 5lsck. 11 2# 21 22 2) 24 25 2$ 27 71 3# 31 12 33 14 sck_secretl.ecet.femfa caeg,tonetien( iaogeitage,secrets*[slac_secret1) cnodal.agt_get) _a-fst.FaP11) jap3ate retmvo_! retare (° eppt ILT t te Slack 1: Tastapi.Regatstl:\n-OUTLINE g ac p 1 w Depc ME AGS cg aRegly igFaes ng our Senver dpg Slack.r Sack lhtegrati Steging ap-easare nterrpt receee.ueaodstru (n-jebhoo-erkshog）Docuaget/coding/-pi--orhogvn()darecatet.py Ar// /users/lvnte-won/Bocusnt/coding/aanu-ap2-ebhook-erkshog/.vene/La/pythan3.9/site-package/arllib3/_snit_Py:35:otpe cpiethUares2.L.]'.See:ts://git.c/artua/orLa/se/820 Created objects. amings.ern( oledeventua_tat P5/2009（38.m224） terelvedtveotr tiiatonped rroftchung Task etattsi 44 Crestedsout/ers/ivenlee-or/Docuents/cding/maus-api- 2aGzkaasis.etoi fs.. oupit Oebug Consolr drtahtegreent yoraterrptsfros iling as.\nPOSTMNeL/ack POST /ethocks/sSack watchsng/Dsers/jeanlee-werk/Docamests/ceding/sanus-api-thoek-workshep. / 0 200 (aurgUoni (doratisn) 5.21. 35.98. eecutiani 218.4\n2025-11-2210:14:10",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Areas for further exploration\nAdvanced agent patterns: multi-step reasoning, tool composition, and error recovery\nProduction deployment: scaling, monitoring, logging, and cost optimization\nCustom integrations: connecting to proprietary systems and internal APIs\nAgent orchestration: coordinating multiple agents for complex workflows\nSpecialized domains: legal document processing, medical data analysis, financial modeling\nPerformance tuning: optimizing latency, throughput, and token usage",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple large-title bullet slide is easy to read directly; OCR is not necessary.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Areas for further exploration",
+            "x": 12.0,
+            "y": 27.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Advanced agent patterns: multi-step reasoning, tool composition, and error recovery",
+            "x": 12.0,
+            "y": 41.0,
+            "w": 70.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Production deployment: scaling, monitoring, logging, and cost optimization",
+            "x": 12.0,
+            "y": 48.0,
+            "w": 72.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Custom integrations: connecting to proprietary systems and internal APIs",
+            "x": 12.0,
+            "y": 55.0,
+            "w": 73.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Agent orchestration: coordinating multiple agents for complex workflows",
+            "x": 12.0,
+            "y": 62.0,
+            "w": 69.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Specialized domains: legal document processing, medical data analysis, financial modeling",
+            "x": 12.0,
+            "y": 69.0,
+            "w": 78.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Performance tuning: optimizing latency, throughput, and token usage",
+            "x": 12.0,
+            "y": 76.0,
+            "w": 69.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/xz0-brt56L8/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673524.14649,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Areas for further exploration\nAdvanced agent patterns: multi-step reasoning, tool composition, and error recovery\nProduction deployment: scaling, monitoring, logging, and cost optimization\nCustom integrations: connecting to proprietary systems and internal APIs\nAgent orchestration: coordinating multiple agents for complex workflows\nSpecialized domains: legal document processing, medical data analysis, financial modeling\nPerformance tuning: optimizing latency, throughput, and token usage",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/xz0-brt56L8/slide-012.html"
+    }
+  ],
+  "rejected": []
+}

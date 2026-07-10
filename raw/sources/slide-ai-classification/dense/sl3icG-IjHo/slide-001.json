@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why don't Agents behave ?\nLLM messes up\nUnclear or Incomplete Instructions\nLack of tools or Incorrect usage of tools\nPoorly written input/output contracts\nMissing the right Context\nLimited knowledge of enterprise-specific workflows",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with black left sidebar and bottom strip",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 3.0,
+        "y": 11.0,
+        "w": 9.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "Why don't Agents behave ?",
+        "x": 21.0,
+        "y": 0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "LLM messes up\nUnclear or Incomplete Instructions\nLack of tools or Incorrect usage of tools\nPoorly written input/output contracts\nMissing the right Context\nLimited knowledge of enterprise-specific workflows",
+        "x": 22.0,
+        "y": 12.0,
+        "w": 55.0,
+        "h": 42.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 63.0,
+        "y": 83.0,
+        "w": 12.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/sl3icG-IjHo/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671849.8568065,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why don't Agents behave ?\nLLM messes up\nUnclear or Incomplete Instructions\nLack of tools or Incorrect usage of tools\nPoorly written input/output contracts\nMissing the right Context\nLimited knowledge of enterprise-specific workflows",
+  "advanced_ocr": {}
+}

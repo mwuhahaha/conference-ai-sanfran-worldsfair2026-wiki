@@ -1,122 +1,72 @@
 {
   "is_content_slide": true,
-  "confidence": 0.98,
+  "confidence": 0.99,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "The anatomy of an agent retry storm.\n\nExponential GPU Compute Spike\n\nStep 1: Agent hallucinates invalid API parameters.\nStep 2: Tool returns error code.\nStep 3: Agent attempts to fix error but hallucinates new invalid parameter.\nStep 4: Recursive reasoning loop locks up.\nStep 5: The Consequence",
+  "text": "",
   "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Process diagram with step chain and chart labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
   "layout": {
-    "background": "#f5f1ea",
+    "background": "white",
     "style": "diagram",
     "blocks": [
       {
         "role": "title",
         "text": "The anatomy of an agent retry storm.",
-        "x": 6.0,
-        "y": 2.0,
-        "w": 46.0,
-        "h": 16.0
-      },
-      {
-        "role": "subtitle",
-        "text": "Exponential GPU Compute Spike",
-        "x": 58.0,
-        "y": 4.0,
-        "w": 24.0,
-        "h": 10.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Step 1: Agent hallucinates invalid API parameters.",
         "x": 4.0,
-        "y": 25.0,
-        "w": 23.0,
-        "h": 15.0
+        "y": 1.0,
+        "w": 52.0,
+        "h": 14.0
       },
       {
-        "role": "diagram_label",
-        "text": "Step 2: Tool returns error code.",
-        "x": 20.0,
-        "y": 25.0,
-        "w": 16.0,
-        "h": 15.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Step 3: Agent attempts to fix error but hallucinates new invalid parameter.",
-        "x": 38.0,
-        "y": 25.0,
-        "w": 22.0,
-        "h": 15.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Step 4: Recursive reasoning loop locks up.",
-        "x": 56.0,
-        "y": 22.0,
-        "w": 15.0,
-        "h": 16.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Step 5: The Consequence",
-        "x": 83.0,
-        "y": 24.0,
-        "w": 13.0,
-        "h": 13.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "LOOP RECURSION",
-        "x": 60.0,
-        "y": 37.0,
-        "w": 10.0,
-        "h": 9.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Time (ms)",
-        "x": 67.0,
-        "y": 78.0,
-        "w": 9.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "DATA SPIKE EVENT",
-        "x": 57.0,
-        "y": 86.0,
-        "w": 13.0,
-        "h": 4.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "GPU Compute Units [TFLOP]",
-        "x": 79.0,
-        "y": 45.0,
-        "w": 5.0,
+        "role": "body",
+        "text": "Step 1: Agent hallucinates invalid API parameters.\nStep 2: Tool returns error code.\nStep 3: Agent attempts to fix error but hallucinates new invalid parameter.",
+        "x": 4.0,
+        "y": 41.0,
+        "w": 46.0,
         "h": 25.0
       },
       {
-        "role": "caption",
-        "text": "[CRITICAL FAILURE PATH]",
-        "x": 1.0,
-        "y": 93.0,
+        "role": "body",
+        "text": "Step 4: Recursive reasoning loop locks up.\nLOOP RECURSION\nINVALID PARAMS",
+        "x": 49.0,
+        "y": 30.0,
         "w": 18.0,
-        "h": 4.0
+        "h": 28.0
       },
       {
-        "role": "caption",
-        "text": "[TIMELINE AXIS]",
-        "x": 89.0,
-        "y": 93.0,
-        "w": 9.0,
-        "h": 4.0
+        "role": "body",
+        "text": "Exponential GPU Compute Spike\nRESOURCE SATURATION\nCOST EXPLOSION\nGPU Compute Units (TFLOP)\nTime (ms)\nDATA SPIKE EVENT",
+        "x": 63.0,
+        "y": 5.0,
+        "w": 31.0,
+        "h": 82.0
+      },
+      {
+        "role": "body",
+        "text": "Step 5: The Consequence",
+        "x": 83.0,
+        "y": 38.0,
+        "w": 14.0,
+        "h": 10.0
       }
     ]
   },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
   "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-005.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783646784.1143785
+  "classified_at_epoch": 1783658435.9347389,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

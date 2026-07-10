@@ -1,0 +1,79 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "API Configuration\nMedia Streaming",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense configuration UI plus devtools/network output and chat transcript; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f5ecd7",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "API Configuration",
+        "x": 5.0,
+        "y": 6.0,
+        "w": 28.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Media Streaming",
+        "x": 34.0,
+        "y": 6.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Chat",
+        "x": 36.0,
+        "y": 48.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "SYSTEM: Ready!",
+        "x": 37.0,
+        "y": 28.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Debug Info",
+        "x": 36.0,
+        "y": 76.0,
+        "w": 12.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667450.6661177,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "API Configuration\nMedia Streaming",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/border-trim/opencv-adaptive",
+    "best_score": 2612.0,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

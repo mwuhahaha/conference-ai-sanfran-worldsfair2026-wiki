@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Principle 3 — Lifelong\nA new fix must improve the new case without breaking the past.\n\nSetup: already optimized over E₁ ... Eₖ. A new failure Eₖ₊₁ arrives. What do you change?\n\nPatch & hope → drift    Regression-aware learning\nfix behavior A → break behavior B    maximize performance on Eₖ₊₁\nfix B → break workflow C    subject to no regression on E₁ ... Eₖ\npatch C → A regresses again    regression as a live constraint during search\n\nevery fix silently risks the last one\n\nRegression-control should be within the agent optimization loop, not post-hoc.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense comparison slide with small code-like text and two panels; OCR is appropriate here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Principle 3 — Lifelong",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 33.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "A new fix must improve the new case without breaking the past.",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 62.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Setup: already optimized over E₁ ... Eₖ. A new failure Eₖ₊₁ arrives. What do you change?",
+        "x": 4.0,
+        "y": 22.0,
+        "w": 90.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Patch & hope → drift",
+        "x": 5.0,
+        "y": 43.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Regression-aware learning",
+        "x": 54.0,
+        "y": 43.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Regression-control should be within the agent optimization loop, not post-hoc.",
+        "x": 14.0,
+        "y": 78.0,
+        "w": 72.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656774.8150144,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Principle 3 — Lifelong",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Principle3=Lifelong\nAnew fix must improve the new case without breaking the past.\nSetups already optimized over Es E Anew failure E+ arrives, What do you change?\nPatch& hopedrift Regression-aware learning\npatahG Tixo o Greak corkflovG flx behaviorA break:behavior:8 subject to no regression on Er E maximize: performance on E.m.\nevery fix sllently risks the last one regression asa Uve constraint duringsearch\nRegression-control should be within the agent optimization loop not post-ho.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 753.88
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Principle 3 — Lifelong\nA new fix must improve the new case without breaking the past.\n\nSetup: already optimized over E₁ ... Eₖ. A new failure Eₖ₊₁ arrives. What do you change?\n\nPatch & hope → drift    Regression-aware learning\nfix behavior A → break behavior B    maximize performance on Eₖ₊₁\nfix B → break workflow C    subject to no regression on E₁ ... Eₖ\npatch C → A regresses again    regression as a live constraint during search\n\nevery fix silently risks the last one\n\nRegression-control should be within the agent optimization loop, not post-hoc.",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for punctuation, arrows, and subscripts; otherwise accepted."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Manufact ARCHITECTURE\nHow anMCP Appworks\nrtoorr, cobg tooa. Model comersat icn ChatGeT:Covde·Curror Host resources/resd tools/t+ll -. looly+vijlreources MCP srvr\nui/+ over posthessage\nWidgrt\n+woy, prroapuos\nThe server cxposes the Ul as a ui: / /resourc+. The host rondors lt ln a sardboxed iframe and\nrelays tool input, resuits, and the widget's cals bock over JSON.RPC.\nHAHUFACT:COn jinn",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture diagram with several small labels and explanatory text; OCR should recover the relationships and labels well.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How an MCP App works",
+        "x": 4.0,
+        "y": 8.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 18.0,
+        "y": 38.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Host",
+        "x": 43.0,
+        "y": 38.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MCP server",
+        "x": 69.0,
+        "y": 38.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Widget",
+        "x": 43.0,
+        "y": 58.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "The server exposes the UI as a ui://resource. The host renders it in a sandboxed iframe and relays tool input, results, and the widget's calls back over JSON-RPC.",
+        "x": 25.0,
+        "y": 78.0,
+        "w": 52.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/sAOBXCDiDOs/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671598.9288154,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "How an MCP App works",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Manufact ARCHITECTURE\nHow anMCP Appworks\nrtoorr, cobg tooa. Model comersat icn ChatGeT:Covde·Curror Host resources/resd tools/t+ll -. looly+vijlreources MCP srvr\nui/+ over posthessage\nWidgrt\n+woy, prroapuos\nThe server cxposes the Ul as a ui: / /resourc+. The host rondors lt ln a sardboxed iframe and\nrelays tool input, resuits, and the widget's cals bock over JSON.RPC.\nHAHUFACT:COn jinn",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 649.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Manufact ARCHITECTURE\nHow anMCP Appworks\nrtoorr, cobg tooa. Model comersat icn ChatGeT:Covde·Curror Host resources/resd tools/t+ll -. looly+vijlreources MCP srvr\nui/+ over posthessage\nWidgrt\n+woy, prroapuos\nThe server cxposes the Ul as a ui: / /resourc+. The host rondors lt ln a sardboxed iframe and\nrelays tool input, resuits, and the widget's cals bock over JSON.RPC.\nHAHUFACT:COn jinn",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

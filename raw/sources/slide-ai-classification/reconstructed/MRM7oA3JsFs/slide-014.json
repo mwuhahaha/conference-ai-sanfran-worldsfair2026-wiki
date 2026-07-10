@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "Section divider / title-only slide with no substantive content.",
+  "text": "Putting it together",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "dark olive",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Putting it together",
+        "x": 19.0,
+        "y": 52.0,
+        "w": 26.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-014.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661604.541181,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Putting it together",
+  "advanced_ocr": {}
+}

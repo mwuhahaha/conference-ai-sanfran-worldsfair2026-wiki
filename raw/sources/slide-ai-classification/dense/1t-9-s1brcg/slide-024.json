@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Azure AI Proxy Playground",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product UI screenshot with dense labels, controls, and chat content that OCR can recover efficiently.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f2dfc0",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Azure AI Proxy Playground",
+        "x": 1.0,
+        "y": 3.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "System Message",
+        "x": 2.0,
+        "y": 10.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Chat session",
+        "x": 27.0,
+        "y": 10.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Configuration",
+        "x": 78.0,
+        "y": 10.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Model  Max response  Temperature  OpenAI Functions  API Response",
+        "x": 78.0,
+        "y": 20.0,
+        "w": 20.0,
+        "h": 55.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-024.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-024.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657514.9117393,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Azure AI Proxy Playground",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Metric computed with vector retrieval only (no Semantic ranking).\n\nAnother key consideration is that embedding models must compress all the semantic content of a passage into a limited number of floating-point numbers (e.g. Ada-002 uses 1,536 dimensions). If developers encode a long passage with multiple topics into a single vector, important nuance can get lost. Our analysis shows that using large chunks reduces retrieval performance.\n\nRetrieval Configuration  Recall@50\n512 input tokens per vector  42.4\n1024 input tokens per vector  37.5\n4096 input tokens per vector  36.4\n8191 input tokens per vector  34.9\nTable 4: Recall@50 comparison of different chunk sizes with Ada-002 embedding model",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense webpage screenshot with a paragraph and a table, suitable for OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Metric computed with vector retrieval only (no Semantic ranking).",
+        "x": 8.0,
+        "y": 8.0,
+        "w": 70.0,
+        "h": 10.0
+      },
+      {
+        "role": "table",
+        "text": "Retrieval Configuration Recall@50",
+        "x": 8.0,
+        "y": 54.0,
+        "w": 34.0,
+        "h": 28.0
+      },
+      {
+        "role": "caption",
+        "text": "Table 4: Recall@50 comparison of different chunk sizes with Ada-002 embedding model",
+        "x": 8.0,
+        "y": 87.0,
+        "w": 70.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-042.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-042.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659327.5472605,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "9\nMicrosoft I.: Search Sign In. 8\nMetnic computed with vector retrieval ony (no Serantic ronting).\n: Another key considerstion is that embedding models must compress sll the semantic\n: conlent of a pssge into a Emited rumber of floating-point rumbers (e.g. Ada-002 uses\n: 1,S36 demensions), lf developers encode a long pssssge with multiple topics into a singie....-..-\n'retrieval performance.:\n?\nRetrieval Configuration Recall@so\nS12 input tokens per sectos 42.4 a\n1024 input tokers per vector. 37.5\n409s input tokens per vector 36.4\n8191 input tokers per vector 34.9\nToble 4: Recatl@ so comparison of dufferent chuink sizes witch Ado-ooz embeddisg model",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 907.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Metric computed with vector retrieval only (no Semantic ranking).\n\nAnother key consideration is that embedding models must compress all the semantic content of a passage into a limited number of floating-point numbers (e.g. Ada-002 uses 1,536 dimensions). If developers encode a long passage with multiple topics into a single vector, important nuance can get lost. Our analysis shows that using large chunks reduces retrieval performance.\n\nRetrieval Configuration  Recall@50\n512 input tokens per vector  42.4\n1024 input tokens per vector  37.5\n4096 input tokens per vector  36.4\n8191 input tokens per vector  34.9\nTable 4: Recall@50 comparison of different chunk sizes with Ada-002 embedding model",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide text and corrected obvious OCR errors in spelling, casing, and table labels."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agent trajectories - tool calls",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "tool-call table and nested UI text are small",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#000000",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Agent trajectories - tool calls",
+        "x": 25.0,
+        "y": 12.0,
+        "w": 36.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "Fast Searcher Iteration 1",
+        "x": 27.0,
+        "y": 36.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "prompt and initial search results",
+        "x": 39.0,
+        "y": 30.0,
+        "w": 18.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/1IdzkRVmWAA/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657147.4903927,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Agent trajectories - tool calls",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

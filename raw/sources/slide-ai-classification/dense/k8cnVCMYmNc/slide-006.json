@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "← Q： +\n@ deisun ① uic v 6 azardous swiaming condi d rip currents.\n14 Workflows StartWorktiow\n14 Complrttd\n? △ Sttus Worifow D Run ID cxpected. back from the water.\n4 Compleled tgonlic-l00p:Id-9e838,4d-0s0c-4n2d.6462-25150c417338 019132c0-09d9-7772-b68e-672095881188 Ageny\n® 4 Comphted 19s-129p-4-c911989-3965-488c-81e1-14765c5bs15 019a3643-0670.7e99-8+86:096+56-3079 MUY\n* 1 4 10os-worklow 01913c42-0586-7849-2614-152925061d64 Toolswd\nCompleted 10obs -workllow 01911c42-4907.7e4e-b34b-79s0451d3998\n0 4 tod's-workllow 01943c41-dc45-71-8094-9610c085479b\n:7 4 4 Compieled Conpleea toolt-wor*tlow 10ots-work1low 01913c41-87bt-7042-95d4 -d371c9c270e6 01913c30-b032-7995-162c-0ec78487802b Toolsvkd ToolsWd Dves expected. far back from the wate\n0 100 4 Conpieted toott-orx110w 01913c36-c246-7835-9867-50b8634a11cc 日 kbook/al cookbook wtf>",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot with small table text and controls.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "14 Workflows",
+        "x": 6.0,
+        "y": 11.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "14 Completed",
+        "x": 6.0,
+        "y": 19.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Start Workflow",
+        "x": 76.0,
+        "y": 12.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Status Workflow ID Run ID Type",
+        "x": 6.0,
+        "y": 34.0,
+        "w": 74.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/k8cnVCMYmNc/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669603.8835785,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "14 Workflows",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "← Q： +\n@ deisun ① uic v 6 azardous swiaming condi d rip currents.\n14 Workflows StartWorktiow\n14 Complrttd\n? △ Sttus Worifow D Run ID cxpected. back from the water.\n4 Compleled tgonlic-l00p:Id-9e838,4d-0s0c-4n2d.6462-25150c417338 019132c0-09d9-7772-b68e-672095881188 Ageny\n® 4 Comphted 19s-129p-4-c911989-3965-488c-81e1-14765c5bs15 019a3643-0670.7e99-8+86:096+56-3079 MUY\n* 1 4 10os-worklow 01913c42-0586-7849-2614-152925061d64 Toolswd\nCompleted 10obs -workllow 01911c42-4907.7e4e-b34b-79s0451d3998\n0 4 tod's-workllow 01943c41-dc45-71-8094-9610c085479b\n:7 4 4 Compieled Conpleea toolt-wor*tlow 10ots-work1low 01913c41-87bt-7042-95d4 -d371c9c270e6 01913c30-b032-7995-162c-0ec78487802b Toolsvkd ToolsWd Dves expected. far back from the wate\n0 100 4 Conpieted toott-orx110w 01913c36-c246-7835-9867-50b8634a11cc 日 kbook/al cookbook wtf>",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 763.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "← Q： +\n@ deisun ① uic v 6 azardous swiaming condi d rip currents.\n14 Workflows StartWorktiow\n14 Complrttd\n? △ Sttus Worifow D Run ID cxpected. back from the water.\n4 Compleled tgonlic-l00p:Id-9e838,4d-0s0c-4n2d.6462-25150c417338 019132c0-09d9-7772-b68e-672095881188 Ageny\n® 4 Comphted 19s-129p-4-c911989-3965-488c-81e1-14765c5bs15 019a3643-0670.7e99-8+86:096+56-3079 MUY\n* 1 4 10os-worklow 01913c42-0586-7849-2614-152925061d64 Toolswd\nCompleted 10obs -workllow 01911c42-4907.7e4e-b34b-79s0451d3998\n0 4 tod's-workllow 01943c41-dc45-71-8094-9610c085479b\n:7 4 4 Compieled Conpleea toolt-wor*tlow 10ots-work1low 01913c41-87bt-7042-95d4 -d371c9c270e6 01913c30-b032-7995-162c-0ec78487802b Toolsvkd ToolsWd Dves expected. far back from the wate\n0 100 4 Conpieted toott-orx110w 01913c36-c246-7835-9867-50b8634a11cc 日 kbook/al cookbook wtf>",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

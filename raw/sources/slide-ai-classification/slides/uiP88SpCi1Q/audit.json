@@ -1,0 +1,368 @@
+{
+  "video_id": "uiP88SpCi1Q",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 5,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Costing Too Much",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large title card; no dense body text.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "neon lime and deep navy split background",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "3X",
+            "x": 3.0,
+            "y": 4.0,
+            "w": 41.0,
+            "h": 90.0
+          },
+          {
+            "role": "title",
+            "text": "Costing Too Much",
+            "x": 52.0,
+            "y": 19.0,
+            "w": 32.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "",
+            "x": 79.0,
+            "y": 64.0,
+            "w": 20.0,
+            "h": 28.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/uiP88SpCi1Q/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672095.8046489,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Costing Too Much",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/uiP88SpCi1Q/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "FIX 01 Cache the System Prompt\n000 agent = Agent( model=BedrockModel( model_id=\"claude-sonnet\" cache prompt-+default\". # cache static prefix\nSystem-prompt=BIG-SYSTEM PROMPT\n04 0 86",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code slide with dense small text; OCR is better suited than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "deep navy",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Cache the System Prompt",
+            "x": 8.0,
+            "y": 14.0,
+            "w": 54.0,
+            "h": 12.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 8.0,
+            "y": 29.0,
+            "w": 63.0,
+            "h": 31.0
+          },
+          {
+            "role": "caption",
+            "text": "",
+            "x": 79.0,
+            "y": 63.0,
+            "w": 20.0,
+            "h": 28.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/uiP88SpCi1Q/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672095.8053842,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Cache the System Prompt",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "FIX 01 Cache the System Prompt\n000 agent = Agent( model=BedrockModel( model_id=\"claude-sonnet\" cache prompt-+default\". # cache static prefix\nSystem-prompt=BIG-SYSTEM PROMPT\n04 0 86",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 269.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "FIX 01 Cache the System Prompt\n000 agent = Agent( model=BedrockModel( model_id=\"claude-sonnet\" cache prompt-+default\". # cache static prefix\nSystem-prompt=BIG-SYSTEM PROMPT\n04 0 86",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/uiP88SpCi1Q/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "pix 03 Ofload Big Tool Results\nOtool. def fetch-report(id: str) stre 00O Geturn summarize(data, key) data e api-get(id) key store:put(data) 0 10k tokens. B summary + ref # offLoad",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code slide with dense small text; OCR is better suited than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "deep navy",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Offload Big Tool Results",
+            "x": 7.0,
+            "y": 17.0,
+            "w": 49.0,
+            "h": 11.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 7.0,
+            "y": 28.0,
+            "w": 63.0,
+            "h": 30.0
+          },
+          {
+            "role": "caption",
+            "text": "",
+            "x": 79.0,
+            "y": 64.0,
+            "w": 20.0,
+            "h": 28.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/uiP88SpCi1Q/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672112.480118,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Offload Big Tool Results",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "pix 03 Ofload Big Tool Results\nOtool. def fetch-report(id: str) stre 00O Geturn summarize(data, key) data e api-get(id) key store:put(data) 0 10k tokens. B summary + ref # offLoad",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 311.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "pix 03 Ofload Big Tool Results\nOtool. def fetch-report(id: str) stre 00O Geturn summarize(data, key) data e api-get(id) key store:put(data) 0 10k tokens. B summary + ref # offLoad",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/uiP88SpCi1Q/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Same Agent. Smaller Bill.\nCache the System Prompt\nRoute by Difficulty\nOffload Big Tool Results\nCap Your Tool Loops\nTrim the History",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Readable recap slide with large headings; OCR is not necessary for triage.",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "deep navy",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "RECAP // FIVE FIXES",
+            "x": 3.0,
+            "y": 10.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Same Agent. Smaller Bill.",
+            "x": 3.0,
+            "y": 14.0,
+            "w": 55.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "01 Cache the System Prompt",
+            "x": 4.0,
+            "y": 32.0,
+            "w": 60.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "02 Route by Difficulty",
+            "x": 4.0,
+            "y": 43.0,
+            "w": 60.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "03 Offload Big Tool Results",
+            "x": 4.0,
+            "y": 54.0,
+            "w": 60.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "04 Cap Your Tool Loops",
+            "x": 4.0,
+            "y": 65.0,
+            "w": 60.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "05 Trim the History",
+            "x": 4.0,
+            "y": 76.0,
+            "w": 60.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/uiP88SpCi1Q/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672126.6960979,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Same Agent. Smaller Bill.\nCache the System Prompt\nRoute by Difficulty\nOffload Big Tool Results\nCap Your Tool Loops\nTrim the History",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/uiP88SpCi1Q/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Thanks!\nGo Deeper\nErik Hanchett\nSocial Media\nErikCH\nSite\nprogramwitherik.com",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Closing slide with simple readable text; no dense body content.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "deep navy and neon lime split background",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Thanks!",
+            "x": 3.0,
+            "y": 5.0,
+            "w": 22.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Go Deeper\nErik Hanchett",
+            "x": 4.0,
+            "y": 58.0,
+            "w": 18.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Social Media\nErikCH",
+            "x": 4.0,
+            "y": 73.0,
+            "w": 18.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Site\nprogramwitherik.com",
+            "x": 4.0,
+            "y": 86.0,
+            "w": 20.0,
+            "h": 12.0
+          },
+          {
+            "role": "caption",
+            "text": "",
+            "x": 58.0,
+            "y": 2.0,
+            "w": 39.0,
+            "h": 96.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/uiP88SpCi1Q/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672126.6967852,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Thanks!\nGo Deeper\nErik Hanchett\nSocial Media\nErikCH\nSite\nprogramwitherik.com",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/uiP88SpCi1Q/slide-005.html"
+    }
+  ],
+  "rejected": []
+}

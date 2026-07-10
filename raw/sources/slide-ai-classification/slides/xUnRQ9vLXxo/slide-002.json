@@ -1,0 +1,60 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "speaker_stage",
+  "reject_reason": "speaker on stage in front of sponsor/logo wall; not a slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "not a slide content frame",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "dark sponsor wall with repeated logos",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer World's Fair",
+        "x": 3.0,
+        "y": 11.0,
+        "w": 33.0,
+        "h": 14.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 51.0,
+        "y": 11.0,
+        "w": 24.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenAI",
+        "x": 7.0,
+        "y": 38.0,
+        "w": 22.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "Akamai",
+        "x": 53.0,
+        "y": 66.0,
+        "w": 20.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/xUnRQ9vLXxo/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672714.5944853,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

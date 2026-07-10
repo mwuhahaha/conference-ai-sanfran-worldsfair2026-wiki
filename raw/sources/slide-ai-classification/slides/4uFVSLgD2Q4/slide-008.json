@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Sandboxing\nRoom to act, safely.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "solid #f4f4f4",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "diagram",
+        "text": "OG Assist",
+        "x": 18.0,
+        "y": 5.0,
+        "w": 28.0,
+        "h": 88.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenGov",
+        "x": 84.0,
+        "y": 2.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Sandboxing",
+        "x": 63.0,
+        "y": 26.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Room to act, safely.",
+        "x": 63.0,
+        "y": 34.0,
+        "w": 28.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Code runs in isolated sandboxes, so agents can take real action without putting production systems or customer data at risk.",
+        "x": 63.0,
+        "y": 74.0,
+        "w": 31.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/4uFVSLgD2Q4/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657915.5662901,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Sandboxing\nRoom to act, safely.",
+  "advanced_ocr": {}
+}

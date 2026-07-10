@@ -1,0 +1,116 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The fleet\nMacBook\nheavy coding + personal projects\nmacOS · sleeps\nLinux A\nlong-running coding tasks\nheadless · always-on\nLinux B\nshort-lived personal side projects\nheadless · always-on",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#050505",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The fleet",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "control plane",
+        "x": 43.0,
+        "y": 24.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "MacBook",
+        "x": 7.0,
+        "y": 34.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "heavy coding + personal projects",
+        "x": 7.0,
+        "y": 41.0,
+        "w": 25.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "macOS · sleeps",
+        "x": 7.0,
+        "y": 50.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Linux A",
+        "x": 37.0,
+        "y": 34.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "long-running coding tasks",
+        "x": 37.0,
+        "y": 41.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "headless · always-on",
+        "x": 37.0,
+        "y": 50.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Linux B",
+        "x": 68.0,
+        "y": 34.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "short-lived personal side projects",
+        "x": 68.0,
+        "y": 41.0,
+        "w": 27.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "headless · always-on",
+        "x": 68.0,
+        "y": 50.0,
+        "w": 20.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/4kYl2_mqmnQ/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658205.0011923,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The fleet\nMacBook\nheavy coding + personal projects\nmacOS · sleeps\nLinux A\nlong-running coding tasks\nheadless · always-on\nLinux B\nshort-lived personal side projects\nheadless · always-on",
+  "advanced_ocr": {}
+}

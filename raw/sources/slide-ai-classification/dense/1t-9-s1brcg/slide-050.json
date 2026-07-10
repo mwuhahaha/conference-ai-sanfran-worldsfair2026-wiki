@@ -1,0 +1,96 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense terminal/CLI help output with small text; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f0dfc2",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Manage your application environments. With this command group, you can create a new environment or get, set, and list your application environments.",
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "• An application can have multiple environments (ex: dev, test, prod). • Each environment may have a different configuration (that is, connectivity information) for accessing Azure resources. • You can find all environment configuration under the .azure/<environment-name> folder. • The environment name is stored as the AZURE_ENV_NAME environment variable in the .azure/<environment-name>/.env file.",
+        "x": 1.0,
+        "y": 8.0,
+        "w": 98.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "Usage",
+        "x": 0,
+        "y": 30.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "azd env [command]",
+        "x": 0,
+        "y": 35.0,
+        "w": 22.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Available Commands",
+        "x": 0,
+        "y": 40.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "get-values • list • new • refresh • select • set",
+        "x": 1.0,
+        "y": 44.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Flags • --docs • -h, --help",
+        "x": 0,
+        "y": 58.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Global Flags • -C, --cwd string • --debug • --no-prompt",
+        "x": 0,
+        "y": 66.0,
+        "w": 34.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-050.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-050.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657988.5872672,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

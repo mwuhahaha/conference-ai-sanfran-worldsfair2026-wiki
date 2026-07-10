@@ -1,0 +1,571 @@
+{
+  "video_id": "zDGHt0LB-dA",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 7,
+  "rejected_count": 3,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Introducing Runpod\nThe foundational platform for building, running, and scaling custom AI systems.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(135deg, #1a0f33, #4a16c7)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "runpod",
+            "x": 31.0,
+            "y": 8.0,
+            "w": 13.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "Introducing\nRunpod",
+            "x": 31.0,
+            "y": 39.0,
+            "w": 34.0,
+            "h": 20.0
+          },
+          {
+            "role": "subtitle",
+            "text": "The foundational platform for building,\nrunning, and scaling custom AI systems.",
+            "x": 31.0,
+            "y": 62.0,
+            "w": 46.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zDGHt0LB-dA/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672828.7924175,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Introducing Runpod\nThe foundational platform for building, running, and scaling custom AI systems.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/zDGHt0LB-dA/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why Runpod Exists\nInfrastructure eats developer time\nGPU access is slow and opaque\nBuilder primary focus should be building",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f3e9fb",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why Runpod Exists",
+            "x": 30.0,
+            "y": 11.0,
+            "w": 28.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Infrastructure eats developer time",
+            "x": 31.0,
+            "y": 34.0,
+            "w": 22.0,
+            "h": 21.0
+          },
+          {
+            "role": "body",
+            "text": "GPU access is slow and opaque",
+            "x": 54.0,
+            "y": 34.0,
+            "w": 22.0,
+            "h": 21.0
+          },
+          {
+            "role": "body",
+            "text": "Builder primary focus should be building",
+            "x": 76.0,
+            "y": 34.0,
+            "w": 19.0,
+            "h": 21.0
+          },
+          {
+            "role": "logo",
+            "text": "Braintrust  WorkOS  OpenAI",
+            "x": 39.0,
+            "y": 78.0,
+            "w": 48.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zDGHt0LB-dA/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672828.7928917,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why Runpod Exists\nInfrastructure eats developer time\nGPU access is slow and opaque\nBuilder primary focus should be building",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/zDGHt0LB-dA/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.92,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Overview",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense UI and code screenshot is better handled by OCR than manual transcription",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#efe8fb",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Overview",
+            "x": 50.0,
+            "y": 11.0,
+            "w": 10.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Get started",
+            "x": 48.0,
+            "y": 72.0,
+            "w": 9.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zDGHt0LB-dA/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672828.7933953,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Overview",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 147.04,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/zDGHt0LB-dA/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "prte pertMMH\n（dd）\netit-po,\nAIE sitirrnnteskeisryn.grgaio, cvtiotmt tepesdreciet-Peiffetett'terct' \"rmsferwn'\nofgoernte_sgr skisu, gtt:i,loy.f.gr,,t,p\nidmeefo..\nipenHero\nfreHtg\nHa.AnieeTeuingw.Tro\ntrch4o-trc.erte,\nMegitiet_srogeopegetive.prongt. Mm_lafenvese_siegg+nm_iafereole_stepe pdfasce_koleegaidocei(aiy. beigt.belol,\nEngineering the\nAlEngineer",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "code editor screenshot with small text is better handled by OCR",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#10131d",
+        "style": "code",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zDGHt0LB-dA/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672850.6512961,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/contrast",
+        "text": "prte pertMMH\n（dd）\netit-po,\nAIE sitirrnnteskeisryn.grgaio, cvtiotmt tepesdreciet-Peiffetett'terct' \"rmsferwn'\nofgoernte_sgr skisu, gtt:i,loy.f.gr,,t,p\nidmeefo..\nipenHero\nfreHtg\nHa.AnieeTeuingw.Tro\ntrch4o-trc.erte,\nMegitiet_srogeopegetive.prongt. Mm_lafenvese_siegg+nm_iafereole_stepe pdfasce_koleegaidocei(aiy. beigt.belol,\nEngineering the\nAlEngineer",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 397.2
+      },
+      "ocr_source": "rapidocr-live/left-72/contrast",
+      "ocr_reconcile": {
+        "text": "prte pertMMH\n（dd）\netit-po,\nAIE sitirrnnteskeisryn.grgaio, cvtiotmt tepesdreciet-Peiffetett'terct' \"rmsferwn'\nofgoernte_sgr skisu, gtt:i,loy.f.gr,,t,p\nidmeefo..\nipenHero\nfreHtg\nHa.AnieeTeuingw.Tro\ntrch4o-trc.erte,\nMegitiet_srogeopegetive.prongt. Mm_lafenvese_siegg+nm_iafereole_stepe pdfasce_koleegaidocei(aiy. beigt.belol,\nEngineering the\nAlEngineer",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/zDGHt0LB-dA/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "1\nigtngtitysky.atrkrtxere\nipt.112\nVTUes l, t, l\nF1le*/nr/rotryten/gee/fget-aturtad'e,endalat.y*,tosN, Rain,1oal PVAS *\nAIE\nF1i*Aoen/enf/ro/fget-mtr\nBNCAT Pla'Anwsdryew/reg/TUnd\ntpt1\n-a\na_ SFOT\nCR93-3 'at hrag\nrgtaajatap goiIee_ tialafrr.rery galitr.afeln\nL2M es)\nEngineering the future of Al\nAlEngineer\nEUROPL",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense terminal/code screenshot plus embedded product imagery are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 22.0,
+            "w": 12.0,
+            "h": 22.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 29.0,
+            "y": 0,
+            "w": 39.0,
+            "h": 75.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 69.0,
+            "y": 12.0,
+            "w": 24.0,
+            "h": 52.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 39.0,
+            "y": 83.0,
+            "w": 44.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zDGHt0LB-dA/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672977.0094066,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "1\nigtngtitysky.atrkrtxere\nipt.112\nVTUes l, t, l\nF1le*/nr/rotryten/gee/fget-aturtad'e,endalat.y*,tosN, Rain,1oal PVAS *\nAIE\nF1i*Aoen/enf/ro/fget-mtr\nBNCAT Pla'Anwsdryew/reg/TUnd\ntpt1\n-a\na_ SFOT\nCR93-3 'at hrag\nrgtaajatap goiIee_ tialafrr.rery galitr.afeln\nL2M es)\nEngineering the future of Al\nAlEngineer\nEUROPL",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 425.48
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "1\nigtngtitysky.atrkrtxere\nipt.112\nVTUes l, t, l\nF1le*/nr/rotryten/gee/fget-aturtad'e,endalat.y*,tosN, Rain,1oal PVAS *\nAIE\nF1i*Aoen/enf/ro/fget-mtr\nBNCAT Pla'Anwsdryew/reg/TUnd\ntpt1\n-a\na_ SFOT\nCR93-3 'at hrag\nrgtaajatap goiIee_ tialafrr.rery galitr.afeln\nL2M es)\nEngineering the future of Al\nAlEngineer\nEUROPL",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/zDGHt0LB-dA/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "m'iegearetesonorbo\nworkern·(s,s).\nKolet_o], saler_inmerreirsscalecine.gnus_ceuar, 'nsformn' 'keleeite'\nAIE giwgrogt:rolary,rrowpaality.for,ogly,tot,te ioerxttps:Ls\nrdtk:11.s11,\nFureo\nlaportter\nLwmflne\nsA.-tarted（eals)Noflbro so/flmh-get-tlerted\nnlshDyrHerver 1*+>\nDeicritlen\nros!/sge.geratlea/nesya\nvLsitt/eti/！fg\n294.0.91611613.221100 2-04-0419:4,2241110 234-04-015:15:4,91)11150 24-44-0915:15:3.909110 2024-0:0914:15:19.205 2924-04-092:14154,109 23N-04-0954116:04,1N1110 erntles.y 11 tivesererle1:ypfala）e1strteJo:ec0ss-Hec xb:<45291-Jfec- ￥ （52 62 KI\nEngineering the future of Al\nAlEngineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code/editor content and a rendered image preview are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 22.0,
+            "w": 12.0,
+            "h": 22.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 29.0,
+            "y": 0,
+            "w": 39.0,
+            "h": 76.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 65.0,
+            "y": 11.0,
+            "w": 30.0,
+            "h": 62.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 39.0,
+            "y": 83.0,
+            "w": 44.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zDGHt0LB-dA/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673001.8597186,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "m'iegearetesonorbo\nworkern·(s,s).\nKolet_o], saler_inmerreirsscalecine.gnus_ceuar, 'nsformn' 'keleeite'\nAIE giwgrogt:rolary,rrowpaality.for,ogly,tot,te ioerxttps:Ls\nrdtk:11.s11,\nFureo\nlaportter\nLwmflne\nsA.-tarted（eals)Noflbro so/flmh-get-tlerted\nnlshDyrHerver 1*+>\nDeicritlen\nros!/sge.geratlea/nesya\nvLsitt/eti/！fg\n294.0.91611613.221100 2-04-0419:4,2241110 234-04-015:15:4,91)11150 24-44-0915:15:3.909110 2024-0:0914:15:19.205 2924-04-092:14154,109 23N-04-0954116:04,1N1110 erntles.y 11 tivesererle1:ypfala）e1strteJo:ec0ss-Hec xb:<45291-Jfec- ￥ （52 62 KI\nEngineering the future of Al\nAlEngineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 569.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "m'iegearetesonorbo\nworkern·(s,s).\nKolet_o], saler_inmerreirsscalecine.gnus_ceuar, 'nsformn' 'keleeite'\nAIE giwgrogt:rolary,rrowpaality.for,ogly,tot,te ioerxttps:Ls\nrdtk:11.s11,\nFureo\nlaportter\nLwmflne\nsA.-tarted（eals)Noflbro so/flmh-get-tlerted\nnlshDyrHerver 1*+>\nDeicritlen\nros!/sge.geratlea/nesya\nvLsitt/eti/！fg\n294.0.91611613.221100 2-04-0419:4,2241110 234-04-015:15:4,91)11150 24-44-0915:15:3.909110 2024-0:0914:15:19.205 2924-04-092:14154,109 23N-04-0954116:04,1N1110 erntles.y 11 tivesererle1:ypfala）e1strteJo:ec0ss-Hec xb:<45291-Jfec- ￥ （52 62 KI\nEngineering the future of Al\nAlEngineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/zDGHt0LB-dA/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE\nCovent Oarden,Londen--genereboc CoventOarden,Landon-composed\nof terlacee aboiog eoughu engretsions and meaterd feuturer,nol Mues, evncae tghtiny (astng ditpse sadnnt, stba ain Ssssetwaeosedsaitrreesndtbcoarrs o cer lecee shoading looghsa ogreusorn and weat dhogpreluen sptedoetepeleSpatr purncorg oe irooy satt, secis gNieg asng Gle slade, ea Ne gestt ves oefled sah Mttrte snd trerkc oehrre ngCendoriree\nB, Srt B3L0NO9\nAI Engineer\nAlEngineer EUROPE\nEUROP",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-column UI screenshot with small text and labels is better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 22.0,
+            "w": 12.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 30.0,
+            "y": 4.0,
+            "w": 63.0,
+            "h": 76.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 40.0,
+            "y": 84.0,
+            "w": 27.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zDGHt0LB-dA/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673050.7551522,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "AIE\nCovent Oarden,Londen--genereboc CoventOarden,Landon-composed\nof terlacee aboiog eoughu engretsions and meaterd feuturer,nol Mues, evncae tghtiny (astng ditpse sadnnt, stba ain Ssssetwaeosedsaitrreesndtbcoarrs o cer lecee shoading looghsa ogreusorn and weat dhogpreluen sptedoetepeleSpatr purncorg oe irooy satt, secis gNieg asng Gle slade, ea Ne gestt ves oefled sah Mttrte snd trerkc oehrre ngCendoriree\nB, Srt B3L0NO9\nAI Engineer\nAlEngineer EUROPE\nEUROP",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 688.32
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "AIE\nCovent Oarden,Londen--genereboc CoventOarden,Landon-composed\nof terlacee aboiog eoughu engretsions and meaterd feuturer,nol Mues, evncae tghtiny (astng ditpse sadnnt, stba ain Ssssetwaeosedsaitrreesndtbcoarrs o cer lecee shoading looghsa ogreusorn and weat dhogpreluen sptedoetepeleSpatr purncorg oe irooy satt, secis gNieg asng Gle slade, ea Ne gestt ves oefled sah Mttrte snd trerkc oehrre ngCendoriree\nB, Srt B3L0NO9\nAI Engineer\nAlEngineer EUROPE\nEUROP",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/zDGHt0LB-dA/slide-009.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.96,
+      "frame_type": "speaker_stage",
+      "reject_reason": "stage shot with presenter and audience; projected slide is secondary and not a clean slide capture",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a standalone slide",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "light gray",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zDGHt0LB-dA/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672828.7613857,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.96,
+      "frame_type": "speaker_stage",
+      "reject_reason": "stage shot with presenter movement blocking the view; not a clean slide frame",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a standalone slide",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "light gray",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zDGHt0LB-dA/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672828.7918193,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "Standalone branding/title card, not a content slide.",
+      "text": "AI Engineer EUROPE HTTPS://AI.ENGINEER",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer",
+            "x": 27.0,
+            "y": 44.0,
+            "w": 46.0,
+            "h": 22.0
+          },
+          {
+            "role": "subtitle",
+            "text": "EUROPE",
+            "x": 46.0,
+            "y": 64.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "HTTPS://AI.ENGINEER",
+            "x": 34.0,
+            "y": 93.0,
+            "w": 32.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zDGHt0LB-dA/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783673090.924003,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Engineer EUROPE HTTPS://AI.ENGINEER",
+      "advanced_ocr": {}
+    }
+  ]
+}

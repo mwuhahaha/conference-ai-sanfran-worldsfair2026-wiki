@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Background\nBackground\nHealth insurers and heaith funds around the world employ medical reviewers to assess\npolicy. This requires cross-referencing clinical documentation, coverage policies, clinical roles in healthcare operations. guidelines, and patient claims history. It is one of the most administratively intensive\nWhat we are building\nWe are building an internal claims review system for a fictitious health insurance submit claims and receive feedback on outcomes is out of scope. adjudicate claims. The external-facing system through which healthcare providers company called MDB Health. This system is used by medical reviewers to assess and",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense paragraph slide",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light pastel panel on dark teal",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Background",
+        "x": 24.0,
+        "y": 11.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Health insurers and health funds around the world employ medical reviewers to assess whether a requested treatment, procedure, or medication is covered under a patient’s policy. This requires cross-referencing clinical documentation, coverage policies, clinical guidelines, and patient claims history. It is one of the most administratively intensive roles in healthcare operations.",
+        "x": 23.0,
+        "y": 21.0,
+        "w": 75.0,
+        "h": 24.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What we are building",
+        "x": 23.0,
+        "y": 47.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "We are building an internal claims review system for a fictitious health insurance company called MDB Health. This system is used by medical reviewers to assess and adjudicate claims. The external-facing system through which healthcare providers submit claims and receive feedback on outcomes is out of scope.",
+        "x": 23.0,
+        "y": 56.0,
+        "w": 75.0,
+        "h": 23.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/T0HhO4YtTfE/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663749.5814652,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Background",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Background\nBackground\nHealth insurers and heaith funds around the world employ medical reviewers to assess\npolicy. This requires cross-referencing clinical documentation, coverage policies, clinical roles in healthcare operations. guidelines, and patient claims history. It is one of the most administratively intensive\nWhat we are building\nWe are building an internal claims review system for a fictitious health insurance submit claims and receive feedback on outcomes is out of scope. adjudicate claims. The external-facing system through which healthcare providers company called MDB Health. This system is used by medical reviewers to assess and",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 875.26
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Background\nBackground\nHealth insurers and heaith funds around the world employ medical reviewers to assess\npolicy. This requires cross-referencing clinical documentation, coverage policies, clinical roles in healthcare operations. guidelines, and patient claims history. It is one of the most administratively intensive\nWhat we are building\nWe are building an internal claims review system for a fictitious health insurance submit claims and receive feedback on outcomes is out of scope. adjudicate claims. The external-facing system through which healthcare providers company called MDB Health. This system is used by medical reviewers to assess and",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

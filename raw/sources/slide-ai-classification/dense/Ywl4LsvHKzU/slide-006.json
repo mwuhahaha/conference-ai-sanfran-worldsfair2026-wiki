@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Ingestion - Schema Creation\nWorld Cup\nCorpus (FIFA) (SemanticObject) Schema Winner:Team TopScorer:Tuple[Player,int] Year:int(1900-2100) Top3:List[Teams]\nONAIR",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Schema diagram and small field list are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "off-white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Ingestion - Schema Creation",
+        "x": 2.0,
+        "y": 0,
+        "w": 54.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Corpus (FIFA)\nSchema (SemanticObject)\nWorld Cup\nYear: int(1900-2100)\nWinner: Team\nTop3: List[Teams]\nTopScorer: Tuple[Player, int]",
+        "x": 0,
+        "y": 21.0,
+        "w": 99.0,
+        "h": 62.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/Ywl4LsvHKzU/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665574.7978761,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Ingestion - Schema Creation\nWorld Cup\nCorpus (FIFA) (SemanticObject) Schema Winner:Team TopScorer:Tuple[Player,int] Year:int(1900-2100) Top3:List[Teams]\nONAIR",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 287.16
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Ingestion - Schema Creation\nWorld Cup\nCorpus (FIFA) (SemanticObject) Schema Winner:Team TopScorer:Tuple[Player,int] Year:int(1900-2100) Top3:List[Teams]\nONAIR",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

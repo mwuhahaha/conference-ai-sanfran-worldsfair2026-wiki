@@ -1,0 +1,60 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.97,
+  "frame_type": "title_card",
+  "reject_reason": "title card",
+  "text": "AI Engineer Conference 2026\nAgents in Production: How OpenGov Built and Scaled OG Assist",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple title card; text is already readable",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#dbe5f1",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "AI Engineer Conference 2026",
+        "x": 2.0,
+        "y": 5.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Agents in Production: How OpenGov Built and Scaled OG Assist",
+        "x": 2.0,
+        "y": 8.0,
+        "w": 66.0,
+        "h": 24.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenGov",
+        "x": 88.0,
+        "y": 2.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "OG Assist",
+        "x": 31.0,
+        "y": 47.0,
+        "w": 38.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/4uFVSLgD2Q4/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657655.669846,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Engineer Conference 2026\nAgents in Production: How OpenGov Built and Scaled OG Assist",
+  "advanced_ocr": {}
+}

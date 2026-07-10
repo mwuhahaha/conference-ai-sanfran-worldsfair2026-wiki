@@ -17,72 +17,41 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/XovaGv4f39A/slide-001.jpg]]
-
-OCR text:
-
-> ORBIS
-
 ![[assets/slides/XovaGv4f39A/slide-002.jpg]]
 
-OCR text:
-
-> SZ
-> 
-> al
-> 
-> ae
-> 
-> Lip,
-> 
-> I iM
-
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/XovaGv4f39A/slide-002.html)
+- AI slide classifier: `other` confidence `0.88`
+- Text source: none.
+- Slide text: not surfaced (`decorative` by AI classifier).
 ![[assets/slides/XovaGv4f39A/slide-003.jpg]]
 
-OCR text:
-
-> People
-> Places
-> Places
-> Events
-> Events
-> Daxs
-
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/XovaGv4f39A/slide-003.html)
+- AI slide classifier: `diagram` confidence `0.94`
+- Text source: none.
 ![[assets/slides/XovaGv4f39A/slide-004.jpg]]
 
-OCR text:
-
-> @ -—. es! 0 = _ om AN a
-> @ : aa oe
-> » @ . age’, 7 Jf .
-> el* “# “o% \ . ae we as an
-> e . x, * e i. B 4 —
-> Vee ae
-> - id a, ae © 26 sy a . 7
-> 2 e = e Pa wg . wi ate ee
-> 2 s2 e “9 - &, ed
-> * ~—~e a a -
-> @ - es a ;
-> t *s ans oer :
-> e <a % ats es
-> a -_e. Co ie nN
-> ee 1 ee
-
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/XovaGv4f39A/slide-004.html)
+- AI slide classifier: `diagram` confidence `0.86`
+- Text source: none.
+- Slide text: not surfaced (`decorative` by AI classifier).
 ![[assets/slides/XovaGv4f39A/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/XovaGv4f39A/slide-005.html)
+- AI slide classifier: `other` confidence `0.97`
+- Text source: agent_vision.
 
-> in| https://www.linkedin.com/in/luis-romero-sevilla/
-> eS https://www.youtube.com/@lurose5
-> https://x.com/lurose15 ; =) .
-> —_— }
-> https://lurose.dev/ \ ‘
-> ® a
-> Ia.
-> . 5 rN ZS an ; j
-> eo
-> -—
-> a
+Slide text:
+
+> https://www.linkedin.com/in/luis-romero-sevilla/
+> https://www.youtube.com/@lurose5
+> https://x.com/lurose15
+> https://lurose.dev/
+
+
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/XovaGv4f39A/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on camera, not a slide
+
+Classification audit: `raw/sources/slide-ai-classification/slides/XovaGv4f39A/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

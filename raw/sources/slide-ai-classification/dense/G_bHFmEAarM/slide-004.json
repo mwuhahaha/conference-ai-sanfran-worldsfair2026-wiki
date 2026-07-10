@@ -1,0 +1,53 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.89,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "none",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code/editor content and small interface labels are better handled by OCR than by manual transcription here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3ecd8",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "code editor",
+        "x": 15.0,
+        "y": 13.0,
+        "w": 30.0,
+        "h": 74.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3D blocks view",
+        "x": 48.0,
+        "y": 13.0,
+        "w": 43.0,
+        "h": 74.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/G_bHFmEAarM/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659477.829741,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 6.38
+  }
+}

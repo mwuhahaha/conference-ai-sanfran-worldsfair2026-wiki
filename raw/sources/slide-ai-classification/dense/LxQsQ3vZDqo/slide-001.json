@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE HIGHLIGHTS EXTENOEO CHESSTIPS COUNTERPLAY CREATING\nCahs (henTey 0444 Others\n100\nseE Dems Karubs TIPS CHESS\nHome WatchNext Shorts Search\noogle\nMicrosoft smol ai",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product/UI screenshot slide with multiple embedded mobile screens and small labels; OCR should handle the screenshot text better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 18.0,
+        "w": 10.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Home",
+        "x": 18.0,
+        "y": 69.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "WatchNext",
+        "x": 38.0,
+        "y": 69.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Shorts",
+        "x": 58.0,
+        "y": 69.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Search",
+        "x": 78.0,
+        "y": 69.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Others",
+        "x": 91.0,
+        "y": 35.0,
+        "w": 7.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/LxQsQ3vZDqo/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662224.5189674,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "AIE HIGHLIGHTS EXTENOEO CHESSTIPS COUNTERPLAY CREATING\nCahs (henTey 0444 Others\n100\nseE Dems Karubs TIPS CHESS\nHome WatchNext Shorts Search\noogle\nMicrosoft smol ai",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 295.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "AIE HIGHLIGHTS EXTENOEO CHESSTIPS COUNTERPLAY CREATING\nCahs (henTey 0444 Others\n100\nseE Dems Karubs TIPS CHESS\nHome WatchNext Shorts Search\noogle\nMicrosoft smol ai",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

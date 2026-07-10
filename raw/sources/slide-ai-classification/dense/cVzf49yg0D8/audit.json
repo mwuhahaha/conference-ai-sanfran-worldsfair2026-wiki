@@ -1,0 +1,1053 @@
+{
+  "video_id": "cVzf49yg0D8",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 14,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "D\nc Dashbordi Googke A Studo APl-Schlussel B Ap·Kurznetung\nAPt:Schbusset Profektai.: Gruppiren rach Projokt:ofeld oy pto ltl:\nNurung Schlise Projekt Erstellt' Abrichnurgsstute\nRxanbtgrmrung\nAusgabon\n:Abretchnung\n. Prolokolle Lnd Dslasett:\nK royooidsbunapuy\nSie konnen itre APl Schhlsse hler nlcht finden?:\n:Coogit AL mudo ilapurett tuider. imporltltn slt thdte Pld'tit, In dHtts Lte wer don nut APtSchtbsce tor Profetut srgazeg, dle h' Ohae ehnn rhvin APi-Schplit eruteote. Wedhre kfomtonn Cn dit Zgthox LhTschlaLe ne tnteterL Sle torrh auch.\nPrafeita hmporteren\nQ' Sosrch\"\n:e Ger Api key 'o whal's new\no Settngt",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshot with many small labels and controls.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light cream with dark browser chrome",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Google AI Studio",
+            "x": 7.0,
+            "y": 4.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "API-Schlüssel",
+            "x": 24.0,
+            "y": 6.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 7.0,
+            "y": 13.0,
+            "w": 86.0,
+            "h": 79.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666791.040576,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "API-Schlüssel",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "D\nc Dashbordi Googke A Studo APl-Schlussel B Ap·Kurznetung\nAPt:Schbusset Profektai.: Gruppiren rach Projokt:ofeld oy pto ltl:\nNurung Schlise Projekt Erstellt' Abrichnurgsstute\nRxanbtgrmrung\nAusgabon\n:Abretchnung\n. Prolokolle Lnd Dslasett:\nK royooidsbunapuy\nSie konnen itre APl Schhlsse hler nlcht finden?:\n:Coogit AL mudo ilapurett tuider. imporltltn slt thdte Pld'tit, In dHtts Lte wer don nut APtSchtbsce tor Profetut srgazeg, dle h' Ohae ehnn rhvin APi-Schplit eruteote. Wedhre kfomtonn Cn dit Zgthox LhTschlaLe ne tnteterL Sle torrh auch.\nPrafeita hmporteren\nQ' Sosrch\"\n:e Ger Api key 'o whal's new\no Settngt",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 967.64
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "D\nc Dashbordi Googke A Studo APl-Schlussel B Ap·Kurznetung\nAPt:Schbusset Profektai.: Gruppiren rach Projokt:ofeld oy pto ltl:\nNurung Schlise Projekt Erstellt' Abrichnurgsstute\nRxanbtgrmrung\nAusgabon\n:Abretchnung\n. Prolokolle Lnd Dslasett:\nK royooidsbunapuy\nSie konnen itre APl Schhlsse hler nlcht finden?:\n:Coogit AL mudo ilapurett tuider. imporltltn slt thdte Pld'tit, In dHtts Lte wer don nut APtSchtbsce tor Profetut srgazeg, dle h' Ohae ehnn rhvin APi-Schplit eruteote. Wedhre kfomtonn Cn dit Zgthox LhTschlaLe ne tnteterL Sle torrh auch.\nPrafeita hmporteren\nQ' Sosrch\"\n:e Ger Api key 'o whal's new\no Settngt",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "One API to Rule Them All\nBuilding Agents with the Gemini Interactions API, from zero to a working agentic application in 60 minutes.\n60 min · Live Coding · Philipp Schmid",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light cream",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "AI ENGINEER EUROPE • WORKSHOP",
+            "x": 13.0,
+            "y": 28.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "One API to\nRule Them All",
+            "x": 13.0,
+            "y": 33.0,
+            "w": 30.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "Building Agents with the Gemini Interactions API, from zero to a working agentic application in 60 minutes.",
+            "x": 13.0,
+            "y": 55.0,
+            "w": 37.0,
+            "h": 13.0
+          },
+          {
+            "role": "caption",
+            "text": "60 min · Live Coding · Philipp Schmid",
+            "x": 13.0,
+            "y": 74.0,
+            "w": 33.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 58.0,
+            "y": 25.0,
+            "w": 32.0,
+            "h": 29.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666896.7314887,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "One API to Rule Them All\nBuilding Agents with the Gemini Interactions API, from zero to a working agentic application in 60 minutes.\n60 min · Live Coding · Philipp Schmid",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "? Part 1: The tnterections APl1 Core Primitives\n9\n®\nC Server-Side State Background Execution\n12o clicnt.fnteroctions crcatc( orevious 2nteroction idi1.id mode1*gemini-3-flash-preview npuk= Follow up Question? 0 oclient fnteroctions.create( agento deep-research... bockgr ound:Iruo tnpuk= Roscarch topic.\nhistory. Chain turns with prevlous snteroction,ia. Server oums coriversation Fire-and-forget for lcng tasks. Pol with interoct lons.get(ia).\nTyped Output Blocks Streaming via SSE\nFlat arrby. teit, Iurt tlon_coll, Logo, thought. for O in interoction.outputs: motch o.type: Cuse text\" @rint(o.text) coso Cfunction_coll: Rich events: content.delta, Interoctton.corptete. for chunk in cliont.finteroctions create( modee gemini-3-11ash..oo tnputr Helloo orint(chunk)\n5717",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-panel slide with small code snippets and dense text; OCR is better suited than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light cream",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Core Primitives",
+            "x": 13.0,
+            "y": 10.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Server-Side State",
+            "x": 14.0,
+            "y": 20.0,
+            "w": 26.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Background Execution",
+            "x": 53.0,
+            "y": 20.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Typed Output Blocks",
+            "x": 14.0,
+            "y": 53.0,
+            "w": 25.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Streaming via SSE",
+            "x": 53.0,
+            "y": 53.0,
+            "w": 25.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666896.732185,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Core Primitives",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "? Part 1: The tnterections APl1 Core Primitives\n9\n®\nC Server-Side State Background Execution\n12o clicnt.fnteroctions crcatc( orevious 2nteroction idi1.id mode1*gemini-3-flash-preview npuk= Follow up Question? 0 oclient fnteroctions.create( agento deep-research... bockgr ound:Iruo tnpuk= Roscarch topic.\nhistory. Chain turns with prevlous snteroction,ia. Server oums coriversation Fire-and-forget for lcng tasks. Pol with interoct lons.get(ia).\nTyped Output Blocks Streaming via SSE\nFlat arrby. teit, Iurt tlon_coll, Logo, thought. for O in interoction.outputs: motch o.type: Cuse text\" @rint(o.text) coso Cfunction_coll: Rich events: content.delta, Interoctton.corptete. for chunk in cliont.finteroctions create( modee gemini-3-11ash..oo tnputr Helloo orint(chunk)\n5717",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1036.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "? Part 1: The tnterections APl1 Core Primitives\n9\n®\nC Server-Side State Background Execution\n12o clicnt.fnteroctions crcatc( orevious 2nteroction idi1.id mode1*gemini-3-flash-preview npuk= Follow up Question? 0 oclient fnteroctions.create( agento deep-research... bockgr ound:Iruo tnpuk= Roscarch topic.\nhistory. Chain turns with prevlous snteroction,ia. Server oums coriversation Fire-and-forget for lcng tasks. Pol with interoct lons.get(ia).\nTyped Output Blocks Streaming via SSE\nFlat arrby. teit, Iurt tlon_coll, Logo, thought. for O in interoction.outputs: motch o.type: Cuse text\" @rint(o.text) coso Cfunction_coll: Rich events: content.delta, Interoctton.corptete. for chunk in cliont.finteroctions create( modee gemini-3-11ash..oo tnputr Helloo orint(chunk)\n5717",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Part 1: Tha hnteractiors AP1 Built-in Tools\nQ Google Search <> Code Execution URL Context\n(00ls=[[type\" google seorch4)] tools=[ftype) \"codo_cxecution\")] (ools=[fcype Curl.context]\nGround responses with real-time web results. Exocute Python code server-side in a sandbox. Fetch and read ful web page contenl\nComputer Use D File Search Remote MCP\nBrowser Butomation via the APl. tools=[(type conputer use\"}] Search uplosded files in RAG stores. tools=(ft ype\" fi1e 6oorch- Cornect extema took via kCP protocol. tools=[f\"type\" https:/.. ] mcp-servorD\nBuh-ln toos execite server-aide, zero code needed. Mix with your onn funetion, tools freey.\n6717",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Grid of tool cards with small text and code-like labels; OCR is suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light cream",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Built-in Tools",
+            "x": 13.0,
+            "y": 10.0,
+            "w": 23.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Google Search",
+            "x": 14.0,
+            "y": 22.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Code Execution",
+            "x": 40.0,
+            "y": 22.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "URL Context",
+            "x": 66.0,
+            "y": 22.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Computer Use",
+            "x": 14.0,
+            "y": 53.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "File Search",
+            "x": 40.0,
+            "y": 53.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Remote MCP",
+            "x": 66.0,
+            "y": 53.0,
+            "w": 15.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666973.4771433,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Built-in Tools",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Part 1: Tha hnteractiors AP1 Built-in Tools\nQ Google Search <> Code Execution URL Context\n(00ls=[[type\" google seorch4)] tools=[ftype) \"codo_cxecution\")] (ools=[fcype Curl.context]\nGround responses with real-time web results. Exocute Python code server-side in a sandbox. Fetch and read ful web page contenl\nComputer Use D File Search Remote MCP\nBrowser Butomation via the APl. tools=[(type conputer use\"}] Search uplosded files in RAG stores. tools=(ft ype\" fi1e 6oorch- Cornect extema took via kCP protocol. tools=[f\"type\" https:/.. ] mcp-servorD\nBuh-ln toos execite server-aide, zero code needed. Mix with your onn funetion, tools freey.\n6717",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1003.32
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Part 1: Tha hnteractiors AP1 Built-in Tools\nQ Google Search <> Code Execution URL Context\n(00ls=[[type\" google seorch4)] tools=[ftype) \"codo_cxecution\")] (ools=[fcype Curl.context]\nGround responses with real-time web results. Exocute Python code server-side in a sandbox. Fetch and read ful web page contenl\nComputer Use D File Search Remote MCP\nBrowser Butomation via the APl. tools=[(type conputer use\"}] Search uplosded files in RAG stores. tools=(ft ype\" fi1e 6oorch- Cornect extema took via kCP protocol. tools=[f\"type\" https:/.. ] mcp-servorD\nBuh-ln toos execite server-aide, zero code needed. Mix with your onn funetion, tools freey.\n6717",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Part1:The Interactions API CodeComparison\nGENERATECONTENT INTERACTIONSAPI\nStoteless:re-send history every turn Request1 r1-client.nodels.generate_content（ model-genini-3-flosh-preview\" contents-[ (\"role\":\"user\" (\"inline_doto”:（mime_type”: (\"text*:\"Describe this inoge) \"porta\":[ 'imoge/jpeg\" \"doto\"：...\")) i1-client.interoctions.creotec Request1 model-genini-3-flosh-preview* input-[ 0fou.:od.) (\"typo\":\"text\" （6od/5o.dou/:d.T,\nr2-client.nodels.generate_content( model-\"gemini-3-flosh-preview\" contents-[ ]:s1odosn.oo.) eot 2:MUST reend imoge ond nistory (\"inline_dato”:（\"mime_type”:\"imoge/jpeg” \"doto：...\")) i2-client.interoctions.creote（ Request 2:Just.send npw input model-genini-3-flash-preview input-'Is there ony text?\" previous_interaction_id-i1.id\n[\"role\":\"model\" (\"role\":\"user\" （ （[（2x）Au0o4sI.x.）]:10d （[（oo1do..x.）]1o\nAccess:response.condidates[e] content.ports[e].function_col]\n8/17",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Two dense code panels with small text; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light cream",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Code Comparison",
+            "x": 13.0,
+            "y": 10.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "GENERATE CONTENT",
+            "x": 13.0,
+            "y": 21.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "INTERACTIONS API",
+            "x": 55.0,
+            "y": 21.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 13.0,
+            "y": 27.0,
+            "w": 39.0,
+            "h": 48.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 55.0,
+            "y": 27.0,
+            "w": 36.0,
+            "h": 31.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667033.8048563,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Code Comparison",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Part1:The Interactions API CodeComparison\nGENERATECONTENT INTERACTIONSAPI\nStoteless:re-send history every turn Request1 r1-client.nodels.generate_content（ model-genini-3-flosh-preview\" contents-[ (\"role\":\"user\" (\"inline_doto”:（mime_type”: (\"text*:\"Describe this inoge) \"porta\":[ 'imoge/jpeg\" \"doto\"：...\")) i1-client.interoctions.creotec Request1 model-genini-3-flosh-preview* input-[ 0fou.:od.) (\"typo\":\"text\" （6od/5o.dou/:d.T,\nr2-client.nodels.generate_content( model-\"gemini-3-flosh-preview\" contents-[ ]:s1odosn.oo.) eot 2:MUST reend imoge ond nistory (\"inline_dato”:（\"mime_type”:\"imoge/jpeg” \"doto：...\")) i2-client.interoctions.creote（ Request 2:Just.send npw input model-genini-3-flash-preview input-'Is there ony text?\" previous_interaction_id-i1.id\n[\"role\":\"model\" (\"role\":\"user\" （ （[（2x）Au0o4sI.x.）]:10d （[（oo1do..x.）]1o\nAccess:response.condidates[e] content.ports[e].function_col]\n8/17",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 848.88
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Part1:The Interactions API CodeComparison\nGENERATECONTENT INTERACTIONSAPI\nStoteless:re-send history every turn Request1 r1-client.nodels.generate_content（ model-genini-3-flosh-preview\" contents-[ (\"role\":\"user\" (\"inline_doto”:（mime_type”: (\"text*:\"Describe this inoge) \"porta\":[ 'imoge/jpeg\" \"doto\"：...\")) i1-client.interoctions.creotec Request1 model-genini-3-flosh-preview* input-[ 0fou.:od.) (\"typo\":\"text\" （6od/5o.dou/:d.T,\nr2-client.nodels.generate_content( model-\"gemini-3-flosh-preview\" contents-[ ]:s1odosn.oo.) eot 2:MUST reend imoge ond nistory (\"inline_dato”:（\"mime_type”:\"imoge/jpeg” \"doto：...\")) i2-client.interoctions.creote（ Request 2:Just.send npw input model-genini-3-flash-preview input-'Is there ony text?\" previous_interaction_id-i1.id\n[\"role\":\"model\" (\"role\":\"user\" （ （[（2x）Au0o4sI.x.）]:10d （[（oo1do..x.）]1o\nAccess:response.condidates[e] content.ports[e].function_col]\n8/17",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Using the API: Basic Chat\nSTATEFUL MULTI-TURN\nCreate an interaction with a prompt\nChain turns with previous_interaction_id\nZero history: server manages all state",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light cream",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Using the API: Basic Chat",
+            "x": 13.0,
+            "y": 9.0,
+            "w": 34.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "STATEFUL MULTI-TURN",
+            "x": 13.0,
+            "y": 20.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Create an interaction with a prompt\nChain turns with previous_interaction_id\nZero history: server manages all state",
+            "x": 13.0,
+            "y": 25.0,
+            "w": 35.0,
+            "h": 30.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 51.0,
+            "y": 18.0,
+            "w": 38.0,
+            "h": 48.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667103.31916,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Using the API: Basic Chat\nSTATEFUL MULTI-TURN\nCreate an interaction with a prompt\nChain turns with previous_interaction_id\nZero history: server manages all state",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "main.py x In Watthrcugh. Task tmpamentation Pliun 个日4 Crealing Agent Clats Structure x...@+\nworkshop > d mnin.gy 49 37 EE write_fite_schew = { \"phraooters\":! \"required- I\"tile_path-, rcontents\"l.. Noxt wo noed to odd a read_fbo and write_ fe tool.: Create a basic python kuolenentatlon and also the Fon tchems defition and map for the key: function, schems\n59 51 52 53 55 56 58 60 62 64 65 66 67 69 70 71 72 74 75 76 57 61 63 77 8 3. Reo istry sapping tool naaes to functlons sed scheras tootsap = { class Agent: derrnaoo. det.run(selt, input_text:,str Illst) - str: \"read_file\"1. (\"functlon\"r resd_fite, \"schea\": resd_file_schea),: def _lnlt_iself, model_id: str i \"gemini-3-flash-previtr. toots: dlct = Hon \"urlte_file\": (\"function\": vritc_fite,. -schees-i urite_file_schca),: 1. Prepore tools for the APl call' toot detinitions = [tt\"schema-] for t in selt.toots.values()] if setf.toot Initinlizes the Agent vith o Geinl clieit, mooe v.twsniu-interetl self. toots.n tools or ( procesesnInputotrung neretonyihepobeire ponse7 untinirgcg Processes: on lnput, and rtturns tht model's.respoase, handling tool.,calts. se?t.client. genal.cllent() self.prtvious_lnteraction_id + None: self.sodel_id = nodel_1d' lnteraction rodelaso. Acctp! Chsrge xt a↑.x ↓: 0x0d Acotpt t?: Includas tho Pyhon irplemantotlona, JsON schemus, sind\" Edhed 1 to v updsting the sgent's interaction ioop to hande tool calls.: t here created an Implemertation plan to sdd tha' Ask anything, e to minilon, I Ior worktiovs Gesd flle and Mrite tite toos to ine Agent. This. +. A Paving A Gemn S Flenh: ' Thought for 4s:: Anatyzod solution Edlted Implementation Plan - Anthyzed & sgent py nlt-i31.: schemu., Iirptamentatlons, the JSON scheru detindtions, and a map to connect each. toor's key to its functon snid. 1've got o sotd python examole n Defining New Yools. Hrp'ament resd_fite, and Write_fite: tools within arkshop/aain py., rm working on the Python Sotut fon/aaent.py, to oude mo. The tuask is to'.\n@ 邮 Ln 34; Col 10 (22 tolhcted}3 Spco1; 4 年 UTF-8 & LF $: {) Python 3.12.12 (ronr': venw) 甲 S+lect Python Intefprotor, Anugrrylty: Setng+ 高':",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code/editor screenshot with small text and UI chrome; OCR is more suitable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3ecd2",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Creating Agent Class Structure",
+            "x": 64.0,
+            "y": 2.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "code",
+            "text": "class Agent:",
+            "x": 8.0,
+            "y": 15.0,
+            "w": 46.0,
+            "h": 62.0
+          },
+          {
+            "role": "caption",
+            "text": "Next we need to add a read_file and write_file tool.",
+            "x": 58.0,
+            "y": 16.0,
+            "w": 34.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667191.3440156,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "main.py x In Watthrcugh. Task tmpamentation Pliun 个日4 Crealing Agent Clats Structure x...@+\nworkshop > d mnin.gy 49 37 EE write_fite_schew = { \"phraooters\":! \"required- I\"tile_path-, rcontents\"l.. Noxt wo noed to odd a read_fbo and write_ fe tool.: Create a basic python kuolenentatlon and also the Fon tchems defition and map for the key: function, schems\n59 51 52 53 55 56 58 60 62 64 65 66 67 69 70 71 72 74 75 76 57 61 63 77 8 3. Reo istry sapping tool naaes to functlons sed scheras tootsap = { class Agent: derrnaoo. det.run(selt, input_text:,str Illst) - str: \"read_file\"1. (\"functlon\"r resd_fite, \"schea\": resd_file_schea),: def _lnlt_iself, model_id: str i \"gemini-3-flash-previtr. toots: dlct = Hon \"urlte_file\": (\"function\": vritc_fite,. -schees-i urite_file_schca),: 1. Prepore tools for the APl call' toot detinitions = [tt\"schema-] for t in selt.toots.values()] if setf.toot Initinlizes the Agent vith o Geinl clieit, mooe v.twsniu-interetl self. toots.n tools or ( procesesnInputotrung neretonyihepobeire ponse7 untinirgcg Processes: on lnput, and rtturns tht model's.respoase, handling tool.,calts. se?t.client. genal.cllent() self.prtvious_lnteraction_id + None: self.sodel_id = nodel_1d' lnteraction rodelaso. Acctp! Chsrge xt a↑.x ↓: 0x0d Acotpt t?: Includas tho Pyhon irplemantotlona, JsON schemus, sind\" Edhed 1 to v updsting the sgent's interaction ioop to hande tool calls.: t here created an Implemertation plan to sdd tha' Ask anything, e to minilon, I Ior worktiovs Gesd flle and Mrite tite toos to ine Agent. This. +. A Paving A Gemn S Flenh: ' Thought for 4s:: Anatyzod solution Edlted Implementation Plan - Anthyzed & sgent py nlt-i31.: schemu., Iirptamentatlons, the JSON scheru detindtions, and a map to connect each. toor's key to its functon snid. 1've got o sotd python examole n Defining New Yools. Hrp'ament resd_fite, and Write_fite: tools within arkshop/aain py., rm working on the Python Sotut fon/aaent.py, to oude mo. The tuask is to'.\n@ 邮 Ln 34; Col 10 (22 tolhcted}3 Spco1; 4 年 UTF-8 & LF $: {) Python 3.12.12 (ronr': venw) 甲 S+lect Python Intefprotor, Anugrrylty: Setng+ 高':",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2475.0
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "main.py x In Watthrcugh. Task tmpamentation Pliun 个日4 Crealing Agent Clats Structure x...@+\nworkshop > d mnin.gy 49 37 EE write_fite_schew = { \"phraooters\":! \"required- I\"tile_path-, rcontents\"l.. Noxt wo noed to odd a read_fbo and write_ fe tool.: Create a basic python kuolenentatlon and also the Fon tchems defition and map for the key: function, schems\n59 51 52 53 55 56 58 60 62 64 65 66 67 69 70 71 72 74 75 76 57 61 63 77 8 3. Reo istry sapping tool naaes to functlons sed scheras tootsap = { class Agent: derrnaoo. det.run(selt, input_text:,str Illst) - str: \"read_file\"1. (\"functlon\"r resd_fite, \"schea\": resd_file_schea),: def _lnlt_iself, model_id: str i \"gemini-3-flash-previtr. toots: dlct = Hon \"urlte_file\": (\"function\": vritc_fite,. -schees-i urite_file_schca),: 1. Prepore tools for the APl call' toot detinitions = [tt\"schema-] for t in selt.toots.values()] if setf.toot Initinlizes the Agent vith o Geinl clieit, mooe v.twsniu-interetl self. toots.n tools or ( procesesnInputotrung neretonyihepobeire ponse7 untinirgcg Processes: on lnput, and rtturns tht model's.respoase, handling tool.,calts. se?t.client. genal.cllent() self.prtvious_lnteraction_id + None: self.sodel_id = nodel_1d' lnteraction rodelaso. Acctp! Chsrge xt a↑.x ↓: 0x0d Acotpt t?: Includas tho Pyhon irplemantotlona, JsON schemus, sind\" Edhed 1 to v updsting the sgent's interaction ioop to hande tool calls.: t here created an Implemertation plan to sdd tha' Ask anything, e to minilon, I Ior worktiovs Gesd flle and Mrite tite toos to ine Agent. This. +. A Paving A Gemn S Flenh: ' Thought for 4s:: Anatyzod solution Edlted Implementation Plan - Anthyzed & sgent py nlt-i31.: schemu., Iirptamentatlons, the JSON scheru detindtions, and a map to connect each. toor's key to its functon snid. 1've got o sotd python examole n Defining New Yools. Hrp'ament resd_fite, and Write_fite: tools within arkshop/aain py., rm working on the Python Sotut fon/aaent.py, to oude mo. The tuask is to'.\n@ 邮 Ln 34; Col 10 (22 tolhcted}3 Spco1; 4 年 UTF-8 & LF $: {) Python 3.12.12 (ronr': venw) 甲 S+lect Python Intefprotor, Anugrrylty: Setng+ 高':",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Google Al Studio:v: EPlayground\npuno6d 3\nx Bula. >\n@ Dnshboard\n: Documonbaton:. >:\n田\nVolco\n: 0:00 / 0:08 xond\nW'hat do you think of rry out'h? Media resolulon 258 tokens/ wmage\nHDGY Thinvng kere!\n0:00 / 0:09 BuuI 0N\n*.\nWal now, you'ro lookin' vary smart so you arot That greon acket su'ts you woa, I must say. A grand casual look. Y'ere you th'nkin' of hesdin' out somewhere? Sesron Cortut\nQ Searth O vhat's naw. O Coogt L noot itry mule mhLhui, to douchtchdk cutput. Sream Is ive Dtrannta Yools Furction catng Ean.\no Get APi koy QSrtingi thorsten.schaefeo...:Start typlng I prompt 丨：B Toous Grounding with Googte Search Automatc Function Rosponse",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot with many small labels and embedded media panes; OCR can capture it more reliably.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4ecd7",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Google AI Studio",
+            "x": 5.0,
+            "y": 3.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Playground",
+            "x": 26.0,
+            "y": 3.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "What do you think of my outfit?",
+            "x": 24.0,
+            "y": 44.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Voice",
+            "x": 74.0,
+            "y": 40.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Function calling",
+            "x": 74.0,
+            "y": 71.0,
+            "w": 15.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667269.945219,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Google AI Studio\nPlayground",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Google Al Studio:v: EPlayground\npuno6d 3\nx Bula. >\n@ Dnshboard\n: Documonbaton:. >:\n田\nVolco\n: 0:00 / 0:08 xond\nW'hat do you think of rry out'h? Media resolulon 258 tokens/ wmage\nHDGY Thinvng kere!\n0:00 / 0:09 BuuI 0N\n*.\nWal now, you'ro lookin' vary smart so you arot That greon acket su'ts you woa, I must say. A grand casual look. Y'ere you th'nkin' of hesdin' out somewhere? Sesron Cortut\nQ Searth O vhat's naw. O Coogt L noot itry mule mhLhui, to douchtchdk cutput. Sream Is ive Dtrannta Yools Furction catng Ean.\no Get APi koy QSrtingi thorsten.schaefeo...:Start typlng I prompt 丨：B Toous Grounding with Googte Search Automatc Function Rosponse",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1029.28
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Google Al Studio:v: EPlayground\npuno6d 3\nx Bula. >\n@ Dnshboard\n: Documonbaton:. >:\n田\nVolco\n: 0:00 / 0:08 xond\nW'hat do you think of rry out'h? Media resolulon 258 tokens/ wmage\nHDGY Thinvng kere!\n0:00 / 0:09 BuuI 0N\n*.\nWal now, you'ro lookin' vary smart so you arot That greon acket su'ts you woa, I must say. A grand casual look. Y'ere you th'nkin' of hesdin' out somewhere? Sesron Cortut\nQ Searth O vhat's naw. O Coogt L noot itry mule mhLhui, to douchtchdk cutput. Sream Is ive Dtrannta Yools Furction catng Ean.\no Get APi koy QSrtingi thorsten.schaefeo...:Start typlng I prompt 丨：B Toous Grounding with Googte Search Automatc Function Rosponse",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Gemini Live APl Demo 'Corrcttd\nwhat this APl can do. Why not try out some fun features, Bke: Top o' the mornirg to yal fm GeminI Live, a Ettle dermo of? snother language? What do ya think?. heorin' mo speak Iin ditferent sccents, or see H I can chat in.:......\nStart camera to send video\nstog AY- *+.+F* Sart Camoo. Sh.re screen tcorract Type a mesisge... Bond:\nLive Caprion Top ot the Marto To, I'm Cemin ufe. O itlle damo o!",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "UI demo slide with small interface text and captions; OCR is appropriate for the dense screenshot content.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f3ead6",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Gemini Live API Demo",
+            "x": 9.0,
+            "y": 9.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Start camera to send video",
+            "x": 15.0,
+            "y": 32.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Top o' the morning to ya! I'm Gemini Live, a little demo of what this API can do.",
+            "x": 54.0,
+            "y": 18.0,
+            "w": 39.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667326.6879346,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Gemini Live API Demo",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Gemini Live APl Demo 'Corrcttd\nwhat this APl can do. Why not try out some fun features, Bke: Top o' the mornirg to yal fm GeminI Live, a Ettle dermo of? snother language? What do ya think?. heorin' mo speak Iin ditferent sccents, or see H I can chat in.:......\nStart camera to send video\nstog AY- *+.+F* Sart Camoo. Sh.re screen tcorract Type a mesisge... Bond:\nLive Caprion Top ot the Marto To, I'm Cemin ufe. O itlle damo o!",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 751.2
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Gemini Live APl Demo 'Corrcttd\nwhat this APl can do. Why not try out some fun features, Bke: Top o' the mornirg to yal fm GeminI Live, a Ettle dermo of? snother language? What do ya think?. heorin' mo speak Iin ditferent sccents, or see H I can chat in.:......\nStart camera to send video\nstog AY- *+.+F* Sart Camoo. Sh.re screen tcorract Type a mesisge... Bond:\nLive Caprion Top ot the Marto To, I'm Cemin ufe. O itlle damo o!",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Gemini Live API Demo",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chat/demo UI screenshot with multiple language bubbles and small controls; OCR will be more accurate than manual transcription here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3ead6",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Gemini Live API Demo",
+            "x": 9.0,
+            "y": 8.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Ja, aber können wir auch Deutsch sprechen, bitte?",
+            "x": 57.0,
+            "y": 22.0,
+            "w": 29.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "当然可以没问题。想聊聊什么呢？",
+            "x": 57.0,
+            "y": 39.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Ah! Need to find them huh?",
+            "x": 78.0,
+            "y": 53.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667370.0775042,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Gemini Live API Demo",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/contrast",
+        "best_score": 517.52,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0284
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "RLO\nConnection wilbe established directly to the Gemini API Voice: API Configuration Connection Settings using an ephemeral token from the backend. ModelID: gemini-3.1-flash-live-p Gemini Behavior System Instructions: You are a helpful assistant.Be concise and friendly. Puck(Default Temperature:1.0 Microphone: Camera: Chat MediaStreaming Default Microphone %08 Default Camera StartVideo Share Screen StartAudio (（) loded gsiLipi.j displayer initalied SETP COLETE Servsce UR (vlalphal： lE/generatiyelan CreatedCeniai Line APIobjecti 3477155A vehseciet spesi getFunctionbefinitianscalled Geogle Grending enabled,removing cstoe Setup corplete: necting directly tei ratirie? le5/ /24565112645868722644 et（-） fncti alls if y. \" rativelar ralivni odets/ge.xla.ta_tahe ai-d.l-flab-le-peie', ：ath./14565f Detault lev oeiniLeeJs437 AL.J31287 5/1424515 pesiniliet.is1315 stiat.tt:257\nControls randomess（0.0-2.0].Highermore creative/diverse,Lower more predictable/focused Enable Google grounding（Enabling Google grounding will disable custom tools) Connect toGemini to startchatting SYSTEM:Ready!\nCustomTools\nTranscription Settings\nActivity Detection Setings\nConnect Disconnect\nConnected\nSetup Message JSON(raw config sent to Gemini API)\nType a message. Send",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense configuration UI and console output with small text; OCR is the right capture method.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f5ecd7",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "API Configuration",
+            "x": 5.0,
+            "y": 6.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Media Streaming",
+            "x": 34.0,
+            "y": 6.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Connection Settings",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Gemini Behavior",
+            "x": 5.0,
+            "y": 29.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Chat",
+            "x": 36.0,
+            "y": 49.0,
+            "w": 8.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667403.2488666,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "API Configuration\nMedia Streaming",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "RLO\nConnection wilbe established directly to the Gemini API Voice: API Configuration Connection Settings using an ephemeral token from the backend. ModelID: gemini-3.1-flash-live-p Gemini Behavior System Instructions: You are a helpful assistant.Be concise and friendly. Puck(Default Temperature:1.0 Microphone: Camera: Chat MediaStreaming Default Microphone %08 Default Camera StartVideo Share Screen StartAudio (（) loded gsiLipi.j displayer initalied SETP COLETE Servsce UR (vlalphal： lE/generatiyelan CreatedCeniai Line APIobjecti 3477155A vehseciet spesi getFunctionbefinitianscalled Geogle Grending enabled,removing cstoe Setup corplete: necting directly tei ratirie? le5/ /24565112645868722644 et（-） fncti alls if y. \" rativelar ralivni odets/ge.xla.ta_tahe ai-d.l-flab-le-peie', ：ath./14565f Detault lev oeiniLeeJs437 AL.J31287 5/1424515 pesiniliet.is1315 stiat.tt:257\nControls randomess（0.0-2.0].Highermore creative/diverse,Lower more predictable/focused Enable Google grounding（Enabling Google grounding will disable custom tools) Connect toGemini to startchatting SYSTEM:Ready!\nCustomTools\nTranscription Settings\nActivity Detection Setings\nConnect Disconnect\nConnected\nSetup Message JSON(raw config sent to Gemini API)\nType a message. Send",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1477.64
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "RLO\nConnection wilbe established directly to the Gemini API Voice: API Configuration Connection Settings using an ephemeral token from the backend. ModelID: gemini-3.1-flash-live-p Gemini Behavior System Instructions: You are a helpful assistant.Be concise and friendly. Puck(Default Temperature:1.0 Microphone: Camera: Chat MediaStreaming Default Microphone %08 Default Camera StartVideo Share Screen StartAudio (（) loded gsiLipi.j displayer initalied SETP COLETE Servsce UR (vlalphal： lE/generatiyelan CreatedCeniai Line APIobjecti 3477155A vehseciet spesi getFunctionbefinitianscalled Geogle Grending enabled,removing cstoe Setup corplete: necting directly tei ratirie? le5/ /24565112645868722644 et（-） fncti alls if y. \" rativelar ralivni odets/ge.xla.ta_tahe ai-d.l-flab-le-peie', ：ath./14565f Detault lev oeiniLeeJs437 AL.J31287 5/1424515 pesiniliet.is1315 stiat.tt:257\nControls randomess（0.0-2.0].Highermore creative/diverse,Lower more predictable/focused Enable Google grounding（Enabling Google grounding will disable custom tools) Connect toGemini to startchatting SYSTEM:Ready!\nCustomTools\nTranscription Settings\nActivity Detection Setings\nConnect Disconnect\nConnected\nSetup Message JSON(raw config sent to Gemini API)\nType a message. Send",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "API Configuration\nMedia Streaming",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense configuration UI plus devtools/network output and chat transcript; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f5ecd7",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "API Configuration",
+            "x": 5.0,
+            "y": 6.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Media Streaming",
+            "x": 34.0,
+            "y": 6.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Chat",
+            "x": 36.0,
+            "y": 48.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "SYSTEM: Ready!",
+            "x": 37.0,
+            "y": 28.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Debug Info",
+            "x": 36.0,
+            "y": 76.0,
+            "w": 12.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667450.6661177,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "API Configuration\nMedia Streaming",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/opencv-adaptive",
+        "best_score": 2612.0,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "google-gemini/gemini-live-api-examples\nGemini Live provides multimodal realtime agent capabilities. Build voice agents that can process vision and text in realtime.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large, simple text is directly readable; OCR not needed.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "warm beige",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "google-gemini/gemini-live-api-examples",
+            "x": 10.0,
+            "y": 17.0,
+            "w": 48.0,
+            "h": 19.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Gemini Live provides multimodal realtime agent capabilities. Build voice agents that can process vision and text in realtime.",
+            "x": 11.0,
+            "y": 43.0,
+            "w": 44.0,
+            "h": 18.0
+          },
+          {
+            "role": "logo",
+            "text": "G",
+            "x": 76.0,
+            "y": 16.0,
+            "w": 16.0,
+            "h": 29.0
+          },
+          {
+            "role": "caption",
+            "text": "3 Contributors 0 Issues 151 Stars 47 Forks",
+            "x": 11.0,
+            "y": 73.0,
+            "w": 43.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667683.9317176,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "google-gemini/gemini-live-api-examples\nGemini Live provides multimodal realtime agent capabilities. Build voice agents that can process vision and text in realtime.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.89,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Google The Keyvord Bula reaTtre conrueora aoena wrh Gtmin Lll Pmn Lv\nUtng th+ GtTil L+ AP, Soich nou trhcites ht Ltnt to vb+ dttgy +ath trr voice. ha sgont Cin'het' de Carvt\ntnd ititcta torttnt nd ghe dngn csnomtr, bolu veretint tna cit.\n。\nBuild with an expanding ecosystem of\nblog google uses cocdes from Google to derrer ard enhanct lhe quairty of ite sermces and to analyze tratic. Leam,more:-+AM-+iAn. OKOOtR",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Browser/UI screenshot with smaller embedded text is better suited to OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "warm beige",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Build real-time conversational agents with Gemini 2.1 Flash Live",
+            "x": 29.0,
+            "y": 1.0,
+            "w": 44.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/cVzf49yg0D8/slide-014.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667683.9330275,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Build real-time conversational agents with Gemini 2.1 Flash Live",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Google The Keyvord Bula reaTtre conrueora aoena wrh Gtmin Lll Pmn Lv\nUtng th+ GtTil L+ AP, Soich nou trhcites ht Ltnt to vb+ dttgy +ath trr voice. ha sgont Cin'het' de Carvt\ntnd ititcta torttnt nd ghe dngn csnomtr, bolu veretint tna cit.\n。\nBuild with an expanding ecosystem of\nblog google uses cocdes from Google to derrer ard enhanct lhe quairty of ite sermces and to analyze tratic. Leam,more:-+AM-+iAn. OKOOtR",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 735.64
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Google The Keyvord Bula reaTtre conrueora aoena wrh Gtmin Lll Pmn Lv\nUtng th+ GtTil L+ AP, Soich nou trhcites ht Ltnt to vb+ dttgy +ath trr voice. ha sgont Cin'het' de Carvt\ntnd ititcta torttnt nd ghe dngn csnomtr, bolu veretint tna cit.\n。\nBuild with an expanding ecosystem of\nblog google uses cocdes from Google to derrer ard enhanct lhe quairty of ite sermces and to analyze tratic. Leam,more:-+AM-+iAn. OKOOtR",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/cVzf49yg0D8/slide-014.html"
+    }
+  ],
+  "rejected": []
+}

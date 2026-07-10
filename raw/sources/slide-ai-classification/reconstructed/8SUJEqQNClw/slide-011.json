@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Or like this:\n\n// Ingest\nconst [notifyTeam, assignPlan] = await Promise.all([\n  step.run(\"notify_team\", async () => {\n    return { notified: true };\n  }),\n  step.run(\"assign_default_plan\", async () => {\n    return { planId: \"starter\" };\n  }),\n]);\n\ngithub.com/mastra-ai/mastra",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code snippet and small text are better handled by OCR, while the title is short enough to read directly.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "near-black with faint concentric rings",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "Or like this:",
+        "x": 24.0,
+        "y": 28.0,
+        "w": 19.0,
+        "h": 11.0
+      },
+      {
+        "role": "code",
+        "text": "// Ingest",
+        "x": 50.0,
+        "y": 18.0,
+        "w": 45.0,
+        "h": 47.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-011.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658257.5114207,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Or like this:",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "AIE Or like this: const [notifyTeam,assignPlan]= await Promise.all（[ step.run(\"notify_team\",async（)=>{ return {notified:true };\nstep.run(\"assign_default_plan\",async()=>{ return {planId:\"starter\");\ngithub.com/mastra-ai/mastra",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 285.68
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Or like this:\n\n// Ingest\nconst [notifyTeam, assignPlan] = await Promise.all([\n  step.run(\"notify_team\", async () => {\n    return { notified: true };\n  }),\n  step.run(\"assign_default_plan\", async () => {\n    return { planId: \"starter\" };\n  }),\n]);\n\ngithub.com/mastra-ai/mastra",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR with corrections to punctuation, brackets, and code formatting; kept only clearly visible text."
+  }
+}

@@ -12,7 +12,7 @@
       aspect-ratio: 16 / 9;
       margin: 0 auto;
       overflow: hidden;
-      background: #22363c;
+      background: #10141f;
       color: #f8fafc;
       box-sizing: border-box;
       border: 1px solid rgba(15, 23, 42, 0.16);
@@ -24,7 +24,7 @@
 </head>
 <body>
   <main class="slide">
-    <div class="block" style="left:64.00%;top:12.00%;width:28.00%;min-height:31.00%;font-size:clamp(20px, 3.4vw, 44px);font-weight:800;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">Our agent loop,<br>rebuilt<br>Effect-native.</div><div class="block" style="left:64.00%;top:8.00%;width:11.00%;min-height:4.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:800;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">The Harness</div><div class="block" style="left:1.00%;top:8.00%;width:61.00%;min-height:58.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:ui-monospace, SFMono-Regular, Menlo, monospace;">Example<br>import { Chat, LanguageModel } from &quot;@effect/ai&quot;<br>import { Effect, Stream } from &quot;effect&quot;<br><br>// Streaming chat with tool support<br>const streamingChat = Effect.gen(function* () {<br>  const chat = yield* Chat.empty<br><br>  yield chat<br>    .streamText({<br>      prompt: &quot;Generate a creative story&quot;<br>    })<br>    .pipe(Stream.runForEach((part) =&gt; Effect.sync(() =&gt; console.log(part))))<br>})</div><div class="block" style="left:64.00%;top:74.00%;width:33.00%;min-height:15.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">The core loop started on LangGraph. It now runs fully<br>Effect-native typed control flow, structured concurrency, and<br>resource safety end to end. Also allows more granular control to<br>the agent loop.</div><div class="block" style="left:15.00%;top:89.00%;width:40.00%;min-height:4.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">Source: https://effect-ts.github.io/effect/docs/</div>
+    <div class="block" style="left:1.00%;top:12.00%;width:60.00%;min-height:68.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:ui-monospace, SFMono-Regular, Menlo, monospace;">Example</div><div class="block" style="left:63.00%;top:12.00%;width:18.00%;min-height:8.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:800;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">The Harness</div><div class="block" style="left:63.00%;top:21.00%;width:32.00%;min-height:26.00%;font-size:clamp(20px, 3.4vw, 44px);font-weight:800;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">Our agent loop, rebuilt Effect-native.</div><div class="block" style="left:63.00%;top:59.00%;width:31.00%;min-height:24.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">The core loop started on LangGraph. It now runs fully Effect-native typed control flow, structured concurrency, and resource safety end to end. Also allows more granular control to the agent loop.</div>
     <div class="meta">AI text/layout recreation from video frame; verify against source image.</div>
   </main>
 </body>

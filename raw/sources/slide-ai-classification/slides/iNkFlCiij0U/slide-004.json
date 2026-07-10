@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Difficulty / Model Headroom\nBenchmarkis unsaturated.\nARC-AGI-3\ntasks were solvable by humans) Shipped with <1% model score (100% of\nThe Human-Al Gap\nEngineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense slide with chart panels and small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black chart panels",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Difficulty / Model Headroom",
+        "x": 28.0,
+        "y": 7.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Benchmark is unsaturated.",
+        "x": 28.0,
+        "y": 21.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "ARC-AGI-3",
+        "x": 30.0,
+        "y": 32.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Shipped with <1% model score (100% of tasks were solvable by humans)",
+        "x": 30.0,
+        "y": 42.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "The Human-AI Gap",
+        "x": 70.0,
+        "y": 66.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "Engineering the future of AI",
+        "x": 36.0,
+        "y": 88.0,
+        "w": 28.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/iNkFlCiij0U/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668924.9298048,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/contrast",
+    "text": "Difficulty / Model Headroom\nBenchmarkis unsaturated.\nARC-AGI-3\ntasks were solvable by humans) Shipped with <1% model score (100% of\nThe Human-Al Gap\nEngineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 284.32
+  },
+  "ocr_source": "rapidocr-live/right-72/contrast",
+  "ocr_reconcile": {
+    "text": "Difficulty / Model Headroom\nBenchmarkis unsaturated.\nARC-AGI-3\ntasks were solvable by humans) Shipped with <1% model score (100% of\nThe Human-Al Gap\nEngineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

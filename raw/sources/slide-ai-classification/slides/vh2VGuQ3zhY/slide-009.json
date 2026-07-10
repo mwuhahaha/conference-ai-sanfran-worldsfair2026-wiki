@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Teams Are Hitting the Same Tool-Scaling Wall INDUSTRYEVIDENCE\nReal evidence from practitioners,engineers,and Anthropic itself,not simulated benchmarks. Ankush Rastogi\ntokens 150K → 2K Loading only the toolsneeded for the Anthropic Engineering Blog currenttaskdropsusagefrom1so.oooto 2,000 with98.7%cut. 20+ tools breaksit Vercel AI SDK - Issue #11920 Sending alltool definitions every request choice,and ralses tokers+latency.\" degrades performance,confuses tool\nOfficial Anthropicfinding Real practitioner issue jon 2026\nSohnl Shakh\n98% tokenreduction Selects accurately from~3K candidates MCP-Zero (xfey/MCP-Zero) whilecutting tokens 98% Testedon308MCPserversand2.797toob. >2 tools-+stuckloop stuckin aloop,burningthroughallmax iterations.Hit in production. n8n Community Forum \"Addmorethan two toolsandtheAlgets\nOpen source,code cvailable now Production foslure·Aug 2024\n15\nboseysruy",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense evidence matrix with multiple source callouts and small supporting copy.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark blue gradient",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "INDUSTRY EVIDENCE",
+        "x": 5.0,
+        "y": 9.0,
+        "w": 25.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Teams Are Hitting the Same Tool-Scaling Wall",
+        "x": 5.0,
+        "y": 15.0,
+        "w": 70.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Real evidence from practitioners, engineers, and Anthropic itself, not simulated benchmarks.",
+        "x": 5.0,
+        "y": 24.0,
+        "w": 85.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "150K -> 2K\nAnthropic Engineering Blog",
+        "x": 5.0,
+        "y": 35.0,
+        "w": 42.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "20+\nVercel AI SDK - Issue #11920",
+        "x": 51.0,
+        "y": 35.0,
+        "w": 42.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "98%\nMCP-Zero (xfey/MCP-Zero)",
+        "x": 5.0,
+        "y": 64.0,
+        "w": 42.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "> 2\nn8n Community Forum",
+        "x": 51.0,
+        "y": 64.0,
+        "w": 42.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/vh2VGuQ3zhY/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672499.4560156,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Teams Are Hitting the Same Tool-Scaling Wall INDUSTRYEVIDENCE\nReal evidence from practitioners,engineers,and Anthropic itself,not simulated benchmarks. Ankush Rastogi\ntokens 150K → 2K Loading only the toolsneeded for the Anthropic Engineering Blog currenttaskdropsusagefrom1so.oooto 2,000 with98.7%cut. 20+ tools breaksit Vercel AI SDK - Issue #11920 Sending alltool definitions every request choice,and ralses tokers+latency.\" degrades performance,confuses tool\nOfficial Anthropicfinding Real practitioner issue jon 2026\nSohnl Shakh\n98% tokenreduction Selects accurately from~3K candidates MCP-Zero (xfey/MCP-Zero) whilecutting tokens 98% Testedon308MCPserversand2.797toob. >2 tools-+stuckloop stuckin aloop,burningthroughallmax iterations.Hit in production. n8n Community Forum \"Addmorethan two toolsandtheAlgets\nOpen source,code cvailable now Production foslure·Aug 2024\n15\nboseysruy",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1109.5
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Teams Are Hitting the Same Tool-Scaling Wall INDUSTRYEVIDENCE\nReal evidence from practitioners,engineers,and Anthropic itself,not simulated benchmarks. Ankush Rastogi\ntokens 150K → 2K Loading only the toolsneeded for the Anthropic Engineering Blog currenttaskdropsusagefrom1so.oooto 2,000 with98.7%cut. 20+ tools breaksit Vercel AI SDK - Issue #11920 Sending alltool definitions every request choice,and ralses tokers+latency.\" degrades performance,confuses tool\nOfficial Anthropicfinding Real practitioner issue jon 2026\nSohnl Shakh\n98% tokenreduction Selects accurately from~3K candidates MCP-Zero (xfey/MCP-Zero) whilecutting tokens 98% Testedon308MCPserversand2.797toob. >2 tools-+stuckloop stuckin aloop,burningthroughallmax iterations.Hit in production. n8n Community Forum \"Addmorethan two toolsandtheAlgets\nOpen source,code cvailable now Production foslure·Aug 2024\n15\nboseysruy",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

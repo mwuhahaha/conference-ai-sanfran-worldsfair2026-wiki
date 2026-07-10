@@ -1,0 +1,68 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "speaker intro card with booth branding and no substantive talk content",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "intro card, not a content slide",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "white with black left panel and black footer",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 20.0,
+        "w": 12.0,
+        "h": 17.0
+      },
+      {
+        "role": "title",
+        "text": "Michal Cichra",
+        "x": 29.0,
+        "y": 6.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "/Spec27 SAFE Intelligence",
+        "x": 29.0,
+        "y": 18.0,
+        "w": 37.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Find me at the booth.",
+        "x": 29.0,
+        "y": 33.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 43.0,
+        "y": 82.0,
+        "w": 34.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/504PvfXou5Y/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658339.2098043,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,23 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.0,
+  "frame_type": "other",
+  "reject_reason": "missing batch classifier result",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "layout": {
+    "background": "#ffffff",
+    "style": "light",
+    "blocks": []
+  },
+  "image": "wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-006.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671978.2672079,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

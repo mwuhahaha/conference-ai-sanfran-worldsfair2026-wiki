@@ -1,0 +1,92 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.96,
+  "frame_type": "title_card",
+  "reject_reason": "intro/title card with branding and speaker name, not substantive slide content",
+  "text": "Deep-Dive: RL, Kernels, Agents & Quantization",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "title-card style frame with large decorative elements and little dense content",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "white with black side banner",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "unsloth",
+        "x": 28.0,
+        "y": 10.0,
+        "w": 22.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Deep-Dive: RL, Kernels, Agents & Quantization",
+        "x": 27.0,
+        "y": 29.0,
+        "w": 41.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Daniel Han",
+        "x": 72.0,
+        "y": 6.0,
+        "w": 17.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Co-founder",
+        "x": 73.0,
+        "y": 18.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Access the slides",
+        "x": 78.0,
+        "y": 49.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 15.0,
+        "w": 12.0,
+        "h": 15.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 63.0,
+        "y": 82.0,
+        "w": 11.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "www.unsloth.ai",
+        "x": 27.0,
+        "y": 55.0,
+        "w": 20.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/OkEGJ5G3foU/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662198.7639925,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Deep-Dive: RL, Kernels, Agents & Quantization",
+  "advanced_ocr": {}
+}

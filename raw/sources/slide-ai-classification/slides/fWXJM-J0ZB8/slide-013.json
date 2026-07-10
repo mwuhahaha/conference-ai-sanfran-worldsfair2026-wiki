@@ -1,0 +1,71 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Ichthyosaur echolocation capabilities",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-column screenshot with small text; OCR should capture it better than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#1f1f1f",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Ichthyosaur echolocation capabilities",
+        "x": 31.0,
+        "y": 1.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "3. Not universal:\n4. No direct evidence:",
+        "x": 6.0,
+        "y": 11.0,
+        "w": 42.0,
+        "h": 69.0
+      },
+      {
+        "role": "body",
+        "text": "2. Evolutionary Context\n3. Ecological Niche:",
+        "x": 54.0,
+        "y": 10.0,
+        "w": 39.0,
+        "h": 69.0
+      },
+      {
+        "role": "caption",
+        "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+        "x": 0,
+        "y": 0,
+        "w": 7.0,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667872.5875363,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Ichthyosaur echolocation capabilities",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 1906.0,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

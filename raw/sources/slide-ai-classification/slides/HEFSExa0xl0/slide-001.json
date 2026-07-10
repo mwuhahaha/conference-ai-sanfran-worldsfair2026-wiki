@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Speaker on stage with a cropped projected slide; not a readable presentation frame.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Stage shot, not a slide.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "purple stage lighting with projected screen",
+    "style": "other",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIEngineer EUROPE",
+        "x": 52.0,
+        "y": 13.0,
+        "w": 15.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "Nuno Campos",
+        "x": 78.0,
+        "y": 15.0,
+        "w": 15.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/HEFSExa0xl0/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659368.7013674,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

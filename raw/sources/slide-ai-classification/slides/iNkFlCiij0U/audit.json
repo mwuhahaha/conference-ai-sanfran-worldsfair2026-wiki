@@ -1,0 +1,526 @@
+{
+  "video_id": "iNkFlCiij0U",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 4,
+  "rejected_count": 3,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Snorke The Frontier Al Data Lab\nAcademic Labs! Team Publications/OsS Collsborations\nAlex Ratrer Stmlord Ppo. Co-TO LCEO Asu, Prol Ltult iLlL anduyry Jnd lesdung instiution moruing on dutu (enlrk A mith fexng global Lbs Rtsearchers, FDEs, and Applied A Erginrers frorn. ondLLTenkriAnd foundlnon modthy\nChris Re UA\nProf. at Susfeeu Co foundir. Vanfotd Center for Hretrch on 1 Yalc A+urd at Hrurts, Ktl, klk, Ull, Y.Dt, an4 more\nExpertlso and Capablrties Bonchmarks\nFrod Sats UCLA PhD.Aust Prof.st ClirSnolan Hieh prror proramTk ala dreapment lor Cotachartd + cetihutd to Uo Tnrb.ein. Liart-Trr tt et adancd phyk1 proolrs\nAerrth aorkhoa, harrs, ard toct u+ rmcdetn. -\n12\nBnere A I Popr tlly + Carld+ren t Not yr dHttuler\nGoogle DeepMind",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense multi-column slide with small text and logos",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black side panel",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Snorkel",
+            "x": 30.0,
+            "y": 6.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "The Frontier AI Data Lab",
+            "x": 44.0,
+            "y": 7.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 18.0,
+            "w": 12.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Academic Labs",
+            "x": 28.0,
+            "y": 15.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Team",
+            "x": 49.0,
+            "y": 15.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Publications / OSS Collaborations",
+            "x": 71.0,
+            "y": 15.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Expertise and Capabilities",
+            "x": 28.0,
+            "y": 48.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Benchmarks",
+            "x": 71.0,
+            "y": 48.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 46.0,
+            "y": 84.0,
+            "w": 22.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iNkFlCiij0U/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668844.0349095,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/opencv-adaptive",
+        "text": "Snorke The Frontier Al Data Lab\nAcademic Labs! Team Publications/OsS Collsborations\nAlex Ratrer Stmlord Ppo. Co-TO LCEO Asu, Prol Ltult iLlL anduyry Jnd lesdung instiution moruing on dutu (enlrk A mith fexng global Lbs Rtsearchers, FDEs, and Applied A Erginrers frorn. ondLLTenkriAnd foundlnon modthy\nChris Re UA\nProf. at Susfeeu Co foundir. Vanfotd Center for Hretrch on 1 Yalc A+urd at Hrurts, Ktl, klk, Ull, Y.Dt, an4 more\nExpertlso and Capablrties Bonchmarks\nFrod Sats UCLA PhD.Aust Prof.st ClirSnolan Hieh prror proramTk ala dreapment lor Cotachartd + cetihutd to Uo Tnrb.ein. Liart-Trr tt et adancd phyk1 proolrs\nAerrth aorkhoa, harrs, ard toct u+ rmcdetn. -\n12\nBnere A I Popr tlly + Carld+ren t Not yr dHttuler\nGoogle DeepMind",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1171.6
+      },
+      "ocr_source": "rapidocr-live/right-72/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Snorke The Frontier Al Data Lab\nAcademic Labs! Team Publications/OsS Collsborations\nAlex Ratrer Stmlord Ppo. Co-TO LCEO Asu, Prol Ltult iLlL anduyry Jnd lesdung instiution moruing on dutu (enlrk A mith fexng global Lbs Rtsearchers, FDEs, and Applied A Erginrers frorn. ondLLTenkriAnd foundlnon modthy\nChris Re UA\nProf. at Susfeeu Co foundir. Vanfotd Center for Hretrch on 1 Yalc A+urd at Hrurts, Ktl, klk, Ull, Y.Dt, an4 more\nExpertlso and Capablrties Bonchmarks\nFrod Sats UCLA PhD.Aust Prof.st ClirSnolan Hieh prror proramTk ala dreapment lor Cotachartd + cetihutd to Uo Tnrb.ein. Liart-Trr tt et adancd phyk1 proolrs\nAerrth aorkhoa, harrs, ard toct u+ rmcdetn. -\n12\nBnere A I Popr tlly + Carld+ren t Not yr dHttuler\nGoogle DeepMind",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/iNkFlCiij0U/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Open Benchmarks\nAIE Grants\nA$3M+commitmentto\nopenbenchmarks\nSnorkel HuggingFace PRImEIntellect together.ai FACTORY harbor OPyTorch\nAIEngineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "simple title slide with prominent text plus sponsor logos",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark navy gradient with wave lines",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Open Benchmarks Grants",
+            "x": 28.0,
+            "y": 11.0,
+            "w": 28.0,
+            "h": 28.0
+          },
+          {
+            "role": "subtitle",
+            "text": "A $3M+ commitment to open benchmarks",
+            "x": 29.0,
+            "y": 54.0,
+            "w": 28.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "Snorkel",
+            "x": 28.0,
+            "y": 88.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Hugging Face",
+            "x": 39.0,
+            "y": 88.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "PRIME Intellect",
+            "x": 52.0,
+            "y": 88.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "together.ai",
+            "x": 65.0,
+            "y": 88.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "FACTORY",
+            "x": 75.0,
+            "y": 88.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "harbor",
+            "x": 85.0,
+            "y": 88.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "PyTorch",
+            "x": 94.0,
+            "y": 88.0,
+            "w": 5.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer Europe",
+            "x": 58.0,
+            "y": 74.0,
+            "w": 20.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iNkFlCiij0U/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668907.2032688,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Open Benchmarks\nAIE Grants\nA$3M+commitmentto\nopenbenchmarks\nSnorkel HuggingFace PRImEIntellect together.ai FACTORY harbor OPyTorch\nAIEngineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 239.6
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Open Benchmarks\nAIE Grants\nA$3M+commitmentto\nopenbenchmarks\nSnorkel HuggingFace PRImEIntellect together.ai FACTORY harbor OPyTorch\nAIEngineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/iNkFlCiij0U/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Difficulty / Model Headroom\nBenchmarkis unsaturated.\nARC-AGI-3\ntasks were solvable by humans) Shipped with <1% model score (100% of\nThe Human-Al Gap\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense slide with chart panels and small text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black chart panels",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Difficulty / Model Headroom",
+            "x": 28.0,
+            "y": 7.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Benchmark is unsaturated.",
+            "x": 28.0,
+            "y": 21.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "ARC-AGI-3",
+            "x": 30.0,
+            "y": 32.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Shipped with <1% model score (100% of tasks were solvable by humans)",
+            "x": 30.0,
+            "y": 42.0,
+            "w": 30.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "The Human-AI Gap",
+            "x": 70.0,
+            "y": 66.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "Engineering the future of AI",
+            "x": 36.0,
+            "y": 88.0,
+            "w": 28.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iNkFlCiij0U/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668924.9298048,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/contrast",
+        "text": "Difficulty / Model Headroom\nBenchmarkis unsaturated.\nARC-AGI-3\ntasks were solvable by humans) Shipped with <1% model score (100% of\nThe Human-Al Gap\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 284.32
+      },
+      "ocr_source": "rapidocr-live/right-72/contrast",
+      "ocr_reconcile": {
+        "text": "Difficulty / Model Headroom\nBenchmarkis unsaturated.\nARC-AGI-3\ntasks were solvable by humans) Shipped with <1% model score (100% of\nThe Human-Al Gap\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/iNkFlCiij0U/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Lasting benchmarks push the frontier",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple large title card",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "dark navy gradient",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "THE ART",
+            "x": 30.0,
+            "y": 18.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Lasting benchmarks push the frontier",
+            "x": 30.0,
+            "y": 35.0,
+            "w": 42.0,
+            "h": 20.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer Europe",
+            "x": 55.0,
+            "y": 82.0,
+            "w": 18.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iNkFlCiij0U/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668943.5260422,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Lasting benchmarks push the frontier",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/iNkFlCiij0U/slide-005.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.96,
+      "frame_type": "speaker_stage",
+      "reject_reason": "camera shot of speaker and audience with projected slide; not a clean presentation slide frame",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a slide frame; stage shot",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "gray room interior with projected white screen",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "The Art & Science of Benchmarking Agents",
+            "x": 36.0,
+            "y": 12.0,
+            "w": 40.0,
+            "h": 36.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iNkFlCiij0U/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668844.028845,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.95,
+      "frame_type": "speaker_stage",
+      "reject_reason": "camera shot of speaker and audience with projected slide; not a clean presentation slide frame",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a slide frame; stage shot",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "conference room with projected gray slide",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Propose a benchmark",
+            "x": 37.0,
+            "y": 17.0,
+            "w": 34.0,
+            "h": 24.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iNkFlCiij0U/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668943.526627,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "Branding/title card with logo and URL only; no substantive presentation content.",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "Not a content slide; only logo/branding text is present.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 27.0,
+            "y": 25.0,
+            "w": 46.0,
+            "h": 20.0
+          },
+          {
+            "role": "caption",
+            "text": "HTTPS://AI.ENGINEER",
+            "x": 33.0,
+            "y": 83.0,
+            "w": 34.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/iNkFlCiij0U/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668968.2366323,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

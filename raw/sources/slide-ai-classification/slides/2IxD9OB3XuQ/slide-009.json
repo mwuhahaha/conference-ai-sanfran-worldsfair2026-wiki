@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Updating the harness\nRewrite the prompts, skills, and code around the model.\n\nTrace-to-harness\nA coding agent reads the log + feedback and rewrites a prompt, adds a tool, or patches the workflow.\nWorks on (log + feedback) but mostly vibe-based: no test that the change helped.\n\nGEPA & prompt search\nMutate prompts, score each candidate, keep the winners; evolutionary optimization of the harness.\nTestable but needs a benchmark to score against.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "two-column slide with dense explanatory text",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Updating the harness",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 37.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Rewrite the prompts, skills, and code around the model.",
+        "x": 4.0,
+        "y": 14.0,
+        "w": 52.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Trace-to-harness",
+        "x": 11.0,
+        "y": 33.0,
+        "w": 21.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "GEPA & prompt search",
+        "x": 58.0,
+        "y": 33.0,
+        "w": 26.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "A coding agent reads the log + feedback and rewrites a prompt, adds a tool, or patches the workflow.",
+        "x": 6.0,
+        "y": 41.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Mutate prompts, score each candidate, keep the winners; evolutionary optimization of the harness.",
+        "x": 54.0,
+        "y": 41.0,
+        "w": 40.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656314.956654,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Updating the harness",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Updating the harness\nRewrite the prompts, skills, and code around the model.\nTrace-to-harness GEPA & prompt search\nA coding agent reads the log + feedback and rewrites Mutate prompts, score each candidate, keep the\na prompt, adds a tool, or patches the workflow. winners;evolutionary optimization of the harness.\nWorks on (log +feedback) but mostlyvibe-based:no Testable but needsa benchmark toscore aaainst.\ntestthatthe change helped.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 669.24
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Updating the harness\nRewrite the prompts, skills, and code around the model.\n\nTrace-to-harness\nA coding agent reads the log + feedback and rewrites a prompt, adds a tool, or patches the workflow.\nWorks on (log + feedback) but mostly vibe-based: no test that the change helped.\n\nGEPA & prompt search\nMutate prompts, score each candidate, keep the winners; evolutionary optimization of the harness.\nTestable but needs a benchmark to score against.",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for spacing and a few obvious errors; text verified against the slide."
+  }
+}

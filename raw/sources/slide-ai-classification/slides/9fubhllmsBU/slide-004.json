@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Map is Opening Up\nIn the Land of AI Agents, the Verifiers Are King",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "large readable text; OCR not needed in triage",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "cream map panel over dark vignette",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Map is Opening Up",
+        "x": 30.0,
+        "y": 62.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "In the Land of AI Agents, the Verifiers Are King",
+        "x": 24.0,
+        "y": 83.0,
+        "w": 68.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Tariq Shaukat / Chief Executive Officer",
+        "x": 24.0,
+        "y": 91.0,
+        "w": 44.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Sonar",
+        "x": 70.0,
+        "y": 91.0,
+        "w": 8.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/9fubhllmsBU/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658280.9594626,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Map is Opening Up\nIn the Land of AI Agents, the Verifiers Are King",
+  "advanced_ocr": {}
+}

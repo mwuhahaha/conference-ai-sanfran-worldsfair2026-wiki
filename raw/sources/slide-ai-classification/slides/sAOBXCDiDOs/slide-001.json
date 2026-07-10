@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Primitives, discovery, and why this is how all software will be used",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light warm white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Manufact",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "MCP APPS",
+        "x": 4.0,
+        "y": 18.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Primitives, discovery, and why this is how all software will be used",
+        "x": 4.0,
+        "y": 22.0,
+        "w": 60.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Pietro Zullo",
+        "x": 4.0,
+        "y": 52.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/sAOBXCDiDOs/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671576.4525914,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Primitives, discovery, and why this is how all software will be used",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Optimizing JSON Webpage Prompts with the Arize Prompt Learning SDK",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Title slide with a readable headline and a short explanatory paragraph; not dense enough to justify OCR in triage.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cream/white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "arize",
+        "x": 16.0,
+        "y": 7.0,
+        "w": 18.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "Optimizing JSON Webpage Prompts with the Arize Prompt Learning SDK",
+        "x": 19.0,
+        "y": 25.0,
+        "w": 56.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "In this notebook, we demonstrate use of the Arize Prompt Learning SDK by optimizing a system prompt for GPT-4o.",
+        "x": 19.0,
+        "y": 43.0,
+        "w": 57.0,
+        "h": 22.0
+      },
+      {
+        "role": "code",
+        "text": "pip install arize-phoenix-evals==2.2.0 arize-phoenix-client litellm openai scikit-learn",
+        "x": 18.0,
+        "y": 70.0,
+        "w": 58.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-030.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-030.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666044.2768197,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Optimizing JSON Webpage Prompts with the Arize Prompt Learning SDK",
+  "advanced_ocr": {}
+}

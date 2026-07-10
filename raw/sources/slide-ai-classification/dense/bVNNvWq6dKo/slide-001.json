@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Principle\nTrajectories\nRelated features\n• \"Continue my work\"\n• Terminal Turbo mode\n• Agentic diff review UX",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with dark starfield left sidebar",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 3.0,
+        "y": 10.0,
+        "w": 11.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "Principle",
+        "x": 21.0,
+        "y": 3.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Trajectories",
+        "x": 20.0,
+        "y": 18.0,
+        "w": 35.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "The agent continuously researches in the background, predicting your next steps and integrating seamlessly with your workflow like it's reading your mind",
+        "x": 21.0,
+        "y": 39.0,
+        "w": 31.0,
+        "h": 17.0
+      },
+      {
+        "role": "title",
+        "text": "Related features",
+        "x": 64.0,
+        "y": 39.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "• \"Continue my work\"\n• Terminal Turbo mode\n• Agentic diff review UX",
+        "x": 64.0,
+        "y": 48.0,
+        "w": 24.0,
+        "h": 18.0
+      },
+      {
+        "role": "logo",
+        "text": "AGENT ENGINEERING",
+        "x": 51.0,
+        "y": 86.0,
+        "w": 24.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/bVNNvWq6dKo/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666392.1194956,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Principle\nTrajectories\nRelated features\n• \"Continue my work\"\n• Terminal Turbo mode\n• Agentic diff review UX",
+  "advanced_ocr": {}
+}

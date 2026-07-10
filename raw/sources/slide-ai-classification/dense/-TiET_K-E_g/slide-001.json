@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Running AI on the Edge has many benefits\n\nLatency / UX\nFaster, no network involved\n\nPrivacy\nSensitive data not sent off device\n\nOffline use\nWorks without requiring cellular\n\nSavings\nLower or no data-center costs\n\nAI Engineer EUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small text in four cards; OCR is likely more accurate than manual triage.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light beige",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Running AI on the Edge has many benefits",
+        "x": 33.0,
+        "y": 4.0,
+        "w": 42.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Latency / UX",
+        "x": 37.0,
+        "y": 42.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Faster, no network involved",
+        "x": 37.0,
+        "y": 49.0,
+        "w": 13.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Privacy",
+        "x": 52.0,
+        "y": 42.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Sensitive data not sent off device",
+        "x": 50.0,
+        "y": 49.0,
+        "w": 13.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Offline use",
+        "x": 65.0,
+        "y": 42.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Works without requiring cellular",
+        "x": 64.0,
+        "y": 49.0,
+        "w": 13.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Savings",
+        "x": 81.0,
+        "y": 42.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Lower or no data-center costs",
+        "x": 78.0,
+        "y": 49.0,
+        "w": 14.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/-TiET_K-E_g/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783654939.2939055,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Running Al on the Edge has many benefits\nAIE $\nLatency / UX Privacy Ofline use Savings\nFaster,no network invowxl Senetivr datanotscn! otf device Works without requnng (eiiular data<entercosts lowcr orno\nAI Engineer\nAlEng EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 408.44
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Running AI on the Edge has many benefits\n\nLatency / UX\nFaster, no network involved\n\nPrivacy\nSensitive data not sent off device\n\nOffline use\nWorks without requiring cellular\n\nSavings\nLower or no data-center costs\n\nAI Engineer EUROPE",
+    "text_status": "meaningful",
+    "corrections": "Accepted the title and card labels; corrected obvious OCR errors like 'Al' to 'AI', 'Ofline' to 'Offline', and cleaned the short benefit lines where the image was clear."
+  }
+}

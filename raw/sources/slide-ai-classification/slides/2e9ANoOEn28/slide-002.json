@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code and error output are better suited to OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "demo/median.py:",
+        "x": 0,
+        "y": 12.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "def median(numbers):\nordered = sorted(numbers)\nmiddle = len(ordered) // 2\nreturn ordered[middle]",
+        "x": 2.0,
+        "y": 24.0,
+        "w": 82.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "demo/test_median.py fails:",
+        "x": 0,
+        "y": 55.0,
+        "w": 34.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "AssertionError: median() returned 3, expected 2.5",
+        "x": 2.0,
+        "y": 69.0,
+        "w": 76.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/2e9ANoOEn28/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657282.5637,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

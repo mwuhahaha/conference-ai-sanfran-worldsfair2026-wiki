@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.92,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Conversations Lenny'sMemory Bta About GitHub\n+New Conversation Agent Configuration\n★ ★ ★ AIE Quick Start Usememory graph searchto explore whatguestssay about. 4/5/2026 the Brian Chesky episode Use memory graph search to explore what guests say about. 4/8/2026 Show me locations mentioned in howdobestcoordinate3 4/8/2026 Explore a Topic Use memory graph sear t0 explore whar guests say Related Entities What encities are related t about scaling engineerin. Arbnb7 Explore insights from 299 podcast episodes with Al-powered graph memory. Click a topic or type your own question. Ask about Lenny's Podcast Tell me about Brian Chesiy Speaker Quotes Whur did Srian Chesky say and beng n Pe detals? Who is Brian.... sbout micromanagement Depodcast) Map View Chenky episode What are the most menboned companies in Showmelocatons ntioned in the Brian Agent Capabities Aailable Tocs Mult-step Reasoning CoeratonMemory Adaptepoesbednyour sr Plens and eecutescomt Mainescpeteacrossmes threas Preference Learning preferences p Siep KnowfedgeGraph aazsabe 21\nTool Call Cards\nmemory @neo4j-labs/agent- Ask about Lenny's Podcast:\nNeo4j tseapog s,Auia1 Press Enter to send, Shit+Enter for\nAIEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product/UI screenshot with dense small multi-column text and many interface labels; OCR will read it better than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white and black composite",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 15.0,
+        "w": 12.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Ask about Lenny's Podcast",
+        "x": 44.0,
+        "y": 6.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Explore insights from 299 podcast episodes with AI-powered graph memory.",
+        "x": 42.0,
+        "y": 14.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Conversations",
+        "x": 27.0,
+        "y": 8.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Agent Configuration",
+        "x": 84.0,
+        "y": 9.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 52.0,
+        "y": 79.0,
+        "w": 23.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/eW_vxrjvERk/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667316.5594103,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Ask about Lenny's Podcast",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Conversations Lenny'sMemory Bta About GitHub\n+New Conversation Agent Configuration\n★ ★ ★ AIE Quick Start Usememory graph searchto explore whatguestssay about. 4/5/2026 the Brian Chesky episode Use memory graph search to explore what guests say about. 4/8/2026 Show me locations mentioned in howdobestcoordinate3 4/8/2026 Explore a Topic Use memory graph sear t0 explore whar guests say Related Entities What encities are related t about scaling engineerin. Arbnb7 Explore insights from 299 podcast episodes with Al-powered graph memory. Click a topic or type your own question. Ask about Lenny's Podcast Tell me about Brian Chesiy Speaker Quotes Whur did Srian Chesky say and beng n Pe detals? Who is Brian.... sbout micromanagement Depodcast) Map View Chenky episode What are the most menboned companies in Showmelocatons ntioned in the Brian Agent Capabities Aailable Tocs Mult-step Reasoning CoeratonMemory Adaptepoesbednyour sr Plens and eecutescomt Mainescpeteacrossmes threas Preference Learning preferences p Siep KnowfedgeGraph aazsabe 21\nTool Call Cards\nmemory @neo4j-labs/agent- Ask about Lenny's Podcast:\nNeo4j tseapog s,Auia1 Press Enter to send, Shit+Enter for\nAIEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1564.88
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Conversations Lenny'sMemory Bta About GitHub\n+New Conversation Agent Configuration\n★ ★ ★ AIE Quick Start Usememory graph searchto explore whatguestssay about. 4/5/2026 the Brian Chesky episode Use memory graph search to explore what guests say about. 4/8/2026 Show me locations mentioned in howdobestcoordinate3 4/8/2026 Explore a Topic Use memory graph sear t0 explore whar guests say Related Entities What encities are related t about scaling engineerin. Arbnb7 Explore insights from 299 podcast episodes with Al-powered graph memory. Click a topic or type your own question. Ask about Lenny's Podcast Tell me about Brian Chesiy Speaker Quotes Whur did Srian Chesky say and beng n Pe detals? Who is Brian.... sbout micromanagement Depodcast) Map View Chenky episode What are the most menboned companies in Showmelocatons ntioned in the Brian Agent Capabities Aailable Tocs Mult-step Reasoning CoeratonMemory Adaptepoesbednyour sr Plens and eecutescomt Mainescpeteacrossmes threas Preference Learning preferences p Siep KnowfedgeGraph aazsabe 21\nTool Call Cards\nmemory @neo4j-labs/agent- Ask about Lenny's Podcast:\nNeo4j tseapog s,Auia1 Press Enter to send, Shit+Enter for\nAIEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

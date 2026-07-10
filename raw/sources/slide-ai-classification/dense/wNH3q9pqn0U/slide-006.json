@@ -1,0 +1,146 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE SensorArray ·C humidity\nsound motion Processing\nCNMERNS DB sound Request beaker crystals\nWebUSB API Response\nMicrobit boards, Jacdac Sensors, Recamera\nMicrosoft smol ai",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram plus labeled hardware collage with many small labels and logos; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black and white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Sensor Array",
+        "x": 56.0,
+        "y": 7.0,
+        "w": 17.0,
+        "h": 6.0
+      },
+      {
+        "role": "label",
+        "text": "c",
+        "x": 53.0,
+        "y": 18.0,
+        "w": 4.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "humidity",
+        "x": 61.0,
+        "y": 18.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "sound",
+        "x": 55.0,
+        "y": 32.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "motion",
+        "x": 63.0,
+        "y": 32.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "DB",
+        "x": 54.0,
+        "y": 47.0,
+        "w": 5.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "sound",
+        "x": 69.0,
+        "y": 47.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "WebUSB",
+        "x": 58.0,
+        "y": 63.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "API",
+        "x": 75.0,
+        "y": 67.0,
+        "w": 5.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Request",
+        "x": 81.0,
+        "y": 54.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Response",
+        "x": 83.0,
+        "y": 66.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 44.0,
+        "y": 85.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 74.0,
+        "y": 84.0,
+        "w": 13.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672414.579962,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Sensor Array",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "AIE SensorArray ·C humidity\nsound motion Processing\nCNMERNS DB sound Request beaker crystals\nWebUSB API Response\nMicrobit boards, Jacdac Sensors, Recamera\nMicrosoft smol ai",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 300.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "AIE SensorArray ·C humidity\nsound motion Processing\nCNMERNS DB sound Request beaker crystals\nWebUSB API Response\nMicrobit boards, Jacdac Sensors, Recamera\nMicrosoft smol ai",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

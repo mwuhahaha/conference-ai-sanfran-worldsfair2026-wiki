@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "bm-granite-community / docling-workshop\n\ndocling-workshop\nSource code for Docling Workshop\n\n.github\ndocs\nnotebooks\nscripts/regenerate_fixtures\nsrc",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Repository screenshot with many small UI labels and file names that are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f5f5f5",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "docling-workshop",
+        "x": 31.0,
+        "y": 16.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Source code for Docling Workshop",
+        "x": 71.0,
+        "y": 18.0,
+        "w": 23.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "ibm-granite-community / docling-workshop",
+        "x": 9.0,
+        "y": 3.0,
+        "w": 40.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-015.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656249.9302704,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "docling-workshop",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "bm-grante-community I docling-workshop a 28 Q TypeDto serch [o-lli+dllonlaen\n\"> Coda O xtussIl Pulrequttt'.G Agent: O Actons: 田 prolecu:: O: Securlty #nd quslty.. 区 Insights\n. 、.*\ndocling-workshop O whtchiy\nP mln o. H 1 Branch, 1 Ig Q Go w i ii l. Add re: Source code for Dochng Workshop\nbhargrae Merga pus reqursi w112 from bm-grmnte-coremuntyfdapandsbo. P+-oo th+ O:. cte tap z: prargll tbn-gr anite-coumunity.glthub.io...\nglthsb Buno okhubicodtafictlon h tht glthub,tctions group t.!. 3 d tgo D Rtdme\ndoa.:Add coleb socret tcrtn thot to pre-vork Lu month 中 Apkh-20 Ic*e\nD gltgner. urkdowmtt-ci2.yam 口 src: netbootd. prtcanmlt-con'gyam! tcriptsregonerate_fotiros Remore oog-into Sirmplly RAG vpue' grourding wlh Doclng bbont heper! Saltch Rtpfcate modt to grartt-4.1-8b Femove +og-tnto Aemor rotebcoktoutput from rtpo trGonr Add aetion Enting iith zimor and pouint. Updyes to dtpedabot iar grouped updstor.. 3 momhs tgo 3 monihs sgo ote suow g 2 monla sgo 2 mtoks go 6dys go Itst w++k.:☆ 26 stars: Report regository G Curtom propertes 1wtching x aclrty Contributing Y stcrks poxL B\nD D spe check-tr-customltt setioney Add scton Entng with zlzmor and pocint Wre Chunkhi RAb si Lab 4 lnto worichop doc and C! 2 monhs ago Deployments: $t: glthub-pagtt 2 diry bgo\nD UCENSE. m'ie commt. lust yo? ttuounq,uo\nREADME.md Switch Reptcat modd to grarlta-4.1-tb 2 wtels sgo Qieoth re 4earufq\nSwtch to ChromuDe tar vactortore 3monhs ago CiLN cnxbuy oqpxdujE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1920.73
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "bm-granite-community / docling-workshop\n\ndocling-workshop\nSource code for Docling Workshop\n\n.github\ndocs\nnotebooks\nscripts/regenerate_fixtures\nsrc",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide as a GitHub repo screenshot and corrected only the clearly legible repository name, title, and top-level folders."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "video_id": "bmWZk9vTze0",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 0,
+  "rejected_count": 1,
+  "accepted": [],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage shot with speaker, podium, and sponsor logos; projected content is only a partial demo view, not a readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a standalone content slide; OCR would mostly capture stage/sponsor elements and partial projection.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black with white projection area",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 17.0,
+            "w": 18.0,
+            "h": 16.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 38.0,
+            "y": 73.0,
+            "w": 19.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 60.0,
+            "y": 73.0,
+            "w": 14.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 78.0,
+            "y": 73.0,
+            "w": 17.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/bmWZk9vTze0/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666579.9131463,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

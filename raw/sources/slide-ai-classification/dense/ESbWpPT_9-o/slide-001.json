@@ -1,0 +1,23 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.0,
+  "frame_type": "other",
+  "reject_reason": "missing batch classifier result",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "layout": {
+    "background": "#ffffff",
+    "style": "light",
+    "blocks": []
+  },
+  "image": "wiki/assets/dense-slides/ESbWpPT_9-o/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659391.597765,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

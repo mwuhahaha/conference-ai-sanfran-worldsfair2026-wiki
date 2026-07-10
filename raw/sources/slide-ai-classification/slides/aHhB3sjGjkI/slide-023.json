@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Step 2 (a): The user gives a feedback_",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#ffffff",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Step 2 (a): The user gives a feedback_",
+        "x": 8.0,
+        "y": 4.0,
+        "w": 44.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Additional Feedback",
+        "x": 12.0,
+        "y": 26.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Very long answer",
+        "x": 16.0,
+        "y": 34.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Trace 1632fbb0299d5d21ab0fed2957bbf5aa",
+        "x": 52.0,
+        "y": 15.0,
+        "w": 30.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "user-feedback",
+        "x": 53.0,
+        "y": 22.0,
+        "w": 15.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-023.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-023.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667039.6674619,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Step 2 (a): The user gives a feedback_",
+  "advanced_ocr": {}
+}

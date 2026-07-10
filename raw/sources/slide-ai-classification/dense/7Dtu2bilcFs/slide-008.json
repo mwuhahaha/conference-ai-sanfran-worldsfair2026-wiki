@@ -1,0 +1,136 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Book covers, years, and small labels are OCR-suitable and not worth manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with black footer band",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "The Phoenix Project",
+        "x": 29.0,
+        "y": 1.0,
+        "w": 11.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "DevOps Handbook",
+        "x": 41.0,
+        "y": 1.0,
+        "w": 11.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "ACCELERATE",
+        "x": 62.0,
+        "y": 1.0,
+        "w": 11.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "The Unicorn Project",
+        "x": 81.0,
+        "y": 1.0,
+        "w": 11.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "2013",
+        "x": 34.0,
+        "y": 33.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "2016",
+        "x": 47.0,
+        "y": 33.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "2017",
+        "x": 65.0,
+        "y": 33.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "2019",
+        "x": 83.0,
+        "y": 33.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Wiring the Winning Organization",
+        "x": 42.0,
+        "y": 46.0,
+        "w": 14.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "2023",
+        "x": 46.0,
+        "y": 72.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "VIBE CODING",
+        "x": 65.0,
+        "y": 47.0,
+        "w": 11.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Fall 2025",
+        "x": 67.0,
+        "y": 74.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "@RealGeneKim",
+        "x": 88.0,
+        "y": 77.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/7Dtu2bilcFs/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657947.4751768,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

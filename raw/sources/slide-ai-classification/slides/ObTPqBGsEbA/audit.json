@@ -1,0 +1,1096 @@
+{
+  "video_id": "ObTPqBGsEbA",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 9,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "THEPROBLEM\nThe pattern you already know\nAIE Weeks1-4 Weeks4-8 Weeks8-12 Week14 Month6\nPickmodels. Build features. Looks great. Demo.toleaders. Sign-off. Ship. b's'-ing us?\" \"WhyisAl failedlastyear. sSin projects\nSound familiar? You're not here because you haven't seen this. You're here because you want to stop it.\nAlEngin\nCURCPE\nAEngivoer Engineering thefuture of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "small timeline labels and caption text across a multi-element slide",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "deep navy with black lower band and teal accents",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 19.0
+          },
+          {
+            "role": "caption",
+            "text": "THE PROBLEM",
+            "x": 29.0,
+            "y": 3.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "The pattern you already know",
+            "x": 28.0,
+            "y": 8.0,
+            "w": 50.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Weeks 1-4",
+            "x": 28.0,
+            "y": 31.0,
+            "w": 12.0,
+            "h": 20.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Weeks 4-8",
+            "x": 43.0,
+            "y": 31.0,
+            "w": 12.0,
+            "h": 20.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Weeks 8-12",
+            "x": 58.0,
+            "y": 31.0,
+            "w": 12.0,
+            "h": 20.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Week 14",
+            "x": 73.0,
+            "y": 31.0,
+            "w": 12.0,
+            "h": 20.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Month 6",
+            "x": 87.0,
+            "y": 31.0,
+            "w": 11.0,
+            "h": 20.0
+          },
+          {
+            "role": "caption",
+            "text": "Sound familiar? You're not here because you haven't seen this. You're here because you want to stop it.",
+            "x": 29.0,
+            "y": 66.0,
+            "w": 62.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 48.0,
+            "y": 86.0,
+            "w": 31.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ObTPqBGsEbA/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662653.8320503,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "The pattern you already know",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "THEPROBLEM\nThe pattern you already know\nAIE Weeks1-4 Weeks4-8 Weeks8-12 Week14 Month6\nPickmodels. Build features. Looks great. Demo.toleaders. Sign-off. Ship. b's'-ing us?\" \"WhyisAl failedlastyear. sSin projects\nSound familiar? You're not here because you haven't seen this. You're here because you want to stop it.\nAlEngin\nCURCPE\nAEngivoer Engineering thefuture of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 593.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "THEPROBLEM\nThe pattern you already know\nAIE Weeks1-4 Weeks4-8 Weeks8-12 Week14 Month6\nPickmodels. Build features. Looks great. Demo.toleaders. Sign-off. Ship. b's'-ing us?\" \"WhyisAl failedlastyear. sSin projects\nSound familiar? You're not here because you haven't seen this. You're here because you want to stop it.\nAlEngin\nCURCPE\nAEngivoer Engineering thefuture of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ObTPqBGsEbA/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The AI is the easy part\nYou can't debug what you can't see.\nYou can't improve what you can't measure.\nYou can't trust what you can't explain.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray with black left sidebar and black footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 19.0
+          },
+          {
+            "role": "caption",
+            "text": "THE INSIGHT",
+            "x": 29.0,
+            "y": 4.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "The AI is the easy part",
+            "x": 28.0,
+            "y": 9.0,
+            "w": 48.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "You can't debug what you can't see.\nObservability gap\n01",
+            "x": 29.0,
+            "y": 27.0,
+            "w": 67.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "You can't improve what you can't measure.\nEvaluation gap\n02",
+            "x": 29.0,
+            "y": 46.0,
+            "w": 67.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "You can't trust what you can't explain.\nGovernance gap\n03",
+            "x": 29.0,
+            "y": 65.0,
+            "w": 67.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 59.0,
+            "y": 88.0,
+            "w": 20.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ObTPqBGsEbA/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662690.3142257,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The AI is the easy part\nYou can't debug what you can't see.\nYou can't improve what you can't measure.\nYou can't trust what you can't explain.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ObTPqBGsEbA/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Five Pillars of Production AI\nEvaluation\nObservability\nData Foundation\nOrchestration\nGovernance",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray with black left sidebar and black footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 19.0
+          },
+          {
+            "role": "caption",
+            "text": "THE FRAMEWORK",
+            "x": 29.0,
+            "y": 4.0,
+            "w": 20.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "The Five Pillars of Production AI",
+            "x": 28.0,
+            "y": 9.0,
+            "w": 54.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "01\nEvaluation",
+            "x": 27.0,
+            "y": 29.0,
+            "w": 13.0,
+            "h": 36.0
+          },
+          {
+            "role": "body",
+            "text": "02\nObservability",
+            "x": 41.0,
+            "y": 29.0,
+            "w": 13.0,
+            "h": 36.0
+          },
+          {
+            "role": "body",
+            "text": "03\nData Foundation",
+            "x": 55.0,
+            "y": 29.0,
+            "w": 13.0,
+            "h": 36.0
+          },
+          {
+            "role": "body",
+            "text": "04\nOrchestration",
+            "x": 69.0,
+            "y": 29.0,
+            "w": 13.0,
+            "h": 36.0
+          },
+          {
+            "role": "body",
+            "text": "05\nGovernance",
+            "x": 83.0,
+            "y": 29.0,
+            "w": 13.0,
+            "h": 36.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 59.0,
+            "y": 88.0,
+            "w": 20.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ObTPqBGsEbA/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662690.3150868,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Five Pillars of Production AI\nEvaluation\nObservability\nData Foundation\nOrchestration\nGovernance",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ObTPqBGsEbA/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Evaluation First\nDefine success with numbers\nBuild test cases from real data\nWire automated grading",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "deep navy left panel and white right panel",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "PILLAR 01",
+            "x": 28.0,
+            "y": 4.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Evaluation First",
+            "x": 27.0,
+            "y": 11.0,
+            "w": 24.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Your eval suite is your specification. Without it, you're guessing.",
+            "x": 27.0,
+            "y": 31.0,
+            "w": 25.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "1\nDefine success with numbers",
+            "x": 52.0,
+            "y": 12.0,
+            "w": 18.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "2\nBuild test cases from real data",
+            "x": 52.0,
+            "y": 33.0,
+            "w": 18.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "3\nWire automated grading",
+            "x": 52.0,
+            "y": 53.0,
+            "w": 18.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ObTPqBGsEbA/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662690.315979,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Evaluation First\nDefine success with numbers\nBuild test cases from real data\nWire automated grading",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ObTPqBGsEbA/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "PILLARO1-DEEPDIVE\nThree layers of evaluation\nLayer1—Deterministic\nAIE PlI detection (NER+regex),Output format validation,Response length bounds aremalgretaltAi（Mlwtrepote\nwrng.+gatiallyorret,2·foil（rect\nLayer 2 -- Semantic Correctness & groundedness,LlM-as-a.Judge,Non- above threshold determinismfix:runeachtest3x-flagvariance utety: wtr:n. *11: 1evtyktelclasooreoytxretlenteeet！ Dees tte resposie snsld Plt leakage asd ballocinated sccoor dsta)\nC.5 tevest scefe.\nAlEngin escalate when confidencewas low?Did it stay Layer 3 - Behavioural Did it call theright toois,in the right order?Did it within scope? 5D.*** (entamtgoeni（oary) RtrN（ometr(（anteet) A1re1ponse:(re1gcsse） SAMPLE: LLM-aS-a-Judge prompt\nRURNPE\nABrgore AI Engineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "multi-column dense text and embedded code screenshot are better handled by OCR",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray with black left sidebar",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 19.0
+          },
+          {
+            "role": "caption",
+            "text": "PILLAR 01 — DEEP DIVE",
+            "x": 29.0,
+            "y": 4.0,
+            "w": 22.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Three layers of evaluation",
+            "x": 28.0,
+            "y": 9.0,
+            "w": 36.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Layer 1 — Deterministic",
+            "x": 28.0,
+            "y": 26.0,
+            "w": 25.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Layer 2 — Semantic",
+            "x": 28.0,
+            "y": 49.0,
+            "w": 22.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Layer 3 — Behavioural",
+            "x": 28.0,
+            "y": 71.0,
+            "w": 24.0,
+            "h": 11.0
+          },
+          {
+            "role": "code",
+            "text": "SAMPLE: LLM-as-a-Judge prompt",
+            "x": 77.0,
+            "y": 79.0,
+            "w": 18.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ObTPqBGsEbA/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662690.3167522,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Three layers of evaluation",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "PILLARO1-DEEPDIVE\nThree layers of evaluation\nLayer1—Deterministic\nAIE PlI detection (NER+regex),Output format validation,Response length bounds aremalgretaltAi（Mlwtrepote\nwrng.+gatiallyorret,2·foil（rect\nLayer 2 -- Semantic Correctness & groundedness,LlM-as-a.Judge,Non- above threshold determinismfix:runeachtest3x-flagvariance utety: wtr:n. *11: 1evtyktelclasooreoytxretlenteeet！ Dees tte resposie snsld Plt leakage asd ballocinated sccoor dsta)\nC.5 tevest scefe.\nAlEngin escalate when confidencewas low?Did it stay Layer 3 - Behavioural Did it call theright toois,in the right order?Did it within scope? 5D.*** (entamtgoeni（oary) RtrN（ometr(（anteet) A1re1ponse:(re1gcsse） SAMPLE: LLM-aS-a-Judge prompt\nRURNPE\nABrgore AI Engineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1013.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "PILLARO1-DEEPDIVE\nThree layers of evaluation\nLayer1—Deterministic\nAIE PlI detection (NER+regex),Output format validation,Response length bounds aremalgretaltAi（Mlwtrepote\nwrng.+gatiallyorret,2·foil（rect\nLayer 2 -- Semantic Correctness & groundedness,LlM-as-a.Judge,Non- above threshold determinismfix:runeachtest3x-flagvariance utety: wtr:n. *11: 1evtyktelclasooreoytxretlenteeet！ Dees tte resposie snsld Plt leakage asd ballocinated sccoor dsta)\nC.5 tevest scefe.\nAlEngin escalate when confidencewas low?Did it stay Layer 3 - Behavioural Did it call theright toois,in the right order?Did it within scope? 5D.*** (entamtgoeni（oary) RtrN（ometr(（anteet) A1re1ponse:(re1gcsse） SAMPLE: LLM-aS-a-Judge prompt\nRURNPE\nABrgore AI Engineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ObTPqBGsEbA/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Databricks Data Intelligence Platforn\nDissster recovery 100%serverless Cost controls Enterprise security\nAIE Artinicial inteigence Mosaic Al Databricks SQL Data warchoushg Workflows/SDP IngesETL streamng e Business intelgonce AI/81\nLakehouse\nUnity Catalog\nAlEngin DELTA LAKE ICEBERG Parquet\nAEngineer AI Engineer\n2028 EUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense architecture diagram with many small labels and stacked elements.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Databricks Data Intelligence Platform",
+            "x": 27.0,
+            "y": 5.0,
+            "w": 56.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "100% serverless",
+            "x": 44.0,
+            "y": 19.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Disaster recovery",
+            "x": 36.0,
+            "y": 22.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Cost controls",
+            "x": 51.0,
+            "y": 22.0,
+            "w": 11.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Enterprise security",
+            "x": 68.0,
+            "y": 22.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Mosaic AI",
+            "x": 31.0,
+            "y": 34.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Databricks SQL",
+            "x": 48.0,
+            "y": 29.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Workflows/SDP",
+            "x": 64.0,
+            "y": 29.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "AI/BI",
+            "x": 83.0,
+            "y": 34.0,
+            "w": 7.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Lakehouse",
+            "x": 43.0,
+            "y": 52.0,
+            "w": 23.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Unity Catalog",
+            "x": 39.0,
+            "y": 63.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "DELTA LAKE",
+            "x": 35.0,
+            "y": 76.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "ICEBERG",
+            "x": 53.0,
+            "y": 76.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Parquet",
+            "x": 67.0,
+            "y": 76.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ObTPqBGsEbA/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662913.9178941,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/contrast",
+        "text": "Databricks Data Intelligence Platforn\nDissster recovery 100%serverless Cost controls Enterprise security\nAIE Artinicial inteigence Mosaic Al Databricks SQL Data warchoushg Workflows/SDP IngesETL streamng e Business intelgonce AI/81\nLakehouse\nUnity Catalog\nAlEngin DELTA LAKE ICEBERG Parquet\nAEngineer AI Engineer\n2028 EUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 482.76
+      },
+      "ocr_source": "rapidocr-live/center-82/contrast",
+      "ocr_reconcile": {
+        "text": "Databricks Data Intelligence Platforn\nDissster recovery 100%serverless Cost controls Enterprise security\nAIE Artinicial inteigence Mosaic Al Databricks SQL Data warchoushg Workflows/SDP IngesETL streamng e Business intelgonce AI/81\nLakehouse\nUnity Catalog\nAlEngin DELTA LAKE ICEBERG Parquet\nAEngineer AI Engineer\n2028 EUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ObTPqBGsEbA/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.88,
+      "frame_type": "demo_video",
+      "reject_reason": "",
+      "text": "Engineering the future of AI",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Slide is dominated by an embedded video thumbnail and QR code; local OCR is not the best first pass.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "light gray",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 28.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Multi-Agent Orchestration",
+            "x": 27.0,
+            "y": 39.0,
+            "w": 34.0,
+            "h": 20.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 41.0,
+            "y": 79.0,
+            "w": 37.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ObTPqBGsEbA/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662956.7992432,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ObTPqBGsEbA/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "databricks\nAgent Breks rteilgerce A1/BI Agentrc business Secue data snd Al sppy Custom Apps And more.\n★ + ★ AIE? Reasoning Agents Contextual Developer Platform Agent Platform Al Governance\nKnowicdge Assistant Agcnt Orchostration Agcnt/Skill/McP Rogistry\nSupervisor Agont Runtimo AlGatcway\nDocumonts Agent Memory Agont Observability\nAlFunctions Copacity Modol 0 Gemn Al Managed OAuth Apps\nFAEngk\nAEngrak AI Engineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense platform architecture slide with many small labels and nested sections.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "databricks",
+            "x": 49.0,
+            "y": 4.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Agent Bricks",
+            "x": 31.0,
+            "y": 16.0,
+            "w": 13.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "AI/BI",
+            "x": 49.0,
+            "y": 16.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Custom Apps",
+            "x": 67.0,
+            "y": 16.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "And more...",
+            "x": 87.0,
+            "y": 16.0,
+            "w": 9.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Agent Platform",
+            "x": 43.0,
+            "y": 35.0,
+            "w": 23.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Contextual Reasoning Agents",
+            "x": 28.0,
+            "y": 42.0,
+            "w": 21.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Developer Platform",
+            "x": 52.0,
+            "y": 42.0,
+            "w": 17.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "AI Governance",
+            "x": 74.0,
+            "y": 42.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Knowledge Assistant",
+            "x": 35.0,
+            "y": 52.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Supervisor Agent",
+            "x": 36.0,
+            "y": 60.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Documents Agent",
+            "x": 36.0,
+            "y": 68.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "AI Functions",
+            "x": 38.0,
+            "y": 76.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Agent Orchestration",
+            "x": 57.0,
+            "y": 52.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Runtime",
+            "x": 60.0,
+            "y": 60.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Memory",
+            "x": 60.0,
+            "y": 68.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Model Capacity",
+            "x": 59.0,
+            "y": 76.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Agent/Skill/MCP Registry",
+            "x": 75.0,
+            "y": 52.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "AI Gateway",
+            "x": 78.0,
+            "y": 60.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Agent Observability",
+            "x": 77.0,
+            "y": 68.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Managed OAuth Apps",
+            "x": 77.0,
+            "y": 76.0,
+            "w": 16.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ObTPqBGsEbA/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662956.8009043,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "databricks\nAgent Breks rteilgerce A1/BI Agentrc business Secue data snd Al sppy Custom Apps And more.\n★ + ★ AIE? Reasoning Agents Contextual Developer Platform Agent Platform Al Governance\nKnowicdge Assistant Agcnt Orchostration Agcnt/Skill/McP Rogistry\nSupervisor Agont Runtimo AlGatcway\nDocumonts Agent Memory Agont Observability\nAlFunctions Copacity Modol 0 Gemn Al Managed OAuth Apps\nFAEngk\nAEngrak AI Engineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 640.48
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "databricks\nAgent Breks rteilgerce A1/BI Agentrc business Secue data snd Al sppy Custom Apps And more.\n★ + ★ AIE? Reasoning Agents Contextual Developer Platform Agent Platform Al Governance\nKnowicdge Assistant Agcnt Orchostration Agcnt/Skill/McP Rogistry\nSupervisor Agont Runtimo AlGatcway\nDocumonts Agent Memory Agont Observability\nAlFunctions Copacity Modol 0 Gemn Al Managed OAuth Apps\nFAEngk\nAEngrak AI Engineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ObTPqBGsEbA/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Same project. Same problem. Different approach.\n18,000 calls/month - 60% simple queries\n$85,000 + 6 months spent on failed attempt\nSystem: unmeasurable, invisible, misaligned\nGoal: AI agent handles 60%+ user queries\nWe didn't pick a model until week 7.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Readable text slide, but this pass only needs direct extraction; OCR is not necessary.",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "indigo",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "CASE STUDY",
+            "x": 28.0,
+            "y": 6.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Same project. Same problem. Different approach.",
+            "x": 26.0,
+            "y": 12.0,
+            "w": 41.0,
+            "h": 28.0
+          },
+          {
+            "role": "body",
+            "text": "THE PROBLEM",
+            "x": 28.0,
+            "y": 46.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "18,000 calls/month - 60% simple queries",
+            "x": 31.0,
+            "y": 54.0,
+            "w": 29.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "$85,000 + 6 months spent on failed attempt",
+            "x": 31.0,
+            "y": 61.0,
+            "w": 31.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "System: unmeasurable, invisible, misaligned",
+            "x": 31.0,
+            "y": 68.0,
+            "w": 31.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Goal: AI agent handles 60%+ user queries",
+            "x": 31.0,
+            "y": 75.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "THE KEY DIFFERENCE",
+            "x": 65.0,
+            "y": 46.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "We didn't pick a model until week 7.",
+            "x": 64.0,
+            "y": 56.0,
+            "w": 30.0,
+            "h": 20.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ObTPqBGsEbA/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663024.7531219,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Same project. Same problem. Different approach.\n18,000 calls/month - 60% simple queries\n$85,000 + 6 months spent on failed attempt\nSystem: unmeasurable, invisible, misaligned\nGoal: AI agent handles 60%+ user queries\nWe didn't pick a model until week 7.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ObTPqBGsEbA/slide-010.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "camera shot of presenter on stage with audience and only a partial projected slide visible",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple stage lighting with dark audience silhouettes",
+        "style": "other",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 47.0,
+            "y": 5.0,
+            "w": 21.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ObTPqBGsEbA/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662653.8310688,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Camera shot of the speaker on stage with a projected slide in the background, not a readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide frame.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple stage lighting",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ObTPqBGsEbA/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663024.7584932,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

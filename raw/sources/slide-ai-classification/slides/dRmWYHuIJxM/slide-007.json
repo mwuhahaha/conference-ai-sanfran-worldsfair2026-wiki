@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The hardest problem wasn'tretrieval It was knowing when retrieval waswrongb\nLLM-based scoring Confidence scoring blend\nAsked the model to rate relevance. Accurale but +2 3s latency Ycost per query Simitarity Sox\nFlxed thresholds Keywords 30x\ncalike. cosino > O.7 =relevant Broke on short quenies and long quenles. Recency 20x\nSimpie heuristic won\nno API calls. 50% smilarity +30% keyword K20% recency Adaptive: 0.4ms Lesson: dont reach for an LLM when a welghted avera\nelararlabs/code-context-cngine",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense two-column slide with small supporting copy and chart labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark navy-to-black gradient with teal and magenta glows",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "THE HARD PART",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "The hardest problem wasn't retrieval. It was knowing when retrieval was wrong.",
+        "x": 11.0,
+        "y": 10.0,
+        "w": 74.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "LLM-based scoring\nAsked the model to rate relevance. Accurate but +2-3s latency and cost per query.",
+        "x": 7.0,
+        "y": 27.0,
+        "w": 40.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Fixed thresholds\ncosine > 0.7 = relevant. Broke on short queries and long queries alike.",
+        "x": 7.0,
+        "y": 46.0,
+        "w": 40.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "Simple heuristic won\n50% similarity + 30% keyword + 20% recency. Adaptive. 0.4ms, no API calls.",
+        "x": 7.0,
+        "y": 64.0,
+        "w": 41.0,
+        "h": 15.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Confidence scoring blend",
+        "x": 54.0,
+        "y": 27.0,
+        "w": 31.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Similarity 50%\nKeywords 30%\nRecency 20%",
+        "x": 55.0,
+        "y": 35.0,
+        "w": 28.0,
+        "h": 25.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/dRmWYHuIJxM/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667491.0097198,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "The hardest problem wasn'tretrieval It was knowing when retrieval waswrongb\nLLM-based scoring Confidence scoring blend\nAsked the model to rate relevance. Accurale but +2 3s latency Ycost per query Simitarity Sox\nFlxed thresholds Keywords 30x\ncalike. cosino > O.7 =relevant Broke on short quenies and long quenles. Recency 20x\nSimpie heuristic won\nno API calls. 50% smilarity +30% keyword K20% recency Adaptive: 0.4ms Lesson: dont reach for an LLM when a welghted avera\nelararlabs/code-context-cngine",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 752.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "The hardest problem wasn'tretrieval It was knowing when retrieval waswrongb\nLLM-based scoring Confidence scoring blend\nAsked the model to rate relevance. Accurale but +2 3s latency Ycost per query Simitarity Sox\nFlxed thresholds Keywords 30x\ncalike. cosino > O.7 =relevant Broke on short quenies and long quenles. Recency 20x\nSimpie heuristic won\nno API calls. 50% smilarity +30% keyword K20% recency Adaptive: 0.4ms Lesson: dont reach for an LLM when a welghted avera\nelararlabs/code-context-cngine",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

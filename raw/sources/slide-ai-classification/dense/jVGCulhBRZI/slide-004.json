@@ -1,0 +1,108 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Automation UX\nUse Cases\nFinancial Data Normalization\nDatasheet Extraction\nPatient Record Extraction\nInvoice Reconciliation\nhttps://github.com/run-llama/invoice-reconciler",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f7efd7",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Automation UX",
+        "x": 19.0,
+        "y": 0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Use Cases",
+        "x": 21.0,
+        "y": 18.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Financial Data Normalization",
+        "x": 23.0,
+        "y": 27.0,
+        "w": 25.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Datasheet Extraction",
+        "x": 23.0,
+        "y": 34.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Patient Record Extraction",
+        "x": 23.0,
+        "y": 41.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Invoice Reconciliation",
+        "x": 23.0,
+        "y": 48.0,
+        "w": 19.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "https://github.com/run-llama/invoice-reconciler",
+        "x": 56.0,
+        "y": 80.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 89.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 73.0,
+        "y": 89.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/jVGCulhBRZI/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669279.1628413,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Automation UX\nUse Cases\nFinancial Data Normalization\nDatasheet Extraction\nPatient Record Extraction\nInvoice Reconciliation\nhttps://github.com/run-llama/invoice-reconciler",
+  "advanced_ocr": {}
+}

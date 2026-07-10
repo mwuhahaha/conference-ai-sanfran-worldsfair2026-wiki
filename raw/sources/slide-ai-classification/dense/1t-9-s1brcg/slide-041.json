@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Okapi BM25 - Wikipedia\nIn information retrieval, Okapi BM25 (BM25) is an abbreviation of best matching 25. It is used by search engines to estimate the relevance of documents to a given search query, based on the probabilistic retrieval framework developed in the 1970s and 1980s by Stephen E. Robertson, Karen Spärck Jones, and others.\nWhile BM25 uses a bag of words approach, rather than the various recurrent neural network implementations which handle text documents as an ordered sequence, it can still be very effective.\nExplore more\nRelated searches\nHybrid Search: Combining BM25 and Semantic Search for ...\nMastering BM25: A Deep Dive into the Algorithm and Its ...",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense browser screenshot with many small text regions and side panels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Okapi BM25 - Wikipedia",
+        "x": 7.0,
+        "y": 7.0,
+        "w": 35.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "In information retrieval, Okapi BM25 is an abbreviation of best matching 25.",
+        "x": 7.0,
+        "y": 17.0,
+        "w": 36.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "Explore more",
+        "x": 68.0,
+        "y": 16.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Related searches",
+        "x": 68.0,
+        "y": 48.0,
+        "w": 20.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-041.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-041.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659235.6239789,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Okapi BM25 - Wikipedia",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "OkaoiBM25-Wkioedia Wiapeda hepx.enwkipedaoeg/wkickpiBiv25 wvs bag ofwerds approachen\nThe tinkieg Nnction Modteetiobs Ceneral mefenece> toeannodedwtavery etfective\nnanteCupucseutonnn dbestmtcnging eco nef byMwchegre te etmt te ence dfoiomecs toigvenrohqverya RterunXaen Sokgk Joet wd cons Tne ofchareingnctonsusuerneCupiEsncdes e n boleden probabistcetev fatewgrkdevoped n eH7osed Hitosby Stepen t Erploremore CL ACHE\nWikipedaTeetunder CC-eY-SABceeue\nEstmed Redng Tne.mins Lud Mopo oLondon Conk ecton Ayache\nDPLOAEFURTER KPOATNF c-e mteactgteet\neskowdow.com\nHyoridSearchCombining BM25andSemanticSearchfor.22dengnge ” Medum pe./imedum.ccm/etoai/tybnid-eanch-combining 5.c Related searches\nDLORFURTHER\nOAoETcLoo-Lghing Fant SerntcSearchEoge vng waytceedya.con Mdrsc.n\nMasteringBM25:ADeepDive intotheAlgorithm andIts wnabiesa NndecenpleriomgteeNtevalsoenviesimpertintirorowmene pa/zz.com/eamaerog-m25adeop Q.bey Q\nFeuctaa",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 924.8
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Okapi BM25 - Wikipedia\nIn information retrieval, Okapi BM25 (BM25) is an abbreviation of best matching 25. It is used by search engines to estimate the relevance of documents to a given search query, based on the probabilistic retrieval framework developed in the 1970s and 1980s by Stephen E. Robertson, Karen Spärck Jones, and others.\nWhile BM25 uses a bag of words approach, rather than the various recurrent neural network implementations which handle text documents as an ordered sequence, it can still be very effective.\nExplore more\nRelated searches\nHybrid Search: Combining BM25 and Semantic Search for ...\nMastering BM25: A Deep Dive into the Algorithm and Its ...",
+    "text_status": "meaningful",
+    "corrections": "Accepted the main OCR and corrected obvious title/snippet errors; omitted unreadable clutter."
+  }
+}

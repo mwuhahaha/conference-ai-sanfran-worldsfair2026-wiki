@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "niasabeigis:siyr\nAssoon asweboot a sandbox,\"initinsidesetsup the overlayfs as detailedbelow.\n/bin/busybox mkdir -p $[NEWROOT} /bin/busybox mkdir-p ${woRk} echo\"Creating upper and work directories in SwRITABLE Rw\" /bin/busybox mkdir -p ${UPPER} /bin/busybox mkdir -p ${NEWROOT_LOWER_RO}\n/bin/busyboxmkdir-p ${NEWROOT_WRITABLE_RW]\necho“Mountingoverlayfsto $NEWRooT\" SINEWROOT} if[$？-neO ];then /bin/busybox mount-t overlay overlay -o lowerdir=${LOwER_RO},upperdir=${UPPER},workdir=$[wORK} exec /bin/busybox sh# Drop to shell for debugging echo\"Error mounting overlayfs!\"\nelse return1 echo \"Overlayfs mounted successfully.\"\nfi",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code-heavy setup slide is best handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f4ecd6",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis: Storage Setup",
+        "x": 3.0,
+        "y": 1.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "As soon as we boot a sandbox, \"init\" inside sets up the overlayfs as detailed below.",
+        "x": 4.0,
+        "y": 8.0,
+        "w": 60.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "echo \"Creating upper and work directories in $WRITABLE_RW\"\n/bin/busybox mkdir -p ${UPPER}\n/bin/busybox mkdir -p ${WORK}\n/bin/busybox mkdir -p ${NEWROOT}",
+        "x": 10.0,
+        "y": 20.0,
+        "w": 79.0,
+        "h": 55.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-028.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-028.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673568.2561426,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Arrakis: Storage Setup",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "niasabeigis:siyr\nAssoon asweboot a sandbox,\"initinsidesetsup the overlayfs as detailedbelow.\n/bin/busybox mkdir -p $[NEWROOT} /bin/busybox mkdir-p ${woRk} echo\"Creating upper and work directories in SwRITABLE Rw\" /bin/busybox mkdir -p ${UPPER} /bin/busybox mkdir -p ${NEWROOT_LOWER_RO}\n/bin/busyboxmkdir-p ${NEWROOT_WRITABLE_RW]\necho“Mountingoverlayfsto $NEWRooT\" SINEWROOT} if[$？-neO ];then /bin/busybox mount-t overlay overlay -o lowerdir=${LOwER_RO},upperdir=${UPPER},workdir=$[wORK} exec /bin/busybox sh# Drop to shell for debugging echo\"Error mounting overlayfs!\"\nelse return1 echo \"Overlayfs mounted successfully.\"\nfi",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 726.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "niasabeigis:siyr\nAssoon asweboot a sandbox,\"initinsidesetsup the overlayfs as detailedbelow.\n/bin/busybox mkdir -p $[NEWROOT} /bin/busybox mkdir-p ${woRk} echo\"Creating upper and work directories in SwRITABLE Rw\" /bin/busybox mkdir -p ${UPPER} /bin/busybox mkdir -p ${NEWROOT_LOWER_RO}\n/bin/busyboxmkdir-p ${NEWROOT_WRITABLE_RW]\necho“Mountingoverlayfsto $NEWRooT\" SINEWROOT} if[$？-neO ];then /bin/busybox mount-t overlay overlay -o lowerdir=${LOwER_RO},upperdir=${UPPER},workdir=$[wORK} exec /bin/busybox sh# Drop to shell for debugging echo\"Error mounting overlayfs!\"\nelse return1 echo \"Overlayfs mounted successfully.\"\nfi",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The agents aren't the bottleneck.\nWe are.\nAgents\nVerification\nYour attention",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#000000",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The agents aren't the bottleneck.",
+        "x": 34.0,
+        "y": 12.0,
+        "w": 50.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "We are.",
+        "x": 54.0,
+        "y": 24.0,
+        "w": 16.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 23.0,
+        "w": 12.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "Agents",
+        "x": 37.0,
+        "y": 44.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Verification",
+        "x": 53.0,
+        "y": 44.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Your attention",
+        "x": 77.0,
+        "y": 44.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 56.0,
+        "y": 78.0,
+        "w": 21.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-003.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671957.8703358,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The agents aren't the bottleneck.\nWe are.\nAgents\nVerification\nYour attention",
+  "advanced_ocr": {}
+}

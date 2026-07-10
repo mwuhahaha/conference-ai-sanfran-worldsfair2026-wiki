@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Software Engineer @ Stripe\nSpent 4 years leading our Issuing team\nSpent last 2 years helping robots spend",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "solid blue-purple",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 21.0,
+        "w": 13.0,
+        "h": 20.0
+      },
+      {
+        "role": "title",
+        "text": "Software Engineer @ Stripe",
+        "x": 25.0,
+        "y": 2.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Spent 4 years leading our Issuing team\nSpent last 2 years helping robots spend",
+        "x": 25.0,
+        "y": 18.0,
+        "w": 57.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 40.0,
+        "y": 88.0,
+        "w": 42.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/KLSuFPj2ld0/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660159.1707747,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Software Engineer @ Stripe\nSpent 4 years leading our Issuing team\nSpent last 2 years helping robots spend",
+  "advanced_ocr": {}
+}

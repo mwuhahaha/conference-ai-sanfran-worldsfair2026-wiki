@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.89,
+  "frame_type": "demo_video",
+  "reject_reason": "Mixed screen capture with a cropped slide on the left and terminal/demo output on the right; not a clean readable presentation slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a stable slide frame; mixed demo footage is better handled as video than slide OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "split beige and dark terminal",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Vibecoding CVE Remediation: Detect CVEs",
+        "x": 0,
+        "y": 18.0,
+        "w": 50.0,
+        "h": 20.0
+      },
+      {
+        "role": "code",
+        "text": "terminal output",
+        "x": 72.0,
+        "y": 0,
+        "w": 28.0,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-016.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671767.7575018,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

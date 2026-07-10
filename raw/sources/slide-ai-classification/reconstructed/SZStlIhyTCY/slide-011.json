@@ -1,0 +1,186 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Besides adopting tools what needs to shift?\nAl native workflows Operating model: Al-native roles Talent:\nTeam ceremonies (continuousplanning with instead of two.pizza pod) Team size (one-pizza\nUnit of work Team configuration\n(spec-drivendevelopment instead of story-driven) from specialized roles) (definers and builders\nWays of working (code-based prototypes from long PRDs) (agent managers instead of specialized practitioners) Roles and skills\nMonry & Compeny 10\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense comparison slide with multiple small cards and labels; OCR is the best triage path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#081a24",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Besides adopting tools what needs to shift?",
+        "x": 25.0,
+        "y": 4.0,
+        "w": 46.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Operating model: AI native workflows",
+        "x": 33.0,
+        "y": 13.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Talent: AI-native roles",
+        "x": 77.0,
+        "y": 13.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Team ceremonies",
+        "x": 28.0,
+        "y": 22.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(continuous planning with experiments)",
+        "x": 30.0,
+        "y": 29.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Unit of work",
+        "x": 28.0,
+        "y": 40.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(spec-driven development instead of story-driven)",
+        "x": 29.0,
+        "y": 48.0,
+        "w": 21.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Ways of working",
+        "x": 28.0,
+        "y": 56.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(code-based prototypes from long PRDs)",
+        "x": 30.0,
+        "y": 64.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Team size",
+        "x": 68.0,
+        "y": 22.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(one-pizza instead of two-pizza pod)",
+        "x": 70.0,
+        "y": 29.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Team configuration",
+        "x": 68.0,
+        "y": 40.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(definers and builders from specialized roles)",
+        "x": 69.0,
+        "y": 48.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Roles and skills",
+        "x": 68.0,
+        "y": 56.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(agent managers instead of specialized practitioners)",
+        "x": 69.0,
+        "y": 64.0,
+        "w": 23.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+        "x": 27.0,
+        "y": 90.0,
+        "w": 48.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "MARTIN HARRYSSON",
+        "x": 26.0,
+        "y": 96.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "NATASHA MANIAR",
+        "x": 44.0,
+        "y": 96.0,
+        "w": 14.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-011.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663758.902407,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Besides adopting tools what needs to shift?\nAl native workflows Operating model: Al-native roles Talent:\nTeam ceremonies (continuousplanning with instead of two.pizza pod) Team size (one-pizza\nUnit of work Team configuration\n(spec-drivendevelopment instead of story-driven) from specialized roles) (definers and builders\nWays of working (code-based prototypes from long PRDs) (agent managers instead of specialized practitioners) Roles and skills\nMonry & Compeny 10\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 878.44
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Besides adopting tools what needs to shift?\nAl native workflows Operating model: Al-native roles Talent:\nTeam ceremonies (continuousplanning with instead of two.pizza pod) Team size (one-pizza\nUnit of work Team configuration\n(spec-drivendevelopment instead of story-driven) from specialized roles) (definers and builders\nWays of working (code-based prototypes from long PRDs) (agent managers instead of specialized practitioners) Roles and skills\nMonry & Compeny 10\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTINHARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

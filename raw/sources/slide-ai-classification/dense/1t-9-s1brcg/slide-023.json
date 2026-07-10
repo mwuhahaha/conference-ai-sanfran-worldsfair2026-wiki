@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Continuation of the Azure deployment instructions with multiple command snippets and small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "azd env new",
+        "x": 12.0,
+        "y": 9.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "4. Set azd environment variables to use the Azure OpenAI proxy service.",
+        "x": 12.0,
+        "y": 26.0,
+        "w": 72.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "azd env set CREATE_AZURE_OPENAI false",
+        "x": 14.0,
+        "y": 34.0,
+        "w": 37.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "azd env set AZURE_OPENAI_KEY YOUR-KEY-HERE",
+        "x": 14.0,
+        "y": 50.0,
+        "w": 40.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "azd env set AZURE_OPENAI_ENDPOINT https://YOUR-ENDPOINT-HERE/api/v1",
+        "x": 14.0,
+        "y": 67.0,
+        "w": 57.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-023.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-023.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657514.9111407,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

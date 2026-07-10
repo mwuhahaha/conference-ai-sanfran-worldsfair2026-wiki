@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Controversial design decisions\n- Just make edits - don't ask me\n- Minimal UI - no VS Code fork\n- No \"choose your own model\"\n- No fixed pricing, no token limit\n- Unix philosophy over vertical integration\n- Don't build on top of a RAG bot - existing code AI UX is now outdated",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "black with subtle dark wave texture",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Controversial design decisions",
+        "x": 24.0,
+        "y": 6.0,
+        "w": 38.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Just make edits - don't ask me\nMinimal UI - no VS Code fork\nNo \"choose your own model\"\nNo fixed pricing, no token limit\nUnix philosophy over vertical integration\nDon't build on top of a RAG bot - existing code AI UX is now outdated",
+        "x": 24.0,
+        "y": 20.0,
+        "w": 56.0,
+        "h": 40.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-007.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659071.9410596,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Controversial design decisions\n- Just make edits - don't ask me\n- Minimal UI - no VS Code fork\n- No \"choose your own model\"\n- No fixed pricing, no token limit\n- Unix philosophy over vertical integration\n- Don't build on top of a RAG bot - existing code AI UX is now outdated",
+  "advanced_ocr": {}
+}

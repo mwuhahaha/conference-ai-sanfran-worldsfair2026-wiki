@@ -1,0 +1,71 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.91,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Engineering the future of AI",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small text in the projected screenshot plus multiple UI elements; OCR is likely better than manual transcription for the body content.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with a large white projected-screenshot area and a black footer banner",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 12.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Key Insights",
+        "x": 43.0,
+        "y": 2.0,
+        "w": 52.0,
+        "h": 40.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 42.0,
+        "y": 81.0,
+        "w": 56.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 0,
+        "y": 68.0,
+        "w": 31.0,
+        "h": 28.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/o-zkvb0iFDQ/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670505.3920035,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/right-72/opencv-adaptive",
+    "best_score": 1213.4,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0038
+  }
+}

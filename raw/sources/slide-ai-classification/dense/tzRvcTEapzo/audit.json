@@ -1,0 +1,360 @@
+{
+  "video_id": "tzRvcTEapzo",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 5,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agenda\n1. How do we get more intelligent AI?\n2. Hands on Workshop\n3. Q&A with MoE queen + Daniel",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light cream with black left strip",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Agenda",
+            "x": 23.0,
+            "y": 0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "1. How do we get more intelligent AI?\na. Approach #1 - Larger Parameter Models with Mixture of Experts Models\nb. Approach #2 - Mixture of Agents\n2. Hands on Workshop\n3. Q&A with MoE queen + Daniel",
+            "x": 25.0,
+            "y": 11.0,
+            "w": 64.0,
+            "h": 28.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/tzRvcTEapzo/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672040.5342052,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agenda\n1. How do we get more intelligent AI?\n2. Hands on Workshop\n3. Q&A with MoE queen + Daniel",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/tzRvcTEapzo/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Daria Soboleva\nHead Research Scientist\nMoE Queen\nResearch focus\nMixture-of-experts models\nHardware-efficient LLM training\nCreator of SlimPajama dataset (627B tokens, 1M+ downloads)\nFormer Google researcher with expertise in research & engineering",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "light cream",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "photo",
+            "text": "",
+            "x": 22.0,
+            "y": 3.0,
+            "w": 31.0,
+            "h": 65.0
+          },
+          {
+            "role": "title",
+            "text": "Daria Soboleva",
+            "x": 58.0,
+            "y": 4.0,
+            "w": 33.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Head Research Scientist\nMoE Queen",
+            "x": 58.0,
+            "y": 13.0,
+            "w": 28.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Research focus\nMixture-of-experts models\nHardware-efficient LLM training\nCreator of SlimPajama dataset (627B tokens, 1M+ downloads)\nFormer Google researcher with expertise in research & engineering",
+            "x": 57.0,
+            "y": 28.0,
+            "w": 34.0,
+            "h": 35.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 17.0,
+            "y": 58.0,
+            "w": 14.0,
+            "h": 20.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/tzRvcTEapzo/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672040.5382013,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Daria Soboleva\nHead Research Scientist\nMoE Queen\nResearch focus\nMixture-of-experts models\nHardware-efficient LLM training\nCreator of SlimPajama dataset (627B tokens, 1M+ downloads)\nFormer Google researcher with expertise in research & engineering",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/tzRvcTEapzo/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Kevin Taylor\nGrowth Engineering Intern\nUCLA bound :)\nHigh school Senior\nThe reason why this workshop is so good!",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "light cream",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "photo",
+            "text": "",
+            "x": 22.0,
+            "y": 0,
+            "w": 27.0,
+            "h": 75.0
+          },
+          {
+            "role": "title",
+            "text": "Kevin Taylor",
+            "x": 57.0,
+            "y": 0,
+            "w": 28.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Growth Engineering Intern",
+            "x": 57.0,
+            "y": 8.0,
+            "w": 30.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "UCLA bound :)\nHigh school Senior\nThe reason why this workshop is so good!",
+            "x": 58.0,
+            "y": 17.0,
+            "w": 34.0,
+            "h": 25.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 58.0,
+            "y": 51.0,
+            "w": 15.0,
+            "h": 24.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/tzRvcTEapzo/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672040.5389516,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Kevin Taylor\nGrowth Engineering Intern\nUCLA bound :)\nHigh school Senior\nThe reason why this workshop is so good!",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/tzRvcTEapzo/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "streamlit.10\nAIE Free\nFox coesrunilty acos Deplcy wien Beeer aepuoug Ven fapao torprolestionalt\nD4n yoy WU\ntoseonolenDapp nmrutes\nGotstarted Try tho Eve playground!\nWortfsFair aws\n?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product screenshot content with small interface text; OCR is better suited than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "streamlit.io",
+            "x": 39.0,
+            "y": 0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 32.0,
+            "y": 8.0,
+            "w": 61.0,
+            "h": 80.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 63.0,
+            "y": 88.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/tzRvcTEapzo/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672040.5395982,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "streamlit.io",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "streamlit.10\nAIE Free\nFox coesrunilty acos Deplcy wien Beeer aepuoug Ven fapao torprolestionalt\nD4n yoy WU\ntoseonolenDapp nmrutes\nGotstarted Try tho Eve playground!\nWortfsFair aws\n?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 344.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "streamlit.10\nAIE Free\nFox coesrunilty acos Deplcy wien Beeer aepuoug Ven fapao torprolestionalt\nD4n yoy WU\ntoseonolenDapp nmrutes\nGotstarted Try tho Eve playground!\nWortfsFair aws\n?",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/tzRvcTEapzo/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Navigation Chooeapige Al Configuration Challenge\nA Configuration Challenge (thinking disabled)\nAIE ConfigreA sgents to genesieperfect code·Maimum Score120 pots.Dethe Awhisperen Master Prompt Engineering&Multi-AgentSystems\nSorngCud\nConfigureYourAl System\nSet op the A agerts, mocels, Jnd promgts to grnerate the perlkct solution!\nHeoont Conig upbadConlg\nDog and drop file here LmRxoovopAle.J5oN Browse fles\nimpon Config\nKainTempersture Vsn Vede\nWorkcfsFsir Microsoft smol ai",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshot with small text; OCR is needed for accurate capture.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with purple header",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI Configuration Challenge (thinking disabled)",
+            "x": 53.0,
+            "y": 1.0,
+            "w": 38.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Master Prompt Engineering & Multi-Agent Systems",
+            "x": 55.0,
+            "y": 13.0,
+            "w": 34.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Configure Your AI System",
+            "x": 50.0,
+            "y": 38.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 18.0,
+            "y": 12.0,
+            "w": 23.0,
+            "h": 74.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/tzRvcTEapzo/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672064.3151884,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Navigation Chooeapige Al Configuration Challenge\nA Configuration Challenge (thinking disabled)\nAIE ConfigreA sgents to genesieperfect code·Maimum Score120 pots.Dethe Awhisperen Master Prompt Engineering&Multi-AgentSystems\nSorngCud\nConfigureYourAl System\nSet op the A agerts, mocels, Jnd promgts to grnerate the perlkct solution!\nHeoont Conig upbadConlg\nDog and drop file here LmRxoovopAle.J5oN Browse fles\nimpon Config\nKainTempersture Vsn Vede\nWorkcfsFsir Microsoft smol ai",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 690.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Navigation Chooeapige Al Configuration Challenge\nA Configuration Challenge (thinking disabled)\nAIE ConfigreA sgents to genesieperfect code·Maimum Score120 pots.Dethe Awhisperen Master Prompt Engineering&Multi-AgentSystems\nSorngCud\nConfigureYourAl System\nSet op the A agerts, mocels, Jnd promgts to grnerate the perlkct solution!\nHeoont Conig upbadConlg\nDog and drop file here LmRxoovopAle.J5oN Browse fles\nimpon Config\nKainTempersture Vsn Vede\nWorkcfsFsir Microsoft smol ai",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/tzRvcTEapzo/slide-005.html"
+    }
+  ],
+  "rejected": []
+}

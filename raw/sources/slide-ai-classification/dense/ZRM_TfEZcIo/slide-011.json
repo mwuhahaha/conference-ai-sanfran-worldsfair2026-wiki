@@ -3,7 +3,12 @@
   "confidence": 0.98,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "One immutable PARA snapshot\nProjects\nAreas\nResources\nArchive\nObsidian snapshot\nimmutable\nnotes\nresources\nhighlights",
+  "text": "One immutable PARA snapshot",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
   "layout": {
     "background": "#ffffff",
     "style": "diagram",
@@ -12,86 +17,92 @@
         "role": "title",
         "text": "One immutable PARA snapshot",
         "x": 27.0,
-        "y": 4.0,
+        "y": 6.0,
         "w": 46.0,
-        "h": 8.0
+        "h": 10.0
       },
       {
-        "role": "body",
+        "role": "diagram_label",
         "text": "Projects",
-        "x": 36.0,
-        "y": 15.0,
-        "w": 18.0,
-        "h": 6.0
+        "x": 37.0,
+        "y": 29.0,
+        "w": 12.0,
+        "h": 7.0
       },
       {
-        "role": "body",
+        "role": "diagram_label",
         "text": "Areas",
-        "x": 36.0,
-        "y": 23.0,
-        "w": 18.0,
-        "h": 6.0
+        "x": 37.0,
+        "y": 41.0,
+        "w": 10.0,
+        "h": 7.0
       },
       {
-        "role": "body",
+        "role": "diagram_label",
         "text": "Resources",
         "x": 36.0,
-        "y": 31.0,
-        "w": 18.0,
-        "h": 6.0
+        "y": 53.0,
+        "w": 14.0,
+        "h": 7.0
       },
       {
-        "role": "body",
+        "role": "diagram_label",
         "text": "Archive",
-        "x": 36.0,
-        "y": 39.0,
-        "w": 18.0,
-        "h": 6.0
+        "x": 37.0,
+        "y": 66.0,
+        "w": 11.0,
+        "h": 7.0
       },
       {
         "role": "diagram_label",
         "text": "Obsidian snapshot",
         "x": 66.0,
-        "y": 18.0,
-        "w": 22.0,
-        "h": 6.0
+        "y": 25.0,
+        "w": 18.0,
+        "h": 8.0
       },
       {
         "role": "diagram_label",
         "text": "immutable",
-        "x": 72.0,
-        "y": 24.0,
+        "x": 71.0,
+        "y": 34.0,
         "w": 10.0,
-        "h": 5.0
+        "h": 7.0
       },
       {
         "role": "diagram_label",
         "text": "notes",
-        "x": 72.0,
-        "y": 31.0,
+        "x": 69.0,
+        "y": 47.0,
         "w": 10.0,
-        "h": 6.0
+        "h": 7.0
       },
       {
         "role": "diagram_label",
         "text": "resources",
-        "x": 72.0,
-        "y": 39.0,
-        "w": 10.0,
-        "h": 6.0
+        "x": 69.0,
+        "y": 58.0,
+        "w": 13.0,
+        "h": 7.0
       },
       {
         "role": "diagram_label",
         "text": "highlights",
-        "x": 72.0,
-        "y": 47.0,
-        "w": 10.0,
-        "h": 6.0
+        "x": 69.0,
+        "y": 69.0,
+        "w": 13.0,
+        "h": 7.0
       }
     ]
   },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
   "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-011.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783629127.1893365
+  "classified_at_epoch": 1783665787.0767071,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "One immutable PARA snapshot",
+  "advanced_ocr": {}
 }

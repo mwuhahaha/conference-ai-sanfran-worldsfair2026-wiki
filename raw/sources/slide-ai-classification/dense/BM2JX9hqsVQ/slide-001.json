@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Engineering the future of AI",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Contains a readable title plus a dense product UI screenshot with many small labels that OCR should handle better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with large white product screenshot panel",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 17.0,
+        "h": 28.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Dashboard",
+        "x": 28.0,
+        "y": 0,
+        "w": 68.0,
+        "h": 38.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 39.0,
+        "y": 82.0,
+        "w": 44.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/BM2JX9hqsVQ/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658975.9484642,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

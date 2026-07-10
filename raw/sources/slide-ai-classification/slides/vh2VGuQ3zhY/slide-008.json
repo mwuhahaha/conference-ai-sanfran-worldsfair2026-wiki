@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "YOURROADMAP\nImplementation Checklist\nAnkush Rastogi\nCatalog Your Tools Build the Embedding Index\nGather alltoolnames,descriptions,and JsON schemasina structured list Pinecone,one-time setup Embed each description, store vectors in FAiss or\nImplement the Router Integrate Into the Agent Loop\nschemas embed(query)→similarity_search→top-K→fetch Replace your static functions list with therouter output on every call Sohaa Shakh\n5 Benchmark accuracy at K=3,5,10on a held-out set; pickthe sweet spot Evaluate & Tune K 6 your catalog grows Monitor & Iterate Log selections;alert on missed tools;re-embed as\n14\nAntush Rastogi",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Six-item checklist with smaller subtext across two columns.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark blue gradient",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "YOUR ROADMAP",
+        "x": 5.0,
+        "y": 9.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Implementation Checklist",
+        "x": 5.0,
+        "y": 15.0,
+        "w": 50.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1 Catalog Your Tools",
+        "x": 5.0,
+        "y": 34.0,
+        "w": 38.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "2 Build the Embedding Index",
+        "x": 51.0,
+        "y": 34.0,
+        "w": 40.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3 Implement the Router",
+        "x": 5.0,
+        "y": 52.0,
+        "w": 38.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "4 Integrate Into the Agent Loop",
+        "x": 51.0,
+        "y": 52.0,
+        "w": 40.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "5 Evaluate & Tune K",
+        "x": 5.0,
+        "y": 70.0,
+        "w": 38.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "6 Monitor & Iterate",
+        "x": 51.0,
+        "y": 70.0,
+        "w": 40.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/vh2VGuQ3zhY/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672461.8191197,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "YOURROADMAP\nImplementation Checklist\nAnkush Rastogi\nCatalog Your Tools Build the Embedding Index\nGather alltoolnames,descriptions,and JsON schemasina structured list Pinecone,one-time setup Embed each description, store vectors in FAiss or\nImplement the Router Integrate Into the Agent Loop\nschemas embed(query)→similarity_search→top-K→fetch Replace your static functions list with therouter output on every call Sohaa Shakh\n5 Benchmark accuracy at K=3,5,10on a held-out set; pickthe sweet spot Evaluate & Tune K 6 your catalog grows Monitor & Iterate Log selections;alert on missed tools;re-embed as\n14\nAntush Rastogi",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 929.84
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "YOURROADMAP\nImplementation Checklist\nAnkush Rastogi\nCatalog Your Tools Build the Embedding Index\nGather alltoolnames,descriptions,and JsON schemasina structured list Pinecone,one-time setup Embed each description, store vectors in FAiss or\nImplement the Router Integrate Into the Agent Loop\nschemas embed(query)→similarity_search→top-K→fetch Replace your static functions list with therouter output on every call Sohaa Shakh\n5 Benchmark accuracy at K=3,5,10on a held-out set; pickthe sweet spot Evaluate & Tune K 6 your catalog grows Monitor & Iterate Log selections;alert on missed tools;re-embed as\n14\nAntush Rastogi",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

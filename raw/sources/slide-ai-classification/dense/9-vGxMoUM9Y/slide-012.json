@@ -1,0 +1,108 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "More examples of validations\nMake sure my code is executable\nNever give financial or healthcare advice\nDon’t ask private questions\nDon’t mention competitors\nEnsure each sentence is from a verified source and is accurate\nNo profanity is mentioned in text\nPrompt injection protection\nNever expose prompt or sources",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "More examples of validations",
+        "x": 5.0,
+        "y": 3.0,
+        "w": 46.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Make sure my code is executable",
+        "x": 6.0,
+        "y": 23.0,
+        "w": 44.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Never give financial or healthcare advice",
+        "x": 6.0,
+        "y": 31.0,
+        "w": 54.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Don’t ask private questions",
+        "x": 6.0,
+        "y": 39.0,
+        "w": 36.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Don’t mention competitors",
+        "x": 6.0,
+        "y": 47.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Ensure each sentence is from a verified source and is accurate",
+        "x": 6.0,
+        "y": 55.0,
+        "w": 72.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "No profanity is mentioned in text",
+        "x": 6.0,
+        "y": 63.0,
+        "w": 44.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Prompt injection protection",
+        "x": 6.0,
+        "y": 71.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Never expose prompt or sources",
+        "x": 6.0,
+        "y": 79.0,
+        "w": 40.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Guardrails AI",
+        "x": 5.0,
+        "y": 90.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/9-vGxMoUM9Y/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658766.5252385,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "More examples of validations\nMake sure my code is executable\nNever give financial or healthcare advice\nDon’t ask private questions\nDon’t mention competitors\nEnsure each sentence is from a verified source and is accurate\nNo profanity is mentioned in text\nPrompt injection protection\nNever expose prompt or sources",
+  "advanced_ocr": {}
+}

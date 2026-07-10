@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "compare open models\nDatasets: @ScaleAl/SWE-bench_Pro like: 78 Follow @ ScaleA: 284\nBenchmark Modalities: θ Text Formats: + parquet Size:<1K Libraries: & Datasets pandas. Polars. +1\nt Dataset card: 田 Data Studio Flles and versions 1 K xot: O Community 0\n. Leaderboard ioficisl Benchmrk ① Leam more Epedmentsl\nTaslc SWE Bench Pro\nHODEL SCORE\nΦ Oza1-org/GLH-5.1:0 58.4\n2 HiniMaxAI/niniMax-H2.5 T 55.4\n3. Q coonshotai/KimI-K2.S n' 50.7\n4 s Quen/Qnen3-Coder-Hext n: source 44.3\n5 1 Qon/Qwan3-Coder-4888-A35B-Instruct n! tource 38.7\nV Show all 14 modcls",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Leaderboard table and model scores are dense and OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f7f7f2",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "compare open models",
+        "x": 10.0,
+        "y": 2.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Datasets: ScaleAI / SWE-bench_Pro",
+        "x": 8.0,
+        "y": 10.0,
+        "w": 38.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Leaderboard",
+        "x": 9.0,
+        "y": 25.0,
+        "w": 12.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661798.3537724,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "compare open models",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "compare open models\nDatasets: @ScaleAl/SWE-bench_Pro like: 78 Follow @ ScaleA: 284\nBenchmark Modalities: θ Text Formats: + parquet Size:<1K Libraries: & Datasets pandas. Polars. +1\nt Dataset card: 田 Data Studio Flles and versions 1 K xot: O Community 0\n. Leaderboard ioficisl Benchmrk ① Leam more Epedmentsl\nTaslc SWE Bench Pro\nHODEL SCORE\nΦ Oza1-org/GLH-5.1:0 58.4\n2 HiniMaxAI/niniMax-H2.5 T 55.4\n3. Q coonshotai/KimI-K2.S n' 50.7\n4 s Quen/Qnen3-Coder-Hext n: source 44.3\n5 1 Qon/Qwan3-Coder-4888-A35B-Instruct n! tource 38.7\nV Show all 14 modcls",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 656.28
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "compare open models\nDatasets: @ScaleAl/SWE-bench_Pro like: 78 Follow @ ScaleA: 284\nBenchmark Modalities: θ Text Formats: + parquet Size:<1K Libraries: & Datasets pandas. Polars. +1\nt Dataset card: 田 Data Studio Flles and versions 1 K xot: O Community 0\n. Leaderboard ioficisl Benchmrk ① Leam more Epedmentsl\nTaslc SWE Bench Pro\nHODEL SCORE\nΦ Oza1-org/GLH-5.1:0 58.4\n2 HiniMaxAI/niniMax-H2.5 T 55.4\n3. Q coonshotai/KimI-K2.S n' 50.7\n4 s Quen/Qnen3-Coder-Hext n: source 44.3\n5 1 Qon/Qwan3-Coder-4888-A35B-Instruct n! tource 38.7\nV Show all 14 modcls",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

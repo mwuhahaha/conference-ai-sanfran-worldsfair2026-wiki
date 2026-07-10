@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Use Cases Lighting Round\nWhat we’ll cover:\n- Simple sentiment classifier\n- Structured information from a PDF\n- Multimodal extraction\n- Web research agent (using Tools)\n- Detect boundaries of a document\n- Recursively summarize an arbitrary-length document\n- GEPA example",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "#30413d",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Use Cases Lighting Round",
+        "x": 3.0,
+        "y": 4.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What we’ll cover:",
+        "x": 3.0,
+        "y": 19.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "- Simple sentiment classifier\n- Structured information from a PDF\n- Multimodal extraction\n- Web research agent (using Tools)\n- Detect boundaries of a document\n- Recursively summarize an arbitrary-length document\n- GEPA example",
+        "x": 5.0,
+        "y": 27.0,
+        "w": 50.0,
+        "h": 49.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 70.0,
+        "y": 25.0,
+        "w": 18.0,
+        "h": 30.0
+      },
+      {
+        "role": "caption",
+        "text": "github.com/kmad/aie",
+        "x": 66.0,
+        "y": 57.0,
+        "w": 28.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655110.3910382,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Use Cases Lighting Round\nWhat we’ll cover:\n- Simple sentiment classifier\n- Structured information from a PDF\n- Multimodal extraction\n- Web research agent (using Tools)\n- Detect boundaries of a document\n- Recursively summarize an arbitrary-length document\n- GEPA example",
+  "advanced_ocr": {}
+}

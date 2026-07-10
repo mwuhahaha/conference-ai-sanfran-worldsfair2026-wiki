@@ -14,8 +14,9 @@ sourceLabels: ["Captured video frames", "Local OpenCV slide-region detection"]
 This deck is slide-only. The existing captured video frame set supplies candidate frames, then local OpenCV rejects sponsor/title/speaker-only frames, crops visible slide surfaces, deduplicates, and saves the cropped slide images.
 
 ## Cropped Visible Slides
-![[assets/dense-slides/C_GG5g38vLU/slide-001.jpg]]
+No slide-like frames are visible after AI slide classification. Rejected frames remain stored as evidence and are listed below.
 
-- Source scene image: `frame-00018.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.74`
-- Slide-only rule: `visual-bright-slide`
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/dense-slides/C_GG5g38vLU/slide-001.jpg) — `speaker_stage` confidence `0.93`; Stage photo with speaker and auditorium view; the projected screen is visible but this is not a clean slide frame.
+
+Classification audit: `raw/sources/slide-ai-classification/dense/C_GG5g38vLU/audit.json`

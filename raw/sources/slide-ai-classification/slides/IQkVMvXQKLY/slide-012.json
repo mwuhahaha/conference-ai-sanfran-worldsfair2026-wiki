@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "WHY IT WORKS\nBackdoors are directions, not needles\na_ft = a_base + 1_trigger · v_backdoor + ε\nΔa ≈ v_backdoor\nThe delta: high signal\nJoint features: diluted",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "WHY IT WORKS",
+        "x": 5.0,
+        "y": 5.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Backdoors are directions, not needles",
+        "x": 5.0,
+        "y": 8.0,
+        "w": 63.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "a_ft = a_base + 1_trigger · v_backdoor + ε",
+        "x": 6.0,
+        "y": 28.0,
+        "w": 42.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Δa ≈ v_backdoor",
+        "x": 69.0,
+        "y": 30.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "The delta: high signal",
+        "x": 10.0,
+        "y": 54.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Joint features: diluted",
+        "x": 57.0,
+        "y": 54.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "The difference is mostly the backdoor; other fine-tuning effects are small",
+        "x": 10.0,
+        "y": 67.0,
+        "w": 40.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Must explain base semantics, fine-tuned semantics, and the change at once",
+        "x": 57.0,
+        "y": 67.0,
+        "w": 35.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/IQkVMvXQKLY/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660540.0752122,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "WHY IT WORKS\nBackdoors are directions, not needles\na_ft = a_base + 1_trigger · v_backdoor + ε\nΔa ≈ v_backdoor\nThe delta: high signal\nJoint features: diluted",
+  "advanced_ocr": {}
+}

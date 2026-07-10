@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Failure Mode 1: The Context Trap",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense slide with small body text and chart; OCR will likely do better",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Failure Mode 1: The Context Trap",
+        "x": 31.0,
+        "y": 9.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "PROBLEM ANALYSIS",
+        "x": 34.0,
+        "y": 27.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "The 'Lost in the Middle' Phenomenon",
+        "x": 34.0,
+        "y": 32.0,
+        "w": 27.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "10 Total Retrieved Documents",
+        "x": 73.0,
+        "y": 21.0,
+        "w": 18.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/EcqMYoIV57A/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659040.5727806,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Failure Mode 1: The Context Trap",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

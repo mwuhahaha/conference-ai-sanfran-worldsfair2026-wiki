@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The past is a foreign country\n2019-2024 · a 30-person YC startup · 12 engineers",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#111111",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The past is a foreign country",
+        "x": 28.0,
+        "y": 37.0,
+        "w": 31.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "2019-2024 · a 30-person YC startup · 12 engineers",
+        "x": 67.0,
+        "y": 57.0,
+        "w": 26.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/9fubhllmsBU/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658354.5698655,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The past is a foreign country\n2019-2024 · a 30-person YC startup · 12 engineers",
+  "advanced_ocr": {}
+}

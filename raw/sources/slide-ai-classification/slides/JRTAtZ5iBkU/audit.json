@@ -1,0 +1,421 @@
+{
+  "video_id": "JRTAtZ5iBkU",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 6,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Hi — I’m Amol.\nWe deploy an AI employee that understands your company,",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "radial-gradient(#11331c, #050505)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AMOL • CEO, NORTI AGENTIC",
+            "x": 39.0,
+            "y": 4.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Hi — I’m Amol.",
+            "x": 36.0,
+            "y": 41.0,
+            "w": 28.0,
+            "h": 13.0
+          },
+          {
+            "role": "subtitle",
+            "text": "We deploy an AI employee that understands your company,",
+            "x": 23.0,
+            "y": 59.0,
+            "w": 54.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JRTAtZ5iBkU/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659960.0803874,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Hi — I’m Amol.\nWe deploy an AI employee that understands your company,",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "THE REAL COST\nTHE SAME DECK\n10 hrs\n25 min\n↓ 24× faster",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "radial-gradient(#11331c, #050505)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "THE REAL COST",
+            "x": 42.0,
+            "y": 6.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "THE SAME DECK",
+            "x": 42.0,
+            "y": 21.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "10 hrs",
+            "x": 19.0,
+            "y": 40.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "25 min",
+            "x": 18.0,
+            "y": 56.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "↓ 24× faster",
+            "x": 43.0,
+            "y": 71.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "you remove all the formatting and the branding and the moving things around.",
+            "x": 15.0,
+            "y": 84.0,
+            "w": 70.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JRTAtZ5iBkU/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659960.081963,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "THE REAL COST\nTHE SAME DECK\n10 hrs\n25 min\n↓ 24× faster",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code/proprietary-format slide is better handled by OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "radial-gradient(#11331c, #050505)",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "",
+            "x": 24.0,
+            "y": 18.0,
+            "w": 52.0,
+            "h": 48.0
+          },
+          {
+            "role": "caption",
+            "text": "proprietary format · only the app can read it",
+            "x": 29.0,
+            "y": 63.0,
+            "w": 42.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "but it's in a format that only the application can read.",
+            "x": 24.0,
+            "y": 80.0,
+            "w": 52.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JRTAtZ5iBkU/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659960.084993,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "NO.\nagents aren't the problem.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "radial-gradient(#11331c, #050505)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "NO.",
+            "x": 37.0,
+            "y": 17.0,
+            "w": 26.0,
+            "h": 27.0
+          },
+          {
+            "role": "subtitle",
+            "text": "agents aren't the problem.",
+            "x": 37.0,
+            "y": 47.0,
+            "w": 26.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "No, I don't think so.",
+            "x": 40.0,
+            "y": 77.0,
+            "w": 20.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JRTAtZ5iBkU/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659960.0857482,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "NO.\nagents aren't the problem.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-panel diagram with code and UI text is better suited to OCR extraction than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "radial-gradient(#11331c, #050505)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "",
+            "x": 6.0,
+            "y": 22.0,
+            "w": 38.0,
+            "h": 32.0
+          },
+          {
+            "role": "caption",
+            "text": "model writes meaning",
+            "x": 10.0,
+            "y": 18.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "browser",
+            "x": 46.0,
+            "y": 34.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "→",
+            "x": 47.0,
+            "y": 39.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Q3 Results",
+            "x": 55.0,
+            "y": 21.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "charts",
+            "x": 30.0,
+            "y": 69.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "layouts",
+            "x": 41.0,
+            "y": 69.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "the model never places a coordinate.",
+            "x": 26.0,
+            "y": 77.0,
+            "w": 43.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "And you can get all sorts of visual effects, charts and layouts,",
+            "x": 23.0,
+            "y": 84.0,
+            "w": 55.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JRTAtZ5iBkU/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659960.087647,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "SLIDE DECKS → HTML",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Grid of small cards and labels is OCR-suitable; the slide title is short enough to preserve directly.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "radial-gradient(#11331c, #050505)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "SLIDE DECKS → HTML",
+            "x": 39.0,
+            "y": 6.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "built in a single prompt.",
+            "x": 40.0,
+            "y": 48.0,
+            "w": 18.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/JRTAtZ5iBkU/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659960.0899863,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "SLIDE DECKS → HTML",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/JRTAtZ5iBkU/slide-006.html"
+    }
+  ],
+  "rejected": []
+}

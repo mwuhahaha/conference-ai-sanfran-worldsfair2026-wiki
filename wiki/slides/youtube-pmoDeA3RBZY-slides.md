@@ -19,138 +19,101 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/pmoDeA3RBZY/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/pmoDeA3RBZY/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.97`
+- Text source: agent_vision.
 
-> AEae
-> Open
-> Dark Factories: OpenClaw Ships
-> Faster Than You Can Read the Diff
-> ngineer
-> SEN
-> VincentKoc(@vincent_koc)
-> ENTEOBY
+Slide text:
+
+> Dark Factories: OpenClaw Ships Faster Than You Can Read the Diff
+> Vincent Koc (@vincent_koc)
 > OpenClaw
-> eDeepMind
-> Google DeepMind
-> AlEngineer
-> EUROPE
 
 ![[assets/slides/pmoDeA3RBZY/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/pmoDeA3RBZY/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> AIEngineer
-> togeth EUROPE AIEngi I wakeup
-> AIE ed
-> iC AIEngi
-> AIEnS EURO tail thereisanew
-> technologicaladvancement
-> Vinenr Kox AIEEarope2026
-> AlEngineer EUROPE Engineering the future of Al
+Slide text:
 
-![[assets/slides/pmoDeA3RBZY/slide-003.jpg]]
-
-OCR text:
-
-> CU) TS a
-> ~— HilI’m Vincent Koc
-> Your Friendly Clanker
-> Ss aaa cae’
-> a “Ling aot.
-> cy aa -
-> 2. , 12
-> - ia _ ae
-> eagne x) |
-> Cae 7 Saw : a
-> bana ee Nab i a ~ —
-> [_aiengineer_] Google DeepMind
-
-![[assets/slides/pmoDeA3RBZY/slide-004.jpg]]
-
-OCR text:
-
-> HiI'mVincentKoc
-> enAl Engineer YourFriendlyClanker
-> EUROPE My lor for eting n wgy (2013)
-> ngine arke
-> SEN'
-> ona AIEEwrepe2026 Visot K
-> AlEngineer EUROPE Engineering the future of Al
+> I wake up
+> there is a new technological advancement
 
 ![[assets/slides/pmoDeA3RBZY/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/pmoDeA3RBZY/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> ep Oro ghsl
-> Dt ee
-> 
-> A Trigger. Hand Looms In Cottages
-> 
+Slide text:
+
+> Hand Looms In Cottages
 > Centralized Large Mills
-> 
-> eC Craftsmen are Factory Workers
-> , aire
-> | eee
-> [_ansincer_] Google DeepMind
+> Craftsmen are Factory Workers
 
 ![[assets/slides/pmoDeA3RBZY/slide-006.jpg]]
 
-OCR text:
-
-> EUR
-> AlEngineer Ope
-> 33
-> bogleD EURO Eng
-> AIEngine Brai
-> BeNC AIEng
-> ELR
-> AIEEarpe2026 VincentKax
-> AlEngineer EUROPE Engineering the future of Al
-
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/pmoDeA3RBZY/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.86`
+- Text source: none.
+- Slide text: not surfaced (`none` by AI classifier).
 ![[assets/slides/pmoDeA3RBZY/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/pmoDeA3RBZY/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.94`
+- Text source: agent_vision.
+
+Slide text:
 
 > Google DeepMind
-> AIEngineer
-> EUROPE
 
 ![[assets/slides/pmoDeA3RBZY/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/pmoDeA3RBZY/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/full`.
+- OCR decision: ready — Dense monitor/code text on the right is small and OCR-suitable.
+
+Slide text:
 
 > EUR
-> AIEnok
-> Google
+> AIEnok Google
 > AIEn!
-> AIE
-> W
+> AIE W
 > AIEn
-> VicetKoc
-> AESW
-> AlEngineer
-> Engineering the future of Al
+> VicetKoc AESW 2026
+> AlEngineer Engineering the future of Al
 > EUROPE
 
 ![[assets/slides/pmoDeA3RBZY/slide-009.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/pmoDeA3RBZY/slide-009.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
+- OCR decision: ready — Dense monitor/code text on the right is small and OCR-suitable.
 
-> AI Engineer
-> EUROPE
+Slide text:
+
 > Google DeepMind
 
 ![[assets/slides/pmoDeA3RBZY/slide-010.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/pmoDeA3RBZY/slide-010.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> agree | Cee IP elie
-> . My Factory
-> eee] i "al Many Codex Sessions
-> —] \ . aoe re
-> , R Sa
-> arize /
-> [_atengineer Engineering the future of Al
+Slide text:
+
+> My Factory
+> Many Codex Sessions
+
+
+### Hidden Non-Slide Evidence
+- [`slide-003.jpg`](/assets/slides/pmoDeA3RBZY/slide-003.jpg) — `speaker_stage` confidence `0.98`; speaker intro card
+- [`slide-004.jpg`](/assets/slides/pmoDeA3RBZY/slide-004.jpg) — `speaker_stage` confidence `0.98`; speaker intro card
+
+Classification audit: `raw/sources/slide-ai-classification/slides/pmoDeA3RBZY/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

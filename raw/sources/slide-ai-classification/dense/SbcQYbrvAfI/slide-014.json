@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "PROHS ANINO notebooks > @ JsON_wobpsguoeneravionlpynb ) s Optimizlng JSON Webpiga Prompts wth the Arize Prampt Learning SOx ) + irport nert_aryncio.\n>. conds +' big_bonch hard )'codingsgant nles.: banchmarks. 十 Codo + Harkdown l D> Run All O Restart 司 Chor Al Outputs. Go To I 思 Vaw data Jupyler Viriablos Outhine t Iapor nest asyneiol Add so Cha Et Cuck Ea aa! nest_asyncio:apotyt). nD D:B -.a: a*acodo (Python 3.10.19)\n> datasets.v notebooks arireaxsupport... JsoN_webpt.. [2] Configuration Python\nF: emetaprompt.txt' U \"buoddns.u+oud. NUM_SAMPLES: Controls how muny rows to sample from tha ful dataset Sot to O to use al avalabla data, or a positiva number to limit tho samplo slzo for fastar cxpcrimentation...\n>. optimizer_sdk testesy': train.csy support crutry_cia... u *('og-idwoxd-soirnuao ta xrot-dwod-oicneo.-5o) prof oi souy idwod youm pouumiop sili 'vogeaao doj ssn oi sau jo yoqwnu oui sooods:seind wnn TRAN_SPLIT FRACTION: Determnes the traintest spit ratio. 0.8 means 80% of data goes to training sat, 20% to test set. NUM_OPTMIZATION_LOOPS: Sets how mary optimization iteratlons to run per experiment. Each loop generates outputs, evaluates them, and refines the prompt.:\n7. prompts. pw 3NGY38 ①: A LcENSE.tt * tP_NOTiCe 1 requlremsnts,txt These variables control the experiment scope, data splitting, evaluation crlteria, and optimization Intensity. TRAIN_spLr FRAcTIat - o.s' a Fraction or data ro use for traIning frest ror. tosting!. NUR panes - soi g arber, or rutes in the proapt - sajusr based on your avataator' prorot (thisels xoT torking on Config! HU_oPTMIzATICN Loops'-' 5 ' a'Nueber or'cpriairtIon loops perexperent I coicrIGi Nuaber of sarples to uze for the experiarnt. Adjurt as' neded. NUh_SaplEs = leo: o Mbtr of rovs to: saeple. Iroa:the fu!l'dataset, t tor. ai!\n11 0.0t: Python\nSOUTLNE TDHEUNE prorpt-eunhrg: @ 1 A 9' m Sehct Portgrt Sirvr: We wll ta iielrn Iraral tn rararale tha wehaana luane:. OpenAl Key: Cunar Tss 7 a7 tn 9, ca 2oig'soben1 4 2025:11-2213:04:00 Soxcr: 4, F. 11. Cm 3 oi 26. t",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense notebook content with configuration text and section headings; better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Configuration",
+        "x": 10.0,
+        "y": 27.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "OpenAI Key",
+        "x": 10.0,
+        "y": 77.0,
+        "w": 18.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-014.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664543.9717283,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "PROHS ANINO notebooks > @ JsON_wobpsguoeneravionlpynb ) s Optimizlng JSON Webpiga Prompts wth the Arize Prampt Learning SOx ) + irport nert_aryncio.\n>. conds +' big_bonch hard )'codingsgant nles.: banchmarks. 十 Codo + Harkdown l D> Run All O Restart 司 Chor Al Outputs. Go To I 思 Vaw data Jupyler Viriablos Outhine t Iapor nest asyneiol Add so Cha Et Cuck Ea aa! nest_asyncio:apotyt). nD D:B -.a: a*acodo (Python 3.10.19)\n> datasets.v notebooks arireaxsupport... JsoN_webpt.. [2] Configuration Python\nF: emetaprompt.txt' U \"buoddns.u+oud. NUM_SAMPLES: Controls how muny rows to sample from tha ful dataset Sot to O to use al avalabla data, or a positiva number to limit tho samplo slzo for fastar cxpcrimentation...\n>. optimizer_sdk testesy': train.csy support crutry_cia... u *('og-idwoxd-soirnuao ta xrot-dwod-oicneo.-5o) prof oi souy idwod youm pouumiop sili 'vogeaao doj ssn oi sau jo yoqwnu oui sooods:seind wnn TRAN_SPLIT FRACTION: Determnes the traintest spit ratio. 0.8 means 80% of data goes to training sat, 20% to test set. NUM_OPTMIZATION_LOOPS: Sets how mary optimization iteratlons to run per experiment. Each loop generates outputs, evaluates them, and refines the prompt.:\n7. prompts. pw 3NGY38 ①: A LcENSE.tt * tP_NOTiCe 1 requlremsnts,txt These variables control the experiment scope, data splitting, evaluation crlteria, and optimization Intensity. TRAIN_spLr FRAcTIat - o.s' a Fraction or data ro use for traIning frest ror. tosting!. NUR panes - soi g arber, or rutes in the proapt - sajusr based on your avataator' prorot (thisels xoT torking on Config! HU_oPTMIzATICN Loops'-' 5 ' a'Nueber or'cpriairtIon loops perexperent I coicrIGi Nuaber of sarples to uze for the experiarnt. Adjurt as' neded. NUh_SaplEs = leo: o Mbtr of rovs to: saeple. Iroa:the fu!l'dataset, t tor. ai!\n11 0.0t: Python\nSOUTLNE TDHEUNE prorpt-eunhrg: @ 1 A 9' m Sehct Portgrt Sirvr: We wll ta iielrn Iraral tn rararale tha wehaana luane:. OpenAl Key: Cunar Tss 7 a7 tn 9, ca 2oig'soben1 4 2025:11-2213:04:00 Soxcr: 4, F. 11. Cm 3 oi 26. t",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2458.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "PROHS ANINO notebooks > @ JsON_wobpsguoeneravionlpynb ) s Optimizlng JSON Webpiga Prompts wth the Arize Prampt Learning SOx ) + irport nert_aryncio.\n>. conds +' big_bonch hard )'codingsgant nles.: banchmarks. 十 Codo + Harkdown l D> Run All O Restart 司 Chor Al Outputs. Go To I 思 Vaw data Jupyler Viriablos Outhine t Iapor nest asyneiol Add so Cha Et Cuck Ea aa! nest_asyncio:apotyt). nD D:B -.a: a*acodo (Python 3.10.19)\n> datasets.v notebooks arireaxsupport... JsoN_webpt.. [2] Configuration Python\nF: emetaprompt.txt' U \"buoddns.u+oud. NUM_SAMPLES: Controls how muny rows to sample from tha ful dataset Sot to O to use al avalabla data, or a positiva number to limit tho samplo slzo for fastar cxpcrimentation...\n>. optimizer_sdk testesy': train.csy support crutry_cia... u *('og-idwoxd-soirnuao ta xrot-dwod-oicneo.-5o) prof oi souy idwod youm pouumiop sili 'vogeaao doj ssn oi sau jo yoqwnu oui sooods:seind wnn TRAN_SPLIT FRACTION: Determnes the traintest spit ratio. 0.8 means 80% of data goes to training sat, 20% to test set. NUM_OPTMIZATION_LOOPS: Sets how mary optimization iteratlons to run per experiment. Each loop generates outputs, evaluates them, and refines the prompt.:\n7. prompts. pw 3NGY38 ①: A LcENSE.tt * tP_NOTiCe 1 requlremsnts,txt These variables control the experiment scope, data splitting, evaluation crlteria, and optimization Intensity. TRAIN_spLr FRAcTIat - o.s' a Fraction or data ro use for traIning frest ror. tosting!. NUR panes - soi g arber, or rutes in the proapt - sajusr based on your avataator' prorot (thisels xoT torking on Config! HU_oPTMIzATICN Loops'-' 5 ' a'Nueber or'cpriairtIon loops perexperent I coicrIGi Nuaber of sarples to uze for the experiarnt. Adjurt as' neded. NUh_SaplEs = leo: o Mbtr of rovs to: saeple. Iroa:the fu!l'dataset, t tor. ai!\n11 0.0t: Python\nSOUTLNE TDHEUNE prorpt-eunhrg: @ 1 A 9' m Sehct Portgrt Sirvr: We wll ta iielrn Iraral tn rararale tha wehaana luane:. OpenAl Key: Cunar Tss 7 a7 tn 9, ca 2oig'soben1 4 2025:11-2213:04:00 Soxcr: 4, F. 11. Cm 3 oi 26. t",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

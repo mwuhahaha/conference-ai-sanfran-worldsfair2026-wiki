@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Batch Carried Forward\nLoom PunchCard Terminal Prompt\nLOOm 2 PUNCH CARD TERMINAL 4PROMPT\n2111161111135111366051113s1013151 0G Canno G OJOB payrOKL GSUBHIT Job 31245 subaitted Anatyze Q2 sakes by region S and sumnarize top drivers.: Mew Chst\nencode pattem. run batch > encode program, submit batch enter command, wait package intent, submit!\nENCODE / PACKAGE SUBMIT WaIt / PROCESS Output / result.\nNew intelligence, old protocol.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense diagram with small labels and multiple panels; OCR will be more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(#05070d, #0a0f16)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Batch Carried Forward",
+        "x": 28.0,
+        "y": 3.0,
+        "w": 44.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Loom → Punch Card → Terminal → Prompt",
+        "x": 31.0,
+        "y": 11.0,
+        "w": 38.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1 LOOM\nencode pattern, run batch",
+        "x": 3.0,
+        "y": 16.0,
+        "w": 21.0,
+        "h": 44.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "2 PUNCH CARD\nencode program, submit batch",
+        "x": 26.0,
+        "y": 16.0,
+        "w": 21.0,
+        "h": 44.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3 TERMINAL\nenter command, wait",
+        "x": 49.0,
+        "y": 16.0,
+        "w": 21.0,
+        "h": 44.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "4 PROMPT\npackage intent, submit",
+        "x": 72.0,
+        "y": 16.0,
+        "w": 21.0,
+        "h": 44.0
+      },
+      {
+        "role": "caption",
+        "text": "ENCODE / PACKAGE  SUBMIT  WAIT / PROCESS  OUTPUT / RESULT",
+        "x": 4.0,
+        "y": 74.0,
+        "w": 92.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668305.586734,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Batch Carried Forward",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Batch Carried Forward\nLoom PunchCard Terminal Prompt\nLOOm 2 PUNCH CARD TERMINAL 4PROMPT\n2111161111135111366051113s1013151 0G Canno G OJOB payrOKL GSUBHIT Job 31245 subaitted Anatyze Q2 sakes by region S and sumnarize top drivers.: Mew Chst\nencode pattem. run batch > encode program, submit batch enter command, wait package intent, submit!\nENCODE / PACKAGE SUBMIT WaIt / PROCESS Output / result.\nNew intelligence, old protocol.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 635.08
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Batch Carried Forward\nLoom PunchCard Terminal Prompt\nLOOm 2 PUNCH CARD TERMINAL 4PROMPT\n2111161111135111366051113s1013151 0G Canno G OJOB payrOKL GSUBHIT Job 31245 subaitted Anatyze Q2 sakes by region S and sumnarize top drivers.: Mew Chst\nencode pattem. run batch > encode program, submit batch enter command, wait package intent, submit!\nENCODE / PACKAGE SUBMIT WaIt / PROCESS Output / result.\nNew intelligence, old protocol.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

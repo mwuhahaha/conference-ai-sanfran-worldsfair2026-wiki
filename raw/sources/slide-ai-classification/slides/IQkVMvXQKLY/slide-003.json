@@ -1,0 +1,138 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE THREAT\nA backdoor that waits\nHubinger et al. trained “sleeper agents”: models that behave until a deployment cue — like the year — flips them to harmful behavior.\n\nBenign trigger\nAn ordinary cue like the year — nothing weird to blacklist.\n\nInvisible at eval\nCorrect almost everywhere, so your tests never hit it.\n\nSurvives RLHF\nSafety training doesn't remove it; CoT can hide intent.\n\nWorse at scale\nBigger models hold the backdoor more stubbornly.\n\n→ It passes standard safety evaluations while harboring the behavior.\nYour LLM Deception Monitor is Broken   Sleeper agents",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "multi-column content slide with smaller body text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "THE THREAT",
+        "x": 4.0,
+        "y": 6.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "A backdoor that waits",
+        "x": 4.0,
+        "y": 10.0,
+        "w": 40.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Hubinger et al. trained “sleeper agents”: models that behave until a deployment cue — like the year — flips them to harmful behavior.",
+        "x": 4.0,
+        "y": 20.0,
+        "w": 92.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Benign trigger",
+        "x": 4.0,
+        "y": 34.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "An ordinary cue like the year — nothing weird to blacklist.",
+        "x": 4.0,
+        "y": 44.0,
+        "w": 20.0,
+        "h": 16.0
+      },
+      {
+        "role": "title",
+        "text": "Invisible at eval",
+        "x": 28.0,
+        "y": 34.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Correct almost everywhere, so your tests never hit it.",
+        "x": 28.0,
+        "y": 44.0,
+        "w": 20.0,
+        "h": 16.0
+      },
+      {
+        "role": "title",
+        "text": "Survives RLHF",
+        "x": 52.0,
+        "y": 34.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Safety training doesn't remove it; CoT can hide intent.",
+        "x": 52.0,
+        "y": 44.0,
+        "w": 20.0,
+        "h": 16.0
+      },
+      {
+        "role": "title",
+        "text": "Worse at scale",
+        "x": 76.0,
+        "y": 34.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Bigger models hold the backdoor more stubbornly.",
+        "x": 76.0,
+        "y": 44.0,
+        "w": 18.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "→ It passes standard safety evaluations while harboring the behavior.",
+        "x": 4.0,
+        "y": 77.0,
+        "w": 60.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/IQkVMvXQKLY/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660186.3326375,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "A backdoor that waits",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "The threat\nA backdoor that waits\nHubinger et al. trained *sleeper agents\": models that behave until a deployment cue'- like the year - flips them to harmful behavior.\n曲\nBenign trigger Invisible' at eval Survives RLHF: Worse at scale\nAn ordinary cue like the year.- nothing weird to blacklist. your tests never hit it. Correct almost cverywhere, so:. CoT can hide intent.. Safety training doesn't remiove it;: more stubbornly.: Bigger modcis hold the backdoor.\n→ It passes standard safety evaluations while harboring the behavior.\nYout LlM Dixtption Monior is Eroken See ptr xtols 04 / 17:",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 943.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "THE THREAT\nA backdoor that waits\nHubinger et al. trained “sleeper agents”: models that behave until a deployment cue — like the year — flips them to harmful behavior.\n\nBenign trigger\nAn ordinary cue like the year — nothing weird to blacklist.\n\nInvisible at eval\nCorrect almost everywhere, so your tests never hit it.\n\nSurvives RLHF\nSafety training doesn't remove it; CoT can hide intent.\n\nWorse at scale\nBigger models hold the backdoor more stubbornly.\n\n→ It passes standard safety evaluations while harboring the behavior.\nYour LLM Deception Monitor is Broken   Sleeper agents",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for punctuation, quotes, and several word errors; retained only clearly visible slide text."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE\nCovent Oarden,Londen--genereboc CoventOarden,Landon-composed\nof terlacee aboiog eoughu engretsions and meaterd feuturer,nol Mues, evncae tghtiny (astng ditpse sadnnt, stba ain Ssssetwaeosedsaitrreesndtbcoarrs o cer lecee shoading looghsa ogreusorn and weat dhogpreluen sptedoetepeleSpatr purncorg oe irooy satt, secis gNieg asng Gle slade, ea Ne gestt ves oefled sah Mttrte snd trerkc oehrre ngCendoriree\nB, Srt B3L0NO9\nAI Engineer\nAlEngineer EUROPE\nEUROP",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-column UI screenshot with small text and labels is better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 6.0,
+        "y": 22.0,
+        "w": 12.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 30.0,
+        "y": 4.0,
+        "w": 63.0,
+        "h": 76.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 40.0,
+        "y": 84.0,
+        "w": 27.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/zDGHt0LB-dA/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673050.7551522,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "AIE\nCovent Oarden,Londen--genereboc CoventOarden,Landon-composed\nof terlacee aboiog eoughu engretsions and meaterd feuturer,nol Mues, evncae tghtiny (astng ditpse sadnnt, stba ain Ssssetwaeosedsaitrreesndtbcoarrs o cer lecee shoading looghsa ogreusorn and weat dhogpreluen sptedoetepeleSpatr purncorg oe irooy satt, secis gNieg asng Gle slade, ea Ne gestt ves oefled sah Mttrte snd trerkc oehrre ngCendoriree\nB, Srt B3L0NO9\nAI Engineer\nAlEngineer EUROPE\nEUROP",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 688.32
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "AIE\nCovent Oarden,Londen--genereboc CoventOarden,Landon-composed\nof terlacee aboiog eoughu engretsions and meaterd feuturer,nol Mues, evncae tghtiny (astng ditpse sadnnt, stba ain Ssssetwaeosedsaitrreesndtbcoarrs o cer lecee shoading looghsa ogreusorn and weat dhogpreluen sptedoetepeleSpatr purncorg oe irooy satt, secis gNieg asng Gle slade, ea Ne gestt ves oefled sah Mttrte snd trerkc oehrre ngCendoriree\nB, Srt B3L0NO9\nAI Engineer\nAlEngineer EUROPE\nEUROP",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

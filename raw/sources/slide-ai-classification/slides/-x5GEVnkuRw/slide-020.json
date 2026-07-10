@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Inspecting Picture Content\n\nDocling will automatically generate captions and extract text content from extracted images. Let's take a look at what is extracted:\n\ndef inspect_pictures_with_images(doc: DoclingDocument, image_size=(6, 4)):\n    \"\"\"Display pictures inline with their text content.\"\"\"\n    for idx, picture in enumerate(doc.pictures):\n        print(f\"\\n{'='*60}\")\n        print(f\"Picture {idx}\")\n        print(f\"{'='*60}\")\n\n        # Display the image\n        try:\n            img = picture.get_image(doc)\n            if img:\n                plt.figure(figsize=image_size)\n                plt.imshow(img)\n                plt.axis(\"off\")\n                plt.title(f\"Picture {idx}\")\n                plt.show()\n        except Exception as e:\n            print(f\"Could not display image: {e}\")\n\n        # Display metadata\n        caption = picture.caption_text(doc)\n        if caption:\n            print(f\"\\nCaption: {caption}\")",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code-heavy slide screenshot with small body text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#111111",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Inspecting Picture Content",
+        "x": 19.0,
+        "y": 8.0,
+        "w": 30.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Docling will automatically generate captions and extract text content from extracted images. Let's take a look at what is extracted:",
+        "x": 14.0,
+        "y": 15.0,
+        "w": 72.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-020.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656793.4742126,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Inspecting Picture Content",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/opencv-adaptive",
+    "text": "nbiM X:KToken Cost_Comparisonipynb M O chinkess RAc.byns m. O.Chunsng pnk.\nmamage and Fkgure ExtractlonEu Extract Figures and Tables as mages* Extract al igures and tabies as separate mages\narkdown Run All Restan Ciear All OutputsJupyter Variables: Cutlineto venv (3.13.7) (Python 3.13.7)\nng Picture Content\nautomatically generate captions and extract text content from extracted tages.\ncturos fithmaaesidocie DoctingDocuwentIaago-siie-6,i:\n\"pisplay:pictures print(f\"nt*6o)\") print(tt60)) print(fnPictures(idx) idxypicturein.enunerate inlne. wIth 1（doc.pletures)&\nbisplaythoyiaag\nya lng pieture.getyIaage( doe) T pltafgure(riosize-inage size) plt. Inshow(ing); plt.axis(off:)\nexcept:Exceptlon-ashe9 Print(r-cauid not drpiyges (or0 plt.show().\nHDisptsyanetadata\nIacaptlon: print((*AnCapt1ons (captionH)",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1014.6
+  },
+  "ocr_source": "rapidocr-live/right-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Inspecting Picture Content\n\nDocling will automatically generate captions and extract text content from extracted images. Let's take a look at what is extracted:\n\ndef inspect_pictures_with_images(doc: DoclingDocument, image_size=(6, 4)):\n    \"\"\"Display pictures inline with their text content.\"\"\"\n    for idx, picture in enumerate(doc.pictures):\n        print(f\"\\n{'='*60}\")\n        print(f\"Picture {idx}\")\n        print(f\"{'='*60}\")\n\n        # Display the image\n        try:\n            img = picture.get_image(doc)\n            if img:\n                plt.figure(figsize=image_size)\n                plt.imshow(img)\n                plt.axis(\"off\")\n                plt.title(f\"Picture {idx}\")\n                plt.show()\n        except Exception as e:\n            print(f\"Could not display image: {e}\")\n\n        # Display metadata\n        caption = picture.caption_text(doc)\n        if caption:\n            print(f\"\\nCaption: {caption}\")",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for the title, subtitle, and the loop line; accepted the visible code text otherwise."
+  }
+}

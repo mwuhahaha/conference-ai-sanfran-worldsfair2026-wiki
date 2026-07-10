@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "demo_video",
+  "reject_reason": "Screen-recorded browser/UI footage with an overlaid demo message, not a presentation slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a slide; readable text appears inside the live browser demo.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "dark desktop with browser and side panel",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "browser demo page",
+        "x": 11.0,
+        "y": 11.0,
+        "w": 78.0,
+        "h": 82.0
+      },
+      {
+        "role": "caption",
+        "text": "overlay message",
+        "x": 24.0,
+        "y": 38.0,
+        "w": 34.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/JnubYCYunk8/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661198.5025337,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

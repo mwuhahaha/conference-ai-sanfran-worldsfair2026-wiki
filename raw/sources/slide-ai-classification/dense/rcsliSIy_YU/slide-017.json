@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Slide has mixed prose and a code screenshot; OCR is the safer way to capture the exact agent setup and command text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "beige and black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Here we set up a basic agent and give it a task.",
+        "x": 23.0,
+        "y": 25.0,
+        "w": 37.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Creates an Agent using the LLM",
+        "x": 24.0,
+        "y": 37.0,
+        "w": 32.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "python cve_solver.py https://github.com/rbren/polaris",
+        "x": 24.0,
+        "y": 78.0,
+        "w": 36.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-017.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671767.7581816,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/full",
+    "best_score": 794.12,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0014
+  }
+}

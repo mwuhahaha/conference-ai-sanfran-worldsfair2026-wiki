@@ -1,0 +1,44 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.9,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Stage shot with presenters and conference signage, not a readable presentation slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a slide frame.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "glass atrium with light gray floor and red stage circle",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 66.0,
+        "y": 36.0,
+        "w": 25.0,
+        "h": 25.0
+      },
+      {
+        "role": "caption",
+        "text": "November 20, 2025\nAIE Code Summit",
+        "x": 35.0,
+        "y": 2.0,
+        "w": 15.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-001.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663335.7702713,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

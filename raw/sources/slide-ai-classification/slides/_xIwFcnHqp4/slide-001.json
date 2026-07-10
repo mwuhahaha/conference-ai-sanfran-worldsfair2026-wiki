@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Building Interactive UIs in VS Code with MCP Apps",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 14.0,
+        "h": 19.0
+      },
+      {
+        "role": "logo",
+        "text": "",
+        "x": 26.0,
+        "y": 2.0,
+        "w": 13.0,
+        "h": 28.0
+      },
+      {
+        "role": "title",
+        "text": "Building Interactive UIs in VS Code with MCP Apps",
+        "x": 40.0,
+        "y": 10.0,
+        "w": 56.0,
+        "h": 25.0
+      },
+      {
+        "role": "body",
+        "text": "MARLENE MHANGAMI\nSenior Developer Advocate\nMicrosoft/GitHub",
+        "x": 40.0,
+        "y": 74.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "LIAM HAMPTON\nSenior Developer Advocate\nMicrosoft/GitHub",
+        "x": 40.0,
+        "y": 84.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 49.0,
+        "y": 89.0,
+        "w": 30.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/_xIwFcnHqp4/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665983.166826,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Building Interactive UIs in VS Code with MCP Apps",
+  "advanced_ocr": {}
+}

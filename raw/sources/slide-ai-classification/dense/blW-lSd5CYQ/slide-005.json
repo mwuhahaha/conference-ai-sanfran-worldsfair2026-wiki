@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code slide with small monospaced text and tabs.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light cyan",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Use Actors from code",
+        "x": 27.0,
+        "y": 3.0,
+        "w": 46.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Python JavaScript CLI OpenAPI HTTP MCP",
+        "x": 24.0,
+        "y": 13.0,
+        "w": 56.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "code editor example",
+        "x": 4.0,
+        "y": 21.0,
+        "w": 92.0,
+        "h": 74.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/blW-lSd5CYQ/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666611.001057,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 883.21,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

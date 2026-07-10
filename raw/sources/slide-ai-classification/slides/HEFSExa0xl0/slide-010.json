@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Domain knowledge outlived every tool\n\n— We changed tools four times in four months\n— The financial domain knowledge improved results on every one of them\n\nStructured as a composable prompt component:\n\n— How to interpret margins, profitability, revenue cascades\n— Model type recognition (DCF, LBO, three-statement)\n— Communication conventions ($1.2M not $1,234,567.89)\n— \"Never calculate in your head what the spreadsheet can calculate for you\"\n\nIt was the most reused component in the system.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with deep green panel",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 23.0,
+        "w": 17.0,
+        "h": 26.0
+      },
+      {
+        "role": "title",
+        "text": "Domain knowledge outlived every tool",
+        "x": 30.0,
+        "y": 4.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "— We changed tools four times in four months\n— The financial domain knowledge improved results on every one of them",
+        "x": 30.0,
+        "y": 14.0,
+        "w": 58.0,
+        "h": 12.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Structured as a composable prompt component:",
+        "x": 30.0,
+        "y": 31.0,
+        "w": 37.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "— How to interpret margins, profitability, revenue cascades\n— Model type recognition (DCF, LBO, three-statement)\n— Communication conventions ($1.2M not $1,234,567.89)\n— \"Never calculate in your head what the spreadsheet can calculate for you\"",
+        "x": 30.0,
+        "y": 39.0,
+        "w": 59.0,
+        "h": 28.0
+      },
+      {
+        "role": "body",
+        "text": "It was the most reused component in the system.",
+        "x": 30.0,
+        "y": 78.0,
+        "w": 45.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Engineering the future of AI",
+        "x": 40.0,
+        "y": 89.0,
+        "w": 48.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/HEFSExa0xl0/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659387.1387851,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Domain knowledge outlived every tool\n\n— We changed tools four times in four months\n— The financial domain knowledge improved results on every one of them\n\nStructured as a composable prompt component:\n\n— How to interpret margins, profitability, revenue cascades\n— Model type recognition (DCF, LBO, three-statement)\n— Communication conventions ($1.2M not $1,234,567.89)\n— \"Never calculate in your head what the spreadsheet can calculate for you\"\n\nIt was the most reused component in the system.",
+  "advanced_ocr": {}
+}

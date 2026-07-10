@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "This is what agent sees\nSo it leans on the one who actually understands what is going on: the developer.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#050505",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "This is what agent sees",
+        "x": 2.0,
+        "y": 3.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Session graph",
+        "x": 5.0,
+        "y": 43.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Repo graph",
+        "x": 5.0,
+        "y": 66.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "So it leans on the one who actually understands what is going on: the developer.",
+        "x": 4.0,
+        "y": 88.0,
+        "w": 58.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669407.547437,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "This is what agent sees\nSo it leans on the one who actually understands what is going on: the developer.",
+  "advanced_ocr": {}
+}

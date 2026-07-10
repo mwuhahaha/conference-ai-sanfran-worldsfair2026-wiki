@@ -1,58 +1,64 @@
 {
   "is_content_slide": true,
-  "confidence": 0.97,
+  "confidence": 0.94,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "Example\n\nThe Harness\nOur agent loop,\nrebuilt\nEffect-native.\n\nThe core loop started on LangGraph. It now runs fully\nEffect-native typed control flow, structured concurrency, and\nresource safety end to end. Also allows more granular control to\nthe agent loop.",
+  "text": "Our agent loop, rebuilt Effect-native.",
   "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code and small explanatory text are better handled by OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
   "layout": {
-    "background": "#22363c",
+    "background": "dark teal",
     "style": "code",
     "blocks": [
       {
-        "role": "title",
-        "text": "Our agent loop,\nrebuilt\nEffect-native.",
-        "x": 64.0,
+        "role": "code",
+        "text": "Example",
+        "x": 1.0,
         "y": 12.0,
-        "w": 28.0,
-        "h": 31.0
+        "w": 60.0,
+        "h": 68.0
       },
       {
         "role": "subtitle",
         "text": "The Harness",
-        "x": 64.0,
-        "y": 8.0,
-        "w": 11.0,
-        "h": 4.0
+        "x": 63.0,
+        "y": 12.0,
+        "w": 18.0,
+        "h": 8.0
       },
       {
-        "role": "code",
-        "text": "Example\nimport { Chat, LanguageModel } from \"@effect/ai\"\nimport { Effect, Stream } from \"effect\"\n\n// Streaming chat with tool support\nconst streamingChat = Effect.gen(function* () {\n  const chat = yield* Chat.empty\n\n  yield chat\n    .streamText({\n      prompt: \"Generate a creative story\"\n    })\n    .pipe(Stream.runForEach((part) => Effect.sync(() => console.log(part))))\n})",
-        "x": 1.0,
-        "y": 8.0,
-        "w": 61.0,
-        "h": 58.0
+        "role": "title",
+        "text": "Our agent loop, rebuilt Effect-native.",
+        "x": 63.0,
+        "y": 21.0,
+        "w": 32.0,
+        "h": 26.0
       },
       {
         "role": "body",
-        "text": "The core loop started on LangGraph. It now runs fully\nEffect-native typed control flow, structured concurrency, and\nresource safety end to end. Also allows more granular control to\nthe agent loop.",
-        "x": 64.0,
-        "y": 74.0,
-        "w": 33.0,
-        "h": 15.0
-      },
-      {
-        "role": "caption",
-        "text": "Source: https://effect-ts.github.io/effect/docs/",
-        "x": 15.0,
-        "y": 89.0,
-        "w": 40.0,
-        "h": 4.0
+        "text": "The core loop started on LangGraph. It now runs fully Effect-native typed control flow, structured concurrency, and resource safety end to end. Also allows more granular control to the agent loop.",
+        "x": 63.0,
+        "y": 59.0,
+        "w": 31.0,
+        "h": 24.0
       }
     ]
   },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
   "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-005.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783646779.8009238
+  "classified_at_epoch": 1783657356.8184466,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Our agent loop, rebuilt Effect-native.",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

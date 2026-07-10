@@ -1,0 +1,1070 @@
+{
+  "video_id": "sAOBXCDiDOs",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 14,
+  "rejected_count": 4,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Primitives, discovery, and why this is how all software will be used",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light warm white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Manufact",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "MCP APPS",
+            "x": 4.0,
+            "y": 18.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Primitives, discovery, and why this is how all software will be used",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 60.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "Pietro Zullo",
+            "x": 4.0,
+            "y": 52.0,
+            "w": 16.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671576.4525914,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Primitives, discovery, and why this is how all software will be used",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "You know MCP. Do you know MCP Apps?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "light white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "You know MCP. Do you know MCP Apps?",
+            "x": 4.0,
+            "y": 8.0,
+            "w": 62.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Everyone in this room knows what MCP is. Far fewer know what MCP Apps are, how they work, how to build them, and how to distribute them.",
+            "x": 4.0,
+            "y": 34.0,
+            "w": 58.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "By the end of this talk you will know everything you need to join the race.",
+            "x": 4.0,
+            "y": 57.0,
+            "w": 48.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671576.4535828,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "You know MCP. Do you know MCP Apps?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Manufact WHATWEBUILD\nOpen-source SDKs and dev tools for MCP\nmcp-use to build Inspector to test Manufact to ship\n8M+ OOWNLOADS lOk Githu& Stars GITHUB.\nMANUFACT.COM",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram/product slide with multiple small labels and embedded screenshots; OCR will likely capture them more reliably than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Open-source SDKs and dev tools for MCP",
+            "x": 4.0,
+            "y": 8.0,
+            "w": 55.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "mcp-use to build",
+            "x": 4.0,
+            "y": 44.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Inspector to test",
+            "x": 36.0,
+            "y": 44.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Manufact to ship",
+            "x": 67.0,
+            "y": 44.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "8M+ downloads",
+            "x": 4.0,
+            "y": 82.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "10k github stars",
+            "x": 18.0,
+            "y": 82.0,
+            "w": 18.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671576.4543033,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Open-source SDKs and dev tools for MCP",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Manufact WHATWEBUILD\nOpen-source SDKs and dev tools for MCP\nmcp-use to build Inspector to test Manufact to ship\n8M+ OOWNLOADS lOk Githu& Stars GITHUB.\nMANUFACT.COM",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 295.84
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Manufact WHATWEBUILD\nOpen-source SDKs and dev tools for MCP\nmcp-use to build Inspector to test Manufact to ship\n8M+ OOWNLOADS lOk Githu& Stars GITHUB.\nMANUFACT.COM",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Manufact ADOPTION\nApps are landing in the stores, fast\nChatGPT apps & Claude connectors over time CUHULATIVE COUNT\n800\n660\n200 18 2000000I\nW4. W& R. wo w3 WH w5 w6 W7?\n[ ChatGpT opp Cord+ corrtcton\nSOurCE: AppdiSCoveraeIlity.CoH\nMANUPACT.COn",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart slide with small axis labels and source text; OCR is useful for accurate capture.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Apps are landing in the stores, fast",
+            "x": 4.0,
+            "y": 8.0,
+            "w": 56.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "ChatGPT apps & Claude connectors over time",
+            "x": 7.0,
+            "y": 21.0,
+            "w": 34.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "CUMULATIVE COUNT",
+            "x": 83.0,
+            "y": 20.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "SOURCE: APPDISCOVERABILITY.COM",
+            "x": 7.0,
+            "y": 88.0,
+            "w": 28.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671585.6655269,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Apps are landing in the stores, fast",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Manufact ADOPTION\nApps are landing in the stores, fast\nChatGPT apps & Claude connectors over time CUHULATIVE COUNT\n800\n660\n200 18 2000000I\nW4. W& R. wo w3 WH w5 w6 W7?\n[ ChatGpT opp Cord+ corrtcton\nSOurCE: AppdiSCoveraeIlity.CoH\nMANUPACT.COn",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 324.16
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Manufact ADOPTION\nApps are landing in the stores, fast\nChatGPT apps & Claude connectors over time CUHULATIVE COUNT\n800\n660\n200 18 2000000I\nW4. W& R. wo w3 WH w5 w6 W7?\n[ ChatGpT opp Cord+ corrtcton\nSOurCE: AppdiSCoveraeIlity.CoH\nMANUPACT.COn",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Manufact ARCHITECTURE\nHow anMCP Appworks\nrtoorr, cobg tooa. Model comersat icn ChatGeT:Covde·Curror Host resources/resd tools/t+ll -. looly+vijlreources MCP srvr\nui/+ over posthessage\nWidgrt\n+woy, prroapuos\nThe server cxposes the Ul as a ui: / /resourc+. The host rondors lt ln a sardboxed iframe and\nrelays tool input, resuits, and the widget's cals bock over JSON.RPC.\nHAHUFACT:COn jinn",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture diagram with several small labels and explanatory text; OCR should recover the relationships and labels well.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How an MCP App works",
+            "x": 4.0,
+            "y": 8.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Model",
+            "x": 18.0,
+            "y": 38.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Host",
+            "x": 43.0,
+            "y": 38.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MCP server",
+            "x": 69.0,
+            "y": 38.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Widget",
+            "x": 43.0,
+            "y": 58.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "The server exposes the UI as a ui://resource. The host renders it in a sandboxed iframe and relays tool input, results, and the widget's calls back over JSON-RPC.",
+            "x": 25.0,
+            "y": 78.0,
+            "w": 52.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671598.9288154,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "How an MCP App works",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Manufact ARCHITECTURE\nHow anMCP Appworks\nrtoorr, cobg tooa. Model comersat icn ChatGeT:Covde·Curror Host resources/resd tools/t+ll -. looly+vijlreources MCP srvr\nui/+ over posthessage\nWidgrt\n+woy, prroapuos\nThe server cxposes the Ul as a ui: / /resourc+. The host rondors lt ln a sardboxed iframe and\nrelays tool input, resuits, and the widget's cals bock over JSON.RPC.\nHAHUFACT:COn jinn",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 649.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Manufact ARCHITECTURE\nHow anMCP Appworks\nrtoorr, cobg tooa. Model comersat icn ChatGeT:Covde·Curror Host resources/resd tools/t+ll -. looly+vijlreources MCP srvr\nui/+ over posthessage\nWidgrt\n+woy, prroapuos\nThe server cxposes the Ul as a ui: / /resourc+. The host rondors lt ln a sardboxed iframe and\nrelays tool input, resuits, and the widget's cals bock over JSON.RPC.\nHAHUFACT:COn jinn",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rendered by the host, inline",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Rendered by the host, inline",
+            "x": 4.0,
+            "y": 8.0,
+            "w": 38.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Same MCP server, with a UI layer on top. The host renders the result inline. Flip Without UI / With UI, and click the cards.",
+            "x": 4.0,
+            "y": 24.0,
+            "w": 44.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "DEMO",
+            "x": 86.0,
+            "y": 18.0,
+            "w": 7.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671641.1238575,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Rendered by the host, inline",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Interaction primitives\nThe ui/* methods the widget and host exchange.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large, simple title card.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "off-white with pale yellow-green and blue wash",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Manufact",
+            "x": 3.0,
+            "y": 4.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "PART 2",
+            "x": 48.0,
+            "y": 22.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Interaction primitives",
+            "x": 18.0,
+            "y": 34.0,
+            "w": 64.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "The ui/* methods the widget and host exchange.",
+            "x": 31.0,
+            "y": 51.0,
+            "w": 40.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671743.6975157,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Interaction primitives\nThe ui/* methods the widget and host exchange.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Manufact PRINITIVE2\nui/message\nThe App talks back into the conversation,\nunprompted. A click in the Ul posts a\nmessage as if the user sent it.\n5129Ugn\nChndstrise2\nconst(sendFollowUpMessage)=usewidget（); sendFollowUpMessage(\"Add the Teapo Racer\"); TerrpoRocee\nOifyuyp\nRepy\nMANUFACT.COM",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Contains code and embedded UI text that are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Manufact",
+            "x": 3.0,
+            "y": 4.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "ui/message",
+            "x": 4.0,
+            "y": 10.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "The App talks back into the conversation, unprompted. A click in the UI posts a message as if the user sent it.",
+            "x": 4.0,
+            "y": 20.0,
+            "w": 42.0,
+            "h": 18.0
+          },
+          {
+            "role": "code",
+            "text": "const { sendFollowUpMessage } = useWidget();\nsendFollowUpMessage(\"Add the Tempo Racer\");",
+            "x": 4.0,
+            "y": 47.0,
+            "w": 30.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671743.6979792,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "ui/message",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Manufact PRINITIVE2\nui/message\nThe App talks back into the conversation,\nunprompted. A click in the Ul posts a\nmessage as if the user sent it.\n5129Ugn\nChndstrise2\nconst(sendFollowUpMessage)=usewidget（); sendFollowUpMessage(\"Add the Teapo Racer\"); TerrpoRocee\nOifyuyp\nRepy\nMANUFACT.COM",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 441.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Manufact PRINITIVE2\nui/message\nThe App talks back into the conversation,\nunprompted. A click in the Ul posts a\nmessage as if the user sent it.\n5129Ugn\nChndstrise2\nconst(sendFollowUpMessage)=usewidget（); sendFollowUpMessage(\"Add the Teapo Racer\"); TerrpoRocee\nOifyuyp\nRepy\nMANUFACT.COM",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Real MCP apps, in production",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Manufact",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Real MCP apps, in production",
+            "x": 4.0,
+            "y": 9.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "CLAUDE • CLICK FOR FULLSCREEN",
+            "x": 4.0,
+            "y": 79.0,
+            "w": 28.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "CHATGPT • CLICK FOR FULLSCREEN",
+            "x": 36.0,
+            "y": 79.0,
+            "w": 30.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "CURSOR • CLICK FOR FULLSCREEN",
+            "x": 69.0,
+            "y": 79.0,
+            "w": 27.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671870.452368,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Real MCP apps, in production",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Real MCP apps, in production",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Manufact",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Real MCP apps, in production",
+            "x": 4.0,
+            "y": 9.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "CLAUDE • CLICK FOR FULLSCREEN",
+            "x": 4.0,
+            "y": 79.0,
+            "w": 28.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "CHATGPT • CLICK FOR FULLSCREEN",
+            "x": 36.0,
+            "y": 79.0,
+            "w": 30.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "CURSOR • CLICK FOR FULLSCREEN",
+            "x": 69.0,
+            "y": 79.0,
+            "w": 27.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-014.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671870.45326,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Real MCP apps, in production",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "PART 3\nDistribution and discovery\nA front door to your product that did not exist a year ago.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "radial-gradient(#f7f5ea,#eef0f7)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "PART 3",
+            "x": 47.0,
+            "y": 17.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Distribution and discovery",
+            "x": 31.0,
+            "y": 34.0,
+            "w": 38.0,
+            "h": 20.0
+          },
+          {
+            "role": "subtitle",
+            "text": "A front door to your product that did not exist a year ago.",
+            "x": 28.0,
+            "y": 60.0,
+            "w": 44.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "PART 3",
+            "x": 91.0,
+            "y": 4.0,
+            "w": 6.0,
+            "h": 3.0
+          },
+          {
+            "role": "logo",
+            "text": "Manufact",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 12.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-015.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671870.4565735,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "PART 3\nDistribution and discovery\nA front door to your product that did not exist a year ago.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The store is a new distribution channel\nGetting listed makes installing your server one click. The alternative is pasting JSON into a config file, which most people never will.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Manufact",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "The store is a new distribution channel",
+            "x": 4.0,
+            "y": 9.0,
+            "w": 51.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Getting listed makes installing your server one click. The alternative is pasting JSON into a config file, which most people never will.",
+            "x": 4.0,
+            "y": 20.0,
+            "w": 32.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-016.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671870.457281,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The store is a new distribution channel\nGetting listed makes installing your server one click. The alternative is pasting JSON into a config file, which most people never will.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Be there, or get bypassed\nAny product used by humans through a UI will need an MCP App version, or it gets bypassed by people who do everything through agents.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Manufact",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Be there, or get bypassed",
+            "x": 4.0,
+            "y": 9.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Any product used by humans through a UI will need an MCP App version, or it gets bypassed by people who do everything through agents.",
+            "x": 4.0,
+            "y": 31.0,
+            "w": 36.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-017.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671870.459009,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Be there, or get bypassed\nAny product used by humans through a UI will need an MCP App version, or it gets bypassed by people who do everything through agents.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Nobody wants to look at your dashboard.\nShip an MCP App.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "radial-gradient(#f1f0ec,#eef1e6)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Manufact",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Nobody wants to look at your dashboard.",
+            "x": 26.0,
+            "y": 28.0,
+            "w": 48.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Ship an MCP App.",
+            "x": 40.0,
+            "y": 55.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "PIETRO ZULLO • MANUFACT • DOCS.MCP-USE.COM",
+            "x": 36.0,
+            "y": 73.0,
+            "w": 30.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-018.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671870.4620674,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Nobody wants to look at your dashboard.\nShip an MCP App.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/sAOBXCDiDOs/slide-018.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "demo_video",
+      "reject_reason": "Full-screen app/demo footage, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#1b1b1b",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671769.7628384,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "demo_video",
+      "reject_reason": "Full-screen app/demo footage, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#1b1b1b",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671769.763385,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "demo_video",
+      "reject_reason": "Full-screen app/demo footage, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#1a1a1a",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671769.7638361,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.95,
+      "frame_type": "blank",
+      "reject_reason": "Mostly blank cropped demo frame with only partial UI text.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/sAOBXCDiDOs/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671769.764264,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

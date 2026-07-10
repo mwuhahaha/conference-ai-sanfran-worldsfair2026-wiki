@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "ontainers: Sandboxing\n: Joie containers by rosricting CAPsbuities and syscalls thay can cat\nRoduco attock surfsco\nUserspace\nRoot Namespace:\nMalicious or Buggy Process Container # minijail0 -s /usr/share/minijail0/$(uname -m)/cat.policy -\\ /bin/cat /proc/self/seccomp_filter\nPid Namespace Syscall ioctl mmap2: arg2. =a 0x0 munmap: 1 8h07 == 1640 11 9182 == 1640 11 0 == 16xo 11 89172 == 1640 u2do close: 1 # open with O LARGEFILEjO_RDONLYlO_NONBLOcK or some combination.\nReduce attack surface by using seccomp filters'\nCon resirfct the stuock surface by restrkcting tho Lirunc CAPsbiltos sowed to a procos such as CAP_NET, CAP.SYS_ ADMIN etc.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code-and-policy slide with small text and command snippets that OCR can capture more accurately.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f5f4f0",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Containers: Sandboxing",
+        "x": 1.0,
+        "y": 1.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "\"Jail\" containers by restricting CAPabilities and syscalls they can call",
+        "x": 2.0,
+        "y": 8.0,
+        "w": 46.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Reduce attack surface",
+        "x": 4.0,
+        "y": 14.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "code",
+        "text": "# minijail0 -S /usr/share/minijail0/${uname -m}/cat.policy -- \\\n/bin/cat /proc/self/seccomp_filter",
+        "x": 34.0,
+        "y": 16.0,
+        "w": 56.0,
+        "h": 16.0
+      },
+      {
+        "role": "code",
+        "text": "# open with O_LARGEFILE|O_RDONLY|O_NONBLOCK or some combination.",
+        "x": 36.0,
+        "y": 36.0,
+        "w": 53.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "open: arg1 == 32768 || arg1 == 0 || arg1 == 34816 || arg1 == 2048",
+        "x": 36.0,
+        "y": 42.0,
+        "w": 57.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "mmap2: arg2 == 0x0",
+        "x": 36.0,
+        "y": 49.0,
+        "w": 20.0,
+        "h": 4.0
+      },
+      {
+        "role": "code",
+        "text": "munmap: 1",
+        "x": 36.0,
+        "y": 55.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "code",
+        "text": "close: 1",
+        "x": 36.0,
+        "y": 60.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Reduce attack surface by using seccomp filters",
+        "x": 20.0,
+        "y": 93.0,
+        "w": 53.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-018.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673153.7301824,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Containers: Sandboxing",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "ontainers: Sandboxing\n: Joie containers by rosricting CAPsbuities and syscalls thay can cat\nRoduco attock surfsco\nUserspace\nRoot Namespace:\nMalicious or Buggy Process Container # minijail0 -s /usr/share/minijail0/$(uname -m)/cat.policy -\\ /bin/cat /proc/self/seccomp_filter\nPid Namespace Syscall ioctl mmap2: arg2. =a 0x0 munmap: 1 8h07 == 1640 11 9182 == 1640 11 0 == 16xo 11 89172 == 1640 u2do close: 1 # open with O LARGEFILEjO_RDONLYlO_NONBLOcK or some combination.\nReduce attack surface by using seccomp filters'\nCon resirfct the stuock surface by restrkcting tho Lirunc CAPsbiltos sowed to a procos such as CAP_NET, CAP.SYS_ ADMIN etc.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 816.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "ontainers: Sandboxing\n: Joie containers by rosricting CAPsbuities and syscalls thay can cat\nRoduco attock surfsco\nUserspace\nRoot Namespace:\nMalicious or Buggy Process Container # minijail0 -s /usr/share/minijail0/$(uname -m)/cat.policy -\\ /bin/cat /proc/self/seccomp_filter\nPid Namespace Syscall ioctl mmap2: arg2. =a 0x0 munmap: 1 8h07 == 1640 11 9182 == 1640 11 0 == 16xo 11 89172 == 1640 u2do close: 1 # open with O LARGEFILEjO_RDONLYlO_NONBLOcK or some combination.\nReduce attack surface by using seccomp filters'\nCon resirfct the stuock surface by restrkcting tho Lirunc CAPsbiltos sowed to a procos such as CAP_NET, CAP.SYS_ ADMIN etc.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

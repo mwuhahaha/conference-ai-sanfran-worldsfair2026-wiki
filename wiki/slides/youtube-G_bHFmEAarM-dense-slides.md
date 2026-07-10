@@ -16,26 +16,71 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/G_bHFmEAarM/slide-001.jpg]]
 
-- Source scene image: `frame-00006.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.17`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/G_bHFmEAarM/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
+
+> Google’s latest releases
+> Gemini 3.1 Flash Live
+> Gemini 3.1 Pro and Flash-Lite
+> NanoBanana 2
+> Embeddings 2.0
+> Lyria 3
+> Genie 3
+> AI Studio FSR
+> Gemma 4
+> Veo 3.1 Lite
+
 ![[assets/dense-slides/G_bHFmEAarM/slide-002.jpg]]
 
-- Source scene image: `frame-00041.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.29`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/G_bHFmEAarM/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.9`
+- Text source: agent_vision.
+- OCR decision: ready — browser/article screenshot with smaller page text and metadata
+
+Slide text:
+
+> Gemma 4: Byte for byte, the most capable open models
+
 ![[assets/dense-slides/G_bHFmEAarM/slide-003.jpg]]
 
-- Source scene image: `frame-00071.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.81`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/G_bHFmEAarM/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.9`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast` reconciled by agent.
+- OCR decision: ready — Small screenshot-like slide with embedded UI chrome and compact labels that OCR can read more reliably than manual transcription in this pass.
+
+Slide text:
+
+> GEMINI CAN
+> Understand
+> text, images,
+> audio and more
+> 
+> Text
+> Image
+> Audio
+> Video
+> Coding
+
 ![[assets/dense-slides/G_bHFmEAarM/slide-004.jpg]]
 
-- Source scene image: `frame-00108.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.73`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/G_bHFmEAarM/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.89`
+- Text source: none.
+- OCR decision: ready — Dense code/editor content and small interface labels are better handled by OCR than by manual transcription here.
+- Slide text: not surfaced (`none` by AI classifier).
 ![[assets/dense-slides/G_bHFmEAarM/slide-005.jpg]]
 
-- Source scene image: `frame-00131.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.27`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/G_bHFmEAarM/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: agent_vision.
+
+Slide text:
+
+> Create your sound
+> Synthesis of professional music from narrative engineering.
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/G_bHFmEAarM/audit.json`

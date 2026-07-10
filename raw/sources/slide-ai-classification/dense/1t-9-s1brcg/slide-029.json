@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A benefit of this approach is that chunks will be at exactly the number of specified tokens, however, a major downside\nwith this approach when used with CJK text is that chunks can be split in the middle of a character because characters\ncan be multiple tokens. Using token based splitters directly will yield unexpected results as the beginning and end of some\nchunks will be illegible fragments of Unicode characters.\n\nHybrid Splitters¶\n\nAs shown, neither character-based recursive splitters nor token-based splitters are ideal for CJK languages. Instead, I\nrecommend combining the two approaches into a hybrid splitter uses the token length of the chunk as the mechanism for\nfurther splitting instead of the character length. For Langchain, you can override the RecursiveCharacterTextSplitter\nto use the token encoding to measure the length and split until an optimal chunk size is found:\n\nfrom langchain_text_splitters import RecursiveCharacterTextSplitter\n\ntext_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(\n    model_name=\"gpt-4\",\n    chunk_size=500,\n    chunk_overlap=0,\n    separators=SEPARATORS\n)\n\nThis method benefits over character encoding because the chunk size is closer to the target token count, and it is\nbeneficial to token-based splitters because it can't yield invalid strings.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense article text and code block; OCR is likely better than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm cream article page",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Hybrid Splitters",
+        "x": 5.0,
+        "y": 29.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "paragraph text",
+        "x": 4.0,
+        "y": 38.0,
+        "w": 92.0,
+        "h": 16.0
+      },
+      {
+        "role": "code",
+        "text": "code block",
+        "x": 4.0,
+        "y": 55.0,
+        "w": 92.0,
+        "h": 23.0
+      },
+      {
+        "role": "body",
+        "text": "closing paragraph",
+        "x": 4.0,
+        "y": 82.0,
+        "w": 92.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-029.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-029.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658031.7235496,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Hybrid Splitters",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "A veltelll or lnis appruacn Is tat chunks wu ve at cxacuy uie nunver o! specuieu toxels. rowever, α major dowjislue. with this approach when uscd with CiK tcxt is that chunks can bc split in the middle of a charactcr bccausc charactcrs 1ta4.44 4 A: E 心 O\nchunks will be illcgible fragments of Unicode charactcrs. can bc muluiplc tokcns. Using tokcn bascd splittcrs direcuy will yicld uncxpcctcd results as thc beginning and cnd of somc.\nHybrld Splitters\nAs shown, neither character-bascd recursive splitters nor token-based splitters are ideal for CJK languagcs. Instead, 1\nto use the.token encoding to measure the length and split until an optimal chunk size is found: further splitting instead of the character length. For Langchain, you can overmide the RecursiveCharacterTextSplitter. recommend combining the two approaches into a hybrid splitter uscs the token length of the chunk as the mechanism for\nfren targchair_text_splitters Inport RecursivechsractertextSglitter:\ntert_splitter = RecurslveosracterTextsplitter.frea_tiktoken_tacoder(\nsepsratorssSEpAraTOrs. (hunk_slresto; chunk_overlose.\nThis mcthod benefits over character encoding because the chunk size is closer to the target token count, and it is:\nbcneficial to tokcn-bascd solitters bccause it can't vicld invalid strings.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1488.86
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "A benefit of this approach is that chunks will be at exactly the number of specified tokens, however, a major downside\nwith this approach when used with CJK text is that chunks can be split in the middle of a character because characters\ncan be multiple tokens. Using token based splitters directly will yield unexpected results as the beginning and end of some\nchunks will be illegible fragments of Unicode characters.\n\nHybrid Splitters¶\n\nAs shown, neither character-based recursive splitters nor token-based splitters are ideal for CJK languages. Instead, I\nrecommend combining the two approaches into a hybrid splitter uses the token length of the chunk as the mechanism for\nfurther splitting instead of the character length. For Langchain, you can override the RecursiveCharacterTextSplitter\nto use the token encoding to measure the length and split until an optimal chunk size is found:\n\nfrom langchain_text_splitters import RecursiveCharacterTextSplitter\n\ntext_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(\n    model_name=\"gpt-4\",\n    chunk_size=500,\n    chunk_overlap=0,\n    separators=SEPARATORS\n)\n\nThis method benefits over character encoding because the chunk size is closer to the target token count, and it is\nbeneficial to token-based splitters because it can't yield invalid strings.",
+    "text_status": "meaningful",
+    "corrections": "OCR was corrected from the image; obvious misspellings and punctuation were fixed, and the visible code block was transcribed."
+  }
+}

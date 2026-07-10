@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.83,
+  "frame_type": "other",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "none",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "#050505",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 22.0,
+        "w": 9.0,
+        "h": 15.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 46.0,
+        "y": 87.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 72.0,
+        "y": 87.0,
+        "w": 15.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-016.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659247.947364,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

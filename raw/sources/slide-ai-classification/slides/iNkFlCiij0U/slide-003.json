@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Open Benchmarks\nAIE Grants\nA$3M+commitmentto\nopenbenchmarks\nSnorkel HuggingFace PRImEIntellect together.ai FACTORY harbor OPyTorch\nAIEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "simple title slide with prominent text plus sponsor logos",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark navy gradient with wave lines",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Open Benchmarks Grants",
+        "x": 28.0,
+        "y": 11.0,
+        "w": 28.0,
+        "h": 28.0
+      },
+      {
+        "role": "subtitle",
+        "text": "A $3M+ commitment to open benchmarks",
+        "x": 29.0,
+        "y": 54.0,
+        "w": 28.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "Snorkel",
+        "x": 28.0,
+        "y": 88.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Hugging Face",
+        "x": 39.0,
+        "y": 88.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "PRIME Intellect",
+        "x": 52.0,
+        "y": 88.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "together.ai",
+        "x": 65.0,
+        "y": 88.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "FACTORY",
+        "x": 75.0,
+        "y": 88.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "harbor",
+        "x": 85.0,
+        "y": 88.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "PyTorch",
+        "x": 94.0,
+        "y": 88.0,
+        "w": 5.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer Europe",
+        "x": 58.0,
+        "y": 74.0,
+        "w": 20.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/iNkFlCiij0U/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668907.2032688,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Open Benchmarks\nAIE Grants\nA$3M+commitmentto\nopenbenchmarks\nSnorkel HuggingFace PRImEIntellect together.ai FACTORY harbor OPyTorch\nAIEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 239.6
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Open Benchmarks\nAIE Grants\nA$3M+commitmentto\nopenbenchmarks\nSnorkel HuggingFace PRImEIntellect together.ai FACTORY harbor OPyTorch\nAIEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Forward Deployed Engineering\nHow forward deployed engineers actually operate inside\nAnthropic, Ramp, Cursor, and Sierra — embedding with\ncustomers, wiring up custom integrations, debugging\nproduction systems, and learning hard lessons like how to\nstop shipping low-quality RL environments.\n\nAI in Finance\nInside the agentic shift in quant finance — from Morgan\nStanley's autonomous research agents to Nubank vetting\n2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling\nthrough what it really takes to ship finance agents that\nunderstand money.\n\nAI in Healthcare\nFrom ambient clinical documentation at Abridge to multi-\nagent care at Sword Health, voice at scale from Hippocratic\nAI, and Google DeepMind's AMIE co-clinician — this track is\nabout shipping patient-facing health AI with the guardrails\nand regulatory rigor it demands.\n\nSponsorship Prospectus\n1.5 million\nUnique Viewers Worldwide\n1,000+\nAI Engineers & Technical Leaders\n100+\nTop Industry Speakers\n150k+\nRemote Livestream Attendees\nOctober 12-14, 2026\nSheraton New York Times Square Hotel\nWhere AI Engineering\nMeets Financial Services\nAI Engineer New York\nOctober 12 - 14, 2026",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-panel prospectus slide with dense readable marketing copy and several embedded screenshots; OCR is the right capture path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(180deg,#0b0b0b,#111111)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Forward Deployed Engineering",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "How forward deployed engineers actually operate inside Anthropic, Ramp, Cursor, and Sierra — embedding with customers, wiring up custom integrations, debugging production systems, and learning hard lessons like how to stop shipping low-quality RL environments.",
+        "x": 5.0,
+        "y": 18.0,
+        "w": 38.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "AI in Finance",
+        "x": 5.0,
+        "y": 39.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Inside the agentic shift in quant finance — from Morgan Stanley's autonomous research agents to Nubank vetting 2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling through what it really takes to ship finance agents that understand money.",
+        "x": 5.0,
+        "y": 47.0,
+        "w": 38.0,
+        "h": 20.0
+      },
+      {
+        "role": "title",
+        "text": "AI in Healthcare",
+        "x": 5.0,
+        "y": 68.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "From ambient clinical documentation at Abridge to multi-agent care at Sword Health, voice at scale from Hippocratic AI, and Google DeepMind's AMIE co-clinician — this track is about shipping patient-facing health AI with the guardrails and regulatory rigor it demands.",
+        "x": 5.0,
+        "y": 76.0,
+        "w": 39.0,
+        "h": 20.0
+      },
+      {
+        "role": "title",
+        "text": "Sponsorship Prospectus",
+        "x": 52.0,
+        "y": 5.0,
+        "w": 31.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Where AI Engineering Meets Financial Services",
+        "x": 52.0,
+        "y": 53.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "AI Engineer New York",
+        "x": 80.0,
+        "y": 89.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-020.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657205.4789402,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Sponsorship Prospectus",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "How forward deployed engineers actually operate inside Forward Deployed Engineering AIEngineer NEYYORI ShetetunNrw tek TmesSquareHecol October12-14,2026\nAnthropic, Ramp, Cursor, and Sierra —embedding with\ncustomers,wiring up custom integrations, debugging\nproduction systems,and learning hard lessons like how to\nstopshipping low-qualityRLenvironments. Sponsorship Prospectus\nInside the agenticshift inquant finance-fromMorgan Al in Finance 1.5 million Uqe Vaewery rmcallesdens 1,000+ Ergnn 100+ Tco Irdustry Seves Rrmote Lvesream 150k+ AtONs\nStanley's autonomous research agents to Nubank vetting Mtips:/kai 2026\n2,00o Al skills, with Intuit, Fidelity, and Anthropic wrestling Where Al Engineering\nthroughwhat itreallytakes toshipfinance agentsthat Meets Financial Services\nunderstand money. WALI SY\nAl in Healthcare\nFrom ambient clinical documentation at Abridge to multi-\nagent care at Sword Health, voice at scale from Hippocratic\nAl,and GoogleDeepMind'sAMlEco-clinician-thistrackis\nand regulatory rigor it demands. Al Engineer New York\nOctober 12 -14,2026",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1340.44
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Forward Deployed Engineering\nHow forward deployed engineers actually operate inside\nAnthropic, Ramp, Cursor, and Sierra — embedding with\ncustomers, wiring up custom integrations, debugging\nproduction systems, and learning hard lessons like how to\nstop shipping low-quality RL environments.\n\nAI in Finance\nInside the agentic shift in quant finance — from Morgan\nStanley's autonomous research agents to Nubank vetting\n2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling\nthrough what it really takes to ship finance agents that\nunderstand money.\n\nAI in Healthcare\nFrom ambient clinical documentation at Abridge to multi-\nagent care at Sword Health, voice at scale from Hippocratic\nAI, and Google DeepMind's AMIE co-clinician — this track is\nabout shipping patient-facing health AI with the guardrails\nand regulatory rigor it demands.\n\nSponsorship Prospectus\n1.5 million\nUnique Viewers Worldwide\n1,000+\nAI Engineers & Technical Leaders\n100+\nTop Industry Speakers\n150k+\nRemote Livestream Attendees\nOctober 12-14, 2026\nSheraton New York Times Square Hotel\nWhere AI Engineering\nMeets Financial Services\nAI Engineer New York\nOctober 12 - 14, 2026",
+    "text_status": "meaningful",
+    "corrections": "Accepted most text; corrected clear OCR spacing/capitalization errors and omitted illegible body copy."
+  }
+}

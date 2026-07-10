@@ -1,0 +1,50 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.89,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Google The Keyvord Bula reaTtre conrueora aoena wrh Gtmin Lll Pmn Lv\nUtng th+ GtTil L+ AP, Soich nou trhcites ht Ltnt to vb+ dttgy +ath trr voice. ha sgont Cin'het' de Carvt\ntnd ititcta torttnt nd ghe dngn csnomtr, bolu veretint tna cit.\n。\nBuild with an expanding ecosystem of\nblog google uses cocdes from Google to derrer ard enhanct lhe quairty of ite sermces and to analyze tratic. Leam,more:-+AM-+iAn. OKOOtR",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Browser/UI screenshot with smaller embedded text is better suited to OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "warm beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Build real-time conversational agents with Gemini 2.1 Flash Live",
+        "x": 29.0,
+        "y": 1.0,
+        "w": 44.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-014.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667683.9330275,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Build real-time conversational agents with Gemini 2.1 Flash Live",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Google The Keyvord Bula reaTtre conrueora aoena wrh Gtmin Lll Pmn Lv\nUtng th+ GtTil L+ AP, Soich nou trhcites ht Ltnt to vb+ dttgy +ath trr voice. ha sgont Cin'het' de Carvt\ntnd ititcta torttnt nd ghe dngn csnomtr, bolu veretint tna cit.\n。\nBuild with an expanding ecosystem of\nblog google uses cocdes from Google to derrer ard enhanct lhe quairty of ite sermces and to analyze tratic. Leam,more:-+AM-+iAn. OKOOtR",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 735.64
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Google The Keyvord Bula reaTtre conrueora aoena wrh Gtmin Lll Pmn Lv\nUtng th+ GtTil L+ AP, Soich nou trhcites ht Ltnt to vb+ dttgy +ath trr voice. ha sgont Cin'het' de Carvt\ntnd ititcta torttnt nd ghe dngn csnomtr, bolu veretint tna cit.\n。\nBuild with an expanding ecosystem of\nblog google uses cocdes from Google to derrer ard enhanct lhe quairty of ite sermces and to analyze tratic. Leam,more:-+AM-+iAn. OKOOtR",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

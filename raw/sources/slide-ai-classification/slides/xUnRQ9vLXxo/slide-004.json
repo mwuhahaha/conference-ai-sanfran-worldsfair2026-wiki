@@ -1,0 +1,27 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "none",
+  "ocr_ready": false,
+  "ocr_reason": "product screenshot is not dense text slide content",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "white with centered phone screenshot",
+    "style": "product",
+    "blocks": []
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/xUnRQ9vLXxo/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672714.5956693,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RELAI CLI: Add VCL to your agents in 2 commands\n\nInitial agent\n\n$ relai init\n- Use your own LLM\n- Compatible with all major agent frameworks\n\n$ relai learning-env create --log-file --feedback\n- Create learning environments from log/feedback or synthetically\n- Simulators (mock/real tools, persona,...) and evaluators (code/LLMs)\n\n$ relai optimize\n- Holistic: adjusts prompts, models, tools, skills, ...\n- Lifelong: online regression control\n\nOptimized version PR",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense CLI commands, bullets, and screenshot text are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "RELAI CLI: Add VCL to your agents in 2 commands",
+        "x": 3.0,
+        "y": 3.0,
+        "w": 94.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Initial agent",
+        "x": 6.0,
+        "y": 35.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "code",
+        "text": "$ relai init",
+        "x": 38.0,
+        "y": 15.0,
+        "w": 57.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Use your own LLM\nCompatible with all major agent frameworks",
+        "x": 42.0,
+        "y": 22.0,
+        "w": 52.0,
+        "h": 9.0
+      },
+      {
+        "role": "code",
+        "text": "$ relai learning-env create --log-file --feedback",
+        "x": 38.0,
+        "y": 34.0,
+        "w": 57.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Create learning environments from log/feedback or synthetically\nSimulators (mock/real tools, persona,...) and evaluators (code/LLMs)",
+        "x": 42.0,
+        "y": 41.0,
+        "w": 54.0,
+        "h": 12.0
+      },
+      {
+        "role": "code",
+        "text": "$ relai optimize",
+        "x": 38.0,
+        "y": 54.0,
+        "w": 57.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Holistic: adjusts prompts, models, tools, skills, s...\nLifelong: online regression control",
+        "x": 42.0,
+        "y": 61.0,
+        "w": 52.0,
+        "h": 11.0
+      },
+      {
+        "role": "caption",
+        "text": "Optimized version PR",
+        "x": 6.0,
+        "y": 90.0,
+        "w": 24.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-017.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657125.1737757,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "I CLl: Add VCL to your agents in 2 command\n$ relai init\nUse your own LLM\nCompatiblewith all major agentframeworks\nInitial agent $ relai learning-env create --log-file --feedback\notation discipline forfinance answers 2 Simulators (mock/real tools, persona,...) and evaluators (code/L Create learning environments from log/feedback or synthetically\n$ relai optimize\n3 Holistic: adjusts prompts, models, tools, skills, s Lifelong: online regression control\nimizedversionPR",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 673.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "RELAI CLI: Add VCL to your agents in 2 commands\n\nInitial agent\n\n$ relai init\n- Use your own LLM\n- Compatible with all major agent frameworks\n\n$ relai learning-env create --log-file --feedback\n- Create learning environments from log/feedback or synthetically\n- Simulators (mock/real tools, persona,...) and evaluators (code/LLMs)\n\n$ relai optimize\n- Holistic: adjusts prompts, models, tools, skills, ...\n- Lifelong: online regression control\n\nOptimized version PR",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide text and corrected obvious OCR spacing/pluralization errors; kept the partially cut off bullet truncated."
+  }
+}

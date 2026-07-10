@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Deeper organizational shifts required for large enterprises\nRewiring the champions\nChange management\nRewiring 100+ teams",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "dark teal gradient",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Deeper organizational shifts required for large enterprises",
+        "x": 25.0,
+        "y": 4.0,
+        "w": 54.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Rewiring the champions",
+        "x": 31.0,
+        "y": 62.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Change management",
+        "x": 53.0,
+        "y": 34.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Rewiring 100+ teams",
+        "x": 72.0,
+        "y": 62.0,
+        "w": 18.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-017.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664259.5577095,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Deeper organizational shifts required for large enterprises\nRewiring the champions\nChange management\nRewiring 100+ teams",
+  "advanced_ocr": {}
+}

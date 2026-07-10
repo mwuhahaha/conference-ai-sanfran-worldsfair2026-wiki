@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "HUTAGENT\nThe systen. wheRe It lrves\nIt runs in your environment - cloud and local.\nMutagent installs as agents inside the coding agent you already use. The agents run locally - your traces and code never leave *swyoneld umo jnon oi Sutum pue woy, buipee, ol!ym - eulyoew jnon\nYOUR EMVIRONHENt you? glatforal · cloud. loca!\n+idence 1n SOURCES ca Lrgtut A Openltlemertr B Dtdog G Litnhn B Irehtrrt\nr+de lour codl + tocil' - date n+w+t lert+\nChode Code:. o Codm. G cunv E n -O Hrm?\nf. oxchrtator\n= titct1 tN+rates ，\nCyulgator RESEARCH PREVIE whlp: rost dinpose Dlugrotici RESEARCH: PAEYIE\"\n2. arott, 1o rolarch, previr\nehere it arit+s TARceTs calda * ca Coaeo Coder G csror codiar stontt -.+d tIoscaDiks [① Kute roptgats cloud-tod\nmlt racnd of titoes - mtoeht scene thirn srd lhe erehtstrator rurt tha loop sgtl.\nPuNs loCally + Entedt htde taur oodhg tgtmt i A hosted Lutsgert pltterm or Yeragtd Agents-as + Servoe -- tet -hott or fuly mtregtd. then you ment R. future: cloud Platforn\nJh*.Ax+ntic Bene Burak 1% / 14",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture slide with dense labels and a boxed system diagram.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "THE SYSTEM • WHERE IT LIVES",
+        "x": 17.0,
+        "y": 4.0,
+        "w": 32.0,
+        "h": 3.0
+      },
+      {
+        "role": "title",
+        "text": "It runs in your environment — cloud and local.",
+        "x": 17.0,
+        "y": 8.0,
+        "w": 54.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Mutagent installs as agents inside the coding agent you already use.",
+        "x": 17.0,
+        "y": 15.0,
+        "w": 66.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "YOUR ENVIRONMENT\nLOCAL - data never leaves\nTARGETS where it writes\nFUTURE + CLOUD PLATFORM",
+        "x": 12.0,
+        "y": 23.0,
+        "w": 74.0,
+        "h": 64.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670851.8868318,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "It runs in your environment — cloud and local.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "HUTAGENT\nThe systen. wheRe It lrves\nIt runs in your environment - cloud and local.\nMutagent installs as agents inside the coding agent you already use. The agents run locally - your traces and code never leave *swyoneld umo jnon oi Sutum pue woy, buipee, ol!ym - eulyoew jnon\nYOUR EMVIRONHENt you? glatforal · cloud. loca!\n+idence 1n SOURCES ca Lrgtut A Openltlemertr B Dtdog G Litnhn B Irehtrrt\nr+de lour codl + tocil' - date n+w+t lert+\nChode Code:. o Codm. G cunv E n -O Hrm?\nf. oxchrtator\n= titct1 tN+rates ，\nCyulgator RESEARCH PREVIE whlp: rost dinpose Dlugrotici RESEARCH: PAEYIE\"\n2. arott, 1o rolarch, previr\nehere it arit+s TARceTs calda * ca Coaeo Coder G csror codiar stontt -.+d tIoscaDiks [① Kute roptgats cloud-tod\nmlt racnd of titoes - mtoeht scene thirn srd lhe erehtstrator rurt tha loop sgtl.\nPuNs loCally + Entedt htde taur oodhg tgtmt i A hosted Lutsgert pltterm or Yeragtd Agents-as + Servoe -- tet -hott or fuly mtregtd. then you ment R. future: cloud Platforn\nJh*.Ax+ntic Bene Burak 1% / 14",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1555.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "HUTAGENT\nThe systen. wheRe It lrves\nIt runs in your environment - cloud and local.\nMutagent installs as agents inside the coding agent you already use. The agents run locally - your traces and code never leave *swyoneld umo jnon oi Sutum pue woy, buipee, ol!ym - eulyoew jnon\nYOUR EMVIRONHENt you? glatforal · cloud. loca!\n+idence 1n SOURCES ca Lrgtut A Openltlemertr B Dtdog G Litnhn B Irehtrrt\nr+de lour codl + tocil' - date n+w+t lert+\nChode Code:. o Codm. G cunv E n -O Hrm?\nf. oxchrtator\n= titct1 tN+rates ，\nCyulgator RESEARCH PREVIE whlp: rost dinpose Dlugrotici RESEARCH: PAEYIE\"\n2. arott, 1o rolarch, previr\nehere it arit+s TARceTs calda * ca Coaeo Coder G csror codiar stontt -.+d tIoscaDiks [① Kute roptgats cloud-tod\nmlt racnd of titoes - mtoeht scene thirn srd lhe erehtstrator rurt tha loop sgtl.\nPuNs loCally + Entedt htde taur oodhg tgtmt i A hosted Lutsgert pltterm or Yeragtd Agents-as + Servoe -- tet -hott or fuly mtregtd. then you ment R. future: cloud Platforn\nJh*.Ax+ntic Bene Burak 1% / 14",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

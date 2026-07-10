@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Architectural Imperatives\n1. Offline benchmarks are necessary but insufficient.\n2. Agentic systems must be evaluated as full workflows.\n3. Production telemetry is the ultimate evaluation signal.\n4. Reliability always supersedes raw model accuracy.\n5. Evals are no longer tests; they are core infrastructure.\nYou can't improve what you don't continuously evaluate.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "light cream",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Architectural Imperatives",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 40.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "1. Offline benchmarks are necessary but insufficient.\n2. Agentic systems must be evaluated as full workflows.\n3. Production telemetry is the ultimate evaluation signal.\n4. Reliability always supersedes raw model accuracy.\n5. Evals are no longer tests; they are core infrastructure.",
+        "x": 10.0,
+        "y": 20.0,
+        "w": 80.0,
+        "h": 55.0
+      },
+      {
+        "role": "caption",
+        "text": "You can't improve what you don't continuously evaluate.",
+        "x": 22.0,
+        "y": 86.0,
+        "w": 58.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/vljxQZfJ9wY/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672479.8185673,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Architectural Imperatives\n1. Offline benchmarks are necessary but insufficient.\n2. Agentic systems must be evaluated as full workflows.\n3. Production telemetry is the ultimate evaluation signal.\n4. Reliability always supersedes raw model accuracy.\n5. Evals are no longer tests; they are core infrastructure.\nYou can't improve what you don't continuously evaluate.",
+  "advanced_ocr": {}
+}

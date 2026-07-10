@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Survey\nhttps://pulse.aws/promotion/RPND9AFU?p=0",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Survey",
+        "x": 38.0,
+        "y": 17.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "QR code",
+        "x": 47.0,
+        "y": 27.0,
+        "w": 18.0,
+        "h": 26.0
+      },
+      {
+        "role": "caption",
+        "text": "https://pulse.aws/promotion/RPND9AFU?p=0",
+        "x": 39.0,
+        "y": 60.0,
+        "w": 33.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/wFTVEDYVJT0/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672295.3168979,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Survey\nhttps://pulse.aws/promotion/RPND9AFU?p=0",
+  "advanced_ocr": {}
+}

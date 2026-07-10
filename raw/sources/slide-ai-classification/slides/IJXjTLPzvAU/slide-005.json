@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.87,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "CAST OF \"HAMILTON\" PERFORMS AT WHITE HOUSE\nCBSN",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "embedded video/screenshot; text is secondary",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#141414",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "CAST OF \"HAMILTON\" PERFORMS AT WHITE HOUSE",
+        "x": 7.0,
+        "y": 64.0,
+        "w": 56.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "CBSN",
+        "x": 82.0,
+        "y": 63.0,
+        "w": 12.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/IJXjTLPzvAU/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659932.1358924,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "CAST OF \"HAMILTON\" PERFORMS AT WHITE HOUSE\nCBSN",
+  "advanced_ocr": {}
+}

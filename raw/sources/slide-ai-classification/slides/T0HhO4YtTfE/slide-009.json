@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Controlled flows?\nLLM Call 1\nLLM Call 2\nAction 1\nAction 2",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple flow diagram with large text; direct reading is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#062f2d",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Controlled flows?",
+        "x": 25.0,
+        "y": 10.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LLM Call 1",
+        "x": 28.0,
+        "y": 60.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LLM Call 2",
+        "x": 43.0,
+        "y": 60.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Action 1",
+        "x": 59.0,
+        "y": 59.0,
+        "w": 13.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Action 2",
+        "x": 80.0,
+        "y": 59.0,
+        "w": 13.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/T0HhO4YtTfE/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664006.3086205,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Controlled flows?\nLLM Call 1\nLLM Call 2\nAction 1\nAction 2",
+  "advanced_ocr": {}
+}

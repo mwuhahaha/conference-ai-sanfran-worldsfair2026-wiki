@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Fixthebugwithtiste\nwith the old hardcoded \"PolyShopping\"this was fine,but a long backend-supplied title has nothing to stop it-it wraps to multiple lines （inflating the header height) or squeezes the nav links,breaking the layout.(The Footer is unaffected -there the title sits its own grid cell and wrapping is harmless.)\nThe fix\nsrc/conponents/Navbar.tsx - constrain the title to a single line that ellipsizes when too long, with the full text available on hover\n<Link to=\"/\" title=\"PolyShopping\" className=\"inline-block text-2xl font-bold text-indigo-6oe ar-8 max-w-[2o8px]truncate align-middle\ndata-testid=\"navbar-title\"\nPolyShopping\nmax-w-[2ooox]>the cap the ellipsis kicks in at truncate → overflow-hidden text-ellipsis whitespace-nowrap (no wrapping,\"-\"on overflow)\ntitle attribute →full title on hover, so nothing is lost align-middle →keeps it vertically aligned with the nav after the display change inline-block an anchorisinline by default and wouldignore max-width/truncate withoutit\nVerification\nnpm run build（tsc +vite build clean)\nauto mode on (shift+tab to cycle)- gh auth login poly-frontend-93df5cb0 git:（fix-the-bug-with-title-1edeacf8)x[0pus 4.8（1M context)]\nPreNoes",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Readable code-and-notes slide with a short title and dense body text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#111111",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Fix the bug with title",
+        "x": 3.0,
+        "y": 1.0,
+        "w": 40.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 3.0,
+        "y": 9.0,
+        "w": 88.0,
+        "h": 16.0
+      },
+      {
+        "role": "code",
+        "text": "src/components/Navbar.tsx",
+        "x": 3.0,
+        "y": 24.0,
+        "w": 92.0,
+        "h": 29.0
+      },
+      {
+        "role": "body",
+        "text": "Verification",
+        "x": 3.0,
+        "y": 66.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "npm run build",
+        "x": 3.0,
+        "y": 74.0,
+        "w": 25.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "",
+        "x": 72.0,
+        "y": 72.0,
+        "w": 26.0,
+        "h": 26.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-015.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670207.3157458,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Fix the bug with title",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Fixthebugwithtiste\nwith the old hardcoded \"PolyShopping\"this was fine,but a long backend-supplied title has nothing to stop it-it wraps to multiple lines （inflating the header height) or squeezes the nav links,breaking the layout.(The Footer is unaffected -there the title sits its own grid cell and wrapping is harmless.)\nThe fix\nsrc/conponents/Navbar.tsx - constrain the title to a single line that ellipsizes when too long, with the full text available on hover\n<Link to=\"/\" title=\"PolyShopping\" className=\"inline-block text-2xl font-bold text-indigo-6oe ar-8 max-w-[2o8px]truncate align-middle\ndata-testid=\"navbar-title\"\nPolyShopping\nmax-w-[2ooox]>the cap the ellipsis kicks in at truncate → overflow-hidden text-ellipsis whitespace-nowrap (no wrapping,\"-\"on overflow)\ntitle attribute →full title on hover, so nothing is lost align-middle →keeps it vertically aligned with the nav after the display change inline-block an anchorisinline by default and wouldignore max-width/truncate withoutit\nVerification\nnpm run build（tsc +vite build clean)\nauto mode on (shift+tab to cycle)- gh auth login poly-frontend-93df5cb0 git:（fix-the-bug-with-title-1edeacf8)x[0pus 4.8（1M context)]\nPreNoes",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1586.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Fixthebugwithtiste\nwith the old hardcoded \"PolyShopping\"this was fine,but a long backend-supplied title has nothing to stop it-it wraps to multiple lines （inflating the header height) or squeezes the nav links,breaking the layout.(The Footer is unaffected -there the title sits its own grid cell and wrapping is harmless.)\nThe fix\nsrc/conponents/Navbar.tsx - constrain the title to a single line that ellipsizes when too long, with the full text available on hover\n<Link to=\"/\" title=\"PolyShopping\" className=\"inline-block text-2xl font-bold text-indigo-6oe ar-8 max-w-[2o8px]truncate align-middle\ndata-testid=\"navbar-title\"\nPolyShopping\nmax-w-[2ooox]>the cap the ellipsis kicks in at truncate → overflow-hidden text-ellipsis whitespace-nowrap (no wrapping,\"-\"on overflow)\ntitle attribute →full title on hover, so nothing is lost align-middle →keeps it vertically aligned with the nav after the display change inline-block an anchorisinline by default and wouldignore max-width/truncate withoutit\nVerification\nnpm run build（tsc +vite build clean)\nauto mode on (shift+tab to cycle)- gh auth login poly-frontend-93df5cb0 git:（fix-the-bug-with-title-1edeacf8)x[0pus 4.8（1M context)]\nPreNoes",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

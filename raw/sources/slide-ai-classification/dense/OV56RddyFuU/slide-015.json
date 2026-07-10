@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "ggml-org/gemma-4-26B-A4B-it-GGUF uke 40 Folow ceml-org 168k\nB GGUF: converatlonal\nV Modelcard Ie Files and versions i& mt Community I:: Deploy * eUse this model]\nEdit model card\ngemma-4-26B-A4B-it-GGUF 67,075 Downlosds Iast monh\nRecommended way to run this model:1lana-scrvor -hf ggal-org/gcnma-4-26B-A4B-it-GGUF GGUF ① Model size 25B params Architecture: gemma4 () Chat template\nThen, access http://ocalhost:8080 Hardware compatibility P L4 (24 GB) x1:\n4-bit Q4_K_M:16.8 GB\n8-bit α Q8_0 126.9 G8:\n16-bit β F16 150.5 GB",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense product screenshot with model card, code, and compatibility details",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light green",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "ggml-org gemma-4-26B-A4B-it-GGUF",
+        "x": 2.0,
+        "y": 8.0,
+        "w": 52.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Recommended way to run this model:\nllama-server -hf ggml-org/gemma-4-26B-A4B-it-GGUF\nThen, access http://localhost:8080",
+        "x": 3.0,
+        "y": 37.0,
+        "w": 36.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram",
+        "text": "GGUF\nHardware compatibility\n4-bit\n8-bit\n16-bit",
+        "x": 38.0,
+        "y": 24.0,
+        "w": 58.0,
+        "h": 68.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-015.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662360.0408626,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "ggml-org/gemma-4-26B-A4B-it-GGUF uke 40 Folow ceml-org 168k\nB GGUF: converatlonal\nV Modelcard Ie Files and versions i& mt Community I:: Deploy * eUse this model]\nEdit model card\ngemma-4-26B-A4B-it-GGUF 67,075 Downlosds Iast monh\nRecommended way to run this model:1lana-scrvor -hf ggal-org/gcnma-4-26B-A4B-it-GGUF GGUF ① Model size 25B params Architecture: gemma4 () Chat template\nThen, access http://ocalhost:8080 Hardware compatibility P L4 (24 GB) x1:\n4-bit Q4_K_M:16.8 GB\n8-bit α Q8_0 126.9 G8:\n16-bit β F16 150.5 GB",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 619.56
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "ggml-org/gemma-4-26B-A4B-it-GGUF uke 40 Folow ceml-org 168k\nB GGUF: converatlonal\nV Modelcard Ie Files and versions i& mt Community I:: Deploy * eUse this model]\nEdit model card\ngemma-4-26B-A4B-it-GGUF 67,075 Downlosds Iast monh\nRecommended way to run this model:1lana-scrvor -hf ggal-org/gcnma-4-26B-A4B-it-GGUF GGUF ① Model size 25B params Architecture: gemma4 () Chat template\nThen, access http://ocalhost:8080 Hardware compatibility P L4 (24 GB) x1:\n4-bit Q4_K_M:16.8 GB\n8-bit α Q8_0 126.9 G8:\n16-bit β F16 150.5 GB",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

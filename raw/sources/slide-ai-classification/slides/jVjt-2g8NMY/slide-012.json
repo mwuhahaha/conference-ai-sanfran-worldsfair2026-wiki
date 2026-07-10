@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.89,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "11A0SOH\nPotygraph\nYes,reconstruct the session No,canceL resume\n/kup./jdoom,center>toselect,<esc>tocancel\n-Previou",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Terminal screen with small text and prompt-like content is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 95.0,
+        "h": 94.0
+      },
+      {
+        "role": "caption",
+        "text": "",
+        "x": 66.0,
+        "y": 72.0,
+        "w": 31.0,
+        "h": 26.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669934.320741,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "11A0SOH\nPotygraph\nYes,reconstruct the session No,canceL resume\n/kup./jdoom,center>toselect,<esc>tocancel\n-Previou",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 217.92
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "11A0SOH\nPotygraph\nYes,reconstruct the session No,canceL resume\n/kup./jdoom,center>toselect,<esc>tocancel\n-Previou",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

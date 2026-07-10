@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.96,
+  "frame_type": "speaker_stage",
+  "reject_reason": "camera shot of speaker and audience with projected slide; not a clean presentation slide frame",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "not a slide frame; stage shot",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "gray room interior with projected white screen",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "The Art & Science of Benchmarking Agents",
+        "x": 36.0,
+        "y": 12.0,
+        "w": 40.0,
+        "h": 36.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/iNkFlCiij0U/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668844.028845,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

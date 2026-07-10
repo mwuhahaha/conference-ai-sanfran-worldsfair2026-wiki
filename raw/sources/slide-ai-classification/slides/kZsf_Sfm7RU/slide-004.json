@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "02: InviSible failure\nThe failure hides itself.\nClaude marked features \"complete\" - without checking they actualty worked. the opposite. Agents reported success while the system state said\n*EFfeCtIvE HaANESSeS FOr lOng-RUnnInG AGentS.' AnthROpIC NortheaStern ReO-teaM\nNothing crashes. Nothing turns red. Nothing knows.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small multi-column body text and quoted claims are better suited to OCR than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "02 · INVISIBLE FAILURE",
+        "x": 6.0,
+        "y": 4.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "The failure hides itself.",
+        "x": 6.0,
+        "y": 25.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Claude marked features \"complete\" — without checking they actually worked.",
+        "x": 6.0,
+        "y": 58.0,
+        "w": 38.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "\"EFFECTIVE HARNESSES FOR LONG-RUNNING AGENTS,\" ANTHROPIC",
+        "x": 6.0,
+        "y": 69.0,
+        "w": 36.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Agents reported success while the system state said the opposite.",
+        "x": 51.0,
+        "y": 58.0,
+        "w": 43.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "NORTHEASTERN RED-TEAM",
+        "x": 51.0,
+        "y": 69.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Nothing crashes. Nothing turns red. Nothing knows.",
+        "x": 28.0,
+        "y": 86.0,
+        "w": 44.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669548.9492378,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "The failure hides itself.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "02: InviSible failure\nThe failure hides itself.\nClaude marked features \"complete\" - without checking they actualty worked. the opposite. Agents reported success while the system state said\n*EFfeCtIvE HaANESSeS FOr lOng-RUnnInG AGentS.' AnthROpIC NortheaStern ReO-teaM\nNothing crashes. Nothing turns red. Nothing knows.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 504.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "02: InviSible failure\nThe failure hides itself.\nClaude marked features \"complete\" - without checking they actualty worked. the opposite. Agents reported success while the system state said\n*EFfeCtIvE HaANESSeS FOr lOng-RUnnInG AGentS.' AnthROpIC NortheaStern ReO-teaM\nNothing crashes. Nothing turns red. Nothing knows.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

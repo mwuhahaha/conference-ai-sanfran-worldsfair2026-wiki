@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Where We Are\nExperimentation\nAdoption\nImpact",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Where We Are",
+        "x": 31.0,
+        "y": 11.0,
+        "w": 38.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Experimentation",
+        "x": 11.0,
+        "y": 55.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "explore and normalize AI usage",
+        "x": 13.0,
+        "y": 64.0,
+        "w": 17.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Adoption",
+        "x": 43.0,
+        "y": 55.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "scale usage through structure and consistency",
+        "x": 39.0,
+        "y": 64.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Impact",
+        "x": 75.0,
+        "y": 55.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "drive measurable outcomes and productivity gains",
+        "x": 71.0,
+        "y": 64.0,
+        "w": 22.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/whue9_YquGA/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672554.8622866,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Where We Are\nExperimentation\nAdoption\nImpact",
+  "advanced_ocr": {}
+}

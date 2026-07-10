@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.74,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "demo/game screenshot with decorative logos only",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 15.0,
+        "h": 17.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer Europe",
+        "x": 58.0,
+        "y": 79.0,
+        "w": 23.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/grdoOC1BT1s/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668039.3800495,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,40 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why would we stop now?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense slide text and diagram-like image are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with black footer band",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why would we stop now?",
+        "x": 25.0,
+        "y": 35.0,
+        "w": 30.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/7Dtu2bilcFs/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657947.473096,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why would we stop now?",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "\"Use the platform\" was a codeword for why React was wrong and anti-web",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple large-text slide",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#11110e",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "\"Use the platform\" was a codeword for why React was wrong and anti-web",
+        "x": 26.0,
+        "y": 31.0,
+        "w": 50.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-007.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657974.0130932,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "\"Use the platform\" was a codeword for why React was wrong and anti-web",
+  "advanced_ocr": {}
+}

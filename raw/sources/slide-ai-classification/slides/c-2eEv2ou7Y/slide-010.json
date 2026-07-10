@@ -1,0 +1,108 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Build MCP Apps with Skybridge\nOpen-source framework for building MCP Apps\nEnd-to-end typesafety\nModern development environment\nUnified APIs for host cross-compatibility",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title-and-bullets slide; direct reading is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Build MCP Apps with Skybridge",
+        "x": 30.0,
+        "y": 4.0,
+        "w": 48.0,
+        "h": 13.0
+      },
+      {
+        "role": "logo",
+        "text": "SKYBRIDGE - skybridge.tech",
+        "x": 53.0,
+        "y": 16.0,
+        "w": 27.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Open-source framework for building MCP Apps",
+        "x": 52.0,
+        "y": 28.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "End-to-end typesafety",
+        "x": 52.0,
+        "y": 37.0,
+        "w": 23.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Modern development environment",
+        "x": 52.0,
+        "y": 45.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Unified APIs for host cross-compatibility",
+        "x": 52.0,
+        "y": 53.0,
+        "w": 33.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "github.com/alpic-ai/skybridge",
+        "x": 30.0,
+        "y": 79.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Star the repo -> enter the lottery to win a mask",
+        "x": 54.0,
+        "y": 71.0,
+        "w": 34.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 12.0,
+        "h": 18.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 55.0,
+        "y": 84.0,
+        "w": 25.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/c-2eEv2ou7Y/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667136.4745462,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Build MCP Apps with Skybridge\nOpen-source framework for building MCP Apps\nEnd-to-end typesafety\nModern development environment\nUnified APIs for host cross-compatibility",
+  "advanced_ocr": {}
+}

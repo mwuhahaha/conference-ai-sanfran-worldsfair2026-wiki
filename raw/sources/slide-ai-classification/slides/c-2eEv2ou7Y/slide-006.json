@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Whatif-srcdoc?\nchatgpt.com Content-Security-Policy\nscript-arenonce--1httpa://*.chatgpt.com\nfre-arcseif*.stripe.con..youtube.coo\nAIE\n<body> itroo srcdoc-\".>\ncdiv>Your App /div>\n</body\"\n× inherits parent csP without script nonce, all view scripts blocked\nginoer Engineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "code/diagram slide with small text and snippet details",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with magenta accents",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What if — srcdoc?",
+        "x": 28.0,
+        "y": 5.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "code",
+        "text": "srcdoc",
+        "x": 50.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "inherits parent CSP without script nonce, all view scripts blocked",
+        "x": 39.0,
+        "y": 66.0,
+        "w": 49.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/c-2eEv2ou7Y/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666923.6365898,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "What if — srcdoc?",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Whatif-srcdoc?\nchatgpt.com Content-Security-Policy\nscript-arenonce--1httpa://*.chatgpt.com\nfre-arcseif*.stripe.con..youtube.coo\nAIE\n<body> itroo srcdoc-\".>\ncdiv>Your App /div>\n</body\"\n× inherits parent csP without script nonce, all view scripts blocked\nginoer Engineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 416.76
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Whatif-srcdoc?\nchatgpt.com Content-Security-Policy\nscript-arenonce--1httpa://*.chatgpt.com\nfre-arcseif*.stripe.con..youtube.coo\nAIE\n<body> itroo srcdoc-\".>\ncdiv>Your App /div>\n</body\"\n× inherits parent csP without script nonce, all view scripts blocked\nginoer Engineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

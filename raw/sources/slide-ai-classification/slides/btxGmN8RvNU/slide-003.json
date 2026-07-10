@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "DPLCESA 01y\nTask +sstee\n0redeleogepy 0thmcp.py x7 24 1nnes you to coeplate these tstks.ker ech cee,try your best ths data.Ifyoucan't,oxplais vhat weetrog. TASX·\nretobconpereund Emqoirepeetbt ioitmpmg 41 6 2.CooAny-Gett（iekedIa（eepsny profitefer Mistra）A]! lststloost5secifirprtlesthrlces. https://aw.righteove.co.ck/property-to.roat/s1nd.atel/1os attps://nw.1inkedsn.con/copany/alstrol.al/\nAIE 47 3.ptoeTiuEs-(et thoInatagran profile fee @yieion! httpa://w.1ntagao.coa/ylekoy\n49\nS1 http4://a0o.aa370n.ccm/0p/10901074\n5.SCia-Getthe TinTok pnofile for ooogiei attps://owo.ciktok.coo/enogle\n57 koeginaindfyou fosrdGata cnacifferentsite1tSoesnot（ Afterellstsbs,givefleslsorerd;Mowey sacteededvs\nrOtMNE PORRS\nTELINE OUTUNI\nAI Enginee\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense code/editor screenshot with small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 26.0,
+        "w": 12.0,
+        "h": 18.0
+      },
+      {
+        "role": "code",
+        "text": "TASK",
+        "x": 40.0,
+        "y": 10.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 56.0,
+        "y": 82.0,
+        "w": 29.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/btxGmN8RvNU/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666733.4540513,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/contrast",
+    "text": "DPLCESA 01y\nTask +sstee\n0redeleogepy 0thmcp.py x7 24 1nnes you to coeplate these tstks.ker ech cee,try your best ths data.Ifyoucan't,oxplais vhat weetrog. TASX·\nretobconpereund Emqoirepeetbt ioitmpmg 41 6 2.CooAny-Gett（iekedIa（eepsny profitefer Mistra）A]! lststloost5secifirprtlesthrlces. https://aw.righteove.co.ck/property-to.roat/s1nd.atel/1os attps://nw.1inkedsn.con/copany/alstrol.al/\nAIE 47 3.ptoeTiuEs-(et thoInatagran profile fee @yieion! httpa://w.1ntagao.coa/ylekoy\n49\nS1 http4://a0o.aa370n.ccm/0p/10901074\n5.SCia-Getthe TinTok pnofile for ooogiei attps://owo.ciktok.coo/enogle\n57 koeginaindfyou fosrdGata cnacifferentsite1tSoesnot（ Afterellstsbs,givefleslsorerd;Mowey sacteededvs\nrOtMNE PORRS\nTELINE OUTUNI\nAI Enginee\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 834.68
+  },
+  "ocr_source": "rapidocr-live/left-72/contrast",
+  "ocr_reconcile": {
+    "text": "DPLCESA 01y\nTask +sstee\n0redeleogepy 0thmcp.py x7 24 1nnes you to coeplate these tstks.ker ech cee,try your best ths data.Ifyoucan't,oxplais vhat weetrog. TASX·\nretobconpereund Emqoirepeetbt ioitmpmg 41 6 2.CooAny-Gett（iekedIa（eepsny profitefer Mistra）A]! lststloost5secifirprtlesthrlces. https://aw.righteove.co.ck/property-to.roat/s1nd.atel/1os attps://nw.1inkedsn.con/copany/alstrol.al/\nAIE 47 3.ptoeTiuEs-(et thoInatagran profile fee @yieion! httpa://w.1ntagao.coa/ylekoy\n49\nS1 http4://a0o.aa370n.ccm/0p/10901074\n5.SCia-Getthe TinTok pnofile for ooogiei attps://owo.ciktok.coo/enogle\n57 koeginaindfyou fosrdGata cnacifferentsite1tSoesnot（ Afterellstsbs,givefleslsorerd;Mowey sacteededvs\nrOtMNE PORRS\nTELINE OUTUNI\nAI Enginee\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

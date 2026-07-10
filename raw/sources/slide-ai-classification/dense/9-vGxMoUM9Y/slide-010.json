@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How do I prevent LLM hallucinations?\nProvenance Guardrails\nEvery LLM utterance should have a source of truth.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How do I prevent LLM hallucinations?",
+        "x": 5.0,
+        "y": 2.0,
+        "w": 62.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LLM",
+        "x": 6.0,
+        "y": 53.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "HALLUCINATIONS",
+        "x": 18.0,
+        "y": 29.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "PROVENANCE GUARDRAILS",
+        "x": 7.0,
+        "y": 72.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Provenance Guardrails",
+        "x": 41.0,
+        "y": 35.0,
+        "w": 29.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Every LLM utterance should have a source of truth.",
+        "x": 41.0,
+        "y": 48.0,
+        "w": 45.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "https://docs.guardrailsai.com/api_reference/validators/#guardrails.validators.ProvenanceV1",
+        "x": 41.0,
+        "y": 87.0,
+        "w": 46.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Guardrails AI",
+        "x": 5.0,
+        "y": 90.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/9-vGxMoUM9Y/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658699.405363,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "How do I prevent LLM hallucinations?\nProvenance Guardrails\nEvery LLM utterance should have a source of truth.",
+  "advanced_ocr": {}
+}

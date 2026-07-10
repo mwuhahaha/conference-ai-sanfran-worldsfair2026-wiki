@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI App Templates Workshop",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Repository README screenshot with title, table, and side metadata; OCR is appropriate for extracting the page structure.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI App Templates Workshop",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 42.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "These guides will help you get started using our AI App Templates along with the Azure OpenAI Proxy.",
+        "x": 5.0,
+        "y": 19.0,
+        "w": 66.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "OpenAI Chat App",
+        "x": 6.0,
+        "y": 43.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "RAG on PostgreSQL",
+        "x": 6.0,
+        "y": 52.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "RAG with Azure AI Search",
+        "x": 6.0,
+        "y": 61.0,
+        "w": 22.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-015.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657352.7736132,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI App Templates Workshop",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

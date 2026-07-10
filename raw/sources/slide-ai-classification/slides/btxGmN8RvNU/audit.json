@@ -1,0 +1,515 @@
+{
+  "video_id": "btxGmN8RvNU",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 5,
+  "rejected_count": 4,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "DPLCESA 01y\nTask +sstee\n0redeleogepy 0thmcp.py x7 24 1nnes you to coeplate these tstks.ker ech cee,try your best ths data.Ifyoucan't,oxplais vhat weetrog. TASX·\nretobconpereund Emqoirepeetbt ioitmpmg 41 6 2.CooAny-Gett（iekedIa（eepsny profitefer Mistra）A]! lststloost5secifirprtlesthrlces. https://aw.righteove.co.ck/property-to.roat/s1nd.atel/1os attps://nw.1inkedsn.con/copany/alstrol.al/\nAIE 47 3.ptoeTiuEs-(et thoInatagran profile fee @yieion! httpa://w.1ntagao.coa/ylekoy\n49\nS1 http4://a0o.aa370n.ccm/0p/10901074\n5.SCia-Getthe TinTok pnofile for ooogiei attps://owo.ciktok.coo/enogle\n57 koeginaindfyou fosrdGata cnacifferentsite1tSoesnot（ Afterellstsbs,givefleslsorerd;Mowey sacteededvs\nrOtMNE PORRS\nTELINE OUTUNI\nAI Enginee\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense code/editor screenshot with small text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 26.0,
+            "w": 12.0,
+            "h": 18.0
+          },
+          {
+            "role": "code",
+            "text": "TASK",
+            "x": 40.0,
+            "y": 10.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 56.0,
+            "y": 82.0,
+            "w": 29.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/btxGmN8RvNU/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666733.4540513,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/contrast",
+        "text": "DPLCESA 01y\nTask +sstee\n0redeleogepy 0thmcp.py x7 24 1nnes you to coeplate these tstks.ker ech cee,try your best ths data.Ifyoucan't,oxplais vhat weetrog. TASX·\nretobconpereund Emqoirepeetbt ioitmpmg 41 6 2.CooAny-Gett（iekedIa（eepsny profitefer Mistra）A]! lststloost5secifirprtlesthrlces. https://aw.righteove.co.ck/property-to.roat/s1nd.atel/1os attps://nw.1inkedsn.con/copany/alstrol.al/\nAIE 47 3.ptoeTiuEs-(et thoInatagran profile fee @yieion! httpa://w.1ntagao.coa/ylekoy\n49\nS1 http4://a0o.aa370n.ccm/0p/10901074\n5.SCia-Getthe TinTok pnofile for ooogiei attps://owo.ciktok.coo/enogle\n57 koeginaindfyou fosrdGata cnacifferentsite1tSoesnot（ Afterellstsbs,givefleslsorerd;Mowey sacteededvs\nrOtMNE PORRS\nTELINE OUTUNI\nAI Enginee\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 834.68
+      },
+      "ocr_source": "rapidocr-live/left-72/contrast",
+      "ocr_reconcile": {
+        "text": "DPLCESA 01y\nTask +sstee\n0redeleogepy 0thmcp.py x7 24 1nnes you to coeplate these tstks.ker ech cee,try your best ths data.Ifyoucan't,oxplais vhat weetrog. TASX·\nretobconpereund Emqoirepeetbt ioitmpmg 41 6 2.CooAny-Gett（iekedIa（eepsny profitefer Mistra）A]! lststloost5secifirprtlesthrlces. https://aw.righteove.co.ck/property-to.roat/s1nd.atel/1os attps://nw.1inkedsn.con/copany/alstrol.al/\nAIE 47 3.ptoeTiuEs-(et thoInatagran profile fee @yieion! httpa://w.1ntagao.coa/ylekoy\n49\nS1 http4://a0o.aa370n.ccm/0p/10901074\n5.SCia-Getthe TinTok pnofile for ooogiei attps://owo.ciktok.coo/enogle\n57 koeginaindfyou fosrdGata cnacifferentsite1tSoesnot（ Afterellstsbs,givefleslsorerd;Mowey sacteededvs\nrOtMNE PORRS\nTELINE OUTUNI\nAI Enginee\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/btxGmN8RvNU/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "D\nkadin and 3d parties use ess\nLinked Jeinnow\nAIE Similar pages A\\\nMistral Al\nnLabs\neejob Browse jobs\nAboutus g* ppe 9i Ppu0 Rnalyet jolis nist jobs dn is bett on te 8p9\nAlEngineer EUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "webpage screenshot with small text",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 26.0,
+            "w": 12.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Mistral AI",
+            "x": 40.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "LinkedIn",
+            "x": 41.0,
+            "y": 22.0,
+            "w": 10.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/btxGmN8RvNU/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666837.7233803,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Mistral AI",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "D\nkadin and 3d parties use ess\nLinked Jeinnow\nAIE Similar pages A\\\nMistral Al\nnLabs\neejob Browse jobs\nAboutus g* ppe 9i Ppu0 Rnalyet jolis nist jobs dn is bett on te 8p9\nAlEngineer EUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 353.4
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "D\nkadin and 3d parties use ess\nLinked Jeinnow\nAIE Similar pages A\\\nMistral Al\nnLabs\neejob Browse jobs\nAboutus g* ppe 9i Ppu0 Rnalyet jolis nist jobs dn is bett on te 8p9\nAlEngineer EUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/btxGmN8RvNU/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Sottioms Fascurces\nBright Data\nDAjeb\nAIE\nhrlgt dea Top iangunges\nToe wors's1 web data piatonm\nypubkeseGrerondrate lee y y od nein wpnlee Montunadsopics\nWhy Bright Outs?\nhninbreandeiornd\nQurCoreEcosystem\n1112AM 4920V\nAI Engineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "repository screenshot with small text",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 26.0,
+            "w": 12.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Bright Data",
+            "x": 37.0,
+            "y": 16.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "GitHub",
+            "x": 30.0,
+            "y": 4.0,
+            "w": 8.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/btxGmN8RvNU/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666903.1413999,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Bright Data",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Sottioms Fascurces\nBright Data\nDAjeb\nAIE\nhrlgt dea Top iangunges\nToe wors's1 web data piatonm\nypubkeseGrerondrate lee y y od nein wpnlee Montunadsopics\nWhy Bright Outs?\nhninbreandeiornd\nQurCoreEcosystem\n1112AM 4920V\nAI Engineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 388.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Sottioms Fascurces\nBright Data\nDAjeb\nAIE\nhrlgt dea Top iangunges\nToe wors's1 web data piatonm\nypubkeseGrerondrate lee y y od nein wpnlee Montunadsopics\nWhy Bright Outs?\nhninbreandeiornd\nQurCoreEcosystem\n1112AM 4920V\nAI Engineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/btxGmN8RvNU/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Soluion\norighedata/skls\n0<） mqueb Actone\nP2a0ag Qoo Abol\n日\nAIE esf petk MT Scue\nRACmd d d glupe 1mve Ysso\n[LADUS Salevan\nBright Data Plugin for Claude Code\nngearcandtrctureddets\nOATAU\n1111AV\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "repository README screenshot with small text",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 26.0,
+            "w": 12.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Bright Data Plugin for Claude Code",
+            "x": 38.0,
+            "y": 68.0,
+            "w": 40.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "GitHub",
+            "x": 30.0,
+            "y": 4.0,
+            "w": 8.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/btxGmN8RvNU/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666948.331835,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Bright Data Plugin for Claude Code",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Soluion\norighedata/skls\n0<） mqueb Actone\nP2a0ag Qoo Abol\n日\nAIE esf petk MT Scue\nRACmd d d glupe 1mve Ysso\n[LADUS Salevan\nBright Data Plugin for Claude Code\nngearcandtrctureddets\nOATAU\n1111AV\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 405.64
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Soluion\norighedata/skls\n0<） mqueb Actone\nP2a0ag Qoo Abol\n日\nAIE esf petk MT Scue\nRACmd d d glupe 1mve Ysso\n[LADUS Salevan\nBright Data Plugin for Claude Code\nngearcandtrctureddets\nOATAU\n1111AV\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/btxGmN8RvNU/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.78,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Google DeepMind",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "UI screenshot with some small browser text; better handled later if needed.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 25.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "You've gone incognito",
+            "x": 55.0,
+            "y": 18.0,
+            "w": 22.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Google DeepMind",
+            "x": 48.0,
+            "y": 76.0,
+            "w": 28.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/btxGmN8RvNU/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667090.759109,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Google DeepMind",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/btxGmN8RvNU/slide-007.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage with projected slide in the background",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "camera shot, not a clean slide",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/btxGmN8RvNU/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666733.4522972,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.96,
+      "frame_type": "title_card",
+      "reject_reason": "session intro/title card",
+      "text": "SESSION 1\nYour Agent's Biggest Lie:\n\"I SEARCHED THE WEB\"\nRafael Levi",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "large title card text is directly readable",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "navy gradient",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 20.0,
+            "w": 12.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Your Agent's Biggest Lie:",
+            "x": 37.0,
+            "y": 28.0,
+            "w": 36.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "\"I SEARCHED THE WEB\"",
+            "x": 37.0,
+            "y": 39.0,
+            "w": 39.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "Rafael Levi",
+            "x": 40.0,
+            "y": 61.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SESSION 1",
+            "x": 38.0,
+            "y": 20.0,
+            "w": 12.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/btxGmN8RvNU/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666733.4530208,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "SESSION 1\nYour Agent's Biggest Lie:\n\"I SEARCHED THE WEB\"\nRafael Levi",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker on stage with projected screen; not a standalone slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Stage photo, not slide content.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#e8e8e8",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/btxGmN8RvNU/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667090.7597802,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "Branding/title card, not a content slide.",
+      "text": "AI Engineer EUROPE",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "Simple branding card; OCR not needed in triage.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI Engineer EUROPE",
+            "x": 28.0,
+            "y": 34.0,
+            "w": 44.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "HTTPS://AI.ENGINEER",
+            "x": 36.0,
+            "y": 87.0,
+            "w": 28.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/btxGmN8RvNU/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667090.760207,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Engineer EUROPE",
+      "advanced_ocr": {}
+    }
+  ]
+}

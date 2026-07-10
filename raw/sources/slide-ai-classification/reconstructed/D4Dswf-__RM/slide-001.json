@@ -1,0 +1,100 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "sponsor_logo",
+  "reject_reason": "sponsor logo wall",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "logo wall, not OCR-worthy content",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "INNOVATION PARTNER",
+        "x": 39.0,
+        "y": 8.0,
+        "w": 23.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 41.0,
+        "y": 15.0,
+        "w": 18.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "PLATINUM SPONSORS",
+        "x": 38.0,
+        "y": 33.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Graphite",
+        "x": 11.0,
+        "y": 41.0,
+        "w": 24.0,
+        "h": 11.0
+      },
+      {
+        "role": "logo",
+        "text": "Windsurf",
+        "x": 38.0,
+        "y": 41.0,
+        "w": 24.0,
+        "h": 11.0
+      },
+      {
+        "role": "logo",
+        "text": "MongoDB.",
+        "x": 66.0,
+        "y": 40.0,
+        "w": 22.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "daily",
+        "x": 11.0,
+        "y": 58.0,
+        "w": 15.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "augment code",
+        "x": 32.0,
+        "y": 58.0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "WorkOS",
+        "x": 68.0,
+        "y": 58.0,
+        "w": 20.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-001.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658920.5676646,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RNINO notebooks >: β JSON_wabpsguLoeneraton boynb'> us Opilmizing JSON Wabpaga Prompts wrh the Arlra Prompt Loaming SOK > M: Output Ganeration /> + dat gonerato_outputidatusot\nbenchmarics?.3 conda bg_banch hard + Code + Markdom I D Run Al S Rostart 显 Chx All Outputs 」 e Viat dat 国 Jupytr Vaniablrs: B Outine: sa_codo (Python 3.10.19) rytnon]\n.y notebooks README.md:+, datesots.> oplimizer_idk.: coding igant rues. A LCENSE.bt: *IP_NOTICE requlrsmonts,txt [ tmaisupport_quo..\" PJsoN wbpe. M buoddns xeazut a m test.cry a tan.csy: Bl2Norrn-100_oa phoenb_support q. 1. rmetaprompt.tt: U. prompts: support quor.cla. 0 Additional Metrics.:Tron'sklearn.metrics iaport. fl score,' prtcision. det compute_metric(y_true', y_ored, scorera-accurecy.):' Ytrue dd y.pred' thould. be. lists or arrays ot \"carrtct-/\"incorrect\" labels. Ytrue bia -'ti'tf y --\"corract clte e tor' y'in y true]:retorn. 11 scoreiy_true_bin, Yorea_oin,zero_divistono) ollf scorer - \"precision*! Y-pres_bin'- (l l! y. es \"correct\" elue + for y Ln y.pred) cetcorer -rrecsiun.! I rap to blnary. elit scoror..- -fi\"! Coapute the rtquested' cetric for? birury.classlficatlon.: if'scorer.\"sccurscy\"t.. elsoi.retura precision_scorety.true_bin, Y.pred bin, zero_divislonto) return 'sccuracy_seorety_true_bin, y.pred_bin!. return recall_scorety_trua_bin, Y_pred_bin. xero_divisior-e) Tsito ValueError(t\"unknoum scorerr (scorer]-) score, recallscore,: accuracy_score\n0.91 uonld\n) ouTuhe. Jrs hubsod pnos a s Vt O cuuridwod Optimization Loop Cnorhb @ intca20 Spc:4 12025-11-22113:19:03.Spxc*c 4. LF. t. C4 16 ot 27.:t",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code slide with small function text; OCR is better than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Additional Metrics",
+        "x": 13.0,
+        "y": 15.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_score",
+        "x": 13.0,
+        "y": 27.0,
+        "w": 75.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Optimization Loop",
+        "x": 13.0,
+        "y": 80.0,
+        "w": 24.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-023.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-023.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665438.6742864,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Additional Metrics",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "RNINO notebooks >: β JSON_wabpsguLoeneraton boynb'> us Opilmizing JSON Wabpaga Prompts wrh the Arlra Prompt Loaming SOK > M: Output Ganeration /> + dat gonerato_outputidatusot\nbenchmarics?.3 conda bg_banch hard + Code + Markdom I D Run Al S Rostart 显 Chx All Outputs 」 e Viat dat 国 Jupytr Vaniablrs: B Outine: sa_codo (Python 3.10.19) rytnon]\n.y notebooks README.md:+, datesots.> oplimizer_idk.: coding igant rues. A LCENSE.bt: *IP_NOTICE requlrsmonts,txt [ tmaisupport_quo..\" PJsoN wbpe. M buoddns xeazut a m test.cry a tan.csy: Bl2Norrn-100_oa phoenb_support q. 1. rmetaprompt.tt: U. prompts: support quor.cla. 0 Additional Metrics.:Tron'sklearn.metrics iaport. fl score,' prtcision. det compute_metric(y_true', y_ored, scorera-accurecy.):' Ytrue dd y.pred' thould. be. lists or arrays ot \"carrtct-/\"incorrect\" labels. Ytrue bia -'ti'tf y --\"corract clte e tor' y'in y true]:retorn. 11 scoreiy_true_bin, Yorea_oin,zero_divistono) ollf scorer - \"precision*! Y-pres_bin'- (l l! y. es \"correct\" elue + for y Ln y.pred) cetcorer -rrecsiun.! I rap to blnary. elit scoror..- -fi\"! Coapute the rtquested' cetric for? birury.classlficatlon.: if'scorer.\"sccurscy\"t.. elsoi.retura precision_scorety.true_bin, Y.pred bin, zero_divislonto) return 'sccuracy_seorety_true_bin, y.pred_bin!. return recall_scorety_trua_bin, Y_pred_bin. xero_divisior-e) Tsito ValueError(t\"unknoum scorerr (scorer]-) score, recallscore,: accuracy_score\n0.91 uonld\n) ouTuhe. Jrs hubsod pnos a s Vt O cuuridwod Optimization Loop Cnorhb @ intca20 Spc:4 12025-11-22113:19:03.Spxc*c 4. LF. t. C4 16 ot 27.:t",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1707.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "RNINO notebooks >: β JSON_wabpsguLoeneraton boynb'> us Opilmizing JSON Wabpaga Prompts wrh the Arlra Prompt Loaming SOK > M: Output Ganeration /> + dat gonerato_outputidatusot\nbenchmarics?.3 conda bg_banch hard + Code + Markdom I D Run Al S Rostart 显 Chx All Outputs 」 e Viat dat 国 Jupytr Vaniablrs: B Outine: sa_codo (Python 3.10.19) rytnon]\n.y notebooks README.md:+, datesots.> oplimizer_idk.: coding igant rues. A LCENSE.bt: *IP_NOTICE requlrsmonts,txt [ tmaisupport_quo..\" PJsoN wbpe. M buoddns xeazut a m test.cry a tan.csy: Bl2Norrn-100_oa phoenb_support q. 1. rmetaprompt.tt: U. prompts: support quor.cla. 0 Additional Metrics.:Tron'sklearn.metrics iaport. fl score,' prtcision. det compute_metric(y_true', y_ored, scorera-accurecy.):' Ytrue dd y.pred' thould. be. lists or arrays ot \"carrtct-/\"incorrect\" labels. Ytrue bia -'ti'tf y --\"corract clte e tor' y'in y true]:retorn. 11 scoreiy_true_bin, Yorea_oin,zero_divistono) ollf scorer - \"precision*! Y-pres_bin'- (l l! y. es \"correct\" elue + for y Ln y.pred) cetcorer -rrecsiun.! I rap to blnary. elit scoror..- -fi\"! Coapute the rtquested' cetric for? birury.classlficatlon.: if'scorer.\"sccurscy\"t.. elsoi.retura precision_scorety.true_bin, Y.pred bin, zero_divislonto) return 'sccuracy_seorety_true_bin, y.pred_bin!. return recall_scorety_trua_bin, Y_pred_bin. xero_divisior-e) Tsito ValueError(t\"unknoum scorerr (scorer]-) score, recallscore,: accuracy_score\n0.91 uonld\n) ouTuhe. Jrs hubsod pnos a s Vt O cuuridwod Optimization Loop Cnorhb @ intca20 Spc:4 12025-11-22113:19:03.Spxc*c 4. LF. t. C4 16 ot 27.:t",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

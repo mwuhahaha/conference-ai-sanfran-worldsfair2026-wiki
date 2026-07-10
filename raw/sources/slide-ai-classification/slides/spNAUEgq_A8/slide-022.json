@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Domain Specific Agents...\nFar more efficient with tokens\nMake small language models practical\nDeepSeek v4 flash is 137x cheaper than Fable per task",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Domain Specific Agents...",
+        "x": 23.0,
+        "y": 7.0,
+        "w": 55.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Far more efficient with tokens",
+        "x": 8.0,
+        "y": 30.0,
+        "w": 38.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Make small language models practical",
+        "x": 8.0,
+        "y": 42.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "DeepSeek v4 flash is 137x cheaper than Fable per task",
+        "x": 10.0,
+        "y": 66.0,
+        "w": 38.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 73.0,
+        "y": 21.0,
+        "w": 22.0,
+        "h": 63.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-022.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-022.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672228.543799,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Domain Specific Agents...\nFar more efficient with tokens\nMake small language models practical\nDeepSeek v4 flash is 137x cheaper than Fable per task",
+  "advanced_ocr": {}
+}

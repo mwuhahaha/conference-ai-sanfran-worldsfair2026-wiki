@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Spread the word on spreadsheets-are-all-you-need\nVisit Spreadsheets-are-all-you-need.ai\n• Mailing list & YouTube\n• Members/Patrons\n  • Discount on full class, office hours, etc.\nAvailable for AI consulting\n• Training, Strategy & Implementation",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cream with orange-purple header bar",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Spread the word on spreadsheets-are-all-you-need",
+        "x": 21.0,
+        "y": 0,
+        "w": 74.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Visit Spreadsheets-are-all-you-need.ai",
+        "x": 14.0,
+        "y": 16.0,
+        "w": 33.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "• Mailing list & YouTube\n• Members/Patrons\n  • Discount on full class, office hours, etc.",
+        "x": 14.0,
+        "y": 24.0,
+        "w": 38.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Available for AI consulting",
+        "x": 14.0,
+        "y": 49.0,
+        "w": 27.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "• Training, Strategy & Implementation",
+        "x": 14.0,
+        "y": 58.0,
+        "w": 34.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "SPREADSHEETS ARE ALL YOU NEED .AI\nAS SEEN ON",
+        "x": 64.0,
+        "y": 16.0,
+        "w": 28.0,
+        "h": 42.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/ZuiJjkbX0Og/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665878.6192088,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Spread the word on spreadsheets-are-all-you-need\nVisit Spreadsheets-are-all-you-need.ai\n• Mailing list & YouTube\n• Members/Patrons\n  • Discount on full class, office hours, etc.\nAvailable for AI consulting\n• Training, Strategy & Implementation",
+  "advanced_ocr": {}
+}

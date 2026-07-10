@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Engineering the future of AI",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "large title is easy to read visually",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 15.0,
+        "h": 17.0
+      },
+      {
+        "role": "title",
+        "text": "Engineering the future of AI",
+        "x": 36.0,
+        "y": 82.0,
+        "w": 56.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/grdoOC1BT1s/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668039.3804045,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {}
+}

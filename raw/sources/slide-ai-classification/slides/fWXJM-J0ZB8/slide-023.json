@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Reference accuracy (%) — higher is better\np50 latency (ms) — lower is better\nClaude Sonnet (ceiling) Qwen 2.5 1.5B Qwen 3.1 7B Gemma 4 E2B Llama 3.2 3B (recommended)",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "dark charcoal",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram",
+        "text": "Reference accuracy (%) — higher is better\np50 latency (ms) — lower is better",
+        "x": 10.0,
+        "y": 10.0,
+        "w": 82.0,
+        "h": 74.0
+      },
+      {
+        "role": "caption",
+        "text": "Claude Sonnet (ceiling) Qwen 2.5 1.5B Qwen 3.1 7B Gemma 4 E2B Llama 3.2 3B (recommended)",
+        "x": 8.0,
+        "y": 84.0,
+        "w": 84.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-023.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-023.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668188.1622791,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Reference accuracy (%) — higher is better\np50 latency (ms) — lower is better\nClaude Sonnet (ceiling) Qwen 2.5 1.5B Qwen 3.1 7B Gemma 4 E2B Llama 3.2 3B (recommended)",
+  "advanced_ocr": {}
+}

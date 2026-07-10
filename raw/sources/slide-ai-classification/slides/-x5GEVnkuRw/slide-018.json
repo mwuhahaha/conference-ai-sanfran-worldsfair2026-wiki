@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Export Formats and Options\n\nDocling supports multiple export formats with various options:\n\n# Export to different formats (various options available, but called with default ones)\nmarkdown_text = doc.export_to_markdown()\nhtml_text = doc.export_to_html()\njson_dict = doc.export_to_dict()\ndoc_tags = doc.export_to_doctags()\n\n# Save different formats (various options available, some shown)\ndoc.save_as_markdown(\n    image_mode=ImageRefMode.PLACEHOLDER,\n    image_placeholder=\"<!-- my image placeholder -->\",\n    ...\n)",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Notebook slide with code and multi-section text that is better extracted via OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#151515",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Export Formats and Options",
+        "x": 20.0,
+        "y": 18.0,
+        "w": 34.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Docling supports multiple export formats with various options:",
+        "x": 20.0,
+        "y": 30.0,
+        "w": 46.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "doc.export_to_markdown()",
+        "x": 29.0,
+        "y": 47.0,
+        "w": 18.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-018.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656509.4258592,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Export Formats and Options",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Q。 Conversion.ipynbMX Token_Cost_Comparison.ipynb M Chunkless_RAG.ipynb M Chunking.ipynb\nDOCLING-WORKSHOP notebooks >fixtures Al-Ready Data with DoclingM Basic Document Conversion>M Document Structure Exploration>#Document metadata-important for tracking AddCodeAddMarkdownRunAll Restart ClearAllOutputs|JupyterVariablesOutline venv (3.13.7) (Python 3.13.7)\npyproject.toml ①README.md!.poutine.yml constraints.txt LICENSE!mkdocs.yml gitignore!.pre-commit-config.yaml!.spellcheck.yaml >src!.markdownlint-cli2.yaml F.spellcheck-en-custom.txt >scripts Chunkless_RAG.ipynbM Conversion_Colab.ipynb Converson.pynb MCP_Agents.ipynb Ollama RAG.ipynb Serving.ipynb Token_Cost_Compar.M Chunking.ipynb RAG.ipynb gitignore ndno< M M ExportFormatsandOptions Doclingsupportsmultipleexportformatswithvariousoptions: SectionHeaderItem:Abstract TextItem:We introduce Docling,an easy-to-use,self-contained,MITlicensed,open-source toolkit for document conversion,tr TextItem:Repository-https://github.com/DS4SD/docling TextItem:Converting documentsback into a unified machineprocessable format has been a major challenge for decades due to th TextItem:*These authors contributed equally. SectionHeaderItem:1Introduction markdown_text=doc.export_to_markdown() doc.save_as_markdown( #Export to different formats (various options available,but called with default ones) html_text=doc.export_to_html() json_dict=doc.export_to_dict（) doc_tags=doc.export_to_doctags() #Save different formats(various options available,some showm) output_dir/\"document.nd\", image_mode=ImageRefMode.PLACEHOLDER, image_placeholder=\"<!--my image placeholder Add Code Add Markdown\nOUTLINE JSON",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1348.0
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Export Formats and Options\n\nDocling supports multiple export formats with various options:\n\n# Export to different formats (various options available, but called with default ones)\nmarkdown_text = doc.export_to_markdown()\nhtml_text = doc.export_to_html()\njson_dict = doc.export_to_dict()\ndoc_tags = doc.export_to_doctags()\n\n# Save different formats (various options available, some shown)\ndoc.save_as_markdown(\n    image_mode=ImageRefMode.PLACEHOLDER,\n    image_placeholder=\"<!-- my image placeholder -->\",\n    ...\n)",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR with minor fixes to spacing, hyphenation, and function-name spelling; omitted unclear/truncated lines."
+  }
+}

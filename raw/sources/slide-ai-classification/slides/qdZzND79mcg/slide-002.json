@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Current AI Engineering: Use a fixed harnesses to steer agents\nFixed roles, topology. sequencing,tool access etc\nReliable,Replicable,Auditable\nGreat for well-defined engineering problems (most)\nEngineer's role: Build/Use Harness + Steer Agents\nBut, future will see at least two explosions\nModels sopowerful that Harnesses constantly outdated\nr o\nEnter Adaptative Engineering: Harness emerges from agents interacting\nYou allow the necessary harness to emerge and adapt mid-engineering Engineer's role:\nDesign constraints,including rules of interaction amongst agents\nApply selection pressures\nuajivchandegra.com jiv Chandegra LIBS INICHHA",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-section slide with small text and diagrams; OCR will read it more reliably than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Current AI Engineering: Use a fixed harnesses to steer agents",
+        "x": 7.0,
+        "y": 8.0,
+        "w": 70.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "But, future will see at least two explosions",
+        "x": 7.0,
+        "y": 31.0,
+        "w": 42.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Enter Adaptative Engineering: Harness emerges from agents interacting",
+        "x": 7.0,
+        "y": 58.0,
+        "w": 66.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/qdZzND79mcg/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670895.8771207,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "Current AI Engineering: Use a fixed harnesses to steer agents\nFixed roles, topology. sequencing,tool access etc\nReliable,Replicable,Auditable\nGreat for well-defined engineering problems (most)\nEngineer's role: Build/Use Harness + Steer Agents\nBut, future will see at least two explosions\nModels sopowerful that Harnesses constantly outdated\nr o\nEnter Adaptative Engineering: Harness emerges from agents interacting\nYou allow the necessary harness to emerge and adapt mid-engineering Engineer's role:\nDesign constraints,including rules of interaction amongst agents\nApply selection pressures\nuajivchandegra.com jiv Chandegra LIBS INICHHA",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 929.32
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "Current AI Engineering: Use a fixed harnesses to steer agents\nFixed roles, topology. sequencing,tool access etc\nReliable,Replicable,Auditable\nGreat for well-defined engineering problems (most)\nEngineer's role: Build/Use Harness + Steer Agents\nBut, future will see at least two explosions\nModels sopowerful that Harnesses constantly outdated\nr o\nEnter Adaptative Engineering: Harness emerges from agents interacting\nYou allow the necessary harness to emerge and adapt mid-engineering Engineer's role:\nDesign constraints,including rules of interaction amongst agents\nApply selection pressures\nuajivchandegra.com jiv Chandegra LIBS INICHHA",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

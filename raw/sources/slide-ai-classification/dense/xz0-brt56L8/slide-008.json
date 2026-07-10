@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Conclusion",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code/notebook/editor slide with small text and multiple panes; OCR is more appropriate than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light editor workspace",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Conclusion",
+        "x": 29.0,
+        "y": 63.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "notebook and code panes",
+        "x": 32.0,
+        "y": 8.0,
+        "w": 56.0,
+        "h": 83.0
+      },
+      {
+        "role": "caption",
+        "text": "file tree / notebook / output / JSON",
+        "x": 2.0,
+        "y": 4.0,
+        "w": 26.0,
+        "h": 92.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673262.4711285,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Conclusion",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/full",
+    "best_score": 1577.24,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0035
+  }
+}

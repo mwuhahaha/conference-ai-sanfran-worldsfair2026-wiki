@@ -3,111 +3,70 @@
   "confidence": 0.98,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "Demos optimize for capability.\nProduction demands reliability.\n\nCapabilities\nReliability Core\nReliability Core\n[STRUCTURAL INTEGRITY: CRITICAL]\n(LOAD BEARING)\n[ISOMETRIC VIEW: SYSTEM CROSS-SECTION]",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture slide with layered diagram and small labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
   "layout": {
-    "background": "very light gray/white",
+    "background": "white",
     "style": "diagram",
     "blocks": [
       {
         "role": "title",
         "text": "Demos optimize for capability.\nProduction demands reliability.",
-        "x": 4.0,
-        "y": 2.0,
-        "w": 72.0,
-        "h": 18.0
+        "x": 3.0,
+        "y": 1.0,
+        "w": 56.0,
+        "h": 14.0
       },
       {
-        "role": "subtitle",
+        "role": "caption",
         "text": "Capabilities",
-        "x": 64.0,
-        "y": 31.0,
-        "w": 19.0,
+        "x": 65.0,
+        "y": 35.0,
+        "w": 17.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Reliability Core",
+        "x": 4.0,
+        "y": 55.0,
+        "w": 18.0,
         "h": 8.0
       },
       {
         "role": "body",
-        "text": "Reliability Core",
-        "x": 4.0,
-        "y": 53.0,
-        "w": 18.0,
-        "h": 10.0
-      },
-      {
-        "role": "body",
-        "text": "Reliability Core",
-        "x": 77.0,
-        "y": 52.0,
-        "w": 18.0,
-        "h": 10.0
+        "text": "Prompt\nLLM",
+        "x": 36.0,
+        "y": 25.0,
+        "w": 17.0,
+        "h": 12.0
       },
       {
         "role": "caption",
         "text": "[STRUCTURAL INTEGRITY: CRITICAL]",
-        "x": 74.0,
-        "y": 11.0,
+        "x": 73.0,
+        "y": 14.0,
         "w": 22.0,
         "h": 6.0
-      },
-      {
-        "role": "caption",
-        "text": "(LOAD BEARING)",
-        "x": 3.0,
-        "y": 88.0,
-        "w": 18.0,
-        "h": 5.0
-      },
-      {
-        "role": "caption",
-        "text": "[ISOMETRIC VIEW: SYSTEM CROSS-SECTION]",
-        "x": 78.0,
-        "y": 91.0,
-        "w": 19.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Prompt",
-        "x": 39.0,
-        "y": 25.0,
-        "w": 6.0,
-        "h": 4.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "LLM",
-        "x": 51.0,
-        "y": 26.0,
-        "w": 5.0,
-        "h": 4.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Memory",
-        "x": 29.0,
-        "y": 63.0,
-        "w": 8.0,
-        "h": 4.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Tools",
-        "x": 42.0,
-        "y": 66.0,
-        "w": 6.0,
-        "h": 4.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Authentication",
-        "x": 56.0,
-        "y": 63.0,
-        "w": 12.0,
-        "h": 4.0
       }
     ]
   },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
   "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-003.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783629001.3153398
+  "classified_at_epoch": 1783658435.9282773,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

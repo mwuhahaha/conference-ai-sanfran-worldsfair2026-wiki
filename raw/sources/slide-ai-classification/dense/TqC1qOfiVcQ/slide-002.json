@@ -1,0 +1,194 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Building effective agents\n5/ File System Harness\nGive Claudea\njust-in-time code, to pass files, write and learnfrom persistentworkspace exampleoutputs File System Tools Custom MCP Prompts Core Agent Workflows Custom File System Process Files ExOutput rrCode\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "diagram slide with multiple small labels and box text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Building effective agents",
+        "x": 3.0,
+        "y": 2.0,
+        "w": 30.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "5/ File System",
+        "x": 3.0,
+        "y": 24.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Give Claude a persistent workspace to pass files, write just-in-time code, and learn from example outputs",
+        "x": 3.0,
+        "y": 35.0,
+        "w": 29.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Harness",
+        "x": 64.0,
+        "y": 14.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 38.0,
+        "y": 30.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Prompts",
+        "x": 53.0,
+        "y": 30.0,
+        "w": 13.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "File System",
+        "x": 68.0,
+        "y": 30.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MCP",
+        "x": 41.0,
+        "y": 40.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Custom",
+        "x": 41.0,
+        "y": 46.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "File System",
+        "x": 41.0,
+        "y": 52.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Core Agent",
+        "x": 56.0,
+        "y": 40.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Workflows",
+        "x": 56.0,
+        "y": 52.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Process Files",
+        "x": 71.0,
+        "y": 40.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "JIT Code",
+        "x": 72.0,
+        "y": 46.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Ex Output",
+        "x": 72.0,
+        "y": 52.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Models",
+        "x": 65.0,
+        "y": 66.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Claude Haiku",
+        "x": 36.0,
+        "y": 73.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Claude Sonnet",
+        "x": 55.0,
+        "y": 73.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Claude Opus",
+        "x": 74.0,
+        "y": 73.0,
+        "w": 16.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664341.1832747,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Building effective agents",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Building effective agents\n5/ File System Harness\nGive Claudea\njust-in-time code, to pass files, write and learnfrom persistentworkspace exampleoutputs File System Tools Custom MCP Prompts Core Agent Workflows Custom File System Process Files ExOutput rrCode\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 672.64
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Building effective agents\n5/ File System Harness\nGive Claudea\njust-in-time code, to pass files, write and learnfrom persistentworkspace exampleoutputs File System Tools Custom MCP Prompts Core Agent Workflows Custom File System Process Files ExOutput rrCode\nModels\nFastest with near-frontier intelligence Claude Haiku Smartest for complex agents/coding Claude Sonnet Exceptional model for deep thought Claude Opus\nANTHROPIC CONFIDENTIAL",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Examination Management",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot with small nav labels, tabs, and form fields.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with blue gradient banner",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Cognitive Shield - Human-in-the-Loop Financial Defense | FirstAid API - Swagger UI",
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Examination Management",
+        "x": 28.0,
+        "y": 10.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "AI Fraud Detection\nExamination Management",
+        "x": 28.0,
+        "y": 16.0,
+        "w": 66.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "LEVEL 1: USER MANAGEMENT FLOW\nDashboard\nUser Management\nCase Management\nExamination Management\nInvoice Management\nProcessing Flow\nPayment Portal\nChat Assistant\nLEVEL 2: FRAUD DETECTION FLOW",
+        "x": 1.0,
+        "y": 8.0,
+        "w": 22.0,
+        "h": 85.0
+      },
+      {
+        "role": "body",
+        "text": "Examination Dashboard\nCreate/Manage Examinations\nRisk Assessment\nTime & Billing\nAnalytics & Reporting",
+        "x": 28.0,
+        "y": 27.0,
+        "w": 60.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Create New Case\nCase Title\nCase Description\nStatus\nPriority\nCase Type\nFinancial Impact ($)",
+        "x": 28.0,
+        "y": 38.0,
+        "w": 66.0,
+        "h": 55.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658657.7015388,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Examination Management",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

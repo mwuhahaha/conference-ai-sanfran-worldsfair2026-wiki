@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Evaluation",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "beige",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Evaluation",
+        "x": 20.0,
+        "y": 79.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "HPS",
+        "x": 35.0,
+        "y": 15.0,
+        "w": 4.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Failures",
+        "x": 38.0,
+        "y": 15.0,
+        "w": 8.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-035.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-035.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658688.1815531,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Evaluation",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "What you can't do without evals\n• Can't detect regressions when you change a prompt\n• Can't compare prompt versions objectively\n• Can't know if a new model is actually better\n• Can't run quality gates in CI",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What you can't do without evals",
+        "x": 17.0,
+        "y": 14.0,
+        "w": 66.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "• Can't detect regressions when you change a prompt\n• Can't compare prompt versions objectively\n• Can't know if a new model is actually better\n• Can't run quality gates in CI",
+        "x": 22.0,
+        "y": 26.0,
+        "w": 58.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/Xfl50508LZM/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665184.2643435,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What you can't do without evals\n• Can't detect regressions when you change a prompt\n• Can't compare prompt versions objectively\n• Can't know if a new model is actually better\n• Can't run quality gates in CI",
+  "advanced_ocr": {}
+}

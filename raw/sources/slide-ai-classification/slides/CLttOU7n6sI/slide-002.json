@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Sustainability is filled with judgement calls\nQuestions like:\n- What are the emissions attributable to 1 bottle of wine?\n- Which method should be used to allocate the emissions to various co-products?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f7f2e8",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Sustainability is filled with judgement calls",
+        "x": 5.0,
+        "y": 8.0,
+        "w": 43.0,
+        "h": 14.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Questions like:",
+        "x": 5.0,
+        "y": 34.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "What are the emissions attributable to 1 bottle of wine?",
+        "x": 8.0,
+        "y": 44.0,
+        "w": 39.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Which method should be used to allocate the emissions to various co-products?",
+        "x": 8.0,
+        "y": 55.0,
+        "w": 43.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "There are many ways to get to a right answer the wrong way and many right answers.",
+        "x": 5.0,
+        "y": 79.0,
+        "w": 47.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/CLttOU7n6sI/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659155.9102361,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Sustainability is filled with judgement calls\nQuestions like:\n- What are the emissions attributable to 1 bottle of wine?\n- Which method should be used to allocate the emissions to various co-products?",
+  "advanced_ocr": {}
+}

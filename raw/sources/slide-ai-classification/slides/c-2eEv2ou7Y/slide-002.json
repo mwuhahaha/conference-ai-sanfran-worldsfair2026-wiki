@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What are MCP & ChatGPT Apps?\nDiscoverability in-chat and in stores on ChatGPT and Claude\nInteractive UI inside AI chats\nLiad and Ido experimenting with MCP-UI\nInitially released on ChatGPT as OpenAI's Apps SDK\nStandardized as MCP first official extension",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple slide; direct read is sufficient",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with magenta and gold accents",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 18.0,
+        "w": 14.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "What are MCP & ChatGPT Apps?",
+        "x": 28.0,
+        "y": 5.0,
+        "w": 50.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Discoverability in-chat and in stores on ChatGPT and Claude\nInteractive UI inside AI chats\nLiad and Ido experimenting with MCP-UI\nInitially released on ChatGPT as OpenAI's Apps SDK\nStandardized as MCP first official extension",
+        "x": 28.0,
+        "y": 26.0,
+        "w": 38.0,
+        "h": 30.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 42.0,
+        "y": 79.0,
+        "w": 42.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/c-2eEv2ou7Y/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666752.246792,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What are MCP & ChatGPT Apps?\nDiscoverability in-chat and in stores on ChatGPT and Claude\nInteractive UI inside AI chats\nLiad and Ido experimenting with MCP-UI\nInitially released on ChatGPT as OpenAI's Apps SDK\nStandardized as MCP first official extension",
+  "advanced_ocr": {}
+}

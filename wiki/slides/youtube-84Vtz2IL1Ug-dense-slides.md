@@ -16,16 +16,28 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/84Vtz2IL1Ug/slide-001.jpg]]
 
-- Source scene image: `frame-00009.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `177.35`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/84Vtz2IL1Ug/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+- OCR decision: ready — Dense paper screenshot with small multi-column text; OCR will capture details more reliably than manual transcription.
+
+Slide text:
+
+> LLaMA: Open and Efficient Foundation Language Models
+
 ![[assets/dense-slides/84Vtz2IL1Ug/slide-002.jpg]]
 
-- Source scene image: `frame-00012.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.64`
-- Slide-only rule: `visual-bright-slide`
-![[assets/dense-slides/84Vtz2IL1Ug/slide-003.jpg]]
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/84Vtz2IL1Ug/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+- OCR decision: ready — Dense paper-style slide with small body text and embedded screenshot/logo elements; OCR is appropriate.
 
-- Source scene image: `frame-00014.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.71`
-- Slide-only rule: `visual-bright-slide`
+Slide text:
+
+> Alpaca: A Strong, Replicable Instruction-Following Model
+
+
+### Hidden Non-Slide Evidence
+- [`slide-003.jpg`](/assets/dense-slides/84Vtz2IL1Ug/slide-003.jpg) — `speaker_stage` confidence `0.99`; Stage photo with speaker and projected slide; not a standalone readable slide.
+
+Classification audit: `raw/sources/slide-ai-classification/dense/84Vtz2IL1Ug/audit.json`

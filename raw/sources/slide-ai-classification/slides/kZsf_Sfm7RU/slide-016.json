@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Go looking for what's about to break.\nRoadmap / rebuilding — drives the live product like a user.\nA validator that drives the live app through computer use.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large title-card text is directly readable; OCR is not needed for this sparse slide.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "AGENT 04 • QA / COMPUTER-USE",
+        "x": 6.0,
+        "y": 4.0,
+        "w": 26.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Go looking for what's about to break.",
+        "x": 6.0,
+        "y": 19.0,
+        "w": 42.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Roadmap / rebuilding — drives the live product like a user.",
+        "x": 6.0,
+        "y": 65.0,
+        "w": 44.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "A validator that drives the live app through computer use.",
+        "x": 52.0,
+        "y": 65.0,
+        "w": 42.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670256.8038003,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Go looking for what's about to break.\nRoadmap / rebuilding — drives the live product like a user.\nA validator that drives the live app through computer use.",
+  "advanced_ocr": {}
+}

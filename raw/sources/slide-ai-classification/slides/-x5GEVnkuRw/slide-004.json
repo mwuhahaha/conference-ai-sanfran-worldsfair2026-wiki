@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Data is the key ingredient behind AI applications!\nTechnical Documentation\nMeeting Minutes\nFinancial Documents",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large, simple labels; OCR not necessary.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Data is the key ingredient behind AI applications!",
+        "x": 18.0,
+        "y": 6.0,
+        "w": 64.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Technical Documentation",
+        "x": 10.0,
+        "y": 83.0,
+        "w": 21.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Meeting Minutes",
+        "x": 39.0,
+        "y": 82.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Financial Documents",
+        "x": 66.0,
+        "y": 59.0,
+        "w": 18.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655418.630962,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Data is the key ingredient behind AI applications!\nTechnical Documentation\nMeeting Minutes\nFinancial Documents",
+  "advanced_ocr": {}
+}

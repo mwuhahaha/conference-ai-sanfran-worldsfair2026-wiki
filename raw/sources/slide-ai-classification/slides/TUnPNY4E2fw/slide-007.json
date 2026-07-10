@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "DeepSpeedUlysses\nqo. ko 00\nAIE AII2AII Full FlashAttention AII2AIl 02 01\nq3. k3 03\nWhatifwedividebynum_headsdim?\nDeepSpeed Ulysses:System Optimizations for Enabling Tra sformer Models.Jacobsea.,2023\nEngineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with many small labels and a citation line; OCR should be more efficient than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "DeepSpeed Ulysses",
+        "x": 28.0,
+        "y": 7.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "q0\nk0\nq1\nk1\nq2\nk2\nq3\nk3",
+        "x": 27.0,
+        "y": 29.0,
+        "w": 5.0,
+        "h": 30.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "All2All",
+        "x": 38.0,
+        "y": 42.0,
+        "w": 7.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Full Flash Attention",
+        "x": 50.0,
+        "y": 38.0,
+        "w": 18.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "All2All",
+        "x": 77.0,
+        "y": 42.0,
+        "w": 7.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "o0\no1\no2\no3",
+        "x": 89.0,
+        "y": 29.0,
+        "w": 5.0,
+        "h": 30.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What if we divide by num_heads dim?",
+        "x": 28.0,
+        "y": 76.0,
+        "w": 34.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/TUnPNY4E2fw/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664548.7889502,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "DeepSpeed Ulysses",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "DeepSpeedUlysses\nqo. ko 00\nAIE AII2AII Full FlashAttention AII2AIl 02 01\nq3. k3 03\nWhatifwedividebynum_headsdim?\nDeepSpeed Ulysses:System Optimizations for Enabling Tra sformer Models.Jacobsea.,2023\nEngineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 311.12
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "DeepSpeedUlysses\nqo. ko 00\nAIE AII2AII Full FlashAttention AII2AIl 02 01\nq3. k3 03\nWhatifwedividebynum_headsdim?\nDeepSpeed Ulysses:System Optimizations for Enabling Tra sformer Models.Jacobsea.,2023\nEngineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "a helpful framework for understanding today's model landscape Reasoning models: Treating reasoning & non-reasoning models as distinct categories is\nIntelligence vs. Output Tokens Used to Run Artificial Analysis Intelligence Index\nArtifciel Analysis fnteligence Index (Version 2, released Feb 25),. Output Tokens Used (~5M input tokens)\nMost attractive quadrant\nArtificlal Analysis Intelligence Index 75 - 55 8- 35 - 45 59 60 40 Prerler Non-Reasoning Models Zora Mistrdl Large GPI-4.1- 2 (Noy 24) [Nor 24) GPT-40 GPT-4.1 mini Grok3 Gamm3 278 DeepSeeck V3:0324 Maverick Lama4 Llama 4 Roasoning Nemotron: Uiua 2538 Lema 3.1. α-mn (high) Reasoning Models DoepSeek R1 Gomini 2.3 Pro A Artlficll Arulysls Grck 3 mint Ressonlng (high) (uuonoog) Gemin 2.5 Clsude 3.7: aupurul Sonnet Fash.\n4u Cutput Tokons Used In Artificlal Analysls Inteillgonce Indox (Log Scale) 2014 30H HOO!\nA Artlflclal Analysls",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Scatterplot/diagram with dense labels and small text; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Reasoning models: Treating reasoning & non-reasoning models as distinct categories is a helpful framework for understanding today’s model landscape",
+        "x": 2.0,
+        "y": 0,
+        "w": 96.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "Intelligence vs. Output Tokens Used to Run Artificial Analysis Intelligence Index",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 62.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Artificial Analysis Intelligence Index (Version 2, released Feb 25), Output Tokens Used (~5M input tokens)",
+        "x": 4.0,
+        "y": 21.0,
+        "w": 74.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Non-Reasoning Models",
+        "x": 14.0,
+        "y": 49.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Reasoning Models",
+        "x": 56.0,
+        "y": 74.0,
+        "w": 18.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/sRpqPgKeXNk/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671837.4353788,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "a helpful framework for understanding today's model landscape Reasoning models: Treating reasoning & non-reasoning models as distinct categories is\nIntelligence vs. Output Tokens Used to Run Artificial Analysis Intelligence Index\nArtifciel Analysis fnteligence Index (Version 2, released Feb 25),. Output Tokens Used (~5M input tokens)\nMost attractive quadrant\nArtificlal Analysis Intelligence Index 75 - 55 8- 35 - 45 59 60 40 Prerler Non-Reasoning Models Zora Mistrdl Large GPI-4.1- 2 (Noy 24) [Nor 24) GPT-40 GPT-4.1 mini Grok3 Gamm3 278 DeepSeeck V3:0324 Maverick Lama4 Llama 4 Roasoning Nemotron: Uiua 2538 Lema 3.1. α-mn (high) Reasoning Models DoepSeek R1 Gomini 2.3 Pro A Artlficll Arulysls Grck 3 mint Ressonlng (high) (uuonoog) Gemin 2.5 Clsude 3.7: aupurul Sonnet Fash.\n4u Cutput Tokons Used In Artificlal Analysls Inteillgonce Indox (Log Scale) 2014 30H HOO!\nA Artlflclal Analysls",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1068.8
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "a helpful framework for understanding today's model landscape Reasoning models: Treating reasoning & non-reasoning models as distinct categories is\nIntelligence vs. Output Tokens Used to Run Artificial Analysis Intelligence Index\nArtifciel Analysis fnteligence Index (Version 2, released Feb 25),. Output Tokens Used (~5M input tokens)\nMost attractive quadrant\nArtificlal Analysis Intelligence Index 75 - 55 8- 35 - 45 59 60 40 Prerler Non-Reasoning Models Zora Mistrdl Large GPI-4.1- 2 (Noy 24) [Nor 24) GPT-40 GPT-4.1 mini Grok3 Gamm3 278 DeepSeeck V3:0324 Maverick Lama4 Llama 4 Roasoning Nemotron: Uiua 2538 Lema 3.1. α-mn (high) Reasoning Models DoepSeek R1 Gomini 2.3 Pro A Artlficll Arulysls Grck 3 mint Ressonlng (high) (uuonoog) Gemin 2.5 Clsude 3.7: aupurul Sonnet Fash.\n4u Cutput Tokons Used In Artificlal Analysls Inteillgonce Indox (Log Scale) 2014 30H HOO!\nA Artlflclal Analysls",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

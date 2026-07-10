@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "In production, a raw log isn't feedback\n\nSession log\nuser: book me a flight to NYC\nagent: searching flights...\nagent: called tool get_flights()\nagent: returned 3 options\nuser: none of these work - wrong date\n\nAn LLM / code analyzes the log\nA model or eval code reads the trace and writes a critique on what to change.\nScales to every session\n\nA human gives expert feedback\nDomain experts catch what models miss: subtle correctness, policy, and taste.\nLower volume\n\nEither way, we now have: session log + feedback",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-panel slide with small log text and explanatory cards; OCR is the appropriate pass for detailed reading.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "In production, a raw log isn't feedback",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 60.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Session log",
+        "x": 4.0,
+        "y": 22.0,
+        "w": 42.0,
+        "h": 44.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "An LLM / code analyzes the log\nAUTOMATIC",
+        "x": 50.0,
+        "y": 22.0,
+        "w": 45.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "A human gives expert feedback\nCRITICAL",
+        "x": 50.0,
+        "y": 49.0,
+        "w": 45.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "Either way, we now have: session log + feedback",
+        "x": 18.0,
+        "y": 80.0,
+        "w": 65.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655857.058012,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "In production, a raw log isn't feedback",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "nproduction,arawlog.isn'tfeedback\n'user: ibook me a flight to Nyc agentycalled tool getf1ights0) agent: searching tiights Session log An LLM/ code analyzes the log A model or eval code reads the trace and writes a critique on what to Scales to avery sesslon? change.: SIVWOIMy\nagent:returned 3 options usere none of these work - wrong date A human gives expert feedback and taste. Domain experts catchwhat models miss: subtle correctness, poticy CRITIGAL:\nLower volomo\nEitherway,we now have: session log+feedback",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 787.32
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "In production, a raw log isn't feedback\n\nSession log\nuser: book me a flight to NYC\nagent: searching flights...\nagent: called tool get_flights()\nagent: returned 3 options\nuser: none of these work - wrong date\n\nAn LLM / code analyzes the log\nA model or eval code reads the trace and writes a critique on what to change.\nScales to every session\n\nA human gives expert feedback\nDomain experts catch what models miss: subtle correctness, policy, and taste.\nLower volume\n\nEither way, we now have: session log + feedback",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide text and corrected obvious OCR errors in the title, box headings, and body text."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The GAP\nIt has no access to why yesterday's runs passed or failed. The eval signal dies in a dashboard.\nThis is the missing layer: a system that consumes traces, absorbs eval outcomes, and converts both into retrievable guidance for future runs.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The GAP",
+        "x": 4.0,
+        "y": 8.0,
+        "w": 28.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "It has no access to why yesterday's runs passed or failed. The eval signal dies in a dashboard.",
+        "x": 18.0,
+        "y": 34.0,
+        "w": 66.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "This is the missing layer: a system that consumes traces, absorbs eval outcomes, and converts both into retrievable guidance for future runs.",
+        "x": 16.0,
+        "y": 63.0,
+        "w": 70.0,
+        "h": 23.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/Jx4ZFEAq6bY/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661429.757158,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The GAP\nIt has no access to why yesterday's runs passed or failed. The eval signal dies in a dashboard.\nThis is the missing layer: a system that consumes traces, absorbs eval outcomes, and converts both into retrievable guidance for future runs.",
+  "advanced_ocr": {}
+}

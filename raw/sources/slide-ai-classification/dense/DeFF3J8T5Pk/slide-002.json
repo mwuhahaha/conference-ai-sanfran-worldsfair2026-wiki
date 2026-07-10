@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "LLM Engine Advisor",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product/UI screenshot with chart, controls, and small configuration text; OCR is better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with white application panel",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "LLM Engine Advisor",
+        "x": 29.0,
+        "y": 2.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "UI screenshot with chart and configuration controls",
+        "x": 18.0,
+        "y": 1.0,
+        "w": 78.0,
+        "h": 72.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 12.0,
+        "w": 11.0,
+        "h": 16.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 69.0,
+        "y": 79.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 87.0,
+        "y": 79.0,
+        "w": 11.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/DeFF3J8T5Pk/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659333.923167,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "LLM Engine Advisor",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

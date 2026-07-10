@@ -1,0 +1,420 @@
+{
+  "video_id": "aqW68Is_Kj4",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 5,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "How the Claude Developer Platform maximizes intelligence\nHarness Claude's capabilities\nManage Claude's context\nGive Claude a computer & let it cook",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large readable title and three large cards; direct visual reading is enough.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with pale beige cards",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How the Claude Developer Platform maximizes intelligence",
+            "x": 26.0,
+            "y": 1.0,
+            "w": 62.0,
+            "h": 16.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Harness Claude's capabilities",
+            "x": 28.0,
+            "y": 28.0,
+            "w": 20.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Manage Claude's context",
+            "x": 50.0,
+            "y": 28.0,
+            "w": 20.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Give Claude a computer & let it cook",
+            "x": 72.0,
+            "y": 28.0,
+            "w": 22.0,
+            "h": 18.0
+          },
+          {
+            "role": "logo",
+            "text": "ANTHROPIC",
+            "x": 26.0,
+            "y": 80.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/aqW68Is_Kj4/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666339.409114,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "How the Claude Developer Platform maximizes intelligence\nHarness Claude's capabilities\nManage Claude's context\nGive Claude a computer & let it cook",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/aqW68Is_Kj4/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "response model=°claude-sonnet-4-5-292S8929 ltent.tessoges.\nThinking Extended max tokens= thtnktng=f:.suoyo)\"lobpnq. enabled\":True,\nmessagcsa\nContent\": *Help re debug why this systen fails under load\" User\nANTHROPIC\nAIE / LEAD EVOLVING CLAUDE APISFOR AGENTS\nGoogle DeepMind PRESENTEDBY KATELYN LESSE/ Engineering Leader ANTHROPIC",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Contains a code screenshot with small text; OCR should handle it better than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white with dark code panel",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Extended Thinking",
+            "x": 27.0,
+            "y": 27.0,
+            "w": 19.0,
+            "h": 16.0
+          },
+          {
+            "role": "code",
+            "text": "response = client.messages.create(",
+            "x": 56.0,
+            "y": 12.0,
+            "w": 41.0,
+            "h": 58.0
+          },
+          {
+            "role": "logo",
+            "text": "ANTHROPIC",
+            "x": 26.0,
+            "y": 80.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/aqW68Is_Kj4/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666339.4100893,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Extended Thinking",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "response model=°claude-sonnet-4-5-292S8929 ltent.tessoges.\nThinking Extended max tokens= thtnktng=f:.suoyo)\"lobpnq. enabled\":True,\nmessagcsa\nContent\": *Help re debug why this systen fails under load\" User\nANTHROPIC\nAIE / LEAD EVOLVING CLAUDE APISFOR AGENTS\nGoogle DeepMind PRESENTEDBY KATELYN LESSE/ Engineering Leader ANTHROPIC",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 515.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "response model=°claude-sonnet-4-5-292S8929 ltent.tessoges.\nThinking Extended max tokens= thtnktng=f:.suoyo)\"lobpnq. enabled\":True,\nmessagcsa\nContent\": *Help re debug why this systen fails under load\" User\nANTHROPIC\nAIE / LEAD EVOLVING CLAUDE APISFOR AGENTS\nGoogle DeepMind PRESENTEDBY KATELYN LESSE/ Engineering Leader ANTHROPIC",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/aqW68Is_Kj4/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Context engineering for agents\nPossible context to give model Contextwindow\nDoc Doo System prompt\nTool Tool Memory file Tool Too! Memory file Doc Doc2 messoge Assistant\ninstructions Comprehensive Tool1 Tool2 Toolcall\nDomain knowledge Usermessoge\nMemory file Doc Metsoge histon\nTool\nMessoge history\nToolresult\nANTHROP\\C\nAIE/ LEAD Brian Fioca OpenAl Samir Mody NLW Superintelligent Stanford YegorDenisov-Blanch University DX Justin Reock I:: T Arman\nGoogle DeepMind PRESENTEDBY stigg Weights & Biases byCoreWeave SENTRY Daytona ^arize Xgoose",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-column diagram text is better suited to OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "pale beige and white with dark footer strip",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Context engineering for agents",
+            "x": 38.0,
+            "y": 0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Possible context to give model",
+            "x": 38.0,
+            "y": 11.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Context window",
+            "x": 62.0,
+            "y": 11.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "System prompt",
+            "x": 62.0,
+            "y": 15.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Memory file",
+            "x": 62.0,
+            "y": 29.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "User message",
+            "x": 62.0,
+            "y": 46.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Message history",
+            "x": 62.0,
+            "y": 58.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Assistant message",
+            "x": 84.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tool call",
+            "x": 84.0,
+            "y": 42.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tool result",
+            "x": 68.0,
+            "y": 72.0,
+            "w": 10.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/aqW68Is_Kj4/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666372.0642757,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Context engineering for agents",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Context engineering for agents\nPossible context to give model Contextwindow\nDoc Doo System prompt\nTool Tool Memory file Tool Too! Memory file Doc Doc2 messoge Assistant\ninstructions Comprehensive Tool1 Tool2 Toolcall\nDomain knowledge Usermessoge\nMemory file Doc Metsoge histon\nTool\nMessoge history\nToolresult\nANTHROP\\C\nAIE/ LEAD Brian Fioca OpenAl Samir Mody NLW Superintelligent Stanford YegorDenisov-Blanch University DX Justin Reock I:: T Arman\nGoogle DeepMind PRESENTEDBY stigg Weights & Biases byCoreWeave SENTRY Daytona ^arize Xgoose",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 846.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Context engineering for agents\nPossible context to give model Contextwindow\nDoc Doo System prompt\nTool Tool Memory file Tool Too! Memory file Doc Doc2 messoge Assistant\ninstructions Comprehensive Tool1 Tool2 Toolcall\nDomain knowledge Usermessoge\nMemory file Doc Metsoge histon\nTool\nMessoge history\nToolresult\nANTHROP\\C\nAIE/ LEAD Brian Fioca OpenAl Samir Mody NLW Superintelligent Stanford YegorDenisov-Blanch University DX Justin Reock I:: T Arman\nGoogle DeepMind PRESENTEDBY stigg Weights & Biases byCoreWeave SENTRY Daytona ^arize Xgoose",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/aqW68Is_Kj4/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "MCP response clentit:arltr:.rn0 node1- ttaude sonne1 4-5 2025e929 0 ncp servers=! max tokens? (ur: +pcD/github-server. (ur! a ocp//sentry scrver. 0 numo 'sentry) name o 'glthub+\nmessages=[0 (oyids 4subien @ 6snt) foidhp s1ul oip Am. 6 du3juo2. role o user'0\nANTHROPIC\nAIE/LEAD eligent Stanford Yegor Denisov-Blanch University DX Justin Reock Tenex Arman Hezarkhani Lei Zhang Bloomberg Gene Kim REYOLUTIC\nGoogle DeepMind Presented eY ne04j autho Workos *sourcegraph stigg::: Weights & Biases by CoreWeiv",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Contains a code screenshot with small text; OCR should extract it more reliably than manual reading.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white with dark code panel",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "MCP",
+            "x": 27.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "code",
+            "text": "response = client.messages.create(",
+            "x": 56.0,
+            "y": 12.0,
+            "w": 41.0,
+            "h": 58.0
+          },
+          {
+            "role": "logo",
+            "text": "ANTHROPIC",
+            "x": 26.0,
+            "y": 80.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/aqW68Is_Kj4/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666444.1177013,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "MCP",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "MCP response clentit:arltr:.rn0 node1- ttaude sonne1 4-5 2025e929 0 ncp servers=! max tokens? (ur: +pcD/github-server. (ur! a ocp//sentry scrver. 0 numo 'sentry) name o 'glthub+\nmessages=[0 (oyids 4subien @ 6snt) foidhp s1ul oip Am. 6 du3juo2. role o user'0\nANTHROPIC\nAIE/LEAD eligent Stanford Yegor Denisov-Blanch University DX Justin Reock Tenex Arman Hezarkhani Lei Zhang Bloomberg Gene Kim REYOLUTIC\nGoogle DeepMind Presented eY ne04j autho Workos *sourcegraph stigg::: Weights & Biases by CoreWeiv",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 750.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "MCP response clentit:arltr:.rn0 node1- ttaude sonne1 4-5 2025e929 0 ncp servers=! max tokens? (ur: +pcD/github-server. (ur! a ocp//sentry scrver. 0 numo 'sentry) name o 'glthub+\nmessages=[0 (oyids 4subien @ 6snt) foidhp s1ul oip Am. 6 du3juo2. role o user'0\nANTHROPIC\nAIE/LEAD eligent Stanford Yegor Denisov-Blanch University DX Justin Reock Tenex Arman Hezarkhani Lei Zhang Bloomberg Gene Kim REYOLUTIC\nGoogle DeepMind Presented eY ne04j autho Workos *sourcegraph stigg::: Weights & Biases by CoreWeiv",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/aqW68Is_Kj4/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Memory response =client.messages.create( max_tokens=4e96, messages=[{ model=\"claude-sonnet-4-5-20250929\"\nprefers circuit breaker pattern logic Ln Paymentcltent.java SAARS \"Paymentservtce uses 3os tus\nANTHROP\\C\nAlEngineer Engineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Contains a code screenshot with small text; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white with black footer band",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Memory",
+            "x": 27.0,
+            "y": 28.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "code",
+            "text": "response = client.messages.create(",
+            "x": 56.0,
+            "y": 12.0,
+            "w": 41.0,
+            "h": 58.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 34.0,
+            "y": 86.0,
+            "w": 42.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/aqW68Is_Kj4/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666500.4628737,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Memory",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Memory response =client.messages.create( max_tokens=4e96, messages=[{ model=\"claude-sonnet-4-5-20250929\"\nprefers circuit breaker pattern logic Ln Paymentcltent.java SAARS \"Paymentservtce uses 3os tus\nANTHROP\\C\nAlEngineer Engineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 325.92
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Memory response =client.messages.create( max_tokens=4e96, messages=[{ model=\"claude-sonnet-4-5-20250929\"\nprefers circuit breaker pattern logic Ln Paymentcltent.java SAARS \"Paymentservtce uses 3os tus\nANTHROP\\C\nAlEngineer Engineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/aqW68Is_Kj4/slide-005.html"
+    }
+  ],
+  "rejected": []
+}

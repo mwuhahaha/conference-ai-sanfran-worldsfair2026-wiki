@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Your context window has a hidden RAM bill",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense slide with chart and small body text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with dark blurred stage edges",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Your context window has a hidden RAM bill",
+        "x": 12.0,
+        "y": 16.0,
+        "w": 53.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 12.0,
+        "y": 30.0,
+        "w": 35.0,
+        "h": 36.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1 GB\n5 GB\n11 GB\n21 GB\n42 GB",
+        "x": 63.0,
+        "y": 31.0,
+        "w": 27.0,
+        "h": 32.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "4k\n16K\n32K\n64K\n128K",
+        "x": 64.0,
+        "y": 64.0,
+        "w": 28.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/I2cbIws9j10/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659907.8003542,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Your context window has a hidden RAM bill",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

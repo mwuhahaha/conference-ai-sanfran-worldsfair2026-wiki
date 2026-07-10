@@ -1,0 +1,682 @@
+{
+  "video_id": "XNtkiQJ49Ps",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 7,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "AGENTS NEED MORE THAN A CHAT\nJACOB LAURITZEN / CTO LEGORA",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with dark left strip and light gray footer",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer / presented by Google DeepMind",
+            "x": 2.0,
+            "y": 70.0,
+            "w": 20.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "Research relevant law and draft a contract between the two parties in these documents. Make no mistakes",
+            "x": 63.0,
+            "y": 3.0,
+            "w": 19.0,
+            "h": 13.0
+          },
+          {
+            "role": "title",
+            "text": "AGENTS NEED MORE THAN A CHAT",
+            "x": 23.0,
+            "y": 74.0,
+            "w": 54.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "JACOB LAURITZEN / CTO LEGORA",
+            "x": 24.0,
+            "y": 88.0,
+            "w": 36.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/XNtkiQJ49Ps/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665137.0823808,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AGENTS NEED MORE THAN A CHAT\nJACOB LAURITZEN / CTO LEGORA",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Legora is a collaborative AI workspace for legal professionals\n1000+ Customers\n$5.5bn+ Valuation\n$100m+ ARR",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with dark left strip and light gray footer",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Legora is a collaborative AI workspace for legal professionals",
+            "x": 25.0,
+            "y": 6.0,
+            "w": 50.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1000+",
+            "x": 25.0,
+            "y": 27.0,
+            "w": 12.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "Customers",
+            "x": 25.0,
+            "y": 63.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "$5.5bn+",
+            "x": 49.0,
+            "y": 27.0,
+            "w": 17.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "Valuation",
+            "x": 49.0,
+            "y": 63.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "$100m+",
+            "x": 75.0,
+            "y": 27.0,
+            "w": 16.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "ARR",
+            "x": 75.0,
+            "y": 63.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer / presented by Google DeepMind",
+            "x": 2.0,
+            "y": 70.0,
+            "w": 20.0,
+            "h": 24.0
+          },
+          {
+            "role": "subtitle",
+            "text": "JACOB LAURITZEN / CTO LEGORA",
+            "x": 24.0,
+            "y": 88.0,
+            "w": 36.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/XNtkiQJ49Ps/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665137.0871458,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Legora is a collaborative AI workspace for legal professionals\n1000+ Customers\n$5.5bn+ Valuation\n$100m+ ARR",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Planning work\nDoing work\nReviewing work",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with dark left strip and light gray footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Planning work",
+            "x": 33.0,
+            "y": 35.0,
+            "w": 17.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Doing work",
+            "x": 58.0,
+            "y": 35.0,
+            "w": 12.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "Reviewing work",
+            "x": 79.0,
+            "y": 35.0,
+            "w": 17.0,
+            "h": 11.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer / presented by Google DeepMind",
+            "x": 2.0,
+            "y": 70.0,
+            "w": 20.0,
+            "h": 24.0
+          },
+          {
+            "role": "subtitle",
+            "text": "JACOB LAURITZEN / CTO LEGORA",
+            "x": 24.0,
+            "y": 88.0,
+            "w": 36.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/XNtkiQJ49Ps/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665137.0881648,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Planning work\nDoing work\nReviewing work",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Involving humans where it matters\nControl\nHow effectively a human can steer the work\nTrust\nHow little a human reviews the work",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with dark footer bar",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Involving humans where it matters",
+            "x": 24.0,
+            "y": 6.0,
+            "w": 28.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Control",
+            "x": 24.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "How effectively a human can steer the work",
+            "x": 24.0,
+            "y": 34.0,
+            "w": 38.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Trust",
+            "x": 24.0,
+            "y": 44.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "How little a human reviews the work",
+            "x": 24.0,
+            "y": 50.0,
+            "w": 35.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Zone of Control",
+            "x": 73.0,
+            "y": 25.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Zone of Trust",
+            "x": 73.0,
+            "y": 43.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Verifying",
+            "x": 68.0,
+            "y": 21.0,
+            "w": 5.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Solving",
+            "x": 74.0,
+            "y": 76.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Easy",
+            "x": 69.0,
+            "y": 80.0,
+            "w": 4.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Hard",
+            "x": 89.0,
+            "y": 80.0,
+            "w": 4.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Engineering the future of AI",
+            "x": 35.0,
+            "y": 81.0,
+            "w": 42.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/XNtkiQJ49Ps/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665137.092141,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Involving humans where it matters\nControl\nHow effectively a human can steer the work\nTrust\nHow little a human reviews the work",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Involving humans where it matters\nControl\nHow effectively a human can steer the work\nTrust\nHow little a human reviews the work",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with dark footer bar",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Involving humans where it matters",
+            "x": 24.0,
+            "y": 6.0,
+            "w": 28.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Control",
+            "x": 24.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "How effectively a human can steer the work",
+            "x": 24.0,
+            "y": 34.0,
+            "w": 38.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Trust",
+            "x": 24.0,
+            "y": 44.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "How little a human reviews the work",
+            "x": 24.0,
+            "y": 50.0,
+            "w": 35.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Zone of Control",
+            "x": 73.0,
+            "y": 25.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Zone of Trust",
+            "x": 73.0,
+            "y": 43.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Verifying",
+            "x": 68.0,
+            "y": 21.0,
+            "w": 5.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Solving",
+            "x": 74.0,
+            "y": 76.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Easy",
+            "x": 69.0,
+            "y": 80.0,
+            "w": 4.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Hard",
+            "x": 89.0,
+            "y": 80.0,
+            "w": 4.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Engineering the future of AI",
+            "x": 35.0,
+            "y": 81.0,
+            "w": 42.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/XNtkiQJ49Ps/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665137.0972693,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Involving humans where it matters\nControl\nHow effectively a human can steer the work\nTrust\nHow little a human reviews the work",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Guardrails\nVery constrained No constraints\nPornissions. Allow AskQeny Workspaco\nCreatelfilo Claude Code won t ask before using allo.ed tools.\nHelto, Worldt 121),41\n0o you want to create hello world.txt? Yes. allo all edits during this session Yes 0 Bash( /tnp/tean onnership report txt-d) Bash(cat) ebeh( /tools/scripts/trc/locah dev s 0) Bash(bash-c) Bash(chaod:o) Bssh(dato:+) -dangerously:skip:permissions\nLow trust High trust",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense small UI/code-style screenshots and axis labels are better handled by OCR than manual transcription in this triage pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "warm off-white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Guardrails",
+            "x": 2.0,
+            "y": 6.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Very constrained",
+            "x": 1.0,
+            "y": 20.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "No constraints",
+            "x": 90.0,
+            "y": 20.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Low trust",
+            "x": 1.0,
+            "y": 90.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "High trust",
+            "x": 89.0,
+            "y": 90.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/XNtkiQJ49Ps/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665137.0979862,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Guardrails",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Guardrails\nVery constrained No constraints\nPornissions. Allow AskQeny Workspaco\nCreatelfilo Claude Code won t ask before using allo.ed tools.\nHelto, Worldt 121),41\n0o you want to create hello world.txt? Yes. allo all edits during this session Yes 0 Bash( /tnp/tean onnership report txt-d) Bash(cat) ebeh( /tools/scripts/trc/locah dev s 0) Bash(bash-c) Bash(chaod:o) Bssh(dato:+) -dangerously:skip:permissions\nLow trust High trust",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 687.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Guardrails\nVery constrained No constraints\nPornissions. Allow AskQeny Workspaco\nCreatelfilo Claude Code won t ask before using allo.ed tools.\nHelto, Worldt 121),41\n0o you want to create hello world.txt? Yes. allo all edits during this session Yes 0 Bash( /tnp/tean onnership report txt-d) Bash(cat) ebeh( /tools/scripts/trc/locah dev s 0) Bash(bash-c) Bash(chaod:o) Bssh(dato:+) -dangerously:skip:permissions\nLow trust High trust",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Default chat erobyymgrlcor!.x!9 W/enntn\nPr.R*\nUnits of work\nNo Unrusted\nTrustod\nHuman Juxgement\nAl Engineer AGENTS NEED MORE THAN A CHAT\nEUROPE\nGoogle DeepMind Presented 6y # Braintrust Workos OpenAl",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram labels, small legend text, and footer branding are better suited to OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with light gray footer band and a dark stage strip at far left",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Default chat",
+            "x": 23.0,
+            "y": 5.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Units of work",
+            "x": 23.0,
+            "y": 43.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Write report on employment contracts",
+            "x": 74.0,
+            "y": 6.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Review",
+            "x": 91.0,
+            "y": 7.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "AGENTS NEED MORE THAN A CHAT",
+            "x": 23.0,
+            "y": 74.0,
+            "w": 45.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "Braintrust WorkOS OpenAI",
+            "x": 23.0,
+            "y": 85.0,
+            "w": 42.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/XNtkiQJ49Ps/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665251.8507442,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Default chat",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Default chat erobyymgrlcor!.x!9 W/enntn\nPr.R*\nUnits of work\nNo Unrusted\nTrustod\nHuman Juxgement\nAl Engineer AGENTS NEED MORE THAN A CHAT\nEUROPE\nGoogle DeepMind Presented 6y # Braintrust Workos OpenAl",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 344.32
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Default chat erobyymgrlcor!.x!9 W/enntn\nPr.R*\nUnits of work\nNo Unrusted\nTrustod\nHuman Juxgement\nAl Engineer AGENTS NEED MORE THAN A CHAT\nEUROPE\nGoogle DeepMind Presented 6y # Braintrust Workos OpenAl",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-007.html"
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "WHY A MODEL CAN'T DO IT\nAsk it what to build.\nYou get a faster horse.\nwhat already exists\nthe average\na faster horse",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "teal gradient background with dark navy rounded panel",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "label",
+        "text": "WHY A MODEL CAN'T DO IT",
+        "x": 8.0,
+        "y": 39.0,
+        "w": 28.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Ask it what to build.\nYou get a faster horse.",
+        "x": 8.0,
+        "y": 46.0,
+        "w": 45.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "what already exists",
+        "x": 8.0,
+        "y": 61.0,
+        "w": 17.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "the average",
+        "x": 27.0,
+        "y": 61.0,
+        "w": 11.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "a faster horse",
+        "x": 41.0,
+        "y": 61.0,
+        "w": 14.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/6bmM45jkMDY/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657789.4950752,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "WHY A MODEL CAN'T DO IT\nAsk it what to build.\nYou get a faster horse.\nwhat already exists\nthe average\na faster horse",
+  "advanced_ocr": {}
+}

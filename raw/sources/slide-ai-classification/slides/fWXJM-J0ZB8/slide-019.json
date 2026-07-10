@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arize Phoenix\nTrace the Exponential\nThe open-source platform for agent development and evaluation",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with faint grid",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Arize Phoenix",
+        "x": 11.0,
+        "y": 29.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "Trace the Exponential",
+        "x": 11.0,
+        "y": 37.0,
+        "w": 28.0,
+        "h": 20.0
+      },
+      {
+        "role": "subtitle",
+        "text": "The open-source platform for agent development and evaluation",
+        "x": 11.0,
+        "y": 59.0,
+        "w": 38.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Get started\nSelf-Host",
+        "x": 11.0,
+        "y": 70.0,
+        "w": 25.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram",
+        "text": "AI\nVercel\nEvaluation\nGemini\nIteration",
+        "x": 52.0,
+        "y": 15.0,
+        "w": 39.0,
+        "h": 72.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668146.270828,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Arize Phoenix\nTrace the Exponential\nThe open-source platform for agent development and evaluation",
+  "advanced_ocr": {}
+}

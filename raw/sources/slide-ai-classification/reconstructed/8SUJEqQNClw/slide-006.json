@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Sometimes That Guy works for a FAANG type company in a public facing role Then the rest of us are really in for it",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple large-text slide",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#11110e",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Sometimes That Guy works for a FAANG type company in a public facing role",
+        "x": 25.0,
+        "y": 18.0,
+        "w": 43.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "Then the rest of us are really in for it",
+        "x": 25.0,
+        "y": 46.0,
+        "w": 42.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-006.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657974.0116193,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Sometimes That Guy works for a FAANG type company in a public facing role Then the rest of us are really in for it",
+  "advanced_ocr": {}
+}

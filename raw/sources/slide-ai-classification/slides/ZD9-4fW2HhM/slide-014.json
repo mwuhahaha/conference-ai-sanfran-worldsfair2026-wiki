@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "agent memory\nI'd tour this one. \"Great place - score:4 listing_id:A12345 the contract\ncommute_min: 12\ndecision: shortlist\nX a dead end for the system reason: great layout needs human: no\nIask Relocation Scout: notes: charming, near the park..\n\"rated 4+, commute ≤ 15 min\"\nVit can actually answer",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small code-like fields and multiple labeled boxes are better handled by OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f7f3ea",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "Great place - I'd tour this one.",
+        "x": 3.0,
+        "y": 18.0,
+        "w": 43.0,
+        "h": 30.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "I ask Relocation Scout:\n\"rated 4+, commute <= 15 min\"",
+        "x": 4.0,
+        "y": 55.0,
+        "w": 45.0,
+        "h": 16.0
+      },
+      {
+        "role": "title",
+        "text": "agent memory",
+        "x": 56.0,
+        "y": 14.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "listing_id: A12345\nscore: 4\ncommute_min: 12\ndecision: shortlist\nreason: great layout\nneeds_human: no",
+        "x": 57.0,
+        "y": 20.0,
+        "w": 36.0,
+        "h": 35.0
+      },
+      {
+        "role": "caption",
+        "text": "notes: charming, near the park...",
+        "x": 58.0,
+        "y": 61.0,
+        "w": 31.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/ZD9-4fW2HhM/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665802.6079144,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "agent memory\nI'd tour this one. \"Great place - score:4 listing_id:A12345 the contract\ncommute_min: 12\ndecision: shortlist\nX a dead end for the system reason: great layout needs human: no\nIask Relocation Scout: notes: charming, near the park..\n\"rated 4+, commute ≤ 15 min\"\nVit can actually answer",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 526.8
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "agent memory\nI'd tour this one. \"Great place - score:4 listing_id:A12345 the contract\ncommute_min: 12\ndecision: shortlist\nX a dead end for the system reason: great layout needs human: no\nIask Relocation Scout: notes: charming, near the park..\n\"rated 4+, commute ≤ 15 min\"\nVit can actually answer",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

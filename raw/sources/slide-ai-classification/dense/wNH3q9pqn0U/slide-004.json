@@ -1,0 +1,71 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The AI Co-Scientist",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with charts, assistant panel, and multiple small labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "LabMind",
+        "x": 44.0,
+        "y": 2.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Research Assistant",
+        "x": 80.0,
+        "y": 15.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "Real Time Sensor Trends",
+        "x": 49.0,
+        "y": 36.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "The AI Co-Scientist",
+        "x": 31.0,
+        "y": 92.0,
+        "w": 33.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672396.4590247,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The AI Co-Scientist",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/border-trim/contrast",
+    "best_score": 102.2,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

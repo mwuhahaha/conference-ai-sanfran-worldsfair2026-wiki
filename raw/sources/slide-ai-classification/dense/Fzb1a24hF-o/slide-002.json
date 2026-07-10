@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Installation",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small documentation text and code blocks are better suited for OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white docs page with dark top nav",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Installation",
+        "x": 34.0,
+        "y": 7.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Prerequisites",
+        "x": 34.0,
+        "y": 17.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Release type Stable release",
+        "x": 34.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "macOS Linux Windows",
+        "x": 34.0,
+        "y": 46.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "brew install dagger/tap/dagger",
+        "x": 34.0,
+        "y": 53.0,
+        "w": 46.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/Fzb1a24hF-o/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659152.1228104,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Installation",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

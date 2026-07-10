@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.9,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "Fetchapptite frombackend there,only overriding it at runtime. Polygraph-Deno-Snapshot/poLy-backend-93df5cb0 03 HOWWE SOLVEIT congleted\n*Claude resuming /Loop wakeup （Jun 18 8:49an) Cooked for3m8s The scheduled wakeup fired,but this work is already complete-the proceed with implementation （backend via a child agent,frontend here),or adjust anything first? backend investigation cane back and I delivered the full cross-repo plan in my previous message. Nothing more to do here. This is plan-only-nothing has been implenented.Want me to cescribe（Products Routes,O prodoctsService:getAll:v1.fn).mocketoravotoe（t/* tet agp:FastifvInstance: beforeEach（asyno ()o 1): it（'shoutereturnall products'.async（）（ ait app.ready(): oppFastify(): aait app.register（productsRoutes); const response owait app.inject( method: expect（response.statusCode).toBe(200): expect（Array-isArray(Jsog.parse(response.body))).toBe(troe): /1）.getbyId:vt.fn（/* /\nTo recap where things stand:the plan is written (backend GET fetching it at the app root with a“PolyShopping\"fallback and threading it to Navbar/Footer/document.title).It'splan-only-no code changed. /api/app-inforeturning{“title\":\"PolyShopping\"},frontend 1.Createsrc/opp-info/（or sieilar)withroutes.ts Toa6GT/pi/.. your plan endpoint returning the frontend's title,airror the productsdoeain service.ts.repository.ts\n*Crunched for 5s )implement the plan and push the PRs I'm waiting on your go-ahead to implement (or any edits to the plan).I won't reschedule another check. poly-frontend-93df5cb8 git:(fetch-app-title-from-backend-c9be auto mode on （shift+tab to cycle）·gh auth login 5.Add colocated.speo.tstest the frontend'sexpected shape. 2.Store thtitte as a constont in the repository layer (optionally env-overridable a1a Pickroute path-existing c 7.Keep theProdoct'frontend co prefers the layered split +singletons). 4.Decice **response foraat**:JsoN\"title: steing,but tbe codebase is JsoN Jsow-only endpoints;ptain text open decision for you:*plain t.91372/100 poly-frontend（src/Lib/data-ac nain.ts'). app.spec.ts. Is sost consistent with the existing\n-Previou",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense terminal/code screenshot with multiple columns and small text is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 60.0,
+        "h": 94.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 63.0,
+        "y": 4.0,
+        "w": 35.0,
+        "h": 90.0
+      },
+      {
+        "role": "caption",
+        "text": "",
+        "x": 67.0,
+        "y": 71.0,
+        "w": 29.0,
+        "h": 27.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669718.746581,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Fetchapptite frombackend there,only overriding it at runtime. Polygraph-Deno-Snapshot/poLy-backend-93df5cb0 03 HOWWE SOLVEIT congleted\n*Claude resuming /Loop wakeup （Jun 18 8:49an) Cooked for3m8s The scheduled wakeup fired,but this work is already complete-the proceed with implementation （backend via a child agent,frontend here),or adjust anything first? backend investigation cane back and I delivered the full cross-repo plan in my previous message. Nothing more to do here. This is plan-only-nothing has been implenented.Want me to cescribe（Products Routes,O prodoctsService:getAll:v1.fn).mocketoravotoe（t/* tet agp:FastifvInstance: beforeEach（asyno ()o 1): it（'shoutereturnall products'.async（）（ ait app.ready(): oppFastify(): aait app.register（productsRoutes); const response owait app.inject( method: expect（response.statusCode).toBe(200): expect（Array-isArray(Jsog.parse(response.body))).toBe(troe): /1）.getbyId:vt.fn（/* /\nTo recap where things stand:the plan is written (backend GET fetching it at the app root with a“PolyShopping\"fallback and threading it to Navbar/Footer/document.title).It'splan-only-no code changed. /api/app-inforeturning{“title\":\"PolyShopping\"},frontend 1.Createsrc/opp-info/（or sieilar)withroutes.ts Toa6GT/pi/.. your plan endpoint returning the frontend's title,airror the productsdoeain service.ts.repository.ts\n*Crunched for 5s )implement the plan and push the PRs I'm waiting on your go-ahead to implement (or any edits to the plan).I won't reschedule another check. poly-frontend-93df5cb8 git:(fetch-app-title-from-backend-c9be auto mode on （shift+tab to cycle）·gh auth login 5.Add colocated.speo.tstest the frontend'sexpected shape. 2.Store thtitte as a constont in the repository layer (optionally env-overridable a1a Pickroute path-existing c 7.Keep theProdoct'frontend co prefers the layered split +singletons). 4.Decice **response foraat**:JsoN\"title: steing,but tbe codebase is JsoN Jsow-only endpoints;ptain text open decision for you:*plain t.91372/100 poly-frontend（src/Lib/data-ac nain.ts'). app.spec.ts. Is sost consistent with the existing\n-Previou",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2393.0
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Fetchapptite frombackend there,only overriding it at runtime. Polygraph-Deno-Snapshot/poLy-backend-93df5cb0 03 HOWWE SOLVEIT congleted\n*Claude resuming /Loop wakeup （Jun 18 8:49an) Cooked for3m8s The scheduled wakeup fired,but this work is already complete-the proceed with implementation （backend via a child agent,frontend here),or adjust anything first? backend investigation cane back and I delivered the full cross-repo plan in my previous message. Nothing more to do here. This is plan-only-nothing has been implenented.Want me to cescribe（Products Routes,O prodoctsService:getAll:v1.fn).mocketoravotoe（t/* tet agp:FastifvInstance: beforeEach（asyno ()o 1): it（'shoutereturnall products'.async（）（ ait app.ready(): oppFastify(): aait app.register（productsRoutes); const response owait app.inject( method: expect（response.statusCode).toBe(200): expect（Array-isArray(Jsog.parse(response.body))).toBe(troe): /1）.getbyId:vt.fn（/* /\nTo recap where things stand:the plan is written (backend GET fetching it at the app root with a“PolyShopping\"fallback and threading it to Navbar/Footer/document.title).It'splan-only-no code changed. /api/app-inforeturning{“title\":\"PolyShopping\"},frontend 1.Createsrc/opp-info/（or sieilar)withroutes.ts Toa6GT/pi/.. your plan endpoint returning the frontend's title,airror the productsdoeain service.ts.repository.ts\n*Crunched for 5s )implement the plan and push the PRs I'm waiting on your go-ahead to implement (or any edits to the plan).I won't reschedule another check. poly-frontend-93df5cb8 git:(fetch-app-title-from-backend-c9be auto mode on （shift+tab to cycle）·gh auth login 5.Add colocated.speo.tstest the frontend'sexpected shape. 2.Store thtitte as a constont in the repository layer (optionally env-overridable a1a Pickroute path-existing c 7.Keep theProdoct'frontend co prefers the layered split +singletons). 4.Decice **response foraat**:JsoN\"title: steing,but tbe codebase is JsoN Jsow-only endpoints;ptain text open decision for you:*plain t.91372/100 poly-frontend（src/Lib/data-ac nain.ts'). app.spec.ts. Is sost consistent with the existing\n-Previou",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

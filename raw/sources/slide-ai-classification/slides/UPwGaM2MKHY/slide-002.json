@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What is your character?\ngame engine\nplaystation\ncontroller",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable slide; OCR not needed",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with blue abstract edge gradient",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What is your character?",
+        "x": 14.0,
+        "y": 11.0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "game engine",
+        "x": 69.0,
+        "y": 33.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "playstation",
+        "x": 69.0,
+        "y": 42.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "controller",
+        "x": 69.0,
+        "y": 51.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/UPwGaM2MKHY/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664773.8719277,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What is your character?\ngame engine\nplaystation\ncontroller",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Engineering the future of AI",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense embedded screenshot text is better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with white screenshot and rainbow corner glow",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Lovable Main Agent [venting...]",
+        "x": 29.0,
+        "y": 14.0,
+        "w": 63.0,
+        "h": 36.0
+      },
+      {
+        "role": "title",
+        "text": "Engineering the future of AI",
+        "x": 39.0,
+        "y": 80.0,
+        "w": 42.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/KA5kPbdkK2E/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660249.5833595,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 1064.96,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

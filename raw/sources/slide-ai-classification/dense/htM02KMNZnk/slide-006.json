@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "It's throughput — how many cycles fit the same window.\n7 cycles\n143 cycles",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "The slide is simple and legible enough for direct reading; OCR is not necessary in triage.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#fbfaf7",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "It's throughput — how many cycles fit the same window.",
+        "x": 10.0,
+        "y": 8.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Each square is one development cycle. Run the loop by hand and the grid stays nearly empty; run it agentically and the same window fills in — and every cycle can make the agent better.",
+        "x": 10.0,
+        "y": 15.0,
+        "w": 62.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "7 cycles",
+        "x": 79.0,
+        "y": 32.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "143 cycles",
+        "x": 79.0,
+        "y": 56.0,
+        "w": 12.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668743.6926894,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "It's throughput — how many cycles fit the same window.\n7 cycles\n143 cycles",
+  "advanced_ocr": {}
+}

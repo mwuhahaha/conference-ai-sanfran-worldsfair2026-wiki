@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Open-source",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product/UI screenshot with small embedded text and dense interface elements.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#a8d87a",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Open-source",
+        "x": 36.0,
+        "y": 2.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "DeepSeek-V3.1-Terminus",
+        "x": 13.0,
+        "y": 11.0,
+        "w": 55.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "License: mit",
+        "x": 67.0,
+        "y": 12.0,
+        "w": 25.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661666.5896854,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Open-source",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 691.48,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

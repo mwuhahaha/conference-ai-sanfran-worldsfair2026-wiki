@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "RAG on database",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with small labels and controls; OCR is the cheapest reliable pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white app canvas on dark desktop",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "RAG on database",
+        "x": 22.0,
+        "y": 0,
+        "w": 34.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "OpenAI + PostgreSQL",
+        "x": 76.0,
+        "y": 1.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Best shoe for hiking?",
+        "x": 78.0,
+        "y": 11.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Generating answer",
+        "x": 38.0,
+        "y": 24.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Type a new question ...",
+        "x": 40.0,
+        "y": 72.0,
+        "w": 28.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/JhJKgRAmfIU/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659853.3729224,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "RAG on database",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

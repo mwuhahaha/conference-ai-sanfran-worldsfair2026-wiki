@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Paradigm Shift: Using AI to Defend Against AI\nAI is being misused. It's helping fraudsters to trick, steal, and spread lies faster than ever before.\nBut the same AI can be our greatest defense.\nWe can use it to spot fraud, stop attacks, and protect people.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with blue icons and green side bands",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Paradigm Shift: Using AI to Defend Against AI",
+        "x": 11.0,
+        "y": 6.0,
+        "w": 77.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "AI is being misused. It's helping fraudsters to trick, steal, and spread lies faster than ever before.",
+        "x": 11.0,
+        "y": 48.0,
+        "w": 22.0,
+        "h": 25.0
+      },
+      {
+        "role": "body",
+        "text": "But the same AI can be our greatest defense.",
+        "x": 38.0,
+        "y": 48.0,
+        "w": 22.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "We can use it to spot fraud, stop attacks, and protect people.",
+        "x": 67.0,
+        "y": 48.0,
+        "w": 24.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658489.766954,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Paradigm Shift: Using AI to Defend Against AI\nAI is being misused. It's helping fraudsters to trick, steal, and spread lies faster than ever before.\nBut the same AI can be our greatest defense.\nWe can use it to spot fraud, stop attacks, and protect people.",
+  "advanced_ocr": {}
+}

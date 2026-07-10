@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Robustness and Ablation\nWhat produced reliability?\n1.RL:success matched the\ndeterministic pol 100± 30 synthetic seeds; mean ± 95% Cl\n2.Deterministic rules beat random percentage-point'difference -15.03 ± 0.66 pp\nselection by.15:63 ±'1.86 points Safety override\n3.The safety override reduced vs none +0.00 ±:0.19 pp\n4.RL provided an inspectable learned policy; butdid not points non-escalation by.15:03:± 0.66 Rules vs random RL vs rules +15.63 ± 1.86 pp\noutperform.rules in this -15 -10 -5 0 5 10 15\nicnmg Difference (percentage points)\n5.Structured decision'logic and\nexternal guardrails produced\nnost of the reliability",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small quantitative plot labels and dense bullet text are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray speckled paper texture",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Robustness and Ablation",
+        "x": 26.0,
+        "y": 4.0,
+        "w": 48.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What produced reliability?",
+        "x": 3.0,
+        "y": 16.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "1. RL success matched the deterministic policy: 0.00 ± 0.19 percentage-point difference\n2. Deterministic rules beat random selection by 15.63 ± 1.86 points\n3. The safety override reduced non-escalation by 15.03 ± 0.66 points\n4. RL provided an inspectable learned policy, but did not outperform rules in this benchmark\n5. Structured decision logic and external guardrails produced most of the reliability",
+        "x": 3.0,
+        "y": 24.0,
+        "w": 42.0,
+        "h": 49.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "30 synthetic seeds; mean ± 95% CI",
+        "x": 55.0,
+        "y": 19.0,
+        "w": 31.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Safety override vs none",
+        "x": 41.0,
+        "y": 45.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "RL vs rules",
+        "x": 41.0,
+        "y": 56.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Rules vs random",
+        "x": 41.0,
+        "y": 67.0,
+        "w": 13.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661421.8768516,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Robustness and Ablation",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Robustness and Ablation\nWhat produced reliability?\n1.RL:success matched the\ndeterministic pol 100± 30 synthetic seeds; mean ± 95% Cl\n2.Deterministic rules beat random percentage-point'difference -15.03 ± 0.66 pp\nselection by.15:63 ±'1.86 points Safety override\n3.The safety override reduced vs none +0.00 ±:0.19 pp\n4.RL provided an inspectable learned policy; butdid not points non-escalation by.15:03:± 0.66 Rules vs random RL vs rules +15.63 ± 1.86 pp\noutperform.rules in this -15 -10 -5 0 5 10 15\nicnmg Difference (percentage points)\n5.Structured decision'logic and\nexternal guardrails produced\nnost of the reliability",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 688.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Robustness and Ablation\nWhat produced reliability?\n1.RL:success matched the\ndeterministic pol 100± 30 synthetic seeds; mean ± 95% Cl\n2.Deterministic rules beat random percentage-point'difference -15.03 ± 0.66 pp\nselection by.15:63 ±'1.86 points Safety override\n3.The safety override reduced vs none +0.00 ±:0.19 pp\n4.RL provided an inspectable learned policy; butdid not points non-escalation by.15:03:± 0.66 Rules vs random RL vs rules +15.63 ± 1.86 pp\noutperform.rules in this -15 -10 -5 0 5 10 15\nicnmg Difference (percentage points)\n5.Structured decision'logic and\nexternal guardrails produced\nnost of the reliability",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Failure 2 panes too small",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense multi-pane terminal/grid layout with small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#050505",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Failure 2 panes too small",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 36.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "multi-pane terminal grid",
+        "x": 9.0,
+        "y": 12.0,
+        "w": 82.0,
+        "h": 72.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/4kYl2_mqmnQ/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658205.021753,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Failure 2 panes too small",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

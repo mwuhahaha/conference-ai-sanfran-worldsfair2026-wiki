@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Today's open weights frontier is led by China-based Al labs, namely DeepSeek and Alibaba\nReasoning: Open Weights Language Models, by Country Non-reasoning: Open Weights Language Models, by Country\nArtificial Analysis lntelligence Index, leading open welghts reasoning models USA Chlna A Artificial Analysis USA Chlna E France canada A Artificial Analysis\n68\n62 61 60 59\n52 51 60 48 R 53 51 47 46 40 40 40 38 M 38\n34\nDerpSak Gwn3 Llu 3.1 DoipSt Qun32B DoopSert Llmh 33 Phl A1(Mry 235e A228 Nemolron 2024)(Raeonr0 U+ 25B Un4y Reasening '202s$ 1(lssonrg R1DhtllNemoton (resnonirg Qum ire Super 4Be Rertoning Hrto 7B PL. CttpSotk. Lm 708 A1 Dtpta Floth1 Feks V(Hr' 2S] Haverck 21S8 A228 DetaSottLemad Qm3. CUHt8Lma3uCemmnd imtruct 708 1.Tet.01278tnstruc HinMat.Gemma 3 (r2. A0H) Lonto 2 MatM\nSource: Artiricidt Annlysis Intellgerce Index A Artlflclal Analysis",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Two dense bar charts with many small labels; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Today's open weights frontier is led by China-based AI labs, namely DeepSeek and Alibaba",
+        "x": 3.0,
+        "y": 0,
+        "w": 94.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "Reasoning: Open Weights Language Models, by Country",
+        "x": 4.0,
+        "y": 15.0,
+        "w": 42.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Non-reasoning: Open Weights Language Models, by Country",
+        "x": 58.0,
+        "y": 15.0,
+        "w": 41.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "USA\nChina",
+        "x": 4.0,
+        "y": 21.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "USA\nCanada\nChina\nFrance",
+        "x": 58.0,
+        "y": 21.0,
+        "w": 18.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/sRpqPgKeXNk/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671900.637438,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Today's open weights frontier is led by China-based Al labs, namely DeepSeek and Alibaba\nReasoning: Open Weights Language Models, by Country Non-reasoning: Open Weights Language Models, by Country\nArtificial Analysis lntelligence Index, leading open welghts reasoning models USA Chlna A Artificial Analysis USA Chlna E France canada A Artificial Analysis\n68\n62 61 60 59\n52 51 60 48 R 53 51 47 46 40 40 40 38 M 38\n34\nDerpSak Gwn3 Llu 3.1 DoipSt Qun32B DoopSert Llmh 33 Phl A1(Mry 235e A228 Nemolron 2024)(Raeonr0 U+ 25B Un4y Reasening '202s$ 1(lssonrg R1DhtllNemoton (resnonirg Qum ire Super 4Be Rertoning Hrto 7B PL. CttpSotk. Lm 708 A1 Dtpta Floth1 Feks V(Hr' 2S] Haverck 21S8 A228 DetaSottLemad Qm3. CUHt8Lma3uCemmnd imtruct 708 1.Tet.01278tnstruc HinMat.Gemma 3 (r2. A0H) Lonto 2 MatM\nSource: Artiricidt Annlysis Intellgerce Index A Artlflclal Analysis",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1019.4
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Today's open weights frontier is led by China-based Al labs, namely DeepSeek and Alibaba\nReasoning: Open Weights Language Models, by Country Non-reasoning: Open Weights Language Models, by Country\nArtificial Analysis lntelligence Index, leading open welghts reasoning models USA Chlna A Artificial Analysis USA Chlna E France canada A Artificial Analysis\n68\n62 61 60 59\n52 51 60 48 R 53 51 47 46 40 40 40 38 M 38\n34\nDerpSak Gwn3 Llu 3.1 DoipSt Qun32B DoopSert Llmh 33 Phl A1(Mry 235e A228 Nemolron 2024)(Raeonr0 U+ 25B Un4y Reasening '202s$ 1(lssonrg R1DhtllNemoton (resnonirg Qum ire Super 4Be Rertoning Hrto 7B PL. CttpSotk. Lm 708 A1 Dtpta Floth1 Feks V(Hr' 2S] Haverck 21S8 A228 DetaSottLemad Qm3. CUHt8Lma3uCemmnd imtruct 708 1.Tet.01278tnstruc HinMat.Gemma 3 (r2. A0H) Lonto 2 MatM\nSource: Artiricidt Annlysis Intellgerce Index A Artlflclal Analysis",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

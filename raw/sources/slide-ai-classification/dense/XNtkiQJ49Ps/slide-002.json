@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Legora is a collaborative AI workspace for legal professionals\n1000+ Customers\n$5.5bn+ Valuation\n$100m+ ARR",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with dark left strip and light gray footer",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Legora is a collaborative AI workspace for legal professionals",
+        "x": 25.0,
+        "y": 6.0,
+        "w": 50.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1000+",
+        "x": 25.0,
+        "y": 27.0,
+        "w": 12.0,
+        "h": 14.0
+      },
+      {
+        "role": "caption",
+        "text": "Customers",
+        "x": 25.0,
+        "y": 63.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "$5.5bn+",
+        "x": 49.0,
+        "y": 27.0,
+        "w": 17.0,
+        "h": 14.0
+      },
+      {
+        "role": "caption",
+        "text": "Valuation",
+        "x": 49.0,
+        "y": 63.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "$100m+",
+        "x": 75.0,
+        "y": 27.0,
+        "w": 16.0,
+        "h": 14.0
+      },
+      {
+        "role": "caption",
+        "text": "ARR",
+        "x": 75.0,
+        "y": 63.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer / presented by Google DeepMind",
+        "x": 2.0,
+        "y": 70.0,
+        "w": 20.0,
+        "h": 24.0
+      },
+      {
+        "role": "subtitle",
+        "text": "JACOB LAURITZEN / CTO LEGORA",
+        "x": 24.0,
+        "y": 88.0,
+        "w": 36.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/XNtkiQJ49Ps/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665137.0871458,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Legora is a collaborative AI workspace for legal professionals\n1000+ Customers\n$5.5bn+ Valuation\n$100m+ ARR",
+  "advanced_ocr": {}
+}

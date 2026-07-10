@@ -1,0 +1,172 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arrakis: Updated Architecture",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Diagram slide with many labels; OCR is not the cheapest path compared with simple visual reading of the title and labels.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis: Updated Architecture",
+        "x": 5.0,
+        "y": 3.0,
+        "w": 44.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Arrakis Networking",
+        "x": 38.0,
+        "y": 11.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Linux Server",
+        "x": 43.0,
+        "y": 16.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis Restserver",
+        "x": 41.0,
+        "y": 23.0,
+        "w": 19.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "VNC Client",
+        "x": 5.0,
+        "y": 42.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "VNC Client",
+        "x": 85.0,
+        "y": 42.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis MicroVM Sandbox",
+        "x": 29.0,
+        "y": 48.0,
+        "w": 21.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis MicroVM Sandbox",
+        "x": 53.0,
+        "y": 48.0,
+        "w": 21.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "VNC Server",
+        "x": 32.0,
+        "y": 39.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Code Server",
+        "x": 42.0,
+        "y": 39.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Code Server",
+        "x": 55.0,
+        "y": 39.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "VNC Server",
+        "x": 64.0,
+        "y": 39.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Auto Port Forwarding",
+        "x": 20.0,
+        "y": 49.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Auto Port Forwarding",
+        "x": 72.0,
+        "y": 49.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Userspace",
+        "x": 21.0,
+        "y": 77.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Kernel",
+        "x": 23.0,
+        "y": 85.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "/dev/kvm",
+        "x": 39.0,
+        "y": 84.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "/dev/kvm",
+        "x": 63.0,
+        "y": 84.0,
+        "w": 8.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-034.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-034.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673733.469322,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Arrakis: Updated Architecture",
+  "advanced_ocr": {}
+}

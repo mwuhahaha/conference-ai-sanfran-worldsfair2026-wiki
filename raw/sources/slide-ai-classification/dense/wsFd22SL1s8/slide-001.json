@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Background\nCarnegie Mellon\nOperating Systems x Distributed Systems.-.\n8 Microsoft\nWindows Subsystem for Linux\nGoogle - G From scratch Os for pre-Apple Watch Smartwatch:\n:.: MlcroVMs - Rust-based ightweight VMs for Linux dev\nenvironments on Chrome Os.\nARQ- Android apps on Chrome Os In containers: Replit\nInfra - Proxied through my servkce for your entire session\nArrakis.. RAG based codo chat: whenever you code on Replit:\nSandboxes for Al Agents - code execution and computer use\n8Built during my time at South Park Commons",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-column background/timeline slide with small bullets and labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray/white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Background",
+        "x": 4.0,
+        "y": 2.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Carnegie Mellon",
+        "x": 29.0,
+        "y": 9.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Microsoft",
+        "x": 58.0,
+        "y": 24.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Google",
+        "x": 35.0,
+        "y": 38.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Replit",
+        "x": 58.0,
+        "y": 52.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis",
+        "x": 35.0,
+        "y": 68.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "MicroVMs - Rust-based lightweight VMs for Linux dev environments on Chrome OS\nARC- Android apps on Chrome OS in containers",
+        "x": 4.0,
+        "y": 43.0,
+        "w": 43.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Windows Subsystem for Linux\nFrom scratch OS for pre-Apple Watch Smartwatch",
+        "x": 56.0,
+        "y": 30.0,
+        "w": 37.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Infra - Proxied through my service for your entire session whenever you code on Replit\nRAG based code chat",
+        "x": 56.0,
+        "y": 53.0,
+        "w": 37.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Sandboxes for AI Agents - code execution and computer use\nBuilt during my time at South Park Commons",
+        "x": 4.0,
+        "y": 72.0,
+        "w": 43.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672682.6226895,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Background",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Background\nCarnegie Mellon\nOperating Systems x Distributed Systems.-.\n8 Microsoft\nWindows Subsystem for Linux\nGoogle - G From scratch Os for pre-Apple Watch Smartwatch:\n:.: MlcroVMs - Rust-based ightweight VMs for Linux dev\nenvironments on Chrome Os.\nARQ- Android apps on Chrome Os In containers: Replit\nInfra - Proxied through my servkce for your entire session\nArrakis.. RAG based codo chat: whenever you code on Replit:\nSandboxes for Al Agents - code execution and computer use\n8Built during my time at South Park Commons",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 821.28
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Background\nCarnegie Mellon\nOperating Systems x Distributed Systems.-.\n8 Microsoft\nWindows Subsystem for Linux\nGoogle - G From scratch Os for pre-Apple Watch Smartwatch:\n:.: MlcroVMs - Rust-based ightweight VMs for Linux dev\nenvironments on Chrome Os.\nARQ- Android apps on Chrome Os In containers: Replit\nInfra - Proxied through my servkce for your entire session\nArrakis.. RAG based codo chat: whenever you code on Replit:\nSandboxes for Al Agents - code execution and computer use\n8Built during my time at South Park Commons",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

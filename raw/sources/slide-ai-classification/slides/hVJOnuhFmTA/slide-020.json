@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Loops, Prompts, Agents...\nuseful patterns — but still constraining the interface\nLoops: predefined flow; hard-coded steps\nPrompts: manual context; submit + repair\nAgents: delegated tasks; still shaped by old affordances\nDesign for what is possible, not just what old interfaces allow.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large readable slide; direct reading is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "near-black gradient",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Loops, Prompts, Agents...",
+        "x": 22.0,
+        "y": 3.0,
+        "w": 43.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "useful patterns — but still constraining the interface",
+        "x": 26.0,
+        "y": 12.0,
+        "w": 48.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "TODAY: CONSTRAINED PATTERNS",
+        "x": 14.0,
+        "y": 18.0,
+        "w": 35.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LOOPS",
+        "x": 6.0,
+        "y": 27.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "PROMPTS",
+        "x": 25.0,
+        "y": 27.0,
+        "w": 13.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "AGENTS",
+        "x": 43.0,
+        "y": 27.0,
+        "w": 13.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "BEYOND THE CONSTRAINT",
+        "x": 60.0,
+        "y": 18.0,
+        "w": 32.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Design for what is possible, not just what old interfaces allow.",
+        "x": 23.0,
+        "y": 88.0,
+        "w": 54.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-020.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668794.086289,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Loops, Prompts, Agents...\nuseful patterns — but still constraining the interface\nLoops: predefined flow; hard-coded steps\nPrompts: manual context; submit + repair\nAgents: delegated tasks; still shaped by old affordances\nDesign for what is possible, not just what old interfaces allow.",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "try {\n  const paymentIntent = await sellerStripe.paymentIntents.create({\n    amount: 5000,\n    currency: \"usd\",\n    // shared_payment_grant: sharedPaymentGrantFromToken.id,\n    payment_method: \"pm_card_visa\",\n    confirm: true,\n    automatic_payment_methods: {\n      enabled: true,\n      allow_redirects: \"never\",\n    },\n  });\n\n  console.log(\"Payment intent created!\", paymentIntent);\n} catch (error) {\n  console.error(\"Error creating payment intent:\", error);\n  throw error;\n}",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense code editor screenshot is OCR-suitable",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark navy",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "",
+        "x": 12.0,
+        "y": 8.0,
+        "w": 86.0,
+        "h": 72.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 56.0,
+        "y": 79.0,
+        "w": 22.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/KLSuFPj2ld0/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660200.847046,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "97R\n1index.ts×\nAIE AI-DEMO (1packagejson (1paciage-lock.json tsconfigjon spt Fstcho Tsnde.ts.claude node_modules!pepm-lock.yaml claude vscode mep dse spt)Ts(ndex.ts) 39 40 41 43 50 31 32 33 34 35 36 37 38 42 44 45 46 47 48 49 51 52 1 )catch（error）（ try const paymentIntent-aoit sellerStripe.paymentIntents.create（{ console.log（\"Payment intent created:\",paymentIntent)) throwerror: console.error(\"Error creating payment intent:\",error): confira:troe, currency:\"usd\", amount:5oe0, payment_method:\"pn_card_visa\", autoeatic_payment_methods:( enabled:true, allow_redirects:“never\", MtGrantedToken.id\nOUTLINE TIMELINE VmanO Ln5,Col15ps:2UTF-5\n2O28 AlEnginoer AlEngineer EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 684.92
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "try {\n  const paymentIntent = await sellerStripe.paymentIntents.create({\n    amount: 5000,\n    currency: \"usd\",\n    // shared_payment_grant: sharedPaymentGrantFromToken.id,\n    payment_method: \"pm_card_visa\",\n    confirm: true,\n    automatic_payment_methods: {\n      enabled: true,\n      allow_redirects: \"never\",\n    },\n  });\n\n  console.log(\"Payment intent created!\", paymentIntent);\n} catch (error) {\n  console.error(\"Error creating payment intent:\", error);\n  throw error;\n}",
+    "text_status": "meaningful",
+    "corrections": "OCR was corrected to the clearly visible TypeScript payment-intent code and cleaned of UI noise."
+  }
+}

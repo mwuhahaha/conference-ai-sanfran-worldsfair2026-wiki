@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "You can't prompt the room.\nCheap to build. Expensive to decide.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "teal gradient background with dark navy rounded panel",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI. ENGINEER",
+        "x": 8.0,
+        "y": 40.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "You can't prompt the room.",
+        "x": 8.0,
+        "y": 47.0,
+        "w": 44.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Cheap to build. Expensive to decide.",
+        "x": 8.0,
+        "y": 67.0,
+        "w": 31.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/6bmM45jkMDY/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657789.4908097,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "You can't prompt the room.\nCheap to build. Expensive to decide.",
+  "advanced_ocr": {}
+}

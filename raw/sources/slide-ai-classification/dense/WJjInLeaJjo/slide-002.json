@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "WS About Aw's Corlrt L) Hy Accou Siyn n Crtrte an Aws Account.\nProducts Lerm Puter Aw's Mrkrtplice CurtomerEnabiement\nToq T+t Tog ·\nAw's Open Soure Dtog\nOpen Protocols for Agent Interoperability Part 1: Inter-Agent Communication on Mcp\nby Hick Aordge. Mr Brooler,rd Swami SxnudrmninIon t9 YAY ro2s Artl hlellgmer. GmrMht A, Opm Soucr, Though Ledrrhig t Perulish I + Cenmmitl\nm PPYp te l sHLl dp t leu it buyp Ya no u dtp Lu ypAepat do Shy y build Aruran ELrtk Cloud Conpute lCll a: protoce itgnotr dhoud computing xerikt arld\nAnlion SgetLht t +rmrrolr.lgnstk dep rrnng yilske. Gur colmnt to opanne.\nproaocol huve crged thut eruble ths cebity. hdtdrng the Mode Contat Prococo [Mcpr open rouled tby Anthropkc h yor4, hd bhe Lym?tgat prorocg Ala, sitroduced by Google\nto thirre open saLiraurdy, Airs a joning iht stterrg conmrnitee Tor MCp. By suppolting mLltple",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Slide combines a large title with dense embedded blog screenshot, architecture diagram, and QR code; OCR is appropriate for the smaller embedded text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(#18222f,#0b1220)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Open Protocols for Agent Interoperability",
+        "x": 4.0,
+        "y": 0,
+        "w": 74.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Open Protocols for Agent Interoperability Part 1: Inter-Agent Communication on MCP",
+        "x": 6.0,
+        "y": 28.0,
+        "w": 44.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/WJjInLeaJjo/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664958.3738444,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Open Protocols for Agent Interoperability",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/opencv-adaptive",
+    "text": "WS About Aw's Corlrt L) Hy Accou Siyn n Crtrte an Aws Account.\nProducts Lerm Puter Aw's Mrkrtplice CurtomerEnabiement\nToq T+t Tog ·\nAw's Open Soure Dtog\nOpen Protocols for Agent Interoperability Part 1: Inter-Agent Communication on Mcp\nby Hick Aordge. Mr Brooler,rd Swami SxnudrmninIon t9 YAY ro2s Artl hlellgmer. GmrMht A, Opm Soucr, Though Ledrrhig t Perulish I + Cenmmitl\nm PPYp te l sHLl dp t leu it buyp Ya no u dtp Lu ypAepat do Shy y build Aruran ELrtk Cloud Conpute lCll a: protoce itgnotr dhoud computing xerikt arld\nAnlion SgetLht t +rmrrolr.lgnstk dep rrnng yilske. Gur colmnt to opanne.\nproaocol huve crged thut eruble ths cebity. hdtdrng the Mode Contat Prococo [Mcpr open rouled tby Anthropkc h yor4, hd bhe Lym?tgat prorocg Ala, sitroduced by Google\nto thirre open saLiraurdy, Airs a joning iht stterrg conmrnitee Tor MCp. By suppolting mLltple",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1339.96
+  },
+  "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "WS About Aw's Corlrt L) Hy Accou Siyn n Crtrte an Aws Account.\nProducts Lerm Puter Aw's Mrkrtplice CurtomerEnabiement\nToq T+t Tog ·\nAw's Open Soure Dtog\nOpen Protocols for Agent Interoperability Part 1: Inter-Agent Communication on Mcp\nby Hick Aordge. Mr Brooler,rd Swami SxnudrmninIon t9 YAY ro2s Artl hlellgmer. GmrMht A, Opm Soucr, Though Ledrrhig t Perulish I + Cenmmitl\nm PPYp te l sHLl dp t leu it buyp Ya no u dtp Lu ypAepat do Shy y build Aruran ELrtk Cloud Conpute lCll a: protoce itgnotr dhoud computing xerikt arld\nAnlion SgetLht t +rmrrolr.lgnstk dep rrnng yilske. Gur colmnt to opanne.\nproaocol huve crged thut eruble ths cebity. hdtdrng the Mode Contat Prococo [Mcpr open rouled tby Anthropkc h yor4, hd bhe Lym?tgat prorocg Ala, sitroduced by Google\nto thirre open saLiraurdy, Airs a joning iht stterrg conmrnitee Tor MCp. By suppolting mLltple",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

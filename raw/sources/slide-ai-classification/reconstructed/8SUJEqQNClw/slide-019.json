@@ -1,0 +1,50 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Workflow as tool\n\nexport const agent = new Agent({\n  name: 'Agent',\n  instructions: `Ask the user for their location, check weather, and plan a trip`,\n  model: openai('gpt-4o-mini'),\n  workflows: {\n    checkWeather,\n    planTrip\n  },\n  memory,\n});",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code-heavy slide is better handled by OCR; only the title is captured here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with subtle concentric ripple texture",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Workflow as tool",
+        "x": 24.0,
+        "y": 7.0,
+        "w": 28.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-019.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658763.998282,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Workflow as tool",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Workflow as tool export const agent = new Age\nname: 'Agent',\ninstructions: Ask the use\nAIE and plan a trip, their location, check wea\nmodel:openai('gpt-4o-min\nworkflows: planTrip checkweather,\n); memory,\ngithub.com/mastra-a\nMicrosoft smol ai\nWord's Fair",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 454.4
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Workflow as tool\n\nexport const agent = new Agent({\n  name: 'Agent',\n  instructions: `Ask the user for their location, check weather, and plan a trip`,\n  model: openai('gpt-4o-mini'),\n  workflows: {\n    checkWeather,\n    planTrip\n  },\n  memory,\n});",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for clear code text, punctuation, and capitalization; accepted the slide title and visible footer text."
+  }
+}

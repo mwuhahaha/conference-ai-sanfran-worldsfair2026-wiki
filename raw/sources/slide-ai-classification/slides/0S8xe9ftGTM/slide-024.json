@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "6 Things to know about AIE WF 2026\n1. It’s bigger than all previous AIEs\n2. 4x Larger Expo with 4 Expo stages\n3. AIE for Researchers\n4. AI Leadership\n5. AI Verticals\n6. Side Events",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "6 Things to know about AIE WF 2026",
+        "x": 26.0,
+        "y": 23.0,
+        "w": 48.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "1. It’s bigger than all previous AIEs",
+        "x": 26.0,
+        "y": 37.0,
+        "w": 40.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "2. 4x Larger Expo with 4 Expo stages",
+        "x": 26.0,
+        "y": 45.0,
+        "w": 42.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "3. AIE for Researchers",
+        "x": 26.0,
+        "y": 53.0,
+        "w": 26.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "4. AI Leadership",
+        "x": 26.0,
+        "y": 61.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "5. AI Verticals",
+        "x": 26.0,
+        "y": 69.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "6. Side Events",
+        "x": 26.0,
+        "y": 77.0,
+        "w": 18.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-024.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-024.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657617.6458757,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "6 Things to know about AIE WF 2026\n1. It’s bigger than all previous AIEs\n2. 4x Larger Expo with 4 Expo stages\n3. AIE for Researchers\n4. AI Leadership\n5. AI Verticals\n6. Side Events",
+  "advanced_ocr": {}
+}

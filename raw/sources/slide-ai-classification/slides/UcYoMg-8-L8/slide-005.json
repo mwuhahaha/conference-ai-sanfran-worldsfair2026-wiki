@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "1 — Boardgame session manager\nAn app used for creating, viewing, joining\nand managing board game event\nsessions. Including a chat feature.\n4 people",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#111111",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "1 — Boardgame session manager",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 66.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "An app used for creating, viewing, joining\nand managing board game event\nsessions. Including a chat feature.",
+        "x": 4.0,
+        "y": 23.0,
+        "w": 40.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "4 people",
+        "x": 4.0,
+        "y": 62.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "WHAT",
+        "x": 4.0,
+        "y": 19.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "TEAM",
+        "x": 4.0,
+        "y": 58.0,
+        "w": 8.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/UcYoMg-8-L8/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664839.3294044,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "1 — Boardgame session manager\nAn app used for creating, viewing, joining\nand managing board game event\nsessions. Including a chat feature.\n4 people",
+  "advanced_ocr": {}
+}

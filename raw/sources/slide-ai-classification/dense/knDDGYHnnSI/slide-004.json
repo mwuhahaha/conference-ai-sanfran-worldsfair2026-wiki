@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "amamo Accuracy\nAIE users is higher accuracy. The clearest driver of GraphRAG adoption amongst\nAcross all metrics, our method\ndemonstrates consistent\nin MRR and by 0.32 in BLEU improvements. Notably, it surpasses the baseline by 77.6%\nquestion-answering accuracy? retrieval efficacy and score,substantiating its superior\norved2023 Microsoft smolo aws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense quote, diagram, and QR code are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal and white split",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Higher Accuracy",
+        "x": 17.0,
+        "y": 4.0,
+        "w": 17.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "The clearest driver of GraphRAG adoption amongst users is higher accuracy.",
+        "x": 19.0,
+        "y": 25.0,
+        "w": 29.0,
+        "h": 27.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/knDDGYHnnSI/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670131.6575198,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Higher Accuracy",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "amamo Accuracy\nAIE users is higher accuracy. The clearest driver of GraphRAG adoption amongst\nAcross all metrics, our method\ndemonstrates consistent\nin MRR and by 0.32 in BLEU improvements. Notably, it surpasses the baseline by 77.6%\nquestion-answering accuracy? retrieval efficacy and score,substantiating its superior\norved2023 Microsoft smolo aws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 520.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "amamo Accuracy\nAIE users is higher accuracy. The clearest driver of GraphRAG adoption amongst\nAcross all metrics, our method\ndemonstrates consistent\nin MRR and by 0.32 in BLEU improvements. Notably, it surpasses the baseline by 77.6%\nquestion-answering accuracy? retrieval efficacy and score,substantiating its superior\norved2023 Microsoft smolo aws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

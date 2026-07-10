@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Zubin and Alexis\n\nZubin and Alexis are Ben's cofounders at Dawn, a startup focused on providing analytics for AI products. Dawn aims to help companies better understand user requests and model outputs by tracking the nuances of how people are using AI products. Ben transitioned to founding Dawn after his role as a designer at Apple.\n\nBen, Zubin, and Alexis are working together to address a critical need in the AI industry: capturing the nuances and context of user interactions with AI products. Unlike other companies that track high-level metrics, Dawn focuses on detailed analytics to improve user experience and outcomes. Ben's experience at Apple has provided valuable insights into understanding complex user behavior, which he leverages in building Dawn's unique tracking capabilities.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small text inside a product/article screenshot; OCR is better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg, #f2f2f2 0%, #f7f6f6 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 15.0,
+        "w": 10.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Zubin and Alexis",
+        "x": 52.0,
+        "y": 4.0,
+        "w": 18.0,
+        "h": 70.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 56.0,
+        "y": 82.0,
+        "w": 12.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/5nOLb27hQ5w/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657727.9991827,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Zubin and Alexis",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/contrast",
+    "text": "Zubin and Alexis\nAIE prwadirg analyties fee Al produxts. Zubin ed Alexds are Ben's cofounden Dran alms tobxlp corrganies beeer undesund user reqoests and model outpets by trccegtbe nunoo howpeople areusirg Al produts.Ben hls roke asadesignera Appk. Dwatup Socedon teanitioned to foundingDnaher\nWortfsFaa Moegr BenZubineAek re workg idusiny.cgtuing thtrgo ed bsbaiecwtichte versznsin tulding together adcress a crtical noed othe Al prooxts.Unike oter comgonies th backhigh lenetricxDuwe focuaes oe detsled snayies to imgrco uney cperienot and ostcomes.Ben's engerieece atAcoie hass provided vabasbie insigyts into undostandog coriplexunet Cowsi unigue ttackingCapadibes cortot cfuoerintersctions with Al\n:ne04j\nWorkts Far aws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 959.56
+  },
+  "ocr_source": "rapidocr-live/left-72/contrast",
+  "ocr_reconcile": {
+    "text": "Zubin and Alexis\n\nZubin and Alexis are Ben's cofounders at Dawn, a startup focused on providing analytics for AI products. Dawn aims to help companies better understand user requests and model outputs by tracking the nuances of how people are using AI products. Ben transitioned to founding Dawn after his role as a designer at Apple.\n\nBen, Zubin, and Alexis are working together to address a critical need in the AI industry: capturing the nuances and context of user interactions with AI products. Unlike other companies that track high-level metrics, Dawn focuses on detailed analytics to improve user experience and outcomes. Ben's experience at Apple has provided valuable insights into understanding complex user behavior, which he leverages in building Dawn's unique tracking capabilities.",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR title; corrected obvious spelling and grammar errors from the visible slide text."
+  }
+}

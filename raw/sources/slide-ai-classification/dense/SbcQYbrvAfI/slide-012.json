@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "arize\nOptimizing JSON Webpage Prompts with the Arize Prompt Learning SDK\nt.rooe +te Lpi ct youord a Tuyu Aue e s '+as +ll oun 'Lhr we srohno Nosr e H mri yop+or o, suu+p a Pe ebedgen 4uee e Iao lucpr 1ouod ye Looo yrp sll ayenb n tte coltock, we dtaomtybe + vee cs d a rt Lrle Piargt Loaing sox ty cedrng i Fyt n prenet ia CeTto The god le co hnerowe the noat abinr to owrte acou t son reprtrederu o' a Thha jise, ejl mtdr t ao $ouialayed sn sbemyaa La.\nR!\n*++,p++.*lyt!\nConfiguration\nTeANL SeLT_FxAcTON Drirmnn Yerytes sot nte, ad e Huu_tAupuss: Conapt hon bary iows Io smrpie iron the F 7*+ t+ 4 tot '+ Cu+.t 4 c t**d +++ + t+e tu+ o1\nYdued ta +uyt pur 'u+ut t*rys orhro th+u+o ooo f++s u+u+ha Ad uru c: tuept+? wop+rprdo L+w +oy h+s trooT holrrru+o'hrh\nmLP_L+Ls + e '+ m.-t. + ra ++' m= + + +iT +h1+t a / a+ a tl:+ + la.+e itw tali. e?omet, + tre el!...\n=Laba at +) * rrli+ y+ s+aa a. 4 + soo!ollrrliL'm 1aI:++ L I +1 **1+ 1+,*.n + L+ *T. +++ N. +a",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense notebook slide with small paragraph text, code cells, and configuration block; OCR will read it better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "arize",
+        "x": 8.0,
+        "y": 4.0,
+        "w": 26.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "Optimizing JSON Webpage Prompts with the Arize Prompt Learning SDK",
+        "x": 10.0,
+        "y": 18.0,
+        "w": 78.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Configuration",
+        "x": 10.0,
+        "y": 58.0,
+        "w": 22.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664366.7857728,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/opencv-adaptive",
+    "text": "arize\nOptimizing JSON Webpage Prompts with the Arize Prompt Learning SDK\nt.rooe +te Lpi ct youord a Tuyu Aue e s '+as +ll oun 'Lhr we srohno Nosr e H mri yop+or o, suu+p a Pe ebedgen 4uee e Iao lucpr 1ouod ye Looo yrp sll ayenb n tte coltock, we dtaomtybe + vee cs d a rt Lrle Piargt Loaing sox ty cedrng i Fyt n prenet ia CeTto The god le co hnerowe the noat abinr to owrte acou t son reprtrederu o' a Thha jise, ejl mtdr t ao $ouialayed sn sbemyaa La.\nR!\n*++,p++.*lyt!\nConfiguration\nTeANL SeLT_FxAcTON Drirmnn Yerytes sot nte, ad e Huu_tAupuss: Conapt hon bary iows Io smrpie iron the F 7*+ t+ 4 tot '+ Cu+.t 4 c t**d +++ + t+e tu+ o1\nYdued ta +uyt pur 'u+ut t*rys orhro th+u+o ooo f++s u+u+ha Ad uru c: tuept+? wop+rprdo L+w +oy h+s trooT holrrru+o'hrh\nmLP_L+Ls + e '+ m.-t. + ra ++' m= + + +iT +h1+t a / a+ a tl:+ + la.+e itw tali. e?omet, + tre el!...\n=Laba at +) * rrli+ y+ s+aa a. 4 + soo!ollrrliL'm 1aI:++ L I +1 **1+ 1+,*.n + L+ *T. +++ N. +a",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1243.44
+  },
+  "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "arize\nOptimizing JSON Webpage Prompts with the Arize Prompt Learning SDK\nt.rooe +te Lpi ct youord a Tuyu Aue e s '+as +ll oun 'Lhr we srohno Nosr e H mri yop+or o, suu+p a Pe ebedgen 4uee e Iao lucpr 1ouod ye Looo yrp sll ayenb n tte coltock, we dtaomtybe + vee cs d a rt Lrle Piargt Loaing sox ty cedrng i Fyt n prenet ia CeTto The god le co hnerowe the noat abinr to owrte acou t son reprtrederu o' a Thha jise, ejl mtdr t ao $ouialayed sn sbemyaa La.\nR!\n*++,p++.*lyt!\nConfiguration\nTeANL SeLT_FxAcTON Drirmnn Yerytes sot nte, ad e Huu_tAupuss: Conapt hon bary iows Io smrpie iron the F 7*+ t+ 4 tot '+ Cu+.t 4 c t**d +++ + t+e tu+ o1\nYdued ta +uyt pur 'u+ut t*rys orhro th+u+o ooo f++s u+u+ha Ad uru c: tuept+? wop+rprdo L+w +oy h+s trooT holrrru+o'hrh\nmLP_L+Ls + e '+ m.-t. + ra ++' m= + + +iT +h1+t a / a+ a tl:+ + la.+e itw tali. e?omet, + tre el!...\n=Laba at +) * rrli+ y+ s+aa a. 4 + soo!ollrrliL'm 1aI:++ L I +1 **1+ 1+,*.n + L+ *T. +++ N. +a",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The PMF compass We analyzed 37 successful devtools: Cursor, Vercel, Supabase, Linear and others",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable slide text; OCR not needed",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(180deg, #22000f, #140008)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The PMF compass",
+        "x": 17.0,
+        "y": 16.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "We analyzed 37 successful devtools: Cursor, Vercel, Supabase, Linear and others",
+        "x": 17.0,
+        "y": 53.0,
+        "w": 31.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "device graphic",
+        "x": 57.0,
+        "y": 24.0,
+        "w": 28.0,
+        "h": 48.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/G6IlDzj8OjA/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659495.7933204,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The PMF compass We analyzed 37 successful devtools: Cursor, Vercel, Supabase, Linear and others",
+  "advanced_ocr": {}
+}

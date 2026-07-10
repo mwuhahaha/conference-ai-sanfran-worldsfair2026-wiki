@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Spreadsheet Agent\nGathering Context\nTake Action\nsearch(\"B3:B5\")\nsql queries\nxml\ninsert(\"B3:B5\", [[1,3]])\nsql queries\nxml\ncheck for null pointers\nsubagents",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Spreadsheet Agent",
+        "x": 14.0,
+        "y": 9.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Gathering Context",
+        "x": 9.0,
+        "y": 27.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Take Action",
+        "x": 39.0,
+        "y": 27.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "search(\"B3:B5\")\nsql queries\nxml",
+        "x": 10.0,
+        "y": 40.0,
+        "w": 24.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "insert(\"B3:B5\", [[1,3]])\nsql queries\nxml",
+        "x": 39.0,
+        "y": 40.0,
+        "w": 24.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "check for null pointers\nsubagents",
+        "x": 64.0,
+        "y": 40.0,
+        "w": 24.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-019.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664832.5215483,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Spreadsheet Agent\nGathering Context\nTake Action\nsearch(\"B3:B5\")\nsql queries\nxml\ninsert(\"B3:B5\", [[1,3]])\nsql queries\nxml\ncheck for null pointers\nsubagents",
+  "advanced_ocr": {}
+}

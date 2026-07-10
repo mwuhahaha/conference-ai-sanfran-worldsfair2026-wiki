@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "0% HLSM\nKYAGENTS\nAIL Awsitin Working Krle\nALLIANCE PANEL\nDEMUSSALL DICOMPOSINO BSASY Remote Access Opro.\nZorn'mar Oechestrator Channels\nMaggrim Submt campsign to new section. bet confgared yNliog\nWot doyou mny Haul\nKiro'ash Aod chennels festure bo READM eachintpgtfedefatios\nAss Ohseneksfeeture to REACE ACTIVELOOF\nDrak'dan Wodang.\nRuneeg-a/Uery/idoal/daode-rtysenve\nnp,bang Add Copit Ci piaform upport\nRurngHaeeyioosidde-rts/erver\nMsg'tuc Asd beads.dev task managemect int\nRek'osh lib/ Ke31m",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with many small labels and panel text; OCR should handle it better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "green grassy game-like screenshot with dark translucent UI panels",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "MY AGENTS",
+        "x": 1.0,
+        "y": 4.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "ALLIANCE PANEL",
+        "x": 78.0,
+        "y": 8.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "lib/",
+        "x": 6.0,
+        "y": 66.0,
+        "w": 8.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-013.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670108.8095858,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "0% HLSM\nKYAGENTS\nAIL Awsitin Working Krle\nALLIANCE PANEL\nDEMUSSALL DICOMPOSINO BSASY Remote Access Opro.\nZorn'mar Oechestrator Channels\nMaggrim Submt campsign to new section. bet confgared yNliog\nWot doyou mny Haul\nKiro'ash Aod chennels festure bo READM eachintpgtfedefatios\nAss Ohseneksfeeture to REACE ACTIVELOOF\nDrak'dan Wodang.\nRuneeg-a/Uery/idoal/daode-rtysenve\nnp,bang Add Copit Ci piaform upport\nRurngHaeeyioosidde-rts/erver\nMsg'tuc Asd beads.dev task managemect int\nRek'osh lib/ Ke31m",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 762.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "0% HLSM\nKYAGENTS\nAIL Awsitin Working Krle\nALLIANCE PANEL\nDEMUSSALL DICOMPOSINO BSASY Remote Access Opro.\nZorn'mar Oechestrator Channels\nMaggrim Submt campsign to new section. bet confgared yNliog\nWot doyou mny Haul\nKiro'ash Aod chennels festure bo READM eachintpgtfedefatios\nAss Ohseneksfeeture to REACE ACTIVELOOF\nDrak'dan Wodang.\nRuneeg-a/Uery/idoal/daode-rtysenve\nnp,bang Add Copit Ci piaform upport\nRurngHaeeyioosidde-rts/erver\nMsg'tuc Asd beads.dev task managemect int\nRek'osh lib/ Ke31m",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "agent memory\nContract Design Principle 7 Xo deod end for the system I'd tour this one.\" \"Greot ploce -- reason:great layout nceds_human: no score:4 commute_nin:12 decisioe: shorslist Uisting_id:A12345 thecontroct\nof the system depend on? Whatcontractsdootherparts Iask Relocatin Scovt: \"rated 4+, commwte s 15 mln notes:charming, near the pork..\n√it cor sctually onswty\nreeds the sonte felds-no hunton shortlist stop\nAng Jores·VP of DX.Agentx AI Fcundoticn angrejones tech",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-element slide with small text and flow arrows is best left for OCR in this triage pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(#000 0 4%, #f7f3ea 4% 96%, #000 96% 100%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Principle 7\nContract Design\nWhat contracts do other parts of the system depend on?",
+        "x": 6.0,
+        "y": 29.0,
+        "w": 33.0,
+        "h": 25.0
+      },
+      {
+        "role": "caption",
+        "text": "Great place - I'd tour this one.",
+        "x": 37.0,
+        "y": 26.0,
+        "w": 24.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "agent memory",
+        "x": 72.0,
+        "y": 20.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "listing_id: A12345\nscore: 4\ncommute_min: 12\ndecision: shortlist\nreason: great layout\nneeds_human: no",
+        "x": 66.0,
+        "y": 26.0,
+        "w": 24.0,
+        "h": 29.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "I ask Relocation Scout:\n\"rated 4+, commute <= 15 min\"",
+        "x": 38.0,
+        "y": 56.0,
+        "w": 24.0,
+        "h": 11.0
+      },
+      {
+        "role": "caption",
+        "text": "shortlist step",
+        "x": 68.0,
+        "y": 73.0,
+        "w": 22.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/slides/ZD9-4fW2HhM/slide-015.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665845.0714772,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "agent memory\nContract Design Principle 7 Xo deod end for the system I'd tour this one.\" \"Greot ploce -- reason:great layout nceds_human: no score:4 commute_nin:12 decisioe: shorslist Uisting_id:A12345 thecontroct\nof the system depend on? Whatcontractsdootherparts Iask Relocatin Scovt: \"rated 4+, commwte s 15 mln notes:charming, near the pork..\n√it cor sctually onswty\nreeds the sonte felds-no hunton shortlist stop\nAng Jores·VP of DX.Agentx AI Fcundoticn angrejones tech",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 703.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "agent memory\nContract Design Principle 7 Xo deod end for the system I'd tour this one.\" \"Greot ploce -- reason:great layout nceds_human: no score:4 commute_nin:12 decisioe: shorslist Uisting_id:A12345 thecontroct\nof the system depend on? Whatcontractsdootherparts Iask Relocatin Scovt: \"rated 4+, commwte s 15 mln notes:charming, near the pork..\n√it cor sctually onswty\nreeds the sonte felds-no hunton shortlist stop\nAng Jores·VP of DX.Agentx AI Fcundoticn angrejones tech",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

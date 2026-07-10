@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Visualization\nInteractivity",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense diagram and UI screenshot text are better handled by OCR; only short obvious labels are captured here.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#122117",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 6.0,
+        "y": 13.0,
+        "w": 14.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram",
+        "text": "Visualization",
+        "x": 29.0,
+        "y": 12.0,
+        "w": 24.0,
+        "h": 70.0
+      },
+      {
+        "role": "diagram",
+        "text": "Interactivity",
+        "x": 54.0,
+        "y": 11.0,
+        "w": 27.0,
+        "h": 71.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/65X0pQ6Lmbg/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657736.321708,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Visualization\nInteractivity",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

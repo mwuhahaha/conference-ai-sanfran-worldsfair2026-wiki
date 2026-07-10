@@ -1,0 +1,87 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot and small terminal text are better suited for OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with dark sidebar and dark terminal panels",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "User runs commands in terminal",
+        "x": 22.0,
+        "y": 0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "terminal screenshot",
+        "x": 22.0,
+        "y": 5.0,
+        "w": 75.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "↓",
+        "x": 49.0,
+        "y": 24.0,
+        "w": 3.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Cascade is up-to-date with recent terminal commands",
+        "x": 22.0,
+        "y": 35.0,
+        "w": 44.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "terminal screenshot",
+        "x": 22.0,
+        "y": 40.0,
+        "w": 30.0,
+        "h": 19.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 3.0,
+        "y": 10.0,
+        "w": 11.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/bVNNvWq6dKo/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666392.1204257,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 399.96,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0078
+  }
+}

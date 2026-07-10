@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "SWE Agents Too Choap To Mater Tha Token Data War, an Chap sw'E. Agents ae i.stoty! Feleclroni afet I?e CyenAl Coas: ann Caogs Jurn t.uir? et Coyttnn trpwhl. the rise of Tiny Teams tan ruolcre++ Φ Vibe Coding vs Tiny Teams Latent Space\nA few peopre have asked my opinicn on the vibecoding trend. At almost every SF\naqu uaaq an,layi leyi irupe Ausldaays llm aaryn jo aaubua jeyiuuoal e 'Yued asnoy\nbtn Ca, boll Ct+ ard more ere preimting on the nrt Try Heraa ihxi, and Tyr! Yoe iSel Tiie dtin by not · Te Al tiDo eiu t u conl hoity tre nor Totd eut coding, like it's some sort of vice. We cven went ahcad and put In a Vilye Coding category in the AlE CFP. But ultimalely we nixed it in favor of -Tiny Teams\": the frising trend of small but extrcmely productive teams augmentcd by SwE Agents (not nccossarily makiog Al prokucts). Tho simplcst (but hordest) statement of this is\n-teams with moro m in ARR than omployoos\" which is rarefied air but already\nThe itcert Luncht ofat Coou: ard Jelte DeinrLe autonomou codng igent Cahe sHh cont rnteprg pricirg docruora tyry cet t no eitra cost'. You ro org humt a ieitn TOl o tind cl 1ity Tocgr tu te ymrs trin mat lhun reachcd by @ycvelsio ', Cogniton, Bolt, Gumloop snd Ganima. Tiny Teams aro tho scaied form of tirst typo ot Al Engincor predictcd in Tho 10oox A\nonc+ ritsi you irltmd to tathity code t youitth. leyl,uosun uosad auo, eyn jo uolsar twal jeau yisleaj oow ayl s! pue 'aoubug\nevery thoughtieader is fantaslzing sbout. Tiny Teams sro casidy profitable - most tech\nTHEY DOH'T CHARGE YOU EXTRA YOU SHOULD USE THIS!! LM mM TP+k. YOU CAN Fire OFf A CODEX REoUesT EvEAY 6O SECONdS AHD businesses are 60%-90% margin ard most cash compensation should be <s250k - and therefore are also fikely to fead to Pegasus and other outcomes.\nihs comn uiet eu yut tnd a taorng thu Sye Agt piang spritrunr -Tiry Teamis\" focuses on productivity. Ore might look askance at Rick Rubin's new Olm 'oisele dois t s!,.6upoo oq!A, 1cul s Aluooo! puoy, e oi 1! ind 1 Aem 0u1\nCut, Jjatt sth itse pely, l. book on Vibe Coding as one such instantiation, whereas it's pretty hard to deny that a\nTiny Team (in tho way wo have dofined it) is an unambiguoushy Good Thlng and a\ndirect consequence ot declining end-user costs in swE Agents.\n生\nAl Engnoer Eurcpo 2020 Burding Al Engrecr wih Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small body text and multi-column screenshot content are better handled by OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black footer band",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Latent Space",
+        "x": 71.0,
+        "y": 2.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "Vibe Coding vs Tiny Teams",
+        "x": 54.0,
+        "y": 14.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "teams with more in ARR than employees",
+        "x": 55.0,
+        "y": 31.0,
+        "w": 34.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/zepu8Kk6FBQ/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673150.0225964,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Vibe Coding vs Tiny Teams",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "SWE Agents Too Choap To Mater Tha Token Data War, an Chap sw'E. Agents ae i.stoty! Feleclroni afet I?e CyenAl Coas: ann Caogs Jurn t.uir? et Coyttnn trpwhl. the rise of Tiny Teams tan ruolcre++ Φ Vibe Coding vs Tiny Teams Latent Space\nA few peopre have asked my opinicn on the vibecoding trend. At almost every SF\naqu uaaq an,layi leyi irupe Ausldaays llm aaryn jo aaubua jeyiuuoal e 'Yued asnoy\nbtn Ca, boll Ct+ ard more ere preimting on the nrt Try Heraa ihxi, and Tyr! Yoe iSel Tiie dtin by not · Te Al tiDo eiu t u conl hoity tre nor Totd eut coding, like it's some sort of vice. We cven went ahcad and put In a Vilye Coding category in the AlE CFP. But ultimalely we nixed it in favor of -Tiny Teams\": the frising trend of small but extrcmely productive teams augmentcd by SwE Agents (not nccossarily makiog Al prokucts). Tho simplcst (but hordest) statement of this is\n-teams with moro m in ARR than omployoos\" which is rarefied air but already\nThe itcert Luncht ofat Coou: ard Jelte DeinrLe autonomou codng igent Cahe sHh cont rnteprg pricirg docruora tyry cet t no eitra cost'. You ro org humt a ieitn TOl o tind cl 1ity Tocgr tu te ymrs trin mat lhun reachcd by @ycvelsio ', Cogniton, Bolt, Gumloop snd Ganima. Tiny Teams aro tho scaied form of tirst typo ot Al Engincor predictcd in Tho 10oox A\nonc+ ritsi you irltmd to tathity code t youitth. leyl,uosun uosad auo, eyn jo uolsar twal jeau yisleaj oow ayl s! pue 'aoubug\nevery thoughtieader is fantaslzing sbout. Tiny Teams sro casidy profitable - most tech\nTHEY DOH'T CHARGE YOU EXTRA YOU SHOULD USE THIS!! LM mM TP+k. YOU CAN Fire OFf A CODEX REoUesT EvEAY 6O SECONdS AHD businesses are 60%-90% margin ard most cash compensation should be <s250k - and therefore are also fikely to fead to Pegasus and other outcomes.\nihs comn uiet eu yut tnd a taorng thu Sye Agt piang spritrunr -Tiry Teamis\" focuses on productivity. Ore might look askance at Rick Rubin's new Olm 'oisele dois t s!,.6upoo oq!A, 1cul s Aluooo! puoy, e oi 1! ind 1 Aem 0u1\nCut, Jjatt sth itse pely, l. book on Vibe Coding as one such instantiation, whereas it's pretty hard to deny that a\nTiny Team (in tho way wo have dofined it) is an unambiguoushy Good Thlng and a\ndirect consequence ot declining end-user costs in swE Agents.\n生\nAl Engnoer Eurcpo 2020 Burding Al Engrecr wih Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 3563.0
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "SWE Agents Too Choap To Mater Tha Token Data War, an Chap sw'E. Agents ae i.stoty! Feleclroni afet I?e CyenAl Coas: ann Caogs Jurn t.uir? et Coyttnn trpwhl. the rise of Tiny Teams tan ruolcre++ Φ Vibe Coding vs Tiny Teams Latent Space\nA few peopre have asked my opinicn on the vibecoding trend. At almost every SF\naqu uaaq an,layi leyi irupe Ausldaays llm aaryn jo aaubua jeyiuuoal e 'Yued asnoy\nbtn Ca, boll Ct+ ard more ere preimting on the nrt Try Heraa ihxi, and Tyr! Yoe iSel Tiie dtin by not · Te Al tiDo eiu t u conl hoity tre nor Totd eut coding, like it's some sort of vice. We cven went ahcad and put In a Vilye Coding category in the AlE CFP. But ultimalely we nixed it in favor of -Tiny Teams\": the frising trend of small but extrcmely productive teams augmentcd by SwE Agents (not nccossarily makiog Al prokucts). Tho simplcst (but hordest) statement of this is\n-teams with moro m in ARR than omployoos\" which is rarefied air but already\nThe itcert Luncht ofat Coou: ard Jelte DeinrLe autonomou codng igent Cahe sHh cont rnteprg pricirg docruora tyry cet t no eitra cost'. You ro org humt a ieitn TOl o tind cl 1ity Tocgr tu te ymrs trin mat lhun reachcd by @ycvelsio ', Cogniton, Bolt, Gumloop snd Ganima. Tiny Teams aro tho scaied form of tirst typo ot Al Engincor predictcd in Tho 10oox A\nonc+ ritsi you irltmd to tathity code t youitth. leyl,uosun uosad auo, eyn jo uolsar twal jeau yisleaj oow ayl s! pue 'aoubug\nevery thoughtieader is fantaslzing sbout. Tiny Teams sro casidy profitable - most tech\nTHEY DOH'T CHARGE YOU EXTRA YOU SHOULD USE THIS!! LM mM TP+k. YOU CAN Fire OFf A CODEX REoUesT EvEAY 6O SECONdS AHD businesses are 60%-90% margin ard most cash compensation should be <s250k - and therefore are also fikely to fead to Pegasus and other outcomes.\nihs comn uiet eu yut tnd a taorng thu Sye Agt piang spritrunr -Tiry Teamis\" focuses on productivity. Ore might look askance at Rick Rubin's new Olm 'oisele dois t s!,.6upoo oq!A, 1cul s Aluooo! puoy, e oi 1! ind 1 Aem 0u1\nCut, Jjatt sth itse pely, l. book on Vibe Coding as one such instantiation, whereas it's pretty hard to deny that a\nTiny Team (in tho way wo have dofined it) is an unambiguoushy Good Thlng and a\ndirect consequence ot declining end-user costs in swE Agents.\n生\nAl Engnoer Eurcpo 2020 Burding Al Engrecr wih Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

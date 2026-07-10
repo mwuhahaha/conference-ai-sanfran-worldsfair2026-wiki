@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arrakis: A Quick Tour Of Linux Sandboxing\nLinux Execution Modei\nA Thread ls the smabest unn of execution. Each Thead has a task struct that's n the Scheduier run queue. Process\" conssts of matiple thyeads, Treads\" In a process have differeni T..\nWhy? - My app necos Python38, foo b version 12, your server has Python 3.9, 36, 312 and doosn't have foo Rd. Packago sn opp's dependancios along wth ks coro business logic Run, arbarsr.. Containers: Why? And What?: 全\nContainers: Security Story\nAfter al Containers run as native processos on iop of tha kernel Any malcious or buggy procest can attack the kemel and gain root Once t becomes root it can do'sriythirg d want.\nContainers: Sandboxing\n:JaT containers by rostricting CAPabitos and syscias they can cal Reduce attack surface Con rostrict thg anack surtace by restricting the Unux CAPabltios atowed to a process such as..\nContainers Virtualization.\nVintusHzation provdes another primaivo to run arbitrary code on your mochlnos Esch Vu has rts own guest user space and guest kerme, Doesn't drocty stsck the host kern\nKvm - Hypevisor In the form of a kernet mnodule that leverages VT-x to run swich CPU context and run VMs Vmu - Taks to kvm to spawn VMs and aso manaes emtuated Linux Virtualization",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-section slide with small text; OCR should capture headings and body more reliably than manual reading.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(180deg,#f7f7f7,#ececec)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis: A Quick Tour Of Linux Sandboxing",
+        "x": 4.0,
+        "y": 1.0,
+        "w": 60.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Linux Execution Model",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 28.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Containers: Why? And What?",
+        "x": 5.0,
+        "y": 26.0,
+        "w": 34.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Containers: Security Story",
+        "x": 5.0,
+        "y": 40.0,
+        "w": 30.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Containers: Sandboxing",
+        "x": 5.0,
+        "y": 54.0,
+        "w": 28.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Containers → Virtualization",
+        "x": 5.0,
+        "y": 68.0,
+        "w": 30.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Linux Virtualization",
+        "x": 5.0,
+        "y": 82.0,
+        "w": 24.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672852.1844435,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Arrakis: A Quick Tour Of Linux Sandboxing\nLinux Execution Modei\nA Thread ls the smabest unn of execution. Each Thead has a task struct that's n the Scheduier run queue. Process\" conssts of matiple thyeads, Treads\" In a process have differeni T..\nWhy? - My app necos Python38, foo b version 12, your server has Python 3.9, 36, 312 and doosn't have foo Rd. Packago sn opp's dependancios along wth ks coro business logic Run, arbarsr.. Containers: Why? And What?: 全\nContainers: Security Story\nAfter al Containers run as native processos on iop of tha kernel Any malcious or buggy procest can attack the kemel and gain root Once t becomes root it can do'sriythirg d want.\nContainers: Sandboxing\n:JaT containers by rostricting CAPabitos and syscias they can cal Reduce attack surface Con rostrict thg anack surtace by restricting the Unux CAPabltios atowed to a process such as..\nContainers Virtualization.\nVintusHzation provdes another primaivo to run arbitrary code on your mochlnos Esch Vu has rts own guest user space and guest kerme, Doesn't drocty stsck the host kern\nKvm - Hypevisor In the form of a kernet mnodule that leverages VT-x to run swich CPU context and run VMs Vmu - Taks to kvm to spawn VMs and aso manaes emtuated Linux Virtualization",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1878.75
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Arrakis: A Quick Tour Of Linux Sandboxing\nLinux Execution Modei\nA Thread ls the smabest unn of execution. Each Thead has a task struct that's n the Scheduier run queue. Process\" conssts of matiple thyeads, Treads\" In a process have differeni T..\nWhy? - My app necos Python38, foo b version 12, your server has Python 3.9, 36, 312 and doosn't have foo Rd. Packago sn opp's dependancios along wth ks coro business logic Run, arbarsr.. Containers: Why? And What?: 全\nContainers: Security Story\nAfter al Containers run as native processos on iop of tha kernel Any malcious or buggy procest can attack the kemel and gain root Once t becomes root it can do'sriythirg d want.\nContainers: Sandboxing\n:JaT containers by rostricting CAPabitos and syscias they can cal Reduce attack surface Con rostrict thg anack surtace by restricting the Unux CAPabltios atowed to a process such as..\nContainers Virtualization.\nVintusHzation provdes another primaivo to run arbitrary code on your mochlnos Esch Vu has rts own guest user space and guest kerme, Doesn't drocty stsck the host kern\nKvm - Hypevisor In the form of a kernet mnodule that leverages VT-x to run swich CPU context and run VMs Vmu - Taks to kvm to spawn VMs and aso manaes emtuated Linux Virtualization",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

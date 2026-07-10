@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Spec-Driven Development\nStructured specifications are created before any code is written.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Short, high-contrast slide text is readable directly without OCR.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "dark purple",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Spec-Driven Development",
+        "x": 8.0,
+        "y": 8.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Structured specifications are created before any code is written.",
+        "x": 34.0,
+        "y": 34.0,
+        "w": 48.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/IddXPepIAS4/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659846.4946227,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Spec-Driven Development\nStructured specifications are created before any code is written.",
+  "advanced_ocr": {}
+}

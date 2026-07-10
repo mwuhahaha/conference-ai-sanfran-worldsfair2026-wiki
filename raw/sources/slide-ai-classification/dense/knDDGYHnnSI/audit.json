@@ -1,0 +1,747 @@
+{
+  "video_id": "knDDGYHnnSI",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 10,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Evolution of... Web Search",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense screenshot of a web search homepage with small text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "teal with orange footer wave",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The Evolution of... Web Search",
+            "x": 14.0,
+            "y": 2.0,
+            "w": 72.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "LYCOS",
+            "x": 30.0,
+            "y": 18.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "It's amazing where Go Get It will get you.",
+            "x": 39.0,
+            "y": 21.0,
+            "w": 25.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/knDDGYHnnSI/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670051.1539052,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Evolution of... Web Search",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 869.2,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0051
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/knDDGYHnnSI/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE Moscone Center:Homepage FeredEEMwESCog2024/gDesgA SEMICONwESTCog2024/FgmDeigAuto Events\nFloor Plans Mosc ore North.4 50 MosconeCenter\nExplore the Neighborhood Nearty Nngroon 00d Aree A299ct\nDirections andParking BART offers fat, co\nContact Us TUAG 1 s t os n ou faet Caelfornia Uanited Stanies. The complex cone od.Wkipeda s De lurgr9t con seg u xeyueo segree9 pe uo) siss of tvee main WT es te\nPeople also ask1 Which BART stop for Moscone Center? Parlkcing: Pey Dosing neerly Aodne*s:747 H0e Phene:(415)974-4000 erCyd Cy fSnF wire St Sas.Fancisce, CA 94103\nWho owns the Moscone Center? 60:8157m Coses11PM\nerved2024\nMicrosoft smol aws",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Screenshot-heavy slide with small UI text and search results.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal with orange footer and black left edge",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 16.0,
+            "w": 9.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "Moscone Center",
+            "x": 67.0,
+            "y": 14.0,
+            "w": 17.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 39.0,
+            "y": 85.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 59.0,
+            "y": 84.0,
+            "w": 11.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 86.0,
+            "y": 84.0,
+            "w": 8.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/knDDGYHnnSI/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670074.7393544,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "AIE Moscone Center:Homepage FeredEEMwESCog2024/gDesgA SEMICONwESTCog2024/FgmDeigAuto Events\nFloor Plans Mosc ore North.4 50 MosconeCenter\nExplore the Neighborhood Nearty Nngroon 00d Aree A299ct\nDirections andParking BART offers fat, co\nContact Us TUAG 1 s t os n ou faet Caelfornia Uanited Stanies. The complex cone od.Wkipeda s De lurgr9t con seg u xeyueo segree9 pe uo) siss of tvee main WT es te\nPeople also ask1 Which BART stop for Moscone Center? Parlkcing: Pey Dosing neerly Aodne*s:747 H0e Phene:(415)974-4000 erCyd Cy fSnF wire St Sas.Fancisce, CA 94103\nWho owns the Moscone Center? 60:8157m Coses11PM\nerved2024\nMicrosoft smol aws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 896.64
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "AIE Moscone Center:Homepage FeredEEMwESCog2024/gDesgA SEMICONwESTCog2024/FgmDeigAuto Events\nFloor Plans Mosc ore North.4 50 MosconeCenter\nExplore the Neighborhood Nearty Nngroon 00d Aree A299ct\nDirections andParking BART offers fat, co\nContact Us TUAG 1 s t os n ou faet Caelfornia Uanited Stanies. The complex cone od.Wkipeda s De lurgr9t con seg u xeyueo segree9 pe uo) siss of tvee main WT es te\nPeople also ask1 Which BART stop for Moscone Center? Parlkcing: Pey Dosing neerly Aodne*s:747 H0e Phene:(415)974-4000 erCyd Cy fSnF wire St Sas.Fancisce, CA 94103\nWho owns the Moscone Center? 60:8157m Coses11PM\nerved2024\nMicrosoft smol aws",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/knDDGYHnnSI/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Q: What...?\nUser\nYour Application\nEmbedding Generator\nQ\nV\nVector search for V\nRelevant Documents and Context\nKnowledge Graph With Vector Support",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Sparse diagram labels are better captured directly than via OCR.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "white with dark teal border",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Q: What...?",
+            "x": 25.0,
+            "y": 4.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "User",
+            "x": 47.0,
+            "y": 12.0,
+            "w": 8.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "Your Application",
+            "x": 36.0,
+            "y": 24.0,
+            "w": 28.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Embedding Generator",
+            "x": 11.0,
+            "y": 47.0,
+            "w": 17.0,
+            "h": 13.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Vector search for V",
+            "x": 37.0,
+            "y": 44.0,
+            "w": 14.0,
+            "h": 13.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Relevant Documents and Context",
+            "x": 58.0,
+            "y": 42.0,
+            "w": 20.0,
+            "h": 15.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Knowledge Graph With Vector Support",
+            "x": 39.0,
+            "y": 70.0,
+            "w": 24.0,
+            "h": 13.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/knDDGYHnnSI/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670131.6564732,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Q: What...?\nUser\nYour Application\nEmbedding Generator\nQ\nV\nVector search for V\nRelevant Documents and Context\nKnowledge Graph With Vector Support",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/knDDGYHnnSI/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "amamo Accuracy\nAIE users is higher accuracy. The clearest driver of GraphRAG adoption amongst\nAcross all metrics, our method\ndemonstrates consistent\nin MRR and by 0.32 in BLEU improvements. Notably, it surpasses the baseline by 77.6%\nquestion-answering accuracy? retrieval efficacy and score,substantiating its superior\norved2023 Microsoft smolo aws",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense quote, diagram, and QR code are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal and white split",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Higher Accuracy",
+            "x": 17.0,
+            "y": 4.0,
+            "w": 17.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "The clearest driver of GraphRAG adoption amongst users is higher accuracy.",
+            "x": 19.0,
+            "y": 25.0,
+            "w": 29.0,
+            "h": 27.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/knDDGYHnnSI/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670131.6575198,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Higher Accuracy",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "amamo Accuracy\nAIE users is higher accuracy. The clearest driver of GraphRAG adoption amongst\nAcross all metrics, our method\ndemonstrates consistent\nin MRR and by 0.32 in BLEU improvements. Notably, it surpasses the baseline by 77.6%\nquestion-answering accuracy? retrieval efficacy and score,substantiating its superior\norved2023 Microsoft smolo aws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 520.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "amamo Accuracy\nAIE users is higher accuracy. The clearest driver of GraphRAG adoption amongst\nAcross all metrics, our method\ndemonstrates consistent\nin MRR and by 0.32 in BLEU improvements. Notably, it surpasses the baseline by 77.6%\nquestion-answering accuracy? retrieval efficacy and score,substantiating its superior\norved2023 Microsoft smolo aws",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/knDDGYHnnSI/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "OHigher users is higher accuracy. Accuracy The clearest driverof GraphRAG adoption amongst Microsoft Research Blog 'By combining LLM-generated GraphRAG: Unlocking LLM discovery on narrative private data tro tt may pusor\nknowledge graphs and graph\nmachine learning, GraphRAG\nenables us to answer important\nclasses of questions that we cannot\nattempt with baseline RAG alone.\nMicrosoft\n23. Neo4j Inc, All rlghts reserved 2023",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense quote card and blog screenshot are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "teal and white split",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Higher Accuracy",
+            "x": 5.0,
+            "y": 4.0,
+            "w": 20.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "GraphRAG enables us to answer important classes of questions that we cannot attempt with baseline RAG alone.",
+            "x": 46.0,
+            "y": 31.0,
+            "w": 41.0,
+            "h": 37.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/knDDGYHnnSI/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670184.3458695,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Higher Accuracy",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "OHigher users is higher accuracy. Accuracy The clearest driverof GraphRAG adoption amongst Microsoft Research Blog 'By combining LLM-generated GraphRAG: Unlocking LLM discovery on narrative private data tro tt may pusor\nknowledge graphs and graph\nmachine learning, GraphRAG\nenables us to answer important\nclasses of questions that we cannot\nattempt with baseline RAG alone.\nMicrosoft\n23. Neo4j Inc, All rlghts reserved 2023",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 652.76
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "OHigher users is higher accuracy. Accuracy The clearest driverof GraphRAG adoption amongst Microsoft Research Blog 'By combining LLM-generated GraphRAG: Unlocking LLM discovery on narrative private data tro tt may pusor\nknowledge graphs and graph\nmachine learning, GraphRAG\nenables us to answer important\nclasses of questions that we cannot\nattempt with baseline RAG alone.\nMicrosoft\n23. Neo4j Inc, All rlghts reserved 2023",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/knDDGYHnnSI/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Easier Development*\nThe second reason we hear people choose GraphRAG over vector-only RAG is easier development... once they've pushed through the initial learning curve.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large, simple text is directly readable without OCR.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with teal left panel",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Easier Development*",
+            "x": 5.0,
+            "y": 3.0,
+            "w": 29.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "The second reason we hear people choose GraphRAG over vector-only RAG is easier development... once they've pushed through the initial learning curve.",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 37.0,
+            "h": 34.0
+          },
+          {
+            "role": "caption",
+            "text": "* Weirdly, ease of development [or lack thereof] is also one of the stumbling blocks! How can that be?",
+            "x": 5.0,
+            "y": 46.0,
+            "w": 38.0,
+            "h": 21.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/knDDGYHnnSI/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670223.1056094,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Easier Development*\nThe second reason we hear people choose GraphRAG over vector-only RAG is easier development... once they've pushed through the initial learning curve.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/knDDGYHnnSI/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "② Easier Development: Why?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram-heavy slide with small dense labels and a text table; OCR will read the body more reliably than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#0a4f5f",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "② Easier Development: Why?",
+            "x": 5.0,
+            "y": 0,
+            "w": 55.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Transparent & Explicit",
+            "x": 14.0,
+            "y": 11.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Opaque & Implicit",
+            "x": 67.0,
+            "y": 11.0,
+            "w": 23.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "diagram",
+            "x": 4.0,
+            "y": 20.0,
+            "w": 49.0,
+            "h": 61.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "numbers table",
+            "x": 56.0,
+            "y": 20.0,
+            "w": 39.0,
+            "h": 61.0
+          },
+          {
+            "role": "caption",
+            "text": "Customer: \"I actually already fixed a couple of bugs thanks to this!\"",
+            "x": 6.0,
+            "y": 83.0,
+            "w": 62.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/knDDGYHnnSI/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670309.094163,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "② Easier Development: Why?",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 821.68,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/knDDGYHnnSI/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "T+ ne04 0\n+ n+o-l|+s/3to rb890 dhstatea.reo4ila7te7: Neo4J connectlon Disconect 202-0.1120514\nDrag& Drop O Show fles with status New G014.0 11011 14\nLestructur ed le.l 0 Namo Th+ Four Wl... Status + Completed Uploid Status +Upedad 27.10 Siza (KB) 1X31 Sourco. YoUtuba 224 411110\nYoutube OperAl +Conpleied +Cpydad:&.07 TEXT wikipo\nTho Batch M.. Conplotad ◆Lpcadad 1507.79 locat fili\nWlklp+dlo\nAmhion S3\nShowing t-3 of 3 results Show 5 √\nGcs\nGp.to Preview Graph [3) Explore Gragh wtth Bloom Dolete Files(3)]",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot with many small labels, rows, and buttons; OCR is appropriate for the table and controls.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6f7f5",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "neo4j",
+            "x": 3.0,
+            "y": 3.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Neo4j connection",
+            "x": 29.0,
+            "y": 11.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Drag & Drop\nor browse",
+            "x": 8.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "Youtube\nWikipedia\nAmazon S3\nGCS",
+            "x": 8.0,
+            "y": 40.0,
+            "w": 18.0,
+            "h": 38.0
+          },
+          {
+            "role": "body",
+            "text": "Name  Status  Upload Status  Size (KB)  Source",
+            "x": 33.0,
+            "y": 18.0,
+            "w": 49.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Generate Graph  Preview Graph (3)  Explore Graph with Bloom  Delete File(s)(3)",
+            "x": 30.0,
+            "y": 89.0,
+            "w": 64.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/knDDGYHnnSI/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670359.061745,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Neo4j connection",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "T+ ne04 0\n+ n+o-l|+s/3to rb890 dhstatea.reo4ila7te7: Neo4J connectlon Disconect 202-0.1120514\nDrag& Drop O Show fles with status New G014.0 11011 14\nLestructur ed le.l 0 Namo Th+ Four Wl... Status + Completed Uploid Status +Upedad 27.10 Siza (KB) 1X31 Sourco. YoUtuba 224 411110\nYoutube OperAl +Conpleied +Cpydad:&.07 TEXT wikipo\nTho Batch M.. Conplotad ◆Lpcadad 1507.79 locat fili\nWlklp+dlo\nAmhion S3\nShowing t-3 of 3 results Show 5 √\nGcs\nGp.to Preview Graph [3) Explore Gragh wtth Bloom Dolete Files(3)]",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 757.4
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "T+ ne04 0\n+ n+o-l|+s/3to rb890 dhstatea.reo4ila7te7: Neo4J connectlon Disconect 202-0.1120514\nDrag& Drop O Show fles with status New G014.0 11011 14\nLestructur ed le.l 0 Namo Th+ Four Wl... Status + Completed Uploid Status +Upedad 27.10 Siza (KB) 1X31 Sourco. YoUtuba 224 411110\nYoutube OperAl +Conpleied +Cpydad:&.07 TEXT wikipo\nTho Batch M.. Conplotad ◆Lpcadad 1507.79 locat fili\nWlklp+dlo\nAmhion S3\nShowing t-3 of 3 results Show 5 √\nGcs\nGp.to Preview Graph [3) Explore Gragh wtth Bloom Dolete Files(3)]",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/knDDGYHnnSI/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.89,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Sparse product screenshot with mostly empty canvas; a few labels are visible but OCR is not necessary for this frame.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#f4f5f2",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "neo4j",
+            "x": 3.0,
+            "y": 2.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Show me a graph",
+            "x": 11.0,
+            "y": 9.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "All (0)  Selected (0)",
+            "x": 6.0,
+            "y": 89.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Force-based layout",
+            "x": 72.0,
+            "y": 89.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "empty graph canvas",
+            "x": 10.0,
+            "y": 18.0,
+            "w": 80.0,
+            "h": 66.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/knDDGYHnnSI/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670405.0341086,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/knDDGYHnnSI/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Visual graph demo screenshot; the main evidence is the node layout rather than readable text, so OCR is not the best pass here.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#f4f5f2",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "neo4j",
+            "x": 3.0,
+            "y": 2.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Show me a graph",
+            "x": 11.0,
+            "y": 9.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "graph visualization",
+            "x": 22.0,
+            "y": 17.0,
+            "w": 48.0,
+            "h": 63.0
+          },
+          {
+            "role": "body",
+            "text": "All (174)  Selected (0)",
+            "x": 6.0,
+            "y": 89.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Force-based layout",
+            "x": 72.0,
+            "y": 89.0,
+            "w": 20.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/knDDGYHnnSI/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670405.0347683,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/knDDGYHnnSI/slide-010.html"
+    }
+  ],
+  "rejected": []
+}

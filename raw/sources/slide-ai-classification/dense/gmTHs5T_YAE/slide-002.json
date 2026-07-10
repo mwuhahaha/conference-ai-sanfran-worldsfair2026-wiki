@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agenda\n1. TTS model architecture\n2. TTS performance metrics\n3. Orpheus TTS optimization techniques\n4. Orpheus TTS performance benchmarks\n5. Infrastructure and client code",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple agenda slide with large readable text",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "pale yellow with black sidebar",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 21.0,
+        "w": 11.0,
+        "h": 20.0
+      },
+      {
+        "role": "title",
+        "text": "Agenda",
+        "x": 27.0,
+        "y": 8.0,
+        "w": 13.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1. TTS model architecture\n2. TTS performance metrics\n3. Orpheus TTS optimization techniques\n4. Orpheus TTS performance benchmarks\n5. Infrastructure and client code",
+        "x": 41.0,
+        "y": 16.0,
+        "w": 45.0,
+        "h": 48.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 46.0,
+        "y": 84.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 69.0,
+        "y": 83.0,
+        "w": 14.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/gmTHs5T_YAE/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667861.2439046,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Agenda\n1. TTS model architecture\n2. TTS performance metrics\n3. Orpheus TTS optimization techniques\n4. Orpheus TTS performance benchmarks\n5. Infrastructure and client code",
+  "advanced_ocr": {}
+}

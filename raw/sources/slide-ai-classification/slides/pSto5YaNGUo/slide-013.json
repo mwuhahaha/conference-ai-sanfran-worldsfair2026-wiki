@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "MUTAGENTAtlas-Emal-Agent-DiagnostioRoport\n6547ated2026-06-08122:31:582 souxce langtuse1,946 traces4findings\n③.Dvervie F-001Thaaf olist\nAtlas-Email-Agent\n946trsces·1,508sessions·24h\nOAtlas-Emall-Agent\nagent\ns.aethrdple.s net-4.6-(redacted)-vl:0\nt（70.·17.806t clsck\n_time>2026-05-06T18:39:10 ems(amexeroising my oming_email>HiAtlas,I would Ike to unsubscribe.Can you also delete allmy Information from routput-the you are done?Thanks,Jordan</incoming_emal>Torespond to the Ionly see messagessent via thesendMessage tool\nSelected: Bene 127s Burak 74 1,946 Copy declslons amarkdown Reset all",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot with small labels, cards, and prompt text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark navy gradient",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "MUTAGENT",
+        "x": 1.0,
+        "y": 3.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Atlas-Email-Agent",
+        "x": 13.0,
+        "y": 12.0,
+        "w": 30.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670978.2445505,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Atlas-Email-Agent",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "MUTAGENTAtlas-Emal-Agent-DiagnostioRoport\n6547ated2026-06-08122:31:582 souxce langtuse1,946 traces4findings\n③.Dvervie F-001Thaaf olist\nAtlas-Email-Agent\n946trsces·1,508sessions·24h\nOAtlas-Emall-Agent\nagent\ns.aethrdple.s net-4.6-(redacted)-vl:0\nt（70.·17.806t clsck\n_time>2026-05-06T18:39:10 ems(amexeroising my oming_email>HiAtlas,I would Ike to unsubscribe.Can you also delete allmy Information from routput-the you are done?Thanks,Jordan</incoming_emal>Torespond to the Ionly see messagessent via thesendMessage tool\nSelected: Bene 127s Burak 74 1,946 Copy declslons amarkdown Reset all",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 721.68
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "MUTAGENTAtlas-Emal-Agent-DiagnostioRoport\n6547ated2026-06-08122:31:582 souxce langtuse1,946 traces4findings\n③.Dvervie F-001Thaaf olist\nAtlas-Email-Agent\n946trsces·1,508sessions·24h\nOAtlas-Emall-Agent\nagent\ns.aethrdple.s net-4.6-(redacted)-vl:0\nt（70.·17.806t clsck\n_time>2026-05-06T18:39:10 ems(amexeroising my oming_email>HiAtlas,I would Ike to unsubscribe.Can you also delete allmy Information from routput-the you are done?Thanks,Jordan</incoming_emal>Torespond to the Ionly see messagessent via thesendMessage tool\nSelected: Bene 127s Burak 74 1,946 Copy declslons amarkdown Reset all",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

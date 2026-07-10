@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "In 30 days\nEngineer → Enabler\nDesigner → Design Engineer\nTeam level-up → Speed unlocked",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#0b0f14",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "In 30 days",
+        "x": 3.0,
+        "y": 4.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Engineer → Enabler",
+        "x": 3.0,
+        "y": 28.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Designer → Design Engineer",
+        "x": 3.0,
+        "y": 40.0,
+        "w": 54.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Team level-up → Speed unlocked",
+        "x": 3.0,
+        "y": 53.0,
+        "w": 58.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/UcYoMg-8-L8/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665033.8896592,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "In 30 days\nEngineer → Enabler\nDesigner → Design Engineer\nTeam level-up → Speed unlocked",
+  "advanced_ocr": {}
+}

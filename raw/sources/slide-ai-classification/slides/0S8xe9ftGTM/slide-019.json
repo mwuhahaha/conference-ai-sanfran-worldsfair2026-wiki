@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Engineer\n@aiDotEngineer · 515K subscribers · 803 videos\nTalks, workshops, events, and training for AI Engineers. ...more\nai.engineer and 2 more links\nMake your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior\nHow to Build an LLM-Native Expert System\nStateful environments for vertical agents — Josh Purtell, ...",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense YouTube channel screenshot with multiple readable text regions; OCR is cheaper than manual transcription for the body content.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 12.0,
+        "y": 7.0,
+        "w": 16.0,
+        "h": 20.0
+      },
+      {
+        "role": "title",
+        "text": "AI Engineer",
+        "x": 29.0,
+        "y": 6.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "@aiDotEngineer • 515K subscribers • 803 videos",
+        "x": 29.0,
+        "y": 13.0,
+        "w": 33.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Talks, workshops, events, and training for AI Engineers. ...more",
+        "x": 29.0,
+        "y": 19.0,
+        "w": 40.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "ai.engineer and 2 more links",
+        "x": 29.0,
+        "y": 25.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior",
+        "x": 33.0,
+        "y": 32.0,
+        "w": 54.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "Stateful environments for vertical agents — Josh Purtell, ...",
+        "x": 33.0,
+        "y": 69.0,
+        "w": 45.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657084.4481788,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "AI Engineer",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Al Engineer\nAIE @aiDotEngineer · 515K subscribers · 803 videos Talks, workshops, events, and training for Al Engineers...more\nQ al.engineer and 2 more links\nCustomize channel Manage videos. Sg? Community\nHome Videos Shorts Live Podcasts Playlists Posts Store vertica!\nWorrsF a Anteriox Make your LLM app a Domain Expert: How to Build an Expert System - Christopher Lovejoy, Anterior\nG Al Engireer · 87K views · 10 months 8g0\nHow to Build an LLM-Native Expert System 19:18 the latest LlMs off-the-shelf: you need a system for codifying larent... Vertical Al h a rmufti-trlllorrdollar opportunity. But you can't build a domsln-expert applicaton simpty by grabbihg\nWorter's Fr StatefulEnvironments for Vertical Agents6s1 EnYHonmCnis happy to do agaln. Here's the repo - general code that endows envrorments. Al Engineer · 1.3K vlews · 10 months 8go Hty All - gave o talk on building stateful cnvironments for vertical agonts at Al tinkerers Stateful environments for vertical agents = Josh Purtell, S A'Engroe",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1284.6
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "AI Engineer\n@aiDotEngineer · 515K subscribers · 803 videos\nTalks, workshops, events, and training for AI Engineers. ...more\nai.engineer and 2 more links\nMake your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior\nHow to Build an LLM-Native Expert System\nStateful environments for vertical agents — Josh Purtell, ...",
+    "text_status": "meaningful",
+    "corrections": "Accepted the visible text and corrected obvious OCR errors like Al/Al to AI, WorrsF to World’s Fair, and vertical!/8g0 to vertical/10 months ago; left truncated text incomplete where the image is cut off."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Step 2.x - running every iteration\npredies\ncreate\nALAORY- ypkees\nBirnk\nPv -gire AEAOKYOL updeies\nAutrns Coapeve irs\nREPORT. rredeas\nADMORYe updrtes\nPetres Crm\nResras",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Repeated flowchart structure with tiny text labels; OCR is suitable for reading the boxes and connectors.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Step 2.x - running every iteration",
+        "x": 8.0,
+        "y": 5.0,
+        "w": 36.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Create a new branch",
+        "x": 9.0,
+        "y": 11.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Create an hypothesis",
+        "x": 10.0,
+        "y": 22.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Change the agent",
+        "x": 24.0,
+        "y": 22.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Run the evals",
+        "x": 38.0,
+        "y": 22.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Produces a REPORT.md",
+        "x": 65.0,
+        "y": 19.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Updates MEMORY.md",
+        "x": 65.0,
+        "y": 29.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Metrics improved",
+        "x": 42.0,
+        "y": 42.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Continue from this branch",
+        "x": 63.0,
+        "y": 43.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Rollback to prev. branch",
+        "x": 42.0,
+        "y": 55.0,
+        "w": 14.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-018.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666816.1406565,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Step 2.x - running every iteration",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Step 2.x - running every iteration\npredies\ncreate\nALAORY- ypkees\nBirnk\nPv -gire AEAOKYOL updeies\nAutrns Coapeve irs\nREPORT. rredeas\nADMORYe updrtes\nPetres Crm\nResras",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 329.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Step 2.x - running every iteration\npredies\ncreate\nALAORY- ypkees\nBirnk\nPv -gire AEAOKYOL updeies\nAutrns Coapeve irs\nREPORT. rredeas\nADMORYe updrtes\nPetres Crm\nResras",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

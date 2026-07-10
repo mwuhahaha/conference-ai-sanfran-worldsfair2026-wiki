@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Visualizing Document Layout with Bounding Boxes\n\nIn order to understand how each part of the document is extracted, let's visualize the extracted elements.\nWe can do that by using one of Docling's built-in visualizers:\n\nfrom docling_core.transforms.visualizer.layout_visualizer import LayoutVisualizer\nlayout_visualizer = LayoutVisualizer()\npage_images = layout_visualizer.get_visualization(doc=img_doc)\n\nnum_pages_to_viz = 2  # first N pages to visualize\npages_to_viz = list(page_images.keys())[:num_pages_to_viz]\nfor page in pages_to_viz:\n    display(page_images[page])",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code-heavy notebook screenshot with small UI text and embedded document preview.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark charcoal",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Visualizing Document Layout with Bounding Boxes",
+        "x": 21.0,
+        "y": 9.0,
+        "w": 56.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "In order to understand how each part of the document is extracted, let's visualize the extracted elements.",
+        "x": 20.0,
+        "y": 18.0,
+        "w": 68.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "We can do that by using one of Docling's built-in visualizers:",
+        "x": 20.0,
+        "y": 26.0,
+        "w": 58.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "from docling_core.transforms.visualizer.layout_visualizer import LayoutVisualizer",
+        "x": 20.0,
+        "y": 35.0,
+        "w": 64.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-021.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-021.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657057.6946397,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Conversion.ipynb M Token Cost _Comparison.ipynb M Chunkiess_RAG.lpynb M O\nJazensiainoken yodun jaziensa noreg yazjiensa'slojsuen aos Bujoop wol c saxog bupunog ym jnoren ruanoog Buzgensa tr c tonoo\ndd Code Add Markdown Run All Restart Clear Al Outputs Jupyter Variables Outline c venv (3.13.7) (Python 3.13.7)\nVisualizing Document Layout with Bounding Boxes\nWe can do that by using one of Docling's built-in visualizers:\nfros docling core.transforns,vIsualizer. layout visualize Iaport Layoutvisualizer page inages o loyout visualirer.get visualization(doc-ing doc) layout visualizcr layoutvisuslizcr() 1!\n16 0 0.10 nun pages to vizo2 0 frsf Q pages to isualite pages_to_vizOlist (or pogc in pages_to_viz) ([abed]ssbeutebed)Aeidsip to. (page Inages.keys())l:nu_ pagesto v1z) Pylhon\nB\nMaolaos Livathinos ', Christoph Auer ', Mnksym Lysak, Ahmed Nassar, Michele Dolfi. Panagiotis Vagenas, Cesar Berrospi. Matteo Omcnetti. Kasper Dinkia. Yusik Kim.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1247.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Visualizing Document Layout with Bounding Boxes\n\nIn order to understand how each part of the document is extracted, let's visualize the extracted elements.\nWe can do that by using one of Docling's built-in visualizers:\n\nfrom docling_core.transforms.visualizer.layout_visualizer import LayoutVisualizer\nlayout_visualizer = LayoutVisualizer()\npage_images = layout_visualizer.get_visualization(doc=img_doc)\n\nnum_pages_to_viz = 2  # first N pages to visualize\npages_to_viz = list(page_images.keys())[:num_pages_to_viz]\nfor page in pages_to_viz:\n    display(page_images[page])",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide title/subtitle and cleaned obvious OCR noise; omitted notebook chrome and unreadable footer text."
+  }
+}

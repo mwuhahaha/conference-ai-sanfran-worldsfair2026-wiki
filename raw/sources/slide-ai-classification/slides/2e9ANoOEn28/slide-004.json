@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Trace/log output is dense and OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "agentRun \"main\" (1.7s, 207 tok, $0.000)\nagentStart \"main\"\nthreadCreated thread #0\nnodeExecution \"main\" (1.7s, 207 tok, $0.000)",
+        "x": 1.0,
+        "y": 18.0,
+        "w": 75.0,
+        "h": 24.0
+      },
+      {
+        "role": "code",
+        "text": "[user] \"Use your `greet` tool to greet Adit\"\n[assistant] tool call: greet {\"name\":\"Adit\"}\n[tool: greet] \"Howdy, Adit!\"",
+        "x": 1.0,
+        "y": 42.0,
+        "w": 72.0,
+        "h": 28.0
+      },
+      {
+        "role": "code",
+        "text": "[assistant] \"Howdy, Adit!\"",
+        "x": 1.0,
+        "y": 72.0,
+        "w": 30.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/2e9ANoOEn28/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657282.5650365,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

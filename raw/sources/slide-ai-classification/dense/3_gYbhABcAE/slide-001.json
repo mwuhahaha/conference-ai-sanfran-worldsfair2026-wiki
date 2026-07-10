@@ -1,0 +1,128 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with multiple small labels and compact text blocks.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 12.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "Why (Senior) Engineers Struggle to Build AI Agents",
+        "x": 28.0,
+        "y": 10.0,
+        "w": 31.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "5 mental model collisions from traditional engineering, and how to fix them.",
+        "x": 28.0,
+        "y": 30.0,
+        "w": 31.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "TOP",
+        "x": 67.0,
+        "y": 7.0,
+        "w": 4.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Engineering Instincts",
+        "x": 72.0,
+        "y": 9.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Strict Types. Determinism",
+        "x": 73.0,
+        "y": 14.0,
+        "w": 13.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "BOTTLENECK",
+        "x": 67.0,
+        "y": 24.0,
+        "w": 7.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Mental Model Collision",
+        "x": 72.0,
+        "y": 31.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Fighting the probability of LLMs",
+        "x": 72.0,
+        "y": 36.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "BOT",
+        "x": 67.0,
+        "y": 49.0,
+        "w": 4.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent Reality",
+        "x": 71.0,
+        "y": 52.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Loops. Recovery. Contextual Meaning",
+        "x": 71.0,
+        "y": 57.0,
+        "w": 20.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/3_gYbhABcAE/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657209.9513776,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

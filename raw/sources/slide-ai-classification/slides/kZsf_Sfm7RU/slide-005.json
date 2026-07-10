@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "One task.\nHundreds of tools.\nIt writes code, runs the terminal, calls other companies' services.\nEvery tool is a new, quiet way to fail.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "03 · HUGE TOOL SURFACE",
+        "x": 6.0,
+        "y": 4.0,
+        "w": 25.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "One task.",
+        "x": 6.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "title",
+        "text": "Hundreds of tools.",
+        "x": 6.0,
+        "y": 36.0,
+        "w": 34.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "It writes code, runs the terminal, calls other companies' services.",
+        "x": 6.0,
+        "y": 60.0,
+        "w": 58.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Every tool is a new, quiet way to fail.",
+        "x": 35.0,
+        "y": 86.0,
+        "w": 37.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669559.005834,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "One task.\nHundreds of tools.\nIt writes code, runs the terminal, calls other companies' services.\nEvery tool is a new, quiet way to fail.",
+  "advanced_ocr": {}
+}

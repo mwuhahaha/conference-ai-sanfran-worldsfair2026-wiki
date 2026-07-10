@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "more productive. Here's how it measures that. Sundar Pichai says Al is making Google engineers 10%\nBy Huh Lrdsy\nAgainst Expert Forecasts and Developer Self-Reports, Early-2025 Ai Slows Down Exporienced Opon-Source Dovelopers meir\nIn thr Rc!, 16 detopers wth moderte A +prance complete 2ke ura in largt ind compher Drojtt on which thty hiit t imttot o S ytst of orior tit'itnce.\nChange in time when A 50% HO\nEconomles tipet trtchLt Hl epet tortcrt Drsthpt taecil Drlope iLrees dunrgtiuy ooaitd\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PrEsented by JUSTIN REOCK 7 Deputy CTO DX",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Mixed slide with embedded article screenshot and chart; OCR will read the dense text more reliably than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black footer",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Leadership in AI-assisted engineering",
+        "x": 23.0,
+        "y": 0,
+        "w": 54.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Sundar Pichai says AI is making Google engineers 10% more productive. Here's how it measures that.",
+        "x": 56.0,
+        "y": 10.0,
+        "w": 38.0,
+        "h": 27.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE / LEAD",
+        "x": 4.0,
+        "y": 82.0,
+        "w": 17.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "PRESENTED BY Google DeepMind",
+        "x": 4.0,
+        "y": 90.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "JUSTIN REOCK / Deputy CTO DX",
+        "x": 43.0,
+        "y": 84.0,
+        "w": 36.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/PmZDupFP3UM/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663262.177631,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "more productive. Here's how it measures that. Sundar Pichai says Al is making Google engineers 10%\nBy Huh Lrdsy\nAgainst Expert Forecasts and Developer Self-Reports, Early-2025 Ai Slows Down Exporienced Opon-Source Dovelopers meir\nIn thr Rc!, 16 detopers wth moderte A +prance complete 2ke ura in largt ind compher Drojtt on which thty hiit t imttot o S ytst of orior tit'itnce.\nChange in time when A 50% HO\nEconomles tipet trtchLt Hl epet tortcrt Drsthpt taecil Drlope iLrees dunrgtiuy ooaitd\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PrEsented by JUSTIN REOCK 7 Deputy CTO DX",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 884.88
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "more productive. Here's how it measures that. Sundar Pichai says Al is making Google engineers 10%\nBy Huh Lrdsy\nAgainst Expert Forecasts and Developer Self-Reports, Early-2025 Ai Slows Down Exporienced Opon-Source Dovelopers meir\nIn thr Rc!, 16 detopers wth moderte A +prance complete 2ke ura in largt ind compher Drojtt on which thty hiit t imttot o S ytst of orior tit'itnce.\nChange in time when A 50% HO\nEconomles tipet trtchLt Hl epet tortcrt Drsthpt taecil Drlope iLrees dunrgtiuy ooaitd\nAIE/LEAD LEADERSHIP IN AI-ASSISTED ENGINEERING\nGoogle DeepMind PrEsented by JUSTIN REOCK 7 Deputy CTO DX",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

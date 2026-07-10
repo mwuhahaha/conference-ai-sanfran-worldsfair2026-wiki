@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Personal & Edge\nPersonal (NPU/Mobile): Shifting execution to\nlocal \"sunk-cost\" hardware to maintain local\ndata by design.\nEdge (Desktop/Single-GPU): Establishing\nfixed-cost reasoning on a 24GB-80GB\nfootprint.\nBattery Priority: On mobile, power utilization is\npart of the cost and is arguably\nmore critical than raw token generation cost.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 25.0
+      },
+      {
+        "role": "title",
+        "text": "Personal & Edge",
+        "x": 43.0,
+        "y": 11.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Personal (NPU/Mobile): Shifting execution to\nlocal \"sunk-cost\" hardware to maintain local\ndata by design.",
+        "x": 54.0,
+        "y": 24.0,
+        "w": 33.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Edge (Desktop/Single-GPU): Establishing\nfixed-cost reasoning on a 24GB-80GB\nfootprint.",
+        "x": 54.0,
+        "y": 47.0,
+        "w": 33.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Battery Priority: On mobile, power utilization is\npart of the cost and is arguably\nmore critical than raw token generation cost.",
+        "x": 54.0,
+        "y": 67.0,
+        "w": 34.0,
+        "h": 19.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 39.0,
+        "y": 82.0,
+        "w": 40.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/SS-A8sE7hkw/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663497.266597,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Personal & Edge\nPersonal (NPU/Mobile): Shifting execution to\nlocal \"sunk-cost\" hardware to maintain local\ndata by design.\nEdge (Desktop/Single-GPU): Establishing\nfixed-cost reasoning on a 24GB-80GB\nfootprint.\nBattery Priority: On mobile, power utilization is\npart of the cost and is arguably\nmore critical than raw token generation cost.",
+  "advanced_ocr": {}
+}

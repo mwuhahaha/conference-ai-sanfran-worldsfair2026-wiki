@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "skill normalize-listing Austin Denver Raleigh",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "low-text diagram slide",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#faf8f2",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "skill",
+        "x": 28.0,
+        "y": 14.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "normalize-listing",
+        "x": 24.0,
+        "y": 20.0,
+        "w": 21.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Austin",
+        "x": 15.0,
+        "y": 66.0,
+        "w": 17.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Denver",
+        "x": 40.0,
+        "y": 66.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Raleigh",
+        "x": 65.0,
+        "y": 66.0,
+        "w": 18.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/ZD9-4fW2HhM/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665667.573383,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "skill normalize-listing Austin Denver Raleigh",
+  "advanced_ocr": {}
+}

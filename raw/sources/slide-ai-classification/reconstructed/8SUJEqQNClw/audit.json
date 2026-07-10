@@ -1,0 +1,1161 @@
+{
+  "video_id": "8SUJEqQNClw",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 17,
+  "rejected_count": 4,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "In December Anthropic wrote a great blog post that canonically defined agents and workflows",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple large-text slide",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#11110e",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "In December Anthropic wrote a great blog post that canonically defined agents and workflows",
+            "x": 34.0,
+            "y": 26.0,
+            "w": 42.0,
+            "h": 28.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-003.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657974.0043566,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "In December Anthropic wrote a great blog post that canonically defined agents and workflows",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "In April OpenAI released a paper on the topic",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple large-text slide with small inset cover art",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#11110e",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "In April OpenAI released a paper on the topic",
+            "x": 32.0,
+            "y": 25.0,
+            "w": 40.0,
+            "h": 26.0
+          },
+          {
+            "role": "caption",
+            "text": "A practical guide to building agents",
+            "x": 69.0,
+            "y": 18.0,
+            "w": 16.0,
+            "h": 41.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-004.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657974.0064254,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "In April OpenAI released a paper on the topic",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Hot Take #1: Don't be That Guy",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple large-text slide",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#11110e",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Hot Take #1: Don't be That Guy",
+            "x": 27.0,
+            "y": 27.0,
+            "w": 30.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "HELLO my name is That Guy",
+            "x": 70.0,
+            "y": 22.0,
+            "w": 20.0,
+            "h": 29.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-005.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657974.0088422,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Hot Take #1: Don't be That Guy",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Sometimes That Guy works for a FAANG type company in a public facing role Then the rest of us are really in for it",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple large-text slide",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#11110e",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Sometimes That Guy works for a FAANG type company in a public facing role",
+            "x": 25.0,
+            "y": 18.0,
+            "w": 43.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "Then the rest of us are really in for it",
+            "x": 25.0,
+            "y": 46.0,
+            "w": 42.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-006.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657974.0116193,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Sometimes That Guy works for a FAANG type company in a public facing role Then the rest of us are really in for it",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "\"Use the platform\" was a codeword for why React was wrong and anti-web",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple large-text slide",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#11110e",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "\"Use the platform\" was a codeword for why React was wrong and anti-web",
+            "x": 26.0,
+            "y": 31.0,
+            "w": 50.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-007.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657974.0130932,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "\"Use the platform\" was a codeword for why React was wrong and anti-web",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Some of our users *loved* this. But many folks didn't.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple large-text slide",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#11110e",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Some of our users *loved* this.",
+            "x": 26.0,
+            "y": 28.0,
+            "w": 42.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "But many folks didn't",
+            "x": 26.0,
+            "y": 44.0,
+            "w": 30.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-008.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657974.0172606,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Some of our users *loved* this. But many folks didn't.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "So when I see APIs\nlike this, it gives me\n(bad) flashbacks\n\n// Langgraph.js\nconst graph = new MessageGraph()\n// nodes\n.addNode(\"nodeA\", funcA)\n.addNode(\"nodeB\", funcB)\n// edges\n.addEdge(START, \"nodeA\")\n.addEdge(\"nodeA\", \"nodeB\")\n.addEdge(\"nodeB\", END)\n\ngithub.com/mastra-ai/mastra",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code snippet and small footer text make OCR more efficient than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "near-black with faint concentric rings",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "So when I see APIs like this, it gives me (bad) flashbacks",
+            "x": 24.0,
+            "y": 27.0,
+            "w": 34.0,
+            "h": 24.0
+          },
+          {
+            "role": "code",
+            "text": "// Langgraph.js",
+            "x": 61.0,
+            "y": 16.0,
+            "w": 34.0,
+            "h": 46.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-009.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658148.0926886,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "AIE like this, it gives me So when I see APls (bad) flashbacks const graph new MessageGraph o: tanggraph-js caddEdge(-nodeBP, END) Il! edbes. saddEdge(START, caddNode(nodeB Iw! nodes. saddNode( nodeAr) CnodeA-) nodeB funcA) funcB)\ngithub.con/mastrare\nMicrosoft smolo\nWord's Fakr",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 445.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "So when I see APIs\nlike this, it gives me\n(bad) flashbacks\n\n// Langgraph.js\nconst graph = new MessageGraph()\n// nodes\n.addNode(\"nodeA\", funcA)\n.addNode(\"nodeB\", funcB)\n// edges\n.addEdge(START, \"nodeA\")\n.addEdge(\"nodeA\", \"nodeB\")\n.addEdge(\"nodeB\", END)\n\ngithub.com/mastra-ai/mastra",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected from the image; restored the title, code punctuation, and obvious identifiers."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE\nOr like this:\n\n// Ingest\nconst [notifyTeam, assignPlan] = await Promise.all([\n  step.run(\"notify_team\", async () => {\n    return { notified: true };\n  }),\n  step.run(\"assign_default_plan\", async () => {\n    return { planId: \"starter\" };\n  }),\n]);\n\ngithub.com/mastra-ai/mastra",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code snippet and small text are better handled by OCR, while the title is short enough to read directly.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "near-black with faint concentric rings",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "Or like this:",
+            "x": 24.0,
+            "y": 28.0,
+            "w": 19.0,
+            "h": 11.0
+          },
+          {
+            "role": "code",
+            "text": "// Ingest",
+            "x": 50.0,
+            "y": 18.0,
+            "w": 45.0,
+            "h": 47.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-010.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658184.6018164,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Or like this:",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "AIE Or like this: const InottfyTean, asstgnplanl awatt Pron tse:ali(l Wlipget Step.run(-nottfy-teamo async 0 -1 return ( nottfleda trae Js\nStep run(-assign-defautt ptan- asyns (0) >t\nD\ngithub.com'mastca-ai/mastra\nMicrosoft Smol",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 348.88
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "AIE\nOr like this:\n\n// Ingest\nconst [notifyTeam, assignPlan] = await Promise.all([\n  step.run(\"notify_team\", async () => {\n    return { notified: true };\n  }),\n  step.run(\"assign_default_plan\", async () => {\n    return { planId: \"starter\" };\n  }),\n]);\n\ngithub.com/mastra-ai/mastra",
+        "text_status": "meaningful",
+        "corrections": "Accepted the visible slide text and corrected obvious OCR errors in the code snippet and URL."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Or like this:\n\n// Ingest\nconst [notifyTeam, assignPlan] = await Promise.all([\n  step.run(\"notify_team\", async () => {\n    return { notified: true };\n  }),\n  step.run(\"assign_default_plan\", async () => {\n    return { planId: \"starter\" };\n  }),\n]);\n\ngithub.com/mastra-ai/mastra",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code snippet and small text are better handled by OCR, while the title is short enough to read directly.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "near-black with faint concentric rings",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "Or like this:",
+            "x": 24.0,
+            "y": 28.0,
+            "w": 19.0,
+            "h": 11.0
+          },
+          {
+            "role": "code",
+            "text": "// Ingest",
+            "x": 50.0,
+            "y": 18.0,
+            "w": 45.0,
+            "h": 47.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-011.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658257.5114207,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Or like this:",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "AIE Or like this: const [notifyTeam,assignPlan]= await Promise.all（[ step.run(\"notify_team\",async（)=>{ return {notified:true };\nstep.run(\"assign_default_plan\",async()=>{ return {planId:\"starter\");\ngithub.com/mastra-ai/mastra",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 285.68
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Or like this:\n\n// Ingest\nconst [notifyTeam, assignPlan] = await Promise.all([\n  step.run(\"notify_team\", async () => {\n    return { notified: true };\n  }),\n  step.run(\"assign_default_plan\", async () => {\n    return { planId: \"starter\" };\n  }),\n]);\n\ngithub.com/mastra-ai/mastra",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR with corrections to punctuation, brackets, and code formatting; kept only clearly visible text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "A Pattern Language\nTowns·Buildings·Construction\nChristopher Alexander\nSara Ishikawa·Murray Silverstein\nwith\nMax Jacobson·Ingrid Fiksdahl-King\nShlomo Angel",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Book-cover text and small thumbnail labels are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "near-black with subtle texture",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "A Pattern Language",
+            "x": 22.0,
+            "y": 7.0,
+            "w": 24.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Towns Buildings Construction",
+            "x": 22.0,
+            "y": 24.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Christopher Alexander",
+            "x": 26.0,
+            "y": 52.0,
+            "w": 18.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-012.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658338.1986609,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "A Pattern Language",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "A Pattern Language IOEKTRA\nTowns·Buildings·Construction\nAIE\nSara Ishikawa·MurraySilverstein Christopher Alexander\nMax Jacobson-IngridFiksdahl-King Shlomo Angel\ngithub.com/mastra-ai/mastra\naws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 277.04
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "A Pattern Language\nTowns·Buildings·Construction\nChristopher Alexander\nSara Ishikawa·Murray Silverstein\nwith\nMax Jacobson·Ingrid Fiksdahl-King\nShlomo Angel",
+        "text_status": "meaningful",
+        "corrections": "Corrected OCR by dropping watermark noise and restoring the book title, subtitle, and author spacing/punctuation."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "How the WorkOS folks put it in their\nMastra workshop yesterday:\n\nAgents are stateful AI entities that:\n• Maintain conversation memory\n• Execute workflows autonomously\n• Make decisions based on context\n• Use tools to complete tasks\n\nThink of them as AI assistants with both\nmemory and capabilities.\n\nWorkflows are composable pipelines that:\n• Chain multiple steps together\n• Pass data between steps\n• Validate inputs/outputs with Zod\n• Handle errors gracefully\n\nThink of them as typed, observable\nfunctions that can do complex multi-step\noperations.\n\ngithub.com/mastra-ai/mastra",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multiple text boxes and bullet lists make OCR the better triage path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "near-black with subtle concentric rings",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How the WorkOS folks put it in their Mastra workshop yesterday:",
+            "x": 23.0,
+            "y": 10.0,
+            "w": 55.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Agents are stateful AI entities that:",
+            "x": 26.0,
+            "y": 38.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Workflows are composable pipelines that:",
+            "x": 66.0,
+            "y": 38.0,
+            "w": 31.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-013.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658424.9891965,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "AIE Mastra workshop yesterday: How the WorkoS folks put it in their thanksNick+Zack!\nAgents are stateful Al entities that: Workflows are composable pipelines that:\nMaintain conversationmemory Make decisionsbased on context Executeworkflows autonomously Use tools to complete tasks Passdatabetween steps Handle errors gracefully Validate inputs/outputswithZod Chain multiple steps together\nmemory and capabilities. Thinkof them asAl assistantswithboth functions that can do complex multi-step operations. Think of them as typed, observable\ngithub.com/mastra-ai/mastr\nMicrosoft smol ai",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 797.89
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "How the WorkOS folks put it in their\nMastra workshop yesterday:\n\nAgents are stateful AI entities that:\n• Maintain conversation memory\n• Execute workflows autonomously\n• Make decisions based on context\n• Use tools to complete tasks\n\nThink of them as AI assistants with both\nmemory and capabilities.\n\nWorkflows are composable pipelines that:\n• Chain multiple steps together\n• Pass data between steps\n• Validate inputs/outputs with Zod\n• Handle errors gracefully\n\nThink of them as typed, observable\nfunctions that can do complex multi-step\noperations.\n\ngithub.com/mastra-ai/mastra",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR structure; corrected obvious spacing/casing errors and restored line breaks from the slide."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Here's another way to put it:\n(1) Agents are a turn based game.\n(2) Workflows are a rules engine for your tech tree",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "near-black with subtle concentric rings",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Here's another way to put it:",
+            "x": 24.0,
+            "y": 12.0,
+            "w": 44.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "(1) Agents are a turn based game.",
+            "x": 28.0,
+            "y": 28.0,
+            "w": 28.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "(2) Workflows are a rules engine for your tech tree",
+            "x": 28.0,
+            "y": 42.0,
+            "w": 38.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-014.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658546.389919,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Here's another way to put it:\n(1) Agents are a turn based game.\n(2) Workflows are a rules engine for your tech tree",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Here’s another way to put it:\n(1) Agents store threads of messages and continuously interact with users\n(2) Workflows can have branching, parallelism, conditions, loops, can suspend/resume, etc",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large readable bullets and title; not dense enough to need OCR.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with subtle concentric ripple texture",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Here’s another way to put it:",
+            "x": 23.0,
+            "y": 7.0,
+            "w": 45.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "(1) Agents store threads of messages and continuously interact with users\n(2) Workflows can have branching, parallelism, conditions, loops, can suspend/resume, etc",
+            "x": 24.0,
+            "y": 21.0,
+            "w": 49.0,
+            "h": 25.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-015.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658650.7154796,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Here’s another way to put it:\n(1) Agents store threads of messages and continuously interact with users\n(2) Workflows can have branching, parallelism, conditions, loops, can suspend/resume, etc",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "At the end of the day it's all just a tradeoff",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple readable slide with a large title and a small diagram; OCR not needed.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black with subtle concentric ripple texture",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "At the end of the day it's all just a tradeoff",
+            "x": 23.0,
+            "y": 33.0,
+            "w": 31.0,
+            "h": 25.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "power\ncontrol",
+            "x": 57.0,
+            "y": 16.0,
+            "w": 34.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "multi-agent\nagent\nworkflow",
+            "x": 54.0,
+            "y": 69.0,
+            "w": 39.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-016.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658650.7212794,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "At the end of the day it's all just a tradeoff",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rules of agents + workflow composition\n(1) Agents have tools\n(2) Workflows have steps\n(3) An agent can be a step\n(4) A workflow can be a tool\n(5) An agent can be a tool\n(6) A workflow can be a step",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large readable title and bullets; OCR not needed.",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "black with subtle concentric ripple texture",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Rules of agents + workflow composition",
+            "x": 21.0,
+            "y": 5.0,
+            "w": 66.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "(1) Agents have tools\n(2) Workflows have steps\n(3) An agent can be a step\n(4) A workflow can be a tool\n(5) An agent can be a tool\n(6) A workflow can be a step",
+            "x": 22.0,
+            "y": 22.0,
+            "w": 54.0,
+            "h": 58.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-017.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658650.722392,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Rules of agents + workflow composition\n(1) Agents have tools\n(2) Workflows have steps\n(3) An agent can be a step\n(4) A workflow can be a tool\n(5) An agent can be a tool\n(6) A workflow can be a step",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agent supervisor\nSupervisor\n\nconst researchAgent = new Agent({\n  name: 'research-agent',\n  instructions: 'You are a research agent that analyzes',\n  model: openai('gpt-4'),\n});\n\nconst summaryAgent = new Agent({\n  name: 'summary-agent',\n  instructions: 'You are a summary agent.',\n  model: openai('gpt-4'),\n});\n\nconst researchTool = createTool({\n  id: 'research',\n  execute: async ({ inputData }) => {\n    const result = await researchAgent.generate(inputData.query);\n    return { text: result.text };\n  },\n});\n\nconst summaryTool = createTool({\n  id: 'summarize',\n  execute: async ({ inputData }) => {\n    const result = await summaryAgent.generate(inputData.text);\n    return { text: result.text };\n  },\n});\n\nexport const supervisorAgent = new Agent({\n  name: 'supervisor-agent',\n  instructions: 'You are a supervisor agent that coordinates research and summarization tasks.',\n  model: openai('gpt-4'),\n  tools: [researchTool, summaryTool],\n});\n\naws\nWorld's Fair",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code-heavy slide is better handled by OCR; only the title is captured here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with subtle concentric ripple texture",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Agent supervisor",
+            "x": 24.0,
+            "y": 7.0,
+            "w": 32.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Supervisor",
+            "x": 34.0,
+            "y": 15.0,
+            "w": 15.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-018.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658650.7232707,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Agent supervisor",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Agent supervisor const researchAgent new Agent({ nane:'research-agent'. instrocttons:You are a research agent that analyzes\nAIE Supervisor const researchTool=createToolf const sumaryAgent=new Agent({ nase:'sumary-agent' sodel: openai(gpt-4). execute:asyoc (fnputData})o（ id:research' Unstructions:You are a suaary agent. return ttext: resutt.text）; const result= aait researchAgent.geoerate(inputpota.query);\nconst suaryTootcreateToot{ execute:.async( inputData }）{ id1'sumarize', const result * await suanaryAgent.generate(inputoato.text); retun text: result.text:\nexport const supervisorAgent= new Agent( nodel:openai(gpt-4'), 1ua6e-sos1AJadns:acu tools:[researchTool,summaryTool], instructlons:You are a supervisor agent that coordinates ETCA research and sunaarization tasks. hose toole\naws\nWorid's Fair",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 947.51
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Agent supervisor\nSupervisor\n\nconst researchAgent = new Agent({\n  name: 'research-agent',\n  instructions: 'You are a research agent that analyzes',\n  model: openai('gpt-4'),\n});\n\nconst summaryAgent = new Agent({\n  name: 'summary-agent',\n  instructions: 'You are a summary agent.',\n  model: openai('gpt-4'),\n});\n\nconst researchTool = createTool({\n  id: 'research',\n  execute: async ({ inputData }) => {\n    const result = await researchAgent.generate(inputData.query);\n    return { text: result.text };\n  },\n});\n\nconst summaryTool = createTool({\n  id: 'summarize',\n  execute: async ({ inputData }) => {\n    const result = await summaryAgent.generate(inputData.text);\n    return { text: result.text };\n  },\n});\n\nexport const supervisorAgent = new Agent({\n  name: 'supervisor-agent',\n  instructions: 'You are a supervisor agent that coordinates research and summarization tasks.',\n  model: openai('gpt-4'),\n  tools: [researchTool, summaryTool],\n});\n\naws\nWorld's Fair",
+        "text_status": "meaningful",
+        "corrections": "Accepted the clear title and visible code labels; corrected obvious OCR errors like misspellings and punctuation, but left partially unreadable code text minimal rather than inventing missing lines."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Workflow as tool\n\nexport const agent = new Agent({\n  name: 'Agent',\n  instructions: `Ask the user for their location, check weather, and plan a trip`,\n  model: openai('gpt-4o-mini'),\n  workflows: {\n    checkWeather,\n    planTrip\n  },\n  memory,\n});",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code-heavy slide is better handled by OCR; only the title is captured here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with subtle concentric ripple texture",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Workflow as tool",
+            "x": 24.0,
+            "y": 7.0,
+            "w": 28.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-019.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658763.998282,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Workflow as tool",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Workflow as tool export const agent = new Age\nname: 'Agent',\ninstructions: Ask the use\nAIE and plan a trip, their location, check wea\nmodel:openai('gpt-4o-min\nworkflows: planTrip checkweather,\n); memory,\ngithub.com/mastra-a\nMicrosoft smol ai\nWord's Fair",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 454.4
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Workflow as tool\n\nexport const agent = new Agent({\n  name: 'Agent',\n  instructions: `Ask the user for their location, check weather, and plan a trip`,\n  model: openai('gpt-4o-mini'),\n  workflows: {\n    checkWeather,\n    planTrip\n  },\n  memory,\n});",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for clear code text, punctuation, and capitalization; accepted the slide title and visible footer text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/8SUJEqQNClw/slide-019.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "sponsor/logo wall only",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "non-slide sponsor frame",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#000000",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "INNOVATION PARTNER",
+            "x": 39.0,
+            "y": 7.0,
+            "w": 23.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 41.0,
+            "y": 14.0,
+            "w": 18.0,
+            "h": 17.0
+          },
+          {
+            "role": "caption",
+            "text": "PLATINUM SPONSORS",
+            "x": 39.0,
+            "y": 43.0,
+            "w": 23.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Graphite",
+            "x": 12.0,
+            "y": 62.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "Windsurf",
+            "x": 38.0,
+            "y": 62.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "MongoDB",
+            "x": 66.0,
+            "y": 61.0,
+            "w": 21.0,
+            "h": 11.0
+          },
+          {
+            "role": "logo",
+            "text": "daily",
+            "x": 11.0,
+            "y": 77.0,
+            "w": 16.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "augment code",
+            "x": 37.0,
+            "y": 78.0,
+            "w": 27.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "WorkOS",
+            "x": 68.0,
+            "y": 77.0,
+            "w": 20.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-001.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657974.0006218,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "speaker intro card",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "speaker intro card",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#11110e",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 10.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "Who I am",
+            "x": 24.0,
+            "y": 6.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "Why I'm giving this talk",
+            "x": 55.0,
+            "y": 6.0,
+            "w": 39.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Sam Bhagwat",
+            "x": 25.0,
+            "y": 49.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Founder/CEO, Mastra.ai",
+            "x": 24.0,
+            "y": 57.0,
+            "w": 20.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "Mastra",
+            "x": 61.0,
+            "y": 39.0,
+            "w": 17.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "npm create mastra",
+            "x": 56.0,
+            "y": 73.0,
+            "w": 24.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-002.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657974.002837,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage, not a presentation slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Non-slide stage shot.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "black stage curtains",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-020.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658820.98833,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker on stage at podium; no readable presentation slide content.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a content slide.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "black stage backdrop",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-021.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658843.1902232,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

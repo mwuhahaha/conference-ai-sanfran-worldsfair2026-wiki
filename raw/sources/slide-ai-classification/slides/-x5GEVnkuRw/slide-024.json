@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RAG actually earns its keep\n\n2. FETCH — Pull the *full text* of that section's subtree from the DoclingDocument.\n\n3. ATTEMPT — LLM tries to answer from the section text.\nReturns {can_answer: bool, response: str}.\n\ncan_answer = true\nreturn answer\n\ncan_answer = false\n\n4. ITERATE — go back to SELECT, with the visited section excluded.\n\nNotice what's not in this picture: no chunker, no embedding model, no vector store, no top-k. The \"index\" is a markdown outline of the document with one summary per section, generated once offline. The \"retriever\" is the LLM itself, reading that outline and choosing where to look.\n\nThis only works because two things are already true about the input document:\n1. It's a DoclingDocument — a real tree with sections, paragraphs, tables, and figures, parsed by Docling from the source PDF.\n2. Each section already has a summary attached as metadata, written by DoclingEnrichingAgent in a one-time enrichment pass.\n\nWe'll use a fixture that already has both. If you want to run this on your own PDF, there's an optional cell a few steps down that shows you",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Continuation of a diagram slide with small labels and paragraph text; OCR is likely the cheapest accurate read.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark charcoal",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "2. FETCH -- Pull the *full text of that section's subtree from the DoclingDocument.",
+        "x": 23.0,
+        "y": 11.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3. ATTEMPT -- LLM tries to answer from the section text. Returns {can_answer: bool, response: str}.",
+        "x": 23.0,
+        "y": 33.0,
+        "w": 46.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "can_answer = true",
+        "x": 29.0,
+        "y": 57.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "can_answer = false",
+        "x": 56.0,
+        "y": 57.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "return answer",
+        "x": 33.0,
+        "y": 67.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "4. ITERATE -- go back to SELECT, with the visited section excluded.",
+        "x": 52.0,
+        "y": 67.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Notice what's not in this picture: no chunker, no embedding model, no vector store, no top-k.",
+        "x": 20.0,
+        "y": 82.0,
+        "w": 74.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "The \"index\" is a markdown outline of the document with one summary per section, generated once offline.",
+        "x": 20.0,
+        "y": 88.0,
+        "w": 76.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-024.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-024.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657381.5545442,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Q Conversion.ipynb M Token_Cost_Comparison.ipynbM Chunkless_RAG.ipynbM× Chunking.ipynb\nDOCLING-WO... notebooks >fixtures RAG actually earns its keep>query_2 = “What was Red Hat's revenue growth in 2025 and how did it contribute to IBM's overall software segment? AddCodeAdd MarkdownRun All Restart Clear All Outputs Go To|Jupyter Variables Outline venv (3.13.7) (Python 3.13.7)\nOllama RAG.ipynb >scripts >src Conversion_Colab.ipynb Conversion.ipynb MCP_Agents.ipynb RAG.ipynb Serving.ipynb Token_Cost_Compari..M Chunking.ipynb gitignore Chunkless_RAG.ipynbM >output M M 2.FETCH 3.ATTEMPT-LLM triesto answer from the section text. can_answer =true -Pullthe*full text*of that section's subtree from the DoclingDocument. Returns (can_answer:bool,response:str}. can_answer = false\npyproject.toml Fconstraints.txt ①README.md!.poutine.yml LICENSE!mkdocs.yml!.pre-commit-config.yaml!.spellcheck.yaml F.spellcheck-en-custom.txt!markdownlint-cli2.yaml Notice what'snotinthispicture:nochunker,noembeddingmodel,novectorstore,no top-.Theindexisamarkdown outlineof the look. Thisonlyworksbecausetwothingsare alreadytrueabouttheinputdocument: 1.lt'saDocLingDocument-areal tree withsections,paragraphs,tables,and figures,parsedbyDoclingfrom the source PDF. 2.Eachsection alreadyhasa summary attached asmetadata,writtenbyDoclingEnrichingAgent ina one-time enrichmentpass. return answer visited section excluded. 4.ITERATE-go back toSELECT,with the\nOUTLINE Welluse afixture that alreadyhasboth.lfyou want torun thisonyourownPDF,there'san optional cellafewstepsdown that showsyou",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1542.0
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "RAG actually earns its keep\n\n2. FETCH — Pull the *full text* of that section's subtree from the DoclingDocument.\n\n3. ATTEMPT — LLM tries to answer from the section text.\nReturns {can_answer: bool, response: str}.\n\ncan_answer = true\nreturn answer\n\ncan_answer = false\n\n4. ITERATE — go back to SELECT, with the visited section excluded.\n\nNotice what's not in this picture: no chunker, no embedding model, no vector store, no top-k. The \"index\" is a markdown outline of the document with one summary per section, generated once offline. The \"retriever\" is the LLM itself, reading that outline and choosing where to look.\n\nThis only works because two things are already true about the input document:\n1. It's a DoclingDocument — a real tree with sections, paragraphs, tables, and figures, parsed by Docling from the source PDF.\n2. Each section already has a summary attached as metadata, written by DoclingEnrichingAgent in a one-time enrichment pass.\n\nWe'll use a fixture that already has both. If you want to run this on your own PDF, there's an optional cell a few steps down that shows you",
+    "text_status": "meaningful",
+    "corrections": "Cleaned notebook/UI noise and corrected obvious OCR spacing, punctuation, and Docling capitalization."
+  }
+}

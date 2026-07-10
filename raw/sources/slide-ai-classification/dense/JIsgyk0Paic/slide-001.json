@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "LLM agents in 2025\n\"Reasoning\" models = the future? Most LLMs are Chatbots o. Helpfut for interactive problem-solving. Great on Q&A benchmarks: Level 1 Stages of Artificial Intelligence' Chatbots, Al with conversational language\no. o. 01, 03, R1, Grok 3,.. Better at hard Q&A. Level 2. solving Reasoners, human-level problem\nBest practices for \"agents\" Level3 Agents, systems that can take actions\nMany chained LLM calls per task: Results are... OK? Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop: Level 5 Level 4: Innovators, Al that can aid In irventlon.. of an organization Organizations, Al that can do the work (OpenAl)",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense two-column slide with small table/diagram text and multiple bullet groups.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#efefef",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "LLM agents in 2025",
+        "x": 4.0,
+        "y": 3.0,
+        "w": 45.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Most LLMs are Chatbots\n\"Reasoning\" models = the future?\nBest practices for \"agents\"",
+        "x": 4.0,
+        "y": 14.0,
+        "w": 42.0,
+        "h": 74.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stages of Artificial Intelligence\nLevel 1\nLevel 2\nLevel 3\nLevel 4\nLevel 5",
+        "x": 55.0,
+        "y": 11.0,
+        "w": 41.0,
+        "h": 74.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/JIsgyk0Paic/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660875.0134869,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "LLM agents in 2025",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "LLM agents in 2025\n\"Reasoning\" models = the future? Most LLMs are Chatbots o. Helpfut for interactive problem-solving. Great on Q&A benchmarks: Level 1 Stages of Artificial Intelligence' Chatbots, Al with conversational language\no. o. 01, 03, R1, Grok 3,.. Better at hard Q&A. Level 2. solving Reasoners, human-level problem\nBest practices for \"agents\" Level3 Agents, systems that can take actions\nMany chained LLM calls per task: Results are... OK? Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop: Level 5 Level 4: Innovators, Al that can aid In irventlon.. of an organization Organizations, Al that can do the work (OpenAl)",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 804.32
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "LLM agents in 2025\n\"Reasoning\" models = the future? Most LLMs are Chatbots o. Helpfut for interactive problem-solving. Great on Q&A benchmarks: Level 1 Stages of Artificial Intelligence' Chatbots, Al with conversational language\no. o. 01, 03, R1, Grok 3,.. Better at hard Q&A. Level 2. solving Reasoners, human-level problem\nBest practices for \"agents\" Level3 Agents, systems that can take actions\nMany chained LLM calls per task: Results are... OK? Prompt engineering + tooling Evals, ops, tool-use, human-in-the-loop: Level 5 Level 4: Innovators, Al that can aid In irventlon.. of an organization Organizations, Al that can do the work (OpenAl)",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

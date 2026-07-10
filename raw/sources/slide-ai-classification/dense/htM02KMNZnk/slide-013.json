@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "In practice, most agent memory frameworks have focused on user continuity: preferences,\nprofile facts, conversation history, and long-lived personalization.\nchat experiences is not self-improving learning system for production agents. 米\nApprosch What It stores Retrleval signal Learns from outcomes?\nta?ut! Tulu iLryCher, hoet Ravr chat hlstory Recency No\nExtracted facts, preteroncos Embedding similarity Ho\nTt tttg yiph L'ip'drieia. Entity relationshups over timo Graph travorsal + foconcy No\nVerbal self-roflections Simlarity to current task Partialty: reflections capture ranked by outcome lossons, but rotrievat b not\nagentRTx Ltlity scores Tast-lrkcd refoctions wth Simitasity weighted by outcome-derived utility Tm tehty tcorat updt sln it",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small table/text slide; OCR will be more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "In practice, most agent memory frameworks have focused on user continuity: preferences, profile facts, conversation history, and long-lived personalization.",
+        "x": 1.0,
+        "y": 4.0,
+        "w": 98.0,
+        "h": 14.0
+      },
+      {
+        "role": "subtitle",
+        "text": "chat experiences is not self-improving learning system for production agents.",
+        "x": 12.0,
+        "y": 17.0,
+        "w": 76.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Approach",
+        "x": 17.0,
+        "y": 39.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "What it stores",
+        "x": 34.0,
+        "y": 39.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Retrieval signal",
+        "x": 53.0,
+        "y": 39.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Learns from outcomes?",
+        "x": 69.0,
+        "y": 39.0,
+        "w": 18.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-013.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669084.070561,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "In practice, most agent memory frameworks have focused on user continuity: preferences,\nprofile facts, conversation history, and long-lived personalization.\nchat experiences is not self-improving learning system for production agents. 米\nApprosch What It stores Retrleval signal Learns from outcomes?\nta?ut! Tulu iLryCher, hoet Ravr chat hlstory Recency No\nExtracted facts, preteroncos Embedding similarity Ho\nTt tttg yiph L'ip'drieia. Entity relationshups over timo Graph travorsal + foconcy No\nVerbal self-roflections Simlarity to current task Partialty: reflections capture ranked by outcome lossons, but rotrievat b not\nagentRTx Ltlity scores Tast-lrkcd refoctions wth Simitasity weighted by outcome-derived utility Tm tehty tcorat updt sln it",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1051.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "In practice, most agent memory frameworks have focused on user continuity: preferences,\nprofile facts, conversation history, and long-lived personalization.\nchat experiences is not self-improving learning system for production agents. 米\nApprosch What It stores Retrleval signal Learns from outcomes?\nta?ut! Tulu iLryCher, hoet Ravr chat hlstory Recency No\nExtracted facts, preteroncos Embedding similarity Ho\nTt tttg yiph L'ip'drieia. Entity relationshups over timo Graph travorsal + foconcy No\nVerbal self-roflections Simlarity to current task Partialty: reflections capture ranked by outcome lossons, but rotrievat b not\nagentRTx Ltlity scores Tast-lrkcd refoctions wth Simitasity weighted by outcome-derived utility Tm tehty tcorat updt sln it",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-column slide with many small text lines and numeric claims.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "green gradient with white curved left panel",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Dual Nature of AI - Real Stories, Real Losses",
+        "x": 6.0,
+        "y": 16.0,
+        "w": 29.0,
+        "h": 48.0
+      },
+      {
+        "role": "body",
+        "text": "Stories That Changed Everything:",
+        "x": 41.0,
+        "y": 11.0,
+        "w": 54.0,
+        "h": 35.0
+      },
+      {
+        "role": "body",
+        "text": "The Harsh Reality:",
+        "x": 41.0,
+        "y": 51.0,
+        "w": 54.0,
+        "h": 35.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658489.765927,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

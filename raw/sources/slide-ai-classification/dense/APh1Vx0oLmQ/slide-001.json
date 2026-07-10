@@ -1,97 +1,60 @@
 {
   "is_content_slide": true,
   "confidence": 0.99,
-  "frame_type": "content_slide",
+  "frame_type": "title_card",
   "reject_reason": "",
-  "text": "BUILDING DETERMINISTIC\nINFRASTRUCTURE FOR\nNON-DETERMINISTIC\nAI AGENTS\n\nTHE EMERGING CONTROL PLANE\nFOR AUTONOMOUS AI SYSTEMS\n\nNishant Gupta\nTech Lead @ Meta\n\nDETERMINISTIC BOUNDARY (DB-500)\nENTROPY REDUCTION: 99.9%\nPREDICTABILITY INDEX: 1.0\nSYSTEM VARIANCE: <0.1%\nCONTROL ENCLOSURE (CE-99.99%)\n\nSIGNAL RECTIFICATION\nSTATE SYNCHRONIZATION\nSIGNAL SYNCHRONIZATION\nRIGID FRAMEWORK\nCONTROL ENCLOSURE (CE-99.99%)",
+  "text": "BUILDING DETERMINISTIC INFRASTRUCTURE FOR NON-DETERMINISTIC AI AGENTS\nTHE EMERGING CONTROL PLANE FOR AUTONOMOUS AI SYSTEMS\nNishant Gupta\nTech Lead @ Meta",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Title card with large direct-readable text.",
+  "direct_read_ready": true,
+  "text_density": "medium",
   "layout": {
-    "background": "#f5f5f2",
+    "background": "white",
     "style": "diagram",
     "blocks": [
       {
         "role": "title",
-        "text": "BUILDING DETERMINISTIC\nINFRASTRUCTURE FOR\nNON-DETERMINISTIC\nAI AGENTS",
-        "x": 4.0,
-        "y": 0,
-        "w": 43.0,
-        "h": 22.0
+        "text": "BUILDING DETERMINISTIC INFRASTRUCTURE FOR NON-DETERMINISTIC AI AGENTS",
+        "x": 3.0,
+        "y": 2.0,
+        "w": 42.0,
+        "h": 18.0
       },
       {
         "role": "subtitle",
-        "text": "THE EMERGING CONTROL PLANE\nFOR AUTONOMOUS AI SYSTEMS",
+        "text": "THE EMERGING CONTROL PLANE FOR AUTONOMOUS AI SYSTEMS",
         "x": 5.0,
-        "y": 23.0,
-        "w": 29.0,
-        "h": 12.0
-      },
-      {
-        "role": "diagram",
-        "text": "3D cube diagram with red synchronization lines around a gray cloud-like core",
-        "x": 36.0,
-        "y": 11.0,
-        "w": 53.0,
-        "h": 65.0
+        "y": 15.0,
+        "w": 28.0,
+        "h": 11.0
       },
       {
         "role": "diagram_label",
-        "text": "DETERMINISTIC BOUNDARY (DB-500)\nENTROPY REDUCTION: 99.9%\nPREDICTABILITY INDEX: 1.0\nSYSTEM VARIANCE: <0.1%\nCONTROL ENCLOSURE (CE-99.99%)",
+        "text": "DETERMINISTIC BOUNDARY [DB-500]",
         "x": 72.0,
         "y": 8.0,
-        "w": 25.0,
-        "h": 17.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "SIGNAL RECTIFICATION",
-        "x": 85.0,
-        "y": 39.0,
-        "w": 13.0,
-        "h": 7.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "STATE SYNCHRONIZATION",
-        "x": 86.0,
-        "y": 49.0,
-        "w": 13.0,
-        "h": 7.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "SIGNAL SYNCHRONIZATION",
-        "x": 25.0,
-        "y": 39.0,
-        "w": 14.0,
-        "h": 7.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "RIGID FRAMEWORK",
-        "x": 37.0,
-        "y": 80.0,
-        "w": 13.0,
-        "h": 6.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "CONTROL ENCLOSURE (CE-99.99%)",
-        "x": 78.0,
-        "y": 81.0,
-        "w": 18.0,
+        "w": 21.0,
         "h": 6.0
       },
       {
         "role": "caption",
         "text": "Nishant Gupta\nTech Lead @ Meta",
         "x": 4.0,
-        "y": 89.0,
-        "w": 20.0,
-        "h": 9.0
+        "y": 87.0,
+        "w": 24.0,
+        "h": 10.0
       }
     ]
   },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
   "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-001.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783628956.3048444
+  "classified_at_epoch": 1783658435.922039,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "BUILDING DETERMINISTIC INFRASTRUCTURE FOR NON-DETERMINISTIC AI AGENTS\nTHE EMERGING CONTROL PLANE FOR AUTONOMOUS AI SYSTEMS\nNishant Gupta\nTech Lead @ Meta",
+  "advanced_ocr": {}
 }

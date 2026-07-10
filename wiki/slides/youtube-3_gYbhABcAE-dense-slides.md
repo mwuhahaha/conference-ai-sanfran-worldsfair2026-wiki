@@ -16,11 +16,23 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/3_gYbhABcAE/slide-001.jpg]]
 
-- Source scene image: `frame-00002.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.36`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/3_gYbhABcAE/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: none.
+- OCR decision: ready — Diagram slide with multiple small labels and compact text blocks.
 ![[assets/dense-slides/3_gYbhABcAE/slide-002.jpg]]
 
-- Source scene image: `frame-00006.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.4`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/3_gYbhABcAE/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+- OCR decision: ready — Text-heavy slide with bullets and embedded code screenshots.
+
+Slide text:
+
+> Text is the New State
+> - The Trap: Treating the real world as enums and booleans because it feels safe.
+> - The Collision: Forcing natural language intent into discrete booleans lobotomizes the context.
+> - The Fix: Preserve semantic meaning through raw strings so the agent can adapt intelligently downstream.
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/3_gYbhABcAE/audit.json`

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "sponsor_logo",
+  "reject_reason": "sponsor logos only",
+  "text": "PLATINUM SPONSORS\nBraintrust WorkOS OpenAI",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "logo/title slide with no dense text",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#0a0a0a",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "PLATINUM SPONSORS",
+        "x": 34.0,
+        "y": 35.0,
+        "w": 32.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "Braintrust",
+        "x": 7.0,
+        "y": 49.0,
+        "w": 31.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "WorkOS",
+        "x": 42.0,
+        "y": 49.0,
+        "w": 24.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenAI",
+        "x": 74.0,
+        "y": 49.0,
+        "w": 18.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-001.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669392.3325386,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "PLATINUM SPONSORS\nBraintrust WorkOS OpenAI",
+  "advanced_ocr": {}
+}

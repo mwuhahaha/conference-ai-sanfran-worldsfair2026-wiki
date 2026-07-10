@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE\nCancel\nCreate\nAstronaut\nLayla\nSpace\nSUGGESTIONS",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dark UI screenshot with scattered labels and small controls; OCR should read the interface text more reliably.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f7f7f7",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Create",
+        "x": 26.0,
+        "y": 0,
+        "w": 70.0,
+        "h": 76.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Astronaut",
+        "x": 46.0,
+        "y": 18.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Space",
+        "x": 61.0,
+        "y": 55.0,
+        "w": 10.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/5nOLb27hQ5w/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657918.9304256,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Ceedte\nAIE\nMicrotott Workr aws Wordd'sFar\nWorkfsFai VeroaR neo4j\nDATASTAK Wortr'sFai\nWordaFar YoredaFa",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 209.44
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "AIE\nCancel\nCreate\nAstronaut\nLayla\nSpace\nSUGGESTIONS",
+    "text_status": "meaningful",
+    "corrections": "Corrected the obvious OCR errors and kept only clearly visible slide/UI text; ignored the speaker inset and sponsor-wall text."
+  }
+}

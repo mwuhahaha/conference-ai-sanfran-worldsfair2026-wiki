@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.91,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "ESTMMATED IQIAL COST:\n000'65,\nBuiding data model.\nShow mme suppies and cost.\nWhat wouid this cost to buld in the Northeast Division?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product/UI screenshot with small embedded text that is better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg, #79de8f 0%, #5fd38a 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "ESTIMATED TOTAL COST",
+        "x": 24.0,
+        "y": 15.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "$329,000",
+        "x": 25.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "Higharc AI",
+        "x": 59.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Building data model...",
+        "x": 58.0,
+        "y": 31.0,
+        "w": 22.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Show me supplies and cost.",
+        "x": 58.0,
+        "y": 52.0,
+        "w": 23.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "What would this cost to build in the Northeast Division?",
+        "x": 58.0,
+        "y": 71.0,
+        "w": 28.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/OXMMN-XbxwA/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661859.7822852,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/opencv-adaptive",
+    "text": "ESTMMATED IQIAL COST:\n000'65,\nBuiding data model.\nShow mme suppies and cost.\nWhat wouid this cost to buld in the Northeast Division?",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 270.0
+  },
+  "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "ESTMMATED IQIAL COST:\n000'65,\nBuiding data model.\nShow mme suppies and cost.\nWhat wouid this cost to buld in the Northeast Division?",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

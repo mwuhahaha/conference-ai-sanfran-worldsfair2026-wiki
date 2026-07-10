@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Developer Velocity\n\nBuilding agents\nwith agents.\n\nClaude Code, Cursor, and cloud agents accelerate how the team writes, reviews, and ships building OG Assist with the same kind of tools we ship.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code/editor screenshot with small text is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "solid #191919",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "Claude Code",
+        "x": 4.0,
+        "y": 7.0,
+        "w": 56.0,
+        "h": 85.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenGov",
+        "x": 84.0,
+        "y": 2.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Developer Velocity",
+        "x": 64.0,
+        "y": 24.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Building agents with agents.",
+        "x": 64.0,
+        "y": 31.0,
+        "w": 29.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "Claude Code, Cursor, and cloud agents accelerate how the team writes, reviews, and ships building OG Assist with the same kind of tools we ship.",
+        "x": 64.0,
+        "y": 78.0,
+        "w": 30.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/4uFVSLgD2Q4/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657957.081284,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "OpenGovT\n157.63\naffurr\nHoyAILngLoee:Ceofereocele2el tutioJesvei Developer Velocity Building agents\nwith agents.\nClaude Code,Cursor.and cloud agents accelerate how the\nteam writes,reviews,and ships building OG Assist with the\nsamekindoftoolswe ship.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 400.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Developer Velocity\n\nBuilding agents\nwith agents.\n\nClaude Code, Cursor, and cloud agents accelerate how the team writes, reviews, and ships building OG Assist with the same kind of tools we ship.",
+    "text_status": "meaningful",
+    "corrections": "Corrected OCR for the title and body punctuation/casing; accepted the slide text visible in the image."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Datasots>goldon-summarios\ngolden-summaries Labet\nExperiments Examples28 Evaluators Versions\nExperimentsAnalysis\n0.25 075 0.5 0.0c 75s 5.0s 25s $O.0s\nCoumna\nname length_complianoe_oval roference_aocuracy_eval cemantio_cimiarity_eval mg latency totalcost totaltokons errorrate\n5 lama-32- 30 1.00 100 0.89 0.58 01.3s 40.798 0.00% Tences\n口 02b gemmy-4- 1.00 100 0.95 0.58 8.4s 63.742 0.00% Tences\nqw3-170 0.89 100 Q76 0.51 07.26 ②81.293 0.00% Tracos\n口 2 qwen25. 15b 0.92 0.96 0.72 0.49 010 36.930 0.00% Trocee\nsoonet- baselne daus- 100 100 0.96 aro 02.9s $0.22 42.931 0.00%\n®",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot with chart, tabs, and table text is better suited to OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black/dark UI",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Datasets > golden-summaries",
+        "x": 5.0,
+        "y": 5.0,
+        "w": 36.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram",
+        "text": "Experiments Analysis",
+        "x": 8.0,
+        "y": 18.0,
+        "w": 40.0,
+        "h": 16.0
+      },
+      {
+        "role": "table",
+        "text": "name / json_parse_rate_eval / length_compliance_eval / reference_accuracy_eval / semantic_similarity_eval / avg latency / total cost / total tokens / error rate / Traces",
+        "x": 4.0,
+        "y": 33.0,
+        "w": 92.0,
+        "h": 60.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-021.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-021.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668146.2722976,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Datasots>goldon-summarios\ngolden-summaries Labet\nExperiments Examples28 Evaluators Versions\nExperimentsAnalysis\n0.25 075 0.5 0.0c 75s 5.0s 25s $O.0s\nCoumna\nname length_complianoe_oval roference_aocuracy_eval cemantio_cimiarity_eval mg latency totalcost totaltokons errorrate\n5 lama-32- 30 1.00 100 0.89 0.58 01.3s 40.798 0.00% Tences\n口 02b gemmy-4- 1.00 100 0.95 0.58 8.4s 63.742 0.00% Tences\nqw3-170 0.89 100 Q76 0.51 07.26 ②81.293 0.00% Tracos\n口 2 qwen25. 15b 0.92 0.96 0.72 0.49 010 36.930 0.00% Trocee\nsoonet- baselne daus- 100 100 0.96 aro 02.9s $0.22 42.931 0.00%\n®",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 507.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Datasots>goldon-summarios\ngolden-summaries Labet\nExperiments Examples28 Evaluators Versions\nExperimentsAnalysis\n0.25 075 0.5 0.0c 75s 5.0s 25s $O.0s\nCoumna\nname length_complianoe_oval roference_aocuracy_eval cemantio_cimiarity_eval mg latency totalcost totaltokons errorrate\n5 lama-32- 30 1.00 100 0.89 0.58 01.3s 40.798 0.00% Tences\n口 02b gemmy-4- 1.00 100 0.95 0.58 8.4s 63.742 0.00% Tences\nqw3-170 0.89 100 Q76 0.51 07.26 ②81.293 0.00% Tracos\n口 2 qwen25. 15b 0.92 0.96 0.72 0.49 010 36.930 0.00% Trocee\nsoonet- baselne daus- 100 100 0.96 aro 02.9s $0.22 42.931 0.00%\n®",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

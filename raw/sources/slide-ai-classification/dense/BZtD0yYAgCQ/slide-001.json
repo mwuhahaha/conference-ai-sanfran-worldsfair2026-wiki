@@ -1,0 +1,80 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "other",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshots and small headings are better handled by OCR than manual transcription in this triage pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with large white product panels and subtle concentric arcs",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 3.0,
+        "y": 10.0,
+        "w": 10.0,
+        "h": 16.0
+      },
+      {
+        "role": "title",
+        "text": "What can I help you ship?",
+        "x": 31.0,
+        "y": 3.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "What do you want to build?",
+        "x": 70.0,
+        "y": 2.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "What will you design today?",
+        "x": 68.0,
+        "y": 34.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 44.0,
+        "y": 88.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 74.0,
+        "y": 88.0,
+        "w": 12.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/BZtD0yYAgCQ/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658608.3743489,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

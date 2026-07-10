@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "the most important part of working with Fable is staying in the loop",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#111111",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "the most important part of working with Fable is staying in the loop",
+        "x": 28.0,
+        "y": 36.0,
+        "w": 38.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 70.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 40.0
+      },
+      {
+        "role": "caption",
+        "text": "Field Guide to Fable",
+        "x": 24.0,
+        "y": 78.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Thariq Shihipar / Member of Technical Staff ANTHROPIC",
+        "x": 24.0,
+        "y": 86.0,
+        "w": 48.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/9fubhllmsBU/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658354.56744,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "the most important part of working with Fable is staying in the loop",
+  "advanced_ocr": {}
+}

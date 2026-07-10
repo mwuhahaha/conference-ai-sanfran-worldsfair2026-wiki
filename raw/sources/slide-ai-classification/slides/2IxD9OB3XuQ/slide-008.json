@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Updating the model weights\n\nSFT\nSupervised fine-tuning\nimitate correct trajectories; needs labeled examples of the right behavior\n\nRL post-training\nDPO · GRPO · RLVR\nsample, score against a reward or preference signal, reinforce what wins\n\nLoRA\nLow-Rank Adaptation\nlimits the set of parameters that can change; cheaper, safer updates\n\nThey need: benchmark + evaluator.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense explanatory slide with multiple text blocks",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Updating the model weights",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 45.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "SFT\nSupervised fine-tuning",
+        "x": 4.0,
+        "y": 17.0,
+        "w": 23.0,
+        "h": 17.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "RL post-training\nDPO · GRPO · RLVR",
+        "x": 4.0,
+        "y": 38.0,
+        "w": 23.0,
+        "h": 17.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LoRA\nLow-Rank Adaptation",
+        "x": 4.0,
+        "y": 59.0,
+        "w": 23.0,
+        "h": 17.0
+      },
+      {
+        "role": "body",
+        "text": "imitate correct trajectories; needs labeled examples of the right behavior",
+        "x": 28.0,
+        "y": 20.0,
+        "w": 64.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "sample, score against a reward or preference signal, reinforce what wins",
+        "x": 28.0,
+        "y": 41.0,
+        "w": 64.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "limits the set of parameters that can change; cheaper, safer updates",
+        "x": 28.0,
+        "y": 63.0,
+        "w": 60.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "They need: benchmark + evaluator.",
+        "x": 15.0,
+        "y": 77.0,
+        "w": 42.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656242.055756,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Updating the model weights",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Updating the model weights\nSupervised fine-tuning SFT imitate correct trajectories; needs labeled examples of the rightbehavior\nRL post-training DPO·GRPO·RLVR sample, score against a reward or preference signal, reinforce what wins\nLow-Rank Adaptation LoRA limits the set of parameters that can change; cheaper, safer updates\nThey need: benchmark + evaluator.\nHard to apply to a raw production log (unless we lift it into a replayable envc",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 696.32
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Updating the model weights\n\nSFT\nSupervised fine-tuning\nimitate correct trajectories; needs labeled examples of the right behavior\n\nRL post-training\nDPO · GRPO · RLVR\nsample, score against a reward or preference signal, reinforce what wins\n\nLoRA\nLow-Rank Adaptation\nlimits the set of parameters that can change; cheaper, safer updates\n\nThey need: benchmark + evaluator.",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for spacing and obvious typos; kept only clearly visible text and omitted the cut-off bottom clause."
+  }
+}

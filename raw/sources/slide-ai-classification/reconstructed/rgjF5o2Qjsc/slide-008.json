@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Catch and Crisis in Vibe Coding\n1 More code\n2 More PRs\n3 Not less bugs/issues per line of code. (If not more).\n4 Lines of codes are written faster than a developer can review.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Catch and Crisis in Vibe Coding",
+        "x": 24.0,
+        "y": 3.0,
+        "w": 43.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "1 More code\n2 More PRs\n3 Not less bugs/issues per line of code. (If not more).\n4 Lines of codes are written faster than a developer can review.",
+        "x": 25.0,
+        "y": 20.0,
+        "w": 34.0,
+        "h": 48.0
+      },
+      {
+        "role": "diagram",
+        "text": "AI boosts output, but human review becomes the bottleneck",
+        "x": 60.0,
+        "y": 16.0,
+        "w": 33.0,
+        "h": 46.0
+      },
+      {
+        "role": "logo",
+        "text": "qodo",
+        "x": 87.0,
+        "y": 3.0,
+        "w": 8.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/reconstructed-slides/rgjF5o2Qjsc/slide-008.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671834.6318402,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Catch and Crisis in Vibe Coding\n1 More code\n2 More PRs\n3 Not less bugs/issues per line of code. (If not more).\n4 Lines of codes are written faster than a developer can review.",
+  "advanced_ocr": {}
+}

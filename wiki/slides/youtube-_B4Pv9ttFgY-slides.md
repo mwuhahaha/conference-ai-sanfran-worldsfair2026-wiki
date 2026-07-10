@@ -17,138 +17,121 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/_B4Pv9ttFgY/slide-001.jpg]]
-
-OCR text:
-
-> AI Engineer
-> EUROPE
-
 ![[assets/slides/_B4Pv9ttFgY/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.94`
+- Text source: agent_vision.
 
-> AIE
+Slide text:
+
 > Engineering the future of AI
 
 ![[assets/slides/_B4Pv9ttFgY/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — dense code/browser screenshot with small labels
 
-> ees
-> Sr ae a
-> x * & 2 : ae ra
-> re * Fe ; ne a
-> as
-> a a ea eee
-> iL. Or ee Lat ee
-> and ge! performance 7 7 7"
-> eral ee ae 7 . a.
-> . 7 Welcometo = 7
-> a ; the track!
-> . 4 a t
-> | Al Engineer |
-> Sele)
+Slide text:
+
+> hrntad ids at: Iia i e ：
+> 3+t3+tar: ve+AV+tala teuteretin PR LRS9 34 CINEMAI
+> AIE eT PITSTO
+> wdetheLiryeut
+> M (rlesl vs
+> Flnelea. and get performance insights!
+> Welcometo thc track!
+> 2O28 AlEngineer AI Engineer EUROPE
 
 ![[assets/slides/_B4Pv9ttFgY/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — small bio lines and QR code are better OCR targets
 
-> Bio
-> Michael Hablich
-> Product Manager @ Chrome Developer Tooling
-> Guest lecturer @ University of Applied Science St. Pölten
-> 20+ years of experience in tech
-> Tester, developer, project manager,...
-> linkedin.com/in/michael-hablich
+Slide text:
 
-![[assets/slides/_B4Pv9ttFgY/slide-005.jpg]]
-
-OCR text:
-
-> cit
-> / we — ~~ — a | ps eg Michael Hablich
-> C3
-> an i atl
-> [oe ea rs ee)
-> SE eae Tee eee)
-> aia a Ee oes Econ ae
-> naan
-> /\ ; ry
-> le
-> oe
+> 腺胶
+> MichaelHablich
+> AIE
+> Tester, developer. project manager. Product Manager @ Chrome Developer Tooling 20+ years of experlence in tech linkedin.com/in/mkhaelhabich Guest lecturer @ Unlversity of Applied Sclence St. P&lten
+> B028 AEnginace AlEngineer EUROPE
 
 ![[assets/slides/_B4Pv9ttFgY/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-006.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > We built it wrong
-> Engineering the future of AI
 
 ![[assets/slides/_B4Pv9ttFgY/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/right-72/contrast`.
+- OCR decision: ready — Code-heavy and multi-panel screenshot with small terminal/text content.
 
-> Webuiltitwrong
-> AIE Allthedata URL:https://hablich.dev/ Bounds:(min:878787192835,max:878792338739) Metrics （fie Metrics(lab/observed): Availableir -LCP:135 ms,event:（eventKey:r-3682,ts: -insight -LCP breakdown: -insight name:Cache example relevant trace bounds:(min:878787261166, descript relevant example examplequestion:wnat can 1 ao to reduce description:A long cache lifetime can spee example question: what caching strategies CLS:e. -TTFB:2ms,bounds:（min:878787192835, -Rende Semantic summary specific impr 78787192835, nizemyLCP s:(min:8787 ase wasmost no data for
-> AlEngineer Engineering the future of Al
+Slide text:
+
+> We built it wrong
+> All the data × Metrics(lab/observcd): Metrics (fie Available ir URL:https://hablich.dev/ 8ounds:(min:878787192835.max:878792338739} -LCP:135 ms,event:（eventKey: r-3682,ts: -insight name:Cache -LCPbreakdown: -CLS:e. examplequesrion:wnat can I aoto reduce relevant example descript example description:A long cache lifetine can spee insight relevant trace bounds:(min:878787261166, -Rende -TTF8:2ms,bounds:(min:878787192835, summary Semantic ase was nost s:(min:8787 specific impr 78787192835， nize my LCP nodatafor
+> example question:what caching strategies
+> Engineering the future of Al
 
 ![[assets/slides/_B4Pv9ttFgY/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
 
 > Agents are a different user class
-> Penn o
-> rs * 5 Intent
-> mn f Identify errors
-> Pra) on the page
-> ae
-> =
-> Cs =a
-> | AlEngineer |
-> EUROPE
+> Intent
+> Identify errors on the page
+> GUI for humans
+> Schema for agents
 
 ![[assets/slides/_B4Pv9ttFgY/slide-009.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-009.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Product/dashboard screenshot with small metrics and labels that OCR can extract more reliably than manual transcription.
 
-> Practicalexample
-> full-2026-03-30T08-23-38
-> Mar30,2:00AM
-> gemini_cli
-> gemini-pro-latest
-> Skills(CLI)
-> TESTID
-> ACTIONDATE
-> AOENT
-> MODEL
-> SERVING MODE
-> AIE
-> AVERAGE UPLIFT
-> ASSERTIONSPASSED
-> ACTIVATION
-> (26/26)tasks
-> GUIDANCECONSUMED
-> (25/26）tasks
-> Engineering the future of Al
-> AlEngineer
+Slide text:
+
+> Practical example
+> ★ + AIE Test O Averaoe upLift full-2026-03-30T08-23-38 Mr 30, 2:00 AM LCTON OATE geminl_ch TOrh? 37 WODEL gemird-pro-latost SEAYINO HODE SkMt (CLI)
+> 4794 84%
+> ASSIRTNONS SASSEO ACTIVADON 100%
+> 71 101+ 283 (26/26) uk)
+> GUIOANCE CONSUUED 96%
+> (25/26]Lb
+> AEngner. Engineering thefuture ofAl
 
 ![[assets/slides/_B4Pv9ttFgY/slide-010.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-010.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
 
-> Concern4:Trustboundaries
-> AIE
-> Allowremote debugging?
-> Aegp wcrCh
-> se dand yo e loy UR
-> nAu puerure vo uru ppo doap qon
-> withtustedapps.
-> Turmeffinsems
-> AlEngineer
-> AEngineer
-> EOE8
-> EUROPE
+Slide text:
+
+> Concern 4: Trust boundaries
+
+
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/_B4Pv9ttFgY/slide-001.jpg) — `speaker_stage` confidence `0.99`; speaker on stage, no readable slide
+- [`slide-005.jpg`](/assets/slides/_B4Pv9ttFgY/slide-005.jpg) — `speaker_stage` confidence `0.99`; speaker on stage with projected slide in background
+
+Classification audit: `raw/sources/slide-ai-classification/slides/_B4Pv9ttFgY/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

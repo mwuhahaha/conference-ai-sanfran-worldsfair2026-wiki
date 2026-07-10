@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "PA-Aeview - the root.cause fix\nVerdict: ready - root cause, with a test that reproduces it.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "PR-REVIEW - THE ROOT-CAUSE FIX",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 32.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "PR review screenshot",
+        "x": 37.0,
+        "y": 16.0,
+        "w": 26.0,
+        "h": 66.0
+      },
+      {
+        "role": "caption",
+        "text": "Verdict: ready — root cause, with a test that reproduces it.",
+        "x": 24.0,
+        "y": 89.0,
+        "w": 54.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669786.205933,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "PR-REVIEW - THE ROOT-CAUSE FIX",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "PA-Aeview - the root.cause fix\nVerdict: ready - root cause, with a test that reproduces it.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 195.28
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "PA-Aeview - the root.cause fix\nVerdict: ready - root cause, with a test that reproduces it.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

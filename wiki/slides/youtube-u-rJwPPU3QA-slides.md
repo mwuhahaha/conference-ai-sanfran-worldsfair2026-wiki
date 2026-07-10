@@ -17,116 +17,64 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/u-rJwPPU3QA/slide-001.jpg]]
-
-OCR text:
-
-> QEII CENTRE
-> Welcome to the QEII Centre
-
 ![[assets/slides/u-rJwPPU3QA/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/u-rJwPPU3QA/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: advanced OCR `rapidocr-live/full`.
+- OCR decision: ready — Dense multi-panel product slide with many small labels and screenshots.
 
-> Generate Speech Transcnbe Speech Compose Music
-> ee ea
-> Otten
-> U i
-> Pel
-> 4 bd
-> * * wetageage Ce
-> bd ad
-> a aad
-> Create Sound Effects Create Voces. Depioy Agents
-> e-- e..:
-> : eo“ weenie
-> , i seve
-> o—— oo
-> \ Qorrr ieee ceicetone
-> Cd
-> mi
-> A
-> aS e e
-> ‘ Engineering the future of Al
-> " a]
+Slide text:
+
+> Generate Speech Convert text to speech wh themost any platform. Transcribe Speech Reattme or batch Speech to Text for Compose Music Generate stems,yrics,and fl compositions with fult flexibility
+> Ughit of e Night
+> AIE cy emeet yo.on Dhe enemy of iogkc.
+> Create Sound Effects Seamless looping, any length, professional-grade sound effects. Clone someone's voice,generate one existing 10k voices. with a prompt,or use one ofour Create Voices Deploy Agents Fully managed agents platform, with Nastive SDKs for mobile and web.
+> Space sni
+> tsEL4543490
+> Engineering the future of Al
+> AIEng
 
 ![[assets/slides/u-rJwPPU3QA/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/u-rJwPPU3QA/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.93`
+- Text source: advanced OCR `rapidocr-live/full`.
+- OCR decision: ready — Embedded screenshots and dense small text are better suited for OCR than manual transcription in this pass.
 
-> ies
-> ‘ P By
-> Who saw this?
-> Over 1 5m impressions : oe a ay
-> e-~ emo 4 Artemis the Huntress (Roman marbl... Ya .
-> Say Goa MN veO) wAMeRNe emer EE TRie a ee
-> r n an ver sss = ra
-> me " way | Bins oe rant Os te tae do Late
-> aut Clade memes | Baer bemantietinedinkeond
-> a Sx 1
-> emcemenann Roman Imperal period, roughly Ist-2nd century ca” , oy
-> iL ff = ino
-> if \
-> l SIMPLY USE THAT
-> bltys. oc com send status 20244314902 ' -
-> BSO8S249 H :
-> | __.
-> {8 p
-> - 4 Al Engineer
-> east ; y EUROPE
+Slide text:
 
-![[assets/slides/u-rJwPPU3QA/slide-004.jpg]]
-
-OCR text:
-
-> i. I
-> fl | 0
-> ee |
-> uN
-> ee an tal » .
-> co Ea es Bet “ re
-> Pa * Pose $e. :
-> * * 7 . “ted i
-> wet ee ; 7 a
-> Bsa”
-> ye Oe
-> ; . | | Al Engineer |
-> a if ne EUROPE
+> Whosawthis?
+> Over1.5m impressions
+> R The British MuseumLondon,United Kingdom ArtemistheHuntress(Romanmarbl.
+> Identit Research
+> AIE can ust do stulr / buld in publc Unknown Roman sculptor,after a Greek original ARTIST
+> YEAR Roman Imperial period,roughly st-2nd century AD
+> SIMPLYUSETHAT
+> 10.30 AM-F40 19, 2026 44mK Vow information.
+> httos://x.com/isnit0/status/20244314992 65585249
+> AIEngineer
+> EUROPE
+> AIEng
 
 ![[assets/slides/u-rJwPPU3QA/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/u-rJwPPU3QA/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.94`
+- Text source: agent_vision.
+- OCR decision: ready — Contains several dense webpage screenshots and small interface text that OCR will capture better than manual reading.
 
-> OT staan .
-> tse teTa te ee Sa
-> P Build something with turbopufter and ElevenLa!
-> ak Nar
-> ; ; | Vi
-> Build. Ship. Win.“
-> 06 06 50 07
-> ans
-> Pu PY
-> * *
-> * * a te ba et
-> EYy Koons yy ; ;
-> Da la a ee 7
-> : Te ee ee Se etre
-> — Build something with turbopuffer and ElevenLabs
-> ' ; XIE
-> 4 in
-> aL =
-> ve
-> aed ae —
-> fo hes ; 1S weber Al Enainaar
-> ran (Be r ;
+Slide text:
 
-![[assets/slides/u-rJwPPU3QA/slide-006.jpg]]
+> Build. Ship. Win.
 
-OCR text:
 
-> AI Engineer
-> EUROPE
-> HTTPS://AI.ENGINEER
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/u-rJwPPU3QA/slide-001.jpg) — `speaker_stage` confidence `0.98`; Camera shot of speaker and audience with a projector screen; not a presentation slide frame.
+- [`slide-004.jpg`](/assets/slides/u-rJwPPU3QA/slide-004.jpg) — `speaker_stage` confidence `0.99`; Speaker photo/intro frame on a black background; no meaningful slide content.
+- [`slide-006.jpg`](/assets/slides/u-rJwPPU3QA/slide-006.jpg) — `title_card` confidence `0.97`; Branding-only closing card with logo and URL, not substantive presentation content.
+
+Classification audit: `raw/sources/slide-ai-classification/slides/u-rJwPPU3QA/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

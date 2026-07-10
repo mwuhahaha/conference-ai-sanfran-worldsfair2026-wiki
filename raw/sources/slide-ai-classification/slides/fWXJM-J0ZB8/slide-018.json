@@ -1,0 +1,130 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Rachel-ee Nabors(they/them) nearestnabors.co Measures of Success\nDimension What it asks How it's measured\nJSON validity Does the output parse?. Try JsoN. parse, count successes\nReference structural validity Do [ref:N] tokens point to messages that actually exist? message_count] Regex extract refs, check each N E [ 1,\nFactual consistency Does the summary stay faithful to the thread, or invent claims? summary against its source LLM-as-judge -- Claude scores each\nLength compliance Does it stay in the target word band? Word count vs context-specific limits (8-12 for list view, 19-46 for modal)\np50 latency: Typical TT summary Median across the eval set\np95 latency Worst-case wait 95th percentile across the e\nEach evaluator returms a per-example scort. Average across the 28-exarmple golden datasel, with 3 repetitions per erampl?.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Table slide with dense small text and multiple columns; OCR is the right extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f5f3ef",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Measures of Success",
+        "x": 38.0,
+        "y": 2.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Dimension",
+        "x": 8.0,
+        "y": 18.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "What it asks",
+        "x": 32.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "How it's measured",
+        "x": 66.0,
+        "y": 18.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "JSON validity",
+        "x": 8.0,
+        "y": 30.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Reference structural validity",
+        "x": 8.0,
+        "y": 42.0,
+        "w": 26.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Factual consistency",
+        "x": 8.0,
+        "y": 54.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Length compliance",
+        "x": 8.0,
+        "y": 66.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "p50 latency",
+        "x": 8.0,
+        "y": 78.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "p95 latency",
+        "x": 8.0,
+        "y": 89.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+        "x": 0,
+        "y": 0,
+        "w": 7.0,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-018.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668037.6742744,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Measures of Success",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Rachel-ee Nabors(they/them) nearestnabors.co Measures of Success\nDimension What it asks How it's measured\nJSON validity Does the output parse?. Try JsoN. parse, count successes\nReference structural validity Do [ref:N] tokens point to messages that actually exist? message_count] Regex extract refs, check each N E [ 1,\nFactual consistency Does the summary stay faithful to the thread, or invent claims? summary against its source LLM-as-judge -- Claude scores each\nLength compliance Does it stay in the target word band? Word count vs context-specific limits (8-12 for list view, 19-46 for modal)\np50 latency: Typical TT summary Median across the eval set\np95 latency Worst-case wait 95th percentile across the e\nEach evaluator returms a per-example scort. Average across the 28-exarmple golden datasel, with 3 repetitions per erampl?.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1225.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Rachel-ee Nabors(they/them) nearestnabors.co Measures of Success\nDimension What it asks How it's measured\nJSON validity Does the output parse?. Try JsoN. parse, count successes\nReference structural validity Do [ref:N] tokens point to messages that actually exist? message_count] Regex extract refs, check each N E [ 1,\nFactual consistency Does the summary stay faithful to the thread, or invent claims? summary against its source LLM-as-judge -- Claude scores each\nLength compliance Does it stay in the target word band? Word count vs context-specific limits (8-12 for list view, 19-46 for modal)\np50 latency: Typical TT summary Median across the eval set\np95 latency Worst-case wait 95th percentile across the e\nEach evaluator returms a per-example scort. Average across the 28-exarmple golden datasel, with 3 repetitions per erampl?.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

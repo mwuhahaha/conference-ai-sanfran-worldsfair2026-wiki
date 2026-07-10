@@ -1,0 +1,136 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-column comparison slide with small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "solid deep purple",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Comparison Against Baseline Systems",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 62.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Rule-Based Systems",
+        "x": 12.0,
+        "y": 31.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "High False Positives ~38%",
+        "x": 14.0,
+        "y": 40.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Document-Level Only",
+        "x": 14.0,
+        "y": 49.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "No Adaptive Learning",
+        "x": 14.0,
+        "y": 58.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "NLP-Augmented Systems",
+        "x": 37.0,
+        "y": 31.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Moderate False Positives",
+        "x": 38.0,
+        "y": 40.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Partial Cross-Document",
+        "x": 38.0,
+        "y": 49.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Limited Document Adaptability",
+        "x": 38.0,
+        "y": 58.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "AI Multi-Document Correlation Framework",
+        "x": 60.0,
+        "y": 30.0,
+        "w": 25.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Low False Positives ~9%",
+        "x": 63.0,
+        "y": 40.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Full Cross-Document Correlation",
+        "x": 61.0,
+        "y": 49.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Continuous Adaptive Learning from Audit Feedback",
+        "x": 61.0,
+        "y": 58.0,
+        "w": 24.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/Iwe_RY-fYgI/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659731.6659858,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

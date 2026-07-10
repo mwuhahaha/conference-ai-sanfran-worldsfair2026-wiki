@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Your behavioral monitor is broken.\nWatch the activation delta\nthe training data leaves behind.\n40× stronger than joint\n1.00 precision • 0 FPR\n1 layer is enough\ncheap 4× SAE",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "radial-gradient(circle at left, #e7f4ef 0%, #ffffff 40%)",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "BOTTOM LINE",
+        "x": 5.0,
+        "y": 9.0,
+        "w": 15.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Your behavioral monitor is broken.\nWatch the activation delta\nthe training data leaves behind.",
+        "x": 5.0,
+        "y": 15.0,
+        "w": 55.0,
+        "h": 23.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "40×\nstronger than joint",
+        "x": 5.0,
+        "y": 53.0,
+        "w": 22.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1.00\nprecision • 0 FPR",
+        "x": 29.0,
+        "y": 53.0,
+        "w": 22.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1 layer\nis enough",
+        "x": 53.0,
+        "y": 53.0,
+        "w": 22.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "cheap\n4× SAE",
+        "x": 78.0,
+        "y": 53.0,
+        "w": 18.0,
+        "h": 13.0
+      },
+      {
+        "role": "caption",
+        "text": "Full paper - accepted at UCNN: \"Activation Differences Reveal Backdoors: A Comparison of SAE Architectures\"",
+        "x": 5.0,
+        "y": 68.0,
+        "w": 84.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "github.com/techsachinkr/diff-sae-backdoor-detection",
+        "x": 5.0,
+        "y": 80.0,
+        "w": 45.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "sachinkumar.ait@live.com",
+        "x": 72.0,
+        "y": 80.0,
+        "w": 24.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/IQkVMvXQKLY/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660629.5978553,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Your behavioral monitor is broken.\nWatch the activation delta\nthe training data leaves behind.\n40× stronger than joint\n1.00 precision • 0 FPR\n1 layer is enough\ncheap 4× SAE",
+  "advanced_ocr": {}
+}

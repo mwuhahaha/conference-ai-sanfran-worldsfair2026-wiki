@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "12.278 Synthest X\nSynthest Pew pnerge 中 phet ir e fet manuten Do you ship to Lina, Peru?\nthe EU and Us. Expek! ten to fourteen We ship artywherd postal works. business days, and s Customs and VAT are on you outside cingrns\ncover it if you spend more than $500.\nFAO\nTksen auomiedeay brd an hop? Ro Tie lhao oneyt hus ben notuted erd r! rabw o\nA synths &ro in\nWooCommrt",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product/UI screenshot slide with dense small text inside the demo screenshots.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#121212",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Syntest",
+        "x": 14.0,
+        "y": 10.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Do you ship to Lima, Peru?",
+        "x": 70.0,
+        "y": 24.0,
+        "w": 22.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/UcYoMg-8-L8/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664973.62771,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Syntest",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "12.278 Synthest X\nSynthest Pew pnerge 中 phet ir e fet manuten Do you ship to Lina, Peru?\nthe EU and Us. Expek! ten to fourteen We ship artywherd postal works. business days, and s Customs and VAT are on you outside cingrns\ncover it if you spend more than $500.\nFAO\nTksen auomiedeay brd an hop? Ro Tie lhao oneyt hus ben notuted erd r! rabw o\nA synths &ro in\nWooCommrt",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 632.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "12.278 Synthest X\nSynthest Pew pnerge 中 phet ir e fet manuten Do you ship to Lina, Peru?\nthe EU and Us. Expek! ten to fourteen We ship artywherd postal works. business days, and s Customs and VAT are on you outside cingrns\ncover it if you spend more than $500.\nFAO\nTksen auomiedeay brd an hop? Ro Tie lhao oneyt hus ben notuted erd r! rabw o\nA synths &ro in\nWooCommrt",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

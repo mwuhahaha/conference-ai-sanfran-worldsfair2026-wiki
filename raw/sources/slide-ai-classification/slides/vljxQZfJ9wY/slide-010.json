@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Continuous Evaluation Loop Evaluation is an always-running service, not a testing phase.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light grid",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Continuous Evaluation Loop",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Online Telemetry detects drift/errors",
+        "x": 64.0,
+        "y": 10.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Triggers HITL review for edge cases",
+        "x": 77.0,
+        "y": 43.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Human feedback feeds into Offline Datasets",
+        "x": 64.0,
+        "y": 82.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Offline Scenario Evals validate system updates before pushing back to Production",
+        "x": 7.0,
+        "y": 46.0,
+        "w": 25.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Evaluation is an always-running service, not a testing phase.",
+        "x": 39.0,
+        "y": 37.0,
+        "w": 30.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/vljxQZfJ9wY/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672479.8142712,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Continuous Evaluation Loop Evaluation is an always-running service, not a testing phase.",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "New! Hub hosts your agent traces\noher Talu Uonres Untute Uamsts: Datasets 21 a Fker by rume Ful-tet search,:, 1l Sort: Trendng\nHodalles 08 Audo: Documnt t + n6ttT - Lt9 a + or yrp eptpdn: el #: m badlogicganos/pi-aono + 0xSoro/pi-sossions +in· LpLta3dyxo· b%·±17. 5\nD Geosptiul 9 Tet Tmeseries. a voto + Tnct· Updattdadp ato. a7- ±5a. 04 m badlogicganos/pi-diff-review jediscti/agent-traces-smival + Trca: Updaed about ghour ao · D T · A ll: 01\nSue(rour) 0 lhoestq/ag+nt-trac+s-+xaaple + Yaces: Updrid&day. sgo. D4· ±loe· 1 virhnx9e/vtcade-sassion± t o · rst + - alr tnou re noqr ptirpdn\nFo.k: + Trce · Updsttd sbout 1 boar sgo - a 1i · ± 1o · 1 noikapy/fxKobolds 食 tnoe- Updrted 6 dys ago: u 12· 主H cfahlgreni/egent-sessicns-list\nBoe! = ov + prqut optimired parquet:. Bb tragetolder + Tnkes · Updned J dsy ago · D&· L39 mcfahlgron1/pi-diff-review + Tncgs + Updsted 1 day ago: a 15 + ±44 LaisEckart/appioraltostt-lava-sessions\n》MTOH B soundfoldr: ■tit + Trces + Updated 1dsys hro - ct 42? + t(o1 m cfahlgrenl/pi-nono-fresh + Tract4 - Updsted 1 days sgo - B 1 - ± 3s M dongxx11e4/Basoline_featboach\nType Benchmark 1( ( Irxes x:± Trces·Updsted2 dnysato·02·上32 I davanstrien/pi-tracos M davanstrien/pi-traco-parsor-stssions ± Trx++Updt*d2dyt +go: aI+ ±2?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product UI screenshot contains dense small text; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3f5ef with pale green border",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "New! Hub hosts your agent traces",
+        "x": 8.0,
+        "y": 4.0,
+        "w": 54.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "datasets / filters / traces list UI",
+        "x": 8.0,
+        "y": 14.0,
+        "w": 84.0,
+        "h": 77.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662088.6630948,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Hub hosts your agent traces",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "New! Hub hosts your agent traces\noher Talu Uonres Untute Uamsts: Datasets 21 a Fker by rume Ful-tet search,:, 1l Sort: Trendng\nHodalles 08 Audo: Documnt t + n6ttT - Lt9 a + or yrp eptpdn: el #: m badlogicganos/pi-aono + 0xSoro/pi-sossions +in· LpLta3dyxo· b%·±17. 5\nD Geosptiul 9 Tet Tmeseries. a voto + Tnct· Updattdadp ato. a7- ±5a. 04 m badlogicganos/pi-diff-review jediscti/agent-traces-smival + Trca: Updaed about ghour ao · D T · A ll: 01\nSue(rour) 0 lhoestq/ag+nt-trac+s-+xaaple + Yaces: Updrid&day. sgo. D4· ±loe· 1 virhnx9e/vtcade-sassion± t o · rst + - alr tnou re noqr ptirpdn\nFo.k: + Trce · Updsttd sbout 1 boar sgo - a 1i · ± 1o · 1 noikapy/fxKobolds 食 tnoe- Updrted 6 dys ago: u 12· 主H cfahlgreni/egent-sessicns-list\nBoe! = ov + prqut optimired parquet:. Bb tragetolder + Tnkes · Updned J dsy ago · D&· L39 mcfahlgron1/pi-diff-review + Tncgs + Updsted 1 day ago: a 15 + ±44 LaisEckart/appioraltostt-lava-sessions\n》MTOH B soundfoldr: ■tit + Trces + Updated 1dsys hro - ct 42? + t(o1 m cfahlgrenl/pi-nono-fresh + Tract4 - Updsted 1 days sgo - B 1 - ± 3s M dongxx11e4/Basoline_featboach\nType Benchmark 1( ( Irxes x:± Trces·Updsted2 dnysato·02·上32 I davanstrien/pi-tracos M davanstrien/pi-traco-parsor-stssions ± Trx++Updt*d2dyt +go: aI+ ±2?",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1296.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "New! Hub hosts your agent traces\noher Talu Uonres Untute Uamsts: Datasets 21 a Fker by rume Ful-tet search,:, 1l Sort: Trendng\nHodalles 08 Audo: Documnt t + n6ttT - Lt9 a + or yrp eptpdn: el #: m badlogicganos/pi-aono + 0xSoro/pi-sossions +in· LpLta3dyxo· b%·±17. 5\nD Geosptiul 9 Tet Tmeseries. a voto + Tnct· Updattdadp ato. a7- ±5a. 04 m badlogicganos/pi-diff-review jediscti/agent-traces-smival + Trca: Updaed about ghour ao · D T · A ll: 01\nSue(rour) 0 lhoestq/ag+nt-trac+s-+xaaple + Yaces: Updrid&day. sgo. D4· ±loe· 1 virhnx9e/vtcade-sassion± t o · rst + - alr tnou re noqr ptirpdn\nFo.k: + Trce · Updsttd sbout 1 boar sgo - a 1i · ± 1o · 1 noikapy/fxKobolds 食 tnoe- Updrted 6 dys ago: u 12· 主H cfahlgreni/egent-sessicns-list\nBoe! = ov + prqut optimired parquet:. Bb tragetolder + Tnkes · Updned J dsy ago · D&· L39 mcfahlgron1/pi-diff-review + Tncgs + Updsted 1 day ago: a 15 + ±44 LaisEckart/appioraltostt-lava-sessions\n》MTOH B soundfoldr: ■tit + Trces + Updated 1dsys hro - ct 42? + t(o1 m cfahlgrenl/pi-nono-fresh + Tract4 - Updsted 1 days sgo - B 1 - ± 3s M dongxx11e4/Basoline_featboach\nType Benchmark 1( ( Irxes x:± Trces·Updsted2 dnysato·02·上32 I davanstrien/pi-tracos M davanstrien/pi-traco-parsor-stssions ± Trx++Updt*d2dyt +go: aI+ ±2?",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

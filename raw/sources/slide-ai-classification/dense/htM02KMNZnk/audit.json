@@ -1,0 +1,1336 @@
+{
+  "video_id": "htM02KMNZnk",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 18,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Nesled boogrs WNe\nLoopcraft: The Art of Stacking Loops\nLeel 6 / G\nTokens Turms Tools Tasks Automations\n6 · software factories??????·ar gools, alocate. col tot nee. open eplorwtion\n5.automatom·cron,soogonts,muRr-agem eitcoaorationad cepetisio:adarys\n4 ·paal loop ·run,judga,rety eit:goal reathet 、huy\nopent ealt vege off-goa. agent resu wogos me v\n3·agmtturn·caf tooi,tedresun toit: no mare 10ol cafls: ≥ Nn5s\nreas_(ite() →240803 rn_tests()\n2·cat lpep·promgt. respond,aign eit Meofuf reney:oe hure\nAH·BOAOH\nuser:“eplainrecursion* asistart: dreft reply humk甲 humpn. elgredrepsy\n1. token loop· sample,appendl repiat tt: atop toetn·secondy\nthe cat tat",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-level diagram with small labels and many tiny text elements; OCR will be more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(180deg, #f7f7f5 0%, #ffffff 100%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Loopcraft: The Art of Stacking Loops",
+            "x": 50.0,
+            "y": 4.0,
+            "w": 34.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tokens Turns Tools Tasks Automations",
+            "x": 48.0,
+            "y": 14.0,
+            "w": 36.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668622.4048,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/contrast",
+        "text": "Nesled boogrs WNe\nLoopcraft: The Art of Stacking Loops\nLeel 6 / G\nTokens Turms Tools Tasks Automations\n6 · software factories??????·ar gools, alocate. col tot nee. open eplorwtion\n5.automatom·cron,soogonts,muRr-agem eitcoaorationad cepetisio:adarys\n4 ·paal loop ·run,judga,rety eit:goal reathet 、huy\nopent ealt vege off-goa. agent resu wogos me v\n3·agmtturn·caf tooi,tedresun toit: no mare 10ol cafls: ≥ Nn5s\nreas_(ite() →240803 rn_tests()\n2·cat lpep·promgt. respond,aign eit Meofuf reney:oe hure\nAH·BOAOH\nuser:“eplainrecursion* asistart: dreft reply humk甲 humpn. elgredrepsy\n1. token loop· sample,appendl repiat tt: atop toetn·secondy\nthe cat tat",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1071.68
+      },
+      "ocr_source": "rapidocr-live/right-72/contrast",
+      "ocr_reconcile": {
+        "text": "Nesled boogrs WNe\nLoopcraft: The Art of Stacking Loops\nLeel 6 / G\nTokens Turms Tools Tasks Automations\n6 · software factories??????·ar gools, alocate. col tot nee. open eplorwtion\n5.automatom·cron,soogonts,muRr-agem eitcoaorationad cepetisio:adarys\n4 ·paal loop ·run,judga,rety eit:goal reathet 、huy\nopent ealt vege off-goa. agent resu wogos me v\n3·agmtturn·caf tooi,tedresun toit: no mare 10ol cafls: ≥ Nn5s\nreas_(ite() →240803 rn_tests()\n2·cat lpep·promgt. respond,aign eit Meofuf reney:oe hure\nAH·BOAOH\nuser:“eplainrecursion* asistart: dreft reply humk甲 humpn. elgredrepsy\n1. token loop· sample,appendl repiat tt: atop toetn·secondy\nthe cat tat",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "# unedited, from the threads HARD DATA:\n\"different outputs at temperature = 0, \"even at temp O you get different: r/LocaiLLaMA answers, you're using GPUs.\" mostly the MoE architecture.\" r/LocaiLLaMA 1,000 prompts temp 0. vLLM - Qwen-3-8B - 80 answers\n\"completely correct or completely wrong,. Hacker News depending on minute numerical diffs.\"",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small quote blocks and a statistics panel make this OCR-suitable and too dense for manual transcription in triage.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#fbfaf5",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "# unedited, from the threads",
+            "x": 7.0,
+            "y": 10.0,
+            "w": 52.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "r/LocalLLaMA",
+            "x": 9.0,
+            "y": 22.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "HARD DATA",
+            "x": 67.0,
+            "y": 10.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "1,000 prompts → 80 answers",
+            "x": 65.0,
+            "y": 18.0,
+            "w": 26.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668664.4781752,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "# unedited, from the threads HARD DATA:\n\"different outputs at temperature = 0, \"even at temp O you get different: r/LocaiLLaMA answers, you're using GPUs.\" mostly the MoE architecture.\" r/LocaiLLaMA 1,000 prompts temp 0. vLLM - Qwen-3-8B - 80 answers\n\"completely correct or completely wrong,. Hacker News depending on minute numerical diffs.\"",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 456.81
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "# unedited, from the threads HARD DATA:\n\"different outputs at temperature = 0, \"even at temp O you get different: r/LocaiLLaMA answers, you're using GPUs.\" mostly the MoE architecture.\" r/LocaiLLaMA 1,000 prompts temp 0. vLLM - Qwen-3-8B - 80 answers\n\"completely correct or completely wrong,. Hacker News depending on minute numerical diffs.\"",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "# unedited, from the threads HARD DATA:\n: r/locaiLlaMA \"different outputs at temperature = 0, \"even at temp O you get different answers, you're using GPUs.\": r/LocaillaMA. mostly the MoE architecture.\" 1,000 prompts temp 0: vLLM: Qwen-3-8B - 80 answers\n\"completely correct or completely wrong.: Hacker News depending on' minute numerical diffs.\"",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small quote blocks and a statistics panel make this OCR-suitable and too dense for manual transcription in triage.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#fbfaf5",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "# unedited, from the threads",
+            "x": 7.0,
+            "y": 10.0,
+            "w": 52.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "r/LocalLLaMA",
+            "x": 9.0,
+            "y": 22.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "HARD DATA",
+            "x": 67.0,
+            "y": 10.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "1,000 prompts → 80 answers",
+            "x": 65.0,
+            "y": 18.0,
+            "w": 26.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668701.508577,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "# unedited, from the threads HARD DATA:\n: r/locaiLlaMA \"different outputs at temperature = 0, \"even at temp O you get different answers, you're using GPUs.\": r/LocaillaMA. mostly the MoE architecture.\" 1,000 prompts temp 0: vLLM: Qwen-3-8B - 80 answers\n\"completely correct or completely wrong.: Hacker News depending on' minute numerical diffs.\"",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 470.41
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "# unedited, from the threads HARD DATA:\n: r/locaiLlaMA \"different outputs at temperature = 0, \"even at temp O you get different answers, you're using GPUs.\": r/LocaillaMA. mostly the MoE architecture.\" 1,000 prompts temp 0: vLLM: Qwen-3-8B - 80 answers\n\"completely correct or completely wrong.: Hacker News depending on' minute numerical diffs.\"",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.78,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": false,
+      "ocr_reason": "This is a screenshot-heavy slide with little meaningful readable text; OCR is unlikely to add value in triage.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#f4f1e8",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 25.0,
+            "y": 21.0,
+            "w": 48.0,
+            "h": 33.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668743.6883597,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "It's throughput — how many cycles fit the same window.\n7 cycles\n143 cycles",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "The slide is simple and legible enough for direct reading; OCR is not necessary in triage.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#fbfaf7",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "It's throughput — how many cycles fit the same window.",
+            "x": 10.0,
+            "y": 8.0,
+            "w": 58.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Each square is one development cycle. Run the loop by hand and the grid stays nearly empty; run it agentically and the same window fills in — and every cycle can make the agent better.",
+            "x": 10.0,
+            "y": 15.0,
+            "w": 62.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "7 cycles",
+            "x": 79.0,
+            "y": 32.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "143 cycles",
+            "x": 79.0,
+            "y": 56.0,
+            "w": 12.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668743.6926894,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "It's throughput — how many cycles fit the same window.\n7 cycles\n143 cycles",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "World's Fair AlEngincer\nAre these fully-vibed pRs good?\nWomantedroiunow\nWere real companies, with real codebases, coding this way?\nWere the end-to-end Al-generated PRs any good?\nGl Lab Vorld'sFair ALn In what ways did they fail?\nFair enAl groptio\nler. uFair Engineering the future of Al\nFair TADOG",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Mixed stage framing and small bullet text are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with a large white slide panel",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Are these fully-vibed PRs good?",
+            "x": 34.0,
+            "y": 14.0,
+            "w": 44.0,
+            "h": 11.0
+          },
+          {
+            "role": "subtitle",
+            "text": "We wanted to know:",
+            "x": 34.0,
+            "y": 23.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "1 Were real companies, with real codebases, coding this way?\n2 Were the end-to-end AI-generated PRs any good?\n3 In what ways did they fail?",
+            "x": 37.0,
+            "y": 57.0,
+            "w": 46.0,
+            "h": 20.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668905.522818,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "World's Fair AlEngincer\nAre these fully-vibed pRs good?\nWomantedroiunow\nWere real companies, with real codebases, coding this way?\nWere the end-to-end Al-generated PRs any good?\nGl Lab Vorld'sFair ALn In what ways did they fail?\nFair enAl groptio\nler. uFair Engineering the future of Al\nFair TADOG",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 538.56
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "World's Fair AlEngincer\nAre these fully-vibed pRs good?\nWomantedroiunow\nWere real companies, with real codebases, coding this way?\nWere the end-to-end Al-generated PRs any good?\nGl Lab Vorld'sFair ALn In what ways did they fail?\nFair enAl groptio\nler. uFair Engineering the future of Al\nFair TADOG",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI systems evolved faster than our evaluation methods\nThe Illusion The Reality\n100% MAA Invisible Failure Hodes\n75% Behavior Degraded Production\n90% 50% 25% Reliability Gaps Unpredictable User\nBenchmark Accuracy 0% T-0 T+10ms T+50ms T+10Gms",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small chart labels and callouts are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray/white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI systems evolved faster than our evaluation methods",
+            "x": 6.0,
+            "y": 1.0,
+            "w": 57.0,
+            "h": 16.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "The Illusion",
+            "x": 18.0,
+            "y": 21.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "The Reality",
+            "x": 62.0,
+            "y": 21.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "90%\nBenchmark Accuracy",
+            "x": 16.0,
+            "y": 63.0,
+            "w": 22.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "Invisible Failure Modes\nDegraded Production Behavior\nUnpredictable User Reliability Gaps",
+            "x": 58.0,
+            "y": 32.0,
+            "w": 34.0,
+            "h": 34.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668925.1029444,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "AI systems evolved faster than our evaluation methods\nThe Illusion The Reality\n100% MAA Invisible Failure Hodes\n75% Behavior Degraded Production\n90% 50% 25% Reliability Gaps Unpredictable User\nBenchmark Accuracy 0% T-0 T+10ms T+50ms T+10Gms",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 359.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "AI systems evolved faster than our evaluation methods\nThe Illusion The Reality\n100% MAA Invisible Failure Hodes\n75% Behavior Degraded Production\n90% 50% 25% Reliability Gaps Unpredictable User\nBenchmark Accuracy 0% T-0 T+10ms T+50ms T+10Gms",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agenda\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Agenda items are large and directly readable.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark teal",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Agenda",
+            "x": 2.0,
+            "y": 1.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+            "x": 6.0,
+            "y": 18.0,
+            "w": 88.0,
+            "h": 72.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668951.8665345,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agenda\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Origin Story\nOne bet on agents, one immediate yes.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Main title and statement are large enough to read directly.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "off-white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "product",
+            "text": "",
+            "x": 0,
+            "y": 10.0,
+            "w": 58.0,
+            "h": 79.0
+          },
+          {
+            "role": "title",
+            "text": "Origin Story",
+            "x": 63.0,
+            "y": 21.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "One bet on agents, one immediate yes.",
+            "x": 63.0,
+            "y": 28.0,
+            "w": 31.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "A principal engineer spun up a team focused on AI agents and asked me to join. OG Assist grew from there. We started to integrate deeply with our products through frontend and backend tools.",
+            "x": 63.0,
+            "y": 65.0,
+            "w": 31.0,
+            "h": 17.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668951.8671267,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Origin Story\nOne bet on agents, one immediate yes.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Example inport ( Chat. languagcHodel ) from \"@elfect/si\" Tho Hamess Our agent loop,\n// Streaaing chat with tool suppart leport ( Etfect, Streaa ) fros \"cffect\" rebuilt\nconst streanirgchat = Effect.genifunction- () (\nConst chat = yielo- chat.ctoty Effect-native.\nYielce chat\n.stresnTexti(\nproapt: \"Generate a crcative story\"\n11\n.pipeiStrean.runforEachiipartl => Effect.synci() = console.toglpart/l!)\nThe core loop started on LangGraph. It now runs fully\nEffect-native typed control flow, structured concurrency, and\nSource: https//effect-ts.github \"zvt-o0- co- language model if we were to uh the agent loop. resource safety end to end, Aiso allows more granular control t",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code and small explanatory text are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark teal",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "Example",
+            "x": 1.0,
+            "y": 14.0,
+            "w": 60.0,
+            "h": 58.0
+          },
+          {
+            "role": "title",
+            "text": "The Harness\nOur agent loop, rebuilt Effect-native.",
+            "x": 63.0,
+            "y": 16.0,
+            "w": 31.0,
+            "h": 28.0
+          },
+          {
+            "role": "body",
+            "text": "The core loop started on LangGraph. It now runs fully Effect-native, typed control flow, structured concurrency, and resource safety end to end. Also allows more granular control to the agent loop.",
+            "x": 63.0,
+            "y": 65.0,
+            "w": 32.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668951.8677933,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Example inport ( Chat. languagcHodel ) from \"@elfect/si\" Tho Hamess Our agent loop,\n// Streaaing chat with tool suppart leport ( Etfect, Streaa ) fros \"cffect\" rebuilt\nconst streanirgchat = Effect.genifunction- () (\nConst chat = yielo- chat.ctoty Effect-native.\nYielce chat\n.stresnTexti(\nproapt: \"Generate a crcative story\"\n11\n.pipeiStrean.runforEachiipartl => Effect.synci() = console.toglpart/l!)\nThe core loop started on LangGraph. It now runs fully\nEffect-native typed control flow, structured concurrency, and\nSource: https//effect-ts.github \"zvt-o0- co- language model if we were to uh the agent loop. resource safety end to end, Aiso allows more granular control t",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 907.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Example inport ( Chat. languagcHodel ) from \"@elfect/si\" Tho Hamess Our agent loop,\n// Streaaing chat with tool suppart leport ( Etfect, Streaa ) fros \"cffect\" rebuilt\nconst streanirgchat = Effect.genifunction- () (\nConst chat = yielo- chat.ctoty Effect-native.\nYielce chat\n.stresnTexti(\nproapt: \"Generate a crcative story\"\n11\n.pipeiStrean.runforEachiipartl => Effect.synci() = console.toglpart/l!)\nThe core loop started on LangGraph. It now runs fully\nEffect-native typed control flow, structured concurrency, and\nSource: https//effect-ts.github \"zvt-o0- co- language model if we were to uh the agent loop. resource safety end to end, Aiso allows more granular control t",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The missing layer between evals and action\nObservability\nYour observability stack captures every tool call, every LLM completion, and every exception.\nEvals\nYour eval suite judges whether the final output was correct.\nAgent\nContext, Skills and .md file\nThe GAP",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Diagram labels are large and directly readable.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The missing layer between evals and action",
+            "x": 8.0,
+            "y": 4.0,
+            "w": 84.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Observability\nYour observability stack captures every tool call, every LLM completion, and every exception.",
+            "x": 10.0,
+            "y": 26.0,
+            "w": 24.0,
+            "h": 43.0
+          },
+          {
+            "role": "body",
+            "text": "Evals\nYour eval suite judges whether the final output was correct.",
+            "x": 38.0,
+            "y": 26.0,
+            "w": 23.0,
+            "h": 43.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "The GAP",
+            "x": 59.0,
+            "y": 44.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Agent\nContext, Skills and .md file",
+            "x": 72.0,
+            "y": 26.0,
+            "w": 21.0,
+            "h": 43.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668968.006779,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The missing layer between evals and action\nObservability\nYour observability stack captures every tool call, every LLM completion, and every exception.\nEvals\nYour eval suite judges whether the final output was correct.\nAgent\nContext, Skills and .md file\nThe GAP",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "In practice, most agent memory frameworks have focused on user continuity: preferences,\nprofile facts, conversation history, and long-lived personalization.\nchat experiences is not self-improving learning system for production agents. 米\nApprosch What It stores Retrleval signal Learns from outcomes?\nta?ut! Tulu iLryCher, hoet Ravr chat hlstory Recency No\nExtracted facts, preteroncos Embedding similarity Ho\nTt tttg yiph L'ip'drieia. Entity relationshups over timo Graph travorsal + foconcy No\nVerbal self-roflections Simlarity to current task Partialty: reflections capture ranked by outcome lossons, but rotrievat b not\nagentRTx Ltlity scores Tast-lrkcd refoctions wth Simitasity weighted by outcome-derived utility Tm tehty tcorat updt sln it",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense small table/text slide; OCR will be more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "In practice, most agent memory frameworks have focused on user continuity: preferences, profile facts, conversation history, and long-lived personalization.",
+            "x": 1.0,
+            "y": 4.0,
+            "w": 98.0,
+            "h": 14.0
+          },
+          {
+            "role": "subtitle",
+            "text": "chat experiences is not self-improving learning system for production agents.",
+            "x": 12.0,
+            "y": 17.0,
+            "w": 76.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Approach",
+            "x": 17.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "What it stores",
+            "x": 34.0,
+            "y": 39.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Retrieval signal",
+            "x": 53.0,
+            "y": 39.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Learns from outcomes?",
+            "x": 69.0,
+            "y": 39.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669084.070561,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "In practice, most agent memory frameworks have focused on user continuity: preferences,\nprofile facts, conversation history, and long-lived personalization.\nchat experiences is not self-improving learning system for production agents. 米\nApprosch What It stores Retrleval signal Learns from outcomes?\nta?ut! Tulu iLryCher, hoet Ravr chat hlstory Recency No\nExtracted facts, preteroncos Embedding similarity Ho\nTt tttg yiph L'ip'drieia. Entity relationshups over timo Graph travorsal + foconcy No\nVerbal self-roflections Simlarity to current task Partialty: reflections capture ranked by outcome lossons, but rotrievat b not\nagentRTx Ltlity scores Tast-lrkcd refoctions wth Simitasity weighted by outcome-derived utility Tm tehty tcorat updt sln it",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1051.76
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "In practice, most agent memory frameworks have focused on user continuity: preferences,\nprofile facts, conversation history, and long-lived personalization.\nchat experiences is not self-improving learning system for production agents. 米\nApprosch What It stores Retrleval signal Learns from outcomes?\nta?ut! Tulu iLryCher, hoet Ravr chat hlstory Recency No\nExtracted facts, preteroncos Embedding similarity Ho\nTt tttg yiph L'ip'drieia. Entity relationshups over timo Graph travorsal + foconcy No\nVerbal self-roflections Simlarity to current task Partialty: reflections capture ranked by outcome lossons, but rotrievat b not\nagentRTx Ltlity scores Tast-lrkcd refoctions wth Simitasity weighted by outcome-derived utility Tm tehty tcorat updt sln it",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Memory as Reasoning\nfacts\nUser preferences\nReasoning\n\"Check settlement before Refund\"\nStatic,\nNo Context\nNo history\nReranked based on usefulness\nContext is updated based on task\nlearned from history",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Memory as Reasoning",
+            "x": 3.0,
+            "y": 2.0,
+            "w": 38.0,
+            "h": 14.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "facts",
+            "x": 9.0,
+            "y": 29.0,
+            "w": 9.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "User preferences",
+            "x": 21.0,
+            "y": 49.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Reasoning",
+            "x": 55.0,
+            "y": 29.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "\"Check settlement before Refund\"",
+            "x": 63.0,
+            "y": 49.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "Static, No Context No history",
+            "x": 18.0,
+            "y": 76.0,
+            "w": 22.0,
+            "h": 14.0
+          },
+          {
+            "role": "caption",
+            "text": "Reranked based on usefulness Context is updated based on task learned from history",
+            "x": 56.0,
+            "y": 76.0,
+            "w": 34.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-014.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669113.7922056,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Memory as Reasoning\nfacts\nUser preferences\nReasoning\n\"Check settlement before Refund\"\nStatic,\nNo Context\nNo history\nReranked based on usefulness\nContext is updated based on task\nlearned from history",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.82,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "AI Engineer World's Fair\nEngineering the future of AI",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "split dark space and white with embedded photo",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer World's Fair",
+            "x": 3.0,
+            "y": 3.0,
+            "w": 21.0,
+            "h": 11.0
+          },
+          {
+            "role": "title",
+            "text": "Engineering the future of AI",
+            "x": 39.0,
+            "y": 87.0,
+            "w": 40.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-015.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669113.7929025,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Engineer World's Fair\nEngineering the future of AI",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Room to act, safely.\nCode runs in isolated sandboxes, so agents can take real action without putting production systems or customer data at risk.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray and white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "diagram",
+            "text": "chat screenshot",
+            "x": 10.0,
+            "y": 6.0,
+            "w": 38.0,
+            "h": 88.0
+          },
+          {
+            "role": "title",
+            "text": "Room to act, safely.",
+            "x": 63.0,
+            "y": 24.0,
+            "w": 24.0,
+            "h": 22.0
+          },
+          {
+            "role": "caption",
+            "text": "Code runs in isolated sandboxes, so agents can take real action without putting production systems or customer data at risk.",
+            "x": 62.0,
+            "y": 72.0,
+            "w": 33.0,
+            "h": 17.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-016.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669113.793282,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Room to act, safely.\nCode runs in isolated sandboxes, so agents can take real action without putting production systems or customer data at risk.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Paradigm Shift: Output vs. Behavior\nTraditional LLM Evaluation Agent Evaluation\nGoal Output Accuracy Workflow Behavior\nEnvironment Static Datasets Dynamic Contexts\nExecution Single-path Processing 一 Multi-path & Tool Dependent\nFailure Mode Hallucination Cascading Workflow Failure",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense table with multiple small cells; OCR is the right extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The Paradigm Shift: Output vs. Behavior",
+            "x": 5.0,
+            "y": 3.0,
+            "w": 60.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Traditional LLM Evaluation",
+            "x": 23.0,
+            "y": 20.0,
+            "w": 24.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agent Evaluation",
+            "x": 67.0,
+            "y": 20.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Goal",
+            "x": 7.0,
+            "y": 32.0,
+            "w": 8.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Environment",
+            "x": 7.0,
+            "y": 51.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Execution",
+            "x": 7.0,
+            "y": 69.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Failure Mode",
+            "x": 7.0,
+            "y": 88.0,
+            "w": 12.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-017.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669113.7936978,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "The Paradigm Shift: Output vs. Behavior\nTraditional LLM Evaluation Agent Evaluation\nGoal Output Accuracy Workflow Behavior\nEnvironment Static Datasets Dynamic Contexts\nExecution Single-path Processing 一 Multi-path & Tool Dependent\nFailure Mode Hallucination Cascading Workflow Failure",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 428.4
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "The Paradigm Shift: Output vs. Behavior\nTraditional LLM Evaluation Agent Evaluation\nGoal Output Accuracy Workflow Behavior\nEnvironment Static Datasets Dynamic Contexts\nExecution Single-path Processing 一 Multi-path & Tool Dependent\nFailure Mode Hallucination Cascading Workflow Failure",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agents keep failing at the same tasks.\nGartner's 2025 AI deployment survey found that 85% of AI projects fail in production. McKinsey's 2025 State of AI report found that fewer than 20% of AI pilots scale to production within 18 months.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Agents keep failing at the same tasks.",
+            "x": 15.0,
+            "y": 41.0,
+            "w": 66.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Gartner's 2025 AI deployment survey found that 85% of AI projects fail in production. McKinsey's 2025 State of AI report found that fewer than 20% of AI pilots scale to production within 18 months.",
+            "x": 13.0,
+            "y": 55.0,
+            "w": 74.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-018.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669130.4658663,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agents keep failing at the same tasks.\nGartner's 2025 AI deployment survey found that 85% of AI projects fail in production. McKinsey's 2025 State of AI report found that fewer than 20% of AI pilots scale to production within 18 months.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "World's Fair AlEngineer BEWARE' AI OF POLICE deflim (q: Question) (v: IsProper q): IO (∑ (a: Answer), IsSafeText q v a\nWorld'sFair BEWARE' AI OF. PLAN def Ilm (q: Question) (v: IsProper q): (∑ (a: IO Answer),IsSafelO q v a\nBrowst.\nWorld's In Code They Act, In Proof We Trust\nErik Meijer / Research Scholar Leibniz Labs",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense small code and diagram text; OCR is likely better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black-to-white split with dark stage footer",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer World's Fair",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 17.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "def llm",
+            "x": 67.0,
+            "y": 0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(q : Question)",
+            "x": 69.0,
+            "y": 4.0,
+            "w": 19.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(v : IsProper q) :",
+            "x": 69.0,
+            "y": 10.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "IO (Σ (a : Answer)",
+            "x": 69.0,
+            "y": 16.0,
+            "w": 25.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "IsSafeText q v a",
+            "x": 70.0,
+            "y": 22.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "def llm",
+            "x": 67.0,
+            "y": 36.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(q : Question)",
+            "x": 69.0,
+            "y": 40.0,
+            "w": 19.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(v : IsProper q) :",
+            "x": 69.0,
+            "y": 46.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "(Σ (a : IO Answer)",
+            "x": 69.0,
+            "y": 52.0,
+            "w": 23.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "IsSafeIO q v a",
+            "x": 70.0,
+            "y": 58.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "In Code They Act, In Proof We Trust",
+            "x": 24.0,
+            "y": 83.0,
+            "w": 48.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Erik Meijer / Research Scholar Leibniz Labs",
+            "x": 24.0,
+            "y": 90.0,
+            "w": 40.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-019.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669161.8193758,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "In Code They Act, In Proof We Trust",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "World's Fair AlEngineer BEWARE' AI OF POLICE deflim (q: Question) (v: IsProper q): IO (∑ (a: Answer), IsSafeText q v a\nWorld'sFair BEWARE' AI OF. PLAN def Ilm (q: Question) (v: IsProper q): (∑ (a: IO Answer),IsSafelO q v a\nBrowst.\nWorld's In Code They Act, In Proof We Trust\nErik Meijer / Research Scholar Leibniz Labs",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 423.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "World's Fair AlEngineer BEWARE' AI OF POLICE deflim (q: Question) (v: IsProper q): IO (∑ (a: Answer), IsSafeText q v a\nWorld'sFair BEWARE' AI OF. PLAN def Ilm (q: Question) (v: IsProper q): (∑ (a: IO Answer),IsSafelO q v a\nBrowst.\nWorld's In Code They Act, In Proof We Trust\nErik Meijer / Research Scholar Leibniz Labs",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/htM02KMNZnk/slide-019.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.92,
+      "frame_type": "title_card",
+      "reject_reason": "Title card / speaker intro style frame with prominent headshots.",
+      "text": "The Agentic AI Engineer",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Title-card slide with large centered text; not dense enough to justify OCR.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(180deg, #fcfbf8 0%, #ffffff 100%)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "THE MECHANISM",
+            "x": 47.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "The Agentic AI Engineer",
+            "x": 34.0,
+            "y": 35.0,
+            "w": 32.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/htM02KMNZnk/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668743.6888945,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Agentic AI Engineer",
+      "advanced_ocr": {}
+    }
+  ]
+}

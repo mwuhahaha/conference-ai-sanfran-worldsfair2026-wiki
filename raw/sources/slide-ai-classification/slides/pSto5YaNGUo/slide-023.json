@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "HUTAGENT\nThe systth. where it lives.\nIt runs in your environment - cloud and iocal.\nMutagent installs as agents lnside the coding agent you already use. The agents run locaily - your traces and code never leave your machlne - while reading from and writing to your own platforms.\nYouR EnvIRonHENT your platforas: clood- local\n++id+nce 1n SOURCES Openlelhmetry M Dtdog B lantruat\nClrd+ Coot': o cde. G cunvE 1 a xm ng aont + Lota - datl nwr levte\ncondcote trw Fteoyde = ont soirt per staoa:Orcbrstrator\ni. += titc+1 gtrerates\naroot ebulld C+.l-ator RESEARCH DREYIE +r+l. agent RESEARCH: Diupnostirs sdlagaost: PRETIE!\n2 at+att in Itptrth, prtvita\nrhere it azit神s TARCltS cod+ [* cavde cooe! o Codax G areor codirg al+nt..ad [ Lata rptgt ] fIs+aoiks * coA ro. cloud-Hagd\nTargrts run n ntt reurd of treot - mtrhtr cotrs thtm sid th+ ereht'taor rurs the laop *gi'y.\nRuNs LOCally': EnBedd! ht'de yeur codrg sgent -- A hcsted Llutagtet pleitora or Lrg+d Agerts ese-fervce -- +eh -haut ge tuhy Turaged. Yh+h you +mt ht.. sUTURE:CLOUD PlaTfORN\nJhe Armtic Bene Burak 1$ /14",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture diagram with many small labels and product/tool names.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "It runs in your environment — cloud and local.",
+        "x": 11.0,
+        "y": 8.0,
+        "w": 56.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "YOUR ENVIRONMENT",
+        "x": 11.0,
+        "y": 24.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "LOCAL — data never leaves",
+        "x": 11.0,
+        "y": 36.0,
+        "w": 24.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Orchestrator",
+        "x": 38.0,
+        "y": 31.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "TARGETS where it writes",
+        "x": 11.0,
+        "y": 68.0,
+        "w": 20.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-023.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-023.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671482.7940075,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "It runs in your environment — cloud and local.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "HUTAGENT\nThe systth. where it lives.\nIt runs in your environment - cloud and iocal.\nMutagent installs as agents lnside the coding agent you already use. The agents run locaily - your traces and code never leave your machlne - while reading from and writing to your own platforms.\nYouR EnvIRonHENT your platforas: clood- local\n++id+nce 1n SOURCES Openlelhmetry M Dtdog B lantruat\nClrd+ Coot': o cde. G cunvE 1 a xm ng aont + Lota - datl nwr levte\ncondcote trw Fteoyde = ont soirt per staoa:Orcbrstrator\ni. += titc+1 gtrerates\naroot ebulld C+.l-ator RESEARCH DREYIE +r+l. agent RESEARCH: Diupnostirs sdlagaost: PRETIE!\n2 at+att in Itptrth, prtvita\nrhere it azit神s TARCltS cod+ [* cavde cooe! o Codax G areor codirg al+nt..ad [ Lata rptgt ] fIs+aoiks * coA ro. cloud-Hagd\nTargrts run n ntt reurd of treot - mtrhtr cotrs thtm sid th+ ereht'taor rurs the laop *gi'y.\nRuNs LOCally': EnBedd! ht'de yeur codrg sgent -- A hcsted Llutagtet pleitora or Lrg+d Agerts ese-fervce -- +eh -haut ge tuhy Turaged. Yh+h you +mt ht.. sUTURE:CLOUD PlaTfORN\nJhe Armtic Bene Burak 1$ /14",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1651.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "HUTAGENT\nThe systth. where it lives.\nIt runs in your environment - cloud and iocal.\nMutagent installs as agents lnside the coding agent you already use. The agents run locaily - your traces and code never leave your machlne - while reading from and writing to your own platforms.\nYouR EnvIRonHENT your platforas: clood- local\n++id+nce 1n SOURCES Openlelhmetry M Dtdog B lantruat\nClrd+ Coot': o cde. G cunvE 1 a xm ng aont + Lota - datl nwr levte\ncondcote trw Fteoyde = ont soirt per staoa:Orcbrstrator\ni. += titc+1 gtrerates\naroot ebulld C+.l-ator RESEARCH DREYIE +r+l. agent RESEARCH: Diupnostirs sdlagaost: PRETIE!\n2 at+att in Itptrth, prtvita\nrhere it azit神s TARCltS cod+ [* cavde cooe! o Codax G areor codirg al+nt..ad [ Lata rptgt ] fIs+aoiks * coA ro. cloud-Hagd\nTargrts run n ntt reurd of treot - mtrhtr cotrs thtm sid th+ ereht'taor rurs the laop *gi'y.\nRuNs LOCally': EnBedd! ht'de yeur codrg sgent -- A hcsted Llutagtet pleitora or Lrg+d Agerts ese-fervce -- +eh -haut ge tuhy Turaged. Yh+h you +mt ht.. sUTURE:CLOUD PlaTfORN\nJhe Armtic Bene Burak 1$ /14",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

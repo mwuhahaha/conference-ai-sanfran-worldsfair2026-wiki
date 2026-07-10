@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "two kinds of check.\ndeterministic behavioural:\ncontrol flow · guardralls prompt / wording'changes\n: a fixture. Let the tool be called with qty 1000 never calls the model. rerunnable & free. again, but this time assert on the tool output: freeze the recorded context as did it stay grounded? did it: score it: assert fields / LiM-judge. replay the scenario, score' MEANING not bytes:: refuse the destructive call?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Comparison slide with small body copy in two columns; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6f3eb",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "two kinds of check.",
+        "x": 5.0,
+        "y": 7.0,
+        "w": 40.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "deterministic",
+        "x": 8.0,
+        "y": 30.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "behavioural",
+        "x": 54.0,
+        "y": 30.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "control flow · guardrails",
+        "x": 8.0,
+        "y": 38.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "prompt / wording changes",
+        "x": 54.0,
+        "y": 38.0,
+        "w": 22.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/Lc8zRh9muoY/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662095.2685568,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "two kinds of check.\ndeterministic behavioural:\ncontrol flow · guardralls prompt / wording'changes\n: a fixture. Let the tool be called with qty 1000 never calls the model. rerunnable & free. again, but this time assert on the tool output: freeze the recorded context as did it stay grounded? did it: score it: assert fields / LiM-judge. replay the scenario, score' MEANING not bytes:: refuse the destructive call?",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 640.01
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "two kinds of check.\ndeterministic behavioural:\ncontrol flow · guardralls prompt / wording'changes\n: a fixture. Let the tool be called with qty 1000 never calls the model. rerunnable & free. again, but this time assert on the tool output: freeze the recorded context as did it stay grounded? did it: score it: assert fields / LiM-judge. replay the scenario, score' MEANING not bytes:: refuse the destructive call?",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

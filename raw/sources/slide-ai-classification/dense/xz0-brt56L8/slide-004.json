@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "。1 +t i ttt 114 P地 + t+tt. 1 *Lo* + Cth + Lia - O LO lt +1. C te LL + T Ae.:? Creating your first Manus Task Wetcorme io tre Drst ste in your Mne joneyi re netecoct is st sbeul peting rou handt-on wal iye Ail tm guidlly ae Dosltia, hed the the lorg iecitree erd yirg igM Tts tiu col miriur'ice c cresirg and rlruyig LaLn trog ttshr eby IPeaLnar Sign up for ar sccount mt Tnge,rLnL nd cla yur Tru At tet woulg tt' g 1 Manus APl Workshop Hlcora to te thrue APt wcna.ip. That tapotiaory brcd + touetre, h+t 1. Lh fcdalenthr Th, hetebooh colnt it cole rhthhiet et the Larus APL Tl im tm hotr to sartncCia, Crtt Letat, po lor tht mHLt, snd\n目1 W*2*** *4b sulonhhot. Tere's e ouict took et ithe: t'lt coitr. Gy te thd at aha mheor, youl hre + hoha taurclPon iar buittlg shae toced C ieh,suru, + walj mrs e iaa h aou * ram alaen ytei op atri t 4. Leverige Ceamrelny we' rnmh eh + aukh look a hew you Can ga Llan 2. Crele Teur Firt Thl: fou't ghe Larlst + wrele reructon ard lerh hor t A ar ia, + Dunna pu+ Lir rol Dupto Aa Let L+t:eunt y+hoey ' Tttrpil tle h+i ihoorh. 4oCth lo yot eit tohy, ile Hoear, te ptriarln mere corlcleu iore folt. '+yrpor so iay +a ctod Aa hohuto, sa,Irpu+d. 2. Fha Harelrg Heet yot'a trt hou to hart te hhet ih Ia Lur.s Al to ithit 1. Hebr:olt: Pohrg do+a't hent s tktle L+ra try ohcol sre + utsill Yaur sott hae ir+ da I rteoe to fhnon electyef. 11.\nLr's oat +hted. Settinn IIn Yaur Fnvirnnment L't 'Puprcot aohovoo +a se ho 1+os rus ell aod Loddg t tuaper $ Cld e deglojiote tlpport sotnt tht ctn practe Da yetotdt trem stct tnd ToBEL\n# +- n - A\nTttett, 'ttur Cl?t 'o tt Lh LF!\nt+++ +u *+ Pa *.++'! ++ ++ Or!' tta. ++ + ovt+ L+t 4 +tt +ttta\nt Cenciomen ++ Cartlla + tt 11-401m\n2..1 2025-11-22:09:49:28",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-column editor/notebook screenshot with dense small text and code-like content.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Manus API Workshop",
+        "x": 63.0,
+        "y": 5.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Creating your first Manus Task",
+        "x": 29.0,
+        "y": 12.0,
+        "w": 31.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Setting Up Your Environment",
+        "x": 31.0,
+        "y": 53.0,
+        "w": 27.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672932.326233,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Manus API Workshop\nCreating your first Manus Task",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "。1 +t i ttt 114 P地 + t+tt. 1 *Lo* + Cth + Lia - O LO lt +1. C te LL + T Ae.:? Creating your first Manus Task Wetcorme io tre Drst ste in your Mne joneyi re netecoct is st sbeul peting rou handt-on wal iye Ail tm guidlly ae Dosltia, hed the the lorg iecitree erd yirg igM Tts tiu col miriur'ice c cresirg and rlruyig LaLn trog ttshr eby IPeaLnar Sign up for ar sccount mt Tnge,rLnL nd cla yur Tru At tet woulg tt' g 1 Manus APl Workshop Hlcora to te thrue APt wcna.ip. That tapotiaory brcd + touetre, h+t 1. Lh fcdalenthr Th, hetebooh colnt it cole rhthhiet et the Larus APL Tl im tm hotr to sartncCia, Crtt Letat, po lor tht mHLt, snd\n目1 W*2*** *4b sulonhhot. Tere's e ouict took et ithe: t'lt coitr. Gy te thd at aha mheor, youl hre + hoha taurclPon iar buittlg shae toced C ieh,suru, + walj mrs e iaa h aou * ram alaen ytei op atri t 4. Leverige Ceamrelny we' rnmh eh + aukh look a hew you Can ga Llan 2. Crele Teur Firt Thl: fou't ghe Larlst + wrele reructon ard lerh hor t A ar ia, + Dunna pu+ Lir rol Dupto Aa Let L+t:eunt y+hoey ' Tttrpil tle h+i ihoorh. 4oCth lo yot eit tohy, ile Hoear, te ptriarln mere corlcleu iore folt. '+yrpor so iay +a ctod Aa hohuto, sa,Irpu+d. 2. Fha Harelrg Heet yot'a trt hou to hart te hhet ih Ia Lur.s Al to ithit 1. Hebr:olt: Pohrg do+a't hent s tktle L+ra try ohcol sre + utsill Yaur sott hae ir+ da I rteoe to fhnon electyef. 11.\nLr's oat +hted. Settinn IIn Yaur Fnvirnnment L't 'Puprcot aohovoo +a se ho 1+os rus ell aod Loddg t tuaper $ Cld e deglojiote tlpport sotnt tht ctn practe Da yetotdt trem stct tnd ToBEL\n# +- n - A\nTttett, 'ttur Cl?t 'o tt Lh LF!\nt+++ +u *+ Pa *.++'! ++ ++ Or!' tta. ++ + ovt+ L+t 4 +tt +ttta\nt Cenciomen ++ Cartlla + tt 11-401m\n2..1 2025-11-22:09:49:28",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2527.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "。1 +t i ttt 114 P地 + t+tt. 1 *Lo* + Cth + Lia - O LO lt +1. C te LL + T Ae.:? Creating your first Manus Task Wetcorme io tre Drst ste in your Mne joneyi re netecoct is st sbeul peting rou handt-on wal iye Ail tm guidlly ae Dosltia, hed the the lorg iecitree erd yirg igM Tts tiu col miriur'ice c cresirg and rlruyig LaLn trog ttshr eby IPeaLnar Sign up for ar sccount mt Tnge,rLnL nd cla yur Tru At tet woulg tt' g 1 Manus APl Workshop Hlcora to te thrue APt wcna.ip. That tapotiaory brcd + touetre, h+t 1. Lh fcdalenthr Th, hetebooh colnt it cole rhthhiet et the Larus APL Tl im tm hotr to sartncCia, Crtt Letat, po lor tht mHLt, snd\n目1 W*2*** *4b sulonhhot. Tere's e ouict took et ithe: t'lt coitr. Gy te thd at aha mheor, youl hre + hoha taurclPon iar buittlg shae toced C ieh,suru, + walj mrs e iaa h aou * ram alaen ytei op atri t 4. Leverige Ceamrelny we' rnmh eh + aukh look a hew you Can ga Llan 2. Crele Teur Firt Thl: fou't ghe Larlst + wrele reructon ard lerh hor t A ar ia, + Dunna pu+ Lir rol Dupto Aa Let L+t:eunt y+hoey ' Tttrpil tle h+i ihoorh. 4oCth lo yot eit tohy, ile Hoear, te ptriarln mere corlcleu iore folt. '+yrpor so iay +a ctod Aa hohuto, sa,Irpu+d. 2. Fha Harelrg Heet yot'a trt hou to hart te hhet ih Ia Lur.s Al to ithit 1. Hebr:olt: Pohrg do+a't hent s tktle L+ra try ohcol sre + utsill Yaur sott hae ir+ da I rteoe to fhnon electyef. 11.\nLr's oat +hted. Settinn IIn Yaur Fnvirnnment L't 'Puprcot aohovoo +a se ho 1+os rus ell aod Loddg t tuaper $ Cld e deglojiote tlpport sotnt tht ctn practe Da yetotdt trem stct tnd ToBEL\n# +- n - A\nTttett, 'ttur Cl?t 'o tt Lh LF!\nt+++ +u *+ Pa *.++'! ++ ++ Or!' tta. ++ + ovt+ L+t 4 +tt +ttta\nt Cenciomen ++ Cartlla + tt 11-401m\n2..1 2025-11-22:09:49:28",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

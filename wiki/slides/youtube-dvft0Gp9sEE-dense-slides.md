@@ -16,11 +16,28 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/dvft0Gp9sEE/slide-001.jpg]]
 
-- Source scene image: `frame-00007.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.37`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/dvft0Gp9sEE/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/left-72/opencv-adaptive`.
+- OCR decision: ready — Dense table text with multiple rows and columns; OCR is better suited than direct transcription.
+
+Slide text:
+
+> Manual Analysis Keyword Analysl
+> Quality High" Low.
+> Scalability Low: High
+> Context Rich: Missing
+> Feasibility Impossible Limited
+
 ![[assets/dense-slides/dvft0Gp9sEE/slide-002.jpg]]
 
-- Source scene image: `frame-00023.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.13`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/dvft0Gp9sEE/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
+
+Slide text:
+
+> Your Data Goldmine
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/dvft0Gp9sEE/audit.json`

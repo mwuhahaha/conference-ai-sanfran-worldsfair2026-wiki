@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RL Selects the Response, Not the Facts\nState:\n1. Failure category\n2. Risk level\n3. Retry count\n4. Drift severity\n5. Data-quality condition\nAction:\nretry • coerce • rollback • quarantine • escalate • log\n1. Tabular Q-learning\n2. Small, interpretable state space\n3. Low-memory inference\n4. Inspectable Q-values for every decision",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "soft gray",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "RL Selects the Response, Not the Facts",
+        "x": 12.0,
+        "y": 0,
+        "w": 76.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "State:\n1. Failure category\n2. Risk level\n3. Retry count\n4. Drift severity\n5. Data-quality condition",
+        "x": 5.0,
+        "y": 18.0,
+        "w": 35.0,
+        "h": 42.0
+      },
+      {
+        "role": "body",
+        "text": "retry • coerce • rollback • quarantine • escalate • log",
+        "x": 42.0,
+        "y": 18.0,
+        "w": 56.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1. Tabular Q-learning\n2. Small, interpretable state space\n3. Low-memory inference\n4. Inspectable Q-values for every decision",
+        "x": 47.0,
+        "y": 41.0,
+        "w": 48.0,
+        "h": 30.0
+      },
+      {
+        "role": "caption",
+        "text": "TECHNICALLY, THIS IS A SINGLE-STEP CONTEXTUAL DECISION PROBLEM IMPLEMENTED WITH TABULAR Q-LEARNING.",
+        "x": 10.0,
+        "y": 92.0,
+        "w": 80.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/I2cbIws9j10/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659795.42527,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "RL Selects the Response, Not the Facts\nState:\n1. Failure category\n2. Risk level\n3. Retry count\n4. Drift severity\n5. Data-quality condition\nAction:\nretry • coerce • rollback • quarantine • escalate • log\n1. Tabular Q-learning\n2. Small, interpretable state space\n3. Low-memory inference\n4. Inspectable Q-values for every decision",
+  "advanced_ocr": {}
+}

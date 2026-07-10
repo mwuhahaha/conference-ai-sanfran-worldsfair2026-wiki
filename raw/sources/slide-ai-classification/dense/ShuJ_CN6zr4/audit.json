@@ -1,0 +1,133 @@
+{
+  "video_id": "ShuJ_CN6zr4",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "FACTORY\nBuilding Autonomous Engineering Systems\nor, how do we make codebases that are agent ready?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title slide with large readable text; no dense body copy.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "light gray",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "FACTORY",
+            "x": 54.0,
+            "y": 27.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Building Autonomous Engineering Systems",
+            "x": 29.0,
+            "y": 42.0,
+            "w": 66.0,
+            "h": 11.0
+          },
+          {
+            "role": "subtitle",
+            "text": "or, how do we make codebases that are agent ready?",
+            "x": 36.0,
+            "y": 54.0,
+            "w": 50.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ShuJ_CN6zr4/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663985.7983696,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "FACTORY\nBuilding Autonomous Engineering Systems\nor, how do we make codebases that are agent ready?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ShuJ_CN6zr4/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "FACTORY\nBuilding Autonomous Engineering Systems\nor, how do we make codebases that are agent ready?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title slide with large readable text; no dense body copy.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "light gray with dark lower bar",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "FACTORY",
+            "x": 54.0,
+            "y": 27.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Building Autonomous Engineering Systems",
+            "x": 29.0,
+            "y": 42.0,
+            "w": 66.0,
+            "h": 11.0
+          },
+          {
+            "role": "subtitle",
+            "text": "or, how do we make codebases that are agent ready?",
+            "x": 36.0,
+            "y": 54.0,
+            "w": 50.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ShuJ_CN6zr4/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663985.7989402,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "FACTORY\nBuilding Autonomous Engineering Systems\nor, how do we make codebases that are agent ready?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ShuJ_CN6zr4/slide-002.html"
+    }
+  ],
+  "rejected": []
+}

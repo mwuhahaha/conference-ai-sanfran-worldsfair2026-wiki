@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "trigger new listing; gather context; evaluate; decide; act; record; stop; retry; escalate",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "warm white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "trigger\nnew listing",
+        "x": 1.0,
+        "y": 27.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "gather context",
+        "x": 15.0,
+        "y": 27.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "evaluate",
+        "x": 31.0,
+        "y": 27.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "decide",
+        "x": 46.0,
+        "y": 27.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "act",
+        "x": 60.0,
+        "y": 27.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "record",
+        "x": 76.0,
+        "y": 27.0,
+        "w": 11.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "stop",
+        "x": 64.0,
+        "y": 66.0,
+        "w": 11.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "retry",
+        "x": 79.0,
+        "y": 66.0,
+        "w": 11.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "escalate",
+        "x": 91.0,
+        "y": 66.0,
+        "w": 9.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/ZD9-4fW2HhM/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665569.1144226,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "trigger new listing; gather context; evaluate; decide; act; record; stop; retry; escalate",
+  "advanced_ocr": {}
+}

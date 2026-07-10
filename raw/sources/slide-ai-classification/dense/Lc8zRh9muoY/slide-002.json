@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "X Wrong question: can we make the model deterministic.\nright question: can we debug & test a run we can't reproduce.\ndeterminism was never the goal. record the run, replay the recording.\n='controllability bitwise determinism ='observability replayability.\n: same input - Identical output.: randomness makes the model good.: you won't get it from a hosted APl, and you don't want it: that. reconstruct a run that happened, need determinism, you need. the run recorded.. well enough to debug. you don't",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Two-column comparison slide with small body text and multiple lines; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6f3eb",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "wrong question: can we make the model deterministic.",
+        "x": 5.0,
+        "y": 8.0,
+        "w": 84.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "right question: can we debug & test a run we can’t reproduce.",
+        "x": 5.0,
+        "y": 22.0,
+        "w": 88.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "determinism was never the goal. record the run, replay the recording.",
+        "x": 6.0,
+        "y": 35.0,
+        "w": 74.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "bitwise determinism = controllability",
+        "x": 8.0,
+        "y": 49.0,
+        "w": 38.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "replayability = observability",
+        "x": 54.0,
+        "y": 49.0,
+        "w": 31.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/Lc8zRh9muoY/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662029.479345,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "X Wrong question: can we make the model deterministic.\nright question: can we debug & test a run we can't reproduce.\ndeterminism was never the goal. record the run, replay the recording.\n='controllability bitwise determinism ='observability replayability.\n: same input - Identical output.: randomness makes the model good.: you won't get it from a hosted APl, and you don't want it: that. reconstruct a run that happened, need determinism, you need. the run recorded.. well enough to debug. you don't",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 762.8
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "X Wrong question: can we make the model deterministic.\nright question: can we debug & test a run we can't reproduce.\ndeterminism was never the goal. record the run, replay the recording.\n='controllability bitwise determinism ='observability replayability.\n: same input - Identical output.: randomness makes the model good.: you won't get it from a hosted APl, and you don't want it: that. reconstruct a run that happened, need determinism, you need. the run recorded.. well enough to debug. you don't",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

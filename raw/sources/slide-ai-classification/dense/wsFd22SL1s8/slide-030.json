@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arrakis: Networking\n1. Tap Devices: Each sandbox gets a unique tap network device\n2. Linux Bridge: All tap devices are connected to a Linux bridge on the host\n3. Port Forwarding: Automatic port forwarding from the host to the sandbox",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "The title and bullets are large enough to read directly; OCR is not necessary for this simple slide.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis: Networking",
+        "x": 3.0,
+        "y": 1.0,
+        "w": 26.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Each sandbox in Arrakis runs in a MicroVM (virtual machine) with its own isolated networking. The networking setup uses a combination of:",
+        "x": 3.0,
+        "y": 8.0,
+        "w": 62.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1. Tap Devices: Each sandbox gets a unique tap network device\n2. Linux Bridge: All tap devices are connected to a Linux bridge on the host\n3. Port Forwarding: Automatic port forwarding from the host to the sandbox",
+        "x": 3.0,
+        "y": 16.0,
+        "w": 54.0,
+        "h": 20.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis Guest\nCode\nVNC\nLinux Bridge br0\ntap\ncloud-hypervisor VMM process\nArrakis Server\nUserspace\nKernel",
+        "x": 37.0,
+        "y": 24.0,
+        "w": 29.0,
+        "h": 56.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-030.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-030.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673588.818412,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Arrakis: Networking\n1. Tap Devices: Each sandbox gets a unique tap network device\n2. Linux Bridge: All tap devices are connected to a Linux bridge on the host\n3. Port Forwarding: Automatic port forwarding from the host to the sandbox",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE 26-89\nYeast Enzyme Activity vs Temperature\nAg27.6°C Actual Range Enzyme Activity\nFermentation experimentrecording speedup\nMicrosoft smol?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot, chart, and small embedded labels are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black left panel with white main slide area",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 10.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 17.0,
+        "y": 5.0,
+        "w": 52.0,
+        "h": 52.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Yeast Enzyme Activity vs Temperature",
+        "x": 70.0,
+        "y": 38.0,
+        "w": 27.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "Fermentation experiment recording speedup",
+        "x": 20.0,
+        "y": 52.0,
+        "w": 35.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 88.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "swol.ai",
+        "x": 68.0,
+        "y": 87.0,
+        "w": 14.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-013.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672665.8496814,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "AIE 26-89\nYeast Enzyme Activity vs Temperature\nAg27.6°C Actual Range Enzyme Activity\nFermentation experimentrecording speedup\nMicrosoft smol?",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 223.68
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "AIE 26-89\nYeast Enzyme Activity vs Temperature\nAg27.6°C Actual Range Enzyme Activity\nFermentation experimentrecording speedup\nMicrosoft smol?",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

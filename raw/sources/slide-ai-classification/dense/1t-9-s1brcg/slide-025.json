@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI App Templates Workshop\n\nThese guides will help you get started using our AI App Templates along with the Azure OpenAI Proxy.\n\nHere are the available templates with links to their guides:\n\nTemplate | Description\nOpenAI Chat App | A simple chat app that uses the OpenAI API to generate responses to user input.\nRAG on PostgreSQL | A chat app that answers questions using a RAG flow with OpenAI and a PostgreSQL database.\nRAG with Azure AI Search | A chat app that answers questions using a RAG flow with OpenAI and Azure AI Search.\n\nWe recommend going through each template in the order listed, as they build in complexity.\n\nWorkshop instructions: https://aka.ms/ai-workshop",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense table and small UI text; OCR is likely better than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige on dark frame",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI App Templates Workshop",
+        "x": 22.0,
+        "y": 15.0,
+        "w": 56.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "These guides will help you get started using our AI App Templates along with the Azure OpenAI Proxy.",
+        "x": 22.0,
+        "y": 28.0,
+        "w": 60.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Template / Description table",
+        "x": 22.0,
+        "y": 39.0,
+        "w": 60.0,
+        "h": 38.0
+      },
+      {
+        "role": "caption",
+        "text": "We recommend going through each template in the order listed, as they build in complexity.",
+        "x": 22.0,
+        "y": 80.0,
+        "w": 60.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-025.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-025.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657707.4311388,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "AI App Templates Workshop",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Arure Samples / al-spp.temphtes.workshop\n(> Codt Okus n Pullrequets Ation田 potts\nA ai-app-templates-workshop htu\nAl App Templates Workshop\nThxe guida nill help you ge xared urng our A Aop Femprert yong wah che Arure OoenAl Piory.\nHere xe the sralab'e templates with Ln's to thei guider\nTeriplate Dexription\nA yimple chur app that ust the OpenA Ay o genrale rrpome o uq input\nRAG on PostgreSQL A chui app thur nmntr qutstion uing i RG fow wih OpmA ard a Postgresot drsbaxe.\nSarch RAG with Arure Al A chut app thst nswer quttiors using + RiG how with OperA srd Arure A Search.\nWe recomnrnd going through each templte in ihe order liyted, au they buid in conplerity.\nWorehop nstucton: mtns//ab myaicwdhe2",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1142.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "AI App Templates Workshop\n\nThese guides will help you get started using our AI App Templates along with the Azure OpenAI Proxy.\n\nHere are the available templates with links to their guides:\n\nTemplate | Description\nOpenAI Chat App | A simple chat app that uses the OpenAI API to generate responses to user input.\nRAG on PostgreSQL | A chat app that answers questions using a RAG flow with OpenAI and a PostgreSQL database.\nRAG with Azure AI Search | A chat app that answers questions using a RAG flow with OpenAI and Azure AI Search.\n\nWe recommend going through each template in the order listed, as they build in complexity.\n\nWorkshop instructions: https://aka.ms/ai-workshop",
+    "text_status": "meaningful",
+    "corrections": "OCR was corrected from the slide image; obvious errors fixed and the main slide text transcribed."
+  }
+}

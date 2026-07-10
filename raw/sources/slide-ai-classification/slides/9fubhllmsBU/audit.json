@@ -1,0 +1,593 @@
+{
+  "video_id": "9fubhllmsBU",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 9,
+  "rejected_count": 4,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Map is Opening Up\nIn the Land of AI Agents, the Verifiers Are King",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "large readable text; OCR not needed in triage",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "cream map panel over dark vignette",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The Map is Opening Up",
+            "x": 30.0,
+            "y": 62.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "In the Land of AI Agents, the Verifiers Are King",
+            "x": 24.0,
+            "y": 83.0,
+            "w": 68.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Tariq Shaukat / Chief Executive Officer",
+            "x": 24.0,
+            "y": 91.0,
+            "w": 44.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Sonar",
+            "x": 70.0,
+            "y": 91.0,
+            "w": 8.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658280.9594626,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Map is Opening Up\nIn the Land of AI Agents, the Verifiers Are King",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/9fubhllmsBU/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "A Field Guide to Fable:\n1 Unhobbling Claude\n2 Finding your Unknowns\n3 Dealing with the Grief\n4 Being Unreasonable",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple readable slide; OCR not needed in triage",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "warm off-white with dark left sidebar",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "A Field Guide to Fable:",
+            "x": 28.0,
+            "y": 25.0,
+            "w": 20.0,
+            "h": 28.0
+          },
+          {
+            "role": "body",
+            "text": "1 Unhobbling Claude",
+            "x": 65.0,
+            "y": 23.0,
+            "w": 26.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "2 Finding your Unknowns",
+            "x": 65.0,
+            "y": 35.0,
+            "w": 28.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "3 Dealing with the Grief",
+            "x": 65.0,
+            "y": 51.0,
+            "w": 27.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "4 Being Unreasonable",
+            "x": 65.0,
+            "y": 65.0,
+            "w": 24.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658280.9602723,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "A Field Guide to Fable:\n1 Unhobbling Claude\n2 Finding your Unknowns\n3 Dealing with the Grief\n4 Being Unreasonable",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/9fubhllmsBU/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Models are grown, not designed.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple readable slide; OCR not needed in triage",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "charcoal black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Models are grown, not designed.",
+            "x": 29.0,
+            "y": 38.0,
+            "w": 30.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658280.9732761,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Models are grown, not designed.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/9fubhllmsBU/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.92,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Fetch every Pokémon. Write a script. Filter for “aw.”",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "contains a dense code screenshot suitable for OCR",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "warm off-white with dark code screenshot",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Fetch every Pokémon. Write a script. Filter for “aw.”",
+            "x": 28.0,
+            "y": 37.0,
+            "w": 29.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658280.974893,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Fetch every Pokémon. Write a script. Filter for “aw.”",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/9fubhllmsBU/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "CAPABILITY OVERHANG\nClaude gets smarter in spiky ways",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple readable slide; OCR not needed in triage",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "warm off-white with black cliff illustration",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "CAPABILITY OVERHANG",
+            "x": 29.0,
+            "y": 19.0,
+            "w": 23.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "Claude gets smarter in spiky ways",
+            "x": 29.0,
+            "y": 29.0,
+            "w": 30.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658280.9829159,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "CAPABILITY OVERHANG\nClaude gets smarter in spiky ways",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/9fubhllmsBU/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "It's closer to a biology, than a physics.\nOn the Biology of a Large Language Model\nAnthropic · transformer-circuits.pub",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#111111",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "It's closer to a biology, than a physics.",
+            "x": 28.0,
+            "y": 29.0,
+            "w": 61.0,
+            "h": 15.0
+          },
+          {
+            "role": "subtitle",
+            "text": "On the Biology of a Large Language Model",
+            "x": 31.0,
+            "y": 46.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Anthropic · transformer-circuits.pub",
+            "x": 31.0,
+            "y": 54.0,
+            "w": 32.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658354.566609,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "It's closer to a biology, than a physics.\nOn the Biology of a Large Language Model\nAnthropic · transformer-circuits.pub",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/9fubhllmsBU/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "the most important part of working with Fable is staying in the loop",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#111111",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "the most important part of working with Fable is staying in the loop",
+            "x": 28.0,
+            "y": 36.0,
+            "w": 38.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 70.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 40.0
+          },
+          {
+            "role": "caption",
+            "text": "Field Guide to Fable",
+            "x": 24.0,
+            "y": 78.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Thariq Shihipar / Member of Technical Staff ANTHROPIC",
+            "x": 24.0,
+            "y": 86.0,
+            "w": 48.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658354.56744,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "the most important part of working with Fable is staying in the loop",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/9fubhllmsBU/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The past is a foreign country\n2019-2024 · a 30-person YC startup · 12 engineers",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#111111",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The past is a foreign country",
+            "x": 28.0,
+            "y": 37.0,
+            "w": 31.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "2019-2024 · a 30-person YC startup · 12 engineers",
+            "x": 68.0,
+            "y": 57.0,
+            "w": 25.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658354.5691981,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The past is a foreign country\n2019-2024 · a 30-person YC startup · 12 engineers",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/9fubhllmsBU/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The past is a foreign country\n2019-2024 · a 30-person YC startup · 12 engineers",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#111111",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The past is a foreign country",
+            "x": 28.0,
+            "y": 37.0,
+            "w": 31.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "2019-2024 · a 30-person YC startup · 12 engineers",
+            "x": 67.0,
+            "y": 57.0,
+            "w": 26.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658354.5698655,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The past is a foreign country\n2019-2024 · a 30-person YC startup · 12 engineers",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/9fubhllmsBU/slide-012.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.03,
+      "frame_type": "title_card",
+      "reject_reason": "stage intro title screen, not a presentation content slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "non-slide stage title screen",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "black with faint purple glow",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658280.9321146,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.02,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker shot in front of sponsor wall, not a slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "non-slide stage photo",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark sponsor-wall backdrop",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658280.957925,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.02,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker shot in front of sponsor wall, not a slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "non-slide stage photo",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark sponsor-wall backdrop",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658280.958821,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "logo/end card",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#000000",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 5,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/9fubhllmsBU/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658354.5736206,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

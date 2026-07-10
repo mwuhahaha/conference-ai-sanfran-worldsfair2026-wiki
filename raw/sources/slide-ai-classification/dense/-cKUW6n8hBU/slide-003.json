@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "DSPy allows you to decompose logic into a program that treats LLMs as a first class citizen ...\n\n... without having to tweak prompts (unless you want to)",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f0f0ee",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "DSPy allows you to decompose logic into a program that treats LLMs as a first class citizen ...\n\n... without having to tweak prompts (unless you want to)",
+        "x": 4.0,
+        "y": 18.0,
+        "w": 90.0,
+        "h": 42.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655110.3912902,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "DSPy allows you to decompose logic into a program that treats LLMs as a first class citizen ...\n\n... without having to tweak prompts (unless you want to)",
+  "advanced_ocr": {}
+}

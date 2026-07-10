@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Use Actors from AI agents using MCP",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cyan",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Use Actors from AI agents using MCP",
+        "x": 9.0,
+        "y": 3.0,
+        "w": 74.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "AI Agent API key mcp.apify.com Actor A Actor B Actor C Search Actors....",
+        "x": 5.0,
+        "y": 18.0,
+        "w": 92.0,
+        "h": 76.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/blW-lSd5CYQ/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666637.2616932,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Use Actors from AI agents using MCP",
+  "advanced_ocr": {}
+}

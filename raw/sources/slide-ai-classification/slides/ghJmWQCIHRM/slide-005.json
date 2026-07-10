@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": true,
+  "ocr_reason": "dense product/UI screenshot with small interface text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with two embedded app screenshots",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "MAZE ESCAPE",
+        "x": 38.0,
+        "y": 41.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "WebMCP Tools",
+        "x": 68.0,
+        "y": 9.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Interact with the Page",
+        "x": 68.0,
+        "y": 34.0,
+        "w": 20.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/ghJmWQCIHRM/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667833.214606,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/full",
+    "best_score": 542.0,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

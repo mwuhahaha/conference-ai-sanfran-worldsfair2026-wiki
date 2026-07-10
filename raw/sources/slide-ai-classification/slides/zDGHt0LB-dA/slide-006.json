@@ -1,0 +1,41 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.91,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "prte pertMMH\n（dd）\netit-po,\nAIE sitirrnnteskeisryn.grgaio, cvtiotmt tepesdreciet-Peiffetett'terct' \"rmsferwn'\nofgoernte_sgr skisu, gtt:i,loy.f.gr,,t,p\nidmeefo..\nipenHero\nfreHtg\nHa.AnieeTeuingw.Tro\ntrch4o-trc.erte,\nMegitiet_srogeopegetive.prongt. Mm_lafenvese_siegg+nm_iafereole_stepe pdfasce_koleegaidocei(aiy. beigt.belol,\nEngineering the\nAlEngineer",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "code editor screenshot with small text is better handled by OCR",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#10131d",
+    "style": "code",
+    "blocks": []
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/zDGHt0LB-dA/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672850.6512961,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/contrast",
+    "text": "prte pertMMH\n（dd）\netit-po,\nAIE sitirrnnteskeisryn.grgaio, cvtiotmt tepesdreciet-Peiffetett'terct' \"rmsferwn'\nofgoernte_sgr skisu, gtt:i,loy.f.gr,,t,p\nidmeefo..\nipenHero\nfreHtg\nHa.AnieeTeuingw.Tro\ntrch4o-trc.erte,\nMegitiet_srogeopegetive.prongt. Mm_lafenvese_siegg+nm_iafereole_stepe pdfasce_koleegaidocei(aiy. beigt.belol,\nEngineering the\nAlEngineer",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 397.2
+  },
+  "ocr_source": "rapidocr-live/left-72/contrast",
+  "ocr_reconcile": {
+    "text": "prte pertMMH\n（dd）\netit-po,\nAIE sitirrnnteskeisryn.grgaio, cvtiotmt tepesdreciet-Peiffetett'terct' \"rmsferwn'\nofgoernte_sgr skisu, gtt:i,loy.f.gr,,t,p\nidmeefo..\nipenHero\nfreHtg\nHa.AnieeTeuingw.Tro\ntrch4o-trc.erte,\nMegitiet_srogeopegetive.prongt. Mm_lafenvese_siegg+nm_iafereole_stepe pdfasce_koleegaidocei(aiy. beigt.belol,\nEngineering the\nAlEngineer",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

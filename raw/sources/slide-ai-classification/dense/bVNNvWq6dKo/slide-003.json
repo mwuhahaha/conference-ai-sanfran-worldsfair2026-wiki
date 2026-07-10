@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "We are the first and only company to replace Chat\nwith Agents\n*and people love that\nMIChaLO Follow\nfesure before coding it Yery coo! lan Nuttall O Whether it wntes code or helps you spec o Yep. they cal t Cascade and you can tog Shao1少紫0 Follow dtling feels nore natural ano butn thole orocess of the code generauon and tave tested both ard my pck is Windsurt\nare the same. The deep context awareness of Those who know, know. Not all Al based editors\nwindsurf is truly remarkable. lt even knows the\nerico compared to from compose/ 3gent mode to chat vhile one subtle ux diff I apprechte in maintaining thc conversaton s the abiity to sy cursor location, the changes so far,other files1 didn't mention, and it doesn't have the arbitrary separation of composer vs chat in UX. Scott Forsyth o Grenlrsvieo tve ucd Windhurt nlesn Hhs he Couplr ol wrerke inel I snctely reler l vre. Cukor R fect morc inievhRid hrd nntvh",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Contains multiple small embedded tweet screenshots and dense quoted text; OCR is the cheaper, more reliable pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "We are the first and only company to replace Chat with Agents",
+        "x": 12.0,
+        "y": 4.0,
+        "w": 76.0,
+        "h": 14.0
+      },
+      {
+        "role": "subtitle",
+        "text": "*and people love that*",
+        "x": 40.0,
+        "y": 20.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Ian Nuttall",
+        "x": 3.0,
+        "y": 39.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Shao | 少蒙",
+        "x": 31.0,
+        "y": 42.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "MICHAL",
+        "x": 68.0,
+        "y": 36.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "eric",
+        "x": 3.0,
+        "y": 77.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Scott Forsyth",
+        "x": 73.0,
+        "y": 63.0,
+        "w": 18.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/bVNNvWq6dKo/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666441.3900263,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "We are the first and only company to replace Chat\nwith Agents\n*and people love that\nMIChaLO Follow\nfesure before coding it Yery coo! lan Nuttall O Whether it wntes code or helps you spec o Yep. they cal t Cascade and you can tog Shao1少紫0 Follow dtling feels nore natural ano butn thole orocess of the code generauon and tave tested both ard my pck is Windsurt\nare the same. The deep context awareness of Those who know, know. Not all Al based editors\nwindsurf is truly remarkable. lt even knows the\nerico compared to from compose/ 3gent mode to chat vhile one subtle ux diff I apprechte in maintaining thc conversaton s the abiity to sy cursor location, the changes so far,other files1 didn't mention, and it doesn't have the arbitrary separation of composer vs chat in UX. Scott Forsyth o Grenlrsvieo tve ucd Windhurt nlesn Hhs he Couplr ol wrerke inel I snctely reler l vre. Cukor R fect morc inievhRid hrd nntvh",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1518.88
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "We are the first and only company to replace Chat\nwith Agents\n*and people love that\nMIChaLO Follow\nfesure before coding it Yery coo! lan Nuttall O Whether it wntes code or helps you spec o Yep. they cal t Cascade and you can tog Shao1少紫0 Follow dtling feels nore natural ano butn thole orocess of the code generauon and tave tested both ard my pck is Windsurt\nare the same. The deep context awareness of Those who know, know. Not all Al based editors\nwindsurf is truly remarkable. lt even knows the\nerico compared to from compose/ 3gent mode to chat vhile one subtle ux diff I apprechte in maintaining thc conversaton s the abiity to sy cursor location, the changes so far,other files1 didn't mention, and it doesn't have the arbitrary separation of composer vs chat in UX. Scott Forsyth o Grenlrsvieo tve ucd Windhurt nlesn Hhs he Couplr ol wrerke inel I snctely reler l vre. Cukor R fect morc inievhRid hrd nntvh",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

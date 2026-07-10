@@ -16,11 +16,29 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/12v5S1n1eOY/slide-001.jpg]]
 
-- Source scene image: `frame-00002.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.35`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/12v5S1n1eOY/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.94`
+- Text source: agent_vision.
+
+Slide text:
+
+> 67%
+> Fortune 500
+> 115K
+> Total customers
+
 ![[assets/dense-slides/12v5S1n1eOY/slide-002.jpg]]
 
-- Source scene image: `frame-00005.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.75`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/12v5S1n1eOY/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
+
+> Box has fully integrated generative AI starting in 2023
+> Q&A across documents
+> Data extraction
+> AI-powered workflows
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/12v5S1n1eOY/audit.json`

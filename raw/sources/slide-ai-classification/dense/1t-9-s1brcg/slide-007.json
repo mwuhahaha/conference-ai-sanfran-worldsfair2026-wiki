@@ -1,0 +1,88 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Application UI screenshot with many small labels and controls; OCR is appropriate for downstream extraction.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Azure AI Proxy Playground",
+        "x": 1.0,
+        "y": 1.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "System Message",
+        "x": 3.0,
+        "y": 11.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Chat session",
+        "x": 24.0,
+        "y": 11.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Configuration",
+        "x": 79.0,
+        "y": 11.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "You are an AI assistant that helps people find information.",
+        "x": 4.0,
+        "y": 22.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "OpenAI Functions",
+        "x": 3.0,
+        "y": 43.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "API Response",
+        "x": 80.0,
+        "y": 43.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657240.9725497,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

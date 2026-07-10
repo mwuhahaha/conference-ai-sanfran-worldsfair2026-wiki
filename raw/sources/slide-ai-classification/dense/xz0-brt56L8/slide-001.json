@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "4x faster. 15% better. Production-ready.\n4x FASTER\n15% QUALITY GAIN\n6% USER SATISFACTION",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "4x faster. 15% better. Production-ready.",
+        "x": 27.0,
+        "y": 24.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "4x",
+        "x": 27.0,
+        "y": 39.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "15%",
+        "x": 42.0,
+        "y": 39.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "6%",
+        "x": 55.0,
+        "y": 39.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Manus 1.5 represents a complete re-architecture of our agent system. Tasks that took 15 minutes in April now complete in under 4 minutes. Two models serve different needs: Manus-1.5 delivers full power for complex workflows, while Manus-1.5-Lite provides cost-efficient performance for high-volume operations.",
+        "x": 27.0,
+        "y": 54.0,
+        "w": 49.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672875.6447961,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "4x faster. 15% better. Production-ready.\n4x FASTER\n15% QUALITY GAIN\n6% USER SATISFACTION",
+  "advanced_ocr": {}
+}

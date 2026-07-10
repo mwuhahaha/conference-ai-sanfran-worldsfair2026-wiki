@@ -1,0 +1,88 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "External Connectors",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product UI screenshot with multiple labels and dense interface text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "External Connectors",
+        "x": 20.0,
+        "y": 10.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "GitHub",
+        "x": 24.0,
+        "y": 28.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Linear",
+        "x": 24.0,
+        "y": 40.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Individual Usage",
+        "x": 20.0,
+        "y": 52.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Buy More Usage",
+        "x": 85.0,
+        "y": 52.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 46.0,
+        "y": 83.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 73.0,
+        "y": 83.0,
+        "w": 12.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-020.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659324.0661857,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "External Connectors",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

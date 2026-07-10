@@ -1,0 +1,88 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "diagram slide with small labels and axis text",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#000000",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Mixedbread",
+        "x": 6.0,
+        "y": 22.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer",
+        "x": 62.0,
+        "y": 22.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Reasoning",
+        "x": 50.0,
+        "y": 27.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Search",
+        "x": 34.0,
+        "y": 56.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Knowledge gap",
+        "x": 51.0,
+        "y": 53.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "CAPABILITIES",
+        "x": 18.0,
+        "y": 44.0,
+        "w": 8.0,
+        "h": 16.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "TIME",
+        "x": 34.0,
+        "y": 77.0,
+        "w": 6.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/1IdzkRVmWAA/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657147.4835608,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

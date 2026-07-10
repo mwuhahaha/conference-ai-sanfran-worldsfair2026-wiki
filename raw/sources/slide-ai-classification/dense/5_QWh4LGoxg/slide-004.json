@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense layered architecture slide with multiple sections and bullet lists.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "green gradient with white panels",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Cognitive Shield: Revolutionary Three Layer Defense",
+        "x": 5.0,
+        "y": 16.0,
+        "w": 24.0,
+        "h": 52.0
+      },
+      {
+        "role": "body",
+        "text": "LAYER 1: Fortress Foundation",
+        "x": 40.0,
+        "y": 11.0,
+        "w": 54.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "LAYER 2: Intelligent Detection Engine",
+        "x": 40.0,
+        "y": 38.0,
+        "w": 54.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "LAYER 3: Command & Control Center",
+        "x": 40.0,
+        "y": 65.0,
+        "w": 54.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658489.7679179,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

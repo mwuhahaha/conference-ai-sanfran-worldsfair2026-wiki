@@ -16,6 +16,13 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/E71YtNbCFXY/slide-001.jpg]]
 
-- Source scene image: `frame-00005.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.42`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/E71YtNbCFXY/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
+
+> 500 milliseconds is a typical voice-to-voice latency during a human conversation
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/E71YtNbCFXY/audit.json`

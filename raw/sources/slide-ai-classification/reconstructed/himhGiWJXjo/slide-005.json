@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "We solved this.\nMake your data & business logic available as a tool for your LLM.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple large text; direct read is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#1d1d16",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "We solved this.",
+        "x": 35.0,
+        "y": 31.0,
+        "w": 29.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Make your data & business logic available as a tool for your LLM.",
+        "x": 5.0,
+        "y": 52.0,
+        "w": 90.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Pacha DDN",
+        "x": 4.0,
+        "y": 94.0,
+        "w": 13.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/reconstructed-slides/himhGiWJXjo/slide-005.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668336.7620032,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "We solved this.\nMake your data & business logic available as a tool for your LLM.",
+  "advanced_ocr": {}
+}

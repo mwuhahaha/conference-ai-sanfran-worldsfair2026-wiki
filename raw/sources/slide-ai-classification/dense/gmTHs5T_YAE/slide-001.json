@@ -1,0 +1,52 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.97,
+  "frame_type": "title_card",
+  "reject_reason": "speaker intro card",
+  "text": "Hi, I'm Philip from Baseten\nDeveloper relations at Baseten\nBased in SFBA\nFavorite voice model: Orpheus TTS",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "intro card; not worth OCR",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "pale yellow with black sidebar",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 21.0,
+        "w": 11.0,
+        "h": 20.0
+      },
+      {
+        "role": "title",
+        "text": "Hi, I'm Philip from Baseten",
+        "x": 31.0,
+        "y": 20.0,
+        "w": 31.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Developer relations at Baseten\nBased in SFBA\nFavorite voice model: Orpheus TTS",
+        "x": 31.0,
+        "y": 31.0,
+        "w": 32.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/gmTHs5T_YAE/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667861.214321,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Hi, I'm Philip from Baseten\nDeveloper relations at Baseten\nBased in SFBA\nFavorite voice model: Orpheus TTS",
+  "advanced_ocr": {}
+}

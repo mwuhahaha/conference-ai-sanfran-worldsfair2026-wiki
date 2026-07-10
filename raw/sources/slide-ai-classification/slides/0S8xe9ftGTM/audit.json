@@ -1,0 +1,1702 @@
+{
+  "video_id": "0S8xe9ftGTM",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 24,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "6 Things to know about AIE WF 2026",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f5f5f5",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "6 Things to know about AIE WF 2026",
+            "x": 36.0,
+            "y": 39.0,
+            "w": 30.0,
+            "h": 20.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 47.0,
+            "y": 61.0,
+            "w": 7.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655694.021619,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "6 Things to know about AIE WF 2026",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "What We're Building",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#050505",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer World's Fair",
+            "x": 47.0,
+            "y": 11.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "What We're Building",
+            "x": 28.0,
+            "y": 30.0,
+            "w": 44.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655694.0532603,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What We're Building",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Channel analytics\nHow did my content perform?\nHow many new viewers did I reach?\nSummarize my latest video performance\nOverview  Content  Audience  Revenue  Trends\nMonthly audience\n823.9K\nSubscribers\n+514.5K\nAudience by watch behavior\nMonthly audience · Jun 19, 2026\nNew viewers 42.0%\nCasual viewers 48.3%\nRegular viewers 9.6%\nPopular with different audiences\nViews · Lifetime\nDon't Build Agents, Build Skills Instead\nThe New Coder - Sean Grove, OpenAI\nFull Walkthrough: Workflow For AI Cod...\nSoftware Fundamentals Matter More T...",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Channel analytics",
+            "x": 14.0,
+            "y": 10.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "823.9K",
+            "x": 25.0,
+            "y": 17.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "+514.5K",
+            "x": 46.0,
+            "y": 17.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Monthly audience",
+            "x": 14.0,
+            "y": 36.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Audience by watch behavior",
+            "x": 14.0,
+            "y": 70.0,
+            "w": 25.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Popular with different audiences",
+            "x": 48.0,
+            "y": 70.0,
+            "w": 29.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655694.0542214,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Channel analytics",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "X: *A + p# * a A frghw+ walbtFa 2o)1.:x 1. 0 Pirgs tbet At 2o24: 0o × I. +:\nG: stucto,yout,be.com,charrelUCLKPca3hwwd B59+Nr-_MAanslylcsab-buld_aualonca/petiod-scetime\nD Studo Puutp nef trarn purs @① +\nChannel analytics\nAIE How did rlirttt Tnd imy cerir * 4l n+-?\nYour chsers N Awaente Rvrve Tremda Cirhne $+p 1t?+1 -.a 11, 3*t4\n器 Cotbet Destboerd Tntety tautt 823.9K +514.5K'\nAanytes\nia, 4, 4, *1\n? Lrguvgts Coebanl drirctioa 187.331 t0p.0. L\ntarm (p 14. 34.1 E +tp, 14, 72+ F1201 MH, 21F ++1 004\nCustemL0ca\nCIEtO TUtTe ETEL\nAudltce by wtch bthrror △ Lhnet, tudilot + Js H, ites Populsr with dfferet Hdlenctt △\nH14\n+ 4x D+'t +t Ao+++e, Ih D.ht tmied +- 44.t\n每 Srtirgs +\" I+ wtilrogt 'trloe her A Codi. $51.t T+.h.\nB++s i++b+k 4t0.0nt A'Engire",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 871.52
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Channel analytics\nHow did my content perform?\nHow many new viewers did I reach?\nSummarize my latest video performance\nOverview  Content  Audience  Revenue  Trends\nMonthly audience\n823.9K\nSubscribers\n+514.5K\nAudience by watch behavior\nMonthly audience · Jun 19, 2026\nNew viewers 42.0%\nCasual viewers 48.3%\nRegular viewers 9.6%\nPopular with different audiences\nViews · Lifetime\nDon't Build Agents, Build Skills Instead\nThe New Coder - Sean Grove, OpenAI\nFull Walkthrough: Workflow For AI Cod...\nSoftware Fundamentals Matter More T...",
+        "text_status": "meaningful",
+        "corrections": "Accepted the visible YouTube Studio analytics text and corrected obvious OCR errors; omitted illegible UI chrome and unreadable chart ticks."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The SOTA in AI Engineering\nAll in One Place\n\n10 parallel engineering miniconferences + 2 leadership tracks. 400+ sessions. Divide\nand conquer!\n\nOrientation Jun 28   Workshop Day Jun 29   Tuesday Jun 30   Wednesday Jul 1   Thursday Jul 2\n\n#1 Harness Engineering   #2 Generative Media\n#3 Agentic Commerce   #4 AI in Finance\n#5 Local AI   #6 Graphs   #7 AI in GTM\n#8 AI in Healthcare   #9 Agentic Engineering\n#10 Inference   #11 AI-Native Enterprises\n#12 AI Architects: AI Factories\n\nAI in Finance\nInside the agentic shift in quant finance -- from Morgan Stanley's autonomous research agents to Nubank vetting 2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling through what it really takes to ship finance agents that understand money",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#050505",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer World's Fair",
+            "x": 47.0,
+            "y": 8.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "The SOTA in AI Engineering\nAll in One Place",
+            "x": 29.0,
+            "y": 18.0,
+            "w": 42.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Harness Engineering\nGenerative Media\nAgentic Commerce\nAI in Finance\nLocal AI\nGraphs\nAI in GTM\nAI in Healthcare\nAgentic Engineering\nInference\nAI-Native Enterprises\nAI Architects: AI Factories",
+            "x": 13.0,
+            "y": 31.0,
+            "w": 31.0,
+            "h": 42.0
+          },
+          {
+            "role": "body",
+            "text": "AI in Finance",
+            "x": 34.0,
+            "y": 36.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655874.4548683,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "The SOTA in AI Engineering\nAll in One Place",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "C al.engineerworids:ar/2026side-oents Q☆·目·日の口\nCAE HOm. Gcato G++ t+trts A fngiahtr Worier'e Fat Hobt Artca tup Thectits\nThe SOTA in AI Engineering All in One Place\nGrd coagr!\nhmtten un 28 Czur: Arg dousyrom Tuwsdry T130 Wedherday Thursdry\nHamess Enginrering Ger4rathre M+d\nAgertc Commerce\n1Loc A Graphs Atn GTM\nAln Heshhcare Agtntic Engt\ntnferesc Al-Nal've Erterpe is+s\nAl Archtecti: Al Factorlt\n'through what N reatly taket to shio finsnce sgenes uut Al in Finance Jnside the pponte shit ini quan. Euom xuarapni cn suebe garotas trocuouoineit Aonris 2,000 A kut, wrth trtunt, Ficarty, ong Antropke wrestling trom Morg",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 974.96
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "The SOTA in AI Engineering\nAll in One Place\n\n10 parallel engineering miniconferences + 2 leadership tracks. 400+ sessions. Divide\nand conquer!\n\nOrientation Jun 28   Workshop Day Jun 29   Tuesday Jun 30   Wednesday Jul 1   Thursday Jul 2\n\n#1 Harness Engineering   #2 Generative Media\n#3 Agentic Commerce   #4 AI in Finance\n#5 Local AI   #6 Graphs   #7 AI in GTM\n#8 AI in Healthcare   #9 Agentic Engineering\n#10 Inference   #11 AI-Native Enterprises\n#12 AI Architects: AI Factories\n\nAI in Finance\nInside the agentic shift in quant finance -- from Morgan Stanley's autonomous research agents to Nubank vetting 2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling through what it really takes to ship finance agents that understand money",
+        "text_status": "meaningful",
+        "corrections": "Corrected obvious OCR errors in headings, dates, and names; rest transcribed from the image."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "2. 4x Larger Expo\nEnough to spend an entire day catching up on everything great in AI Engineering\n3 days x 4 expo stages x 150 sponsors = insane value for Expo Explorer tix",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f7f7f7",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "2. 4x Larger Expo",
+            "x": 31.0,
+            "y": 28.0,
+            "w": 38.0,
+            "h": 14.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Enough to spend an entire day catching up on everything great in AI Engineering",
+            "x": 24.0,
+            "y": 42.0,
+            "w": 52.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "3 days x 4 expo stages x 150 sponsors = insane value for Expo Explorer tix",
+            "x": 23.0,
+            "y": 63.0,
+            "w": 54.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655994.0240204,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "2. 4x Larger Expo\nEnough to spend an entire day catching up on everything great in AI Engineering\n3 days x 4 expo stages x 150 sponsors = insane value for Expo Explorer tix",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Moscone West - Level 1\n\nEXPO STAGE 1 NE\nEXPO STAGE 4 SE\nSEATING AREA\nPOSTER SESSION\nEXPO STAGE 2 NW\nEXPO STAGE 3 SW\n\nENTRANCE\nREGISTRATION\nVENUE ENTRANCE\n\nElevator\nRestrooms\nInfo Desk\nCoat Check\nLogo Wall\nExpo Podcast\nBattle Bots\nFirst Aid\nWater Station\nGelato\nSurprise & Delight\nMusic\nConcessions\nRobots",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Moscone West - Level 1",
+            "x": 11.0,
+            "y": 3.0,
+            "w": 33.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "ENTRANCE",
+            "x": 63.0,
+            "y": 18.0,
+            "w": 9.0,
+            "h": 25.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "EXPO STAGE 1 NE",
+            "x": 9.0,
+            "y": 13.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "EXPO STAGE 4 SE",
+            "x": 37.0,
+            "y": 13.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "EXPO STAGE 2 NW",
+            "x": 9.0,
+            "y": 63.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "EXPO STAGE 3 SW",
+            "x": 37.0,
+            "y": 63.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "REGISTRATION",
+            "x": 52.0,
+            "y": 58.0,
+            "w": 9.0,
+            "h": 17.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655994.0247068,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Moscone West - Level 1",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Anim\nMoscone West - Level 1\n( tc ect\nEXPO STAGE INE EXPO\noar XIRCC STAGE4SE 口 ENTRANCE 。\nATINGION F attDstzos t AErginver\nFA3\nMATING AREA SSSSYON PCOTEA P22 M19 CONTUAEOSCINT\ne D REOISTRATION\nEXPOSTAOE2NN STAGE3S EXPO\nVENUE ENTRANCE\nloDesk Restnon Llevato! Expo Podcest Logo Wae ContChock 。 Water Stuticn Battle Bots Moc SptOrigM Ccato Rotols Concessions",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 608.96
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Moscone West - Level 1\n\nEXPO STAGE 1 NE\nEXPO STAGE 4 SE\nSEATING AREA\nPOSTER SESSION\nEXPO STAGE 2 NW\nEXPO STAGE 3 SW\n\nENTRANCE\nREGISTRATION\nVENUE ENTRANCE\n\nElevator\nRestrooms\nInfo Desk\nCoat Check\nLogo Wall\nExpo Podcast\nBattle Bots\nFirst Aid\nWater Station\nGelato\nSurprise & Delight\nMusic\nConcessions\nRobots",
+        "text_status": "meaningful",
+        "corrections": "OCR was partially corrected using clearly legible map labels; obvious errors were fixed and illegible fragments were omitted."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "3. AIE for Researchers\nCAIS Partnership\nPoster sessions\nPoaster sessions\nAIE DATA",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "3. AIE for Researchers",
+            "x": 18.0,
+            "y": 35.0,
+            "w": 64.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "CAIS Partnership\nPoster sessions\nPoaster sessions\nAIE DATA",
+            "x": 29.0,
+            "y": 47.0,
+            "w": 40.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656157.6196196,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "3. AIE for Researchers\nCAIS Partnership\nPoster sessions\nPoaster sessions\nAIE DATA",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "3. AIE for Researchers\nCAIS Partnership\nPoster sessions\nPoaster sessions\nAIE DATA",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "3. AIE for Researchers",
+            "x": 35.0,
+            "y": 50.0,
+            "w": 43.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "CAIS Partnership\nPoster sessions\nPoaster sessions\nAIE DATA",
+            "x": 46.0,
+            "y": 61.0,
+            "w": 24.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656157.6204362,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "3. AIE for Researchers\nCAIS Partnership\nPoster sessions\nPoaster sessions\nAIE DATA",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "ACM Conference on AI and Agentic Systems\nRegistration has reached capacity. Join the waitlist.\nBuilding the Future of Agentic & AI Systems\nACM CAIS 2026 - The premier venue for rigorous, reproducible research on compound AI architectures, optimization, and deployment.\nSan Jose, California\nWorkshops & Tutorials - Tue, May 26\nMain Conference - Wed, May 27-29\nRegistration is open\nJoin Waitlist\nDoubleTree by Hilton San Jose\n2050 Gateway Plz, San Jose, CA 95110\nGroup Rate: $179/night + tax\nBook now\nKeynote Speakers",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense website screenshot with small text and multiple UI regions.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(#f0f0ee,#e7e5df)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "ACM Conference on AI and Agentic Systems",
+            "x": 34.0,
+            "y": 17.0,
+            "w": 42.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "Building the Future of Agentic & AI Systems",
+            "x": 34.0,
+            "y": 39.0,
+            "w": 43.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656157.6274328,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Cneaalyles-Ybx-EgroerWdfa202x 6thngsabotAE2026-C +\n个?\nFte\nQ eofnppog Wsnetlon\nSide Trenaition\nNore\nACMConference on Aland AgenticSystems WNtsAOv CusPpgreeheeCoesileeCelr·RegstratenSoro Otiect Aninatices\nyay\nBuilding the Future of Agentic &Al Systems\nAu CNs2e-Thermereorrgorosreprodvoblechoncomoounarchtectures.comitond depioyert\n2. n Leye+ Eeje Sn Jo,Caos\nMainCoelermceWho-FMay 27-29\nYJoh Watet BCe sbkree\n11\nBOoutleTene ty Hisen SnJor Croug areSsa\n2050-Grny Fa,en Ja,CA 0\nKoynote Spoakers\nCicktoadtspeaiarnoLAG",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 525.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "ACM Conference on AI and Agentic Systems\nRegistration has reached capacity. Join the waitlist.\nBuilding the Future of Agentic & AI Systems\nACM CAIS 2026 - The premier venue for rigorous, reproducible research on compound AI architectures, optimization, and deployment.\nSan Jose, California\nWorkshops & Tutorials - Tue, May 26\nMain Conference - Wed, May 27-29\nRegistration is open\nJoin Waitlist\nDoubleTree by Hilton San Jose\n2050 Gateway Plz, San Jose, CA 95110\nGroup Rate: $179/night + tax\nBook now\nKeynote Speakers",
+        "text_status": "meaningful",
+        "corrections": "Corrected the clear title, banner, dates, venue, and rate text; ignored UI chrome and illegible side-panel clutter."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.87,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656223.8543487,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI Engineer World's Fair\nCall For Poster & Poaster Session!\nPosters & Poasters\nPresent a research paper or a hot take as part of the official Posters & Poasters track at AI Engineer World's Fair.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Webpage-style poster call screenshot with several small text regions.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Call For Poster & Poaster Session!",
+            "x": 49.0,
+            "y": 34.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Posters & Poasters",
+            "x": 50.0,
+            "y": 45.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656223.855017,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "CalFerPowrerPoasterSaeaior World's Fair Al Engineer\nCall For Poster & Poaster Session!\nPosters&Poasters\nPresent a reseerch puper or a hot taktas purt ef e offcial Posters &Poerters tick at Al Engineec Worid's Fair.\nChcktoasdspeakefrotos\nX 6thingsaboutAlE202..",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 323.44
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "AI Engineer World's Fair\nCall For Poster & Poaster Session!\nPosters & Poasters\nPresent a research paper or a hot take as part of the official Posters & Poasters track at AI Engineer World's Fair.",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide text and corrected obvious OCR errors in the title and body; ignored browser/UI text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.9,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "why you should go to\nAI Engineer World's Fair 2026\nai.engineer/wf\nGET YOUR TICKET\n\nswyx @swyx · now\n\nHot take:\nthe most important AI conversations in 2026\nwon't happen in poster sessions.\nThey'll happen at AI Engineer World's Fair.\nwhere the people actually shipping show up\n\n11:11 AM · Jun 2-4, 2026 · San Francisco\n\n6000+ Engineers  300+ Speakers  Workshops & Demos  Frontier Breakthroughs  Real Connections",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Photo-based poster sign with readable headline and quote text.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f7f7f2",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "why you should go to AI Engineer World's Fair 2026",
+            "x": 25.0,
+            "y": 11.0,
+            "w": 42.0,
+            "h": 24.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656278.0422525,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/contrast",
+        "text": "why you should go to Al Engineer World's Fair 2026 GTOR TIOST aingnoer/wd 666\nswyx@swyx·now\nHot take: the most important Al conversations in 2026 won't happen in poster sessions. They'll happen at Al Engineer World's Fair. 11:11AM·Jun2-4,2026·SanFrasco where the poople actualy shipping show up Q11 101 1.0K 10 AIE\nS Speakers 300+ Workshops &Demos Breaithroughs Fronbiee Conetior Rea\nDescnbe cdits Medium Q\nimage HNX1ago",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 611.6
+      },
+      "ocr_source": "rapidocr-live/right-72/contrast",
+      "ocr_reconcile": {
+        "text": "why you should go to\nAI Engineer World's Fair 2026\nai.engineer/wf\nGET YOUR TICKET\n\nswyx @swyx · now\n\nHot take:\nthe most important AI conversations in 2026\nwon't happen in poster sessions.\nThey'll happen at AI Engineer World's Fair.\nwhere the people actually shipping show up\n\n11:11 AM · Jun 2-4, 2026 · San Francisco\n\n6000+ Engineers  300+ Speakers  Workshops & Demos  Frontier Breakthroughs  Real Connections",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for title, quote, date, and footer labels; excluded surrounding editor UI."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Moscone West\nMoscone West - Level 3",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Map and legend text are small and dense.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Moscone West",
+            "x": 13.0,
+            "y": 8.0,
+            "w": 72.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Moscone West - Level 3",
+            "x": 33.0,
+            "y": 15.0,
+            "w": 22.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656488.8865418,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Moscone West - Level 3",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "150% DacgrondLayoot Trogtion Motion\nSbdeTraeaiion\n口 Nore\nMosconeWest Ceject Animaticms\nLrve)\nSeectnob\nMoscone West-Level 3\n号\nB",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 209.36
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Moscone West\nMoscone West - Level 3",
+        "text_status": "meaningful",
+        "corrections": "Accepted the visible slide text and corrected spacing/hyphenation; ignored editor UI OCR."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.9,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "OpenAI\nHarness Engineering:\nHow to Build\nSoftware When\nHumans Steer and\nAgents Execute\n\nRyan Lopopolo\nMember of Technical Staff",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Video-page screenshot with mixed small UI text and embedded subtitles.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Harness Engineering: How to Build Software When Humans Steer and Agents Execute",
+            "x": 33.0,
+            "y": 13.0,
+            "w": 39.0,
+            "h": 34.0
+          },
+          {
+            "role": "caption",
+            "text": "Ryan Lopolopo",
+            "x": 33.0,
+            "y": 50.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Member of Technical Staff",
+            "x": 33.0,
+            "y": 55.0,
+            "w": 20.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-014.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656527.273556,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Taoyticn Motion\n口 None\nEUROPE MleDeepMind Harness Engineering: OpenAl How to Build CejectArimations\nrOS giner Software When\nWorkos Agents Execute Humans Steer and\nscale AEnginoer\nRyan Lopopolo\nMemberofTechnicalStatt\nG token billionaires to our AGl future, we want everybody to be AND AGENTS\nHarness Engineering: How to Build Software When Humans Steer, Agents Execute - Ryan Lopopolo, OpenAl\nAl Enginee 515X wtscrbens Edinvidto 3x share Promste ★Ask\nbitps//openti.comindx/hactess-eogi 163Kviews2moehsso",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 639.8
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "OpenAI\nHarness Engineering:\nHow to Build\nSoftware When\nHumans Steer and\nAgents Execute\n\nRyan Lopopolo\nMember of Technical Staff",
+        "text_status": "meaningful",
+        "corrections": "Corrected OCR by removing UI noise and fixing obvious title/name errors; kept only clearly visible slide text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "AI Engineer Token Billionaires",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple mockup-style slide with large readable title; direct read is enough.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(#d9d9d9,#d9d9d9)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Token Billionaires",
+            "x": 15.0,
+            "y": 12.0,
+            "w": 13.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "Engineering the future of AI",
+            "x": 31.0,
+            "y": 12.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "AI Engineer\nToken Billionaires",
+            "x": 16.0,
+            "y": 39.0,
+            "w": 31.0,
+            "h": 19.0
+          },
+          {
+            "role": "caption",
+            "text": "Submitted order",
+            "x": 75.0,
+            "y": 11.0,
+            "w": 15.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-015.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656600.8600655,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AI Engineer Token Billionaires",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Thematic\nFocuses\n\nFor\n\nAI Leadership\n\nAI Architects: Show my Workflow\nWatch AI architects from Qodo, Docker, and Hugging Face\nopen up their real production stacks-agent runtimes, eval\npipelines, and code review you can actually trust-while\nengineers from The Browser Company show how they\nautomate their own jobs end-to-end.\n\nAI Architects: Tokenmaxxing\nWhen tokens become the new lines of code, the metrics\nchange too. Microsoft, Jellyfish, and Arize AI weigh in on\nagents refactoring real codebases, the death of the code\nreview, and whether engineers should still read code at all.\n\nAI Architects: AI Factories\nHow production AI systems actually get built-and paid for:\ntoken-spend FinOps and agent budgets from Microsoft and\nAnthropic, model routing across teams, and the infrastructure\nlayer where Venrock argues the AI race is really won or lost.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-column slide with small body text in dark panels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Thematic\nFocuses\nFor\nAI Leadership",
+            "x": 18.0,
+            "y": 21.0,
+            "w": 18.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "AI Architects: Show my Workflow",
+            "x": 43.0,
+            "y": 11.0,
+            "w": 35.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "AI Architects: Tokenmaxxing",
+            "x": 43.0,
+            "y": 35.0,
+            "w": 35.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "AI Architects: AI Factories",
+            "x": 43.0,
+            "y": 59.0,
+            "w": 35.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-016.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656600.861148,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Thematic Focuses For AI Leadership",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "totion\ntuogt,v p+ioo\nAl Architocts: Show my Workflow Whreh Al dxchrnects fon Oodo Duckcr and Huagrg Far?\nopcn up t:en rca producton slacks Jgcnl auatmcs Cval\nThematic For Focuses Al Leadership Al Architects: Tokenmaxxing Tau doy Mous Aurduao jhsnoa su1 do ghou bun duRomate tcr own jous end to cnd B 1e sDo2 peoJr1s pnous sh5ubuo furoum put MaAo1 Whentokens become the hem dies of coce the melics changc loo Mcroso! Jelyhsh and Anzr Al wcsh n on agentstelactorngreat codebasesthe deahhcl the code\nAl Architccts: AlFactorios\ntoken spend FinOos and agent budgeis fron Microsoft and How producicn Al systems aclusly get buiR ard paid for bnpnrsegur tun pue surea) ssoise 6unnor apow sidourl? Jygr Where Vearoct Jigues Ge A!rure sreany won or los9",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1236.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Thematic\nFocuses\n\nFor\n\nAI Leadership\n\nAI Architects: Show my Workflow\nWatch AI architects from Qodo, Docker, and Hugging Face\nopen up their real production stacks-agent runtimes, eval\npipelines, and code review you can actually trust-while\nengineers from The Browser Company show how they\nautomate their own jobs end-to-end.\n\nAI Architects: Tokenmaxxing\nWhen tokens become the new lines of code, the metrics\nchange too. Microsoft, Jellyfish, and Arize AI weigh in on\nagents refactoring real codebases, the death of the code\nreview, and whether engineers should still read code at all.\n\nAI Architects: AI Factories\nHow production AI systems actually get built-and paid for:\ntoken-spend FinOps and agent budgets from Microsoft and\nAnthropic, model routing across teams, and the infrastructure\nlayer where Venrock argues the AI race is really won or lost.",
+        "text_status": "meaningful",
+        "corrections": "OCR was corrected against the image; titles and body text were cleaned up with only obvious fixes."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Sessions for Leadership track\n\n1 Tokenomics (60 Mins)\n- Spend is Scaling Faster Than Value Realization\n  - Tokenmaxing/ Rapid Growth of AI Token Spend\n  - Lack of Visibility and Control\n- Non-Decision-Grade Economics due to unclear cost and value dynamics and challenges in measuring AI benefits\n- Shift from Token-Level to Workflow-Level Analysis\n\nParticipant profile\n20-30 senior leaders:\n- CEO, Presidents\n- Product and Engineering heads (CIO, CTO, Head of R&D)\n- Finance heads (CFO)\n\n2 Agentic org of the future (60 mins)\n- The shift towards newer, smaller team structure\n- Implications on roles and responsibilities\n  - At a team level\n  - At the overall org level\n- Challenges that need to be solved to ensure success:\n  - HR processes, performance management, hiring, recruiting\n  - Change management\n  - Upskilling\n\nParticipant profile\n20-30 senior leaders:\n- CEO, Presidents\n- Product and Engineering heads (CIO, CTO, Head of R&D)\n- CHROs, Head of HR functions\n\nProposed format:\n- Martin (or other partner) shares initial thoughts and content on the topic (15 min)\n- Open for discussion and Q&A (45 mins)\n\nProposed timing - pls confirm:\n- Tokenomics - 1-2 PM PT on July 1st\n- Agentic org of the future - 3-4 PM PT on July 1st",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense agenda slide with multiple columns and small supporting text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Sessions for Leadership track",
+            "x": 14.0,
+            "y": 11.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Tokenomics (60 Mins)",
+            "x": 18.0,
+            "y": 23.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Agentic org of the future (60 mins)",
+            "x": 18.0,
+            "y": 48.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Participant profile",
+            "x": 55.0,
+            "y": 20.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Proposed format",
+            "x": 75.0,
+            "y": 11.0,
+            "w": 11.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Proposed timing - pls confirm:",
+            "x": 75.0,
+            "y": 31.0,
+            "w": 16.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-017.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656649.7362754,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Sessions for Leadership track",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "oa: uy n hp Hotion\ntl.e Tmph'o.\nCele Aimicr\nSessions for Leadership track Worid's Fair\nIokenomlcs (6o Mlns) Agentic org of the future (60 mlns) -Lick a Vabity ind Conko -Uositng LITERGITIE CCTLO1 -Iokedmaoing/ Fapld Growth ot Al Token IA the oierl crg erel -At a toam level Spand h Scaing Farer Than Value Reafzation HR processes, perormance management. HonOecltlonGrdo Eoonomics de to Lndlet m+hteuring A bontft! Shit trom TokenLerrel to Woriiou.Lervo! The shht owards mwer, smuher hun sructure Impllcations on roles and responsiblkitles Chalenges bhat need to be sohred to ersure cot nd sa'ca dyLau 5d chLsngl in. tieuy tccesa: hring, recriing pueds 20-30 sonior teadere: + CEO, Precidens 20-30 sonior teaders: Participant profil Finnce hads (CFO) CEO, Prsidtrbs Product and Enginoering Product snd Engneering tunctiors R&D) CHRO4, Hed ol HR hetd# (CO, CTO, Hed ol heads (CIO, CTO, Head c R&D) EWuoo ad - cuwn roodoid. hneuboy pesodoud: Martin (or other partner) shares rid tC:anng din jobuo sguooy/p VgO pue Gopsnoap og uodo the lopic (16 mn)) nital thoughua and coniont on'? (spw st) 1# PI on July 1g Moving away. from Agile\nRx",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1564.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Sessions for Leadership track\n\n1 Tokenomics (60 Mins)\n- Spend is Scaling Faster Than Value Realization\n  - Tokenmaxing/ Rapid Growth of AI Token Spend\n  - Lack of Visibility and Control\n- Non-Decision-Grade Economics due to unclear cost and value dynamics and challenges in measuring AI benefits\n- Shift from Token-Level to Workflow-Level Analysis\n\nParticipant profile\n20-30 senior leaders:\n- CEO, Presidents\n- Product and Engineering heads (CIO, CTO, Head of R&D)\n- Finance heads (CFO)\n\n2 Agentic org of the future (60 mins)\n- The shift towards newer, smaller team structure\n- Implications on roles and responsibilities\n  - At a team level\n  - At the overall org level\n- Challenges that need to be solved to ensure success:\n  - HR processes, performance management, hiring, recruiting\n  - Change management\n  - Upskilling\n\nParticipant profile\n20-30 senior leaders:\n- CEO, Presidents\n- Product and Engineering heads (CIO, CTO, Head of R&D)\n- CHROs, Head of HR functions\n\nProposed format:\n- Martin (or other partner) shares initial thoughts and content on the topic (15 min)\n- Open for discussion and Q&A (45 mins)\n\nProposed timing - pls confirm:\n- Tokenomics - 1-2 PM PT on July 1st\n- Agentic org of the future - 3-4 PM PT on July 1st",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR structure and corrected obvious word errors from the slide image."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "5. AI Verticals\nForward Deployed Engineering\nAgentic Commerce\nHealthcare\nFinance\nGTM",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple large-text title card; direct read is enough.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "5. AI Verticals",
+            "x": 35.0,
+            "y": 26.0,
+            "w": 30.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Forward Deployed Engineering",
+            "x": 30.0,
+            "y": 40.0,
+            "w": 40.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Agentic Commerce",
+            "x": 36.0,
+            "y": 48.0,
+            "w": 25.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Healthcare",
+            "x": 41.0,
+            "y": 56.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Finance",
+            "x": 43.0,
+            "y": 63.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "GTM",
+            "x": 45.0,
+            "y": 70.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-018.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656705.5693467,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "5. AI Verticals\nForward Deployed Engineering\nAgentic Commerce\nHealthcare\nFinance\nGTM",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI Engineer\n@aiDotEngineer · 515K subscribers · 803 videos\nTalks, workshops, events, and training for AI Engineers. ...more\nai.engineer and 2 more links\nMake your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior\nHow to Build an LLM-Native Expert System\nStateful environments for vertical agents — Josh Purtell, ...",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense YouTube channel screenshot with multiple readable text regions; OCR is cheaper than manual transcription for the body content.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 12.0,
+            "y": 7.0,
+            "w": 16.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "AI Engineer",
+            "x": 29.0,
+            "y": 6.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "@aiDotEngineer • 515K subscribers • 803 videos",
+            "x": 29.0,
+            "y": 13.0,
+            "w": 33.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Talks, workshops, events, and training for AI Engineers. ...more",
+            "x": 29.0,
+            "y": 19.0,
+            "w": 40.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "ai.engineer and 2 more links",
+            "x": 29.0,
+            "y": 25.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior",
+            "x": 33.0,
+            "y": 32.0,
+            "w": 54.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "Stateful environments for vertical agents — Josh Purtell, ...",
+            "x": 33.0,
+            "y": 69.0,
+            "w": 45.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-019.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657084.4481788,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "AI Engineer",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Al Engineer\nAIE @aiDotEngineer · 515K subscribers · 803 videos Talks, workshops, events, and training for Al Engineers...more\nQ al.engineer and 2 more links\nCustomize channel Manage videos. Sg? Community\nHome Videos Shorts Live Podcasts Playlists Posts Store vertica!\nWorrsF a Anteriox Make your LLM app a Domain Expert: How to Build an Expert System - Christopher Lovejoy, Anterior\nG Al Engireer · 87K views · 10 months 8g0\nHow to Build an LLM-Native Expert System 19:18 the latest LlMs off-the-shelf: you need a system for codifying larent... Vertical Al h a rmufti-trlllorrdollar opportunity. But you can't build a domsln-expert applicaton simpty by grabbihg\nWorter's Fr StatefulEnvironments for Vertical Agents6s1 EnYHonmCnis happy to do agaln. Here's the repo - general code that endows envrorments. Al Engineer · 1.3K vlews · 10 months 8go Hty All - gave o talk on building stateful cnvironments for vertical agonts at Al tinkerers Stateful environments for vertical agents = Josh Purtell, S A'Engroe",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1284.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "AI Engineer\n@aiDotEngineer · 515K subscribers · 803 videos\nTalks, workshops, events, and training for AI Engineers. ...more\nai.engineer and 2 more links\nMake your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior\nHow to Build an LLM-Native Expert System\nStateful environments for vertical agents — Josh Purtell, ...",
+        "text_status": "meaningful",
+        "corrections": "Accepted the visible text and corrected obvious OCR errors like Al/Al to AI, WorrsF to World’s Fair, and vertical!/8g0 to vertical/10 months ago; left truncated text incomplete where the image is cut off."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Forward Deployed Engineering\nHow forward deployed engineers actually operate inside\nAnthropic, Ramp, Cursor, and Sierra — embedding with\ncustomers, wiring up custom integrations, debugging\nproduction systems, and learning hard lessons like how to\nstop shipping low-quality RL environments.\n\nAI in Finance\nInside the agentic shift in quant finance — from Morgan\nStanley's autonomous research agents to Nubank vetting\n2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling\nthrough what it really takes to ship finance agents that\nunderstand money.\n\nAI in Healthcare\nFrom ambient clinical documentation at Abridge to multi-\nagent care at Sword Health, voice at scale from Hippocratic\nAI, and Google DeepMind's AMIE co-clinician — this track is\nabout shipping patient-facing health AI with the guardrails\nand regulatory rigor it demands.\n\nSponsorship Prospectus\n1.5 million\nUnique Viewers Worldwide\n1,000+\nAI Engineers & Technical Leaders\n100+\nTop Industry Speakers\n150k+\nRemote Livestream Attendees\nOctober 12-14, 2026\nSheraton New York Times Square Hotel\nWhere AI Engineering\nMeets Financial Services\nAI Engineer New York\nOctober 12 - 14, 2026",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-panel prospectus slide with dense readable marketing copy and several embedded screenshots; OCR is the right capture path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(180deg,#0b0b0b,#111111)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Forward Deployed Engineering",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "How forward deployed engineers actually operate inside Anthropic, Ramp, Cursor, and Sierra — embedding with customers, wiring up custom integrations, debugging production systems, and learning hard lessons like how to stop shipping low-quality RL environments.",
+            "x": 5.0,
+            "y": 18.0,
+            "w": 38.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "AI in Finance",
+            "x": 5.0,
+            "y": 39.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Inside the agentic shift in quant finance — from Morgan Stanley's autonomous research agents to Nubank vetting 2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling through what it really takes to ship finance agents that understand money.",
+            "x": 5.0,
+            "y": 47.0,
+            "w": 38.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "AI in Healthcare",
+            "x": 5.0,
+            "y": 68.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "From ambient clinical documentation at Abridge to multi-agent care at Sword Health, voice at scale from Hippocratic AI, and Google DeepMind's AMIE co-clinician — this track is about shipping patient-facing health AI with the guardrails and regulatory rigor it demands.",
+            "x": 5.0,
+            "y": 76.0,
+            "w": 39.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "Sponsorship Prospectus",
+            "x": 52.0,
+            "y": 5.0,
+            "w": 31.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "Where AI Engineering Meets Financial Services",
+            "x": 52.0,
+            "y": 53.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "AI Engineer New York",
+            "x": 80.0,
+            "y": 89.0,
+            "w": 16.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-020.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657205.4789402,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Sponsorship Prospectus",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "How forward deployed engineers actually operate inside Forward Deployed Engineering AIEngineer NEYYORI ShetetunNrw tek TmesSquareHecol October12-14,2026\nAnthropic, Ramp, Cursor, and Sierra —embedding with\ncustomers,wiring up custom integrations, debugging\nproduction systems,and learning hard lessons like how to\nstopshipping low-qualityRLenvironments. Sponsorship Prospectus\nInside the agenticshift inquant finance-fromMorgan Al in Finance 1.5 million Uqe Vaewery rmcallesdens 1,000+ Ergnn 100+ Tco Irdustry Seves Rrmote Lvesream 150k+ AtONs\nStanley's autonomous research agents to Nubank vetting Mtips:/kai 2026\n2,00o Al skills, with Intuit, Fidelity, and Anthropic wrestling Where Al Engineering\nthroughwhat itreallytakes toshipfinance agentsthat Meets Financial Services\nunderstand money. WALI SY\nAl in Healthcare\nFrom ambient clinical documentation at Abridge to multi-\nagent care at Sword Health, voice at scale from Hippocratic\nAl,and GoogleDeepMind'sAMlEco-clinician-thistrackis\nand regulatory rigor it demands. Al Engineer New York\nOctober 12 -14,2026",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1340.44
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Forward Deployed Engineering\nHow forward deployed engineers actually operate inside\nAnthropic, Ramp, Cursor, and Sierra — embedding with\ncustomers, wiring up custom integrations, debugging\nproduction systems, and learning hard lessons like how to\nstop shipping low-quality RL environments.\n\nAI in Finance\nInside the agentic shift in quant finance — from Morgan\nStanley's autonomous research agents to Nubank vetting\n2,000 AI skills, with Intuit, Fidelity, and Anthropic wrestling\nthrough what it really takes to ship finance agents that\nunderstand money.\n\nAI in Healthcare\nFrom ambient clinical documentation at Abridge to multi-\nagent care at Sword Health, voice at scale from Hippocratic\nAI, and Google DeepMind's AMIE co-clinician — this track is\nabout shipping patient-facing health AI with the guardrails\nand regulatory rigor it demands.\n\nSponsorship Prospectus\n1.5 million\nUnique Viewers Worldwide\n1,000+\nAI Engineers & Technical Leaders\n100+\nTop Industry Speakers\n150k+\nRemote Livestream Attendees\nOctober 12-14, 2026\nSheraton New York Times Square Hotel\nWhere AI Engineering\nMeets Financial Services\nAI Engineer New York\nOctober 12 - 14, 2026",
+        "text_status": "meaningful",
+        "corrections": "Accepted most text; corrected clear OCR spacing/capitalization errors and omitted illegible body copy."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-020.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "6. Side Events\n40+ Side Events including the World Cup\nNEO\nAIE Kids",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "6. Side Events",
+            "x": 39.0,
+            "y": 31.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "40+ Side Events including the World Cup",
+            "x": 33.0,
+            "y": 47.0,
+            "w": 35.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "NEO",
+            "x": 48.0,
+            "y": 55.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "AIE Kids",
+            "x": 47.0,
+            "y": 61.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-021.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657380.000304,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "6. Side Events\n40+ Side Events including the World Cup\nNEO\nAIE Kids",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-021.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI Engineer World's Fair\nSide Events\nWorld Cup Watch Party\nThe Agent Open\nPrivate Leadership Dinner — Human Data & AI\nSynth Community Jam: San Francisco\nFuture Code: Rewiring the Developer Frontier\nThe AI Builders Mixer\nDeploy, Scale, Score: DigitalOcean x Vermilion AI Infra Social",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Browser screenshot of the side-events listing with multiple event cards and small UI text; better handled by OCR than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#120f0b",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "World Cup Watch Party",
+            "x": 34.0,
+            "y": 11.0,
+            "w": 19.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "The Agent Open",
+            "x": 34.0,
+            "y": 23.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Private Leadership Dinner — Human Data & AI",
+            "x": 34.0,
+            "y": 36.0,
+            "w": 32.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Synk Community Jam: San Francisco",
+            "x": 34.0,
+            "y": 49.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Future Code: Rewriting the Developer Frontier",
+            "x": 34.0,
+            "y": 62.0,
+            "w": 35.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "The AI Builders Mixer",
+            "x": 34.0,
+            "y": 75.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Deploy, Scale, Score: DigitalOcean + Vercel",
+            "x": 34.0,
+            "y": 88.0,
+            "w": 33.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-022.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-022.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657380.0012264,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "回 6rs A 726\nengne/5s11/2026s0-evns C\nAIE Hne 11as,94 Sc7eduie Saae fvets SoONNerS Assoaes BoyTcuts\n88 C9\nwonOp Watch Party 8 owing too.dektognanforcoegng ay.rig\nTheAenOpen RSVPcolona\nAGENTOPEN cowwvicnsa1umntbacet.Doosofoco TheerAgentOpenAon ctooirkA.eJ=000PM·SFccCA\nPriwa LeoierbgDner-HunanDutebAI ASVP os Luna+\now nnowton HumasDua erd A crng Al Engceer San Aswcing ofiee gning cocecoonand coeutos wth eadeny\nZONE FAN SaykConeuntyJom:SanFranclco SyTutJu3o·toPi28ochmaSSano aCtossdeottecycleodorsaunsowousn\nFuane CoceRearitng the Devebgn Frentier\nAa evnObHOdcdoge troeA escrotmntcuraladwthetgceera.opestoucemaicbinetsed\nHetz VeeVyCtlPrPoaWuJn350 FM·Jodoo.Sn FrecRacs The ABuisers Moer RSVP cs Lon+\nBjtatevenngofcocitstsndcooeratonoregA Engo Joh HeVoneeVaey Caot PatcsFoxWowndts for\nDepiey,Scale,Sccre:Dgtalocea·Vermllon A Ifra Social RSVPosLunu+\nW0oob4.885318.5on11r40c5co\nEnginter Wond's Fair",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 976.84
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "AI Engineer World's Fair\nSide Events\nWorld Cup Watch Party\nThe Agent Open\nPrivate Leadership Dinner — Human Data & AI\nSynth Community Jam: San Francisco\nFuture Code: Rewiring the Developer Frontier\nThe AI Builders Mixer\nDeploy, Scale, Score: DigitalOcean x Vermilion AI Infra Social",
+        "text_status": "meaningful",
+        "corrections": "Corrected the clear page title and event names; omitted noisy browser chrome and illegible body copy."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-022.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AI Engineer World's Fair – New Engineer Orientation (IRL)\nSunday, June 28\n5:00 PM - 9:00 PM\nMoscone West\nSan Francisco, CA\nOne-Click RSVP\n\nIf you're coming to AIE for the first time, it can be a lot to take in if you're confused about anything about our program or how to make the most out of the week, join this to ask directly and meet new friends and speakers early.\n\nTHIS IS THE LAST ONE WE'LL RUN, RIGHT BEFORE THE SHOW ITSELF.\nCOME EARLY TO PICK UP BADGES AND ESCAPE THE MORNING CRUSH.\n\nSome notes:\n- If you are traveling in, we REALLY REALLY advise booking the hotel NOW, or discounts expire Jun 4 and they will sell out.\n- we are announcing speakers in waves\n- we'll do a few of these orientation talks leading up to it, and on Jun 28 (Sunday before AIEWF) we'll do an IRL in person.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Event-card screenshot with small dense copy and multiple structured fields; OCR is preferable to manual transcription in this triage pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#dff4f6",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI Engineer World’s Fair – New Engineer Orientation (IRL)",
+            "x": 35.0,
+            "y": 14.0,
+            "w": 42.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "Sunday, June 28",
+            "x": 47.0,
+            "y": 24.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Moscone West",
+            "x": 48.0,
+            "y": 28.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "San Francisco, CA",
+            "x": 48.0,
+            "y": 32.0,
+            "w": 13.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "One-Click RSVP",
+            "x": 49.0,
+            "y": 40.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "About this event",
+            "x": 48.0,
+            "y": 50.0,
+            "w": 12.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-023.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-023.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657485.0379682,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/contrast",
+        "text": "@ insouAE2026.X\n→ C docs.g00gle.compre2entaton/d/1HW_VHGVLUzWeMm4mK1YGRq13R19P2GP7QomOmes4CM/et7pa18sld6*id.g3f20a5b400c_0191es1ded.g3f20a5b100c_0_191\nFleEotVewsertFormSideAoregeFoeoCstrgionsxe 6hingsaboutAE2026\nQ、Menus Tranaitioo\n23 AI EngineerWorld'sFair-New Engineer Orientation (IRL)\n28 geipog\nSae SrncinoRCA\n109 oleoess Cne-Clckevp\nLneSocePperCuo,Nnk ASty DOE\n28 ALIACUCXEBSCOOOAONTONLNCR x9 ene weekinns to nsr dieectyand meetoee iencsnd spekers eanty THISISTHELASYNEOWEWLLBUNRICHTBEFOBETHESHOWTSELI CONEEARLYTOPCXCPUACOESANDESCAPEDHEMCRNNOCREH\ncouple octes\n30 yeu et neg heREaLLY REAlY se bong DehetsNo we doa ewf eseNt0s onot keadng p 1nd onJun 28Sndy ordcoepn aedeywLL seot etu sepbsoeouout ieon DoAEWF]weT6oanNEOiprLon\noevery\n32.\n3 Cicksadsperactes\n6thrgs atoitAE2026",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 702.84
+      },
+      "ocr_source": "rapidocr-live/left-72/contrast",
+      "ocr_reconcile": {
+        "text": "AI Engineer World's Fair – New Engineer Orientation (IRL)\nSunday, June 28\n5:00 PM - 9:00 PM\nMoscone West\nSan Francisco, CA\nOne-Click RSVP\n\nIf you're coming to AIE for the first time, it can be a lot to take in if you're confused about anything about our program or how to make the most out of the week, join this to ask directly and meet new friends and speakers early.\n\nTHIS IS THE LAST ONE WE'LL RUN, RIGHT BEFORE THE SHOW ITSELF.\nCOME EARLY TO PICK UP BADGES AND ESCAPE THE MORNING CRUSH.\n\nSome notes:\n- If you are traveling in, we REALLY REALLY advise booking the hotel NOW, or discounts expire Jun 4 and they will sell out.\n- we are announcing speakers in waves\n- we'll do a few of these orientation talks leading up to it, and on Jun 28 (Sunday before AIEWF) we'll do an IRL in person.",
+        "text_status": "meaningful",
+        "corrections": "Corrected the title, venue, and obvious OCR errors; ignored browser chrome and kept only legible slide text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-023.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "6 Things to know about AIE WF 2026\n1. It’s bigger than all previous AIEs\n2. 4x Larger Expo with 4 Expo stages\n3. AIE for Researchers\n4. AI Leadership\n5. AI Verticals\n6. Side Events",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "6 Things to know about AIE WF 2026",
+            "x": 26.0,
+            "y": 23.0,
+            "w": 48.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "1. It’s bigger than all previous AIEs",
+            "x": 26.0,
+            "y": 37.0,
+            "w": 40.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "2. 4x Larger Expo with 4 Expo stages",
+            "x": 26.0,
+            "y": 45.0,
+            "w": 42.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "3. AIE for Researchers",
+            "x": 26.0,
+            "y": 53.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "4. AI Leadership",
+            "x": 26.0,
+            "y": 61.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "5. AI Verticals",
+            "x": 26.0,
+            "y": 69.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "6. Side Events",
+            "x": 26.0,
+            "y": 77.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-024.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/0S8xe9ftGTM/slide-024.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657617.6458757,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "6 Things to know about AIE WF 2026\n1. It’s bigger than all previous AIEs\n2. 4x Larger Expo with 4 Expo stages\n3. AIE for Researchers\n4. AI Leadership\n5. AI Verticals\n6. Side Events",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/0S8xe9ftGTM/slide-024.html"
+    }
+  ],
+  "rejected": []
+}

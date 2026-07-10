@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "product #20315:\nstudloAskAgentV1 flag AI-664: Rename agent feature flags with alpha suffix and add\nVRazgsts listure/iront-v1/itudio-Asx/eo-foatur+-flar-ienming: + doveloo: 5 fasi +24 -11. Updated 4w spo\n+ Suck: t 1of 10 D Copy tuct **+\n#21114 A-701: Ul p4 ghel To orz. Morpod'; 22d\n#21113 A-70z Ul compose ar4 traad $211i2 A-700: U1 m#stge buobs ta Gz. Mrged: 2?d Merpod 27d\n$21111 Al-69g: U1 primtvos n2d\np21110 AI:698: UI tounduton\n$21101 A1·697: U1 rotout docs Coied: 23d\nW205 i5 AI-676: 8rahntrust telertety + aproxry fetlrerert Merged'\nN20436 Al-653: serrw runbme Co shn2 iorgeo?\nLO433 Al:6Sr agtr icomman'srt/cHonl ptckage bucke + pLtorm?wida agtnt docs Bou LAusovrrvoiprs poe pue xns tyoe 4hm sbey onreog uode eieuny:+99.IV sIe] C q4 iuarged. smo Muped?\n(nnk) -",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product/UI screenshot with many small text rows and PR metadata; OCR is a better fit than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3f3f3",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "product #20315",
+        "x": 24.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "AI-664: Rename agent feature flags with alpha suffix and add studioAskAgentV1 flag",
+        "x": 24.0,
+        "y": 25.0,
+        "w": 48.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stack 1 of 10",
+        "x": 24.0,
+        "y": 39.0,
+        "w": 12.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/OXMMN-XbxwA/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662101.3875053,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "product #20315:\nstudloAskAgentV1 flag AI-664: Rename agent feature flags with alpha suffix and add\nVRazgsts listure/iront-v1/itudio-Asx/eo-foatur+-flar-ienming: + doveloo: 5 fasi +24 -11. Updated 4w spo\n+ Suck: t 1of 10 D Copy tuct **+\n#21114 A-701: Ul p4 ghel To orz. Morpod'; 22d\n#21113 A-70z Ul compose ar4 traad $211i2 A-700: U1 m#stge buobs ta Gz. Mrged: 2?d Merpod 27d\n$21111 Al-69g: U1 primtvos n2d\np21110 AI:698: UI tounduton\n$21101 A1·697: U1 rotout docs Coied: 23d\nW205 i5 AI-676: 8rahntrust telertety + aproxry fetlrerert Merged'\nN20436 Al-653: serrw runbme Co shn2 iorgeo?\nLO433 Al:6Sr agtr icomman'srt/cHonl ptckage bucke + pLtorm?wida agtnt docs Bou LAusovrrvoiprs poe pue xns tyoe 4hm sbey onreog uode eieuny:+99.IV sIe] C q4 iuarged. smo Muped?\n(nnk) -",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1032.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "product #20315:\nstudloAskAgentV1 flag AI-664: Rename agent feature flags with alpha suffix and add\nVRazgsts listure/iront-v1/itudio-Asx/eo-foatur+-flar-ienming: + doveloo: 5 fasi +24 -11. Updated 4w spo\n+ Suck: t 1of 10 D Copy tuct **+\n#21114 A-701: Ul p4 ghel To orz. Morpod'; 22d\n#21113 A-70z Ul compose ar4 traad $211i2 A-700: U1 m#stge buobs ta Gz. Mrged: 2?d Merpod 27d\n$21111 Al-69g: U1 primtvos n2d\np21110 AI:698: UI tounduton\n$21101 A1·697: U1 rotout docs Coied: 23d\nW205 i5 AI-676: 8rahntrust telertety + aproxry fetlrerert Merged'\nN20436 Al-653: serrw runbme Co shn2 iorgeo?\nLO433 Al:6Sr agtr icomman'srt/cHonl ptckage bucke + pLtorm?wida agtnt docs Bou LAusovrrvoiprs poe pue xns tyoe 4hm sbey onreog uode eieuny:+99.IV sIe] C q4 iuarged. smo Muped?\n(nnk) -",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

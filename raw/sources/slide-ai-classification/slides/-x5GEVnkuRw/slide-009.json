@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "But powerful frontier models? Not bad!\nGood quality and robustness\nExpensive (for now)\nHard to achieve consistent structured output\nPossible hallucinations\nVery costly at scale\nnot always faithful",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "The slide contains multiple dense document screenshots and small table text that are better suited to OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "But powerful frontier models? Not bad!",
+        "x": 25.0,
+        "y": 6.0,
+        "w": 51.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 4.0,
+        "y": 26.0,
+        "w": 28.0,
+        "h": 57.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 37.0,
+        "y": 24.0,
+        "w": 31.0,
+        "h": 58.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 70.0,
+        "y": 28.0,
+        "w": 25.0,
+        "h": 44.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655933.4988618,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "But powerful frontier models? Not bad!",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "But powerful frontier models? Not bad!\nGood quality and robustness\n4 Expensive (for now)\nHard to achieve consistent\nm 15 structured output\nPossible hallucinations\nVery costly at scale not always faithfy",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 360.8
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "But powerful frontier models? Not bad!\nGood quality and robustness\nExpensive (for now)\nHard to achieve consistent structured output\nPossible hallucinations\nVery costly at scale\nnot always faithful",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide text and corrected obvious OCR errors: removed the stray leading character, fixed structured output, and corrected faithful."
+  }
+}

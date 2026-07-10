@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Shared Payment Tokens\n\n{\n  \"id\": \"spt_1RgaZcFPC5QU06ZCDVZuVA8g\",\n  \"created\": 1751580820,\n  \"deactivated_at\": null,\n  \"deactivated_reason\": null,\n  \"usage_limits\": {\n    \"currency\": \"usd\",\n    \"expires_at\": 1751587220,\n    \"max_amount\": 1000\n  },\n  \"seller_details\": {\n    \"network_id\": \"merchant_name\"\n  }\n}",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense code-like token object is better handled by OCR",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "solid purple",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 21.0,
+        "w": 13.0,
+        "h": 20.0
+      },
+      {
+        "role": "title",
+        "text": "Shared Payment Tokens",
+        "x": 25.0,
+        "y": 2.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 44.0,
+        "y": 18.0,
+        "w": 35.0,
+        "h": 42.0
+      },
+      {
+        "role": "caption",
+        "text": "Confidential",
+        "x": 50.0,
+        "y": 88.0,
+        "w": 16.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/KLSuFPj2ld0/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660159.1716855,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Shared Payment Tokens",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/contrast",
+    "text": "Shared Payment Tokens\n\"id\":\"spt_1RgaZcFPCSQU06ZCoVZuVA8q\".\n\"created\":1751580828,\nAIE \"usage_linits\":{ \"deoctivated_at\":null, \"desctivated_reason\":null, \"nax_arount\":1888 \"currency\":\"usd\" \"expires_at\":1751587220,\n\"seller_details\":\n\"network_id\":\"nerchant_nane\"\nPertatonte/Sectcn tel Cororeial\n2028 AlLgrowr Engineering the",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 347.92
+  },
+  "ocr_source": "rapidocr-live/left-72/contrast",
+  "ocr_reconcile": {
+    "text": "Shared Payment Tokens\n\n{\n  \"id\": \"spt_1RgaZcFPC5QU06ZCDVZuVA8g\",\n  \"created\": 1751580820,\n  \"deactivated_at\": null,\n  \"deactivated_reason\": null,\n  \"usage_limits\": {\n    \"currency\": \"usd\",\n    \"expires_at\": 1751587220,\n    \"max_amount\": 1000\n  },\n  \"seller_details\": {\n    \"network_id\": \"merchant_name\"\n  }\n}",
+    "text_status": "meaningful",
+    "corrections": "Accepted the title and corrected obvious OCR noise in the JSON fields; left uncertain values unchanged unless clearly readable."
+  }
+}

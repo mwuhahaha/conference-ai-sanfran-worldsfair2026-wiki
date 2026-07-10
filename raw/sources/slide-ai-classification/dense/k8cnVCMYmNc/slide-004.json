@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.91,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "1b A\nm REaDME License 13\n(note, you will need enough quota on in your QpenAl account to run\nthis demo)\n4. PDF Generation Dependencies - Required for PDF output (optional)\nStarting Temporal Server\n# Install Temporal ClI curl -sSf https://temporal.downtoad/cli.sh I sh r口\n# Start Temporal server tenporal server start-dev\nSetup\n1oAhT:9TFEK0YQ4\n1. Clone this repository\n2. Install dependencies:\nuv sync",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense browser/readme screenshot with small text and code blocks; OCR is more suitable than vision transcription",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white browser page with dark right-side overlay",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Starting Temporal Server",
+        "x": 5.0,
+        "y": 23.0,
+        "w": 40.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Setup",
+        "x": 5.0,
+        "y": 37.0,
+        "w": 15.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/k8cnVCMYmNc/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669359.6232502,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Starting Temporal Server",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "1b A\nm REaDME License 13\n(note, you will need enough quota on in your QpenAl account to run\nthis demo)\n4. PDF Generation Dependencies - Required for PDF output (optional)\nStarting Temporal Server\n# Install Temporal ClI curl -sSf https://temporal.downtoad/cli.sh I sh r口\n# Start Temporal server tenporal server start-dev\nSetup\n1oAhT:9TFEK0YQ4\n1. Clone this repository\n2. Install dependencies:\nuv sync",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 598.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "1b A\nm REaDME License 13\n(note, you will need enough quota on in your QpenAl account to run\nthis demo)\n4. PDF Generation Dependencies - Required for PDF output (optional)\nStarting Temporal Server\n# Install Temporal ClI curl -sSf https://temporal.downtoad/cli.sh I sh r口\n# Start Temporal server tenporal server start-dev\nSetup\n1oAhT:9TFEK0YQ4\n1. Clone this repository\n2. Install dependencies:\nuv sync",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

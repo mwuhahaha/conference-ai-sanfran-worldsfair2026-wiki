@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "returnedas Context Drawadagram oxpiaining Mcp\ntext Rey.owed I.: Here's J diagram ciplainrg Vcp (yodel Context Prolocot]\n★ ★ ￥ AIE 9ph10 [.iuii] dyH.i8. -u)h ciA 6isornu s0uds..I-.- I.hi / 1ogod iY.l4 B---!\"HCP ProtoCoi\\nIJS-RPC ovcr sGio/HIIP)\"! CI\"P<P SCrvc\"\n（-->El\"\"Aesour<esfat the rocel （ read)\"」 C --> Dl\"< Toolsin(fuctions the rouel Can cal!\") ··f[. Pronptsinirrusablr p\"ongt trrplatrsi\")\nD ---l\"ciccutes\"I G!\"Extcrrat APis\\nDatabnses\\n:le Systcln\"c Scarch\"] E-->i\"c\"cOCs\"G\nF -->i\"orviis （ontt rron\"|G\nLots of emojls to compensate\n7.\nAIEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense screenshot with small embedded text; OCR is more suitable than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Context\nreturned as\ntext",
+        "x": 27.0,
+        "y": 12.0,
+        "w": 18.0,
+        "h": 23.0
+      },
+      {
+        "role": "code",
+        "text": "Draw a diagram explaining MCP",
+        "x": 78.0,
+        "y": 14.0,
+        "w": 15.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Lots of emojis to compensate",
+        "x": 27.0,
+        "y": 73.0,
+        "w": 22.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/_xIwFcnHqp4/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665983.1689036,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Context returned as text",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "returnedas Context Drawadagram oxpiaining Mcp\ntext Rey.owed I.: Here's J diagram ciplainrg Vcp (yodel Context Prolocot]\n★ ★ ￥ AIE 9ph10 [.iuii] dyH.i8. -u)h ciA 6isornu s0uds..I-.- I.hi / 1ogod iY.l4 B---!\"HCP ProtoCoi\\nIJS-RPC ovcr sGio/HIIP)\"! CI\"P<P SCrvc\"\n（-->El\"\"Aesour<esfat the rocel （ read)\"」 C --> Dl\"< Toolsin(fuctions the rouel Can cal!\") ··f[. Pronptsinirrusablr p\"ongt trrplatrsi\")\nD ---l\"ciccutes\"I G!\"Extcrrat APis\\nDatabnses\\n:le Systcln\"c Scarch\"] E-->i\"c\"cOCs\"G\nF -->i\"orviis （ontt rron\"|G\nLots of emojls to compensate\n7.\nAIEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 777.08
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "returnedas Context Drawadagram oxpiaining Mcp\ntext Rey.owed I.: Here's J diagram ciplainrg Vcp (yodel Context Prolocot]\n★ ★ ￥ AIE 9ph10 [.iuii] dyH.i8. -u)h ciA 6isornu s0uds..I-.- I.hi / 1ogod iY.l4 B---!\"HCP ProtoCoi\\nIJS-RPC ovcr sGio/HIIP)\"! CI\"P<P SCrvc\"\n（-->El\"\"Aesour<esfat the rocel （ read)\"」 C --> Dl\"< Toolsin(fuctions the rouel Can cal!\") ··f[. Pronptsinirrusablr p\"ongt trrplatrsi\")\nD ---l\"ciccutes\"I G!\"Extcrrat APis\\nDatabnses\\n:le Systcln\"c Scarch\"] E-->i\"c\"cOCs\"G\nF -->i\"orviis （ontt rron\"|G\nLots of emojls to compensate\n7.\nAIEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

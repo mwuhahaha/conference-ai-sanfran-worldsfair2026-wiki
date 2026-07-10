@@ -1,0 +1,50 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Client Resources Prompts Toots Discovery Sampling Roots Elicitation Instructions\nSire x x 0 7 x x 2.?\nAgentAl x x? x ×??\nAgenticFlow 0 0 x x??\nAIQL TUU! x D?\nAmazon Q CLI ×? x x??\nAmazon Q IDE x × x x x?\nAmp 0 D x??\nTester Apify MCP x x x ×?.?\nAugment Code x x x x 2?\nAvatar Shel! 0 x x x x?\nBeeA! × x × x x\nFramework\nBoltAl x x? x x\nCall Chirp Chatbox x x x x x x x x x C\nChatFrame x D x x x\nChatGPT X X X X X",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense comparison table with many small labels; OCR is likely more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Client Resources Prompts Tools Discovery Sampling Roots Elicitation Instructions",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 96.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672013.6561382,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Client Resources Prompts Toots Discovery Sampling Roots Elicitation Instructions\nSire x x 0 7 x x 2.?\nAgentAl x x? x ×??\nAgenticFlow 0 0 x x??\nAIQL TUU! x D?\nAmazon Q CLI ×? x x??\nAmazon Q IDE x × x x x?\nAmp 0 D x??\nTester Apify MCP x x x ×?.?\nAugment Code x x x x 2?\nAvatar Shel! 0 x x x x?\nBeeA! × x × x x\nFramework\nBoltAl x x? x x\nCall Chirp Chatbox x x x x x x x x x C\nChatFrame x D x x x\nChatGPT X X X X X",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 491.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Client Resources Prompts Toots Discovery Sampling Roots Elicitation Instructions\nSire x x 0 7 x x 2.?\nAgentAl x x? x ×??\nAgenticFlow 0 0 x x??\nAIQL TUU! x D?\nAmazon Q CLI ×? x x??\nAmazon Q IDE x × x x x?\nAmp 0 D x??\nTester Apify MCP x x x ×?.?\nAugment Code x x x x 2?\nAvatar Shel! 0 x x x x?\nBeeA! × x × x x\nFramework\nBoltAl x x? x x\nCall Chirp Chatbox x x x x x x x x x C\nChatFrame x D x x x\nChatGPT X X X X X",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

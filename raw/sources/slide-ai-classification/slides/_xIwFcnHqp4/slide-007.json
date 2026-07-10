@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Who's building MCP Apps?\nShopify\nExcalidraw\nFigma",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title-and-examples slide; readable without OCR.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Who's building MCP Apps?",
+        "x": 26.0,
+        "y": 6.0,
+        "w": 48.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Shopify",
+        "x": 27.0,
+        "y": 75.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Excalidraw",
+        "x": 49.0,
+        "y": 75.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Figma",
+        "x": 79.0,
+        "y": 75.0,
+        "w": 9.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/_xIwFcnHqp4/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666174.8880067,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Who's building MCP Apps?\nShopify\nExcalidraw\nFigma",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,235 @@
+{
+  "video_id": "grdoOC1BT1s",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 4,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Engineering the future of AI",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "large title is easy to read visually",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 15.0,
+            "h": 17.0
+          },
+          {
+            "role": "title",
+            "text": "Engineering the future of AI",
+            "x": 36.0,
+            "y": 82.0,
+            "w": 56.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/grdoOC1BT1s/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668039.3796282,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/grdoOC1BT1s/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.74,
+      "frame_type": "demo_video",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "demo/game screenshot with decorative logos only",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 15.0,
+            "h": 17.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer Europe",
+            "x": 58.0,
+            "y": 79.0,
+            "w": 23.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/grdoOC1BT1s/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668039.3800495,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/grdoOC1BT1s/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Engineering the future of AI",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "large title is easy to read visually",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 15.0,
+            "h": 17.0
+          },
+          {
+            "role": "title",
+            "text": "Engineering the future of AI",
+            "x": 36.0,
+            "y": 82.0,
+            "w": 56.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/grdoOC1BT1s/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668039.3804045,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/grdoOC1BT1s/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Engineering the future of AI",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "large title is easy to read visually",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 15.0,
+            "h": 17.0
+          },
+          {
+            "role": "title",
+            "text": "Engineering the future of AI",
+            "x": 36.0,
+            "y": 82.0,
+            "w": 56.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/grdoOC1BT1s/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668039.3808846,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/grdoOC1BT1s/slide-005.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.12,
+      "frame_type": "speaker_stage",
+      "reject_reason": "camera shot of presenters and audience; projected slide is too small and unreadable",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a usable slide frame",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "gray room with a dim projected screen",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/grdoOC1BT1s/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668039.3790572,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

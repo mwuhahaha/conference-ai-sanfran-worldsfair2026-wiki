@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Microsoft for Startups Founders Hub\nBuild your startup faster with free access to:\n→ Up to $150k of Azure credits and discounts on 30+ tools your team needs to build, like GitHub, Microsoft 365, LinkedIn Premium, and more.\n→ Credits toward Azure AI Studio—the most comprehensive set of AI models, including OpenAI GPT-3.5 Turbo, GPT-4, and Llama 2 by Meta.\n→ 1:1 sessions with Microsoft experts to help you work through technical and business challenges.\nApply in minutes at https://aka.ms/apply-fh",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "soft pink",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Microsoft for Startups\nFounders Hub",
+        "x": 6.0,
+        "y": 7.0,
+        "w": 28.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "Build your startup faster with free access to:",
+        "x": 36.0,
+        "y": 7.0,
+        "w": 58.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "→ Up to $150k of Azure credits and discounts on 30+ tools your team needs to build, like GitHub, Microsoft 365, LinkedIn Premium, and more.\n→ Credits toward Azure AI Studio—the most comprehensive set of AI models, including OpenAI GPT-3.5 Turbo, GPT-4, and Llama 2 by Meta.\n→ 1:1 sessions with Microsoft experts to help you work through technical and business challenges.",
+        "x": 36.0,
+        "y": 18.0,
+        "w": 58.0,
+        "h": 42.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 83.0,
+        "y": 88.0,
+        "w": 12.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657240.9523118,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Microsoft for Startups Founders Hub\nBuild your startup faster with free access to:\n→ Up to $150k of Azure credits and discounts on 30+ tools your team needs to build, like GitHub, Microsoft 365, LinkedIn Premium, and more.\n→ Credits toward Azure AI Studio—the most comprehensive set of AI models, including OpenAI GPT-3.5 Turbo, GPT-4, and Llama 2 by Meta.\n→ 1:1 sessions with Microsoft experts to help you work through technical and business challenges.\nApply in minutes at https://aka.ms/apply-fh",
+  "advanced_ocr": {}
+}

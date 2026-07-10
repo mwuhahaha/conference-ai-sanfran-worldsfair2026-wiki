@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Our SDK as the only door",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code-heavy slide with bullets and a large code sample.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Our SDK as the only door",
+        "x": 5.0,
+        "y": 8.0,
+        "w": 48.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Typescript SDK with all edit primitives the agent needs to make changes\nEnforces which fields are editable vs. which are derived from other fields\nGuarantees that it emits objects we expect\nRequires teaching the agent how to use it",
+        "x": 6.0,
+        "y": 25.0,
+        "w": 43.0,
+        "h": 40.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 56.0,
+        "y": 12.0,
+        "w": 38.0,
+        "h": 72.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/CLttOU7n6sI/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659308.3997157,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Our SDK as the only door",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

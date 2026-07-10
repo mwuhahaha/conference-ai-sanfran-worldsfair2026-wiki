@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Lasting benchmarks push the frontier",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple large title card",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "dark navy gradient",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "THE ART",
+        "x": 30.0,
+        "y": 18.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Lasting benchmarks push the frontier",
+        "x": 30.0,
+        "y": 35.0,
+        "w": 42.0,
+        "h": 20.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer Europe",
+        "x": 55.0,
+        "y": 82.0,
+        "w": 18.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/iNkFlCiij0U/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668943.5260422,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Lasting benchmarks push the frontier",
+  "advanced_ocr": {}
+}

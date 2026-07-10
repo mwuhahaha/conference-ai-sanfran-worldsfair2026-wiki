@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Define system guardrails\nGuardrails define the boundaries of acceptable inputs and outputs.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Sparse slide with large title and subtitle; direct reading is enough.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#062f2d",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Define system guardrails",
+        "x": 25.0,
+        "y": 10.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Guardrails define the boundaries of acceptable inputs and outputs.",
+        "x": 25.0,
+        "y": 18.0,
+        "w": 64.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/T0HhO4YtTfE/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664006.3111196,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Define system guardrails\nGuardrails define the boundaries of acceptable inputs and outputs.",
+  "advanced_ocr": {}
+}

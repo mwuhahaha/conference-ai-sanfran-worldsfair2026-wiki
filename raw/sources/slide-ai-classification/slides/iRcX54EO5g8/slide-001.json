@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.76,
+  "frame_type": "speaker_stage",
+  "reject_reason": "Camera shot of speaker and audience with a projected opening slide; not a clean slide frame.",
+  "text": "Your Agent Is Blindfolded",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#3a3a3a",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Your Agent Is Blindfolded",
+        "x": 38.0,
+        "y": 34.0,
+        "w": 24.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/iRcX54EO5g8/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669001.3536901,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Your Agent Is Blindfolded",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.81,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "none",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#2b2a2a / multicolor UI",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "BOARD GAME NIGHT",
+        "x": 41.0,
+        "y": 8.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Sanja",
+        "x": 12.0,
+        "y": 6.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "GAME",
+        "x": 75.0,
+        "y": 5.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "SETTINGS",
+        "x": 82.0,
+        "y": 5.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/UcYoMg-8-L8/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664839.3324099,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

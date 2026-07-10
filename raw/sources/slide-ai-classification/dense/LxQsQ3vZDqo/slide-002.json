@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Personalized Recommendation Problem\nf(user, context) ≈ recs\nUser Context Recs",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Personalized Recommendation Problem",
+        "x": 16.0,
+        "y": 0,
+        "w": 52.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "f(user, context) ≈ recs",
+        "x": 19.0,
+        "y": 39.0,
+        "w": 38.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "User",
+        "x": 22.0,
+        "y": 70.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Context",
+        "x": 44.0,
+        "y": 70.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Recs",
+        "x": 73.0,
+        "y": 70.0,
+        "w": 10.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/LxQsQ3vZDqo/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662236.879273,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Personalized Recommendation Problem\nf(user, context) ≈ recs\nUser Context Recs",
+  "advanced_ocr": {}
+}

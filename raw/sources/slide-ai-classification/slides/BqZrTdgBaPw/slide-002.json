@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Holy Grail",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense body text and embedded article image make this better suited for OCR than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Holy Grail",
+        "x": 20.0,
+        "y": 5.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "TNG TECHNOLOGY CONSULTING",
+        "x": 80.0,
+        "y": 4.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "quoted paragraph",
+        "x": 23.0,
+        "y": 26.0,
+        "w": 37.0,
+        "h": 30.0
+      },
+      {
+        "role": "diagram",
+        "text": "newspaper clipping image",
+        "x": 68.0,
+        "y": 27.0,
+        "w": 24.0,
+        "h": 41.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/BqZrTdgBaPw/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658634.5475776,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Holy Grail",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

@@ -1,25 +1,27 @@
 {
   "is_content_slide": false,
-  "confidence": 0.96,
+  "confidence": 0.98,
   "frame_type": "speaker_stage",
-  "reject_reason": "Stage photo with presenter and screens; not a readable standalone content slide.",
-  "text": "AE exclusive - try our beta!",
+  "reject_reason": "Stage photo with presenter and projected QR/promo screen; not a clean slide frame.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Not a slide capture; it is a speaker-stage shot.",
+  "direct_read_ready": false,
+  "text_density": "none",
   "layout": {
-    "background": "dark stage with teal/blue lighting",
-    "style": "dark",
-    "blocks": [
-      {
-        "role": "title",
-        "text": "AE exclusive - try our beta!",
-        "x": 76.0,
-        "y": 33.0,
-        "w": 18.0,
-        "h": 12.0
-      }
-    ]
+    "background": "linear-gradient(180deg, #1bd4d6 0%, #0a0f18 100%)",
+    "style": "other",
+    "blocks": []
   },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
   "image": "wiki/assets/slides/AheG9p_JXVw/slide-003.jpg",
   "deck_kind": "slides",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783628732.5205886
+  "classified_at_epoch": 1783658949.6831026,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
 }

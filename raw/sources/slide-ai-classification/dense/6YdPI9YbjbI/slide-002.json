@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Create a Braintrust project",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Content slide with a clear title, body instruction, and an embedded product UI screenshot containing small readable text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Create a Braintrust project",
+        "x": 41.0,
+        "y": 27.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "3. Create a new project with the name Unreleased-AI for our activities today",
+        "x": 40.0,
+        "y": 31.0,
+        "w": 37.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram",
+        "text": "Create project",
+        "x": 43.0,
+        "y": 39.0,
+        "w": 30.0,
+        "h": 25.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 3.0,
+        "y": 15.0,
+        "w": 10.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "AWS",
+        "x": 63.0,
+        "y": 87.0,
+        "w": 10.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/6YdPI9YbjbI/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658800.0897312,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Create a Braintrust project",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

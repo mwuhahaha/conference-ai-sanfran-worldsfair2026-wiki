@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.88,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "Engineering the future of AI",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Slide is dominated by an embedded video thumbnail and QR code; local OCR is not the best first pass.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "light gray",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 28.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Multi-Agent Orchestration",
+        "x": 27.0,
+        "y": 39.0,
+        "w": 34.0,
+        "h": 20.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 41.0,
+        "y": 79.0,
+        "w": 37.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/ObTPqBGsEbA/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662956.7992432,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {}
+}

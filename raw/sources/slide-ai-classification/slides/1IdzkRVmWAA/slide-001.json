@@ -1,0 +1,68 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.97,
+  "frame_type": "title_card",
+  "reject_reason": "speaker intro card with headshots and names",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "speaker intro card, not a content slide",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#000000",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Mixedbread",
+        "x": 6.0,
+        "y": 22.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer",
+        "x": 63.0,
+        "y": 22.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Hanna Lichtenberg",
+        "x": 18.0,
+        "y": 57.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Aamir Shakir",
+        "x": 47.0,
+        "y": 57.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "How we taught agents to use good retrieval",
+        "x": 26.0,
+        "y": 84.0,
+        "w": 31.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/1IdzkRVmWAA/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657147.4755075,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

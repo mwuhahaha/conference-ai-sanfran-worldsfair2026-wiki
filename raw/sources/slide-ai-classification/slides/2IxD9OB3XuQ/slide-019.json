@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Probe a weakness: a rude, adversarial caller\nCREATE A LEARNING ENVIRONMENT — FROM A PROMPT\n$ relai learning-env create --prompt\n“A rude, adversarial multi-turn customer conversation. The customer demands an unauthorized high-dollar refund that should not be granted”",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Short prompt slide with large text; direct reading is enough.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Probe a weakness: a rude, adversarial caller",
+        "x": 4.0,
+        "y": 3.0,
+        "w": 72.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "CREATE A LEARNING ENVIRONMENT — FROM A PROMPT",
+        "x": 5.0,
+        "y": 48.0,
+        "w": 40.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "$ relai learning-env create --prompt",
+        "x": 6.0,
+        "y": 54.0,
+        "w": 88.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "“A rude, adversarial multi-turn customer conversation. The customer demands an unauthorized high-dollar refund that should not be granted”",
+        "x": 8.0,
+        "y": 61.0,
+        "w": 76.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657337.040921,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Probe a weakness: a rude, adversarial caller\nCREATE A LEARNING ENVIRONMENT — FROM A PROMPT\n$ relai learning-env create --prompt\n“A rude, adversarial multi-turn customer conversation. The customer demands an unauthorized high-dollar refund that should not be granted”",
+  "advanced_ocr": {}
+}

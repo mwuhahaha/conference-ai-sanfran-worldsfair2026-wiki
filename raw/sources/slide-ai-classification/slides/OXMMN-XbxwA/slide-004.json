@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Researchers ≠ production engineers",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#ffffff",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Researchers ≠ production engineers",
+        "x": 28.0,
+        "y": 13.0,
+        "w": 44.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram",
+        "text": "hands passing a baton on a green background",
+        "x": 28.0,
+        "y": 25.0,
+        "w": 44.0,
+        "h": 49.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/OXMMN-XbxwA/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661919.091361,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Researchers ≠ production engineers",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.97,
+  "frame_type": "demo_video",
+  "reject_reason": "Projected computer demo with presenter on stage; not a readable presentation slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Non-slide demo screenshot with mixed UI and stage footage; OCR would not help slide extraction.",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "dark stage scene with bright projected desktop screenshot",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 27.0,
+        "w": 10.0,
+        "h": 14.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 45.0,
+        "y": 82.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 74.0,
+        "y": 81.0,
+        "w": 13.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/eOxOzcw70f0/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667268.421843,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

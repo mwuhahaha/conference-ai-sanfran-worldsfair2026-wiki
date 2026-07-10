@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Tools & Skills\nUI, on the Fly",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "solid #4f43ff",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "diagram",
+        "text": "OG Assist",
+        "x": 18.0,
+        "y": 5.0,
+        "w": 28.0,
+        "h": 88.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenGov",
+        "x": 84.0,
+        "y": 2.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Tools & Skills",
+        "x": 64.0,
+        "y": 22.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "UI, on the Fly",
+        "x": 64.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "UIs can be created on demand by the agent if deemed necessary or beneficial to enhancing the experience of the conversation.",
+        "x": 64.0,
+        "y": 74.0,
+        "w": 30.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/4uFVSLgD2Q4/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657915.5666049,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Tools & Skills\nUI, on the Fly",
+  "advanced_ocr": {}
+}

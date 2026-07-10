@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "(3) Measure metrics and failure modes together\nAIE on production data to unlocktargeted insights\nToooTe\nFax\nMicrosoft smol 3i",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "The slide contains a product screenshot with dense small UI text that OCR can extract more reliably than direct vision transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(180deg, #18160f 0%, #070707 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "(3) Measure metrics and failure modes together on production data to unlock targeted insights",
+        "x": 7.0,
+        "y": 8.0,
+        "w": 84.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "MRI Cervical spine",
+        "x": 29.0,
+        "y": 29.0,
+        "w": 13.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Fax",
+        "x": 61.0,
+        "y": 55.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 87.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 73.0,
+        "y": 86.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-010.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661372.119807,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "(3) Measure metrics and failure modes together\nAIE on production data to unlocktargeted insights\nToooTe\nFax\nMicrosoft smol 3i",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 230.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "(3) Measure metrics and failure modes together\nAIE on production data to unlocktargeted insights\nToooTe\nFax\nMicrosoft smol 3i",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

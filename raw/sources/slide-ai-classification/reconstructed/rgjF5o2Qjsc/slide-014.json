@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Path Forward\nCompetitive Advantage Quality is a Al is a Tool, Not a Solution Iterate Tomorrow Start Today.\nEstablish Quaity Baselines.Multi·agent System.Your Context Engine\nShiftReviews Leftof Commit Code& TooksGovernance Al CodeReview\nDocument&Embed BestPractices Build Your Quality-specific MCPs.A QualityWorkflows\n.Monior\nopob\nATE OF AI CODE QUALITY: HYPE VS. REALI\nAMARFRIEDMAN/ Co-Founder&CEO opob",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Three-column slide with smaller bullet text; OCR is likely cheaper and more reliable than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Path Forward",
+        "x": 40.0,
+        "y": 4.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Quality is a Competitive Advantage\nEstablish Quality Baselines\nShift Reviews Left of Commit\nDocument & Embed Best Practices",
+        "x": 26.0,
+        "y": 22.0,
+        "w": 20.0,
+        "h": 54.0
+      },
+      {
+        "role": "body",
+        "text": "AI is a Tool, Not a Solution\nMulti-agent System\nCode & Tools Governance\nBuild Your Quality-specific MCPs",
+        "x": 50.0,
+        "y": 22.0,
+        "w": 20.0,
+        "h": 54.0
+      },
+      {
+        "role": "body",
+        "text": "Start Today, Iterate Tomorrow\nYour Context Engine\nAI Code Review\nAI Quality Workflows\nMonitor",
+        "x": 74.0,
+        "y": 22.0,
+        "w": 20.0,
+        "h": 54.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/reconstructed-slides/rgjF5o2Qjsc/slide-014.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671977.9049025,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/contrast",
+    "text": "The Path Forward\nCompetitive Advantage Quality is a Al is a Tool, Not a Solution Iterate Tomorrow Start Today.\nEstablish Quaity Baselines.Multi·agent System.Your Context Engine\nShiftReviews Leftof Commit Code& TooksGovernance Al CodeReview\nDocument&Embed BestPractices Build Your Quality-specific MCPs.A QualityWorkflows\n.Monior\nopob\nATE OF AI CODE QUALITY: HYPE VS. REALI\nAMARFRIEDMAN/ Co-Founder&CEO opob",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 599.8
+  },
+  "ocr_source": "rapidocr-live/right-72/contrast",
+  "ocr_reconcile": {
+    "text": "The Path Forward\nCompetitive Advantage Quality is a Al is a Tool, Not a Solution Iterate Tomorrow Start Today.\nEstablish Quaity Baselines.Multi·agent System.Your Context Engine\nShiftReviews Leftof Commit Code& TooksGovernance Al CodeReview\nDocument&Embed BestPractices Build Your Quality-specific MCPs.A QualityWorkflows\n.Monior\nopob\nATE OF AI CODE QUALITY: HYPE VS. REALI\nAMARFRIEDMAN/ Co-Founder&CEO opob",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

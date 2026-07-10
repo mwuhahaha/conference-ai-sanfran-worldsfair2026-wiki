@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Example Failure\nntriggered_at*: \"2026-05-21te2:05:20z*, \"job_name\": \" Synthotic_etl Job \", - [A] Real Gtue job failure\n\"error_classification\": { \"error_tyPe\": \"PAIeTIME_FOfRAL ERROR\". \"confidence\": o.90, - (B] classified by Error Classifle\nscheaa/date foreat y. \"recoamended_action\": \"APPLY_SCHEHA_COERCIoN\" - [C] Rule engine says: coerce\n\"anonaly_override\": fatse, - [E] Safety override did not fire + [o] Agent selects scheas coerclon\n\"reaedlation\": { \"note\": -Hanual Gtue script update required\" - [F] Loggcd for review \"success\": falsc,\nObserved condition 1.Glue-style job fallure event Decision? 1.Policy selects schema coercion\nreceived 2.safety override does not fire\n2:Datetime-format incompatibility detected 3.Automatic coercion.is unavailable 4.lncident is logged for manual reviev\n3.Error classified with 0.90\nconfidence",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code screenshot and multi-column content are better suited to OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray speckled paper texture",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Example Failure",
+        "x": 31.0,
+        "y": 4.0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "code screenshot",
+        "x": 24.0,
+        "y": 17.0,
+        "w": 52.0,
+        "h": 36.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Observed condition",
+        "x": 9.0,
+        "y": 70.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "1. Glue-style job failure event received\n2. Datetime-format incompatibility detected\n3. Error classified with 0.90 confidence",
+        "x": 9.0,
+        "y": 78.0,
+        "w": 40.0,
+        "h": 18.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Decision",
+        "x": 52.0,
+        "y": 70.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "1. Policy selects schema coercion\n2. Safety override does not fire\n3. Automatic coercion is unavailable\n4. Incident is logged for manual review",
+        "x": 52.0,
+        "y": 78.0,
+        "w": 40.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661246.370305,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Example Failure",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Example Failure\nntriggered_at*: \"2026-05-21te2:05:20z*, \"job_name\": \" Synthotic_etl Job \", - [A] Real Gtue job failure\n\"error_classification\": { \"error_tyPe\": \"PAIeTIME_FOfRAL ERROR\". \"confidence\": o.90, - (B] classified by Error Classifle\nscheaa/date foreat y. \"recoamended_action\": \"APPLY_SCHEHA_COERCIoN\" - [C] Rule engine says: coerce\n\"anonaly_override\": fatse, - [E] Safety override did not fire + [o] Agent selects scheas coerclon\n\"reaedlation\": { \"note\": -Hanual Gtue script update required\" - [F] Loggcd for review \"success\": falsc,\nObserved condition 1.Glue-style job fallure event Decision? 1.Policy selects schema coercion\nreceived 2.safety override does not fire\n2:Datetime-format incompatibility detected 3.Automatic coercion.is unavailable 4.lncident is logged for manual reviev\n3.Error classified with 0.90\nconfidence",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1001.2
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Example Failure\nntriggered_at*: \"2026-05-21te2:05:20z*, \"job_name\": \" Synthotic_etl Job \", - [A] Real Gtue job failure\n\"error_classification\": { \"error_tyPe\": \"PAIeTIME_FOfRAL ERROR\". \"confidence\": o.90, - (B] classified by Error Classifle\nscheaa/date foreat y. \"recoamended_action\": \"APPLY_SCHEHA_COERCIoN\" - [C] Rule engine says: coerce\n\"anonaly_override\": fatse, - [E] Safety override did not fire + [o] Agent selects scheas coerclon\n\"reaedlation\": { \"note\": -Hanual Gtue script update required\" - [F] Loggcd for review \"success\": falsc,\nObserved condition 1.Glue-style job fallure event Decision? 1.Policy selects schema coercion\nreceived 2.safety override does not fire\n2:Datetime-format incompatibility detected 3.Automatic coercion.is unavailable 4.lncident is logged for manual reviev\n3.Error classified with 0.90\nconfidence",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

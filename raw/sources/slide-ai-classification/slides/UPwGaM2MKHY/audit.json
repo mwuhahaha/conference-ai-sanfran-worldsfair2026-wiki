@@ -1,0 +1,521 @@
+{
+  "video_id": "UPwGaM2MKHY",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 7,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What is your character?\ngame engine\nplaystation\ncontroller",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple readable slide; OCR not needed",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with blue abstract edge gradient",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What is your character?",
+            "x": 14.0,
+            "y": 11.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "game engine",
+            "x": 69.0,
+            "y": 33.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "playstation",
+            "x": 69.0,
+            "y": 42.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "controller",
+            "x": 69.0,
+            "y": 51.0,
+            "w": 16.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/UPwGaM2MKHY/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664773.8719277,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What is your character?\ngame engine\nplaystation\ncontroller",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/UPwGaM2MKHY/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Your character is the save file.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple readable slide; OCR not needed",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with blue abstract edge gradient",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Your character is the save file.",
+            "x": 35.0,
+            "y": 10.0,
+            "w": 34.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/UPwGaM2MKHY/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664773.8726916,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Your character is the save file.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/UPwGaM2MKHY/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Compaction is not the log",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple readable slide; OCR not needed",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with blue abstract edge gradient",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Compaction is not the log",
+            "x": 14.0,
+            "y": 12.0,
+            "w": 34.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/UPwGaM2MKHY/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664773.873357,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Compaction is not the log",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/UPwGaM2MKHY/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Migration / Model Portability\nClaude\nGPT\nQwen\nDifferent models, same agent",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple diagram slide; OCR not needed",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with blue abstract edge gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Migration / Model Portability",
+            "x": 14.0,
+            "y": 12.0,
+            "w": 40.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Claude",
+            "x": 31.0,
+            "y": 42.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "GPT",
+            "x": 47.0,
+            "y": 42.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Qwen",
+            "x": 62.0,
+            "y": 42.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Different models, same agent",
+            "x": 42.0,
+            "y": 63.0,
+            "w": 20.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/UPwGaM2MKHY/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664773.8742054,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Migration / Model Portability\nClaude\nGPT\nQwen\nDifferent models, same agent",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/UPwGaM2MKHY/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The deepest lock-in is log lock-in\n1. Models Can be Swapped\n2. APIs/Tools can be changed\n3. Log is locked in. Continuity is trapped.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple readable slide; OCR not needed",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with blue abstract edge gradient",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The deepest lock-in is log lock-in",
+            "x": 14.0,
+            "y": 12.0,
+            "w": 47.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "1. Models Can be Swapped",
+            "x": 14.0,
+            "y": 28.0,
+            "w": 34.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "2. APIs/Tools can be changed",
+            "x": 14.0,
+            "y": 35.0,
+            "w": 38.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "3. Log is locked in. Continuity is trapped.",
+            "x": 14.0,
+            "y": 42.0,
+            "w": 50.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/UPwGaM2MKHY/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664773.8756275,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The deepest lock-in is log lock-in\n1. Models Can be Swapped\n2. APIs/Tools can be changed\n3. Log is locked in. Continuity is trapped.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/UPwGaM2MKHY/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "If the provider owns the log, they own the agent",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with dark image panel and soft blue gradient edge",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "If the provider owns the log, they own the agent",
+            "x": 14.0,
+            "y": 15.0,
+            "w": 68.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 21.0,
+            "y": 30.0,
+            "w": 57.0,
+            "h": 47.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/UPwGaM2MKHY/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664803.5282319,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "If the provider owns the log, they own the agent",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/UPwGaM2MKHY/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What this looks like in practice - Omnara\nWorker\nModel provider\ndde osn Omnara API DurableSesslon Log\nTools and approvals\nMachine daemon\nWorker Advances the Loop\nLog remains the agent Daemon Launches Tasks\nomnara.com/managed",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with small labels and multiple text regions; OCR is likely cheaper than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with dark diagram panel and soft blue gradient edge",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What this looks like in practice - Omnara",
+            "x": 14.0,
+            "y": 14.0,
+            "w": 62.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram",
+            "text": "User or app",
+            "x": 12.0,
+            "y": 40.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "Omnara API",
+            "x": 24.0,
+            "y": 40.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "Durable Session Log",
+            "x": 36.0,
+            "y": 40.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "Worker",
+            "x": 52.0,
+            "y": 31.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "Model provider",
+            "x": 67.0,
+            "y": 39.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "Tools and approvals",
+            "x": 60.0,
+            "y": 54.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "Machine daemon",
+            "x": 76.0,
+            "y": 57.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Worker Advances the Loop",
+            "x": 38.0,
+            "y": 73.0,
+            "w": 17.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Daemon Launches Tasks",
+            "x": 38.0,
+            "y": 77.0,
+            "w": 17.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Log remains the agent",
+            "x": 38.0,
+            "y": 81.0,
+            "w": 17.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "omnara.com/managed",
+            "x": 70.0,
+            "y": 88.0,
+            "w": 18.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/UPwGaM2MKHY/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664803.5286841,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "What this looks like in practice - Omnara",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "What this looks like in practice - Omnara\nWorker\nModel provider\ndde osn Omnara API DurableSesslon Log\nTools and approvals\nMachine daemon\nWorker Advances the Loop\nLog remains the agent Daemon Launches Tasks\nomnara.com/managed",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 419.56
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "What this looks like in practice - Omnara\nWorker\nModel provider\ndde osn Omnara API DurableSesslon Log\nTools and approvals\nMachine daemon\nWorker Advances the Loop\nLog remains the agent Daemon Launches Tasks\nomnara.com/managed",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/UPwGaM2MKHY/slide-008.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "speaker intro/title card",
+      "text": "The Log Is the Agent\nIshaan Sehgal · CEO, Omnara (YC S25)",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "intro/title card; OCR not needed",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "blue/teal abstract gradient with white card",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The Log Is the Agent",
+            "x": 24.0,
+            "y": 44.0,
+            "w": 52.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Ishaan Sehgal · CEO, Omnara (YC S25)",
+            "x": 22.0,
+            "y": 59.0,
+            "w": 56.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/UPwGaM2MKHY/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783664773.870972,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Log Is the Agent\nIshaan Sehgal · CEO, Omnara (YC S25)",
+      "advanced_ocr": {}
+    }
+  ]
+}

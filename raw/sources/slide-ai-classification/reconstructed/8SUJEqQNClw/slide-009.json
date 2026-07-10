@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "So when I see APIs\nlike this, it gives me\n(bad) flashbacks\n\n// Langgraph.js\nconst graph = new MessageGraph()\n// nodes\n.addNode(\"nodeA\", funcA)\n.addNode(\"nodeB\", funcB)\n// edges\n.addEdge(START, \"nodeA\")\n.addEdge(\"nodeA\", \"nodeB\")\n.addEdge(\"nodeB\", END)\n\ngithub.com/mastra-ai/mastra",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code snippet and small footer text make OCR more efficient than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "near-black with faint concentric rings",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "So when I see APIs like this, it gives me (bad) flashbacks",
+        "x": 24.0,
+        "y": 27.0,
+        "w": 34.0,
+        "h": 24.0
+      },
+      {
+        "role": "code",
+        "text": "// Langgraph.js",
+        "x": 61.0,
+        "y": 16.0,
+        "w": 34.0,
+        "h": 46.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-009.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658148.0926886,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "AIE like this, it gives me So when I see APls (bad) flashbacks const graph new MessageGraph o: tanggraph-js caddEdge(-nodeBP, END) Il! edbes. saddEdge(START, caddNode(nodeB Iw! nodes. saddNode( nodeAr) CnodeA-) nodeB funcA) funcB)\ngithub.con/mastrare\nMicrosoft smolo\nWord's Fakr",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 445.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "So when I see APIs\nlike this, it gives me\n(bad) flashbacks\n\n// Langgraph.js\nconst graph = new MessageGraph()\n// nodes\n.addNode(\"nodeA\", funcA)\n.addNode(\"nodeB\", funcB)\n// edges\n.addEdge(START, \"nodeA\")\n.addEdge(\"nodeA\", \"nodeB\")\n.addEdge(\"nodeB\", END)\n\ngithub.com/mastra-ai/mastra",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected from the image; restored the title, code punctuation, and obvious identifiers."
+  }
+}

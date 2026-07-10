@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Slide recreation dense TqC1qOfiVcQ slide-007</title>
+  <style>
+    html, body { margin: 0; background: #f1f5f9; }
+    .slide {
+      position: relative;
+      width: min(100vw, 1200px);
+      aspect-ratio: 16 / 9;
+      margin: 0 auto;
+      overflow: hidden;
+      background: #b86f55;
+      color: #111827;
+      box-sizing: border-box;
+      border: 1px solid rgba(15, 23, 42, 0.16);
+    }
+    .block { position: absolute; box-sizing: border-box; line-height: 1.16; letter-spacing: 0; white-space: pre-wrap; }
+    .fallback { position: absolute; inset: 8%; color: #111827; font: 600 clamp(16px, 2.5vw, 32px)/1.2 Inter, ui-sans-serif, system-ui, sans-serif; white-space: pre-wrap; }
+    .meta { position: absolute; left: 3%; bottom: 3%; color: #475569; font: 500 12px/1.2 Inter, ui-sans-serif, system-ui, sans-serif; }
+  </style>
+</head>
+<body>
+  <main class="slide">
+    <div class="block" style="left:4.00%;top:6.00%;width:44.00%;min-height:10.00%;font-size:clamp(20px, 3.4vw, 44px);font-weight:800;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">Without Bash</div><div class="block" style="left:53.00%;top:6.00%;width:40.00%;min-height:10.00%;font-size:clamp(20px, 3.4vw, 44px);font-weight:800;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">With Bash</div><div class="block" style="left:6.00%;top:17.00%;width:39.00%;min-height:12.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">User: How much did I spend on ride sharing this week?</div><div class="block" style="left:6.00%;top:31.00%;width:39.00%;min-height:14.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">Tool Call (Gmail Query Search) query: &quot;uber OR lyft&quot;</div><div class="block" style="left:6.00%;top:48.00%;width:39.00%;min-height:22.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">Thinking: I found the following emails that mention Uber and Lyft, I need to find the cost of each email.</div><div class="block" style="left:6.00%;top:78.00%;width:39.00%;min-height:10.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">Claude: The total is... (hallucinated)</div><div class="block" style="left:56.00%;top:17.00%;width:38.00%;min-height:12.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">User: How much did I spend on ride sharing this week?</div><div class="block" style="left:56.00%;top:31.00%;width:38.00%;min-height:14.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:Inter, ui-sans-serif, system-ui, sans-serif;">Tool Call (Bash): `gmail_search.ts query &quot;uber OR lyft&quot;`</div><div class="block" style="left:56.00%;top:48.00%;width:38.00%;min-height:35.00%;font-size:clamp(13px, 1.6vw, 22px);font-weight:520;font-family:ui-monospace, SFMono-Regular, Menlo, monospace;">gmail_search.ts &quot;from:(uber.com OR lyft.com OR uber OR lyft) subject:(receipt OR trip) newer_than:7d | grep -oE &#x27;$[0-9]+\.[0-9]{2}&#x27; | sed &#x27;s/^$//&#x27; | \ awk &#x27;{sum += $1} END {printf &quot;Total spent on ride sharing this week: $%.2f\n&quot;, sum}&#x27;</div>
+    <div class="meta">AI text/layout recreation from video frame; verify against source image.</div>
+  </main>
+</body>
+</html>

@@ -1,98 +1,104 @@
 {
   "is_content_slide": true,
-  "confidence": 0.97,
+  "confidence": 0.91,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "Think like an SRE: Accuracy gives way to Reliabi\nAccuracy\nTask Success\nTool Success\nPlanning Quality\nLatency\nCost\nSafety\nHuman Satisfaction\nSystem Reliability",
-  "text_status": "meaningful",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": true,
+  "ocr_reason": "Cropped headline plus many small chart labels are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
   "layout": {
-    "background": "light beige/white",
-    "style": "light",
+    "background": "light gray",
+    "style": "diagram",
     "blocks": [
       {
-        "role": "title",
-        "text": "Think like an SRE: Accuracy gives way to Reliabi",
-        "x": 5.0,
-        "y": 1.0,
-        "w": 86.0,
-        "h": 8.0
-      },
-      {
-        "role": "body",
+        "role": "diagram_label",
         "text": "Accuracy",
-        "x": 6.0,
-        "y": 63.0,
-        "w": 12.0,
-        "h": 7.0
+        "x": 11.0,
+        "y": 37.0,
+        "w": 15.0,
+        "h": 14.0
       },
       {
         "role": "diagram_label",
         "text": "Task Success",
-        "x": 57.0,
-        "y": 11.0,
-        "w": 13.0,
-        "h": 5.0
+        "x": 53.0,
+        "y": 12.0,
+        "w": 14.0,
+        "h": 8.0
       },
       {
         "role": "diagram_label",
         "text": "Tool Success",
-        "x": 81.0,
-        "y": 25.0,
-        "w": 13.0,
-        "h": 5.0
+        "x": 84.0,
+        "y": 27.0,
+        "w": 12.0,
+        "h": 8.0
       },
       {
         "role": "diagram_label",
         "text": "Planning Quality",
-        "x": 82.0,
-        "y": 49.0,
-        "w": 14.0,
-        "h": 8.0
+        "x": 84.0,
+        "y": 53.0,
+        "w": 12.0,
+        "h": 10.0
       },
       {
         "role": "diagram_label",
         "text": "Latency",
-        "x": 74.0,
-        "y": 77.0,
-        "w": 8.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Cost",
-        "x": 54.0,
+        "x": 72.0,
         "y": 83.0,
-        "w": 6.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Safety",
-        "x": 35.0,
-        "y": 56.0,
-        "w": 7.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Human Satisfaction",
-        "x": 25.0,
-        "y": 27.0,
-        "w": 14.0,
+        "w": 9.0,
         "h": 8.0
       },
       {
         "role": "diagram_label",
-        "text": "System Reliability",
-        "x": 48.0,
-        "y": 43.0,
-        "w": 18.0,
+        "text": "Cost",
+        "x": 45.0,
+        "y": 83.0,
+        "w": 7.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Safety",
+        "x": 20.0,
+        "y": 60.0,
+        "w": 8.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Human Satisfaction",
+        "x": 28.0,
+        "y": 23.0,
+        "w": 14.0,
         "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Reliability",
+        "x": 61.0,
+        "y": 44.0,
+        "w": 14.0,
+        "h": 12.0
       }
     ]
   },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
   "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-007.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783646809.885999
+  "classified_at_epoch": 1783657356.826209,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

@@ -1,0 +1,219 @@
+{
+  "video_id": "zMiSRliEzv4",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.81,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "What if your product built itself?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark stage photo with a bright projected slide",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "PostHog",
+            "x": 39.0,
+            "y": 10.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "What if your product built itself?",
+            "x": 39.0,
+            "y": 22.0,
+            "w": 28.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Following the pipeline from product signals to pull requests",
+            "x": 39.0,
+            "y": 33.0,
+            "w": 26.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zMiSRliEzv4/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672874.7172868,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What if your product built itself?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/zMiSRliEzv4/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "N', PostHog\": -.0x\nThe single platform to analyze, test,\nobserve, and delpoy new features\n+ ★ AIE\nPosthog AI Session replay analytics Web analytics Product tracking Error\nExperiments Feature flags Logs CDP Workflows\nGoogleDeepMind",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product slide with a large title and many small feature labels; OCR is the better capture method.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#efe9d8",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "PostHog",
+            "x": 27.0,
+            "y": 2.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "The single platform to analyze, test, observe, and deploy new features",
+            "x": 31.0,
+            "y": 10.0,
+            "w": 47.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "Posthog AI",
+            "x": 38.0,
+            "y": 40.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Session replay",
+            "x": 47.0,
+            "y": 40.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Web analytics",
+            "x": 57.0,
+            "y": 40.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Product analytics",
+            "x": 67.0,
+            "y": 40.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Error tracking",
+            "x": 79.0,
+            "y": 40.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Experiments",
+            "x": 38.0,
+            "y": 58.0,
+            "w": 9.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Feature flags",
+            "x": 48.0,
+            "y": 58.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Logs",
+            "x": 60.0,
+            "y": 58.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "CDP",
+            "x": 71.0,
+            "y": 58.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Workflows",
+            "x": 81.0,
+            "y": 58.0,
+            "w": 10.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/zMiSRliEzv4/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672874.7489371,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "N', PostHog\": -.0x\nThe single platform to analyze, test,\nobserve, and delpoy new features\n+ ★ AIE\nPosthog AI Session replay analytics Web analytics Product tracking Error\nExperiments Feature flags Logs CDP Workflows\nGoogleDeepMind",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 381.2
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "N', PostHog\": -.0x\nThe single platform to analyze, test,\nobserve, and delpoy new features\n+ ★ AIE\nPosthog AI Session replay analytics Web analytics Product tracking Error\nExperiments Feature flags Logs CDP Workflows\nGoogleDeepMind",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/zMiSRliEzv4/slide-002.html"
+    }
+  ],
+  "rejected": []
+}

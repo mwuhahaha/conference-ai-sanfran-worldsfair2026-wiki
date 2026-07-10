@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Virtual Machine P2 Host Userspace Virtual Machine Monitor (vMA) (qenu / crosvm / firecracker) Create VM Host: Some chent On:\nGuest Userspace\" P3. running.: the vM Thread:\nvirtio\nnet driver. block driver Block Device Net Device'\nGuest Kernel. VMRESUAE VMEXIT\nHypervisor /dev/kvn Host Kernel\nLinux Virtualization: Key Components.\n:: Kym - Hypervisor in the form of a keme module that haveraget VT-x to run tirach CPU contoxt and run VM!..\nVMm - Tatka to kvm to spaum Vmt and atso riansges omubhed davicos that servo VM requoss.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture diagram with small labels and notes.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f4f4f4",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Linux Virtualization: Key Components",
+        "x": 29.0,
+        "y": 90.0,
+        "w": 38.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Virtual Machine",
+        "x": 9.0,
+        "y": 4.0,
+        "w": 19.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Virtual Machine Monitor (VMM) (qemu / crosvm / Firecracker)",
+        "x": 51.0,
+        "y": 5.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Guest Userspace",
+        "x": 20.0,
+        "y": 39.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Guest Kernel",
+        "x": 20.0,
+        "y": 58.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Host Kernel",
+        "x": 79.0,
+        "y": 58.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-021.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-021.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673336.3202012,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Linux Virtualization: Key Components",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Virtual Machine P2 Host Userspace Virtual Machine Monitor (vMA) (qenu / crosvm / firecracker) Create VM Host: Some chent On:\nGuest Userspace\" P3. running.: the vM Thread:\nvirtio\nnet driver. block driver Block Device Net Device'\nGuest Kernel. VMRESUAE VMEXIT\nHypervisor /dev/kvn Host Kernel\nLinux Virtualization: Key Components.\n:: Kym - Hypervisor in the form of a keme module that haveraget VT-x to run tirach CPU contoxt and run VM!..\nVMm - Tatka to kvm to spaum Vmt and atso riansges omubhed davicos that servo VM requoss.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 831.96
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Virtual Machine P2 Host Userspace Virtual Machine Monitor (vMA) (qenu / crosvm / firecracker) Create VM Host: Some chent On:\nGuest Userspace\" P3. running.: the vM Thread:\nvirtio\nnet driver. block driver Block Device Net Device'\nGuest Kernel. VMRESUAE VMEXIT\nHypervisor /dev/kvn Host Kernel\nLinux Virtualization: Key Components.\n:: Kym - Hypervisor in the form of a keme module that haveraget VT-x to run tirach CPU contoxt and run VM!..\nVMm - Tatka to kvm to spaum Vmt and atso riansges omubhed davicos that servo VM requoss.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

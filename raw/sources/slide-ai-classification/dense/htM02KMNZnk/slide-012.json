@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The missing layer between evals and action\nObservability\nYour observability stack captures every tool call, every LLM completion, and every exception.\nEvals\nYour eval suite judges whether the final output was correct.\nAgent\nContext, Skills and .md file\nThe GAP",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Diagram labels are large and directly readable.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The missing layer between evals and action",
+        "x": 8.0,
+        "y": 4.0,
+        "w": 84.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Observability\nYour observability stack captures every tool call, every LLM completion, and every exception.",
+        "x": 10.0,
+        "y": 26.0,
+        "w": 24.0,
+        "h": 43.0
+      },
+      {
+        "role": "body",
+        "text": "Evals\nYour eval suite judges whether the final output was correct.",
+        "x": 38.0,
+        "y": 26.0,
+        "w": 23.0,
+        "h": 43.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "The GAP",
+        "x": 59.0,
+        "y": 44.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Agent\nContext, Skills and .md file",
+        "x": 72.0,
+        "y": 26.0,
+        "w": 21.0,
+        "h": 43.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668968.006779,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The missing layer between evals and action\nObservability\nYour observability stack captures every tool call, every LLM completion, and every exception.\nEvals\nYour eval suite judges whether the final output was correct.\nAgent\nContext, Skills and .md file\nThe GAP",
+  "advanced_ocr": {}
+}

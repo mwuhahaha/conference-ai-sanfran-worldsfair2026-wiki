@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.91,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "SWE-rebench: Lessons from Evaluating Coding Agents on Real Software Engineering Tasks",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "dark auditorium with off-white projection screen",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "NEBIUS",
+        "x": 74.0,
+        "y": 5.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "SWE-rebench: Lessons from Evaluating Coding Agents on Real Software Engineering Tasks",
+        "x": 34.0,
+        "y": 17.0,
+        "w": 48.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/wcUJWP6WpGM/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672444.1434965,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "SWE-rebench: Lessons from Evaluating Coding Agents on Real Software Engineering Tasks",
+  "advanced_ocr": {}
+}

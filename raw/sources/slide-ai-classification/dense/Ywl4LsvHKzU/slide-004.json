@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Common\nPipelines RAG Retrieval Pipeline Generator Score\nFail IAW Cp FUA Ward Cp Responses Common pipeline OpenAl gpt4o 0.05 0.11\nONAIR",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Tabular content with small text and scores is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "off-white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Common RAG Pipelines Fail",
+        "x": 2.0,
+        "y": 0,
+        "w": 35.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "Retrieval Pipeline\nGenerator\nScore\nCommon pipeline\nOpenAI Responses\ngpt4o\n0.05\n0.11",
+        "x": 36.0,
+        "y": 14.0,
+        "w": 56.0,
+        "h": 48.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/Ywl4LsvHKzU/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665559.8481624,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Common\nPipelines RAG Retrieval Pipeline Generator Score\nFail IAW Cp FUA Ward Cp Responses Common pipeline OpenAl gpt4o 0.05 0.11\nONAIR",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 241.6
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Common\nPipelines RAG Retrieval Pipeline Generator Score\nFail IAW Cp FUA Ward Cp Responses Common pipeline OpenAl gpt4o 0.05 0.11\nONAIR",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why Runpod Exists",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f5e9d6",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why Runpod Exists",
+        "x": 32.0,
+        "y": 11.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Infrastructure eats developer time",
+        "x": 35.0,
+        "y": 45.0,
+        "w": 18.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "GPU access is slow and opaque",
+        "x": 55.0,
+        "y": 45.0,
+        "w": 18.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Builder primary focus should be building",
+        "x": 75.0,
+        "y": 45.0,
+        "w": 20.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/ILdE7FaAjVA/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659551.354954,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why Runpod Exists",
+  "advanced_ocr": {}
+}

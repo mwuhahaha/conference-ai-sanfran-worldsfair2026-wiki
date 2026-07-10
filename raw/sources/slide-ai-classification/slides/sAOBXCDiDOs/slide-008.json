@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Manufact PRINITIVE2\nui/message\nThe App talks back into the conversation,\nunprompted. A click in the Ul posts a\nmessage as if the user sent it.\n5129Ugn\nChndstrise2\nconst(sendFollowUpMessage)=usewidget（); sendFollowUpMessage(\"Add the Teapo Racer\"); TerrpoRocee\nOifyuyp\nRepy\nMANUFACT.COM",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Contains code and embedded UI text that are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Manufact",
+        "x": 3.0,
+        "y": 4.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "ui/message",
+        "x": 4.0,
+        "y": 10.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "The App talks back into the conversation, unprompted. A click in the UI posts a message as if the user sent it.",
+        "x": 4.0,
+        "y": 20.0,
+        "w": 42.0,
+        "h": 18.0
+      },
+      {
+        "role": "code",
+        "text": "const { sendFollowUpMessage } = useWidget();\nsendFollowUpMessage(\"Add the Tempo Racer\");",
+        "x": 4.0,
+        "y": 47.0,
+        "w": 30.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/sAOBXCDiDOs/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671743.6979792,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "ui/message",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Manufact PRINITIVE2\nui/message\nThe App talks back into the conversation,\nunprompted. A click in the Ul posts a\nmessage as if the user sent it.\n5129Ugn\nChndstrise2\nconst(sendFollowUpMessage)=usewidget（); sendFollowUpMessage(\"Add the Teapo Racer\"); TerrpoRocee\nOifyuyp\nRepy\nMANUFACT.COM",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 441.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Manufact PRINITIVE2\nui/message\nThe App talks back into the conversation,\nunprompted. A click in the Ul posts a\nmessage as if the user sent it.\n5129Ugn\nChndstrise2\nconst(sendFollowUpMessage)=usewidget（); sendFollowUpMessage(\"Add the Teapo Racer\"); TerrpoRocee\nOifyuyp\nRepy\nMANUFACT.COM",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

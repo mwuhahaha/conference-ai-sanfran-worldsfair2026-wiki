@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "State of the art (Q4 2025)\nConversational telephone speech (CTS)\nDIHARDCTS/61conversations/2speakers FoseAorrn KieCeienCersen\nAIE pyannoteAi\nX\n271\n151 X.OA\n22.5\nKN\n5.5A Ln\nHipLsreney mengMini\nBPGE\npyannote.ai/benchmark\nAI Engineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense chart slide with small labels and benchmark text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg, #000 0 30%, #fff 30% 100%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 11.0,
+        "h": 19.0
+      },
+      {
+        "role": "title",
+        "text": "State of the art (Q4 2025)",
+        "x": 29.0,
+        "y": 7.0,
+        "w": 39.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Conversational telephone speech (CTS)",
+        "x": 29.0,
+        "y": 17.0,
+        "w": 40.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "DIHARD CTS / 61 conversations / 2 speakers",
+        "x": 31.0,
+        "y": 25.0,
+        "w": 62.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 31.0,
+        "y": 33.0,
+        "w": 62.0,
+        "h": 37.0
+      },
+      {
+        "role": "caption",
+        "text": "pyannote.ai/benchmark",
+        "x": 76.0,
+        "y": 79.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer Europe",
+        "x": 50.0,
+        "y": 82.0,
+        "w": 28.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/mFLlVpnGpds/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670558.1252062,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "State of the art (Q4 2025)\nConversational telephone speech (CTS)",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "State of the art (Q4 2025)\nConversational telephone speech (CTS)\nDIHARDCTS/61conversations/2speakers FoseAorrn KieCeienCersen\nAIE pyannoteAi\nX\n271\n151 X.OA\n22.5\nKN\n5.5A Ln\nHipLsreney mengMini\nBPGE\npyannote.ai/benchmark\nAI Engineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 303.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "State of the art (Q4 2025)\nConversational telephone speech (CTS)\nDIHARDCTS/61conversations/2speakers FoseAorrn KieCeienCersen\nAIE pyannoteAi\nX\n271\n151 X.OA\n22.5\nKN\n5.5A Ln\nHipLsreney mengMini\nBPGE\npyannote.ai/benchmark\nAI Engineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

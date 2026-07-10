@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What I'm building on top\nOrchestration manager\nKubernetes\nIf you're running agents at any scale, let's compare notes.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#000000",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What I'm building on top",
+        "x": 16.0,
+        "y": 7.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Orchestration manager",
+        "x": 19.0,
+        "y": 26.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "task orchestration · review flow · context management",
+        "x": 48.0,
+        "y": 28.0,
+        "w": 35.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Kubernetes",
+        "x": 19.0,
+        "y": 43.0,
+        "w": 15.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "compute · secrets · tools",
+        "x": 62.0,
+        "y": 45.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "If you're running agents at any scale, let's compare notes.",
+        "x": 24.0,
+        "y": 78.0,
+        "w": 52.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "LinkedIn",
+        "x": 38.0,
+        "y": 89.0,
+        "w": 7.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "@kyleeee_119",
+        "x": 62.0,
+        "y": 89.0,
+        "w": 15.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/4kYl2_mqmnQ/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658252.1662452,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What I'm building on top\nOrchestration manager\nKubernetes\nIf you're running agents at any scale, let's compare notes.",
+  "advanced_ocr": {}
+}

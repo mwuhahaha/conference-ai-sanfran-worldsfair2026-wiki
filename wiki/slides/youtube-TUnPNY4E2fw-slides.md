@@ -17,72 +17,58 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/TUnPNY4E2fw/slide-001.jpg]]
-
-OCR text:
-
-> together.ai
-> The AI Native Cloud
-> Road to 5M
-> Sequence Length
-> Breaking Memory Barriers in
-> Context Parallelism
-> Max Ryabinin
-> VPRSD,Model Shaping
-> AlEngineer
-> EUROPE
-
 ![[assets/slides/TUnPNY4E2fw/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TUnPNY4E2fw/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > AI Native Cloud
-> Model Builders ← → App Developers
 > GPU Clusters
-> GPUs as a service with accelerated training stack
-> ✓ Accelerate model training
-> ✓ Observability
-> ✓ B200 + GB200 Leader
-> ✓ Storage services
 > Model Shaping
-> Tailored customization for your tasks
-> ✓ Complete ownership
-> ✓ Fine-tuning + distillation
-> ✓ RL (private beta)
 > Inference
-> The fastest way to launch AI models
-> ✓ 200+ leading models
-> ✓ Serverless and Dedicated
-> ✓ Advanced optimizations
-> Trusted by: CURSOR Runware hedra Decagon KREA
 > Engineering the future of AI
 
 ![[assets/slides/TUnPNY4E2fw/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TUnPNY4E2fw/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — dense small screenshot text inside the slide
+
+Slide text:
 
 > Why do we want to long-context training?
-> thsr
+> Did the car actuoliy do
 > /context
-> AIE 0990099900 0008000000 0000000000 00000008器 9900000900 Context Usage 06800 00000 Systen tools:15.2k tokens（7.6%） MCP t0o1s:94.2ktokens （47.1%） Custonagents:758 tokens （o.4%） Messages:5.4k tokens （2.7%) Free space:37k（18.4%） Autocompact buffer:45.oktokens （22.5%) claude-s0nnet-4-5-20250929-163k/20ek toke Systen prompt:2.6k tokens （1.3%)
-> AIEngineer
+> AIE ContextUsage claude-s0nnet-4-5-20250929.163k/200ktoker
+> Autocompact buffer:45.oktokens（22.5%) ONessages: 5.4k tokons (2.7x) 9Systen prompt:2.6k tokons (1.3s) 9Systen too1s:16.2k tokens(7.6%) 9Custon agents:758 tokens (o,4%) )Frec space:37k （18.4%) 9 NCP t001s:94.2kt0kens（47.1%)
+> AI Engineer
 > EUROPE
 
 ![[assets/slides/TUnPNY4E2fw/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TUnPNY4E2fw/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
 
 > What's stopping us?
 > Long Context
-> . * O(NA2) O(N)
-> ra é Computation Memory
-> a ad
-> | AlEngineer |
-> i . : EUROPE
+> O(N^2) Computation
+> O(N) Memory
 
 ![[assets/slides/TUnPNY4E2fw/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TUnPNY4E2fw/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/full`.
+- OCR decision: ready — small chart labels and legend are better suited to OCR
+
+Slide text:
 
 > What's stopping us?
 > LongContext
@@ -96,7 +82,12 @@ OCR text:
 
 ![[assets/slides/TUnPNY4E2fw/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TUnPNY4E2fw/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/full`.
+- OCR decision: ready — small chart labels and legend are better suited to OCR
+
+Slide text:
 
 > How far can we get?
 > AIE Peakmemory(GiB) 80 60 Attn act. Model Other
@@ -108,7 +99,12 @@ OCR text:
 
 ![[assets/slides/TUnPNY4E2fw/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TUnPNY4E2fw/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/full`.
+- OCR decision: ready — Diagram slide with many small labels and a citation line; OCR should be more efficient than manual transcription.
+
+Slide text:
 
 > DeepSpeedUlysses
 > qo. ko 00
@@ -120,71 +116,76 @@ OCR text:
 
 ![[assets/slides/TUnPNY4E2fw/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TUnPNY4E2fw/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
+- OCR decision: ready — Chart slide with axis labels, legend, and numeric annotations that are better captured by OCR.
+
+Slide text:
 
 > With Ulysses context parallelism
-> 4 ° Model Gl
-> Pe * * PY 2 gq Attn act =
-> a [ave] " o” Other ==
-> we = oot
-> ae E40 i
-> 320
-> aU
-> 0° ‘Default FSDP FSDP
-> + Ulysses
-> Llama 3-88, 3M tokens, 8xHI1OO
-> , ww Engineering the future of Al
+> 80 Model
+> AIE Peak memory (GiB) 60 40 OOM (610) (7684) NOO 00M (964) Attnact. Other
+> 20
+> 15.0 15.0
+> 0 Default FSDP + Ulysses
+> Llama 3-8B, 3M tokens, 8xH100
+> Engineering the future of Al
 
 ![[assets/slides/TUnPNY4E2fw/slide-009.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TUnPNY4E2fw/slide-009.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+
+Slide text:
 
 > What if the activations are still too big?
-> |. Inputs to each Transformer block can't be recomputed quickly
-> he 2. Still, we can offload to CPU
-> * *
-> Ps * Prefetch before we reach the layer. similar to weights for FSOP
-> a " Ps x first implemented in
-> * >
-> Unsloth Gradient
-> Checkpointing - 4x longer
-> context windows
-> - | AlEngineer |
-> ; EUROPE
+> 1. Inputs to each Transformer block can't be recomputed quickly
+> 2. Still, we can offload to CPU
 
 ![[assets/slides/TUnPNY4E2fw/slide-010.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TUnPNY4E2fw/slide-010.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/center-82/contrast`.
+- OCR decision: ready — Diagram-heavy slide with compact labels and small source text; OCR will recover the structure more reliably.
+
+Slide text:
 
 > Untied Ulysses
-> @ = Intermediate butfers are toa large! (all OK, x2 because of all-to-all)
-> 4 e Let's leverage the multi: head aspect of attention
-> o— Rages: |§- EB EB SE 3 -s208
-> 8-388 —|2- Eh Gap 88— 3 |-asee-
-> |
-> (RC 7 (a)
-> 2100 loome 0 Com
-> rv ai Engineering the future of Al
+> Intermediate buffers are too large! (all Q.K.V, x2 because of all-to-all)
+> Let's leverage the multi-head aspect of attention:
+> AIE Inp-All-to-All Attention H H1 Out-All-to-All
+> Attention
+> inint QKV All-to-ALl Outo
+> (a) Outi
+> Unbed Uysses:Memory-EmdontConteatPanllism Va Headwise Chunking.Ghada e al,2026
+> Engineering the future of Al
 
 ![[assets/slides/TUnPNY4E2fw/slide-011.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/TUnPNY4E2fw/slide-011.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/center-82/contrast`.
+- OCR decision: ready — Chart slide with small axes, tick labels, and multiple plotted panels that are OCR-suitable.
 
-> Chunksizeablations
-> AIE Memory(GiB) 15 20 Throughput(TPS) 840 830
+Slide text:
+
+> Chunk size ablations
+> AIE Memory (GiB) 20 15 Throughput (TpS) 840 830
 > 10 820
-> 5 810
-> Chunksize 8 16 32 800 Chunk size 8 16 32
-> Untied Ulysses:Memory-Eficient Chunking.Ghadia etal.,2026
+> 810
+> 4 Chunksize 8 16 32 800 4 Chunksiz.e 8 16 32
+> UntiedUysses:Memory-Emdont ConteatParallelismva Headwise ChunkingGhadia etal,2026
 > Engineering the future of Al
 
-![[assets/slides/TUnPNY4E2fw/slide-012.jpg]]
 
-OCR text:
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/TUnPNY4E2fw/slide-001.jpg) — `speaker_stage` confidence `0.98`; speaker at podium with projected slide; not a clean slide frame
+- [`slide-012.jpg`](/assets/slides/TUnPNY4E2fw/slide-012.jpg) — `sponsor_logo` confidence `0.99`; Closing sponsor/logo card; no presentation content to retain.
 
-> AI Engineer
-> EUROPE
-> HTTPS://AI.ENGINEER
+Classification audit: `raw/sources/slide-ai-classification/slides/TUnPNY4E2fw/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

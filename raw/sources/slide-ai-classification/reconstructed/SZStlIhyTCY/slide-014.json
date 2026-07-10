@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Talent: Top performers are creating new AI-native roles and pivoting responsibilities of existing roles\nTop 3 roles most shifted by AI1, % of respondents\nSoftware engineer 71%\nProduct manager 69%\nTesting / QA 57%",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark teal gradient",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Talent: Top performers are creating new AI-native roles and pivoting responsibilities of existing roles",
+        "x": 26.0,
+        "y": 3.0,
+        "w": 62.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Top 3 roles most shifted by AI1, % of respondents",
+        "x": 27.0,
+        "y": 17.0,
+        "w": 37.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Software engineer 71%",
+        "x": 28.0,
+        "y": 25.0,
+        "w": 59.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Product manager 69%",
+        "x": 28.0,
+        "y": 45.0,
+        "w": 56.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Testing / QA 57%",
+        "x": 28.0,
+        "y": 65.0,
+        "w": 50.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-014.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664111.836093,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Talent: Top performers are creating new AI-native roles and pivoting responsibilities of existing roles\nTop 3 roles most shifted by AI1, % of respondents\nSoftware engineer 71%\nProduct manager 69%\nTesting / QA 57%",
+  "advanced_ocr": {}
+}

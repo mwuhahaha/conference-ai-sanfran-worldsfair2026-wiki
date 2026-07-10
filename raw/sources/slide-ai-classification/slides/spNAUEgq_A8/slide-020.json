@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Domain Specific Agents...\nFar more efficient with tokens",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Domain Specific Agents...",
+        "x": 23.0,
+        "y": 7.0,
+        "w": 55.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Far more efficient with tokens",
+        "x": 8.0,
+        "y": 30.0,
+        "w": 38.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-020.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672228.5433147,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Domain Specific Agents...\nFar more efficient with tokens",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Pillars of low latency\n1 Fast models\n2 Short intervals\n3 Stable cache",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title slide with three large callouts; direct reading is enough.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg, #000 0 27%, #0f2418 27% 100%)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 6.0,
+        "y": 23.0,
+        "w": 14.0,
+        "h": 21.0
+      },
+      {
+        "role": "title",
+        "text": "Pillars of low latency",
+        "x": 36.0,
+        "y": 15.0,
+        "w": 52.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "1 Fast models",
+        "x": 29.0,
+        "y": 34.0,
+        "w": 22.0,
+        "h": 34.0
+      },
+      {
+        "role": "body",
+        "text": "2 Short intervals",
+        "x": 52.0,
+        "y": 34.0,
+        "w": 23.0,
+        "h": 34.0
+      },
+      {
+        "role": "body",
+        "text": "3 Stable cache",
+        "x": 77.0,
+        "y": 34.0,
+        "w": 22.0,
+        "h": 34.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/65X0pQ6Lmbg/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657801.2235978,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Pillars of low latency\n1 Fast models\n2 Short intervals\n3 Stable cache",
+  "advanced_ocr": {}
+}

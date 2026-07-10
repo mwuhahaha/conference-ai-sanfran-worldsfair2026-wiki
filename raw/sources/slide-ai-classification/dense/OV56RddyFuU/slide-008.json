@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Hub meets your agent\nMCP Server\nplug Hub in to your favorite LLM\nHF CLI\nsearch models, manage datasets & buckets, launch Spaces, run jobs.\nSkills\nempower your agent with Skills of HF ecosystem\nLocal Agents\nRun full coding agents with llama.cpp, Pi & more",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f3f5ef with pale green panels",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Hub meets your agent",
+        "x": 23.0,
+        "y": 4.0,
+        "w": 54.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "MCP Server\nplug Hub in to your favorite LLM",
+        "x": 9.0,
+        "y": 18.0,
+        "w": 39.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "HF CLI\nsearch models, manage datasets & buckets, launch Spaces, run jobs.",
+        "x": 52.0,
+        "y": 18.0,
+        "w": 40.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "Skills\nempower your agent with Skills of HF ecosystem",
+        "x": 9.0,
+        "y": 50.0,
+        "w": 39.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "Local Agents\nRun full coding agents with llama.cpp, Pi & more",
+        "x": 52.0,
+        "y": 50.0,
+        "w": 40.0,
+        "h": 26.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661984.7312443,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Hub meets your agent\nMCP Server\nplug Hub in to your favorite LLM\nHF CLI\nsearch models, manage datasets & buckets, launch Spaces, run jobs.\nSkills\nempower your agent with Skills of HF ecosystem\nLocal Agents\nRun full coding agents with llama.cpp, Pi & more",
+  "advanced_ocr": {}
+}

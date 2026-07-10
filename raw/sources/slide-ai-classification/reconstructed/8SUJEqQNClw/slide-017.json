@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Rules of agents + workflow composition\n(1) Agents have tools\n(2) Workflows have steps\n(3) An agent can be a step\n(4) A workflow can be a tool\n(5) An agent can be a tool\n(6) A workflow can be a step",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large readable title and bullets; OCR not needed.",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "black with subtle concentric ripple texture",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Rules of agents + workflow composition",
+        "x": 21.0,
+        "y": 5.0,
+        "w": 66.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "(1) Agents have tools\n(2) Workflows have steps\n(3) An agent can be a step\n(4) A workflow can be a tool\n(5) An agent can be a tool\n(6) A workflow can be a step",
+        "x": 22.0,
+        "y": 22.0,
+        "w": 54.0,
+        "h": 58.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-017.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658650.722392,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Rules of agents + workflow composition\n(1) Agents have tools\n(2) Workflows have steps\n(3) An agent can be a step\n(4) A workflow can be a tool\n(5) An agent can be a tool\n(6) A workflow can be a step",
+  "advanced_ocr": {}
+}

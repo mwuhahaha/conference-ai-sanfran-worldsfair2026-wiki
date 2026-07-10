@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.88,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "? Cort\nWodnesdsy, Novenbor 19, 2025\n1.06 Pu\nLi dta rt que Lrt.el yi elina toaed mo ga dett cosnernertrart T Hehsha Tu e acrs (nouud ge anai Lao Lraa pue itatg pln hcly duu satey dupar Lo mnuoy\nd Shou Corricted Hertitn\nY't'tor tooiltence. Focust cn verb conlugatian prlintht srher modtr verht, corier hmse, ane iproring common eipror: Pae Y\nAioalu 't dahla mon biml C metaryt parce ou'Lraas nonbatuueukdhy I srcongr. Sepon sccompkr toutes les tlchee srent roon dtnet ce coir --\noYhou Corltitd Hrtor\nImd chooing mone nin, ihomrat phnryng. The srun srhs ior hmproyerert are prhpoulian ussge (h vt caal. corrtet vtrb conuguior (otr+ corpou!.\nAujeurhu a teal trop frold gses Nre Yet. Je wit Hu bureu lgot de Fuet ron pour tire mon tarel Je oerche 99260069560 C.tl- *2025-11-22*09:37:50*",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot with small body text and multiple cards; OCR will likely read this more reliably than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Wednesday, November 19, 2025",
+        "x": 28.0,
+        "y": 13.0,
+        "w": 28.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Show Corrected Version",
+        "x": 30.0,
+        "y": 30.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Show Corrected Version",
+        "x": 30.0,
+        "y": 53.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Show Corrected Version",
+        "x": 30.0,
+        "y": 76.0,
+        "w": 18.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672875.6476576,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "? Cort\nWodnesdsy, Novenbor 19, 2025\n1.06 Pu\nLi dta rt que Lrt.el yi elina toaed mo ga dett cosnernertrart T Hehsha Tu e acrs (nouud ge anai Lao Lraa pue itatg pln hcly duu satey dupar Lo mnuoy\nd Shou Corricted Hertitn\nY't'tor tooiltence. Focust cn verb conlugatian prlintht srher modtr verht, corier hmse, ane iproring common eipror: Pae Y\nAioalu 't dahla mon biml C metaryt parce ou'Lraas nonbatuueukdhy I srcongr. Sepon sccompkr toutes les tlchee srent roon dtnet ce coir --\noYhou Corltitd Hrtor\nImd chooing mone nin, ihomrat phnryng. The srun srhs ior hmproyerert are prhpoulian ussge (h vt caal. corrtet vtrb conuguior (otr+ corpou!.\nAujeurhu a teal trop frold gses Nre Yet. Je wit Hu bureu lgot de Fuet ron pour tire mon tarel Je oerche 99260069560 C.tl- *2025-11-22*09:37:50*",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1255.48
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "? Cort\nWodnesdsy, Novenbor 19, 2025\n1.06 Pu\nLi dta rt que Lrt.el yi elina toaed mo ga dett cosnernertrart T Hehsha Tu e acrs (nouud ge anai Lao Lraa pue itatg pln hcly duu satey dupar Lo mnuoy\nd Shou Corricted Hertitn\nY't'tor tooiltence. Focust cn verb conlugatian prlintht srher modtr verht, corier hmse, ane iproring common eipror: Pae Y\nAioalu 't dahla mon biml C metaryt parce ou'Lraas nonbatuueukdhy I srcongr. Sepon sccompkr toutes les tlchee srent roon dtnet ce coir --\noYhou Corltitd Hrtor\nImd chooing mone nin, ihomrat phnryng. The srun srhs ior hmproyerert are prhpoulian ussge (h vt caal. corrtet vtrb conuguior (otr+ corpou!.\nAujeurhu a teal trop frold gses Nre Yet. Je wit Hu bureu lgot de Fuet ron pour tire mon tarel Je oerche 99260069560 C.tl- *2025-11-22*09:37:50*",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

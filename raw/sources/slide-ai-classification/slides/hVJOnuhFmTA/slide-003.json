@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "8088 8010 ；x86-64:bytes 0018 80001 6604 0068 0018 0011 000c push mov sub mov mov pop ret 868606868686 554889E54883 488B75F05DC3 EC20488B7DF8 0x01 rbp,rsp rbp rsp,8x26 rsi,[rbp-0x10] rdi,[rbp-0x8] rbp sFind Python files>18 sfind.-typef-name*py-size·k $grep-RInTO0O1wc-1 sSho top5by size s1s-Uhs（find.-name'.py） 5curl-shttps://api.exanple.com/\\ sCount Tooos in those files 42 sFetch API andpretty-print -re-r--r-. -W-F--r-- -r-r---- -rw-r--r-. -r--r- （\"id:2.name²:Linus}. （p.PT.） （\"id\":3.name²:Grace°） users?linit-31j0. sort-kS-hr|head-n5 8.0Kutils/i0.py 6.1K tests/test_api.py 18k Lib/parser.py 12xapi/elient.py Conditionals user. Variables timit100 Functions ifresp.status_code200: Loops for Item in data: Data (JSoN）Primitive itens-[] def fetch（url,timeout-5): else: \"role\":'adnin\" \"16°:123, \"email:*adaexanple.con* resp·http.get（url,tineouttineout） return resp.json() raise Error(resp.text) ifiten[\"active\"]: itens.append（iten) (NOsr） son Response Format Endpoint Method Auth Token Timeout(s) 10 https://api.example.com/v1/users GET Bearer Token JSON 'actiw':troe, \"iit:100, upe,:olo, What would you like to build?.Stream large files.Validate emails Add type hints and deduplicatesrowsby asaJSONarray. Use csv.DictReader Sort by updated_at desc Write aPython function that parses a CSVfile, keeps themostrecent record byupdated_at, and returns theresult Requirements: Include a count summary email (case-insensitive), docstring\nOpcodes Shell Primitives Fields Open Language",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-column code/UI slide; OCR will read it more reliably than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#05070a",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "Opcodes",
+        "x": 3.0,
+        "y": 89.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Shell",
+        "x": 27.0,
+        "y": 89.0,
+        "w": 14.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Primitives",
+        "x": 48.0,
+        "y": 89.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Fields",
+        "x": 71.0,
+        "y": 89.0,
+        "w": 14.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Open Language",
+        "x": 85.0,
+        "y": 88.0,
+        "w": 14.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668092.622068,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "8088 8010 ；x86-64:bytes 0018 80001 6604 0068 0018 0011 000c push mov sub mov mov pop ret 868606868686 554889E54883 488B75F05DC3 EC20488B7DF8 0x01 rbp,rsp rbp rsp,8x26 rsi,[rbp-0x10] rdi,[rbp-0x8] rbp sFind Python files>18 sfind.-typef-name*py-size·k $grep-RInTO0O1wc-1 sSho top5by size s1s-Uhs（find.-name'.py） 5curl-shttps://api.exanple.com/\\ sCount Tooos in those files 42 sFetch API andpretty-print -re-r--r-. -W-F--r-- -r-r---- -rw-r--r-. -r--r- （\"id:2.name²:Linus}. （p.PT.） （\"id\":3.name²:Grace°） users?linit-31j0. sort-kS-hr|head-n5 8.0Kutils/i0.py 6.1K tests/test_api.py 18k Lib/parser.py 12xapi/elient.py Conditionals user. Variables timit100 Functions ifresp.status_code200: Loops for Item in data: Data (JSoN）Primitive itens-[] def fetch（url,timeout-5): else: \"role\":'adnin\" \"16°:123, \"email:*adaexanple.con* resp·http.get（url,tineouttineout） return resp.json() raise Error(resp.text) ifiten[\"active\"]: itens.append（iten) (NOsr） son Response Format Endpoint Method Auth Token Timeout(s) 10 https://api.example.com/v1/users GET Bearer Token JSON 'actiw':troe, \"iit:100, upe,:olo, What would you like to build?.Stream large files.Validate emails Add type hints and deduplicatesrowsby asaJSONarray. Use csv.DictReader Sort by updated_at desc Write aPython function that parses a CSVfile, keeps themostrecent record byupdated_at, and returns theresult Requirements: Include a count summary email (case-insensitive), docstring\nOpcodes Shell Primitives Fields Open Language",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1824.64
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "8088 8010 ；x86-64:bytes 0018 80001 6604 0068 0018 0011 000c push mov sub mov mov pop ret 868606868686 554889E54883 488B75F05DC3 EC20488B7DF8 0x01 rbp,rsp rbp rsp,8x26 rsi,[rbp-0x10] rdi,[rbp-0x8] rbp sFind Python files>18 sfind.-typef-name*py-size·k $grep-RInTO0O1wc-1 sSho top5by size s1s-Uhs（find.-name'.py） 5curl-shttps://api.exanple.com/\\ sCount Tooos in those files 42 sFetch API andpretty-print -re-r--r-. -W-F--r-- -r-r---- -rw-r--r-. -r--r- （\"id:2.name²:Linus}. （p.PT.） （\"id\":3.name²:Grace°） users?linit-31j0. sort-kS-hr|head-n5 8.0Kutils/i0.py 6.1K tests/test_api.py 18k Lib/parser.py 12xapi/elient.py Conditionals user. Variables timit100 Functions ifresp.status_code200: Loops for Item in data: Data (JSoN）Primitive itens-[] def fetch（url,timeout-5): else: \"role\":'adnin\" \"16°:123, \"email:*adaexanple.con* resp·http.get（url,tineouttineout） return resp.json() raise Error(resp.text) ifiten[\"active\"]: itens.append（iten) (NOsr） son Response Format Endpoint Method Auth Token Timeout(s) 10 https://api.example.com/v1/users GET Bearer Token JSON 'actiw':troe, \"iit:100, upe,:olo, What would you like to build?.Stream large files.Validate emails Add type hints and deduplicatesrowsby asaJSONarray. Use csv.DictReader Sort by updated_at desc Write aPython function that parses a CSVfile, keeps themostrecent record byupdated_at, and returns theresult Requirements: Include a count summary email (case-insensitive), docstring\nOpcodes Shell Primitives Fields Open Language",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "2 simple clients",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title slide with large readable text; OCR not needed.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black with subtle dark radial bands",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 10.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "2 simple clients",
+        "x": 42.0,
+        "y": 5.0,
+        "w": 26.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 63.0,
+        "y": 78.0,
+        "w": 14.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-009.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659183.408065,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "2 simple clients",
+  "advanced_ocr": {}
+}

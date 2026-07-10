@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Lab in a box (kind of)",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title slide with one readable title and a single photo; OCR is unnecessary.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with black left sidebar",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 9.0,
+        "w": 12.0,
+        "h": 26.0
+      },
+      {
+        "role": "title",
+        "text": "Lab in a box (kind of)",
+        "x": 28.0,
+        "y": 40.0,
+        "w": 23.0,
+        "h": 14.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 52.0,
+        "y": 87.0,
+        "w": 11.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672538.5944152,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Lab in a box (kind of)",
+  "advanced_ocr": {}
+}

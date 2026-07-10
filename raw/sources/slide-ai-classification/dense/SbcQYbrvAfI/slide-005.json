@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "dwold waiss paiepdn uiim leniea swjoled aus\nProblem Cline was asked to fix a bug where the program crashed if the input None.or (for many-False) data isn't a Mapping, skip non-lapping items when many-True. and when fetching run only when the field is actually present. Solution Patch (summarized in english) In _invoke_field_validators, return early if data is value catch (KeyError. TypeError) so field validators Correct\nwas None. Corresponding Rule\nWhan you locskre a bug. enumarate cvary erecution path thst rasches the foulty Ene (o.g. sirgle vs. batch Itgresslon tosts thuat cover euch path to contrm unchsngod somantles. syno ualn tyrd go srost tuuoed bupuey-solo juootipe sosu iru xg Ituurll e osodod pus (rtol\nMatrix) Incorrectly Problem Cline was asked to fix a bug where using @ with a scalar (e.g. 2 @ Solution Patch (summarized in english) operands (after _matrixify). allowing Python to try the reverse op or raise a TypeError per the Update -_matmul__/-_rmatmul._ to defer to matrix semantics and return NotImplemented for non-matrix operator protocol, Correct\nof falling. behaved like multlplication instead nerby corvenlonce function. for the behvlor rather then a reloted but higher-leve utilty. ln other worda, ftx ksuet at ther source, not n a Whan proposing a Er frst inap the fallng tost or reported behrrior back to tha euact Api or functon.it txtrcises, Ensur+ your chunget sign with that boundary - modify the functon or layr drectly respontlbie Corresponding Rule 12025-1122112:43:531",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Text-heavy problem/solution slide with multiple callouts and code-like snippets; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with light gradient wash",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Cline performs better with updated System Prompt",
+        "x": 8.0,
+        "y": 0,
+        "w": 60.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Problem",
+        "x": 6.0,
+        "y": 15.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Solution Patch (summarized in english)",
+        "x": 43.0,
+        "y": 14.0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Corresponding Rule",
+        "x": 43.0,
+        "y": 37.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Problem",
+        "x": 6.0,
+        "y": 62.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Solution Patch (summarized in english)",
+        "x": 43.0,
+        "y": 61.0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Corresponding Rule",
+        "x": 43.0,
+        "y": 84.0,
+        "w": 20.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663802.537094,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "dwold waiss paiepdn uiim leniea swjoled aus\nProblem Cline was asked to fix a bug where the program crashed if the input None.or (for many-False) data isn't a Mapping, skip non-lapping items when many-True. and when fetching run only when the field is actually present. Solution Patch (summarized in english) In _invoke_field_validators, return early if data is value catch (KeyError. TypeError) so field validators Correct\nwas None. Corresponding Rule\nWhan you locskre a bug. enumarate cvary erecution path thst rasches the foulty Ene (o.g. sirgle vs. batch Itgresslon tosts thuat cover euch path to contrm unchsngod somantles. syno ualn tyrd go srost tuuoed bupuey-solo juootipe sosu iru xg Ituurll e osodod pus (rtol\nMatrix) Incorrectly Problem Cline was asked to fix a bug where using @ with a scalar (e.g. 2 @ Solution Patch (summarized in english) operands (after _matrixify). allowing Python to try the reverse op or raise a TypeError per the Update -_matmul__/-_rmatmul._ to defer to matrix semantics and return NotImplemented for non-matrix operator protocol, Correct\nof falling. behaved like multlplication instead nerby corvenlonce function. for the behvlor rather then a reloted but higher-leve utilty. ln other worda, ftx ksuet at ther source, not n a Whan proposing a Er frst inap the fallng tost or reported behrrior back to tha euact Api or functon.it txtrcises, Ensur+ your chunget sign with that boundary - modify the functon or layr drectly respontlbie Corresponding Rule 12025-1122112:43:531",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2109.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "dwold waiss paiepdn uiim leniea swjoled aus\nProblem Cline was asked to fix a bug where the program crashed if the input None.or (for many-False) data isn't a Mapping, skip non-lapping items when many-True. and when fetching run only when the field is actually present. Solution Patch (summarized in english) In _invoke_field_validators, return early if data is value catch (KeyError. TypeError) so field validators Correct\nwas None. Corresponding Rule\nWhan you locskre a bug. enumarate cvary erecution path thst rasches the foulty Ene (o.g. sirgle vs. batch Itgresslon tosts thuat cover euch path to contrm unchsngod somantles. syno ualn tyrd go srost tuuoed bupuey-solo juootipe sosu iru xg Ituurll e osodod pus (rtol\nMatrix) Incorrectly Problem Cline was asked to fix a bug where using @ with a scalar (e.g. 2 @ Solution Patch (summarized in english) operands (after _matrixify). allowing Python to try the reverse op or raise a TypeError per the Update -_matmul__/-_rmatmul._ to defer to matrix semantics and return NotImplemented for non-matrix operator protocol, Correct\nof falling. behaved like multlplication instead nerby corvenlonce function. for the behvlor rather then a reloted but higher-leve utilty. ln other worda, ftx ksuet at ther source, not n a Whan proposing a Er frst inap the fallng tost or reported behrrior back to tha euact Api or functon.it txtrcises, Ensur+ your chunget sign with that boundary - modify the functon or layr drectly respontlbie Corresponding Rule 12025-1122112:43:531",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

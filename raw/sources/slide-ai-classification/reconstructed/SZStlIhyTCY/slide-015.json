@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "and higher feature throughput in large international airline Talent: Smaller but higher number of teams enabling higher capacity\nFrom\nPod # 1 PM Pod # 2 PM\nTech Lead 2 Toch lead 二\n222 Devs Devs\nQA 22 QA\nTwo pizza team of 8-10 people\nExamplesharedfunctionalroles\nDevops SREI TPM anslyst Business analysts/ Data engineers\nMckGesay&\nAlEngineer Engineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram with many small labels and role names; OCR will capture the team structure more reliably than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal gradient",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Talent: Smaller but higher number of teams enabling higher capacity and higher feature throughput in large international airline",
+        "x": 26.0,
+        "y": 3.0,
+        "w": 66.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "From",
+        "x": 37.0,
+        "y": 16.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pod # 1\nPM\nTech Lead\nDevs\nQA",
+        "x": 33.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 35.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pod # 2\nPM\nTech lead\nDevs\nQA",
+        "x": 44.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 35.0
+      },
+      {
+        "role": "caption",
+        "text": "Two pizza team of 8-10 people",
+        "x": 34.0,
+        "y": 60.0,
+        "w": 25.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Example shared functional roles",
+        "x": 34.0,
+        "y": 68.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "SRE/Devops TPM Business analyst Data analysts/engineers",
+        "x": 26.0,
+        "y": 74.0,
+        "w": 48.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-015.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664111.8370943,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "and higher feature throughput in large international airline Talent: Smaller but higher number of teams enabling higher capacity\nFrom\nPod # 1 PM Pod # 2 PM\nTech Lead 2 Toch lead 二\n222 Devs Devs\nQA 22 QA\nTwo pizza team of 8-10 people\nExamplesharedfunctionalroles\nDevops SREI TPM anslyst Business analysts/ Data engineers\nMckGesay&\nAlEngineer Engineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 541.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "and higher feature throughput in large international airline Talent: Smaller but higher number of teams enabling higher capacity\nFrom\nPod # 1 PM Pod # 2 PM\nTech Lead 2 Toch lead 二\n222 Devs Devs\nQA 22 QA\nTwo pizza team of 8-10 people\nExamplesharedfunctionalroles\nDevops SREI TPM anslyst Business analysts/ Data engineers\nMckGesay&\nAlEngineer Engineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

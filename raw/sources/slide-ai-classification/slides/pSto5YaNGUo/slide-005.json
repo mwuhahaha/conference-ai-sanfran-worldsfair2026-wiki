@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "HUTAGENT\nasonorio..: t asrhd\nFailures cluster into root causes - and become new evals.\nas a now oval -- so the systam keeps growing itself. Lve, the agent is watched. Falling traces are grouped by root causo, each cause becomes a findlng, and each flndlng is fed back\nlive production traces $$snt?. 1001 flrdiags - rt= tvals\nmsaing tool / contuxt:+ oval: ass+rt tool pr+t+nt\nwrorg ttcalatlon +'tval: eicalntion'rule\ntorrmat / scherm鲁 + tvel: schtea chech'\n▼ ptqiosqt\nEval. ststen:\nTha Arntic Bene Burak 11 F 16",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Cause-clustering diagram with small labels and counts; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "MUTAGENT",
+        "x": 86.0,
+        "y": 1.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "PHASE 4 · DIAGNOSE",
+        "x": 11.0,
+        "y": 10.0,
+        "w": 16.0,
+        "h": 3.0
+      },
+      {
+        "role": "title",
+        "text": "Failures cluster into root causes — and become new evals.",
+        "x": 11.0,
+        "y": 14.0,
+        "w": 59.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Live, the agent is watched. Failing traces are grouped by root cause, each cause becomes a finding, and each finding is fed back as a new eval — so the system keeps growing itself.",
+        "x": 11.0,
+        "y": 23.0,
+        "w": 63.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "live production traces",
+        "x": 14.0,
+        "y": 31.0,
+        "w": 16.0,
+        "h": 3.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "root causes",
+        "x": 38.0,
+        "y": 31.0,
+        "w": 10.0,
+        "h": 3.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "findings → new evals",
+        "x": 61.0,
+        "y": 31.0,
+        "w": 16.0,
+        "h": 3.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "EVAL SYSTEM grows every cycle",
+        "x": 61.0,
+        "y": 75.0,
+        "w": 18.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670687.1281528,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "HUTAGENT\nasonorio..: t asrhd\nFailures cluster into root causes - and become new evals.\nas a now oval -- so the systam keeps growing itself. Lve, the agent is watched. Falling traces are grouped by root causo, each cause becomes a findlng, and each flndlng is fed back\nlive production traces $$snt?. 1001 flrdiags - rt= tvals\nmsaing tool / contuxt:+ oval: ass+rt tool pr+t+nt\nwrorg ttcalatlon +'tval: eicalntion'rule\ntorrmat / scherm鲁 + tvel: schtea chech'\n▼ ptqiosqt\nEval. ststen:\nTha Arntic Bene Burak 11 F 16",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 814.6
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "HUTAGENT\nasonorio..: t asrhd\nFailures cluster into root causes - and become new evals.\nas a now oval -- so the systam keeps growing itself. Lve, the agent is watched. Falling traces are grouped by root causo, each cause becomes a findlng, and each flndlng is fed back\nlive production traces $$snt?. 1001 flrdiags - rt= tvals\nmsaing tool / contuxt:+ oval: ass+rt tool pr+t+nt\nwrorg ttcalatlon +'tval: eicalntion'rule\ntorrmat / scherm鲁 + tvel: schtea chech'\n▼ ptqiosqt\nEval. ststen:\nTha Arntic Bene Burak 11 F 16",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

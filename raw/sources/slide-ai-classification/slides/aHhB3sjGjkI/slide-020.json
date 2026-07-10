@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Fixing bad performances on live data_ | Bad performances on live data",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#ffffff",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Fixing bad performances on live data_",
+        "x": 8.0,
+        "y": 4.0,
+        "w": 44.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Bad performances on live data",
+        "x": 9.0,
+        "y": 32.0,
+        "w": 31.0,
+        "h": 27.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 18.0,
+        "y": 22.0,
+        "w": 16.0,
+        "h": 19.0
+      },
+      {
+        "role": "caption",
+        "text": "Was this response helpful?",
+        "x": 51.0,
+        "y": 18.0,
+        "w": 40.0,
+        "h": 57.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-020.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667039.6650307,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Fixing bad performances on live data_ | Bad performances on live data",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI systems evolved faster than our evaluation methods\nThe Illusion The Reality\n100% MAA Invisible Failure Hodes\n75% Behavior Degraded Production\n90% 50% 25% Reliability Gaps Unpredictable User\nBenchmark Accuracy 0% T-0 T+10ms T+50ms T+10Gms",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small chart labels and callouts are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray/white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI systems evolved faster than our evaluation methods",
+        "x": 6.0,
+        "y": 1.0,
+        "w": 57.0,
+        "h": 16.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "The Illusion",
+        "x": 18.0,
+        "y": 21.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "The Reality",
+        "x": 62.0,
+        "y": 21.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "90%\nBenchmark Accuracy",
+        "x": 16.0,
+        "y": 63.0,
+        "w": 22.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "Invisible Failure Modes\nDegraded Production Behavior\nUnpredictable User Reliability Gaps",
+        "x": 58.0,
+        "y": 32.0,
+        "w": 34.0,
+        "h": 34.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668925.1029444,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "AI systems evolved faster than our evaluation methods\nThe Illusion The Reality\n100% MAA Invisible Failure Hodes\n75% Behavior Degraded Production\n90% 50% 25% Reliability Gaps Unpredictable User\nBenchmark Accuracy 0% T-0 T+10ms T+50ms T+10Gms",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 359.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "AI systems evolved faster than our evaluation methods\nThe Illusion The Reality\n100% MAA Invisible Failure Hodes\n75% Behavior Degraded Production\n90% 50% 25% Reliability Gaps Unpredictable User\nBenchmark Accuracy 0% T-0 T+10ms T+50ms T+10Gms",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

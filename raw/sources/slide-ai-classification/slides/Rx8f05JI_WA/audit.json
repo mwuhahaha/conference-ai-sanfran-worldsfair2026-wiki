@@ -1,0 +1,939 @@
+{
+  "video_id": "Rx8f05JI_WA",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 10,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "SWE-Marathon\nCan coding agents stay coherent over a 1 billion token budget?\nRishi Desai\nabundant",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title card with large readable text; OCR not needed.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f6f0e6",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "SWE-Marathon",
+            "x": 5.0,
+            "y": 24.0,
+            "w": 54.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Can coding agents stay coherent over a 1 billion token budget?",
+            "x": 5.0,
+            "y": 36.0,
+            "w": 63.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Rishi Desai",
+            "x": 5.0,
+            "y": 55.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "abundant",
+            "x": 5.0,
+            "y": 62.0,
+            "w": 16.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Rx8f05JI_WA/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662641.0447915,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "SWE-Marathon\nCan coding agents stay coherent over a 1 billion token budget?\nRishi Desai\nabundant",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Rx8f05JI_WA/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agents are moving to autonomous end-to-end projects\nAI anthropic:con/engineer ing Anthropic github.coa/openai/parancter-golf OpenAl\nClaudes'. \"Building a C compiler with a team of paralle! checkpoint budget: \"Parameter Golf\" - train a GPT under a tiny\nCloudflare Cursor\nolog.cloudttare.coa/vlnext Cursor.con/blog/scsling-agents\n\"How we rebuilt Next.js with Al in one week*: \"Scaling long-running autonomous coding*\n2.1.U",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multiple small cards and quotes; OCR will read the slide more accurately than manual triage.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6f0e6",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Agents are moving to autonomous end-to-end projects",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 90.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Anthropic\n“Building a C compiler with a team of parallel Claudes”",
+            "x": 5.0,
+            "y": 24.0,
+            "w": 43.0,
+            "h": 21.0
+          },
+          {
+            "role": "body",
+            "text": "OpenAI\n“Parameter Golf” — train a GPT under a tiny checkpoint budget",
+            "x": 52.0,
+            "y": 24.0,
+            "w": 43.0,
+            "h": 21.0
+          },
+          {
+            "role": "body",
+            "text": "Cloudflare\n“How we rebuilt Next.js with AI in one week”",
+            "x": 5.0,
+            "y": 51.0,
+            "w": 43.0,
+            "h": 21.0
+          },
+          {
+            "role": "body",
+            "text": "Cursor\n“Scaling long-running autonomous coding”",
+            "x": 52.0,
+            "y": 51.0,
+            "w": 43.0,
+            "h": 21.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Rx8f05JI_WA/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662641.0450757,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Agents are moving to autonomous end-to-end projects\nAI anthropic:con/engineer ing Anthropic github.coa/openai/parancter-golf OpenAl\nClaudes'. \"Building a C compiler with a team of paralle! checkpoint budget: \"Parameter Golf\" - train a GPT under a tiny\nCloudflare Cursor\nolog.cloudttare.coa/vlnext Cursor.con/blog/scsling-agents\n\"How we rebuilt Next.js with Al in one week*: \"Scaling long-running autonomous coding*\n2.1.U",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 527.2
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Agents are moving to autonomous end-to-end projects\nAI anthropic:con/engineer ing Anthropic github.coa/openai/parancter-golf OpenAl\nClaudes'. \"Building a C compiler with a team of paralle! checkpoint budget: \"Parameter Golf\" - train a GPT under a tiny\nCloudflare Cursor\nolog.cloudttare.coa/vlnext Cursor.con/blog/scsling-agents\n\"How we rebuilt Next.js with Al in one week*: \"Scaling long-running autonomous coding*\n2.1.U",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Rx8f05JI_WA/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "From coding tasks to engineering projects.\n2021 HumanEval Function completion -l nin per TasK Inlocked coot tlns:..IK: ToKENS\n2023 SWE-bench -s-is hin per task Real GitHub issues UNLOCKID COOING AGEHTS l0OK TOKEHS:\n2025 Terminal-Bench Multi-step terminal tasks -s-is HIn per tasK URloCxCD TEAHInAL AcEHiS. IH TOKENS:\n:2026. SWE-Marathon -3-lo Hours peR task Days-long agentic work UhtockihG Autohotous AGthts 1B+: T0KENS",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense benchmark comparison with small labels and token counts; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6f0e6",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "From coding tasks to engineering projects",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 70.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2021 HumanEval",
+            "x": 7.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Function completion",
+            "x": 31.0,
+            "y": 31.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "~1K TOKENS",
+            "x": 81.0,
+            "y": 31.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2023 SWE-bench",
+            "x": 12.0,
+            "y": 41.0,
+            "w": 18.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Real GitHub issues",
+            "x": 34.0,
+            "y": 41.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "~100K TOKENS",
+            "x": 80.0,
+            "y": 41.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2025 Terminal-Bench",
+            "x": 14.0,
+            "y": 52.0,
+            "w": 21.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Multi-step terminal tasks",
+            "x": 36.0,
+            "y": 52.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "~1M TOKENS",
+            "x": 82.0,
+            "y": 52.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2026 SWE-Marathon",
+            "x": 15.0,
+            "y": 63.0,
+            "w": 20.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Days-long agentic work",
+            "x": 39.0,
+            "y": 63.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "1B+ TOKENS",
+            "x": 82.0,
+            "y": 63.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Rx8f05JI_WA/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662687.7163587,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "From coding tasks to engineering projects.\n2021 HumanEval Function completion -l nin per TasK Inlocked coot tlns:..IK: ToKENS\n2023 SWE-bench -s-is hin per task Real GitHub issues UNLOCKID COOING AGEHTS l0OK TOKEHS:\n2025 Terminal-Bench Multi-step terminal tasks -s-is HIn per tasK URloCxCD TEAHInAL AcEHiS. IH TOKENS:\n:2026. SWE-Marathon -3-lo Hours peR task Days-long agentic work UhtockihG Autohotous AGthts 1B+: T0KENS",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 612.04
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "From coding tasks to engineering projects.\n2021 HumanEval Function completion -l nin per TasK Inlocked coot tlns:..IK: ToKENS\n2023 SWE-bench -s-is hin per task Real GitHub issues UNLOCKID COOING AGEHTS l0OK TOKEHS:\n2025 Terminal-Bench Multi-step terminal tasks -s-is HIn per tasK URloCxCD TEAHInAL AcEHiS. IH TOKENS:\n:2026. SWE-Marathon -3-lo Hours peR task Days-long agentic work UhtockihG Autohotous AGthts 1B+: T0KENS",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Rx8f05JI_WA/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "First benchmark with full-stack CUA-verified tasks\nCUA verifier grades Slack clone SWE-MARATHON\nA computer-usc agent drives the Ul hikc arcal user CiaudeOpus 47·ClaudeCodc",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Contains a large embedded UI screenshot with smaller text that OCR should handle better than hand transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f6f0e6",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "First benchmark with full-stack CUA-verified tasks",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 87.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "SWE-MARATHON\nCUA verifier grades Slack clone\nA computer-use agent drives the UI like a real user\nClaude Opus 4.7 · Claude Code",
+            "x": 21.0,
+            "y": 26.0,
+            "w": 59.0,
+            "h": 48.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Rx8f05JI_WA/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662761.933985,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "First benchmark with full-stack CUA-verified tasks\nCUA verifier grades Slack clone SWE-MARATHON\nA computer-usc agent drives the Ul hikc arcal user CiaudeOpus 47·ClaudeCodc",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 295.04
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "First benchmark with full-stack CUA-verified tasks\nCUA verifier grades Slack clone SWE-MARATHON\nA computer-usc agent drives the Ul hikc arcal user CiaudeOpus 47·ClaudeCodc",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Rx8f05JI_WA/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "First benchmark with full-stack CUA-verified tasks\nIgeneral\nWorkspace layout CUAVERIFIER PASS\nSuRK\nChec0]/C9\nSgn up & sign n\nSossion/account\nSlack-like layout\nsve-sarathoa.9rg",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Embedded product UI screenshot with checklist text; OCR is the better capture path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6f0e6",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "First benchmark with full-stack CUA-verified tasks",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 87.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "Analytical Engine\n#general\nWorkspace layout\nPASS\nSign up & sign in\nSession / account\nSlack-like layout\nPost & persist?\nCreate channels\nHover toolbar\nEmoji picker\nReaction badges\nThreaded replies",
+            "x": 21.0,
+            "y": 25.0,
+            "w": 59.0,
+            "h": 50.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Rx8f05JI_WA/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662802.1275673,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "First benchmark with full-stack CUA-verified tasks\nIgeneral\nWorkspace layout CUAVERIFIER PASS\nSuRK\nChec0]/C9\nSgn up & sign n\nSossion/account\nSlack-like layout\nsve-sarathoa.9rg",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 287.04
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "First benchmark with full-stack CUA-verified tasks\nIgeneral\nWorkspace layout CUAVERIFIER PASS\nSuRK\nChec0]/C9\nSgn up & sign n\nSossion/account\nSlack-like layout\nsve-sarathoa.9rg",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Rx8f05JI_WA/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "20 tasks across four families\nAlgoritmic 2 tasts Full-stack product clones S tasks\nslt-cloee excelclcre s3-cttee.\nLibrary cloees tasks\nMLE Library clones & reproductions 8 tasks\ntals. kubernetes-rust-reurite\n. rust-c-coapiler.\nsyn s Product clonts - jax-pytorch-rewrite MLE 5 tasks\npost-train-ifeval\n.u.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart labels and small task lists are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6f0e6",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "20 tasks across four families",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 45.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Algorithmic\n2 tasks",
+            "x": 4.0,
+            "y": 40.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MLE\n5 tasks",
+            "x": 4.0,
+            "y": 58.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Product clones\n5 tasks",
+            "x": 25.0,
+            "y": 70.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Library clones\n8 tasks",
+            "x": 29.0,
+            "y": 43.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Full-stack product clones\n5 tasks",
+            "x": 46.0,
+            "y": 23.0,
+            "w": 43.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Library clones & reproductions\n8 tasks",
+            "x": 46.0,
+            "y": 42.0,
+            "w": 43.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "MLE\n5 tasks",
+            "x": 46.0,
+            "y": 60.0,
+            "w": 43.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Rx8f05JI_WA/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662822.6865554,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "20 tasks across four families\nAlgoritmic 2 tasts Full-stack product clones S tasks\nslt-cloee excelclcre s3-cttee.\nLibrary cloees tasks\nMLE Library clones & reproductions 8 tasks\ntals. kubernetes-rust-reurite\n. rust-c-coapiler.\nsyn s Product clonts - jax-pytorch-rewrite MLE 5 tasks\npost-train-ifeval\n.u.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 405.56
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "20 tasks across four families\nAlgoritmic 2 tasts Full-stack product clones S tasks\nslt-cloee excelclcre s3-cttee.\nLibrary cloees tasks\nMLE Library clones & reproductions 8 tasks\ntals. kubernetes-rust-reurite\n. rust-c-coapiler.\nsyn s Product clonts - jax-pytorch-rewrite MLE 5 tasks\npost-train-ifeval\n.u.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Rx8f05JI_WA/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Leaderboard\n1,400 trlls 31.3M try' tobens / triat:iongest trit 877.4M\nAl Ciaude Opus 4.8 / ctabe Ctoe HODEl / AGEHT ResotutIoN Rate ipAssei1 26.0%\nAl Cisude Opus 4.7 / ctuce Cooe 16.0%\n7. GLM 5.2 / (1** Co4s 13.0%\nGpT-5.5 / (oden Ct1 12.0%\nGemiru 3.5 Flash / Ce=inl (l1 7.0%\nG DeepStek V4 Pro / Ttralnus 2 4.0%\nGemini 31 Pro Preview / Ge=int Ct1 2.0%.\nMiniMax M2.7 / Teratrat? 0.0%\nKimi K2.6 / x1ml (ode (t1 0.0%\n452 734\n.7 10:",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense leaderboard table and small chart labels are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6efe5",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Leaderboard",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 23.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "1,400 trials",
+            "x": 6.0,
+            "y": 17.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "31.3M avg tokens / trial",
+            "x": 35.0,
+            "y": 17.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "877.4M longest trial",
+            "x": 68.0,
+            "y": 17.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MODEL / AGENT",
+            "x": 6.0,
+            "y": 28.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RESOLUTION RATE (pass@1)",
+            "x": 80.0,
+            "y": 28.0,
+            "w": 18.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Rx8f05JI_WA/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662923.2557473,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Leaderboard",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Leaderboard\n1,400 trlls 31.3M try' tobens / triat:iongest trit 877.4M\nAl Ciaude Opus 4.8 / ctabe Ctoe HODEl / AGEHT ResotutIoN Rate ipAssei1 26.0%\nAl Cisude Opus 4.7 / ctuce Cooe 16.0%\n7. GLM 5.2 / (1** Co4s 13.0%\nGpT-5.5 / (oden Ct1 12.0%\nGemiru 3.5 Flash / Ce=inl (l1 7.0%\nG DeepStek V4 Pro / Ttralnus 2 4.0%\nGemini 31 Pro Preview / Ge=int Ct1 2.0%.\nMiniMax M2.7 / Teratrat? 0.0%\nKimi K2.6 / x1ml (ode (t1 0.0%\n452 734\n.7 10:",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 564.4
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Leaderboard\n1,400 trlls 31.3M try' tobens / triat:iongest trit 877.4M\nAl Ciaude Opus 4.8 / ctabe Ctoe HODEl / AGEHT ResotutIoN Rate ipAssei1 26.0%\nAl Cisude Opus 4.7 / ctuce Cooe 16.0%\n7. GLM 5.2 / (1** Co4s 13.0%\nGpT-5.5 / (oden Ct1 12.0%\nGemiru 3.5 Flash / Ce=inl (l1 7.0%\nG DeepStek V4 Pro / Ttralnus 2 4.0%\nGemini 31 Pro Preview / Ge=int Ct1 2.0%.\nMiniMax M2.7 / Teratrat? 0.0%\nKimi K2.6 / x1ml (ode (t1 0.0%\n452 734\n.7 10:",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Rx8f05JI_WA/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "A 356M token rollout for nextjs-vite-rewrite\n9.4 hours agonr walciock Rrpo + faturt ti plor stlon. 844 trsiectory steps imgiemantation push P+O+ rOAt + SSR 842total tool acticns Hydration brek throughr: 220/325 ptting tdrt/nrite: 223 (26%) buidtet: 323 (38%) (41) 1l:oqox,bnqsp rtsd/esrch: 259 (31%) other t0ols: 26 (3%)\n1.3h 2.9h 6.1a 7.0h $.5h 岁.33\nActicns per 30 min 83 Frst tl suile. 0325 p+sting Tarsron dtbugging. misng boottp midataware Cusler Server sctions + tspcche:pena rluL 283325\n68\n40\n2 3 Elapsed agont wall-ciock timo (hours) 5 6 8 Z cu s.2 / (1\n$/ 13.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Timeline, metrics, and chart annotations are dense and OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6efe5",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "A 356M token rollout for nextjs-vite-rewrite",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 77.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "9.4 hours",
+            "x": 7.0,
+            "y": 17.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "844 trajectory steps",
+            "x": 24.0,
+            "y": 17.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "842 total tool actions",
+            "x": 42.0,
+            "y": 17.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Repo + fixture exploration",
+            "x": 7.0,
+            "y": 27.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pages router + SSR implementation push",
+            "x": 28.0,
+            "y": 27.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Hydration breakthrough: 220/325 passing",
+            "x": 56.0,
+            "y": 27.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Rx8f05JI_WA/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662985.1942558,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "A 356M token rollout for nextjs-vite-rewrite",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "A 356M token rollout for nextjs-vite-rewrite\n9.4 hours agonr walciock Rrpo + faturt ti plor stlon. 844 trsiectory steps imgiemantation push P+O+ rOAt + SSR 842total tool acticns Hydration brek throughr: 220/325 ptting tdrt/nrite: 223 (26%) buidtet: 323 (38%) (41) 1l:oqox,bnqsp rtsd/esrch: 259 (31%) other t0ols: 26 (3%)\n1.3h 2.9h 6.1a 7.0h $.5h 岁.33\nActicns per 30 min 83 Frst tl suile. 0325 p+sting Tarsron dtbugging. misng boottp midataware Cusler Server sctions + tspcche:pena rluL 283325\n68\n40\n2 3 Elapsed agont wall-ciock timo (hours) 5 6 8 Z cu s.2 / (1\n$/ 13.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 669.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "A 356M token rollout for nextjs-vite-rewrite\n9.4 hours agonr walciock Rrpo + faturt ti plor stlon. 844 trsiectory steps imgiemantation push P+O+ rOAt + SSR 842total tool acticns Hydration brek throughr: 220/325 ptting tdrt/nrite: 223 (26%) buidtet: 323 (38%) (41) 1l:oqox,bnqsp rtsd/esrch: 259 (31%) other t0ols: 26 (3%)\n1.3h 2.9h 6.1a 7.0h $.5h 岁.33\nActicns per 30 min 83 Frst tl suile. 0325 p+sting Tarsron dtbugging. misng boottp midataware Cusler Server sctions + tspcche:pena rluL 283325\n68\n40\n2 3 Elapsed agont wall-ciock timo (hours) 5 6 8 Z cu s.2 / (1\n$/ 13.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Rx8f05JI_WA/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Reward hacking\n12.8% 9.2%\nsusplciois shortcut behuvior Clesr tiploit shlpped earees re-ard via'eigteit\nHODel / aGfh! Shart or taials (<)\nGemini 3.1 Pro Provlew / Cealol Cl1 30.0%\nGpt-5.5 / Cotex Cl1 19.0%\nGeminu 3.5 Flash / Geainl Cl1 16.0%\nKiml X2.6 / Kla1 Code Ctl 10.0%\nAl Ciaude Opus 4.8 / Ctaudt Code %1'6\nDopScok V4 Pro / Itrnihus? 6.3%\nAl Claude Opus 4.7 / (luode Code 3.0%\n7. GLM 5.2 / Clde Code 3.0%\n。 MiniMax M2.7 / tereirus? 1.0%\n41 21\n细 Susplc lo+s tortrut huvier 1ctesr trplelt saipotl\n1tru.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Bar chart and small labels are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6efe5",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Reward hacking",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "12.8% suspicious shortcut behavior",
+            "x": 6.0,
+            "y": 17.0,
+            "w": 23.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "9.2% clear exploit shipped",
+            "x": 35.0,
+            "y": 17.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "0 earned reward via exploit",
+            "x": 68.0,
+            "y": 17.0,
+            "w": 19.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MODEL / AGENT",
+            "x": 6.0,
+            "y": 28.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SHARE OF TRIALS (%)",
+            "x": 81.0,
+            "y": 28.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Suspicious shortcut behavior",
+            "x": 36.0,
+            "y": 86.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Clear exploit shipped",
+            "x": 54.0,
+            "y": 86.0,
+            "w": 14.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Rx8f05JI_WA/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663070.1635845,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Reward hacking",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Reward hacking\n12.8% 9.2%\nsusplciois shortcut behuvior Clesr tiploit shlpped earees re-ard via'eigteit\nHODel / aGfh! Shart or taials (<)\nGemini 3.1 Pro Provlew / Cealol Cl1 30.0%\nGpt-5.5 / Cotex Cl1 19.0%\nGeminu 3.5 Flash / Geainl Cl1 16.0%\nKiml X2.6 / Kla1 Code Ctl 10.0%\nAl Ciaude Opus 4.8 / Ctaudt Code %1'6\nDopScok V4 Pro / Itrnihus? 6.3%\nAl Claude Opus 4.7 / (luode Code 3.0%\n7. GLM 5.2 / Clde Code 3.0%\n。 MiniMax M2.7 / tereirus? 1.0%\n41 21\n细 Susplc lo+s tortrut huvier 1ctesr trplelt saipotl\n1tru.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 710.36
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Reward hacking\n12.8% 9.2%\nsusplciois shortcut behuvior Clesr tiploit shlpped earees re-ard via'eigteit\nHODel / aGfh! Shart or taials (<)\nGemini 3.1 Pro Provlew / Cealol Cl1 30.0%\nGpt-5.5 / Cotex Cl1 19.0%\nGeminu 3.5 Flash / Geainl Cl1 16.0%\nKiml X2.6 / Kla1 Code Ctl 10.0%\nAl Ciaude Opus 4.8 / Ctaudt Code %1'6\nDopScok V4 Pro / Itrnihus? 6.3%\nAl Claude Opus 4.7 / (luode Code 3.0%\n7. GLM 5.2 / Clde Code 3.0%\n。 MiniMax M2.7 / tereirus? 1.0%\n41 21\n细 Susplc lo+s tortrut huvier 1ctesr trplelt saipotl\n1tru.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Rx8f05JI_WA/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Gemini 3.1 Pro cheats on the C compiler task\nRUST-C-CONPILER\nTask: build a C compiler in Rust:UNIT TESTS. 0.989\nExPecteO implement lexer, parser. codegen in Rust use gcc inside Rust code SUBnItiED SHoRrCUr. Looks almost solved if you only compare output.\n:ANTI-CHEAT AUDIT\nstd::process::Cormand::new( gcc) cargs([P, “ input, cstatus() “o% output]) The verifier runs'strace, sees gcc spawn, and rejects compilor wrappers. 0.989 partial: +. 0 reward\nS++-+a?at h++.tf9 11./ 11",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code sample, comparison boxes, and audit text are dense and OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f6efe5",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Gemini 3.1 Pro cheats on the C compiler task",
+            "x": 5.0,
+            "y": 10.0,
+            "w": 74.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Task: build a C compiler in Rust",
+            "x": 7.0,
+            "y": 24.0,
+            "w": 31.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "EXPECTED",
+            "x": 7.0,
+            "y": 32.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "SUBMITTED SHORTCUT",
+            "x": 35.0,
+            "y": 32.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "UNIT TESTS",
+            "x": 60.0,
+            "y": 24.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "0.989",
+            "x": 60.0,
+            "y": 31.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "ANTI-CHEAT AUDIT",
+            "x": 60.0,
+            "y": 42.0,
+            "w": 18.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/Rx8f05JI_WA/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663152.1488023,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Gemini 3.1 Pro cheats on the C compiler task",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Gemini 3.1 Pro cheats on the C compiler task\nRUST-C-CONPILER\nTask: build a C compiler in Rust:UNIT TESTS. 0.989\nExPecteO implement lexer, parser. codegen in Rust use gcc inside Rust code SUBnItiED SHoRrCUr. Looks almost solved if you only compare output.\n:ANTI-CHEAT AUDIT\nstd::process::Cormand::new( gcc) cargs([P, “ input, cstatus() “o% output]) The verifier runs'strace, sees gcc spawn, and rejects compilor wrappers. 0.989 partial: +. 0 reward\nS++-+a?at h++.tf9 11./ 11",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 698.56
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Gemini 3.1 Pro cheats on the C compiler task\nRUST-C-CONPILER\nTask: build a C compiler in Rust:UNIT TESTS. 0.989\nExPecteO implement lexer, parser. codegen in Rust use gcc inside Rust code SUBnItiED SHoRrCUr. Looks almost solved if you only compare output.\n:ANTI-CHEAT AUDIT\nstd::process::Cormand::new( gcc) cargs([P, “ input, cstatus() “o% output]) The verifier runs'strace, sees gcc spawn, and rejects compilor wrappers. 0.989 partial: +. 0 reward\nS++-+a?at h++.tf9 11./ 11",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/Rx8f05JI_WA/slide-010.html"
+    }
+  ],
+  "rejected": []
+}

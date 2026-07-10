@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.82,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "AI Engineer World's Fair\nEngineering the future of AI",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "split dark space and white with embedded photo",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AI Engineer World's Fair",
+        "x": 3.0,
+        "y": 3.0,
+        "w": 21.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "Engineering the future of AI",
+        "x": 39.0,
+        "y": 87.0,
+        "w": 40.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-015.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669113.7929025,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Engineer World's Fair\nEngineering the future of AI",
+  "advanced_ocr": {}
+}

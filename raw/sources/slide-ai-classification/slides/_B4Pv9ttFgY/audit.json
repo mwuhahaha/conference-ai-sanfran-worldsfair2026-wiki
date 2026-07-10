@@ -1,0 +1,602 @@
+{
+  "video_id": "_B4Pv9ttFgY",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 8,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Engineering the future of AI",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple title slide; direct read is enough",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 25.0,
+            "w": 13.0,
+            "h": 17.0
+          },
+          {
+            "role": "title",
+            "text": "Engineering the future of AI",
+            "x": 38.0,
+            "y": 82.0,
+            "w": 48.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_B4Pv9ttFgY/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665897.5660908,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "hrntad ids at: Iia i e ：\n3+t3+tar: ve+AV+tala teuteretin PR LRS9 34 CINEMAI\nAIE eT PITSTO\nwdetheLiryeut\nM (rlesl vs\nFlnelea. and get performance insights!\nWelcometo thc track!\n2O28 AlEngineer AI Engineer EUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense code/browser screenshot with small labels",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 25.0,
+            "w": 13.0,
+            "h": 17.0
+          },
+          {
+            "role": "caption",
+            "text": "and get performance insights!",
+            "x": 61.0,
+            "y": 52.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Welcome to the track!",
+            "x": 74.0,
+            "y": 72.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 57.0,
+            "y": 84.0,
+            "w": 25.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_B4Pv9ttFgY/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665897.5669918,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "hrntad ids at: Iia i e ：\n3+t3+tar: ve+AV+tala teuteretin PR LRS9 34 CINEMAI\nAIE eT PITSTO\nwdetheLiryeut\nM (rlesl vs\nFlnelea. and get performance insights!\nWelcometo thc track!\n2O28 AlEngineer AI Engineer EUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 344.96
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "hrntad ids at: Iia i e ：\n3+t3+tar: ve+AV+tala teuteretin PR LRS9 34 CINEMAI\nAIE eT PITSTO\nwdetheLiryeut\nM (rlesl vs\nFlnelea. and get performance insights!\nWelcometo thc track!\n2O28 AlEngineer AI Engineer EUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "腺胶\nMichaelHablich\nAIE\nTester, developer. project manager. Product Manager @ Chrome Developer Tooling 20+ years of experlence in tech linkedin.com/in/mkhaelhabich Guest lecturer @ Unlversity of Applied Sclence St. P&lten\nB028 AEnginace AlEngineer EUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "small bio lines and QR code are better OCR targets",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark purple gradient",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Michael Hablich",
+            "x": 31.0,
+            "y": 17.0,
+            "w": 29.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Product Manager @ Chrome Developer Tooling",
+            "x": 36.0,
+            "y": 53.0,
+            "w": 39.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Guest lecturer @ University of Applied Science St. P\\u00f6lten",
+            "x": 36.0,
+            "y": 61.0,
+            "w": 42.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "20+ years of experience in tech",
+            "x": 36.0,
+            "y": 69.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Tester, developer, project manager, ...",
+            "x": 36.0,
+            "y": 76.0,
+            "w": 35.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "linkedin.com/in/michael-hablich",
+            "x": 36.0,
+            "y": 84.0,
+            "w": 28.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_B4Pv9ttFgY/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665935.893923,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Michael Hablich",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "腺胶\nMichaelHablich\nAIE\nTester, developer. project manager. Product Manager @ Chrome Developer Tooling 20+ years of experlence in tech linkedin.com/in/mkhaelhabich Guest lecturer @ Unlversity of Applied Sclence St. P&lten\nB028 AEnginace AlEngineer EUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 363.48
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "腺胶\nMichaelHablich\nAIE\nTester, developer. project manager. Product Manager @ Chrome Developer Tooling 20+ years of experlence in tech linkedin.com/in/mkhaelhabich Guest lecturer @ Unlversity of Applied Sclence St. P&lten\nB028 AEnginace AlEngineer EUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "We built it wrong",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple title card",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "yellow-orange gradient",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "We built it wrong",
+            "x": 34.0,
+            "y": 13.0,
+            "w": 23.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_B4Pv9ttFgY/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665965.3080764,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "We built it wrong",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "We built it wrong\nAll the data × Metrics(lab/observcd): Metrics (fie Available ir URL:https://hablich.dev/ 8ounds:(min:878787192835.max:878792338739} -LCP:135 ms,event:（eventKey: r-3682,ts: -insight name:Cache -LCPbreakdown: -CLS:e. examplequesrion:wnat can I aoto reduce relevant example descript example description:A long cache lifetine can spee insight relevant trace bounds:(min:878787261166, -Rende -TTF8:2ms,bounds:(min:878787192835, summary Semantic ase was nost s:(min:8787 specific impr 78787192835， nize my LCP nodatafor\nexample question:what caching strategies\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code-heavy and multi-panel screenshot with small terminal/text content.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with large warm yellow panel",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "We built it wrong",
+            "x": 33.0,
+            "y": 10.0,
+            "w": 25.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 15.0,
+            "h": 26.0
+          },
+          {
+            "role": "body",
+            "text": "All the data",
+            "x": 39.0,
+            "y": 49.0,
+            "w": 14.0,
+            "h": 13.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Semantic summary",
+            "x": 71.0,
+            "y": 47.0,
+            "w": 16.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 37.0,
+            "y": 83.0,
+            "w": 40.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_B4Pv9ttFgY/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666031.0926468,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "We built it wrong",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/contrast",
+        "text": "We built it wrong\nAll the data × Metrics(lab/observcd): Metrics (fie Available ir URL:https://hablich.dev/ 8ounds:(min:878787192835.max:878792338739} -LCP:135 ms,event:（eventKey: r-3682,ts: -insight name:Cache -LCPbreakdown: -CLS:e. examplequesrion:wnat can I aoto reduce relevant example descript example description:A long cache lifetine can spee insight relevant trace bounds:(min:878787261166, -Rende -TTF8:2ms,bounds:(min:878787192835, summary Semantic ase was nost s:(min:8787 specific impr 78787192835， nize my LCP nodatafor\nexample question:what caching strategies\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 719.02
+      },
+      "ocr_source": "rapidocr-live/right-72/contrast",
+      "ocr_reconcile": {
+        "text": "We built it wrong\nAll the data × Metrics(lab/observcd): Metrics (fie Available ir URL:https://hablich.dev/ 8ounds:(min:878787192835.max:878792338739} -LCP:135 ms,event:（eventKey: r-3682,ts: -insight name:Cache -LCPbreakdown: -CLS:e. examplequesrion:wnat can I aoto reduce relevant example descript example description:A long cache lifetine can spee insight relevant trace bounds:(min:878787261166, -Rende -TTF8:2ms,bounds:(min:878787192835, summary Semantic ase was nost s:(min:8787 specific impr 78787192835， nize my LCP nodatafor\nexample question:what caching strategies\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agents are a different user class\nIntent\nIdentify errors on the page\nGUI for humans\nSchema for agents",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Readable slide with a few large labels; local OCR is not needed for triage.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "warm yellow/orange gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Agents are a different user class",
+            "x": 32.0,
+            "y": 10.0,
+            "w": 38.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Intent\nIdentify errors on the page",
+            "x": 55.0,
+            "y": 29.0,
+            "w": 17.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "GUI for humans",
+            "x": 33.0,
+            "y": 78.0,
+            "w": 19.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Schema for agents",
+            "x": 68.0,
+            "y": 78.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 56.0,
+            "y": 84.0,
+            "w": 21.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_B4Pv9ttFgY/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666095.6259766,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agents are a different user class\nIntent\nIdentify errors on the page\nGUI for humans\nSchema for agents",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Practical example\n★ + AIE Test O Averaoe upLift full-2026-03-30T08-23-38 Mr 30, 2:00 AM LCTON OATE geminl_ch TOrh? 37 WODEL gemird-pro-latost SEAYINO HODE SkMt (CLI)\n4794 84%\nASSIRTNONS SASSEO ACTIVADON 100%\n71 101+ 283 (26/26) uk)\nGUIOANCE CONSUUED 96%\n(25/26]Lb\nAEngner. Engineering thefuture ofAl",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product/dashboard screenshot with small metrics and labels that OCR can extract more reliably than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "warm yellow/orange gradient with dark dashboard panel",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Practical example",
+            "x": 32.0,
+            "y": 10.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "+37%",
+            "x": 56.0,
+            "y": 35.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "dashboard screenshot",
+            "x": 32.0,
+            "y": 27.0,
+            "w": 59.0,
+            "h": 57.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_B4Pv9ttFgY/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666095.626815,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Practical example",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Practical example\n★ + AIE Test O Averaoe upLift full-2026-03-30T08-23-38 Mr 30, 2:00 AM LCTON OATE geminl_ch TOrh? 37 WODEL gemird-pro-latost SEAYINO HODE SkMt (CLI)\n4794 84%\nASSIRTNONS SASSEO ACTIVADON 100%\n71 101+ 283 (26/26) uk)\nGUIOANCE CONSUUED 96%\n(25/26]Lb\nAEngner. Engineering thefuture ofAl",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 369.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Practical example\n★ + AIE Test O Averaoe upLift full-2026-03-30T08-23-38 Mr 30, 2:00 AM LCTON OATE geminl_ch TOrh? 37 WODEL gemird-pro-latost SEAYINO HODE SkMt (CLI)\n4794 84%\nASSIRTNONS SASSEO ACTIVADON 100%\n71 101+ 283 (26/26) uk)\nGUIOANCE CONSUUED 96%\n(25/26]Lb\nAEngner. Engineering thefuture ofAl",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Concern 4: Trust boundaries",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple slide with one screenshot; OCR is unlikely to add much in this triage pass.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "warm yellow/orange gradient",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Concern 4: Trust boundaries",
+            "x": 32.0,
+            "y": 10.0,
+            "w": 35.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "remote debugging dialog screenshot",
+            "x": 39.0,
+            "y": 27.0,
+            "w": 48.0,
+            "h": 48.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 56.0,
+            "y": 84.0,
+            "w": 21.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_B4Pv9ttFgY/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666138.7379653,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Concern 4: Trust boundaries",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_B4Pv9ttFgY/slide-010.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage, no readable slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "non-slide frame",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple stage with windows",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_B4Pv9ttFgY/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665897.5632823,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage with projected slide in background",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "non-slide frame",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple stage with projected slide",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_B4Pv9ttFgY/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665965.3068237,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

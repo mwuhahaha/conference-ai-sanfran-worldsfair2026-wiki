@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mimalocal-modeleval\nGoldendataset at a glance\n28 Examples Threads 14 2-17 Messages/thread Annotated 100%\neachviewedlist+modal median5 hand-written[ref:N]\nBy platform By view context\n22 Bluesky. O list. 14 14 modal.\nSourced from real Mima threads,anonymized. Each example pairs a thread input with a gold-standard summary and citation p\n5models evaluatedagainst this set with 3repetitions each (420 runs total).",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dashboard-style slide with multiple metric cards and small labels; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#0e1117",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "Mima local-model eval",
+        "x": 12.0,
+        "y": 12.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Golden dataset at a glance",
+        "x": 12.0,
+        "y": 17.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Examples 28",
+        "x": 12.0,
+        "y": 31.0,
+        "w": 17.0,
+        "h": 17.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Threads 14",
+        "x": 32.0,
+        "y": 31.0,
+        "w": 17.0,
+        "h": 17.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Messages / thread 2-17",
+        "x": 53.0,
+        "y": 31.0,
+        "w": 17.0,
+        "h": 17.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Annotated 100%",
+        "x": 74.0,
+        "y": 31.0,
+        "w": 17.0,
+        "h": 17.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "By platform",
+        "x": 12.0,
+        "y": 52.0,
+        "w": 34.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "By view context",
+        "x": 51.0,
+        "y": 52.0,
+        "w": 35.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+        "x": 0,
+        "y": 0,
+        "w": 7.0,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-017.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668008.3753407,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Golden dataset at a glance",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mimalocal-modeleval\nGoldendataset at a glance\n28 Examples Threads 14 2-17 Messages/thread Annotated 100%\neachviewedlist+modal median5 hand-written[ref:N]\nBy platform By view context\n22 Bluesky. O list. 14 14 modal.\nSourced from real Mima threads,anonymized. Each example pairs a thread input with a gold-standard summary and citation p\n5models evaluatedagainst this set with 3repetitions each (420 runs total).",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 609.48
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Rachel-Lee Nabors (they/them) nearestnabors.com Mimalocal-modeleval\nGoldendataset at a glance\n28 Examples Threads 14 2-17 Messages/thread Annotated 100%\neachviewedlist+modal median5 hand-written[ref:N]\nBy platform By view context\n22 Bluesky. O list. 14 14 modal.\nSourced from real Mima threads,anonymized. Each example pairs a thread input with a gold-standard summary and citation p\n5models evaluatedagainst this set with 3repetitions each (420 runs total).",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

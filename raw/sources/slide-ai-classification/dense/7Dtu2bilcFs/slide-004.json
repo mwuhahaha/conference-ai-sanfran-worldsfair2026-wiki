@@ -1,0 +1,40 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "We've Seen This Movie Before",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Bullet list and side illustration are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with black footer band",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "We've Seen This Movie Before",
+        "x": 26.0,
+        "y": 7.0,
+        "w": 30.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/7Dtu2bilcFs/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657947.4737954,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "We've Seen This Movie Before",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

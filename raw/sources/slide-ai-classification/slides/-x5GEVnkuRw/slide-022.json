@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "We can also run it using an OpenAI-compatible API like Ollama.\n\nfrom docling.datamodel.pipeline_options import PictureDescriptionApiOptions\n\nif RUN_LOCAL_OLLAMA:\n    # Configure enrichment pipeline\n    enrichment_options = PdfPipelineOptions(\n        do_picture_description=True,\n        enable_remote_services=True,\n        picture_description_options=PictureDescriptionApiOptions(\n            url=\"http://localhost:11434/v1/chat/completions\",\n            params={\n                \"model\": \"granite3.2-vision:2b\",\n                \"max_completion_tokens\": 200,\n            },\n            prompt=\"Give a detailed description of what is depicted in the image\",\n            timeout=60,\n        ),\n        generate_picture_images=True,\n        images_scale=1.0,\n    )\n\n    converter_enriched = DocumentConverter(\n        format_options={\n            InputFormat.PDF: PdfFormatOption(pipeline_options=enrichment_options)\n        }\n    )\n\n    enr_result = converter_enriched.convert(docling_paper)\n    enr_doc = enr_result.document",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code screenshot with small parameter text and API configuration details.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark charcoal",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "We can also run it using an OpenAI-compatible API like Ollama.",
+        "x": 22.0,
+        "y": 10.0,
+        "w": 62.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "from docling.datamodel.pipeline_options import PictureDescriptionApiOptions",
+        "x": 23.0,
+        "y": 18.0,
+        "w": 63.0,
+        "h": 64.0
+      },
+      {
+        "role": "code",
+        "text": "url=\"http://localhost:11434/v1/chat/completions\"",
+        "x": 36.0,
+        "y": 42.0,
+        "w": 38.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "\"model\": \"granite3.2-vision:2b\"",
+        "x": 37.0,
+        "y": 49.0,
+        "w": 30.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-022.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-022.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657164.7572134,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "JOHSAUOM-ONITSOG V notobookst 3nced Features Enrichment M Your tum: Prompt the Vsion nodekyfrom docing datamodel pipeline options Import PictureDescript Add Code Add Markdown ERun All Restart: Clear All Outputs Token_CostComparison.lpynb M Jupyter Variables Outine O Chunkess_ RAG.hpynb M venv (3.13.7) (P\noutput. We can aiso runit using an OpenAl-compatibleApl ike Ollama.\nChunking.ipynb Chunkless_RAG.Ipymb? gltignore Yroa docling.datanodelpipeline_optlons: laport:PictureDescriptionAp10ptfons:\nRQoubnbro Ts:pre-commit-confg.yaml Ig.spoicheckyam xspeltcheck-en.custom.txt. Escripts: ero: I.markdownlnt. tpoutine.yml \"RAG.Ipynb Serying.lpynb: Ollama RAG.lpynb: Conversion.pynb: MCPAgents.Ipynb Token_Cost_Compari..M Converslon_Colab.lpynb M M Xconigure eor cheht pip iine cnrichment -options::PdfPipelineoptions( do plcture description-Truets Simages_scalenl.0y enableireooteservices:iTrueit generate pictureinagesTrue picture_description-options-PlctureoescriptionAploptionsl urt-\"http://localhost:11434/v1/chad/conptetions\" (iaeout-60) parans=(f- proapt. Coodelagran1te3.2-v1s1on:26\" GYe. conpletiontokensrtk200,\nRLICENSE constraints.txt Timkdocs.ym. converter_enriched:DocomentConverter( format_optionst InputFornat,PDF:PdfForratoption(pipeline_optionsscnrichaent_optlons)",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1135.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "We can also run it using an OpenAI-compatible API like Ollama.\n\nfrom docling.datamodel.pipeline_options import PictureDescriptionApiOptions\n\nif RUN_LOCAL_OLLAMA:\n    # Configure enrichment pipeline\n    enrichment_options = PdfPipelineOptions(\n        do_picture_description=True,\n        enable_remote_services=True,\n        picture_description_options=PictureDescriptionApiOptions(\n            url=\"http://localhost:11434/v1/chat/completions\",\n            params={\n                \"model\": \"granite3.2-vision:2b\",\n                \"max_completion_tokens\": 200,\n            },\n            prompt=\"Give a detailed description of what is depicted in the image\",\n            timeout=60,\n        ),\n        generate_picture_images=True,\n        images_scale=1.0,\n    )\n\n    converter_enriched = DocumentConverter(\n        format_options={\n            InputFormat.PDF: PdfFormatOption(pipeline_options=enrichment_options)\n        }\n    )\n\n    enr_result = converter_enriched.convert(docling_paper)\n    enr_doc = enr_result.document",
+    "text_status": "meaningful",
+    "corrections": "Accepted the slide text and corrected obvious OCR errors in the code and sentence."
+  }
+}

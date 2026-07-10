@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Parts of MCP\nHosts\nClients",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Parts of MCP",
+        "x": 43.0,
+        "y": 5.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Hosts",
+        "x": 29.0,
+        "y": 20.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Clients",
+        "x": 52.0,
+        "y": 20.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 30.0,
+        "w": 14.0,
+        "h": 19.0
+      },
+      {
+        "role": "logo",
+        "text": "Engineering the future of AI",
+        "x": 42.0,
+        "y": 88.0,
+        "w": 38.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/_xIwFcnHqp4/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665983.1683385,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Parts of MCP\nHosts\nClients",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RELAI's learning loop\nSignals (logs • feedback • prompts)\nReplayable learning environments\nRoot-cause → route to a layer\nRegression-aware optimization\nReviewable, versioned update",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large, readable diagram slide; manual extraction is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "RELAI's learning loop",
+        "x": 4.0,
+        "y": 3.0,
+        "w": 38.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Signals (logs • feedback • prompts)",
+        "x": 22.0,
+        "y": 23.0,
+        "w": 50.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Replayable learning environments",
+        "x": 22.0,
+        "y": 33.0,
+        "w": 50.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "REPLAYABLE",
+        "x": 74.0,
+        "y": 33.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Root-cause → route to a layer",
+        "x": 22.0,
+        "y": 43.0,
+        "w": 50.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "HOLISTIC",
+        "x": 74.0,
+        "y": 43.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Regression-aware optimization",
+        "x": 22.0,
+        "y": 53.0,
+        "w": 50.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "LIFELONG",
+        "x": 74.0,
+        "y": 53.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Reviewable, versioned update",
+        "x": 22.0,
+        "y": 64.0,
+        "w": 50.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657125.1725767,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "RELAI's learning loop\nSignals (logs • feedback • prompts)\nReplayable learning environments\nRoot-cause → route to a layer\nRegression-aware optimization\nReviewable, versioned update",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,160 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with many small labels, tabs, and list items; OCR is better than manual transcription in this triage pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark black radial-gradient",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 18.0,
+        "w": 11.0,
+        "h": 16.0
+      },
+      {
+        "role": "title",
+        "text": "Search available models and inference",
+        "x": 33.0,
+        "y": 0,
+        "w": 50.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Bedrock Agents optimized",
+        "x": 33.0,
+        "y": 5.0,
+        "w": 28.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "1. Categories",
+        "x": 33.0,
+        "y": 11.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "2. Models",
+        "x": 51.0,
+        "y": 11.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "3. Inference",
+        "x": 74.0,
+        "y": 11.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Model providers",
+        "x": 34.0,
+        "y": 17.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Amazon",
+        "x": 35.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Anthropic",
+        "x": 35.0,
+        "y": 31.0,
+        "w": 11.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Models with access (4)",
+        "x": 53.0,
+        "y": 17.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Nova Premier 1.0",
+        "x": 54.0,
+        "y": 22.0,
+        "w": 15.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Nova Pro 1.0",
+        "x": 54.0,
+        "y": 30.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Nova Lite 1.0",
+        "x": 54.0,
+        "y": 38.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Nova Micro 1.0",
+        "x": 54.0,
+        "y": 46.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Select model to show inference options.",
+        "x": 74.0,
+        "y": 22.0,
+        "w": 17.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Can't find the model you are looking for? See all models here.",
+        "x": 34.0,
+        "y": 83.0,
+        "w": 42.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/HT4l0DeP69I/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659624.3654232,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

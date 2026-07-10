@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Workflows & Agents",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f3f0e7",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Workflows & Agents",
+        "x": 5.0,
+        "y": 4.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "We build both agents and workflows on the Claude agent SDK.",
+        "x": 5.0,
+        "y": 17.0,
+        "w": 88.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "Agents are like Claude Code - You talk to them in natural language and they take action.",
+        "x": 5.0,
+        "y": 40.0,
+        "w": 88.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "Workflows are like our Github action - You define inputs and outputs, e.g. take in a PR and give a code review.",
+        "x": 5.0,
+        "y": 64.0,
+        "w": 88.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664547.3862033,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Workflows & Agents",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,195 @@
+{
+  "video_id": "dvft0Gp9sEE",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Manual Analysis Keyword Analysl\nQuality High\" Low.\nScalability Low: High\nContext Rich: Missing\nFeasibility Impossible Limited",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense table text with multiple rows and columns; OCR is better suited than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(#dbeaf7,#c9ddf0)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Manual Analysis",
+            "x": 34.0,
+            "y": 31.0,
+            "w": 25.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Keyword Analysis",
+            "x": 59.0,
+            "y": 31.0,
+            "w": 25.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Quality\nScalability\nContext\nFeasibility",
+            "x": 12.0,
+            "y": 37.0,
+            "w": 23.0,
+            "h": 31.0
+          },
+          {
+            "role": "body",
+            "text": "High\nLow\nRich\nImpossible",
+            "x": 35.0,
+            "y": 37.0,
+            "w": 23.0,
+            "h": 31.0
+          },
+          {
+            "role": "body",
+            "text": "Low\nHigh\nMissing\nLimited",
+            "x": 59.0,
+            "y": 37.0,
+            "w": 23.0,
+            "h": 31.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/dvft0Gp9sEE/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667196.4070983,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/opencv-adaptive",
+        "text": "Manual Analysis Keyword Analysl\nQuality High\" Low.\nScalability Low: High\nContext Rich: Missing\nFeasibility Impossible Limited",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 237.72
+      },
+      "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Manual Analysis Keyword Analysl\nQuality High\" Low.\nScalability Low: High\nContext Rich: Missing\nFeasibility Impossible Limited",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/dvft0Gp9sEE/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Your Data Goldmine",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large title and logo collage are visually simple; no dense text block warrants OCR.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(#dbeaf7,#c9ddf0)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Your Data Goldmine",
+            "x": 7.0,
+            "y": 7.0,
+            "w": 46.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "GONG",
+            "x": 15.0,
+            "y": 22.0,
+            "w": 24.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "Trustpilot",
+            "x": 60.0,
+            "y": 22.0,
+            "w": 28.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "salesforce",
+            "x": 18.0,
+            "y": 40.0,
+            "w": 20.0,
+            "h": 15.0
+          },
+          {
+            "role": "logo",
+            "text": "X",
+            "x": 69.0,
+            "y": 41.0,
+            "w": 10.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "USERVOICE",
+            "x": 10.0,
+            "y": 67.0,
+            "w": 34.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "INTERCOM",
+            "x": 60.0,
+            "y": 67.0,
+            "w": 30.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/dvft0Gp9sEE/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667214.348617,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Your Data Goldmine",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/dvft0Gp9sEE/slide-002.html"
+    }
+  ],
+  "rejected": []
+}

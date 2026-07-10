@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The reason that this is tricky is quite subtle. It’s the fact that\nanytime you use an LLM to assign a reward, those LLMs are giant\nthings with billions of parameters, and they’re gameable. If you’re\nreinforcement learning with respect to them, you will find\nadversarial examples for your LLM judges, almost guaranteed.\n\nSo you can’t do this for too long. You do maybe 10 steps or 20\nsteps, and maybe it will work, but you can’t do 100 or 1,000. I\nunderstand it’s not obvious, but basically the model will find little\ncracks. It will find all these spurious things in the nooks and\ncrannies of the giant model and find a way to cheat it\n\n- Andrej Karpathy (via the Dwarkesh Podcast)",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "#f1efe9",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "The reason that this is tricky is quite subtle. It’s the fact that anytime you use an LLM to assign a reward, those LLMs are giant things with billions of parameters, and they’re gameable. If you’re reinforcement learning with respect to them, you will find adversarial examples for your LLM judges, almost guaranteed.\n\nSo you can’t do this for too long. You do maybe 10 steps or 20 steps, and maybe it will work, but you can’t do 100 or 1,000. I understand it’s not obvious, but basically the model will find little cracks. It will find all these spurious things in the nooks and crannies of the giant model and find a way to cheat it",
+        "x": 4.0,
+        "y": 10.0,
+        "w": 66.0,
+        "h": 68.0
+      },
+      {
+        "role": "caption",
+        "text": "- Andrej Karpathy (via the Dwarkesh Podcast)",
+        "x": 76.0,
+        "y": 32.0,
+        "w": 20.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655268.336462,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The reason that this is tricky is quite subtle. It’s the fact that\nanytime you use an LLM to assign a reward, those LLMs are giant\nthings with billions of parameters, and they’re gameable. If you’re\nreinforcement learning with respect to them, you will find\nadversarial examples for your LLM judges, almost guaranteed.\n\nSo you can’t do this for too long. You do maybe 10 steps or 20\nsteps, and maybe it will work, but you can’t do 100 or 1,000. I\nunderstand it’s not obvious, but basically the model will find little\ncracks. It will find all these spurious things in the nooks and\ncrannies of the giant model and find a way to cheat it\n\n- Andrej Karpathy (via the Dwarkesh Podcast)",
+  "advanced_ocr": {}
+}

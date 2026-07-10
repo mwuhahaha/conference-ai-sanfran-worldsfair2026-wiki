@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Manufact ADOPTION\nApps are landing in the stores, fast\nChatGPT apps & Claude connectors over time CUHULATIVE COUNT\n800\n660\n200 18 2000000I\nW4. W& R. wo w3 WH w5 w6 W7?\n[ ChatGpT opp Cord+ corrtcton\nSOurCE: AppdiSCoveraeIlity.CoH\nMANUPACT.COn",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart slide with small axis labels and source text; OCR is useful for accurate capture.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Apps are landing in the stores, fast",
+        "x": 4.0,
+        "y": 8.0,
+        "w": 56.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ChatGPT apps & Claude connectors over time",
+        "x": 7.0,
+        "y": 21.0,
+        "w": 34.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "CUMULATIVE COUNT",
+        "x": 83.0,
+        "y": 20.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "SOURCE: APPDISCOVERABILITY.COM",
+        "x": 7.0,
+        "y": 88.0,
+        "w": 28.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/sAOBXCDiDOs/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671585.6655269,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Apps are landing in the stores, fast",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Manufact ADOPTION\nApps are landing in the stores, fast\nChatGPT apps & Claude connectors over time CUHULATIVE COUNT\n800\n660\n200 18 2000000I\nW4. W& R. wo w3 WH w5 w6 W7?\n[ ChatGpT opp Cord+ corrtcton\nSOurCE: AppdiSCoveraeIlity.CoH\nMANUPACT.COn",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 324.16
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Manufact ADOPTION\nApps are landing in the stores, fast\nChatGPT apps & Claude connectors over time CUHULATIVE COUNT\n800\n660\n200 18 2000000I\nW4. W& R. wo w3 WH w5 w6 W7?\n[ ChatGpT opp Cord+ corrtcton\nSOurCE: AppdiSCoveraeIlity.CoH\nMANUPACT.COn",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

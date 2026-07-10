@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Star History\nGbrowsariuietainzp-browsarbire\nAIE 1200 1000 brouterbeie/rp-telve?-bcuterbate Provdescoua browter artomkon capsovrhet uurg Pages, lake screemshcs, snd trecute JiveScript in. Erowrterbaso, ersbing Llus to kteret whh wob - Hamet 6648K\nGithub Staro.60 Cakrosotplywigr:ncp Deyw.ghauomem.\n68 Auomxo web interactons etlorlesshy wth this server. Ptform satons on wsb piges usng structered. Enabe your LLMs to nvgate, titrsct data, Ihd\n400 *3871,\n200 Surehan\n2025 February Date Merch r otar-hotorycon Provdos coud browser Mtomcon copsbEtlet using Gsodrd qam ym iseou ot sy!l bunqeue 'putyoters taele scrcerihos, ind daecute JiraScrigt In a cloud. tamoto 6291\nvia Smithery\nJuno2925\nWorissFa Microsoft smol",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense chart plus small side-panel text and axes are better suited to OCR than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige with black sidebar and embedded dark panel",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Star History",
+        "x": 45.0,
+        "y": 4.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "browserbase/mcp-server-browserbase",
+        "x": 24.0,
+        "y": 14.0,
+        "w": 32.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Browserbase",
+        "x": 82.0,
+        "y": 11.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Playwright Automation",
+        "x": 82.0,
+        "y": 39.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stagehand",
+        "x": 82.0,
+        "y": 61.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "via Smithery",
+        "x": 82.0,
+        "y": 82.0,
+        "w": 12.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/YRGjll7uu5w/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665451.6302803,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Star History",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Star History\nGbrowsariuietainzp-browsarbire\nAIE 1200 1000 brouterbeie/rp-telve?-bcuterbate Provdescoua browter artomkon capsovrhet uurg Pages, lake screemshcs, snd trecute JiveScript in. Erowrterbaso, ersbing Llus to kteret whh wob - Hamet 6648K\nGithub Staro.60 Cakrosotplywigr:ncp Deyw.ghauomem.\n68 Auomxo web interactons etlorlesshy wth this server. Ptform satons on wsb piges usng structered. Enabe your LLMs to nvgate, titrsct data, Ihd\n400 *3871,\n200 Surehan\n2025 February Date Merch r otar-hotorycon Provdos coud browser Mtomcon copsbEtlet using Gsodrd qam ym iseou ot sy!l bunqeue 'putyoters taele scrcerihos, ind daecute JiraScrigt In a cloud. tamoto 6291\nvia Smithery\nJuno2925\nWorissFa Microsoft smol",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1006.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Star History\nGbrowsariuietainzp-browsarbire\nAIE 1200 1000 brouterbeie/rp-telve?-bcuterbate Provdescoua browter artomkon capsovrhet uurg Pages, lake screemshcs, snd trecute JiveScript in. Erowrterbaso, ersbing Llus to kteret whh wob - Hamet 6648K\nGithub Staro.60 Cakrosotplywigr:ncp Deyw.ghauomem.\n68 Auomxo web interactons etlorlesshy wth this server. Ptform satons on wsb piges usng structered. Enabe your LLMs to nvgate, titrsct data, Ihd\n400 *3871,\n200 Surehan\n2025 February Date Merch r otar-hotorycon Provdos coud browser Mtomcon copsbEtlet using Gsodrd qam ym iseou ot sy!l bunqeue 'putyoters taele scrcerihos, ind daecute JiraScrigt In a cloud. tamoto 6291\nvia Smithery\nJuno2925\nWorissFa Microsoft smol",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

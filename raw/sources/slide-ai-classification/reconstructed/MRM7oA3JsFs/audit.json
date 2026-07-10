@@ -1,0 +1,1477 @@
+{
+  "video_id": "MRM7oA3JsFs",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 13,
+  "rejected_count": 3,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Own your vertical: A playbook for building a domain-native LLM application\nDr Christopher Lovejoy, MD\nHead of Clinical AI\n2025-06-04\nAnterior",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple readable slide, not dense OCR target",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#15160f",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 23.0,
+            "w": 8.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "Own your vertical: A playbook for building a domain-native LLM application",
+            "x": 18.0,
+            "y": 10.0,
+            "w": 64.0,
+            "h": 22.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Dr Christopher Lovejoy, MD",
+            "x": 18.0,
+            "y": 28.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Head of Clinical AI",
+            "x": 18.0,
+            "y": 34.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "2025-06-04",
+            "x": 43.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Anterior",
+            "x": 86.0,
+            "y": 8.0,
+            "w": 4.0,
+            "h": 28.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 84.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "smol.ai",
+            "x": 74.0,
+            "y": 84.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-002.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661022.392507,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Own your vertical: A playbook for building a domain-native LLM application\nDr Christopher Lovejoy, MD\nHead of Clinical AI\n2025-06-04\nAnterior",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Anterior\nWere a New York-based, clinician-led\nAIE reasoning tools andsolutions to accelerate andautomatehealthcare company thatprovides clinical\nadministration\nBACKEDBY NEA SEQUOIA\nandFOUNDERSOF\nDoosMad GoogleAi\nGoogle ALUMRECE mMeta\nMicrosoft amazon MeKnecy &Company\nIMPERIAL NHS\naws",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "small body text and logos are better handled by OCR",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#15160f",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 23.0,
+            "w": 8.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "Anterior",
+            "x": 18.0,
+            "y": 10.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "We’re a New York-based, clinician-led company that provides clinical reasoning tools and solutions to accelerate and automate healthcare administration",
+            "x": 18.0,
+            "y": 18.0,
+            "w": 28.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "BACKED BY",
+            "x": 18.0,
+            "y": 42.0,
+            "w": 7.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "NEA",
+            "x": 18.0,
+            "y": 48.0,
+            "w": 7.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "SEQUOIA",
+            "x": 28.0,
+            "y": 48.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "FOUNDERS OF",
+            "x": 18.0,
+            "y": 56.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "DeepMind",
+            "x": 18.0,
+            "y": 61.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Google AI",
+            "x": 31.0,
+            "y": 61.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "ALUMNI OF",
+            "x": 18.0,
+            "y": 72.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "Google",
+            "x": 18.0,
+            "y": 77.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Apple",
+            "x": 31.0,
+            "y": 77.0,
+            "w": 5.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Meta",
+            "x": 40.0,
+            "y": 77.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 18.0,
+            "y": 85.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "amazon",
+            "x": 30.0,
+            "y": 85.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "McKinsey & Company",
+            "x": 41.0,
+            "y": 85.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "IMPERIAL",
+            "x": 29.0,
+            "y": 92.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "NHS",
+            "x": 42.0,
+            "y": 92.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "image",
+            "text": "team photo",
+            "x": 48.0,
+            "y": 11.0,
+            "w": 43.0,
+            "h": 70.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-003.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661022.3933334,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Anterior",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/contrast",
+        "text": "Anterior\nWere a New York-based, clinician-led\nAIE reasoning tools andsolutions to accelerate andautomatehealthcare company thatprovides clinical\nadministration\nBACKEDBY NEA SEQUOIA\nandFOUNDERSOF\nDoosMad GoogleAi\nGoogle ALUMRECE mMeta\nMicrosoft amazon MeKnecy &Company\nIMPERIAL NHS\naws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 437.76
+      },
+      "ocr_source": "rapidocr-live/left-72/contrast",
+      "ocr_reconcile": {
+        "text": "Anterior\nWere a New York-based, clinician-led\nAIE reasoning tools andsolutions to accelerate andautomatehealthcare company thatprovides clinical\nadministration\nBACKEDBY NEA SEQUOIA\nandFOUNDERSOF\nDoosMad GoogleAi\nGoogle ALUMRECE mMeta\nMicrosoft amazon MeKnecy &Company\nIMPERIAL NHS\naws",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "OUR BET FOR VERTICAL AI APPLICATIONS: system for incorporating domain insights > the sophistication of your models and pipelines",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "large readable text; OCR not necessary",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#15160f",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "OUR BET FOR VERTICAL AI APPLICATIONS:",
+            "x": 18.0,
+            "y": 9.0,
+            "w": 66.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "system for incorporating domain insights",
+            "x": 22.0,
+            "y": 34.0,
+            "w": 27.0,
+            "h": 16.0
+          },
+          {
+            "role": "diagram_label",
+            "text": ">",
+            "x": 50.0,
+            "y": 41.0,
+            "w": 4.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "the sophistication of your models and pipelines",
+            "x": 62.0,
+            "y": 30.0,
+            "w": 26.0,
+            "h": 20.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-004.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661090.3710897,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "OUR BET FOR VERTICAL AI APPLICATIONS: system for incorporating domain insights > the sophistication of your models and pipelines",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why is it hard to successfully apply LLMs to specialized industries?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple readable question slide",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#15160f",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why is it hard to successfully apply LLMs to specialized industries?",
+            "x": 24.0,
+            "y": 38.0,
+            "w": 52.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-005.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661090.371724,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why is it hard to successfully apply LLMs to specialized industries?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "An example clinical case processed by Florence\nAIE Doctor recommends a knee arthroscopy Presents with right knee pain 78-year-old female\nQ: Is there documentation of unsu\nconservative therapy for at least 6\nMicrosoft",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "small case details and question text are better handled by OCR",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#15160f",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "An example clinical case processed by Florence",
+            "x": 18.0,
+            "y": 9.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "78-year-old female",
+            "x": 21.0,
+            "y": 16.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Presents with right knee pain",
+            "x": 21.0,
+            "y": 22.0,
+            "w": 23.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Doctor recommends a knee arthroscopy",
+            "x": 21.0,
+            "y": 28.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Q: Is there documentation of unsuccessful conservative therapy for at least 6 weeks?",
+            "x": 23.0,
+            "y": 42.0,
+            "w": 49.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-006.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661090.372257,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "An example clinical case processed by Florence",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/contrast",
+        "text": "An example clinical case processed by Florence\nAIE Doctor recommends a knee arthroscopy Presents with right knee pain 78-year-old female\nQ: Is there documentation of unsu\nconservative therapy for at least 6\nMicrosoft",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 345.36
+      },
+      "ocr_source": "rapidocr-live/left-72/contrast",
+      "ocr_reconcile": {
+        "text": "An example clinical case processed by Florence\nAIE Doctor recommends a knee arthroscopy Presents with right knee pain 78-year-old female\nQ: Is there documentation of unsu\nconservative therapy for at least 6\nMicrosoft",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "KLAS CASE STUDY\nWe achieved a baseline performance of 95% for approving care...\n95.73%",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(180deg, #1b180f 0%, #090807 100%)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 25.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "KLAS CASE STUDY",
+            "x": 18.0,
+            "y": 14.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "We achieved a baseline performance of 95% for approving care...",
+            "x": 18.0,
+            "y": 20.0,
+            "w": 62.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "95.73%",
+            "x": 18.0,
+            "y": 43.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 87.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 73.0,
+            "y": 86.0,
+            "w": 12.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-007.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661307.8267193,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "KLAS CASE STUDY\nWe achieved a baseline performance of 95% for approving care...\n95.73%",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "KLAS CASE STUDY\nWe achieved a baseline performance of 95% for approving care...\nthen iterated with a specific customer to >99% within 8 weeks\n95.73%\n99.24%",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(180deg, #1b180f 0%, #090807 100%)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 25.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "KLAS CASE STUDY",
+            "x": 18.0,
+            "y": 14.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "We achieved a baseline performance of 95% for approving care...",
+            "x": 18.0,
+            "y": 20.0,
+            "w": 64.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "then iterated with a specific customer to >99% within 8 weeks",
+            "x": 18.0,
+            "y": 26.0,
+            "w": 68.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "95.73%",
+            "x": 18.0,
+            "y": 43.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "99.24%",
+            "x": 58.0,
+            "y": 43.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 87.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 73.0,
+            "y": 86.0,
+            "w": 12.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-008.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661307.8290431,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "KLAS CASE STUDY\nWe achieved a baseline performance of 95% for approving care...\nthen iterated with a specific customer to >99% within 8 weeks\n95.73%\n99.24%",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE maintain a failure mode ontology (2) Empower domain experts to define citraetion Photo ortastion Tae\n1ozruoievy location\nHanduriting ertraction Medealrecord extract'on\nextraction checkbox Medical Necessity Review Failure Modes reasontg\nchrorolog'\nmtereretotion Rles\nRuhe courct\nseeetion\nMicrosoft",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram labels and small node text are better suited for OCR than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(180deg, #18160f 0%, #090807 100%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "(2) Empower domain experts to define and maintain a failure mode ontology",
+            "x": 8.0,
+            "y": 8.0,
+            "w": 78.0,
+            "h": 14.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Medical record extraction",
+            "x": 39.0,
+            "y": 42.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Clinical reasoning",
+            "x": 67.0,
+            "y": 49.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Rules interpretation",
+            "x": 42.0,
+            "y": 74.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Medical Necessity Review Failure Modes",
+            "x": 43.0,
+            "y": 55.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "photo extraction",
+            "x": 34.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "table extraction",
+            "x": 47.0,
+            "y": 22.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "handwriting extraction",
+            "x": 22.0,
+            "y": 38.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "checkbox extraction",
+            "x": 30.0,
+            "y": 58.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "anatomical location",
+            "x": 58.0,
+            "y": 31.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "underinference",
+            "x": 71.0,
+            "y": 34.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "overinference",
+            "x": 79.0,
+            "y": 49.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "chronological reasoning",
+            "x": 66.0,
+            "y": 69.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "logic representation",
+            "x": 35.0,
+            "y": 83.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "rule source selection",
+            "x": 52.0,
+            "y": 85.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-009.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661307.8391247,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/contrast",
+        "text": "AIE maintain a failure mode ontology (2) Empower domain experts to define citraetion Photo ortastion Tae\n1ozruoievy location\nHanduriting ertraction Medealrecord extract'on\nextraction checkbox Medical Necessity Review Failure Modes reasontg\nchrorolog'\nmtereretotion Rles\nRuhe courct\nseeetion\nMicrosoft",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 465.96
+      },
+      "ocr_source": "rapidocr-live/left-72/contrast",
+      "ocr_reconcile": {
+        "text": "AIE maintain a failure mode ontology (2) Empower domain experts to define citraetion Photo ortastion Tae\n1ozruoievy location\nHanduriting ertraction Medealrecord extract'on\nextraction checkbox Medical Necessity Review Failure Modes reasontg\nchrorolog'\nmtereretotion Rles\nRuhe courct\nseeetion\nMicrosoft",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "(3) Measure metrics and failure modes together\nAIE on production data to unlocktargeted insights\nToooTe\nFax\nMicrosoft smol 3i",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "The slide contains a product screenshot with dense small UI text that OCR can extract more reliably than direct vision transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(180deg, #18160f 0%, #070707 100%)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "(3) Measure metrics and failure modes together on production data to unlock targeted insights",
+            "x": 7.0,
+            "y": 8.0,
+            "w": 84.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "MRI Cervical spine",
+            "x": 29.0,
+            "y": 29.0,
+            "w": 13.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Fax",
+            "x": 61.0,
+            "y": 55.0,
+            "w": 10.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 47.0,
+            "y": 87.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 73.0,
+            "y": 86.0,
+            "w": 12.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-010.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661372.119807,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "(3) Measure metrics and failure modes together\nAIE on production data to unlocktargeted insights\nToooTe\nFax\nMicrosoft smol 3i",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 230.36
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "(3) Measure metrics and failure modes together\nAIE on production data to unlocktargeted insights\nToooTe\nFax\nMicrosoft smol 3i",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE\nMEASURE Review AI outouts AralyTe perfornarce to prioritise work Specify failure mode' to fix and perforrance threshold Make changes\nopplcation Producton Perfornance insights ChnicaPx engineer(s) Chnico! enginear(s) AI datoset'eval \"Failure mode\nabout naking Iive Make decisions Subnit inproverents See inpact of changes\naws\nS",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Flowchart-style slide with many small labels and arrows is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(180deg, #18160f 0%, #080807 100%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "MEASURE",
+            "x": 9.0,
+            "y": 34.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Production application",
+            "x": 18.0,
+            "y": 49.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Performance insights",
+            "x": 36.0,
+            "y": 49.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Clinical PM",
+            "x": 52.0,
+            "y": 44.0,
+            "w": 8.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Clinical engineer(s)",
+            "x": 64.0,
+            "y": 44.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AI engineer(s)",
+            "x": 74.0,
+            "y": 44.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Failure mode dataset* eval",
+            "x": 86.0,
+            "y": 49.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Review AI outputs",
+            "x": 25.0,
+            "y": 28.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Analyze performance to prioritise work",
+            "x": 42.0,
+            "y": 28.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Specify 'failure mode' to fix and performance threshold",
+            "x": 58.0,
+            "y": 25.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Make changes",
+            "x": 80.0,
+            "y": 24.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Make decisions about making live",
+            "x": 28.0,
+            "y": 78.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Submit improvements",
+            "x": 58.0,
+            "y": 77.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "See impact of changes",
+            "x": 78.0,
+            "y": 77.0,
+            "w": 11.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-011.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661420.2291749,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "AIE\nMEASURE Review AI outouts AralyTe perfornarce to prioritise work Specify failure mode' to fix and perforrance threshold Make changes\nopplcation Producton Perfornance insights ChnicaPx engineer(s) Chnico! enginear(s) AI datoset'eval \"Failure mode\nabout naking Iive Make decisions Subnit inproverents See inpact of changes\naws\nS",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 506.36
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "AIE\nMEASURE Review AI outouts AralyTe perfornarce to prioritise work Specify failure mode' to fix and perforrance threshold Make changes\nopplcation Producton Perfornance insights ChnicaPx engineer(s) Chnico! enginear(s) AI datoset'eval \"Failure mode\nabout naking Iive Make decisions Subnit inproverents See inpact of changes\naws\nS",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Failure mode datasets enable targeted product iteration",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(180deg, #18160f 0%, #080807 100%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Failure mode datasets enable targeted product iteration",
+            "x": 14.0,
+            "y": 9.0,
+            "w": 58.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 18.0,
+            "y": 31.0,
+            "w": 24.0,
+            "h": 30.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 42.0,
+            "y": 31.0,
+            "w": 24.0,
+            "h": 30.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "",
+            "x": 67.0,
+            "y": 31.0,
+            "w": 24.0,
+            "h": 30.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-012.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661466.1278462,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Failure mode datasets enable targeted product iteration",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Empower your domain experts to make\nAIE improvements directly with tooling and evals Application Pipelines\nP45366 deternie vhether to make live Ewlate to\nchanges\ndomain cxperts Tooling for of releunt donin Reatns retreunl baocdedge Domain evals\nLonain deternine Vhether Mgoo Evohiate to\nto pipebnes\nKnowdedae Base uIOwOq\nMicrosoft smol ai",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram slide with multiple small labels and arrows; OCR is likely better than manual transcription here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark olive on black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Empower your domain experts to make improvements directly with tooling and evals",
+            "x": 18.0,
+            "y": 11.0,
+            "w": 66.0,
+            "h": 18.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Application Pipelines",
+            "x": 40.0,
+            "y": 33.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tooling for domain experts",
+            "x": 19.0,
+            "y": 55.0,
+            "w": 18.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Domain Knowledge Base",
+            "x": 46.0,
+            "y": 67.0,
+            "w": 14.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Domain evals",
+            "x": 80.0,
+            "y": 57.0,
+            "w": 14.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-013.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661585.5187566,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Empower your domain experts to make\nAIE improvements directly with tooling and evals Application Pipelines\nP45366 deternie vhether to make live Ewlate to\nchanges\ndomain cxperts Tooling for of releunt donin Reatns retreunl baocdedge Domain evals\nLonain deternine Vhether Mgoo Evohiate to\nto pipebnes\nKnowdedae Base uIOwOq\nMicrosoft smol ai",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 548.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Empower your domain experts to make\nAIE improvements directly with tooling and evals Application Pipelines\nP45366 deternie vhether to make live Ewlate to\nchanges\ndomain cxperts Tooling for of releunt donin Reatns retreunl baocdedge Domain evals\nLonain deternine Vhether Mgoo Evohiate to\nto pipebnes\nKnowdedae Base uIOwOq\nMicrosoft smol ai",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Takeaways\nTo build domain-native LLM applications you need to solve the last mile problem.\nUsing the best models isn't enough - you should build an adaptive domain intelligence engine.\nDomain experts power this system by reviewing AI outputs to generate performance metrics, failure modes and suggested improvements.\nThis takes production data and uses it to give your LLM product a nuanced understanding of customer workflows.\nThe result is a self-improving, data-driven process that can be managed by a domain expert PM.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "dark olive on black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Takeaways",
+            "x": 19.0,
+            "y": 15.0,
+            "w": 16.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "To build domain-native LLM applications you need to solve the last mile problem.",
+            "x": 21.0,
+            "y": 24.0,
+            "w": 68.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Using the best models isn't enough - you should build an adaptive domain intelligence engine.",
+            "x": 21.0,
+            "y": 35.0,
+            "w": 70.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Domain experts power this system by reviewing AI outputs to generate performance metrics, failure modes and suggested improvements.",
+            "x": 21.0,
+            "y": 50.0,
+            "w": 72.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "This takes production data and uses it to give your LLM product a nuanced understanding of customer workflows.",
+            "x": 21.0,
+            "y": 68.0,
+            "w": 70.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "The result is a self-improving, data-driven process that can be managed by a domain expert PM.",
+            "x": 21.0,
+            "y": 84.0,
+            "w": 70.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-015.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661604.5416713,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Takeaways\nTo build domain-native LLM applications you need to solve the last mile problem.\nUsing the best models isn't enough - you should build an adaptive domain intelligence engine.\nDomain experts power this system by reviewing AI outputs to generate performance metrics, failure modes and suggested improvements.\nThis takes production data and uses it to give your LLM product a nuanced understanding of customer workflows.\nThe result is a self-improving, data-driven process that can be managed by a domain expert PM.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/MRM7oA3JsFs/slide-015.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "sponsor/logo wall, not a presentation slide",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "non-slide sponsor wall",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#000000",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "INNOVATION PARTNER",
+            "x": 38.0,
+            "y": 7.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 41.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "PLATINUM SPONSORS",
+            "x": 38.0,
+            "y": 29.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Graphite",
+            "x": 11.0,
+            "y": 50.0,
+            "w": 24.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "Windsurf",
+            "x": 37.0,
+            "y": 50.0,
+            "w": 24.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "MongoDB.",
+            "x": 67.0,
+            "y": 50.0,
+            "w": 23.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "daily",
+            "x": 10.0,
+            "y": 66.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "augment code",
+            "x": 31.0,
+            "y": 66.0,
+            "w": 33.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "WorkOS",
+            "x": 69.0,
+            "y": 66.0,
+            "w": 22.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-001.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661022.3907905,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "Section divider / title-only slide with no substantive content.",
+      "text": "Putting it together",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark olive",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Putting it together",
+            "x": 19.0,
+            "y": 52.0,
+            "w": 26.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-014.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661604.541181,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Putting it together",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.94,
+      "frame_type": "title_card",
+      "reject_reason": "Closing thank-you/contact slide.",
+      "text": "Thankyou\nDr Christopher Lovejoy, MD\nchrislovejoy.me\nchris@anterior.com\nAnterior.com/Company",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "abstract green-yellow image over dark panel",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Thankyou",
+            "x": 48.0,
+            "y": 63.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Dr Christopher Lovejoy, MD\nchrislovejoy.me",
+            "x": 24.0,
+            "y": 83.0,
+            "w": 29.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "chris@anterior.com\nAnterior.com/Company",
+            "x": 63.0,
+            "y": 83.0,
+            "w": 27.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-016.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783661604.542367,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Thankyou\nDr Christopher Lovejoy, MD\nchrislovejoy.me\nchris@anterior.com\nAnterior.com/Company",
+      "advanced_ocr": {}
+    }
+  ]
+}

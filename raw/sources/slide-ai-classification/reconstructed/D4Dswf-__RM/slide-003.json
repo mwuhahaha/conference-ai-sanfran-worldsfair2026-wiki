@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Good morning!\nWhat should we\nbuild today?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple product slide; direct read is sufficient",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black with subtle concentric wave texture",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 12.0,
+        "w": 10.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "Good morning!\nWhat should we\nbuild today?",
+        "x": 58.0,
+        "y": 13.0,
+        "w": 30.0,
+        "h": 31.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 86.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "smol.ai",
+        "x": 73.0,
+        "y": 86.0,
+        "w": 15.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/reconstructed-slides/D4Dswf-__RM/slide-003.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658920.5703647,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Good morning!\nWhat should we\nbuild today?",
+  "advanced_ocr": {}
+}

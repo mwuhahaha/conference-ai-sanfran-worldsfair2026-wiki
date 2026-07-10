@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agenda\n1. How do we get more intelligent AI?\n2. Hands on Workshop\n3. Q&A with MoE queen + Daniel",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cream with black left strip",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Agenda",
+        "x": 23.0,
+        "y": 0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "1. How do we get more intelligent AI?\na. Approach #1 - Larger Parameter Models with Mixture of Experts Models\nb. Approach #2 - Mixture of Agents\n2. Hands on Workshop\n3. Q&A with MoE queen + Daniel",
+        "x": 25.0,
+        "y": 11.0,
+        "w": 64.0,
+        "h": 28.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/tzRvcTEapzo/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672040.5342052,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Agenda\n1. How do we get more intelligent AI?\n2. Hands on Workshop\n3. Q&A with MoE queen + Daniel",
+  "advanced_ocr": {}
+}

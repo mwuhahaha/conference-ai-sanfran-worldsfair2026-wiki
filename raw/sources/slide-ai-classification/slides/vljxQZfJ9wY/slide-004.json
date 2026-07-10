@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Think like an SRE: Accuracy gives way to Reliab",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f6f2ec",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Think like an SRE: Accuracy gives way to Reliab",
+        "x": 6.0,
+        "y": 2.0,
+        "w": 85.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Accuracy",
+        "x": 9.0,
+        "y": 60.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Reliability",
+        "x": 54.0,
+        "y": 41.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Task Success\nTool Success\nPlanning Quality\nLatency\nCost\nSafety\nHuman Satisfaction",
+        "x": 42.0,
+        "y": 16.0,
+        "w": 48.0,
+        "h": 69.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/vljxQZfJ9wY/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672319.7411325,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Think like an SRE: Accuracy gives way to Reliab",
+  "advanced_ocr": {}
+}

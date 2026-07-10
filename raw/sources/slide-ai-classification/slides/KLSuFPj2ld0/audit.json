@@ -1,0 +1,491 @@
+{
+  "video_id": "KLSuFPj2ld0",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 5,
+  "rejected_count": 5,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Software Engineer @ Stripe\nSpent 4 years leading our Issuing team\nSpent last 2 years helping robots spend",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "solid blue-purple",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 21.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "Software Engineer @ Stripe",
+            "x": 25.0,
+            "y": 2.0,
+            "w": 58.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Spent 4 years leading our Issuing team\nSpent last 2 years helping robots spend",
+            "x": 25.0,
+            "y": 18.0,
+            "w": 57.0,
+            "h": 24.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 40.0,
+            "y": 88.0,
+            "w": 42.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KLSuFPj2ld0/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660159.1707747,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Software Engineer @ Stripe\nSpent 4 years leading our Issuing team\nSpent last 2 years helping robots spend",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/KLSuFPj2ld0/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Problems\n01 Wrong place\n02 Wrong thing\n03 Wrong amount\n04 Wrong credential",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 21.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "Problems",
+            "x": 26.0,
+            "y": 3.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "01 Wrong place\n02 Wrong thing\n03 Wrong amount\n04 Wrong credential",
+            "x": 26.0,
+            "y": 18.0,
+            "w": 56.0,
+            "h": 34.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 40.0,
+            "y": 88.0,
+            "w": 42.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KLSuFPj2ld0/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660159.171291,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Problems\n01 Wrong place\n02 Wrong thing\n03 Wrong amount\n04 Wrong credential",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/KLSuFPj2ld0/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Shared Payment Tokens\n\n{\n  \"id\": \"spt_1RgaZcFPC5QU06ZCDVZuVA8g\",\n  \"created\": 1751580820,\n  \"deactivated_at\": null,\n  \"deactivated_reason\": null,\n  \"usage_limits\": {\n    \"currency\": \"usd\",\n    \"expires_at\": 1751587220,\n    \"max_amount\": 1000\n  },\n  \"seller_details\": {\n    \"network_id\": \"merchant_name\"\n  }\n}",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense code-like token object is better handled by OCR",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "solid purple",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 21.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "Shared Payment Tokens",
+            "x": 25.0,
+            "y": 2.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 44.0,
+            "y": 18.0,
+            "w": 35.0,
+            "h": 42.0
+          },
+          {
+            "role": "caption",
+            "text": "Confidential",
+            "x": 50.0,
+            "y": 88.0,
+            "w": 16.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KLSuFPj2ld0/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660159.1716855,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Shared Payment Tokens",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/contrast",
+        "text": "Shared Payment Tokens\n\"id\":\"spt_1RgaZcFPCSQU06ZCoVZuVA8q\".\n\"created\":1751580828,\nAIE \"usage_linits\":{ \"deoctivated_at\":null, \"desctivated_reason\":null, \"nax_arount\":1888 \"currency\":\"usd\" \"expires_at\":1751587220,\n\"seller_details\":\n\"network_id\":\"nerchant_nane\"\nPertatonte/Sectcn tel Cororeial\n2028 AlLgrowr Engineering the",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 347.92
+      },
+      "ocr_source": "rapidocr-live/left-72/contrast",
+      "ocr_reconcile": {
+        "text": "Shared Payment Tokens\n\n{\n  \"id\": \"spt_1RgaZcFPC5QU06ZCDVZuVA8g\",\n  \"created\": 1751580820,\n  \"deactivated_at\": null,\n  \"deactivated_reason\": null,\n  \"usage_limits\": {\n    \"currency\": \"usd\",\n    \"expires_at\": 1751587220,\n    \"max_amount\": 1000\n  },\n  \"seller_details\": {\n    \"network_id\": \"merchant_name\"\n  }\n}",
+        "text_status": "meaningful",
+        "corrections": "Accepted the title and corrected obvious OCR noise in the JSON fields; left uncertain values unchanged unless clearly readable."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/KLSuFPj2ld0/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "try {\n  const paymentIntent = await sellerStripe.paymentIntents.create({\n    amount: 5000,\n    currency: \"usd\",\n    // shared_payment_grant: sharedPaymentGrantFromToken.id,\n    payment_method: \"pm_card_visa\",\n    confirm: true,\n    automatic_payment_methods: {\n      enabled: true,\n      allow_redirects: \"never\",\n    },\n  });\n\n  console.log(\"Payment intent created!\", paymentIntent);\n} catch (error) {\n  console.error(\"Error creating payment intent:\", error);\n  throw error;\n}",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense code editor screenshot is OCR-suitable",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark navy",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "code",
+            "text": "",
+            "x": 12.0,
+            "y": 8.0,
+            "w": 86.0,
+            "h": 72.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 56.0,
+            "y": 79.0,
+            "w": 22.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KLSuFPj2ld0/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660200.847046,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "97R\n1index.ts×\nAIE AI-DEMO (1packagejson (1paciage-lock.json tsconfigjon spt Fstcho Tsnde.ts.claude node_modules!pepm-lock.yaml claude vscode mep dse spt)Ts(ndex.ts) 39 40 41 43 50 31 32 33 34 35 36 37 38 42 44 45 46 47 48 49 51 52 1 )catch（error）（ try const paymentIntent-aoit sellerStripe.paymentIntents.create（{ console.log（\"Payment intent created:\",paymentIntent)) throwerror: console.error(\"Error creating payment intent:\",error): confira:troe, currency:\"usd\", amount:5oe0, payment_method:\"pn_card_visa\", autoeatic_payment_methods:( enabled:true, allow_redirects:“never\", MtGrantedToken.id\nOUTLINE TIMELINE VmanO Ln5,Col15ps:2UTF-5\n2O28 AlEnginoer AlEngineer EUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 684.92
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "try {\n  const paymentIntent = await sellerStripe.paymentIntents.create({\n    amount: 5000,\n    currency: \"usd\",\n    // shared_payment_grant: sharedPaymentGrantFromToken.id,\n    payment_method: \"pm_card_visa\",\n    confirm: true,\n    automatic_payment_methods: {\n      enabled: true,\n      allow_redirects: \"never\",\n    },\n  });\n\n  console.log(\"Payment intent created!\", paymentIntent);\n} catch (error) {\n  console.error(\"Error creating payment intent:\", error);\n  throw error;\n}",
+        "text_status": "meaningful",
+        "corrections": "OCR was corrected to the clearly visible TypeScript payment-intent code and cleaned of UI noise."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/KLSuFPj2ld0/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Machine Payments Protocol",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with small embedded protocol text that OCR is likely to read better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#4b1fe8 with black side and bottom bands",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Machine Payments Protocol",
+            "x": 25.0,
+            "y": 3.0,
+            "w": 36.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "stripe",
+            "x": 95.0,
+            "y": 3.0,
+            "w": 3.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 16.0,
+            "h": 18.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 53.0,
+            "y": 83.0,
+            "w": 25.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KLSuFPj2ld0/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660805.115053,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Machine Payments Protocol",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 111.72,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/KLSuFPj2ld0/slide-009.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage with cropped slide, not a full presentation slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "stage shot with only partial slide visible",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple stage lighting",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KLSuFPj2ld0/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660159.1704154,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage with cropped slide, not a full presentation slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "stage shot with only partial slide visible",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple stage lighting",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KLSuFPj2ld0/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660159.1710744,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.14,
+      "frame_type": "demo_video",
+      "reject_reason": "Stage/demo footage with terminal and presenter overlay; not a readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide frame.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black with overlaid terminal window and stage video inset",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KLSuFPj2ld0/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660304.0546038,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.16,
+      "frame_type": "demo_video",
+      "reject_reason": "Stage/demo footage with code output and presenter overlay; not a readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide frame.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black with overlaid terminal window and stage video inset",
+        "style": "code",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KLSuFPj2ld0/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660304.0840552,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Demo/video footage with stage context, not a readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#000000",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KLSuFPj2ld0/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660817.6433272,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

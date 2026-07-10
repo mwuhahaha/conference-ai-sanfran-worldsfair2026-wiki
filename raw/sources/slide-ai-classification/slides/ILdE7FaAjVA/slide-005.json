@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.89,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "vLLM",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot and small repository metadata are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#111111",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "vLLM",
+        "x": 42.0,
+        "y": 13.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "OpenAI-Compatible Serving for LLM Inference powered by vLLM",
+        "x": 42.0,
+        "y": 19.0,
+        "w": 30.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Deploy v2.14.0",
+        "x": 82.0,
+        "y": 33.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/ILdE7FaAjVA/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659551.364095,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "vLLM",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

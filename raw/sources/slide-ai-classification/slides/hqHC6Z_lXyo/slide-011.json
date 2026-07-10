@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How To Reach SOTA Performance?\nOption 1:Use optimized Performance models\nAIE\nVideoEnipoints ImageEndpoints Text Endpoints AudioEndpoints\nBopioote Koyed aws Runware Segmind WIRO\nEngineering the future of Al\nneer",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Endpoint cards and small brand/logo text are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#130914",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How To Reach SOTA Performance?",
+        "x": 28.0,
+        "y": 6.0,
+        "w": 46.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Option 1: Use optimized Performance models",
+        "x": 31.0,
+        "y": 15.0,
+        "w": 42.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "four endpoint cards for video, image, text, and audio",
+        "x": 36.0,
+        "y": 22.0,
+        "w": 48.0,
+        "h": 22.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 15.0,
+        "w": 14.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/hqHC6Z_lXyo/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668800.2958548,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "How To Reach SOTA Performance?",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "How To Reach SOTA Performance?\nOption 1:Use optimized Performance models\nAIE\nVideoEnipoints ImageEndpoints Text Endpoints AudioEndpoints\nBopioote Koyed aws Runware Segmind WIRO\nEngineering the future of Al\nneer",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 351.6
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "How To Reach SOTA Performance?\nOption 1:Use optimized Performance models\nAIE\nVideoEnipoints ImageEndpoints Text Endpoints AudioEndpoints\nBopioote Koyed aws Runware Segmind WIRO\nEngineering the future of Al\nneer",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

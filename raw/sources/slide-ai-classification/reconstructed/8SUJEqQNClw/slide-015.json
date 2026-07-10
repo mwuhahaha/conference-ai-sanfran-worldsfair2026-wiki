@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Here’s another way to put it:\n(1) Agents store threads of messages and continuously interact with users\n(2) Workflows can have branching, parallelism, conditions, loops, can suspend/resume, etc",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large readable bullets and title; not dense enough to need OCR.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with subtle concentric ripple texture",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Here’s another way to put it:",
+        "x": 23.0,
+        "y": 7.0,
+        "w": 45.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "(1) Agents store threads of messages and continuously interact with users\n(2) Workflows can have branching, parallelism, conditions, loops, can suspend/resume, etc",
+        "x": 24.0,
+        "y": 21.0,
+        "w": 49.0,
+        "h": 25.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-015.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658650.7154796,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Here’s another way to put it:\n(1) Agents store threads of messages and continuously interact with users\n(2) Workflows can have branching, parallelism, conditions, loops, can suspend/resume, etc",
+  "advanced_ocr": {}
+}

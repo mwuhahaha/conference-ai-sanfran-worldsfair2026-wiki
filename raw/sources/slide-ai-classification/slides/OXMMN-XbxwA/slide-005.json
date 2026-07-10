@@ -1,0 +1,47 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Article-like screenshot with dense small text; OCR is more appropriate than manual transcription here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Scaling Engineering Teams via RFCs: Writing Things Down",
+        "x": 43.0,
+        "y": 18.0,
+        "w": 29.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/OXMMN-XbxwA/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661919.093351,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/full",
+    "best_score": 987.99,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

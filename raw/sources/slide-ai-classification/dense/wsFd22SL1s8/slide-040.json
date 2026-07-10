@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "VMM.puso0: VhM.snapshot0 Pershst rw overlayfs iaryer. Recume the VMM\nTeec (s aserrer)'srupitoruteta comtistiComnts strint, tzpihtte strl\nI+pir?.I+f+ft+rtt+lr+d I+u+at t+ Los++t ra tilt Ioi tt\".\nCsp, orr'? 'sartetea.tiatuta() piaa,*-, m.apictioi otitw'.+ie.w(cur) 》 Pae't+ tt (irr +) t+is I + irrelhfte.\nI! foshre + r+h Iho v +rh If. yupubot (o!ls. tfer focf?:( rrimalt - ma.ipitleat.beresttAt,trsmr'oratn)\nNu. itatat + yattaurel relt\njtateletoluabest: m ath.>eia(tutpastr,.ststeruioiitiioam) i/ Coy the sihtefel eil te the swmuNt eirmteryt'lime we yupaNt aorsh'l ue.rait.\n1+ orr.ait (: J).tafet coriimg stetefut eiaa tt saapubet' dirrtery\") Irt*+ coyytitkw.ttetetolotitpata, atatwtuthltoit): \"4sttio='! ttthfuloliot..1.+y+. a,utat+fulplhprth,.\nretws'nit, tat.trrorte raile 1o topy tialotot tik iout dirxtent' t', rr)",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small code block and compact labels make OCR the better capture path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Invocation Checkpointing",
+        "x": 0,
+        "y": 0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "VMM.pause()\nVMM.snapshot()\nPersist rw overlayfs layer\nResume the VMM",
+        "x": 1.0,
+        "y": 5.0,
+        "w": 95.0,
+        "h": 12.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 6.0,
+        "y": 28.0,
+        "w": 40.0,
+        "h": 56.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-040.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-040.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783674188.5647678,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Invocation Checkpointing",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "VMM.puso0: VhM.snapshot0 Pershst rw overlayfs iaryer. Recume the VMM\nTeec (s aserrer)'srupitoruteta comtistiComnts strint, tzpihtte strl\nI+pir?.I+f+ft+rtt+lr+d I+u+at t+ Los++t ra tilt Ioi tt\".\nCsp, orr'? 'sartetea.tiatuta() piaa,*-, m.apictioi otitw'.+ie.w(cur) 》 Pae't+ tt (irr +) t+is I + irrelhfte.\nI! foshre + r+h Iho v +rh If. yupubot (o!ls. tfer focf?:( rrimalt - ma.ipitleat.beresttAt,trsmr'oratn)\nNu. itatat + yattaurel relt\njtateletoluabest: m ath.>eia(tutpastr,.ststeruioiitiioam) i/ Coy the sihtefel eil te the swmuNt eirmteryt'lime we yupaNt aorsh'l ue.rait.\n1+ orr.ait (: J).tafet coriimg stetefut eiaa tt saapubet' dirrtery\") Irt*+ coyytitkw.ttetetolotitpata, atatwtuthltoit): \"4sttio='! ttthfuloliot..1.+y+. a,utat+fulplhprth,.\nretws'nit, tat.trrorte raile 1o topy tialotot tik iout dirxtent' t', rr)",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1030.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "VMM.puso0: VhM.snapshot0 Pershst rw overlayfs iaryer. Recume the VMM\nTeec (s aserrer)'srupitoruteta comtistiComnts strint, tzpihtte strl\nI+pir?.I+f+ft+rtt+lr+d I+u+at t+ Los++t ra tilt Ioi tt\".\nCsp, orr'? 'sartetea.tiatuta() piaa,*-, m.apictioi otitw'.+ie.w(cur) 》 Pae't+ tt (irr +) t+is I + irrelhfte.\nI! foshre + r+h Iho v +rh If. yupubot (o!ls. tfer focf?:( rrimalt - ma.ipitleat.beresttAt,trsmr'oratn)\nNu. itatat + yattaurel relt\njtateletoluabest: m ath.>eia(tutpastr,.ststeruioiitiioam) i/ Coy the sihtefel eil te the swmuNt eirmteryt'lime we yupaNt aorsh'l ue.rait.\n1+ orr.ait (: J).tafet coriimg stetefut eiaa tt saapubet' dirrtery\") Irt*+ coyytitkw.ttetetolotitpata, atatwtuthltoit): \"4sttio='! ttthfuloliot..1.+y+. a,utat+fulplhprth,.\nretws'nit, tat.trrorte raile 1o topy tialotot tik iout dirxtent' t', rr)",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

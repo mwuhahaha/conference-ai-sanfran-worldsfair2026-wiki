@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Use Cases\nAIE\n+\nData Exploration Configuration Wizards E-Commerce\nInteractive dashboard with region filters, drill-down capabilities, export options \"production\" reveals security options;) Form with dependent flelds, selecting 'staging' shows different defaults all Inslde chat, powered by Iive. Browse, filter, compare, and add to cart Inventory from the McP Server\nGoogle DeepMind",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product slide with multiple dense UI screenshots and small supporting text; OCR is more appropriate than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Use Cases",
+        "x": 27.0,
+        "y": 6.0,
+        "w": 15.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Data Exploration",
+        "x": 28.0,
+        "y": 63.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Configuration Wizards",
+        "x": 51.0,
+        "y": 63.0,
+        "w": 21.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "E-Commerce",
+        "x": 78.0,
+        "y": 63.0,
+        "w": 14.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/_xIwFcnHqp4/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666013.8122842,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Use Cases",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Use Cases\nAIE\n+\nData Exploration Configuration Wizards E-Commerce\nInteractive dashboard with region filters, drill-down capabilities, export options \"production\" reveals security options;) Form with dependent flelds, selecting 'staging' shows different defaults all Inslde chat, powered by Iive. Browse, filter, compare, and add to cart Inventory from the McP Server\nGoogle DeepMind",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 613.8
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Use Cases\nAIE\n+\nData Exploration Configuration Wizards E-Commerce\nInteractive dashboard with region filters, drill-down capabilities, export options \"production\" reveals security options;) Form with dependent flelds, selecting 'staging' shows different defaults all Inslde chat, powered by Iive. Browse, filter, compare, and add to cart Inventory from the McP Server\nGoogle DeepMind",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "specification\nimplementation\nimplementation\nimplementation",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple diagram slide with very little text; visual reading is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#000000",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "specification",
+        "x": 18.0,
+        "y": 43.0,
+        "w": 22.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "implementation",
+        "x": 62.0,
+        "y": 13.0,
+        "w": 23.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "implementation",
+        "x": 62.0,
+        "y": 39.0,
+        "w": 23.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "implementation",
+        "x": 62.0,
+        "y": 67.0,
+        "w": 23.0,
+        "h": 13.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/DqtmZE6Hl0g/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658703.89218,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "specification\nimplementation\nimplementation\nimplementation",
+  "advanced_ocr": {}
+}

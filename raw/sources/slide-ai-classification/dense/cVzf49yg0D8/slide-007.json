@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "main.py x In Watthrcugh. Task tmpamentation Pliun 个日4 Crealing Agent Clats Structure x...@+\nworkshop > d mnin.gy 49 37 EE write_fite_schew = { \"phraooters\":! \"required- I\"tile_path-, rcontents\"l.. Noxt wo noed to odd a read_fbo and write_ fe tool.: Create a basic python kuolenentatlon and also the Fon tchems defition and map for the key: function, schems\n59 51 52 53 55 56 58 60 62 64 65 66 67 69 70 71 72 74 75 76 57 61 63 77 8 3. Reo istry sapping tool naaes to functlons sed scheras tootsap = { class Agent: derrnaoo. det.run(selt, input_text:,str Illst) - str: \"read_file\"1. (\"functlon\"r resd_fite, \"schea\": resd_file_schea),: def _lnlt_iself, model_id: str i \"gemini-3-flash-previtr. toots: dlct = Hon \"urlte_file\": (\"function\": vritc_fite,. -schees-i urite_file_schca),: 1. Prepore tools for the APl call' toot detinitions = [tt\"schema-] for t in selt.toots.values()] if setf.toot Initinlizes the Agent vith o Geinl clieit, mooe v.twsniu-interetl self. toots.n tools or ( procesesnInputotrung neretonyihepobeire ponse7 untinirgcg Processes: on lnput, and rtturns tht model's.respoase, handling tool.,calts. se?t.client. genal.cllent() self.prtvious_lnteraction_id + None: self.sodel_id = nodel_1d' lnteraction rodelaso. Acctp! Chsrge xt a↑.x ↓: 0x0d Acotpt t?: Includas tho Pyhon irplemantotlona, JsON schemus, sind\" Edhed 1 to v updsting the sgent's interaction ioop to hande tool calls.: t here created an Implemertation plan to sdd tha' Ask anything, e to minilon, I Ior worktiovs Gesd flle and Mrite tite toos to ine Agent. This. +. A Paving A Gemn S Flenh: ' Thought for 4s:: Anatyzod solution Edlted Implementation Plan - Anthyzed & sgent py nlt-i31.: schemu., Iirptamentatlons, the JSON scheru detindtions, and a map to connect each. toor's key to its functon snid. 1've got o sotd python examole n Defining New Yools. Hrp'ament resd_fite, and Write_fite: tools within arkshop/aain py., rm working on the Python Sotut fon/aaent.py, to oude mo. The tuask is to'.\n@ 邮 Ln 34; Col 10 (22 tolhcted}3 Spco1; 4 年 UTF-8 & LF $: {) Python 3.12.12 (ronr': venw) 甲 S+lect Python Intefprotor, Anugrrylty: Setng+ 高':",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code/editor screenshot with small text and UI chrome; OCR is more suitable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3ecd2",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Creating Agent Class Structure",
+        "x": 64.0,
+        "y": 2.0,
+        "w": 28.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "class Agent:",
+        "x": 8.0,
+        "y": 15.0,
+        "w": 46.0,
+        "h": 62.0
+      },
+      {
+        "role": "caption",
+        "text": "Next we need to add a read_file and write_file tool.",
+        "x": 58.0,
+        "y": 16.0,
+        "w": 34.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667191.3440156,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "main.py x In Watthrcugh. Task tmpamentation Pliun 个日4 Crealing Agent Clats Structure x...@+\nworkshop > d mnin.gy 49 37 EE write_fite_schew = { \"phraooters\":! \"required- I\"tile_path-, rcontents\"l.. Noxt wo noed to odd a read_fbo and write_ fe tool.: Create a basic python kuolenentatlon and also the Fon tchems defition and map for the key: function, schems\n59 51 52 53 55 56 58 60 62 64 65 66 67 69 70 71 72 74 75 76 57 61 63 77 8 3. Reo istry sapping tool naaes to functlons sed scheras tootsap = { class Agent: derrnaoo. det.run(selt, input_text:,str Illst) - str: \"read_file\"1. (\"functlon\"r resd_fite, \"schea\": resd_file_schea),: def _lnlt_iself, model_id: str i \"gemini-3-flash-previtr. toots: dlct = Hon \"urlte_file\": (\"function\": vritc_fite,. -schees-i urite_file_schca),: 1. Prepore tools for the APl call' toot detinitions = [tt\"schema-] for t in selt.toots.values()] if setf.toot Initinlizes the Agent vith o Geinl clieit, mooe v.twsniu-interetl self. toots.n tools or ( procesesnInputotrung neretonyihepobeire ponse7 untinirgcg Processes: on lnput, and rtturns tht model's.respoase, handling tool.,calts. se?t.client. genal.cllent() self.prtvious_lnteraction_id + None: self.sodel_id = nodel_1d' lnteraction rodelaso. Acctp! Chsrge xt a↑.x ↓: 0x0d Acotpt t?: Includas tho Pyhon irplemantotlona, JsON schemus, sind\" Edhed 1 to v updsting the sgent's interaction ioop to hande tool calls.: t here created an Implemertation plan to sdd tha' Ask anything, e to minilon, I Ior worktiovs Gesd flle and Mrite tite toos to ine Agent. This. +. A Paving A Gemn S Flenh: ' Thought for 4s:: Anatyzod solution Edlted Implementation Plan - Anthyzed & sgent py nlt-i31.: schemu., Iirptamentatlons, the JSON scheru detindtions, and a map to connect each. toor's key to its functon snid. 1've got o sotd python examole n Defining New Yools. Hrp'ament resd_fite, and Write_fite: tools within arkshop/aain py., rm working on the Python Sotut fon/aaent.py, to oude mo. The tuask is to'.\n@ 邮 Ln 34; Col 10 (22 tolhcted}3 Spco1; 4 年 UTF-8 & LF $: {) Python 3.12.12 (ronr': venw) 甲 S+lect Python Intefprotor, Anugrrylty: Setng+ 高':",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2475.0
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "main.py x In Watthrcugh. Task tmpamentation Pliun 个日4 Crealing Agent Clats Structure x...@+\nworkshop > d mnin.gy 49 37 EE write_fite_schew = { \"phraooters\":! \"required- I\"tile_path-, rcontents\"l.. Noxt wo noed to odd a read_fbo and write_ fe tool.: Create a basic python kuolenentatlon and also the Fon tchems defition and map for the key: function, schems\n59 51 52 53 55 56 58 60 62 64 65 66 67 69 70 71 72 74 75 76 57 61 63 77 8 3. Reo istry sapping tool naaes to functlons sed scheras tootsap = { class Agent: derrnaoo. det.run(selt, input_text:,str Illst) - str: \"read_file\"1. (\"functlon\"r resd_fite, \"schea\": resd_file_schea),: def _lnlt_iself, model_id: str i \"gemini-3-flash-previtr. toots: dlct = Hon \"urlte_file\": (\"function\": vritc_fite,. -schees-i urite_file_schca),: 1. Prepore tools for the APl call' toot detinitions = [tt\"schema-] for t in selt.toots.values()] if setf.toot Initinlizes the Agent vith o Geinl clieit, mooe v.twsniu-interetl self. toots.n tools or ( procesesnInputotrung neretonyihepobeire ponse7 untinirgcg Processes: on lnput, and rtturns tht model's.respoase, handling tool.,calts. se?t.client. genal.cllent() self.prtvious_lnteraction_id + None: self.sodel_id = nodel_1d' lnteraction rodelaso. Acctp! Chsrge xt a↑.x ↓: 0x0d Acotpt t?: Includas tho Pyhon irplemantotlona, JsON schemus, sind\" Edhed 1 to v updsting the sgent's interaction ioop to hande tool calls.: t here created an Implemertation plan to sdd tha' Ask anything, e to minilon, I Ior worktiovs Gesd flle and Mrite tite toos to ine Agent. This. +. A Paving A Gemn S Flenh: ' Thought for 4s:: Anatyzod solution Edlted Implementation Plan - Anthyzed & sgent py nlt-i31.: schemu., Iirptamentatlons, the JSON scheru detindtions, and a map to connect each. toor's key to its functon snid. 1've got o sotd python examole n Defining New Yools. Hrp'ament resd_fite, and Write_fite: tools within arkshop/aain py., rm working on the Python Sotut fon/aaent.py, to oude mo. The tuask is to'.\n@ 邮 Ln 34; Col 10 (22 tolhcted}3 Spco1; 4 年 UTF-8 & LF $: {) Python 3.12.12 (ronr': venw) 甲 S+lect Python Intefprotor, Anugrrylty: Setng+ 高':",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

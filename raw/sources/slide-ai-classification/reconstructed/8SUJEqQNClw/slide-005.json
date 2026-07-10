@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Hot Take #1: Don't be That Guy",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple large-text slide",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#11110e",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Hot Take #1: Don't be That Guy",
+        "x": 27.0,
+        "y": 27.0,
+        "w": 30.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "HELLO my name is That Guy",
+        "x": 70.0,
+        "y": 22.0,
+        "w": 20.0,
+        "h": 29.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-005.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657974.0088422,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Hot Take #1: Don't be That Guy",
+  "advanced_ocr": {}
+}

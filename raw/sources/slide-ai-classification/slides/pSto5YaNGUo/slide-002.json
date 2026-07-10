@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "HUTAGENT\nAn agent is never “done.\" It lives in a loop. Tht loop\nSeven stages, run over and over -- each pass making the sgent e littie better. Offline you bulld 8 sharpen it; onllne It runs, and realty feeds the next pass.\nConooptuelre\nCpther\nOFplirg\notfllm+ tild - onllae leazn one loop\nMonnor ctpioy\nTheArentlc Bene Burak 02 1 14",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with multiple small labels around a loop; OCR is a better fit than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "MUTAGENT",
+        "x": 86.0,
+        "y": 1.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "An agent is never \"done.\" It lives in a loop.",
+        "x": 27.0,
+        "y": 11.0,
+        "w": 46.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Seven stages, run over and over — each pass making the agent a little better. Offline you build & sharpen it; online it runs, and reality feeds the next pass.",
+        "x": 18.0,
+        "y": 19.0,
+        "w": 64.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Conceptualize",
+        "x": 48.0,
+        "y": 24.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Build",
+        "x": 59.0,
+        "y": 38.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Evaluate",
+        "x": 63.0,
+        "y": 54.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Deploy",
+        "x": 58.0,
+        "y": 73.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Monitor",
+        "x": 40.0,
+        "y": 74.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Diagnose",
+        "x": 33.0,
+        "y": 54.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Optimize",
+        "x": 35.0,
+        "y": 38.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670559.4640393,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "HUTAGENT\nAn agent is never “done.\" It lives in a loop. Tht loop\nSeven stages, run over and over -- each pass making the sgent e littie better. Offline you bulld 8 sharpen it; onllne It runs, and realty feeds the next pass.\nConooptuelre\nCpther\nOFplirg\notfllm+ tild - onllae leazn one loop\nMonnor ctpioy\nTheArentlc Bene Burak 02 1 14",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 596.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "HUTAGENT\nAn agent is never “done.\" It lives in a loop. Tht loop\nSeven stages, run over and over -- each pass making the sgent e littie better. Offline you bulld 8 sharpen it; onllne It runs, and realty feeds the next pass.\nConooptuelre\nCpther\nOFplirg\notfllm+ tild - onllae leazn one loop\nMonnor ctpioy\nTheArentlc Bene Burak 02 1 14",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

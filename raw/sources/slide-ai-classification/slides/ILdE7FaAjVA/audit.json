@@ -1,0 +1,401 @@
+{
+  "video_id": "ILdE7FaAjVA",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 5,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Introducing Runpod\nThe foundational platform for building, running, and scaling custom AI systems.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(135deg, #1b0b2e 0%, #5a1a8a 55%, #7a2bd6 100%)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "runpod",
+            "x": 34.0,
+            "y": 13.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Introducing Runpod",
+            "x": 33.0,
+            "y": 35.0,
+            "w": 24.0,
+            "h": 17.0
+          },
+          {
+            "role": "subtitle",
+            "text": "The foundational platform for building, running, and scaling custom AI systems.",
+            "x": 33.0,
+            "y": 60.0,
+            "w": 33.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ILdE7FaAjVA/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659551.353288,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Introducing Runpod\nThe foundational platform for building, running, and scaling custom AI systems.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ILdE7FaAjVA/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why Runpod Exists",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f5e9d6",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why Runpod Exists",
+            "x": 32.0,
+            "y": 11.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Infrastructure eats developer time",
+            "x": 35.0,
+            "y": 45.0,
+            "w": 18.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "GPU access is slow and opaque",
+            "x": 55.0,
+            "y": 45.0,
+            "w": 18.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Builder primary focus should be building",
+            "x": 75.0,
+            "y": 45.0,
+            "w": 20.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ILdE7FaAjVA/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659551.354954,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why Runpod Exists",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ILdE7FaAjVA/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.92,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Serverless",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small bullet text and multi-column layout are better suited for OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(90deg, #f2e7d7 0%, #f2e7d7 52%, #5a11b8 52%, #9a47e6 100%)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Serverless",
+            "x": 32.0,
+            "y": 10.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Autoscaling inference without infrastructure overhead",
+            "x": 32.0,
+            "y": 26.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Best for",
+            "x": 32.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Why teams use it",
+            "x": 32.0,
+            "y": 59.0,
+            "w": 14.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ILdE7FaAjVA/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659551.3561008,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Serverless",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ILdE7FaAjVA/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.89,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "vLLM",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot and small repository metadata are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#111111",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "vLLM",
+            "x": 42.0,
+            "y": 13.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "OpenAI-Compatible Serving for LLM Inference powered by vLLM",
+            "x": 42.0,
+            "y": 19.0,
+            "w": 30.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Deploy v2.14.0",
+            "x": 82.0,
+            "y": 33.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ILdE7FaAjVA/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659551.364095,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "vLLM",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ILdE7FaAjVA/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code-heavy slide with small monospace text is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#111111",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Dockerfile",
+            "x": 37.0,
+            "y": 12.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 33.0,
+            "y": 18.0,
+            "w": 58.0,
+            "h": 68.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ILdE7FaAjVA/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659551.370976,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/ILdE7FaAjVA/slide-006.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.71,
+      "frame_type": "title_card",
+      "reject_reason": "Brand/interstitial card with logo only, not substantive presentation content.",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "linear-gradient(135deg, #2a004b 0%, #5b10b8 55%, #7b35e6 100%)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "runpod",
+            "x": 46.0,
+            "y": 41.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 38.0,
+            "y": 88.0,
+            "w": 33.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ILdE7FaAjVA/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659551.3586037,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.74,
+      "frame_type": "title_card",
+      "reject_reason": "End-card / brand logo screen, not a substantive content slide.",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#050505",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 27.0,
+            "y": 44.0,
+            "w": 46.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "HTTPS://AI.ENGINEER",
+            "x": 34.0,
+            "y": 89.0,
+            "w": 31.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/ILdE7FaAjVA/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659551.3742096,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

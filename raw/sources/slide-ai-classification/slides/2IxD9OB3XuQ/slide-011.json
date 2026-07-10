@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Verifiable Continual Learning (VCL)\n\nVerifiable Continual Learning (VCL): improving an agent from its own experience, where every fix is proven to help and proven to break nothing that already worked.\n\n1 An executable test\nthe failure becomes a task you can replay and grade\n\n2 A measured delta\nthe update is scored on that test: before and after.\n\n3 A regression check\nprior tests still pass",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "definition plus three-card slide with small text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Verifiable Continual Learning (VCL)",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 56.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Verifiable Continual Learning (VCL): improving an agent from its own experience, where every fix is proven to help and proven to break nothing that already worked.",
+        "x": 4.0,
+        "y": 18.0,
+        "w": 92.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1\nAn executable test",
+        "x": 4.0,
+        "y": 48.0,
+        "w": 28.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "2\nA measured delta",
+        "x": 35.0,
+        "y": 48.0,
+        "w": 28.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3\nA regression check",
+        "x": 66.0,
+        "y": 48.0,
+        "w": 28.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "the failure becomes a task you can replay and grade",
+        "x": 5.0,
+        "y": 62.0,
+        "w": 26.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "the update is scored on that test: before and after.",
+        "x": 36.0,
+        "y": 62.0,
+        "w": 26.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "prior tests still pass; new gain doesn't silently change old ones.",
+        "x": 67.0,
+        "y": 62.0,
+        "w": 28.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656427.0022593,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Verifiable Continual Learning (VCL)",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Verifiable Continual Learning(VCL)\nVerifiabie Continual Learning (VcL):improving an agent from its own experience, where every fix is provento help and proven to break nothing that alreadyworked.\n1 An executable test 12 Ameasured delta 3 Aregressioncheck\nreplay and grade the failure becomes a task you can. the update is scored on that test before and after. doesn't silently c prior tests still pas?",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 633.7
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Verifiable Continual Learning (VCL)\n\nVerifiable Continual Learning (VCL): improving an agent from its own experience, where every fix is proven to help and proven to break nothing that already worked.\n\n1 An executable test\nthe failure becomes a task you can replay and grade\n\n2 A measured delta\nthe update is scored on that test: before and after.\n\n3 A regression check\nprior tests still pass",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for capitalization, spacing, and punctuation; third card text is partially obscured in the image, so only the clearly visible portion was kept."
+  }
+}

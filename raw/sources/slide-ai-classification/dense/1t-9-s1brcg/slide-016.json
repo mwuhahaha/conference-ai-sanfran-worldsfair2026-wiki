@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Opening the project",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "GitHub markdown page screenshot with headings and code/setup instructions; OCR is suitable for the fine text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Opening the project",
+        "x": 10.0,
+        "y": 22.0,
+        "w": 30.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Running the app \"locally\"",
+        "x": 10.0,
+        "y": 35.0,
+        "w": 36.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Copy .env.sample to .env",
+        "x": 10.0,
+        "y": 51.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "AZURE_OPENAI_ENDPOINT",
+        "x": 45.0,
+        "y": 51.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "AZURE_OPENAI_KEY",
+        "x": 65.0,
+        "y": 51.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-016.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657352.7744966,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Opening the project",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

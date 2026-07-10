@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "3 Cloud Outages in 3 Weeks\nCompanies are pushing to move faster... OFFLINE CLOUD\nCompanies are reporting Al-generated code grows: 10% → 30% → 50% ERROR 503\nRelated?\neach commit is generated or shapedby Al 65%of developers say atleast a quarterof\nnowAl-influenced. 15%saythatmorethan80%oftheircodeis\nAIE/LEAD REALITY THE STATE OF AI CODE QUALITY: HY\nGoogle DeepMind PRESENTED BY ITAMARFRIEDMAN/ Co-Founder&CEO opob",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small text and embedded screenshot content are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "3 Cloud Outages in 3 Weeks",
+        "x": 26.0,
+        "y": 5.0,
+        "w": 29.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Companies are pushing to move faster...",
+        "x": 26.0,
+        "y": 21.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Companies are reporting AI-generated code grows: 10% → 30% → 50%",
+        "x": 26.0,
+        "y": 28.0,
+        "w": 31.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "Related?",
+        "x": 26.0,
+        "y": 42.0,
+        "w": 14.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "65% of developers say at least a quarter of each commit is generated or shaped by AI.",
+        "x": 26.0,
+        "y": 53.0,
+        "w": 33.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "15% say that more than 80% of their code is now AI-influenced.",
+        "x": 26.0,
+        "y": 66.0,
+        "w": 31.0,
+        "h": 11.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE/LEAD",
+        "x": 5.0,
+        "y": 83.0,
+        "w": 13.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 4.0,
+        "y": 91.0,
+        "w": 19.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "CLOUD OFFLINE",
+        "x": 79.0,
+        "y": 14.0,
+        "w": 14.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/reconstructed-slides/rgjF5o2Qjsc/slide-002.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671595.3183317,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "3 Cloud Outages in 3 Weeks\nCompanies are pushing to move faster... OFFLINE CLOUD\nCompanies are reporting Al-generated code grows: 10% → 30% → 50% ERROR 503\nRelated?\neach commit is generated or shapedby Al 65%of developers say atleast a quarterof\nnowAl-influenced. 15%saythatmorethan80%oftheircodeis\nAIE/LEAD REALITY THE STATE OF AI CODE QUALITY: HY\nGoogle DeepMind PRESENTED BY ITAMARFRIEDMAN/ Co-Founder&CEO opob",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 546.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "3 Cloud Outages in 3 Weeks\nCompanies are pushing to move faster... OFFLINE CLOUD\nCompanies are reporting Al-generated code grows: 10% → 30% → 50% ERROR 503\nRelated?\neach commit is generated or shapedby Al 65%of developers say atleast a quarterof\nnowAl-influenced. 15%saythatmorethan80%oftheircodeis\nAIE/LEAD REALITY THE STATE OF AI CODE QUALITY: HY\nGoogle DeepMind PRESENTED BY ITAMARFRIEDMAN/ Co-Founder&CEO opob",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code screenshot with small text; OCR will outperform manual reading.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 12.0,
+        "h": 15.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 37.0,
+        "y": 0,
+        "w": 46.0,
+        "h": 76.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/ib-wTAvCZqg/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669164.927416,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/full",
+    "best_score": 259.24,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0169
+  }
+}

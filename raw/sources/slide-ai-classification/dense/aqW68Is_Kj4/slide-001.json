@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How the Claude Developer Platform maximizes intelligence\nHarness Claude's capabilities\nManage Claude's context\nGive Claude a computer & let it cook",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large readable title and three large cards; direct visual reading is enough.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with pale beige cards",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How the Claude Developer Platform maximizes intelligence",
+        "x": 26.0,
+        "y": 1.0,
+        "w": 62.0,
+        "h": 16.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Harness Claude's capabilities",
+        "x": 28.0,
+        "y": 28.0,
+        "w": 20.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Manage Claude's context",
+        "x": 50.0,
+        "y": 28.0,
+        "w": 20.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Give Claude a computer & let it cook",
+        "x": 72.0,
+        "y": 28.0,
+        "w": 22.0,
+        "h": 18.0
+      },
+      {
+        "role": "logo",
+        "text": "ANTHROPIC",
+        "x": 26.0,
+        "y": 80.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/aqW68Is_Kj4/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666339.409114,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "How the Claude Developer Platform maximizes intelligence\nHarness Claude's capabilities\nManage Claude's context\nGive Claude a computer & let it cook",
+  "advanced_ocr": {}
+}

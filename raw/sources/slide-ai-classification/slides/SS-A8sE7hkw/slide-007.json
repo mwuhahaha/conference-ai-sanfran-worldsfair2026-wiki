@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Efficiency & \"Intelligence-per-Parameter\"\nGemma 4 family:\nE2B, E4B, 26B A4B, 31B.\nExtreme parameter efficiency:\nmax(\"intelligence-per-parameter\")\nPerformance equivalent to models up to 10x their size on targeted logic tasks.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 25.0
+      },
+      {
+        "role": "title",
+        "text": "Efficiency & \"Intelligence-per-Parameter\"",
+        "x": 35.0,
+        "y": 11.0,
+        "w": 43.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Gemma 4 family:\nE2B, E4B, 26B A4B, 31B.",
+        "x": 35.0,
+        "y": 35.0,
+        "w": 28.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Extreme parameter efficiency:\nmax(\"intelligence-per-parameter\")",
+        "x": 35.0,
+        "y": 49.0,
+        "w": 30.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Performance equivalent to models up to 10x their size on targeted logic tasks.",
+        "x": 35.0,
+        "y": 63.0,
+        "w": 31.0,
+        "h": 19.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model Performance Vs Size",
+        "x": 61.0,
+        "y": 20.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 39.0,
+        "y": 82.0,
+        "w": 40.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/SS-A8sE7hkw/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663497.264366,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Efficiency & \"Intelligence-per-Parameter\"\nGemma 4 family:\nE2B, E4B, 26B A4B, 31B.\nExtreme parameter efficiency:\nmax(\"intelligence-per-parameter\")\nPerformance equivalent to models up to 10x their size on targeted logic tasks.",
+  "advanced_ocr": {}
+}

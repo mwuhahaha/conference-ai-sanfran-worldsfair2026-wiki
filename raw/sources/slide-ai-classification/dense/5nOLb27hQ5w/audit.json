@@ -1,0 +1,362 @@
+{
+  "video_id": "5nOLb27hQ5w",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 5,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Zubin and Alexis\n\nZubin and Alexis are Ben's cofounders at Dawn, a startup focused on providing analytics for AI products. Dawn aims to help companies better understand user requests and model outputs by tracking the nuances of how people are using AI products. Ben transitioned to founding Dawn after his role as a designer at Apple.\n\nBen, Zubin, and Alexis are working together to address a critical need in the AI industry: capturing the nuances and context of user interactions with AI products. Unlike other companies that track high-level metrics, Dawn focuses on detailed analytics to improve user experience and outcomes. Ben's experience at Apple has provided valuable insights into understanding complex user behavior, which he leverages in building Dawn's unique tracking capabilities.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense small text inside a product/article screenshot; OCR is better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg, #f2f2f2 0%, #f7f6f6 100%)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 15.0,
+            "w": 10.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Zubin and Alexis",
+            "x": 52.0,
+            "y": 4.0,
+            "w": 18.0,
+            "h": 70.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 56.0,
+            "y": 82.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5nOLb27hQ5w/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657727.9991827,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Zubin and Alexis",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/contrast",
+        "text": "Zubin and Alexis\nAIE prwadirg analyties fee Al produxts. Zubin ed Alexds are Ben's cofounden Dran alms tobxlp corrganies beeer undesund user reqoests and model outpets by trccegtbe nunoo howpeople areusirg Al produts.Ben hls roke asadesignera Appk. Dwatup Socedon teanitioned to foundingDnaher\nWortfsFaa Moegr BenZubineAek re workg idusiny.cgtuing thtrgo ed bsbaiecwtichte versznsin tulding together adcress a crtical noed othe Al prooxts.Unike oter comgonies th backhigh lenetricxDuwe focuaes oe detsled snayies to imgrco uney cperienot and ostcomes.Ben's engerieece atAcoie hass provided vabasbie insigyts into undostandog coriplexunet Cowsi unigue ttackingCapadibes cortot cfuoerintersctions with Al\n:ne04j\nWorkts Far aws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 959.56
+      },
+      "ocr_source": "rapidocr-live/left-72/contrast",
+      "ocr_reconcile": {
+        "text": "Zubin and Alexis\n\nZubin and Alexis are Ben's cofounders at Dawn, a startup focused on providing analytics for AI products. Dawn aims to help companies better understand user requests and model outputs by tracking the nuances of how people are using AI products. Ben transitioned to founding Dawn after his role as a designer at Apple.\n\nBen, Zubin, and Alexis are working together to address a critical need in the AI industry: capturing the nuances and context of user interactions with AI products. Unlike other companies that track high-level metrics, Dawn focuses on detailed analytics to improve user experience and outcomes. Ben's experience at Apple has provided valuable insights into understanding complex user behavior, which he leverages in building Dawn's unique tracking capabilities.",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR title; corrected obvious spelling and grammar errors from the visible slide text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5nOLb27hQ5w/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "A landing page hero section with a heading, leading text - Public\nHistory\nmore content below with pricing plans\nUnlock the Powe\nEnter your email\naws",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "UI screenshot with multiple small text regions and a cropped hero headline; OCR should recover more than visual triage.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg, #f2f2f2 0%, #f7f6f6 100%)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 16.0,
+            "w": 10.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Unlock the Power",
+            "x": 39.0,
+            "y": 8.0,
+            "w": 56.0,
+            "h": 68.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 56.0,
+            "y": 82.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5nOLb27hQ5w/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657800.0256057,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "A ltraing page hto socrion with A hevaing.leaairg text - C Putuo\nHrtory mor+ corlent ctow wh prcirg pltns +\nAIE\nUnlockthePowe\nDiscover our cutting-edge tools and sery presence and drlve.st\naws WnnF Entvr you oruyt\n:ne04j\nAt aws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 427.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "A landing page hero section with a heading, leading text - Public\nHistory\nmore content below with pricing plans\nUnlock the Powe\nEnter your email\naws",
+        "text_status": "meaningful",
+        "corrections": "Accepted the clear OCR intent and fixed spacing/obvious misspellings; omitted uncertain trailing words."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5nOLb27hQ5w/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE\n\nCustomer Call Transcripts\nContains the call transcripts of a customer, Acme Inc.\n\nProject knowledge\nAdd\n\nAdd to project knowledge\nClaude will use the project knowledge uploaded to respond to you.\n\nCustomer feedback transcript.pdf\nSurvey results.pdf\nNPS score.pdf",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot with dense small labels and document names; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg, #f1f1ea 0%, #ece8d8 100%)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Customer Call Transcripts",
+            "x": 20.0,
+            "y": 3.0,
+            "w": 34.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Project knowledge",
+            "x": 55.0,
+            "y": 4.0,
+            "w": 36.0,
+            "h": 72.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 56.0,
+            "y": 82.0,
+            "w": 12.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5nOLb27hQ5w/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657868.2773902,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Customer Call Transcripts",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "er Call Transcripts Project knowledge Add\nntains the call transcripts ofa\nAIE stomer,Acme Inc.\nAdd toprojectknowledge\nCustomer Call Transcript... Claude will use theproject knowledge uploaded torespond toyou.\nCustomerfeedback transcript.pdf\nSurvey results.pdf\nMicrooh Words aws WoridsFeair NPS score.pdf 3\nWorioseFalr WorifsFa:ne04j\nOAY Worfs Far aws\nWorifsFai Kortss Fal Coralent",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 613.4
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "AIE\n\nCustomer Call Transcripts\nContains the call transcripts of a customer, Acme Inc.\n\nProject knowledge\nAdd\n\nAdd to project knowledge\nClaude will use the project knowledge uploaded to respond to you.\n\nCustomer feedback transcript.pdf\nSurvey results.pdf\nNPS score.pdf",
+        "text_status": "meaningful",
+        "corrections": "OCR was heavily corrected from the image; obvious errors fixed and decorative/logo text omitted."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5nOLb27hQ5w/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE\nCancel\nCreate\nAstronaut\nLayla\nSpace\nSUGGESTIONS",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dark UI screenshot with scattered labels and small controls; OCR should read the interface text more reliably.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f7f7f7",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Create",
+            "x": 26.0,
+            "y": 0,
+            "w": 70.0,
+            "h": 76.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Astronaut",
+            "x": 46.0,
+            "y": 18.0,
+            "w": 10.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Space",
+            "x": 61.0,
+            "y": 55.0,
+            "w": 10.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5nOLb27hQ5w/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657918.9304256,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Ceedte\nAIE\nMicrotott Workr aws Wordd'sFar\nWorkfsFai VeroaR neo4j\nDATASTAK Wortr'sFai\nWordaFar YoredaFa",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 209.44
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "AIE\nCancel\nCreate\nAstronaut\nLayla\nSpace\nSUGGESTIONS",
+        "text_status": "meaningful",
+        "corrections": "Corrected the obvious OCR errors and kept only clearly visible slide/UI text; ignored the speaker inset and sponsor-wall text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5nOLb27hQ5w/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Adjust tone\nAI beta\nProfessional\nConcise\nApproachable\nCasual\nOr pick a preset\nExecutive  Technical\nBasic  Educational",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Screenshot contains multiple small UI labels and preset buttons; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f6f6f4",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Adjust tone",
+            "x": 60.0,
+            "y": 0,
+            "w": 24.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Or pick a preset",
+            "x": 62.0,
+            "y": 52.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "Executive Technical Basic Educational",
+            "x": 63.0,
+            "y": 63.0,
+            "w": 24.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/5nOLb27hQ5w/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657970.0460145,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Adjust tone",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "AIE Adjust tone Abu ull ing a\nCasual\nOr pck a preset\nWoriesFakr aws WoritsFai MongoDe Executive Technical\nCeud neoaj WorksF Basic Educational\nWorkfad WorihaFe aws\nWerif's.Fad",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 336.52
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Adjust tone\nAI beta\nProfessional\nConcise\nApproachable\nCasual\nOr pick a preset\nExecutive  Technical\nBasic  Educational",
+        "text_status": "meaningful",
+        "corrections": "Corrected OCR for obvious UI text and line breaks; ignored illegible background text and logos."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/5nOLb27hQ5w/slide-005.html"
+    }
+  ],
+  "rejected": []
+}

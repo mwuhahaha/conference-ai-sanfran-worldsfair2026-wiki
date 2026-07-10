@@ -1,0 +1,795 @@
+{
+  "video_id": "_xIwFcnHqp4",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 11,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Building Interactive UIs in VS Code with MCP Apps",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 14.0,
+            "h": 19.0
+          },
+          {
+            "role": "logo",
+            "text": "",
+            "x": 26.0,
+            "y": 2.0,
+            "w": 13.0,
+            "h": 28.0
+          },
+          {
+            "role": "title",
+            "text": "Building Interactive UIs in VS Code with MCP Apps",
+            "x": 40.0,
+            "y": 10.0,
+            "w": 56.0,
+            "h": 25.0
+          },
+          {
+            "role": "body",
+            "text": "MARLENE MHANGAMI\nSenior Developer Advocate\nMicrosoft/GitHub",
+            "x": 40.0,
+            "y": 74.0,
+            "w": 30.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "LIAM HAMPTON\nSenior Developer Advocate\nMicrosoft/GitHub",
+            "x": 40.0,
+            "y": 84.0,
+            "w": 30.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 49.0,
+            "y": 89.0,
+            "w": 30.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665983.166826,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Building Interactive UIs in VS Code with MCP Apps",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_xIwFcnHqp4/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agenda Session\n01 What is MCP?\n02 MCP Apps\n03 Building MCP Apps in VS Code (demo)",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 14.0,
+            "h": 19.0
+          },
+          {
+            "role": "title",
+            "text": "Agenda\nSession",
+            "x": 28.0,
+            "y": 5.0,
+            "w": 18.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "01 What is MCP?\n02 MCP Apps\n03 Building MCP Apps in VS Code (demo)",
+            "x": 55.0,
+            "y": 6.0,
+            "w": 37.0,
+            "h": 30.0
+          },
+          {
+            "role": "logo",
+            "text": "Braintrust",
+            "x": 42.0,
+            "y": 83.0,
+            "w": 13.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "WorkOS",
+            "x": 61.0,
+            "y": 83.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenAI",
+            "x": 82.0,
+            "y": 83.0,
+            "w": 10.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665983.1674435,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agenda Session\n01 What is MCP?\n02 MCP Apps\n03 Building MCP Apps in VS Code (demo)",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_xIwFcnHqp4/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Model Context Protocol\nMCP is an open protocol that standardizes how applications provide context to LLMs",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Model Context Protocol",
+            "x": 25.0,
+            "y": 12.0,
+            "w": 50.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "MCP is an open protocol that standardizes how applications provide context to LLMs",
+            "x": 29.0,
+            "y": 43.0,
+            "w": 53.0,
+            "h": 16.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer Europe",
+            "x": 56.0,
+            "y": 82.0,
+            "w": 23.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665983.167958,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Model Context Protocol\nMCP is an open protocol that standardizes how applications provide context to LLMs",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_xIwFcnHqp4/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Parts of MCP\nHosts\nClients",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Parts of MCP",
+            "x": 43.0,
+            "y": 5.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Hosts",
+            "x": 29.0,
+            "y": 20.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Clients",
+            "x": 52.0,
+            "y": 20.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 30.0,
+            "w": 14.0,
+            "h": 19.0
+          },
+          {
+            "role": "logo",
+            "text": "Engineering the future of AI",
+            "x": 42.0,
+            "y": 88.0,
+            "w": 38.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665983.1683385,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Parts of MCP\nHosts\nClients",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_xIwFcnHqp4/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "returnedas Context Drawadagram oxpiaining Mcp\ntext Rey.owed I.: Here's J diagram ciplainrg Vcp (yodel Context Prolocot]\n★ ★ ￥ AIE 9ph10 [.iuii] dyH.i8. -u)h ciA 6isornu s0uds..I-.- I.hi / 1ogod iY.l4 B---!\"HCP ProtoCoi\\nIJS-RPC ovcr sGio/HIIP)\"! CI\"P<P SCrvc\"\n（-->El\"\"Aesour<esfat the rocel （ read)\"」 C --> Dl\"< Toolsin(fuctions the rouel Can cal!\") ··f[. Pronptsinirrusablr p\"ongt trrplatrsi\")\nD ---l\"ciccutes\"I G!\"Extcrrat APis\\nDatabnses\\n:le Systcln\"c Scarch\"] E-->i\"c\"cOCs\"G\nF -->i\"orviis （ontt rron\"|G\nLots of emojls to compensate\n7.\nAIEngineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense screenshot with small embedded text; OCR is more suitable than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Context\nreturned as\ntext",
+            "x": 27.0,
+            "y": 12.0,
+            "w": 18.0,
+            "h": 23.0
+          },
+          {
+            "role": "code",
+            "text": "Draw a diagram explaining MCP",
+            "x": 78.0,
+            "y": 14.0,
+            "w": 15.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Lots of emojis to compensate",
+            "x": 27.0,
+            "y": 73.0,
+            "w": 22.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665983.1689036,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Context returned as text",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "returnedas Context Drawadagram oxpiaining Mcp\ntext Rey.owed I.: Here's J diagram ciplainrg Vcp (yodel Context Prolocot]\n★ ★ ￥ AIE 9ph10 [.iuii] dyH.i8. -u)h ciA 6isornu s0uds..I-.- I.hi / 1ogod iY.l4 B---!\"HCP ProtoCoi\\nIJS-RPC ovcr sGio/HIIP)\"! CI\"P<P SCrvc\"\n（-->El\"\"Aesour<esfat the rocel （ read)\"」 C --> Dl\"< Toolsin(fuctions the rouel Can cal!\") ··f[. Pronptsinirrusablr p\"ongt trrplatrsi\")\nD ---l\"ciccutes\"I G!\"Extcrrat APis\\nDatabnses\\n:le Systcln\"c Scarch\"] E-->i\"c\"cOCs\"G\nF -->i\"orviis （ontt rron\"|G\nLots of emojls to compensate\n7.\nAIEngineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 777.08
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "returnedas Context Drawadagram oxpiaining Mcp\ntext Rey.owed I.: Here's J diagram ciplainrg Vcp (yodel Context Prolocot]\n★ ★ ￥ AIE 9ph10 [.iuii] dyH.i8. -u)h ciA 6isornu s0uds..I-.- I.hi / 1ogod iY.l4 B---!\"HCP ProtoCoi\\nIJS-RPC ovcr sGio/HIIP)\"! CI\"P<P SCrvc\"\n（-->El\"\"Aesour<esfat the rocel （ read)\"」 C --> Dl\"< Toolsin(fuctions the rouel Can cal!\") ··f[. Pronptsinirrusablr p\"ongt trrplatrsi\")\nD ---l\"ciccutes\"I G!\"Extcrrat APis\\nDatabnses\\n:le Systcln\"c Scarch\"] E-->i\"c\"cOCs\"G\nF -->i\"orviis （ontt rron\"|G\nLots of emojls to compensate\n7.\nAIEngineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_xIwFcnHqp4/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Use Cases\nAIE\n+\nData Exploration Configuration Wizards E-Commerce\nInteractive dashboard with region filters, drill-down capabilities, export options \"production\" reveals security options;) Form with dependent flelds, selecting 'staging' shows different defaults all Inslde chat, powered by Iive. Browse, filter, compare, and add to cart Inventory from the McP Server\nGoogle DeepMind",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product slide with multiple dense UI screenshots and small supporting text; OCR is more appropriate than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Use Cases",
+            "x": 27.0,
+            "y": 6.0,
+            "w": 15.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Data Exploration",
+            "x": 28.0,
+            "y": 63.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Configuration Wizards",
+            "x": 51.0,
+            "y": 63.0,
+            "w": 21.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "E-Commerce",
+            "x": 78.0,
+            "y": 63.0,
+            "w": 14.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666013.8122842,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Use Cases",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Use Cases\nAIE\n+\nData Exploration Configuration Wizards E-Commerce\nInteractive dashboard with region filters, drill-down capabilities, export options \"production\" reveals security options;) Form with dependent flelds, selecting 'staging' shows different defaults all Inslde chat, powered by Iive. Browse, filter, compare, and add to cart Inventory from the McP Server\nGoogle DeepMind",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 613.8
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Use Cases\nAIE\n+\nData Exploration Configuration Wizards E-Commerce\nInteractive dashboard with region filters, drill-down capabilities, export options \"production\" reveals security options;) Form with dependent flelds, selecting 'staging' shows different defaults all Inslde chat, powered by Iive. Browse, filter, compare, and add to cart Inventory from the McP Server\nGoogle DeepMind",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_xIwFcnHqp4/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Who's building MCP Apps?\nShopify\nExcalidraw\nFigma",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title-and-examples slide; readable without OCR.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Who's building MCP Apps?",
+            "x": 26.0,
+            "y": 6.0,
+            "w": 48.0,
+            "h": 12.0
+          },
+          {
+            "role": "caption",
+            "text": "Shopify",
+            "x": 27.0,
+            "y": 75.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Excalidraw",
+            "x": 49.0,
+            "y": 75.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Figma",
+            "x": 79.0,
+            "y": 75.0,
+            "w": 9.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666174.8880067,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Who's building MCP Apps?\nShopify\nExcalidraw\nFigma",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_xIwFcnHqp4/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Create MCP App",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense editor screenshot with small UI text and multiple sections; OCR will do better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(180deg, #0b1630, #07101f)",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Create MCP App",
+            "x": 47.0,
+            "y": 12.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Core Concept: Tool + Resource",
+            "x": 47.0,
+            "y": 24.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Quick Start Decision Tree",
+            "x": 47.0,
+            "y": 38.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Framework Selection",
+            "x": 47.0,
+            "y": 46.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Project Context",
+            "x": 47.0,
+            "y": 75.0,
+            "w": 14.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666174.889607,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Create MCP App",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 883.48,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_xIwFcnHqp4/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code-heavy slide with small text and IDE chrome; OCR is the right extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(180deg, #0b1630, #07101f)",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "main.go",
+            "x": 44.0,
+            "y": 9.0,
+            "w": 8.0,
+            "h": 3.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666209.7473392,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 606.16,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0085
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_xIwFcnHqp4/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart/profile screenshot with tiny labels and dense visual data; OCR will help more than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "main",
+            "x": 48.0,
+            "y": 7.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Flamegraph",
+            "x": 49.0,
+            "y": 14.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Top Functions",
+            "x": 58.0,
+            "y": 14.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Summary",
+            "x": 75.0,
+            "y": 14.0,
+            "w": 10.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666253.7178018,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 121.96,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.013
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_xIwFcnHqp4/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "LLM Model\nMCP Server\nHost (VS Code)\niframe (Your React UI)",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Low-text diagram slide; labels are readable directly and OCR is not necessary for triage.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(180deg, #0b1630, #07101f)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "LLM Model",
+            "x": 43.0,
+            "y": 11.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MCP Server",
+            "x": 43.0,
+            "y": 28.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Host (VS Code)",
+            "x": 42.0,
+            "y": 49.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "iframe (Your React UI)",
+            "x": 41.0,
+            "y": 72.0,
+            "w": 24.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666262.3974147,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "LLM Model\nMCP Server\nHost (VS Code)\niframe (Your React UI)",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/_xIwFcnHqp4/slide-012.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.85,
+      "frame_type": "demo_video",
+      "reject_reason": "PowerPoint editor UI and stage-camera inset; not a clean slide frame.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Demo/video footage with surrounding UI; not suitable for slide OCR triage.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/_xIwFcnHqp4/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666174.8890383,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

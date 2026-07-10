@@ -1,0 +1,52 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "speaker_stage",
+  "reject_reason": "speaker at podium with projected slide; not a clean slide frame",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "not a clean slide frame",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "white/gray wall with projected screen",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Road to 5M Sequence Length",
+        "x": 46.0,
+        "y": 10.0,
+        "w": 46.0,
+        "h": 28.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Breaking Memory Barriers in Context Parallelism",
+        "x": 47.0,
+        "y": 33.0,
+        "w": 44.0,
+        "h": 18.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 3.0,
+        "y": 71.0,
+        "w": 23.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/TUnPNY4E2fw/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664287.191124,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

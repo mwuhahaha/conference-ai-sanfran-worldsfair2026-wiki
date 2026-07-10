@@ -1,0 +1,36 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.96,
+  "frame_type": "sponsor_logo",
+  "reject_reason": "logo wall",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#ffffff",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AUTOMATTIC",
+        "x": 42.0,
+        "y": 57.0,
+        "w": 16.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/UcYoMg-8-L8/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664839.327085,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

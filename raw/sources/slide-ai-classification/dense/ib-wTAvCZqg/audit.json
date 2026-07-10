@@ -1,0 +1,286 @@
+{
+  "video_id": "ib-wTAvCZqg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 4,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agents typically use tool (function) calling to execute steps\nAIE\nHatwral lusgusge Paylotd Mtdtd far too!\n:(f:.+y.).:sw+ea! Wm+: sttp.2\ntef sttp_2(foo): too! Strtrtured Too!\nrtura b.r\nhttps:1/llianweng.qilhub.iq/cosis/2023-06-23-aqent\n88 Microsoft smol?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small diagram labels and code-like text are better handled by OCR than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "light beige",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 12.0,
+            "w": 12.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "Agents typically use tool (function) calling to execute steps",
+            "x": 29.0,
+            "y": 1.0,
+            "w": 66.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Natural language",
+            "x": 31.0,
+            "y": 34.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Bind tool to LLM",
+            "x": 55.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Payload needed for tool",
+            "x": 76.0,
+            "y": 31.0,
+            "w": 20.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ib-wTAvCZqg/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669139.44012,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Agents typically use tool (function) calling to execute steps",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Agents typically use tool (function) calling to execute steps\nAIE\nHatwral lusgusge Paylotd Mtdtd far too!\n:(f:.+y.).:sw+ea! Wm+: sttp.2\ntef sttp_2(foo): too! Strtrtured Too!\nrtura b.r\nhttps:1/llianweng.qilhub.iq/cosis/2023-06-23-aqent\n88 Microsoft smol?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 383.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Agents typically use tool (function) calling to execute steps\nAIE\nHatwral lusgusge Paylotd Mtdtd far too!\n:(f:.+y.).:sw+ea! Wm+: sttp.2\ntef sttp_2(foo): too! Strtrtured Too!\nrtura b.r\nhttps:1/llianweng.qilhub.iq/cosis/2023-06-23-aqent\n88 Microsoft smol?",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ib-wTAvCZqg/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Architecting + testing reliable agents\nLance Martin\nSoftware Engineer, LangChain",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large title-card text is easy to read directly.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "light off-white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 12.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "Architecting + testing reliable agents",
+            "x": 41.0,
+            "y": 42.0,
+            "w": 38.0,
+            "h": 11.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Lance Martin",
+            "x": 46.0,
+            "y": 57.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Software Engineer, LangChain",
+            "x": 42.0,
+            "y": 64.0,
+            "w": 30.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ib-wTAvCZqg/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669164.9268613,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Architecting + testing reliable agents\nLance Martin\nSoftware Engineer, LangChain",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ib-wTAvCZqg/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code screenshot with small text; OCR will outperform manual reading.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 12.0,
+            "w": 12.0,
+            "h": 15.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 37.0,
+            "y": 0,
+            "w": 46.0,
+            "h": 76.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ib-wTAvCZqg/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669164.927416,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/full",
+        "best_score": 259.24,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0169
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ib-wTAvCZqg/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Retrieval is not guaranteed, reasoning harder than retrieval\nAIE Asktng cpt-l te rvtrir ur rutrlr+ & ratea 1. ), *r 1+ n+dlts (facts) in 4 slrgtt turn 12o.t++ t+ht+ (tattat +irtta ta+us 1t+)r+) 4t H+15u 4t +++ru 4yt4+ 11+sty Lsblo Gt-a te rrtrlrwa ll wiqoe fsrts Ia 1 tu\nI tf tts.r (t=tm (ttt) 0004 24100 C Llt C 7:400 ta 11000\nhltps://voutubeUlmyYQGhzs\nhltos://blog. langchain.dey/multi-needle-in-a:havstack\naws",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense chart labels and small comparison text; OCR is the cheaper pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light cream",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 12.0,
+            "w": 12.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "Retrieval is not guaranteed, reasoning harder than retrieval",
+            "x": 29.0,
+            "y": 1.0,
+            "w": 66.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ib-wTAvCZqg/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669215.632167,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Retrieval is not guaranteed, reasoning harder than retrieval",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Retrieval is not guaranteed, reasoning harder than retrieval\nAIE Asktng cpt-l te rvtrir ur rutrlr+ & ratea 1. ), *r 1+ n+dlts (facts) in 4 slrgtt turn 12o.t++ t+ht+ (tattat +irtta ta+us 1t+)r+) 4t H+15u 4t +++ru 4yt4+ 11+sty Lsblo Gt-a te rrtrlrwa ll wiqoe fsrts Ia 1 tu\nI tf tts.r (t=tm (ttt) 0004 24100 C Llt C 7:400 ta 11000\nhltps://voutubeUlmyYQGhzs\nhltos://blog. langchain.dey/multi-needle-in-a:havstack\naws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 490.68
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Retrieval is not guaranteed, reasoning harder than retrieval\nAIE Asktng cpt-l te rvtrir ur rutrlr+ & ratea 1. ), *r 1+ n+dlts (facts) in 4 slrgtt turn 12o.t++ t+ht+ (tattat +irtta ta+us 1t+)r+) 4t H+15u 4t +++ru 4yt4+ 11+sty Lsblo Gt-a te rrtrlrwa ll wiqoe fsrts Ia 1 tu\nI tf tts.r (t=tm (ttt) 0004 24100 C Llt C 7:400 ta 11000\nhltps://voutubeUlmyYQGhzs\nhltos://blog. langchain.dey/multi-needle-in-a:havstack\naws",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ib-wTAvCZqg/slide-004.html"
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Rachel-Lee Nabors (they/them) nearestnabors.com 00o Ichthyosaur echolocation capablites 8.8 pue poods ynm pooorei ea ppoo uopiu spodoeudao pue usy jo 00\nit's moderately plauslble but far from certainprobably Lookdng at the cyidence Ior Ichthyosaur ccholocaton, Id say. What They DidUsea agility rather than echolocation\nnumber on it. somewhere Inthe30-50%lkelihoodrange if I had toputa Visione Their large ey Lahts oven tn low\nHere's my reasonlng: Evidence suggesting they might have had echolocatlon: 1Anatomical similariues: Some ichthyosaurs had eniarged Conclusion? Anbush Tacties They Ikely reled on stcalun snd rapid bursts o speed Tactile Sonsitivity; Someo specios may havo used lateras Hne systems (common In flsh) to detect prey movements: to capture prey.\n2. Ecological niche Many ichthyosaurs were deep-diving stapedial bones (part of the ear structure) slmilar to modern cetaceans that echolocate. This couldIndlcate enhanced sound processing capabilitiess there is no evidence to support its presence kn ichthysaurs Thelr anatomy sound-basednavigation. to dm\npredators hunting In low-llght conditlons:exactly the? Into that!\nlike in toothed whales and r g hins today. scenariowhere echolocatlon would be advantageous, Just\n3.Convergent evolutlon:Ichthyosaurs show remarkable\nHow canh he p you today? Sdessalu oiebybu ot1t/lx\n1 Sonnct4.SV 131 1.0000",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense screenshot with small text and multiple paragraphs; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#1f1f1f",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Ichthyosaur echolocation capabilities",
+        "x": 30.0,
+        "y": 1.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Evidence suggesting they might have had echolocation:",
+        "x": 6.0,
+        "y": 10.0,
+        "w": 42.0,
+        "h": 68.0
+      },
+      {
+        "role": "body",
+        "text": "What They Did Use:\nConclusion:",
+        "x": 53.0,
+        "y": 10.0,
+        "w": 40.0,
+        "h": 68.0
+      },
+      {
+        "role": "caption",
+        "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+        "x": 0,
+        "y": 0,
+        "w": 7.0,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667956.5106323,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Ichthyosaur echolocation capabilities",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Rachel-Lee Nabors (they/them) nearestnabors.com 00o Ichthyosaur echolocation capablites 8.8 pue poods ynm pooorei ea ppoo uopiu spodoeudao pue usy jo 00\nit's moderately plauslble but far from certainprobably Lookdng at the cyidence Ior Ichthyosaur ccholocaton, Id say. What They DidUsea agility rather than echolocation\nnumber on it. somewhere Inthe30-50%lkelihoodrange if I had toputa Visione Their large ey Lahts oven tn low\nHere's my reasonlng: Evidence suggesting they might have had echolocatlon: 1Anatomical similariues: Some ichthyosaurs had eniarged Conclusion? Anbush Tacties They Ikely reled on stcalun snd rapid bursts o speed Tactile Sonsitivity; Someo specios may havo used lateras Hne systems (common In flsh) to detect prey movements: to capture prey.\n2. Ecological niche Many ichthyosaurs were deep-diving stapedial bones (part of the ear structure) slmilar to modern cetaceans that echolocate. This couldIndlcate enhanced sound processing capabilitiess there is no evidence to support its presence kn ichthysaurs Thelr anatomy sound-basednavigation. to dm\npredators hunting In low-llght conditlons:exactly the? Into that!\nlike in toothed whales and r g hins today. scenariowhere echolocatlon would be advantageous, Just\n3.Convergent evolutlon:Ichthyosaurs show remarkable\nHow canh he p you today? Sdessalu oiebybu ot1t/lx\n1 Sonnct4.SV 131 1.0000",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1815.42
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Rachel-Lee Nabors (they/them) nearestnabors.com 00o Ichthyosaur echolocation capablites 8.8 pue poods ynm pooorei ea ppoo uopiu spodoeudao pue usy jo 00\nit's moderately plauslble but far from certainprobably Lookdng at the cyidence Ior Ichthyosaur ccholocaton, Id say. What They DidUsea agility rather than echolocation\nnumber on it. somewhere Inthe30-50%lkelihoodrange if I had toputa Visione Their large ey Lahts oven tn low\nHere's my reasonlng: Evidence suggesting they might have had echolocatlon: 1Anatomical similariues: Some ichthyosaurs had eniarged Conclusion? Anbush Tacties They Ikely reled on stcalun snd rapid bursts o speed Tactile Sonsitivity; Someo specios may havo used lateras Hne systems (common In flsh) to detect prey movements: to capture prey.\n2. Ecological niche Many ichthyosaurs were deep-diving stapedial bones (part of the ear structure) slmilar to modern cetaceans that echolocate. This couldIndlcate enhanced sound processing capabilitiess there is no evidence to support its presence kn ichthysaurs Thelr anatomy sound-basednavigation. to dm\npredators hunting In low-llght conditlons:exactly the? Into that!\nlike in toothed whales and r g hins today. scenariowhere echolocatlon would be advantageous, Just\n3.Convergent evolutlon:Ichthyosaurs show remarkable\nHow canh he p you today? Sdessalu oiebybu ot1t/lx\n1 Sonnct4.SV 131 1.0000",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

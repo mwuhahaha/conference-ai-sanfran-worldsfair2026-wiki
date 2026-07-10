@@ -1,0 +1,50 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "→ ☆ thra rc orh a.u Crt\nC h D Hy Dltt + detgt.. I D Aers\n@ celecr. Guic 6\nbeoch mthout warning. +rien*+: Through Sunday Grentrg. \"lipoct+': Lorge, Lrepected tives Con fteep crors the\nYolley ond fast foy Interior Yolteyt. In dese fog. 2. *\"Dense Fog Aori sory\"*: rhot\"': Visibility ore quarter mile to os lon ay Mo ftet Ireere*+: Acrots vortous regtont, including San Jooquln *\"men-+: Until ll A psT thit rorming.\n2025-11-22 U1C t8 26 2438 + ar u s+t Auhm /ue u+u +nt - AAo?ropotoAu Event History 2025-11.22 UTC 1026:11.76\nOtl wtsth+_alvrt i Get atather sorlt for a Us ttio.\n34mi 7t013 kerrcke_node_sctvty · are there any weether alerts in CA? 7$7m1 75 1 220:01 41 41 699.14 $s 17ms E 676s Q 6s 0514 7 11mt 507mm 7t 971ms 41 440.4 p1608 19 alley, and others.\ny Central Coast Beoches.\nJSON Dsc ← 11 中 Pending smd Faied Only V Event Types\n23 2025-11-22 U1C 18-26:3376 3Workflow Execution Complcted A+un I'Currently. ther+ sr+ tral +ather lerts Ln C\n22 2025-11-22 UTC 18:26:33.76 Workfiow Task Completed bntiy C0i97@Cornelat-hacBcok-Pro.locs1 11.12 ('.venv': veny)",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense workflow-history timeline and log table are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Event History",
+        "x": 37.0,
+        "y": 19.0,
+        "w": 20.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/k8cnVCMYmNc/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669747.9472334,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Event History",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "→ ☆ thra rc orh a.u Crt\nC h D Hy Dltt + detgt.. I D Aers\n@ celecr. Guic 6\nbeoch mthout warning. +rien*+: Through Sunday Grentrg. \"lipoct+': Lorge, Lrepected tives Con fteep crors the\nYolley ond fast foy Interior Yolteyt. In dese fog. 2. *\"Dense Fog Aori sory\"*: rhot\"': Visibility ore quarter mile to os lon ay Mo ftet Ireere*+: Acrots vortous regtont, including San Jooquln *\"men-+: Until ll A psT thit rorming.\n2025-11-22 U1C t8 26 2438 + ar u s+t Auhm /ue u+u +nt - AAo?ropotoAu Event History 2025-11.22 UTC 1026:11.76\nOtl wtsth+_alvrt i Get atather sorlt for a Us ttio.\n34mi 7t013 kerrcke_node_sctvty · are there any weether alerts in CA? 7$7m1 75 1 220:01 41 41 699.14 $s 17ms E 676s Q 6s 0514 7 11mt 507mm 7t 971ms 41 440.4 p1608 19 alley, and others.\ny Central Coast Beoches.\nJSON Dsc ← 11 中 Pending smd Faied Only V Event Types\n23 2025-11-22 U1C 18-26:3376 3Workflow Execution Complcted A+un I'Currently. ther+ sr+ tral +ather lerts Ln C\n22 2025-11-22 UTC 18:26:33.76 Workfiow Task Completed bntiy C0i97@Cornelat-hacBcok-Pro.locs1 11.12 ('.venv': veny)",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1348.8
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "→ ☆ thra rc orh a.u Crt\nC h D Hy Dltt + detgt.. I D Aers\n@ celecr. Guic 6\nbeoch mthout warning. +rien*+: Through Sunday Grentrg. \"lipoct+': Lorge, Lrepected tives Con fteep crors the\nYolley ond fast foy Interior Yolteyt. In dese fog. 2. *\"Dense Fog Aori sory\"*: rhot\"': Visibility ore quarter mile to os lon ay Mo ftet Ireere*+: Acrots vortous regtont, including San Jooquln *\"men-+: Until ll A psT thit rorming.\n2025-11-22 U1C t8 26 2438 + ar u s+t Auhm /ue u+u +nt - AAo?ropotoAu Event History 2025-11.22 UTC 1026:11.76\nOtl wtsth+_alvrt i Get atather sorlt for a Us ttio.\n34mi 7t013 kerrcke_node_sctvty · are there any weether alerts in CA? 7$7m1 75 1 220:01 41 41 699.14 $s 17ms E 676s Q 6s 0514 7 11mt 507mm 7t 971ms 41 440.4 p1608 19 alley, and others.\ny Central Coast Beoches.\nJSON Dsc ← 11 中 Pending smd Faied Only V Event Types\n23 2025-11-22 U1C 18-26:3376 3Workflow Execution Complcted A+un I'Currently. ther+ sr+ tral +ather lerts Ln C\n22 2025-11-22 UTC 18:26:33.76 Workfiow Task Completed bntiy C0i97@Cornelat-hacBcok-Pro.locs1 11.12 ('.venv': veny)",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

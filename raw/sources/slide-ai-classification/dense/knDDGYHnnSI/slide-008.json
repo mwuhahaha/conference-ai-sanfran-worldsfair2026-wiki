@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "T+ ne04 0\n+ n+o-l|+s/3to rb890 dhstatea.reo4ila7te7: Neo4J connectlon Disconect 202-0.1120514\nDrag& Drop O Show fles with status New G014.0 11011 14\nLestructur ed le.l 0 Namo Th+ Four Wl... Status + Completed Uploid Status +Upedad 27.10 Siza (KB) 1X31 Sourco. YoUtuba 224 411110\nYoutube OperAl +Conpleied +Cpydad:&.07 TEXT wikipo\nTho Batch M.. Conplotad ◆Lpcadad 1507.79 locat fili\nWlklp+dlo\nAmhion S3\nShowing t-3 of 3 results Show 5 √\nGcs\nGp.to Preview Graph [3) Explore Gragh wtth Bloom Dolete Files(3)]",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product UI screenshot with many small labels, rows, and buttons; OCR is appropriate for the table and controls.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6f7f5",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "neo4j",
+        "x": 3.0,
+        "y": 3.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Neo4j connection",
+        "x": 29.0,
+        "y": 11.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Drag & Drop\nor browse",
+        "x": 8.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "Youtube\nWikipedia\nAmazon S3\nGCS",
+        "x": 8.0,
+        "y": 40.0,
+        "w": 18.0,
+        "h": 38.0
+      },
+      {
+        "role": "body",
+        "text": "Name  Status  Upload Status  Size (KB)  Source",
+        "x": 33.0,
+        "y": 18.0,
+        "w": 49.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Generate Graph  Preview Graph (3)  Explore Graph with Bloom  Delete File(s)(3)",
+        "x": 30.0,
+        "y": 89.0,
+        "w": 64.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/knDDGYHnnSI/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670359.061745,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Neo4j connection",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "T+ ne04 0\n+ n+o-l|+s/3to rb890 dhstatea.reo4ila7te7: Neo4J connectlon Disconect 202-0.1120514\nDrag& Drop O Show fles with status New G014.0 11011 14\nLestructur ed le.l 0 Namo Th+ Four Wl... Status + Completed Uploid Status +Upedad 27.10 Siza (KB) 1X31 Sourco. YoUtuba 224 411110\nYoutube OperAl +Conpleied +Cpydad:&.07 TEXT wikipo\nTho Batch M.. Conplotad ◆Lpcadad 1507.79 locat fili\nWlklp+dlo\nAmhion S3\nShowing t-3 of 3 results Show 5 √\nGcs\nGp.to Preview Graph [3) Explore Gragh wtth Bloom Dolete Files(3)]",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 757.4
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "T+ ne04 0\n+ n+o-l|+s/3to rb890 dhstatea.reo4ila7te7: Neo4J connectlon Disconect 202-0.1120514\nDrag& Drop O Show fles with status New G014.0 11011 14\nLestructur ed le.l 0 Namo Th+ Four Wl... Status + Completed Uploid Status +Upedad 27.10 Siza (KB) 1X31 Sourco. YoUtuba 224 411110\nYoutube OperAl +Conpleied +Cpydad:&.07 TEXT wikipo\nTho Batch M.. Conplotad ◆Lpcadad 1507.79 locat fili\nWlklp+dlo\nAmhion S3\nShowing t-3 of 3 results Show 5 √\nGcs\nGp.to Preview Graph [3) Explore Gragh wtth Bloom Dolete Files(3)]",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

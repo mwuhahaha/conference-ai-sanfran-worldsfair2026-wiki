@@ -1,0 +1,103 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product UI screenshot with multiple small text regions is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark navy",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Product requirements review · live",
+        "x": 2.0,
+        "y": 2.0,
+        "w": 34.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Dana",
+        "x": 11.0,
+        "y": 9.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Sam",
+        "x": 31.0,
+        "y": 9.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Jordan",
+        "x": 50.0,
+        "y": 9.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Speaking",
+        "x": 63.0,
+        "y": 9.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Clarification resolved",
+        "x": 64.0,
+        "y": 30.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "GOALS",
+        "x": 64.0,
+        "y": 43.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "REQUIREMENT",
+        "x": 64.0,
+        "y": 72.0,
+        "w": 16.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-018.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668589.3495216,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/border-trim/contrast",
+    "best_score": 1644.23,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0023
+  }
+}

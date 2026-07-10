@@ -1,0 +1,142 @@
+{
+  "video_id": "qaJXBMwUkoE",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 1,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Sarnoffs Law On) Metcalfos Law Oh) Reed's Law O(2*n)\nSarnoff's Law Metcalfe's Law Reed'sLaw\nX/N XIN\nV=n V=112\nSourte, NFX'BANt\nincreases In direct proportion to the The value of the network (M) sirc of the rctwork (n). to the square of the number ot Users in the network. The value of the network increases influence or interconnectedness). Networks may grov proportionally to the nelwork slze but there are forming groups that scale faster in value than others (becuse ot",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-column diagram slide with small body copy; OCR will be more reliable than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with a large warm beige central panel",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Sarnoff's Law - O(n)",
+            "x": 14.0,
+            "y": 5.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Metcalfe's Law - O(n²)",
+            "x": 42.0,
+            "y": 5.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Reed's Law - O(2^n)",
+            "x": 69.0,
+            "y": 5.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Sarnoff's Law",
+            "x": 15.0,
+            "y": 16.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Metcalfe's Law",
+            "x": 43.0,
+            "y": 16.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Reed's Law",
+            "x": 73.0,
+            "y": 16.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "V=n",
+            "x": 17.0,
+            "y": 60.0,
+            "w": 7.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "V=n²",
+            "x": 47.0,
+            "y": 60.0,
+            "w": 7.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "V=2^n",
+            "x": 74.0,
+            "y": 60.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/qaJXBMwUkoE/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670728.387327,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/opencv-adaptive",
+        "text": "Sarnoffs Law On) Metcalfos Law Oh) Reed's Law O(2*n)\nSarnoff's Law Metcalfe's Law Reed'sLaw\nX/N XIN\nV=n V=112\nSourte, NFX'BANt\nincreases In direct proportion to the The value of the network (M) sirc of the rctwork (n). to the square of the number ot Users in the network. The value of the network increases influence or interconnectedness). Networks may grov proportionally to the nelwork slze but there are forming groups that scale faster in value than others (becuse ot",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 681.04
+      },
+      "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Sarnoffs Law On) Metcalfos Law Oh) Reed's Law O(2*n)\nSarnoff's Law Metcalfe's Law Reed'sLaw\nX/N XIN\nV=n V=112\nSourte, NFX'BANt\nincreases In direct proportion to the The value of the network (M) sirc of the rctwork (n). to the square of the number ot Users in the network. The value of the network increases influence or interconnectedness). Networks may grov proportionally to the nelwork slze but there are forming groups that scale faster in value than others (becuse ot",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/qaJXBMwUkoE/slide-001.html"
+    }
+  ],
+  "rejected": []
+}

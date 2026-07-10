@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Small AI Can Still Deliver Operational Value\n1. Use deterministic logic for observable facts\n2. Use RL where contextual action selection adds value\n3. Place safety constraints outside the learned policy\n4. Treat escalation and validation as core capabilities\n5. Evaluate across repeated seeds, not one favorable run",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(180deg,#f5f3ef,#eee8e0)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Small AI Can Still Deliver Operational Value",
+        "x": 4.0,
+        "y": 5.0,
+        "w": 56.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "1. Use deterministic logic for observable facts\n2. Use RL where contextual action selection adds value\n3. Place safety constraints outside the learned policy\n4. Treat escalation and validation as core capabilities\n5. Evaluate across repeated seeds, not one favorable run",
+        "x": 5.0,
+        "y": 16.0,
+        "w": 53.0,
+        "h": 36.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 73.0,
+        "y": 10.0,
+        "w": 23.0,
+        "h": 39.0
+      },
+      {
+        "role": "title",
+        "text": "Takeaways",
+        "x": 3.0,
+        "y": 70.0,
+        "w": 28.0,
+        "h": 14.0
+      },
+      {
+        "role": "caption",
+        "text": "A practical self-healing pipeline does not need a giant model. It needs bounded authority, reproducible evidence, and the discipline to escalate when it is uncertain.",
+        "x": 47.0,
+        "y": 72.0,
+        "w": 49.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/LrGCT7G_rU8/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661560.4451177,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Small AI Can Still Deliver Operational Value\n1. Use deterministic logic for observable facts\n2. Use RL where contextual action selection adds value\n3. Place safety constraints outside the learned policy\n4. Treat escalation and validation as core capabilities\n5. Evaluate across repeated seeds, not one favorable run",
+  "advanced_ocr": {}
+}

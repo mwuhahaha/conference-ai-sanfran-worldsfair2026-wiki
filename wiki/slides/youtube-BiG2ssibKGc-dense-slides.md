@@ -16,6 +16,17 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/BiG2ssibKGc/slide-001.jpg]]
 
-- Source scene image: `frame-00002.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.28`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/BiG2ssibKGc/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.94`
+- Text source: agent_vision.
+
+Slide text:
+
+> CONTEXT ENGINEERING
+> Stop babysitting your agents: building a context engine for mergeable code
+> Brandon Waselnuk
+> Unblocked | getunblocked.com
+> AIE Europe 2026
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/BiG2ssibKGc/audit.json`

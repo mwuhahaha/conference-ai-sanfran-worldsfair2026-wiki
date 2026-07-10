@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Top newsletters from respondents Top podcasts from respondents\nLatent Space (swyx) Latent Space (swyx & Alessio)\nThe Batch (Andrew Ng) 62 Machine Learning Street Talk (Tim Scarfe)\n3 Interconnects (Nathan Lambert) The Cognitive Revolution (Nathan Labenz)\nAhead of Al (Sebastian Raschka) No Priors (Sarah Guo and Elad Gil)\nAlphaSignal (Lior Alexander) 5 This Week in Machine Learning/Al (Sam C.)\nSemiAnalysis (Dylan Patel) Gradient Dissent (Lukas Biewald)\nEugene Yan's Newsletter Practical Al (Dan Whitenack)\nBen's Bites (Ben Tossell) The Gradient (Daniel Bashir)\nImport Al (Jack Clark) Weaviate Podcast (Connor Shorten)\nThe Neuron (Noah Edelman) *Robot Brains (Pieter Abbeel)\nAmgtityN taginarg Sunn",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "two dense text columns",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Top newsletters from respondents",
+        "x": 5.0,
+        "y": 6.0,
+        "w": 32.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "Top podcasts from respondents",
+        "x": 53.0,
+        "y": 6.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Latent Space (swyx)\nThe Batch (Andrew Ng)\nInterconnects (Nathan Lambert)\nAhead of AI (Sebastian Raschka)\nAlphaSignal (Lior Alexander)\nSemiAnalysis (Dylan Patel)\nEugene Yan's Newsletter\nBen's Bites (Ben Tossell)\nImport AI (Jack Clark)\nThe Neuron (Noah Edelman)",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 42.0,
+        "h": 78.0
+      },
+      {
+        "role": "body",
+        "text": "Latent Space (swyx & Alessio)\nMachine Learning Street Talk (Tim Scarfe)\nThe Cognitive Revolution (Nathan Labenz)\nNo Priors (Sarah Guo and Elad Gil)\nThis Week in Machine Learning/AI (Sam C.)\nGradient Dissent (Lukas Biewald)\nPractical AI (Dan Whitenack)\nThe Gradient (Daniel Bashir)\nWeaviate Podcast (Connor Shorten)\nRobot Brains (Pieter Abbeel)",
+        "x": 53.0,
+        "y": 14.0,
+        "w": 42.0,
+        "h": 78.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/mQ7_Zje7WKE/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670654.3614786,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Top newsletters from respondents Top podcasts from respondents\nLatent Space (swyx) Latent Space (swyx & Alessio)\nThe Batch (Andrew Ng) 62 Machine Learning Street Talk (Tim Scarfe)\n3 Interconnects (Nathan Lambert) The Cognitive Revolution (Nathan Labenz)\nAhead of Al (Sebastian Raschka) No Priors (Sarah Guo and Elad Gil)\nAlphaSignal (Lior Alexander) 5 This Week in Machine Learning/Al (Sam C.)\nSemiAnalysis (Dylan Patel) Gradient Dissent (Lukas Biewald)\nEugene Yan's Newsletter Practical Al (Dan Whitenack)\nBen's Bites (Ben Tossell) The Gradient (Daniel Bashir)\nImport Al (Jack Clark) Weaviate Podcast (Connor Shorten)\nThe Neuron (Noah Edelman) *Robot Brains (Pieter Abbeel)\nAmgtityN taginarg Sunn",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1060.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Top newsletters from respondents Top podcasts from respondents\nLatent Space (swyx) Latent Space (swyx & Alessio)\nThe Batch (Andrew Ng) 62 Machine Learning Street Talk (Tim Scarfe)\n3 Interconnects (Nathan Lambert) The Cognitive Revolution (Nathan Labenz)\nAhead of Al (Sebastian Raschka) No Priors (Sarah Guo and Elad Gil)\nAlphaSignal (Lior Alexander) 5 This Week in Machine Learning/Al (Sam C.)\nSemiAnalysis (Dylan Patel) Gradient Dissent (Lukas Biewald)\nEugene Yan's Newsletter Practical Al (Dan Whitenack)\nBen's Bites (Ben Tossell) The Gradient (Daniel Bashir)\nImport Al (Jack Clark) Weaviate Podcast (Connor Shorten)\nThe Neuron (Noah Edelman) *Robot Brains (Pieter Abbeel)\nAmgtityN taginarg Sunn",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

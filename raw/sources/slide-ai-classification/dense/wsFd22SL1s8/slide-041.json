@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arrakis: Claude Desktop Vibe Coding\n- Create a Google Docs clone where multiple people can join by specifying the name of the doc\n- Use NodeJS and run the app on port 5737 in the background.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "The title and bullets are already readable; the rest is a demo screenshot.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "off-white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis: Claude Desktop Vibe Coding",
+        "x": 5.0,
+        "y": 0,
+        "w": 62.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Create a Google Docs clone where multiple people can join by specifying the name of the doc\nUse NodeJS and run the app on port 5737 in the background.",
+        "x": 13.0,
+        "y": 67.0,
+        "w": 76.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 6.0,
+        "y": 8.0,
+        "w": 88.0,
+        "h": 58.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-041.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-041.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783674201.6471562,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Arrakis: Claude Desktop Vibe Coding\n- Create a Google Docs clone where multiple people can join by specifying the name of the doc\n- Use NodeJS and run the app on port 5737 in the background.",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Upload document",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product/admin UI screenshot with dense table text and controls; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Upload document",
+        "x": 16.0,
+        "y": 8.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "PDF, PPTX, DOCX, XLSX, MD, TXT — parsed by Docling, chunked and embedded automatically.",
+        "x": 16.0,
+        "y": 13.0,
+        "w": 66.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Upload screenshot or image",
+        "x": 16.0,
+        "y": 31.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Knowledge base",
+        "x": 16.0,
+        "y": 43.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Filename / Strategy / Chunks / Status / Uploaded / Actions",
+        "x": 18.0,
+        "y": 52.0,
+        "w": 64.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/Akm1sqvWG4A/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658490.5810142,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Upload document",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

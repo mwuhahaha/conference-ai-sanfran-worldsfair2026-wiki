@@ -1,0 +1,253 @@
+{
+  "video_id": "ZuiJjkbX0Og",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 3,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "HOW LLMS WORK FOR WEB DEVS\nGPT in 600 lines of Vanilla JavaScript\nIshan Anand\nSpreadsheets-are-all-you-need.ai",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "warm beige slide on black stage background",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 10.0,
+            "h": 23.0
+          },
+          {
+            "role": "title",
+            "text": "HOW LLMS WORK FOR WEB DEVS",
+            "x": 32.0,
+            "y": 16.0,
+            "w": 49.0,
+            "h": 23.0
+          },
+          {
+            "role": "subtitle",
+            "text": "GPT in 600 lines of Vanilla JavaScript",
+            "x": 34.0,
+            "y": 41.0,
+            "w": 43.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Ishan Anand",
+            "x": 40.0,
+            "y": 64.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Spreadsheets-are-all-you-need.ai",
+            "x": 39.0,
+            "y": 72.0,
+            "w": 27.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "1. Visit spreadsheets-are-all-you-need.ai in Chrome\n2. Click Discord link in the menu\n3. Go to the #ai-engineer-worlds-fair-2025 room\n4. Download GPT2 model in the pinned message",
+            "x": 63.0,
+            "y": 0,
+            "w": 33.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZuiJjkbX0Og/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665766.669042,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "HOW LLMS WORK FOR WEB DEVS\nGPT in 600 lines of Vanilla JavaScript\nIshan Anand\nSpreadsheets-are-all-you-need.ai",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZuiJjkbX0Og/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense paper screenshot, small diagram labels, and multi-column technical text are better handled by OCR",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light beige with purple gradient corner",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AN IMAGE IS WORTH 16x16 WORDS:\nTRANSFORMERS FOR IMAGE RECOGNITION AT SCALE",
+            "x": 30.0,
+            "y": 4.0,
+            "w": 44.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Vision Transformer (ViT)",
+            "x": 41.0,
+            "y": 39.0,
+            "w": 15.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Transformer Encoder",
+            "x": 73.0,
+            "y": 33.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "purple arrow",
+            "x": 28.0,
+            "y": 41.0,
+            "w": 13.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZuiJjkbX0Og/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665766.669972,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 1318.24,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0008
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZuiJjkbX0Og/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Spread the word on spreadsheets-are-all-you-need\nVisit Spreadsheets-are-all-you-need.ai\n• Mailing list & YouTube\n• Members/Patrons\n  • Discount on full class, office hours, etc.\nAvailable for AI consulting\n• Training, Strategy & Implementation",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light cream with orange-purple header bar",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Spread the word on spreadsheets-are-all-you-need",
+            "x": 21.0,
+            "y": 0,
+            "w": 74.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Visit Spreadsheets-are-all-you-need.ai",
+            "x": 14.0,
+            "y": 16.0,
+            "w": 33.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "• Mailing list & YouTube\n• Members/Patrons\n  • Discount on full class, office hours, etc.",
+            "x": 14.0,
+            "y": 24.0,
+            "w": 38.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Available for AI consulting",
+            "x": 14.0,
+            "y": 49.0,
+            "w": 27.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "• Training, Strategy & Implementation",
+            "x": 14.0,
+            "y": 58.0,
+            "w": 34.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "SPREADSHEETS ARE ALL YOU NEED .AI\nAS SEEN ON",
+            "x": 64.0,
+            "y": 16.0,
+            "w": 28.0,
+            "h": 42.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/ZuiJjkbX0Og/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783665878.6192088,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Spread the word on spreadsheets-are-all-you-need\nVisit Spreadsheets-are-all-you-need.ai\n• Mailing list & YouTube\n• Members/Patrons\n  • Discount on full class, office hours, etc.\nAvailable for AI consulting\n• Training, Strategy & Implementation",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/ZuiJjkbX0Og/slide-003.html"
+    }
+  ],
+  "rejected": []
+}

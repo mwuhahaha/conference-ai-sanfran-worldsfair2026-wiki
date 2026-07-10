@@ -19,90 +19,91 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/wcUJWP6WpGM/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/wcUJWP6WpGM/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.91`
+- Text source: agent_vision.
 
-> SWE-rebench:Lessons from Evaluating Coding
-> Agenis on Real Software Engineering Tasks
+Slide text:
+
+> SWE-rebench: Lessons from Evaluating Coding Agents on Real Software Engineering Tasks
 
 ![[assets/slides/wcUJWP6WpGM/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/wcUJWP6WpGM/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > Why evals matter now?
 > Models improved. Choosing became harder.
-> 
-> ra ina * Vibe checks do not scale un ; . - we ad
-> 
-> * ra SWE performance grows rapidly an es
-> 
-> ry a ag Options change every month zn :
-> 
-> i
-> “ ae cy ae ae Cid * °
-> * SWE-rebench 2026_02 tasks wn o oe wn wn
-> i
+> Vibe checks do not scale
+> SWE performance grows rapidly
+> Options change every month
+> * SWE-rebench 2026_02 tasks
 
 ![[assets/slides/wcUJWP6WpGM/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/wcUJWP6WpGM/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — multi-column slide with screenshots and small embedded labels
+
+Slide text:
 
 > Anatomy of a Task: A Task Is More Than Text
-> Task description — original issue text 7
-> Reape Oe a sard ty oo age to wee bP ey tere
-> Panne d a
-> bd bd
-> bd *
-> ty * Sandbox environment —
-> executable Docker image Hoe tte Op
-> Verifier - tests from the PR.
-> Lest updeted
-> FAIL_TO_PASS + PASS_TO_PASS iin a
-> ducker pull saerebench/seeb eva
-> dew 1776 pyfakets- 1286
-> 1 | Al Engineer |
-> es — Se) ce)
-> — ~<
+> Task description - original issue text Regresslon causod by changes for woakref ot fllesystom 1284
+> ★ AIE +
+> Sandbox environment -
+> executable Docker image shs256141e015c4.:9
+> Verifier - tests from the PR. FAIL_TO PASS + PASS TO PASS Sire 14GB Leut updaitd 19 d3y2 a90
+> docker dull s=ereb+nch/seb.eva]
+> -dev.1776.pyfakets-1286
+> AlEngineer
+> EUROPE
 
 ![[assets/slides/wcUJWP6WpGM/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/wcUJWP6WpGM/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — code screenshot and small text in a structured slide layout
+
+Slide text:
 
 > What Makes a Good Task?
 > Problem description
-> 1. A good task balances clarity
-> x * & 2. Too easy and too hard both fail er cee :
-> a Od eo. ee
-> pe " 3. Complexity: breadth or depth an -.
-> Pa Reliable verifier ee
-> 1. Should reward actual fixes, should reject fake —
-> solutions : ; ec
-> 2. Not too narrow, not too wide “oo oa -
-> Stable infrastructure is part of eval 7 ; a aan
-> 1. Minimal infra noise during runs —_ i
-> 2. Connection might blink, images might become
-> stale, pipeline might break (1970s bug)
-> ha
-> _ Al Engineer
-> |p See) a 3
-> ye
-> A — »
+> 1. A good task balances clarily
+> + ★ AIE Reliable verifier 3. 2. Too easy and too hard both fail Complexity: breadth or depth 35 Gettest listaansles_oapty_or eone_obiectsicbjccts_vatue] Colcl1ent coch,Moc Spl cllent.It_cuthent1eated.retrn Vluo o True Col ellent.coject tore.tnt,retum vluo o? ebjectb objects_wlue. Gxcebrto
+> 1. Should reward actual fixes, should reject fake
+> solutions (nltlaixe_coa:simertapl ctient_to_ustaol_clfent]
+> 2. Not too narrow, not too wide rewtt oClRrnerh1mvkellem, Gcloud,Cobjet-store
+> Stable infrastructure is part of eval → Sseerel ho cojects tound atl'test 'in resutt.cot pat
+> 1. Minimal infra noise during runs + contaier.aplclint.object_store.list.asert"called_onc_u
+> 2. （ Connection might blink, images might become
+> stale. pipeline might break (1970s bug)
+> AIEngineer
+> EUROPE
 
 ![[assets/slides/wcUJWP6WpGM/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/wcUJWP6WpGM/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — small command list and dense layout on the right side
 
-> Execution Setup: Minimal Agent, Strong infrastructure
-> el Minimalistic agent (open, edit, bash)
-> bd *
-> Ae
-> * * YOLO setup
-> * oa bd
-> Agent < Infrastructure
-> ReAct + demo — tools + no_demo
-> * Claude-Opus-4.6 top commands from our agent
-> a Pe eee ee ee Aan ie Pe Oe oe ad tat re |
-> ~ ee Sraintrust &, WorkOS WpenaA
-> . - . ip
+Slide text:
+
+> Execution Setup: Minimal Agent, Strong Infrastructure
+> OPEN
+> grep
+> Minimalistic agent (open, edit, bash)
+> AIE YOLO setup ReAct + demo - tools + no_demo Agent<Infrastructure python python3 EDIT find git REPLACE GOTO cat cd
+> · Claude-Opus-4.6 top commands from our agent sed SUBHIT 1s SCROLL_DOAN rm
+> # Braintrust WorkOs OpenAi
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/wcUJWP6WpGM/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

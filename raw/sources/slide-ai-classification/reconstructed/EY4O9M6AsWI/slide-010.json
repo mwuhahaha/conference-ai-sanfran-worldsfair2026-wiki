@@ -1,0 +1,138 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.92,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE\nCPU Worker\ntriton-inference-server\nCPU Worker\ntriton-inference-server\nCPU Worker\ntriton-inference-server\nCPU Worker\ntriton-inference-server\nCPU Worker\ntriton-inference-server\nCPU Worker\ntriton-inference-server\nLuma\nMicrosoft\nsmol ai",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense repeated diagram labels are better handled by OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with subtle dark radial pattern",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 21.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "CPU Worker",
+        "x": 22.0,
+        "y": 14.0,
+        "w": 12.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "triton-inference-server",
+        "x": 37.0,
+        "y": 12.0,
+        "w": 20.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "CPU Worker",
+        "x": 56.0,
+        "y": 14.0,
+        "w": 12.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "triton-inference-server",
+        "x": 75.0,
+        "y": 12.0,
+        "w": 20.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "CPU Worker",
+        "x": 22.0,
+        "y": 41.0,
+        "w": 12.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "triton-inference-server",
+        "x": 37.0,
+        "y": 39.0,
+        "w": 20.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "CPU Worker",
+        "x": 56.0,
+        "y": 41.0,
+        "w": 12.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "triton-inference-server",
+        "x": 75.0,
+        "y": 39.0,
+        "w": 20.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "Luma",
+        "x": 87.0,
+        "y": 80.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 82.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 73.0,
+        "y": 82.0,
+        "w": 18.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/reconstructed-slides/EY4O9M6AsWI/slide-010.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658993.4323318,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "CPU Worker triton-inference-server cPU Worker triton-inference-server\nAIE\nCPU Worker triton-inference-server cPU Worker triton-inference-Server\ncPU Worker triton-inference-server CPU Worker triton-inference-Server\nLuma\nMicrosoft smol ai",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 262.24
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "AIE\nCPU Worker\ntriton-inference-server\nCPU Worker\ntriton-inference-server\nCPU Worker\ntriton-inference-server\nCPU Worker\ntriton-inference-server\nCPU Worker\ntriton-inference-server\nCPU Worker\ntriton-inference-server\nLuma\nMicrosoft\nsmol ai",
+    "text_status": "meaningful",
+    "corrections": "OCR mostly accepted; corrected CPU capitalization and triton-inference-server casing."
+  }
+}

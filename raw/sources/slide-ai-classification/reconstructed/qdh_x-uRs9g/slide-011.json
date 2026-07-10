@@ -1,0 +1,210 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "SAME5STEPS,DIFFERENTIMPLEMENTATION\nBERT Qwen2 CoLBERT\n1. Norm Post-norm(after) Pre-norm RMSNorm From base arch\n2. Q/K/V 3 → we fuse into 1 Separate (GQA) From base arch\nAIE\n3. Position Absolute lookup RoPE rotation From base arch\n4. Attention MHA,allsame GQA (fewer KV) Bidirectioncl\n5. Output 1pooledvector 1pooledvector Nvectors(per-token)\nDifferent fromBERT-differentforward pass Differentoutput type entirely\nAll on packed sequences with flash_attn_varlen = zero padding waste\nEngineering the future of Al\nAlEnginecr",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Comparison table with many small cells",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "SAME 5 STEPS, DIFFERENT IMPLEMENTATION",
+        "x": 36.0,
+        "y": 2.0,
+        "w": 40.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "BERT",
+        "x": 43.0,
+        "y": 8.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Qwen2",
+        "x": 61.0,
+        "y": 8.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "ColBERT",
+        "x": 80.0,
+        "y": 8.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "label",
+        "text": "1. Norm",
+        "x": 31.0,
+        "y": 15.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "label",
+        "text": "2. Q/K/V",
+        "x": 31.0,
+        "y": 28.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "label",
+        "text": "3. Position",
+        "x": 31.0,
+        "y": 40.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "label",
+        "text": "4. Attention",
+        "x": 31.0,
+        "y": 53.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "label",
+        "text": "5. Output",
+        "x": 31.0,
+        "y": 65.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Post-norm (after)",
+        "x": 39.0,
+        "y": 16.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Pre-norm RMSNorm",
+        "x": 56.0,
+        "y": 15.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "From base arch",
+        "x": 79.0,
+        "y": 16.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Separate (GQA)",
+        "x": 56.0,
+        "y": 28.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Absolute lookup",
+        "x": 39.0,
+        "y": 41.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "RoPE rotation",
+        "x": 56.0,
+        "y": 40.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "MHA, all same",
+        "x": 39.0,
+        "y": 53.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "GQA (fewer KV)",
+        "x": 56.0,
+        "y": 53.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Bidirectional",
+        "x": 79.0,
+        "y": 53.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "1 pooled vector",
+        "x": 39.0,
+        "y": 65.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "N vectors (per-token)",
+        "x": 79.0,
+        "y": 65.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "All on packed sequences with flash_attn_varlen = zero padding waste",
+        "x": 39.0,
+        "y": 80.0,
+        "w": 45.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-011.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671303.894585,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "SAME5STEPS,DIFFERENTIMPLEMENTATION\nBERT Qwen2 CoLBERT\n1. Norm Post-norm(after) Pre-norm RMSNorm From base arch\n2. Q/K/V 3 → we fuse into 1 Separate (GQA) From base arch\nAIE\n3. Position Absolute lookup RoPE rotation From base arch\n4. Attention MHA,allsame GQA (fewer KV) Bidirectioncl\n5. Output 1pooledvector 1pooledvector Nvectors(per-token)\nDifferent fromBERT-differentforward pass Differentoutput type entirely\nAll on packed sequences with flash_attn_varlen = zero padding waste\nEngineering the future of Al\nAlEnginecr",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 722.92
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "SAME5STEPS,DIFFERENTIMPLEMENTATION\nBERT Qwen2 CoLBERT\n1. Norm Post-norm(after) Pre-norm RMSNorm From base arch\n2. Q/K/V 3 → we fuse into 1 Separate (GQA) From base arch\nAIE\n3. Position Absolute lookup RoPE rotation From base arch\n4. Attention MHA,allsame GQA (fewer KV) Bidirectioncl\n5. Output 1pooledvector 1pooledvector Nvectors(per-token)\nDifferent fromBERT-differentforward pass Differentoutput type entirely\nAll on packed sequences with flash_attn_varlen = zero padding waste\nEngineering the future of Al\nAlEnginecr",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

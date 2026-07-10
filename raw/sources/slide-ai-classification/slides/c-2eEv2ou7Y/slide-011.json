@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Skybridge alale-l-aov0.0.1 Leare reast eree\nToots 1-teet magic-s-ball ette DcatL Tost\nmagic-8-bat1 Fer rerte-ttLing ee seeking 335434\nquestion\nAIE\nAIEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "UI screenshot with small embedded text; OCR is likely the best extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 12.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "Skybridge",
+        "x": 20.0,
+        "y": 3.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "magic-8-ball",
+        "x": 43.0,
+        "y": 3.0,
+        "w": 11.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Tools",
+        "x": 20.0,
+        "y": 13.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "metadata",
+        "x": 45.0,
+        "y": 11.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Call Tool",
+        "x": 63.0,
+        "y": 11.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Form",
+        "x": 40.0,
+        "y": 20.0,
+        "w": 5.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "question",
+        "x": 40.0,
+        "y": 30.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 55.0,
+        "y": 84.0,
+        "w": 25.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/c-2eEv2ou7Y/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667136.4751053,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Skybridge alale-l-aov0.0.1 Leare reast eree\nToots 1-teet magic-s-ball ette DcatL Tost\nmagic-8-bat1 Fer rerte-ttLing ee seeking 335434\nquestion\nAIE\nAIEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 282.64
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Skybridge alale-l-aov0.0.1 Leare reast eree\nToots 1-teet magic-s-ball ette DcatL Tost\nmagic-8-bat1 Fer rerte-ttLing ee seeking 335434\nquestion\nAIE\nAIEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Track narrative state, not numbers",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Browser screenshot with several small labels and footer text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "blue desktop with cream browser pane",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Track narrative state, not numbers",
+        "x": 8.0,
+        "y": 9.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "THE PATH THAT SURPRISED ME",
+        "x": 9.0,
+        "y": 7.0,
+        "w": 24.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "IMPERFECT NPC MEMORY",
+        "x": 9.0,
+        "y": 25.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "WORLD MOOD",
+        "x": 53.0,
+        "y": 25.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "THREADS",
+        "x": 9.0,
+        "y": 38.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ATTITUDE INFERENCE",
+        "x": 53.0,
+        "y": 38.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Don't track HP and dice - an LLM is bad at that. Track what it's great at.",
+        "x": 9.0,
+        "y": 86.0,
+        "w": 52.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/I2cbIws9j10/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659795.42741,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Track narrative state, not numbers",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

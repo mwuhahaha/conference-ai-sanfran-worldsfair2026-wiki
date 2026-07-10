@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI-Generated Insight",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dashboard with multiple charts, labels, and a paragraph of insight text suited to OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Alert Distribution\nDaily Trends",
+        "x": 28.0,
+        "y": 10.0,
+        "w": 25.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Alert Severity Distribution",
+        "x": 28.0,
+        "y": 31.0,
+        "w": 30.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Alert Status Distribution",
+        "x": 63.0,
+        "y": 31.0,
+        "w": 28.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "AI-Generated Insight",
+        "x": 28.0,
+        "y": 70.0,
+        "w": 35.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "LEVEL 3: INVESTIGATION & ENFORCEMENT\nAdvanced Search\nAnalytics Dashboard\nAlerts Monitor\nActive Investigation\nSystem Settings",
+        "x": 1.0,
+        "y": 8.0,
+        "w": 22.0,
+        "h": 85.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/dense-slides/5_QWh4LGoxg/slide-015.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658657.7055347,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI-Generated Insight",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

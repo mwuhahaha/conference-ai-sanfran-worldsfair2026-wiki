@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "For early-stage devtools 9 out of 10 startups Signal > Revenue",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable slide text; OCR not needed",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "linear-gradient(180deg, #22000f, #140008)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "For early-stage devtools",
+        "x": 17.0,
+        "y": 16.0,
+        "w": 37.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "9 out of 10 startups",
+        "x": 25.0,
+        "y": 37.0,
+        "w": 49.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "Signal > Revenue",
+        "x": 30.0,
+        "y": 51.0,
+        "w": 40.0,
+        "h": 13.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/G6IlDzj8OjA/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659495.796918,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "For early-stage devtools 9 out of 10 startups Signal > Revenue",
+  "advanced_ocr": {}
+}

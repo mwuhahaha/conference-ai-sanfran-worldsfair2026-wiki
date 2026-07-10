@@ -19,39 +19,45 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/liG97YXaTSA/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/liG97YXaTSA/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Dense chart slide with many small labels and axis text.
+
+Slide text:
 
 > Reasoning
-> ProgressonAlbenchmarksinthepastfiveyears
-> AIE 100 80 Trivia questions (TriviaQA)
-> Accuracy 60 40 20 Variousexams (MMLU) math(GSM8K) Grade-school math(MATH) Competition SWEtasks(SWE bench verified) STEM(GPQA) Graduate-level Prestigiousmath exam(AIME) 'Humanity's lastexam
+> Progress on Al benchmarks in the past five years
+> AIE 100
+> 80 Trivia questions (TriviaQA)
+> Accuracy 40+ 20- 60- Variousexams (MMLU) math (GSM8K) Grade-school math (MATH) Competition SWEtasks(SWE benchverified) STEM(GPQA) Graduate-level Prestigious math exam(AIME) "Humanity's lastexam
 > 2020 2021 2022 2023 2024 2025
-> Credit:JasonWei
+> Credit: Jason Wed
 > aws
 
 ![[assets/slides/liG97YXaTSA/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/liG97YXaTSA/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
+- OCR decision: ready — Diagram slide with small labels and flow arrows that are better handled by OCR.
 
-> Strong Reasoning ThroughSFT
-> AIE DeepSeek- R1-Zero
-> DeepSeek-V3 Base SFTon Initialization RL Converged RL reosoning sampies X009
-> SFTon
-> reasoning samples X009 general samples 200k Reasoning Model RLforalignment DeepSeek- R1
+Slide text:
+
+> Strong Reasoning Through SFT
+> AIE IGRSO DeepSeak- R1-Zero stan data
+> DeepSeek-V3 Base SFTon doto Cold STOT Initialization RL R(GRPO) Converged RL reasoning sampias >009
+> SFT on
+> reasoning samplos 600k samples general 2002 Reasoning Model RLforalignment DeepSeek- R1
 > Credita16z
-> Microsoft smol?
+> Microsoft smol ai
 
-![[assets/slides/liG97YXaTSA/slide-003.jpg]]
 
-OCR text:
+### Hidden Non-Slide Evidence
+- [`slide-003.jpg`](/assets/slides/liG97YXaTSA/slide-003.jpg) — `speaker_stage` confidence `0.99`; Camera shot of speakers on stage, not a presentation slide.
+- [`slide-004.jpg`](/assets/slides/liG97YXaTSA/slide-004.jpg) — `speaker_stage` confidence `0.99`; Camera shot of speaker on stage, not a presentation slide.
 
-> World's Fair
-
-![[assets/slides/liG97YXaTSA/slide-004.jpg]]
-
-OCR text:
-
-> World's Fair
+Classification audit: `raw/sources/slide-ai-classification/slides/liG97YXaTSA/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

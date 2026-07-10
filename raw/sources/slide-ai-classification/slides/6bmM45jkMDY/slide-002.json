@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "WHERE THIS STARTS\n17 of 21 agents abandoned\nOn data access. None of them reached the model.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "teal gradient background with dark navy rounded panel",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "label",
+        "text": "WHERE THIS STARTS",
+        "x": 8.0,
+        "y": 39.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "17",
+        "x": 36.0,
+        "y": 43.0,
+        "w": 10.0,
+        "h": 14.0
+      },
+      {
+        "role": "subtitle",
+        "text": "of 21 agents abandoned",
+        "x": 35.0,
+        "y": 56.0,
+        "w": 19.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "On data access. None of them reached the model.",
+        "x": 8.0,
+        "y": 71.0,
+        "w": 42.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/6bmM45jkMDY/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657789.4918396,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "WHERE THIS STARTS\n17 of 21 agents abandoned\nOn data access. None of them reached the model.",
+  "advanced_ocr": {}
+}

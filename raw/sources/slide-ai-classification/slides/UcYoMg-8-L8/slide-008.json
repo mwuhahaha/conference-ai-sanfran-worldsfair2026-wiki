@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The impact of enabling others may be greater than the impact of doing more engineering yourself.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#0b0f14",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The impact of enabling others may be greater than the impact of doing more engineering yourself.",
+        "x": 3.0,
+        "y": 4.0,
+        "w": 58.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/UcYoMg-8-L8/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664973.592147,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The impact of enabling others may be greater than the impact of doing more engineering yourself.",
+  "advanced_ocr": {}
+}

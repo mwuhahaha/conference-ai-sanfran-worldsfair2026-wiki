@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Complicated Complex\nin\nCategorising\nproblem spaces\noxosvosoqoxd.uolxom.oyidrpe\nsame input,same output.You analyse-plan~execute,and a single principal can cer Complex: adaptive agents that respond to one another -a cat, a flock, a market. Beha emergent,loops back on itself （the feedback arrows).and a new order fors （the dash cluster) that you can't read off any part.You probe ~sense →respond.The factory Complicated: passive parts in fixed 1inkage -a clock.Knowable,decomposable,predic correct for the left-hand world;adaptive engineoring is only for the right-hand one.\ntajivchandegra.com jiv Chandegra",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with small explanatory text and labels; OCR is the appropriate extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Categorising problem spaces",
+        "x": 6.0,
+        "y": 43.0,
+        "w": 28.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Complicated",
+        "x": 41.0,
+        "y": 7.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Complex",
+        "x": 74.0,
+        "y": 7.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "knowable • predictable • analyse • plan • execute",
+        "x": 36.0,
+        "y": 36.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "adaptive • emergent • probe • sense • respond",
+        "x": 69.0,
+        "y": 36.0,
+        "w": 25.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/qdZzND79mcg/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670956.1216388,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Categorising problem spaces",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Complicated Complex\nin\nCategorising\nproblem spaces\noxosvosoqoxd.uolxom.oyidrpe\nsame input,same output.You analyse-plan~execute,and a single principal can cer Complex: adaptive agents that respond to one another -a cat, a flock, a market. Beha emergent,loops back on itself （the feedback arrows).and a new order fors （the dash cluster) that you can't read off any part.You probe ~sense →respond.The factory Complicated: passive parts in fixed 1inkage -a clock.Knowable,decomposable,predic correct for the left-hand world;adaptive engineoring is only for the right-hand one.\ntajivchandegra.com jiv Chandegra",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 914.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Complicated Complex\nin\nCategorising\nproblem spaces\noxosvosoqoxd.uolxom.oyidrpe\nsame input,same output.You analyse-plan~execute,and a single principal can cer Complex: adaptive agents that respond to one another -a cat, a flock, a market. Beha emergent,loops back on itself （the feedback arrows).and a new order fors （the dash cluster) that you can't read off any part.You probe ~sense →respond.The factory Complicated: passive parts in fixed 1inkage -a clock.Knowable,decomposable,predic correct for the left-hand world;adaptive engineoring is only for the right-hand one.\ntajivchandegra.com jiv Chandegra",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

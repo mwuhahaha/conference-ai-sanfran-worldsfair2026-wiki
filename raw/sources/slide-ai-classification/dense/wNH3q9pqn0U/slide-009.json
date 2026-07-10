@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Science of Supersaturation Demo 1: Crystal Growth\nAIE supersaturatcd solution - more salt than water con nowhere to go oxcept to arrango themselves into cools and watcr cvaporatcs, salt molcculcs have Organizcd crystal structures. Tho scod crystal providos a template, and layers build up atom by atom. When balt dissolves in hot water, we create a normally hold at room temperature. As the solution: 21- o94*.\nKoy Scicntific Concopts:\n- Solubllity curvos: More salt dissolves in hot water than cold\n. Nuclentlon sltes: Vhere crystals begin to form\n. Growth ratos: Affected by temperature. concontration, and purity\n: Crystal lattico: How atoms srrange in repeating\n3D.natterns\naws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-column slide with small body text and embedded chart/image content; OCR will likely be more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black left sidebar and black footer",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 9.0,
+        "w": 12.0,
+        "h": 26.0
+      },
+      {
+        "role": "title",
+        "text": "Demo 1: Crystal Growth",
+        "x": 20.0,
+        "y": 0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "The Science of Supersaturation",
+        "x": 20.0,
+        "y": 7.0,
+        "w": 46.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 51.0,
+        "y": 87.0,
+        "w": 11.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672538.5948875,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Demo 1: Crystal Growth",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "The Science of Supersaturation Demo 1: Crystal Growth\nAIE supersaturatcd solution - more salt than water con nowhere to go oxcept to arrango themselves into cools and watcr cvaporatcs, salt molcculcs have Organizcd crystal structures. Tho scod crystal providos a template, and layers build up atom by atom. When balt dissolves in hot water, we create a normally hold at room temperature. As the solution: 21- o94*.\nKoy Scicntific Concopts:\n- Solubllity curvos: More salt dissolves in hot water than cold\n. Nuclentlon sltes: Vhere crystals begin to form\n. Growth ratos: Affected by temperature. concontration, and purity\n: Crystal lattico: How atoms srrange in repeating\n3D.natterns\naws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 997.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "The Science of Supersaturation Demo 1: Crystal Growth\nAIE supersaturatcd solution - more salt than water con nowhere to go oxcept to arrango themselves into cools and watcr cvaporatcs, salt molcculcs have Organizcd crystal structures. Tho scod crystal providos a template, and layers build up atom by atom. When balt dissolves in hot water, we create a normally hold at room temperature. As the solution: 21- o94*.\nKoy Scicntific Concopts:\n- Solubllity curvos: More salt dissolves in hot water than cold\n. Nuclentlon sltes: Vhere crystals begin to form\n. Growth ratos: Affected by temperature. concontration, and purity\n: Crystal lattico: How atoms srrange in repeating\n3D.natterns\naws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

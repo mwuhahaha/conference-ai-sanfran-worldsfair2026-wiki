@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Engineer World's Fair\nSide Events\nWorld Cup Watch Party\nThe Agent Open\nPrivate Leadership Dinner — Human Data & AI\nSynth Community Jam: San Francisco\nFuture Code: Rewiring the Developer Frontier\nThe AI Builders Mixer\nDeploy, Scale, Score: DigitalOcean x Vermilion AI Infra Social",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Browser screenshot of the side-events listing with multiple event cards and small UI text; better handled by OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#120f0b",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "World Cup Watch Party",
+        "x": 34.0,
+        "y": 11.0,
+        "w": 19.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "The Agent Open",
+        "x": 34.0,
+        "y": 23.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Private Leadership Dinner — Human Data & AI",
+        "x": 34.0,
+        "y": 36.0,
+        "w": 32.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Synk Community Jam: San Francisco",
+        "x": 34.0,
+        "y": 49.0,
+        "w": 28.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Future Code: Rewriting the Developer Frontier",
+        "x": 34.0,
+        "y": 62.0,
+        "w": 35.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "The AI Builders Mixer",
+        "x": 34.0,
+        "y": 75.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Deploy, Scale, Score: DigitalOcean + Vercel",
+        "x": 34.0,
+        "y": 88.0,
+        "w": 33.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-022.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-022.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657380.0012264,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "回 6rs A 726\nengne/5s11/2026s0-evns C\nAIE Hne 11as,94 Sc7eduie Saae fvets SoONNerS Assoaes BoyTcuts\n88 C9\nwonOp Watch Party 8 owing too.dektognanforcoegng ay.rig\nTheAenOpen RSVPcolona\nAGENTOPEN cowwvicnsa1umntbacet.Doosofoco TheerAgentOpenAon ctooirkA.eJ=000PM·SFccCA\nPriwa LeoierbgDner-HunanDutebAI ASVP os Luna+\now nnowton HumasDua erd A crng Al Engceer San Aswcing ofiee gning cocecoonand coeutos wth eadeny\nZONE FAN SaykConeuntyJom:SanFranclco SyTutJu3o·toPi28ochmaSSano aCtossdeottecycleodorsaunsowousn\nFuane CoceRearitng the Devebgn Frentier\nAa evnObHOdcdoge troeA escrotmntcuraladwthetgceera.opestoucemaicbinetsed\nHetz VeeVyCtlPrPoaWuJn350 FM·Jodoo.Sn FrecRacs The ABuisers Moer RSVP cs Lon+\nBjtatevenngofcocitstsndcooeratonoregA Engo Joh HeVoneeVaey Caot PatcsFoxWowndts for\nDepiey,Scale,Sccre:Dgtalocea·Vermllon A Ifra Social RSVPosLunu+\nW0oob4.885318.5on11r40c5co\nEnginter Wond's Fair",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 976.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "AI Engineer World's Fair\nSide Events\nWorld Cup Watch Party\nThe Agent Open\nPrivate Leadership Dinner — Human Data & AI\nSynth Community Jam: San Francisco\nFuture Code: Rewiring the Developer Frontier\nThe AI Builders Mixer\nDeploy, Scale, Score: DigitalOcean x Vermilion AI Infra Social",
+    "text_status": "meaningful",
+    "corrections": "Corrected the clear page title and event names; omitted noisy browser chrome and illegible body copy."
+  }
+}

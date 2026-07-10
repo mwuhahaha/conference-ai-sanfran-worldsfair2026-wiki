@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "google-gemini/gemini-live-api-examples\nGemini Live provides multimodal realtime agent capabilities. Build voice agents that can process vision and text in realtime.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large, simple text is directly readable; OCR not needed.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "warm beige",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "google-gemini/gemini-live-api-examples",
+        "x": 10.0,
+        "y": 17.0,
+        "w": 48.0,
+        "h": 19.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Gemini Live provides multimodal realtime agent capabilities. Build voice agents that can process vision and text in realtime.",
+        "x": 11.0,
+        "y": 43.0,
+        "w": 44.0,
+        "h": 18.0
+      },
+      {
+        "role": "logo",
+        "text": "G",
+        "x": 76.0,
+        "y": 16.0,
+        "w": 16.0,
+        "h": 29.0
+      },
+      {
+        "role": "caption",
+        "text": "3 Contributors 0 Issues 151 Stars 47 Forks",
+        "x": 11.0,
+        "y": 73.0,
+        "w": 43.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-013.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667683.9317176,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "google-gemini/gemini-live-api-examples\nGemini Live provides multimodal realtime agent capabilities. Build voice agents that can process vision and text in realtime.",
+  "advanced_ocr": {}
+}

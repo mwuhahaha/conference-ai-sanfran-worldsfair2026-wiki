@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AGent o3 · session-analyzer\nzer\ntess'on s.lc'! Sessions. malyse EvERY tert'on orcoe mb cost: ssucs Fcel the pulse\nKest'os s-st?e 77 / 100 jealtr score\ntels'os x-la02 tic sane issue aorors say Ctons = Ose pattem\nRrior hit ~95% on the model, then got to 99% by building this kind of loop over production.\nDPHER LOVEJOY: ANTERIOR",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AGENT 03 - SESSION-ANALYZER",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "sessions",
+        "x": 19.0,
+        "y": 22.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "session-analyzer",
+        "x": 39.0,
+        "y": 20.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "1 · analyze EVERY session\noutcome\nquality\ncost + issues",
+        "x": 39.0,
+        "y": 26.0,
+        "w": 20.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "2 · collapse into patterns\nThe same issue across many sessions = ONE pattern",
+        "x": 39.0,
+        "y": 47.0,
+        "w": 24.0,
+        "h": 17.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "feel the pulse",
+        "x": 74.0,
+        "y": 24.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "77 / 100\nhealth score\n94% success • cost trend",
+        "x": 72.0,
+        "y": 31.0,
+        "w": 21.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Anterior hit ~95% on the model, then got to 99% by building this kind of loop over production.",
+        "x": 17.0,
+        "y": 86.0,
+        "w": 67.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669817.3295875,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "AGENT 03 - SESSION-ANALYZER",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "AGent o3 · session-analyzer\nzer\ntess'on s.lc'! Sessions. malyse EvERY tert'on orcoe mb cost: ssucs Fcel the pulse\nKest'os s-st?e 77 / 100 jealtr score\ntels'os x-la02 tic sane issue aorors say Ctons = Ose pattem\nRrior hit ~95% on the model, then got to 99% by building this kind of loop over production.\nDPHER LOVEJOY: ANTERIOR",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 567.32
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "AGent o3 · session-analyzer\nzer\ntess'on s.lc'! Sessions. malyse EvERY tert'on orcoe mb cost: ssucs Fcel the pulse\nKest'os s-st?e 77 / 100 jealtr score\ntels'os x-la02 tic sane issue aorors say Ctons = Ose pattem\nRrior hit ~95% on the model, then got to 99% by building this kind of loop over production.\nDPHER LOVEJOY: ANTERIOR",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

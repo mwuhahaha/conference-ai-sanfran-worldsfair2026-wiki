@@ -1,0 +1,128 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Modal 101",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense multi-column slide with small labels and diagram text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with large white content panel and dark diagram columns",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Modal 101",
+        "x": 25.0,
+        "y": 7.0,
+        "w": 22.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "As a general purpose platform, we’re seeing some interesting patterns.",
+        "x": 25.0,
+        "y": 36.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Functions",
+        "x": 64.0,
+        "y": 12.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Sandboxes",
+        "x": 82.0,
+        "y": 12.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Storage",
+        "x": 64.0,
+        "y": 29.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Application State",
+        "x": 77.0,
+        "y": 29.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Networking",
+        "x": 87.0,
+        "y": 29.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Custom Runtime",
+        "x": 70.0,
+        "y": 51.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Capacity Orchestration",
+        "x": 69.0,
+        "y": 72.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Braintrust",
+        "x": 44.0,
+        "y": 85.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "WorkOS",
+        "x": 66.0,
+        "y": 85.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenAI",
+        "x": 82.0,
+        "y": 85.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/HvZXAOZ3iv8/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659456.0072546,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Modal 101",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

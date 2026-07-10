@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Optimlzing. Coaing Agent System Prompt\nClaude Code systen prompt OLD Claude Code system prompt NEW\nYou are a Claude agent. built on Anthropic's... You are α Claude agent. built on Anthropic's...\nRules Section Rules Section\n<Empty>. 1. When dealing with errors or exceptions,\nconsider.the immediate cause and\nunderlying issues that may contribute\nto.the problem.\n2. introduce technical debt... Ensure changes' align with the overall. system design: avoid ad-hoc fixes that\n5. 3. and:unexpected inputs when modifying robustness. Always consider anomolies. None values: appropriate: tests. covering edge cases Ensure changes don't intl Any change should be accompanied by and:ensuring correctness and. data flows. 12025-1.1-22112:43:03",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Side-by-side system prompt comparison with small paragraph and numbered rules; OCR-suitable dense text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Optimizing Coding Agent System Prompt",
+        "x": 8.0,
+        "y": 0,
+        "w": 56.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Claude Code system prompt",
+        "x": 6.0,
+        "y": 11.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Claude Code system prompt",
+        "x": 57.0,
+        "y": 11.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Rules Section",
+        "x": 6.0,
+        "y": 27.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Rules Section",
+        "x": 57.0,
+        "y": 27.0,
+        "w": 14.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663721.2784574,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Optimlzing. Coaing Agent System Prompt\nClaude Code systen prompt OLD Claude Code system prompt NEW\nYou are a Claude agent. built on Anthropic's... You are α Claude agent. built on Anthropic's...\nRules Section Rules Section\n<Empty>. 1. When dealing with errors or exceptions,\nconsider.the immediate cause and\nunderlying issues that may contribute\nto.the problem.\n2. introduce technical debt... Ensure changes' align with the overall. system design: avoid ad-hoc fixes that\n5. 3. and:unexpected inputs when modifying robustness. Always consider anomolies. None values: appropriate: tests. covering edge cases Ensure changes don't intl Any change should be accompanied by and:ensuring correctness and. data flows. 12025-1.1-22112:43:03",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1074.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Optimlzing. Coaing Agent System Prompt\nClaude Code systen prompt OLD Claude Code system prompt NEW\nYou are a Claude agent. built on Anthropic's... You are α Claude agent. built on Anthropic's...\nRules Section Rules Section\n<Empty>. 1. When dealing with errors or exceptions,\nconsider.the immediate cause and\nunderlying issues that may contribute\nto.the problem.\n2. introduce technical debt... Ensure changes' align with the overall. system design: avoid ad-hoc fixes that\n5. 3. and:unexpected inputs when modifying robustness. Always consider anomolies. None values: appropriate: tests. covering edge cases Ensure changes don't intl Any change should be accompanied by and:ensuring correctness and. data flows. 12025-1.1-22112:43:03",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Us.Android Userdemo 24yr old,Female OLYNPIC\nAIE Watch history Context video MENS400M\nCHALI 200 Champiors Menls 4x100n Final IParis\nWatchNext:men's trackraces,nowomen\nLRMprompt\nUser:region Us|24 years female devlce\ntle WHAT ACOMEBACK!IMen's 4OOm Paris2024 highlights SemanticID PARIS2O24 7.0 7.00\nWatch history: SID1Taylor Swift 100 260.00 Kria Hni 100320.00 401260.008 LRM:findsrelated women'sraces UNCATCHEEnwordnecod40m hudes|Pais Olymgics N8C toots Sydey McLaoghin-Leronewas U5woendosingincedle in40lylo fhOlyict Paris Olymgics NBC Ipots\nGoogle Yolibe\nMicrosoft smol?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense prompt-and-example slide with small text boxes and thumbnail captions; OCR is the right first pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "User demo",
+        "x": 20.0,
+        "y": 6.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "24 yr old, Female\nUS, Android",
+        "x": 20.0,
+        "y": 13.0,
+        "w": 20.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Watch history",
+        "x": 20.0,
+        "y": 26.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Context video",
+        "x": 34.0,
+        "y": 13.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "LRM prompt",
+        "x": 20.0,
+        "y": 47.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "WatchNext: men's track races, no women",
+        "x": 63.0,
+        "y": 35.0,
+        "w": 29.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "LRM: finds related women's races",
+        "x": 64.0,
+        "y": 80.0,
+        "w": 30.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/LxQsQ3vZDqo/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662279.8061895,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Us.Android Userdemo 24yr old,Female OLYNPIC\nAIE Watch history Context video MENS400M\nCHALI 200 Champiors Menls 4x100n Final IParis\nWatchNext:men's trackraces,nowomen\nLRMprompt\nUser:region Us|24 years female devlce\ntle WHAT ACOMEBACK!IMen's 4OOm Paris2024 highlights SemanticID PARIS2O24 7.0 7.00\nWatch history: SID1Taylor Swift 100 260.00 Kria Hni 100320.00 401260.008 LRM:findsrelated women'sraces UNCATCHEEnwordnecod40m hudes|Pais Olymgics N8C toots Sydey McLaoghin-Leronewas U5woendosingincedle in40lylo fhOlyict Paris Olymgics NBC Ipots\nGoogle Yolibe\nMicrosoft smol?",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 807.12
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Us.Android Userdemo 24yr old,Female OLYNPIC\nAIE Watch history Context video MENS400M\nCHALI 200 Champiors Menls 4x100n Final IParis\nWatchNext:men's trackraces,nowomen\nLRMprompt\nUser:region Us|24 years female devlce\ntle WHAT ACOMEBACK!IMen's 4OOm Paris2024 highlights SemanticID PARIS2O24 7.0 7.00\nWatch history: SID1Taylor Swift 100 260.00 Kria Hni 100320.00 401260.008 LRM:findsrelated women'sraces UNCATCHEEnwordnecod40m hudes|Pais Olymgics N8C toots Sydey McLaoghin-Leronewas U5woendosingincedle in40lylo fhOlyict Paris Olymgics NBC Ipots\nGoogle Yolibe\nMicrosoft smol?",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

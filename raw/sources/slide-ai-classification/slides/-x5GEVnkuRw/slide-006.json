@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Data processing & prep is quite important!",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Title is large; embedded screenshot text is small and not the main evidence.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Data processing & prep is quite important!",
+        "x": 18.0,
+        "y": 6.0,
+        "w": 60.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "tweet screenshot",
+        "x": 4.0,
+        "y": 17.0,
+        "w": 28.0,
+        "h": 52.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655418.6318033,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Data processing & prep is quite important!",
+  "advanced_ocr": {}
+}

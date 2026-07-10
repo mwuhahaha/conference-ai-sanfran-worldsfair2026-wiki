@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "{\"sessionId\": /Users/vsavkin/.poLygraph/sessions/update-vitest-c3744229\"\"orgId\":\"69cdc268b6aa527e4129c2b4\"\"agentType\":\"codex\" “agentSessionId:\"019edaef-fc33-7e32-a997-f39c292abba2\",\"author\":{name\":“Victor Savkin\"},\"repositories\":[\"id \"69d2d8cb126de47d9d92afb1\",\"name\":\"nx-ai-agents- https://snapshot.app.trypolygraph.com/orgs/69cdc268b6aa527e4129c2b4/sessions/update-vitest-c3744229\",\"sessionFolder\" 69d2d8cb126de47d9d92afb8\", session \"update-vitest-c3744229\" \"name”:\"ocean” \"title\": \"update-vitest\" \"fuluName”:\"nrwl/ocean”,“provider\":“6ITHUB\",\"defaultBranch\":“main\"},{\"id\"： \"status\": \"open\", \"completed\":false,\"poLygraphSessionurl\" 11A05H.\nClosed019edaf0-9b6b-7a11-92f4-1361c1f258a3\nAdded all discovered vitest consumers to Polygraph session update-vitest-c3744229.\nSession:https://snapshot.app.trypolygraph.com/orgs/69cdc268b6aa527e4129c2b4/sessions/update-vitest-c3744229\nRepositories now in the session:\n-nrwl/nx -nrwL/nx-ai-agents-config nrwL/ocean nrwL/react-tenplate nrwl/angular-template nrwl/typescript-template\n-nrwL/dpe-tools\nNo discovered vitest consumers were left out,and no PRs exist yet.What do you want to chan\nWorked for2m35s\nWhat repo do I Need to ifIwantto add anarticle aboutNx",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Terminal output and repository list with small monospaced text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#121212",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "",
+        "x": 1.0,
+        "y": 1.0,
+        "w": 98.0,
+        "h": 86.0
+      },
+      {
+        "role": "caption",
+        "text": "",
+        "x": 74.0,
+        "y": 71.0,
+        "w": 24.0,
+        "h": 28.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670269.2983048,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "{\"sessionId\": /Users/vsavkin/.poLygraph/sessions/update-vitest-c3744229\"\"orgId\":\"69cdc268b6aa527e4129c2b4\"\"agentType\":\"codex\" “agentSessionId:\"019edaef-fc33-7e32-a997-f39c292abba2\",\"author\":{name\":“Victor Savkin\"},\"repositories\":[\"id \"69d2d8cb126de47d9d92afb1\",\"name\":\"nx-ai-agents- https://snapshot.app.trypolygraph.com/orgs/69cdc268b6aa527e4129c2b4/sessions/update-vitest-c3744229\",\"sessionFolder\" 69d2d8cb126de47d9d92afb8\", session \"update-vitest-c3744229\" \"name”:\"ocean” \"title\": \"update-vitest\" \"fuluName”:\"nrwl/ocean”,“provider\":“6ITHUB\",\"defaultBranch\":“main\"},{\"id\"： \"status\": \"open\", \"completed\":false,\"poLygraphSessionurl\" 11A05H.\nClosed019edaf0-9b6b-7a11-92f4-1361c1f258a3\nAdded all discovered vitest consumers to Polygraph session update-vitest-c3744229.\nSession:https://snapshot.app.trypolygraph.com/orgs/69cdc268b6aa527e4129c2b4/sessions/update-vitest-c3744229\nRepositories now in the session:\n-nrwl/nx -nrwL/nx-ai-agents-config nrwL/ocean nrwL/react-tenplate nrwl/angular-template nrwl/typescript-template\n-nrwL/dpe-tools\nNo discovered vitest consumers were left out,and no PRs exist yet.What do you want to chan\nWorked for2m35s\nWhat repo do I Need to ifIwantto add anarticle aboutNx",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 996.98
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "{\"sessionId\": /Users/vsavkin/.poLygraph/sessions/update-vitest-c3744229\"\"orgId\":\"69cdc268b6aa527e4129c2b4\"\"agentType\":\"codex\" “agentSessionId:\"019edaef-fc33-7e32-a997-f39c292abba2\",\"author\":{name\":“Victor Savkin\"},\"repositories\":[\"id \"69d2d8cb126de47d9d92afb1\",\"name\":\"nx-ai-agents- https://snapshot.app.trypolygraph.com/orgs/69cdc268b6aa527e4129c2b4/sessions/update-vitest-c3744229\",\"sessionFolder\" 69d2d8cb126de47d9d92afb8\", session \"update-vitest-c3744229\" \"name”:\"ocean” \"title\": \"update-vitest\" \"fuluName”:\"nrwl/ocean”,“provider\":“6ITHUB\",\"defaultBranch\":“main\"},{\"id\"： \"status\": \"open\", \"completed\":false,\"poLygraphSessionurl\" 11A05H.\nClosed019edaf0-9b6b-7a11-92f4-1361c1f258a3\nAdded all discovered vitest consumers to Polygraph session update-vitest-c3744229.\nSession:https://snapshot.app.trypolygraph.com/orgs/69cdc268b6aa527e4129c2b4/sessions/update-vitest-c3744229\nRepositories now in the session:\n-nrwl/nx -nrwL/nx-ai-agents-config nrwL/ocean nrwL/react-tenplate nrwl/angular-template nrwl/typescript-template\n-nrwL/dpe-tools\nNo discovered vitest consumers were left out,and no PRs exist yet.What do you want to chan\nWorked for2m35s\nWhat repo do I Need to ifIwantto add anarticle aboutNx",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

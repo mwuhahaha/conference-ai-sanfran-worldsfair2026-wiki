@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "PHASE.3: EVALuATE\nMake \"good\" measurable.\nInto one O-ioo success rate the loop can chase. Derlve a datatet of cases and a set of criterla - each a binary check, so a fait points stralght at the bi\nEvals + Ihi CeIterIA Lval systln\nCUIDED -.COLO STaRT DATASET.:PASS+FAIL PER CASE\nDatne crfst'i tth the ttea ftom tre toto asd A fitt touarghtt - ro dete rtedad ye'.\nDertre crlter'a teom peoducton tract tor.: DISCOYEHEO'- FAOH TRAces CAITERIA = EACH A BILARY CHECX Cites lts touro+\nHo tbrcattd faot.\nCATaSeTs - THE CaSES Corrtit tooh utd\nSyxTntsizr - rnoH. Geouno Ttuth 1 Vetd oe tput tonm!\nG+r+rat+ ct++ from t+ te+o helcree tioortet or hnewn-good tamp'h -- b+ter+ you hrrt tetla.\n- FRcH TRaces 61/ 00 Jlya ssions\nodueten fure irto + regrehntatt\nTho Artntic Bene Burak.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense eval-system slide with multiple panels, labels, and a score table; OCR will be more reliable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "MUTAGENT",
+        "x": 86.0,
+        "y": 1.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "PHASE 3 · EVALUATE",
+        "x": 11.0,
+        "y": 10.0,
+        "w": 14.0,
+        "h": 3.0
+      },
+      {
+        "role": "title",
+        "text": "Make \"good\" measurable.",
+        "x": 11.0,
+        "y": 14.0,
+        "w": 35.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Derive a dataset of cases and a set of criteria — each a binary check, so a fail points straight at the broken dimension. Roll them into one 0–100 success rate the loop can chase.",
+        "x": 11.0,
+        "y": 22.0,
+        "w": 56.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "EVALS · THE CRITERIA",
+        "x": 11.0,
+        "y": 31.0,
+        "w": 16.0,
+        "h": 3.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "EVAL SYSTEM",
+        "x": 52.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 3.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "SUCCESS RATE",
+        "x": 53.0,
+        "y": 76.0,
+        "w": 12.0,
+        "h": 3.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "61 / 100",
+        "x": 53.0,
+        "y": 81.0,
+        "w": 10.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670631.270934,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/opencv-adaptive",
+    "text": "PHASE.3: EVALuATE\nMake \"good\" measurable.\nInto one O-ioo success rate the loop can chase. Derlve a datatet of cases and a set of criterla - each a binary check, so a fait points stralght at the bi\nEvals + Ihi CeIterIA Lval systln\nCUIDED -.COLO STaRT DATASET.:PASS+FAIL PER CASE\nDatne crfst'i tth the ttea ftom tre toto asd A fitt touarghtt - ro dete rtedad ye'.\nDertre crlter'a teom peoducton tract tor.: DISCOYEHEO'- FAOH TRAces CAITERIA = EACH A BILARY CHECX Cites lts touro+\nHo tbrcattd faot.\nCATaSeTs - THE CaSES Corrtit tooh utd\nSyxTntsizr - rnoH. Geouno Ttuth 1 Vetd oe tput tonm!\nG+r+rat+ ct++ from t+ te+o helcree tioortet or hnewn-good tamp'h -- b+ter+ you hrrt tetla.\n- FRcH TRaces 61/ 00 Jlya ssions\nodueten fure irto + regrehntatt\nTho Artntic Bene Burak.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1302.24
+  },
+  "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "PHASE.3: EVALuATE\nMake \"good\" measurable.\nInto one O-ioo success rate the loop can chase. Derlve a datatet of cases and a set of criterla - each a binary check, so a fait points stralght at the bi\nEvals + Ihi CeIterIA Lval systln\nCUIDED -.COLO STaRT DATASET.:PASS+FAIL PER CASE\nDatne crfst'i tth the ttea ftom tre toto asd A fitt touarghtt - ro dete rtedad ye'.\nDertre crlter'a teom peoducton tract tor.: DISCOYEHEO'- FAOH TRAces CAITERIA = EACH A BILARY CHECX Cites lts touro+\nHo tbrcattd faot.\nCATaSeTs - THE CaSES Corrtit tooh utd\nSyxTntsizr - rnoH. Geouno Ttuth 1 Vetd oe tput tonm!\nG+r+rat+ ct++ from t+ te+o helcree tioortet or hnewn-good tamp'h -- b+ter+ you hrrt tetla.\n- FRcH TRaces 61/ 00 Jlya ssions\nodueten fure irto + regrehntatt\nTho Artntic Bene Burak.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "video_id": "PbHm2qKnu10",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 6,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "RL kinda works now\nAIE Q DNeDSk.Al-Zero AbE aCCuraCy during trlnlng Hlrtet Summury >NvDu Corp 118.58 uso -20.64 (-14.83%) + past 5 dny\nCaha 2? Lr. s or Pu Gfs + Dechtr A+ Noun +20 (4 +2 c0 1+ 74)\n10 50 11 64t YTD 5Y LL\n150\n141*0-2160 14 143++d 4++-11 rl-r*+(o*+1+ 120 01\n$Hro 000* 1000 Ito 24n\nMicrosoft smop",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Content slide with chart text and an embedded UI screenshot containing dense small text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg,#000 0 18%,#f3ead4 18% 100%)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 9.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "RL kinda works now",
+            "x": 21.0,
+            "y": 1.0,
+            "w": 38.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "DeepSeek-R1-Zero AIME accuracy during training",
+            "x": 23.0,
+            "y": 19.0,
+            "w": 34.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Market Summary > NVIDIA Corp\n118.58 USD",
+            "x": 60.0,
+            "y": 16.0,
+            "w": 31.0,
+            "h": 20.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft smol.ai",
+            "x": 50.0,
+            "y": 88.0,
+            "w": 28.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PbHm2qKnu10/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662314.020077,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "RL kinda works now",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "RL kinda works now\nAIE Q DNeDSk.Al-Zero AbE aCCuraCy during trlnlng Hlrtet Summury >NvDu Corp 118.58 uso -20.64 (-14.83%) + past 5 dny\nCaha 2? Lr. s or Pu Gfs + Dechtr A+ Noun +20 (4 +2 c0 1+ 74)\n10 50 11 64t YTD 5Y LL\n150\n141*0-2160 14 143++d 4++-11 rl-r*+(o*+1+ 120 01\n$Hro 000* 1000 Ito 24n\nMicrosoft smop",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 366.28
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "RL kinda works now\nAIE Q DNeDSk.Al-Zero AbE aCCuraCy during trlnlng Hlrtet Summury >NvDu Corp 118.58 uso -20.64 (-14.83%) + past 5 dny\nCaha 2? Lr. s or Pu Gfs + Dechtr A+ Noun +20 (4 +2 c0 1+ 74)\n10 50 11 64t YTD 5Y LL\n150\n141*0-2160 14 143++d 4++-11 rl-r*+(o*+1+ 120 01\n$Hro 000* 1000 Ito 24n\nMicrosoft smop",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PbHm2qKnu10/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "the big labs are all doing it\nAIE learning computo = bettor porformance' trond observod in GPT-serics pretraining. By retracing the scaling path--thia time in RL-we've pushed an additional order of magnitude in both tralning performance keeps chmbing. Continuing to scale reinforcement Throughout tha deveiopment of OpenAl o3, we've observed that large-scale reinforcement learning oxhibits the sama \"more computa and inferonce-tirmo roasoning. yet still seo cloar performance gains, valldating that the models' porformance continues to lmprove the more they're allowed to think At equa! in ChatGPT-and wo'vo validatod that if wo lot k think longer, its Latcncy and cost with OpenAl ol, o3 delirvers hlgher performance Is Rl + Llms enough for AGl? - 123K views · 13 days ag0 Sholto Douglas & Trenton Bricken AND NEXT WHAT COMES 2:24:02\nMicrosoft smop",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Content slide with a paragraph of small body text and a video thumbnail screenshot containing readable text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg,#000 0 18%,#f3ead4 18% 100%)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 9.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "the big labs are all doing it",
+            "x": 21.0,
+            "y": 1.0,
+            "w": 52.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Continuing to scale reinforcement learning",
+            "x": 23.0,
+            "y": 15.0,
+            "w": 33.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Throughout the development of OpenAI o3",
+            "x": 23.0,
+            "y": 27.0,
+            "w": 31.0,
+            "h": 26.0
+          },
+          {
+            "role": "caption",
+            "text": "AND WHAT COMES NEXT\nIs RL + LLMs enough for AGI? – Sholto Douglas & Trenton Bricken\n123K views • 13 days ago",
+            "x": 68.0,
+            "y": 12.0,
+            "w": 24.0,
+            "h": 42.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft smol.ai",
+            "x": 50.0,
+            "y": 88.0,
+            "w": 28.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PbHm2qKnu10/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662396.3497593,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "the big labs are all doing it",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "the big labs are all doing it\nAIE learning computo = bettor porformance' trond observod in GPT-serics pretraining. By retracing the scaling path--thia time in RL-we've pushed an additional order of magnitude in both tralning performance keeps chmbing. Continuing to scale reinforcement Throughout tha deveiopment of OpenAl o3, we've observed that large-scale reinforcement learning oxhibits the sama \"more computa and inferonce-tirmo roasoning. yet still seo cloar performance gains, valldating that the models' porformance continues to lmprove the more they're allowed to think At equa! in ChatGPT-and wo'vo validatod that if wo lot k think longer, its Latcncy and cost with OpenAl ol, o3 delirvers hlgher performance Is Rl + Llms enough for AGl? - 123K views · 13 days ag0 Sholto Douglas & Trenton Bricken AND NEXT WHAT COMES 2:24:02\nMicrosoft smop",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1121.12
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "the big labs are all doing it\nAIE learning computo = bettor porformance' trond observod in GPT-serics pretraining. By retracing the scaling path--thia time in RL-we've pushed an additional order of magnitude in both tralning performance keeps chmbing. Continuing to scale reinforcement Throughout tha deveiopment of OpenAl o3, we've observed that large-scale reinforcement learning oxhibits the sama \"more computa and inferonce-tirmo roasoning. yet still seo cloar performance gains, valldating that the models' porformance continues to lmprove the more they're allowed to think At equa! in ChatGPT-and wo'vo validatod that if wo lot k think longer, its Latcncy and cost with OpenAl ol, o3 delirvers hlgher performance Is Rl + Llms enough for AGl? - 123K views · 13 days ag0 Sholto Douglas & Trenton Bricken AND NEXT WHAT COMES 2:24:02\nMicrosoft smop",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PbHm2qKnu10/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "agents are also a thing TaskExecutionProcess MANUSACAGENT\nDlenaare\npupnd\nAIE alcoes ts Clode Code researchsrevieei ela'fer bes fer getting stere 25003000.By sectingthsrgont efntredehen evalute the plte and se itirs cearer o idey wthapprmate cordiex1500 to2000and Let'smanually crop and inspecti\nAnalyzing data\nslt.aist`gre)\n-0.5.899.5. 799.5\nAnalyzing image\nMicrosoft smol?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Content slide with multiple dense text regions, code screenshots, and a diagram that are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg,#000 0 18%,#f3ead4 18% 100%)",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 9.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "agents are also a thing",
+            "x": 21.0,
+            "y": 1.0,
+            "w": 42.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "Welcome to Claude Code research preview!",
+            "x": 21.0,
+            "y": 17.0,
+            "w": 29.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "Analyzing data",
+            "x": 45.0,
+            "y": 41.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Analyzing image",
+            "x": 45.0,
+            "y": 62.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram",
+            "text": "Task Execution Process",
+            "x": 76.0,
+            "y": 9.0,
+            "w": 18.0,
+            "h": 20.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft smol.ai",
+            "x": 50.0,
+            "y": 88.0,
+            "w": 28.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PbHm2qKnu10/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662464.9806557,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "agents are also a thing",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "agents are also a thing TaskExecutionProcess MANUSACAGENT\nDlenaare\npupnd\nAIE alcoes ts Clode Code researchsrevieei ela'fer bes fer getting stere 25003000.By sectingthsrgont efntredehen evalute the plte and se itirs cearer o idey wthapprmate cordiex1500 to2000and Let'smanually crop and inspecti\nAnalyzing data\nslt.aist`gre)\n-0.5.899.5. 799.5\nAnalyzing image\nMicrosoft smol?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 553.44
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "agents are also a thing TaskExecutionProcess MANUSACAGENT\nDlenaare\npupnd\nAIE alcoes ts Clode Code researchsrevieei ela'fer bes fer getting stere 25003000.By sectingthsrgont efntredehen evalute the plte and se itirs cearer o idey wthapprmate cordiex1500 to2000and Let'smanually crop and inspecti\nAnalyzing data\nslt.aist`gre)\n-0.5.899.5. 799.5\nAnalyzing image\nMicrosoft smol?",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PbHm2qKnu10/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "they’re kinda the same thing actually",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Low-text diagram and meme-style comparison slide; OCR is not the best first pass.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(90deg,#000 0 18%,#f3ead4 18% 100%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 9.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "they’re kinda the same thing actually",
+            "x": 20.0,
+            "y": 1.0,
+            "w": 55.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram",
+            "text": "AGENT\nREINFORCEMENT LEARNING ALGORITHM",
+            "x": 35.0,
+            "y": 10.0,
+            "w": 18.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram",
+            "text": "Human\nLLM Call\nEnvironment\nFeedback",
+            "x": 58.0,
+            "y": 14.0,
+            "w": 24.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "Corporate needs you to find the differences between this picture and this picture.\nThey're the same picture.",
+            "x": 44.0,
+            "y": 40.0,
+            "w": 28.0,
+            "h": 26.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 64.0,
+            "y": 86.0,
+            "w": 10.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PbHm2qKnu10/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662494.6263986,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "they’re kinda the same thing actually",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PbHm2qKnu10/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "towardseverythingasync\nAIE returnaaittode_asyncio,gathert rollowt_tasks-[ self._rn_single（sephere,client,model,pronpt,aniver,sapling_args,args） fetpronpt,answer-inzippronpts,ansers) *rollout_tasks, total-len(prompts), descof'Running(len(pronptsl)rollouts async_batch_generator.py async_dataloader_wrapper.py\ngrpo_config.py\ngrpo_trainer.py\nGPU1 GPU2 GPU3 GPU4 1-8 9-16 17-24\nTime\n(up to four steps), Prime-RL matches the performance of synchronous baselines. us DeepScaleR trainingvs asynchronous Prime-RL under varyingasynchrony levels.\naws",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Content slide with code, chart, file list, and a timeline diagram; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg,#000 0 18%,#f3ead4 18% 100%)",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 9.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "towards everything async",
+            "x": 21.0,
+            "y": 1.0,
+            "w": 42.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "rollout_tasks = [\nreturn await asyncio.gather(",
+            "x": 23.0,
+            "y": 13.0,
+            "w": 30.0,
+            "h": 18.0
+          },
+          {
+            "role": "code",
+            "text": "async_batch_generator.py\nasync_dataloader_wrapper.py\ngrpo_config.py\ngrpo_trainer.py",
+            "x": 66.0,
+            "y": 12.0,
+            "w": 25.0,
+            "h": 27.0
+          },
+          {
+            "role": "diagram",
+            "text": "1-8\n9-16\n17-24",
+            "x": 68.0,
+            "y": 61.0,
+            "w": 22.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 63.0,
+            "y": 86.0,
+            "w": 10.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PbHm2qKnu10/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662494.6275537,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "towards everything async",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "towardseverythingasync\nAIE returnaaittode_asyncio,gathert rollowt_tasks-[ self._rn_single（sephere,client,model,pronpt,aniver,sapling_args,args） fetpronpt,answer-inzippronpts,ansers) *rollout_tasks, total-len(prompts), descof'Running(len(pronptsl)rollouts async_batch_generator.py async_dataloader_wrapper.py\ngrpo_config.py\ngrpo_trainer.py\nGPU1 GPU2 GPU3 GPU4 1-8 9-16 17-24\nTime\n(up to four steps), Prime-RL matches the performance of synchronous baselines. us DeepScaleR trainingvs asynchronous Prime-RL under varyingasynchrony levels.\naws",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 620.2
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "towardseverythingasync\nAIE returnaaittode_asyncio,gathert rollowt_tasks-[ self._rn_single（sephere,client,model,pronpt,aniver,sapling_args,args） fetpronpt,answer-inzippronpts,ansers) *rollout_tasks, total-len(prompts), descof'Running(len(pronptsl)rollouts async_batch_generator.py async_dataloader_wrapper.py\ngrpo_config.py\ngrpo_trainer.py\nGPU1 GPU2 GPU3 GPU4 1-8 9-16 17-24\nTime\n(up to four steps), Prime-RL matches the performance of synchronous baselines. us DeepScaleR trainingvs asynchronous Prime-RL under varyingasynchrony levels.\naws",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PbHm2qKnu10/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "SFT warmup + small models = fun on just a few GPUs\nPRumeintllet CreatenewGPU Cluster\nAIE results=vf_env.evaluate( client=client, model=model_nane, sompling_args=sonpling_args, 200 141 Ga DO N100 B0 C Ala 00NS\nnum_saeples=nun_sanples 12.14\nhub_odel_id\"0wen2.5-7B-Math-Python-SFT\", A100 0028\n公\nPCxSOM 1MS\ntrainer=SfTrainer( nodel=nodel,\nargseargs,\ntrain_dataset=datasettype:icnore\nGH200 A100\ntrainer.train() 6) (/\n入7, 344\nMicrosoft smol ai",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Content slide with code on the left and a product UI screenshot on the right; OCR will likely outperform manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg,#000 0 18%,#f3ead4 18% 100%)",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 9.0,
+            "h": 14.0
+          },
+          {
+            "role": "title",
+            "text": "SFT warmup + small models = fun on just a few GPUs",
+            "x": 20.0,
+            "y": 1.0,
+            "w": 64.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "results = vf_env.evaluate(\nclient=client,\nmodel=model_name,\nsampling_args=sampling_args,\nnum_samples=num_samples",
+            "x": 22.0,
+            "y": 19.0,
+            "w": 29.0,
+            "h": 28.0
+          },
+          {
+            "role": "caption",
+            "text": "Create new GPU Cluster",
+            "x": 58.0,
+            "y": 13.0,
+            "w": 28.0,
+            "h": 16.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft smol.ai",
+            "x": 50.0,
+            "y": 88.0,
+            "w": 28.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/PbHm2qKnu10/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783662519.0702932,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "SFT warmup + small models = fun on just a few GPUs",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "SFT warmup + small models = fun on just a few GPUs\nPRumeintllet CreatenewGPU Cluster\nAIE results=vf_env.evaluate( client=client, model=model_nane, sompling_args=sonpling_args, 200 141 Ga DO N100 B0 C Ala 00NS\nnum_saeples=nun_sanples 12.14\nhub_odel_id\"0wen2.5-7B-Math-Python-SFT\", A100 0028\n公\nPCxSOM 1MS\ntrainer=SfTrainer( nodel=nodel,\nargseargs,\ntrain_dataset=datasettype:icnore\nGH200 A100\ntrainer.train() 6) (/\n入7, 344\nMicrosoft smol ai",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 555.48
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "SFT warmup + small models = fun on just a few GPUs\nPRumeintllet CreatenewGPU Cluster\nAIE results=vf_env.evaluate( client=client, model=model_nane, sompling_args=sonpling_args, 200 141 Ga DO N100 B0 C Ala 00NS\nnum_saeples=nun_sanples 12.14\nhub_odel_id\"0wen2.5-7B-Math-Python-SFT\", A100 0028\n公\nPCxSOM 1MS\ntrainer=SfTrainer( nodel=nodel,\nargseargs,\ntrain_dataset=datasettype:icnore\nGH200 A100\ntrainer.train() 6) (/\n入7, 344\nMicrosoft smol ai",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/PbHm2qKnu10/slide-006.html"
+    }
+  ],
+  "rejected": []
+}

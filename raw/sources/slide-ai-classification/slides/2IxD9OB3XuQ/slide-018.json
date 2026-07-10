@@ -1,0 +1,138 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A continual learning benchmark: Meridian Support Agent\nA reproducible test-bed for continual learning in a tool-using support agent.\n\nA single source of truth\nA fixed company policy and database define every correct action, so ground truth is derived.\n\nInteracting policies\nRefund, escalation, entitlement, disclosure, and GDPR rules constrain each other; a local fix can violate a distant one.\n\nDeterministic evaluators\ncode checks over the final answer and the tool calls\n\nDecisions are tool calls\nthe agent's real action is which tools it invokes, not just its text\n\nRegression-sensitive by design\ntasks are arranged so over-fitting the latest fix is observable as a drop",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-panel benchmark slide with dense explanatory text; OCR is the better capture path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "A continual learning benchmark: Meridian Support Agent",
+        "x": 4.0,
+        "y": 3.0,
+        "w": 90.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "A reproducible test-bed for continual learning in a tool-using support agent.",
+        "x": 4.0,
+        "y": 14.0,
+        "w": 70.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "A single source of truth",
+        "x": 8.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "A fixed company policy and database define every correct action, so ground truth is derived.",
+        "x": 8.0,
+        "y": 38.0,
+        "w": 40.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Interacting policies",
+        "x": 55.0,
+        "y": 31.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Refund, escalation, entitlement, disclosure, and GDPR rules constrain each other; a local fix can violate a distant one.",
+        "x": 55.0,
+        "y": 38.0,
+        "w": 39.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Deterministic evaluators",
+        "x": 7.0,
+        "y": 63.0,
+        "w": 24.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "code checks over the final answer and the tool calls",
+        "x": 37.0,
+        "y": 63.0,
+        "w": 46.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Decisions are tool calls",
+        "x": 7.0,
+        "y": 72.0,
+        "w": 24.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "the agent's real action is which tools it invokes, not just its text",
+        "x": 37.0,
+        "y": 72.0,
+        "w": 53.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Regression-sensitive by design",
+        "x": 7.0,
+        "y": 81.0,
+        "w": 30.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "tasks are arranged so over-fitting the latest fix is observable as a drop else",
+        "x": 37.0,
+        "y": 81.0,
+        "w": 57.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/slides/2IxD9OB3XuQ/slide-018.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657230.1497927,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Acontinuallearningbenchmark:Meridian SupportAgent\nAreproducible test-bed for continual learning ina tool-using support agent.\nA single source of truth Interacting policies\naction so ground truth is derived. A fixed company policy and database define every correct Refund, escalation, entitlement, disclosure, and GDPR rules constrain each other a localfixcanviolate a distant one.\nDeterministic evaluators code checks over the final answer and the tool calls\nDecisions are tool calls the agent's real action Is which tools it invokes, not just its text\nRegression-sensitive by design tasks are arranged so over-fitting the latestfixis observable as a drop else",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 947.6
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "A continual learning benchmark: Meridian Support Agent\nA reproducible test-bed for continual learning in a tool-using support agent.\n\nA single source of truth\nA fixed company policy and database define every correct action, so ground truth is derived.\n\nInteracting policies\nRefund, escalation, entitlement, disclosure, and GDPR rules constrain each other; a local fix can violate a distant one.\n\nDeterministic evaluators\ncode checks over the final answer and the tool calls\n\nDecisions are tool calls\nthe agent's real action is which tools it invokes, not just its text\n\nRegression-sensitive by design\ntasks are arranged so over-fitting the latest fix is observable as a drop",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR with spacing/punctuation cleanup; last line was partially cut off so only clearly visible text was kept."
+  }
+}

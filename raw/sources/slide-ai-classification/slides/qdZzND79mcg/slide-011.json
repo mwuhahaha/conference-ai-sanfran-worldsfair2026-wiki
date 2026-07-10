@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "the engineer; it Adaptive: engineering of engineering relocates does not the emphasis abolish\nExploit the model's learn and change. have power to interact, capabilities so agents You engineer the rule of the game constraints - the deciding what can harness to emerge and You allow the new based on the changing change continually\ndoes. happen not what environment.\nnajivchandegra.com jiv Chandegra LIBS ANICHHA",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-column text slide with small body copy; OCR is the efficient extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Adaptive engineering does not abolish the engineer; it relocates the emphasis of engineering",
+        "x": 15.0,
+        "y": 8.0,
+        "w": 72.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Exploit the model's capabilities so agents have power to interact, learn and change.",
+        "x": 9.0,
+        "y": 40.0,
+        "w": 24.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "You engineer the constraints - the rule of the game - deciding what can happen not what does.",
+        "x": 40.0,
+        "y": 39.0,
+        "w": 22.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "You allow the new harness to emerge and change continually based on the changing environment.",
+        "x": 72.0,
+        "y": 39.0,
+        "w": 23.0,
+        "h": 24.0
+      },
+      {
+        "role": "logo",
+        "text": "ANICHHA LABS",
+        "x": 88.0,
+        "y": 86.0,
+        "w": 8.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/qdZzND79mcg/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671172.762748,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "the engineer; it Adaptive: engineering of engineering relocates does not the emphasis abolish\nExploit the model's learn and change. have power to interact, capabilities so agents You engineer the rule of the game constraints - the deciding what can harness to emerge and You allow the new based on the changing change continually\ndoes. happen not what environment.\nnajivchandegra.com jiv Chandegra LIBS ANICHHA",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 634.23
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "the engineer; it Adaptive: engineering of engineering relocates does not the emphasis abolish\nExploit the model's learn and change. have power to interact, capabilities so agents You engineer the rule of the game constraints - the deciding what can harness to emerge and You allow the new based on the changing change continually\ndoes. happen not what environment.\nnajivchandegra.com jiv Chandegra LIBS ANICHHA",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

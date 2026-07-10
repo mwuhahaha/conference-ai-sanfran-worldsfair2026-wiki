@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Queues, Queues, Queues",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black with subtle dark radial pattern",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 21.0
+      },
+      {
+        "role": "title",
+        "text": "Queues, Queues, Queues",
+        "x": 20.0,
+        "y": 8.0,
+        "w": 50.0,
+        "h": 11.0
+      },
+      {
+        "role": "logo",
+        "text": "Luma",
+        "x": 87.0,
+        "y": 79.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 82.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 73.0,
+        "y": 82.0,
+        "w": 18.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/reconstructed-slides/EY4O9M6AsWI/slide-014.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659265.2707622,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Queues, Queues, Queues",
+  "advanced_ocr": {}
+}

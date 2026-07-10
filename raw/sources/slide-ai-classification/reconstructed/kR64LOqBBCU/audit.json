@@ -1,0 +1,1461 @@
+{
+  "video_id": "kR64LOqBBCU",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 12,
+  "rejected_count": 5,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agents are magic\nAGENTCRAFT: PUTTING THE ORC IN AGENT ORCHESTRATION\nIDO SALOMON / Creator of AgentCraft & MCP-UI",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "large readable headline slide; OCR not needed in triage",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(180deg,#090909,#111111)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Agents are magic",
+            "x": 31.0,
+            "y": 33.0,
+            "w": 20.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "image",
+            "x": 58.0,
+            "y": 10.0,
+            "w": 33.0,
+            "h": 60.0
+          },
+          {
+            "role": "caption",
+            "text": "AGENTCRAFT: PUTTING THE ORC IN AGENT ORCHESTRATION",
+            "x": 22.0,
+            "y": 86.0,
+            "w": 58.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "IDO SALOMON / Creator of AgentCraft & MCP-UI",
+            "x": 24.0,
+            "y": 94.0,
+            "w": 45.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-002.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669392.3333895,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agents are magic\nAGENTCRAFT: PUTTING THE ORC IN AGENT ORCHESTRATION\nIDO SALOMON / Creator of AgentCraft & MCP-UI",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "We are the bottleneck",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "single large headline with screenshot; not dense enough for OCR triage",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(180deg,#090909,#111111)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "We are the bottleneck",
+            "x": 31.0,
+            "y": 35.0,
+            "w": 24.0,
+            "h": 20.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "screenshot",
+            "x": 60.0,
+            "y": 9.0,
+            "w": 31.0,
+            "h": 58.0
+          },
+          {
+            "role": "caption",
+            "text": "AGENTCRAFT: PUTTING THE ORC IN AGENT ORCHESTRATION",
+            "x": 20.0,
+            "y": 86.0,
+            "w": 60.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "IDO SALOMON / Creator of AgentCraft & MCP-UI",
+            "x": 24.0,
+            "y": 94.0,
+            "w": 45.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-003.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669392.3371518,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "We are the bottleneck",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "These skills were with us all along",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "single large statement; OCR not needed in triage",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(180deg,#090909,#111111)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "These skills were with us all along",
+            "x": 31.0,
+            "y": 8.0,
+            "w": 59.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "AGENTCRAFT: PUTTING THE ORC IN AGENT ORCHESTRATION",
+            "x": 20.0,
+            "y": 86.0,
+            "w": 60.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "IDO SALOMON / Creator of AgentCraft & MCP-UI",
+            "x": 24.0,
+            "y": 94.0,
+            "w": 45.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-004.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669392.3376994,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "These skills were with us all along",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot with small labels and controls; OCR will read the embedded interface text better than a quick visual pass.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "dark game-ui over green-brown terrain",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "messages yet",
+            "x": 0,
+            "y": 38.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Message...",
+            "x": 54.0,
+            "y": 64.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "DEFAULT",
+            "x": 52.0,
+            "y": 77.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "PLAN MODE",
+            "x": 66.0,
+            "y": 77.0,
+            "w": 12.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-007.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669568.1490843,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/opencv-adaptive",
+        "best_score": 91.04,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "KYAGENTS -build/ sup HSM SS4T.agen\nA Awaltls\nALLIANCEPANTL\nKilro'ssh Addchannes festre to README Remote Access Sue your telaig va tnk\nksdChs fee o README Channels Open,\nDurg'dur Add Coplot CuIplatformsupoort 1borcotgared torparogs\nMag'grim Submt campaign bo new section 3 MagtukAdd besds.dev tekmsnagemet int Reading CampaipPane tsx ACTIVELOOPS Hall mschire egent teseraton Opn\nRek'osh 1dem.claude\nACTIVITY (11)\nQoest Started\nHero Recruited\nQucst Started lib/ github/.cursor/\nEXTENSIONS\n1s piogins\nServers\nWARFACTORY",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product/dashboard screenshot with many small labels, tabs, and map annotations; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "green terrain map with blue ocean and dark UI panels",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "MY AGENTS",
+            "x": 2.0,
+            "y": 8.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "ALLIANCE PANEL",
+            "x": 77.0,
+            "y": 11.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "ACTIVITY (11)",
+            "x": 1.0,
+            "y": 40.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "EXTENSIONS",
+            "x": 29.0,
+            "y": 76.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "WAR FACTORY",
+            "x": 24.0,
+            "y": 87.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": ".claude/",
+            "x": 86.0,
+            "y": 50.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": ".codex/",
+            "x": 83.0,
+            "y": 59.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": ".cursor/",
+            "x": 79.0,
+            "y": 66.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": ".github/",
+            "x": 75.0,
+            "y": 73.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "lib/",
+            "x": 4.0,
+            "y": 64.0,
+            "w": 8.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-008.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669586.4216511,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "KYAGENTS -build/ sup HSM SS4T.agen\nA Awaltls\nALLIANCEPANTL\nKilro'ssh Addchannes festre to README Remote Access Sue your telaig va tnk\nksdChs fee o README Channels Open,\nDurg'dur Add Coplot CuIplatformsupoort 1borcotgared torparogs\nMag'grim Submt campaign bo new section 3 MagtukAdd besds.dev tekmsnagemet int Reading CampaipPane tsx ACTIVELOOPS Hall mschire egent teseraton Opn\nRek'osh 1dem.claude\nACTIVITY (11)\nQoest Started\nHero Recruited\nQucst Started lib/ github/.cursor/\nEXTENSIONS\n1s piogins\nServers\nWARFACTORY",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 800.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "KYAGENTS -build/ sup HSM SS4T.agen\nA Awaltls\nALLIANCEPANTL\nKilro'ssh Addchannes festre to README Remote Access Sue your telaig va tnk\nksdChs fee o README Channels Open,\nDurg'dur Add Coplot CuIplatformsupoort 1borcotgared torparogs\nMag'grim Submt campaign bo new section 3 MagtukAdd besds.dev tekmsnagemet int Reading CampaipPane tsx ACTIVELOOPS Hall mschire egent teseraton Opn\nRek'osh 1dem.claude\nACTIVITY (11)\nQoest Started\nHero Recruited\nQucst Started lib/ github/.cursor/\nEXTENSIONS\n1s piogins\nServers\nWARFACTORY",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "56 3/1/1\nMYAGENTS AGENT\nAII 5 Awaiting Working Idle\nDISMISS ALL Kilro'ash AddchannelsfeaturetoREADME supabase/\nAddChannelsfe Kilro'ash v-build/\nInp,buna Status:Awaiting Input shared/\nMag'tuk Add be Mag'grim Subm Active: Mission: Context: 3m ago 17% used Addchannelsfeature toREADME erver\nRek'osh Idle29m\nACTIVITY (11) Clear\nQuest Started 25s port/",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot with tabbed agent list and hover card text; OCR is the right extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "blue-green map with dark left sidebar",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "MY AGENTS",
+            "x": 3.0,
+            "y": 9.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "All 5",
+            "x": 3.0,
+            "y": 16.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Awaiting 1",
+            "x": 14.0,
+            "y": 16.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Working 3",
+            "x": 27.0,
+            "y": 16.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Idle 1",
+            "x": 38.0,
+            "y": 16.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Kilro'ash",
+            "x": 4.0,
+            "y": 34.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Add channels feature to README",
+            "x": 17.0,
+            "y": 34.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Status: Awaiting Input",
+            "x": 20.0,
+            "y": 45.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Mission: Add channels feature to README",
+            "x": 20.0,
+            "y": 53.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Context: 17% used",
+            "x": 20.0,
+            "y": 61.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Active: 3m ago",
+            "x": 20.0,
+            "y": 69.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "supabase/",
+            "x": 77.0,
+            "y": 31.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "rv-build/",
+            "x": 75.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "shared/",
+            "x": 63.0,
+            "y": 46.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "server/",
+            "x": 51.0,
+            "y": 53.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "port/",
+            "x": 46.0,
+            "y": 90.0,
+            "w": 7.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-009.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669691.4631376,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "56 3/1/1\nMYAGENTS AGENT\nAII 5 Awaiting Working Idle\nDISMISS ALL Kilro'ash AddchannelsfeaturetoREADME supabase/\nAddChannelsfe Kilro'ash v-build/\nInp,buna Status:Awaiting Input shared/\nMag'tuk Add be Mag'grim Subm Active: Mission: Context: 3m ago 17% used Addchannelsfeature toREADME erver\nRek'osh Idle29m\nACTIVITY (11) Clear\nQuest Started 25s port/",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 503.16
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "56 3/1/1\nMYAGENTS AGENT\nAII 5 Awaiting Working Idle\nDISMISS ALL Kilro'ash AddchannelsfeaturetoREADME supabase/\nAddChannelsfe Kilro'ash v-build/\nInp,buna Status:Awaiting Input shared/\nMag'tuk Add be Mag'grim Subm Active: Mission: Context: 3m ago 17% used Addchannelsfeature toREADME erver\nRek'osh Idle29m\nACTIVITY (11) Clear\nQuest Started 25s port/",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "/Users/idosal/ciaude-rts/s.\nALLIANCE PANEL Remote Access Share your battiefleld via link Openy. Mag'tuk Mag'grim READ READ\nChannels 1 bot configured for pairings. Open'x △ 2 agents accessed this file\nMeH x Open'). +26 -1'COMMITTED\nMulti-machine agent federation c0 -190,7 +190,7 c0 export interface TaskSpec\nACTIVE LOOPS -215.6+215.7c0 export interface TaskPlan OrchestratorGuidance?: string executorType?e claude [ 'opencode ↑ executorType? Qclaude ( Copencode ( d extraVolumes?: Array<f host: string: con! templateId?: string planMarkdown?e string CampaignBranch?: string ContainerMode?: boolean round?: number",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Split-pane dashboard and code diff screenshot with small monospace text; OCR is needed for reliable reading.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "green terrain with dark code editor panes",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "ALLIANCE PANEL",
+            "x": 7.0,
+            "y": 11.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Remote Access",
+            "x": 10.0,
+            "y": 20.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Channels",
+            "x": 10.0,
+            "y": 31.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Hall",
+            "x": 10.0,
+            "y": 42.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "ACTIVE LOOPS",
+            "x": 8.0,
+            "y": 56.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Mag'tuk",
+            "x": 55.0,
+            "y": 8.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Mag'grim",
+            "x": 55.0,
+            "y": 18.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "2 agents accessed this file",
+            "x": 53.0,
+            "y": 38.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "export interface TaskSpec",
+            "x": 53.0,
+            "y": 46.0,
+            "w": 33.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "export interface TaskPlan",
+            "x": 53.0,
+            "y": 68.0,
+            "w": 31.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-010.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669791.5187185,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "/Users/idosal/ciaude-rts/s.\nALLIANCE PANEL Remote Access Share your battiefleld via link Openy. Mag'tuk Mag'grim READ READ\nChannels 1 bot configured for pairings. Open'x △ 2 agents accessed this file\nMeH x Open'). +26 -1'COMMITTED\nMulti-machine agent federation c0 -190,7 +190,7 c0 export interface TaskSpec\nACTIVE LOOPS -215.6+215.7c0 export interface TaskPlan OrchestratorGuidance?: string executorType?e claude [ 'opencode ↑ executorType? Qclaude ( Copencode ( d extraVolumes?: Array<f host: string: con! templateId?: string planMarkdown?e string CampaignBranch?: string ContainerMode?: boolean round?: number",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 752.69
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "/Users/idosal/ciaude-rts/s.\nALLIANCE PANEL Remote Access Share your battiefleld via link Openy. Mag'tuk Mag'grim READ READ\nChannels 1 bot configured for pairings. Open'x △ 2 agents accessed this file\nMeH x Open'). +26 -1'COMMITTED\nMulti-machine agent federation c0 -190,7 +190,7 c0 export interface TaskSpec\nACTIVE LOOPS -215.6+215.7c0 export interface TaskPlan OrchestratorGuidance?: string executorType?e claude [ 'opencode ↑ executorType? Qclaude ( Copencode ( d extraVolumes?: Array<f host: string: con! templateId?: string planMarkdown?e string CampaignBranch?: string ContainerMode?: boolean round?: number",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Complex multi-panel product screenshot with chat, map labels, and task state text; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "blue map with dark translucent panels and green terrain",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "MY AGENTS",
+            "x": 2.0,
+            "y": 9.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "All 5",
+            "x": 2.0,
+            "y": 16.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Awaiting 2",
+            "x": 10.0,
+            "y": 16.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Working 2",
+            "x": 20.0,
+            "y": 16.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Idle 1",
+            "x": 31.0,
+            "y": 16.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "ALLIANCE PANEL",
+            "x": 52.0,
+            "y": 14.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "CHAT",
+            "x": 79.0,
+            "y": 4.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "GIT",
+            "x": 87.0,
+            "y": 4.0,
+            "w": 5.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "FILES",
+            "x": 93.0,
+            "y": 4.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Submit campaign to new section as item",
+            "x": 79.0,
+            "y": 11.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "playwright-report/",
+            "x": 33.0,
+            "y": 33.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "playwright-build/",
+            "x": 31.0,
+            "y": 41.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "lib/",
+            "x": 43.0,
+            "y": 49.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "docs/",
+            "x": 45.0,
+            "y": 73.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "cloudflare/",
+            "x": 62.0,
+            "y": 67.0,
+            "w": 12.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-011.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669911.5209467,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/contrast",
+        "best_score": 1699.6,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0007
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Centered quest/issue panel with dense small text and monospace-like UI; OCR will be more reliable than manual transcription here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "very dark scene with a centered metallic quest panel",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "QUESTS",
+            "x": 34.0,
+            "y": 10.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "CAMPAIGN",
+            "x": 43.0,
+            "y": 10.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "TRACES",
+            "x": 55.0,
+            "y": 10.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "ANALYTICS",
+            "x": 64.0,
+            "y": 10.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "MEMORY",
+            "x": 76.0,
+            "y": 10.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "SCAN RECENT CHANGES",
+            "x": 35.0,
+            "y": 20.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "ANALYZE PROJECT",
+            "x": 53.0,
+            "y": 20.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "FORTIFICATION",
+            "x": 35.0,
+            "y": 34.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "ENVIRONMENT & API PAYLOAD VALIDATION WITH ...",
+            "x": 36.0,
+            "y": 47.0,
+            "w": 36.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "WEBSOCKET EVENT RATE LIMITING",
+            "x": 36.0,
+            "y": 63.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "ACCEPT QUEST",
+            "x": 53.0,
+            "y": 53.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "ACCEPT QUEST",
+            "x": 53.0,
+            "y": 70.0,
+            "w": 15.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-012.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669977.8716893,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/right-72/contrast",
+        "best_score": 422.48,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "0% HLSM\nKYAGENTS\nAIL Awsitin Working Krle\nALLIANCE PANEL\nDEMUSSALL DICOMPOSINO BSASY Remote Access Opro.\nZorn'mar Oechestrator Channels\nMaggrim Submt campsign to new section. bet confgared yNliog\nWot doyou mny Haul\nKiro'ash Aod chennels festure bo READM eachintpgtfedefatios\nAss Ohseneksfeeture to REACE ACTIVELOOF\nDrak'dan Wodang.\nRuneeg-a/Uery/idoal/daode-rtysenve\nnp,bang Add Copit Ci piaform upport\nRurngHaeeyioosidde-rts/erver\nMsg'tuc Asd beads.dev task managemect int\nRek'osh lib/ Ke31m",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshot with many small labels and panel text; OCR should handle it better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "green grassy game-like screenshot with dark translucent UI panels",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "MY AGENTS",
+            "x": 1.0,
+            "y": 4.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "ALLIANCE PANEL",
+            "x": 78.0,
+            "y": 8.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "lib/",
+            "x": 6.0,
+            "y": 66.0,
+            "w": 8.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-013.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670108.8095858,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "0% HLSM\nKYAGENTS\nAIL Awsitin Working Krle\nALLIANCE PANEL\nDEMUSSALL DICOMPOSINO BSASY Remote Access Opro.\nZorn'mar Oechestrator Channels\nMaggrim Submt campsign to new section. bet confgared yNliog\nWot doyou mny Haul\nKiro'ash Aod chennels festure bo READM eachintpgtfedefatios\nAss Ohseneksfeeture to REACE ACTIVELOOF\nDrak'dan Wodang.\nRuneeg-a/Uery/idoal/daode-rtysenve\nnp,bang Add Copit Ci piaform upport\nRurngHaeeyioosidde-rts/erver\nMsg'tuc Asd beads.dev task managemect int\nRek'osh lib/ Ke31m",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 762.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "0% HLSM\nKYAGENTS\nAIL Awsitin Working Krle\nALLIANCE PANEL\nDEMUSSALL DICOMPOSINO BSASY Remote Access Opro.\nZorn'mar Oechestrator Channels\nMaggrim Submt campsign to new section. bet confgared yNliog\nWot doyou mny Haul\nKiro'ash Aod chennels festure bo READM eachintpgtfedefatios\nAss Ohseneksfeeture to REACE ACTIVELOOF\nDrak'dan Wodang.\nRuneeg-a/Uery/idoal/daode-rtysenve\nnp,bang Add Copit Ci piaform upport\nRurngHaeeyioosidde-rts/erver\nMsg'tuc Asd beads.dev task managemect int\nRek'osh lib/ Ke31m",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshot with chat, files, and left-side agent panel; OCR is a better fit than manual reading here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "green grassy game-like screenshot with dark translucent UI panels",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "MY AGENTS",
+            "x": 1.0,
+            "y": 4.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "ALLIANCE PANEL",
+            "x": 52.0,
+            "y": 11.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "CHAT",
+            "x": 78.0,
+            "y": 1.0,
+            "w": 7.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "GIT",
+            "x": 87.0,
+            "y": 1.0,
+            "w": 5.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "FILES",
+            "x": 93.0,
+            "y": 1.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "design the new login page",
+            "x": 78.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-014.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670196.3063405,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 1117.08,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0013
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "-builc 06 22 HSM CHAT GIT FILES\nHYAGENTS A Grom' DIYNILTO.? Norking\nALLIANCLPANTL ronBrasuyeLigathrin\nDECOMPOSINO, ADYGO Remote Access Opeo)\nDurg'dur Wich Colet CuI tool ae Magtak Add beadsdev taskmanagomert in Wiat ked ofbeadsdevetegaticn Whatdoyoumeen by Kird'ssh Maggrim Submt campeign to new sectona Add Chsrnesfesbure to RADME Zorn'mar Aod charneis feture to README Add Copiiot CLI platfo eocor Crchestrstor yiso Saonin A Ra091-03504:4-21b8-4s83-224-025754587ta 1botcontgred torparings Channels Hall ICTIO Cpee, concrete work had started yet, say that ceurly not ask unnecesary questions unies the task s [uset卡: desgn ue new Wopin page user what context you received If the source agent already had a concrete unfinished task, coetinue it right away after thut recript. If no geouinely anbiguoss. short handoff receipe(1-2 sentences) celling the not wait silently for another message, and do Your fint action is to repty immediately with a instead ofpretending workwis underway.Do\nGrom'osh Workng\nDrak'dan Woriing ACTIVT LOOPS Recefved handofi: the source agemt had the request\nlib/ to 'design the new login page' but no concrete work was started yet.\nLetme erplore the codebase to understand the\nexplorethecodebesetc startedyet.Lot design. current login/auth Ul before planning thenow\nunderatandche current\nlogin/avthUlbefore\ndesigo. pianning the nov Type to queue messege.\nDITAULT OOWNYY\nGROMOSH",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshot with multiple panes and small text; OCR is the right next step.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "green grassy game-like screenshot with dark translucent UI panels",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "MY AGENTS",
+            "x": 1.0,
+            "y": 4.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "ALLIANCE PANEL",
+            "x": 52.0,
+            "y": 11.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "CHAT",
+            "x": 78.0,
+            "y": 1.0,
+            "w": 7.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "GIT",
+            "x": 87.0,
+            "y": 1.0,
+            "w": 5.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "FILES",
+            "x": 93.0,
+            "y": 1.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "design the new login page",
+            "x": 78.0,
+            "y": 18.0,
+            "w": 19.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-015.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670272.5344229,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "-builc 06 22 HSM CHAT GIT FILES\nHYAGENTS A Grom' DIYNILTO.? Norking\nALLIANCLPANTL ronBrasuyeLigathrin\nDECOMPOSINO, ADYGO Remote Access Opeo)\nDurg'dur Wich Colet CuI tool ae Magtak Add beadsdev taskmanagomert in Wiat ked ofbeadsdevetegaticn Whatdoyoumeen by Kird'ssh Maggrim Submt campeign to new sectona Add Chsrnesfesbure to RADME Zorn'mar Aod charneis feture to README Add Copiiot CLI platfo eocor Crchestrstor yiso Saonin A Ra091-03504:4-21b8-4s83-224-025754587ta 1botcontgred torparings Channels Hall ICTIO Cpee, concrete work had started yet, say that ceurly not ask unnecesary questions unies the task s [uset卡: desgn ue new Wopin page user what context you received If the source agent already had a concrete unfinished task, coetinue it right away after thut recript. If no geouinely anbiguoss. short handoff receipe(1-2 sentences) celling the not wait silently for another message, and do Your fint action is to repty immediately with a instead ofpretending workwis underway.Do\nGrom'osh Workng\nDrak'dan Woriing ACTIVT LOOPS Recefved handofi: the source agemt had the request\nlib/ to 'design the new login page' but no concrete work was started yet.\nLetme erplore the codebase to understand the\nexplorethecodebesetc startedyet.Lot design. current login/auth Ul before planning thenow\nunderatandche current\nlogin/avthUlbefore\ndesigo. pianning the nov Type to queue messege.\nDITAULT OOWNYY\nGROMOSH",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 2066.48
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "-builc 06 22 HSM CHAT GIT FILES\nHYAGENTS A Grom' DIYNILTO.? Norking\nALLIANCLPANTL ronBrasuyeLigathrin\nDECOMPOSINO, ADYGO Remote Access Opeo)\nDurg'dur Wich Colet CuI tool ae Magtak Add beadsdev taskmanagomert in Wiat ked ofbeadsdevetegaticn Whatdoyoumeen by Kird'ssh Maggrim Submt campeign to new sectona Add Chsrnesfesbure to RADME Zorn'mar Aod charneis feture to README Add Copiiot CLI platfo eocor Crchestrstor yiso Saonin A Ra091-03504:4-21b8-4s83-224-025754587ta 1botcontgred torparings Channels Hall ICTIO Cpee, concrete work had started yet, say that ceurly not ask unnecesary questions unies the task s [uset卡: desgn ue new Wopin page user what context you received If the source agent already had a concrete unfinished task, coetinue it right away after thut recript. If no geouinely anbiguoss. short handoff receipe(1-2 sentences) celling the not wait silently for another message, and do Your fint action is to repty immediately with a instead ofpretending workwis underway.Do\nGrom'osh Workng\nDrak'dan Woriing ACTIVT LOOPS Recefved handofi: the source agemt had the request\nlib/ to 'design the new login page' but no concrete work was started yet.\nLetme erplore the codebase to understand the\nexplorethecodebesetc startedyet.Lot design. current login/auth Ul before planning thenow\nunderatandche current\nlogin/avthUlbefore\ndesigo. pianning the nov Type to queue messege.\nDITAULT OOWNYY\nGROMOSH",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/kR64LOqBBCU/slide-015.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "sponsor logos only",
+      "text": "PLATINUM SPONSORS\nBraintrust WorkOS OpenAI",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "logo/title slide with no dense text",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#0a0a0a",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "PLATINUM SPONSORS",
+            "x": 34.0,
+            "y": 35.0,
+            "w": 32.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "Braintrust",
+            "x": 7.0,
+            "y": 49.0,
+            "w": 31.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "WorkOS",
+            "x": 42.0,
+            "y": 49.0,
+            "w": 24.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenAI",
+            "x": 74.0,
+            "y": 49.0,
+            "w": 18.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-001.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669392.3325386,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "PLATINUM SPONSORS\nBraintrust WorkOS OpenAI",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.93,
+      "frame_type": "title_card",
+      "reject_reason": "logo/title card only",
+      "text": "AGENTCRAFT",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "logo-heavy title card with no substantive slide content",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(180deg,#090909,#111111)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AGENTCRAFT",
+            "x": 45.0,
+            "y": 13.0,
+            "w": 33.0,
+            "h": 61.0
+          },
+          {
+            "role": "caption",
+            "text": "AGENTCRAFT: PUTTING THE ORC IN AGENT ORCHESTRATION",
+            "x": 21.0,
+            "y": 86.0,
+            "w": 61.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "IDO SALOMON / Creator of AgentCraft & MCP-UI",
+            "x": 24.0,
+            "y": 94.0,
+            "w": 45.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-005.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669392.3381631,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "AGENTCRAFT",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "demo video frame, not a readable slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "game/demo UI footage rather than a slide",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#1f2b14",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-006.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783669392.3387954,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.94,
+      "frame_type": "speaker_stage",
+      "reject_reason": "presenter on stage with projected slide",
+      "text": "We've been preparing for this our whole lives",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black stage slide with orange text",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "We've been preparing for this our whole lives",
+            "x": 24.0,
+            "y": 29.0,
+            "w": 54.0,
+            "h": 22.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Engineering the future of AI",
+            "x": 33.0,
+            "y": 83.0,
+            "w": 50.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-016.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670310.034039,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "We've been preparing for this our whole lives",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.94,
+      "frame_type": "speaker_stage",
+      "reject_reason": "presenter on stage with thank-you slide and QR code",
+      "text": "Thank You!",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black thank-you slide with stage framing",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Thank You!",
+            "x": 38.0,
+            "y": 7.0,
+            "w": 24.0,
+            "h": 11.0
+          },
+          {
+            "role": "caption",
+            "text": "Ido Salomon",
+            "x": 47.0,
+            "y": 79.0,
+            "w": 18.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-017.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670310.0344462,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Thank You!",
+      "advanced_ocr": {}
+    }
+  ]
+}

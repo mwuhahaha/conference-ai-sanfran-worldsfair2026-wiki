@@ -1,0 +1,870 @@
+{
+  "video_id": "6bmM45jkMDY",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 11,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "You can't prompt the room.\nCheap to build. Expensive to decide.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "teal gradient background with dark navy rounded panel",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI. ENGINEER",
+            "x": 8.0,
+            "y": 40.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "You can't prompt the room.",
+            "x": 8.0,
+            "y": 47.0,
+            "w": 44.0,
+            "h": 18.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Cheap to build. Expensive to decide.",
+            "x": 8.0,
+            "y": 67.0,
+            "w": 31.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/6bmM45jkMDY/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657789.4908097,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "You can't prompt the room.\nCheap to build. Expensive to decide.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/6bmM45jkMDY/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "WHERE THIS STARTS\n17 of 21 agents abandoned\nOn data access. None of them reached the model.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "teal gradient background with dark navy rounded panel",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "label",
+            "text": "WHERE THIS STARTS",
+            "x": 8.0,
+            "y": 39.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "17",
+            "x": 36.0,
+            "y": 43.0,
+            "w": 10.0,
+            "h": 14.0
+          },
+          {
+            "role": "subtitle",
+            "text": "of 21 agents abandoned",
+            "x": 35.0,
+            "y": 56.0,
+            "w": 19.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "On data access. None of them reached the model.",
+            "x": 8.0,
+            "y": 71.0,
+            "w": 42.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/6bmM45jkMDY/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657789.4918396,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "WHERE THIS STARTS\n17 of 21 agents abandoned\nOn data access. None of them reached the model.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/6bmM45jkMDY/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "THE BRIDGE\nI've always prompted the developers.\nThe room was always the hard part.\n13 years, ERP & CRM\nUS · UK · Hungary\nVisualLabs, Microsoft partner",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "teal gradient background with white rounded panel",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "label",
+            "text": "THE BRIDGE",
+            "x": 8.0,
+            "y": 40.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "I've always prompted the developers.",
+            "x": 8.0,
+            "y": 45.0,
+            "w": 47.0,
+            "h": 18.0
+          },
+          {
+            "role": "subtitle",
+            "text": "The room was always the hard part.",
+            "x": 8.0,
+            "y": 66.0,
+            "w": 38.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "13 years, ERP & CRM",
+            "x": 8.0,
+            "y": 74.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "US · UK · Hungary",
+            "x": 23.0,
+            "y": 74.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "VisualLabs, Microsoft partner",
+            "x": 43.0,
+            "y": 74.0,
+            "w": 23.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/6bmM45jkMDY/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657789.4926343,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "THE BRIDGE\nI've always prompted the developers.\nThe room was always the hard part.\n13 years, ERP & CRM\nUS · UK · Hungary\nVisualLabs, Microsoft partner",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/6bmM45jkMDY/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "THE SHIFT\nThe bottleneck moved.\nUSED TO BE getting the code built\nNOW deciding what to build",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "teal gradient background with dark navy rounded panel",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "label",
+            "text": "THE SHIFT",
+            "x": 8.0,
+            "y": 39.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "The bottleneck moved.",
+            "x": 8.0,
+            "y": 47.0,
+            "w": 31.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "USED TO BE\ngetting the code built",
+            "x": 8.0,
+            "y": 58.0,
+            "w": 29.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "NOW\ndeciding what to build",
+            "x": 44.0,
+            "y": 58.0,
+            "w": 29.0,
+            "h": 13.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/6bmM45jkMDY/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657789.4936554,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "THE SHIFT\nThe bottleneck moved.\nUSED TO BE getting the code built\nNOW deciding what to build",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/6bmM45jkMDY/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "WHY A MODEL CAN'T DO IT\nAsk it what to build.\nYou get a faster horse.\nwhat already exists\nthe average\na faster horse",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "teal gradient background with dark navy rounded panel",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "label",
+            "text": "WHY A MODEL CAN'T DO IT",
+            "x": 8.0,
+            "y": 39.0,
+            "w": 28.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Ask it what to build.\nYou get a faster horse.",
+            "x": 8.0,
+            "y": 46.0,
+            "w": 45.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "what already exists",
+            "x": 8.0,
+            "y": 61.0,
+            "w": 17.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "the average",
+            "x": 27.0,
+            "y": 61.0,
+            "w": 11.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "a faster horse",
+            "x": 41.0,
+            "y": 61.0,
+            "w": 14.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/6bmM45jkMDY/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657789.4943063,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "WHY A MODEL CAN'T DO IT\nAsk it what to build.\nYou get a faster horse.\nwhat already exists\nthe average\na faster horse",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/6bmM45jkMDY/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "WHY A MODEL CAN'T DO IT\nAsk it what to build.\nYou get a faster horse.\nwhat already exists\nthe average\na faster horse",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "teal gradient background with dark navy rounded panel",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "label",
+            "text": "WHY A MODEL CAN'T DO IT",
+            "x": 8.0,
+            "y": 39.0,
+            "w": 28.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "Ask it what to build.\nYou get a faster horse.",
+            "x": 8.0,
+            "y": 46.0,
+            "w": 45.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "what already exists",
+            "x": 8.0,
+            "y": 61.0,
+            "w": 17.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "the average",
+            "x": 27.0,
+            "y": 61.0,
+            "w": 11.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "a faster horse",
+            "x": 41.0,
+            "y": 61.0,
+            "w": 14.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/6bmM45jkMDY/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657789.4950752,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "WHY A MODEL CAN'T DO IT\nAsk it what to build.\nYou get a faster horse.\nwhat already exists\nthe average\na faster horse",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/6bmM45jkMDY/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "THE STORY MAP",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small multi-row diagram text and dense labels are better suited for OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "teal gradient background with dark navy rounded panel",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "THE STORY MAP",
+            "x": 8.0,
+            "y": 39.0,
+            "w": 15.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Contact",
+            "x": 8.0,
+            "y": 49.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Triage",
+            "x": 25.0,
+            "y": 49.0,
+            "w": 17.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Resolve or route",
+            "x": 43.0,
+            "y": 49.0,
+            "w": 17.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Close",
+            "x": 61.0,
+            "y": 49.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RELEASE 1",
+            "x": 8.0,
+            "y": 60.0,
+            "w": 8.0,
+            "h": 3.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LATER",
+            "x": 8.0,
+            "y": 69.0,
+            "w": 5.0,
+            "h": 3.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/6bmM45jkMDY/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657789.4958334,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "THE STORY MAP",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/6bmM45jkMDY/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "THE STORY MAP",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small multi-row diagram text and dense labels are better suited for OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "teal gradient background with dark navy rounded panel",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "THE STORY MAP",
+            "x": 8.0,
+            "y": 39.0,
+            "w": 15.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Contact",
+            "x": 8.0,
+            "y": 49.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Triage",
+            "x": 25.0,
+            "y": 49.0,
+            "w": 17.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Resolve or route",
+            "x": 43.0,
+            "y": 49.0,
+            "w": 17.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Close",
+            "x": 61.0,
+            "y": 49.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RELEASE 1",
+            "x": 8.0,
+            "y": 60.0,
+            "w": 8.0,
+            "h": 3.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LATER",
+            "x": 8.0,
+            "y": 69.0,
+            "w": 5.0,
+            "h": 3.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/6bmM45jkMDY/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657789.4967291,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "THE STORY MAP",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/6bmM45jkMDY/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "THE STORY MAP",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with multiple small labels and compact boxes; OCR is likely more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "teal gradient with dark navy panel",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "THE STORY MAP",
+            "x": 8.0,
+            "y": 44.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Contact",
+            "x": 8.0,
+            "y": 52.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Triage",
+            "x": 25.0,
+            "y": 52.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Resolve or route",
+            "x": 42.0,
+            "y": 52.0,
+            "w": 19.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Close",
+            "x": 62.0,
+            "y": 52.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "RELEASE 1",
+            "x": 8.0,
+            "y": 63.0,
+            "w": 10.0,
+            "h": 3.0
+          },
+          {
+            "role": "body",
+            "text": "Capture intent",
+            "x": 8.0,
+            "y": 67.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Classify urgency",
+            "x": 25.0,
+            "y": 67.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Draft a grounded answer",
+            "x": 42.0,
+            "y": 67.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Log to system of record",
+            "x": 62.0,
+            "y": 67.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "LATER",
+            "x": 8.0,
+            "y": 74.0,
+            "w": 8.0,
+            "h": 3.0
+          },
+          {
+            "role": "body",
+            "text": "Read sentiment",
+            "x": 8.0,
+            "y": 78.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Route to a team",
+            "x": 25.0,
+            "y": 78.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Suggest next action",
+            "x": 42.0,
+            "y": 78.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Check satisfaction",
+            "x": 62.0,
+            "y": 78.0,
+            "w": 16.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/6bmM45jkMDY/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657851.0479946,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "THE STORY MAP",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/6bmM45jkMDY/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "BEFORE THE AGENTS START\n1 Whose problem is this?\n2 What does winning look like for them?\n3 What would make them refuse to use it?\n4 What decision does it change?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "teal gradient with dark navy panel",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "BEFORE THE AGENTS START",
+            "x": 8.0,
+            "y": 45.0,
+            "w": 25.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "1 Whose problem is this?",
+            "x": 8.0,
+            "y": 54.0,
+            "w": 30.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "2 What does winning look like for them?",
+            "x": 40.0,
+            "y": 54.0,
+            "w": 33.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "3 What would make them refuse to use it?",
+            "x": 8.0,
+            "y": 66.0,
+            "w": 32.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "4 What decision does it change?",
+            "x": 40.0,
+            "y": 66.0,
+            "w": 29.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/6bmM45jkMDY/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657851.0530663,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "BEFORE THE AGENTS START\n1 Whose problem is this?\n2 What does winning look like for them?\n3 What would make them refuse to use it?\n4 What decision does it change?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/6bmM45jkMDY/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Build the right thing.\nNot the next thing.\nBalazs Horvath\nlinkedin.com/in/Balazshorvathd365\nSCAN TO CONNECT",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "teal gradient with dark navy panel",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Build the right thing.\nNot the next thing.",
+            "x": 8.0,
+            "y": 19.0,
+            "w": 39.0,
+            "h": 31.0
+          },
+          {
+            "role": "caption",
+            "text": "Balazs Horvath\nlinkedin.com/in/Balazshorvathd365",
+            "x": 8.0,
+            "y": 72.0,
+            "w": 31.0,
+            "h": 9.0
+          },
+          {
+            "role": "code",
+            "text": "SCAN TO CONNECT",
+            "x": 61.0,
+            "y": 61.0,
+            "w": 15.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/6bmM45jkMDY/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657851.0591898,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Build the right thing.\nNot the next thing.\nBalazs Horvath\nlinkedin.com/in/Balazshorvathd365\nSCAN TO CONNECT",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/6bmM45jkMDY/slide-011.html"
+    }
+  ],
+  "rejected": []
+}

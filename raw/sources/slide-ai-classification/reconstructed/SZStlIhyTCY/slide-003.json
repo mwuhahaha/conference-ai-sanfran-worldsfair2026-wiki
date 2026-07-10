@@ -1,0 +1,154 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls, mobile Cloud, Al coding assistants\nmethodologies Softwaredev Waterfall Agile dev Product and platform dev Al-nativedev\n3\nMcKinsoy&Company",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Full text-heavy slide with multiple labeled sections and images.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "New technologies have given rise to new software dev methodologies",
+        "x": 4.0,
+        "y": 5.0,
+        "w": 84.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Pre-2000s   2000s   2010s   2020s",
+        "x": 19.0,
+        "y": 13.0,
+        "w": 62.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tech breakthrough",
+        "x": 4.0,
+        "y": 20.0,
+        "w": 12.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Mainframes, PCs",
+        "x": 19.0,
+        "y": 19.0,
+        "w": 11.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Web, client-server",
+        "x": 36.0,
+        "y": 19.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Cloud, APIs, mobile",
+        "x": 55.0,
+        "y": 19.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "AI coding assistants",
+        "x": 75.0,
+        "y": 19.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Software dev methodologies",
+        "x": 4.0,
+        "y": 41.0,
+        "w": 15.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Waterfall",
+        "x": 19.0,
+        "y": 42.0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agile dev",
+        "x": 38.0,
+        "y": 42.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Product and platform dev",
+        "x": 56.0,
+        "y": 41.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "AI-native dev",
+        "x": 77.0,
+        "y": 42.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram",
+        "text": "timeline with milestones and three supporting photos",
+        "x": 8.0,
+        "y": 56.0,
+        "w": 84.0,
+        "h": 31.0
+      },
+      {
+        "role": "logo",
+        "text": "McKinsey & Company",
+        "x": 83.0,
+        "y": 86.0,
+        "w": 11.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-003.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663391.8614392,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls, mobile Cloud, Al coding assistants\nmethodologies Softwaredev Waterfall Agile dev Product and platform dev Al-nativedev\n3\nMcKinsoy&Company",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 420.48
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "New technologies have given rise to new software dev methodologies\nPre-2000s 2000s 2010s 2020s\nTech breakthrough PCs Mainframes, Web, client-server APls, mobile Cloud, Al coding assistants\nmethodologies Softwaredev Waterfall Agile dev Product and platform dev Al-nativedev\n3\nMcKinsoy&Company",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

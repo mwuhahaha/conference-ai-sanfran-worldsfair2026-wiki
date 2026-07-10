@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Optimization Loop",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense notebook text with paragraph and bullets; OCR likely more accurate than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Optimization Loop",
+        "x": 14.0,
+        "y": 20.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Generate & Evaluate\nTrain & Optimize\nIterate",
+        "x": 14.0,
+        "y": 33.0,
+        "w": 62.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "Key parameters\nthreshold\nloops\nscorer\nnum_rules",
+        "x": 14.0,
+        "y": 66.0,
+        "w": 34.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-024.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-024.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665624.0335238,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Optimization Loop",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 2332.0,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.001
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agenda Session\n01 What is MCP?\n02 MCP Apps\n03 Building MCP Apps in VS Code (demo)",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 14.0,
+        "h": 19.0
+      },
+      {
+        "role": "title",
+        "text": "Agenda\nSession",
+        "x": 28.0,
+        "y": 5.0,
+        "w": 18.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "01 What is MCP?\n02 MCP Apps\n03 Building MCP Apps in VS Code (demo)",
+        "x": 55.0,
+        "y": 6.0,
+        "w": 37.0,
+        "h": 30.0
+      },
+      {
+        "role": "logo",
+        "text": "Braintrust",
+        "x": 42.0,
+        "y": 83.0,
+        "w": 13.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "WorkOS",
+        "x": 61.0,
+        "y": 83.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenAI",
+        "x": 82.0,
+        "y": 83.0,
+        "w": 10.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/_xIwFcnHqp4/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665983.1674435,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Agenda Session\n01 What is MCP?\n02 MCP Apps\n03 Building MCP Apps in VS Code (demo)",
+  "advanced_ocr": {}
+}

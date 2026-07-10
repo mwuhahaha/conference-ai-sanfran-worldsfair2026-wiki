@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A 356M token rollout for nextjs-vite-rewrite\n9.4 hours agonr walciock Rrpo + faturt ti plor stlon. 844 trsiectory steps imgiemantation push P+O+ rOAt + SSR 842total tool acticns Hydration brek throughr: 220/325 ptting tdrt/nrite: 223 (26%) buidtet: 323 (38%) (41) 1l:oqox,bnqsp rtsd/esrch: 259 (31%) other t0ols: 26 (3%)\n1.3h 2.9h 6.1a 7.0h $.5h 岁.33\nActicns per 30 min 83 Frst tl suile. 0325 p+sting Tarsron dtbugging. misng boottp midataware Cusler Server sctions + tspcche:pena rluL 283325\n68\n40\n2 3 Elapsed agont wall-ciock timo (hours) 5 6 8 Z cu s.2 / (1\n$/ 13.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Timeline, metrics, and chart annotations are dense and OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6efe5",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "A 356M token rollout for nextjs-vite-rewrite",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 77.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "9.4 hours",
+        "x": 7.0,
+        "y": 17.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "844 trajectory steps",
+        "x": 24.0,
+        "y": 17.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "842 total tool actions",
+        "x": 42.0,
+        "y": 17.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Repo + fixture exploration",
+        "x": 7.0,
+        "y": 27.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pages router + SSR implementation push",
+        "x": 28.0,
+        "y": 27.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Hydration breakthrough: 220/325 passing",
+        "x": 56.0,
+        "y": 27.0,
+        "w": 18.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/Rx8f05JI_WA/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662985.1942558,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "A 356M token rollout for nextjs-vite-rewrite",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "A 356M token rollout for nextjs-vite-rewrite\n9.4 hours agonr walciock Rrpo + faturt ti plor stlon. 844 trsiectory steps imgiemantation push P+O+ rOAt + SSR 842total tool acticns Hydration brek throughr: 220/325 ptting tdrt/nrite: 223 (26%) buidtet: 323 (38%) (41) 1l:oqox,bnqsp rtsd/esrch: 259 (31%) other t0ols: 26 (3%)\n1.3h 2.9h 6.1a 7.0h $.5h 岁.33\nActicns per 30 min 83 Frst tl suile. 0325 p+sting Tarsron dtbugging. misng boottp midataware Cusler Server sctions + tspcche:pena rluL 283325\n68\n40\n2 3 Elapsed agont wall-ciock timo (hours) 5 6 8 Z cu s.2 / (1\n$/ 13.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 669.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "A 356M token rollout for nextjs-vite-rewrite\n9.4 hours agonr walciock Rrpo + faturt ti plor stlon. 844 trsiectory steps imgiemantation push P+O+ rOAt + SSR 842total tool acticns Hydration brek throughr: 220/325 ptting tdrt/nrite: 223 (26%) buidtet: 323 (38%) (41) 1l:oqox,bnqsp rtsd/esrch: 259 (31%) other t0ols: 26 (3%)\n1.3h 2.9h 6.1a 7.0h $.5h 岁.33\nActicns per 30 min 83 Frst tl suile. 0325 p+sting Tarsron dtbugging. misng boottp midataware Cusler Server sctions + tspcche:pena rluL 283325\n68\n40\n2 3 Elapsed agont wall-ciock timo (hours) 5 6 8 Z cu s.2 / (1\n$/ 13.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

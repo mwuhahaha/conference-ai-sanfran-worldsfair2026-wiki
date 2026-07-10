@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Alpaca: A Strong, Replicable Instruction-Following Model",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense paper-style slide with small body text and embedded screenshot/logo elements; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "March, 2023: The first distillation success",
+        "x": 28.0,
+        "y": 0,
+        "w": 44.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "Alpaca: A Strong, Replicable Instruction-Following Model",
+        "x": 28.0,
+        "y": 12.0,
+        "w": 44.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "Stanford Alpaca",
+        "x": 27.0,
+        "y": 55.0,
+        "w": 31.0,
+        "h": 12.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Overview",
+        "x": 18.0,
+        "y": 86.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/84Vtz2IL1Ug/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658859.6730275,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Alpaca: A Strong, Replicable Instruction-Following Model",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

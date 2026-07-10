@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "One API to Rule Them All\nBuilding Agents with the Gemini Interactions API, from zero to a working agentic application in 60 minutes.\n60 min · Live Coding · Philipp Schmid",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cream",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "AI ENGINEER EUROPE • WORKSHOP",
+        "x": 13.0,
+        "y": 28.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "One API to\nRule Them All",
+        "x": 13.0,
+        "y": 33.0,
+        "w": 30.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "Building Agents with the Gemini Interactions API, from zero to a working agentic application in 60 minutes.",
+        "x": 13.0,
+        "y": 55.0,
+        "w": 37.0,
+        "h": 13.0
+      },
+      {
+        "role": "caption",
+        "text": "60 min · Live Coding · Philipp Schmid",
+        "x": 13.0,
+        "y": 74.0,
+        "w": 33.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 58.0,
+        "y": 25.0,
+        "w": 32.0,
+        "h": 29.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666896.7314887,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "One API to Rule Them All\nBuilding Agents with the Gemini Interactions API, from zero to a working agentic application in 60 minutes.\n60 min · Live Coding · Philipp Schmid",
+  "advanced_ocr": {}
+}

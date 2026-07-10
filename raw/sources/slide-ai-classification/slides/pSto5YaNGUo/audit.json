@@ -1,0 +1,1831 @@
+{
+  "video_id": "pSto5YaNGUo",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 19,
+  "rejected_count": 5,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "HUTAGENT\nAn agent is never “done.\" It lives in a loop. Tht loop\nSeven stages, run over and over -- each pass making the sgent e littie better. Offline you bulld 8 sharpen it; onllne It runs, and realty feeds the next pass.\nConooptuelre\nCpther\nOFplirg\notfllm+ tild - onllae leazn one loop\nMonnor ctpioy\nTheArentlc Bene Burak 02 1 14",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with multiple small labels around a loop; OCR is a better fit than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "MUTAGENT",
+            "x": 86.0,
+            "y": 1.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "An agent is never \"done.\" It lives in a loop.",
+            "x": 27.0,
+            "y": 11.0,
+            "w": 46.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Seven stages, run over and over — each pass making the agent a little better. Offline you build & sharpen it; online it runs, and reality feeds the next pass.",
+            "x": 18.0,
+            "y": 19.0,
+            "w": 64.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Conceptualize",
+            "x": 48.0,
+            "y": 24.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Build",
+            "x": 59.0,
+            "y": 38.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Evaluate",
+            "x": 63.0,
+            "y": 54.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Deploy",
+            "x": 58.0,
+            "y": 73.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Monitor",
+            "x": 40.0,
+            "y": 74.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Diagnose",
+            "x": 33.0,
+            "y": 54.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Optimize",
+            "x": 35.0,
+            "y": 38.0,
+            "w": 10.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670559.4640393,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "HUTAGENT\nAn agent is never “done.\" It lives in a loop. Tht loop\nSeven stages, run over and over -- each pass making the sgent e littie better. Offline you bulld 8 sharpen it; onllne It runs, and realty feeds the next pass.\nConooptuelre\nCpther\nOFplirg\notfllm+ tild - onllae leazn one loop\nMonnor ctpioy\nTheArentlc Bene Burak 02 1 14",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 596.24
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "HUTAGENT\nAn agent is never “done.\" It lives in a loop. Tht loop\nSeven stages, run over and over -- each pass making the sgent e littie better. Offline you bulld 8 sharpen it; onllne It runs, and realty feeds the next pass.\nConooptuelre\nCpther\nOFplirg\notfllm+ tild - onllae leazn one loop\nMonnor ctpioy\nTheArentlc Bene Burak 02 1 14",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "HUTAGENT\nPhaSe 2. BuIlD\nYour coding agent generates the agent.\nThe slgned spec drives a coding agent - Claude Code, Codex, Cursor, Pl, Hermes, whlchever you run -- that writes the agent\nItself. The result Is portable: the same agent runs on any harness.\n:SPEC +1: Your cooIuc Acett: AGEnT\nChude Codt. Codx: Cureor:T.:Hrmtt '.\nfuas 61\nTHE SAME AGENT AUAS ON AUY HATHESS\nloxal - in yout coding agent clous.manag+d\nX F.\nHermes Ytlte Hmtra Ctude Ag+rtt D++phgerits\nTh+ At+ntic Bera Burak 6+ 1",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture/process slide with many small labels, icons, and a flowchart; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "MUTAGENT",
+            "x": 86.0,
+            "y": 1.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "PHASE 2 · BUILD",
+            "x": 11.0,
+            "y": 9.0,
+            "w": 12.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "Your coding agent generates the agent.",
+            "x": 11.0,
+            "y": 13.0,
+            "w": 44.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "The signed spec drives a coding agent — Claude Code, Codex, Cursor, Pi, Hermes, whichever you run — that writes the agent itself. The result is portable: the same agent runs on any harness.",
+            "x": 11.0,
+            "y": 22.0,
+            "w": 51.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SPEC",
+            "x": 25.0,
+            "y": 38.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "YOUR CODING AGENT",
+            "x": 42.0,
+            "y": 34.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AGENT",
+            "x": 64.0,
+            "y": 38.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RUNS ON",
+            "x": 49.0,
+            "y": 59.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "THE SAME AGENT RUNS ON ANY HARNESS",
+            "x": 42.0,
+            "y": 69.0,
+            "w": 26.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670584.5634902,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "HUTAGENT\nPhaSe 2. BuIlD\nYour coding agent generates the agent.\nThe slgned spec drives a coding agent - Claude Code, Codex, Cursor, Pl, Hermes, whlchever you run -- that writes the agent\nItself. The result Is portable: the same agent runs on any harness.\n:SPEC +1: Your cooIuc Acett: AGEnT\nChude Codt. Codx: Cureor:T.:Hrmtt '.\nfuas 61\nTHE SAME AGENT AUAS ON AUY HATHESS\nloxal - in yout coding agent clous.manag+d\nX F.\nHermes Ytlte Hmtra Ctude Ag+rtt D++phgerits\nTh+ At+ntic Bera Burak 6+ 1",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 800.68
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "HUTAGENT\nPhaSe 2. BuIlD\nYour coding agent generates the agent.\nThe slgned spec drives a coding agent - Claude Code, Codex, Cursor, Pl, Hermes, whlchever you run -- that writes the agent\nItself. The result Is portable: the same agent runs on any harness.\n:SPEC +1: Your cooIuc Acett: AGEnT\nChude Codt. Codx: Cureor:T.:Hrmtt '.\nfuas 61\nTHE SAME AGENT AUAS ON AUY HATHESS\nloxal - in yout coding agent clous.manag+d\nX F.\nHermes Ytlte Hmtra Ctude Ag+rtt D++phgerits\nTh+ At+ntic Bera Burak 6+ 1",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "PHASE.3: EVALuATE\nMake \"good\" measurable.\nInto one O-ioo success rate the loop can chase. Derlve a datatet of cases and a set of criterla - each a binary check, so a fait points stralght at the bi\nEvals + Ihi CeIterIA Lval systln\nCUIDED -.COLO STaRT DATASET.:PASS+FAIL PER CASE\nDatne crfst'i tth the ttea ftom tre toto asd A fitt touarghtt - ro dete rtedad ye'.\nDertre crlter'a teom peoducton tract tor.: DISCOYEHEO'- FAOH TRAces CAITERIA = EACH A BILARY CHECX Cites lts touro+\nHo tbrcattd faot.\nCATaSeTs - THE CaSES Corrtit tooh utd\nSyxTntsizr - rnoH. Geouno Ttuth 1 Vetd oe tput tonm!\nG+r+rat+ ct++ from t+ te+o helcree tioortet or hnewn-good tamp'h -- b+ter+ you hrrt tetla.\n- FRcH TRaces 61/ 00 Jlya ssions\nodueten fure irto + regrehntatt\nTho Artntic Bene Burak.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense eval-system slide with multiple panels, labels, and a score table; OCR will be more reliable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "MUTAGENT",
+            "x": 86.0,
+            "y": 1.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "PHASE 3 · EVALUATE",
+            "x": 11.0,
+            "y": 10.0,
+            "w": 14.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "Make \"good\" measurable.",
+            "x": 11.0,
+            "y": 14.0,
+            "w": 35.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Derive a dataset of cases and a set of criteria — each a binary check, so a fail points straight at the broken dimension. Roll them into one 0–100 success rate the loop can chase.",
+            "x": 11.0,
+            "y": 22.0,
+            "w": 56.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "EVALS · THE CRITERIA",
+            "x": 11.0,
+            "y": 31.0,
+            "w": 16.0,
+            "h": 3.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "EVAL SYSTEM",
+            "x": 52.0,
+            "y": 31.0,
+            "w": 12.0,
+            "h": 3.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SUCCESS RATE",
+            "x": 53.0,
+            "y": 76.0,
+            "w": 12.0,
+            "h": 3.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "61 / 100",
+            "x": 53.0,
+            "y": 81.0,
+            "w": 10.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670631.270934,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/opencv-adaptive",
+        "text": "PHASE.3: EVALuATE\nMake \"good\" measurable.\nInto one O-ioo success rate the loop can chase. Derlve a datatet of cases and a set of criterla - each a binary check, so a fait points stralght at the bi\nEvals + Ihi CeIterIA Lval systln\nCUIDED -.COLO STaRT DATASET.:PASS+FAIL PER CASE\nDatne crfst'i tth the ttea ftom tre toto asd A fitt touarghtt - ro dete rtedad ye'.\nDertre crlter'a teom peoducton tract tor.: DISCOYEHEO'- FAOH TRAces CAITERIA = EACH A BILARY CHECX Cites lts touro+\nHo tbrcattd faot.\nCATaSeTs - THE CaSES Corrtit tooh utd\nSyxTntsizr - rnoH. Geouno Ttuth 1 Vetd oe tput tonm!\nG+r+rat+ ct++ from t+ te+o helcree tioortet or hnewn-good tamp'h -- b+ter+ you hrrt tetla.\n- FRcH TRaces 61/ 00 Jlya ssions\nodueten fure irto + regrehntatt\nTho Artntic Bene Burak.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1302.24
+      },
+      "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "PHASE.3: EVALuATE\nMake \"good\" measurable.\nInto one O-ioo success rate the loop can chase. Derlve a datatet of cases and a set of criterla - each a binary check, so a fait points stralght at the bi\nEvals + Ihi CeIterIA Lval systln\nCUIDED -.COLO STaRT DATASET.:PASS+FAIL PER CASE\nDatne crfst'i tth the ttea ftom tre toto asd A fitt touarghtt - ro dete rtedad ye'.\nDertre crlter'a teom peoducton tract tor.: DISCOYEHEO'- FAOH TRAces CAITERIA = EACH A BILARY CHECX Cites lts touro+\nHo tbrcattd faot.\nCATaSeTs - THE CaSES Corrtit tooh utd\nSyxTntsizr - rnoH. Geouno Ttuth 1 Vetd oe tput tonm!\nG+r+rat+ ct++ from t+ te+o helcree tioortet or hnewn-good tamp'h -- b+ter+ you hrrt tetla.\n- FRcH TRaces 61/ 00 Jlya ssions\nodueten fure irto + regrehntatt\nTho Artntic Bene Burak.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "HUTAGENT\nasonorio..: t asrhd\nFailures cluster into root causes - and become new evals.\nas a now oval -- so the systam keeps growing itself. Lve, the agent is watched. Falling traces are grouped by root causo, each cause becomes a findlng, and each flndlng is fed back\nlive production traces $$snt?. 1001 flrdiags - rt= tvals\nmsaing tool / contuxt:+ oval: ass+rt tool pr+t+nt\nwrorg ttcalatlon +'tval: eicalntion'rule\ntorrmat / scherm鲁 + tvel: schtea chech'\n▼ ptqiosqt\nEval. ststen:\nTha Arntic Bene Burak 11 F 16",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Cause-clustering diagram with small labels and counts; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "MUTAGENT",
+            "x": 86.0,
+            "y": 1.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "PHASE 4 · DIAGNOSE",
+            "x": 11.0,
+            "y": 10.0,
+            "w": 16.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "Failures cluster into root causes — and become new evals.",
+            "x": 11.0,
+            "y": 14.0,
+            "w": 59.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Live, the agent is watched. Failing traces are grouped by root cause, each cause becomes a finding, and each finding is fed back as a new eval — so the system keeps growing itself.",
+            "x": 11.0,
+            "y": 23.0,
+            "w": 63.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "live production traces",
+            "x": 14.0,
+            "y": 31.0,
+            "w": 16.0,
+            "h": 3.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "root causes",
+            "x": 38.0,
+            "y": 31.0,
+            "w": 10.0,
+            "h": 3.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "findings → new evals",
+            "x": 61.0,
+            "y": 31.0,
+            "w": 16.0,
+            "h": 3.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "EVAL SYSTEM grows every cycle",
+            "x": 61.0,
+            "y": 75.0,
+            "w": 18.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670687.1281528,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "HUTAGENT\nasonorio..: t asrhd\nFailures cluster into root causes - and become new evals.\nas a now oval -- so the systam keeps growing itself. Lve, the agent is watched. Falling traces are grouped by root causo, each cause becomes a findlng, and each flndlng is fed back\nlive production traces $$snt?. 1001 flrdiags - rt= tvals\nmsaing tool / contuxt:+ oval: ass+rt tool pr+t+nt\nwrorg ttcalatlon +'tval: eicalntion'rule\ntorrmat / scherm鲁 + tvel: schtea chech'\n▼ ptqiosqt\nEval. ststen:\nTha Arntic Bene Burak 11 F 16",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 814.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "HUTAGENT\nasonorio..: t asrhd\nFailures cluster into root causes - and become new evals.\nas a now oval -- so the systam keeps growing itself. Lve, the agent is watched. Falling traces are grouped by root causo, each cause becomes a findlng, and each flndlng is fed back\nlive production traces $$snt?. 1001 flrdiags - rt= tvals\nmsaing tool / contuxt:+ oval: ass+rt tool pr+t+nt\nwrorg ttcalatlon +'tval: eicalntion'rule\ntorrmat / scherm鲁 + tvel: schtea chech'\n▼ ptqiosqt\nEval. ststen:\nTha Arntic Bene Burak 11 F 16",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "PHASE 4: DIAGOSE · AT SCALE\nFrom a flood of failures to a short list of causes.\nYou can't read a miillon falling traces. Dlagnosis cluaters them by simllarlty and catogorlzes each grou\ncause frst, not the loudest symptom.\nFAILIRO TAACES A fiu Rauxlo causts\ntlust+r: Wrong tool Lihe Otf-path / looping Llulrg conteart\ntat+go+iro Format / pohoy mdts Uhupporttd citha\nCluste Categorlre ★ Rank\nCroup the tehng trece that look alke hto one buohst = no humus rtdt them one by cmt. Labt cech cutter by thae bnd ot falure, Da trrery buoket mape to a fuxab+e c+uta. Grde thu+ ctut Hrst, rot the lo\n+o trac+n + or+ clustot Bissing coatet. arong tool - ofl-path 1.2kc\nTht Artatic Bene Burak",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "High-density scale slide with ranked causes, counts, and explanatory boxes; OCR is the right capture path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "MUTAGENT",
+            "x": 86.0,
+            "y": 1.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "PHASE 4 · DIAGNOSE · AT SCALE",
+            "x": 11.0,
+            "y": 10.0,
+            "w": 20.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "From a flood of failures to a short list of causes.",
+            "x": 11.0,
+            "y": 14.0,
+            "w": 52.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "You can't read a million failing traces. Diagnosis clusters them by similarity and categorizes each group — so you fix the biggest cause first, not the loudest symptom.",
+            "x": 11.0,
+            "y": 23.0,
+            "w": 61.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MILLIONS OF FAILING TRACES",
+            "x": 12.0,
+            "y": 31.0,
+            "w": 18.0,
+            "h": 3.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "A FEW RANKED CAUSES",
+            "x": 35.0,
+            "y": 31.0,
+            "w": 16.0,
+            "h": 3.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Cluster",
+            "x": 12.0,
+            "y": 67.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Categorize",
+            "x": 39.0,
+            "y": 67.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Rank",
+            "x": 67.0,
+            "y": 67.0,
+            "w": 6.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670706.5758684,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/opencv-adaptive",
+        "text": "PHASE 4: DIAGOSE · AT SCALE\nFrom a flood of failures to a short list of causes.\nYou can't read a miillon falling traces. Dlagnosis cluaters them by simllarlty and catogorlzes each grou\ncause frst, not the loudest symptom.\nFAILIRO TAACES A fiu Rauxlo causts\ntlust+r: Wrong tool Lihe Otf-path / looping Llulrg conteart\ntat+go+iro Format / pohoy mdts Uhupporttd citha\nCluste Categorlre ★ Rank\nCroup the tehng trece that look alke hto one buohst = no humus rtdt them one by cmt. Labt cech cutter by thae bnd ot falure, Da trrery buoket mape to a fuxab+e c+uta. Grde thu+ ctut Hrst, rot the lo\n+o trac+n + or+ clustot Bissing coatet. arong tool - ofl-path 1.2kc\nTht Artatic Bene Burak",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1158.88
+      },
+      "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "PHASE 4: DIAGOSE · AT SCALE\nFrom a flood of failures to a short list of causes.\nYou can't read a miillon falling traces. Dlagnosis cluaters them by simllarlty and catogorlzes each grou\ncause frst, not the loudest symptom.\nFAILIRO TAACES A fiu Rauxlo causts\ntlust+r: Wrong tool Lihe Otf-path / looping Llulrg conteart\ntat+go+iro Format / pohoy mdts Uhupporttd citha\nCluste Categorlre ★ Rank\nCroup the tehng trece that look alke hto one buohst = no humus rtdt them one by cmt. Labt cech cutter by thae bnd ot falure, Da trrery buoket mape to a fuxab+e c+uta. Grde thu+ ctut Hrst, rot the lo\n+o trac+n + or+ clustot Bissing coatet. arong tool - ofl-path 1.2kc\nTht Artatic Bene Burak",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The whole lifecycle, running as an agentic loop. THE PAYOFF ··ALL FIVE PHASES. AS ONE HACHIHE\nDofrmo + Deign. The A Enghisr cigturm mhy erd whet 'otds Goodl' loo'u Pte - Ird turn. it lrto th.\n2t Create the evel system The Codlng Agent generaits Ihe sgan? ++tinst the Sp+o. [POOE 1 COLD STANT] 99%. A41+T.$0.05\nconltetlont, net hmnd-tuthpntdr. quidt. to 'good'n Btrd Trom ril trom the Seta snd your hatorie taoh Dtrls+ th+ dhtet td toortd crttl ++++rt\nrtgrt ton-gated betore it cen dhploy. Fun the delaahrt → Evtuate + Optmir*. Olh+t optlatlon loop Cyey oyait chp a bettt teran\n[3] D+ploy Co e lth e feedbtck mtoraritn t pltar.\nThhures tur'eoe se they Teope Montor Lhit imtl res on prod Eodon irlletr\n7 ' at now drbiet out the ree wond A rna y:Each felure ie rootc. Degnore + grow the Ie-dehitior ketps t!! HODE2LIYED Otift.\nThe Artntic Bene Bursk",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram slide with multiple small text blocks and labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "THE PAYOFF • ALL FIVE PHASES, AS ONE MACHINE",
+            "x": 18.0,
+            "y": 4.0,
+            "w": 35.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "The whole lifecycle, running as an agentic loop.",
+            "x": 18.0,
+            "y": 8.0,
+            "w": 44.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "1 Define + Design\n2 Build\n3 Create the eval system\n4 Offline optimization loop\n5 Deploy\n6 Monitor\n7 Diagnose + grow the",
+            "x": 18.0,
+            "y": 17.0,
+            "w": 25.0,
+            "h": 70.0
+          },
+          {
+            "role": "diagram",
+            "text": "SPEC\nAGENT\nEVAL SYSTEM\n99%\n$0.05",
+            "x": 56.0,
+            "y": 14.0,
+            "w": 30.0,
+            "h": 60.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670837.247335,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "The whole lifecycle, running as an agentic loop.",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/opencv-adaptive",
+        "text": "The whole lifecycle, running as an agentic loop. THE PAYOFF ··ALL FIVE PHASES. AS ONE HACHIHE\nDofrmo + Deign. The A Enghisr cigturm mhy erd whet 'otds Goodl' loo'u Pte - Ird turn. it lrto th.\n2t Create the evel system The Codlng Agent generaits Ihe sgan? ++tinst the Sp+o. [POOE 1 COLD STANT] 99%. A41+T.$0.05\nconltetlont, net hmnd-tuthpntdr. quidt. to 'good'n Btrd Trom ril trom the Seta snd your hatorie taoh Dtrls+ th+ dhtet td toortd crttl ++++rt\nrtgrt ton-gated betore it cen dhploy. Fun the delaahrt → Evtuate + Optmir*. Olh+t optlatlon loop Cyey oyait chp a bettt teran\n[3] D+ploy Co e lth e feedbtck mtoraritn t pltar.\nThhures tur'eoe se they Teope Montor Lhit imtl res on prod Eodon irlletr\n7 ' at now drbiet out the ree wond A rna y:Each felure ie rootc. Degnore + grow the Ie-dehitior ketps t!! HODE2LIYED Otift.\nThe Artntic Bene Bursk",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1405.0
+      },
+      "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "The whole lifecycle, running as an agentic loop. THE PAYOFF ··ALL FIVE PHASES. AS ONE HACHIHE\nDofrmo + Deign. The A Enghisr cigturm mhy erd whet 'otds Goodl' loo'u Pte - Ird turn. it lrto th.\n2t Create the evel system The Codlng Agent generaits Ihe sgan? ++tinst the Sp+o. [POOE 1 COLD STANT] 99%. A41+T.$0.05\nconltetlont, net hmnd-tuthpntdr. quidt. to 'good'n Btrd Trom ril trom the Seta snd your hatorie taoh Dtrls+ th+ dhtet td toortd crttl ++++rt\nrtgrt ton-gated betore it cen dhploy. Fun the delaahrt → Evtuate + Optmir*. Olh+t optlatlon loop Cyey oyait chp a bettt teran\n[3] D+ploy Co e lth e feedbtck mtoraritn t pltar.\nThhures tur'eoe se they Teope Montor Lhit imtl res on prod Eodon irlletr\n7 ' at now drbiet out the ree wond A rna y:Each felure ie rootc. Degnore + grow the Ie-dehitior ketps t!! HODE2LIYED Otift.\nThe Artntic Bene Bursk",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "HUTAGENT\nThe systen. wheRe It lrves\nIt runs in your environment - cloud and local.\nMutagent installs as agents inside the coding agent you already use. The agents run locally - your traces and code never leave *swyoneld umo jnon oi Sutum pue woy, buipee, ol!ym - eulyoew jnon\nYOUR EMVIRONHENt you? glatforal · cloud. loca!\n+idence 1n SOURCES ca Lrgtut A Openltlemertr B Dtdog G Litnhn B Irehtrrt\nr+de lour codl + tocil' - date n+w+t lert+\nChode Code:. o Codm. G cunv E n -O Hrm?\nf. oxchrtator\n= titct1 tN+rates ，\nCyulgator RESEARCH PREVIE whlp: rost dinpose Dlugrotici RESEARCH: PAEYIE\"\n2. arott, 1o rolarch, previr\nehere it arit+s TARceTs calda * ca Coaeo Coder G csror codiar stontt -.+d tIoscaDiks [① Kute roptgats cloud-tod\nmlt racnd of titoes - mtoeht scene thirn srd lhe erehtstrator rurt tha loop sgtl.\nPuNs loCally + Entedt htde taur oodhg tgtmt i A hosted Lutsgert pltterm or Yeragtd Agents-as + Servoe -- tet -hott or fuly mtregtd. then you ment R. future: cloud Platforn\nJh*.Ax+ntic Bene Burak 1% / 14",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture slide with dense labels and a boxed system diagram.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "THE SYSTEM • WHERE IT LIVES",
+            "x": 17.0,
+            "y": 4.0,
+            "w": 32.0,
+            "h": 3.0
+          },
+          {
+            "role": "title",
+            "text": "It runs in your environment — cloud and local.",
+            "x": 17.0,
+            "y": 8.0,
+            "w": 54.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Mutagent installs as agents inside the coding agent you already use.",
+            "x": 17.0,
+            "y": 15.0,
+            "w": 66.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "YOUR ENVIRONMENT\nLOCAL - data never leaves\nTARGETS where it writes\nFUTURE + CLOUD PLATFORM",
+            "x": 12.0,
+            "y": 23.0,
+            "w": 74.0,
+            "h": 64.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670851.8868318,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "It runs in your environment — cloud and local.",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "HUTAGENT\nThe systen. wheRe It lrves\nIt runs in your environment - cloud and local.\nMutagent installs as agents inside the coding agent you already use. The agents run locally - your traces and code never leave *swyoneld umo jnon oi Sutum pue woy, buipee, ol!ym - eulyoew jnon\nYOUR EMVIRONHENt you? glatforal · cloud. loca!\n+idence 1n SOURCES ca Lrgtut A Openltlemertr B Dtdog G Litnhn B Irehtrrt\nr+de lour codl + tocil' - date n+w+t lert+\nChode Code:. o Codm. G cunv E n -O Hrm?\nf. oxchrtator\n= titct1 tN+rates ，\nCyulgator RESEARCH PREVIE whlp: rost dinpose Dlugrotici RESEARCH: PAEYIE\"\n2. arott, 1o rolarch, previr\nehere it arit+s TARceTs calda * ca Coaeo Coder G csror codiar stontt -.+d tIoscaDiks [① Kute roptgats cloud-tod\nmlt racnd of titoes - mtoeht scene thirn srd lhe erehtstrator rurt tha loop sgtl.\nPuNs loCally + Entedt htde taur oodhg tgtmt i A hosted Lutsgert pltterm or Yeragtd Agents-as + Servoe -- tet -hott or fuly mtregtd. then you ment R. future: cloud Platforn\nJh*.Ax+ntic Bene Burak 1% / 14",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1555.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "HUTAGENT\nThe systen. wheRe It lrves\nIt runs in your environment - cloud and local.\nMutagent installs as agents inside the coding agent you already use. The agents run locally - your traces and code never leave *swyoneld umo jnon oi Sutum pue woy, buipee, ol!ym - eulyoew jnon\nYOUR EMVIRONHENt you? glatforal · cloud. loca!\n+idence 1n SOURCES ca Lrgtut A Openltlemertr B Dtdog G Litnhn B Irehtrrt\nr+de lour codl + tocil' - date n+w+t lert+\nChode Code:. o Codm. G cunv E n -O Hrm?\nf. oxchrtator\n= titct1 tN+rates ，\nCyulgator RESEARCH PREVIE whlp: rost dinpose Dlugrotici RESEARCH: PAEYIE\"\n2. arott, 1o rolarch, previr\nehere it arit+s TARceTs calda * ca Coaeo Coder G csror codiar stontt -.+d tIoscaDiks [① Kute roptgats cloud-tod\nmlt racnd of titoes - mtoeht scene thirn srd lhe erehtstrator rurt tha loop sgtl.\nPuNs loCally + Entedt htde taur oodhg tgtmt i A hosted Lutsgert pltterm or Yeragtd Agents-as + Servoe -- tet -hott or fuly mtregtd. then you ment R. future: cloud Platforn\nJh*.Ax+ntic Bene Burak 1% / 14",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "MUTAGENTAtlas-Emal-Agent-DiagnostioRoport\n6547ated2026-06-08122:31:582 souxce langtuse1,946 traces4findings\n③.Dvervie F-001Thaaf olist\nAtlas-Email-Agent\n946trsces·1,508sessions·24h\nOAtlas-Emall-Agent\nagent\ns.aethrdple.s net-4.6-(redacted)-vl:0\nt（70.·17.806t clsck\n_time>2026-05-06T18:39:10 ems(amexeroising my oming_email>HiAtlas,I would Ike to unsubscribe.Can you also delete allmy Information from routput-the you are done?Thanks,Jordan</incoming_emal>Torespond to the Ionly see messagessent via thesendMessage tool\nSelected: Bene 127s Burak 74 1,946 Copy declslons amarkdown Reset all",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot with small labels, cards, and prompt text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark navy gradient",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "MUTAGENT",
+            "x": 1.0,
+            "y": 3.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Atlas-Email-Agent",
+            "x": 13.0,
+            "y": 12.0,
+            "w": 30.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670978.2445505,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Atlas-Email-Agent",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "MUTAGENTAtlas-Emal-Agent-DiagnostioRoport\n6547ated2026-06-08122:31:582 souxce langtuse1,946 traces4findings\n③.Dvervie F-001Thaaf olist\nAtlas-Email-Agent\n946trsces·1,508sessions·24h\nOAtlas-Emall-Agent\nagent\ns.aethrdple.s net-4.6-(redacted)-vl:0\nt（70.·17.806t clsck\n_time>2026-05-06T18:39:10 ems(amexeroising my oming_email>HiAtlas,I would Ike to unsubscribe.Can you also delete allmy Information from routput-the you are done?Thanks,Jordan</incoming_emal>Torespond to the Ionly see messagessent via thesendMessage tool\nSelected: Bene 127s Burak 74 1,946 Copy declslons amarkdown Reset all",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 721.68
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "MUTAGENTAtlas-Emal-Agent-DiagnostioRoport\n6547ated2026-06-08122:31:582 souxce langtuse1,946 traces4findings\n③.Dvervie F-001Thaaf olist\nAtlas-Email-Agent\n946trsces·1,508sessions·24h\nOAtlas-Emall-Agent\nagent\ns.aethrdple.s net-4.6-(redacted)-vl:0\nt（70.·17.806t clsck\n_time>2026-05-06T18:39:10 ems(amexeroising my oming_email>HiAtlas,I would Ike to unsubscribe.Can you also delete allmy Information from routput-the you are done?Thanks,Jordan</incoming_emal>Torespond to the Ionly see messagessent via thesendMessage tool\nSelected: Bene 127s Burak 74 1,946 Copy declslons amarkdown Reset all",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot with prompt text, metrics, and nested panels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "near-black gradient",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Deep-read coverage — trace-hungry escalation telemetry",
+            "x": 11.0,
+            "y": 64.0,
+            "w": 58.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "54s",
+            "x": 14.0,
+            "y": 50.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "127s",
+            "x": 24.0,
+            "y": 50.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "365s",
+            "x": 34.0,
+            "y": 50.0,
+            "w": 6.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "$156.74",
+            "x": 43.0,
+            "y": 50.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "1,946",
+            "x": 53.0,
+            "y": 50.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "0",
+            "x": 63.0,
+            "y": 50.0,
+            "w": 4.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-014.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671035.7040167,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/center-82/contrast",
+        "best_score": 1175.04,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0008
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense table, cards, and timeline heatmap are better suited to OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark charcoal gradient",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Signal census + primary selected by failure-validity gate + impact-prevalence + deep-read corroboration",
+            "x": 14.0,
+            "y": 7.0,
+            "w": 70.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Signal / failure-mode",
+            "x": 15.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Present?",
+            "x": 34.0,
+            "y": 18.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Measure",
+            "x": 45.0,
+            "y": 18.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Decision",
+            "x": 58.0,
+            "y": 18.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Scan coverage",
+            "x": 14.0,
+            "y": 49.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "24h timeline heatmap (colour = avg latency, number = trace count)",
+            "x": 14.0,
+            "y": 70.0,
+            "w": 45.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-015.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671085.4065895,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/full",
+        "best_score": 813.16,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0029
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Overvien F-001The 00- DDe\nSlgnal census→primary selected byfallure mpaotxprevalence\nation]\nSignal/fallure-mode Present? Measuro Decislon\nlatency-spike YES 1790/46[)\nsndino-Duseya YES senin5/1046sampled\nYES seenin4/g46 smpled\ncost-overshoot YES snn3/40 smled\nOerrors\nOfeedback\nScan coverage\n5slicesindo-bas 1,946 TRACESNWINDOW DODE-LIVELSCAN(TIERO) 1,946 00-00T REPRESENTATIVE SAMPLE 102 Sof windo p1/1// LLMDEEP-READ covetag:cin 102 (ANALYZIRS) 102-of102sarpled (100%ofsle）\n24h timeline heatmap(colouravglatency,number·trace count)\ns0d.pr\n141\nSelected: Bene Severity WHAT/WHY/WHERE Burak One-liner Copy decislons as markdown Reset all\nKTGH",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense table, cards, and timeline heatmap are better suited to OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark charcoal gradient",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Signal census + primary selected by failure-validity gate + impact-prevalence + deep-read corroboration",
+            "x": 14.0,
+            "y": 7.0,
+            "w": 70.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Signal / failure-mode",
+            "x": 15.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Present?",
+            "x": 34.0,
+            "y": 18.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Measure",
+            "x": 45.0,
+            "y": 18.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Decision",
+            "x": 58.0,
+            "y": 18.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Scan coverage",
+            "x": 14.0,
+            "y": 49.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "24h timeline heatmap (colour = avg latency, number = trace count)",
+            "x": 14.0,
+            "y": 70.0,
+            "w": 45.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-016.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671101.0067177,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Overvien F-001The 00- DDe\nSlgnal census→primary selected byfallure mpaotxprevalence\nation]\nSignal/fallure-mode Present? Measuro Decislon\nlatency-spike YES 1790/46[)\nsndino-Duseya YES senin5/1046sampled\nYES seenin4/g46 smpled\ncost-overshoot YES snn3/40 smled\nOerrors\nOfeedback\nScan coverage\n5slicesindo-bas 1,946 TRACESNWINDOW DODE-LIVELSCAN(TIERO) 1,946 00-00T REPRESENTATIVE SAMPLE 102 Sof windo p1/1// LLMDEEP-READ covetag:cin 102 (ANALYZIRS) 102-of102sarpled (100%ofsle）\n24h timeline heatmap(colouravglatency,number·trace count)\ns0d.pr\n141\nSelected: Bene Severity WHAT/WHY/WHERE Burak One-liner Copy decislons as markdown Reset all\nKTGH",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 823.52
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Overvien F-001The 00- DDe\nSlgnal census→primary selected byfallure mpaotxprevalence\nation]\nSignal/fallure-mode Present? Measuro Decislon\nlatency-spike YES 1790/46[)\nsndino-Duseya YES senin5/1046sampled\nYES seenin4/g46 smpled\ncost-overshoot YES snn3/40 smled\nOerrors\nOfeedback\nScan coverage\n5slicesindo-bas 1,946 TRACESNWINDOW DODE-LIVELSCAN(TIERO) 1,946 00-00T REPRESENTATIVE SAMPLE 102 Sof windo p1/1// LLMDEEP-READ covetag:cin 102 (ANALYZIRS) 102-of102sarpled (100%ofsle）\n24h timeline heatmap(colouravglatency,number·trace count)\ns0d.pr\n141\nSelected: Bene Severity WHAT/WHY/WHERE Burak One-liner Copy decislons as markdown Reset all\nKTGH",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense table, cards, and timeline heatmap are better suited to OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark charcoal gradient",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Signal census + primary selected by failure-validity gate + impact-prevalence + deep-read corroboration",
+            "x": 14.0,
+            "y": 7.0,
+            "w": 70.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Signal / failure-mode",
+            "x": 15.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Present?",
+            "x": 34.0,
+            "y": 18.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Measure",
+            "x": 45.0,
+            "y": 18.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Decision",
+            "x": 58.0,
+            "y": 18.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Scan coverage",
+            "x": 14.0,
+            "y": 49.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "24h timeline heatmap (colour = avg latency, number = trace count)",
+            "x": 14.0,
+            "y": 70.0,
+            "w": 45.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-017.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671118.5050395,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 1057.52,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0028
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense table and heatmap layout are better suited to OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark charcoal gradient",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Scan coverage",
+            "x": 14.0,
+            "y": 49.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "24h timeline heatmap (colour = avg latency, number = trace count)",
+            "x": 14.0,
+            "y": 70.0,
+            "w": 45.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Signal / failure-mode",
+            "x": 15.0,
+            "y": 24.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Present?",
+            "x": 34.0,
+            "y": 24.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Measure",
+            "x": 45.0,
+            "y": 24.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Decision",
+            "x": 58.0,
+            "y": 24.0,
+            "w": 9.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-018.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671141.5483594,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/center-82/contrast",
+        "best_score": 767.08,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0022
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product/report UI with many small text blocks and tabs.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "near-black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Worst: Single generateDraftReply calls reach 264s in the worst-latency cohort the tool is 40-87% of end-to-end latency in 28/30 traces.",
+            "x": 13.0,
+            "y": 8.0,
+            "w": 74.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Problem",
+            "x": 13.0,
+            "y": 18.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Evidence",
+            "x": 13.0,
+            "y": 33.0,
+            "w": 11.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Why-chain",
+            "x": 13.0,
+            "y": 52.0,
+            "w": 12.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-019.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671310.354288,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/center-82/contrast",
+        "best_score": 971.24,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0012
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Sampling coverage — representativeness proof",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense screenshot with small text, headings, and a long assumptions block.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "near-black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Sampling coverage — representativeness proof",
+            "x": 13.0,
+            "y": 27.0,
+            "w": 44.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "ASSUMPTIONS",
+            "x": 13.0,
+            "y": 45.0,
+            "w": 12.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Remedies",
+            "x": 13.0,
+            "y": 61.0,
+            "w": 10.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-020.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671366.6327903,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Sampling coverage — representativeness proof",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/center-82/contrast",
+        "best_score": 728.44,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-020.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense remediation screenshot with multiple small sections and embedded notes.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "near-black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Produce the message in the reasoning step instead of a separate draft generation",
+            "x": 13.0,
+            "y": 23.0,
+            "w": 71.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "WHY THIS REMEDY",
+            "x": 13.0,
+            "y": 41.0,
+            "w": 15.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "WHY IT WORKS",
+            "x": 13.0,
+            "y": 57.0,
+            "w": 12.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-021.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671417.6912868,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/center-82/contrast",
+        "best_score": 907.6,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0024
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-021.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Decisions — copy approvals",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense decisions screen with approval controls, feedback box, and live markdown preview.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "near-black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Decisions — copy approvals",
+            "x": 12.0,
+            "y": 16.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "GENERAL FEEDBACK (SPEECH-TO-TEXT FRIENDLY)",
+            "x": 14.0,
+            "y": 35.0,
+            "w": 39.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "LIVE PREVIEW — MASTER PLAN MARKDOWN",
+            "x": 14.0,
+            "y": 63.0,
+            "w": 36.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-022.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-022.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671447.495746,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Decisions — copy approvals",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/full",
+        "best_score": 1026.16,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0012
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-022.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "HUTAGENT\nThe systth. where it lives.\nIt runs in your environment - cloud and iocal.\nMutagent installs as agents lnside the coding agent you already use. The agents run locaily - your traces and code never leave your machlne - while reading from and writing to your own platforms.\nYouR EnvIRonHENT your platforas: clood- local\n++id+nce 1n SOURCES Openlelhmetry M Dtdog B lantruat\nClrd+ Coot': o cde. G cunvE 1 a xm ng aont + Lota - datl nwr levte\ncondcote trw Fteoyde = ont soirt per staoa:Orcbrstrator\ni. += titc+1 gtrerates\naroot ebulld C+.l-ator RESEARCH DREYIE +r+l. agent RESEARCH: Diupnostirs sdlagaost: PRETIE!\n2 at+att in Itptrth, prtvita\nrhere it azit神s TARCltS cod+ [* cavde cooe! o Codax G areor codirg al+nt..ad [ Lata rptgt ] fIs+aoiks * coA ro. cloud-Hagd\nTargrts run n ntt reurd of treot - mtrhtr cotrs thtm sid th+ ereht'taor rurs the laop *gi'y.\nRuNs LOCally': EnBedd! ht'de yeur codrg sgent -- A hcsted Llutagtet pleitora or Lrg+d Agerts ese-fervce -- +eh -haut ge tuhy Turaged. Yh+h you +mt ht.. sUTURE:CLOUD PlaTfORN\nJhe Armtic Bene Burak 1$ /14",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture diagram with many small labels and product/tool names.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "It runs in your environment — cloud and local.",
+            "x": 11.0,
+            "y": 8.0,
+            "w": 56.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "YOUR ENVIRONMENT",
+            "x": 11.0,
+            "y": 24.0,
+            "w": 17.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "LOCAL — data never leaves",
+            "x": 11.0,
+            "y": 36.0,
+            "w": 24.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "Orchestrator",
+            "x": 38.0,
+            "y": 31.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "TARGETS where it writes",
+            "x": 11.0,
+            "y": 68.0,
+            "w": 20.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-023.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-023.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671482.7940075,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "It runs in your environment — cloud and local.",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "HUTAGENT\nThe systth. where it lives.\nIt runs in your environment - cloud and iocal.\nMutagent installs as agents lnside the coding agent you already use. The agents run locaily - your traces and code never leave your machlne - while reading from and writing to your own platforms.\nYouR EnvIRonHENT your platforas: clood- local\n++id+nce 1n SOURCES Openlelhmetry M Dtdog B lantruat\nClrd+ Coot': o cde. G cunvE 1 a xm ng aont + Lota - datl nwr levte\ncondcote trw Fteoyde = ont soirt per staoa:Orcbrstrator\ni. += titc+1 gtrerates\naroot ebulld C+.l-ator RESEARCH DREYIE +r+l. agent RESEARCH: Diupnostirs sdlagaost: PRETIE!\n2 at+att in Itptrth, prtvita\nrhere it azit神s TARCltS cod+ [* cavde cooe! o Codax G areor codirg al+nt..ad [ Lata rptgt ] fIs+aoiks * coA ro. cloud-Hagd\nTargrts run n ntt reurd of treot - mtrhtr cotrs thtm sid th+ ereht'taor rurs the laop *gi'y.\nRuNs LOCally': EnBedd! ht'de yeur codrg sgent -- A hcsted Llutagtet pleitora or Lrg+d Agerts ese-fervce -- +eh -haut ge tuhy Turaged. Yh+h you +mt ht.. sUTURE:CLOUD PlaTfORN\nJhe Armtic Bene Burak 1$ /14",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1651.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "HUTAGENT\nThe systth. where it lives.\nIt runs in your environment - cloud and iocal.\nMutagent installs as agents lnside the coding agent you already use. The agents run locaily - your traces and code never leave your machlne - while reading from and writing to your own platforms.\nYouR EnvIRonHENT your platforas: clood- local\n++id+nce 1n SOURCES Openlelhmetry M Dtdog B lantruat\nClrd+ Coot': o cde. G cunvE 1 a xm ng aont + Lota - datl nwr levte\ncondcote trw Fteoyde = ont soirt per staoa:Orcbrstrator\ni. += titc+1 gtrerates\naroot ebulld C+.l-ator RESEARCH DREYIE +r+l. agent RESEARCH: Diupnostirs sdlagaost: PRETIE!\n2 at+att in Itptrth, prtvita\nrhere it azit神s TARCltS cod+ [* cavde cooe! o Codax G areor codirg al+nt..ad [ Lata rptgt ] fIs+aoiks * coA ro. cloud-Hagd\nTargrts run n ntt reurd of treot - mtrhtr cotrs thtm sid th+ ereht'taor rurs the laop *gi'y.\nRuNs LOCally': EnBedd! ht'de yeur codrg sgent -- A hcsted Llutagtet pleitora or Lrg+d Agerts ese-fervce -- +eh -haut ge tuhy Turaged. Yh+h you +mt ht.. sUTURE:CLOUD PlaTfORN\nJhe Armtic Bene Burak 1$ /14",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-023.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Stop debugging. Start evolving.\nReliable agents come from one thing — a loop that never stops, run fast enough to compound.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Stop debugging. Start evolving.",
+            "x": 28.0,
+            "y": 31.0,
+            "w": 45.0,
+            "h": 11.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Reliable agents come from one thing — a loop that never stops, run fast enough to compound.",
+            "x": 24.0,
+            "y": 43.0,
+            "w": 53.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-024.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-024.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671530.4135902,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Stop debugging. Start evolving.\nReliable agents come from one thing — a loop that never stops, run fast enough to compound.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/pSto5YaNGUo/slide-024.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "The Agentic AI Engineer",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "THE MECHANISM",
+            "x": 46.0,
+            "y": 30.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "title",
+            "text": "The Agentic AI Engineer",
+            "x": 34.0,
+            "y": 36.0,
+            "w": 32.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "An AI agent is never \"done.\" It lives in a development loop — and the speed of that loop is the whole game.",
+            "x": 23.0,
+            "y": 45.0,
+            "w": 54.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670559.463728,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Agentic AI Engineer",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Screen-recorded demo with webcam overlays, not a standalone presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark terminal screenshot",
+        "style": "code",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670874.510757,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Screen-recorded terminal demo with webcam overlays, not a standalone presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark terminal screenshot",
+        "style": "code",
+        "blocks": []
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670874.5110292,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Screen-recorded terminal demo with webcam overlays, not a standalone presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark terminal screenshot",
+        "style": "code",
+        "blocks": []
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670874.5112822,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Screen-recorded terminal demo with webcam overlays, not a standalone presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "dark terminal screenshot",
+        "style": "code",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/pSto5YaNGUo/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670874.5115826,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

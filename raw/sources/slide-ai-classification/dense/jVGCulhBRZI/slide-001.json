@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Agents can Automate Knowledge Work\nA big promise of AI agents is making knowledge workers more efficient:\nLower cost, save time\nMore data, better decision-making\nEvery b2b SaaS is talking about it.\nBut does \"knowledge work automation\" just mean RAG chatbots?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f7efd7",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "AI Agents can Automate Knowledge Work",
+        "x": 17.0,
+        "y": 0,
+        "w": 50.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "A big promise of AI agents is making knowledge workers more efficient:",
+        "x": 21.0,
+        "y": 18.0,
+        "w": 33.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Lower cost, save time",
+        "x": 23.0,
+        "y": 32.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "More data, better decision-making",
+        "x": 23.0,
+        "y": 39.0,
+        "w": 26.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Every b2b SaaS is talking about it.",
+        "x": 21.0,
+        "y": 62.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "But does \"knowledge work automation\" just mean RAG chatbots?",
+        "x": 21.0,
+        "y": 71.0,
+        "w": 36.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 66.0,
+        "y": 88.0,
+        "w": 8.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/jVGCulhBRZI/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669279.1603808,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Agents can Automate Knowledge Work\nA big promise of AI agents is making knowledge workers more efficient:\nLower cost, save time\nMore data, better decision-making\nEvery b2b SaaS is talking about it.\nBut does \"knowledge work automation\" just mean RAG chatbots?",
+  "advanced_ocr": {}
+}

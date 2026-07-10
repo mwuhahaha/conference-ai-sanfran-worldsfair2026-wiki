@@ -17,44 +17,36 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ![[assets/dense-slides/4sX_He5c4sI/slide-001.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-001.html)
-- AI slide classifier: `content_slide` confidence `0.98`
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
 
 Slide text:
 
 > CAPABILITY OVERHANG
-> Claude gets smarter in
-> spiky ways
-> 11/40
+> Claude gets smarter in spiky ways
 
 ![[assets/dense-slides/4sX_He5c4sI/slide-002.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-002.html)
 - AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
 Slide text:
 
-> AI Engineer
-> World’s Fair
-> PRESENTED BY
-> Microsoft
 > System Prompt Design
-> Small system prompt,
-> few tools, lots of examples
-> Large system prompt,
-> lots of examples, many tools
-> Smaller system prompt,
-> tool search, no examples
-> 14/40
+> Small system prompt, few tools, lots of examples
+> Large system prompt, lots of examples, many tools
+> Smaller system prompt, tool search, no examples
 
 ![[assets/dense-slides/4sX_He5c4sI/slide-003.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-003.html)
-- AI slide classifier: `content_slide` confidence `0.98`
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
 
 Slide text:
 
 > Agenda
-> 
 > 1. Meet OG Assist
 > 2. The Origin Story
 > 3. Betting on Effect
@@ -67,205 +59,104 @@ Slide text:
 ![[assets/dense-slides/4sX_He5c4sI/slide-004.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-004.html)
-- AI slide classifier: `content_slide` confidence `0.97`
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: agent_vision.
 
 Slide text:
 
 > Origin Story
 > One bet on agents, one immediate yes.
-> A principal engineer spun up a team focused on AI agents and asked me to join. OG Assist grew from there. We started to integrate deeply with our products through frontend and backend tools.
 
 ![[assets/dense-slides/4sX_He5c4sI/slide-005.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-005.html)
-- AI slide classifier: `content_slide` confidence `0.97`
+- AI slide classifier: `content_slide` confidence `0.94`
+- Text source: agent_vision.
+- OCR decision: ready — Code and small explanatory text are better handled by OCR than manual transcription.
 
 Slide text:
 
-> Example
-> 
-> The Harness
-> Our agent loop,
-> rebuilt
-> Effect-native.
-> 
-> The core loop started on LangGraph. It now runs fully
-> Effect-native typed control flow, structured concurrency, and
-> resource safety end to end. Also allows more granular control to
-> the agent loop.
+> Our agent loop, rebuilt Effect-native.
 
 ![[assets/dense-slides/4sX_He5c4sI/slide-006.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-006.html)
-- AI slide classifier: `content_slide` confidence `0.98`
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: agent_vision.
+- OCR decision: ready — Dense diagram labels and small body text make OCR preferable.
 
 Slide text:
 
-> Production Evals
-> for Agentic Systems
-> 
-> Measuring reliability beyond
-> accuracy. Building evaluation systems
-> for autonomous AI workflows.
-> 
-> Nishant Gupta
-> Tech Lead @ Meta
+> Production Evals for Agentic Systems
 
 ![[assets/dense-slides/4sX_He5c4sI/slide-007.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-007.html)
-- AI slide classifier: `content_slide` confidence `0.97`
-
-Slide text:
-
-> Think like an SRE: Accuracy gives way to Reliabi
-> Accuracy
-> Task Success
-> Tool Success
-> Planning Quality
-> Latency
-> Cost
-> Safety
-> Human Satisfaction
-> System Reliability
-
+- AI slide classifier: `content_slide` confidence `0.91`
+- Text source: none.
+- OCR decision: ready — Cropped headline plus many small chart labels are OCR-suitable.
+- Slide text: not surfaced (`illegible` by AI classifier).
 ![[assets/dense-slides/4sX_He5c4sI/slide-008.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-008.html)
-- AI slide classifier: `content_slide` confidence `0.99`
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: agent_vision.
+- OCR decision: ready — Dense diagram slide with small subtitle/body text is OCR-suitable.
 
 Slide text:
 
-> Production Evals
-> for Agentic Systems
-> 
-> Measuring reliability beyond
-> accuracy. Building evaluation systems
-> for autonomous AI workflows.
-> 
-> Nishant Gupta
-> Tech Lead @ Meta
+> Production Evals for Agentic Systems
 
 ![[assets/dense-slides/4sX_He5c4sI/slide-009.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-009.html)
-- AI slide classifier: `content_slide` confidence `0.97`
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+- OCR decision: ready — Diagram slide with multiple small labels and a central illustration; OCR will capture labels more reliably than manual reading.
 
 Slide text:
 
 > The Anatomy Of Agentic Failure
-> 
-> Apex: Coordination
-> (Multi-agent conflicts)
-> 
-> Tool Usage
-> (Wrong API execution)
-> 
-> Planning
-> (Bad task decomposition)
-> 
-> Reasoning
-> (Wrong decisions)
-> 
-> Foundation:
-> Memory (Incorrect retrieval)
-> & Safety (Unsafe actions)
 
 ![[assets/dense-slides/4sX_He5c4sI/slide-010.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-010.html)
 - AI slide classifier: `content_slide` confidence `0.99`
-
-Slide text:
-
-> Evaluation is an
-> always-running
-> service, not a
-> testing phase.
-> 
-> Online Telemetry
-> detects drift/errors
-> 
-> Triggers HITL review
-> for edge cases
-> 
-> Human feedback feeds
-> into Offline Datasets
-> 
-> Offline Scenario Evals
-> validate system updates
-> before pushing back to
-> Production
-
+- Text source: none.
+- OCR decision: ready — Dense diagram with several small callout boxes and circular annotations; OCR is the right capture method.
 ![[assets/dense-slides/4sX_He5c4sI/slide-011.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-011.html)
-- AI slide classifier: `content_slide` confidence `0.97`
+- AI slide classifier: `content_slide` confidence `0.76`
+- Text source: agent_vision.
+- OCR decision: ready — Large embedded product UI screenshot with many small labels and UI chrome; OCR will be more reliable than hand transcription.
 
 Slide text:
 
-> AI Engineer
-> World's Fair
-> 
-> PRESENTED BY
-> Microsoft
-> 
-> Google DeepMind
-> 
 > Engineering the future of AI
 
 ![[assets/dense-slides/4sX_He5c4sI/slide-012.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-012.html)
-- AI slide classifier: `content_slide` confidence `0.94`
-
-Slide text:
-
-> Voices
-> Filter by category
-> Indian Girl Accent
-> Robot
-> The Narrator
-> Galen
-> Anime Assistant Creative Family Fantasy Gaming History Human Humor Learning Lifestyle Mafia Powerful
-> EPIC - Hermes
-> EPIC - Odysseus
-> Telemachus
-> Odysseus
-> Try saying
-> Character Assistant
-> WhoWouldWin
-> Elon Musk
-> What type of fish is Dory from Finding Nemo?
-> Create an ad campaign for a new video game
-> Decide between the MacBook Air and MacBook Pro
-> Batman vs. Superman
-> Knight vs. Samurai
-> Lebron James vs. Michael Jordan
-> Why did you buy Twitter?
-
+- AI slide classifier: `content_slide` confidence `0.84`
+- Text source: none.
+- OCR decision: ready — Product UI screenshot dominates the frame and contains many small interface labels; OCR is suitable.
 ![[assets/dense-slides/4sX_He5c4sI/slide-013.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-013.html)
-- AI slide classifier: `content_slide` confidence `0.98`
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
 
 Slide text:
 
-> Principle 5
-> Modularity
+> Principle 5 Modularity
 > Which capabilities should be reusable, and which stay local?
-> skill
-> normalize-listing
-> sub-agent
-> neighborhood research
-> Austin
-> Denver
-> Raleigh
 
 ![[assets/dense-slides/4sX_He5c4sI/slide-014.jpg]]
 
 - Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/4sX_He5c4sI/slide-014.html)
-- AI slide classifier: `content_slide` confidence `0.98`
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: agent_vision.
 
 Slide text:
 

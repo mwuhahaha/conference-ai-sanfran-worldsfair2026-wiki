@@ -1,0 +1,120 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram labels and footer text are small enough that OCR is likely to read them more reliably than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "WIRE IT IN",
+        "x": 5.0,
+        "y": 5.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "A delta monitor in your fine-tuning pipeline",
+        "x": 5.0,
+        "y": 9.0,
+        "w": 62.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "The same cheap SAE runs at every checkpoint — a quiet CI gate that flags a backdoor before you ship.",
+        "x": 5.0,
+        "y": 20.0,
+        "w": 80.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Base + fine-tuned checkpoints\nyou already have these",
+        "x": 5.0,
+        "y": 38.0,
+        "w": 20.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Δa on probe inputs\n@ layer 18",
+        "x": 29.0,
+        "y": 38.0,
+        "w": 20.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Diff-SAE top feature\none cheap pass",
+        "x": 53.0,
+        "y": 38.0,
+        "w": 20.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Fires on the probe set?",
+        "x": 78.0,
+        "y": 38.0,
+        "w": 18.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "No → ship ✓",
+        "x": 39.0,
+        "y": 68.0,
+        "w": 25.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Yes → gate + alert + inspect feature",
+        "x": 66.0,
+        "y": 68.0,
+        "w": 29.0,
+        "h": 13.0
+      },
+      {
+        "role": "caption",
+        "text": "Near-zero false positives means it’s quiet enough to leave running on every build.",
+        "x": 5.0,
+        "y": 88.0,
+        "w": 78.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Your LLM Deception Monitor Is Broken   Where it lives",
+        "x": 5.0,
+        "y": 95.0,
+        "w": 55.0,
+        "h": 3.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/IQkVMvXQKLY/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660629.596134,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

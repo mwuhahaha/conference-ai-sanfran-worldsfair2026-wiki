@@ -1,0 +1,170 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "56 3/1/1\nMYAGENTS AGENT\nAII 5 Awaiting Working Idle\nDISMISS ALL Kilro'ash AddchannelsfeaturetoREADME supabase/\nAddChannelsfe Kilro'ash v-build/\nInp,buna Status:Awaiting Input shared/\nMag'tuk Add be Mag'grim Subm Active: Mission: Context: 3m ago 17% used Addchannelsfeature toREADME erver\nRek'osh Idle29m\nACTIVITY (11) Clear\nQuest Started 25s port/",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot with tabbed agent list and hover card text; OCR is the right extraction path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "blue-green map with dark left sidebar",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "MY AGENTS",
+        "x": 3.0,
+        "y": 9.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "All 5",
+        "x": 3.0,
+        "y": 16.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Awaiting 1",
+        "x": 14.0,
+        "y": 16.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Working 3",
+        "x": 27.0,
+        "y": 16.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Idle 1",
+        "x": 38.0,
+        "y": 16.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Kilro'ash",
+        "x": 4.0,
+        "y": 34.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Add channels feature to README",
+        "x": 17.0,
+        "y": 34.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Status: Awaiting Input",
+        "x": 20.0,
+        "y": 45.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Mission: Add channels feature to README",
+        "x": 20.0,
+        "y": 53.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Context: 17% used",
+        "x": 20.0,
+        "y": 61.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Active: 3m ago",
+        "x": 20.0,
+        "y": 69.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "supabase/",
+        "x": 77.0,
+        "y": 31.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "rv-build/",
+        "x": 75.0,
+        "y": 39.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "shared/",
+        "x": 63.0,
+        "y": 46.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "server/",
+        "x": 51.0,
+        "y": 53.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "port/",
+        "x": 46.0,
+        "y": 90.0,
+        "w": 7.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-009.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669691.4631376,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "56 3/1/1\nMYAGENTS AGENT\nAII 5 Awaiting Working Idle\nDISMISS ALL Kilro'ash AddchannelsfeaturetoREADME supabase/\nAddChannelsfe Kilro'ash v-build/\nInp,buna Status:Awaiting Input shared/\nMag'tuk Add be Mag'grim Subm Active: Mission: Context: 3m ago 17% used Addchannelsfeature toREADME erver\nRek'osh Idle29m\nACTIVITY (11) Clear\nQuest Started 25s port/",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 503.16
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "56 3/1/1\nMYAGENTS AGENT\nAII 5 Awaiting Working Idle\nDISMISS ALL Kilro'ash AddchannelsfeaturetoREADME supabase/\nAddChannelsfe Kilro'ash v-build/\nInp,buna Status:Awaiting Input shared/\nMag'tuk Add be Mag'grim Subm Active: Mission: Context: 3m ago 17% used Addchannelsfeature toREADME erver\nRek'osh Idle29m\nACTIVITY (11) Clear\nQuest Started 25s port/",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

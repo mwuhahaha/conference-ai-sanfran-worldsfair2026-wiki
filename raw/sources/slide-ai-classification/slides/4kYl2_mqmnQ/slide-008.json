@@ -1,0 +1,48 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "I forgot which machine I'd built the feature on.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Discord UI screenshot with many small text elements",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#050505",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "I forgot which machine I'd built the feature on.",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 60.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Discord screenshot",
+        "x": 18.0,
+        "y": 26.0,
+        "w": 66.0,
+        "h": 54.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/4kYl2_mqmnQ/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658205.027682,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "I forgot which machine I'd built the feature on.",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

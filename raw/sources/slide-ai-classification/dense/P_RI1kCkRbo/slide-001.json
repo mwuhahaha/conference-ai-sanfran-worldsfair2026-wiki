@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Gradient Booking",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product UI screenshot with dense small interface text; OCR will read the sidebar and page controls better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Gradient Booking",
+        "x": 43.0,
+        "y": 3.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Search Filters",
+        "x": 40.0,
+        "y": 11.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/P_RI1kCkRbo/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663092.2058194,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Gradient Booking",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/border-trim/opencv-adaptive",
+    "best_score": 71.2,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

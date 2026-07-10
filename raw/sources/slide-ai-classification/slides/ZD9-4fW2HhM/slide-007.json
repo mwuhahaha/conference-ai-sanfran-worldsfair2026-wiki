@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Principle 5 Modularity Which capabilities should be reusable, and which stay local?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "title card; direct read is enough",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#faf8f2",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Principle 5",
+        "x": 11.0,
+        "y": 38.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Modularity",
+        "x": 11.0,
+        "y": 54.0,
+        "w": 30.0,
+        "h": 13.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Which capabilities should be",
+        "x": 13.0,
+        "y": 69.0,
+        "w": 35.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "reusable, and which stay local?",
+        "x": 13.0,
+        "y": 77.0,
+        "w": 35.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/ZD9-4fW2HhM/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665667.5723252,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Principle 5 Modularity Which capabilities should be reusable, and which stay local?",
+  "advanced_ocr": {}
+}

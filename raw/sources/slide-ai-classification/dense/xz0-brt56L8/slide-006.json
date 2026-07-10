@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "0 1. Fht + 1 F+ l m a i + h t P. Ah + + 1t e + + + 9t? *+ G: D + f tom''pu + 1?\noraL Lan, + 鲁 4 tad * +S +LD. @ % Y ++ fe Heheg (t: +_M + tkr + ( ro m metharwry) Tal TnL ie mal to Lplotd a tie te gt a tecLre, olLit Lcioal Lir. (toord, ite thd te san tle Tilh cur leet Ple rehuy, ir't tire lo upiotd x to Hanuel. Th+ procts irmche hao tirrpte tegts. Prct, mt Lth Ta tt LIr ++i + t..rini+ +ile reh+ ho+r!..att=l · fil_kiI'olem. rtste_Pila_renommoe eisr_rer_rtatat!. 1*rn+hta. Crete_fite_rewert 4'rsorell.pit] at+ -t?ilet,.+rI t! + h+ lr lees Ie flle ctet, ro, ra m: sta i Crote 's tie rtcove is tt i paiges uiom se. I.e.ieouuti + pr nt, tIle_rote = (rrte flla_re4./--)': Pmr',: *p+++ rt.e + r+e,t+.ptt' -vt_ari ≥iar, l++ re+eae relt_ter,statust] mleLrl.. Huts: b. B = n 7 + u 40 77 n 11 14 11 L 11 17 11 n 74 # L 11 11 1 1 ， 1 \"y', \". \"h+hr'+ *++?-1-+?u++ +.?. *1 i.M- '.-. I.+t. \"mtr! 'eir. \"u'!?. \"a+'! 'Tury e.ih'. *.+. I.u+!. \"' \"+uu\"! 1 \"ttrtu'+ \"llt. \"++l+'1 1 1 t,+++ ++. -1 1,*1a, 1 1tM** 1. ++++'! \"(+++ol ++ +++.+. \"++'+ -+.rh (c-im=. --I.14, +.++++ a +++++t. t.-+.\n[4]. 2a +Fiy plen sxorellipi + Tite rerere cerale4 P+h Dt fil-xerrphpru (.++taytu+ h+iy+ rt) /.i hot..r vtir?le t tr.1eh nttm!+'(hl_ho): 1 1 + t u +1 11 41 \"\"t! 1,\n9BA801069 22 1* + 1 2025-11:22 09:58:45",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense notebook/code screenshot with multi-pane text and JSON content; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Working with the Files API",
+        "x": 31.0,
+        "y": 12.0,
+        "w": 30.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Files.json",
+        "x": 3.0,
+        "y": 15.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "Upload the file content to the presigned URL",
+        "x": 28.0,
+        "y": 27.0,
+        "w": 38.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673024.9260821,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Working with the Files API",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "0 1. Fht + 1 F+ l m a i + h t P. Ah + + 1t e + + + 9t? *+ G: D + f tom''pu + 1?\noraL Lan, + 鲁 4 tad * +S +LD. @ % Y ++ fe Heheg (t: +_M + tkr + ( ro m metharwry) Tal TnL ie mal to Lplotd a tie te gt a tecLre, olLit Lcioal Lir. (toord, ite thd te san tle Tilh cur leet Ple rehuy, ir't tire lo upiotd x to Hanuel. Th+ procts irmche hao tirrpte tegts. Prct, mt Lth Ta tt LIr ++i + t..rini+ +ile reh+ ho+r!..att=l · fil_kiI'olem. rtste_Pila_renommoe eisr_rer_rtatat!. 1*rn+hta. Crete_fite_rewert 4'rsorell.pit] at+ -t?ilet,.+rI t! + h+ lr lees Ie flle ctet, ro, ra m: sta i Crote 's tie rtcove is tt i paiges uiom se. I.e.ieouuti + pr nt, tIle_rote = (rrte flla_re4./--)': Pmr',: *p+++ rt.e + r+e,t+.ptt' -vt_ari ≥iar, l++ re+eae relt_ter,statust] mleLrl.. Huts: b. B = n 7 + u 40 77 n 11 14 11 L 11 17 11 n 74 # L 11 11 1 1 ， 1 \"y', \". \"h+hr'+ *++?-1-+?u++ +.?. *1 i.M- '.-. I.+t. \"mtr! 'eir. \"u'!?. \"a+'! 'Tury e.ih'. *.+. I.u+!. \"' \"+uu\"! 1 \"ttrtu'+ \"llt. \"++l+'1 1 1 t,+++ ++. -1 1,*1a, 1 1tM** 1. ++++'! \"(+++ol ++ +++.+. \"++'+ -+.rh (c-im=. --I.14, +.++++ a +++++t. t.-+.\n[4]. 2a +Fiy plen sxorellipi + Tite rerere cerale4 P+h Dt fil-xerrphpru (.++taytu+ h+iy+ rt) /.i hot..r vtir?le t tr.1eh nttm!+'(hl_ho): 1 1 + t u +1 11 41 \"\"t! 1,\n9BA801069 22 1* + 1 2025-11:22 09:58:45",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1149.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "0 1. Fht + 1 F+ l m a i + h t P. Ah + + 1t e + + + 9t? *+ G: D + f tom''pu + 1?\noraL Lan, + 鲁 4 tad * +S +LD. @ % Y ++ fe Heheg (t: +_M + tkr + ( ro m metharwry) Tal TnL ie mal to Lplotd a tie te gt a tecLre, olLit Lcioal Lir. (toord, ite thd te san tle Tilh cur leet Ple rehuy, ir't tire lo upiotd x to Hanuel. Th+ procts irmche hao tirrpte tegts. Prct, mt Lth Ta tt LIr ++i + t..rini+ +ile reh+ ho+r!..att=l · fil_kiI'olem. rtste_Pila_renommoe eisr_rer_rtatat!. 1*rn+hta. Crete_fite_rewert 4'rsorell.pit] at+ -t?ilet,.+rI t! + h+ lr lees Ie flle ctet, ro, ra m: sta i Crote 's tie rtcove is tt i paiges uiom se. I.e.ieouuti + pr nt, tIle_rote = (rrte flla_re4./--)': Pmr',: *p+++ rt.e + r+e,t+.ptt' -vt_ari ≥iar, l++ re+eae relt_ter,statust] mleLrl.. Huts: b. B = n 7 + u 40 77 n 11 14 11 L 11 17 11 n 74 # L 11 11 1 1 ， 1 \"y', \". \"h+hr'+ *++?-1-+?u++ +.?. *1 i.M- '.-. I.+t. \"mtr! 'eir. \"u'!?. \"a+'! 'Tury e.ih'. *.+. I.u+!. \"' \"+uu\"! 1 \"ttrtu'+ \"llt. \"++l+'1 1 1 t,+++ ++. -1 1,*1a, 1 1tM** 1. ++++'! \"(+++ol ++ +++.+. \"++'+ -+.rh (c-im=. --I.14, +.++++ a +++++t. t.-+.\n[4]. 2a +Fiy plen sxorellipi + Tite rerere cerale4 P+h Dt fil-xerrphpru (.++taytu+ h+iy+ rt) /.i hot..r vtir?le t tr.1eh nttm!+'(hl_ho): 1 1 + t u +1 11 41 \"\"t! 1,\n9BA801069 22 1* + 1 2025-11:22 09:58:45",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

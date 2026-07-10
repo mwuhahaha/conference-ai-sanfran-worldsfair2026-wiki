@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Docling: Get your documents ready for gen AI\nAn open source processor using advanced vision models + OCR\nParsing of multiple document formats incl. PDF, DOCX, XLSX, HTML, images, and more\nAdvanced PDF understanding with page layout, reading order, table structure, code, formulas, image classification, etc\nPlug-and-play ecosystem integrations\nLocal execution for sensitive data and air-gapped environments",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Docling: Get your documents ready for gen AI",
+        "x": 21.0,
+        "y": 10.0,
+        "w": 44.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "An open source processor using advanced vision models + OCR",
+        "x": 21.0,
+        "y": 17.0,
+        "w": 58.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Parsing of multiple document formats incl. PDF, DOCX, XLSX, HTML, images, and more\nAdvanced PDF understanding with page layout, reading order, table structure, code, formulas, image classification, etc\nPlug-and-play ecosystem integrations\nLocal execution for sensitive data and air-gapped environments",
+        "x": 8.0,
+        "y": 31.0,
+        "w": 48.0,
+        "h": 44.0
+      },
+      {
+        "role": "logo",
+        "text": "Docling",
+        "x": 59.0,
+        "y": 23.0,
+        "w": 15.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655992.7015877,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Docling: Get your documents ready for gen AI\nAn open source processor using advanced vision models + OCR\nParsing of multiple document formats incl. PDF, DOCX, XLSX, HTML, images, and more\nAdvanced PDF understanding with page layout, reading order, table structure, code, formulas, image classification, etc\nPlug-and-play ecosystem integrations\nLocal execution for sensitive data and air-gapped environments",
+  "advanced_ocr": {}
+}

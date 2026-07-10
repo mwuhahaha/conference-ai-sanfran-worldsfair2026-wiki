@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Daria Soboleva\nHead Research Scientist\nMoE Queen\nResearch focus\nMixture-of-experts models\nHardware-efficient LLM training\nCreator of SlimPajama dataset (627B tokens, 1M+ downloads)\nFormer Google researcher with expertise in research & engineering",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "light cream",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "photo",
+        "text": "",
+        "x": 22.0,
+        "y": 3.0,
+        "w": 31.0,
+        "h": 65.0
+      },
+      {
+        "role": "title",
+        "text": "Daria Soboleva",
+        "x": 58.0,
+        "y": 4.0,
+        "w": 33.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Head Research Scientist\nMoE Queen",
+        "x": 58.0,
+        "y": 13.0,
+        "w": 28.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Research focus\nMixture-of-experts models\nHardware-efficient LLM training\nCreator of SlimPajama dataset (627B tokens, 1M+ downloads)\nFormer Google researcher with expertise in research & engineering",
+        "x": 57.0,
+        "y": 28.0,
+        "w": 34.0,
+        "h": 35.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 17.0,
+        "y": 58.0,
+        "w": 14.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/tzRvcTEapzo/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672040.5382013,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Daria Soboleva\nHead Research Scientist\nMoE Queen\nResearch focus\nMixture-of-experts models\nHardware-efficient LLM training\nCreator of SlimPajama dataset (627B tokens, 1M+ downloads)\nFormer Google researcher with expertise in research & engineering",
+  "advanced_ocr": {}
+}

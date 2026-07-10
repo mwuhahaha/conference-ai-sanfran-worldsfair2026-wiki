@@ -1,170 +1,72 @@
 {
   "is_content_slide": true,
-  "confidence": 0.98,
+  "confidence": 0.99,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "Logs are dead. Autonomous workflows\nrequire multidimensional observability.\n\nAgent Trace Timeline\n\nTrack 1: LLM Decisions\nTrack 2: Orchestration Plans\nTrack 3: Tool Calls & Execution\nTrack 4: Memory Access\nTrack 5: State Transitions\n\nDecision: Call Tool A\nDecision: Query Memory\nPlan Execute Step 1\nPlan Validate Output\nTool A Executing\nAPI Response Received\nRead Context Block X\nWrite New State Y\nState Processing\nState Waiting For Tool\nState Updated",
+  "text": "",
   "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Timeline and observability slide with dense track labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
   "layout": {
-    "background": "#f6f6f4",
+    "background": "white",
     "style": "diagram",
     "blocks": [
       {
         "role": "title",
-        "text": "Logs are dead. Autonomous workflows require multidimensional observability.",
+        "text": "Logs are dead. Autonomous workflows\nrequire multidimensional observability.",
         "x": 3.0,
-        "y": 0,
-        "w": 86.0,
-        "h": 14.0
-      },
-      {
-        "role": "subtitle",
-        "text": "Agent Trace Timeline",
-        "x": 4.0,
-        "y": 18.0,
-        "w": 22.0,
-        "h": 5.0
+        "y": 1.0,
+        "w": 70.0,
+        "h": 16.0
       },
       {
         "role": "caption",
-        "text": "[ Telemetry Sidebar ]",
-        "x": 78.0,
+        "text": "Agent Trace Timeline",
+        "x": 5.0,
+        "y": 11.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Track 1: LLM Decisions\nTrack 2: Orchestration Plans\nTrack 3: Tool Calls & Execution\nTrack 4: Memory Access\nTrack 5: State Transitions",
+        "x": 3.0,
         "y": 18.0,
-        "w": 18.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Track 1: LLM Decisions",
-        "x": 4.0,
-        "y": 26.0,
-        "w": 17.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Track 2: Orchestration Plans",
-        "x": 4.0,
-        "y": 40.0,
-        "w": 21.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Track 3: Tool Calls & Execution",
-        "x": 4.0,
-        "y": 55.0,
         "w": 22.0,
-        "h": 8.0
+        "h": 68.0
       },
       {
-        "role": "diagram_label",
-        "text": "Track 4: Memory Access",
-        "x": 4.0,
-        "y": 69.0,
-        "w": 17.0,
-        "h": 8.0
+        "role": "body",
+        "text": "Decision: Call Tool A\nDecision: Query Memory\nPlan: Execute Step 1\nTool A Executing\nAPI Response Received\nRead: Context Block X\nWrite: New State Y",
+        "x": 30.0,
+        "y": 20.0,
+        "w": 44.0,
+        "h": 50.0
       },
       {
-        "role": "diagram_label",
-        "text": "Track 5: State Transitions",
-        "x": 4.0,
-        "y": 83.0,
+        "role": "body",
+        "text": "State Processing\nState Waiting For Tool\nState Updated",
+        "x": 51.0,
+        "y": 63.0,
         "w": 18.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Decision: Call Tool A",
-        "x": 21.0,
-        "y": 27.0,
-        "w": 10.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Decision: Query Memory",
-        "x": 48.0,
-        "y": 27.0,
-        "w": 11.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Plan Execute Step 1",
-        "x": 32.0,
-        "y": 41.0,
-        "w": 11.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Plan Validate Output",
-        "x": 60.0,
-        "y": 41.0,
-        "w": 12.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Tool A Executing",
-        "x": 44.0,
-        "y": 55.0,
-        "w": 11.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "API Response Received",
-        "x": 67.0,
-        "y": 55.0,
-        "w": 13.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Read Context Block X",
-        "x": 24.0,
-        "y": 69.0,
-        "w": 13.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Write New State Y",
-        "x": 73.0,
-        "y": 69.0,
-        "w": 12.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "State Processing",
-        "x": 17.0,
-        "y": 83.0,
-        "w": 12.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "State Waiting For Tool",
-        "x": 42.0,
-        "y": 83.0,
-        "w": 15.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "State Updated",
-        "x": 82.0,
-        "y": 83.0,
-        "w": 10.0,
-        "h": 8.0
+        "h": 14.0
       }
     ]
   },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
   "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-008.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783646944.3991745
+  "classified_at_epoch": 1783658435.943533,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

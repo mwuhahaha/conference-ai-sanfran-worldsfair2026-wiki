@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Deterministic execution to guarantee process",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Structured process slide with chart labels and small diagram text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "off-white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Deterministic execution to guarantee process",
+        "x": 5.0,
+        "y": 8.0,
+        "w": 70.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Even with the typed SDK as the entry point, we only guided the agent towards our desired end state\nThe real guarantee comes from final script that we orchestrate on agent completion\nThe completion script calls the agent generated code, validates the results, and send any errors back to the agent",
+        "x": 6.0,
+        "y": 23.0,
+        "w": 43.0,
+        "h": 46.0
+      },
+      {
+        "role": "diagram",
+        "text": "EMISSIONS WATERFALL\nLand use change\nLand management\nEnergy & industrial",
+        "x": 58.0,
+        "y": 17.0,
+        "w": 37.0,
+        "h": 43.0
+      },
+      {
+        "role": "diagram",
+        "text": "EDITED NODES\nCoal-fed stamping ...\n202 CCO - End",
+        "x": 61.0,
+        "y": 62.0,
+        "w": 30.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/CLttOU7n6sI/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659308.405414,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Deterministic execution to guarantee process",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

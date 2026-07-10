@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "In practice, most agent memory frameworks have focused on user continuity: preferences, profile facts, conversation history, and long-lived personalization.\nchat experiences is not self-improving learning system for production agents. *\ntoddy What h storts Rttrlrvsl signa! L+hr ffom outcoemts?\nRaw ctut history Recency To\nEtacted lktr, protroco(mbodang imirity Ho\nErtity reutiorahips ovtr dme Graph traveryd · recency No\nA14r Yerbu sell refvectiors Shmlarty to currert tast Partisty. refietlons capture lesons, but rerieval k not\natemtarx ttitty scores Iall·linhrd roftctomy with Sinilarity weighted by outcomalderred uirty",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense table and small text are better handled by OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "In practice, most agent memory frameworks have focused on user continuity: preferences, profile facts, conversation history, and long-lived personalization.",
+        "x": 1.0,
+        "y": 7.0,
+        "w": 98.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "chat experiences is not self-improving learning system for production agents.",
+        "x": 16.0,
+        "y": 24.0,
+        "w": 68.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/Jx4ZFEAq6bY/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661615.8409264,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "In practice, most agent memory frameworks have focused on user continuity: preferences, profile facts, conversation history, and long-lived personalization.\nchat experiences is not self-improving learning system for production agents. *\ntoddy What h storts Rttrlrvsl signa! L+hr ffom outcoemts?\nRaw ctut history Recency To\nEtacted lktr, protroco(mbodang imirity Ho\nErtity reutiorahips ovtr dme Graph traveryd · recency No\nA14r Yerbu sell refvectiors Shmlarty to currert tast Partisty. refietlons capture lesons, but rerieval k not\natemtarx ttitty scores Iall·linhrd roftctomy with Sinilarity weighted by outcomalderred uirty",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 926.28
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "In practice, most agent memory frameworks have focused on user continuity: preferences, profile facts, conversation history, and long-lived personalization.\nchat experiences is not self-improving learning system for production agents. *\ntoddy What h storts Rttrlrvsl signa! L+hr ffom outcoemts?\nRaw ctut history Recency To\nEtacted lktr, protroco(mbodang imirity Ho\nErtity reutiorahips ovtr dme Graph traveryd · recency No\nA14r Yerbu sell refvectiors Shmlarty to currert tast Partisty. refietlons capture lesons, but rerieval k not\natemtarx ttitty scores Iall·linhrd roftctomy with Sinilarity weighted by outcomalderred uirty",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

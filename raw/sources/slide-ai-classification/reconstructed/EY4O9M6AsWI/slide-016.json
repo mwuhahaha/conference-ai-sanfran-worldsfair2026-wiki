@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "THANK YOU",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Closing slide with very large simple text; OCR is unnecessary.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#000000",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "THANK YOU",
+        "x": 6.0,
+        "y": 31.0,
+        "w": 39.0,
+        "h": 18.0
+      },
+      {
+        "role": "logo",
+        "text": "Luma",
+        "x": 84.0,
+        "y": 79.0,
+        "w": 10.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/reconstructed-slides/EY4O9M6AsWI/slide-016.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659325.3230915,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "THANK YOU",
+  "advanced_ocr": {}
+}

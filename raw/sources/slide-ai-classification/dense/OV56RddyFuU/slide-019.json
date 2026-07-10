@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small chat screenshot, code block, and multi-column annotations.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "pale green frame on white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "18 previous messages",
+        "x": 29.0,
+        "y": 28.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "code",
+        "text": "bash",
+        "x": 21.0,
+        "y": 49.0,
+        "w": 4.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "→ LLM sees how to use\nthe model from model\ncard\n→ drafts uv script\n→ provides command",
+        "x": 56.0,
+        "y": 25.0,
+        "w": 36.0,
+        "h": 45.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-019.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662530.8408866,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 2203.0,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0012
+  }
+}

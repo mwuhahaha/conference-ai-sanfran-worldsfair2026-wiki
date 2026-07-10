@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How the WorkOS folks put it in their\nMastra workshop yesterday:\n\nAgents are stateful AI entities that:\n• Maintain conversation memory\n• Execute workflows autonomously\n• Make decisions based on context\n• Use tools to complete tasks\n\nThink of them as AI assistants with both\nmemory and capabilities.\n\nWorkflows are composable pipelines that:\n• Chain multiple steps together\n• Pass data between steps\n• Validate inputs/outputs with Zod\n• Handle errors gracefully\n\nThink of them as typed, observable\nfunctions that can do complex multi-step\noperations.\n\ngithub.com/mastra-ai/mastra",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multiple text boxes and bullet lists make OCR the better triage path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "near-black with subtle concentric rings",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How the WorkOS folks put it in their Mastra workshop yesterday:",
+        "x": 23.0,
+        "y": 10.0,
+        "w": 55.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Agents are stateful AI entities that:",
+        "x": 26.0,
+        "y": 38.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Workflows are composable pipelines that:",
+        "x": 66.0,
+        "y": 38.0,
+        "w": 31.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-013.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658424.9891965,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "AIE Mastra workshop yesterday: How the WorkoS folks put it in their thanksNick+Zack!\nAgents are stateful Al entities that: Workflows are composable pipelines that:\nMaintain conversationmemory Make decisionsbased on context Executeworkflows autonomously Use tools to complete tasks Passdatabetween steps Handle errors gracefully Validate inputs/outputswithZod Chain multiple steps together\nmemory and capabilities. Thinkof them asAl assistantswithboth functions that can do complex multi-step operations. Think of them as typed, observable\ngithub.com/mastra-ai/mastr\nMicrosoft smol ai",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 797.89
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "How the WorkOS folks put it in their\nMastra workshop yesterday:\n\nAgents are stateful AI entities that:\n• Maintain conversation memory\n• Execute workflows autonomously\n• Make decisions based on context\n• Use tools to complete tasks\n\nThink of them as AI assistants with both\nmemory and capabilities.\n\nWorkflows are composable pipelines that:\n• Chain multiple steps together\n• Pass data between steps\n• Validate inputs/outputs with Zod\n• Handle errors gracefully\n\nThink of them as typed, observable\nfunctions that can do complex multi-step\noperations.\n\ngithub.com/mastra-ai/mastra",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR structure; corrected obvious spacing/casing errors and restored line breaks from the slide."
+  }
+}

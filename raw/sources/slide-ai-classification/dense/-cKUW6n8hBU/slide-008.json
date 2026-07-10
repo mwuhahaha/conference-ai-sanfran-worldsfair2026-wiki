@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "“DSPy is not an optimizer. It’s set of programming abstractions (signatures, modules) that can be optimized.”\n- Omar Khattab @lateinteraction",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#ecebe6",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "“DSPy is not an optimizer. It’s set of programming abstractions (signatures, modules) that can be optimized.”",
+        "x": 4.0,
+        "y": 15.0,
+        "w": 84.0,
+        "h": 35.0
+      },
+      {
+        "role": "caption",
+        "text": "- Omar Khattab @lateinteraction",
+        "x": 8.0,
+        "y": 56.0,
+        "w": 56.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655268.3362584,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "“DSPy is not an optimizer. It’s set of programming abstractions (signatures, modules) that can be optimized.”\n- Omar Khattab @lateinteraction",
+  "advanced_ocr": {}
+}

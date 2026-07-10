@@ -1,0 +1,71 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Initial System Prompt",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense notebook slide with small body text and code; OCR will read it more reliably than direct vision.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Initial System Prompt",
+        "x": 13.0,
+        "y": 14.0,
+        "w": 30.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Initialize your system prompt. This is the original prompt that will be tested and optimized.",
+        "x": 13.0,
+        "y": 23.0,
+        "w": 68.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "system_prompt = \"You are an expert in JSON webpage creation. This is your task: {input}\"",
+        "x": 13.0,
+        "y": 31.0,
+        "w": 70.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Evaluators",
+        "x": 13.0,
+        "y": 40.0,
+        "w": 18.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-018.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664952.0715086,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Initial System Prompt",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 2023.0,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0011
+  }
+}

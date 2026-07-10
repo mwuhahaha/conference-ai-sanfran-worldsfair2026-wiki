@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code slide with small text and command arrays; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "// Setup bridge and firewall rules\ncommands := []struct {\nname string\nargs []string",
+        "x": 10.0,
+        "y": 12.0,
+        "w": 44.0,
+        "h": 22.0
+      },
+      {
+        "role": "code",
+        "text": "{\"ip\", []string{\"l\", \"add\", bridgeName, \"type\", \"bridge\"}},\n{\"ip\", []string{\"l\", \"set\", bridgeName, \"up\"}},\n{\"ip\", []string{\"a\", \"add\", bridgeIP, \"dev\", bridgeName, \"scope\", \"host\"}},",
+        "x": 10.0,
+        "y": 33.0,
+        "w": 78.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-032.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-032.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673711.7987885,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 574.72,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0764
+  }
+}

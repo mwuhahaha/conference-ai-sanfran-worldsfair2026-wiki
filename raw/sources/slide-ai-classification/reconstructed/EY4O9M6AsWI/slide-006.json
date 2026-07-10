@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Luma's mission is to build multimodal general intelligence that can generate, understand, and operate in the physical world",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "large readable statement, no OCR needed",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 12.0,
+        "w": 10.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "Luma's mission is to build multimodal general intelligence that can generate, understand, and operate in the physical world",
+        "x": 22.0,
+        "y": 24.0,
+        "w": 56.0,
+        "h": 30.0
+      },
+      {
+        "role": "logo",
+        "text": "Luma",
+        "x": 86.0,
+        "y": 69.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 63.0,
+        "y": 83.0,
+        "w": 10.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/reconstructed-slides/EY4O9M6AsWI/slide-006.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658816.518591,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Luma's mission is to build multimodal general intelligence that can generate, understand, and operate in the physical world",
+  "advanced_ocr": {}
+}

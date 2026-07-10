@@ -16,26 +16,86 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/tzRvcTEapzo/slide-001.jpg]]
 
-- Source scene image: `frame-00004.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.17`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/tzRvcTEapzo/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
+
+> Agenda
+> 1. How do we get more intelligent AI?
+> 2. Hands on Workshop
+> 3. Q&A with MoE queen + Daniel
+
 ![[assets/dense-slides/tzRvcTEapzo/slide-002.jpg]]
 
-- Source scene image: `frame-00005.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `177.61`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/tzRvcTEapzo/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
+
+> Daria Soboleva
+> Head Research Scientist
+> MoE Queen
+> Research focus
+> Mixture-of-experts models
+> Hardware-efficient LLM training
+> Creator of SlimPajama dataset (627B tokens, 1M+ downloads)
+> Former Google researcher with expertise in research & engineering
+
 ![[assets/dense-slides/tzRvcTEapzo/slide-003.jpg]]
 
-- Source scene image: `frame-00009.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.4`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/tzRvcTEapzo/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
+
+> Kevin Taylor
+> Growth Engineering Intern
+> UCLA bound :)
+> High school Senior
+> The reason why this workshop is so good!
+
 ![[assets/dense-slides/tzRvcTEapzo/slide-004.jpg]]
 
-- Source scene image: `frame-00052.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.01`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/tzRvcTEapzo/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.94`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Product screenshot content with small interface text; OCR is better suited than direct transcription.
+
+Slide text:
+
+> streamlit.10
+> AIE Free
+> Fox coesrunilty acos Deplcy wien Beeer aepuoug Ven fapao torprolestionalt
+> D4n yoy WU
+> toseonolenDapp nmrutes
+> Gotstarted Try tho Eve playground!
+> WortfsFair aws
+> ?
+
 ![[assets/dense-slides/tzRvcTEapzo/slide-005.jpg]]
 
-- Source scene image: `frame-00077.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.18`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/tzRvcTEapzo/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Dense product UI screenshot with small text; OCR is needed for accurate capture.
+
+Slide text:
+
+> Navigation Chooeapige Al Configuration Challenge
+> A Configuration Challenge (thinking disabled)
+> AIE ConfigreA sgents to genesieperfect code·Maimum Score120 pots.Dethe Awhisperen Master Prompt Engineering&Multi-AgentSystems
+> SorngCud
+> ConfigureYourAl System
+> Set op the A agerts, mocels, Jnd promgts to grnerate the perlkct solution!
+> Heoont Conig upbadConlg
+> Dog and drop file here LmRxoovopAle.J5oN Browse fles
+> impon Config
+> KainTempersture Vsn Vede
+> WorkcfsFsir Microsoft smol ai
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/tzRvcTEapzo/audit.json`

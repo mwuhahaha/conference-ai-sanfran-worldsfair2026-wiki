@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "If the provider owns the log, they own the agent",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with dark image panel and soft blue gradient edge",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "If the provider owns the log, they own the agent",
+        "x": 14.0,
+        "y": 15.0,
+        "w": 68.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 21.0,
+        "y": 30.0,
+        "w": 57.0,
+        "h": 47.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/UPwGaM2MKHY/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664803.5282319,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "If the provider owns the log, they own the agent",
+  "advanced_ocr": {}
+}

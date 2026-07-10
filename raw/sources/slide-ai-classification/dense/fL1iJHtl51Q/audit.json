@@ -1,0 +1,251 @@
+{
+  "video_id": "fL1iJHtl51Q",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "best-in-class speed Composer combines coding intelligence with\nBest Open\nFast Frontier\nFrontier7/2025\nComposer\nBest Frontier\n0 20 40 60 0 100 200\nComposer Intelligence (CursorBench score) Speed (Tokens per Second)\nAIE /CODE BUILDING A FAST FRONTIER MODEL WITH RL\nGoogle DeepMind PRESENTED8Y LEE ROBINSON /VP, Developer Education CURSOR",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense benchmark chart with small axis labels and multiple text regions; OCR will read this more reliably than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Composer combines coding intelligence with best-in-class speed",
+            "x": 25.0,
+            "y": 1.0,
+            "w": 47.0,
+            "h": 12.0
+          },
+          {
+            "role": "caption",
+            "text": "Best Open",
+            "x": 26.0,
+            "y": 17.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Fast Frontier",
+            "x": 26.0,
+            "y": 25.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Frontier 7/2025",
+            "x": 26.0,
+            "y": 33.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Composer",
+            "x": 26.0,
+            "y": 41.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Best Frontier",
+            "x": 26.0,
+            "y": 49.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Intelligence (Cursor Bench score)",
+            "x": 39.0,
+            "y": 71.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Speed (Tokens per Second)",
+            "x": 67.0,
+            "y": 71.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "BUILDING A FAST FRONTIER MODEL WITH RL",
+            "x": 22.0,
+            "y": 84.0,
+            "w": 57.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "LEE ROBINSON / VP, Developer Education CURSOR",
+            "x": 26.0,
+            "y": 93.0,
+            "w": 49.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE / CODE PRESENTED BY Google DeepMind",
+            "x": 1.0,
+            "y": 82.0,
+            "w": 16.0,
+            "h": 17.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/fL1iJHtl51Q/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667446.1423974,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "best-in-class speed Composer combines coding intelligence with\nBest Open\nFast Frontier\nFrontier7/2025\nComposer\nBest Frontier\n0 20 40 60 0 100 200\nComposer Intelligence (CursorBench score) Speed (Tokens per Second)\nAIE /CODE BUILDING A FAST FRONTIER MODEL WITH RL\nGoogle DeepMind PRESENTED8Y LEE ROBINSON /VP, Developer Education CURSOR",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 480.96
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "best-in-class speed Composer combines coding intelligence with\nBest Open\nFast Frontier\nFrontier7/2025\nComposer\nBest Frontier\n0 20 40 60 0 100 200\nComposer Intelligence (CursorBench score) Speed (Tokens per Second)\nAIE /CODE BUILDING A FAST FRONTIER MODEL WITH RL\nGoogle DeepMind PRESENTED8Y LEE ROBINSON /VP, Developer Education CURSOR",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/fL1iJHtl51Q/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why Build Composer? Inspired by Cursor Tab Our aim was a fast, interactive model that is delightful to use. Experiments with Cheetah Prototype fast model in Cursor, quickly became popular.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why Build Composer?",
+            "x": 26.0,
+            "y": 1.0,
+            "w": 27.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Inspired by Cursor Tab",
+            "x": 59.0,
+            "y": 1.0,
+            "w": 25.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Our aim was a fast, interactive model that is delightful to use.",
+            "x": 59.0,
+            "y": 8.0,
+            "w": 30.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Experiments with Cheetah",
+            "x": 59.0,
+            "y": 20.0,
+            "w": 27.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Prototype fast model in Cursor, quickly became popular.",
+            "x": 59.0,
+            "y": 27.0,
+            "w": 31.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "BUILDING A FAST FRONTIER MODEL WITH RL",
+            "x": 22.0,
+            "y": 84.0,
+            "w": 57.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "LEE ROBINSON / VP, Developer Education CURSOR",
+            "x": 26.0,
+            "y": 93.0,
+            "w": 49.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE / CODE PRESENTED BY Google DeepMind",
+            "x": 1.0,
+            "y": 82.0,
+            "w": 16.0,
+            "h": 17.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/fL1iJHtl51Q/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667493.2957878,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why Build Composer? Inspired by Cursor Tab Our aim was a fast, interactive model that is delightful to use. Experiments with Cheetah Prototype fast model in Cursor, quickly became popular.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/fL1iJHtl51Q/slide-002.html"
+    }
+  ],
+  "rejected": []
+}

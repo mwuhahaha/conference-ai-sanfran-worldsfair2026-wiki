@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "TASK-SPECIFIC MODELS CHEAT SHEET\nIs a camera pointing at something?\nUse vision models like MobileNet, YOLO, MediaPipe",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "large text readable directly",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with dark navy header",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "TASK-SPECIFIC MODELS CHEAT SHEET",
+        "x": 8.0,
+        "y": 5.0,
+        "w": 80.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Is a camera pointing at something?\nUse vision models like MobileNet, YOLO, MediaPipe",
+        "x": 10.0,
+        "y": 28.0,
+        "w": 76.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Rachel-Lee Nabors (they/them) nearestneighbors.com",
+        "x": 0,
+        "y": 0,
+        "w": 6.0,
+        "h": 100
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667765.0908258,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "TASK-SPECIFIC MODELS CHEAT SHEET\nIs a camera pointing at something?\nUse vision models like MobileNet, YOLO, MediaPipe",
+  "advanced_ocr": {}
+}

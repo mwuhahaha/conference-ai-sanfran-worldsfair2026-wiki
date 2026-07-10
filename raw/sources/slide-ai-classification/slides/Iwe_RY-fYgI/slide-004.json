@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Framework Architecture Overview\nEntity Correlation\nRisk Modeling\nNormalization Layer\nThe three components operate in concert: entities are linked relationally, risk signals are aggregated and calibrated, and jurisdictional variance is normalized before scoring.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(180deg, #18002d 0%, #120024 100%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Framework Architecture Overview",
+        "x": 8.0,
+        "y": 7.0,
+        "w": 54.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Entity Correlation",
+        "x": 58.0,
+        "y": 14.0,
+        "w": 28.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Risk Modeling",
+        "x": 58.0,
+        "y": 37.0,
+        "w": 22.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Normalization Layer",
+        "x": 58.0,
+        "y": 60.0,
+        "w": 28.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "The three components operate in concert: entities are linked relationally, risk signals are aggregated and calibrated, and jurisdictional variance is normalized before scoring.",
+        "x": 9.0,
+        "y": 86.0,
+        "w": 78.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/Iwe_RY-fYgI/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659673.9119134,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Framework Architecture Overview\nEntity Correlation\nRisk Modeling\nNormalization Layer\nThe three components operate in concert: entities are linked relationally, risk signals are aggregated and calibrated, and jurisdictional variance is normalized before scoring.",
+  "advanced_ocr": {}
+}

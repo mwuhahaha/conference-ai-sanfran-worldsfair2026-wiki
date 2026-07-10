@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Read the full report\nresearch.trychroma.com",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "large simple text on slide",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with black left sidebar",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 20.0,
+        "w": 12.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "Read the full report",
+        "x": 22.0,
+        "y": 1.0,
+        "w": 40.0,
+        "h": 12.0
+      },
+      {
+        "role": "subtitle",
+        "text": "research.trychroma.com",
+        "x": 22.0,
+        "y": 15.0,
+        "w": 42.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/jryZvCuA0Uc/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669334.3936865,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Read the full report\nresearch.trychroma.com",
+  "advanced_ocr": {}
+}

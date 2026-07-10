@@ -1,0 +1,96 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Azure AI Inference client library for Python",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product/UI screenshot with many small text regions; OCR will be better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f2ddc6",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Azure AI Inference client library for Python",
+        "x": 31.0,
+        "y": 4.0,
+        "w": 52.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "The client Library (in preview) does inference, including chat completions, for AI models deployed by Azure AI Studio and Azure Machine Learning Studio.",
+        "x": 31.0,
+        "y": 13.0,
+        "w": 58.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "Use the model inference client library to:",
+        "x": 31.0,
+        "y": 35.0,
+        "w": 28.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "• Authenticate against the service • Get information about the model • Do chat completions • Get text embeddings",
+        "x": 33.0,
+        "y": 42.0,
+        "w": 43.0,
+        "h": 17.0
+      },
+      {
+        "role": "body",
+        "text": "With some minor adjustments, this client library can also be configured to do inference for Azure OpenAI endpoints.",
+        "x": 31.0,
+        "y": 61.0,
+        "w": 57.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "See samples with azure_openai in their name, in the samples folder.",
+        "x": 31.0,
+        "y": 70.0,
+        "w": 53.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Project description • Release history • Download files • Verified details • Maintainers • microsoft",
+        "x": 7.0,
+        "y": 4.0,
+        "w": 22.0,
+        "h": 44.0
+      },
+      {
+        "role": "body",
+        "text": "Product documentation | Samples | API reference documentation | Package (PyPI) | SDK source code",
+        "x": 31.0,
+        "y": 79.0,
+        "w": 56.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-049.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-049.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657988.586118,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Azure AI Inference client library for Python",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with repeated node cards and small labels is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f7f2e8",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Our agent worked on one graph...",
+        "x": 5.0,
+        "y": 8.0,
+        "w": 38.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "When we first tried to solve this task a year ago, it worked well enough on a single graph using custom built tools",
+        "x": 5.0,
+        "y": 35.0,
+        "w": 35.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Gas & electricity",
+        "x": 60.0,
+        "y": 13.0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Softener",
+        "x": 71.0,
+        "y": 13.0,
+        "w": 7.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Cotton yarn",
+        "x": 80.0,
+        "y": 13.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Sulphur dye",
+        "x": 90.0,
+        "y": 13.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Zipper",
+        "x": 60.0,
+        "y": 30.0,
+        "w": 7.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Thread & labels",
+        "x": 69.0,
+        "y": 30.0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Denim",
+        "x": 79.0,
+        "y": 30.0,
+        "w": 7.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Electricity",
+        "x": 89.0,
+        "y": 30.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Packaging",
+        "x": 52.0,
+        "y": 51.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Transport",
+        "x": 63.0,
+        "y": 51.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Jeans assembly",
+        "x": 72.0,
+        "y": 51.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Dark wash jeans",
+        "x": 54.0,
+        "y": 79.0,
+        "w": 10.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/CLttOU7n6sI/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659155.9291863,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

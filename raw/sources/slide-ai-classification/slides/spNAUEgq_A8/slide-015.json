@@ -1,0 +1,124 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "Mixed logo-and-diagram slide; OCR would add little value in this triage pass.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Messages",
+        "x": 36.0,
+        "y": 3.0,
+        "w": 30.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MCP",
+        "x": 36.0,
+        "y": 11.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "KAYAK",
+        "x": 36.0,
+        "y": 20.0,
+        "w": 13.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "navan",
+        "x": 50.0,
+        "y": 19.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Figma",
+        "x": 37.0,
+        "y": 32.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Playwright",
+        "x": 55.0,
+        "y": 33.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "Gmail",
+        "x": 36.0,
+        "y": 43.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Google Sheets",
+        "x": 52.0,
+        "y": 44.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Skill",
+        "x": 36.0,
+        "y": 55.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 36.0,
+        "y": 64.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Prompt",
+        "x": 36.0,
+        "y": 73.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 36.0,
+        "y": 82.0,
+        "w": 28.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-015.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672123.8662581,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

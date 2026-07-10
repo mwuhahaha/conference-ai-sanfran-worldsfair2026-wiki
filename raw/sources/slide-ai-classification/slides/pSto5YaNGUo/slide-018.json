@@ -1,0 +1,87 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense table and heatmap layout are better suited to OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark charcoal gradient",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "Scan coverage",
+        "x": 14.0,
+        "y": 49.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "24h timeline heatmap (colour = avg latency, number = trace count)",
+        "x": 14.0,
+        "y": 70.0,
+        "w": 45.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Signal / failure-mode",
+        "x": 15.0,
+        "y": 24.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Present?",
+        "x": 34.0,
+        "y": 24.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Measure",
+        "x": 45.0,
+        "y": 24.0,
+        "w": 9.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Decision",
+        "x": 58.0,
+        "y": 24.0,
+        "w": 9.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-018.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671141.5483594,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/center-82/contrast",
+    "best_score": 767.08,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0022
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Get set up\n1. Learner notebook: bit.ly/build-real-agents\n2. Claude API key: platform.claude.com/settings/keys\n3. Phoenix Cloud account: app.phoenix.arize.com/login/sign-up\n• Phoenix hostname: app.phoenix.arize.com/s/yourusername\n• Phoenix API key: app.phoenix.arize.com/s/yourusername/settings/general",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Get set up",
+        "x": 37.0,
+        "y": 4.0,
+        "w": 26.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1. Learner notebook: bit.ly/build-real-agents\n2. Claude API key: platform.claude.com/settings/keys\n3. Phoenix Cloud account: app.phoenix.arize.com/login/sign-up",
+        "x": 12.0,
+        "y": 12.0,
+        "w": 66.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1. Notebook  2. Claude key  3. Phoenix cloud",
+        "x": 12.0,
+        "y": 37.0,
+        "w": 76.0,
+        "h": 44.0
+      },
+      {
+        "role": "caption",
+        "text": "These slides: slides.com/seldo/ship-real-agents",
+        "x": 32.0,
+        "y": 87.0,
+        "w": 36.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/Xfl50508LZM/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665184.2635512,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Get set up\n1. Learner notebook: bit.ly/build-real-agents\n2. Claude API key: platform.claude.com/settings/keys\n3. Phoenix Cloud account: app.phoenix.arize.com/login/sign-up\n• Phoenix hostname: app.phoenix.arize.com/s/yourusername\n• Phoenix API key: app.phoenix.arize.com/s/yourusername/settings/general",
+  "advanced_ocr": {}
+}

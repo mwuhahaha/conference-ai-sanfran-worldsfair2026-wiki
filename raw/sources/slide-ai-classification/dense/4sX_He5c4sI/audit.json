@@ -2,7 +2,21 @@
   "video_id": "4sX_He5c4sI",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
   "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
   "hide_rejected": false,
   "evidence_retained": true,
   "accepted_count": 14,
@@ -10,44 +24,63 @@
   "accepted": [
     {
       "is_content_slide": true,
-      "confidence": 0.98,
+      "confidence": 0.96,
       "frame_type": "content_slide",
       "reject_reason": "",
-      "text": "CAPABILITY OVERHANG\nClaude gets smarter in\nspiky ways\n11/40",
+      "text": "CAPABILITY OVERHANG\nClaude gets smarter in spiky ways",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title slide with large readable text; OCR not needed.",
+      "direct_read_ready": true,
+      "text_density": "low",
       "layout": {
-        "background": "#f4f1e8 with a large black diagram area on the right",
-        "style": "diagram",
+        "background": "warm cream with dark illustration panel",
+        "style": "minimal",
         "blocks": [
           {
-            "role": "title",
-            "text": "CAPABILITY OVERHANG",
-            "x": 29.0,
+            "role": "logo",
+            "text": "AI Engineer World's Fair",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 20.0,
+            "h": 12.0
+          },
+          {
+            "role": "logo",
+            "text": "Presented by Microsoft",
+            "x": 4.0,
             "y": 18.0,
-            "w": 24.0,
-            "h": 5.0
+            "w": 18.0,
+            "h": 14.0
           },
           {
             "role": "subtitle",
-            "text": "Claude gets smarter in\nspiky ways",
+            "text": "CAPABILITY OVERHANG",
             "x": 29.0,
             "y": 24.0,
-            "w": 28.0,
-            "h": 11.0
+            "w": 25.0,
+            "h": 7.0
           },
           {
-            "role": "caption",
-            "text": "11/40",
-            "x": 94.0,
-            "y": 37.0,
-            "w": 4.0,
-            "h": 3.0
+            "role": "title",
+            "text": "Claude gets smarter in spiky ways",
+            "x": 29.0,
+            "y": 33.0,
+            "w": 35.0,
+            "h": 20.0
           }
         ]
       },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
       "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-001.jpg",
       "deck_kind": "dense",
       "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783628950.4998853,
+      "classified_at_epoch": 1783657356.7718177,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "CAPABILITY OVERHANG\nClaude gets smarter in spiky ways",
+      "advanced_ocr": {},
       "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-001.html"
     },
     {
@@ -55,524 +88,547 @@
       "confidence": 0.98,
       "frame_type": "content_slide",
       "reject_reason": "",
-      "text": "AI Engineer\nWorld’s Fair\nPRESENTED BY\nMicrosoft\nSystem Prompt Design\nSmall system prompt,\nfew tools, lots of examples\nLarge system prompt,\nlots of examples, many tools\nSmaller system prompt,\ntool search, no examples\n14/40",
+      "text": "System Prompt Design\nSmall system prompt, few tools, lots of examples\nLarge system prompt, lots of examples, many tools\nSmaller system prompt, tool search, no examples",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Readable diagram slide with large title and captions; OCR not necessary.",
+      "direct_read_ready": true,
+      "text_density": "medium",
       "layout": {
-        "background": "light cream with dark branded left sidebar",
+        "background": "light cream",
         "style": "diagram",
         "blocks": [
           {
-            "role": "logo",
-            "text": "AI Engineer\nWorld’s Fair\nPRESENTED BY\nMicrosoft",
-            "x": 0,
-            "y": 0,
-            "w": 25.0,
-            "h": 48.0
-          },
-          {
             "role": "title",
             "text": "System Prompt Design",
-            "x": 29.0,
-            "y": 2.0,
-            "w": 28.0,
-            "h": 9.0
-          },
-          {
-            "role": "caption",
-            "text": "Small system prompt,\nfew tools, lots of examples",
             "x": 28.0,
-            "y": 56.0,
-            "w": 20.0,
-            "h": 16.0
+            "y": 8.0,
+            "w": 34.0,
+            "h": 10.0
           },
           {
             "role": "caption",
-            "text": "Large system prompt,\nlots of examples, many tools",
-            "x": 51.0,
+            "text": "Small system prompt, few tools, lots of examples",
+            "x": 30.0,
             "y": 56.0,
+            "w": 21.0,
+            "h": 12.0
+          },
+          {
+            "role": "caption",
+            "text": "Large system prompt, lots of examples, many tools",
+            "x": 54.0,
+            "y": 55.0,
             "w": 23.0,
-            "h": 16.0
+            "h": 13.0
           },
           {
             "role": "caption",
-            "text": "Smaller system prompt,\ntool search, no examples",
-            "x": 77.0,
-            "y": 56.0,
-            "w": 19.0,
-            "h": 16.0
+            "text": "Smaller system prompt, tool search, no examples",
+            "x": 79.0,
+            "y": 55.0,
+            "w": 18.0,
+            "h": 13.0
           }
         ]
       },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
       "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-002.jpg",
       "deck_kind": "dense",
       "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783628968.5889602,
+      "classified_at_epoch": 1783657356.8081334,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "System Prompt Design\nSmall system prompt, few tools, lots of examples\nLarge system prompt, lots of examples, many tools\nSmaller system prompt, tool search, no examples",
+      "advanced_ocr": {},
       "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-002.html"
     },
     {
       "is_content_slide": true,
-      "confidence": 0.98,
+      "confidence": 0.97,
       "frame_type": "content_slide",
       "reject_reason": "",
-      "text": "Agenda\n\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+      "text": "Agenda\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple agenda slide with large list items; OCR not needed in triage.",
+      "direct_read_ready": true,
+      "text_density": "medium",
       "layout": {
-        "background": "#23363d",
-        "style": "dark",
+        "background": "dark teal",
+        "style": "minimal",
         "blocks": [
           {
             "role": "title",
             "text": "Agenda",
             "x": 2.0,
             "y": 2.0,
-            "w": 22.0,
-            "h": 8.0
+            "w": 16.0,
+            "h": 10.0
           },
           {
             "role": "body",
-            "text": "1. Meet OG Assist",
-            "x": 2.0,
+            "text": "1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+            "x": 3.0,
             "y": 16.0,
-            "w": 96.0,
-            "h": 6.0
-          },
-          {
-            "role": "body",
-            "text": "2. The Origin Story",
-            "x": 2.0,
-            "y": 24.0,
-            "w": 96.0,
-            "h": 6.0
-          },
-          {
-            "role": "body",
-            "text": "3. Betting on Effect",
-            "x": 2.0,
-            "y": 32.0,
-            "w": 96.0,
-            "h": 6.0
-          },
-          {
-            "role": "body",
-            "text": "4. The Core Agent Loop",
-            "x": 2.0,
-            "y": 41.0,
-            "w": 96.0,
-            "h": 6.0
-          },
-          {
-            "role": "body",
-            "text": "5. A2A, Evals & Sandboxing",
-            "x": 2.0,
-            "y": 49.0,
-            "w": 96.0,
-            "h": 6.0
-          },
-          {
-            "role": "body",
-            "text": "6. Long Context Handling",
-            "x": 2.0,
-            "y": 57.0,
-            "w": 96.0,
-            "h": 6.0
-          },
-          {
-            "role": "body",
-            "text": "7. Monitoring & Observability",
-            "x": 2.0,
-            "y": 66.0,
-            "w": 96.0,
-            "h": 6.0
-          },
-          {
-            "role": "body",
-            "text": "8. Tools, Skills & Dev Workflows",
-            "x": 2.0,
-            "y": 74.0,
-            "w": 96.0,
-            "h": 6.0
+            "w": 63.0,
+            "h": 66.0
           }
         ]
       },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
       "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-003.jpg",
       "deck_kind": "dense",
       "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783628984.9526963,
+      "classified_at_epoch": 1783657356.8090796,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agenda\n1. Meet OG Assist\n2. The Origin Story\n3. Betting on Effect\n4. The Core Agent Loop\n5. A2A, Evals & Sandboxing\n6. Long Context Handling\n7. Monitoring & Observability\n8. Tools, Skills & Dev Workflows",
+      "advanced_ocr": {},
       "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-003.html"
     },
     {
       "is_content_slide": true,
-      "confidence": 0.97,
+      "confidence": 0.95,
       "frame_type": "content_slide",
       "reject_reason": "",
-      "text": "Origin Story\nOne bet on agents, one immediate yes.\nA principal engineer spun up a team focused on AI agents and asked me to join. OG Assist grew from there. We started to integrate deeply with our products through frontend and backend tools.",
+      "text": "Origin Story\nOne bet on agents, one immediate yes.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Readable product/story slide with a screenshot and large headline; OCR not needed.",
+      "direct_read_ready": true,
+      "text_density": "low",
       "layout": {
-        "background": "#f3f1eb",
+        "background": "light neutral",
         "style": "product",
         "blocks": [
           {
             "role": "diagram",
-            "text": "Cloud... Workspace\nDay's Sales Outstanding\nTotal Amount Owed\nTotal Payments Taken Today\nReceipts by Payment Method\nYour billing breakdown awaits!\nOG Assist",
-            "x": 0,
-            "y": 10.0,
-            "w": 58.0,
-            "h": 76.0
+            "text": "",
+            "x": 1.0,
+            "y": 9.0,
+            "w": 50.0,
+            "h": 67.0
           },
           {
-            "role": "title",
+            "role": "subtitle",
             "text": "Origin Story",
-            "x": 63.0,
-            "y": 10.0,
+            "x": 64.0,
+            "y": 15.0,
             "w": 15.0,
-            "h": 6.0
+            "h": 8.0
           },
           {
             "role": "title",
             "text": "One bet on agents, one immediate yes.",
-            "x": 63.0,
-            "y": 18.0,
-            "w": 33.0,
-            "h": 24.0
+            "x": 64.0,
+            "y": 24.0,
+            "w": 31.0,
+            "h": 25.0
           },
           {
             "role": "body",
             "text": "A principal engineer spun up a team focused on AI agents and asked me to join. OG Assist grew from there. We started to integrate deeply with our products through frontend and backend tools.",
-            "x": 63.0,
-            "y": 55.0,
-            "w": 33.0,
-            "h": 19.0
+            "x": 64.0,
+            "y": 58.0,
+            "w": 31.0,
+            "h": 23.0
           }
         ]
       },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
       "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-004.jpg",
       "deck_kind": "dense",
       "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783629004.6333585,
+      "classified_at_epoch": 1783657356.8152277,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Origin Story\nOne bet on agents, one immediate yes.",
+      "advanced_ocr": {},
       "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-004.html"
     },
     {
       "is_content_slide": true,
-      "confidence": 0.97,
+      "confidence": 0.94,
       "frame_type": "content_slide",
       "reject_reason": "",
-      "text": "Example\n\nThe Harness\nOur agent loop,\nrebuilt\nEffect-native.\n\nThe core loop started on LangGraph. It now runs fully\nEffect-native typed control flow, structured concurrency, and\nresource safety end to end. Also allows more granular control to\nthe agent loop.",
+      "text": "Our agent loop, rebuilt Effect-native.",
       "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code and small explanatory text are better handled by OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
       "layout": {
-        "background": "#22363c",
+        "background": "dark teal",
         "style": "code",
         "blocks": [
           {
-            "role": "title",
-            "text": "Our agent loop,\nrebuilt\nEffect-native.",
-            "x": 64.0,
+            "role": "code",
+            "text": "Example",
+            "x": 1.0,
             "y": 12.0,
-            "w": 28.0,
-            "h": 31.0
+            "w": 60.0,
+            "h": 68.0
           },
           {
             "role": "subtitle",
             "text": "The Harness",
-            "x": 64.0,
-            "y": 8.0,
-            "w": 11.0,
-            "h": 4.0
+            "x": 63.0,
+            "y": 12.0,
+            "w": 18.0,
+            "h": 8.0
           },
           {
-            "role": "code",
-            "text": "Example\nimport { Chat, LanguageModel } from \"@effect/ai\"\nimport { Effect, Stream } from \"effect\"\n\n// Streaming chat with tool support\nconst streamingChat = Effect.gen(function* () {\n  const chat = yield* Chat.empty\n\n  yield chat\n    .streamText({\n      prompt: \"Generate a creative story\"\n    })\n    .pipe(Stream.runForEach((part) => Effect.sync(() => console.log(part))))\n})",
-            "x": 1.0,
-            "y": 8.0,
-            "w": 61.0,
-            "h": 58.0
+            "role": "title",
+            "text": "Our agent loop, rebuilt Effect-native.",
+            "x": 63.0,
+            "y": 21.0,
+            "w": 32.0,
+            "h": 26.0
           },
           {
             "role": "body",
-            "text": "The core loop started on LangGraph. It now runs fully\nEffect-native typed control flow, structured concurrency, and\nresource safety end to end. Also allows more granular control to\nthe agent loop.",
-            "x": 64.0,
-            "y": 74.0,
-            "w": 33.0,
-            "h": 15.0
-          },
-          {
-            "role": "caption",
-            "text": "Source: https://effect-ts.github.io/effect/docs/",
-            "x": 15.0,
-            "y": 89.0,
-            "w": 40.0,
-            "h": 4.0
+            "text": "The core loop started on LangGraph. It now runs fully Effect-native typed control flow, structured concurrency, and resource safety end to end. Also allows more granular control to the agent loop.",
+            "x": 63.0,
+            "y": 59.0,
+            "w": 31.0,
+            "h": 24.0
           }
         ]
       },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
       "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-005.jpg",
       "deck_kind": "dense",
       "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783646779.8009238,
+      "classified_at_epoch": 1783657356.8184466,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Our agent loop, rebuilt Effect-native.",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
       "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Production Evals for Agentic Systems",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram labels and small body text make OCR preferable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Production Evals for Agentic Systems",
+            "x": 7.0,
+            "y": 28.0,
+            "w": 46.0,
+            "h": 26.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Measuring reliability beyond accuracy. Building evaluation systems for autonomous AI workflows.",
+            "x": 7.0,
+            "y": 56.0,
+            "w": 42.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Nishant Gupta",
+            "x": 4.0,
+            "y": 87.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Tech Lead @ Meta",
+            "x": 4.0,
+            "y": 93.0,
+            "w": 18.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657356.8251488,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Production Evals for Agentic Systems",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": true,
+      "ocr_reason": "Cropped headline plus many small chart labels are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Accuracy",
+            "x": 11.0,
+            "y": 37.0,
+            "w": 15.0,
+            "h": 14.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Task Success",
+            "x": 53.0,
+            "y": 12.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tool Success",
+            "x": 84.0,
+            "y": 27.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Planning Quality",
+            "x": 84.0,
+            "y": 53.0,
+            "w": 12.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Latency",
+            "x": 72.0,
+            "y": 83.0,
+            "w": 9.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Cost",
+            "x": 45.0,
+            "y": 83.0,
+            "w": 7.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Safety",
+            "x": 20.0,
+            "y": 60.0,
+            "w": 8.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Human Satisfaction",
+            "x": 28.0,
+            "y": 23.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "System Reliability",
+            "x": 61.0,
+            "y": 44.0,
+            "w": 14.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657356.826209,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Production Evals for Agentic Systems",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram slide with small subtitle/body text is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Production Evals for Agentic Systems",
+            "x": 6.0,
+            "y": 27.0,
+            "w": 46.0,
+            "h": 28.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Measuring reliability beyond accuracy. Building evaluation systems for autonomous AI workflows.",
+            "x": 6.0,
+            "y": 56.0,
+            "w": 43.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Nishant Gupta",
+            "x": 1.0,
+            "y": 88.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Tech Lead @ Meta",
+            "x": 1.0,
+            "y": 94.0,
+            "w": 20.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657356.8297985,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Production Evals for Agentic Systems",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-008.html"
     },
     {
       "is_content_slide": true,
       "confidence": 0.98,
       "frame_type": "content_slide",
       "reject_reason": "",
-      "text": "Production Evals\nfor Agentic Systems\n\nMeasuring reliability beyond\naccuracy. Building evaluation systems\nfor autonomous AI workflows.\n\nNishant Gupta\nTech Lead @ Meta",
+      "text": "The Anatomy Of Agentic Failure",
       "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with multiple small labels and a central illustration; OCR will capture labels more reliably than manual reading.",
+      "direct_read_ready": false,
+      "text_density": "medium",
       "layout": {
-        "background": "#f4f1e8",
-        "style": "light",
-        "blocks": [
-          {
-            "role": "title",
-            "text": "Production Evals\nfor Agentic Systems",
-            "x": 9.0,
-            "y": 14.0,
-            "w": 43.0,
-            "h": 26.0
-          },
-          {
-            "role": "subtitle",
-            "text": "Measuring reliability beyond\naccuracy. Building evaluation systems\nfor autonomous AI workflows.",
-            "x": 10.0,
-            "y": 43.0,
-            "w": 38.0,
-            "h": 18.0
-          },
-          {
-            "role": "caption",
-            "text": "Nishant Gupta\nTech Lead @ Meta",
-            "x": 2.0,
-            "y": 88.0,
-            "w": 24.0,
-            "h": 11.0
-          }
-        ]
-      },
-      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-006.jpg",
-      "deck_kind": "dense",
-      "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783646795.021687,
-      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-006.html"
-    },
-    {
-      "is_content_slide": true,
-      "confidence": 0.97,
-      "frame_type": "content_slide",
-      "reject_reason": "",
-      "text": "Think like an SRE: Accuracy gives way to Reliabi\nAccuracy\nTask Success\nTool Success\nPlanning Quality\nLatency\nCost\nSafety\nHuman Satisfaction\nSystem Reliability",
-      "text_status": "meaningful",
-      "layout": {
-        "background": "light beige/white",
-        "style": "light",
-        "blocks": [
-          {
-            "role": "title",
-            "text": "Think like an SRE: Accuracy gives way to Reliabi",
-            "x": 5.0,
-            "y": 1.0,
-            "w": 86.0,
-            "h": 8.0
-          },
-          {
-            "role": "body",
-            "text": "Accuracy",
-            "x": 6.0,
-            "y": 63.0,
-            "w": 12.0,
-            "h": 7.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "Task Success",
-            "x": 57.0,
-            "y": 11.0,
-            "w": 13.0,
-            "h": 5.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "Tool Success",
-            "x": 81.0,
-            "y": 25.0,
-            "w": 13.0,
-            "h": 5.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "Planning Quality",
-            "x": 82.0,
-            "y": 49.0,
-            "w": 14.0,
-            "h": 8.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "Latency",
-            "x": 74.0,
-            "y": 77.0,
-            "w": 8.0,
-            "h": 5.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "Cost",
-            "x": 54.0,
-            "y": 83.0,
-            "w": 6.0,
-            "h": 5.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "Safety",
-            "x": 35.0,
-            "y": 56.0,
-            "w": 7.0,
-            "h": 5.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "Human Satisfaction",
-            "x": 25.0,
-            "y": 27.0,
-            "w": 14.0,
-            "h": 8.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "System Reliability",
-            "x": 48.0,
-            "y": 43.0,
-            "w": 18.0,
-            "h": 10.0
-          }
-        ]
-      },
-      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-007.jpg",
-      "deck_kind": "dense",
-      "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783646809.885999,
-      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-007.html"
-    },
-    {
-      "is_content_slide": true,
-      "confidence": 0.99,
-      "frame_type": "content_slide",
-      "reject_reason": "",
-      "text": "Production Evals\nfor Agentic Systems\n\nMeasuring reliability beyond\naccuracy. Building evaluation systems\nfor autonomous AI workflows.\n\nNishant Gupta\nTech Lead @ Meta",
-      "text_status": "meaningful",
-      "layout": {
-        "background": "#f4f2ed",
-        "style": "light",
-        "blocks": [
-          {
-            "role": "title",
-            "text": "Production Evals\nfor Agentic Systems",
-            "x": 6.0,
-            "y": 11.0,
-            "w": 52.0,
-            "h": 29.0
-          },
-          {
-            "role": "body",
-            "text": "Measuring reliability beyond\naccuracy. Building evaluation systems\nfor autonomous AI workflows.",
-            "x": 7.0,
-            "y": 31.0,
-            "w": 45.0,
-            "h": 18.0
-          },
-          {
-            "role": "caption",
-            "text": "Nishant Gupta\nTech Lead @ Meta",
-            "x": 1.0,
-            "y": 90.0,
-            "w": 33.0,
-            "h": 8.0
-          },
-          {
-            "role": "diagram",
-            "text": "",
-            "x": 52.0,
-            "y": 5.0,
-            "w": 46.0,
-            "h": 84.0
-          }
-        ]
-      },
-      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-008.jpg",
-      "deck_kind": "dense",
-      "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783646825.6155384,
-      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-008.html"
-    },
-    {
-      "is_content_slide": true,
-      "confidence": 0.97,
-      "frame_type": "content_slide",
-      "reject_reason": "",
-      "text": "The Anatomy Of Agentic Failure\n\nApex: Coordination\n(Multi-agent conflicts)\n\nTool Usage\n(Wrong API execution)\n\nPlanning\n(Bad task decomposition)\n\nReasoning\n(Wrong decisions)\n\nFoundation:\nMemory (Incorrect retrieval)\n& Safety (Unsafe actions)",
-      "text_status": "meaningful",
-      "layout": {
-        "background": "#f4f0e8",
+        "background": "#f7f4ef",
         "style": "diagram",
         "blocks": [
           {
             "role": "title",
             "text": "The Anatomy Of Agentic Failure",
-            "x": 3.0,
+            "x": 5.0,
             "y": 0,
-            "w": 64.0,
+            "w": 62.0,
             "h": 10.0
           },
           {
-            "role": "diagram",
-            "text": "",
-            "x": 24.0,
-            "y": 11.0,
-            "w": 48.0,
-            "h": 72.0
-          },
-          {
             "role": "diagram_label",
-            "text": "Apex: Coordination\n(Multi-agent conflicts)",
-            "x": 75.0,
-            "y": 10.0,
-            "w": 22.0,
-            "h": 12.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "Tool Usage\n(Wrong API execution)",
+            "text": "Apex: Coordination (Multi-agent conflicts)",
             "x": 74.0,
-            "y": 30.0,
-            "w": 22.0,
-            "h": 12.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "Planning\n(Bad task decomposition)",
-            "x": 74.0,
-            "y": 48.0,
+            "y": 7.0,
             "w": 23.0,
-            "h": 12.0
+            "h": 11.0
           },
           {
             "role": "diagram_label",
-            "text": "Reasoning\n(Wrong decisions)",
+            "text": "Tool Usage (Wrong API execution)",
+            "x": 71.0,
+            "y": 28.0,
+            "w": 25.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Planning (Bad task decomposition)",
+            "x": 71.0,
+            "y": 45.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Reasoning (Wrong decisions)",
             "x": 74.0,
-            "y": 66.0,
+            "y": 62.0,
             "w": 21.0,
-            "h": 12.0
+            "h": 10.0
           },
           {
             "role": "diagram_label",
-            "text": "Foundation:\nMemory (Incorrect retrieval)\n& Safety (Unsafe actions)",
-            "x": 70.0,
-            "y": 84.0,
-            "w": 28.0,
-            "h": 15.0
+            "text": "Foundation: Memory (Incorrect retrieval) & Safety (Unsafe actions)",
+            "x": 72.0,
+            "y": 79.0,
+            "w": 25.0,
+            "h": 14.0
           }
         ]
       },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
       "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-009.jpg",
       "deck_kind": "dense",
       "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783646843.4135935,
+      "classified_at_epoch": 1783657451.4695299,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Anatomy Of Agentic Failure",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
       "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-009.html"
     },
     {
@@ -580,422 +636,388 @@
       "confidence": 0.99,
       "frame_type": "content_slide",
       "reject_reason": "",
-      "text": "Evaluation is an\nalways-running\nservice, not a\ntesting phase.\n\nOnline Telemetry\ndetects drift/errors\n\nTriggers HITL review\nfor edge cases\n\nHuman feedback feeds\ninto Offline Datasets\n\nOffline Scenario Evals\nvalidate system updates\nbefore pushing back to\nProduction",
+      "text": "",
       "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram with several small callout boxes and circular annotations; OCR is the right capture method.",
+      "direct_read_ready": false,
+      "text_density": "medium",
       "layout": {
-        "background": "#f4f1e8 with faint grid",
+        "background": "#f6f1e7",
         "style": "diagram",
         "blocks": [
           {
             "role": "body",
-            "text": "Evaluation is an\nalways-running\nservice, not a\ntesting phase.",
-            "x": 33.0,
-            "y": 28.0,
-            "w": 34.0,
-            "h": 34.0
+            "text": "Evaluation is an always-running service, not a testing phase.",
+            "x": 37.0,
+            "y": 33.0,
+            "w": 28.0,
+            "h": 35.0
           },
           {
             "role": "diagram_label",
             "text": "A",
-            "x": 48.0,
-            "y": 3.0,
-            "w": 6.0,
-            "h": 9.0
+            "x": 49.0,
+            "y": 1.0,
+            "w": 5.0,
+            "h": 8.0
           },
           {
             "role": "diagram_label",
             "text": "B",
-            "x": 68.0,
-            "y": 45.0,
-            "w": 6.0,
-            "h": 9.0
+            "x": 69.0,
+            "y": 39.0,
+            "w": 4.0,
+            "h": 8.0
           },
           {
             "role": "diagram_label",
             "text": "C",
-            "x": 48.0,
-            "y": 83.0,
-            "w": 6.0,
-            "h": 9.0
+            "x": 49.0,
+            "y": 82.0,
+            "w": 5.0,
+            "h": 8.0
           },
           {
             "role": "diagram_label",
             "text": "D",
-            "x": 27.0,
-            "y": 45.0,
-            "w": 6.0,
-            "h": 9.0
+            "x": 28.0,
+            "y": 39.0,
+            "w": 4.0,
+            "h": 8.0
           },
           {
             "role": "caption",
-            "text": "Online Telemetry\ndetects drift/errors",
-            "x": 65.0,
-            "y": 4.0,
-            "w": 22.0,
-            "h": 12.0
-          },
-          {
-            "role": "caption",
-            "text": "Triggers HITL review\nfor edge cases",
-            "x": 76.0,
-            "y": 41.0,
-            "w": 19.0,
-            "h": 12.0
-          },
-          {
-            "role": "caption",
-            "text": "Human feedback feeds\ninto Offline Datasets",
+            "text": "Online Telemetry detects drift/errors",
             "x": 64.0,
-            "y": 87.0,
-            "w": 23.0,
+            "y": 4.0,
+            "w": 24.0,
             "h": 11.0
           },
           {
             "role": "caption",
-            "text": "Offline Scenario Evals\nvalidate system updates\nbefore pushing back to\nProduction",
-            "x": 4.0,
-            "y": 43.0,
-            "w": 24.0,
-            "h": 15.0
+            "text": "Triggers HITL review for edge cases",
+            "x": 77.0,
+            "y": 40.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "Human feedback feeds into Offline Datasets",
+            "x": 63.0,
+            "y": 83.0,
+            "w": 25.0,
+            "h": 11.0
+          },
+          {
+            "role": "caption",
+            "text": "Offline Scenario Evals validate system updates before pushing back to Production",
+            "x": 6.0,
+            "y": 40.0,
+            "w": 26.0,
+            "h": 13.0
           }
         ]
       },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
       "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-010.jpg",
       "deck_kind": "dense",
       "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783646868.5792518,
+      "classified_at_epoch": 1783657451.500941,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
       "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.76,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Engineering the future of AI",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Large embedded product UI screenshot with many small labels and UI chrome; OCR will be more reliable than hand transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#050505",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Engineering the future of AI",
+            "x": 33.0,
+            "y": 82.0,
+            "w": 43.0,
+            "h": 11.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer World's Fair",
+            "x": 1.0,
+            "y": 3.0,
+            "w": 14.0,
+            "h": 14.0
+          },
+          {
+            "role": "logo",
+            "text": "Presented by Microsoft",
+            "x": 4.0,
+            "y": 12.0,
+            "w": 14.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Launch",
+            "x": 50.0,
+            "y": 5.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "autoresearch-k8s",
+            "x": 34.0,
+            "y": 14.0,
+            "w": 20.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657451.5019014,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.84,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot dominates the frame and contains many small interface labels; OCR is suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4f4f2",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Voices",
+            "x": 21.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Filter by category",
+            "x": 18.0,
+            "y": 18.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Try saying",
+            "x": 19.0,
+            "y": 58.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "The Narrator",
+            "x": 61.0,
+            "y": 8.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Galen",
+            "x": 85.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657451.5025861,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-012.html"
     },
     {
       "is_content_slide": true,
       "confidence": 0.97,
       "frame_type": "content_slide",
       "reject_reason": "",
-      "text": "AI Engineer\nWorld's Fair\n\nPRESENTED BY\nMicrosoft\n\nGoogle DeepMind\n\nEngineering the future of AI",
+      "text": "Principle 5 Modularity\nWhich capabilities should be reusable, and which stay local?",
       "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
       "layout": {
-        "background": "dark space/nebula gradient with black base",
-        "style": "product",
-        "blocks": [
-          {
-            "role": "logo",
-            "text": "AI Engineer World's Fair",
-            "x": 4.0,
-            "y": 4.0,
-            "w": 18.0,
-            "h": 13.0
-          },
-          {
-            "role": "logo",
-            "text": "PRESENTED BY Microsoft",
-            "x": 4.0,
-            "y": 16.0,
-            "w": 18.0,
-            "h": 20.0
-          },
-          {
-            "role": "logo",
-            "text": "Google DeepMind",
-            "x": 6.0,
-            "y": 46.0,
-            "w": 15.0,
-            "h": 10.0
-          },
-          {
-            "role": "code",
-            "text": "Launch\nautoresearch-k8s\nRuns Agents Config Monitor\nQueue Kubernetes Active Prioritization\nNew response Go to chat",
-            "x": 21.0,
-            "y": 4.0,
-            "w": 76.0,
-            "h": 50.0
-          },
-          {
-            "role": "title",
-            "text": "Engineering the future of AI",
-            "x": 29.0,
-            "y": 81.0,
-            "w": 45.0,
-            "h": 13.0
-          }
-        ]
-      },
-      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-011.jpg",
-      "deck_kind": "dense",
-      "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783646888.079681,
-      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-011.html"
-    },
-    {
-      "is_content_slide": true,
-      "confidence": 0.94,
-      "frame_type": "content_slide",
-      "reject_reason": "",
-      "text": "Voices\nFilter by category\nIndian Girl Accent\nRobot\nThe Narrator\nGalen\nAnime Assistant Creative Family Fantasy Gaming History Human Humor Learning Lifestyle Mafia Powerful\nEPIC - Hermes\nEPIC - Odysseus\nTelemachus\nOdysseus\nTry saying\nCharacter Assistant\nWhoWouldWin\nElon Musk\nWhat type of fish is Dory from Finding Nemo?\nCreate an ad campaign for a new video game\nDecide between the MacBook Air and MacBook Pro\nBatman vs. Superman\nKnight vs. Samurai\nLebron James vs. Michael Jordan\nWhy did you buy Twitter?",
-      "text_status": "meaningful",
-      "layout": {
-        "background": "#f3f3f3",
-        "style": "product",
-        "blocks": [
-          {
-            "role": "title",
-            "text": "Voices",
-            "x": 35.0,
-            "y": 3.0,
-            "w": 10.0,
-            "h": 5.0
-          },
-          {
-            "role": "subtitle",
-            "text": "Filter by category",
-            "x": 14.0,
-            "y": 19.0,
-            "w": 16.0,
-            "h": 4.0
-          },
-          {
-            "role": "body",
-            "text": "Indian Girl Accent",
-            "x": 20.0,
-            "y": 8.0,
-            "w": 13.0,
-            "h": 7.0
-          },
-          {
-            "role": "body",
-            "text": "Robot",
-            "x": 39.0,
-            "y": 8.0,
-            "w": 8.0,
-            "h": 7.0
-          },
-          {
-            "role": "body",
-            "text": "The Narrator",
-            "x": 58.0,
-            "y": 8.0,
-            "w": 10.0,
-            "h": 7.0
-          },
-          {
-            "role": "body",
-            "text": "Galen",
-            "x": 79.0,
-            "y": 8.0,
-            "w": 7.0,
-            "h": 7.0
-          },
-          {
-            "role": "body",
-            "text": "Anime Assistant Creative Family Fantasy Gaming History Human Humor Learning Lifestyle Mafia Powerful",
-            "x": 14.0,
-            "y": 18.0,
-            "w": 78.0,
-            "h": 5.0
-          },
-          {
-            "role": "body",
-            "text": "EPIC - Hermes",
-            "x": 17.0,
-            "y": 26.0,
-            "w": 11.0,
-            "h": 10.0
-          },
-          {
-            "role": "body",
-            "text": "EPIC - Odysseus",
-            "x": 33.0,
-            "y": 26.0,
-            "w": 13.0,
-            "h": 10.0
-          },
-          {
-            "role": "body",
-            "text": "Telemachus",
-            "x": 51.0,
-            "y": 26.0,
-            "w": 10.0,
-            "h": 10.0
-          },
-          {
-            "role": "body",
-            "text": "Odysseus",
-            "x": 72.0,
-            "y": 26.0,
-            "w": 9.0,
-            "h": 10.0
-          },
-          {
-            "role": "subtitle",
-            "text": "Try saying",
-            "x": 14.0,
-            "y": 44.0,
-            "w": 10.0,
-            "h": 4.0
-          },
-          {
-            "role": "body",
-            "text": "Character Assistant\nWhat type of fish is Dory from Finding Nemo?\nCreate an ad campaign for a new video game\nDecide between the MacBook Air and MacBook Pro",
-            "x": 14.0,
-            "y": 50.0,
-            "w": 29.0,
-            "h": 26.0
-          },
-          {
-            "role": "body",
-            "text": "WhoWouldWin\nBatman vs. Superman\nKnight vs. Samurai\nLebron James vs. Michael Jordan",
-            "x": 44.0,
-            "y": 50.0,
-            "w": 24.0,
-            "h": 25.0
-          },
-          {
-            "role": "body",
-            "text": "Elon Musk\nWhy did you buy Twitter?",
-            "x": 70.0,
-            "y": 50.0,
-            "w": 22.0,
-            "h": 22.0
-          }
-        ]
-      },
-      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-012.jpg",
-      "deck_kind": "dense",
-      "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783646974.8875341,
-      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-012.html"
-    },
-    {
-      "is_content_slide": true,
-      "confidence": 0.98,
-      "frame_type": "content_slide",
-      "reject_reason": "",
-      "text": "Principle 5\nModularity\nWhich capabilities should be reusable, and which stay local?\nskill\nnormalize-listing\nsub-agent\nneighborhood research\nAustin\nDenver\nRaleigh",
-      "text_status": "meaningful",
-      "layout": {
-        "background": "#f7f3ea",
+        "background": "#fbfaf7",
         "style": "diagram",
         "blocks": [
           {
-            "role": "caption",
+            "role": "title",
             "text": "Principle 5",
             "x": 6.0,
-            "y": 29.0,
-            "w": 12.0,
-            "h": 5.0
+            "y": 44.0,
+            "w": 10.0,
+            "h": 6.0
           },
           {
             "role": "title",
             "text": "Modularity",
             "x": 6.0,
-            "y": 34.0,
-            "w": 21.0,
+            "y": 52.0,
+            "w": 17.0,
             "h": 10.0
           },
           {
-            "role": "body",
+            "role": "subtitle",
             "text": "Which capabilities should be reusable, and which stay local?",
             "x": 6.0,
-            "y": 45.0,
-            "w": 30.0,
+            "y": 64.0,
+            "w": 27.0,
             "h": 8.0
           },
           {
             "role": "diagram_label",
-            "text": "skill",
-            "x": 48.0,
-            "y": 17.0,
-            "w": 9.0,
-            "h": 4.0
+            "text": "skill normalize-listing",
+            "x": 46.0,
+            "y": 18.0,
+            "w": 16.0,
+            "h": 12.0
           },
           {
             "role": "diagram_label",
-            "text": "normalize-listing",
-            "x": 47.0,
-            "y": 20.0,
-            "w": 15.0,
-            "h": 6.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "sub-agent",
-            "x": 66.0,
-            "y": 17.0,
-            "w": 10.0,
-            "h": 4.0
-          },
-          {
-            "role": "diagram_label",
-            "text": "neighborhood research",
-            "x": 66.0,
-            "y": 20.0,
+            "text": "sub-agent neighborhood research",
+            "x": 68.0,
+            "y": 18.0,
             "w": 18.0,
-            "h": 6.0
+            "h": 12.0
           },
           {
             "role": "diagram_label",
             "text": "Austin",
-            "x": 44.0,
-            "y": 62.0,
+            "x": 45.0,
+            "y": 76.0,
             "w": 10.0,
-            "h": 6.0
+            "h": 8.0
           },
           {
             "role": "diagram_label",
             "text": "Denver",
-            "x": 56.0,
-            "y": 62.0,
+            "x": 60.0,
+            "y": 76.0,
             "w": 10.0,
-            "h": 6.0
+            "h": 8.0
           },
           {
             "role": "diagram_label",
             "text": "Raleigh",
-            "x": 68.0,
-            "y": 62.0,
-            "w": 10.0,
-            "h": 6.0
+            "x": 76.0,
+            "y": 76.0,
+            "w": 11.0,
+            "h": 8.0
           }
         ]
       },
+      "image_index": 5,
+      "filename": "slide-013.jpg",
       "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-013.jpg",
       "deck_kind": "dense",
       "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783646993.9253123,
+      "classified_at_epoch": 1783657451.5032604,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Principle 5 Modularity\nWhich capabilities should be reusable, and which stay local?",
+      "advanced_ocr": {},
       "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-013.html"
     },
     {
       "is_content_slide": true,
-      "confidence": 0.98,
+      "confidence": 0.96,
       "frame_type": "content_slide",
       "reject_reason": "",
       "text": "The agent is its data\nSpecifically: the log",
       "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
       "layout": {
-        "background": "white with blurred blue/teal gradient border",
+        "background": "#f7f7f7",
         "style": "minimal",
         "blocks": [
           {
             "role": "title",
             "text": "The agent is its data",
-            "x": 27.0,
-            "y": 34.0,
-            "w": 46.0,
-            "h": 10.0
+            "x": 28.0,
+            "y": 31.0,
+            "w": 44.0,
+            "h": 13.0
           },
           {
             "role": "subtitle",
             "text": "Specifically: the log",
-            "x": 31.0,
+            "x": 33.0,
             "y": 45.0,
-            "w": 38.0,
-            "h": 10.0
+            "w": 34.0,
+            "h": 13.0
           }
         ]
       },
+      "image_index": 6,
+      "filename": "slide-014.jpg",
       "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/4sX_He5c4sI/slide-014.jpg",
       "deck_kind": "dense",
       "model": "gpt-5.4-mini",
-      "classified_at_epoch": 1783647011.454977,
+      "classified_at_epoch": 1783657451.5039873,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The agent is its data\nSpecifically: the log",
+      "advanced_ocr": {},
       "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/4sX_He5c4sI/slide-014.html"
     }
   ],

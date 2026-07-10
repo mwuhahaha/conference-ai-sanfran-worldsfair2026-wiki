@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "jobs >agent-2 > JoB.md >* ## Priority Hints\nStep 1 create a job_ # Objective Csuea caiiaq, leum 1noqe 2itoads og Lqo! uomiezturido sius 4o teo6 uTew aun s1 1eum -f dImprove accuracy on the math golden dataset Troa 20s to 80s0 Exaoples! Reduce average latency below 5ooms chite caintaining current accuracy \"Add support for x questions (currently os pass fate on that category)b\nIv\nWe want to inprove the accuracy as much as we can\n#+ Target Repository\nAbsoluteor relativo path to the fepo the coding agent will aodify. Atso specifywhich branch to start fro e this is the baselinc. ->\n**Path+*:/Users/alfonsograziano/Desktop/exp/auto-agent-demo t*Branch**B oaster\nMetries\nWhich metric should the Systen optimize, and chat guardrails apply to The prinary mctric determines whether a hypothesis is accepted or Gej Secondary metrie regresses beyond its threshoid, even it the primary Secondary constraints prevent regresslons o hypothesis is rejected\n**prieary aetric**B accuracy(maximize) **Secondary constraints**: latency avg ns9 max 20t regression cost usd: max 5os regression",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code/editor screenshot with small text; OCR should read it better than manual vision transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Step 1\ncreate a job",
+        "x": 8.0,
+        "y": 6.0,
+        "w": 22.0,
+        "h": 14.0
+      },
+      {
+        "role": "code",
+        "text": "jobs > agent-2 > JOB.md",
+        "x": 25.0,
+        "y": 0,
+        "w": 62.0,
+        "h": 82.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666662.0239053,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Step 1\ncreate a job",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "jobs >agent-2 > JoB.md >* ## Priority Hints\nStep 1 create a job_ # Objective Csuea caiiaq, leum 1noqe 2itoads og Lqo! uomiezturido sius 4o teo6 uTew aun s1 1eum -f dImprove accuracy on the math golden dataset Troa 20s to 80s0 Exaoples! Reduce average latency below 5ooms chite caintaining current accuracy \"Add support for x questions (currently os pass fate on that category)b\nIv\nWe want to inprove the accuracy as much as we can\n#+ Target Repository\nAbsoluteor relativo path to the fepo the coding agent will aodify. Atso specifywhich branch to start fro e this is the baselinc. ->\n**Path+*:/Users/alfonsograziano/Desktop/exp/auto-agent-demo t*Branch**B oaster\nMetries\nWhich metric should the Systen optimize, and chat guardrails apply to The prinary mctric determines whether a hypothesis is accepted or Gej Secondary metrie regresses beyond its threshoid, even it the primary Secondary constraints prevent regresslons o hypothesis is rejected\n**prieary aetric**B accuracy(maximize) **Secondary constraints**: latency avg ns9 max 20t regression cost usd: max 5os regression",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1463.02
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "jobs >agent-2 > JoB.md >* ## Priority Hints\nStep 1 create a job_ # Objective Csuea caiiaq, leum 1noqe 2itoads og Lqo! uomiezturido sius 4o teo6 uTew aun s1 1eum -f dImprove accuracy on the math golden dataset Troa 20s to 80s0 Exaoples! Reduce average latency below 5ooms chite caintaining current accuracy \"Add support for x questions (currently os pass fate on that category)b\nIv\nWe want to inprove the accuracy as much as we can\n#+ Target Repository\nAbsoluteor relativo path to the fepo the coding agent will aodify. Atso specifywhich branch to start fro e this is the baselinc. ->\n**Path+*:/Users/alfonsograziano/Desktop/exp/auto-agent-demo t*Branch**B oaster\nMetries\nWhich metric should the Systen optimize, and chat guardrails apply to The prinary mctric determines whether a hypothesis is accepted or Gej Secondary metrie regresses beyond its threshoid, even it the primary Secondary constraints prevent regresslons o hypothesis is rejected\n**prieary aetric**B accuracy(maximize) **Secondary constraints**: latency avg ns9 max 20t regression cost usd: max 5os regression",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

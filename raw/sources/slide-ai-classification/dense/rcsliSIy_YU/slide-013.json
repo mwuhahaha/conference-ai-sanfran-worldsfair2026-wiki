@@ -1,0 +1,63 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Getting Started",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product/docs screenshot with dense small UI text and code snippets.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Getting Started",
+        "x": 31.0,
+        "y": 42.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Using uv (recommended)",
+        "x": 31.0,
+        "y": 48.0,
+        "w": 23.0,
+        "h": 5.0
+      },
+      {
+        "role": "code",
+        "text": "uv tool install openhands",
+        "x": 31.0,
+        "y": 61.0,
+        "w": 22.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-013.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671657.2702513,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Getting Started",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 696.8,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

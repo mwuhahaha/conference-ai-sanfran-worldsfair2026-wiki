@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Using the API: Basic Chat\nSTATEFUL MULTI-TURN\nCreate an interaction with a prompt\nChain turns with previous_interaction_id\nZero history: server manages all state",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cream",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Using the API: Basic Chat",
+        "x": 13.0,
+        "y": 9.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "STATEFUL MULTI-TURN",
+        "x": 13.0,
+        "y": 20.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Create an interaction with a prompt\nChain turns with previous_interaction_id\nZero history: server manages all state",
+        "x": 13.0,
+        "y": 25.0,
+        "w": 35.0,
+        "h": 30.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 51.0,
+        "y": 18.0,
+        "w": 38.0,
+        "h": 48.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667103.31916,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Using the API: Basic Chat\nSTATEFUL MULTI-TURN\nCreate an interaction with a prompt\nChain turns with previous_interaction_id\nZero history: server manages all state",
+  "advanced_ocr": {}
+}

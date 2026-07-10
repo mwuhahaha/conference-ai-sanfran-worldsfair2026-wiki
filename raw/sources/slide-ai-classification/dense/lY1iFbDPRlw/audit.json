@@ -1,0 +1,368 @@
+{
+  "video_id": "lY1iFbDPRlw",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 5,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.89,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "poneg\nModels: CEw\nExcel in all modalities M2 MiniMax 2.6 Speech 2.0 Music S\nINTAMO Melean\nURTLWK\nProsx!\nAl-native Apps:\n150m users globally Agent! Video Agentl\nMedltrAesl witel yN MnMs Auls CeleLhefielpeeg HalsVidne Ape take\nMINIMAX Intelligene\nE/LEAD MINIMAXM2\nSENTED 8Y eenMinc OLIVE SONG /Senior Research Engineer MINIMAX",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Mixed title slide with embedded product/UI screenshots and small labels.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "MINIMAX M2",
+            "x": 26.0,
+            "y": 72.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "OLIVE SONG / Senior Research Engineer",
+            "x": 26.0,
+            "y": 84.0,
+            "w": 40.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Models: Excel in all modalities",
+            "x": 15.0,
+            "y": 16.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "AI-native Apps: 150M users globally",
+            "x": 15.0,
+            "y": 38.0,
+            "w": 26.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/lY1iFbDPRlw/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670385.8453517,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "MINIMAX M2",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/contrast",
+        "text": "poneg\nModels: CEw\nExcel in all modalities M2 MiniMax 2.6 Speech 2.0 Music S\nINTAMO Melean\nURTLWK\nProsx!\nAl-native Apps:\n150m users globally Agent! Video Agentl\nMedltrAesl witel yN MnMs Auls CeleLhefielpeeg HalsVidne Ape take\nMINIMAX Intelligene\nE/LEAD MINIMAXM2\nSENTED 8Y eenMinc OLIVE SONG /Senior Research Engineer MINIMAX",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 536.96
+      },
+      "ocr_source": "rapidocr-live/center-82/contrast",
+      "ocr_reconcile": {
+        "text": "poneg\nModels: CEw\nExcel in all modalities M2 MiniMax 2.6 Speech 2.0 Music S\nINTAMO Melean\nURTLWK\nProsx!\nAl-native Apps:\n150m users globally Agent! Video Agentl\nMedltrAesl witel yN MnMs Auls CeleLhefielpeeg HalsVidne Ape take\nMINIMAX Intelligene\nE/LEAD MINIMAXM2\nSENTED 8Y eenMinc OLIVE SONG /Senior Research Engineer MINIMAX",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/lY1iFbDPRlw/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "MiniMax-M2: Open-Weight. Coding-First. Best-in-Class.\n~10B activated parameters, open-weight\nAgentic-by-design for coding and workplace tasks\nFast, cost-efficient, and ready to scale",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "MiniMax-M2: Open-Weight. Coding-First. Best-in-Class.",
+            "x": 24.0,
+            "y": 0,
+            "w": 56.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "~10B activated parameters, open-weight",
+            "x": 25.0,
+            "y": 21.0,
+            "w": 20.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Agentic-by-design for coding and workplace tasks",
+            "x": 49.0,
+            "y": 21.0,
+            "w": 20.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Fast, cost-efficient, and ready to scale",
+            "x": 74.0,
+            "y": 21.0,
+            "w": 20.0,
+            "h": 24.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/lY1iFbDPRlw/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670433.114117,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "MiniMax-M2: Open-Weight. Coding-First. Best-in-Class.\n~10B activated parameters, open-weight\nAgentic-by-design for coding and workplace tasks\nFast, cost-efficient, and ready to scale",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/lY1iFbDPRlw/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Training Shapes M2 Behavior for Developers\nModel Characteristics\nTraining\n1. Coding & Dev Experience\nScaled Environments & Experts",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Training Shapes M2 Behavior for Developers",
+            "x": 22.0,
+            "y": 0,
+            "w": 48.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Model Characteristics",
+            "x": 31.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Training",
+            "x": 76.0,
+            "y": 13.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "1. Coding & Dev Experience",
+            "x": 30.0,
+            "y": 27.0,
+            "w": 24.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Scaled Environments & Experts",
+            "x": 67.0,
+            "y": 27.0,
+            "w": 25.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/lY1iFbDPRlw/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670433.114727,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Training Shapes M2 Behavior for Developers\nModel Characteristics\nTraining\n1. Coding & Dev Experience\nScaled Environments & Experts",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/lY1iFbDPRlw/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Interleaved Thinking Enables...\n1. Adaptation to Environment Noise\n2. Focus on Long-Horizon Tasks",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Interleaved Thinking Enables...",
+            "x": 13.0,
+            "y": 0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1. Adaptation to Environment Noise",
+            "x": 8.0,
+            "y": 38.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "2. Focus on Long-Horizon Tasks",
+            "x": 8.0,
+            "y": 50.0,
+            "w": 37.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/lY1iFbDPRlw/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670433.115274,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Interleaved Thinking Enables...\n1. Adaptation to Environment Noise\n2. Focus on Long-Horizon Tasks",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/lY1iFbDPRlw/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "M2 Scales and Collaborate in Multi-Agent Systems\nResearch Agent: Web Development Agent Report Agent.\nSmall & Cost-effective to run long agentic tasks\nMI MINIHAX MiniMax Agent Intelligcnco wlth Everyero",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-column slide with multiple embedded UI screenshots and a QR code; OCR is better for the small screenshot text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "M2 Scales and Collaborate in Multi-Agent Systems",
+            "x": 15.0,
+            "y": 0,
+            "w": 70.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "Research Agent",
+            "x": 5.0,
+            "y": 12.0,
+            "w": 27.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Web Development Agent",
+            "x": 38.0,
+            "y": 12.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Report Agent",
+            "x": 72.0,
+            "y": 12.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Small & Cost-effective to run long agentic tasks",
+            "x": 24.0,
+            "y": 73.0,
+            "w": 52.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/lY1iFbDPRlw/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670433.1193237,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "M2 Scales and Collaborate in Multi-Agent Systems\nSmall & Cost-effective to run long agentic tasks",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "M2 Scales and Collaborate in Multi-Agent Systems\nResearch Agent: Web Development Agent Report Agent.\nSmall & Cost-effective to run long agentic tasks\nMI MINIHAX MiniMax Agent Intelligcnco wlth Everyero",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 326.04
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "M2 Scales and Collaborate in Multi-Agent Systems\nResearch Agent: Web Development Agent Report Agent.\nSmall & Cost-effective to run long agentic tasks\nMI MINIHAX MiniMax Agent Intelligcnco wlth Everyero",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/lY1iFbDPRlw/slide-005.html"
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Frontier Voice\n:tuguo 鲁\nYou 2:18 PM:\n8 When's the next Timberwolves game?\n: Fromtier Voice 2:18 PMi\nThe next Minnesota Tmberwolves game bs\nI (Eabanos-\nrdoez: no,\nHey. Ted, cane on'rt.\nFrontlor Yoico 2ig pM\nSure, I'm here! Whet's on youu mnd?\nMossoge Frontier Voico-.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product UI screenshot with small interface text; OCR is the safer capture path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white textured app screen",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Frontier Voice\nOnline",
+        "x": 28.0,
+        "y": 0,
+        "w": 28.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "When's the next\nTimberwolves game?",
+        "x": 52.0,
+        "y": 11.0,
+        "w": 22.0,
+        "h": 13.0
+      },
+      {
+        "role": "body",
+        "text": "The next Minnesota\nTimberwolves game is",
+        "x": 38.0,
+        "y": 20.0,
+        "w": 36.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "Hey, Ted, come on in.",
+        "x": 53.0,
+        "y": 34.0,
+        "w": 19.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Sure, I'm here! What's on your mind?",
+        "x": 39.0,
+        "y": 43.0,
+        "w": 34.0,
+        "h": 13.0
+      },
+      {
+        "role": "caption",
+        "text": "Message Frontier Voice...",
+        "x": 36.0,
+        "y": 84.0,
+        "w": 28.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668382.8703222,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Frontier Voice",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/opencv-adaptive",
+    "text": "Frontier Voice\n:tuguo 鲁\nYou 2:18 PM:\n8 When's the next Timberwolves game?\n: Fromtier Voice 2:18 PMi\nThe next Minnesota Tmberwolves game bs\nI (Eabanos-\nrdoez: no,\nHey. Ted, cane on'rt.\nFrontlor Yoico 2ig pM\nSure, I'm here! Whet's on youu mnd?\nMossoge Frontier Voico-.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 450.92
+  },
+  "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Frontier Voice\n:tuguo 鲁\nYou 2:18 PM:\n8 When's the next Timberwolves game?\n: Fromtier Voice 2:18 PMi\nThe next Minnesota Tmberwolves game bs\nI (Eabanos-\nrdoez: no,\nHey. Ted, cane on'rt.\nFrontlor Yoico 2ig pM\nSure, I'm here! Whet's on youu mnd?\nMossoge Frontier Voico-.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Lessons fromBuildingPaint.wtfwith CLIP We're all learning here\nRoboflow Inference Makes Life Easy\nServing done right. model license\nBuilt on the lessons of serving 1oom of API calls and thousands of hours of video. inference/eodels/clip interence/models/gaze inference/models/san Ml T, Apache 2.0 Apache 2.0\nMaximize throughput on your target inference/models/vit Apache 2.0\nhardware (GPU, CPU, edge) inference/models/yolact\nUse ready-to-go foundation models interence/models/yolovs AGPL-30\nPull in over 50k pretrained models from interence/eodels/yolov7 GPL-3.0\nRoboflow Universe community interence/models/yolovs AGPL-3.0\n14",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense bullet list and table are OCR-suitable; keep text field minimal in triage",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Roboflow Inference Makes Life Easy",
+        "x": 7.0,
+        "y": 13.0,
+        "w": 47.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Serving done right.",
+        "x": 8.0,
+        "y": 30.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Built on the lessons of serving 100M of API calls and thousands of hours of video.\nMaximize throughput on your target hardware (GPU, CPU, edge)\nUse ready-to-go foundation models\nPull in over 50k pretrained models from Roboflow Universe community",
+        "x": 8.0,
+        "y": 37.0,
+        "w": 45.0,
+        "h": 40.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "model\nlicense",
+        "x": 64.0,
+        "y": 22.0,
+        "w": 30.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/OimPoLxioYg/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662860.828868,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Lessons fromBuildingPaint.wtfwith CLIP We're all learning here\nRoboflow Inference Makes Life Easy\nServing done right. model license\nBuilt on the lessons of serving 1oom of API calls and thousands of hours of video. inference/eodels/clip interence/models/gaze inference/models/san Ml T, Apache 2.0 Apache 2.0\nMaximize throughput on your target inference/models/vit Apache 2.0\nhardware (GPU, CPU, edge) inference/models/yolact\nUse ready-to-go foundation models interence/models/yolovs AGPL-30\nPull in over 50k pretrained models from interence/eodels/yolov7 GPL-3.0\nRoboflow Universe community interence/models/yolovs AGPL-3.0\n14",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 771.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Lessons fromBuildingPaint.wtfwith CLIP We're all learning here\nRoboflow Inference Makes Life Easy\nServing done right. model license\nBuilt on the lessons of serving 1oom of API calls and thousands of hours of video. inference/eodels/clip interence/models/gaze inference/models/san Ml T, Apache 2.0 Apache 2.0\nMaximize throughput on your target inference/models/vit Apache 2.0\nhardware (GPU, CPU, edge) inference/models/yolact\nUse ready-to-go foundation models interence/models/yolovs AGPL-30\nPull in over 50k pretrained models from interence/eodels/yolov7 GPL-3.0\nRoboflow Universe community interence/models/yolovs AGPL-3.0\n14",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

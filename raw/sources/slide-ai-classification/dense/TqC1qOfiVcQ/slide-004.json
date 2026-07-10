@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why use the Claude Agent SDK?\n- We realized people were using Claude Code for non-coding tasks.\n- We build our agents on top of our Agent SDK.\n- It is built on top of lessons we’ve learned deploying Claude Code to millions of users.\n- We have strong opinions on the best way to build agents.\n- One of our biggest learnings: the Bash tool is the most powerful agent tool.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why use the Claude Agent SDK?",
+        "x": 5.0,
+        "y": 4.0,
+        "w": 70.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "We realized people were using Claude Code for non-coding tasks.",
+        "x": 8.0,
+        "y": 18.0,
+        "w": 70.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "We build our agents on top of our Agent SDK.",
+        "x": 8.0,
+        "y": 28.0,
+        "w": 62.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "It is built on top of lessons we’ve learned deploying Claude Code to millions of users.",
+        "x": 8.0,
+        "y": 38.0,
+        "w": 84.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "We have strong opinions on the best way to build agents.",
+        "x": 8.0,
+        "y": 50.0,
+        "w": 66.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "One of our biggest learnings: the Bash tool is the most powerful agent tool.",
+        "x": 8.0,
+        "y": 60.0,
+        "w": 80.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "ANTHROPIC",
+        "x": 5.0,
+        "y": 93.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "CONFIDENTIAL",
+        "x": 78.0,
+        "y": 93.0,
+        "w": 14.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664441.9045532,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why use the Claude Agent SDK?\n- We realized people were using Claude Code for non-coding tasks.\n- We build our agents on top of our Agent SDK.\n- It is built on top of lessons we’ve learned deploying Claude Code to millions of users.\n- We have strong opinions on the best way to build agents.\n- One of our biggest learnings: the Bash tool is the most powerful agent tool.",
+  "advanced_ocr": {}
+}

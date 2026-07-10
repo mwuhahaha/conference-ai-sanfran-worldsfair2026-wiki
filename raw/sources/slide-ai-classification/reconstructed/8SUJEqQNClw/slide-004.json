@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "In April OpenAI released a paper on the topic",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple large-text slide with small inset cover art",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#11110e",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "In April OpenAI released a paper on the topic",
+        "x": 32.0,
+        "y": 25.0,
+        "w": 40.0,
+        "h": 26.0
+      },
+      {
+        "role": "caption",
+        "text": "A practical guide to building agents",
+        "x": 69.0,
+        "y": 18.0,
+        "w": 16.0,
+        "h": 41.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/reconstructed-slides/8SUJEqQNClw/slide-004.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657974.0064254,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "In April OpenAI released a paper on the topic",
+  "advanced_ocr": {}
+}

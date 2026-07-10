@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.86,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "About OpenGov\nSoftware for\nmore effective,\naccountable\ngovernment.\n\nFounded over 14 years ago, OpenGov builds ERP, budgeting,\nasset management, and permitting software for state and local\ngovernment and OG Assist now connects across all of it.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "two-column slide with smaller paragraph text and embedded video area",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#232323",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "OpenGov",
+        "x": 84.0,
+        "y": 2.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "About OpenGov",
+        "x": 64.0,
+        "y": 10.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Software for more effective, accountable government.",
+        "x": 64.0,
+        "y": 14.0,
+        "w": 32.0,
+        "h": 34.0
+      },
+      {
+        "role": "body",
+        "text": "Founded over 14 years ago, OpenGov builds ERP, budgeting, asset management, and permitting software for state and local government and OG Assist now connects across all of it.",
+        "x": 64.0,
+        "y": 74.0,
+        "w": 33.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 2.0,
+        "y": 14.0,
+        "w": 60.0,
+        "h": 63.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/4uFVSLgD2Q4/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657655.6710498,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/contrast",
+    "text": "OpenGovT\nAbout OpenGov Software for\nmore effective.\naccountable\ngovernment.\nFounded over 14 years ago, OpenGov builds ERP. budgeting.\ngovernment and OG Assist now connects across all of it. asset management,andpermitting softwareforstate and local",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 416.72
+  },
+  "ocr_source": "rapidocr-live/right-72/contrast",
+  "ocr_reconcile": {
+    "text": "About OpenGov\nSoftware for\nmore effective,\naccountable\ngovernment.\n\nFounded over 14 years ago, OpenGov builds ERP, budgeting,\nasset management, and permitting software for state and local\ngovernment and OG Assist now connects across all of it.",
+    "text_status": "meaningful",
+    "corrections": "Accepted OCR with minor punctuation and spacing cleanup; corrected OpenGov logo text and wording from the slide."
+  }
+}

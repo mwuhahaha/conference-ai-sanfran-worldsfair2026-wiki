@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "North Star: Self-Improving Agents\nSelf-improving agents require a feedback loop where both agents and evals evolve together—not just better prompts, but better evaluations too.\nImprove Agent\nImprove Evals",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light lavender gradient",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "North Star: Self-Improving Agents",
+        "x": 1.0,
+        "y": 0,
+        "w": 52.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Self-improving agents require a feedback loop where both agents and evals evolve together—not just better prompts, but better evaluations too.",
+        "x": 10.0,
+        "y": 8.0,
+        "w": 80.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Improve Agent",
+        "x": 17.0,
+        "y": 37.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Improve Evals",
+        "x": 67.0,
+        "y": 42.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Collect data",
+        "x": 20.0,
+        "y": 20.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Run evals",
+        "x": 34.0,
+        "y": 29.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664281.8189068,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "North Star: Self-Improving Agents\nSelf-improving agents require a feedback loop where both agents and evals evolve together—not just better prompts, but better evaluations too.\nImprove Agent\nImprove Evals",
+  "advanced_ocr": {}
+}

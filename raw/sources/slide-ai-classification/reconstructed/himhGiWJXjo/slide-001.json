@@ -1,0 +1,76 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "sponsor_logo",
+  "reject_reason": "Sponsor/logo slide, not presentation content.",
+  "text": "INNOVATION SPONSOR\naws\nPLATINUM SPONSORS\nMongoDB\nGoogle Cloud\nneo4j",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "Logo wall and sponsor names are decorative, not content text.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#000000",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "INNOVATION SPONSOR",
+        "x": 36.0,
+        "y": 7.0,
+        "w": 28.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 40.0,
+        "y": 16.0,
+        "w": 20.0,
+        "h": 15.0
+      },
+      {
+        "role": "caption",
+        "text": "PLATINUM SPONSORS",
+        "x": 37.0,
+        "y": 31.0,
+        "w": 27.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "MongoDB",
+        "x": 3.0,
+        "y": 43.0,
+        "w": 24.0,
+        "h": 16.0
+      },
+      {
+        "role": "logo",
+        "text": "Google Cloud",
+        "x": 34.0,
+        "y": 44.0,
+        "w": 31.0,
+        "h": 15.0
+      },
+      {
+        "role": "logo",
+        "text": "neo4j",
+        "x": 74.0,
+        "y": 43.0,
+        "w": 18.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/reconstructed-slides/himhGiWJXjo/slide-001.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668336.75985,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "INNOVATION SPONSOR\naws\nPLATINUM SPONSORS\nMongoDB\nGoogle Cloud\nneo4j",
+  "advanced_ocr": {}
+}

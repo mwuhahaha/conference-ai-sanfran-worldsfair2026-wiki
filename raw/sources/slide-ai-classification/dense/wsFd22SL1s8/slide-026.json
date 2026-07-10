@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Arrakis MicroVM Runtime\nLinux Server\narrakis-py-sdk REST API Arrakis Restserver\nREST API\narrakis-client cloud-hypervisor process cloud-hypervisor process\nVNC Server Code Server VNC Server Code Server\nArrakis MicroVM Sandbox Arrakis MicroVM Sandbox\nUserspace\nKernel /dev/kve /dev/kvm",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture diagram with many small labels is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Arrakis MicroVM Runtime",
+        "x": 36.0,
+        "y": 4.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "arrakis-py-sdk\narrakis-client\nREST API",
+        "x": 3.0,
+        "y": 17.0,
+        "w": 19.0,
+        "h": 33.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Arrakis Restserver",
+        "x": 56.0,
+        "y": 14.0,
+        "w": 20.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "cloud-hypervisor process\nVMC Server\nCode Server\nArrakis MicroVM Sandbox",
+        "x": 39.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 32.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "cloud-hypervisor process\nVMC Server\nCode Server\nArrakis MicroVM Sandbox",
+        "x": 72.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 32.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Userspace\nKernel\n/dev/kvm",
+        "x": 27.0,
+        "y": 74.0,
+        "w": 47.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-026.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-026.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673553.244068,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Arrakis MicroVM Runtime",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Arrakis MicroVM Runtime\nLinux Server\narrakis-py-sdk REST API Arrakis Restserver\nREST API\narrakis-client cloud-hypervisor process cloud-hypervisor process\nVNC Server Code Server VNC Server Code Server\nArrakis MicroVM Sandbox Arrakis MicroVM Sandbox\nUserspace\nKernel /dev/kve /dev/kvm",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 414.68
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Arrakis MicroVM Runtime\nLinux Server\narrakis-py-sdk REST API Arrakis Restserver\nREST API\narrakis-client cloud-hypervisor process cloud-hypervisor process\nVNC Server Code Server VNC Server Code Server\nArrakis MicroVM Sandbox Arrakis MicroVM Sandbox\nUserspace\nKernel /dev/kve /dev/kvm",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

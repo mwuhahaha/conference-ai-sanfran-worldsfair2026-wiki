@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "1. Trigger\n2. Structure\n3. Steering\n4. Pruning",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple checklist slide with large readable text; direct read is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "1. Trigger",
+        "x": 10.0,
+        "y": 11.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "2. Structure",
+        "x": 10.0,
+        "y": 31.0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "3. Steering",
+        "x": 10.0,
+        "y": 50.0,
+        "w": 29.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "4. Pruning",
+        "x": 10.0,
+        "y": 69.0,
+        "w": 27.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/UNzCG3lw6O0/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664671.017225,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "1. Trigger\n2. Structure\n3. Steering\n4. Pruning",
+  "advanced_ocr": {}
+}

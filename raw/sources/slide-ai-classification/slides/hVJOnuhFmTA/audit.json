@@ -1,0 +1,1405 @@
+{
+  "video_id": "hVJOnuhFmTA",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 14,
+  "rejected_count": 8,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "8088 8010 ；x86-64:bytes 0018 80001 6604 0068 0018 0011 000c push mov sub mov mov pop ret 868606868686 554889E54883 488B75F05DC3 EC20488B7DF8 0x01 rbp,rsp rbp rsp,8x26 rsi,[rbp-0x10] rdi,[rbp-0x8] rbp sFind Python files>18 sfind.-typef-name*py-size·k $grep-RInTO0O1wc-1 sSho top5by size s1s-Uhs（find.-name'.py） 5curl-shttps://api.exanple.com/\\ sCount Tooos in those files 42 sFetch API andpretty-print -re-r--r-. -W-F--r-- -r-r---- -rw-r--r-. -r--r- （\"id:2.name²:Linus}. （p.PT.） （\"id\":3.name²:Grace°） users?linit-31j0. sort-kS-hr|head-n5 8.0Kutils/i0.py 6.1K tests/test_api.py 18k Lib/parser.py 12xapi/elient.py Conditionals user. Variables timit100 Functions ifresp.status_code200: Loops for Item in data: Data (JSoN）Primitive itens-[] def fetch（url,timeout-5): else: \"role\":'adnin\" \"16°:123, \"email:*adaexanple.con* resp·http.get（url,tineouttineout） return resp.json() raise Error(resp.text) ifiten[\"active\"]: itens.append（iten) (NOsr） son Response Format Endpoint Method Auth Token Timeout(s) 10 https://api.example.com/v1/users GET Bearer Token JSON 'actiw':troe, \"iit:100, upe,:olo, What would you like to build?.Stream large files.Validate emails Add type hints and deduplicatesrowsby asaJSONarray. Use csv.DictReader Sort by updated_at desc Write aPython function that parses a CSVfile, keeps themostrecent record byupdated_at, and returns theresult Requirements: Include a count summary email (case-insensitive), docstring\nOpcodes Shell Primitives Fields Open Language",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-column code/UI slide; OCR will read it more reliably than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#05070a",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "Opcodes",
+            "x": 3.0,
+            "y": 89.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Shell",
+            "x": 27.0,
+            "y": 89.0,
+            "w": 14.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Primitives",
+            "x": 48.0,
+            "y": 89.0,
+            "w": 20.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Fields",
+            "x": 71.0,
+            "y": 89.0,
+            "w": 14.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Open Language",
+            "x": 85.0,
+            "y": 88.0,
+            "w": 14.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668092.622068,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "8088 8010 ；x86-64:bytes 0018 80001 6604 0068 0018 0011 000c push mov sub mov mov pop ret 868606868686 554889E54883 488B75F05DC3 EC20488B7DF8 0x01 rbp,rsp rbp rsp,8x26 rsi,[rbp-0x10] rdi,[rbp-0x8] rbp sFind Python files>18 sfind.-typef-name*py-size·k $grep-RInTO0O1wc-1 sSho top5by size s1s-Uhs（find.-name'.py） 5curl-shttps://api.exanple.com/\\ sCount Tooos in those files 42 sFetch API andpretty-print -re-r--r-. -W-F--r-- -r-r---- -rw-r--r-. -r--r- （\"id:2.name²:Linus}. （p.PT.） （\"id\":3.name²:Grace°） users?linit-31j0. sort-kS-hr|head-n5 8.0Kutils/i0.py 6.1K tests/test_api.py 18k Lib/parser.py 12xapi/elient.py Conditionals user. Variables timit100 Functions ifresp.status_code200: Loops for Item in data: Data (JSoN）Primitive itens-[] def fetch（url,timeout-5): else: \"role\":'adnin\" \"16°:123, \"email:*adaexanple.con* resp·http.get（url,tineouttineout） return resp.json() raise Error(resp.text) ifiten[\"active\"]: itens.append（iten) (NOsr） son Response Format Endpoint Method Auth Token Timeout(s) 10 https://api.example.com/v1/users GET Bearer Token JSON 'actiw':troe, \"iit:100, upe,:olo, What would you like to build?.Stream large files.Validate emails Add type hints and deduplicatesrowsby asaJSONarray. Use csv.DictReader Sort by updated_at desc Write aPython function that parses a CSVfile, keeps themostrecent record byupdated_at, and returns theresult Requirements: Include a count summary email (case-insensitive), docstring\nOpcodes Shell Primitives Fields Open Language",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1824.64
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "8088 8010 ；x86-64:bytes 0018 80001 6604 0068 0018 0011 000c push mov sub mov mov pop ret 868606868686 554889E54883 488B75F05DC3 EC20488B7DF8 0x01 rbp,rsp rbp rsp,8x26 rsi,[rbp-0x10] rdi,[rbp-0x8] rbp sFind Python files>18 sfind.-typef-name*py-size·k $grep-RInTO0O1wc-1 sSho top5by size s1s-Uhs（find.-name'.py） 5curl-shttps://api.exanple.com/\\ sCount Tooos in those files 42 sFetch API andpretty-print -re-r--r-. -W-F--r-- -r-r---- -rw-r--r-. -r--r- （\"id:2.name²:Linus}. （p.PT.） （\"id\":3.name²:Grace°） users?linit-31j0. sort-kS-hr|head-n5 8.0Kutils/i0.py 6.1K tests/test_api.py 18k Lib/parser.py 12xapi/elient.py Conditionals user. Variables timit100 Functions ifresp.status_code200: Loops for Item in data: Data (JSoN）Primitive itens-[] def fetch（url,timeout-5): else: \"role\":'adnin\" \"16°:123, \"email:*adaexanple.con* resp·http.get（url,tineouttineout） return resp.json() raise Error(resp.text) ifiten[\"active\"]: itens.append（iten) (NOsr） son Response Format Endpoint Method Auth Token Timeout(s) 10 https://api.example.com/v1/users GET Bearer Token JSON 'actiw':troe, \"iit:100, upe,:olo, What would you like to build?.Stream large files.Validate emails Add type hints and deduplicatesrowsby asaJSONarray. Use csv.DictReader Sort by updated_at desc Write aPython function that parses a CSVfile, keeps themostrecent record byupdated_at, and returns theresult Requirements: Include a count summary email (case-insensitive), docstring\nOpcodes Shell Primitives Fields Open Language",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "diagram",
+      "reject_reason": "",
+      "text": "Tell me what matters.\nJUST A STRAW INTO THE OCEAN.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Short, highly legible conceptual slide; direct read is sufficient.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(180deg,#05060b,#0a1020)",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "PROMPT",
+            "x": 4.0,
+            "y": 47.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Tell me what matters.",
+            "x": 5.0,
+            "y": 53.0,
+            "w": 29.0,
+            "h": 12.0
+          },
+          {
+            "role": "caption",
+            "text": "JUST A STRAW INTO THE OCEAN.",
+            "x": 46.0,
+            "y": 84.0,
+            "w": 44.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668126.2412088,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Tell me what matters.\nJUST A STRAW INTO THE OCEAN.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Because it shouldn't need us to anymore.\nIt can ask a follow-up. It can clarify mid-thought.\nIt can notice it's missing something and say so.\nIt should be human conversational",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large readable quote slide; OCR is unnecessary.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(rgba(25,25,25,0.45), rgba(25,25,25,0.45)) over blurred photo",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Because it shouldn't need us to anymore.\nIt can ask a follow-up. It can clarify mid-thought.\nIt can notice it's missing something and say so.\nIt should be human conversational",
+            "x": 17.0,
+            "y": 25.0,
+            "w": 70.0,
+            "h": 35.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668305.585606,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Because it shouldn't need us to anymore.\nIt can ask a follow-up. It can clarify mid-thought.\nIt can notice it's missing something and say so.\nIt should be human conversational",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Batch Carried Forward\nLoom PunchCard Terminal Prompt\nLOOm 2 PUNCH CARD TERMINAL 4PROMPT\n2111161111135111366051113s1013151 0G Canno G OJOB payrOKL GSUBHIT Job 31245 subaitted Anatyze Q2 sakes by region S and sumnarize top drivers.: Mew Chst\nencode pattem. run batch > encode program, submit batch enter command, wait package intent, submit!\nENCODE / PACKAGE SUBMIT WaIt / PROCESS Output / result.\nNew intelligence, old protocol.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram with small labels and multiple panels; OCR will be more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(#05070d, #0a0f16)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Batch Carried Forward",
+            "x": 28.0,
+            "y": 3.0,
+            "w": 44.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Loom → Punch Card → Terminal → Prompt",
+            "x": 31.0,
+            "y": 11.0,
+            "w": 38.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "1 LOOM\nencode pattern, run batch",
+            "x": 3.0,
+            "y": 16.0,
+            "w": 21.0,
+            "h": 44.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2 PUNCH CARD\nencode program, submit batch",
+            "x": 26.0,
+            "y": 16.0,
+            "w": 21.0,
+            "h": 44.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "3 TERMINAL\nenter command, wait",
+            "x": 49.0,
+            "y": 16.0,
+            "w": 21.0,
+            "h": 44.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "4 PROMPT\npackage intent, submit",
+            "x": 72.0,
+            "y": 16.0,
+            "w": 21.0,
+            "h": 44.0
+          },
+          {
+            "role": "caption",
+            "text": "ENCODE / PACKAGE  SUBMIT  WAIT / PROCESS  OUTPUT / RESULT",
+            "x": 4.0,
+            "y": 74.0,
+            "w": 92.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668305.586734,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Batch Carried Forward",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Batch Carried Forward\nLoom PunchCard Terminal Prompt\nLOOm 2 PUNCH CARD TERMINAL 4PROMPT\n2111161111135111366051113s1013151 0G Canno G OJOB payrOKL GSUBHIT Job 31245 subaitted Anatyze Q2 sakes by region S and sumnarize top drivers.: Mew Chst\nencode pattem. run batch > encode program, submit batch enter command, wait package intent, submit!\nENCODE / PACKAGE SUBMIT WaIt / PROCESS Output / result.\nNew intelligence, old protocol.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 635.08
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Batch Carried Forward\nLoom PunchCard Terminal Prompt\nLOOm 2 PUNCH CARD TERMINAL 4PROMPT\n2111161111135111366051113s1013151 0G Canno G OJOB payrOKL GSUBHIT Job 31245 subaitted Anatyze Q2 sakes by region S and sumnarize top drivers.: Mew Chst\nencode pattem. run batch > encode program, submit batch enter command, wait package intent, submit!\nENCODE / PACKAGE SUBMIT WaIt / PROCESS Output / result.\nNew intelligence, old protocol.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Expressive growth\nhgh\nthe gap the thoss\nPunoh:cirds low Cormmandline GuImouse Touch LUMS\nExpressree ceding what you are nlowed to say\nChannelhowhebitspbysicalymove\nInletaction protocol Who holds the tloor",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart labels and legend are small; OCR should recover them better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(rgba(25,25,25,0.45), rgba(25,25,25,0.45)) over blurred photo",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Expressive growth",
+            "x": 32.0,
+            "y": 12.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "high\nlow\nPunch card\nCommand line\nGUI + mouse\nTouch\nLLMs\nthe gap\nthe thesis",
+            "x": 25.0,
+            "y": 20.0,
+            "w": 58.0,
+            "h": 56.0
+          },
+          {
+            "role": "caption",
+            "text": "expressive ceiling — what you are allowed to say\nchannel — how the bits physically move\ninteraction protocol — who holds the floor",
+            "x": 26.0,
+            "y": 79.0,
+            "w": 52.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668349.4329667,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Expressive growth",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Expressive growth\nhgh\nthe gap the thoss\nPunoh:cirds low Cormmandline GuImouse Touch LUMS\nExpressree ceding what you are nlowed to say\nChannelhowhebitspbysicalymove\nInletaction protocol Who holds the tloor",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 362.12
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Expressive growth\nhgh\nthe gap the thoss\nPunoh:cirds low Cormmandline GuImouse Touch LUMS\nExpressree ceding what you are nlowed to say\nChannelhowhebitspbysicalymove\nInletaction protocol Who holds the tloor",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Frontier Voice\n:tuguo 鲁\nYou 2:18 PM:\n8 When's the next Timberwolves game?\n: Fromtier Voice 2:18 PMi\nThe next Minnesota Tmberwolves game bs\nI (Eabanos-\nrdoez: no,\nHey. Ted, cane on'rt.\nFrontlor Yoico 2ig pM\nSure, I'm here! Whet's on youu mnd?\nMossoge Frontier Voico-.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot with small interface text; OCR is the safer capture path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white textured app screen",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Frontier Voice\nOnline",
+            "x": 28.0,
+            "y": 0,
+            "w": 28.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "When's the next\nTimberwolves game?",
+            "x": 52.0,
+            "y": 11.0,
+            "w": 22.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "The next Minnesota\nTimberwolves game is",
+            "x": 38.0,
+            "y": 20.0,
+            "w": 36.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "Hey, Ted, come on in.",
+            "x": 53.0,
+            "y": 34.0,
+            "w": 19.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Sure, I'm here! What's on your mind?",
+            "x": 39.0,
+            "y": 43.0,
+            "w": 34.0,
+            "h": 13.0
+          },
+          {
+            "role": "caption",
+            "text": "Message Frontier Voice...",
+            "x": 36.0,
+            "y": 84.0,
+            "w": 28.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668382.8703222,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Frontier Voice",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/opencv-adaptive",
+        "text": "Frontier Voice\n:tuguo 鲁\nYou 2:18 PM:\n8 When's the next Timberwolves game?\n: Fromtier Voice 2:18 PMi\nThe next Minnesota Tmberwolves game bs\nI (Eabanos-\nrdoez: no,\nHey. Ted, cane on'rt.\nFrontlor Yoico 2ig pM\nSure, I'm here! Whet's on youu mnd?\nMossoge Frontier Voico-.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 450.92
+      },
+      "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Frontier Voice\n:tuguo 鲁\nYou 2:18 PM:\n8 When's the next Timberwolves game?\n: Fromtier Voice 2:18 PMi\nThe next Minnesota Tmberwolves game bs\nI (Eabanos-\nrdoez: no,\nHey. Ted, cane on'rt.\nFrontlor Yoico 2ig pM\nSure, I'm here! Whet's on youu mnd?\nMossoge Frontier Voico-.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "TL;DR\n- OpenAI is reportedly testing an unannounced bidirectional voice model called “GPT-Bidi-1.”\n- Code references and early user tests show that the model can speak, hear, and listen simultaneously, handling mid-sentence interruptions naturally.\n- The unannounced model has already started rolling out to a select group of app users, hinting at an official release window this week.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light textured white with a black inset panel",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "TL;DR",
+            "x": 12.0,
+            "y": 20.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "OpenAI is reportedly testing an unannounced bidirectional voice model called “GPT-Bidi-1.”",
+            "x": 12.0,
+            "y": 31.0,
+            "w": 78.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Code references and early user tests show that the model can speak, hear, and listen simultaneously, handling mid-sentence interruptions naturally.",
+            "x": 12.0,
+            "y": 49.0,
+            "w": 82.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "The unannounced model has already started rolling out to a select group of app users, hinting at an official release window this week.",
+            "x": 12.0,
+            "y": 68.0,
+            "w": 82.0,
+            "h": 15.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668511.336269,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "TL;DR\n- OpenAI is reportedly testing an unannounced bidirectional voice model called “GPT-Bidi-1.”\n- Code references and early user tests show that the model can speak, hear, and listen simultaneously, handling mid-sentence interruptions naturally.\n- The unannounced model has already started rolling out to a select group of app users, hinting at an official release window this week.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Enriching PersonaPlex's output with non-verbal aspects creates an important qualitative\ndifference relative to systems without this dimension: PersonaPlex now recreates some of\nNVIDIA. the same cues humans use to read Intent, emotions, or comprehension.\nA Examples\nNVIdIa ADlR The following examples showcase PersonaPlex's behavior across different scenarios. in\nall audio files, you can hear the user speaking in the left channel and PersonaPlex in the\nright channel (shown in green).\nAssistant\n11 0:01 0:26\nengaging way. Prompt: You are a wise and friendly teacher. Answer questions or provide advice in a clear and\nIn this example from FullDuplexBench's Interruption evaluation, PersonaPlex\ndemonstrates general knowledge, interrupterability, and natural turn taking.\nCustomer Service - Banking\n0:00 stilif- 0:55\nInformation: The customer's transactlon for S1,200 at Home Depot was declined. Verify Prompt: You work for First Ncuron Bank which is a bank and your name is Ssnni Virtanen.\ncustomer identity. The transaction was ffagged due to an unusual location (transaction attempted in Miami, FL: customer normally transacts in Seattle, WA).",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense paragraph text and small embedded examples are better suited to OCR than manual transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "NVIDIA AI",
+            "x": 4.0,
+            "y": 7.0,
+            "w": 16.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Enriching PersonaPlex’s output with non-verbal aspects creates an important qualitative difference relative to systems without this dimension: PersonaPlex now recreates some of the same cues humans use to read intent, emotions, or comprehension.",
+            "x": 24.0,
+            "y": 3.0,
+            "w": 67.0,
+            "h": 14.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Examples",
+            "x": 24.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "The following examples showcase PersonaPlex’s behavior across different scenarios. In all audio files, you can hear the user speaking in the left channel and PersonaPlex in the right channel (shown in green).",
+            "x": 24.0,
+            "y": 30.0,
+            "w": 68.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1 Assistant",
+            "x": 24.0,
+            "y": 42.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "2 Customer Service - Banking",
+            "x": 24.0,
+            "y": 65.0,
+            "w": 26.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-014.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668511.3371727,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Examples",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Enriching PersonaPlex's output with non-verbal aspects creates an important qualitative\ndifference relative to systems without this dimension: PersonaPlex now recreates some of\nNVIDIA. the same cues humans use to read Intent, emotions, or comprehension.\nA Examples\nNVIdIa ADlR The following examples showcase PersonaPlex's behavior across different scenarios. in\nall audio files, you can hear the user speaking in the left channel and PersonaPlex in the\nright channel (shown in green).\nAssistant\n11 0:01 0:26\nengaging way. Prompt: You are a wise and friendly teacher. Answer questions or provide advice in a clear and\nIn this example from FullDuplexBench's Interruption evaluation, PersonaPlex\ndemonstrates general knowledge, interrupterability, and natural turn taking.\nCustomer Service - Banking\n0:00 stilif- 0:55\nInformation: The customer's transactlon for S1,200 at Home Depot was declined. Verify Prompt: You work for First Ncuron Bank which is a bank and your name is Ssnni Virtanen.\ncustomer identity. The transaction was ffagged due to an unusual location (transaction attempted in Miami, FL: customer normally transacts in Seattle, WA).",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1581.52
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Enriching PersonaPlex's output with non-verbal aspects creates an important qualitative\ndifference relative to systems without this dimension: PersonaPlex now recreates some of\nNVIDIA. the same cues humans use to read Intent, emotions, or comprehension.\nA Examples\nNVIdIa ADlR The following examples showcase PersonaPlex's behavior across different scenarios. in\nall audio files, you can hear the user speaking in the left channel and PersonaPlex in the\nright channel (shown in green).\nAssistant\n11 0:01 0:26\nengaging way. Prompt: You are a wise and friendly teacher. Answer questions or provide advice in a clear and\nIn this example from FullDuplexBench's Interruption evaluation, PersonaPlex\ndemonstrates general knowledge, interrupterability, and natural turn taking.\nCustomer Service - Banking\n0:00 stilif- 0:55\nInformation: The customer's transactlon for S1,200 at Home Depot was declined. Verify Prompt: You work for First Ncuron Bank which is a bank and your name is Ssnni Virtanen.\ncustomer identity. The transaction was ffagged due to an unusual location (transaction attempted in Miami, FL: customer normally transacts in Seattle, WA).",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Conversation is more than turn-taking\nWhatreal-time conversational Al has to understand\n1.PARTICIPANTS 2.FLOW\nmm-hm\nWhoishere Who isspeaking Turn-taking Backchannels\nWhoislistening 3.MEANING Who isbeing addressed repair+social understanding Natural conversation= timing+context+ Interruptions&repair 4.ACTION Overlap Timing\n口\nAttention Thread tracking\nGrounding Shared context 800 intentions Beliefs/ commitments Decisions/ Whento speak vswait",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with many small labels and multi-panel structure is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with neon green accents",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Conversation is more than turn-taking",
+            "x": 14.0,
+            "y": 1.0,
+            "w": 72.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What real-time conversational AI has to understand",
+            "x": 30.0,
+            "y": 10.0,
+            "w": 40.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "1. PARTICIPANTS",
+            "x": 8.0,
+            "y": 17.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2. FLOW",
+            "x": 68.0,
+            "y": 17.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "3. MEANING",
+            "x": 8.0,
+            "y": 51.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "4. ACTION",
+            "x": 68.0,
+            "y": 51.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Natural conversation = timing + context + repair + social understanding",
+            "x": 37.0,
+            "y": 36.0,
+            "w": 26.0,
+            "h": 16.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-015.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668544.1516693,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Conversation is more than turn-taking\nWhatreal-time conversational Al has to understand\n1.PARTICIPANTS 2.FLOW\nmm-hm\nWhoishere Who isspeaking Turn-taking Backchannels\nWhoislistening 3.MEANING Who isbeing addressed repair+social understanding Natural conversation= timing+context+ Interruptions&repair 4.ACTION Overlap Timing\n口\nAttention Thread tracking\nGrounding Shared context 800 intentions Beliefs/ commitments Decisions/ Whento speak vswait",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 591.88
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Conversation is more than turn-taking\nWhatreal-time conversational Al has to understand\n1.PARTICIPANTS 2.FLOW\nmm-hm\nWhoishere Who isspeaking Turn-taking Backchannels\nWhoislistening 3.MEANING Who isbeing addressed repair+social understanding Natural conversation= timing+context+ Interruptions&repair 4.ACTION Overlap Timing\n口\nAttention Thread tracking\nGrounding Shared context 800 intentions Beliefs/ commitments Decisions/ Whento speak vswait",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "O Produet roqurements revlew 1 Pauta (URaply)\nListening\nSzhuhold euea. Prodvs - Lesd. Sem Broretrg Jordan chooerg rot to sp\nFT\nTAternoon, Sam. H Jorden.\nIt joins like a teammate - and starts by listening.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshot with many small labels is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark navy",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Product requirements review · live",
+            "x": 2.0,
+            "y": 2.0,
+            "w": 34.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Dana",
+            "x": 11.0,
+            "y": 9.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Sam",
+            "x": 31.0,
+            "y": 9.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Jordan",
+            "x": 50.0,
+            "y": 9.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Listening",
+            "x": 63.0,
+            "y": 9.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "choosing not to speak",
+            "x": 64.0,
+            "y": 15.0,
+            "w": 16.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-016.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668557.2191107,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "O Produet roqurements revlew 1 Pauta (URaply)\nListening\nSzhuhold euea. Prodvs - Lesd. Sem Broretrg Jordan chooerg rot to sp\nFT\nTAternoon, Sam. H Jorden.\nIt joins like a teammate - and starts by listening.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 339.08
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "O Produet roqurements revlew 1 Pauta (URaply)\nListening\nSzhuhold euea. Prodvs - Lesd. Sem Broretrg Jordan chooerg rot to sp\nFT\nTAternoon, Sam. H Jorden.\nIt joins like a teammate - and starts by listening.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Productrequlrementsrevlewe IPsuse UReplzy\nAI\nPresenting\nSskeholoer Dana Product-Leod Sem Eogineering Jordan Suggested clarification\nQSHAREDBYAI Finance Controls Policy v3 Expense approvals exceeding S5,oo require second-level authorization-the reporting manager and a Finance spprover. 54.2-Approvalthresbods doaypwatoay COALS Hod\nO-wnichrequirement is this? REQ-142-expensacrvls\nWhat kind of requests, though? Resove approval scope\nDara Expense approvalsfirst.Accessrequests eventually. asdwey\nAl,hold that. Sam\nSam Actually-let'spause.Expense approvals,orageneral approvalworkfiow?\nDana Expense approvals.Flrstrelease.\nSam Access requests are future scope.\nJordin That changos the data model.Good toknow.\nAl,pull that up for everyone. Sam\nOh-Idforgotten thatwasarule. Sorduas Pulling up the source -- so the room sees it too.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshot with small embedded text is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark navy",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Product requirements review · live",
+            "x": 2.0,
+            "y": 2.0,
+            "w": 34.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Dana",
+            "x": 11.0,
+            "y": 9.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Sam",
+            "x": 31.0,
+            "y": 9.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Jordan",
+            "x": 50.0,
+            "y": 9.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Presenting",
+            "x": 63.0,
+            "y": 9.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Finance Controls Policy v3",
+            "x": 3.0,
+            "y": 27.0,
+            "w": 28.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-017.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668567.7007308,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Productrequlrementsrevlewe IPsuse UReplzy\nAI\nPresenting\nSskeholoer Dana Product-Leod Sem Eogineering Jordan Suggested clarification\nQSHAREDBYAI Finance Controls Policy v3 Expense approvals exceeding S5,oo require second-level authorization-the reporting manager and a Finance spprover. 54.2-Approvalthresbods doaypwatoay COALS Hod\nO-wnichrequirement is this? REQ-142-expensacrvls\nWhat kind of requests, though? Resove approval scope\nDara Expense approvalsfirst.Accessrequests eventually. asdwey\nAl,hold that. Sam\nSam Actually-let'spause.Expense approvals,orageneral approvalworkfiow?\nDana Expense approvals.Flrstrelease.\nSam Access requests are future scope.\nJordin That changos the data model.Good toknow.\nAl,pull that up for everyone. Sam\nOh-Idforgotten thatwasarule. Sorduas Pulling up the source -- so the room sees it too.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1034.92
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Productrequlrementsrevlewe IPsuse UReplzy\nAI\nPresenting\nSskeholoer Dana Product-Leod Sem Eogineering Jordan Suggested clarification\nQSHAREDBYAI Finance Controls Policy v3 Expense approvals exceeding S5,oo require second-level authorization-the reporting manager and a Finance spprover. 54.2-Approvalthresbods doaypwatoay COALS Hod\nO-wnichrequirement is this? REQ-142-expensacrvls\nWhat kind of requests, though? Resove approval scope\nDara Expense approvalsfirst.Accessrequests eventually. asdwey\nAl,hold that. Sam\nSam Actually-let'spause.Expense approvals,orageneral approvalworkfiow?\nDana Expense approvals.Flrstrelease.\nSam Access requests are future scope.\nJordin That changos the data model.Good toknow.\nAl,pull that up for everyone. Sam\nOh-Idforgotten thatwasarule. Sorduas Pulling up the source -- so the room sees it too.",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshot with multiple small text regions is OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark navy",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Product requirements review · live",
+            "x": 2.0,
+            "y": 2.0,
+            "w": 34.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Dana",
+            "x": 11.0,
+            "y": 9.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Sam",
+            "x": 31.0,
+            "y": 9.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Jordan",
+            "x": 50.0,
+            "y": 9.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Speaking",
+            "x": 63.0,
+            "y": 9.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Clarification resolved",
+            "x": 64.0,
+            "y": 30.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "GOALS",
+            "x": 64.0,
+            "y": 43.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "REQUIREMENT",
+            "x": 64.0,
+            "y": 72.0,
+            "w": 16.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-018.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668589.3495216,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/contrast",
+        "best_score": 1644.23,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0023
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Product requlrements revlew Il Pause UReply\nCHAT\nSuskeholoer Dana Product-Lead Sem Eogineening Jordan SAM What'sour currentmedanappxoval time? 23days median right now,the targetis same-day. A\nRight-over the imit it routes to a second approver. Sam ogreg re.h'sfine DAV\nAgreed.Under five,one tap's fine. Dana GOALS\nSam Worksforme. Okay -— agreed, Expense approvals, five-thousand threshold. Jerztsrs agree Expense spprovals-firstrelesse Resove opprovalsoope Qi-Wnichrequremene is thia? REQ-142pnp\nSam Al,capture that for us. Dana Actually-make the threshold ten thousand,not five. cAChive REQ-142 Answered-aised to$10.0o0[Samconfrmed) Q-ls theS5,oo0threshold stie curreet？ 000\nSam Yes. Want me toupdate the requirement to a ten-thousand threshold? A CUEIS frcanofication.Expens0sovers10,000rouAetosecond-leve approvalper Firstrelesse:managers can approve crreject pending erpense requests drectly requests are explicity outofscope. Approve /reject exponserequests from a notification\nAl-is thisroom free after the meeting? Let me check-the room looks free after this,but- A Jordan ODxpnsos oevS1o,o00requiresecond-fnwlapproval (manigirFinance) EmployeeIsnodfied of the declslon Decision is recorded in audt history OManagerreceves anodfication forapendng expense OManager canapprove crejectfromtenotilcation ACCEPTANCECRITERIA\nSam Until three? It updates the spec -- live. Spts",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product UI screenshot with small multi-column text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "dark navy gradient",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Product requirements review · live",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "CHAT",
+            "x": 61.0,
+            "y": 8.0,
+            "w": 6.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "GOALS",
+            "x": 63.0,
+            "y": 39.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "REQ-142",
+            "x": 61.0,
+            "y": 66.0,
+            "w": 8.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-019.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668680.352674,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Product requirements review · live",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Product requlrements revlew Il Pause UReply\nCHAT\nSuskeholoer Dana Product-Lead Sem Eogineening Jordan SAM What'sour currentmedanappxoval time? 23days median right now,the targetis same-day. A\nRight-over the imit it routes to a second approver. Sam ogreg re.h'sfine DAV\nAgreed.Under five,one tap's fine. Dana GOALS\nSam Worksforme. Okay -— agreed, Expense approvals, five-thousand threshold. Jerztsrs agree Expense spprovals-firstrelesse Resove opprovalsoope Qi-Wnichrequremene is thia? REQ-142pnp\nSam Al,capture that for us. Dana Actually-make the threshold ten thousand,not five. cAChive REQ-142 Answered-aised to$10.0o0[Samconfrmed) Q-ls theS5,oo0threshold stie curreet？ 000\nSam Yes. Want me toupdate the requirement to a ten-thousand threshold? A CUEIS frcanofication.Expens0sovers10,000rouAetosecond-leve approvalper Firstrelesse:managers can approve crreject pending erpense requests drectly requests are explicity outofscope. Approve /reject exponserequests from a notification\nAl-is thisroom free after the meeting? Let me check-the room looks free after this,but- A Jordan ODxpnsos oevS1o,o00requiresecond-fnwlapproval (manigirFinance) EmployeeIsnodfied of the declslon Decision is recorded in audt history OManagerreceves anodfication forapendng expense OManager canapprove crejectfromtenotilcation ACCEPTANCECRITERIA\nSam Until three? It updates the spec -- live. Spts",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1703.86
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Product requlrements revlew Il Pause UReply\nCHAT\nSuskeholoer Dana Product-Lead Sem Eogineening Jordan SAM What'sour currentmedanappxoval time? 23days median right now,the targetis same-day. A\nRight-over the imit it routes to a second approver. Sam ogreg re.h'sfine DAV\nAgreed.Under five,one tap's fine. Dana GOALS\nSam Worksforme. Okay -— agreed, Expense approvals, five-thousand threshold. Jerztsrs agree Expense spprovals-firstrelesse Resove opprovalsoope Qi-Wnichrequremene is thia? REQ-142pnp\nSam Al,capture that for us. Dana Actually-make the threshold ten thousand,not five. cAChive REQ-142 Answered-aised to$10.0o0[Samconfrmed) Q-ls theS5,oo0threshold stie curreet？ 000\nSam Yes. Want me toupdate the requirement to a ten-thousand threshold? A CUEIS frcanofication.Expens0sovers10,000rouAetosecond-leve approvalper Firstrelesse:managers can approve crreject pending erpense requests drectly requests are explicity outofscope. Approve /reject exponserequests from a notification\nAl-is thisroom free after the meeting? Let me check-the room looks free after this,but- A Jordan ODxpnsos oevS1o,o00requiresecond-fnwlapproval (manigirFinance) EmployeeIsnodfied of the declslon Decision is recorded in audt history OManagerreceves anodfication forapendng expense OManager canapprove crejectfromtenotilcation ACCEPTANCECRITERIA\nSam Until three? It updates the spec -- live. Spts",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Loops, Prompts, Agents...\nuseful patterns — but still constraining the interface\nLoops: predefined flow; hard-coded steps\nPrompts: manual context; submit + repair\nAgents: delegated tasks; still shaped by old affordances\nDesign for what is possible, not just what old interfaces allow.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large readable slide; direct reading is sufficient.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "near-black gradient",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Loops, Prompts, Agents...",
+            "x": 22.0,
+            "y": 3.0,
+            "w": 43.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "useful patterns — but still constraining the interface",
+            "x": 26.0,
+            "y": 12.0,
+            "w": 48.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "TODAY: CONSTRAINED PATTERNS",
+            "x": 14.0,
+            "y": 18.0,
+            "w": 35.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LOOPS",
+            "x": 6.0,
+            "y": 27.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "PROMPTS",
+            "x": 25.0,
+            "y": 27.0,
+            "w": 13.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AGENTS",
+            "x": 43.0,
+            "y": 27.0,
+            "w": 13.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "BEYOND THE CONSTRAINT",
+            "x": 60.0,
+            "y": 18.0,
+            "w": 32.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Design for what is possible, not just what old interfaces allow.",
+            "x": 23.0,
+            "y": 88.0,
+            "w": 54.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-020.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668794.086289,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Loops, Prompts, Agents...\nuseful patterns — but still constraining the interface\nLoops: predefined flow; hard-coded steps\nPrompts: manual context; submit + repair\nAgents: delegated tasks; still shaped by old affordances\nDesign for what is possible, not just what old interfaces allow.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/hVJOnuhFmTA/slide-020.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker closeup, no presentation slide content visible.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "blurred indoor bokeh",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668092.621316,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.95,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker shot with overlay text, not a standalone slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "blurred indoor bokeh",
+        "style": "other",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "The channel",
+            "x": 58.0,
+            "y": 14.0,
+            "w": 38.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "The Expression",
+            "x": 58.0,
+            "y": 28.0,
+            "w": 38.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668092.6217153,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Speaker closeup with one-word overlay, not a standalone slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "blurred indoor bokeh",
+        "style": "other",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "Protocol",
+            "x": 62.0,
+            "y": 79.0,
+            "w": 26.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668126.2416418,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.94,
+      "frame_type": "demo_video",
+      "reject_reason": "Camera shot of a monitor during a demo, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "office interior",
+        "style": "product",
+        "blocks": []
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668126.241963,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Video footage of a person at a desk, not a presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide frame.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "office photo",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668382.868961,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.96,
+      "frame_type": "demo_video",
+      "reject_reason": "Blurred app/demo footage with only a tiny header, not a readable slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide frame.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark blurred UI screenshot",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668382.8696647,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker close-up, not a slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a presentation slide.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "blurred indoor hallway",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-021.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668794.0903497,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker close-up, not a slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a presentation slide.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "blurred indoor hallway",
+        "style": "light",
+        "blocks": []
+      },
+      "image_index": 4,
+      "filename": "slide-022.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/hVJOnuhFmTA/slide-022.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783668794.0909274,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

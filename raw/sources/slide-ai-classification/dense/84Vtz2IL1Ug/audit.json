@@ -1,0 +1,177 @@
+{
+  "video_id": "84Vtz2IL1Ug",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 2,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "LLaMA: Open and Efficient Foundation Language Models",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense paper screenshot with small multi-column text; OCR will capture details more reliably than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "February, 2023: ... and Llama wins, almost",
+            "x": 18.0,
+            "y": 0,
+            "w": 64.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "LLaMA: Open and Efficient Foundation Language Models",
+            "x": 25.0,
+            "y": 15.0,
+            "w": 50.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Meta AI",
+            "x": 46.0,
+            "y": 34.0,
+            "w": 8.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/84Vtz2IL1Ug/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658859.6723185,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "LLaMA: Open and Efficient Foundation Language Models",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/84Vtz2IL1Ug/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Alpaca: A Strong, Replicable Instruction-Following Model",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense paper-style slide with small body text and embedded screenshot/logo elements; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "March, 2023: The first distillation success",
+            "x": 28.0,
+            "y": 0,
+            "w": 44.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "Alpaca: A Strong, Replicable Instruction-Following Model",
+            "x": 28.0,
+            "y": 12.0,
+            "w": 44.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "Stanford Alpaca",
+            "x": 27.0,
+            "y": 55.0,
+            "w": 31.0,
+            "h": 12.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Overview",
+            "x": 18.0,
+            "y": 86.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/84Vtz2IL1Ug/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658859.6730275,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Alpaca: A Strong, Replicable Instruction-Following Model",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/84Vtz2IL1Ug/slide-002.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage photo with speaker and projected slide; not a standalone readable slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a standalone slide frame; contains speaker-stage composition rather than a readable slide.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/84Vtz2IL1Ug/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658859.673644,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

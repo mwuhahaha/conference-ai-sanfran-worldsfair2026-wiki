@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "code + writeup",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple closing/title slide with a large readable title; OCR is unnecessary for the main text.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f6f3eb",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "code + writeup",
+        "x": 4.0,
+        "y": 6.0,
+        "w": 34.0,
+        "h": 12.0
+      },
+      {
+        "role": "logo",
+        "text": "",
+        "x": 33.0,
+        "y": 21.0,
+        "w": 31.0,
+        "h": 49.0
+      },
+      {
+        "role": "caption",
+        "text": "Thanks — now go chronicle your agent..... -The Chronicle team",
+        "x": 63.0,
+        "y": 85.0,
+        "w": 31.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/Lc8zRh9muoY/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662132.1669784,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "code + writeup",
+  "advanced_ocr": {}
+}

@@ -3,71 +3,50 @@
   "confidence": 0.98,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "My OS didn't start from zero\n\n- Years of notes — every video and course I've made, all moved into Obsidian\n- Meeting recaps I save after every call -> Obsidian\n- Highlights from posts, tweets, and articles -> Obsidian\n- Even my agent skills -> Obsidian",
+  "text": "My OS didn't start from zero\nYears of notes — every video and course I've made, all moved into Obsidian\nMeeting recaps I save after every call -> Obsidian\nHighlights from posts, tweets, and articles -> Obsidian\nEven my agent skills -> Obsidian",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
   "layout": {
-    "background": "white",
+    "background": "#ffffff",
     "style": "light",
     "blocks": [
       {
         "role": "title",
         "text": "My OS didn't start from zero",
-        "x": 33.0,
-        "y": 10.0,
-        "w": 41.0,
-        "h": 9.0
+        "x": 32.0,
+        "y": 7.0,
+        "w": 43.0,
+        "h": 10.0
       },
       {
         "role": "body",
-        "text": "Years of notes — every video and course I've made, all moved into Obsidian",
-        "x": 36.0,
+        "text": "– Years of notes — every video and course I've made, all moved into Obsidian\n– Meeting recaps I save after every call -> Obsidian\n– Highlights from posts, tweets, and articles -> Obsidian\n– Even my agent skills -> Obsidian",
+        "x": 32.0,
         "y": 22.0,
-        "w": 46.0,
-        "h": 5.0
+        "w": 56.0,
+        "h": 38.0
       },
       {
-        "role": "body",
-        "text": "Meeting recaps I save after every call -> Obsidian",
-        "x": 36.0,
-        "y": 30.0,
-        "w": 41.0,
-        "h": 5.0
-      },
-      {
-        "role": "body",
-        "text": "Highlights from posts, tweets, and articles -> Obsidian",
-        "x": 36.0,
-        "y": 38.0,
-        "w": 44.0,
-        "h": 5.0
-      },
-      {
-        "role": "body",
-        "text": "Even my agent skills -> Obsidian",
-        "x": 36.0,
-        "y": 46.0,
-        "w": 30.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "archive\nLouis's skills\nPersonal\nprofessional\nmeetings\nMeetings & Events\nTowards AI\nVideo & Writing\nProfessional\nworking-dir\nTodo Personal\nTodo Professional",
-        "x": 83.0,
-        "y": 26.0,
-        "w": 15.0,
-        "h": 44.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "TOWARDS AI",
-        "x": 8.0,
-        "y": 49.0,
+        "role": "caption",
+        "text": "Obsidian",
+        "x": 79.0,
+        "y": 21.0,
         "w": 18.0,
-        "h": 6.0
+        "h": 41.0
       }
     ]
   },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
   "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-004.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783628772.4150634
+  "classified_at_epoch": 1783665605.9600916,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "My OS didn't start from zero\nYears of notes — every video and course I've made, all moved into Obsidian\nMeeting recaps I save after every call -> Obsidian\nHighlights from posts, tweets, and articles -> Obsidian\nEven my agent skills -> Obsidian",
+  "advanced_ocr": {}
 }

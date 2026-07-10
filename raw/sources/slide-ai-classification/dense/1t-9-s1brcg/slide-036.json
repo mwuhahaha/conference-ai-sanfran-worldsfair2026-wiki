@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Hybrid retrieval with semantic ranking outperforms vector-only search",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "beige",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Hybrid retrieval with semantic ranking outperforms vector-only search",
+        "x": 17.0,
+        "y": 9.0,
+        "w": 52.0,
+        "h": 16.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Percent of Queries",
+        "x": 7.0,
+        "y": 38.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Number of Results",
+        "x": 40.0,
+        "y": 82.0,
+        "w": 18.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-036.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-036.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658688.1855605,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Hybrid retrieval with semantic ranking outperforms vector-only search",
+  "advanced_ocr": {}
+}

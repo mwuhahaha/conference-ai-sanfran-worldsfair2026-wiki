@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "The Future Is Domain-Specific Agents",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large simple title slide; OCR not needed",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "warm sunset gradient over ocean",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Future Is Domain-Specific Agents",
+        "x": 17.0,
+        "y": 5.0,
+        "w": 66.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "X @jpschroeder",
+        "x": 5.0,
+        "y": 83.0,
+        "w": 14.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/spNAUEgq_A8/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671933.1760912,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Future Is Domain-Specific Agents",
+  "advanced_ocr": {}
+}

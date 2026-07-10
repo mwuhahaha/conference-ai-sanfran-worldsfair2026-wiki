@@ -1,0 +1,767 @@
+{
+  "video_id": "I2cbIws9j10",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 11,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart labels and callout text are dense.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "cream with dark left panel",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AI Engineer\nWorld's Fair\nPresented by\nMicrosoft",
+            "x": 0,
+            "y": 0,
+            "w": 28.0,
+            "h": 100
+          },
+          {
+            "role": "title",
+            "text": "Choosing a model: quality dominates",
+            "x": 28.0,
+            "y": 4.0,
+            "w": 58.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "What are your top 3 considerations for choosing a model for production?",
+            "x": 28.0,
+            "y": 16.0,
+            "w": 48.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Accuracy and output quality are far and away the top consideration.\nOnly 5% think of open-weight as a primary consideration.",
+            "x": 79.0,
+            "y": 23.0,
+            "w": 20.0,
+            "h": 28.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Accuracy / quality 67\nAgentic capabilities (like tool-calling) 53\nCost 53\nOpen weights 5\nOther 1",
+            "x": 38.0,
+            "y": 22.0,
+            "w": 36.0,
+            "h": 44.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659795.413587,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/I2cbIws9j10/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture diagram and small labels are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white and light gray",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "AWS Glue ETL jobs\nAmazon EventBridge\nCloudWatch Logs\nAWS Lambda\nGlue Data Catalog\nAI Agent (Decide + Act)\nAmazon S3",
+            "x": 3.0,
+            "y": 5.0,
+            "w": 54.0,
+            "h": 54.0
+          },
+          {
+            "role": "title",
+            "text": "An End-to-End RL Pipeline Health Agent for Anomaly Detection and Autonomous Self-Healing of Cloud Data Pipelines",
+            "x": 61.0,
+            "y": 8.0,
+            "w": 35.0,
+            "h": 45.0
+          },
+          {
+            "role": "title",
+            "text": "The Solution",
+            "x": 4.0,
+            "y": 66.0,
+            "w": 25.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Monitor → Diagnose → Score → Decide → Safety → Act → Validate",
+            "x": 42.0,
+            "y": 66.0,
+            "w": 53.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "NOTE GENERALIZED PUBLIC REFERENCE ARCHITECTURE",
+            "x": 25.0,
+            "y": 60.0,
+            "w": 50.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659795.4145138,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/I2cbIws9j10/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Intelligence Layer",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Stacked diagram labels are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "pale gray with faint binary pattern",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "Deterministic Anomaly Rules\nSchema drift, null spikes, field removals, type changes",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 52.0,
+            "h": 27.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Q-Learning Decision Policy\nRetry, coerce schema, rollback, quarantine, escalate, log",
+            "x": 4.0,
+            "y": 35.0,
+            "w": 52.0,
+            "h": 27.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Safety Override\nCritical anomaly + passive action → escalate",
+            "x": 4.0,
+            "y": 66.0,
+            "w": 52.0,
+            "h": 22.0
+          },
+          {
+            "role": "title",
+            "text": "The Intelligence Layer",
+            "x": 62.0,
+            "y": 58.0,
+            "w": 34.0,
+            "h": 30.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659795.4152505,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Intelligence Layer",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/I2cbIws9j10/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "RL Selects the Response, Not the Facts\nState:\n1. Failure category\n2. Risk level\n3. Retry count\n4. Drift severity\n5. Data-quality condition\nAction:\nretry • coerce • rollback • quarantine • escalate • log\n1. Tabular Q-learning\n2. Small, interpretable state space\n3. Low-memory inference\n4. Inspectable Q-values for every decision",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "soft gray",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "RL Selects the Response, Not the Facts",
+            "x": 12.0,
+            "y": 0,
+            "w": 76.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "State:\n1. Failure category\n2. Risk level\n3. Retry count\n4. Drift severity\n5. Data-quality condition",
+            "x": 5.0,
+            "y": 18.0,
+            "w": 35.0,
+            "h": 42.0
+          },
+          {
+            "role": "body",
+            "text": "retry • coerce • rollback • quarantine • escalate • log",
+            "x": 42.0,
+            "y": 18.0,
+            "w": 56.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1. Tabular Q-learning\n2. Small, interpretable state space\n3. Low-memory inference\n4. Inspectable Q-values for every decision",
+            "x": 47.0,
+            "y": 41.0,
+            "w": 48.0,
+            "h": 30.0
+          },
+          {
+            "role": "caption",
+            "text": "TECHNICALLY, THIS IS A SINGLE-STEP CONTEXTUAL DECISION PROBLEM IMPLEMENTED WITH TABULAR Q-LEARNING.",
+            "x": 10.0,
+            "y": 92.0,
+            "w": 80.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659795.42527,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "RL Selects the Response, Not the Facts\nState:\n1. Failure category\n2. Risk level\n3. Retry count\n4. Drift severity\n5. Data-quality condition\nAction:\nretry • coerce • rollback • quarantine • escalate • log\n1. Tabular Q-learning\n2. Small, interpretable state space\n3. Low-memory inference\n4. Inspectable Q-values for every decision",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/I2cbIws9j10/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "(problems) One conversation has to do everything\nMeaning:\nthe context window becomes\n- the database,\n- the file system,\n- the memory,\n- the reasoning space",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "(problems) One conversation has to do everything",
+            "x": 2.0,
+            "y": 3.0,
+            "w": 90.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Meaning:\nthe context window becomes\n- the database,\n- the file system,\n- the memory,\n- the reasoning space",
+            "x": 9.0,
+            "y": 20.0,
+            "w": 44.0,
+            "h": 48.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659795.4268413,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "(problems) One conversation has to do everything\nMeaning:\nthe context window becomes\n- the database,\n- the file system,\n- the memory,\n- the reasoning space",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/I2cbIws9j10/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Track narrative state, not numbers",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Browser screenshot with several small labels and footer text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "blue desktop with cream browser pane",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Track narrative state, not numbers",
+            "x": 8.0,
+            "y": 9.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "THE PATH THAT SURPRISED ME",
+            "x": 9.0,
+            "y": 7.0,
+            "w": 24.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "IMPERFECT NPC MEMORY",
+            "x": 9.0,
+            "y": 25.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "WORLD MOOD",
+            "x": 53.0,
+            "y": 25.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "THREADS",
+            "x": 9.0,
+            "y": 38.0,
+            "w": 24.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "ATTITUDE INFERENCE",
+            "x": 53.0,
+            "y": 38.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Don't track HP and dice - an LLM is bad at that. Track what it's great at.",
+            "x": 9.0,
+            "y": 86.0,
+            "w": 52.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659795.42741,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Track narrative state, not numbers",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/I2cbIws9j10/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Narrated on the fly · rendered to paper",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Screenshot text and small captions are OCR-suitable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light browser screenshot",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Narrated on the fly · rendered to paper",
+            "x": 8.0,
+            "y": 14.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "LLM-NATIVE APPS · GENERATE ART ON E-PAPER",
+            "x": 8.0,
+            "y": 8.0,
+            "w": 36.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Each scene a prompt → Pollinations.ai + Floyd-Steinberg dither → 1-bit packed for the 800x480 panel.",
+            "x": 8.0,
+            "y": 88.0,
+            "w": 58.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659795.4386988,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Narrated on the fly · rendered to paper",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/I2cbIws9j10/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Your context window has a hidden RAM bill",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense slide with chart and small body text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with dark blurred stage edges",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Your context window has a hidden RAM bill",
+            "x": 12.0,
+            "y": 16.0,
+            "w": 53.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 12.0,
+            "y": 30.0,
+            "w": 35.0,
+            "h": 36.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "1 GB\n5 GB\n11 GB\n21 GB\n42 GB",
+            "x": 63.0,
+            "y": 31.0,
+            "w": 27.0,
+            "h": 32.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "4k\n16K\n32K\n64K\n128K",
+            "x": 64.0,
+            "y": 64.0,
+            "w": 28.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659907.8003542,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Your context window has a hidden RAM bill",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/I2cbIws9j10/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What is TurboQuant",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram-heavy slide with small explanatory text.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "white with dark blurred stage edges",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What is TurboQuant",
+            "x": 12.0,
+            "y": 15.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "A compression algorithm that stores embeddings and the KV cache in 3 to 4 bits instead of 32, with no training. It works in two stages:",
+            "x": 12.0,
+            "y": 23.0,
+            "w": 78.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "32-bit\n(r, theta)\n~4-bit",
+            "x": 29.0,
+            "y": 41.0,
+            "w": 42.0,
+            "h": 22.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Stage 1 - PolarQuant\nStage 2 - QJ + 1 bit",
+            "x": 28.0,
+            "y": 62.0,
+            "w": 40.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659907.803154,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What is TurboQuant",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/I2cbIws9j10/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "what people think the agent is\nmodel\nruntime / sandbox\ntools\nloop\nframework",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "blue and teal blurred stage background around white slide",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "what people think the agent is",
+            "x": 14.0,
+            "y": 12.0,
+            "w": 46.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "model\nruntime / sandbox\ntools\nloop\nframework",
+            "x": 15.0,
+            "y": 24.0,
+            "w": 30.0,
+            "h": 36.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659907.804288,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "what people think the agent is\nmodel\nruntime / sandbox\ntools\nloop\nframework",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/I2cbIws9j10/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Simplified Loop",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code slide with multiple lines and small text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white slide on dark stage background",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Simplified Loop",
+            "x": 12.0,
+            "y": 9.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 25.0,
+            "y": 22.0,
+            "w": 50.0,
+            "h": 52.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659907.8065581,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Simplified Loop",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/I2cbIws9j10/slide-012.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker intro card",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "white",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Hi, I'm Louis-François",
+            "x": 33.0,
+            "y": 10.0,
+            "w": 44.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "Co-founder & CTO @ Towards AI\n\"What's AI\" on YouTube · author of Building LLMs for Production\nPreviously PhD @ Mila\nBuild courses, videos, and trainings for a living",
+            "x": 33.0,
+            "y": 30.0,
+            "w": 55.0,
+            "h": 35.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/I2cbIws9j10/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659795.4262297,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

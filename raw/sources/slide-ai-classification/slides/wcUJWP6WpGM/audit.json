@@ -1,0 +1,422 @@
+{
+  "video_id": "wcUJWP6WpGM",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 5,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "SWE-rebench: Lessons from Evaluating Coding Agents on Real Software Engineering Tasks",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "dark auditorium with off-white projection screen",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "NEBIUS",
+            "x": 74.0,
+            "y": 5.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "SWE-rebench: Lessons from Evaluating Coding Agents on Real Software Engineering Tasks",
+            "x": 34.0,
+            "y": 17.0,
+            "w": 48.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/wcUJWP6WpGM/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672444.1434965,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "SWE-rebench: Lessons from Evaluating Coding Agents on Real Software Engineering Tasks",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/wcUJWP6WpGM/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why evals matter now?\nModels improved. Choosing became harder.\nVibe checks do not scale\nSWE performance grows rapidly\nOptions change every month\n* SWE-rebench 2026_02 tasks",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(90deg, #000 0 28%, #f7f6f2 28% 100%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Why evals matter now?\nModels improved. Choosing became harder.",
+            "x": 29.0,
+            "y": 5.0,
+            "w": 55.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Vibe checks do not scale\nSWE performance grows rapidly\nOptions change every month",
+            "x": 29.0,
+            "y": 29.0,
+            "w": 28.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 56.0,
+            "y": 18.0,
+            "w": 35.0,
+            "h": 50.0
+          },
+          {
+            "role": "caption",
+            "text": "* SWE-rebench 2026_02 tasks",
+            "x": 29.0,
+            "y": 78.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 43.0,
+            "y": 82.0,
+            "w": 33.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/wcUJWP6WpGM/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672444.144081,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why evals matter now?\nModels improved. Choosing became harder.\nVibe checks do not scale\nSWE performance grows rapidly\nOptions change every month\n* SWE-rebench 2026_02 tasks",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/wcUJWP6WpGM/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Anatomy of a Task: A Task Is More Than Text\nTask description - original issue text Regresslon causod by changes for woakref ot fllesystom 1284\n★ AIE +\nSandbox environment -\nexecutable Docker image shs256141e015c4.:9\nVerifier - tests from the PR. FAIL_TO PASS + PASS TO PASS Sire 14GB Leut updaitd 19 d3y2 a90\ndocker dull s=ereb+nch/seb.eva]\n-dev.1776.pyfakets-1286\nAlEngineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "multi-column slide with screenshots and small embedded labels",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(90deg, #000 0 28%, #f7f6f2 28% 100%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "Anatomy of a Task: A Task Is More Than Text",
+            "x": 29.0,
+            "y": 5.0,
+            "w": 56.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Task description – original issue text\nSandbox environment – executable Docker image\nVerifier – tests from the PR.\nFAIL_TO_PASS + PASS_TO_PASS",
+            "x": 30.0,
+            "y": 26.0,
+            "w": 34.0,
+            "h": 45.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 67.0,
+            "y": 15.0,
+            "w": 28.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 58.0,
+            "y": 53.0,
+            "w": 19.0,
+            "h": 23.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 84.0,
+            "y": 50.0,
+            "w": 14.0,
+            "h": 24.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 58.0,
+            "y": 81.0,
+            "w": 24.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/wcUJWP6WpGM/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672444.1445894,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Anatomy of a Task: A Task Is More Than Text",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Anatomy of a Task: A Task Is More Than Text\nTask description - original issue text Regresslon causod by changes for woakref ot fllesystom 1284\n★ AIE +\nSandbox environment -\nexecutable Docker image shs256141e015c4.:9\nVerifier - tests from the PR. FAIL_TO PASS + PASS TO PASS Sire 14GB Leut updaitd 19 d3y2 a90\ndocker dull s=ereb+nch/seb.eva]\n-dev.1776.pyfakets-1286\nAlEngineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 571.64
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Anatomy of a Task: A Task Is More Than Text\nTask description - original issue text Regresslon causod by changes for woakref ot fllesystom 1284\n★ AIE +\nSandbox environment -\nexecutable Docker image shs256141e015c4.:9\nVerifier - tests from the PR. FAIL_TO PASS + PASS TO PASS Sire 14GB Leut updaitd 19 d3y2 a90\ndocker dull s=ereb+nch/seb.eva]\n-dev.1776.pyfakets-1286\nAlEngineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/wcUJWP6WpGM/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What Makes a Good Task?\nProblem description\n1. A good task balances clarily\n+ ★ AIE Reliable verifier 3. 2. Too easy and too hard both fail Complexity: breadth or depth 35 Gettest listaansles_oapty_or eone_obiectsicbjccts_vatue] Colcl1ent coch,Moc Spl cllent.It_cuthent1eated.retrn Vluo o True Col ellent.coject tore.tnt,retum vluo o? ebjectb objects_wlue. Gxcebrto\n1. Should reward actual fixes, should reject fake\nsolutions (nltlaixe_coa:simertapl ctient_to_ustaol_clfent]\n2. Not too narrow, not too wide rewtt oClRrnerh1mvkellem, Gcloud,Cobjet-store\nStable infrastructure is part of eval → Sseerel ho cojects tound atl'test 'in resutt.cot pat\n1. Minimal infra noise during runs + contaier.aplclint.object_store.list.asert\"called_onc_u\n2. （ Connection might blink, images might become\nstale. pipeline might break (1970s bug)\nAIEngineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "code screenshot and small text in a structured slide layout",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg, #000 0 28%, #f7f6f2 28% 100%)",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "What Makes a Good Task?",
+            "x": 29.0,
+            "y": 5.0,
+            "w": 35.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Problem description\n1. A good task balances clarity\n2. Too easy and too hard both fail\n3. Complexity: breadth or depth\nReliable verifier\n1. Should reward actual fixes, should reject fake solutions\n2. Not too narrow, not too wide\nStable infrastructure is part of eval\n1. Minimal infra noise during runs\n2. Connection might blink, images might become stale, pipeline might break (1970s bug)",
+            "x": 30.0,
+            "y": 15.0,
+            "w": 38.0,
+            "h": 66.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 67.0,
+            "y": 24.0,
+            "w": 28.0,
+            "h": 44.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 58.0,
+            "y": 80.0,
+            "w": 24.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/wcUJWP6WpGM/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672479.8681145,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "What Makes a Good Task?",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "What Makes a Good Task?\nProblem description\n1. A good task balances clarily\n+ ★ AIE Reliable verifier 3. 2. Too easy and too hard both fail Complexity: breadth or depth 35 Gettest listaansles_oapty_or eone_obiectsicbjccts_vatue] Colcl1ent coch,Moc Spl cllent.It_cuthent1eated.retrn Vluo o True Col ellent.coject tore.tnt,retum vluo o? ebjectb objects_wlue. Gxcebrto\n1. Should reward actual fixes, should reject fake\nsolutions (nltlaixe_coa:simertapl ctient_to_ustaol_clfent]\n2. Not too narrow, not too wide rewtt oClRrnerh1mvkellem, Gcloud,Cobjet-store\nStable infrastructure is part of eval → Sseerel ho cojects tound atl'test 'in resutt.cot pat\n1. Minimal infra noise during runs + contaier.aplclint.object_store.list.asert\"called_onc_u\n2. （ Connection might blink, images might become\nstale. pipeline might break (1970s bug)\nAIEngineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1128.56
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "What Makes a Good Task?\nProblem description\n1. A good task balances clarily\n+ ★ AIE Reliable verifier 3. 2. Too easy and too hard both fail Complexity: breadth or depth 35 Gettest listaansles_oapty_or eone_obiectsicbjccts_vatue] Colcl1ent coch,Moc Spl cllent.It_cuthent1eated.retrn Vluo o True Col ellent.coject tore.tnt,retum vluo o? ebjectb objects_wlue. Gxcebrto\n1. Should reward actual fixes, should reject fake\nsolutions (nltlaixe_coa:simertapl ctient_to_ustaol_clfent]\n2. Not too narrow, not too wide rewtt oClRrnerh1mvkellem, Gcloud,Cobjet-store\nStable infrastructure is part of eval → Sseerel ho cojects tound atl'test 'in resutt.cot pat\n1. Minimal infra noise during runs + contaier.aplclint.object_store.list.asert\"called_onc_u\n2. （ Connection might blink, images might become\nstale. pipeline might break (1970s bug)\nAIEngineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/wcUJWP6WpGM/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Execution Setup: Minimal Agent, Strong Infrastructure\nOPEN\ngrep\nMinimalistic agent (open, edit, bash)\nAIE YOLO setup ReAct + demo - tools + no_demo Agent<Infrastructure python python3 EDIT find git REPLACE GOTO cat cd\n· Claude-Opus-4.6 top commands from our agent sed SUBHIT 1s SCROLL_DOAN rm\n# Braintrust WorkOs OpenAi",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "small command list and dense layout on the right side",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "linear-gradient(90deg, #000 0 28%, #f7f6f2 28% 100%)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Execution Setup: Minimal Agent, Strong Infrastructure",
+            "x": 29.0,
+            "y": 5.0,
+            "w": 56.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "Minimalistic agent (open, edit, bash)\nYOLO setup\nAgent < Infrastructure\nReAct + demo → tools + no_demo\n* Claude-Opus-4.6 top commands from our agent",
+            "x": 30.0,
+            "y": 20.0,
+            "w": 34.0,
+            "h": 60.0
+          },
+          {
+            "role": "code",
+            "text": "",
+            "x": 76.0,
+            "y": 8.0,
+            "w": 18.0,
+            "h": 68.0
+          },
+          {
+            "role": "logo",
+            "text": "Braintrust",
+            "x": 39.0,
+            "y": 80.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "WorkOS",
+            "x": 61.0,
+            "y": 80.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenAI",
+            "x": 80.0,
+            "y": 80.0,
+            "w": 13.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/wcUJWP6WpGM/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783672528.093731,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Execution Setup: Minimal Agent, Strong Infrastructure",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Execution Setup: Minimal Agent, Strong Infrastructure\nOPEN\ngrep\nMinimalistic agent (open, edit, bash)\nAIE YOLO setup ReAct + demo - tools + no_demo Agent<Infrastructure python python3 EDIT find git REPLACE GOTO cat cd\n· Claude-Opus-4.6 top commands from our agent sed SUBHIT 1s SCROLL_DOAN rm\n# Braintrust WorkOs OpenAi",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 523.0
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Execution Setup: Minimal Agent, Strong Infrastructure\nOPEN\ngrep\nMinimalistic agent (open, edit, bash)\nAIE YOLO setup ReAct + demo - tools + no_demo Agent<Infrastructure python python3 EDIT find git REPLACE GOTO cat cd\n· Claude-Opus-4.6 top commands from our agent sed SUBHIT 1s SCROLL_DOAN rm\n# Braintrust WorkOs OpenAi",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/wcUJWP6WpGM/slide-005.html"
+    }
+  ],
+  "rejected": []
+}

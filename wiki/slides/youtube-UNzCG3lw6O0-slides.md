@@ -19,7 +19,11 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/UNzCG3lw6O0/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UNzCG3lw6O0/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > The Missing Manual
 > How To Write Great Skills
@@ -27,13 +31,21 @@ OCR text:
 
 ![[assets/slides/UNzCG3lw6O0/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UNzCG3lw6O0/slide-002.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > A Skill Checklist
 
 ![[assets/slides/UNzCG3lw6O0/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UNzCG3lw6O0/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > 1. Trigger
 > 2. Structure
@@ -42,7 +54,11 @@ OCR text:
 
 ![[assets/slides/UNzCG3lw6O0/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UNzCG3lw6O0/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
 
 > mattpocock/skills
 > vs
@@ -50,11 +66,18 @@ OCR text:
 
 ![[assets/slides/UNzCG3lw6O0/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/UNzCG3lw6O0/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
 
 > /to-prd
 > - What is a test seam?
 > - PRD Template
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/UNzCG3lw6O0/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

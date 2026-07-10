@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "(problems) One conversation has to do everything\nMeaning:\nthe context window becomes\n- the database,\n- the file system,\n- the memory,\n- the reasoning space",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "(problems) One conversation has to do everything",
+        "x": 2.0,
+        "y": 3.0,
+        "w": 90.0,
+        "h": 14.0
+      },
+      {
+        "role": "body",
+        "text": "Meaning:\nthe context window becomes\n- the database,\n- the file system,\n- the memory,\n- the reasoning space",
+        "x": 9.0,
+        "y": 20.0,
+        "w": 44.0,
+        "h": 48.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/I2cbIws9j10/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659795.4268413,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "(problems) One conversation has to do everything\nMeaning:\nthe context window becomes\n- the database,\n- the file system,\n- the memory,\n- the reasoning space",
+  "advanced_ocr": {}
+}

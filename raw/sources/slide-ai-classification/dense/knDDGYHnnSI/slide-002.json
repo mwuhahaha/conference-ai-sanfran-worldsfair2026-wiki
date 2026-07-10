@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE Moscone Center:Homepage FeredEEMwESCog2024/gDesgA SEMICONwESTCog2024/FgmDeigAuto Events\nFloor Plans Mosc ore North.4 50 MosconeCenter\nExplore the Neighborhood Nearty Nngroon 00d Aree A299ct\nDirections andParking BART offers fat, co\nContact Us TUAG 1 s t os n ou faet Caelfornia Uanited Stanies. The complex cone od.Wkipeda s De lurgr9t con seg u xeyueo segree9 pe uo) siss of tvee main WT es te\nPeople also ask1 Which BART stop for Moscone Center? Parlkcing: Pey Dosing neerly Aodne*s:747 H0e Phene:(415)974-4000 erCyd Cy fSnF wire St Sas.Fancisce, CA 94103\nWho owns the Moscone Center? 60:8157m Coses11PM\nerved2024\nMicrosoft smol aws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Screenshot-heavy slide with small UI text and search results.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal with orange footer and black left edge",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 16.0,
+        "w": 9.0,
+        "h": 14.0
+      },
+      {
+        "role": "caption",
+        "text": "Moscone Center",
+        "x": 67.0,
+        "y": 14.0,
+        "w": 17.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 39.0,
+        "y": 85.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 59.0,
+        "y": 84.0,
+        "w": 11.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 86.0,
+        "y": 84.0,
+        "w": 8.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/knDDGYHnnSI/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670074.7393544,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "AIE Moscone Center:Homepage FeredEEMwESCog2024/gDesgA SEMICONwESTCog2024/FgmDeigAuto Events\nFloor Plans Mosc ore North.4 50 MosconeCenter\nExplore the Neighborhood Nearty Nngroon 00d Aree A299ct\nDirections andParking BART offers fat, co\nContact Us TUAG 1 s t os n ou faet Caelfornia Uanited Stanies. The complex cone od.Wkipeda s De lurgr9t con seg u xeyueo segree9 pe uo) siss of tvee main WT es te\nPeople also ask1 Which BART stop for Moscone Center? Parlkcing: Pey Dosing neerly Aodne*s:747 H0e Phene:(415)974-4000 erCyd Cy fSnF wire St Sas.Fancisce, CA 94103\nWho owns the Moscone Center? 60:8157m Coses11PM\nerved2024\nMicrosoft smol aws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 896.64
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "AIE Moscone Center:Homepage FeredEEMwESCog2024/gDesgA SEMICONwESTCog2024/FgmDeigAuto Events\nFloor Plans Mosc ore North.4 50 MosconeCenter\nExplore the Neighborhood Nearty Nngroon 00d Aree A299ct\nDirections andParking BART offers fat, co\nContact Us TUAG 1 s t os n ou faet Caelfornia Uanited Stanies. The complex cone od.Wkipeda s De lurgr9t con seg u xeyueo segree9 pe uo) siss of tvee main WT es te\nPeople also ask1 Which BART stop for Moscone Center? Parlkcing: Pey Dosing neerly Aodne*s:747 H0e Phene:(415)974-4000 erCyd Cy fSnF wire St Sas.Fancisce, CA 94103\nWho owns the Moscone Center? 60:8157m Coses11PM\nerved2024\nMicrosoft smol aws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

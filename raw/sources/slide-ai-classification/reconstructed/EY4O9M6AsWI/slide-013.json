@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Challenges\n- Backpressure\n- Priorities/fair scheduling\n- Handling many different models\n- Handling Bursts",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with subtle dark radial pattern",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 21.0
+      },
+      {
+        "role": "title",
+        "text": "Challenges",
+        "x": 21.0,
+        "y": 9.0,
+        "w": 25.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Backpressure",
+        "x": 24.0,
+        "y": 30.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Priorities/fair scheduling",
+        "x": 24.0,
+        "y": 37.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Handling many different models",
+        "x": 24.0,
+        "y": 45.0,
+        "w": 40.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Handling Bursts",
+        "x": 24.0,
+        "y": 53.0,
+        "w": 24.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/reconstructed-slides/EY4O9M6AsWI/slide-013.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659265.2687876,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Challenges\n- Backpressure\n- Priorities/fair scheduling\n- Handling many different models\n- Handling Bursts",
+  "advanced_ocr": {}
+}

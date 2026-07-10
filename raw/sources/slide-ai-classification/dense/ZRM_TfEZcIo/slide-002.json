@@ -1,9 +1,14 @@
 {
   "is_content_slide": false,
-  "confidence": 0.98,
+  "confidence": 0.97,
   "frame_type": "title_card",
-  "reject_reason": "speaker intro card / biography slide",
-  "text": "Hi, I'm Paul\n\nFounder & CEO @ Decoding AI\nContent and courses on shipping AI products\n\nCo-Author of the\nLLM Engineer’s Handbook Bestseller",
+  "reject_reason": "speaker intro card",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "none",
   "layout": {
     "background": "#ffffff",
     "style": "light",
@@ -13,37 +18,35 @@
         "text": "Hi, I'm Paul",
         "x": 31.0,
         "y": 11.0,
-        "w": 20.0,
-        "h": 7.0
+        "w": 23.0,
+        "h": 10.0
       },
       {
         "role": "body",
-        "text": "Founder & CEO @ Decoding AI\nContent and courses on shipping AI products",
+        "text": "Founder & CEO @ Decoding AI\nContent and courses on shipping AI products\nCo-Author of the\nLLM Engineer's Handbook Bestseller",
         "x": 31.0,
-        "y": 26.0,
-        "w": 31.0,
-        "h": 12.0
+        "y": 27.0,
+        "w": 37.0,
+        "h": 28.0
       },
       {
-        "role": "body",
-        "text": "Co-Author of the\nLLM Engineer’s Handbook Bestseller",
-        "x": 31.0,
-        "y": 41.0,
-        "w": 33.0,
-        "h": 12.0
-      },
-      {
-        "role": "logo",
-        "text": "LLM Engineer’s Handbook",
+        "role": "caption",
+        "text": "LLM Engineer's Handbook",
         "x": 73.0,
-        "y": 13.0,
+        "y": 14.0,
         "w": 20.0,
-        "h": 38.0
+        "h": 18.0
       }
     ]
   },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
   "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-002.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783628727.994293
+  "classified_at_epoch": 1783665605.9588373,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
 }

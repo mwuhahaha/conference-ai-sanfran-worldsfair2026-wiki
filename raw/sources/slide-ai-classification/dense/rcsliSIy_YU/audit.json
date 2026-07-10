@@ -1,0 +1,1305 @@
+{
+  "video_id": "rcsliSIy_YU",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 16,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "About Us\nRobert Brennan\nCEO and Co-founder, OpenHands\nOpenHands\nAn MIT-licensed coding agent",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f4ecdf",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "About Us",
+            "x": 22.0,
+            "y": 11.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Robert Brennan",
+            "x": 31.0,
+            "y": 58.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "CEO and Co-founder, OpenHands",
+            "x": 31.0,
+            "y": 64.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenHands",
+            "x": 58.0,
+            "y": 57.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "An MIT-licensed coding agent",
+            "x": 57.0,
+            "y": 64.0,
+            "w": 22.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671307.4553113,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "About Us\nRobert Brennan\nCEO and Co-founder, OpenHands\nOpenHands\nAn MIT-licensed coding agent",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "? @\n6 uthopr Autamtubg khe Aiecten tn Agtrumlt bo (-- - 1\nA Brief History of LLM Coding\n2022: Context-unaware code snippets\n\"Write python for bubble sort\"\n2023: Context-aware code generation\n\"Write' a suite of unit tests for this function\"\n2024: Single agents for atomic coding tasks..\nImplement'the GET /products endpoint and use\ncurl to validate that it works\".\n2025: Parallel agents for large-scale work:\n\"Migrate our app from Redux to React Query\"\n2025-11-22114:35:43",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense small bullet text and multiple year sections are better handled by OCR than direct vision transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f4ecdf",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "A Brief History of LLM Coding",
+            "x": 22.0,
+            "y": 13.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "2022: Context-unaware code snippets",
+            "x": 22.0,
+            "y": 28.0,
+            "w": 43.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "2023: Context-aware code generation",
+            "x": 22.0,
+            "y": 40.0,
+            "w": 42.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "2024: Single agents for atomic coding tasks.",
+            "x": 22.0,
+            "y": 53.0,
+            "w": 47.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "2025: Parallel agents for large-scale work",
+            "x": 22.0,
+            "y": 69.0,
+            "w": 45.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671307.4602823,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "? @\n6 uthopr Autamtubg khe Aiecten tn Agtrumlt bo (-- - 1\nA Brief History of LLM Coding\n2022: Context-unaware code snippets\n\"Write python for bubble sort\"\n2023: Context-aware code generation\n\"Write' a suite of unit tests for this function\"\n2024: Single agents for atomic coding tasks..\nImplement'the GET /products endpoint and use\ncurl to validate that it works\".\n2025: Parallel agents for large-scale work:\n\"Migrate our app from Redux to React Query\"\n2025-11-22114:35:43",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 697.96
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "? @\n6 uthopr Autamtubg khe Aiecten tn Agtrumlt bo (-- - 1\nA Brief History of LLM Coding\n2022: Context-unaware code snippets\n\"Write python for bubble sort\"\n2023: Context-aware code generation\n\"Write' a suite of unit tests for this function\"\n2024: Single agents for atomic coding tasks..\nImplement'the GET /products endpoint and use\ncurl to validate that it works\".\n2025: Parallel agents for large-scale work:\n\"Migrate our app from Redux to React Query\"\n2025-11-22114:35:43",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Evolution of AI-Driven Development",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f4ecdf",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Evolution of AI-Driven Development",
+            "x": 22.0,
+            "y": 12.0,
+            "w": 45.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Plugins → IDEs → Local Agents → Cloud Agents → Orchestration",
+            "x": 24.0,
+            "y": 27.0,
+            "w": 63.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenHands",
+            "x": 47.0,
+            "y": 40.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "CLI",
+            "x": 49.0,
+            "y": 49.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Cloud",
+            "x": 62.0,
+            "y": 49.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SDK",
+            "x": 78.0,
+            "y": 49.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "GitHub Copilot",
+            "x": 24.0,
+            "y": 72.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Cursor",
+            "x": 39.0,
+            "y": 74.0,
+            "w": 13.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Claude Code",
+            "x": 53.0,
+            "y": 70.0,
+            "w": 14.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tactical",
+            "x": 23.0,
+            "y": 90.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Median Developers",
+            "x": 41.0,
+            "y": 90.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Early Adopter",
+            "x": 61.0,
+            "y": 90.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agentic",
+            "x": 79.0,
+            "y": 89.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671360.2101095,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Evolution of AI-Driven Development",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Why do we need orchestration?\nWhy can't today's agents one-shot large tasks?\nAgent Problems\nLimited context window\nLaziness\nLack of domain knowledge\nCompounding errors\nHuman Problems\nCan't convey intuition\nDifficulty decomposing tasks\nNeed intermediate reviews/check-ins\nAmbiguous definition of done",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f4ecdf",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Why do we need orchestration?",
+            "x": 22.0,
+            "y": 13.0,
+            "w": 48.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Why can't today's agents one-shot large tasks?",
+            "x": 22.0,
+            "y": 25.0,
+            "w": 42.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Agent Problems",
+            "x": 22.0,
+            "y": 34.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Limited context window",
+            "x": 25.0,
+            "y": 39.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Laziness",
+            "x": 25.0,
+            "y": 44.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Lack of domain knowledge",
+            "x": 25.0,
+            "y": 49.0,
+            "w": 26.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Compounding errors",
+            "x": 25.0,
+            "y": 55.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Human Problems",
+            "x": 22.0,
+            "y": 62.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Can't convey intuition",
+            "x": 25.0,
+            "y": 67.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Difficulty decomposing tasks",
+            "x": 25.0,
+            "y": 72.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Need intermediate reviews/check-ins",
+            "x": 25.0,
+            "y": 77.0,
+            "w": 34.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Ambiguous definition of done",
+            "x": 25.0,
+            "y": 82.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "YOU ONLY GET ONE SHOT",
+            "x": 64.0,
+            "y": 43.0,
+            "w": 22.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671360.211078,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Why do we need orchestration?\nWhy can't today's agents one-shot large tasks?\nAgent Problems\nLimited context window\nLaziness\nLack of domain knowledge\nCompounding errors\nHuman Problems\nCan't convey intuition\nDifficulty decomposing tasks\nNeed intermediate reviews/check-ins\nAmbiguous definition of done",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Agentic Engineers\nEvery dev will use agents for day-to-day work.\nOnly ~5% will become Agent Orchestrators.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f4ecdf",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Agentic Engineers",
+            "x": 22.0,
+            "y": 13.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Every dev will use agents for day-to-day work.\nOnly ~5% will become Agent Orchestrators.",
+            "x": 24.0,
+            "y": 29.0,
+            "w": 38.0,
+            "h": 12.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Software Engineer",
+            "x": 22.0,
+            "y": 68.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AI-driven developer",
+            "x": 43.0,
+            "y": 58.0,
+            "w": 15.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agent Orchestrator",
+            "x": 64.0,
+            "y": 41.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Lift in productivity: 10-40%",
+            "x": 54.0,
+            "y": 73.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Lift in productivity: 100-3000%",
+            "x": 72.0,
+            "y": 52.0,
+            "w": 20.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671360.2152135,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Agentic Engineers\nEvery dev will use agents for day-to-day work.\nOnly ~5% will become Agent Orchestrators.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Human in the Loop: Single Agent\nHuman prompts agent\nAgent does some work\nHuman checks output",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f4ecdf",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Human in the Loop: Single Agent",
+            "x": 22.0,
+            "y": 13.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "For small, atomic coding tasks, the agent-driven dev loop is simple.",
+            "x": 22.0,
+            "y": 26.0,
+            "w": 56.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Human prompts agent",
+            "x": 45.0,
+            "y": 37.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agent does some work",
+            "x": 67.0,
+            "y": 57.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Human checks output",
+            "x": 25.0,
+            "y": 57.0,
+            "w": 22.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671360.2160702,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Human in the Loop: Single Agent\nHuman prompts agent\nAgent does some work\nHuman checks output",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "demo_video",
+      "reject_reason": "",
+      "text": "Showcase: Automating Massive Refactors",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#f3eadf",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Showcase: Automating Massive Refactors",
+            "x": 23.0,
+            "y": 13.0,
+            "w": 54.0,
+            "h": 11.0
+          },
+          {
+            "role": "caption",
+            "text": "Click to view video",
+            "x": 28.0,
+            "y": 23.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "video",
+            "x": 28.0,
+            "y": 28.0,
+            "w": 55.0,
+            "h": 54.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671460.4250696,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Showcase: Automating Massive Refactors",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.93,
+      "frame_type": "demo_video",
+      "reject_reason": "",
+      "text": "Showcase: Automating Massive Refactors",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#f3eadf",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Showcase: Automating Massive Refactors",
+            "x": 23.0,
+            "y": 13.0,
+            "w": 54.0,
+            "h": 11.0
+          },
+          {
+            "role": "caption",
+            "text": "Click to view video",
+            "x": 28.0,
+            "y": 23.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "demo screenshot",
+            "x": 29.0,
+            "y": 29.0,
+            "w": 54.0,
+            "h": 53.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671460.4289067,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Showcase: Automating Massive Refactors",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "product",
+      "reject_reason": "",
+      "text": "csmith49/OpenHands\nDependency. Obce05Details Edkt Metadats\n02a7da Status: NEW Vecify Flx\nVCode Metrics (4 files)\nffd83d -0.2+ 66.0 CyciomaticCorpiety Maintarabity inder 59.6\nObce05 40.0.5t 593 Hangtood Ertort Hahtnad Vohune 13.8 Halstead Diffcufty Estimuated Blugs\nb794a3 8166 0.20\nn.0-0\nDependencies(o)\nDependenb (5)\nNodes(4)\nopenhands/apo_server/units/sg_siis.py 小\nF t Ne\nopenhandsopp_serveriutils/async_remote_workspace.py\n2025-11-22 14:54:08",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense UI screenshot with many small labels and metrics; OCR is better than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "0bce05 Details",
+            "x": 42.0,
+            "y": 16.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Status: NEW",
+            "x": 57.0,
+            "y": 23.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Verify",
+            "x": 80.0,
+            "y": 23.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Fix",
+            "x": 88.0,
+            "y": 23.0,
+            "w": 4.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Code Metrics (4 files)",
+            "x": 42.0,
+            "y": 31.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "dependency list and metrics panel",
+            "x": 16.0,
+            "y": 28.0,
+            "w": 76.0,
+            "h": 54.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671460.4295688,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "0bce05 Details",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "csmith49/OpenHands\nDependency. Obce05Details Edkt Metadats\n02a7da Status: NEW Vecify Flx\nVCode Metrics (4 files)\nffd83d -0.2+ 66.0 CyciomaticCorpiety Maintarabity inder 59.6\nObce05 40.0.5t 593 Hangtood Ertort Hahtnad Vohune 13.8 Halstead Diffcufty Estimuated Blugs\nb794a3 8166 0.20\nn.0-0\nDependencies(o)\nDependenb (5)\nNodes(4)\nopenhands/apo_server/units/sg_siis.py 小\nF t Ne\nopenhandsopp_serveriutils/async_remote_workspace.py\n2025-11-22 14:54:08",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 482.12
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "csmith49/OpenHands\nDependency. Obce05Details Edkt Metadats\n02a7da Status: NEW Vecify Flx\nVCode Metrics (4 files)\nffd83d -0.2+ 66.0 CyciomaticCorpiety Maintarabity inder 59.6\nObce05 40.0.5t 593 Hangtood Ertort Hahtnad Vohune 13.8 Halstead Diffcufty Estimuated Blugs\nb794a3 8166 0.20\nn.0-0\nDependencies(o)\nDependenb (5)\nNodes(4)\nopenhands/apo_server/units/sg_siis.py 小\nF t Ne\nopenhandsopp_serveriutils/async_remote_workspace.py\n2025-11-22 14:54:08",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Task Decomposition",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f3eadf",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Task Decomposition",
+            "x": 30.0,
+            "y": 41.0,
+            "w": 44.0,
+            "h": 11.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenHands",
+            "x": 43.0,
+            "y": 63.0,
+            "w": 15.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671497.5172293,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Task Decomposition",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Task Decomposition\nBreak your end-goal down into tasks that:\n- Are one(-ish) shottable\n- Fit in a single commit\n- Can be executed in parallel\n- Can be verified by a human as correct or incorrect\n- Clear dependencies/ordering between tasks",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f3eadf",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Task Decomposition",
+            "x": 23.0,
+            "y": 18.0,
+            "w": 26.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Break your end-goal down into tasks that:",
+            "x": 23.0,
+            "y": 31.0,
+            "w": 37.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Are one(-ish) shottable",
+            "x": 24.0,
+            "y": 42.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Fit in a single commit",
+            "x": 24.0,
+            "y": 49.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Can be executed in parallel",
+            "x": 24.0,
+            "y": 56.0,
+            "w": 32.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Can be verified by a human as correct or incorrect",
+            "x": 24.0,
+            "y": 63.0,
+            "w": 42.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Clear dependencies/ordering between tasks",
+            "x": 24.0,
+            "y": 76.0,
+            "w": 40.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "image",
+            "x": 60.0,
+            "y": 30.0,
+            "w": 28.0,
+            "h": 29.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671497.5178726,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Task Decomposition\nBreak your end-goal down into tasks that:\n- Are one(-ish) shottable\n- Fit in a single commit\n- Can be executed in parallel\n- Can be verified by a human as correct or incorrect\n- Clear dependencies/ordering between tasks",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "code",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code screenshot with small source text; OCR is the right extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f3eadf",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Example: CVE Remediation with OpenHands SDK",
+            "x": 21.0,
+            "y": 12.0,
+            "w": 58.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "https://github.com/OpenHands/cve-demo",
+            "x": 21.0,
+            "y": 21.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "code screenshot",
+            "x": 22.0,
+            "y": 28.0,
+            "w": 43.0,
+            "h": 56.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671497.519469,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/full",
+        "best_score": 501.48,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Getting Started",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product/docs screenshot with dense small UI text and code snippets.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Getting Started",
+            "x": 31.0,
+            "y": 42.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Using uv (recommended)",
+            "x": 31.0,
+            "y": 48.0,
+            "w": 23.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "uv tool install openhands",
+            "x": 31.0,
+            "y": 61.0,
+            "w": 22.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671657.2702513,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Getting Started",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/contrast",
+        "best_score": 696.8,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "?\n0. Wertahopr Autorstrg Lmhe Alectert wit Agtrls 1l t ho 心 Domg + D\n+心:t4心:t4h +.4\nVibecoding CVE Remediation: LLM Connection\nPrompt 1:\nLook at the example code at https://docs.openhands.dev/sdk/auides/hello-world and the SDK docs at: https://docs.openhands.dev/sdk/api-reference/openhands.sdk.llm\na pydantic SecretStr). Set the model name to: connection to the OpenHands LLM using the LLM API KEY env var (be sure to use. openhands/claude-sonnet-4-20250514 Write a small python script called cve_solver.py that for now just tests the 中\nNote to human: replace model name if using anthropic/openai\nCt 2025-11-22115:19:54",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense slide text with long prompt, URLs, and configuration details that are better OCRed than transcribed by eye.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "beige",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Vibecoding CVE Remediation: LLM Connection",
+            "x": 23.0,
+            "y": 15.0,
+            "w": 60.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Prompt 1:",
+            "x": 23.0,
+            "y": 28.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Look at the example code at https://docs.openhands.dev/sdk/guides/hello-world",
+            "x": 23.0,
+            "y": 34.0,
+            "w": 65.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-014.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671700.962354,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "?\n0. Wertahopr Autorstrg Lmhe Alectert wit Agtrls 1l t ho 心 Domg + D\n+心:t4心:t4h +.4\nVibecoding CVE Remediation: LLM Connection\nPrompt 1:\nLook at the example code at https://docs.openhands.dev/sdk/auides/hello-world and the SDK docs at: https://docs.openhands.dev/sdk/api-reference/openhands.sdk.llm\na pydantic SecretStr). Set the model name to: connection to the OpenHands LLM using the LLM API KEY env var (be sure to use. openhands/claude-sonnet-4-20250514 Write a small python script called cve_solver.py that for now just tests the 中\nNote to human: replace model name if using anthropic/openai\nCt 2025-11-22115:19:54",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 786.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "?\n0. Wertahopr Autorstrg Lmhe Alectert wit Agtrls 1l t ho 心 Domg + D\n+心:t4心:t4h +.4\nVibecoding CVE Remediation: LLM Connection\nPrompt 1:\nLook at the example code at https://docs.openhands.dev/sdk/auides/hello-world and the SDK docs at: https://docs.openhands.dev/sdk/api-reference/openhands.sdk.llm\na pydantic SecretStr). Set the model name to: connection to the OpenHands LLM using the LLM API KEY env var (be sure to use. openhands/claude-sonnet-4-20250514 Write a small python script called cve_solver.py that for now just tests the 中\nNote to human: replace model name if using anthropic/openai\nCt 2025-11-22115:19:54",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "?\nnm\nD Wariahopr Autoretrg tthe Aecten tthAgtrba M t bo 6o 00○0：θ■0:\nVibecoding CVE Remediation: Detect CVEs\nPrompt 2:\nLook at the example code at https://docs.openhands.dev/sdk/guides/hello-world\nModify cve_solver.py so that it.\nTakes in a GitHub repository as a command line argument Creates a RemoteWorkspace connecting to 1ocalhost:8000 Clones the given repository to that workspace, using the GITHUB_ TOKEN env\nTells the agent to use trivy to'scan the repository for CVEs Creates an Agent in that workspace var.\nCVEs Human: you can test the script with github.com/rbren/polaris - It should find 3\n20251.1-22115:30:40",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense instructional slide text with bullets, a repository URL, and environment-variable references.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "beige",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Vibecoding CVE Remediation: Detect CVEs",
+            "x": 23.0,
+            "y": 15.0,
+            "w": 60.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Prompt 2:",
+            "x": 23.0,
+            "y": 28.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Modify cve_solver.py so that it:",
+            "x": 23.0,
+            "y": 35.0,
+            "w": 35.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-015.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671740.9440954,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "?\nnm\nD Wariahopr Autoretrg tthe Aecten tthAgtrba M t bo 6o 00○0：θ■0:\nVibecoding CVE Remediation: Detect CVEs\nPrompt 2:\nLook at the example code at https://docs.openhands.dev/sdk/guides/hello-world\nModify cve_solver.py so that it.\nTakes in a GitHub repository as a command line argument Creates a RemoteWorkspace connecting to 1ocalhost:8000 Clones the given repository to that workspace, using the GITHUB_ TOKEN env\nTells the agent to use trivy to'scan the repository for CVEs Creates an Agent in that workspace var.\nCVEs Human: you can test the script with github.com/rbren/polaris - It should find 3\n20251.1-22115:30:40",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 819.28
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "?\nnm\nD Wariahopr Autoretrg tthe Aecten tthAgtrba M t bo 6o 00○0：θ■0:\nVibecoding CVE Remediation: Detect CVEs\nPrompt 2:\nLook at the example code at https://docs.openhands.dev/sdk/guides/hello-world\nModify cve_solver.py so that it.\nTakes in a GitHub repository as a command line argument Creates a RemoteWorkspace connecting to 1ocalhost:8000 Clones the given repository to that workspace, using the GITHUB_ TOKEN env\nTells the agent to use trivy to'scan the repository for CVEs Creates an Agent in that workspace var.\nCVEs Human: you can test the script with github.com/rbren/polaris - It should find 3\n20251.1-22115:30:40",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Slide has mixed prose and a code screenshot; OCR is the safer way to capture the exact agent setup and command text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "beige and black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Here we set up a basic agent and give it a task.",
+            "x": 23.0,
+            "y": 25.0,
+            "w": 37.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Creates an Agent using the LLM",
+            "x": 24.0,
+            "y": 37.0,
+            "w": 32.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "python cve_solver.py https://github.com/rbren/polaris",
+            "x": 24.0,
+            "y": 78.0,
+            "w": 36.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-017.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671767.7581816,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/full",
+        "best_score": 794.12,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0014
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/rcsliSIy_YU/slide-017.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.89,
+      "frame_type": "demo_video",
+      "reject_reason": "Mixed screen capture with a cropped slide on the left and terminal/demo output on the right; not a clean readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a stable slide frame; mixed demo footage is better handled as video than slide OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "split beige and dark terminal",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Vibecoding CVE Remediation: Detect CVEs",
+            "x": 0,
+            "y": 18.0,
+            "w": 50.0,
+            "h": 20.0
+          },
+          {
+            "role": "code",
+            "text": "terminal output",
+            "x": 72.0,
+            "y": 0,
+            "w": 28.0,
+            "h": 100
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/rcsliSIy_YU/slide-016.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671767.7575018,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

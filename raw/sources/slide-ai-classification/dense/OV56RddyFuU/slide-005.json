@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "models → agents, serve locally\nAgentic LLMs (thinking + tool calling): gpt-oss, Gemma-4, Minimax M2.7, GLM-5, Nemotron3-Super\nAgentic vision models (thinking + CUA): Qwen3.5\n(Alibaba), Kimi-K2.5\nmlx_ lm.generate --prompt *How tall ts Mt Everest?\"\nvllm serve Qwen/Qwen3-8B # then query with QpenAI Completion\nllama-server -n model.gguf --port 8080",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Text-heavy slide with code block and multiple model names is best handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f7f7f2",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "models → agents, serve locally",
+        "x": 14.0,
+        "y": 3.0,
+        "w": 60.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Agentic LLMs (thinking + tool calling)\nAgentic vision models (thinking + CUA)",
+        "x": 12.0,
+        "y": 18.0,
+        "w": 78.0,
+        "h": 24.0
+      },
+      {
+        "role": "code",
+        "text": "mlx_lm.generate --prompt \"How tall is Mt Everest?\"\nvlm serve Qwen/Qwen3-8B # then query with OpenAI Completion\nllama-server -m model.gguf --port 8080",
+        "x": 13.0,
+        "y": 58.0,
+        "w": 66.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661778.9803493,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "models → agents, serve locally",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "models → agents, serve locally\nAgentic LLMs (thinking + tool calling): gpt-oss, Gemma-4, Minimax M2.7, GLM-5, Nemotron3-Super\nAgentic vision models (thinking + CUA): Qwen3.5\n(Alibaba), Kimi-K2.5\nmlx_ lm.generate --prompt *How tall ts Mt Everest?\"\nvllm serve Qwen/Qwen3-8B # then query with QpenAI Completion\nllama-server -n model.gguf --port 8080",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 512.28
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "models → agents, serve locally\nAgentic LLMs (thinking + tool calling): gpt-oss, Gemma-4, Minimax M2.7, GLM-5, Nemotron3-Super\nAgentic vision models (thinking + CUA): Qwen3.5\n(Alibaba), Kimi-K2.5\nmlx_ lm.generate --prompt *How tall ts Mt Everest?\"\nvllm serve Qwen/Qwen3-8B # then query with QpenAI Completion\nllama-server -n model.gguf --port 8080",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

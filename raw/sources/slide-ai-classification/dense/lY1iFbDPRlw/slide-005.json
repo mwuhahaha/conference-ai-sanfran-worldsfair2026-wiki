@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "M2 Scales and Collaborate in Multi-Agent Systems\nResearch Agent: Web Development Agent Report Agent.\nSmall & Cost-effective to run long agentic tasks\nMI MINIHAX MiniMax Agent Intelligcnco wlth Everyero",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-column slide with multiple embedded UI screenshots and a QR code; OCR is better for the small screenshot text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "M2 Scales and Collaborate in Multi-Agent Systems",
+        "x": 15.0,
+        "y": 0,
+        "w": 70.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "Research Agent",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 27.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Web Development Agent",
+        "x": 38.0,
+        "y": 12.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Report Agent",
+        "x": 72.0,
+        "y": 12.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Small & Cost-effective to run long agentic tasks",
+        "x": 24.0,
+        "y": 73.0,
+        "w": 52.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/lY1iFbDPRlw/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670433.1193237,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "M2 Scales and Collaborate in Multi-Agent Systems\nSmall & Cost-effective to run long agentic tasks",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "M2 Scales and Collaborate in Multi-Agent Systems\nResearch Agent: Web Development Agent Report Agent.\nSmall & Cost-effective to run long agentic tasks\nMI MINIHAX MiniMax Agent Intelligcnco wlth Everyero",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 326.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "M2 Scales and Collaborate in Multi-Agent Systems\nResearch Agent: Web Development Agent Report Agent.\nSmall & Cost-effective to run long agentic tasks\nMI MINIHAX MiniMax Agent Intelligcnco wlth Everyero",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

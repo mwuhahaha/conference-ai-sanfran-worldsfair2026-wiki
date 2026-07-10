@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Maturity Model\nStage 0\nStage 1\nStage 2\nStage 3\nStage 4\nStage 5",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI Maturity Model",
+        "x": 8.0,
+        "y": 19.0,
+        "w": 50.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 0",
+        "x": 5.0,
+        "y": 43.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 1",
+        "x": 22.0,
+        "y": 43.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 2",
+        "x": 39.0,
+        "y": 43.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 3",
+        "x": 55.0,
+        "y": 43.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 4",
+        "x": 72.0,
+        "y": 43.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stage 5",
+        "x": 87.0,
+        "y": 43.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "adapted from Steve Yegge's Gas Town article",
+        "x": 8.0,
+        "y": 85.0,
+        "w": 32.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/whue9_YquGA/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672554.8638484,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Maturity Model\nStage 0\nStage 1\nStage 2\nStage 3\nStage 4\nStage 5",
+  "advanced_ocr": {}
+}

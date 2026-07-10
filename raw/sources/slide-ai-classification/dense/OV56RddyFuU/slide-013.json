@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Just upload your sessions from:\n~/.claude/projects\n~/.codex/sessions\n~/.pi/agent/sessions\n\nNothing else needed!",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cream",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Just upload your sessions from:",
+        "x": 6.0,
+        "y": 13.0,
+        "w": 33.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "~/.claude/projects\n~/.codex/sessions\n~/.pi/agent/sessions\nNothing else needed!",
+        "x": 6.0,
+        "y": 28.0,
+        "w": 33.0,
+        "h": 34.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/dense-slides/OV56RddyFuU/slide-013.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662283.2121758,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Just upload your sessions from:\n~/.claude/projects\n~/.codex/sessions\n~/.pi/agent/sessions\n\nNothing else needed!",
+  "advanced_ocr": {}
+}

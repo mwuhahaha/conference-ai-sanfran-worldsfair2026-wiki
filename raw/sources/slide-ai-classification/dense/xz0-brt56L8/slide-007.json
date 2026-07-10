@@ -1,0 +1,71 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.83,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Rick and Morty Character Dashboard",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product/UI screenshot with dense small labels, charts, and side navigation; OCR will likely capture more accurately than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark browser chrome over white dashboard panels",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Rick and Morty Character Dashboard",
+        "x": 17.0,
+        "y": 10.0,
+        "w": 34.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Alien / Humanoid / Mythological Creature / Disease / Poopybutthole / Animal / Cronenberg",
+        "x": 57.0,
+        "y": 9.0,
+        "w": 33.0,
+        "h": 46.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Gender Distribution",
+        "x": 57.0,
+        "y": 58.0,
+        "w": 21.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Male / Female / unknown",
+        "x": 57.0,
+        "y": 67.0,
+        "w": 22.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/dense-slides/xz0-brt56L8/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673189.6795704,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Rick and Morty Character Dashboard",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 1321.8,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0028
+  }
+}

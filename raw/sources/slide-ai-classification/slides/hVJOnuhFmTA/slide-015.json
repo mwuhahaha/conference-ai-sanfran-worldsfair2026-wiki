@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Conversation is more than turn-taking\nWhatreal-time conversational Al has to understand\n1.PARTICIPANTS 2.FLOW\nmm-hm\nWhoishere Who isspeaking Turn-taking Backchannels\nWhoislistening 3.MEANING Who isbeing addressed repair+social understanding Natural conversation= timing+context+ Interruptions&repair 4.ACTION Overlap Timing\n口\nAttention Thread tracking\nGrounding Shared context 800 intentions Beliefs/ commitments Decisions/ Whento speak vswait",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with many small labels and multi-panel structure is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with neon green accents",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Conversation is more than turn-taking",
+        "x": 14.0,
+        "y": 1.0,
+        "w": 72.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What real-time conversational AI has to understand",
+        "x": 30.0,
+        "y": 10.0,
+        "w": 40.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1. PARTICIPANTS",
+        "x": 8.0,
+        "y": 17.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "2. FLOW",
+        "x": 68.0,
+        "y": 17.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3. MEANING",
+        "x": 8.0,
+        "y": 51.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "4. ACTION",
+        "x": 68.0,
+        "y": 51.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Natural conversation = timing + context + repair + social understanding",
+        "x": 37.0,
+        "y": 36.0,
+        "w": 26.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-015.jpg",
+  "image": "wiki/assets/slides/hVJOnuhFmTA/slide-015.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668544.1516693,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Conversation is more than turn-taking\nWhatreal-time conversational Al has to understand\n1.PARTICIPANTS 2.FLOW\nmm-hm\nWhoishere Who isspeaking Turn-taking Backchannels\nWhoislistening 3.MEANING Who isbeing addressed repair+social understanding Natural conversation= timing+context+ Interruptions&repair 4.ACTION Overlap Timing\n口\nAttention Thread tracking\nGrounding Shared context 800 intentions Beliefs/ commitments Decisions/ Whento speak vswait",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 591.88
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Conversation is more than turn-taking\nWhatreal-time conversational Al has to understand\n1.PARTICIPANTS 2.FLOW\nmm-hm\nWhoishere Who isspeaking Turn-taking Backchannels\nWhoislistening 3.MEANING Who isbeing addressed repair+social understanding Natural conversation= timing+context+ Interruptions&repair 4.ACTION Overlap Timing\n口\nAttention Thread tracking\nGrounding Shared context 800 intentions Beliefs/ commitments Decisions/ Whento speak vswait",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

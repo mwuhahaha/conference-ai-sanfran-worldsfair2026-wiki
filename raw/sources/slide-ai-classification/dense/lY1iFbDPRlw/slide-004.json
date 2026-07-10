@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Interleaved Thinking Enables...\n1. Adaptation to Environment Noise\n2. Focus on Long-Horizon Tasks",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Interleaved Thinking Enables...",
+        "x": 13.0,
+        "y": 0,
+        "w": 34.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "1. Adaptation to Environment Noise",
+        "x": 8.0,
+        "y": 38.0,
+        "w": 42.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "2. Focus on Long-Horizon Tasks",
+        "x": 8.0,
+        "y": 50.0,
+        "w": 37.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/lY1iFbDPRlw/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670433.115274,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Interleaved Thinking Enables...\n1. Adaptation to Environment Noise\n2. Focus on Long-Horizon Tasks",
+  "advanced_ocr": {}
+}

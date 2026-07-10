@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "HOW LLMS WORK FOR WEB DEVS\nGPT in 600 lines of Vanilla JavaScript\nIshan Anand\nSpreadsheets-are-all-you-need.ai",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "warm beige slide on black stage background",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 22.0,
+        "w": 10.0,
+        "h": 23.0
+      },
+      {
+        "role": "title",
+        "text": "HOW LLMS WORK FOR WEB DEVS",
+        "x": 32.0,
+        "y": 16.0,
+        "w": 49.0,
+        "h": 23.0
+      },
+      {
+        "role": "subtitle",
+        "text": "GPT in 600 lines of Vanilla JavaScript",
+        "x": 34.0,
+        "y": 41.0,
+        "w": 43.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Ishan Anand",
+        "x": 40.0,
+        "y": 64.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Spreadsheets-are-all-you-need.ai",
+        "x": 39.0,
+        "y": 72.0,
+        "w": 27.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "1. Visit spreadsheets-are-all-you-need.ai in Chrome\n2. Click Discord link in the menu\n3. Go to the #ai-engineer-worlds-fair-2025 room\n4. Download GPT2 model in the pinned message",
+        "x": 63.0,
+        "y": 0,
+        "w": 33.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/ZuiJjkbX0Og/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665766.669042,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "HOW LLMS WORK FOR WEB DEVS\nGPT in 600 lines of Vanilla JavaScript\nIshan Anand\nSpreadsheets-are-all-you-need.ai",
+  "advanced_ocr": {}
+}

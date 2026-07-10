@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why SWE-bench Verified no longer measures frontier coding capabilities\nSWE-bench Verified is increasingly contaminated. We recommend SWE-bench Pro.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "large title slide is directly readable",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "February 23, 2026  Research  Publication",
+        "x": 34.0,
+        "y": 7.0,
+        "w": 33.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 15.0
+      },
+      {
+        "role": "title",
+        "text": "Why SWE-bench Verified no longer measures frontier coding capabilities",
+        "x": 31.0,
+        "y": 14.0,
+        "w": 60.0,
+        "h": 32.0
+      },
+      {
+        "role": "subtitle",
+        "text": "SWE-bench Verified is increasingly contaminated. We recommend SWE-bench Pro.",
+        "x": 35.0,
+        "y": 55.0,
+        "w": 48.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 42.0,
+        "y": 78.0,
+        "w": 39.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/QuuIywMG4s8/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663156.6799347,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why SWE-bench Verified no longer measures frontier coding capabilities\nSWE-bench Verified is increasingly contaminated. We recommend SWE-bench Pro.",
+  "advanced_ocr": {}
+}

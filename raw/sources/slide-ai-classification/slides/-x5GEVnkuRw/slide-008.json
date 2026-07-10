@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "So, let’s try a simple PDF parser...\nVery fast and cheap\nIncomplete\nLoss of structure\nNoisy\nUnfit for most use cases",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "So, let’s try a simple PDF parser...",
+        "x": 27.0,
+        "y": 6.0,
+        "w": 46.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 4.0,
+        "y": 25.0,
+        "w": 28.0,
+        "h": 58.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 37.0,
+        "y": 25.0,
+        "w": 27.0,
+        "h": 58.0
+      },
+      {
+        "role": "body",
+        "text": "Very fast and cheap\nIncomplete\nLoss of structure\nNoisy\nUnfit for most use cases",
+        "x": 69.0,
+        "y": 30.0,
+        "w": 27.0,
+        "h": 42.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/-x5GEVnkuRw/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655933.4982736,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "So, let’s try a simple PDF parser...\nVery fast and cheap\nIncomplete\nLoss of structure\nNoisy\nUnfit for most use cases",
+  "advanced_ocr": {}
+}

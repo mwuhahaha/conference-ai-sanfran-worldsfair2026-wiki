@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Planning work\nDoing work\nReviewing work",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with dark left strip and light gray footer",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Planning work",
+        "x": 33.0,
+        "y": 35.0,
+        "w": 17.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "Doing work",
+        "x": 58.0,
+        "y": 35.0,
+        "w": 12.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "Reviewing work",
+        "x": 79.0,
+        "y": 35.0,
+        "w": 17.0,
+        "h": 11.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer / presented by Google DeepMind",
+        "x": 2.0,
+        "y": 70.0,
+        "w": 20.0,
+        "h": 24.0
+      },
+      {
+        "role": "subtitle",
+        "text": "JACOB LAURITZEN / CTO LEGORA",
+        "x": 24.0,
+        "y": 88.0,
+        "w": 36.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/XNtkiQJ49Ps/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665137.0881648,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Planning work\nDoing work\nReviewing work",
+  "advanced_ocr": {}
+}

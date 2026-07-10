@@ -1,0 +1,907 @@
+{
+  "video_id": "c-2eEv2ou7Y",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 9,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What are MCP & ChatGPT Apps?\nDiscoverability in-chat and in stores on ChatGPT and Claude\nInteractive UI inside AI chats\nLiad and Ido experimenting with MCP-UI\nInitially released on ChatGPT as OpenAI's Apps SDK\nStandardized as MCP first official extension",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple slide; direct read is sufficient",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with magenta and gold accents",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 18.0,
+            "w": 14.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "What are MCP & ChatGPT Apps?",
+            "x": 28.0,
+            "y": 5.0,
+            "w": 50.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Discoverability in-chat and in stores on ChatGPT and Claude\nInteractive UI inside AI chats\nLiad and Ido experimenting with MCP-UI\nInitially released on ChatGPT as OpenAI's Apps SDK\nStandardized as MCP first official extension",
+            "x": 28.0,
+            "y": 26.0,
+            "w": 38.0,
+            "h": 30.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 42.0,
+            "y": 79.0,
+            "w": 42.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/c-2eEv2ou7Y/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666752.246792,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What are MCP & ChatGPT Apps?\nDiscoverability in-chat and in stores on ChatGPT and Claude\nInteractive UI inside AI chats\nLiad and Ido experimenting with MCP-UI\nInitially released on ChatGPT as OpenAI's Apps SDK\nStandardized as MCP first official extension",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "1 Howitworks\nHost MCP Server\ntools'lt\nHhhonoatuw' pm soos\nAIE Views render in response to tool calls resouroes'reud toolsiall\nHTML documents live in resources Yew HTML with _oeeL ut ( Csp pernksors\nViews can be cached ahead of time Createve nth frme? Yew'h the chat\nFeadt ( content + meta.ul.url\nO Hast. MCP Server\nAl Engineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "diagram slide with small text and schematic labels",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with magenta and white accents",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How it works",
+            "x": 28.0,
+            "y": 5.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Views render in response to tool calls\nHTML documents live in resources\nViews can be cached ahead of time",
+            "x": 28.0,
+            "y": 40.0,
+            "w": 33.0,
+            "h": 22.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Host",
+            "x": 63.0,
+            "y": 11.0,
+            "w": 10.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MCP Server",
+            "x": 85.0,
+            "y": 11.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 58.0,
+            "y": 78.0,
+            "w": 20.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/c-2eEv2ou7Y/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666752.2473931,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "How it works",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "1 Howitworks\nHost MCP Server\ntools'lt\nHhhonoatuw' pm soos\nAIE Views render in response to tool calls resouroes'reud toolsiall\nHTML documents live in resources Yew HTML with _oeeL ut ( Csp pernksors\nViews can be cached ahead of time Createve nth frme? Yew'h the chat\nFeadt ( content + meta.ul.url\nO Hast. MCP Server\nAl Engineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 570.68
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "1 Howitworks\nHost MCP Server\ntools'lt\nHhhonoatuw' pm soos\nAIE Views render in response to tool calls resouroes'reud toolsiall\nHTML documents live in resources Yew HTML with _oeeL ut ( Csp pernksors\nViews can be cached ahead of time Createve nth frme? Yew'h the chat\nFeadt ( content + meta.ul.url\nO Hast. MCP Server\nAl Engineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Before AI Apps - the host page\nohatgpt.com default-src Content-Security-Policy Directive sanpea pamoiv\nAIE Trene-grcaoitstrie.ci youruoe.com style-gro script-src connect-sro 1ngrs1blobt solfunsofe-Inline nonce--httos://chutgpt.coo s1t.opeai.ocmwno.//.chatopt script-src src default- inline nane none -U self unsafe-eval' https: str:ct-dynan1c unsafe\nstyle-src self unsaie-inline nonce-\nsrc connect- sel! nt:ps:?55:\nimg-src selt' data::0010\nframe-src self' none blob:\nginetr Engineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense code and CSP table text are better suited to OCR",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with magenta and white accents",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Before AI Apps — the host page",
+            "x": 28.0,
+            "y": 5.0,
+            "w": 52.0,
+            "h": 10.0
+          },
+          {
+            "role": "code",
+            "text": "chatgpt.com Content-Security-Policy",
+            "x": 29.0,
+            "y": 16.0,
+            "w": 24.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Directive\nAllowed values\ndefault-src\nscript-src\nstyle-src\nconnect-src\nimg-src\nframe-src",
+            "x": 58.0,
+            "y": 16.0,
+            "w": 34.0,
+            "h": 52.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 42.0,
+            "y": 79.0,
+            "w": 42.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/c-2eEv2ou7Y/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666818.8583775,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Before AI Apps — the host page",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Before AI Apps - the host page\nohatgpt.com default-src Content-Security-Policy Directive sanpea pamoiv\nAIE Trene-grcaoitstrie.ci youruoe.com style-gro script-src connect-sro 1ngrs1blobt solfunsofe-Inline nonce--httos://chutgpt.coo s1t.opeai.ocmwno.//.chatopt script-src src default- inline nane none -U self unsafe-eval' https: str:ct-dynan1c unsafe\nstyle-src self unsaie-inline nonce-\nsrc connect- sel! nt:ps:?55:\nimg-src selt' data::0010\nframe-src self' none blob:\nginetr Engineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 660.68
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Before AI Apps - the host page\nohatgpt.com default-src Content-Security-Policy Directive sanpea pamoiv\nAIE Trene-grcaoitstrie.ci youruoe.com style-gro script-src connect-sro 1ngrs1blobt solfunsofe-Inline nonce--httos://chutgpt.coo s1t.opeai.ocmwno.//.chatopt script-src src default- inline nane none -U self unsafe-eval' https: str:ct-dynan1c unsafe\nstyle-src self unsaie-inline nonce-\nsrc connect- sel! nt:ps:?55:\nimg-src selt' data::0010\nframe-src self' none blob:\nginetr Engineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Rendering external HTML?\nUse iframes\nThe <iframe> HTML element represents a nested browsing context, embedding another HTML page into the current one.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "simple quote slide; direct read is sufficient",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black with magenta and white accents",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Rendering external HTML?\nUse iframes",
+            "x": 28.0,
+            "y": 5.0,
+            "w": 45.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "The <iframe> HTML element represents a nested browsing context,\nembedding another HTML page into the current one.",
+            "x": 29.0,
+            "y": 41.0,
+            "w": 49.0,
+            "h": 18.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 58.0,
+            "y": 78.0,
+            "w": 20.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/c-2eEv2ou7Y/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666923.6359713,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Rendering external HTML?\nUse iframes\nThe <iframe> HTML element represents a nested browsing context, embedding another HTML page into the current one.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Whatif-srcdoc?\nchatgpt.com Content-Security-Policy\nscript-arenonce--1httpa://*.chatgpt.com\nfre-arcseif*.stripe.con..youtube.coo\nAIE\n<body> itroo srcdoc-\".>\ncdiv>Your App /div>\n</body\"\n× inherits parent csP without script nonce, all view scripts blocked\nginoer Engineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "code/diagram slide with small text and snippet details",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with magenta accents",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What if — srcdoc?",
+            "x": 28.0,
+            "y": 5.0,
+            "w": 30.0,
+            "h": 10.0
+          },
+          {
+            "role": "code",
+            "text": "srcdoc",
+            "x": 50.0,
+            "y": 18.0,
+            "w": 18.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "inherits parent CSP without script nonce, all view scripts blocked",
+            "x": 39.0,
+            "y": 66.0,
+            "w": 49.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/c-2eEv2ou7Y/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666923.6365898,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "What if — srcdoc?",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Whatif-srcdoc?\nchatgpt.com Content-Security-Policy\nscript-arenonce--1httpa://*.chatgpt.com\nfre-arcseif*.stripe.con..youtube.coo\nAIE\n<body> itroo srcdoc-\".>\ncdiv>Your App /div>\n</body\"\n× inherits parent csP without script nonce, all view scripts blocked\nginoer Engineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 416.76
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Whatif-srcdoc?\nchatgpt.com Content-Security-Policy\nscript-arenonce--1httpa://*.chatgpt.com\nfre-arcseif*.stripe.con..youtube.coo\nAIE\n<body> itroo srcdoc-\".>\ncdiv>Your App /div>\n</body\"\n× inherits parent csP without script nonce, all view scripts blocked\nginoer Engineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "pp- specific subdomain with cs The solution - double iframe\nchatgpt.con Content-Security-Policy\nscriot-src.nonce--https://*,chsrgpt.com\nAIE ★ ★ frase-aro'self.stripe.com-youtube.com eeb-snndbox.oniuserconteot\nbody>\naroshttps://sbo123.web-sundbox.ooiusercontent.con\nneta http-equiva'Content-Security-Policy'content-'connect-src'ey-service\n<scripr>initieiizeipp()s/acript>\nsrcdoc*\"'sandboxe'ellok-scriptsellom-snne-origin'>\n<AID/>.dOY.JnOX<ATp>\n</body>\ngineer AI Engineer EUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code-like slide with small text and cropped elements; OCR will be more reliable.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 12.0,
+            "h": 18.0
+          },
+          {
+            "role": "title",
+            "text": "The solution - double iframe",
+            "x": 49.0,
+            "y": 4.0,
+            "w": 43.0,
+            "h": 14.0
+          },
+          {
+            "role": "subtitle",
+            "text": "specific subdomain with CSP",
+            "x": 50.0,
+            "y": 17.0,
+            "w": 38.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 56.0,
+            "y": 84.0,
+            "w": 24.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/c-2eEv2ou7Y/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667076.3208208,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "pp- specific subdomain with cs The solution - double iframe\nchatgpt.con Content-Security-Policy\nscriot-src.nonce--https://*,chsrgpt.com\nAIE ★ ★ frase-aro'self.stripe.com-youtube.com eeb-snndbox.oniuserconteot\nbody>\naroshttps://sbo123.web-sundbox.ooiusercontent.con\nneta http-equiva'Content-Security-Policy'content-'connect-src'ey-service\n<scripr>initieiizeipp()s/acript>\nsrcdoc*\"'sandboxe'ellok-scriptsellom-snne-origin'>\n<AID/>.dOY.JnOX<ATp>\n</body>\ngineer AI Engineer EUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 467.12
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "pp- specific subdomain with cs The solution - double iframe\nchatgpt.con Content-Security-Policy\nscriot-src.nonce--https://*,chsrgpt.com\nAIE ★ ★ frase-aro'self.stripe.com-youtube.com eeb-snndbox.oniuserconteot\nbody>\naroshttps://sbo123.web-sundbox.ooiusercontent.con\nneta http-equiva'Content-Security-Policy'content-'connect-src'ey-service\n<scripr>initieiizeipp()s/acript>\nsrcdoc*\"'sandboxe'ellok-scriptsellom-snne-origin'>\n<AID/>.dOY.JnOX<ATp>\n</body>\ngineer AI Engineer EUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "app depends on You must declare all domains your\nAIE _metaui.csp feld CSP directive(s) Unlocks\nconnectDorains conneci-src fetch, XHR, WebSocket\nresourcedonains script-src <tvlc-src font-src 1ng-src ncdia-src External scripts,styles,fonts,images\nfracDonains frane-src Nested iframes(maps,video)\nbaseUriDorains basc-ur1 Custom base URIs\ngineer Engineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense table slide with small text; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "You must declare all domains your app depends on",
+            "x": 31.0,
+            "y": 4.0,
+            "w": 61.0,
+            "h": 16.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 12.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "_meta.ui.csp field",
+            "x": 30.0,
+            "y": 30.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "CSP directive(s)",
+            "x": 44.0,
+            "y": 30.0,
+            "w": 15.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Unlocks",
+            "x": 75.0,
+            "y": 30.0,
+            "w": 10.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "connectDomains",
+            "x": 30.0,
+            "y": 42.0,
+            "w": 15.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "connect-src",
+            "x": 44.0,
+            "y": 42.0,
+            "w": 12.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "fetch, XHR, WebSocket",
+            "x": 75.0,
+            "y": 42.0,
+            "w": 19.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "resourceDomains",
+            "x": 30.0,
+            "y": 52.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "script-src style-src font-src img-src media-src",
+            "x": 44.0,
+            "y": 52.0,
+            "w": 31.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "External scripts, styles, fonts, images",
+            "x": 75.0,
+            "y": 52.0,
+            "w": 22.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "frameDomains",
+            "x": 30.0,
+            "y": 62.0,
+            "w": 14.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "frame-src",
+            "x": 44.0,
+            "y": 62.0,
+            "w": 10.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Nested iframes (maps, video)",
+            "x": 75.0,
+            "y": 62.0,
+            "w": 20.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "baseUriDomains",
+            "x": 30.0,
+            "y": 72.0,
+            "w": 15.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "base-uri",
+            "x": 44.0,
+            "y": 72.0,
+            "w": 9.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Custom base URIs",
+            "x": 75.0,
+            "y": 72.0,
+            "w": 16.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 42.0,
+            "y": 90.0,
+            "w": 43.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/c-2eEv2ou7Y/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667118.8694897,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "app depends on You must declare all domains your\nAIE _metaui.csp feld CSP directive(s) Unlocks\nconnectDorains conneci-src fetch, XHR, WebSocket\nresourcedonains script-src <tvlc-src font-src 1ng-src ncdia-src External scripts,styles,fonts,images\nfracDonains frane-src Nested iframes(maps,video)\nbaseUriDorains basc-ur1 Custom base URIs\ngineer Engineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 590.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "app depends on You must declare all domains your\nAIE _metaui.csp feld CSP directive(s) Unlocks\nconnectDorains conneci-src fetch, XHR, WebSocket\nresourcedonains script-src <tvlc-src font-src 1ng-src ncdia-src External scripts,styles,fonts,images\nfracDonains frane-src Nested iframes(maps,video)\nbaseUriDorains basc-ur1 Custom base URIs\ngineer Engineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Build MCP Apps with Skybridge\nOpen-source framework for building MCP Apps\nEnd-to-end typesafety\nModern development environment\nUnified APIs for host cross-compatibility",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title-and-bullets slide; direct reading is sufficient.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Build MCP Apps with Skybridge",
+            "x": 30.0,
+            "y": 4.0,
+            "w": 48.0,
+            "h": 13.0
+          },
+          {
+            "role": "logo",
+            "text": "SKYBRIDGE - skybridge.tech",
+            "x": 53.0,
+            "y": 16.0,
+            "w": 27.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Open-source framework for building MCP Apps",
+            "x": 52.0,
+            "y": 28.0,
+            "w": 34.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "End-to-end typesafety",
+            "x": 52.0,
+            "y": 37.0,
+            "w": 23.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Modern development environment",
+            "x": 52.0,
+            "y": 45.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Unified APIs for host cross-compatibility",
+            "x": 52.0,
+            "y": 53.0,
+            "w": 33.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "github.com/alpic-ai/skybridge",
+            "x": 30.0,
+            "y": 79.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Star the repo -> enter the lottery to win a mask",
+            "x": 54.0,
+            "y": 71.0,
+            "w": 34.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 12.0,
+            "h": 18.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 55.0,
+            "y": 84.0,
+            "w": 25.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/c-2eEv2ou7Y/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667136.4745462,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Build MCP Apps with Skybridge\nOpen-source framework for building MCP Apps\nEnd-to-end typesafety\nModern development environment\nUnified APIs for host cross-compatibility",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Skybridge alale-l-aov0.0.1 Leare reast eree\nToots 1-teet magic-s-ball ette DcatL Tost\nmagic-8-bat1 Fer rerte-ttLing ee seeking 335434\nquestion\nAIE\nAIEngineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "UI screenshot with small embedded text; OCR is likely the best extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 12.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "Skybridge",
+            "x": 20.0,
+            "y": 3.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "magic-8-ball",
+            "x": 43.0,
+            "y": 3.0,
+            "w": 11.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Tools",
+            "x": 20.0,
+            "y": 13.0,
+            "w": 6.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "metadata",
+            "x": 45.0,
+            "y": 11.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Call Tool",
+            "x": 63.0,
+            "y": 11.0,
+            "w": 9.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "Form",
+            "x": 40.0,
+            "y": 20.0,
+            "w": 5.0,
+            "h": 4.0
+          },
+          {
+            "role": "caption",
+            "text": "question",
+            "x": 40.0,
+            "y": 30.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 55.0,
+            "y": 84.0,
+            "w": 25.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/c-2eEv2ou7Y/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667136.4751053,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Skybridge alale-l-aov0.0.1 Leare reast eree\nToots 1-teet magic-s-ball ette DcatL Tost\nmagic-8-bat1 Fer rerte-ttLing ee seeking 335434\nquestion\nAIE\nAIEngineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 282.64
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "Skybridge alale-l-aov0.0.1 Leare reast eree\nToots 1-teet magic-s-ball ette DcatL Tost\nmagic-8-bat1 Fer rerte-ttLing ee seeking 335434\nquestion\nAIE\nAIEngineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/c-2eEv2ou7Y/slide-011.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "camera shot of speaker on stage with only a partial projected slide visible",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "not a readable slide frame",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple stage wall with bright window light",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/c-2eEv2ou7Y/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783666752.2461765,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage with partial projected slide; not a readable presentation slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide frame.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "photo",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/c-2eEv2ou7Y/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783667076.3191166,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

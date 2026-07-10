@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Core Concepts\n\nSignatures\nSpecify what you want,\nnot how; let the LLM\nfigure it out\n\nModules\nStructure your program\nlogically\n\nTools\nInteract with the outside\nworld - or the rest of the\nprogram\n\nAdapters\nCustomizable prompt\nformatters: think JSON,\nBAML, XML, etc.\n\nOptimizers\nOptimize your DSPy\nprogram, ML-style\n(let the LLM figure it out!)\n\nMetrics\nDefine what to optimize\nagainst (can be multiple\nthings)",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram-style slide with six text boxes and small labels is better suited to OCR extraction.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#30413d",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Core Concepts",
+        "x": 3.0,
+        "y": 4.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Signatures\nSpecify what you want, not how; let the LLM figure it out",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 28.0,
+        "h": 31.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Modules\nStructure your program logically",
+        "x": 36.0,
+        "y": 14.0,
+        "w": 28.0,
+        "h": 31.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools\nInteract with the outside world - or the rest of the program",
+        "x": 69.0,
+        "y": 14.0,
+        "w": 27.0,
+        "h": 31.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Adapters\nCustomizable prompt formatters: think JSON, BAML, XML, etc.",
+        "x": 5.0,
+        "y": 52.0,
+        "w": 28.0,
+        "h": 31.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Optimizers\nOptimize your DSPy program, ML-style\n(let the LLM figure it out!)",
+        "x": 36.0,
+        "y": 52.0,
+        "w": 28.0,
+        "h": 31.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Metrics\nDefine what to optimize against (can be multiple things)",
+        "x": 69.0,
+        "y": 52.0,
+        "w": 27.0,
+        "h": 31.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655143.1445034,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Core Concepts",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Core Concepts t+ tht+ ++ itt Thing NYC NYT) 44. D Cerurel.\nSignatures Modules Tools\nnot how letthe LLM figure it out Specify whatyou want, logically Structure your program program. Interact with the outside world= orthe rest of the\nAdapters Optimizers Metrics\nCustomizable prompt formatters: thinkJSON, BAML,XML, etc. program ML-style Optimize your DSPy (Iet the LLM fgure it out) against (can' be nultiple Define what to optimize things)",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 726.76
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Core Concepts\n\nSignatures\nSpecify what you want,\nnot how; let the LLM\nfigure it out\n\nModules\nStructure your program\nlogically\n\nTools\nInteract with the outside\nworld - or the rest of the\nprogram\n\nAdapters\nCustomizable prompt\nformatters: think JSON,\nBAML, XML, etc.\n\nOptimizers\nOptimize your DSPy\nprogram, ML-style\n(let the LLM figure it out!)\n\nMetrics\nDefine what to optimize\nagainst (can be multiple\nthings)",
+    "text_status": "meaningful",
+    "corrections": "Corrected OCR errors and restored the slide text and line breaks from the image."
+  }
+}

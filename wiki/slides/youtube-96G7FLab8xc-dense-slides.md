@@ -16,11 +16,25 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/96G7FLab8xc/slide-001.jpg]]
 
-- Source scene image: `frame-00090.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.83`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/96G7FLab8xc/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+- OCR decision: ready — Dense embedded article screenshots with small text; OCR will read these more reliably than a quick visual pass.
+
+Slide text:
+
+> Curate ruthlessly
+
 ![[assets/dense-slides/96G7FLab8xc/slide-002.jpg]]
 
-- Source scene image: `frame-00094.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.64`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/96G7FLab8xc/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+- OCR decision: ready — Dense embedded screenshots and small webpage text are OCR-suitable; the slide title alone is not enough to capture the content.
+
+Slide text:
+
+> Yes, but...
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/96G7FLab8xc/audit.json`

@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE REAL COST\nTHE SAME DECK\n10 hrs\n25 min\n↓ 24× faster",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "radial-gradient(#11331c, #050505)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "THE REAL COST",
+        "x": 42.0,
+        "y": 6.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "THE SAME DECK",
+        "x": 42.0,
+        "y": 21.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "10 hrs",
+        "x": 19.0,
+        "y": 40.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "25 min",
+        "x": 18.0,
+        "y": 56.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "↓ 24× faster",
+        "x": 43.0,
+        "y": 71.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "you remove all the formatting and the branding and the moving things around.",
+        "x": 15.0,
+        "y": 84.0,
+        "w": 70.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/JRTAtZ5iBkU/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659960.081963,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "THE REAL COST\nTHE SAME DECK\n10 hrs\n25 min\n↓ 24× faster",
+  "advanced_ocr": {}
+}

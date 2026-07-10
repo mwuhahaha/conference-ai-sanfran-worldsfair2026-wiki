@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Concern 4: Trust boundaries",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple slide with one screenshot; OCR is unlikely to add much in this triage pass.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "warm yellow/orange gradient",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Concern 4: Trust boundaries",
+        "x": 32.0,
+        "y": 10.0,
+        "w": 35.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "remote debugging dialog screenshot",
+        "x": 39.0,
+        "y": 27.0,
+        "w": 48.0,
+        "h": 48.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 56.0,
+        "y": 84.0,
+        "w": 21.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/_B4Pv9ttFgY/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666138.7379653,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Concern 4: Trust boundaries",
+  "advanced_ocr": {}
+}

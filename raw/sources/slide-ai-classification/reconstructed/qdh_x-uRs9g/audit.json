@@ -1,0 +1,1291 @@
+{
+  "video_id": "qdh_x-uRs9g",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 10,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE AWRTERSDIAAYONA What Actually Makes Embedding\n★ ★ ★ ★ ★ Model InferenceFast?\nFrom Fiash Artention to Quintzatoo,whero is the intergnce borteneck? Is it the architecturo, the mathis,or will wniting ovorything in Rust sohve olmy probiems？hdint:\nR's Not Rust)\nFIUPVAKRADUUI\nN22,2V26\nGoogle Dee\nAlEngineer",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Small embedded article screenshot and composite slide elements are better suited for OCR than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 19.0,
+            "w": 12.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "What Actually Makes Embedding Model Inference Fast?",
+            "x": 27.0,
+            "y": 15.0,
+            "w": 38.0,
+            "h": 35.0
+          },
+          {
+            "role": "caption",
+            "text": "Not quite.",
+            "x": 69.0,
+            "y": 25.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 50.0,
+            "y": 76.0,
+            "w": 27.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-003.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670949.2069132,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Not quite.",
+      "advanced_ocr": {
+        "source": "rapidocr-live/left-72/contrast",
+        "text": "AIE AWRTERSDIAAYONA What Actually Makes Embedding\n★ ★ ★ ★ ★ Model InferenceFast?\nFrom Fiash Artention to Quintzatoo,whero is the intergnce borteneck? Is it the architecturo, the mathis,or will wniting ovorything in Rust sohve olmy probiems？hdint:\nR's Not Rust)\nFIUPVAKRADUUI\nN22,2V26\nGoogle Dee\nAlEngineer",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 486.04
+      },
+      "ocr_source": "rapidocr-live/left-72/contrast",
+      "ocr_reconcile": {
+        "text": "AIE AWRTERSDIAAYONA What Actually Makes Embedding\n★ ★ ★ ★ ★ Model InferenceFast?\nFrom Fiash Artention to Quintzatoo,whero is the intergnce borteneck? Is it the architecturo, the mathis,or will wniting ovorything in Rust sohve olmy probiems？hdint:\nR's Not Rust)\nFIUPVAKRADUUI\nN22,2V26\nGoogle Dee\nAlEngineer",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/qdh_x-uRs9g/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "I realised ... I had to learn",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "I realised ... I had to learn",
+            "x": 39.0,
+            "y": 7.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 19.0,
+            "w": 12.0,
+            "h": 20.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 56.0,
+            "y": 81.0,
+            "w": 22.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-004.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670991.4893575,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "I realised ... I had to learn",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/qdh_x-uRs9g/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "LEARNING FROM FIRST PRINCIPLES\nI knew models well\nTraining & fine-tuning\nEvaluation & benchmarking\nApplied AI research\nvLLM, Flash Attention\nI had overlooked infrastructure\nHow models run in production\nGPU utilization & scheduling\nRouting & autoscaling\nDeployment & operations\nBest way to learn?\nJoin the team building it.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "LEARNING FROM FIRST PRINCIPLES",
+            "x": 40.0,
+            "y": 3.0,
+            "w": 33.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "I knew models well\nTraining & fine-tuning\nEvaluation & benchmarking\nApplied AI research\nvLLM, Flash Attention",
+            "x": 29.0,
+            "y": 10.0,
+            "w": 29.0,
+            "h": 33.0
+          },
+          {
+            "role": "body",
+            "text": "I had overlooked infrastructure\nHow models run in production\nGPU utilization & scheduling\nRouting & autoscaling\nDeployment & operations",
+            "x": 65.0,
+            "y": 10.0,
+            "w": 29.0,
+            "h": 33.0
+          },
+          {
+            "role": "caption",
+            "text": "years of experience",
+            "x": 36.0,
+            "y": 44.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "blind spot",
+            "x": 78.0,
+            "y": 44.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Best way to learn?\nJoin the team building it.",
+            "x": 44.0,
+            "y": 60.0,
+            "w": 33.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-005.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670991.490008,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "LEARNING FROM FIRST PRINCIPLES\nI knew models well\nTraining & fine-tuning\nEvaluation & benchmarking\nApplied AI research\nvLLM, Flash Attention\nI had overlooked infrastructure\nHow models run in production\nGPU utilization & scheduling\nRouting & autoscaling\nDeployment & operations\nBest way to learn?\nJoin the team building it.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/qdh_x-uRs9g/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "SoIjoined theworld class infrastructure team at:\nSuperlinked github.com/superlinked/sie\nAIE VC - backed Al infrastructure company building the model stack for Al search and document processing\nWorkswithyourfavorite tools\nP：Lanceoe OOC 电adamt WWeovoN\nerginoering simcle.SIEadcs nstructon-folowng rerankors souopepna dueuogeupue modalraning dacasets and wSEyoucan so-host nfeence for M me reqsred deta transformucior' 'Lenceoe ceotralizes muit- scorng feorrg and ranking host bhem al in one chste comoose the best ndeing modes Weh SE you cen ser- 'Mooern serch sytems uniccis nacural language pre-procnss your outny ag soarchandwnSIEyoucan \"Weviee's Query Agene\n011022 ceng See AnoeTanycei lco Van Lo C40400-5\nAI Engineer\nAlEngineer EUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Contains a product screenshot with small text plus multiple embedded labels that are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "So I joined the world class infrastructure team at:",
+            "x": 34.0,
+            "y": 5.0,
+            "w": 50.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "Superlinked",
+            "x": 40.0,
+            "y": 16.0,
+            "w": 22.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "github.com/superlinked/sie",
+            "x": 68.0,
+            "y": 16.0,
+            "w": 23.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "VC-backed AI infrastructure company building the model stack for AI search and document processing",
+            "x": 30.0,
+            "y": 28.0,
+            "w": 45.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Works with your favorite tools",
+            "x": 37.0,
+            "y": 40.0,
+            "w": 27.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-006.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670991.49408,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "SoIjoined theworld class infrastructure team at:\nSuperlinked github.com/superlinked/sie\nAIE VC - backed Al infrastructure company building the model stack for Al search and document processing\nWorkswithyourfavorite tools\nP：Lanceoe OOC 电adamt WWeovoN\nerginoering simcle.SIEadcs nstructon-folowng rerankors souopepna dueuogeupue modalraning dacasets and wSEyoucan so-host nfeence for M me reqsred deta transformucior' 'Lenceoe ceotralizes muit- scorng feorrg and ranking host bhem al in one chste comoose the best ndeing modes Weh SE you cen ser- 'Mooern serch sytems uniccis nacural language pre-procnss your outny ag soarchandwnSIEyoucan \"Weviee's Query Agene\n011022 ceng See AnoeTanycei lco Van Lo C40400-5\nAI Engineer\nAlEngineer EUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 1042.2
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "SoIjoined theworld class infrastructure team at:\nSuperlinked github.com/superlinked/sie\nAIE VC - backed Al infrastructure company building the model stack for Al search and document processing\nWorkswithyourfavorite tools\nP：Lanceoe OOC 电adamt WWeovoN\nerginoering simcle.SIEadcs nstructon-folowng rerankors souopepna dueuogeupue modalraning dacasets and wSEyoucan so-host nfeence for M me reqsred deta transformucior' 'Lenceoe ceotralizes muit- scorng feorrg and ranking host bhem al in one chste comoose the best ndeing modes Weh SE you cen ser- 'Mooern serch sytems uniccis nacural language pre-procnss your outny ag soarchandwnSIEyoucan \"Weviee's Query Agene\n011022 ceng See AnoeTanycei lco Van Lo C40400-5\nAI Engineer\nAlEngineer EUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/qdh_x-uRs9g/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Performance dogrades as context flls up. More tokens,worse answers. Contextrofisrea! Manoges what goes INTO context. Context management\n★ ★? AIE ★ Tool calling Emboddings; reranking, extroction\nCWhy not Just Opus 4.6?n\nWorks untif contoxt rot kils guolity\nSourco:Chromo Rosqorch\nAlEngineer\nAlEngineor EUROPE\nhcn",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense chart and multi-column card slide with small text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "WHY IT MATTERS FOR YOUR AGENTS",
+            "x": 52.0,
+            "y": 2.0,
+            "w": 33.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Context rot is real",
+            "x": 29.0,
+            "y": 8.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Performance degrades as context fills up. More tokens, worse answers.",
+            "x": 29.0,
+            "y": 14.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "Context management",
+            "x": 74.0,
+            "y": 9.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Manages what goes INTO context,",
+            "x": 74.0,
+            "y": 15.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Tool calling",
+            "x": 74.0,
+            "y": 30.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Embeddings, reranking, extraction",
+            "x": 74.0,
+            "y": 36.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "\"Why not just Opus 4.6?\"",
+            "x": 74.0,
+            "y": 50.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Works until context rot kills quality",
+            "x": 74.0,
+            "y": 57.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Source: Chroma Research",
+            "x": 44.0,
+            "y": 74.0,
+            "w": 20.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-007.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671227.2671413,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Performance dogrades as context flls up. More tokens,worse answers. Contextrofisrea! Manoges what goes INTO context. Context management\n★ ★? AIE ★ Tool calling Emboddings; reranking, extroction\nCWhy not Just Opus 4.6?n\nWorks untif contoxt rot kils guolity\nSourco:Chromo Rosqorch\nAlEngineer\nAlEngineor EUROPE\nhcn",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 528.36
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Performance dogrades as context flls up. More tokens,worse answers. Contextrofisrea! Manoges what goes INTO context. Context management\n★ ★? AIE ★ Tool calling Emboddings; reranking, extroction\nCWhy not Just Opus 4.6?n\nWorks untif contoxt rot kils guolity\nSourco:Chromo Rosqorch\nAlEngineer\nAlEngineor EUROPE\nhcn",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/qdh_x-uRs9g/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "WHYITMATTERSFORYOURAGENTS\nTaxonomy classification 10K categories Shopify product catalogue text + images A production story for tool calling Manages what goes INTO context, Context management\nAIE title+image Product sio.extract() sie.encode() NU dosicoton emnbedrot- WSOL Electronics Computers,Laptops Tool calling Embeddings:reranking,extraction\nsie.score() roronkcordoates\nSwitching model type = changing one parameter, not rebuilding infra \"Why not just Opus 4.6?\" Works until context rot kills quality\nEngineering the future of Al\nAl Enginecr",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram, small labels, and multiple text panels",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "WHY IT MATTERS FOR YOUR AGENTS",
+            "x": 52.0,
+            "y": 2.0,
+            "w": 33.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "A production story for tool calling",
+            "x": 30.0,
+            "y": 8.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Taxonomy classification",
+            "x": 30.0,
+            "y": 15.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "subtitle",
+            "text": "10K categories Shopify product catalogue text + images",
+            "x": 30.0,
+            "y": 19.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "label",
+            "text": "Product",
+            "x": 30.0,
+            "y": 34.0,
+            "w": 9.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "title + image",
+            "x": 30.0,
+            "y": 40.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "code",
+            "text": "sie.extract()",
+            "x": 43.0,
+            "y": 25.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "sie.encode()",
+            "x": 43.0,
+            "y": 36.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "sie.score()",
+            "x": 43.0,
+            "y": 47.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "NLP classification",
+            "x": 57.0,
+            "y": 27.0,
+            "w": 13.0,
+            "h": 4.0
+          },
+          {
+            "role": "label",
+            "text": "embed text + images",
+            "x": 57.0,
+            "y": 38.0,
+            "w": 13.0,
+            "h": 4.0
+          },
+          {
+            "role": "label",
+            "text": "rerank candidates",
+            "x": 57.0,
+            "y": 49.0,
+            "w": 13.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Electronics > Computers > Laptops",
+            "x": 61.0,
+            "y": 33.0,
+            "w": 14.0,
+            "h": 13.0
+          },
+          {
+            "role": "caption",
+            "text": "Switching model type = changing one parameter, not rebuilding infra",
+            "x": 31.0,
+            "y": 68.0,
+            "w": 42.0,
+            "h": 7.0
+          },
+          {
+            "role": "title",
+            "text": "Context management",
+            "x": 74.0,
+            "y": 9.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Manages what goes INTO context,",
+            "x": 74.0,
+            "y": 15.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Tool calling",
+            "x": 74.0,
+            "y": 30.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Embeddings, reranking, extraction",
+            "x": 74.0,
+            "y": 36.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "\"Why not just Opus 4.6?\"",
+            "x": 74.0,
+            "y": 50.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Works until context rot kills quality",
+            "x": 74.0,
+            "y": 57.0,
+            "w": 24.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-008.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671245.5368636,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "WHYITMATTERSFORYOURAGENTS\nTaxonomy classification 10K categories Shopify product catalogue text + images A production story for tool calling Manages what goes INTO context, Context management\nAIE title+image Product sio.extract() sie.encode() NU dosicoton emnbedrot- WSOL Electronics Computers,Laptops Tool calling Embeddings:reranking,extraction\nsie.score() roronkcordoates\nSwitching model type = changing one parameter, not rebuilding infra \"Why not just Opus 4.6?\" Works until context rot kills quality\nEngineering the future of Al\nAl Enginecr",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 764.36
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "WHYITMATTERSFORYOURAGENTS\nTaxonomy classification 10K categories Shopify product catalogue text + images A production story for tool calling Manages what goes INTO context, Context management\nAIE title+image Product sio.extract() sie.encode() NU dosicoton emnbedrot- WSOL Electronics Computers,Laptops Tool calling Embeddings:reranking,extraction\nsie.score() roronkcordoates\nSwitching model type = changing one parameter, not rebuilding infra \"Why not just Opus 4.6?\" Works until context rot kills quality\nEngineering the future of Al\nAl Enginecr",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/qdh_x-uRs9g/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "YIN - MODEL SUPPORTIS KEY, OPEN SOURCEIS NOT STOPPINg\nModcl Pcrformancc vs sizc\nAIE ★\n★\n3:0\nGommo 4 modol porformonco =your infra noods to koepup\nAlEngineer\nAEnginccy EUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart with small axes and labels",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "YIN — MODEL SUPPORT IS KEY, OPEN SOURCE IS NOT STOPPING",
+            "x": 41.0,
+            "y": 2.0,
+            "w": 46.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Model Performance VS Size",
+            "x": 49.0,
+            "y": 8.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "Bx Score",
+            "x": 38.0,
+            "y": 40.0,
+            "w": 8.0,
+            "h": 20.0
+          },
+          {
+            "role": "label",
+            "text": "Total Model Size (Billion Parameters)",
+            "x": 51.0,
+            "y": 74.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Gemma 4 model performance — your infra needs to keep up",
+            "x": 48.0,
+            "y": 78.0,
+            "w": 31.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-009.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671263.9852653,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/opencv-adaptive",
+        "text": "YIN - MODEL SUPPORTIS KEY, OPEN SOURCEIS NOT STOPPINg\nModcl Pcrformancc vs sizc\nAIE ★\n★\n3:0\nGommo 4 modol porformonco =your infra noods to koepup\nAlEngineer\nAEnginccy EUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 320.32
+      },
+      "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "YIN - MODEL SUPPORTIS KEY, OPEN SOURCEIS NOT STOPPINg\nModcl Pcrformancc vs sizc\nAIE ★\n★\n3:0\nGommo 4 modol porformonco =your infra noods to koepup\nAlEngineer\nAEnginccy EUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/qdh_x-uRs9g/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Architecture matrix and side notes with small text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "SO, LET'S SUPPORT 85+ MODELS WITH 35+ RUNTIMES AND INFERENCE BACKENDS",
+            "x": 31.0,
+            "y": 2.0,
+            "w": 65.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Every architecture is different under the hood",
+            "x": 30.0,
+            "y": 8.0,
+            "w": 31.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "bert_flash",
+            "x": 30.0,
+            "y": 14.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "qwen2_flash",
+            "x": 54.0,
+            "y": 14.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "modernbert_flash",
+            "x": 30.0,
+            "y": 26.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "colbert",
+            "x": 54.0,
+            "y": 26.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "cross_encoder",
+            "x": 30.0,
+            "y": 38.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "clip_siglip_florence2",
+            "x": 54.0,
+            "y": 38.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "splade_flash",
+            "x": 30.0,
+            "y": 49.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "sglang",
+            "x": 54.0,
+            "y": 49.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "No universal engine",
+            "x": 74.0,
+            "y": 18.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "An agentic workflow",
+            "x": 74.0,
+            "y": 39.0,
+            "w": 17.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Re-implementation",
+            "x": 74.0,
+            "y": 58.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "15 of 35 adapters use Flash Attention 2 with variable-length sequence packing",
+            "x": 36.0,
+            "y": 77.0,
+            "w": 44.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-010.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671281.4523845,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/contrast",
+        "best_score": 1118.56,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0032
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/qdh_x-uRs9g/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "SAME5STEPS,DIFFERENTIMPLEMENTATION\nBERT Qwen2 CoLBERT\n1. Norm Post-norm(after) Pre-norm RMSNorm From base arch\n2. Q/K/V 3 → we fuse into 1 Separate (GQA) From base arch\nAIE\n3. Position Absolute lookup RoPE rotation From base arch\n4. Attention MHA,allsame GQA (fewer KV) Bidirectioncl\n5. Output 1pooledvector 1pooledvector Nvectors(per-token)\nDifferent fromBERT-differentforward pass Differentoutput type entirely\nAll on packed sequences with flash_attn_varlen = zero padding waste\nEngineering the future of Al\nAlEnginecr",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Comparison table with many small cells",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "SAME 5 STEPS, DIFFERENT IMPLEMENTATION",
+            "x": 36.0,
+            "y": 2.0,
+            "w": 40.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "BERT",
+            "x": 43.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "Qwen2",
+            "x": 61.0,
+            "y": 8.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "ColBERT",
+            "x": 80.0,
+            "y": 8.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "label",
+            "text": "1. Norm",
+            "x": 31.0,
+            "y": 15.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "label",
+            "text": "2. Q/K/V",
+            "x": 31.0,
+            "y": 28.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "label",
+            "text": "3. Position",
+            "x": 31.0,
+            "y": 40.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "label",
+            "text": "4. Attention",
+            "x": 31.0,
+            "y": 53.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "label",
+            "text": "5. Output",
+            "x": 31.0,
+            "y": 65.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Post-norm (after)",
+            "x": 39.0,
+            "y": 16.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Pre-norm RMSNorm",
+            "x": 56.0,
+            "y": 15.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "From base arch",
+            "x": 79.0,
+            "y": 16.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Separate (GQA)",
+            "x": 56.0,
+            "y": 28.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Absolute lookup",
+            "x": 39.0,
+            "y": 41.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "RoPE rotation",
+            "x": 56.0,
+            "y": 40.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "MHA, all same",
+            "x": 39.0,
+            "y": 53.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "GQA (fewer KV)",
+            "x": 56.0,
+            "y": 53.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Bidirectional",
+            "x": 79.0,
+            "y": 53.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "1 pooled vector",
+            "x": 39.0,
+            "y": 65.0,
+            "w": 13.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "N vectors (per-token)",
+            "x": 79.0,
+            "y": 65.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "All on packed sequences with flash_attn_varlen = zero padding waste",
+            "x": 39.0,
+            "y": 80.0,
+            "w": 45.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-011.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671303.894585,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "SAME5STEPS,DIFFERENTIMPLEMENTATION\nBERT Qwen2 CoLBERT\n1. Norm Post-norm(after) Pre-norm RMSNorm From base arch\n2. Q/K/V 3 → we fuse into 1 Separate (GQA) From base arch\nAIE\n3. Position Absolute lookup RoPE rotation From base arch\n4. Attention MHA,allsame GQA (fewer KV) Bidirectioncl\n5. Output 1pooledvector 1pooledvector Nvectors(per-token)\nDifferent fromBERT-differentforward pass Differentoutput type entirely\nAll on packed sequences with flash_attn_varlen = zero padding waste\nEngineering the future of Al\nAlEnginecr",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 722.92
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "SAME5STEPS,DIFFERENTIMPLEMENTATION\nBERT Qwen2 CoLBERT\n1. Norm Post-norm(after) Pre-norm RMSNorm From base arch\n2. Q/K/V 3 → we fuse into 1 Separate (GQA) From base arch\nAIE\n3. Position Absolute lookup RoPE rotation From base arch\n4. Attention MHA,allsame GQA (fewer KV) Bidirectioncl\n5. Output 1pooledvector 1pooledvector Nvectors(per-token)\nDifferent fromBERT-differentforward pass Differentoutput type entirely\nAll on packed sequences with flash_attn_varlen = zero padding waste\nEngineering the future of Al\nAlEnginecr",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/qdh_x-uRs9g/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "ILEARNEDMYLESSON ON INFERENCE\nWe open sourced both the yin (model inference) and the yang (clust\nSuperlinked\nAIE SlE - Superlinked Inference Engine\nDn-scurce dprioxctiencusterererbedsings,rerankirg.ngertrkscn\nB.modelyFrreglrctiors.Frem iactcploDibernetes.AlAeache2.o\ngithub.com/superlinked/sie\nGoogle DeepMind\nAlEnginecr",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense promo slide with QR code and small text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "red-and-black striped",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "I LEARNED MY LESSON ON INFERENCE",
+            "x": 46.0,
+            "y": 3.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "subtitle",
+            "text": "We open sourced both the yin (model inference) and the yang (cluster)",
+            "x": 31.0,
+            "y": 9.0,
+            "w": 58.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Superlinked",
+            "x": 44.0,
+            "y": 28.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "title",
+            "text": "SIE — Superlinked Inference Engine",
+            "x": 39.0,
+            "y": 35.0,
+            "w": 25.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "github.com/superlinked/sie",
+            "x": 40.0,
+            "y": 63.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram",
+            "text": "",
+            "x": 76.0,
+            "y": 18.0,
+            "w": 20.0,
+            "h": 46.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-012.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783671378.3011487,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/contrast",
+        "text": "ILEARNEDMYLESSON ON INFERENCE\nWe open sourced both the yin (model inference) and the yang (clust\nSuperlinked\nAIE SlE - Superlinked Inference Engine\nDn-scurce dprioxctiencusterererbedsings,rerankirg.ngertrkscn\nB.modelyFrreglrctiors.Frem iactcploDibernetes.AlAeache2.o\ngithub.com/superlinked/sie\nGoogle DeepMind\nAlEnginecr",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 372.12
+      },
+      "ocr_source": "rapidocr-live/center-82/contrast",
+      "ocr_reconcile": {
+        "text": "ILEARNEDMYLESSON ON INFERENCE\nWe open sourced both the yin (model inference) and the yang (clust\nSuperlinked\nAIE SlE - Superlinked Inference Engine\nDn-scurce dprioxctiencusterererbedsings,rerankirg.ngertrkscn\nB.modelyFrreglrctiors.Frem iactcploDibernetes.AlAeache2.o\ngithub.com/superlinked/sie\nGoogle DeepMind\nAlEnginecr",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/qdh_x-uRs9g/slide-012.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "sponsor logo wall",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "PLATINUM SPONSORS",
+            "x": 34.0,
+            "y": 36.0,
+            "w": 32.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "Braintrust",
+            "x": 7.0,
+            "y": 49.0,
+            "w": 34.0,
+            "h": 18.0
+          },
+          {
+            "role": "logo",
+            "text": "WorkOS",
+            "x": 43.0,
+            "y": 49.0,
+            "w": 24.0,
+            "h": 18.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenAI",
+            "x": 72.0,
+            "y": 49.0,
+            "w": 20.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-001.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670949.2059753,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "camera shot of speaker on stage with projected slide, not a clean presentation slide",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "gray room with red projected screen",
+        "style": "other",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The Small-Model Infrastructure Nobody Built (so we did)",
+            "x": 71.0,
+            "y": 5.0,
+            "w": 27.0,
+            "h": 55.0
+          },
+          {
+            "role": "caption",
+            "text": "Filip Makraduli · Superlinked",
+            "x": 74.0,
+            "y": 42.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 10.0,
+            "y": 63.0,
+            "w": 15.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-002.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783670949.2065473,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

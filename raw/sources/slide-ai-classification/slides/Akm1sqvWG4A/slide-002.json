@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Two problems every document chatbot hits",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small text in two-column slide content; OCR will be cheaper and more reliable than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Two problems every document chatbot hits",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 62.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Paying to read documents twice",
+        "x": 5.0,
+        "y": 22.0,
+        "w": 36.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Search split across too many tools",
+        "x": 38.0,
+        "y": 22.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "This talk: parse locally • one Postgres database • hybrid search in plain Python",
+        "x": 5.0,
+        "y": 70.0,
+        "w": 78.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/Akm1sqvWG4A/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658490.5735958,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Two problems every document chatbot hits",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

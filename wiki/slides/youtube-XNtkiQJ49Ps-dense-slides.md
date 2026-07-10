@@ -16,36 +16,103 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/XNtkiQJ49Ps/slide-001.jpg]]
 
-- Source scene image: `frame-00002.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `175.98`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
+
+> AGENTS NEED MORE THAN A CHAT
+> JACOB LAURITZEN / CTO LEGORA
+
 ![[assets/dense-slides/XNtkiQJ49Ps/slide-002.jpg]]
 
-- Source scene image: `frame-00005.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.3`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
+
+Slide text:
+
+> Legora is a collaborative AI workspace for legal professionals
+> 1000+ Customers
+> $5.5bn+ Valuation
+> $100m+ ARR
+
 ![[assets/dense-slides/XNtkiQJ49Ps/slide-003.jpg]]
 
-- Source scene image: `frame-00007.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.06`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+
+Slide text:
+
+> Planning work
+> Doing work
+> Reviewing work
+
 ![[assets/dense-slides/XNtkiQJ49Ps/slide-004.jpg]]
 
-- Source scene image: `frame-00013.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.19`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+
+Slide text:
+
+> Involving humans where it matters
+> Control
+> How effectively a human can steer the work
+> Trust
+> How little a human reviews the work
+
 ![[assets/dense-slides/XNtkiQJ49Ps/slide-005.jpg]]
 
-- Source scene image: `frame-00014.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.37`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+
+Slide text:
+
+> Involving humans where it matters
+> Control
+> How effectively a human can steer the work
+> Trust
+> How little a human reviews the work
+
 ![[assets/dense-slides/XNtkiQJ49Ps/slide-006.jpg]]
 
-- Source scene image: `frame-00019.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.24`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Dense small UI/code-style screenshots and axis labels are better handled by OCR than manual transcription in this triage pass.
+
+Slide text:
+
+> Guardrails
+> Very constrained No constraints
+> Pornissions. Allow AskQeny Workspaco
+> Createlfilo Claude Code won t ask before using allo.ed tools.
+> Helto, Worldt 121),41
+> 0o you want to create hello world.txt? Yes. allo all edits during this session Yes 0 Bash( /tnp/tean onnership report txt-d) Bash(cat) ebeh( /tools/scripts/trc/locah dev s 0) Bash(bash-c) Bash(chaod:o) Bssh(dato:+) -dangerously:skip:permissions
+> Low trust High trust
+
 ![[assets/dense-slides/XNtkiQJ49Ps/slide-007.jpg]]
 
-- Source scene image: `frame-00021.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.44`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/XNtkiQJ49Ps/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Dense diagram labels, small legend text, and footer branding are better suited to OCR than manual transcription.
+
+Slide text:
+
+> Default chat erobyymgrlcor!.x!9 W/enntn
+> Pr.R*
+> Units of work
+> No Unrusted
+> Trustod
+> Human Juxgement
+> Al Engineer AGENTS NEED MORE THAN A CHAT
+> EUROPE
+> Google DeepMind Presented 6y # Braintrust Workos OpenAl
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/XNtkiQJ49Ps/audit.json`

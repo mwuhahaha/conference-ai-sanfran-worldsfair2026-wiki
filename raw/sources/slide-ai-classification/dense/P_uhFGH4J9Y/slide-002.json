@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Caveats to the Work You Are About to See\nThis is all my own independent research and experimentation, and not currently specifically based on New York Time’s internal research",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white with black left sidebar and black footer band",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Caveats to the Work You Are About to See",
+        "x": 20.0,
+        "y": 3.0,
+        "w": 56.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "This is all my own independent research and experimentation, and not currently specifically based on New York Time’s internal research",
+        "x": 27.0,
+        "y": 23.0,
+        "w": 53.0,
+        "h": 14.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 11.0,
+        "w": 9.0,
+        "h": 14.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 47.0,
+        "y": 85.0,
+        "w": 13.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 74.0,
+        "y": 85.0,
+        "w": 13.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/P_uhFGH4J9Y/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662919.0500512,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Caveats to the Work You Are About to See\nThis is all my own independent research and experimentation, and not currently specifically based on New York Time’s internal research",
+  "advanced_ocr": {}
+}

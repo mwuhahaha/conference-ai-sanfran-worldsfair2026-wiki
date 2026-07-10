@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Health insurance claims review",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple icon-and-title slide",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "dark teal",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Health insurance claims review",
+        "x": 42.0,
+        "y": 70.0,
+        "w": 30.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/T0HhO4YtTfE/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663749.5807707,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Health insurance claims review",
+  "advanced_ocr": {}
+}

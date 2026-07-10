@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Native Cloud\nGPU Clusters\nModel Shaping\nInference\nEngineering the future of AI",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI Native Cloud",
+        "x": 50.0,
+        "y": 4.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Model Builders <-> App Developers",
+        "x": 31.0,
+        "y": 12.0,
+        "w": 55.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "GPU Clusters",
+        "x": 30.0,
+        "y": 18.0,
+        "w": 19.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "Model Shaping",
+        "x": 52.0,
+        "y": 18.0,
+        "w": 19.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "Inference",
+        "x": 74.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 11.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 13.0,
+        "w": 18.0,
+        "h": 21.0
+      },
+      {
+        "role": "caption",
+        "text": "Trusted by",
+        "x": 31.0,
+        "y": 75.0,
+        "w": 9.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "CURSOR RUNWARE hedra Decagon KREA",
+        "x": 40.0,
+        "y": 75.0,
+        "w": 40.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 39.0,
+        "y": 88.0,
+        "w": 47.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/TUnPNY4E2fw/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664287.1960175,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Native Cloud\nGPU Clusters\nModel Shaping\nInference\nEngineering the future of AI",
+  "advanced_ocr": {}
+}

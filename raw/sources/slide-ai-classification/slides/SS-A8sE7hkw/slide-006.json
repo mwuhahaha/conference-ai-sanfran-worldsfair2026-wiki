@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "ai.dev",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product/UI screenshot with dense small interface text; OCR is likely more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#000000",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "ai.dev",
+        "x": 48.0,
+        "y": 5.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Explore Google models",
+        "x": 39.0,
+        "y": 14.0,
+        "w": 24.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/SS-A8sE7hkw/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663338.5928457,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "ai.dev",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/border-trim/contrast",
+    "best_score": 128.48,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0152
+  }
+}

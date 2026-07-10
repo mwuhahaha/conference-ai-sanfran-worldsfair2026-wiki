@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "What is Spec-Driven Development?\nAnd how can it make code faster?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Large title-card text is easy to read directly; no dense body copy.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "dark purple/blue gradient with rainbow arc",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What is Spec-Driven Development?",
+        "x": 7.0,
+        "y": 55.0,
+        "w": 45.0,
+        "h": 12.0
+      },
+      {
+        "role": "subtitle",
+        "text": "And how can it make code faster?",
+        "x": 22.0,
+        "y": 67.0,
+        "w": 44.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/IddXPepIAS4/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659846.4886746,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What is Spec-Driven Development?\nAnd how can it make code faster?",
+  "advanced_ocr": {}
+}

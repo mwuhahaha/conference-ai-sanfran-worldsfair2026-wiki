@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "eidetic memory of organization. An agent with an the entire\nIt knows every repo and remembers every\nsessionbyeverydeveloper.\n-Prevloos",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code/screenshot panel on the right; OCR can recover it better than manual transcription.",
+  "direct_read_ready": true,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "An agent with an eidetic memory of the entire organization.",
+        "x": 4.0,
+        "y": 19.0,
+        "w": 40.0,
+        "h": 28.0
+      },
+      {
+        "role": "subtitle",
+        "text": "It knows every repo and remembers every session by every developer.",
+        "x": 4.0,
+        "y": 57.0,
+        "w": 38.0,
+        "h": 12.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 47.0,
+        "y": 14.0,
+        "w": 48.0,
+        "h": 58.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/jVjt-2g8NMY/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669601.6901054,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "An agent with an eidetic memory of the entire organization.\nIt knows every repo and remembers every session by every developer.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "eidetic memory of organization. An agent with an the entire\nIt knows every repo and remembers every\nsessionbyeverydeveloper.\n-Prevloos",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 206.56
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "eidetic memory of organization. An agent with an the entire\nIt knows every repo and remembers every\nsessionbyeverydeveloper.\n-Prevloos",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

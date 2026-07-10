@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Nesled boogrs WNe\nLoopcraft: The Art of Stacking Loops\nLeel 6 / G\nTokens Turms Tools Tasks Automations\n6 · software factories??????·ar gools, alocate. col tot nee. open eplorwtion\n5.automatom·cron,soogonts,muRr-agem eitcoaorationad cepetisio:adarys\n4 ·paal loop ·run,judga,rety eit:goal reathet 、huy\nopent ealt vege off-goa. agent resu wogos me v\n3·agmtturn·caf tooi,tedresun toit: no mare 10ol cafls: ≥ Nn5s\nreas_(ite() →240803 rn_tests()\n2·cat lpep·promgt. respond,aign eit Meofuf reney:oe hure\nAH·BOAOH\nuser:“eplainrecursion* asistart: dreft reply humk甲 humpn. elgredrepsy\n1. token loop· sample,appendl repiat tt: atop toetn·secondy\nthe cat tat",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-level diagram with small labels and many tiny text elements; OCR will be more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(180deg, #f7f7f5 0%, #ffffff 100%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Loopcraft: The Art of Stacking Loops",
+        "x": 50.0,
+        "y": 4.0,
+        "w": 34.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tokens Turns Tools Tasks Automations",
+        "x": 48.0,
+        "y": 14.0,
+        "w": 36.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668622.4048,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/contrast",
+    "text": "Nesled boogrs WNe\nLoopcraft: The Art of Stacking Loops\nLeel 6 / G\nTokens Turms Tools Tasks Automations\n6 · software factories??????·ar gools, alocate. col tot nee. open eplorwtion\n5.automatom·cron,soogonts,muRr-agem eitcoaorationad cepetisio:adarys\n4 ·paal loop ·run,judga,rety eit:goal reathet 、huy\nopent ealt vege off-goa. agent resu wogos me v\n3·agmtturn·caf tooi,tedresun toit: no mare 10ol cafls: ≥ Nn5s\nreas_(ite() →240803 rn_tests()\n2·cat lpep·promgt. respond,aign eit Meofuf reney:oe hure\nAH·BOAOH\nuser:“eplainrecursion* asistart: dreft reply humk甲 humpn. elgredrepsy\n1. token loop· sample,appendl repiat tt: atop toetn·secondy\nthe cat tat",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1071.68
+  },
+  "ocr_source": "rapidocr-live/right-72/contrast",
+  "ocr_reconcile": {
+    "text": "Nesled boogrs WNe\nLoopcraft: The Art of Stacking Loops\nLeel 6 / G\nTokens Turms Tools Tasks Automations\n6 · software factories??????·ar gools, alocate. col tot nee. open eplorwtion\n5.automatom·cron,soogonts,muRr-agem eitcoaorationad cepetisio:adarys\n4 ·paal loop ·run,judga,rety eit:goal reathet 、huy\nopent ealt vege off-goa. agent resu wogos me v\n3·agmtturn·caf tooi,tedresun toit: no mare 10ol cafls: ≥ Nn5s\nreas_(ite() →240803 rn_tests()\n2·cat lpep·promgt. respond,aign eit Meofuf reney:oe hure\nAH·BOAOH\nuser:“eplainrecursion* asistart: dreft reply humk甲 humpn. elgredrepsy\n1. token loop· sample,appendl repiat tt: atop toetn·secondy\nthe cat tat",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

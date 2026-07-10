@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Stop Writing Tone Instructions. Layer Them.\nAI Engineer World's Fair 2026 — Online Track\nIsadora Martin-Dye",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple title card with large readable text; OCR not needed for triage.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "01 — OPENING",
+        "x": 6.0,
+        "y": 12.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Stop Writing\nTone Instructions.\nLayer Them.",
+        "x": 6.0,
+        "y": 17.0,
+        "w": 48.0,
+        "h": 24.0
+      },
+      {
+        "role": "subtitle",
+        "text": "AI Engineer World's Fair 2026 — Online Track",
+        "x": 6.0,
+        "y": 66.0,
+        "w": 44.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Isadora Martin-Dye",
+        "x": 6.0,
+        "y": 72.0,
+        "w": 22.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/ij-AU9dpJjc/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669129.2698722,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Stop Writing Tone Instructions. Layer Them.\nAI Engineer World's Fair 2026 — Online Track\nIsadora Martin-Dye",
+  "advanced_ocr": {}
+}

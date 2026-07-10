@@ -1,0 +1,84 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.97,
+  "frame_type": "title_card",
+  "reject_reason": "speaker intro card / identity slide",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "intro card",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#000000",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "WHO'S TELLING YOU THIS",
+        "x": 10.0,
+        "y": 8.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Epidemiologist",
+        "x": 31.0,
+        "y": 14.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "Data Scientist",
+        "x": 31.0,
+        "y": 23.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "title",
+        "text": "AI Engineer",
+        "x": 31.0,
+        "y": 32.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "Jacob E. Thomas",
+        "x": 13.0,
+        "y": 47.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Rick Halpern",
+        "x": 37.0,
+        "y": 65.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Shawn Martin",
+        "x": 55.0,
+        "y": 65.0,
+        "w": 14.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/IJXjTLPzvAU/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659784.4990954,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

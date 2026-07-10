@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Code is not the bottleneck.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "THE TURNING POINT",
+        "x": 7.0,
+        "y": 12.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Code is not the bottleneck.",
+        "x": 7.0,
+        "y": 38.0,
+        "w": 58.0,
+        "h": 26.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/whue9_YquGA/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672554.8618364,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Code is not the bottleneck.",
+  "advanced_ocr": {}
+}

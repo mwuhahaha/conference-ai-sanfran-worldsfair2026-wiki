@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why Document-Level Analysis Falls Short\nTraditional compliance tools evaluate records in isolation. Fraud that arises from discrepancies between payroll registers, vendor invoices, and tax filings remains invisible when each document passes its own internal validation.\nThe most costly fraud patterns are not found within a single document. They emerge in the space between documents.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg, #f2f2f2 0%, #f2f2f2 39%, #18002d 39%, #120024 100%)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why Document-Level Analysis Falls Short",
+        "x": 43.0,
+        "y": 13.0,
+        "w": 46.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Traditional compliance tools evaluate records in isolation. Fraud that arises from discrepancies between payroll registers, vendor invoices, and tax filings remains invisible when each document passes its own internal validation.",
+        "x": 43.0,
+        "y": 28.0,
+        "w": 50.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "The most costly fraud patterns are not found within a single document. They emerge in the space between documents.",
+        "x": 43.0,
+        "y": 62.0,
+        "w": 50.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/Iwe_RY-fYgI/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659673.908559,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why Document-Level Analysis Falls Short\nTraditional compliance tools evaluate records in isolation. Fraud that arises from discrepancies between payroll registers, vendor invoices, and tax filings remains invisible when each document passes its own internal validation.\nThe most costly fraud patterns are not found within a single document. They emerge in the space between documents.",
+  "advanced_ocr": {}
+}

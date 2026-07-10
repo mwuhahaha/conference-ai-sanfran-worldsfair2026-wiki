@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.96,
+  "frame_type": "title_card",
+  "reject_reason": "branding/title card, no substantive slide content",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black with dim blurred stage image",
+    "style": "product",
+    "blocks": []
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/d_Ftrl3vfV0/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667244.3933637,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

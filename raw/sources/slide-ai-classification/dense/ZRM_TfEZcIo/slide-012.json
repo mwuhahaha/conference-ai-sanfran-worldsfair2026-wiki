@@ -1,65 +1,92 @@
 {
   "is_content_slide": true,
   "confidence": 0.99,
-  "frame_type": "content_slide",
+  "frame_type": "title_card",
   "reject_reason": "",
-  "text": "Want to build systems like this?\nAgent Engineering: Building Multi-Agent Systems\nTowards AI Academy\n– the engineering behind this repo\n– agent workflows, tool use, memory\n– multi-agent systems & orchestration\n– evals & production-grade agents\nThe repo gives you a working research OS — the course teaches you to build it, and the multi-agent systems beyond it.\ntowardsai.com",
+  "text": "Want to build systems like this?\nAgent Engineering: Building Multi-Agent Systems\nTowards AI Academy\n- the engineering behind this repo\n- agent workflows, tool use, memory\n- multi-agent systems & orchestration\n- evals & production-grade agents",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
   "layout": {
-    "background": "white",
-    "style": "light",
+    "background": "#ffffff",
+    "style": "product",
     "blocks": [
       {
         "role": "title",
         "text": "Want to build systems like this?",
         "x": 34.0,
-        "y": 10.0,
-        "w": 44.0,
-        "h": 9.0
+        "y": 13.0,
+        "w": 35.0,
+        "h": 8.0
       },
       {
         "role": "subtitle",
         "text": "Agent Engineering: Building Multi-Agent Systems",
         "x": 34.0,
-        "y": 20.0,
-        "w": 47.0,
-        "h": 7.0
+        "y": 22.0,
+        "w": 43.0,
+        "h": 6.0
       },
       {
         "role": "caption",
         "text": "Towards AI Academy",
         "x": 34.0,
-        "y": 28.0,
-        "w": 20.0,
+        "y": 29.0,
+        "w": 18.0,
         "h": 5.0
       },
       {
         "role": "body",
-        "text": "– the engineering behind this repo\n– agent workflows, tool use, memory\n– multi-agent systems & orchestration\n– evals & production-grade agents",
+        "text": "- the engineering behind this repo",
         "x": 34.0,
-        "y": 35.0,
-        "w": 35.0,
-        "h": 28.0
+        "y": 38.0,
+        "w": 28.0,
+        "h": 5.0
       },
       {
-        "role": "caption",
-        "text": "The repo gives you a working research OS — the course teaches you to build it, and the multi-agent systems beyond it.",
-        "x": 31.0,
-        "y": 78.0,
-        "w": 56.0,
-        "h": 6.0
+        "role": "body",
+        "text": "- agent workflows, tool use, memory",
+        "x": 34.0,
+        "y": 45.0,
+        "w": 29.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "- multi-agent systems & orchestration",
+        "x": 34.0,
+        "y": 52.0,
+        "w": 31.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "- evals & production-grade agents",
+        "x": 34.0,
+        "y": 59.0,
+        "w": 29.0,
+        "h": 5.0
       },
       {
         "role": "caption",
         "text": "towardsai.com",
-        "x": 77.0,
-        "y": 67.0,
+        "x": 78.0,
+        "y": 59.0,
         "w": 12.0,
         "h": 4.0
       }
     ]
   },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
   "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-012.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783629152.4582994
+  "classified_at_epoch": 1783665787.0857348,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Want to build systems like this?\nAgent Engineering: Building Multi-Agent Systems\nTowards AI Academy\n- the engineering behind this repo\n- agent workflows, tool use, memory\n- multi-agent systems & orchestration\n- evals & production-grade agents",
+  "advanced_ocr": {}
 }

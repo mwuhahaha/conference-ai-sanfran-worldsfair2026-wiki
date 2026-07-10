@@ -1,0 +1,154 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE\nMEASURE Review AI outouts AralyTe perfornarce to prioritise work Specify failure mode' to fix and perforrance threshold Make changes\nopplcation Producton Perfornance insights ChnicaPx engineer(s) Chnico! enginear(s) AI datoset'eval \"Failure mode\nabout naking Iive Make decisions Subnit inproverents See inpact of changes\naws\nS",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Flowchart-style slide with many small labels and arrows is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(180deg, #18160f 0%, #080807 100%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "MEASURE",
+        "x": 9.0,
+        "y": 34.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Production application",
+        "x": 18.0,
+        "y": 49.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Performance insights",
+        "x": 36.0,
+        "y": 49.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Clinical PM",
+        "x": 52.0,
+        "y": 44.0,
+        "w": 8.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Clinical engineer(s)",
+        "x": 64.0,
+        "y": 44.0,
+        "w": 12.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "AI engineer(s)",
+        "x": 74.0,
+        "y": 44.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Failure mode dataset* eval",
+        "x": 86.0,
+        "y": 49.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Review AI outputs",
+        "x": 25.0,
+        "y": 28.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Analyze performance to prioritise work",
+        "x": 42.0,
+        "y": 28.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Specify 'failure mode' to fix and performance threshold",
+        "x": 58.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Make changes",
+        "x": 80.0,
+        "y": 24.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Make decisions about making live",
+        "x": 28.0,
+        "y": 78.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Submit improvements",
+        "x": 58.0,
+        "y": 77.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "See impact of changes",
+        "x": 78.0,
+        "y": 77.0,
+        "w": 11.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-011.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661420.2291749,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "AIE\nMEASURE Review AI outouts AralyTe perfornarce to prioritise work Specify failure mode' to fix and perforrance threshold Make changes\nopplcation Producton Perfornance insights ChnicaPx engineer(s) Chnico! enginear(s) AI datoset'eval \"Failure mode\nabout naking Iive Make decisions Subnit inproverents See inpact of changes\naws\nS",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 506.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "AIE\nMEASURE Review AI outouts AralyTe perfornarce to prioritise work Specify failure mode' to fix and perforrance threshold Make changes\nopplcation Producton Perfornance insights ChnicaPx engineer(s) Chnico! enginear(s) AI datoset'eval \"Failure mode\nabout naking Iive Make decisions Subnit inproverents See inpact of changes\naws\nS",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

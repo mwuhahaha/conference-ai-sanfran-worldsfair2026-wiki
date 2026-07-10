@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Human in the Loop: Single Agent\nHuman prompts agent\nAgent does some work\nHuman checks output",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f4ecdf",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Human in the Loop: Single Agent",
+        "x": 22.0,
+        "y": 13.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "For small, atomic coding tasks, the agent-driven dev loop is simple.",
+        "x": 22.0,
+        "y": 26.0,
+        "w": 56.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Human prompts agent",
+        "x": 45.0,
+        "y": 37.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent does some work",
+        "x": 67.0,
+        "y": 57.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Human checks output",
+        "x": 25.0,
+        "y": 57.0,
+        "w": 22.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/dense-slides/rcsliSIy_YU/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671360.2160702,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Human in the Loop: Single Agent\nHuman prompts agent\nAgent does some work\nHuman checks output",
+  "advanced_ocr": {}
+}

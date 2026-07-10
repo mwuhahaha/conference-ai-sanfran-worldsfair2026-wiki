@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "streamlit.10\nAIE Free\nFox coesrunilty acos Deplcy wien Beeer aepuoug Ven fapao torprolestionalt\nD4n yoy WU\ntoseonolenDapp nmrutes\nGotstarted Try tho Eve playground!\nWortfsFair aws\n?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product screenshot content with small interface text; OCR is better suited than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "streamlit.io",
+        "x": 39.0,
+        "y": 0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 32.0,
+        "y": 8.0,
+        "w": 61.0,
+        "h": 80.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 63.0,
+        "y": 88.0,
+        "w": 12.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/tzRvcTEapzo/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672040.5395982,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "streamlit.io",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "streamlit.10\nAIE Free\nFox coesrunilty acos Deplcy wien Beeer aepuoug Ven fapao torprolestionalt\nD4n yoy WU\ntoseonolenDapp nmrutes\nGotstarted Try tho Eve playground!\nWortfsFair aws\n?",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 344.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "streamlit.10\nAIE Free\nFox coesrunilty acos Deplcy wien Beeer aepuoug Ven fapao torprolestionalt\nD4n yoy WU\ntoseonolenDapp nmrutes\nGotstarted Try tho Eve playground!\nWortfsFair aws\n?",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

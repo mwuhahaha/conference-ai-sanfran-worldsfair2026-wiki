@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "towardseverythingasync\nAIE returnaaittode_asyncio,gathert rollowt_tasks-[ self._rn_single（sephere,client,model,pronpt,aniver,sapling_args,args） fetpronpt,answer-inzippronpts,ansers) *rollout_tasks, total-len(prompts), descof'Running(len(pronptsl)rollouts async_batch_generator.py async_dataloader_wrapper.py\ngrpo_config.py\ngrpo_trainer.py\nGPU1 GPU2 GPU3 GPU4 1-8 9-16 17-24\nTime\n(up to four steps), Prime-RL matches the performance of synchronous baselines. us DeepScaleR trainingvs asynchronous Prime-RL under varyingasynchrony levels.\naws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Content slide with code, chart, file list, and a timeline diagram; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg,#000 0 18%,#f3ead4 18% 100%)",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 14.0,
+        "w": 9.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "towards everything async",
+        "x": 21.0,
+        "y": 1.0,
+        "w": 42.0,
+        "h": 8.0
+      },
+      {
+        "role": "code",
+        "text": "rollout_tasks = [\nreturn await asyncio.gather(",
+        "x": 23.0,
+        "y": 13.0,
+        "w": 30.0,
+        "h": 18.0
+      },
+      {
+        "role": "code",
+        "text": "async_batch_generator.py\nasync_dataloader_wrapper.py\ngrpo_config.py\ngrpo_trainer.py",
+        "x": 66.0,
+        "y": 12.0,
+        "w": 25.0,
+        "h": 27.0
+      },
+      {
+        "role": "diagram",
+        "text": "1-8\n9-16\n17-24",
+        "x": 68.0,
+        "y": 61.0,
+        "w": 22.0,
+        "h": 14.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 63.0,
+        "y": 86.0,
+        "w": 10.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/PbHm2qKnu10/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662494.6275537,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "towards everything async",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "towardseverythingasync\nAIE returnaaittode_asyncio,gathert rollowt_tasks-[ self._rn_single（sephere,client,model,pronpt,aniver,sapling_args,args） fetpronpt,answer-inzippronpts,ansers) *rollout_tasks, total-len(prompts), descof'Running(len(pronptsl)rollouts async_batch_generator.py async_dataloader_wrapper.py\ngrpo_config.py\ngrpo_trainer.py\nGPU1 GPU2 GPU3 GPU4 1-8 9-16 17-24\nTime\n(up to four steps), Prime-RL matches the performance of synchronous baselines. us DeepScaleR trainingvs asynchronous Prime-RL under varyingasynchrony levels.\naws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 620.2
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "towardseverythingasync\nAIE returnaaittode_asyncio,gathert rollowt_tasks-[ self._rn_single（sephere,client,model,pronpt,aniver,sapling_args,args） fetpronpt,answer-inzippronpts,ansers) *rollout_tasks, total-len(prompts), descof'Running(len(pronptsl)rollouts async_batch_generator.py async_dataloader_wrapper.py\ngrpo_config.py\ngrpo_trainer.py\nGPU1 GPU2 GPU3 GPU4 1-8 9-16 17-24\nTime\n(up to four steps), Prime-RL matches the performance of synchronous baselines. us DeepScaleR trainingvs asynchronous Prime-RL under varyingasynchrony levels.\naws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

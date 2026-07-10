@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "With Ulysses context parallelism\n80 Model\nAIE Peak memory (GiB) 60 40 OOM (610) (7684) NOO 00M (964) Attnact. Other\n20\n15.0 15.0\n0 Default FSDP + Ulysses\nLlama 3-8B, 3M tokens, 8xH100\nEngineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart slide with axis labels, legend, and numeric annotations that are better captured by OCR.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "With Ulysses context parallelism",
+        "x": 28.0,
+        "y": 7.0,
+        "w": 42.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Peak memory (GiB)",
+        "x": 26.0,
+        "y": 28.0,
+        "w": 6.0,
+        "h": 26.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Default\nFSDP\nFSDP + Ulysses",
+        "x": 31.0,
+        "y": 73.0,
+        "w": 27.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "OOM (119)\nOOM (7684)\nOOM (964)\n15.0",
+        "x": 35.0,
+        "y": 38.0,
+        "w": 30.0,
+        "h": 22.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model\nAttn act.\nOther",
+        "x": 85.0,
+        "y": 24.0,
+        "w": 10.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Llama 3-8B, 3M tokens, 8xH100",
+        "x": 52.0,
+        "y": 79.0,
+        "w": 32.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/TUnPNY4E2fw/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664606.100615,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "With Ulysses context parallelism",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "With Ulysses context parallelism\n80 Model\nAIE Peak memory (GiB) 60 40 OOM (610) (7684) NOO 00M (964) Attnact. Other\n20\n15.0 15.0\n0 Default FSDP + Ulysses\nLlama 3-8B, 3M tokens, 8xH100\nEngineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 305.12
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "With Ulysses context parallelism\n80 Model\nAIE Peak memory (GiB) 60 40 OOM (610) (7684) NOO 00M (964) Attnact. Other\n20\n15.0 15.0\n0 Default FSDP + Ulysses\nLlama 3-8B, 3M tokens, 8xH100\nEngineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

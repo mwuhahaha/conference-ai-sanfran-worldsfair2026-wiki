@@ -1,0 +1,104 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense slide with charts, captions, and small body text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "solid deep purple",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Operational Efficiency Gains",
+        "x": 5.0,
+        "y": 6.0,
+        "w": 48.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "~9%",
+        "x": 17.0,
+        "y": 25.0,
+        "w": 18.0,
+        "h": 26.0
+      },
+      {
+        "role": "caption",
+        "text": "False Positive Rate",
+        "x": 20.0,
+        "y": 56.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Down from approximately 38% in rule-based baseline systems",
+        "x": 7.0,
+        "y": 63.0,
+        "w": 41.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "~40%",
+        "x": 63.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 26.0
+      },
+      {
+        "role": "caption",
+        "text": "Audit Workload Reduction",
+        "x": 67.0,
+        "y": 56.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Fewer manual reviews required per compliance cycle",
+        "x": 61.0,
+        "y": 63.0,
+        "w": 34.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "What This Means in Practice",
+        "x": 5.0,
+        "y": 79.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "A 76% reduction in false positives translates directly to fewer investigator hours spent on non-events. A 40% reduction in manual audit workload frees compliance teams to focus analytical capacity on high-confidence risk cases rather than routine triage.",
+        "x": 5.0,
+        "y": 87.0,
+        "w": 70.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/Iwe_RY-fYgI/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659731.6589162,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

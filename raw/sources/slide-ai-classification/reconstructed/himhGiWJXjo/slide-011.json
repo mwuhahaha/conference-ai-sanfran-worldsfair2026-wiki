@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "#3. Get LLMs to figure out the plan of how to access data.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#1b1b17",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "#3. Get LLMs to figure out the plan of how to access data.",
+        "x": 24.0,
+        "y": 38.0,
+        "w": 52.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/reconstructed-slides/himhGiWJXjo/slide-011.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668486.1058247,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "#3. Get LLMs to figure out the plan of how to access data.",
+  "advanced_ocr": {}
+}

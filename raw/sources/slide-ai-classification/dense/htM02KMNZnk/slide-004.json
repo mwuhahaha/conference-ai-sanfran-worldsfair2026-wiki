@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.78,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "none",
+  "ocr_ready": false,
+  "ocr_reason": "This is a screenshot-heavy slide with little meaningful readable text; OCR is unlikely to add value in triage.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "#f4f1e8",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 25.0,
+        "y": 21.0,
+        "w": 48.0,
+        "h": 33.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668743.6883597,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

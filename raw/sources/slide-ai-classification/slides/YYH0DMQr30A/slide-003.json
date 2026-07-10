@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Does Task Quality Actually Matter?\nAI model capabilities are fundamentally bounded by training data quality\nthis holds regardless of model architecture, scale, or agent harness.\nFor agentic benchmarks and evals, task quality is data quality\nbut the field currently lacks empirical evidence that curating higher-quality tasks leads to meaningfully better training outcomes.\nCan we measure the impact of task quality on model performance?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Does Task Quality Actually Matter?",
+        "x": 28.0,
+        "y": 6.0,
+        "w": 44.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "AI model capabilities are fundamentally bounded by training data quality\nthis holds regardless of model architecture, scale, or agent harness.\nFor agentic benchmarks and evals, task quality is data quality\nbut the field currently lacks empirical evidence that curating higher-quality tasks leads to meaningfully better training outcomes.",
+        "x": 28.0,
+        "y": 16.0,
+        "w": 58.0,
+        "h": 38.0
+      },
+      {
+        "role": "caption",
+        "text": "Can we measure the impact of task quality on model performance?",
+        "x": 28.0,
+        "y": 69.0,
+        "w": 62.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/YYH0DMQr30A/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665442.6452007,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Does Task Quality Actually Matter?\nAI model capabilities are fundamentally bounded by training data quality\nthis holds regardless of model architecture, scale, or agent harness.\nFor agentic benchmarks and evals, task quality is data quality\nbut the field currently lacks empirical evidence that curating higher-quality tasks leads to meaningfully better training outcomes.\nCan we measure the impact of task quality on model performance?",
+  "advanced_ocr": {}
+}

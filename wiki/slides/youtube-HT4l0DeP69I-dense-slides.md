@@ -16,11 +16,17 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/HT4l0DeP69I/slide-001.jpg]]
 
-- Source scene image: `frame-00030.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.75`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/HT4l0DeP69I/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.96`
+- Text source: none.
+- OCR decision: ready — Dense product UI screenshot with many small labels, tabs, and list items; OCR is better than manual transcription in this triage pass.
+- Slide text: not surfaced (`illegible` by AI classifier).
 ![[assets/dense-slides/HT4l0DeP69I/slide-002.jpg]]
 
-- Source scene image: `frame-00031.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.99`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/HT4l0DeP69I/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.95`
+- Text source: none.
+- OCR decision: ready — Dense AWS console screenshot with multiple panels, controls, and small labels; OCR is the efficient read path.
+- Slide text: not surfaced (`illegible` by AI classifier).
+
+Classification audit: `raw/sources/slide-ai-classification/dense/HT4l0DeP69I/audit.json`

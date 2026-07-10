@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "“[l]atency above 4 seconds degrades quality of experience...”\nMitigating Response Delays in Free-Form Conversations with LLM-powered Intelligent Virtual Agents July 7, 2025",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple quote slide; direct reading is enough",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#11131b",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "quote",
+        "text": "“[l]atency above 4 seconds degrades quality of experience...”",
+        "x": 16.0,
+        "y": 27.0,
+        "w": 68.0,
+        "h": 26.0
+      },
+      {
+        "role": "caption",
+        "text": "Mitigating Response Delays in Free-Form Conversations with LLM-powered Intelligent Virtual Agents July 7, 2025",
+        "x": 18.0,
+        "y": 66.0,
+        "w": 64.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667627.9397871,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "“[l]atency above 4 seconds degrades quality of experience...”\nMitigating Response Delays in Free-Form Conversations with LLM-powered Intelligent Virtual Agents July 7, 2025",
+  "advanced_ocr": {}
+}

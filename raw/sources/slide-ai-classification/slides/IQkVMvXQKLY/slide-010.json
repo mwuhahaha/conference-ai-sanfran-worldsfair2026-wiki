@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE PAYOFF\nJoint features: blind. The delta: a clean flag.\nBest single feature isolating the backdoor, at one middle layer. Same data, two ways of looking at it.\n\n40x stronger signal\n0.40 vs ~0.01\n\n1.00 precision\nzero false positives\n\n~0.01 joint features\nat the noise floor\n\nBest-feature isolation score (BIS)\nCrosscoder (joint)\nDiff-SAE (delta)\nLoRA\nFull-rank\n0.01\n0.40\n0.00\n0.40\n\nYour LLM Deception Monitor Is Broken\n40x: the delta wins",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart labels and comparison stats are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "THE PAYOFF\nJoint features: blind. The delta: a clean flag.",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 62.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Best single feature isolating the backdoor, at one middle layer. Same data, two ways of looking at it.",
+        "x": 4.0,
+        "y": 20.0,
+        "w": 86.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "40×\nstronger signal\n0.40 vs ~0.01\n1.00\nprecision\nzero false positives\n~0.01\njoint features\nat the noise floor",
+        "x": 4.0,
+        "y": 31.0,
+        "w": 31.0,
+        "h": 49.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Best-feature isolation score (BIS)\nCrosscoder (joint)\nDiff-SAE (delta)\nLoRA\nFull-rank",
+        "x": 38.0,
+        "y": 31.0,
+        "w": 58.0,
+        "h": 49.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/IQkVMvXQKLY/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783660659.7612429,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Joint features: blind. The delta: a clean flag. THE PAYO F F\nBest single feature isolating the backdoor, at one middle layer. Same data, two ways of looking at it.\n40x:0.40 vs ~0.01: stronger signa! Best-feature isolation score (Bis) Crosscoder (joint) Dif-SAE (delta)\n1.00 zero fabsepositive's': precision 0.3 0.40 0.46\n~0.01 at the noisc floor joint features 6.1 0.01: LoRA. 0.00: Full-rank\nYour Lm DKtption Mortor k Eroken 4hc: the delta iwvins 11 / 17",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 617.72
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "THE PAYOFF\nJoint features: blind. The delta: a clean flag.\nBest single feature isolating the backdoor, at one middle layer. Same data, two ways of looking at it.\n\n40x stronger signal\n0.40 vs ~0.01\n\n1.00 precision\nzero false positives\n\n~0.01 joint features\nat the noise floor\n\nBest-feature isolation score (BIS)\nCrosscoder (joint)\nDiff-SAE (delta)\nLoRA\nFull-rank\n0.01\n0.40\n0.00\n0.40\n\nYour LLM Deception Monitor Is Broken\n40x: the delta wins",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected the title, metric labels, chart labels, and footer text; kept only text clearly visible in the slide."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Containers → Virtualization",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small bullets and multiple diagram labels are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f5f5f5",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Containers → Virtualization",
+        "x": 2.0,
+        "y": 5.0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Container",
+        "x": 5.0,
+        "y": 19.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Virtual Machine",
+        "x": 24.0,
+        "y": 19.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Host Userspace",
+        "x": 18.0,
+        "y": 10.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Guest Userspace",
+        "x": 28.0,
+        "y": 47.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Host Kernel",
+        "x": 55.0,
+        "y": 58.0,
+        "w": 15.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-020.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-020.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783673320.979529,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Containers → Virtualization",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 416.52,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0027
+  }
+}

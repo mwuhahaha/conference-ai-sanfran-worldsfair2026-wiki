@@ -1,0 +1,159 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Complex multi-panel product screenshot with chat, map labels, and task state text; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "blue map with dark translucent panels and green terrain",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "MY AGENTS",
+        "x": 2.0,
+        "y": 9.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "All 5",
+        "x": 2.0,
+        "y": 16.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Awaiting 2",
+        "x": 10.0,
+        "y": 16.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Working 2",
+        "x": 20.0,
+        "y": 16.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Idle 1",
+        "x": 31.0,
+        "y": 16.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "ALLIANCE PANEL",
+        "x": 52.0,
+        "y": 14.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "CHAT",
+        "x": 79.0,
+        "y": 4.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "GIT",
+        "x": 87.0,
+        "y": 4.0,
+        "w": 5.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "FILES",
+        "x": 93.0,
+        "y": 4.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Submit campaign to new section as item",
+        "x": 79.0,
+        "y": 11.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "playwright-report/",
+        "x": 33.0,
+        "y": 33.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "playwright-build/",
+        "x": 31.0,
+        "y": 41.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "lib/",
+        "x": 43.0,
+        "y": 49.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "docs/",
+        "x": 45.0,
+        "y": 73.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "cloudflare/",
+        "x": 62.0,
+        "y": 67.0,
+        "w": 12.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-011.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669911.5209467,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/border-trim/contrast",
+    "best_score": 1699.6,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0007
+  }
+}

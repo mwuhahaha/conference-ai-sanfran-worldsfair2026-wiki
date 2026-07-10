@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Top mistake:\nUsing coding agents like you were using AI coding tools 6 months ago",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black with subtle dark wave texture",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Top mistake:\nUsing coding agents like you were using AI coding tools 6 months ago",
+        "x": 24.0,
+        "y": 34.0,
+        "w": 58.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-004.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659071.9327466,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Top mistake:\nUsing coding agents like you were using AI coding tools 6 months ago",
+  "advanced_ocr": {}
+}

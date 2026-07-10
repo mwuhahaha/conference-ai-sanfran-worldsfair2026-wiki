@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How We're Using CLIP Go Deeper!\nCLIP: Trained on 400M image/text pairs, OpenAl, 2021\ntext_embedding: how CLIP Paint.wtf Scoring\nmapsthepaint.wtfprompt into\nits feature space Image_embedding: how CLIP maps the user submission into X of thePaint.wtfPrompt CLIP's Interpretation CLip'sInterpretation of User-Submitted Drawing\nits feature space\ndistance between the prompt and the user drawing Winning paint.wtf: minimizing Cosine Similarity X",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense mixed text and diagram; better handled by OCR than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light gray",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How We're Using CLIP",
+        "x": 16.0,
+        "y": 0,
+        "w": 40.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Go Deeper!",
+        "x": 69.0,
+        "y": 0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "CLIP: Trained on 400M image/text pairs, OpenAI, 2021\ntext_embedding: how CLIP maps the paint.wtf prompt into its feature space\nImage_embedding: how CLIP maps the user submission into its feature space\nWinning paint.wtf: minimizing distance between the prompt and the user drawing",
+        "x": 7.0,
+        "y": 12.0,
+        "w": 42.0,
+        "h": 68.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Paint.wtf Scoring\nCLIP's Interpretation of the Paint.wtf Prompt\nCLIP's Interpretation of User-Submitted Drawing\nCosine Similarity",
+        "x": 51.0,
+        "y": 12.0,
+        "w": 43.0,
+        "h": 58.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/OimPoLxioYg/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662679.492875,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "How We're Using CLIP Go Deeper!\nCLIP: Trained on 400M image/text pairs, OpenAl, 2021\ntext_embedding: how CLIP Paint.wtf Scoring\nmapsthepaint.wtfprompt into\nits feature space Image_embedding: how CLIP maps the user submission into X of thePaint.wtfPrompt CLIP's Interpretation CLip'sInterpretation of User-Submitted Drawing\nits feature space\ndistance between the prompt and the user drawing Winning paint.wtf: minimizing Cosine Similarity X",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 595.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "How We're Using CLIP Go Deeper!\nCLIP: Trained on 400M image/text pairs, OpenAl, 2021\ntext_embedding: how CLIP Paint.wtf Scoring\nmapsthepaint.wtfprompt into\nits feature space Image_embedding: how CLIP maps the user submission into X of thePaint.wtfPrompt CLIP's Interpretation CLip'sInterpretation of User-Submitted Drawing\nits feature space\ndistance between the prompt and the user drawing Winning paint.wtf: minimizing Cosine Similarity X",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

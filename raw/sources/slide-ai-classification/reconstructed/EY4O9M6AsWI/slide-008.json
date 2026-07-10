@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "demo_video",
+  "reject_reason": "embedded video footage, not a presentation slide",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "video frame",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "bright outdoor scene",
+    "style": "other",
+    "blocks": []
+  },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/reconstructed-slides/EY4O9M6AsWI/slide-008.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658816.5208995,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

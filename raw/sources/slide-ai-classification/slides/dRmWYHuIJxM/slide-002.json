@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE ASSUMPTION\nEvery AI coding tool we tried had the same assumption:\nsend as much context as possible.\n45,000 tokens per query\n~5,000 tokens per query",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "THE ASSUMPTION",
+        "x": 6.0,
+        "y": 7.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Every AI coding tool we tried had the same assumption:\nsend as much context as possible.",
+        "x": 16.0,
+        "y": 16.0,
+        "w": 68.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "WHAT AGENTS SEND\n45,000\ntokens per query",
+        "x": 12.0,
+        "y": 41.0,
+        "w": 30.0,
+        "h": 21.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "WHAT'S ACTUALLY USEFUL\n~5,000\ntokens per query",
+        "x": 58.0,
+        "y": 41.0,
+        "w": 30.0,
+        "h": 21.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/dRmWYHuIJxM/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667254.1768003,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "THE ASSUMPTION\nEvery AI coding tool we tried had the same assumption:\nsend as much context as possible.\n45,000 tokens per query\n~5,000 tokens per query",
+  "advanced_ocr": {}
+}

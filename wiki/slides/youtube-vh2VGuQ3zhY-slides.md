@@ -17,268 +17,141 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 - No individual scheduled session mapping has been assigned yet; treat this as an event livestream deck.
 
 ## Extracted Slides
-![[assets/slides/vh2VGuQ3zhY/slide-001.jpg]]
-
-OCR text:
-
-> Ankush Rastogi
-> The 100-Tool Agent
-> Is a Trap
-> Sohall Shaikh
-> Scaling with SemanticRouters and Just-In-Time Context
-> Al EngineerWorld'sFair2026
-> For Engineers BuildingLLM Agents
-> Ankush Rastogi
-
-![[assets/slides/vh2VGuQ3zhY/slide-002.jpg]]
-
-OCR text:
-
-> THE PRESENTERS
-> Ankush Rastogi
-> Senior Data Solutions Engineer · Prosodica LLC
-> IEEE Senior Member
-> 10+ years across data engineering, AI systems, production
-> analytics, and enterprise LLM implementation.
-> Sohail Shaikh
-> Data Scientist · Prosodica LLC
-> Building Real-World AI Systems
-> 9+ years in AI, NLP, conversational intelligence, RAG pipelines,
-> semantic search, and production LLM workflows.
-> 02
-
-![[assets/slides/vh2VGuQ3zhY/slide-003.jpg]]
-
-OCR text:
-
-> THE PROBLEM
-> The Fat Agent Trap
-> The Naive Architecture
-> The easiest approach is to dump every tool's schema into the prompt on every request. It works perfectly in demos and falls apart in production.
-> Token Bloat 127,000 tokens for 741 tools
-> Accuracy Crash 78% → 13% as the tool pool grows
-> Cost Explosion Up to 99x more tokens billed
-> Context Crowding No room left for actual reasoning
-> EVERY SINGLE REQUEST
-> User Query
-> LLM + ALL 100+ Tool Schemas
-> T1 T2 T3 T4 T5
-> T6 T7 T8 T9 T10
-> T11 T12... T100 + 85 more
-> Every token, every request is billed and processed in full.
-> 03
-
-![[assets/slides/vh2VGuQ3zhY/slide-004.jpg]]
-
-OCR text:
-
-> WHYITFAILS Accuracy Collapses With Scale
-> Ankush Rastogi
-> 78% 40% 13%
-> Accuracy at 10 tools Accuracyat100tools Accuracyat741tools
-> Tool SelectionAccuracy (%)vs.Tool-Pool Size Sohal Shaikh
-> BO
-> 100 200
-> FatAgent(alltools) WithSemanticRouter
-> 04
-> Ankush Rastogi
-
-![[assets/slides/vh2VGuQ3zhY/slide-005.jpg]]
-
-OCR text:
-
-> THE TECHNIQUE
-> Just-In-Time Context Injection
-> Static Loading
-> • All 100+ schemas pre-loaded in the prompt
-> • Every request carries the full payload
-> • Most tokens wasted on irrelevant tools
-> • Context window consumed by schemas
-> • Less space for reasoning and output
-> • Accuracy degrades as the list grows
-> • Slow: model must process a giant context
-> VS
-> JIT Injection
-> • Tools selected at runtime, per query
-> • Only 3-5 relevant schemas injected
-> • Context window stays lean
-> • More room for reasoning chains
-> • Accuracy stays above 83% at any scale
-> • Fast: smaller prompt, less processing
-> • Inspired by Anthropic MCP on-demand loading
-> Ankush Rastogi
-> Sohal Shaikh
-> 08
-
-![[assets/slides/vh2VGuQ3zhY/slide-006.jpg]]
-
-OCR text:
-
-> RESULTS
-> BenchmarkResults
-> Ankush Rastogi
-> Accuracy(%)vs.Tool Count TTFT(ms)vs.ToolCount@GPT-40
-> 100- 7000
-> 80 6000
-> 5000
-> 60 4000
-> 40 3000 Sohal Shaikh
-> 2000
-> 20 1000
-> 10 50 100 200 741 10 100 200 400 741
-> Baseline (fat agent) With Router Baseline (fatagent) With Router
-> 10
-> Ankush Rastogi
-
 ![[assets/slides/vh2VGuQ3zhY/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-007.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
+- OCR decision: ready — Dense multi-card slide with small bullet text and mixed layout.
 
-> HOW TO BUILD IT
+Slide text:
+
+> HOWTO BUILD IT
 > 3 Step Implementation Pattern
-> 1 Build Tool Index
-> OFFLINE • ONE-TIME
-> • Collect all tool names,
-> descriptions, and JSON schemas
-> • Embed each tool description
-> (OpenAI, Cohere,
-> SentenceTransformers)
-> • Index once and reuse forever by
-> storing vectors in FAISS or
-> Pinecone.
-> 2 Route Each Query
-> RUNTIME • EVERY REQUEST
-> • Embed the incoming user query
-> with the same model
-> • Run approximate
-> nearest-neighbor search against
-> the tool index
-> • Retrieve top-K tools (K = 5
-> default); apply a cosine threshold
-> 3 Inject & Call LLM
-> RUNTIME • EVERY REQUEST
-> • Fetch JSON schemas for the
-> selected tools only
-> • Build the prompt with just those
-> schemas in the tools parameter
-> • Call the LLM → return result; log
-> selections for monitoring
-> 11
+> Ankush Rastogi
+> Build Tool Index Route Each Query Inject & Call LLM
+> OFFLINE·ONE-TIME RUNTIME·EVERYREQUEST RUNTIME·EVERYREQUEST
+> Collect all tool names, descriptions,and JsON schemas Embed the incominguser query with thesamemodel Fetch JsON schemas for the selected tools only
+> Index once and reuse forever by Embed each tool description SentenceTransformers) Pinecone. storingvectors in FAisS or (OpenAl,Cohere, Run approximate Retrieve top-Ktools（K=5 the toolindex nearest-neighbor search against default); apply a cosine threshold Build thepromptwith just those Call the LLM → return result; log selections for monitoring schemas in the toolsparameter Sohaa Shukh
+> Antush Rastogi
 
 ![[assets/slides/vh2VGuQ3zhY/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
+- OCR decision: ready — Six-item checklist with smaller subtext across two columns.
 
-> YOUR ROADMAP
+Slide text:
+
+> YOURROADMAP
 > Implementation Checklist
-> 1 Catalog Your Tools
-> Gather all tool names, descriptions, and JSON schemas in a structured list
-> 2 Build the Embedding Index
-> Embed each description; store vectors in FAISS or Pinecone; one-time setup
-> 3 Implement the Router
-> embed(query) → similarity_search → top-K → fetch schemas
-> 4 Integrate Into the Agent Loop
-> Replace your static functions list with the router output on every call
-> 5 Evaluate & Tune K
-> Benchmark accuracy at K = 3, 5, 10 on a held-out set; pick the sweet spot
-> 6 Monitor & Iterate
-> Log selections; alert on missed tools; re-embed as your catalog grows
 > Ankush Rastogi
-> Sohail Shaikh
+> Catalog Your Tools Build the Embedding Index
+> Gather alltoolnames,descriptions,and JsON schemasina structured list Pinecone,one-time setup Embed each description, store vectors in FAiss or
+> Implement the Router Integrate Into the Agent Loop
+> schemas embed(query)→similarity_search→top-K→fetch Replace your static functions list with therouter output on every call Sohaa Shakh
+> 5 Benchmark accuracy at K=3,5,10on a held-out set; pickthe sweet spot Evaluate & Tune K 6 your catalog grows Monitor & Iterate Log selections;alert on missed tools;re-embed as
 > 14
+> Antush Rastogi
 
 ![[assets/slides/vh2VGuQ3zhY/slide-009.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-009.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Dense evidence matrix with multiple source callouts and small supporting copy.
 
-> INDUSTRY EVIDENCE
-> Teams Are Hitting the Same Tool-Scaling Wall
-> Real evidence from practitioners, engineers, and Anthropic itself, not simulated benchmarks.
-> 150K → 2K
-> Anthropic Engineering Blog
-> Loading only the tools needed for the current task drops usage from 150,000 to 2,000 with 98.7% cut.
-> Official Anthropic finding
-> 20+
-> tools breaks it
-> Vercel AI SDK - Issue #11920
-> "Sending all tool definitions every request degrades performance, confuses tool choice, and raises tokens + latency."
-> Real practitioner issue - Jan 2026
-> 98%
-> token reduction
-> MCP-Zero (xfey/MCP-Zero)
-> Tested on 308 MCP servers and 2,797 tools.
-> Selects accurately from ~3K candidates while cutting tokens 98%.
-> Open source, code available now
-> > 2
-> tools → stuck loop
-> n8n Community Forum
-> "Add more than two tools and the AI gets stuck in a loop, burning through all max iterations." Hit in production.
-> Production failure - Aug 2024
+Slide text:
+
+> Teams Are Hitting the Same Tool-Scaling Wall INDUSTRYEVIDENCE
+> Real evidence from practitioners,engineers,and Anthropic itself,not simulated benchmarks. Ankush Rastogi
+> tokens 150K → 2K Loading only the toolsneeded for the Anthropic Engineering Blog currenttaskdropsusagefrom1so.oooto 2,000 with98.7%cut. 20+ tools breaksit Vercel AI SDK - Issue #11920 Sending alltool definitions every request choice,and ralses tokers+latency." degrades performance,confuses tool
+> Official Anthropicfinding Real practitioner issue jon 2026
+> Sohnl Shakh
+> 98% tokenreduction Selects accurately from~3K candidates MCP-Zero (xfey/MCP-Zero) whilecutting tokens 98% Testedon308MCPserversand2.797toob. >2 tools-+stuckloop stuckin aloop,burningthroughallmax iterations.Hit in production. n8n Community Forum "Addmorethan two toolsandtheAlgets
+> Open source,code cvailable now Production foslure·Aug 2024
 > 15
+> boseysruy
 
 ![[assets/slides/vh2VGuQ3zhY/slide-010.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-010.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
+- OCR decision: ready — Two-column tradeoff table with five rows of small text.
 
-> KNOW THELIMITS
-> Trade-Offs&BestPractices
-> Ankush Rastogi
-> CONCERN
-> MITIGATION
-> Router maymiss a needed tool
-> Fallback:raiseK,or let theLLMrequestmore
-> Adds complexity:vector DB+tuning
-> Embedding search is ms-fast; the savings dominate
-> Sohail Shuikh
-> Raretoolsmayranklow
-> Logmisses;retrain oraddkeyword boosting
-> Kthresholdishard to calibrate
-> Start atK=5;tune on a dev eval set
-> Notworthitbelow~20 tools
-> For smalltoolsets,load statically;norouter
-> Ankush Rastogi
+Slide text:
+
+> KNOWTHE LMITS Trade-Offs & Best Practices
+> Ankush Rrsi ogi
+> CONCERN MITIGATION!
+> Router may miss a needed tool Fallback: raise K, or let the LLM request more:
+> Adds complexity:vector DB+tuning Embedding search is.ms-fast; the savings dominate:
+> Rare toois may rank low E Log missesy retrain or add keyword boosting
+> K threshold is hard to calibrate Start at K=5; tune on a dev eval set.
+> Not worth it below -20 tools For small tool sets' load staticallypano router
+> Anbunh Rrtogi
 
 ![[assets/slides/vh2VGuQ3zhY/slide-011.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-011.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
 
-> a!
-> REMEMBER THIS it,
-> oo eee —_
+Slide text:
+
 > Key Takeaways
-> — Too! Overload Kills Accuracy ye ne -
-> - o #6 2 fe a 7 , ‘
-> “s Tokens = Money + Latency oe _ ] Mg ; a
-> aan Semantic Routing Saves the Day | _ , , oe
-> ‘It's RAG, but for Tools ee a en
-> a Tele scTarl Mestre Otel talib rs - ,
+> 01 Tool Overload Kills Accuracy
+> 02 Tokens = Money + Latency
+> 03 Semantic Routing Saves the Day
+> 04 It's RAG, but for Tools
+> 05 Start Small, Scale Confidently
 
 ![[assets/slides/vh2VGuQ3zhY/slide-012.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-012.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Dense reference slide with small multi-column text and many citations.
+
+Slide text:
 
 > GO DEEPER
-> Resources& References
-> Ankush Rastogi
-> 三 Papers& Benchmarks Tools&Repos APIDoCS
-> Zhengetal.-SkillRouter:LLM AgentsatScale(2026).SkilliRouter- github.com/alibaba/skillrouter AnthropicMCP docs.anthropic.com/mcp
-> Liu&Chen-SemanticTool Selection(vLLM,2025) FAISS- github.com/facebookresearch/faiss OpenAl Function Calling- platform.openai.com Sohal Shaikh
-> Berkeley Function Calling Leaderboard (BFCL) Pinecone/Qdrant/ChromaDB (vectorDBs) GoogleGenAIGemini 2.0- ai.google.dev
-> AnthropicEng.-MCPOn-Demand Context(2025) LangGraph-agentorchestration SentenceTransformers-sbert.net
-> Thankyou!
-> 19
+> Resources & References
+> Ankush Rstogi
+> 三 Benchmarks Papers & Tools & Repos API Docs
+> Zheng et al.-SkillRouter:LLM Agents at Scale(2026) SkillRouter- github.com/alibaba/skillrouter AnthropicMCP- docs.anthropic.com/mcp
+> Liu&Chen-SemanticTool Selection (vLLM, 2025) FAISS- github.com/facebookresearch/faiss OpenAl Function Calling- platform.openai.com Sohea Shakh
+> Berkeley Function Calling Leaderboard (BFCL) Pinecone/Qdrant/ChromaDB (vector DBs) Google GenAI Gemini2.0- ai.google.dev
+> Anthropic Eng.-MCP On-Demand Context(2025) LangGraph-agent orchestration SentenceTransformers-sbert.net
+> Thank you!
+> Antush Rastogi
 
 ![[assets/slides/vh2VGuQ3zhY/slide-013.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/vh2VGuQ3zhY/slide-013.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> LET'SCONNECT
-> ThankYou AnkushRastogi
-> Scan either code to connectwith uson Linkedln
-> Sohai Shuikh
-> Ankush Rastogi Sohail Shaikh
-> SeniorData SolutionsEngineer·Prosodica LLC DataScientist·ProsodicaLLC
-> 20
+Slide text:
+
+> LET'S CONNECT
+> Thank You
+> Scan either code to connect with us on LinkedIn
+> Ankush Rastogi
+> Sohail Shaikh
+
+
+### Hidden Non-Slide Evidence
+- [`slide-001.jpg`](/assets/slides/vh2VGuQ3zhY/slide-001.jpg) — `other` confidence `0.0`; missing batch classifier result
+- [`slide-002.jpg`](/assets/slides/vh2VGuQ3zhY/slide-002.jpg) — `other` confidence `0.0`; missing batch classifier result
+- [`slide-003.jpg`](/assets/slides/vh2VGuQ3zhY/slide-003.jpg) — `other` confidence `0.0`; missing batch classifier result
+- [`slide-004.jpg`](/assets/slides/vh2VGuQ3zhY/slide-004.jpg) — `other` confidence `0.0`; missing batch classifier result
+- [`slide-005.jpg`](/assets/slides/vh2VGuQ3zhY/slide-005.jpg) — `other` confidence `0.0`; missing batch classifier result
+- [`slide-006.jpg`](/assets/slides/vh2VGuQ3zhY/slide-006.jpg) — `other` confidence `0.0`; missing batch classifier result
+
+Classification audit: `raw/sources/slide-ai-classification/slides/vh2VGuQ3zhY/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

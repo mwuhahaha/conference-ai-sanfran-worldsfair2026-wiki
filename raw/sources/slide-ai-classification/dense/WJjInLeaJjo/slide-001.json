@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "dow/sgetsme/uoy qnuita//ssdim\nm REaDME Q Code ol conduct f Apucht2o kcense 中 Secunty +47con:rbutors\n? AWS McP Servers Deployments 500+? releste l hour ago\nA sute or speciafred MCP servers that help you get the most out of Aw's, whertrer you use MCp. *m↓ overoe jara score s.s + morg deotomenrs clude cbe noy,ubid-qnutd\nTable of Contents Languagos\n● AWS kCP Serverg.. Tablo ol Contonts Wht is the Mode Context Protocol (MCP! and hor docs it work with AlvS MCP Servers? - Why MCP Servers? Python 96.2y $ha 1.1k htll o.0k + Dochtrtle 18x\n. Avaiabfe Servers - Coro MCP Sorve\n· AWS Documentation MCP Sorvox\nI ALron Bedrock Krowedge Brseus Rerase MCP Seze\n· AwS Kendra ndex MCP Servet?\n· AW'S coK MCp Server\nArnazon Nova Carvas MCP Server",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense repository screenshot with small table-of-contents and sidebar text; OCR will outperform manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(#1b2b34,#0c1420)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "https://github.com/awslabs/mcp",
+        "x": 5.0,
+        "y": 0,
+        "w": 54.0,
+        "h": 9.0
+      },
+      {
+        "role": "title",
+        "text": "AWS MCP Servers",
+        "x": 10.0,
+        "y": 18.0,
+        "w": 26.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "Table of Contents",
+        "x": 10.0,
+        "y": 38.0,
+        "w": 20.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/WJjInLeaJjo/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664907.3661942,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "https://github.com/awslabs/mcp\nAWS MCP Servers",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "dow/sgetsme/uoy qnuita//ssdim\nm REaDME Q Code ol conduct f Apucht2o kcense 中 Secunty +47con:rbutors\n? AWS McP Servers Deployments 500+? releste l hour ago\nA sute or speciafred MCP servers that help you get the most out of Aw's, whertrer you use MCp. *m↓ overoe jara score s.s + morg deotomenrs clude cbe noy,ubid-qnutd\nTable of Contents Languagos\n● AWS kCP Serverg.. Tablo ol Contonts Wht is the Mode Context Protocol (MCP! and hor docs it work with AlvS MCP Servers? - Why MCP Servers? Python 96.2y $ha 1.1k htll o.0k + Dochtrtle 18x\n. Avaiabfe Servers - Coro MCP Sorve\n· AWS Documentation MCP Sorvox\nI ALron Bedrock Krowedge Brseus Rerase MCP Seze\n· AwS Kendra ndex MCP Servet?\n· AW'S coK MCp Server\nArnazon Nova Carvas MCP Server",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1178.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "dow/sgetsme/uoy qnuita//ssdim\nm REaDME Q Code ol conduct f Apucht2o kcense 中 Secunty +47con:rbutors\n? AWS McP Servers Deployments 500+? releste l hour ago\nA sute or speciafred MCP servers that help you get the most out of Aw's, whertrer you use MCp. *m↓ overoe jara score s.s + morg deotomenrs clude cbe noy,ubid-qnutd\nTable of Contents Languagos\n● AWS kCP Serverg.. Tablo ol Contonts Wht is the Mode Context Protocol (MCP! and hor docs it work with AlvS MCP Servers? - Why MCP Servers? Python 96.2y $ha 1.1k htll o.0k + Dochtrtle 18x\n. Avaiabfe Servers - Coro MCP Sorve\n· AWS Documentation MCP Sorvox\nI ALron Bedrock Krowedge Brseus Rerase MCP Seze\n· AwS Kendra ndex MCP Servet?\n· AW'S coK MCp Server\nArnazon Nova Carvas MCP Server",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

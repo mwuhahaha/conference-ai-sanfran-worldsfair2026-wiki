@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "listing feeds; neighborhood data; your criteria; agent Relocation Scout; ranked shortlist; hand off to you; what happens if it fails?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "warm white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "listing feeds",
+        "x": 9.0,
+        "y": 29.0,
+        "w": 22.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "neighborhood data",
+        "x": 9.0,
+        "y": 48.0,
+        "w": 22.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "your criteria",
+        "x": 9.0,
+        "y": 66.0,
+        "w": 22.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "agent\nRelocation Scout",
+        "x": 40.0,
+        "y": 42.0,
+        "w": 20.0,
+        "h": 15.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ranked shortlist",
+        "x": 70.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "hand off to you",
+        "x": 70.0,
+        "y": 55.0,
+        "w": 24.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "what happens if it fails?",
+        "x": 41.0,
+        "y": 80.0,
+        "w": 24.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/ZD9-4fW2HhM/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665569.1133354,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "listing feeds; neighborhood data; your criteria; agent Relocation Scout; ranked shortlist; hand off to you; what happens if it fails?",
+  "advanced_ocr": {}
+}

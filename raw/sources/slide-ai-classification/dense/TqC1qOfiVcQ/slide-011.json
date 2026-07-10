@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What are Skills?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f5f2ea",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "What are Skills?",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 35.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "An organized collection of files (instructions, executable code, assets) containing everything Claude needs for a specific task.",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 58.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Skills give an agent:",
+        "x": 4.0,
+        "y": 39.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "1. General capabilities Claude isn't good at out of the box (yet)",
+        "x": 9.0,
+        "y": 47.0,
+        "w": 52.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "2. Knowledge of an organization's workflows and best practices",
+        "x": 9.0,
+        "y": 61.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 63.0,
+        "y": 11.0,
+        "w": 29.0,
+        "h": 50.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-011.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664547.3886461,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "What are Skills?",
+  "advanced_ocr": {}
+}

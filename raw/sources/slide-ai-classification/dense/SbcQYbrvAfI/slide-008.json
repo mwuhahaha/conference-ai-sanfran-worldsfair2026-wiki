@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Hag uo rdwiojd paiepdn/m aula buiajewuouag\nfocuses on tasks difficult for language. BBH - Diverse evaluation suite that Tauk ACCUrAGY tnitlal (5 l0ops) Flna Accurscy Chung+\nmodels saEont_ translation.trror._detection 0.8: ta.s.\nExample BBH Benchmarks' Complex Boolean Expressions snsrks: trscbirg_shumed_objhcts_three_objects 0.32 S0 0.62. 0.88 0.38 +0.36 40.38: to.u\nbased on vertex coordinates: Categorizing Geometric Shapes Dupuethepun-spodt word_sorting 0.86 0.84 0.96 0.88 +0.1 +0.04\nDetecting Sarcasm in Statements geomtric_shapes: coousnbat-,eodwe! 0.96 0.48 1 0.5 +0.02 t0.04\nboolean_txpresslons': 0.94 0.94.\nogictl_dtducton._thrte_odtcts 0.96. 0.96.\nobjtct_countng 0.8 0.78 -0.02:\nmultistep_arithmetic_two. 0.08 0.06:0.02:\nformal_falsclos.. 0.84 0.4: to'0-\nbglcel_dtductlon_teven_oject. 0.76 0.72 -0.04\nweb_of_es 0.56 0.48 -0.08\nAarizo I Ws Nyo A Wtrk:2025112212:46:48",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense benchmark table and small labels on a text-heavy slide; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "table",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Benchmarking Cline w/updated prompt on BBH",
+        "x": 3.0,
+        "y": 0,
+        "w": 52.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "BBH - Diverse evaluation suite that focuses on tasks difficult for language models\nExample BBH Benchmarks\nComplex Boolean Expressions\nCategorizing Geometric Shapes based on vertex coordinates\nDetecting Sarcasm in Statements",
+        "x": 3.0,
+        "y": 11.0,
+        "w": 33.0,
+        "h": 40.0
+      },
+      {
+        "role": "body",
+        "text": "task / initial accuracy / final accuracy / change",
+        "x": 42.0,
+        "y": 9.0,
+        "w": 48.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664059.0484133,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Hag uo rdwiojd paiepdn/m aula buiajewuouag\nfocuses on tasks difficult for language. BBH - Diverse evaluation suite that Tauk ACCUrAGY tnitlal (5 l0ops) Flna Accurscy Chung+\nmodels saEont_ translation.trror._detection 0.8: ta.s.\nExample BBH Benchmarks' Complex Boolean Expressions snsrks: trscbirg_shumed_objhcts_three_objects 0.32 S0 0.62. 0.88 0.38 +0.36 40.38: to.u\nbased on vertex coordinates: Categorizing Geometric Shapes Dupuethepun-spodt word_sorting 0.86 0.84 0.96 0.88 +0.1 +0.04\nDetecting Sarcasm in Statements geomtric_shapes: coousnbat-,eodwe! 0.96 0.48 1 0.5 +0.02 t0.04\nboolean_txpresslons': 0.94 0.94.\nogictl_dtducton._thrte_odtcts 0.96. 0.96.\nobjtct_countng 0.8 0.78 -0.02:\nmultistep_arithmetic_two. 0.08 0.06:0.02:\nformal_falsclos.. 0.84 0.4: to'0-\nbglcel_dtductlon_teven_oject. 0.76 0.72 -0.04\nweb_of_es 0.56 0.48 -0.08\nAarizo I Ws Nyo A Wtrk:2025112212:46:48",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 812.4
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Hag uo rdwiojd paiepdn/m aula buiajewuouag\nfocuses on tasks difficult for language. BBH - Diverse evaluation suite that Tauk ACCUrAGY tnitlal (5 l0ops) Flna Accurscy Chung+\nmodels saEont_ translation.trror._detection 0.8: ta.s.\nExample BBH Benchmarks' Complex Boolean Expressions snsrks: trscbirg_shumed_objhcts_three_objects 0.32 S0 0.62. 0.88 0.38 +0.36 40.38: to.u\nbased on vertex coordinates: Categorizing Geometric Shapes Dupuethepun-spodt word_sorting 0.86 0.84 0.96 0.88 +0.1 +0.04\nDetecting Sarcasm in Statements geomtric_shapes: coousnbat-,eodwe! 0.96 0.48 1 0.5 +0.02 t0.04\nboolean_txpresslons': 0.94 0.94.\nogictl_dtducton._thrte_odtcts 0.96. 0.96.\nobjtct_countng 0.8 0.78 -0.02:\nmultistep_arithmetic_two. 0.08 0.06:0.02:\nformal_falsclos.. 0.84 0.4: to'0-\nbglcel_dtductlon_teven_oject. 0.76 0.72 -0.04\nweb_of_es 0.56 0.48 -0.08\nAarizo I Ws Nyo A Wtrk:2025112212:46:48",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

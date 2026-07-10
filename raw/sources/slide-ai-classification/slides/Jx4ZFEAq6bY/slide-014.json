@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "demo_video",
+  "reject_reason": "Browser product demo with webcam inset, not a slide.",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "Non-slide demo footage.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "dark browser UI with red top bar",
+    "style": "product",
+    "blocks": []
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/Jx4ZFEAq6bY/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661827.6966205,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

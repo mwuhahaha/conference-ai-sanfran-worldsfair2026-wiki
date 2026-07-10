@@ -1,0 +1,130 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Reasoning\nProgress on Al benchmarks in the past five years\nAIE 100\n80 Trivia questions (TriviaQA)\nAccuracy 40+ 20- 60- Variousexams (MMLU) math (GSM8K) Grade-school math (MATH) Competition SWEtasks(SWE benchverified) STEM(GPQA) Graduate-level Prestigious math exam(AIME) \"Humanity's lastexam\n2020 2021 2022 2023 2024 2025\nCredit: Jason Wed\naws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense chart slide with many small labels and axis text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(#f2be62 0 22%, #1b140b 22% 100%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Reasoning",
+        "x": 18.0,
+        "y": 5.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Progress on AI benchmarks in the past five years",
+        "x": 37.0,
+        "y": 13.0,
+        "w": 47.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "Accuracy",
+        "x": 7.0,
+        "y": 47.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Trivia questions (TriviaQA)",
+        "x": 18.0,
+        "y": 24.0,
+        "w": 17.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Various exams (MMLU)",
+        "x": 15.0,
+        "y": 39.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Grade-school math (GSM8K)",
+        "x": 28.0,
+        "y": 50.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Competition math (MATH)",
+        "x": 39.0,
+        "y": 66.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Graduate-level STEM (GPQA)",
+        "x": 63.0,
+        "y": 50.0,
+        "w": 19.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Prestigious math exam (AIME)",
+        "x": 74.0,
+        "y": 62.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "SWE tasks (SWE bench verified)",
+        "x": 65.0,
+        "y": 76.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Humanity's last exam",
+        "x": 92.0,
+        "y": 79.0,
+        "w": 7.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/liG97YXaTSA/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670369.5973024,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Reasoning",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Reasoning\nProgress on Al benchmarks in the past five years\nAIE 100\n80 Trivia questions (TriviaQA)\nAccuracy 40+ 20- 60- Variousexams (MMLU) math (GSM8K) Grade-school math (MATH) Competition SWEtasks(SWE benchverified) STEM(GPQA) Graduate-level Prestigious math exam(AIME) \"Humanity's lastexam\n2020 2021 2022 2023 2024 2025\nCredit: Jason Wed\naws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 474.68
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Reasoning\nProgress on Al benchmarks in the past five years\nAIE 100\n80 Trivia questions (TriviaQA)\nAccuracy 40+ 20- 60- Variousexams (MMLU) math (GSM8K) Grade-school math (MATH) Competition SWEtasks(SWE benchverified) STEM(GPQA) Graduate-level Prestigious math exam(AIME) \"Humanity's lastexam\n2020 2021 2022 2023 2024 2025\nCredit: Jason Wed\naws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

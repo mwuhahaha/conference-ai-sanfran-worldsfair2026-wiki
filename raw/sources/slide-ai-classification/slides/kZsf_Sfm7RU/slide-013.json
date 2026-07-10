@@ -1,0 +1,130 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "SainnsAnibes 口 PoiringeScnp\n$216.67 7.7 84.5% 15.5% 0% 1\nBooreTand SaisensperDeyog.e Cost jerDey\n30\nAmiyMs\nOegTng Atons\nnoboopt Agetaerpnded erBecgPttis\nOrgariSMiOA TeEd Cod\n67 ACostbAC N2.8r\nNorwng Tri Ch 18\nWrieVeey Fan\nWlerr Jxeroen 3.8\ny",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense dashboard metrics, charts, and small table-like text are better OCRed than transcribed.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Sessions Analyzed",
+        "x": 5.0,
+        "y": 3.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Total Cost",
+        "x": 19.0,
+        "y": 3.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Average Score",
+        "x": 32.0,
+        "y": 3.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Success Rate",
+        "x": 47.0,
+        "y": 3.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Partial",
+        "x": 60.0,
+        "y": 3.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Failed",
+        "x": 72.0,
+        "y": 3.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "Needs Review",
+        "x": 84.0,
+        "y": 3.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Score Trend",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Sessions per Day",
+        "x": 36.0,
+        "y": 14.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Cost per Day",
+        "x": 67.0,
+        "y": 14.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "AI insights",
+        "x": 5.0,
+        "y": 38.0,
+        "w": 8.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670089.1400378,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "SainnsAnibes 口 PoiringeScnp\n$216.67 7.7 84.5% 15.5% 0% 1\nBooreTand SaisensperDeyog.e Cost jerDey\n30\nAmiyMs\nOegTng Atons\nnoboopt Agetaerpnded erBecgPttis\nOrgariSMiOA TeEd Cod\n67 ACostbAC N2.8r\nNorwng Tri Ch 18\nWrieVeey Fan\nWlerr Jxeroen 3.8\ny",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 340.4
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "SainnsAnibes 口 PoiringeScnp\n$216.67 7.7 84.5% 15.5% 0% 1\nBooreTand SaisensperDeyog.e Cost jerDey\n30\nAmiyMs\nOegTng Atons\nnoboopt Agetaerpnded erBecgPttis\nOrgariSMiOA TeEd Cod\n67 ACostbAC N2.8r\nNorwng Tri Ch 18\nWrieVeey Fan\nWlerr Jxeroen 3.8\ny",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

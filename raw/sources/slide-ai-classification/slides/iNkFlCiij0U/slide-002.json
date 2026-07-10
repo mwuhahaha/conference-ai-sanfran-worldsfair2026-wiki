@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Snorke The Frontier Al Data Lab\nAcademic Labs! Team Publications/OsS Collsborations\nAlex Ratrer Stmlord Ppo. Co-TO LCEO Asu, Prol Ltult iLlL anduyry Jnd lesdung instiution moruing on dutu (enlrk A mith fexng global Lbs Rtsearchers, FDEs, and Applied A Erginrers frorn. ondLLTenkriAnd foundlnon modthy\nChris Re UA\nProf. at Susfeeu Co foundir. Vanfotd Center for Hretrch on 1 Yalc A+urd at Hrurts, Ktl, klk, Ull, Y.Dt, an4 more\nExpertlso and Capablrties Bonchmarks\nFrod Sats UCLA PhD.Aust Prof.st ClirSnolan Hieh prror proramTk ala dreapment lor Cotachartd + cetihutd to Uo Tnrb.ein. Liart-Trr tt et adancd phyk1 proolrs\nAerrth aorkhoa, harrs, ard toct u+ rmcdetn. -\n12\nBnere A I Popr tlly + Carld+ren t Not yr dHttuler\nGoogle DeepMind",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense multi-column slide with small text and logos",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black side panel",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Snorkel",
+        "x": 30.0,
+        "y": 6.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "title",
+        "text": "The Frontier AI Data Lab",
+        "x": 44.0,
+        "y": 7.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 6.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Academic Labs",
+        "x": 28.0,
+        "y": 15.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Team",
+        "x": 49.0,
+        "y": 15.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Publications / OSS Collaborations",
+        "x": 71.0,
+        "y": 15.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Expertise and Capabilities",
+        "x": 28.0,
+        "y": 48.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Benchmarks",
+        "x": 71.0,
+        "y": 48.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 46.0,
+        "y": 84.0,
+        "w": 22.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/iNkFlCiij0U/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668844.0349095,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/right-72/opencv-adaptive",
+    "text": "Snorke The Frontier Al Data Lab\nAcademic Labs! Team Publications/OsS Collsborations\nAlex Ratrer Stmlord Ppo. Co-TO LCEO Asu, Prol Ltult iLlL anduyry Jnd lesdung instiution moruing on dutu (enlrk A mith fexng global Lbs Rtsearchers, FDEs, and Applied A Erginrers frorn. ondLLTenkriAnd foundlnon modthy\nChris Re UA\nProf. at Susfeeu Co foundir. Vanfotd Center for Hretrch on 1 Yalc A+urd at Hrurts, Ktl, klk, Ull, Y.Dt, an4 more\nExpertlso and Capablrties Bonchmarks\nFrod Sats UCLA PhD.Aust Prof.st ClirSnolan Hieh prror proramTk ala dreapment lor Cotachartd + cetihutd to Uo Tnrb.ein. Liart-Trr tt et adancd phyk1 proolrs\nAerrth aorkhoa, harrs, ard toct u+ rmcdetn. -\n12\nBnere A I Popr tlly + Carld+ren t Not yr dHttuler\nGoogle DeepMind",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1171.6
+  },
+  "ocr_source": "rapidocr-live/right-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Snorke The Frontier Al Data Lab\nAcademic Labs! Team Publications/OsS Collsborations\nAlex Ratrer Stmlord Ppo. Co-TO LCEO Asu, Prol Ltult iLlL anduyry Jnd lesdung instiution moruing on dutu (enlrk A mith fexng global Lbs Rtsearchers, FDEs, and Applied A Erginrers frorn. ondLLTenkriAnd foundlnon modthy\nChris Re UA\nProf. at Susfeeu Co foundir. Vanfotd Center for Hretrch on 1 Yalc A+urd at Hrurts, Ktl, klk, Ull, Y.Dt, an4 more\nExpertlso and Capablrties Bonchmarks\nFrod Sats UCLA PhD.Aust Prof.st ClirSnolan Hieh prror proramTk ala dreapment lor Cotachartd + cetihutd to Uo Tnrb.ein. Liart-Trr tt et adancd phyk1 proolrs\nAerrth aorkhoa, harrs, ard toct u+ rmcdetn. -\n12\nBnere A I Popr tlly + Carld+ren t Not yr dHttuler\nGoogle DeepMind",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

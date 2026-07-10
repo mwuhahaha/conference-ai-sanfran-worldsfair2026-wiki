@@ -1,0 +1,79 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Create MCP App",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense editor screenshot with small UI text and multiple sections; OCR will do better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(180deg, #0b1630, #07101f)",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Create MCP App",
+        "x": 47.0,
+        "y": 12.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Core Concept: Tool + Resource",
+        "x": 47.0,
+        "y": 24.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Quick Start Decision Tree",
+        "x": 47.0,
+        "y": 38.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Framework Selection",
+        "x": 47.0,
+        "y": 46.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Project Context",
+        "x": 47.0,
+        "y": 75.0,
+        "w": 14.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/_xIwFcnHqp4/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666174.889607,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Create MCP App",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/contrast",
+    "best_score": 883.48,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

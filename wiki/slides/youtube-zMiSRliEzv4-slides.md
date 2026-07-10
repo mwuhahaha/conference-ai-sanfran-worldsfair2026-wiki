@@ -19,25 +19,33 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/zMiSRliEzv4/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/zMiSRliEzv4/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.81`
+- Text source: agent_vision.
 
-> PostHog
+Slide text:
+
 > What if your product built itself?
 
 ![[assets/slides/zMiSRliEzv4/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/zMiSRliEzv4/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Dense product slide with a large title and many small feature labels; OCR is the better capture method.
 
-> 2 a. PosttHog / -ox,
+Slide text:
+
+> N', PostHog": -.0x
 > The single platform to analyze, test,
-> a observe, and delpoy new features
-> +> ©) GS alt LN
-> Posthog Session Web Product Error
-> Al replay analytics analytics tracking
-> & © Ar XQ 2
-> Experiments ae Logs coP Workflows
-> SS]
-> Google DeepMind
+> observe, and delpoy new features
+> + ★ AIE
+> Posthog AI Session replay analytics Web analytics Product tracking Error
+> Experiments Feature flags Logs CDP Workflows
+> GoogleDeepMind
+
+
+Classification audit: `raw/sources/slide-ai-classification/slides/zMiSRliEzv4/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

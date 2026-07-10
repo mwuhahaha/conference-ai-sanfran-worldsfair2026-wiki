@@ -1,0 +1,80 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Azure AI Proxy Playground",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Product UI screenshot with multiple small text regions and interface labels; OCR will capture details better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Azure AI Proxy Playground",
+        "x": 1.0,
+        "y": 2.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "AI Engineer Workshop - June 25, 2024",
+        "x": 1.0,
+        "y": 8.0,
+        "w": 28.0,
+        "h": 3.0
+      },
+      {
+        "role": "caption",
+        "text": "System Message",
+        "x": 2.0,
+        "y": 13.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Chat session",
+        "x": 24.0,
+        "y": 13.0,
+        "w": 56.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Configuration",
+        "x": 78.0,
+        "y": 13.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "API Response",
+        "x": 78.0,
+        "y": 61.0,
+        "w": 18.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657352.7378323,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Azure AI Proxy Playground",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

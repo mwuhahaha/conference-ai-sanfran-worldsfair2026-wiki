@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Terminal diff output is dense and OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black terminal window",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "code",
+        "text": "ai-talk (main) $ gco\nai-talk (main) $ gd\ndiff --git a/examples/demo/median.py b/examples/demo/medi...",
+        "x": 4.0,
+        "y": 6.0,
+        "w": 86.0,
+        "h": 22.0
+      },
+      {
+        "role": "code",
+        "text": "def median(numbers):\n\"\"\"Return the median value of a list of numbers.\"\"\"",
+        "x": 7.0,
+        "y": 36.0,
+        "w": 80.0,
+        "h": 22.0
+      },
+      {
+        "role": "code",
+        "text": "+ if not numbers:\n+ raise ValueError(\"The list cannot be empty\")",
+        "x": 7.0,
+        "y": 58.0,
+        "w": 58.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 7,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/2e9ANoOEn28/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657282.5721579,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

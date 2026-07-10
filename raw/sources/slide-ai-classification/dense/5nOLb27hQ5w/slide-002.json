@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A landing page hero section with a heading, leading text - Public\nHistory\nmore content below with pricing plans\nUnlock the Powe\nEnter your email\naws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "UI screenshot with multiple small text regions and a cropped hero headline; OCR should recover more than visual triage.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg, #f2f2f2 0%, #f7f6f6 100%)",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 16.0,
+        "w": 10.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Unlock the Power",
+        "x": 39.0,
+        "y": 8.0,
+        "w": 56.0,
+        "h": 68.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 56.0,
+        "y": 82.0,
+        "w": 12.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/5nOLb27hQ5w/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657800.0256057,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "A ltraing page hto socrion with A hevaing.leaairg text - C Putuo\nHrtory mor+ corlent ctow wh prcirg pltns +\nAIE\nUnlockthePowe\nDiscover our cutting-edge tools and sery presence and drlve.st\naws WnnF Entvr you oruyt\n:ne04j\nAt aws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 427.6
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "A landing page hero section with a heading, leading text - Public\nHistory\nmore content below with pricing plans\nUnlock the Powe\nEnter your email\naws",
+    "text_status": "meaningful",
+    "corrections": "Accepted the clear OCR intent and fixed spacing/obvious misspellings; omitted uncertain trailing words."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The reality\nPath to 100 Million Users (stylized)\n-2 months   9 months   30 months   41 months   55 months   61 months\nMonths from launch\nOne Month Retention\nIncumbents\nAI-First Companies\n63% Median\n42% Median\nGuardrails AI\nSource: https://www.sequoiacap.com/article/generative-ai-act-two/",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart-heavy slide with small labels and source text; OCR is more suitable than direct transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#efefed",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The reality",
+        "x": 4.0,
+        "y": 2.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Path to 100 Million Users",
+        "x": 7.0,
+        "y": 18.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "One Month Retention",
+        "x": 64.0,
+        "y": 4.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Source: https://www.sequoiacap.com/article/generative-ai-act-two/",
+        "x": 40.0,
+        "y": 93.0,
+        "w": 46.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/9-vGxMoUM9Y/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658413.043653,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Thereality OneMonthRetention\nIncumbents\nB5A\nPathto100MillionUsers (nylizd TKTok\n-2montha 9months 30months\nROBLOX\nSM tinder\nMonthsfromlaunch Al-FirstCompanies ChatGPTO 63%Median\nrurwoy\nLensa\nRemini 35%\n42%Median\nGuardrailsAl Source:https://www.sequoiacap.com/article/generative-ai-act-two/",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 360.96
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "The reality\nPath to 100 Million Users (stylized)\n-2 months   9 months   30 months   41 months   55 months   61 months\nMonths from launch\nOne Month Retention\nIncumbents\nAI-First Companies\n63% Median\n42% Median\nGuardrails AI\nSource: https://www.sequoiacap.com/article/generative-ai-act-two/",
+    "text_status": "meaningful",
+    "corrections": "OCR corrected for clear title/label spacing and obvious errors; left small chart labels and bar names out where the image was not fully legible."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Qodo Code Review Stats\nGuardrail that detects critical issues, boosts productivity\nSample size: ~1m PRs\n17%\nOf PRs contained issue with high severity (9-10)\n80%\nWhen AI review tool is enabled, 80% of PRs don't have any human comment or review",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Qodo Code Review Stats",
+        "x": 25.0,
+        "y": 6.0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Guardrail that detects critical issues, boosts productivity",
+        "x": 25.0,
+        "y": 14.0,
+        "w": 43.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Sample size: ~1m PRs",
+        "x": 25.0,
+        "y": 23.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "17%\nOf PRs contained issue with high severity (9-10)",
+        "x": 26.0,
+        "y": 35.0,
+        "w": 20.0,
+        "h": 31.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "80%\nWhen AI review tool is enabled, 80% of PRs don't have any human comment or review",
+        "x": 49.0,
+        "y": 35.0,
+        "w": 20.0,
+        "h": 31.0
+      },
+      {
+        "role": "logo",
+        "text": "qodo",
+        "x": 89.0,
+        "y": 82.0,
+        "w": 7.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-013.jpg",
+  "image": "wiki/assets/reconstructed-slides/rgjF5o2Qjsc/slide-013.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671977.9039207,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Qodo Code Review Stats\nGuardrail that detects critical issues, boosts productivity\nSample size: ~1m PRs\n17%\nOf PRs contained issue with high severity (9-10)\n80%\nWhen AI review tool is enabled, 80% of PRs don't have any human comment or review",
+  "advanced_ocr": {}
+}

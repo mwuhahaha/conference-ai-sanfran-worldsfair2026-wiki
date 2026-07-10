@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Francois Chollet @fchollet · 6h\n★ ★ AIE Overoptimized for public benchmark numbers at the detriment of with actual usefulness is a core competency for Al labs, and any new lab is unlikelyto be successful without first figuring that out. everything else. Knowing how to evaluate models in a way that correlates The new model from Meta is already looking like a disappointment:\n55 QZ4 ili? h0115K\nAlEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "contains a dense social-post screenshot with small text",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 15.0
+      },
+      {
+        "role": "caption",
+        "text": "François Chollet @fchollet · 6h",
+        "x": 35.0,
+        "y": 13.0,
+        "w": 42.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "The new model from Meta is already looking like a disappointment: overoptimized for public benchmark numbers at the detriment of everything else.",
+        "x": 35.0,
+        "y": 24.0,
+        "w": 55.0,
+        "h": 28.0
+      },
+      {
+        "role": "caption",
+        "text": "AI Engineer EUROPE",
+        "x": 57.0,
+        "y": 75.0,
+        "w": 22.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/QuuIywMG4s8/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663005.7741563,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "Francois Chollet @fchollet · 6h\n★ ★ AIE Overoptimized for public benchmark numbers at the detriment of with actual usefulness is a core competency for Al labs, and any new lab is unlikelyto be successful without first figuring that out. everything else. Knowing how to evaluate models in a way that correlates The new model from Meta is already looking like a disappointment:\n55 QZ4 ili? h0115K\nAlEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 648.24
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Francois Chollet @fchollet · 6h\n★ ★ AIE Overoptimized for public benchmark numbers at the detriment of with actual usefulness is a core competency for Al labs, and any new lab is unlikelyto be successful without first figuring that out. everything else. Knowing how to evaluate models in a way that correlates The new model from Meta is already looking like a disappointment:\n55 QZ4 ili? h0115K\nAlEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

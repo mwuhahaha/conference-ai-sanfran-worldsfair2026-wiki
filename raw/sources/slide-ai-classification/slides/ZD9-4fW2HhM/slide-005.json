@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "the giant prompt\n. normalize listing\n...format shortlist\ncalculate commute\nresearch neighborhood\nnormalize listing format shortlist calculate 'commute",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small bullet text inside the prompt box is OCR-suitable; the slide also has grouped labels that are better captured by OCR.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "warm white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "the giant prompt",
+        "x": 43.0,
+        "y": 10.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "normalize listing",
+        "x": 36.0,
+        "y": 22.0,
+        "w": 28.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "format shortlist",
+        "x": 39.0,
+        "y": 22.0,
+        "w": 21.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "calculate commute",
+        "x": 48.0,
+        "y": 22.0,
+        "w": 24.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "research neighborhood",
+        "x": 41.0,
+        "y": 22.0,
+        "w": 26.0,
+        "h": 24.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "normalize listing",
+        "x": 4.0,
+        "y": 43.0,
+        "w": 23.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "format shortlist",
+        "x": 28.0,
+        "y": 43.0,
+        "w": 23.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "calculate commute",
+        "x": 52.0,
+        "y": 43.0,
+        "w": 25.0,
+        "h": 13.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/ZD9-4fW2HhM/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665569.1154346,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "the giant prompt",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "the giant prompt\n. normalize listing\n...format shortlist\ncalculate commute\nresearch neighborhood\nnormalize listing format shortlist calculate 'commute",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 234.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "the giant prompt\n. normalize listing\n...format shortlist\ncalculate commute\nresearch neighborhood\nnormalize listing format shortlist calculate 'commute",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

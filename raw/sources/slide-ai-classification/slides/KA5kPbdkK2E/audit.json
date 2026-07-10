@@ -1,0 +1,436 @@
+{
+  "video_id": "KA5kPbdkK2E",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 6,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "How Lovable Self-Improves Every Hour\nBenjamin Verbeek\nLovable",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large title card; OCR not needed.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "blue-pink-orange gradient with black side panels",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "How Lovable Self-Improves Every Hour",
+            "x": 28.0,
+            "y": 16.0,
+            "w": 68.0,
+            "h": 28.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Benjamin Verbeek\nLovable",
+            "x": 56.0,
+            "y": 61.0,
+            "w": 18.0,
+            "h": 11.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 46.0,
+            "y": 84.0,
+            "w": 28.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KA5kPbdkK2E/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660249.5808306,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "How Lovable Self-Improves Every Hour\nBenjamin Verbeek\nLovable",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/KA5kPbdkK2E/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "The Holy Grail:\nContinuous learning at scale",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title card; OCR not needed.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "white with soft rainbow corners and black left panel",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 14.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "subtitle",
+            "text": "The Holy Grail:",
+            "x": 54.0,
+            "y": 34.0,
+            "w": 18.0,
+            "h": 8.0
+          },
+          {
+            "role": "title",
+            "text": "Continuous learning at scale",
+            "x": 37.0,
+            "y": 41.0,
+            "w": 43.0,
+            "h": 15.0
+          },
+          {
+            "role": "logo",
+            "text": "Braintrust",
+            "x": 38.0,
+            "y": 82.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "WorkOS",
+            "x": 58.0,
+            "y": 82.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenAI",
+            "x": 79.0,
+            "y": 82.0,
+            "w": 11.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KA5kPbdkK2E/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660249.58155,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Holy Grail:\nContinuous learning at scale",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/KA5kPbdkK2E/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "DESIGN & DEVELOPMENT\nNow is the time to build something lovable",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Main slide text is already large and readable.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with white product screenshot and warm rainbow edge glow",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "DESIGN & DEVELOPMENT",
+            "x": 50.0,
+            "y": 13.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Now is the time to build something lovable",
+            "x": 50.0,
+            "y": 23.0,
+            "w": 39.0,
+            "h": 26.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 56.0,
+            "y": 83.0,
+            "w": 25.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KA5kPbdkK2E/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660249.582643,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "DESIGN & DEVELOPMENT\nNow is the time to build something lovable",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/KA5kPbdkK2E/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Engineering the future of AI",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense embedded screenshot text is better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with white screenshot and rainbow corner glow",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "body",
+            "text": "Lovable Main Agent [venting...]",
+            "x": 29.0,
+            "y": 14.0,
+            "w": 63.0,
+            "h": 36.0
+          },
+          {
+            "role": "title",
+            "text": "Engineering the future of AI",
+            "x": 39.0,
+            "y": 80.0,
+            "w": 42.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KA5kPbdkK2E/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660249.5833595,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "best_score": 1064.96,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/KA5kPbdkK2E/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Lovable Main Agent [venting...]APp 23 Mar at 4:42 PM\nAgent Vent\nAIE code--copy consistently fails for user-uploaded fles with spaces in the filename (e.g. \"Screenshot_2026-03-23_at_9.52.56 AM-2.png\"). Tried both raw spaces and URL-encoded %20. Only fles without spaces in their names (e.g. \"PNG_image-2.png\") copy successfully. This blocks\nusing user-uploaded screenshots in projects. The files ARE visible via lov-view (renders the image),\nbut copy always says \"source fle does not exist\".\nAlmessage| Braintrust|PostHog Project: 985c0363-d79e-42fa-b548-38c5213503c5\nAtegree AlEngineer\nEUROPE",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense embedded UI screenshot with small text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with black screenshot panel and rainbow corner gradient",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 18.0,
+            "w": 12.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 26.0,
+            "y": 7.0,
+            "w": 73.0,
+            "h": 63.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer EUROPE",
+            "x": 41.0,
+            "y": 83.0,
+            "w": 25.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KA5kPbdkK2E/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660830.8456936,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Lovable Main Agent [venting...]APp 23 Mar at 4:42 PM\nAgent Vent\nAIE code--copy consistently fails for user-uploaded fles with spaces in the filename (e.g. \"Screenshot_2026-03-23_at_9.52.56 AM-2.png\"). Tried both raw spaces and URL-encoded %20. Only fles without spaces in their names (e.g. \"PNG_image-2.png\") copy successfully. This blocks\nusing user-uploaded screenshots in projects. The files ARE visible via lov-view (renders the image),\nbut copy always says \"source fle does not exist\".\nAlmessage| Braintrust|PostHog Project: 985c0363-d79e-42fa-b548-38c5213503c5\nAtegree AlEngineer\nEUROPE",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 846.04
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Lovable Main Agent [venting...]APp 23 Mar at 4:42 PM\nAgent Vent\nAIE code--copy consistently fails for user-uploaded fles with spaces in the filename (e.g. \"Screenshot_2026-03-23_at_9.52.56 AM-2.png\"). Tried both raw spaces and URL-encoded %20. Only fles without spaces in their names (e.g. \"PNG_image-2.png\") copy successfully. This blocks\nusing user-uploaded screenshots in projects. The files ARE visible via lov-view (renders the image),\nbut copy always says \"source fle does not exist\".\nAlmessage| Braintrust|PostHog Project: 985c0363-d79e-42fa-b548-38c5213503c5\nAtegree AlEngineer\nEUROPE",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/KA5kPbdkK2E/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "AIE Nicis-Degrandet swarmia APp 2 Apr at 9:15 AM\n3fileschanged1690.Merged\nBenjaminVerbeek approved\n8comments by Niels Degrande,Benjamin Verbeek,and 1 other\nbLovable\nEngineering the future of Al",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Embedded code-review UI screenshot with dense text; OCR is better for the small content.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "white with soft rainbow gradient and black footer band",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 18.0,
+            "w": 12.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "swarmia",
+            "x": 36.0,
+            "y": 15.0,
+            "w": 50.0,
+            "h": 29.0
+          },
+          {
+            "role": "title",
+            "text": "Engineering the future of AI",
+            "x": 40.0,
+            "y": 81.0,
+            "w": 42.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KA5kPbdkK2E/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660865.9507327,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Engineering the future of AI",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "AIE Nicis-Degrandet swarmia APp 2 Apr at 9:15 AM\n3fileschanged1690.Merged\nBenjaminVerbeek approved\n8comments by Niels Degrande,Benjamin Verbeek,and 1 other\nbLovable\nEngineering the future of Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 283.36
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "AIE Nicis-Degrandet swarmia APp 2 Apr at 9:15 AM\n3fileschanged1690.Merged\nBenjaminVerbeek approved\n8comments by Niels Degrande,Benjamin Verbeek,and 1 other\nbLovable\nEngineering the future of Al",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/KA5kPbdkK2E/slide-007.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage photo with speaker and audience; not a readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Not a slide.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "purple stage lighting with windowed room",
+        "style": "dark",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/KA5kPbdkK2E/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783660249.5802152,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

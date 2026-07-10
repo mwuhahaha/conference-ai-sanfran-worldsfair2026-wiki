@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "About Me\nNow\n• Forward Deployed Engineer in the Justice AI Unit\n• No10 Innovation Fellow – selected from top 0.8% of applicants\n• Joined in November, working mainly across prisons\nPreviously\n• Co-Founder @ Tergle (YC W25) – AI for audit automation\n• CS + Math @ Harvard",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cream with black side panels",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "About Me",
+        "x": 28.0,
+        "y": 6.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Now\n• Forward Deployed Engineer in the Justice AI Unit\n• No10 Innovation Fellow – selected from top 0.8% of applicants\n• Joined in November, working mainly across prisons",
+        "x": 29.0,
+        "y": 15.0,
+        "w": 34.0,
+        "h": 28.0
+      },
+      {
+        "role": "body",
+        "text": "Previously\n• Co-Founder @ Tergle (YC W25) – AI for audit automation\n• CS + Math @ Harvard",
+        "x": 63.0,
+        "y": 15.0,
+        "w": 31.0,
+        "h": 24.0
+      },
+      {
+        "role": "caption",
+        "text": "We’re trying to ship real AI products inside government. Not pilots, not slides – things people actually use.",
+        "x": 30.0,
+        "y": 66.0,
+        "w": 62.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/qlHaO6laBlM/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670849.1637213,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "About Me\nNow\n• Forward Deployed Engineer in the Justice AI Unit\n• No10 Innovation Fellow – selected from top 0.8% of applicants\n• Joined in November, working mainly across prisons\nPreviously\n• Co-Founder @ Tergle (YC W25) – AI for audit automation\n• CS + Math @ Harvard",
+  "advanced_ocr": {}
+}

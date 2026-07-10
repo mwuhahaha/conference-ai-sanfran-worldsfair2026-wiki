@@ -1,0 +1,130 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Step 2.2 - running one iteration_\nCreate a new branch\nProduces a\nCreate an hypotesis Change the. agent Run the evals REPORT.md MEMORY.md Updates\nimproved Metrics Yes Continue from this branch.\n*The generated hypothesis is based on MEMORY.md, other report files with failures, codebase investigation etc Rollback to prev. branch:",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Flowchart slide with multiple small labels and note text; OCR will be more reliable for the box text.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Step 2.2 - running one iteration",
+        "x": 8.0,
+        "y": 5.0,
+        "w": 34.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Create a new branch",
+        "x": 17.0,
+        "y": 13.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Create an hypothesis",
+        "x": 22.0,
+        "y": 28.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Change the agent",
+        "x": 39.0,
+        "y": 28.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Run the evals",
+        "x": 50.0,
+        "y": 28.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Produces a REPORT.md",
+        "x": 67.0,
+        "y": 24.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Updates MEMORY.md",
+        "x": 66.0,
+        "y": 39.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Metrics improved",
+        "x": 47.0,
+        "y": 55.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Continue from this branch",
+        "x": 69.0,
+        "y": 57.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Rollback to prev. branch",
+        "x": 49.0,
+        "y": 75.0,
+        "w": 20.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "*The generated hypothesis is based on MEMORY.md, other report files with failures, codebase investigation etc",
+        "x": 7.0,
+        "y": 80.0,
+        "w": 62.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-017.jpg",
+  "image": "wiki/assets/slides/aHhB3sjGjkI/slide-017.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666766.5347412,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Step 2.2 - running one iteration",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Step 2.2 - running one iteration_\nCreate a new branch\nProduces a\nCreate an hypotesis Change the. agent Run the evals REPORT.md MEMORY.md Updates\nimproved Metrics Yes Continue from this branch.\n*The generated hypothesis is based on MEMORY.md, other report files with failures, codebase investigation etc Rollback to prev. branch:",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 533.68
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Step 2.2 - running one iteration_\nCreate a new branch\nProduces a\nCreate an hypotesis Change the. agent Run the evals REPORT.md MEMORY.md Updates\nimproved Metrics Yes Continue from this branch.\n*The generated hypothesis is based on MEMORY.md, other report files with failures, codebase investigation etc Rollback to prev. branch:",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

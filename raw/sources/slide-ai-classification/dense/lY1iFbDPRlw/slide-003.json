@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Training Shapes M2 Behavior for Developers\nModel Characteristics\nTraining\n1. Coding & Dev Experience\nScaled Environments & Experts",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Training Shapes M2 Behavior for Developers",
+        "x": 22.0,
+        "y": 0,
+        "w": 48.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Model Characteristics",
+        "x": 31.0,
+        "y": 13.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Training",
+        "x": 76.0,
+        "y": 13.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1. Coding & Dev Experience",
+        "x": 30.0,
+        "y": 27.0,
+        "w": 24.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Scaled Environments & Experts",
+        "x": 67.0,
+        "y": 27.0,
+        "w": 25.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/lY1iFbDPRlw/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670433.114727,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Training Shapes M2 Behavior for Developers\nModel Characteristics\nTraining\n1. Coding & Dev Experience\nScaled Environments & Experts",
+  "advanced_ocr": {}
+}

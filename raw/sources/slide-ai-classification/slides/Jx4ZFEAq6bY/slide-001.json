@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "User Signal dies at the Retrieval Boundary.\nSonam Pankaj\nCEO & Co-Founder StarlightSearch",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple, large-title slide with a short readable message; OCR not needed in this triage pass.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "pale blue mountain gradient",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "User Signal dies at the Retrieval Boundary.",
+        "x": 6.0,
+        "y": 14.0,
+        "w": 60.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Sonam Pankaj\nCEO & Co-Founder StarlightSearch",
+        "x": 68.0,
+        "y": 74.0,
+        "w": 28.0,
+        "h": 14.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/Jx4ZFEAq6bY/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661322.7119842,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "User Signal dies at the Retrieval Boundary.\nSonam Pankaj\nCEO & Co-Founder StarlightSearch",
+  "advanced_ocr": {}
+}

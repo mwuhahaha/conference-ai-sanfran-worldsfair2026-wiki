@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Moscone West - Level 1\n\nEXPO STAGE 1 NE\nEXPO STAGE 4 SE\nSEATING AREA\nPOSTER SESSION\nEXPO STAGE 2 NW\nEXPO STAGE 3 SW\n\nENTRANCE\nREGISTRATION\nVENUE ENTRANCE\n\nElevator\nRestrooms\nInfo Desk\nCoat Check\nLogo Wall\nExpo Podcast\nBattle Bots\nFirst Aid\nWater Station\nGelato\nSurprise & Delight\nMusic\nConcessions\nRobots",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Moscone West - Level 1",
+        "x": 11.0,
+        "y": 3.0,
+        "w": 33.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ENTRANCE",
+        "x": 63.0,
+        "y": 18.0,
+        "w": 9.0,
+        "h": 25.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "EXPO STAGE 1 NE",
+        "x": 9.0,
+        "y": 13.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "EXPO STAGE 4 SE",
+        "x": 37.0,
+        "y": 13.0,
+        "w": 15.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "EXPO STAGE 2 NW",
+        "x": 9.0,
+        "y": 63.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "EXPO STAGE 3 SW",
+        "x": 37.0,
+        "y": 63.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "REGISTRATION",
+        "x": 52.0,
+        "y": 58.0,
+        "w": 9.0,
+        "h": 17.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655994.0247068,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Moscone West - Level 1",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Anim\nMoscone West - Level 1\n( tc ect\nEXPO STAGE INE EXPO\noar XIRCC STAGE4SE 口 ENTRANCE 。\nATINGION F attDstzos t AErginver\nFA3\nMATING AREA SSSSYON PCOTEA P22 M19 CONTUAEOSCINT\ne D REOISTRATION\nEXPOSTAOE2NN STAGE3S EXPO\nVENUE ENTRANCE\nloDesk Restnon Llevato! Expo Podcest Logo Wae ContChock 。 Water Stuticn Battle Bots Moc SptOrigM Ccato Rotols Concessions",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 608.96
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Moscone West - Level 1\n\nEXPO STAGE 1 NE\nEXPO STAGE 4 SE\nSEATING AREA\nPOSTER SESSION\nEXPO STAGE 2 NW\nEXPO STAGE 3 SW\n\nENTRANCE\nREGISTRATION\nVENUE ENTRANCE\n\nElevator\nRestrooms\nInfo Desk\nCoat Check\nLogo Wall\nExpo Podcast\nBattle Bots\nFirst Aid\nWater Station\nGelato\nSurprise & Delight\nMusic\nConcessions\nRobots",
+    "text_status": "meaningful",
+    "corrections": "OCR was partially corrected using clearly legible map labels; obvious errors were fixed and illegible fragments were omitted."
+  }
+}

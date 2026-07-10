@@ -1,0 +1,1469 @@
+{
+  "video_id": "F_RyElT_gJk",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 22,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Are coding agents good or slop?",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-column slide with embedded social screenshots and small text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with subtle dark wave texture",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Are coding agents good or slop?",
+            "x": 22.0,
+            "y": 4.0,
+            "w": 48.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "AIE",
+            "x": 3.0,
+            "y": 16.0,
+            "w": 9.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Microsoft",
+            "x": 46.0,
+            "y": 82.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "smol ai",
+            "x": 72.0,
+            "y": 81.0,
+            "w": 18.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "tweet screenshots",
+            "x": 22.0,
+            "y": 22.0,
+            "w": 60.0,
+            "h": 48.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-002.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659071.9248905,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Are coding agents good or slop?",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "You are using Cursor AI incorrectly...\n- Using Cursor as a replacement for Google Search.\n- Underspecification of prompts, not knowing how to drive outcomes and using low-level thinking of \"implement XYZ, please\".\n- Treating Cursor as if it is an IDE, instead of it being an autonomous agent.\n- Blissful unawareness of the concept that you can program LLM outcomes.\n- Unnecessary usage of pleasantries (\"please\" and \"can you\") with it as if it were a human. If it fucks up, swear at it - go all caps and call it a clown. It soothes the soul.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "black with subtle dark wave texture",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "You are using Cursor AI incorrectly...",
+            "x": 36.0,
+            "y": 5.0,
+            "w": 44.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Using Cursor as a replacement for Google Search.\nUnderspecification of prompts, not knowing how to drive outcomes and using low-level thinking of \"implement XYZ, please\".\nTreating Cursor as if it is an IDE, instead of it being an autonomous agent.\nBlissful unawareness of the concept that you can program LLM outcomes.\nUnnecessary usage of pleasantries (\"please\" and \"can you\") with it as if it were a human. If it fucks up, swear at it - go all caps and call it a clown. It soothes the soul.",
+            "x": 36.0,
+            "y": 22.0,
+            "w": 45.0,
+            "h": 62.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-003.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659071.931832,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "You are using Cursor AI incorrectly...\n- Using Cursor as a replacement for Google Search.\n- Underspecification of prompts, not knowing how to drive outcomes and using low-level thinking of \"implement XYZ, please\".\n- Treating Cursor as if it is an IDE, instead of it being an autonomous agent.\n- Blissful unawareness of the concept that you can program LLM outcomes.\n- Unnecessary usage of pleasantries (\"please\" and \"can you\") with it as if it were a human. If it fucks up, swear at it - go all caps and call it a clown. It soothes the soul.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Top mistake:\nUsing coding agents like you were using AI coding tools 6 months ago",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with subtle dark wave texture",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Top mistake:\nUsing coding agents like you were using AI coding tools 6 months ago",
+            "x": 24.0,
+            "y": 34.0,
+            "w": 58.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-004.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659071.9327466,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Top mistake:\nUsing coding agents like you were using AI coding tools 6 months ago",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "GPT-3 → GPT-4, → Claude 4\nClaude 3,\nGemini 2.5",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "GPT-3 → GPT-4, → Claude 4\nClaude 3,\nGemini 2.5",
+            "x": 32.0,
+            "y": 6.0,
+            "w": 36.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-005.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659071.9333713,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "GPT-3 → GPT-4, → Claude 4\nClaude 3,\nGemini 2.5",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "GPT-3 → GPT-4, → Claude 4\nClaude 3,\nGemini 2.5\nCopilots → RAG bots → Agents\nWhat would a coding agent designed to unleash tool LLMs look like?",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "GPT-3 → GPT-4, → Claude 4\nClaude 3,\nGemini 2.5",
+            "x": 32.0,
+            "y": 6.0,
+            "w": 36.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "Copilots → RAG bots → Agents\nWhat would a coding agent designed to unleash tool LLMs look like?",
+            "x": 24.0,
+            "y": 36.0,
+            "w": 58.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-006.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659071.9402099,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "GPT-3 → GPT-4, → Claude 4\nClaude 3,\nGemini 2.5\nCopilots → RAG bots → Agents\nWhat would a coding agent designed to unleash tool LLMs look like?",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Controversial design decisions\n- Just make edits - don't ask me\n- Minimal UI - no VS Code fork\n- No \"choose your own model\"\n- No fixed pricing, no token limit\n- Unix philosophy over vertical integration\n- Don't build on top of a RAG bot - existing code AI UX is now outdated",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "black with subtle dark wave texture",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Controversial design decisions",
+            "x": 24.0,
+            "y": 6.0,
+            "w": 38.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Just make edits - don't ask me\nMinimal UI - no VS Code fork\nNo \"choose your own model\"\nNo fixed pricing, no token limit\nUnix philosophy over vertical integration\nDon't build on top of a RAG bot - existing code AI UX is now outdated",
+            "x": 24.0,
+            "y": 20.0,
+            "w": 56.0,
+            "h": 40.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-007.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659071.9410596,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Controversial design decisions\n- Just make edits - don't ask me\n- Minimal UI - no VS Code fork\n- No \"choose your own model\"\n- No fixed pricing, no token limit\n- Unix philosophy over vertical integration\n- Don't build on top of a RAG bot - existing code AI UX is now outdated",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "RAG context UIs\nAgent UI",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with subtle dark wave texture",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "RAG context UIs",
+            "x": 23.0,
+            "y": 7.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "Agent UI",
+            "x": 70.0,
+            "y": 7.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Yahoo!",
+            "x": 21.0,
+            "y": 22.0,
+            "w": 37.0,
+            "h": 42.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Google",
+            "x": 60.0,
+            "y": 22.0,
+            "w": 36.0,
+            "h": 42.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-008.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659071.9417045,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "RAG context UIs\nAgent UI",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "2 simple clients",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title slide with large readable text; OCR not needed.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black with subtle dark radial bands",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 10.0,
+            "h": 15.0
+          },
+          {
+            "role": "title",
+            "text": "2 simple clients",
+            "x": 42.0,
+            "y": 5.0,
+            "w": 26.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 63.0,
+            "y": 78.0,
+            "w": 14.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-009.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659183.408065,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "2 simple clients",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Amp",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense docs/code and embedded UI screenshot; OCR is likely useful.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Amp",
+            "x": 20.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Getting Started",
+            "x": 20.0,
+            "y": 19.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "macOS bootstrap",
+            "x": 20.0,
+            "y": 33.0,
+            "w": 18.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-010.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659183.410243,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Amp",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Amp",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Moderate UI screenshot text; not a dense OCR target.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Amp Threads Leaderboard",
+            "x": 18.0,
+            "y": 13.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Team Membership",
+            "x": 20.0,
+            "y": 40.0,
+            "w": 25.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "You're not a member of any team.",
+            "x": 20.0,
+            "y": 48.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Create Team",
+            "x": 20.0,
+            "y": 56.0,
+            "w": 18.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-011.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659183.4133942,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Amp",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Amp",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "UI screenshot with one short query and a docs pane; not dense enough to justify OCR.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Amp",
+            "x": 20.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "can you find the linear issue about customizing the line",
+            "x": 58.0,
+            "y": 8.0,
+            "w": 34.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-012.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659183.4156854,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Amp",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Amp",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-column code and tool output are small and dense; OCR should do better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Amp",
+            "x": 20.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Investigate and implement Linear connector icon",
+            "x": 60.0,
+            "y": 5.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Tools",
+            "x": 58.0,
+            "y": 21.0,
+            "w": 8.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-013.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659183.4185734,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Amp",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Amp",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense assistant output, TODOs, and issue lists are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Amp",
+            "x": 20.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "can you find the linear issue about customizing the linear connector icon? then implement it",
+            "x": 57.0,
+            "y": 8.0,
+            "w": 35.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "Linear issues 80 issues found",
+            "x": 57.0,
+            "y": 29.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "TODOs",
+            "x": 58.0,
+            "y": 69.0,
+            "w": 10.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-014.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659183.4194102,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Amp",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Amp",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense issue list and code-like UI; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Amp",
+            "x": 20.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Issues Found (50)",
+            "x": 58.0,
+            "y": 30.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "AMP-20",
+            "x": 58.0,
+            "y": 42.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "OSS-8225",
+            "x": 58.0,
+            "y": 50.0,
+            "w": 10.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-015.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659183.4203537,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Amp",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Amp",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Code-heavy split view with small labels and UI text; OCR is appropriate.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Amp",
+            "x": 20.0,
+            "y": 8.0,
+            "w": 8.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Find how MCP connector config like endpoint_url is accessed in the settings and admin pages where icons are displayed",
+            "x": 57.0,
+            "y": 12.0,
+            "w": 36.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "TODOs",
+            "x": 58.0,
+            "y": 69.0,
+            "w": 10.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-016.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659183.4225852,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Amp",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code/editor screenshot with small labels and diff text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 24.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "Investigate and implement Linear connector icon",
+            "x": 67.0,
+            "y": 6.0,
+            "w": 26.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "external-connectors-section.svelte",
+            "x": 18.0,
+            "y": 4.0,
+            "w": 78.0,
+            "h": 80.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 46.0,
+            "y": 83.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 73.0,
+            "y": 83.0,
+            "w": 12.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-017.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659324.0642567,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code/editor screenshot with small labels and diff text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 24.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "Investigate and implement Linear connector icon",
+            "x": 66.0,
+            "y": 6.0,
+            "w": 27.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "server/src/routes/admin/connections.svelte",
+            "x": 18.0,
+            "y": 4.0,
+            "w": 78.0,
+            "h": 80.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 46.0,
+            "y": 83.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 73.0,
+            "y": 83.0,
+            "w": 12.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-018.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659324.0649817,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code/editor screenshot with explanatory side-panel text and small code diff.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 24.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Add connection type constants",
+            "x": 73.0,
+            "y": 12.0,
+            "w": 17.0,
+            "h": 7.0
+          },
+          {
+            "role": "code",
+            "text": "server/src/routes/admin/connections.svelte",
+            "x": 18.0,
+            "y": 4.0,
+            "w": 78.0,
+            "h": 80.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 46.0,
+            "y": 83.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 73.0,
+            "y": 83.0,
+            "w": 12.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-019.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659324.0654747,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "External Connectors",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product UI screenshot with multiple labels and dense interface text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#0b0b0b",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "External Connectors",
+            "x": 20.0,
+            "y": 10.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "GitHub",
+            "x": 24.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Linear",
+            "x": 24.0,
+            "y": 40.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Individual Usage",
+            "x": 20.0,
+            "y": 52.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Buy More Usage",
+            "x": 85.0,
+            "y": 52.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 46.0,
+            "y": 83.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 73.0,
+            "y": 83.0,
+            "w": 12.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-020.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659324.0661857,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "External Connectors",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-020.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Edit Connection",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product modal screenshot with dense form labels and JSON configuration text.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#0b0b0b",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Edit Connection",
+            "x": 35.0,
+            "y": 4.0,
+            "w": 18.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Connection Type",
+            "x": 34.0,
+            "y": 15.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Remote MCP Server",
+            "x": 35.0,
+            "y": 20.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Display Name",
+            "x": 34.0,
+            "y": 28.0,
+            "w": 14.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "\"endpoint_url\": \"https://mcp.linear.app/sse\"",
+            "x": 35.0,
+            "y": 48.0,
+            "w": 36.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Cancel",
+            "x": 66.0,
+            "y": 74.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Save",
+            "x": 76.0,
+            "y": 74.0,
+            "w": 7.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 62.0,
+            "y": 82.0,
+            "w": 10.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-021.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659324.0668995,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Edit Connection",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-021.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code diff plus explanatory bullet text in side panel.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 24.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "title",
+            "text": "Connectors",
+            "x": 72.0,
+            "y": 14.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Admin Connections Page",
+            "x": 72.0,
+            "y": 20.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "How it works:",
+            "x": 72.0,
+            "y": 36.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "server/src/routes/admin/connections.svelte",
+            "x": 18.0,
+            "y": 4.0,
+            "w": 78.0,
+            "h": 80.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 63.0,
+            "y": 82.0,
+            "w": 10.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-022.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-022.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659324.0673597,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-022.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "none",
+      "ocr_ready": true,
+      "ocr_reason": "Dense collage of social posts and testimonial screenshots; OCR is better than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 4.0,
+            "y": 24.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "AmpCode",
+            "x": 50.0,
+            "y": 12.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Microsoft",
+            "x": 46.0,
+            "y": 83.0,
+            "w": 16.0,
+            "h": 10.0
+          },
+          {
+            "role": "logo",
+            "text": "smol ai",
+            "x": 73.0,
+            "y": 83.0,
+            "w": 12.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-024.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-024.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659324.0681064,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/reconstructed/F_RyElT_gJk/slide-024.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "Sponsor/logo wall, not a content slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "caption",
+            "text": "INNOVATION PARTNER",
+            "x": 37.0,
+            "y": 8.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "aws",
+            "x": 42.0,
+            "y": 14.0,
+            "w": 16.0,
+            "h": 18.0
+          },
+          {
+            "role": "caption",
+            "text": "PLATINUM SPONSORS",
+            "x": 38.0,
+            "y": 39.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Graphite Windsurf MongoDB daily augment code WorkOS",
+            "x": 10.0,
+            "y": 46.0,
+            "w": 80.0,
+            "h": 22.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-001.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659071.9208689,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "demo_video",
+      "reject_reason": "Non-slide demo interstitial with only a demo label on a black screen.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Non-slide demo interstitial.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 7,
+      "filename": "slide-023.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-023.jpg",
+      "deck_kind": "reconstructed",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659324.067832,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

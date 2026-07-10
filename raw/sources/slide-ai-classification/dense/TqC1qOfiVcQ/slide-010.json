@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why Skills?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f3f0e7",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why Skills?",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Skills let one agent accomplish longer, more complex tasks without needing Subagents. The agent can use many Skills and read them only when needed.",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 54.0,
+        "h": 19.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 14.0,
+        "y": 36.0,
+        "w": 50.0,
+        "h": 44.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "",
+        "x": 67.0,
+        "y": 10.0,
+        "w": 28.0,
+        "h": 65.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/TqC1qOfiVcQ/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664547.387962,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why Skills?",
+  "advanced_ocr": {}
+}

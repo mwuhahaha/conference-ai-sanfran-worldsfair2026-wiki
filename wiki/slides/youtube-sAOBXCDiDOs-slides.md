@@ -19,229 +19,193 @@ These slides are extracted from a public AI Engineer YouTube video connected to 
 ## Extracted Slides
 ![[assets/slides/sAOBXCDiDOs/slide-001.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-001.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
 
-> Manufact
-> MCPAPPS
-> Primitives, discovery, and why this
-> is how all software will be used
-> PietroZullo
-> MANUFACT(YCS25) CREATOROFHCP-USE S0V01NA00+H8
-> MANUFACT.COM
+Slide text:
+
+> Primitives, discovery, and why this is how all software will be used
 
 ![[assets/slides/sAOBXCDiDOs/slide-002.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-002.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > You know MCP. Do you know MCP Apps?
-> Everyone in this room knows what MCP is. Far fewer know
-> what MCP Apps are, how they work, how to build them,
-> 
-> and how to distribute them.
-> 
-> By the end of this talk you will know everything you need to join the race.
 
 ![[assets/slides/sAOBXCDiDOs/slide-003.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-003.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
+- OCR decision: ready — Diagram/product slide with multiple small labels and embedded screenshots; OCR will likely capture them more reliably than manual transcription.
 
-> $$ Manufact are aR bee
+Slide text:
+
+> Manufact WHATWEBUILD
 > Open-source SDKs and dev tools for MCP
-> 
-> MCP-USE to burid Inspector to test Manvfact +o ship
-> 
-> BMF ie TOK iin ora lina.
+> mcp-use to build Inspector to test Manufact to ship
+> 8M+ OOWNLOADS lOk Githu& Stars GITHUB.
+> MANUFACT.COM
 
 ![[assets/slides/sAOBXCDiDOs/slide-004.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-004.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/border-trim/opencv-adaptive`.
+- OCR decision: ready — Chart slide with small axis labels and source text; OCR is useful for accurate capture.
+
+Slide text:
 
 > Manufact ADOPTION
 > Apps are landing in the stores, fast
-> ChatGPTapps&Claudeconnectorsovertime CUMULATIVECOUNT
+> ChatGPT apps & Claude connectors over time CUHULATIVE COUNT
 > 800
-> 600
-> 400
-> 200
-> W1 W2 SM W4 SM 9M LM SM 6M WIo WT1 WT2 WI3 W4 W15 W36 WT7
-> ChotGPTopps Claude connectors
-> SOURCE: APPDISCOVERABILITY.COM
-> MANUFACT.COM
+> 660
+> 200 18 2000000I
+> W4. W& R. wo w3 WH w5 w6 W7?
+> [ ChatGpT opp Cord+ corrtcton
+> SOurCE: AppdiSCoveraeIlity.CoH
+> MANUPACT.COn
 
 ![[assets/slides/sAOBXCDiDOs/slide-005.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-005.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/opencv-adaptive`.
+- OCR decision: ready — Architecture diagram with several small labels and explanatory text; OCR should recover the relationships and labels well.
 
-> fee Cae . Cra Copane Toren ° Tag ee resterees
-> ON we at gone:
-> tee fe
-> The server exposes the Ulasau.://resource. The host renders it ina sandboxed frome and
-> relays too! input, results, and the widget's ca'ls back over JSON-RPC
-> Cg
+Slide text:
+
+> Manufact ARCHITECTURE
+> How anMCP Appworks
+> rtoorr, cobg tooa. Model comersat icn ChatGeT:Covde·Curror Host resources/resd tools/t+ll -. looly+vijlreources MCP srvr
+> ui/+ over posthessage
+> Widgrt
+> +woy, prroapuos
+> The server cxposes the Ul as a ui: / /resourc+. The host rondors lt ln a sardboxed iframe and
+> relays tool input, resuits, and the widget's cals bock over JSON.RPC.
+> HAHUFACT:COn jinn
 
 ![[assets/slides/sAOBXCDiDOs/slide-006.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-006.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
 
-> Rendered by the host, inli
-> endered by the host, inline
-> Same MCP server, with a UI layer on top. «os om
-> The host renders the result inline.
-> Flp Without U1 / With Ul, and click the cards. siedlben veil veorchecatalene wien
-> Mere are the cucaing shoes under $25@: h
-> Le. Fraiidiazer Pro - S129. Cightweight trast curser.
-> 3. Cleudstesde 2 $US5. Carly cosmicred road shoe,
-> 4. Tespo Racer SEO. Rice-day Spred, einimal weight.
-> Regiy with the suater of tre stre you's lise to asd to pour cart,
-> 7 4
+Slide text:
+
+> Rendered by the host, inline
 
 ![[assets/slides/sAOBXCDiDOs/slide-007.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-007.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
 
-> $8 Manufact wanes
-> PART 2
-> Interacti imiti
+Slide text:
+
+> Interaction primitives
 > The ui/* methods the widget and host exchange.
 
 ![[assets/slides/sAOBXCDiDOs/slide-008.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-008.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast`.
+- OCR decision: ready — Contains code and embedded UI text that are better handled by OCR.
 
-> 88 Manufact vaqwrttge g
-> e
+Slide text:
+
+> Manufact PRINITIVE2
 > ui/message
-> The App talks back into the conversation, : =
-> unprompted. A click in the Ul posts a Gazz»
-> message as if the user sent it. e- . __.
-> e Ceteteste 2 . . eennere
-> { sendFol lowpte > usemidaet
-> nengtnt bmigessaaet ee Teepe Ra ee Dy Se a 28 omnne corecnre
-> e
-
-![[assets/slides/sAOBXCDiDOs/slide-009.jpg]]
-
-OCR text:
-
-> rnpet eMauct ceoosndfind how topulusanicsfr theRenseveteManct demorg Exploring
-> Raad MocrvabitoytnenjionL1-ss
-> Radoe.t_oobakdowjonL1-7
-> Rnadpet_rveotjoL1118
-> Placnrgsextesores
-
-![[assets/slides/sAOBXCDiDOs/slide-010.jpg]]
-
-OCR text:
-
-> OPENEOITORS
-> OUTLINE
-> TIMELNE
-> 38.08s
-> 92.erors
-> Clients
-> Anthropic/ClaudeAl100
-> Unknown C
-> envx-web0.10
-> claude-ai0.1.0
-> claude-code2.1.139
-> claude-code2.1170
-> claude-code 2.1.70
-> claude-code 2.1.177
-> claude-code2.1.181
-
-![[assets/slides/sAOBXCDiDOs/slide-011.jpg]]
-
-OCR text:
-
-> I'll draw this for you. Let me first check the Excalidraw element format.
-
-![[assets/slides/sAOBXCDiDOs/slide-012.jpg]]
-
-OCR text:
-
-> analytics overview and breakdowns
-> a foes
-> &
+> The App talks back into the conversation,
+> unprompted. A click in the Ul posts a
+> message as if the user sent it.
+> 5129Ugn
+> Chndstrise2
+> const(sendFollowUpMessage)=usewidget（); sendFollowUpMessage("Add the Teapo Racer"); TerrpoRocee
+> Oifyuyp
+> Repy
+> MANUFACT.COM
 
 ![[assets/slides/sAOBXCDiDOs/slide-013.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-013.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> Manufact
-> SHOWCASE
+Slide text:
+
 > Real MCP apps, in production
-> CLAUDE ·CLICK FOR FULLSCREEN
-> CHATGPT CLICK FOR FULLSCREEN
-> CURSOR
-> CLICK FOR FULLSCR
-> MANUFACT.COM
 
 ![[assets/slides/sAOBXCDiDOs/slide-014.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-014.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: agent_vision.
 
-> Manufact
-> SHOWCASE
+Slide text:
+
 > Real MCP apps, in production
-> CHATGPT :CLICK FOR FULLSCREEN
-> CURSOR
-> CLICK FOR FULLSCRE
-> MANUFACT.COM
 
 ![[assets/slides/sAOBXCDiDOs/slide-015.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-015.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
 
-> 8 Monufact baat 3
-> e e e
-> Distribution
-> e
-> and discovery
-> A front door to your product that did not exist o year ago.
+Slide text:
+
+> PART 3
+> Distribution and discovery
+> A front door to your product that did not exist a year ago.
 
 ![[assets/slides/sAOBXCDiDOs/slide-016.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-016.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
 
-> 88 Monufoct Crate leet ion
+Slide text:
+
 > The store is a new distribution channel
-> Getting listed makes installing your server
-> one click. The alternative is pasting JSON
-> into a config file, which most people never
-> will, an
-> 
-> - 3) 8
-> 
-> i 1 ¥
-> es
-> 7 c
-> a
+> Getting listed makes installing your server one click. The alternative is pasting JSON into a config file, which most people never will.
 
 ![[assets/slides/sAOBXCDiDOs/slide-017.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-017.html)
+- AI slide classifier: `content_slide` confidence `0.99`
+- Text source: agent_vision.
+
+Slide text:
 
 > Be there, or get bypassed
-> © Paul Oreham © x
-> “s08u'q - Follow
-> Al apps are the new browsers.
-> @ Austen Aired @ BD suites
-> Any product used by humans More and more 'm jist opening an Al app {Claude Code
-> or Codex) and doing almost everything else on my
-> through a UI will need an MCP computer trom there
-> App version, or it gets bypassed S29 un 72, 2076 ©
-> by people who do everything 17K —@ Reply DP Copy ink
-> through agents. Reed nerreoies
+> Any product used by humans through a UI will need an MCP App version, or it gets bypassed by people who do everything through agents.
 
 ![[assets/slides/sAOBXCDiDOs/slide-018.jpg]]
 
-OCR text:
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/slides/sAOBXCDiDOs/slide-018.html)
+- AI slide classifier: `title_card` confidence `0.99`
+- Text source: agent_vision.
 
-> Manufact
+Slide text:
+
 > Nobody wants to look at your dashboard.
 > Ship an MCP App.
-> PIETRO ZULLO MANUFACT DOCS.MCP-USE.COM
-> MANUF COM
+
+
+### Hidden Non-Slide Evidence
+- [`slide-009.jpg`](/assets/slides/sAOBXCDiDOs/slide-009.jpg) — `demo_video` confidence `0.98`; Full-screen app/demo footage, not a presentation slide.
+- [`slide-010.jpg`](/assets/slides/sAOBXCDiDOs/slide-010.jpg) — `demo_video` confidence `0.98`; Full-screen app/demo footage, not a presentation slide.
+- [`slide-011.jpg`](/assets/slides/sAOBXCDiDOs/slide-011.jpg) — `demo_video` confidence `0.97`; Full-screen app/demo footage, not a presentation slide.
+- [`slide-012.jpg`](/assets/slides/sAOBXCDiDOs/slide-012.jpg) — `blank` confidence `0.95`; Mostly blank cropped demo frame with only partial UI text.
+
+Classification audit: `raw/sources/slide-ai-classification/slides/sAOBXCDiDOs/audit.json`
 
 ## Slide-Derived Subjects To Review
 Subject extraction uses video title, related session titles/descriptions, transcript context, and OCR text when available. OCR is best-effort and should be reviewed against the embedded slide images.

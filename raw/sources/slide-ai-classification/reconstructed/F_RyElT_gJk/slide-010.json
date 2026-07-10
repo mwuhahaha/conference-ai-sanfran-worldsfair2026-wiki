@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Amp",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense docs/code and embedded UI screenshot; OCR is likely useful.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Amp",
+        "x": 20.0,
+        "y": 8.0,
+        "w": 8.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Getting Started",
+        "x": 20.0,
+        "y": 19.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "macOS bootstrap",
+        "x": 20.0,
+        "y": 33.0,
+        "w": 18.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-010.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659183.410243,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Amp",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

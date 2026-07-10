@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Human-in-the-Loop Calibration Humans are evaluators, not merely fallback systems.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light cream",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Human-in-the-Loop Calibration",
+        "x": 6.0,
+        "y": 4.0,
+        "w": 54.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Automated Alert",
+        "x": 10.0,
+        "y": 24.0,
+        "w": 17.0,
+        "h": 15.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Review Node",
+        "x": 38.0,
+        "y": 18.0,
+        "w": 18.0,
+        "h": 21.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Core Model",
+        "x": 10.0,
+        "y": 57.0,
+        "w": 17.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Correctness",
+        "x": 67.0,
+        "y": 15.0,
+        "w": 16.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Usefulness",
+        "x": 82.0,
+        "y": 15.0,
+        "w": 14.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Trust",
+        "x": 67.0,
+        "y": 55.0,
+        "w": 10.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Safety",
+        "x": 82.0,
+        "y": 55.0,
+        "w": 10.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Humans are evaluators, not merely fallback systems.",
+        "x": 8.0,
+        "y": 87.0,
+        "w": 84.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/vljxQZfJ9wY/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672433.5654187,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Human-in-the-Loop Calibration Humans are evaluators, not merely fallback systems.",
+  "advanced_ocr": {}
+}

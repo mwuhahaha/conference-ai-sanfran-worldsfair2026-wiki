@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Four operating agents.\n01 log-monitor — detect & fix fast (reactive)\n02 PR-review — gate the fix (reactive)\n03 session-analyzer — feel the health (reactive)\n04 QA / computer-use — go test it (proactive • roadmap)",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Four operating agents.",
+        "x": 6.0,
+        "y": 13.0,
+        "w": 36.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "01 log-monitor — detect & fix fast (reactive)",
+        "x": 6.0,
+        "y": 33.0,
+        "w": 74.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "02 PR-review — gate the fix (reactive)",
+        "x": 6.0,
+        "y": 43.0,
+        "w": 68.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "03 session-analyzer — feel the health (reactive)",
+        "x": 6.0,
+        "y": 53.0,
+        "w": 74.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "04 QA / computer-use — go test it (proactive • roadmap)",
+        "x": 6.0,
+        "y": 63.0,
+        "w": 80.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "One example — not a recipe.",
+        "x": 35.0,
+        "y": 92.0,
+        "w": 30.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669663.8707168,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Four operating agents.\n01 log-monitor — detect & fix fast (reactive)\n02 PR-review — gate the fix (reactive)\n03 session-analyzer — feel the health (reactive)\n04 QA / computer-use — go test it (proactive • roadmap)",
+  "advanced_ocr": {}
+}

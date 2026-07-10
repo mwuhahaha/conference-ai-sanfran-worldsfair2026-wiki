@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense quote and bullet text",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#000000",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "Mixedbread",
+        "x": 6.0,
+        "y": 22.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer",
+        "x": 62.0,
+        "y": 22.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "\"Senator woman questions billionaires not at company then ok thank you staff will check hearing\"",
+        "x": 6.0,
+        "y": 34.0,
+        "w": 42.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/1IdzkRVmWAA/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657147.485107,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Owrvee Anaren tedreck ery vewu d Routeqstbeeenfound pt.route G\nAIE Puaygrounds Out / Tet Curitan models (Distitatien, Fine ape/ Vides met Routtri g Centinued pre-tn Foundation models nolaspeojp eod anb Model spotlight Choo the t cntnf eioed and tolt yr ne e Gade modes, Iie Caude 4, are nalaole in Amaron AI Mdroo. Anthropic's Claude\nBuilder toels\ndge Basei\nSafeguards Guardals Chat/Text Image/Video\nInference and Assesument Wrater iark oetwction proprete etly prompts and geserated reiponses in a chat torrut. taslly generate c\nOgen plrygreund\nBuilder tools\nDeatt GenAi ape\nMicrosoft smol",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product-console screenshot with multiple cards, sidebar items, and small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light with purple gradient hero",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Overview",
+        "x": 33.0,
+        "y": 16.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Foundation models",
+        "x": 34.0,
+        "y": 29.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Model spotlight",
+        "x": 82.0,
+        "y": 25.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Chat / Text",
+        "x": 34.0,
+        "y": 60.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Image / Video",
+        "x": 59.0,
+        "y": 60.0,
+        "w": 14.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/wFTVEDYVJT0/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672257.5363817,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Owrvee Anaren tedreck ery vewu d Routeqstbeeenfound pt.route G\nAIE Puaygrounds Out / Tet Curitan models (Distitatien, Fine ape/ Vides met Routtri g Centinued pre-tn Foundation models nolaspeojp eod anb Model spotlight Choo the t cntnf eioed and tolt yr ne e Gade modes, Iie Caude 4, are nalaole in Amaron AI Mdroo. Anthropic's Claude\nBuilder toels\ndge Basei\nSafeguards Guardals Chat/Text Image/Video\nInference and Assesument Wrater iark oetwction proprete etly prompts and geserated reiponses in a chat torrut. taslly generate c\nOgen plrygreund\nBuilder tools\nDeatt GenAi ape\nMicrosoft smol",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 957.2
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Owrvee Anaren tedreck ery vewu d Routeqstbeeenfound pt.route G\nAIE Puaygrounds Out / Tet Curitan models (Distitatien, Fine ape/ Vides met Routtri g Centinued pre-tn Foundation models nolaspeojp eod anb Model spotlight Choo the t cntnf eioed and tolt yr ne e Gade modes, Iie Caude 4, are nalaole in Amaron AI Mdroo. Anthropic's Claude\nBuilder toels\ndge Basei\nSafeguards Guardals Chat/Text Image/Video\nInference and Assesument Wrater iark oetwction proprete etly prompts and geserated reiponses in a chat torrut. taslly generate c\nOgen plrygreund\nBuilder tools\nDeatt GenAi ape\nMicrosoft smol",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

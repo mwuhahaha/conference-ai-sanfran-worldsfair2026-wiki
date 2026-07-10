@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Sottioms Fascurces\nBright Data\nDAjeb\nAIE\nhrlgt dea Top iangunges\nToe wors's1 web data piatonm\nypubkeseGrerondrate lee y y od nein wpnlee Montunadsopics\nWhy Bright Outs?\nhninbreandeiornd\nQurCoreEcosystem\n1112AM 4920V\nAI Engineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "repository screenshot with small text",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 26.0,
+        "w": 12.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Bright Data",
+        "x": 37.0,
+        "y": 16.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "GitHub",
+        "x": 30.0,
+        "y": 4.0,
+        "w": 8.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/btxGmN8RvNU/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666903.1413999,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Bright Data",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Sottioms Fascurces\nBright Data\nDAjeb\nAIE\nhrlgt dea Top iangunges\nToe wors's1 web data piatonm\nypubkeseGrerondrate lee y y od nein wpnlee Montunadsopics\nWhy Bright Outs?\nhninbreandeiornd\nQurCoreEcosystem\n1112AM 4920V\nAI Engineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 388.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Sottioms Fascurces\nBright Data\nDAjeb\nAIE\nhrlgt dea Top iangunges\nToe wors's1 web data piatonm\nypubkeseGrerondrate lee y y od nein wpnlee Montunadsopics\nWhy Bright Outs?\nhninbreandeiornd\nQurCoreEcosystem\n1112AM 4920V\nAI Engineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

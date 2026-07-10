@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A Field Guide to Fable:\n1 Unhobbling Claude\n2 Finding your Unknowns\n3 Dealing with the Grief\n4 Being Unreasonable",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple readable slide; OCR not needed in triage",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "warm off-white with dark left sidebar",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "A Field Guide to Fable:",
+        "x": 28.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 28.0
+      },
+      {
+        "role": "body",
+        "text": "1 Unhobbling Claude",
+        "x": 65.0,
+        "y": 23.0,
+        "w": 26.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "2 Finding your Unknowns",
+        "x": 65.0,
+        "y": 35.0,
+        "w": 28.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "3 Dealing with the Grief",
+        "x": 65.0,
+        "y": 51.0,
+        "w": 27.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "4 Being Unreasonable",
+        "x": 65.0,
+        "y": 65.0,
+        "w": 24.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/9fubhllmsBU/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658280.9602723,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "A Field Guide to Fable:\n1 Unhobbling Claude\n2 Finding your Unknowns\n3 Dealing with the Grief\n4 Being Unreasonable",
+  "advanced_ocr": {}
+}

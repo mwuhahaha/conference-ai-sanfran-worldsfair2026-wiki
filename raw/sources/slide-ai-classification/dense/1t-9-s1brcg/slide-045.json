@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense IDE and chat screenshot with explanatory text and code on screen.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige IDE and chat pane",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Compare the tests",
+        "x": 6.0,
+        "y": 4.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "The three tests test_latency, test_custom_relevance, and test_custom_coherence share a similar structure but test different metrics.",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 43.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "1. Initialization\n2. Evaluation Function Check\n3. Data Preparation\n4. Metric Evaluation",
+        "x": 5.0,
+        "y": 31.0,
+        "w": 30.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "test_evaluate_metrics.py",
+        "x": 46.0,
+        "y": 2.0,
+        "w": 18.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-045.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-045.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657948.4154105,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

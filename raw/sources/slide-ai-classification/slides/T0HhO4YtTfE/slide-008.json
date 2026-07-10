@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI Agents\nTools\nMemory\nInput\nLLM\nAction\nResult\nEND",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Readable diagram slide with large labels; OCR is not needed.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#062f2d",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI Agents",
+        "x": 25.0,
+        "y": 10.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tools",
+        "x": 40.0,
+        "y": 29.0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Memory",
+        "x": 51.0,
+        "y": 28.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Input",
+        "x": 35.0,
+        "y": 61.0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LLM",
+        "x": 48.0,
+        "y": 66.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Action",
+        "x": 58.0,
+        "y": 60.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Result",
+        "x": 77.0,
+        "y": 60.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "END",
+        "x": 48.0,
+        "y": 82.0,
+        "w": 6.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/T0HhO4YtTfE/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664006.307647,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "AI Agents\nTools\nMemory\nInput\nLLM\nAction\nResult\nEND",
+  "advanced_ocr": {}
+}

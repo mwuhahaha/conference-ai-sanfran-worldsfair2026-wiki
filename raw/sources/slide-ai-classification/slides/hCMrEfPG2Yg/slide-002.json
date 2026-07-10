@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "November 2022\nlnporttogofrce 1por ReKt./1o0.svg\nIpcrt'./A.CSs':\nCopy n1（）< return\n01clossNmAo0\nAIE cerclasNe-\"kp 1gsrcoto）classNamAo-logo altlcoo\nPaste Edit-ccdeslooom clesyNon='App-l1nk\" logo localstorat logaoles (alias）（est lokst/mrt 0es1i>g- 11lary/(e×t Mes!ig-1ilrery/ree（\nbref=htps://react]t.og\nFix target=\"_5lsnk\" reln'notceter noreferrer\nLorn ReKt\nRepeat\n2020 MEngjinee Google DeepMind",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense multi-panel slide with code screenshot and small labels",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with large white center panel",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "November 2022",
+        "x": 48.0,
+        "y": 3.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "OpenAI",
+        "x": 36.0,
+        "y": 9.0,
+        "w": 8.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Copy\nPaste\nFix\nRepeat",
+        "x": 56.0,
+        "y": 27.0,
+        "w": 16.0,
+        "h": 42.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 46.0,
+        "y": 84.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 14.0,
+        "w": 14.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/hCMrEfPG2Yg/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668135.9165876,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "November 2022",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "November 2022\nlnporttogofrce 1por ReKt./1o0.svg\nIpcrt'./A.CSs':\nCopy n1（）< return\n01clossNmAo0\nAIE cerclasNe-\"kp 1gsrcoto）classNamAo-logo altlcoo\nPaste Edit-ccdeslooom clesyNon='App-l1nk\" logo localstorat logaoles (alias）（est lokst/mrt 0es1i>g- 11lary/(e×t Mes!ig-1ilrery/ree（\nbref=htps://react]t.og\nFix target=\"_5lsnk\" reln'notceter noreferrer\nLorn ReKt\nRepeat\n2020 MEngjinee Google DeepMind",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 570.56
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "November 2022\nlnporttogofrce 1por ReKt./1o0.svg\nIpcrt'./A.CSs':\nCopy n1（）< return\n01clossNmAo0\nAIE cerclasNe-\"kp 1gsrcoto）classNamAo-logo altlcoo\nPaste Edit-ccdeslooom clesyNon='App-l1nk\" logo localstorat logaoles (alias）（est lokst/mrt 0es1i>g- 11lary/(e×t Mes!ig-1ilrery/ree（\nbref=htps://react]t.og\nFix target=\"_5lsnk\" reln'notceter noreferrer\nLorn ReKt\nRepeat\n2020 MEngjinee Google DeepMind",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

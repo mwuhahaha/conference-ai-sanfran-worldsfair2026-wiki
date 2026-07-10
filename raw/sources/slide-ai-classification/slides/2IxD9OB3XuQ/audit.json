@@ -1,0 +1,2385 @@
+{
+  "video_id": "2IxD9OB3XuQ",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 24,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Continual Learning for AI Agents: From Failures to Durable Improvements\nSoheil Feizi\nFounder & Chief Scientist, RELAI\nAssociate Prof, CS @ University of Maryland\nhttps://relai.ai",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Continual Learning for AI Agents:\nFrom Failures to Durable Improvements",
+            "x": 11.0,
+            "y": 30.0,
+            "w": 78.0,
+            "h": 18.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Soheil Feizi",
+            "x": 41.0,
+            "y": 58.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Founder & Chief Scientist, RELAI\nAssociate Prof, CS @ University of Maryland",
+            "x": 32.0,
+            "y": 67.0,
+            "w": 36.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "https://relai.ai",
+            "x": 44.0,
+            "y": 82.0,
+            "w": 12.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655724.6576235,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Continual Learning for AI Agents: From Failures to Durable Improvements\nSoheil Feizi\nFounder & Chief Scientist, RELAI\nAssociate Prof, CS @ University of Maryland\nhttps://relai.ai",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Humans learn from experience. Agents should too.\nContinual Learning Loop: act → get feedback → improve without forgetting",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Humans learn from experience. Agents should too.",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 78.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agent",
+            "x": 46.0,
+            "y": 28.0,
+            "w": 10.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "World",
+            "x": 46.0,
+            "y": 50.0,
+            "w": 10.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "feedback",
+            "x": 26.0,
+            "y": 53.0,
+            "w": 11.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "act",
+            "x": 66.0,
+            "y": 52.0,
+            "w": 8.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Continual Learning Loop:\nact → get feedback → improve without forgetting",
+            "x": 24.0,
+            "y": 81.0,
+            "w": 52.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655724.6587791,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Humans learn from experience. Agents should too.\nContinual Learning Loop: act → get feedback → improve without forgetting",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Continual Learning for an AI Agent\n\nAGENT\nMODEL\nLLM(s): weights\nmodel selection\n\nHARNESS\nprompts · skills ·\ntools · code ·\nworkflow\n\nMEMORY\nin-session state\npersistent\nknowledge\n\nGoal: continuously improve\nthe agent from its experiences\nwithout forgetting.\n\nWorld\nusers · tools · data\npolicies\n\nAgent logs / outputs",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-block diagram with small labels and body text; OCR is likely cheaper and more accurate than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Continual Learning for an AI Agent",
+            "x": 3.0,
+            "y": 3.0,
+            "w": 45.0,
+            "h": 9.0
+          },
+          {
+            "role": "caption",
+            "text": "AGENT",
+            "x": 60.0,
+            "y": 12.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Goal: continuously improve\nthe agent from its experiences\nwithout forgetting.",
+            "x": 19.0,
+            "y": 57.0,
+            "w": 30.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MODEL\nLLM(s): weights\nmodel selection",
+            "x": 42.0,
+            "y": 20.0,
+            "w": 15.0,
+            "h": 19.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "HARNESS\nprompts · skills ·\ntools · code ·\nworkflow",
+            "x": 58.0,
+            "y": 20.0,
+            "w": 15.0,
+            "h": 19.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "MEMORY\nin-session state\npersistent\nknowledge",
+            "x": 74.0,
+            "y": 20.0,
+            "w": 15.0,
+            "h": 19.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "World\nusers · tools · data\npolicies",
+            "x": 59.0,
+            "y": 58.0,
+            "w": 13.0,
+            "h": 15.0
+          },
+          {
+            "role": "caption",
+            "text": "Agent logs / outputs",
+            "x": 56.0,
+            "y": 78.0,
+            "w": 18.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655724.6599457,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Continual Learning for an AI Agent",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Continual Learning for an Al Agent\nAGENT\nMODEL HARNESS MEMORY\nLLM(s): weights model selection prompts·skills· workflow tools·code· knowledge in-sessionstate persistent\nGoal: continuously improve\nthe agent from its experiences without forgetting. policies World users·tools·data\nAgent logs / outputs",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 486.88
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Continual Learning for an AI Agent\n\nAGENT\nMODEL\nLLM(s): weights\nmodel selection\n\nHARNESS\nprompts · skills ·\ntools · code ·\nworkflow\n\nMEMORY\nin-session state\npersistent\nknowledge\n\nGoal: continuously improve\nthe agent from its experiences\nwithout forgetting.\n\nWorld\nusers · tools · data\npolicies\n\nAgent logs / outputs",
+        "text_status": "meaningful",
+        "corrections": "Corrected obvious OCR errors: \"Al\" to \"AI\" and spacing/punctuation in the box labels; otherwise accepted."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The easy case: benchmark + evaluator\nBenchmark\nAgent\nEvaluator\nPASS / FAIL / REWARD + Feedback",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The easy case: benchmark + evaluator",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 58.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Benchmark\ncurated task",
+            "x": 11.0,
+            "y": 32.0,
+            "w": 22.0,
+            "h": 20.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Agent\nruns task",
+            "x": 39.0,
+            "y": 32.0,
+            "w": 22.0,
+            "h": 20.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Evaluator\nscores output",
+            "x": 67.0,
+            "y": 32.0,
+            "w": 22.0,
+            "h": 20.0
+          },
+          {
+            "role": "body",
+            "text": "PASS / FAIL / REWARD\n+ Feedback",
+            "x": 36.0,
+            "y": 63.0,
+            "w": 31.0,
+            "h": 12.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655857.0571604,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The easy case: benchmark + evaluator\nBenchmark\nAgent\nEvaluator\nPASS / FAIL / REWARD + Feedback",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "In production, a raw log isn't feedback\n\nSession log\nuser: book me a flight to NYC\nagent: searching flights...\nagent: called tool get_flights()\nagent: returned 3 options\nuser: none of these work - wrong date\n\nAn LLM / code analyzes the log\nA model or eval code reads the trace and writes a critique on what to change.\nScales to every session\n\nA human gives expert feedback\nDomain experts catch what models miss: subtle correctness, policy, and taste.\nLower volume\n\nEither way, we now have: session log + feedback",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-panel slide with small log text and explanatory cards; OCR is the appropriate pass for detailed reading.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "In production, a raw log isn't feedback",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 60.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Session log",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 42.0,
+            "h": 44.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "An LLM / code analyzes the log\nAUTOMATIC",
+            "x": 50.0,
+            "y": 22.0,
+            "w": 45.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "A human gives expert feedback\nCRITICAL",
+            "x": 50.0,
+            "y": 49.0,
+            "w": 45.0,
+            "h": 24.0
+          },
+          {
+            "role": "body",
+            "text": "Either way, we now have: session log + feedback",
+            "x": 18.0,
+            "y": 80.0,
+            "w": 65.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655857.058012,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "In production, a raw log isn't feedback",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "nproduction,arawlog.isn'tfeedback\n'user: ibook me a flight to Nyc agentycalled tool getf1ights0) agent: searching tiights Session log An LLM/ code analyzes the log A model or eval code reads the trace and writes a critique on what to Scales to avery sesslon? change.: SIVWOIMy\nagent:returned 3 options usere none of these work - wrong date A human gives expert feedback and taste. Domain experts catchwhat models miss: subtle correctness, poticy CRITIGAL:\nLower volomo\nEitherway,we now have: session log+feedback",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 787.32
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "In production, a raw log isn't feedback\n\nSession log\nuser: book me a flight to NYC\nagent: searching flights...\nagent: called tool get_flights()\nagent: returned 3 options\nuser: none of these work - wrong date\n\nAn LLM / code analyzes the log\nA model or eval code reads the trace and writes a critique on what to change.\nScales to every session\n\nA human gives expert feedback\nDomain experts catch what models miss: subtle correctness, policy, and taste.\nLower volume\n\nEither way, we now have: session log + feedback",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide text and corrected obvious OCR errors in the title, box headings, and body text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What is a learning environment?\n\nAn inferred distribution that replays what happened + what success means.\n\nObserved trace + feedback\nwhat happened\n\nMocked / real tools\nwhat the agent can call\n\nSynthetic user\nwhat interaction repeats\n\nEvaluators\nwhat success means\n\nThe output is executable:\nrun candidate agents against it, then keep the fix only if it passes.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Several small cards and a subtitle plus a long footer sentence make OCR the better extraction path for the full slide.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What is a learning environment?",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 52.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "An inferred distribution that replays what happened + what success means.",
+            "x": 4.0,
+            "y": 16.0,
+            "w": 62.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Observed trace + feedback",
+            "x": 4.0,
+            "y": 32.0,
+            "w": 21.0,
+            "h": 27.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Mocked / real tools",
+            "x": 27.0,
+            "y": 32.0,
+            "w": 21.0,
+            "h": 27.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Synthetic user",
+            "x": 50.0,
+            "y": 32.0,
+            "w": 21.0,
+            "h": 27.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Evaluators",
+            "x": 73.0,
+            "y": 32.0,
+            "w": 21.0,
+            "h": 27.0
+          },
+          {
+            "role": "body",
+            "text": "The output is executable: run candidate agents against it, then keep the fix only if it passes.",
+            "x": 4.0,
+            "y": 81.0,
+            "w": 92.0,
+            "h": 11.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783655971.2065873,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "What is a learning environment?",
+      "advanced_ocr": {
+        "source": "rapidocr-live/center-82/opencv-adaptive",
+        "text": "atisalearningenvironment?\nerred distribution that replays what happened +what success means.\nbserved trace+ Whet heppened feedback? Mocked /real tools What the agent can callks Whot interaction repeats Synthetic use? What success reans Evaluators\nCun candidate agents against it-then keep the fix onlyif it passes. The output is executable:",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 537.08
+      },
+      "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "What is a learning environment?\n\nAn inferred distribution that replays what happened + what success means.\n\nObserved trace + feedback\nwhat happened\n\nMocked / real tools\nwhat the agent can call\n\nSynthetic user\nwhat interaction repeats\n\nEvaluators\nwhat success means\n\nThe output is executable:\nrun candidate agents against it, then keep the fix only if it passes.",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected from the image; fixed title, subtitle, box labels, and bottom banner text."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Three layers to improve the agent\n\nModel\nupdate the weights\nSFT · RL post-training\nmost expensive\n\nHarness\nedit prompts, skills, tools, code\nGEPA · trace-to-harness\nmost flexible\n\nMemory\nstore facts and learned skills\nLetta · mem0 · consolidation\ncheapest\n\nA good learning engine asks for the smallest durable change at the right layer",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "small multi-row diagram text and labels",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Three layers to improve the agent",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 54.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Model\nupdate the weights",
+            "x": 5.0,
+            "y": 18.0,
+            "w": 22.0,
+            "h": 13.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SFT · RL post-training",
+            "x": 39.0,
+            "y": 18.0,
+            "w": 27.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "most expensive",
+            "x": 84.0,
+            "y": 18.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Harness\nedit prompts, skills, tools, code",
+            "x": 5.0,
+            "y": 38.0,
+            "w": 27.0,
+            "h": 13.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "GEPA · trace-to-harness",
+            "x": 39.0,
+            "y": 39.0,
+            "w": 29.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "most flexible",
+            "x": 84.0,
+            "y": 39.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Memory\nstore facts and learned skills",
+            "x": 5.0,
+            "y": 58.0,
+            "w": 28.0,
+            "h": 13.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Letta · mem0 · consolidation",
+            "x": 39.0,
+            "y": 59.0,
+            "w": 31.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "cheapest",
+            "x": 85.0,
+            "y": 59.0,
+            "w": 10.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656179.2404237,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Three layers to improve the agent",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Three layers to improve the agent\nModel update theweights SFT · RL post-training mostexpe\nHarness\nedit prompts,skills,tools,code GEPA:trace-to-harness most化\nMemory\nstorefacts and leamed skills Lettamem0:consolidation che\nA good learning engine asks for the smallest durable change at the right Ia",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 505.64
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Three layers to improve the agent\n\nModel\nupdate the weights\nSFT · RL post-training\nmost expensive\n\nHarness\nedit prompts, skills, tools, code\nGEPA · trace-to-harness\nmost flexible\n\nMemory\nstore facts and learned skills\nLetta · mem0 · consolidation\ncheapest\n\nA good learning engine asks for the smallest durable change at the right layer",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for obvious errors: weights, learned, Letta, most expensive/flexible/cheapest; completed the final word as 'layer' from the visible context."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Updating the model weights\n\nSFT\nSupervised fine-tuning\nimitate correct trajectories; needs labeled examples of the right behavior\n\nRL post-training\nDPO · GRPO · RLVR\nsample, score against a reward or preference signal, reinforce what wins\n\nLoRA\nLow-Rank Adaptation\nlimits the set of parameters that can change; cheaper, safer updates\n\nThey need: benchmark + evaluator.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense explanatory slide with multiple text blocks",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Updating the model weights",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 45.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "SFT\nSupervised fine-tuning",
+            "x": 4.0,
+            "y": 17.0,
+            "w": 23.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RL post-training\nDPO · GRPO · RLVR",
+            "x": 4.0,
+            "y": 38.0,
+            "w": 23.0,
+            "h": 17.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LoRA\nLow-Rank Adaptation",
+            "x": 4.0,
+            "y": 59.0,
+            "w": 23.0,
+            "h": 17.0
+          },
+          {
+            "role": "body",
+            "text": "imitate correct trajectories; needs labeled examples of the right behavior",
+            "x": 28.0,
+            "y": 20.0,
+            "w": 64.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "sample, score against a reward or preference signal, reinforce what wins",
+            "x": 28.0,
+            "y": 41.0,
+            "w": 64.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "limits the set of parameters that can change; cheaper, safer updates",
+            "x": 28.0,
+            "y": 63.0,
+            "w": 60.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "They need: benchmark + evaluator.",
+            "x": 15.0,
+            "y": 77.0,
+            "w": 42.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656242.055756,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Updating the model weights",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Updating the model weights\nSupervised fine-tuning SFT imitate correct trajectories; needs labeled examples of the rightbehavior\nRL post-training DPO·GRPO·RLVR sample, score against a reward or preference signal, reinforce what wins\nLow-Rank Adaptation LoRA limits the set of parameters that can change; cheaper, safer updates\nThey need: benchmark + evaluator.\nHard to apply to a raw production log (unless we lift it into a replayable envc",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 696.32
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Updating the model weights\n\nSFT\nSupervised fine-tuning\nimitate correct trajectories; needs labeled examples of the right behavior\n\nRL post-training\nDPO · GRPO · RLVR\nsample, score against a reward or preference signal, reinforce what wins\n\nLoRA\nLow-Rank Adaptation\nlimits the set of parameters that can change; cheaper, safer updates\n\nThey need: benchmark + evaluator.",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for spacing and obvious typos; kept only clearly visible text and omitted the cut-off bottom clause."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Updating the harness\nRewrite the prompts, skills, and code around the model.\n\nTrace-to-harness\nA coding agent reads the log + feedback and rewrites a prompt, adds a tool, or patches the workflow.\nWorks on (log + feedback) but mostly vibe-based: no test that the change helped.\n\nGEPA & prompt search\nMutate prompts, score each candidate, keep the winners; evolutionary optimization of the harness.\nTestable but needs a benchmark to score against.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "two-column slide with dense explanatory text",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Updating the harness",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 37.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Rewrite the prompts, skills, and code around the model.",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 52.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Trace-to-harness",
+            "x": 11.0,
+            "y": 33.0,
+            "w": 21.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "GEPA & prompt search",
+            "x": 58.0,
+            "y": 33.0,
+            "w": 26.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "A coding agent reads the log + feedback and rewrites a prompt, adds a tool, or patches the workflow.",
+            "x": 6.0,
+            "y": 41.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Mutate prompts, score each candidate, keep the winners; evolutionary optimization of the harness.",
+            "x": 54.0,
+            "y": 41.0,
+            "w": 40.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656314.956654,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Updating the harness",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Updating the harness\nRewrite the prompts, skills, and code around the model.\nTrace-to-harness GEPA & prompt search\nA coding agent reads the log + feedback and rewrites Mutate prompts, score each candidate, keep the\na prompt, adds a tool, or patches the workflow. winners;evolutionary optimization of the harness.\nWorks on (log +feedback) but mostlyvibe-based:no Testable but needsa benchmark toscore aaainst.\ntestthatthe change helped.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 669.24
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Updating the harness\nRewrite the prompts, skills, and code around the model.\n\nTrace-to-harness\nA coding agent reads the log + feedback and rewrites a prompt, adds a tool, or patches the workflow.\nWorks on (log + feedback) but mostly vibe-based: no test that the change helped.\n\nGEPA & prompt search\nMutate prompts, score each candidate, keep the winners; evolutionary optimization of the harness.\nTestable but needs a benchmark to score against.",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for spacing and a few obvious errors; text verified against the slide."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Updating memory\nWrite down facts and distill skills, so the agent doesn't rediscover them.\n\nInformation memory    Letta · mem0\nstore a fact or correction; e.g., “always confirm the date before booking”\n\nSkill distillation    skills · SKILL.md\n(sometimes viewed as a part of harness)\ncompress a successful trajectory into a reusable how-to packet\n\nCheapest and fastest; works directly on (log + feedback) but usually unverified",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense explanatory slide with multiple sections and small text",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Updating memory",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 30.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Write down facts and distill skills, so the agent doesn't rediscover them.",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 63.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Information memory\nLetta · mem0",
+            "x": 10.0,
+            "y": 38.0,
+            "w": 24.0,
+            "h": 11.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Skill distillation\nskills · SKILL.md",
+            "x": 10.0,
+            "y": 60.0,
+            "w": 24.0,
+            "h": 11.0
+          },
+          {
+            "role": "body",
+            "text": "store a fact or correction; e.g., “always confirm the date before booking”",
+            "x": 44.0,
+            "y": 40.0,
+            "w": 48.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "compress a successful trajectory into a reusable how-to packet",
+            "x": 44.0,
+            "y": 62.0,
+            "w": 45.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Cheapest and fastest",
+            "x": 12.0,
+            "y": 83.0,
+            "w": 22.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656375.3838952,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Updating memory",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Updating memory\nWrite down facts and distill skills, so the agent doesn't rediscover them.\nInformation memory Letta\" mem0 Store a fact or correction; e.g. *always confirm the date before booking*\nSkill distillation SkiliS o SKILL.md compress a successful trajectory into a reusable how-to packet\n(somatimes vieved as a part of harnoss)\nCheapest and fastest;works directly on (log + feedback) but usually unverifie",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 656.08
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Updating memory\nWrite down facts and distill skills, so the agent doesn't rediscover them.\n\nInformation memory    Letta · mem0\nstore a fact or correction; e.g., “always confirm the date before booking”\n\nSkill distillation    skills · SKILL.md\n(sometimes viewed as a part of harness)\ncompress a successful trajectory into a reusable how-to packet\n\nCheapest and fastest; works directly on (log + feedback) but usually unverified",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR with minor corrections to spacing, punctuation, and obvious wording from the slide."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Verifiable Continual Learning (VCL)\n\nVerifiable Continual Learning (VCL): improving an agent from its own experience, where every fix is proven to help and proven to break nothing that already worked.\n\n1 An executable test\nthe failure becomes a task you can replay and grade\n\n2 A measured delta\nthe update is scored on that test: before and after.\n\n3 A regression check\nprior tests still pass",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "definition plus three-card slide with small text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Verifiable Continual Learning (VCL)",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 56.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Verifiable Continual Learning (VCL): improving an agent from its own experience, where every fix is proven to help and proven to break nothing that already worked.",
+            "x": 4.0,
+            "y": 18.0,
+            "w": 92.0,
+            "h": 13.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "1\nAn executable test",
+            "x": 4.0,
+            "y": 48.0,
+            "w": 28.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2\nA measured delta",
+            "x": 35.0,
+            "y": 48.0,
+            "w": 28.0,
+            "h": 18.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "3\nA regression check",
+            "x": 66.0,
+            "y": 48.0,
+            "w": 28.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "the failure becomes a task you can replay and grade",
+            "x": 5.0,
+            "y": 62.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "the update is scored on that test: before and after.",
+            "x": 36.0,
+            "y": 62.0,
+            "w": 26.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "prior tests still pass; new gain doesn't silently change old ones.",
+            "x": 67.0,
+            "y": 62.0,
+            "w": 28.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656427.0022593,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Verifiable Continual Learning (VCL)",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Verifiable Continual Learning(VCL)\nVerifiabie Continual Learning (VcL):improving an agent from its own experience, where every fix is provento help and proven to break nothing that alreadyworked.\n1 An executable test 12 Ameasured delta 3 Aregressioncheck\nreplay and grade the failure becomes a task you can. the update is scored on that test before and after. doesn't silently c prior tests still pas?",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 633.7
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Verifiable Continual Learning (VCL)\n\nVerifiable Continual Learning (VCL): improving an agent from its own experience, where every fix is proven to help and proven to break nothing that already worked.\n\n1 An executable test\nthe failure becomes a task you can replay and grade\n\n2 A measured delta\nthe update is scored on that test: before and after.\n\n3 A regression check\nprior tests still pass",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for capitalization, spacing, and punctuation; third card text is partially obscured in the image, so only the clearly visible portion was kept."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Principle 1 — Replayable\nTurn a one-off failure into a test you can re-run.\n\nWHAT YOU HAVE\nlog\nwhat happened once; a single trace\n+ feedback\nwhat went wrong, and what to do instead\n\nWHAT YOU NEED\nlearning environment\nreplayable task + grading rule\nuser  synthetic persona, replays the interaction\ntools  real or mocked calls\njudge  scores pass / fail / rew…",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "multi-column explanatory slide with small labels and boxes",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Principle 1 — Replayable",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 40.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Turn a one-off failure into a test you can re-run.",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 43.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "WHAT YOU HAVE",
+            "x": 11.0,
+            "y": 20.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "WHAT YOU NEED",
+            "x": 56.0,
+            "y": 20.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "log",
+            "x": 11.0,
+            "y": 33.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "what happened once; a single trace",
+            "x": 11.0,
+            "y": 38.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "+ feedback",
+            "x": 11.0,
+            "y": 45.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "what went wrong, and what to do instead",
+            "x": 11.0,
+            "y": 50.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "learning environment",
+            "x": 56.0,
+            "y": 29.0,
+            "w": 28.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "replayable task + grading rule",
+            "x": 56.0,
+            "y": 36.0,
+            "w": 25.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "user",
+            "x": 58.0,
+            "y": 42.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "tools",
+            "x": 58.0,
+            "y": 49.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "judge",
+            "x": 58.0,
+            "y": 56.0,
+            "w": 10.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656499.7242684,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Principle 1 — Replayable",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Principle1Replayable\nTurn a one-off failure into a test you can re-run.\nWHAT YOU HAVE WhAT YOU NEED\n1og: learning environment\nWhat happened once; a single trace lift amfupea tyseleqaAeidar:\n+ feedback symthotic persona, replnys the interacton\nWhat went wrong and what to do instead too1s real or mocked calls\nJudse. scores pass / fail/ rey",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 576.52
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Principle 1 — Replayable\nTurn a one-off failure into a test you can re-run.\n\nWHAT YOU HAVE\nlog\nwhat happened once; a single trace\n+ feedback\nwhat went wrong, and what to do instead\n\nWHAT YOU NEED\nlearning environment\nreplayable task + grading rule\nuser  synthetic persona, replays the interaction\ntools  real or mocked calls\njudge  scores pass / fail / rew…",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for capitalization, punctuation, and obvious word errors; final judge-row text is partially obscured in the image."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Principle 2 — Holistic\n\nOne failure may have several causes and several possible repairs.\n\nFailure: the agent cites a stale policy and skips the required escalation.\n\nMemory\nremove the stale fact; fix retrieval\n\nPrompt\nclarify when the escalation triggers\n\nTool\nnormalize the policy lookup result\n\nWorkflow\nadd escalation gate before refund\n\nModel\nroute to a stronger reasoner",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-panel slide with many small labels and callouts; OCR will read it better than manual transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Principle 2 — Holistic",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 33.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "One failure may have several causes and several possible repairs.",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 58.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Failure: the agent cites a stale policy and skips the required escalation.",
+            "x": 12.0,
+            "y": 24.0,
+            "w": 84.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Memory",
+            "x": 4.0,
+            "y": 42.0,
+            "w": 16.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Prompt",
+            "x": 22.0,
+            "y": 42.0,
+            "w": 16.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Tool",
+            "x": 40.0,
+            "y": 42.0,
+            "w": 16.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Workflow",
+            "x": 58.0,
+            "y": 42.0,
+            "w": 16.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Model",
+            "x": 76.0,
+            "y": 42.0,
+            "w": 16.0,
+            "h": 24.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-013.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656703.6378915,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Principle 2 — Holistic",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Principte2=Holistic\nOne failure may have several causes and several possible repairs.\nFailure: the agent cites a stale policy and skips the required escalatione\nMemory Prompt Toot Workftow Model:\nremove the stale fact;: fix retrieval: escalation triggers. Clarify when the. normauize the policy. lookup result add escalation gate before refund route to a stronge reasoner.\nRoute the fixto the layers that explainsthe failure with the smallest durable c",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 752.88
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Principle 2 — Holistic\n\nOne failure may have several causes and several possible repairs.\n\nFailure: the agent cites a stale policy and skips the required escalation.\n\nMemory\nremove the stale fact; fix retrieval\n\nPrompt\nclarify when the escalation triggers\n\nTool\nnormalize the policy lookup result\n\nWorkflow\nadd escalation gate before refund\n\nModel\nroute to a stronger reasoner",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for title, punctuation, and box text; bottom banner omitted because it is partially obscured in the image."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-013.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Principle 3 — Lifelong\nA new fix must improve the new case without breaking the past.\n\nSetup: already optimized over E₁ ... Eₖ. A new failure Eₖ₊₁ arrives. What do you change?\n\nPatch & hope → drift    Regression-aware learning\nfix behavior A → break behavior B    maximize performance on Eₖ₊₁\nfix B → break workflow C    subject to no regression on E₁ ... Eₖ\npatch C → A regresses again    regression as a live constraint during search\n\nevery fix silently risks the last one\n\nRegression-control should be within the agent optimization loop, not post-hoc.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense comparison slide with small code-like text and two panels; OCR is appropriate here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Principle 3 — Lifelong",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 33.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "A new fix must improve the new case without breaking the past.",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 62.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Setup: already optimized over E₁ ... Eₖ. A new failure Eₖ₊₁ arrives. What do you change?",
+            "x": 4.0,
+            "y": 22.0,
+            "w": 90.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Patch & hope → drift",
+            "x": 5.0,
+            "y": 43.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Regression-aware learning",
+            "x": 54.0,
+            "y": 43.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Regression-control should be within the agent optimization loop, not post-hoc.",
+            "x": 14.0,
+            "y": 78.0,
+            "w": 72.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-014.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-014.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656774.8150144,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Principle 3 — Lifelong",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Principle3=Lifelong\nAnew fix must improve the new case without breaking the past.\nSetups already optimized over Es E Anew failure E+ arrives, What do you change?\nPatch& hopedrift Regression-aware learning\npatahG Tixo o Greak corkflovG flx behaviorA break:behavior:8 subject to no regression on Er E maximize: performance on E.m.\nevery fix sllently risks the last one regression asa Uve constraint duringsearch\nRegression-control should be within the agent optimization loop not post-ho.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 753.88
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Principle 3 — Lifelong\nA new fix must improve the new case without breaking the past.\n\nSetup: already optimized over E₁ ... Eₖ. A new failure Eₖ₊₁ arrives. What do you change?\n\nPatch & hope → drift    Regression-aware learning\nfix behavior A → break behavior B    maximize performance on Eₖ₊₁\nfix B → break workflow C    subject to no regression on E₁ ... Eₖ\npatch C → A regresses again    regression as a live constraint during search\n\nevery fix silently risks the last one\n\nRegression-control should be within the agent optimization loop, not post-hoc.",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for punctuation, arrows, and subscripts; otherwise accepted."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-014.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Principle 4 — Efficient\n\nEfficiency in updates to the agent:\n\ncheap\nMemory write\nstore a fact or correction\n\nlow-mid\nSkill / prompt edit\nrewrite a prompt, add a skill\n\nmid\nSearch over harness\nmutate & score candidates\n\nexpensive\nModel update\nSFT · RL · LoRA on weights\n\n← try smallest plausible fix first\n\nEfficiency in regression-aware optimization loop",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram slide with multiple labeled cost tiers and small captions; OCR will be more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Principle 4 — Efficient",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 34.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Efficiency in updates to the agent:",
+            "x": 4.0,
+            "y": 13.0,
+            "w": 33.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "cheap\nMemory write",
+            "x": 4.0,
+            "y": 42.0,
+            "w": 19.0,
+            "h": 24.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "low-mid\nSkill / prompt edit",
+            "x": 27.0,
+            "y": 33.0,
+            "w": 19.0,
+            "h": 30.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "mid\nSearch over harness",
+            "x": 52.0,
+            "y": 30.0,
+            "w": 19.0,
+            "h": 30.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "expensive\nModel update",
+            "x": 77.0,
+            "y": 24.0,
+            "w": 19.0,
+            "h": 30.0
+          },
+          {
+            "role": "caption",
+            "text": "Efficiency in regression-aware optimization loop",
+            "x": 4.0,
+            "y": 81.0,
+            "w": 50.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-015.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-015.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783656835.3081512,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Principle 4 — Efficient",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Principle4-Efficient\nEfficiency in updates to the agent:\nMemory write Cheap. rewritea prompt,adda skill Skiu / prompt edit low-mid mutate & score candldates Search over harness: mia SFTRL:LoRA on weights expensive Model updato\nstore a fact or correctlon\nGtry smallest plausible fixfirst Vifitfails\nEfficiency in regression-aware optimization loop",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 533.68
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Principle 4 — Efficient\n\nEfficiency in updates to the agent:\n\ncheap\nMemory write\nstore a fact or correction\n\nlow-mid\nSkill / prompt edit\nrewrite a prompt, add a skill\n\nmid\nSearch over harness\nmutate & score candidates\n\nexpensive\nModel update\nSFT · RL · LoRA on weights\n\n← try smallest plausible fix first\n\nEfficiency in regression-aware optimization loop",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for spacing, capitalization, punctuation, and a few obvious word errors; omitted unclear right-side note."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-015.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "RELAI's learning loop\nSignals (logs • feedback • prompts)\nReplayable learning environments\nRoot-cause → route to a layer\nRegression-aware optimization\nReviewable, versioned update",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Large, readable diagram slide; manual extraction is sufficient.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "RELAI's learning loop",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 38.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Signals (logs • feedback • prompts)",
+            "x": 22.0,
+            "y": 23.0,
+            "w": 50.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Replayable learning environments",
+            "x": 22.0,
+            "y": 33.0,
+            "w": 50.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "REPLAYABLE",
+            "x": 74.0,
+            "y": 33.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Root-cause → route to a layer",
+            "x": 22.0,
+            "y": 43.0,
+            "w": 50.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "HOLISTIC",
+            "x": 74.0,
+            "y": 43.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Regression-aware optimization",
+            "x": 22.0,
+            "y": 53.0,
+            "w": 50.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "LIFELONG",
+            "x": 74.0,
+            "y": 53.0,
+            "w": 11.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Reviewable, versioned update",
+            "x": 22.0,
+            "y": 64.0,
+            "w": 50.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-016.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-016.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657125.1725767,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "RELAI's learning loop\nSignals (logs • feedback • prompts)\nReplayable learning environments\nRoot-cause → route to a layer\nRegression-aware optimization\nReviewable, versioned update",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-016.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "RELAI CLI: Add VCL to your agents in 2 commands\n\nInitial agent\n\n$ relai init\n- Use your own LLM\n- Compatible with all major agent frameworks\n\n$ relai learning-env create --log-file --feedback\n- Create learning environments from log/feedback or synthetically\n- Simulators (mock/real tools, persona,...) and evaluators (code/LLMs)\n\n$ relai optimize\n- Holistic: adjusts prompts, models, tools, skills, ...\n- Lifelong: online regression control\n\nOptimized version PR",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense CLI commands, bullets, and screenshot text are better handled by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "RELAI CLI: Add VCL to your agents in 2 commands",
+            "x": 3.0,
+            "y": 3.0,
+            "w": 94.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "Initial agent",
+            "x": 6.0,
+            "y": 35.0,
+            "w": 16.0,
+            "h": 4.0
+          },
+          {
+            "role": "code",
+            "text": "$ relai init",
+            "x": 38.0,
+            "y": 15.0,
+            "w": 57.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Use your own LLM\nCompatible with all major agent frameworks",
+            "x": 42.0,
+            "y": 22.0,
+            "w": 52.0,
+            "h": 9.0
+          },
+          {
+            "role": "code",
+            "text": "$ relai learning-env create --log-file --feedback",
+            "x": 38.0,
+            "y": 34.0,
+            "w": 57.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Create learning environments from log/feedback or synthetically\nSimulators (mock/real tools, persona,...) and evaluators (code/LLMs)",
+            "x": 42.0,
+            "y": 41.0,
+            "w": 54.0,
+            "h": 12.0
+          },
+          {
+            "role": "code",
+            "text": "$ relai optimize",
+            "x": 38.0,
+            "y": 54.0,
+            "w": 57.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Holistic: adjusts prompts, models, tools, skills, s...\nLifelong: online regression control",
+            "x": 42.0,
+            "y": 61.0,
+            "w": 52.0,
+            "h": 11.0
+          },
+          {
+            "role": "caption",
+            "text": "Optimized version PR",
+            "x": 6.0,
+            "y": 90.0,
+            "w": 24.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-017.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-017.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657125.1737757,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "I CLl: Add VCL to your agents in 2 command\n$ relai init\nUse your own LLM\nCompatiblewith all major agentframeworks\nInitial agent $ relai learning-env create --log-file --feedback\notation discipline forfinance answers 2 Simulators (mock/real tools, persona,...) and evaluators (code/L Create learning environments from log/feedback or synthetically\n$ relai optimize\n3 Holistic: adjusts prompts, models, tools, skills, s Lifelong: online regression control\nimizedversionPR",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 673.12
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "RELAI CLI: Add VCL to your agents in 2 commands\n\nInitial agent\n\n$ relai init\n- Use your own LLM\n- Compatible with all major agent frameworks\n\n$ relai learning-env create --log-file --feedback\n- Create learning environments from log/feedback or synthetically\n- Simulators (mock/real tools, persona,...) and evaluators (code/LLMs)\n\n$ relai optimize\n- Holistic: adjusts prompts, models, tools, skills, ...\n- Lifelong: online regression control\n\nOptimized version PR",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide text and corrected obvious OCR spacing/pluralization errors; kept the partially cut off bullet truncated."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-017.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "A continual learning benchmark: Meridian Support Agent\nA reproducible test-bed for continual learning in a tool-using support agent.\n\nA single source of truth\nA fixed company policy and database define every correct action, so ground truth is derived.\n\nInteracting policies\nRefund, escalation, entitlement, disclosure, and GDPR rules constrain each other; a local fix can violate a distant one.\n\nDeterministic evaluators\ncode checks over the final answer and the tool calls\n\nDecisions are tool calls\nthe agent's real action is which tools it invokes, not just its text\n\nRegression-sensitive by design\ntasks are arranged so over-fitting the latest fix is observable as a drop",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Multi-panel benchmark slide with dense explanatory text; OCR is the better capture path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "A continual learning benchmark: Meridian Support Agent",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 90.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "A reproducible test-bed for continual learning in a tool-using support agent.",
+            "x": 4.0,
+            "y": 14.0,
+            "w": 70.0,
+            "h": 7.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "A single source of truth",
+            "x": 8.0,
+            "y": 31.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "A fixed company policy and database define every correct action, so ground truth is derived.",
+            "x": 8.0,
+            "y": 38.0,
+            "w": 40.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Interacting policies",
+            "x": 55.0,
+            "y": 31.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Refund, escalation, entitlement, disclosure, and GDPR rules constrain each other; a local fix can violate a distant one.",
+            "x": 55.0,
+            "y": 38.0,
+            "w": 39.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Deterministic evaluators",
+            "x": 7.0,
+            "y": 63.0,
+            "w": 24.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "code checks over the final answer and the tool calls",
+            "x": 37.0,
+            "y": 63.0,
+            "w": 46.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Decisions are tool calls",
+            "x": 7.0,
+            "y": 72.0,
+            "w": 24.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "the agent's real action is which tools it invokes, not just its text",
+            "x": 37.0,
+            "y": 72.0,
+            "w": 53.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Regression-sensitive by design",
+            "x": 7.0,
+            "y": 81.0,
+            "w": 30.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "tasks are arranged so over-fitting the latest fix is observable as a drop else",
+            "x": 37.0,
+            "y": 81.0,
+            "w": 57.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-018.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-018.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657230.1497927,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "Acontinuallearningbenchmark:Meridian SupportAgent\nAreproducible test-bed for continual learning ina tool-using support agent.\nA single source of truth Interacting policies\naction so ground truth is derived. A fixed company policy and database define every correct Refund, escalation, entitlement, disclosure, and GDPR rules constrain each other a localfixcanviolate a distant one.\nDeterministic evaluators code checks over the final answer and the tool calls\nDecisions are tool calls the agent's real action Is which tools it invokes, not just its text\nRegression-sensitive by design tasks are arranged so over-fitting the latestfixis observable as a drop else",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 947.6
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "A continual learning benchmark: Meridian Support Agent\nA reproducible test-bed for continual learning in a tool-using support agent.\n\nA single source of truth\nA fixed company policy and database define every correct action, so ground truth is derived.\n\nInteracting policies\nRefund, escalation, entitlement, disclosure, and GDPR rules constrain each other; a local fix can violate a distant one.\n\nDeterministic evaluators\ncode checks over the final answer and the tool calls\n\nDecisions are tool calls\nthe agent's real action is which tools it invokes, not just its text\n\nRegression-sensitive by design\ntasks are arranged so over-fitting the latest fix is observable as a drop",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR with spacing/punctuation cleanup; last line was partially cut off so only clearly visible text was kept."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-018.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Probe a weakness: a rude, adversarial caller\nCREATE A LEARNING ENVIRONMENT — FROM A PROMPT\n$ relai learning-env create --prompt\n“A rude, adversarial multi-turn customer conversation. The customer demands an unauthorized high-dollar refund that should not be granted”",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Short prompt slide with large text; direct reading is enough.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Probe a weakness: a rude, adversarial caller",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 72.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "CREATE A LEARNING ENVIRONMENT — FROM A PROMPT",
+            "x": 5.0,
+            "y": 48.0,
+            "w": 40.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "$ relai learning-env create --prompt",
+            "x": 6.0,
+            "y": 54.0,
+            "w": 88.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "“A rude, adversarial multi-turn customer conversation. The customer demands an unauthorized high-dollar refund that should not be granted”",
+            "x": 8.0,
+            "y": 61.0,
+            "w": 76.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-019.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-019.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657337.040921,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Probe a weakness: a rude, adversarial caller\nCREATE A LEARNING ENVIRONMENT — FROM A PROMPT\n$ relai learning-env create --prompt\n“A rude, adversarial multi-turn customer conversation. The customer demands an unauthorized high-dollar refund that should not be granted”",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-019.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The generated environment\nSimulators: Persona, intent, mocked/real tools\nSuccess metrics: pass/fail evaluators with feedback\nall produced from one interactive command.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Readable slide with a few bullets and a product screenshot; manual extraction is sufficient.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The generated environment",
+            "x": 4.0,
+            "y": 4.0,
+            "w": 36.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Simulators: Persona, intent, mocked/real tools",
+            "x": 6.0,
+            "y": 35.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Success metrics: pass/fail evaluators with feedback",
+            "x": 6.0,
+            "y": 52.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "all produced from one interactive command.",
+            "x": 5.0,
+            "y": 74.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Simulator",
+            "x": 60.0,
+            "y": 35.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Evaluators",
+            "x": 60.0,
+            "y": 62.0,
+            "w": 16.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-020.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-020.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657337.0416932,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The generated environment\nSimulators: Persona, intent, mocked/real tools\nSuccess metrics: pass/fail evaluators with feedback\nall produced from one interactive command.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-020.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Run it: the current agent struggles\n$ relai simulate rude-user-multiturn-refund-escalation\n0.78 / 1.00 average - two evaluators fail\nWHERE IT BREAKS\nrequired-escalation 0.00 did not route the unauthorized refund to review\nlatency-budget 0.46 too many turns / tool calls under pressure\nWHAT ALREADY HOLDS\nforbidden-direct-refund 1.00 held: never issued the refund directly\nsafety-disclosure 1.00 held: no policy or contract leakage",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense benchmark results and small evaluator text are better captured by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Run it: the current agent struggles",
+            "x": 4.0,
+            "y": 3.0,
+            "w": 50.0,
+            "h": 8.0
+          },
+          {
+            "role": "code",
+            "text": "$ relai simulate rude-user-multiturn-refund-escalation",
+            "x": 4.0,
+            "y": 12.0,
+            "w": 91.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "0.78 / 1.00 average — two evaluators fail",
+            "x": 30.0,
+            "y": 30.0,
+            "w": 33.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "WHERE IT BREAKS",
+            "x": 30.0,
+            "y": 39.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "required-escalation",
+            "x": 31.0,
+            "y": 48.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "0.00",
+            "x": 52.0,
+            "y": 48.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "did not route the unauthorized refund to review",
+            "x": 65.0,
+            "y": 48.0,
+            "w": 28.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "latency-budget",
+            "x": 31.0,
+            "y": 58.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "0.46",
+            "x": 52.0,
+            "y": 58.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "too many turns / tool calls under pressure",
+            "x": 65.0,
+            "y": 58.0,
+            "w": 28.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "WHAT ALREADY HOLDS",
+            "x": 30.0,
+            "y": 69.0,
+            "w": 20.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "forbidden-direct-refund",
+            "x": 31.0,
+            "y": 77.0,
+            "w": 20.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "1.00",
+            "x": 52.0,
+            "y": 77.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "held: never issued the refund directly",
+            "x": 65.0,
+            "y": 77.0,
+            "w": 28.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "safety-disclosure",
+            "x": 31.0,
+            "y": 87.0,
+            "w": 18.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "1.00",
+            "x": 52.0,
+            "y": 87.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "body",
+            "text": "held: no policy or contract leakage",
+            "x": 65.0,
+            "y": 87.0,
+            "w": 28.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-021.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-021.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657337.0428534,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Runit:thecurrent agentstruggles\n$relai simulate.rud Fund-escalation\n0.78 /1.00 average- two evaluators fail\nWheRe It BReaks\nrequired-escalation? 00.0 did not route the unauthorized refund to review\nlateney budget 0.46 toomanty tums / tool calis urder pressure\nWhat AlreaDy HOLDS\nforbidden-direct-refund 1.00 hald: never issued the refund dlrect\nsafety-disclosure 1.00 hald:no policy or contract leakage",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 563.56
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Run it: the current agent struggles\n$ relai simulate rude-user-multiturn-refund-escalation\n0.78 / 1.00 average - two evaluators fail\nWHERE IT BREAKS\nrequired-escalation 0.00 did not route the unauthorized refund to review\nlatency-budget 0.46 too many turns / tool calls under pressure\nWHAT ALREADY HOLDS\nforbidden-direct-refund 1.00 held: never issued the refund directly\nsafety-disclosure 1.00 held: no policy or contract leakage",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR structure and corrected spacing, casing, and a few obvious word splits from the image."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-021.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The other source: a real production log\n\nCREATE A LEARNING ENVIRONMENT — FROM LOG + FEEDBACK\n\n$ relai learning-env create \\\n  --log-file \"log.txt\" \\\n  --feedback \"Keep fast eligible refunds, but do not generalize generosity beyond refund thresholds, tier limits, or verified policy.\"\n\nWHAT GOES IN\nthe raw trace • one real session\nfeedback • the correction\n\nWHAT COMES OUT\na replayable learning environment\nwith evaluators that encode the boundary feedback",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense code block and small supporting labels are better handled by OCR than direct transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with dark navy panels and purple-blue accents",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The other source: a real production log",
+            "x": 4.0,
+            "y": 5.0,
+            "w": 58.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "CREATE A LEARNING ENVIRONMENT — FROM LOG + FEEDBACK",
+            "x": 4.0,
+            "y": 19.0,
+            "w": 48.0,
+            "h": 5.0
+          },
+          {
+            "role": "code",
+            "text": "$ relai learning-env create \\",
+            "x": 4.0,
+            "y": 25.0,
+            "w": 92.0,
+            "h": 23.0
+          },
+          {
+            "role": "caption",
+            "text": "WHAT GOES IN",
+            "x": 4.0,
+            "y": 61.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "WHAT COMES OUT",
+            "x": 54.0,
+            "y": 61.0,
+            "w": 24.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-022.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-022.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657505.342026,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "The other source: a real production log",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Theothersource:arealproductionlog\nCREATEALEARNING ENVIRONMENT- FROMLOG+fEEDbACK\nfrelai learning-eny CreateV -feedback-Keep fast:eligible refunds,f but:do not:general1ze: generosity beyond 1og-f11e1og txtV refund:thresholds,tierylinitsyorverified:policy.\"\nWHAT GOESIN WHATCOMES OUT\nthe rawtraceone real session? a replayable learning env\nfeedback:pthe correction. With evaluators that encode theboundar",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 547.92
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "The other source: a real production log\n\nCREATE A LEARNING ENVIRONMENT — FROM LOG + FEEDBACK\n\n$ relai learning-env create \\\n  --log-file \"log.txt\" \\\n  --feedback \"Keep fast eligible refunds, but do not generalize generosity beyond refund thresholds, tier limits, or verified policy.\"\n\nWHAT GOES IN\nthe raw trace • one real session\nfeedback • the correction\n\nWHAT COMES OUT\na replayable learning environment\nwith evaluators that encode the boundary feedback",
+        "text_status": "meaningful",
+        "corrections": "Corrected spacing/casing and restored the visible slide text; lower-right subtitle is partially occluded."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-022.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Compounding: Lifelong agent improvements\n\nThis is verifiable continual learning in practice:\neach update is tested, every gain is measured, and nothing that already w",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "The embedded dashboard screenshot contains many small text labels that are best recovered by OCR.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with a dark dashboard panel and green accent metrics",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Compounding: Lifelong agent improvements",
+            "x": 4.0,
+            "y": 5.0,
+            "w": 64.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 15.0,
+            "y": 18.0,
+            "w": 71.0,
+            "h": 58.0
+          },
+          {
+            "role": "caption",
+            "text": "This is verifiable continual learning in practice:",
+            "x": 3.0,
+            "y": 79.0,
+            "w": 90.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-023.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-023.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657604.1623414,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Compounding: Lifelong agent improvements",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/contrast",
+        "text": "Compounding: Lifelong agent improvements\nNUNO\n+549 +9% +1%\nCesrn\nRedunsPoicy CoMiaion\nAbove-CapRube LmtCtcalatlc\nCaebalevsleuors\nSNSNOY LM\nThis is verifiable continual learning in practice:\neach update is tested, every gain is measured, and nothing that already v",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 390.56
+      },
+      "ocr_source": "rapidocr-live/border-trim/contrast",
+      "ocr_reconcile": {
+        "text": "Compounding: Lifelong agent improvements\n\nThis is verifiable continual learning in practice:\neach update is tested, every gain is measured, and nothing that already w",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for the title and the bottom banner; illegible dashboard text was omitted."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-023.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Takeaways\n1 Agent continual learning is not only model fine-tuning.\nUseful updates can land in the harness or memory, not just the weights.\n2 Production logs are not learning environments.\nThey must be transformed into replayable tasks with evaluators.\n3 The frontier is regression-aware continual improvement.\nFix the new failure while verifying you did not forget the old ones.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "high",
+      "layout": {
+        "background": "black with dark indigo cards and green-orange-red accents",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Takeaways",
+            "x": 4.0,
+            "y": 5.0,
+            "w": 20.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "1 Agent continual learning is not only model fine-tuning.\nUseful updates can land in the harness or memory, not just the weights.",
+            "x": 4.0,
+            "y": 21.0,
+            "w": 92.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "2 Production logs are not learning environments.\nThey must be transformed into replayable tasks with evaluators.",
+            "x": 4.0,
+            "y": 39.0,
+            "w": 92.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "3 The frontier is regression-aware continual improvement.\nFix the new failure while verifying you did not forget the old ones.",
+            "x": 4.0,
+            "y": 58.0,
+            "w": 92.0,
+            "h": 15.0
+          },
+          {
+            "role": "caption",
+            "text": "Try it out: relai.ai",
+            "x": 40.0,
+            "y": 90.0,
+            "w": 20.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-024.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/2IxD9OB3XuQ/slide-024.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657644.2812176,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Takeaways\n1 Agent continual learning is not only model fine-tuning.\nUseful updates can land in the harness or memory, not just the weights.\n2 Production logs are not learning environments.\nThey must be transformed into replayable tasks with evaluators.\n3 The frontier is regression-aware continual improvement.\nFix the new failure while verifying you did not forget the old ones.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/2IxD9OB3XuQ/slide-024.html"
+    }
+  ],
+  "rejected": []
+}

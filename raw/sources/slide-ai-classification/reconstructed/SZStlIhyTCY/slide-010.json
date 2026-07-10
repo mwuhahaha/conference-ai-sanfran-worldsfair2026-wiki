@@ -1,0 +1,226 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Global survey of 300+ enterprises showing what differentiates top performers\nperformers X-Likelihood of shift compared tobottom 7x Shifts 6x Outcomes\n(E2Eimplementaton ofAlof4+usecases) workflows Al native + (broader skillsets, Al native newroles) roles 5-6x Faster time to market 2-3weclo 1.2 weeks\nEnablers\n2x 2x 7x 3-4x Higher quality artifacts\nUpskilling measurement Impact Performance reviews\nMcAesry &Company\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Text-heavy chart slide with small labels, multipliers, and outcome callouts suitable for OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#081a24",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Global survey of 300+ enterprises showing what differentiates top performers",
+        "x": 25.0,
+        "y": 4.0,
+        "w": 62.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Shifts",
+        "x": 41.0,
+        "y": 14.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Outcomes",
+        "x": 78.0,
+        "y": 14.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "AI native workflows",
+        "x": 30.0,
+        "y": 29.0,
+        "w": 14.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(E2E implementation of AI at 4+ use cases)",
+        "x": 30.0,
+        "y": 39.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "AI native roles",
+        "x": 50.0,
+        "y": 29.0,
+        "w": 13.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(broader skillsets, new roles)",
+        "x": 50.0,
+        "y": 39.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Upskilling",
+        "x": 29.0,
+        "y": 59.0,
+        "w": 11.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(hands-on learning)",
+        "x": 29.0,
+        "y": 67.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Impact measurement",
+        "x": 42.0,
+        "y": 59.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(outcome metrics tracked)",
+        "x": 42.0,
+        "y": 67.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Performance reviews",
+        "x": 55.0,
+        "y": 59.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "(incentive structures in performance reviews)",
+        "x": 55.0,
+        "y": 67.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "7x",
+        "x": 32.0,
+        "y": 22.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "6x",
+        "x": 52.0,
+        "y": 22.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "2x",
+        "x": 31.0,
+        "y": 52.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "2x",
+        "x": 44.0,
+        "y": 52.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "7x",
+        "x": 57.0,
+        "y": 52.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "5-6x Faster time to market",
+        "x": 69.0,
+        "y": 27.0,
+        "w": 23.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3-4x Higher quality artifacts",
+        "x": 69.0,
+        "y": 56.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "MOVING AWAY FROM AGILE: WHAT'S NEXT?",
+        "x": 27.0,
+        "y": 90.0,
+        "w": 48.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "MARTIN HARRYSSON",
+        "x": 26.0,
+        "y": 96.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "NATASHA MANIAR",
+        "x": 44.0,
+        "y": 96.0,
+        "w": 14.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-010.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663669.4453003,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Global survey of 300+ enterprises showing what differentiates top performers\nperformers X-Likelihood of shift compared tobottom 7x Shifts 6x Outcomes\n(E2Eimplementaton ofAlof4+usecases) workflows Al native + (broader skillsets, Al native newroles) roles 5-6x Faster time to market 2-3weclo 1.2 weeks\nEnablers\n2x 2x 7x 3-4x Higher quality artifacts\nUpskilling measurement Impact Performance reviews\nMcAesry &Company\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 790.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Global survey of 300+ enterprises showing what differentiates top performers\nperformers X-Likelihood of shift compared tobottom 7x Shifts 6x Outcomes\n(E2Eimplementaton ofAlof4+usecases) workflows Al native + (broader skillsets, Al native newroles) roles 5-6x Faster time to market 2-3weclo 1.2 weeks\nEnablers\n2x 2x 7x 3-4x Higher quality artifacts\nUpskilling measurement Impact Performance reviews\nMcAesry &Company\nAIE/ LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTEDBY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense benchmark/documentation screenshot with small text and code-like markup.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light beige editor with code panel",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How are benchmarks being run?",
+        "x": 4.0,
+        "y": 1.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Benchmarks in this workspace are run using a script that evaluates the performance of a chat application.",
+        "x": 4.0,
+        "y": 31.0,
+        "w": 42.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "python -m scripts evaluate --config=example_config.json",
+        "x": 4.0,
+        "y": 70.0,
+        "w": 41.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "The example_config.json should contain minimum fields including",
+        "x": 4.0,
+        "y": 80.0,
+        "w": 43.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-046.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-046.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657948.4160476,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

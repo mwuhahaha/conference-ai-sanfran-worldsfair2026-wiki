@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Retrieval Augmented Generation (RAG)\nKnowledge base\nContext\nPrompt\nLLM\nAnswer",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple diagram slide with large readable text; direct reading is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#062f2d",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Retrieval Augmented Generation (RAG)",
+        "x": 24.0,
+        "y": 10.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Knowledge base",
+        "x": 54.0,
+        "y": 36.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Context",
+        "x": 62.0,
+        "y": 45.0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Prompt",
+        "x": 34.0,
+        "y": 62.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "LLM",
+        "x": 47.0,
+        "y": 68.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Answer",
+        "x": 74.0,
+        "y": 64.0,
+        "w": 10.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/T0HhO4YtTfE/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664006.3066607,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Retrieval Augmented Generation (RAG)\nKnowledge base\nContext\nPrompt\nLLM\nAnswer",
+  "advanced_ocr": {}
+}

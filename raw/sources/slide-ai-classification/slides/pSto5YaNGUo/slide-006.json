@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "PHASE 4: DIAGOSE · AT SCALE\nFrom a flood of failures to a short list of causes.\nYou can't read a miillon falling traces. Dlagnosis cluaters them by simllarlty and catogorlzes each grou\ncause frst, not the loudest symptom.\nFAILIRO TAACES A fiu Rauxlo causts\ntlust+r: Wrong tool Lihe Otf-path / looping Llulrg conteart\ntat+go+iro Format / pohoy mdts Uhupporttd citha\nCluste Categorlre ★ Rank\nCroup the tehng trece that look alke hto one buohst = no humus rtdt them one by cmt. Labt cech cutter by thae bnd ot falure, Da trrery buoket mape to a fuxab+e c+uta. Grde thu+ ctut Hrst, rot the lo\n+o trac+n + or+ clustot Bissing coatet. arong tool - ofl-path 1.2kc\nTht Artatic Bene Burak",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "High-density scale slide with ranked causes, counts, and explanatory boxes; OCR is the right capture path.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#ffffff",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "MUTAGENT",
+        "x": 86.0,
+        "y": 1.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "PHASE 4 · DIAGNOSE · AT SCALE",
+        "x": 11.0,
+        "y": 10.0,
+        "w": 20.0,
+        "h": 3.0
+      },
+      {
+        "role": "title",
+        "text": "From a flood of failures to a short list of causes.",
+        "x": 11.0,
+        "y": 14.0,
+        "w": 52.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "You can't read a million failing traces. Diagnosis clusters them by similarity and categorizes each group — so you fix the biggest cause first, not the loudest symptom.",
+        "x": 11.0,
+        "y": 23.0,
+        "w": 61.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MILLIONS OF FAILING TRACES",
+        "x": 12.0,
+        "y": 31.0,
+        "w": 18.0,
+        "h": 3.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "A FEW RANKED CAUSES",
+        "x": 35.0,
+        "y": 31.0,
+        "w": 16.0,
+        "h": 3.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Cluster",
+        "x": 12.0,
+        "y": 67.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Categorize",
+        "x": 39.0,
+        "y": 67.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Rank",
+        "x": 67.0,
+        "y": 67.0,
+        "w": 6.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670706.5758684,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/opencv-adaptive",
+    "text": "PHASE 4: DIAGOSE · AT SCALE\nFrom a flood of failures to a short list of causes.\nYou can't read a miillon falling traces. Dlagnosis cluaters them by simllarlty and catogorlzes each grou\ncause frst, not the loudest symptom.\nFAILIRO TAACES A fiu Rauxlo causts\ntlust+r: Wrong tool Lihe Otf-path / looping Llulrg conteart\ntat+go+iro Format / pohoy mdts Uhupporttd citha\nCluste Categorlre ★ Rank\nCroup the tehng trece that look alke hto one buohst = no humus rtdt them one by cmt. Labt cech cutter by thae bnd ot falure, Da trrery buoket mape to a fuxab+e c+uta. Grde thu+ ctut Hrst, rot the lo\n+o trac+n + or+ clustot Bissing coatet. arong tool - ofl-path 1.2kc\nTht Artatic Bene Burak",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1158.88
+  },
+  "ocr_source": "rapidocr-live/left-72/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "PHASE 4: DIAGOSE · AT SCALE\nFrom a flood of failures to a short list of causes.\nYou can't read a miillon falling traces. Dlagnosis cluaters them by simllarlty and catogorlzes each grou\ncause frst, not the loudest symptom.\nFAILIRO TAACES A fiu Rauxlo causts\ntlust+r: Wrong tool Lihe Otf-path / looping Llulrg conteart\ntat+go+iro Format / pohoy mdts Uhupporttd citha\nCluste Categorlre ★ Rank\nCroup the tehng trece that look alke hto one buohst = no humus rtdt them one by cmt. Labt cech cutter by thae bnd ot falure, Da trrery buoket mape to a fuxab+e c+uta. Grde thu+ ctut Hrst, rot the lo\n+o trac+n + or+ clustot Bissing coatet. arong tool - ofl-path 1.2kc\nTht Artatic Bene Burak",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

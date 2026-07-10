@@ -1,0 +1,678 @@
+{
+  "video_id": "SS-A8sE7hkw",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": false,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 7,
+  "rejected_count": 5,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Gemma4\nArena Elo Score\nAIE\n31B26B754B 61008397B:6858\nEngineering the future ofAl\n: AlEngg",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart slide with small labels and numeric bars; OCR is likely more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#000000",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Gemma 4",
+            "x": 44.0,
+            "y": 7.0,
+            "w": 16.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Arena Elo Score",
+            "x": 43.0,
+            "y": 15.0,
+            "w": 22.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 38.0,
+            "y": 82.0,
+            "w": 46.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663302.8948083,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr",
+      "vision_text": "Gemma 4\nArena Elo Score",
+      "advanced_ocr": {
+        "source": "rapidocr-live/border-trim/opencv-adaptive",
+        "text": "Gemma4\nArena Elo Score\nAIE\n31B26B754B 61008397B:6858\nEngineering the future ofAl\n: AlEngg",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 153.6
+      },
+      "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "Gemma4\nArena Elo Score\nAIE\n31B26B754B 61008397B:6858\nEngineering the future ofAl\n: AlEngg",
+        "text_status": "meaningful",
+        "corrections": "reconcile disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/SS-A8sE7hkw/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "ai.dev",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product/UI screenshot with dense small interface text; OCR is likely more reliable than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#000000",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "ai.dev",
+            "x": 48.0,
+            "y": 5.0,
+            "w": 12.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Explore Google models",
+            "x": 39.0,
+            "y": 14.0,
+            "w": 24.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663338.5928457,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "ai.dev",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/border-trim/contrast",
+        "best_score": 128.48,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0152
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/SS-A8sE7hkw/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Efficiency & \"Intelligence-per-Parameter\"\nGemma 4 family:\nE2B, E4B, 26B A4B, 31B.\nExtreme parameter efficiency:\nmax(\"intelligence-per-parameter\")\nPerformance equivalent to models up to 10x their size on targeted logic tasks.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 25.0
+          },
+          {
+            "role": "title",
+            "text": "Efficiency & \"Intelligence-per-Parameter\"",
+            "x": 35.0,
+            "y": 11.0,
+            "w": 43.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Gemma 4 family:\nE2B, E4B, 26B A4B, 31B.",
+            "x": 35.0,
+            "y": 35.0,
+            "w": 28.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Extreme parameter efficiency:\nmax(\"intelligence-per-parameter\")",
+            "x": 35.0,
+            "y": 49.0,
+            "w": 30.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Performance equivalent to models up to 10x their size on targeted logic tasks.",
+            "x": 35.0,
+            "y": 63.0,
+            "w": 31.0,
+            "h": 19.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Model Performance Vs Size",
+            "x": 61.0,
+            "y": 20.0,
+            "w": 24.0,
+            "h": 7.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 39.0,
+            "y": 82.0,
+            "w": 40.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663497.264366,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Efficiency & \"Intelligence-per-Parameter\"\nGemma 4 family:\nE2B, E4B, 26B A4B, 31B.\nExtreme parameter efficiency:\nmax(\"intelligence-per-parameter\")\nPerformance equivalent to models up to 10x their size on targeted logic tasks.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/SS-A8sE7hkw/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The Agentic \"Thinking Tax\"\nAutonomous loops, tool calls,\nand self-correction dominate\ncurrent application demand.\nIterative agentic workflows\nconsume 5–9x more tokens than\nstandard chat.\nRelying purely on pay-per-token\n\"Leased Intelligence\" creates\nheavy scaling operational liabilities.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 25.0
+          },
+          {
+            "role": "title",
+            "text": "The Agentic \"Thinking Tax\"",
+            "x": 37.0,
+            "y": 11.0,
+            "w": 40.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Autonomous loops, tool calls,\nand self-correction dominate\ncurrent application demand.",
+            "x": 35.0,
+            "y": 24.0,
+            "w": 29.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Iterative agentic workflows\nconsume 5–9x more tokens than\nstandard chat.",
+            "x": 35.0,
+            "y": 42.0,
+            "w": 29.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Relying purely on pay-per-token\n\"Leased Intelligence\" creates\nheavy scaling operational liabilities.",
+            "x": 35.0,
+            "y": 60.0,
+            "w": 30.0,
+            "h": 20.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 39.0,
+            "y": 82.0,
+            "w": 40.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663497.2659962,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Agentic \"Thinking Tax\"\nAutonomous loops, tool calls,\nand self-correction dominate\ncurrent application demand.\nIterative agentic workflows\nconsume 5–9x more tokens than\nstandard chat.\nRelying purely on pay-per-token\n\"Leased Intelligence\" creates\nheavy scaling operational liabilities.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/SS-A8sE7hkw/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Personal & Edge\nPersonal (NPU/Mobile): Shifting execution to\nlocal \"sunk-cost\" hardware to maintain local\ndata by design.\nEdge (Desktop/Single-GPU): Establishing\nfixed-cost reasoning on a 24GB-80GB\nfootprint.\nBattery Priority: On mobile, power utilization is\npart of the cost and is arguably\nmore critical than raw token generation cost.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 25.0
+          },
+          {
+            "role": "title",
+            "text": "Personal & Edge",
+            "x": 43.0,
+            "y": 11.0,
+            "w": 24.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Personal (NPU/Mobile): Shifting execution to\nlocal \"sunk-cost\" hardware to maintain local\ndata by design.",
+            "x": 54.0,
+            "y": 24.0,
+            "w": 33.0,
+            "h": 18.0
+          },
+          {
+            "role": "body",
+            "text": "Edge (Desktop/Single-GPU): Establishing\nfixed-cost reasoning on a 24GB-80GB\nfootprint.",
+            "x": 54.0,
+            "y": 47.0,
+            "w": 33.0,
+            "h": 16.0
+          },
+          {
+            "role": "body",
+            "text": "Battery Priority: On mobile, power utilization is\npart of the cost and is arguably\nmore critical than raw token generation cost.",
+            "x": 54.0,
+            "y": 67.0,
+            "w": 34.0,
+            "h": 19.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 39.0,
+            "y": 82.0,
+            "w": 40.0,
+            "h": 10.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663497.266597,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Personal & Edge\nPersonal (NPU/Mobile): Shifting execution to\nlocal \"sunk-cost\" hardware to maintain local\ndata by design.\nEdge (Desktop/Single-GPU): Establishing\nfixed-cost reasoning on a 24GB-80GB\nfootprint.\nBattery Priority: On mobile, power utilization is\npart of the cost and is arguably\nmore critical than raw token generation cost.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/SS-A8sE7hkw/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.9,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": true,
+      "ocr_reason": "Dense product/UI screenshot with small text; OCR is likely more efficient than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 25.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 28.0,
+            "y": 4.0,
+            "w": 67.0,
+            "h": 79.0
+          },
+          {
+            "role": "caption",
+            "text": "AI Engineer EUROPE",
+            "x": 65.0,
+            "y": 83.0,
+            "w": 21.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663497.267227,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/right-72/opencv-adaptive",
+        "best_score": 74.48,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/SS-A8sE7hkw/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.91,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Gemma 4 demos",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense slide-editor screenshot with thumbnail sidebar and UI chrome; OCR is likely useful for the embedded slide content.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 13.0,
+            "w": 13.0,
+            "h": 25.0
+          },
+          {
+            "role": "title",
+            "text": "Gemma 4 demos",
+            "x": 60.0,
+            "y": 34.0,
+            "w": 14.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 28.0,
+            "y": 4.0,
+            "w": 67.0,
+            "h": 79.0
+          },
+          {
+            "role": "caption",
+            "text": "AI Engineer EUROPE",
+            "x": 65.0,
+            "y": 83.0,
+            "w": 21.0,
+            "h": 9.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663530.0745625,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Gemma 4 demos",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_source": "rapidocr-live/full",
+        "best_score": 82.2,
+        "rejected_as_weak": true,
+        "suspicious_ratio": 0.0
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/SS-A8sE7hkw/slide-011.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "Stage photo with audience and podium; not a readable presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Non-slide speaker-stage frame.",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "dark gray room scene",
+        "style": "other",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663302.8891032,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.97,
+      "frame_type": "title_card",
+      "reject_reason": "Speaker intro card with headshots and names; not a content slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Intro card rather than content slide.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663302.8898206,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.95,
+      "frame_type": "title_card",
+      "reject_reason": "Title/logo slide with minimal content; not a substantive presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Title/logo slide, not dense content.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663302.8921223,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.95,
+      "frame_type": "title_card",
+      "reject_reason": "Title/logo slide with minimal content; not a substantive presentation slide.",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "Title/logo slide, not dense content.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663302.8940825,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "End card/logo slate with only branding and URL; no substantive presentation content.",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "black",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "AI Engineer\nEUROPE",
+            "x": 27.0,
+            "y": 28.0,
+            "w": 46.0,
+            "h": 20.0
+          },
+          {
+            "role": "caption",
+            "text": "HTTPS://AI.ENGINEER",
+            "x": 38.0,
+            "y": 90.0,
+            "w": 24.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/SS-A8sE7hkw/slide-012.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783663547.1316757,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

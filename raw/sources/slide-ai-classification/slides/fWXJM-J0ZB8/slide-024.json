@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Rachel-Lee Nabors. Qrtdwoo souewans-uopooy seselea @ Lm1-32-36\nmrerater)\nam+-3.2-3b Avd 0 1.35 @ 405.69 Awa' 0 0.41 0 996.93 AvG'0 2.9s D 511.0s $0.01 claude-sonwt-basdr\nyno $iu4p1 55922 05.70 2,160 01.sa c 925 c$+.01\n(they/them)near hsircuts\"! 0 cexpeeted_sum coeparing Sunil: Joking about Y.tPlyful Bodhldharma, expected_refere. bater! Pa1.to! Yeoyoops urorus srushy ue, puly Bodhidharza' avatar, pro=oting sumil'to consider'a haircut; Thrccpolntonc becoees Bodhidharms avatar, proapting sunll to conslder 4 halrcut'snd 'n, Agentic. Shaolin'schoole)\": \"summary\"ilSm Jokingly, suggests,Threepointone becones Fretereaceso0h. Hsasaosns: Abugyof esbWtVurns-Vasuodsader Cison 'ale.trve. \"proept: tokens:278, Ftotal tokens-a:314. coapletion tokens\"l36. Estart ing on Agentic Shaotin Kung-tu schoot. Cgentie, Shaolin Kung-fu schoot. 1-injin' \\\"oiscuss ing' an' avatar, and' start ing 'an' Yreterencen g115. oravresponsejson\\nAnVsuary tsuemsry'., -oiscussiog an avatar., sod! Cson_valial tne T6s2:: susxoy1daoud. coplet 1on tokens\"1,455,) Ctotal_tokensas7it? Bodhhrmh1rcut appearance conparing to Bodhidhana? qthrecpointone's appearansekicoaparirg oiutodesyio snoge Surxoca(ixiemnst \"reterences\"U. ison vaud\":'truen Erav_respoase\". prompttokens.283, Fcoapletioctokens\":31, \"totaletokens\"ti314 waryAJokt\n1.00 AYo 0o'I Naeer eered uos 1.06 AvG 7\nLargth_complaroe_t 1.09 1.89 AYG Cergth_conpllnoe erl 1.93 1.06 AVG Length_compdance\n1.eo AYG eo:T N.s- Aoe.nooe-ecuereye] 1.06 Ay3 6\nsnantic_almRerity_svat 6.58 OY ts'o Cwmantic_ emllrity_era 鲁. 3? 0.38 AY3 tmmte_t\n-.1 nca oltt. 02.10 01,696 09.5@3,430 03. 0\nYtSan' Jokes that'Sunil·Pai Texpected_rta qetting'o'hircut Iret:3]'The\"comersation'slso hints't modern Bodhiaharea'avatar (ref:2]f and a. response' about Pw response'e tn AYsunrAirTbiseusion., AThe discussion begsn with's'nention'ot. fono conceptual' petaphor'about' an watar'stoly [ret:lJ,:uhich'quickty'shifted Anto. 0..response\" son\\nfin A\"summaryA\"! conversarlon> Ebout'soncthing I. coaoarlson'ot threcpointore to bodhidhal rmresp. aede.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense comparison table and multi-column UI screenshot are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark UI with grid panels",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Datasets > golden-summaries > compare",
+        "x": 4.0,
+        "y": 2.0,
+        "w": 40.0,
+        "h": 8.0
+      },
+      {
+        "role": "table",
+        "text": "reference output / llama-3.2-3b / gemma-4-e2b / claude-sonnet-baseline",
+        "x": 4.0,
+        "y": 15.0,
+        "w": 92.0,
+        "h": 76.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-024.jpg",
+  "image": "wiki/assets/slides/fWXJM-J0ZB8/slide-024.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668188.1629128,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Rachel-Lee Nabors. Qrtdwoo souewans-uopooy seselea @ Lm1-32-36\nmrerater)\nam+-3.2-3b Avd 0 1.35 @ 405.69 Awa' 0 0.41 0 996.93 AvG'0 2.9s D 511.0s $0.01 claude-sonwt-basdr\nyno $iu4p1 55922 05.70 2,160 01.sa c 925 c$+.01\n(they/them)near hsircuts\"! 0 cexpeeted_sum coeparing Sunil: Joking about Y.tPlyful Bodhldharma, expected_refere. bater! Pa1.to! Yeoyoops urorus srushy ue, puly Bodhidharza' avatar, pro=oting sumil'to consider'a haircut; Thrccpolntonc becoees Bodhidharms avatar, proapting sunll to conslder 4 halrcut'snd 'n, Agentic. Shaolin'schoole)\": \"summary\"ilSm Jokingly, suggests,Threepointone becones Fretereaceso0h. Hsasaosns: Abugyof esbWtVurns-Vasuodsader Cison 'ale.trve. \"proept: tokens:278, Ftotal tokens-a:314. coapletion tokens\"l36. Estart ing on Agentic Shaotin Kung-tu schoot. Cgentie, Shaolin Kung-fu schoot. 1-injin' \\\"oiscuss ing' an' avatar, and' start ing 'an' Yreterencen g115. oravresponsejson\\nAnVsuary tsuemsry'., -oiscussiog an avatar., sod! Cson_valial tne T6s2:: susxoy1daoud. coplet 1on tokens\"1,455,) Ctotal_tokensas7it? Bodhhrmh1rcut appearance conparing to Bodhidhana? qthrecpointone's appearansekicoaparirg oiutodesyio snoge Surxoca(ixiemnst \"reterences\"U. ison vaud\":'truen Erav_respoase\". prompttokens.283, Fcoapletioctokens\":31, \"totaletokens\"ti314 waryAJokt\n1.00 AYo 0o'I Naeer eered uos 1.06 AvG 7\nLargth_complaroe_t 1.09 1.89 AYG Cergth_conpllnoe erl 1.93 1.06 AVG Length_compdance\n1.eo AYG eo:T N.s- Aoe.nooe-ecuereye] 1.06 Ay3 6\nsnantic_almRerity_svat 6.58 OY ts'o Cwmantic_ emllrity_era 鲁. 3? 0.38 AY3 tmmte_t\n-.1 nca oltt. 02.10 01,696 09.5@3,430 03. 0\nYtSan' Jokes that'Sunil·Pai Texpected_rta qetting'o'hircut Iret:3]'The\"comersation'slso hints't modern Bodhiaharea'avatar (ref:2]f and a. response' about Pw response'e tn AYsunrAirTbiseusion., AThe discussion begsn with's'nention'ot. fono conceptual' petaphor'about' an watar'stoly [ret:lJ,:uhich'quickty'shifted Anto. 0..response\" son\\nfin A\"summaryA\"! conversarlon> Ebout'soncthing I. coaoarlson'ot threcpointore to bodhidhal rmresp. aede.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 2115.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Rachel-Lee Nabors. Qrtdwoo souewans-uopooy seselea @ Lm1-32-36\nmrerater)\nam+-3.2-3b Avd 0 1.35 @ 405.69 Awa' 0 0.41 0 996.93 AvG'0 2.9s D 511.0s $0.01 claude-sonwt-basdr\nyno $iu4p1 55922 05.70 2,160 01.sa c 925 c$+.01\n(they/them)near hsircuts\"! 0 cexpeeted_sum coeparing Sunil: Joking about Y.tPlyful Bodhldharma, expected_refere. bater! Pa1.to! Yeoyoops urorus srushy ue, puly Bodhidharza' avatar, pro=oting sumil'to consider'a haircut; Thrccpolntonc becoees Bodhidharms avatar, proapting sunll to conslder 4 halrcut'snd 'n, Agentic. Shaolin'schoole)\": \"summary\"ilSm Jokingly, suggests,Threepointone becones Fretereaceso0h. Hsasaosns: Abugyof esbWtVurns-Vasuodsader Cison 'ale.trve. \"proept: tokens:278, Ftotal tokens-a:314. coapletion tokens\"l36. Estart ing on Agentic Shaotin Kung-tu schoot. Cgentie, Shaolin Kung-fu schoot. 1-injin' \\\"oiscuss ing' an' avatar, and' start ing 'an' Yreterencen g115. oravresponsejson\\nAnVsuary tsuemsry'., -oiscussiog an avatar., sod! Cson_valial tne T6s2:: susxoy1daoud. coplet 1on tokens\"1,455,) Ctotal_tokensas7it? Bodhhrmh1rcut appearance conparing to Bodhidhana? qthrecpointone's appearansekicoaparirg oiutodesyio snoge Surxoca(ixiemnst \"reterences\"U. ison vaud\":'truen Erav_respoase\". prompttokens.283, Fcoapletioctokens\":31, \"totaletokens\"ti314 waryAJokt\n1.00 AYo 0o'I Naeer eered uos 1.06 AvG 7\nLargth_complaroe_t 1.09 1.89 AYG Cergth_conpllnoe erl 1.93 1.06 AVG Length_compdance\n1.eo AYG eo:T N.s- Aoe.nooe-ecuereye] 1.06 Ay3 6\nsnantic_almRerity_svat 6.58 OY ts'o Cwmantic_ emllrity_era 鲁. 3? 0.38 AY3 tmmte_t\n-.1 nca oltt. 02.10 01,696 09.5@3,430 03. 0\nYtSan' Jokes that'Sunil·Pai Texpected_rta qetting'o'hircut Iret:3]'The\"comersation'slso hints't modern Bodhiaharea'avatar (ref:2]f and a. response' about Pw response'e tn AYsunrAirTbiseusion., AThe discussion begsn with's'nention'ot. fono conceptual' petaphor'about' an watar'stoly [ret:lJ,:uhich'quickty'shifted Anto. 0..response\" son\\nfin A\"summaryA\"! conversarlon> Ebout'soncthing I. coaoarlson'ot threcpointore to bodhidhal rmresp. aede.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

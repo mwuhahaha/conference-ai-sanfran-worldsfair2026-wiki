@@ -16,6 +16,18 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/SbUxRluVRwk/slide-001.jpg]]
 
-- Source scene image: `frame-00004.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `175.92`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/SbUxRluVRwk/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast`.
+- OCR decision: ready — Diagram slide with multiple small labels and footer text; OCR is a better fit than manual transcription.
+
+Slide text:
+
+> A spectrum of companies
+> AIE Technology Company Verticalized Solution or Services Enabled Tech
+> Big Tech, Startup Pa'antir,Wisedocs Big Bank,Large Retaier,SMBs
+> AnatomyofanAl Team Evolutionofa Generalist A Question of hiring
+> WerdsFar aws
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/SbUxRluVRwk/audit.json`

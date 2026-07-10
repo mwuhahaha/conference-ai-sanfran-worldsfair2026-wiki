@@ -1,0 +1,71 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Gemini Live API Demo",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chat/demo UI screenshot with multiple language bubbles and small controls; OCR will be more accurate than manual transcription here.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f3ead6",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Gemini Live API Demo",
+        "x": 9.0,
+        "y": 8.0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Ja, aber können wir auch Deutsch sprechen, bitte?",
+        "x": 57.0,
+        "y": 22.0,
+        "w": 29.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "当然可以没问题。想聊聊什么呢？",
+        "x": 57.0,
+        "y": 39.0,
+        "w": 28.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Ah! Need to find them huh?",
+        "x": 78.0,
+        "y": 53.0,
+        "w": 18.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/cVzf49yg0D8/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667370.0775042,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Gemini Live API Demo",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/border-trim/contrast",
+    "best_score": 517.52,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0284
+  }
+}

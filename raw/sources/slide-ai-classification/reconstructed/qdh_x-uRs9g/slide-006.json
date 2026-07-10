@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "SoIjoined theworld class infrastructure team at:\nSuperlinked github.com/superlinked/sie\nAIE VC - backed Al infrastructure company building the model stack for Al search and document processing\nWorkswithyourfavorite tools\nP：Lanceoe OOC 电adamt WWeovoN\nerginoering simcle.SIEadcs nstructon-folowng rerankors souopepna dueuogeupue modalraning dacasets and wSEyoucan so-host nfeence for M me reqsred deta transformucior' 'Lenceoe ceotralizes muit- scorng feorrg and ranking host bhem al in one chste comoose the best ndeing modes Weh SE you cen ser- 'Mooern serch sytems uniccis nacural language pre-procnss your outny ag soarchandwnSIEyoucan \"Weviee's Query Agene\n011022 ceng See AnoeTanycei lco Van Lo C40400-5\nAI Engineer\nAlEngineer EUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Contains a product screenshot with small text plus multiple embedded labels that are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "So I joined the world class infrastructure team at:",
+        "x": 34.0,
+        "y": 5.0,
+        "w": 50.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "Superlinked",
+        "x": 40.0,
+        "y": 16.0,
+        "w": 22.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "github.com/superlinked/sie",
+        "x": 68.0,
+        "y": 16.0,
+        "w": 23.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "VC-backed AI infrastructure company building the model stack for AI search and document processing",
+        "x": 30.0,
+        "y": 28.0,
+        "w": 45.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Works with your favorite tools",
+        "x": 37.0,
+        "y": 40.0,
+        "w": 27.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/reconstructed-slides/qdh_x-uRs9g/slide-006.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670991.49408,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "SoIjoined theworld class infrastructure team at:\nSuperlinked github.com/superlinked/sie\nAIE VC - backed Al infrastructure company building the model stack for Al search and document processing\nWorkswithyourfavorite tools\nP：Lanceoe OOC 电adamt WWeovoN\nerginoering simcle.SIEadcs nstructon-folowng rerankors souopepna dueuogeupue modalraning dacasets and wSEyoucan so-host nfeence for M me reqsred deta transformucior' 'Lenceoe ceotralizes muit- scorng feorrg and ranking host bhem al in one chste comoose the best ndeing modes Weh SE you cen ser- 'Mooern serch sytems uniccis nacural language pre-procnss your outny ag soarchandwnSIEyoucan \"Weviee's Query Agene\n011022 ceng See AnoeTanycei lco Van Lo C40400-5\nAI Engineer\nAlEngineer EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1042.2
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "SoIjoined theworld class infrastructure team at:\nSuperlinked github.com/superlinked/sie\nAIE VC - backed Al infrastructure company building the model stack for Al search and document processing\nWorkswithyourfavorite tools\nP：Lanceoe OOC 电adamt WWeovoN\nerginoering simcle.SIEadcs nstructon-folowng rerankors souopepna dueuogeupue modalraning dacasets and wSEyoucan so-host nfeence for M me reqsred deta transformucior' 'Lenceoe ceotralizes muit- scorng feorrg and ranking host bhem al in one chste comoose the best ndeing modes Weh SE you cen ser- 'Mooern serch sytems uniccis nacural language pre-procnss your outny ag soarchandwnSIEyoucan \"Weviee's Query Agene\n011022 ceng See AnoeTanycei lco Van Lo C40400-5\nAI Engineer\nAlEngineer EUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

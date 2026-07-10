@@ -1,0 +1,48 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Simplified Loop",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Code slide with multiple lines and small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white slide on dark stage background",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Simplified Loop",
+        "x": 12.0,
+        "y": 9.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 25.0,
+        "y": 22.0,
+        "w": 50.0,
+        "h": 52.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/dense-slides/I2cbIws9j10/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659907.8065581,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Simplified Loop",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

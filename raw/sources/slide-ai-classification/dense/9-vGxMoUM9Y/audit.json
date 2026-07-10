@@ -1,0 +1,1226 @@
+{
+  "video_id": "9-vGxMoUM9Y",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 13,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "About me\nCurrent CEO & Cofounder @ Guardrails AI\nPast ML Infra lead @ MLOps Co,\nML @ Self driving cars,\nClassical AI & Deep learning research",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f2f2f0",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "About me",
+            "x": 3.0,
+            "y": 3.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Current",
+            "x": 31.0,
+            "y": 18.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "CEO & Cofounder @ Guardrails AI",
+            "x": 47.0,
+            "y": 18.0,
+            "w": 38.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Past",
+            "x": 31.0,
+            "y": 30.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "ML Infra lead @ MLOps Co,\nML @ Self driving cars,\nClassical AI & Deep learning research",
+            "x": 47.0,
+            "y": 30.0,
+            "w": 42.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658244.017743,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "About me\nCurrent CEO & Cofounder @ Guardrails AI\nPast ML Infra lead @ MLOps Co,\nML @ Self driving cars,\nClassical AI & Deep learning research",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "We're seeing a cambrian explosion of applications in AI\n\nAuto-GPT May Be The Strong AI Tool That Surpasses ChatGPT\n\nSeriously, software engineering as we have known it is dead in the water.\nThis AI is better than at least 95% of coders. And to the extent it is not, it delivers 1000x productivity improvements to complement them.\n\nWe have now officially entered the Age of AI.\n\nCAN AI TREAT MENTAL ILLNESS?\n\nHow Generative AI Will Change Sales",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-panel screenshot slide with several embedded text blocks and quotes; better suited for OCR than manual transcription in this triage pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#f5f5f3",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "We're seeing a cambrian explosion of applications in AI",
+            "x": 2.0,
+            "y": 2.0,
+            "w": 90.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Auto-GPT May Be The Strong AI Tool That Surpasses ChatGPT",
+            "x": 1.0,
+            "y": 22.0,
+            "w": 28.0,
+            "h": 22.0
+          },
+          {
+            "role": "body",
+            "text": "Seriously, software engineering as we have known it is dead in the water.\n\nThis AI is better than at least 95% of coders. And to the extent it is not, it delivers 1000x productivity improvements to complement them.\n\nWe have now officially entered the Age of AI.",
+            "x": 31.0,
+            "y": 24.0,
+            "w": 54.0,
+            "h": 28.0
+          },
+          {
+            "role": "body",
+            "text": "CAN A.I. TREAT MENTAL ILLNESS?",
+            "x": 12.0,
+            "y": 63.0,
+            "w": 24.0,
+            "h": 12.0
+          },
+          {
+            "role": "body",
+            "text": "How Generative AI Will Change Sales",
+            "x": 45.0,
+            "y": 69.0,
+            "w": 35.0,
+            "h": 14.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658244.018277,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/opencv-adaptive",
+        "text": "We're seeing a cambrian explosion of applications in Al\nAuto-GPT May Be The Strong AI Tool That: Surpasses ChatGPT reroar ptx: delivers 100ox productivity improvements to complement them. Seriously, software engineering as we have known it is dead in the water... This Al is better than at least 95% of coders. And to the extent it is not, it\n+ Wart Cort bvtor o\n: We have now officially entered the Age of Al.\nCANAI TREAT MENTaL ILlness? Save I Il+w Ceoerathe At w it Chgr Salea\nMaepmoG by Prabhskart Srha. Arun Shuxrt, and Saty E. Lorienn Change Sales How Generative AI Wil.",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 837.53
+      },
+      "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+      "ocr_reconcile": {
+        "text": "We're seeing a cambrian explosion of applications in AI\n\nAuto-GPT May Be The Strong AI Tool That Surpasses ChatGPT\n\nSeriously, software engineering as we have known it is dead in the water.\nThis AI is better than at least 95% of coders. And to the extent it is not, it delivers 1000x productivity improvements to complement them.\n\nWe have now officially entered the Age of AI.\n\nCAN AI TREAT MENTAL ILLNESS?\n\nHow Generative AI Will Change Sales",
+        "text_status": "meaningful",
+        "corrections": "Accepted with cleanup of obvious OCR errors; kept only clearly visible text and corrected capitalization/numbers."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The reality\nPath to 100 Million Users\nOne Month Retention\nIncumbents\nAI-First Companies\nSource: https://www.sequoiacap.com/article/generative-ai-act-two/",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart-heavy slide with small labels, source URL, and multiple plotted annotations; OCR is more appropriate than hand transcription here.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#efefed",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The reality",
+            "x": 26.0,
+            "y": 2.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Path to 100 Million Users",
+            "x": 25.0,
+            "y": 17.0,
+            "w": 28.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "One Month Retention",
+            "x": 68.0,
+            "y": 4.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Source: https://www.sequoiacap.com/article/generative-ai-act-two/",
+            "x": 42.0,
+            "y": 93.0,
+            "w": 46.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658342.496437,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/right-72/contrast",
+        "text": "e reality One Month Retention\nIncumberts\nth to 100 MillionUserS\nsnorths 3merta\nA-Firu Companios WnMedian\nA2MedN\nSource:https://www.sequciacap.com/articte/generative·al-act-two/\nAUTOgPt smol",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 278.36
+      },
+      "ocr_source": "rapidocr-live/right-72/contrast",
+      "ocr_reconcile": {
+        "text": "The reality\nPath to 100 Million Users\nOne Month Retention\nIncumbents\nAI-First Companies\nSource: https://www.sequoiacap.com/article/generative-ai-act-two/",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR with light corrections to the visible headings and cleaned the source URL."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "The reality\nPath to 100 Million Users (stylized)\n-2 months   9 months   30 months   41 months   55 months   61 months\nMonths from launch\nOne Month Retention\nIncumbents\nAI-First Companies\n63% Median\n42% Median\nGuardrails AI\nSource: https://www.sequoiacap.com/article/generative-ai-act-two/",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Chart-heavy slide with small labels and source text; OCR is more suitable than direct transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#efefed",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "The reality",
+            "x": 4.0,
+            "y": 2.0,
+            "w": 20.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Path to 100 Million Users",
+            "x": 7.0,
+            "y": 18.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "One Month Retention",
+            "x": 64.0,
+            "y": 4.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Source: https://www.sequoiacap.com/article/generative-ai-act-two/",
+            "x": 40.0,
+            "y": 93.0,
+            "w": 46.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-004.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658413.043653,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "rapidocr-live/full",
+        "text": "Thereality OneMonthRetention\nIncumbents\nB5A\nPathto100MillionUsers (nylizd TKTok\n-2montha 9months 30months\nROBLOX\nSM tinder\nMonthsfromlaunch Al-FirstCompanies ChatGPTO 63%Median\nrurwoy\nLensa\nRemini 35%\n42%Median\nGuardrailsAl Source:https://www.sequoiacap.com/article/generative-ai-act-two/",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 360.96
+      },
+      "ocr_source": "rapidocr-live/full",
+      "ocr_reconcile": {
+        "text": "The reality\nPath to 100 Million Users (stylized)\n-2 months   9 months   30 months   41 months   55 months   61 months\nMonths from launch\nOne Month Retention\nIncumbents\nAI-First Companies\n63% Median\n42% Median\nGuardrails AI\nSource: https://www.sequoiacap.com/article/generative-ai-act-two/",
+        "text_status": "meaningful",
+        "corrections": "OCR corrected for clear title/label spacing and obvious errors; left small chart labels and bar names out where the image was not fully legible."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Alex Graveley\n@alexgraveley\nSimple LLM technique that helps a lot (but you might not be using): add a constraint checker to ensure valid generation. On violation, inject what was generated and the rule violation, and regenerate.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#f2f2f1",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "subtitle",
+            "text": "Alex Graveley",
+            "x": 13.0,
+            "y": 14.0,
+            "w": 26.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "@alexgraveley",
+            "x": 12.0,
+            "y": 23.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Simple LLM technique that helps a lot (but you might not be using): add a constraint checker to ensure valid generation. On violation, inject what was generated and the rule violation, and regenerate.",
+            "x": 4.0,
+            "y": 35.0,
+            "w": 90.0,
+            "h": 24.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-005.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658505.3528666,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Alex Graveley\n@alexgraveley\nSimple LLM technique that helps a lot (but you might not be using): add a constraint checker to ensure valid generation. On violation, inject what was generated and the rule violation, and regenerate.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Guardrails AI acts as a safety firewall around your LLMs",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#edf1ef",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Guardrails AI acts as a safety firewall around your LLMs",
+            "x": 2.0,
+            "y": 2.0,
+            "w": 92.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Application Logic\nStandard\nLLM Logic\nPrompt\nLLM API\nRaw Output",
+            "x": 6.0,
+            "y": 15.0,
+            "w": 27.0,
+            "h": 58.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Application Logic\nGuardrails AI\nLLM Logic\nPrompt\nLLM API\nRaw Output\nVerification Logic\nPass Validation\nFail Validation",
+            "x": 38.0,
+            "y": 14.0,
+            "w": 55.0,
+            "h": 62.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-006.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658505.353538,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Guardrails AI acts as a safety firewall around your LLMs",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.96,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Guardrails AI under-the-hood\n\nCreating a guard\nSelect type of output to validate\nRAIL Spec\nPydantic Model\nString\nLLM Callable\nAdd prompt & instructions\nInitialize guard from spec\nInvoke Guard\n\nCalling a guard\nGuard invokes LLM API\nLLM API Returns\nLLM Output is validated\nInvalid\nValid\nLogs\nReturn output\n\nGuardrails AI",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram slide with many small labels and boxed flows.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Guardrails AI under-the-hood",
+            "x": 4.0,
+            "y": 2.0,
+            "w": 43.0,
+            "h": 8.0
+          },
+          {
+            "role": "caption",
+            "text": "Creating a guard",
+            "x": 3.0,
+            "y": 15.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Select type of output to validate",
+            "x": 4.0,
+            "y": 24.0,
+            "w": 26.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RAIL Spec",
+            "x": 4.0,
+            "y": 32.0,
+            "w": 10.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Pydantic Model",
+            "x": 4.0,
+            "y": 39.0,
+            "w": 14.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "String",
+            "x": 4.0,
+            "y": 46.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLM Callable",
+            "x": 4.0,
+            "y": 58.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Add prompt & instructions",
+            "x": 4.0,
+            "y": 68.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Calling a guard",
+            "x": 46.0,
+            "y": 13.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Guard invokes LLM API",
+            "x": 54.0,
+            "y": 25.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLM API Returns",
+            "x": 54.0,
+            "y": 35.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLM Output is validated",
+            "x": 53.0,
+            "y": 45.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Invalid",
+            "x": 51.0,
+            "y": 57.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Valid",
+            "x": 80.0,
+            "y": 57.0,
+            "w": 8.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Logs",
+            "x": 73.0,
+            "y": 27.0,
+            "w": 8.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Return output",
+            "x": 88.0,
+            "y": 46.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Guardrails AI",
+            "x": 4.0,
+            "y": 90.0,
+            "w": 10.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-007.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658626.611043,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Guardrails AI under-the-hood",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Guardrails Al under-the-hood\nGnore\nCreatna buord Seeet tyee of output to whdate RAIL Spee yionte Mode Tatobze Gard Frenyec Iwrke Guar LLN Ots sxow.pevig ULMAI wahaated LLAAI Retuws Retum outeut\nLaCallale vabr\nAld proet L hstnvetons e\n? Guardrails Al",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 439.72
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Guardrails AI under-the-hood\n\nCreating a guard\nSelect type of output to validate\nRAIL Spec\nPydantic Model\nString\nLLM Callable\nAdd prompt & instructions\nInitialize guard from spec\nInvoke Guard\n\nCalling a guard\nGuard invokes LLM API\nLLM API Returns\nLLM Output is validated\nInvalid\nValid\nLogs\nReturn output\n\nGuardrails AI",
+        "text_status": "meaningful",
+        "corrections": "Accepted OCR shape, corrected obvious errors like Al→AI and cleaned the diagram labels visible in the slide."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-007.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What Guardrails AI does\nGuardrails AI is a fully open source library that offers\nFramework for creating custom validators\nOrchestration of prompting → verification → re-prompting\nLibrary of commonly used validators for multiple use cases\nSpecification language for communicating requirements to LLM",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What Guardrails AI does",
+            "x": 5.0,
+            "y": 3.0,
+            "w": 42.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Guardrails AI is a fully open source library that offers",
+            "x": 5.0,
+            "y": 24.0,
+            "w": 55.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Framework for creating custom validators",
+            "x": 8.0,
+            "y": 37.0,
+            "w": 55.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Orchestration of prompting → verification → re-prompting",
+            "x": 8.0,
+            "y": 48.0,
+            "w": 64.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Library of commonly used validators for multiple use cases",
+            "x": 8.0,
+            "y": 60.0,
+            "w": 66.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Specification language for communicating requirements to LLM",
+            "x": 8.0,
+            "y": 72.0,
+            "w": 70.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "Guardrails AI",
+            "x": 5.0,
+            "y": 90.0,
+            "w": 10.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-008.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658699.4017231,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What Guardrails AI does\nGuardrails AI is a fully open source library that offers\nFramework for creating custom validators\nOrchestration of prompting → verification → re-prompting\nLibrary of commonly used validators for multiple use cases\nSpecification language for communicating requirements to LLM",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.92,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "What Guardrails AI does\nGuardrails AI is a fully open source library that offers\nFramework for creating custom validators\nOrchestration of prompting → verification → re-prompting\nLibrary of commonly used validators for multiple use cases\nSpecification language for communicating requirements to LLM",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black stage with white slide",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "What Guardrails AI does",
+            "x": 18.0,
+            "y": 3.0,
+            "w": 36.0,
+            "h": 9.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Guardrails AI is a fully open source library that offers",
+            "x": 19.0,
+            "y": 23.0,
+            "w": 53.0,
+            "h": 8.0
+          },
+          {
+            "role": "body",
+            "text": "Framework for creating custom validators",
+            "x": 20.0,
+            "y": 35.0,
+            "w": 52.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Orchestration of prompting → verification → re-prompting",
+            "x": 20.0,
+            "y": 47.0,
+            "w": 61.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Library of commonly used validators for multiple use cases",
+            "x": 20.0,
+            "y": 59.0,
+            "w": 64.0,
+            "h": 7.0
+          },
+          {
+            "role": "body",
+            "text": "Specification language for communicating requirements to LLM",
+            "x": 20.0,
+            "y": 71.0,
+            "w": 68.0,
+            "h": 7.0
+          },
+          {
+            "role": "logo",
+            "text": "Guardrails AI",
+            "x": 19.0,
+            "y": 90.0,
+            "w": 10.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-009.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658699.4039562,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What Guardrails AI does\nGuardrails AI is a fully open source library that offers\nFramework for creating custom validators\nOrchestration of prompting → verification → re-prompting\nLibrary of commonly used validators for multiple use cases\nSpecification language for communicating requirements to LLM",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "How do I prevent LLM hallucinations?\nProvenance Guardrails\nEvery LLM utterance should have a source of truth.",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "How do I prevent LLM hallucinations?",
+            "x": 5.0,
+            "y": 2.0,
+            "w": 62.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLM",
+            "x": 6.0,
+            "y": 53.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "HALLUCINATIONS",
+            "x": 18.0,
+            "y": 29.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "PROVENANCE GUARDRAILS",
+            "x": 7.0,
+            "y": 72.0,
+            "w": 24.0,
+            "h": 7.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Provenance Guardrails",
+            "x": 41.0,
+            "y": 35.0,
+            "w": 29.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Every LLM utterance should have a source of truth.",
+            "x": 41.0,
+            "y": 48.0,
+            "w": 45.0,
+            "h": 16.0
+          },
+          {
+            "role": "caption",
+            "text": "https://docs.guardrailsai.com/api_reference/validators/#guardrails.validators.ProvenanceV1",
+            "x": 41.0,
+            "y": 87.0,
+            "w": 46.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Guardrails AI",
+            "x": 5.0,
+            "y": 90.0,
+            "w": 10.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-010.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658699.405363,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "How do I prevent LLM hallucinations?\nProvenance Guardrails\nEvery LLM utterance should have a source of truth.",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Example: Validating \"correctness\"\nApplication Logic\nGuardrails AI\nLLM Logic\nPrompt\nLLM API\nRaw Output\nReconstruct Prompt\nFail Validation\nVerification Logic\nPass Validation\nHow do I change my password?\nRaw Output\n1. Log into your account.\n2. Go to user settings by clicking on the top left corner.\n3. Click change password.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Diagram and example output are small and better suited for OCR than manual transcription.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "light gray",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Example: Validating “correctness”",
+            "x": 5.0,
+            "y": 3.0,
+            "w": 48.0,
+            "h": 9.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Application Logic",
+            "x": 5.0,
+            "y": 12.0,
+            "w": 16.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLM Logic",
+            "x": 8.0,
+            "y": 24.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Prompt",
+            "x": 12.0,
+            "y": 29.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LLM API",
+            "x": 12.0,
+            "y": 46.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Raw Output",
+            "x": 12.0,
+            "y": 63.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Verification Logic",
+            "x": 27.0,
+            "y": 54.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Provenance",
+            "x": 31.0,
+            "y": 61.0,
+            "w": 10.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Profanity",
+            "x": 36.0,
+            "y": 57.0,
+            "w": 9.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Peer Instructions",
+            "x": 39.0,
+            "y": 61.0,
+            "w": 15.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "How do I change my password?",
+            "x": 53.0,
+            "y": 23.0,
+            "w": 32.0,
+            "h": 8.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Raw LLM Output",
+            "x": 67.0,
+            "y": 43.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "1. Log into your account.",
+            "x": 64.0,
+            "y": 54.0,
+            "w": 22.0,
+            "h": 4.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "2. Go to user settings by clicking on the top left corner.",
+            "x": 63.0,
+            "y": 59.0,
+            "w": 28.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "3. Click change password.",
+            "x": 64.0,
+            "y": 68.0,
+            "w": 21.0,
+            "h": 4.0
+          },
+          {
+            "role": "logo",
+            "text": "Guardrails AI",
+            "x": 5.0,
+            "y": 90.0,
+            "w": 10.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-011.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658699.4065702,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "advanced_ocr_reconciled",
+      "vision_text": "Example: Validating “correctness”",
+      "advanced_ocr": {
+        "source": "rapidocr-live/bright-screen/contrast",
+        "text": "Example: Validating \"correctness\"\nApplication Logic\nGuardrailsAl\nLLMLogic How do I change my password?\nPrompl RecoestruetPrempt-\nFail Validatlon RawLLM Output\nVeriication Logic 2.Go to user settings by 1.Log into your account. clicking on the top left\nRawOuput 3.Click change password. corner.\nPass Validation\nGuardrallsAl",
+        "status": {
+          "rapidocr": "ready"
+        },
+        "errors": {},
+        "best_score": 487.92
+      },
+      "ocr_source": "rapidocr-live/bright-screen/contrast",
+      "ocr_reconcile": {
+        "text": "Example: Validating \"correctness\"\nApplication Logic\nGuardrails AI\nLLM Logic\nPrompt\nLLM API\nRaw Output\nReconstruct Prompt\nFail Validation\nVerification Logic\nPass Validation\nHow do I change my password?\nRaw Output\n1. Log into your account.\n2. Go to user settings by clicking on the top left corner.\n3. Click change password.",
+        "text_status": "meaningful",
+        "corrections": "Accepted the slide text with obvious OCR fixes and line breaks; omitted a few small diagram labels that were not fully legible."
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-011.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "More examples of validations\nMake sure my code is executable\nNever give financial or healthcare advice\nDon’t ask private questions\nDon’t mention competitors\nEnsure each sentence is from a verified source and is accurate\nNo profanity is mentioned in text\nPrompt injection protection\nNever expose prompt or sources",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "light gray",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "More examples of validations",
+            "x": 5.0,
+            "y": 3.0,
+            "w": 46.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Make sure my code is executable",
+            "x": 6.0,
+            "y": 23.0,
+            "w": 44.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Never give financial or healthcare advice",
+            "x": 6.0,
+            "y": 31.0,
+            "w": 54.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Don’t ask private questions",
+            "x": 6.0,
+            "y": 39.0,
+            "w": 36.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Don’t mention competitors",
+            "x": 6.0,
+            "y": 47.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Ensure each sentence is from a verified source and is accurate",
+            "x": 6.0,
+            "y": 55.0,
+            "w": 72.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "No profanity is mentioned in text",
+            "x": 6.0,
+            "y": 63.0,
+            "w": 44.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Prompt injection protection",
+            "x": 6.0,
+            "y": 71.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Never expose prompt or sources",
+            "x": 6.0,
+            "y": 79.0,
+            "w": 40.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Guardrails AI",
+            "x": 5.0,
+            "y": 90.0,
+            "w": 10.0,
+            "h": 4.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-012.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-012.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658766.5252385,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "More examples of validations\nMake sure my code is executable\nNever give financial or healthcare advice\nDon’t ask private questions\nDon’t mention competitors\nEnsure each sentence is from a verified source and is accurate\nNo profanity is mentioned in text\nPrompt injection protection\nNever expose prompt or sources",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-012.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Learn more\nGithub: github.com/ShreyaR/guardrails\nWebsite: guardrailsai.com\nTwitter: @ShreyaR or @guardrails_ai",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#f2f2f2 with faint light-gray watermark circle on right",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Learn more",
+            "x": 6.0,
+            "y": 2.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "Github: github.com/ShreyaR/guardrails",
+            "x": 5.0,
+            "y": 16.0,
+            "w": 49.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Website: guardrailsai.com",
+            "x": 5.0,
+            "y": 28.0,
+            "w": 38.0,
+            "h": 9.0
+          },
+          {
+            "role": "body",
+            "text": "Twitter: @ShreyaR or @guardrails_ai",
+            "x": 5.0,
+            "y": 40.0,
+            "w": 56.0,
+            "h": 9.0
+          },
+          {
+            "role": "logo",
+            "text": "Guardrails AI",
+            "x": 4.0,
+            "y": 88.0,
+            "w": 12.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-013.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/9-vGxMoUM9Y/slide-013.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783658793.1166832,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Learn more\nGithub: github.com/ShreyaR/guardrails\nWebsite: guardrailsai.com\nTwitter: @ShreyaR or @guardrails_ai",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/9-vGxMoUM9Y/slide-013.html"
+    }
+  ],
+  "rejected": []
+}

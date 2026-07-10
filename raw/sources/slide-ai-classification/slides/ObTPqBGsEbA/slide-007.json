@@ -1,0 +1,154 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Databricks Data Intelligence Platforn\nDissster recovery 100%serverless Cost controls Enterprise security\nAIE Artinicial inteigence Mosaic Al Databricks SQL Data warchoushg Workflows/SDP IngesETL streamng e Business intelgonce AI/81\nLakehouse\nUnity Catalog\nAlEngin DELTA LAKE ICEBERG Parquet\nAEngineer AI Engineer\n2028 EUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense architecture diagram with many small labels and stacked elements.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Databricks Data Intelligence Platform",
+        "x": 27.0,
+        "y": 5.0,
+        "w": 56.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "100% serverless",
+        "x": 44.0,
+        "y": 19.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Disaster recovery",
+        "x": 36.0,
+        "y": 22.0,
+        "w": 14.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Cost controls",
+        "x": 51.0,
+        "y": 22.0,
+        "w": 11.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Enterprise security",
+        "x": 68.0,
+        "y": 22.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Mosaic AI",
+        "x": 31.0,
+        "y": 34.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Databricks SQL",
+        "x": 48.0,
+        "y": 29.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Workflows/SDP",
+        "x": 64.0,
+        "y": 29.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "AI/BI",
+        "x": 83.0,
+        "y": 34.0,
+        "w": 7.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Lakehouse",
+        "x": 43.0,
+        "y": 52.0,
+        "w": 23.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Unity Catalog",
+        "x": 39.0,
+        "y": 63.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "DELTA LAKE",
+        "x": 35.0,
+        "y": 76.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ICEBERG",
+        "x": 53.0,
+        "y": 76.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Parquet",
+        "x": 67.0,
+        "y": 76.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/ObTPqBGsEbA/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662913.9178941,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/contrast",
+    "text": "Databricks Data Intelligence Platforn\nDissster recovery 100%serverless Cost controls Enterprise security\nAIE Artinicial inteigence Mosaic Al Databricks SQL Data warchoushg Workflows/SDP IngesETL streamng e Business intelgonce AI/81\nLakehouse\nUnity Catalog\nAlEngin DELTA LAKE ICEBERG Parquet\nAEngineer AI Engineer\n2028 EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 482.76
+  },
+  "ocr_source": "rapidocr-live/center-82/contrast",
+  "ocr_reconcile": {
+    "text": "Databricks Data Intelligence Platforn\nDissster recovery 100%serverless Cost controls Enterprise security\nAIE Artinicial inteigence Mosaic Al Databricks SQL Data warchoushg Workflows/SDP IngesETL streamng e Business intelgonce AI/81\nLakehouse\nUnity Catalog\nAlEngin DELTA LAKE ICEBERG Parquet\nAEngineer AI Engineer\n2028 EUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

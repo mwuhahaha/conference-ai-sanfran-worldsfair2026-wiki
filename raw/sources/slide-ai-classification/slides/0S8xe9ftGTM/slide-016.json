@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Thematic\nFocuses\n\nFor\n\nAI Leadership\n\nAI Architects: Show my Workflow\nWatch AI architects from Qodo, Docker, and Hugging Face\nopen up their real production stacks-agent runtimes, eval\npipelines, and code review you can actually trust-while\nengineers from The Browser Company show how they\nautomate their own jobs end-to-end.\n\nAI Architects: Tokenmaxxing\nWhen tokens become the new lines of code, the metrics\nchange too. Microsoft, Jellyfish, and Arize AI weigh in on\nagents refactoring real codebases, the death of the code\nreview, and whether engineers should still read code at all.\n\nAI Architects: AI Factories\nHow production AI systems actually get built-and paid for:\ntoken-spend FinOps and agent budgets from Microsoft and\nAnthropic, model routing across teams, and the infrastructure\nlayer where Venrock argues the AI race is really won or lost.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Multi-column slide with small body text in dark panels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Thematic\nFocuses\nFor\nAI Leadership",
+        "x": 18.0,
+        "y": 21.0,
+        "w": 18.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "AI Architects: Show my Workflow",
+        "x": 43.0,
+        "y": 11.0,
+        "w": 35.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "AI Architects: Tokenmaxxing",
+        "x": 43.0,
+        "y": 35.0,
+        "w": 35.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "AI Architects: AI Factories",
+        "x": 43.0,
+        "y": 59.0,
+        "w": 35.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/slides/0S8xe9ftGTM/slide-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783656600.861148,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "Thematic Focuses For AI Leadership",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "totion\ntuogt,v p+ioo\nAl Architocts: Show my Workflow Whreh Al dxchrnects fon Oodo Duckcr and Huagrg Far?\nopcn up t:en rca producton slacks Jgcnl auatmcs Cval\nThematic For Focuses Al Leadership Al Architects: Tokenmaxxing Tau doy Mous Aurduao jhsnoa su1 do ghou bun duRomate tcr own jous end to cnd B 1e sDo2 peoJr1s pnous sh5ubuo furoum put MaAo1 Whentokens become the hem dies of coce the melics changc loo Mcroso! Jelyhsh and Anzr Al wcsh n on agentstelactorngreat codebasesthe deahhcl the code\nAl Architccts: AlFactorios\ntoken spend FinOos and agent budgeis fron Microsoft and How producicn Al systems aclusly get buiR ard paid for bnpnrsegur tun pue surea) ssoise 6unnor apow sidourl? Jygr Where Vearoct Jigues Ge A!rure sreany won or los9",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1236.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Thematic\nFocuses\n\nFor\n\nAI Leadership\n\nAI Architects: Show my Workflow\nWatch AI architects from Qodo, Docker, and Hugging Face\nopen up their real production stacks-agent runtimes, eval\npipelines, and code review you can actually trust-while\nengineers from The Browser Company show how they\nautomate their own jobs end-to-end.\n\nAI Architects: Tokenmaxxing\nWhen tokens become the new lines of code, the metrics\nchange too. Microsoft, Jellyfish, and Arize AI weigh in on\nagents refactoring real codebases, the death of the code\nreview, and whether engineers should still read code at all.\n\nAI Architects: AI Factories\nHow production AI systems actually get built-and paid for:\ntoken-spend FinOps and agent budgets from Microsoft and\nAnthropic, model routing across teams, and the infrastructure\nlayer where Venrock argues the AI race is really won or lost.",
+    "text_status": "meaningful",
+    "corrections": "OCR was corrected against the image; titles and body text were cleaned up with only obvious fixes."
+  }
+}

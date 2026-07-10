@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Hand Looms In Cottages\nCentralized Large Mills\nCraftsmen are Factory Workers",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Short quote-style slide; direct read is sufficient.",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#f7f4ee",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Hand Looms In Cottages",
+        "x": 47.0,
+        "y": 31.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Centralized Large Mills",
+        "x": 47.0,
+        "y": 39.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Craftsmen are Factory Workers",
+        "x": 46.0,
+        "y": 47.0,
+        "w": 29.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/pmoDeA3RBZY/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670672.4671445,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Hand Looms In Cottages\nCentralized Large Mills\nCraftsmen are Factory Workers",
+  "advanced_ocr": {}
+}

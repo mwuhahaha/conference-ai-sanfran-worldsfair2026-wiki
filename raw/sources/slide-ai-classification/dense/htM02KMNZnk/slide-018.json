@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agents keep failing at the same tasks.\nGartner's 2025 AI deployment survey found that 85% of AI projects fail in production. McKinsey's 2025 State of AI report found that fewer than 20% of AI pilots scale to production within 18 months.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Agents keep failing at the same tasks.",
+        "x": 15.0,
+        "y": 41.0,
+        "w": 66.0,
+        "h": 12.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Gartner's 2025 AI deployment survey found that 85% of AI projects fail in production. McKinsey's 2025 State of AI report found that fewer than 20% of AI pilots scale to production within 18 months.",
+        "x": 13.0,
+        "y": 55.0,
+        "w": 74.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/dense-slides/htM02KMNZnk/slide-018.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669130.4658663,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Agents keep failing at the same tasks.\nGartner's 2025 AI deployment survey found that 85% of AI projects fail in production. McKinsey's 2025 State of AI report found that fewer than 20% of AI pilots scale to production within 18 months.",
+  "advanced_ocr": {}
+}

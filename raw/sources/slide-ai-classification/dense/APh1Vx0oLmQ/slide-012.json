@@ -1,130 +1,136 @@
 {
   "is_content_slide": true,
-  "confidence": 0.98,
+  "confidence": 0.99,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "The Reliability Rosetta Stone.\nDistributed Systems Pattern\nCircuit Breakers\nRate Limiting\nRetries\nQuotas\nObservability\nAgent Equivalent\nTool Isolation\nAgent Limits\nControlled Recovery\nCost Governance\nAgent Tracing\n[ANALYSIS: RELIABILITY MAPPING]",
+  "text": "The Reliability Rosetta Stone.",
   "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Table-like mapping slide with multiple rows and small relational labels; OCR will capture the pairings more reliably than manual transcription here.",
+  "direct_read_ready": false,
+  "text_density": "high",
   "layout": {
-    "background": "#f2efe9",
+    "background": "light beige white with comparison table",
     "style": "diagram",
     "blocks": [
       {
         "role": "title",
         "text": "The Reliability Rosetta Stone.",
-        "x": 5.0,
+        "x": 4.0,
         "y": 1.0,
-        "w": 60.0,
-        "h": 8.0
+        "w": 46.0,
+        "h": 12.0
       },
       {
         "role": "subtitle",
         "text": "Distributed Systems Pattern",
-        "x": 9.0,
-        "y": 14.0,
+        "x": 7.0,
+        "y": 16.0,
         "w": 34.0,
-        "h": 6.0
+        "h": 8.0
       },
       {
         "role": "subtitle",
         "text": "Agent Equivalent",
-        "x": 56.0,
-        "y": 14.0,
-        "w": 35.0,
-        "h": 6.0
+        "x": 57.0,
+        "y": 16.0,
+        "w": 31.0,
+        "h": 8.0
       },
       {
         "role": "body",
         "text": "Circuit Breakers",
-        "x": 10.0,
-        "y": 24.0,
-        "w": 32.0,
+        "x": 11.0,
+        "y": 28.0,
+        "w": 23.0,
         "h": 8.0
       },
       {
         "role": "body",
         "text": "Tool Isolation",
-        "x": 57.0,
-        "y": 24.0,
-        "w": 31.0,
-        "h": 8.0
-      },
-      {
-        "role": "body",
-        "text": "Rate Limiting",
-        "x": 10.0,
-        "y": 36.0,
-        "w": 30.0,
-        "h": 8.0
-      },
-      {
-        "role": "body",
-        "text": "Agent Limits",
-        "x": 57.0,
-        "y": 36.0,
-        "w": 27.0,
-        "h": 8.0
-      },
-      {
-        "role": "body",
-        "text": "Retries",
-        "x": 10.0,
-        "y": 48.0,
+        "x": 60.0,
+        "y": 28.0,
         "w": 20.0,
         "h": 8.0
       },
       {
         "role": "body",
-        "text": "Controlled Recovery",
-        "x": 57.0,
-        "y": 48.0,
-        "w": 37.0,
+        "text": "Rate Limiting",
+        "x": 11.0,
+        "y": 42.0,
+        "w": 20.0,
         "h": 8.0
       },
       {
         "role": "body",
-        "text": "Quotas",
-        "x": 10.0,
-        "y": 60.0,
+        "text": "Agent Limits",
+        "x": 60.0,
+        "y": 42.0,
         "w": 18.0,
         "h": 8.0
       },
       {
         "role": "body",
+        "text": "Retries",
+        "x": 11.0,
+        "y": 56.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Controlled Recovery",
+        "x": 60.0,
+        "y": 56.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Quotas",
+        "x": 11.0,
+        "y": 71.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
         "text": "Cost Governance",
-        "x": 57.0,
-        "y": 60.0,
-        "w": 31.0,
+        "x": 60.0,
+        "y": 71.0,
+        "w": 22.0,
         "h": 8.0
       },
       {
         "role": "body",
         "text": "Observability",
-        "x": 10.0,
-        "y": 72.0,
-        "w": 28.0,
+        "x": 11.0,
+        "y": 85.0,
+        "w": 20.0,
         "h": 8.0
       },
       {
         "role": "body",
         "text": "Agent Tracing",
-        "x": 57.0,
-        "y": 72.0,
-        "w": 28.0,
+        "x": 60.0,
+        "y": 85.0,
+        "w": 20.0,
         "h": 8.0
-      },
-      {
-        "role": "caption",
-        "text": "[ANALYSIS: RELIABILITY MAPPING]",
-        "x": 4.0,
-        "y": 92.0,
-        "w": 34.0,
-        "h": 5.0
       }
     ]
   },
+  "image_index": 4,
+  "filename": "slide-012.jpg",
   "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-012.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783647030.5794985
+  "classified_at_epoch": 1783658617.9615817,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Reliability Rosetta Stone.",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

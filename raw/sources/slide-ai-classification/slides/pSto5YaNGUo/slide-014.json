@@ -1,0 +1,95 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot with prompt text, metrics, and nested panels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "near-black gradient",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Deep-read coverage — trace-hungry escalation telemetry",
+        "x": 11.0,
+        "y": 64.0,
+        "w": 58.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "54s",
+        "x": 14.0,
+        "y": 50.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "127s",
+        "x": 24.0,
+        "y": 50.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "365s",
+        "x": 34.0,
+        "y": 50.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "$156.74",
+        "x": 43.0,
+        "y": 50.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "1,946",
+        "x": 53.0,
+        "y": 50.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "0",
+        "x": 63.0,
+        "y": 50.0,
+        "w": 4.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/slides/pSto5YaNGUo/slide-014.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671035.7040167,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/center-82/contrast",
+    "best_score": 1175.04,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0008
+  }
+}

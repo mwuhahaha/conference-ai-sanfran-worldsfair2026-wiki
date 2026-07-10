@@ -1,0 +1,614 @@
+{
+  "video_id": "65X0pQ6Lmbg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 10,
+  "rejected_count": 1,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Voice In, Visuals Out\nThe Agony and the Ecstasy",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#0f1d16",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 13.0,
+            "w": 14.0,
+            "h": 13.0
+          },
+          {
+            "role": "title",
+            "text": "Voice In, Visuals Out",
+            "x": 30.0,
+            "y": 18.0,
+            "w": 63.0,
+            "h": 16.0
+          },
+          {
+            "role": "subtitle",
+            "text": "The Agony and the Ecstasy",
+            "x": 40.0,
+            "y": 33.0,
+            "w": 38.0,
+            "h": 10.0
+          },
+          {
+            "role": "caption",
+            "text": "Allen Pike, Forestwalk Labs\nAI Engineering WF, 2026",
+            "x": 28.0,
+            "y": 80.0,
+            "w": 28.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/65X0pQ6Lmbg/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657736.3123515,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Voice In, Visuals Out\nThe Agony and the Ecstasy",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "“Audio is the human-preferred input to AIs, but vision is the preferred output from them.”\n— Andrej Karpathy, May 2026",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "#101010",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 13.0,
+            "w": 14.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "“Audio is the human-preferred input to AIs, but vision is the preferred output from them.”",
+            "x": 36.0,
+            "y": 17.0,
+            "w": 55.0,
+            "h": 36.0
+          },
+          {
+            "role": "caption",
+            "text": "— Andrej Karpathy, May 2026",
+            "x": 70.0,
+            "y": 57.0,
+            "w": 20.0,
+            "h": 7.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/65X0pQ6Lmbg/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657736.321119,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "“Audio is the human-preferred input to AIs, but vision is the preferred output from them.”\n— Andrej Karpathy, May 2026",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Visualization\nInteractivity",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram and UI screenshot text are better handled by OCR; only short obvious labels are captured here.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#122117",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 13.0,
+            "w": 14.0,
+            "h": 13.0
+          },
+          {
+            "role": "diagram",
+            "text": "Visualization",
+            "x": 29.0,
+            "y": 12.0,
+            "w": 24.0,
+            "h": 70.0
+          },
+          {
+            "role": "diagram",
+            "text": "Interactivity",
+            "x": 54.0,
+            "y": 11.0,
+            "w": 27.0,
+            "h": 71.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/65X0pQ6Lmbg/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657736.321708,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Visualization\nInteractivity",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Visualization\nInteractivity\nBeauty",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense diagram/UI content with small labels is OCR-suitable; only the short visible labels are captured here.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#122117",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 13.0,
+            "w": 14.0,
+            "h": 13.0
+          },
+          {
+            "role": "diagram",
+            "text": "Visualization",
+            "x": 29.0,
+            "y": 12.0,
+            "w": 24.0,
+            "h": 70.0
+          },
+          {
+            "role": "diagram",
+            "text": "Interactivity",
+            "x": 54.0,
+            "y": 11.0,
+            "w": 27.0,
+            "h": 71.0
+          },
+          {
+            "role": "diagram",
+            "text": "Beauty",
+            "x": 81.0,
+            "y": 11.0,
+            "w": 18.0,
+            "h": 71.0
+          }
+        ]
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/65X0pQ6Lmbg/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657736.3222294,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Visualization\nInteractivity\nBeauty",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-004.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "Voice In",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#0d1620",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 13.0,
+            "w": 14.0,
+            "h": 13.0
+          },
+          {
+            "role": "title",
+            "text": "Voice In",
+            "x": 50.0,
+            "y": 33.0,
+            "w": 18.0,
+            "h": 18.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/65X0pQ6Lmbg/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657736.322817,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Voice In",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.94,
+      "frame_type": "demo_video",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "illegible",
+      "ocr_ready": true,
+      "ocr_reason": "The slide is a row of video thumbnails with small captions and view counts; OCR is better suited than manual transcription in this pass.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#ffffff",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 13.0,
+            "w": 14.0,
+            "h": 13.0
+          },
+          {
+            "role": "body",
+            "text": "video thumbnails",
+            "x": 27.0,
+            "y": 18.0,
+            "w": 70.0,
+            "h": 52.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/65X0pQ6Lmbg/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657736.3264198,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "The Tyranny of Latency",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "#132117",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 13.0,
+            "w": 14.0,
+            "h": 13.0
+          },
+          {
+            "role": "title",
+            "text": "The Tyranny of Latency",
+            "x": 30.0,
+            "y": 17.0,
+            "w": 60.0,
+            "h": 25.0
+          }
+        ]
+      },
+      "image_index": 8,
+      "filename": "slide-008.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/65X0pQ6Lmbg/slide-008.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657736.3276696,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "The Tyranny of Latency",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-008.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "200ms seamless voice\n100ms feels instant",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Low-text diagram slide with small labels; direct reading is enough.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(90deg, #000 0 27%, #0f2418 27% 100%)",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 23.0,
+            "w": 14.0,
+            "h": 21.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "200ms seamless voice",
+            "x": 34.0,
+            "y": 27.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "100ms feels instant",
+            "x": 28.0,
+            "y": 47.0,
+            "w": 15.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-009.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/65X0pQ6Lmbg/slide-009.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657801.2181094,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "200ms seamless voice\n100ms feels instant",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-009.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Pillars of low latency\n1 Fast models",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title slide with one large callout; direct reading is enough.",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "linear-gradient(90deg, #000 0 27%, #0f2418 27% 100%)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 23.0,
+            "w": 14.0,
+            "h": 21.0
+          },
+          {
+            "role": "title",
+            "text": "Pillars of low latency",
+            "x": 36.0,
+            "y": 15.0,
+            "w": 52.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "1 Fast models",
+            "x": 29.0,
+            "y": 34.0,
+            "w": 22.0,
+            "h": 34.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-010.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/65X0pQ6Lmbg/slide-010.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657801.2227466,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Pillars of low latency\n1 Fast models",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-010.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.99,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Pillars of low latency\n1 Fast models\n2 Short intervals\n3 Stable cache",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Simple title slide with three large callouts; direct reading is enough.",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "linear-gradient(90deg, #000 0 27%, #0f2418 27% 100%)",
+        "style": "minimal",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 6.0,
+            "y": 23.0,
+            "w": 14.0,
+            "h": 21.0
+          },
+          {
+            "role": "title",
+            "text": "Pillars of low latency",
+            "x": 36.0,
+            "y": 15.0,
+            "w": 52.0,
+            "h": 15.0
+          },
+          {
+            "role": "body",
+            "text": "1 Fast models",
+            "x": 29.0,
+            "y": 34.0,
+            "w": 22.0,
+            "h": 34.0
+          },
+          {
+            "role": "body",
+            "text": "2 Short intervals",
+            "x": 52.0,
+            "y": 34.0,
+            "w": 23.0,
+            "h": 34.0
+          },
+          {
+            "role": "body",
+            "text": "3 Stable cache",
+            "x": 77.0,
+            "y": 34.0,
+            "w": 22.0,
+            "h": 34.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-011.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/65X0pQ6Lmbg/slide-011.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657801.2235978,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Pillars of low latency\n1 Fast models\n2 Short intervals\n3 Stable cache",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/65X0pQ6Lmbg/slide-011.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "sponsor_logo",
+      "reject_reason": "logo-only branding frame with no substantive slide content",
+      "text": "",
+      "text_status": "decorative",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "#132117",
+        "style": "dark",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "Google Meet",
+            "x": 53.0,
+            "y": 17.0,
+            "w": 19.0,
+            "h": 38.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/65X0pQ6Lmbg/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783657736.3271115,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

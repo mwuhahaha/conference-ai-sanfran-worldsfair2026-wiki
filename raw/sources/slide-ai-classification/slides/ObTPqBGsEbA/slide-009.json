@@ -1,0 +1,210 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "databricks\nAgent Breks rteilgerce A1/BI Agentrc business Secue data snd Al sppy Custom Apps And more.\n★ + ★ AIE? Reasoning Agents Contextual Developer Platform Agent Platform Al Governance\nKnowicdge Assistant Agcnt Orchostration Agcnt/Skill/McP Rogistry\nSupervisor Agont Runtimo AlGatcway\nDocumonts Agent Memory Agont Observability\nAlFunctions Copacity Modol 0 Gemn Al Managed OAuth Apps\nFAEngk\nAEngrak AI Engineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense platform architecture slide with many small labels and nested sections.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "databricks",
+        "x": 49.0,
+        "y": 4.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Agent Bricks",
+        "x": 31.0,
+        "y": 16.0,
+        "w": 13.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "AI/BI",
+        "x": 49.0,
+        "y": 16.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Custom Apps",
+        "x": 67.0,
+        "y": 16.0,
+        "w": 11.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "And more...",
+        "x": 87.0,
+        "y": 16.0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Agent Platform",
+        "x": 43.0,
+        "y": 35.0,
+        "w": 23.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Contextual Reasoning Agents",
+        "x": 28.0,
+        "y": 42.0,
+        "w": 21.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Developer Platform",
+        "x": 52.0,
+        "y": 42.0,
+        "w": 17.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "AI Governance",
+        "x": 74.0,
+        "y": 42.0,
+        "w": 13.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Knowledge Assistant",
+        "x": 35.0,
+        "y": 52.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Supervisor Agent",
+        "x": 36.0,
+        "y": 60.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Documents Agent",
+        "x": 36.0,
+        "y": 68.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "AI Functions",
+        "x": 38.0,
+        "y": 76.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Agent Orchestration",
+        "x": 57.0,
+        "y": 52.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Runtime",
+        "x": 60.0,
+        "y": 60.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Memory",
+        "x": 60.0,
+        "y": 68.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Model Capacity",
+        "x": 59.0,
+        "y": 76.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Agent/Skill/MCP Registry",
+        "x": 75.0,
+        "y": 52.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "AI Gateway",
+        "x": 78.0,
+        "y": 60.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Agent Observability",
+        "x": 77.0,
+        "y": 68.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Managed OAuth Apps",
+        "x": 77.0,
+        "y": 76.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/ObTPqBGsEbA/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662956.8009043,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "databricks\nAgent Breks rteilgerce A1/BI Agentrc business Secue data snd Al sppy Custom Apps And more.\n★ + ★ AIE? Reasoning Agents Contextual Developer Platform Agent Platform Al Governance\nKnowicdge Assistant Agcnt Orchostration Agcnt/Skill/McP Rogistry\nSupervisor Agont Runtimo AlGatcway\nDocumonts Agent Memory Agont Observability\nAlFunctions Copacity Modol 0 Gemn Al Managed OAuth Apps\nFAEngk\nAEngrak AI Engineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 640.48
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "databricks\nAgent Breks rteilgerce A1/BI Agentrc business Secue data snd Al sppy Custom Apps And more.\n★ + ★ AIE? Reasoning Agents Contextual Developer Platform Agent Platform Al Governance\nKnowicdge Assistant Agcnt Orchostration Agcnt/Skill/McP Rogistry\nSupervisor Agont Runtimo AlGatcway\nDocumonts Agent Memory Agont Observability\nAlFunctions Copacity Modol 0 Gemn Al Managed OAuth Apps\nFAEngk\nAEngrak AI Engineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

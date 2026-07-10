@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "our evaluation methods AI systems evolved faster than\nThe Illusion The Reality\n100% Modes Invisible Failure\n75% Behavior Degraded Production\nBenchmark Accuracy 90% 25% 50% 0% T-0 T+10ms T+50ms Reliability Gaps Unpredictable User MAAAA T+10GmS",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Small chart labels, panel headers, and callouts are OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6f2ec",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI systems evolved faster than our evaluation methods",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 56.0,
+        "h": 14.0
+      },
+      {
+        "role": "title",
+        "text": "The Illusion",
+        "x": 6.0,
+        "y": 20.0,
+        "w": 37.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "The Reality",
+        "x": 47.0,
+        "y": 20.0,
+        "w": 46.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Invisible Failure Modes",
+        "x": 58.0,
+        "y": 31.0,
+        "w": 17.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Degraded Production Behavior",
+        "x": 64.0,
+        "y": 49.0,
+        "w": 27.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Unpredictable User Reliability Gaps",
+        "x": 67.0,
+        "y": 67.0,
+        "w": 28.0,
+        "h": 11.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 7.0,
+        "y": 28.0,
+        "w": 38.0,
+        "h": 60.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 47.0,
+        "y": 28.0,
+        "w": 46.0,
+        "h": 60.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/vljxQZfJ9wY/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672287.7879274,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "our evaluation methods AI systems evolved faster than\nThe Illusion The Reality\n100% Modes Invisible Failure\n75% Behavior Degraded Production\nBenchmark Accuracy 90% 25% 50% 0% T-0 T+10ms T+50ms Reliability Gaps Unpredictable User MAAAA T+10GmS",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 356.48
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "our evaluation methods AI systems evolved faster than\nThe Illusion The Reality\n100% Modes Invisible Failure\n75% Behavior Degraded Production\nBenchmark Accuracy 90% 25% 50% 0% T-0 T+10ms T+50ms Reliability Gaps Unpredictable User MAAAA T+10GmS",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

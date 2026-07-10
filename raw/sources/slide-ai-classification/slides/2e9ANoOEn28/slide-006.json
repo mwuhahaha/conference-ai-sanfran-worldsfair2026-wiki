@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.82,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "illegible",
+  "ocr_ready": false,
+  "ocr_reason": "The frame is cropped and only partial slide text is visible; OCR would be unreliable.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "Project. Steps:",
+        "x": 0,
+        "y": 8.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "command 'python'",
+        "x": 0,
+        "y": 22.0,
+        "w": 25.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "median.py with the write tool, then run the tests",
+        "x": 0,
+        "y": 36.0,
+        "w": 55.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "time to confirm they pass.",
+        "x": 0,
+        "y": 55.0,
+        "w": 32.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "...decides what to do next",
+        "x": 0,
+        "y": 73.0,
+        "w": 42.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/2e9ANoOEn28/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657282.5716143,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

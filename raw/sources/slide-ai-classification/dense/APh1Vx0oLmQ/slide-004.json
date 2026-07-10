@@ -1,121 +1,80 @@
 {
   "is_content_slide": true,
-  "confidence": 0.98,
+  "confidence": 0.99,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "Real production failures originate in\nthe infrastructure, not the model.\n\nDiagnostic Failure Tree\nLogic\nRecursive reasoning loops\nWorkflow deadlocks\nAction\nStochastic Model Output\nTool hallucinations\nRetry storms\nCost explosions\nState\nContext drift\nMemory poisoning",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense failure-tree diagram with many labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
   "layout": {
-    "background": "#f3f1ec",
+    "background": "white",
     "style": "diagram",
     "blocks": [
       {
         "role": "title",
         "text": "Real production failures originate in\nthe infrastructure, not the model.",
         "x": 3.0,
-        "y": 0,
-        "w": 94.0,
-        "h": 12.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Diagnostic Failure Tree",
-        "x": 6.0,
-        "y": 14.0,
-        "w": 24.0,
-        "h": 6.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Stochastic Model Output",
-        "x": 8.0,
-        "y": 38.0,
-        "w": 18.0,
+        "y": 1.0,
+        "w": 68.0,
         "h": 14.0
       },
       {
-        "role": "diagram_label",
-        "text": "Logic",
-        "x": 30.0,
-        "y": 27.0,
-        "w": 8.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Recursive reasoning loops",
-        "x": 40.0,
-        "y": 24.0,
-        "w": 20.0,
-        "h": 10.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Workflow deadlocks",
-        "x": 82.0,
+        "role": "caption",
+        "text": "Diagnostic Failure Tree",
+        "x": 5.0,
         "y": 20.0,
-        "w": 12.0,
-        "h": 11.0
+        "w": 20.0,
+        "h": 6.0
       },
       {
-        "role": "diagram_label",
-        "text": "Action",
-        "x": 30.0,
-        "y": 48.0,
-        "w": 8.0,
-        "h": 5.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Tool hallucinations",
-        "x": 42.0,
-        "y": 40.0,
+        "role": "body",
+        "text": "Stochastic Model Output",
+        "x": 7.0,
+        "y": 54.0,
         "w": 18.0,
-        "h": 10.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Retry storms",
-        "x": 63.0,
-        "y": 41.0,
-        "w": 12.0,
-        "h": 8.0
-      },
-      {
-        "role": "diagram_label",
-        "text": "Cost explosions",
-        "x": 82.0,
-        "y": 39.0,
-        "w": 12.0,
         "h": 11.0
       },
       {
-        "role": "diagram_label",
-        "text": "State",
+        "role": "body",
+        "text": "Logic\nRecursive reasoning loops\nWorkflow deadlocks",
         "x": 30.0,
-        "y": 72.0,
-        "w": 8.0,
-        "h": 5.0
+        "y": 25.0,
+        "w": 61.0,
+        "h": 16.0
       },
       {
-        "role": "diagram_label",
-        "text": "Context drift",
-        "x": 41.0,
-        "y": 64.0,
-        "w": 14.0,
-        "h": 10.0
+        "role": "body",
+        "text": "Action\nTool hallucinations\nRetry storms\nCost explosions",
+        "x": 30.0,
+        "y": 49.0,
+        "w": 61.0,
+        "h": 18.0
       },
       {
-        "role": "diagram_label",
-        "text": "Memory poisoning",
-        "x": 82.0,
-        "y": 63.0,
-        "w": 14.0,
-        "h": 11.0
+        "role": "body",
+        "text": "State\nContext drift\nMemory poisoning",
+        "x": 30.0,
+        "y": 74.0,
+        "w": 61.0,
+        "h": 14.0
       }
     ]
   },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
   "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-004.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783629024.4549308
+  "classified_at_epoch": 1783658435.9290204,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

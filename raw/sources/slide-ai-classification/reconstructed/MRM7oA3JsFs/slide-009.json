@@ -1,0 +1,162 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AIE maintain a failure mode ontology (2) Empower domain experts to define citraetion Photo ortastion Tae\n1ozruoievy location\nHanduriting ertraction Medealrecord extract'on\nextraction checkbox Medical Necessity Review Failure Modes reasontg\nchrorolog'\nmtereretotion Rles\nRuhe courct\nseeetion\nMicrosoft",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense diagram labels and small node text are better suited for OCR than direct transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(180deg, #18160f 0%, #090807 100%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "(2) Empower domain experts to define and maintain a failure mode ontology",
+        "x": 8.0,
+        "y": 8.0,
+        "w": 78.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Medical record extraction",
+        "x": 39.0,
+        "y": 42.0,
+        "w": 16.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Clinical reasoning",
+        "x": 67.0,
+        "y": 49.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Rules interpretation",
+        "x": 42.0,
+        "y": 74.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Medical Necessity Review Failure Modes",
+        "x": 43.0,
+        "y": 55.0,
+        "w": 20.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "photo extraction",
+        "x": 34.0,
+        "y": 28.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "table extraction",
+        "x": 47.0,
+        "y": 22.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "handwriting extraction",
+        "x": 22.0,
+        "y": 38.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "checkbox extraction",
+        "x": 30.0,
+        "y": 58.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "anatomical location",
+        "x": 58.0,
+        "y": 31.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "underinference",
+        "x": 71.0,
+        "y": 34.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "overinference",
+        "x": 79.0,
+        "y": 49.0,
+        "w": 9.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "chronological reasoning",
+        "x": 66.0,
+        "y": 69.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "logic representation",
+        "x": 35.0,
+        "y": 83.0,
+        "w": 11.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "rule source selection",
+        "x": 52.0,
+        "y": 85.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-009.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661307.8391247,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/left-72/contrast",
+    "text": "AIE maintain a failure mode ontology (2) Empower domain experts to define citraetion Photo ortastion Tae\n1ozruoievy location\nHanduriting ertraction Medealrecord extract'on\nextraction checkbox Medical Necessity Review Failure Modes reasontg\nchrorolog'\nmtereretotion Rles\nRuhe courct\nseeetion\nMicrosoft",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 465.96
+  },
+  "ocr_source": "rapidocr-live/left-72/contrast",
+  "ocr_reconcile": {
+    "text": "AIE maintain a failure mode ontology (2) Empower domain experts to define citraetion Photo ortastion Tae\n1ozruoievy location\nHanduriting ertraction Medealrecord extract'on\nextraction checkbox Medical Necessity Review Failure Modes reasontg\nchrorolog'\nmtereretotion Rles\nRuhe courct\nseeetion\nMicrosoft",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense two-column table with small text is better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with deep green panel",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 23.0,
+        "w": 17.0,
+        "h": 26.0
+      },
+      {
+        "role": "title",
+        "text": "Infrastructure bugs look like reasoning failures",
+        "x": 30.0,
+        "y": 4.0,
+        "w": 44.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What it looked like",
+        "x": 30.0,
+        "y": 23.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "What it actually was",
+        "x": 58.0,
+        "y": 23.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Agent can't find data",
+        "x": 30.0,
+        "y": 31.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "One-character extraction bug (50% → 73%)",
+        "x": 58.0,
+        "y": 31.0,
+        "w": 34.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Agent uses wrong quoting",
+        "x": 30.0,
+        "y": 41.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "SKILL.md had backwards examples",
+        "x": 58.0,
+        "y": 41.0,
+        "w": 31.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Agent times out constantly",
+        "x": 30.0,
+        "y": 51.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Per-cell recalculation query instead of batch",
+        "x": 58.0,
+        "y": 51.0,
+        "w": 34.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Agent retries endlessly",
+        "x": 30.0,
+        "y": 61.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "API returning empty results intermittently",
+        "x": 58.0,
+        "y": 61.0,
+        "w": 35.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "When the agent seems confused, check the plumbing first.",
+        "x": 30.0,
+        "y": 82.0,
+        "w": 56.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "Engineering the future of AI",
+        "x": 40.0,
+        "y": 89.0,
+        "w": 48.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-011.jpg",
+  "image": "wiki/assets/slides/HEFSExa0xl0/slide-011.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659387.1391556,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

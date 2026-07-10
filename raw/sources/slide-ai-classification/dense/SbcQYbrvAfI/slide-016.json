@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "notebooks s B Json nebpog Iraxuts ai,pdreta ya uxruas ol,miu3. ttoid) Llot lav rvuooo 3:asojog t+1 pue bupnt/1 th\npret younq ba kt: prompt. datasets A LICENSE.tt coding igint nua. 3. benchmaris op timkzer_idx. 3OUON'd s it roquiremants.txt v. notebcoks.conda Tarb ocdns irttt a D tostcsy B BizNorm-100_.- D arizear support.. Ass'upna I phoena iupport q..: JsON motaprompt.txt'U support_query_cla. L+bpsaM U. 十 Code + Markdown 1 Interupt: Rastart B Ckat Al Outputs O Go To | Ea Viaw data Jupyter Vrizbhas 111 Training and Test Datasets: OpenAl Key. Wo wl bo using OpenA to gonerato tho wobpsgo jsoni. client = openi.client(apl key-os. getenvt opEut_AoI KE!) TAIN spiIt_FRucTIon - o.s e? Practlon'ot data to use'rortrn iatng (rest ror' ioiting!. os.envlrenl opEiAr ArI _xEy']'= getpsss-gripasst'openAI APl Key!? 3 cowfrs: Hunoer or saaptes to use for she oxperineot. Adjust' as meded. HN Rues s S a Muber or rules In tne prorot adjusr based on your, evalustor gronot (chit is wor torking or Contig). lnport os. getpalt a Teuado ijods1. HuH_Saplts = iue. e tuber of'rows 'le'ss=ple: rro=. (ha'rutt datatet.' e ror'af! 0.01 4ot. t5o 旧 aie_codo (Python 3.10.19). DDa- e. uonAd: uond\nCreato tralning and tost datasols, and export to Arize.\ninport pandis as pd\n> TuELnI BSOUTLohE' Lman O promgt-feamng '@ 1 A 9:B sehct Postgrs Sewr [4] dataset_1ooo:= pd.resd_csv(-httpsi//storage.gogleapis.cou/arixe-asets/oev-rel/proapt-ltorning/guerles.csr) dataset soaple' = dataset_lo+?.ssaplc(kH_sAples) e 1h ro? aror nb'ya7 tn a, co 2o:Spico* 4. Sp*c+t:.1 Lf. Ct & ot 26 2025-11:22 13:05:40",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code-and-text notebook slide; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "OpenAI Key",
+        "x": 10.0,
+        "y": 31.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "Training and Test Datasets",
+        "x": 10.0,
+        "y": 79.0,
+        "w": 30.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/dense-slides/SbcQYbrvAfI/slide-016.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664749.1998632,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "notebooks s B Json nebpog Iraxuts ai,pdreta ya uxruas ol,miu3. ttoid) Llot lav rvuooo 3:asojog t+1 pue bupnt/1 th\npret younq ba kt: prompt. datasets A LICENSE.tt coding igint nua. 3. benchmaris op timkzer_idx. 3OUON'd s it roquiremants.txt v. notebcoks.conda Tarb ocdns irttt a D tostcsy B BizNorm-100_.- D arizear support.. Ass'upna I phoena iupport q..: JsON motaprompt.txt'U support_query_cla. L+bpsaM U. 十 Code + Markdown 1 Interupt: Rastart B Ckat Al Outputs O Go To | Ea Viaw data Jupyter Vrizbhas 111 Training and Test Datasets: OpenAl Key. Wo wl bo using OpenA to gonerato tho wobpsgo jsoni. client = openi.client(apl key-os. getenvt opEut_AoI KE!) TAIN spiIt_FRucTIon - o.s e? Practlon'ot data to use'rortrn iatng (rest ror' ioiting!. os.envlrenl opEiAr ArI _xEy']'= getpsss-gripasst'openAI APl Key!? 3 cowfrs: Hunoer or saaptes to use for she oxperineot. Adjust' as meded. HN Rues s S a Muber or rules In tne prorot adjusr based on your, evalustor gronot (chit is wor torking or Contig). lnport os. getpalt a Teuado ijods1. HuH_Saplts = iue. e tuber of'rows 'le'ss=ple: rro=. (ha'rutt datatet.' e ror'af! 0.01 4ot. t5o 旧 aie_codo (Python 3.10.19). DDa- e. uonAd: uond\nCreato tralning and tost datasols, and export to Arize.\ninport pandis as pd\n> TuELnI BSOUTLohE' Lman O promgt-feamng '@ 1 A 9:B sehct Postgrs Sewr [4] dataset_1ooo:= pd.resd_csv(-httpsi//storage.gogleapis.cou/arixe-asets/oev-rel/proapt-ltorning/guerles.csr) dataset soaple' = dataset_lo+?.ssaplc(kH_sAples) e 1h ro? aror nb'ya7 tn a, co 2o:Spico* 4. Sp*c+t:.1 Lf. Ct & ot 26 2025-11:22 13:05:40",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1854.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "notebooks s B Json nebpog Iraxuts ai,pdreta ya uxruas ol,miu3. ttoid) Llot lav rvuooo 3:asojog t+1 pue bupnt/1 th\npret younq ba kt: prompt. datasets A LICENSE.tt coding igint nua. 3. benchmaris op timkzer_idx. 3OUON'd s it roquiremants.txt v. notebcoks.conda Tarb ocdns irttt a D tostcsy B BizNorm-100_.- D arizear support.. Ass'upna I phoena iupport q..: JsON motaprompt.txt'U support_query_cla. L+bpsaM U. 十 Code + Markdown 1 Interupt: Rastart B Ckat Al Outputs O Go To | Ea Viaw data Jupyter Vrizbhas 111 Training and Test Datasets: OpenAl Key. Wo wl bo using OpenA to gonerato tho wobpsgo jsoni. client = openi.client(apl key-os. getenvt opEut_AoI KE!) TAIN spiIt_FRucTIon - o.s e? Practlon'ot data to use'rortrn iatng (rest ror' ioiting!. os.envlrenl opEiAr ArI _xEy']'= getpsss-gripasst'openAI APl Key!? 3 cowfrs: Hunoer or saaptes to use for she oxperineot. Adjust' as meded. HN Rues s S a Muber or rules In tne prorot adjusr based on your, evalustor gronot (chit is wor torking or Contig). lnport os. getpalt a Teuado ijods1. HuH_Saplts = iue. e tuber of'rows 'le'ss=ple: rro=. (ha'rutt datatet.' e ror'af! 0.01 4ot. t5o 旧 aie_codo (Python 3.10.19). DDa- e. uonAd: uond\nCreato tralning and tost datasols, and export to Arize.\ninport pandis as pd\n> TuELnI BSOUTLohE' Lman O promgt-feamng '@ 1 A 9:B sehct Postgrs Sewr [4] dataset_1ooo:= pd.resd_csv(-httpsi//storage.gogleapis.cou/arixe-asets/oev-rel/proapt-ltorning/guerles.csr) dataset soaple' = dataset_lo+?.ssaplc(kH_sAples) e 1h ro? aror nb'ya7 tn a, co 2o:Spico* 4. Sp*c+t:.1 Lf. Ct & ot 26 2025-11:22 13:05:40",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Configure Dagger Cloud (optional)",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense documentation text and callout box are better suited for OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white docs page with dark top nav",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Configure Dagger Cloud (optional)",
+        "x": 17.0,
+        "y": 17.0,
+        "w": 49.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "IMPORTANT",
+        "x": 17.0,
+        "y": 32.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "This step is optional and will create a Dagger Cloud account.",
+        "x": 17.0,
+        "y": 41.0,
+        "w": 69.0,
+        "h": 10.0
+      },
+      {
+        "role": "code",
+        "text": "dagger login",
+        "x": 50.0,
+        "y": 61.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/Fzb1a24hF-o/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659152.127947,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Configure Dagger Cloud (optional)",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

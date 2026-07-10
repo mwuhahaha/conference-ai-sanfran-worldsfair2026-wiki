@@ -1,0 +1,92 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Detection Performance Results\n~91% Precision\n~87% Recall\n~0.89 F1 Score\nPerformance was measured against a labeled ground truth derived from confirmed audit findings across all four jurisdictions and the full five-year evaluation window.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(180deg, #18002d 0%, #120024 100%)",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Detection Performance Results",
+        "x": 5.0,
+        "y": 12.0,
+        "w": 58.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "~91%",
+        "x": 14.0,
+        "y": 30.0,
+        "w": 14.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Precision",
+        "x": 14.0,
+        "y": 43.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "~87%",
+        "x": 43.0,
+        "y": 30.0,
+        "w": 14.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Recall",
+        "x": 43.0,
+        "y": 43.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "~0.89",
+        "x": 74.0,
+        "y": 30.0,
+        "w": 14.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "F1 Score",
+        "x": 74.0,
+        "y": 43.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Performance was measured against a labeled ground truth derived from confirmed audit findings across all four jurisdictions and the full five-year evaluation window.",
+        "x": 5.0,
+        "y": 61.0,
+        "w": 86.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 8,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/Iwe_RY-fYgI/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659673.9314468,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Detection Performance Results\n~91% Precision\n~87% Recall\n~0.89 F1 Score\nPerformance was measured against a labeled ground truth derived from confirmed audit findings across all four jurisdictions and the full five-year evaluation window.",
+  "advanced_ocr": {}
+}

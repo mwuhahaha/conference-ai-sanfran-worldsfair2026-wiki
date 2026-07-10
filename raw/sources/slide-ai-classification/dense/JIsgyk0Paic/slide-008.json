@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.89,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "grpo_demo.py\nwill brown @willccbb Jan 26 Sints scorte ay the oooonent in th ch GRPO self-correction on Lama-18:) Promoto te are elso giytn that the points scored by the ooponent in the changionshlg gase is hslf of UF's nurite? (2)2)0(1/2)(21②02) Sirpllfying tho ecuntlon, Co cet.\n2 tr (24x\nThis laptification ss arong, Tho opponsnt cust have scored & core point!.\n2 Z psjo?s aaru lin lutuoddo su1 ter4 1 160 150 130 This simplifits to: This tipllties to. So. they stcored 1/6 polnte esch In ttin first 2a get (24x2)0.(1/2)(21( x2/12 （24x2）12x 24x.12x03 12x0.2 9/1x\n24 484 1167K tain/rewards'xcurxy t!an/compltion_length\nwill brown cwillccbb Jan 26 aduss 03 10 1\n01",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense screenshots, code, and small chart labels.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark collage",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "grpo_demo.py",
+        "x": 4.0,
+        "y": 3.0,
+        "w": 32.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "GRPO self-correction on Llama-1B :)",
+        "x": 7.0,
+        "y": 16.0,
+        "w": 33.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "train/rewards/accuracy",
+        "x": 48.0,
+        "y": 70.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "train/completion_length",
+        "x": 74.0,
+        "y": 70.0,
+        "w": 19.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "script:",
+        "x": 6.0,
+        "y": 79.0,
+        "w": 9.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/dense-slides/JIsgyk0Paic/slide-008.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661280.5342114,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "grpo_demo.py",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "grpo_demo.py\nwill brown @willccbb Jan 26 Sints scorte ay the oooonent in th ch GRPO self-correction on Lama-18:) Promoto te are elso giytn that the points scored by the ooponent in the changionshlg gase is hslf of UF's nurite? (2)2)0(1/2)(21②02) Sirpllfying tho ecuntlon, Co cet.\n2 tr (24x\nThis laptification ss arong, Tho opponsnt cust have scored & core point!.\n2 Z psjo?s aaru lin lutuoddo su1 ter4 1 160 150 130 This simplifits to: This tipllties to. So. they stcored 1/6 polnte esch In ttin first 2a get (24x2)0.(1/2)(21( x2/12 （24x2）12x 24x.12x03 12x0.2 9/1x\n24 484 1167K tain/rewards'xcurxy t!an/compltion_length\nwill brown cwillccbb Jan 26 aduss 03 10 1\n01",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 844.36
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "grpo_demo.py\nwill brown @willccbb Jan 26 Sints scorte ay the oooonent in th ch GRPO self-correction on Lama-18:) Promoto te are elso giytn that the points scored by the ooponent in the changionshlg gase is hslf of UF's nurite? (2)2)0(1/2)(21②02) Sirpllfying tho ecuntlon, Co cet.\n2 tr (24x\nThis laptification ss arong, Tho opponsnt cust have scored & core point!.\n2 Z psjo?s aaru lin lutuoddo su1 ter4 1 160 150 130 This simplifits to: This tipllties to. So. they stcored 1/6 polnte esch In ttin first 2a get (24x2)0.(1/2)(21( x2/12 （24x2）12x 24x.12x03 12x0.2 9/1x\n24 484 1167K tain/rewards'xcurxy t!an/compltion_length\nwill brown cwillccbb Jan 26 aduss 03 10 1\n01",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

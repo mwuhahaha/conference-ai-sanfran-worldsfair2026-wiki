@@ -1,0 +1,154 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "KNOWTHE LMITS Trade-Offs & Best Practices\nAnkush Rrsi ogi\nCONCERN MITIGATION!\nRouter may miss a needed tool Fallback: raise K, or let the LLM request more:\nAdds complexity:vector DB+tuning Embedding search is.ms-fast; the savings dominate:\nRare toois may rank low E Log missesy retrain or add keyword boosting\nK threshold is hard to calibrate Start at K=5; tune on a dev eval set.\nNot worth it below -20 tools For small tool sets' load staticallypano router\nAnbunh Rrtogi",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Two-column tradeoff table with five rows of small text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark blue gradient",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "KNOW THE LIMITS",
+        "x": 5.0,
+        "y": 9.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Trade-Offs & Best Practices",
+        "x": 5.0,
+        "y": 15.0,
+        "w": 55.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "CONCERN",
+        "x": 7.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MITIGATION",
+        "x": 48.0,
+        "y": 25.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Router may miss a needed tool",
+        "x": 5.0,
+        "y": 32.0,
+        "w": 37.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Fallback: raise K, or let the LLM request more",
+        "x": 46.0,
+        "y": 32.0,
+        "w": 44.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Adds complexity: vector DB + tuning",
+        "x": 5.0,
+        "y": 42.0,
+        "w": 37.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Embedding search is ms-fast; the savings dominate",
+        "x": 46.0,
+        "y": 42.0,
+        "w": 44.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Rare tools may rank low",
+        "x": 5.0,
+        "y": 52.0,
+        "w": 37.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Log misses; retrain or add keyword boosting",
+        "x": 46.0,
+        "y": 52.0,
+        "w": 44.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "K threshold is hard to calibrate",
+        "x": 5.0,
+        "y": 62.0,
+        "w": 37.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Start at K=5; tune on a dev eval set",
+        "x": 46.0,
+        "y": 62.0,
+        "w": 44.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Not worth it below ~20 tools",
+        "x": 5.0,
+        "y": 72.0,
+        "w": 37.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "For small tool sets, load statically; no router",
+        "x": 46.0,
+        "y": 72.0,
+        "w": 44.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/vh2VGuQ3zhY/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672545.6298776,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "KNOWTHE LMITS Trade-Offs & Best Practices\nAnkush Rrsi ogi\nCONCERN MITIGATION!\nRouter may miss a needed tool Fallback: raise K, or let the LLM request more:\nAdds complexity:vector DB+tuning Embedding search is.ms-fast; the savings dominate:\nRare toois may rank low E Log missesy retrain or add keyword boosting\nK threshold is hard to calibrate Start at K=5; tune on a dev eval set.\nNot worth it below -20 tools For small tool sets' load staticallypano router\nAnbunh Rrtogi",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 797.88
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "KNOWTHE LMITS Trade-Offs & Best Practices\nAnkush Rrsi ogi\nCONCERN MITIGATION!\nRouter may miss a needed tool Fallback: raise K, or let the LLM request more:\nAdds complexity:vector DB+tuning Embedding search is.ms-fast; the savings dominate:\nRare toois may rank low E Log missesy retrain or add keyword boosting\nK threshold is hard to calibrate Start at K=5; tune on a dev eval set.\nNot worth it below -20 tools For small tool sets' load staticallypano router\nAnbunh Rrtogi",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

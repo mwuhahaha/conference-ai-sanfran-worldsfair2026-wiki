@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE BIGGER PATTERN\nThe harness that watches itself is the moat.\nThe model is the part you swap. The loop is the part you own.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Simple readable slide with large title and short caption; OCR not needed.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#ffffff",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "THE BIGGER PATTERN",
+        "x": 6.0,
+        "y": 6.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "The harness that watches itself\nis the moat.",
+        "x": 6.0,
+        "y": 10.0,
+        "w": 54.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Greg Brockman\n@gdb\nthe model alone is no longer the product\n7:51 AM · May 22, 2026 · 1.2M Views",
+        "x": 17.0,
+        "y": 35.0,
+        "w": 66.0,
+        "h": 39.0
+      },
+      {
+        "role": "caption",
+        "text": "The model is the part you swap. The loop is the part you own.",
+        "x": 22.0,
+        "y": 83.0,
+        "w": 56.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-019.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670307.0095983,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "THE BIGGER PATTERN\nThe harness that watches itself is the moat.\nThe model is the part you swap. The loop is the part you own.",
+  "advanced_ocr": {}
+}

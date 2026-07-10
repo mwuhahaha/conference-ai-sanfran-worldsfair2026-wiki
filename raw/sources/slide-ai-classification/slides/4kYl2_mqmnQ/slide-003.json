@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "I don't compact — I reset.\ncompact\nX slow\nX can't choose what survives\nX dropped = gone\nreset\nfresh agent\nre-reads the files\ncontinues",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#050505",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "I don't compact — I reset.",
+        "x": 6.0,
+        "y": 5.0,
+        "w": 50.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "compact",
+        "x": 6.0,
+        "y": 38.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "X slow",
+        "x": 8.0,
+        "y": 46.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "X can't choose what survives",
+        "x": 8.0,
+        "y": 53.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "X dropped = gone",
+        "x": 8.0,
+        "y": 60.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "reset",
+        "x": 56.0,
+        "y": 31.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "fresh agent",
+        "x": 56.0,
+        "y": 39.0,
+        "w": 16.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "re-reads the files",
+        "x": 56.0,
+        "y": 53.0,
+        "w": 19.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "continues",
+        "x": 56.0,
+        "y": 66.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/4kYl2_mqmnQ/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783658205.0158792,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "I don't compact — I reset.\ncompact\nX slow\nX can't choose what survives\nX dropped = gone\nreset\nfresh agent\nre-reads the files\ncontinues",
+  "advanced_ocr": {}
+}

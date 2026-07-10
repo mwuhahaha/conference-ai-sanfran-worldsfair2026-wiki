@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "code",
+  "reject_reason": "",
+  "text": "12-LAYER3\nThe induction pack. Where most teams stop.\n//personality-builder.ts\nconSt WARMTH_DESCRIPTIONS ={ 7:'friendly and approachable', 10:'extremely warm and effusive 5： 'neutral and professional', 'very formal and distant',\n7/ Pius banned/approved phrases,uSPs-all per venue.\nThe induction pack is fixed.lt was written before the intern met anyone. It doesn't knowwho walked in this morning,\nor what they're carrying.\nISADORAMARTIN-DYE STOPWRITINGTONEINSTRUCTIONS.LAYERTHEM.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code-style slide; OCR is better for the small snippet and explanatory text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#0b0b0b",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The induction pack.\nWhere most teams stop.",
+        "x": 6.0,
+        "y": 11.0,
+        "w": 44.0,
+        "h": 18.0
+      },
+      {
+        "role": "code",
+        "text": "// personality-builder.ts",
+        "x": 8.0,
+        "y": 35.0,
+        "w": 28.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "const WARMTH_DESCRIPTIONS = {",
+        "x": 8.0,
+        "y": 47.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "code",
+        "text": "10: 'extremely warm and effusive',\n7: 'friendly and approachable',\n5: 'neutral and professional',\n1: 'very formal and distant',",
+        "x": 8.0,
+        "y": 54.0,
+        "w": 35.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "The induction pack is fixed. It was written before the intern met anyone. It doesn't know who walked in this morning.",
+        "x": 6.0,
+        "y": 76.0,
+        "w": 84.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/ij-AU9dpJjc/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669232.969758,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "The induction pack.\nWhere most teams stop.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "12-LAYER3\nThe induction pack. Where most teams stop.\n//personality-builder.ts\nconSt WARMTH_DESCRIPTIONS ={ 7:'friendly and approachable', 10:'extremely warm and effusive 5： 'neutral and professional', 'very formal and distant',\n7/ Pius banned/approved phrases,uSPs-all per venue.\nThe induction pack is fixed.lt was written before the intern met anyone. It doesn't knowwho walked in this morning,\nor what they're carrying.\nISADORAMARTIN-DYE STOPWRITINGTONEINSTRUCTIONS.LAYERTHEM.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 637.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "12-LAYER3\nThe induction pack. Where most teams stop.\n//personality-builder.ts\nconSt WARMTH_DESCRIPTIONS ={ 7:'friendly and approachable', 10:'extremely warm and effusive 5： 'neutral and professional', 'very formal and distant',\n7/ Pius banned/approved phrases,uSPs-all per venue.\nThe induction pack is fixed.lt was written before the intern met anyone. It doesn't knowwho walked in this morning,\nor what they're carrying.\nISADORAMARTIN-DYE STOPWRITINGTONEINSTRUCTIONS.LAYERTHEM.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

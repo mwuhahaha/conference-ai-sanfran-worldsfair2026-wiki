@@ -4,54 +4,41 @@
   "frame_type": "content_slide",
   "reject_reason": "",
   "text": "My Second Brain\n5,489 notes in Obsidian\n5,505 files in Readwise\nPlus, Notion, Google Drive.\nGrowing ~250 files per month",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
   "layout": {
     "background": "#ffffff",
-    "style": "minimal",
+    "style": "light",
     "blocks": [
       {
         "role": "title",
         "text": "My Second Brain",
         "x": 7.0,
-        "y": 10.0,
+        "y": 9.0,
         "w": 34.0,
-        "h": 11.0
+        "h": 10.0
       },
       {
         "role": "body",
-        "text": "5,489 notes in Obsidian",
+        "text": "5,489 notes in Obsidian\n5,505 files in Readwise\nPlus, Notion, Google Drive.\nGrowing ~250 files per month",
         "x": 7.0,
-        "y": 30.0,
-        "w": 31.0,
-        "h": 8.0
-      },
-      {
-        "role": "body",
-        "text": "5,505 files in Readwise",
-        "x": 7.0,
-        "y": 42.0,
-        "w": 30.0,
-        "h": 8.0
-      },
-      {
-        "role": "body",
-        "text": "Plus, Notion, Google Drive.",
-        "x": 7.0,
-        "y": 56.0,
-        "w": 37.0,
-        "h": 8.0
-      },
-      {
-        "role": "body",
-        "text": "Growing ~250 files per month",
-        "x": 7.0,
-        "y": 71.0,
-        "w": 35.0,
-        "h": 8.0
+        "y": 25.0,
+        "w": 42.0,
+        "h": 50.0
       }
     ]
   },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
   "image": "wiki/assets/dense-slides/ZRM_TfEZcIo/slide-001.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783628708.6146905
+  "classified_at_epoch": 1783665605.9579628,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "My Second Brain\n5,489 notes in Obsidian\n5,505 files in Readwise\nPlus, Notion, Google Drive.\nGrowing ~250 files per month",
+  "advanced_ocr": {}
 }

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Block lays off nearly half its staff because of AI. Its CEO said most companies will do the same",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#f4f4f2",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "CNN Business",
+        "x": 6.0,
+        "y": 7.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Block lays off nearly half its staff because of AI. Its CEO said most companies will do the same",
+        "x": 5.0,
+        "y": 20.0,
+        "w": 64.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "UPDATED FEB 26, 2026",
+        "x": 5.0,
+        "y": 44.0,
+        "w": 20.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "By Ramishah Maruf",
+        "x": 5.0,
+        "y": 50.0,
+        "w": 16.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/slides/whue9_YquGA/slide-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672635.3293772,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Block lays off nearly half its staff because of AI. Its CEO said most companies will do the same",
+  "advanced_ocr": {}
+}

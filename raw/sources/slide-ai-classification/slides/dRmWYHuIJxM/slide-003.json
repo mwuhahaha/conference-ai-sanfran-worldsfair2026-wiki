@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "We optimizedthe modelWeshould have optimized the Context.\nBetter prompts\n\"Be concise Only returm relevant code. The model stil received 45k tokens of input.\nModel settings\nTemperature, top-Pmax lokens control outout shape The 45k input was already sent and biled.\nOutput compression\nTalk like a caveman* Saves:75%.of output (10% of bil) Net Impact - 8%. Wrong 10%\nA retrieval layer between codebase and agent\nSearchran index, refuri only relevant chunks. 94% fewer tokens.\nolara-labs/codecontext-engin?",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense bullet slide with small explanatory text; OCR is likely more reliable than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "WHAT WE GOT WRONG",
+        "x": 5.0,
+        "y": 7.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "We optimized the model. We should have optimized the context.",
+        "x": 9.0,
+        "y": 12.0,
+        "w": 82.0,
+        "h": 15.0
+      },
+      {
+        "role": "body",
+        "text": "Better prompts",
+        "x": 13.0,
+        "y": 29.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Model settings",
+        "x": 13.0,
+        "y": 43.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "Output compression",
+        "x": 13.0,
+        "y": 57.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "A retrieval layer between codebase and agent",
+        "x": 13.0,
+        "y": 72.0,
+        "w": 38.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/dRmWYHuIJxM/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667254.1776528,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "We optimizedthe modelWeshould have optimized the Context.\nBetter prompts\n\"Be concise Only returm relevant code. The model stil received 45k tokens of input.\nModel settings\nTemperature, top-Pmax lokens control outout shape The 45k input was already sent and biled.\nOutput compression\nTalk like a caveman* Saves:75%.of output (10% of bil) Net Impact - 8%. Wrong 10%\nA retrieval layer between codebase and agent\nSearchran index, refuri only relevant chunks. 94% fewer tokens.\nolara-labs/codecontext-engin?",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 746.92
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "We optimizedthe modelWeshould have optimized the Context.\nBetter prompts\n\"Be concise Only returm relevant code. The model stil received 45k tokens of input.\nModel settings\nTemperature, top-Pmax lokens control outout shape The 45k input was already sent and biled.\nOutput compression\nTalk like a caveman* Saves:75%.of output (10% of bil) Net Impact - 8%. Wrong 10%\nA retrieval layer between codebase and agent\nSearchran index, refuri only relevant chunks. 94% fewer tokens.\nolara-labs/codecontext-engin?",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

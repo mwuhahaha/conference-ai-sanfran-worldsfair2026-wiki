@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "/ UV)6\nList\n(elenmme)\nAIE\n41tiuaep/t.11) re aita A9o0\n-daalg1\nlei< (4el-oeceratime) (retsrm: 1\nEngineering the future of Al\nAIEns",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "The slide contains a dense product/UI screenshot with small interface text that is suitable for OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with pale cream inset",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "diagram",
+        "text": "product UI screenshot",
+        "x": 34.0,
+        "y": 6.0,
+        "w": 56.0,
+        "h": 66.0
+      },
+      {
+        "role": "title",
+        "text": "Engineering the future of AI",
+        "x": 43.0,
+        "y": 80.0,
+        "w": 38.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/slides/r305-aQTaU0/slide-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671178.1926336,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Engineering the future of AI",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "/ UV)6\nList\n(elenmme)\nAIE\n41tiuaep/t.11) re aita A9o0\n-daalg1\nlei< (4el-oeceratime) (retsrm: 1\nEngineering the future of Al\nAIEns",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 229.32
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "/ UV)6\nList\n(elenmme)\nAIE\n41tiuaep/t.11) re aita A9o0\n-daalg1\nlei< (4el-oeceratime) (retsrm: 1\nEngineering the future of Al\nAIEns",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

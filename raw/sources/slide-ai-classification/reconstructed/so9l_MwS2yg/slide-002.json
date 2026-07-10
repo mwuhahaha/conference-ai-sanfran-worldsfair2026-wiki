@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "THE DAILY REALITY\nHack\nVSCode AA\nAIE uxport foction sothxiodleere(res,rs,next）1 i/ ey s this nall in stugieg? const token reg.hudtrs.avthoriatioo FOCUSED\nATEEPTION\nMP GoogleDeepMind",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Screenshot-heavy slide with small UI/code text; OCR is likely better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "#000000",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "THE DAILY REALITY",
+        "x": 32.0,
+        "y": 12.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 23.0,
+        "w": 12.0,
+        "h": 22.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 50.0,
+        "y": 75.0,
+        "w": 31.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "FOCUSED",
+        "x": 86.0,
+        "y": 35.0,
+        "w": 8.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "ATTENTION",
+        "x": 87.0,
+        "y": 57.0,
+        "w": 9.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/reconstructed-slides/so9l_MwS2yg/slide-002.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671928.0021396,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "THE DAILY REALITY",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "THE DAILY REALITY\nHack\nVSCode AA\nAIE uxport foction sothxiodleere(res,rs,next）1 i/ ey s this nall in stugieg? const token reg.hudtrs.avthoriatioo FOCUSED\nATEEPTION\nMP GoogleDeepMind",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 293.88
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "THE DAILY REALITY\nHack\nVSCode AA\nAIE uxport foction sothxiodleere(res,rs,next）1 i/ ey s this nall in stugieg? const token reg.hudtrs.avthoriatioo FOCUSED\nATEEPTION\nMP GoogleDeepMind",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

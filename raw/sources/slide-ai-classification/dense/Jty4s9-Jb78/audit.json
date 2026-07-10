@@ -1,0 +1,306 @@
+{
+  "video_id": "Jty4s9-Jb78",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 3,
+  "rejected_count": 0,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "LLMs have fixed capacity\nbut probably know too much",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Product-style screenshot with dense small on-slide text; OCR will be more reliable than manual transcription for the embedded UI content.",
+      "direct_read_ready": false,
+      "text_density": "medium",
+      "layout": {
+        "background": "#000000",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "LLMs have fixed capacity",
+            "x": 4.0,
+            "y": 2.0,
+            "w": 44.0,
+            "h": 10.0
+          },
+          {
+            "role": "subtitle",
+            "text": "but probably know too much",
+            "x": 4.0,
+            "y": 10.0,
+            "w": 42.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 10.0,
+            "y": 21.0,
+            "w": 81.0,
+            "h": 56.0
+          },
+          {
+            "role": "caption",
+            "text": "Full Context • RAG • Weights",
+            "x": 35.0,
+            "y": 78.0,
+            "w": 35.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/Jty4s9-Jb78/slide-001.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659934.525795,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "LLMs have fixed capacity\nbut probably know too much",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/Jty4s9-Jb78/slide-001.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "Dense multi-column academic-paper comparison slide with small body text and citations; OCR is the right extraction path.",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "#000000",
+        "style": "light",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Active Reading",
+            "x": 9.0,
+            "y": 0,
+            "w": 21.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Self-Study",
+            "x": 41.0,
+            "y": 0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "title",
+            "text": "Rephrasing the Web",
+            "x": 69.0,
+            "y": 0,
+            "w": 25.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 4.0,
+            "y": 6.0,
+            "w": 28.0,
+            "h": 60.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 36.0,
+            "y": 6.0,
+            "w": 27.0,
+            "h": 60.0
+          },
+          {
+            "role": "body",
+            "text": "",
+            "x": 66.0,
+            "y": 6.0,
+            "w": 27.0,
+            "h": 60.0
+          },
+          {
+            "role": "caption",
+            "text": "(Liu et al., 2025)",
+            "x": 10.0,
+            "y": 66.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "(Eyoboglu et al., 2025)",
+            "x": 40.0,
+            "y": 66.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "(Maini et al., 2025)",
+            "x": 71.0,
+            "y": 66.0,
+            "w": 19.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Full Context • RAG • Weights",
+            "x": 35.0,
+            "y": 78.0,
+            "w": 36.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Learning & Data • Architecture",
+            "x": 33.0,
+            "y": 84.0,
+            "w": 40.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/Jty4s9-Jb78/slide-002.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659934.5298176,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/Jty4s9-Jb78/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.95,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "ICL\nRAG\nFull Finetune\nLoRA\nCartridges\nMemory Layers",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "Low-text architecture diagram with large readable labels; manual extraction is sufficient and cheaper than OCR.",
+      "direct_read_ready": false,
+      "text_density": "low",
+      "layout": {
+        "background": "#ffffff",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "diagram_label",
+            "text": "ICL",
+            "x": 24.0,
+            "y": 32.0,
+            "w": 8.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "RAG",
+            "x": 49.0,
+            "y": 32.0,
+            "w": 10.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Full Finetune",
+            "x": 74.0,
+            "y": 31.0,
+            "w": 20.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "LoRA",
+            "x": 24.0,
+            "y": 76.0,
+            "w": 9.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Cartridges",
+            "x": 45.0,
+            "y": 76.0,
+            "w": 17.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Memory Layers",
+            "x": 67.0,
+            "y": 76.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Full Context • RAG • Weights",
+            "x": 35.0,
+            "y": 92.0,
+            "w": 35.0,
+            "h": 5.0
+          },
+          {
+            "role": "caption",
+            "text": "Learning & Data • Architecture",
+            "x": 35.0,
+            "y": 98.0,
+            "w": 38.0,
+            "h": 5.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/dense-slides/Jty4s9-Jb78/slide-003.jpg",
+      "deck_kind": "dense",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659934.5310013,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "ICL\nRAG\nFull Finetune\nLoRA\nCartridges\nMemory Layers",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/dense/Jty4s9-Jb78/slide-003.html"
+    }
+  ],
+  "rejected": []
+}

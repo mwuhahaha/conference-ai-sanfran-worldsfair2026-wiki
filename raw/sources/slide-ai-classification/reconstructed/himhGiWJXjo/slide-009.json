@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "diagram",
+  "reject_reason": "",
+  "text": "LLMs don't know what your API is.\nBut LLMs know what SQL is.\nWhat if everything was SQL?",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#1b1b17",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "LLMs don't know what your API is.\nBut LLMs know what SQL is.\nWhat if everything was SQL?",
+        "x": 19.0,
+        "y": 9.0,
+        "w": 62.0,
+        "h": 28.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Your orchestration or AI tool calling",
+        "x": 18.0,
+        "y": 55.0,
+        "w": 23.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tool-call",
+        "x": 17.0,
+        "y": 70.0,
+        "w": 9.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Databases",
+        "x": 10.0,
+        "y": 84.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "APIs",
+        "x": 27.0,
+        "y": 84.0,
+        "w": 7.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Vector",
+        "x": 42.0,
+        "y": 84.0,
+        "w": 8.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "SQL Pacha DDN",
+        "x": 57.0,
+        "y": 55.0,
+        "w": 20.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-009.jpg",
+  "image": "wiki/assets/reconstructed-slides/himhGiWJXjo/slide-009.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668486.104387,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "LLMs don't know what your API is.\nBut LLMs know what SQL is.\nWhat if everything was SQL?",
+  "advanced_ocr": {}
+}

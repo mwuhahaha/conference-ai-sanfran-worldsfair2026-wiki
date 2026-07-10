@@ -1,0 +1,36 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agents SDK automatically sends traces to the Traces dashboard in your OpenAI account\nReview conversations\nReplay audio\nInspect tool calls",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white with pink-red product panel on the right",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "• Agents SDK automatically sends traces to the Traces dashboard in your OpenAI account\n• Review conversations\n• Replay audio\n• Inspect tool calls",
+        "x": 13.0,
+        "y": 15.0,
+        "w": 40.0,
+        "h": 35.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/dense-slides/iXhba366fQc/slide-004.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669074.5889978,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Agents SDK automatically sends traces to the Traces dashboard in your OpenAI account\nReview conversations\nReplay audio\nInspect tool calls",
+  "advanced_ocr": {}
+}

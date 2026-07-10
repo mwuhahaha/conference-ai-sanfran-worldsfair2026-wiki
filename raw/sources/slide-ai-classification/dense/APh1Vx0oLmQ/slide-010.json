@@ -1,106 +1,120 @@
 {
   "is_content_slide": true,
-  "confidence": 0.98,
+  "confidence": 0.99,
   "frame_type": "content_slide",
   "reject_reason": "",
-  "text": "Human oversight is an escalation path,\nnot an operational bottleneck.\n\nWorkflow Routing Diagram\n\nDecision Gate\nRisk / Confidence Check\n\nEdge Case Routing\n\nHuman Approval Node\nManual Review Required\n\nApproved State / Resolution\n\n[ANALYSIS: ESCALATION PATHWAYS]",
+  "text": "",
   "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Routing diagram with several labels and smaller annotations; OCR is appropriate for the node labels and path text.",
+  "direct_read_ready": false,
+  "text_density": "high",
   "layout": {
-    "background": "off-white",
+    "background": "light off-white with diagram accents",
     "style": "diagram",
     "blocks": [
       {
         "role": "title",
-        "text": "Human oversight is an escalation path,\nnot an operational bottleneck.",
-        "x": 5.0,
-        "y": 0,
-        "w": 62.0,
-        "h": 12.0
+        "text": "Human oversight is an escalation path, not an operational bottleneck.",
+        "x": 4.0,
+        "y": 1.0,
+        "w": 88.0,
+        "h": 18.0
       },
       {
         "role": "subtitle",
         "text": "Workflow Routing Diagram",
-        "x": 5.0,
-        "y": 15.0,
-        "w": 25.0,
-        "h": 6.0
+        "x": 4.0,
+        "y": 18.0,
+        "w": 28.0,
+        "h": 7.0
       },
       {
         "role": "diagram_label",
         "text": "Decision Gate",
         "x": 42.0,
-        "y": 23.0,
-        "w": 14.0,
-        "h": 5.0
+        "y": 28.0,
+        "w": 16.0,
+        "h": 7.0
       },
       {
         "role": "diagram_label",
         "text": "Risk / Confidence Check",
         "x": 41.0,
-        "y": 28.0,
-        "w": 18.0,
-        "h": 4.0
+        "y": 34.0,
+        "w": 20.0,
+        "h": 7.0
       },
       {
         "role": "diagram_label",
         "text": "Automated Agent Tasks",
-        "x": 15.0,
-        "y": 35.0,
+        "x": 10.0,
+        "y": 39.0,
         "w": 20.0,
-        "h": 4.0
+        "h": 6.0
       },
       {
         "role": "diagram_label",
         "text": "Automated Agent Tasks",
-        "x": 64.0,
-        "y": 35.0,
+        "x": 69.0,
+        "y": 39.0,
         "w": 20.0,
-        "h": 4.0
+        "h": 6.0
       },
       {
         "role": "diagram_label",
         "text": "Edge Case Routing",
-        "x": 47.0,
-        "y": 59.0,
-        "w": 14.0,
-        "h": 5.0
+        "x": 49.0,
+        "y": 62.0,
+        "w": 16.0,
+        "h": 6.0
       },
       {
         "role": "diagram_label",
         "text": "Human Approval Node",
-        "x": 47.0,
-        "y": 73.0,
+        "x": 40.0,
+        "y": 80.0,
         "w": 18.0,
-        "h": 5.0
+        "h": 6.0
       },
       {
-        "role": "caption",
+        "role": "diagram_label",
         "text": "Manual Review Required",
-        "x": 47.0,
-        "y": 79.0,
-        "w": 17.0,
-        "h": 4.0
+        "x": 39.0,
+        "y": 86.0,
+        "w": 20.0,
+        "h": 6.0
       },
       {
         "role": "diagram_label",
         "text": "Approved State / Resolution",
-        "x": 76.0,
-        "y": 61.0,
-        "w": 19.0,
-        "h": 5.0
+        "x": 74.0,
+        "y": 65.0,
+        "w": 22.0,
+        "h": 6.0
       },
       {
         "role": "caption",
         "text": "[ANALYSIS: ESCALATION PATHWAYS]",
-        "x": 5.0,
-        "y": 92.0,
-        "w": 30.0,
-        "h": 4.0
+        "x": 4.0,
+        "y": 94.0,
+        "w": 34.0,
+        "h": 5.0
       }
     ]
   },
+  "image_index": 2,
+  "filename": "slide-010.jpg",
   "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-010.jpg",
   "deck_kind": "dense",
   "model": "gpt-5.4-mini",
-  "classified_at_epoch": 1783646983.9447243
+  "classified_at_epoch": 1783658617.954557,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
 }

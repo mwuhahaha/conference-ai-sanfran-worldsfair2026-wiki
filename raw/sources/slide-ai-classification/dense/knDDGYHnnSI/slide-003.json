@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Q: What...?\nUser\nYour Application\nEmbedding Generator\nQ\nV\nVector search for V\nRelevant Documents and Context\nKnowledge Graph With Vector Support",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Sparse diagram labels are better captured directly than via OCR.",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "white with dark teal border",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "Q: What...?",
+        "x": 25.0,
+        "y": 4.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "User",
+        "x": 47.0,
+        "y": 12.0,
+        "w": 8.0,
+        "h": 7.0
+      },
+      {
+        "role": "title",
+        "text": "Your Application",
+        "x": 36.0,
+        "y": 24.0,
+        "w": 28.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Embedding Generator",
+        "x": 11.0,
+        "y": 47.0,
+        "w": 17.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Vector search for V",
+        "x": 37.0,
+        "y": 44.0,
+        "w": 14.0,
+        "h": 13.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Relevant Documents and Context",
+        "x": 58.0,
+        "y": 42.0,
+        "w": 20.0,
+        "h": 15.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Knowledge Graph With Vector Support",
+        "x": 39.0,
+        "y": 70.0,
+        "w": 24.0,
+        "h": 13.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/knDDGYHnnSI/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783670131.6564732,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Q: What...?\nUser\nYour Application\nEmbedding Generator\nQ\nV\nVector search for V\nRelevant Documents and Context\nKnowledge Graph With Vector Support",
+  "advanced_ocr": {}
+}

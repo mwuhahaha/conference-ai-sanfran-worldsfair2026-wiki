@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "How To Reach SOTA Performance?\nOption 1: Use optimized Performance models\nAIE\nVideoEndpoints Image Endpoints Text Endpoints AudioEndpoints\nWeplicoto Koyeb aws Runware Segmnd WIRO\nOption 2: Develop and apply inference optimization\nPrunoAI\nAI EfficiencyPackage AlEfficiencyMaterials AI Efficiency Courses\naRaihub.comPnnaAwcoun\nAI Engineer\nJUUU",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "This slide has multiple small cards, labels, and links that are best left for OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#130914",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How To Reach SOTA Performance?",
+        "x": 28.0,
+        "y": 6.0,
+        "w": 46.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Option 1: Use optimized Performance models",
+        "x": 31.0,
+        "y": 15.0,
+        "w": 42.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Option 2: Develop and apply inference optimization",
+        "x": 31.0,
+        "y": 41.0,
+        "w": 49.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "three resource cards for package, materials, and courses",
+        "x": 35.0,
+        "y": 50.0,
+        "w": 55.0,
+        "h": 25.0
+      },
+      {
+        "role": "caption",
+        "text": "AI Efficiency Package",
+        "x": 37.0,
+        "y": 60.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "AI Efficiency Materials",
+        "x": 58.0,
+        "y": 60.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "AI Efficiency Courses",
+        "x": 79.0,
+        "y": 60.0,
+        "w": 14.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-012.jpg",
+  "image": "wiki/assets/slides/hqHC6Z_lXyo/slide-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668825.6551814,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "How To Reach SOTA Performance?",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "How To Reach SOTA Performance?\nOption 1: Use optimized Performance models\nAIE\nVideoEndpoints Image Endpoints Text Endpoints AudioEndpoints\nWeplicoto Koyeb aws Runware Segmnd WIRO\nOption 2: Develop and apply inference optimization\nPrunoAI\nAI EfficiencyPackage AlEfficiencyMaterials AI Efficiency Courses\naRaihub.comPnnaAwcoun\nAI Engineer\nJUUU",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 490.28
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "How To Reach SOTA Performance?\nOption 1: Use optimized Performance models\nAIE\nVideoEndpoints Image Endpoints Text Endpoints AudioEndpoints\nWeplicoto Koyeb aws Runware Segmnd WIRO\nOption 2: Develop and apply inference optimization\nPrunoAI\nAI EfficiencyPackage AlEfficiencyMaterials AI Efficiency Courses\naRaihub.comPnnaAwcoun\nAI Engineer\nJUUU",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "HChMOPTCo\nI havent written a fine of code In 3 months. Cursor,+ Claude does everything.s. I Just revlew and shlp. Thls Is the future and I'm never going back.\nAIE\non our monorepo and it hallucinated half the imports, broke 3 servlces, then Genulnely cunious what codebase these people are working on. I trled Claude? anythlng beyond todo apps. told me everything was passing. Al coding tools are 8 mass delusion for.\nGoogleDeepMind\nneer",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense screenshot text and multiple regions; OCR is safer than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#000000",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 18.0,
+        "w": 14.0,
+        "h": 20.0
+      },
+      {
+        "role": "body",
+        "text": "#ChatGPTCoding\nI haven't written a line of code in 3 months. Cursor + Claude does everything. I just review and ship. This is the future and I'm never going back.",
+        "x": 37.0,
+        "y": 8.0,
+        "w": 46.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "#ExperiencedDevs\nGenuinely curious what codebase these people are working on. I tried Claude on our monorepo and it hallucinated half the imports, broke 3 services, then told me everything was passing. AI coding tools are a mass delusion for anything beyond todo apps.",
+        "x": 37.0,
+        "y": 37.0,
+        "w": 48.0,
+        "h": 28.0
+      },
+      {
+        "role": "title",
+        "text": "Google DeepMind",
+        "x": 49.0,
+        "y": 83.0,
+        "w": 28.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/iRcX54EO5g8/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669001.3543944,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Google DeepMind",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/opencv-adaptive",
+    "text": "HChMOPTCo\nI havent written a fine of code In 3 months. Cursor,+ Claude does everything.s. I Just revlew and shlp. Thls Is the future and I'm never going back.\nAIE\non our monorepo and it hallucinated half the imports, broke 3 servlces, then Genulnely cunious what codebase these people are working on. I trled Claude? anythlng beyond todo apps. told me everything was passing. Al coding tools are 8 mass delusion for.\nGoogleDeepMind\nneer",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 737.4
+  },
+  "ocr_source": "rapidocr-live/border-trim/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "HChMOPTCo\nI havent written a fine of code In 3 months. Cursor,+ Claude does everything.s. I Just revlew and shlp. Thls Is the future and I'm never going back.\nAIE\non our monorepo and it hallucinated half the imports, broke 3 servlces, then Genulnely cunious what codebase these people are working on. I trled Claude? anythlng beyond todo apps. told me everything was passing. Al coding tools are 8 mass delusion for.\nGoogleDeepMind\nneer",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

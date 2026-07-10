@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Same prompt. Same model. Different context.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "off-white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Same prompt. Same model. Different context.",
+        "x": 18.0,
+        "y": 7.0,
+        "w": 56.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Validation & Integration Tests",
+        "x": 14.0,
+        "y": 18.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Doesn't Break Existing Implementation",
+        "x": 51.0,
+        "y": 18.0,
+        "w": 35.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "DRY Code, High Quality Bar",
+        "x": 14.0,
+        "y": 49.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Respects Our Conventions",
+        "x": 51.0,
+        "y": 49.0,
+        "w": 35.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/5ID22ACI7IM/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657558.4435573,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Same prompt. Same model. Different context.",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

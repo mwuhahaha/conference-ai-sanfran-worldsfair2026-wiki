@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "KYAGENTS -build/ sup HSM SS4T.agen\nA Awaltls\nALLIANCEPANTL\nKilro'ssh Addchannes festre to README Remote Access Sue your telaig va tnk\nksdChs fee o README Channels Open,\nDurg'dur Add Coplot CuIplatformsupoort 1borcotgared torparogs\nMag'grim Submt campaign bo new section 3 MagtukAdd besds.dev tekmsnagemet int Reading CampaipPane tsx ACTIVELOOPS Hall mschire egent teseraton Opn\nRek'osh 1dem.claude\nACTIVITY (11)\nQoest Started\nHero Recruited\nQucst Started lib/ github/.cursor/\nEXTENSIONS\n1s piogins\nServers\nWARFACTORY",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense product/dashboard screenshot with many small labels, tabs, and map annotations; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "green terrain map with blue ocean and dark UI panels",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "MY AGENTS",
+        "x": 2.0,
+        "y": 8.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "ALLIANCE PANEL",
+        "x": 77.0,
+        "y": 11.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "ACTIVITY (11)",
+        "x": 1.0,
+        "y": 40.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "EXTENSIONS",
+        "x": 29.0,
+        "y": 76.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "WAR FACTORY",
+        "x": 24.0,
+        "y": 87.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": ".claude/",
+        "x": 86.0,
+        "y": 50.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": ".codex/",
+        "x": 83.0,
+        "y": 59.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": ".cursor/",
+        "x": 79.0,
+        "y": 66.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": ".github/",
+        "x": 75.0,
+        "y": 73.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "lib/",
+        "x": 4.0,
+        "y": 64.0,
+        "w": 8.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/reconstructed-slides/kR64LOqBBCU/slide-008.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669586.4216511,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "KYAGENTS -build/ sup HSM SS4T.agen\nA Awaltls\nALLIANCEPANTL\nKilro'ssh Addchannes festre to README Remote Access Sue your telaig va tnk\nksdChs fee o README Channels Open,\nDurg'dur Add Coplot CuIplatformsupoort 1borcotgared torparogs\nMag'grim Submt campaign bo new section 3 MagtukAdd besds.dev tekmsnagemet int Reading CampaipPane tsx ACTIVELOOPS Hall mschire egent teseraton Opn\nRek'osh 1dem.claude\nACTIVITY (11)\nQoest Started\nHero Recruited\nQucst Started lib/ github/.cursor/\nEXTENSIONS\n1s piogins\nServers\nWARFACTORY",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 800.0
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "KYAGENTS -build/ sup HSM SS4T.agen\nA Awaltls\nALLIANCEPANTL\nKilro'ssh Addchannes festre to README Remote Access Sue your telaig va tnk\nksdChs fee o README Channels Open,\nDurg'dur Add Coplot CuIplatformsupoort 1borcotgared torparogs\nMag'grim Submt campaign bo new section 3 MagtukAdd besds.dev tekmsnagemet int Reading CampaipPane tsx ACTIVELOOPS Hall mschire egent teseraton Opn\nRek'osh 1dem.claude\nACTIVITY (11)\nQoest Started\nHero Recruited\nQucst Started lib/ github/.cursor/\nEXTENSIONS\n1s piogins\nServers\nWARFACTORY",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

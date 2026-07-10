@@ -16,11 +16,20 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/5N33E9tC400/slide-001.jpg]]
 
-- Source scene image: `frame-00013.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `177.27`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/5N33E9tC400/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: none.
+- OCR decision: ready — Dense transcript screenshot with small body text is better handled by OCR than manual transcription.
 ![[assets/dense-slides/5N33E9tC400/slide-002.jpg]]
 
-- Source scene image: `frame-00025.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.85`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/5N33E9tC400/slide-002.html)
+- AI slide classifier: `content_slide` confidence `0.94`
+- Text source: agent_vision.
+- OCR decision: ready — The slide combines screenshots, charts, and small labels that OCR should capture more reliably than a quick visual pass.
+
+Slide text:
+
+> Agent PMF — ChatGPT.com
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/5N33E9tC400/audit.json`

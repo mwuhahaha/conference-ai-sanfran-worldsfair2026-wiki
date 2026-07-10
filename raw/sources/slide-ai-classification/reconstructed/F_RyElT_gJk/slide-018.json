@@ -1,0 +1,72 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "none",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code/editor screenshot with small labels and diff text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 24.0,
+        "w": 13.0,
+        "h": 20.0
+      },
+      {
+        "role": "title",
+        "text": "Investigate and implement Linear connector icon",
+        "x": 66.0,
+        "y": 6.0,
+        "w": 27.0,
+        "h": 7.0
+      },
+      {
+        "role": "code",
+        "text": "server/src/routes/admin/connections.svelte",
+        "x": 18.0,
+        "y": 4.0,
+        "w": 78.0,
+        "h": 80.0
+      },
+      {
+        "role": "logo",
+        "text": "Microsoft",
+        "x": 46.0,
+        "y": 83.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "logo",
+        "text": "smol ai",
+        "x": 73.0,
+        "y": 83.0,
+        "w": 12.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/reconstructed-slides/F_RyElT_gJk/slide-018.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783659324.0649817,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

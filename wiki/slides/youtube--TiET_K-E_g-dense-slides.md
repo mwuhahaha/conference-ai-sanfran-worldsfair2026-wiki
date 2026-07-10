@@ -16,6 +16,28 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/-TiET_K-E_g/slide-001.jpg]]
 
-- Source scene image: `frame-00004.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.56`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/-TiET_K-E_g/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/border-trim/contrast` reconciled by agent.
+- OCR decision: ready — Dense small text in four cards; OCR is likely more accurate than manual triage.
+
+Slide text:
+
+> Running AI on the Edge has many benefits
+> 
+> Latency / UX
+> Faster, no network involved
+> 
+> Privacy
+> Sensitive data not sent off device
+> 
+> Offline use
+> Works without requiring cellular
+> 
+> Savings
+> Lower or no data-center costs
+> 
+> AI Engineer EUROPE
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/-TiET_K-E_g/audit.json`

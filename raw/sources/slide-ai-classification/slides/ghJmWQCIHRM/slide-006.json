@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "BEATDROP\nWebMCPTools-\ndescription InputSchema\nAIE Feel theLiveMusic Findyournext unfon Experience ithBeatDrop. Fiter concerts bycategory. date,and/or price. (\"type\"：\"object\", \"properties\":{\"category”1{ \"type\";\"string\". \"description\"Filter by \"date\":{\"type\"]\"string”, （--0o）.）.\"mxPrice” \"description:Maximmprice to fitter by （GP).\"}）） \"description;“Filter by date （\"type”：\"ngnber”, fiter_conoerts\nGet a list of all concerts. {\"type°：\"object\", \"properties:(}） gef_concerts\nFeaturedEvents Thenpurchase paado papefora toolswilbe concert by ID. avallable. {\"type\"：\"object”. \"type\"：\"integer\", concert toopen,）), \"properties:(\"eventId”：（ \"description;\"TheIDof the \"required”:[\"eventie])\nInteractwith thePage-\nUserPrompt\nAIEngineer\nAIEngi EUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense product/UI screenshot with small interface text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with embedded app screenshot and tools panel",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "BEATDROP",
+        "x": 32.0,
+        "y": 7.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "title",
+        "text": "Feel the Live Music Experience",
+        "x": 35.0,
+        "y": 39.0,
+        "w": 31.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Featured Events",
+        "x": 39.0,
+        "y": 65.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "WebMCP Tools",
+        "x": 66.0,
+        "y": 8.0,
+        "w": 16.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/ghJmWQCIHRM/slide-006.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667880.6782577,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "BEATDROP\nWebMCPTools-\ndescription InputSchema\nAIE Feel theLiveMusic Findyournext unfon Experience ithBeatDrop. Fiter concerts bycategory. date,and/or price. (\"type\"：\"object\", \"properties\":{\"category”1{ \"type\";\"string\". \"description\"Filter by \"date\":{\"type\"]\"string”, （--0o）.）.\"mxPrice” \"description:Maximmprice to fitter by （GP).\"}）） \"description;“Filter by date （\"type”：\"ngnber”, fiter_conoerts\nGet a list of all concerts. {\"type°：\"object\", \"properties:(}） gef_concerts\nFeaturedEvents Thenpurchase paado papefora toolswilbe concert by ID. avallable. {\"type\"：\"object”. \"type\"：\"integer\", concert toopen,）), \"properties:(\"eventId”：（ \"description;\"TheIDof the \"required”:[\"eventie])\nInteractwith thePage-\nUserPrompt\nAIEngineer\nAIEngi EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 861.36
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "BEATDROP\nWebMCPTools-\ndescription InputSchema\nAIE Feel theLiveMusic Findyournext unfon Experience ithBeatDrop. Fiter concerts bycategory. date,and/or price. (\"type\"：\"object\", \"properties\":{\"category”1{ \"type\";\"string\". \"description\"Filter by \"date\":{\"type\"]\"string”, （--0o）.）.\"mxPrice” \"description:Maximmprice to fitter by （GP).\"}）） \"description;“Filter by date （\"type”：\"ngnber”, fiter_conoerts\nGet a list of all concerts. {\"type°：\"object\", \"properties:(}） gef_concerts\nFeaturedEvents Thenpurchase paado papefora toolswilbe concert by ID. avallable. {\"type\"：\"object”. \"type\"：\"integer\", concert toopen,）), \"properties:(\"eventId”：（ \"description;\"TheIDof the \"required”:[\"eventie])\nInteractwith thePage-\nUserPrompt\nAIEngineer\nAIEngi EUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

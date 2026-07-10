@@ -1,0 +1,76 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why evals matter now?\nModels improved. Choosing became harder.\nVibe checks do not scale\nSWE performance grows rapidly\nOptions change every month\n* SWE-rebench 2026_02 tasks",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg, #000 0 28%, #f7f6f2 28% 100%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Why evals matter now?\nModels improved. Choosing became harder.",
+        "x": 29.0,
+        "y": 5.0,
+        "w": 55.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "Vibe checks do not scale\nSWE performance grows rapidly\nOptions change every month",
+        "x": 29.0,
+        "y": 29.0,
+        "w": 28.0,
+        "h": 18.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 56.0,
+        "y": 18.0,
+        "w": 35.0,
+        "h": 50.0
+      },
+      {
+        "role": "caption",
+        "text": "* SWE-rebench 2026_02 tasks",
+        "x": 29.0,
+        "y": 78.0,
+        "w": 26.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 43.0,
+        "y": 82.0,
+        "w": 33.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/wcUJWP6WpGM/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672444.144081,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why evals matter now?\nModels improved. Choosing became harder.\nVibe checks do not scale\nSWE performance grows rapidly\nOptions change every month\n* SWE-rebench 2026_02 tasks",
+  "advanced_ocr": {}
+}

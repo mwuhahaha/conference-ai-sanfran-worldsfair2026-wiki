@@ -1,0 +1,100 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.99,
+  "frame_type": "sponsor_logo",
+  "reject_reason": "sponsor/logo wall, not a presentation slide",
+  "text": "",
+  "text_status": "decorative",
+  "ocr_ready": false,
+  "ocr_reason": "non-slide sponsor wall",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "#000000",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "INNOVATION PARTNER",
+        "x": 38.0,
+        "y": 7.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 41.0,
+        "y": 13.0,
+        "w": 18.0,
+        "h": 16.0
+      },
+      {
+        "role": "caption",
+        "text": "PLATINUM SPONSORS",
+        "x": 38.0,
+        "y": 29.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "Graphite",
+        "x": 11.0,
+        "y": 50.0,
+        "w": 24.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "Windsurf",
+        "x": 37.0,
+        "y": 50.0,
+        "w": 24.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "MongoDB.",
+        "x": 67.0,
+        "y": 50.0,
+        "w": 23.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "daily",
+        "x": 10.0,
+        "y": 66.0,
+        "w": 18.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "augment code",
+        "x": 31.0,
+        "y": 66.0,
+        "w": 33.0,
+        "h": 9.0
+      },
+      {
+        "role": "logo",
+        "text": "WorkOS",
+        "x": 69.0,
+        "y": 66.0,
+        "w": 22.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/reconstructed-slides/MRM7oA3JsFs/slide-001.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661022.3907905,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

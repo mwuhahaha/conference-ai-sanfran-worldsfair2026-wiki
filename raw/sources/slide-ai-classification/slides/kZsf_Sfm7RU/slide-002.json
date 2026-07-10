@@ -1,0 +1,100 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "We shipped it in 3 weeks. 3 wks TO FIRST PRODUCT ~300K LINES ~$35K SPENT",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#ffffff",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "THE EASY PART",
+        "x": 6.0,
+        "y": 6.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "We shipped it in 3 weeks.",
+        "x": 6.0,
+        "y": 18.0,
+        "w": 48.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "3 wks",
+        "x": 6.0,
+        "y": 44.0,
+        "w": 26.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "TO FIRST PRODUCT",
+        "x": 6.0,
+        "y": 66.0,
+        "w": 26.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "~300K",
+        "x": 37.0,
+        "y": 44.0,
+        "w": 26.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "LINES",
+        "x": 37.0,
+        "y": 66.0,
+        "w": 26.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "~$35K",
+        "x": 68.0,
+        "y": 44.0,
+        "w": 26.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "SPENT",
+        "x": 68.0,
+        "y": 66.0,
+        "w": 26.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Shipping is fast now. That was the easy part.",
+        "x": 30.0,
+        "y": 80.0,
+        "w": 43.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/kZsf_Sfm7RU/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669591.600628,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "We shipped it in 3 weeks. 3 wks TO FIRST PRODUCT ~300K LINES ~$35K SPENT",
+  "advanced_ocr": {}
+}

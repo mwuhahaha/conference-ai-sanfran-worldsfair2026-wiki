@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Leaderboard\n1,400 trlls 31.3M try' tobens / triat:iongest trit 877.4M\nAl Ciaude Opus 4.8 / ctabe Ctoe HODEl / AGEHT ResotutIoN Rate ipAssei1 26.0%\nAl Cisude Opus 4.7 / ctuce Cooe 16.0%\n7. GLM 5.2 / (1** Co4s 13.0%\nGpT-5.5 / (oden Ct1 12.0%\nGemiru 3.5 Flash / Ce=inl (l1 7.0%\nG DeepStek V4 Pro / Ttralnus 2 4.0%\nGemini 31 Pro Preview / Ge=int Ct1 2.0%.\nMiniMax M2.7 / Teratrat? 0.0%\nKimi K2.6 / x1ml (ode (t1 0.0%\n452 734\n.7 10:",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense leaderboard table and small chart labels are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f6efe5",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Leaderboard",
+        "x": 5.0,
+        "y": 10.0,
+        "w": 23.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "1,400 trials",
+        "x": 6.0,
+        "y": 17.0,
+        "w": 12.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "31.3M avg tokens / trial",
+        "x": 35.0,
+        "y": 17.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "877.4M longest trial",
+        "x": 68.0,
+        "y": 17.0,
+        "w": 20.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MODEL / AGENT",
+        "x": 6.0,
+        "y": 28.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "RESOLUTION RATE (pass@1)",
+        "x": 80.0,
+        "y": 28.0,
+        "w": 18.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-007.jpg",
+  "image": "wiki/assets/slides/Rx8f05JI_WA/slide-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662923.2557473,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Leaderboard",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Leaderboard\n1,400 trlls 31.3M try' tobens / triat:iongest trit 877.4M\nAl Ciaude Opus 4.8 / ctabe Ctoe HODEl / AGEHT ResotutIoN Rate ipAssei1 26.0%\nAl Cisude Opus 4.7 / ctuce Cooe 16.0%\n7. GLM 5.2 / (1** Co4s 13.0%\nGpT-5.5 / (oden Ct1 12.0%\nGemiru 3.5 Flash / Ce=inl (l1 7.0%\nG DeepStek V4 Pro / Ttralnus 2 4.0%\nGemini 31 Pro Preview / Ge=int Ct1 2.0%.\nMiniMax M2.7 / Teratrat? 0.0%\nKimi K2.6 / x1ml (ode (t1 0.0%\n452 734\n.7 10:",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 564.4
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Leaderboard\n1,400 trlls 31.3M try' tobens / triat:iongest trit 877.4M\nAl Ciaude Opus 4.8 / ctabe Ctoe HODEl / AGEHT ResotutIoN Rate ipAssei1 26.0%\nAl Cisude Opus 4.7 / ctuce Cooe 16.0%\n7. GLM 5.2 / (1** Co4s 13.0%\nGpT-5.5 / (oden Ct1 12.0%\nGemiru 3.5 Flash / Ce=inl (l1 7.0%\nG DeepStek V4 Pro / Ttralnus 2 4.0%\nGemini 31 Pro Preview / Ge=int Ct1 2.0%.\nMiniMax M2.7 / Teratrat? 0.0%\nKimi K2.6 / x1ml (ode (t1 0.0%\n452 734\n.7 10:",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

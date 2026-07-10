@@ -1,0 +1,80 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense UI screenshot with small labels and body text; OCR is the better triage path.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light beige",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "GPT + Enterprise data | Sample",
+        "x": 2.0,
+        "y": 1.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Chat",
+        "x": 40.0,
+        "y": 1.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Ask a question",
+        "x": 48.0,
+        "y": 1.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Azure OpenAI + AI Search",
+        "x": 79.0,
+        "y": 1.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "What does a Product Manager do?",
+        "x": 61.0,
+        "y": 12.0,
+        "w": 15.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "what else do they do?",
+        "x": 66.0,
+        "y": 29.0,
+        "w": 12.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/dense-slides/1t-9-s1brcg/slide-003.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657240.9657965,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

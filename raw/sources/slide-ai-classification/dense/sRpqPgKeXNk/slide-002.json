@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "their latest reasoning models, followed closely by other labs\nArtificlol Analysis Intolligonce Index (incorporates MMLU-Pra, GPQA, Humanity's Last Exam, LivoCodeBench, SciCoda, AIME, MATH-500) Leading Large Language Model (LLMs), by Al lab\nA Artlflctal Analysts\n70 02 68 68 67 64 2 9 5 3 53 51 42 41\n(high) G x sndd A\\ 2358 Reasonin 9 2 AI Llama 8 P M ews.\nSourco: Artiticint Anotysis indopondont benchmarking A Artificlal Analysis",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense chart slide with many small labels and bars; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Frontier Intelligence: OpenAI, Google, DeepSeek and xAI lead frontier intelligence with their latest reasoning models, followed closely by other labs",
+        "x": 2.0,
+        "y": 0,
+        "w": 96.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "Leading Large Language Model (LLMs), by AI lab",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 48.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Artificial Analysis Intelligence Index (incorporates MMLU-Pro, GPQA, Humanity's Last Exam, LiveCodeBench, SciCode, AIME, MATH-500)",
+        "x": 4.0,
+        "y": 21.0,
+        "w": 78.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/sRpqPgKeXNk/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671822.6151967,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "their latest reasoning models, followed closely by other labs\nArtificlol Analysis Intolligonce Index (incorporates MMLU-Pra, GPQA, Humanity's Last Exam, LivoCodeBench, SciCoda, AIME, MATH-500) Leading Large Language Model (LLMs), by Al lab\nA Artlflctal Analysts\n70 02 68 68 67 64 2 9 5 3 53 51 42 41\n(high) G x sndd A\\ 2358 Reasonin 9 2 AI Llama 8 P M ews.\nSourco: Artiticint Anotysis indopondont benchmarking A Artificlal Analysis",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 550.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "their latest reasoning models, followed closely by other labs\nArtificlol Analysis Intolligonce Index (incorporates MMLU-Pra, GPQA, Humanity's Last Exam, LivoCodeBench, SciCoda, AIME, MATH-500) Leading Large Language Model (LLMs), by Al lab\nA Artlflctal Analysts\n70 02 68 68 67 64 2 9 5 3 53 51 42 41\n(high) G x sndd A\\ 2358 Reasonin 9 2 AI Llama 8 P M ews.\nSourco: Artiticint Anotysis indopondont benchmarking A Artificlal Analysis",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

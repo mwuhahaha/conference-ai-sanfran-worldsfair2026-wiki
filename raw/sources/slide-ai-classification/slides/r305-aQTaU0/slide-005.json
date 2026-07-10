@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "product",
+  "reject_reason": "",
+  "text": "Textdiffusion candobidirectionalreasoning andself-correction\n(15-3）/(2*2)).F1rst at1s（v（81）（2/3））*2. providetheansaer andthen +Gemini Diffusion 1dns\nAIE thesevare roat\nGoogleDeepMind\ngo/try-saturn\nAIEngineer\nAIEn EUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense screenshot and equation text",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "black",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Text diffusion can do bidirectional reasoning and self-correction",
+        "x": 31.0,
+        "y": 5.0,
+        "w": 47.0,
+        "h": 8.0
+      },
+      {
+        "role": "caption",
+        "text": "go/try-saturn",
+        "x": 30.0,
+        "y": 81.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "Google DeepMind",
+        "x": 83.0,
+        "y": 73.0,
+        "w": 12.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/r305-aQTaU0/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783671016.9978986,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Textdiffusion candobidirectionalreasoning andself-correction\n(15-3）/(2*2)).F1rst at1s（v（81）（2/3））*2. providetheansaer andthen +Gemini Diffusion 1dns\nAIE thesevare roat\nGoogleDeepMind\ngo/try-saturn\nAIEngineer\nAIEn EUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 259.04
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Textdiffusion candobidirectionalreasoning andself-correction\n(15-3）/(2*2)).F1rst at1s（v（81）（2/3））*2. providetheansaer andthen +Gemini Diffusion 1dns\nAIE thesevare roat\nGoogleDeepMind\ngo/try-saturn\nAIEngineer\nAIEn EUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

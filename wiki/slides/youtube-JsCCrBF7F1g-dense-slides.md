@@ -16,6 +16,22 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/JsCCrBF7F1g/slide-001.jpg]]
 
-- Source scene image: `frame-00005.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.87`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/JsCCrBF7F1g/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.98`
+- Text source: advanced OCR `rapidocr-live/bright-screen/contrast` reconciled by agent.
+- OCR decision: ready — Diagram slide with multiple boxed text regions and smaller body copy that is better suited for OCR than manual transcription.
+
+Slide text:
+
+> Observability
+> What is happening in my application? Can I root cause down into the problem?
+> 
+> Evaluation
+> How well is the AI product that I've built, actually performing according my criteria?
+> 
+> Experimentation & Improvement
+> The ultimate goal of observability and evaluation is to know where to iterate
+> and know where to improve the system
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/JsCCrBF7F1g/audit.json`

@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "Relocation Scout\na house hunting agent",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "warm white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Relocation Scout",
+        "x": 31.0,
+        "y": 28.0,
+        "w": 39.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "a house hunting agent",
+        "x": 42.0,
+        "y": 38.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "Angie Jones - VP of DX, Agentic AI Foundation",
+        "x": 1.0,
+        "y": 95.0,
+        "w": 54.0,
+        "h": 4.0
+      },
+      {
+        "role": "logo",
+        "text": "angiejones.tech",
+        "x": 88.0,
+        "y": 95.0,
+        "w": 10.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/ZD9-4fW2HhM/slide-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665569.1127036,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Relocation Scout\na house hunting agent",
+  "advanced_ocr": {}
+}

@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.86,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "Vault, running",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "black",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "LIVE DEMO",
+        "x": 12.0,
+        "y": 11.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Vault, running",
+        "x": 12.0,
+        "y": 15.0,
+        "w": 30.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-008.jpg",
+  "image": "wiki/assets/slides/akk6KRlcwW4/slide-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666331.9463766,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Vault, running",
+  "advanced_ocr": {}
+}

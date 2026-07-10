@@ -1,0 +1,159 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Two-column org-structure diagram with many small labels and role names is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal gradient",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Talent: Smaller but higher number of teams enabling higher capacity and higher feature throughput in large international airline",
+        "x": 26.0,
+        "y": 3.0,
+        "w": 66.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "From",
+        "x": 38.0,
+        "y": 16.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "To",
+        "x": 78.0,
+        "y": 16.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pod # 1\nPM\nTech Lead\nDevs\nQA",
+        "x": 33.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 35.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pod # 2\nPM\nTech lead\nDevs\nQA",
+        "x": 44.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 35.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pod # 1\nProduct definer\nLead builder\nProduct builders",
+        "x": 64.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 35.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pod # 2\nProduct definer\nLead builder\nProduct builders",
+        "x": 75.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 35.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pod # 3\nProduct definer\nLead builder\nProduct builders",
+        "x": 86.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 35.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Pod # 4\nProduct definer\nLead builder\nProduct builders",
+        "x": 97.0,
+        "y": 23.0,
+        "w": 10.0,
+        "h": 35.0
+      },
+      {
+        "role": "caption",
+        "text": "Two pizza team of 8-10 people",
+        "x": 34.0,
+        "y": 60.0,
+        "w": 25.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "One pizza team of 3-5 people",
+        "x": 68.0,
+        "y": 60.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "x2 number of pods for more features",
+        "x": 67.0,
+        "y": 66.0,
+        "w": 25.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Example shared functional roles",
+        "x": 67.0,
+        "y": 74.0,
+        "w": 22.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "SRE/Devops TPM Business analyst Data analysts/engineers",
+        "x": 26.0,
+        "y": 74.0,
+        "w": 48.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "ML / dev ops Security Engineer Enterprise Architects QA engineer",
+        "x": 66.0,
+        "y": 74.0,
+        "w": 32.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-016.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-016.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664190.783782,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/right-72/contrast",
+    "best_score": 922.28,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0013
+  }
+}

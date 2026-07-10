@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "We Cut 94% of Our AI Coding Tokens With a Local Code Index\nAI Engineer World's Fair\nJune 30 – July 2, 2026 • San Francisco\nSearch & Retrieval Track",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "radial-gradient(circle at 0% 0%, #12313a 0%, #0a0c14 45%)",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "AI ENGINEER WORLD'S FAIR\nJune 30 – July 2, 2026 • San Francisco\nSEARCH & RETRIEVAL TRACK",
+        "x": 38.0,
+        "y": 8.0,
+        "w": 24.0,
+        "h": 16.0
+      },
+      {
+        "role": "title",
+        "text": "We Cut 94% of Our AI Coding Tokens\nWith a Local Code Index",
+        "x": 7.0,
+        "y": 29.0,
+        "w": 86.0,
+        "h": 20.0
+      },
+      {
+        "role": "caption",
+        "text": "Rajkumar Sakthivel\ngithub.com/elara-labs/code-context-engine",
+        "x": 34.0,
+        "y": 71.0,
+        "w": 33.0,
+        "h": 13.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/dRmWYHuIJxM/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667254.1756914,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "We Cut 94% of Our AI Coding Tokens With a Local Code Index\nAI Engineer World's Fair\nJune 30 – July 2, 2026 • San Francisco\nSearch & Retrieval Track",
+  "advanced_ocr": {}
+}

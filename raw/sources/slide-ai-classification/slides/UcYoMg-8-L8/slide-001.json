@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Radical Speed Month\n30 Days\n501 People participating\n794 Projects started",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "#ffffff",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Radical Speed Month",
+        "x": 4.0,
+        "y": 4.0,
+        "w": 50.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "30\nDays",
+        "x": 3.0,
+        "y": 35.0,
+        "w": 12.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "501\nPeople participating",
+        "x": 35.0,
+        "y": 35.0,
+        "w": 20.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "794\nProjects started",
+        "x": 67.0,
+        "y": 35.0,
+        "w": 20.0,
+        "h": 18.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/UcYoMg-8-L8/slide-001.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664839.317005,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Radical Speed Month\n30 Days\n501 People participating\n794 Projects started",
+  "advanced_ocr": {}
+}

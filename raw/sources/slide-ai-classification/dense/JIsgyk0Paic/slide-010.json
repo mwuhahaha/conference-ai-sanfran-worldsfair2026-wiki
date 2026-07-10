@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.92,
+  "frame_type": "demo_video",
+  "reject_reason": "",
+  "text": "grpo_demo.py (*st ctme 6 hours +0o willccbb / grpo demo.py\nHundreds of Billions of Dotsrs Later Teknlum (e/入) 0 F 0Teknlum 1n30 This Is the entkre code needed to reproduce Rs ko! 一 Irokeaso todry the fnst Google Cotb nourbook to tain a reuroning nrw RrrlorceTtrt Ltvning slgorithm trom DepSetk, GRpo. h lte Jo) uru Aiy+ uea nor tpo 6uuea-rod o pue La o uonpol houri you can trrhform I tery srul model, Oron O.s (Soo mlor Hto a tirty muth reusonirg mruchint. To Uhh dale, Iha b probubhy th? oda PiarTe-Csrl Langlais. tu Co'nor Pth Revisons 60 Str3 960 MFoks 313 s-smits/grpo- optuna\nThe notedook a based on a tcrigt by Wilm Brorn thst signifcan Cn Llaru 1B csptcitits for math. This i a typical rtirforcerent hs Iprurh bayta os tocLtrduo erriplt ton cie girn cCire! has to find the solution, resrron ovor n for sorme tine (tis is the sbiotle basic Torm ol inetnce time carmacte) tnd rtttding the gooa resronihg dirtr Trsnino I smat meth reasone wth F1 Qwen o Sb on GRPO Reinsorcemant Leunirg rRLi tree vning m poou buuo+res Lu-sse,dneg wao nof Lre1 ed ov Hog poet aha nha M-snarrg Reasoning-GRPO & RL\nGSM8K Reward Functions\nSrmng up iher mocdet\nIhet pto, Moy\n2.3M cce3.763 80coTmm:·307ra90t1",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-panel collage with screenshots, code, and small UI text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "mixed dark collage",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "grpo_demo.py",
+        "x": 3.0,
+        "y": 3.0,
+        "w": 29.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Hundreds of Billions of Dollars Later",
+        "x": 5.0,
+        "y": 22.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Qwen 0.5b on GRPO",
+        "x": 44.0,
+        "y": 35.0,
+        "w": 20.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Reasoning - GRPO & RL",
+        "x": 67.0,
+        "y": 54.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "GSM8K Reward Functions",
+        "x": 63.0,
+        "y": 74.0,
+        "w": 23.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/JIsgyk0Paic/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783661434.0322344,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "grpo_demo.py",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "grpo_demo.py (*st ctme 6 hours +0o willccbb / grpo demo.py\nHundreds of Billions of Dotsrs Later Teknlum (e/入) 0 F 0Teknlum 1n30 This Is the entkre code needed to reproduce Rs ko! 一 Irokeaso todry the fnst Google Cotb nourbook to tain a reuroning nrw RrrlorceTtrt Ltvning slgorithm trom DepSetk, GRpo. h lte Jo) uru Aiy+ uea nor tpo 6uuea-rod o pue La o uonpol houri you can trrhform I tery srul model, Oron O.s (Soo mlor Hto a tirty muth reusonirg mruchint. To Uhh dale, Iha b probubhy th? oda PiarTe-Csrl Langlais. tu Co'nor Pth Revisons 60 Str3 960 MFoks 313 s-smits/grpo- optuna\nThe notedook a based on a tcrigt by Wilm Brorn thst signifcan Cn Llaru 1B csptcitits for math. This i a typical rtirforcerent hs Iprurh bayta os tocLtrduo erriplt ton cie girn cCire! has to find the solution, resrron ovor n for sorme tine (tis is the sbiotle basic Torm ol inetnce time carmacte) tnd rtttding the gooa resronihg dirtr Trsnino I smat meth reasone wth F1 Qwen o Sb on GRPO Reinsorcemant Leunirg rRLi tree vning m poou buuo+res Lu-sse,dneg wao nof Lre1 ed ov Hog poet aha nha M-snarrg Reasoning-GRPO & RL\nGSM8K Reward Functions\nSrmng up iher mocdet\nIhet pto, Moy\n2.3M cce3.763 80coTmm:·307ra90t1",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1789.12
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "grpo_demo.py (*st ctme 6 hours +0o willccbb / grpo demo.py\nHundreds of Billions of Dotsrs Later Teknlum (e/入) 0 F 0Teknlum 1n30 This Is the entkre code needed to reproduce Rs ko! 一 Irokeaso todry the fnst Google Cotb nourbook to tain a reuroning nrw RrrlorceTtrt Ltvning slgorithm trom DepSetk, GRpo. h lte Jo) uru Aiy+ uea nor tpo 6uuea-rod o pue La o uonpol houri you can trrhform I tery srul model, Oron O.s (Soo mlor Hto a tirty muth reusonirg mruchint. To Uhh dale, Iha b probubhy th? oda PiarTe-Csrl Langlais. tu Co'nor Pth Revisons 60 Str3 960 MFoks 313 s-smits/grpo- optuna\nThe notedook a based on a tcrigt by Wilm Brorn thst signifcan Cn Llaru 1B csptcitits for math. This i a typical rtirforcerent hs Iprurh bayta os tocLtrduo erriplt ton cie girn cCire! has to find the solution, resrron ovor n for sorme tine (tis is the sbiotle basic Torm ol inetnce time carmacte) tnd rtttding the gooa resronihg dirtr Trsnino I smat meth reasone wth F1 Qwen o Sb on GRPO Reinsorcemant Leunirg rRLi tree vning m poou buuo+res Lu-sse,dneg wao nof Lre1 ed ov Hog poet aha nha M-snarrg Reasoning-GRPO & RL\nGSM8K Reward Functions\nSrmng up iher mocdet\nIhet pto, Moy\n2.3M cce3.763 80coTmm:·307ra90t1",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

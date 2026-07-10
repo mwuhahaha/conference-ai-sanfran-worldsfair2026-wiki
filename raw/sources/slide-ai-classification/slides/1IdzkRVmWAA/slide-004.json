@@ -1,0 +1,56 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Agent trajectories - timeline",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "timeline graphic with small table text",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#000000",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Agent trajectories - timeline",
+        "x": 24.0,
+        "y": 12.0,
+        "w": 35.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agentic Search Trace",
+        "x": 9.0,
+        "y": 27.0,
+        "w": 24.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "waterfall timeline of tool calls",
+        "x": 10.0,
+        "y": 31.0,
+        "w": 30.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/1IdzkRVmWAA/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783657147.4892032,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Agent trajectories - timeline",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": "disabled"
+  }
+}

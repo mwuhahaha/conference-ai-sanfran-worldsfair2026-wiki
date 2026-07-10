@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Software engineering has changed for good\n★ ★ AIE ★ 0 and managing and reviewing their work in 2 months... You're not typing computer code into an editor... that era is over. You're spinning parallel.\" Co-fouhdur af Optrll, Feurder of turtls Labs up Alagents, giving them tasks *in English* programming has changed due to Alin the last \"It's hard to communicate how much I ndr ey Kaetpa thy.\nc2oze, Sararsource Sart\nGoogeDeepMind",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Readable content slide with dense quote text and small footer text that OCR should capture better than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white with black left sidebar and black lower band",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 9.0,
+        "w": 11.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "Software engineering has changed for good",
+        "x": 29.0,
+        "y": 3.0,
+        "w": 40.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 29.0,
+        "y": 28.0,
+        "w": 68.0,
+        "h": 42.0
+      },
+      {
+        "role": "caption",
+        "text": "Google DeepMind",
+        "x": 46.0,
+        "y": 73.0,
+        "w": 30.0,
+        "h": 11.0
+      },
+      {
+        "role": "caption",
+        "text": "©2026, SonarSource Sàrl",
+        "x": 31.0,
+        "y": 84.0,
+        "w": 22.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/NuePCNMpWGc/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783662402.8042119,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Software engineering has changed for good",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Software engineering has changed for good\n★ ★ AIE ★ 0 and managing and reviewing their work in 2 months... You're not typing computer code into an editor... that era is over. You're spinning parallel.\" Co-fouhdur af Optrll, Feurder of turtls Labs up Alagents, giving them tasks *in English* programming has changed due to Alin the last \"It's hard to communicate how much I ndr ey Kaetpa thy.\nc2oze, Sararsource Sart\nGoogeDeepMind",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 673.74
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Software engineering has changed for good\n★ ★ AIE ★ 0 and managing and reviewing their work in 2 months... You're not typing computer code into an editor... that era is over. You're spinning parallel.\" Co-fouhdur af Optrll, Feurder of turtls Labs up Alagents, giving them tasks *in English* programming has changed due to Alin the last \"It's hard to communicate how much I ndr ey Kaetpa thy.\nc2oze, Sararsource Sart\nGoogeDeepMind",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

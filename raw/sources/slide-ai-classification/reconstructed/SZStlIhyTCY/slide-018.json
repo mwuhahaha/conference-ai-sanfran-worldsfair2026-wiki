@@ -1,0 +1,122 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Case study of scaling productivity in top 10 technology company 01010 10101 10101\nTop 10 technology company for long term behavior change Unlocks needed to scale adoption\n一GenAl tool DailyActive Usors(#)一DAU retention(%)\n450 400 350 000 250 200 during training Usage spiked weeks... Nr 35 30 25 20 40 45 and coaching Al and agents Hands-on upskilling Resetexpectations of\n150 100 50...but many unlocks sustain behavior were nceded to change 15 10 Spark grassroots movement\nOct Nov Dec Jan Feb Mar Ap May Jun Jul system Build measurement\nMcXrsoy &Company 18\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Chart labels, annotations, and the right-side unlock list are dense enough that OCR is the better first pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark teal gradient",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Case study of scaling productivity in top 10 technology company",
+        "x": 25.0,
+        "y": 4.0,
+        "w": 54.0,
+        "h": 7.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Top 10 technology company",
+        "x": 26.0,
+        "y": 17.0,
+        "w": 24.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "GenAI tool Daily Active Users (#) - DAU retention (%)",
+        "x": 27.0,
+        "y": 23.0,
+        "w": 31.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Usage spiked during training weeks...",
+        "x": 35.0,
+        "y": 38.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "...but many unlocks were needed to sustain behavior change",
+        "x": 54.0,
+        "y": 58.0,
+        "w": 17.0,
+        "h": 12.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Unlocks needed to scale adoption for long term behavior change",
+        "x": 73.0,
+        "y": 16.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Reset expectations of AI and agents",
+        "x": 78.0,
+        "y": 31.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Hands-on upskilling and coaching",
+        "x": 78.0,
+        "y": 44.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Spark grassroots movement",
+        "x": 78.0,
+        "y": 57.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Build measurement system",
+        "x": 78.0,
+        "y": 71.0,
+        "w": 18.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-018.jpg",
+  "image": "wiki/assets/reconstructed-slides/SZStlIhyTCY/slide-018.jpg",
+  "deck_kind": "reconstructed",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783664259.5588505,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Case study of scaling productivity in top 10 technology company 01010 10101 10101\nTop 10 technology company for long term behavior change Unlocks needed to scale adoption\n一GenAl tool DailyActive Usors(#)一DAU retention(%)\n450 400 350 000 250 200 during training Usage spiked weeks... Nr 35 30 25 20 40 45 and coaching Al and agents Hands-on upskilling Resetexpectations of\n150 100 50...but many unlocks sustain behavior were nceded to change 15 10 Spark grassroots movement\nOct Nov Dec Jan Feb Mar Ap May Jun Jul system Build measurement\nMcXrsoy &Company 18\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 993.4
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Case study of scaling productivity in top 10 technology company 01010 10101 10101\nTop 10 technology company for long term behavior change Unlocks needed to scale adoption\n一GenAl tool DailyActive Usors(#)一DAU retention(%)\n450 400 350 000 250 200 during training Usage spiked weeks... Nr 35 30 25 20 40 45 and coaching Al and agents Hands-on upskilling Resetexpectations of\n150 100 50...but many unlocks sustain behavior were nceded to change 15 10 Spark grassroots movement\nOct Nov Dec Jan Feb Mar Ap May Jun Jul system Build measurement\nMcXrsoy &Company 18\nAIE/LEAD MOVING AWAY FROM AGILE: WHAT'S NEXT?\nGoogle DeepMind PRESENTED BY Senior Partner MARTIN HARRYSSON Business Analyst NATASHA MANIAR McKinsey & Company",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

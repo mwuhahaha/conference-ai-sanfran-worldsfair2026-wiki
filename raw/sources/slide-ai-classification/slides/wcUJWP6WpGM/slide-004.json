@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "What Makes a Good Task?\nProblem description\n1. A good task balances clarily\n+ ★ AIE Reliable verifier 3. 2. Too easy and too hard both fail Complexity: breadth or depth 35 Gettest listaansles_oapty_or eone_obiectsicbjccts_vatue] Colcl1ent coch,Moc Spl cllent.It_cuthent1eated.retrn Vluo o True Col ellent.coject tore.tnt,retum vluo o? ebjectb objects_wlue. Gxcebrto\n1. Should reward actual fixes, should reject fake\nsolutions (nltlaixe_coa:simertapl ctient_to_ustaol_clfent]\n2. Not too narrow, not too wide rewtt oClRrnerh1mvkellem, Gcloud,Cobjet-store\nStable infrastructure is part of eval → Sseerel ho cojects tound atl'test 'in resutt.cot pat\n1. Minimal infra noise during runs + contaier.aplclint.object_store.list.asert\"called_onc_u\n2. （ Connection might blink, images might become\nstale. pipeline might break (1970s bug)\nAIEngineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "code screenshot and small text in a structured slide layout",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "linear-gradient(90deg, #000 0 28%, #f7f6f2 28% 100%)",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 5.0,
+        "y": 13.0,
+        "w": 13.0,
+        "h": 18.0
+      },
+      {
+        "role": "title",
+        "text": "What Makes a Good Task?",
+        "x": 29.0,
+        "y": 5.0,
+        "w": 35.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Problem description\n1. A good task balances clarity\n2. Too easy and too hard both fail\n3. Complexity: breadth or depth\nReliable verifier\n1. Should reward actual fixes, should reject fake solutions\n2. Not too narrow, not too wide\nStable infrastructure is part of eval\n1. Minimal infra noise during runs\n2. Connection might blink, images might become stale, pipeline might break (1970s bug)",
+        "x": 30.0,
+        "y": 15.0,
+        "w": 38.0,
+        "h": 66.0
+      },
+      {
+        "role": "code",
+        "text": "",
+        "x": 67.0,
+        "y": 24.0,
+        "w": 28.0,
+        "h": 44.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 58.0,
+        "y": 80.0,
+        "w": 24.0,
+        "h": 9.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/wcUJWP6WpGM/slide-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672479.8681145,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "What Makes a Good Task?",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "What Makes a Good Task?\nProblem description\n1. A good task balances clarily\n+ ★ AIE Reliable verifier 3. 2. Too easy and too hard both fail Complexity: breadth or depth 35 Gettest listaansles_oapty_or eone_obiectsicbjccts_vatue] Colcl1ent coch,Moc Spl cllent.It_cuthent1eated.retrn Vluo o True Col ellent.coject tore.tnt,retum vluo o? ebjectb objects_wlue. Gxcebrto\n1. Should reward actual fixes, should reject fake\nsolutions (nltlaixe_coa:simertapl ctient_to_ustaol_clfent]\n2. Not too narrow, not too wide rewtt oClRrnerh1mvkellem, Gcloud,Cobjet-store\nStable infrastructure is part of eval → Sseerel ho cojects tound atl'test 'in resutt.cot pat\n1. Minimal infra noise during runs + contaier.aplclint.object_store.list.asert\"called_onc_u\n2. （ Connection might blink, images might become\nstale. pipeline might break (1970s bug)\nAIEngineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1128.56
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "What Makes a Good Task?\nProblem description\n1. A good task balances clarily\n+ ★ AIE Reliable verifier 3. 2. Too easy and too hard both fail Complexity: breadth or depth 35 Gettest listaansles_oapty_or eone_obiectsicbjccts_vatue] Colcl1ent coch,Moc Spl cllent.It_cuthent1eated.retrn Vluo o True Col ellent.coject tore.tnt,retum vluo o? ebjectb objects_wlue. Gxcebrto\n1. Should reward actual fixes, should reject fake\nsolutions (nltlaixe_coa:simertapl ctient_to_ustaol_clfent]\n2. Not too narrow, not too wide rewtt oClRrnerh1mvkellem, Gcloud,Cobjet-store\nStable infrastructure is part of eval → Sseerel ho cojects tound atl'test 'in resutt.cot pat\n1. Minimal infra noise during runs + contaier.aplclint.object_store.list.asert\"called_onc_u\n2. （ Connection might blink, images might become\nstale. pipeline might break (1970s bug)\nAIEngineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

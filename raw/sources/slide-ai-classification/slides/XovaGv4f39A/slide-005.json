@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "other",
+  "reject_reason": "",
+  "text": "https://www.linkedin.com/in/luis-romero-sevilla/\nhttps://www.youtube.com/@lurose5\nhttps://x.com/lurose15\nhttps://lurose.dev/",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "simple contact slide; direct read is sufficient",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "light gray gradient",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "ORBIS",
+        "x": 5.0,
+        "y": 75.0,
+        "w": 18.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "https://www.linkedin.com/in/luis-romero-sevilla/",
+        "x": 10.0,
+        "y": 6.0,
+        "w": 50.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "https://www.youtube.com/@lurose5",
+        "x": 10.0,
+        "y": 22.0,
+        "w": 42.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "https://x.com/lurose15",
+        "x": 10.0,
+        "y": 38.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "https://lurose.dev/",
+        "x": 10.0,
+        "y": 56.0,
+        "w": 22.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/XovaGv4f39A/slide-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783665378.2101216,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "https://www.linkedin.com/in/luis-romero-sevilla/\nhttps://www.youtube.com/@lurose5\nhttps://x.com/lurose15\nhttps://lurose.dev/",
+  "advanced_ocr": {}
+}

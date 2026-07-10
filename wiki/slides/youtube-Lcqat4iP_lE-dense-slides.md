@@ -16,6 +16,15 @@ This deck is slide-only. The existing captured video frame set supplies candidat
 ## Cropped Visible Slides
 ![[assets/dense-slides/Lcqat4iP_lE/slide-001.jpg]]
 
-- Source scene image: `frame-00010.jpg`
-- Crop: `visible-slide-crop` `[0, 37, 960, 503]` score `176.92`
-- Slide-only rule: `visual-bright-slide`
+- Recreated text/layout view: [open HTML recreation](/assets/slide-recreations/dense/Lcqat4iP_lE/slide-001.html)
+- AI slide classifier: `content_slide` confidence `0.97`
+- Text source: agent_vision.
+
+Slide text:
+
+> https://observable.tools
+> Observable Tools
+> Let's make MCP tools transparent and observable!
+
+
+Classification audit: `raw/sources/slide-ai-classification/dense/Lcqat4iP_lE/audit.json`

@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Memory response =client.messages.create( max_tokens=4e96, messages=[{ model=\"claude-sonnet-4-5-20250929\"\nprefers circuit breaker pattern logic Ln Paymentcltent.java SAARS \"Paymentservtce uses 3os tus\nANTHROP\\C\nAlEngineer Engineering the future of Al",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Contains a code screenshot with small text; OCR is appropriate.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "warm off-white with black footer band",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Memory",
+        "x": 27.0,
+        "y": 28.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "code",
+        "text": "response = client.messages.create(",
+        "x": 56.0,
+        "y": 12.0,
+        "w": 41.0,
+        "h": 58.0
+      },
+      {
+        "role": "caption",
+        "text": "Engineering the future of AI",
+        "x": 34.0,
+        "y": 86.0,
+        "w": 42.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/dense-slides/aqW68Is_Kj4/slide-005.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666500.4628737,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Memory",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Memory response =client.messages.create( max_tokens=4e96, messages=[{ model=\"claude-sonnet-4-5-20250929\"\nprefers circuit breaker pattern logic Ln Paymentcltent.java SAARS \"Paymentservtce uses 3os tus\nANTHROP\\C\nAlEngineer Engineering the future of Al",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 325.92
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Memory response =client.messages.create( max_tokens=4e96, messages=[{ model=\"claude-sonnet-4-5-20250929\"\nprefers circuit breaker pattern logic Ln Paymentcltent.java SAARS \"Paymentservtce uses 3os tus\nANTHROP\\C\nAlEngineer Engineering the future of Al",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

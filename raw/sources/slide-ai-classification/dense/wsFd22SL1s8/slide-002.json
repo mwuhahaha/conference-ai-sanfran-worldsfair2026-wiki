@@ -1,0 +1,84 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Why Do We Need AI Sandboxes?\nSmarter Models\nAbility to call tools during inference\nUsed in RL training\nSmarter Agents\nCan debug actions by running Linux commands \"ps\", \"lsof\"\nBacktrack, replan and work towards the goal with a Sandbox at their disposal\nSecurity\nAgent code is no different that Github or StackOverflow code running on your host or production server",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray/white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Why Do We Need AI Sandboxes?",
+        "x": 5.0,
+        "y": 2.0,
+        "w": 56.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Smarter Models",
+        "x": 15.0,
+        "y": 17.0,
+        "w": 22.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Ability to call tools during inference\nUsed in RL training",
+        "x": 16.0,
+        "y": 24.0,
+        "w": 34.0,
+        "h": 12.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Smarter Agents",
+        "x": 15.0,
+        "y": 42.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Can debug actions by running Linux commands \"ps\", \"lsof\"\nBacktrack, replan and work towards the goal with a Sandbox at their disposal",
+        "x": 16.0,
+        "y": 49.0,
+        "w": 56.0,
+        "h": 16.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Security",
+        "x": 15.0,
+        "y": 68.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Agent code is no different that Github or StackOverflow code running on your host or production server",
+        "x": 16.0,
+        "y": 75.0,
+        "w": 72.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/dense-slides/wsFd22SL1s8/slide-002.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672694.745419,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Why Do We Need AI Sandboxes?\nSmarter Models\nAbility to call tools during inference\nUsed in RL training\nSmarter Agents\nCan debug actions by running Linux commands \"ps\", \"lsof\"\nBacktrack, replan and work towards the goal with a Sandbox at their disposal\nSecurity\nAgent code is no different that Github or StackOverflow code running on your host or production server",
+  "advanced_ocr": {}
+}

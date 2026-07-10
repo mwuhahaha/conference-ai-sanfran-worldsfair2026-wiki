@@ -1,0 +1,87 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Future...",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense multi-panel imagery and small embedded UI labels are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black left panel with white slide body and black footer",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 16.0,
+        "w": 10.0,
+        "h": 11.0
+      },
+      {
+        "role": "title",
+        "text": "The Future...",
+        "x": 45.0,
+        "y": 0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "",
+        "x": 22.0,
+        "y": 13.0,
+        "w": 34.0,
+        "h": 42.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 69.0,
+        "y": 7.0,
+        "w": 27.0,
+        "h": 68.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 48.0,
+        "y": 89.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "swol.ai",
+        "x": 71.0,
+        "y": 87.0,
+        "w": 11.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-014.jpg",
+  "image": "wiki/assets/dense-slides/wNH3q9pqn0U/slide-014.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783672673.911171,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "The Future...",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/border-trim/opencv-adaptive",
+    "best_score": 66.4,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

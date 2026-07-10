@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "GEPA: Reflective Prompt Evolution Can Outperform\nReinforcement Learning\n\nLakshya A Agrawal, Shangyin Tan, Dilara Soylu, Noah Ziems, Rishi Khare, Krista Opsahl-Ong, Arnav Singhvi, Herumb Shandilya, Michael J Ryan, Meng Jiang, Christopher Potts, Koushik Sen, Alexandros G. Dimakis, Ion Stoica, Dan Klein, Matei Zaharia, Omar Khattab\nUC Berkeley, Stanford University, BespokeLabs.ai, Notre Dame, Databricks, MIT\n\nChris Potts\nhttps://www.youtube.com/watch?v=0bkwd9OYqfk\n\nModel  HotpotQA  IFBench  Hover  PUPA  Aggregate  Improvement\nQwen3-8B\nBaseline  42.33  36.90  35.33  80.82  48.85  —\nMIPROv2  55.33  36.22  47.33  81.55  55.11  +6.26\nGRPO  43.33  35.88  38.67  86.66  51.14  +2.29\nGEPA  62.33  38.61  52.33  91.85  61.28  +12.44",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense slide with paper title, author list, table, and caption; OCR is better suited than direct transcription in this triage pass.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#f4f2ee",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "GEPA: Reflective Prompt Evolution Can Outperform\nReinforcement Learning",
+        "x": 1.0,
+        "y": 1.0,
+        "w": 60.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "Chris Potts\nhttps://www.youtube.com/watch?v=0bkwd9OYqfk",
+        "x": 76.0,
+        "y": 17.0,
+        "w": 22.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "Model  HotpotQA  IFBench  Hover  PUPA  Aggregate  Improvement\nQwen3-8B\nBaseline  42.33  36.90  35.33  80.82  48.85  —\nMIPROv2  55.33  36.22  47.33  81.55  55.11  +6.26\nGRPO  43.33  35.88  38.67  86.66  51.14  +2.29\nGEPA  62.33  38.61  52.33  91.85  61.28  +12.44",
+        "x": 6.0,
+        "y": 40.0,
+        "w": 88.0,
+        "h": 34.0
+      },
+      {
+        "role": "caption",
+        "text": "My point here, though, is that both of them outperformed GRPO, which ought to be a kind of advanced RL-based post-training method, a fine-tuning method.",
+        "x": 3.0,
+        "y": 91.0,
+        "w": 94.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-010.jpg",
+  "image": "wiki/assets/dense-slides/-cKUW6n8hBU/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783655268.3366764,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr_reconciled",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "GEPA: REFLECTIVE PROMPT EVOLUTION CAN OUTPERFORM beeeng FOO angNYCNYT)17Cemt\nREINFORCEMENT LEARNING\nMichael J Ryan?, Meng Jiang*, Christopher Potts², Koushik Sen'. Rishi Khare', Krista Opsahl-Ong', Arnav Singhvi2s, Herumb Shandilya?. 'UC Berkeley Alexandros G. Dimakis'', Ion Stoica', Dan Klein', Matei Zaharia's, Omar Khattab° Lakshya A Agrawal', Shangyin Tan', Dilara Soylu', Noah Ziems*, ²Stanford University BespokeLabs.ai*Notre Dame 'Databricks 6MIT watch?v=0bkwd9OYqfk https://www.youtube.com/ Chris Potts\nModel HotpotQA IFBench Hover PUPA Aggregate Improvement\nQwen3-8B\nGRPO GEPA Baseline MIPROv2 42.33 62.33 43.33 55.33 36.90 36.22 35.88 38.61 35.33 47.33 38.67 52.33 80.82 91.85 81.55 86.66 48.85 61.28 55.11 51.14 +12.44 +6.26 +2.29\nMy point here, though, is that both of them outperformed GRPO, which ought to be a\nkind of advanced RL-based post-training method, a fine-tuning method.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1077.64
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "GEPA: Reflective Prompt Evolution Can Outperform\nReinforcement Learning\n\nLakshya A Agrawal, Shangyin Tan, Dilara Soylu, Noah Ziems, Rishi Khare, Krista Opsahl-Ong, Arnav Singhvi, Herumb Shandilya, Michael J Ryan, Meng Jiang, Christopher Potts, Koushik Sen, Alexandros G. Dimakis, Ion Stoica, Dan Klein, Matei Zaharia, Omar Khattab\nUC Berkeley, Stanford University, BespokeLabs.ai, Notre Dame, Databricks, MIT\n\nChris Potts\nhttps://www.youtube.com/watch?v=0bkwd9OYqfk\n\nModel  HotpotQA  IFBench  Hover  PUPA  Aggregate  Improvement\nQwen3-8B\nBaseline  42.33  36.90  35.33  80.82  48.85  —\nMIPROv2  55.33  36.22  47.33  81.55  55.11  +6.26\nGRPO  43.33  35.88  38.67  86.66  51.14  +2.29\nGEPA  62.33  38.61  52.33  91.85  61.28  +12.44",
+    "text_status": "meaningful",
+    "corrections": "Corrected the title, speaker name, URL, affiliations, and table values from the image; ignored noisy OCR from the speaker overlay."
+  }
+}

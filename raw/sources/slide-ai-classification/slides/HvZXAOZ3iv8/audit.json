@@ -1,0 +1,535 @@
+{
+  "video_id": "HvZXAOZ3iv8",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "min_confidence": 0.72,
+  "ocr_policy": {
+    "agent_first": true,
+    "advanced_ocr_only_when_agent_marks_ocr_ready": true,
+    "agent_reconciles_advanced_ocr": true,
+    "default_model": "gpt-5.4-mini",
+    "model": "gpt-5.4-mini",
+    "ocr_engines": [
+      "rapidocr"
+    ],
+    "ocr_min_score": 120.0,
+    "ocr_variants": true,
+    "deep_ocr": false
+  },
+  "hide_rejected": false,
+  "evidence_retained": true,
+  "accepted_count": 5,
+  "rejected_count": 2,
+  "accepted": [
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "title_card",
+      "reject_reason": "",
+      "text": "What Lies Beneath the API:\nWhen you should fine-tune your own model\nBenjamin Cowen, PhD",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "low",
+      "layout": {
+        "background": "black with large white center panel and green gradient bottom",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "logo",
+            "text": "AIE",
+            "x": 5.0,
+            "y": 22.0,
+            "w": 13.0,
+            "h": 20.0
+          },
+          {
+            "role": "logo",
+            "text": "Modal",
+            "x": 52.0,
+            "y": 23.0,
+            "w": 18.0,
+            "h": 10.0
+          },
+          {
+            "role": "title",
+            "text": "What Lies Beneath the API:",
+            "x": 45.0,
+            "y": 57.0,
+            "w": 34.0,
+            "h": 6.0
+          },
+          {
+            "role": "subtitle",
+            "text": "When you should fine-tune your own model",
+            "x": 43.0,
+            "y": 63.0,
+            "w": 40.0,
+            "h": 6.0
+          },
+          {
+            "role": "caption",
+            "text": "Benjamin Cowen, PhD",
+            "x": 55.0,
+            "y": 73.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "Google DeepMind",
+            "x": 50.0,
+            "y": 88.0,
+            "w": 30.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 2,
+      "filename": "slide-002.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HvZXAOZ3iv8/slide-002.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659456.0064638,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "What Lies Beneath the API:\nWhen you should fine-tune your own model\nBenjamin Cowen, PhD",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HvZXAOZ3iv8/slide-002.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.97,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Modal 101",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense multi-column slide with small labels and diagram text",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with large white content panel and dark diagram columns",
+        "style": "diagram",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Modal 101",
+            "x": 25.0,
+            "y": 7.0,
+            "w": 22.0,
+            "h": 10.0
+          },
+          {
+            "role": "body",
+            "text": "As a general purpose platform, we’re seeing some interesting patterns.",
+            "x": 25.0,
+            "y": 36.0,
+            "w": 28.0,
+            "h": 10.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Functions",
+            "x": 64.0,
+            "y": 12.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Sandboxes",
+            "x": 82.0,
+            "y": 12.0,
+            "w": 14.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Storage",
+            "x": 64.0,
+            "y": 29.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Application State",
+            "x": 77.0,
+            "y": 29.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Networking",
+            "x": 87.0,
+            "y": 29.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Custom Runtime",
+            "x": 70.0,
+            "y": 51.0,
+            "w": 18.0,
+            "h": 6.0
+          },
+          {
+            "role": "diagram_label",
+            "text": "Capacity Orchestration",
+            "x": 69.0,
+            "y": 72.0,
+            "w": 24.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "Braintrust",
+            "x": 44.0,
+            "y": 85.0,
+            "w": 16.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "WorkOS",
+            "x": 66.0,
+            "y": 85.0,
+            "w": 12.0,
+            "h": 6.0
+          },
+          {
+            "role": "logo",
+            "text": "OpenAI",
+            "x": 82.0,
+            "y": 85.0,
+            "w": 12.0,
+            "h": 6.0
+          }
+        ]
+      },
+      "image_index": 3,
+      "filename": "slide-003.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HvZXAOZ3iv8/slide-003.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659456.0072546,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Modal 101",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HvZXAOZ3iv8/slide-003.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "Use a frontier API\nMove fast. Ship something.\nWorks for\nGet started fast\nNo infrastructure overhead\nVery good models!\nWhen you might want to shift\nYou need performance control at scale\nCost, throughput, latency, custom metric\nYou need model differentiation\nYou're hitting rate limits",
+      "text_status": "meaningful",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": true,
+      "text_density": "medium",
+      "layout": {
+        "background": "black with white right-hand panel",
+        "style": "product",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "Use a frontier API",
+            "x": 28.0,
+            "y": 28.0,
+            "w": 30.0,
+            "h": 8.0
+          },
+          {
+            "role": "subtitle",
+            "text": "Move fast. Ship something.",
+            "x": 28.0,
+            "y": 38.0,
+            "w": 22.0,
+            "h": 6.0
+          },
+          {
+            "role": "body",
+            "text": "Works for",
+            "x": 63.0,
+            "y": 9.0,
+            "w": 12.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Get started fast",
+            "x": 63.0,
+            "y": 16.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "No infrastructure overhead",
+            "x": 63.0,
+            "y": 23.0,
+            "w": 24.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Very good models!",
+            "x": 63.0,
+            "y": 30.0,
+            "w": 18.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "When you might want to shift",
+            "x": 63.0,
+            "y": 43.0,
+            "w": 27.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "You need performance control at scale",
+            "x": 63.0,
+            "y": 50.0,
+            "w": 30.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "Cost, throughput, latency, custom metric",
+            "x": 67.0,
+            "y": 57.0,
+            "w": 28.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "You need model differentiation",
+            "x": 63.0,
+            "y": 65.0,
+            "w": 26.0,
+            "h": 5.0
+          },
+          {
+            "role": "body",
+            "text": "You're hitting rate limits",
+            "x": 63.0,
+            "y": 72.0,
+            "w": 22.0,
+            "h": 5.0
+          },
+          {
+            "role": "logo",
+            "text": "AI Engineer Europe",
+            "x": 58.0,
+            "y": 84.0,
+            "w": 24.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 5,
+      "filename": "slide-005.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HvZXAOZ3iv8/slide-005.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659456.012275,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "Use a frontier API\nMove fast. Ship something.\nWorks for\nGet started fast\nNo infrastructure overhead\nVery good models!\nWhen you might want to shift\nYou need performance control at scale\nCost, throughput, latency, custom metric\nYou need model differentiation\nYou're hitting rate limits",
+      "advanced_ocr": {},
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HvZXAOZ3iv8/slide-005.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "SFT in 300 lines of code",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense code screenshot with small text and compact layout",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with white code panel",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "SFT in 300 lines of code",
+            "x": 28.0,
+            "y": 18.0,
+            "w": 30.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Once you have your data in place, open source libraries and serverless infra make parallel hyperparameter sweeps trivial.",
+            "x": 28.0,
+            "y": 38.0,
+            "w": 33.0,
+            "h": 14.0
+          },
+          {
+            "role": "code",
+            "text": "code",
+            "x": 63.0,
+            "y": 5.0,
+            "w": 29.0,
+            "h": 72.0
+          }
+        ]
+      },
+      "image_index": 6,
+      "filename": "slide-006.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HvZXAOZ3iv8/slide-006.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659456.0132935,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "SFT in 300 lines of code",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HvZXAOZ3iv8/slide-006.html"
+    },
+    {
+      "is_content_slide": true,
+      "confidence": 0.98,
+      "frame_type": "content_slide",
+      "reject_reason": "",
+      "text": "GRPO (RL) in 300 lines of code.",
+      "text_status": "meaningful",
+      "ocr_ready": true,
+      "ocr_reason": "dense code screenshot with small text and compact layout",
+      "direct_read_ready": false,
+      "text_density": "high",
+      "layout": {
+        "background": "black with white code panel",
+        "style": "code",
+        "blocks": [
+          {
+            "role": "title",
+            "text": "GRPO (RL) in 300 lines of code.",
+            "x": 28.0,
+            "y": 18.0,
+            "w": 34.0,
+            "h": 14.0
+          },
+          {
+            "role": "body",
+            "text": "Unified GPU + Sandbox APIs makes large scale RL feasible.",
+            "x": 28.0,
+            "y": 38.0,
+            "w": 34.0,
+            "h": 10.0
+          },
+          {
+            "role": "code",
+            "text": "code",
+            "x": 63.0,
+            "y": 5.0,
+            "w": 29.0,
+            "h": 72.0
+          },
+          {
+            "role": "caption",
+            "text": "Engineering the future of AI",
+            "x": 43.0,
+            "y": 87.0,
+            "w": 38.0,
+            "h": 8.0
+          }
+        ]
+      },
+      "image_index": 7,
+      "filename": "slide-007.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HvZXAOZ3iv8/slide-007.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659456.0143793,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "agent_vision",
+      "vision_text": "GRPO (RL) in 300 lines of code.",
+      "advanced_ocr": {
+        "source": "",
+        "text": "",
+        "status": "disabled"
+      },
+      "recreation": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slide-recreations/slides/HvZXAOZ3iv8/slide-007.html"
+    }
+  ],
+  "rejected": [
+    {
+      "is_content_slide": false,
+      "confidence": 0.99,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage with audience; no readable slide content",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "light gray wall and white screen",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 1,
+      "filename": "slide-001.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HvZXAOZ3iv8/slide-001.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659456.0057619,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    },
+    {
+      "is_content_slide": false,
+      "confidence": 0.98,
+      "frame_type": "speaker_stage",
+      "reject_reason": "speaker on stage with a blank projected screen; no readable slide content",
+      "text": "",
+      "text_status": "non_slide",
+      "ocr_ready": false,
+      "ocr_reason": "",
+      "direct_read_ready": false,
+      "text_density": "none",
+      "layout": {
+        "background": "white room with projection screen",
+        "style": "minimal",
+        "blocks": []
+      },
+      "image_index": 4,
+      "filename": "slide-004.jpg",
+      "image": "/garage/obsidian/conference-ai-sanfran-worldsfair2026-clean/wiki/assets/slides/HvZXAOZ3iv8/slide-004.jpg",
+      "deck_kind": "slides",
+      "model": "gpt-5.4-mini",
+      "classified_at_epoch": 1783659456.0115182,
+      "policy_version": "agent-triage-ocr-reconcile-v2",
+      "text_source": "none",
+      "vision_text": "",
+      "advanced_ocr": {}
+    }
+  ]
+}

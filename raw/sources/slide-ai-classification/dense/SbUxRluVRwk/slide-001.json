@@ -1,0 +1,138 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A spectrum of companies\nAIE Technology Company Verticalized Solution or Services Enabled Tech\nBig Tech, Startup Pa'antir,Wisedocs Big Bank,Large Retaier,SMBs\nAnatomyofanAl Team Evolutionofa Generalist A Question of hiring\nWerdsFar aws",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with multiple small labels and footer text; OCR is a better fit than manual transcription.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "linear-gradient(90deg, #000000 0%, #f3e3ce 22%)",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "logo",
+        "text": "AIE",
+        "x": 4.0,
+        "y": 10.0,
+        "w": 9.0,
+        "h": 12.0
+      },
+      {
+        "role": "title",
+        "text": "A spectrum of companies",
+        "x": 27.0,
+        "y": 6.0,
+        "w": 41.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Technology Company",
+        "x": 28.0,
+        "y": 28.0,
+        "w": 15.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Verticalized Solution or Services",
+        "x": 49.0,
+        "y": 28.0,
+        "w": 22.0,
+        "h": 12.0
+      },
+      {
+        "role": "body",
+        "text": "Tech Enabled",
+        "x": 78.0,
+        "y": 28.0,
+        "w": 14.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Big Tech, Startup",
+        "x": 30.0,
+        "y": 44.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Palantir, Wisedocs",
+        "x": 52.0,
+        "y": 44.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Big Bank, Large Retailer, SMBs",
+        "x": 75.0,
+        "y": 44.0,
+        "w": 21.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "Anatomy of an AI Team",
+        "x": 31.0,
+        "y": 86.0,
+        "w": 19.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Evolution of a Generalist",
+        "x": 48.0,
+        "y": 86.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "A Question of hiring",
+        "x": 73.0,
+        "y": 86.0,
+        "w": 17.0,
+        "h": 5.0
+      },
+      {
+        "role": "logo",
+        "text": "aws",
+        "x": 63.0,
+        "y": 88.0,
+        "w": 9.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/dense-slides/SbUxRluVRwk/slide-001.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783663556.9091916,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "A spectrum of companies",
+  "advanced_ocr": {
+    "source": "rapidocr-live/border-trim/contrast",
+    "text": "A spectrum of companies\nAIE Technology Company Verticalized Solution or Services Enabled Tech\nBig Tech, Startup Pa'antir,Wisedocs Big Bank,Large Retaier,SMBs\nAnatomyofanAl Team Evolutionofa Generalist A Question of hiring\nWerdsFar aws",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 377.0
+  },
+  "ocr_source": "rapidocr-live/border-trim/contrast",
+  "ocr_reconcile": {
+    "text": "A spectrum of companies\nAIE Technology Company Verticalized Solution or Services Enabled Tech\nBig Tech, Startup Pa'antir,Wisedocs Big Bank,Large Retaier,SMBs\nAnatomyofanAl Team Evolutionofa Generalist A Question of hiring\nWerdsFar aws",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

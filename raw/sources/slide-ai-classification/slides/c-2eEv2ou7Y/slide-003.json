@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "1 Howitworks\nHost MCP Server\ntools'lt\nHhhonoatuw' pm soos\nAIE Views render in response to tool calls resouroes'reud toolsiall\nHTML documents live in resources Yew HTML with _oeeL ut ( Csp pernksors\nViews can be cached ahead of time Createve nth frme? Yew'h the chat\nFeadt ( content + meta.ul.url\nO Hast. MCP Server\nAl Engineer\nEUROPE",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "diagram slide with small text and schematic labels",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "black with magenta and white accents",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "How it works",
+        "x": 28.0,
+        "y": 5.0,
+        "w": 24.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Views render in response to tool calls\nHTML documents live in resources\nViews can be cached ahead of time",
+        "x": 28.0,
+        "y": 40.0,
+        "w": 33.0,
+        "h": 22.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Host",
+        "x": 63.0,
+        "y": 11.0,
+        "w": 10.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MCP Server",
+        "x": 85.0,
+        "y": 11.0,
+        "w": 12.0,
+        "h": 8.0
+      },
+      {
+        "role": "logo",
+        "text": "AI Engineer EUROPE",
+        "x": 58.0,
+        "y": 78.0,
+        "w": 20.0,
+        "h": 12.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/c-2eEv2ou7Y/slide-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783666752.2473931,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "How it works",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "1 Howitworks\nHost MCP Server\ntools'lt\nHhhonoatuw' pm soos\nAIE Views render in response to tool calls resouroes'reud toolsiall\nHTML documents live in resources Yew HTML with _oeeL ut ( Csp pernksors\nViews can be cached ahead of time Createve nth frme? Yew'h the chat\nFeadt ( content + meta.ul.url\nO Hast. MCP Server\nAl Engineer\nEUROPE",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 570.68
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "1 Howitworks\nHost MCP Server\ntools'lt\nHhhonoatuw' pm soos\nAIE Views render in response to tool calls resouroes'reud toolsiall\nHTML documents live in resources Yew HTML with _oeeL ut ( Csp pernksors\nViews can be cached ahead of time Createve nth frme? Yew'h the chat\nFeadt ( content + meta.ul.url\nO Hast. MCP Server\nAl Engineer\nEUROPE",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}
