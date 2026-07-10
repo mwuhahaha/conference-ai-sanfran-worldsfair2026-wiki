@@ -48,3 +48,24 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production ## Conference Context - Date/time: 2026-06-30 · 10:45am-11:05am - Track/room: Context Engineering · Track 8 - Speaker(s): Averi Kitsch, Prerna Kakkar - Session type/status: session · confirmed - Track: Context Engineering - Room: Track 8 - Session type: session - Status: confirmed ## Session Description A dangerous pattern is evolving in the ecosystem: developers are deploying "Build-Time" tools into "Run-Time" environments. In this session, we will introduce a critical distinction for the MCP ecosystem: the difference between Build-Time Agents (Developer Assistants like Gemini Code Assist) and Run-Time Agents (End-user applications like a Customer Support bot). Drawing from our experience building the MCP Toolbox, we will demonstrate why the "Atomic" tools that make Build-Time agents powerful become catastrophic liabilities for Run-Time agents.
+
+### Speaker And Company Context
+- [[averi-kitsch|Averi Kitsch]] — Staff Software Engineer at [[google|Google]].
+- [[prerna-kakkar|Prerna Kakkar]] — Senior Software Engineer at [[google|Google]].
+
+### Topics Covered
+- [[agent-security]]
+- [[coding-agents]]
+- [[mcp]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

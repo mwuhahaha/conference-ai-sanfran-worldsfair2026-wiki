@@ -1158,6 +1158,39 @@
       "words": 4772
     },
     {
+      "video_id": "o-zkvb0iFDQ",
+      "title": "MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps",
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          155
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          29
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          2
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          1
+        ]
+      ],
+      "matches": [
+        "2026-06-30-liad-yosef-mcp-apps-extending-the-frontier",
+        "2026-06-29-liad-yosef-rebuilding-the-web-for-agents",
+        "2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be"
+      ],
+      "quotes": 3,
+      "words": 3969
+    },
+    {
       "video_id": "akk6KRlcwW4",
       "title": "OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack",
       "topics": [
@@ -1478,6 +1511,38 @@
       "matches": [],
       "quotes": 3,
       "words": 11459
+    },
+    {
+      "video_id": "ZpK5PWX2YRM",
+      "title": "Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          92
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          8
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          8
+        ],
+        [
+          "agent-security",
+          "Agent Security",
+          5
+        ]
+      ],
+      "matches": [
+        "2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code",
+        "2026-06-30-keiji-kanazawa-i-let-agents-refactor-my-codebase-for-3-weeks-then-i-read-the-code"
+      ],
+      "quotes": 3,
+      "words": 3931
     },
     {
       "video_id": "SS-A8sE7hkw",
@@ -1888,6 +1953,39 @@
       "matches": [],
       "quotes": 3,
       "words": 5175
+    },
+    {
+      "video_id": "pMggiOb18tc",
+      "title": "The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          65
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          12
+        ],
+        [
+          "mcp",
+          "MCP",
+          12
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          5
+        ]
+      ],
+      "matches": [
+        "2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering",
+        "2026-06-29-marina-petzel-beyond-golden-signals-monitoring-in-the-age-of-genai",
+        "2026-06-29-session-continuous-engineering-software-development-for-the-age-of-agents"
+      ],
+      "quotes": 3,
+      "words": 4606
     },
     {
       "video_id": "UPwGaM2MKHY",
@@ -2874,6 +2972,6 @@
       "reason": "non-talk event reel"
     }
   ],
-  "quote_count": 261,
-  "updated_at": "2026-07-09T01:18:39.422432+00:00"
+  "quote_count": 270,
+  "updated_at": "2026-07-10T19:33:22.463879+00:00"
 }

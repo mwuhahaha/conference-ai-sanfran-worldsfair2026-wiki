@@ -77,3 +77,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Synthesis
+### Synthesized Breakdown
+# It’s Tokens All The Way Down: How RLMs are Different ## Conference Context - Date/time: 2026-06-30 · 11:10am-11:30am - Track/room: Context Engineering · Track 8 - Speaker(s): Kevin Madura - Session type/status: session · confirmed - Track: Context Engineering - Room: Track 8 - Session type: session - Status: confirmed ## Session Description Recursive Language Models represent an intuitive but distinctively important approach to how LLMs handle context. The practical implications are bigger than they first appear. Tasks that would traditionally require careful prompt engineering, custom agent scaffolding, or multi-step orchestration collapse into surprisingly simple, composable programs. In this talk, we’ll cover what makes an RLM distinct from a coding agent, explore where the abstraction shines and where it breaks down, and walk through concrete use cases that are informed by real-world situations at scale.
+
+### Speaker And Company Context
+- No speaker profile is attached in the official schedule data.
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube--cKUW6n8hBU]] — related YouTube source page.
+- [[youtube--cKUW6n8hBU-slides]] — slide evidence.
+- [[youtube--cKUW6n8hBU-reconstructed-slides]] — slide evidence.
+- [[youtube--cKUW6n8hBU-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

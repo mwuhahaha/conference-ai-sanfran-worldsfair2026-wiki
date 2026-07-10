@@ -33,7 +33,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-eOxOzcw70f0]]
 
 ### Slide/OCR Pages
+- [[youtube-F_RyElT_gJk-reconstructed-slides]]
 - [[youtube-F_RyElT_gJk-slides]]
+- [[youtube-TqC1qOfiVcQ-dense-slides]]
 - [[youtube-TqC1qOfiVcQ-slides]]
 - [[youtube-_xIwFcnHqp4-slides]]
 - [[youtube-eOxOzcw70f0-dense-slides]]
@@ -50,6 +52,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - `raw/sources/youtube-transcripts/btxGmN8RvNU.txt`
 - `raw/sources/youtube-transcripts/iRcX54EO5g8.txt`
 - `raw/sources/youtube-transcripts/o-zkvb0iFDQ.txt`
+- `raw/sources/youtube-transcripts/pMggiOb18tc.txt`
 - `raw/sources/youtube-transcripts/sAOBXCDiDOs.txt`
 - `raw/sources/youtube-transcripts/wFTVEDYVJT0.txt`
 - `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt`

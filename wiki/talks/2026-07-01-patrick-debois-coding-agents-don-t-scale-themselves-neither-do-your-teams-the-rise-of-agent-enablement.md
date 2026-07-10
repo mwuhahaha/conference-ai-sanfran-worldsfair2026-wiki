@@ -64,3 +64,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Synthesis
+### Synthesized Breakdown
+# Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement. ## Conference Context - Date/time: 2026-07-01 · 1:30pm-1:50pm - Track/room: AI Architects: AI Factories · Leadership 2 - Speaker(s): Patrick Debois - Session type/status: session · confirmed - Track: AI Architects: AI Factories - Room: Leadership 2 - Session type: session - Status: confirmed ## Session Description Every company wants to know how others are actually scaling AI coding. But it's hard to get past the generic transformation stories.
+
+### Speaker And Company Context
+- [[patrick-debois|Patrick Debois]] — Member Technical Staff at [[tessl|Tessl]].
+
+### Topics Covered
+- [[agent-security]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-bSG9wUYaHWU]] — related YouTube source page.
+- [[youtube-bSG9wUYaHWU-slides]] — slide evidence.
+- [[youtube-bSG9wUYaHWU-reconstructed-slides]] — slide evidence.
+- [[youtube-bSG9wUYaHWU-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

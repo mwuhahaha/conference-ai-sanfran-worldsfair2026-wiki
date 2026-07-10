@@ -29,6 +29,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[talk-video-transcript-map]]
 
 ### Slide/OCR Pages
+- [[youtube-Rx8f05JI_WA-slides]]
 - [[youtube-htM02KMNZnk-slides]]
 
 ### Transcript Files

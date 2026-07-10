@@ -416,6 +416,14 @@
     "sourceLabel": "YouTube transcript"
   },
   {
+    "id": "youtube-ZpK5PWX2YRM-transcript",
+    "title": "Transcript: Zpk5Pwx2Yrm",
+    "path": "wiki/transcripts/youtube-ZpK5PWX2YRM-transcript.md",
+    "videoId": "ZpK5PWX2YRM",
+    "wordCount": 3931,
+    "sourceLabel": "YouTube transcript"
+  },
+  {
     "id": "youtube-_B4Pv9ttFgY-transcript",
     "title": "Transcript: Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google",
     "path": "wiki/transcripts/youtube-_B4Pv9ttFgY-transcript.md",
@@ -624,6 +632,14 @@
     "sourceLabel": "YouTube transcript"
   },
   {
+    "id": "youtube-pMggiOb18tc-transcript",
+    "title": "Transcript: The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
+    "path": "wiki/transcripts/youtube-pMggiOb18tc-transcript.md",
+    "videoId": "pMggiOb18tc",
+    "wordCount": 4606,
+    "sourceLabel": "YouTube transcript"
+  },
+  {
     "id": "youtube-pSto5YaNGUo-transcript",
     "title": "Transcript: The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
     "path": "wiki/transcripts/youtube-pSto5YaNGUo-transcript.md",
@@ -801,7 +817,7 @@
   },
   {
     "id": "youtube-qakTj_xI0gk-transcript",
-    "title": "Transcript: Qaktj Xi0Gk",
+    "title": "Transcript: Why Self-Driving Production Is the Future — Eric Schwartz, Traversal | AI Engineer World's Fair 2026",
     "path": "wiki/transcripts/youtube-qakTj_xI0gk-transcript.md",
     "videoId": "qakTj_xI0gk",
     "wordCount": 2375,

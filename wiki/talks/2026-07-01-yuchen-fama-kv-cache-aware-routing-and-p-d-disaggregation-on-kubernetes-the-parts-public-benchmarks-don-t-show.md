@@ -48,3 +48,23 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# KV Cache-Aware Routing and P/D Disaggregation on Kubernetes: The Parts Public Benchmarks Don't Show ## Conference Context - Date/time: 2026-07-01 · 2:50pm-3:10pm - Track/room: Inference · Track 9 - Speaker(s): Yuchen Fama, Ashish Kamra - Session type/status: session · confirmed - Track: Inference - Room: Track 9 - Session type: session - Status: confirmed ## Session Description We're at the inflection point between classic LLM inference and agentic inference. When we look at the agentic workloads and trace replays, many core characteristics break classic LLM serving assumptions. The most consequential: the server no longer controls its own cache lifecycle. The client does, through prompt construction, multi-turn context that grows and changes each turn.
+
+### Speaker And Company Context
+- [[yuchen-fama|Yuchen Fama]] — Senior Principal Product Manager at [[red-hat|Red Hat]].
+- [[ashish-kamra|Ashish Kamra]] — Senior Manager, Software Engineering at [[red-hat|Red Hat]].
+
+### Topics Covered
+- [[agent-security]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

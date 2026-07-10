@@ -58,3 +58,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-MRM7oA3JsFs-slides]] — extracted from the related public AI Engineer video.
+
+## Synthesis
+### Synthesized Breakdown
+# Why Your Enterprise Tech Stack Isn't Ready for AI Agents - And What to Build Instead ## Conference Context - Date/time: 2026-07-01 · 3:45pm-4:05pm - Track/room: AI in Healthcare · Track 7 - Speaker(s): Christopher Lovejoy, Saul Howard - Session type/status: session · confirmed - Track: AI in Healthcare - Room: Track 7 - Session type: session - Status: confirmed ## Session Description Agent-executed work is a new infrastructure primitive. Until you treat it that way, you're running a demo, not enterprise AI. Your existing stack was built for deterministic software. Agents reason, delegate, and make judgment calls.
+
+### Speaker And Company Context
+- [[christopher-lovejoy|Christopher Lovejoy]] — Member of Technical Staff at [[anthropic|Anthropic]].
+- [[saul-howard|Saul Howard]] — VP Engineering at [[anterior|Anterior]].
+
+### Topics Covered
+- Topic links are pending transcript-backed classification.
+
+### Derived Links And Source Material
+- [[youtube-MRM7oA3JsFs]] — related YouTube source page.
+- [[youtube-MRM7oA3JsFs-slides]] — slide evidence.
+- [[youtube-MRM7oA3JsFs-reconstructed-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

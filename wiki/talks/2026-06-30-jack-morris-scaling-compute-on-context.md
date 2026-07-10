@@ -65,3 +65,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-Jty4s9-Jb78-reconstructed-slides]]
 - [[youtube-Jty4s9-Jb78-slides]]
 - Slide-derived terms: `context`, `full`, `weights`, `tokens`, `text`, `document`, `card`, `output`, `vector`, `databases`, `mage`, `april`, `kentucky`, `embeddings`, `things`, `knowledge`, `amazon`, `figma`
+
+## Synthesis
+### Synthesized Breakdown
+# Scaling Compute on Context ## Conference Context - Date/time: 2026-06-30 · 11:40am-12:00pm - Track/room: Memory & Continual Learning · Track 3 - Speaker(s): Jack Morris - Session type/status: session · confirmed - Track: Memory & Continual Learning - Room: Track 3 - Session type: session - Status: confirmed ## Session Description A case for when context is enough, and when updating weights may be the real memory mechanism. ## Media Evidence [Jack Morris: Stuffing Context is not Memory, Updating Weights is](https://www.youtube.com/watch?v=Jty4s9-Jb78) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-Jty4s9-Jb78` - Slide deck: [[youtube-Jty4s9-Jb78-dense-slides|Dense Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is]] — 3 visible slide image(s); 3 HTML recreation(s). ![[assets/dense-slides/Jty4s9-Jb78/slide-001.jpg]] ![[assets/dense-slides/Jty4s9-Jb78/slide-002.jpg]] ![[assets/dense-slides/Jty4s9-Jb78/slide-003.jpg]] - Additional slide evidence: [[youtube-Jty4s9-Jb78-slides|Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is]], [[youtube-Jty4s9-Jb78-reconstructed-slides|Reconstructed Slides: Jack Morris: Stuffing Context is not Memory, Updating Weights is]] - Slide-derived themes for `youtube-Jty4s9-Jb78`: fixed, capacity, probably.
+
+### Speaker And Company Context
+- [[jack-morris|Jack Morris]] — Cofounder at [[engram|Engram]].
+
+### Topics Covered
+- Topic links are pending transcript-backed classification.
+
+### Derived Links And Source Material
+- [[youtube-Jty4s9-Jb78]] — related YouTube source page.
+- [[youtube-Jty4s9-Jb78-slides]] — slide evidence.
+- [[youtube-Jty4s9-Jb78-reconstructed-slides]] — slide evidence.
+- [[youtube-Jty4s9-Jb78-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

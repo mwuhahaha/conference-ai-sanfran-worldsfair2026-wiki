@@ -62,3 +62,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-iUWwcG-C8OU-reconstructed-slides]]
 - [[youtube-iUWwcG-C8OU-slides]]
 - Slide-derived terms: `braintrust`, `workos`, `openal`, `help`, `today`, `engineering`, `future`, `engineer`, `ai.engineer`
+
+## Synthesis
+### Synthesized Breakdown
+# Building an Agent Harness for the Business, Not the Builder ## Conference Context - Date/time: 2026-06-30 · 2:50pm-3:10pm - Track/room: track TBD · Expo Stage 2 NW - Speaker(s): Garrett Galow - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 2 NW - Session type: session - Status: confirmed ## Session Description Most internal tooling dies in the gap between the people with problems and the people who can write code. We built a harness that closes it. Studio lets non-technical employees describe a business problem and get a working tool back, connected to real enterprise data, deployed and shareable across the company, without filing a ticket or learning to code. The catch is that a harness built for non-engineers has to absorb everything an engineer normally handles.
+
+### Speaker And Company Context
+- [[garrett-galow|Garrett Galow]] — Product Manager at [[workos|WorkOS]].
+
+### Topics Covered
+- [[agent-security]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-iUWwcG-C8OU]] — related YouTube source page.
+- [[youtube-iUWwcG-C8OU-slides]] — slide evidence.
+- [[youtube-iUWwcG-C8OU-reconstructed-slides]] — slide evidence.
+- [[youtube-iUWwcG-C8OU-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -44,3 +44,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Your Stack Has a Latency Problem You Can’t See ## Conference Context - Date/time: 2026-06-30 · 2:25pm-2:45pm - Track/room: track TBD · Expo Stage 4 SE - Speaker(s): TBA - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 4 SE - Session type: session - Status: confirmed ## Session Description Break down a real AI voice call path step by step. Show where time actually goes: network hops between providers, handoff latency, buffering, connection overhead. The model is rarely the bottleneck. The gaps between vendors are.
+
+### Speaker And Company Context
+- No speaker profile is attached in the official schedule data.
+
+### Topics Covered
+- Topic links are pending transcript-backed classification.
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

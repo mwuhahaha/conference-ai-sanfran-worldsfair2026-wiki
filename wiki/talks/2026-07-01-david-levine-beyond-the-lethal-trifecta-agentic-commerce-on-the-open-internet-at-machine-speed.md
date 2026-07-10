@@ -47,3 +47,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Beyond the Lethal Trifecta: Agentic Commerce on the Open Internet at Machine Speed ## Conference Context - Date/time: 2026-07-01 · 3:45pm-4:05pm - Track/room: Agentic Commerce · Track 2 - Speaker(s): David Levine - Session type/status: sponsor · confirmed - Track: Agentic Commerce - Room: Track 2 - Session type: sponsor - Status: confirmed ## Session Description For decades, the internet has had protocols for routing, identity, encryption, payments, and commerce between people and organizations. It has never had a native way for autonomous agents to possess authority, accountability, or legal standing. On July 1, 2026 that changes. A little known law will take effect that changes the world as we know it.
+
+### Speaker And Company Context
+- [[david-levine|David Levine]] — Founder & CEO at [[kiduna-club|Kiduna Club]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

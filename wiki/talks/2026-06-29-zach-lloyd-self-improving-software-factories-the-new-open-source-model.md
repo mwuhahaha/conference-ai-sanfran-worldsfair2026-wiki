@@ -54,3 +54,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Self-Improving software factories: The new open source model" ## Conference Context - Date/time: 2026-06-29 · 1:55pm-2:15pm - Track/room: Software Factories · Main Stage - Speaker(s): Zach Lloyd - Session type/status: session · confirmed - Track: Software Factories - Room: Main Stage - Session type: session - Status: confirmed ## Session Description Alt titles: Agent orchestration with message passing / Agent orchestration for every model / Warp’s approach to agent orchestration With models getting more capable, we’ve quickly scaled from single agent problems to multi-agent problems – How can agents delegate tasks to accomplish ever-larger goals? You may have heard of “agent swarms” or “agent teams” in this arena, but they come with drawbacks: model lock-in, complex UX, or both. We want to share how we’ve tackled orchestration with our model-agnostic platform, Oz. Our approach has some unique goals: - Support any model, *and* any harness (`claude`, `codex`, etc) - Delegate across local instances *and* across isolated cloud sandboxes - Provide a UX that requires zero tmux or TUI knowledge to use We’ll explore how we implemented message passing across harnesses, how we handle agent sandboxing with Docker containerization + serverless deploys, and how we designed these primitives to make a system that works with any agent.
+
+### Speaker And Company Context
+- No speaker profile is attached in the official schedule data.
+
+### Topics Covered
+- [[ai-sandboxes]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

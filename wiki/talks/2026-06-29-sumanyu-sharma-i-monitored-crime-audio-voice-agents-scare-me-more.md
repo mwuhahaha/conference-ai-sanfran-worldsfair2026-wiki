@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# I Monitored Crime Audio. Voice Agents Scare Me More. ## Conference Context - Date/time: 2026-06-29 · 2:25pm-2:45pm - Track/room: Voice & Realtime AI · Track 6 - Speaker(s): Sumanyu Sharma - Session type/status: session · confirmed - Track: Voice & Realtime AI - Room: Track 6 - Session type: session - Status: confirmed ## Session Description Bad voice-agent calls are starting to look less like QA bugs and more like incident scenes. I learned that instinct at Citizen, where noisy radio, ambiguous speech, fast-moving incidents, and real-time alerts became information people might actually act on.
+
+### Speaker And Company Context
+- [[sumanyu-sharma|Sumanyu Sharma]] — Founder/CEO at [[hamming-ai|Hamming AI]].
+
+### Topics Covered
+- [[agent-security]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

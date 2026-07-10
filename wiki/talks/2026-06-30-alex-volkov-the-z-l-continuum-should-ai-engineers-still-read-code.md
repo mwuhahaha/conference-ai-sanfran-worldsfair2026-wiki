@@ -36,6 +36,8 @@ At AI Engineer Europe, two of the best speakers gave directly opposite advice. Z
 - Additional slide evidence: [[youtube-Lcqat4iP_lE-slides|Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]], [[youtube-Lcqat4iP_lE-reconstructed-slides|Reconstructed Slides: The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso]]
 - Slide-derived themes for `youtube-Lcqat4iP_lE`: tools, transparent, observable.
 
+- [[youtube-ZpK5PWX2YRM-transcript]] — full cached transcript markdown for the related YouTube source.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
@@ -71,16 +73,19 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Synthesis
 ### Synthesized Breakdown
-# The Z/L Continuum: Should AI Engineers Still Read Code? ## Conference Context - Date/time: 2026-06-30 · 10:45am-11:05am - Track/room: AI Architects: Tokenmaxxing · Leadership 2 - Speaker(s): Alex Volkov - Session type/status: session · confirmed - Track: AI Architects: Tokenmaxxing - Room: Leadership 2 - Session type: session - Status: confirmed ## Session Description At AI Engineer Europe, two of the best speakers gave directly opposite advice. Zechner: slow the f*** down, read every line your model writes. Lopopolo: code is a liability, you don't even open the IDE anymore.
+two talks at a engineer Europe. One guy is saying code is free and deleted his ID and the other one is saying read every effing line of code. So should AI engineers still recode their agents output in 2026? I named this the Zopo continue and you guys probably have argued about this in Slack.
 
 ### Speaker And Company Context
 - [[alex-volkov|Alex Volkov]] — AI Evangelist & Host of ThursdAI at [[w-and-b-from-coreweave|W&B from CoreWeave]].
 
 ### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
 - [[coding-agents]]
 - [[mcp]]
 
 ### Derived Links And Source Material
+- [[youtube-ZpK5PWX2YRM-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/ZpK5PWX2YRM.txt` (3,931 words).
 - [[youtube-Lcqat4iP_lE]] — related YouTube source page.
 - [[youtube-Lcqat4iP_lE-slides]] — slide evidence.
 - [[youtube-Lcqat4iP_lE-reconstructed-slides]] — slide evidence.
@@ -91,4 +96,4 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.

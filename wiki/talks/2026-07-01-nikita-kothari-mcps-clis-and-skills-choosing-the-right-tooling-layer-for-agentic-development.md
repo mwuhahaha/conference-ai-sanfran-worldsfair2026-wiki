@@ -47,3 +47,23 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# MCPs, CLIs, and Skills: Choosing the Right Tooling Layer for Agentic Development ## Conference Context - Date/time: 2026-07-01 · 11:10am-11:30am - Track/room: Agentic Engineering · Main Stage - Speaker(s): Nikita Kothari - Session type/status: session · confirmed - Track: Agentic Engineering - Room: Main Stage - Session type: session - Status: confirmed ## Session Description Agentic development needs more than one interface: MCPs provide clean, portable connectors to services, with built-in patterns for security and auth. CLIs offer composability, debuggability, and workflows developers already trust. Skills teach agents how to use a wide variety of tools and MCPs effectively without overloading context. ## Media Evidence No related AI Engineer channel video found yet.
+
+### Speaker And Company Context
+- [[nikita-kothari|Nikita Kothari]] — Senior Member of Technical Staff at [[salesforce|Salesforce]].
+
+### Topics Covered
+- [[agent-security]]
+- [[coding-agents]]
+- [[mcp]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

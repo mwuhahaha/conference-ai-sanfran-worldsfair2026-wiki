@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# The Rise of CaaS: Context-as-a-Service for Agentic AI ## Conference Context - Date/time: 2026-06-30 · 1:55pm-2:15pm - Track/room: Computer Use · Track 7 - Speaker(s): Omer Primor - Session type/status: session · confirmed - Track: Computer Use - Room: Track 7 - Session type: session - Status: confirmed ## Session Description Agentic workflows have commoditized. The new bottleneck is context. As models improve, AI agents are increasingly limited not by reasoning ability, but by the quality, freshness, and specificity of the information they can access. This session introduces Context as a Service, or CaaS, an emerging category for builders creating web-native context layers for AI agents.
+
+### Speaker And Company Context
+- [[omer-primor|Omer Primor]] — role not listed at [[bright-data|Bright Data]].
+
+### Topics Covered
+- [[agentic-web]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

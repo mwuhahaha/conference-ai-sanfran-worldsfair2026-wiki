@@ -25,7 +25,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-e9sLVMN76qU]]
 
 ### Slide/OCR Pages
-- [[youtube-G6IlDzj8OjA-slides]]
+- [[youtube-aqW68Is_Kj4-dense-slides]]
 - [[youtube-aqW68Is_Kj4-slides]]
 - [[youtube-e9sLVMN76qU-reconstructed-slides]]
 - [[youtube-e9sLVMN76qU-slides]]

@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Stop prompting ## Conference Context - Date/time: 2026-06-29 · 1:30pm-1:50pm - Track/room: Expo Stage 4 · Expo Stage 4 SE - Speaker(s): Greg Pstrucha - Session type/status: session · confirmed - Track: Expo Stage 4 - Room: Expo Stage 4 SE - Session type: session - Status: confirmed ## Session Description In this talk I dive into usage of tooling, type systems and frameworks to enforce guardrails and limit slop produced by AI agents inside large codebases. ## Media Evidence No related AI Engineer channel video found yet. ## Evidence Graph This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits. ### Media Signals No linked video, transcript, or slide source has been attached yet.
+
+### Speaker And Company Context
+- [[greg-pstrucha|Greg Pstrucha]] — role not listed at [[sentry|Sentry]].
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -47,3 +47,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# How to Kill the Code Review ## Conference Context - Date/time: 2026-06-30 · 11:40am-12:00pm - Track/room: AI Architects: Tokenmaxxing · Leadership 2 - Speaker(s): Ankit Jain - Session type/status: session · confirmed - Track: AI Architects: Tokenmaxxing - Room: Leadership 2 - Session type: session - Status: confirmed ## Session Description Human-written code died in 2025. Code review is dying in 2026. Teams with high AI adoption are merging 98% more pull requests, but PR review time has surged 91%. There is no way we win this fight with manual code reviews, and AI code review tools are just buying us time.
+
+### Speaker And Company Context
+- [[ankit-jain|Ankit Jain]] — Founder & CEO at [[aviator|Aviator]].
+
+### Topics Covered
+- [[agent-security]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

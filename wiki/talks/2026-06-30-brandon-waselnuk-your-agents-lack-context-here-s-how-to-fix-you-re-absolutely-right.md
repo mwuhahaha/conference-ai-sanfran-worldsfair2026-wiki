@@ -66,3 +66,27 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Synthesis
+### Synthesized Breakdown
+# Your agents lack context: Here's how to fix "You're absolutely right!" ## Conference Context - Date/time: 2026-06-30 · 12:05pm-12:25pm - Track/room: Context Engineering · Track 8 - Speaker(s): Brandon Waselnuk - Session type/status: session · confirmed - Track: Context Engineering - Room: Track 8 - Session type: session - Status: confirmed ## Session Description Every AI coding tool can generate code. Very few can generate the right code for your organization, because they're missing context. They don't know why your team chose Redis over DynamoDB, what the team decided in a Slack thread earlier today about the auth migration, or which architectural patterns your principal engineers actually enforce in review. This talk is a practitioner's guide to building a context engine: the reasoning layer that continuously ingests & synthesizes organizational knowledge across disparate sources into unified, queryable understanding.
+
+### Speaker And Company Context
+- [[brandon-waselnuk|Brandon Waselnuk]] — Developer Relations at [[unblocked|Unblocked]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-BiG2ssibKGc]] — related YouTube source page.
+- [[youtube-BiG2ssibKGc-slides]] — slide evidence.
+- [[youtube-BiG2ssibKGc-reconstructed-slides]] — slide evidence.
+- [[youtube-BiG2ssibKGc-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

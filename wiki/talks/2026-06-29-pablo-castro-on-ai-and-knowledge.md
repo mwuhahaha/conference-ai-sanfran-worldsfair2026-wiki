@@ -62,3 +62,33 @@ No official session recording transcript was found by exact title match on the A
 - [Watch in livestream at 00:10:28](https://www.youtube.com/watch?v=htM02KMNZnk&t=628s) — WF2026: Software Factories & Keynotes (Day 1).
 - Match basis: speaker and title; timed captions matched Pablo Castro, knowledge.
 - Confidence: high automated match; prefer a dedicated cut-video recording when one exists.
+
+## Synthesis
+### Synthesized Breakdown
+The session explains MCP Apps as a way to add interactive UI to MCP-based workflows. It treats the MCP host as the place where tool data, model reasoning, and human controls meet.
+
+### Speaker And Company Context
+- [[pablo-castro|Pablo Castro]] — Distinguished Engineer and CVP at [[microsoft|Microsoft]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[agentic-web]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
+- [[mcp]]
+- [[mcp-apps]]
+
+### Derived Links And Source Material
+- [[youtube-htM02KMNZnk-transcript]] — transcript markdown; source cache `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt` (89,050 words).
+- [[youtube-htM02KMNZnk]] — related YouTube source page.
+- [[youtube-htM02KMNZnk-slides]] — slide evidence.
+- [[youtube-htM02KMNZnk-reconstructed-slides]] — slide evidence.
+- [[youtube-htM02KMNZnk-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+- [[mcp-app-runtime|MCP Apps As Agentic App Runtime]] — MCP Apps treats interactive UI returned from MCP servers as a runtime layer for agent-facing software.
+
+### Evidence Boundary
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.

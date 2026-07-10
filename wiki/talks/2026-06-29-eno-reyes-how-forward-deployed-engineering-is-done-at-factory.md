@@ -64,3 +64,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
 - [[youtube-ShuJ_CN6zr4-slides]]
 - Slide-derived terms: `factory`, `codebases`, `summit`, `autonomous`, `engineering`, `systems`, `make`, `ready`, `cocle`, `pastas`, `code`, `making`, `agent-ready`, `creme`, `enoreves`, `ctoeco-rouncer`
+
+## Synthesis
+### Synthesized Breakdown
+# How Forward Deployed Engineering is done at Factory ## Conference Context - Date/time: 2026-06-29 · 10:45am-11:05am - Track/room: Forward Deployed Engineering · Track 8 - Speaker(s): Eno Reyes - Session type/status: session · confirmed - Track: Forward Deployed Engineering - Room: Track 8 - Session type: session - Status: confirmed ## Session Description No official description published in the schedule data. ## Media Evidence [Making Codebases Agent Ready – Eno Reyes, Factory AI](https://www.youtube.com/watch?v=ShuJ_CN6zr4) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-ShuJ_CN6zr4` - Slide deck: [[youtube-ShuJ_CN6zr4-dense-slides|Dense Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI]] — 2 visible slide image(s); 2 HTML recreation(s). ![[assets/dense-slides/ShuJ_CN6zr4/slide-001.jpg]] ![[assets/dense-slides/ShuJ_CN6zr4/slide-002.jpg]] - Additional slide evidence: [[youtube-ShuJ_CN6zr4-slides|Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI]], [[youtube-ShuJ_CN6zr4-reconstructed-slides|Reconstructed Slides: Making Codebases Agent Ready – Eno Reyes, Factory AI]] - Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready.
+
+### Speaker And Company Context
+- [[eno-reyes|Eno Reyes]] — CTO & Co-Founder at [[factory|Factory]].
+
+### Topics Covered
+- [[agentic-web]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-ShuJ_CN6zr4]] — related YouTube source page.
+- [[youtube-ShuJ_CN6zr4-slides]] — slide evidence.
+- [[youtube-ShuJ_CN6zr4-reconstructed-slides]] — slide evidence.
+- [[youtube-ShuJ_CN6zr4-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

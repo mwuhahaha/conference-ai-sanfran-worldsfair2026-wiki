@@ -27,11 +27,13 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [YouTube sn79oS4MZFI](https://www.youtube.com/watch?v=sn79oS4MZFI) — Case Study + Deep Dive: Telemedicine Support Agents with LangGraph/MCP - Dan Mason
 
 ### Slide/OCR Pages
+- [[youtube-8SUJEqQNClw-reconstructed-slides]]
 - [[youtube-8SUJEqQNClw-slides]]
 - [[youtube-B9h9ovW5H9U-slides]]
-- [[youtube-HEFSExa0xl0-slides]]
 - [[youtube-I2cbIws9j10-slides]]
+- [[youtube-Lc8zRh9muoY-dense-slides]]
 - [[youtube-Lc8zRh9muoY-slides]]
+- [[youtube-htM02KMNZnk-dense-slides]]
 - [[youtube-vh2VGuQ3zhY-slides]]
 
 ### Transcript Files

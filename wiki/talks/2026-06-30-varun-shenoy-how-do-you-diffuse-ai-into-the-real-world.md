@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# How do you diffuse AI into the real world? ## Conference Context - Date/time: 2026-06-30 · 10:45am-11:05am - Track/room: AI-Native Enterprises · Leadership 1 - Speaker(s): Varun Shenoy - Session type/status: session · confirmed - Track: AI-Native Enterprises - Room: Leadership 1 - Session type: session - Status: confirmed ## Session Description Most AI conversations are still about models, benchmarks, and demos. We want to talk about what it actually takes to make AI work inside real companies. The gap between impressive demos and production value is where most enterprise AI efforts die.
+
+### Speaker And Company Context
+- [[varun-shenoy|Varun Shenoy]] — Cofounder at [[long-lake|Long Lake]].
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

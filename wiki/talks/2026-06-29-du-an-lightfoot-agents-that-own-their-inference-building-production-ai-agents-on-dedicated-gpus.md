@@ -82,3 +82,31 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-wFTVEDYVJT0-reconstructed-slides]]
 - [[youtube-wFTVEDYVJT0-slides]]
 - Slide-derived terms: `tools`, `microsoft`, `agentic`, `model`, `actions`, `https`, `world`, `amazon`, `execute`, `system`, `look`, `tere`, `nova`, `memory`, `environment`, `brain`, `autonomous`, `systems`
+
+## Synthesis
+### Synthesized Breakdown
+Building agents with Amazon Nova ACT and MCP. I'm excited today because we're going to build intelligent autonomous AI systems that can help you build, scale, and improve your applications and business. My name is Dewan Lightoot and I'm joined by swap. Swap.
+
+### Speaker And Company Context
+- No speaker profile is attached in the official schedule data.
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[agentic-web]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
+- [[mcp]]
+
+### Derived Links And Source Material
+- [[youtube-wFTVEDYVJT0-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/wFTVEDYVJT0.txt` (13,586 words).
+- [[youtube-wFTVEDYVJT0]] — related YouTube source page.
+- [[youtube-wFTVEDYVJT0-slides]] — slide evidence.
+- [[youtube-wFTVEDYVJT0-reconstructed-slides]] — slide evidence.
+- [[youtube-wFTVEDYVJT0-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.

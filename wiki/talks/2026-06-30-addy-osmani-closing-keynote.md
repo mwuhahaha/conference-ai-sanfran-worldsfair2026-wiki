@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Closing Keynote ## Conference Context - Date/time: 2026-06-30 · 4:30pm-4:50pm - Track/room: Autoresearch · Main Stage - Speaker(s): Addy Osmani - Session type/status: keynote · confirmed - Track: Autoresearch - Room: Main Stage - Session type: keynote - Status: confirmed ## Session Description TBD ## Media Evidence No related AI Engineer channel video found yet. ## Evidence Graph This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits. ### Media Signals No linked video, transcript, or slide source has been attached yet. ### Agent Reading Notes Use these signals to refine the synopsis, topic links, people/company context, and method notes.
+
+### Speaker And Company Context
+- [[addy-osmani|Addy Osmani]] — Director of Engineering at [[independent|Independent]].
+
+### Topics Covered
+- [[agentic-search]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

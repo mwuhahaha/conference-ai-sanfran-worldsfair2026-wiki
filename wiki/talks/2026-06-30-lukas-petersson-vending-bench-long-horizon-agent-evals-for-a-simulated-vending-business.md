@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Vending-Bench: Long-Horizon Agent Evals for a Simulated Vending Business ## Conference Context - Date/time: 2026-06-30 · 10:45am-11:05am - Track/room: Evals · Track 5 - Speaker(s): Lukas Petersson - Session type/status: sponsor · confirmed - Track: Evals - Room: Track 5 - Session type: sponsor - Status: confirmed ## Session Description Long-horizon agent evals via a simulated vending machine business, testing negotiation, pricing, and supplier management over 365 days. ## Media Evidence No related AI Engineer channel video found yet. ## Evidence Graph This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits. ### Media Signals No linked video, transcript, or slide source has been attached yet.
+
+### Speaker And Company Context
+- [[lukas-petersson|Lukas Petersson]] — Co-Founder at [[andon-labs|Andon Labs]].
+
+### Topics Covered
+- Topic links are pending transcript-backed classification.
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

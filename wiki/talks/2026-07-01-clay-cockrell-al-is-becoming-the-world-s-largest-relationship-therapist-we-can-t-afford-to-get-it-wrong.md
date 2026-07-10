@@ -48,3 +48,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Al is becoming the World's largest Relationship Therapist. We Can't Afford to Get it Wrong. ## Conference Context - Date/time: 2026-07-01 · 1:30pm-1:50pm - Track/room: AI in Healthcare · Track 7 - Speaker(s): Clay Cockrell, Tony Fabrikant - Session type/status: session · confirmed - Track: AI in Healthcare - Room: Track 7 - Session type: session - Status: confirmed ## Session Description Millions of people are now turning to AI for relationship advice and emotional support, often before they'd ever consider a human therapist. Most of the AI Therapy that is available is without clinical oversight, ethical frameworks, or any serious reckoning with what it means to intervene in the most intimate and vulnerable space in a person's life.
+
+### Speaker And Company Context
+- [[clay-cockrell|Clay Cockrell]] — Co-Founder at [[couplework-ai|CoupleWork AI]].
+- [[tony-fabrikant|Tony Fabrikant]] — Co-founder at [[couplework-ai|CoupleWork AI]].
+
+### Topics Covered
+- Topic links are pending transcript-backed classification.
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

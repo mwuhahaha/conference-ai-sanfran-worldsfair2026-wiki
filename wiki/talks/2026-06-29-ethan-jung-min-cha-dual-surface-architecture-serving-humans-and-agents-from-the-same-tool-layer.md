@@ -47,3 +47,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer ## Conference Context - Date/time: 2026-06-29 · 1:55pm-2:15pm - Track/room: Security · Track 5 - Speaker(s): Ethan (Jung Min) Cha - Session type/status: sponsor · confirmed - Track: Security - Room: Track 5 - Session type: sponsor - Status: confirmed ## Session Description Every enterprise AI talk right now is about capability. Almost none are about containment. That's the gap this talk fills, because it's where regulated deployments actually die. The Deterministic Harness is the set of rigid rails around a model: schemas, data contracts, tool boundaries, and audit paths.
+
+### Speaker And Company Context
+- [[ethan-jung-min-cha|Ethan (Jung Min) Cha]] — AI Development Lead at [[the-carlyle-group|The Carlyle Group]].
+
+### Topics Covered
+- [[agent-security]]
+- [[mcp]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

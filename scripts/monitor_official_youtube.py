@@ -324,7 +324,11 @@ def try_import_captions(video: VideoEntry) -> dict[str, object]:
         timeout=360,
     )
     if cp.returncode != 0:
-        return {"status": "caption_import_failed", "error": (cp.stderr or cp.stdout)[-1600:]}
+        chrome = try_import_captions_with_chrome_agent(video)
+        if chrome.get("status") == "captions_imported":
+            return chrome
+        chrome["yt_dlp_error"] = (cp.stderr or cp.stdout)[-1600:]
+        return chrome
     after = set(subtitle_dir.glob(f"{video.video_id}*.vtt"))
     candidates = sorted(after - before) or sorted(after)
     if not candidates:
@@ -341,6 +345,38 @@ def try_import_captions(video: VideoEntry) -> dict[str, object]:
         "caption_path": str(candidates[0].relative_to(ROOT)),
         "word_count": len(text.split()),
     }
+
+
+def try_import_captions_with_chrome_agent(video: VideoEntry) -> dict[str, object]:
+    chrome_project = Path("/garage/projects/agents/chrome-agent-python")
+    helper = ROOT / "scripts" / "extract_youtube_caption_with_chrome_agent.py"
+    if not chrome_project.exists() or not helper.exists():
+        return {"status": "chrome_agent_unavailable"}
+    target = transcript_path(video.video_id)
+    cp = subprocess.run(
+        [
+            "uv",
+            "run",
+            "python",
+            str(helper),
+            "--video-id",
+            video.video_id,
+            "--output",
+            str(target),
+        ],
+        cwd=chrome_project,
+        text=True,
+        capture_output=True,
+        timeout=120,
+    )
+    if cp.stdout:
+        print(cp.stdout[-4000:], flush=True)
+    if cp.stderr:
+        print(cp.stderr[-4000:], file=sys.stderr, flush=True)
+    if cp.returncode != 0 or not target.exists():
+        return {"status": "chrome_caption_import_failed", "error": (cp.stderr or cp.stdout)[-1600:]}
+    text = target.read_text(encoding="utf-8", errors="ignore")
+    return {"status": "captions_imported", "path": str(target.relative_to(ROOT)), "source": "chrome_agent", "word_count": len(text.split())}
 
 
 def try_extract_slides(video: VideoEntry, matched_talks: list[dict[str, str]], *, enabled: bool) -> dict[str, object]:

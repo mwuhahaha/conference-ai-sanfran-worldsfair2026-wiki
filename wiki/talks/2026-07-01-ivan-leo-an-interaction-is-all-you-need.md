@@ -75,3 +75,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Synthesis
+### Synthesized Breakdown
+# An Interaction Is All You Need ## Conference Context - Date/time: 2026-07-01 · 3:20pm-3:40pm - Track/room: Expo Stage 3 · Expo Stage 3 SW - Speaker(s): Ivan Leo - Session type/status: session · confirmed - Track: Expo Stage 3 - Room: Expo Stage 3 SW - Session type: session - Status: confirmed ## Session Description No official description published in the schedule data. ## Media Evidence [Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)](https://www.youtube.com/watch?v=xz0-brt56L8) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-xz0-brt56L8` - Slide deck: [[youtube-xz0-brt56L8-dense-slides|Dense Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)]] — 12 visible slide image(s); 12 HTML recreation(s). ![[assets/dense-slides/xz0-brt56L8/slide-001.jpg]] ![[assets/dense-slides/xz0-brt56L8/slide-002.jpg]] ![[assets/dense-slides/xz0-brt56L8/slide-003.jpg]] - Additional slide evidence: [[youtube-xz0-brt56L8-slides|Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)]], [[youtube-xz0-brt56L8-reconstructed-slides|Reconstructed Slides: Building Intelligent Research Agents with Manus - Ivan Leo, Manus AI (now Meta Superintelligence)]] - Slide-derived themes for `youtube-xz0-brt56L8`: faster, better, quality, gain.
+
+### Speaker And Company Context
+- No speaker profile is attached in the official schedule data.
+
+### Topics Covered
+- [[agentic-search]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-xz0-brt56L8]] — related YouTube source page.
+- [[youtube-xz0-brt56L8-slides]] — slide evidence.
+- [[youtube-xz0-brt56L8-reconstructed-slides]] — slide evidence.
+- [[youtube-xz0-brt56L8-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -69,3 +69,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Synthesis
+### Synthesized Breakdown
+# From framework to runtime: running agents with Foundry Agent Service ## Conference Context - Date/time: 2026-06-30 · 10:45am-11:05am - Track/room: Track M · Track M - Speaker(s): Tina Manghnani, Keiji Kanazawa - Session type/status: sponsor · confirmed - Track: Track M - Room: Track M - Session type: sponsor - Status: confirmed ## Session Description See how agents move from frameworks into production systems. Learn how Foundry Agent Service provides hosted execution, scaling, and lifecycle management—combining models, tools, and orchestration into a production-ready runtime. ## Media Evidence [AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft](https://www.youtube.com/watch?v=JhJKgRAmfIU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-JhJKgRAmfIU` - Slide deck: [[youtube-JhJKgRAmfIU-dense-slides|Dense Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]] — 4 visible slide image(s); 4 HTML recreation(s).
+
+### Speaker And Company Context
+- [[tina-manghnani|Tina Manghnani]] — Product Manager at [[microsoft|Microsoft]].
+- [[keiji-kanazawa|Keiji Kanazawa]] — Principal Product Manager at [[microsoft|Microsoft]].
+
+### Topics Covered
+- [[ai-sandboxes]]
+
+### Derived Links And Source Material
+- [[youtube-JhJKgRAmfIU]] — related YouTube source page.
+- [[youtube-JhJKgRAmfIU-slides]] — slide evidence.
+- [[youtube-JhJKgRAmfIU-reconstructed-slides]] — slide evidence.
+- [[youtube-JhJKgRAmfIU-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

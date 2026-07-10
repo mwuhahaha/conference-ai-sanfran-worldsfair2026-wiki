@@ -68,31 +68,26 @@ These videos were discovered outside the official AI Engineer channel and matche
 
 ## Synthesis
 ### Synthesized Breakdown
-Ekaterina Deyneka frames Reelful as an agentic video editor for non-technical mobile users. The workflow starts with a user's photos, clips, and lightweight direction, then uses an agent to understand media, transcribe speech, select the best moments, assemble a composition, and generate supporting assets such as captions, music, voiceover, B-roll, and animated photos.
-
-The technical comparison is to an agentic app builder: both use a prompt, a working artifact, a sandboxed execution environment, agent tools or skills, and a rendered preview. The difference is that Reelful edits real footage rather than generating from a blank canvas, so the agent must handle messy source material, infer user intent, preserve useful moments, and verify that the final Remotion-based composition renders cleanly.
-
-The product lesson is that complex agent workflows should disappear behind simple UX for mass consumers. Reelful uses a mobile-first interface, directional templates, and an optional built-in editor so users can start with an agent-generated cut and make small familiar adjustments afterward.
+Hi, we're building real and we're trying to tackle agenda video editing problem from video editing problem from the agent standpoint. I'm K. I'm founder and co. But let's first talk about what's agentic video editing is.
 
 ### Speaker And Company Context
 - [[ekaterina-deyneka|Ekaterina Deyneka]] — Founder & CEO at [[reelful|Reelful]].
 
 ### Topics Covered
+- [[agentic-search]]
 - [[ai-sandboxes]]
 - [[coding-agents]]
-- [[voice-agents]]
 
 ### Derived Links And Source Material
 - [[youtube-AheG9p_JXVw-transcript]] — transcript markdown; source cache `raw/sources/external-youtube-transcripts/AheG9p_JXVw.txt` (1,340 words).
+- [[youtube-AheG9p_JXVw]] — related YouTube source page.
 - [[youtube-AheG9p_JXVw-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
-- Treating an agentic video editor as the media equivalent of an agentic app builder: a sandboxed agent writes and verifies a video composition rather than a code app.
-- Using Remotion-style video-as-code as the agent's editable/renderable artifact, with a verification layer that catches composition problems and lets the agent iterate.
-- Hiding a multimodal agent pipeline behind consumer UX primitives: mobile capture, directional templates, and manual editor escape hatches.
+- No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis uses the official schedule plus cached related-video transcripts. Related videos remain supporting context unless explicitly verified as exact session recordings.
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

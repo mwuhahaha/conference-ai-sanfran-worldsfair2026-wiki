@@ -57,3 +57,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-e9sLVMN76qU-slides]] — extracted from the related public AI Engineer video.
+
+## Synthesis
+### Synthesized Breakdown
+# Kubernetes Is Not Your Sandbox ## Conference Context - Date/time: 2026-06-30 · 11:40am-12:00pm - Track/room: Sandbox & Platform Engineering · Track 1 - Speaker(s): Ivan Burazin - Session type/status: session · confirmed - Track: Sandbox & Platform Engineering - Room: Track 1 - Session type: session - Status: confirmed ## Session Description Teams are reaching for Kubernetes to run agent sandboxes, and it's the wrong tool. Kubernetes is built to keep things alive and hold them in a steady state. A sandbox is born, forked, and killed before any of that machinery catches up. The mismatch compounds because the sandbox keeps gaining requirements without shedding any.
+
+### Speaker And Company Context
+- [[ivan-burazin|Ivan Burazin]] — CEO at [[daytona|Daytona]].
+
+### Topics Covered
+- [[ai-sandboxes]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-e9sLVMN76qU]] — related YouTube source page.
+- [[youtube-e9sLVMN76qU-slides]] — slide evidence.
+- [[youtube-e9sLVMN76qU-reconstructed-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -48,3 +48,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Computer-Use 2.0: Agents Just Got Multi-Cursor ## Conference Context - Date/time: 2026-06-30 · 2:25pm-2:45pm - Track/room: Computer Use · Track 7 - Speaker(s): Francesco Bonacci, Dillon DuPont - Session type/status: session · confirmed - Track: Computer Use - Room: Track 7 - Session type: session - Status: confirmed ## Session Description Computer-use agents still inherit a basic desktop limitation: one machine has one foreground app, one hardware cursor, and one active actor. Once you try to run more than one agent per desktop, they start stealing focus from the user and from each other. We built cua-driver around a different model: multiple agents operating real desktop applications in parallel, each with its own synthetic pointer, while the user's cursor and keyboard stay undisturbed. The key move is to stop treating hardware mouse and keyboard events as the primary automation layer.
+
+### Speaker And Company Context
+- [[francesco-bonacci|Francesco Bonacci]] — Co-founder & CEO at [[cua|Cua]].
+- [[dillon-dupont|Dillon DuPont]] — CTO at [[cua|Cua]].
+
+### Topics Covered
+- Topic links are pending transcript-backed classification.
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

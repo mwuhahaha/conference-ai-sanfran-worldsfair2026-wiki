@@ -69,3 +69,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Synthesis
+### Synthesized Breakdown
+# FinOps for AI Agents: Who Spent All the Tokens? ## Conference Context - Date/time: 2026-07-01 · 11:10am-11:30am - Track/room: AI Architects: AI Factories · Leadership 2 - Speaker(s): Tisha Chawla, Susheem Koul - Session type/status: session · confirmed - Track: AI Architects: AI Factories - Room: Leadership 2 - Session type: session - Status: confirmed ## Session Description When an autonomous agent finishes a task successfully but costs ten times more than it did the previous day, traditional application monitoring fails. A recursive tool loop that retries silently, an oversized context window that quietly expands, or an unflagged model upgrade can burn through an entire budget long before a human notices. The execution appears successful on functional dashboards, meaning the only clear signal of failure is the cloud invoice at the end of the month.
+
+### Speaker And Company Context
+- [[tisha-chawla|Tisha Chawla]] — Software Engineer at [[microsoft|Microsoft]].
+- [[susheem-koul|Susheem Koul]] — Senior Software Engineer at [[microsoft|Microsoft]].
+
+### Topics Covered
+- [[ai-sandboxes]]
+
+### Derived Links And Source Material
+- [[youtube-Lc8zRh9muoY]] — related YouTube source page.
+- [[youtube-Lc8zRh9muoY-slides]] — slide evidence.
+- [[youtube-Lc8zRh9muoY-reconstructed-slides]] — slide evidence.
+- [[youtube-Lc8zRh9muoY-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

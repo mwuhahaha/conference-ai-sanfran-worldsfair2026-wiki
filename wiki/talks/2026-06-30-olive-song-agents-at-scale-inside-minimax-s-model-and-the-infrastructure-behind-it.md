@@ -66,3 +66,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 - [[youtube-lY1iFbDPRlw-slides]]
 - Slide-derived terms: `minimax`, `research`, `open-weight`, `senior`, `engineer`, `tasks`, `minimax-m2`, `agentic`, `model`, `fast`, `coding`, `intetgence`, `everyene`, `olive`, `song`, `intelligence`, `real`, `experience`
+
+## Synthesis
+### Synthesized Breakdown
+# Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It ## Conference Context - Date/time: 2026-06-30 · 2:50pm-3:10pm - Track/room: Posttraining & Midtraining · Track 9 - Speaker(s): Olive Song, Dan Fu - Session type/status: session · confirmed - Track: Posttraining & Midtraining - Room: Track 9 - Session type: session - Status: confirmed ## Session Description Olive Song (RL Lead, https://www.minimax.io/) and Dan Fu (VP of Kernels, https://www.together.ai/) dig into the engineering behind one of the most widely used open model families in the agent ecosystem: how MiniMax built the model for agentic workloads, and what it takes to serve it at scale. Olive on the model side: The RL decisions behind long-context reasoning and tool use What training for agentic behavior actually looks like in practice Dan on the infrastructure side: Why agentic workloads break inference engines built for chat: prefill-heavy traffic, high cache hit rates, long-context inputs The kernel-level optimizations built for MiniMax's workload profile How the two teams collaborate on model launches and ongoing performance work ## Media Evidence [Minimax M2: Building the #1 Open Model – Olive Song, MiniMax](https://www.youtube.com/watch?v=lY1iFbDPRlw) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-lY1iFbDPRlw` - Slide deck: [[youtube-lY1iFbDPRlw-dense-slides|Dense Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]] — 5 visible slide image(s); 5 HTML recreation(s). ![[assets/dense-slides/lY1iFbDPRlw/slide-001.jpg]] ![[assets/dense-slides/lY1iFbDPRlw/slide-002.jpg]] ![[assets/dense-slides/lY1iFbDPRlw/slide-003.jpg]] - Additional slide evidence: [[youtube-lY1iFbDPRlw-slides|Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]], [[youtube-lY1iFbDPRlw-reconstructed-slides|Reconstructed Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]] - Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
+
+### Speaker And Company Context
+- [[olive-song|Olive Song]] — RL Lead at [[minimax|MiniMax]].
+- [[dan-fu|Dan Fu]] — VP of Kernels at [[together-ai|Together AI]].
+
+### Topics Covered
+- [[agentic-search]]
+
+### Derived Links And Source Material
+- [[youtube-lY1iFbDPRlw]] — related YouTube source page.
+- [[youtube-lY1iFbDPRlw-slides]] — slide evidence.
+- [[youtube-lY1iFbDPRlw-reconstructed-slides]] — slide evidence.
+- [[youtube-lY1iFbDPRlw-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

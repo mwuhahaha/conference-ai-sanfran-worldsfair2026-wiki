@@ -66,3 +66,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-Ywl4LsvHKzU-reconstructed-slides]]
 - [[youtube-Ywl4LsvHKzU-slides]]
 - Slide-derived terms: `world`, `fifa`, `local`, `name`, `questions`, `same`, `future`, `wife`, `first`, `mother`, `schema`, `prob`, `answers`, `assuming`, `answer`, `lies`, `certain`, `chunk`
+
+## Synthesis
+### Synthesized Breakdown
+# Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story ## Conference Context - Date/time: 2026-07-01 · 3:20pm-3:40pm - Track/room: Inference · Track 9 - Speaker(s): Asaf Gardin, Yuval Belfer - Session type/status: session · confirmed - Track: Inference - Room: Track 9 - Session type: session - Status: confirmed ## Session Description Your model generates gibberish. Once every thousand prompts. High confidence scores. No crashes.
+
+### Speaker And Company Context
+- [[asaf-gardin|Asaf Gardin]] — Senior Software Engineer/Inference Engineer at [[ai21|AI21]].
+- [[yuval-belfer|Yuval Belfer]] — Sr. Developer Advocate at [[ai21|AI21]].
+
+### Topics Covered
+- [[agentic-search]]
+
+### Derived Links And Source Material
+- [[youtube-Ywl4LsvHKzU]] — related YouTube source page.
+- [[youtube-Ywl4LsvHKzU-slides]] — slide evidence.
+- [[youtube-Ywl4LsvHKzU-reconstructed-slides]] — slide evidence.
+- [[youtube-Ywl4LsvHKzU-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

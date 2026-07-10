@@ -39,20 +39,21 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
+- [[external-video-discovery]]
 - [[talk-video-transcript-map]]
 - [[youtube-fL1iJHtl51Q]]
 
 ### Slide/OCR Pages
+- [[youtube-0S8xe9ftGTM-slides]]
 - [[youtube-4sX_He5c4sI-slides]]
 - [[youtube-4uFVSLgD2Q4-slides]]
 - [[youtube-7Dtu2bilcFs-slides]]
 - [[youtube-C_GG5g38vLU-slides]]
+- [[youtube-F_RyElT_gJk-reconstructed-slides]]
 - [[youtube-F_RyElT_gJk-slides]]
 - [[youtube-G6IlDzj8OjA-slides]]
-- [[youtube-IddXPepIAS4-slides]]
-- [[youtube-JIsgyk0Paic-slides]]
-- [[youtube-JhJKgRAmfIU-slides]]
-- [[youtube-Lcqat4iP_lE-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-JIsgyk0Paic-dense-slides]]
 
 ### Topic Pages
 - [[mcp]]

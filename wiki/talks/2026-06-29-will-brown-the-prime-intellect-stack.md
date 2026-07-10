@@ -72,3 +72,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-PbHm2qKnu10-reconstructed-slides]]
 - [[youtube-PbHm2qKnu10-slides]]
 - Slide-derived terms: `performance`, `training`, `microsoft`, `learning`, `openal`, `observed`, `same`, `compute`, `models`, `they`, `think`, `thing`, `trainer`, `graphite`, `windsurf`, `moneobb`, `mdaily`, `augment`
+
+## Synthesis
+### Synthesized Breakdown
+# The Prime Intellect Stack ## Conference Context - Date/time: 2026-06-29 · 4:30pm-5:30pm - Track/room: Workshops Day 1 · Track 6 - Speaker(s): Will Brown - Session type/status: workshop · confirmed - Track: Workshops Day 1 - Room: Track 6 - Session type: workshop - Status: confirmed ## Session Description Deep dive into Prime Intellect's open-source ecosystem of post-training tools, including the verifiers and prime-rl libraries, as well as our Lab platform for self-serve training and inference. ## Media Evidence [Training Agentic Reasoners — Will Brown, Prime Intellect](https://www.youtube.com/watch?v=PbHm2qKnu10) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-PbHm2qKnu10` - Slide deck: [[youtube-PbHm2qKnu10-dense-slides|Dense Slides: Training Agentic Reasoners — Will Brown, Prime Intellect]] — 6 visible slide image(s); 6 HTML recreation(s). ![[assets/dense-slides/PbHm2qKnu10/slide-001.jpg]] ![[assets/dense-slides/PbHm2qKnu10/slide-002.jpg]] ![[assets/dense-slides/PbHm2qKnu10/slide-003.jpg]] - Additional slide evidence: [[youtube-PbHm2qKnu10-slides|Slides: Training Agentic Reasoners — Will Brown, Prime Intellect]], [[youtube-PbHm2qKnu10-reconstructed-slides|Reconstructed Slides: Training Agentic Reasoners — Will Brown, Prime Intellect]] - Slide-derived themes for `youtube-PbHm2qKnu10`: kinda, works, labs, doing, four, steps, matches, performance.
+
+### Speaker And Company Context
+- No speaker profile is attached in the official schedule data.
+
+### Topics Covered
+- Topic links are pending transcript-backed classification.
+
+### Derived Links And Source Material
+- [[youtube-PbHm2qKnu10]] — related YouTube source page.
+- [[youtube-PbHm2qKnu10-slides]] — slide evidence.
+- [[youtube-PbHm2qKnu10-reconstructed-slides]] — slide evidence.
+- [[youtube-PbHm2qKnu10-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -47,3 +47,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Video Has No Memory. Here's How We Built One. ## Conference Context - Date/time: 2026-07-01 · 2:25pm-2:45pm - Track/room: Graphs · Track 5 - Speaker(s): James Le - Session type/status: sponsor · confirmed - Track: Graphs - Room: Track 5 - Session type: sponsor - Status: confirmed ## Session Description Every video AI query today starts from scratch. There's no durable state, no entity continuity, no way to ask "what does this corpus know?" instead of "find me something like this." This talk is about fixing that by engineering a proper memory layer for video intelligence, grounded in what we shipped at TwelveLabs with Jockey.
+
+### Speaker And Company Context
+- [[james-le|James Le]] — Head of Developer Experience at [[twelvelabs|TwelveLabs]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

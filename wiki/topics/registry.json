@@ -10,14 +10,14 @@
     "path": "wiki/topics/agent-memory.md"
   },
   {
-    "id": "agent-security",
-    "title": "Agent Security",
-    "path": "wiki/topics/agent-security.md"
-  },
-  {
     "id": "agent-ready-accessibility",
     "title": "Agent-Ready Accessibility",
     "path": "wiki/topics/agent-ready-accessibility.md"
+  },
+  {
+    "id": "agent-security",
+    "title": "Agent Security",
+    "path": "wiki/topics/agent-security.md"
   },
   {
     "id": "agentic-search",
@@ -50,14 +50,14 @@
     "path": "wiki/topics/inference-engineering.md"
   },
   {
-    "id": "mcp-app-runtime",
-    "title": "MCP Apps as Agentic App Runtime",
-    "path": "wiki/topics/mcp-app-runtime.md"
-  },
-  {
     "id": "mcp",
     "title": "Model Context Protocol",
     "path": "wiki/topics/mcp.md"
+  },
+  {
+    "id": "mcp-app-runtime",
+    "title": "MCP Apps as Agentic App Runtime",
+    "path": "wiki/topics/mcp-app-runtime.md"
   },
   {
     "id": "nearly-headless-web",

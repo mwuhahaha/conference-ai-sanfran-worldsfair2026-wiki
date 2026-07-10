@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# From Stateless to Stateful: Orchestrating Real-Time Voice & Messaging Agents with Twilio and Amazon Bedrock ## Conference Context - Date/time: 2026-06-30 · 12:05pm-12:25pm - Track/room: track TBD · Expo Stage 2 NW - Speaker(s): Rishab Kumar - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 2 NW - Session type: session - Status: confirmed ## Session Description We have all had that maddening customer service experience: you text a support line about a delayed flight, receive a confirmation, but when you call in a minute later, the voice agent asks, "How can I help you today?" completely blind to the SMS you just sent. This is the "Channel Amnesia" problem. While businesses are pouring billions into generative AI, most agents are still built on stateless architectures that forget customer context the second a session ends. In this session, we will cure AI amnesia.
+
+### Speaker And Company Context
+- [[rishab-kumar|Rishab Kumar]] — Staff Developer Evangelist at [[twilio|Twilio]].
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

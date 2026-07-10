@@ -1,30 +1,35 @@
 ---
 title: "Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI"
 category: "resources"
-sourceLabels: ["Official AI Engineer YouTube channel", "Public YouTube RSS metadata"]
+sourceLabels:
+  - "Public YouTube metadata"
+  - "YouTube transcript"
 videoId: "ZpK5PWX2YRM"
-publishedDate: "2026-07-10"
-last_enriched: "2026-07-10T18:12:22.081070+00:00"
+last_enriched: "2026-07-10T19:33:09.811870+00:00"
 ---
 # Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
 
 ## What It Is
-An official AI Engineer YouTube video connected to AI Engineer World's Fair 2026 monitoring. This is a public media source; official schedule pages remain canonical for schedule metadata.
+An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
-- Source role: official AI Engineer YouTube channel media evidence.
-- Published date: 2026-07-10
-- Channel/source: AI Engineer.
-- Use: evidence for what the published recording, transcript, and captured slides show. Keep schedule facts tied to the official schedule pages.
-
-## Matched Schedule Pages
-- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code|The Z/L Continuum: Should AI Engineers Still Read Code?]]
+- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
+- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
+- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
 
 ## Transcript Status
-Transcript import status: caption_import_failed.
+Cached transcript text is available at `raw/sources/youtube-transcripts/ZpK5PWX2YRM.txt` (3,931 words).
 
-## Extracted Slides
-- Slide extraction status: skipped_by_configuration.
+## Topic Signals
+- [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[inference-engineering|Inference Engineering]], [[agent-security|Agent Security]]
+- Transcript keywords: `release`, `solve`, `mean`, `preparing`, `comes`, `white`, `recursive`, `entirely`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=ZpK5PWX2YRM)
+
+## Related Scheduled Sessions
+- [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] — The Z/L Continuum: Should AI Engineers Still Read Code? (match score 98)
+- [[2026-06-30-keiji-kanazawa-i-let-agents-refactor-my-codebase-for-3-weeks-then-i-read-the-code]] — I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code. (match score 9)
+
+## Extracted Slides
+- Slide extraction status: skipped_by_configuration.

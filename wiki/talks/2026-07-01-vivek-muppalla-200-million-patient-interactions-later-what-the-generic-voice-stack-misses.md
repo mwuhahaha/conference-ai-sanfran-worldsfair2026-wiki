@@ -66,3 +66,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Synthesis
+### Synthesized Breakdown
+# 200 Million Patient Interactions Later: What the Generic Voice Stack Misses ## Conference Context - Date/time: 2026-07-01 · 12:05pm-12:25pm - Track/room: AI in Healthcare · Track 7 - Speaker(s): Vivek Muppalla - Session type/status: session · confirmed - Track: AI in Healthcare - Room: Track 7 - Session type: session - Status: confirmed ## Session Description A healthcare voice agent can be right on the benchmark and still fail in production. Real patients hesitate, interrupt, misremember medications, code-switch mid-sentence, and disclose risk indirectly. After **200M+ patient-agent interactions**, the lesson is clear: in clinical voice AI, interaction is a safety variable. This talk breaks down what Hippocratic AI had to rebuild beyond the generic voice stack: not just ASR, VAD, an LLM, TTS, and turn-taking heuristics, but a real-time safety system that treats silence, clarification, escalation, multilingual continuity, and medication-specific recognition as first-class engineering problems.
+
+### Speaker And Company Context
+- [[vivek-muppalla|Vivek Muppalla]] — VP AI Engineering at [[hippocratic-ai|Hippocratic AI]].
+
+### Topics Covered
+- [[agent-security]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-u3NofYYstaY]] — related YouTube source page.
+- [[youtube-u3NofYYstaY-slides]] — slide evidence.
+- [[youtube-u3NofYYstaY-reconstructed-slides]] — slide evidence.
+- [[youtube-u3NofYYstaY-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

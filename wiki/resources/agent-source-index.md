@@ -59,7 +59,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Topics: 16 synthesis pages across repeated conference themes.
 - Resources: 225 pages for source maps, YouTube evidence, livestreams, and processing audits.
 - Slides: 418 slide pages; standard decks: 200; reconstructed decks: 107; dense decks: 94.
-- Transcripts: 102 transcript markdown pages.
+- Transcripts: 104 transcript markdown pages.
 - Quotes: 68 selected quote pages tied back to source videos and topics.
 - Tools: 62 tool/protocol/entity pages generated from the conference evidence layer.
 - Claims: 1 evidence-backed claim pages.
@@ -138,7 +138,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Channel video metadata status: present; video entries: 833.
 - Channel livestream metadata status: present; livestream entries: 32.
 - Related talk/video rows indexed: 153.
-- Cached speaker-matched transcript files: 96.
+- Cached speaker-matched transcript files: 98.
 - Cached livestream transcript files: 3.
 - Cached external secondary-source transcript files: 2.
 - External YouTube discovery rows: 21.

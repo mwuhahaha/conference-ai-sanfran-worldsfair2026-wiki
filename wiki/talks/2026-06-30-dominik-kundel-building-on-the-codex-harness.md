@@ -65,3 +65,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-iXhba366fQc-reconstructed-slides]]
 - [[youtube-iXhba366fQc-slides]]
 - Slide-derived terms: `complex`, `fair`, `voice`, `parts`, `traces`, `world`, `than`, `personalized`, `conversations`, `dealing`, `support`, `okct`, `aine`, `ronteto`, `mdaily`, `augmentcode`, `workos`, `started`
+
+## Synthesis
+### Synthesized Breakdown
+# Building on the Codex Harness ## Conference Context - Date/time: 2026-06-30 · 3:45pm-4:05pm - Track/room: track TBD · Expo Stage 2 NW - Speaker(s): Dominik Kundel - Session type/status: session · confirmed - Track: track TBD - Room: Expo Stage 2 NW - Session type: session - Status: confirmed ## Session Description No official description published in the schedule data. ## Media Evidence [Building voice agents with OpenAI — Dominik Kundel, OpenAI](https://www.youtube.com/watch?v=iXhba366fQc) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-iXhba366fQc` - Slide deck: [[youtube-iXhba366fQc-dense-slides|Dense Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]] — 4 visible slide image(s); 4 HTML recreation(s). ![[assets/dense-slides/iXhba366fQc/slide-001.jpg]] ![[assets/dense-slides/iXhba366fQc/slide-002.jpg]] ![[assets/dense-slides/iXhba366fQc/slide-003.jpg]] - Additional slide evidence: [[youtube-iXhba366fQc-slides|Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]], [[youtube-iXhba366fQc-reconstructed-slides|Reconstructed Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]] - Slide-derived themes for `youtube-iXhba366fQc`: than, complex, personalized, github, voice, provide, wide, range.
+
+### Speaker And Company Context
+- [[dominik-kundel|Dominik Kundel]] — Developer Experience Lead at [[openai|OpenAI]].
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-iXhba366fQc]] — related YouTube source page.
+- [[youtube-iXhba366fQc-slides]] — slide evidence.
+- [[youtube-iXhba366fQc-reconstructed-slides]] — slide evidence.
+- [[youtube-iXhba366fQc-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

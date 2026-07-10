@@ -47,3 +47,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# The Era of Compound Engineering ## Conference Context - Date/time: 2026-06-29 · 2:25pm-2:45pm - Track/room: AI Architects: Show my Workflow · Leadership 2 - Speaker(s): Kieran Klaassen - Session type/status: session · confirmed - Track: AI Architects: Show my Workflow - Room: Leadership 2 - Session type: session - Status: confirmed ## Session Description Most codebases get harder to work with every year. Yours doesn't have to. **Compound Engineering** is a philosophy where each unit of work – every bug fix, every feature, every code review – makes the next one easier. This talk is about how that shift changes everything: from how fast you ship to how many engineers you actually need.
+
+### Speaker And Company Context
+- [[kieran-klaassen|Kieran Klaassen]] — GM of Cora / Compound Engineering at [[every-cora|Every/Cora]].
+
+### Topics Covered
+- [[agent-security]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

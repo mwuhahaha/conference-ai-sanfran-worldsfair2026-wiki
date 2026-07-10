@@ -76,3 +76,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-wNH3q9pqn0U-reconstructed-slides]]
 - [[youtube-wNH3q9pqn0U-slides]]
 - Slide-derived terms: `microsoft`, `crystal`, `growth`, `water`, `solution`, `demo`, `salt`, `yeast`, `fermentation`, `open-source`, `open`, `jacdac`, `nucleation`, `science`, `supersaturation`, `dissolves`, `than`, `temperature`
+
+## Synthesis
+### Synthesized Breakdown
+# Memory Harnesses for Long-Running Research Agents ## Conference Context - Date/time: 2026-06-30 · 11:40am-12:00pm - Track/room: Memory & Continual Learning · Main Stage - Speaker(s): Stefania Druga - Session type/status: session · confirmed - Track: Memory & Continual Learning - Room: Main Stage - Session type: session - Status: confirmed ## Session Description At Sakana AI we build agents that run for hundreds of turns to read literature, run experiments, and draft papers. The model rarely breaks. The harness around it is the weak point: the agent contradicts a decision it made 80 turns ago, redoes finished work, or drifts from the question it started on. This is the binding-constraint thesis.
+
+### Speaker And Company Context
+- No speaker profile is attached in the official schedule data.
+
+### Topics Covered
+- [[agentic-search]]
+
+### Derived Links And Source Material
+- [[youtube-wNH3q9pqn0U]] — related YouTube source page.
+- [[youtube-wNH3q9pqn0U-slides]] — slide evidence.
+- [[youtube-wNH3q9pqn0U-reconstructed-slides]] — slide evidence.
+- [[youtube-wNH3q9pqn0U-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

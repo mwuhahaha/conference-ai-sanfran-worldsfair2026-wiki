@@ -5,24 +5,24 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "kZsf_Sfm7RU"
-last_enriched: "2026-07-09T01:18:28.192167+00:00"
+last_enriched: "2026-07-10T19:33:10.663443+00:00"
 ---
 # The Missing Layer After Launch - Raphael Kalandadze, Wandero AI
 
 ## What It Is
-An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is an event video source for the wiki, while the official schedule remains the canonical schedule source.
+An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
 - Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel cut video.
-- Use: primary evidence for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
+- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
+- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/kZsf_Sfm7RU.txt` (3,369 words).
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[voice-agents|Voice Agents]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `asked`, `connecting`, `half`, `notifications`, `especially`, `luck`, `lose`, `easiest`
+- Transcript keywords: `rest`, `mean`, `regex`, `comes`, `understanding`, `window`, `harrison`, `description`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=kZsf_Sfm7RU)
@@ -35,6 +35,3 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/kZsf_Sfm
 
 ## Extracted Slides
 - [[youtube-kZsf_Sfm7RU-slides]]
-
-## Transcript Markdown
-- [[youtube-kZsf_Sfm7RU-transcript]] — full cached transcript markdown.

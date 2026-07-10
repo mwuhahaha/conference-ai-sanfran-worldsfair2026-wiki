@@ -41,6 +41,8 @@ TBD
 - Additional slide evidence: [[youtube-yJHw33cVeHo-slides|Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]], [[youtube-yJHw33cVeHo-reconstructed-slides|Reconstructed Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]]
 - Slide-derived themes for `youtube-yJHw33cVeHo`: hello.
 
+- [[youtube-pMggiOb18tc-transcript]] — full cached transcript markdown for the related YouTube source.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
@@ -82,15 +84,20 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Synthesis
 ### Synthesized Breakdown
-# The Golden Age of AI Engineering ## Conference Context - Date/time: 2026-06-29 · 9:25am-9:45am - Track/room: Software Factories · Main Stage - Speaker(s): Alexander Embiricos, Romain Huet - Session type/status: keynote · confirmed - Track: Software Factories - Room: Main Stage - Session type: keynote - Status: confirmed ## Session Description TBD ## Media Evidence [From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet](https://www.youtube.com/watch?v=yJHw33cVeHo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-yJHw33cVeHo` - Slide deck: [[youtube-yJHw33cVeHo-dense-slides|Dense Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]] — 1 visible slide image(s); 1 HTML recreation(s). ![[assets/dense-slides/yJHw33cVeHo/slide-001.jpg]] - Additional slide evidence: [[youtube-yJHw33cVeHo-slides|Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]], [[youtube-yJHw33cVeHo-reconstructed-slides|Reconstructed Slides: From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet]] - Slide-derived themes for `youtube-yJHw33cVeHo`: hello. ## Evidence Graph This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+Good morning everyone. I'm Raman. Hey everyone. I'm Alexander.
 
 ### Speaker And Company Context
 - No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[agentic-web]]
+- [[ai-sandboxes]]
 - [[coding-agents]]
 
 ### Derived Links And Source Material
+- [[youtube-pMggiOb18tc-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/pMggiOb18tc.txt` (4,606 words).
 - [[youtube-pMggiOb18tc]] — related YouTube source page.
 - [[youtube-yJHw33cVeHo]] — related YouTube source page.
 - [[youtube-yJHw33cVeHo-slides]] — slide evidence.
@@ -101,4 +108,4 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.

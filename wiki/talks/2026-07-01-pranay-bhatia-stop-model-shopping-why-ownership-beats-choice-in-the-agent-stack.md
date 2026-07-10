@@ -47,3 +47,21 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Stop Model Shopping: Why Ownership Beats Choice in the Agent Stack ## Conference Context - Date/time: 2026-07-01 · 12:05pm-12:25pm - Track/room: Inference · Leadership 1 - Speaker(s): Pranay Bhatia - Session type/status: session · confirmed - Track: Inference - Room: Leadership 1 - Session type: session - Status: confirmed ## Session Description Teams shipping successful agents at scale know that model ownership is now a much more durable advantage than model choice. They’re fine-tuning open models using their proprietary data, building tight data feedback loops between their products and their models, and treating customization as a core product discipline to differentiate. I’ve spent the last decade building AI infrastructure, first as co-creator and head of PyTorch at Meta, now as CEO of Fireworks AI, where my team powers AI agent infrastructure stacks for companies like Cursor, Notion, Uber, DoorDash, and Vercel. I’ve watched hundreds of teams try to ship agents into production, and the patterns behind their success and failure are remarkably consistent.
+
+### Speaker And Company Context
+- [[pranay-bhatia|Pranay Bhatia]] — AI engineer and product leader at [[fireworks-ai|Fireworks AI]].
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

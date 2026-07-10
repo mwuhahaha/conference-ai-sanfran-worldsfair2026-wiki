@@ -43,7 +43,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
 - [[google-photos-aie-slides]]
+- [[room-attendance-calibration]]
 - [[talk-video-transcript-map]]
+- [[video-attendance-visibility]]
 - [[youtube-Bc6Ojl2XS1w]]
 - [[youtube-LxQsQ3vZDqo]]
 
@@ -57,9 +59,10 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-Bc6Ojl2XS1w-dense-slides]]
 - [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
 - [[youtube-Bc6Ojl2XS1w-slides]]
-- [[youtube-F_RyElT_gJk-slides]]
+- [[youtube-F_RyElT_gJk-reconstructed-slides]]
 
 ### Topic Pages
+- [[autoresearch]]
 - [[voice-agents]]
 
 ### Transcript Files

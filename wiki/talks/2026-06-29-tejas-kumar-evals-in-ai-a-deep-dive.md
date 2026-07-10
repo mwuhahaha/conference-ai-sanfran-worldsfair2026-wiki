@@ -62,3 +62,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-C_GG5g38vLU-reconstructed-slides]]
 - [[youtube-C_GG5g38vLU-slides]]
 - Slide-derived terms: `model`, `const`, `news`, `engineering`, `future`, `harness`, `task`, `hacker`, `upvote`, `import`, `story`, `session`, `europe`, `lght`, `https`, `news.ycombinator.com`, `stories`, `highest-ranked`
+
+## Synthesis
+### Synthesized Breakdown
+# Evals in AI: A Deep Dive ## Conference Context - Date/time: 2026-06-29 · 12:10pm-1:10pm - Track/room: Workshops Day 1 · Track 1 - Speaker(s): Tejas Kumar - Session type/status: workshop · confirmed - Track: Workshops Day 1 - Room: Track 1 - Session type: workshop - Status: confirmed ## Session Description “Our evals pass and our velocity is up, so it works.” It’s the most reassuring sentence in AI engineering and also the most dangerous. Teams are shipping more code than ever while incidents per PR and change-failure rates climb, and the instruments meant to catch this are quietly broken. This talk takes apart both halves of that false comfort. First, why velocity lies: the same AI-driven throughput that lights up your dashboard is what’s eroding quality underneath it.
+
+### Speaker And Company Context
+- [[tejas-kumar|Tejas Kumar]] — AI Engineer at [[ibm|IBM]].
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-C_GG5g38vLU]] — related YouTube source page.
+- [[youtube-C_GG5g38vLU-slides]] — slide evidence.
+- [[youtube-C_GG5g38vLU-reconstructed-slides]] — slide evidence.
+- [[youtube-C_GG5g38vLU-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -50,3 +50,22 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster ## Conference Context - Date/time: 2026-07-01 · 3:20pm-3:40pm - Track/room: Agentic Engineering · Track 8 - Speaker(s): Matt Dailey - Session type/status: session · confirmed - Track: Agentic Engineering - Room: Track 8 - Session type: session - Status: confirmed ## Session Description Learn more about Ref: https://ref.tools/ AI made writing code nearly free, and on most teams, that's quietly breaking how the team works. Individually, everyone feels ten times faster. Together, the signals point the other way: too many PRs moving in too many directions, engineers throwing away whole agent sessions and starting over ("declaring agent bankruptcy"), and critical decisions getting made inside agent chats that no one will ever see or review. There's a lot of energy, and it's all going somewhere different.
+
+### Speaker And Company Context
+- [[matt-dailey|Matt Dailey]] — Founder at [[ref|Ref.]].
+
+### Topics Covered
+- [[agent-security]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

@@ -31,6 +31,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
+- [[livestream-thematic-anchors]]
 - [[talk-video-transcript-map]]
 - [[youtube-PbHm2qKnu10]]
 

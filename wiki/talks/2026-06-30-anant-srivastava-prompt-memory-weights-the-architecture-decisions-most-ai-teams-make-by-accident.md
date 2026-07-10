@@ -47,3 +47,23 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
+
+## Synthesis
+### Synthesized Breakdown
+# Prompt, Memory, Weights: The Architecture Decisions Most AI Teams Make by Accident ## Conference Context - Date/time: 2026-06-30 · 12:05pm-12:25pm - Track/room: Context Engineering · Expo Stage 4 SE - Speaker(s): Anant Srivastava - Session type/status: session · confirmed - Track: Context Engineering - Room: Expo Stage 4 SE - Session type: session - Status: confirmed ## Session Description The interesting engineering in production AI isn't in the model. Your knowledge lives in files, databases, and APIs: docs, runbooks, conversations, code. The model just reads tokens. So the real architectural question is which path that knowledge takes to inference: into the prompt directly, into memory for retrieval on demand, or into the weights through fine-tuning.
+
+### Speaker And Company Context
+- [[anant-srivastava|Anant Srivastava]] — Principal Technologist - Data and AI Platforms at [[oracle|Oracle]].
+
+### Topics Covered
+- [[agentic-search]]
+- [[agentic-web]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

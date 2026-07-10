@@ -68,3 +68,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-rmvDxxNubIg-reconstructed-slides]]
 - [[youtube-rmvDxxNubIg-slides]]
 - Slide-derived terms: `code`, `allowed`, `vibes`, `engineering`, `summit`, `tasks`, `dexhorthy`, `adexhorthy`, `coding`, `future`, `software`, `solving`, `hard`, `horthy`, `humanlayer`, `intentional`, `compaction`, `approach`
+
+## Synthesis
+### Synthesized Breakdown
+# Harness Engineering is not Enough: Why Software Factories Fail ## Conference Context - Date/time: 2026-06-29 · 4:30pm-4:50pm - Track/room: Software Factories · Main Stage - Speaker(s): Dex Horthy - Session type/status: keynote · confirmed - Track: Software Factories - Room: Main Stage - Session type: keynote - Status: confirmed ## Session Description No official description published in the schedule data. ## Media Evidence [No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer](https://www.youtube.com/watch?v=rmvDxxNubIg) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
+
+### Speaker And Company Context
+- [[dex-horthy|Dex Horthy]] — Co-Founder at [[humanlayer|HumanLayer]].
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-rmvDxxNubIg]] — related YouTube source page.
+- [[youtube-rmvDxxNubIg-slides]] — slide evidence.
+- [[youtube-rmvDxxNubIg-reconstructed-slides]] — slide evidence.
+- [[youtube-rmvDxxNubIg-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

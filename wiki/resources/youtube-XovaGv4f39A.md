@@ -5,30 +5,27 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "XovaGv4f39A"
-last_enriched: "2026-07-09T01:18:31.091795+00:00"
+last_enriched: "2026-07-10T19:33:13.221486+00:00"
 ---
 # When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis
 
 ## What It Is
-A public YouTube video used as supporting context for the AI Engineer World's Fair 2026 wiki. It is not part of the confirmed World's Fair San Francisco 2026 official event-video set.
+An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is a primary event video source for what the published talk recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
-- Source role: supporting contextual video source.
-- Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
-- Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
+- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
+- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
+- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/XovaGv4f39A.txt` (863 words).
 
 ## Topic Signals
 - [[agent-memory|Agent Memory]], [[agentic-search|Agentic Search]], [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `graphrag`, `however`, `asked`, `user`, `balance`, `trip`, `must`, `performing`
+- Transcript keywords: `solve`, `recomputing`, `needed`, `computationally`, `problem`, `screaming`, `deeply`, `understanding`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=XovaGv4f39A)
 
 ## Extracted Slides
 - [[youtube-XovaGv4f39A-slides]]
-
-## Transcript Markdown
-- [[youtube-XovaGv4f39A-transcript]] — full cached transcript markdown.

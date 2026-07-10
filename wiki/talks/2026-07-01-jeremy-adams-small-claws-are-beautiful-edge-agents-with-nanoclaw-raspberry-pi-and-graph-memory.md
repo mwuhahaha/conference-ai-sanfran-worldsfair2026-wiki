@@ -65,3 +65,25 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-Fzb1a24hF-o-reconstructed-slides]]
 - [[youtube-Fzb1a24hF-o-slides]]
 - Slide-derived terms: `dagger`, `function`, `code`, `microsoft`, `will`, `functions`, `type`, `module`, `application`, `file`, `source`, `chain`, `python`, `java`, `project`, `prompt`, `show`, `pipeline`
+
+## Synthesis
+### Synthesized Breakdown
+# Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory ## Conference Context - Date/time: 2026-07-01 · 2:50pm-3:10pm - Track/room: Expo Stage 3 · Expo Stage 3 SW - Speaker(s): Jeremy Adams - Session type/status: session · confirmed - Track: Expo Stage 3 - Room: Expo Stage 3 SW - Session type: session - Status: confirmed ## Session Description No official description published in the schedule data. ## Media Evidence [Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger](https://www.youtube.com/watch?v=Fzb1a24hF-o) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions). - Source video: `youtube-Fzb1a24hF-o` - Slide deck: [[youtube-Fzb1a24hF-o-dense-slides|Dense Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger]] — 5 visible slide image(s); 5 HTML recreation(s). ![[assets/dense-slides/Fzb1a24hF-o/slide-001.jpg]] ![[assets/dense-slides/Fzb1a24hF-o/slide-002.jpg]] ![[assets/dense-slides/Fzb1a24hF-o/slide-003.jpg]] - Additional slide evidence: [[youtube-Fzb1a24hF-o-slides|Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger]], [[youtube-Fzb1a24hF-o-reconstructed-slides|Reconstructed Slides: Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger]] - Slide-derived themes for `youtube-Fzb1a24hF-o`: info, badge, pipeline, tomorrow, june, continue, hack, night.
+
+### Speaker And Company Context
+- [[jeremy-adams|Jeremy Adams]] — Tech Translator at [[neo4j|Neo4j]].
+
+### Topics Covered
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-Fzb1a24hF-o]] — related YouTube source page.
+- [[youtube-Fzb1a24hF-o-slides]] — slide evidence.
+- [[youtube-Fzb1a24hF-o-reconstructed-slides]] — slide evidence.
+- [[youtube-Fzb1a24hF-o-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

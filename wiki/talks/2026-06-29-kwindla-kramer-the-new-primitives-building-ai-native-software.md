@@ -63,3 +63,26 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-E71YtNbCFXY-reconstructed-slides]]
 - [[youtube-E71YtNbCFXY-slides]]
 - Slide-derived terms: `code`, `voice-to-voice`, `latency`, `websockets`, `pipecat`, `atency`, `lines`, `awws`, `graphite`, `windsurf`, `mongobb`, `mdaily`, `augment`, `workos`, `milliseconds`, `typical`, `during`, `human`
+
+## Synthesis
+### Synthesized Breakdown
+# The New Primitives: Building AI-Native Software ## Conference Context - Date/time: 2026-06-29 · 10:45am-11:05am - Track/room: Voice & Realtime AI · Track 6 - Speaker(s): Kwindla Kramer - Session type/status: session · confirmed - Track: Voice & Realtime AI - Room: Track 6 - Session type: session - Status: confirmed ## Session Description In the future, every piece of software with a human-facing surface will be built from new, LLM-centric primitives. (Just like every piece of software today has networking, threads/async routines, UI on top of some flavor of Model/View/Controller abstractions, etc.) We're just starting to invent these new primitives. The list, though, will definitely include: 1. Subagents - multiple inference loops, multiple models, async tool calls 2.
+
+### Speaker And Company Context
+- [[kwindla-kramer|Kwindla Kramer]] — CEO at [[daily|Daily]].
+
+### Topics Covered
+- [[agent-security]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-E71YtNbCFXY]] — related YouTube source page.
+- [[youtube-E71YtNbCFXY-slides]] — slide evidence.
+- [[youtube-E71YtNbCFXY-reconstructed-slides]] — slide evidence.
+- [[youtube-E71YtNbCFXY-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- No highlighted novel concept has been detected yet.
+
+### Evidence Boundary
+This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.

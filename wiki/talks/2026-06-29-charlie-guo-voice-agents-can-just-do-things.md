@@ -70,3 +70,28 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Synthesis
+### Synthesized Breakdown
+I want to start with a question. How many sales calls can you listen to and take notes on in a single day? If you assume each call is 30 minutes and you work an 8 hour day with no lunch break, that gives you 16 calls. If you have absolutely zero work life balance and only stop to sleep for 8 hours a day, you might get to 32 calls.
+
+### Speaker And Company Context
+- [[charlie-guo|Charlie Guo]] — Developer Experience Engineer at [[openai|OpenAI]].
+
+### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[coding-agents]]
+
+### Derived Links And Source Material
+- [[youtube-dvft0Gp9sEE-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/dvft0Gp9sEE.txt` (1,508 words).
+- [[youtube-dvft0Gp9sEE]] — related YouTube source page.
+- [[youtube-dvft0Gp9sEE-slides]] — slide evidence.
+- [[youtube-dvft0Gp9sEE-reconstructed-slides]] — slide evidence.
+- [[youtube-dvft0Gp9sEE-dense-slides]] — slide evidence.
+
+### Novel Concepts / Clever Methods
+- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
+
+### Evidence Boundary
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
