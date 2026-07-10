@@ -2,15 +2,17 @@
 title: "Google"
 category: "companies"
 aliases: ["Google"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.google.com/webhp?aep=11"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Google
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Google is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.
 
 ## Why It Matters At World's Fair
-Google appears through 8 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Are LLM Performance Benchmarks Reliable?; Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production; Model Whisperers: How Evals and Prompts Shape Agent Behavior.
+Google matters to this wiki through 8 official speaker(s) and 4 scheduled session(s), including: Build-Time vs. Run-Time: Why Your Dev Tools Will Fail in Production; Model Whisperers: How Evals and Prompts Shape Agent Behavior; Why Large? Tiny LMs & Agents on Edge/Robotics.
 
 ## Related People
 - [[ashok-chandrasekar]] - Staff Software Engineer
@@ -28,8 +30,15 @@ Google appears through 8 official speaker(s) connected to 4 scheduled session(s)
 - [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics]] - Why Large? Tiny LMs & Agents on Edge/Robotics (2026-06-30, 2:50pm-3:10pm)
 - [[2026-07-01-ashok-chandrasekar-are-llm-performance-benchmarks-reliable]] - Are LLM Performance Benchmarks Reliable? (2026-07-01, 11:40am-12:00pm)
 
+## Origin And Context
+The official speaker roster connects Google to Ashok Chandrasekar, Averi Kitsch, Chris Souza, Cormac Brick, Daniel Bump, Jason Kramberger. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Google](https://www.google.com/webhp?aep=11)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -2,15 +2,17 @@
 title: "Weco AI"
 category: "companies"
 aliases: ["Weco AI"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.weco.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Weco AI
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Weco AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Weco is a research and product lab building recursively self-improving AI.
 
 ## Why It Matters At World's Fair
-Weco AI appears through 4 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Hands-on AutoResearch: Cracking OpenAI's Parameter Golf; An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge.
+Weco AI matters to this wiki through 4 official speaker(s) and 2 scheduled session(s), including: Hands-on AutoResearch: Cracking OpenAI's Parameter Golf; An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge.
 
 ## Related People
 - [[dhruv-srikanth]] - Founding Engineer
@@ -22,8 +24,15 @@ Weco AI appears through 4 official speaker(s) connected to 2 scheduled session(s
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]] - Hands-on AutoResearch: Cracking OpenAI's Parameter Golf (2026-06-29, 2:20pm-4:20pm)
 - [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge]] - An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge (2026-06-30, 1:55pm-2:15pm)
 
+## Origin And Context
+The official speaker roster connects Weco AI to Dhruv Srikanth, Dixing Xu, Vayum Arora, Zhengyao Jiang. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Weco AI](https://www.weco.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

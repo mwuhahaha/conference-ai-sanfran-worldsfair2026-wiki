@@ -2,15 +2,17 @@
 title: "MCP Apps"
 category: "companies"
 aliases: ["MCP Apps"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
+
 # MCP Apps
 
 ## What It Is
-MCP Apps is the protocol and UI-extension context around Liad Yosef and Ido Salomon's World's Fair sessions. It should be read alongside [[ora]], which is Liad's agentic-web company/research context, rather than treated as a substitute for ORA.
+MCP Apps is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
 
 ## Why It Matters At World's Fair
-MCP Apps appears through 2 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: We're the bottleneck, but we don't have to be; MCP Apps - Extending the frontier; Rebuilding the web for agents.
+MCP Apps matters to this wiki through 2 official speaker(s) and 3 scheduled session(s), including: Rebuilding the web for agents; We're the bottleneck, but we don't have to be; MCP Apps - Extending the frontier.
 
 ## Related People
 - [[ido-salomon]] - Co-Creator
@@ -21,10 +23,15 @@ MCP Apps appears through 2 official speaker(s) connected to 3 scheduled session(
 - [[2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be]] - We're the bottleneck, but we don't have to be (2026-06-29, 2:25pm-2:45pm)
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] - MCP Apps - Extending the frontier (2026-06-30, 2:25pm-2:45pm)
 
+## Origin And Context
+The official speaker roster connects MCP Apps to Ido Salomon, Liad Yosef. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+
+## Notes
+- Automated company profile fetch status: manual_url_unfetched.
+- Discovery confidence score: 50.
+
 ## Public Sources
-- [MCP Apps extension page](https://modelcontextprotocol.io/extensions/apps)
-- [MCP Apps working group](https://modelcontextprotocol-community.github.io/)
-- [ORA](https://ora.ai/)
+- [MCP Apps public site](https://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

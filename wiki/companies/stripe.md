@@ -2,15 +2,17 @@
 title: "Stripe"
 category: "companies"
 aliases: ["Stripe"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://stripe.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Stripe
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Stripe is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "stripe.ai", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-Stripe appears through 4 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: How to avoid disaster when vibe-coding a billing engine; Teaching agents to pay; Building safe payment infrastructure for machine-to-machine commerce.
+Stripe matters to this wiki through 4 official speaker(s) and 4 scheduled session(s), including: Inside the AI economy: What Stripe’s data reveals; How to avoid disaster when vibe-coding a billing engine; Building safe payment infrastructure for machine-to-machine commerce.
 
 ## Related People
 - [[andrew-garvin]] - Cofounder of Metronome
@@ -24,8 +26,15 @@ Stripe appears through 4 official speaker(s) connected to 4 scheduled session(s)
 - [[2026-07-01-jennifer-lee-building-safe-payment-infrastructure-for-machine-to-machine-commerce]] - Building safe payment infrastructure for machine-to-machine commerce (2026-07-01, 10:45am-11:05am)
 - [[2026-07-01-anna-spysz-teaching-agents-to-pay]] - Teaching agents to pay (2026-07-01, 1:55pm-2:15pm)
 
+## Origin And Context
+The official speaker roster connects Stripe to Andrew Garvin, Anna Spysz, Jennifer Lee, Nilofer Rajpurkar. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [stripe.ai](https://stripe.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -2,15 +2,17 @@
 title: "Hugging Face"
 category: "companies"
 aliases: ["Hugging Face"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://huggingface.co/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Hugging Face
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Hugging Face is represented at AI Engineer World's Fair 2026. Its public site describes it this way: We’re on a journey to advance and democratize artificial intelligence through open source and open science.
 
 ## Why It Matters At World's Fair
-Hugging Face appears through 4 official speaker(s) connected to 6 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub; Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge; Compression at the Edge.
+Hugging Face matters to this wiki through 4 official speaker(s) and 7 scheduled session(s), including: Thom Wolf keynote; Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge; Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub.
 
 ## Related People
 - [[arek-borucki]] - Machine Learning Platform & Database Engineer
@@ -26,8 +28,15 @@ Hugging Face appears through 4 official speaker(s) connected to 6 scheduled sess
 - [[2026-06-30-uri-rolls-training-frontier-models-to-out-think-hackers]] - Training Frontier Models to Out-Think Hackers (2026-06-30, 11:40am-12:00pm)
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge]] - Compression at the Edge (2026-07-01, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects Hugging Face to Arek Borucki, Merve Noyan, Niels Rogge, Thom Wolf. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Hugging Face – The AI community building the future.](https://huggingface.co/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -2,15 +2,17 @@
 title: "FactSet"
 category: "companies"
 aliases: ["FactSet"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.factset.com/ai"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # FactSet
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+FactSet is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Unlock the power of FactSet Intelligence. Enhance investment strategy, automate workflows, and gain deeper insights with FactSet's AI solutions.
 
 ## Why It Matters At World's Fair
-FactSet appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Skills are new features: Building Skill-Centric Harness for Agentic Products.
+FactSet matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Skills are new features: Building Skill-Centric Harness for Agentic Products.
 
 ## Related People
 - [[yogendra-miraje]] - Principal AI Engineer
@@ -18,8 +20,15 @@ FactSet appears through 1 official speaker(s) connected to 1 scheduled session(s
 ## Related Scheduled Sessions
 - [[2026-07-01-yogendra-miraje-skills-are-new-features-building-skill-centric-harness-for-agentic-products]] - Skills are new features: Building Skill-Centric Harness for Agentic Products (2026-07-01, 3:20pm-3:40pm)
 
+## Origin And Context
+The official speaker roster connects FactSet to Yogendra Miraje. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [FactSet AI Solutions / FactSet Intelligence / Financial AI Solutions](https://www.factset.com/ai)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

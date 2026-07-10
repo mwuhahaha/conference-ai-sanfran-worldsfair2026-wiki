@@ -2,15 +2,17 @@
 title: "Snyk"
 category: "companies"
 aliases: ["Snyk"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://snyk.io/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Snyk
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Snyk is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Snyk is the AI Security Fabric — the independent validator that makes AI-generated code, AI agents, and AI-native applications trustworthy. Unleash AI innovation securely.
 
 ## Why It Matters At World's Fair
-Snyk appears through 5 official speaker(s) connected to 6 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Continuous Offensive Security the only approach in an agent-first world; Agentic Development Security; AI Security Engineer Foundations + Certificate.
+Snyk matters to this wiki through 5 official speaker(s) and 6 scheduled session(s), including: AI Security Engineer Foundations + Certificate; AI Security Engineer Foundations + Certificate; Security Track intro.
 
 ## Related People
 - [[eli-cohen]] - Director of Technology Incubation
@@ -27,8 +29,15 @@ Snyk appears through 5 official speaker(s) connected to 6 scheduled session(s). 
 - [[2026-06-29-javier-garza-ai-security-engineer-foundations-certificate]] - AI Security Engineer Foundations + Certificate (2026-06-29, 9:00am-11:00am)
 - [[2026-06-30-eli-cohen-continuous-offensive-security-the-only-approach-in-an-agent-first-world]] - Continuous Offensive Security the only approach in an agent-first world (2026-06-30, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects Snyk to Eli Cohen, Ezra Tanzer, Javier Garza, Manoj Nair, Micah Silverman. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Snyk](https://snyk.io/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

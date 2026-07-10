@@ -2,15 +2,17 @@
 title: "Amazon AGI Lab"
 category: "companies"
 aliases: ["Amazon AGI Lab"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.amazon.science/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Amazon AGI Lab
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Amazon AGI Lab is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Amazon's approach to customer-obsessed science. Get the latest news about innovations in artificial intelligence and machine learning, including job opportunities, publications, conferences, events and more.
 
 ## Why It Matters At World's Fair
-Amazon AGI Lab appears through 5 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Agents, codebases, and teams: what it actually takes to ship together; Perception Agents; Build with Perception Agents.
+Amazon AGI Lab matters to this wiki through 5 official speaker(s) and 4 scheduled session(s), including: Build with Perception Agents; Agents, codebases, and teams: what it actually takes to ship together; Perception Agents.
 
 ## Related People
 - [[aditya-khandelwal]] - MTS
@@ -25,8 +27,15 @@ Amazon AGI Lab appears through 5 official speaker(s) connected to 4 scheduled se
 - [[2026-06-30-gaurav-mishra-from-rl-to-irl]] - From RL to IRL (2026-06-30, 1:30pm-1:50pm)
 - [[2026-06-30-antje-barth-perception-agents]] - Perception Agents (2026-06-30, 9:45am-10:05am)
 
+## Origin And Context
+The official speaker roster connects Amazon AGI Lab to Aditya Khandelwal, Antje Barth, Emile Baizel, Gaurav Mishra, Shruti Arora. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 65.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Amazon Science](https://www.amazon.science/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

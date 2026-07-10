@@ -1,28 +1,58 @@
 ---
-title: OpenAI
-category: companies
-aliases:
-  - OpenAI
-sourceLabels:
-  - Official speaker roster
-last_auto_summarized: '2026-07-06T07:15:11.278Z'
+title: "OpenAI"
+category: "companies"
+aliases: ["OpenAI"]
+website: "https://openai.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
+
 # OpenAI
 
-## Why It Appears
-OpenAI appears in the official AI Engineer World's Fair 2026 speaker roster through a large group of speakers spanning developer experience, enterprise product, agent infrastructure, inference, and core data systems. The connected speaker pages show OpenAI represented not just as a model provider, but as a platform organization covering Codex, the OpenAI API, the Agents SDK, ChatGPT Desktop, enterprise product workflows, large-scale model serving, reinforcement learning and agent infrastructure, and the internal data systems needed to operate AI products at scale.
+## What It Is
+OpenAI is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
 
-## Associated Speakers
-- [[abhishek-bhardwaj]] — Member of Technical Staff, RL & Agent Infrastructure
-- [[alexander-embiricos]] — Head of Enterprise Product
-- [[charlie-guo]] — Developer Experience Engineer
-- [[dominik-kundel]] — Developer Experience Lead
-- [[gabriel-chua]] — Developer Experience Engineer
-- [[jason-liu]] — Developer Experience, OpenAI
-- [[lu-zhang]] — Member of Technical Staff
-- [[qianru-lao]] — Member of Technical Staff
-- [[romain-huet]] — Head of Developer Experience
-- [[vinoth-govindarajan]] — Member of Technical Staff
+## Why It Matters At World's Fair
+OpenAI matters to this wiki through 10 official speaker(s) and 13 scheduled session(s), including: Cooking with Codex; The Golden Age of AI Engineering; Getting the most out of Codex.
+
+## Related People
+- [[abhishek-bhardwaj]] - Member of Technical Staff, RL & Agent Infrastructure
+- [[alexander-embiricos]] - Head of Enterprise Product
+- [[charlie-guo]] - Developer Experience Engineer
+- [[dominik-kundel]] - Developer Experience Lead
+- [[gabriel-chua]] - Developer Experience Engineer
+- [[jason-liu]] - Developer Experience, OpenAI
+- [[lu-zhang]] - Member of Technical Staff
+- [[qianru-lao]] - Member of Technical Staff
+- [[romain-huet]] - Head of Developer Experience
+- [[vinoth-govindarajan]] - Member of Technical Staff
+
+## Related Scheduled Sessions
+- [[2026-06-29-jason-liu-getting-the-most-out-of-codex]] - Getting the most out of Codex (2026-06-29, 10:45am-11:05am)
+- [[2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did]] - Your Agent Didn’t Fail. Your Harness Did. (2026-06-29, 11:10am-11:30am)
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] - Voice Agents Can Just Do Things (2026-06-29, 11:40am-12:00pm)
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-1]] - Setting Yourself Up for Success — Part 1 (2026-06-29, 2:50pm-3:10pm)
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-2]] - Setting Yourself Up for Success — Part 2 (2026-06-29, 3:20pm-3:40pm)
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-3]] - Setting Yourself Up for Success — Part 3 (2026-06-29, 3:45pm-4:05pm)
+- [[2026-06-29-charlie-guo-cooking-with-codex]] - Cooking with Codex (2026-06-29, 9:00am-11:00am)
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] - The Golden Age of AI Engineering (2026-06-29, 9:25am-9:45am)
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]] - From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1 (2026-06-30, 1:30pm-1:50pm)
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]] - From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2 (2026-06-30, 1:55pm-2:15pm)
+- [[2026-06-30-dominik-kundel-building-on-the-codex-harness]] - Building on the Codex Harness (2026-06-30, 3:45pm-4:05pm)
+- [[2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy]] - Routing LLM Inference in Production: From Engine Signals to Policy (2026-07-01, 11:10am-11:30am)
+- [[2026-07-01-dominik-kundel-codex-behind-the-harness]] - Codex, Behind the Harness (2026-07-01, 1:30pm-1:50pm)
+
+## Origin And Context
+The official speaker roster connects OpenAI to Abhishek Bhardwaj, Alexander Embiricos, Charlie Guo, Dominik Kundel, Gabriel Chua, Jason Liu. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+
+## Notes
+- Automated company profile fetch status: manual_url_unfetched.
+- Discovery confidence score: 50.
+
+## Public Sources
+- [OpenAI public site](https://openai.com/)
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
 
 ## Source-Derived Enrichment
 This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.

@@ -30,6 +30,9 @@ from build_worldsfair_wiki import (
 
 
 STUB_MARKER = "## Why It Appears\nThis organization appears in the official AI Engineer World's Fair 2026 speaker roster."
+PRESERVE_SECTIONS = [
+    "Source-Derived Enrichment",
+]
 
 
 def load_json(path: Path) -> dict:
@@ -47,7 +50,14 @@ def should_update(path: Path, profile: dict) -> bool:
     return STUB_MARKER in text
 
 
-def render_company_page(company_slug: str, company_page: dict) -> str:
+def extract_section(markdown: str, heading: str) -> str:
+    import re
+
+    match = re.search(rf"^## {re.escape(heading)}\n.*?(?=^## |\Z)", markdown, re.M | re.S)
+    return match.group(0).strip() if match else ""
+
+
+def render_company_page(company_slug: str, company_page: dict, existing: str = "") -> str:
     company = company_page["title"]
     aliases = company_page["aliases"]
     people = company_page["people"]
@@ -68,7 +78,10 @@ def render_company_page(company_slug: str, company_page: dict) -> str:
         "",
         "## What It Is",
         profile.get("summary")
-        or "No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.",
+        or (
+            f"{company} is represented in the official AI Engineer World's Fair 2026 roster. "
+            "The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed."
+        ),
         "",
         "## Why It Matters At World's Fair",
         company_importance_text(company, people, related_sessions, profile),
@@ -95,7 +108,7 @@ def render_company_page(company_slug: str, company_page: dict) -> str:
         for link in links:
             body.append(f"- [{md_label(link.get('label') or link.get('url'))}]({link.get('url')})")
     else:
-        body.append("- No public company/profile source links have been added yet.")
+        body.append("- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.")
     body.extend(
         [
             "",
@@ -103,6 +116,10 @@ def render_company_page(company_slug: str, company_page: dict) -> str:
             "Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.",
         ]
     )
+    for heading in PRESERVE_SECTIONS:
+        preserved = extract_section(existing, heading)
+        if preserved and f"## {heading}\n" not in "\n".join(body):
+            body.extend(["", preserved])
     return "\n".join(body)
 
 
@@ -127,10 +144,11 @@ def main() -> int:
     skipped = []
     for company_slug, page in sorted(pages.items()):
         path = ROOT / "wiki" / "companies" / f"{company_slug}.md"
+        existing = path.read_text(errors="ignore") if path.exists() else ""
         if not should_update(path, page.get("profile") or {}):
             skipped.append(company_slug)
             continue
-        write(path, render_company_page(company_slug, page))
+        write(path, render_company_page(company_slug, page, existing))
         changed.append(company_slug)
 
     print(f"updated {len(changed)} company pages")

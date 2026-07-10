@@ -1,20 +1,38 @@
 ---
-title: AIDAChip
-category: companies
-aliases:
-  - AIDAChip
-sourceLabels:
-  - Official speaker roster
-last_auto_summarized: '2026-07-06T16:53:59.868Z'
+title: "AIDAChip"
+category: "companies"
+aliases: ["AIDAChip"]
+website: "https://aidachip.com"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # AIDAChip
 
-## Why It Appears
-AIDAChip appears in the AI Engineer World's Fair 2026 speaker roster through Khaled Alashmouny and Abduallah Mohamed, two company leaders applying AI systems directly to semiconductor engineering workflows. Khaled Alashmouny is listed as AIDAChip's founder and CEO, with the connected speaker page describing his work on multiplayer AI systems for chip-design teams. Abduallah Mohamed is listed as VP of AI/ML, where his work sits at the intersection of agentic AI systems and semiconductor engineering; his background includes prior AI/ML work at Meta and current responsibility for AIDAChip's AI platform for semiconductor IP development. Together, the linked pages position AIDAChip as a company exploring how LLM frameworks, multimodal assistance, and collaborative agentic systems can support engineers designing chips and developing semiconductor IP, rather than treating AI as a generic productivity layer.
+## What It Is
+AIDAChip is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The first AI platform built for chip design teams, not just individuals. Shared context across every role, every handoff.
 
-## Associated Speakers
-- [[abduallah-mohamed]] — VP of AI/ML
-- [[khaled-alashmouny]] — Founder & CEO
+## Why It Matters At World's Fair
+AIDAChip matters to this wiki through 2 official speaker(s) and 1 scheduled session(s), including: What If Your Chip Design Team Moved Like a Single Body?.
+
+## Related People
+- [[abduallah-mohamed]] - VP of AI/ML
+- [[khaled-alashmouny]] - Founder & CEO
+
+## Related Scheduled Sessions
+- [[2026-07-01-khaled-alashmouny-what-if-your-chip-design-team-moved-like-a-single-body]] - What If Your Chip Design Team Moved Like a Single Body? (2026-07-01, 11:40am-12:00pm)
+
+## Origin And Context
+The official speaker roster connects AIDAChip to Abduallah Mohamed, Khaled Alashmouny. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
+## Public Sources
+- [AIDAChip](https://aidachip.com)
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
 
 ## Source-Derived Enrichment
 This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.

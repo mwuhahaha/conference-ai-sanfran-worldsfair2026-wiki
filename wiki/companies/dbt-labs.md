@@ -1,19 +1,37 @@
 ---
-title: dbt Labs
-category: companies
-aliases:
-  - dbt Labs
-sourceLabels:
-  - Official speaker roster
-last_auto_summarized: '2026-07-06T16:01:24.542Z'
+title: "dbt Labs"
+category: "companies"
+aliases: ["dbt Labs"]
+website: "https://dbt.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # dbt Labs
 
-## Why It Appears
-DBT Labs appears at AI Engineer World's Fair 2026 through Aaron Stanley, its CISO, who is listed in the official speaker roster for the Security track. That connection positions dbt Labs in the conference's discussion of how AI engineering teams secure and govern the data workflows that increasingly feed production AI systems. Stanley's role makes the company relevant not as a product showcase alone, but as an example of an organization bringing security leadership into the practical adoption of modern analytics, data transformation, and AI-enabled engineering workflows.
+## What It Is
+dbt Labs is represented at AI Engineer World's Fair 2026. Its public site describes it this way: AI Orthodontic | AI Implant | AI Crown | é«çå¤§æ¨¡å | Medical AI Model | Large Medical AI Model | HKUST AI Smart Lab.
 
-## Associated Speakers
-- [[aaron-stanley]] — CISO
+## Why It Matters At World's Fair
+dbt Labs matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: AI’s Jurassic Park Period.
+
+## Related People
+- [[aaron-stanley]] - CISO
+
+## Related Scheduled Sessions
+- [[2026-06-29-aaron-stanley-ai-s-jurassic-park-period]] - AI’s Jurassic Park Period (2026-06-29, 3:20pm-3:40pm)
+
+## Origin And Context
+The official speaker roster connects dbt Labs to Aaron Stanley. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
+## Public Sources
+- [DBT Technology / äººå·¥æºè½æ­£ç¸](https://dbt.ai/)
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
 
 ## Source-Derived Enrichment
 This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.

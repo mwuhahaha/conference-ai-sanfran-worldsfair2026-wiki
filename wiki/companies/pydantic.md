@@ -2,15 +2,17 @@
 title: "Pydantic"
 category: "companies"
 aliases: ["Pydantic"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://pydantic.dev/docs/ai/overview/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Pydantic
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Pydantic is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "Pydantic AI | Pydantic Docs", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-Pydantic appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Your agent needs a sandbox, not a desert.
+Pydantic matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Your agent needs a sandbox, not a desert.
 
 ## Related People
 - [[samuel-colvin]] - Founder & CEO
@@ -18,8 +20,15 @@ Pydantic appears through 1 official speaker(s) connected to 1 scheduled session(
 ## Related Scheduled Sessions
 - [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]] - Your agent needs a sandbox, not a desert (2026-06-30, 12:05pm-12:25pm)
 
+## Origin And Context
+The official speaker roster connects Pydantic to Samuel Colvin. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Pydantic AI / Pydantic Docs](https://pydantic.dev/docs/ai/overview/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

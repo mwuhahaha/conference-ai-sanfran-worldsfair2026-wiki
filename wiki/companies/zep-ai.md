@@ -2,15 +2,17 @@
 title: "Zep AI"
 category: "companies"
 aliases: ["Zep AI"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.getzep.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Zep AI
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Zep AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Zep gives AI agents enterprise-grade memory via context graphs — sub-200ms retrieval, SOC 2 compliant, validated by S&P Market Intelligence.
 
 ## Why It Matters At World's Fair
-Zep AI appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Citation Needed: Provenance for LLM-Built Knowledge Graphs.
+Zep AI matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Citation Needed: Provenance for LLM-Built Knowledge Graphs.
 
 ## Related People
 - [[daniel-chalef]] - Founder and CEO
@@ -18,8 +20,15 @@ Zep AI appears through 1 official speaker(s) connected to 1 scheduled session(s)
 ## Related Scheduled Sessions
 - [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs]] - Citation Needed: Provenance for LLM-Built Knowledge Graphs (2026-07-01, 3:20pm-3:40pm)
 
+## Origin And Context
+The official speaker roster connects Zep AI to Daniel Chalef. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Agent memory at enterprise scale — Zep](https://www.getzep.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

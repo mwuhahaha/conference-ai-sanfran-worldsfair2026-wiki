@@ -2,15 +2,17 @@
 title: "Browserbase"
 category: "companies"
 aliases: ["Browserbase"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.browserbase.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Browserbase
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Browserbase is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Give your agents access to the whole web.
 
 ## Why It Matters At World's Fair
-Browserbase appears through 4 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Deploying browser agents at scale; The Art of Building Verifiers for Computer Use Agents; Bringing agents onto the world wide web.
+Browserbase matters to this wiki through 4 official speaker(s) and 4 scheduled session(s), including: Hill-climbing Skills: How to Improve Agents Without Touching the Model; Deploying browser agents at scale; Bringing agents onto the world wide web.
 
 ## Related People
 - [[derek-meegan]] - Software Engineer
@@ -24,8 +26,15 @@ Browserbase appears through 4 official speaker(s) connected to 4 scheduled sessi
 - [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web]] - Bringing agents onto the world wide web (2026-06-30, 11:40am-12:00pm)
 - [[2026-07-01-miguel-gonz-lez-fern-ndez-the-art-of-building-verifiers-for-computer-use-agents]] - The Art of Building Verifiers for Computer Use Agents (2026-07-01, 11:40am-12:00pm)
 
+## Origin And Context
+The official speaker roster connects Browserbase to Derek Meegan, Miguel González Fernández, Paul Klein IV, Shubhankar Srivastava. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Browserbase](https://www.browserbase.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

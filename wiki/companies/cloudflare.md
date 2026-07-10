@@ -2,15 +2,17 @@
 title: "Cloudflare"
 category: "companies"
 aliases: ["Cloudflare"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.cloudflare.com/solutions/ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Cloudflare
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Cloudflare is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Build and deploy AI agents and applications on the AI Cloud powered by Cloudflare's network.
 
 ## Why It Matters At World's Fair
-Cloudflare appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: How AI Agents Let GTM Teams Scale; Gadgets: Personal app vibe coding that is actually safe.
+Cloudflare matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: Gadgets: Personal app vibe coding that is actually safe; How AI Agents Let GTM Teams Scale.
 
 ## Related People
 - [[justin-joyce]] - Principal Sales Operations and Strategy Manager
@@ -20,8 +22,15 @@ Cloudflare appears through 2 official speaker(s) connected to 2 scheduled sessio
 - [[2026-06-29-kenton-varda-gadgets-personal-app-vibe-coding-that-is-actually-safe]] - Gadgets: Personal app vibe coding that is actually safe (2026-06-29, 3:45pm-4:05pm)
 - [[2026-07-01-justin-joyce-how-ai-agents-let-gtm-teams-scale]] - How AI Agents Let GTM Teams Scale (2026-07-01, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects Cloudflare to Justin Joyce, Kenton Varda. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Cloudflare AI Cloud](https://www.cloudflare.com/solutions/ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

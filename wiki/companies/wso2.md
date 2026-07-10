@@ -2,15 +2,17 @@
 title: "WSO2"
 category: "companies"
 aliases: ["WSO2"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://wso2.app/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # WSO2
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+WSO2 is represented at AI Engineer World's Fair 2026. Its public site describes it this way: wso2 â ná»n táº£ng giáº£i trÃ­ Äa dáº¡ng: Báº§u Cua, Ná» HÅ©, Xá» Sá», cÃ¡ cÆ°á»£c bÃ³ng ÄÃ¡ hÃ ng Äáº§u. Tham gia ngay hÃ´m nay! Náº¡p rÃºt nhanh qua Momo, ViettelPay, chÆ¡i trÃªn di Äá»ng má»i lÃºc má»i nÆ¡i.
 
 ## Why It Matters At World's Fair
-WSO2 appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Chief AI Officer: A framework for the emerging Swiss Army Knife of roles.
+WSO2 matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The Chief AI Officer: A framework for the emerging Swiss Army Knife of roles.
 
 ## Related People
 - [[rania-khalaf]] - Chief AI Officer
@@ -18,8 +20,15 @@ WSO2 appears through 1 official speaker(s) connected to 1 scheduled session(s). 
 ## Related Scheduled Sessions
 - [[2026-06-30-rania-khalaf-the-chief-ai-officer-a-framework-for-the-emerging-swiss-army-knife-of-roles]] - The Chief AI Officer: A framework for the emerging Swiss Army Knife of roles (2026-06-30, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects WSO2 to Rania Khalaf. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [wso2](https://wso2.app/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

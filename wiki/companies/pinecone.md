@@ -2,15 +2,17 @@
 title: "Pinecone"
 category: "companies"
 aliases: ["Pinecone"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://pinecone.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Pinecone
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Pinecone is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Thank you for visiting our domain sales page. Why choose our premium domain names?Instant Brand Recognition: A premium domain instantly conveys professionalism, authority, and trustworthiness, helping you to establish a strong online presence.Increased Web Traffic: An easy-to-remember and keyword-rich domain can improve your search engine ranking, driving you more organic traffic.Competitive Advantage: In today's crowded online marketplace, a memorable domain can give you the edge you need to stand out from the competition.
 
 ## Why It Matters At World's Fair
-Pinecone appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Pinecone 2.0.
+Pinecone matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Pinecone 2.0.
 
 ## Related People
 - [[edo-liberty]] - Founder and Chief Scientist
@@ -18,8 +20,15 @@ Pinecone appears through 1 official speaker(s) connected to 1 scheduled session(
 ## Related Scheduled Sessions
 - [[2026-06-29-edo-liberty-pinecone-2-0]] - Pinecone 2.0 (2026-06-29, 10:45am-11:05am)
 
+## Origin And Context
+The official speaker roster connects Pinecone to Edo Liberty. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Aftermarket.com / The domain Pinecone.com is for sale!](https://pinecone.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

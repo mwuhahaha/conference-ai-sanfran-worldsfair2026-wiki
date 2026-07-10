@@ -2,15 +2,17 @@
 title: "Docker"
 category: "companies"
 aliases: ["Docker"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.docker.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Docker
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Docker is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Docker is a platform designed to help developers build, share, and run container applications. We handle the tedious setup, so you can focus on the code.
 
 ## Why It Matters At World's Fair
-Docker appears through 5 official speaker(s) connected to 9 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: From approval loops to autonomous agents with Docker; Who Approved That MCP Server? Governing the Tool Layer; From approval loops to autonomous agents with Docker pt1.
+Docker matters to this wiki through 5 official speaker(s) and 9 scheduled session(s), including: From approval loops to autonomous agents with Docker; From approval loops to autonomous agents with Docker pt1; From approval loops to autonomous agents with Docker pt2.
 
 ## Related People
 - [[dan-ndombe]] - Staff Developer Success Advocate
@@ -30,8 +32,15 @@ Docker appears through 5 official speaker(s) connected to 9 scheduled session(s)
 - [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems]] - Unlock Agent Autonomy: The Runtime for AI-Native Systems (2026-06-29, 3:45pm-4:05pm)
 - [[2026-07-01-rowan-christmas-yolo-mode-safely-microvm-sandboxes-for-any-agent]] - YOLO Mode, Safely: microVM Sandboxes for Any Agent (2026-07-01, 1:30pm-1:50pm)
 
+## Origin And Context
+The official speaker roster connects Docker to Dan Ndombe, Jim Clark, John Craft, Rowan Christmas, Tushar Jain. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Docker](https://www.docker.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

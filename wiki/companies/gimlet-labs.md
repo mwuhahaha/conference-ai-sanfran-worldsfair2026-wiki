@@ -2,15 +2,17 @@
 title: "Gimlet Labs"
 category: "companies"
 aliases: ["Gimlet Labs"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.gimlet.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Gimlet Labs
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Gimlet Labs is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The agent-native inference cloud.
 
 ## Why It Matters At World's Fair
-Gimlet Labs appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens.
+Gimlet Labs matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens.
 
 ## Related People
 - [[michelle-nguyen]] - Co-Founder
@@ -18,8 +20,15 @@ Gimlet Labs appears through 1 official speaker(s) connected to 1 scheduled sessi
 ## Related Scheduled Sessions
 - [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]] - All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens (2026-07-01, 11:40am-12:00pm)
 
+## Origin And Context
+The official speaker roster connects Gimlet Labs to Michelle Nguyen. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Gimlet](https://www.gimlet.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

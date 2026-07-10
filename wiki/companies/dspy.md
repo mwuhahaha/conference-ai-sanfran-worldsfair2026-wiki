@@ -2,15 +2,17 @@
 title: "DSPy"
 category: "companies"
 aliases: ["DSPy"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://dspy.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # DSPy
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+DSPy is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The framework for programming—rather than prompting—language models.
 
 ## Why It Matters At World's Fair
-DSPy appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Unreasonable Effectiveness of Separating the Task from the Model.
+DSPy matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The Unreasonable Effectiveness of Separating the Task from the Model.
 
 ## Related People
 - [[maxime-rivest]] - Core Contributor
@@ -18,8 +20,15 @@ DSPy appears through 1 official speaker(s) connected to 1 scheduled session(s). 
 ## Related Scheduled Sessions
 - [[2026-07-01-maxime-rivest-the-unreasonable-effectiveness-of-separating-the-task-from-the-model]] - The Unreasonable Effectiveness of Separating the Task from the Model (2026-07-01, 9:40am-10:00am)
 
+## Origin And Context
+The official speaker roster connects DSPy to Maxime Rivest. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [DSPy](https://dspy.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

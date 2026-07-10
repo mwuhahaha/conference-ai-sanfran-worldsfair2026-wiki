@@ -2,15 +2,17 @@
 title: "Modal"
 category: "companies"
 aliases: ["Modal"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://modal.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Modal
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Modal is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Bring your own code, and run CPU, GPU, and data-intensive compute at scale. The serverless platform for AI and data teams.
 
 ## Why It Matters At World's Fair
-Modal appears through 3 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Don’t build agents, build environments; What is an Inference Engine, Anyway?; Taking Reinforcement Learning Cross Datacenter.
+Modal matters to this wiki through 3 official speaker(s) and 3 scheduled session(s), including: What is an Inference Engine, Anyway?; Don’t build agents, build environments; Taking Reinforcement Learning Cross Datacenter.
 
 ## Related People
 - [[adam-azzam]] - Member of Product Staff
@@ -22,8 +24,15 @@ Modal appears through 3 official speaker(s) connected to 3 scheduled session(s).
 - [[2026-06-30-adam-azzam-don-t-build-agents-build-environments]] - Don’t build agents, build environments (2026-06-30, 10:45am-11:05am)
 - [[2026-07-01-nan-jiang-taking-reinforcement-learning-cross-datacenter]] - Taking Reinforcement Learning Cross Datacenter (2026-07-01, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects Modal to Adam Azzam, Charles Frye, Nan Jiang. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Modal](https://modal.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

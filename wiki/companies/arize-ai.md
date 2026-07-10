@@ -1,22 +1,48 @@
 ---
-title: Arize AI
-category: companies
-aliases:
-  - Arize AI
-sourceLabels:
-  - Official speaker roster
-last_auto_summarized: '2026-07-06T22:54:46.539Z'
+title: "Arize AI"
+category: "companies"
+aliases: ["Arize AI"]
+website: "https://arize.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Arize AI
 
-## Why It Appears
-Arize AI appears in the official AI Engineer World's Fair 2026 speaker roster through a cluster of speakers working on production AI reliability: Ankur Duggal on enterprise agent and application reliability, Dat Ngo on agent harnesses, evaluation, observability, and scalable LLM evaluation pipelines, Fuad Ali on ML observability and reliable AI systems, and Laurie Voss on developer relations for AI observability and evaluations. The connected topics place Arize AI in the conference's practical reliability layer, where agent evaluations, observability, MCP-connected systems, coding agents, voice agents, autoresearch workflows, and inference engineering all need measurement and debugging infrastructure before they can be trusted in production.
+## What It Is
+Arize AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Private inquiries for premium domains.
 
-## Associated Speakers
-- [[ankur-duggal]] — Solutions Architect
-- [[dat-ngo]] — AI Architect
-- [[fuad-ali]] — Senior Product Manager
-- [[laurie-voss]] — Head of Developer Relations
+## Why It Matters At World's Fair
+Arize AI matters to this wiki through 4 official speaker(s) and 9 scheduled session(s), including: From Vibes to Production: Evaluating and Shipping AI Agents That Work 101; Building self-learning loops for your agent; Let your agent cook: using skills to evaluate and improve your app.
+
+## Related People
+- [[ankur-duggal]] - Solutions Architect
+- [[dat-ngo]] - AI Architect
+- [[fuad-ali]] - Senior Product Manager
+- [[laurie-voss]] - Head of Developer Relations
+
+## Related Scheduled Sessions
+- [[2026-06-29-fuad-ali-building-self-learning-loops-for-your-agent]] - Building self-learning loops for your agent (2026-06-29, 11:05am-12:05pm)
+- [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked]] - Your Agent Is Lying to You About Whether It Worked (2026-06-29, 12:05pm-12:25pm)
+- [[2026-06-29-ankur-duggal-let-your-agent-cook-using-skills-to-evaluate-and-improve-your-app]] - Let your agent cook: using skills to evaluate and improve your app (2026-06-29, 1:15pm-2:15pm)
+- [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them]] - Voice Agents Are Mostly Invisible. Here's How to See Them. (2026-06-29, 1:55pm-2:15pm)
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201]] - From Vibes to Production: Evaluating and Shipping AI Agents That Work 201 (2026-06-29, 2:20pm-4:20pm)
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]] - From Vibes to Production: Evaluating and Shipping AI Agents That Work 101 (2026-06-29, 9:00am-11:00am)
+- [[2026-06-30-laurie-voss-evals-track-intro]] - Evals Track Intro (2026-06-30, 10:25am-10:30am)
+- [[2026-06-30-laurie-voss-the-death-of-the-code-review]] - The Death of the Code Review (2026-06-30, 12:05pm-12:25pm)
+- [[2026-06-30-laurie-voss-how-long-can-your-skills-be-before-your-agent-forgets-what-you-told-it]] - How long can your skills be before your agent forgets what you told it? (2026-06-30, 1:30pm-1:50pm)
+
+## Origin And Context
+The official speaker roster connects Arize AI to Ankur Duggal, Dat Ngo, Fuad Ali, Laurie Voss. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
+## Public Sources
+- [arize.ai](https://arize.ai/)
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
 
 ## Source-Derived Enrichment
 This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.

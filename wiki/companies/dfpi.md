@@ -2,15 +2,17 @@
 title: "DFPI"
 category: "companies"
 aliases: ["DFPI"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://dfpi.ca.gov/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # DFPI
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+DFPI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: State of California | The Department of Financial Protection and Innovation.
 
 ## Why It Matters At World's Fair
-DFPI appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data.
+DFPI matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data.
 
 ## Related People
 - [[rachna-srivastava]] - Enterprise Architect
@@ -18,8 +20,15 @@ DFPI appears through 1 official speaker(s) connected to 1 scheduled session(s). 
 ## Related Scheduled Sessions
 - [[2026-06-30-rachna-srivastava-guardians-of-the-state-how-we-built-an-air-gapped-ai-fortress-for-consumer-data]] - Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data (2026-06-30, 1:55pm-2:15pm)
 
+## Origin And Context
+The official speaker roster connects DFPI to Rachna Srivastava. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [DFPI](https://dfpi.ca.gov/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

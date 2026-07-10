@@ -2,15 +2,17 @@
 title: "Venice AI"
 category: "companies"
 aliases: ["Venice AI"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://venice.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Venice AI
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Venice AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Try Venice.ai for free. Generate text, images, characters and video using private and unbiased AI.
 
 ## Why It Matters At World's Fair
-Venice AI appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Your Model is Private. Your System Isn't..
+Venice AI matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Your Model is Private. Your System Isn't..
 
 ## Related People
 - [[joshua-mo]] - Lead DevRel Engineer
@@ -18,8 +20,15 @@ Venice AI appears through 1 official speaker(s) connected to 1 scheduled session
 ## Related Scheduled Sessions
 - [[2026-07-01-joshua-mo-your-model-is-private-your-system-isn-t]] - Your Model is Private. Your System Isn't. (2026-07-01, 1:30pm-1:50pm)
 
+## Origin And Context
+The official speaker roster connects Venice AI to Joshua Mo. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Venice AI](https://venice.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

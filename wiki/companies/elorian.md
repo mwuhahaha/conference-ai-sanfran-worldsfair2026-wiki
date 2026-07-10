@@ -2,15 +2,17 @@
 title: "Elorian"
 category: "companies"
 aliases: ["Elorian"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://elorian.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Elorian
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Elorian is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "Elorian â Frontier Intelligence", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-Elorian appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Best Models Still Reason Like Toddlers.
+Elorian matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The Best Models Still Reason Like Toddlers.
 
 ## Related People
 - [[andrew-dai]] - Co-founder and CEO
@@ -18,8 +20,15 @@ Elorian appears through 1 official speaker(s) connected to 1 scheduled session(s
 ## Related Scheduled Sessions
 - [[2026-06-29-andrew-dai-the-best-models-still-reason-like-toddlers]] - The Best Models Still Reason Like Toddlers (2026-06-29, 1:55pm-2:15pm)
 
+## Origin And Context
+The official speaker roster connects Elorian to Andrew Dai. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 110.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Elorian â Frontier Intelligence](https://elorian.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

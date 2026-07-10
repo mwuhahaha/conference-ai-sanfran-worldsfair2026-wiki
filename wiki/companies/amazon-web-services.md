@@ -2,15 +2,17 @@
 title: "Amazon Web Services"
 category: "companies"
 aliases: ["Amazon Web Services"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://aws.amazon.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
+
 # Amazon Web Services
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Amazon Web Services is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
 
 ## Why It Matters At World's Fair
-Amazon Web Services appears through 4 official speaker(s) connected to 6 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: From AI-Assisted to AI-Native: Building a Frontier Development Team; Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship; The Infinite Context Window Is a Myth: Context Engineering for AI Agents.
+Amazon Web Services matters to this wiki through 4 official speaker(s) and 6 scheduled session(s), including: Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship; From AI-Assisted to AI-Native: Building a Frontier Development Team; 1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Write and Run Code.
 
 ## Related People
 - [[clare-liguori]] - Senior Principal Engineer
@@ -26,8 +28,15 @@ Amazon Web Services appears through 4 official speaker(s) connected to 6 schedul
 - [[2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild]] - Agents That Forge Their Own Tools: Self-Modifying AI in the Wild (2026-07-01, 12:05pm-12:25pm)
 - [[2026-07-01-sandhya-subramani-tell-the-robot-what-you-want]] - Tell the Robot What You Want (2026-07-01, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects Amazon Web Services to Clare Liguori, Elizabeth Fuentes Leone, Kevin Orellana, Sandhya Subramani. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+
+## Notes
+- Automated company profile fetch status: manual_url_unfetched.
+- Discovery confidence score: 50.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Amazon Web Services public site](https://aws.amazon.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

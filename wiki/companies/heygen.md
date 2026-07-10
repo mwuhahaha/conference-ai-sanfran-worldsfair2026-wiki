@@ -2,15 +2,17 @@
 title: "HeyGen"
 category: "companies"
 aliases: ["HeyGen"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.heygen.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # HeyGen
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+HeyGen is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Generate AI videos from your ideas using HeyGen. Input text, image, or audio to create complete videos with narration, captions, visuals, and animations.
 
 ## Why It Matters At World's Fair
-HeyGen appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: HTML Is All Agents Need; Startup Battlefield.
+HeyGen matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: HTML Is All Agents Need; Startup Battlefield.
 
 ## Related People
 - [[james-russo]] - Software Engineer
@@ -20,8 +22,15 @@ HeyGen appears through 2 official speaker(s) connected to 2 scheduled session(s)
 - [[2026-07-01-james-russo-html-is-all-agents-need]] - HTML Is All Agents Need (2026-07-01, 11:10am-11:30am)
 - [[2026-07-01-howie-liu-startup-battlefield]] - Startup Battlefield (2026-07-01, 5:10pm-5:30pm)
 
+## Origin And Context
+The official speaker roster connects HeyGen to James Russo, Joshua Xu. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [HeyGen](https://www.heygen.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

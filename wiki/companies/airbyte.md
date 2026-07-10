@@ -2,15 +2,17 @@
 title: "Airbyte"
 category: "companies"
 aliases: ["Airbyte"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://airbyte.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Airbyte
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Airbyte is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Airbyte turns every source into a queryable Context Store, giving AI agents the live context they need to reason across systems.
 
 ## Why It Matters At World's Fair
-Airbyte appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: How We Built the Airbyte Agent MCP Server and CLI.
+Airbyte matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: How We Built the Airbyte Agent MCP Server and CLI.
 
 ## Related People
 - [[pedro-lopez]] - Senior Software Engineer
@@ -18,8 +20,15 @@ Airbyte appears through 1 official speaker(s) connected to 1 scheduled session(s
 ## Related Scheduled Sessions
 - [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]] - How We Built the Airbyte Agent MCP Server and CLI (2026-06-29, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects Airbyte to Pedro Lopez. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [The Context Layer for AI Agents / Airbyte](https://airbyte.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

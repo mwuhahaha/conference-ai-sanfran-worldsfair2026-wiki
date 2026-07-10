@@ -2,15 +2,17 @@
 title: "Edge & Node"
 category: "companies"
 aliases: ["Edge & Node", "Edge And Node"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.edgeandnode.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Edge & Node
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Edge & Node is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The initial team behind The Graph. We create and support protocols and dapps that are building the decentralized future.
 
 ## Why It Matters At World's Fair
-Edge & Node appears through 2 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Agent Spending Without Controls: The Missing Infrastructure Layer for AI Pa….
+Edge & Node matters to this wiki through 2 official speaker(s) and 1 scheduled session(s), including: Agent Spending Without Controls: The Missing Infrastructure Layer for AI Pa….
 
 ## Related People
 - [[pranav-maheshwari]] - Director of Integrations
@@ -19,8 +21,15 @@ Edge & Node appears through 2 official speaker(s) connected to 1 scheduled sessi
 ## Related Scheduled Sessions
 - [[2026-07-01-rodrigo-coelho-agent-spending-without-controls-the-missing-infrastructure-layer-for-ai-pa]] - Agent Spending Without Controls: The Missing Infrastructure Layer for AI Pa… (2026-07-01, 1:30pm-1:50pm)
 
+## Origin And Context
+The official speaker roster connects Edge & Node to Pranav Maheshwari, Rodrigo Coelho. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Edge & Node](https://www.edgeandnode.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

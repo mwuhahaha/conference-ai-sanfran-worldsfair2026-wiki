@@ -2,15 +2,17 @@
 title: "EXO Labs"
 category: "companies"
 aliases: ["EXO Labs"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://github.com/exo-explore/exo"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
+
 # EXO Labs
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+EXO Labs is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
 
 ## Why It Matters At World's Fair
-EXO Labs appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: State of the Union: Why Local, Why Now.
+EXO Labs matters to this wiki through 1 official speaker(s) and 2 scheduled session(s), including: State of the Union: Why Local, Why Now; State of the Union: Why Local, Why Now.
 
 ## Related People
 - [[alex-cheema]] - CEO
@@ -18,8 +20,15 @@ EXO Labs appears through 1 official speaker(s) connected to 1 scheduled session(
 ## Related Scheduled Sessions
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now]] - State of the Union: Why Local, Why Now (2026-07-01, 11:10am-11:30am)
 
+## Origin And Context
+The official speaker roster connects EXO Labs to Alex Cheema. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+
+## Notes
+- Automated company profile fetch status: manual_url_unfetched.
+- Discovery confidence score: 50.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [EXO Labs public site](https://github.com/exo-explore/exo)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

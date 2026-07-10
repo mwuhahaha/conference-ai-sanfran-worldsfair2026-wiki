@@ -2,15 +2,17 @@
 title: "Tessl"
 category: "companies"
 aliases: ["Tessl"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://tessl.io/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Tessl
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Tessl is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Tessl helps teams build AI-native software by giving coding agents structured, versioned context. Ship AI-powered systems that hold up in real codebases.
 
 ## Why It Matters At World's Fair
-Tessl appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Harness Engineering: The New Core Skill for Agentic Developers; Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement..
+Tessl matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.; Harness Engineering: The New Core Skill for Agentic Developers.
 
 ## Related People
 - [[dru-knox]] - Head of Product
@@ -20,8 +22,15 @@ Tessl appears through 2 official speaker(s) connected to 2 scheduled session(s).
 - [[2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement]] - Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement. (2026-07-01, 1:30pm-1:50pm)
 - [[2026-07-01-dru-knox-harness-engineering-the-new-core-skill-for-agentic-developers]] - Harness Engineering: The New Core Skill for Agentic Developers (2026-07-01, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects Tessl to Dru Knox, Patrick Debois. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Tessl - Agent Enablement Platform](https://tessl.io/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

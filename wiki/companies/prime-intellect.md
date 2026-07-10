@@ -2,15 +2,17 @@
 title: "Prime Intellect"
 category: "companies"
 aliases: ["Prime Intellect"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.primeintellect.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Prime Intellect
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Prime Intellect is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Train, deploy, and continuously improve your own models on an integrated compute, training, inference, and sandbox stack.
 
 ## Why It Matters At World's Fair
-Prime Intellect appears through 3 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: « the era of (auto) research »; Local Models: Trust, Control, Optimization; The Prime Intellect Stack.
+Prime Intellect matters to this wiki through 3 official speaker(s) and 5 scheduled session(s), including: The Prime Intellect Stack; « the era of (auto) research »; Reinforcement Learning without Verifiable Rewards.
 
 ## Related People
 - [[elie-bakouch]] - Research Engineer
@@ -23,8 +25,15 @@ Prime Intellect appears through 3 official speaker(s) connected to 4 scheduled s
 - [[2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards]] - Reinforcement Learning without Verifiable Rewards (2026-06-30, 1:30pm-1:50pm)
 - [[2026-07-01-carter-abdallah-local-models-trust-control-optimization]] - Local Models: Trust, Control, Optimization (2026-07-01, 1:55pm-2:15pm)
 
+## Origin And Context
+The official speaker roster connects Prime Intellect to Elie Bakouch, Vincent Weisser, Will Brown. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Prime Intellect](https://www.primeintellect.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

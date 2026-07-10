@@ -2,15 +2,17 @@
 title: "Weights & Biases by CoreWeave"
 category: "companies"
 aliases: ["Weights & Biases by CoreWeave"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://wandb.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
+
 # Weights & Biases by CoreWeave
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Weights & Biases by CoreWeave is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
 
 ## Why It Matters At World's Fair
-Weights & Biases by CoreWeave appears through 3 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Closing the Loop: An Autonomous AI Research Agent; From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline; ARIA, how we built autoresearch with autoresearch.
+Weights & Biases by CoreWeave matters to this wiki through 3 official speaker(s) and 3 scheduled session(s), including: From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline; Closing the Loop: An Autonomous AI Research Agent; ARIA, how we built autoresearch with autoresearch.
 
 ## Related People
 - [[tim-sweeney]] - Principal Engineer
@@ -22,8 +24,15 @@ Weights & Biases by CoreWeave appears through 3 official speaker(s) connected to
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]] - Closing the Loop: An Autonomous AI Research Agent (2026-06-30, 1:30pm-1:50pm)
 - [[2026-07-01-zubin-aysola-aria-how-we-built-autoresearch-with-autoresearch]] - ARIA, how we built autoresearch with autoresearch (2026-07-01, 11:10am-11:30am)
 
+## Origin And Context
+The official speaker roster connects Weights & Biases by CoreWeave to Tim Sweeney, Wolfram Ravenwolf, Zubin Aysola. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+
+## Notes
+- Automated company profile fetch status: manual_url_unfetched.
+- Discovery confidence score: 50.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Weights & Biases by CoreWeave public site](https://wandb.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

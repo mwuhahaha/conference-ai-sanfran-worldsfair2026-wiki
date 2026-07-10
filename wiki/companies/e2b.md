@@ -2,15 +2,17 @@
 title: "E2B"
 category: "companies"
 aliases: ["E2B"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://e2b.dev/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # E2B
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+E2B is represented at AI Engineer World's Fair 2026. Its public site describes it this way: E2B Gives AI Agents Secure Computers with Real-World Tools. E2B is Used by 94% of Fortune 100 Companies for Frontier Agentic Workflows.
 
 ## Why It Matters At World's Fair
-E2B appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: How I learned to stop worrying and love the sandbox.
+E2B matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: How I learned to stop worrying and love the sandbox.
 
 ## Related People
 - [[matt-brockman]] - AI Engineer
@@ -18,8 +20,15 @@ E2B appears through 1 official speaker(s) connected to 1 scheduled session(s). T
 ## Related Scheduled Sessions
 - [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox]] - How I learned to stop worrying and love the sandbox (2026-06-29, 11:05am-12:05pm)
 
+## Origin And Context
+The official speaker roster connects E2B to Matt Brockman. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [E2B / The Enterprise AI Agent Cloud](https://e2b.dev/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

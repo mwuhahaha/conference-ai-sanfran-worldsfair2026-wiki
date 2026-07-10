@@ -361,7 +361,10 @@ def main() -> int:
             "",
             "## What It Is",
             profile.get("summary")
-            or "No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.",
+            or (
+                f"{company} is represented in the official AI Engineer World's Fair 2026 roster. "
+                "The article is grounded in the official roster, related speakers, and scheduled sessions while public company-source enrichment is unavailable or still being reviewed."
+            ),
             "",
             "## Why It Matters At World's Fair",
             company_importance_text(company, people, related_sessions, profile),
@@ -390,7 +393,7 @@ def main() -> int:
             for link in links:
                 body.append(f"- [{md_label(link.get('label') or link.get('url'))}]({link.get('url')})")
         else:
-            body.append("- No public company/profile source links have been added yet.")
+            body.append("- Official roster and schedule sources currently provide the source basis for this organization; no separate organization profile URL has been verified.")
         body.extend(
             [
                 "",

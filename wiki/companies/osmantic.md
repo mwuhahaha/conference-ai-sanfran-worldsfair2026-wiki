@@ -2,15 +2,17 @@
 title: "Osmantic"
 category: "companies"
 aliases: ["Osmantic"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://osmantic.com/?utm_source=redirect_domain&utm_medium=domain_redirect&utm_campaign=osmantic_redirect_sources&utm_content=osmantic.ai&redirect_source=osmantic.ai"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Osmantic
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Osmantic is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Osmantic designs, deploys, and operates private AI infrastructure, GPU strategy, inference systems, governed agents, specialized models, and continuous evaluation.
 
 ## Why It Matters At World's Fair
-Osmantic appears through 1 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Local LLMs and workstation agents: Part 1; Local LLMs and workstation agents: Part 2; State of the Union: Why Local, Why Now.
+Osmantic matters to this wiki through 1 official speaker(s) and 5 scheduled session(s), including: Local LLMs and workstation agents: Part 1; Local LLMs and workstation agents: Part 2; State of the Union: Why Local, Why Now.
 
 ## Related People
 - [[ahmad-osman]] - Founder & CEO
@@ -21,8 +23,15 @@ Osmantic appears through 1 official speaker(s) connected to 4 scheduled session(
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now]] - State of the Union: Why Local, Why Now (2026-07-01, 11:10am-11:30am)
 - [[2026-07-01-ahmad-osman-demo-glm-5-2-on-dgx-station-frontier-intelligence-under-your-desk]] - Demo: GLM 5.2 on DGX Station — Frontier Intelligence Under Your Desk (2026-07-01, 11:40am-12:00pm)
 
+## Origin And Context
+The official speaker roster connects Osmantic to Ahmad Osman. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Osmantic](https://osmantic.com/?utm_source=redirect_domain&utm_medium=domain_redirect&utm_campaign=osmantic_redirect_sources&utm_content=osmantic.ai&redirect_source=osmantic.ai)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

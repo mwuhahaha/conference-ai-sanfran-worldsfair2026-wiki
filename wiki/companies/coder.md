@@ -2,15 +2,17 @@
 title: "Coder"
 category: "companies"
 aliases: ["Coder"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://coder.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Coder
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Coder is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Give developers a secure, governed environment to run AI coding agents at scale. Self-hosted infrastructure with full control over agent permissions, audit logging, and compliance.
 
 ## Why It Matters At World's Fair
-Coder appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Lethal Trifecta Is Already on Your Developers' Laptops.
+Coder matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The Lethal Trifecta Is Already on Your Developers' Laptops.
 
 ## Related People
 - [[michael-patterson]] - role not listed
@@ -18,8 +20,15 @@ Coder appears through 1 official speaker(s) connected to 1 scheduled session(s).
 ## Related Scheduled Sessions
 - [[2026-07-01-michael-patterson-the-lethal-trifecta-is-already-on-your-developers-laptops]] - The Lethal Trifecta Is Already on Your Developers' Laptops (2026-07-01, 11:10am-11:30am)
 
+## Origin And Context
+The official speaker roster connects Coder to Michael Patterson. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Coder](https://coder.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

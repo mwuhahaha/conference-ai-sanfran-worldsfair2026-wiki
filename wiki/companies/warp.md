@@ -2,15 +2,17 @@
 title: "Warp"
 category: "companies"
 aliases: ["Warp"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://warp.io/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Warp
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Warp is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Efficient decentralized exchange.
 
 ## Why It Matters At World's Fair
-Warp appears through 4 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: LLM Knowledge Bases: a practical guide; The Agent Behind the Curtain: Building the Oz Cloud Agent Platform; Warp: Building Self-Improving Agent Software Factories.
+Warp matters to this wiki through 4 official speaker(s) and 4 scheduled session(s), including: Self-Improving software factories: The new open source model"; Warp: Building Self-Improving Agent Software Factories; LLM Knowledge Bases: a practical guide.
 
 ## Related People
 - [[ben-holmes]] - Dev Rel Lead
@@ -24,8 +26,15 @@ Warp appears through 4 official speaker(s) connected to 4 scheduled session(s). 
 - [[2026-06-30-ben-holmes-llm-knowledge-bases-a-practical-guide]] - LLM Knowledge Bases: a practical guide (2026-06-30, 3:45pm-4:05pm)
 - [[2026-07-01-safia-abdalla-the-agent-behind-the-curtain-building-the-oz-cloud-agent-platform]] - The Agent Behind the Curtain: Building the Oz Cloud Agent Platform (2026-07-01, 10:45am-11:05am)
 
+## Origin And Context
+The official speaker roster connects Warp to Ben Holmes, Safia Abdalla, Suraj Gupta, Zach Lloyd. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Home / Warp](https://warp.io/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

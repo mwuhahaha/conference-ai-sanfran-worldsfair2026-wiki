@@ -2,15 +2,17 @@
 title: "MiniMax"
 category: "companies"
 aliases: ["MiniMax"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.minimax.io/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # MiniMax
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+MiniMax is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.
 
 ## Why It Matters At World's Fair
-MiniMax appears through 1 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Thom Wolf keynote; Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It.
+MiniMax matters to this wiki through 1 official speaker(s) and 2 scheduled session(s), including: Thom Wolf keynote; Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It.
 
 ## Related People
 - [[olive-song]] - RL Lead
@@ -19,8 +21,15 @@ MiniMax appears through 1 official speaker(s) connected to 2 scheduled session(s
 - [[2026-06-29-thom-wolf-thom-wolf-keynote]] - Thom Wolf keynote (2026-06-29, 10:05am-10:25am)
 - [[2026-06-30-olive-song-agents-at-scale-inside-minimax-s-model-and-the-infrastructure-behind-it]] - Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It (2026-06-30, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects MiniMax to Olive Song. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [MiniMax](https://www.minimax.io/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

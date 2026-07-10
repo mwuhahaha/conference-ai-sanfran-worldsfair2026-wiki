@@ -2,15 +2,17 @@
 title: "Ref."
 category: "companies"
 aliases: ["Ref."]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "http://www.ref.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Ref.
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Ref. is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "ref.com", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-Ref. appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster.
+Ref. matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster.
 
 ## Related People
 - [[matt-dailey]] - Founder
@@ -18,8 +20,15 @@ Ref. appears through 1 official speaker(s) connected to 1 scheduled session(s). 
 ## Related Scheduled Sessions
 - [[2026-07-01-matt-dailey-velocity-sickness-what-happens-when-your-whole-team-gets-10x-faster]] - Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster (2026-07-01, 3:20pm-3:40pm)
 
+## Origin And Context
+The official speaker roster connects Ref. to Matt Dailey. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [ref.com](http://www.ref.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

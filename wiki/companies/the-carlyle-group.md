@@ -2,15 +2,17 @@
 title: "The Carlyle Group"
 category: "companies"
 aliases: ["The Carlyle Group"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://thecarlylegroup.co/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # The Carlyle Group
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+The Carlyle Group is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "thecarlylegroup.co", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-The Carlyle Group appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer.
+The Carlyle Group matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer.
 
 ## Related People
 - [[ethan-jung-min-cha]] - AI Development Lead
@@ -18,8 +20,15 @@ The Carlyle Group appears through 1 official speaker(s) connected to 1 scheduled
 ## Related Scheduled Sessions
 - [[2026-06-29-ethan-jung-min-cha-dual-surface-architecture-serving-humans-and-agents-from-the-same-tool-layer]] - Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer (2026-06-29, 1:55pm-2:15pm)
 
+## Origin And Context
+The official speaker roster connects The Carlyle Group to Ethan (Jung Min) Cha. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [thecarlylegroup.co](https://thecarlylegroup.co/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

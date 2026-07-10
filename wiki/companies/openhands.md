@@ -2,15 +2,17 @@
 title: "OpenHands"
 category: "companies"
 aliases: ["OpenHands"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.openhands.dev/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # OpenHands
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+OpenHands is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Meet OpenHands, the open-source, model-agnostic platform for cloud coding agents. Automate real engineering work securely and transparently. Build faster with full control.
 
 ## Why It Matters At World's Fair
-OpenHands appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale.
+OpenHands matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale.
 
 ## Related People
 - [[robert-brennan]] - CEO
@@ -18,8 +20,15 @@ OpenHands appears through 1 official speaker(s) connected to 1 scheduled session
 ## Related Scheduled Sessions
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]] - Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale (2026-06-30, 3:20pm-3:40pm)
 
+## Origin And Context
+The official speaker roster connects OpenHands to Robert Brennan. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [OpenHands](https://www.openhands.dev/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -1,19 +1,37 @@
 ---
-title: Modular
-category: companies
-aliases:
-  - Modular
-sourceLabels:
-  - Official speaker roster
-last_auto_summarized: '2026-07-06T09:33:28.012Z'
+title: "Modular"
+category: "companies"
+aliases: ["Modular"]
+website: "https://www.modular.com"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Modular
 
-## Why It Appears
-Modular appears in the official AI Engineer World's Fair 2026 speaker roster through Abdul Dakkak, its Chief Scientist. The connection points to Modular's role in AI compute and GenAI performance, with Dakkak's work positioned around the systems and infrastructure questions that shape how AI applications run efficiently at scale.
+## What It Is
+Modular is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The unified AI inference stack - from custom GPU kernels to production cloud serving on NVIDIA and AMD. 2x performance. Top open models. Open source stack.
 
-## Associated Speakers
-- [[abdul-dakkak]] — Chief Scientist
+## Why It Matters At World's Fair
+Modular matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Modular: Taming the AI Hardware Cambrian Explosion.
+
+## Related People
+- [[abdul-dakkak]] - Chief Scientist
+
+## Related Scheduled Sessions
+- [[2026-06-30-abdul-dakkak-modular-taming-the-ai-hardware-cambrian-explosion]] - Modular: Taming the AI Hardware Cambrian Explosion (2026-06-30, 3:45pm-4:05pm)
+
+## Origin And Context
+The official speaker roster connects Modular to Abdul Dakkak. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
+## Public Sources
+- [Modular: Inference from Kernel to Cloud](https://www.modular.com)
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
 
 ## Source-Derived Enrichment
 This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.

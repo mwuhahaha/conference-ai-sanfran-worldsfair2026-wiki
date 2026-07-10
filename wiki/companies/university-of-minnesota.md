@@ -2,15 +2,17 @@
 title: "University of Minnesota"
 category: "companies"
 aliases: ["University of Minnesota"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://universityofminnesota.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # University of Minnesota
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+University of Minnesota is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "universityofminnesota.com", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-University of Minnesota appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Autoresearch in a Multi-Agent AI Village.
+University of Minnesota matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Autoresearch in a Multi-Agent AI Village.
 
 ## Related People
 - [[arunachalam-manikandan]] - AI Engineer, Co-Founder
@@ -18,8 +20,15 @@ University of Minnesota appears through 1 official speaker(s) connected to 1 sch
 ## Related Scheduled Sessions
 - [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]] - Autoresearch in a Multi-Agent AI Village (2026-06-30, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects University of Minnesota to Arunachalam Manikandan. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [universityofminnesota.com](https://universityofminnesota.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

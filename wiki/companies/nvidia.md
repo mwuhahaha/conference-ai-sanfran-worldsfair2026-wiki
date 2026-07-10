@@ -2,15 +2,17 @@
 title: "NVIDIA"
 category: "companies"
 aliases: ["NVIDIA", "Nvidia"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.nvidia.com/en-us/solutions/ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # NVIDIA
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+NVIDIA is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Explore our AI solutions for enterprises.
 
 ## Why It Matters At World's Fair
-NVIDIA appears through 9 official speaker(s) connected to 8 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Compression at the Edge; Local Models: Trust, Control, Optimization; Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features.
+NVIDIA matters to this wiki through 9 official speaker(s) and 12 scheduled session(s), including: Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer; Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features; Your Agreements Are a Database You Can't Query. We're Fixing That.
 
 ## Related People
 - [[asma-beevi]] - Senior Engineer
@@ -33,8 +35,15 @@ NVIDIA appears through 9 official speaker(s) connected to 8 scheduled session(s)
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge]] - Compression at the Edge (2026-07-01, 2:50pm-3:10pm)
 - [[2026-07-01-nader-khalil-model-routing]] - Model Routing (2026-07-01, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects NVIDIA to Asma Beevi, Carter Abdallah, Chris Alexiuk, Dhruv Nathawani, Lovina Dmello, Nader Khalil. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [NVIDIA](https://www.nvidia.com/en-us/solutions/ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

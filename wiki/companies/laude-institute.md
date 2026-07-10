@@ -2,15 +2,17 @@
 title: "Laude Institute"
 category: "companies"
 aliases: ["Laude Institute"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.laude.org/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Laude Institute
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Laude Institute is represented at AI Engineer World's Fair 2026. Its public site describes it this way: For and by CS impact researchers.
 
 ## Why It Matters At World's Fair
-Laude Institute appears through 2 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Everything Is a Rollout.
+Laude Institute matters to this wiki through 2 official speaker(s) and 1 scheduled session(s), including: Everything Is a Rollout.
 
 ## Related People
 - [[alex-shaw]] - Member of Technical Staff
@@ -19,8 +21,15 @@ Laude Institute appears through 2 official speaker(s) connected to 1 scheduled s
 ## Related Scheduled Sessions
 - [[2026-06-30-alex-shaw-everything-is-a-rollout]] - Everything Is a Rollout (2026-06-30, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects Laude Institute to Alex Shaw, Ryan Marten. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Laude Institute // Ship Your Research](https://www.laude.org/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

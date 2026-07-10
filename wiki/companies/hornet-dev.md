@@ -2,15 +2,17 @@
 title: "Hornet.dev"
 category: "companies"
 aliases: ["Hornet.dev"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://hornet.dev/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
+
 # Hornet.dev
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Hornet.dev is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
 
 ## Why It Matters At World's Fair
-Hornet.dev appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The unreasonable effectiveness of BM25 for agentic search.
+Hornet.dev matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The unreasonable effectiveness of BM25 for agentic search.
 
 ## Related People
 - [[jo-kristian-bergum]] - CEO
@@ -18,8 +20,15 @@ Hornet.dev appears through 1 official speaker(s) connected to 1 scheduled sessio
 ## Related Scheduled Sessions
 - [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]] - The unreasonable effectiveness of BM25 for agentic search (2026-06-29, 11:10am-11:30am)
 
+## Origin And Context
+The official speaker roster connects Hornet.dev to Jo Kristian Bergum. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+
+## Notes
+- Automated company profile fetch status: manual_url_unfetched.
+- Discovery confidence score: 50.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Hornet.dev public site](https://hornet.dev/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -2,15 +2,17 @@
 title: "Unblocked"
 category: "companies"
 aliases: ["Unblocked"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://unblocked.org/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Unblocked
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Unblocked is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "unblocked.org", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-Unblocked appears through 3 official speaker(s) connected to 5 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Your agents lack context: Here's how to fix "You're absolutely right!"; Beyond RAG: See a relational context engine reduce token burn; Building agents is trivial now, context is the next frontier.
+Unblocked matters to this wiki through 3 official speaker(s) and 5 scheduled session(s), including: Beyond RAG: Build a Relational Context Engine from Scratch; Building agents is trivial now, context is the next frontier; How to generate mergeable code with a context engine.
 
 ## Related People
 - [[brandon-waselnuk]] - Developer Relations
@@ -24,8 +26,15 @@ Unblocked appears through 3 official speaker(s) connected to 5 scheduled session
 - [[2026-06-30-brandon-waselnuk-your-agents-lack-context-here-s-how-to-fix-you-re-absolutely-right]] - Your agents lack context: Here's how to fix "You're absolutely right!" (2026-06-30, 12:05pm-12:25pm)
 - [[2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn]] - Beyond RAG: See a relational context engine reduce token burn (2026-07-01, 11:10am-11:30am)
 
+## Origin And Context
+The official speaker roster connects Unblocked to Brandon Waselnuk, Jeff Ng, Peter Werry. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [unblocked.org](https://unblocked.org/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

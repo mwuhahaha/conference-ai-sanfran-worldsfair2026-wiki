@@ -2,15 +2,17 @@
 title: "Microsoft"
 category: "companies"
 aliases: ["Microsoft"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://microsoft.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Microsoft
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Microsoft is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "Home | Microsoft AI", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-Microsoft appears through 14 official speaker(s) connected to 22 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The model swap workshop; OpenAI, Anthropic, or agent frameworks: choose the right AI stack; Blast Radius Zero: One‑Command OpenClaw Sandboxes in the Cloud.
+Microsoft matters to this wiki through 14 official speaker(s) and 22 scheduled session(s), including: Get Started with Models in Microsoft Foundry to Build AI Apps; The model swap workshop; From zero to deployed on Azure with AI agents.
 
 ## Related People
 - [[arun-sekhar]] - Principal Product Manager for AI Developer Experience
@@ -52,8 +54,15 @@ Microsoft appears through 14 official speaker(s) connected to 22 scheduled sessi
 - [[2026-07-01-arun-sekhar-blast-radius-zero-one-command-openclaw-sandboxes-in-the-cloud]] - Blast Radius Zero: One‑Command OpenClaw Sandboxes in the Cloud (2026-07-01, 1:55pm-2:15pm)
 - [[2026-07-01-ashu-joshi-operate-agents-safely-at-scale-with-enterprise-governance]] - Operate agents safely at scale with enterprise governance (2026-07-01, 2:25pm-2:45pm)
 
+## Origin And Context
+The official speaker roster connects Microsoft to Arun Sekhar, Ashu Joshi, Chang Liu, Gustavo Cordido, Harald Kirschner, Keiji Kanazawa. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Home / Microsoft AI](https://microsoft.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

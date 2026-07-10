@@ -2,15 +2,17 @@
 title: "Plivo"
 category: "companies"
 aliases: ["Plivo"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.plivo.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Plivo
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Plivo is represented at AI Engineer World's Fair 2026. Its public site describes it this way: From no-code builders for teams to flexible APIs for developers, deploy voice agents that actually sound human.
 
 ## Why It Matters At World's Fair
-Plivo appears through 2 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: 5 Voice Agent Failure Modes You'll Hit in Week One.
+Plivo matters to this wiki through 2 official speaker(s) and 1 scheduled session(s), including: 5 Voice Agent Failure Modes You'll Hit in Week One.
 
 ## Related People
 - [[venky-b]] - Founder & CEO
@@ -19,8 +21,15 @@ Plivo appears through 2 official speaker(s) connected to 1 scheduled session(s).
 ## Related Scheduled Sessions
 - [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one]] - 5 Voice Agent Failure Modes You'll Hit in Week One (2026-06-29, 1:55pm-2:15pm)
 
+## Origin And Context
+The official speaker roster connects Plivo to Venky B, Vyas A. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Plivo](https://www.plivo.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

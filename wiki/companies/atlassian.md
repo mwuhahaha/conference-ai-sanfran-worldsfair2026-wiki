@@ -2,15 +2,17 @@
 title: "Atlassian"
 category: "companies"
 aliases: ["Atlassian"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.atlassian.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Atlassian
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Atlassian is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Atlassian's team collaboration software like Jira, Confluence and Trello help teams organize, discuss, and complete shared work.
 
 ## Why It Matters At World's Fair
-Atlassian appears through 2 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The best SDLC is the one you build yourself: Why orchestration changes everything.
+Atlassian matters to this wiki through 2 official speaker(s) and 1 scheduled session(s), including: The best SDLC is the one you build yourself: Why orchestration changes everything.
 
 ## Related People
 - [[andrei-bocan]] - Principal Engineer
@@ -19,8 +21,15 @@ Atlassian appears through 2 official speaker(s) connected to 1 scheduled session
 ## Related Scheduled Sessions
 - [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]] - The best SDLC is the one you build yourself: Why orchestration changes everything (2026-06-29, 9:00am-11:00am)
 
+## Origin And Context
+The official speaker roster connects Atlassian to Andrei Bocan, Shane Wolf. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Collaboration software for software, IT and business teams / Atlassian](https://www.atlassian.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

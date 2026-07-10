@@ -2,15 +2,17 @@
 title: "MIT Media Lab"
 category: "companies"
 aliases: ["MIT Media Lab"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.media.mit.edu/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # MIT Media Lab
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+MIT Media Lab is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The MIT Media Lab is an interdisciplinary research lab that encourages the unconventional mixing and matching of seemingly disparate research areas.
 
 ## Why It Matters At World's Fair
-MIT Media Lab appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: I gave an AI a body.
+MIT Media Lab matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: I gave an AI a body.
 
 ## Related People
 - [[cyrus-clarke]] - Researcher
@@ -18,8 +20,15 @@ MIT Media Lab appears through 1 official speaker(s) connected to 1 scheduled ses
 ## Related Scheduled Sessions
 - [[2026-06-30-cyrus-clarke-i-gave-an-ai-a-body]] - I gave an AI a body (2026-06-30, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects MIT Media Lab to Cyrus Clarke. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [MIT Media Lab](https://www.media.mit.edu/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -2,15 +2,17 @@
 title: "DX"
 category: "companies"
 aliases: ["DX"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.dx.app/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # DX
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+DX is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Launch token presales, mint tokens, lock liquidity, and run airdrops across 20+ blockchains.
 
 ## Why It Matters At World's Fair
-DX appears through 1 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations; The state of AI in software development: Insights across 400+ organizations.
+DX matters to this wiki through 1 official speaker(s) and 2 scheduled session(s), including: AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations; The state of AI in software development: Insights across 400+ organizations.
 
 ## Related People
 - [[justin-reock]] - Deputy CTO
@@ -19,8 +21,15 @@ DX appears through 1 official speaker(s) connected to 2 scheduled session(s). Th
 - [[2026-06-30-justin-reock-ai-assisted-engineering-5-trends-we-re-seeing-from-500-organizations]] - AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations (2026-06-30, 11:10am-11:30am)
 - [[2026-06-30-justin-reock-the-state-of-ai-in-software-development-insights-across-400-organizations]] - The state of AI in software development: Insights across 400+ organizations (2026-06-30, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects DX to Justin Reock. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [DX App](https://www.dx.app/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

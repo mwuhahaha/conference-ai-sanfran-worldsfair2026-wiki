@@ -2,15 +2,17 @@
 title: "Bright Data"
 category: "companies"
 aliases: ["Bright Data"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://brightdata.com/ai"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Bright Data
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Bright Data is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Power your AI with real-time web data. Access, search, and collect structured data at scale using Bright Data’s AI-driven web scraping and automation tools.
 
 ## Why It Matters At World's Fair
-Bright Data appears through 3 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Rise of CaaS: Context-as-a-Service for Agentic AI; Video Discovery for Agentic World-Model Training; Video Discovery for Agentic World-Model Training.
+Bright Data matters to this wiki through 3 official speaker(s) and 4 scheduled session(s), including: Building AI Agents with Real-Time Web Data; Video Discovery for Agentic World-Model Training; The Rise of CaaS: Context-as-a-Service for Agentic AI.
 
 ## Related People
 - [[omer-primor]] - role not listed
@@ -23,8 +25,15 @@ Bright Data appears through 3 official speaker(s) connected to 4 scheduled sessi
 - [[2026-06-30-omer-primor-the-rise-of-caas-context-as-a-service-for-agentic-ai]] - The Rise of CaaS: Context-as-a-Service for Agentic AI (2026-06-30, 1:55pm-2:15pm)
 - [[2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training]] - Video Discovery for Agentic World-Model Training (2026-07-01, 1:30pm-1:50pm)
 
+## Origin And Context
+The official speaker roster connects Bright Data to Omer Primor, Rafael Levi, Yohan Raju. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Bright Data](https://brightdata.com/ai)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

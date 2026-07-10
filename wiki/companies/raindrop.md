@@ -2,15 +2,17 @@
 title: "Raindrop"
 category: "companies"
 aliases: ["Raindrop"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.raindrop.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Raindrop
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Raindrop is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Monitor your AI Agent the right way. Get alerted when your agent fails in production, trace exactly what went wrong, and prove your fix worked.
 
 ## Why It Matters At World's Fair
-Raindrop appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Designing Agents (The Floor Is the Frontier).
+Raindrop matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Designing Agents (The Floor Is the Frontier).
 
 ## Related People
 - [[ben-hylak]] - CTO
@@ -18,8 +20,15 @@ Raindrop appears through 1 official speaker(s) connected to 1 scheduled session(
 ## Related Scheduled Sessions
 - [[2026-06-30-ben-hylak-designing-agents-the-floor-is-the-frontier]] - Designing Agents (The Floor Is the Frontier) (2026-06-30, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects Raindrop to Ben Hylak. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Raindrop](https://www.raindrop.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

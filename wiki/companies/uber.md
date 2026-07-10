@@ -2,15 +2,17 @@
 title: "Uber"
 category: "companies"
 aliases: ["Uber"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.uber.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Uber
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Uber is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Learn how you can leverage the Uber platform and apps to earn more, eat, commute, get a ride, simplify business travel, and more.
 
 ## Why It Matters At World's Fair
-Uber appears through 5 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Agentic SDLC at Uber: Building Blocks for Uber's Software Factory; Building Closed-Loop Evals for a Multimodal Agent at Uber Scale; Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine.
+Uber matters to this wiki through 5 official speaker(s) and 3 scheduled session(s), including: Agentic SDLC at Uber: Building Blocks for Uber's Software Factory; Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine; Building Closed-Loop Evals for a Multimodal Agent at Uber Scale.
 
 ## Related People
 - [[adam-huda]] - Sr Engineering Leader for AI Dev Tools
@@ -24,8 +26,15 @@ Uber appears through 5 official speaker(s) connected to 3 scheduled session(s). 
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]] - Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine (2026-06-29, 12:05pm-12:25pm)
 - [[2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale]] - Building Closed-Loop Evals for a Multimodal Agent at Uber Scale (2026-06-30, 11:40am-12:00pm)
 
+## Origin And Context
+The official speaker roster connects Uber to Adam Huda, Jai Chopra, Soumya Gupta, Uday Kiran Medisetty, Will Bond. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Uber](https://www.uber.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

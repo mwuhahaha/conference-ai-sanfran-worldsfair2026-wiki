@@ -2,15 +2,17 @@
 title: "Latent Space / AI Engineer"
 category: "companies"
 aliases: ["Latent Space / AI Engineer"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.latent.space/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
+
 # Latent Space / AI Engineer
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Latent Space / AI Engineer is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
 
 ## Why It Matters At World's Fair
-Latent Space / AI Engineer appears through 1 official speaker(s) connected to 6 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Highest Loop; How Anthropic Builds: Lessons from Labs; Latent Space Live: the Inference Inflection from First Principles.
+Latent Space / AI Engineer matters to this wiki through 1 official speaker(s) and 6 scheduled session(s), including: The Highest Loop; How Anthropic Builds: Lessons from Labs; Latent Space Live: the Inference Inflection from First Principles.
 
 ## Related People
 - [[swyx]] - Curator
@@ -23,8 +25,15 @@ Latent Space / AI Engineer appears through 1 official speaker(s) connected to 6 
 - [[2026-07-01-swyx-improving-aie-q-and-a-and-feedback-session-repeat]] - Improving AIE: Q&A and Feedback Session (repeat) (2026-07-01, 3:20pm-3:40pm)
 - [[2026-07-01-howie-liu-startup-battlefield]] - Startup Battlefield (2026-07-01, 5:10pm-5:30pm)
 
+## Origin And Context
+The official speaker roster connects Latent Space / AI Engineer to swyx. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+
+## Notes
+- Automated company profile fetch status: manual_url_unfetched.
+- Discovery confidence score: 50.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Latent Space / AI Engineer public site](https://www.latent.space/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

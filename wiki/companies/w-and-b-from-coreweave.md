@@ -2,15 +2,17 @@
 title: "W&B from CoreWeave"
 category: "companies"
 aliases: ["W&B from CoreWeave"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://wandb.ai/site"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # W&B from CoreWeave
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+W&B from CoreWeave is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Learn why thousands of companies rely on W&B as their system of record for training AI models and developing AI applications with confidence.
 
 ## Why It Matters At World's Fair
-W&B from CoreWeave appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Z/L Continuum: Should AI Engineers Still Read Code?.
+W&B from CoreWeave matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The Z/L Continuum: Should AI Engineers Still Read Code?.
 
 ## Related People
 - [[alex-volkov]] - AI Evangelist & Host of ThursdAI
@@ -18,8 +20,15 @@ W&B from CoreWeave appears through 1 official speaker(s) connected to 1 schedule
 ## Related Scheduled Sessions
 - [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] - The Z/L Continuum: Should AI Engineers Still Read Code? (2026-06-30, 10:45am-11:05am)
 
+## Origin And Context
+The official speaker roster connects W&B from CoreWeave to Alex Volkov. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 78.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Weights & Biases](https://wandb.ai/site)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

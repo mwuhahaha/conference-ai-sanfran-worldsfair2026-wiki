@@ -2,15 +2,17 @@
 title: "Maven Clinic"
 category: "companies"
 aliases: ["Maven Clinic"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://mavenclinic.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Maven Clinic
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Maven Clinic is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Micro Mentorship.
 
 ## Why It Matters At World's Fair
-Maven Clinic appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: How to build an AI-Native Health Company.
+Maven Clinic matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: How to build an AI-Native Health Company.
 
 ## Related People
 - [[dan-feng]] - Senior Director of Engineering
@@ -18,8 +20,15 @@ Maven Clinic appears through 1 official speaker(s) connected to 1 scheduled sess
 ## Related Scheduled Sessions
 - [[2026-07-01-dan-feng-how-to-build-an-ai-native-health-company]] - How to build an AI-Native Health Company (2026-07-01, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects Maven Clinic to Dan Feng. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 110.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [MavenClinic](https://mavenclinic.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

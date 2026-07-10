@@ -1,22 +1,43 @@
 ---
-title: Meta
-category: companies
-aliases:
-  - Meta
-sourceLabels:
-  - Official speaker roster
-last_auto_summarized: '2026-07-06T22:55:55.167Z'
+title: "Meta"
+category: "companies"
+aliases: ["Meta"]
+website: "https://www.meta.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Meta
 
-## Why It Appears
-Meta appears in the official AI Engineer World's Fair 2026 speaker roster through a cluster of speakers working across AI research, recommendations, multimodal LLMs, distributed systems, AI infrastructure, and hardware enablement. The connected material ties Meta to several core engineering themes in the wiki: scalable model-serving and inference systems, coding-agent and sandbox workflows, agent memory and evaluation, and MCP-style tool/data integration. Its presence is not just as a company affiliation; the linked speakers collectively represent production AI work spanning product leadership, research direction, infrastructure reliability, and large-scale systems implementation.
+## What It Is
+Meta is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Shop AI glasses, take photos, play music, and talk to AI. Explore Meta wearable tech for everyday life. Ray-Ban Meta, Oakley Meta & Quest 3S starting at $224.
 
-## Associated Speakers
-- [[aditya-gautam]] — Machine Learning Lead
-- [[devansh-tandon]] — Principal Product Manager
-- [[naman-ahuja]] — Senior Software Engineer
-- [[nishant-gupta]] — Software Engineer, Tech Lead
+## Why It Matters At World's Fair
+Meta matters to this wiki through 4 official speaker(s) and 4 scheduled session(s), including: Tokens In, Engagement Out: Training LLM-Recommenders; Modality Misalignment and Originality Attribution in Short-Form Video: A Multi-Agent Approach at Platform Scale; Open Q&A: LLM Recsys.
+
+## Related People
+- [[aditya-gautam]] - Machine Learning Lead
+- [[devansh-tandon]] - Principal Product Manager
+- [[naman-ahuja]] - Senior Software Engineer
+- [[nishant-gupta]] - Software Engineer, Tech Lead
+
+## Related Scheduled Sessions
+- [[2026-06-29-devansh-tandon-tokens-in-engagement-out-training-llm-recommenders]] - Tokens In, Engagement Out: Training LLM-Recommenders (2026-06-29, 10:45am-11:05am)
+- [[2026-06-29-aditya-gautam-modality-misalignment-and-originality-attribution-in-short-form-video-a-multi-agent-approach-at-platform-scale]] - Modality Misalignment and Originality Attribution in Short-Form Video: A Multi-Agent Approach at Platform Scale (2026-06-29, 12:05pm-12:25pm)
+- [[2026-06-29-devansh-tandon-open-q-and-a-llm-recsys]] - Open Q&A: LLM Recsys (2026-06-29, 12:05pm-12:25pm)
+- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] - Operating Distributed Inference Systems at Scale (2026-07-01, 10:45am-11:05am)
+
+## Origin And Context
+The official speaker roster connects Meta to Aditya Gautam, Devansh Tandon, Naman Ahuja, Nishant Gupta. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
+## Public Sources
+- [Meta](https://www.meta.com/)
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
 
 ## Source-Derived Enrichment
 This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.

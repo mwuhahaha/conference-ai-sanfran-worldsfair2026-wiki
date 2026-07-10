@@ -2,15 +2,17 @@
 title: "T3 Tools & YouTuber"
 category: "companies"
 aliases: ["T3 Tools & YouTuber"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://t3.gg/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # T3 Tools & YouTuber
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+T3 Tools & YouTuber is represented at AI Engineer World's Fair 2026. Its public site describes it this way: theo (aka t3, t3dotgg) is a youtuber/ceo/dev. built t3 chat, ping.gg, t3 stack and more.
 
 ## Why It Matters At World's Fair
-T3 Tools & YouTuber appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Closing Keynote — Theo Browne.
+T3 Tools & YouTuber matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Closing Keynote — Theo Browne.
 
 ## Related People
 - [[theo-browne]] - Founder/YouTuber
@@ -18,8 +20,15 @@ T3 Tools & YouTuber appears through 1 official speaker(s) connected to 1 schedul
 ## Related Scheduled Sessions
 - [[2026-07-01-theo-browne-closing-keynote-theo-browne]] - Closing Keynote — Theo Browne (2026-07-01, 4:30pm-4:50pm)
 
+## Origin And Context
+The official speaker roster connects T3 Tools & YouTuber to Theo Browne. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 65.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [theo](https://t3.gg/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

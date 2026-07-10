@@ -2,15 +2,17 @@
 title: "WorkOS"
 category: "companies"
 aliases: ["WorkOS"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://workos.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # WorkOS
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+WorkOS is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Developer APIs/SDKs for Enterprise Ready features like Single Sign-On, Directory Sync, Audit Logging, and more. Get started for free.
 
 ## Why It Matters At World's Fair
-WorkOS appears through 5 official speaker(s) connected to 4 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Building an Agent Harness for the Business, Not the Builder; Auth for Agents: Unblock Autonomous AI with auth.md; Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks.
+WorkOS matters to this wiki through 5 official speaker(s) and 4 scheduled session(s), including: Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks; Building an Agent Harness for the Business, Not the Builder; No, That's Not a Software Factory.
 
 ## Related People
 - [[garrett-galow]] - Product Manager
@@ -25,8 +27,15 @@ WorkOS appears through 5 official speaker(s) connected to 4 scheduled session(s)
 - [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]] - No, That's Not a Software Factory (2026-07-01, 10:45am-11:05am)
 - [[2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md]] - Auth for Agents: Unblock Autonomous AI with auth.md (2026-07-01, 11:40am-12:00pm)
 
+## Origin And Context
+The official speaker roster connects WorkOS to Garrett Galow, Michael Grinich, Nick Nisi, Ryan Cooke, Zack Proser. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [WorkOS — Your app, Enterprise Ready.](https://workos.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

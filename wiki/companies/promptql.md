@@ -2,15 +2,17 @@
 title: "PromptQL"
 category: "companies"
 aliases: ["PromptQL"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://promptql.io"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # PromptQL
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+PromptQL is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Curating context is a second job nobody wants. PromptQL is the team brain that organizes itself. Work with your team in shared AI threads, and PromptQL turns the context you generate into suggested edits to your wiki - interconnected pages that span skills, knowledge, and the semantic layer. You just accept.
 
 ## Why It Matters At World's Fair
-PromptQL appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves..
+PromptQL matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves..
 
 ## Related People
 - [[tanmai-gopal]] - CEO/cofounder
@@ -18,8 +20,15 @@ PromptQL appears through 1 official speaker(s) connected to 1 scheduled session(
 ## Related Scheduled Sessions
 - [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves]] - Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves. (2026-06-29, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects PromptQL to Tanmai Gopal. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [PromptQL / Multiplayer AI with shared context.](https://promptql.io)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

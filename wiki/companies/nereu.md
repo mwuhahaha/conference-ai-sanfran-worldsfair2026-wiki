@@ -2,15 +2,17 @@
 title: "Nereu"
 category: "companies"
 aliases: ["Nereu"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.nereu.dev/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Nereu
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Nereu is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "Nereu Melo", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-Nereu appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The Next Game Engine Won't Have a Manual.
+Nereu matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The Next Game Engine Won't Have a Manual.
 
 ## Related People
 - [[arturo-nunez]] - Founder
@@ -18,8 +20,15 @@ Nereu appears through 1 official speaker(s) connected to 1 scheduled session(s).
 ## Related Scheduled Sessions
 - [[2026-07-01-arturo-nunez-the-next-game-engine-won-t-have-a-manual]] - The Next Game Engine Won't Have a Manual (2026-07-01, 12:05pm-12:25pm)
 
+## Origin And Context
+The official speaker roster connects Nereu to Arturo Nunez. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Nereu Melo](https://www.nereu.dev/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

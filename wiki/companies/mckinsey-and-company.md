@@ -2,15 +2,17 @@
 title: "McKinsey & Company"
 category: "companies"
 aliases: ["McKinsey & Company"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.mckinsey.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
+
 # McKinsey & Company
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+McKinsey & Company is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
 
 ## Why It Matters At World's Fair
-McKinsey & Company appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Tokenomics: From AI Spend to AI Value; The Agentic Product Development Organization.
+McKinsey & Company matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: Tokenomics: From AI Spend to AI Value; The Agentic Product Development Organization.
 
 ## Related People
 - [[martin-harrysson]] - Senior Partner
@@ -20,8 +22,15 @@ McKinsey & Company appears through 2 official speaker(s) connected to 2 schedule
 - [[2026-06-30-martin-harrysson-tokenomics-from-ai-spend-to-ai-value]] - Tokenomics: From AI Spend to AI Value (2026-06-30, 11:00am-12:00pm)
 - [[2026-07-01-martin-harrysson-the-agentic-product-development-organization]] - The Agentic Product Development Organization (2026-07-01, 11:00am-12:00pm)
 
+## Origin And Context
+The official speaker roster connects McKinsey & Company to Martin Harrysson, Matt Linderman. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+
+## Notes
+- Automated company profile fetch status: manual_url_unfetched.
+- Discovery confidence score: 50.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [McKinsey & Company public site](https://www.mckinsey.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

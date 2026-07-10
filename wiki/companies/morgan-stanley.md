@@ -2,15 +2,17 @@
 title: "Morgan Stanley"
 category: "companies"
 aliases: ["Morgan Stanley"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.morganstanley.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
+
 # Morgan Stanley
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Morgan Stanley is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
 
 ## Why It Matters At World's Fair
-Morgan Stanley appears through 1 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs; Loophole - Adversarial Agents To Stress Test Your Morality.
+Morgan Stanley matters to this wiki through 1 official speaker(s) and 2 scheduled session(s), including: ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs; Loophole - Adversarial Agents To Stress Test Your Morality.
 
 ## Related People
 - [[brendan-rappazzo]] - Machine Learning Scientist
@@ -19,8 +21,15 @@ Morgan Stanley appears through 1 official speaker(s) connected to 2 scheduled se
 - [[2026-07-01-brendan-rappazzo-alphalab-autonomous-multi-agent-research-across-optimization-domains-with-frontier-llms]] - ALPHALAB: Autonomous Multi-Agent Research Across Optimization Domains with Frontier LLMs (2026-07-01, 10:45am-11:05am)
 - [[2026-07-01-brendan-rappazzo-loophole-adversarial-agents-to-stress-test-your-morality]] - Loophole - Adversarial Agents To Stress Test Your Morality (2026-07-01, 1:30pm-1:50pm)
 
+## Origin And Context
+The official speaker roster connects Morgan Stanley to Brendan Rappazzo. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+
+## Notes
+- Automated company profile fetch status: manual_url_unfetched.
+- Discovery confidence score: 50.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Morgan Stanley public site](https://www.morganstanley.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

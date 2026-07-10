@@ -2,15 +2,17 @@
 title: "ZS Associates"
 category: "companies"
 aliases: ["ZS Associates"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.zs.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # ZS Associates
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+ZS Associates is represented at AI Engineer World's Fair 2026. Its public site describes it this way: ZS is a global management consulting and technology firm that partners with companies to improve life and how we live it.
 
 ## Why It Matters At World's Fair
-ZS Associates appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Why We Killed Our Multi-Agent Pipeline: Lessons From Pharma Commercial Intelligence.
+ZS Associates matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Why We Killed Our Multi-Agent Pipeline: Lessons From Pharma Commercial Intelligence.
 
 ## Related People
 - [[subbiah-sethuraman]] - Partner
@@ -18,8 +20,15 @@ ZS Associates appears through 1 official speaker(s) connected to 1 scheduled ses
 ## Related Scheduled Sessions
 - [[2026-07-01-subbiah-sethuraman-why-we-killed-our-multi-agent-pipeline-lessons-from-pharma-commercial-intelligence]] - Why We Killed Our Multi-Agent Pipeline: Lessons From Pharma Commercial Intelligence (2026-07-01, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects ZS Associates to Subbiah Sethuraman. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 65.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [ZS: Global management consulting and technology firm](https://www.zs.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

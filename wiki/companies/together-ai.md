@@ -2,15 +2,17 @@
 title: "Together AI"
 category: "companies"
 aliases: ["Together AI"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.together.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Together AI
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Together AI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Build what's next on the AI Native Cloud. Full-stack AI platform for inference, fine-tuning, and GPU clusters — powered by cutting-edge research.
 
 ## Why It Matters At World's Fair
-Together AI appears through 6 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It; The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs; Open-Source Inference Engineering for the Agentic Era.
+Together AI matters to this wiki through 6 official speaker(s) and 3 scheduled session(s), including: Open-Source Inference Engineering for the Agentic Era; The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs; Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It.
 
 ## Related People
 - [[dan-fu]] - VP of Kernels
@@ -25,8 +27,15 @@ Together AI appears through 6 official speaker(s) connected to 3 scheduled sessi
 - [[2026-06-30-olive-song-agents-at-scale-inside-minimax-s-model-and-the-infrastructure-behind-it]] - Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It (2026-06-30, 2:50pm-3:10pm)
 - [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis]] - The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs (2026-06-30, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects Together AI to Dan Fu, Hassan El Mghari, Jue Wang, Qingyang Wu, Yubo Wang, Zain Hasan. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Together AI / The AI Native Cloud](https://www.together.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

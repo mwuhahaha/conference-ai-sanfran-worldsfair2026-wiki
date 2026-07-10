@@ -2,15 +2,17 @@
 title: "Zoox"
 category: "companies"
 aliases: ["Zoox"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://zoox.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Zoox
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Zoox is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Zoox is a purpose-built autonomous vehicle designed for riders, not drivers. Learn more about the Zoox robotaxi and the future of ride-hailing.
 
 ## Why It Matters At World's Fair
-Zoox appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: From Self-Driving Monorepo to Self-Driving Cars.
+Zoox matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: From Self-Driving Monorepo to Self-Driving Cars.
 
 ## Related People
 - [[amit-navindgi]] - Senior Staff Software Engineer
@@ -18,8 +20,15 @@ Zoox appears through 1 official speaker(s) connected to 1 scheduled session(s). 
 ## Related Scheduled Sessions
 - [[2026-06-30-amit-navindgi-from-self-driving-monorepo-to-self-driving-cars]] - From Self-Driving Monorepo to Self-Driving Cars (2026-06-30, 3:20pm-3:40pm)
 
+## Origin And Context
+The official speaker roster connects Zoox to Amit Navindgi. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Zoox](https://zoox.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

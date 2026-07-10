@@ -2,15 +2,17 @@
 title: "SonderMind"
 category: "companies"
 aliases: ["SonderMind", "Sondermind"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.sondermind.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # SonderMind
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+SonderMind is represented at AI Engineer World's Fair 2026. Its public site describes it this way: SonderMind offers professional therapy covered by insurance. Browse our therapists and psychiatry providers, match with the right fit, and book today.
 
 ## Why It Matters At World's Fair
-SonderMind appears through 3 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely.
+SonderMind matters to this wiki through 3 official speaker(s) and 1 scheduled session(s), including: Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely.
 
 ## Related People
 - [[akele-reed]] - Principal AI Engineer
@@ -20,8 +22,15 @@ SonderMind appears through 3 official speaker(s) connected to 1 scheduled sessio
 ## Related Scheduled Sessions
 - [[2026-06-30-akele-reed-evals-driven-development-engineering-a-mental-health-ai-coach-ethically-and-safely]] - Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely (2026-06-30, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects SonderMind to Akele Reed, Dave Revere, Doug Keller. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Professional Therapy Covered by Insurance / SonderMind](https://www.sondermind.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

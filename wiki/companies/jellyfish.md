@@ -2,15 +2,17 @@
 title: "Jellyfish"
 category: "companies"
 aliases: ["Jellyfish"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://jellyfish.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Jellyfish
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Jellyfish is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "Spaceship", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-Jellyfish appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Tokenmaxxing is the New "Lines of Code".
+Jellyfish matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Tokenmaxxing is the New "Lines of Code".
 
 ## Related People
 - [[nicholas-arcolano]] - Head of AI & Research
@@ -18,8 +20,15 @@ Jellyfish appears through 1 official speaker(s) connected to 1 scheduled session
 ## Related Scheduled Sessions
 - [[2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code]] - Tokenmaxxing is the New "Lines of Code" (2026-06-30, 1:30pm-1:50pm)
 
+## Origin And Context
+The official speaker roster connects Jellyfish to Nicholas Arcolano. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 70.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Spaceship](https://jellyfish.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

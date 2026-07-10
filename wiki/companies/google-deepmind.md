@@ -2,15 +2,17 @@
 title: "Google DeepMind"
 category: "companies"
 aliases: ["Google DeepMind"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://deepmind.google/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Google DeepMind
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Google DeepMind is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Build AI responsibly to benefit humanity.
 
 ## Why It Matters At World's Fair
-Google DeepMind appears through 9 official speaker(s) connected to 14 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Research to Reality with Google DeepMind; An Interaction Is All You Need; Get Out of the Model's Way.
+Google DeepMind matters to this wiki through 9 official speaker(s) and 14 scheduled session(s), including: Research to Reality with Google DeepMind; Speech-to-Speech Model Research at Google DeepMind; Get Out of the Model's Way.
 
 ## Related People
 - [[benoit-schillings]] - VP of Technology
@@ -39,8 +41,15 @@ Google DeepMind appears through 9 official speaker(s) connected to 14 scheduled 
 - [[2026-07-01-ivan-leo-an-interaction-is-all-you-need]] - An Interaction Is All You Need (2026-07-01, 3:20pm-3:40pm)
 - [[2026-07-01-philipp-schmid-agents-without-code-how-skills-yaml-and-filesystems-replaced-python]] - Agents Without Code: How Skills, YAML, and Filesystems Replaced Python (2026-07-01, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects Google DeepMind to Benoit Schillings, Ivan Leo, Kevin Hou, Nidhi Kaushik Vyas, Paige Bailey, Philipp Schmid. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Google DeepMind](https://deepmind.google/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

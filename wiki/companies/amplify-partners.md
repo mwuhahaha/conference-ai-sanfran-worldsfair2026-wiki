@@ -2,15 +2,17 @@
 title: "Amplify Partners"
 category: "companies"
 aliases: ["Amplify Partners"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.amplifypartners.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Amplify Partners
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Amplify Partners is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Amplify is the first investor for technical founders building the next generation of technical applications, tools, and platforms.
 
 ## Why It Matters At World's Fair
-Amplify Partners appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: The 2026 State of AI Engineering.
+Amplify Partners matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The 2026 State of AI Engineering.
 
 ## Related People
 - [[barr-yaron]] - Partner
@@ -18,8 +20,15 @@ Amplify Partners appears through 1 official speaker(s) connected to 1 scheduled 
 ## Related Scheduled Sessions
 - [[2026-07-01-barr-yaron-the-2026-state-of-ai-engineering]] - The 2026 State of AI Engineering (2026-07-01, 9:00am-9:20am)
 
+## Origin And Context
+The official speaker roster connects Amplify Partners to Barr Yaron. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Amplify Partners](https://www.amplifypartners.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

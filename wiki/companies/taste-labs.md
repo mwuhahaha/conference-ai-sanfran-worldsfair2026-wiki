@@ -2,15 +2,17 @@
 title: "Taste Labs"
 category: "companies"
 aliases: ["Taste Labs"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://taste.dev/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Taste Labs
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Taste Labs is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Tech Founder / Builder.
 
 ## Why It Matters At World's Fair
-Taste Labs appears through 1 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Ending AI Slop; Training Taste.
+Taste Labs matters to this wiki through 1 official speaker(s) and 2 scheduled session(s), including: Ending AI Slop; Training Taste.
 
 ## Related People
 - [[thais-castello-branco]] - Founder & CEO
@@ -19,8 +21,15 @@ Taste Labs appears through 1 official speaker(s) connected to 2 scheduled sessio
 - [[2026-06-29-thais-castello-branco-ending-ai-slop]] - Ending AI Slop (2026-06-29, 1:55pm-2:15pm)
 - [[2026-06-30-thais-castello-branco-training-taste]] - Training Taste (2026-06-30, 1:55pm-2:15pm)
 
+## Origin And Context
+The official speaker roster connects Taste Labs to Thais Castello Branco. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 65.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Terry Xu](https://taste.dev/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

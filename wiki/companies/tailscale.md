@@ -2,15 +2,17 @@
 title: "Tailscale"
 category: "companies"
 aliases: ["Tailscale"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://tailscale.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Tailscale
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Tailscale is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The connectivity platform for devs, IT, and security teams. Zero Trust identity-based access that deploys in minutes and scales to every resource. Start free.
 
 ## Why It Matters At World's Fair
-Tailscale appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: An AI Future Without the Lock-In.
+Tailscale matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: An AI Future Without the Lock-In.
 
 ## Related People
 - [[remy-guercio]] - Strategic Projects
@@ -18,8 +20,15 @@ Tailscale appears through 1 official speaker(s) connected to 1 scheduled session
 ## Related Scheduled Sessions
 - [[2026-07-01-remy-guercio-an-ai-future-without-the-lock-in]] - An AI Future Without the Lock-In (2026-07-01, 3:20pm-3:40pm)
 
+## Origin And Context
+The official speaker roster connects Tailscale to Remy Guercio. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Tailscale / Secure Connectivity for AI, IoT & Multi-Cloud](https://tailscale.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -2,15 +2,17 @@
 title: "Elastic"
 category: "companies"
 aliases: ["Elastic"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.elastic.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Elastic
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Elastic is represented at AI Engineer World's Fair 2026. Its public site describes it this way: With an Elastic Line of Credit, you can borrow money when needed. Apply today and enjoy financial flexibility through our quick and secure application process.
 
 ## Why It Matters At World's Fair
-Elastic appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models; Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers.
+Elastic matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers; Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models.
 
 ## Related People
 - [[han-xiao]] - VP, AI
@@ -20,8 +22,15 @@ Elastic appears through 2 official speaker(s) connected to 2 scheduled session(s
 - [[2026-06-29-jeff-vestal-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]] - Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers (2026-06-29, 2:20pm-4:20pm)
 - [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]] - Autoresearch for Dense Retrieval: Test-Time Compute with Frozen Embedding Models (2026-06-30, 11:10am-11:30am)
 
+## Origin And Context
+The official speaker roster connects Elastic to Han Xiao, Jeff Vestal. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Elastic Line of Credit - Flexible Credit Anytime You Need It](https://www.elastic.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

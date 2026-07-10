@@ -2,15 +2,17 @@
 title: "Wisedocs"
 category: "companies"
 aliases: ["Wisedocs"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.wisedocs.ai/company/about-us"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
+
 # Wisedocs
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Wisedocs is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
 
 ## Why It Matters At World's Fair
-Wisedocs appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Benchmarking Coding Agents on New vs Legacy Code bases.
+Wisedocs matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Benchmarking Coding Agents on New vs Legacy Code bases.
 
 ## Related People
 - [[denys-linkov]] - Head of ML
@@ -18,8 +20,15 @@ Wisedocs appears through 1 official speaker(s) connected to 1 scheduled session(
 ## Related Scheduled Sessions
 - [[2026-07-01-denys-linkov-benchmarking-coding-agents-on-new-vs-legacy-code-bases]] - Benchmarking Coding Agents on New vs Legacy Code bases (2026-07-01, 12:05pm-12:25pm)
 
+## Origin And Context
+The official speaker roster connects Wisedocs to Denys Linkov. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+
+## Notes
+- Automated company profile fetch status: manual_url_unfetched.
+- Discovery confidence score: 50.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Wisedocs public site](https://www.wisedocs.ai/company/about-us)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

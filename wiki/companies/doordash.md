@@ -2,15 +2,17 @@
 title: "DoorDash"
 category: "companies"
 aliases: ["DoorDash"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://doordash.dev/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # DoorDash
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+DoorDash is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "Coming Soon", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-DoorDash appears through 2 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: AI Evals Platform for Cross-Functional Teams at Scale.
+DoorDash matters to this wiki through 2 official speaker(s) and 1 scheduled session(s), including: AI Evals Platform for Cross-Functional Teams at Scale.
 
 ## Related People
 - [[nachiket-paranjape]] - Software Engineer
@@ -19,8 +21,15 @@ DoorDash appears through 2 official speaker(s) connected to 1 scheduled session(
 ## Related Scheduled Sessions
 - [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale]] - AI Evals Platform for Cross-Functional Teams at Scale (2026-06-29, 1:55pm-2:15pm)
 
+## Origin And Context
+The official speaker roster connects DoorDash to Nachiket Paranjape, Swaroop Chitlur Haridas. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Coming Soon](https://doordash.dev/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

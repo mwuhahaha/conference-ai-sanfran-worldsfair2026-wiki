@@ -2,15 +2,17 @@
 title: "McKinsey"
 category: "companies"
 aliases: ["McKinsey"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.mckinsey.org/home"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # McKinsey
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+McKinsey is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "Home | McKinsey.org | McKinsey & Company", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-McKinsey appears through 1 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Tokenomics: From AI Spend to AI Value; The Agentic Product Development Organization.
+McKinsey matters to this wiki through 1 official speaker(s) and 2 scheduled session(s), including: Tokenomics: From AI Spend to AI Value; The Agentic Product Development Organization.
 
 ## Related People
 - [[prakhar-dixit]] - Partner
@@ -19,8 +21,15 @@ McKinsey appears through 1 official speaker(s) connected to 2 scheduled session(
 - [[2026-06-30-martin-harrysson-tokenomics-from-ai-spend-to-ai-value]] - Tokenomics: From AI Spend to AI Value (2026-06-30, 11:00am-12:00pm)
 - [[2026-07-01-martin-harrysson-the-agentic-product-development-organization]] - The Agentic Product Development Organization (2026-07-01, 11:00am-12:00pm)
 
+## Origin And Context
+The official speaker roster connects McKinsey to Prakhar Dixit. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Home / McKinsey.org / McKinsey & Company](https://www.mckinsey.org/home)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

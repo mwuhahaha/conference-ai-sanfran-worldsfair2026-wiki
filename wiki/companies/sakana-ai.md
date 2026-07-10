@@ -2,15 +2,17 @@
 title: "Sakana.ai"
 category: "companies"
 aliases: ["Sakana.ai"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://sakana.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Sakana.ai
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Sakana.ai is represented at AI Engineer World's Fair 2026. Its public site describes it this way: We are creating a new kind of foundation model based on nature-inspired intelligence.
 
 ## Why It Matters At World's Fair
-Sakana.ai appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Memory Harnesses for Long-Running Research Agents.
+Sakana.ai matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Memory Harnesses for Long-Running Research Agents.
 
 ## Related People
 - [[stefania-druga]] - Research Scientist
@@ -18,8 +20,15 @@ Sakana.ai appears through 1 official speaker(s) connected to 1 scheduled session
 ## Related Scheduled Sessions
 - [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]] - Memory Harnesses for Long-Running Research Agents (2026-06-30, 11:40am-12:00pm)
 
+## Origin And Context
+The official speaker roster connects Sakana.ai to Stefania Druga. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Sakana AI — Building Frontier AI in Japan](https://sakana.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

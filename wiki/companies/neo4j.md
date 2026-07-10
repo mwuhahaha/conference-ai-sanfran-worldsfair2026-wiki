@@ -2,15 +2,17 @@
 title: "Neo4j"
 category: "companies"
 aliases: ["Neo4j"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://neo4j.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Neo4j
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Neo4j is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Connect data as it's stored with Neo4j. Perform powerful, complex queries at scale and speed with our graph data platform.
 
 ## Why It Matters At World's Fair
-Neo4j appears through 6 official speaker(s) connected to 6 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer; Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory; RAG Needs a Map: Using GraphRAG to Retrieve Connected Context.
+Neo4j matters to this wiki through 6 official speaker(s) and 6 scheduled session(s), including: AI on Your Lakehouse: Context Comes in Shapes, Not Queries; RAG Needs a Map: Using GraphRAG to Retrieve Connected Context; Actionable Knowledge For Agents With Context Graphs.
 
 ## Related People
 - [[emil-eifrem]] - CEO
@@ -28,8 +30,15 @@ Neo4j appears through 6 official speaker(s) connected to 6 scheduled session(s).
 - [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens]] - CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens (2026-07-01, 10:45am-11:05am)
 - [[2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory]] - Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory (2026-07-01, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects Neo4j to Emil Eifrem, Jeremy Adams, Nyah Macklin, Stephen Chin, Will Lyon, Zach Blumenfeld. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Graph Database & Analytics](https://neo4j.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

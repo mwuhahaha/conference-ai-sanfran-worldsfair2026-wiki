@@ -2,15 +2,17 @@
 title: "Hinge Health"
 category: "companies"
 aliases: ["Hinge Health"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.hingehealth.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Hinge Health
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Hinge Health is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The #1 clinic for joint & muscle pain. Join today and take control of your pain with access to our personalized virtual physical therapy program.
 
 ## Why It Matters At World's Fair
-Hinge Health appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Guardrails First: Engineering Member-Facing Health AI.
+Hinge Health matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Guardrails First: Engineering Member-Facing Health AI.
 
 ## Related People
 - [[rashi-agrawal]] - Head of Agentic AI
@@ -18,8 +20,15 @@ Hinge Health appears through 1 official speaker(s) connected to 1 scheduled sess
 ## Related Scheduled Sessions
 - [[2026-07-01-rashi-agrawal-guardrails-first-engineering-member-facing-health-ai]] - Guardrails First: Engineering Member-Facing Health AI (2026-07-01, 11:10am-11:30am)
 
+## Origin And Context
+The official speaker roster connects Hinge Health to Rashi Agrawal. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [hingehealth](https://www.hingehealth.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

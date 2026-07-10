@@ -2,15 +2,17 @@
 title: "Datacurve"
 category: "companies"
 aliases: ["Datacurve"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://datacurve.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Datacurve
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Datacurve is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Custom data for long-horizon reasoning, software engineering, and data science.
 
 ## Why It Matters At World's Fair
-Datacurve appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: DeepSWE: expert code datasets.
+Datacurve matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: DeepSWE: expert code datasets.
 
 ## Related People
 - [[serena-ge]] - CEO
@@ -18,8 +20,15 @@ Datacurve appears through 1 official speaker(s) connected to 1 scheduled session
 ## Related Scheduled Sessions
 - [[2026-07-01-serena-ge-deepswe-expert-code-datasets]] - DeepSWE: expert code datasets (2026-07-01, 10:45am-11:05am)
 
+## Origin And Context
+The official speaker roster connects Datacurve to Serena Ge. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Datacurve](https://datacurve.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

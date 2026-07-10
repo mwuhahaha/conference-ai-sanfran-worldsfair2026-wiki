@@ -2,15 +2,17 @@
 title: "Conductor"
 category: "companies"
 aliases: ["Conductor"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.conductor.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Conductor
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Conductor is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Where enterprises go to win in AI search.
 
 ## Why It Matters At World's Fair
-Conductor appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Orchestras, not Factories.
+Conductor matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Orchestras, not Factories.
 
 ## Related People
 - [[charlie-holtz]] - CEO
@@ -18,8 +20,15 @@ Conductor appears through 1 official speaker(s) connected to 1 scheduled session
 ## Related Scheduled Sessions
 - [[2026-06-29-charlie-holtz-orchestras-not-factories]] - Orchestras, not Factories (2026-06-29, 11:40am-12:00pm)
 
+## Origin And Context
+The official speaker roster connects Conductor to Charlie Holtz. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Conductor](https://www.conductor.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -2,15 +2,17 @@
 title: "UCAL Berkeley"
 category: "companies"
 aliases: ["UCAL Berkeley"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.berkeley.edu/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # UCAL Berkeley
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+UCAL Berkeley is represented at AI Engineer World's Fair 2026. Its public site describes it this way: UC Berkeley pushes the boundaries of knowledge, challenges convention and expands opportunity to create the leaders of tomorrow.
 
 ## Why It Matters At World's Fair
-UCAL Berkeley appears through 1 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Anthropic's CCA Exam as a Field-Guide for Agentic Engineering; Why Agentic Systems Need Ontologies.
+UCAL Berkeley matters to this wiki through 1 official speaker(s) and 2 scheduled session(s), including: Anthropic's CCA Exam as a Field-Guide for Agentic Engineering; Why Agentic Systems Need Ontologies.
 
 ## Related People
 - [[frank-coyle]] - Lecturer, UCALBerkeley / Founder AI/Edge
@@ -19,8 +21,15 @@ UCAL Berkeley appears through 1 official speaker(s) connected to 2 scheduled ses
 - [[2026-07-01-frank-coyle-anthropic-s-cca-exam-as-a-field-guide-for-agentic-engineering]] - Anthropic's CCA Exam as a Field-Guide for Agentic Engineering (2026-07-01, 11:10am-11:30am)
 - [[2026-07-01-frank-coyle-why-agentic-systems-need-ontologies]] - Why Agentic Systems Need Ontologies (2026-07-01, 1:55pm-2:15pm)
 
+## Origin And Context
+The official speaker roster connects UCAL Berkeley to Frank Coyle. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 65.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [University of California, Berkeley](https://www.berkeley.edu/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

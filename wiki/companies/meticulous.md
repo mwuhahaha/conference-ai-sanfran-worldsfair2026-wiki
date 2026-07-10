@@ -2,15 +2,17 @@
 title: "Meticulous"
 category: "companies"
 aliases: ["Meticulous"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.meticulous.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Meticulous
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Meticulous is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Meticulous auto-generates and auto-maintains visual frontend browser tests, providing a level of coverage that is unattainable with manually written tests.
 
 ## Why It Matters At World's Fair
-Meticulous appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Why AI Didn't Actually Make You Ship Faster.
+Meticulous matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Why AI Didn't Actually Make You Ship Faster.
 
 ## Related People
 - [[gabriel-spencer-harper]] - CEO
@@ -18,8 +20,15 @@ Meticulous appears through 1 official speaker(s) connected to 1 scheduled sessio
 ## Related Scheduled Sessions
 - [[2026-06-30-gabriel-spencer-harper-why-ai-didn-t-actually-make-you-ship-faster]] - Why AI Didn't Actually Make You Ship Faster (2026-06-30, 10:45am-11:05am)
 
+## Origin And Context
+The official speaker roster connects Meticulous to Gabriel Spencer-Harper. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Meticulous AI](https://www.meticulous.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

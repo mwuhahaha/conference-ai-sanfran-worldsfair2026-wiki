@@ -2,15 +2,17 @@
 title: "Factory"
 category: "companies"
 aliases: ["Factory"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://factory.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Factory
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Factory is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Build faster with AI coding agents. Factory Droids automate coding, testing, and deployment for startups and enterprises.
 
 ## Why It Matters At World's Fair
-Factory appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: How Forward Deployed Engineering is done at Factory; Rise of the Software Factory.
+Factory matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: How Forward Deployed Engineering is done at Factory; Rise of the Software Factory.
 
 ## Related People
 - [[eno-reyes]] - CTO & Co-Founder
@@ -20,8 +22,15 @@ Factory appears through 2 official speaker(s) connected to 2 scheduled session(s
 - [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]] - How Forward Deployed Engineering is done at Factory (2026-06-29, 10:45am-11:05am)
 - [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]] - Rise of the Software Factory (2026-06-29, 11:10am-11:30am)
 
+## Origin And Context
+The official speaker roster connects Factory to Eno Reyes, Tereza Tížková. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Factory](https://factory.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

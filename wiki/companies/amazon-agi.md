@@ -2,15 +2,17 @@
 title: "Amazon AGI"
 category: "companies"
 aliases: ["Amazon AGI"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.amazon.science/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Amazon AGI
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Amazon AGI is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Amazon's approach to customer-obsessed science. Get the latest news about innovations in artificial intelligence and machine learning, including job opportunities, publications, conferences, events and more.
 
 ## Why It Matters At World's Fair
-Amazon AGI appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Ray Actors, Vision Tokens, and the GIL: Engineering an SFT Data Pipeline That Keeps GPUs Busy.
+Amazon AGI matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Ray Actors, Vision Tokens, and the GIL: Engineering an SFT Data Pipeline That Keeps GPUs Busy.
 
 ## Related People
 - [[tarun-sunkaraneni]] - Browser Use
@@ -18,8 +20,15 @@ Amazon AGI appears through 1 official speaker(s) connected to 1 scheduled sessio
 ## Related Scheduled Sessions
 - [[2026-06-30-tarun-sunkaraneni-ray-actors-vision-tokens-and-the-gil-engineering-an-sft-data-pipeline-that-keeps-gpus-busy]] - Ray Actors, Vision Tokens, and the GIL: Engineering an SFT Data Pipeline That Keeps GPUs Busy (2026-06-30, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects Amazon AGI to Tarun Sunkaraneni. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 65.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Amazon Science](https://www.amazon.science/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

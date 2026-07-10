@@ -2,15 +2,17 @@
 title: "Braintrust"
 category: "companies"
 aliases: ["Braintrust"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.usebraintrust.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Braintrust
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Braintrust is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Everything enterprises need to hire, assess, and manage talent — powered by AI and the world's largest talent network.
 
 ## Why It Matters At World's Fair
-Braintrust appears through 3 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Your Agent Evolved. Your Evals Didn't.; Advanced workshop: Mastering AI Observability; Why building building agent quality platforms is hard..
+Braintrust matters to this wiki through 3 official speaker(s) and 3 scheduled session(s), including: Advanced workshop: Mastering AI Observability; Your Agent Evolved. Your Evals Didn't.; Why building building agent quality platforms is hard..
 
 ## Related People
 - [[ameya-bhatawdekar]] - VP, Field CTO
@@ -22,8 +24,15 @@ Braintrust appears through 3 official speaker(s) connected to 3 scheduled sessio
 - [[2026-06-29-hossein-niazmandi-why-building-building-agent-quality-platforms-is-hard]] - Why building building agent quality platforms is hard. (2026-06-29, 12:05pm-12:25pm)
 - [[2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability]] - Advanced workshop: Mastering AI Observability (2026-06-29, 9:00am-11:00am)
 
+## Origin And Context
+The official speaker roster connects Braintrust to Ameya Bhatawdekar, Doug Guthrie, Hossein Niazmandi. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Braintrust — AI-Powered Talent Network for Enterprise](https://www.usebraintrust.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

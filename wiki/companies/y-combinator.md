@@ -2,15 +2,17 @@
 title: "Y Combinator"
 category: "companies"
 aliases: ["Y Combinator"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.ycombinator.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Y Combinator
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Y Combinator is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Y Combinator created a new model for funding early stage startups. Four times a year we invest in a large number of startups.
 
 ## Why It Matters At World's Fair
-Y Combinator appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Imagination Engineering; Closing Keynote: Garry Tan.
+Y Combinator matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: Imagination Engineering; Closing Keynote: Garry Tan.
 
 ## Related People
 - [[eve-bouffard]] - Head of Design
@@ -20,8 +22,15 @@ Y Combinator appears through 2 official speaker(s) connected to 2 scheduled sess
 - [[2026-06-30-eve-bouffard-imagination-engineering]] - Imagination Engineering (2026-06-30, 2:25pm-2:45pm)
 - [[2026-07-01-garry-tan-closing-keynote-garry-tan]] - Closing Keynote: Garry Tan (2026-07-01, 4:50pm-5:10pm)
 
+## Origin And Context
+The official speaker roster connects Y Combinator to Eve Bouffard, Garry Tan. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Y Combinator](https://www.ycombinator.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

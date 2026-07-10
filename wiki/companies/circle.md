@@ -2,15 +2,17 @@
 title: "Circle"
 category: "companies"
 aliases: ["Circle"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://circle.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Circle
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Circle is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Enter the mind of Circle.
 
 ## Why It Matters At World's Fair
-Circle appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Why Your AI Agent Needs a Wallet: Agentic commerce on Arc with USDC and Nanopayments.
+Circle matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Why Your AI Agent Needs a Wallet: Agentic commerce on Arc with USDC and Nanopayments.
 
 ## Related People
 - [[harshal-bhangale]] - Staff Software Engineer
@@ -18,8 +20,15 @@ Circle appears through 1 official speaker(s) connected to 1 scheduled session(s)
 ## Related Scheduled Sessions
 - [[2026-07-01-harshal-bhangale-why-your-ai-agent-needs-a-wallet-agentic-commerce-on-arc-with-usdc-and-nanopayments]] - Why Your AI Agent Needs a Wallet: Agentic commerce on Arc with USDC and Nanopayments (2026-07-01, 11:10am-11:30am)
 
+## Origin And Context
+The official speaker roster connects Circle to Harshal Bhangale. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 110.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [CircleOfNice](https://circle.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

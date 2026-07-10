@@ -2,15 +2,17 @@
 title: "PayPal"
 category: "companies"
 aliases: ["PayPal"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.paypal.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # PayPal
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+PayPal is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Unlock the future of AI commerce with PayPal. Use Store Sync & Agent Ready to sell across AI experiences and turn checkouts into conversions.
 
 ## Why It Matters At World's Fair
-PayPal appears through 4 official speaker(s) connected to 3 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Your Agent Just Authorized What?!; Burn your flags: How PayPal designs interactive CLI tools for agents; The Death of Keyword Search and the Rise of Agent-Readable Catalogs.
+PayPal matters to this wiki through 4 official speaker(s) and 3 scheduled session(s), including: Burn your flags: How PayPal designs interactive CLI tools for agents; The Death of Keyword Search and the Rise of Agent-Readable Catalogs; Your Agent Just Authorized What?!.
 
 ## Related People
 - [[jay-mok]] - role not listed
@@ -23,8 +25,15 @@ PayPal appears through 4 official speaker(s) connected to 3 scheduled session(s)
 - [[2026-06-30-nixon-dinh-the-death-of-keyword-search-and-the-rise-of-agent-readable-catalogs]] - The Death of Keyword Search and the Rise of Agent-Readable Catalogs (2026-06-30, 11:10am-11:30am)
 - [[2026-07-01-jay-mok-your-agent-just-authorized-what]] - Your Agent Just Authorized What?! (2026-07-01, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects PayPal to Jay Mok, Mark Lummus, Navinkumar Patil, Nixon Dinh. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Agentic Commerce Solutions for Businesses  / PayPal US](https://www.paypal.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

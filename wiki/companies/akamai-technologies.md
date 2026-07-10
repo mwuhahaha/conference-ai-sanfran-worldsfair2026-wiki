@@ -2,15 +2,17 @@
 title: "Akamai Technologies"
 category: "companies"
 aliases: ["Akamai Technologies"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.akamai.dev/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Akamai Technologies
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Akamai Technologies is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "Akamai - High School CTF", but the page did not expose a concise public description in metadata.
 
 ## Why It Matters At World's Fair
-Akamai Technologies appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs.
+Akamai Technologies matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs.
 
 ## Related People
 - [[du-an-lightfoot]] - Senior AI Engineer
@@ -18,8 +20,15 @@ Akamai Technologies appears through 1 official speaker(s) connected to 1 schedul
 ## Related Scheduled Sessions
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] - Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs (2026-06-29, 9:00am-11:00am)
 
+## Origin And Context
+The official speaker roster connects Akamai Technologies to Du'an Lightfoot. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Akamai - High School CTF](https://www.akamai.dev/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

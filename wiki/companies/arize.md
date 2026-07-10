@@ -2,15 +2,17 @@
 title: "Arize"
 category: "companies"
 aliases: ["Arize"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://arize.ai/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Arize
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Arize is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Private inquiries for premium domains.
 
 ## Why It Matters At World's Fair
-Arize appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Evals Track Intro; From Signal to PR: Anatomy of a Self-Improving Agent.
+Arize matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: Evals Track Intro; From Signal to PR: Anatomy of a Self-Improving Agent.
 
 ## Related People
 - [[aparna-dhinakaran]] - CPO
@@ -20,8 +22,15 @@ Arize appears through 2 official speaker(s) connected to 2 scheduled session(s).
 - [[2026-06-30-laurie-voss-evals-track-intro]] - Evals Track Intro (2026-06-30, 10:25am-10:30am)
 - [[2026-06-30-jason-lopatecki-from-signal-to-pr-anatomy-of-a-self-improving-agent]] - From Signal to PR: Anatomy of a Self-Improving Agent (2026-06-30, 11:10am-11:30am)
 
+## Origin And Context
+The official speaker roster connects Arize to Aparna Dhinakaran, Jason Lopatecki. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 118.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [arize.ai](https://arize.ai/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

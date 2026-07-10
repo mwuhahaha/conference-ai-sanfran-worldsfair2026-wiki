@@ -2,15 +2,17 @@
 title: "Untapped Capital"
 category: "companies"
 aliases: ["Untapped Capital"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.untapped.vc/about"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Untapped Capital
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Untapped Capital is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Untapped Capital is a VC fund focused on investing in innovative startups that are building the future of technology.
 
 ## Why It Matters At World's Fair
-Untapped Capital appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Active Graph Agent Runtime (BabyAGI 4).
+Untapped Capital matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Active Graph Agent Runtime (BabyAGI 4).
 
 ## Related People
 - [[yohei-nakajima]] - Managing Partner
@@ -18,8 +20,15 @@ Untapped Capital appears through 1 official speaker(s) connected to 1 scheduled 
 ## Related Scheduled Sessions
 - [[2026-07-01-yohei-nakajima-active-graph-agent-runtime-babyagi-4]] - Active Graph Agent Runtime (BabyAGI 4) (2026-07-01, 11:10am-11:30am)
 
+## Origin And Context
+The official speaker roster connects Untapped Capital to Yohei Nakajima. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Untapped Capital - Let's build the future together](https://www.untapped.vc/about)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -2,15 +2,17 @@
 title: "Nubank"
 category: "companies"
 aliases: ["Nubank"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://nubank.com.br/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Nubank
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Nubank is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Saiba mais sobre o Nubank - sua vida financeira sem complicações, asteriscos ou letras miúdas.
 
 ## Why It Matters At World's Fair
-Nubank appears through 2 official speaker(s) connected to 2 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Simulation-Maxxing: How Nubank ships agents 20× faster with simulations; We Vetted 2,000 AI Skills Before They Reached Developers.
+Nubank matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: We Vetted 2,000 AI Skills Before They Reached Developers; Simulation-Maxxing: How Nubank ships agents 20× faster with simulations.
 
 ## Related People
 - [[aman-gupta]] - Principal Machine Learning Engineer
@@ -20,8 +22,15 @@ Nubank appears through 2 official speaker(s) connected to 2 scheduled session(s)
 - [[2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers]] - We Vetted 2,000 AI Skills Before They Reached Developers (2026-07-01, 1:55pm-2:15pm)
 - [[2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations]] - Simulation-Maxxing: How Nubank ships agents 20× faster with simulations (2026-07-01, 2:50pm-3:10pm)
 
+## Origin And Context
+The official speaker roster connects Nubank to Aman Gupta, Lucas Palma. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Somos incansáveis pra você não precisar ser / Nubank](https://nubank.com.br/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

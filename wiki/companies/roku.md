@@ -2,15 +2,17 @@
 title: "Roku"
 category: "companies"
 aliases: ["Roku"]
-sourceLabels: ["Official speaker roster", "Official conference schedule"]
+website: "https://www.roku.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
+
 # Roku
 
 ## What It Is
-No public company profile has been added yet. This page is grounded in the official speaker roster and schedule context until a relevant company site, product page, or public profile is reviewed.
+Roku is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Roku provides the simplest way to stream entertainment to your TV. On your terms. With thousands of available channels to choose from.
 
 ## Why It Matters At World's Fair
-Roku appears through 1 official speaker(s) connected to 1 scheduled session(s). Those sessions make the organization relevant to the conference knowledge graph around: Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots.
+Roku matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots.
 
 ## Related People
 - [[amit-desai]] - Director, Voice & Assistant AI
@@ -18,8 +20,15 @@ Roku appears through 1 official speaker(s) connected to 1 scheduled session(s). 
 ## Related Scheduled Sessions
 - [[2026-06-29-amit-desai-act-confirm-or-stop-smarter-behavior-for-ai-assistants-wearables-and-robots]] - Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots (2026-06-29, 3:45pm-4:05pm)
 
+## Origin And Context
+The official speaker roster connects Roku to Amit Desai. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
 ## Public Sources
-- No public company/profile source links have been added yet.
+- [Roku](https://www.roku.com/)
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
