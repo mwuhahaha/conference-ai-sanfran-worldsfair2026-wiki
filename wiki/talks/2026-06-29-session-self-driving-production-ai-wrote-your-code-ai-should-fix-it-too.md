@@ -36,9 +36,6 @@ No official session recording transcript was found by exact title match on the A
 
 ## People
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
-
 ## External Secondary Source Candidates
 These videos were discovered outside the official AI Engineer channel and matched by the external-video discovery tool. Treat them as secondary sources only until manually verified against the official event recording.
 

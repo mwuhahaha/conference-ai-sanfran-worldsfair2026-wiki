@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Think like an SRE: Accuracy gives way to Reliabi\nAccuracy\nTask Success\nTool Success\nPlanning Quality\nLatency\nCost\nSafety\nHuman Satisfaction\nSystem Reliability",
+  "text_status": "meaningful",
+  "layout": {
+    "background": "light beige/white",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Think like an SRE: Accuracy gives way to Reliabi",
+        "x": 5.0,
+        "y": 1.0,
+        "w": 86.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Accuracy",
+        "x": 6.0,
+        "y": 63.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Task Success",
+        "x": 57.0,
+        "y": 11.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tool Success",
+        "x": 81.0,
+        "y": 25.0,
+        "w": 13.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Planning Quality",
+        "x": 82.0,
+        "y": 49.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Latency",
+        "x": 74.0,
+        "y": 77.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Cost",
+        "x": 54.0,
+        "y": 83.0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Safety",
+        "x": 35.0,
+        "y": 56.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Human Satisfaction",
+        "x": 25.0,
+        "y": 27.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System Reliability",
+        "x": 48.0,
+        "y": 43.0,
+        "w": 18.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-007.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783646809.885999
+}

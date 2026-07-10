@@ -1,0 +1,50 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "AI agents are distributed systems.\nTreat them accordingly.\n\nCORE TAKEAWAYS\nReliability is no longer a model problem—it is an infrastructure.\nMultidimensional observability is mandatory, not optional.\nAgent control planes are the required runtime layer for production AI.\n\nThe future of AI won’t be won by better prompts.\nIt will be won by better systems.",
+  "text_status": "meaningful",
+  "layout": {
+    "background": "light beige/white with navy frame",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "AI agents are distributed systems.\nTreat them accordingly.",
+        "x": 4.0,
+        "y": 3.0,
+        "w": 53.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "CORE TAKEAWAYS",
+        "x": 37.0,
+        "y": 25.0,
+        "w": 18.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Reliability is no longer a model problem—it is an infrastructure.\nMultidimensional observability is mandatory, not optional.\nAgent control planes are the required runtime layer for production AI.",
+        "x": 39.0,
+        "y": 31.0,
+        "w": 30.0,
+        "h": 37.0
+      },
+      {
+        "role": "quote",
+        "text": "The future of AI won’t be won by better prompts.\nIt will be won by better systems.",
+        "x": 77.0,
+        "y": 10.0,
+        "w": 20.0,
+        "h": 56.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-014.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783647091.56841
+}

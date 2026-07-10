@@ -38,8 +38,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[mike-krieger]]
 - [[swyx]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-5N33E9tC400-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -85,6 +83,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/I2cbIws9j10/slide-003.jpg]]
 - Additional slide evidence: [[youtube-I2cbIws9j10-slides|Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]]
 - Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

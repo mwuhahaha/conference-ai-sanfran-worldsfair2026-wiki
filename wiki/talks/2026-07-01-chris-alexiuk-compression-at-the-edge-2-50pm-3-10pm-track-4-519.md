@@ -41,8 +41,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[merve-noyan]]
 - [[parth-sareen]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-OV56RddyFuU-dense-slides]] (20 viable slide images).
 - Related slide/OCR pages:

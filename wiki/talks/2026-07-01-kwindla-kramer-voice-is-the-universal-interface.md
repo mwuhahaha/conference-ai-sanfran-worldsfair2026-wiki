@@ -38,8 +38,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[kwindla-kramer]]
 - [[neil-zeghidour]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-P_RI1kCkRbo-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence

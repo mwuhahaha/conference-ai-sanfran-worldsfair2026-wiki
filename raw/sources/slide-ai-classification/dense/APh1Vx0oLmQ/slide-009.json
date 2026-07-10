@@ -1,0 +1,98 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Shared memory coordinates\nchaotic multi-agent consistency\n\nShared Memory Architecture\nState Store\nAgent A\nAgent B\nAgent C\nContext drift\nStale memory\nConflicting facts",
+  "text_status": "meaningful",
+  "layout": {
+    "background": "#f4f2ee with faint gray line-art",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Shared memory coordinates",
+        "x": 4.0,
+        "y": 0,
+        "w": 66.0,
+        "h": 10.0
+      },
+      {
+        "role": "title",
+        "text": "chaotic multi-agent consistency",
+        "x": 4.0,
+        "y": 8.0,
+        "w": 74.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Shared Memory Architecture",
+        "x": 33.0,
+        "y": 22.0,
+        "w": 35.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "State Store",
+        "x": 45.0,
+        "y": 30.0,
+        "w": 14.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent A",
+        "x": 12.0,
+        "y": 34.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent B",
+        "x": 82.0,
+        "y": 34.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Agent C",
+        "x": 83.0,
+        "y": 72.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Context drift",
+        "x": 14.0,
+        "y": 61.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Stale memory",
+        "x": 78.0,
+        "y": 52.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Conflicting facts",
+        "x": 17.0,
+        "y": 78.0,
+        "w": 18.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783646963.2542355
+}

@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[stephen-chin]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-eW_vxrjvERk-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence

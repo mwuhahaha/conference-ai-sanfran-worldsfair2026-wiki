@@ -38,8 +38,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[alex-shaw]]
 - [[ryan-marten]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-liG97YXaTSA-slides]] — extracted from the related public AI Engineer video.
 
@@ -60,6 +58,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/slides/liG97YXaTSA/slide-002.jpg]]
 ![[assets/slides/liG97YXaTSA/slide-003.jpg]]
 - Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, samples, trivia, questions, general, model.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

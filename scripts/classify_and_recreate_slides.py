@@ -32,7 +32,8 @@ Return only compact JSON with this shape:
   "confidence": 0.0,
   "frame_type": "content_slide|title_card|sponsor_logo|speaker_stage|demo_video|blank|other",
   "reject_reason": "",
-  "text": "visible slide text with line breaks",
+  "text": "meaningful exact slide text with line breaks, or empty string",
+  "text_status": "meaningful|none|illegible|decorative|non_slide",
   "layout": {
     "background": "short CSS color or gradient description",
     "style": "minimal|dark|light|code|diagram|product",
@@ -45,7 +46,10 @@ Return only compact JSON with this shape:
 Keep only frames that are clearly actual presentation slides with meaningful content:
 - Keep text-heavy slides, diagrams, code slides, architecture slides, tables, and product/UI screenshots when they are being used as slide content.
 - Reject people standing on stage, sponsor/logo walls, "starting soon", speaker intro cards, blank frames, camera shots of an audience, and demo/video footage that is not a readable slide.
-- Do not invent text. Use only visible text. For a diagram with little text, preserve visible labels and describe the visual structure briefly in block text.
+- Do not invent text and do not translate text. Preserve exact visible language only.
+- The Existing OCR is advisory only. Ignore it when it is garbled, unrelated, not visible in the image, or produced from logos/background/noise.
+- If the frame has no meaningful slide text, set text to "" and text_status to "none", "decorative", "illegible", or "non_slide"; do not copy OCR filler.
+- For a diagram with little text, preserve visible labels exactly. Describe visual structure only in layout block text when it is needed to recreate the slide, not as transcript/OCR text.
 - Coordinates are percentages from 0 to 100 and should approximate the recreated slide layout.
 
 Existing OCR:
@@ -101,6 +105,7 @@ def parse_json(text: str) -> dict:
         "frame_type": str(data.get("frame_type") or "other"),
         "reject_reason": str(data.get("reject_reason") or "").strip(),
         "text": str(data.get("text") or "").strip(),
+        "text_status": str(data.get("text_status") or ("meaningful" if data.get("text") else "none"))[:40],
         "layout": {
             "background": str(layout.get("background") or "#ffffff")[:160],
             "style": str(layout.get("style") or "light")[:40],
@@ -302,9 +307,12 @@ def refresh_page(video_id: str, accepted: list[dict], rejected: list[dict], args
         recreate_rel = Path(item["recreation"]).relative_to(WIKI).as_posix()
         lines.append(f"- Recreated text/layout view: [open HTML recreation](/{recreate_rel})")
         lines.append(f"- AI slide classifier: `{item['frame_type']}` confidence `{item['confidence']}`")
-        text = item.get("text") or read_text(ocr_path(video_id, slide, args))
-        if text:
+        text = item.get("text") or ""
+        text_status = item.get("text_status") or ("meaningful" if text else "none")
+        if text and text_status == "meaningful":
             lines.extend(["", "Slide text:", "", "> " + text.strip().replace("\n", "\n> "), ""])
+        elif text_status and text_status != "meaningful":
+            lines.append(f"- Slide text: not surfaced (`{text_status}` by AI classifier).")
     if rejected:
         lines.extend(["", "### Hidden Non-Slide Evidence"])
         for item in rejected:

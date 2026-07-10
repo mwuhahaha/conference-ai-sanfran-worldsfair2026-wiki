@@ -39,8 +39,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[samridhi-vaid]]
 - [[omar-solano]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-ZRM_TfEZcIo-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -87,6 +85,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/ZRM_TfEZcIo/slide-004.jpg]]
 - Additional slide evidence: [[youtube-ZRM_TfEZcIo-slides|Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]], [[youtube-ZRM_TfEZcIo-reconstructed-slides|Reconstructed Slides: Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI]]
 - Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, plus, notion, google, drive, growing, files, month.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

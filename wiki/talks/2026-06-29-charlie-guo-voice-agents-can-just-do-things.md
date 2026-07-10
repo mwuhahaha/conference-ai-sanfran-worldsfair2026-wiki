@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[charlie-guo]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-dvft0Gp9sEE-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -70,6 +68,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/dvft0Gp9sEE/slide-002.jpg]]
 - Additional slide evidence: [[youtube-dvft0Gp9sEE-slides|Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]], [[youtube-dvft0Gp9sEE-reconstructed-slides|Reconstructed Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]]
 - Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

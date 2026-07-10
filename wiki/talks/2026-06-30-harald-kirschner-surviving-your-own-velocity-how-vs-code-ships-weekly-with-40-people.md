@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[harald-kirschner]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-eOxOzcw70f0-dense-slides]] (1 viable slide images).
 - Related slide/OCR pages:

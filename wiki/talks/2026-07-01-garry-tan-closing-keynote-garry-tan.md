@@ -37,8 +37,6 @@ No official session recording transcript was found by exact title match on the A
 ## People
 - [[garry-tan]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Livestream Segment
 - [Watch in livestream at 07:57:20](https://www.youtube.com/watch?v=I2cbIws9j10&t=28640s) — WF26: Harness Engineering & Startup Battlefield (Day 3).
 - Match basis: speaker and title; timed captions matched Garry Tan, garry.
@@ -66,6 +64,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/I2cbIws9j10/slide-003.jpg]]
 - Additional slide evidence: [[youtube-I2cbIws9j10-slides|Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]]
 - Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

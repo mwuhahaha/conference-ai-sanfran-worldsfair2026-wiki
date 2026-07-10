@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[alex-volkov]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-Lcqat4iP_lE-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence

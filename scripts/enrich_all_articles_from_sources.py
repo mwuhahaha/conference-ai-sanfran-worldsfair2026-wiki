@@ -105,6 +105,24 @@ def remove_section(markdown: str, heading: str) -> str:
     return fm + content.lstrip()
 
 
+def remove_pending_transcript_note(markdown: str) -> str:
+    """Drop the original schedule-only placeholder once richer evidence exists."""
+    fm, content, _fields = split_frontmatter(markdown)
+    pattern = re.compile(r"^## Notes\n(.*?)(?=^## |\Z)", re.M | re.S)
+    match = pattern.search(content)
+    if not match:
+        return markdown
+    lines = [
+        line
+        for line in match.group(1).splitlines()
+        if "Pending transcript synthesis when an official recording or confirmed matching video is available." not in line
+    ]
+    body = "\n".join(line for line in lines if line.strip()).strip()
+    replacement = f"## Notes\n{body}\n" if body else ""
+    content = pattern.sub(replacement, content).rstrip() + "\n"
+    return fm + content.lstrip()
+
+
 def video_ids(text: str) -> list[str]:
     ids = set(re.findall(r"(?:watch\?v=|youtu\.be/)([A-Za-z0-9_-]{11})", text))
     ids.update(re.findall(r"youtube-([A-Za-z0-9_-]{11})(?=[\]\)\s/#-]|$)", text))
@@ -413,8 +431,9 @@ def render_evidence_section(video_ids_: list[str], *, include_title: bool = True
 def enrich_talk(path: Path) -> bool:
     text = read(path)
     ids = video_ids(text)
+    new_text = remove_pending_transcript_note(text) if ids else text
     slides_section = render_talk_slides_section(ids)
-    new_text = upsert_section(text, "Slides", slides_section) if slides_section else remove_section(text, "Slides")
+    new_text = upsert_section(new_text, "Slides", slides_section) if slides_section else remove_section(new_text, "Slides")
     section = [
         "This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.",
         "",

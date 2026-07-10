@@ -37,8 +37,6 @@ No official session recording transcript was found by exact title match on the A
 ## People
 - [[pablo-castro]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Livestream Segment
 - [Watch in livestream at 00:10:28](https://www.youtube.com/watch?v=htM02KMNZnk&t=628s) — WF2026: Software Factories & Keynotes (Day 1).
 - Match basis: speaker and title; timed captions matched Pablo Castro, knowledge.

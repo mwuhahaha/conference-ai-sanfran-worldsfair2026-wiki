@@ -38,8 +38,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[tisha-chawla]]
 - [[susheem-koul]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-Lc8zRh9muoY-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -68,6 +66,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/Lc8zRh9muoY/slide-003.jpg]]
 - Additional slide evidence: [[youtube-Lc8zRh9muoY-slides|Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]], [[youtube-Lc8zRh9muoY-reconstructed-slides|Reconstructed Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]]
 - Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, identical, determinism, never, failed, luck, reproducing.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

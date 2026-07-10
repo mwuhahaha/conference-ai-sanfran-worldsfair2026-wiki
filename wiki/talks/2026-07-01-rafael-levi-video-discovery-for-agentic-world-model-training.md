@@ -37,9 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[rafael-levi]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
-
 ## Source-Derived Enrichment
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 

@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[patrick-debois]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-bSG9wUYaHWU-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -65,6 +63,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/bSG9wUYaHWU/slide-001.jpg]]
 - Additional slide evidence: [[youtube-bSG9wUYaHWU-slides|Slides: Context Is the New Code — Patrick Debois, Tessl]], [[youtube-bSG9wUYaHWU-reconstructed-slides|Reconstructed Slides: Context Is the New Code — Patrick Debois, Tessl]]
 - Slide-derived themes for `youtube-bSG9wUYaHWU`: code, context, fetch, retries, user, retry, write, function.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

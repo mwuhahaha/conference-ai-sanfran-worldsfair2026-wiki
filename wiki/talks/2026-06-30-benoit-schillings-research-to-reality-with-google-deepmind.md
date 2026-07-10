@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[benoit-schillings]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-G_bHFmEAarM-dense-slides]] (5 viable slide images).
 - Related slide/OCR pages:

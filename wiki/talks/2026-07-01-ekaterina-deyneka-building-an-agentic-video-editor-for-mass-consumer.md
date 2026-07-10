@@ -42,9 +42,6 @@ No official session recording transcript was found by exact title match on the A
 ## People
 - [[ekaterina-deyneka]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
-
 ## External Secondary Source Candidates
 These videos were discovered outside the official AI Engineer channel and matched by the external-video discovery tool. Treat them as secondary sources only until manually verified against the official event recording.
 
@@ -98,6 +95,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ## Slides
 - Source video: `youtube-AheG9p_JXVw`
 - Slide deck: [[youtube-AheG9p_JXVw-slides|Slides: AI Engineer World's Fair: Building Reelful - Agentic Video Editor]] — no readable content slides after AI classification.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

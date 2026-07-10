@@ -46,8 +46,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[abhishek-bhardwaj]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-wsFd22SL1s8-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -76,6 +74,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/wsFd22SL1s8/slide-003.jpg]]
 - Additional slide evidence: [[youtube-wsFd22SL1s8-slides|Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI]], [[youtube-wsFd22SL1s8-reconstructed-slides|Reconstructed Slides: Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI]]
 - Slide-derived themes for `youtube-wsFd22SL1s8`: clone, flask, project, code, create, scratch, systems, chat.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

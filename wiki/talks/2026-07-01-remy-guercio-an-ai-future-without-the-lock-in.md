@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[remy-guercio]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-BM2JX9hqsVQ-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -65,6 +63,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/BM2JX9hqsVQ/slide-001.jpg]]
 - Additional slide evidence: [[youtube-BM2JX9hqsVQ-slides|Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]], [[youtube-BM2JX9hqsVQ-reconstructed-slides|Reconstructed Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]]
 - Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future, sandbox, permissions, typically, managed, identity, provider.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

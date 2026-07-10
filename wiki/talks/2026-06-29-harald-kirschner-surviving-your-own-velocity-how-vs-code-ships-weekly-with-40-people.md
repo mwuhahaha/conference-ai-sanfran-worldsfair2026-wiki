@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[harald-kirschner]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-eOxOzcw70f0-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence

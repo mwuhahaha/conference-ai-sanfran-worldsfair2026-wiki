@@ -1,0 +1,138 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.94,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Voices\nFilter by category\nIndian Girl Accent\nRobot\nThe Narrator\nGalen\nAnime Assistant Creative Family Fantasy Gaming History Human Humor Learning Lifestyle Mafia Powerful\nEPIC - Hermes\nEPIC - Odysseus\nTelemachus\nOdysseus\nTry saying\nCharacter Assistant\nWhoWouldWin\nElon Musk\nWhat type of fish is Dory from Finding Nemo?\nCreate an ad campaign for a new video game\nDecide between the MacBook Air and MacBook Pro\nBatman vs. Superman\nKnight vs. Samurai\nLebron James vs. Michael Jordan\nWhy did you buy Twitter?",
+  "text_status": "meaningful",
+  "layout": {
+    "background": "#f3f3f3",
+    "style": "product",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Voices",
+        "x": 35.0,
+        "y": 3.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Filter by category",
+        "x": 14.0,
+        "y": 19.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Indian Girl Accent",
+        "x": 20.0,
+        "y": 8.0,
+        "w": 13.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Robot",
+        "x": 39.0,
+        "y": 8.0,
+        "w": 8.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "The Narrator",
+        "x": 58.0,
+        "y": 8.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Galen",
+        "x": 79.0,
+        "y": 8.0,
+        "w": 7.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "Anime Assistant Creative Family Fantasy Gaming History Human Humor Learning Lifestyle Mafia Powerful",
+        "x": 14.0,
+        "y": 18.0,
+        "w": 78.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "EPIC - Hermes",
+        "x": 17.0,
+        "y": 26.0,
+        "w": 11.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "EPIC - Odysseus",
+        "x": 33.0,
+        "y": 26.0,
+        "w": 13.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Telemachus",
+        "x": 51.0,
+        "y": 26.0,
+        "w": 10.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Odysseus",
+        "x": 72.0,
+        "y": 26.0,
+        "w": 9.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Try saying",
+        "x": 14.0,
+        "y": 44.0,
+        "w": 10.0,
+        "h": 4.0
+      },
+      {
+        "role": "body",
+        "text": "Character Assistant\nWhat type of fish is Dory from Finding Nemo?\nCreate an ad campaign for a new video game\nDecide between the MacBook Air and MacBook Pro",
+        "x": 14.0,
+        "y": 50.0,
+        "w": 29.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "WhoWouldWin\nBatman vs. Superman\nKnight vs. Samurai\nLebron James vs. Michael Jordan",
+        "x": 44.0,
+        "y": 50.0,
+        "w": 24.0,
+        "h": 25.0
+      },
+      {
+        "role": "body",
+        "text": "Elon Musk\nWhy did you buy Twitter?",
+        "x": 70.0,
+        "y": 50.0,
+        "w": 22.0,
+        "h": 22.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-012.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783646974.8875341
+}

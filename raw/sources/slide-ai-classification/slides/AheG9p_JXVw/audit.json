@@ -3,7 +3,7 @@
   "deck_kind": "slides",
   "model": "gpt-5.4-mini",
   "min_confidence": 0.72,
-  "hide_rejected": true,
+  "hide_rejected": false,
   "evidence_retained": true,
   "accepted_count": 0,
   "rejected_count": 4,

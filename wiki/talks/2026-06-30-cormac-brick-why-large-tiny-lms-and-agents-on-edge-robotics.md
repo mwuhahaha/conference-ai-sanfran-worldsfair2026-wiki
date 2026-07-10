@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[cormac-brick]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube--TiET_K-E_g-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence

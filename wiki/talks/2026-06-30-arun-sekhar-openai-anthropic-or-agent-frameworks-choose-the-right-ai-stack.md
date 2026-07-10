@@ -38,8 +38,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[arun-sekhar]]
 - [[pamela-fox]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-1t-9-s1brcg-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence

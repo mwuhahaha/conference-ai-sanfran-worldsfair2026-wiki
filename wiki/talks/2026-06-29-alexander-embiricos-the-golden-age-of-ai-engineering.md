@@ -48,8 +48,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[alexander-embiricos]]
 - [[romain-huet]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-yJHw33cVeHo-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence

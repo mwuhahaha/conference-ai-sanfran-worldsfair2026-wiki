@@ -44,8 +44,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[abhishek-bhardwaj]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-wsFd22SL1s8-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence

@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Anatomy Of Agentic Failure\n\nApex: Coordination\n(Multi-agent conflicts)\n\nTool Usage\n(Wrong API execution)\n\nPlanning\n(Bad task decomposition)\n\nReasoning\n(Wrong decisions)\n\nFoundation:\nMemory (Incorrect retrieval)\n& Safety (Unsafe actions)",
+  "text_status": "meaningful",
+  "layout": {
+    "background": "#f4f0e8",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Anatomy Of Agentic Failure",
+        "x": 3.0,
+        "y": 0,
+        "w": 64.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram",
+        "text": "",
+        "x": 24.0,
+        "y": 11.0,
+        "w": 48.0,
+        "h": 72.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Apex: Coordination\n(Multi-agent conflicts)",
+        "x": 75.0,
+        "y": 10.0,
+        "w": 22.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tool Usage\n(Wrong API execution)",
+        "x": 74.0,
+        "y": 30.0,
+        "w": 22.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Planning\n(Bad task decomposition)",
+        "x": 74.0,
+        "y": 48.0,
+        "w": 23.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Reasoning\n(Wrong decisions)",
+        "x": 74.0,
+        "y": 66.0,
+        "w": 21.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Foundation:\nMemory (Incorrect retrieval)\n& Safety (Unsafe actions)",
+        "x": 70.0,
+        "y": 84.0,
+        "w": 28.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-009.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783646843.4135935
+}

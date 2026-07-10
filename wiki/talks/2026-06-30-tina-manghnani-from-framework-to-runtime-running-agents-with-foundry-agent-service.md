@@ -38,8 +38,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[tina-manghnani]]
 - [[keiji-kanazawa]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-JhJKgRAmfIU-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -68,6 +66,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/JhJKgRAmfIU/slide-003.jpg]]
 - Additional slide evidence: [[youtube-JhJKgRAmfIU-slides|Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]], [[youtube-JhJKgRAmfIU-reconstructed-slides|Reconstructed Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]]
 - Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

@@ -38,8 +38,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[daniel-kim]]
 - [[michelle-nguyen]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-tzRvcTEapzo-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -68,6 +66,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/tzRvcTEapzo/slide-003.jpg]]
 - Additional slide evidence: [[youtube-tzRvcTEapzo-slides|Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]], [[youtube-tzRvcTEapzo-reconstructed-slides|Reconstructed Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]]
 - Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

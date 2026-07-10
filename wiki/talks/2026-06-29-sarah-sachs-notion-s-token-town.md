@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[sarah-sachs]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-6YdPI9YbjbI-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence

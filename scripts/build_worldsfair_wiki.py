@@ -291,7 +291,8 @@ def main() -> int:
         ]
         for speaker in session.get("speakers", []):
             body.append(f"- [[{slugify(speaker)}]]")
-        body.extend(["", "## Notes", "- Pending transcript synthesis when an official recording or confirmed matching video is available."])
+        if not video:
+            body.extend(["", "## Notes", "- Pending transcript synthesis when an official recording or confirmed matching video is available."])
         path = ROOT / "wiki" / "talks" / f"{slug}.md"
         write(path, "\n".join(body))
         talk_paths.append(path)

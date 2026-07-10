@@ -39,8 +39,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[matt-linderman]]
 - [[prakhar-dixit]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-SZStlIhyTCY-slides]] — extracted from the related public AI Engineer video.
 

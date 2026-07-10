@@ -49,7 +49,7 @@ Slide text:
 Slide text:
 
 > My OS didn't start from zero
->
+> 
 > - Years of notes — every video and course I've made, all moved into Obsidian
 > - Meeting recaps I save after every call -> Obsidian
 > - Highlights from posts, tweets, and articles -> Obsidian
@@ -87,7 +87,7 @@ Slide text:
 
 > Forget the infrastructure you think
 > you need
->
+> 
 > No vector database. No knowledge graph.
 > No semantic search. No text search.
 

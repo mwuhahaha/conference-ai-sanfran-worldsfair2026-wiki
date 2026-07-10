@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Human oversight is an escalation path,\nnot an operational bottleneck.\n\nWorkflow Routing Diagram\n\nDecision Gate\nRisk / Confidence Check\n\nEdge Case Routing\n\nHuman Approval Node\nManual Review Required\n\nApproved State / Resolution\n\n[ANALYSIS: ESCALATION PATHWAYS]",
+  "text_status": "meaningful",
+  "layout": {
+    "background": "off-white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Human oversight is an escalation path,\nnot an operational bottleneck.",
+        "x": 5.0,
+        "y": 0,
+        "w": 62.0,
+        "h": 12.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Workflow Routing Diagram",
+        "x": 5.0,
+        "y": 15.0,
+        "w": 25.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Decision Gate",
+        "x": 42.0,
+        "y": 23.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Risk / Confidence Check",
+        "x": 41.0,
+        "y": 28.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Automated Agent Tasks",
+        "x": 15.0,
+        "y": 35.0,
+        "w": 20.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Automated Agent Tasks",
+        "x": 64.0,
+        "y": 35.0,
+        "w": 20.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Edge Case Routing",
+        "x": 47.0,
+        "y": 59.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Human Approval Node",
+        "x": 47.0,
+        "y": 73.0,
+        "w": 18.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "Manual Review Required",
+        "x": 47.0,
+        "y": 79.0,
+        "w": 17.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Approved State / Resolution",
+        "x": 76.0,
+        "y": 61.0,
+        "w": 19.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "[ANALYSIS: ESCALATION PATHWAYS]",
+        "x": 5.0,
+        "y": 92.0,
+        "w": 30.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783646983.9447243
+}

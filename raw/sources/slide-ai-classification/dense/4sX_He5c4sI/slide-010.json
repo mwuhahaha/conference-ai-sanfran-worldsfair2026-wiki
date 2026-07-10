@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Evaluation is an\nalways-running\nservice, not a\ntesting phase.\n\nOnline Telemetry\ndetects drift/errors\n\nTriggers HITL review\nfor edge cases\n\nHuman feedback feeds\ninto Offline Datasets\n\nOffline Scenario Evals\nvalidate system updates\nbefore pushing back to\nProduction",
+  "text_status": "meaningful",
+  "layout": {
+    "background": "#f4f1e8 with faint grid",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "body",
+        "text": "Evaluation is an\nalways-running\nservice, not a\ntesting phase.",
+        "x": 33.0,
+        "y": 28.0,
+        "w": 34.0,
+        "h": 34.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "A",
+        "x": 48.0,
+        "y": 3.0,
+        "w": 6.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "B",
+        "x": 68.0,
+        "y": 45.0,
+        "w": 6.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "C",
+        "x": 48.0,
+        "y": 83.0,
+        "w": 6.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "D",
+        "x": 27.0,
+        "y": 45.0,
+        "w": 6.0,
+        "h": 9.0
+      },
+      {
+        "role": "caption",
+        "text": "Online Telemetry\ndetects drift/errors",
+        "x": 65.0,
+        "y": 4.0,
+        "w": 22.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Triggers HITL review\nfor edge cases",
+        "x": 76.0,
+        "y": 41.0,
+        "w": 19.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "Human feedback feeds\ninto Offline Datasets",
+        "x": 64.0,
+        "y": 87.0,
+        "w": 23.0,
+        "h": 11.0
+      },
+      {
+        "role": "caption",
+        "text": "Offline Scenario Evals\nvalidate system updates\nbefore pushing back to\nProduction",
+        "x": 4.0,
+        "y": 43.0,
+        "w": 24.0,
+        "h": 15.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-010.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783646868.5792518
+}

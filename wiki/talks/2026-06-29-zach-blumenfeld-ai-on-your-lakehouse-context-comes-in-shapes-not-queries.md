@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[zach-blumenfeld]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-B9h9ovW5H9U-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -69,6 +67,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/B9h9ovW5H9U/slide-001.jpg]]
 - Additional slide evidence: [[youtube-B9h9ovW5H9U-slides|Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]], [[youtube-B9h9ovW5H9U-reconstructed-slides|Reconstructed Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]]
 - Slide-derived themes for `youtube-B9h9ovW5H9U`: context, graphs, information, required, accurate, answer, graph, started.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

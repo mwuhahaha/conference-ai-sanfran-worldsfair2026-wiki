@@ -37,8 +37,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 ## People
 - [[vivek-muppalla]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-u3NofYYstaY-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence
@@ -65,6 +63,5 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/u3NofYYstaY/slide-001.jpg]]
 - Additional slide evidence: [[youtube-u3NofYYstaY-slides|Slides: Cohere for VPs of AI: Vivek Muppalla]], [[youtube-u3NofYYstaY-reconstructed-slides|Reconstructed Slides: Cohere for VPs of AI: Vivek Muppalla]]
 - Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
-
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

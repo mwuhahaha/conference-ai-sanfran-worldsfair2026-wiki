@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Competitive advantage has shifted from\nprompt engineering to systems engineering.\nTHE PARADIGM SHIFT\nPROMPTS\nMODELS\nINFRASTRUCTURE\nCompound Growth Trajectory\nCommoditization Plateau\n2023\n2024\n2025+",
+  "text_status": "meaningful",
+  "layout": {
+    "background": "light gray-white with faint grid",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Competitive advantage has shifted from\nprompt engineering to systems engineering.",
+        "x": 3.0,
+        "y": 1.0,
+        "w": 88.0,
+        "h": 13.0
+      },
+      {
+        "role": "subtitle",
+        "text": "THE PARADIGM SHIFT",
+        "x": 4.0,
+        "y": 19.0,
+        "w": 20.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "PROMPTS",
+        "x": 22.0,
+        "y": 31.0,
+        "w": 14.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MODELS",
+        "x": 39.0,
+        "y": 47.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "INFRASTRUCTURE",
+        "x": 67.0,
+        "y": 66.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Compound Growth Trajectory",
+        "x": 76.0,
+        "y": 34.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Commoditization Plateau",
+        "x": 57.0,
+        "y": 46.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Commoditization Plateau",
+        "x": 84.0,
+        "y": 56.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "caption",
+        "text": "2023",
+        "x": 4.0,
+        "y": 93.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "2024",
+        "x": 38.0,
+        "y": 93.0,
+        "w": 6.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "2025+",
+        "x": 73.0,
+        "y": 93.0,
+        "w": 7.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/APh1Vx0oLmQ/slide-013.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783647055.8659437
+}

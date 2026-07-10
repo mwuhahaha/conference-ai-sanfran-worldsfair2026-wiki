@@ -40,8 +40,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[tanay-varshney]]
 - [[alex-atallah]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-84Vtz2IL1Ug-dense-slides]] (3 viable slide images).
 - Related slide/OCR pages:

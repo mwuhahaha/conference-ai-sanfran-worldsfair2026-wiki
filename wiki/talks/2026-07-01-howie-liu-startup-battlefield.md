@@ -48,8 +48,6 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[joshua-xu]]
 - [[swyx]]
 
-## Notes
-- Pending transcript synthesis when an official recording or confirmed matching video is available.
 ## Supporting Slides
 - [[youtube-zepu8Kk6FBQ-slides]] — extracted from the related public AI Engineer video.
 ## Slide Evidence

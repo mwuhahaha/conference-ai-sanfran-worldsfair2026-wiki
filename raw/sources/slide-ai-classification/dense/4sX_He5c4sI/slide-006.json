@@ -1,0 +1,42 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Production Evals\nfor Agentic Systems\n\nMeasuring reliability beyond\naccuracy. Building evaluation systems\nfor autonomous AI workflows.\n\nNishant Gupta\nTech Lead @ Meta",
+  "text_status": "meaningful",
+  "layout": {
+    "background": "#f4f1e8",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Production Evals\nfor Agentic Systems",
+        "x": 9.0,
+        "y": 14.0,
+        "w": 43.0,
+        "h": 26.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Measuring reliability beyond\naccuracy. Building evaluation systems\nfor autonomous AI workflows.",
+        "x": 10.0,
+        "y": 43.0,
+        "w": 38.0,
+        "h": 18.0
+      },
+      {
+        "role": "caption",
+        "text": "Nishant Gupta\nTech Lead @ Meta",
+        "x": 2.0,
+        "y": 88.0,
+        "w": 24.0,
+        "h": 11.0
+      }
+    ]
+  },
+  "image": "wiki/assets/dense-slides/4sX_He5c4sI/slide-006.jpg",
+  "deck_kind": "dense",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783646795.021687
+}
