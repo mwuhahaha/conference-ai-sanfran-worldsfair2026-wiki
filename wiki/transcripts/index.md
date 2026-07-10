@@ -65,7 +65,7 @@ These pages expose cached YouTube and livestream transcripts as linkable wiki ma
 - [[youtube-BqZrTdgBaPw-transcript|Transcript: Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG]]
 - [[youtube-zMiSRliEzv4-transcript|Transcript: Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog]]
 - [[youtube-Xfl50508LZM-transcript|Transcript: Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize]]
-- [[youtube-qlHaO6laBlM-transcript|Transcript: Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)]]
+- [[youtube-qlHaO6laBlM-transcript|Transcript: Shipping Production AI Inside Government — William Tarr, Ministry of Justice]]
 - [[youtube-SS-A8sE7hkw-transcript|Transcript: Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind]]
 - [[youtube-TNwJ1LMiENk-transcript|Transcript: Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel]]
 - [[youtube-ij-AU9dpJjc-transcript|Transcript: Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co]]

@@ -1,5 +1,5 @@
 ---
-title: "Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)"
+title: "Shipping Production AI Inside Government — William Tarr, Ministry of Justice"
 category: "resources"
 sourceLabels: ["Public YouTube metadata", "YouTube transcript", "Public YouTube video frames", "Public speaker/profile sources", "Highlight synthesis"]
 videoId: "qlHaO6laBlM"
@@ -7,7 +7,7 @@ highlighted: "true"
 highlightPriority: "critical"
 last_enriched: "2026-07-09T01:18:27.276554+00:00"
 ---
-# Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)
+# Shipping Production AI Inside Government — William Tarr, Ministry of Justice
 
 ## What It Is
 An official AI Engineer YouTube cut video for AI Engineer World's Fair San Francisco 2026. This is an event video source for the wiki, while the official schedule remains the canonical schedule source.
@@ -82,7 +82,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/qlHaO6la
 - [Louis Allgood LinkedIn](https://uk.linkedin.com/in/louis-allgood)
 
 ## Evidence Boundary
-The official source video, cached transcript, slide OCR, and public profile/company pages support the article. The YouTube title includes "DO NOT PUBLISH"; no additional private publication status is inferred from that phrase. Transcript text is machine-derived and repetitive, and slide OCR is best-effort.
+The official source video, cached transcript, slide OCR, and public profile/company pages support the article. Transcript text is machine-derived and repetitive, and slide OCR is best-effort.
 
 ## Transcript Markdown
 - [[youtube-qlHaO6laBlM-transcript]] — full cached transcript markdown.

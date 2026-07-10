@@ -23,5 +23,5 @@ sourceLabels: ["Highlight registry", "Wiki navigation"]
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
 
 ## Companies And Resources
-- [[youtube-qlHaO6laBlM|Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)]]
+- [[youtube-qlHaO6laBlM|Shipping Production AI Inside Government — William Tarr, Ministry of Justice]]
 - [[ora|ORA]]

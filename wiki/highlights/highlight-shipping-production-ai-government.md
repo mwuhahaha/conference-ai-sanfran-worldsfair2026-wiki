@@ -10,7 +10,7 @@ sourceLabels: ["Highlight registry", "Wiki navigation"]
 # Shipping Production AI Inside Government
 
 ## Page
-- [[youtube-qlHaO6laBlM|Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)]]
+- [[youtube-qlHaO6laBlM|Shipping Production AI Inside Government — William Tarr, Ministry of Justice]]
 
 ## Related Highlight Targets
 - [[william-tarr]]

@@ -26,6 +26,11 @@ def count_pages(category: str) -> int:
     return len(list((WIKI / category).glob("*.md")))
 
 
+def category_index_line(category: str, label: str | None = None) -> str:
+    label = label or category.replace("-", " ").title()
+    return f"- {label} index: https://aie-worldsfair2026.plusrobot.ai/{category}/"
+
+
 def count_slide_pages(kind: str) -> int:
     pages = list((WIKI / "slides").glob("youtube-*.md"))
     if kind == "standard":
@@ -86,9 +91,18 @@ def main() -> int:
         "- People index: https://aie-worldsfair2026.plusrobot.ai/people/",
         "- Companies index: https://aie-worldsfair2026.plusrobot.ai/companies/",
         "- Slides index: https://aie-worldsfair2026.plusrobot.ai/slides/",
+        "- Transcripts index: https://aie-worldsfair2026.plusrobot.ai/transcripts/",
         "- Quotes index: https://aie-worldsfair2026.plusrobot.ai/quotes/",
         "- Tools index: https://aie-worldsfair2026.plusrobot.ai/tools/",
         "- Highlights index: https://aie-worldsfair2026.plusrobot.ai/highlights/",
+        category_index_line("claims", "Claims"),
+        category_index_line("conversations", "Conversations"),
+        category_index_line("patterns", "Patterns"),
+        category_index_line("questions", "Questions"),
+        category_index_line("harnesses", "Harnesses"),
+        category_index_line("playbooks", "Playbooks"),
+        category_index_line("evaluations", "Evaluations"),
+        category_index_line("policies", "Policies"),
         "- Source boundary and evidence confidence: https://aie-worldsfair2026.plusrobot.ai/resources/source-boundary/",
         "",
         "## URL Rules",
@@ -113,9 +127,26 @@ def main() -> int:
         f"- Topics: {count_pages('topics')} synthesis pages across repeated conference themes.",
         f"- Resources: {count_pages('resources')} pages for source maps, YouTube evidence, livestreams, and processing audits.",
         f"- Slides: {count_pages('slides')} slide pages; standard decks: {count_slide_pages('standard')}; reconstructed decks: {count_slide_pages('reconstructed')}; dense decks: {count_slide_pages('dense')}.",
+        f"- Transcripts: {count_pages('transcripts')} transcript markdown pages.",
         f"- Quotes: {count_pages('quotes')} selected quote pages tied back to source videos and topics.",
         f"- Tools: {count_pages('tools')} tool/protocol/entity pages generated from the conference evidence layer.",
+        f"- Claims: {count_pages('claims')} evidence-backed claim pages.",
+        f"- Conversations: {count_pages('conversations')} cross-page conversation maps.",
+        f"- Patterns: {count_pages('patterns')} reusable AI engineering pattern pages.",
+        f"- Questions: {count_pages('questions')} question pages raised by the conference corpus.",
+        f"- Harnesses: {count_pages('harnesses')} evaluation or implementation harness pages.",
+        f"- Playbooks: {count_pages('playbooks')} reusable playbook pages.",
+        f"- Evaluations: {count_pages('evaluations')} evaluation design pages.",
+        f"- Policies: {count_pages('policies')} credibility or evidence-policy pages.",
         f"- Events: {count_pages('events')} day/event overview pages.",
+        "",
+        "## Page Shapes",
+        "- Talk pages answer what happened, who presented, where and when it was scheduled, what the synthesized argument is, which topics/tools/companies connect to it, and what transcript/slide/video evidence backs it.",
+        "- Person pages identify the speaker, role/company, profile links when available, scheduled sessions, related videos, topics, companies, and source-backed context.",
+        "- Company pages explain what the organization does, why it matters in the conference graph, which people and sessions connect to it, and which public company/profile sources support the article.",
+        "- Topic pages synthesize what the topic is, why it matters, how and when to use it, origin/use-case context, related scheduled sessions, people, companies, tools, quotes, slides, transcripts, and resources.",
+        "- Resource, transcript, and slide pages are evidence layers. They should be cited or inspected before turning media-derived material into a confident claim.",
+        "- Claims, patterns, questions, harnesses, playbooks, evaluations, and policies are synthesis layers. Treat them as navigational and analytic pages that point back to talks, transcripts, slides, and resources.",
         "",
         "## Navigation Strategy",
         "- If you know a talk title or speaker, start with `/search/`, `/talks/`, or `/people/`.",
@@ -125,9 +156,10 @@ def main() -> int:
         "- If you need a speaker's context, use the person page, then follow company, scheduled talks, related videos, and social/profile links when present.",
         "- If you need organizational context, use the company page, then follow related people and scheduled talks.",
         "- If you need media evidence, use the talk/video/transcript map and the YouTube resource pages before relying on a transcript or slide page.",
+        "- If you need exact wording, fetch the transcript page under `/md/transcripts/...` and then cross-check the linked YouTube resource page.",
         "- If you need slide evidence, prefer reconstructed slide pages for readable cropped slides, then use dense or full-stage slide pages as supporting views.",
-        "- If you need reusable concepts, use topics and tools pages; they synthesize across multiple talks and resources.",
-        "- If a page is marked highlighted, expect richer synthesis and check `/highlights/` for the operator's reason and maintenance brief.",
+        "- If you need reusable concepts, use topics, tools, claims, patterns, questions, harnesses, playbooks, evaluations, and policies; they synthesize across multiple talks and resources.",
+        "- If a page is marked highlighted, use `/highlights/` as a curated index into especially important concepts, people, talks, and source pages.",
         "- If you need a concise evidence-backed excerpt, use quote pages and then follow their source video, related topic, and scheduled talk links.",
         "",
         "## High-Value Entry Points",
@@ -146,6 +178,14 @@ def main() -> int:
         "- Slide library: https://aie-worldsfair2026.plusrobot.ai/resources/slide-library/",
         "- Reconstructed slide library: https://aie-worldsfair2026.plusrobot.ai/resources/reconstructed-slide-library/",
         "- Dense slide library: https://aie-worldsfair2026.plusrobot.ai/resources/dense-slide-library/",
+        "- Transcript index: https://aie-worldsfair2026.plusrobot.ai/transcripts/",
+        "- Claims index: https://aie-worldsfair2026.plusrobot.ai/claims/",
+        "- Patterns index: https://aie-worldsfair2026.plusrobot.ai/patterns/",
+        "- Questions index: https://aie-worldsfair2026.plusrobot.ai/questions/",
+        "- Harnesses index: https://aie-worldsfair2026.plusrobot.ai/harnesses/",
+        "- Playbooks index: https://aie-worldsfair2026.plusrobot.ai/playbooks/",
+        "- Evaluations index: https://aie-worldsfair2026.plusrobot.ai/evaluations/",
+        "- Policies index: https://aie-worldsfair2026.plusrobot.ai/policies/",
         "- Highlights index: https://aie-worldsfair2026.plusrobot.ai/highlights/",
         "",
         "## Evidence Confidence",
@@ -175,6 +215,8 @@ def main() -> int:
         "- To answer `who is connected to X`: inspect the topic or company page, then follow Related People and Related Scheduled Sessions.",
         "- To answer `which companies are involved`: start with `/companies/`, search the company name, then cross-check people and talks linked from that company page.",
         "- To answer `what evidence supports this`: prefer talk pages and resource pages, then use transcripts, quotes, and slide pages as supporting evidence.",
+        "- To answer `is this official or supporting evidence`: inspect Source Boundary, the page frontmatter/source labels, and the media/source section before relying on the claim.",
+        "- To answer `which markdown should I read`: convert the rendered URL to `/md/<page-id>.md`, or fetch `/agent-index.md` again for routing.",
         "- To answer `where should I browse next`: use the related links at the bottom of the current page; the wiki is intentionally cross-linked across talks, people, companies, topics, tools, quotes, resources, and slides.",
     ]
 

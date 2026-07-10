@@ -2,8 +2,10 @@
   "name": "conference-ai-sanfran-worldsfair2026-wiki",
   "private": true,
   "scripts": {
+    "sanitize": "python3 scripts/sanitize_public_wiki_text.py",
+    "agent-index": "python3 scripts/generate_agent_source_index.py",
     "normalize": "python3 scripts/normalize_article_shapes.py",
     "export": "python3 scripts/export_static_site.py",
-    "build": "npm run normalize && npm run export"
+    "build": "npm run sanitize && npm run agent-index && npm run normalize && npm run export"
   }
 }

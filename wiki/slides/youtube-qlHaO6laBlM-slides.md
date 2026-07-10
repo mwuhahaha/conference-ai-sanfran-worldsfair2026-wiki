@@ -1,14 +1,14 @@
 ---
-title: "Slides: Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)"
+title: "Slides: Shipping Production AI Inside Government — William Tarr, Ministry of Justice"
 category: "slides"
 video_id: "qlHaO6laBlM"
 sourceLabels: ["Public YouTube video frames", "Public YouTube metadata"]
 ---
 
-# Slides: Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)
+# Slides: Shipping Production AI Inside Government — William Tarr, Ministry of Justice
 
 ## Source Video
-[Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)](https://www.youtube.com/watch?v=qlHaO6laBlM)
+[Shipping Production AI Inside Government — William Tarr, Ministry of Justice](https://www.youtube.com/watch?v=qlHaO6laBlM)
 
 ## Relationship To World's Fair 2026
 These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.

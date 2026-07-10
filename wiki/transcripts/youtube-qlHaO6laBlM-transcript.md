@@ -1,12 +1,12 @@
 ---
-title: "Transcript: Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)"
+title: "Transcript: Shipping Production AI Inside Government — William Tarr, Ministry of Justice"
 category: "transcripts"
 videoId: "qlHaO6laBlM"
 sourceLabels: ["YouTube transcript", "Cached transcript markdown"]
 wordCount: "11459"
 ---
 
-# Transcript: Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)
+# Transcript: Shipping Production AI Inside Government — William Tarr, Ministry of Justice
 
 ## Source Video
 - [YouTube](https://www.youtube.com/watch?v=qlHaO6laBlM)
