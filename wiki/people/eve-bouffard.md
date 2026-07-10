@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Eve Bouffard
 
-## Official Role
+## Profile
 Head of Design at [[y-combinator|Y Combinator]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/eve-bouffard)
 - [X / Twitter](https://x.com/eve_bouff)
 - [Website](https://evebouffard.com)
 
-## Official Bio
+## Biography
 Eve is Head of Design at [[y-combinator|Y Combinator]]. She joined YC as the youngest member of the admissions team, where she read more than 25,000 startup applications before teaching herself to code and moving into engineering. These days, she works across design and software, building the products founders use and the internal tools that help YC partners support thousands of startups every year. She believes great design isn't what looks best, but what best achieves a given goal. She's happiest building products that make it easier for founders to take a leap, bet on themselves, and make something people want.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-eve-bouffard-imagination-engineering]] — Imagination Engineering (2026-06-30, 2:25pm-2:45pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-eve-bouffard-imagination-engineering|Imagination Engineering]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

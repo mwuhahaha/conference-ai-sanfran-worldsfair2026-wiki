@@ -8,27 +8,26 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Tina Manghnani
 
-## Official Role
+## Profile
 Product Manager at [[microsoft|Microsoft]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/tina-manghnani)
 
-## Official Bio
+## Biography
 Tina Manghnani is a Product Manager at [[microsoft|Microsoft]] building the Foundry agents platform and developer tooling for hosting and operationalizing pro-code agents in enterprise systems.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service]] — From framework to runtime: running agents with Foundry Agent Service (2026-06-30, 10:45am-11:05am)
 - [[2026-07-01-tina-manghnani-design-multi-agent-systems-that-actually-work]] — Design multi-agent systems that actually work (2026-07-01, 12:05pm-12:25pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service|From framework to runtime: running agents with Foundry Agent Service]]
 - [[2026-07-01-tina-manghnani-design-multi-agent-systems-that-actually-work|Design multi-agent systems that actually work]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-JhJKgRAmfIU` — 2 slide-derived text signals
 - Slide-derived themes for `youtube-JhJKgRAmfIU`: does, handle, loot, bank.
 - Evidence links for `youtube-JhJKgRAmfIU`: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]

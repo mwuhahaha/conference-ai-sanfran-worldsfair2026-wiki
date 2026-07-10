@@ -9,26 +9,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Micah Hill-Smith
 
-## Official Role
+## Profile
 CEO at [[artificial-analysis|Artificial Analysis]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/micahhill-smith/)
 - [X / Twitter](https://x.com/_micah_h)
 
-## Official Bio
+## Biography
 Co-Founder and CEO at [[artificial-analysis|Artificial Analysis]], the leading independent AI benchmarking company. [[artificial-analysis|Artificial Analysis]] publishes benchmarks and analysis across agents, models, inference providers and hardware. [[artificial-analysis|Artificial Analysis]] maintains widely referenced leaderboards and evaluation frameworks that are regularly cited by frontier AI organizations, including OpenAI, Anthropic, Google, NVIDIA and others.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-george-cameron-trends-in-ai]] — Trends in AI (2026-06-30, 4:50pm-5:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-george-cameron-trends-in-ai|Trends in AI]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-sRpqPgKeXNk` — 7 slide-derived text signals
 - Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
 - Evidence links for `youtube-sRpqPgKeXNk`: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]

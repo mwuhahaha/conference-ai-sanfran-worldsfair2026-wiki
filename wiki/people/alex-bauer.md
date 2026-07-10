@@ -13,25 +13,24 @@ last_auto_summarized: '2026-07-06T17:57:35.050Z'
 ---
 # Alex Bauer
 
-## Official Role
+## Profile
 Co-founder at [[upside|Upside]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/alexdbauer/)
 - [X / Twitter](https://x.com/alexdbauer)
 - [Website](https://alexbauer.net/)
 
-## Official Bio
+## Biography
 Alex Bauer is co-founder of [[upside|Upside]], the data layer for GTM engineers. His AI Engineer World's Fair session, "How Juries and Librarians Can Solve GTM's AI Trust Problem," places him in the AI in GTM track and frames his work around the practical trust problem revenue teams face when they point Claude, Cursor, and other AI tools at go-to-market data: the tools can only answer "what actually happened, and did it work?" if the underlying data is clean, normalized, and governed. Before [[upside|Upside]], he spent 2016-2024 at Branch as the public voice of mobile attribution and deep-linking.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem]] — How Juries and Librarians Can Solve GTM's AI Trust Problem (2026-07-01, 1:30pm-1:50pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem|How Juries and Librarians Can Solve GTM's AI Trust Problem]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

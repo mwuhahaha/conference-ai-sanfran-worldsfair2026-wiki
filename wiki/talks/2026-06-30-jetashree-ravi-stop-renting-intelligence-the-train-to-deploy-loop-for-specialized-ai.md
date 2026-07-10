@@ -13,23 +13,31 @@ scheduleLabels: ["Expo Stage 3 SW", "session", "confirmed"]
 ---
 # Stop Renting Intelligence: The Train-to-Deploy Loop for Specialized AI
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-30 · 3:45pm-4:05pm
 - Track/room: track TBD · Expo Stage 3 SW
 - Speaker(s): Jetashree Ravi
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: track TBD
 - Room: Expo Stage 3 SW
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 The next wave of AI products will not rely only on prompting generic frontier models. Winning teams will own specialized models shaped by their product data, user feedback, and domain workflows.In this 18-minute session, we'll cover the practical loop behind model ownership: choose a base model, prepare data, fine-tune with SFT/DPO/RL, evaluate outputs, deploy the tuned model, collect feedback, and repeat. We'll also explain why training and inference should be treated as one system, not separate steps.Attendees will leave with a simple framework for when to tune, when RL matters, and how continuous improvement turns fine-tuning from a one-off project into a product advantage.
 
-## Related YouTube Video
+## Media Evidence
 No related AI Engineer channel video found yet.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
@@ -39,12 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-No linked video, transcript, or slide source has been attached yet.
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -7,25 +7,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Joanne Song
 
-## Official Role
+## Profile
 Role not listed at [[the-new-york-times-games|The New York Times Games]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/joanne-song)
 
-## Official Bio
+## Biography
 No official bio included in the speaker JSON.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-shafik-quoraishee-on-device-agentic-ai-for-the-new-york-times-games]] — On-Device Agentic AI for the New York Times Games (2026-07-01, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-shafik-quoraishee-on-device-agentic-ai-for-the-new-york-times-games|On-Device Agentic AI for the New York Times Games]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-P_uhFGH4J9Y` — 4 slide-derived text signals
 - Slide-derived themes for `youtube-P_uhFGH4J9Y`: york, research, game, developer, times, worked, previously, business.
 - Evidence links for `youtube-P_uhFGH4J9Y`: [[youtube-P_uhFGH4J9Y]], [[youtube-P_uhFGH4J9Y-slides]], [[youtube-P_uhFGH4J9Y-dense-slides]], [[youtube-P_uhFGH4J9Y-reconstructed-slides]]

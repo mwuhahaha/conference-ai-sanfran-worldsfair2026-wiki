@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Nachiket Paranjape
 
-## Official Role
+## Profile
 Software Engineer at [[doordash|DoorDash]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/nachiketparanjape/)
 - [X / Twitter](https://x.com/nmparanjape)
 
-## Official Bio
+## Biography
 Software Engineer at [[doordash|DoorDash]]'s AI Platform Team. Currently leading the AI Evals initiative. Previously Engineering Lead at Galileo AI (acquired by Cisco).
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale]] — AI Evals Platform for Cross-Functional Teams at Scale (2026-06-29, 1:55pm-2:15pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale|AI Evals Platform for Cross-Functional Teams at Scale]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

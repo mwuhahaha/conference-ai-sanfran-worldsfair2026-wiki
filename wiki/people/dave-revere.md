@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Dave Revere
 
-## Official Role
+## Profile
 Staff AI Engineer at [[sondermind|SonderMind]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/daverevere)
 - [X / Twitter](https://x.com/daverevere)
 
-## Official Bio
+## Biography
 Staff AI Engineer at [[sondermind|SonderMind]] specializing in eval and guardrail pipelines for mental health AI. Dave builds the safety infrastructure behind [[sondermind|SonderMind]]'s AI products, including the clinical feedback loop that turns therapist annotations into automated regression tests and the modular guardrails system that evaluates every agent response before it reaches a user. He's passionate about making high-stakes AI systems safe enough to ship fast and rigorous enough to earn clinical trust.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-akele-reed-evals-driven-development-engineering-a-mental-health-ai-coach-ethically-and-safely]] — Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely (2026-06-30, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-akele-reed-evals-driven-development-engineering-a-mental-health-ai-coach-ethically-and-safely|Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

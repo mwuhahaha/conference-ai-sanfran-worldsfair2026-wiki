@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Harshal Bhangale
 
-## Official Role
+## Profile
 Staff Software Engineer at [[circle|Circle]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/harshaldbhangale)
 
-## Official Bio
+## Biography
 Harshal Bhangale is a Staff Software Engineer at [[circle|Circle]].
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-harshal-bhangale-why-your-ai-agent-needs-a-wallet-agentic-commerce-on-arc-with-usdc-and-nanopayments]] — Why Your AI Agent Needs a Wallet: Agentic commerce on Arc with USDC and Nanopayments (2026-07-01, 11:10am-11:30am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-harshal-bhangale-why-your-ai-agent-needs-a-wallet-agentic-commerce-on-arc-with-usdc-and-nanopayments|Why Your AI Agent Needs a Wallet: Agentic commerce on Arc with USDC and Nanopayments]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

@@ -8,27 +8,26 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Sandhya Subramani
 
-## Official Role
+## Profile
 Senior Developer Advocate, GenAI at [[amazon-web-services|Amazon Web Services]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/sandhyasubramani/)
 
-## Official Bio
+## Biography
 Sandhya Subramani is a Sr. Developer Advocate at AWS with 8+ years of experience in Applied AI Research, specializing in Large Language Models and agentic AI systems. She has developed and deployed AI solutions at organizations including Amazon, Warner Bros, and Fidelity Investments.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-elizabeth-fuentes-leone-agent-speedrun-idea-code-deploy-observe-fix-ship]] — Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship (2026-06-29, 11:05am-12:05pm)
 - [[2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild]] — Agents That Forge Their Own Tools: Self-Modifying AI in the Wild (2026-07-01, 12:05pm-12:25pm)
 - [[2026-07-01-sandhya-subramani-tell-the-robot-what-you-want]] — Tell the Robot What You Want (2026-07-01, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-elizabeth-fuentes-leone-agent-speedrun-idea-code-deploy-observe-fix-ship|Agent Speedrun: Idea → Code → Deploy → Observe, Fix → Ship]]
 - [[2026-07-01-sandhya-subramani-agents-that-forge-their-own-tools-self-modifying-ai-in-the-wild|Agents That Forge Their Own Tools: Self-Modifying AI in the Wild]]
 - [[2026-07-01-sandhya-subramani-tell-the-robot-what-you-want|Tell the Robot What You Want]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

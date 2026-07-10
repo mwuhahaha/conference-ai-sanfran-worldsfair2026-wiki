@@ -2,7 +2,6 @@
 title: "Questions"
 category: "questions"
 ---
-
 # Questions
 
 This category tracks open research and implementation questions raised by AI Engineer World's Fair 2026.

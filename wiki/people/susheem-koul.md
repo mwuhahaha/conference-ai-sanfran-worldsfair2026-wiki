@@ -10,27 +10,26 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Susheem Koul
 
-## Official Role
+## Profile
 Senior Software Engineer at [[microsoft|Microsoft]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/susheemkoul)
 - [Website](https://susheemk.substack.com)
 - [Blog](https://susheemk.substack.com/)
 
-## Official Bio
+## Biography
 Senior Software Engineer at [[microsoft|Microsoft]]. Building AI Driven Systems for Commerce at Scale
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens]] — FinOps for AI Agents: Who Spent All the Tokens? (2026-07-01, 11:10am-11:30am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens|FinOps for AI Agents: Who Spent All the Tokens?]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-Lc8zRh9muoY` — 9 slide-derived text signals
 - Slide-derived themes for `youtube-Lc8zRh9muoY`: determinism, batch, system, depends, never, record, replay, network.
 - Evidence links for `youtube-Lc8zRh9muoY`: [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]

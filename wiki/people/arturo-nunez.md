@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Arturo Nunez
 
-## Official Role
+## Profile
 Founder at [[nereu|Nereu]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/arturonereu/)
 - [X / Twitter](https://x.com/arturonereu)
 - [Website](https://www.arturonereu.com/)
 
-## Official Bio
+## Biography
 Arturo is the founder of [[nereu|Nereu]], an AI-native game engine that lets anyone build their game. Previously at MongoDB and Unity.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-arturo-nunez-the-next-game-engine-won-t-have-a-manual]] — The Next Game Engine Won't Have a Manual (2026-07-01, 12:05pm-12:25pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-arturo-nunez-the-next-game-engine-won-t-have-a-manual|The Next Game Engine Won't Have a Manual]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

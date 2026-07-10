@@ -5,31 +5,23 @@ sourceLabels: ["Slide/video-derived supporting context"]
 ---
 # Agent Evaluations
 
-## Synopsis
+## Overview
 Agent evaluations are the measurement layer for systems that plan, call tools, write code, retrieve context, or take actions over time. They combine offline tests, production traces, human review, model-as-judge scoring, regression suites, and task-specific rubrics so teams can tell whether an agent is actually improving rather than merely sounding better.
 
-## Origin And Context
+## Conference Context
 The practice grows out of software testing, information-retrieval benchmarks, ML evaluation, and LLM prompt evaluation. Agentic systems made the problem harder because success depends on multi-step behavior: tool choice, state handling, recovery, cost, latency, safety, and final task outcome.
 
-## Why It Matters
+## Significance
 Without evaluations, agent teams cannot safely change prompts, models, tools, routing, memory policies, or autonomy levels. Evals turn vague quality complaints into visible failure modes and make it possible to ship agents with rollback criteria, measurable acceptance thresholds, and a shared language for product and engineering decisions.
 
-## How To Use It
+## Applied Use
 Start with real traces and representative tasks. Define the outcome that matters, add rubrics for intermediate behavior, keep golden examples for regressions, and separate fast pre-merge checks from slower production audits. Use model judges only when their decisions are calibrated against human review, and track cost, latency, and failure categories alongside quality.
 
-## Where It Is Useful
 Evaluations are useful in coding agents, support agents, research agents, data agents, voice agents, retrieval systems, and any workflow where the agent can take a plausible but wrong path. They are especially valuable where correctness, trust, or operational cost matters.
 
-## When To Use It
 Use evals before launching, whenever prompts or models change, when adding new tools, after incidents, and when expanding an agent into a new user segment or task family. Lightweight evals should run continuously; deeper reviews should run before major releases.
 
-## Active Use Cases
-- Regression tests for prompt, model, and tool changes.
-- Production trace review for agent reliability and cost drift.
-- Benchmarking coding agents, retrieval agents, and long-horizon workflows.
-- Reward-signal generation for continual learning and fine-tuning loops.
-
-## Related Slide Decks
+## Connections
 - [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
 - [[youtube-IQkVMvXQKLY-slides]] — Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis (14 extracted slide frames)
 - [[youtube-1IdzkRVmWAA-slides]] — How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI (5 extracted slide frames)
@@ -38,7 +30,6 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 - [[youtube-vljxQZfJ9wY-slides]] — Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs (12 extracted slide frames)
 
-## Related Scheduled Sessions
 - [[2026-06-30-maor-bril-evaling-video-slop]] — Evaling Video Slop; [[maor-bril|Maor Bril]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Evals; official schedule)
 - [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]] — From Vibes to Production: Evaluating and Shipping AI Agents That Work 101; [[laurie-voss|Laurie Voss]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 1; official schedule)
 - [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201]] — From Vibes to Production: Evaluating and Shipping AI Agents That Work 201; [[laurie-voss|Laurie Voss]] (Day 1 — Workshop Day · 2:20pm-4:20pm · Track 1; official schedule)
@@ -64,7 +55,6 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - [[2026-06-30-ali-khial-benchmarks-the-good-the-bad-and-the-ugly]] — Benchmarks: The Good, the Bad, and the Ugly; [[ali-khial|Ali Khial]] (Day 3 — Session Day 2 · 3:20pm-3:40pm · Posttraining & Midtraining; official schedule)
 - [[2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability]] — Advanced workshop: Mastering AI Observability; [[doug-guthrie|Doug Guthrie]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 9; related YouTube resource; via [[youtube-bk0TmxoZlUY]])
 
-## Related People
 - [[laurie-voss|Laurie Voss]]
 - [[pamela-fox|Pamela Fox]]
 - [[fuad-ali|Fuad Ali]]
@@ -90,7 +80,6 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - [[nachiket-paranjape|Nachiket Paranjape]]
 - [[swaroop-chitlur-haridas|Swaroop Chitlur Haridas]]
 
-## Related Companies
 - [[arize-ai|Arize AI]]
 - [[google|Google]]
 - [[microsoft|Microsoft]]
@@ -110,7 +99,7 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - [[poolside|poolside]]
 - [[g2i|G2i]]
 
-## Transcript And Resource Support
+## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-Xfl50508LZM]] — Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize
 - [[youtube-bk0TmxoZlUY]] — Evals 101 — Doug Guthrie, Braintrust
@@ -141,10 +130,9 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - “And lastly, this axis is all about producing more complex work, more representative work, and also nuanced signals that can be used for not just evaluation, but reward signals during training.” — [[youtube-iNkFlCiij0U]]
 - “And for the same amount of evaluation, it takes only 7 hours.” — [[youtube-hqHC6Z_lXyo]]
 
-## Source-Derived Enrichment
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
-### Talk Evidence
+### Linked Sessions
 - [[2026-06-30-maor-bril-evaling-video-slop|Evaling Video Slop]]
 - [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101|From Vibes to Production: Evaluating and Shipping AI Agents That Work 101]]
 - [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201|From Vibes to Production: Evaluating and Shipping AI Agents That Work 201]]
@@ -156,7 +144,7 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-30-akele-reed-evals-driven-development-engineering-a-mental-health-ai-coach-ethically-and-safely|Evals Driven-Development: Engineering a Mental Health AI Coach Ethically & Safely]]
 - [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale|AI Evals Platform for Cross-Functional Teams at Scale]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-Xfl50508LZM` — 22,591 transcript words; 6 slide-derived text signals
 - Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
 - Slide-derived themes for `youtube-Xfl50508LZM`: phoenix, prompt, settings, general, detect, regressions, change, compare.
@@ -164,7 +152,8 @@ This section consolidates source evidence currently connected to this topic acro
 - `youtube-C_GG5g38vLU` — 8 slide-derived text signals
 - Slide-derived themes for `youtube-C_GG5g38vLU`: model, engineering, future, console, stories, tool, registry, story.
 - Evidence links for `youtube-C_GG5g38vLU`: [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]
-## Evidence Table
+
+## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
@@ -176,7 +165,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 | tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
 | transcripts | 1 | Transcript markdown; check session matching and caption quality. |
 
-## Representative Evidence Links
 ### Talks
 - [[2026-06-30-maor-bril-evaling-video-slop]]
 - [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]]
@@ -208,66 +196,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[braintrust]]
 - [[arize]]
 
-## Representative Evidence Links
-### Talks
-- [[2026-06-30-maor-bril-evaling-video-slop]]
-- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]]
-- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201]]
-- [[2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior]]
-- [[2026-06-29-tejas-kumar-evals-in-ai-a-deep-dive]]
-- [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline]]
-
-### Resources
-- [[youtube-Xfl50508LZM]]
-- [[youtube-bk0TmxoZlUY]]
-- [[youtube-iNkFlCiij0U]]
-- [[youtube-vljxQZfJ9wY]]
-- [[youtube-pSto5YaNGUo]]
-- [[youtube-hqHC6Z_lXyo]]
-
-### Slides
-- [[youtube-4kYl2_mqmnQ-slides]]
-- [[youtube-IQkVMvXQKLY-slides]]
-- [[youtube-1IdzkRVmWAA-slides]]
-- [[youtube-CLttOU7n6sI-slides]]
-- [[youtube-Rx8f05JI_WA-slides]]
-- [[youtube-2IxD9OB3XuQ-slides]]
-
-### Transcripts
-- [[youtube-Xfl50508LZM-transcript]]
-
-### Tools
-- [[braintrust]]
-- [[arize]]
-
-## Representative Evidence Links
-### Talks
-- [[2026-06-30-maor-bril-evaling-video-slop]]
-- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]]
-- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201]]
-- [[2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior]]
-- [[2026-06-29-tejas-kumar-evals-in-ai-a-deep-dive]]
-- [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline]]
-
-### Resources
-- [[youtube-Xfl50508LZM]]
-- [[youtube-bk0TmxoZlUY]]
-- [[youtube-iNkFlCiij0U]]
-- [[youtube-vljxQZfJ9wY]]
-- [[youtube-pSto5YaNGUo]]
-- [[youtube-hqHC6Z_lXyo]]
-
-### Slides
-- [[youtube-4kYl2_mqmnQ-slides]]
-- [[youtube-IQkVMvXQKLY-slides]]
-- [[youtube-1IdzkRVmWAA-slides]]
-- [[youtube-CLttOU7n6sI-slides]]
-- [[youtube-Rx8f05JI_WA-slides]]
-- [[youtube-2IxD9OB3XuQ-slides]]
-
-### Transcripts
-- [[youtube-Xfl50508LZM-transcript]]
-
-### Tools
-- [[braintrust]]
-- [[arize]]
+## Active Use Cases
+- Regression tests for prompt, model, and tool changes.
+- Production trace review for agent reliability and cost drift.
+- Benchmarking coding agents, retrieval agents, and long-horizon workflows.
+- Reward-signal generation for continual learning and fine-tuning loops.

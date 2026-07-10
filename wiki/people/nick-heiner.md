@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Nick Heiner
 
-## Official Role
+## Profile
 VP of RL Environments at [[surge-ai|Surge AI]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/nick-heiner-3874055a/)
 - [X / Twitter](https://x.com/nickheiner)
 - [Website](https://www.nickheiner.com/)
 
-## Official Bio
+## Biography
 Nick Heiner is the Head of RL Environments at [[surge-ai|Surge AI]], the post-training company founded and bootstrapped to $1B in revenue by CEO Edwin Chen, where he works directly with top labs to help shape frontier models.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-nick-heiner-when-will-the-benchmaxxing-plague-end]] — When Will The Benchmaxxing Plague End? (2026-06-29, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-nick-heiner-when-will-the-benchmaxxing-plague-end|When Will The Benchmaxxing Plague End?]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

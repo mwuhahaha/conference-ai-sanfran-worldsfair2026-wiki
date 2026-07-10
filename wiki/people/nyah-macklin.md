@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Nyah Macklin
 
-## Official Role
+## Profile
 Sr. Developer Advocate, Artificial intelligence at [[neo4j|Neo4j]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/nyahmacklin)
 - [X / Twitter](https://x.com/nyahmacklindev)
 
-## Official Bio
+## Biography
 Nyah Macklin is a seasoned researcher and speaker on topics around AI, ML, Ethics, Governance, and Responsibility. Nyah serves as a Senior Developer Advocate for Artificial Intelligence at [[neo4j|Neo4j]], specializing in context engineering, knowledge graphs, and AI-driven developer tooling where Nyah has built high-impact technical communities and led initiatives that advance a critical understanding of AI and its use cases. They are also the Founder & CTO of Afros in AI, a technical community dedicated to showcasing the multifaceted nature of artificial intelligence. Beyond Nyah's technical expertise, Nyah has a background in government leadership and technology policy, having served as Chief of Staff in the U.S. state government, where they helped shape tech-driven legislative initiatives and equity-driven legislation. When not immersed in their work, Nyah cares about empowering, teaching, and tutoring engineers, live-streaming technical deep dives, and building open-source tools that make software more accessible, explainable, and community-driven.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context]] — RAG Needs a Map: Using GraphRAG to Retrieve Connected Context (2026-06-29, 11:05am-12:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context|RAG Needs a Map: Using GraphRAG to Retrieve Connected Context]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

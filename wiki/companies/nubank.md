@@ -7,41 +7,41 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Nubank
 
-## What It Is
+## Overview
 Nubank is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Saiba mais sobre o Nubank - sua vida financeira sem complicações, asteriscos ou letras miúdas.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects Nubank to Aman Gupta, Lucas Palma. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Conference Relevance
 Nubank matters to this wiki through 2 official speaker(s) and 2 scheduled session(s), including: We Vetted 2,000 AI Skills Before They Reached Developers; Simulation-Maxxing: How Nubank ships agents 20× faster with simulations.
 
-## Related People
-- [[aman-gupta]] - Principal Machine Learning Engineer
-- [[lucas-palma]] - Information Security Manager
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers]] - We Vetted 2,000 AI Skills Before They Reached Developers (2026-07-01, 1:55pm-2:15pm)
 - [[2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations]] - Simulation-Maxxing: How Nubank ships agents 20× faster with simulations (2026-07-01, 2:50pm-3:10pm)
 
-## Origin And Context
-The official speaker roster connects Nubank to Aman Gupta, Lucas Palma. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+## Connections
+- [[aman-gupta]] - Principal Machine Learning Engineer
+- [[lucas-palma]] - Information Security Manager
+
+## Sources
+- [Somos incansáveis pra você não precisar ser / Nubank](https://nubank.com.br/)
+
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Linked Sessions
+- [[2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers|We Vetted 2,000 AI Skills Before They Reached Developers]]
+- [[2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations|Simulation-Maxxing: How Nubank ships agents 20× faster with simulations]]
+
+### Media Signals
+- `youtube-9-vGxMoUM9Y` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-9-vGxMoUM9Y`: current, guardrails, self, driving, cars, classical, deep, learning.
+- Evidence links for `youtube-9-vGxMoUM9Y`: [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.
 - Discovery confidence score: 113.
 
-## Public Sources
-- [Somos incansáveis pra você não precisar ser / Nubank](https://nubank.com.br/)
-
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
-
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
-- [[2026-07-01-lucas-palma-we-vetted-2-000-ai-skills-before-they-reached-developers|We Vetted 2,000 AI Skills Before They Reached Developers]]
-- [[2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations|Simulation-Maxxing: How Nubank ships agents 20× faster with simulations]]
-
-### Slide And Transcript Signals
-- `youtube-9-vGxMoUM9Y` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-9-vGxMoUM9Y`: current, guardrails, self, driving, cars, classical, deep, learning.
-- Evidence links for `youtube-9-vGxMoUM9Y`: [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]

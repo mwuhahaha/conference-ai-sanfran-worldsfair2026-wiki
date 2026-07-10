@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Wolfram Ravenwolf
 
-## Official Role
+## Profile
 AI Evangelist at [[weights-and-biases-by-coreweave|Weights & Biases by CoreWeave]].
 
-## Profile Links
 - [LinkedIn](https://de.linkedin.com/in/wolframravenwolf)
 - [X / Twitter](https://x.com/WolframRvnwlf)
 - [Website](https://wolfbench.ai/)
 - [Blog](https://wolfbench.ai/)
 
-## Official Bio
+## Biography
 Wolfram Ravenwolf is an AI Evangelist at CoreWeave / Weights & Biases, where he helps builders evaluate, debug, and ship useful AI systems. He works across model evaluation, agent tooling, inference infrastructure, and developer education, translating hands-on engineering work into practical guidance for teams adopting frontier AI. Wolfram is the creator of WolfBench, a five-metric framework for evaluating agent performance based on Terminal-Bench 2.0, and regularly tests new models, coding agents, and evaluation workflows in real-world conditions. He is also a ThursdAI co-host, speaker, writer, and longtime AI community builder. Before joining CoreWeave/W&B, he worked as an engineer, researcher, and consultant focused on making complex technology usable. His talks are practical, opinionated, and grounded in live experimentation: fewer buzzwords, more working systems.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline]] — From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline (2026-06-29, 12:10pm-1:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline|From Zero to Leaderboard: Building an End-to-End AI Agent Evaluation Pipeline]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

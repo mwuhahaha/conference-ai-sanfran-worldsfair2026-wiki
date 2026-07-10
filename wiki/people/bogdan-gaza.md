@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Bogdan Gaza
 
-## Official Role
+## Profile
 Co-Founder & CTO at [[datologyai|DatologyAI]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/bogdangaza)
 
-## Official Bio
+## Biography
 Bogdan Gaza is Co-Founder and CTO at [[datologyai|DatologyAI]], working on systems that help teams make better use of their data for AI model development and training.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]] — Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production (2026-06-29, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production|Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

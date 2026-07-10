@@ -13,23 +13,31 @@ scheduleLabels: ["Design Engineering", "Track 6", "session", "confirmed"]
 ---
 # Understanding is the new bottleneck
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-30 · 10:45am-11:05am
 - Track/room: Design Engineering · Track 6
 - Speaker(s): Geoffrey Litt
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: Design Engineering
 - Room: Track 6
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 Autonomous loops are hot, but the reality is that most agentic tasks still require human judgement. And to guide your agents well, it's not enough to just verify correctness -- you actually need to understand the work they're doing. In this talk, I'll share some techniques for staying in the loop and efficiently developing understanding, combining old ideas from education and cognitive science with modern agent capabilities. You'll walk away with some practical tips for moving faster with agents by understanding more, not less.
 
-## Related YouTube Video
+## Media Evidence
 No related AI Engineer channel video found yet.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
@@ -39,12 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-No linked video, transcript, or slide source has been attached yet.
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -11,28 +11,27 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Keegan McCallum
 
-## Official Role
+## Profile
 Founder at [[urun|uRun]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/keeganmccallum3)
 - [X / Twitter](https://x.com/keeganmccallum3)
 - [Website](https://urun.sh)
 - [Blog](https://urun.sh)
 
-## Official Bio
+## Biography
 Founder of [[urun|uRun]], build the inference cloud for the interactive era of AI. Formerly Head of ML Infrastructure at Luma, built Video model serving for Dream Machine from scratch after pivot to generative video. Obsessed with the intersection of creativity and technology.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light]] — Generative Video at the Speed of Light (2026-07-01, 2:25pm-2:45pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light|Generative Video at the Speed of Light]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-EY4O9M6AsWI` — 8 slide-derived text signals
 - Slide-derived themes for `youtube-EY4O9M6AsWI`: triton, mission, general, intelligence, generate, understand, operate, physical.
 - Evidence links for `youtube-EY4O9M6AsWI`: [[youtube-EY4O9M6AsWI]], [[youtube-EY4O9M6AsWI-slides]], [[youtube-EY4O9M6AsWI-reconstructed-slides]]

@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Clare Liguori
 
-## Official Role
+## Profile
 Senior Principal Engineer at [[amazon-web-services|Amazon Web Services]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/clareliguori/)
 - [X / Twitter](https://x.com/clare_liguori)
 - [Website](https://clare.dev/)
 - [Blog](https://clare.dev/)
 
-## Official Bio
+## Biography
 Clare Liguori is a Senior Principal Engineer at [[amazon-web-services|Amazon Web Services]] (AWS), where she works on all things agentic AI. She primarily focuses on Kiro and Strands Agents SDK. Clare is also a core maintainer for the Model Context Protocol (MCP) specification.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-clare-liguori-from-ai-assisted-to-ai-native-building-a-frontier-development-team]] — From AI-Assisted to AI-Native: Building a Frontier Development Team (2026-06-29, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-clare-liguori-from-ai-assisted-to-ai-native-building-a-frontier-development-team|From AI-Assisted to AI-Native: Building a Frontier Development Team]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

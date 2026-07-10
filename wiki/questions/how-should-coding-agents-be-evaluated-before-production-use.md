@@ -4,16 +4,15 @@ category: "questions"
 status: "active"
 sourceLabels: ["Official schedule", "Slide/OCR evidence", "Tool inventory", "Topic synthesis"]
 ---
-
 # How should coding agents be evaluated before production use?
 
-## Why This Question Matters
+## Context
 Coding agents need evaluation gates before they can safely change code, trigger workflows, or influence production systems.
 
-## Current Working Answer
+## Working Answer
 This page is a first-pass research question, not a final recommendation. Use the linked evidence to refine the answer as more exact session recordings, transcripts, and reviewed slide readings become available.
 
-## Source Evidence
+## Evidence
 - [[agent-evaluations]] — Topic synthesis
 - [[coding-agents]] — Topic synthesis
 - [[software-factories]] — Topic synthesis
@@ -25,7 +24,7 @@ This page is a first-pass research question, not a final recommendation. Use the
 - [[youtube-Xfl50508LZM-slides]] — Slide/OCR evidence
 - [[youtube-bk0TmxoZlUY-slides]] — Slide/OCR evidence
 
-## Follow-Up
+## Next Questions
 - Extract specific claims from the linked source pages.
 - Separate official schedule evidence from supporting YouTube, transcript, and OCR evidence.
 - Convert stable answers into playbooks, harnesses, or evaluations where appropriate.

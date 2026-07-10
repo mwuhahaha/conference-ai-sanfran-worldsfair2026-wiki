@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Jonathan Kelley
 
-## Official Role
+## Profile
 Founder at [[dioxus-labs|Dioxus Labs]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jonathan-r-kelley)
 - [Website](https://jonathan-kelley.com)
 
-## Official Bio
+## Biography
 Jonathan Kelley is the founder of [[dioxus-labs|Dioxus Labs]], which develops the Dioxus open-source Rust framework for building applications across web, desktop, and mobile.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-jonathan-kelley-building-ambitious-software]] — Building ambitious software (2026-06-30, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-jonathan-kelley-building-ambitious-software|Building ambitious software]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

@@ -9,26 +9,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Joshua Xu
 
-## Official Role
+## Profile
 CEO at [[heygen|HeyGen]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/buffxz)
 - [X / Twitter](https://x.com/joshua_xu_?lang=en)
 
-## Official Bio
+## Biography
 No official bio included in the speaker JSON.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-howie-liu-startup-battlefield]] — Startup Battlefield (2026-07-01, 5:10pm-5:30pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals
 - Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
 - Evidence links for `youtube-zepu8Kk6FBQ`: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]

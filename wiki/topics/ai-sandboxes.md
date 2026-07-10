@@ -5,38 +5,29 @@ sourceLabels: ["Slide/video-derived supporting context"]
 ---
 # AI Sandboxes
 
-## Synopsis
+## Overview
 AI sandboxes are controlled execution environments where agents can run code, browse, inspect files, call tools, or manipulate artifacts without putting the host system at unnecessary risk. A sandbox gives the agent enough power to do real work while limiting filesystem, network, credential, and process access.
 
-## Origin And Context
+## Conference Context
 The pattern comes from operating-system isolation, browser sandboxes, CI runners, notebooks, container platforms, and secure code-execution services. Agentic coding and computer-use systems made sandboxing a default requirement rather than a specialty feature.
 
-## Why It Matters
+## Significance
 Agents need to experiment, test, and inspect state. Sandboxes let them do that while containing failures, malicious inputs, runaway processes, and accidental destructive changes.
 
-## How To Use It
+## Applied Use
 Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.
 
-## Where It Is Useful
 They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.
 
-## When To Use It
 Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
 
-## Active Use Cases
-- Running generated code and tests before suggesting a patch.
-- Browser or computer-use automation with constrained state.
-- Temporary workspaces for data analysis and document transformation.
-- Reproducible agent task environments for evaluations.
-
-## Related Slide Decks
+## Connections
 - [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
 - [[youtube-qdZzND79mcg-slides]] — Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs (16 extracted slide frames)
 - [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 - [[youtube-sAOBXCDiDOs-slides]] — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc (18 extracted slide frames)
 - [[youtube-vljxQZfJ9wY-slides]] — Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs (12 extracted slide frames)
 
-## Related Scheduled Sessions
 - [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]] — Computer Use at the Edge of the Statistical Precipice; [[pierluca-d-oro|Pierluca D'Oro]] (Day 3 — Session Day 2 · 11:10am-11:30am · Computer Use; official schedule)
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]] — Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale; [[robert-brennan|Robert Brennan]] (Day 3 — Session Day 2 · 3:20pm-3:40pm · Sandbox & Platform Engineering; official schedule)
 - [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]] — Your agent needs a sandbox, not a desert; [[samuel-colvin|Samuel Colvin]] (Day 3 — Session Day 2 · 12:05pm-12:25pm · Sandbox & Platform Engineering; official schedule)
@@ -62,7 +53,6 @@ Use a sandbox whenever an agent can execute code, inspect user files, download d
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] — Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs; [[du-an-lightfoot|Du'an Lightfoot]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 7; related YouTube resource; via [[youtube-wFTVEDYVJT0]])
 - [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web]] — Bringing agents onto the world wide web; [[paul-klein-iv|Paul Klein IV]] (Day 3 — Session Day 2 · 11:40am-12:00pm · Computer Use; official schedule)
 
-## Related People
 - [[john-craft|John Craft]]
 - [[abhishek-bhardwaj|Abhishek Bhardwaj]]
 - [[arun-sekhar|Arun Sekhar]]
@@ -88,7 +78,6 @@ Use a sandbox whenever an agent can execute code, inspect user files, download d
 - [[yohei-nakajima|Yohei Nakajima]]
 - [[ang-li|Ang Li]]
 
-## Related Companies
 - [[docker|Docker]]
 - [[microsoft|Microsoft]]
 - [[browserbase|Browserbase]]
@@ -108,7 +97,7 @@ Use a sandbox whenever an agent can execute code, inspect user files, download d
 - [[programma-labs|Programma Labs]]
 - [[openhands|OpenHands]]
 
-## Transcript And Resource Support
+## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-Rx8f05JI_WA]] — SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI
 - [[youtube-2IxD9OB3XuQ]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI
@@ -129,10 +118,9 @@ Use a sandbox whenever an agent can execute code, inspect user files, download d
 - [[youtube-ghJmWQCIHRM]] — The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google
 - [[youtube-HvZXAOZ3iv8]] — What Lies Beneath the API — Benjamin Cowen, Modal
 
-## Source-Derived Enrichment
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
-### Talk Evidence
+### Linked Sessions
 - [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice|Computer Use at the Edge of the Statistical Precipice]]
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale|Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale]]
 - [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert|Your agent needs a sandbox, not a desert]]
@@ -144,7 +132,7 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-30-adam-azzam-don-t-build-agents-build-environments|Don’t build agents, build environments]]
 - [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox|How I learned to stop worrying and love the sandbox]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-rcsliSIy_YU` — 8 slide-derived text signals
 - Slide-derived themes for `youtube-rcsliSIy_YU`: coding, code, snippets, generation, single, atomic, tasks, curl.
 - Evidence links for `youtube-rcsliSIy_YU`: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
@@ -157,7 +145,8 @@ This section consolidates source evidence currently connected to this topic acro
 - `youtube-e9sLVMN76qU` — 8 slide-derived text signals
 - Slide-derived themes for `youtube-e9sLVMN76qU`: most, today, tooling, breaks, moment, remove, human, loop.
 - Evidence links for `youtube-e9sLVMN76qU`: [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]
-## Evidence Table
+
+## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
@@ -168,7 +157,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 | talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
 
-## Representative Evidence Links
 ### Talks
 - [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]]
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
@@ -200,66 +188,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[prime-intellect]]
 - [[openhands]]
 
-## Representative Evidence Links
-### Talks
-- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]]
-- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
-- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
-- [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
-
-### Resources
-- [[youtube-wFTVEDYVJT0]]
-- [[youtube-Rx8f05JI_WA]]
-- [[youtube-2IxD9OB3XuQ]]
-- [[youtube-SKDJo2CopRs]]
-- [[youtube-JnubYCYunk8]]
-- [[youtube-c-2eEv2ou7Y]]
-
-### Slides
-- [[youtube-4kYl2_mqmnQ-slides]]
-- [[youtube-qdZzND79mcg-slides]]
-- [[youtube-2IxD9OB3XuQ-slides]]
-- [[youtube-sAOBXCDiDOs-slides]]
-- [[youtube-vljxQZfJ9wY-slides]]
-- [[youtube-rcsliSIy_YU-slides]]
-
-### Tools
-- [[docker]]
-- [[browserbase]]
-- [[mcp-apps]]
-- [[prime-intellect]]
-- [[openhands]]
-
-## Representative Evidence Links
-### Talks
-- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]]
-- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
-- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
-- [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
-
-### Resources
-- [[youtube-wFTVEDYVJT0]]
-- [[youtube-Rx8f05JI_WA]]
-- [[youtube-2IxD9OB3XuQ]]
-- [[youtube-SKDJo2CopRs]]
-- [[youtube-JnubYCYunk8]]
-- [[youtube-c-2eEv2ou7Y]]
-
-### Slides
-- [[youtube-4kYl2_mqmnQ-slides]]
-- [[youtube-qdZzND79mcg-slides]]
-- [[youtube-2IxD9OB3XuQ-slides]]
-- [[youtube-sAOBXCDiDOs-slides]]
-- [[youtube-vljxQZfJ9wY-slides]]
-- [[youtube-rcsliSIy_YU-slides]]
-
-### Tools
-- [[docker]]
-- [[browserbase]]
-- [[mcp-apps]]
-- [[prime-intellect]]
-- [[openhands]]
+## Active Use Cases
+- Running generated code and tests before suggesting a patch.
+- Browser or computer-use automation with constrained state.
+- Temporary workspaces for data analysis and document transformation.
+- Reproducible agent task environments for evaluations.

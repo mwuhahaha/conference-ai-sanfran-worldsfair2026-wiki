@@ -5,34 +5,25 @@ sourceLabels: ["Slide/video-derived supporting context"]
 ---
 # Voice Agents
 
-## Synopsis
+## Overview
 Voice agents are AI systems that understand, reason, and respond through speech, often in real time. They combine speech recognition, speaker diarization, language models, tool use, dialogue state, text-to-speech, and sometimes visual or screen output.
 
-## Origin And Context
+## Conference Context
 They build on IVR systems, speech recognition, voice assistants, call-center automation, real-time media systems, and conversational AI. Modern multimodal and realtime models make them more fluid, but production voice still depends on latency, turn-taking, and trust.
 
-## Why It Matters
+## Significance
 Voice is natural for hands-free, high-attention, or emotionally sensitive workflows. It also exposes failures quickly: delays, interruptions, wrong speaker attribution, and unnatural responses break trust faster than in text.
 
-## How To Use It
+## Applied Use
 Design around conversation state, latency budgets, interruption handling, speaker identity, fallback paths, and clear tool permissions. Test with realistic audio conditions, accents, overlapping speakers, and production transcripts.
 
-## Where It Is Useful
 Voice agents are useful in customer support, healthcare intake, sales calls, meeting assistants, field work, accessibility tools, tutoring, and companion interfaces.
 
-## When To Use It
 Use voice when speaking is faster or more accessible than typing, or when the workflow happens away from a keyboard. Prefer text when precision, reviewability, or complex visual comparison is primary.
 
-## Active Use Cases
-- Realtime support and appointment workflows.
-- Meeting and call understanding with speaker attribution.
-- Voice-in visual-out interfaces for richer task completion.
-- Hands-free operational assistants.
-
-## Related Slide Decks
+## Connections
 - [[youtube-I2cbIws9j10-slides]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy (80 extracted slide frames)
 
-## Related Scheduled Sessions
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]] — Realtime Voice Agents with Frontier Intelligence; [[bohan-li|Bohan Li]] (Day 2 — Session Day 1 · 2:50pm-3:10pm · Voice & Realtime AI; official schedule)
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] — Voice Agents Can Just Do Things; [[charlie-guo|Charlie Guo]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Voice & Realtime AI; official schedule)
 - [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]] — Speech-to-Speech Model Research at Google DeepMind; [[valeria-wu-fon|Valeria Wu Fon]], [[tom-ouyang|Tom Ouyang]] (Day 2 — Session Day 1 · 11:10am-11:30am · Voice & Realtime AI; official schedule)
@@ -58,7 +49,6 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]] — The New Primitives: Building AI-Native Software; [[kwindla-kramer|Kwindla Kramer]] (Day 2 — Session Day 1 · 10:45am-11:05am · Voice & Realtime AI; official schedule)
 - [[2026-07-01-sai-krishna-rallabandi-wearing-the-agent-engineering-a-family-and-friends-personal-agent-from-group-chats-to-glasses]] — Wearing the Agent: Engineering a Family-and-Friends Personal Agent, from Group Chats to Glasses; [[sai-krishna-rallabandi|Sai Krishna Rallabandi]] (Day 4 — Session Day 3 · 3:45pm-4:05pm · AI in Finance; official schedule)
 
-## Related People
 - [[neil-zeghidour|Neil Zeghidour]]
 - [[thor-schaeff|Thor 雷神 Schaeff]]
 - [[kwindla-kramer|Kwindla Kramer]]
@@ -84,7 +74,6 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - [[sonar|Sonar]]
 - [[extend-ai|Extend AI]]
 
-## Related Companies
 - [[google-deepmind|Google DeepMind]]
 - [[gradium|Gradium]]
 - [[plivo|Plivo]]
@@ -104,7 +93,7 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - [[assemblyai|AssemblyAI]]
 - [[twilio|Twilio]]
 
-## Transcript And Resource Support
+## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-mFLlVpnGpds]] — Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI
 - [[youtube-u-rJwPPU3QA]] — How to talk to statues — Joe Reeve, ElevenLabs
@@ -123,10 +112,9 @@ Use voice when speaking is faster or more accessible than typing, or when the wo
 - “And the question is now we need to assign a speaker to each word.” — [[youtube-mFLlVpnGpds]]
 - “So in there you you'll be able to to with Pianoteq open source toolkit for diarization with piano metrics for evaluation.” — [[youtube-mFLlVpnGpds]]
 
-## Source-Derived Enrichment
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
-### Talk Evidence
+### Linked Sessions
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence|Realtime Voice Agents with Frontier Intelligence]]
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things|Voice Agents Can Just Do Things]]
 - [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind|Speech-to-Speech Model Research at Google DeepMind]]
@@ -138,7 +126,7 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses|200 Million Patient Interactions Later: What the Generic Voice Stack Misses]]
 - [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them|Voice Agents Are Mostly Invisible. Here's How to See Them.]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-dvft0Gp9sEE` — 1,508 transcript words; 1 slide-derived text signals
 - Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
 - Slide-derived themes for `youtube-dvft0Gp9sEE`: manual, analysis, keyword.
@@ -152,7 +140,8 @@ This section consolidates source evidence currently connected to this topic acro
 - `youtube-SbcQYbrvAfI` — 7 slide-derived text signals
 - Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
 - Evidence links for `youtube-SbcQYbrvAfI`: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
-## Evidence Table
+
+## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
@@ -163,7 +152,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 | talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | transcripts | 1 | Transcript markdown; check session matching and caption quality. |
 
-## Representative Evidence Links
 ### Talks
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]]
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]]
@@ -191,58 +179,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Transcripts
 - [[youtube-dvft0Gp9sEE-transcript]]
 
-## Representative Evidence Links
-### Talks
-- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]]
-- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]]
-- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]]
-- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more]]
-- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents]]
-- [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one]]
-
-### Resources
-- [[youtube-mFLlVpnGpds]]
-- [[youtube-u-rJwPPU3QA]]
-- [[youtube-ij-AU9dpJjc]]
-- [[youtube-65X0pQ6Lmbg]]
-- [[youtube-hVJOnuhFmTA]]
-- [[youtube-HsxQICTLF84]]
-
-### Slides
-- [[youtube-I2cbIws9j10-slides]]
-- [[youtube-dvft0Gp9sEE-slides]]
-- [[youtube-dvft0Gp9sEE-dense-slides]]
-- [[youtube-dvft0Gp9sEE-reconstructed-slides]]
-- [[youtube-P_RI1kCkRbo-slides]]
-- [[youtube-P_RI1kCkRbo-dense-slides]]
-
-### Transcripts
-- [[youtube-dvft0Gp9sEE-transcript]]
-
-## Representative Evidence Links
-### Talks
-- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]]
-- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]]
-- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]]
-- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more]]
-- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents]]
-- [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one]]
-
-### Resources
-- [[youtube-mFLlVpnGpds]]
-- [[youtube-u-rJwPPU3QA]]
-- [[youtube-ij-AU9dpJjc]]
-- [[youtube-65X0pQ6Lmbg]]
-- [[youtube-hVJOnuhFmTA]]
-- [[youtube-HsxQICTLF84]]
-
-### Slides
-- [[youtube-I2cbIws9j10-slides]]
-- [[youtube-dvft0Gp9sEE-slides]]
-- [[youtube-dvft0Gp9sEE-dense-slides]]
-- [[youtube-dvft0Gp9sEE-reconstructed-slides]]
-- [[youtube-P_RI1kCkRbo-slides]]
-- [[youtube-P_RI1kCkRbo-dense-slides]]
-
-### Transcripts
-- [[youtube-dvft0Gp9sEE-transcript]]
+## Active Use Cases
+- Realtime support and appointment workflows.
+- Meeting and call understanding with speaker attribution.
+- Voice-in visual-out interfaces for richer task completion.
+- Hands-free operational assistants.

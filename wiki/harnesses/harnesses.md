@@ -2,7 +2,6 @@
 title: "Harnesses"
 category: "harnesses"
 ---
-
 # Harnesses
 
 Reusable AI engineering workflows synthesized from Worldsfair evidence. Each page separates observed AIE evidence from recommended implementation steps.

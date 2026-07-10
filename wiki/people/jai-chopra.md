@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Jai Chopra
 
-## Official Role
+## Profile
 Product Manager at [[uber|Uber]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/jaichopra)
 - [X / Twitter](https://x.com/jai_chopra)
 
-## Official Bio
+## Biography
 Product Lead in the Applied AI team at [[uber|Uber]]. Previously worked at Cruise and various startups.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale]] — Building Closed-Loop Evals for a Multimodal Agent at Uber Scale (2026-06-30, 11:40am-12:00pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale|Building Closed-Loop Evals for a Multimodal Agent at Uber Scale]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

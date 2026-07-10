@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Jake Broekhuizen
 
-## Official Role
+## Profile
 Labs Lead at [[langchain|LangChain]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jake-broekhuizen)
 
-## Official Bio
+## Biography
 No official bio included in the speaker JSON.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-jake-broekhuizen-the-next-run-should-be-better]] — The Next Run Should Be Better (2026-07-01, 11:40am-12:00pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-jake-broekhuizen-the-next-run-should-be-better|The Next Run Should Be Better]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

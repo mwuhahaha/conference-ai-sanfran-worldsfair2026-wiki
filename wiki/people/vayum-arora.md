@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Vayum Arora
 
-## Official Role
+## Profile
 Growth at [[weco-ai|Weco AI]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/vayum-arora/)
 - [Blog](https://www.weco.ai/blog/vardera-case-study)
 
-## Official Bio
+## Biography
 Vayum started in AI as an ML engineer and product lead on Apple's Intelligence teams, building the foundational models behind its features. After starting his own company, he backed early-stage founders as a seed investor at Founder Collective, then decided to go build. Now he leads growth at [[weco-ai|Weco AI]], taking recursive self-improvement out of the lab and into ML teams across finance, healthcare, and frontier AI.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]] — Hands-on AutoResearch: Cracking OpenAI's Parameter Golf (2026-06-29, 2:20pm-4:20pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

@@ -13,23 +13,38 @@ scheduleLabels: ["Expo Stage 2", "Expo Stage 2 NW", "session", "confirmed"]
 ---
 # Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-30 · 1:30pm-1:50pm
 - Track/room: Expo Stage 2 · Expo Stage 2 NW
 - Speaker(s): Harald Kirschner
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: Expo Stage 2
 - Room: Expo Stage 2 NW
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 A ~40-person team ships VS Code weekly to millions of users. Models got good enough to lean on, and leaning in is exactly what broke our process. This talk is the part most AI talks skip: what you have to rebuild after agents start working. We had to scale three things at once: how fast we ship, how we hold quality, and how fast we learn, and each one we fixed revealed the next. I'll walk through the harnesses, evals, and self-healing systems that keep velocity from becoming regression, and the patterns you can steal.
 
-## Related YouTube Video
+## Media Evidence
 [Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison](https://www.youtube.com/watch?v=eOxOzcw70f0) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+- Source video: `youtube-eOxOzcw70f0`
+- Slide deck: [[youtube-eOxOzcw70f0-dense-slides|Dense Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]] — no readable content slides after AI classification.
+- Additional slide evidence: [[youtube-eOxOzcw70f0-slides|Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]], [[youtube-eOxOzcw70f0-reconstructed-slides|Reconstructed Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]]
+- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-eOxOzcw70f0` — 10 slide-derived text signals
+- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
+- Evidence links for `youtube-eOxOzcw70f0`: [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -44,19 +59,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-eOxOzcw70f0-reconstructed-slides]]
 - [[youtube-eOxOzcw70f0-slides]]
 - Slide-derived terms: `microsoft`, `chat`, `sfair`, `edit`, `copilot`, `smol`, `worid`, `character`, `workspace`, `yolo`, `open`, `accept`, `suggestion`, `continue`, `create`, `letme`, `vibes`, `code`
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-eOxOzcw70f0` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.
-- Evidence links for `youtube-eOxOzcw70f0`: [[youtube-eOxOzcw70f0]], [[youtube-eOxOzcw70f0-slides]], [[youtube-eOxOzcw70f0-dense-slides]], [[youtube-eOxOzcw70f0-reconstructed-slides]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-## Slides
-- Source video: `youtube-eOxOzcw70f0`
-- Slide deck: [[youtube-eOxOzcw70f0-dense-slides|Dense Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]] — no readable content slides after AI classification.
-- Additional slide evidence: [[youtube-eOxOzcw70f0-slides|Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]], [[youtube-eOxOzcw70f0-reconstructed-slides|Reconstructed Slides: Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison]]
-- Slide-derived themes for `youtube-eOxOzcw70f0`: code, vibes, learning, clone, even, exists, fully, give.

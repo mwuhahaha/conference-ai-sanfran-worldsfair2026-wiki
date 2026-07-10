@@ -7,24 +7,23 @@ website: "https://emdash.codes"
 ---
 # Em Shreve
 
-## Official Role
+## Profile
 Role not listed at company not listed.
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/emdashcodes)
 - [Website](https://emdash.codes)
 
-## Official Bio
+## Biography
 No official bio included in the speaker JSON.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-em-shreve-ai-enablement-at-automattic-how-a-remote-company-builds-ai-fluency]] — AI Enablement at Automattic: How a Remote Company Builds AI Fluency (2026-06-29, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-em-shreve-ai-enablement-at-automattic-how-a-remote-company-builds-ai-fluency|AI Enablement at Automattic: How a Remote Company Builds AI Fluency]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

@@ -13,23 +13,31 @@ scheduleLabels: ["Track M", "Track M", "sponsor", "confirmed"]
 ---
 # Using AI tools to teach old apps new tricks
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-29 · 2:25pm-2:45pm
 - Track/room: Track M · Track M
 - Speaker(s): Maria Bledsoe
 - Session type/status: sponsor · confirmed
 
-## Schedule Labels
 - Track: Track M
 - Room: Track M
 - Session type: sponsor
 - Status: confirmed
 
-## Official Description
+## Session Description
 Becoming AI-ready starts with modernizing your legacy systems and technical debt — and keeping them modernized. We’ll show how you can use agentic AI to take on the hardest parts of modernization: analyzing large codebases, mapping dependencies, planning upgrades, refactoring safely, while doing it all at scale with enterprise controls. With GitHub Copilot modernization capabilities, you can move from legacy complexity to modernized apps in days, not months.
 
-## Related YouTube Video
+## Media Evidence
 No related AI Engineer channel video found yet.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
@@ -39,12 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-No linked video, transcript, or slide source has been attached yet.
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

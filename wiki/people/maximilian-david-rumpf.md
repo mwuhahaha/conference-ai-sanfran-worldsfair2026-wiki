@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Maximilian-David Rumpf
 
-## Official Role
+## Profile
 CEO at [[sid-ai|SID.ai]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/maximiliandavid)
 - [X / Twitter](https://x.com/maxrumpf)
 - [Website](https://maxrumpf.com)
 
-## Official Bio
+## Biography
 Researcher at ETH Zürich, now CEO of [[sid-ai|SID.ai]]
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search]] — Where RL Will Take Search (2026-06-29, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search|Where RL Will Take Search]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

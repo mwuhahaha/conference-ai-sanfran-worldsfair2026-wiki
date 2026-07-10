@@ -13,19 +13,18 @@ scheduleLabels: ["Generative Media", "Track 1", "session", "confirmed"]
 ---
 # Building an Agentic Video Editor for Mass Consumer
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-07-01 · 11:40am-12:00pm
 - Track/room: Generative Media · Track 1
 - Speaker(s): Ekaterina Deyneka
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: Generative Media
 - Room: Track 1
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 Most agentic systems today are built for developers — people comfortable setting up environment, configs, and debugging agent loops. But what happens when your user has never heard the word "agent" and just wants a video ready to post? Reelful is an agentic video editor that lives right in the user's phone. It turns raw photos and videos from your camera roll into polished, short videos. No setup. No sophisticated prompting. No empty timeline. Under the hood, the agent orchestrates multiple models and composes a video together. In this talk, I'll walk through:
 
 - The agentic pipeline architecture: how we chain models across modalities (vision → language → speech → video), handle context passing between steps, and manage state across a multi-minute generation job
@@ -33,8 +32,24 @@ Most agentic systems today are built for developers — people comfortable setti
 
 This talk is for anyone building agents that need to work for non-technical users, or anyone curious about multimodal agentic pipelines beyond text and code.
 
-## Related YouTube Video
+## Media Evidence
 No related AI Engineer channel video found yet.
+
+- [[youtube-AheG9p_JXVw-transcript]] — full cached transcript markdown for the related YouTube source.
+
+- Source video: `youtube-AheG9p_JXVw`
+- Slide deck: [[youtube-AheG9p_JXVw-slides|Slides: AI Engineer World's Fair: Building Reelful - Agentic Video Editor]] — no readable content slides after AI classification.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-AheG9p_JXVw` — 1,340 transcript words
+- Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
+- Evidence links for `youtube-AheG9p_JXVw`: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
@@ -50,9 +65,6 @@ These videos were discovered outside the official AI Engineer channel and matche
   - Confidence: high (0.74)
   - Match evidence: event marker in title/metadata; ordered title phrase match 0.50; company match: Reelful; talk/session-shaped title; plausible talk/workshop duration
   - Transcript status: captions_imported `raw/sources/external-youtube-transcripts/AheG9p_JXVw.txt`
-
-## Transcript Markdown
-- [[youtube-AheG9p_JXVw-transcript]] — full cached transcript markdown for the related YouTube source.
 
 ## Synthesis
 ### Synthesized Breakdown
@@ -82,18 +94,5 @@ The product lesson is that complex agent workflows should disappear behind simpl
 ### Evidence Boundary
 This synthesis uses the official schedule plus cached related-video transcripts. Related videos remain supporting context unless explicitly verified as exact session recordings.
 
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-AheG9p_JXVw` — 1,340 transcript words
-- Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
-- Evidence links for `youtube-AheG9p_JXVw`: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-## Slides
-- Source video: `youtube-AheG9p_JXVw`
-- Slide deck: [[youtube-AheG9p_JXVw-slides|Slides: AI Engineer World's Fair: Building Reelful - Agentic Video Editor]] — no readable content slides after AI classification.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

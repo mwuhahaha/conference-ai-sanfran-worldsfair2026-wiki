@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Alex Hancock
 
-## Official Role
+## Profile
 Software Engineer at [[block|Block]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/alexjhancock/)
 - [X / Twitter](https://x.com/alexjhancock)
 
-## Official Bio
+## Biography
 Engineer at [[block|Block]] building goose. Maintainer of the Model Context Protocol (MCP) and the Agent Client Protocol (ACP).
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-alex-hancock-the-universal-remote-control-for-ai]] — The Universal Remote Control for AI (2026-06-30, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-alex-hancock-the-universal-remote-control-for-ai|The Universal Remote Control for AI]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

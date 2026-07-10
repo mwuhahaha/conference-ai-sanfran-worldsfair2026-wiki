@@ -13,23 +13,31 @@ scheduleLabels: ["Evals", "Track 5", "sponsor", "confirmed"]
 ---
 # Building Closed-Loop Evals for a Multimodal Agent at Uber Scale
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-30 · 11:40am-12:00pm
 - Track/room: Evals · Track 5
 - Speaker(s): Soumya Gupta, Jai Chopra
 - Session type/status: sponsor · confirmed
 
-## Schedule Labels
 - Track: Evals
 - Room: Track 5
 - Session type: sponsor
 - Status: confirmed
 
-## Official Description
+## Session Description
 This talk covers how we designed evals for Uber's food enhancement agent—which edits food photography to better present dishes for smaller, independent Uber Eats merchants—along with the pitfalls and lessons learned along the way. The problem is uniquely hard: we must stay faithful to the original dish, preserve each merchant's brand and packaging, and avoid homogenizing the marketplace—all without an existing playbook for multimodal evals in a narrow domain. We'll dig into what we learned navigating reward hacking, where the agent figured out how to game the eval loop, and how we built a closed feedback loop incorporating offline and online signals for continuous improvement—all while balancing creativity against rigid safety guardrails at scale. If you're an ML or applied AI practitioner working on multimodal systems, agentic pipelines, or eval design—especially building generative features under tight safety or quality constraints—you'll walk away with practical strategies for designing multimodal evals in a narrow domain, recognizing and countering reward hacking, and building offline/online feedback loops that keep a generative agent improving in production.
 
-## Related YouTube Video
+## Media Evidence
 No related AI Engineer channel video found yet.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
@@ -40,12 +48,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-No linked video, transcript, or slide source has been attached yet.
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

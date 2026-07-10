@@ -15,12 +15,22 @@ highlightPriority: "critical"
 ---
 # The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans
 
-## Why This Talk Matters
+## Significance
 This is a critical talk for the wiki's browser-agent and agentic-web coverage. It receives extra recording-search effort, richer company and tool context, and deeper synthesis because it connects web automation technique to repeatable engineering practice.
 
 The talk matters because it argues for browser automation as durable infrastructure rather than disposable agent clicking. Corey Gallon's core claim is practical: if a browser task will happen more than once, an AI agent should be able to turn it into a repeatable program that drives Chrome through the Chrome DevTools Protocol, not burn tokens replaying the same step-by-step browsing sequence.
 
-## Official Schedule Context
+This talk sits at the fault line between three approaches to the web:
+
+- Human browsing: slow, visual, stateful, and tolerant of messy interfaces.
+- Agent browsing through generic tools: flexible, but often token-expensive and brittle when every click becomes another model-mediated step.
+- Programmatic browser control: repeatable, scriptable, inspectable, and able to turn a successful browser run into an operating procedure.
+
+The important idea is not simply "use a browser." It is that browser work can become a programmable substrate for agents. Once an agent has discovered the right sequence, the workflow should graduate from improvisation to reusable automation: loops, pipes, scripts, scheduled runs, and evidence trails.
+
+That makes the session especially relevant to agentic engineering. A production agent does not just need a model and a tool list. It needs a way to interact with the messy web, preserve state, observe what happened, and avoid paying reasoning tokens for mechanical repetition.
+
+## Conference Context
 - Date/time: 2026-06-30 · 12:05pm-12:25pm
 - Track/room: Computer Use · Track 7
 - Speaker(s): Corey Gallon
@@ -30,11 +40,13 @@ The talk matters because it argues for browser automation as durable infrastruct
 - Related tool: [[chrome-agent]]
 - Related topic: [[agentic-web]]
 
-## Schedule Labels
 - Track: Computer Use
 - Room: Track 7
 - Session type: session
 - Status: confirmed
+
+## Session Description
+Anything you can do in a browser, your agent can do too. Not by tiptoeing through an MCP server one polite, token-burning call at a time -- properly, programmatically, the way you'd drive any other tool. I'll show you how with chrome-agent, an open source wrapper over the Chrome DevTools Protocol that has become irreplaceable in my everyday work. If you'll ever do a browser task more than once, step-by-step MCP browsing is slow, brittle, and bills you tokens for every single click. A CLI straight onto CDP makes the whole browser programmable: loop it, pipe it, script it, walk away. Write it Tuesday, run it a thousand times Wednesday, all without a second of AI agent babysitting. We'll dispel the MCP hype and myths, with successful demonstrations of cheeky things like: the power of CLI-based browsing and how its so much more capable than mere MCP; reaching through those oh-so-clever cross-origin iframes to clear the verify you're human checkboxes; showing that a JavaScript .click() is not a click, rather, just a function call in a costume that is banhammerable; ultimately, proving that a CDP browser operates just like a meatbag with a mouse and keyboard. You'll learn how to point your AI agents at real, messy, uncooperative websites and web applications and have them get things done exactly the way that you would.
 
 ## Recording Search Status
 No exact AI Engineer YouTube recording for this session has been found yet.
@@ -49,21 +61,7 @@ Searches performed for this page:
 
 Interpretation: treat [[youtube-JsKTQbT58BY]] as supporting speaker context, not as the recording of this session. If the official cut or track recording appears later, this page should be revisited first.
 
-## Official Description
-Anything you can do in a browser, your agent can do too. Not by tiptoeing through an MCP server one polite, token-burning call at a time -- properly, programmatically, the way you'd drive any other tool. I'll show you how with chrome-agent, an open source wrapper over the Chrome DevTools Protocol that has become irreplaceable in my everyday work. If you'll ever do a browser task more than once, step-by-step MCP browsing is slow, brittle, and bills you tokens for every single click. A CLI straight onto CDP makes the whole browser programmable: loop it, pipe it, script it, walk away. Write it Tuesday, run it a thousand times Wednesday, all without a second of AI agent babysitting. We'll dispel the MCP hype and myths, with successful demonstrations of cheeky things like: the power of CLI-based browsing and how its so much more capable than mere MCP; reaching through those oh-so-clever cross-origin iframes to clear the verify you're human checkboxes; showing that a JavaScript .click() is not a click, rather, just a function call in a costume that is banhammerable; ultimately, proving that a CDP browser operates just like a meatbag with a mouse and keyboard. You'll learn how to point your AI agents at real, messy, uncooperative websites and web applications and have them get things done exactly the way that you would.
-
-## Why This Talk Is Important
-This talk sits at the fault line between three approaches to the web:
-
-- Human browsing: slow, visual, stateful, and tolerant of messy interfaces.
-- Agent browsing through generic tools: flexible, but often token-expensive and brittle when every click becomes another model-mediated step.
-- Programmatic browser control: repeatable, scriptable, inspectable, and able to turn a successful browser run into an operating procedure.
-
-The important idea is not simply "use a browser." It is that browser work can become a programmable substrate for agents. Once an agent has discovered the right sequence, the workflow should graduate from improvisation to reusable automation: loops, pipes, scripts, scheduled runs, and evidence trails.
-
-That makes the session especially relevant to agentic engineering. A production agent does not just need a model and a tool list. It needs a way to interact with the messy web, preserve state, observe what happened, and avoid paying reasoning tokens for mechanical repetition.
-
-## Technical Throughline
+## Technical Pattern
 The talk centers on [[chrome-agent]], an open source wrapper over the Chrome DevTools Protocol.
 
 The key technical pattern is CDP-first browser control:
@@ -76,7 +74,7 @@ The key technical pattern is CDP-first browser control:
 
 This contrasts with generic browser-use patterns where each step can require a fresh model call, a fresh visual parse, and a fresh decision about the next click.
 
-## Practical Pattern
+## Applied Pattern
 Use the Dark Arts pattern when:
 
 - The task happens more than once.
@@ -87,61 +85,16 @@ Use the Dark Arts pattern when:
 
 Do not treat this as permission to bypass site rules, security boundaries, or user consent. The page should be read as an engineering argument for reliable browser automation, not as a recommendation to violate terms, evade protections, or run unreviewed actions against third-party systems.
 
-## Related YouTube Video
+## Media Evidence
 - [[youtube-JsKTQbT58BY]] - The Cure for the Vibe Coding Hangover — Corey J. Gallon, Rexmore. This is a related AI Engineer recording for the same speaker/company, not the exact Dark Arts session.
 
-## Related Public Sources
-- [Corey Gallon official speaker page](https://aie-wf.sentry.dev/speakers/spk_corey_gallon)
-- [Rexmore official site](https://rexmore.ai/)
-- [chrome-agent GitHub repository](https://github.com/sderosiaux/chrome-agent)
-- [Corey Gallon website](https://gallon.me)
-- [Corey Gallon LinkedIn](https://www.linkedin.com/in/coreygallon)
-
-## Related Pages
-- [[corey-gallon]]
-- [[rexmore]]
-- [[chrome-agent]]
-- [[agentic-web]]
-- [[ai-sandboxes]]
-- [[mcp]]
-- [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web]]
-- [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis]]
-- [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]]
-
-## Evidence Boundary
-Official schedule and speaker data are canonical for the talk title, speaker, date, track, and room. The recording has not been found as of this enrichment pass. Public sources about Rexmore, Corey Gallon, and chrome-agent provide supporting context for interpreting the talk, but they are not a substitute for a session transcript.
-
-## Transcript Markdown
 - [[youtube-4sX_He5c4sI-transcript]] — full cached transcript markdown for the related YouTube source.
 - [[youtube-I2cbIws9j10-transcript]] — full cached transcript markdown for the related YouTube source.
 - [[youtube-htM02KMNZnk-transcript]] — full cached transcript markdown for the related YouTube source.
 
-## Additional Photo Slide Evidence
 These are phone-photo slide captures from the Google Photos `AIE Slides` album. They are supporting slide evidence and do not override official schedule fields.
 - [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-dark-arts-web-automation-slides]] - Google Photos Slides: The Dark Arts of Web Automation (confidence: high).
 
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals
-- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
-- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
-- Evidence links for `youtube-4sX_He5c4sI`: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
-- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
-- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-JsKTQbT58BY` — source page linked
-- Evidence links for `youtube-JsKTQbT58BY`: [[youtube-JsKTQbT58BY]]
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals
-- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
-- Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-## Slides
 - Source video: `youtube-4sX_He5c4sI`
 - Slide deck: [[youtube-4sX_He5c4sI-dense-slides|Dense Slides: WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive]] — 14 visible slide image(s); 14 HTML recreation(s).
 ![[assets/dense-slides/4sX_He5c4sI/slide-001.jpg]]
@@ -163,3 +116,46 @@ Use these source signals to refine the synopsis, topic links, people/company con
 ![[assets/dense-slides/htM02KMNZnk/slide-003.jpg]]
 - Additional slide evidence: [[youtube-htM02KMNZnk-slides|Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF]], [[youtube-htM02KMNZnk-reconstructed-slides|Reconstructed Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF]]
 - Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
+
+## Connections
+- [[corey-gallon]]
+- [[rexmore]]
+- [[chrome-agent]]
+- [[agentic-web]]
+- [[ai-sandboxes]]
+- [[mcp]]
+- [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web]]
+- [[2026-06-30-dhruv-batra-computer-use-models-will-agentify-the-web-not-apis]]
+- [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]]
+
+## Sources
+- [Corey Gallon official speaker page](https://aie-wf.sentry.dev/speakers/spk_corey_gallon)
+- [Rexmore official site](https://rexmore.ai/)
+- [chrome-agent GitHub repository](https://github.com/sderosiaux/chrome-agent)
+- [Corey Gallon website](https://gallon.me)
+- [Corey Gallon LinkedIn](https://www.linkedin.com/in/coreygallon)
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals
+- Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
+- Evidence links for `youtube-4sX_He5c4sI`: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+- `youtube-JsKTQbT58BY` — source page linked
+- Evidence links for `youtube-JsKTQbT58BY`: [[youtube-JsKTQbT58BY]]
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals
+- Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
+- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
+- Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+
+## Evidence Boundary
+Official schedule and speaker data are canonical for the talk title, speaker, date, track, and room. The recording has not been found as of this enrichment pass. Public sources about Rexmore, Corey Gallon, and chrome-agent provide supporting context for interpreting the talk, but they are not a substitute for a session transcript.

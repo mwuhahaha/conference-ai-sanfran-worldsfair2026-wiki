@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Ben Holmes
 
-## Official Role
+## Profile
 Dev Rel Lead at [[warp|Warp]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/bholmesdev)
 - [X / Twitter](https://x.com/bholmesdev)
 - [Website](https://bholmes.dev)
 - [Blog](https://bholmes.dev)
 
-## Official Bio
+## Biography
 Ben is a software engineer and content creator helping everyone make the world better with code. You may have seen him around the internet with a whiteboard explaining web development concepts and coding agent tips. You also may know him from livestreams on [[warp|Warp]], or as a core maintainer of Astro.build. If you're interested in Markdown, HTML, or Japanese City Pop, go talk to him.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-ben-holmes-llm-knowledge-bases-a-practical-guide]] — LLM Knowledge Bases: a practical guide (2026-06-30, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-ben-holmes-llm-knowledge-bases-a-practical-guide|LLM Knowledge Bases: a practical guide]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

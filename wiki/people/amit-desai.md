@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Amit Desai
 
-## Official Role
+## Profile
 Director, Voice & Assistant AI at [[roku|Roku]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/amit-v-desai/)
 
-## Official Bio
+## Biography
 Amit Desai is a domain expert in voice AI assistants who has led voice AI products at Alexa and [[roku|Roku]], founded startups in customer support AI, and created Top 5 mobile apps in the App Store. He works at the intersection of voice-interface intuition and AI technical approaches, with a current focus on safer voice interfaces for AI assistants, wearables, robotics, and vehicles.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-amit-desai-act-confirm-or-stop-smarter-behavior-for-ai-assistants-wearables-and-robots]] — Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots (2026-06-29, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-amit-desai-act-confirm-or-stop-smarter-behavior-for-ai-assistants-wearables-and-robots|Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

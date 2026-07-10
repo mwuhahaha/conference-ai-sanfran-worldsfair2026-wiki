@@ -7,25 +7,16 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # OpenAI
 
-## What It Is
+## Overview
 OpenAI is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects OpenAI to Abhishek Bhardwaj, Alexander Embiricos, Charlie Guo, Dominik Kundel, Gabriel Chua, Jason Liu. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+
+## Conference Relevance
 OpenAI matters to this wiki through 10 official speaker(s) and 13 scheduled session(s), including: Cooking with Codex; The Golden Age of AI Engineering; Getting the most out of Codex.
 
-## Related People
-- [[abhishek-bhardwaj]] - Member of Technical Staff, RL & Agent Infrastructure
-- [[alexander-embiricos]] - Head of Enterprise Product
-- [[charlie-guo]] - Developer Experience Engineer
-- [[dominik-kundel]] - Developer Experience Lead
-- [[gabriel-chua]] - Developer Experience Engineer
-- [[jason-liu]] - Developer Experience, OpenAI
-- [[lu-zhang]] - Member of Technical Staff
-- [[qianru-lao]] - Member of Technical Staff
-- [[romain-huet]] - Head of Developer Experience
-- [[vinoth-govindarajan]] - Member of Technical Staff
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-jason-liu-getting-the-most-out-of-codex]] - Getting the most out of Codex (2026-06-29, 10:45am-11:05am)
 - [[2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did]] - Your Agent Didn’t Fail. Your Harness Did. (2026-06-29, 11:10am-11:30am)
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] - Voice Agents Can Just Do Things (2026-06-29, 11:40am-12:00pm)
@@ -40,23 +31,25 @@ OpenAI matters to this wiki through 10 official speaker(s) and 13 scheduled sess
 - [[2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy]] - Routing LLM Inference in Production: From Engine Signals to Policy (2026-07-01, 11:10am-11:30am)
 - [[2026-07-01-dominik-kundel-codex-behind-the-harness]] - Codex, Behind the Harness (2026-07-01, 1:30pm-1:50pm)
 
-## Origin And Context
-The official speaker roster connects OpenAI to Abhishek Bhardwaj, Alexander Embiricos, Charlie Guo, Dominik Kundel, Gabriel Chua, Jason Liu. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+## Connections
+- [[abhishek-bhardwaj]] - Member of Technical Staff, RL & Agent Infrastructure
+- [[alexander-embiricos]] - Head of Enterprise Product
+- [[charlie-guo]] - Developer Experience Engineer
+- [[dominik-kundel]] - Developer Experience Lead
+- [[gabriel-chua]] - Developer Experience Engineer
+- [[jason-liu]] - Developer Experience, OpenAI
+- [[lu-zhang]] - Member of Technical Staff
+- [[qianru-lao]] - Member of Technical Staff
+- [[romain-huet]] - Head of Developer Experience
+- [[vinoth-govindarajan]] - Member of Technical Staff
 
-## Notes
-- Automated company profile fetch status: manual_url_unfetched.
-- Discovery confidence score: 50.
-
-## Public Sources
+## Sources
 - [OpenAI public site](https://openai.com/)
 
-## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-jason-liu-getting-the-most-out-of-codex|Getting the most out of Codex]]
 - [[2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did|Your Agent Didn’t Fail. Your Harness Did.]]
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things|Voice Agents Can Just Do Things]]
@@ -68,7 +61,7 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']]
 - [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2']]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-jryZvCuA0Uc` — 1 slide-derived text signals
 - Slide-derived themes for `youtube-jryZvCuA0Uc`: read, full, report.
 - Evidence links for `youtube-jryZvCuA0Uc`: [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]
@@ -82,3 +75,10 @@ This section summarizes how this organization appears across the conference sour
 - `youtube-wsFd22SL1s8` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-wsFd22SL1s8`: systems, chrome, code, sandboxes, operating, distributed, windows, subsystem.
 - Evidence links for `youtube-wsFd22SL1s8`: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
+
+## Notes
+- Automated company profile fetch status: manual_url_unfetched.
+- Discovery confidence score: 50.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -13,23 +13,37 @@ scheduleLabels: ["AI Architects: AI Factories", "Leadership 2", "session", "conf
 ---
 # Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-07-01 · 1:30pm-1:50pm
 - Track/room: AI Architects: AI Factories · Leadership 2
 - Speaker(s): Patrick Debois
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: AI Architects: AI Factories
 - Room: Leadership 2
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 Every company wants to know how others are actually scaling AI coding. But it's hard to get past the generic transformation stories. What are the new practices showing up in real engineering orgs? What does maturity actually look like, and what separates teams that are moving from teams that are stuck? What are the patterns for enabling humans and agents, together? Patrick Debois has been collecting the practices and patterns, talking to the early Agent Enablement teams already on the job, team leads, and VPs of Engineering. What's showing up is a new function: a team that enables other teams to get real leverage out of their agents. This talk takes the [Context Development Lifecycle](https://tessl.io/blog/context-development-lifecycle-better-context-for-ai-coding-agents/) off the individual laptop and onto the org chart, grouped across three pillars: - **Enablement.** From individual experimentation to team and org-level fluency with agents. - **Platform.** Agent tooling that runs like a real delivery pipeline: fast, observable, cost-aware. - **Governance.** Ad-hoc guardrails growing into real evaluation, telemetry, and accountable agent work. For Agent Enablement leaders scaling it out across the org. For team leads looking to help their teams get better at this. For VPs ready to unblock the friction and unlock what agents can actually do. *Coding agents don't scale themselves. This is the talk about who does*
 
-## Related YouTube Video
+## Media Evidence
 [Context Is the New Code — Patrick Debois, Tessl](https://www.youtube.com/watch?v=bSG9wUYaHWU) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+- Source video: `youtube-bSG9wUYaHWU`
+- Slide deck: [[youtube-bSG9wUYaHWU-dense-slides|Dense Slides: Context Is the New Code — Patrick Debois, Tessl]] — 1 visible slide image(s); 1 HTML recreation(s).
+![[assets/dense-slides/bSG9wUYaHWU/slide-001.jpg]]
+- Additional slide evidence: [[youtube-bSG9wUYaHWU-slides|Slides: Context Is the New Code — Patrick Debois, Tessl]], [[youtube-bSG9wUYaHWU-reconstructed-slides|Reconstructed Slides: Context Is the New Code — Patrick Debois, Tessl]]
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-bSG9wUYaHWU` — source page linked
+- Evidence links for `youtube-bSG9wUYaHWU`: [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -39,6 +53,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-bSG9wUYaHWU-slides]] — extracted from the related public AI Engineer video.
+
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-bSG9wUYaHWU-dense-slides]] (1 viable slide images).
 - Related slide/OCR pages:
@@ -47,19 +62,5 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-bSG9wUYaHWU-slides]]
 - Slide-derived terms: `context`, `alengineer`, `code`, `engineering`, `future`, `prompt`, `aiengineer`, `europe`, `engineer`, `https`, `piss`, `braintrust`, `workos`, `openal`, `skill`, `tryi`, `best`, `meout`
 
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-bSG9wUYaHWU` — source page linked
-- Evidence links for `youtube-bSG9wUYaHWU`: [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-## Slides
-- Source video: `youtube-bSG9wUYaHWU`
-- Slide deck: [[youtube-bSG9wUYaHWU-dense-slides|Dense Slides: Context Is the New Code — Patrick Debois, Tessl]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/bSG9wUYaHWU/slide-001.jpg]]
-- Additional slide evidence: [[youtube-bSG9wUYaHWU-slides|Slides: Context Is the New Code — Patrick Debois, Tessl]], [[youtube-bSG9wUYaHWU-reconstructed-slides|Reconstructed Slides: Context Is the New Code — Patrick Debois, Tessl]]
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

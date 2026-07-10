@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Midam Kim
 
-## Official Role
+## Profile
 ML Engineer at [[servicenow|ServiceNow]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/midamkim/)
 
-## Official Bio
+## Biography
 Midam Kim is an ML Engineer at [[servicenow|ServiceNow]], where she builds and evaluates a multilingual voice AI platform spanning a dozen languages. She holds a PhD in Linguistics from Northwestern University and has backgrounds in linguistics, speech science, cognitive science, machine learning, and business. Her work sits at the rare intersection of production ML engineering and speech science—translating decades of linguistic research into the engineering decisions voice AI teams are making right now.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents]] — "My name is... my name is...": A Linguistic Map for Building and Debugging Voice Agents (2026-06-29, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents|\"My name is... my name is...\": A Linguistic Map for Building and Debugging Voice Agents]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

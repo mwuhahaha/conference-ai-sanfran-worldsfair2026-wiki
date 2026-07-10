@@ -13,23 +13,38 @@ scheduleLabels: ["Expo Stage 2 NW", "session", "confirmed"]
 ---
 # Video Discovery for Agentic World-Model Training
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-29 · 2:50pm-3:10pm
 - Track/room: track TBD · Expo Stage 2 NW
 - Speaker(s): Rafael Levi
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: track TBD
 - Room: Expo Stage 2 NW
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 Physical AI had its “Attention Is All You Need” moment with the rise of Vision-Language-Action models. The next bottleneck is data: not just more video, but the ability to find the exact real-world moments that teach models how the world works: gravity, motion, causality, human behavior, and object interactions. This session explores a new approach: discovering specific scenes from the vastness of the web. We’ll show how teams can search for moments like objects falling, people interacting with environments, or actions unfolding over time, then collect and structure only the relevant clips for training and evaluation. Attendees will learn how scene-level discovery changes multimodal data pipelines, reducing wasted collection, processing, storage, and review, while making it easier to build targeted datasets for VLA systems, robotics, physical AI, and agentic world models.
 
-## Related YouTube Video
+## Media Evidence
 [From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data](https://www.youtube.com/watch?v=zTZ0qunQXnM) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+- Source video: `youtube-zTZ0qunQXnM`
+- Slide deck: [[youtube-zTZ0qunQXnM-reconstructed-slides|Reconstructed Slides: From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data]] — 2 visible slide image(s); 2 HTML recreation(s).
+![[assets/reconstructed-slides/zTZ0qunQXnM/slide-007.jpg]]
+![[assets/reconstructed-slides/zTZ0qunQXnM/slide-008.jpg]]
+- Additional slide evidence: [[youtube-zTZ0qunQXnM-slides|Slides: From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data]]
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-zTZ0qunQXnM` — source page linked
+- Evidence links for `youtube-zTZ0qunQXnM`: [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -39,19 +54,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-zTZ0qunQXnM-slides]] — extracted from the related public AI Engineer video.
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-zTZ0qunQXnM` — source page linked
-- Evidence links for `youtube-zTZ0qunQXnM`: [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-## Slides
-- Source video: `youtube-zTZ0qunQXnM`
-- Slide deck: [[youtube-zTZ0qunQXnM-reconstructed-slides|Reconstructed Slides: From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/reconstructed-slides/zTZ0qunQXnM/slide-007.jpg]]
-![[assets/reconstructed-slides/zTZ0qunQXnM/slide-008.jpg]]
-- Additional slide evidence: [[youtube-zTZ0qunQXnM-slides|Slides: From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data]]

@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Gustavo Cordido
 
-## Official Role
+## Profile
 Cloud Advocate & AI Content Engineer at [[microsoft|Microsoft]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/gcordido)
 - [X / Twitter](https://twitter.com/gcordidoa)
 
-## Official Bio
+## Biography
 Cloud Advocate and AI Content Engineer at [[microsoft|Microsoft]] working in machine learning and AI. He builds hands-on labs and open-source demos for AI agents using Azure AI services, [[microsoft|Microsoft]] Foundry, and the Model Context Protocol (MCP), and regularly delivers talks to developer audiences.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-gustavo-cordido-from-zero-to-deployed-on-azure-with-ai-agents]] — From zero to deployed on Azure with AI agents (2026-06-29, 11:05am-12:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-gustavo-cordido-from-zero-to-deployed-on-azure-with-ai-agents|From zero to deployed on Azure with AI agents]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

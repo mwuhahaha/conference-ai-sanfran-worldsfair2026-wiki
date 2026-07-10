@@ -9,26 +9,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Jack Morris
 
-## Official Role
+## Profile
 Cofounder at [[engram|Engram]].
 
-## Profile Links
 - [X / Twitter](https://x.com/jxmnop)
 - [Website](https://jxmo.io / https://substack.com/@jxmnop)
 
-## Official Bio
+## Biography
 Jack is a cofounder and head of research at [[engram|Engram]]. He received his PhD in 2025 from Cornell University
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-jack-morris-scaling-compute-on-context]] — Scaling Compute on Context (2026-06-30, 11:40am-12:00pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-jack-morris-scaling-compute-on-context|Scaling Compute on Context]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-Jty4s9-Jb78` — 2 slide-derived text signals
 - Slide-derived themes for `youtube-Jty4s9-Jb78`: fixed, capacity, probably.
 - Evidence links for `youtube-Jty4s9-Jb78`: [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]

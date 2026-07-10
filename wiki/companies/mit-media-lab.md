@@ -7,36 +7,36 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # MIT Media Lab
 
-## What It Is
+## Overview
 MIT Media Lab is represented at AI Engineer World's Fair 2026. Its public site describes it this way: The MIT Media Lab is an interdisciplinary research lab that encourages the unconventional mixing and matching of seemingly disparate research areas.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects MIT Media Lab to Cyrus Clarke. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Conference Relevance
 MIT Media Lab matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: I gave an AI a body.
 
-## Related People
-- [[cyrus-clarke]] - Researcher
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-cyrus-clarke-i-gave-an-ai-a-body]] - I gave an AI a body (2026-06-30, 3:45pm-4:05pm)
 
-## Origin And Context
-The official speaker roster connects MIT Media Lab to Cyrus Clarke. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+## Connections
+- [[cyrus-clarke]] - Researcher
+
+## Sources
+- [MIT Media Lab](https://www.media.mit.edu/)
+
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Linked Sessions
+- [[2026-06-30-cyrus-clarke-i-gave-an-ai-a-body|I gave an AI a body]]
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
 - Automated company profile fetch status: fetched.
 - Discovery confidence score: 105.
 
-## Public Sources
-- [MIT Media Lab](https://www.media.mit.edu/)
-
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
-
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
-- [[2026-06-30-cyrus-clarke-i-gave-an-ai-a-body|I gave an AI a body]]
-
-### Slide And Transcript Signals
-No linked video, transcript, or slide source has been attached yet.

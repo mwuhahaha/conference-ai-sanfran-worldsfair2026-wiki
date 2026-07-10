@@ -13,23 +13,41 @@ scheduleLabels: ["LLM Recsys", "Track 7", "session", "confirmed"]
 ---
 # Tokens In, Engagement Out: Training LLM-Recommenders
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-29 · 10:45am-11:05am
 - Track/room: LLM Recsys · Track 7
 - Speaker(s): Devansh Tandon
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: LLM Recsys
 - Room: Track 7
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 No official description published in the schedule data.
 
-## Related YouTube Video
+## Media Evidence
 [Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon](https://www.youtube.com/watch?v=LxQsQ3vZDqo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+- Source video: `youtube-LxQsQ3vZDqo`
+- Slide deck: [[youtube-LxQsQ3vZDqo-dense-slides|Dense Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]] — 5 visible slide image(s); 5 HTML recreation(s).
+![[assets/dense-slides/LxQsQ3vZDqo/slide-001.jpg]]
+![[assets/dense-slides/LxQsQ3vZDqo/slide-002.jpg]]
+![[assets/dense-slides/LxQsQ3vZDqo/slide-003.jpg]]
+- Additional slide evidence: [[youtube-LxQsQ3vZDqo-slides|Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]], [[youtube-LxQsQ3vZDqo-reconstructed-slides|Reconstructed Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]]
+- Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-LxQsQ3vZDqo` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.
+- Evidence links for `youtube-LxQsQ3vZDqo`: [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -39,6 +57,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-LxQsQ3vZDqo-slides]] — extracted from the related public AI Engineer video.
+
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-LxQsQ3vZDqo-dense-slides]] (5 viable slide images).
 - Related slide/OCR pages:
@@ -46,22 +65,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
 - [[youtube-LxQsQ3vZDqo-slides]]
 - Slide-derived terms: `watchnext`, `microsoft`, `recs`, `gemini`, `youtube`, `home`, `search`, `personalized`, `recommendation`, `peers`, `user`, `tasks`, `finds`, `races`, `women`, `graphite`, `windsurf`, `monegobb`
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-LxQsQ3vZDqo` — 3 slide-derived text signals
-- Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.
-- Evidence links for `youtube-LxQsQ3vZDqo`: [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-## Slides
-- Source video: `youtube-LxQsQ3vZDqo`
-- Slide deck: [[youtube-LxQsQ3vZDqo-dense-slides|Dense Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]] — 5 visible slide image(s); 5 HTML recreation(s).
-![[assets/dense-slides/LxQsQ3vZDqo/slide-001.jpg]]
-![[assets/dense-slides/LxQsQ3vZDqo/slide-002.jpg]]
-![[assets/dense-slides/LxQsQ3vZDqo/slide-003.jpg]]
-- Additional slide evidence: [[youtube-LxQsQ3vZDqo-slides|Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]], [[youtube-LxQsQ3vZDqo-reconstructed-slides|Reconstructed Slides: Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon]]
-- Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.

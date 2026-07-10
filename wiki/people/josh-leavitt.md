@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Josh Leavitt
 
-## Official Role
+## Profile
 Sr. Director of AI & Data at [[coinbase|Coinbase]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/josh-leavitt/)
 - [X / Twitter](https://x.com/Josh_Leavitt)
 - [Website](https://www.coinbase.com/)
 
-## Official Bio
+## Biography
 Josh Leavitt is Senior Director of Product Management at [[coinbase|Coinbase]], where he leads AI Platform strategy and innovation. Josh oversees core initiatives aimed at making AI more accessible and secure at [[coinbase|Coinbase]]. Prior to joining [[coinbase|Coinbase]], he held leadership roles at Amazon Web Services. He is dedicated to building secure, accessible financial infrastructure, focusing on large-scale platform growth.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-josh-leavitt-from-zero-to-ai-native-scaling-ai-across-the-org]] — From Zero to AI-Native: Scaling AI Across the Org (2026-07-01, 1:30pm-1:50pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-josh-leavitt-from-zero-to-ai-native-scaling-ai-across-the-org|From Zero to AI-Native: Scaling AI Across the Org]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

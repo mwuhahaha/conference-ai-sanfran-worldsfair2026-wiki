@@ -7,21 +7,16 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Neo4j
 
-## What It Is
+## Overview
 Neo4j is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Connect data as it's stored with Neo4j. Perform powerful, complex queries at scale and speed with our graph data platform.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects Neo4j to Emil Eifrem, Jeremy Adams, Nyah Macklin, Stephen Chin, Will Lyon, Zach Blumenfeld. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Conference Relevance
 Neo4j matters to this wiki through 6 official speaker(s) and 6 scheduled session(s), including: AI on Your Lakehouse: Context Comes in Shapes, Not Queries; RAG Needs a Map: Using GraphRAG to Retrieve Connected Context; Actionable Knowledge For Agents With Context Graphs.
 
-## Related People
-- [[emil-eifrem]] - CEO
-- [[jeremy-adams]] - Tech Translator
-- [[nyah-macklin]] - Sr. Developer Advocate, Artificial intelligence
-- [[stephen-chin]] - VP of Developer Relations
-- [[will-lyon]] - Product Manager
-- [[zach-blumenfeld]] - AI Research Engineer
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context]] - RAG Needs a Map: Using GraphRAG to Retrieve Connected Context (2026-06-29, 11:05am-12:05pm)
 - [[2026-06-29-will-lyon-actionable-knowledge-for-agents-with-context-graphs]] - Actionable Knowledge For Agents With Context Graphs (2026-06-29, 11:10am-11:30am)
 - [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries]] - AI on Your Lakehouse: Context Comes in Shapes, Not Queries (2026-06-29, 9:00am-11:00am)
@@ -29,23 +24,21 @@ Neo4j matters to this wiki through 6 official speaker(s) and 6 scheduled session
 - [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens]] - CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens (2026-07-01, 10:45am-11:05am)
 - [[2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory]] - Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory (2026-07-01, 2:50pm-3:10pm)
 
-## Origin And Context
-The official speaker roster connects Neo4j to Emil Eifrem, Jeremy Adams, Nyah Macklin, Stephen Chin, Will Lyon, Zach Blumenfeld. The public company site was discovered by domain-guess and fetched for homepage metadata.
+## Connections
+- [[emil-eifrem]] - CEO
+- [[jeremy-adams]] - Tech Translator
+- [[nyah-macklin]] - Sr. Developer Advocate, Artificial intelligence
+- [[stephen-chin]] - VP of Developer Relations
+- [[will-lyon]] - Product Manager
+- [[zach-blumenfeld]] - AI Research Engineer
 
-## Notes
-- Automated company profile fetch status: fetched.
-- Discovery confidence score: 113.
-
-## Public Sources
+## Sources
 - [Graph Database & Analytics](https://neo4j.com/)
 
-## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-nyah-macklin-rag-needs-a-map-using-graphrag-to-retrieve-connected-context|RAG Needs a Map: Using GraphRAG to Retrieve Connected Context]]
 - [[2026-06-29-will-lyon-actionable-knowledge-for-agents-with-context-graphs|Actionable Knowledge For Agents With Context Graphs]]
 - [[2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries|AI on Your Lakehouse: Context Comes in Shapes, Not Queries]]
@@ -53,7 +46,7 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]]
 - [[2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory|Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-B9h9ovW5H9U` — 2,859 transcript words; 1 slide-derived text signals
 - Transcript signals for `youtube-B9h9ovW5H9U`: graph, context, data, create, traces, back, little, decision.
 - Slide-derived themes for `youtube-B9h9ovW5H9U`: engineering, future.
@@ -71,3 +64,10 @@ This section summarizes how this organization appears across the conference sour
 - `youtube-Fzb1a24hF-o` — 5 slide-derived text signals
 - Slide-derived themes for `youtube-Fzb1a24hF-o`: info, badge, pipeline, tomorrow, june, continue, hack, night.
 - Evidence links for `youtube-Fzb1a24hF-o`: [[youtube-Fzb1a24hF-o]], [[youtube-Fzb1a24hF-o-slides]], [[youtube-Fzb1a24hF-o-dense-slides]], [[youtube-Fzb1a24hF-o-reconstructed-slides]]
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

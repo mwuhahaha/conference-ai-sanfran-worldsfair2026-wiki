@@ -7,28 +7,16 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Anthropic
 
-## What It Is
+## Overview
 Anthropic is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects Anthropic to Angela Jiang, Christopher Lovejoy, Eugene Yan, Gabriel Cemaj, Gagan Bhat, Isabella Kai He. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Conference Relevance
 Anthropic matters to this wiki through 13 official speaker(s) and 13 scheduled session(s), including: Evolution of agentic surfaces; Claude Managed Agents Workshop (Part 1); Claude Managed Agents workshop (Part 2).
 
-## Related People
-- [[angela-jiang]] - Head of Product, Claude Platform
-- [[christopher-lovejoy]] - Member of Technical Staff
-- [[eugene-yan]] - Member of Technical Staff
-- [[gabriel-cemaj]] - Member of the Technical Staff
-- [[gagan-bhat]] - Member of Technical Staff
-- [[isabella-kai-he]] - Member of Technical Staff
-- [[katelyn-lesse]] - Head of Engineering, Claude Platform
-- [[kevin-bai]] - Member of Technical Staff
-- [[lance-martin]] - Member of Technical Staff
-- [[mike-krieger]] - Head of Labs
-- [[priyanka-phatak]] - Member of Technical Staff
-- [[sachin-malhotra]] - Member of Technical Staff
-- [[thariq-shihipar]] - Claude Code
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-1]] - Claude Managed Agents Workshop (Part 1) (2026-06-29, 10:45am-11:05am)
 - [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-2]] - Claude Managed Agents workshop (Part 2) (2026-06-29, 11:10am-11:30am)
 - [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-3]] - Claude Managed Agents workshop (Part 3) (2026-06-29, 11:40am-12:00pm)
@@ -43,23 +31,28 @@ Anthropic matters to this wiki through 13 official speaker(s) and 13 scheduled s
 - [[2026-07-01-sachin-malhotra-give-the-agent-a-budget-not-a-token]] - Give the Agent a Budget, Not a Token (2026-07-01, 3:20pm-3:40pm)
 - [[2026-07-01-christopher-lovejoy-why-your-enterprise-tech-stack-isn-t-ready-for-ai-agents-and-what-to-build-instead]] - Why Your Enterprise Tech Stack Isn't Ready for AI Agents - And What to Build Instead (2026-07-01, 3:45pm-4:05pm)
 
-## Origin And Context
-The official speaker roster connects Anthropic to Angela Jiang, Christopher Lovejoy, Eugene Yan, Gabriel Cemaj, Gagan Bhat, Isabella Kai He. The public company site was discovered by domain-guess and fetched for homepage metadata.
+## Connections
+- [[angela-jiang]] - Head of Product, Claude Platform
+- [[christopher-lovejoy]] - Member of Technical Staff
+- [[eugene-yan]] - Member of Technical Staff
+- [[gabriel-cemaj]] - Member of the Technical Staff
+- [[gagan-bhat]] - Member of Technical Staff
+- [[isabella-kai-he]] - Member of Technical Staff
+- [[katelyn-lesse]] - Head of Engineering, Claude Platform
+- [[kevin-bai]] - Member of Technical Staff
+- [[lance-martin]] - Member of Technical Staff
+- [[mike-krieger]] - Head of Labs
+- [[priyanka-phatak]] - Member of Technical Staff
+- [[sachin-malhotra]] - Member of Technical Staff
+- [[thariq-shihipar]] - Claude Code
 
-## Notes
-- Automated company profile fetch status: fetched.
-- Discovery confidence score: 113.
-
-## Public Sources
+## Sources
 - [Home \ Anthropic](https://www.anthropic.com/)
 
-## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-1|Claude Managed Agents Workshop (Part 1)]]
 - [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-2|Claude Managed Agents workshop (Part 2)]]
 - [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-3|Claude Managed Agents workshop (Part 3)]]
@@ -71,7 +64,7 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]]
 - [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-2vlCqD6igVA` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
 - Evidence links for `youtube-2vlCqD6igVA`: [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
@@ -87,3 +80,10 @@ This section summarizes how this organization appears across the conference sour
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
 - Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

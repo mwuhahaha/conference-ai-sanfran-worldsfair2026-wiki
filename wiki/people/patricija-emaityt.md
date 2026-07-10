@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Patricija Žemaitytė
 
-## Official Role
+## Profile
 Product Manager at [[oxylabs|Oxylabs]].
 
-## Profile Links
 - [LinkedIn](https://lt.linkedin.com/in/patricijazemaityte)
 
-## Official Bio
+## Biography
 With over five years of experience in the IT industry, Patricija Žemaitytė has built a focus on product management in the web scraping space and currently focuses on SERP and LLM scraping products at [[oxylabs|Oxylabs]].
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai]] — How Web Data Infrastructure Powers the Next Generation of AI (2026-06-30, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-patricija-emaityt-how-web-data-infrastructure-powers-the-next-generation-of-ai|How Web Data Infrastructure Powers the Next Generation of AI]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

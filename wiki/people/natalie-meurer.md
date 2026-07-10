@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Natalie Meurer
 
-## Official Role
+## Profile
 Head of Agent Engineering at [[sierra|Sierra]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/nataliemeurer)
 - [X / Twitter](https://x.com/natalie_meurer)
 
-## Official Bio
+## Biography
 Head of Agent Engineering at [[sierra|Sierra]], leading teams that design, build, and deploy AI agents for enterprise customer experiences.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-natalie-meurer-the-dirty-secret-of-forward-deployed-engineering]] — The Dirty Secret of Forward Deployed Engineering (2026-06-29, 1:30pm-1:50pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-natalie-meurer-the-dirty-secret-of-forward-deployed-engineering|The Dirty Secret of Forward Deployed Engineering]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

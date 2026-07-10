@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Javier Garza
 
-## Official Role
+## Profile
 Developer Advocate at [[snyk|Snyk]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jjgarza)
 - [X / Twitter](https://twitter.com/jjaviergarza)
 
-## Official Bio
+## Biography
 Developer Advocate at [[snyk|Snyk]], a cybersecurity company focused on securing code, open-source dependencies, and cloud infrastructure. Co-author of O'Reilly's Learning HTTP/2 and an experienced conference speaker on developer and security engineering topics.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-javier-garza-ai-security-engineer-foundations-certificate]] — AI Security Engineer Foundations + Certificate (2026-06-29, 9:00am-11:00am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-javier-garza-ai-security-engineer-foundations-certificate|AI Security Engineer Foundations + Certificate]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

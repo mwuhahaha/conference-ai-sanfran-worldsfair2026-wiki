@@ -6,23 +6,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # XiangMing Sun
 
-## Official Role
+## Profile
 Role not listed at [[unitree|Unitree]].
 
-## Profile Links
 No public profile links listed in the official speaker roster.
 
-## Official Bio
+## Biography
 No official bio included in the speaker JSON.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-xiangming-sun-unitree-building-mass-produced-humanoids]] — Unitree: Building Mass Produced Humanoids (2026-06-30, 1:30pm-1:50pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-xiangming-sun-unitree-building-mass-produced-humanoids|Unitree: Building Mass Produced Humanoids]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

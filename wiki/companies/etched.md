@@ -7,41 +7,41 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Etched
 
-## What It Is
+## Overview
 Etched is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Co-designed chips, racks, and software to push the pareto frontier to best-in-class throughput and interactivity.
 
-## Why It Matters At World's Fair
-Etched matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Latent Space Live: the Inference Inflection from First Principles.
-
-## Related People
-- [[rob-wachen]] - Co-founder and President
-
-## Related Scheduled Sessions
-- [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles]] - Latent Space Live: the Inference Inflection from First Principles (2026-07-01, 12:30pm-1:30pm)
-
-## Origin And Context
+## Background
 The official speaker roster connects Etched to Rob Wachen. The public company site was discovered by domain-guess and fetched for homepage metadata.
 
-## Notes
-- Automated company profile fetch status: fetched.
-- Discovery confidence score: 105.
+## Conference Relevance
+Etched matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Latent Space Live: the Inference Inflection from First Principles.
 
-## Public Sources
+## Conference Sessions
+- [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles]] - Latent Space Live: the Inference Inflection from First Principles (2026-07-01, 12:30pm-1:30pm)
+
+## Connections
+- [[rob-wachen]] - Co-founder and President
+
+## Sources
 - [Etched](https://www.etched.com/)
 
-## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles|Latent Space Live: the Inference Inflection from First Principles]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
 - Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-qaJXBMwUkoE` — source page linked
 - Evidence links for `youtube-qaJXBMwUkoE`: [[youtube-qaJXBMwUkoE]], [[youtube-qaJXBMwUkoE-slides]], [[youtube-qaJXBMwUkoE-dense-slides]], [[youtube-qaJXBMwUkoE-reconstructed-slides]]
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 105.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

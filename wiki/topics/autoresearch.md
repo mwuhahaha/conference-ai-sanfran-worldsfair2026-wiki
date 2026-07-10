@@ -9,31 +9,23 @@ last_auto_summarized: '2026-07-06T19:58:14.630Z'
 ---
 # Autoresearch
 
-## Synopsis
+## Overview
 AutoResearch is the use of agents to search, read, compare, synthesize, benchmark, and sometimes design follow-up experiments over a body of evidence. In the WF2026 Autoresearch track, the concept spans automated AI research, dense retrieval with test-time compute over frozen embedding models, autonomous research-agent loops, reflective self-improvement of context and model weights, kernel optimization, and production pathways from frontier ML research into usable systems. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, evaluation, and clear next-step planning.
 
-## Origin And Context
+## Conference Context
 It grew from literature search, systematic review methods, research assistants, web search, RAG, benchmarking, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, compare evidence, and produce structured research artifacts. The connected WF2026 material places AutoResearch in a broader shift from one-off retrieval toward closed-loop systems: agents that gather evidence, run or propose tests, improve their own harnesses, and move research ideas toward production workflows.
 
-## Why It Matters
+## Significance
 Research work is expensive because it involves discovery, filtering, evidence comparison, synthesis under uncertainty, and judgment about what to try next. The connected sessions make the topic concrete: Richard Socher frames automated AI research as an emerging research direction, Han Xiao ties autoresearch to retrieval quality and test-time compute, Tim Sweeney focuses on autonomous research-agent loops, and Lakshya Agrawal connects self-improvement to context, harnesses, and model weights. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps instead of hiding uncertainty behind polished prose.
 
-## How To Use It
+## Applied Use
 Start with a clear research question, source-specific retrieval, and an explicit record of search terms, inclusion criteria, and excluded evidence. Keep a claim-evidence table that separates official schedule facts, transcript-backed observations, slide/OCR-derived notes, interpretations, and open questions. Use agentic search and memory for multi-step exploration, but pair them with agent evaluations, benchmark design, and human review before treating outputs as conclusions. For engineering research, connect the synthesis to reproducible artifacts: experiments, eval harnesses, retrieval tests, kernel benchmarks, or implementation plans.
 
-## Where It Is Useful
 AutoResearch is useful for technical due diligence, literature reviews, market maps, competitive analysis, financial-compliance document correlation, product discovery, and engineering design investigations. In this wiki, it is also a method for conference intelligence: the official Autoresearch livestream, extracted slides/OCR, scheduled talks, and transcript-backed resource pages can be compared to identify recurring claims, tools, research patterns, and unanswered questions across talks.
 
-## When To Use It
 Use it when the answer depends on multiple sources, evolving evidence, or repeated comparison across papers, products, transcripts, benchmarks, or implementation patterns. It is especially relevant when a team needs a source-grounded briefing, a research map, or an experiment plan rather than a single answer. Avoid relying on it as a black-box oracle for high-stakes conclusions; the connected material repeatedly points toward closed-loop research systems, but those loops still need traceable evidence, evaluation, and human judgment.
 
-## Active Use Cases
-- Evidence-grounded briefing docs and source maps.
-- Research agents that compare papers, products, or implementation patterns.
-- Experiment-planning support for AI and data teams.
-- Conference or domain wiki synthesis from talks, transcripts, and slides.
-
-## Related Scheduled Sessions
+## Connections
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]] — Closing the Loop: An Autonomous AI Research Agent; [[tim-sweeney|Tim Sweeney]] (Day 3 — Session Day 2 · 1:30pm-1:50pm · Autoresearch; official schedule)
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]] — Hands-on AutoResearch: Cracking OpenAI's Parameter Golf; [[zhengyao-jiang|Zhengyao Jiang]], [[dixing-xu|Dixing Xu]], [[vayum-arora|Vayum Arora]], [[dhruv-srikanth|Dhruv Srikanth]] (Day 1 — Workshop Day · 2:20pm-4:20pm · Workshops Day 1; official schedule)
 - [[2026-06-30-elie-bakouch-the-era-of-auto-research]] — « the era of (auto) research »; [[elie-bakouch|Elie Bakouch]] (Day 3 — Session Day 2 · 12:05pm-12:25pm · Autoresearch; official schedule)
@@ -59,7 +51,6 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[2026-06-30-laurie-voss-evals-track-intro]] — Evals Track Intro; [[laurie-voss|Laurie Voss]], [[aparna-dhinakaran|Aparna Dhinakaran]] (Day 3 — Session Day 2 · 10:25am-10:30am · Autoresearch; official schedule)
 - [[2026-06-30-lakshya-agrawal-self-improvement-of-context-harness-and-model-weights-through-reflective-optimization]] — Self-Improvement of Context, Harness, and Model Weights through Reflective Optimization; [[lakshya-agrawal|Lakshya Agrawal]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Autoresearch; official schedule)
 
-## Related People
 - [[laurie-voss|Laurie Voss]]
 - [[zhengyao-jiang|Zhengyao Jiang]]
 - [[charlie-guo|Charlie Guo]]
@@ -85,7 +76,6 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[deepak-pathak|Deepak Pathak]]
 - [[sonar|Sonar]]
 
-## Related Companies
 - [[weco-ai|Weco AI]]
 - [[google-deepmind|Google DeepMind]]
 - [[arize-ai|Arize AI]]
@@ -105,7 +95,7 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[supercell|Supercell]]
 - [[university-of-minnesota|University of Minnesota]]
 
-## Transcript And Resource Support
+## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-OXMMN-XbxwA]] — Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc
 - [[youtube-aHhB3sjGjkI]] — Agents Building Agents - Alfonso Graziano, Nearform
@@ -126,20 +116,9 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[youtube-bk0TmxoZlUY]] — Evals 101 — Doug Guthrie, Braintrust
 - [[youtube-hqHC6Z_lXyo]] — 20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna
 
-## Livestream Source
-- [[youtube-4sX_He5c4sI]] — official WF2026 Autoresearch and keynote livestream.
-- [[youtube-4sX_He5c4sI-slides]] — extracted slide/OCR deck for the livestream.
+This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
-## Neighboring Subjects
-- [[agent-evaluations]]
-- [[agentic-search]]
-- [[agent-memory]]
-- [[inference-engineering]]
-
-## Source-Derived Enrichment
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
-
-### Talk Evidence
+### Linked Sessions
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent|Closing the Loop: An Autonomous AI Research Agent]]
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
 - [[2026-06-30-elie-bakouch-the-era-of-auto-research|« the era of (auto) research »]]
@@ -151,7 +130,7 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind|Research to Reality with Google DeepMind]]
 - [[2026-06-30-richard-socher-first-steps-toward-automated-ai-research|First Steps Toward Automated AI Research]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
@@ -159,7 +138,8 @@ This section consolidates source evidence currently connected to this topic acro
 - `youtube-G_bHFmEAarM` — 6 slide-derived text signals
 - Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
 - Evidence links for `youtube-G_bHFmEAarM`: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
-## Evidence Table
+
+## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
@@ -171,7 +151,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 | tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
 | transcripts | 1 | Transcript markdown; check session matching and caption quality. |
 
-## Representative Evidence Links
 ### Talks
 - [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]]
@@ -203,66 +182,18 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[browserbase]]
 - [[prime-intellect]]
 
-## Representative Evidence Links
-### Talks
-- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
-- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]]
-- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
-- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]]
-- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
-- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]]
+## Active Use Cases
+- Evidence-grounded briefing docs and source maps.
+- Research agents that compare papers, products, or implementation patterns.
+- Experiment-planning support for AI and data teams.
+- Conference or domain wiki synthesis from talks, transcripts, and slides.
 
-### Resources
-- [[youtube-4sX_He5c4sI]]
-- [[youtube-dvft0Gp9sEE]]
-- [[youtube-bk0TmxoZlUY]]
-- [[youtube-OXMMN-XbxwA]]
-- [[youtube-aHhB3sjGjkI]]
-- [[youtube-UcYoMg-8-L8]]
+## Livestream Source
+- [[youtube-4sX_He5c4sI]] — official WF2026 Autoresearch and keynote livestream.
+- [[youtube-4sX_He5c4sI-slides]] — extracted slide/OCR deck for the livestream.
 
-### Slides
-- [[youtube-4sX_He5c4sI-slides]]
-- [[youtube-4sX_He5c4sI-dense-slides]]
-- [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- [[youtube-G_bHFmEAarM-slides]]
-- [[youtube-G_bHFmEAarM-dense-slides]]
-- [[youtube-G_bHFmEAarM-reconstructed-slides]]
-
-### Transcripts
-- [[youtube-4sX_He5c4sI-transcript]]
-
-### Tools
-- [[browserbase]]
-- [[prime-intellect]]
-
-## Representative Evidence Links
-### Talks
-- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
-- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]]
-- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
-- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]]
-- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
-- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]]
-
-### Resources
-- [[youtube-4sX_He5c4sI]]
-- [[youtube-dvft0Gp9sEE]]
-- [[youtube-bk0TmxoZlUY]]
-- [[youtube-OXMMN-XbxwA]]
-- [[youtube-aHhB3sjGjkI]]
-- [[youtube-UcYoMg-8-L8]]
-
-### Slides
-- [[youtube-4sX_He5c4sI-slides]]
-- [[youtube-4sX_He5c4sI-dense-slides]]
-- [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- [[youtube-G_bHFmEAarM-slides]]
-- [[youtube-G_bHFmEAarM-dense-slides]]
-- [[youtube-G_bHFmEAarM-reconstructed-slides]]
-
-### Transcripts
-- [[youtube-4sX_He5c4sI-transcript]]
-
-### Tools
-- [[browserbase]]
-- [[prime-intellect]]
+## Neighboring Subjects
+- [[agent-evaluations]]
+- [[agentic-search]]
+- [[agent-memory]]
+- [[inference-engineering]]

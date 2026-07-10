@@ -7,36 +7,36 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Programma Labs
 
-## What It Is
+## Overview
 Programma Labs is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "Programma — Ship AI agents with confidence", but the page did not expose a concise public description in metadata.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects Programma Labs to Pierluca D'Oro. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Conference Relevance
 Programma Labs matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Computer Use at the Edge of the Statistical Precipice.
 
-## Related People
-- [[pierluca-d-oro]] - Founder
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]] - Computer Use at the Edge of the Statistical Precipice (2026-06-30, 11:10am-11:30am)
 
-## Origin And Context
-The official speaker roster connects Programma Labs to Pierluca D'Oro. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+## Connections
+- [[pierluca-d-oro]] - Founder
+
+## Sources
+- [Programma — Ship AI agents with confidence](https://programma.dev/)
+
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Linked Sessions
+- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice|Computer Use at the Edge of the Statistical Precipice]]
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
 - Automated company profile fetch status: fetched.
 - Discovery confidence score: 113.
 
-## Public Sources
-- [Programma — Ship AI agents with confidence](https://programma.dev/)
-
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
-
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
-- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice|Computer Use at the Edge of the Statistical Precipice]]
-
-### Slide And Transcript Signals
-No linked video, transcript, or slide source has been attached yet.

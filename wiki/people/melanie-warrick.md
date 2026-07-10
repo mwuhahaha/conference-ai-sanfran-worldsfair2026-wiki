@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Melanie Warrick
 
-## Official Role
+## Profile
 Developer Relations Engineering at [[temporal-technologies|Temporal Technologies]].
 
-## Profile Links
 - [X / Twitter](https://x.com/nyghtowlYT)
 - [Website](https://nyghtowl.com)
 
-## Official Bio
+## Biography
 Melanie Warrick works in Developer Relations Engineering at [[temporal-technologies|Temporal Technologies]]. She has built AI solutions across data engineering, machine learning, developer relations, and health-tech roles, and now focuses on durable infrastructure and agentic systems.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-melanie-warrick-the-human-is-an-async-api]] — The Human Is an Async API (2026-07-01, 2:25pm-2:45pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-melanie-warrick-the-human-is-an-async-api|The Human Is an Async API]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

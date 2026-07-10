@@ -13,23 +13,31 @@ scheduleLabels: ["Vision & OCR", "Track 2", "sponsor", "confirmed"]
 ---
 # The Best Models Still Reason Like Toddlers
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-29 · 1:55pm-2:15pm
 - Track/room: Vision & OCR · Track 2
 - Speaker(s): Andrew Dai
 - Session type/status: sponsor · confirmed
 
-## Schedule Labels
 - Track: Vision & OCR
 - Room: Track 2
 - Session type: sponsor
 - Status: confirmed
 
-## Official Description
+## Session Description
 Frontier AI models score 80–90% on standard benchmarks like RKGI, yet when tested on visual tasks any 3-year-old handles effortlessly (like counting objects in an image), those same models fall to pieces. I watched this gap widen firsthand during my 14 years at Google Brain and DeepMind, where I co-led development on GLaM, PaLM 2, and Gemini. The problem is that most models hit high RKGI scores not through genuine visual understanding, but by coding – a workaround that scores well and reveals little. Strip that away and you're left with systems that struggle to solve a simple crossword puzzle, identify what's the same or different across two images, or navigate a basic 3D view. These tasks are essential to achieve human-level reasoning capability. And the current benchmark ecosystem wasn’t built to evaluate for it, leaving us with top scoring models that can’t even follow along with Count Von Count. In this talk I'll dig into why the current eval landscape systematically overstates capability, the structural reasons it does so, and how we got here from the viewpoint of someone who was inside a leading frontier lab. I'll close with what I believe a more rigorous, consensus-driven eval framework needs to look like, and why the field needs to build one before the next generation of visual systems ships into the real world. Fixing visual reasoning starts with fixing how we measure it. For engineers building on top of these models today, whether that's document understanding, robotic perception, medical imaging, or any system where visual perception context matters, the cost of getting this wrong is already showing up in production.
 
-## Related YouTube Video
+## Media Evidence
 No related AI Engineer channel video found yet.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
@@ -39,12 +47,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-No linked video, transcript, or slide source has been attached yet.
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

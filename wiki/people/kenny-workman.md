@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Kenny Workman
 
-## Official Role
+## Profile
 CTO at [[latchbio|LatchBio]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/kennyworkman)
 - [X / Twitter](https://x.com/kenbwork)
 - [Website](https://kenbw.com/)
 - [Blog](https://blog.latch.bio/p/the-latch-sdk)
 
-## Official Bio
+## Biography
 Co-Founder + CTO at [[latchbio|LatchBio]]. Engineering benchmarks and agents for practical tasks in biology research.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-kenny-workman-latchbio]] — LatchBio (2026-06-30, 2:25pm-2:45pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-kenny-workman-latchbio|LatchBio]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

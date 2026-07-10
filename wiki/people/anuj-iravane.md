@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Anuj Iravane
 
-## Official Role
+## Profile
 Head of AI at [[anterior|Anterior]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/anujiravane/)
 - [X / Twitter](https://x.com/anujiravane)
 - [Website](https://www.anterior.com/)
 
-## Official Bio
+## Biography
 Anuj leads AI at [[anterior|Anterior]], building production agents for high-stakes healthcare workflows.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-anuj-iravane-don-t-be-data-poor]] — Don't be data poor (2026-07-01, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-anuj-iravane-don-t-be-data-poor|Don't be data poor]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

@@ -11,28 +11,27 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Simon Eskildsen
 
-## Official Role
+## Profile
 CEO and co-founder at [[turbopuffer|turbopuffer]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/sirupsen/)
 - [X / Twitter](https://x.com/Sirupsen)
 - [Website](https://sirupsen.com)
 - [Blog](https://sirupsen.com/napkin)
 
-## Official Bio
+## Biography
 Co-founder and CEO at [[turbopuffer|turbopuffer]]. Formerly Principal Engineer at Shopify, where he helped scale infra from 1K → 1M RPS.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents]] — How to Connect AI to Billions of Legal Documents (2026-06-29, 2:25pm-2:45pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents|How to Connect AI to Billions of Legal Documents]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-XNtkiQJ49Ps` — 9 slide-derived text signals
 - Slide-derived themes for `youtube-XNtkiQJ49Ps`: human, than, chat, jacob, collaborative, legal, professionals, customers.
 - Evidence links for `youtube-XNtkiQJ49Ps`: [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]

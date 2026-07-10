@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Sai Krishna Rallabandi
 
-## Official Role
+## Profile
 Director, Data Science at [[fidelity-investments|Fidelity Investments]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/sai-krishna-rallabandi-8595418b/)
 - [X / Twitter](https://x.com/Saikallis9012)
 - [Website](https://saikrishnarallabandi.github.io/)
 - [Blog](https://saikrishnarallabandi.github.io/)
 
-## Official Bio
+## Biography
 Sai Krishna Rallabandi is Director, Data Science at [[fidelity-investments|Fidelity Investments]], where he leads applied LLM and AI-agent work. He has been awarded Meta fellowship for his PhD in Computer Science from Carnegie Mellon University.  His applied work has taken first place at multiple Finance for NLP challenges over the past 4 years. His research spans speech and language processing with a focus on financial data.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-sai-krishna-rallabandi-wearing-the-agent-engineering-a-family-and-friends-personal-agent-from-group-chats-to-glasses]] — Wearing the Agent: Engineering a Family-and-Friends Personal Agent, from Group Chats to Glasses (2026-07-01, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-sai-krishna-rallabandi-wearing-the-agent-engineering-a-family-and-friends-personal-agent-from-group-chats-to-glasses|Wearing the Agent: Engineering a Family-and-Friends Personal Agent, from Group Chats to Glasses]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

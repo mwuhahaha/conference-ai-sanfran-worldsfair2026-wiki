@@ -17,28 +17,36 @@ scheduleLabels: ["Sandbox & Platform Engineering", "Track 1", "session", "confir
 ---
 # Letting the Interns Loose — How We Accelerated AI Adoption.
 
-## Summary
-Shashank Goyal's session sits in the Sandbox & Platform Engineering track and is connected to the conference's broader Software Factories theme: how engineering organizations turn AI from individual experimentation into repeatable development infrastructure. The title frames interns as a practical adoption lever, suggesting a talk about giving newer engineers enough autonomy, tooling, and guardrails to accelerate AI use across real workflows rather than limiting AI adoption to a small expert group.
-
-The speaker context makes the platform angle especially relevant. Goyal is Head of Provider Ecosystem and a Founding Engineer at OpenRouter, where his work centers on infrastructure for accessing and routing across AI model providers. In this conference setting, the talk likely belongs less to abstract AI strategy and more to the mechanics of adoption: sandbox environments, provider access, internal enablement, and the organizational patterns that let teams experiment quickly while still keeping quality, cost, and reliability under control.
-
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-30 · 11:10am-11:30am
 - Track/room: Sandbox & Platform Engineering · Track 1
 - Speaker(s): Shashank Goyal
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: Sandbox & Platform Engineering
 - Room: Track 1
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 No official description published in the schedule data.
 
-## Related YouTube Video
+## Media Evidence
 No related AI Engineer channel video found yet.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
+
+## Summary
+Shashank Goyal's session sits in the Sandbox & Platform Engineering track and is connected to the conference's broader Software Factories theme: how engineering organizations turn AI from individual experimentation into repeatable development infrastructure. The title frames interns as a practical adoption lever, suggesting a talk about giving newer engineers enough autonomy, tooling, and guardrails to accelerate AI use across real workflows rather than limiting AI adoption to a small expert group.
+
+The speaker context makes the platform angle especially relevant. Goyal is Head of Provider Ecosystem and a Founding Engineer at OpenRouter, where his work centers on infrastructure for accessing and routing across AI model providers. In this conference setting, the talk likely belongs less to abstract AI strategy and more to the mechanics of adoption: sandbox environments, provider access, internal enablement, and the organizational patterns that let teams experiment quickly while still keeping quality, cost, and reliability under control.
 
 ## Transcript Status
 No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
@@ -48,12 +56,3 @@ No official session recording transcript was found by exact title match on the A
 
 ## Notes
 - Pending transcript synthesis when an official recording or confirmed matching video is available.
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-No linked video, transcript, or slide source has been attached yet.
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

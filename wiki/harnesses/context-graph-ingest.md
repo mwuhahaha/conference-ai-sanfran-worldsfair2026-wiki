@@ -4,25 +4,24 @@ category: "harnesses"
 status: "seeded"
 sourceLabels: ["Official schedule", "Question layer", "Topic synthesis"]
 ---
-
 # Context Graph Ingest
 
-## Purpose
+## Overview
 A harness for turning documents, talks, repositories, profiles, and transcripts into a source-labeled graph that agents can retrieve without losing provenance.
 
-## Observed At AIE
+## Conference Context
 - Context graph, GraphRAG, memory, and retrieval sessions emphasize relationships rather than isolated chunks.
 - The wiki already separates official schedule facts, supporting videos, transcripts, OCR, and public source-of-source context.
 - Search and memory talks show that source reachability and relationship quality are part of agent performance.
 
-## Recommended Implementation Steps
+## Implementation Pattern
 - Ingest sources by source type and preserve the original file or URL for every claim.
 - Extract entities, relationships, and claim snippets into separate reviewable records.
 - Score retrieval by whether it returns the right source for the question, not only similar text.
 - Keep stale or weak sources reachable but labeled, so agents do not treat every edge equally.
 - Promote stable graph patterns into topic pages, evaluations, or playbooks only after review.
 
-## Source Evidence
+## Evidence
 - [[agent-memory]] - Topic synthesis
 - [[agentic-search]] - Topic synthesis
 - [[what-context-graph-and-memory-architecture-is-practical]] - Question layer

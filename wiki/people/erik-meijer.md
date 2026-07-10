@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Erik Meijer
 
-## Official Role
+## Profile
 Research Scholar at [[leibniz-labs|Leibniz Labs]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/erikmeijer1/)
 - [X / Twitter](https://x.com/headinthebox)
 - [Website](https://en.wikipedia.org/wiki/Erik_Meijer_(computer_scientist))
 - [Blog](https://en.wikipedia.org/wiki/Erik_Meijer_(computer_scientist))
 
-## Official Bio
+## Biography
 Erik Meijer has spent more than three decades designing programming languages and developer tools that help humans express intent more clearly to machines. His work has influenced languages and technologies including Haskell, Mondrian, Cω, C#, Visual Basic, Dart, Hack, LINQ, and Rx. Today, he is building Universalis, the world's first programming language for AI agents. By combining formal verification with large language models, Universalis aims to make agentic systems safe, transparent, and trustworthy enough for real-world knowledge work.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust (2026-06-29, 4:50pm-5:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust|In Code They Act, In Proof We Trust]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

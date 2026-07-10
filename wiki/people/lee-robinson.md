@@ -10,29 +10,26 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Lee Robinson
 
-## Official Role
+## Profile
 ML, Model Behavior at [[cursor|Cursor]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/leeerob/)
 - [X / Twitter](https://x.com/leerob)
 - [Website](https://leerob.com)
 
-## Official Bio
+## Biography
 Model research and personality at [[cursor|Cursor]]. Previously Vercel.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-lee-robinson-recursive-model-improvement]] — Recursive Model Improvement (2026-06-29, 5:10pm-5:30pm)
-## Livestream Appearances
-- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — [watch at 08:12:13](https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s) in WF2026: Software Factories & Keynotes (Day 1).
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-fL1iJHtl51Q` — 5 slide-derived text signals
 - Slide-derived themes for `youtube-fL1iJHtl51Q`: speed, composer, intelligence, frontier, combines, coding, score, tokens.
 - Evidence links for `youtube-fL1iJHtl51Q`: [[youtube-fL1iJHtl51Q]], [[youtube-fL1iJHtl51Q-slides]], [[youtube-fL1iJHtl51Q-dense-slides]], [[youtube-fL1iJHtl51Q-reconstructed-slides]]
@@ -40,3 +37,6 @@ This section summarizes how this person appears across the conference source gra
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
 - Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+
+## Livestream Appearances
+- [[2026-06-29-lee-robinson-recursive-model-improvement|Recursive Model Improvement]] — [watch at 08:12:13](https://www.youtube.com/watch?v=htM02KMNZnk&t=29533s) in WF2026: Software Factories & Keynotes (Day 1).

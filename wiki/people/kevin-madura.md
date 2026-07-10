@@ -11,28 +11,27 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Kevin Madura
 
-## Official Role
+## Profile
 Director, Advanced Technology at [[alixpartners|AlixPartners]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/kevinmadura/)
 - [X / Twitter](https://x.com/kmad)
 - [Website](https://kmad.ai)
 - [Blog](https://kmad.ai)
 
-## Official Bio
+## Biography
 Building real-world AI solutions for enterprise clients using DSPy, RLMs, and agent-native architectures. Technologist & expert witness @ [[alixpartners|AlixPartners]].
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-kevin-madura-it-s-tokens-all-the-way-down-how-rlms-are-different]] — It’s Tokens All The Way Down: How RLMs are Different (2026-06-30, 11:10am-11:30am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-kevin-madura-it-s-tokens-all-the-way-down-how-rlms-are-different|'It’s Tokens All The Way Down: How RLMs are Different']]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube--cKUW6n8hBU` — 8 slide-derived text signals
 - Slide-derived themes for `youtube--cKUW6n8hBU`: document, declarative, framework, modular, software, cases, lighting, round.
 - Evidence links for `youtube--cKUW6n8hBU`: [[youtube--cKUW6n8hBU]], [[youtube--cKUW6n8hBU-slides]], [[youtube--cKUW6n8hBU-dense-slides]], [[youtube--cKUW6n8hBU-reconstructed-slides]]

@@ -11,18 +11,29 @@ highlightPriority: "critical"
 ---
 # William Tarr
 
-## Official Role
+## Profile
 No10 Innovation Fellow and forward-deployed engineer working with the [[justice-ai-unit|Justice AI Unit]] in the UK [[ministry-of-justice|Ministry of Justice]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/willtarr)
 - [No10 Innovation Fellowship article](https://fellows.ai.gov.uk/articles/william-tarr-moj/)
 - [No10 Innovation Fellowship roster](https://fellows.ai.gov.uk/)
 
-## Why He Matters At World's Fair
+## Conference Relevance
 William Tarr anchors [[youtube-qlHaO6laBlM|Shipping Production AI Inside Government]], a source that moves AI engineering from generic deployment advice into a difficult public-sector setting: prisons, probation, courts, legacy systems, procurement constraints, and frontline staff trust.
 
 The talk is valuable because Tarr describes how a small AI unit can operate inside government with startup-like product loops while still being forced to account for institutional trust, frontline workflows, infrastructure gaps, and responsible deployment.
+
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Linked Sessions
+- No related scheduled session was found in this pass.
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
+
+## Evidence Boundary
+This page combines public YouTube metadata, transcript/slide evidence, No10 Fellowship pages, the [[justice-ai-unit|Justice AI Unit]] site, and Tergle/YC public pages. The exact AI Engineer schedule slot for this cut video has not been matched to an official scheduled session page in this wiki.
 
 ## Background
 No10's public fellowship article identifies Tarr as a No10 Innovation Fellow working with the [[justice-ai-unit|Justice AI Unit]]. The same article says the unit pairs small teams of engineers with long-term industry experts who understand justice operations, and describes Tarr working on-site inside prisons early in the fellowship.
@@ -44,15 +55,3 @@ The extracted slide deck from the talk also connects Tarr to [[tergle|Tergle]] (
 
 ## Related People
 - [[louis-allgood]]
-
-## Evidence Boundary
-This page combines public YouTube metadata, transcript/slide evidence, No10 Fellowship pages, the [[justice-ai-unit|Justice AI Unit]] site, and Tergle/YC public pages. The exact AI Engineer schedule slot for this cut video has not been matched to an official scheduled session page in this wiki.
-
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
-- No related scheduled session was found in this pass.
-
-### Slide And Transcript Signals
-No linked video, transcript, or slide source has been attached yet.

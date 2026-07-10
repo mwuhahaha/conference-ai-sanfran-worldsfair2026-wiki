@@ -7,23 +7,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Nicolai Ouporov
 
-## Official Role
+## Profile
 CEO at [[fleet|Fleet]].
 
-## Profile Links
 No public profile links listed in the official speaker roster.
 
-## Official Bio
+## Biography
 Nicolai Ouporov is founder and CEO of [[fleet|Fleet]], an applied AI and product lab building simulations and real-world challenges for testing and training agents. He previously was a founding engineer and first hire at Respell and has Stanford robotics research experience.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-nicolai-ouporov-building-worlds-for-models]] — Building Worlds for Models (2026-06-29, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-nicolai-ouporov-building-worlds-for-models|Building Worlds for Models]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

@@ -7,48 +7,41 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # WorkOS
 
-## What It Is
+## Overview
 WorkOS is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Developer APIs/SDKs for Enterprise Ready features like Single Sign-On, Directory Sync, Audit Logging, and more. Get started for free.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects WorkOS to Garrett Galow, Michael Grinich, Nick Nisi, Ryan Cooke, Zack Proser. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Conference Relevance
 WorkOS matters to this wiki through 5 official speaker(s) and 4 scheduled session(s), including: Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks; Building an Agent Harness for the Business, Not the Builder; No, That's Not a Software Factory.
 
-## Related People
+## Conference Sessions
+- [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks]] - Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks (2026-06-29, 4:30pm-5:30pm)
+- [[2026-06-30-garrett-galow-building-an-agent-harness-for-the-business-not-the-builder]] - Building an Agent Harness for the Business, Not the Builder (2026-06-30, 2:50pm-3:10pm)
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]] - No, That's Not a Software Factory (2026-07-01, 10:45am-11:05am)
+- [[2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md]] - Auth for Agents: Unblock Autonomous AI with auth.md (2026-07-01, 11:40am-12:00pm)
+
+## Connections
 - [[garrett-galow]] - Product Manager
 - [[michael-grinich]] - Founder & CEO
 - [[nick-nisi]] - Developer Experience Engineer
 - [[ryan-cooke]] - role not listed
 - [[zack-proser]] - AI Engineer, Applied AI
 
-## Related Scheduled Sessions
-- [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks]] - Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks (2026-06-29, 4:30pm-5:30pm)
-- [[2026-06-30-garrett-galow-building-an-agent-harness-for-the-business-not-the-builder]] - Building an Agent Harness for the Business, Not the Builder (2026-06-30, 2:50pm-3:10pm)
-- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]] - No, That's Not a Software Factory (2026-07-01, 10:45am-11:05am)
-- [[2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md]] - Auth for Agents: Unblock Autonomous AI with auth.md (2026-07-01, 11:40am-12:00pm)
-
-## Origin And Context
-The official speaker roster connects WorkOS to Garrett Galow, Michael Grinich, Nick Nisi, Ryan Cooke, Zack Proser. The public company site was discovered by domain-guess and fetched for homepage metadata.
-
-## Notes
-- Automated company profile fetch status: fetched.
-- Discovery confidence score: 113.
-
-## Public Sources
+## Sources
 - [WorkOS — Your app, Enterprise Ready.](https://workos.com/)
 
-## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks|>-]]
 - [[2026-06-30-garrett-galow-building-an-agent-harness-for-the-business-not-the-builder|Building an Agent Harness for the Business, Not the Builder]]
 - [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory|No, That's Not a Software Factory]]
 - [[2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md|Auth for Agents: Unblock Autonomous AI with auth.md]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-so9l_MwS2yg` — 3 slide-derived text signals
 - Slide-derived themes for `youtube-so9l_MwS2yg`: bottleneck, imagining, recommend, finding, developer, balance.
 - Evidence links for `youtube-so9l_MwS2yg`: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
@@ -58,3 +51,10 @@ This section summarizes how this organization appears across the conference sour
 - `youtube-D4Dswf-__RM` — 2 slide-derived text signals
 - Slide-derived themes for `youtube-D4Dswf-__RM`: grant, negotiation, authorization, protocol.
 - Evidence links for `youtube-D4Dswf-__RM`: [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

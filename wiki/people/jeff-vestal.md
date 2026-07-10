@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Jeff Vestal
 
-## Official Role
+## Profile
 Senior Principal AI Architect at [[elastic|Elastic]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jeffvestal)
 - [Blog](https://www.elastic.co/blog/author/jeff-vestal)
 
-## Official Bio
+## Biography
 Jeff Vestal is a Senior Principal AI Architect at [[elastic|Elastic]]. He works on search, retrieval, generative AI, RAG, and agent use cases with Elasticsearch, including hybrid search and AI systems built on [[elastic|Elastic]].
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-jeff-vestal-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]] — Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers (2026-06-29, 2:20pm-4:20pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-jeff-vestal-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers|Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

@@ -8,25 +8,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Vlad Luzin
 
-## Official Role
+## Profile
 Founder at [[band-ai|Band.ai]].
 
-## Profile Links
 - [LinkedIn](https://il.linkedin.com/in/luzin)
 
-## Official Bio
+## Biography
 Vlad Luzin is Founder of [[band-ai|Band.ai]], working on agent orchestration and deployment patterns for AI systems.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-vlad-luzin-every-agent-everywhere-all-at-once]] — Every Agent, Everywhere, All at Once (2026-06-29, 1:30pm-1:50pm)
 - [[2026-06-30-vlad-luzin-is-orchestration-the-future]] — Is Orchestration the Future? (2026-06-30, 11:10am-11:30am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-vlad-luzin-every-agent-everywhere-all-at-once|Every Agent, Everywhere, All at Once]]
 - [[2026-06-30-vlad-luzin-is-orchestration-the-future|Is Orchestration the Future?]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

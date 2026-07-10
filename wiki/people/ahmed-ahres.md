@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Ahmed Ahres
 
-## Official Role
+## Profile
 Head of Product & GTM at [[reactor|Reactor]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ahmedahres/)
 - [X / Twitter](https://x.com/Boudatw)
 - [Website](https://www.ahmedahres.com)
 - [Blog](https://www.ahmedahres.com)
 
-## Official Bio
+## Biography
 Head of Product & GTM @ [[reactor|Reactor]]. Previously was the first ever intern at Revolut, started a company backed by a16z Speedrun, built and shipped mobile games, and was a national Tennis champion.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-ahmed-ahres-the-next-medium-why-real-time-interactive-video-changes-everything-for-developers]] — The Next Medium: Why Real-Time Interactive Video Changes Everything for Developers (2026-07-01, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-ahmed-ahres-the-next-medium-why-real-time-interactive-video-changes-everything-for-developers|The Next Medium: Why Real-Time Interactive Video Changes Everything for Developers]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

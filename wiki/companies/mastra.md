@@ -7,38 +7,38 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Mastra
 
-## What It Is
+## Overview
 Mastra is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Ship AI agents that reason, remember, and act in TypeScript. Mastra provides memory, tools, MCP, and observability to go from prototype to production.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects Mastra to Sam Bhagwat. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Conference Relevance
 Mastra matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Every Harness Will Become A Claw.
 
-## Related People
-- [[sam-bhagwat]] - Founder/CEO
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw]] - Every Harness Will Become A Claw (2026-06-29, 3:20pm-3:40pm)
 
-## Origin And Context
-The official speaker roster connects Mastra to Sam Bhagwat. The public company site was discovered by domain-guess and fetched for homepage metadata.
+## Connections
+- [[sam-bhagwat]] - Founder/CEO
+
+## Sources
+- [TypeScript AI Framework for Agents and Apps / Mastra](https://mastra.ai/)
+
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Linked Sessions
+- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]]
+
+### Media Signals
+- `youtube-8SUJEqQNClw` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-8SUJEqQNClw`: december, wrote, great, blog, post, defined, workflows, april.
+- Evidence links for `youtube-8SUJEqQNClw`: [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.
 - Discovery confidence score: 118.
 
-## Public Sources
-- [TypeScript AI Framework for Agents and Apps / Mastra](https://mastra.ai/)
-
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
-
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
-- [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]]
-
-### Slide And Transcript Signals
-- `youtube-8SUJEqQNClw` — 6 slide-derived text signals
-- Slide-derived themes for `youtube-8SUJEqQNClw`: december, wrote, great, blog, post, defined, workflows, april.
-- Evidence links for `youtube-8SUJEqQNClw`: [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]

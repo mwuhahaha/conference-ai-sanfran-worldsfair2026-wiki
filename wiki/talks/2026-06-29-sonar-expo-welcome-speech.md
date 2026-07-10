@@ -13,23 +13,39 @@ scheduleLabels: ["Expo Stage 3", "Expo Stage 3 SW", "session", "confirmed"]
 ---
 # Expo Welcome Speech
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-29 · 6:00pm-6:15pm
 - Track/room: Expo Stage 3 · Expo Stage 3 SW
 - Speaker(s): Sonar, Extend AI
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: Expo Stage 3
 - Room: Expo Stage 3 SW
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 No official description published in the schedule data.
 
-## Related YouTube Video
+## Media Evidence
 [Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar](https://www.youtube.com/watch?v=NuePCNMpWGc) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+- Source video: `youtube-NuePCNMpWGc`
+- Slide deck: [[youtube-NuePCNMpWGc-dense-slides|Dense Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]] — 1 visible slide image(s); 1 HTML recreation(s).
+![[assets/dense-slides/NuePCNMpWGc/slide-001.jpg]]
+- Additional slide evidence: [[youtube-NuePCNMpWGc-slides|Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]], [[youtube-NuePCNMpWGc-reconstructed-slides|Reconstructed Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]]
+- Slide-derived themes for `youtube-NuePCNMpWGc`: software, engineering, changed.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-NuePCNMpWGc` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-NuePCNMpWGc`: software, engineering, changed.
+- Evidence links for `youtube-NuePCNMpWGc`: [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -40,6 +56,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-NuePCNMpWGc-slides]] — extracted from the related public AI Engineer video.
+
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-NuePCNMpWGc-dense-slides]] (1 viable slide images).
 - Related slide/OCR pages:
@@ -48,21 +65,5 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-NuePCNMpWGc-slides]]
 - Slide-derived terms: `changed`, `braintrust`, `workos`, `openal`, `sonor`, `software`, `engineering`, `good`, `hard`, `communicate`, `much`, `programming`, `alin`, `last`, `months`, `typing`, `computer`, `code`
 
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-NuePCNMpWGc` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-NuePCNMpWGc`: software, engineering, changed.
-- Evidence links for `youtube-NuePCNMpWGc`: [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-## Slides
-- Source video: `youtube-NuePCNMpWGc`
-- Slide deck: [[youtube-NuePCNMpWGc-dense-slides|Dense Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]] — 1 visible slide image(s); 1 HTML recreation(s).
-![[assets/dense-slides/NuePCNMpWGc/slide-001.jpg]]
-- Additional slide evidence: [[youtube-NuePCNMpWGc-slides|Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]], [[youtube-NuePCNMpWGc-reconstructed-slides|Reconstructed Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]]
-- Slide-derived themes for `youtube-NuePCNMpWGc`: software, engineering, changed.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

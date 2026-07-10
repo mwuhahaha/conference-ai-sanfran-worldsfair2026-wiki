@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Mahesh Sathiamoorthy
 
-## Official Role
+## Profile
 CEO at [[bespoke-labs|Bespoke Labs]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/smaheswaran)
 - [X / Twitter](https://x.com/madiator)
 - [Website](https://smahesh.com)
 - [Blog](http://smahesh.com/blog)
 
-## Official Bio
+## Biography
 Co-founder and CEO of [[bespoke-labs|Bespoke Labs]], which is a data research lab. He created OpenThoughts, a widely used reasoning dataset, and Generative Retrieval, which is used across the industry to improve recommender systems. Previously at Google DeepMind.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-mahesh-sathiamoorthy-data-and-environment-curation-for-post-training-llms]] — Data and Environment Curation for Post-training LLMs (2026-06-29, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-mahesh-sathiamoorthy-data-and-environment-curation-for-post-training-llms|Data and Environment Curation for Post-training LLMs]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

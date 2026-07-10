@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Jean-Denis Greze
 
-## Official Role
+## Profile
 Co-Founder & CEO at [[town|Town]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jeandenisgreze/)
 - [X / Twitter](https://x.com/jgreze)
 - [Website](https://greze.com/)
 - [Blog](https://www.greze.com)
 
-## Official Bio
+## Biography
 Jean-Denis Greze is co-founder and CEO of [[town|Town]], a personal AI assistant that does real work for people inside the tools they already use - email, calendar, Slack, and more. Previously he was Chief Technology Officer at Plaid, where he led engineering through the company's hypergrowth, and before that a Director of Engineering at Dropbox. He also invests through ASDF Ventures. He's spoken and written widely on engineering leadership and building "spiky" organizations, and is based in San Francisco.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects]] — Agents' next frontier: agent-to-agent and network effects (2026-06-29, 1:30pm-1:50pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects|Agents' next frontier: agent-to-agent and network effects]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

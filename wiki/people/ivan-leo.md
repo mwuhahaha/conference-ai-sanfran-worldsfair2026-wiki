@@ -7,25 +7,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Ivan Leo
 
-## Official Role
+## Profile
 Developer Experience Engineer at [[google-deepmind|Google DeepMind]].
 
-## Profile Links
 No public profile links listed in the official speaker roster.
 
-## Official Bio
+## Biography
 Ivan Leo works on Developer Experience at [[google-deepmind|Google DeepMind]], focusing on making it easier to build on Gemini and on evaluating autonomous agents. He previously worked on action engines for knowledge work at Manus and open-source libraries for structured LLM outputs.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-ivan-leo-an-interaction-is-all-you-need]] — An Interaction Is All You Need (2026-07-01, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-ivan-leo-an-interaction-is-all-you-need|An Interaction Is All You Need]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-xz0-brt56L8` — 4 slide-derived text signals
 - Slide-derived themes for `youtube-xz0-brt56L8`: faster, better, quality, gain.
 - Evidence links for `youtube-xz0-brt56L8`: [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]

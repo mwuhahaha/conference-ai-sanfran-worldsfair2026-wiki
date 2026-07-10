@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Omri Bruchim
 
-## Official Role
+## Profile
 Engineering Group Manager at [[monday|Monday]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/omribruchim/)
 - [X / Twitter](https://x.com/omribruchim)
 - [Website](https://edginary.io)
 - [Blog](https://x.com/omribruchim)
 
-## Official Bio
+## Biography
 Omri Bruchim is an Engineering Group Manager at monday.com, where he leads the AI group and focuses on building trustworthy, production-ready AI systems. With nearly 20 years of experience in software engineering and leadership, he previously held a GM role at Wix, and founded a real-time data processing platform in his startup called drift.dev. Omri began his career in Unit 8200 and holds Degree from Ben-Gurion University and MBA from Tel Aviv University. He is passionate about making AI accessible and impactful, and enjoys flying his kite-surf on weekends.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context]] — From Systems of Record to Systems of Context (2026-07-01, 12:05pm-12:25pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-omri-bruchim-from-systems-of-record-to-systems-of-context|From Systems of Record to Systems of Context]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

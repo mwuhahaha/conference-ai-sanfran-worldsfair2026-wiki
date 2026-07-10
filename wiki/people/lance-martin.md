@@ -11,28 +11,27 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Lance Martin
 
-## Official Role
+## Profile
 Member of Technical Staff at [[anthropic|Anthropic]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/lance-martin-64a33b5)
 - [X / Twitter](https://x.com/RLanceMartin)
 - [Website](https://rlancemartin.github.io)
 - [Blog](https://rlancemartin.github.io)
 
-## Official Bio
+## Biography
 Member of technical staff at [[anthropic|Anthropic]]. Working on the Claude Platform, including Claude Managed Agents and the claude-api skill in Claude Code. Prior to [[anthropic|Anthropic]], was one of the early team at LangChain. Prior to LangChain, spent several years focused on vision for self-driving cars (Uber ATG, Ike, Nuro) and got a PhD from Stanford.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-lance-martin-claude-for-long-horizon-tasks]] — Claude for long-horizon tasks (2026-06-29, 1:55pm-2:15pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-lance-martin-claude-for-long-horizon-tasks|Claude for long-horizon tasks]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-ib-wTAvCZqg` — 2 slide-derived text signals
 - Slide-derived themes for `youtube-ib-wTAvCZqg`: retrieval, typically, tool, function, calling, execute, steps, guaranteed.
 - Evidence links for `youtube-ib-wTAvCZqg`: [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]

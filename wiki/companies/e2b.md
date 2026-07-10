@@ -7,36 +7,36 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # E2B
 
-## What It Is
+## Overview
 E2B is represented at AI Engineer World's Fair 2026. Its public site describes it this way: E2B Gives AI Agents Secure Computers with Real-World Tools. E2B is Used by 94% of Fortune 100 Companies for Frontier Agentic Workflows.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects E2B to Matt Brockman. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Conference Relevance
 E2B matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: How I learned to stop worrying and love the sandbox.
 
-## Related People
-- [[matt-brockman]] - AI Engineer
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox]] - How I learned to stop worrying and love the sandbox (2026-06-29, 11:05am-12:05pm)
 
-## Origin And Context
-The official speaker roster connects E2B to Matt Brockman. The public company site was discovered by domain-guess and fetched for homepage metadata.
+## Connections
+- [[matt-brockman]] - AI Engineer
+
+## Sources
+- [E2B / The Enterprise AI Agent Cloud](https://e2b.dev/)
+
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Linked Sessions
+- [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox|How I learned to stop worrying and love the sandbox]]
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
 - Automated company profile fetch status: fetched.
 - Discovery confidence score: 113.
 
-## Public Sources
-- [E2B / The Enterprise AI Agent Cloud](https://e2b.dev/)
-
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
-
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
-- [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox|How I learned to stop worrying and love the sandbox]]
-
-### Slide And Transcript Signals
-No linked video, transcript, or slide source has been attached yet.

@@ -10,29 +10,28 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Ido Salomon
 
-## Official Role
+## Profile
 Co-Creator at [[mcp-apps|MCP Apps]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ido-salomon/)
 - [X / Twitter](https://x.com/idosal1)
 - [Website](https://mcp-ui.dev)
 
-## Official Bio
+## Biography
 Ido Salomon is a seasoned AI lead and software architect. He is the creator of AgentCraft and MCP-UI, the co-creator and maintainer of [[mcp-apps|MCP Apps]] on the MCP Steering Committee, and the co-creator of GitMCP. Previously, Ido was an architect who led end-user AI at Palo Alto Networks. His work explores the agentic web and user interfaces, with a current focus on raising the ceiling of human-agent collaboration.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be]] — We're the bottleneck, but we don't have to be (2026-06-29, 2:25pm-2:45pm)
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier (2026-06-30, 2:25pm-2:45pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-ido-salomon-we-re-the-bottleneck-but-we-don-t-have-to-be|We're the bottleneck, but we don't have to be]]
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-kR64LOqBBCU` — 4 slide-derived text signals
 - Slide-derived themes for `youtube-kR64LOqBBCU`: putting, orchestration, bottleneck, skills, along, channels, open.
 - Evidence links for `youtube-kR64LOqBBCU`: [[youtube-kR64LOqBBCU]], [[youtube-kR64LOqBBCU-slides]], [[youtube-kR64LOqBBCU-reconstructed-slides]]

@@ -5,31 +5,23 @@ sourceLabels: ["Official schedule", "Public YouTube livestream transcript", "Loc
 ---
 # Software Factories
 
-## Synopsis
+## Overview
 Software factories are coordinated systems for turning ideas, issues, designs, tests, agents, and human review into shipped software. In an AI-native version, multiple agents may handle planning, coding, testing, review, documentation, and release support under explicit workflow rules.
 
-## Origin And Context
+## Conference Context
 The idea comes from assembly-line metaphors in software engineering, CI/CD, DevOps, internal developer platforms, and automated code generation. AI agents make the factory metaphor more literal because parts of the SDLC can be delegated to tool-using systems.
 
-## Why It Matters
+## Significance
 A single coding assistant is useful, but organizations need repeatability, governance, and quality gates. Software factories focus on the whole production system: intake, context, implementation, validation, review, deployment, and learning.
 
-## How To Use It
+## Applied Use
 Model the workflow as stages with inputs, outputs, owners, and acceptance checks. Give agents scoped roles, shared artifacts, test gates, traceability, and rollback paths. Measure cycle time, defect rate, review burden, and production outcomes.
 
-## Where It Is Useful
 They fit engineering organizations, platform teams, internal tools groups, migration projects, and product teams with repeatable implementation patterns.
 
-## When To Use It
 Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
 
-## Active Use Cases
-- Agent-assisted feature delivery pipelines.
-- Automated maintenance, migration, and dependency-update programs.
-- Multi-agent planning, coding, testing, and review workflows.
-- Internal developer platforms with AI-native task orchestration.
-
-## Related Scheduled Sessions
+## Connections
 - [[2026-07-01-session-the-software-factory]] — The Software Factory; speaker TBD (Day 4 — Session Day 3 · 2:50pm-3:10pm · Expo Stage 4 SE; official schedule)
 - [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]] — The best SDLC is the one you build yourself: Why orchestration changes everything; [[shane-wolf|Shane Wolf]], [[andrei-bocan|Andrei Bocan]] (Day 1 — Workshop Day · 9:00am-11:00am · Workshops Day 1; official schedule)
 - [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]] — Agentic SDLC at Uber: Building Blocks for Uber's Software Factory; [[uday-kiran-medisetty|Uday Kiran Medisetty]], [[adam-huda|Adam Huda]] (Day 2 — Session Day 1 · 11:40am-12:00pm · AI-Native Enterprises; official schedule)
@@ -45,7 +37,6 @@ Use a software-factory approach when many similar tasks flow through the same pa
 - [[2026-06-29-joel-hooks-the-art-and-science-of-loopcraft-with-pi-and-friends]] — The Art and Science of Loopcraft with Pi (and friends); [[joel-hooks|Joel Hooks]] (Day 1 — Workshop Day · 4:30pm-5:30pm · Workshops Day 1; official schedule)
 - [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]] — Warp: Building Self-Improving Agent Software Factories; [[suraj-gupta|Suraj Gupta]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Expo Stage 3 SW; official schedule)
 
-## Related People
 - [[christopher-manning|Christopher Manning]]
 - [[shane-wolf|Shane Wolf]]
 - [[andrei-bocan|Andrei Bocan]]
@@ -61,7 +52,6 @@ Use a software-factory approach when many similar tasks flow through the same pa
 - [[joel-hooks|Joel Hooks]]
 - [[suraj-gupta|Suraj Gupta]]
 
-## Related Companies
 - [[atlassian|Atlassian]]
 - [[uber|Uber]]
 - [[factory|Factory]]
@@ -74,26 +64,15 @@ Use a software-factory approach when many similar tasks flow through the same pa
 - [[badass-dev-egghead-io|badass.dev / egghead.io]]
 - [[warp|Warp]]
 
-## Transcript And Resource Support
+## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-qdZzND79mcg]] — Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs
 - [[youtube-pmoDeA3RBZY]] — Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw
 - [[youtube-xUnRQ9vLXxo]] — What do we build now? — @t3dotgg
 
-## Livestream Source
-- [[youtube-htM02KMNZnk]] — official WF2026 Software Factories and keynote livestream.
-- [[youtube-htM02KMNZnk-slides]] — extracted slide/OCR deck for the livestream.
+This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
-## Neighboring Subjects
-- [[coding-agents]]
-- [[agent-security]]
-- [[agent-evaluations]]
-- [[ai-sandboxes]]
-
-## Source-Derived Enrichment
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
-
-### Talk Evidence
+### Linked Sessions
 - [[2026-07-01-session-the-software-factory|The Software Factory]]
 - [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything|The best SDLC is the one you build yourself: Why orchestration changes everything]]
 - [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory|Agentic SDLC at Uber: Building Blocks for Uber's Software Factory]]
@@ -105,7 +84,7 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-29-kyle-mistele-loop-engineering-from-first-principles|Loop Engineering from first principles]]
 - [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use|Building the simulation infrastructure for practical world model use]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-ShuJ_CN6zr4` — 2 slide-derived text signals
 - Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready.
 - Evidence links for `youtube-ShuJ_CN6zr4`: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
@@ -116,7 +95,8 @@ This section consolidates source evidence currently connected to this topic acro
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
 - Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
 - Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-## Evidence Table
+
+## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
@@ -127,7 +107,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 | talks | 14 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | transcripts | 1 | Transcript markdown; check session matching and caption quality. |
 
-## Representative Evidence Links
 ### Talks
 - [[2026-07-01-session-the-software-factory]]
 - [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
@@ -155,58 +134,18 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Transcripts
 - [[youtube-I2cbIws9j10-transcript]]
 
-## Representative Evidence Links
-### Talks
-- [[2026-07-01-session-the-software-factory]]
-- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
-- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
-- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
-- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]]
-- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]]
+## Active Use Cases
+- Agent-assisted feature delivery pipelines.
+- Automated maintenance, migration, and dependency-update programs.
+- Multi-agent planning, coding, testing, and review workflows.
+- Internal developer platforms with AI-native task orchestration.
 
-### Resources
-- [[youtube-qdZzND79mcg]]
-- [[youtube-pmoDeA3RBZY]]
-- [[youtube-xUnRQ9vLXxo]]
-- [[youtube-htM02KMNZnk]]
-- [[youtube-ShuJ_CN6zr4]]
-- [[youtube-HT4l0DeP69I]]
+## Livestream Source
+- [[youtube-htM02KMNZnk]] — official WF2026 Software Factories and keynote livestream.
+- [[youtube-htM02KMNZnk-slides]] — extracted slide/OCR deck for the livestream.
 
-### Slides
-- [[youtube-htM02KMNZnk-slides]]
-- [[youtube-ShuJ_CN6zr4-slides]]
-- [[youtube-ShuJ_CN6zr4-dense-slides]]
-- [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
-- [[youtube-HT4l0DeP69I-slides]]
-- [[youtube-HT4l0DeP69I-dense-slides]]
-
-### Transcripts
-- [[youtube-I2cbIws9j10-transcript]]
-
-## Representative Evidence Links
-### Talks
-- [[2026-07-01-session-the-software-factory]]
-- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
-- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
-- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
-- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]]
-- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]]
-
-### Resources
-- [[youtube-qdZzND79mcg]]
-- [[youtube-pmoDeA3RBZY]]
-- [[youtube-xUnRQ9vLXxo]]
-- [[youtube-htM02KMNZnk]]
-- [[youtube-ShuJ_CN6zr4]]
-- [[youtube-HT4l0DeP69I]]
-
-### Slides
-- [[youtube-htM02KMNZnk-slides]]
-- [[youtube-ShuJ_CN6zr4-slides]]
-- [[youtube-ShuJ_CN6zr4-dense-slides]]
-- [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
-- [[youtube-HT4l0DeP69I-slides]]
-- [[youtube-HT4l0DeP69I-dense-slides]]
-
-### Transcripts
-- [[youtube-I2cbIws9j10-transcript]]
+## Neighboring Subjects
+- [[coding-agents]]
+- [[agent-security]]
+- [[agent-evaluations]]
+- [[ai-sandboxes]]

@@ -7,23 +7,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Pedro Lopez
 
-## Official Role
+## Profile
 Senior Software Engineer at [[airbyte|Airbyte]].
 
-## Profile Links
 No public profile links listed in the official speaker roster.
 
-## Official Bio
+## Biography
 Pedro S. Lopez is a Senior Software Engineer at [[airbyte|Airbyte]]. His WF26 talk focuses on how [[airbyte|Airbyte]] built its Agent MCP Server and CLI for agent-oriented data integration workflows.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]] — How We Built the Airbyte Agent MCP Server and CLI (2026-06-29, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli|How We Built the Airbyte Agent MCP Server and CLI]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

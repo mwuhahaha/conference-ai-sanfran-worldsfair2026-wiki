@@ -437,13 +437,13 @@ def enrich_talk(path: Path) -> bool:
     section = [
         "This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.",
         "",
-        "### Source Signals",
+        "### Media Signals",
         render_evidence_section(ids),
         "",
-        "### Article Use",
-        "Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.",
+        "### Agent Reading Notes",
+        "Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.",
     ]
-    new_text = upsert_section(new_text, "Source-Derived Enrichment", "\n".join(section))
+    new_text = upsert_section(new_text, "Evidence Graph", "\n".join(section))
     if new_text != text:
         write(path, new_text)
         return True
@@ -481,15 +481,15 @@ def enrich_topic(path: Path) -> bool:
     lines = [
         "This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.",
         "",
-        "### Talk Evidence",
+        "### Linked Sessions",
     ]
     if related:
         for talk in related[:10]:
             lines.append(f"- [[{talk.stem}|{title_of(talk)}]]")
     else:
         lines.append("- No related talks were found by link or text match in this pass.")
-    lines.extend(["", "### Slide And Transcript Signals", render_evidence_section(ids)])
-    new_text = upsert_section(text, "Source-Derived Enrichment", "\n".join(lines))
+    lines.extend(["", "### Media Signals", render_evidence_section(ids)])
+    new_text = upsert_section(text, "Evidence Graph", "\n".join(lines))
     if new_text != text:
         write(path, new_text)
         return True
@@ -521,15 +521,15 @@ def enrich_person_or_company(path: Path, kind: str) -> bool:
     lines = [
         f"This section summarizes how this {label} appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.",
         "",
-        "### Related Sessions",
+        "### Linked Sessions",
     ]
     if talk_paths:
         for talk in talk_paths[:10]:
             lines.append(f"- [[{talk.stem}|{title_of(talk)}]]")
     else:
         lines.append("- No related scheduled session was found in this pass.")
-    lines.extend(["", "### Slide And Transcript Signals", render_evidence_section(ids)])
-    new_text = upsert_section(text, "Source-Derived Enrichment", "\n".join(lines))
+    lines.extend(["", "### Media Signals", render_evidence_section(ids)])
+    new_text = upsert_section(text, "Evidence Graph", "\n".join(lines))
     if new_text != text:
         write(path, new_text)
         return True

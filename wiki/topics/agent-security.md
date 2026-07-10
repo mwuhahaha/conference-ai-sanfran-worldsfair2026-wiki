@@ -5,35 +5,26 @@ sourceLabels: ["Slide/video-derived supporting context"]
 ---
 # Agent Security
 
-## Synopsis
+## Overview
 Agent security covers the controls that keep autonomous or semi-autonomous AI systems within trusted boundaries. It includes authentication, authorization, tool permissions, sandboxing, prompt-injection resistance, secret handling, audit logs, data-boundary enforcement, and recovery paths when an agent behaves unexpectedly.
 
-## Origin And Context
+## Conference Context
 It combines application security, cloud IAM, browser and plugin sandboxing, supply-chain security, and adversarial ML. Tool-using agents raise the stakes because natural-language inputs can influence systems that touch files, APIs, payments, infrastructure, or private data.
 
-## Why It Matters
+## Significance
 Agents convert text into action. That makes ordinary content, retrieved documents, web pages, or UI state part of the attack surface. Security is what lets teams give agents useful tools without handing them unlimited authority.
 
-## How To Use It
+## Applied Use
 Use least-privilege tool scopes, explicit approval gates for high-risk actions, isolated execution environments, secret redaction, provenance checks, and audit trails. Treat retrieved content as untrusted input, test prompt-injection cases, and design rollback paths for destructive operations.
 
-## Where It Is Useful
 Agent security matters in coding agents, MCP servers, browser agents, enterprise assistants, finance and compliance workflows, internal operations tools, and any system connected to privileged APIs or private data.
 
-## When To Use It
 Apply strong controls whenever an agent can read sensitive data, write state, call external APIs, spend money, deploy code, or influence another system. Lower-risk chat-only agents still need data handling and logging rules.
 
-## Active Use Cases
-- Permission-gated tool execution for enterprise agents.
-- Sandboxed coding and browser automation.
-- Prompt-injection and data-exfiltration testing for retrieval agents.
-- Audit logs for regulated or high-trust agent workflows.
-
-## Related Slide Decks
+## Connections
 - [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
 - [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 
-## Related Scheduled Sessions
 - [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]] — Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features; [[lovina-dmello|Lovina Dmello]] (Day 2 — Session Day 1 · 11:10am-11:30am · Security; official schedule)
 - [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]] — Agentic Security: Permissions, Provenance, and the Agent Supply Chain; [[steve-yegge|Steve Yegge]] (Day 2 — Session Day 1 · 2:25pm-2:45pm · Security; official schedule)
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]] — Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale; [[robert-brennan|Robert Brennan]] (Day 3 — Session Day 2 · 3:20pm-3:40pm · Sandbox & Platform Engineering; official schedule)
@@ -59,7 +50,6 @@ Apply strong controls whenever an agent can read sensitive data, write state, ca
 - [[2026-06-29-natalie-meurer-the-dirty-secret-of-forward-deployed-engineering]] — The Dirty Secret of Forward Deployed Engineering; [[natalie-meurer|Natalie Meurer]] (Day 2 — Session Day 1 · 1:30pm-1:50pm · Forward Deployed Engineering; official schedule)
 - [[2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox]] — Why Agents Should Have Their Own Sandbox; [[philipp-schmid|Philipp Schmid]] (Day 3 — Session Day 2 · 1:30pm-1:50pm · Expo Stage 1; official schedule)
 
-## Related People
 - [[john-craft|John Craft]]
 - [[abhishek-bhardwaj|Abhishek Bhardwaj]]
 - [[manoj-nair|Manoj Nair]]
@@ -85,7 +75,6 @@ Apply strong controls whenever an agent can read sensitive data, write state, ca
 - [[palak-agarwal|Palak Agarwal]]
 - [[natalie-meurer|Natalie Meurer]]
 
-## Related Companies
 - [[docker|Docker]]
 - [[snyk|Snyk]]
 - [[workos|WorkOS]]
@@ -105,7 +94,7 @@ Apply strong controls whenever an agent can read sensitive data, write state, ca
 - [[pydantic|Pydantic]]
 - [[daytona|Daytona]]
 
-## Transcript And Resource Support
+## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-MpZzWMdmQCE]] — Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com
 - [[youtube-SKDJo2CopRs]] — Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare
@@ -119,10 +108,9 @@ Apply strong controls whenever an agent can read sensitive data, write state, ca
 - [[youtube-_xIwFcnHqp4]] — Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub
 - [[youtube-6bmM45jkMDY]] — You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs
 
-## Source-Derived Enrichment
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
-### Talk Evidence
+### Linked Sessions
 - [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features|Your LLM Stack Is a 2008 Database With Better Marketing: Why ML Security Is Dominated by Misconfiguration, Not Missing Features]]
 - [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain|Agentic Security: Permissions, Provenance, and the Agent Supply Chain]]
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale|Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale]]
@@ -134,7 +122,7 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-29-bereket-habtemeskel-agent-auth|Agent Auth]]
 - [[2026-07-01-jay-mok-your-agent-just-authorized-what|Your Agent Just Authorized What?!]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-7Dtu2bilcFs` — 9 slide-derived text signals
 - Slide-derived themes for `youtube-7Dtu2bilcFs`: coding, agentic, final, form, coming, next, stop, models.
 - Evidence links for `youtube-7Dtu2bilcFs`: [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
@@ -150,7 +138,8 @@ This section consolidates source evidence currently connected to this topic acro
 - `youtube-wsFd22SL1s8` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-wsFd22SL1s8`: systems, chrome, code, sandboxes, operating, distributed, windows, subsystem.
 - Evidence links for `youtube-wsFd22SL1s8`: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
-## Evidence Table
+
+## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
@@ -161,7 +150,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 | talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | tools | 4 | Derived inventory pages; use as entity context, not independent proof. |
 
-## Representative Evidence Links
 ### Talks
 - [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]]
 - [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]]
@@ -192,64 +180,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[pydantic]]
 - [[daytona]]
 
-## Representative Evidence Links
-### Talks
-- [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]]
-- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]]
-- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
-- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
-- [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
-
-### Resources
-- [[youtube-MpZzWMdmQCE]]
-- [[youtube-SKDJo2CopRs]]
-- [[youtube-CLttOU7n6sI]]
-- [[youtube-c-2eEv2ou7Y]]
-- [[youtube-LrGCT7G_rU8]]
-- [[youtube-CDqzWpwkSls]]
-
-### Slides
-- [[youtube-4kYl2_mqmnQ-slides]]
-- [[youtube-2IxD9OB3XuQ-slides]]
-- [[youtube-7Dtu2bilcFs-slides]]
-- [[youtube-7Dtu2bilcFs-dense-slides]]
-- [[youtube-7Dtu2bilcFs-reconstructed-slides]]
-- [[youtube-rcsliSIy_YU-slides]]
-
-### Tools
-- [[docker]]
-- [[openhands]]
-- [[pydantic]]
-- [[daytona]]
-
-## Representative Evidence Links
-### Talks
-- [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]]
-- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]]
-- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
-- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
-- [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox]]
-- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
-
-### Resources
-- [[youtube-MpZzWMdmQCE]]
-- [[youtube-SKDJo2CopRs]]
-- [[youtube-CLttOU7n6sI]]
-- [[youtube-c-2eEv2ou7Y]]
-- [[youtube-LrGCT7G_rU8]]
-- [[youtube-CDqzWpwkSls]]
-
-### Slides
-- [[youtube-4kYl2_mqmnQ-slides]]
-- [[youtube-2IxD9OB3XuQ-slides]]
-- [[youtube-7Dtu2bilcFs-slides]]
-- [[youtube-7Dtu2bilcFs-dense-slides]]
-- [[youtube-7Dtu2bilcFs-reconstructed-slides]]
-- [[youtube-rcsliSIy_YU-slides]]
-
-### Tools
-- [[docker]]
-- [[openhands]]
-- [[pydantic]]
-- [[daytona]]
+## Active Use Cases
+- Permission-gated tool execution for enterprise agents.
+- Sandboxed coding and browser automation.
+- Prompt-injection and data-exfiltration testing for retrieval agents.
+- Audit logs for regulated or high-trust agent workflows.

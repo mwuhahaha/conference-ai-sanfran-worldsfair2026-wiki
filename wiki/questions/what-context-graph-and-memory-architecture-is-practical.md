@@ -4,16 +4,15 @@ category: "questions"
 status: "active"
 sourceLabels: ["Official schedule", "Slide/OCR evidence", "Tool inventory", "Topic synthesis", "YouTube resource"]
 ---
-
 # What context graph and memory architecture is practical?
 
-## Why This Question Matters
+## Context
 The conference graph repeatedly asks how agents should retrieve, preserve, update, and reason over context without stuffing everything into a prompt.
 
-## Current Working Answer
+## Working Answer
 This page is a first-pass research question, not a final recommendation. Use the linked evidence to refine the answer as more exact session recordings, transcripts, and reviewed slide readings become available.
 
-## Source Evidence
+## Evidence
 - [[agent-memory]] — Topic synthesis
 - [[agentic-search]] — Topic synthesis
 - [[autoresearch]] — Topic synthesis
@@ -28,7 +27,7 @@ This page is a first-pass research question, not a final recommendation. Use the
 - [[youtube-4sX_He5c4sI-slides]] — Slide/OCR evidence
 - [[youtube-B9h9ovW5H9U-slides]] — Slide/OCR evidence
 
-## Follow-Up
+## Next Questions
 - Extract specific claims from the linked source pages.
 - Separate official schedule evidence from supporting YouTube, transcript, and OCR evidence.
 - Convert stable answers into playbooks, harnesses, or evaluations where appropriate.

@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # James Russo
 
-## Official Role
+## Profile
 Software Engineer at [[heygen|HeyGen]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/james-russo-56026897/)
 - [X / Twitter](https://x.com/Rames_Jusso)
 - [Website](https://boredhacking.com/)
 - [Blog](https://boredhacking.com/)
 
-## Official Bio
+## Biography
 Engineering lead for HyperFrames. Currently at [[heygen|HeyGen]] building the future of video storytelling, Previously at Brex
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-james-russo-html-is-all-agents-need]] — HTML Is All Agents Need (2026-07-01, 11:10am-11:30am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-james-russo-html-is-all-agents-need|HTML Is All Agents Need]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

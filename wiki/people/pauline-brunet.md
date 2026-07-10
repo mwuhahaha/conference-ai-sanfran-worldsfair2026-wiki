@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Pauline Brunet
 
-## Official Role
+## Profile
 VP, Forward Deployed Engineering at [[cursor|Cursor]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/pauline-brunet/)
 
-## Official Bio
+## Biography
 VP of Forward Deployed Engineering at [[cursor|Cursor]]. Building the motion and team to help customers adopt [[cursor|Cursor]] and drive meaningful returns. We configure and co-build alongside customer software and transformation teams. Spent 10 years in AI deployments across enterprises.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor]] — How Forward Deployed Engineering is done at Cursor (2026-06-29, 11:10am-11:30am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor|How Forward Deployed Engineering is done at Cursor]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

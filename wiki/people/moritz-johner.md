@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Moritz Johner
 
-## Official Role
+## Profile
 Staff Engineer at [[form3|Form3]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/moritz-johner/)
 - [Website](https://www.form3.tech/)
 
-## Official Bio
+## Biography
 Staff Engineer at [[form3|Form3]], focused on Kubernetes, security, and platform engineering. One of the creators and maintainers of external-secrets.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night]] — We Gave an Agent Production Code Access and Then Tried to Sleep at Night (2026-06-29, 11:40am-12:00pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night|We Gave an Agent Production Code Access and Then Tried to Sleep at Night]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

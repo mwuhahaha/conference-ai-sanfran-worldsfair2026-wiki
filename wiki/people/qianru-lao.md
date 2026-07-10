@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Qianru Lao
 
-## Official Role
+## Profile
 Member of Technical Staff at [[openai|OpenAI]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/qianru-lao)
 - [Website](https://openai.com)
 
-## Official Bio
+## Biography
 Qianru Lao is a Member of Technical Staff on the Inference team at [[openai|OpenAI]], where she works on infrastructure for large-scale model serving. Previously, she contributed to the open-source Delta Lake project at Databricks and worked on distributed storage systems at Alibaba Cloud and infrastructure tooling at Google. She holds degrees in Computational Science and Engineering from Harvard and Computer Science from Sun Yat-sen University.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy]] — Routing LLM Inference in Production: From Engine Signals to Policy (2026-07-01, 11:10am-11:30am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy|Routing LLM Inference in Production: From Engine Signals to Policy]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

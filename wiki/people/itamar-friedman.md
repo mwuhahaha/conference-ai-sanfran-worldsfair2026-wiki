@@ -10,27 +10,26 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Itamar Friedman
 
-## Official Role
+## Profile
 Co-Founder & CEO at [[qodo|Qodo]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/itamarf)
 - [X / Twitter](https://twitter.com/itamar_mar)
 - [Blog](https://www.qodo.ai/authors/itamar-f)
 
-## Official Bio
+## Biography
 Co-founder and CEO of [[qodo|Qodo]], an AI-driven code integrity platform. Previously co-founded Visualead, which was acquired by Alibaba, and later served as Director of Machine Vision at Alibaba.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code]] — The Last Human Code Review: Building Trust in AI-Generated Code (2026-06-29, 11:40am-12:00pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code|The Last Human Code Review: Building Trust in AI-Generated Code]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals
 - Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, companies, pushing, move, faster, offline.
 - Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]

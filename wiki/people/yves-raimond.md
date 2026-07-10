@@ -7,23 +7,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Yves Raimond
 
-## Official Role
+## Profile
 SVP/GM, AI & Personalization at [[spotify|Spotify]].
 
-## Profile Links
 No public profile links listed in the official speaker roster.
 
-## Official Bio
+## Biography
 Senior leader for AI and personalization at [[spotify|Spotify]].
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-jacqueline-wood-spotify-llm-recsys]] — Spotify LLM Recsys (2026-06-29, 11:10am-11:30am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-jacqueline-wood-spotify-llm-recsys|Spotify LLM Recsys]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

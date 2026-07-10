@@ -5,31 +5,23 @@ sourceLabels: ["Slide/video-derived supporting context"]
 ---
 # Agentic Search
 
-## Synopsis
+## Overview
 Agentic search is retrieval where an AI system actively plans, queries, follows leads, compares sources, and decides when it has enough evidence. It goes beyond one-shot RAG by treating search as an iterative reasoning and tool-use process.
 
-## Origin And Context
+## Conference Context
 It combines web search, enterprise search, information retrieval, RAG, semantic search, BM25, vector databases, knowledge graphs, and research-agent workflows. Agents add query reformulation, source triage, multi-hop exploration, and evidence synthesis.
 
-## Why It Matters
+## Significance
 Many tasks fail because the agent either retrieves the wrong context or stops too early. Agentic search improves coverage, reduces hallucination, and helps systems expose the evidence behind an answer.
 
-## How To Use It
+## Applied Use
 Define the question, retrieve broadly, rerank by task relevance, inspect primary sources, track claims and citations, and loop when evidence conflicts or gaps remain. Use hybrid retrieval and structured indexes where pure vector search misses exact terms or relationships.
 
-## Where It Is Useful
 It is useful in research, support knowledge bases, compliance review, code search, enterprise assistants, competitive intelligence, and document-heavy operations.
 
-## When To Use It
 Use agentic search when answers require multiple sources, fresh evidence, exact facts, or cross-document reasoning. Simple lookup or direct database queries are better for narrow deterministic questions.
 
-## Active Use Cases
-- Research agents that cite and compare sources.
-- Hybrid RAG over documents, SQL, UI telemetry, and web data.
-- Semantic code retrieval for coding agents.
-- Enterprise knowledge agents with source-grounded answers.
-
-## Related Slide Decks
+## Connections
 - [[youtube-HsxQICTLF84-slides]] — Building an ACP-Compatible Agent Live — Bennet Fenner, Zed (5 extracted slide frames)
 - [[youtube-IQkVMvXQKLY-slides]] — Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis (14 extracted slide frames)
 - [[youtube-1IdzkRVmWAA-slides]] — How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI (5 extracted slide frames)
@@ -38,7 +30,6 @@ Use agentic search when answers require multiple sources, fresh evidence, exact 
 - [[youtube-UcYoMg-8-L8-slides]] — 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic (11 extracted slide frames)
 - [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 
-## Related Scheduled Sessions
 - [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]] — Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers; [[jeff-vestal|Jeff Vestal]] (Day 1 — Workshop Day · 2:20pm-4:20pm · Track 7; official schedule)
 - [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]] — The unreasonable effectiveness of BM25 for agentic search; [[jo-kristian-bergum|Jo Kristian Bergum]] (Day 2 — Session Day 1 · 11:10am-11:30am · Search & Retrieval; official schedule)
 - [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]] — The Search Engine for the Agentic Web; [[will-bryk|Will Bryk]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Search & Retrieval; official schedule)
@@ -64,7 +55,6 @@ Use agentic search when answers require multiple sources, fresh evidence, exact 
 - [[2026-06-29-peter-werry-beyond-rag-build-a-relational-context-engine-from-scratch]] — Beyond RAG: Build a Relational Context Engine from Scratch; [[peter-werry|Peter Werry]] (Day 1 — Workshop Day · 12:10pm-1:10pm · Workshops Day 1; official schedule)
 - [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]] — Speech-to-Speech Model Research at Google DeepMind; [[valeria-wu-fon|Valeria Wu Fon]], [[tom-ouyang|Tom Ouyang]] (Day 2 — Session Day 1 · 11:10am-11:30am · Voice & Realtime AI; official schedule)
 
-## Related People
 - [[zhengyao-jiang|Zhengyao Jiang]]
 - [[charlie-guo|Charlie Guo]]
 - [[brandon-waselnuk|Brandon Waselnuk]]
@@ -90,7 +80,6 @@ Use agentic search when answers require multiple sources, fresh evidence, exact 
 - [[richard-socher|Richard Socher]]
 - [[tejas-bhakta|Tejas Bhakta]]
 
-## Related Companies
 - [[nvidia|NVIDIA]]
 - [[weco-ai|Weco AI]]
 - [[google-deepmind|Google DeepMind]]
@@ -110,7 +99,7 @@ Use agentic search when answers require multiple sources, fresh evidence, exact 
 - [[prime-intellect|Prime Intellect]]
 - [[datologyai|DatologyAI]]
 
-## Transcript And Resource Support
+## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-1IdzkRVmWAA]] — How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI
 - [[youtube-UM6sFg_jdlE]] — RAG is dead, right?? — Kuba Rogut, Turbopuffer
@@ -136,10 +125,9 @@ Use agentic search when answers require multiple sources, fresh evidence, exact 
 - “Um So what we're finding now is that a lot of people are no longer doing the simple rag you know the the Twitter quote unquote rag of just doing vector search once and throwing it into the context windows.” — [[youtube-UM6sFg_jdlE]]
 - “So you know not not a public benchmark but you can trust the numbers they give us.” — [[youtube-UM6sFg_jdlE]]
 
-## Source-Derived Enrichment
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
-### Talk Evidence
+### Linked Sessions
 - [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers|Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers]]
 - [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search|The unreasonable effectiveness of BM25 for agentic search]]
 - [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|The Search Engine for the Agentic Web]]
@@ -151,7 +139,7 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village|Autoresearch in a Multi-Agent AI Village]]
 - [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals
 - Slide-derived themes for `youtube-xnXqpUW_Kp8`: humans, built, information, traditional, search, engines, type, simple.
 - Evidence links for `youtube-xnXqpUW_Kp8`: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
@@ -162,7 +150,8 @@ This section consolidates source evidence currently connected to this topic acro
 - `youtube-eW_vxrjvERk` — 3 slide-derived text signals
 - Slide-derived themes for `youtube-eW_vxrjvERk`: enter, conversations, github, memory, podcast, press, send, shit.
 - Evidence links for `youtube-eW_vxrjvERk`: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
-## Evidence Table
+
+## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
@@ -174,7 +163,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 | tools | 4 | Derived inventory pages; use as entity context, not independent proof. |
 | transcripts | 1 | Transcript markdown; check session matching and caption quality. |
 
-## Representative Evidence Links
 ### Talks
 - [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]]
 - [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]]
@@ -208,70 +196,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[llamaindex]]
 - [[prime-intellect]]
 
-## Representative Evidence Links
-### Talks
-- [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]]
-- [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]]
-- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]]
-- [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search]]
-- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
-- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
-
-### Resources
-- [[youtube-1IdzkRVmWAA]]
-- [[youtube-UM6sFg_jdlE]]
-- [[youtube-Akm1sqvWG4A]]
-- [[youtube-zKk7sDMGDEQ]]
-- [[youtube-T0HhO4YtTfE]]
-- [[youtube-OXMMN-XbxwA]]
-
-### Slides
-- [[youtube-HsxQICTLF84-slides]]
-- [[youtube-IQkVMvXQKLY-slides]]
-- [[youtube-1IdzkRVmWAA-slides]]
-- [[youtube-2e9ANoOEn28-slides]]
-- [[youtube-CLttOU7n6sI-slides]]
-- [[youtube-UcYoMg-8-L8-slides]]
-
-### Transcripts
-- [[youtube-4sX_He5c4sI-transcript]]
-
-### Tools
-- [[neo4j]]
-- [[exa]]
-- [[llamaindex]]
-- [[prime-intellect]]
-
-## Representative Evidence Links
-### Talks
-- [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]]
-- [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]]
-- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]]
-- [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search]]
-- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
-- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
-
-### Resources
-- [[youtube-1IdzkRVmWAA]]
-- [[youtube-UM6sFg_jdlE]]
-- [[youtube-Akm1sqvWG4A]]
-- [[youtube-zKk7sDMGDEQ]]
-- [[youtube-T0HhO4YtTfE]]
-- [[youtube-OXMMN-XbxwA]]
-
-### Slides
-- [[youtube-HsxQICTLF84-slides]]
-- [[youtube-IQkVMvXQKLY-slides]]
-- [[youtube-1IdzkRVmWAA-slides]]
-- [[youtube-2e9ANoOEn28-slides]]
-- [[youtube-CLttOU7n6sI-slides]]
-- [[youtube-UcYoMg-8-L8-slides]]
-
-### Transcripts
-- [[youtube-4sX_He5c4sI-transcript]]
-
-### Tools
-- [[neo4j]]
-- [[exa]]
-- [[llamaindex]]
-- [[prime-intellect]]
+## Active Use Cases
+- Research agents that cite and compare sources.
+- Hybrid RAG over documents, SQL, UI telemetry, and web data.
+- Semantic code retrieval for coding agents.
+- Enterprise knowledge agents with source-grounded answers.

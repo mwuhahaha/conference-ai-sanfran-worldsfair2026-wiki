@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Bohan Li
 
-## Official Role
+## Profile
 Staff Software Engineer at [[eliseai|EliseAi]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/bohan-li-7290b74a/)
 - [X / Twitter](https://x.com/bobowchan)
 - [Website](https://eliseai.com/)
 
-## Official Bio
+## Biography
 Bo has over 10 years of experience building real time systems across databases, decentralized finance, self driving cars, and voice AI. He previously worked as an Member of Technical Staff at Cartesia and is currently at EliseAI, building AI Agents for Housing and Healthcare that improve how we live.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]] — Realtime Voice Agents with Frontier Intelligence (2026-06-29, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence|Realtime Voice Agents with Frontier Intelligence]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

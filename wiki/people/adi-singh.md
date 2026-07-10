@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Adi Singh
 
-## Official Role
+## Profile
 Co-founder at [[agentmail|AgentMail]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/adivirsingh13)
 - [X / Twitter](https://x.com/adisingh)
 - [Website](https://www.agentmail.to/)
 - [Blog](https://www.agentmail.to/blog)
 
-## Official Bio
+## Biography
 Co-founder of [[agentmail|AgentMail]] (YC S25), the email inbox API for AI agents. The company is backed by Y Combinator, General Catalyst, Paul Graham, and founders of Ramp, Supabase, and HubSpot. Before [[agentmail|AgentMail]], Adi spent time at firms like Accel and KKR while operating software businesses across accounting, edtech, and e-commerce during his time at the University of Michigan.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-adi-singh-the-next-trillion-users-of-the-internet-still-don-t-have-an-identity]] — The Next Trillion Users of the Internet Still Don't Have an Identity (2026-06-30, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-adi-singh-the-next-trillion-users-of-the-internet-still-don-t-have-an-identity|The Next Trillion Users of the Internet Still Don't Have an Identity]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

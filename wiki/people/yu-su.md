@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Yu Su
 
-## Official Role
+## Profile
 Co-founder and CEO at [[neocognition|NeoCognition]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ysu1989/)
 - [X / Twitter](https://x.com/ysu_nlp)
 - [Website](https://ysu1989.github.io/)
 
-## Official Bio
+## Biography
 Co-founder and CEO at [[neocognition|NeoCognition]]. Associate Professor at the Ohio State University. Building towards continual learning and abundance of specialized intelligence.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-yu-su-intelligence-continual-learning-expertise]] — Intelligence + Continual Learning = Expertise (2026-06-30, 12:05pm-12:25pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-yu-su-intelligence-continual-learning-expertise|Intelligence + Continual Learning = Expertise]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

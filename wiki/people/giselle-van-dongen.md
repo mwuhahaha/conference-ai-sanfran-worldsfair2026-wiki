@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Giselle van Dongen
 
-## Official Role
+## Profile
 Developer Advocate at [[restate|Restate]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/giselle-van-dongen/)
 - [X / Twitter](https://x.com/vdgiselle)
 
-## Official Bio
+## Biography
 Giselle is a Developer Advocate and Engineer at [[restate|Restate]]. She works on integrations between [[restate|Restate]] and the AI ecosystem and helps its users with understanding how [[restate|Restate]] simplifies the development of durable agents and backends. Before that, she worked in the field of data science, big data analytics, and stream processing, and obtained a PhD on this topic at Ghent University.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-giselle-van-dongen-every-step-you-take-every-call-you-make-the-reliable-agent-stack]] — 🎵 Every step you take, every call you make - the reliable agent stack (2026-07-01, 1:55pm-2:15pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-giselle-van-dongen-every-step-you-take-every-call-you-make-the-reliable-agent-stack|🎵 Every step you take, every call you make - the reliable agent stack]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

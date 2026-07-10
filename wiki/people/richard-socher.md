@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Richard Socher
 
-## Official Role
+## Profile
 CEO & Co-Founder at [[you-com-recursive-superintelligence|You.com / Recursive Superintelligence]].
 
-## Profile Links
 - [X / Twitter](https://x.com/RichardSocher)
 
-## Official Bio
+## Biography
 AI researcher and entrepreneur; CEO and Co-Founder of You.com and Recursive Superintelligence. Previously Chief Scientist and EVP at Salesforce, with a Stanford PhD in Computer Science and widely cited work in NLP and deep learning.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-richard-socher-first-steps-toward-automated-ai-research]] — First Steps Toward Automated AI Research (2026-06-30, 10:45am-11:05am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-richard-socher-first-steps-toward-automated-ai-research|First Steps Toward Automated AI Research]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

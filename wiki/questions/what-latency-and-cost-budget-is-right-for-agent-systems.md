@@ -4,16 +4,15 @@ category: "questions"
 status: "active"
 sourceLabels: ["Official schedule", "Slide/OCR evidence", "Tool inventory", "Topic synthesis"]
 ---
-
 # What latency and cost budget is right for agent systems?
 
-## Why This Question Matters
+## Context
 Agent systems turn inference into a product constraint: latency, throughput, routing, local versus hosted execution, and token cost shape what can be shipped.
 
-## Current Working Answer
+## Working Answer
 This page is a first-pass research question, not a final recommendation. Use the linked evidence to refine the answer as more exact session recordings, transcripts, and reviewed slide readings become available.
 
-## Source Evidence
+## Evidence
 - [[inference-engineering]] — Topic synthesis
 - [[vllm]] — Tool inventory
 - [[modal]] — Tool inventory
@@ -28,7 +27,7 @@ This page is a first-pass research question, not a final recommendation. Use the
 - [[youtube-ESbWpPT_9-o-slides]] — Slide/OCR evidence
 - [[youtube-sRpqPgKeXNk-slides]] — Slide/OCR evidence
 
-## Follow-Up
+## Next Questions
 - Extract specific claims from the linked source pages.
 - Separate official schedule evidence from supporting YouTube, transcript, and OCR evidence.
 - Convert stable answers into playbooks, harnesses, or evaluations where appropriate.

@@ -11,16 +11,15 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Erina Karati
 
-## Official Role
+## Profile
 Former Microsoft at [[supercell|Supercell]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ekarati/)
 - [X / Twitter](https://x.com/erinakarati)
 - [Website](https://www.erinakarati.dev/)
 - [Blog](https://www.erinakarati.dev/)
 
-## Official Bio
+## Biography
 Erina Karati builds applied AI systems across generative AI, multi-agent architectures, and production-ready ML pipelines. She recently worked as an AI Engineer at [[supercell|Supercell]], where she built modular multi-agent systems and scalable AI infrastructure for real-world interactive environments, with resulting research accepted to the WiML Symposium @ ICML 2026.
 
 Previously, Erina spent three years at Microsoft working across large-scale production systems in complex enterprise environments. Her work spanned networking, system reliability, security, and debugging distributed failures at global scale, shaping how she approaches robustness, observability, and reliability in AI systems.
@@ -29,14 +28,14 @@ She is also the co-founder of MinneDigest, an AI-powered news and podcast platfo
 
 Erina graduated with a Master’s in Computer Science from the University of Minnesota with a 4.0 GPA in May 2026. She is especially interested in combining strong engineering foundations with advanced AI to build meaningful, real-world systems.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]] — Autoresearch in a Multi-Agent AI Village (2026-06-30, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village|Autoresearch in a Multi-Agent AI Village]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Armen Aghajanyan
 
-## Official Role
+## Profile
 Co-Founder & CEO at [[perceptron-ai|Perceptron AI]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/armenag)
 - [X / Twitter](https://x.com/ArmenAgha)
 - [Website](https://perceptron.inc)
 
-## Official Bio
+## Biography
 Co-founder & CEO, @perceptroninc; ex-RS FAIR/MSFT
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-armen-aghajanyan-from-vlm-vla-s-to-embodied-agents]] — From VLM/VLA's to Embodied Agents (2026-06-29, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-armen-aghajanyan-from-vlm-vla-s-to-embodied-agents|From VLM/VLA's to Embodied Agents]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

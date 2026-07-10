@@ -13,23 +13,40 @@ scheduleLabels: ["Local AI", "Track 4", "session", "confirmed"]
 ---
 # Model Routing
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-07-01 · 3:45pm-4:05pm
 - Track/room: Local AI · Track 4
 - Speaker(s): Nader Khalil, Walden Yan, Tanay Varshney, Alex Atallah
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: Local AI
 - Room: Track 4
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 Model Routing explores how teams decide when to use local models, open-source models, or frontier cloud systems, and why the answer is increasingly hybrid rather than one-size-fits-all. The panel digs into routing architectures, model selection strategies, stack decisions, and what still needs to improve in local AI before more workloads can move closer to the user. Moderator: Nader Khalil (NVIDIA). Panelists: Walden Yan (Cognition), Tanay Varshney (NVIDIA), Alex Atallah (OpenRouter).
 
-## Related YouTube Video
+## Media Evidence
 [Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter](https://www.youtube.com/watch?v=84Vtz2IL1Ug) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+- Source video: `youtube-84Vtz2IL1Ug`
+- Slide deck: [[youtube-84Vtz2IL1Ug-dense-slides|Dense Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]] — 2 visible slide image(s); 2 HTML recreation(s).
+![[assets/dense-slides/84Vtz2IL1Ug/slide-001.jpg]]
+![[assets/dense-slides/84Vtz2IL1Ug/slide-002.jpg]]
+- Additional slide evidence: [[youtube-84Vtz2IL1Ug-slides|Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]], [[youtube-84Vtz2IL1Ug-reconstructed-slides|Reconstructed Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]]
+- Slide-derived themes for `youtube-84Vtz2IL1Ug`: llama, open, efficient, foundation, language, models, alpaca, strong.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-84Vtz2IL1Ug` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-84Vtz2IL1Ug`: llama, open, efficient, foundation, language, models, alpaca, strong.
+- Evidence links for `youtube-84Vtz2IL1Ug`: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -47,21 +64,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
 - [[youtube-84Vtz2IL1Ug-slides]]
 - Slide-derived terms: `models`, `tokens`, `world`, `fair`, `model`, `llama`, `language`, `inference`, `train`, `openrouter`, `engineering`, `future`, `performance`, `openal`, `best`, `training`, `datasets`, `alengincer`
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-84Vtz2IL1Ug` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-84Vtz2IL1Ug`: llama, open, efficient, foundation, language, models, alpaca, strong.
-- Evidence links for `youtube-84Vtz2IL1Ug`: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-## Slides
-- Source video: `youtube-84Vtz2IL1Ug`
-- Slide deck: [[youtube-84Vtz2IL1Ug-dense-slides|Dense Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/84Vtz2IL1Ug/slide-001.jpg]]
-![[assets/dense-slides/84Vtz2IL1Ug/slide-002.jpg]]
-- Additional slide evidence: [[youtube-84Vtz2IL1Ug-slides|Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]], [[youtube-84Vtz2IL1Ug-reconstructed-slides|Reconstructed Slides: Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter]]
-- Slide-derived themes for `youtube-84Vtz2IL1Ug`: llama, open, efficient, foundation, language, models, alpaca, strong.

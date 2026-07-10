@@ -11,26 +11,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Ramana Siddanth Emani
 
-## Official Role
+## Profile
 Data Scientist at [[auditoria-ai|Auditoria AI]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/siddanth-emani)
 - [X / Twitter](https://x.com/siddanth2486)
 - [Website](https://www.auditoria.ai/)
 - [Blog](https://siddanthemani.github.io/)
 
-## Official Bio
+## Biography
 Data Scientist @ [[auditoria-ai|Auditoria AI]], building SmartResearch Agent.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you]] — Your Finance Agent's Bottleneck Is You (2026-07-01, 2:25pm-2:45pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-ramana-siddanth-emani-your-finance-agent-s-bottleneck-is-you|Your Finance Agent's Bottleneck Is You]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

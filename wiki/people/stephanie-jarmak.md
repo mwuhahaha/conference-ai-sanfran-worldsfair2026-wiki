@@ -10,29 +10,28 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Stephanie Jarmak
 
-## Official Role
+## Profile
 Agent Advocate at [[sourcegraph|Sourcegraph]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/stephanie-jarmak)
 - [X / Twitter](https://x.com/sgjarmak)
 - [Website](https://www.sjarmak.ai/)
 
-## Official Bio
+## Biography
 Dr. Stephanie Jarmak is an Agent Advocate, AI engineer, and research scientist building agentic systems for go-to-market, developer tooling, and knowledge infrastructure. She is an OSS maintainer of Gas City and a research affiliate with the NASA search engine SciX, where her work focuses on search relevance, discovery systems, and AI-assisted access to scientific literature.
 
 Her recent GTM projects include AccountBot, a Slack-native sales assistant for account research and campaign workflows; GEO, an evaluation suite for understanding how AI systems discover, describe, and recommend products; and mcp-ax, a framework for measuring how usable MCP products are from an agent’s perspective.
 
 Previously, Stephanie served as Project Scientist for Planetary Science at SciX and as an astronomer at Southwest Research Institute. She holds a Ph.D. in Physics and brings a research-engineering lens to building AI systems across a variety of domains.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-stephanie-jarmak-the-death-of-developer-advocates]] — The Death of Developer Advocates (2026-07-01, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-stephanie-jarmak-the-death-of-developer-advocates|The Death of Developer Advocates]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

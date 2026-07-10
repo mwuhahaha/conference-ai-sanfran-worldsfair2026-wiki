@@ -7,38 +7,38 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Taste Labs
 
-## What It Is
+## Overview
 Taste Labs is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Tech Founder / Builder.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects Taste Labs to Thais Castello Branco. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Conference Relevance
 Taste Labs matters to this wiki through 1 official speaker(s) and 2 scheduled session(s), including: Ending AI Slop; Training Taste.
 
-## Related People
-- [[thais-castello-branco]] - Founder & CEO
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-thais-castello-branco-ending-ai-slop]] - Ending AI Slop (2026-06-29, 1:55pm-2:15pm)
 - [[2026-06-30-thais-castello-branco-training-taste]] - Training Taste (2026-06-30, 1:55pm-2:15pm)
 
-## Origin And Context
-The official speaker roster connects Taste Labs to Thais Castello Branco. The public company site was discovered by domain-guess and fetched for homepage metadata.
+## Connections
+- [[thais-castello-branco]] - Founder & CEO
+
+## Sources
+- [Terry Xu](https://taste.dev/)
+
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Linked Sessions
+- [[2026-06-29-thais-castello-branco-ending-ai-slop|Ending AI Slop]]
+- [[2026-06-30-thais-castello-branco-training-taste|Training Taste]]
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
 - Automated company profile fetch status: fetched.
 - Discovery confidence score: 65.
 
-## Public Sources
-- [Terry Xu](https://taste.dev/)
-
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
-
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
-- [[2026-06-29-thais-castello-branco-ending-ai-slop|Ending AI Slop]]
-- [[2026-06-30-thais-castello-branco-training-taste|Training Taste]]
-
-### Slide And Transcript Signals
-No linked video, transcript, or slide source has been attached yet.

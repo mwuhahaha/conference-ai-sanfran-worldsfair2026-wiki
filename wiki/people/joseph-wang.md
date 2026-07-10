@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Joseph Wang
 
-## Official Role
+## Profile
 CEO at [[emulated|Emulated]].
 
-## Profile Links
 - [Website](https://emulated.so/)
 
-## Official Bio
+## Biography
 CEO of [[emulated|Emulated]], building the data for fully autonomous AI
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies]] — Emulated: The data for fully autonomous software engineers and companies (2026-06-30, 1:55pm-2:15pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies|Emulated: The data for fully autonomous software engineers and companies]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

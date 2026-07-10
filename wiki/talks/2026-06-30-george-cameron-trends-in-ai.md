@@ -13,23 +13,41 @@ scheduleLabels: ["Autoresearch", "Main Stage", "keynote", "confirmed"]
 ---
 # Trends in AI
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-30 · 4:50pm-5:10pm
 - Track/room: Autoresearch · Main Stage
 - Speaker(s): George Cameron, Micah Hill-Smith
 - Session type/status: keynote · confirmed
 
-## Schedule Labels
 - Track: Autoresearch
 - Room: Main Stage
 - Session type: keynote
 - Status: confirmed
 
-## Official Description
+## Session Description
 No official description published in the schedule data.
 
-## Related YouTube Video
+## Media Evidence
 [Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai](https://www.youtube.com/watch?v=sRpqPgKeXNk) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+- Source video: `youtube-sRpqPgKeXNk`
+- Slide deck: [[youtube-sRpqPgKeXNk-dense-slides|Dense Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]] — 6 visible slide image(s); 6 HTML recreation(s).
+![[assets/dense-slides/sRpqPgKeXNk/slide-001.jpg]]
+![[assets/dense-slides/sRpqPgKeXNk/slide-002.jpg]]
+![[assets/dense-slides/sRpqPgKeXNk/slide-003.jpg]]
+- Additional slide evidence: [[youtube-sRpqPgKeXNk-slides|Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]], [[youtube-sRpqPgKeXNk-reconstructed-slides|Reconstructed Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]]
+- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
+- Evidence links for `youtube-sRpqPgKeXNk`: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -40,6 +58,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-sRpqPgKeXNk-slides]] — extracted from the related public AI Engineer video.
+
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-sRpqPgKeXNk-dense-slides]] (6 viable slide images).
 - Related slide/OCR pages:
@@ -47,22 +66,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-sRpqPgKeXNk-reconstructed-slides]]
 - [[youtube-sRpqPgKeXNk-slides]]
 - Slide-derived terms: `artificial`, `analysis`, `models`, `reasoning`, `intelligence`, `cost`, `index`, `tokens`, `non-reasoning`, `input`, `anatysis`, `open`, `weights`, `leading`, `output`, `time`, `world`, `engineering`
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
-- Evidence links for `youtube-sRpqPgKeXNk`: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-## Slides
-- Source video: `youtube-sRpqPgKeXNk`
-- Slide deck: [[youtube-sRpqPgKeXNk-dense-slides|Dense Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]] — 6 visible slide image(s); 6 HTML recreation(s).
-![[assets/dense-slides/sRpqPgKeXNk/slide-001.jpg]]
-![[assets/dense-slides/sRpqPgKeXNk/slide-002.jpg]]
-![[assets/dense-slides/sRpqPgKeXNk/slide-003.jpg]]
-- Additional slide evidence: [[youtube-sRpqPgKeXNk-slides|Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]], [[youtube-sRpqPgKeXNk-reconstructed-slides|Reconstructed Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]]
-- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.

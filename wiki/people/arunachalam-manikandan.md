@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Arunachalam Manikandan
 
-## Official Role
+## Profile
 AI Engineer, Co-Founder at [[university-of-minnesota|University of Minnesota]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/arunachalam-manikandan/)
 - [X / Twitter](https://x.com/Arunachala64250)
 - [Blog](https://medium.com/@rome101202)
 
-## Official Bio
+## Biography
 Arunachalam Manikandan is a Computer Science graduate student and Graduate Research Assistant at the [[university-of-minnesota|University of Minnesota]], where he researches biomedical image segmentation using large vision models.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]] — Autoresearch in a Multi-Agent AI Village (2026-06-30, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village|Autoresearch in a Multi-Agent AI Village]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

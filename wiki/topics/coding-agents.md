@@ -5,31 +5,23 @@ sourceLabels: ["Slide/video-derived supporting context"]
 ---
 # Coding Agents
 
-## Synopsis
+## Overview
 Coding agents are AI systems that can inspect repositories, reason about requirements, edit files, run commands, test changes, and sometimes open pull requests or operate development tools. They move AI coding from autocomplete toward task execution.
 
-## Origin And Context
+## Conference Context
 They evolved from code completion, IDE assistants, program synthesis, CI automation, and software bots. The recent shift is tool use: agents can read context, make coordinated edits, run tests, and respond to feedback inside real development workflows.
 
-## Why It Matters
+## Significance
 Software work is full of local context, repetitive edits, dependency checks, and validation loops. Coding agents can compress that cycle, but only when they respect repository conventions, tests, review standards, and operational safety.
 
-## How To Use It
+## Applied Use
 Give the agent a narrow task, repository context, tests or acceptance criteria, and permission boundaries. Require it to read before editing, keep diffs scoped, run validation, report residual risk, and leave the workspace clean.
 
-## Where It Is Useful
 They are useful in feature slices, bug fixes, test generation, refactors, migrations, docs updates, dependency audits, and operational scripts.
 
-## When To Use It
 Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
 
-## Active Use Cases
-- Bug fixes with local tests and deploy verification.
-- Repository-wide mechanical updates with reviewable diffs.
-- CI failure diagnosis and targeted remediation.
-- Agentic software factories that coordinate planning, coding, testing, and release steps.
-
-## Related Slide Decks
+## Connections
 - [[youtube-iRcX54EO5g8-slides]] — Your agent is blindfolded — Johan Lajili, Poolside AI (5 extracted slide frames)
 - [[youtube-HEFSExa0xl0-slides]] — Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs (11 extracted slide frames)
 - [[youtube-MpZzWMdmQCE-slides]] — Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com (5 extracted slide frames)
@@ -44,7 +36,6 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[youtube-sAOBXCDiDOs-slides]] — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc (18 extracted slide frames)
 - [[youtube-vljxQZfJ9wY-slides]] — Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs (12 extracted slide frames)
 
-## Related Scheduled Sessions
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]] — Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine; [[will-bond|Will Bond]], [[ameya-ketkar|Ameya Ketkar]] (Day 2 — Session Day 1 · 12:05pm-12:25pm · AI-Native Enterprises; official schedule)
 - [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]] — Give your coding agents the power of turbogrep!; [[owen-halpert|Owen Halpert]] (Day 2 — Session Day 1 · 11:10am-11:30am · Expo Stage 1 NE; official schedule)
 - [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]] — Video Has No Memory. Here's How We Built One.; [[james-le|James Le]] (Day 4 — Session Day 3 · 2:25pm-2:45pm · Graphs; official schedule)
@@ -70,7 +61,6 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night]] — We Gave an Agent Production Code Access and Then Tried to Sleep at Night; [[moritz-johner|Moritz Johner]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Security; official schedule)
 - [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust; [[erik-meijer|Erik Meijer]] (Day 2 — Session Day 1 · 4:50pm-5:10pm · Harness Engineering; official schedule)
 
-## Related People
 - [[john-craft|John Craft]]
 - [[laurie-voss|Laurie Voss]]
 - [[jason-liu|Jason Liu]]
@@ -96,7 +86,6 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[fuad-ali|Fuad Ali]]
 - [[zhengyao-jiang|Zhengyao Jiang]]
 
-## Related Companies
 - [[microsoft|Microsoft]]
 - [[openai|OpenAI]]
 - [[docker|Docker]]
@@ -116,7 +105,7 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[sonar|Sonar]]
 - [[uber|Uber]]
 
-## Transcript And Resource Support
+## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-jVjt-2g8NMY]] — A Genius With Amnesia - Victor Savkin, Nx
 - [[youtube-CLttOU7n6sI]] — Respect The Process - Andrew Dumit, Watershed Technology Inc.
@@ -147,10 +136,9 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - “And this is this is pretty uh important because sometimes the problem is uh, uh so critical so we need to fix them as soon as possible and yeah, it works pretty well.” — [[youtube-kZsf_Sfm7RU]]
 - “Now when the context is provided it's always like these are my security concerns which I always have to look into.” — [[youtube-EcqMYoIV57A]]
 
-## Source-Derived Enrichment
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
-### Talk Evidence
+### Linked Sessions
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine|Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine]]
 - [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep|Give your coding agents the power of turbogrep!]]
 - [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one|Video Has No Memory. Here's How We Built One.]]
@@ -162,7 +150,7 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-30-adi-singh-the-next-trillion-users-of-the-internet-still-don-t-have-an-identity|The Next Trillion Users of the Internet Still Don't Have an Identity]]
 - [[2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer|Building an Agentic Video Editor for Mass Consumer]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals
 - Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, companies, pushing, move, faster, offline.
 - Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
@@ -173,7 +161,8 @@ This section consolidates source evidence currently connected to this topic acro
 - `youtube-AheG9p_JXVw` — 1,340 transcript words
 - Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
 - Evidence links for `youtube-AheG9p_JXVw`: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
-## Evidence Table
+
+## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
@@ -185,7 +174,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 | tools | 1 | Derived inventory pages; use as entity context, not independent proof. |
 | transcripts | 2 | Transcript markdown; check session matching and caption quality. |
 
-## Representative Evidence Links
 ### Talks
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]]
 - [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]]
@@ -217,66 +205,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Tools
 - [[docker]]
 
-## Representative Evidence Links
-### Talks
-- [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]]
-- [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]]
-- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
-- [[2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands]]
-- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
-- [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code]]
-
-### Resources
-- [[youtube-jVjt-2g8NMY]]
-- [[youtube-CLttOU7n6sI]]
-- [[youtube-HsxQICTLF84]]
-- [[youtube-3hXJI2q0Jz8]]
-- [[youtube-Rx8f05JI_WA]]
-- [[youtube-iRcX54EO5g8]]
-
-### Slides
-- [[youtube-iRcX54EO5g8-slides]]
-- [[youtube-HEFSExa0xl0-slides]]
-- [[youtube-MpZzWMdmQCE-slides]]
-- [[youtube-4kYl2_mqmnQ-slides]]
-- [[youtube-IQkVMvXQKLY-slides]]
-- [[youtube-2e9ANoOEn28-slides]]
-
-### Transcripts
-- [[youtube-Xfl50508LZM-transcript]]
-- [[youtube-AheG9p_JXVw-transcript]]
-
-### Tools
-- [[docker]]
-
-## Representative Evidence Links
-### Talks
-- [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]]
-- [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]]
-- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
-- [[2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands]]
-- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
-- [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code]]
-
-### Resources
-- [[youtube-jVjt-2g8NMY]]
-- [[youtube-CLttOU7n6sI]]
-- [[youtube-HsxQICTLF84]]
-- [[youtube-3hXJI2q0Jz8]]
-- [[youtube-Rx8f05JI_WA]]
-- [[youtube-iRcX54EO5g8]]
-
-### Slides
-- [[youtube-iRcX54EO5g8-slides]]
-- [[youtube-HEFSExa0xl0-slides]]
-- [[youtube-MpZzWMdmQCE-slides]]
-- [[youtube-4kYl2_mqmnQ-slides]]
-- [[youtube-IQkVMvXQKLY-slides]]
-- [[youtube-2e9ANoOEn28-slides]]
-
-### Transcripts
-- [[youtube-Xfl50508LZM-transcript]]
-- [[youtube-AheG9p_JXVw-transcript]]
-
-### Tools
-- [[docker]]
+## Active Use Cases
+- Bug fixes with local tests and deploy verification.
+- Repository-wide mechanical updates with reviewable diffs.
+- CI failure diagnosis and targeted remediation.
+- Agentic software factories that coordinate planning, coding, testing, and release steps.

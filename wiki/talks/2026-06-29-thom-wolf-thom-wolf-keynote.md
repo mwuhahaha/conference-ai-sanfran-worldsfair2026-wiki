@@ -13,23 +13,41 @@ scheduleLabels: ["Software Factories", "Main Stage", "keynote", "confirmed"]
 ---
 # Thom Wolf keynote
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-29 · 10:05am-10:25am
 - Track/room: Software Factories · Main Stage
 - Speaker(s): Thom Wolf, Olive Song
 - Session type/status: keynote · confirmed
 
-## Schedule Labels
 - Track: Software Factories
 - Room: Main Stage
 - Session type: keynote
 - Status: confirmed
 
-## Official Description
+## Session Description
 No official description published in the schedule data.
 
-## Related YouTube Video
+## Media Evidence
 [Minimax M2: Building the #1 Open Model – Olive Song, MiniMax](https://www.youtube.com/watch?v=lY1iFbDPRlw) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+- Source video: `youtube-lY1iFbDPRlw`
+- Slide deck: [[youtube-lY1iFbDPRlw-dense-slides|Dense Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]] — 5 visible slide image(s); 5 HTML recreation(s).
+![[assets/dense-slides/lY1iFbDPRlw/slide-001.jpg]]
+![[assets/dense-slides/lY1iFbDPRlw/slide-002.jpg]]
+![[assets/dense-slides/lY1iFbDPRlw/slide-003.jpg]]
+- Additional slide evidence: [[youtube-lY1iFbDPRlw-slides|Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]], [[youtube-lY1iFbDPRlw-reconstructed-slides|Reconstructed Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]]
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
+- Evidence links for `youtube-lY1iFbDPRlw`: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -40,6 +58,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-lY1iFbDPRlw-slides]] — extracted from the related public AI Engineer video.
+
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-lY1iFbDPRlw-dense-slides]] (5 viable slide images).
 - Related slide/OCR pages:
@@ -47,22 +66,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 - [[youtube-lY1iFbDPRlw-slides]]
 - Slide-derived terms: `minimax`, `research`, `open-weight`, `senior`, `engineer`, `tasks`, `minimax-m2`, `agentic`, `model`, `fast`, `coding`, `intetgence`, `everyene`, `olive`, `song`, `intelligence`, `real`, `experience`
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
-- Evidence links for `youtube-lY1iFbDPRlw`: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-## Slides
-- Source video: `youtube-lY1iFbDPRlw`
-- Slide deck: [[youtube-lY1iFbDPRlw-dense-slides|Dense Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]] — 5 visible slide image(s); 5 HTML recreation(s).
-![[assets/dense-slides/lY1iFbDPRlw/slide-001.jpg]]
-![[assets/dense-slides/lY1iFbDPRlw/slide-002.jpg]]
-![[assets/dense-slides/lY1iFbDPRlw/slide-003.jpg]]
-- Additional slide evidence: [[youtube-lY1iFbDPRlw-slides|Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]], [[youtube-lY1iFbDPRlw-reconstructed-slides|Reconstructed Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]]
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.

@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Valeria Wu Fon
 
-## Official Role
+## Profile
 Product Manager at [[google-deepmind|Google DeepMind]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/valeriawu/)
 - [X / Twitter](https://x.com/valeriawu_)
 
-## Official Bio
+## Biography
 Product Manager at [[google-deepmind|Google DeepMind]] for Gemini's speech to speech model. Previously worked across early stage companies, venture/banking, and a brief stint at a surf hostel. Valeria studied Symbolic Systems (CS, Neuroscience, and Philosophy) at Stanford, where she focused on human-centered AI. Originally from Lima, Peru, she is a single-digit golfer and a dedicated foodie.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]] — Speech-to-Speech Model Research at Google DeepMind (2026-06-29, 11:10am-11:30am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind|Speech-to-Speech Model Research at Google DeepMind]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

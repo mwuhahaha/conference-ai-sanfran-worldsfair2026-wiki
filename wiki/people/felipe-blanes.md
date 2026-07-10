@@ -7,23 +7,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Felipe Blanes
 
-## Official Role
+## Profile
 Role not listed at [[amazon|Amazon]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/felipeblanes)
 
-## Official Bio
+## Biography
 No official bio included in the speaker JSON.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-felipe-blanes-designing-evals-that-earn-user-trust]] — Designing Evals That Earn User Trust (2026-06-29, 1:30pm-1:50pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-felipe-blanes-designing-evals-that-earn-user-trust|Designing Evals That Earn User Trust]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

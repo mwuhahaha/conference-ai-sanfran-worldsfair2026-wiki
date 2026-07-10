@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # James Zou
 
-## Official Role
+## Profile
 Associate Professor of Biomedical Data Science at [[stanford-university-together-ai|Stanford University / Together AI]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/james-zou-2123a4133)
 - [X / Twitter](https://twitter.com/james_y_zou)
 - [Website](https://www.cs.stanford.edu/people/james-zou)
 
-## Official Bio
+## Biography
 James Zou is an associate professor of Biomedical Data Science at Stanford, with courtesy appointments in Computer Science and Electrical Engineering, and a Stanford HAI faculty affiliate. His AI for Science work includes collective AI-agent systems for scientific discovery with [[together-ai|Together AI]].
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-james-zou-harnessing-collective-agent-intelligence-for-open-science]] — Harnessing Collective Agent Intelligence for Open Science (2026-06-30, 12:05pm-12:25pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-james-zou-harnessing-collective-agent-intelligence-for-open-science|Harnessing Collective Agent Intelligence for Open Science]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

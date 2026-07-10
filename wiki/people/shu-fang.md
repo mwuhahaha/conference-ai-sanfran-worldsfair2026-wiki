@@ -7,23 +7,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Shu Fang
 
-## Official Role
+## Profile
 Software Engineer at [[two-sigma-investments|Two Sigma Investments]].
 
-## Profile Links
 No public profile links listed in the official speaker roster.
 
-## Official Bio
+## Biography
 Software engineer at [[two-sigma-investments|Two Sigma Investments]] building the AI platform. Formerly led Developer Productivity and Insurance Engineering teams. Previously at Wealthfront.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-shu-fang-tethered-our-agents-are-us]] — Tethered: Our Agents Are Us (2026-06-29, 12:05pm-12:25pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-shu-fang-tethered-our-agents-are-us|Tethered: Our Agents Are Us]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

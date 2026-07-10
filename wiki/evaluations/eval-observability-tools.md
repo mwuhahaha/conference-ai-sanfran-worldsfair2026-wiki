@@ -5,8 +5,15 @@ status: "tentative"
 confidence: "medium"
 sourceLabels: ["Harness", "Official schedule", "Tool inventory", "Topic synthesis"]
 ---
-
 # Eval And Observability Tools
+
+## Evidence
+- [[agent-evaluations]] - Topic synthesis
+- [[arize]] - Tool inventory
+- [[braintrust]] - Tool inventory
+- [[langfuse]] - Tool inventory
+- [[agent-eval-gate]] - Harness
+- [[2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale]] - Official schedule
 
 ## Decision Question
 Compare eval and observability tooling by whether it connects user outcomes, traces, policy checks, and regression tests into one improvement loop.
@@ -17,14 +24,6 @@ Compare eval and observability tooling by whether it connects user outcomes, tra
 - Dataset management and failure clustering
 - Human review ergonomics
 - Production feedback loop support
-
-## Source Evidence
-- [[agent-evaluations]] - Topic synthesis
-- [[arize]] - Tool inventory
-- [[braintrust]] - Tool inventory
-- [[langfuse]] - Tool inventory
-- [[agent-eval-gate]] - Harness
-- [[2026-06-30-soumya-gupta-building-closed-loop-evals-for-a-multimodal-agent-at-uber-scale]] - Official schedule
 
 ## Tentative Recommendation
 Tentative: require a trial that reproduces one production-like failure and shows how the tool would prevent or detect it next time.

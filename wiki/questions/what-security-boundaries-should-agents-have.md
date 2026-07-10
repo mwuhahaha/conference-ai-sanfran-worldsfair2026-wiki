@@ -4,16 +4,15 @@ category: "questions"
 status: "active"
 sourceLabels: ["Official schedule", "Slide/OCR evidence", "Tool inventory", "Topic synthesis"]
 ---
-
 # What security boundaries should agents have?
 
-## Why This Question Matters
+## Context
 Agents that can use tools, browse, write code, and affect production need boundaries around identity, permissions, execution, audit, and rollback.
 
-## Current Working Answer
+## Working Answer
 This page is a first-pass research question, not a final recommendation. Use the linked evidence to refine the answer as more exact session recordings, transcripts, and reviewed slide readings become available.
 
-## Source Evidence
+## Evidence
 - [[agent-security]] — Topic synthesis
 - [[ai-sandboxes]] — Topic synthesis
 - [[mcp]] — Topic synthesis
@@ -28,7 +27,7 @@ This page is a first-pass research question, not a final recommendation. Use the
 - [[youtube-BM2JX9hqsVQ-slides]] — Slide/OCR evidence
 - [[youtube-JhJKgRAmfIU-slides]] — Slide/OCR evidence
 
-## Follow-Up
+## Next Questions
 - Extract specific claims from the linked source pages.
 - Separate official schedule evidence from supporting YouTube, transcript, and OCR evidence.
 - Convert stable answers into playbooks, harnesses, or evaluations where appropriate.

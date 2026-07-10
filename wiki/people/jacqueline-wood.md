@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Jacqueline Wood
 
-## Official Role
+## Profile
 Staff Machine Learning Engineer at [[spotify|Spotify]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jacquelinewood)
 
-## Official Bio
+## Biography
 Jacqueline Wood is a Staff Machine Learning Engineer at [[spotify|Spotify]], where she builds personalized, language-steerable generative recommenders. Her applied research focuses on adapting open-weight LLMs with semantic IDs to connect natural-language intent with [[spotify|Spotify]] catalog entities.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-jacqueline-wood-spotify-llm-recsys]] — Spotify LLM Recsys (2026-06-29, 11:10am-11:30am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-jacqueline-wood-spotify-llm-recsys|Spotify LLM Recsys]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

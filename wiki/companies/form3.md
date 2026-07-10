@@ -7,36 +7,36 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Form3
 
-## What It Is
+## Overview
 Form3 is represented at AI Engineer World's Fair 2026. Its public site describes it this way: AI-driven form-generation framework for structured creative workflows.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects Form3 to Moritz Johner. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Conference Relevance
 Form3 matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: We Gave an Agent Production Code Access and Then Tried to Sleep at Night.
 
-## Related People
-- [[moritz-johner]] - Staff Engineer
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night]] - We Gave an Agent Production Code Access and Then Tried to Sleep at Night (2026-06-29, 11:40am-12:00pm)
 
-## Origin And Context
-The official speaker roster connects Form3 to Moritz Johner. The public company site was discovered by domain-guess and fetched for homepage metadata.
+## Connections
+- [[moritz-johner]] - Staff Engineer
+
+## Sources
+- [form3.ai](https://form3.ai/)
+
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Linked Sessions
+- [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night|We Gave an Agent Production Code Access and Then Tried to Sleep at Night]]
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
 - Automated company profile fetch status: fetched.
 - Discovery confidence score: 118.
 
-## Public Sources
-- [form3.ai](https://form3.ai/)
-
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
-
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
-- [[2026-06-29-moritz-johner-we-gave-an-agent-production-code-access-and-then-tried-to-sleep-at-night|We Gave an Agent Production Code Access and Then Tried to Sleep at Night]]
-
-### Slide And Transcript Signals
-No linked video, transcript, or slide source has been attached yet.

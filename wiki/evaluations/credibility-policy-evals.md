@@ -5,7 +5,6 @@ status: "active"
 confidence: "high"
 sourceLabels: ["Credibility policy", "Evaluation-backed scoring"]
 ---
-
 # Credibility Policy Evals
 
 This page checks whether topic-specific credibility policies score known strong exemplars high enough. If a fixture fails, adjust the policy weights or fixture assumptions instead of overriding the score by hand.

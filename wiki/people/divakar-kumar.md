@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Divakar Kumar
 
-## Official Role
+## Profile
 Technical Architect at [[flyerssoft|FlyersSoft]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/divakar-kumar/)
 - [Website](https://iamdivakarkumar.com)
 - [Blog](https://iamdivakarkumar.com)
 
-## Official Bio
+## Biography
 Divakar Kumar is a Microsoft MVP in AI and a Microsoft Certified Trainer (MCT), working as a Technical Architect at Flyerssoft. He actively shares his knowledge through blogs, talks, and training sessions, empowering developers to harness the potential of AI in real-world applications.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems]] — Let's integrate AI Agents in Event-Sourced Systems (2026-07-01, 11:40am-12:00pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-divakar-kumar-let-s-integrate-ai-agents-in-event-sourced-systems|Let's integrate AI Agents in Event-Sourced Systems]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

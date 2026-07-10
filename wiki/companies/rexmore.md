@@ -7,41 +7,34 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Rexmore
 
-## What It Is
+## Overview
 Rexmore is an AI-native holding company that acquires and builds businesses through technology, investment, and education. Its public site describes an operating model where small teams are multiplied by proprietary tools, systematic knowledge, and AI-native operating practices.
 
-## Why It Matters At World's Fair
-Rexmore matters to the World's Fair graph through Corey Gallon's Dark Arts of Web Automation talk. The company context makes the talk more than a tool demo: it is a practical operating-system view of how small AI-native teams turn repeat browser work into durable, scriptable leverage.
-
-## Related People
-- [[corey-gallon]] - Managing Director
-
-## Related Scheduled Sessions
-- [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans]] - The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans (2026-06-30, 12:05pm-12:25pm)
-
-## Origin And Context
+## Background
 The official speaker roster lists Corey Gallon as Managing Director at Rexmore. Rexmore's public site describes the company as an AI-native holding company focused on technology, investment, and education.
 
-## Notes
-- Rexmore's site frames AI-native operations around small teams, ownership, proprietary tools, and operating companies at scale.
-- The Dark Arts talk should be treated as a highlighted Rexmore-connected case study in repeatable browser automation and AI-native leverage.
+## Conference Relevance
+Rexmore matters to the World's Fair graph through Corey Gallon's Dark Arts of Web Automation talk. The company context makes the talk more than a tool demo: it is a practical operating-system view of how small AI-native teams turn repeat browser work into durable, scriptable leverage.
 
-## Public Sources
+## Conference Sessions
+- [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans]] - The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans (2026-06-30, 12:05pm-12:25pm)
+
+## Connections
+- [[corey-gallon]] - Managing Director
+
+## Sources
 - [Rexmore official site](https://rexmore.ai/)
 - [Corey Gallon official speaker page](https://aie-wf.sentry.dev/speakers/spk_corey_gallon)
 - [Corey Gallon LinkedIn](https://www.linkedin.com/in/coreygallon)
 - [Corey Gallon website](https://gallon.me)
 
-## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans|The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
 - Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
@@ -56,3 +49,10 @@ This section summarizes how this organization appears across the conference sour
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
 - Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
 - Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]
+
+## Notes
+- Rexmore's site frames AI-native operations around small teams, ownership, proprietary tools, and operating companies at scale.
+- The Dark Arts talk should be treated as a highlighted Rexmore-connected case study in repeatable browser automation and AI-native leverage.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

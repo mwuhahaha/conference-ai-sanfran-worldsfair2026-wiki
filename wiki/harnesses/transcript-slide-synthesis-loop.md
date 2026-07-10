@@ -4,25 +4,24 @@ category: "harnesses"
 status: "seeded"
 sourceLabels: ["Livestream resource", "Slide evidence", "Source map", "Source rules"]
 ---
-
 # Transcript Slide Synthesis Loop
 
-## Purpose
+## Overview
 A repeatable way to combine schedule metadata, transcripts, slide OCR, reconstructed slides, and topic pages without promoting weak evidence into confident claims.
 
-## Observed At AIE
+## Conference Context
 - This wiki has stronger media evidence than Miami: transcripts, stage frames, reconstructed crops, dense slides, and OCR audits.
 - The source-boundary page requires official facts, supporting video context, transcript evidence, and OCR evidence to stay labeled.
 - Several evaluation talks emphasize that outputs need traceable evidence, not only polished summaries.
 
-## Recommended Implementation Steps
+## Implementation Pattern
 - Anchor the page with official schedule facts first.
 - Add transcript-backed claims only when the transcript is linked and speaker/session matching is clear enough.
 - Use reconstructed slide crops before full-stage OCR when slide text matters.
 - Mark OCR-only claims as OCR-derived unless reviewed against the image.
 - Regenerate dependent topic, tool, question, and evaluation indexes after source changes.
 
-## Source Evidence
+## Evidence
 - [[source-boundary]] - Source rules
 - [[agent-source-index]] - Source map
 - [[slide-library]] - Slide evidence

@@ -5,8 +5,16 @@ status: "tentative"
 confidence: "medium"
 sourceLabels: ["Harness", "Official schedule", "Tool inventory", "Topic synthesis"]
 ---
-
 # Sandbox Providers
+
+## Evidence
+- [[ai-sandboxes]] - Topic synthesis
+- [[agent-security]] - Topic synthesis
+- [[sandboxed-agent-execution]] - Harness
+- [[docker]] - Tool inventory
+- [[daytona]] - Tool inventory
+- [[browserbase]] - Tool inventory
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]] - Official schedule
 
 ## Decision Question
 Compare sandbox providers by isolation strength, developer ergonomics, traceability, network/secret policy, and fit for code-running agents.
@@ -17,15 +25,6 @@ Compare sandbox providers by isolation strength, developer ergonomics, traceabil
 - Startup latency and task throughput
 - Artifact capture and replay
 - Integration with review and approval gates
-
-## Source Evidence
-- [[ai-sandboxes]] - Topic synthesis
-- [[agent-security]] - Topic synthesis
-- [[sandboxed-agent-execution]] - Harness
-- [[docker]] - Tool inventory
-- [[daytona]] - Tool inventory
-- [[browserbase]] - Tool inventory
-- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]] - Official schedule
 
 ## Tentative Recommendation
 Tentative: choose the weakest sandbox that satisfies the task risk policy, but require stronger isolation for untrusted code, external input, production credentials, or cross-tenant workloads.

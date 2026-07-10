@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Micah Silverman
 
-## Official Role
+## Profile
 Director of Developer Relations at [[snyk|Snyk]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/micahsilverman)
 
-## Official Bio
+## Biography
 Director of Developer Relations at [[snyk|Snyk]] with extensive Java development experience; author and speaker on developer security and secure software practices.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-micah-silverman-ai-security-engineer-foundations-certificate]] — AI Security Engineer Foundations + Certificate (2026-06-29, 2:20pm-4:20pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-micah-silverman-ai-security-engineer-foundations-certificate|AI Security Engineer Foundations + Certificate]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

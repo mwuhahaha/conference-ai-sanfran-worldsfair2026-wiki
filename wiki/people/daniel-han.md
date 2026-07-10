@@ -11,32 +11,31 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Daniel Han
 
-## Official Role
+## Profile
 Co-founder at [[unsloth|Unsloth]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/danielhanchen)
 - [X / Twitter](https://x.com/danielhanchen)
 - [Website](https://unsloth.ai)
 - [Blog](https://unsloth.ai/introducing)
 
-## Official Bio
+## Biography
 Co-founder of [[unsloth|Unsloth]]. Making open source AI more accessible and local. 300M downloads. 65K GitHub stars. Previously at NVIDIA.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents]] — Special topics in Kernels, RL, Reward Hacking in Agents (2026-06-29, 2:20pm-5:30pm)
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge]] — Compression at the Edge (2026-07-01, 2:25pm-2:45pm)
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge-2-50pm-3-10pm-track-4-519]] — Compression at the Edge (2026-07-01, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents|Special topics in Kernels, RL, Reward Hacking in Agents]]
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge|Compression at the Edge]]
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge-2-50pm-3-10pm-track-4-519|Compression at the Edge]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-OkEGJ5G3foU` — 3 slide-derived text signals
 - Slide-derived themes for `youtube-OkEGJ5G3foU`: fixes, chat, template, multiple, llama, research, google, github.
 - Evidence links for `youtube-OkEGJ5G3foU`: [[youtube-OkEGJ5G3foU]], [[youtube-OkEGJ5G3foU-slides]], [[youtube-OkEGJ5G3foU-dense-slides]], [[youtube-OkEGJ5G3foU-reconstructed-slides]]

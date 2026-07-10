@@ -5,35 +5,26 @@ sourceLabels: ["Slide/video-derived supporting context"]
 ---
 # Inference Engineering
 
-## Synopsis
+## Overview
 Inference engineering is the practice of making AI model serving reliable, fast, cost-aware, and fit for product constraints. It covers model selection, batching, caching, routing, quantization, GPU utilization, latency budgets, observability, and fallback behavior.
 
-## Origin And Context
+## Conference Context
 It extends production ML serving, distributed systems, GPU infrastructure, and web-performance engineering. LLMs added new constraints: token streaming, long prompts, context caching, tool latency, and rapidly changing model/provider economics.
 
-## Why It Matters
+## Significance
 The same prompt can be unusable or profitable depending on latency, throughput, context size, and cost. Inference engineering turns model capability into a dependable product surface.
 
-## How To Use It
+## Applied Use
 Measure end-to-end latency and token costs, separate prefill from generation costs, cache stable context, route tasks to the smallest adequate model, batch where possible, and monitor quality regressions when optimizing speed or cost.
 
-## Where It Is Useful
 It matters in chat products, coding agents, voice agents, search and RAG systems, enterprise assistants, on-device AI, and high-volume API products.
 
-## When To Use It
 Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
 
-## Active Use Cases
-- Reducing token and GPU cost for agent workflows.
-- Serving long-context or cached-context applications.
-- Routing between frontier, small, local, and specialized models.
-- Optimizing voice and interactive applications for low latency.
-
-## Related Slide Decks
+## Connections
 - [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 - [[youtube-vljxQZfJ9wY-slides]] — Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs (12 extracted slide frames)
 
-## Related Scheduled Sessions
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale; [[nishant-gupta|Nishant Gupta]], [[naman-ahuja|Naman Ahuja]] (Day 4 — Session Day 3 · 10:45am-11:05am · Inference; official schedule)
 - [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]] — Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production; [[bogdan-gaza|Bogdan Gaza]] (Day 2 — Session Day 1 · 3:20pm-3:40pm · Expo Stage 3 SW; official schedule)
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] — Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs; [[du-an-lightfoot|Du'an Lightfoot]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 7; official schedule)
@@ -59,7 +50,6 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[2026-06-30-david-corbitt-inference-is-the-new-training-loop-architecting-high-reliability-agents-and-continuous-ai-systems]] — Inference is the New Training Loop: Architecting High-Reliability Agents and Continuous AI Systems; [[david-corbitt|David Corbitt]] (Day 3 — Session Day 2 · 3:20pm-3:40pm · Posttraining & Midtraining; official schedule)
 - [[2026-07-01-sujee-maniyam-optimizing-open-models-for-production-grade-inference]] — Optimizing Open Models for Production Grade Inference; [[sujee-maniyam|Sujee Maniyam]], [[dylan-bristot|Dylan Bristot]] (Day 4 — Session Day 3 · 2:25pm-2:45pm · Expo Stage 1 NE; official schedule)
 
-## Related People
 - [[laurie-voss|Laurie Voss]]
 - [[neil-zeghidour|Neil Zeghidour]]
 - [[harshul-jain|Harshul Jain]]
@@ -85,7 +75,6 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[lu-zhang|Lu Zhang]]
 - [[byung-gon-gon-chun|Byung-Gon (Gon) Chun]]
 
-## Related Companies
 - [[together-ai|Together AI]]
 - [[arize-ai|Arize AI]]
 - [[nvidia|NVIDIA]]
@@ -105,7 +94,7 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[stanford-university|Stanford University]]
 - [[red-hat|Red Hat]]
 
-## Transcript And Resource Support
+## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-r305-aQTaU0]] — Text Diffusion — Brendan O’Donoghue, Google DeepMind
 - [[youtube-vh2VGuQ3zhY]] — The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica
@@ -133,10 +122,9 @@ Invest in inference engineering once prototypes need predictable user experience
 - “So it's not just one pass, it does multiple passes, but it gets to attend to the future tokens and so on.” — [[youtube-r305-aQTaU0]]
 - “All right, so So, when we're serving uh an auto regressive model, these these chips are memory bound.” — [[youtube-r305-aQTaU0]]
 
-## Source-Derived Enrichment
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
-### Talk Evidence
+### Linked Sessions
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale|Operating Distributed Inference Systems at Scale]]
 - [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production|Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production]]
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus|>-]]
@@ -148,7 +136,7 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-2-of-2|2 hr deep dive on LLM Inference at Scale — Part 2 of 2]]
 - [[2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy|Routing LLM Inference in Production: From Engine Signals to Policy]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals
 - Slide-derived themes for `youtube-APh1Vx0oLmQ`: systems, deterministic, infrastructure, emerging, control, plane, autonomous, reliability.
 - Evidence links for `youtube-APh1Vx0oLmQ`: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
@@ -159,7 +147,8 @@ This section consolidates source evidence currently connected to this topic acro
 - `youtube-tzRvcTEapzo` — 5 slide-derived text signals
 - Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
 - Evidence links for `youtube-tzRvcTEapzo`: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
-## Evidence Table
+
+## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
@@ -170,7 +159,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 | talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
 | transcripts | 1 | Transcript markdown; check session matching and caption quality. |
 
-## Representative Evidence Links
 ### Talks
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]]
 - [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]]
@@ -198,58 +186,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Transcripts
 - [[youtube-wFTVEDYVJT0-transcript]]
 
-## Representative Evidence Links
-### Talks
-- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]]
-- [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]]
-- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]]
-- [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era]]
-- [[2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code]]
-- [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]]
-
-### Resources
-- [[youtube-r305-aQTaU0]]
-- [[youtube-vh2VGuQ3zhY]]
-- [[youtube-fWXJM-J0ZB8]]
-- [[youtube-TUnPNY4E2fw]]
-- [[youtube-_B4Pv9ttFgY]]
-- [[youtube-Rx8f05JI_WA]]
-
-### Slides
-- [[youtube-2IxD9OB3XuQ-slides]]
-- [[youtube-vljxQZfJ9wY-slides]]
-- [[youtube-APh1Vx0oLmQ-slides]]
-- [[youtube-APh1Vx0oLmQ-dense-slides]]
-- [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
-- [[youtube-wFTVEDYVJT0-slides]]
-
-### Transcripts
-- [[youtube-wFTVEDYVJT0-transcript]]
-
-## Representative Evidence Links
-### Talks
-- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]]
-- [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]]
-- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]]
-- [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era]]
-- [[2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code]]
-- [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]]
-
-### Resources
-- [[youtube-r305-aQTaU0]]
-- [[youtube-vh2VGuQ3zhY]]
-- [[youtube-fWXJM-J0ZB8]]
-- [[youtube-TUnPNY4E2fw]]
-- [[youtube-_B4Pv9ttFgY]]
-- [[youtube-Rx8f05JI_WA]]
-
-### Slides
-- [[youtube-2IxD9OB3XuQ-slides]]
-- [[youtube-vljxQZfJ9wY-slides]]
-- [[youtube-APh1Vx0oLmQ-slides]]
-- [[youtube-APh1Vx0oLmQ-dense-slides]]
-- [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
-- [[youtube-wFTVEDYVJT0-slides]]
-
-### Transcripts
-- [[youtube-wFTVEDYVJT0-transcript]]
+## Active Use Cases
+- Reducing token and GPU cost for agent workflows.
+- Serving long-context or cached-context applications.
+- Routing between frontier, small, local, and specialized models.
+- Optimizing voice and interactive applications for low latency.

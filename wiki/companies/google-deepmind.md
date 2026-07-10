@@ -7,24 +7,16 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Google DeepMind
 
-## What It Is
+## Overview
 Google DeepMind is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Build AI responsibly to benefit humanity.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects Google DeepMind to Benoit Schillings, Ivan Leo, Kevin Hou, Nidhi Kaushik Vyas, Paige Bailey, Philipp Schmid. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+
+## Conference Relevance
 Google DeepMind matters to this wiki through 9 official speaker(s) and 14 scheduled session(s), including: Research to Reality with Google DeepMind; Speech-to-Speech Model Research at Google DeepMind; Get Out of the Model's Way.
 
-## Related People
-- [[benoit-schillings]] - VP of Technology
-- [[ivan-leo]] - Developer Experience Engineer
-- [[kevin-hou]] - Engineering Lead @ Antigravity
-- [[nidhi-kaushik-vyas]] - Product
-- [[paige-bailey]] - AI Developer Relations Engineering Lead
-- [[philipp-schmid]] - Staff Engineer
-- [[thor-schaeff]] - Member of the Technical Staff (DevX) at Google DeepMind
-- [[tom-ouyang]] - Principal Engineer
-- [[valeria-wu-fon]] - Product Manager
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]] - Speech-to-Speech Model Research at Google DeepMind (2026-06-29, 11:10am-11:30am)
 - [[2026-06-29-paige-bailey-research-to-reality-with-google-deepmind]] - Research to Reality with Google DeepMind (2026-06-29, 12:10pm-1:10pm)
 - [[2026-06-29-kevin-hou-get-out-of-the-model-s-way]] - Get Out of the Model's Way (2026-06-29, 1:30pm-1:50pm)
@@ -40,23 +32,24 @@ Google DeepMind matters to this wiki through 9 official speaker(s) and 14 schedu
 - [[2026-07-01-ivan-leo-an-interaction-is-all-you-need]] - An Interaction Is All You Need (2026-07-01, 3:20pm-3:40pm)
 - [[2026-07-01-philipp-schmid-agents-without-code-how-skills-yaml-and-filesystems-replaced-python]] - Agents Without Code: How Skills, YAML, and Filesystems Replaced Python (2026-07-01, 3:45pm-4:05pm)
 
-## Origin And Context
-The official speaker roster connects Google DeepMind to Benoit Schillings, Ivan Leo, Kevin Hou, Nidhi Kaushik Vyas, Paige Bailey, Philipp Schmid. The public company site was discovered by manual-url-override and fetched for homepage metadata.
+## Connections
+- [[benoit-schillings]] - VP of Technology
+- [[ivan-leo]] - Developer Experience Engineer
+- [[kevin-hou]] - Engineering Lead @ Antigravity
+- [[nidhi-kaushik-vyas]] - Product
+- [[paige-bailey]] - AI Developer Relations Engineering Lead
+- [[philipp-schmid]] - Staff Engineer
+- [[thor-schaeff]] - Member of the Technical Staff (DevX) at Google DeepMind
+- [[tom-ouyang]] - Principal Engineer
+- [[valeria-wu-fon]] - Product Manager
 
-## Notes
-- Automated company profile fetch status: fetched.
-- Discovery confidence score: 113.
-
-## Public Sources
+## Sources
 - [Google DeepMind](https://deepmind.google/)
 
-## Evidence Boundary
-Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind|Speech-to-Speech Model Research at Google DeepMind]]
 - [[2026-06-29-paige-bailey-research-to-reality-with-google-deepmind|Research to Reality with Google DeepMind]]
 - [[2026-06-29-kevin-hou-get-out-of-the-model-s-way|Get Out of the Model's Way]]
@@ -68,7 +61,7 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-4|Build realtime multimodal agents with Gemini Live (continued 4)]]
 - [[2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox|Why Agents Should Have Their Own Sandbox]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-G_bHFmEAarM` — 6 slide-derived text signals
 - Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
 - Evidence links for `youtube-G_bHFmEAarM`: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
@@ -81,3 +74,10 @@ This section summarizes how this organization appears across the conference sour
 - `youtube-3_gYbhABcAE` — 4 slide-derived text signals
 - Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
 - Evidence links for `youtube-3_gYbhABcAE`: [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
+
+## Notes
+- Automated company profile fetch status: fetched.
+- Discovery confidence score: 113.
+
+## Evidence Boundary
+Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

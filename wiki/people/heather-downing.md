@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Heather Downing
 
-## Official Role
+## Profile
 Developer Advocate at [[yugabyte|Yugabyte]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/heathermdowning)
 - [X / Twitter](https://twitter.com/quorralyne)
 - [Website](https://quorralyne.com)
 
-## Official Bio
+## Biography
 Heather Downing is a developer advocate and 7x Microsoft MVP focused on AI, data, security and C#/.NET. She has experience building enterprise voice, mobile and .NET applications and is active in developer-community speaking and mentorship.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not]] — Agent Memory Is a Solved Problem. Agent Learning Is Not. (2026-07-01, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not|Agent Memory Is a Solved Problem. Agent Learning Is Not.]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

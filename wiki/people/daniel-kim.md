@@ -10,27 +10,26 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Daniel Kim
 
-## Official Role
+## Profile
 Head of Growth at [[cerebras|Cerebras]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/journeyer)
 - [X / Twitter](https://x.com/learnwdaniel)
 - [Website](https://danielkim.sh/)
 
-## Official Bio
+## Biography
 Daniel Kim works on large-scale inference systems at [[cerebras|Cerebras]], which runs the world's fastest AI inference on the Wafer-Scale Engine (WSE-3), the largest chip ever built. More recently, Daniel has turned to building AI agents that accelerate [[cerebras|Cerebras]]'s own hardware and software development. Outside of work, you can find him relaxing in the park, eating spicy noodles, and recently running!
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]] — All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens (2026-07-01, 11:40am-12:00pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens|All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-tzRvcTEapzo` — 5 slide-derived text signals
 - Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
 - Evidence links for `youtube-tzRvcTEapzo`: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]

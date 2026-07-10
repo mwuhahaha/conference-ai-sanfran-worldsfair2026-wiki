@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Uday Kanagala
 
-## Official Role
+## Profile
 Software Architect at [[navan|Navan]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/udaybhanuprasad)
 
-## Official Bio
+## Biography
 Uday Kanagala is a Software Architect at [[navan|Navan]] with experience in cloud-native distributed systems, microservices, DevOps, and autonomous-agent workflows for production issue resolution and architectural governance.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-roberto-milev-agents-are-where-microservices-were-in-2015-we-re-making-all-the-same-mistakes]] — Agents Are Where Microservices Were in 2015. We're Making All the Same Mistakes. (2026-06-30, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-roberto-milev-agents-are-where-microservices-were-in-2015-we-re-making-all-the-same-mistakes|Agents Are Where Microservices Were in 2015. We're Making All the Same Mistakes.]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

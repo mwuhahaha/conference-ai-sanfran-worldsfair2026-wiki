@@ -13,23 +13,40 @@ scheduleLabels: ["AI in Finance", "Track 3", "session", "confirmed"]
 ---
 # Skills are new features: Building Skill-Centric Harness for Agentic Products
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-07-01 · 3:20pm-3:40pm
 - Track/room: AI in Finance · Track 3
 - Speaker(s): Yogendra Miraje
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: AI in Finance
 - Room: Track 3
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 No official description published in the schedule data.
 
-## Related YouTube Video
+## Media Evidence
 [How to Build Planning Agents without losing control - Yogendra Miraje, Factset](https://www.youtube.com/watch?v=sl3icG-IjHo) (speaker-match related prior/adjacent AI Engineer video; captions: English auto-captions).
+
+- Source video: `youtube-sl3icG-IjHo`
+- Slide deck: [[youtube-sl3icG-IjHo-dense-slides|Dense Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]] — 2 visible slide image(s); 2 HTML recreation(s).
+![[assets/dense-slides/sl3icG-IjHo/slide-001.jpg]]
+![[assets/dense-slides/sl3icG-IjHo/slide-002.jpg]]
+- Additional slide evidence: [[youtube-sl3icG-IjHo-slides|Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]], [[youtube-sl3icG-IjHo-reconstructed-slides|Reconstructed Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]]
+- Slide-derived themes for `youtube-sl3icG-IjHo`: tools, context, workflows, sequential, behave, unclear, incomplete, instructions.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-sl3icG-IjHo` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-sl3icG-IjHo`: tools, context, workflows, sequential, behave, unclear, incomplete, instructions.
+- Evidence links for `youtube-sl3icG-IjHo`: [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 Related video transcript availability: English auto-captions. Treat this as supporting context, not a recording of this exact scheduled session unless later confirmed. Not fetched yet.
@@ -39,6 +56,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Supporting Slides
 - [[youtube-sl3icG-IjHo-slides]] — extracted from the related public AI Engineer video.
+
 ## Slide Evidence
 - Slide-only cropped deck: [[youtube-sl3icG-IjHo-dense-slides]] (3 viable slide images).
 - Related slide/OCR pages:
@@ -46,21 +64,3 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-sl3icG-IjHo-reconstructed-slides]]
 - [[youtube-sl3icG-IjHo-slides]]
 - Slide-derived terms: `awws`, `graphite`, `windsurf`, `mongobb`, `mdaily`, `augmentcode`, `workos`, `evolution`, `intelligence`, `gen-al`, `transformers`, `alexwet`, `year`
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-sl3icG-IjHo` — 8 slide-derived text signals
-- Slide-derived themes for `youtube-sl3icG-IjHo`: tools, context, workflows, sequential, behave, unclear, incomplete, instructions.
-- Evidence links for `youtube-sl3icG-IjHo`: [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
-## Slides
-- Source video: `youtube-sl3icG-IjHo`
-- Slide deck: [[youtube-sl3icG-IjHo-dense-slides|Dense Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]] — 2 visible slide image(s); 2 HTML recreation(s).
-![[assets/dense-slides/sl3icG-IjHo/slide-001.jpg]]
-![[assets/dense-slides/sl3icG-IjHo/slide-002.jpg]]
-- Additional slide evidence: [[youtube-sl3icG-IjHo-slides|Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]], [[youtube-sl3icG-IjHo-reconstructed-slides|Reconstructed Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]]
-- Slide-derived themes for `youtube-sl3icG-IjHo`: tools, context, workflows, sequential, behave, unclear, incomplete, instructions.

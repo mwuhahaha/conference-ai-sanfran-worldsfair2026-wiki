@@ -13,28 +13,38 @@ scheduleLabels: ["Expo Stage 4 SE", "session", "confirmed"]
 ---
 # Self-Driving Production: AI Wrote your Code. AI Should Fix It, Too
 
-## Official Schedule Context
+## Conference Context
 - Date/time: 2026-06-29 · 2:50pm-3:10pm
 - Track/room: track TBD · Expo Stage 4 SE
 - Speaker(s): TBA
 - Session type/status: session · confirmed
 
-## Schedule Labels
 - Track: track TBD
 - Room: Expo Stage 4 SE
 - Session type: session
 - Status: confirmed
 
-## Official Description
+## Session Description
 Self-driving production is the next frontier of autonomous software development but getting there is a journey. In this session, we ll show how enterprises are progressing from manual operations and AI copilots toward closed-loop, autonomous production systems with Traversal.
 
-## Related YouTube Video
+## Media Evidence
 No related AI Engineer channel video found yet.
+
+- [[youtube-qakTj_xI0gk-transcript]] — full cached transcript markdown for the related YouTube source.
+
+## Evidence Graph
+This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
+
+### Media Signals
+- `youtube-qakTj_xI0gk` — 2,375 transcript words
+- Transcript signals for `youtube-qakTj_xI0gk`: models, traversal, customers, data, company, companies, great, might.
+- Evidence links for `youtube-qakTj_xI0gk`: [[youtube-qakTj_xI0gk-transcript]]
+
+### Agent Reading Notes
+Use these signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 
 ## Transcript Status
 No official session recording transcript was found by exact title match on the AI Engineer YouTube channel during this run.
-
-## People
 
 ## External Secondary Source Candidates
 These videos were discovered outside the official AI Engineer channel and matched by the external-video discovery tool. Treat them as secondary sources only until manually verified against the official event recording.
@@ -45,16 +55,3 @@ These videos were discovered outside the official AI Engineer channel and matche
   - Match evidence: event marker in title/metadata; leading official title phrase appears in video title; talk/session-shaped title; plausible talk/workshop duration
   - Transcript status: captions_imported `raw/sources/external-youtube-transcripts/qakTj_xI0gk.txt`
   - Transcript markdown: [[youtube-qakTj_xI0gk-transcript]]
-## Transcript Markdown
-- [[youtube-qakTj_xI0gk-transcript]] — full cached transcript markdown for the related YouTube source.
-
-## Source-Derived Enrichment
-This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
-
-### Source Signals
-- `youtube-qakTj_xI0gk` — 2,375 transcript words
-- Transcript signals for `youtube-qakTj_xI0gk`: models, traversal, customers, data, company, companies, great, might.
-- Evidence links for `youtube-qakTj_xI0gk`: [[youtube-qakTj_xI0gk-transcript]]
-
-### Article Use
-Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.

@@ -7,36 +7,36 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Ref.
 
-## What It Is
+## Overview
 Ref. is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "ref.com", but the page did not expose a concise public description in metadata.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects Ref. to Matt Dailey. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+
+## Conference Relevance
 Ref. matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster.
 
-## Related People
-- [[matt-dailey]] - Founder
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-matt-dailey-velocity-sickness-what-happens-when-your-whole-team-gets-10x-faster]] - Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster (2026-07-01, 3:20pm-3:40pm)
 
-## Origin And Context
-The official speaker roster connects Ref. to Matt Dailey. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+## Connections
+- [[matt-dailey]] - Founder
+
+## Sources
+- [ref.com](http://www.ref.com/)
+
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Linked Sessions
+- [[2026-07-01-matt-dailey-velocity-sickness-what-happens-when-your-whole-team-gets-10x-faster|Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster]]
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
 - Automated company profile fetch status: fetched.
 - Discovery confidence score: 105.
 
-## Public Sources
-- [ref.com](http://www.ref.com/)
-
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
-
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
-- [[2026-07-01-matt-dailey-velocity-sickness-what-happens-when-your-whole-team-gets-10x-faster|Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster]]
-
-### Slide And Transcript Signals
-No linked video, transcript, or slide source has been attached yet.

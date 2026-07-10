@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Daniel Svonava
 
-## Official Role
+## Profile
 CEO and co-founder at [[superlinked|Superlinked]].
 
-## Profile Links
 - [X / Twitter](https://x.com/svonava)
 
-## Official Bio
+## Biography
 Daniel Svonava is CEO and co-founder of [[superlinked|Superlinked]].
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-daniel-svonava-large-clusters-for-small-models]] — Large clusters for small models (2026-07-01, 1:55pm-2:15pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-daniel-svonava-large-clusters-for-small-models|Large clusters for small models]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

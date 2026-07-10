@@ -7,38 +7,38 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Prefect
 
-## What It Is
+## Overview
 Prefect is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Orchestrate workflows with Prefect. Connect AI agents to your tools and data with Horizon. Open-source foundations, production-ready platforms.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects Prefect to Jeremiah Lowin. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Conference Relevance
 Prefect matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Generative UI... in Python?.
 
-## Related People
-- [[jeremiah-lowin]] - Founder & CEO
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-jeremiah-lowin-generative-ui-in-python]] - Generative UI... in Python? (2026-06-30, 3:20pm-3:40pm)
 
-## Origin And Context
-The official speaker roster connects Prefect to Jeremiah Lowin. The public company site was discovered by domain-guess and fetched for homepage metadata.
+## Connections
+- [[jeremiah-lowin]] - Founder & CEO
+
+## Sources
+- [Prefect](https://www.prefect.io/)
+
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Linked Sessions
+- [[2026-06-30-jeremiah-lowin-generative-ui-in-python|Generative UI... in Python?]]
+
+### Media Signals
+- `youtube-96G7FLab8xc` — 10 slide-derived text signals
+- Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.
+- Evidence links for `youtube-96G7FLab8xc`: [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]
 
 ## Notes
 - Automated company profile fetch status: fetched.
 - Discovery confidence score: 113.
 
-## Public Sources
-- [Prefect](https://www.prefect.io/)
-
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
-
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
-- [[2026-06-30-jeremiah-lowin-generative-ui-in-python|Generative UI... in Python?]]
-
-### Slide And Transcript Signals
-- `youtube-96G7FLab8xc` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-96G7FLab8xc`: prefect, list, server, should, feel, engineer, code, summit.
-- Evidence links for `youtube-96G7FLab8xc`: [[youtube-96G7FLab8xc]], [[youtube-96G7FLab8xc-slides]], [[youtube-96G7FLab8xc-dense-slides]], [[youtube-96G7FLab8xc-reconstructed-slides]]

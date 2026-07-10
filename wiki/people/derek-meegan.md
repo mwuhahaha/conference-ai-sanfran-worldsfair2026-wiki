@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Derek Meegan
 
-## Official Role
+## Profile
 Software Engineer at [[browserbase|Browserbase]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/derekmeegan)
 - [X / Twitter](https://x.com/derekmeegan)
 - [Website](https://derekmeegan.com)
 
-## Official Bio
+## Biography
 Derek Meegan is a software engineer at [[browserbase|Browserbase]]. He builds systems and browser automation tooling, and writes about browser automation, Stagehand, and how technology changes the way people work.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale]] — Deploying browser agents at scale (2026-06-29, 1:55pm-2:15pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-derek-meegan-deploying-browser-agents-at-scale|Deploying browser agents at scale]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

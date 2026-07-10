@@ -10,27 +10,26 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Zhengyao Jiang
 
-## Official Role
+## Profile
 CEO & Cofounder at [[weco-ai|Weco AI]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/zhengyao-jiang-387b44145/)
 - [X / Twitter](https://x.com/zhengyaojiang)
 - [Website](https://zhengyaojiang.github.io/)
 
-## Official Bio
+## Biography
 Cofounder & CEO @WecoAI - automated hill climbing with LLMs. Previously: PhD in ML at UCL
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]] — Hands-on AutoResearch: Cracking OpenAI's Parameter Golf (2026-06-29, 2:20pm-4:20pm)
 - [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge]] — An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge (2026-06-30, 1:55pm-2:15pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
 - [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge|An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

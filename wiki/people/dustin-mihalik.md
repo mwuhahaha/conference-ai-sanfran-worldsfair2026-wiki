@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Dustin Mihalik
 
-## Official Role
+## Profile
 Technical Fellow at [[indeed|Indeed]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/dmihalik/)
 - [Website](https://dmihalik.com)
 - [Blog](https://dmihalik.com)
 
-## Official Bio
+## Biography
 Dustin is a Technical Fellow at [[indeed|Indeed]], where he leads the AI Platform powering all of [[indeed|Indeed]]'s production AI products. He has spent years building the foundational infrastructure that enables engineering teams to develop, deploy, and scale AI applications across the company — from early prototypes to high-throughput production systems.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]] — MCP Apps: Give the Model Data, Give the User a UI (2026-06-30, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui|MCP Apps: Give the Model Data, Give the User a UI]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

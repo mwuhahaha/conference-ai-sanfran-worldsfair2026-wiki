@@ -7,36 +7,36 @@ sourceLabels: ["Official speaker roster", "Official conference schedule", "Publi
 ---
 # Onlay
 
-## What It Is
+## Overview
 Onlay is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Onlay handles eligibility, claims, denials and collections so dental practices recover more without hiring. Book a 5-minute demo.
 
-## Why It Matters At World's Fair
+## Background
+The official speaker roster connects Onlay to Vasant Kearney. The public company site was discovered by domain-guess and fetched for homepage metadata.
+
+## Conference Relevance
 Onlay matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents.
 
-## Related People
-- [[vasant-kearney]] - CEO and Founder
-
-## Related Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-vasant-kearney-healthcare-s-agent-bytecode-x12-as-the-harness-for-ai-agents]] - Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents (2026-07-01, 1:55pm-2:15pm)
 
-## Origin And Context
-The official speaker roster connects Onlay to Vasant Kearney. The public company site was discovered by domain-guess and fetched for homepage metadata.
+## Connections
+- [[vasant-kearney]] - CEO and Founder
+
+## Sources
+- [Onlay — Revenue cycle automation for dental practices](https://onlay.ai/)
+
+## Evidence Graph
+This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+
+### Linked Sessions
+- [[2026-07-01-vasant-kearney-healthcare-s-agent-bytecode-x12-as-the-harness-for-ai-agents|Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents]]
+
+### Media Signals
+No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
 - Automated company profile fetch status: fetched.
 - Discovery confidence score: 118.
 
-## Public Sources
-- [Onlay — Revenue cycle automation for dental practices](https://onlay.ai/)
-
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.
-
-## Source-Derived Enrichment
-This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
-
-### Related Sessions
-- [[2026-07-01-vasant-kearney-healthcare-s-agent-bytecode-x12-as-the-harness-for-ai-agents|Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents]]
-
-### Slide And Transcript Signals
-No linked video, transcript, or slide source has been attached yet.

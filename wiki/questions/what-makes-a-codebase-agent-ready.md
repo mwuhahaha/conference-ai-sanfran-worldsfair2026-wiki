@@ -4,16 +4,15 @@ category: "questions"
 status: "active"
 sourceLabels: ["Official schedule", "Slide/OCR evidence", "Tool inventory", "Topic synthesis"]
 ---
-
 # What makes a codebase agent-ready?
 
-## Why This Question Matters
+## Context
 Agent-ready codebases need navigable context, clear ownership boundaries, runnable checks, useful traces, and interfaces that agents can operate without guessing.
 
-## Current Working Answer
+## Working Answer
 This page is a first-pass research question, not a final recommendation. Use the linked evidence to refine the answer as more exact session recordings, transcripts, and reviewed slide readings become available.
 
-## Source Evidence
+## Evidence
 - [[coding-agents]] — Topic synthesis
 - [[software-factories]] — Topic synthesis
 - [[codex]] — Tool inventory
@@ -28,7 +27,7 @@ This page is a first-pass research question, not a final recommendation. Use the
 - [[youtube-ShuJ_CN6zr4-slides]] — Slide/OCR evidence
 - [[youtube-F_RyElT_gJk-slides]] — Slide/OCR evidence
 
-## Follow-Up
+## Next Questions
 - Extract specific claims from the linked source pages.
 - Separate official schedule evidence from supporting YouTube, transcript, and OCR evidence.
 - Convert stable answers into playbooks, harnesses, or evaluations where appropriate.

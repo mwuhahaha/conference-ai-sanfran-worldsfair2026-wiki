@@ -13,27 +13,26 @@ last_auto_summarized: '2026-07-03T05:03:50.448Z'
 ---
 # Nick Nisi
 
-## Official Role
+## Profile
 Developer Experience Engineer at [[workos|WorkOS]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/nicknisi)
 - [X / Twitter](https://x.com/nicknisi)
 - [Website](https://nicknisi.com)
 
-## Official Bio
+## Biography
 Nick Nisi is a Developer Experience Engineer at [[workos|WorkOS]], where he works at the intersection of developer tooling, TypeScript, and developer-facing product education. At AI Engineer World's Fair 2026, he appears on the [[workos|WorkOS]] speaker roster and co-leads the workshop [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks|Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks]] with Zack Proser, focused on practical AI-native engineering workflows. He has also co-hosted JS Party and organizes NebraskaJS and TypeScript community events.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks]] — Lifestyles of the AI-Native: Voice-coding, agent skills, hooks and scheduled tasks (2026-06-29, 4:30pm-5:30pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks|>-]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-so9l_MwS2yg` — 3 slide-derived text signals
 - Slide-derived themes for `youtube-so9l_MwS2yg`: bottleneck, imagining, recommend, finding, developer, balance.
 - Evidence links for `youtube-so9l_MwS2yg`: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]

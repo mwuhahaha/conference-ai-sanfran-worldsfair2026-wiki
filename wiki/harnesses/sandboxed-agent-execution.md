@@ -4,25 +4,24 @@ category: "harnesses"
 status: "seeded"
 sourceLabels: ["Official schedule", "Question layer", "Topic synthesis"]
 ---
-
 # Sandboxed Agent Execution
 
-## Purpose
+## Overview
 A runtime boundary for agents that can run code, touch files, browse, call tools, or influence production systems.
 
-## Observed At AIE
+## Conference Context
 - Sandbox talks argue that agent reliability depends on designed execution environments, not only model prompting.
 - Security sessions connect permissions, provenance, network access, and rollback to agent safety.
 - The strongest source layer is official schedule plus event recordings and slide evidence; OCR-only details remain supporting evidence.
 
-## Recommended Implementation Steps
+## Implementation Pattern
 - Classify the task risk before choosing process, container, microVM, network, and secret boundaries.
 - Default to no ambient credentials and explicit network egress rules.
 - Capture commands, diffs, artifacts, resource usage, and exit conditions.
 - Require human approval before production mutation unless the policy explicitly allows autonomous action.
 - Retain incident evidence so sandbox policy can be tightened after failures.
 
-## Source Evidence
+## Evidence
 - [[ai-sandboxes]] - Topic synthesis
 - [[agent-security]] - Topic synthesis
 - [[what-security-boundaries-should-agents-have]] - Question layer

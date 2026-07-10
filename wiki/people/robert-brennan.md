@@ -11,28 +11,27 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Robert Brennan
 
-## Official Role
+## Profile
 CEO at [[openhands|OpenHands]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/robert-a-brennan/)
 - [X / Twitter](https://x.com/rbren_dev)
 - [Website](https://rbren.io)
 - [Blog](https://rbren.io)
 
-## Official Bio
+## Biography
 Robert Brennan is the CEO of All Hands AI, the company behind [[openhands|OpenHands]], an MIT-licensed software development agent. He has previously worked in natural language processing (for Google search) and has spend the last decade building commercial open source software.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]] — Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale (2026-06-30, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale|Sandboxes Aren't Optional: Runtime Isolation Patterns for Coding Agents at Scale]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-rcsliSIy_YU` — 8 slide-derived text signals
 - Slide-derived themes for `youtube-rcsliSIy_YU`: coding, code, snippets, generation, single, atomic, tasks, curl.
 - Evidence links for `youtube-rcsliSIy_YU`: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]

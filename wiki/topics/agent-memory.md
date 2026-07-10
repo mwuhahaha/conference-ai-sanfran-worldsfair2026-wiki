@@ -5,31 +5,23 @@ sourceLabels: ["Slide/video-derived supporting context"]
 ---
 # Agent Memory
 
-## Synopsis
+## Overview
 Agent memory is the set of mechanisms that lets an agent carry useful context across steps, sessions, users, repositories, documents, or decisions. It includes short-term working context, long-term stores, cached artifacts, decision traces, vector or graph retrieval, and policies that decide what should be remembered, refreshed, or forgotten.
 
-## Origin And Context
+## Conference Context
 The topic comes from classic AI state management, knowledge representation, retrieval systems, personal assistants, and database-backed application design. The long-context era changed the tradeoff: teams can stuff more into prompts, but still need structured memory so agents can reason over the right facts at the right time.
 
-## Why It Matters
+## Significance
 Memory determines whether an agent can act consistently instead of restarting from scratch. It improves personalization, reduces repeated work, supports multi-step workflows, and makes decisions auditable. Poor memory creates stale assumptions, privacy risk, context bloat, and confident mistakes.
 
-## How To Use It
+## Applied Use
 Separate working context from durable memory. Store source-backed facts, decisions, user preferences, and artifacts with timestamps and provenance. Retrieve by task intent, not just lexical similarity. Add policies for freshness, deletion, permissions, and summarization, and test memory behavior with scenario-based evals.
 
-## Where It Is Useful
 Memory is useful in coding agents, customer support, research assistants, enterprise knowledge agents, personal productivity tools, and any workflow that spans multiple sessions or documents.
 
-## When To Use It
 Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.
 
-## Active Use Cases
-- Remembering repository architecture and prior implementation decisions.
-- Maintaining user preferences and project constraints across sessions.
-- Decision-trace retrieval for enterprise workflows.
-- Long-context cache and knowledge-graph backed agent workflows.
-
-## Related Slide Decks
+## Connections
 - [[youtube-HEFSExa0xl0-slides]] — Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs (11 extracted slide frames)
 - [[youtube-4kYl2_mqmnQ-slides]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON (10 extracted slide frames)
 - [[youtube-IQkVMvXQKLY-slides]] — Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis (14 extracted slide frames)
@@ -38,7 +30,6 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 - [[youtube-2IxD9OB3XuQ-slides]] — Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI (24 extracted slide frames)
 - [[youtube-vljxQZfJ9wY-slides]] — Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs (12 extracted slide frames)
 
-## Related Scheduled Sessions
 - [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]] — From Context to Memory: Your Agents Need a Real Memory Layer; [[anders-swanson|Anders Swanson]] (Day 2 — Session Day 1 · 3:20pm-3:40pm · Expo Stage 2 NW; official schedule)
 - [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]] — Memory Harnesses for Long-Running Research Agents; [[stefania-druga|Stefania Druga]] (Day 3 — Session Day 2 · 11:40am-12:00pm · Memory & Continual Learning; official schedule)
 - [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents; [[prukalpa-sankar|Prukalpa Sankar]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Context Engineering; official schedule)
@@ -64,7 +55,6 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 - [[2026-06-29-krishna-prasad-srinivasan-from-scratch-to-sota-training-a-3b-state-space-vision-model-for-1-4-billion-people]] — From Scratch to SOTA: Training a 3B State-Space Vision Model for 1.4 Billion People; [[krishna-prasad-srinivasan|Krishna Prasad Srinivasan]] (Day 2 — Session Day 1 · 3:20pm-3:40pm · Vision & OCR; official schedule)
 - [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not]] — Agent Memory Is a Solved Problem. Agent Learning Is Not.; [[karthik-ranganathan|Karthik Ranganathan]], [[heather-downing|Heather Downing]] (Day 4 — Session Day 3 · 3:20pm-3:40pm · Expo Stage 1 NE; official schedule)
 
-## Related People
 - [[john-lindquist|John Lindquist]]
 - [[brandon-waselnuk|Brandon Waselnuk]]
 - [[peter-werry|Peter Werry]]
@@ -90,7 +80,6 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 - [[shlok-khemani|Shlok Khemani]]
 - [[yoni-michael|Yoni Michael]]
 
-## Related Companies
 - [[together-ai|Together AI]]
 - [[microsoft|Microsoft]]
 - [[unblocked|Unblocked]]
@@ -110,7 +99,7 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 - [[roboflow|Roboflow]]
 - [[meta|Meta]]
 
-## Transcript And Resource Support
+## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-4kYl2_mqmnQ]] — I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON
 - [[youtube-EcqMYoIV57A]] — Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo
@@ -141,10 +130,9 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 - “And then context, policies that are um in different reasoning by AI that records memory, but um by employees and and past humans that have made decisions.” — [[youtube-B9h9ovW5H9U]]
 - “Um But yeah, that's a good point and then in the create context graph, we're still working on how you would write um new decision traces.” — [[youtube-B9h9ovW5H9U]]
 
-## Source-Derived Enrichment
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
-### Talk Evidence
+### Linked Sessions
 - [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer|From Context to Memory: Your Agents Need a Real Memory Layer]]
 - [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents|Memory Harnesses for Long-Running Research Agents]]
 - [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents|WTF Is the Context Layer? The Missing Infrastructure for Production Agents]]
@@ -156,7 +144,7 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-30-anant-srivastava-prompt-memory-weights-the-architecture-decisions-most-ai-teams-make-by-accident|Prompt, Memory, Weights: The Architecture Decisions Most AI Teams Make by Accident]]
 - [[2026-06-30-shlok-khemani-lessons-from-studying-every-memory-system|Lessons from Studying Every Memory System]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-wNH3q9pqn0U` — 2 slide-derived text signals
 - Slide-derived themes for `youtube-wNH3q9pqn0U`: sound, request, beaker, crystals.
 - Evidence links for `youtube-wNH3q9pqn0U`: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
@@ -170,7 +158,8 @@ This section consolidates source evidence currently connected to this topic acro
 - `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals
 - Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
 - Evidence links for `youtube-ZRM_TfEZcIo`: [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
-## Evidence Table
+
+## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
@@ -182,7 +171,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 | tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
 | transcripts | 1 | Transcript markdown; check session matching and caption quality. |
 
-## Representative Evidence Links
 ### Talks
 - [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]]
 - [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]]
@@ -214,66 +202,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[neo4j]]
 - [[mcp-apps]]
 
-## Representative Evidence Links
-### Talks
-- [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]]
-- [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]]
-- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents]]
-- [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents]]
-- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens]]
-- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
-
-### Resources
-- [[youtube-4kYl2_mqmnQ]]
-- [[youtube-EcqMYoIV57A]]
-- [[youtube-B9h9ovW5H9U]]
-- [[youtube-TUnPNY4E2fw]]
-- [[youtube-UNzCG3lw6O0]]
-- [[youtube-zKk7sDMGDEQ]]
-
-### Slides
-- [[youtube-HEFSExa0xl0-slides]]
-- [[youtube-4kYl2_mqmnQ-slides]]
-- [[youtube-IQkVMvXQKLY-slides]]
-- [[youtube-UcYoMg-8-L8-slides]]
-- [[youtube-kZsf_Sfm7RU-slides]]
-- [[youtube-2IxD9OB3XuQ-slides]]
-
-### Transcripts
-- [[youtube-I2cbIws9j10-transcript]]
-
-### Tools
-- [[neo4j]]
-- [[mcp-apps]]
-
-## Representative Evidence Links
-### Talks
-- [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]]
-- [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]]
-- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents]]
-- [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents]]
-- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens]]
-- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
-
-### Resources
-- [[youtube-4kYl2_mqmnQ]]
-- [[youtube-EcqMYoIV57A]]
-- [[youtube-B9h9ovW5H9U]]
-- [[youtube-TUnPNY4E2fw]]
-- [[youtube-UNzCG3lw6O0]]
-- [[youtube-zKk7sDMGDEQ]]
-
-### Slides
-- [[youtube-HEFSExa0xl0-slides]]
-- [[youtube-4kYl2_mqmnQ-slides]]
-- [[youtube-IQkVMvXQKLY-slides]]
-- [[youtube-UcYoMg-8-L8-slides]]
-- [[youtube-kZsf_Sfm7RU-slides]]
-- [[youtube-2IxD9OB3XuQ-slides]]
-
-### Transcripts
-- [[youtube-I2cbIws9j10-transcript]]
-
-### Tools
-- [[neo4j]]
-- [[mcp-apps]]
+## Active Use Cases
+- Remembering repository architecture and prior implementation decisions.
+- Maintaining user preferences and project constraints across sessions.
+- Decision-trace retrieval for enterprise workflows.
+- Long-context cache and knowledge-graph backed agent workflows.

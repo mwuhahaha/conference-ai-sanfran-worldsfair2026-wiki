@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Saoud Rizwan
 
-## Official Role
+## Profile
 Founder & CEO at [[cline|Cline]].
 
-## Profile Links
 - [X / Twitter](https://x.com/sdrzn)
 
-## Official Bio
+## Biography
 Founder and CEO of [[cline|Cline]], an open-source AI coding agent for software development workflows.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-saoud-rizwan-open-source-is-dead-long-live-open-source]] — Open Source Is Dead. Long Live Open Source. (2026-07-01, 3:45pm-4:05pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-saoud-rizwan-open-source-is-dead-long-live-open-source|Open Source Is Dead. Long Live Open Source.]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

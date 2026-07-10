@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Deepak Pathak
 
-## Official Role
+## Profile
 Co-Founder & CEO at [[skild-ai|Skild AI]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/pathak22)
 - [X / Twitter](https://twitter.com/pathak2206)
 - [Website](https://www.cs.cmu.edu/~dpathak)
 
-## Official Bio
+## Biography
 Co-Founder and CEO of [[skild-ai|Skild AI]]; Assistant Professor at Carnegie Mellon University in the Robotics Institute, affiliated with the Machine Learning Department.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-deepak-pathak-frontier-robotics-research]] — Frontier Robotics Research (2026-06-30, 1:55pm-2:15pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-deepak-pathak-frontier-robotics-research|Frontier Robotics Research]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

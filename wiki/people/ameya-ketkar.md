@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Ameya Ketkar
 
-## Official Role
+## Profile
 Software Engineer at [[uber-technology-inc|Uber Technology Inc.]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ameya-ketkar)
 - [Website](https://scholar.google.com/citations?user=6JO46GMAAAAJ&hl=en)
 
-## Official Bio
+## Biography
 Software engineer at Uber's Programming Systems Group, his research focus is program analysis, language migrations, large-scale source code mining and accelerating code reviews.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]] — Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine (2026-06-29, 12:05pm-12:25pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine|Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

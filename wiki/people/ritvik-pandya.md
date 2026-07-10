@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Ritvik Pandya
 
-## Official Role
+## Profile
 Engineering Manager at [[jp-morgan-chase|JP Morgan Chase]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ritvik-pandya/)
 - [Website](https://www.jpmorganchase.com/)
 
-## Official Bio
+## Biography
 Ritvik Pandya is an engineering leader with over seventeen years building distributed systems and large-scale payment infrastructure, currently at JPMorgan Chase, with prior experience at other leading technology companies. He works at the intersection of platform engineering, observability, and reliability — designing high-throughput systems that stay dependable under real-world load. He writes and speaks on building dependable systems at scale, and is a member of the IEEE Consumer Technology Society.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-ritvik-pandya-ai-learned-execution-graphs-for-real-time-anomaly-detection-and-drift-classification-in-apis]] — AI : Learned Execution Graphs for Real-Time Anomaly Detection & Drift Classification in APIs (2026-07-01, 1:30pm-1:50pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-ritvik-pandya-ai-learned-execution-graphs-for-real-time-anomaly-detection-and-drift-classification-in-apis|AI : Learned Execution Graphs for Real-Time Anomaly Detection & Drift Classification in APIs]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Matt Dailey
 
-## Official Role
+## Profile
 Founder at [[ref|Ref.]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/matthewjdailey)
 
-## Official Bio
+## Biography
 Matt Dailey is building [[ref|Ref.]], including ref.tools and MCP tooling that helps coding agents work with public and private libraries without wasting context or using incorrect APIs.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-matt-dailey-velocity-sickness-what-happens-when-your-whole-team-gets-10x-faster]] — Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster (2026-07-01, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-matt-dailey-velocity-sickness-what-happens-when-your-whole-team-gets-10x-faster|Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

@@ -9,26 +9,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Gabriel Chua
 
-## Official Role
+## Profile
 Developer Experience Engineer at [[openai|OpenAI]].
 
-## Profile Links
 - [LinkedIn](http://linkedin.com/in/gabriel-chua)
 - [X / Twitter](https://x.com/gabrielchua)
 
-## Official Bio
+## Biography
 At [[openai|OpenAI]], Gabriel is a Developer Experience Engineer helping developers build, ship, and scale with Codex. Previously, he worked in Singapore’s public sector on applied responsible AI research and LLM systems to combat online scams.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-charlie-guo-cooking-with-codex]] — Cooking with Codex (2026-06-29, 9:00am-11:00am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-charlie-guo-cooking-with-codex|Cooking with Codex]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-dvft0Gp9sEE` — 1,508 transcript words; 1 slide-derived text signals
 - Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
 - Slide-derived themes for `youtube-dvft0Gp9sEE`: manual, analysis, keyword.

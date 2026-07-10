@@ -9,26 +9,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Sam Bhagwat
 
-## Official Role
+## Profile
 Founder/CEO at [[mastra|Mastra]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/sambhagwat/)
 - [X / Twitter](https://x.com/calcsam)
 
-## Official Bio
+## Biography
 co-founder/ceo mastra the typescript agent framework. author principles of building ai agents. prev cofounder gatsbyjs.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw]] — Every Harness Will Become A Claw (2026-06-29, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-8SUJEqQNClw` — 6 slide-derived text signals
 - Slide-derived themes for `youtube-8SUJEqQNClw`: december, wrote, great, blog, post, defined, workflows, april.
 - Evidence links for `youtube-8SUJEqQNClw`: [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]

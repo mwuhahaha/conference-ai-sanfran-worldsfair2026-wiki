@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Ashok Chandrasekar
 
-## Official Role
+## Profile
 Staff Software Engineer at [[google|Google]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/ashokchandrasekar/)
 - [Website](https://ashokc.dev)
 - [Blog](https://ashokc.dev)
 
-## Official Bio
+## Biography
 Ashok Chandrasekar is a Staff Software Engineer at [[google|Google]] working on AI Inference performance evaluation and optimization for [[google|Google]] Kubernetes Engine. He is a project lead and maintainer of Inference Perf and co-lead of SIG Benchmarking in the llm-d project. He holds a Master's degree from Carnegie Mellon University. Previously, he was a Staff Engineer at VMware. His interests lie in Distributed Systems with his current focus being Systems for AI/ML applications.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-ashok-chandrasekar-are-llm-performance-benchmarks-reliable]] — Are LLM Performance Benchmarks Reliable? (2026-07-01, 11:40am-12:00pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-ashok-chandrasekar-are-llm-performance-benchmarks-reliable|Are LLM Performance Benchmarks Reliable?]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

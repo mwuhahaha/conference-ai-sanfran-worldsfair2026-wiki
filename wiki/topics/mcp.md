@@ -5,35 +5,26 @@ sourceLabels: ["Slide/video-derived supporting context"]
 ---
 # Model Context Protocol
 
-## Synopsis
+## Overview
 Model Context Protocol, or MCP, is a standard pattern for connecting AI applications to tools, data, and interactive capabilities through structured servers and clients. In this wiki it also includes MCP Apps and agent-facing interfaces that expose richer actions or UI surfaces to models.
 
-## Origin And Context
+## Conference Context
 MCP emerged from the need to standardize how AI clients discover and call tools, access resources, and integrate with external systems. It sits in the lineage of plugin APIs, language-server style tooling, RPC, browser extensions, and developer-tool protocols.
 
-## Why It Matters
+## Significance
 Agents are only as useful as the tools and context they can safely access. MCP reduces one-off integrations, gives tool providers a common surface, and helps clients reason about capabilities, permissions, and interaction patterns.
 
-## How To Use It
+## Applied Use
 Define focused MCP servers with clear tools, schemas, resources, and permission boundaries. Keep tool names concrete, return structured results, test with inspectors, and design for least privilege. For MCP Apps, treat UI and iframe boundaries as part of the security and product contract.
 
-## Where It Is Useful
 MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser agents, design tools, developer platforms, and internal operations systems.
 
-## When To Use It
 Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.
 
-## Active Use Cases
-- Connecting agents to repositories, browsers, docs, databases, and SaaS tools.
-- MCP Apps that return interactive UI from tool servers.
-- Agent-ready web and developer-tool integrations.
-- Local inspectors and compliance checks for tool servers.
-
-## Related Slide Decks
+## Connections
 - [[youtube-2e9ANoOEn28-slides]] — What if the harness mattered more than the model? - Aditya Bhargava, Etsy (8 extracted slide frames)
 - [[youtube-sAOBXCDiDOs-slides]] — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc (18 extracted slide frames)
 
-## Related Scheduled Sessions
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does; [[jan-curn|Jan Curn]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Expo Stage 2 NW; official schedule)
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; official schedule)
 - [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]] — MCP Apps: Give the Model Data, Give the User a UI; [[dustin-mihalik|Dustin Mihalik]] (Day 3 — Session Day 2 · 2:50pm-3:10pm · Context Engineering; official schedule)
@@ -59,7 +50,6 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training]] — Video Discovery for Agentic World-Model Training; [[rafael-levi|Rafael Levi]] (Day 2 — Session Day 1 · 2:50pm-3:10pm · Expo Stage 2 NW; related YouTube resource; via [[youtube-btxGmN8RvNU]])
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]] — Agents That Own Their Inference: Building Production AI Agents on Dedicated GPUs; [[du-an-lightfoot|Du'an Lightfoot]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 7; related YouTube resource; via [[youtube-wFTVEDYVJT0]])
 
-## Related People
 - [[john-craft|John Craft]]
 - [[laurie-voss|Laurie Voss]]
 - [[pamela-fox|Pamela Fox]]
@@ -85,7 +75,6 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[prerna-kakkar|Prerna Kakkar]]
 - [[jim-clark|Jim Clark]]
 
-## Related Companies
 - [[microsoft|Microsoft]]
 - [[openai|OpenAI]]
 - [[docker|Docker]]
@@ -105,7 +94,7 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[meta|Meta]]
 - [[neo4j|Neo4j]]
 
-## Transcript And Resource Support
+## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-sAOBXCDiDOs]] — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc
 - [[youtube-vh2VGuQ3zhY]] — The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica
@@ -136,10 +125,9 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - “Well, today I'm going to share four engineering lessons from the Chrome uh DevTools team on how we build Chrome DevTools for agents and how we deployed it for effect.” — [[youtube-_B4Pv9ttFgY]]
 - “In a world where you are delegating away work to agents and automating away agents, you need to think about trust boundaries.” — [[youtube-_B4Pv9ttFgY]]
 
-## Source-Derived Enrichment
-This section consolidates source evidence currently connected to this topic across scheduled talks, linked videos, transcripts, and slide-derived material.
+This evidence graph consolidates scheduled talks, linked videos, transcripts, and slide-derived material connected to this topic.
 
-### Talk Evidence
+### Linked Sessions
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does|MCP doesn’t suck — your agent does]]
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
 - [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui|MCP Apps: Give the Model Data, Give the User a UI]]
@@ -151,7 +139,7 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-29-dan-adler-the-enterprise-agentic-gap-when-developer-level-ai-tools-hit-millions-of-lines|The Enterprise Agentic Gap: When Developer-Level AI Tools Hit Millions of Lines]]
 - [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server|Building the engine while flying the plane — launching the Figma MCP server]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-blW-lSd5CYQ` — 9 slide-derived text signals
 - Slide-derived themes for `youtube-blW-lSd5CYQ`: google, maps, intelligence, emerge, runs, actors, compass, data.
 - Evidence links for `youtube-blW-lSd5CYQ`: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
@@ -162,7 +150,8 @@ This section consolidates source evidence currently connected to this topic acro
 - `youtube-E71YtNbCFXY` — 5 slide-derived text signals
 - Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.
 - Evidence links for `youtube-E71YtNbCFXY`: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
-## Evidence Table
+
+## Source Coverage
 This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
 
 | Evidence type | Count | Review note |
@@ -174,7 +163,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 | tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
 | transcripts | 1 | Transcript markdown; check session matching and caption quality. |
 
-## Representative Evidence Links
 ### Talks
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
@@ -207,68 +195,8 @@ This table summarizes the local evidence already linked from this topic. It is a
 - [[mcp-apps]]
 - [[neo4j]]
 
-## Representative Evidence Links
-### Talks
-- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
-- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
-- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]]
-- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]]
-- [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]]
-- [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies]]
-
-### Resources
-- [[youtube-sAOBXCDiDOs]]
-- [[youtube-btxGmN8RvNU]]
-- [[youtube-wFTVEDYVJT0]]
-- [[youtube-vh2VGuQ3zhY]]
-- [[youtube-_xIwFcnHqp4]]
-- [[youtube-ghJmWQCIHRM]]
-
-### Slides
-- [[youtube-2e9ANoOEn28-slides]]
-- [[youtube-sAOBXCDiDOs-slides]]
-- [[youtube-blW-lSd5CYQ-slides]]
-- [[youtube-blW-lSd5CYQ-dense-slides]]
-- [[youtube-blW-lSd5CYQ-reconstructed-slides]]
-- [[youtube-o-zkvb0iFDQ-slides]]
-
-### Transcripts
-- [[youtube-o-zkvb0iFDQ-transcript]]
-
-### Tools
-- [[docker]]
-- [[mcp-apps]]
-- [[neo4j]]
-
-## Representative Evidence Links
-### Talks
-- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
-- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
-- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]]
-- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]]
-- [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]]
-- [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies]]
-
-### Resources
-- [[youtube-sAOBXCDiDOs]]
-- [[youtube-btxGmN8RvNU]]
-- [[youtube-wFTVEDYVJT0]]
-- [[youtube-vh2VGuQ3zhY]]
-- [[youtube-_xIwFcnHqp4]]
-- [[youtube-ghJmWQCIHRM]]
-
-### Slides
-- [[youtube-2e9ANoOEn28-slides]]
-- [[youtube-sAOBXCDiDOs-slides]]
-- [[youtube-blW-lSd5CYQ-slides]]
-- [[youtube-blW-lSd5CYQ-dense-slides]]
-- [[youtube-blW-lSd5CYQ-reconstructed-slides]]
-- [[youtube-o-zkvb0iFDQ-slides]]
-
-### Transcripts
-- [[youtube-o-zkvb0iFDQ-transcript]]
-
-### Tools
-- [[docker]]
-- [[mcp-apps]]
-- [[neo4j]]
+## Active Use Cases
+- Connecting agents to repositories, browsers, docs, databases, and SaaS tools.
+- MCP Apps that return interactive UI from tool servers.
+- Agent-ready web and developer-tool integrations.
+- Local inspectors and compliance checks for tool servers.

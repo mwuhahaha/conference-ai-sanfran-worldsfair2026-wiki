@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Marco Casalaina
 
-## Official Role
+## Profile
 VP Products, Core AI and AI Futurist at [[microsoft|Microsoft]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/marcocasalaina)
 
-## Official Bio
+## Biography
 Marco Casalaina is VP Products, Core AI and AI Futurist at [[microsoft|Microsoft]]. His recent public posts center on GitHub Copilot, Copilot CLI, and [[microsoft|Microsoft]]'s CoreAI work.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-marco-casalaina-power-agents-with-microsoft-iq]] — Power agents with Microsoft IQ (2026-06-30, 2:25pm-2:45pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-marco-casalaina-power-agents-with-microsoft-iq|Power agents with Microsoft IQ]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

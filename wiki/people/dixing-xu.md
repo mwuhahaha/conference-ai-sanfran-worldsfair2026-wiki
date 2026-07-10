@@ -10,25 +10,24 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Dixing Xu
 
-## Official Role
+## Profile
 Member of Technical Staff at [[weco-ai|Weco AI]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/dex-xu)
 - [X / Twitter](https://x.com/dexhunt3r)
 - [Website](https://dex.moe)
 
-## Official Bio
+## Biography
 MTS at [[weco-ai|Weco AI]]. building self-improving agents and autoresearch systems. Previously at the Linux Foundation.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]] — Hands-on AutoResearch: Cracking OpenAI's Parameter Golf (2026-06-29, 2:20pm-4:20pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf|Hands-on AutoResearch: Cracking OpenAI's Parameter Golf]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

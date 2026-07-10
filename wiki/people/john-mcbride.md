@@ -9,26 +9,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # John McBride
 
-## Official Role
+## Profile
 Co-Founder, CTO at [[paper-compute-co|Paper Compute Co.]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/jpmcb/)
 - [Website](https://johncodes.com/)
 
-## Official Bio
+## Biography
 John McBride is an engineering leader, writer, and podcast host. He is Co-Founder, CTO at Paper Copmute Co. where he's heading up new AI and infrastructure development.
 
 He has previously worked on MCP/AI gateway infra at Zuplo, AI infrastructure at the Linux Foundation, AI/ML community tooling at OpenSauced, Linux based operating systems at AWS, Kubernetes products at VMware, and the Cloud Foundry platform at Pivotal. He has years of experience building complex, distributed software systems in a number of languages and frameworks, has scaled huge AI infrastructure systems, and rallied organizations to adopt cutting edge technologies.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-brian-douglas-don-t-write-skills-train-models]] — Don't Write Skills, Train Models (2026-06-30, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-brian-douglas-don-t-write-skills-train-models|Don't Write Skills, Train Models]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

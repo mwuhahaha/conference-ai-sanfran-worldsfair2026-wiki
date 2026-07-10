@@ -8,23 +8,22 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Karthik Ranganathan
 
-## Official Role
+## Profile
 Co-founder and Co-CEO at [[yugabyte|Yugabyte]].
 
-## Profile Links
 - [X / Twitter](https://x.com/karthikr)
 
-## Official Bio
+## Biography
 Karthik Ranganathan is co-founder and co-CEO of [[yugabyte|Yugabyte]], the company behind YugabyteDB. He was one of the original database engineers at Facebook/Meta working on distributed databases including Cassandra and HBase.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not]] — Agent Memory Is a Solved Problem. Agent Learning Is Not. (2026-07-01, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-karthik-ranganathan-agent-memory-is-a-solved-problem-agent-learning-is-not|Agent Memory Is a Solved Problem. Agent Learning Is Not.]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

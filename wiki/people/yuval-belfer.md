@@ -9,28 +9,27 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Yuval Belfer
 
-## Official Role
+## Profile
 Sr. Developer Advocate at [[ai21|AI21]].
 
-## Profile Links
 - [LinkedIn](https://linkedin.com/in/yuval-belfer)
 - [X / Twitter](https://x.com/yuvalinthedeep)
 
-## Official Bio
+## Biography
 Yuval is a Senior Developer Advocate at [[ai21|AI21]] Labs, where he helps engineers go from "it works in the demo" to "it works in production." He hosts the YAAP podcast (Yet Another AI Podcast) and teaches applied GenAI on various programs. His work spans RAG, fine-tuning, agents, and evaluation (or Yuval-uation, if you're nasty).
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022]] — Stop Chunking Like It's 2022 (2026-06-29, 3:20pm-3:40pm)
 - [[2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story]] — Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story (2026-07-01, 3:20pm-3:40pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022|Stop Chunking Like It's 2022]]
 - [[2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story|Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-Ywl4LsvHKzU` — 8 slide-derived text signals
 - Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, name, answers, assuming, answer, lies.
 - Evidence links for `youtube-Ywl4LsvHKzU`: [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]

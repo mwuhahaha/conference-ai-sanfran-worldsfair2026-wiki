@@ -9,26 +9,25 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Cormac Brick
 
-## Official Role
+## Profile
 Principal Engineer, [[google|Google]] AI Edge at [[google|Google]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/cbrick/)
 - [X / Twitter](https://x.com/cormacb)
 
-## Official Bio
+## Biography
 Principal Engineer at [[google|Google]] working on edge AI.  Lead on the [[google|Google]] AI Edge team and contributes to Gemma Model development.  An early pioneer in Edge AI, his industry background includes leading Intel’s first laptop NPUs, as well as demonstrating edge AI on a USB key way back in NeurIPS 2016.  These days he is technical lead for a team that drives multiple open source projects ([[google|Google]] AI Edge Gallery, LiteRT-LM, LiterRT, Xnnpack, Mediapipe) that enable Edge AI for billions of users.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics]] — Why Large? Tiny LMs & Agents on Edge/Robotics (2026-06-30, 2:50pm-3:10pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-30-cormac-brick-why-large-tiny-lms-and-agents-on-edge-robotics|Why Large? Tiny LMs & Agents on Edge/Robotics]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube--TiET_K-E_g` — 5 slide-derived text signals
 - Slide-derived themes for `youtube--TiET_K-E_g`: running, edge, many, benefits, faster, network, involved, sensitive.
 - Evidence links for `youtube--TiET_K-E_g`: [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]

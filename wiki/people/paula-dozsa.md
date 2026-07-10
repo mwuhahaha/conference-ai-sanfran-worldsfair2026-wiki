@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Paula Dozsa
 
-## Official Role
+## Profile
 iOS Engineer at [[tolan|Tolan]].
 
-## Profile Links
 - [LinkedIn](https://www.linkedin.com/in/paulacodes/)
 - [X / Twitter](https://x.com/paularambles)
 
-## Official Bio
+## Biography
 Paula Dozsa is an iOS engineer creating whimsical AI companions at [[tolan|Tolan]]. She previously co-founded and led development at EdTech startup imagi and built iOS apps at xAI and Spotify.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-paula-dozsa-tolan-voice-first-ai-companion]] — Tolan: Voice-First AI Companion (2026-06-29, 1:30pm-1:50pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-paula-dozsa-tolan-voice-first-ai-companion|Tolan: Voice-First AI Companion]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.

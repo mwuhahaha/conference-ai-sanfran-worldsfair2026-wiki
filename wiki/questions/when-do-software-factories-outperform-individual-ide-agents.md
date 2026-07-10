@@ -4,16 +4,15 @@ category: "questions"
 status: "active"
 sourceLabels: ["Official schedule", "Slide/OCR evidence", "Topic synthesis", "YouTube resource"]
 ---
-
 # When do software factories outperform individual IDE agents?
 
-## Why This Question Matters
+## Context
 The software-factory question asks when agentic work should move from single-developer tools into orchestrated pipelines with review, deployment, memory, and organizational controls.
 
-## Current Working Answer
+## Working Answer
 This page is a first-pass research question, not a final recommendation. Use the linked evidence to refine the answer as more exact session recordings, transcripts, and reviewed slide readings become available.
 
-## Source Evidence
+## Evidence
 - [[software-factories]] — Topic synthesis
 - [[coding-agents]] — Topic synthesis
 - [[agent-evaluations]] — Topic synthesis
@@ -24,7 +23,7 @@ This page is a first-pass research question, not a final recommendation. Use the
 - [[2026-06-29-zach-lloyd-self-improving-software-factories-the-new-open-source-model]] — Official schedule
 - [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]] — Official schedule
 
-## Follow-Up
+## Next Questions
 - Extract specific claims from the linked source pages.
 - Separate official schedule evidence from supporting YouTube, transcript, and OCR evidence.
 - Convert stable answers into playbooks, harnesses, or evaluations where appropriate.

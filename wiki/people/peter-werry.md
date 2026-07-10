@@ -7,27 +7,26 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # Peter Werry
 
-## Official Role
+## Profile
 Founding Engineer at [[unblocked|Unblocked]].
 
-## Profile Links
 No public profile links listed in the official speaker roster.
 
-## Official Bio
+## Biography
 Founding engineer at [[unblocked|Unblocked]] working on context engines for modern engineering teams.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-06-29-peter-werry-beyond-rag-build-a-relational-context-engine-from-scratch]] — Beyond RAG: Build a Relational Context Engine from Scratch (2026-06-29, 12:10pm-1:10pm)
 - [[2026-06-30-peter-werry-how-to-generate-mergeable-code-with-a-context-engine]] — How to generate mergeable code with a context engine (2026-06-30, 11:40am-12:00pm)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-06-29-peter-werry-beyond-rag-build-a-relational-context-engine-from-scratch|Beyond RAG: Build a Relational Context Engine from Scratch]]
 - [[2026-06-30-peter-werry-how-to-generate-mergeable-code-with-a-context-engine|How to generate mergeable code with a context engine]]
 
-### Slide And Transcript Signals
+### Media Signals
 - `youtube-5ID22ACI7IM` — 4 slide-derived text signals
 - Slide-derived themes for `youtube-5ID22ACI7IM`: connect, code, logs, docs, tickets, gives, plausible, output.
 - Evidence links for `youtube-5ID22ACI7IM`: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]

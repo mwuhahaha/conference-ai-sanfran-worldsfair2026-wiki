@@ -9,24 +9,23 @@ sourceLabels: ["Official speaker roster", "Official conference schedule"]
 ---
 # John Ousterhout
 
-## Official Role
+## Profile
 Professor Emeritus at [[stanford-university|Stanford University]].
 
-## Profile Links
 - [X / Twitter](https://x.com/johnousterhout)
 - [Website](https://web.stanford.edu/~ouster/cgi-bin/home.php)
 
-## Official Bio
+## Biography
 John Ousterhout is the Bosack Lerner Professor of Computer Science, Emeritus at [[stanford-university|Stanford University]]. His prior positions include 14 years in industry, where he founded two companies (Scriptics and Electric Cloud), preceded by 14 years as Professor of Computer Science at U.C. Berkeley.  He is author of the book "A Philosophy of Software Design", co-creator of the Raft consensus protocol, and creator of the Tcl scripting language and the Tk toolkit. He is a member of the National Academy of Engineering and has received numerous awards, including the ACM Software System Award, the ACM Grace Murray Hopper Award, and the U.C. Berkeley Distinguished Teaching Award.
 
-## Scheduled Sessions
+## Conference Sessions
 - [[2026-07-01-john-ousterhout-tcp-and-rdma-are-killing-inference-throughput-homa-can-fix-it]] — TCP and RDMA are Killing Inference Throughput; Homa can Fix It (2026-07-01, 9:20am-9:40am)
 
-## Source-Derived Enrichment
-This section summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
+## Evidence Graph
+This evidence graph summarizes how this person appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
-### Related Sessions
+### Linked Sessions
 - [[2026-07-01-john-ousterhout-tcp-and-rdma-are-killing-inference-throughput-homa-can-fix-it|TCP and RDMA are Killing Inference Throughput; Homa can Fix It]]
 
-### Slide And Transcript Signals
+### Media Signals
 No linked video, transcript, or slide source has been attached yet.
