@@ -190,16 +190,80 @@ def match_talks(video: VideoEntry, talks: list[dict[str, str]]) -> list[dict[str
     return [talk for _score, talk in scored[:3]]
 
 
-def explicit_wf26_title(video: VideoEntry) -> bool:
+def explicit_wf26_event_title(video: VideoEntry) -> bool:
     title = video.title.lower()
-    return "wf26" in title or "wf2026" in title or ("world" in title and "fair" in title and "2026" in title)
+    if "wf26" in title or "wf2026" in title:
+        return True
+    if "world" in title and "fair" in title and "2026" in title:
+        return True
+    if "worldsfair" in title and "2026" in title:
+        return True
+    return False
+
+
+def excluded_non_wf26_event_title(video: VideoEntry) -> bool:
+    """Reject official-channel uploads that clearly point at another event/scope."""
+    title = video.title.lower()
+    other_event_markers = [
+        "miami",
+        "world's fair 2025",
+        "worlds fair 2025",
+        "worldsfair 2025",
+        "wf25",
+        "wf2025",
+        "world's fair 2024",
+        "worlds fair 2024",
+        "worldsfair 2024",
+        "wf24",
+        "wf2024",
+        "summit",
+    ]
+    return any(marker in title for marker in other_event_markers)
+
+
+def title_tokens(value: str) -> set[str]:
+    value = normalize_title(value)
+    return {token for token in value.split() if len(token) >= 3}
+
+
+def strict_schedule_matches(video: VideoEntry, talks: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Return only high-confidence matches to actual WF2026 scheduled talks.
+
+    This is intentionally stricter than match_talks(). The monitor is allowed to
+    import only official-channel WF26 event videos. A loose speaker/title overlap
+    is useful for review, but not enough to create first-class event evidence.
+    """
+    if excluded_non_wf26_event_title(video):
+        return []
+    video_norm = normalize_title(video.title)
+    video_title_tokens = title_tokens(video.title)
+    video_speaker_tokens = speaker_tokens(video.title)
+    matched: list[tuple[float, dict[str, str]]] = []
+    for talk in talks:
+        talk_norm = normalize_title(talk["title"])
+        talk_title_tokens = title_tokens(talk["title"])
+        if not talk_norm or not talk_title_tokens:
+            continue
+        speaker_overlap = speaker_tokens(talk["speakers"]) & video_speaker_tokens
+        exact_title = talk_norm in video_norm
+        overlap = talk_title_tokens & video_title_tokens
+        coverage = len(overlap) / max(1, len(talk_title_tokens))
+        short_title = len(talk_title_tokens) < 4
+        if exact_title and speaker_overlap:
+            matched.append((1.0, talk))
+        elif coverage >= 0.9 and len(overlap) >= 4 and speaker_overlap:
+            matched.append((coverage, talk))
+    matched.sort(key=lambda item: (-item[0], item[1]["title"]))
+    return [talk for _score, talk in matched[:3]]
 
 
 def event_entries(entries: list[VideoEntry], talks: list[dict[str, str]]) -> list[tuple[VideoEntry, list[dict[str, str]]]]:
     rows = []
     for entry in entries:
-        matched = match_talks(entry, talks)
-        if matched or explicit_wf26_title(entry):
+        if excluded_non_wf26_event_title(entry):
+            continue
+        matched = strict_schedule_matches(entry, talks)
+        if explicit_wf26_event_title(entry) or matched:
             rows.append((entry, matched))
     return rows
 
@@ -211,7 +275,7 @@ def write_resource_page(video: VideoEntry, matched_talks: list[dict[str, str]], 
         for talk in matched_talks:
             talk_lines.append(f"- [[{talk['id']}|{talk['title']}]]")
     else:
-        talk_lines.append("- No exact schedule-page match has been assigned yet; keep as supporting official-channel context until manually verified against the event schedule.")
+        talk_lines.append("- No exact schedule-page match has been assigned yet; this was admitted only because the official-channel title explicitly identifies it as WF26 / World's Fair 2026 event media.")
     transcript_line = (
         f"Cached transcript text is available at `raw/sources/youtube-transcripts/{video.video_id}.txt`."
         if transcript_path(video.video_id).exists()
@@ -233,13 +297,13 @@ def write_resource_page(video: VideoEntry, matched_talks: list[dict[str, str]], 
             f"# {video.title}",
             "",
             "## What It Is",
-            "An official AI Engineer YouTube video detected by the World's Fair 2026 monitor. It is first-class event evidence only when it is matched to an actual World's Fair San Francisco 2026 scheduled session or confirmed WF26 livestream; official schedule pages remain canonical for schedule metadata.",
+            "An official AI Engineer YouTube video detected by the World's Fair 2026 monitor and admitted only after the title or strict schedule match identified it as AI Engineer World's Fair San Francisco 2026 event media. Official schedule pages remain canonical for schedule metadata.",
             "",
             "## Source Classification",
-            "- Source role: primary event video source only when matched to a confirmed AI Engineer World's Fair San Francisco 2026 session; otherwise supporting official-channel context.",
+            "- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.",
             f"- Published date: {video.published_date.isoformat()}",
             f"- Channel/source: {OFFICIAL_CHANNEL}.",
-            "- Use: use as media/transcript/slide evidence only after event-match verification; keep schedule facts tied to the official schedule pages.",
+            "- Use: use as media/transcript/slide evidence for the event recording; keep schedule facts tied to the official schedule pages.",
             "",
             "## Matched Schedule Pages",
             *talk_lines,
