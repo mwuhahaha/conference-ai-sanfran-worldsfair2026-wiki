@@ -193,7 +193,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/expo-stage-1-ne.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/expo-stage-1-ne.jpg",
       "calibration": {
         "room_family": "expo-floor stage",
         "camera_model": "open-stage camera; audience may stand or sit outside fixed rows",
@@ -396,7 +396,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/expo-stage-2-nw.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/expo-stage-2-nw.jpg",
       "calibration": {
         "room_family": "expo-floor stage",
         "camera_model": "open-stage camera; audience may stand or sit outside fixed rows",
@@ -599,7 +599,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/expo-stage-3-sw.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/expo-stage-3-sw.jpg",
       "calibration": {
         "room_family": "expo-floor stage",
         "camera_model": "open-stage camera; audience may stand or sit outside fixed rows",
@@ -726,7 +726,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/expo-stage-4-se.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/expo-stage-4-se.jpg",
       "calibration": {
         "room_family": "expo-floor stage",
         "camera_model": "open-stage camera; audience may stand or sit outside fixed rows",
@@ -853,7 +853,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/leadership-1.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/leadership-1.jpg",
       "calibration": {
         "room_family": "leadership breakout room",
         "camera_model": "speaker/slide camera with limited audience views",
@@ -1132,7 +1132,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/leadership-2.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/leadership-2.jpg",
       "calibration": {
         "room_family": "leadership breakout room",
         "camera_model": "speaker/slide camera with limited audience views",
@@ -1239,7 +1239,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/leadership-lounge.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/leadership-lounge.jpg",
       "calibration": {
         "room_family": "leadership breakout room",
         "camera_model": "speaker/slide camera with limited audience views",
@@ -1518,7 +1518,7 @@
           "source_kind": "worldsfair-livestream-segment"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/main-stage.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/main-stage.jpg",
       "calibration": {
         "room_family": "large keynote/plenary room",
         "camera_model": "front-of-room stage camera with occasional wide audience visibility in livestream/cut footage",
@@ -1625,7 +1625,7 @@
           "source_kind": "worldsfair-livestream-segment"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/networking-room.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/networking-room.jpg",
       "calibration": {
         "room_family": "lounge/networking room",
         "camera_model": "event/livestream context rather than stable talk capture",
@@ -1828,7 +1828,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/track-1.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/track-1.jpg",
       "calibration": {
         "room_family": "breakout track room",
         "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
@@ -1955,7 +1955,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/track-2.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/track-2.jpg",
       "calibration": {
         "room_family": "breakout track room",
         "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
@@ -2082,7 +2082,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/track-3.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/track-3.jpg",
       "calibration": {
         "room_family": "breakout track room",
         "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
@@ -2285,7 +2285,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/track-4.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/track-4.jpg",
       "calibration": {
         "room_family": "breakout track room",
         "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
@@ -2488,7 +2488,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/track-5.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/track-5.jpg",
       "calibration": {
         "room_family": "breakout track room",
         "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
@@ -2767,7 +2767,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/track-6.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/track-6.jpg",
       "calibration": {
         "room_family": "breakout track room",
         "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
@@ -2894,7 +2894,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/track-7.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/track-7.jpg",
       "calibration": {
         "room_family": "breakout track room",
         "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
@@ -3173,7 +3173,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/track-8.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/track-8.jpg",
       "calibration": {
         "room_family": "breakout track room",
         "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
@@ -3300,7 +3300,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/track-9.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/track-9.jpg",
       "calibration": {
         "room_family": "breakout track room",
         "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
@@ -3503,7 +3503,7 @@
           "source_kind": "supporting-related-video"
         }
       ],
-      "contact_sheet": "assets/attendance-calibration/track-m.jpg",
+      "contact_sheet": "assets/attendance-calibration-v1/track-m.jpg",
       "calibration": {
         "room_family": "breakout track room",
         "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",

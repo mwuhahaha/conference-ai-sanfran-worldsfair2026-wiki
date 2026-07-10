@@ -15,48 +15,48 @@ This page is a calibration layer for future attendance estimates. It does not pu
 
 ## Calibration Summary
 
-- **Expo Stage 1 NE**: expo-floor stage; primary videos 0, supporting videos 2, evidence frames 12; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/expo-stage-1-ne.jpg)
-- **Expo Stage 2 NW**: expo-floor stage; primary videos 1, supporting videos 1, evidence frames 12; use: partial visible-area calibration; confidence: medium-low. [contact sheet](/assets/attendance-calibration/expo-stage-2-nw.jpg)
-- **Expo Stage 3 SW**: expo-floor stage; primary videos 0, supporting videos 2, evidence frames 12; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/expo-stage-3-sw.jpg)
-- **Expo Stage 4 SE**: expo-floor stage; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/expo-stage-4-se.jpg)
-- **Leadership 1**: leadership breakout room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/leadership-1.jpg)
-- **Leadership 2**: leadership breakout room; primary videos 0, supporting videos 3, evidence frames 18; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/leadership-2.jpg)
-- **Leadership Lounge**: leadership breakout room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/leadership-lounge.jpg)
-- **Main Stage**: large keynote/plenary room; primary videos 3, supporting videos 0, evidence frames 18; use: partial visible-area calibration; confidence: medium-low. [contact sheet](/assets/attendance-calibration/main-stage.jpg)
-- **Networking Room**: lounge/networking room; primary videos 1, supporting videos 0, evidence frames 6; use: lower-bound visible-area calibration; confidence: low. [contact sheet](/assets/attendance-calibration/networking-room.jpg)
-- **Track 1**: breakout track room; primary videos 1, supporting videos 1, evidence frames 12; use: partial visible-area calibration; confidence: medium-low. [contact sheet](/assets/attendance-calibration/track-1.jpg)
-- **Track 2**: breakout track room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/track-2.jpg)
-- **Track 3**: breakout track room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/track-3.jpg)
-- **Track 4**: breakout track room; primary videos 0, supporting videos 2, evidence frames 12; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/track-4.jpg)
-- **Track 5**: breakout track room; primary videos 0, supporting videos 2, evidence frames 12; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/track-5.jpg)
-- **Track 6**: breakout track room; primary videos 1, supporting videos 2, evidence frames 18; use: partial visible-area calibration; confidence: medium-low. [contact sheet](/assets/attendance-calibration/track-6.jpg)
-- **Track 7**: breakout track room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/track-7.jpg)
-- **Track 8**: breakout track room; primary videos 0, supporting videos 3, evidence frames 18; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/track-8.jpg)
-- **Track 9**: breakout track room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/track-9.jpg)
-- **Track M**: breakout track room; primary videos 0, supporting videos 2, evidence frames 12; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration/track-m.jpg)
+- **Expo Stage 1 NE**: expo-floor stage; primary videos 0, supporting videos 2, evidence frames 12; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/expo-stage-1-ne.jpg)
+- **Expo Stage 2 NW**: expo-floor stage; primary videos 1, supporting videos 1, evidence frames 12; use: partial visible-area calibration; confidence: medium-low. [contact sheet](/assets/attendance-calibration-v1/expo-stage-2-nw.jpg)
+- **Expo Stage 3 SW**: expo-floor stage; primary videos 0, supporting videos 2, evidence frames 12; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/expo-stage-3-sw.jpg)
+- **Expo Stage 4 SE**: expo-floor stage; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/expo-stage-4-se.jpg)
+- **Leadership 1**: leadership breakout room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/leadership-1.jpg)
+- **Leadership 2**: leadership breakout room; primary videos 0, supporting videos 3, evidence frames 18; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/leadership-2.jpg)
+- **Leadership Lounge**: leadership breakout room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/leadership-lounge.jpg)
+- **Main Stage**: large keynote/plenary room; primary videos 3, supporting videos 0, evidence frames 18; use: partial visible-area calibration; confidence: medium-low. [contact sheet](/assets/attendance-calibration-v1/main-stage.jpg)
+- **Networking Room**: lounge/networking room; primary videos 1, supporting videos 0, evidence frames 6; use: lower-bound visible-area calibration; confidence: low. [contact sheet](/assets/attendance-calibration-v1/networking-room.jpg)
+- **Track 1**: breakout track room; primary videos 1, supporting videos 1, evidence frames 12; use: partial visible-area calibration; confidence: medium-low. [contact sheet](/assets/attendance-calibration-v1/track-1.jpg)
+- **Track 2**: breakout track room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/track-2.jpg)
+- **Track 3**: breakout track room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/track-3.jpg)
+- **Track 4**: breakout track room; primary videos 0, supporting videos 2, evidence frames 12; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/track-4.jpg)
+- **Track 5**: breakout track room; primary videos 0, supporting videos 2, evidence frames 12; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/track-5.jpg)
+- **Track 6**: breakout track room; primary videos 1, supporting videos 2, evidence frames 18; use: partial visible-area calibration; confidence: medium-low. [contact sheet](/assets/attendance-calibration-v1/track-6.jpg)
+- **Track 7**: breakout track room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/track-7.jpg)
+- **Track 8**: breakout track room; primary videos 0, supporting videos 3, evidence frames 18; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/track-8.jpg)
+- **Track 9**: breakout track room; primary videos 0, supporting videos 1, evidence frames 6; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/track-9.jpg)
+- **Track M**: breakout track room; primary videos 0, supporting videos 2, evidence frames 12; use: camera-family proxy only; confidence: low. [contact sheet](/assets/attendance-calibration-v1/track-m.jpg)
 
 ## Calibration Table
 | Room | Room family | Primary videos | Supporting videos | Evidence frames | Use | Confidence | Contact sheet |
 | --- | --- | ---: | ---: | ---: | --- | --- | --- |
-| Expo Stage 1 NE | expo-floor stage | 0 | 2 | 12 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/expo-stage-1-ne.jpg) |
-| Expo Stage 2 NW | expo-floor stage | 1 | 1 | 12 | partial visible-area calibration | medium-low | [sheet](/assets/attendance-calibration/expo-stage-2-nw.jpg) |
-| Expo Stage 3 SW | expo-floor stage | 0 | 2 | 12 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/expo-stage-3-sw.jpg) |
-| Expo Stage 4 SE | expo-floor stage | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/expo-stage-4-se.jpg) |
-| Leadership 1 | leadership breakout room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/leadership-1.jpg) |
-| Leadership 2 | leadership breakout room | 0 | 3 | 18 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/leadership-2.jpg) |
-| Leadership Lounge | leadership breakout room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/leadership-lounge.jpg) |
-| Main Stage | large keynote/plenary room | 3 | 0 | 18 | partial visible-area calibration | medium-low | [sheet](/assets/attendance-calibration/main-stage.jpg) |
-| Networking Room | lounge/networking room | 1 | 0 | 6 | lower-bound visible-area calibration | low | [sheet](/assets/attendance-calibration/networking-room.jpg) |
-| Track 1 | breakout track room | 1 | 1 | 12 | partial visible-area calibration | medium-low | [sheet](/assets/attendance-calibration/track-1.jpg) |
-| Track 2 | breakout track room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/track-2.jpg) |
-| Track 3 | breakout track room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/track-3.jpg) |
-| Track 4 | breakout track room | 0 | 2 | 12 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/track-4.jpg) |
-| Track 5 | breakout track room | 0 | 2 | 12 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/track-5.jpg) |
-| Track 6 | breakout track room | 1 | 2 | 18 | partial visible-area calibration | medium-low | [sheet](/assets/attendance-calibration/track-6.jpg) |
-| Track 7 | breakout track room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/track-7.jpg) |
-| Track 8 | breakout track room | 0 | 3 | 18 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/track-8.jpg) |
-| Track 9 | breakout track room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/track-9.jpg) |
-| Track M | breakout track room | 0 | 2 | 12 | camera-family proxy only | low | [sheet](/assets/attendance-calibration/track-m.jpg) |
+| Expo Stage 1 NE | expo-floor stage | 0 | 2 | 12 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/expo-stage-1-ne.jpg) |
+| Expo Stage 2 NW | expo-floor stage | 1 | 1 | 12 | partial visible-area calibration | medium-low | [sheet](/assets/attendance-calibration-v1/expo-stage-2-nw.jpg) |
+| Expo Stage 3 SW | expo-floor stage | 0 | 2 | 12 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/expo-stage-3-sw.jpg) |
+| Expo Stage 4 SE | expo-floor stage | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/expo-stage-4-se.jpg) |
+| Leadership 1 | leadership breakout room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/leadership-1.jpg) |
+| Leadership 2 | leadership breakout room | 0 | 3 | 18 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/leadership-2.jpg) |
+| Leadership Lounge | leadership breakout room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/leadership-lounge.jpg) |
+| Main Stage | large keynote/plenary room | 3 | 0 | 18 | partial visible-area calibration | medium-low | [sheet](/assets/attendance-calibration-v1/main-stage.jpg) |
+| Networking Room | lounge/networking room | 1 | 0 | 6 | lower-bound visible-area calibration | low | [sheet](/assets/attendance-calibration-v1/networking-room.jpg) |
+| Track 1 | breakout track room | 1 | 1 | 12 | partial visible-area calibration | medium-low | [sheet](/assets/attendance-calibration-v1/track-1.jpg) |
+| Track 2 | breakout track room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/track-2.jpg) |
+| Track 3 | breakout track room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/track-3.jpg) |
+| Track 4 | breakout track room | 0 | 2 | 12 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/track-4.jpg) |
+| Track 5 | breakout track room | 0 | 2 | 12 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/track-5.jpg) |
+| Track 6 | breakout track room | 1 | 2 | 18 | partial visible-area calibration | medium-low | [sheet](/assets/attendance-calibration-v1/track-6.jpg) |
+| Track 7 | breakout track room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/track-7.jpg) |
+| Track 8 | breakout track room | 0 | 3 | 18 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/track-8.jpg) |
+| Track 9 | breakout track room | 0 | 1 | 6 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/track-9.jpg) |
+| Track M | breakout track room | 0 | 2 | 12 | camera-family proxy only | low | [sheet](/assets/attendance-calibration-v1/track-m.jpg) |
 
 ## Room Notes
 
