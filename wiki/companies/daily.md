@@ -5,7 +5,6 @@ aliases: ["Daily"]
 website: "https://daily.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Daily
 
 ## What It Is

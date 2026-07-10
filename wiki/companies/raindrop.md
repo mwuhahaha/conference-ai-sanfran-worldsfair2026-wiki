@@ -5,7 +5,6 @@ aliases: ["Raindrop"]
 website: "https://www.raindrop.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Raindrop
 
 ## What It Is
@@ -41,5 +40,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-5nOLb27hQ5w` — 5 slide-derived text signals
-- Slide-derived themes for `youtube-5nOLb27hQ5w`: fair, dawn, focused, understand, wees, requests, bits, designer.
+- Slide-derived themes for `youtube-5nOLb27hQ5w`: customer, project, knowledge, content, below, pricing, plans, contains.
 - Evidence links for `youtube-5nOLb27hQ5w`: [[youtube-5nOLb27hQ5w]], [[youtube-5nOLb27hQ5w-slides]], [[youtube-5nOLb27hQ5w-dense-slides]], [[youtube-5nOLb27hQ5w-reconstructed-slides]]

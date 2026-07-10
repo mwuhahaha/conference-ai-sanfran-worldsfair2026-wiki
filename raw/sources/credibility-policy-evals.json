@@ -1,0 +1,82 @@
+[
+  {
+    "policy": "coding-agents-credibility",
+    "name": "Kent C. Dodds",
+    "score": 88.75,
+    "expectedMin": 82,
+    "result": "pass",
+    "why": "Known expert in production web/product engineering and developer education; useful high exemplar when judging practical coding-agent workflow advice."
+  },
+  {
+    "policy": "coding-agents-credibility",
+    "name": "Jason Liu",
+    "score": 89.25,
+    "expectedMin": 82,
+    "result": "pass",
+    "why": "Strong practical signal for AI engineering workflows, structured outputs, and hands-on Codex/coding-agent practice."
+  },
+  {
+    "policy": "agent-evaluations-credibility",
+    "name": "Aparna Dhinakaran",
+    "score": 91.75,
+    "expectedMin": 84,
+    "result": "pass",
+    "why": "High exemplar for AI observability and eval infrastructure because credibility comes from Arize/Phoenix-style production evaluation practice."
+  },
+  {
+    "policy": "agent-evaluations-credibility",
+    "name": "Laurie Voss",
+    "score": 87.25,
+    "expectedMin": 82,
+    "result": "pass",
+    "why": "High exemplar for practical agent eval framing and shipping guidance in the AIE graph."
+  },
+  {
+    "policy": "agentic-search-credibility",
+    "name": "Jo Kristian Bergum",
+    "score": 88.25,
+    "expectedMin": 82,
+    "result": "pass",
+    "why": "Known retrieval/search practitioner; a high exemplar when correctness depends on IR fundamentals rather than popularity."
+  },
+  {
+    "policy": "agentic-search-credibility",
+    "name": "Han Xiao",
+    "score": 88.5,
+    "expectedMin": 82,
+    "result": "pass",
+    "why": "High exemplar for dense retrieval and search/retrieval systems in the local Worldsfair graph."
+  },
+  {
+    "policy": "ai-sandboxes-credibility",
+    "name": "Solomon Hykes",
+    "score": 89.0,
+    "expectedMin": 82,
+    "result": "pass",
+    "why": "External calibration exemplar for container/runtime isolation: popularity should not be required for a high sandbox credibility score."
+  },
+  {
+    "policy": "ai-sandboxes-credibility",
+    "name": "Samuel Colvin",
+    "score": 86.5,
+    "expectedMin": 80,
+    "result": "pass",
+    "why": "High local exemplar for sandbox-not-desert framing and practical Python/runtime tooling credibility."
+  },
+  {
+    "policy": "inference-engineering-credibility",
+    "name": "Charles Frye",
+    "score": 86.0,
+    "expectedMin": 82,
+    "result": "pass",
+    "why": "High exemplar for explaining inference engines from first principles with strong technical depth."
+  },
+  {
+    "policy": "inference-engineering-credibility",
+    "name": "Ion Stoica",
+    "score": 92.65,
+    "expectedMin": 84,
+    "result": "pass",
+    "why": "External calibration exemplar for distributed systems and AI infrastructure; should score high even when the specific question is not about fame."
+  }
+]

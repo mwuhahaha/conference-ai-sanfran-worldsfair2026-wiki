@@ -59,17 +59,17 @@ These are phone-photo slide captures from the Google Photos `AIE Slides` album. 
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 3 slide-derived text signals
+- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 1 slide-derived text signals
 - Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
-- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: manual, analysis, keyword.
 - Evidence links for `youtube-dvft0Gp9sEE`: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-dvft0Gp9sEE`
-- Slide deck: [[youtube-dvft0Gp9sEE-dense-slides|Dense Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]] — 2 visible slide image(s).
+- Slide deck: [[youtube-dvft0Gp9sEE-dense-slides|Dense Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]] — 2 visible slide image(s); 2 HTML recreation(s).
 ![[assets/dense-slides/dvft0Gp9sEE/slide-001.jpg]]
 ![[assets/dense-slides/dvft0Gp9sEE/slide-002.jpg]]
 - Additional slide evidence: [[youtube-dvft0Gp9sEE-slides|Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]], [[youtube-dvft0Gp9sEE-reconstructed-slides|Reconstructed Slides: Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo]]
-- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: manual, analysis, keyword.

@@ -5,7 +5,6 @@ aliases: ["Uber Technology Inc."]
 website: "https://www.uber.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Uber Technology Inc.
 
 ## What It Is

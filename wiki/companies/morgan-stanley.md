@@ -5,7 +5,6 @@ aliases: ["Morgan Stanley"]
 website: "https://www.morganstanley.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # Morgan Stanley
 
 ## What It Is

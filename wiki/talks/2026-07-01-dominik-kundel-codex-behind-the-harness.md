@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-iXhba366fQc` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-iXhba366fQc`: complex, support, before, started, workshop, slack, voice, provide.
+- `youtube-iXhba366fQc` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-iXhba366fQc`: than, complex, personalized, github, voice, provide, wide, range.
 - Evidence links for `youtube-iXhba366fQc`: [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-iXhba366fQc`
-- Slide deck: [[youtube-iXhba366fQc-dense-slides|Dense Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]] — 4 visible slide image(s).
+- Slide deck: [[youtube-iXhba366fQc-dense-slides|Dense Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]] — 4 visible slide image(s); 4 HTML recreation(s).
 ![[assets/dense-slides/iXhba366fQc/slide-001.jpg]]
 ![[assets/dense-slides/iXhba366fQc/slide-002.jpg]]
 ![[assets/dense-slides/iXhba366fQc/slide-003.jpg]]
 - Additional slide evidence: [[youtube-iXhba366fQc-slides|Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]], [[youtube-iXhba366fQc-reconstructed-slides|Reconstructed Slides: Building voice agents with OpenAI — Dominik Kundel, OpenAI]]
-- Slide-derived themes for `youtube-iXhba366fQc`: complex, support, before, started, workshop, slack, voice, provide.
+- Slide-derived themes for `youtube-iXhba366fQc`: than, complex, personalized, github, voice, provide, wide, range.

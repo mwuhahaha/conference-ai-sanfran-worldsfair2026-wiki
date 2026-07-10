@@ -45,17 +45,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-MRM7oA3JsFs` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-MRM7oA3JsFs`: weeks, performance, achieved, care, application, company, provides, clinical.
+- `youtube-MRM7oA3JsFs` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-MRM7oA3JsFs`: clinical, company, head, reasoning, tools, accelerate, microsoft, amazon.
 - Evidence links for `youtube-MRM7oA3JsFs`: [[youtube-MRM7oA3JsFs]], [[youtube-MRM7oA3JsFs-slides]], [[youtube-MRM7oA3JsFs-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-MRM7oA3JsFs`
-- Slide deck: [[youtube-MRM7oA3JsFs-reconstructed-slides|Reconstructed Slides: Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior]] — 16 visible slide image(s).
-![[assets/reconstructed-slides/MRM7oA3JsFs/slide-001.jpg]]
+- Slide deck: [[youtube-MRM7oA3JsFs-reconstructed-slides|Reconstructed Slides: Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior]] — 13 visible slide image(s); 13 HTML recreation(s).
 ![[assets/reconstructed-slides/MRM7oA3JsFs/slide-002.jpg]]
 ![[assets/reconstructed-slides/MRM7oA3JsFs/slide-003.jpg]]
+![[assets/reconstructed-slides/MRM7oA3JsFs/slide-004.jpg]]
 - Additional slide evidence: [[youtube-MRM7oA3JsFs-slides|Slides: Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior]]
-- Slide-derived themes for `youtube-MRM7oA3JsFs`: weeks, performance, achieved, care, application, company, provides, clinical.
+- Slide-derived themes for `youtube-MRM7oA3JsFs`: clinical, company, head, reasoning, tools, accelerate, microsoft, amazon.

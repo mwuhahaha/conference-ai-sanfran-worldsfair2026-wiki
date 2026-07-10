@@ -5,7 +5,6 @@ aliases: ["Stanford University / Together AI"]
 website: "https://hai.stanford.edu/people/james-zou"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # Stanford University / Together AI
 
 ## What It Is

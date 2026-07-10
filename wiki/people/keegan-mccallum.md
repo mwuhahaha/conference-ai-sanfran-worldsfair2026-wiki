@@ -33,6 +33,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-keegan-mccallum-generative-video-at-the-speed-of-light|Generative Video at the Speed of Light]]
 
 ### Slide And Transcript Signals
-- `youtube-EY4O9M6AsWI` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-EY4O9M6AsWI`: nope, white, knuckling, nodes, enough, banana, barely, made.
+- `youtube-EY4O9M6AsWI` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-EY4O9M6AsWI`: triton, mission, general, intelligence, generate, understand, operate, physical.
 - Evidence links for `youtube-EY4O9M6AsWI`: [[youtube-EY4O9M6AsWI]], [[youtube-EY4O9M6AsWI-slides]], [[youtube-EY4O9M6AsWI-reconstructed-slides]]

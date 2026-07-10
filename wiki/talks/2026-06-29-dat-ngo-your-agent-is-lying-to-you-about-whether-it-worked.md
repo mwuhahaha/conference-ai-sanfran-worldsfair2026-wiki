@@ -51,15 +51,15 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-JsCCrBF7F1g` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-JsCCrBF7F1g`: teams, engineering, hard, tackling, registration, open, observe, platform.
+- `youtube-JsCCrBF7F1g` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.
 - Evidence links for `youtube-JsCCrBF7F1g`: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-JsCCrBF7F1g`
-- Slide deck: [[youtube-JsCCrBF7F1g-dense-slides|Dense Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize]] — 1 visible slide image(s).
+- Slide deck: [[youtube-JsCCrBF7F1g-dense-slides|Dense Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/JsCCrBF7F1g/slide-001.jpg]]
 - Additional slide evidence: [[youtube-JsCCrBF7F1g-slides|Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize]], [[youtube-JsCCrBF7F1g-reconstructed-slides|Reconstructed Slides: LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize]]
-- Slide-derived themes for `youtube-JsCCrBF7F1g`: teams, engineering, hard, tackling, registration, open, observe, platform.
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.

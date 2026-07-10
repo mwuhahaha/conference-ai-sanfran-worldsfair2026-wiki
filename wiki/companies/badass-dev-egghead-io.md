@@ -5,7 +5,6 @@ aliases: ["badass.dev / egghead.io"]
 website: "https://badass.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # badass.dev / egghead.io
 
 ## What It Is

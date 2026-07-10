@@ -51,19 +51,19 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-1t-9-s1brcg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
+- `youtube-1t-9-s1brcg` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
 - Evidence links for `youtube-1t-9-s1brcg`: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-1t-9-s1brcg`
-- Slide deck: [[youtube-1t-9-s1brcg-dense-slides|Dense Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner]] — 50 visible slide image(s).
+- Slide deck: [[youtube-1t-9-s1brcg-dense-slides|Dense Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner]] — 50 visible slide image(s); 50 HTML recreation(s).
 ![[assets/dense-slides/1t-9-s1brcg/slide-001.jpg]]
 ![[assets/dense-slides/1t-9-s1brcg/slide-002.jpg]]
 ![[assets/dense-slides/1t-9-s1brcg/slide-003.jpg]]
 - Additional slide evidence: [[youtube-1t-9-s1brcg-slides|Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner]], [[youtube-1t-9-s1brcg-reconstructed-slides|Reconstructed Slides: Running AI Application in Minutes w/ AI Templates: Gabriela de Queiroz, Pamela Fox, Harald Kirschner]]
-- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
+- Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

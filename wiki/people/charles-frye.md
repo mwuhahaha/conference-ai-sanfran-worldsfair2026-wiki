@@ -31,6 +31,5 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-charles-frye-what-is-an-inference-engine-anyway|What is an Inference Engine, Anyway?]]
 
 ### Slide And Transcript Signals
-- `youtube-DeFF3J8T5Pk` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-DeFF3J8T5Pk`: open, engine, advisor, source, engines, getting, better, quickly.
+- `youtube-DeFF3J8T5Pk` — source page linked
 - Evidence links for `youtube-DeFF3J8T5Pk`: [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]

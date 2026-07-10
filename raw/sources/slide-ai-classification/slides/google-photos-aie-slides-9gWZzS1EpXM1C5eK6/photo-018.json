@@ -1,0 +1,106 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "In Practice: A DeepResearch Example\ntooling has an outsized your performance. Even on a simple A bad tool will collapse able to reach the right DeepResearch task, impact. As tool quality improves, LLMs are increasingly Lexical Lexical (PiSerini BM25) Lexical (Unoptimised BM25) Semantic Search Qwen3-Embed-8B Mixedbread Search Retrieval Tools Accuracy 73.2 59.8 72.0 89.8 Avg # Search 13.4 25.1 19.7 10.2\nBut cost continues to rapidly drop as quality answer... plateaus. Hybrid Harnesses Lexical + Mixedbread Search Lexical +Qwen3-Embed-8B 90.2 85.7 12.5 8.6\n（f c wCPs.w t00 Rrd Qus.Avg.0/3 rns 12",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Text-heavy slide with a table and bullets is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "In Practice: A DeepResearch Example",
+        "x": 14.0,
+        "y": 13.0,
+        "w": 36.0,
+        "h": 8.0
+      },
+      {
+        "role": "body",
+        "text": "Even on a simple DeepResearch task, tooling has an outsized impact.",
+        "x": 15.0,
+        "y": 25.0,
+        "w": 29.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "A bad tool will collapse your performance.",
+        "x": 15.0,
+        "y": 36.0,
+        "w": 21.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "As tool quality improves, LLMs are increasingly able to reach the right answer.",
+        "x": 15.0,
+        "y": 44.0,
+        "w": 30.0,
+        "h": 9.0
+      },
+      {
+        "role": "body",
+        "text": "But cost continues to rapidly drop as quality plateaus.",
+        "x": 15.0,
+        "y": 57.0,
+        "w": 27.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Retrieval Tools",
+        "x": 45.0,
+        "y": 24.0,
+        "w": 15.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Accuracy",
+        "x": 61.0,
+        "y": 24.0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Avg # Search",
+        "x": 71.0,
+        "y": 24.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "photo-018.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-018.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668427.251028,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/opencv-adaptive",
+    "text": "In Practice: A DeepResearch Example\ntooling has an outsized your performance. Even on a simple A bad tool will collapse able to reach the right DeepResearch task, impact. As tool quality improves, LLMs are increasingly Lexical Lexical (PiSerini BM25) Lexical (Unoptimised BM25) Semantic Search Qwen3-Embed-8B Mixedbread Search Retrieval Tools Accuracy 73.2 59.8 72.0 89.8 Avg # Search 13.4 25.1 19.7 10.2\nBut cost continues to rapidly drop as quality answer... plateaus. Hybrid Harnesses Lexical + Mixedbread Search Lexical +Qwen3-Embed-8B 90.2 85.7 12.5 8.6\n（f c wCPs.w t00 Rrd Qus.Avg.0/3 rns 12",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 677.62
+  },
+  "ocr_source": "rapidocr-live/center-82/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "In Practice: A DeepResearch Example\ntooling has an outsized your performance. Even on a simple A bad tool will collapse able to reach the right DeepResearch task, impact. As tool quality improves, LLMs are increasingly Lexical Lexical (PiSerini BM25) Lexical (Unoptimised BM25) Semantic Search Qwen3-Embed-8B Mixedbread Search Retrieval Tools Accuracy 73.2 59.8 72.0 89.8 Avg # Search 13.4 25.1 19.7 10.2\nBut cost continues to rapidly drop as quality answer... plateaus. Hybrid Harnesses Lexical + Mixedbread Search Lexical +Qwen3-Embed-8B 90.2 85.7 12.5 8.6\n（f c wCPs.w t00 Rrd Qus.Avg.0/3 rns 12",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -28,6 +28,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-peter-werry-how-to-generate-mergeable-code-with-a-context-engine|How to generate mergeable code with a context engine]]
 
 ### Slide And Transcript Signals
-- `youtube-5ID22ACI7IM` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-5ID22ACI7IM`: context, callers, cover, today, remember, built, original, intent.
+- `youtube-5ID22ACI7IM` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-5ID22ACI7IM`: connect, code, logs, docs, tickets, gives, plausible, output.
 - Evidence links for `youtube-5ID22ACI7IM`: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]

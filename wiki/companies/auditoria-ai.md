@@ -5,7 +5,6 @@ aliases: ["Auditoria AI"]
 website: "https://www.auditoria.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Auditoria AI
 
 ## What It Is

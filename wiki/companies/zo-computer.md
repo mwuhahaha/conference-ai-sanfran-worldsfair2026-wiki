@@ -5,7 +5,6 @@ aliases: ["Zo Computer"]
 website: "https://www.zo.computer/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Zo Computer
 
 ## What It Is

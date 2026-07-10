@@ -5,7 +5,6 @@ aliases: ["Weights & Biases by CoreWeave"]
 website: "https://wandb.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # Weights & Biases by CoreWeave
 
 ## What It Is
@@ -46,7 +45,7 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-zubin-aysola-aria-how-we-built-autoresearch-with-autoresearch|ARIA, how we built autoresearch with autoresearch]]
 
 ### Slide And Transcript Signals
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
-- Slide-derived themes for `youtube-4sX_He5c4sI`: examples, tools, lots, many, tool, search, immediate.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
 - Evidence links for `youtube-4sX_He5c4sI`: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]

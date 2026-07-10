@@ -5,7 +5,6 @@ aliases: ["AI21 Labs"]
 website: "https://www.ai21.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # AI21 Labs
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022|Stop Chunking Like It's 2022]]
 
 ### Slide And Transcript Signals
-- `youtube-Ywl4LsvHKzU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, united, states, mother, surname, name.
+- `youtube-Ywl4LsvHKzU` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, name, answers, assuming, answer, lies.
 - Evidence links for `youtube-Ywl4LsvHKzU`: [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]

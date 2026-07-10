@@ -61,26 +61,26 @@ This section is generated from all currently linked source material for the arti
 - `youtube-HT4l0DeP69I` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
 - Evidence links for `youtube-HT4l0DeP69I`: [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
 - Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-HT4l0DeP69I`
-- Slide deck: [[youtube-HT4l0DeP69I-dense-slides|Dense Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]] — 2 visible slide image(s).
+- Slide deck: [[youtube-HT4l0DeP69I-dense-slides|Dense Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]] — 2 visible slide image(s); 2 HTML recreation(s).
 ![[assets/dense-slides/HT4l0DeP69I/slide-001.jpg]]
 ![[assets/dense-slides/HT4l0DeP69I/slide-002.jpg]]
 - Additional slide evidence: [[youtube-HT4l0DeP69I-slides|Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]], [[youtube-HT4l0DeP69I-reconstructed-slides|Reconstructed Slides: Ship it! Building Production Ready Agents — Mike Chambers, AWS]]
 - Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
 - Source video: `youtube-I2cbIws9j10`
-- Slide deck: [[youtube-I2cbIws9j10-dense-slides|Dense Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]] — 12 visible slide image(s).
+- Slide deck: [[youtube-I2cbIws9j10-dense-slides|Dense Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]] — 11 visible slide image(s); 11 HTML recreation(s).
 ![[assets/dense-slides/I2cbIws9j10/slide-001.jpg]]
 ![[assets/dense-slides/I2cbIws9j10/slide-002.jpg]]
 ![[assets/dense-slides/I2cbIws9j10/slide-003.jpg]]
 - Additional slide evidence: [[youtube-I2cbIws9j10-slides|Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]]
-- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

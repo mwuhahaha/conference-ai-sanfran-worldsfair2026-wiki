@@ -5,7 +5,6 @@ aliases: ["The Carlyle Group"]
 website: "https://thecarlylegroup.co/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # The Carlyle Group
 
 ## What It Is

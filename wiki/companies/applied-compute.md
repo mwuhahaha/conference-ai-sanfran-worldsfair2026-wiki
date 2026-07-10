@@ -5,7 +5,6 @@ aliases: ["Applied Compute"]
 website: "https://appliedcompute.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Applied Compute
 
 ## What It Is

@@ -157,10 +157,117 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale|AI Evals Platform for Cross-Functional Teams at Scale]]
 
 ### Slide And Transcript Signals
-- `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals
+- `youtube-Xfl50508LZM` — 22,591 transcript words; 6 slide-derived text signals
 - Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
-- Slide-derived themes for `youtube-Xfl50508LZM`: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
+- Slide-derived themes for `youtube-Xfl50508LZM`: phoenix, prompt, settings, general, detect, regressions, change, compare.
 - Evidence links for `youtube-Xfl50508LZM`: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
 - `youtube-C_GG5g38vLU` — 8 slide-derived text signals
 - Slide-derived themes for `youtube-C_GG5g38vLU`: model, engineering, future, console, stories, tool, registry, story.
 - Evidence links for `youtube-C_GG5g38vLU`: [[youtube-C_GG5g38vLU]], [[youtube-C_GG5g38vLU-slides]], [[youtube-C_GG5g38vLU-dense-slides]], [[youtube-C_GG5g38vLU-reconstructed-slides]]
+## Evidence Table
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 53 | Related pages outside the main evidence categories. |
+| resources | 19 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 13 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-30-maor-bril-evaling-video-slop]]
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]]
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201]]
+- [[2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior]]
+- [[2026-06-29-tejas-kumar-evals-in-ai-a-deep-dive]]
+- [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline]]
+
+### Resources
+- [[youtube-Xfl50508LZM]]
+- [[youtube-bk0TmxoZlUY]]
+- [[youtube-iNkFlCiij0U]]
+- [[youtube-vljxQZfJ9wY]]
+- [[youtube-pSto5YaNGUo]]
+- [[youtube-hqHC6Z_lXyo]]
+
+### Slides
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-1IdzkRVmWAA-slides]]
+- [[youtube-CLttOU7n6sI-slides]]
+- [[youtube-Rx8f05JI_WA-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+
+### Transcripts
+- [[youtube-Xfl50508LZM-transcript]]
+
+### Tools
+- [[braintrust]]
+- [[arize]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-30-maor-bril-evaling-video-slop]]
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]]
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201]]
+- [[2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior]]
+- [[2026-06-29-tejas-kumar-evals-in-ai-a-deep-dive]]
+- [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline]]
+
+### Resources
+- [[youtube-Xfl50508LZM]]
+- [[youtube-bk0TmxoZlUY]]
+- [[youtube-iNkFlCiij0U]]
+- [[youtube-vljxQZfJ9wY]]
+- [[youtube-pSto5YaNGUo]]
+- [[youtube-hqHC6Z_lXyo]]
+
+### Slides
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-1IdzkRVmWAA-slides]]
+- [[youtube-CLttOU7n6sI-slides]]
+- [[youtube-Rx8f05JI_WA-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+
+### Transcripts
+- [[youtube-Xfl50508LZM-transcript]]
+
+### Tools
+- [[braintrust]]
+- [[arize]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-30-maor-bril-evaling-video-slop]]
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]]
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201]]
+- [[2026-06-30-chris-souza-model-whisperers-how-evals-and-prompts-shape-agent-behavior]]
+- [[2026-06-29-tejas-kumar-evals-in-ai-a-deep-dive]]
+- [[2026-06-29-wolfram-ravenwolf-from-zero-to-leaderboard-building-an-end-to-end-ai-agent-evaluation-pipeline]]
+
+### Resources
+- [[youtube-Xfl50508LZM]]
+- [[youtube-bk0TmxoZlUY]]
+- [[youtube-iNkFlCiij0U]]
+- [[youtube-vljxQZfJ9wY]]
+- [[youtube-pSto5YaNGUo]]
+- [[youtube-hqHC6Z_lXyo]]
+
+### Slides
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-1IdzkRVmWAA-slides]]
+- [[youtube-CLttOU7n6sI-slides]]
+- [[youtube-Rx8f05JI_WA-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+
+### Transcripts
+- [[youtube-Xfl50508LZM-transcript]]
+
+### Tools
+- [[braintrust]]
+- [[arize]]

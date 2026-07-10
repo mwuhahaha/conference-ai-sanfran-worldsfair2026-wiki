@@ -29,6 +29,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-tina-manghnani-design-multi-agent-systems-that-actually-work|Design multi-agent systems that actually work]]
 
 ### Slide And Transcript Signals
-- `youtube-JhJKgRAmfIU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
+- `youtube-JhJKgRAmfIU` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-JhJKgRAmfIU`: does, handle, loot, bank.
 - Evidence links for `youtube-JhJKgRAmfIU`: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]

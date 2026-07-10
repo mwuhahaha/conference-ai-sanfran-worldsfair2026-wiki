@@ -5,7 +5,6 @@ aliases: ["AlixPartners"]
 website: "https://www.alixpartners.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # AlixPartners
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-kevin-madura-it-s-tokens-all-the-way-down-how-rlms-are-different|'It’s Tokens All The Way Down: How RLMs are Different']]
 
 ### Slide And Transcript Signals
-- `youtube--cKUW6n8hBU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube--cKUW6n8hBU`: allows, structured, prompts, program, declarative, framework, modular, software.
+- `youtube--cKUW6n8hBU` — 8 slide-derived text signals
+- Slide-derived themes for `youtube--cKUW6n8hBU`: document, declarative, framework, modular, software, cases, lighting, round.
 - Evidence links for `youtube--cKUW6n8hBU`: [[youtube--cKUW6n8hBU]], [[youtube--cKUW6n8hBU-slides]], [[youtube--cKUW6n8hBU-dense-slides]], [[youtube--cKUW6n8hBU-reconstructed-slides]]

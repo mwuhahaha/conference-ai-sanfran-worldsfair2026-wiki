@@ -85,16 +85,16 @@ This synthesis uses the official schedule plus cached related-video transcripts.
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 1 slide-derived text signals
 - Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: engineering, future.
 - Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-o-zkvb0iFDQ`
-- Slide deck: [[youtube-o-zkvb0iFDQ-dense-slides|Dense Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]] — 1 visible slide image(s).
+- Slide deck: [[youtube-o-zkvb0iFDQ-dense-slides|Dense Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/o-zkvb0iFDQ/slide-001.jpg]]
 - Additional slide evidence: [[youtube-o-zkvb0iFDQ-slides|Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]], [[youtube-o-zkvb0iFDQ-reconstructed-slides|Reconstructed Slides: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]]
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: engineering, future.

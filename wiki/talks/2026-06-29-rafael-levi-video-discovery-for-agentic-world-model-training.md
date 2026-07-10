@@ -44,17 +44,14 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-zTZ0qunQXnM` — 4 slide-derived text signals
-- Slide-derived themes for `youtube-zTZ0qunQXnM`: engineering, future, walmart, scraper, keyword, search, path, response.
+- `youtube-zTZ0qunQXnM` — source page linked
 - Evidence links for `youtube-zTZ0qunQXnM`: [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-zTZ0qunQXnM`
-- Slide deck: [[youtube-zTZ0qunQXnM-reconstructed-slides|Reconstructed Slides: From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data]] — 10 visible slide image(s).
-![[assets/reconstructed-slides/zTZ0qunQXnM/slide-001.jpg]]
-![[assets/reconstructed-slides/zTZ0qunQXnM/slide-002.jpg]]
-![[assets/reconstructed-slides/zTZ0qunQXnM/slide-003.jpg]]
+- Slide deck: [[youtube-zTZ0qunQXnM-reconstructed-slides|Reconstructed Slides: From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data]] — 2 visible slide image(s); 2 HTML recreation(s).
+![[assets/reconstructed-slides/zTZ0qunQXnM/slide-007.jpg]]
+![[assets/reconstructed-slides/zTZ0qunQXnM/slide-008.jpg]]
 - Additional slide evidence: [[youtube-zTZ0qunQXnM-slides|Slides: From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data]]
-- Slide-derived themes for `youtube-zTZ0qunQXnM`: engineering, future, walmart, scraper, keyword, search, path, response.

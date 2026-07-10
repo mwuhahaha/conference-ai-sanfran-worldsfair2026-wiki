@@ -35,6 +35,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-devansh-tandon-open-q-and-a-llm-recsys|Open Q&A: LLM Recsys]]
 
 ### Slide And Transcript Signals
-- `youtube-LxQsQ3vZDqo` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-LxQsQ3vZDqo`: gemini, youtube, tasks, recommendations, drive, majority, home, shorts.
+- `youtube-LxQsQ3vZDqo` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-LxQsQ3vZDqo`: youtube, home, shorts, search, ranking, experiments, base, gemini.
 - Evidence links for `youtube-LxQsQ3vZDqo`: [[youtube-LxQsQ3vZDqo]], [[youtube-LxQsQ3vZDqo-slides]], [[youtube-LxQsQ3vZDqo-dense-slides]], [[youtube-LxQsQ3vZDqo-reconstructed-slides]]

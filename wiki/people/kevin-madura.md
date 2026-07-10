@@ -33,6 +33,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-kevin-madura-it-s-tokens-all-the-way-down-how-rlms-are-different|'It’s Tokens All The Way Down: How RLMs are Different']]
 
 ### Slide And Transcript Signals
-- `youtube--cKUW6n8hBU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube--cKUW6n8hBU`: allows, structured, prompts, program, declarative, framework, modular, software.
+- `youtube--cKUW6n8hBU` — 8 slide-derived text signals
+- Slide-derived themes for `youtube--cKUW6n8hBU`: document, declarative, framework, modular, software, cases, lighting, round.
 - Evidence links for `youtube--cKUW6n8hBU`: [[youtube--cKUW6n8hBU]], [[youtube--cKUW6n8hBU-slides]], [[youtube--cKUW6n8hBU-dense-slides]], [[youtube--cKUW6n8hBU-reconstructed-slides]]

@@ -5,7 +5,6 @@ aliases: ["Qdrant"]
 website: "https://qdrant.tech"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Qdrant
 
 ## What It Is

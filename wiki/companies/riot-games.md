@@ -5,7 +5,6 @@ aliases: ["Riot Games"]
 website: "https://www.riotgames.com/en"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Riot Games
 
 ## What It Is

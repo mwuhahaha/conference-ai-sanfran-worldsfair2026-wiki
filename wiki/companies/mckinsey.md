@@ -5,7 +5,6 @@ aliases: ["McKinsey"]
 website: "https://www.mckinsey.org/home"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # McKinsey
 
 ## What It Is
@@ -43,5 +42,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-SZStlIhyTCY` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-SZStlIhyTCY`: agile, software, moving, away, next, november, technologies, given.
+- Slide-derived themes for `youtube-SZStlIhyTCY`: agile, methodologies, software, tech, breakthrough, mainframes, mobile, cloud.
 - Evidence links for `youtube-SZStlIhyTCY`: [[youtube-SZStlIhyTCY]], [[youtube-SZStlIhyTCY-slides]], [[youtube-SZStlIhyTCY-reconstructed-slides]]

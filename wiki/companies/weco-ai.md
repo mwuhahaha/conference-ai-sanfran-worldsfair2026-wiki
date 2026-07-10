@@ -5,7 +5,6 @@ aliases: ["Weco AI"]
 website: "https://www.weco.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Weco AI
 
 ## What It Is

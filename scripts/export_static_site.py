@@ -16,7 +16,22 @@ WIKI = ROOT / "wiki"
 DIST = ROOT / "dist"
 SITE_TITLE = "AI Engineer World's Fair 2026 Wiki"
 SITE_SUBTITLE = "Standalone conference intelligence wiki for AI Engineer World's Fair 2026."
-PREFERRED_CATEGORIES = ["talks", "slides", "people", "companies", "topics", "highlights", "resources", "transcripts", "events"]
+PREFERRED_CATEGORIES = [
+    "talks",
+    "slides",
+    "people",
+    "companies",
+    "topics",
+    "highlights",
+    "questions",
+    "harnesses",
+    "playbooks",
+    "evaluations",
+    "policies",
+    "resources",
+    "transcripts",
+    "events",
+]
 
 
 @dataclass

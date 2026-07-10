@@ -44,13 +44,13 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects|Agents' next frontier: agent-to-agent and network effects]]
 
 ### Slide And Transcript Signals
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 1 slide-derived text signals
 - Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: engineering, future.
 - Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
-- `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals
-- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.
+- `youtube-ShuJ_CN6zr4` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready.
 - Evidence links for `youtube-ShuJ_CN6zr4`: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
-- `youtube-rgjF5o2Qjsc` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, bash, reality, show, engineering, future.
+- `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, companies, pushing, move, faster, offline.
 - Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]

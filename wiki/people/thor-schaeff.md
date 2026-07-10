@@ -41,6 +41,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-4|Build realtime multimodal agents with Gemini Live (continued 4)]]
 
 ### Slide And Transcript Signals
-- `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
+- `youtube-Bc6Ojl2XS1w` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: engineering, future.
 - Evidence links for `youtube-Bc6Ojl2XS1w`: [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]

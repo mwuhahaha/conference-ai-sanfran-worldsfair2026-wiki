@@ -29,6 +29,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-ben-kus-the-half-life-of-agent-infrastructure|The Half Life of Agent Infrastructure]]
 
 ### Slide And Transcript Signals
-- `youtube-12v5S1n1eOY` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-12v5S1n1eOY`: high, speed, fully, integrated, generative, starting, fortune, hereof.
+- `youtube-12v5S1n1eOY` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-12v5S1n1eOY`: fortune, fully, integrated, generative, starting.
 - Evidence links for `youtube-12v5S1n1eOY`: [[youtube-12v5S1n1eOY]], [[youtube-12v5S1n1eOY-slides]], [[youtube-12v5S1n1eOY-dense-slides]], [[youtube-12v5S1n1eOY-reconstructed-slides]]

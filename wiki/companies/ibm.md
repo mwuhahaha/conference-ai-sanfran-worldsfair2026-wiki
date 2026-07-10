@@ -5,7 +5,6 @@ aliases: ["IBM"]
 website: "https://www.ibm.com/us-en"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # IBM
 
 ## What It Is

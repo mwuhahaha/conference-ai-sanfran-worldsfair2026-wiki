@@ -5,7 +5,6 @@ aliases: ["Meticulous"]
 website: "https://www.meticulous.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Meticulous
 
 ## What It Is

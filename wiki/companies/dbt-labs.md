@@ -5,7 +5,6 @@ aliases: ["dbt Labs"]
 website: "https://dbt.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # dbt Labs
 
 ## What It Is

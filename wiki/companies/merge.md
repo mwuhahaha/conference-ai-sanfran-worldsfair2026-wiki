@@ -5,7 +5,6 @@ aliases: ["Merge"]
 website: "https://merge.io/blog"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Merge
 
 ## What It Is

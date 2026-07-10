@@ -106,13 +106,107 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-30-christopher-manning-building-the-simulation-infrastructure-for-practical-world-model-use|Building the simulation infrastructure for practical world model use]]
 
 ### Slide And Transcript Signals
-- `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals
-- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.
+- `youtube-ShuJ_CN6zr4` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready.
 - Evidence links for `youtube-ShuJ_CN6zr4`: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
 - `youtube-HT4l0DeP69I` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-HT4l0DeP69I`: mike, chambers, advocate, engineering, generative, real, world, applications.
 - Evidence links for `youtube-HT4l0DeP69I`: [[youtube-HT4l0DeP69I]], [[youtube-HT4l0DeP69I-slides]], [[youtube-HT4l0DeP69I-dense-slides]], [[youtube-HT4l0DeP69I-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
 - Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
+## Evidence Table
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 29 | Related pages outside the main evidence categories. |
+| resources | 7 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 9 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 14 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-session-the-software-factory]]
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
+- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]]
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]]
+
+### Resources
+- [[youtube-qdZzND79mcg]]
+- [[youtube-pmoDeA3RBZY]]
+- [[youtube-xUnRQ9vLXxo]]
+- [[youtube-htM02KMNZnk]]
+- [[youtube-ShuJ_CN6zr4]]
+- [[youtube-HT4l0DeP69I]]
+
+### Slides
+- [[youtube-htM02KMNZnk-slides]]
+- [[youtube-ShuJ_CN6zr4-slides]]
+- [[youtube-ShuJ_CN6zr4-dense-slides]]
+- [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+- [[youtube-HT4l0DeP69I-slides]]
+- [[youtube-HT4l0DeP69I-dense-slides]]
+
+### Transcripts
+- [[youtube-I2cbIws9j10-transcript]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-session-the-software-factory]]
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
+- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]]
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]]
+
+### Resources
+- [[youtube-qdZzND79mcg]]
+- [[youtube-pmoDeA3RBZY]]
+- [[youtube-xUnRQ9vLXxo]]
+- [[youtube-htM02KMNZnk]]
+- [[youtube-ShuJ_CN6zr4]]
+- [[youtube-HT4l0DeP69I]]
+
+### Slides
+- [[youtube-htM02KMNZnk-slides]]
+- [[youtube-ShuJ_CN6zr4-slides]]
+- [[youtube-ShuJ_CN6zr4-dense-slides]]
+- [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+- [[youtube-HT4l0DeP69I-slides]]
+- [[youtube-HT4l0DeP69I-dense-slides]]
+
+### Transcripts
+- [[youtube-I2cbIws9j10-transcript]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-session-the-software-factory]]
+- [[2026-06-29-shane-wolf-the-best-sdlc-is-the-one-you-build-yourself-why-orchestration-changes-everything]]
+- [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]]
+- [[2026-07-01-ryan-cooke-no-that-s-not-a-software-factory]]
+- [[2026-06-29-tereza-t-kov-rise-of-the-software-factory]]
+- [[2026-06-29-eno-reyes-how-forward-deployed-engineering-is-done-at-factory]]
+
+### Resources
+- [[youtube-qdZzND79mcg]]
+- [[youtube-pmoDeA3RBZY]]
+- [[youtube-xUnRQ9vLXxo]]
+- [[youtube-htM02KMNZnk]]
+- [[youtube-ShuJ_CN6zr4]]
+- [[youtube-HT4l0DeP69I]]
+
+### Slides
+- [[youtube-htM02KMNZnk-slides]]
+- [[youtube-ShuJ_CN6zr4-slides]]
+- [[youtube-ShuJ_CN6zr4-dense-slides]]
+- [[youtube-ShuJ_CN6zr4-reconstructed-slides]]
+- [[youtube-HT4l0DeP69I-slides]]
+- [[youtube-HT4l0DeP69I-dense-slides]]
+
+### Transcripts
+- [[youtube-I2cbIws9j10-transcript]]

@@ -52,19 +52,19 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-Lc8zRh9muoY` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, identical, determinism, never, failed, luck, reproducing.
+- `youtube-Lc8zRh9muoY` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-Lc8zRh9muoY`: determinism, batch, system, depends, never, record, replay, network.
 - Evidence links for `youtube-Lc8zRh9muoY`: [[youtube-Lc8zRh9muoY]], [[youtube-Lc8zRh9muoY-slides]], [[youtube-Lc8zRh9muoY-dense-slides]], [[youtube-Lc8zRh9muoY-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-Lc8zRh9muoY`
-- Slide deck: [[youtube-Lc8zRh9muoY-dense-slides|Dense Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]] — 6 visible slide image(s).
+- Slide deck: [[youtube-Lc8zRh9muoY-dense-slides|Dense Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]] — 5 visible slide image(s); 5 HTML recreation(s).
 ![[assets/dense-slides/Lc8zRh9muoY/slide-001.jpg]]
 ![[assets/dense-slides/Lc8zRh9muoY/slide-002.jpg]]
 ![[assets/dense-slides/Lc8zRh9muoY/slide-003.jpg]]
 - Additional slide evidence: [[youtube-Lc8zRh9muoY-slides|Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]], [[youtube-Lc8zRh9muoY-reconstructed-slides|Reconstructed Slides: Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft]]
-- Slide-derived themes for `youtube-Lc8zRh9muoY`: record, prod, identical, determinism, never, failed, luck, reproducing.
+- Slide-derived themes for `youtube-Lc8zRh9muoY`: determinism, batch, system, depends, never, record, replay, network.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

@@ -5,7 +5,6 @@ aliases: ["Together AI"]
 website: "https://www.together.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Together AI
 
 ## What It Is
@@ -49,9 +48,9 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis|The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs]]
 
 ### Slide And Transcript Signals
-- `youtube-lY1iFbDPRlw` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
+- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
 - Evidence links for `youtube-lY1iFbDPRlw`: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 - `youtube-gcseUQJ6Gbg` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, demos, architecture, typical, tech, stack, process, advice.
+- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, agenda, introduction, together, demos, architecture, typical, tech.
 - Evidence links for `youtube-gcseUQJ6Gbg`: [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]

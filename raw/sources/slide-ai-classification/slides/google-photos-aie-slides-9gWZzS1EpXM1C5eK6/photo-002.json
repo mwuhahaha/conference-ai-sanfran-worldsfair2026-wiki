@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Parallelism techniques\nTensor parallelism\nData parallelism\nPipeline parallelism\nExpert parallelism\nContext parallelism",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark gray",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Parallelism techniques",
+        "x": 18.0,
+        "y": 18.0,
+        "w": 40.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Tensor parallelism\nData parallelism\nPipeline parallelism\nExpert parallelism\nContext parallelism",
+        "x": 18.0,
+        "y": 30.0,
+        "w": 62.0,
+        "h": 50.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-002.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667818.0139515,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Parallelism techniques\nTensor parallelism\nData parallelism\nPipeline parallelism\nExpert parallelism\nContext parallelism",
+  "advanced_ocr": {}
+}

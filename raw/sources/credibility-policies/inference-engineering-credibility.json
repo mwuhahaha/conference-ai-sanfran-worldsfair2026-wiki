@@ -1,0 +1,47 @@
+{
+  "slug": "inference-engineering-credibility",
+  "title": "Inference Engineering Credibility",
+  "topic": "inference-engineering",
+  "useCase": "Rank people or sources for inference engines, routing, latency, GPU utilization, and model-serving operations.",
+  "version": "2026-07-10.1",
+  "viewSignalRole": "Low unless evaluating public education reach. Systems evidence, benchmarks, and operating scale dominate.",
+  "weights": {
+    "topic_fit": 20,
+    "systems_expertise": 30,
+    "production_scale": 20,
+    "benchmark_or_paper": 15,
+    "operational_signal": 10,
+    "public_attention": 5
+  },
+  "weightsTotal": 100,
+  "evalFixtures": [
+    {
+      "policy": "inference-engineering-credibility",
+      "name": "Charles Frye",
+      "expectedMin": 82,
+      "why": "High exemplar for explaining inference engines from first principles with strong technical depth.",
+      "signals": {
+        "topic_fit": 0.95,
+        "systems_expertise": 0.9,
+        "production_scale": 0.75,
+        "benchmark_or_paper": 0.85,
+        "operational_signal": 0.85,
+        "public_attention": 0.75
+      }
+    },
+    {
+      "policy": "inference-engineering-credibility",
+      "name": "Ion Stoica",
+      "expectedMin": 84,
+      "why": "External calibration exemplar for distributed systems and AI infrastructure; should score high even when the specific question is not about fame.",
+      "signals": {
+        "topic_fit": 0.85,
+        "systems_expertise": 0.98,
+        "production_scale": 0.95,
+        "benchmark_or_paper": 0.95,
+        "operational_signal": 0.9,
+        "public_attention": 0.8
+      }
+    }
+  ]
+}

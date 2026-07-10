@@ -5,7 +5,6 @@ aliases: ["Airbyte"]
 website: "https://airbyte.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Airbyte
 
 ## What It Is

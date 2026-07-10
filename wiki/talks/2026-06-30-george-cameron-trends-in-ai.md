@@ -52,17 +52,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-sRpqPgKeXNk` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-sRpqPgKeXNk`: analysis, artificial, intelligence, index, tokens, models, language, output.
+- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
 - Evidence links for `youtube-sRpqPgKeXNk`: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-sRpqPgKeXNk`
-- Slide deck: [[youtube-sRpqPgKeXNk-dense-slides|Dense Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]] — 6 visible slide image(s).
+- Slide deck: [[youtube-sRpqPgKeXNk-dense-slides|Dense Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]] — 6 visible slide image(s); 6 HTML recreation(s).
 ![[assets/dense-slides/sRpqPgKeXNk/slide-001.jpg]]
 ![[assets/dense-slides/sRpqPgKeXNk/slide-002.jpg]]
 ![[assets/dense-slides/sRpqPgKeXNk/slide-003.jpg]]
 - Additional slide evidence: [[youtube-sRpqPgKeXNk-slides|Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]], [[youtube-sRpqPgKeXNk-reconstructed-slides|Reconstructed Slides: Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]]
-- Slide-derived themes for `youtube-sRpqPgKeXNk`: analysis, artificial, intelligence, index, tokens, models, language, output.
+- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.

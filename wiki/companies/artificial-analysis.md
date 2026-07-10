@@ -5,7 +5,6 @@ aliases: ["Artificial Analysis"]
 website: "https://artificialanalysis.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Artificial Analysis
 
 ## What It Is
@@ -41,6 +40,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-george-cameron-trends-in-ai|Trends in AI]]
 
 ### Slide And Transcript Signals
-- `youtube-sRpqPgKeXNk` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-sRpqPgKeXNk`: analysis, artificial, intelligence, index, tokens, models, language, output.
+- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
 - Evidence links for `youtube-sRpqPgKeXNk`: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]

@@ -5,7 +5,6 @@ aliases: ["Salesforce"]
 website: "https://www.salesforce.com/artificial-intelligence/?bc=DB"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Salesforce
 
 ## What It Is

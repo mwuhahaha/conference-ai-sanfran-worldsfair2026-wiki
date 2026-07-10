@@ -5,7 +5,6 @@ aliases: ["Intuit"]
 website: "https://www.intuit.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Intuit
 
 ## What It Is

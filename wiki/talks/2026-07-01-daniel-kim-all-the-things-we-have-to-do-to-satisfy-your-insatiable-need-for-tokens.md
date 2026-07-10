@@ -52,19 +52,19 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-tzRvcTEapzo` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
+- `youtube-tzRvcTEapzo` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
 - Evidence links for `youtube-tzRvcTEapzo`: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-tzRvcTEapzo`
-- Slide deck: [[youtube-tzRvcTEapzo-dense-slides|Dense Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]] — 5 visible slide image(s).
+- Slide deck: [[youtube-tzRvcTEapzo-dense-slides|Dense Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]] — 5 visible slide image(s); 5 HTML recreation(s).
 ![[assets/dense-slides/tzRvcTEapzo/slide-001.jpg]]
 ![[assets/dense-slides/tzRvcTEapzo/slide-002.jpg]]
 ![[assets/dense-slides/tzRvcTEapzo/slide-003.jpg]]
 - Additional slide evidence: [[youtube-tzRvcTEapzo-slides|Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]], [[youtube-tzRvcTEapzo-reconstructed-slides|Reconstructed Slides: From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva]]
-- Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
+- Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

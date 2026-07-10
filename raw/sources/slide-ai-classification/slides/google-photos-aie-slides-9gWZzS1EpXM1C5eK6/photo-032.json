@@ -1,0 +1,74 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RUNG2·REAL Demazon -trusted click a Js click is a function\nrung2 add to cart.py\nbox = iframe_coord('#add-to-cart') # SENSE #[RUNG 2] real, trusted click·Input.dispatchMouseEvent\nassert cart ==1 # VERIFY #ACT -trusted native pipeline Input.dispatchMouseEvent（box) #/ ACCEPTED #event.isTrusted = false el.dispatchEvent(evt) # REJECTED el.click() #REJECTED demazon.com Whatyou see SWITCH KVM Dual Monitor,USB TESmart2-PortKVMSwitch $26995 InSt SYNTHETIC JSCLICK el.click() Add toCart\ntime step trusted decision\nNo attemptsyet\nthe gate is event.isTrusted. the server log is the X-ray.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code-and-screenshot slide with small text and UI evidence.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#4f5155",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Demazon — trusted click",
+        "x": 28.0,
+        "y": 8.0,
+        "w": 34.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "[RUNG 2] real, trusted click · Input.dispatchMouseEvent\nbox = iframe_coord('#add-to-cart')",
+        "x": 8.0,
+        "y": 18.0,
+        "w": 46.0,
+        "h": 34.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "What you see — the browser",
+        "x": 60.0,
+        "y": 42.0,
+        "w": 24.0,
+        "h": 4.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "What the server sees — the event log",
+        "x": 60.0,
+        "y": 74.0,
+        "w": 28.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "photo-032.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-032.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669264.9661567,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Demazon — trusted click",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "RUNG2·REAL Demazon -trusted click a Js click is a function\nrung2 add to cart.py\nbox = iframe_coord('#add-to-cart') # SENSE #[RUNG 2] real, trusted click·Input.dispatchMouseEvent\nassert cart ==1 # VERIFY #ACT -trusted native pipeline Input.dispatchMouseEvent（box) #/ ACCEPTED #event.isTrusted = false el.dispatchEvent(evt) # REJECTED el.click() #REJECTED demazon.com Whatyou see SWITCH KVM Dual Monitor,USB TESmart2-PortKVMSwitch $26995 InSt SYNTHETIC JSCLICK el.click() Add toCart\ntime step trusted decision\nNo attemptsyet\nthe gate is event.isTrusted. the server log is the X-ray.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 760.4
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "RUNG2·REAL Demazon -trusted click a Js click is a function\nrung2 add to cart.py\nbox = iframe_coord('#add-to-cart') # SENSE #[RUNG 2] real, trusted click·Input.dispatchMouseEvent\nassert cart ==1 # VERIFY #ACT -trusted native pipeline Input.dispatchMouseEvent（box) #/ ACCEPTED #event.isTrusted = false el.dispatchEvent(evt) # REJECTED el.click() #REJECTED demazon.com Whatyou see SWITCH KVM Dual Monitor,USB TESmart2-PortKVMSwitch $26995 InSt SYNTHETIC JSCLICK el.click() Add toCart\ntime step trusted decision\nNo attemptsyet\nthe gate is event.isTrusted. the server log is the X-ray.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

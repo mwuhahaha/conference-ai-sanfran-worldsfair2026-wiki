@@ -1,0 +1,58 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Using the NSight Systems/Torch Profilers (CUPTI)\nJIA 1315元 133.5 125 1350 120 1 13783734 +1.24.5 0\nCUA(000D0020-A\nHOC\nNOCL\n16\nO2AhR002200030-N Yrs\n64sangncedue_090.o1oo Yh（187) COL D6\nCUDAHW(0002C010-\nD.10 NCCL Crech ） 1、、、\nAS\nNCCL\nModal Tedo(9n） Stra",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense small text and screenshot content are better suited for OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark brown-gray",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Using the NSight Systems/Torch Profilers (CUPTI)",
+        "x": 16.0,
+        "y": 15.0,
+        "w": 74.0,
+        "h": 11.0
+      },
+      {
+        "role": "logo",
+        "text": "Modal",
+        "x": 7.0,
+        "y": 90.0,
+        "w": 10.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "slide-003.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-003.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667818.014166,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Using the NSight Systems/Torch Profilers (CUPTI)",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Using the NSight Systems/Torch Profilers (CUPTI)\nJIA 1315元 133.5 125 1350 120 1 13783734 +1.24.5 0\nCUA(000D0020-A\nHOC\nNOCL\n16\nO2AhR002200030-N Yrs\n64sangncedue_090.o1oo Yh（187) COL D6\nCUDAHW(0002C010-\nD.10 NCCL Crech ） 1、、、\nAS\nNCCL\nModal Tedo(9n） Stra",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 341.4
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Using the NSight Systems/Torch Profilers (CUPTI)\nJIA 1315元 133.5 125 1350 120 1 13783734 +1.24.5 0\nCUA(000D0020-A\nHOC\nNOCL\n16\nO2AhR002200030-N Yrs\n64sangncedue_090.o1oo Yh（187) COL D6\nCUDAHW(0002C010-\nD.10 NCCL Crech ） 1、、、\nAS\nNCCL\nModal Tedo(9n） Stra",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

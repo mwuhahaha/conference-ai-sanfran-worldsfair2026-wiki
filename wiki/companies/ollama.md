@@ -5,7 +5,6 @@ aliases: ["Ollama"]
 website: "https://ollama.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Ollama
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-chris-alexiuk-compression-at-the-edge|Compression at the Edge]]
 
 ### Slide And Transcript Signals
-- `youtube-OV56RddyFuU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
+- `youtube-OV56RddyFuU` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
 - Evidence links for `youtube-OV56RddyFuU`: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]

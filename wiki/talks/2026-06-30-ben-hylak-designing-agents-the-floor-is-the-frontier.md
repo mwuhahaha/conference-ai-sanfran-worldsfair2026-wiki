@@ -52,16 +52,16 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-5nOLb27hQ5w` — 5 slide-derived text signals
-- Slide-derived themes for `youtube-5nOLb27hQ5w`: fair, dawn, focused, understand, wees, requests, bits, designer.
+- Slide-derived themes for `youtube-5nOLb27hQ5w`: customer, project, knowledge, content, below, pricing, plans, contains.
 - Evidence links for `youtube-5nOLb27hQ5w`: [[youtube-5nOLb27hQ5w]], [[youtube-5nOLb27hQ5w-slides]], [[youtube-5nOLb27hQ5w-dense-slides]], [[youtube-5nOLb27hQ5w-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-5nOLb27hQ5w`
-- Slide deck: [[youtube-5nOLb27hQ5w-dense-slides|Dense Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak]] — 5 visible slide image(s).
+- Slide deck: [[youtube-5nOLb27hQ5w-dense-slides|Dense Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak]] — 5 visible slide image(s); 5 HTML recreation(s).
 ![[assets/dense-slides/5nOLb27hQ5w/slide-001.jpg]]
 ![[assets/dense-slides/5nOLb27hQ5w/slide-002.jpg]]
 ![[assets/dense-slides/5nOLb27hQ5w/slide-003.jpg]]
 - Additional slide evidence: [[youtube-5nOLb27hQ5w-slides|Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak]], [[youtube-5nOLb27hQ5w-reconstructed-slides|Reconstructed Slides: The era of unbounded products: Designing for Multimodal IO: Ben Hylak]]
-- Slide-derived themes for `youtube-5nOLb27hQ5w`: fair, dawn, focused, understand, wees, requests, bits, designer.
+- Slide-derived themes for `youtube-5nOLb27hQ5w`: customer, project, knowledge, content, below, pricing, plans, contains.

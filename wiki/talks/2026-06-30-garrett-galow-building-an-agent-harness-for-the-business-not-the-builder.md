@@ -59,7 +59,6 @@ This section is generated from all currently linked source material for the arti
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-iUWwcG-C8OU`
-- Slide deck: [[youtube-iUWwcG-C8OU-dense-slides|Dense Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS]] — 1 visible slide image(s).
-![[assets/dense-slides/iUWwcG-C8OU/slide-001.jpg]]
+- Slide deck: [[youtube-iUWwcG-C8OU-dense-slides|Dense Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS]] — no readable content slides after AI classification.
 - Additional slide evidence: [[youtube-iUWwcG-C8OU-slides|Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS]], [[youtube-iUWwcG-C8OU-reconstructed-slides|Reconstructed Slides: Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS]]
 - Slide-derived themes for `youtube-iUWwcG-C8OU`: help, today, engineering, future.

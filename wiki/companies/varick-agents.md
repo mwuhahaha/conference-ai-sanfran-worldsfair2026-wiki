@@ -5,7 +5,6 @@ aliases: ["Varick Agents"]
 website: "https://www.varickagents.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Varick Agents
 
 ## What It Is

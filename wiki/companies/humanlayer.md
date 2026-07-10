@@ -5,7 +5,6 @@ aliases: ["HumanLayer"]
 website: "https://www.humanlayer.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # HumanLayer
 
 ## What It Is
@@ -43,6 +42,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]]
 
 ### Slide And Transcript Signals
-- `youtube-rmvDxxNubIg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-rmvDxxNubIg`: vibes, allowed, solving, tasks, code, intentional, compaction, most.
+- `youtube-rmvDxxNubIg` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-rmvDxxNubIg`: code, tasks, vibes, allowed, task, complexity, high, complex.
 - Evidence links for `youtube-rmvDxxNubIg`: [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]

@@ -5,7 +5,6 @@ aliases: ["Tessl"]
 website: "https://tessl.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Tessl
 
 ## What It Is
@@ -43,6 +42,5 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-dru-knox-harness-engineering-the-new-core-skill-for-agentic-developers|Harness Engineering: The New Core Skill for Agentic Developers]]
 
 ### Slide And Transcript Signals
-- `youtube-bSG9wUYaHWU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-bSG9wUYaHWU`: code, context, fetch, retries, user, retry, write, function.
+- `youtube-bSG9wUYaHWU` — source page linked
 - Evidence links for `youtube-bSG9wUYaHWU`: [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]

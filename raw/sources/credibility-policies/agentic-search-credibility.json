@@ -1,0 +1,47 @@
+{
+  "slug": "agentic-search-credibility",
+  "title": "Agentic Search Credibility",
+  "topic": "agentic-search",
+  "useCase": "Rank people or sources for retrieval, search infrastructure, source triage, and research-agent discovery.",
+  "version": "2026-07-10.1",
+  "viewSignalRole": "Contextual. Views matter when the goal is public influence or consumer search behavior; primary retrieval expertise matters more for correctness.",
+  "weights": {
+    "topic_fit": 20,
+    "retrieval_expertise": 25,
+    "primary_research_or_product": 20,
+    "source_quality": 15,
+    "deployment_signal": 10,
+    "public_attention": 10
+  },
+  "weightsTotal": 100,
+  "evalFixtures": [
+    {
+      "policy": "agentic-search-credibility",
+      "name": "Jo Kristian Bergum",
+      "expectedMin": 82,
+      "why": "Known retrieval/search practitioner; a high exemplar when correctness depends on IR fundamentals rather than popularity.",
+      "signals": {
+        "topic_fit": 0.95,
+        "retrieval_expertise": 0.95,
+        "primary_research_or_product": 0.9,
+        "source_quality": 0.9,
+        "deployment_signal": 0.85,
+        "public_attention": 0.55
+      }
+    },
+    {
+      "policy": "agentic-search-credibility",
+      "name": "Han Xiao",
+      "expectedMin": 82,
+      "why": "High exemplar for dense retrieval and search/retrieval systems in the local Worldsfair graph.",
+      "signals": {
+        "topic_fit": 0.95,
+        "retrieval_expertise": 0.95,
+        "primary_research_or_product": 0.9,
+        "source_quality": 0.85,
+        "deployment_signal": 0.8,
+        "public_attention": 0.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Explore,then automate. /THE TWO PHASES\nthese rungs. known-working solution: this exact sequence, on climb rungs until it works - you end holding a run the loop by hand PHASE 1·EXPLORE write it down PHASE 2· AUTOMATE AGENT SKILL- reptays & adapts to UI changes, like a human CoDE-deterministic·fast,-so/run·no agent\nwhen it's extra tricksy = do both,\n→Explore once, automate forever. That's the whole method.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense two-column slide with small code-like text and multiple body blocks.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#666a6d",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "subtitle",
+        "text": "THE TWO PHASES",
+        "x": 10.0,
+        "y": 13.0,
+        "w": 18.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Explore, then automate.",
+        "x": 10.0,
+        "y": 20.0,
+        "w": 36.0,
+        "h": 7.0
+      },
+      {
+        "role": "body",
+        "text": "PHASE 1 · EXPLORE\nrun the loop by hand",
+        "x": 10.0,
+        "y": 35.0,
+        "w": 36.0,
+        "h": 22.0
+      },
+      {
+        "role": "body",
+        "text": "PHASE 2 · AUTOMATE\nwrite it down",
+        "x": 54.0,
+        "y": 35.0,
+        "w": 34.0,
+        "h": 22.0
+      },
+      {
+        "role": "caption",
+        "text": "Explore once, automate forever. That's the whole method.",
+        "x": 10.0,
+        "y": 74.0,
+        "w": 45.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "photo-031.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-031.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669189.6578863,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Explore, then automate.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Explore,then automate. /THE TWO PHASES\nthese rungs. known-working solution: this exact sequence, on climb rungs until it works - you end holding a run the loop by hand PHASE 1·EXPLORE write it down PHASE 2· AUTOMATE AGENT SKILL- reptays & adapts to UI changes, like a human CoDE-deterministic·fast,-so/run·no agent\nwhen it's extra tricksy = do both,\n→Explore once, automate forever. That's the whole method.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 645.4
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Explore,then automate. /THE TWO PHASES\nthese rungs. known-working solution: this exact sequence, on climb rungs until it works - you end holding a run the loop by hand PHASE 1·EXPLORE write it down PHASE 2· AUTOMATE AGENT SKILL- reptays & adapts to UI changes, like a human CoDE-deterministic·fast,-so/run·no agent\nwhen it's extra tricksy = do both,\n→Explore once, automate forever. That's the whole method.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

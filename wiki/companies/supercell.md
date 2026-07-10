@@ -5,7 +5,6 @@ aliases: ["Supercell"]
 website: "https://supercell.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Supercell
 
 ## What It Is

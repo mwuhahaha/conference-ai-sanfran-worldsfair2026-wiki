@@ -27,6 +27,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-remy-guercio-an-ai-future-without-the-lock-in|An AI Future Without the Lock-In]]
 
 ### Slide And Transcript Signals
-- `youtube-BM2JX9hqsVQ` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future, sandbox, permissions, typically, managed, identity, provider.
+- `youtube-BM2JX9hqsVQ` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future.
 - Evidence links for `youtube-BM2JX9hqsVQ`: [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]

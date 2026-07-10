@@ -5,7 +5,6 @@ aliases: ["Unblocked"]
 website: "https://unblocked.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Unblocked
 
 ## What It Is
@@ -50,9 +49,9 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn|Beyond RAG: See a relational context engine reduce token burn]]
 
 ### Slide And Transcript Signals
-- `youtube-5ID22ACI7IM` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-5ID22ACI7IM`: context, callers, cover, today, remember, built, original, intent.
+- `youtube-5ID22ACI7IM` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-5ID22ACI7IM`: connect, code, logs, docs, tickets, gives, plausible, output.
 - Evidence links for `youtube-5ID22ACI7IM`: [[youtube-5ID22ACI7IM]], [[youtube-5ID22ACI7IM-slides]], [[youtube-5ID22ACI7IM-dense-slides]], [[youtube-5ID22ACI7IM-reconstructed-slides]]
-- `youtube-BiG2ssibKGc` — 5 slide-derived text signals
-- Slide-derived themes for `youtube-BiG2ssibKGc`: context, engineering, stop, babysitting, engine, code, future, creating.
+- `youtube-BiG2ssibKGc` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-BiG2ssibKGc`: stop, babysitting, context, engine, code, europe.
 - Evidence links for `youtube-BiG2ssibKGc`: [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]

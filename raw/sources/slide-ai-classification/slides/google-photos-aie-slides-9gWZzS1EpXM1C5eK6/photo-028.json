@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.89,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "A CDP browser is just a meatbag with a mouse.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "dark blue/black slide with illustration",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "A CDP browser is just a meatbag with a mouse.",
+        "x": 28.0,
+        "y": 46.0,
+        "w": 42.0,
+        "h": 12.0
+      },
+      {
+        "role": "caption",
+        "text": "as far as Google, Cloudflare et al. can tell - June 2025",
+        "x": 30.0,
+        "y": 60.0,
+        "w": 36.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Bender Futurama",
+        "x": 64.0,
+        "y": 44.0,
+        "w": 13.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-028.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669005.6100802,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "A CDP browser is just a meatbag with a mouse.",
+  "advanced_ocr": {}
+}

@@ -5,7 +5,6 @@ aliases: ["Coder"]
 website: "https://coder.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Coder
 
 ## What It Is

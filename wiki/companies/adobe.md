@@ -5,7 +5,6 @@ aliases: ["Adobe"]
 website: "https://www.adobe.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Adobe
 
 ## What It Is

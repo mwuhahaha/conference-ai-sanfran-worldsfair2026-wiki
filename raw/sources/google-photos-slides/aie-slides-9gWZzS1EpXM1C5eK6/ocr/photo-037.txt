@@ -1,0 +1,7 @@
+1 a live model of your world that agents can act on. Knowledge System:
+Internal Data
+Slack External Data
+Notion Companies
+Productfeatures Productusage Email Human in the loop Grey Zone Competitors Investors Contacts News
+Signals
+Agent

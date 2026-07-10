@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "title_card",
+  "reject_reason": "",
+  "text": "A meatbag with a mouse.\nTeach an agent CDP and it moves through the web on the very same path you do.\nEverything today came from that one idea.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "Title-card style slide; simple enough to read directly, not worth OCR.",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "#5b5d60",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "A meatbag with a mouse.",
+        "x": 18.0,
+        "y": 39.0,
+        "w": 44.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Teach an agent CDP and it moves through the web on the very same path you do.\nEverything today came from that one idea.",
+        "x": 18.0,
+        "y": 50.0,
+        "w": 48.0,
+        "h": 10.0
+      },
+      {
+        "role": "code",
+        "text": "$ uv tool install chrome-agent",
+        "x": 18.0,
+        "y": 67.0,
+        "w": 30.0,
+        "h": 6.0
+      },
+      {
+        "role": "logo",
+        "text": "@coreygallon",
+        "x": 17.0,
+        "y": 74.0,
+        "w": 22.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "photo-035.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-035.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669384.6201074,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "A meatbag with a mouse.\nTeach an agent CDP and it moves through the web on the very same path you do.\nEverything today came from that one idea.",
+  "advanced_ocr": {}
+}

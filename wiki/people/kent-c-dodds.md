@@ -35,6 +35,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-2|Build the Right Thing: Product Engineering for Software Developers — Part 2]]
 
 ### Slide And Transcript Signals
-- `youtube-EyZiAp0pelw` — 1 slide-derived text signals
-- Slide-derived themes for `youtube-EyZiAp0pelw`: device, location, creative, story, tags, thanks.
+- `youtube-EyZiAp0pelw` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-EyZiAp0pelw`: database, jarvis, compiled, brought, signatures, showed, related, news.
 - Evidence links for `youtube-EyZiAp0pelw`: [[youtube-EyZiAp0pelw]], [[youtube-EyZiAp0pelw-slides]], [[youtube-EyZiAp0pelw-dense-slides]], [[youtube-EyZiAp0pelw-reconstructed-slides]]

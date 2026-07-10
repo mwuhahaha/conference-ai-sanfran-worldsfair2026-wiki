@@ -1,0 +1,6 @@
+A meatbag with a mouse.
+Everything today came from that one idea. Teach an agent CDP and it moves through the web on the very same path you do.
+s uv tool install chrome-agent
+follow me on x @coreygallon
+~/chrome-agent s happy hacking
+Runlayer

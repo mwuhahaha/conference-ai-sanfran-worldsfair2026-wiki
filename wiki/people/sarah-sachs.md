@@ -33,6 +33,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-sarah-sachs-notion-s-token-town|Notion's Token Town]]
 
 ### Slide And Transcript Signals
-- `youtube-6YdPI9YbjbI` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-6YdPI9YbjbI`: across, sign, access, join, ease, acme, uses, stripe.
+- `youtube-6YdPI9YbjbI` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-6YdPI9YbjbI`: create, project.
 - Evidence links for `youtube-6YdPI9YbjbI`: [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]

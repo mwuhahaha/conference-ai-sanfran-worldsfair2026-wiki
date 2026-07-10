@@ -5,7 +5,6 @@ aliases: ["Extend AI"]
 website: "https://www.extend.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Extend AI
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-29-sonar-expo-welcome-speech|Expo Welcome Speech]]
 
 ### Slide And Transcript Signals
-- `youtube-NuePCNMpWGc` — 4 slide-derived text signals
-- Slide-derived themes for `youtube-NuePCNMpWGc`: programming, changed, last, benchmarks, enough, info, demo, stop.
+- `youtube-NuePCNMpWGc` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-NuePCNMpWGc`: software, engineering, changed.
 - Evidence links for `youtube-NuePCNMpWGc`: [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]

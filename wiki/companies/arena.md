@@ -5,7 +5,6 @@ aliases: ["Arena"]
 website: "https://arena.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Arena
 
 ## What It Is

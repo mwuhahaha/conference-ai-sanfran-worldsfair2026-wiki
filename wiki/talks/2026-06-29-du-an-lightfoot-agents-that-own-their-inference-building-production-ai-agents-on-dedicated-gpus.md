@@ -69,18 +69,18 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 2 slide-derived text signals
 - Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
-- Slide-derived themes for `youtube-wFTVEDYVJT0`: plan, execute, actions, achieve, specific, goals, agentic, tamera.
+- Slide-derived themes for `youtube-wFTVEDYVJT0`: safeguards, chat, text, image, welcome, amazon, nova.
 - Evidence links for `youtube-wFTVEDYVJT0`: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-wFTVEDYVJT0`
-- Slide deck: [[youtube-wFTVEDYVJT0-dense-slides|Dense Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]] — 6 visible slide image(s).
+- Slide deck: [[youtube-wFTVEDYVJT0-dense-slides|Dense Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]] — 4 visible slide image(s); 4 HTML recreation(s).
 ![[assets/dense-slides/wFTVEDYVJT0/slide-001.jpg]]
 ![[assets/dense-slides/wFTVEDYVJT0/slide-002.jpg]]
 ![[assets/dense-slides/wFTVEDYVJT0/slide-003.jpg]]
 - Additional slide evidence: [[youtube-wFTVEDYVJT0-slides|Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]], [[youtube-wFTVEDYVJT0-reconstructed-slides|Reconstructed Slides: Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)]]
-- Slide-derived themes for `youtube-wFTVEDYVJT0`: plan, execute, actions, achieve, specific, goals, agentic, tamera.
+- Slide-derived themes for `youtube-wFTVEDYVJT0`: safeguards, chat, text, image, welcome, amazon, nova.

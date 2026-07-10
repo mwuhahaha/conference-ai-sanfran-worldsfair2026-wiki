@@ -27,6 +27,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked|Your Agent Is Lying to You About Whether It Worked]]
 
 ### Slide And Transcript Signals
-- `youtube-JsCCrBF7F1g` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-JsCCrBF7F1g`: teams, engineering, hard, tackling, registration, open, observe, platform.
+- `youtube-JsCCrBF7F1g` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.
 - Evidence links for `youtube-JsCCrBF7F1g`: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]

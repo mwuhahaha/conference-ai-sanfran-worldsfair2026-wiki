@@ -135,18 +135,121 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-07-01-jay-mok-your-agent-just-authorized-what|Your Agent Just Authorized What?!]]
 
 ### Slide And Transcript Signals
-- `youtube-7Dtu2bilcFs` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-7Dtu2bilcFs`: year, died, google, software, engineer, author, researcher, steve.
+- `youtube-7Dtu2bilcFs` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-7Dtu2bilcFs`: coding, agentic, final, form, coming, next, stop, models.
 - Evidence links for `youtube-7Dtu2bilcFs`: [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
-- `youtube-rcsliSIy_YU` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-rcsliSIy_YU`: code, showcase, automating, massive, robert, brennan, generation, implement.
+- `youtube-rcsliSIy_YU` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-rcsliSIy_YU`: coding, code, snippets, generation, single, atomic, tasks, curl.
 - Evidence links for `youtube-rcsliSIy_YU`: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
 - `youtube-bmWZk9vTze0` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-bmWZk9vTze0`: query, client, info, table, tool, call, response, await.
 - Evidence links for `youtube-bmWZk9vTze0`: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
-- `youtube-e9sLVMN76qU` — 10 slide-derived text signals
+- `youtube-e9sLVMN76qU` — 8 slide-derived text signals
 - Slide-derived themes for `youtube-e9sLVMN76qU`: most, today, tooling, breaks, moment, remove, human, loop.
 - Evidence links for `youtube-e9sLVMN76qU`: [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]
 - `youtube-wsFd22SL1s8` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-wsFd22SL1s8`: clone, flask, project, code, create, scratch, systems, chat.
+- Slide-derived themes for `youtube-wsFd22SL1s8`: systems, chrome, code, sandboxes, operating, distributed, windows, subsystem.
 - Evidence links for `youtube-wsFd22SL1s8`: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
+## Evidence Table
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 39 | Related pages outside the main evidence categories. |
+| resources | 16 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 16 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 4 | Derived inventory pages; use as entity context, not independent proof. |
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]]
+- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]]
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
+- [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
+
+### Resources
+- [[youtube-MpZzWMdmQCE]]
+- [[youtube-SKDJo2CopRs]]
+- [[youtube-CLttOU7n6sI]]
+- [[youtube-c-2eEv2ou7Y]]
+- [[youtube-LrGCT7G_rU8]]
+- [[youtube-CDqzWpwkSls]]
+
+### Slides
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+- [[youtube-7Dtu2bilcFs-slides]]
+- [[youtube-7Dtu2bilcFs-dense-slides]]
+- [[youtube-7Dtu2bilcFs-reconstructed-slides]]
+- [[youtube-rcsliSIy_YU-slides]]
+
+### Tools
+- [[docker]]
+- [[openhands]]
+- [[pydantic]]
+- [[daytona]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]]
+- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]]
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
+- [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
+
+### Resources
+- [[youtube-MpZzWMdmQCE]]
+- [[youtube-SKDJo2CopRs]]
+- [[youtube-CLttOU7n6sI]]
+- [[youtube-c-2eEv2ou7Y]]
+- [[youtube-LrGCT7G_rU8]]
+- [[youtube-CDqzWpwkSls]]
+
+### Slides
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+- [[youtube-7Dtu2bilcFs-slides]]
+- [[youtube-7Dtu2bilcFs-dense-slides]]
+- [[youtube-7Dtu2bilcFs-reconstructed-slides]]
+- [[youtube-rcsliSIy_YU-slides]]
+
+### Tools
+- [[docker]]
+- [[openhands]]
+- [[pydantic]]
+- [[daytona]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-lovina-dmello-your-llm-stack-is-a-2008-database-with-better-marketing-why-ml-security-is-dominated-by-misconfiguration-not-missing-features]]
+- [[2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain]]
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
+- [[2026-06-30-ivan-burazin-kubernetes-is-not-your-sandbox]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
+
+### Resources
+- [[youtube-MpZzWMdmQCE]]
+- [[youtube-SKDJo2CopRs]]
+- [[youtube-CLttOU7n6sI]]
+- [[youtube-c-2eEv2ou7Y]]
+- [[youtube-LrGCT7G_rU8]]
+- [[youtube-CDqzWpwkSls]]
+
+### Slides
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+- [[youtube-7Dtu2bilcFs-slides]]
+- [[youtube-7Dtu2bilcFs-dense-slides]]
+- [[youtube-7Dtu2bilcFs-reconstructed-slides]]
+- [[youtube-rcsliSIy_YU-slides]]
+
+### Tools
+- [[docker]]
+- [[openhands]]
+- [[pydantic]]
+- [[daytona]]

@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RUNG 3·HUMAN MTCaptcha read it with vision·type it tru\nsolve.py\n#[RUNG 3] read with vision · type trusted keys MTCaptcha VENDORACCOUNT\nawait verified ## true # VERIFY #trusted keystrokes into the OoPIF for ch in answer: dispatchKeyEvent # ACT Input.dispatchMouseEvent(field) # ACT screenshot crop -read chars #vision #iframe -its own CDp session Target.setAutoAttach flatten } # SENSE checktoken APl. GDPR-focused checkbox+image/text challenge. Verified via MTCaptcha's YYOR Privacy&Terms\nYYOR\nVerified Successfully\nCh\nreal challenge, really read and typed. Captcha passed successfully!",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code slide with captcha UI and multiple text blocks.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#55585c",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "MTCaptcha",
+        "x": 26.0,
+        "y": 8.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "[RUNG 3] read with vision · type trusted keys\nTarget.setAutoAttach{ flatten }",
+        "x": 8.0,
+        "y": 18.0,
+        "w": 42.0,
+        "h": 34.0
+      },
+      {
+        "role": "body",
+        "text": "MTCaptcha",
+        "x": 61.0,
+        "y": 16.0,
+        "w": 18.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "GDPR-focused checkbox + image/text challenge. Verified via MTCaptcha's checktoken API.",
+        "x": 61.0,
+        "y": 23.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "caption",
+        "text": "real challenge, really read and typed.",
+        "x": 2.0,
+        "y": 83.0,
+        "w": 30.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "photo-034.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-034.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669333.7691867,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "MTCaptcha",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "RUNG 3·HUMAN MTCaptcha read it with vision·type it tru\nsolve.py\n#[RUNG 3] read with vision · type trusted keys MTCaptcha VENDORACCOUNT\nawait verified ## true # VERIFY #trusted keystrokes into the OoPIF for ch in answer: dispatchKeyEvent # ACT Input.dispatchMouseEvent(field) # ACT screenshot crop -read chars #vision #iframe -its own CDp session Target.setAutoAttach flatten } # SENSE checktoken APl. GDPR-focused checkbox+image/text challenge. Verified via MTCaptcha's YYOR Privacy&Terms\nYYOR\nVerified Successfully\nCh\nreal challenge, really read and typed. Captcha passed successfully!",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 839.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "RUNG 3·HUMAN MTCaptcha read it with vision·type it tru\nsolve.py\n#[RUNG 3] read with vision · type trusted keys MTCaptcha VENDORACCOUNT\nawait verified ## true # VERIFY #trusted keystrokes into the OoPIF for ch in answer: dispatchKeyEvent # ACT Input.dispatchMouseEvent(field) # ACT screenshot crop -read chars #vision #iframe -its own CDp session Target.setAutoAttach flatten } # SENSE checktoken APl. GDPR-focused checkbox+image/text challenge. Verified via MTCaptcha's YYOR Privacy&Terms\nYYOR\nVerified Successfully\nCh\nreal challenge, really read and typed. Captcha passed successfully!",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

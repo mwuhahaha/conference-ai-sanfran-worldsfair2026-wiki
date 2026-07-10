@@ -5,7 +5,6 @@ aliases: ["Laude Institute"]
 website: "https://www.laude.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Laude Institute
 
 ## What It Is
@@ -41,6 +40,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]]
 
 ### Slide And Transcript Signals
-- `youtube-liG97YXaTSA` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, samples, trivia, questions, general, model.
+- `youtube-liG97YXaTSA` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, progress, benchmarks, past, five, years, trivia, questions.
 - Evidence links for `youtube-liG97YXaTSA`: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]

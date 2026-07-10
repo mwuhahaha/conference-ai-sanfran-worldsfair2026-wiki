@@ -5,7 +5,6 @@ aliases: ["MiniMax"]
 website: "https://www.minimax.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # MiniMax
 
 ## What It Is
@@ -42,6 +41,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-olive-song-agents-at-scale-inside-minimax-s-model-and-the-infrastructure-behind-it|Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It]]
 
 ### Slide And Transcript Signals
-- `youtube-lY1iFbDPRlw` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
+- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
 - Evidence links for `youtube-lY1iFbDPRlw`: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]

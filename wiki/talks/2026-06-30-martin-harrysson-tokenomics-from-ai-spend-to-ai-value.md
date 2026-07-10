@@ -47,18 +47,18 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-SZStlIhyTCY` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-SZStlIhyTCY`: agile, software, moving, away, next, november, technologies, given.
+- Slide-derived themes for `youtube-SZStlIhyTCY`: agile, methodologies, software, tech, breakthrough, mainframes, mobile, cloud.
 - Evidence links for `youtube-SZStlIhyTCY`: [[youtube-SZStlIhyTCY]], [[youtube-SZStlIhyTCY-slides]], [[youtube-SZStlIhyTCY-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-SZStlIhyTCY`
-- Slide deck: [[youtube-SZStlIhyTCY-reconstructed-slides|Reconstructed Slides: Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company]] — 20 visible slide image(s).
-![[assets/reconstructed-slides/SZStlIhyTCY/slide-001.jpg]]
+- Slide deck: [[youtube-SZStlIhyTCY-reconstructed-slides|Reconstructed Slides: Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company]] — 16 visible slide image(s); 16 HTML recreation(s).
 ![[assets/reconstructed-slides/SZStlIhyTCY/slide-002.jpg]]
 ![[assets/reconstructed-slides/SZStlIhyTCY/slide-003.jpg]]
+![[assets/reconstructed-slides/SZStlIhyTCY/slide-004.jpg]]
 - Additional slide evidence: [[youtube-SZStlIhyTCY-slides|Slides: Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company]]
-- Slide-derived themes for `youtube-SZStlIhyTCY`: agile, software, moving, away, next, november, technologies, given.
+- Slide-derived themes for `youtube-SZStlIhyTCY`: agile, methodologies, software, tech, breakthrough, mainframes, mobile, cloud.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

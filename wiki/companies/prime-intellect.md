@@ -5,7 +5,6 @@ aliases: ["Prime Intellect"]
 website: "https://www.primeintellect.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Prime Intellect
 
 ## What It Is
@@ -48,9 +47,9 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-carter-abdallah-local-models-trust-control-optimization|Local Models: Trust, Control, Optimization]]
 
 ### Slide And Transcript Signals
-- `youtube-PbHm2qKnu10` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-PbHm2qKnu10`: performance, observed, compute, models, research, lead, prime, intellect.
+- `youtube-PbHm2qKnu10` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-PbHm2qKnu10`: kinda, works, labs, doing, four, steps, matches, performance.
 - Evidence links for `youtube-PbHm2qKnu10`: [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
-- `youtube-JIsgyk0Paic` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-JIsgyk0Paic`: level, great, benchmarks, interactive, conversational, grok, problem, calls.
+- `youtube-JIsgyk0Paic` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-JIsgyk0Paic`: many, pipelines, feedback, best, practices, level, systems, take.
 - Evidence links for `youtube-JIsgyk0Paic`: [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]

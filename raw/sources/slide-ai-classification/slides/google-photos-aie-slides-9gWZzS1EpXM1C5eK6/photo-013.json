@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "15 pts\nDiscovery\nintent Car agents find you?\n15 pts 20 pts\nUser Experience Identity\nCos humans use you when needed? Do agents understand you?\n20 pts 30 pts\nIntegration Auth & Access\nCan agents do the work? Can agents authentic",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with several labeled boxes and small captions that are better handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "intent",
+        "x": 28.0,
+        "y": 34.0,
+        "w": 6.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Discovery",
+        "x": 42.0,
+        "y": 25.0,
+        "w": 16.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Identity",
+        "x": 72.0,
+        "y": 56.0,
+        "w": 13.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Auth & Access",
+        "x": 59.0,
+        "y": 79.0,
+        "w": 18.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Integration",
+        "x": 25.0,
+        "y": 79.0,
+        "w": 14.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "User Experience",
+        "x": 23.0,
+        "y": 58.0,
+        "w": 17.0,
+        "h": 10.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "photo-013.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-013.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668228.6281233,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "15 pts\nDiscovery\nintent Car agents find you?\n15 pts 20 pts\nUser Experience Identity\nCos humans use you when needed? Do agents understand you?\n20 pts 30 pts\nIntegration Auth & Access\nCan agents do the work? Can agents authentic",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 408.52
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "15 pts\nDiscovery\nintent Car agents find you?\n15 pts 20 pts\nUser Experience Identity\nCos humans use you when needed? Do agents understand you?\n20 pts 30 pts\nIntegration Auth & Access\nCan agents do the work? Can agents authentic",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

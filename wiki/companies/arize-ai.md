@@ -5,7 +5,6 @@ aliases: ["Arize AI"]
 website: "https://arize.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Arize AI
 
 ## What It Is
@@ -48,7 +47,24 @@ Official roster and schedule facts are treated as canonical for conference parti
 This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
 ### Related Sessions
-- No related scheduled session was found in this pass.
+- [[2026-06-29-fuad-ali-building-self-learning-loops-for-your-agent|Building self-learning loops for your agent]]
+- [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked|Your Agent Is Lying to You About Whether It Worked]]
+- [[2026-06-29-ankur-duggal-let-your-agent-cook-using-skills-to-evaluate-and-improve-your-app|Let your agent cook: using skills to evaluate and improve your app]]
+- [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them|Voice Agents Are Mostly Invisible. Here's How to See Them.]]
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-201|From Vibes to Production: Evaluating and Shipping AI Agents That Work 201]]
+- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101|From Vibes to Production: Evaluating and Shipping AI Agents That Work 101]]
+- [[2026-06-30-laurie-voss-evals-track-intro|Evals Track Intro]]
+- [[2026-06-30-laurie-voss-the-death-of-the-code-review|The Death of the Code Review]]
+- [[2026-06-30-laurie-voss-how-long-can-your-skills-be-before-your-agent-forgets-what-you-told-it|How long can your skills be before your agent forgets what you told it?]]
 
 ### Slide And Transcript Signals
-No linked video, transcript, or slide source has been attached yet.
+- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
+- Evidence links for `youtube-SbcQYbrvAfI`: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
+- `youtube-JsCCrBF7F1g` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-JsCCrBF7F1g`: happening, application, root, cause, down, problem, well, product.
+- Evidence links for `youtube-JsCCrBF7F1g`: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
+- `youtube-Xfl50508LZM` — 22,591 transcript words; 6 slide-derived text signals
+- Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
+- Slide-derived themes for `youtube-Xfl50508LZM`: phoenix, prompt, settings, general, detect, regressions, change, compare.
+- Evidence links for `youtube-Xfl50508LZM`: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]

@@ -1,0 +1,7 @@
+RUNG2·REAL Demazon -trusted click a Js click is a function
+rung2 add to cart.py
+box = iframe_coord('#add-to-cart') # SENSE #[RUNG 2] real, trusted click·Input.dispatchMouseEvent
+assert cart ==1 # VERIFY #ACT -trusted native pipeline Input.dispatchMouseEvent（box) #/ ACCEPTED #event.isTrusted = false el.dispatchEvent(evt) # REJECTED el.click() #REJECTED demazon.com Whatyou see SWITCH KVM Dual Monitor,USB TESmart2-PortKVMSwitch $26995 InSt SYNTHETIC JSCLICK el.click() Add toCart
+time step trusted decision
+No attemptsyet
+the gate is event.isTrusted. the server log is the X-ray.

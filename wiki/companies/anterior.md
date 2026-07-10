@@ -5,7 +5,6 @@ aliases: ["Anterior"]
 website: "https://anterior.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Anterior
 
 ## What It Is
@@ -43,6 +42,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-christopher-lovejoy-why-your-enterprise-tech-stack-isn-t-ready-for-ai-agents-and-what-to-build-instead|Why Your Enterprise Tech Stack Isn't Ready for AI Agents - And What to Build Instead]]
 
 ### Slide And Transcript Signals
-- `youtube-MRM7oA3JsFs` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-MRM7oA3JsFs`: weeks, performance, achieved, care, application, company, provides, clinical.
+- `youtube-MRM7oA3JsFs` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-MRM7oA3JsFs`: clinical, company, head, reasoning, tools, accelerate, microsoft, amazon.
 - Evidence links for `youtube-MRM7oA3JsFs`: [[youtube-MRM7oA3JsFs]], [[youtube-MRM7oA3JsFs-slides]], [[youtube-MRM7oA3JsFs-reconstructed-slides]]

@@ -5,7 +5,6 @@ aliases: ["Qodo AI"]
 website: "https://www.qodo.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Qodo AI
 
 ## What It Is

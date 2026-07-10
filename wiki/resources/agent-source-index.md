@@ -38,7 +38,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - A slide page is `/slides/<youtube-video-id-kind>/`.
 - A quote page is `/quotes/<quote-slug>/`.
 - A resource page is `/resources/<resource-slug>/`.
-- Wiki links in markdown use `[[slug]]` or `[[slug|label]]`; on the public site these resolve to the matching rendered URL.
+- Wiki links in markdown use double-bracket slug syntax or a slug with a label; on the public site these resolve to the matching rendered URL.
 - If a rendered page is hard to parse, fetch its markdown backing file first and use the rendered page only for images or visual inspection.
 
 ## Corpus Map
@@ -111,3 +111,9 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - To answer `which companies are involved`: start with `/companies/`, search the company name, then cross-check people and talks linked from that company page.
 - To answer `what evidence supports this`: prefer talk pages and resource pages, then use transcripts, quotes, and slide pages as supporting evidence.
 - To answer `where should I browse next`: use the related links at the bottom of the current page; the wiki is intentionally cross-linked across talks, people, companies, topics, tools, quotes, resources, and slides.
+
+## Synthesis And Credibility Policy Layer
+- `python3 scripts/generate_synthesis_layers.py` - generate harnesses, playbooks, evaluations, topic evidence tables, topic-specific credibility policies, and policy eval reports.
+- Credibility policy JSON files live under `raw/sources/credibility-policies/` and should be reviewed one policy at a time.
+- Policy eval results live at `raw/sources/credibility-policy-evals.json` and [[credibility-policy-evals]].
+- Do not reuse a credibility policy across unrelated topics without changing weights and adding eval fixtures.

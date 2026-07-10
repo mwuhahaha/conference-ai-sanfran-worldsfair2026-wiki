@@ -5,7 +5,6 @@ aliases: ["Gates Foundation"]
 website: "https://www.gatesfoundation.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Gates Foundation
 
 ## What It Is

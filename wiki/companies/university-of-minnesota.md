@@ -5,7 +5,6 @@ aliases: ["University of Minnesota"]
 website: "https://universityofminnesota.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # University of Minnesota
 
 ## What It Is

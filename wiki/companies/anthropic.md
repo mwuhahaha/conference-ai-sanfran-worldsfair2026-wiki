@@ -5,7 +5,6 @@ aliases: ["Anthropic"]
 website: "https://www.anthropic.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Anthropic
 
 ## What It Is
@@ -61,25 +60,30 @@ Official roster and schedule facts are treated as canonical for conference parti
 This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
 ### Related Sessions
-- [[2026-06-29-ethan-jung-min-cha-dual-surface-architecture-serving-humans-and-agents-from-the-same-tool-layer|Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer]]
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-1|Claude Managed Agents Workshop (Part 1)]]
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-2|Claude Managed Agents workshop (Part 2)]]
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-3|Claude Managed Agents workshop (Part 3)]]
+- [[2026-06-29-priyanka-phatak-claude-managed-agents-workshop-part-4|Claude Managed Agents workshop (Part 4)]]
 - [[2026-06-29-eugene-yan-using-llms-to-secure-source-code|Using LLMs to Secure Source Code]]
-- [[2026-06-29-gagan-bhat-evolution-of-agentic-surfaces|Evolution of agentic surfaces]]
 - [[2026-06-29-lance-martin-claude-for-long-horizon-tasks|Claude for long-horizon tasks]]
-- [[2026-06-29-pamela-fox-the-model-swap-workshop|The model swap workshop]]
-- [[2026-06-30-arun-sekhar-openai-anthropic-or-agent-frameworks-choose-the-right-ai-stack|OpenAI, Anthropic, or agent frameworks: choose the right AI stack]]
+- [[2026-06-29-kevin-bai-forward-deployed-engineering-101|Forward Deployed Engineering 101]]
+- [[2026-06-29-gagan-bhat-evolution-of-agentic-surfaces|Evolution of agentic surfaces]]
 - [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]]
-- [[2026-07-01-frank-coyle-anthropic-s-cca-exam-as-a-field-guide-for-agentic-engineering|Anthropic's CCA Exam as a Field-Guide for Agentic Engineering]]
+- [[2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs|How Anthropic Builds: Lessons from Labs]]
 
 ### Slide And Transcript Signals
 - `youtube-2vlCqD6igVA` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.
 - Evidence links for `youtube-2vlCqD6igVA`: [[youtube-2vlCqD6igVA]], [[youtube-2vlCqD6igVA-slides]], [[youtube-2vlCqD6igVA-reconstructed-slides]]
-- `youtube-ib-wTAvCZqg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-ib-wTAvCZqg`: step, display, search, documents, retrieval, typically, used, most.
+- `youtube-ib-wTAvCZqg` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-ib-wTAvCZqg`: retrieval, typically, tool, function, calling, execute, steps, guaranteed.
 - Evidence links for `youtube-ib-wTAvCZqg`: [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]
-- `youtube-1t-9-s1brcg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
-- Evidence links for `youtube-1t-9-s1brcg`: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]
-- `youtube-TqC1qOfiVcQ` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, code, file, system, tools, prompts, custom, features.
+- `youtube-TqC1qOfiVcQ` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, custom, file, system, code, tool, systems, servers.
 - Evidence links for `youtube-TqC1qOfiVcQ`: [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]
+- `youtube-5N33E9tC400` — source page linked
+- Evidence links for `youtube-5N33E9tC400`: [[youtube-5N33E9tC400]], [[youtube-5N33E9tC400-slides]], [[youtube-5N33E9tC400-dense-slides]], [[youtube-5N33E9tC400-reconstructed-slides]]
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
+- Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
+- Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]

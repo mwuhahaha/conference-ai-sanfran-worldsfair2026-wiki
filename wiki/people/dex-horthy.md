@@ -29,6 +29,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-dex-horthy-harness-engineering-is-not-enough-why-software-factories-fail|Harness Engineering is not Enough: Why Software Factories Fail]]
 
 ### Slide And Transcript Signals
-- `youtube-rmvDxxNubIg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-rmvDxxNubIg`: vibes, allowed, solving, tasks, code, intentional, compaction, most.
+- `youtube-rmvDxxNubIg` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-rmvDxxNubIg`: code, tasks, vibes, allowed, task, complexity, high, complex.
 - Evidence links for `youtube-rmvDxxNubIg`: [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]

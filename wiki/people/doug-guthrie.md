@@ -27,7 +27,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability|Advanced workshop: Mastering AI Observability]]
 
 ### Slide And Transcript Signals
-- `youtube-bk0TmxoZlUY` — 9,125 transcript words; 9 slide-derived text signals
+- `youtube-bk0TmxoZlUY` — 9,125 transcript words
 - Transcript signals for `youtube-bk0TmxoZlUY`: maybe, trust, brain, within, data, scores, eval, application.
-- Slide-derived themes for `youtube-bk0TmxoZlUY`: developer, platform, support, leading, teams, netflix, nite, become.
 - Evidence links for `youtube-bk0TmxoZlUY`: [[youtube-bk0TmxoZlUY]], [[youtube-bk0TmxoZlUY-transcript]], [[youtube-bk0TmxoZlUY-slides]], [[youtube-bk0TmxoZlUY-dense-slides]], [[youtube-bk0TmxoZlUY-reconstructed-slides]]

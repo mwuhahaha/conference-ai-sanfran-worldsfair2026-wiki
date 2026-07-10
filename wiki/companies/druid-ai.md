@@ -5,7 +5,6 @@ aliases: ["DRUID AI", "Druid AI"]
 website: "https://www.druid.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # DRUID AI
 
 ## What It Is

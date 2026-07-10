@@ -1,0 +1,47 @@
+{
+  "slug": "ai-sandboxes-credibility",
+  "title": "AI Sandboxes Credibility",
+  "topic": "ai-sandboxes",
+  "useCase": "Rank people or sources for agent runtime isolation, tool permissions, code execution, and sandbox safety.",
+  "version": "2026-07-10.1",
+  "viewSignalRole": "Very low. Isolation credibility should follow production security and runtime evidence, not popularity.",
+  "weights": {
+    "topic_fit": 20,
+    "security_infra_practice": 30,
+    "production_isolation": 25,
+    "evidence_source": 15,
+    "peer_recognition": 5,
+    "public_attention": 5
+  },
+  "weightsTotal": 100,
+  "evalFixtures": [
+    {
+      "policy": "ai-sandboxes-credibility",
+      "name": "Solomon Hykes",
+      "expectedMin": 82,
+      "why": "External calibration exemplar for container/runtime isolation: popularity should not be required for a high sandbox credibility score.",
+      "signals": {
+        "topic_fit": 0.85,
+        "security_infra_practice": 0.9,
+        "production_isolation": 0.95,
+        "evidence_source": 0.85,
+        "peer_recognition": 0.95,
+        "public_attention": 0.75
+      }
+    },
+    {
+      "policy": "ai-sandboxes-credibility",
+      "name": "Samuel Colvin",
+      "expectedMin": 80,
+      "why": "High local exemplar for sandbox-not-desert framing and practical Python/runtime tooling credibility.",
+      "signals": {
+        "topic_fit": 0.95,
+        "security_infra_practice": 0.85,
+        "production_isolation": 0.85,
+        "evidence_source": 0.9,
+        "peer_recognition": 0.8,
+        "public_attention": 0.65
+      }
+    }
+  ]
+}

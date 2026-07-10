@@ -29,6 +29,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-denys-linkov-benchmarking-coding-agents-on-new-vs-legacy-code-bases|Benchmarking Coding Agents on New vs Legacy Code bases]]
 
 ### Slide And Transcript Signals
-- `youtube-SbUxRluVRwk` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-SbUxRluVRwk`: before, hiring, modern, team, themes.
+- `youtube-SbUxRluVRwk` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-SbUxRluVRwk`: technology, company, solution, services, enabled, tech.
 - Evidence links for `youtube-SbUxRluVRwk`: [[youtube-SbUxRluVRwk]], [[youtube-SbUxRluVRwk-slides]], [[youtube-SbUxRluVRwk-dense-slides]], [[youtube-SbUxRluVRwk-reconstructed-slides]]

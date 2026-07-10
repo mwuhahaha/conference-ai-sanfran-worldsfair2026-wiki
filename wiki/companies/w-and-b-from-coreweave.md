@@ -5,7 +5,6 @@ aliases: ["W&B from CoreWeave"]
 website: "https://wandb.ai/site"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # W&B from CoreWeave
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code|The Z/L Continuum: Should AI Engineers Still Read Code?]]
 
 ### Slide And Transcript Signals
-- `youtube-Lcqat4iP_lE` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-Lcqat4iP_lE`: tool, call, microsoft, tools, client, server, path, calculate.
+- `youtube-Lcqat4iP_lE` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-Lcqat4iP_lE`: tools, transparent, observable.
 - Evidence links for `youtube-Lcqat4iP_lE`: [[youtube-Lcqat4iP_lE]], [[youtube-Lcqat4iP_lE-slides]], [[youtube-Lcqat4iP_lE-dense-slides]], [[youtube-Lcqat4iP_lE-reconstructed-slides]]

@@ -44,17 +44,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-rgjF5o2Qjsc` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, bash, reality, show, engineering, future.
+- `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, companies, pushing, move, faster, offline.
 - Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-rgjF5o2Qjsc`
-- Slide deck: [[youtube-rgjF5o2Qjsc-reconstructed-slides|Reconstructed Slides: The State of AI Code Quality: Hype vs Reality — Itamar Friedman, Qodo]] — 15 visible slide image(s).
+- Slide deck: [[youtube-rgjF5o2Qjsc-reconstructed-slides|Reconstructed Slides: The State of AI Code Quality: Hype vs Reality — Itamar Friedman, Qodo]] — 12 visible slide image(s); 12 HTML recreation(s).
 ![[assets/reconstructed-slides/rgjF5o2Qjsc/slide-001.jpg]]
 ![[assets/reconstructed-slides/rgjF5o2Qjsc/slide-002.jpg]]
 ![[assets/reconstructed-slides/rgjF5o2Qjsc/slide-003.jpg]]
 - Additional slide evidence: [[youtube-rgjF5o2Qjsc-slides|Slides: The State of AI Code Quality: Hype vs Reality — Itamar Friedman, Qodo]]
-- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, bash, reality, show, engineering, future.
+- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, companies, pushing, move, faster, offline.

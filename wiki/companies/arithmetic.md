@@ -5,7 +5,6 @@ aliases: ["Arithmetic"]
 website: "https://www.arithmetic.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Arithmetic
 
 ## What It Is

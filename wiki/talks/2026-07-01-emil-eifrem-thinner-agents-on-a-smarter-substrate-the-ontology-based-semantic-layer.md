@@ -58,28 +58,28 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
 - Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
-- `youtube-knDDGYHnnSI` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-knDDGYHnnSI`: full, text, george, mooc.
+- `youtube-knDDGYHnnSI` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-knDDGYHnnSI`: evolution, search, floor, plans, north, directions, bart, offers.
 - Evidence links for `youtube-knDDGYHnnSI`: [[youtube-knDDGYHnnSI]], [[youtube-knDDGYHnnSI-slides]], [[youtube-knDDGYHnnSI-dense-slides]], [[youtube-knDDGYHnnSI-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-I2cbIws9j10`
-- Slide deck: [[youtube-I2cbIws9j10-dense-slides|Dense Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]] — 12 visible slide image(s).
+- Slide deck: [[youtube-I2cbIws9j10-dense-slides|Dense Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]] — 11 visible slide image(s); 11 HTML recreation(s).
 ![[assets/dense-slides/I2cbIws9j10/slide-001.jpg]]
 ![[assets/dense-slides/I2cbIws9j10/slide-002.jpg]]
 ![[assets/dense-slides/I2cbIws9j10/slide-003.jpg]]
 - Additional slide evidence: [[youtube-I2cbIws9j10-slides|Slides: WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy]]
-- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
 - Source video: `youtube-knDDGYHnnSI`
-- Slide deck: [[youtube-knDDGYHnnSI-dense-slides|Dense Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem]] — 10 visible slide image(s).
+- Slide deck: [[youtube-knDDGYHnnSI-dense-slides|Dense Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem]] — 10 visible slide image(s); 10 HTML recreation(s).
 ![[assets/dense-slides/knDDGYHnnSI/slide-001.jpg]]
 ![[assets/dense-slides/knDDGYHnnSI/slide-002.jpg]]
 ![[assets/dense-slides/knDDGYHnnSI/slide-003.jpg]]
 - Additional slide evidence: [[youtube-knDDGYHnnSI-slides|Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem]], [[youtube-knDDGYHnnSI-reconstructed-slides|Reconstructed Slides: GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem]]
-- Slide-derived themes for `youtube-knDDGYHnnSI`: full, text, george, mooc.
+- Slide-derived themes for `youtube-knDDGYHnnSI`: evolution, search, floor, plans, north, directions, bart, offers.

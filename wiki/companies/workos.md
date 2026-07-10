@@ -5,7 +5,6 @@ aliases: ["WorkOS"]
 website: "https://workos.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # WorkOS
 
 ## What It Is
@@ -50,12 +49,12 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md|Auth for Agents: Unblock Autonomous AI with auth.md]]
 
 ### Slide And Transcript Signals
-- `youtube-so9l_MwS2yg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-so9l_MwS2yg`: system, find, export, function, next, token, headers, authorization.
+- `youtube-so9l_MwS2yg` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-so9l_MwS2yg`: bottleneck, imagining, recommend, finding, developer, balance.
 - Evidence links for `youtube-so9l_MwS2yg`: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]
 - `youtube-iUWwcG-C8OU` — 2 slide-derived text signals
 - Slide-derived themes for `youtube-iUWwcG-C8OU`: help, today, engineering, future.
 - Evidence links for `youtube-iUWwcG-C8OU`: [[youtube-iUWwcG-C8OU]], [[youtube-iUWwcG-C8OU-slides]], [[youtube-iUWwcG-C8OU-dense-slides]], [[youtube-iUWwcG-C8OU-reconstructed-slides]]
-- `youtube-D4Dswf-__RM` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-D4Dswf-__RM`: identity, shadowing, persona, delegation, chains, capability, tokens, escalation.
+- `youtube-D4Dswf-__RM` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-D4Dswf-__RM`: grant, negotiation, authorization, protocol.
 - Evidence links for `youtube-D4Dswf-__RM`: [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]

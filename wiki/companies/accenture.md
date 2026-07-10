@@ -5,7 +5,6 @@ aliases: ["Accenture"]
 website: "https://www.accenture.com/us-en"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Accenture
 
 ## What It Is

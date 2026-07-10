@@ -1,0 +1,90 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Sense →Act →Verify. Repeat until it closes. I/ THE 3RD THING\naim DOM.ally tree SENSE ACT Bu uoo aclick·akeystroke·anav sense again -a different channel VERIFY confirm\nnever trust the click's own “success.\nWhen the loop won't close on a rung - that's the signal to climb. LOOP+LADDER\nrfeung",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "small multi-column explanatory text and diagram labels",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "dark gray gradient",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Sense → Act → Verify. Repeat until it closes.",
+        "x": 4.0,
+        "y": 24.0,
+        "w": 56.0,
+        "h": 12.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "SENSE",
+        "x": 26.0,
+        "y": 43.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "ACT",
+        "x": 47.0,
+        "y": 43.0,
+        "w": 8.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "VERIFY",
+        "x": 70.0,
+        "y": 43.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "caption",
+        "text": "never trust the click's own 'success.'",
+        "x": 26.0,
+        "y": 59.0,
+        "w": 28.0,
+        "h": 5.0
+      },
+      {
+        "role": "caption",
+        "text": "When the loop won't close on a rung — that's the signal to climb.",
+        "x": 23.0,
+        "y": 71.0,
+        "w": 48.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-029.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669005.610971,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Sense → Act → Verify.\nRepeat until it closes.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "Sense →Act →Verify. Repeat until it closes. I/ THE 3RD THING\naim DOM.ally tree SENSE ACT Bu uoo aclick·akeystroke·anav sense again -a different channel VERIFY confirm\nnever trust the click's own “success.\nWhen the loop won't close on a rung - that's the signal to climb. LOOP+LADDER\nrfeung",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 513.88
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "Sense →Act →Verify. Repeat until it closes. I/ THE 3RD THING\naim DOM.ally tree SENSE ACT Bu uoo aclick·akeystroke·anav sense again -a different channel VERIFY confirm\nnever trust the click's own “success.\nWhen the loop won't close on a rung - that's the signal to climb. LOOP+LADDER\nrfeung",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

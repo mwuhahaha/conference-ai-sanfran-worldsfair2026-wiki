@@ -62,17 +62,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-wNH3q9pqn0U` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-wNH3q9pqn0U`: solution, water, growth, crystal, salt, input, sources, services.
+- `youtube-wNH3q9pqn0U` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-wNH3q9pqn0U`: sound, request, beaker, crystals.
 - Evidence links for `youtube-wNH3q9pqn0U`: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-wNH3q9pqn0U`
-- Slide deck: [[youtube-wNH3q9pqn0U-dense-slides|Dense Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind]] — 14 visible slide image(s).
+- Slide deck: [[youtube-wNH3q9pqn0U-dense-slides|Dense Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind]] — 14 visible slide image(s); 14 HTML recreation(s).
 ![[assets/dense-slides/wNH3q9pqn0U/slide-001.jpg]]
 ![[assets/dense-slides/wNH3q9pqn0U/slide-002.jpg]]
 ![[assets/dense-slides/wNH3q9pqn0U/slide-003.jpg]]
 - Additional slide evidence: [[youtube-wNH3q9pqn0U-slides|Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind]], [[youtube-wNH3q9pqn0U-reconstructed-slides|Reconstructed Slides: Real-time Experiments with an AI Co-Scientist - Stefania Druga, fmr. Google Deepmind]]
-- Slide-derived themes for `youtube-wNH3q9pqn0U`: solution, water, growth, crystal, salt, input, sources, services.
+- Slide-derived themes for `youtube-wNH3q9pqn0U`: sound, request, beaker, crystals.

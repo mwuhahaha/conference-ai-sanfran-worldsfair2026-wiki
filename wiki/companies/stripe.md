@@ -5,7 +5,6 @@ aliases: ["Stripe"]
 website: "https://stripe.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Stripe
 
 ## What It Is

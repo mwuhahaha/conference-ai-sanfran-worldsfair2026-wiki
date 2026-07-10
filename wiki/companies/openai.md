@@ -5,7 +5,6 @@ aliases: ["OpenAI"]
 website: "https://openai.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # OpenAI
 
 ## What It Is
@@ -58,33 +57,28 @@ Official roster and schedule facts are treated as canonical for conference parti
 This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
 ### Related Sessions
-- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
+- [[2026-06-29-jason-liu-getting-the-most-out-of-codex|Getting the most out of Codex]]
+- [[2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did|Your Agent Didn’t Fail. Your Harness Did.]]
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things|Voice Agents Can Just Do Things]]
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-1|Setting Yourself Up for Success — Part 1]]
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-2|Setting Yourself Up for Success — Part 2]]
+- [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-3|Setting Yourself Up for Success — Part 3]]
 - [[2026-06-29-charlie-guo-cooking-with-codex|Cooking with Codex]]
-- [[2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked|Your Agent Is Lying to You About Whether It Worked]]
-- [[2026-06-29-ethan-jung-min-cha-dual-surface-architecture-serving-humans-and-agents-from-the-same-tool-layer|Dual-Surface Architecture: Serving Humans and Agents from the Same Tool Layer]]
-- [[2026-06-29-filip-makraduli-turning-my-obsidian-vault-into-a-local-ai-engineer|Turning My Obsidian Vault Into a Local AI Engineer]]
-- [[2026-06-29-killian-carlsen-phelan-sonarqube-openai-wiring-your-team-for-agentic-development|SonarQube + OpenAI: Wiring Your Team for Agentic Development]]
-- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software|The New Primitives: Building AI-Native Software]]
-- [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101|From Vibes to Production: Evaluating and Shipping AI Agents That Work 101]]
+- [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering|The Golden Age of AI Engineering]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1']]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2|'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt2']]
 
 ### Slide And Transcript Signals
-- `youtube-yJHw33cVeHo` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-yJHw33cVeHo`: cases, text, vision, voice, outlook, research, deployment, company.
-- Evidence links for `youtube-yJHw33cVeHo`: [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
-- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 3 slide-derived text signals
+- `youtube-jryZvCuA0Uc` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-jryZvCuA0Uc`: read, full, report.
+- Evidence links for `youtube-jryZvCuA0Uc`: [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]
+- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 1 slide-derived text signals
 - Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
-- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: manual, analysis, keyword.
 - Evidence links for `youtube-dvft0Gp9sEE`: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
-- `youtube-JsCCrBF7F1g` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-JsCCrBF7F1g`: teams, engineering, hard, tackling, registration, open, observe, platform.
-- Evidence links for `youtube-JsCCrBF7F1g`: [[youtube-JsCCrBF7F1g]], [[youtube-JsCCrBF7F1g-slides]], [[youtube-JsCCrBF7F1g-dense-slides]], [[youtube-JsCCrBF7F1g-reconstructed-slides]]
-- `youtube-qdh_x-uRs9g` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-qdh_x-uRs9g`: model, performance, makes, embedding, best, learn, join, team.
-- Evidence links for `youtube-qdh_x-uRs9g`: [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]
-- `youtube-E71YtNbCFXY` — 5 slide-derived text signals
-- Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.
-- Evidence links for `youtube-E71YtNbCFXY`: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
-- `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals
-- Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
-- Slide-derived themes for `youtube-Xfl50508LZM`: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
-- Evidence links for `youtube-Xfl50508LZM`: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
+- `youtube-yJHw33cVeHo` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-yJHw33cVeHo`: hello.
+- Evidence links for `youtube-yJHw33cVeHo`: [[youtube-yJHw33cVeHo]], [[youtube-yJHw33cVeHo-slides]], [[youtube-yJHw33cVeHo-dense-slides]], [[youtube-yJHw33cVeHo-reconstructed-slides]]
+- `youtube-wsFd22SL1s8` — 10 slide-derived text signals
+- Slide-derived themes for `youtube-wsFd22SL1s8`: systems, chrome, code, sandboxes, operating, distributed, windows, subsystem.
+- Evidence links for `youtube-wsFd22SL1s8`: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]

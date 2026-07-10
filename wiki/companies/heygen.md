@@ -5,7 +5,6 @@ aliases: ["HeyGen"]
 website: "https://www.heygen.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # HeyGen
 
 ## What It Is
@@ -43,6 +42,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
 ### Slide And Transcript Signals
-- `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
+- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
 - Evidence links for `youtube-zepu8Kk6FBQ`: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]

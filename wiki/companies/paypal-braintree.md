@@ -5,7 +5,6 @@ aliases: ["PayPal Braintree"]
 website: "https://www.paypal.com/us/braintree?utm_campaign=Braintree_Migration&utm_medium=Website&utm_source=Braintree"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # PayPal Braintree
 
 ## What It Is

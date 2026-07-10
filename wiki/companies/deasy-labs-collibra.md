@@ -5,7 +5,6 @@ aliases: ["Deasy Labs / Collibra"]
 website: "https://www.deasylabs.com/about-us"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # Deasy Labs / Collibra
 
 ## What It Is

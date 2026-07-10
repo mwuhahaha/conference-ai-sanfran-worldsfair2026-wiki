@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-JhJKgRAmfIU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
+- `youtube-JhJKgRAmfIU` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-JhJKgRAmfIU`: does, handle, loot, bank.
 - Evidence links for `youtube-JhJKgRAmfIU`: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-JhJKgRAmfIU`
-- Slide deck: [[youtube-JhJKgRAmfIU-dense-slides|Dense Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]] — 4 visible slide image(s).
+- Slide deck: [[youtube-JhJKgRAmfIU-dense-slides|Dense Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]] — 4 visible slide image(s); 4 HTML recreation(s).
 ![[assets/dense-slides/JhJKgRAmfIU/slide-001.jpg]]
 ![[assets/dense-slides/JhJKgRAmfIU/slide-002.jpg]]
 ![[assets/dense-slides/JhJKgRAmfIU/slide-003.jpg]]
 - Additional slide evidence: [[youtube-JhJKgRAmfIU-slides|Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]], [[youtube-JhJKgRAmfIU-reconstructed-slides|Reconstructed Slides: AI Red Teaming Agent: Azure AI Foundry — Nagkumar Arkalgud & Keiji Kanazawa, Microsoft]]
-- Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
+- Slide-derived themes for `youtube-JhJKgRAmfIU`: does, handle, loot, bank.

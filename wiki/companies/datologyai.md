@@ -5,7 +5,6 @@ aliases: ["DatologyAI"]
 website: "https://www.datologyai.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # DatologyAI
 
 ## What It Is

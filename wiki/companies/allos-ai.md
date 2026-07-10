@@ -5,7 +5,6 @@ aliases: ["Allos AI"]
 website: "https://www.allos.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Allos AI
 
 ## What It Is

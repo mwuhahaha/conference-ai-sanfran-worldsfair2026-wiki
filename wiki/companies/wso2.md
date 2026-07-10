@@ -5,7 +5,6 @@ aliases: ["WSO2"]
 website: "https://wso2.app/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # WSO2
 
 ## What It Is

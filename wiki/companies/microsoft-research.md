@@ -5,7 +5,6 @@ aliases: ["Microsoft Research"]
 website: "https://www.microsoft.com/en-us/research/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Microsoft Research
 
 ## What It Is

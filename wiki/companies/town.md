@@ -5,7 +5,6 @@ aliases: ["Town"]
 website: "https://www.town.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Town
 
 ## What It Is

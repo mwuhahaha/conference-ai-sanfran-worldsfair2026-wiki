@@ -5,7 +5,6 @@ aliases: ["Sonar"]
 website: "https://www.sonarsource.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Sonar
 
 ## What It Is

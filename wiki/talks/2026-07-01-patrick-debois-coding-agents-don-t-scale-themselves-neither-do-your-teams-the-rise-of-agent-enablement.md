@@ -51,17 +51,15 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-bSG9wUYaHWU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-bSG9wUYaHWU`: code, context, fetch, retries, user, retry, write, function.
+- `youtube-bSG9wUYaHWU` — source page linked
 - Evidence links for `youtube-bSG9wUYaHWU`: [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-bSG9wUYaHWU`
-- Slide deck: [[youtube-bSG9wUYaHWU-dense-slides|Dense Slides: Context Is the New Code — Patrick Debois, Tessl]] — 1 visible slide image(s).
+- Slide deck: [[youtube-bSG9wUYaHWU-dense-slides|Dense Slides: Context Is the New Code — Patrick Debois, Tessl]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/bSG9wUYaHWU/slide-001.jpg]]
 - Additional slide evidence: [[youtube-bSG9wUYaHWU-slides|Slides: Context Is the New Code — Patrick Debois, Tessl]], [[youtube-bSG9wUYaHWU-reconstructed-slides|Reconstructed Slides: Context Is the New Code — Patrick Debois, Tessl]]
-- Slide-derived themes for `youtube-bSG9wUYaHWU`: code, context, fetch, retries, user, retry, write, function.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

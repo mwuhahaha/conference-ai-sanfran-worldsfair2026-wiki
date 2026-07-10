@@ -5,7 +5,6 @@ aliases: ["Inth"]
 website: "https://inth.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Inth
 
 ## What It Is

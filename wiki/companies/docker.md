@@ -5,7 +5,6 @@ aliases: ["Docker"]
 website: "https://www.docker.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Docker
 
 ## What It Is

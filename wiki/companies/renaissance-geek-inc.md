@@ -5,7 +5,6 @@ aliases: ["Renaissance Geek, Inc."]
 website: "https://www.paulbakaus.com/about/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # Renaissance Geek, Inc.
 
 ## What It Is

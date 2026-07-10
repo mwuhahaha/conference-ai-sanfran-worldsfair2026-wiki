@@ -1,0 +1,9 @@
+15pts
+Discovery
+intent Can agents find you?
+15pts 20pts
+User Experience Identity
+Can humans use you when needed? Do agents understand you?
+20pts 30pts
+Integration Auth & Access
+Can agents do the work? Can agents authentio

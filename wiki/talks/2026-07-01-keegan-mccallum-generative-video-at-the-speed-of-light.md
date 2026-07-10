@@ -44,17 +44,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-EY4O9M6AsWI` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-EY4O9M6AsWI`: nope, white, knuckling, nodes, enough, banana, barely, made.
+- `youtube-EY4O9M6AsWI` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-EY4O9M6AsWI`: triton, mission, general, intelligence, generate, understand, operate, physical.
 - Evidence links for `youtube-EY4O9M6AsWI`: [[youtube-EY4O9M6AsWI]], [[youtube-EY4O9M6AsWI-slides]], [[youtube-EY4O9M6AsWI-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-EY4O9M6AsWI`
-- Slide deck: [[youtube-EY4O9M6AsWI-reconstructed-slides|Reconstructed Slides: Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI]] — 17 visible slide image(s).
-![[assets/reconstructed-slides/EY4O9M6AsWI/slide-001.jpg]]
-![[assets/reconstructed-slides/EY4O9M6AsWI/slide-002.jpg]]
+- Slide deck: [[youtube-EY4O9M6AsWI-reconstructed-slides|Reconstructed Slides: Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI]] — 12 visible slide image(s); 12 HTML recreation(s).
 ![[assets/reconstructed-slides/EY4O9M6AsWI/slide-003.jpg]]
+![[assets/reconstructed-slides/EY4O9M6AsWI/slide-004.jpg]]
+![[assets/reconstructed-slides/EY4O9M6AsWI/slide-005.jpg]]
 - Additional slide evidence: [[youtube-EY4O9M6AsWI-slides|Slides: Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI]]
-- Slide-derived themes for `youtube-EY4O9M6AsWI`: nope, white, knuckling, nodes, enough, banana, barely, made.
+- Slide-derived themes for `youtube-EY4O9M6AsWI`: triton, mission, general, intelligence, generate, understand, operate, physical.

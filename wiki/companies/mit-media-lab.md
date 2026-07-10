@@ -5,7 +5,6 @@ aliases: ["MIT Media Lab"]
 website: "https://www.media.mit.edu/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # MIT Media Lab
 
 ## What It Is

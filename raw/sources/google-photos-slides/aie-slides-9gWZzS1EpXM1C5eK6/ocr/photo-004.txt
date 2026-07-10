@@ -1,0 +1,5 @@
+Helpful resources
+Good for humans,good for agents
+Aleksa Gordic's walkthrough of vllm,Modal Notebooks [1l,[2]
+DeepWiki from Cognition Organized,diagrams,queryable s
+Modal

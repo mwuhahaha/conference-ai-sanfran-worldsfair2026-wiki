@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-SbcQYbrvAfI` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-SbcQYbrvAfI`: prompt, learning, planning, missing, applied, optimization, loop, case.
+- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
 - Evidence links for `youtube-SbcQYbrvAfI`: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-SbcQYbrvAfI`
-- Slide deck: [[youtube-SbcQYbrvAfI-dense-slides|Dense Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize]] — 32 visible slide image(s).
+- Slide deck: [[youtube-SbcQYbrvAfI-dense-slides|Dense Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize]] — 32 visible slide image(s); 32 HTML recreation(s).
 ![[assets/dense-slides/SbcQYbrvAfI/slide-001.jpg]]
 ![[assets/dense-slides/SbcQYbrvAfI/slide-002.jpg]]
 ![[assets/dense-slides/SbcQYbrvAfI/slide-003.jpg]]
 - Additional slide evidence: [[youtube-SbcQYbrvAfI-slides|Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize]], [[youtube-SbcQYbrvAfI-reconstructed-slides|Reconstructed Slides: Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize]]
-- Slide-derived themes for `youtube-SbcQYbrvAfI`: prompt, learning, planning, missing, applied, optimization, loop, case.
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.

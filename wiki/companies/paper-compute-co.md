@@ -5,7 +5,6 @@ aliases: ["Paper Compute Co."]
 website: "https://papercompute.com/about/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Paper Compute Co.
 
 ## What It Is

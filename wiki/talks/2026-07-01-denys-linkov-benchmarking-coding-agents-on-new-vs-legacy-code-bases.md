@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-SbUxRluVRwk` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-SbUxRluVRwk`: before, hiring, modern, team, themes.
+- `youtube-SbUxRluVRwk` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-SbUxRluVRwk`: technology, company, solution, services, enabled, tech.
 - Evidence links for `youtube-SbUxRluVRwk`: [[youtube-SbUxRluVRwk]], [[youtube-SbUxRluVRwk-slides]], [[youtube-SbUxRluVRwk-dense-slides]], [[youtube-SbUxRluVRwk-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-SbUxRluVRwk`
-- Slide deck: [[youtube-SbUxRluVRwk-dense-slides|Dense Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]] — 1 visible slide image(s).
+- Slide deck: [[youtube-SbUxRluVRwk-dense-slides|Dense Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/SbUxRluVRwk/slide-001.jpg]]
 - Additional slide evidence: [[youtube-SbUxRluVRwk-slides|Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]], [[youtube-SbUxRluVRwk-reconstructed-slides|Reconstructed Slides: Structuring a modern AI team — Denys Linkov, Wisedocs]]
-- Slide-derived themes for `youtube-SbUxRluVRwk`: before, hiring, modern, team, themes.
+- Slide-derived themes for `youtube-SbUxRluVRwk`: technology, company, solution, services, enabled, tech.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

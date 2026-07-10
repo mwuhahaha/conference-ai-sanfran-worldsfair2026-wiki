@@ -139,16 +139,110 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-29-fuad-ali-voice-agents-are-mostly-invisible-here-s-how-to-see-them|Voice Agents Are Mostly Invisible. Here's How to See Them.]]
 
 ### Slide And Transcript Signals
-- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 3 slide-derived text signals
+- `youtube-dvft0Gp9sEE` — 1,508 transcript words; 1 slide-derived text signals
 - Transcript signals for `youtube-dvft0Gp9sEE`: analysis, sales, transcript, models, calls, data, single, doing.
-- Slide-derived themes for `youtube-dvft0Gp9sEE`: calls, shift, week.
+- Slide-derived themes for `youtube-dvft0Gp9sEE`: manual, analysis, keyword.
 - Evidence links for `youtube-dvft0Gp9sEE`: [[youtube-dvft0Gp9sEE]], [[youtube-dvft0Gp9sEE-transcript]], [[youtube-dvft0Gp9sEE-slides]], [[youtube-dvft0Gp9sEE-dense-slides]], [[youtube-dvft0Gp9sEE-reconstructed-slides]]
 - `youtube-P_RI1kCkRbo` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-P_RI1kCkRbo`: engineering, future, brig, team, google, translation, great, hove.
 - Evidence links for `youtube-P_RI1kCkRbo`: [[youtube-P_RI1kCkRbo]], [[youtube-P_RI1kCkRbo-slides]], [[youtube-P_RI1kCkRbo-dense-slides]], [[youtube-P_RI1kCkRbo-reconstructed-slides]]
-- `youtube-u3NofYYstaY` — 8 slide-derived text signals
-- Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
+- `youtube-u3NofYYstaY` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-u3NofYYstaY`: oracle, team, accenture.
 - Evidence links for `youtube-u3NofYYstaY`: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
-- `youtube-SbcQYbrvAfI` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-SbcQYbrvAfI`: prompt, learning, planning, missing, applied, optimization, loop, case.
+- `youtube-SbcQYbrvAfI` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-SbcQYbrvAfI`: planning, missing, data, domain, breaking, system, instructions, learned.
 - Evidence links for `youtube-SbcQYbrvAfI`: [[youtube-SbcQYbrvAfI]], [[youtube-SbcQYbrvAfI-slides]], [[youtube-SbcQYbrvAfI-dense-slides]], [[youtube-SbcQYbrvAfI-reconstructed-slides]]
+## Evidence Table
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 44 | Related pages outside the main evidence categories. |
+| resources | 12 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 13 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]]
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]]
+- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]]
+- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more]]
+- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents]]
+- [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one]]
+
+### Resources
+- [[youtube-mFLlVpnGpds]]
+- [[youtube-u-rJwPPU3QA]]
+- [[youtube-ij-AU9dpJjc]]
+- [[youtube-65X0pQ6Lmbg]]
+- [[youtube-hVJOnuhFmTA]]
+- [[youtube-HsxQICTLF84]]
+
+### Slides
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-dvft0Gp9sEE-slides]]
+- [[youtube-dvft0Gp9sEE-dense-slides]]
+- [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+- [[youtube-P_RI1kCkRbo-slides]]
+- [[youtube-P_RI1kCkRbo-dense-slides]]
+
+### Transcripts
+- [[youtube-dvft0Gp9sEE-transcript]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]]
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]]
+- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]]
+- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more]]
+- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents]]
+- [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one]]
+
+### Resources
+- [[youtube-mFLlVpnGpds]]
+- [[youtube-u-rJwPPU3QA]]
+- [[youtube-ij-AU9dpJjc]]
+- [[youtube-65X0pQ6Lmbg]]
+- [[youtube-hVJOnuhFmTA]]
+- [[youtube-HsxQICTLF84]]
+
+### Slides
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-dvft0Gp9sEE-slides]]
+- [[youtube-dvft0Gp9sEE-dense-slides]]
+- [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+- [[youtube-P_RI1kCkRbo-slides]]
+- [[youtube-P_RI1kCkRbo-dense-slides]]
+
+### Transcripts
+- [[youtube-dvft0Gp9sEE-transcript]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-bohan-li-realtime-voice-agents-with-frontier-intelligence]]
+- [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]]
+- [[2026-06-29-valeria-wu-fon-speech-to-speech-model-research-at-google-deepmind]]
+- [[2026-06-29-sumanyu-sharma-i-monitored-crime-audio-voice-agents-scare-me-more]]
+- [[2026-06-29-midam-kim-my-name-is-my-name-is-a-linguistic-map-for-building-and-debugging-voice-agents]]
+- [[2026-06-29-venky-b-5-voice-agent-failure-modes-you-ll-hit-in-week-one]]
+
+### Resources
+- [[youtube-mFLlVpnGpds]]
+- [[youtube-u-rJwPPU3QA]]
+- [[youtube-ij-AU9dpJjc]]
+- [[youtube-65X0pQ6Lmbg]]
+- [[youtube-hVJOnuhFmTA]]
+- [[youtube-HsxQICTLF84]]
+
+### Slides
+- [[youtube-I2cbIws9j10-slides]]
+- [[youtube-dvft0Gp9sEE-slides]]
+- [[youtube-dvft0Gp9sEE-dense-slides]]
+- [[youtube-dvft0Gp9sEE-reconstructed-slides]]
+- [[youtube-P_RI1kCkRbo-slides]]
+- [[youtube-P_RI1kCkRbo-dense-slides]]
+
+### Transcripts
+- [[youtube-dvft0Gp9sEE-transcript]]

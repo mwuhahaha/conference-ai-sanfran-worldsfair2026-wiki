@@ -62,15 +62,15 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
+- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
 - Evidence links for `youtube-zepu8Kk6FBQ`: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-zepu8Kk6FBQ`
-- Slide deck: [[youtube-zepu8Kk6FBQ-dense-slides|Dense Slides: Agents for Everything Else — swyx]] — 1 visible slide image(s).
+- Slide deck: [[youtube-zepu8Kk6FBQ-dense-slides|Dense Slides: Agents for Everything Else — swyx]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/zepu8Kk6FBQ/slide-001.jpg]]
 - Additional slide evidence: [[youtube-zepu8Kk6FBQ-slides|Slides: Agents for Everything Else — swyx]], [[youtube-zepu8Kk6FBQ-reconstructed-slides|Reconstructed Slides: Agents for Everything Else — swyx]]
-- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.

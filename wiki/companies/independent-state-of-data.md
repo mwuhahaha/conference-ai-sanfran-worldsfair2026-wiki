@@ -5,7 +5,6 @@ aliases: ["Independent / State of Data"]
 website: "https://www.stateofdata.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # Independent / State of Data
 
 ## What It Is

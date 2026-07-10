@@ -5,7 +5,6 @@ aliases: ["The New York Times Games"]
 website: "https://www.nytimes.com/crosswords"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # The New York Times Games
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-shafik-quoraishee-on-device-agentic-ai-for-the-new-york-times-games|On-Device Agentic AI for the New York Times Games]]
 
 ### Slide And Transcript Signals
-- `youtube-P_uhFGH4J9Y` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-P_uhFGH4J9Y`: york, times, score, search, synthesis, department, defense, caveats.
+- `youtube-P_uhFGH4J9Y` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-P_uhFGH4J9Y`: york, research, game, developer, times, worked, previously, business.
 - Evidence links for `youtube-P_uhFGH4J9Y`: [[youtube-P_uhFGH4J9Y]], [[youtube-P_uhFGH4J9Y-slides]], [[youtube-P_uhFGH4J9Y-dense-slides]], [[youtube-P_uhFGH4J9Y-reconstructed-slides]]

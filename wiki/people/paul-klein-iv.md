@@ -27,6 +27,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-paul-klein-iv-bringing-agents-onto-the-world-wide-web|Bringing agents onto the world wide web]]
 
 ### Slide And Transcript Signals
-- `youtube-YRGjll7uu5w` — 8 slide-derived text signals
-- Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
+- `youtube-YRGjll7uu5w` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.
 - Evidence links for `youtube-YRGjll7uu5w`: [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]

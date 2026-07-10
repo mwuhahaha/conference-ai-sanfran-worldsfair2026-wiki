@@ -33,6 +33,5 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement|Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.]]
 
 ### Slide And Transcript Signals
-- `youtube-bSG9wUYaHWU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-bSG9wUYaHWU`: code, context, fetch, retries, user, retry, write, function.
+- `youtube-bSG9wUYaHWU` — source page linked
 - Evidence links for `youtube-bSG9wUYaHWU`: [[youtube-bSG9wUYaHWU]], [[youtube-bSG9wUYaHWU-slides]], [[youtube-bSG9wUYaHWU-dense-slides]], [[youtube-bSG9wUYaHWU-reconstructed-slides]]

@@ -5,7 +5,6 @@ aliases: ["Emulated"]
 website: "https://emulated.so/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # Emulated
 
 ## What It Is

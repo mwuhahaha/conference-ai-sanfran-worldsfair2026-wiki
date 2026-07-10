@@ -5,7 +5,6 @@ aliases: ["Atlan"]
 website: "https://atlan.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Atlan
 
 ## What It Is

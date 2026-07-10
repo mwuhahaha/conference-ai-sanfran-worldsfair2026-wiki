@@ -1,0 +1,44 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Helpful resources\nmini-sglang and nano-vllm - simpler implementations of engine archs\nAleksa Gordic's walkthrough of vllm, Modal Notebooks [1], [2]\nDeepWiki from Cognition",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light gray",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Helpful resources",
+        "x": 15.0,
+        "y": 17.0,
+        "w": 30.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "mini-sglang and nano-vllm - simpler implementations of engine archs\nAleksa Gordic's walkthrough of vllm, Modal Notebooks [1], [2]\nDeepWiki from Cognition",
+        "x": 17.0,
+        "y": 30.0,
+        "w": 70.0,
+        "h": 40.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "slide-004.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-004.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667879.7108052,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Helpful resources\nmini-sglang and nano-vllm - simpler implementations of engine archs\nAleksa Gordic's walkthrough of vllm, Modal Notebooks [1], [2]\nDeepWiki from Cognition",
+  "advanced_ocr": {}
+}

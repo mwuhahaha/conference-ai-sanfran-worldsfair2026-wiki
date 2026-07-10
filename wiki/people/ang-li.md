@@ -36,6 +36,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents|'The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents']]
 
 ### Slide And Transcript Signals
-- `youtube-F_RyElT_gJk` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, claude, slop, cursor, tools, months, gemini, designed.
+- `youtube-F_RyElT_gJk` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, cursor, outcomes, claude, slop, incorrectly, replacement, google.
 - Evidence links for `youtube-F_RyElT_gJk`: [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]

@@ -38,3 +38,11 @@ If a later Track 7 room upload appears, it should be added here and used to revi
 - [[agent-evaluations]]
 - [[agent-memory]]
 - [[slide-library]]
+
+## Thematic Anchors
+Thematic anchors now exist for the two high-signal official Worldsfair livestreams with reconstructed slide decks:
+
+- [[youtube-4sX_He5c4sI]] - WF2026 Autoresearch And Keynotes; anchors: 4; reconstructed slide deck linked.
+- [[youtube-htM02KMNZnk]] - WF2026 Software Factories And Keynotes; anchors: 4; reconstructed slide deck linked.
+
+Use [[livestream-thematic-anchors]] before quoting or summarizing the livestreams; it keeps transcript, slide, and topic evidence separated.

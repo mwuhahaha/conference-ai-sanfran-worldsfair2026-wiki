@@ -5,7 +5,6 @@ aliases: ["Pydantic"]
 website: "https://pydantic.dev/docs/ai/overview/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Pydantic
 
 ## What It Is

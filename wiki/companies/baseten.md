@@ -5,7 +5,6 @@ aliases: ["Baseten"]
 website: "https://www.baseten.co/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Baseten
 
 ## What It Is

@@ -5,7 +5,6 @@ aliases: ["Kepler"]
 website: "https://kepler.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Kepler
 
 ## What It Is

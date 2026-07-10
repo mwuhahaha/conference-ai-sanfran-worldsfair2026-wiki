@@ -5,7 +5,6 @@ aliases: ["Every/Cora"]
 website: "https://cora.computer/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Every/Cora
 
 ## What It Is

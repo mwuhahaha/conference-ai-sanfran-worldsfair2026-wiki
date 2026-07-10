@@ -5,7 +5,6 @@ aliases: ["China Resources Holdings"]
 website: "https://en.crc.com.hk/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # China Resources Holdings
 
 ## What It Is

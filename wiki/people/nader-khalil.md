@@ -40,6 +40,6 @@ This section summarizes how this person appears across the conference source gra
 - `youtube-ESbWpPT_9-o` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
 - Evidence links for `youtube-ESbWpPT_9-o`: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
-- `youtube-84Vtz2IL1Ug` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-84Vtz2IL1Ug`: couple, minutes, earlier, inference, largest, market, ever, software.
+- `youtube-84Vtz2IL1Ug` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-84Vtz2IL1Ug`: llama, open, efficient, foundation, language, models, alpaca, strong.
 - Evidence links for `youtube-84Vtz2IL1Ug`: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]

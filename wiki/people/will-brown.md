@@ -36,9 +36,9 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-will-brown-reinforcement-learning-without-verifiable-rewards|Reinforcement Learning without Verifiable Rewards]]
 
 ### Slide And Transcript Signals
-- `youtube-PbHm2qKnu10` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-PbHm2qKnu10`: performance, observed, compute, models, research, lead, prime, intellect.
+- `youtube-PbHm2qKnu10` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-PbHm2qKnu10`: kinda, works, labs, doing, four, steps, matches, performance.
 - Evidence links for `youtube-PbHm2qKnu10`: [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
-- `youtube-JIsgyk0Paic` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-JIsgyk0Paic`: level, great, benchmarks, interactive, conversational, grok, problem, calls.
+- `youtube-JIsgyk0Paic` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-JIsgyk0Paic`: many, pipelines, feedback, best, practices, level, systems, take.
 - Evidence links for `youtube-JIsgyk0Paic`: [[youtube-JIsgyk0Paic]], [[youtube-JIsgyk0Paic-slides]], [[youtube-JIsgyk0Paic-dense-slides]], [[youtube-JIsgyk0Paic-reconstructed-slides]]

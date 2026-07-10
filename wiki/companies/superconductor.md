@@ -5,7 +5,6 @@ aliases: ["Superconductor"]
 website: "https://www.superconductor.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Public company documentation", "Public professional profile"]
 ---
-
 # Superconductor
 
 ## What It Is

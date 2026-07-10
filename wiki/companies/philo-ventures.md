@@ -5,7 +5,6 @@ aliases: ["Philo Ventures"]
 website: "https://philo.ventures/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Philo Ventures
 
 ## What It Is

@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Four claims to remember.\nThe new user\nWhich BM25?\nWhy it is effective\nBM25 + grep is all you need",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "white slide with four-panel grid",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Four claims to\nremember.",
+        "x": 15.0,
+        "y": 40.0,
+        "w": 28.0,
+        "h": 18.0
+      },
+      {
+        "role": "body",
+        "text": "01\nThe new user\nGPT-5 searches with operators, years, phrases, retries",
+        "x": 16.0,
+        "y": 64.0,
+        "w": 30.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "02\nWhich BM25?\nparser / chunks / fields / K1 / b / top-k",
+        "x": 55.0,
+        "y": 64.0,
+        "w": 31.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "03\nWhy it is effective\nexact, cheap, inspectable, steerable in the loop",
+        "x": 16.0,
+        "y": 82.0,
+        "w": 31.0,
+        "h": 16.0
+      },
+      {
+        "role": "body",
+        "text": "04\nBM25 + grep is all you need\nretrieve, inspect, narrow, verify, repeat",
+        "x": 54.0,
+        "y": 82.0,
+        "w": 37.0,
+        "h": 16.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "photo-009.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-009.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668090.9675572,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Four claims to remember.\nThe new user\nWhich BM25?\nWhy it is effective\nBM25 + grep is all you need",
+  "advanced_ocr": {}
+}

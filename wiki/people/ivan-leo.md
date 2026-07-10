@@ -26,6 +26,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-ivan-leo-an-interaction-is-all-you-need|An Interaction Is All You Need]]
 
 ### Slide And Transcript Signals
-- `youtube-xz0-brt56L8` — 6 slide-derived text signals
-- Slide-derived themes for `youtube-xz0-brt56L8`: wednesday, november, include, attachments, loft, delicious, coffee, lovely.
+- `youtube-xz0-brt56L8` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-xz0-brt56L8`: faster, better, quality, gain.
 - Evidence links for `youtube-xz0-brt56L8`: [[youtube-xz0-brt56L8]], [[youtube-xz0-brt56L8-slides]], [[youtube-xz0-brt56L8-dense-slides]], [[youtube-xz0-brt56L8-reconstructed-slides]]

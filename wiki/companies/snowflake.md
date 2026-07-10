@@ -5,7 +5,6 @@ aliases: ["Snowflake"]
 website: "https://www.snowflake.com/en/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Snowflake
 
 ## What It Is

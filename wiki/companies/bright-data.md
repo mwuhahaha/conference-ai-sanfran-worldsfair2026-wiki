@@ -5,7 +5,6 @@ aliases: ["Bright Data"]
 website: "https://brightdata.com/ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Bright Data
 
 ## What It Is
@@ -48,6 +47,5 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training|Video Discovery for Agentic World-Model Training]]
 
 ### Slide And Transcript Signals
-- `youtube-zTZ0qunQXnM` — 4 slide-derived text signals
-- Slide-derived themes for `youtube-zTZ0qunQXnM`: engineering, future, walmart, scraper, keyword, search, path, response.
+- `youtube-zTZ0qunQXnM` — source page linked
 - Evidence links for `youtube-zTZ0qunQXnM`: [[youtube-zTZ0qunQXnM]], [[youtube-zTZ0qunQXnM-slides]], [[youtube-zTZ0qunQXnM-reconstructed-slides]]

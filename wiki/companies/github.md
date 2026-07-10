@@ -5,7 +5,6 @@ aliases: ["GitHub"]
 website: "https://github.com?ref=github.co"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # GitHub
 
 ## What It Is

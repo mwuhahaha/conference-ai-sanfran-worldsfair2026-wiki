@@ -37,6 +37,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-jason-liu-setting-yourself-up-for-success-part-3|Setting Yourself Up for Success — Part 3]]
 
 ### Slide And Transcript Signals
-- `youtube-jryZvCuA0Uc` — 3 slide-derived text signals
-- Slide-derived themes for `youtube-jryZvCuA0Uc`: look, data, jeff, huber, jason, read, full, report.
+- `youtube-jryZvCuA0Uc` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-jryZvCuA0Uc`: read, full, report.
 - Evidence links for `youtube-jryZvCuA0Uc`: [[youtube-jryZvCuA0Uc]], [[youtube-jryZvCuA0Uc-slides]], [[youtube-jryZvCuA0Uc-dense-slides]], [[youtube-jryZvCuA0Uc-reconstructed-slides]]

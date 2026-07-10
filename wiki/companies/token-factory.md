@@ -5,7 +5,6 @@ aliases: ["Token Factory"]
 website: "https://tokenfactory.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Token Factory
 
 ## What It Is

@@ -29,6 +29,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]]
 
 ### Slide And Transcript Signals
-- `youtube-8SUJEqQNClw` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-8SUJEqQNClw`: typescript, framework, users, sometimes, giving, gatsby, author, principles.
+- `youtube-8SUJEqQNClw` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-8SUJEqQNClw`: december, wrote, great, blog, post, defined, workflows, april.
 - Evidence links for `youtube-8SUJEqQNClw`: [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]

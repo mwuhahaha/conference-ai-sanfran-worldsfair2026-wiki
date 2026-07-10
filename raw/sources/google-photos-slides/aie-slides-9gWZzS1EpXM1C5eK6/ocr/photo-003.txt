@@ -1,0 +1,16 @@
+Using the NSight Systems/Torch Profilers (CuPTI)
+13 1 37853734
+16716 DP3L 100%
+CUDAHWDOC3 300020-X
+NCCI
+00030-N
+NCCL
+NCOL Threads(187)
+CUDAHW(000250010-N
+AISTN
+NCCL
+00010-N
+AR
+NCCL
+..
+Modal Threds(91) 2ste Stra

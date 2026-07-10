@@ -5,7 +5,6 @@ aliases: ["NVIDIA", "Nvidia"]
 website: "https://www.nvidia.com/en-us/solutions/ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # NVIDIA
 
 ## What It Is
@@ -65,9 +64,9 @@ This section summarizes how this organization appears across the conference sour
 - `youtube-ESbWpPT_9-o` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.
 - Evidence links for `youtube-ESbWpPT_9-o`: [[youtube-ESbWpPT_9-o]], [[youtube-ESbWpPT_9-o-slides]], [[youtube-ESbWpPT_9-o-dense-slides]], [[youtube-ESbWpPT_9-o-reconstructed-slides]]
-- `youtube-OV56RddyFuU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-OV56RddyFuU`: models, community, trending, image, pare, update, mode, tees.
+- `youtube-OV56RddyFuU` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-OV56RddyFuU`: models, does, matter, absolute, control, over, cost, reduction.
 - Evidence links for `youtube-OV56RddyFuU`: [[youtube-OV56RddyFuU]], [[youtube-OV56RddyFuU-slides]], [[youtube-OV56RddyFuU-dense-slides]], [[youtube-OV56RddyFuU-reconstructed-slides]]
-- `youtube-84Vtz2IL1Ug` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-84Vtz2IL1Ug`: couple, minutes, earlier, inference, largest, market, ever, software.
+- `youtube-84Vtz2IL1Ug` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-84Vtz2IL1Ug`: llama, open, efficient, foundation, language, models, alpaca, strong.
 - Evidence links for `youtube-84Vtz2IL1Ug`: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]

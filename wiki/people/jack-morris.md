@@ -29,6 +29,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-jack-morris-scaling-compute-on-context|Scaling Compute on Context]]
 
 ### Slide And Transcript Signals
-- `youtube-Jty4s9-Jb78` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-Jty4s9-Jb78`: tokens, context, output, knowledge, given, user, second, blue.
+- `youtube-Jty4s9-Jb78` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-Jty4s9-Jb78`: fixed, capacity, probably.
 - Evidence links for `youtube-Jty4s9-Jb78`: [[youtube-Jty4s9-Jb78]], [[youtube-Jty4s9-Jb78-slides]], [[youtube-Jty4s9-Jb78-dense-slides]], [[youtube-Jty4s9-Jb78-reconstructed-slides]]

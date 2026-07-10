@@ -5,7 +5,6 @@ aliases: ["Snyk"]
 website: "https://snyk.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Snyk
 
 ## What It Is

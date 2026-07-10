@@ -5,7 +5,6 @@ aliases: ["FlyersSoft"]
 website: "https://www.flyerssoft.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # FlyersSoft
 
 ## What It Is

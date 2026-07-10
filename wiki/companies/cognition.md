@@ -5,7 +5,6 @@ aliases: ["Cognition"]
 website: "https://cognition.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Cognition
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-nader-khalil-model-routing|Model Routing]]
 
 ### Slide And Transcript Signals
-- `youtube-84Vtz2IL1Ug` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-84Vtz2IL1Ug`: couple, minutes, earlier, inference, largest, market, ever, software.
+- `youtube-84Vtz2IL1Ug` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-84Vtz2IL1Ug`: llama, open, efficient, foundation, language, models, alpaca, strong.
 - Evidence links for `youtube-84Vtz2IL1Ug`: [[youtube-84Vtz2IL1Ug]], [[youtube-84Vtz2IL1Ug-slides]], [[youtube-84Vtz2IL1Ug-dense-slides]], [[youtube-84Vtz2IL1Ug-reconstructed-slides]]

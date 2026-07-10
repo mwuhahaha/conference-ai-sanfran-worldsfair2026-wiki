@@ -61,9 +61,6 @@ This section is generated from all currently linked source material for the arti
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-ESbWpPT_9-o`
-- Slide deck: [[youtube-ESbWpPT_9-o-dense-slides|Dense Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]] — 4 visible slide image(s).
-![[assets/dense-slides/ESbWpPT_9-o/slide-001.jpg]]
-![[assets/dense-slides/ESbWpPT_9-o/slide-002.jpg]]
-![[assets/dense-slides/ESbWpPT_9-o/slide-003.jpg]]
+- Slide deck: [[youtube-ESbWpPT_9-o-dense-slides|Dense Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]] — no readable content slides after AI classification.
 - Additional slide evidence: [[youtube-ESbWpPT_9-o-slides|Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]], [[youtube-ESbWpPT_9-o-reconstructed-slides|Reconstructed Slides: Run Frontier AI at Home — Alex Cheema, EXO Labs]]
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.

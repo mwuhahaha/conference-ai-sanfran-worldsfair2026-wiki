@@ -5,7 +5,6 @@ aliases: ["Onlay"]
 website: "https://onlay.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Onlay
 
 ## What It Is

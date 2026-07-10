@@ -29,7 +29,7 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-pablo-castro-on-ai-and-knowledge|On AI and Knowledge]]
 
 ### Slide And Transcript Signals
-- `youtube-htM02KMNZnk` — 89,050 transcript words; 10 slide-derived text signals
+- `youtube-htM02KMNZnk` — 89,050 transcript words; 4 slide-derived text signals
 - Transcript signals for `youtube-htM02KMNZnk`: model, code, models, loop, well, software, first, team.
-- Slide-derived themes for `youtube-htM02KMNZnk`: apps, github, copilot, hybrid, welcome, engineer, fair, single.
+- Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
 - Evidence links for `youtube-htM02KMNZnk`: [[youtube-htM02KMNZnk]], [[youtube-htM02KMNZnk-transcript]], [[youtube-htM02KMNZnk-slides]], [[youtube-htM02KMNZnk-dense-slides]], [[youtube-htM02KMNZnk-reconstructed-slides]]

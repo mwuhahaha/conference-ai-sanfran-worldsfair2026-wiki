@@ -1,0 +1,6 @@
+Gemini APl inputs and outputs
+system instructions
+text 三
+code text
+APlinformation speech image audio video fx fx <> image audio video function call code
+URLS

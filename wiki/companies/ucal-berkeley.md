@@ -5,7 +5,6 @@ aliases: ["UCAL Berkeley"]
 website: "https://www.berkeley.edu/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # UCAL Berkeley
 
 ## What It Is

@@ -52,9 +52,8 @@ This section is generated from all currently linked source material for the arti
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-2vlCqD6igVA`
-- Slide deck: [[youtube-2vlCqD6igVA-reconstructed-slides|Reconstructed Slides: Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon]] — 4 visible slide image(s).
-![[assets/reconstructed-slides/2vlCqD6igVA/slide-001.jpg]]
-![[assets/reconstructed-slides/2vlCqD6igVA/slide-002.jpg]]
+- Slide deck: [[youtube-2vlCqD6igVA-reconstructed-slides|Reconstructed Slides: Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon]] — 2 visible slide image(s); 2 HTML recreation(s).
 ![[assets/reconstructed-slides/2vlCqD6igVA/slide-003.jpg]]
+![[assets/reconstructed-slides/2vlCqD6igVA/slide-004.jpg]]
 - Additional slide evidence: [[youtube-2vlCqD6igVA-slides|Slides: Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon]]
 - Slide-derived themes for `youtube-2vlCqD6igVA`: search, query, latte, enriching, exploratory, queries, extract, catalog.

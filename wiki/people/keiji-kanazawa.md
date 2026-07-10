@@ -31,6 +31,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-keiji-kanazawa-i-let-agents-refactor-my-codebase-for-3-weeks-then-i-read-the-code|I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.]]
 
 ### Slide And Transcript Signals
-- `youtube-JhJKgRAmfIU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-JhJKgRAmfIU`: azure, project, foundry, microsoft, teaming, accelerate, safety, security.
+- `youtube-JhJKgRAmfIU` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-JhJKgRAmfIU`: does, handle, loot, bank.
 - Evidence links for `youtube-JhJKgRAmfIU`: [[youtube-JhJKgRAmfIU]], [[youtube-JhJKgRAmfIU-slides]], [[youtube-JhJKgRAmfIU-dense-slides]], [[youtube-JhJKgRAmfIU-reconstructed-slides]]

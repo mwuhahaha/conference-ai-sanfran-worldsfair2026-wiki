@@ -27,6 +27,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-thariq-shihipar-field-guide-to-fable|Field Guide to Fable]]
 
 ### Slide And Transcript Signals
-- `youtube-TqC1qOfiVcQ` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, code, file, system, tools, prompts, custom, features.
+- `youtube-TqC1qOfiVcQ` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-TqC1qOfiVcQ`: claude, custom, file, system, code, tool, systems, servers.
 - Evidence links for `youtube-TqC1qOfiVcQ`: [[youtube-TqC1qOfiVcQ]], [[youtube-TqC1qOfiVcQ-slides]], [[youtube-TqC1qOfiVcQ-dense-slides]], [[youtube-TqC1qOfiVcQ-reconstructed-slides]]

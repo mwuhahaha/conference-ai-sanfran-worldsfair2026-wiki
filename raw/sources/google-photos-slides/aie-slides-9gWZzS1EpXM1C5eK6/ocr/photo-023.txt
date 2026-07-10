@@ -1,0 +1,3 @@
+Take auth out of the model's hands GENERATE SHAREHOLDER VALUE / BUILD V4
+authenticateonportal
+Request request authenticate serverlessfn authedsession harness Agent drive/observe Browser

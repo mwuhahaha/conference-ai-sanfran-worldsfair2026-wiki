@@ -5,7 +5,6 @@ aliases: ["Yutori"]
 website: "https://yutori.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Yutori
 
 ## What It Is

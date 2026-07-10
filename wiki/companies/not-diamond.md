@@ -5,7 +5,6 @@ aliases: ["Not Diamond"]
 website: "https://www.notdiamond.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Not Diamond
 
 ## What It Is

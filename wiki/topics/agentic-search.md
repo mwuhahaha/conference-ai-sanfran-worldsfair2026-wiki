@@ -152,13 +152,126 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens|CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens]]
 
 ### Slide And Transcript Signals
-- `youtube-xnXqpUW_Kp8` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, queries, biden, information, traditional, search, engines, humans.
+- `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: humans, built, information, traditional, search, engines, type, simple.
 - Evidence links for `youtube-xnXqpUW_Kp8`: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
-- Slide-derived themes for `youtube-4sX_He5c4sI`: examples, tools, lots, many, tool, search, immediate.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
 - Evidence links for `youtube-4sX_He5c4sI`: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- `youtube-eW_vxrjvERk` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-eW_vxrjvERk`: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
+- `youtube-eW_vxrjvERk` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-eW_vxrjvERk`: enter, conversations, github, memory, podcast, press, send, shit.
 - Evidence links for `youtube-eW_vxrjvERk`: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
+## Evidence Table
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 50 | Related pages outside the main evidence categories. |
+| resources | 21 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 16 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 4 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]]
+- [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]]
+- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]]
+- [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
+
+### Resources
+- [[youtube-1IdzkRVmWAA]]
+- [[youtube-UM6sFg_jdlE]]
+- [[youtube-Akm1sqvWG4A]]
+- [[youtube-zKk7sDMGDEQ]]
+- [[youtube-T0HhO4YtTfE]]
+- [[youtube-OXMMN-XbxwA]]
+
+### Slides
+- [[youtube-HsxQICTLF84-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-1IdzkRVmWAA-slides]]
+- [[youtube-2e9ANoOEn28-slides]]
+- [[youtube-CLttOU7n6sI-slides]]
+- [[youtube-UcYoMg-8-L8-slides]]
+
+### Transcripts
+- [[youtube-4sX_He5c4sI-transcript]]
+
+### Tools
+- [[neo4j]]
+- [[exa]]
+- [[llamaindex]]
+- [[prime-intellect]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]]
+- [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]]
+- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]]
+- [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
+
+### Resources
+- [[youtube-1IdzkRVmWAA]]
+- [[youtube-UM6sFg_jdlE]]
+- [[youtube-Akm1sqvWG4A]]
+- [[youtube-zKk7sDMGDEQ]]
+- [[youtube-T0HhO4YtTfE]]
+- [[youtube-OXMMN-XbxwA]]
+
+### Slides
+- [[youtube-HsxQICTLF84-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-1IdzkRVmWAA-slides]]
+- [[youtube-2e9ANoOEn28-slides]]
+- [[youtube-CLttOU7n6sI-slides]]
+- [[youtube-UcYoMg-8-L8-slides]]
+
+### Transcripts
+- [[youtube-4sX_He5c4sI-transcript]]
+
+### Tools
+- [[neo4j]]
+- [[exa]]
+- [[llamaindex]]
+- [[prime-intellect]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-session-vector-isn-t-enough-hybrid-search-and-retrieval-for-ai-engineers]]
+- [[2026-06-29-jo-kristian-bergum-the-unreasonable-effectiveness-of-bm25-for-agentic-search]]
+- [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web]]
+- [[2026-06-29-maximilian-david-rumpf-where-rl-will-take-search]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
+
+### Resources
+- [[youtube-1IdzkRVmWAA]]
+- [[youtube-UM6sFg_jdlE]]
+- [[youtube-Akm1sqvWG4A]]
+- [[youtube-zKk7sDMGDEQ]]
+- [[youtube-T0HhO4YtTfE]]
+- [[youtube-OXMMN-XbxwA]]
+
+### Slides
+- [[youtube-HsxQICTLF84-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-1IdzkRVmWAA-slides]]
+- [[youtube-2e9ANoOEn28-slides]]
+- [[youtube-CLttOU7n6sI-slides]]
+- [[youtube-UcYoMg-8-L8-slides]]
+
+### Transcripts
+- [[youtube-4sX_He5c4sI-transcript]]
+
+### Tools
+- [[neo4j]]
+- [[exa]]
+- [[llamaindex]]
+- [[prime-intellect]]

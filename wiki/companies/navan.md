@@ -5,7 +5,6 @@ aliases: ["Navan"]
 website: "https://navan.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Navan
 
 ## What It Is

@@ -29,6 +29,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind|Research to Reality with Google DeepMind]]
 
 ### Slide And Transcript Signals
-- `youtube-G_bHFmEAarM` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-G_bHFmEAarM`: output, google, gemini, flash, lite, paid, grounding, latest.
+- `youtube-G_bHFmEAarM` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
 - Evidence links for `youtube-G_bHFmEAarM`: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]

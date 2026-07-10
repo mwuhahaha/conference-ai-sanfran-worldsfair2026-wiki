@@ -5,7 +5,6 @@ aliases: ["QuantumBlack, AI by McKinsey"]
 website: "https://www.mckinsey.com/capabilities/quantumblack/overview"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # QuantumBlack, AI by McKinsey
 
 ## What It Is

@@ -5,7 +5,6 @@ aliases: ["Zep AI"]
 website: "https://www.getzep.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Zep AI
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs|Citation Needed: Provenance for LLM-Built Knowledge Graphs]]
 
 ### Slide And Transcript Signals
-- `youtube-T5IMo5ntyhA` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-T5IMo5ntyhA`: text, memory, description, goal, financial, type, target, amount.
+- `youtube-T5IMo5ntyhA` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-T5IMo5ntyhA`: daniel, media, assistant, remembers, everything, except, listening, habits.
 - Evidence links for `youtube-T5IMo5ntyhA`: [[youtube-T5IMo5ntyhA]], [[youtube-T5IMo5ntyhA-slides]], [[youtube-T5IMo5ntyhA-dense-slides]], [[youtube-T5IMo5ntyhA-reconstructed-slides]]

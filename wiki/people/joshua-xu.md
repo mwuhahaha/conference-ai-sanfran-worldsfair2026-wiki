@@ -29,6 +29,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-howie-liu-startup-battlefield|Startup Battlefield]]
 
 ### Slide And Transcript Signals
-- `youtube-zepu8Kk6FBQ` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, such, vibe, most, josh, snyder, speakers.
+- `youtube-zepu8Kk6FBQ` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-zepu8Kk6FBQ`: teams, tiny, moro, than, rarefied, already, profitable, most.
 - Evidence links for `youtube-zepu8Kk6FBQ`: [[youtube-zepu8Kk6FBQ]], [[youtube-zepu8Kk6FBQ-slides]], [[youtube-zepu8Kk6FBQ-dense-slides]], [[youtube-zepu8Kk6FBQ-reconstructed-slides]]

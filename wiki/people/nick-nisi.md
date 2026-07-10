@@ -34,6 +34,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks|>-]]
 
 ### Slide And Transcript Signals
-- `youtube-so9l_MwS2yg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-so9l_MwS2yg`: system, find, export, function, next, token, headers, authorization.
+- `youtube-so9l_MwS2yg` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-so9l_MwS2yg`: bottleneck, imagining, recommend, finding, developer, balance.
 - Evidence links for `youtube-so9l_MwS2yg`: [[youtube-so9l_MwS2yg]], [[youtube-so9l_MwS2yg-slides]], [[youtube-so9l_MwS2yg-reconstructed-slides]]

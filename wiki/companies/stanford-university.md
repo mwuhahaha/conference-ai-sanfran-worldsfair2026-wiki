@@ -5,7 +5,6 @@ aliases: ["Stanford University"]
 website: "https://www.stanford.edu/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Stanford University
 
 ## What It Is

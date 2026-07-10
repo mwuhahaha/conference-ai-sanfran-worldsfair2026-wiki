@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-rcsliSIy_YU` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-rcsliSIy_YU`: code, showcase, automating, massive, robert, brennan, generation, implement.
+- `youtube-rcsliSIy_YU` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-rcsliSIy_YU`: coding, code, snippets, generation, single, atomic, tasks, curl.
 - Evidence links for `youtube-rcsliSIy_YU`: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-rcsliSIy_YU`
-- Slide deck: [[youtube-rcsliSIy_YU-dense-slides|Dense Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands]] — 17 visible slide image(s).
+- Slide deck: [[youtube-rcsliSIy_YU-dense-slides|Dense Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands]] — 16 visible slide image(s); 16 HTML recreation(s).
 ![[assets/dense-slides/rcsliSIy_YU/slide-001.jpg]]
 ![[assets/dense-slides/rcsliSIy_YU/slide-002.jpg]]
 ![[assets/dense-slides/rcsliSIy_YU/slide-003.jpg]]
 - Additional slide evidence: [[youtube-rcsliSIy_YU-slides|Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands]], [[youtube-rcsliSIy_YU-reconstructed-slides|Reconstructed Slides: Automating Large Scale Refactors with Parallel Agents - Robert Brennan, OpenHands]]
-- Slide-derived themes for `youtube-rcsliSIy_YU`: code, showcase, automating, massive, robert, brennan, generation, implement.
+- Slide-derived themes for `youtube-rcsliSIy_YU`: coding, code, snippets, generation, single, atomic, tasks, curl.

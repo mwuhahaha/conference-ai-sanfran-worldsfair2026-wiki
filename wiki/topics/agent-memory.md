@@ -157,16 +157,123 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-30-shlok-khemani-lessons-from-studying-every-memory-system|Lessons from Studying Every Memory System]]
 
 ### Slide And Transcript Signals
-- `youtube-wNH3q9pqn0U` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-wNH3q9pqn0U`: solution, water, growth, crystal, salt, input, sources, services.
+- `youtube-wNH3q9pqn0U` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-wNH3q9pqn0U`: sound, request, beaker, crystals.
 - Evidence links for `youtube-wNH3q9pqn0U`: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]
-- `youtube-eW_vxrjvERk` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-eW_vxrjvERk`: context, slack, knowledge, enhance, relevance, domain, alternatives, considered.
+- `youtube-eW_vxrjvERk` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-eW_vxrjvERk`: enter, conversations, github, memory, podcast, press, send, shit.
 - Evidence links for `youtube-eW_vxrjvERk`: [[youtube-eW_vxrjvERk]], [[youtube-eW_vxrjvERk-slides]], [[youtube-eW_vxrjvERk-dense-slides]], [[youtube-eW_vxrjvERk-reconstructed-slides]]
-- `youtube-I2cbIws9j10` — 91,792 transcript words; 4 slide-derived text signals
+- `youtube-I2cbIws9j10` — 91,792 transcript words; 7 slide-derived text signals
 - Transcript signals for `youtube-I2cbIws9j10`: code, model, back, system, well, first, today, even.
-- Slide-derived themes for `youtube-I2cbIws9j10`: choosing, model, quality, dominates, agentic, capabilities, customization, support.
+- Slide-derived themes for `youtube-I2cbIws9j10`: context, window, selects, response, facts, retry, coerce, rollback.
 - Evidence links for `youtube-I2cbIws9j10`: [[youtube-I2cbIws9j10]], [[youtube-I2cbIws9j10-transcript]], [[youtube-I2cbIws9j10-slides]], [[youtube-I2cbIws9j10-dense-slides]]
 - `youtube-ZRM_TfEZcIo` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, plus, notion, google, drive, growing, files, month.
+- Slide-derived themes for `youtube-ZRM_TfEZcIo`: obsidian, google, plus, notion, drive, growing, files, month.
 - Evidence links for `youtube-ZRM_TfEZcIo`: [[youtube-ZRM_TfEZcIo]], [[youtube-ZRM_TfEZcIo-slides]], [[youtube-ZRM_TfEZcIo-dense-slides]], [[youtube-ZRM_TfEZcIo-reconstructed-slides]]
+## Evidence Table
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 53 | Related pages outside the main evidence categories. |
+| resources | 22 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 18 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]]
+- [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]]
+- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents]]
+- [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents]]
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens]]
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
+
+### Resources
+- [[youtube-4kYl2_mqmnQ]]
+- [[youtube-EcqMYoIV57A]]
+- [[youtube-B9h9ovW5H9U]]
+- [[youtube-TUnPNY4E2fw]]
+- [[youtube-UNzCG3lw6O0]]
+- [[youtube-zKk7sDMGDEQ]]
+
+### Slides
+- [[youtube-HEFSExa0xl0-slides]]
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-UcYoMg-8-L8-slides]]
+- [[youtube-kZsf_Sfm7RU-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+
+### Transcripts
+- [[youtube-I2cbIws9j10-transcript]]
+
+### Tools
+- [[neo4j]]
+- [[mcp-apps]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]]
+- [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]]
+- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents]]
+- [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents]]
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens]]
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
+
+### Resources
+- [[youtube-4kYl2_mqmnQ]]
+- [[youtube-EcqMYoIV57A]]
+- [[youtube-B9h9ovW5H9U]]
+- [[youtube-TUnPNY4E2fw]]
+- [[youtube-UNzCG3lw6O0]]
+- [[youtube-zKk7sDMGDEQ]]
+
+### Slides
+- [[youtube-HEFSExa0xl0-slides]]
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-UcYoMg-8-L8-slides]]
+- [[youtube-kZsf_Sfm7RU-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+
+### Transcripts
+- [[youtube-I2cbIws9j10-transcript]]
+
+### Tools
+- [[neo4j]]
+- [[mcp-apps]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]]
+- [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]]
+- [[2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents]]
+- [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents]]
+- [[2026-07-01-stephen-chin-crabrag-why-automated-assistants-need-graph-memory-not-more-tokens]]
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
+
+### Resources
+- [[youtube-4kYl2_mqmnQ]]
+- [[youtube-EcqMYoIV57A]]
+- [[youtube-B9h9ovW5H9U]]
+- [[youtube-TUnPNY4E2fw]]
+- [[youtube-UNzCG3lw6O0]]
+- [[youtube-zKk7sDMGDEQ]]
+
+### Slides
+- [[youtube-HEFSExa0xl0-slides]]
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-UcYoMg-8-L8-slides]]
+- [[youtube-kZsf_Sfm7RU-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+
+### Transcripts
+- [[youtube-I2cbIws9j10-transcript]]
+
+### Tools
+- [[neo4j]]
+- [[mcp-apps]]

@@ -5,7 +5,6 @@ aliases: ["AssemblyAI"]
 website: "https://www.assemblyai.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # AssemblyAI
 
 ## What It Is

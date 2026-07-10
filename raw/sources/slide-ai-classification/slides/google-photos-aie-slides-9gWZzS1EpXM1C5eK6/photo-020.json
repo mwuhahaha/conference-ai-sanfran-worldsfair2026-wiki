@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Better Tools and Organisation are about breaking ceilings\nand organisation. demonstrates the importance of both tools benchmark. The current state of the leaderboard MadQA is a PDF-based enterprise task QA Gemini 3.5 Flash + Mixedbread Searcher Agent Gemini 3.5 Flash + Mixedbread Search Tool Human + Oracle (Perfect) Documents Accuracy 99.4 93.4 88.9\nneeded! for human and agent. Better tools are For tools, BM25 hits the same ceiling Human + BM25 Gemini 3 Pro + BM25 82.2 82.2\nover a third! assistants paradigm narrows the gap between agents and humans by For organisation, moving from an \"everything-agent\" to a decoupled FromtheOfficial MadQA Leaderboard\n14",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense slide with a table, multiple bullets, and small text that OCR can capture better than visual transcription.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light off-white slide on dark stage",
+    "style": "table",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Better Tools and Organisation are about breaking ceilings",
+        "x": 0,
+        "y": 39.0,
+        "w": 86.0,
+        "h": 11.0
+      },
+      {
+        "role": "body",
+        "text": "MadQA is a PDF-based enterprise task QA benchmark.\nThe current state of the leaderboard demonstrates the importance of both tools and organisation.\nFor tools, BM25 hits the same ceiling for human and agent. Better tools are needed!\nFor organisation, moving from an “everything-agent” to a decoupled assistants paradigm narrows the gap between agents and humans by over a third!",
+        "x": 2.0,
+        "y": 47.0,
+        "w": 39.0,
+        "h": 42.0
+      },
+      {
+        "role": "table",
+        "text": "Human + Oracle (Perfect) Documents 99.4\nGemini 3.5 Flash + Mixedbread Searcher Agent 93.4\nGemini 3.5 Flash + Mixedbread Search Tool 88.9\nGemini 3 Pro + BM25 82.2\nHuman + BM25 82.2",
+        "x": 43.0,
+        "y": 47.0,
+        "w": 48.0,
+        "h": 37.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "slide-002.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-020.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668627.7861798,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Better Tools and Organisation are about breaking ceilings\nand organisation. demonstrates the importance of both tools benchmark. The current state of the leaderboard MadQA is a PDF-based enterprise task QA Gemini 3.5 Flash + Mixedbread Searcher Agent Gemini 3.5 Flash + Mixedbread Search Tool Human + Oracle (Perfect) Documents Accuracy 99.4 93.4 88.9\nneeded! for human and agent. Better tools are For tools, BM25 hits the same ceiling Human + BM25 Gemini 3 Pro + BM25 82.2 82.2\nover a third! assistants paradigm narrows the gap between agents and humans by For organisation, moving from an \"everything-agent\" to a decoupled FromtheOfficial MadQA Leaderboard\n14",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 832.64
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Better Tools and Organisation are about breaking ceilings\nand organisation. demonstrates the importance of both tools benchmark. The current state of the leaderboard MadQA is a PDF-based enterprise task QA Gemini 3.5 Flash + Mixedbread Searcher Agent Gemini 3.5 Flash + Mixedbread Search Tool Human + Oracle (Perfect) Documents Accuracy 99.4 93.4 88.9\nneeded! for human and agent. Better tools are For tools, BM25 hits the same ceiling Human + BM25 Gemini 3 Pro + BM25 82.2 82.2\nover a third! assistants paradigm narrows the gap between agents and humans by For organisation, moving from an \"everything-agent\" to a decoupled FromtheOfficial MadQA Leaderboard\n14",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Graduate the converged path into a skill GENERATE SHAREHOLDER VALUE:/ BUILD V5\nthe skill at runtime and is therefore more likely to execute on the critical path.\nRUNTIME\nAGENTHARNESS\nRequest invokes Model Tooling Layer drive/observe Browser\ncritical.path. Skill",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture slide with a large diagram and smaller explanatory text; OCR is a better fit than manual transcription in this pass.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light off-white slide on dark stage",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Graduate the converged path into a skill",
+        "x": 4.0,
+        "y": 19.0,
+        "w": 57.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Run the hardened agent until it converges, then document the critical path into a skill. The agent invokes the skill at runtime and is therefore more likely to execute on the critical path.",
+        "x": 4.0,
+        "y": 29.0,
+        "w": 72.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Request / RUNTIME / AGENT HARNESS / Model / Tooling Layer / Skill / Browser",
+        "x": 10.0,
+        "y": 66.0,
+        "w": 75.0,
+        "h": 24.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-024.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668800.199325,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "text": "Graduate the converged path into a skill GENERATE SHAREHOLDER VALUE:/ BUILD V5\nthe skill at runtime and is therefore more likely to execute on the critical path.\nRUNTIME\nAGENTHARNESS\nRequest invokes Model Tooling Layer drive/observe Browser\ncritical.path. Skill",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 414.04
+  },
+  "ocr_source": "rapidocr-live/bright-screen/opencv-adaptive",
+  "ocr_reconcile": {
+    "text": "Graduate the converged path into a skill GENERATE SHAREHOLDER VALUE:/ BUILD V5\nthe skill at runtime and is therefore more likely to execute on the critical path.\nRUNTIME\nAGENTHARNESS\nRequest invokes Model Tooling Layer drive/observe Browser\ncritical.path. Skill",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -44,17 +44,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-himhGiWJXjo` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-himhGiWJXjo`: customer, data, query, select, public, order, title, creatures.
+- `youtube-himhGiWJXjo` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-himhGiWJXjo`: data, embrace, overlords, give, deal, acme, stuck, stage.
 - Evidence links for `youtube-himhGiWJXjo`: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-himhGiWJXjo`
-- Slide deck: [[youtube-himhGiWJXjo-reconstructed-slides|Reconstructed Slides: Realtime Data Connectivity for AI: Tanmai Gopal]] — 13 visible slide image(s).
-![[assets/reconstructed-slides/himhGiWJXjo/slide-001.jpg]]
+- Slide deck: [[youtube-himhGiWJXjo-reconstructed-slides|Reconstructed Slides: Realtime Data Connectivity for AI: Tanmai Gopal]] — 9 visible slide image(s); 9 HTML recreation(s).
 ![[assets/reconstructed-slides/himhGiWJXjo/slide-002.jpg]]
-![[assets/reconstructed-slides/himhGiWJXjo/slide-003.jpg]]
+![[assets/reconstructed-slides/himhGiWJXjo/slide-004.jpg]]
+![[assets/reconstructed-slides/himhGiWJXjo/slide-005.jpg]]
 - Additional slide evidence: [[youtube-himhGiWJXjo-slides|Slides: Realtime Data Connectivity for AI: Tanmai Gopal]]
-- Slide-derived themes for `youtube-himhGiWJXjo`: customer, data, query, select, public, order, title, creatures.
+- Slide-derived themes for `youtube-himhGiWJXjo`: data, embrace, overlords, give, deal, acme, stuck, stage.

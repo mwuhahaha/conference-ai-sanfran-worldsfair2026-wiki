@@ -51,15 +51,16 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-sl3icG-IjHo` — source page linked
+- `youtube-sl3icG-IjHo` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-sl3icG-IjHo`: tools, context, workflows, sequential, behave, unclear, incomplete, instructions.
 - Evidence links for `youtube-sl3icG-IjHo`: [[youtube-sl3icG-IjHo]], [[youtube-sl3icG-IjHo-slides]], [[youtube-sl3icG-IjHo-dense-slides]], [[youtube-sl3icG-IjHo-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-sl3icG-IjHo`
-- Slide deck: [[youtube-sl3icG-IjHo-dense-slides|Dense Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]] — 3 visible slide image(s).
+- Slide deck: [[youtube-sl3icG-IjHo-dense-slides|Dense Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]] — 2 visible slide image(s); 2 HTML recreation(s).
 ![[assets/dense-slides/sl3icG-IjHo/slide-001.jpg]]
 ![[assets/dense-slides/sl3icG-IjHo/slide-002.jpg]]
-![[assets/dense-slides/sl3icG-IjHo/slide-003.jpg]]
 - Additional slide evidence: [[youtube-sl3icG-IjHo-slides|Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]], [[youtube-sl3icG-IjHo-reconstructed-slides|Reconstructed Slides: How to Build Planning Agents without losing control - Yogendra Miraje, Factset]]
+- Slide-derived themes for `youtube-sl3icG-IjHo`: tools, context, workflows, sequential, behave, unclear, incomplete, instructions.

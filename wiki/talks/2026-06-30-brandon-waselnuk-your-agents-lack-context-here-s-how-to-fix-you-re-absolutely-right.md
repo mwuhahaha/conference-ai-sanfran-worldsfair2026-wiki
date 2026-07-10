@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-BiG2ssibKGc` — 5 slide-derived text signals
-- Slide-derived themes for `youtube-BiG2ssibKGc`: context, engineering, stop, babysitting, engine, code, future, creating.
+- `youtube-BiG2ssibKGc` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-BiG2ssibKGc`: stop, babysitting, context, engine, code, europe.
 - Evidence links for `youtube-BiG2ssibKGc`: [[youtube-BiG2ssibKGc]], [[youtube-BiG2ssibKGc-slides]], [[youtube-BiG2ssibKGc-dense-slides]], [[youtube-BiG2ssibKGc-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-BiG2ssibKGc`
-- Slide deck: [[youtube-BiG2ssibKGc-dense-slides|Dense Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked]] — 1 visible slide image(s).
+- Slide deck: [[youtube-BiG2ssibKGc-dense-slides|Dense Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/BiG2ssibKGc/slide-001.jpg]]
 - Additional slide evidence: [[youtube-BiG2ssibKGc-slides|Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked]], [[youtube-BiG2ssibKGc-reconstructed-slides|Reconstructed Slides: Stop babysitting your agents... — Brandon Waselnuk, Unblocked]]
-- Slide-derived themes for `youtube-BiG2ssibKGc`: context, engineering, stop, babysitting, engine, code, future, creating.
+- Slide-derived themes for `youtube-BiG2ssibKGc`: stop, babysitting, context, engine, code, europe.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

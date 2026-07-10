@@ -58,8 +58,7 @@ This section is generated from all currently linked source material for the arti
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-gmTHs5T_YAE`
-- Slide deck: [[youtube-gmTHs5T_YAE-dense-slides|Dense Slides: Optimizing inference for voice models in production - Philip Kiely, Baseten]] — 3 visible slide image(s).
-![[assets/dense-slides/gmTHs5T_YAE/slide-001.jpg]]
+- Slide deck: [[youtube-gmTHs5T_YAE-dense-slides|Dense Slides: Optimizing inference for voice models in production - Philip Kiely, Baseten]] — 2 visible slide image(s); 2 HTML recreation(s).
 ![[assets/dense-slides/gmTHs5T_YAE/slide-002.jpg]]
 ![[assets/dense-slides/gmTHs5T_YAE/slide-003.jpg]]
 - Additional slide evidence: [[youtube-gmTHs5T_YAE-slides|Slides: Optimizing inference for voice models in production - Philip Kiely, Baseten]], [[youtube-gmTHs5T_YAE-reconstructed-slides|Reconstructed Slides: Optimizing inference for voice models in production - Philip Kiely, Baseten]]

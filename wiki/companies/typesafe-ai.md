@@ -5,7 +5,6 @@ aliases: ["TypeSafe AI"]
 website: "https://typesafe.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # TypeSafe AI
 
 ## What It Is

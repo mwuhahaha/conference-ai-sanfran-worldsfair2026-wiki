@@ -5,7 +5,6 @@ aliases: ["JP Morgan Chase"]
 website: "https://www.jpmorganchase.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # JP Morgan Chase
 
 ## What It Is

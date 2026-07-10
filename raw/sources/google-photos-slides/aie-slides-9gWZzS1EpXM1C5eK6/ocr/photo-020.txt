@@ -1,0 +1,4 @@
+Better Tools and Organisation are about breaking ceilings
+demonstrates theimportance ofboth tools and organisation. benchmark. The current state of the leaderboard MadQA is a PDF-based enterprise task QA Gemini 3.5 Flash + Mixedbread Searcher Agent Gemini 3.5 Flash+Mixedbread Search Tool Human + Oracle (Perfect) Documents Accuracy 99.4 93.4 88.9
+needed! for human and agent. Better tools are For tools, BM25 hits the same ceiling Human+BM25 Gemini3Pro+BM25 82.2 82.2
+over a third! between agents and humansby assistantsparadigm narrows the gap For organisation,moving from an "everything-agent” to a decoupled From theOfficial MadQA Leaderboard

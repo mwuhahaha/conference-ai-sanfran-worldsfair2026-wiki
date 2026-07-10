@@ -5,7 +5,6 @@ aliases: ["Factory"]
 website: "https://factory.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Factory
 
 ## What It Is
@@ -43,6 +42,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-29-tereza-t-kov-rise-of-the-software-factory|Rise of the Software Factory]]
 
 ### Slide And Transcript Signals
-- `youtube-ShuJ_CN6zr4` — 3 slide-derived text signals
-- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready, making.
+- `youtube-ShuJ_CN6zr4` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-ShuJ_CN6zr4`: autonomous, engineering, systems, ready.
 - Evidence links for `youtube-ShuJ_CN6zr4`: [[youtube-ShuJ_CN6zr4]], [[youtube-ShuJ_CN6zr4-slides]], [[youtube-ShuJ_CN6zr4-dense-slides]], [[youtube-ShuJ_CN6zr4-reconstructed-slides]]

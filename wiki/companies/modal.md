@@ -5,7 +5,6 @@ aliases: ["Modal"]
 website: "https://modal.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Modal
 
 ## What It Is
@@ -46,6 +45,5 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-nan-jiang-taking-reinforcement-learning-cross-datacenter|Taking Reinforcement Learning Cross Datacenter]]
 
 ### Slide And Transcript Signals
-- `youtube-DeFF3J8T5Pk` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-DeFF3J8T5Pk`: open, engine, advisor, source, engines, getting, better, quickly.
+- `youtube-DeFF3J8T5Pk` — source page linked
 - Evidence links for `youtube-DeFF3J8T5Pk`: [[youtube-DeFF3J8T5Pk]], [[youtube-DeFF3J8T5Pk-slides]], [[youtube-DeFF3J8T5Pk-dense-slides]], [[youtube-DeFF3J8T5Pk-reconstructed-slides]]

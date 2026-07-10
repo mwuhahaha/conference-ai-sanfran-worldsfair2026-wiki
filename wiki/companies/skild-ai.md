@@ -5,7 +5,6 @@ aliases: ["Skild AI"]
 website: "https://www.skild.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Skild AI
 
 ## What It Is

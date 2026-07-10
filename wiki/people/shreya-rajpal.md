@@ -31,6 +31,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-shreya-rajpal-simulation-maxxing-how-nubank-ships-agents-20-faster-with-simulations|Simulation-Maxxing: How Nubank ships agents 20× faster with simulations]]
 
 ### Slide And Transcript Signals
-- `youtube-9-vGxMoUM9Y` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-9-vGxMoUM9Y`: software, self, driving, cars, deep, deny, cart, auto.
+- `youtube-9-vGxMoUM9Y` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-9-vGxMoUM9Y`: current, guardrails, self, driving, cars, classical, deep, learning.
 - Evidence links for `youtube-9-vGxMoUM9Y`: [[youtube-9-vGxMoUM9Y]], [[youtube-9-vGxMoUM9Y-slides]], [[youtube-9-vGxMoUM9Y-dense-slides]], [[youtube-9-vGxMoUM9Y-reconstructed-slides]]

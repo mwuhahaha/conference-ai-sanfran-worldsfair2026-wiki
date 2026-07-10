@@ -5,7 +5,6 @@ aliases: ["Browserbase"]
 website: "https://www.browserbase.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Browserbase
 
 ## What It Is
@@ -49,6 +48,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-miguel-gonz-lez-fern-ndez-the-art-of-building-verifiers-for-computer-use-agents|The Art of Building Verifiers for Computer Use Agents]]
 
 ### Slide And Transcript Signals
-- `youtube-YRGjll7uu5w` — 8 slide-derived text signals
-- Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
+- `youtube-YRGjll7uu5w` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.
 - Evidence links for `youtube-YRGjll7uu5w`: [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]

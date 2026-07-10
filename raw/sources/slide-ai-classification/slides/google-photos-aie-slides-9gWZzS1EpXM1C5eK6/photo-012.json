@@ -1,0 +1,68 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.93,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Human UI\nBrowser Agent\nMy AI Agent\nMCP\nApp Agent",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "low",
+  "layout": {
+    "background": "dark mauve slide with a zoomed diagram panel",
+    "style": "dark",
+    "blocks": [
+      {
+        "role": "diagram_label",
+        "text": "Human UI",
+        "x": 31.0,
+        "y": 57.0,
+        "w": 10.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Browser Agent",
+        "x": 53.0,
+        "y": 56.0,
+        "w": 16.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "My AI Agent",
+        "x": 51.0,
+        "y": 69.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "MCP",
+        "x": 29.0,
+        "y": 72.0,
+        "w": 6.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "App Agent",
+        "x": 40.0,
+        "y": 82.0,
+        "w": 12.0,
+        "h": 6.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "photo-012.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-012.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668090.968689,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Human UI\nBrowser Agent\nMy AI Agent\nMCP\nApp Agent",
+  "advanced_ocr": {}
+}

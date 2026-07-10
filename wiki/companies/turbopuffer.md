@@ -5,7 +5,6 @@ aliases: ["turbopuffer"]
 website: "https://turbopuffer.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # turbopuffer
 
 ## What It Is
@@ -43,6 +42,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents|How to Connect AI to Billions of Legal Documents]]
 
 ### Slide And Transcript Signals
-- `youtube-XNtkiQJ49Ps` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-XNtkiQJ49Ps`: company, jacob, searching, reading, collaborative, lawyers, than, chat.
+- `youtube-XNtkiQJ49Ps` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-XNtkiQJ49Ps`: human, than, chat, jacob, collaborative, legal, professionals, customers.
 - Evidence links for `youtube-XNtkiQJ49Ps`: [[youtube-XNtkiQJ49Ps]], [[youtube-XNtkiQJ49Ps-slides]], [[youtube-XNtkiQJ49Ps-dense-slides]], [[youtube-XNtkiQJ49Ps-reconstructed-slides]]

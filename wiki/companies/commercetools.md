@@ -5,7 +5,6 @@ aliases: ["commercetools"]
 website: "https://commercetools.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # commercetools
 
 ## What It Is

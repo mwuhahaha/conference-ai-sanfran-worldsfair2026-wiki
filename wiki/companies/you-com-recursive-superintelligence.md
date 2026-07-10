@@ -5,7 +5,6 @@ aliases: ["You.com / Recursive Superintelligence"]
 website: "https://www.socher.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # You.com / Recursive Superintelligence
 
 ## What It Is

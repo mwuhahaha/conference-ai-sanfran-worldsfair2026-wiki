@@ -5,7 +5,6 @@ aliases: ["Untapped Capital"]
 website: "https://www.untapped.vc/about"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Untapped Capital
 
 ## What It Is

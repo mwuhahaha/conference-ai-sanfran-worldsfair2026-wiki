@@ -1,0 +1,5 @@
+First,what does success look like? DIMENSION O1 / PERFORMANCE
+Success is a concrete artifact the run leaves behind.
+THE TASK Pay a bill A confirmation email lands
+Place an order An order ID on the receipt
+THE TASK Submit a form A new record in the system

@@ -54,18 +54,16 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-bk0TmxoZlUY` — 9,125 transcript words; 9 slide-derived text signals
+- `youtube-bk0TmxoZlUY` — 9,125 transcript words
 - Transcript signals for `youtube-bk0TmxoZlUY`: maybe, trust, brain, within, data, scores, eval, application.
-- Slide-derived themes for `youtube-bk0TmxoZlUY`: developer, platform, support, leading, teams, netflix, nite, become.
 - Evidence links for `youtube-bk0TmxoZlUY`: [[youtube-bk0TmxoZlUY]], [[youtube-bk0TmxoZlUY-transcript]], [[youtube-bk0TmxoZlUY-slides]], [[youtube-bk0TmxoZlUY-dense-slides]], [[youtube-bk0TmxoZlUY-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-bk0TmxoZlUY`
-- Slide deck: [[youtube-bk0TmxoZlUY-dense-slides|Dense Slides: Evals 101 — Doug Guthrie, Braintrust]] — 1 visible slide image(s).
+- Slide deck: [[youtube-bk0TmxoZlUY-dense-slides|Dense Slides: Evals 101 — Doug Guthrie, Braintrust]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/bk0TmxoZlUY/slide-001.jpg]]
 - Additional slide evidence: [[youtube-bk0TmxoZlUY-slides|Slides: Evals 101 — Doug Guthrie, Braintrust]], [[youtube-bk0TmxoZlUY-reconstructed-slides|Reconstructed Slides: Evals 101 — Doug Guthrie, Braintrust]]
-- Slide-derived themes for `youtube-bk0TmxoZlUY`: developer, platform, support, leading, teams, netflix, nite, become.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

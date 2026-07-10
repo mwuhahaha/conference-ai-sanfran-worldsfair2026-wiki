@@ -59,7 +59,7 @@ This section is generated from all currently linked source material for the arti
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-E71YtNbCFXY`
-- Slide deck: [[youtube-E71YtNbCFXY-dense-slides|Dense Slides: Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)]] — 1 visible slide image(s).
+- Slide deck: [[youtube-E71YtNbCFXY-dense-slides|Dense Slides: Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/E71YtNbCFXY/slide-001.jpg]]
 - Additional slide evidence: [[youtube-E71YtNbCFXY-slides|Slides: Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)]], [[youtube-E71YtNbCFXY-reconstructed-slides|Reconstructed Slides: Your realtime AI is ngmi — Sean DuBois (OpenAI), Kwindla Kramer (Daily)]]
 - Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.

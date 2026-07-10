@@ -37,9 +37,9 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-philipp-schmid-agents-without-code-how-skills-yaml-and-filesystems-replaced-python|Agents Without Code: How Skills, YAML, and Filesystems Replaced Python]]
 
 ### Slide And Transcript Signals
-- `youtube-3_gYbhABcAE` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-3_gYbhABcAE`: senior, engineers, engineering, text, state, trap, treating, world.
+- `youtube-3_gYbhABcAE` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
 - Evidence links for `youtube-3_gYbhABcAE`: [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]
-- `youtube-cVzf49yg0D8` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, thea, score, secure, service, login, base, explore.
+- `youtube-cVzf49yg0D8` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, gemini, interactions, zero, working, agentic, application, minutes.
 - Evidence links for `youtube-cVzf49yg0D8`: [[youtube-cVzf49yg0D8]], [[youtube-cVzf49yg0D8-slides]], [[youtube-cVzf49yg0D8-dense-slides]], [[youtube-cVzf49yg0D8-reconstructed-slides]]

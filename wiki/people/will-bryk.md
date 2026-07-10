@@ -34,6 +34,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-will-bryk-the-search-engine-for-the-agentic-web|The Search Engine for the Agentic Web]]
 
 ### Slide And Transcript Signals
-- `youtube-xnXqpUW_Kp8` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-xnXqpUW_Kp8`: built, queries, biden, information, traditional, search, engines, humans.
+- `youtube-xnXqpUW_Kp8` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-xnXqpUW_Kp8`: humans, built, information, traditional, search, engines, type, simple.
 - Evidence links for `youtube-xnXqpUW_Kp8`: [[youtube-xnXqpUW_Kp8]], [[youtube-xnXqpUW_Kp8-slides]], [[youtube-xnXqpUW_Kp8-dense-slides]], [[youtube-xnXqpUW_Kp8-reconstructed-slides]]

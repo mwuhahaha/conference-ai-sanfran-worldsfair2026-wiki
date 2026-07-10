@@ -5,7 +5,6 @@ aliases: ["Hornet.dev"]
 website: "https://hornet.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # Hornet.dev
 
 ## What It Is

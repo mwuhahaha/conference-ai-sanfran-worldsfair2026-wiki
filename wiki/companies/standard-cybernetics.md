@@ -5,7 +5,6 @@ aliases: ["Standard Cybernetics"]
 website: "https://standardcybernetics.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Standard Cybernetics
 
 ## What It Is

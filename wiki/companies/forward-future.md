@@ -5,7 +5,6 @@ aliases: ["Forward Future"]
 website: "https://forwardfuture.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Forward Future
 
 ## What It Is

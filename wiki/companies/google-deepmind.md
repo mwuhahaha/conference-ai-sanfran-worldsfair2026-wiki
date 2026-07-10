@@ -5,7 +5,6 @@ aliases: ["Google DeepMind"]
 website: "https://deepmind.google/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Google DeepMind
 
 ## What It Is
@@ -70,15 +69,15 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-philipp-schmid-why-agents-should-have-their-own-sandbox|Why Agents Should Have Their Own Sandbox]]
 
 ### Slide And Transcript Signals
-- `youtube-G_bHFmEAarM` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-G_bHFmEAarM`: output, google, gemini, flash, lite, paid, grounding, latest.
+- `youtube-G_bHFmEAarM` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
 - Evidence links for `youtube-G_bHFmEAarM`: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
-- `youtube-bVNNvWq6dKo` — 6 slide-derived text signals
-- Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
+- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
 - Evidence links for `youtube-bVNNvWq6dKo`: [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
-- `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
+- `youtube-Bc6Ojl2XS1w` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: engineering, future.
 - Evidence links for `youtube-Bc6Ojl2XS1w`: [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
-- `youtube-3_gYbhABcAE` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-3_gYbhABcAE`: senior, engineers, engineering, text, state, trap, treating, world.
+- `youtube-3_gYbhABcAE` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
 - Evidence links for `youtube-3_gYbhABcAE`: [[youtube-3_gYbhABcAE]], [[youtube-3_gYbhABcAE-slides]], [[youtube-3_gYbhABcAE-dense-slides]], [[youtube-3_gYbhABcAE-reconstructed-slides]]

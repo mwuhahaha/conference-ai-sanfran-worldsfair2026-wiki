@@ -5,7 +5,6 @@ aliases: ["Decawork"]
 website: "https://decawork.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Decawork
 
 ## What It Is

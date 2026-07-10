@@ -5,7 +5,6 @@ aliases: ["LemonSlice"]
 website: "https://lemonslice.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # LemonSlice
 
 ## What It Is

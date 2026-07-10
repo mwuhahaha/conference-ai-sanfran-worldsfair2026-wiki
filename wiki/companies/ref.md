@@ -5,7 +5,6 @@ aliases: ["Ref."]
 website: "http://www.ref.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Ref.
 
 ## What It Is

@@ -5,7 +5,6 @@ aliases: ["Figma"]
 website: "https://www.figma.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Figma
 
 ## What It Is

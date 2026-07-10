@@ -26,6 +26,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-yuval-belfer-stop-chunking-like-it-s-2022|Stop Chunking Like It's 2022]]
 
 ### Slide And Transcript Signals
-- `youtube-Ywl4LsvHKzU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, united, states, mother, surname, name.
+- `youtube-Ywl4LsvHKzU` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-Ywl4LsvHKzU`: world, local, questions, name, answers, assuming, answer, lies.
 - Evidence links for `youtube-Ywl4LsvHKzU`: [[youtube-Ywl4LsvHKzU]], [[youtube-Ywl4LsvHKzU-slides]], [[youtube-Ywl4LsvHKzU-dense-slides]], [[youtube-Ywl4LsvHKzU-reconstructed-slides]]

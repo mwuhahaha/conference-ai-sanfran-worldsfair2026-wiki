@@ -5,7 +5,6 @@ aliases: ["Ramp"]
 website: "https://ramp.com/stack"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Ramp
 
 ## What It Is

@@ -29,6 +29,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-jerry-liu-building-the-document-context-layer-for-ai-agents|Building the Document Context Layer for AI Agents]]
 
 ### Slide And Transcript Signals
-- `youtube-jVGCulhBRZI` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-jVGCulhBRZI`: knowledge, data, cases, automate, workers, efficient, does, automation.
+- `youtube-jVGCulhBRZI` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-jVGCulhBRZI`: data, knowledge, unstructured, documents, automate, better, talking, does.
 - Evidence links for `youtube-jVGCulhBRZI`: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]

@@ -5,7 +5,6 @@ aliases: ["Atlassian"]
 website: "https://www.atlassian.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Atlassian
 
 ## What It Is

@@ -33,6 +33,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-lance-martin-claude-for-long-horizon-tasks|Claude for long-horizon tasks]]
 
 ### Slide And Transcript Signals
-- `youtube-ib-wTAvCZqg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-ib-wTAvCZqg`: step, display, search, documents, retrieval, typically, used, most.
+- `youtube-ib-wTAvCZqg` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-ib-wTAvCZqg`: retrieval, typically, tool, function, calling, execute, steps, guaranteed.
 - Evidence links for `youtube-ib-wTAvCZqg`: [[youtube-ib-wTAvCZqg]], [[youtube-ib-wTAvCZqg-slides]], [[youtube-ib-wTAvCZqg-dense-slides]], [[youtube-ib-wTAvCZqg-reconstructed-slides]]

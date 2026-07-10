@@ -5,7 +5,6 @@ aliases: ["Composio"]
 website: "https://composio.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Composio
 
 ## What It Is

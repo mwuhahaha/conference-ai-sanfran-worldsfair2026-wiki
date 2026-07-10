@@ -5,7 +5,6 @@ aliases: ["DFPI"]
 website: "https://dfpi.ca.gov/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # DFPI
 
 ## What It Is
@@ -41,5 +40,5 @@ This section summarizes how this organization appears across the conference sour
 
 ### Slide And Transcript Signals
 - `youtube-5_QWh4LGoxg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-5_QWh4LGoxg`: layer, graph, phishing, emails, working, legitimate, ones, mars.
+- Slide-derived themes for `youtube-5_QWh4LGoxg`: fraud, ever, working, against, happens, smartest, tools, built.
 - Evidence links for `youtube-5_QWh4LGoxg`: [[youtube-5_QWh4LGoxg]], [[youtube-5_QWh4LGoxg-slides]], [[youtube-5_QWh4LGoxg-dense-slides]], [[youtube-5_QWh4LGoxg-reconstructed-slides]]

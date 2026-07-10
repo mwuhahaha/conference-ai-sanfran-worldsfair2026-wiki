@@ -5,7 +5,6 @@ aliases: ["Red Hat"]
 website: "https://www.redhat.com/en"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Red Hat
 
 ## What It Is

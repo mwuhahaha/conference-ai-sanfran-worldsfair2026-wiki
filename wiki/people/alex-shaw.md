@@ -26,6 +26,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-alex-shaw-everything-is-a-rollout|Everything Is a Rollout]]
 
 ### Slide And Transcript Signals
-- `youtube-liG97YXaTSA` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, samples, trivia, questions, general, model.
+- `youtube-liG97YXaTSA` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, progress, benchmarks, past, five, years, trivia, questions.
 - Evidence links for `youtube-liG97YXaTSA`: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]

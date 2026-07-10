@@ -1,0 +1,4 @@
+Explore,then automate. /THE TWO PHASES
+these rungs. known-working solution: this exact sequence, on climb rungs until it works - you end holding a run the loop by hand PHASE 1·EXPLORE write it down PHASE 2· AUTOMATE AGENT SKILL- reptays & adapts to UI changes, like a human CoDE-deterministic·fast,-so/run·no agent
+when it's extra tricksy = do both,
+→Explore once, automate forever. That's the whole method.

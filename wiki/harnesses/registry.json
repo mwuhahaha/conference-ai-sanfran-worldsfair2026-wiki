@@ -1,0 +1,27 @@
+[
+  {
+    "id": "agent-eval-gate",
+    "title": "Agent Eval Gate",
+    "path": "wiki/harnesses/agent-eval-gate.md"
+  },
+  {
+    "id": "coding-agent-code-review-loop",
+    "title": "Coding Agent Code Review Loop",
+    "path": "wiki/harnesses/coding-agent-code-review-loop.md"
+  },
+  {
+    "id": "context-graph-ingest",
+    "title": "Context Graph Ingest",
+    "path": "wiki/harnesses/context-graph-ingest.md"
+  },
+  {
+    "id": "sandboxed-agent-execution",
+    "title": "Sandboxed Agent Execution",
+    "path": "wiki/harnesses/sandboxed-agent-execution.md"
+  },
+  {
+    "id": "transcript-slide-synthesis-loop",
+    "title": "Transcript Slide Synthesis Loop",
+    "path": "wiki/harnesses/transcript-slide-synthesis-loop.md"
+  }
+]

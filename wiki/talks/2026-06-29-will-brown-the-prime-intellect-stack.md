@@ -58,17 +58,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-PbHm2qKnu10` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-PbHm2qKnu10`: performance, observed, compute, models, research, lead, prime, intellect.
+- `youtube-PbHm2qKnu10` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-PbHm2qKnu10`: kinda, works, labs, doing, four, steps, matches, performance.
 - Evidence links for `youtube-PbHm2qKnu10`: [[youtube-PbHm2qKnu10]], [[youtube-PbHm2qKnu10-slides]], [[youtube-PbHm2qKnu10-dense-slides]], [[youtube-PbHm2qKnu10-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-PbHm2qKnu10`
-- Slide deck: [[youtube-PbHm2qKnu10-dense-slides|Dense Slides: Training Agentic Reasoners — Will Brown, Prime Intellect]] — 6 visible slide image(s).
+- Slide deck: [[youtube-PbHm2qKnu10-dense-slides|Dense Slides: Training Agentic Reasoners — Will Brown, Prime Intellect]] — 6 visible slide image(s); 6 HTML recreation(s).
 ![[assets/dense-slides/PbHm2qKnu10/slide-001.jpg]]
 ![[assets/dense-slides/PbHm2qKnu10/slide-002.jpg]]
 ![[assets/dense-slides/PbHm2qKnu10/slide-003.jpg]]
 - Additional slide evidence: [[youtube-PbHm2qKnu10-slides|Slides: Training Agentic Reasoners — Will Brown, Prime Intellect]], [[youtube-PbHm2qKnu10-reconstructed-slides|Reconstructed Slides: Training Agentic Reasoners — Will Brown, Prime Intellect]]
-- Slide-derived themes for `youtube-PbHm2qKnu10`: performance, observed, compute, models, research, lead, prime, intellect.
+- Slide-derived themes for `youtube-PbHm2qKnu10`: kinda, works, labs, doing, four, steps, matches, performance.

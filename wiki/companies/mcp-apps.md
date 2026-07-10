@@ -5,7 +5,6 @@ aliases: ["MCP Apps"]
 website: "https://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # MCP Apps
 
 ## What It Is
@@ -45,10 +44,10 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier|MCP Apps - Extending the frontier]]
 
 ### Slide And Transcript Signals
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 1 slide-derived text signals
 - Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: engineering, future.
 - Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
-- `youtube-kR64LOqBBCU` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-kR64LOqBBCU`: bottleneck, orchestration, hired, founding, engineers, skills, along, raft.
+- `youtube-kR64LOqBBCU` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-kR64LOqBBCU`: putting, orchestration, bottleneck, skills, along, channels, open.
 - Evidence links for `youtube-kR64LOqBBCU`: [[youtube-kR64LOqBBCU]], [[youtube-kR64LOqBBCU-slides]], [[youtube-kR64LOqBBCU-reconstructed-slides]]

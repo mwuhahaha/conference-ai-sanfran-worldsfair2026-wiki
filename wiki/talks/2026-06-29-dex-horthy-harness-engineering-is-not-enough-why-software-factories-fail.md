@@ -55,17 +55,17 @@ These are phone-photo slide captures from the Google Photos `AIE Slides` album. 
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-rmvDxxNubIg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-rmvDxxNubIg`: vibes, allowed, solving, tasks, code, intentional, compaction, most.
+- `youtube-rmvDxxNubIg` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-rmvDxxNubIg`: code, tasks, vibes, allowed, task, complexity, high, complex.
 - Evidence links for `youtube-rmvDxxNubIg`: [[youtube-rmvDxxNubIg]], [[youtube-rmvDxxNubIg-slides]], [[youtube-rmvDxxNubIg-dense-slides]], [[youtube-rmvDxxNubIg-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-rmvDxxNubIg`
-- Slide deck: [[youtube-rmvDxxNubIg-dense-slides|Dense Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer]] — 4 visible slide image(s).
+- Slide deck: [[youtube-rmvDxxNubIg-dense-slides|Dense Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer]] — 4 visible slide image(s); 4 HTML recreation(s).
 ![[assets/dense-slides/rmvDxxNubIg/slide-001.jpg]]
 ![[assets/dense-slides/rmvDxxNubIg/slide-002.jpg]]
 ![[assets/dense-slides/rmvDxxNubIg/slide-003.jpg]]
 - Additional slide evidence: [[youtube-rmvDxxNubIg-slides|Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer]], [[youtube-rmvDxxNubIg-reconstructed-slides|Reconstructed Slides: No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer]]
-- Slide-derived themes for `youtube-rmvDxxNubIg`: vibes, allowed, solving, tasks, code, intentional, compaction, most.
+- Slide-derived themes for `youtube-rmvDxxNubIg`: code, tasks, vibes, allowed, task, complexity, high, complex.

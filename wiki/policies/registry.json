@@ -1,0 +1,37 @@
+[
+  {
+    "id": "coding-agents-credibility",
+    "title": "Coding Agents Credibility",
+    "path": "wiki/policies/coding-agents-credibility.md",
+    "topic": "coding-agents",
+    "version": "2026-07-10.1"
+  },
+  {
+    "id": "agent-evaluations-credibility",
+    "title": "Agent Evaluations Credibility",
+    "path": "wiki/policies/agent-evaluations-credibility.md",
+    "topic": "agent-evaluations",
+    "version": "2026-07-10.1"
+  },
+  {
+    "id": "agentic-search-credibility",
+    "title": "Agentic Search Credibility",
+    "path": "wiki/policies/agentic-search-credibility.md",
+    "topic": "agentic-search",
+    "version": "2026-07-10.1"
+  },
+  {
+    "id": "ai-sandboxes-credibility",
+    "title": "AI Sandboxes Credibility",
+    "path": "wiki/policies/ai-sandboxes-credibility.md",
+    "topic": "ai-sandboxes",
+    "version": "2026-07-10.1"
+  },
+  {
+    "id": "inference-engineering-credibility",
+    "title": "Inference Engineering Credibility",
+    "path": "wiki/policies/inference-engineering-credibility.md",
+    "topic": "inference-engineering",
+    "version": "2026-07-10.1"
+  }
+]

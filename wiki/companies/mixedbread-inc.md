@@ -5,7 +5,6 @@ aliases: ["Mixedbread Inc."]
 website: "https://www.mixedbread.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Mixedbread Inc.
 
 ## What It Is

@@ -28,6 +28,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-justin-reock-the-state-of-ai-in-software-development-insights-across-400-organizations|The state of AI in software development: Insights across 400+ organizations]]
 
 ### Slide And Transcript Signals
-- `youtube-PmZDupFP3UM` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-PmZDupFP3UM`: engineering, claude, against, expert, forecasts, developer, slows, down.
+- `youtube-PmZDupFP3UM` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-PmZDupFP3UM`: google, users, strategy, senior, executives, productive, measures, says.
 - Evidence links for `youtube-PmZDupFP3UM`: [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]

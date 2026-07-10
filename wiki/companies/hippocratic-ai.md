@@ -5,7 +5,6 @@ aliases: ["Hippocratic AI"]
 website: "https://hippocratic.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Hippocratic AI
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses|200 Million Patient Interactions Later: What the Generic Voice Stack Misses]]
 
 ### Slide And Transcript Signals
-- `youtube-u3NofYYstaY` — 8 slide-derived text signals
-- Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
+- `youtube-u3NofYYstaY` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-u3NofYYstaY`: oracle, team, accenture.
 - Evidence links for `youtube-u3NofYYstaY`: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]

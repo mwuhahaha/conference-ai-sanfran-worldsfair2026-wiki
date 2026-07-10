@@ -51,19 +51,19 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-7Dtu2bilcFs` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-7Dtu2bilcFs`: year, died, google, software, engineer, author, researcher, steve.
+- `youtube-7Dtu2bilcFs` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-7Dtu2bilcFs`: coding, agentic, final, form, coming, next, stop, models.
 - Evidence links for `youtube-7Dtu2bilcFs`: [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-7Dtu2bilcFs`
-- Slide deck: [[youtube-7Dtu2bilcFs-dense-slides|Dense Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]] — 13 visible slide image(s).
+- Slide deck: [[youtube-7Dtu2bilcFs-dense-slides|Dense Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]] — 13 visible slide image(s); 13 HTML recreation(s).
 ![[assets/dense-slides/7Dtu2bilcFs/slide-001.jpg]]
 ![[assets/dense-slides/7Dtu2bilcFs/slide-002.jpg]]
 ![[assets/dense-slides/7Dtu2bilcFs/slide-003.jpg]]
 - Additional slide evidence: [[youtube-7Dtu2bilcFs-slides|Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]], [[youtube-7Dtu2bilcFs-reconstructed-slides|Reconstructed Slides: 2026: The Year The IDE Died — Steve Yegge & Gene Kim, Authors, Vibe Coding]]
-- Slide-derived themes for `youtube-7Dtu2bilcFs`: year, died, google, software, engineer, author, researcher, steve.
+- Slide-derived themes for `youtube-7Dtu2bilcFs`: coding, agentic, final, form, coming, next, stop, models.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

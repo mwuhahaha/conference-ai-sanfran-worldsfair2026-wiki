@@ -5,7 +5,6 @@ aliases: ["Abridge"]
 website: "https://www.abridge.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Abridge
 
 ## What It Is

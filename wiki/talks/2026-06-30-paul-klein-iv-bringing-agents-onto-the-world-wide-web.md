@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-YRGjll7uu5w` — 8 slide-derived text signals
-- Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
+- `youtube-YRGjll7uu5w` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.
 - Evidence links for `youtube-YRGjll7uu5w`: [[youtube-YRGjll7uu5w]], [[youtube-YRGjll7uu5w-slides]], [[youtube-YRGjll7uu5w-dense-slides]], [[youtube-YRGjll7uu5w-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-YRGjll7uu5w`
-- Slide deck: [[youtube-YRGjll7uu5w-dense-slides|Dense Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase]] — 4 visible slide image(s).
+- Slide deck: [[youtube-YRGjll7uu5w-dense-slides|Dense Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase]] — 4 visible slide image(s); 4 HTML recreation(s).
 ![[assets/dense-slides/YRGjll7uu5w/slide-001.jpg]]
 ![[assets/dense-slides/YRGjll7uu5w/slide-002.jpg]]
 ![[assets/dense-slides/YRGjll7uu5w/slide-003.jpg]]
 - Additional slide evidence: [[youtube-YRGjll7uu5w-slides|Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase]], [[youtube-YRGjll7uu5w-reconstructed-slides|Reconstructed Slides: The Web Browser Is All You Need - Paul Klein IV, Browserbase]]
-- Slide-derived themes for `youtube-YRGjll7uu5w`: playwright, automation, stagehand, february, date, march, april, take.
+- Slide-derived themes for `youtube-YRGjll7uu5w`: most, benchmarks, fake, news, model, performance, tasks, vary.

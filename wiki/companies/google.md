@@ -5,7 +5,6 @@ aliases: ["Google"]
 website: "https://www.google.com/webhp?aep=11"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Google
 
 ## What It Is
@@ -53,6 +52,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-ashok-chandrasekar-are-llm-performance-benchmarks-reliable|Are LLM Performance Benchmarks Reliable?]]
 
 ### Slide And Transcript Signals
-- `youtube--TiET_K-E_g` — 10 slide-derived text signals
-- Slide-derived themes for `youtube--TiET_K-E_g`: skills, android, bringing, brick, principal, engineer, google, edge.
+- `youtube--TiET_K-E_g` — 5 slide-derived text signals
+- Slide-derived themes for `youtube--TiET_K-E_g`: running, edge, many, benefits, faster, network, involved, sensitive.
 - Evidence links for `youtube--TiET_K-E_g`: [[youtube--TiET_K-E_g]], [[youtube--TiET_K-E_g-slides]], [[youtube--TiET_K-E_g-dense-slides]], [[youtube--TiET_K-E_g-reconstructed-slides]]

@@ -1,0 +1,85 @@
+{
+  "agent-evaluations": {
+    "slides": 13,
+    "talks": 24,
+    "other": 53,
+    "resources": 19,
+    "tools": 2,
+    "transcripts": 1
+  },
+  "coding-agents": {
+    "slides": 19,
+    "talks": 24,
+    "other": 65,
+    "tools": 1,
+    "resources": 26,
+    "transcripts": 2
+  },
+  "software-factories": {
+    "talks": 14,
+    "other": 29,
+    "resources": 7,
+    "slides": 9,
+    "transcripts": 1
+  },
+  "agentic-search": {
+    "slides": 16,
+    "talks": 24,
+    "other": 50,
+    "tools": 4,
+    "resources": 21,
+    "transcripts": 1
+  },
+  "agent-memory": {
+    "slides": 18,
+    "talks": 24,
+    "other": 53,
+    "tools": 2,
+    "resources": 22,
+    "transcripts": 1
+  },
+  "agent-security": {
+    "slides": 16,
+    "talks": 24,
+    "other": 39,
+    "tools": 4,
+    "resources": 16
+  },
+  "ai-sandboxes": {
+    "slides": 16,
+    "talks": 24,
+    "other": 40,
+    "resources": 22,
+    "tools": 5
+  },
+  "inference-engineering": {
+    "slides": 11,
+    "talks": 24,
+    "other": 58,
+    "resources": 21,
+    "transcripts": 1
+  },
+  "mcp": {
+    "slides": 11,
+    "talks": 24,
+    "other": 53,
+    "resources": 22,
+    "tools": 3,
+    "transcripts": 1
+  },
+  "autoresearch": {
+    "talks": 24,
+    "other": 51,
+    "resources": 19,
+    "tools": 2,
+    "slides": 6,
+    "transcripts": 1
+  },
+  "voice-agents": {
+    "slides": 13,
+    "talks": 24,
+    "other": 44,
+    "resources": 12,
+    "transcripts": 1
+  }
+}

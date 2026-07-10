@@ -1,0 +1,114 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Code is Knowledge, but Knowledge isn't Code\nCode Has Unique Features Knowledge Work is Broader\nDurable clues Hashxap:: new Stringio.seek sortPeople duteu/dde/>Js/ dentifier API File poth method </> Meaning is implicit\ngreppable surface Narrow, 15 16 14 12 13 raise ValueError(abad key*) for p in people: if key in cache: key = sortPeople(p return cache[key] match works exact things can mean different The same clue notice window deadline 30 days retention rule graceperiod\npre-cut Tasks are already Fix crash u1bo)uo #1234 TICKET login page. Add beoutiful make no mstakes #5678 FEATURE Search starts from intent \"the part where. duty to prevent theft\"\nCode has logical, stable identifiers. Non-code knowledge is often contextual and meaning-driven.\n米Runlayer",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense two-column diagram with small labels and captions is better suited to OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Code is Knowledge, but Knowledge isn’t Code",
+        "x": 21.0,
+        "y": 12.0,
+        "w": 56.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Code Has Unique Features",
+        "x": 23.0,
+        "y": 31.0,
+        "w": 26.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Knowledge Work is Broader",
+        "x": 52.0,
+        "y": 31.0,
+        "w": 29.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1 Durable clues",
+        "x": 23.0,
+        "y": 39.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "2 Narrow, greppable surface",
+        "x": 23.0,
+        "y": 49.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3 Tasks are already pre-cut",
+        "x": 23.0,
+        "y": 60.0,
+        "w": 19.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1 Meaning is implicit",
+        "x": 53.0,
+        "y": 40.0,
+        "w": 16.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "2 The same clue can mean different things",
+        "x": 53.0,
+        "y": 49.0,
+        "w": 25.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3 Search starts from intent",
+        "x": 53.0,
+        "y": 62.0,
+        "w": 17.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "photo-015.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-015.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668275.1651556,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Code is Knowledge, but Knowledge isn't Code\nCode Has Unique Features Knowledge Work is Broader\nDurable clues Hashxap:: new Stringio.seek sortPeople duteu/dde/>Js/ dentifier API File poth method </> Meaning is implicit\ngreppable surface Narrow, 15 16 14 12 13 raise ValueError(abad key*) for p in people: if key in cache: key = sortPeople(p return cache[key] match works exact things can mean different The same clue notice window deadline 30 days retention rule graceperiod\npre-cut Tasks are already Fix crash u1bo)uo #1234 TICKET login page. Add beoutiful make no mstakes #5678 FEATURE Search starts from intent \"the part where. duty to prevent theft\"\nCode has logical, stable identifiers. Non-code knowledge is often contextual and meaning-driven.\n米Runlayer",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1138.08
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Code is Knowledge, but Knowledge isn't Code\nCode Has Unique Features Knowledge Work is Broader\nDurable clues Hashxap:: new Stringio.seek sortPeople duteu/dde/>Js/ dentifier API File poth method </> Meaning is implicit\ngreppable surface Narrow, 15 16 14 12 13 raise ValueError(abad key*) for p in people: if key in cache: key = sortPeople(p return cache[key] match works exact things can mean different The same clue notice window deadline 30 days retention rule graceperiod\npre-cut Tasks are already Fix crash u1bo)uo #1234 TICKET login page. Add beoutiful make no mstakes #5678 FEATURE Search starts from intent \"the part where. duty to prevent theft\"\nCode has logical, stable identifiers. Non-code knowledge is often contextual and meaning-driven.\n米Runlayer",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

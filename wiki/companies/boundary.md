@@ -5,7 +5,6 @@ aliases: ["Boundary"]
 website: "https://boundarycreative.co.uk"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Boundary
 
 ## What It Is

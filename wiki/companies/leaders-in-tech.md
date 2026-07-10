@@ -5,7 +5,6 @@ aliases: ["Leaders in Tech"]
 website: "https://www.leadersintech.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Leaders in Tech
 
 ## What It Is

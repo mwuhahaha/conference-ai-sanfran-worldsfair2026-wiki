@@ -5,7 +5,6 @@ aliases: ["EliseAi"]
 website: "https://eliseai.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # EliseAi
 
 ## What It Is

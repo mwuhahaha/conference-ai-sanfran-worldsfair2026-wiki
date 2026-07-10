@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-OimPoLxioYg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-OimPoLxioYg`: prompt, paint, clip, user, image, text, embedding, feature.
+- `youtube-OimPoLxioYg` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-OimPoLxioYg`: clip, prompt, image, text, embedding, paint, user, drawing.
 - Evidence links for `youtube-OimPoLxioYg`: [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-OimPoLxioYg`
-- Slide deck: [[youtube-OimPoLxioYg-dense-slides|Dense Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson]] — 12 visible slide image(s).
+- Slide deck: [[youtube-OimPoLxioYg-dense-slides|Dense Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson]] — 9 visible slide image(s); 9 HTML recreation(s).
 ![[assets/dense-slides/OimPoLxioYg/slide-001.jpg]]
 ![[assets/dense-slides/OimPoLxioYg/slide-002.jpg]]
 ![[assets/dense-slides/OimPoLxioYg/slide-003.jpg]]
 - Additional slide evidence: [[youtube-OimPoLxioYg-slides|Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson]], [[youtube-OimPoLxioYg-reconstructed-slides|Reconstructed Slides: 120k players in a week: Lessons from the first viral CLIP app: Joseph Nelson]]
-- Slide-derived themes for `youtube-OimPoLxioYg`: prompt, paint, clip, user, image, text, embedding, feature.
+- Slide-derived themes for `youtube-OimPoLxioYg`: clip, prompt, image, text, embedding, paint, user, drawing.

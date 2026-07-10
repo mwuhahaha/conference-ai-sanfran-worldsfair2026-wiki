@@ -5,7 +5,6 @@ aliases: ["ServiceNow"]
 website: "https://www.servicenow.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # ServiceNow
 
 ## What It Is

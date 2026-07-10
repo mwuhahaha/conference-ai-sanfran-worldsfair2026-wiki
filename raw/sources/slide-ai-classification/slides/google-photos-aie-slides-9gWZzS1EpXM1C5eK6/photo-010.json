@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Come talk retrieval with me.\nx.com/jobergum",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "low",
+  "layout": {
+    "background": "white contact slide with a right-side profile card",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "caption",
+        "text": "18 / contact",
+        "x": 20.0,
+        "y": 18.0,
+        "w": 12.0,
+        "h": 4.0
+      },
+      {
+        "role": "title",
+        "text": "Come talk\nretrieval\nwith me.",
+        "x": 14.0,
+        "y": 48.0,
+        "w": 28.0,
+        "h": 26.0
+      },
+      {
+        "role": "body",
+        "text": "x.com/jobergum",
+        "x": 14.0,
+        "y": 76.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "body",
+        "text": "Agentic Retrieval\nHORNET",
+        "x": 41.0,
+        "y": 33.0,
+        "w": 38.0,
+        "h": 28.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "photo-010.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-010.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668090.9679456,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Come talk retrieval with me.\nx.com/jobergum",
+  "advanced_ocr": {}
+}

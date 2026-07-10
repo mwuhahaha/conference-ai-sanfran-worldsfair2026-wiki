@@ -9,6 +9,7 @@ wrangler.toml
 wrangler.json
 wrangler.jsonc
 .ops/state/cache/
+.ops/state/runs/
 raw/tmp/
 raw/experiments/
 raw/video-cache/
@@ -28,7 +29,10 @@ raw/**/*.webm
 
 # Cloudflare Pages build output
 dist/
+wiki/personal-notes/
 
 # OS/editor noise
 .DS_Store
 *.swp
+__pycache__/
+*.pyc

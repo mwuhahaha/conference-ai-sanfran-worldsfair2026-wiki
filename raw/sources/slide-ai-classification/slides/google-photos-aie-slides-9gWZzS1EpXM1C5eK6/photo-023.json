@@ -1,0 +1,66 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Take auth out of the model's hands GENERATE SHAREHOLDER VALUE/ BUILD V4\nbrowser to the agent. This auth function can be reused for other trajectories on the same portal.\nauthent icate on portal\nRequest request authenticate serverlessfn. aut hed sess ion Agont dr ive/observe Browser",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Architecture slide with smaller subtitle and diagram labels that OCR can capture reliably.",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "light off-white slide on dark stage",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Take auth out of the model's hands",
+        "x": 4.0,
+        "y": 18.0,
+        "w": 54.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "A serverless auth function logs in and performs MFA deterministically, then hands the authenticated browser to the agent. This auth function can be reused for other trajectories on the same portal.",
+        "x": 4.0,
+        "y": 28.0,
+        "w": 68.0,
+        "h": 9.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Request / authenticate / Agent / Browser",
+        "x": 10.0,
+        "y": 69.0,
+        "w": 70.0,
+        "h": 20.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-023.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668727.0576973,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/center-82/contrast",
+    "text": "Take auth out of the model's hands GENERATE SHAREHOLDER VALUE/ BUILD V4\nbrowser to the agent. This auth function can be reused for other trajectories on the same portal.\nauthent icate on portal\nRequest request authenticate serverlessfn. aut hed sess ion Agont dr ive/observe Browser",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 475.72
+  },
+  "ocr_source": "rapidocr-live/center-82/contrast",
+  "ocr_reconcile": {
+    "text": "Take auth out of the model's hands GENERATE SHAREHOLDER VALUE/ BUILD V4\nbrowser to the agent. This auth function can be reused for other trajectories on the same portal.\nauthent icate on portal\nRequest request authenticate serverlessfn. aut hed sess ion Agont dr ive/observe Browser",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

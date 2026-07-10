@@ -5,7 +5,6 @@ aliases: [".txt"]
 website: "https://txt.com/login"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # .txt
 
 ## What It Is

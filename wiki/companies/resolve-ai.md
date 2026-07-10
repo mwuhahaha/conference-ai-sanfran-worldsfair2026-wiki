@@ -5,7 +5,6 @@ aliases: ["Resolve AI"]
 website: "https://resolve.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Resolve AI
 
 ## What It Is

@@ -27,6 +27,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md|Auth for Agents: Unblock Autonomous AI with auth.md]]
 
 ### Slide And Transcript Signals
-- `youtube-D4Dswf-__RM` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-D4Dswf-__RM`: identity, shadowing, persona, delegation, chains, capability, tokens, escalation.
+- `youtube-D4Dswf-__RM` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-D4Dswf-__RM`: grant, negotiation, authorization, protocol.
 - Evidence links for `youtube-D4Dswf-__RM`: [[youtube-D4Dswf-__RM]], [[youtube-D4Dswf-__RM-slides]], [[youtube-D4Dswf-__RM-reconstructed-slides]]

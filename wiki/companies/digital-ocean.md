@@ -5,7 +5,6 @@ aliases: ["Digital Ocean"]
 website: "https://www.digitalocean.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Digital Ocean
 
 ## What It Is

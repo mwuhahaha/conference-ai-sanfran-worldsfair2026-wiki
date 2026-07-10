@@ -5,7 +5,6 @@ aliases: ["typedef"]
 website: "https://www.typedef.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # typedef
 
 ## What It Is

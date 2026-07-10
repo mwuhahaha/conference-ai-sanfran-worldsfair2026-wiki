@@ -5,7 +5,6 @@ aliases: ["Amazon"]
 website: "https://www.aboutamazon.eu"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Amazon
 
 ## What It Is

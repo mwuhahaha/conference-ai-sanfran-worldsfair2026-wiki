@@ -5,7 +5,6 @@ aliases: ["Indeed"]
 website: "https://indeed.co/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Indeed
 
 ## What It Is

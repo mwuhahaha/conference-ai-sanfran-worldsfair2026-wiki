@@ -5,7 +5,6 @@ aliases: ["General Reasoning"]
 website: "https://generalreasoning.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # General Reasoning
 
 ## What It Is

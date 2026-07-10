@@ -5,7 +5,6 @@ aliases: ["LangChain"]
 website: "https://www.langchain.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # LangChain
 
 ## What It Is

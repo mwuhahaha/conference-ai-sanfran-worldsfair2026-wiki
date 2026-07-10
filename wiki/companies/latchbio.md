@@ -5,7 +5,6 @@ aliases: ["LatchBio"]
 website: "https://www.latchbio.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # LatchBio
 
 ## What It Is

@@ -163,13 +163,120 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer|Building an Agentic Video Editor for Mass Consumer]]
 
 ### Slide And Transcript Signals
-- `youtube-rgjF5o2Qjsc` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, bash, reality, show, engineering, future.
+- `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, companies, pushing, move, faster, offline.
 - Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]
-- `youtube-Xfl50508LZM` — 22,591 transcript words; 10 slide-derived text signals
+- `youtube-Xfl50508LZM` — 22,591 transcript words; 6 slide-derived text signals
 - Transcript signals for `youtube-Xfl50508LZM`: evals, eval, data, should, judge, output, whether, phoenix.
-- Slide-derived themes for `youtube-Xfl50508LZM`: swiss, cheese, talking, setting, tracing, phoenix, paine, theoretical.
+- Slide-derived themes for `youtube-Xfl50508LZM`: phoenix, prompt, settings, general, detect, regressions, change, compare.
 - Evidence links for `youtube-Xfl50508LZM`: [[youtube-Xfl50508LZM]], [[youtube-Xfl50508LZM-transcript]], [[youtube-Xfl50508LZM-slides]], [[youtube-Xfl50508LZM-dense-slides]], [[youtube-Xfl50508LZM-reconstructed-slides]]
 - `youtube-AheG9p_JXVw` — 1,340 transcript words
 - Transcript signals for `youtube-AheG9p_JXVw`: editing, media, editor, case, real, users, user, everything.
 - Evidence links for `youtube-AheG9p_JXVw`: [[youtube-AheG9p_JXVw]], [[youtube-AheG9p_JXVw-transcript]], [[youtube-AheG9p_JXVw-slides]]
+## Evidence Table
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 65 | Related pages outside the main evidence categories. |
+| resources | 26 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 19 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 1 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 2 | Transcript markdown; check session matching and caption quality. |
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]]
+- [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]]
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
+- [[2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands]]
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
+- [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code]]
+
+### Resources
+- [[youtube-jVjt-2g8NMY]]
+- [[youtube-CLttOU7n6sI]]
+- [[youtube-HsxQICTLF84]]
+- [[youtube-3hXJI2q0Jz8]]
+- [[youtube-Rx8f05JI_WA]]
+- [[youtube-iRcX54EO5g8]]
+
+### Slides
+- [[youtube-iRcX54EO5g8-slides]]
+- [[youtube-HEFSExa0xl0-slides]]
+- [[youtube-MpZzWMdmQCE-slides]]
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-2e9ANoOEn28-slides]]
+
+### Transcripts
+- [[youtube-Xfl50508LZM-transcript]]
+- [[youtube-AheG9p_JXVw-transcript]]
+
+### Tools
+- [[docker]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]]
+- [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]]
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
+- [[2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands]]
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
+- [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code]]
+
+### Resources
+- [[youtube-jVjt-2g8NMY]]
+- [[youtube-CLttOU7n6sI]]
+- [[youtube-HsxQICTLF84]]
+- [[youtube-3hXJI2q0Jz8]]
+- [[youtube-Rx8f05JI_WA]]
+- [[youtube-iRcX54EO5g8]]
+
+### Slides
+- [[youtube-iRcX54EO5g8-slides]]
+- [[youtube-HEFSExa0xl0-slides]]
+- [[youtube-MpZzWMdmQCE-slides]]
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-2e9ANoOEn28-slides]]
+
+### Transcripts
+- [[youtube-Xfl50508LZM-transcript]]
+- [[youtube-AheG9p_JXVw-transcript]]
+
+### Tools
+- [[docker]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]]
+- [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]]
+- [[2026-07-01-james-le-video-has-no-memory-here-s-how-we-built-one]]
+- [[2026-07-01-anirban-chatterjee-guide-verify-solve-the-engineering-discipline-agentic-development-demands]]
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
+- [[2026-06-29-itamar-friedman-the-last-human-code-review-building-trust-in-ai-generated-code]]
+
+### Resources
+- [[youtube-jVjt-2g8NMY]]
+- [[youtube-CLttOU7n6sI]]
+- [[youtube-HsxQICTLF84]]
+- [[youtube-3hXJI2q0Jz8]]
+- [[youtube-Rx8f05JI_WA]]
+- [[youtube-iRcX54EO5g8]]
+
+### Slides
+- [[youtube-iRcX54EO5g8-slides]]
+- [[youtube-HEFSExa0xl0-slides]]
+- [[youtube-MpZzWMdmQCE-slides]]
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-IQkVMvXQKLY-slides]]
+- [[youtube-2e9ANoOEn28-slides]]
+
+### Transcripts
+- [[youtube-Xfl50508LZM-transcript]]
+- [[youtube-AheG9p_JXVw-transcript]]
+
+### Tools
+- [[docker]]

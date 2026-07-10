@@ -1,0 +1,170 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "KnowledgeWork IsTwoSelf-Optimising Loops\npy aou apmuy asnnud uoo adoad aw < spoo aag < asnpuy o rapiy < apmy a y 1. THE T0OL L0OP\nWriting, archives, written cultures Oral / early scribes Alexandria catalogues Pinakes / Scriptoria, copying, 国園 Monasteries preservation Indexes, bibliographies, Early modern / industrial age filing systems Late 19th century Dewey + universal bibliography a associative 回盟 Memex/ indexing 1945 Web → AI era Search engines, AI systems ranking,\nMore knowledge work →> one expert cannot do everything →> tasks are decomposed →> specialist roles appear → experts supervise higher-leverage work →→ more knowledge work 2. THE ORGANISATION LOOP Each new tool makes some kind ofknowledge work cheaper.\ngathers, interprets, Lone expert One person records Scribes & clerks record-keeping Thinking and separate Monastic scriptoria Copying, correcting. organised labour storing.berore Universities / guilds / Training, ranking, credentialing professions institutional memory Bureaucracies procedures, Files, forms, Partner associate - 8888 analyst -> assistant services firms Professional Judgmentvs research, documents, process Paralegals / assistants\nOrganisation changes who does what in knowledge work.",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Large multi-part loop diagram with many small labels and timeline boxes is OCR-suitable.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Knowledge Work Is Two Self-Optimising Loops",
+        "x": 11.0,
+        "y": 11.0,
+        "w": 65.0,
+        "h": 9.0
+      },
+      {
+        "role": "subtitle",
+        "text": "1. THE TOOL LOOP",
+        "x": 10.0,
+        "y": 31.0,
+        "w": 22.0,
+        "h": 6.0
+      },
+      {
+        "role": "subtitle",
+        "text": "2. THE ORGANISATION LOOP",
+        "x": 10.0,
+        "y": 62.0,
+        "w": 30.0,
+        "h": 6.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Oral / early written cultures",
+        "x": 10.0,
+        "y": 40.0,
+        "w": 14.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Alexandria",
+        "x": 25.0,
+        "y": 40.0,
+        "w": 9.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Monasteries",
+        "x": 34.0,
+        "y": 40.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Early modern / industrial age",
+        "x": 45.0,
+        "y": 40.0,
+        "w": 17.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Late 19th century",
+        "x": 63.0,
+        "y": 40.0,
+        "w": 11.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1945",
+        "x": 75.0,
+        "y": 40.0,
+        "w": 6.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Web → AI era",
+        "x": 83.0,
+        "y": 40.0,
+        "w": 12.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Lone expert",
+        "x": 10.0,
+        "y": 71.0,
+        "w": 10.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Scribes & clerks",
+        "x": 21.0,
+        "y": 71.0,
+        "w": 13.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Monastic scriptoria",
+        "x": 35.0,
+        "y": 71.0,
+        "w": 14.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Universities / guilds / professions",
+        "x": 50.0,
+        "y": 71.0,
+        "w": 22.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Bureaucracies",
+        "x": 73.0,
+        "y": 71.0,
+        "w": 11.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Professional services firms",
+        "x": 85.0,
+        "y": 71.0,
+        "w": 12.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 4,
+  "filename": "photo-016.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-016.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668316.7556384,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "KnowledgeWork IsTwoSelf-Optimising Loops\npy aou apmuy asnnud uoo adoad aw < spoo aag < asnpuy o rapiy < apmy a y 1. THE T0OL L0OP\nWriting, archives, written cultures Oral / early scribes Alexandria catalogues Pinakes / Scriptoria, copying, 国園 Monasteries preservation Indexes, bibliographies, Early modern / industrial age filing systems Late 19th century Dewey + universal bibliography a associative 回盟 Memex/ indexing 1945 Web → AI era Search engines, AI systems ranking,\nMore knowledge work →> one expert cannot do everything →> tasks are decomposed →> specialist roles appear → experts supervise higher-leverage work →→ more knowledge work 2. THE ORGANISATION LOOP Each new tool makes some kind ofknowledge work cheaper.\ngathers, interprets, Lone expert One person records Scribes & clerks record-keeping Thinking and separate Monastic scriptoria Copying, correcting. organised labour storing.berore Universities / guilds / Training, ranking, credentialing professions institutional memory Bureaucracies procedures, Files, forms, Partner associate - 8888 analyst -> assistant services firms Professional Judgmentvs research, documents, process Paralegals / assistants\nOrganisation changes who does what in knowledge work.",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1526.56
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "KnowledgeWork IsTwoSelf-Optimising Loops\npy aou apmuy asnnud uoo adoad aw < spoo aag < asnpuy o rapiy < apmy a y 1. THE T0OL L0OP\nWriting, archives, written cultures Oral / early scribes Alexandria catalogues Pinakes / Scriptoria, copying, 国園 Monasteries preservation Indexes, bibliographies, Early modern / industrial age filing systems Late 19th century Dewey + universal bibliography a associative 回盟 Memex/ indexing 1945 Web → AI era Search engines, AI systems ranking,\nMore knowledge work →> one expert cannot do everything →> tasks are decomposed →> specialist roles appear → experts supervise higher-leverage work →→ more knowledge work 2. THE ORGANISATION LOOP Each new tool makes some kind ofknowledge work cheaper.\ngathers, interprets, Lone expert One person records Scribes & clerks record-keeping Thinking and separate Monastic scriptoria Copying, correcting. organised labour storing.berore Universities / guilds / Training, ranking, credentialing professions institutional memory Bureaucracies procedures, Files, forms, Partner associate - 8888 analyst -> assistant services firms Professional Judgmentvs research, documents, process Paralegals / assistants\nOrganisation changes who does what in knowledge work.",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

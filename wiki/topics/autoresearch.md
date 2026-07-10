@@ -152,10 +152,117 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-30-richard-socher-first-steps-toward-automated-ai-research|First Steps Toward Automated AI Research]]
 
 ### Slide And Transcript Signals
-- `youtube-4sX_He5c4sI` — 82,600 transcript words; 4 slide-derived text signals
+- `youtube-4sX_He5c4sI` — 82,600 transcript words; 8 slide-derived text signals
 - Transcript signals for `youtube-4sX_He5c4sI`: model, code, models, research, system, well, first, better.
-- Slide-derived themes for `youtube-4sX_He5c4sI`: examples, tools, lots, many, tool, search, immediate.
+- Slide-derived themes for `youtube-4sX_He5c4sI`: system, prompt, examples, tools, lots, claude, gets, smarter.
 - Evidence links for `youtube-4sX_He5c4sI`: [[youtube-4sX_He5c4sI]], [[youtube-4sX_He5c4sI-transcript]], [[youtube-4sX_He5c4sI-slides]], [[youtube-4sX_He5c4sI-dense-slides]], [[youtube-4sX_He5c4sI-reconstructed-slides]]
-- `youtube-G_bHFmEAarM` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-G_bHFmEAarM`: output, google, gemini, flash, lite, paid, grounding, latest.
+- `youtube-G_bHFmEAarM` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
 - Evidence links for `youtube-G_bHFmEAarM`: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
+## Evidence Table
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 51 | Related pages outside the main evidence categories. |
+| resources | 19 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 6 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 2 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
+- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
+- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
+- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]]
+
+### Resources
+- [[youtube-4sX_He5c4sI]]
+- [[youtube-dvft0Gp9sEE]]
+- [[youtube-bk0TmxoZlUY]]
+- [[youtube-OXMMN-XbxwA]]
+- [[youtube-aHhB3sjGjkI]]
+- [[youtube-UcYoMg-8-L8]]
+
+### Slides
+- [[youtube-4sX_He5c4sI-slides]]
+- [[youtube-4sX_He5c4sI-dense-slides]]
+- [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- [[youtube-G_bHFmEAarM-slides]]
+- [[youtube-G_bHFmEAarM-dense-slides]]
+- [[youtube-G_bHFmEAarM-reconstructed-slides]]
+
+### Transcripts
+- [[youtube-4sX_He5c4sI-transcript]]
+
+### Tools
+- [[browserbase]]
+- [[prime-intellect]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
+- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
+- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
+- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]]
+
+### Resources
+- [[youtube-4sX_He5c4sI]]
+- [[youtube-dvft0Gp9sEE]]
+- [[youtube-bk0TmxoZlUY]]
+- [[youtube-OXMMN-XbxwA]]
+- [[youtube-aHhB3sjGjkI]]
+- [[youtube-UcYoMg-8-L8]]
+
+### Slides
+- [[youtube-4sX_He5c4sI-slides]]
+- [[youtube-4sX_He5c4sI-dense-slides]]
+- [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- [[youtube-G_bHFmEAarM-slides]]
+- [[youtube-G_bHFmEAarM-dense-slides]]
+- [[youtube-G_bHFmEAarM-reconstructed-slides]]
+
+### Transcripts
+- [[youtube-4sX_He5c4sI-transcript]]
+
+### Tools
+- [[browserbase]]
+- [[prime-intellect]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-30-tim-sweeney-closing-the-loop-an-autonomous-ai-research-agent]]
+- [[2026-06-29-zhengyao-jiang-hands-on-autoresearch-cracking-openai-s-parameter-golf]]
+- [[2026-06-30-elie-bakouch-the-era-of-auto-research]]
+- [[2026-06-30-erina-karati-autoresearch-in-a-multi-agent-ai-village]]
+- [[2026-06-30-han-xiao-autoresearch-for-dense-retrieval-test-time-compute-with-frozen-embedding-models]]
+- [[2026-06-30-tejas-bhakta-autoresearch-for-kernels]]
+
+### Resources
+- [[youtube-4sX_He5c4sI]]
+- [[youtube-dvft0Gp9sEE]]
+- [[youtube-bk0TmxoZlUY]]
+- [[youtube-OXMMN-XbxwA]]
+- [[youtube-aHhB3sjGjkI]]
+- [[youtube-UcYoMg-8-L8]]
+
+### Slides
+- [[youtube-4sX_He5c4sI-slides]]
+- [[youtube-4sX_He5c4sI-dense-slides]]
+- [[youtube-4sX_He5c4sI-reconstructed-slides]]
+- [[youtube-G_bHFmEAarM-slides]]
+- [[youtube-G_bHFmEAarM-dense-slides]]
+- [[youtube-G_bHFmEAarM-reconstructed-slides]]
+
+### Transcripts
+- [[youtube-4sX_He5c4sI-transcript]]
+
+### Tools
+- [[browserbase]]
+- [[prime-intellect]]

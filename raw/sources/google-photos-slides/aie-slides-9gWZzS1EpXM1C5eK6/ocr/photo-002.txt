@@ -1,0 +1,7 @@
+Parallelism techniques
+Tensor parallelism Split matmul across GPUs,good for GEMMs
+Data parallelism Split batch across GPus,good for attention
+Pipeline parallelism Split model forward pipeline steps across GPus Prefill/decode disaggregation is, IMO,a special case
+Expertparallelism Split MoE experts across GPUs,good for group GEMMs
+Context parallelism Split sequence across GPUs, stillnew (to Oss)
+Modal

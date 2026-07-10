@@ -5,7 +5,6 @@ aliases: ["Better Auth"]
 website: "https://betterauth.app/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Better Auth
 
 ## What It Is

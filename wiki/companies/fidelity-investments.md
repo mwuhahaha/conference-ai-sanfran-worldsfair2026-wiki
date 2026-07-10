@@ -5,7 +5,6 @@ aliases: ["Fidelity Investments"]
 website: "https://www.fidelity.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Fidelity Investments
 
 ## What It Is

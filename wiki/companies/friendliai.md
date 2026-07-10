@@ -5,7 +5,6 @@ aliases: ["FriendliAI"]
 website: "https://friendli.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # FriendliAI
 
 ## What It Is

@@ -54,18 +54,18 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-B9h9ovW5H9U` — 2,859 transcript words; 10 slide-derived text signals
+- `youtube-B9h9ovW5H9U` — 2,859 transcript words; 1 slide-derived text signals
 - Transcript signals for `youtube-B9h9ovW5H9U`: graph, context, data, create, traces, back, little, decision.
-- Slide-derived themes for `youtube-B9h9ovW5H9U`: context, graphs, information, required, accurate, answer, graph, started.
+- Slide-derived themes for `youtube-B9h9ovW5H9U`: engineering, future.
 - Evidence links for `youtube-B9h9ovW5H9U`: [[youtube-B9h9ovW5H9U]], [[youtube-B9h9ovW5H9U-transcript]], [[youtube-B9h9ovW5H9U-slides]], [[youtube-B9h9ovW5H9U-dense-slides]], [[youtube-B9h9ovW5H9U-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-B9h9ovW5H9U`
-- Slide deck: [[youtube-B9h9ovW5H9U-dense-slides|Dense Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]] — 1 visible slide image(s).
+- Slide deck: [[youtube-B9h9ovW5H9U-dense-slides|Dense Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/B9h9ovW5H9U/slide-001.jpg]]
 - Additional slide evidence: [[youtube-B9h9ovW5H9U-slides|Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]], [[youtube-B9h9ovW5H9U-reconstructed-slides|Reconstructed Slides: Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j]]
-- Slide-derived themes for `youtube-B9h9ovW5H9U`: context, graphs, information, required, accurate, answer, graph, started.
+- Slide-derived themes for `youtube-B9h9ovW5H9U`: engineering, future.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

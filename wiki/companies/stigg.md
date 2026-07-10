@@ -5,7 +5,6 @@ aliases: ["Stigg"]
 website: "https://www.stigg.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Stigg
 
 ## What It Is

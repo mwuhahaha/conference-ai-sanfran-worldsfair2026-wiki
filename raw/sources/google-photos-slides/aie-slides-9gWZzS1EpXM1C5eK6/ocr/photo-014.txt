@@ -1,0 +1,5 @@
+But... What Even is Knowledge Work?
+Knowledge work is all work where the main input is information and the main output is a (broadly) actionable judgement.
+a knowledge problem,you probably need search. It's tautological with retrieval: if you need search, it's likely a knowledge problem, and if it's
+Each knowledge industry has contributed to the ever-improving structuring of knowledgework... Doctors, Actuaries, etc... all perform knowledge work on a daily basis. In thereal world,it iseverywhere:awyers,Academics,SoftwareEngineers,Paralegals,
+But agents have focused on a special case: software engineering.

@@ -45,18 +45,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-liG97YXaTSA` — 2 slide-derived text signals
-- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, samples, trivia, questions, general, model.
+- `youtube-liG97YXaTSA` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, progress, benchmarks, past, five, years, trivia, questions.
 - Evidence links for `youtube-liG97YXaTSA`: [[youtube-liG97YXaTSA]], [[youtube-liG97YXaTSA-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-liG97YXaTSA`
-- Slide deck: [[youtube-liG97YXaTSA-slides|Slides: OpenThoughts: Data Recipes for Reasoning Models — Ryan Marten, Bespoke Labs]] — 4 visible slide image(s).
+- Slide deck: [[youtube-liG97YXaTSA-slides|Slides: OpenThoughts: Data Recipes for Reasoning Models — Ryan Marten, Bespoke Labs]] — 2 visible slide image(s); 2 HTML recreation(s).
 ![[assets/slides/liG97YXaTSA/slide-001.jpg]]
 ![[assets/slides/liG97YXaTSA/slide-002.jpg]]
-![[assets/slides/liG97YXaTSA/slide-003.jpg]]
-- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, samples, trivia, questions, general, model.
+- Slide-derived themes for `youtube-liG97YXaTSA`: reasoning, progress, benchmarks, past, five, years, trivia, questions.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

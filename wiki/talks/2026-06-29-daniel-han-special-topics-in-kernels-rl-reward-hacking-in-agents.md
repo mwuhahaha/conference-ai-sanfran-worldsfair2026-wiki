@@ -59,7 +59,6 @@ This section is generated from all currently linked source material for the arti
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-OkEGJ5G3foU`
-- Slide deck: [[youtube-OkEGJ5G3foU-dense-slides|Dense Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han]] — 1 visible slide image(s).
-![[assets/dense-slides/OkEGJ5G3foU/slide-001.jpg]]
+- Slide deck: [[youtube-OkEGJ5G3foU-dense-slides|Dense Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han]] — no readable content slides after AI classification.
 - Additional slide evidence: [[youtube-OkEGJ5G3foU-slides|Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han]], [[youtube-OkEGJ5G3foU-reconstructed-slides|Reconstructed Slides: [Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han]]
 - Slide-derived themes for `youtube-OkEGJ5G3foU`: fixes, chat, template, multiple, llama, research, google, github.

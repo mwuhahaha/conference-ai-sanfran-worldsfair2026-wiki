@@ -5,7 +5,6 @@ aliases: ["Oracle"]
 website: "https://www.oracle.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # Oracle
 
 ## What It Is

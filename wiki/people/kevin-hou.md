@@ -31,6 +31,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-29-kevin-hou-get-out-of-the-model-s-way|Get Out of the Model's Way]]
 
 ### Slide And Transcript Signals
-- `youtube-bVNNvWq6dKo` — 6 slide-derived text signals
-- Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
+- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
 - Evidence links for `youtube-bVNNvWq6dKo`: [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]

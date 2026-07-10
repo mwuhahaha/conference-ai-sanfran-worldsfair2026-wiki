@@ -29,6 +29,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-cornelia-davis-mcp-tasks-async-why-the-heck-aren-t-any-agents-supporting-mcp-tasks-async|MCP Tasks (async)/ Why the heck aren't any agents supporting MCP tasks/async?]]
 
 ### Slide And Transcript Signals
-- `youtube-k8cnVCMYmNc` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-k8cnVCMYmNc`: instructions, python, available, distributed, typescript, developer, advocate, temporal.
+- `youtube-k8cnVCMYmNc` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-k8cnVCMYmNc`: note, enough, quota, account, pending, event, types.
 - Evidence links for `youtube-k8cnVCMYmNc`: [[youtube-k8cnVCMYmNc]], [[youtube-k8cnVCMYmNc-slides]], [[youtube-k8cnVCMYmNc-dense-slides]], [[youtube-k8cnVCMYmNc-reconstructed-slides]]

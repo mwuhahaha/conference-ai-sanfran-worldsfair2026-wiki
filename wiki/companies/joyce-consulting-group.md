@@ -5,7 +5,6 @@ aliases: ["Joyce Consulting Group"]
 website: "https://www.joycezhang.io/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # Joyce Consulting Group
 
 ## What It Is

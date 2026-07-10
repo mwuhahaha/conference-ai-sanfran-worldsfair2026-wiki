@@ -5,7 +5,6 @@ aliases: ["Sarvam"]
 website: "https://www.sarvam.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Sarvam
 
 ## What It Is

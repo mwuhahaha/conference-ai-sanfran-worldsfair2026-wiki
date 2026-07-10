@@ -5,7 +5,6 @@ aliases: ["GEPA"]
 website: "https://github.com/gepa-ai/gepa"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # GEPA
 
 ## What It Is

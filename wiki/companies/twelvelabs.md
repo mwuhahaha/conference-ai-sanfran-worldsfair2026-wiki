@@ -5,7 +5,6 @@ aliases: ["TwelveLabs"]
 website: "https://twelvelabs.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # TwelveLabs
 
 ## What It Is

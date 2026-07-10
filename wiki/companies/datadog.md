@@ -5,7 +5,6 @@ aliases: ["Datadog"]
 website: "https://www.datadoghq.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Datadog
 
 ## What It Is

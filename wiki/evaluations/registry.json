@@ -1,0 +1,38 @@
+[
+  {
+    "id": "coding-agent-platforms",
+    "title": "Coding Agent Platforms",
+    "path": "wiki/evaluations/coding-agent-platforms.md",
+    "confidence": "medium"
+  },
+  {
+    "id": "eval-observability-tools",
+    "title": "Eval And Observability Tools",
+    "path": "wiki/evaluations/eval-observability-tools.md",
+    "confidence": "medium"
+  },
+  {
+    "id": "mcp-server-patterns",
+    "title": "MCP Server Patterns",
+    "path": "wiki/evaluations/mcp-server-patterns.md",
+    "confidence": "medium-low"
+  },
+  {
+    "id": "local-vs-hosted-inference",
+    "title": "Local Vs Hosted Inference",
+    "path": "wiki/evaluations/local-vs-hosted-inference.md",
+    "confidence": "medium"
+  },
+  {
+    "id": "sandbox-providers",
+    "title": "Sandbox Providers",
+    "path": "wiki/evaluations/sandbox-providers.md",
+    "confidence": "medium"
+  },
+  {
+    "id": "credibility-policy-evals",
+    "title": "Credibility Policy Evals",
+    "path": "wiki/evaluations/credibility-policy-evals.md",
+    "confidence": "high"
+  }
+]

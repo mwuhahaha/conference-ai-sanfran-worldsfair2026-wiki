@@ -1,0 +1,52 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Gemini API inputs and outputs",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Gemini API inputs and outputs",
+        "x": 25.0,
+        "y": 10.0,
+        "w": 48.0,
+        "h": 10.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "system instructions\ntext\ncode\nimage\naudio\nvideo\nspeech\nAPI information\nURLs",
+        "x": 16.0,
+        "y": 28.0,
+        "w": 22.0,
+        "h": 58.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "text\nimage\naudio\nvideo\nfunction call\ncode",
+        "x": 67.0,
+        "y": 28.0,
+        "w": 18.0,
+        "h": 46.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "slide-005.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-005.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783667879.7112966,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Gemini API inputs and outputs",
+  "advanced_ocr": {}
+}

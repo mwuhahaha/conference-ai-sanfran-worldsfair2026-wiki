@@ -55,17 +55,17 @@ These are phone-photo slide captures from the Google Photos `AIE Slides` album. 
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-Bc6Ojl2XS1w` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
+- `youtube-Bc6Ojl2XS1w` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: engineering, future.
 - Evidence links for `youtube-Bc6Ojl2XS1w`: [[youtube-Bc6Ojl2XS1w]], [[youtube-Bc6Ojl2XS1w-slides]], [[youtube-Bc6Ojl2XS1w-dense-slides]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-Bc6Ojl2XS1w`
-- Slide deck: [[youtube-Bc6Ojl2XS1w-dense-slides|Dense Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]] — 1 visible slide image(s).
+- Slide deck: [[youtube-Bc6Ojl2XS1w-dense-slides|Dense Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/Bc6Ojl2XS1w/slide-001.jpg]]
 - Additional slide evidence: [[youtube-Bc6Ojl2XS1w-slides|Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]], [[youtube-Bc6Ojl2XS1w-reconstructed-slides|Reconstructed Slides: From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind]]
-- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: audio, engineering, future, gemini, flash, native, shipping, relentless.
+- Slide-derived themes for `youtube-Bc6Ojl2XS1w`: engineering, future.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

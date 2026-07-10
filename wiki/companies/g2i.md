@@ -5,7 +5,6 @@ aliases: ["G2i"]
 website: "https://www.g2i.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # G2i
 
 ## What It Is

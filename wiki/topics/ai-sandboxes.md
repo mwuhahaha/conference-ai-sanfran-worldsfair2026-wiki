@@ -145,15 +145,121 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-29-matt-brockman-how-i-learned-to-stop-worrying-and-love-the-sandbox|How I learned to stop worrying and love the sandbox]]
 
 ### Slide And Transcript Signals
-- `youtube-rcsliSIy_YU` — 9 slide-derived text signals
-- Slide-derived themes for `youtube-rcsliSIy_YU`: code, showcase, automating, massive, robert, brennan, generation, implement.
+- `youtube-rcsliSIy_YU` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-rcsliSIy_YU`: coding, code, snippets, generation, single, atomic, tasks, curl.
 - Evidence links for `youtube-rcsliSIy_YU`: [[youtube-rcsliSIy_YU]], [[youtube-rcsliSIy_YU-slides]], [[youtube-rcsliSIy_YU-dense-slides]], [[youtube-rcsliSIy_YU-reconstructed-slides]]
 - `youtube-bmWZk9vTze0` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-bmWZk9vTze0`: query, client, info, table, tool, call, response, await.
 - Evidence links for `youtube-bmWZk9vTze0`: [[youtube-bmWZk9vTze0]], [[youtube-bmWZk9vTze0-slides]], [[youtube-bmWZk9vTze0-dense-slides]], [[youtube-bmWZk9vTze0-reconstructed-slides]]
 - `youtube-wsFd22SL1s8` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-wsFd22SL1s8`: clone, flask, project, code, create, scratch, systems, chat.
+- Slide-derived themes for `youtube-wsFd22SL1s8`: systems, chrome, code, sandboxes, operating, distributed, windows, subsystem.
 - Evidence links for `youtube-wsFd22SL1s8`: [[youtube-wsFd22SL1s8]], [[youtube-wsFd22SL1s8-slides]], [[youtube-wsFd22SL1s8-dense-slides]], [[youtube-wsFd22SL1s8-reconstructed-slides]]
-- `youtube-e9sLVMN76qU` — 10 slide-derived text signals
+- `youtube-e9sLVMN76qU` — 8 slide-derived text signals
 - Slide-derived themes for `youtube-e9sLVMN76qU`: most, today, tooling, breaks, moment, remove, human, loop.
 - Evidence links for `youtube-e9sLVMN76qU`: [[youtube-e9sLVMN76qU]], [[youtube-e9sLVMN76qU-slides]], [[youtube-e9sLVMN76qU-reconstructed-slides]]
+## Evidence Table
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 40 | Related pages outside the main evidence categories. |
+| resources | 22 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 16 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 5 | Derived inventory pages; use as entity context, not independent proof. |
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]]
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
+- [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
+
+### Resources
+- [[youtube-wFTVEDYVJT0]]
+- [[youtube-Rx8f05JI_WA]]
+- [[youtube-2IxD9OB3XuQ]]
+- [[youtube-SKDJo2CopRs]]
+- [[youtube-JnubYCYunk8]]
+- [[youtube-c-2eEv2ou7Y]]
+
+### Slides
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-qdZzND79mcg-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+- [[youtube-sAOBXCDiDOs-slides]]
+- [[youtube-vljxQZfJ9wY-slides]]
+- [[youtube-rcsliSIy_YU-slides]]
+
+### Tools
+- [[docker]]
+- [[browserbase]]
+- [[mcp-apps]]
+- [[prime-intellect]]
+- [[openhands]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]]
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
+- [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
+
+### Resources
+- [[youtube-wFTVEDYVJT0]]
+- [[youtube-Rx8f05JI_WA]]
+- [[youtube-2IxD9OB3XuQ]]
+- [[youtube-SKDJo2CopRs]]
+- [[youtube-JnubYCYunk8]]
+- [[youtube-c-2eEv2ou7Y]]
+
+### Slides
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-qdZzND79mcg-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+- [[youtube-sAOBXCDiDOs-slides]]
+- [[youtube-vljxQZfJ9wY-slides]]
+- [[youtube-rcsliSIy_YU-slides]]
+
+### Tools
+- [[docker]]
+- [[browserbase]]
+- [[mcp-apps]]
+- [[prime-intellect]]
+- [[openhands]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-06-30-pierluca-d-oro-computer-use-at-the-edge-of-the-statistical-precipice]]
+- [[2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale]]
+- [[2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert]]
+- [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1]]
+- [[2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt2]]
+
+### Resources
+- [[youtube-wFTVEDYVJT0]]
+- [[youtube-Rx8f05JI_WA]]
+- [[youtube-2IxD9OB3XuQ]]
+- [[youtube-SKDJo2CopRs]]
+- [[youtube-JnubYCYunk8]]
+- [[youtube-c-2eEv2ou7Y]]
+
+### Slides
+- [[youtube-4kYl2_mqmnQ-slides]]
+- [[youtube-qdZzND79mcg-slides]]
+- [[youtube-2IxD9OB3XuQ-slides]]
+- [[youtube-sAOBXCDiDOs-slides]]
+- [[youtube-vljxQZfJ9wY-slides]]
+- [[youtube-rcsliSIy_YU-slides]]
+
+### Tools
+- [[docker]]
+- [[browserbase]]
+- [[mcp-apps]]
+- [[prime-intellect]]
+- [[openhands]]

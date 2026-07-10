@@ -5,7 +5,6 @@ aliases: ["Block"]
 website: "https://block.co/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Block
 
 ## What It Is

@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-BM2JX9hqsVQ` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future, sandbox, permissions, typically, managed, identity, provider.
+- `youtube-BM2JX9hqsVQ` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future.
 - Evidence links for `youtube-BM2JX9hqsVQ`: [[youtube-BM2JX9hqsVQ]], [[youtube-BM2JX9hqsVQ-slides]], [[youtube-BM2JX9hqsVQ-dense-slides]], [[youtube-BM2JX9hqsVQ-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-BM2JX9hqsVQ`
-- Slide deck: [[youtube-BM2JX9hqsVQ-dense-slides|Dense Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]] — 1 visible slide image(s).
+- Slide deck: [[youtube-BM2JX9hqsVQ-dense-slides|Dense Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/BM2JX9hqsVQ/slide-001.jpg]]
 - Additional slide evidence: [[youtube-BM2JX9hqsVQ-slides|Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]], [[youtube-BM2JX9hqsVQ-reconstructed-slides|Reconstructed Slides: What if the network was the sandbox? — Remy Guercio, Tailscale]]
-- Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future, sandbox, permissions, typically, managed, identity, provider.
+- Slide-derived themes for `youtube-BM2JX9hqsVQ`: engineering, future.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

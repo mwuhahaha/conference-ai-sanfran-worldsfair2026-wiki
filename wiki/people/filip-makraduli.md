@@ -35,6 +35,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-filip-makraduli-weight-folding-cuda-streams-and-the-bug-that-made-my-model-speak-backwards|Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards]]
 
 ### Slide And Transcript Signals
-- `youtube-qdh_x-uRs9g` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-qdh_x-uRs9g`: model, performance, makes, embedding, best, learn, join, team.
+- `youtube-qdh_x-uRs9g` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-qdh_x-uRs9g`: makes, embedding, learning, first, principles, models, production, best.
 - Evidence links for `youtube-qdh_x-uRs9g`: [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]

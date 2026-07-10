@@ -1,0 +1,60 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Proper Knowledge Work Needs Organisation\nAlong with the evolution of tools, fields develop a division of labour that enables much greater breadth of information and efficiency.\nFor programming, this is not as important: users are technical, terminal interface alleviate issues, and tasks are mostly self-contained and verifiable enough.",
+  "text_status": "meaningful",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": true,
+  "text_density": "medium",
+  "layout": {
+    "background": "light off-white slide on dark stage",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Proper Knowledge Work Needs Organisation",
+        "x": 7.0,
+        "y": 17.0,
+        "w": 69.0,
+        "h": 10.0
+      },
+      {
+        "role": "body",
+        "text": "Along with the evolution of tools, fields develop a division of labour that enables much greater breadth of information and efficiency.",
+        "x": 7.0,
+        "y": 30.0,
+        "w": 37.0,
+        "h": 24.0
+      },
+      {
+        "role": "body",
+        "text": "For programming, this is not as important: users are technical, terminal interface alleviate issues, and tasks are mostly self-contained and verifiable enough.",
+        "x": 7.0,
+        "y": 55.0,
+        "w": 38.0,
+        "h": 25.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "BIG SHOT / FINAL RESPONSE / QUERY BREAKDOWN / ASSISTANT 1 / ASSISTANT 2 / ASSISTANT 3 / RESEARCH TOOLS / SOURCES",
+        "x": 42.0,
+        "y": 28.0,
+        "w": 47.0,
+        "h": 56.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-019.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668627.7849739,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "agent_vision",
+  "vision_text": "Proper Knowledge Work Needs Organisation\nAlong with the evolution of tools, fields develop a division of labour that enables much greater breadth of information and efficiency.\nFor programming, this is not as important: users are technical, terminal interface alleviate issues, and tasks are mostly self-contained and verifiable enough.",
+  "advanced_ocr": {}
+}

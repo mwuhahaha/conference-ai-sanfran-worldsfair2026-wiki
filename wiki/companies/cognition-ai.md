@@ -5,7 +5,6 @@ aliases: ["Cognition AI"]
 website: "https://cognition.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Cognition AI
 
 ## What It Is

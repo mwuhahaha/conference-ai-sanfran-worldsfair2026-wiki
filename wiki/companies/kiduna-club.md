@@ -5,7 +5,6 @@ aliases: ["Kiduna Club"]
 website: "https://www.kiduna.design/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Kiduna Club
 
 ## What It Is

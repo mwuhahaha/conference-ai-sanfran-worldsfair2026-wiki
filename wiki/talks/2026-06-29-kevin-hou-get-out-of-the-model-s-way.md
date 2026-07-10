@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-bVNNvWq6dKo` — 6 slide-derived text signals
-- Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
+- `youtube-bVNNvWq6dKo` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.
 - Evidence links for `youtube-bVNNvWq6dKo`: [[youtube-bVNNvWq6dKo]], [[youtube-bVNNvWq6dKo-slides]], [[youtube-bVNNvWq6dKo-dense-slides]], [[youtube-bVNNvWq6dKo-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-bVNNvWq6dKo`
-- Slide deck: [[youtube-bVNNvWq6dKo-dense-slides|Dense Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf]] — 4 visible slide image(s).
+- Slide deck: [[youtube-bVNNvWq6dKo-dense-slides|Dense Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf]] — 4 visible slide image(s); 4 HTML recreation(s).
 ![[assets/dense-slides/bVNNvWq6dKo/slide-001.jpg]]
 ![[assets/dense-slides/bVNNvWq6dKo/slide-002.jpg]]
 ![[assets/dense-slides/bVNNvWq6dKo/slide-003.jpg]]
 - Additional slide evidence: [[youtube-bVNNvWq6dKo-slides|Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf]], [[youtube-bVNNvWq6dKo-reconstructed-slides|Reconstructed Slides: How Windsurf writes 90% of your code with an Agentic IDE - Kevin Hou, Windsurf]]
-- Slide-derived themes for `youtube-bVNNvWq6dKo`: always, believed, future, software, write, analyzes, content, most.
+- Slide-derived themes for `youtube-bVNNvWq6dKo`: agentic, diff, review, first, company, replace, chat, deep.

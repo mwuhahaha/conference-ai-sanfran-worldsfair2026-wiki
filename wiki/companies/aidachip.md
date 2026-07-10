@@ -5,7 +5,6 @@ aliases: ["AIDAChip"]
 website: "https://aidachip.com"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # AIDAChip
 
 ## What It Is

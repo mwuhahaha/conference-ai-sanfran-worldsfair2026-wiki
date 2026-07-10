@@ -43,6 +43,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-pamela-fox-diagnosing-agent-failures-in-production|Diagnosing agent failures in production]]
 
 ### Slide And Transcript Signals
-- `youtube-1t-9-s1brcg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-1t-9-s1brcg`: microsoft, start, access, quick, templates, powdery, bran, expert.
+- `youtube-1t-9-s1brcg` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-1t-9-s1brcg`: azure, proxy, templates, microsoft, startups, founders, startup, faster.
 - Evidence links for `youtube-1t-9-s1brcg`: [[youtube-1t-9-s1brcg]], [[youtube-1t-9-s1brcg-slides]], [[youtube-1t-9-s1brcg-dense-slides]], [[youtube-1t-9-s1brcg-reconstructed-slides]]

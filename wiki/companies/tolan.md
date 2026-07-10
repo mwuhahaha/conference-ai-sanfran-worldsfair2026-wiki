@@ -5,7 +5,6 @@ aliases: ["Tolan"]
 website: "https://www.tolan.cloud/landing"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Tolan
 
 ## What It Is

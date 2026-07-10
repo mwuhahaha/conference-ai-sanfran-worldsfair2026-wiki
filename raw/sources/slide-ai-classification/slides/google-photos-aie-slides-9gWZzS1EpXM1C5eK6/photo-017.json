@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.98,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "Knowledge 1. NEw KNOWLEDGE\nJust One Work Is Actually absorb knowledge to produce and Raises capacity New findings, information, methods More knowledge to process\nLoop, Running For Centuries Self-Optimising 4. RETRAINING & KNOWLEDGE WORK REORGANIZED Workers adapt, specialize, and use the tools reinforces itself. The loop Too much knowledge to absorb by hand 2. NEED FoR BETTER ToOLS\nboth organisation and tooling knowledge, we've developed To deal with the specificities of workflows, and Changes jobs, training WoRKFLOwS & ROLES Software, automation, 3. NEw Tools, organizing work new ways of Drives invention and adoption",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Diagram slide with loop nodes and small explanatory labels is best handled by OCR.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "white",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Knowledge Work Is Actually Just One Self-Optimising Loop, Running For Centuries",
+        "x": 8.0,
+        "y": 12.0,
+        "w": 67.0,
+        "h": 16.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "1. NEW KNOWLEDGE",
+        "x": 57.0,
+        "y": 28.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "2. NEED FOR BETTER TOOLS",
+        "x": 82.0,
+        "y": 53.0,
+        "w": 18.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "3. NEW TOOLS, WORKFLOWS & ROLES",
+        "x": 56.0,
+        "y": 78.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "4. RETRAINING & REORGANISED KNOWLEDGE WORK",
+        "x": 34.0,
+        "y": 52.0,
+        "w": 24.0,
+        "h": 8.0
+      }
+    ]
+  },
+  "image_index": 5,
+  "filename": "photo-017.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-017.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668386.4834464,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "Knowledge 1. NEw KNOWLEDGE\nJust One Work Is Actually absorb knowledge to produce and Raises capacity New findings, information, methods More knowledge to process\nLoop, Running For Centuries Self-Optimising 4. RETRAINING & KNOWLEDGE WORK REORGANIZED Workers adapt, specialize, and use the tools reinforces itself. The loop Too much knowledge to absorb by hand 2. NEED FoR BETTER ToOLS\nboth organisation and tooling knowledge, we've developed To deal with the specificities of workflows, and Changes jobs, training WoRKFLOwS & ROLES Software, automation, 3. NEw Tools, organizing work new ways of Drives invention and adoption",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 807.96
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "Knowledge 1. NEw KNOWLEDGE\nJust One Work Is Actually absorb knowledge to produce and Raises capacity New findings, information, methods More knowledge to process\nLoop, Running For Centuries Self-Optimising 4. RETRAINING & KNOWLEDGE WORK REORGANIZED Workers adapt, specialize, and use the tools reinforces itself. The loop Too much knowledge to absorb by hand 2. NEED FoR BETTER ToOLS\nboth organisation and tooling knowledge, we've developed To deal with the specificities of workflows, and Changes jobs, training WoRKFLOwS & ROLES Software, automation, 3. NEw Tools, organizing work new ways of Drives invention and adoption",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

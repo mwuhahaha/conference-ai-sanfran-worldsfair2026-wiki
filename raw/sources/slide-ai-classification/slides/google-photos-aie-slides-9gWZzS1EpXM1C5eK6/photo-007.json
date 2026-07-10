@@ -1,0 +1,27 @@
+{
+  "is_content_slide": false,
+  "confidence": 0.98,
+  "frame_type": "other",
+  "reject_reason": "camera photo of a GitHub repo page on a screen, not a presentation slide",
+  "text": "",
+  "text_status": "non_slide",
+  "ocr_ready": false,
+  "ocr_reason": "",
+  "direct_read_ready": false,
+  "text_density": "none",
+  "layout": {
+    "background": "light browser UI on a white page",
+    "style": "product",
+    "blocks": []
+  },
+  "image_index": 1,
+  "filename": "photo-007.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-007.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668062.108497,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {}
+}

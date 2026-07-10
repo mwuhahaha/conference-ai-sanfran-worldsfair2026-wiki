@@ -5,7 +5,6 @@ aliases: ["Mastra"]
 website: "https://mastra.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Mastra
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-29-sam-bhagwat-every-harness-will-become-a-claw|Every Harness Will Become A Claw]]
 
 ### Slide And Transcript Signals
-- `youtube-8SUJEqQNClw` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-8SUJEqQNClw`: typescript, framework, users, sometimes, giving, gatsby, author, principles.
+- `youtube-8SUJEqQNClw` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-8SUJEqQNClw`: december, wrote, great, blog, post, defined, workflows, april.
 - Evidence links for `youtube-8SUJEqQNClw`: [[youtube-8SUJEqQNClw]], [[youtube-8SUJEqQNClw-slides]], [[youtube-8SUJEqQNClw-reconstructed-slides]]

@@ -152,13 +152,123 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-06-29-jesse-lumarie-building-the-engine-while-flying-the-plane-launching-the-figma-mcp-server|Building the engine while flying the plane — launching the Figma MCP server]]
 
 ### Slide And Transcript Signals
-- `youtube-blW-lSd5CYQ` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-blW-lSd5CYQ`: scraper, data, extract, posts, google, maps, instagram, scrape.
+- `youtube-blW-lSd5CYQ` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-blW-lSd5CYQ`: google, maps, intelligence, emerge, runs, actors, compass, data.
 - Evidence links for `youtube-blW-lSd5CYQ`: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]
-- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 10 slide-derived text signals
+- `youtube-o-zkvb0iFDQ` — 3,969 transcript words; 1 slide-derived text signals
 - Transcript signals for `youtube-o-zkvb0iFDQ`: apps, host, claude, back, chatgpt, look, mcpui, chat.
-- Slide-derived themes for `youtube-o-zkvb0iFDQ`: apps, maintainer, labs, used, text, community, easy, adoption.
+- Slide-derived themes for `youtube-o-zkvb0iFDQ`: engineering, future.
 - Evidence links for `youtube-o-zkvb0iFDQ`: [[youtube-o-zkvb0iFDQ]], [[youtube-o-zkvb0iFDQ-transcript]], [[youtube-o-zkvb0iFDQ-slides]], [[youtube-o-zkvb0iFDQ-dense-slides]], [[youtube-o-zkvb0iFDQ-reconstructed-slides]]
 - `youtube-E71YtNbCFXY` — 5 slide-derived text signals
 - Slide-derived themes for `youtube-E71YtNbCFXY`: pelt, remember, connections.
 - Evidence links for `youtube-E71YtNbCFXY`: [[youtube-E71YtNbCFXY]], [[youtube-E71YtNbCFXY-slides]], [[youtube-E71YtNbCFXY-dense-slides]], [[youtube-E71YtNbCFXY-reconstructed-slides]]
+## Evidence Table
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 53 | Related pages outside the main evidence categories. |
+| resources | 22 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 11 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
+| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
+- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]]
+- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]]
+- [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]]
+- [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies]]
+
+### Resources
+- [[youtube-sAOBXCDiDOs]]
+- [[youtube-btxGmN8RvNU]]
+- [[youtube-wFTVEDYVJT0]]
+- [[youtube-vh2VGuQ3zhY]]
+- [[youtube-_xIwFcnHqp4]]
+- [[youtube-ghJmWQCIHRM]]
+
+### Slides
+- [[youtube-2e9ANoOEn28-slides]]
+- [[youtube-sAOBXCDiDOs-slides]]
+- [[youtube-blW-lSd5CYQ-slides]]
+- [[youtube-blW-lSd5CYQ-dense-slides]]
+- [[youtube-blW-lSd5CYQ-reconstructed-slides]]
+- [[youtube-o-zkvb0iFDQ-slides]]
+
+### Transcripts
+- [[youtube-o-zkvb0iFDQ-transcript]]
+
+### Tools
+- [[docker]]
+- [[mcp-apps]]
+- [[neo4j]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
+- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]]
+- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]]
+- [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]]
+- [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies]]
+
+### Resources
+- [[youtube-sAOBXCDiDOs]]
+- [[youtube-btxGmN8RvNU]]
+- [[youtube-wFTVEDYVJT0]]
+- [[youtube-vh2VGuQ3zhY]]
+- [[youtube-_xIwFcnHqp4]]
+- [[youtube-ghJmWQCIHRM]]
+
+### Slides
+- [[youtube-2e9ANoOEn28-slides]]
+- [[youtube-sAOBXCDiDOs-slides]]
+- [[youtube-blW-lSd5CYQ-slides]]
+- [[youtube-blW-lSd5CYQ-dense-slides]]
+- [[youtube-blW-lSd5CYQ-reconstructed-slides]]
+- [[youtube-o-zkvb0iFDQ-slides]]
+
+### Transcripts
+- [[youtube-o-zkvb0iFDQ-transcript]]
+
+### Tools
+- [[docker]]
+- [[mcp-apps]]
+- [[neo4j]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]]
+- [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]]
+- [[2026-06-30-dustin-mihalik-mcp-apps-give-the-model-data-give-the-user-a-ui]]
+- [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]]
+- [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]]
+- [[2026-06-30-joseph-wang-emulated-the-data-for-fully-autonomous-software-engineers-and-companies]]
+
+### Resources
+- [[youtube-sAOBXCDiDOs]]
+- [[youtube-btxGmN8RvNU]]
+- [[youtube-wFTVEDYVJT0]]
+- [[youtube-vh2VGuQ3zhY]]
+- [[youtube-_xIwFcnHqp4]]
+- [[youtube-ghJmWQCIHRM]]
+
+### Slides
+- [[youtube-2e9ANoOEn28-slides]]
+- [[youtube-sAOBXCDiDOs-slides]]
+- [[youtube-blW-lSd5CYQ-slides]]
+- [[youtube-blW-lSd5CYQ-dense-slides]]
+- [[youtube-blW-lSd5CYQ-reconstructed-slides]]
+- [[youtube-o-zkvb0iFDQ-slides]]
+
+### Transcripts
+- [[youtube-o-zkvb0iFDQ-transcript]]
+
+### Tools
+- [[docker]]
+- [[mcp-apps]]
+- [[neo4j]]

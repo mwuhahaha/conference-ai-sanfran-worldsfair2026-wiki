@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-jVGCulhBRZI` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-jVGCulhBRZI`: knowledge, data, cases, automate, workers, efficient, does, automation.
+- `youtube-jVGCulhBRZI` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-jVGCulhBRZI`: data, knowledge, unstructured, documents, automate, better, talking, does.
 - Evidence links for `youtube-jVGCulhBRZI`: [[youtube-jVGCulhBRZI]], [[youtube-jVGCulhBRZI-slides]], [[youtube-jVGCulhBRZI-dense-slides]], [[youtube-jVGCulhBRZI-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-jVGCulhBRZI`
-- Slide deck: [[youtube-jVGCulhBRZI-dense-slides|Dense Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex]] — 4 visible slide image(s).
+- Slide deck: [[youtube-jVGCulhBRZI-dense-slides|Dense Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex]] — 4 visible slide image(s); 4 HTML recreation(s).
 ![[assets/dense-slides/jVGCulhBRZI/slide-001.jpg]]
 ![[assets/dense-slides/jVGCulhBRZI/slide-002.jpg]]
 ![[assets/dense-slides/jVGCulhBRZI/slide-003.jpg]]
 - Additional slide evidence: [[youtube-jVGCulhBRZI-slides|Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex]], [[youtube-jVGCulhBRZI-reconstructed-slides|Reconstructed Slides: Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex]]
-- Slide-derived themes for `youtube-jVGCulhBRZI`: knowledge, data, cases, automate, workers, efficient, does, automation.
+- Slide-derived themes for `youtube-jVGCulhBRZI`: data, knowledge, unstructured, documents, automate, better, talking, does.

@@ -51,19 +51,19 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-PmZDupFP3UM` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-PmZDupFP3UM`: engineering, claude, against, expert, forecasts, developer, slows, down.
+- `youtube-PmZDupFP3UM` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-PmZDupFP3UM`: google, users, strategy, senior, executives, productive, measures, says.
 - Evidence links for `youtube-PmZDupFP3UM`: [[youtube-PmZDupFP3UM]], [[youtube-PmZDupFP3UM-slides]], [[youtube-PmZDupFP3UM-dense-slides]], [[youtube-PmZDupFP3UM-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-PmZDupFP3UM`
-- Slide deck: [[youtube-PmZDupFP3UM-dense-slides|Dense Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)]] — 6 visible slide image(s).
+- Slide deck: [[youtube-PmZDupFP3UM-dense-slides|Dense Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)]] — 6 visible slide image(s); 6 HTML recreation(s).
 ![[assets/dense-slides/PmZDupFP3UM/slide-001.jpg]]
 ![[assets/dense-slides/PmZDupFP3UM/slide-002.jpg]]
 ![[assets/dense-slides/PmZDupFP3UM/slide-003.jpg]]
 - Additional slide evidence: [[youtube-PmZDupFP3UM-slides|Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)]], [[youtube-PmZDupFP3UM-reconstructed-slides|Reconstructed Slides: Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)]]
-- Slide-derived themes for `youtube-PmZDupFP3UM`: engineering, claude, against, expert, forecasts, developer, slows, down.
+- Slide-derived themes for `youtube-PmZDupFP3UM`: google, users, strategy, senior, executives, productive, measures, says.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

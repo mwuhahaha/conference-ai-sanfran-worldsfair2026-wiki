@@ -45,17 +45,15 @@ This section is generated from all currently linked source material for the arti
 
 ### Source Signals
 - `youtube-gcseUQJ6Gbg` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, demos, architecture, typical, tech, stack, process, advice.
+- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, agenda, introduction, together, demos, architecture, typical, tech.
 - Evidence links for `youtube-gcseUQJ6Gbg`: [[youtube-gcseUQJ6Gbg]], [[youtube-gcseUQJ6Gbg-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-gcseUQJ6Gbg`
-- Slide deck: [[youtube-gcseUQJ6Gbg-slides|Slides: Using OSS models to build AI apps with millions of users — Hassan El Mghari]] — 4 visible slide image(s).
-![[assets/slides/gcseUQJ6Gbg/slide-001.jpg]]
+- Slide deck: [[youtube-gcseUQJ6Gbg-slides|Slides: Using OSS models to build AI apps with millions of users — Hassan El Mghari]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/slides/gcseUQJ6Gbg/slide-002.jpg]]
-![[assets/slides/gcseUQJ6Gbg/slide-003.jpg]]
-- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, demos, architecture, typical, tech, stack, process, advice.
+- Slide-derived themes for `youtube-gcseUQJ6Gbg`: section, agenda, introduction, together, demos, architecture, typical, tech.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

@@ -5,7 +5,6 @@ aliases: ["Taste Labs"]
 website: "https://taste.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Taste Labs
 
 ## What It Is

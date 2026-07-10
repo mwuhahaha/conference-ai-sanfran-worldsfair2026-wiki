@@ -30,5 +30,5 @@ This section summarizes how this person appears across the conference source gra
 
 ### Slide And Transcript Signals
 - `youtube-5_QWh4LGoxg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-5_QWh4LGoxg`: layer, graph, phishing, emails, working, legitimate, ones, mars.
+- Slide-derived themes for `youtube-5_QWh4LGoxg`: fraud, ever, working, against, happens, smartest, tools, built.
 - Evidence links for `youtube-5_QWh4LGoxg`: [[youtube-5_QWh4LGoxg]], [[youtube-5_QWh4LGoxg-slides]], [[youtube-5_QWh4LGoxg-dense-slides]], [[youtube-5_QWh4LGoxg-reconstructed-slides]]

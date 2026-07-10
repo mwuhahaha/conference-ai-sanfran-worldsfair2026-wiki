@@ -1,0 +1,50 @@
+{
+  "slug": "coding-agents-credibility",
+  "title": "Coding Agents Credibility",
+  "topic": "coding-agents",
+  "useCase": "Rank people or sources for practical coding-agent workflow guidance.",
+  "version": "2026-07-10.1",
+  "viewSignalRole": "Minor. Views can indicate broad adoption, but code/review practice and shipped artifacts matter more.",
+  "weights": {
+    "topic_fit": 20,
+    "practitioner_depth": 25,
+    "shipped_artifacts": 20,
+    "official_or_primary_source": 15,
+    "peer_recognition": 10,
+    "production_scale": 5,
+    "public_attention": 5
+  },
+  "weightsTotal": 100,
+  "evalFixtures": [
+    {
+      "policy": "coding-agents-credibility",
+      "name": "Kent C. Dodds",
+      "expectedMin": 82,
+      "why": "Known expert in production web/product engineering and developer education; useful high exemplar when judging practical coding-agent workflow advice.",
+      "signals": {
+        "topic_fit": 0.9,
+        "practitioner_depth": 0.95,
+        "shipped_artifacts": 0.9,
+        "official_or_primary_source": 0.8,
+        "peer_recognition": 0.9,
+        "production_scale": 0.75,
+        "public_attention": 0.85
+      }
+    },
+    {
+      "policy": "coding-agents-credibility",
+      "name": "Jason Liu",
+      "expectedMin": 82,
+      "why": "Strong practical signal for AI engineering workflows, structured outputs, and hands-on Codex/coding-agent practice.",
+      "signals": {
+        "topic_fit": 0.95,
+        "practitioner_depth": 0.95,
+        "shipped_artifacts": 0.9,
+        "official_or_primary_source": 0.85,
+        "peer_recognition": 0.85,
+        "production_scale": 0.7,
+        "public_attention": 0.75
+      }
+    }
+  ]
+}

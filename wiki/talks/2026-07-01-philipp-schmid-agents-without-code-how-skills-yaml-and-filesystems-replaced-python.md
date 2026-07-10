@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-cVzf49yg0D8` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, thea, score, secure, service, login, base, explore.
+- `youtube-cVzf49yg0D8` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, gemini, interactions, zero, working, agentic, application, minutes.
 - Evidence links for `youtube-cVzf49yg0D8`: [[youtube-cVzf49yg0D8]], [[youtube-cVzf49yg0D8-slides]], [[youtube-cVzf49yg0D8-dense-slides]], [[youtube-cVzf49yg0D8-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-cVzf49yg0D8`
-- Slide deck: [[youtube-cVzf49yg0D8-dense-slides|Dense Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind]] — 14 visible slide image(s).
+- Slide deck: [[youtube-cVzf49yg0D8-dense-slides|Dense Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind]] — 14 visible slide image(s); 14 HTML recreation(s).
 ![[assets/dense-slides/cVzf49yg0D8/slide-001.jpg]]
 ![[assets/dense-slides/cVzf49yg0D8/slide-002.jpg]]
 ![[assets/dense-slides/cVzf49yg0D8/slide-003.jpg]]
 - Additional slide evidence: [[youtube-cVzf49yg0D8-slides|Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind]], [[youtube-cVzf49yg0D8-reconstructed-slides|Reconstructed Slides: Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind]]
-- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, thea, score, secure, service, login, base, explore.
+- Slide-derived themes for `youtube-cVzf49yg0D8`: rule, gemini, interactions, zero, working, agentic, application, minutes.

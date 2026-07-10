@@ -34,6 +34,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents|Memory Harnesses for Long-Running Research Agents]]
 
 ### Slide And Transcript Signals
-- `youtube-wNH3q9pqn0U` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-wNH3q9pqn0U`: solution, water, growth, crystal, salt, input, sources, services.
+- `youtube-wNH3q9pqn0U` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-wNH3q9pqn0U`: sound, request, beaker, crystals.
 - Evidence links for `youtube-wNH3q9pqn0U`: [[youtube-wNH3q9pqn0U]], [[youtube-wNH3q9pqn0U-slides]], [[youtube-wNH3q9pqn0U-dense-slides]], [[youtube-wNH3q9pqn0U-reconstructed-slides]]

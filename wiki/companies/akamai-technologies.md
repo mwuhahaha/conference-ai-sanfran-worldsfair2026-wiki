@@ -5,7 +5,6 @@ aliases: ["Akamai Technologies"]
 website: "https://www.akamai.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Akamai Technologies
 
 ## What It Is
@@ -40,7 +39,7 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus|>-]]
 
 ### Slide And Transcript Signals
-- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 2 slide-derived text signals
 - Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
-- Slide-derived themes for `youtube-wFTVEDYVJT0`: plan, execute, actions, achieve, specific, goals, agentic, tamera.
+- Slide-derived themes for `youtube-wFTVEDYVJT0`: safeguards, chat, text, image, welcome, amazon, nova.
 - Evidence links for `youtube-wFTVEDYVJT0`: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]

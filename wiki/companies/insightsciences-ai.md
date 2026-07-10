@@ -5,7 +5,6 @@ aliases: ["InsightSciences.ai"]
 website: "https://insightsciences.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # InsightSciences.ai
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research|Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”)]]
 
 ### Slide And Transcript Signals
-- `youtube-ZuiJjkbX0Og` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-ZuiJjkbX0Og`: transformer, used, fair, room, lines, vanilla, javascript, basic.
+- `youtube-ZuiJjkbX0Og` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-ZuiJjkbX0Og`: lines, vanilla, javascript, spread, word, visit, discount, full.
 - Evidence links for `youtube-ZuiJjkbX0Og`: [[youtube-ZuiJjkbX0Og]], [[youtube-ZuiJjkbX0Og-slides]], [[youtube-ZuiJjkbX0Og-dense-slides]], [[youtube-ZuiJjkbX0Og-reconstructed-slides]]

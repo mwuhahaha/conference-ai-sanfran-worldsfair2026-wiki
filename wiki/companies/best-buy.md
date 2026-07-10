@@ -5,7 +5,6 @@ aliases: ["Best Buy"]
 website: "https://bestbuy.org/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Best Buy
 
 ## What It Is

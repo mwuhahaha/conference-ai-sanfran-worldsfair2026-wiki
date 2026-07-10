@@ -5,7 +5,6 @@ aliases: ["Decagon"]
 website: "https://decagon.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Decagon
 
 ## What It Is

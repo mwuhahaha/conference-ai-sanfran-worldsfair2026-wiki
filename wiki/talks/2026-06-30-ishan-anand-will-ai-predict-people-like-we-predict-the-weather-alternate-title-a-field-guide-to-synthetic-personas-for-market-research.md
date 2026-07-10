@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-ZuiJjkbX0Og` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-ZuiJjkbX0Og`: transformer, used, fair, room, lines, vanilla, javascript, basic.
+- `youtube-ZuiJjkbX0Og` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-ZuiJjkbX0Og`: lines, vanilla, javascript, spread, word, visit, discount, full.
 - Evidence links for `youtube-ZuiJjkbX0Og`: [[youtube-ZuiJjkbX0Og]], [[youtube-ZuiJjkbX0Og-slides]], [[youtube-ZuiJjkbX0Og-dense-slides]], [[youtube-ZuiJjkbX0Og-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-ZuiJjkbX0Og`
-- Slide deck: [[youtube-ZuiJjkbX0Og-dense-slides|Dense Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand]] — 3 visible slide image(s).
+- Slide deck: [[youtube-ZuiJjkbX0Og-dense-slides|Dense Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand]] — 3 visible slide image(s); 3 HTML recreation(s).
 ![[assets/dense-slides/ZuiJjkbX0Og/slide-001.jpg]]
 ![[assets/dense-slides/ZuiJjkbX0Og/slide-002.jpg]]
 ![[assets/dense-slides/ZuiJjkbX0Og/slide-003.jpg]]
 - Additional slide evidence: [[youtube-ZuiJjkbX0Og-slides|Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand]], [[youtube-ZuiJjkbX0Og-reconstructed-slides|Reconstructed Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand]]
-- Slide-derived themes for `youtube-ZuiJjkbX0Og`: transformer, used, fair, room, lines, vanilla, javascript, basic.
+- Slide-derived themes for `youtube-ZuiJjkbX0Og`: lines, vanilla, javascript, spread, word, visit, discount, full.

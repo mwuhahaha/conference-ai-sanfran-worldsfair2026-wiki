@@ -52,17 +52,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-NuePCNMpWGc` — 4 slide-derived text signals
-- Slide-derived themes for `youtube-NuePCNMpWGc`: programming, changed, last, benchmarks, enough, info, demo, stop.
+- `youtube-NuePCNMpWGc` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-NuePCNMpWGc`: software, engineering, changed.
 - Evidence links for `youtube-NuePCNMpWGc`: [[youtube-NuePCNMpWGc]], [[youtube-NuePCNMpWGc-slides]], [[youtube-NuePCNMpWGc-dense-slides]], [[youtube-NuePCNMpWGc-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-NuePCNMpWGc`
-- Slide deck: [[youtube-NuePCNMpWGc-dense-slides|Dense Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]] — 1 visible slide image(s).
+- Slide deck: [[youtube-NuePCNMpWGc-dense-slides|Dense Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/NuePCNMpWGc/slide-001.jpg]]
 - Additional slide evidence: [[youtube-NuePCNMpWGc-slides|Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]], [[youtube-NuePCNMpWGc-reconstructed-slides|Reconstructed Slides: Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar]]
-- Slide-derived themes for `youtube-NuePCNMpWGc`: programming, changed, last, benchmarks, enough, info, demo, stop.
+- Slide-derived themes for `youtube-NuePCNMpWGc`: software, engineering, changed.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

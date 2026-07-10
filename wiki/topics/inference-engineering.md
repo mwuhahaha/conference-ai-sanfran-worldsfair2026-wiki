@@ -149,13 +149,107 @@ This section consolidates source evidence currently connected to this topic acro
 - [[2026-07-01-qianru-lao-routing-llm-inference-in-production-from-engine-signals-to-policy|Routing LLM Inference in Production: From Engine Signals to Policy]]
 
 ### Slide And Transcript Signals
-- `youtube-APh1Vx0oLmQ` — 7 slide-derived text signals
-- Slide-derived themes for `youtube-APh1Vx0oLmQ`: emerging, control, plane, autonomous, systems, deterministic, boundary, entropy.
+- `youtube-APh1Vx0oLmQ` — 4 slide-derived text signals
+- Slide-derived themes for `youtube-APh1Vx0oLmQ`: systems, deterministic, infrastructure, emerging, control, plane, autonomous, reliability.
 - Evidence links for `youtube-APh1Vx0oLmQ`: [[youtube-APh1Vx0oLmQ]], [[youtube-APh1Vx0oLmQ-slides]], [[youtube-APh1Vx0oLmQ-dense-slides]], [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
-- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 9 slide-derived text signals
+- `youtube-wFTVEDYVJT0` — 13,586 transcript words; 2 slide-derived text signals
 - Transcript signals for `youtube-wFTVEDYVJT0`: nova, amazon, code, server, browser, able, open, click.
-- Slide-derived themes for `youtube-wFTVEDYVJT0`: plan, execute, actions, achieve, specific, goals, agentic, tamera.
+- Slide-derived themes for `youtube-wFTVEDYVJT0`: safeguards, chat, text, image, welcome, amazon, nova.
 - Evidence links for `youtube-wFTVEDYVJT0`: [[youtube-wFTVEDYVJT0]], [[youtube-wFTVEDYVJT0-transcript]], [[youtube-wFTVEDYVJT0-slides]], [[youtube-wFTVEDYVJT0-dense-slides]], [[youtube-wFTVEDYVJT0-reconstructed-slides]]
-- `youtube-tzRvcTEapzo` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-tzRvcTEapzo`: mixture, experts, queen, research, focus, training, cores, buffers.
+- `youtube-tzRvcTEapzo` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-tzRvcTEapzo`: models, training, creator, tokens, downloads, former, google, researcher.
 - Evidence links for `youtube-tzRvcTEapzo`: [[youtube-tzRvcTEapzo]], [[youtube-tzRvcTEapzo-slides]], [[youtube-tzRvcTEapzo-dense-slides]], [[youtube-tzRvcTEapzo-reconstructed-slides]]
+## Evidence Table
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| Evidence type | Count | Review note |
+| --- | ---: | --- |
+| other | 58 | Related pages outside the main evidence categories. |
+| resources | 21 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 11 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| talks | 24 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+| transcripts | 1 | Transcript markdown; check session matching and caption quality. |
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]]
+- [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]]
+- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]]
+- [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era]]
+- [[2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code]]
+- [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]]
+
+### Resources
+- [[youtube-r305-aQTaU0]]
+- [[youtube-vh2VGuQ3zhY]]
+- [[youtube-fWXJM-J0ZB8]]
+- [[youtube-TUnPNY4E2fw]]
+- [[youtube-_B4Pv9ttFgY]]
+- [[youtube-Rx8f05JI_WA]]
+
+### Slides
+- [[youtube-2IxD9OB3XuQ-slides]]
+- [[youtube-vljxQZfJ9wY-slides]]
+- [[youtube-APh1Vx0oLmQ-slides]]
+- [[youtube-APh1Vx0oLmQ-dense-slides]]
+- [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
+- [[youtube-wFTVEDYVJT0-slides]]
+
+### Transcripts
+- [[youtube-wFTVEDYVJT0-transcript]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]]
+- [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]]
+- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]]
+- [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era]]
+- [[2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code]]
+- [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]]
+
+### Resources
+- [[youtube-r305-aQTaU0]]
+- [[youtube-vh2VGuQ3zhY]]
+- [[youtube-fWXJM-J0ZB8]]
+- [[youtube-TUnPNY4E2fw]]
+- [[youtube-_B4Pv9ttFgY]]
+- [[youtube-Rx8f05JI_WA]]
+
+### Slides
+- [[youtube-2IxD9OB3XuQ-slides]]
+- [[youtube-vljxQZfJ9wY-slides]]
+- [[youtube-APh1Vx0oLmQ-slides]]
+- [[youtube-APh1Vx0oLmQ-dense-slides]]
+- [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
+- [[youtube-wFTVEDYVJT0-slides]]
+
+### Transcripts
+- [[youtube-wFTVEDYVJT0-transcript]]
+
+## Representative Evidence Links
+### Talks
+- [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]]
+- [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]]
+- [[2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus]]
+- [[2026-06-29-zain-hasan-open-source-inference-engineering-for-the-agentic-era]]
+- [[2026-06-30-nicholas-arcolano-tokenmaxxing-is-the-new-lines-of-code]]
+- [[2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens]]
+
+### Resources
+- [[youtube-r305-aQTaU0]]
+- [[youtube-vh2VGuQ3zhY]]
+- [[youtube-fWXJM-J0ZB8]]
+- [[youtube-TUnPNY4E2fw]]
+- [[youtube-_B4Pv9ttFgY]]
+- [[youtube-Rx8f05JI_WA]]
+
+### Slides
+- [[youtube-2IxD9OB3XuQ-slides]]
+- [[youtube-vljxQZfJ9wY-slides]]
+- [[youtube-APh1Vx0oLmQ-slides]]
+- [[youtube-APh1Vx0oLmQ-dense-slides]]
+- [[youtube-APh1Vx0oLmQ-reconstructed-slides]]
+- [[youtube-wFTVEDYVJT0-slides]]
+
+### Transcripts
+- [[youtube-wFTVEDYVJT0-transcript]]

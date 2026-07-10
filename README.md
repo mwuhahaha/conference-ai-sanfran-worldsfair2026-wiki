@@ -46,6 +46,7 @@ python3 scripts/discover_external_event_videos.py --write-wiki --import-high-con
 python3 scripts/generate_transcript_markdown_pages.py
 python3 scripts/generate_talk_synthesis.py --speaker "Liad Yosef"
 python3 scripts/generate_highlights.py
+python3 scripts/generate_synthesis_layers.py
 python3 scripts/run_slide_ocr_pipeline.py
 python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --internal-eval-log
 python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --vision-rescue --vision-provider codex-cli --internal-eval-log
@@ -55,6 +56,8 @@ python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --no-live-ocr --i
 The external video discovery tool searches YouTube beyond the official AI Engineer channel, scores candidates against the official schedule, treats high-confidence matches as secondary sources only, and writes its audit report to `wiki/resources/external-video-discovery.md`.
 
 The talk synthesis tool adds transcript/source-backed sections to talk pages. The highlight generator publishes both the normal highlights index and the grouped `Highlighted Concepts, People, And Talks` map.
+
+The synthesis layer generator publishes harnesses, playbooks, evaluations, topic evidence tables, livestream thematic anchors, and topic-specific credibility policies. Credibility policy JSON files live under `raw/sources/credibility-policies/`; change and review them one at a time, then rerun the generator and inspect `wiki/evaluations/credibility-policy-evals.md`.
 
 The slide OCR pipeline rereads weak or suspicious slide frames with local OCR engines, crop detection, OpenCV preprocessing, and high-contrast variants. It compares those outputs with existing Tesseract/RapidOCR/reconstructed/dense OCR artifacts, updates canonical slide OCR only when the score improves, refreshes slide markdown, regenerates dependent tool/topic indexes, and writes an audit report. For a narrow debug run, use `python3 scripts/run_slide_ocr_pipeline.py --limit 50 --no-build`.
 

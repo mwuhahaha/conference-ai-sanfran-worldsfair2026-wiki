@@ -27,6 +27,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-antje-barth-perception-agents|Perception Agents]]
 
 ### Slide And Transcript Signals
-- `youtube-WJjInLeaJjo` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-WJjInLeaJjo`: documentation, barth, future, tool, search, server, allow, customer.
+- `youtube-WJjInLeaJjo` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-WJjInLeaJjo`: table, contents, open, protocols, part, communication.
 - Evidence links for `youtube-WJjInLeaJjo`: [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]

@@ -5,7 +5,6 @@ aliases: ["Qodo"]
 website: "https://www.qodo.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Qodo
 
 ## What It Is
@@ -45,6 +44,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-wallon-walusayi-ai-engineering-and-governance-2026-trends|AI Engineering & Governance 2026 Trends]]
 
 ### Slide And Transcript Signals
-- `youtube-rgjF5o2Qjsc` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, bash, reality, show, engineering, future.
+- `youtube-rgjF5o2Qjsc` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-rgjF5o2Qjsc`: code, state, quality, companies, pushing, move, faster, offline.
 - Evidence links for `youtube-rgjF5o2Qjsc`: [[youtube-rgjF5o2Qjsc]], [[youtube-rgjF5o2Qjsc-slides]], [[youtube-rgjF5o2Qjsc-reconstructed-slides]]

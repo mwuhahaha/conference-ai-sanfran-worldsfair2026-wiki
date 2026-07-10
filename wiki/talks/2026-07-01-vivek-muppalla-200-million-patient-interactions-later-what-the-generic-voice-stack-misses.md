@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-u3NofYYstaY` — 8 slide-derived text signals
-- Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
+- `youtube-u3NofYYstaY` — 2 slide-derived text signals
+- Slide-derived themes for `youtube-u3NofYYstaY`: oracle, team, accenture.
 - Evidence links for `youtube-u3NofYYstaY`: [[youtube-u3NofYYstaY]], [[youtube-u3NofYYstaY-slides]], [[youtube-u3NofYYstaY-dense-slides]], [[youtube-u3NofYYstaY-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-u3NofYYstaY`
-- Slide deck: [[youtube-u3NofYYstaY-dense-slides|Dense Slides: Cohere for VPs of AI: Vivek Muppalla]] — 1 visible slide image(s).
+- Slide deck: [[youtube-u3NofYYstaY-dense-slides|Dense Slides: Cohere for VPs of AI: Vivek Muppalla]] — 1 visible slide image(s); 1 HTML recreation(s).
 ![[assets/dense-slides/u3NofYYstaY/slide-001.jpg]]
 - Additional slide evidence: [[youtube-u3NofYYstaY-slides|Slides: Cohere for VPs of AI: Vivek Muppalla]], [[youtube-u3NofYYstaY-reconstructed-slides|Reconstructed Slides: Cohere for VPs of AI: Vivek Muppalla]]
-- Slide-derived themes for `youtube-u3NofYYstaY`: cohere, team, accenture, global, languages, support, addresses, unique.
+- Slide-derived themes for `youtube-u3NofYYstaY`: oracle, team, accenture.
 ## Attendance Visibility
 No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.

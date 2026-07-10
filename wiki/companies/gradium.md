@@ -5,7 +5,6 @@ aliases: ["Gradium"]
 website: "https://gradium.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Gradium
 
 ## What It Is
@@ -41,10 +40,10 @@ Official roster and schedule facts are treated as canonical for conference parti
 This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
 ### Related Sessions
+- [[2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie|Your Voice Agent is Just a Walkie-Talkie]]
 - [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-1-of-3|Everybody Gets a Digital Clone! (Part 1 of 3)]]
 - [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-2-of-3|Everybody Gets a Digital Clone! (Part 2 of 3)]]
 - [[2026-06-29-neil-zeghidour-everybody-gets-a-digital-clone-part-3-of-3|Everybody Gets a Digital Clone! (Part 3 of 3)]]
-- [[2026-06-29-neil-zeghidour-your-voice-agent-is-just-a-walkie-talkie|Your Voice Agent is Just a Walkie-Talkie]]
 - [[2026-07-01-kwindla-kramer-voice-is-the-universal-interface|Voice is the universal interface]]
 
 ### Slide And Transcript Signals

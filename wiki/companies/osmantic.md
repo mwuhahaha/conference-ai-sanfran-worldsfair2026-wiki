@@ -5,7 +5,6 @@ aliases: ["Osmantic"]
 website: "https://osmantic.com/?utm_source=redirect_domain&utm_medium=domain_redirect&utm_campaign=osmantic_redirect_sources&utm_content=osmantic.ai&redirect_source=osmantic.ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Osmantic
 
 ## What It Is

@@ -5,7 +5,6 @@ aliases: ["Elastic"]
 website: "https://www.elastic.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Elastic
 
 ## What It Is

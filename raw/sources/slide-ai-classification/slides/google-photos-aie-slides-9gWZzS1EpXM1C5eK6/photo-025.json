@@ -1,0 +1,138 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.96,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "GENERATE SHAREHOLDER VALUE/THE RESULT\nThe final result\nServerless auth logs in, the agent invokes the skill downloads with the tool, and verifies its download, all constrained to the critical path. Same model but with a tailored harness around it.\nauthenticate on portal\nRUNTIME\nAGENT HARNESS\nRequest Serverless authfn authed browser Model ToolingLayer drive/observe Browser\ncritical path Skill 1nvoke download\nmatch? pass / fa11 OCR check verify pass file file to runtime downloadeob thetool Storage downloads\nlook U D resu\\t\nSystem of record database",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "dense architecture diagram and small labels",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "light blue/white slide",
+    "style": "diagram",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The final result",
+        "x": 4.0,
+        "y": 10.0,
+        "w": 24.0,
+        "h": 8.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Serverless auth logs in, the agent invokes the skill, downloads with the tool, and verifies its download, all constrained to the critical path. Same model but with a tailored harness around it.",
+        "x": 4.0,
+        "y": 18.0,
+        "w": 66.0,
+        "h": 14.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Request",
+        "x": 8.0,
+        "y": 46.0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Serverless",
+        "x": 19.0,
+        "y": 45.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Model",
+        "x": 37.0,
+        "y": 47.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Tooling Layer",
+        "x": 46.0,
+        "y": 47.0,
+        "w": 15.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Skill",
+        "x": 43.0,
+        "y": 57.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Browser",
+        "x": 67.0,
+        "y": 45.0,
+        "w": 10.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "download_eob",
+        "x": 64.0,
+        "y": 69.0,
+        "w": 12.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "Storage",
+        "x": 78.0,
+        "y": 69.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "verify",
+        "x": 42.0,
+        "y": 69.0,
+        "w": 8.0,
+        "h": 5.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "System of record",
+        "x": 41.0,
+        "y": 82.0,
+        "w": 16.0,
+        "h": 5.0
+      }
+    ]
+  },
+  "image_index": 1,
+  "filename": "slide-001.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-025.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668975.1594107,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "The final result",
+  "advanced_ocr": {
+    "source": "rapidocr-live/bright-screen/contrast",
+    "text": "GENERATE SHAREHOLDER VALUE/THE RESULT\nThe final result\nServerless auth logs in, the agent invokes the skill downloads with the tool, and verifies its download, all constrained to the critical path. Same model but with a tailored harness around it.\nauthenticate on portal\nRUNTIME\nAGENT HARNESS\nRequest Serverless authfn authed browser Model ToolingLayer drive/observe Browser\ncritical path Skill 1nvoke download\nmatch? pass / fa11 OCR check verify pass file file to runtime downloadeob thetool Storage downloads\nlook U D resu\\t\nSystem of record database",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 867.84
+  },
+  "ocr_source": "rapidocr-live/bright-screen/contrast",
+  "ocr_reconcile": {
+    "text": "GENERATE SHAREHOLDER VALUE/THE RESULT\nThe final result\nServerless auth logs in, the agent invokes the skill downloads with the tool, and verifies its download, all constrained to the critical path. Same model but with a tailored harness around it.\nauthenticate on portal\nRUNTIME\nAGENT HARNESS\nRequest Serverless authfn authed browser Model ToolingLayer drive/observe Browser\ncritical path Skill 1nvoke download\nmatch? pass / fa11 OCR check verify pass file file to runtime downloadeob thetool Storage downloads\nlook U D resu\\t\nSystem of record database",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

@@ -5,7 +5,6 @@ aliases: ["Temporal Technologies"]
 website: "https://temporal.io/solutions/ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Temporal Technologies
 
 ## What It Is

@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.95,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "The Meatbag Ladder. I/ THE 3RD THING\nClimb only as high as the page forces you.\nRUNG3 HUMAN - the narrow frontier trusted input +behaviour:mouse path,dwell,jitter,vision CAPTCHA\nRUNG 2 a trusted click through the native pipeline · Input.dispatchMouseEvent REAL- the workhorse Demazon\nRUNG1 don't act human at all - be a program, or fake the click FAkE -the smart default Outlook",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "small rung labels and side annotations",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "dark gray gradient",
+    "style": "minimal",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "The Meatbag Ladder.",
+        "x": 5.0,
+        "y": 24.0,
+        "w": 28.0,
+        "h": 10.0
+      },
+      {
+        "role": "subtitle",
+        "text": "Climb only as high as the page forces you.",
+        "x": 5.0,
+        "y": 31.0,
+        "w": 36.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "HUMAN — the narrow frontier",
+        "x": 29.0,
+        "y": 45.0,
+        "w": 40.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "REAL — the workhorse",
+        "x": 23.0,
+        "y": 61.0,
+        "w": 31.0,
+        "h": 7.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "FAKE — the smart default",
+        "x": 15.0,
+        "y": 76.0,
+        "w": 31.0,
+        "h": 7.0
+      }
+    ]
+  },
+  "image_index": 6,
+  "filename": "slide-006.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-030.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669067.2176244,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "The Meatbag Ladder.",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "The Meatbag Ladder. I/ THE 3RD THING\nClimb only as high as the page forces you.\nRUNG3 HUMAN - the narrow frontier trusted input +behaviour:mouse path,dwell,jitter,vision CAPTCHA\nRUNG 2 a trusted click through the native pipeline · Input.dispatchMouseEvent REAL- the workhorse Demazon\nRUNG1 don't act human at all - be a program, or fake the click FAkE -the smart default Outlook",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 616.76
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "The Meatbag Ladder. I/ THE 3RD THING\nClimb only as high as the page forces you.\nRUNG3 HUMAN - the narrow frontier trusted input +behaviour:mouse path,dwell,jitter,vision CAPTCHA\nRUNG 2 a trusted click through the native pipeline · Input.dispatchMouseEvent REAL- the workhorse Demazon\nRUNG1 don't act human at all - be a program, or fake the click FAkE -the smart default Outlook",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

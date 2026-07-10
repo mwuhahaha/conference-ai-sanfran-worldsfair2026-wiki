@@ -5,7 +5,6 @@ aliases: ["Audible"]
 website: "https://www.audible.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Audible
 
 ## What It Is
@@ -38,7 +37,8 @@ Official roster and schedule facts are treated as canonical for conference parti
 This section summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
 
 ### Related Sessions
-- No related scheduled session was found in this pass.
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-1-of-2|2 hr deep dive on LLM Inference at Scale — Part 1 of 2]]
+- [[2026-06-29-harshul-jain-2-hr-deep-dive-on-llm-inference-at-scale-part-2-of-2|2 hr deep dive on LLM Inference at Scale — Part 2 of 2]]
 
 ### Slide And Transcript Signals
 No linked video, transcript, or slide source has been attached yet.

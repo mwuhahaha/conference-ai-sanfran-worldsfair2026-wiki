@@ -5,7 +5,6 @@ aliases: ["Roboflow"]
 website: "https://roboflow.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Roboflow
 
 ## What It Is
@@ -42,8 +41,8 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-nader-khalil-state-of-the-union-why-local-why-now|State of the Union: Why Local, Why Now]]
 
 ### Slide And Transcript Signals
-- `youtube-OimPoLxioYg` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-OimPoLxioYg`: prompt, paint, clip, user, image, text, embedding, feature.
+- `youtube-OimPoLxioYg` — 8 slide-derived text signals
+- Slide-derived themes for `youtube-OimPoLxioYg`: clip, prompt, image, text, embedding, paint, user, drawing.
 - Evidence links for `youtube-OimPoLxioYg`: [[youtube-OimPoLxioYg]], [[youtube-OimPoLxioYg-slides]], [[youtube-OimPoLxioYg-dense-slides]], [[youtube-OimPoLxioYg-reconstructed-slides]]
 - `youtube-ESbWpPT_9-o` — 10 slide-derived text signals
 - Slide-derived themes for `youtube-ESbWpPT_9-o`: research, decode, hardware, ideas, progress, iteration, given, software.

@@ -1,0 +1,82 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.99,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "RUNG 3·HUMAN Cloudflare Turnstile a checkbox behind 3 nested boundaric turnstile\nread PoST /verify/turnstile # VERIFY await_cfSolved #/token #Chrome hit-tests down through all3 Input.dispatchMouseEvent(cb) # ACT trusted DOM.getBoxModel(iframe) # SENSE checkbox=（box.x+30,box.y+h/2) #find the Turnstile <iframe> node DOM.getDocumentpierce} # SENSE =[RUNG 3] reach the buried checkbox·click the glass solve.py interaction (the cross-origin-iframe trusted test secret always-passes,so this proves the interactive) time,so it'sa reliable on-camera target.The 'verify you are human' checkbox shows every Turnstile (test key Cloudflare's force-interactive TEsT key: the -always Cloudflare EMBEDDABLEWIDGET\nclick),not a real token.\nCLOUDFLARE\nFor testing only.If seen, report to site owner Privory·Helo\nCheck\nareal click lands on the glass-Chrome does the rest.\nRunlayer Runlayer",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "Dense code slide with embedded widget screenshot and small explanatory text.",
+  "direct_read_ready": false,
+  "text_density": "high",
+  "layout": {
+    "background": "#4e5054",
+    "style": "code",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "Cloudflare Turnstile",
+        "x": 31.0,
+        "y": 8.0,
+        "w": 32.0,
+        "h": 6.0
+      },
+      {
+        "role": "body",
+        "text": "[RUNG 3] reach the buried checkbox · click the glass\nDOM.getDocument{ pierce }",
+        "x": 8.0,
+        "y": 18.0,
+        "w": 40.0,
+        "h": 34.0
+      },
+      {
+        "role": "body",
+        "text": "Cloudflare Turnstile (test key — always interactive)",
+        "x": 61.0,
+        "y": 16.0,
+        "w": 30.0,
+        "h": 8.0
+      },
+      {
+        "role": "diagram_label",
+        "text": "EMBEDDABLE WIDGET",
+        "x": 78.0,
+        "y": 17.0,
+        "w": 16.0,
+        "h": 4.0
+      },
+      {
+        "role": "caption",
+        "text": "a real click lands on the glass — Chrome does the rest.",
+        "x": 10.0,
+        "y": 83.0,
+        "w": 36.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 3,
+  "filename": "photo-033.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-033.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783669303.5066926,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "advanced_ocr",
+  "vision_text": "Cloudflare Turnstile",
+  "advanced_ocr": {
+    "source": "rapidocr-live/full",
+    "text": "RUNG 3·HUMAN Cloudflare Turnstile a checkbox behind 3 nested boundaric turnstile\nread PoST /verify/turnstile # VERIFY await_cfSolved #/token #Chrome hit-tests down through all3 Input.dispatchMouseEvent(cb) # ACT trusted DOM.getBoxModel(iframe) # SENSE checkbox=（box.x+30,box.y+h/2) #find the Turnstile <iframe> node DOM.getDocumentpierce} # SENSE =[RUNG 3] reach the buried checkbox·click the glass solve.py interaction (the cross-origin-iframe trusted test secret always-passes,so this proves the interactive) time,so it'sa reliable on-camera target.The 'verify you are human' checkbox shows every Turnstile (test key Cloudflare's force-interactive TEsT key: the -always Cloudflare EMBEDDABLEWIDGET\nclick),not a real token.\nCLOUDFLARE\nFor testing only.If seen, report to site owner Privory·Helo\nCheck\nareal click lands on the glass-Chrome does the rest.\nRunlayer Runlayer",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_score": 1178.14
+  },
+  "ocr_source": "rapidocr-live/full",
+  "ocr_reconcile": {
+    "text": "RUNG 3·HUMAN Cloudflare Turnstile a checkbox behind 3 nested boundaric turnstile\nread PoST /verify/turnstile # VERIFY await_cfSolved #/token #Chrome hit-tests down through all3 Input.dispatchMouseEvent(cb) # ACT trusted DOM.getBoxModel(iframe) # SENSE checkbox=（box.x+30,box.y+h/2) #find the Turnstile <iframe> node DOM.getDocumentpierce} # SENSE =[RUNG 3] reach the buried checkbox·click the glass solve.py interaction (the cross-origin-iframe trusted test secret always-passes,so this proves the interactive) time,so it'sa reliable on-camera target.The 'verify you are human' checkbox shows every Turnstile (test key Cloudflare's force-interactive TEsT key: the -always Cloudflare EMBEDDABLEWIDGET\nclick),not a real token.\nCLOUDFLARE\nFor testing only.If seen, report to site owner Privory·Helo\nCheck\nareal click lands on the glass-Chrome does the rest.\nRunlayer Runlayer",
+    "text_status": "meaningful",
+    "corrections": "reconcile disabled"
+  }
+}

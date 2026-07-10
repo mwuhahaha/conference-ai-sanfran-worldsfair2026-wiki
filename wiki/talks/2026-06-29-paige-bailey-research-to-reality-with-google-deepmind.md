@@ -51,17 +51,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-G_bHFmEAarM` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-G_bHFmEAarM`: output, google, gemini, flash, lite, paid, grounding, latest.
+- `youtube-G_bHFmEAarM` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.
 - Evidence links for `youtube-G_bHFmEAarM`: [[youtube-G_bHFmEAarM]], [[youtube-G_bHFmEAarM-slides]], [[youtube-G_bHFmEAarM-dense-slides]], [[youtube-G_bHFmEAarM-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-G_bHFmEAarM`
-- Slide deck: [[youtube-G_bHFmEAarM-dense-slides|Dense Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]] — 5 visible slide image(s).
+- Slide deck: [[youtube-G_bHFmEAarM-dense-slides|Dense Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]] — 5 visible slide image(s); 5 HTML recreation(s).
 ![[assets/dense-slides/G_bHFmEAarM/slide-001.jpg]]
 ![[assets/dense-slides/G_bHFmEAarM/slide-002.jpg]]
 ![[assets/dense-slides/G_bHFmEAarM/slide-003.jpg]]
 - Additional slide evidence: [[youtube-G_bHFmEAarM-slides|Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]], [[youtube-G_bHFmEAarM-reconstructed-slides|Reconstructed Slides: Build & deploy AI-powered apps — Paige Bailey, Google DeepMind]]
-- Slide-derived themes for `youtube-G_bHFmEAarM`: output, google, gemini, flash, lite, paid, grounding, latest.
+- Slide-derived themes for `youtube-G_bHFmEAarM`: gemini, byte, google, latest, releases, flash, live, lite.

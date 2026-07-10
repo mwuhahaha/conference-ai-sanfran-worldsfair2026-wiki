@@ -5,7 +5,6 @@ aliases: ["Amazon AGI Lab"]
 website: "https://www.amazon.science/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Amazon AGI Lab
 
 ## What It Is
@@ -50,6 +49,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-30-antje-barth-perception-agents|Perception Agents]]
 
 ### Slide And Transcript Signals
-- `youtube-WJjInLeaJjo` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-WJjInLeaJjo`: documentation, barth, future, tool, search, server, allow, customer.
+- `youtube-WJjInLeaJjo` — 3 slide-derived text signals
+- Slide-derived themes for `youtube-WJjInLeaJjo`: table, contents, open, protocols, part, communication.
 - Evidence links for `youtube-WJjInLeaJjo`: [[youtube-WJjInLeaJjo]], [[youtube-WJjInLeaJjo-slides]], [[youtube-WJjInLeaJjo-dense-slides]], [[youtube-WJjInLeaJjo-reconstructed-slides]]

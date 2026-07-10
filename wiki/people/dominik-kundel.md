@@ -33,6 +33,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-07-01-dominik-kundel-codex-behind-the-harness|Codex, Behind the Harness]]
 
 ### Slide And Transcript Signals
-- `youtube-iXhba366fQc` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-iXhba366fQc`: complex, support, before, started, workshop, slack, voice, provide.
+- `youtube-iXhba366fQc` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-iXhba366fQc`: than, complex, personalized, github, voice, provide, wide, range.
 - Evidence links for `youtube-iXhba366fQc`: [[youtube-iXhba366fQc]], [[youtube-iXhba366fQc-slides]], [[youtube-iXhba366fQc-dense-slides]], [[youtube-iXhba366fQc-reconstructed-slides]]

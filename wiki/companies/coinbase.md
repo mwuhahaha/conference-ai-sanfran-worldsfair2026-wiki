@@ -5,7 +5,6 @@ aliases: ["Coinbase"]
 website: "https://www.coinbase.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # Coinbase
 
 ## What It Is

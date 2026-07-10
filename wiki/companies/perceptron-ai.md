@@ -5,7 +5,6 @@ aliases: ["Perceptron AI"]
 website: "https://perceptron.cloud/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Perceptron AI
 
 ## What It Is

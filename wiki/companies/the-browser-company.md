@@ -5,7 +5,6 @@ aliases: ["The Browser Company"]
 website: "https://thebrowser.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # The Browser Company
 
 ## What It Is

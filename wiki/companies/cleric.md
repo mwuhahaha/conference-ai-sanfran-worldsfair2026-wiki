@@ -5,7 +5,6 @@ aliases: ["Cleric"]
 website: "https://cleric.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Cleric
 
 ## What It Is

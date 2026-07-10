@@ -5,7 +5,6 @@ aliases: ["Long Lake"]
 website: "https://www.mylonglake.com/agendas-minutes-announcements/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Long Lake
 
 ## What It Is

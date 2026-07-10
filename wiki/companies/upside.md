@@ -5,7 +5,6 @@ aliases: ["Upside"]
 website: "https://upside.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Upside
 
 ## What It Is

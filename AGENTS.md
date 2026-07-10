@@ -27,6 +27,7 @@ Keep new pages compatible with the public repo conventions:
 - New video slide imports should prefer scene-aware frame selection when possible: `python3 scripts/extract_video_slides.py --scene-detect --video-id <id>` samples both interval and scene-change frames, then keeps sharper duplicates.
 - External/non-official YouTube discovery belongs in `scripts/discover_external_event_videos.py`. Run `python3 scripts/discover_external_event_videos.py --write-wiki --import-high-confidence --update-talk-pages` to find high-confidence secondary-source candidates, cache captions when available, update `wiki/resources/external-video-discovery.md`, and add explicit secondary-source links to matched talk pages.
 - Registry files such as `wiki/tools/registry.json`, `wiki/questions/registry.json`, and category indexes when a category has generated pages.
+- Topic-specific credibility policies live under `raw/sources/credibility-policies/` with matching pages in `wiki/policies/`. Change and review one policy at a time, rerun `python3 scripts/generate_synthesis_layers.py`, and inspect `wiki/evaluations/credibility-policy-evals.md` before applying revised scores.
 - No local-only workspace notes, private caches, or unpublishable files in the clean/public wiki.
 
 ## Purpose
@@ -38,7 +39,7 @@ It should preserve the official schedule/media evidence layer while adding Miami
 - content-derived topics and graph clusters
 - questions raised by the conference
 - claims grounded in official schedule, transcripts, slide OCR, reconstructed slides, or resources
-- reusable AI engineering patterns/playbooks when evidence supports them
+- reusable AI engineering patterns, harnesses, playbooks, evaluations, and credibility policies when evidence supports them
 
 ## Boundaries
 

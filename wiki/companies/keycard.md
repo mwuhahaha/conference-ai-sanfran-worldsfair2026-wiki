@@ -5,7 +5,6 @@ aliases: ["Keycard"]
 website: "https://www.keycard.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Keycard
 
 ## What It Is

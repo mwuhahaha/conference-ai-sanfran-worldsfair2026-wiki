@@ -5,7 +5,6 @@ aliases: ["Notion"]
 website: "https://www.notion.com/product/ai"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Notion
 
 ## What It Is
@@ -46,6 +45,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-flora-liu-ai-in-gtm-at-notion|AI in GTM at Notion]]
 
 ### Slide And Transcript Signals
-- `youtube-6YdPI9YbjbI` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-6YdPI9YbjbI`: across, sign, access, join, ease, acme, uses, stripe.
+- `youtube-6YdPI9YbjbI` — 1 slide-derived text signals
+- Slide-derived themes for `youtube-6YdPI9YbjbI`: create, project.
 - Evidence links for `youtube-6YdPI9YbjbI`: [[youtube-6YdPI9YbjbI]], [[youtube-6YdPI9YbjbI-slides]], [[youtube-6YdPI9YbjbI-dense-slides]], [[youtube-6YdPI9YbjbI-reconstructed-slides]]

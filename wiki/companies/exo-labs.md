@@ -5,7 +5,6 @@ aliases: ["EXO Labs"]
 website: "https://github.com/exo-explore/exo"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
 ---
-
 # EXO Labs
 
 ## What It Is

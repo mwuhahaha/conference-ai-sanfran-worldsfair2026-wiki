@@ -5,7 +5,6 @@ aliases: ["Firecrawl"]
 website: "https://www.firecrawl.dev/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Firecrawl
 
 ## What It Is

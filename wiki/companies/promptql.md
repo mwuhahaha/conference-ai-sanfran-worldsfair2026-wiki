@@ -5,7 +5,6 @@ aliases: ["PromptQL"]
 website: "https://promptql.io"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # PromptQL
 
 ## What It Is
@@ -40,6 +39,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-06-29-tanmai-gopal-your-company-brain-will-leak-secrets-here-s-how-we-stopped-it-for-big-banks-and-ourselves|Your company brain will leak secrets. Here's how we stopped it for big banks and ourselves.]]
 
 ### Slide And Transcript Signals
-- `youtube-himhGiWJXjo` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-himhGiWJXjo`: customer, data, query, select, public, order, title, creatures.
+- `youtube-himhGiWJXjo` — 6 slide-derived text signals
+- Slide-derived themes for `youtube-himhGiWJXjo`: data, embrace, overlords, give, deal, acme, stuck, stage.
 - Evidence links for `youtube-himhGiWJXjo`: [[youtube-himhGiWJXjo]], [[youtube-himhGiWJXjo-slides]], [[youtube-himhGiWJXjo-reconstructed-slides]]

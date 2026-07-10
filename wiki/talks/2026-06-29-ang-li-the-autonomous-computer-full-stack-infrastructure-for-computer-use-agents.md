@@ -53,17 +53,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-F_RyElT_gJk` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, claude, slop, cursor, tools, months, gemini, designed.
+- `youtube-F_RyElT_gJk` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, cursor, outcomes, claude, slop, incorrectly, replacement, google.
 - Evidence links for `youtube-F_RyElT_gJk`: [[youtube-F_RyElT_gJk]], [[youtube-F_RyElT_gJk-slides]], [[youtube-F_RyElT_gJk-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-F_RyElT_gJk`
-- Slide deck: [[youtube-F_RyElT_gJk-reconstructed-slides|Reconstructed Slides: The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp]] — 24 visible slide image(s).
-![[assets/reconstructed-slides/F_RyElT_gJk/slide-001.jpg]]
+- Slide deck: [[youtube-F_RyElT_gJk-reconstructed-slides|Reconstructed Slides: The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp]] — 22 visible slide image(s); 22 HTML recreation(s).
 ![[assets/reconstructed-slides/F_RyElT_gJk/slide-002.jpg]]
 ![[assets/reconstructed-slides/F_RyElT_gJk/slide-003.jpg]]
+![[assets/reconstructed-slides/F_RyElT_gJk/slide-004.jpg]]
 - Additional slide evidence: [[youtube-F_RyElT_gJk-slides|Slides: The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp]]
-- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, claude, slop, cursor, tools, months, gemini, designed.
+- Slide-derived themes for `youtube-F_RyElT_gJk`: coding, cursor, outcomes, claude, slop, incorrectly, replacement, google.

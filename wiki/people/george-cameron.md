@@ -31,6 +31,6 @@ This section summarizes how this person appears across the conference source gra
 - [[2026-06-30-george-cameron-trends-in-ai|Trends in AI]]
 
 ### Slide And Transcript Signals
-- `youtube-sRpqPgKeXNk` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-sRpqPgKeXNk`: analysis, artificial, intelligence, index, tokens, models, language, output.
+- `youtube-sRpqPgKeXNk` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-sRpqPgKeXNk`: reasoning, tokens, models, analysis, index, model, output, intelligence.
 - Evidence links for `youtube-sRpqPgKeXNk`: [[youtube-sRpqPgKeXNk]], [[youtube-sRpqPgKeXNk-slides]], [[youtube-sRpqPgKeXNk-dense-slides]], [[youtube-sRpqPgKeXNk-reconstructed-slides]]

@@ -5,7 +5,6 @@ aliases: ["Leibniz Labs"]
 website: "https://leibniz.com/welcome"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Leibniz Labs
 
 ## What It Is

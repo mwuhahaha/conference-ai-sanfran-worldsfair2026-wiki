@@ -5,7 +5,6 @@ aliases: ["Edge & Node", "Edge And Node"]
 website: "https://www.edgeandnode.com/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Edge & Node
 
 ## What It Is

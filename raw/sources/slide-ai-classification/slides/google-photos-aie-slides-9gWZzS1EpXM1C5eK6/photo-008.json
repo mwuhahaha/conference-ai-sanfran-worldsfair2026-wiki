@@ -1,0 +1,55 @@
+{
+  "is_content_slide": true,
+  "confidence": 0.97,
+  "frame_type": "content_slide",
+  "reject_reason": "",
+  "text": "",
+  "text_status": "meaningful",
+  "ocr_ready": true,
+  "ocr_reason": "small chart labels and slide text are better handled by OCR than manual transcription in this pass",
+  "direct_read_ready": false,
+  "text_density": "medium",
+  "layout": {
+    "background": "white slide with faint gray chart",
+    "style": "light",
+    "blocks": [
+      {
+        "role": "title",
+        "text": "We bet on BM25. 100M web documents. top-\n100",
+        "x": 25.0,
+        "y": 62.0,
+        "w": 43.0,
+        "h": 14.0
+      },
+      {
+        "role": "logo",
+        "text": "HORNET",
+        "x": 90.0,
+        "y": 7.0,
+        "w": 6.0,
+        "h": 4.0
+      }
+    ]
+  },
+  "image_index": 2,
+  "filename": "photo-008.jpg",
+  "image": "wiki/assets/slides/google-photos-aie-slides-9gWZzS1EpXM1C5eK6/photo-008.jpg",
+  "deck_kind": "slides",
+  "model": "gpt-5.4-mini",
+  "classified_at_epoch": 1783668062.1110249,
+  "policy_version": "agent-triage-ocr-reconcile-v2",
+  "text_source": "none",
+  "vision_text": "",
+  "advanced_ocr": {
+    "source": "",
+    "text": "",
+    "status": {
+      "rapidocr": "ready"
+    },
+    "errors": {},
+    "best_source": "rapidocr-live/bright-screen/opencv-adaptive",
+    "best_score": 120.52,
+    "rejected_as_weak": true,
+    "suspicious_ratio": 0.0
+  }
+}

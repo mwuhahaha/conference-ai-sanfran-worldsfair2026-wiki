@@ -5,7 +5,6 @@ aliases: ["Apify"]
 website: "https://apify.ai/"
 sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
 ---
-
 # Apify
 
 ## What It Is
@@ -42,6 +41,6 @@ This section summarizes how this organization appears across the conference sour
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does|MCP doesn’t suck — your agent does]]
 
 ### Slide And Transcript Signals
-- `youtube-blW-lSd5CYQ` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-blW-lSd5CYQ`: scraper, data, extract, posts, google, maps, instagram, scrape.
+- `youtube-blW-lSd5CYQ` — 9 slide-derived text signals
+- Slide-derived themes for `youtube-blW-lSd5CYQ`: google, maps, intelligence, emerge, runs, actors, compass, data.
 - Evidence links for `youtube-blW-lSd5CYQ`: [[youtube-blW-lSd5CYQ]], [[youtube-blW-lSd5CYQ-slides]], [[youtube-blW-lSd5CYQ-dense-slides]], [[youtube-blW-lSd5CYQ-reconstructed-slides]]

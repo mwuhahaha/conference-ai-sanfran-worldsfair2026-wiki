@@ -44,17 +44,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-qdh_x-uRs9g` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-qdh_x-uRs9g`: model, performance, makes, embedding, best, learn, join, team.
+- `youtube-qdh_x-uRs9g` — 5 slide-derived text signals
+- Slide-derived themes for `youtube-qdh_x-uRs9g`: makes, embedding, learning, first, principles, models, production, best.
 - Evidence links for `youtube-qdh_x-uRs9g`: [[youtube-qdh_x-uRs9g]], [[youtube-qdh_x-uRs9g-slides]], [[youtube-qdh_x-uRs9g-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-qdh_x-uRs9g`
-- Slide deck: [[youtube-qdh_x-uRs9g-reconstructed-slides|Reconstructed Slides: The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked]] — 12 visible slide image(s).
-![[assets/reconstructed-slides/qdh_x-uRs9g/slide-001.jpg]]
-![[assets/reconstructed-slides/qdh_x-uRs9g/slide-002.jpg]]
+- Slide deck: [[youtube-qdh_x-uRs9g-reconstructed-slides|Reconstructed Slides: The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked]] — 10 visible slide image(s); 10 HTML recreation(s).
 ![[assets/reconstructed-slides/qdh_x-uRs9g/slide-003.jpg]]
+![[assets/reconstructed-slides/qdh_x-uRs9g/slide-004.jpg]]
+![[assets/reconstructed-slides/qdh_x-uRs9g/slide-005.jpg]]
 - Additional slide evidence: [[youtube-qdh_x-uRs9g-slides|Slides: The Small Model Infrastructure Nobody Built (So We Did) — Filip Makraduli, Superlinked]]
-- Slide-derived themes for `youtube-qdh_x-uRs9g`: model, performance, makes, embedding, best, learn, join, team.
+- Slide-derived themes for `youtube-qdh_x-uRs9g`: makes, embedding, learning, first, principles, models, production, best.

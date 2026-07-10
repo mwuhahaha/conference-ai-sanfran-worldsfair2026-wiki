@@ -52,17 +52,17 @@ Related video transcript availability: English auto-captions. Treat this as supp
 This section is generated from all currently linked source material for the article: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
 ### Source Signals
-- `youtube-lY1iFbDPRlw` — 10 slide-derived text signals
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
+- `youtube-lY1iFbDPRlw` — 7 slide-derived text signals
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
 - Evidence links for `youtube-lY1iFbDPRlw`: [[youtube-lY1iFbDPRlw]], [[youtube-lY1iFbDPRlw-slides]], [[youtube-lY1iFbDPRlw-dense-slides]], [[youtube-lY1iFbDPRlw-reconstructed-slides]]
 
 ### Article Use
 Use these source signals to refine the synopsis, topic links, people/company context, and method notes. If a source is a related external video rather than an exact official recording, keep it framed as supporting evidence.
 ## Slides
 - Source video: `youtube-lY1iFbDPRlw`
-- Slide deck: [[youtube-lY1iFbDPRlw-dense-slides|Dense Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]] — 5 visible slide image(s).
+- Slide deck: [[youtube-lY1iFbDPRlw-dense-slides|Dense Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]] — 5 visible slide image(s); 5 HTML recreation(s).
 ![[assets/dense-slides/lY1iFbDPRlw/slide-001.jpg]]
 ![[assets/dense-slides/lY1iFbDPRlw/slide-002.jpg]]
 ![[assets/dense-slides/lY1iFbDPRlw/slide-003.jpg]]
 - Additional slide evidence: [[youtube-lY1iFbDPRlw-slides|Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]], [[youtube-lY1iFbDPRlw-reconstructed-slides|Reconstructed Slides: Minimax M2: Building the #1 Open Model – Olive Song, MiniMax]]
-- Slide-derived themes for `youtube-lY1iFbDPRlw`: research, agentic, model, senior, engineer, tasks, real, fast.
+- Slide-derived themes for `youtube-lY1iFbDPRlw`: excel, speech, music, users, globally, olive, song, senior.
