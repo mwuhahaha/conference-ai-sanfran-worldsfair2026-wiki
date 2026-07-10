@@ -1,0 +1,3517 @@
+{
+  "rooms": {
+    "Expo Stage 1 NE": {
+      "selected_videos": [
+        {
+          "video_id": "BiG2ssibKGc",
+          "title": "Beyond RAG: See a relational context engine reduce token burn",
+          "track": "Expo Stage 1 NE",
+          "talk_page": "wiki/talks/2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/BiG2ssibKGc.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Can Your Agent Hear You Now?",
+          "track": "Expo Stage 3",
+          "talk_page": "wiki/talks/2026-06-29-thor-schaeff-can-your-agent-hear-you-now.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/Bc6Ojl2XS1w.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "JsCCrBF7F1g",
+          "title": "Your Agent Is Lying to You About Whether It Worked",
+          "track": "Expo Stage 1 NE",
+          "talk_page": "wiki/talks/2026-06-29-dat-ngo-your-agent-is-lying-to-you-about-whether-it-worked.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "BiG2ssibKGc",
+          "title": "Beyond RAG: See a relational context engine reduce token burn",
+          "track": "Expo Stage 1 NE",
+          "talk_page": "wiki/talks/2026-07-01-brandon-waselnuk-beyond-rag-see-a-relational-context-engine-reduce-token-burn.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/BiG2ssibKGc.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Can Your Agent Hear You Now?",
+          "track": "Expo Stage 3",
+          "talk_page": "wiki/talks/2026-06-29-thor-schaeff-can-your-agent-hear-you-now.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/Bc6Ojl2XS1w.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 2,
+      "primary_videos": 0,
+      "supporting_videos": 2,
+      "evidence_frames": 12,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/BiG2ssibKGc/BiG2ssibKGc-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 90.7,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Beyond RAG: See a relational context engine reduce token burn",
+          "track": "Expo Stage 1 NE",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/BiG2ssibKGc/BiG2ssibKGc-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 204.1,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Beyond RAG: See a relational context engine reduce token burn",
+          "track": "Expo Stage 1 NE",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/BiG2ssibKGc/BiG2ssibKGc-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 340.2,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Beyond RAG: See a relational context engine reduce token burn",
+          "track": "Expo Stage 1 NE",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/BiG2ssibKGc/BiG2ssibKGc-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 476.2,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Beyond RAG: See a relational context engine reduce token burn",
+          "track": "Expo Stage 1 NE",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/BiG2ssibKGc/BiG2ssibKGc-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 623.6,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Beyond RAG: See a relational context engine reduce token burn",
+          "track": "Expo Stage 1 NE",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/BiG2ssibKGc/BiG2ssibKGc-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 771.0,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Beyond RAG: See a relational context engine reduce token burn",
+          "track": "Expo Stage 1 NE",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/Bc6Ojl2XS1w/Bc6Ojl2XS1w-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 93.9,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Can Your Agent Hear You Now?",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/Bc6Ojl2XS1w/Bc6Ojl2XS1w-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 211.2,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Can Your Agent Hear You Now?",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/Bc6Ojl2XS1w/Bc6Ojl2XS1w-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 352.0,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Can Your Agent Hear You Now?",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/Bc6Ojl2XS1w/Bc6Ojl2XS1w-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 492.7,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Can Your Agent Hear You Now?",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/Bc6Ojl2XS1w/Bc6Ojl2XS1w-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 645.3,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Can Your Agent Hear You Now?",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-1-ne/Bc6Ojl2XS1w/Bc6Ojl2XS1w-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 797.8,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Can Your Agent Hear You Now?",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/expo-stage-1-ne.jpg",
+      "calibration": {
+        "room_family": "expo-floor stage",
+        "camera_model": "open-stage camera; audience may stand or sit outside fixed rows",
+        "coverage": "visible crowd varies strongly with booth traffic and camera pan",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "estimate occupied standing/seating area from wide shots using sparse/medium/dense standing density bands"
+      }
+    },
+    "Expo Stage 2 NW": {
+      "selected_videos": [
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "Latent Space Live: the Inference Inflection from First Principles",
+          "track": "Expo Stage 2",
+          "talk_page": "wiki/talks/2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 6227,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        },
+        {
+          "video_id": "PmZDupFP3UM",
+          "title": "AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations",
+          "track": "Expo Stage 2",
+          "talk_page": "wiki/talks/2026-06-30-justin-reock-ai-assisted-engineering-5-trends-we-re-seeing-from-500-organizations.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/PmZDupFP3UM.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "iUWwcG-C8OU",
+          "title": "Building an Agent Harness for the Business, Not the Builder",
+          "track": "Expo Stage 2 NW",
+          "talk_page": "wiki/talks/2026-06-30-garrett-galow-building-an-agent-harness-for-the-business-not-the-builder.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "Latent Space Live: the Inference Inflection from First Principles",
+          "track": "Expo Stage 2",
+          "talk_page": "wiki/talks/2026-07-01-swyx-latent-space-live-the-inference-inflection-from-first-principles.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 6227,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        },
+        {
+          "video_id": "PmZDupFP3UM",
+          "title": "AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations",
+          "track": "Expo Stage 2",
+          "talk_page": "wiki/talks/2026-06-30-justin-reock-ai-assisted-engineering-5-trends-we-re-seeing-from-500-organizations.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/PmZDupFP3UM.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 2,
+      "primary_videos": 1,
+      "supporting_videos": 1,
+      "evidence_frames": 12,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/I2cbIws9j10/I2cbIws9j10-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 6247,
+          "segment_start_seconds": 6227,
+          "video_id": "I2cbIws9j10",
+          "title": "Latent Space Live: the Inference Inflection from First Principles",
+          "track": "Expo Stage 2",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/I2cbIws9j10/I2cbIws9j10-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 6302,
+          "segment_start_seconds": 6227,
+          "video_id": "I2cbIws9j10",
+          "title": "Latent Space Live: the Inference Inflection from First Principles",
+          "track": "Expo Stage 2",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/I2cbIws9j10/I2cbIws9j10-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 6377,
+          "segment_start_seconds": 6227,
+          "video_id": "I2cbIws9j10",
+          "title": "Latent Space Live: the Inference Inflection from First Principles",
+          "track": "Expo Stage 2",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/I2cbIws9j10/I2cbIws9j10-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 6467,
+          "segment_start_seconds": 6227,
+          "video_id": "I2cbIws9j10",
+          "title": "Latent Space Live: the Inference Inflection from First Principles",
+          "track": "Expo Stage 2",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/I2cbIws9j10/I2cbIws9j10-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 6587,
+          "segment_start_seconds": 6227,
+          "video_id": "I2cbIws9j10",
+          "title": "Latent Space Live: the Inference Inflection from First Principles",
+          "track": "Expo Stage 2",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/I2cbIws9j10/I2cbIws9j10-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 6767,
+          "segment_start_seconds": 6227,
+          "video_id": "I2cbIws9j10",
+          "title": "Latent Space Live: the Inference Inflection from First Principles",
+          "track": "Expo Stage 2",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/PmZDupFP3UM/PmZDupFP3UM-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 87.2,
+          "segment_start_seconds": null,
+          "video_id": "PmZDupFP3UM",
+          "title": "AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations",
+          "track": "Expo Stage 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/PmZDupFP3UM/PmZDupFP3UM-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 196.3,
+          "segment_start_seconds": null,
+          "video_id": "PmZDupFP3UM",
+          "title": "AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations",
+          "track": "Expo Stage 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/PmZDupFP3UM/PmZDupFP3UM-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 327.1,
+          "segment_start_seconds": null,
+          "video_id": "PmZDupFP3UM",
+          "title": "AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations",
+          "track": "Expo Stage 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/PmZDupFP3UM/PmZDupFP3UM-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 458.0,
+          "segment_start_seconds": null,
+          "video_id": "PmZDupFP3UM",
+          "title": "AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations",
+          "track": "Expo Stage 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/PmZDupFP3UM/PmZDupFP3UM-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 599.8,
+          "segment_start_seconds": null,
+          "video_id": "PmZDupFP3UM",
+          "title": "AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations",
+          "track": "Expo Stage 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-2-nw/PmZDupFP3UM/PmZDupFP3UM-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 741.5,
+          "segment_start_seconds": null,
+          "video_id": "PmZDupFP3UM",
+          "title": "AI-Assisted Engineering: 5 Trends We're Seeing From 500+ Organizations",
+          "track": "Expo Stage 2",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/expo-stage-2-nw.jpg",
+      "calibration": {
+        "room_family": "expo-floor stage",
+        "camera_model": "open-stage camera; audience may stand or sit outside fixed rows",
+        "coverage": "visible crowd varies strongly with booth traffic and camera pan",
+        "confidence": "medium-low",
+        "use": "partial visible-area calibration",
+        "attendance_method": "estimate occupied standing/seating area from wide shots using sparse/medium/dense standing density bands"
+      }
+    },
+    "Expo Stage 3 SW": {
+      "selected_videos": [
+        {
+          "video_id": "xz0-brt56L8",
+          "title": "An Interaction Is All You Need",
+          "track": "Expo Stage 3",
+          "talk_page": "wiki/talks/2026-07-01-ivan-leo-an-interaction-is-all-you-need.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/xz0-brt56L8.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "NuePCNMpWGc",
+          "title": "Expo Welcome Speech",
+          "track": "Expo Stage 3",
+          "talk_page": "wiki/talks/2026-06-29-sonar-expo-welcome-speech.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/NuePCNMpWGc.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "Fzb1a24hF-o",
+          "title": "Small Claws Are Beautiful: Edge Agents with NanoClaw, Raspberry Pi, and Graph Memory",
+          "track": "Expo Stage 3",
+          "talk_page": "wiki/talks/2026-07-01-jeremy-adams-small-claws-are-beautiful-edge-agents-with-nanoclaw-raspberry-pi-and-graph-memory.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "xz0-brt56L8",
+          "title": "An Interaction Is All You Need",
+          "track": "Expo Stage 3",
+          "talk_page": "wiki/talks/2026-07-01-ivan-leo-an-interaction-is-all-you-need.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/xz0-brt56L8.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "NuePCNMpWGc",
+          "title": "Expo Welcome Speech",
+          "track": "Expo Stage 3",
+          "talk_page": "wiki/talks/2026-06-29-sonar-expo-welcome-speech.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/NuePCNMpWGc.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 2,
+      "primary_videos": 0,
+      "supporting_videos": 2,
+      "evidence_frames": 12,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/xz0-brt56L8/xz0-brt56L8-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 391.1,
+          "segment_start_seconds": null,
+          "video_id": "xz0-brt56L8",
+          "title": "An Interaction Is All You Need",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/xz0-brt56L8/xz0-brt56L8-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 880.0,
+          "segment_start_seconds": null,
+          "video_id": "xz0-brt56L8",
+          "title": "An Interaction Is All You Need",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/xz0-brt56L8/xz0-brt56L8-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1466.7,
+          "segment_start_seconds": null,
+          "video_id": "xz0-brt56L8",
+          "title": "An Interaction Is All You Need",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/xz0-brt56L8/xz0-brt56L8-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 2053.4,
+          "segment_start_seconds": null,
+          "video_id": "xz0-brt56L8",
+          "title": "An Interaction Is All You Need",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/xz0-brt56L8/xz0-brt56L8-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 2689.0,
+          "segment_start_seconds": null,
+          "video_id": "xz0-brt56L8",
+          "title": "An Interaction Is All You Need",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/xz0-brt56L8/xz0-brt56L8-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 3324.5,
+          "segment_start_seconds": null,
+          "video_id": "xz0-brt56L8",
+          "title": "An Interaction Is All You Need",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/NuePCNMpWGc/NuePCNMpWGc-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 72.9,
+          "segment_start_seconds": null,
+          "video_id": "NuePCNMpWGc",
+          "title": "Expo Welcome Speech",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/NuePCNMpWGc/NuePCNMpWGc-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 164.0,
+          "segment_start_seconds": null,
+          "video_id": "NuePCNMpWGc",
+          "title": "Expo Welcome Speech",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/NuePCNMpWGc/NuePCNMpWGc-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 273.4,
+          "segment_start_seconds": null,
+          "video_id": "NuePCNMpWGc",
+          "title": "Expo Welcome Speech",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/NuePCNMpWGc/NuePCNMpWGc-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 382.8,
+          "segment_start_seconds": null,
+          "video_id": "NuePCNMpWGc",
+          "title": "Expo Welcome Speech",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/NuePCNMpWGc/NuePCNMpWGc-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 501.2,
+          "segment_start_seconds": null,
+          "video_id": "NuePCNMpWGc",
+          "title": "Expo Welcome Speech",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-3-sw/NuePCNMpWGc/NuePCNMpWGc-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 619.7,
+          "segment_start_seconds": null,
+          "video_id": "NuePCNMpWGc",
+          "title": "Expo Welcome Speech",
+          "track": "Expo Stage 3",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/expo-stage-3-sw.jpg",
+      "calibration": {
+        "room_family": "expo-floor stage",
+        "camera_model": "open-stage camera; audience may stand or sit outside fixed rows",
+        "coverage": "visible crowd varies strongly with booth traffic and camera pan",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "estimate occupied standing/seating area from wide shots using sparse/medium/dense standing density bands"
+      }
+    },
+    "Expo Stage 4 SE": {
+      "selected_videos": [
+        {
+          "video_id": "qakTj_xI0gk",
+          "title": "Self-Driving Production: AI Wrote your Code. AI Should Fix It, Too",
+          "track": "Expo Stage 4 SE",
+          "talk_page": "wiki/talks/2026-06-29-session-self-driving-production-ai-wrote-your-code-ai-should-fix-it-too.md",
+          "source_kind": "candidate-session-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "BM2JX9hqsVQ",
+          "title": "An AI Future Without the Lock-In",
+          "track": "Expo Stage 4 SE",
+          "talk_page": "wiki/talks/2026-07-01-remy-guercio-an-ai-future-without-the-lock-in.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/BM2JX9hqsVQ.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "zTZ0qunQXnM",
+          "title": "Video Discovery for Agentic World-Model Training",
+          "track": "Expo Stage 4 SE",
+          "talk_page": "wiki/talks/2026-07-01-rafael-levi-video-discovery-for-agentic-world-model-training.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "BM2JX9hqsVQ",
+          "title": "An AI Future Without the Lock-In",
+          "track": "Expo Stage 4 SE",
+          "talk_page": "wiki/talks/2026-07-01-remy-guercio-an-ai-future-without-the-lock-in.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/BM2JX9hqsVQ.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 1,
+      "primary_videos": 0,
+      "supporting_videos": 1,
+      "evidence_frames": 6,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-4-se/BM2JX9hqsVQ/BM2JX9hqsVQ-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 117.5,
+          "segment_start_seconds": null,
+          "video_id": "BM2JX9hqsVQ",
+          "title": "An AI Future Without the Lock-In",
+          "track": "Expo Stage 4 SE",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-4-se/BM2JX9hqsVQ/BM2JX9hqsVQ-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 264.3,
+          "segment_start_seconds": null,
+          "video_id": "BM2JX9hqsVQ",
+          "title": "An AI Future Without the Lock-In",
+          "track": "Expo Stage 4 SE",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-4-se/BM2JX9hqsVQ/BM2JX9hqsVQ-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 440.5,
+          "segment_start_seconds": null,
+          "video_id": "BM2JX9hqsVQ",
+          "title": "An AI Future Without the Lock-In",
+          "track": "Expo Stage 4 SE",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-4-se/BM2JX9hqsVQ/BM2JX9hqsVQ-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 616.8,
+          "segment_start_seconds": null,
+          "video_id": "BM2JX9hqsVQ",
+          "title": "An AI Future Without the Lock-In",
+          "track": "Expo Stage 4 SE",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-4-se/BM2JX9hqsVQ/BM2JX9hqsVQ-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 807.7,
+          "segment_start_seconds": null,
+          "video_id": "BM2JX9hqsVQ",
+          "title": "An AI Future Without the Lock-In",
+          "track": "Expo Stage 4 SE",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/expo-stage-4-se/BM2JX9hqsVQ/BM2JX9hqsVQ-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 998.6,
+          "segment_start_seconds": null,
+          "video_id": "BM2JX9hqsVQ",
+          "title": "An AI Future Without the Lock-In",
+          "track": "Expo Stage 4 SE",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/expo-stage-4-se.jpg",
+      "calibration": {
+        "room_family": "expo-floor stage",
+        "camera_model": "open-stage camera; audience may stand or sit outside fixed rows",
+        "coverage": "visible crowd varies strongly with booth traffic and camera pan",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "estimate occupied standing/seating area from wide shots using sparse/medium/dense standing density bands"
+      }
+    },
+    "Leadership 1": {
+      "selected_videos": [
+        {
+          "video_id": "tzRvcTEapzo",
+          "title": "All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens",
+          "track": "Inference",
+          "talk_page": "wiki/talks/2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/tzRvcTEapzo.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "5_QWh4LGoxg",
+          "title": "Guardians of the State: How We Built an Air-Gapped AI Fortress for Consumer Data",
+          "track": "AI-Native Enterprises",
+          "talk_page": "wiki/talks/2026-06-30-rachna-srivastava-guardians-of-the-state-how-we-built-an-air-gapped-ai-fortress-for-consumer-data.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "12v5S1n1eOY",
+          "title": "The Half Life of Agent Infrastructure",
+          "track": "AI-Native Enterprises",
+          "talk_page": "wiki/talks/2026-06-30-ben-kus-the-half-life-of-agent-infrastructure.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "tzRvcTEapzo",
+          "title": "All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens",
+          "track": "Inference",
+          "talk_page": "wiki/talks/2026-07-01-daniel-kim-all-the-things-we-have-to-do-to-satisfy-your-insatiable-need-for-tokens.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/tzRvcTEapzo.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 1,
+      "primary_videos": 0,
+      "supporting_videos": 1,
+      "evidence_frames": 6,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-1/tzRvcTEapzo/tzRvcTEapzo-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 255.6,
+          "segment_start_seconds": null,
+          "video_id": "tzRvcTEapzo",
+          "title": "All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens",
+          "track": "Inference",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-1/tzRvcTEapzo/tzRvcTEapzo-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 575.0,
+          "segment_start_seconds": null,
+          "video_id": "tzRvcTEapzo",
+          "title": "All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens",
+          "track": "Inference",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-1/tzRvcTEapzo/tzRvcTEapzo-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 958.4,
+          "segment_start_seconds": null,
+          "video_id": "tzRvcTEapzo",
+          "title": "All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens",
+          "track": "Inference",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-1/tzRvcTEapzo/tzRvcTEapzo-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1341.7,
+          "segment_start_seconds": null,
+          "video_id": "tzRvcTEapzo",
+          "title": "All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens",
+          "track": "Inference",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-1/tzRvcTEapzo/tzRvcTEapzo-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1757.0,
+          "segment_start_seconds": null,
+          "video_id": "tzRvcTEapzo",
+          "title": "All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens",
+          "track": "Inference",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-1/tzRvcTEapzo/tzRvcTEapzo-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 2172.3,
+          "segment_start_seconds": null,
+          "video_id": "tzRvcTEapzo",
+          "title": "All the Things We Have to Do to Satisfy Your Insatiable Need for Tokens",
+          "track": "Inference",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/leadership-1.jpg",
+      "calibration": {
+        "room_family": "leadership breakout room",
+        "camera_model": "speaker/slide camera with limited audience views",
+        "coverage": "audience evidence is sparse; use only wide or reverse shots",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "prefer manual frame review; use detected visible rows only as a lower bound"
+      }
+    },
+    "Leadership 2": {
+      "selected_videos": [
+        {
+          "video_id": "bSG9wUYaHWU",
+          "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.",
+          "track": "AI Architects: AI Factories",
+          "talk_page": "wiki/talks/2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/bSG9wUYaHWU.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "Lc8zRh9muoY",
+          "title": "FinOps for AI Agents: Who Spent All the Tokens?",
+          "track": "AI Architects: AI Factories",
+          "talk_page": "wiki/talks/2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/Lc8zRh9muoY.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "JhJKgRAmfIU",
+          "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.",
+          "track": "AI Architects: Tokenmaxxing",
+          "talk_page": "wiki/talks/2026-06-30-keiji-kanazawa-i-let-agents-refactor-my-codebase-for-3-weeks-then-i-read-the-code.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/JhJKgRAmfIU.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "bSG9wUYaHWU",
+          "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.",
+          "track": "AI Architects: AI Factories",
+          "talk_page": "wiki/talks/2026-07-01-patrick-debois-coding-agents-don-t-scale-themselves-neither-do-your-teams-the-rise-of-agent-enablement.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/bSG9wUYaHWU.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "Lc8zRh9muoY",
+          "title": "FinOps for AI Agents: Who Spent All the Tokens?",
+          "track": "AI Architects: AI Factories",
+          "talk_page": "wiki/talks/2026-07-01-tisha-chawla-finops-for-ai-agents-who-spent-all-the-tokens.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/Lc8zRh9muoY.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "JhJKgRAmfIU",
+          "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.",
+          "track": "AI Architects: Tokenmaxxing",
+          "talk_page": "wiki/talks/2026-06-30-keiji-kanazawa-i-let-agents-refactor-my-codebase-for-3-weeks-then-i-read-the-code.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/JhJKgRAmfIU.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 3,
+      "primary_videos": 0,
+      "supporting_videos": 3,
+      "evidence_frames": 18,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/bSG9wUYaHWU/bSG9wUYaHWU-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 130.7,
+          "segment_start_seconds": null,
+          "video_id": "bSG9wUYaHWU",
+          "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/bSG9wUYaHWU/bSG9wUYaHWU-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 294.0,
+          "segment_start_seconds": null,
+          "video_id": "bSG9wUYaHWU",
+          "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/bSG9wUYaHWU/bSG9wUYaHWU-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 490.0,
+          "segment_start_seconds": null,
+          "video_id": "bSG9wUYaHWU",
+          "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/bSG9wUYaHWU/bSG9wUYaHWU-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 686.0,
+          "segment_start_seconds": null,
+          "video_id": "bSG9wUYaHWU",
+          "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/bSG9wUYaHWU/bSG9wUYaHWU-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 898.4,
+          "segment_start_seconds": null,
+          "video_id": "bSG9wUYaHWU",
+          "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/bSG9wUYaHWU/bSG9wUYaHWU-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1110.7,
+          "segment_start_seconds": null,
+          "video_id": "bSG9wUYaHWU",
+          "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams.The Rise of Agent Enablement.",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/Lc8zRh9muoY/Lc8zRh9muoY-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 67.9,
+          "segment_start_seconds": null,
+          "video_id": "Lc8zRh9muoY",
+          "title": "FinOps for AI Agents: Who Spent All the Tokens?",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/Lc8zRh9muoY/Lc8zRh9muoY-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 152.9,
+          "segment_start_seconds": null,
+          "video_id": "Lc8zRh9muoY",
+          "title": "FinOps for AI Agents: Who Spent All the Tokens?",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/Lc8zRh9muoY/Lc8zRh9muoY-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 254.8,
+          "segment_start_seconds": null,
+          "video_id": "Lc8zRh9muoY",
+          "title": "FinOps for AI Agents: Who Spent All the Tokens?",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/Lc8zRh9muoY/Lc8zRh9muoY-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 356.7,
+          "segment_start_seconds": null,
+          "video_id": "Lc8zRh9muoY",
+          "title": "FinOps for AI Agents: Who Spent All the Tokens?",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/Lc8zRh9muoY/Lc8zRh9muoY-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 467.1,
+          "segment_start_seconds": null,
+          "video_id": "Lc8zRh9muoY",
+          "title": "FinOps for AI Agents: Who Spent All the Tokens?",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/Lc8zRh9muoY/Lc8zRh9muoY-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 577.5,
+          "segment_start_seconds": null,
+          "video_id": "Lc8zRh9muoY",
+          "title": "FinOps for AI Agents: Who Spent All the Tokens?",
+          "track": "AI Architects: AI Factories",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/JhJKgRAmfIU/JhJKgRAmfIU-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 93.6,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.",
+          "track": "AI Architects: Tokenmaxxing",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/JhJKgRAmfIU/JhJKgRAmfIU-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 210.6,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.",
+          "track": "AI Architects: Tokenmaxxing",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/JhJKgRAmfIU/JhJKgRAmfIU-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 351.0,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.",
+          "track": "AI Architects: Tokenmaxxing",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/JhJKgRAmfIU/JhJKgRAmfIU-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 491.5,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.",
+          "track": "AI Architects: Tokenmaxxing",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/JhJKgRAmfIU/JhJKgRAmfIU-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 643.6,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.",
+          "track": "AI Architects: Tokenmaxxing",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-2/JhJKgRAmfIU/JhJKgRAmfIU-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 795.7,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code.",
+          "track": "AI Architects: Tokenmaxxing",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/leadership-2.jpg",
+      "calibration": {
+        "room_family": "leadership breakout room",
+        "camera_model": "speaker/slide camera with limited audience views",
+        "coverage": "audience evidence is sparse; use only wide or reverse shots",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "prefer manual frame review; use detected visible rows only as a lower bound"
+      }
+    },
+    "Leadership Lounge": {
+      "selected_videos": [
+        {
+          "video_id": "SZStlIhyTCY",
+          "title": "Tokenomics: From AI Spend to AI Value",
+          "track": "CTO Circle",
+          "talk_page": "wiki/talks/2026-06-30-martin-harrysson-tokenomics-from-ai-spend-to-ai-value.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/SZStlIhyTCY.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "SZStlIhyTCY",
+          "title": "Tokenomics: From AI Spend to AI Value",
+          "track": "CTO Circle",
+          "talk_page": "wiki/talks/2026-06-30-martin-harrysson-tokenomics-from-ai-spend-to-ai-value.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/SZStlIhyTCY.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 1,
+      "primary_videos": 0,
+      "supporting_videos": 1,
+      "evidence_frames": 6,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-lounge/SZStlIhyTCY/SZStlIhyTCY-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 105.2,
+          "segment_start_seconds": null,
+          "video_id": "SZStlIhyTCY",
+          "title": "Tokenomics: From AI Spend to AI Value",
+          "track": "CTO Circle",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-lounge/SZStlIhyTCY/SZStlIhyTCY-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 236.7,
+          "segment_start_seconds": null,
+          "video_id": "SZStlIhyTCY",
+          "title": "Tokenomics: From AI Spend to AI Value",
+          "track": "CTO Circle",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-lounge/SZStlIhyTCY/SZStlIhyTCY-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 394.4,
+          "segment_start_seconds": null,
+          "video_id": "SZStlIhyTCY",
+          "title": "Tokenomics: From AI Spend to AI Value",
+          "track": "CTO Circle",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-lounge/SZStlIhyTCY/SZStlIhyTCY-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 552.2,
+          "segment_start_seconds": null,
+          "video_id": "SZStlIhyTCY",
+          "title": "Tokenomics: From AI Spend to AI Value",
+          "track": "CTO Circle",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-lounge/SZStlIhyTCY/SZStlIhyTCY-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 723.1,
+          "segment_start_seconds": null,
+          "video_id": "SZStlIhyTCY",
+          "title": "Tokenomics: From AI Spend to AI Value",
+          "track": "CTO Circle",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/leadership-lounge/SZStlIhyTCY/SZStlIhyTCY-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 894.1,
+          "segment_start_seconds": null,
+          "video_id": "SZStlIhyTCY",
+          "title": "Tokenomics: From AI Spend to AI Value",
+          "track": "CTO Circle",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/leadership-lounge.jpg",
+      "calibration": {
+        "room_family": "leadership breakout room",
+        "camera_model": "speaker/slide camera with limited audience views",
+        "coverage": "audience evidence is sparse; use only wide or reverse shots",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "prefer manual frame review; use detected visible rows only as a lower bound"
+      }
+    },
+    "Main Stage": {
+      "selected_videos": [
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "Closing Keynote: Garry Tan",
+          "track": "Main Stage",
+          "talk_page": "wiki/talks/2026-07-01-garry-tan-closing-keynote-garry-tan.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 28640,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        },
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents",
+          "track": "Harness Engineering",
+          "talk_page": "wiki/talks/2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 11668,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        },
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "How Anthropic Builds: Lessons from Labs",
+          "track": "Harness Engineering",
+          "talk_page": "wiki/talks/2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 4262,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "Closing Keynote: Garry Tan",
+          "track": "Main Stage",
+          "talk_page": "wiki/talks/2026-07-01-garry-tan-closing-keynote-garry-tan.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 28640,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        },
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents",
+          "track": "Harness Engineering",
+          "talk_page": "wiki/talks/2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 11668,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        },
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "How Anthropic Builds: Lessons from Labs",
+          "track": "Harness Engineering",
+          "talk_page": "wiki/talks/2026-07-01-mike-krieger-how-anthropic-builds-lessons-from-labs.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 4262,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        }
+      ],
+      "videos_used": 3,
+      "primary_videos": 3,
+      "supporting_videos": 0,
+      "evidence_frames": 18,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 28660,
+          "segment_start_seconds": 28640,
+          "video_id": "I2cbIws9j10",
+          "title": "Closing Keynote: Garry Tan",
+          "track": "Main Stage",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 28715,
+          "segment_start_seconds": 28640,
+          "video_id": "I2cbIws9j10",
+          "title": "Closing Keynote: Garry Tan",
+          "track": "Main Stage",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 28790,
+          "segment_start_seconds": 28640,
+          "video_id": "I2cbIws9j10",
+          "title": "Closing Keynote: Garry Tan",
+          "track": "Main Stage",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 28880,
+          "segment_start_seconds": 28640,
+          "video_id": "I2cbIws9j10",
+          "title": "Closing Keynote: Garry Tan",
+          "track": "Main Stage",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 29000,
+          "segment_start_seconds": 28640,
+          "video_id": "I2cbIws9j10",
+          "title": "Closing Keynote: Garry Tan",
+          "track": "Main Stage",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 29180,
+          "segment_start_seconds": 28640,
+          "video_id": "I2cbIws9j10",
+          "title": "Closing Keynote: Garry Tan",
+          "track": "Main Stage",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 11688,
+          "segment_start_seconds": 11668,
+          "video_id": "I2cbIws9j10",
+          "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 11743,
+          "segment_start_seconds": 11668,
+          "video_id": "I2cbIws9j10",
+          "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 11818,
+          "segment_start_seconds": 11668,
+          "video_id": "I2cbIws9j10",
+          "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 11908,
+          "segment_start_seconds": 11668,
+          "video_id": "I2cbIws9j10",
+          "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 12028,
+          "segment_start_seconds": 11668,
+          "video_id": "I2cbIws9j10",
+          "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 12208,
+          "segment_start_seconds": 11668,
+          "video_id": "I2cbIws9j10",
+          "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 4282,
+          "segment_start_seconds": 4262,
+          "video_id": "I2cbIws9j10",
+          "title": "How Anthropic Builds: Lessons from Labs",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 4337,
+          "segment_start_seconds": 4262,
+          "video_id": "I2cbIws9j10",
+          "title": "How Anthropic Builds: Lessons from Labs",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 4412,
+          "segment_start_seconds": 4262,
+          "video_id": "I2cbIws9j10",
+          "title": "How Anthropic Builds: Lessons from Labs",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 4502,
+          "segment_start_seconds": 4262,
+          "video_id": "I2cbIws9j10",
+          "title": "How Anthropic Builds: Lessons from Labs",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 4622,
+          "segment_start_seconds": 4262,
+          "video_id": "I2cbIws9j10",
+          "title": "How Anthropic Builds: Lessons from Labs",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/main-stage/I2cbIws9j10/I2cbIws9j10-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 4802,
+          "segment_start_seconds": 4262,
+          "video_id": "I2cbIws9j10",
+          "title": "How Anthropic Builds: Lessons from Labs",
+          "track": "Harness Engineering",
+          "source_kind": "worldsfair-livestream-segment"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/main-stage.jpg",
+      "calibration": {
+        "room_family": "large keynote/plenary room",
+        "camera_model": "front-of-room stage camera with occasional wide audience visibility in livestream/cut footage",
+        "coverage": "front/center audience is sometimes visible; rear and far side seating usually hidden",
+        "confidence": "medium-low",
+        "use": "partial visible-area calibration",
+        "attendance_method": "count visible seats/heads in wide shots, then scale by visible-room fraction; cap against large-room keynote capacity once venue capacity is verified"
+      }
+    },
+    "Networking Room": {
+      "selected_videos": [
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "$100,000 AIE Startup Battlefield — presented by Hyperagent",
+          "track": "Startup Battlefield",
+          "talk_page": "wiki/talks/2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 29906,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "$100,000 AIE Startup Battlefield — presented by Hyperagent",
+          "track": "Startup Battlefield",
+          "talk_page": "wiki/talks/2026-07-01-howie-liu-100-000-aie-startup-battlefield-presented-by-hyperagent.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 29906,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        }
+      ],
+      "videos_used": 1,
+      "primary_videos": 1,
+      "supporting_videos": 0,
+      "evidence_frames": 6,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/networking-room/I2cbIws9j10/I2cbIws9j10-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 29926,
+          "segment_start_seconds": 29906,
+          "video_id": "I2cbIws9j10",
+          "title": "$100,000 AIE Startup Battlefield — presented by Hyperagent",
+          "track": "Startup Battlefield",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/networking-room/I2cbIws9j10/I2cbIws9j10-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 29981,
+          "segment_start_seconds": 29906,
+          "video_id": "I2cbIws9j10",
+          "title": "$100,000 AIE Startup Battlefield — presented by Hyperagent",
+          "track": "Startup Battlefield",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/networking-room/I2cbIws9j10/I2cbIws9j10-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 30056,
+          "segment_start_seconds": 29906,
+          "video_id": "I2cbIws9j10",
+          "title": "$100,000 AIE Startup Battlefield — presented by Hyperagent",
+          "track": "Startup Battlefield",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/networking-room/I2cbIws9j10/I2cbIws9j10-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 30146,
+          "segment_start_seconds": 29906,
+          "video_id": "I2cbIws9j10",
+          "title": "$100,000 AIE Startup Battlefield — presented by Hyperagent",
+          "track": "Startup Battlefield",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/networking-room/I2cbIws9j10/I2cbIws9j10-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 30266,
+          "segment_start_seconds": 29906,
+          "video_id": "I2cbIws9j10",
+          "title": "$100,000 AIE Startup Battlefield — presented by Hyperagent",
+          "track": "Startup Battlefield",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/networking-room/I2cbIws9j10/I2cbIws9j10-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 30446,
+          "segment_start_seconds": 29906,
+          "video_id": "I2cbIws9j10",
+          "title": "$100,000 AIE Startup Battlefield — presented by Hyperagent",
+          "track": "Startup Battlefield",
+          "source_kind": "worldsfair-livestream-segment"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/networking-room.jpg",
+      "calibration": {
+        "room_family": "lounge/networking room",
+        "camera_model": "event/livestream context rather than stable talk capture",
+        "coverage": "camera evidence is likely partial and movement-heavy",
+        "confidence": "low",
+        "use": "lower-bound visible-area calibration",
+        "attendance_method": "estimate active participants in visible area; do not infer total attendance without room-specific capacity"
+      }
+    },
+    "Track 1": {
+      "selected_videos": [
+        {
+          "video_id": "AheG9p_JXVw",
+          "title": "Building an Agentic Video Editor for Mass Consumer",
+          "track": "Generative Media",
+          "talk_page": "wiki/talks/2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer.md",
+          "source_kind": "candidate-session-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/AheG9p_JXVw.mp4",
+          "frame_cache": "raw/slide-frames-tmp/AheG9p_JXVw"
+        },
+        {
+          "video_id": "wsFd22SL1s8",
+          "title": "'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1'",
+          "track": "Sandbox & Platform Engineering",
+          "talk_page": "wiki/talks/2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/wsFd22SL1s8.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "F_RyElT_gJk",
+          "title": "'The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents'",
+          "track": "Workshops Day 1",
+          "talk_page": "wiki/talks/2026-06-29-ang-li-the-autonomous-computer-full-stack-infrastructure-for-computer-use-agents.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "AheG9p_JXVw",
+          "title": "Building an Agentic Video Editor for Mass Consumer",
+          "track": "Generative Media",
+          "talk_page": "wiki/talks/2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer.md",
+          "source_kind": "candidate-session-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/AheG9p_JXVw.mp4",
+          "frame_cache": "raw/slide-frames-tmp/AheG9p_JXVw"
+        },
+        {
+          "video_id": "wsFd22SL1s8",
+          "title": "'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1'",
+          "track": "Sandbox & Platform Engineering",
+          "talk_page": "wiki/talks/2026-06-30-abhishek-bhardwaj-from-fork-to-fleet-designing-an-agent-sandbox-cloud-pt-1.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/wsFd22SL1s8.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 2,
+      "primary_videos": 1,
+      "supporting_videos": 1,
+      "evidence_frames": 12,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/AheG9p_JXVw/AheG9p_JXVw-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 50.0,
+          "segment_start_seconds": null,
+          "video_id": "AheG9p_JXVw",
+          "title": "Building an Agentic Video Editor for Mass Consumer",
+          "track": "Generative Media",
+          "source_kind": "candidate-session-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/AheG9p_JXVw/AheG9p_JXVw-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 112.5,
+          "segment_start_seconds": null,
+          "video_id": "AheG9p_JXVw",
+          "title": "Building an Agentic Video Editor for Mass Consumer",
+          "track": "Generative Media",
+          "source_kind": "candidate-session-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/AheG9p_JXVw/AheG9p_JXVw-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 187.5,
+          "segment_start_seconds": null,
+          "video_id": "AheG9p_JXVw",
+          "title": "Building an Agentic Video Editor for Mass Consumer",
+          "track": "Generative Media",
+          "source_kind": "candidate-session-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/AheG9p_JXVw/AheG9p_JXVw-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 262.4,
+          "segment_start_seconds": null,
+          "video_id": "AheG9p_JXVw",
+          "title": "Building an Agentic Video Editor for Mass Consumer",
+          "track": "Generative Media",
+          "source_kind": "candidate-session-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/AheG9p_JXVw/AheG9p_JXVw-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 343.7,
+          "segment_start_seconds": null,
+          "video_id": "AheG9p_JXVw",
+          "title": "Building an Agentic Video Editor for Mass Consumer",
+          "track": "Generative Media",
+          "source_kind": "candidate-session-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/AheG9p_JXVw/AheG9p_JXVw-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 424.9,
+          "segment_start_seconds": null,
+          "video_id": "AheG9p_JXVw",
+          "title": "Building an Agentic Video Editor for Mass Consumer",
+          "track": "Generative Media",
+          "source_kind": "candidate-session-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/wsFd22SL1s8/wsFd22SL1s8-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 193.4,
+          "segment_start_seconds": null,
+          "video_id": "wsFd22SL1s8",
+          "title": "'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1'",
+          "track": "Sandbox & Platform Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/wsFd22SL1s8/wsFd22SL1s8-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 435.2,
+          "segment_start_seconds": null,
+          "video_id": "wsFd22SL1s8",
+          "title": "'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1'",
+          "track": "Sandbox & Platform Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/wsFd22SL1s8/wsFd22SL1s8-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 725.4,
+          "segment_start_seconds": null,
+          "video_id": "wsFd22SL1s8",
+          "title": "'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1'",
+          "track": "Sandbox & Platform Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/wsFd22SL1s8/wsFd22SL1s8-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1015.5,
+          "segment_start_seconds": null,
+          "video_id": "wsFd22SL1s8",
+          "title": "'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1'",
+          "track": "Sandbox & Platform Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/wsFd22SL1s8/wsFd22SL1s8-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1329.8,
+          "segment_start_seconds": null,
+          "video_id": "wsFd22SL1s8",
+          "title": "'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1'",
+          "track": "Sandbox & Platform Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-1/wsFd22SL1s8/wsFd22SL1s8-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1644.1,
+          "segment_start_seconds": null,
+          "video_id": "wsFd22SL1s8",
+          "title": "'From fork() to Fleet: Designing an Agent Sandbox Cloud Pt 1'",
+          "track": "Sandbox & Platform Engineering",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/track-1.jpg",
+      "calibration": {
+        "room_family": "breakout track room",
+        "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
+        "coverage": "front rows or side aisles may be visible; full room usually hidden",
+        "confidence": "medium-low",
+        "use": "partial visible-area calibration",
+        "attendance_method": "count visible rows/heads where available, scale by estimated visible-room fraction, and cap by verified track-room capacity"
+      }
+    },
+    "Track 2": {
+      "selected_videos": [
+        {
+          "video_id": "B9h9ovW5H9U",
+          "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries",
+          "track": "Track 2",
+          "talk_page": "wiki/talks/2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/B9h9ovW5H9U.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "jVGCulhBRZI",
+          "title": "Building the Document Context Layer for AI Agents",
+          "track": "Vision & OCR",
+          "talk_page": "wiki/talks/2026-06-29-jerry-liu-building-the-document-context-layer-for-ai-agents.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "OV56RddyFuU",
+          "title": "Skill issue: stop deploying vision language models, use them with Skills to build e2e vision apps on edge",
+          "track": "Vision & OCR",
+          "talk_page": "wiki/talks/2026-06-29-merve-noyan-skill-issue-stop-deploying-vision-language-models-use-them-with-skills-to-build-e2e-vision-apps-on-edge.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "B9h9ovW5H9U",
+          "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries",
+          "track": "Track 2",
+          "talk_page": "wiki/talks/2026-06-29-zach-blumenfeld-ai-on-your-lakehouse-context-comes-in-shapes-not-queries.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/B9h9ovW5H9U.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 1,
+      "primary_videos": 0,
+      "supporting_videos": 1,
+      "evidence_frames": 6,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-2/B9h9ovW5H9U/B9h9ovW5H9U-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 97.0,
+          "segment_start_seconds": null,
+          "video_id": "B9h9ovW5H9U",
+          "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries",
+          "track": "Track 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-2/B9h9ovW5H9U/B9h9ovW5H9U-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 218.2,
+          "segment_start_seconds": null,
+          "video_id": "B9h9ovW5H9U",
+          "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries",
+          "track": "Track 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-2/B9h9ovW5H9U/B9h9ovW5H9U-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 363.6,
+          "segment_start_seconds": null,
+          "video_id": "B9h9ovW5H9U",
+          "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries",
+          "track": "Track 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-2/B9h9ovW5H9U/B9h9ovW5H9U-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 509.0,
+          "segment_start_seconds": null,
+          "video_id": "B9h9ovW5H9U",
+          "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries",
+          "track": "Track 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-2/B9h9ovW5H9U/B9h9ovW5H9U-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 666.6,
+          "segment_start_seconds": null,
+          "video_id": "B9h9ovW5H9U",
+          "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries",
+          "track": "Track 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-2/B9h9ovW5H9U/B9h9ovW5H9U-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 824.2,
+          "segment_start_seconds": null,
+          "video_id": "B9h9ovW5H9U",
+          "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries",
+          "track": "Track 2",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/track-2.jpg",
+      "calibration": {
+        "room_family": "breakout track room",
+        "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
+        "coverage": "front rows or side aisles may be visible; full room usually hidden",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "count visible rows/heads where available, scale by estimated visible-room fraction, and cap by verified track-room capacity"
+      }
+    },
+    "Track 3": {
+      "selected_videos": [
+        {
+          "video_id": "dvft0Gp9sEE",
+          "title": "Cooking with Codex",
+          "track": "Workshops Day 1",
+          "talk_page": "wiki/talks/2026-06-29-charlie-guo-cooking-with-codex.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/dvft0Gp9sEE.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "5nOLb27hQ5w",
+          "title": "Designing Agents (The Floor Is the Frontier)",
+          "track": "Memory & Continual Learning",
+          "talk_page": "wiki/talks/2026-06-30-ben-hylak-designing-agents-the-floor-is-the-frontier.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "XNtkiQJ49Ps",
+          "title": "How to Connect AI to Billions of Legal Documents",
+          "track": "Search & Retrieval",
+          "talk_page": "wiki/talks/2026-06-29-simon-eskildsen-how-to-connect-ai-to-billions-of-legal-documents.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "dvft0Gp9sEE",
+          "title": "Cooking with Codex",
+          "track": "Workshops Day 1",
+          "talk_page": "wiki/talks/2026-06-29-charlie-guo-cooking-with-codex.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/dvft0Gp9sEE.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 1,
+      "primary_videos": 0,
+      "supporting_videos": 1,
+      "evidence_frames": 6,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-3/dvft0Gp9sEE/dvft0Gp9sEE-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 47.1,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Cooking with Codex",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-3/dvft0Gp9sEE/dvft0Gp9sEE-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 105.9,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Cooking with Codex",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-3/dvft0Gp9sEE/dvft0Gp9sEE-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 176.5,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Cooking with Codex",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-3/dvft0Gp9sEE/dvft0Gp9sEE-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 247.2,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Cooking with Codex",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-3/dvft0Gp9sEE/dvft0Gp9sEE-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 323.7,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Cooking with Codex",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-3/dvft0Gp9sEE/dvft0Gp9sEE-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 400.2,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Cooking with Codex",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/track-3.jpg",
+      "calibration": {
+        "room_family": "breakout track room",
+        "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
+        "coverage": "front rows or side aisles may be visible; full room usually hidden",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "count visible rows/heads where available, scale by estimated visible-room fraction, and cap by verified track-room capacity"
+      }
+    },
+    "Track 4": {
+      "selected_videos": [
+        {
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Build realtime multimodal agents with Gemini Live (continued 2)",
+          "track": "Workshops Day 2",
+          "talk_page": "wiki/talks/2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-2.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/Bc6Ojl2XS1w.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "1t-9-s1brcg",
+          "title": "The model swap workshop",
+          "track": "Workshops Day 1",
+          "talk_page": "wiki/talks/2026-06-29-pamela-fox-the-model-swap-workshop.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/1t-9-s1brcg.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "EyZiAp0pelw",
+          "title": "Build the Right Thing: Product Engineering for Software Developers (Part 1)",
+          "track": "Workshops Day 1",
+          "talk_page": "wiki/talks/2026-06-29-kent-c-dodds-build-the-right-thing-product-engineering-for-software-developers-part-1.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Build realtime multimodal agents with Gemini Live (continued 2)",
+          "track": "Workshops Day 2",
+          "talk_page": "wiki/talks/2026-06-30-thor-schaeff-build-realtime-multimodal-agents-with-gemini-live-continued-2.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/Bc6Ojl2XS1w.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "1t-9-s1brcg",
+          "title": "The model swap workshop",
+          "track": "Workshops Day 1",
+          "talk_page": "wiki/talks/2026-06-29-pamela-fox-the-model-swap-workshop.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/1t-9-s1brcg.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 2,
+      "primary_videos": 0,
+      "supporting_videos": 2,
+      "evidence_frames": 12,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/Bc6Ojl2XS1w/Bc6Ojl2XS1w-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 93.9,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Build realtime multimodal agents with Gemini Live (continued 2)",
+          "track": "Workshops Day 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/Bc6Ojl2XS1w/Bc6Ojl2XS1w-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 211.2,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Build realtime multimodal agents with Gemini Live (continued 2)",
+          "track": "Workshops Day 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/Bc6Ojl2XS1w/Bc6Ojl2XS1w-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 352.0,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Build realtime multimodal agents with Gemini Live (continued 2)",
+          "track": "Workshops Day 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/Bc6Ojl2XS1w/Bc6Ojl2XS1w-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 492.7,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Build realtime multimodal agents with Gemini Live (continued 2)",
+          "track": "Workshops Day 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/Bc6Ojl2XS1w/Bc6Ojl2XS1w-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 645.3,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Build realtime multimodal agents with Gemini Live (continued 2)",
+          "track": "Workshops Day 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/Bc6Ojl2XS1w/Bc6Ojl2XS1w-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 797.8,
+          "segment_start_seconds": null,
+          "video_id": "Bc6Ojl2XS1w",
+          "title": "Build realtime multimodal agents with Gemini Live (continued 2)",
+          "track": "Workshops Day 2",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/1t-9-s1brcg/1t-9-s1brcg-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 427.3,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "The model swap workshop",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/1t-9-s1brcg/1t-9-s1brcg-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 961.5,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "The model swap workshop",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/1t-9-s1brcg/1t-9-s1brcg-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1602.5,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "The model swap workshop",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/1t-9-s1brcg/1t-9-s1brcg-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 2243.5,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "The model swap workshop",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/1t-9-s1brcg/1t-9-s1brcg-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 2938.0,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "The model swap workshop",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-4/1t-9-s1brcg/1t-9-s1brcg-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 3632.4,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "The model swap workshop",
+          "track": "Workshops Day 1",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/track-4.jpg",
+      "calibration": {
+        "room_family": "breakout track room",
+        "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
+        "coverage": "front rows or side aisles may be visible; full room usually hidden",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "count visible rows/heads where available, scale by estimated visible-room fraction, and cap by verified track-room capacity"
+      }
+    },
+    "Track 5": {
+      "selected_videos": [
+        {
+          "video_id": "7Dtu2bilcFs",
+          "title": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain",
+          "track": "Security",
+          "talk_page": "wiki/talks/2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/7Dtu2bilcFs.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "liG97YXaTSA",
+          "title": "Everything Is a Rollout",
+          "track": "Evals",
+          "talk_page": "wiki/talks/2026-06-30-alex-shaw-everything-is-a-rollout.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/liG97YXaTSA.mp4",
+          "frame_cache": "raw/slide-frames-tmp/liG97YXaTSA"
+        },
+        {
+          "video_id": "T5IMo5ntyhA",
+          "title": "Citation Needed: Provenance for LLM-Built Knowledge Graphs",
+          "track": "Graphs",
+          "talk_page": "wiki/talks/2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "7Dtu2bilcFs",
+          "title": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain",
+          "track": "Security",
+          "talk_page": "wiki/talks/2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/7Dtu2bilcFs.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "liG97YXaTSA",
+          "title": "Everything Is a Rollout",
+          "track": "Evals",
+          "talk_page": "wiki/talks/2026-06-30-alex-shaw-everything-is-a-rollout.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/liG97YXaTSA.mp4",
+          "frame_cache": "raw/slide-frames-tmp/liG97YXaTSA"
+        }
+      ],
+      "videos_used": 2,
+      "primary_videos": 0,
+      "supporting_videos": 2,
+      "evidence_frames": 12,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/7Dtu2bilcFs/7Dtu2bilcFs-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 119.9,
+          "segment_start_seconds": null,
+          "video_id": "7Dtu2bilcFs",
+          "title": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain",
+          "track": "Security",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/7Dtu2bilcFs/7Dtu2bilcFs-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 269.7,
+          "segment_start_seconds": null,
+          "video_id": "7Dtu2bilcFs",
+          "title": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain",
+          "track": "Security",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/7Dtu2bilcFs/7Dtu2bilcFs-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 449.5,
+          "segment_start_seconds": null,
+          "video_id": "7Dtu2bilcFs",
+          "title": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain",
+          "track": "Security",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/7Dtu2bilcFs/7Dtu2bilcFs-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 629.3,
+          "segment_start_seconds": null,
+          "video_id": "7Dtu2bilcFs",
+          "title": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain",
+          "track": "Security",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/7Dtu2bilcFs/7Dtu2bilcFs-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 824.1,
+          "segment_start_seconds": null,
+          "video_id": "7Dtu2bilcFs",
+          "title": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain",
+          "track": "Security",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/7Dtu2bilcFs/7Dtu2bilcFs-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1018.9,
+          "segment_start_seconds": null,
+          "video_id": "7Dtu2bilcFs",
+          "title": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain",
+          "track": "Security",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/liG97YXaTSA/liG97YXaTSA-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 95.9,
+          "segment_start_seconds": null,
+          "video_id": "liG97YXaTSA",
+          "title": "Everything Is a Rollout",
+          "track": "Evals",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/liG97YXaTSA/liG97YXaTSA-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 215.7,
+          "segment_start_seconds": null,
+          "video_id": "liG97YXaTSA",
+          "title": "Everything Is a Rollout",
+          "track": "Evals",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/liG97YXaTSA/liG97YXaTSA-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 359.5,
+          "segment_start_seconds": null,
+          "video_id": "liG97YXaTSA",
+          "title": "Everything Is a Rollout",
+          "track": "Evals",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/liG97YXaTSA/liG97YXaTSA-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 503.3,
+          "segment_start_seconds": null,
+          "video_id": "liG97YXaTSA",
+          "title": "Everything Is a Rollout",
+          "track": "Evals",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/liG97YXaTSA/liG97YXaTSA-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 659.0,
+          "segment_start_seconds": null,
+          "video_id": "liG97YXaTSA",
+          "title": "Everything Is a Rollout",
+          "track": "Evals",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-5/liG97YXaTSA/liG97YXaTSA-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 814.8,
+          "segment_start_seconds": null,
+          "video_id": "liG97YXaTSA",
+          "title": "Everything Is a Rollout",
+          "track": "Evals",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/track-5.jpg",
+      "calibration": {
+        "room_family": "breakout track room",
+        "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
+        "coverage": "front rows or side aisles may be visible; full room usually hidden",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "count visible rows/heads where available, scale by estimated visible-room fraction, and cap by verified track-room capacity"
+      }
+    },
+    "Track 6": {
+      "selected_videos": [
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "Context Engineering in 2026: Compaction, Memory & Cost",
+          "track": "Track 6",
+          "talk_page": "wiki/talks/2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 7876,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        },
+        {
+          "video_id": "gcseUQJ6Gbg",
+          "title": "The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs",
+          "track": "Design Engineering",
+          "talk_page": "wiki/talks/2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/gcseUQJ6Gbg.mp4",
+          "frame_cache": "raw/slide-frames-tmp/gcseUQJ6Gbg"
+        },
+        {
+          "video_id": "dvft0Gp9sEE",
+          "title": "Voice Agents Can Just Do Things",
+          "track": "Voice & Realtime AI",
+          "talk_page": "wiki/talks/2026-06-29-charlie-guo-voice-agents-can-just-do-things.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/dvft0Gp9sEE.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "I2cbIws9j10",
+          "title": "Context Engineering in 2026: Compaction, Memory & Cost",
+          "track": "Track 6",
+          "talk_page": "wiki/talks/2026-06-29-louis-fran-ois-bouchard-context-engineering-in-2026-compaction-memory-and-cost.md",
+          "source_kind": "worldsfair-livestream-segment",
+          "segment_start_seconds": 7876,
+          "video_cache": "raw/video-cache/I2cbIws9j10.mp4",
+          "frame_cache": "raw/slide-frames-tmp/I2cbIws9j10"
+        },
+        {
+          "video_id": "gcseUQJ6Gbg",
+          "title": "The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs",
+          "track": "Design Engineering",
+          "talk_page": "wiki/talks/2026-06-30-hassan-el-mghari-the-missing-layer-design-taste-in-ai-agents-stop-letting-your-agents-ship-ugly-uis.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/gcseUQJ6Gbg.mp4",
+          "frame_cache": "raw/slide-frames-tmp/gcseUQJ6Gbg"
+        },
+        {
+          "video_id": "dvft0Gp9sEE",
+          "title": "Voice Agents Can Just Do Things",
+          "track": "Voice & Realtime AI",
+          "talk_page": "wiki/talks/2026-06-29-charlie-guo-voice-agents-can-just-do-things.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/dvft0Gp9sEE.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 3,
+      "primary_videos": 1,
+      "supporting_videos": 2,
+      "evidence_frames": 18,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/I2cbIws9j10/I2cbIws9j10-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 7896,
+          "segment_start_seconds": 7876,
+          "video_id": "I2cbIws9j10",
+          "title": "Context Engineering in 2026: Compaction, Memory & Cost",
+          "track": "Track 6",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/I2cbIws9j10/I2cbIws9j10-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 7951,
+          "segment_start_seconds": 7876,
+          "video_id": "I2cbIws9j10",
+          "title": "Context Engineering in 2026: Compaction, Memory & Cost",
+          "track": "Track 6",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/I2cbIws9j10/I2cbIws9j10-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 8026,
+          "segment_start_seconds": 7876,
+          "video_id": "I2cbIws9j10",
+          "title": "Context Engineering in 2026: Compaction, Memory & Cost",
+          "track": "Track 6",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/I2cbIws9j10/I2cbIws9j10-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 8116,
+          "segment_start_seconds": 7876,
+          "video_id": "I2cbIws9j10",
+          "title": "Context Engineering in 2026: Compaction, Memory & Cost",
+          "track": "Track 6",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/I2cbIws9j10/I2cbIws9j10-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 8236,
+          "segment_start_seconds": 7876,
+          "video_id": "I2cbIws9j10",
+          "title": "Context Engineering in 2026: Compaction, Memory & Cost",
+          "track": "Track 6",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/I2cbIws9j10/I2cbIws9j10-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 8416,
+          "segment_start_seconds": 7876,
+          "video_id": "I2cbIws9j10",
+          "title": "Context Engineering in 2026: Compaction, Memory & Cost",
+          "track": "Track 6",
+          "source_kind": "worldsfair-livestream-segment"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/gcseUQJ6Gbg/gcseUQJ6Gbg-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 90.1,
+          "segment_start_seconds": null,
+          "video_id": "gcseUQJ6Gbg",
+          "title": "The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs",
+          "track": "Design Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/gcseUQJ6Gbg/gcseUQJ6Gbg-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 202.8,
+          "segment_start_seconds": null,
+          "video_id": "gcseUQJ6Gbg",
+          "title": "The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs",
+          "track": "Design Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/gcseUQJ6Gbg/gcseUQJ6Gbg-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 337.9,
+          "segment_start_seconds": null,
+          "video_id": "gcseUQJ6Gbg",
+          "title": "The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs",
+          "track": "Design Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/gcseUQJ6Gbg/gcseUQJ6Gbg-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 473.1,
+          "segment_start_seconds": null,
+          "video_id": "gcseUQJ6Gbg",
+          "title": "The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs",
+          "track": "Design Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/gcseUQJ6Gbg/gcseUQJ6Gbg-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 619.6,
+          "segment_start_seconds": null,
+          "video_id": "gcseUQJ6Gbg",
+          "title": "The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs",
+          "track": "Design Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/gcseUQJ6Gbg/gcseUQJ6Gbg-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 766.0,
+          "segment_start_seconds": null,
+          "video_id": "gcseUQJ6Gbg",
+          "title": "The Missing Layer: Design Taste in AI Agents // Stop Letting Your Agents Ship Ugly UIs",
+          "track": "Design Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/dvft0Gp9sEE/dvft0Gp9sEE-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 47.1,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Voice Agents Can Just Do Things",
+          "track": "Voice & Realtime AI",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/dvft0Gp9sEE/dvft0Gp9sEE-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 105.9,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Voice Agents Can Just Do Things",
+          "track": "Voice & Realtime AI",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/dvft0Gp9sEE/dvft0Gp9sEE-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 176.5,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Voice Agents Can Just Do Things",
+          "track": "Voice & Realtime AI",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/dvft0Gp9sEE/dvft0Gp9sEE-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 247.2,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Voice Agents Can Just Do Things",
+          "track": "Voice & Realtime AI",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/dvft0Gp9sEE/dvft0Gp9sEE-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 323.7,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Voice Agents Can Just Do Things",
+          "track": "Voice & Realtime AI",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-6/dvft0Gp9sEE/dvft0Gp9sEE-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 400.2,
+          "segment_start_seconds": null,
+          "video_id": "dvft0Gp9sEE",
+          "title": "Voice Agents Can Just Do Things",
+          "track": "Voice & Realtime AI",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/track-6.jpg",
+      "calibration": {
+        "room_family": "breakout track room",
+        "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
+        "coverage": "front rows or side aisles may be visible; full room usually hidden",
+        "confidence": "medium-low",
+        "use": "partial visible-area calibration",
+        "attendance_method": "count visible rows/heads where available, scale by estimated visible-room fraction, and cap by verified track-room capacity"
+      }
+    },
+    "Track 7": {
+      "selected_videos": [
+        {
+          "video_id": "u3NofYYstaY",
+          "title": "200 Million Patient Interactions Later: What the Generic Voice Stack Misses",
+          "track": "AI in Healthcare",
+          "talk_page": "wiki/talks/2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/u3NofYYstaY.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "wFTVEDYVJT0",
+          "title": ">-",
+          "track": "Track 7",
+          "talk_page": "wiki/talks/2026-06-29-du-an-lightfoot-agents-that-own-their-inference-building-production-ai-agents-on-dedicated-gpus.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "so9l_MwS2yg",
+          "title": ">-",
+          "track": "Workshops Day 1",
+          "talk_page": "wiki/talks/2026-06-29-nick-nisi-lifestyles-of-the-ai-native-voice-coding-agent-skills-hooks-and-scheduled-tasks.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "u3NofYYstaY",
+          "title": "200 Million Patient Interactions Later: What the Generic Voice Stack Misses",
+          "track": "AI in Healthcare",
+          "talk_page": "wiki/talks/2026-07-01-vivek-muppalla-200-million-patient-interactions-later-what-the-generic-voice-stack-misses.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/u3NofYYstaY.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 1,
+      "primary_videos": 0,
+      "supporting_videos": 1,
+      "evidence_frames": 6,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-7/u3NofYYstaY/u3NofYYstaY-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 77.6,
+          "segment_start_seconds": null,
+          "video_id": "u3NofYYstaY",
+          "title": "200 Million Patient Interactions Later: What the Generic Voice Stack Misses",
+          "track": "AI in Healthcare",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-7/u3NofYYstaY/u3NofYYstaY-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 174.6,
+          "segment_start_seconds": null,
+          "video_id": "u3NofYYstaY",
+          "title": "200 Million Patient Interactions Later: What the Generic Voice Stack Misses",
+          "track": "AI in Healthcare",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-7/u3NofYYstaY/u3NofYYstaY-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 291.1,
+          "segment_start_seconds": null,
+          "video_id": "u3NofYYstaY",
+          "title": "200 Million Patient Interactions Later: What the Generic Voice Stack Misses",
+          "track": "AI in Healthcare",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-7/u3NofYYstaY/u3NofYYstaY-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 407.5,
+          "segment_start_seconds": null,
+          "video_id": "u3NofYYstaY",
+          "title": "200 Million Patient Interactions Later: What the Generic Voice Stack Misses",
+          "track": "AI in Healthcare",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-7/u3NofYYstaY/u3NofYYstaY-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 533.6,
+          "segment_start_seconds": null,
+          "video_id": "u3NofYYstaY",
+          "title": "200 Million Patient Interactions Later: What the Generic Voice Stack Misses",
+          "track": "AI in Healthcare",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-7/u3NofYYstaY/u3NofYYstaY-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 659.8,
+          "segment_start_seconds": null,
+          "video_id": "u3NofYYstaY",
+          "title": "200 Million Patient Interactions Later: What the Generic Voice Stack Misses",
+          "track": "AI in Healthcare",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/track-7.jpg",
+      "calibration": {
+        "room_family": "breakout track room",
+        "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
+        "coverage": "front rows or side aisles may be visible; full room usually hidden",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "count visible rows/heads where available, scale by estimated visible-room fraction, and cap by verified track-room capacity"
+      }
+    },
+    "Track 8": {
+      "selected_videos": [
+        {
+          "video_id": "-cKUW6n8hBU",
+          "title": "'It’s Tokens All The Way Down: How RLMs are Different'",
+          "track": "Context Engineering",
+          "talk_page": "wiki/talks/2026-06-30-kevin-madura-it-s-tokens-all-the-way-down-how-rlms-are-different.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/-cKUW6n8hBU.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "SbUxRluVRwk",
+          "title": "Benchmarking Coding Agents on New vs Legacy Code bases",
+          "track": "Agentic Engineering",
+          "talk_page": "wiki/talks/2026-07-01-denys-linkov-benchmarking-coding-agents-on-new-vs-legacy-code-bases.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/SbUxRluVRwk.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "BiG2ssibKGc",
+          "title": "Your agents lack context: Here's how to fix \\\"You're absolutely right!\\",
+          "track": "Context Engineering",
+          "talk_page": "wiki/talks/2026-06-30-brandon-waselnuk-your-agents-lack-context-here-s-how-to-fix-you-re-absolutely-right.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/BiG2ssibKGc.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "-cKUW6n8hBU",
+          "title": "'It’s Tokens All The Way Down: How RLMs are Different'",
+          "track": "Context Engineering",
+          "talk_page": "wiki/talks/2026-06-30-kevin-madura-it-s-tokens-all-the-way-down-how-rlms-are-different.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/-cKUW6n8hBU.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "SbUxRluVRwk",
+          "title": "Benchmarking Coding Agents on New vs Legacy Code bases",
+          "track": "Agentic Engineering",
+          "talk_page": "wiki/talks/2026-07-01-denys-linkov-benchmarking-coding-agents-on-new-vs-legacy-code-bases.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/SbUxRluVRwk.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "BiG2ssibKGc",
+          "title": "Your agents lack context: Here's how to fix \\\"You're absolutely right!\\",
+          "track": "Context Engineering",
+          "talk_page": "wiki/talks/2026-06-30-brandon-waselnuk-your-agents-lack-context-here-s-how-to-fix-you-re-absolutely-right.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/BiG2ssibKGc.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 3,
+      "primary_videos": 0,
+      "supporting_videos": 3,
+      "evidence_frames": 18,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/-cKUW6n8hBU/-cKUW6n8hBU-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 351.4,
+          "segment_start_seconds": null,
+          "video_id": "-cKUW6n8hBU",
+          "title": "'It’s Tokens All The Way Down: How RLMs are Different'",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/-cKUW6n8hBU/-cKUW6n8hBU-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 790.7,
+          "segment_start_seconds": null,
+          "video_id": "-cKUW6n8hBU",
+          "title": "'It’s Tokens All The Way Down: How RLMs are Different'",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/-cKUW6n8hBU/-cKUW6n8hBU-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1317.9,
+          "segment_start_seconds": null,
+          "video_id": "-cKUW6n8hBU",
+          "title": "'It’s Tokens All The Way Down: How RLMs are Different'",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/-cKUW6n8hBU/-cKUW6n8hBU-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1845.0,
+          "segment_start_seconds": null,
+          "video_id": "-cKUW6n8hBU",
+          "title": "'It’s Tokens All The Way Down: How RLMs are Different'",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/-cKUW6n8hBU/-cKUW6n8hBU-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 2416.1,
+          "segment_start_seconds": null,
+          "video_id": "-cKUW6n8hBU",
+          "title": "'It’s Tokens All The Way Down: How RLMs are Different'",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/-cKUW6n8hBU/-cKUW6n8hBU-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 2987.1,
+          "segment_start_seconds": null,
+          "video_id": "-cKUW6n8hBU",
+          "title": "'It’s Tokens All The Way Down: How RLMs are Different'",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/SbUxRluVRwk/SbUxRluVRwk-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 84.8,
+          "segment_start_seconds": null,
+          "video_id": "SbUxRluVRwk",
+          "title": "Benchmarking Coding Agents on New vs Legacy Code bases",
+          "track": "Agentic Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/SbUxRluVRwk/SbUxRluVRwk-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 190.7,
+          "segment_start_seconds": null,
+          "video_id": "SbUxRluVRwk",
+          "title": "Benchmarking Coding Agents on New vs Legacy Code bases",
+          "track": "Agentic Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/SbUxRluVRwk/SbUxRluVRwk-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 317.9,
+          "segment_start_seconds": null,
+          "video_id": "SbUxRluVRwk",
+          "title": "Benchmarking Coding Agents on New vs Legacy Code bases",
+          "track": "Agentic Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/SbUxRluVRwk/SbUxRluVRwk-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 445.0,
+          "segment_start_seconds": null,
+          "video_id": "SbUxRluVRwk",
+          "title": "Benchmarking Coding Agents on New vs Legacy Code bases",
+          "track": "Agentic Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/SbUxRluVRwk/SbUxRluVRwk-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 582.8,
+          "segment_start_seconds": null,
+          "video_id": "SbUxRluVRwk",
+          "title": "Benchmarking Coding Agents on New vs Legacy Code bases",
+          "track": "Agentic Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/SbUxRluVRwk/SbUxRluVRwk-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 720.5,
+          "segment_start_seconds": null,
+          "video_id": "SbUxRluVRwk",
+          "title": "Benchmarking Coding Agents on New vs Legacy Code bases",
+          "track": "Agentic Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/BiG2ssibKGc/BiG2ssibKGc-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 90.7,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Your agents lack context: Here's how to fix \\\"You're absolutely right!\\",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/BiG2ssibKGc/BiG2ssibKGc-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 204.1,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Your agents lack context: Here's how to fix \\\"You're absolutely right!\\",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/BiG2ssibKGc/BiG2ssibKGc-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 340.2,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Your agents lack context: Here's how to fix \\\"You're absolutely right!\\",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/BiG2ssibKGc/BiG2ssibKGc-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 476.2,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Your agents lack context: Here's how to fix \\\"You're absolutely right!\\",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/BiG2ssibKGc/BiG2ssibKGc-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 623.6,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Your agents lack context: Here's how to fix \\\"You're absolutely right!\\",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-8/BiG2ssibKGc/BiG2ssibKGc-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 771.0,
+          "segment_start_seconds": null,
+          "video_id": "BiG2ssibKGc",
+          "title": "Your agents lack context: Here's how to fix \\\"You're absolutely right!\\",
+          "track": "Context Engineering",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/track-8.jpg",
+      "calibration": {
+        "room_family": "breakout track room",
+        "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
+        "coverage": "front rows or side aisles may be visible; full room usually hidden",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "count visible rows/heads where available, scale by estimated visible-room fraction, and cap by verified track-room capacity"
+      }
+    },
+    "Track 9": {
+      "selected_videos": [
+        {
+          "video_id": "bk0TmxoZlUY",
+          "title": "Advanced workshop: Mastering AI Observability",
+          "track": "Track 9",
+          "talk_page": "wiki/talks/2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/bk0TmxoZlUY.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "lY1iFbDPRlw",
+          "title": "Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It",
+          "track": "Posttraining & Midtraining",
+          "talk_page": "wiki/talks/2026-06-30-olive-song-agents-at-scale-inside-minimax-s-model-and-the-infrastructure-behind-it.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "APh1Vx0oLmQ",
+          "title": "Operating Distributed Inference Systems at Scale",
+          "track": "Inference",
+          "talk_page": "wiki/talks/2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "bk0TmxoZlUY",
+          "title": "Advanced workshop: Mastering AI Observability",
+          "track": "Track 9",
+          "talk_page": "wiki/talks/2026-06-29-doug-guthrie-advanced-workshop-mastering-ai-observability.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/bk0TmxoZlUY.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 1,
+      "primary_videos": 0,
+      "supporting_videos": 1,
+      "evidence_frames": 6,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-9/bk0TmxoZlUY/bk0TmxoZlUY-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 232.9,
+          "segment_start_seconds": null,
+          "video_id": "bk0TmxoZlUY",
+          "title": "Advanced workshop: Mastering AI Observability",
+          "track": "Track 9",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-9/bk0TmxoZlUY/bk0TmxoZlUY-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 523.9,
+          "segment_start_seconds": null,
+          "video_id": "bk0TmxoZlUY",
+          "title": "Advanced workshop: Mastering AI Observability",
+          "track": "Track 9",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-9/bk0TmxoZlUY/bk0TmxoZlUY-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 873.2,
+          "segment_start_seconds": null,
+          "video_id": "bk0TmxoZlUY",
+          "title": "Advanced workshop: Mastering AI Observability",
+          "track": "Track 9",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-9/bk0TmxoZlUY/bk0TmxoZlUY-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1222.5,
+          "segment_start_seconds": null,
+          "video_id": "bk0TmxoZlUY",
+          "title": "Advanced workshop: Mastering AI Observability",
+          "track": "Track 9",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-9/bk0TmxoZlUY/bk0TmxoZlUY-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1600.9,
+          "segment_start_seconds": null,
+          "video_id": "bk0TmxoZlUY",
+          "title": "Advanced workshop: Mastering AI Observability",
+          "track": "Track 9",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-9/bk0TmxoZlUY/bk0TmxoZlUY-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1979.3,
+          "segment_start_seconds": null,
+          "video_id": "bk0TmxoZlUY",
+          "title": "Advanced workshop: Mastering AI Observability",
+          "track": "Track 9",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/track-9.jpg",
+      "calibration": {
+        "room_family": "breakout track room",
+        "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
+        "coverage": "front rows or side aisles may be visible; full room usually hidden",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "count visible rows/heads where available, scale by estimated visible-room fraction, and cap by verified track-room capacity"
+      }
+    },
+    "Track M": {
+      "selected_videos": [
+        {
+          "video_id": "JhJKgRAmfIU",
+          "title": "From framework to runtime: running agents with Foundry Agent Service",
+          "track": "Track M",
+          "talk_page": "wiki/talks/2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/JhJKgRAmfIU.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "1t-9-s1brcg",
+          "title": "Get Started with Models in Microsoft Foundry to Build AI Apps",
+          "track": "Track M",
+          "talk_page": "wiki/talks/2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/1t-9-s1brcg.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "eOxOzcw70f0",
+          "title": "Surviving Your Own Velocity: How VS Code Ships Weekly with 40 People",
+          "track": "Track M",
+          "talk_page": "wiki/talks/2026-06-29-harald-kirschner-surviving-your-own-velocity-how-vs-code-ships-weekly-with-40-people.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "",
+          "frame_cache": ""
+        }
+      ],
+      "used_videos": [
+        {
+          "video_id": "JhJKgRAmfIU",
+          "title": "From framework to runtime: running agents with Foundry Agent Service",
+          "track": "Track M",
+          "talk_page": "wiki/talks/2026-06-30-tina-manghnani-from-framework-to-runtime-running-agents-with-foundry-agent-service.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/JhJKgRAmfIU.mp4",
+          "frame_cache": ""
+        },
+        {
+          "video_id": "1t-9-s1brcg",
+          "title": "Get Started with Models in Microsoft Foundry to Build AI Apps",
+          "track": "Track M",
+          "talk_page": "wiki/talks/2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps.md",
+          "source_kind": "supporting-related-video",
+          "segment_start_seconds": null,
+          "video_cache": "raw/video-cache/1t-9-s1brcg.mp4",
+          "frame_cache": ""
+        }
+      ],
+      "videos_used": 2,
+      "primary_videos": 0,
+      "supporting_videos": 2,
+      "evidence_frames": 12,
+      "evidence": [
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/JhJKgRAmfIU/JhJKgRAmfIU-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 93.6,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "From framework to runtime: running agents with Foundry Agent Service",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/JhJKgRAmfIU/JhJKgRAmfIU-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 210.6,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "From framework to runtime: running agents with Foundry Agent Service",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/JhJKgRAmfIU/JhJKgRAmfIU-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 351.0,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "From framework to runtime: running agents with Foundry Agent Service",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/JhJKgRAmfIU/JhJKgRAmfIU-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 491.5,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "From framework to runtime: running agents with Foundry Agent Service",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/JhJKgRAmfIU/JhJKgRAmfIU-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 643.6,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "From framework to runtime: running agents with Foundry Agent Service",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/JhJKgRAmfIU/JhJKgRAmfIU-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 795.7,
+          "segment_start_seconds": null,
+          "video_id": "JhJKgRAmfIU",
+          "title": "From framework to runtime: running agents with Foundry Agent Service",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/1t-9-s1brcg/1t-9-s1brcg-01.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 427.3,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "Get Started with Models in Microsoft Foundry to Build AI Apps",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/1t-9-s1brcg/1t-9-s1brcg-02.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 961.5,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "Get Started with Models in Microsoft Foundry to Build AI Apps",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/1t-9-s1brcg/1t-9-s1brcg-03.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 1602.5,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "Get Started with Models in Microsoft Foundry to Build AI Apps",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/1t-9-s1brcg/1t-9-s1brcg-04.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 2243.5,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "Get Started with Models in Microsoft Foundry to Build AI Apps",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/1t-9-s1brcg/1t-9-s1brcg-05.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 2938.0,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "Get Started with Models in Microsoft Foundry to Build AI Apps",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        },
+        {
+          "path": "raw/sources/attendance-calibration/frames/track-m/1t-9-s1brcg/1t-9-s1brcg-06.jpg",
+          "source": "video-cache",
+          "frame_index": null,
+          "time_seconds": 3632.4,
+          "segment_start_seconds": null,
+          "video_id": "1t-9-s1brcg",
+          "title": "Get Started with Models in Microsoft Foundry to Build AI Apps",
+          "track": "Track M",
+          "source_kind": "supporting-related-video"
+        }
+      ],
+      "contact_sheet": "assets/attendance-calibration/track-m.jpg",
+      "calibration": {
+        "room_family": "breakout track room",
+        "camera_model": "fixed speaker/slide camera; audience usually off-axis, with occasional wide shots",
+        "coverage": "front rows or side aisles may be visible; full room usually hidden",
+        "confidence": "low",
+        "use": "camera-family proxy only",
+        "attendance_method": "count visible rows/heads where available, scale by estimated visible-room fraction, and cap by verified track-room capacity"
+      }
+    }
+  }
+}
