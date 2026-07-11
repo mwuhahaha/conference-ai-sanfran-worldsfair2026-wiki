@@ -603,7 +603,8 @@ def render_graph(pages: list[Page]) -> str:
   </div>
   <noscript><p>This interactive graph requires JavaScript. The underlying dataset remains available at <a href="/graph-data.json">/graph-data.json</a>.</p></noscript>
 </section>
-<script type="module" src="/graph.js"></script>"""
+<script type="module" src="/graph.js?v=__ASSET_VERSION__"></script>"""
+    body = body.replace("__ASSET_VERSION__", html.escape(ASSET_VERSION))
     return render_layout("Knowledge graph", body, pages, "graph")
 
 
