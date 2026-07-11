@@ -359,7 +359,7 @@ def render_layout(title: str, body: str, pages: list[Page], current: str = "") -
   <title>{html.escape(title)} · {html.escape(SITE_TITLE)}</title>
   <link rel="stylesheet" href="/styles.css?v={html.escape(ASSET_VERSION)}">
 </head>
-<body>
+<body class="page-{html.escape(current or 'article')}">
   <aside class="sidebar">
     <p class="eyebrow">AI Engineer Conference Wiki</p>
     <a class="brand" href="/">{html.escape(SITE_TITLE)}</a>
@@ -581,22 +581,20 @@ def render_graph(pages: list[Page]) -> str:
     body = """<section class="landing graph-landing">
   <p class="eyebrow">Conference map</p>
   <h1>Knowledge graph</h1>
-  <p>Explore the wiki links between talks, people, companies, tools, topics, and evidence pages. The graph is generated at build time and remains read-only.</p>
-  <div class="graph-controls" aria-label="Graph filters">
-    <label>Category<select id="graph-category"><option value="">All categories</option></select></label>
-    <label>Search<input id="graph-search" type="search" placeholder="Find a page by title or text"></label>
+  <p class="graph-intro">Explore every wiki relationship in one view. Search highlights matching pages without removing the surrounding network.</p>
+  <div class="graph-canvas-wrap">
+    <div id="graph-canvas" class="graph-canvas" role="img" aria-label="Wiki relationship graph"></div>
+    <div class="graph-controls" aria-label="Graph filters">
+      <label>Category<select id="graph-category"><option value="">All categories</option></select></label>
+      <label class="graph-search-label">Search<input id="graph-search" type="search" placeholder="Find a page by title or text" autocomplete="off"><span id="graph-search-results" class="graph-search-results"></span></label>
+    </div>
+    <div id="graph-legend" class="graph-legend" aria-label="Graph legend"></div>
     <div class="graph-zoom-controls" aria-label="Graph zoom controls">
-      <button type="button" id="graph-zoom-in" title="Zoom in">+</button>
-      <button type="button" id="graph-zoom-out" title="Zoom out">-</button>
-      <button type="button" id="graph-zoom-reset" title="Reset view">Reset</button>
+      <button type="button" id="graph-zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
+      <button type="button" id="graph-zoom-out" title="Zoom out" aria-label="Zoom out">-</button>
+      <button type="button" id="graph-zoom-reset" title="Show entire graph" aria-label="Show entire graph">All</button>
     </div>
-  </div>
-  <p id="graph-status" class="graph-status" aria-live="polite">Loading graph…</p>
-  <div id="graph-legend" class="graph-legend" aria-label="Graph legend"></div>
-  <div class="graph-workspace">
-    <div class="graph-canvas-wrap">
-      <svg id="graph-canvas" class="graph-canvas" viewBox="0 0 1200 900" role="img" aria-label="Wiki relationship graph"></svg>
-    </div>
+    <p id="graph-status" class="graph-status" aria-live="polite">Loading graph…</p>
     <aside id="graph-detail" class="graph-detail">
       <p class="eyebrow">Node detail</p>
       <h2>Select a page</h2>
@@ -605,7 +603,7 @@ def render_graph(pages: list[Page]) -> str:
   </div>
   <noscript><p>This interactive graph requires JavaScript. The underlying dataset remains available at <a href="/graph-data.json">/graph-data.json</a>.</p></noscript>
 </section>
-<script src="/graph.js" defer></script>"""
+<script type="module" src="/graph.js"></script>"""
     return render_layout("Knowledge graph", body, pages, "graph")
 
 
@@ -690,6 +688,10 @@ function applyTransform() {
 function setCategory(category) {
   categorySelect.value = category;
   selectedNodeId = "";
+  const url = new URL(window.location.href);
+  if (category) url.searchParams.set("category", category);
+  else url.searchParams.delete("category");
+  window.history.replaceState({}, "", url);
   resetZoom(false);
   render();
 }
@@ -834,6 +836,17 @@ fetch("/graph-data.json")
     graph = data;
     const categories = [...new Set(graph.nodes.map((node) => node.category).filter((category) => category !== "root"))].sort();
     colors = new Map(categories.map((category, index) => [category, palette[index % palette.length]]));
+    const allItem = document.createElement("span");
+    allItem.className = "graph-legend-item graph-legend-all";
+    allItem.textContent = "All categories";
+    allItem.tabIndex = 0;
+    allItem.setAttribute("role", "button");
+    allItem.setAttribute("aria-label", "Open all categories graph");
+    allItem.addEventListener("click", () => setCategory(""));
+    allItem.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") { event.preventDefault(); setCategory(""); }
+    });
+    legend.append(allItem);
     categories.forEach((category) => {
       const option = document.createElement("option");
       option.value = category;
@@ -853,7 +866,9 @@ fetch("/graph-data.json")
       });
       legend.append(item, document.createTextNode(" "));
     });
-    categorySelect.addEventListener("change", () => { selectedNodeId = ""; resetZoom(false); render(); });
+    const requestedCategory = new URLSearchParams(window.location.search).get("category");
+    if (requestedCategory && categories.includes(requestedCategory)) categorySelect.value = requestedCategory;
+    categorySelect.addEventListener("change", () => setCategory(categorySelect.value));
     searchInput.addEventListener("input", () => { selectedNodeId = ""; render(); });
     zoomIn.addEventListener("click", () => zoomAt(1.25));
     zoomOut.addEventListener("click", () => zoomAt(0.8));
@@ -1251,20 +1266,30 @@ blockquote {
   white-space: nowrap;
 }
 .home-source-row { grid-template-columns: minmax(130px, 0.55fr) minmax(210px, 0.9fr) minmax(280px, 1.4fr) auto; }
-.graph-landing { max-width: 1200px; }
+.graph-landing { max-width: 1400px; }
+.graph-landing h1 { margin-bottom: 8px; }
+.graph-intro { margin: 0 0 16px; color: var(--muted); }
 .graph-controls {
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) minmax(220px, 1fr) auto;
-  gap: 12px;
-  align-items: end;
-  margin: 24px 0 12px;
+  grid-template-columns: minmax(170px, 0.65fr) minmax(260px, 1.35fr);
+  gap: 8px;
+  position: absolute;
+  z-index: 5;
+  top: 12px;
+  left: 12px;
+  width: min(620px, calc(100% - 84px));
+  padding: 8px;
+  border: 1px solid rgba(208, 213, 221, 0.9);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 4px 14px rgba(16, 24, 40, 0.12);
 }
-.graph-controls label { color: var(--muted); font-weight: 700; }
+.graph-controls label { position: relative; color: var(--muted); font-size: 0.74rem; font-weight: 800; }
 .graph-controls select, .graph-controls input {
   display: block;
   width: 100%;
-  margin-top: 6px;
-  padding: 10px 12px;
+  margin-top: 3px;
+  padding: 8px 10px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
@@ -1272,15 +1297,23 @@ blockquote {
   font: inherit;
 }
 .graph-zoom-controls {
-  display: inline-flex;
-  gap: 6px;
+  display: grid;
+  gap: 4px;
   align-items: center;
-  justify-content: flex-end;
+  position: absolute;
+  z-index: 2;
+  top: 12px;
+  right: 12px;
+  padding: 5px;
+  border: 1px solid rgba(208, 213, 221, 0.9);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 4px 14px rgba(16, 24, 40, 0.12);
 }
 .graph-zoom-controls button {
-  min-width: 42px;
-  min-height: 42px;
-  padding: 9px 11px;
+  min-width: 40px;
+  min-height: 38px;
+  padding: 7px 9px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
@@ -1293,18 +1326,26 @@ blockquote {
   border-color: var(--accent);
   color: var(--accent);
 }
-.graph-status { color: var(--muted); font-size: 0.9rem; }
+.graph-status { position: absolute; z-index: 4; left: 14px; bottom: 51px; max-width: calc(100% - 150px); margin: 0; padding: 5px 8px; border-radius: 6px; background: rgba(255,255,255,.88); color: var(--muted); font-size: 0.76rem; }
 .graph-legend {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 14px 0;
+  gap: 5px;
+  position: absolute;
+  z-index: 4;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-x: auto;
+  padding: 8px 10px;
+  border-top: 1px solid rgba(208,213,221,.8);
+  background: rgba(255,255,255,.93);
 }
 .graph-legend-item {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 5px 8px;
+  flex: 0 0 auto;
+  padding: 5px 7px;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: #fff;
@@ -1320,15 +1361,22 @@ blockquote {
   color: var(--accent);
   outline: none;
 }
+.graph-legend-all {
+  color: var(--ink);
+  font-weight: 800;
+}
 .graph-legend-item i {
   flex: 0 0 auto;
   width: 9px;
   height: 9px;
   border-radius: 50%;
 }
-.graph-workspace { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; align-items: start; }
-.graph-canvas-wrap { min-height: 640px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; touch-action: none; }
-.graph-canvas { display: block; width: 100%; min-height: 640px; cursor: grab; user-select: none; }
+.graph-search-results { display: none; position: absolute; z-index: 8; top: calc(100% + 5px); right: 0; left: 0; max-height: 300px; overflow-y: auto; padding: 5px; border: 1px solid var(--line); border-radius: 7px; background: #fff; box-shadow: 0 10px 24px rgba(16,24,40,.16); }
+.graph-search-results.open { display: grid; }
+.graph-search-results button { padding: 8px 9px; border: 0; border-radius: 5px; background: transparent; color: var(--ink); font: inherit; text-align: left; cursor: pointer; }
+.graph-search-results button:hover, .graph-search-results button:focus { background: #eef4f1; }
+.graph-canvas-wrap { position: relative; height: max(680px, calc(100vh - 245px)); min-height: 680px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; touch-action: none; }
+.graph-canvas { display: block; width: 100%; height: 100%; cursor: grab; user-select: none; }
 .graph-canvas:active { cursor: grabbing; }
 .graph-viewport { transform-origin: 0 0; }
 .graph-clusters rect {
@@ -1367,7 +1415,9 @@ blockquote {
   pointer-events: auto;
 }
 .graph-node:hover .graph-node-label, .graph-node:focus .graph-node-label { fill: var(--ink); }
-.graph-detail { min-height: 300px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: #fbfcf8; }
+.graph-detail { display: none; position: absolute; z-index: 6; top: 92px; right: 12px; width: min(340px, calc(100% - 24px)); max-height: calc(100% - 160px); overflow-y: auto; padding: 16px; border: 1px solid var(--line); border-radius: 8px; background: rgba(251,252,248,.97); box-shadow: 0 12px 30px rgba(16,24,40,.18); }
+.graph-detail.open { display: block; }
+.graph-detail-close { float: right; width: 32px; height: 32px; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--ink); font-size: 1.25rem; cursor: pointer; }
 .graph-detail h2 { margin-top: 0; padding-top: 0; border-top: 0; font-size: 1.35rem; }
 .graph-detail h3 { margin-top: 1.5rem; }
 .graph-counts { color: var(--muted); font-size: 0.88rem; }
@@ -1385,11 +1435,54 @@ blockquote {
   .home-landing, .home-split, .home-start-grid, .home-row, .home-source-row { grid-template-columns: 1fr; }
   .home-metric-grid { grid-template-columns: 1fr; }
   .home-start { grid-column: auto; }
-  .graph-controls, .graph-workspace { grid-template-columns: 1fr; }
-  .graph-canvas-wrap, .graph-canvas { min-height: 420px; }
+  .graph-controls { grid-template-columns: 1fr; width: calc(100% - 88px); }
+  .graph-canvas-wrap { height: 72vh; min-height: 520px; }
+  .graph-status { bottom: 49px; max-width: calc(100% - 86px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .graph-detail { top: auto; right: 8px; bottom: 52px; left: 8px; width: auto; max-height: 48%; }
+  .page-graph .sidebar { padding: 12px 16px; }
+  .page-graph .sidebar > .eyebrow, .page-graph .sidebar > .subtitle, .page-graph .sidebar > .search { display: none; }
+  .page-graph .brand { display: block; margin-bottom: 10px; font-size: 1rem; }
+  .page-graph .main-nav { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .page-graph .main-nav a:nth-child(n+4) { display: none; }
+  .page-graph main { padding-top: 14px; }
+  .page-graph .graph-landing { padding: 18px 14px; }
+  .page-graph .graph-landing > .eyebrow { margin-bottom: 8px; }
+  .page-graph .graph-landing h1 { margin-top: 0; font-size: 2rem; }
 }
 """.strip()
         + "\n",
+        encoding="utf-8",
+    )
+
+
+def write_sigma_graph_script() -> None:
+    """Write the WebGL graph client used by the public static graph page."""
+    (DIST / "graph.js").write_text(
+        r"""import Graph from 'https://esm.sh/graphology@0.26.0';
+import Sigma from 'https://esm.sh/sigma@3.0.3';
+import FA2Layout from 'https://esm.sh/graphology-layout-forceatlas2@0.10.1/worker';
+
+const colors=['#0f766e','#c2410c','#2563eb','#7c3aed','#be123c','#4d7c0f','#0891b2','#a16207','#475569','#047857','#dc2626','#4338ca'];
+const canvas=document.querySelector('#graph-canvas'),category=document.querySelector('#graph-category'),search=document.querySelector('#graph-search'),searchResults=document.querySelector('#graph-search-results'),legend=document.querySelector('#graph-legend'),status=document.querySelector('#graph-status'),detail=document.querySelector('#graph-detail');
+const data=await fetch('/graph-data.json').then(r=>r.ok?r.json():Promise.reject(new Error(`Graph request failed: ${r.status}`)));
+const graph=new Graph({type:'undirected'}),categories=[...new Set(data.nodes.map(n=>n.category).filter(c=>c!=='root'))].sort(),palette=new Map(categories.map((c,i)=>[c,colors[i%colors.length]]));
+const seed=(id,category)=>{let h=2166136261;for(const char of `${category}:${id}`){h^=char.charCodeAt(0);h=Math.imul(h,16777619)}const a=(h>>>0)/4294967296*Math.PI*2,r=2+((h>>>8)&1023)/150,g=categories.indexOf(category)/Math.max(categories.length,1)*Math.PI*2;return{x:Math.cos(g)*18+Math.cos(a)*r,y:Math.sin(g)*18+Math.sin(a)*r}};
+data.nodes.filter(n=>n.category!=='root').forEach(n=>{const p=seed(n.id,n.category);graph.addNode(n.id,{...n,...p,label:n.title,size:Math.min(15,3+Math.sqrt(n.degree+1)),color:palette.get(n.category)||'#64748b'})});
+data.links.forEach((e,i)=>{if(graph.hasNode(e.source)&&graph.hasNode(e.target)&&!graph.hasEdge(e.source,e.target))graph.addEdgeWithKey(`e${i}`,e.source,e.target,{size:.3,color:'#94a3b8'})});
+const addLabel=(name,label,color='')=>{const item=document.createElement('button');item.type='button';item.className=`graph-legend-item${name?'':' graph-legend-all'}`;if(color){const swatch=document.createElement('i');swatch.style.background=color;item.append(swatch)}item.append(document.createTextNode(label));item.onclick=()=>setCategory(name);legend.append(item)};
+addLabel('','All categories');categories.forEach(name=>{const option=document.createElement('option');option.value=name;option.textContent=`${name.replaceAll('-',' ')} (${data.nodes.filter(n=>n.category===name).length})`;category.append(option);addLabel(name,name.replaceAll('-',' '),palette.get(name))});
+let selected='',hovered='';
+const renderer=new Sigma(graph,canvas,{labelDensity:.06,labelGridCellSize:110,labelRenderedSizeThreshold:9,zIndex:true,nodeReducer(node,a){const q=search.value.trim().toLowerCase(),matches=!q||`${a.label} ${a.excerpt}`.toLowerCase().includes(q),hidden=Boolean(category.value&&a.category!==category.value),active=node===(selected||hovered);return{...a,hidden,size:active?a.size*1.75:a.size,zIndex:active||matches&&q?2:1,color:active?'#111827':q&&!matches?'#cbd5e1':a.color,forceLabel:active||Boolean(q&&matches||category.value)}},edgeReducer(edge,a){const focus=selected||hovered;if(!focus)return{...a,hidden:Boolean(category.value),color:search.value.trim()?'#e2e8f0':'#cbd5e1',size:.18};const active=graph.extremities(edge).includes(focus);return{...a,hidden:!active,color:'#475569',size:active?1.5:.2,zIndex:active?1:0}}});
+function matches(){const q=search.value.trim().toLowerCase();return q?data.nodes.filter(n=>n.category!=='root'&&(!category.value||n.category===category.value)&&`${n.title} ${n.excerpt}`.toLowerCase().includes(q)):[]}
+function update(){const found=matches(),visible=data.nodes.filter(n=>n.category!=='root'&&(!category.value||n.category===category.value)).length;status.textContent=search.value.trim()?`${found.length.toLocaleString()} matches highlighted within ${visible.toLocaleString()} visible pages. The surrounding graph remains in view.`:`${visible.toLocaleString()} pages and ${graph.size.toLocaleString()} resolved links. Drag to pan, scroll to zoom, and click any label to explore.`}
+function focusNode(node){selected=node;const a=graph.getNodeAttributes(node),neighbors=graph.neighbors(node).sort((x,y)=>graph.degree(y)-graph.degree(x)).slice(0,18);detail.classList.add('open');detail.innerHTML=`<button class="graph-detail-close" type="button" aria-label="Close details">×</button><p class="eyebrow">${a.category}</p><h2>${a.label}</h2><p>${a.excerpt||''}</p><p class="graph-counts">${graph.degree(node)} connected pages</p><a class="graph-open-page" href="${a.url}">Open page</a>${neighbors.length?'<h3>Nearby pages</h3><ul class="graph-nearby">'+neighbors.map(id=>`<li><a href="${graph.getNodeAttribute(id,'url')}">${graph.getNodeAttribute(id,'label')}</a><small>${graph.getNodeAttribute(id,'category')}</small></li>`).join('')+'</ul>':''}`;detail.querySelector('.graph-detail-close').onclick=()=>{selected='';detail.classList.remove('open');renderer.refresh()};renderer.refresh();const p=renderer.getNodeDisplayData(node);if(p)renderer.getCamera().animate({x:p.x,y:p.y,ratio:.3},{duration:500})}
+function fitCategory(){if(!category.value){renderer.getCamera().animatedReset({duration:500});return}const points=graph.filterNodes((node,a)=>a.category===category.value).map(node=>renderer.getNodeDisplayData(node)).filter(Boolean);if(!points.length)return;const x=points.reduce((sum,p)=>sum+p.x,0)/points.length,y=points.reduce((sum,p)=>sum+p.y,0)/points.length,ratio=Math.min(1,Math.max(.52,.42+Math.sqrt(points.length)/35));renderer.getCamera().animate({x,y,ratio},{duration:500})}
+function setCategory(name){category.value=name;selected='';detail.classList.remove('open');const url=new URL(location.href);name?url.searchParams.set('category',name):url.searchParams.delete('category');history.replaceState({},'',url);renderer.refresh();requestAnimationFrame(fitCategory);update()}
+const requested=new URLSearchParams(location.search).get('category');if(requested&&categories.includes(requested))category.value=requested;
+category.onchange=()=>setCategory(category.value);search.oninput=()=>{selected='';const found=matches().slice(0,8);searchResults.replaceChildren(...found.map(item=>{const button=document.createElement('button');button.type='button';button.textContent=item.title;button.onclick=()=>{searchResults.replaceChildren();focusNode(item.id)};return button}));searchResults.classList.toggle('open',Boolean(found.length));renderer.refresh();update()};search.onkeydown=event=>{if(event.key==='Enter'){const first=matches()[0];if(first){event.preventDefault();searchResults.replaceChildren();focusNode(first.id)}}};renderer.on('enterNode',({node})=>{hovered=node;renderer.refresh()});renderer.on('leaveNode',()=>{hovered='';renderer.refresh()});renderer.on('clickNode',({node})=>focusNode(node));
+document.querySelector('#graph-zoom-in').onclick=()=>renderer.getCamera().animatedZoom({duration:250});document.querySelector('#graph-zoom-out').onclick=()=>renderer.getCamera().animatedUnzoom({duration:250});document.querySelector('#graph-zoom-reset').onclick=()=>{category.value='';search.value='';searchResults.replaceChildren();selected='';detail.classList.remove('open');renderer.refresh();renderer.getCamera().animatedReset({duration:400});update()};
+const layout=new FA2Layout(graph,{settings:{gravity:1,scalingRatio:10,slowDown:5,barnesHutOptimize:true}});layout.start();setTimeout(()=>{layout.stop();fitCategory()},4500);update();
+""",
         encoding="utf-8",
     )
 
@@ -1403,7 +1496,7 @@ def export() -> None:
         shutil.rmtree(DIST)
     DIST.mkdir(parents=True)
     write_styles()
-    write_graph_script()
+    write_sigma_graph_script()
     (DIST / "graph-data.json").write_text(json.dumps(graph, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     assets = WIKI / "assets"
