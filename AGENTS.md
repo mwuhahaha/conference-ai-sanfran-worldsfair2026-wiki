@@ -32,6 +32,7 @@ Keep new pages compatible with the public repo conventions:
 - External/non-official YouTube discovery belongs in `scripts/discover_external_event_videos.py`. Run `python3 scripts/discover_external_event_videos.py --write-wiki --import-high-confidence --update-talk-pages` to find high-confidence secondary-source candidates, cache captions when available, update `wiki/resources/external-video-discovery.md`, and add explicit secondary-source links to matched talk pages.
 - Registry files such as `wiki/tools/registry.json`, `wiki/questions/registry.json`, and category indexes when a category has generated pages.
 - Internal scoring artifacts belong only under ignored project-local state. Do not publish weights, calibration fixtures, score reports, or scoring-policy pages into `wiki/`, `raw/sources/`, `dist/`, or the agent index.
+- Person-connection discovery runs through `python3 scripts/link_individuals.py`. It compares every local person pair, treats external profiles and repositories as evidence leads rather than automatic proof, and stores numeric calibration only under ignored `.ops/state/cache/person-linking/`.
 - No local-only workspace notes, private caches, or unpublishable files in the clean/public wiki.
 
 ## Purpose
