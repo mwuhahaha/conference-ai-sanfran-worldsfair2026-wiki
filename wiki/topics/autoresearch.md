@@ -249,6 +249,45 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Tools
 
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
+
+### Slides
+
+### Transcripts
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
+
+### Slides
+
+### Transcripts
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
+
+### Slides
+
+### Transcripts
+
+### Tools
+
 ## Active Use Cases
 - Evidence-grounded briefing docs and source maps.
 - Research agents that compare papers, products, or implementation patterns.

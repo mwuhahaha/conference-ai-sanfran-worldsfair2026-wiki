@@ -27,7 +27,7 @@ Compare sandbox providers by isolation strength, developer ergonomics, traceabil
 - Integration with review and approval gates
 
 ## Tentative Recommendation
-Tentative: choose the weakest sandbox that satisfies the task risk policy, but require stronger isolation for untrusted code, external input, production credentials, or cross-tenant workloads.
+Tentative: choose the weakest sandbox that satisfies the task risk boundary, but require stronger isolation for untrusted code, external input, production credentials, or cross-tenant workloads.
 
 ## Confidence
 medium. No recommendation should be treated as final without a hands-on trial or source-backed comparison for the concrete use case.

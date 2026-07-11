@@ -247,6 +247,39 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Transcripts
 
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
+
+### Slides
+
+### Transcripts
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
+
+### Slides
+
+### Transcripts
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
+
+### Slides
+
+### Transcripts
+
 ## Active Use Cases
 - Reducing token and GPU cost for agent workflows.
 - Serving long-context or cached-context applications.

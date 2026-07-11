@@ -1,0 +1,17 @@
+[
+  {
+    "id": "evidence-gated-agent-workflow",
+    "title": "Evidence-Gated Agent Workflow",
+    "path": "wiki/patterns/evidence-gated-agent-workflow.md"
+  },
+  {
+    "id": "source-labeled-synthesis",
+    "title": "Source-Labeled Synthesis",
+    "path": "wiki/patterns/source-labeled-synthesis.md"
+  },
+  {
+    "id": "sandboxed-delegation",
+    "title": "Sandboxed Delegation",
+    "path": "wiki/patterns/sandboxed-delegation.md"
+  }
+]

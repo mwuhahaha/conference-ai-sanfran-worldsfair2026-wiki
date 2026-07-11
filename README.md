@@ -48,6 +48,7 @@ python3 scripts/generate_transcript_markdown_pages.py
 python3 scripts/generate_talk_synthesis.py --speaker "Liad Yosef"
 python3 scripts/generate_highlights.py
 python3 scripts/generate_synthesis_layers.py
+python3 scripts/enrich_evolution_context.py --all
 python3 scripts/normalize_article_shapes.py
 python3 scripts/run_slide_ocr_pipeline.py
 python3 scripts/run_slide_ocr_pipeline.py --all --skip-perfect --engine rapidocr --internal-eval-log
@@ -59,7 +60,9 @@ The external video discovery tool searches YouTube beyond the official AI Engine
 
 The talk synthesis tool adds transcript/source-backed sections to talk pages. The highlight generator publishes both the normal highlights index and the grouped `Highlighted Concepts, People, And Talks` map.
 
-The synthesis layer generator publishes harnesses, playbooks, evaluations, topic evidence tables, livestream thematic anchors, and topic-specific credibility policies. Credibility policy JSON files live under `raw/sources/credibility-policies/`; change and review them one at a time, then rerun the generator and inspect `wiki/evaluations/credibility-policy-evals.md`.
+The synthesis layer generator publishes claims, patterns, harnesses, playbooks, evaluations, topic evidence tables, and livestream thematic anchors. It must not emit internal scoring artifacts into public wiki pages, public raw sources, or the agent index.
+
+The evolution-context enricher adds reviewed `How This Theme Evolved`, `Why This Matters Now`, and `Practical Lesson` sections to configured topic or synthesis pages. Its portable profile lives at `raw/sources/evolution-context-profile.json`. Earlier wikis are comparison context only; a section is emitted only when the target page already links to the profile's required local evidence. Preview with `python3 scripts/enrich_evolution_context.py --all --dry-run`, apply with `python3 scripts/enrich_evolution_context.py --all`, then normalize article shapes.
 
 The article shape normalizer keeps page types consistent without forcing every article into the same outline. Talks use a session-article shape, people use a profile shape, companies use an organization shape, topics use a concept-article shape, and question/harness/playbook/evaluation pages use synthesis shapes. It folds explicit "what/why/how" style headings into more agent-friendly sections such as `Overview`, `Conference Context`, `Significance`, `Technical Model`, `Applied Use`, `Connections`, and `Evidence Graph`. `npm run build` runs this normalizer before export.
 

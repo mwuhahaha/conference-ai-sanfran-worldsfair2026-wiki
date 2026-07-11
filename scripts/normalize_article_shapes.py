@@ -148,9 +148,12 @@ ORDER: dict[str, list[str]] = {
     "topics": [
         "Overview",
         "Conference Context",
+        "How This Theme Evolved",
         "Significance",
+        "Why This Matters Now",
         "Technical Model",
         "Applied Use",
+        "Practical Lesson",
         "Design Patterns",
         "Risks And Failure Modes",
         "Open Questions",
@@ -159,10 +162,10 @@ ORDER: dict[str, list[str]] = {
         "Source Coverage",
         "Evidence Boundary",
     ],
-    "questions": ["Context", "Working Answer", "Evidence", "Next Questions", "Evidence Boundary"],
-    "harnesses": ["Overview", "Conference Context", "Implementation Pattern", "Evidence", "Evidence Boundary"],
-    "playbooks": ["Overview", "Conference Context", "Implementation Pattern", "Evidence", "Evidence Boundary"],
-    "evaluations": ["Overview", "Conference Context", "Implementation Pattern", "Evidence", "Evidence Boundary"],
+    "questions": ["Context", "How This Theme Evolved", "Why This Matters Now", "Working Answer", "Practical Lesson", "Evidence", "Next Questions", "Evidence Boundary"],
+    "harnesses": ["Overview", "Conference Context", "How This Theme Evolved", "Why This Matters Now", "Implementation Pattern", "Practical Lesson", "Evidence", "Evidence Boundary"],
+    "playbooks": ["Overview", "Conference Context", "How This Theme Evolved", "Why This Matters Now", "Implementation Pattern", "Practical Lesson", "Evidence", "Evidence Boundary"],
+    "evaluations": ["Overview", "Conference Context", "How This Theme Evolved", "Why This Matters Now", "Implementation Pattern", "Practical Lesson", "Evidence", "Evidence Boundary"],
 }
 
 TARGET_DIRS = ["talks", "people", "companies", "topics", "questions", "harnesses", "playbooks", "evaluations"]

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Worldsfair synthesis layers, policies, and policy evals."""
+"""Generate Worldsfair synthesis layers and internal operator-scoring receipts."""
 
 from __future__ import annotations
 
@@ -12,7 +12,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 RAW = ROOT / "raw" / "sources"
-POLICY_RAW = RAW / "credibility-policies"
+INTERNAL_SCORING_DIR = ROOT / ".ops" / "state" / "cache" / "operator-scoring"
+INTERNAL_SCORING_PROFILE = INTERNAL_SCORING_DIR / "credibility-scoring-profile.json"
 
 
 def slugify(value: str) -> str:
@@ -197,7 +198,7 @@ PLAYBOOK_PAGES = [
         "when": "Use this after a conference pass surfaces many plausible tools but not enough direct operational evidence to adopt one.",
         "steps": [
             "Group tools by job: coding agents, eval/observability, retrieval/context, sandbox/runtime, inference, and voice/multimodal.",
-            "Pick one policy-backed decision question per group before installing anything.",
+            "Pick one source-backed decision question per group before installing anything.",
             "Define a small local task and a scoring sheet for each group.",
             "Run a trial only when the tool has source evidence and a clear user workflow in this wiki.",
             "Write the result back as an evaluation page with confidence and open questions.",
@@ -219,32 +220,13 @@ PLAYBOOK_PAGES = [
             "Start from a question page rather than a broad topic when possible.",
             "Collect official schedule links, primary event media, supporting videos, transcripts, and slide pages separately.",
             "Write claims in a table that names the source layer for each claim.",
-            "Score people, companies, or tools only with the policy for that topic and use case.",
+            "Use source labels and confidence notes when comparing people, companies, or tools.",
             "Record uncertainties and follow-up searches as open questions instead of hiding them.",
         ],
         "sources": [
             ("questions", "Question index"),
             ("source-boundary", "Source rules"),
             ("agent-source-index", "Source map"),
-            ("credibility-policy-evals", "Policy evals"),
-        ],
-    },
-    {
-        "slug": "credibility-policy-review-loop",
-        "title": "Credibility Policy Review Loop",
-        "summary": "A maintenance workflow for changing topic-specific credibility scoring without losing how previous scores were made.",
-        "when": "Use this whenever a score feels wrong, a new topic needs a different algorithm, or public attention should be weighted differently.",
-        "steps": [
-            "Change exactly one policy file under `raw/sources/credibility-policies/`.",
-            "Add or adjust at least one eval fixture that names a person who should score high or low for that topic.",
-            "Run `python3 scripts/generate_synthesis_layers.py` and inspect the policy eval report.",
-            "If the eval contradicts domain intuition, tune the policy weights rather than hand-editing the score.",
-            "Commit or review policy changes one policy at a time so future readers know how each score was made.",
-        ],
-        "sources": [
-            ("credibility-policy-evals", "Policy evals"),
-            ("agent-evaluations", "Topic synthesis"),
-            ("source-boundary", "Source rules"),
         ],
     },
 ]
@@ -350,7 +332,7 @@ EVALUATION_PAGES = [
             "Artifact capture and replay",
             "Integration with review and approval gates",
         ],
-        "recommendation": "Tentative: choose the weakest sandbox that satisfies the task risk policy, but require stronger isolation for untrusted code, external input, production credentials, or cross-tenant workloads.",
+        "recommendation": "Tentative: choose the weakest sandbox that satisfies the task risk boundary, but require stronger isolation for untrusted code, external input, production credentials, or cross-tenant workloads.",
         "confidence": "medium",
         "sources": [
             ("ai-sandboxes", "Topic synthesis"),
@@ -361,255 +343,6 @@ EVALUATION_PAGES = [
             ("browserbase", "Tool inventory"),
             ("2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert", "Official schedule"),
         ],
-    },
-    {
-        "slug": "credibility-policy-evals",
-        "title": "Credibility Policy Evals",
-        "summary": "Evaluate whether topic-specific credibility policies score known strong exemplars high enough and expose where the measurement needs tuning.",
-        "criteria": [
-            "Policy weights are explicit and versioned",
-            "High-credibility exemplars pass their expected threshold",
-            "View or fame signals are useful only when the topic asks for public attention",
-            "Each failed fixture creates a policy-adjustment task, not a manual score override",
-        ],
-        "recommendation": "Use topic policies as score provenance. Change one policy at a time and rerun evals before applying scores to public pages.",
-        "confidence": "high",
-        "sources": [
-            ("credibility-policy-review-loop", "Playbook"),
-            ("source-boundary", "Source rules"),
-            ("agent-evaluations", "Topic synthesis"),
-        ],
-    },
-]
-
-
-CREDIBILITY_POLICIES = [
-    {
-        "slug": "coding-agents-credibility",
-        "title": "Coding Agents Credibility",
-        "topic": "coding-agents",
-        "useCase": "Rank people or sources for practical coding-agent workflow guidance.",
-        "version": "2026-07-10.1",
-        "viewSignalRole": "Minor. Views can indicate broad adoption, but code/review practice and shipped artifacts matter more.",
-        "weights": {
-            "topic_fit": 20,
-            "practitioner_depth": 25,
-            "shipped_artifacts": 20,
-            "official_or_primary_source": 15,
-            "peer_recognition": 10,
-            "production_scale": 5,
-            "public_attention": 5,
-        },
-    },
-    {
-        "slug": "agent-evaluations-credibility",
-        "title": "Agent Evaluations Credibility",
-        "topic": "agent-evaluations",
-        "useCase": "Rank people or sources for eval design, observability, review loops, and production agent quality.",
-        "version": "2026-07-10.1",
-        "viewSignalRole": "Low. Eval credibility comes from repeatable artifacts, production failure coverage, and trace evidence.",
-        "weights": {
-            "topic_fit": 15,
-            "domain_practice": 25,
-            "evaluation_artifacts": 25,
-            "production_scale": 15,
-            "source_depth": 15,
-            "public_attention": 5,
-        },
-    },
-    {
-        "slug": "agentic-search-credibility",
-        "title": "Agentic Search Credibility",
-        "topic": "agentic-search",
-        "useCase": "Rank people or sources for retrieval, search infrastructure, source triage, and research-agent discovery.",
-        "version": "2026-07-10.1",
-        "viewSignalRole": "Contextual. Views matter when the goal is public influence or consumer search behavior; primary retrieval expertise matters more for correctness.",
-        "weights": {
-            "topic_fit": 20,
-            "retrieval_expertise": 25,
-            "primary_research_or_product": 20,
-            "source_quality": 15,
-            "deployment_signal": 10,
-            "public_attention": 10,
-        },
-    },
-    {
-        "slug": "ai-sandboxes-credibility",
-        "title": "AI Sandboxes Credibility",
-        "topic": "ai-sandboxes",
-        "useCase": "Rank people or sources for agent runtime isolation, tool permissions, code execution, and sandbox safety.",
-        "version": "2026-07-10.1",
-        "viewSignalRole": "Very low. Isolation credibility should follow production security and runtime evidence, not popularity.",
-        "weights": {
-            "topic_fit": 20,
-            "security_infra_practice": 30,
-            "production_isolation": 25,
-            "evidence_source": 15,
-            "peer_recognition": 5,
-            "public_attention": 5,
-        },
-    },
-    {
-        "slug": "inference-engineering-credibility",
-        "title": "Inference Engineering Credibility",
-        "topic": "inference-engineering",
-        "useCase": "Rank people or sources for inference engines, routing, latency, GPU utilization, and model-serving operations.",
-        "version": "2026-07-10.1",
-        "viewSignalRole": "Low unless evaluating public education reach. Systems evidence, benchmarks, and operating scale dominate.",
-        "weights": {
-            "topic_fit": 20,
-            "systems_expertise": 30,
-            "production_scale": 20,
-            "benchmark_or_paper": 15,
-            "operational_signal": 10,
-            "public_attention": 5,
-        },
-    },
-]
-
-
-POLICY_EVALS = [
-    {
-        "policy": "coding-agents-credibility",
-        "name": "Kent C. Dodds",
-        "expectedMin": 82,
-        "why": "Known expert in production web/product engineering and developer education; useful high exemplar when judging practical coding-agent workflow advice.",
-        "signals": {
-            "topic_fit": 0.9,
-            "practitioner_depth": 0.95,
-            "shipped_artifacts": 0.9,
-            "official_or_primary_source": 0.8,
-            "peer_recognition": 0.9,
-            "production_scale": 0.75,
-            "public_attention": 0.85,
-        },
-    },
-    {
-        "policy": "coding-agents-credibility",
-        "name": "Jason Liu",
-        "expectedMin": 82,
-        "why": "Strong practical signal for AI engineering workflows, structured outputs, and hands-on Codex/coding-agent practice.",
-        "signals": {
-            "topic_fit": 0.95,
-            "practitioner_depth": 0.95,
-            "shipped_artifacts": 0.9,
-            "official_or_primary_source": 0.85,
-            "peer_recognition": 0.85,
-            "production_scale": 0.7,
-            "public_attention": 0.75,
-        },
-    },
-    {
-        "policy": "agent-evaluations-credibility",
-        "name": "Aparna Dhinakaran",
-        "expectedMin": 84,
-        "why": "High exemplar for AI observability and eval infrastructure because credibility comes from Arize/Phoenix-style production evaluation practice.",
-        "signals": {
-            "topic_fit": 0.95,
-            "domain_practice": 0.95,
-            "evaluation_artifacts": 0.95,
-            "production_scale": 0.9,
-            "source_depth": 0.85,
-            "public_attention": 0.75,
-        },
-    },
-    {
-        "policy": "agent-evaluations-credibility",
-        "name": "Laurie Voss",
-        "expectedMin": 82,
-        "why": "High exemplar for practical agent eval framing and shipping guidance in the AIE graph.",
-        "signals": {
-            "topic_fit": 0.95,
-            "domain_practice": 0.9,
-            "evaluation_artifacts": 0.85,
-            "production_scale": 0.8,
-            "source_depth": 0.9,
-            "public_attention": 0.75,
-        },
-    },
-    {
-        "policy": "agentic-search-credibility",
-        "name": "Jo Kristian Bergum",
-        "expectedMin": 82,
-        "why": "Known retrieval/search practitioner; a high exemplar when correctness depends on IR fundamentals rather than popularity.",
-        "signals": {
-            "topic_fit": 0.95,
-            "retrieval_expertise": 0.95,
-            "primary_research_or_product": 0.9,
-            "source_quality": 0.9,
-            "deployment_signal": 0.85,
-            "public_attention": 0.55,
-        },
-    },
-    {
-        "policy": "agentic-search-credibility",
-        "name": "Han Xiao",
-        "expectedMin": 82,
-        "why": "High exemplar for dense retrieval and search/retrieval systems in the local Worldsfair graph.",
-        "signals": {
-            "topic_fit": 0.95,
-            "retrieval_expertise": 0.95,
-            "primary_research_or_product": 0.9,
-            "source_quality": 0.85,
-            "deployment_signal": 0.8,
-            "public_attention": 0.7,
-        },
-    },
-    {
-        "policy": "ai-sandboxes-credibility",
-        "name": "Solomon Hykes",
-        "expectedMin": 82,
-        "why": "External calibration exemplar for container/runtime isolation: popularity should not be required for a high sandbox credibility score.",
-        "signals": {
-            "topic_fit": 0.85,
-            "security_infra_practice": 0.9,
-            "production_isolation": 0.95,
-            "evidence_source": 0.85,
-            "peer_recognition": 0.95,
-            "public_attention": 0.75,
-        },
-    },
-    {
-        "policy": "ai-sandboxes-credibility",
-        "name": "Samuel Colvin",
-        "expectedMin": 80,
-        "why": "High local exemplar for sandbox-not-desert framing and practical Python/runtime tooling credibility.",
-        "signals": {
-            "topic_fit": 0.95,
-            "security_infra_practice": 0.85,
-            "production_isolation": 0.85,
-            "evidence_source": 0.9,
-            "peer_recognition": 0.8,
-            "public_attention": 0.65,
-        },
-    },
-    {
-        "policy": "inference-engineering-credibility",
-        "name": "Charles Frye",
-        "expectedMin": 82,
-        "why": "High exemplar for explaining inference engines from first principles with strong technical depth.",
-        "signals": {
-            "topic_fit": 0.95,
-            "systems_expertise": 0.9,
-            "production_scale": 0.75,
-            "benchmark_or_paper": 0.85,
-            "operational_signal": 0.85,
-            "public_attention": 0.75,
-        },
-    },
-    {
-        "policy": "inference-engineering-credibility",
-        "name": "Ion Stoica",
-        "expectedMin": 84,
-        "why": "External calibration exemplar for distributed systems and AI infrastructure; should score high even when the specific question is not about fame.",
-        "signals": {
-            "topic_fit": 0.85,
-            "systems_expertise": 0.98,
-            "production_scale": 0.95,
-            "benchmark_or_paper": 0.95,
-            "operational_signal": 0.9,
-            "public_attention": 0.8,
-        },
     },
 ]
 
@@ -667,6 +400,122 @@ LIVESTREAM_ANCHORS = [
 ]
 
 
+CLAIM_PAGES = [
+    {
+        "slug": "agent-work-needs-runtime-boundaries",
+        "title": "Agent Work Needs Runtime Boundaries",
+        "claim": "World's Fair 2026 evidence supports the claim that useful agentic work needs explicit runtime boundaries around tools, credentials, filesystem access, network reach, and review paths.",
+        "confidence": "high",
+        "why": "The security and sandboxing threads repeatedly connect agent usefulness to containment, provenance, and least-privilege execution rather than only to model quality.",
+        "sources": [
+            ("agent-security", "Topic synthesis"),
+            ("ai-sandboxes", "Topic synthesis"),
+            ("sandboxed-agent-execution", "Harness synthesis"),
+            ("what-security-boundaries-should-agents-have", "Question layer"),
+            ("2026-06-29-steve-yegge-agentic-security-permissions-provenance-and-the-agent-supply-chain", "Official schedule"),
+            ("2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale", "Official schedule"),
+            ("2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert", "Official schedule"),
+        ],
+        "boundary": "This is a synthesis claim backed by linked local pages. It is not a direct quote from a single speaker, and implementation details should be checked against the cited source layer before reuse.",
+    },
+    {
+        "slug": "evals-are-operational-gates",
+        "title": "Evals Are Operational Gates",
+        "claim": "The conference corpus supports treating evals as operational gates for agent behavior, release decisions, and review routing, not only as after-the-fact benchmark reports.",
+        "confidence": "high",
+        "why": "Evaluation pages, coding-agent workflow pages, and quality-gate talks converge on the need to stop or route agent work when evidence is missing or checks fail.",
+        "sources": [
+            ("agent-evaluations", "Topic synthesis"),
+            ("agent-eval-gate", "Harness synthesis"),
+            ("coding-agent-code-review-loop", "Harness synthesis"),
+            ("how-should-coding-agents-be-evaluated-before-production-use", "Question layer"),
+            ("2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows", "Official schedule"),
+            ("2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101", "Official schedule"),
+            ("2026-06-30-philipp-schmid-don-t-ship-skills-without-evals", "Official schedule"),
+        ],
+        "boundary": "This claim summarizes a recurring evidence pattern. It should not be used as proof that every cited talk made the same recommendation in the same words.",
+    },
+    {
+        "slug": "provenance-is-part-of-context",
+        "title": "Provenance Is Part Of Context",
+        "claim": "For WF2026 synthesis pages, provenance is part of the useful context: agents and readers need to know which layer produced a fact before they can safely act on it.",
+        "confidence": "medium-high",
+        "why": "The wiki's source-boundary layer, context graph pages, and transcript/slide synthesis loop all treat source labels as necessary metadata rather than publishing polish.",
+        "sources": [
+            ("source-boundary", "Source rules"),
+            ("agent-source-index", "Navigation/source map"),
+            ("context-graph-ingest", "Harness synthesis"),
+            ("transcript-slide-synthesis-loop", "Harness synthesis"),
+            ("what-context-graph-and-memory-architecture-is-practical", "Question layer"),
+            ("2026-07-01-daniel-chalef-citation-needed-provenance-for-llm-built-knowledge-graphs", "Official schedule"),
+        ],
+        "boundary": "This is a wiki-system and conference-synthesis claim. Official schedule facts, transcript evidence, OCR evidence, and synthesis should remain labeled separately.",
+    },
+]
+
+
+PATTERN_PAGES = [
+    {
+        "slug": "evidence-gated-agent-workflow",
+        "title": "Evidence-Gated Agent Workflow",
+        "summary": "A pattern for letting agents act only when the workflow can name the source evidence, acceptance gate, and review path attached to the action.",
+        "when": "Use this when an agent can change code, call tools, retrieve external context, or produce a decision that another system may rely on.",
+        "steps": [
+            "Define the task boundary and the evidence required before the agent starts.",
+            "Attach eval or policy checks that can stop, route, or downgrade the result.",
+            "Keep source links, traces, diffs, screenshots, or transcript/slide references with the output.",
+            "Require human approval when the evidence bundle is incomplete or the action crosses a high-risk boundary.",
+        ],
+        "sources": [
+            ("agent-work-needs-runtime-boundaries", "Claim synthesis"),
+            ("evals-are-operational-gates", "Claim synthesis"),
+            ("agent-eval-gate", "Harness synthesis"),
+            ("coding-agent-code-review-loop", "Harness synthesis"),
+            ("agent-security", "Topic synthesis"),
+        ],
+    },
+    {
+        "slug": "source-labeled-synthesis",
+        "title": "Source-Labeled Synthesis",
+        "summary": "A pattern for high-level wiki pages that synthesize across official schedule, event video, transcripts, slides, OCR, public supporting context, and comparison fixtures without flattening them into one confidence layer.",
+        "when": "Use this when a topic, claim, pattern, briefing, or evaluation summarizes multiple source layers and could otherwise overstate weak evidence.",
+        "steps": [
+            "Anchor dates, speakers, titles, rooms, and affiliations in official schedule pages.",
+            "Use official WF2026 event media as first-class video evidence when present.",
+            "Label transcript, slide, OCR, and comparison-context material separately.",
+            "Promote only reviewed recurring evidence into claims, patterns, evaluations, or playbooks.",
+        ],
+        "sources": [
+            ("source-boundary", "Source rules"),
+            ("agent-source-index", "Navigation/source map"),
+            ("transcript-slide-synthesis-loop", "Harness synthesis"),
+            ("source-grounded-conference-briefing", "Playbook synthesis"),
+            ("aie-wiki-generation-delta", "Comparison context"),
+        ],
+    },
+    {
+        "slug": "sandboxed-delegation",
+        "title": "Sandboxed Delegation",
+        "summary": "A pattern for delegating agent work into constrained execution environments whose tools, permissions, lifetime, and evidence trail are set before the work begins.",
+        "when": "Use this for coding agents, browser agents, MCP tools, data agents, and any system where a model can affect files, services, credentials, or external state.",
+        "steps": [
+            "Choose the smallest execution boundary that can perform the task.",
+            "Pass only task-specific credentials, files, network routes, and tool permissions.",
+            "Capture commands, tool calls, artifacts, and verification outputs.",
+            "Expire the environment and credentials after the run unless the policy explicitly permits persistence.",
+        ],
+        "sources": [
+            ("agent-work-needs-runtime-boundaries", "Claim synthesis"),
+            ("sandboxed-agent-execution", "Harness synthesis"),
+            ("ai-sandboxes", "Topic synthesis"),
+            ("agent-security", "Topic synthesis"),
+            ("2026-06-30-robert-brennan-sandboxes-aren-t-optional-runtime-isolation-patterns-for-coding-agents-at-scale", "Official schedule"),
+            ("2026-06-30-samuel-colvin-your-agent-needs-a-sandbox-not-a-desert", "Official schedule"),
+        ],
+    },
+]
+
+
 def render_source_list(refs: list[tuple[str, str]]) -> list[str]:
     refs = existing_refs(refs)
     if not refs:
@@ -701,6 +550,69 @@ def render_harness(page: dict) -> str:
             "",
             "## Evidence Boundary",
             "This is a reusable workflow synthesized from the linked conference evidence. Treat it as a recommended implementation pattern, not as a direct quote from any single talk.",
+        ]
+    )
+
+
+def render_claim(page: dict) -> str:
+    return "\n".join(
+        [
+            frontmatter(
+                {
+                    "title": page["title"],
+                    "category": "claims",
+                    "status": "seeded",
+                    "confidence": page["confidence"],
+                    "sourceLabels": sorted({label for _, label in existing_refs(page["sources"])}),
+                }
+            ),
+            f"# {page['title']}",
+            "",
+            "## Claim",
+            page["claim"],
+            "",
+            "## Why It Is Supported",
+            page["why"],
+            "",
+            "## Source Evidence",
+            *render_source_list(page["sources"]),
+            "",
+            "## Confidence",
+            page["confidence"],
+            "",
+            "## Evidence Boundary",
+            page["boundary"],
+        ]
+    )
+
+
+def render_pattern(page: dict) -> str:
+    return "\n".join(
+        [
+            frontmatter(
+                {
+                    "title": page["title"],
+                    "category": "patterns",
+                    "status": "seeded",
+                    "sourceLabels": sorted({label for _, label in existing_refs(page["sources"])}),
+                }
+            ),
+            f"# {page['title']}",
+            "",
+            "## Pattern",
+            page["summary"],
+            "",
+            "## When To Use",
+            page["when"],
+            "",
+            "## Implementation Moves",
+            *[f"- {item}" for item in page["steps"]],
+            "",
+            "## Source Evidence",
+            *render_source_list(page["sources"]),
+            "",
+            "## Evidence Boundary",
+            "This is a reusable pattern synthesized from linked conference evidence. Treat it as an engineering abstraction, not as an official event claim or a direct quote.",
         ]
     )
 
@@ -794,96 +706,10 @@ def score_fixture(policy: dict, fixture: dict) -> float:
     return round(sum(weights[key] * float(signals.get(key, 0)) for key in weights), 2)
 
 
-def render_policy_page(policy: dict, fixtures: list[dict]) -> str:
-    lines = [
-        frontmatter(
-            {
-                "title": policy["title"],
-                "category": "policies",
-                "topic": policy["topic"],
-                "version": policy["version"],
-                "status": "active",
-                "sourceLabels": ["Credibility policy", "Evaluation-backed scoring"],
-            }
-        ),
-        f"# {policy['title']}",
-        "",
-        "## Use Case",
-        policy["useCase"],
-        "",
-        "## View Signal Role",
-        policy["viewSignalRole"],
-        "",
-        "## Scoring Weights",
-        "| Signal | Weight |",
-        "| --- | ---: |",
-    ]
-    for key, weight in policy["weights"].items():
-        lines.append(f"| `{key}` | {weight} |")
-    lines.extend(
-        [
-            "",
-            "## Evaluation Fixtures",
-            "| Name | Score | Expected Min | Result |",
-            "| --- | ---: | ---: | --- |",
-        ]
-    )
-    for fixture in fixtures:
-        score = score_fixture(policy, fixture)
-        result = "pass" if score >= fixture["expectedMin"] else "fail"
-        lines.append(f"| {fixture['name']} | {score:.2f} | {fixture['expectedMin']} | {result} |")
-    lines.extend(
-        [
-            "",
-            "## Policy Boundary",
-            "This policy scores credibility for one topic and use case. Do not reuse it for unrelated topics where public fame, domain credentials, implementation depth, or primary-source evidence should be weighted differently.",
-            "",
-            "## Change Rule",
-            "Change one policy file at a time, rerun `python3 scripts/generate_synthesis_layers.py`, and inspect [[credibility-policy-evals]] before applying new scores.",
-        ]
-    )
-    return "\n".join(lines)
-
-
-def render_policy_eval_report(results: list[dict]) -> str:
-    failures = [row for row in results if row["result"] != "pass"]
-    lines = [
-        frontmatter(
-            {
-                "title": "Credibility Policy Evals",
-                "category": "evaluations",
-                "status": "active",
-                "confidence": "high",
-                "sourceLabels": ["Credibility policy", "Evaluation-backed scoring"],
-            }
-        ),
-        "# Credibility Policy Evals",
-        "",
-        "This page checks whether topic-specific credibility policies score known strong exemplars high enough. If a fixture fails, adjust the policy weights or fixture assumptions instead of overriding the score by hand.",
-        "",
-        "## Result Summary",
-        f"- Fixtures: {len(results)}",
-        f"- Passing: {len(results) - len(failures)}",
-        f"- Failing: {len(failures)}",
-        "",
-        "## Fixture Results",
-        "| Policy | Name | Score | Expected Min | Result | Why This Fixture Exists |",
-        "| --- | --- | ---: | ---: | --- | --- |",
-    ]
-    for row in results:
-        lines.append(
-            f"| [[{row['policy']}]] | {row['name']} | {row['score']:.2f} | {row['expectedMin']} | {row['result']} | {row['why']} |"
-        )
-    lines.extend(
-        [
-            "",
-            "## Interpretation Notes",
-            "- Fame and view signals are policy-specific. They are useful for public influence topics and weak for safety, inference, and evaluation correctness.",
-            "- A person can score high for one topic and low for another without contradiction.",
-            "- Scores are provenance records for how the algorithm judged a candidate, not permanent judgments of a person.",
-        ]
-    )
-    return "\n".join(lines)
+def load_internal_scoring_profile() -> dict:
+    if not INTERNAL_SCORING_PROFILE.exists():
+        return {"policies": [], "evalFixtures": []}
+    return json.loads(INTERNAL_SCORING_PROFILE.read_text(encoding="utf-8"))
 
 
 def generate_harnesses() -> list[dict]:
@@ -900,6 +726,47 @@ def generate_harnesses() -> list[dict]:
     write(WIKI / "harnesses" / "index.md", index)
     write(WIKI / "harnesses" / "harnesses.md", index)
     write(WIKI / "harnesses" / "registry.json", json.dumps(records, indent=2, ensure_ascii=False))
+    return records
+
+
+def generate_claims() -> list[dict]:
+    records = []
+    for page in CLAIM_PAGES:
+        write(WIKI / "claims" / f"{page['slug']}.md", render_claim(page))
+        records.append(
+            {
+                "id": page["slug"],
+                "title": page["title"],
+                "path": f"wiki/claims/{page['slug']}.md",
+                "confidence": page["confidence"],
+            }
+        )
+    index = render_index(
+        "Claims",
+        "claims",
+        "Evidence-backed synthesis claims extracted from repeated World's Fair 2026 themes. Each claim keeps source layers and confidence visible.",
+        records,
+    )
+    write(WIKI / "claims" / "index.md", index)
+    write(WIKI / "claims" / "claims.md", index)
+    write(WIKI / "claims" / "registry.json", json.dumps(records, indent=2, ensure_ascii=False))
+    return records
+
+
+def generate_patterns() -> list[dict]:
+    records = []
+    for page in PATTERN_PAGES:
+        write(WIKI / "patterns" / f"{page['slug']}.md", render_pattern(page))
+        records.append({"id": page["slug"], "title": page["title"], "path": f"wiki/patterns/{page['slug']}.md"})
+    index = render_index(
+        "Patterns",
+        "patterns",
+        "Reusable AI engineering patterns synthesized from linked World's Fair 2026 evidence.",
+        records,
+    )
+    write(WIKI / "patterns" / "index.md", index)
+    write(WIKI / "patterns" / "patterns.md", index)
+    write(WIKI / "patterns" / "registry.json", json.dumps(records, indent=2, ensure_ascii=False))
     return records
 
 
@@ -935,7 +802,7 @@ def generate_evaluations() -> list[dict]:
     index = render_index(
         "Evaluations",
         "evaluations",
-        "Comparative decision artifacts for tools, workflows, infrastructure, and policies. Recommendations are tentative unless backed by a concrete trial.",
+        "Comparative decision artifacts for tools, workflows, and infrastructure. Recommendations are tentative unless backed by a concrete trial.",
         records,
     )
     write(WIKI / "evaluations" / "index.md", index)
@@ -944,11 +811,12 @@ def generate_evaluations() -> list[dict]:
     return records
 
 
-def generate_policies() -> tuple[list[dict], list[dict]]:
-    policies = {policy["slug"]: policy for policy in CREDIBILITY_POLICIES}
+def generate_internal_scoring_receipts() -> tuple[list[dict], list[dict]]:
+    profile = load_internal_scoring_profile()
+    policies = {policy["slug"]: policy for policy in profile.get("policies", [])}
     fixtures_by_policy: dict[str, list[dict]] = {slug: [] for slug in policies}
     results = []
-    for fixture in POLICY_EVALS:
+    for fixture in profile.get("evalFixtures", []):
         policy = policies[fixture["policy"]]
         score = score_fixture(policy, fixture)
         result = "pass" if score >= fixture["expectedMin"] else "fail"
@@ -964,38 +832,28 @@ def generate_policies() -> tuple[list[dict], list[dict]]:
         fixtures_by_policy[fixture["policy"]].append(fixture)
 
     records = []
-    for policy in CREDIBILITY_POLICIES:
+    for policy in profile.get("policies", []):
         policy_doc = {
             **policy,
             "weightsTotal": sum(policy["weights"].values()),
             "evalFixtures": fixtures_by_policy[policy["slug"]],
         }
-        write(POLICY_RAW / f"{policy['slug']}.json", json.dumps(policy_doc, indent=2, ensure_ascii=False))
-        write(WIKI / "policies" / f"{policy['slug']}.md", render_policy_page(policy, fixtures_by_policy[policy["slug"]]))
+        write(INTERNAL_SCORING_DIR / "policies" / f"{policy['slug']}.json", json.dumps(policy_doc, indent=2, ensure_ascii=False))
         records.append(
             {
                 "id": policy["slug"],
                 "title": policy["title"],
-                "path": f"wiki/policies/{policy['slug']}.md",
+                "path": f".ops/state/cache/operator-scoring/policies/{policy['slug']}.json",
                 "topic": policy["topic"],
                 "version": policy["version"],
             }
         )
-    write(RAW / "credibility-policy-evals.json", json.dumps(results, indent=2, ensure_ascii=False))
-    write(WIKI / "evaluations" / "credibility-policy-evals.md", render_policy_eval_report(results))
-    index = render_index(
-        "Policies",
-        "policies",
-        "Topic-specific credibility scoring policies. Each policy has its own weights and eval fixtures so scores remain auditable.",
-        records,
-    )
-    write(WIKI / "policies" / "index.md", index)
-    write(WIKI / "policies" / "policies.md", index)
-    write(WIKI / "policies" / "registry.json", json.dumps(records, indent=2, ensure_ascii=False))
+    write(INTERNAL_SCORING_DIR / "operator-eval-results.json", json.dumps(results, indent=2, ensure_ascii=False))
+    write(INTERNAL_SCORING_DIR / "registry.json", json.dumps(records, indent=2, ensure_ascii=False))
     failures = [row for row in results if row["result"] != "pass"]
     if failures:
         names = ", ".join(f"{row['policy']}:{row['name']}" for row in failures)
-        raise SystemExit(f"credibility policy eval failures: {names}")
+        raise SystemExit(f"internal operator-scoring eval failures: {names}")
     return records, results
 
 
@@ -1133,7 +991,7 @@ def generate_main_index() -> None:
         "# AI Engineer World's Fair 2026 Index",
         "",
         "## Start Here",
-        "This standalone wiki is organized as a conference intelligence vault: official schedule first, then public video evidence, transcripts, slide/OCR evidence, topic synthesis, questions, harnesses, playbooks, evaluations, and policies.",
+        "This standalone wiki is organized as a conference intelligence vault: official schedule first, then public video evidence, transcripts, slide/OCR evidence, topic synthesis, questions, claims, patterns, harnesses, playbooks, and evaluations.",
         "",
         "- Public landing page: [[overview]]",
         "- Evidence rules: [[source-boundary]]",
@@ -1153,10 +1011,11 @@ def generate_main_index() -> None:
         "- [Topics](/topics/) - content-derived themes and evidence tables",
         "- [Tools](/tools/) - high-confidence tool, model, platform, and protocol inventory",
         "- [Questions](/questions/) - open research and implementation questions",
+        "- [Claims](/claims/) - evidence-backed synthesis claims",
+        "- [Patterns](/patterns/) - reusable AI engineering patterns",
         "- [Harnesses](/harnesses/) - reusable workflows observed or implied by the evidence",
         "- [Playbooks](/playbooks/) - post-conference action workflows",
         "- [Evaluations](/evaluations/) - comparative decision artifacts and scorecards",
-        "- [Policies](/policies/) - topic-specific credibility scoring policies",
         "",
         "## Major Themes",
         "- [[coding-agents]]",
@@ -1182,9 +1041,9 @@ def generate_main_index() -> None:
         "- [[room-attendance-calibration]]",
         "- [[video-attendance-visibility]]",
         "",
-        "## Policy And Evaluation Entry Points",
-        "- [[credibility-policy-evals]]",
-        "- [[credibility-policy-review-loop]]",
+        "## Claim And Evaluation Entry Points",
+        "- [[agent-work-needs-runtime-boundaries]]",
+        "- [[evidence-gated-agent-workflow]]",
         "- [[agent-eval-gate]]",
         "- [[coding-agent-platforms]]",
         "- [[eval-observability-tools]]",
@@ -1204,13 +1063,12 @@ def update_agent_source_index() -> None:
     text = path.read_text(encoding="utf-8")
     body = "\n".join(
         [
-            "- `python3 scripts/generate_synthesis_layers.py` - generate harnesses, playbooks, evaluations, topic evidence tables, topic-specific credibility policies, and policy eval reports.",
-            "- Credibility policy JSON files live under `raw/sources/credibility-policies/` and should be reviewed one policy at a time.",
-            "- Policy eval results live at `raw/sources/credibility-policy-evals.json` and [[credibility-policy-evals]].",
-            "- Do not reuse a credibility policy across unrelated topics without changing weights and adding eval fixtures.",
+            "- `python3 scripts/generate_synthesis_layers.py` - generate claims, patterns, harnesses, playbooks, evaluations, topic evidence tables, and livestream thematic anchors.",
+            "- The same generator also seeds evidence-backed claims and reusable patterns when the local evidence graph supports them.",
+            "- Internal operator-scoring artifacts, if present, are saved only under `.ops/state/cache/operator-scoring/` and must not be published to wiki pages, raw public sources, or the agent index.",
         ]
     )
-    write(path, upsert_section(text, "Synthesis And Credibility Policy Layer", body))
+    write(path, upsert_section(text, "Synthesis Layer", body))
 
 
 def write_receipt(counts: dict) -> str:
@@ -1228,35 +1086,39 @@ def write_receipt(counts: dict) -> str:
         "# Synthesis Layers Run",
         "",
         "Generated the remaining Worldsfair AIE synthesis layers:",
+        f"- Claim pages: {counts['claims']}",
+        f"- Pattern pages: {counts['patterns']}",
         f"- Harness pages: {counts['harnesses']}",
         f"- Playbook pages: {counts['playbooks']}",
         f"- Evaluation pages: {counts['evaluations']}",
-        f"- Credibility policies: {counts['policies']}",
-        f"- Credibility policy eval fixtures: {counts['policy_evals']}",
         f"- Topic evidence tables updated: {counts['topic_tables']}",
         f"- Livestream thematic anchor pages: {counts['livestream_anchor_pages']}",
+        f"- Internal operator-scoring profiles checked: {counts['internal_scoring_profiles']}",
+        f"- Internal operator-scoring eval fixtures checked: {counts['internal_scoring_evals']}",
         "",
         "Key outputs:",
         "- `wiki/harnesses/`",
+        "- `wiki/claims/`",
+        "- `wiki/patterns/`",
         "- `wiki/playbooks/`",
         "- `wiki/evaluations/`",
-        "- `wiki/policies/`",
-        "- `raw/sources/credibility-policies/`",
-        "- `raw/sources/credibility-policy-evals.json`",
         "- `raw/sources/topic-evidence-table-summary.json`",
         "- `wiki/resources/livestream-thematic-anchors.md`",
+        "- `.ops/state/cache/operator-scoring/` (internal only; ignored)",
         "",
-        "Boundary: this run created policy/evaluation artifacts locally only. It did not push to GitHub.",
+        "Boundary: operator-scoring artifacts are internal-only and are not emitted to public wiki pages, raw public sources, the static site, or the agent index.",
     ]
     write(ROOT / rel, "\n".join(lines))
     return rel
 
 
 def main() -> int:
+    claims = generate_claims()
+    patterns = generate_patterns()
     harnesses = generate_harnesses()
     evaluations = generate_evaluations()
     playbooks = generate_playbooks()
-    policy_records, policy_results = generate_policies()
+    scoring_records, scoring_results = generate_internal_scoring_receipts()
     topic_summary = update_topic_evidence_tables()
     generate_livestream_thematic_anchors()
     generate_main_index()
@@ -1264,10 +1126,12 @@ def main() -> int:
     receipt = write_receipt(
         {
             "harnesses": len(harnesses),
+            "claims": len(claims),
+            "patterns": len(patterns),
             "playbooks": len(playbooks),
             "evaluations": len(evaluations),
-            "policies": len(policy_records),
-            "policy_evals": len(policy_results),
+            "internal_scoring_profiles": len(scoring_records),
+            "internal_scoring_evals": len(scoring_results),
             "topic_tables": len(topic_summary),
             "livestream_anchor_pages": 1,
         }
@@ -1276,10 +1140,12 @@ def main() -> int:
         json.dumps(
             {
                 "harness_pages": len(harnesses),
+                "claim_pages": len(claims),
+                "pattern_pages": len(patterns),
                 "playbook_pages": len(playbooks),
                 "evaluation_pages": len(evaluations),
-                "policies": len(policy_records),
-                "policy_eval_fixtures": len(policy_results),
+                "internal_scoring_profiles": len(scoring_records),
+                "internal_scoring_eval_fixtures": len(scoring_results),
                 "topic_tables": len(topic_summary),
                 "livestream_anchor_pages": 1,
                 "receipt": receipt,

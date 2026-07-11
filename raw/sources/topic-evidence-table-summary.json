@@ -16,9 +16,9 @@
     "transcripts": 2
   },
   "software-factories": {
+    "resources": 8,
     "talks": 14,
     "other": 29,
-    "resources": 7,
     "slides": 9,
     "transcripts": 1
   },
@@ -26,8 +26,8 @@
     "talks": 24,
     "other": 50,
     "tools": 5,
-    "resources": 22,
     "slides": 16,
+    "resources": 22,
     "transcripts": 1
   },
   "agent-memory": {
@@ -39,16 +39,16 @@
     "transcripts": 1
   },
   "agent-security": {
+    "resources": 18,
     "talks": 24,
     "other": 39,
     "tools": 4,
-    "resources": 17,
     "slides": 16
   },
   "ai-sandboxes": {
+    "resources": 25,
     "talks": 26,
     "other": 44,
-    "resources": 24,
     "tools": 5,
     "slides": 16
   },

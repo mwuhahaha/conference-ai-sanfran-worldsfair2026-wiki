@@ -27,13 +27,11 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Tools index: https://aie-worldsfair2026.plusrobot.ai/tools/
 - Highlights index: https://aie-worldsfair2026.plusrobot.ai/highlights/
 - Claims index: https://aie-worldsfair2026.plusrobot.ai/claims/
-- Conversations index: https://aie-worldsfair2026.plusrobot.ai/conversations/
 - Patterns index: https://aie-worldsfair2026.plusrobot.ai/patterns/
 - Questions index: https://aie-worldsfair2026.plusrobot.ai/questions/
 - Harnesses index: https://aie-worldsfair2026.plusrobot.ai/harnesses/
 - Playbooks index: https://aie-worldsfair2026.plusrobot.ai/playbooks/
 - Evaluations index: https://aie-worldsfair2026.plusrobot.ai/evaluations/
-- Policies index: https://aie-worldsfair2026.plusrobot.ai/policies/
 - Source boundary and evidence confidence: https://aie-worldsfair2026.plusrobot.ai/resources/source-boundary/
 
 ## URL Rules
@@ -59,17 +57,15 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Topics: 16 synthesis pages across repeated conference themes.
 - Resources: 226 pages for source maps, YouTube evidence, livestreams, and processing audits.
 - Slides: 418 slide pages; standard decks: 200; reconstructed decks: 107; dense decks: 94.
-- Transcripts: 104 transcript markdown pages.
+- Transcripts: 103 transcript markdown pages.
 - Quotes: 15 selected quote pages tied back to source videos and topics.
-- Tools: 62 tool/protocol/entity pages generated from the conference evidence layer.
-- Claims: 1 evidence-backed claim pages.
-- Conversations: 1 cross-page conversation maps.
-- Patterns: 1 reusable AI engineering pattern pages.
-- Questions: 8 question pages raised by the conference corpus.
-- Harnesses: 7 evaluation or implementation harness pages.
-- Playbooks: 5 reusable playbook pages.
-- Evaluations: 8 evaluation design pages.
-- Policies: 7 credibility or evidence-policy pages.
+- Tools: 60 tool/protocol/entity pages generated from the conference evidence layer.
+- Claims: 3 evidence-backed claim pages.
+- Patterns: 3 reusable AI engineering pattern pages.
+- Questions: 6 question pages raised by the conference corpus.
+- Harnesses: 5 evaluation or implementation harness pages.
+- Playbooks: 2 reusable playbook pages.
+- Evaluations: 5 evaluation design pages.
 - Events: 5 day/event overview pages.
 
 ## Page Shapes
@@ -78,7 +74,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Company pages explain what the organization does, why it matters in the conference graph, which people and sessions connect to it, and which public company/profile sources support the article.
 - Topic pages synthesize what the topic is, why it matters, how and when to use it, origin/use-case context, related scheduled sessions, people, companies, tools, quotes, slides, transcripts, and resources.
 - Resource, transcript, and slide pages are evidence layers. They should be cited or inspected before turning media-derived material into a confident claim.
-- Claims, patterns, questions, harnesses, playbooks, evaluations, and policies are synthesis layers. Treat them as navigational and analytic pages that point back to talks, transcripts, slides, and resources.
+- Claims, patterns, questions, harnesses, playbooks, and evaluations are synthesis layers. Treat them as navigational and analytic pages that point back to talks, transcripts, slides, and resources.
 
 ## Navigation Strategy
 - If you know a talk title or speaker, start with `/search/`, `/talks/`, or `/people/`.
@@ -90,7 +86,7 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - If you need media evidence, use the talk/video/transcript map and the YouTube resource pages before relying on a transcript or slide page.
 - If you need exact wording, fetch the transcript page under `/md/transcripts/...` and then cross-check the linked YouTube resource page.
 - If you need slide evidence, prefer reconstructed slide pages for readable cropped slides, then use dense or full-stage slide pages as supporting views.
-- If you need reusable concepts, use topics, tools, claims, patterns, questions, harnesses, playbooks, evaluations, and policies; they synthesize across multiple talks and resources.
+- If you need reusable concepts, use topics, tools, claims, patterns, questions, harnesses, playbooks, and evaluations; they synthesize across multiple talks and resources.
 - If a page is marked highlighted, use `/highlights/` as a curated index into especially important concepts, people, talks, and source pages.
 - If you need a concise evidence-backed excerpt, use quote pages and then follow their source video, related topic, and scheduled talk links.
 
@@ -119,7 +115,6 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 - Harnesses index: https://aie-worldsfair2026.plusrobot.ai/harnesses/
 - Playbooks index: https://aie-worldsfair2026.plusrobot.ai/playbooks/
 - Evaluations index: https://aie-worldsfair2026.plusrobot.ai/evaluations/
-- Policies index: https://aie-worldsfair2026.plusrobot.ai/policies/
 - Highlights index: https://aie-worldsfair2026.plusrobot.ai/highlights/
 
 ## Evidence Confidence

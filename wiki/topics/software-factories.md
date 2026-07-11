@@ -11,8 +11,25 @@ Software factories are coordinated systems for turning ideas, issues, designs, t
 ## Conference Context
 The idea comes from assembly-line metaphors in software engineering, CI/CD, DevOps, internal developer platforms, and automated code generation. AI agents make the factory metaphor more literal because parts of the SDLC can be delegated to tool-using systems.
 
+## How This Theme Evolved
+- **World's Fair 2024 (local comparison fixture):** Coding agents sat inside a broader code-generation and AI-engineering discipline.
+- **Miami 2026 (public comparison wiki):** The focus narrowed to developer workflow, agent-ready interfaces, runtimes, IDEs, context, and quality gates.
+- **World's Fair 2025 (local comparison fixture):** The comparison corpus emphasized shipping, evaluating, securing, and reviewing production coding agents.
+- **World's Fair 2026 (current event synthesis backed by linked local evidence):** The linked conference graph frames coding agents as software-factory components governed by eval gates, context systems, and execution boundaries.
+
+**Confidence:** medium-high.
+**Boundary:** Earlier event wikis are comparison context only. They are not primary evidence for World's Fair 2026 claims, and no local fixture is represented as a public live site.
+**Comparison source:** [[aie-wiki-generation-delta]].
+
 ## Significance
 A single coding assistant is useful, but organizations need repeatability, governance, and quality gates. Software factories focus on the whole production system: intake, context, implementation, validation, review, deployment, and learning.
+
+## Why This Matters Now
+The unit of engineering is shifting from an isolated assistant interaction to a repeatable production system that delegates, verifies, and records software work.
+
+**WF26 evidence gate:** this section was emitted only because the page links to configured local evidence. Relevant configured evidence: [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]], [[2026-06-29-uday-kiran-medisetty-agentic-sdlc-at-uber-building-blocks-for-uber-s-software-factory]], [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]].
+
+**Confidence:** medium-high. Comparison history is context; linked WF26 pages remain the evidence for current-event claims.
 
 ## Applied Use
 Model the workflow as stages with inputs, outputs, owners, and acceptance checks. Give agents scoped roles, shared artifacts, test gates, traceability, and rollback paths. Measure cycle time, defect rate, review burden, and production outcomes.
@@ -32,6 +49,11 @@ Model the workflow as stages with inputs, outputs, owners, and acceptance checks
 They fit engineering organizations, platform teams, internal tools groups, migration projects, and product teams with repeatable implementation patterns.
 
 Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
+
+## Practical Lesson
+Evaluate the complete agent loop: task definition, context assembly, tool permissions, sandbox execution, verification, review, and provenance. Model capability alone is not the system boundary.
+
+**Confidence:** medium-high. Treat this as synthesis derived from the linked evidence graph, not as an official schedule claim.
 
 ## Connections
 - [[2026-07-01-session-the-software-factory]] — The Software Factory; speaker TBD (Day 4 — Session Day 3 · 2:50pm-3:10pm · Expo Stage 4 SE; official schedule)
@@ -161,6 +183,43 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Slides
 - [[youtube-HT4l0DeP69I-reconstructed-slides]]
+
+### Transcripts
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
+
+### Slides
+
+### Transcripts
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| resources | 8 | Video/resource pages; check source status before treating as primary event evidence. |
+
+### Talks
+- [[2026-06-29-nnenna-ndukwe-how-to-build-quality-gates-into-agentic-coding-workflows]]
+- [[2026-06-30-suraj-gupta-warp-building-self-improving-agent-software-factories]]
+
+### Resources
+- [[aie-wiki-generation-delta]]
+
+### Slides
+
+### Transcripts
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
+
+### Slides
 
 ### Transcripts
 

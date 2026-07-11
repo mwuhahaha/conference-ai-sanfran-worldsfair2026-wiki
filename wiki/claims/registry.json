@@ -1,0 +1,20 @@
+[
+  {
+    "id": "agent-work-needs-runtime-boundaries",
+    "title": "Agent Work Needs Runtime Boundaries",
+    "path": "wiki/claims/agent-work-needs-runtime-boundaries.md",
+    "confidence": "high"
+  },
+  {
+    "id": "evals-are-operational-gates",
+    "title": "Evals Are Operational Gates",
+    "path": "wiki/claims/evals-are-operational-gates.md",
+    "confidence": "high"
+  },
+  {
+    "id": "provenance-is-part-of-context",
+    "title": "Provenance Is Part Of Context",
+    "path": "wiki/claims/provenance-is-part-of-context.md",
+    "confidence": "medium-high"
+  }
+]

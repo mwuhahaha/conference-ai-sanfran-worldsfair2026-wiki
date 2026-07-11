@@ -23,10 +23,12 @@ def count_glob(pattern: str) -> int:
 
 
 def count_pages(category: str) -> int:
-    return len(list((WIKI / category).glob("*.md")))
+    return len([path for path in (WIKI / category).glob("*.md") if path.name not in {"index.md", f"{category}.md"}])
 
 
-def category_index_line(category: str, label: str | None = None) -> str:
+def category_index_line(category: str, label: str | None = None) -> str | None:
+    if count_pages(category) == 0:
+        return None
     label = label or category.replace("-", " ").title()
     return f"- {label} index: https://aie-worldsfair2026.plusrobot.ai/{category}/"
 
@@ -66,6 +68,33 @@ def main() -> int:
     external_video_discovery = load_json(RAW / "external-video-discovery-latest.json", {})
     livestreams = load_json(RAW / "aidotengineer-channel-streams-latest.json", [])
     videos = load_json(RAW / "aidotengineer-channel-videos-latest.json", [])
+    start_here = [
+        "- Home overview: https://aie-worldsfair2026.plusrobot.ai/",
+        "- Full index: https://aie-worldsfair2026.plusrobot.ai/index/",
+        "- Knowledge graph: https://aie-worldsfair2026.plusrobot.ai/graph/",
+        "- Search page: https://aie-worldsfair2026.plusrobot.ai/search/",
+        "- Topics index: https://aie-worldsfair2026.plusrobot.ai/topics/",
+        "- Talks index: https://aie-worldsfair2026.plusrobot.ai/talks/",
+        "- People index: https://aie-worldsfair2026.plusrobot.ai/people/",
+        "- Companies index: https://aie-worldsfair2026.plusrobot.ai/companies/",
+        "- Slides index: https://aie-worldsfair2026.plusrobot.ai/slides/",
+        "- Transcripts index: https://aie-worldsfair2026.plusrobot.ai/transcripts/",
+        "- Quotes index: https://aie-worldsfair2026.plusrobot.ai/quotes/",
+        "- Tools index: https://aie-worldsfair2026.plusrobot.ai/tools/",
+        "- Highlights index: https://aie-worldsfair2026.plusrobot.ai/highlights/",
+        category_index_line("claims", "Claims"),
+        category_index_line("patterns", "Patterns"),
+        category_index_line("questions", "Questions"),
+        category_index_line("harnesses", "Harnesses"),
+        category_index_line("playbooks", "Playbooks"),
+        category_index_line("evaluations", "Evaluations"),
+        "- Source boundary and evidence confidence: https://aie-worldsfair2026.plusrobot.ai/resources/source-boundary/",
+    ]
+    optional_corpus_lines = [
+        (count_pages("claims"), "Claims", "evidence-backed claim pages"),
+        (count_pages("conversations"), "Conversations", "cross-page conversation maps"),
+        (count_pages("patterns"), "Patterns", "reusable AI engineering pattern pages"),
+    ]
 
     lines = [
         "---",
@@ -83,28 +112,7 @@ def main() -> int:
         "Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-source-index/",
         "",
         "## Start Here",
-        "- Home overview: https://aie-worldsfair2026.plusrobot.ai/",
-        "- Full index: https://aie-worldsfair2026.plusrobot.ai/index/",
-        "- Knowledge graph: https://aie-worldsfair2026.plusrobot.ai/graph/",
-        "- Search page: https://aie-worldsfair2026.plusrobot.ai/search/",
-        "- Topics index: https://aie-worldsfair2026.plusrobot.ai/topics/",
-        "- Talks index: https://aie-worldsfair2026.plusrobot.ai/talks/",
-        "- People index: https://aie-worldsfair2026.plusrobot.ai/people/",
-        "- Companies index: https://aie-worldsfair2026.plusrobot.ai/companies/",
-        "- Slides index: https://aie-worldsfair2026.plusrobot.ai/slides/",
-        "- Transcripts index: https://aie-worldsfair2026.plusrobot.ai/transcripts/",
-        "- Quotes index: https://aie-worldsfair2026.plusrobot.ai/quotes/",
-        "- Tools index: https://aie-worldsfair2026.plusrobot.ai/tools/",
-        "- Highlights index: https://aie-worldsfair2026.plusrobot.ai/highlights/",
-        category_index_line("claims", "Claims"),
-        category_index_line("conversations", "Conversations"),
-        category_index_line("patterns", "Patterns"),
-        category_index_line("questions", "Questions"),
-        category_index_line("harnesses", "Harnesses"),
-        category_index_line("playbooks", "Playbooks"),
-        category_index_line("evaluations", "Evaluations"),
-        category_index_line("policies", "Policies"),
-        "- Source boundary and evidence confidence: https://aie-worldsfair2026.plusrobot.ai/resources/source-boundary/",
+        *[line for line in start_here if line],
         "",
         "## URL Rules",
         "- Every rendered page uses a stable lowercase slug URL ending in `/`.",
@@ -132,14 +140,11 @@ def main() -> int:
         f"- Transcripts: {count_pages('transcripts')} transcript markdown pages.",
         f"- Quotes: {count_pages('quotes')} selected quote pages tied back to source videos and topics.",
         f"- Tools: {count_pages('tools')} tool/protocol/entity pages generated from the conference evidence layer.",
-        f"- Claims: {count_pages('claims')} evidence-backed claim pages.",
-        f"- Conversations: {count_pages('conversations')} cross-page conversation maps.",
-        f"- Patterns: {count_pages('patterns')} reusable AI engineering pattern pages.",
+        *[f"- {label}: {count} {description}." for count, label, description in optional_corpus_lines if count],
         f"- Questions: {count_pages('questions')} question pages raised by the conference corpus.",
         f"- Harnesses: {count_pages('harnesses')} evaluation or implementation harness pages.",
         f"- Playbooks: {count_pages('playbooks')} reusable playbook pages.",
         f"- Evaluations: {count_pages('evaluations')} evaluation design pages.",
-        f"- Policies: {count_pages('policies')} credibility or evidence-policy pages.",
         f"- Events: {count_pages('events')} day/event overview pages.",
         "",
         "## Page Shapes",
@@ -148,7 +153,7 @@ def main() -> int:
         "- Company pages explain what the organization does, why it matters in the conference graph, which people and sessions connect to it, and which public company/profile sources support the article.",
         "- Topic pages synthesize what the topic is, why it matters, how and when to use it, origin/use-case context, related scheduled sessions, people, companies, tools, quotes, slides, transcripts, and resources.",
         "- Resource, transcript, and slide pages are evidence layers. They should be cited or inspected before turning media-derived material into a confident claim.",
-        "- Claims, patterns, questions, harnesses, playbooks, evaluations, and policies are synthesis layers. Treat them as navigational and analytic pages that point back to talks, transcripts, slides, and resources.",
+        "- Claims, patterns, questions, harnesses, playbooks, and evaluations are synthesis layers. Treat them as navigational and analytic pages that point back to talks, transcripts, slides, and resources.",
         "",
         "## Navigation Strategy",
         "- If you know a talk title or speaker, start with `/search/`, `/talks/`, or `/people/`.",
@@ -160,7 +165,7 @@ def main() -> int:
         "- If you need media evidence, use the talk/video/transcript map and the YouTube resource pages before relying on a transcript or slide page.",
         "- If you need exact wording, fetch the transcript page under `/md/transcripts/...` and then cross-check the linked YouTube resource page.",
         "- If you need slide evidence, prefer reconstructed slide pages for readable cropped slides, then use dense or full-stage slide pages as supporting views.",
-        "- If you need reusable concepts, use topics, tools, claims, patterns, questions, harnesses, playbooks, evaluations, and policies; they synthesize across multiple talks and resources.",
+        "- If you need reusable concepts, use topics, tools, claims, patterns, questions, harnesses, playbooks, and evaluations; they synthesize across multiple talks and resources.",
         "- If a page is marked highlighted, use `/highlights/` as a curated index into especially important concepts, people, talks, and source pages.",
         "- If you need a concise evidence-backed excerpt, use quote pages and then follow their source video, related topic, and scheduled talk links.",
         "",
@@ -189,7 +194,6 @@ def main() -> int:
         "- Harnesses index: https://aie-worldsfair2026.plusrobot.ai/harnesses/",
         "- Playbooks index: https://aie-worldsfair2026.plusrobot.ai/playbooks/",
         "- Evaluations index: https://aie-worldsfair2026.plusrobot.ai/evaluations/",
-        "- Policies index: https://aie-worldsfair2026.plusrobot.ai/policies/",
         "- Highlights index: https://aie-worldsfair2026.plusrobot.ai/highlights/",
         "",
         "## Evidence Confidence",

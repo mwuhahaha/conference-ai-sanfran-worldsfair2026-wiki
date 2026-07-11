@@ -33,7 +33,6 @@ PREFERRED_CATEGORIES = [
     "harnesses",
     "playbooks",
     "evaluations",
-    "policies",
     "resources",
     "transcripts",
     "events",
@@ -118,6 +117,18 @@ def page_markdown_output_path(page: Page) -> Path:
     return DIST / "md" / f"{page.id}.md"
 
 
+def is_category_index(page: Page) -> bool:
+    return page.category != "root" and page.source.name in {"index.md", f"{page.category}.md"}
+
+
+def is_public_category_content(page: Page) -> bool:
+    return page.category != "root" and not is_category_index(page)
+
+
+def public_categories(pages: list[Page]) -> list[str]:
+    return sorted({page.category for page in pages if is_public_category_content(page)}, key=category_sort_key)
+
+
 def build_link_maps(pages: list[Page]) -> tuple[dict[str, Page], dict[str, Page]]:
     by_id = {page.id: page for page in pages}
     by_stem: dict[str, Page] = {}
@@ -161,20 +172,22 @@ def resolve_wikilink_page(target: str, by_id: dict[str, Page], by_stem: dict[str
 
 
 def extract_graph(pages: list[Page], by_id: dict[str, Page], by_stem: dict[str, Page]) -> dict[str, list[dict]]:
-    outgoing: dict[str, set[str]] = {page.id: set() for page in pages}
-    backlinks: dict[str, set[str]] = {page.id: set() for page in pages}
+    graph_pages = [page for page in pages if not is_category_index(page)]
+    graph_page_ids = {page.id for page in graph_pages}
+    outgoing: dict[str, set[str]] = {page.id: set() for page in graph_pages}
+    backlinks: dict[str, set[str]] = {page.id: set() for page in graph_pages}
 
-    for page in pages:
+    for page in graph_pages:
         for raw_target in re.findall(r"(?<!!)\[\[([^\]]+)\]\]", page.body):
             target = raw_target.split("|", 1)[0]
             linked = resolve_wikilink_page(target, by_id, by_stem)
-            if not linked or linked.id == page.id:
+            if not linked or linked.id == page.id or linked.id not in graph_page_ids:
                 continue
             outgoing[page.id].add(linked.id)
             backlinks[linked.id].add(page.id)
 
     nodes = []
-    for page in pages:
+    for page in graph_pages:
         nodes.append(
             {
                 "id": page.id,
@@ -330,15 +343,13 @@ def category_sort_key(category: str) -> tuple[int, str]:
 
 
 def render_layout(title: str, body: str, pages: list[Page], current: str = "") -> str:
-    categories = sorted({page.category for page in pages if page.category != "root"}, key=category_sort_key)
     nav_items = []
-    for category in categories:
+    for category in public_categories(pages):
         active = ' class="active"' if current == category else ""
         nav_items.append(f'<a href="/{category}/"{active}>{html.escape(titleize(category))}</a>')
     nav = "\n".join(nav_items)
     home_active = ' class="active"' if current == "overview" else ""
     index_active = ' class="active"' if current == "index" else ""
-    quotes_active = ' class="active"' if current == "quotes" else ""
     graph_active = ' class="active"' if current == "graph" else ""
     return f"""<!doctype html>
 <html lang="en">
@@ -357,7 +368,6 @@ def render_layout(title: str, body: str, pages: list[Page], current: str = "") -
       <a href="/"{home_active}>Home</a>
       <a href="/index/"{index_active}>Index</a>
       <a href="/graph/"{graph_active}>Graph</a>
-      <a href="/quotes/"{quotes_active}>Quotes</a>
       {nav}
     </nav>
     <form class="search" action="/search/" method="get">
@@ -384,7 +394,10 @@ def render_page(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
 
 
 def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: dict[str, Page]) -> str:
-    category_counts = {category: len([item for item in pages if item.category == category]) for category in {item.category for item in pages}}
+    category_counts = {
+        category: len([item for item in pages if item.category == category and not is_category_index(item)])
+        for category in {item.category for item in pages}
+    }
     graph = extract_graph(pages, by_id, by_stem)
     sessions = load_json(RAW / "official-sessions.json", {})
     speakers = load_json(RAW / "official-speakers.json", {})
@@ -432,7 +445,7 @@ def render_home(page: Page, pages: list[Page], by_id: dict[str, Page], by_stem: 
         ("Matched recordings", f"{entry_count(related_videos)} talk/video rows and {entry_count(livestream_segments)} livestream timestamp matches", "Speaker/title matching connects schedule pages to public recordings and transcript coverage.", "/resources/talk-video-transcript-map/"),
         ("Supporting discovery", f"{entry_count(external_discovery)} external video candidates", "External uploads remain secondary sources unless a page says otherwise.", "/resources/external-video-discovery/"),
         ("Cached transcripts", f"{count_files(RAW / 'youtube-transcripts', '*.txt')} cut-video, {count_files(RAW / 'youtube-livestream-transcripts', '*.txt')} livestream, {count_files(RAW / 'external-youtube-transcripts', '*.txt')} external", "Transcript pages are supporting evidence; important wording should be checked against the linked video/resource page.", "/transcripts/"),
-        ("Synthesis layers", f"{category_counts.get('topics', 0)} topics, {category_counts.get('tools', 0)} tools, {category_counts.get('questions', 0)} questions", "Topic, tool, claim, harness, playbook, evaluation, and policy pages summarize patterns across evidence.", "/topics/"),
+        ("Synthesis layers", f"{category_counts.get('topics', 0)} topics, {category_counts.get('tools', 0)} tools, {category_counts.get('questions', 0)} questions", "Topic, tool, claim, pattern, harness, playbook, and evaluation pages summarize patterns across evidence.", "/topics/"),
     ]
     source_html = "\n".join(
         f"""<a class="home-row home-source-row" href="{url}">
@@ -541,6 +554,7 @@ def render_search(pages: list[Page]) -> str:
     index = [
         {"title": page.title, "url": page.url, "category": page.category, "excerpt": page.excerpt}
         for page in pages
+        if not is_category_index(page)
     ]
     body = f"""<section class="landing">
   <p class="eyebrow">Search</p>
@@ -571,6 +585,11 @@ def render_graph(pages: list[Page]) -> str:
   <div class="graph-controls" aria-label="Graph filters">
     <label>Category<select id="graph-category"><option value="">All categories</option></select></label>
     <label>Search<input id="graph-search" type="search" placeholder="Find a page by title or text"></label>
+    <div class="graph-zoom-controls" aria-label="Graph zoom controls">
+      <button type="button" id="graph-zoom-in" title="Zoom in">+</button>
+      <button type="button" id="graph-zoom-out" title="Zoom out">-</button>
+      <button type="button" id="graph-zoom-reset" title="Reset view">Reset</button>
+    </div>
   </div>
   <p id="graph-status" class="graph-status" aria-live="polite">Loading graph…</p>
   <div id="graph-legend" class="graph-legend" aria-label="Graph legend"></div>
@@ -600,9 +619,15 @@ const status = document.querySelector("#graph-status");
 const legend = document.querySelector("#graph-legend");
 const canvas = document.querySelector("#graph-canvas");
 const detail = document.querySelector("#graph-detail");
+const zoomIn = document.querySelector("#graph-zoom-in");
+const zoomOut = document.querySelector("#graph-zoom-out");
+const zoomReset = document.querySelector("#graph-zoom-reset");
 let graph = { nodes: [], links: [] };
 let colors = new Map();
 let selectedNodeId = "";
+let viewport = null;
+let transform = { x: 0, y: 0, scale: 1 };
+let drag = null;
 
 function el(name, attrs = {}) {
   const node = document.createElementNS(SVG_NS, name);
@@ -613,32 +638,15 @@ function el(name, attrs = {}) {
 function graphSubset() {
   const category = categorySelect.value;
   const query = searchInput.value.trim().toLowerCase();
-  const filtered = graph.nodes.filter((node) => {
+  const nodes = graph.nodes.filter((node) => {
     if (node.category === "root") return false;
     if (category && node.category !== category) return false;
     if (!query) return true;
     return `${node.title} ${node.category} ${node.excerpt}`.toLowerCase().includes(query);
-  });
-  let primary;
-  if (!category && !query) {
-    const grouped = new Map();
-    filtered.forEach((node) => {
-      if (!grouped.has(node.category)) grouped.set(node.category, []);
-      grouped.get(node.category).push(node);
-    });
-    primary = [...grouped.keys()].sort().flatMap((groupCategory) =>
-      grouped.get(groupCategory)
-        .sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title))
-        .slice(0, 32)
-    );
-  } else {
-    const ranked = [...filtered].sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title));
-    const limit = query ? 100 : 160;
-    primary = ranked.slice(0, limit);
-  }
-  const ids = new Set(primary.map((node) => node.id));
+  }).sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title));
+  const ids = new Set(nodes.map((node) => node.id));
   const links = graph.links.filter((link) => ids.has(link.source) && ids.has(link.target));
-  return { nodes: primary, links, total: filtered.length, limited: filtered.length > primary.length };
+  return { nodes, links, total: nodes.length };
 }
 
 function positions(nodes) {
@@ -650,9 +658,9 @@ function positions(nodes) {
   const categories = [...grouped.keys()].sort();
   const output = new Map();
   const singleCategory = categories.length === 1;
-  const columns = singleCategory ? 1 : Math.min(5, Math.max(1, categories.length));
-  const cellWidth = singleCategory ? 1040 : 220;
-  const cellHeight = singleCategory ? 610 : 190;
+  const columns = singleCategory ? 1 : Math.min(4, Math.max(1, categories.length));
+  const cellWidth = singleCategory ? 1040 : 280;
+  const cellHeight = singleCategory ? 720 : 250;
   const startX = singleCategory ? 80 : 50;
   const startY = singleCategory ? 70 : 50;
   categories.forEach((category, categoryIndex) => {
@@ -664,7 +672,7 @@ function positions(nodes) {
     items.forEach((node, index) => {
       const ring = Math.floor(Math.sqrt(index + 1));
       const itemAngle = index * 2.399963;
-      const radius = singleCategory ? 16 + ring * 12 : 10 + ring * 10;
+      const radius = singleCategory ? 18 + ring * 13 : 12 + ring * 12;
       output.set(node.id, {
         x: Math.max(startX + col * cellWidth + 18, Math.min(startX + (col + 1) * cellWidth - 18, centerX + Math.cos(itemAngle) * radius)),
         y: Math.max(startY + row * cellHeight + 34, Math.min(startY + (row + 1) * cellHeight - 18, centerY + Math.sin(itemAngle) * radius)),
@@ -672,6 +680,37 @@ function positions(nodes) {
     });
   });
   return { points: output, grouped, columns, cellWidth, cellHeight, startX, startY };
+}
+
+function applyTransform() {
+  if (!viewport) return;
+  viewport.setAttribute("transform", `translate(${transform.x} ${transform.y}) scale(${transform.scale})`);
+}
+
+function setCategory(category) {
+  categorySelect.value = category;
+  selectedNodeId = "";
+  resetZoom(false);
+  render();
+}
+
+function zoomAt(factor, clientX = null, clientY = null) {
+  const box = canvas.getBoundingClientRect();
+  const px = clientX === null ? box.width / 2 : clientX - box.left;
+  const py = clientY === null ? box.height / 2 : clientY - box.top;
+  const svgX = px * 1200 / box.width;
+  const svgY = py * 900 / box.height;
+  const nextScale = Math.max(0.35, Math.min(5, transform.scale * factor));
+  const ratio = nextScale / transform.scale;
+  transform.x = svgX - (svgX - transform.x) * ratio;
+  transform.y = svgY - (svgY - transform.y) * ratio;
+  transform.scale = nextScale;
+  applyTransform();
+}
+
+function resetZoom(apply = true) {
+  transform = { x: 0, y: 0, scale: 1 };
+  if (apply) applyTransform();
 }
 
 function showDetail(node) {
@@ -728,6 +767,7 @@ function render() {
   const coords = layout.points;
   if (selectedNodeId && !subset.nodes.some((node) => node.id === selectedNodeId)) selectedNodeId = "";
   canvas.replaceChildren();
+  viewport = el("g", { class: "graph-viewport" });
   const clustersGroup = el("g", { class: "graph-clusters" });
   [...layout.grouped.keys()].sort().forEach((category, index) => {
     const col = index % layout.columns;
@@ -737,25 +777,39 @@ function render() {
     clustersGroup.append(el("rect", { x, y, width: layout.cellWidth - 18, height: layout.cellHeight - 18, rx: "10" }));
     const label = el("text", { x: x + 13, y: y + 23 });
     label.textContent = `${category.replaceAll("-", " ")} (${layout.grouped.get(category).length})`;
+    label.setAttribute("tabindex", "0");
+    label.setAttribute("role", "button");
+    label.setAttribute("aria-label", `Open ${category.replaceAll("-", " ")} graph`);
+    label.addEventListener("click", () => setCategory(category));
+    label.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") { event.preventDefault(); setCategory(category); }
+    });
     clustersGroup.append(label);
   });
-  canvas.append(clustersGroup);
+  viewport.append(clustersGroup);
   const linksGroup = el("g", { class: "graph-links" });
   const selectedLinks = selectedNodeId
     ? subset.links.filter((link) => link.source === selectedNodeId || link.target === selectedNodeId).slice(0, 80)
-    : [];
+    : subset.links;
   selectedLinks.forEach((link) => {
     const source = coords.get(link.source);
     const target = coords.get(link.target);
     if (!source || !target) return;
     linksGroup.append(el("line", { x1: source.x, y1: source.y, x2: target.x, y2: target.y }));
   });
-  canvas.append(linksGroup);
+  viewport.append(linksGroup);
   const nodesGroup = el("g", { class: "graph-nodes" });
+  const showLabels = Boolean(categorySelect.value || searchInput.value.trim()) || subset.nodes.length <= 220;
   subset.nodes.forEach((node) => {
     const point = coords.get(node.id);
     const group = el("g", { class: `graph-node${node.id === selectedNodeId ? " selected" : ""}`, tabindex: "0", role: "button", "aria-label": `${node.title}, ${node.category}` });
     group.append(el("circle", { cx: point.x, cy: point.y, r: Math.min(9, 4 + Math.sqrt(node.degree + 1) * 0.55), fill: colors.get(node.category) || "#64748b" }));
+    if (showLabels || node.degree >= 35 || node.id === selectedNodeId) {
+      const label = el("text", { x: point.x + 9, y: point.y + 4, class: "graph-node-label" });
+      label.textContent = node.title.length > 44 ? `${node.title.slice(0, 41)}...` : node.title;
+      label.addEventListener("click", (event) => { event.stopPropagation(); selectedNodeId = node.id; render(); showDetail(node); });
+      group.append(label);
+    }
     const title = el("title");
     title.textContent = `${node.title} (${node.category})`;
     group.append(title);
@@ -765,8 +819,10 @@ function render() {
     });
     nodesGroup.append(group);
   });
-  canvas.append(nodesGroup);
-  status.textContent = `Showing ${subset.nodes.length.toLocaleString()} of ${subset.total.toLocaleString()} matching pages in category clusters${selectedNodeId ? ` with ${selectedLinks.length.toLocaleString()} selected links` : "; select a node to show direct links"}${subset.limited ? "; highest-connected pages shown" : ""}. Full dataset: ${graph.nodes.length.toLocaleString()} pages, ${graph.links.length.toLocaleString()} links.`;
+  viewport.append(nodesGroup);
+  canvas.append(viewport);
+  applyTransform();
+  status.textContent = `Showing all ${subset.nodes.length.toLocaleString()} matching pages and ${subset.links.length.toLocaleString()} matching links${selectedNodeId ? `; highlighted ${selectedLinks.length.toLocaleString()} direct selected links` : ""}. Full dataset: ${graph.nodes.length.toLocaleString()} pages, ${graph.links.length.toLocaleString()} links. Wheel or buttons zoom; drag to pan; click a category label or legend label to open that category graph.`;
 }
 
 fetch("/graph-data.json")
@@ -788,10 +844,38 @@ fetch("/graph-data.json")
       const swatch = document.createElement("i");
       swatch.style.background = colors.get(category);
       item.append(swatch, document.createTextNode(category.replaceAll("-", " ")));
+      item.tabIndex = 0;
+      item.setAttribute("role", "button");
+      item.setAttribute("aria-label", `Open ${category.replaceAll("-", " ")} graph`);
+      item.addEventListener("click", () => setCategory(category));
+      item.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") { event.preventDefault(); setCategory(category); }
+      });
       legend.append(item, document.createTextNode(" "));
     });
-    categorySelect.addEventListener("change", render);
-    searchInput.addEventListener("input", render);
+    categorySelect.addEventListener("change", () => { selectedNodeId = ""; resetZoom(false); render(); });
+    searchInput.addEventListener("input", () => { selectedNodeId = ""; render(); });
+    zoomIn.addEventListener("click", () => zoomAt(1.25));
+    zoomOut.addEventListener("click", () => zoomAt(0.8));
+    zoomReset.addEventListener("click", () => resetZoom());
+    canvas.addEventListener("wheel", (event) => {
+      event.preventDefault();
+      zoomAt(event.deltaY < 0 ? 1.12 : 0.89, event.clientX, event.clientY);
+    }, { passive: false });
+    canvas.addEventListener("pointerdown", (event) => {
+      if (event.target.closest(".graph-node")) return;
+      canvas.setPointerCapture(event.pointerId);
+      drag = { x: event.clientX, y: event.clientY, startX: transform.x, startY: transform.y };
+    });
+    canvas.addEventListener("pointermove", (event) => {
+      if (!drag) return;
+      const box = canvas.getBoundingClientRect();
+      transform.x = drag.startX + (event.clientX - drag.x) * 1200 / box.width;
+      transform.y = drag.startY + (event.clientY - drag.y) * 900 / box.height;
+      applyTransform();
+    });
+    canvas.addEventListener("pointerup", () => { drag = null; });
+    canvas.addEventListener("pointercancel", () => { drag = null; });
     render();
   })
   .catch((error) => { status.textContent = `Unable to load graph: ${error.message}`; });
@@ -1170,8 +1254,9 @@ blockquote {
 .graph-landing { max-width: 1200px; }
 .graph-controls {
   display: grid;
-  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  grid-template-columns: minmax(220px, 1fr) minmax(220px, 1fr) auto;
   gap: 12px;
+  align-items: end;
   margin: 24px 0 12px;
 }
 .graph-controls label { color: var(--muted); font-weight: 700; }
@@ -1185,6 +1270,28 @@ blockquote {
   background: #fff;
   color: var(--ink);
   font: inherit;
+}
+.graph-zoom-controls {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.graph-zoom-controls button {
+  min-width: 42px;
+  min-height: 42px;
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+.graph-zoom-controls button:hover, .graph-zoom-controls button:focus {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 .graph-status { color: var(--muted); font-size: 0.9rem; }
 .graph-legend {
@@ -1206,6 +1313,12 @@ blockquote {
   line-height: 1;
   text-transform: capitalize;
   white-space: nowrap;
+  cursor: pointer;
+}
+.graph-legend-item:hover, .graph-legend-item:focus {
+  border-color: var(--accent);
+  color: var(--accent);
+  outline: none;
 }
 .graph-legend-item i {
   flex: 0 0 auto;
@@ -1214,8 +1327,10 @@ blockquote {
   border-radius: 50%;
 }
 .graph-workspace { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; align-items: start; }
-.graph-canvas-wrap { min-height: 640px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; }
-.graph-canvas { display: block; width: 100%; min-height: 640px; }
+.graph-canvas-wrap { min-height: 640px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; touch-action: none; }
+.graph-canvas { display: block; width: 100%; min-height: 640px; cursor: grab; user-select: none; }
+.graph-canvas:active { cursor: grabbing; }
+.graph-viewport { transform-origin: 0 0; }
 .graph-clusters rect {
   fill: #ffffff;
   stroke: #dbe3dd;
@@ -1226,16 +1341,32 @@ blockquote {
   font-size: 13px;
   font-weight: 800;
   text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+}
+.graph-clusters text:hover, .graph-clusters text:focus {
+  fill: var(--accent);
 }
 .graph-links line {
   stroke: #64748b;
-  stroke-width: 1.35;
-  opacity: 0.42;
+  stroke-width: 0.8;
+  opacity: 0.16;
 }
 .graph-node { cursor: pointer; outline: none; }
 .graph-node circle { stroke: #fff; stroke-width: 2; transition: stroke-width 120ms, r 120ms; }
 .graph-node:hover circle, .graph-node:focus circle { stroke: var(--ink); stroke-width: 3; }
 .graph-node.selected circle { stroke: #111827; stroke-width: 4; }
+.graph-node-label {
+  fill: #334155;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  font-size: 8px;
+  font-weight: 750;
+  pointer-events: auto;
+}
+.graph-node:hover .graph-node-label, .graph-node:focus .graph-node-label { fill: var(--ink); }
 .graph-detail { min-height: 300px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: #fbfcf8; }
 .graph-detail h2 { margin-top: 0; padding-top: 0; border-top: 0; font-size: 1.35rem; }
 .graph-detail h3 { margin-top: 1.5rem; }
@@ -1287,9 +1418,8 @@ def export() -> None:
         md_out.parent.mkdir(parents=True, exist_ok=True)
         md_out.write_text(page.source.read_text(encoding="utf-8"), encoding="utf-8")
 
-    categories = sorted({page.category for page in pages if page.category != "root"}, key=category_sort_key)
-    for category in categories:
-        category_pages = [page for page in pages if page.category == category]
+    for category in public_categories(pages):
+        category_pages = [page for page in pages if page.category == category and not is_category_index(page)]
         out = DIST / category / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(render_category(category, category_pages, pages), encoding="utf-8")

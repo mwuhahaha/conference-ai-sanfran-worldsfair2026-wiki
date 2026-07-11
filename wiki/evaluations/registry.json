@@ -28,11 +28,5 @@
     "title": "Sandbox Providers",
     "path": "wiki/evaluations/sandbox-providers.md",
     "confidence": "medium"
-  },
-  {
-    "id": "credibility-policy-evals",
-    "title": "Credibility Policy Evals",
-    "path": "wiki/evaluations/credibility-policy-evals.md",
-    "confidence": "high"
   }
 ]

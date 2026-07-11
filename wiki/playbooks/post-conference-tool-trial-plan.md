@@ -24,7 +24,7 @@ Use this after a conference pass surfaces many plausible tools but not enough di
 
 ## Steps
 - Group tools by job: coding agents, eval/observability, retrieval/context, sandbox/runtime, inference, and voice/multimodal.
-- Pick one policy-backed decision question per group before installing anything.
+- Pick one source-backed decision question per group before installing anything.
 - Define a small local task and a scoring sheet for each group.
 - Run a trial only when the tool has source evidence and a clear user workflow in this wiki.
 - Write the result back as an evaluation page with confidence and open questions.

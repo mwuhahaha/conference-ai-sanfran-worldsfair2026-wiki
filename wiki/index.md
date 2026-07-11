@@ -1,7 +1,7 @@
 # AI Engineer World's Fair 2026 Index
 
 ## Start Here
-This standalone wiki is organized as a conference intelligence vault: official schedule first, then public video evidence, transcripts, slide/OCR evidence, topic synthesis, questions, harnesses, playbooks, evaluations, and policies.
+This standalone wiki is organized as a conference intelligence vault: official schedule first, then public video evidence, transcripts, slide/OCR evidence, topic synthesis, questions, claims, patterns, harnesses, playbooks, and evaluations.
 
 - Public landing page: [[overview]]
 - Evidence rules: [[source-boundary]]
@@ -21,10 +21,11 @@ This standalone wiki is organized as a conference intelligence vault: official s
 - [Topics](/topics/) - content-derived themes and evidence tables
 - [Tools](/tools/) - high-confidence tool, model, platform, and protocol inventory
 - [Questions](/questions/) - open research and implementation questions
+- [Claims](/claims/) - evidence-backed synthesis claims
+- [Patterns](/patterns/) - reusable AI engineering patterns
 - [Harnesses](/harnesses/) - reusable workflows observed or implied by the evidence
 - [Playbooks](/playbooks/) - post-conference action workflows
 - [Evaluations](/evaluations/) - comparative decision artifacts and scorecards
-- [Policies](/policies/) - topic-specific credibility scoring policies
 
 ## Major Themes
 - [[coding-agents]]
@@ -47,13 +48,12 @@ This standalone wiki is organized as a conference intelligence vault: official s
 - [[worldsfair-2026-livestreams]]
 - [[livestream-thematic-anchors]]
 - [[external-video-discovery]]
-- [[aie-wiki-generation-delta]]
 - [[room-attendance-calibration]]
 - [[video-attendance-visibility]]
 
-## Policy And Evaluation Entry Points
-- [[credibility-policy-evals]]
-- [[credibility-policy-review-loop]]
+## Claim And Evaluation Entry Points
+- [[agent-work-needs-runtime-boundaries]]
+- [[evidence-gated-agent-workflow]]
 - [[agent-eval-gate]]
 - [[coding-agent-platforms]]
 - [[eval-observability-tools]]
