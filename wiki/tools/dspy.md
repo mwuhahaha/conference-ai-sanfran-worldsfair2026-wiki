@@ -28,6 +28,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
 - [[ai-engineer-livestream-corpus]]
+- [[aie-wiki-generation-delta]]
 - [[talk-video-transcript-map]]
 - [[worldsfair-2026-livestreams]]
 - [[youtube--cKUW6n8hBU]]

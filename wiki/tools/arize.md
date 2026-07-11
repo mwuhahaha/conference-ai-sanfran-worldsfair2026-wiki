@@ -33,6 +33,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
+- [[aie-wiki-generation-delta]]
 - [[talk-video-transcript-map]]
 - [[youtube-JsCCrBF7F1g]]
 - [[youtube-SbcQYbrvAfI]]
@@ -45,11 +46,11 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-JsCCrBF7F1g-dense-slides]]
 - [[youtube-JsCCrBF7F1g-reconstructed-slides]]
 - [[youtube-JsCCrBF7F1g-slides]]
+- [[youtube-KB41dTlX1Uc-slides]]
 - [[youtube-Lc8zRh9muoY-dense-slides]]
 - [[youtube-Lc8zRh9muoY-slides]]
 - [[youtube-SbcQYbrvAfI-dense-slides]]
 - [[youtube-SbcQYbrvAfI-reconstructed-slides]]
-- [[youtube-SbcQYbrvAfI-slides]]
 
 ### Topic Pages
 - [[agent-evaluations]]

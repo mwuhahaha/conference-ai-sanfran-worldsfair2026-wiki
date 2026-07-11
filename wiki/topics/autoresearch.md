@@ -14,9 +14,13 @@ AutoResearch is the use of agents to search, read, compare, synthesize, and some
 
 AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
 
+AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
+
 AutoResearch is the use of agents to search, read, compare, synthesize, benchmark, and sometimes design follow-up experiments over a body of evidence. In the WF2026 Autoresearch track, the concept spans automated AI research, dense retrieval with test-time compute over frozen embedding models, autonomous research-agent loops, reflective self-improvement of context and model weights, kernel optimization, and production pathways from frontier ML research into usable systems. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, evaluation, and clear next-step planning.
 
 ## Conference Context
+It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
+
 It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
 
 It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
@@ -28,9 +32,17 @@ Research work is expensive because it involves discovery, filtering, evidence co
 
 Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
 
+Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
+
 Research work is expensive because it involves discovery, filtering, evidence comparison, synthesis under uncertainty, and judgment about what to try next. The connected sessions make the topic concrete: Richard Socher frames automated AI research as an emerging research direction, Han Xiao ties autoresearch to retrieval quality and test-time compute, Tim Sweeney focuses on autonomous research-agent loops, and Lakshya Agrawal connects self-improvement to context, harnesses, and model weights. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps instead of hiding uncertainty behind polished prose.
 
 ## Applied Use
+Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
+
+AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
+
+Use it when the answer depends on multiple sources or evolving evidence. Avoid relying on it as a black-box oracle for high-stakes conclusions without human review.
+
 Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
 
 AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
@@ -66,6 +78,7 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[2026-06-30-ishan-anand-will-ai-predict-people-like-we-predict-the-weather-alternate-title-a-field-guide-to-synthetic-personas-for-market-research]] — Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”); [[ishan-anand|Ishan Anand]] (Day 3 — Session Day 2 · 2:50pm-3:10pm · Computer Use; official schedule)
 - [[2026-06-30-deepak-pathak-frontier-robotics-research]] — Frontier Robotics Research; [[deepak-pathak|Deepak Pathak]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Robotics & World Models; official schedule)
 - [[2026-06-30-zhengyao-jiang-an-ai-agent-became-the-1-contributor-in-openai-s-hiring-challenge]] — An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge; [[zhengyao-jiang|Zhengyao Jiang]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Autoresearch; official schedule)
+- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck]] — Understanding is the new bottleneck; [[geoffrey-litt|Geoffrey Litt]] (Day 3 — Session Day 2 · 10:45am-11:05am · Design Engineering; verified event YouTube resource; via [[youtube-WkBPX-oDMnA]])
 - [[2026-06-30-thariq-shihipar-field-guide-to-fable]] — Field Guide to Fable; [[thariq-shihipar|Thariq Shihipar]] (Day 3 — Session Day 2 · 9:05am-9:25am · Autoresearch; official schedule)
 - [[2026-06-30-antje-barth-perception-agents]] — Perception Agents; [[antje-barth|Antje Barth]] (Day 3 — Session Day 2 · 9:45am-10:05am · Autoresearch; official schedule)
 - [[2026-06-30-laurie-voss-evals-track-intro]] — Evals Track Intro; [[laurie-voss|Laurie Voss]], [[aparna-dhinakaran|Aparna Dhinakaran]] (Day 3 — Session Day 2 · 10:25am-10:30am · Autoresearch; official schedule)
@@ -73,7 +86,6 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[2026-06-30-wei-lin-chiang-closing-keynote]] — Closing Keynote; [[addy-osmani|Addy Osmani]] (Day 3 — Session Day 2 · 4:30pm-4:50pm · Autoresearch; official schedule)
 - [[2026-06-30-george-cameron-trends-in-ai]] — Trends in AI; [[george-cameron|George Cameron]], [[micah-hill-smith|Micah Hill-Smith]] (Day 3 — Session Day 2 · 4:50pm-5:10pm · Autoresearch; official schedule)
 - [[2026-06-29-shubhankar-srivastava-hill-climbing-skills-how-to-improve-agents-without-touching-the-model]] — Hill-climbing Skills: How to Improve Agents Without Touching the Model; [[shubhankar-srivastava|Shubhankar Srivastava]] (Day 1 — Workshop Day · 4:30pm-5:30pm · Workshops Day 1; official schedule)
-- [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale]] — AI Evals Platform for Cross-Functional Teams at Scale; [[nachiket-paranjape|Nachiket Paranjape]], [[swaroop-chitlur-haridas|Swaroop Chitlur Haridas]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · AI-Native Enterprises; official schedule)
 
 - [[laurie-voss|Laurie Voss]]
 - [[zhengyao-jiang|Zhengyao Jiang]]
@@ -97,8 +109,8 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[tom-ouyang|Tom Ouyang]]
 - [[ishan-anand|Ishan Anand]]
 - [[deepak-pathak|Deepak Pathak]]
+- [[geoffrey-litt|Geoffrey Litt]]
 - [[thariq-shihipar|Thariq Shihipar]]
-- [[antje-barth|Antje Barth]]
 
 - [[weco-ai|Weco AI]]
 - [[google-deepmind|Google DeepMind]]
@@ -119,6 +131,11 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[elastic|Elastic]]
 - [[morph|Morph]]
 
+- [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale]] — AI Evals Platform for Cross-Functional Teams at Scale; [[nachiket-paranjape|Nachiket Paranjape]], [[swaroop-chitlur-haridas|Swaroop Chitlur Haridas]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · AI-Native Enterprises; official schedule)
+
+- [[antje-barth|Antje Barth]]
+
+
 - [[2026-06-29-sonar-expo-welcome-speech]] — Expo Welcome Speech; [[sonar|Sonar]], [[extend-ai|Extend AI]] (Day 1 — Workshop Day · 6:00pm-6:15pm · Expo Stage 3; related YouTube resource; via [[youtube-4sX_He5c4sI]])
 - [[2026-06-29-charlie-guo-cooking-with-codex]] — Cooking with Codex; [[charlie-guo|Charlie Guo]], [[gabriel-chua|Gabriel Chua]] (Day 1 — Workshop Day · 9:00am-11:00am · Workshops Day 1; related YouTube resource; via [[youtube-dvft0Gp9sEE]])
 - [[2026-06-29-charlie-guo-voice-agents-can-just-do-things]] — Voice Agents Can Just Do Things; [[charlie-guo|Charlie Guo]] (Day 2 — Session Day 1 · 11:40am-12:00pm · Voice & Realtime AI; related YouTube resource; via [[youtube-dvft0Gp9sEE]])
@@ -133,6 +150,9 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 ## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
+- [[youtube-WkBPX-oDMnA]] — Understanding is the new bottleneck — Geoffrey Litt, Notion
+
+### Transcript-backed resources
 
 ### Transcript-backed resources
 - [[youtube-OXMMN-XbxwA]] — Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc
@@ -281,6 +301,23 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Talks
 
 ### Resources
+
+### Slides
+
+### Transcripts
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| other | 60 | Related pages outside the main evidence categories. |
+| resources | 20 | Video/resource pages; check source status before treating as primary event evidence. |
+| talks | 29 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+
+### Talks
+
+### Resources
+- [[youtube-WkBPX-oDMnA]]
 
 ### Slides
 

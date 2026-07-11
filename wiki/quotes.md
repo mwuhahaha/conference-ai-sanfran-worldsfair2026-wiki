@@ -21,8 +21,8 @@ Transcript-backed pull quotes surfaced from AI Engineer World's Fair 2026 suppor
 - [[quote-I2cbIws9j10-08-and-then-more-advanced-version-is-really-trying-to-start-thinking-of-i]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
 - [[quote-I2cbIws9j10-09-meaning-that-with-an-agent-the-context-window-becomes-everything-the-d]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
 - [[quote-ZpK5PWX2YRM-10-uh-this-is-just-one-example-from-metr-the-machine-evaluation-center-an]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
-- [[quote-htM02KMNZnk-11-software-factories-are-only-made-possible-if-security-is-in-the-loop]] — WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
-- [[quote-ZpK5PWX2YRM-12-and-so-i-think-at-the-beginning-of-this-the-wrong-question-is-should-i]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
+- [[quote-WkBPX-oDMnA-11-how-do-we-make-sure-we-re-not-just-moving-at-the-speed-of-correctness]] — Understanding is the new bottleneck — Geoffrey Litt, Notion
+- [[quote-htM02KMNZnk-12-software-factories-are-only-made-possible-if-security-is-in-the-loop]] — WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
 
 ### [[mcp|MCP]]
 - [[quote-o-zkvb0iFDQ-01-in-this-case-it-decides-to-actually-call-the-server-tool-but-the-contr]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps

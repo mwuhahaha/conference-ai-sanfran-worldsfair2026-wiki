@@ -33,6 +33,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-htM02KMNZnk-slides]]
 
 ### Transcript Files
+- `raw/sources/youtube-transcripts/KB41dTlX1Uc.txt`
 - `raw/sources/youtube-transcripts/Rx8f05JI_WA.txt`
 - `raw/sources/youtube-livestream-transcripts/4sX_He5c4sI.txt`
 - `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt`

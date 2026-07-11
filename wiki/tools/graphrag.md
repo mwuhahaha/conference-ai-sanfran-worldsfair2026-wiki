@@ -34,6 +34,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
 - [[ai-engineer-livestream-corpus]]
+- [[aie-wiki-generation-delta]]
 - [[talk-video-transcript-map]]
 - [[youtube-eW_vxrjvERk]]
 - [[youtube-knDDGYHnnSI]]

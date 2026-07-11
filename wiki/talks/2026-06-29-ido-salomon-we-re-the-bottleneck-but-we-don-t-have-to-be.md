@@ -60,7 +60,7 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Synthesis
 ### Synthesized Breakdown
-# We're the bottleneck, but we don't have to be ## Conference Context - Date/time: 2026-06-29 · 2:25pm-2:45pm - Track/room: Software Factories · Main Stage - Speaker(s): Ido Salomon - Session type/status: session · confirmed - Track: Software Factories - Room: Main Stage - Session type: session - Status: confirmed ## Session Description As agents improve at doing real work, humans become the real bottleneck. Luckily, the skills we need to work with agents aren’t entirely new, they've just been hiding in unexpected places. Drawing lessons from AgentCraft’s Warcraft-inspired UI for coordinating multiple agents, this talk explores how gamification can raise the ceiling for sophisticated AI orchestration while lowering the floor for everyday developers. Ido will show how visual state, spatial metaphors, and autonomy can make multi-agent systems more approachable, inspectable, and fun to use.
+The session explains MCP Apps as a way to add interactive UI to MCP-based workflows. It treats the MCP host as the place where tool data, model reasoning, and human controls meet.
 
 ### Speaker And Company Context
 - [[ido-salomon|Ido Salomon]] — Co-Creator at [[mcp-apps|MCP Apps]].

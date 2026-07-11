@@ -25,11 +25,13 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
+- [[aie-wiki-generation-delta]]
 - [[talk-video-transcript-map]]
 - [[youtube-YRGjll7uu5w]]
 
 ### Slide/OCR Pages
 - [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-browser-agent-success-harness-slides]]
+- [[youtube-KB41dTlX1Uc-slides]]
 - [[youtube-YRGjll7uu5w-dense-slides]]
 - [[youtube-YRGjll7uu5w-reconstructed-slides]]
 - [[youtube-YRGjll7uu5w-slides]]

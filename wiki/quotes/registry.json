@@ -35,14 +35,14 @@
     "path": "wiki/quotes/quote-I2cbIws9j10-09-meaning-that-with-an-agent-the-context-window-becomes-everything-the-d.md"
   },
   {
+    "id": "quote-WkBPX-oDMnA-11-how-do-we-make-sure-we-re-not-just-moving-at-the-speed-of-correctness",
+    "title": "WkBPX-oDMnA-11-how-do-we-make-sure-we-re-not-just-moving-at-the-speed-of-correctness",
+    "path": "wiki/quotes/quote-WkBPX-oDMnA-11-how-do-we-make-sure-we-re-not-just-moving-at-the-speed-of-correctness.md"
+  },
+  {
     "id": "quote-ZpK5PWX2YRM-10-uh-this-is-just-one-example-from-metr-the-machine-evaluation-center-an",
     "title": "ZpK5PWX2YRM-10-uh-this-is-just-one-example-from-metr-the-machine-evaluation-center-an",
     "path": "wiki/quotes/quote-ZpK5PWX2YRM-10-uh-this-is-just-one-example-from-metr-the-machine-evaluation-center-an.md"
-  },
-  {
-    "id": "quote-ZpK5PWX2YRM-12-and-so-i-think-at-the-beginning-of-this-the-wrong-question-is-should-i",
-    "title": "ZpK5PWX2YRM-12-and-so-i-think-at-the-beginning-of-this-the-wrong-question-is-should-i",
-    "path": "wiki/quotes/quote-ZpK5PWX2YRM-12-and-so-i-think-at-the-beginning-of-this-the-wrong-question-is-should-i.md"
   },
   {
     "id": "quote-htM02KMNZnk-05-we-ve-also-watched-context-windows-and-memory-improve-allowing-agents",
@@ -55,9 +55,9 @@
     "path": "wiki/quotes/quote-htM02KMNZnk-06-the-local-retrieval-the-inprocess-tools-the-memory-and-the-parts-that.md"
   },
   {
-    "id": "quote-htM02KMNZnk-11-software-factories-are-only-made-possible-if-security-is-in-the-loop",
-    "title": "htM02KMNZnk-11-software-factories-are-only-made-possible-if-security-is-in-the-loop",
-    "path": "wiki/quotes/quote-htM02KMNZnk-11-software-factories-are-only-made-possible-if-security-is-in-the-loop.md"
+    "id": "quote-htM02KMNZnk-12-software-factories-are-only-made-possible-if-security-is-in-the-loop",
+    "title": "htM02KMNZnk-12-software-factories-are-only-made-possible-if-security-is-in-the-loop",
+    "path": "wiki/quotes/quote-htM02KMNZnk-12-software-factories-are-only-made-possible-if-security-is-in-the-loop.md"
   },
   {
     "id": "quote-o-zkvb0iFDQ-01-in-this-case-it-decides-to-actually-call-the-server-tool-but-the-contr",

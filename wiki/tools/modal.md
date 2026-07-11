@@ -39,6 +39,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 ### Transcript Files
 - `raw/sources/youtube-transcripts/HvZXAOZ3iv8.txt`
 - `raw/sources/youtube-transcripts/IQkVMvXQKLY.txt`
+- `raw/sources/youtube-transcripts/KB41dTlX1Uc.txt`
 - `raw/sources/youtube-transcripts/OXMMN-XbxwA.txt`
 - `raw/sources/youtube-transcripts/zMiSRliEzv4.txt`
 

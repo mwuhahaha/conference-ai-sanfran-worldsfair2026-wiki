@@ -50,6 +50,12 @@ They fit engineering organizations, platform teams, internal tools groups, migra
 
 Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
 
+Model the workflow as stages with inputs, outputs, owners, and acceptance checks. Give agents scoped roles, shared artifacts, test gates, traceability, and rollback paths. Measure cycle time, defect rate, review burden, and production outcomes.
+
+They fit engineering organizations, platform teams, internal tools groups, migration projects, and product teams with repeatable implementation patterns.
+
+Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
+
 ## Practical Lesson
 Evaluate the complete agent loop: task definition, context assembly, tool permissions, sandbox execution, verification, review, and provenance. Model capability alone is not the system boundary.
 
@@ -91,6 +97,9 @@ Evaluate the complete agent loop: task definition, context assembly, tool permis
 - [[qodo-ai|Qodo AI]]
 - [[badass-dev-egghead-io|badass.dev / egghead.io]]
 - [[warp|Warp]]
+
+
+
 
 - [[2026-07-01-mike-chambers-harness-engineering-building-the-production-cage-for-powerful-domain-agents]] — Harness Engineering: Building the Production Cage for Powerful Domain Agents; [[mike-chambers|Mike Chambers]] (Day 4 — Session Day 3 · 12:05pm-12:25pm · Harness Engineering; related YouTube resource; via [[youtube-qdZzND79mcg]])
 - [[2026-07-01-dru-knox-harness-engineering-the-new-core-skill-for-agentic-developers]] — Harness Engineering: The New Core Skill for Agentic Developers; [[dru-knox|Dru Knox]] (Day 4 — Session Day 3 · 2:50pm-3:10pm · Expo Stage 1 NE; related YouTube resource; via [[youtube-qdZzND79mcg]])
@@ -207,6 +216,17 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Resources
 - [[aie-wiki-generation-delta]]
+
+### Slides
+
+### Transcripts
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
 
 ### Slides
 

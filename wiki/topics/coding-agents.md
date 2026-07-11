@@ -33,6 +33,12 @@ They are useful in feature slices, bug fixes, test generation, refactors, migrat
 
 Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
 
+Give the agent a narrow task, repository context, tests or acceptance criteria, and permission boundaries. Require it to read before editing, keep diffs scoped, run validation, report residual risk, and leave the workspace clean.
+
+They are useful in feature slices, bug fixes, test generation, refactors, migrations, docs updates, dependency audits, and operational scripts.
+
+Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
+
 ## Connections
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]] — Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine; [[will-bond|Will Bond]], [[ameya-ketkar|Ameya Ketkar]] (Day 2 — Session Day 1 · 12:05pm-12:25pm · AI-Native Enterprises; official schedule)
 - [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]] — Give your coding agents the power of turbogrep!; [[owen-halpert|Owen Halpert]] (Day 2 — Session Day 1 · 11:10am-11:30am · Expo Stage 1 NE; official schedule)
@@ -103,6 +109,9 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[sonar|Sonar]]
 - [[uber|Uber]]
 
+
+
+
 - [[2026-06-29-alexander-embiricos-the-golden-age-of-ai-engineering]] — The Golden Age of AI Engineering; [[alexander-embiricos|Alexander Embiricos]], [[romain-huet|Romain Huet]] (Day 2 — Session Day 1 · 9:25am-9:45am · Software Factories; related YouTube resource; via [[youtube-pMggiOb18tc]])
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; related YouTube resource; via [[youtube-o-zkvb0iFDQ]])
 - [[2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code]] — The Z/L Continuum: Should AI Engineers Still Read Code?; [[alex-volkov|Alex Volkov]] (Day 3 — Session Day 2 · 10:45am-11:05am · AI Architects: Tokenmaxxing; related YouTube resource; via [[youtube-ZpK5PWX2YRM]])
@@ -134,6 +143,7 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 ### Transcript-backed resources
 - [[youtube-ZpK5PWX2YRM]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
 - [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
+- [[youtube-WkBPX-oDMnA]] — Understanding is the new bottleneck — Geoffrey Litt, Notion
 - [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
 - [[youtube-9fubhllmsBU]] — Field Guide to Fable — Thariq Shihipar, Anthropic
 - [[youtube-htM02KMNZnk]] — WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
@@ -149,6 +159,10 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - “the local retrieval, the inprocess tools, the memory and the parts that do not shred under streaming and async record at the boundary instead because you need to capture what enters each node and what leaves it.” — [[youtube-htM02KMNZnk]]
 - “Um memory and persistent context is one that I'm watching very carefully right now.” — [[youtube-I2cbIws9j10]]
 - “And then more advanced version is really trying to start thinking of it as a teammate that is actually sort of holds context, has memory and can be proactive and that's just really changed how we operate internally.” — [[youtube-I2cbIws9j10]]
+
+### Transcript-backed resources
+
+### Quote signals
 
 ### Transcript-backed resources
 - [[youtube-jVjt-2g8NMY]] — A Genius With Amnesia - Victor Savkin, Nx
@@ -332,8 +346,29 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Tools
 
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| resources | 34 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 20 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+
+### Talks
+
+### Resources
+- [[youtube-WkBPX-oDMnA]]
+
+### Slides
+
+### Transcripts
+
+### Tools
+
 ## Active Use Cases
 - Bug fixes with local tests and deploy verification.
 - Repository-wide mechanical updates with reviewable diffs.
 - CI failure diagnosis and targeted remediation.
 - Agentic software factories that coordinate planning, coding, testing, and release steps.
+
+## Slide-Derived Supporting Decks
+- [[youtube-WkBPX-oDMnA-slides]] —  (12 extracted slide frames)
+
+These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.

@@ -29,11 +29,14 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[2026-06-29-tushar-jain-unlock-agent-autonomy-the-runtime-for-ai-native-systems]] — Unlock Agent Autonomy: The Runtime for AI-Native Systems (AI Architects: Show my Workflow / Leadership 2)
 
 ### Resource Pages
+- [[aie-wiki-generation-delta]]
 - [[talk-video-transcript-map]]
 
 ### Slide/OCR Pages
 - [[youtube-0S8xe9ftGTM-slides]]
 - [[youtube-Fzb1a24hF-o-slides]]
+- [[youtube-KB41dTlX1Uc-slides]]
+- [[youtube-WkBPX-oDMnA-slides]]
 - [[youtube-rcsliSIy_YU-slides]]
 - [[youtube-wcUJWP6WpGM-slides]]
 - [[youtube-wsFd22SL1s8-dense-slides]]

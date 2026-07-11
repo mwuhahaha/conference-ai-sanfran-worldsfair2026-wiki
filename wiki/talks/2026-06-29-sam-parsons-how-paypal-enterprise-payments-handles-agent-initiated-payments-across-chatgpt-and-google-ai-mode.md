@@ -56,6 +56,7 @@ The session explains MCP Apps as a way to add interactive UI to MCP-based workfl
 - [[sam-parsons|Sam Parsons]] — Senior Staff Software Engineer and Tech Lead at [[paypal-braintree|PayPal Braintree]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[agentic-search]]
 - [[agentic-web]]
 - [[coding-agents]]

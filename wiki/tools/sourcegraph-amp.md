@@ -28,6 +28,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
+- [[aie-wiki-generation-delta]]
 - [[talk-video-transcript-map]]
 - [[youtube-F_RyElT_gJk]]
 

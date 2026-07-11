@@ -256,6 +256,14 @@
     "sourceLabel": "YouTube transcript"
   },
   {
+    "id": "youtube-KB41dTlX1Uc-transcript",
+    "title": "Transcript: Kb41Dtlx1Uc",
+    "path": "wiki/transcripts/youtube-KB41dTlX1Uc-transcript.md",
+    "videoId": "KB41dTlX1Uc",
+    "wordCount": 9219,
+    "sourceLabel": "YouTube transcript"
+  },
+  {
     "id": "youtube-KLSuFPj2ld0-transcript",
     "title": "Transcript: Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe",
     "path": "wiki/transcripts/youtube-KLSuFPj2ld0-transcript.md",
@@ -381,6 +389,14 @@
     "path": "wiki/transcripts/youtube-UcYoMg-8-L8-transcript.md",
     "videoId": "UcYoMg-8-L8",
     "wordCount": 7849,
+    "sourceLabel": "YouTube transcript"
+  },
+  {
+    "id": "youtube-WkBPX-oDMnA-transcript",
+    "title": "Transcript: Wkbpx Odmna",
+    "path": "wiki/transcripts/youtube-WkBPX-oDMnA-transcript.md",
+    "videoId": "WkBPX-oDMnA",
+    "wordCount": 3765,
     "sourceLabel": "YouTube transcript"
   },
   {

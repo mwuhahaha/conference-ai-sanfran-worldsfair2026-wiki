@@ -35,6 +35,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[ai-slide-classification-and-recreation]]
+- [[aie-wiki-generation-delta]]
 - [[google-photos-aie-slides]]
 - [[room-attendance-calibration]]
 - [[slide-ocr-ai-vision-audit]]

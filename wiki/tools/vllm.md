@@ -29,6 +29,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[2026-07-01-asaf-gardin-two-bugs-that-hid-in-plain-sight-a-vllm-debugging-detective-story]] — Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story (Inference / Track 9)
 
 ### Resource Pages
+- [[aie-wiki-generation-delta]]
 - [[talk-video-transcript-map]]
 - [[youtube-Ywl4LsvHKzU]]
 

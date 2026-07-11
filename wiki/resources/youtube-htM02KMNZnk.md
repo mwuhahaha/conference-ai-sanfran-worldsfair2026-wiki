@@ -5,24 +5,24 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "htM02KMNZnk"
-last_enriched: "2026-07-10T19:40:48.197739+00:00"
+last_enriched: "2026-07-11T22:29:37.642868+00:00"
 ---
 # WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
 
 ## What It Is
-An official AI Engineer YouTube livestream for AI Engineer World's Fair San Francisco 2026. This is an event video source for the wiki, while the official schedule remains the canonical schedule source.
+An official AI Engineer YouTube WF26 livestream for AI Engineer World's Fair San Francisco 2026. This is a primary event video source for what the recording, transcript, and captured slides show; official schedule pages remain canonical for schedule metadata.
 
 ## Source Classification
 - Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.
-- Channel/source: official AI Engineer YouTube channel livestream.
-- Use: primary evidence for what the recording, transcript, and captured slides show; official schedule pages remain canonical for titles, times, tracks, rooms, speakers, and affiliations.
+- Channel/source: official AI Engineer YouTube channel WF26 livestream.
+- Use: primary evidence for media, transcript, and slide content; official schedule pages remain canonical for session metadata.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt` (89,050 words).
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[agentic-search|Agentic Search]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `outspoken`, `focus`, `economy`, `proposed`, `dynamically`, `megabytes`, `eroding`, `chief`
+- Transcript keywords: `explore`, `inspire`, `category`, `aent`, `procurement`, `rewards`, `intricacy`, `incidents`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=htM02KMNZnk)

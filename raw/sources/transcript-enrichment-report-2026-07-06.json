@@ -547,6 +547,15 @@
       "words": 4033
     },
     {
+      "video_id": "KB41dTlX1Uc",
+      "title": "State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman",
+      "event_video": false,
+      "topics": [],
+      "matches": [],
+      "quotes": 0,
+      "words": 9219
+    },
+    {
       "video_id": "TNwJ1LMiENk",
       "title": "Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel",
       "event_video": false,
@@ -766,6 +775,38 @@
       "matches": [],
       "quotes": 0,
       "words": 1823
+    },
+    {
+      "video_id": "WkBPX-oDMnA",
+      "title": "Understanding is the new bottleneck — Geoffrey Litt, Notion",
+      "event_video": true,
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          56
+        ],
+        [
+          "mcp",
+          "MCP",
+          4
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          2
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          2
+        ]
+      ],
+      "matches": [
+        "2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck"
+      ],
+      "quotes": 3,
+      "words": 3765
     },
     {
       "video_id": "Jx4ZFEAq6bY",
@@ -1064,6 +1105,6 @@
       "reason": "non-talk event reel"
     }
   ],
-  "quote_count": 21,
-  "updated_at": "2026-07-10T19:40:51.978132+00:00"
+  "quote_count": 24,
+  "updated_at": "2026-07-11T22:29:41.738299+00:00"
 }

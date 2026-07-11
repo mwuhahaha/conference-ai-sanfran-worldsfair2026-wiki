@@ -33,6 +33,12 @@ MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser a
 
 Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.
 
+Define focused MCP servers with clear tools, schemas, resources, and permission boundaries. Keep tool names concrete, return structured results, test with inspectors, and design for least privilege. For MCP Apps, treat UI and iframe boundaries as part of the security and product contract.
+
+MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser agents, design tools, developer platforms, and internal operations systems.
+
+Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.
+
 ## Connections
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does; [[jan-curn|Jan Curn]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Expo Stage 2 NW; official schedule)
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; verified event YouTube resource; via [[youtube-o-zkvb0iFDQ]])
@@ -56,8 +62,8 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps]] — Get Started with Models in Microsoft Foundry to Build AI Apps; [[pamela-fox|Pamela Fox]] (Day 1 — Workshop Day · 9:00am-10:15am · Track M; official schedule)
 - [[2026-06-30-ashu-joshi-deploy-agents-to-users-in-m365-teams-and-apps]] — Deploy agents to users in M365, Teams, and apps; [[ashu-joshi|Ashu Joshi]] (Day 3 — Session Day 2 · 3:20pm-3:40pm · Track M; official schedule)
 - [[2026-06-30-thariq-shihipar-field-guide-to-fable]] — Field Guide to Fable; [[thariq-shihipar|Thariq Shihipar]] (Day 3 — Session Day 2 · 9:05am-9:25am · Autoresearch; verified event YouTube resource; via [[youtube-9fubhllmsBU]])
+- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck]] — Understanding is the new bottleneck; [[geoffrey-litt|Geoffrey Litt]] (Day 3 — Session Day 2 · 10:45am-11:05am · Design Engineering; verified event YouTube resource; via [[youtube-WkBPX-oDMnA]])
 - [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents]] — Rebuilding the web for agents; [[liad-yosef|Liad Yosef]] (Day 2 — Session Day 1 · 12:05pm-12:25pm · Search & Retrieval; official schedule)
-- [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans]] — The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans; [[corey-gallon|Corey Gallon]] (Day 3 — Session Day 2 · 12:05pm-12:25pm · Computer Use; official schedule)
 
 - [[john-craft|John Craft]]
 - [[pamela-fox|Pamela Fox]]
@@ -103,6 +109,10 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[nubank|Nubank]]
 - [[navan|Navan]]
 
+- [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans]] — The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans; [[corey-gallon|Corey Gallon]] (Day 3 — Session Day 2 · 12:05pm-12:25pm · Computer Use; official schedule)
+
+
+
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; related YouTube resource; via [[youtube-o-zkvb0iFDQ]])
 - [[2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software]] — The New Primitives: Building AI-Native Software; [[kwindla-kramer|Kwindla Kramer]] (Day 2 — Session Day 1 · 10:45am-11:05am · Voice & Realtime AI; related YouTube resource; via [[youtube-sAOBXCDiDOs]])
 - [[2026-06-29-pedro-lopez-how-we-built-the-airbyte-agent-mcp-server-and-cli]] — How We Built the Airbyte Agent MCP Server and CLI; [[pedro-lopez|Pedro Lopez]] (Day 2 — Session Day 1 · 3:45pm-4:05pm · Expo Stage 1; related YouTube resource; via [[youtube-sAOBXCDiDOs]])
@@ -134,11 +144,16 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
 - [[youtube-9fubhllmsBU]] — Field Guide to Fable — Thariq Shihipar, Anthropic
 - [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
+- [[youtube-WkBPX-oDMnA]] — Understanding is the new bottleneck — Geoffrey Litt, Notion
 
 ### Quote signals
 - “In this case it decides to actually call the server tool but the control is in the hands of the host and everything stays in context.” — [[youtube-o-zkvb0iFDQ]]
 - “And just a few months back MCPUI we partnered with Anthropic and OpenAI to really put this into the MCP standard as the first official extension called MCP apps.” — [[youtube-o-zkvb0iFDQ]]
 - “Obviously shout out Postman and Goose and Claude the first one that released Claude apps that actually supported MCP apps.” — [[youtube-o-zkvb0iFDQ]]
+
+### Transcript-backed resources
+
+### Quote signals
 
 ### Transcript-backed resources
 - [[youtube-sAOBXCDiDOs]] — MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc
@@ -315,6 +330,23 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Talks
 
 ### Resources
+
+### Slides
+
+### Transcripts
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| other | 62 | Related pages outside the main evidence categories. |
+| resources | 26 | Video/resource pages; check source status before treating as primary event evidence. |
+| talks | 30 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+
+### Talks
+
+### Resources
+- [[youtube-WkBPX-oDMnA]]
 
 ### Slides
 

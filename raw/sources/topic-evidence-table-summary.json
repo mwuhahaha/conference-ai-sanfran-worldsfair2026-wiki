@@ -10,15 +10,15 @@
   "coding-agents": {
     "talks": 27,
     "other": 70,
-    "resources": 33,
+    "resources": 34,
     "tools": 2,
-    "slides": 19,
+    "slides": 20,
     "transcripts": 2
   },
   "software-factories": {
-    "resources": 8,
     "talks": 14,
     "other": 29,
+    "resources": 8,
     "slides": 9,
     "transcripts": 1
   },
@@ -26,8 +26,8 @@
     "talks": 24,
     "other": 50,
     "tools": 5,
+    "resources": 23,
     "slides": 16,
-    "resources": 22,
     "transcripts": 1
   },
   "agent-memory": {
@@ -39,16 +39,16 @@
     "transcripts": 1
   },
   "agent-security": {
-    "resources": 18,
     "talks": 24,
     "other": 39,
     "tools": 4,
+    "resources": 18,
     "slides": 16
   },
   "ai-sandboxes": {
-    "resources": 25,
     "talks": 26,
     "other": 44,
+    "resources": 25,
     "tools": 5,
     "slides": 16
   },
@@ -60,18 +60,18 @@
     "transcripts": 1
   },
   "mcp": {
-    "talks": 29,
-    "other": 61,
-    "resources": 25,
+    "talks": 30,
+    "other": 62,
+    "resources": 26,
     "tools": 3,
     "slides": 11,
     "transcripts": 1
   },
   "autoresearch": {
-    "talks": 28,
-    "other": 59,
+    "talks": 29,
+    "other": 60,
+    "resources": 20,
     "tools": 2,
-    "resources": 19,
     "transcripts": 1,
     "slides": 6
   },

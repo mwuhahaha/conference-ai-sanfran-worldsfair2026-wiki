@@ -66,6 +66,7 @@ The session explains MCP Apps as a way to add interactive UI to MCP-based workfl
 - [[keegan-mccallum|Keegan McCallum]] — Founder at [[urun|uRun]].
 
 ### Topics Covered
+- [[agent-security]]
 - [[mcp]]
 - [[mcp-apps]]
 

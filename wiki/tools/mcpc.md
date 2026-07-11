@@ -2,7 +2,7 @@
 title: "mcpc"
 category: "tools"
 aliases: ["mcpc"]
-sourceLabels: ["Official schedule"]
+sourceLabels: ["Official schedule", "Public YouTube metadata"]
 scheduleTracks: []
 scheduleRooms: ["Expo Stage 2 NW"]
 ---
@@ -18,6 +18,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Official Schedule
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does (track TBD / Expo Stage 2 NW)
+
+### Resource Pages
+- [[aie-wiki-generation-delta]]
 
 ## Confidence
 High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

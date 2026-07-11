@@ -27,7 +27,7 @@
       "schedule": 3,
       "youtube": 0,
       "slides": 3,
-      "resources": 1,
+      "resources": 2,
       "topics": 2,
       "transcripts": 2
     }
@@ -52,7 +52,7 @@
       "schedule": 0,
       "youtube": 1,
       "slides": 3,
-      "resources": 3,
+      "resources": 4,
       "topics": 3,
       "transcripts": 1
     }
@@ -80,8 +80,8 @@
     "evidenceCounts": {
       "schedule": 1,
       "youtube": 10,
-      "slides": 16,
-      "resources": 6,
+      "slides": 18,
+      "resources": 7,
       "topics": 6,
       "transcripts": 2
     }
@@ -131,7 +131,7 @@
       "schedule": 2,
       "youtube": 9,
       "slides": 6,
-      "resources": 3,
+      "resources": 4,
       "topics": 0,
       "transcripts": 3
     }
@@ -163,7 +163,7 @@
       "schedule": 3,
       "youtube": 1,
       "slides": 3,
-      "resources": 6,
+      "resources": 7,
       "topics": 1,
       "transcripts": 1
     }
@@ -188,8 +188,8 @@
     "evidenceCounts": {
       "schedule": 1,
       "youtube": 11,
-      "slides": 37,
-      "resources": 4,
+      "slides": 39,
+      "resources": 5,
       "topics": 2,
       "transcripts": 0
     }
@@ -218,8 +218,8 @@
     "evidenceCounts": {
       "schedule": 2,
       "youtube": 1,
-      "slides": 4,
-      "resources": 3,
+      "slides": 5,
+      "resources": 4,
       "topics": 4,
       "transcripts": 0
     }
@@ -312,9 +312,9 @@
       "schedule": 39,
       "youtube": 9,
       "slides": 68,
-      "resources": 6,
+      "resources": 7,
       "topics": 10,
-      "transcripts": 41
+      "transcripts": 42
     }
   },
   {
@@ -341,7 +341,7 @@
       "schedule": 3,
       "youtube": 1,
       "slides": 5,
-      "resources": 3,
+      "resources": 4,
       "topics": 0,
       "transcripts": 2
     }
@@ -385,7 +385,7 @@
       "schedule": 20,
       "youtube": 3,
       "slides": 15,
-      "resources": 7,
+      "resources": 8,
       "topics": 2,
       "transcripts": 27
     }
@@ -426,9 +426,9 @@
       "schedule": 9,
       "youtube": 8,
       "slides": 33,
-      "resources": 4,
+      "resources": 5,
       "topics": 1,
-      "transcripts": 18
+      "transcripts": 20
     }
   },
   {
@@ -472,7 +472,7 @@
       "schedule": 0,
       "youtube": 1,
       "slides": 4,
-      "resources": 3,
+      "resources": 4,
       "topics": 1,
       "transcripts": 2
     }
@@ -512,8 +512,8 @@
     "evidenceCounts": {
       "schedule": 12,
       "youtube": 0,
-      "slides": 6,
-      "resources": 1,
+      "slides": 8,
+      "resources": 2,
       "topics": 4,
       "transcripts": 8
     }
@@ -542,7 +542,7 @@
       "schedule": 1,
       "youtube": 4,
       "slides": 10,
-      "resources": 6,
+      "resources": 7,
       "topics": 5,
       "transcripts": 3
     }
@@ -574,7 +574,7 @@
       "schedule": 2,
       "youtube": 1,
       "slides": 6,
-      "resources": 3,
+      "resources": 4,
       "topics": 2,
       "transcripts": 1
     }
@@ -644,7 +644,7 @@
       "schedule": 16,
       "youtube": 10,
       "slides": 23,
-      "resources": 7,
+      "resources": 8,
       "topics": 2,
       "transcripts": 21
     }
@@ -674,7 +674,7 @@
       "schedule": 4,
       "youtube": 5,
       "slides": 4,
-      "resources": 3,
+      "resources": 4,
       "topics": 0,
       "transcripts": 3
     }
@@ -710,7 +710,7 @@
       "slides": 2,
       "resources": 1,
       "topics": 0,
-      "transcripts": 4
+      "transcripts": 5
     }
   },
   {
@@ -768,7 +768,7 @@
       "schedule": 2,
       "youtube": 9,
       "slides": 4,
-      "resources": 5,
+      "resources": 6,
       "topics": 2,
       "transcripts": 1
     }
@@ -884,7 +884,7 @@
       "schedule": 2,
       "youtube": 1,
       "slides": 0,
-      "resources": 1,
+      "resources": 2,
       "topics": 0,
       "transcripts": 2
     }
@@ -916,7 +916,7 @@
       "schedule": 4,
       "youtube": 2,
       "slides": 8,
-      "resources": 0,
+      "resources": 1,
       "topics": 0,
       "transcripts": 2
     }
@@ -942,7 +942,7 @@
       "schedule": 1,
       "youtube": 2,
       "slides": 3,
-      "resources": 3,
+      "resources": 4,
       "topics": 2,
       "transcripts": 0
     }
@@ -1000,7 +1000,7 @@
       "schedule": 5,
       "youtube": 4,
       "slides": 9,
-      "resources": 7,
+      "resources": 8,
       "topics": 8,
       "transcripts": 6
     }
@@ -1013,7 +1013,8 @@
       "mcpc"
     ],
     "sourceLabels": [
-      "Official schedule"
+      "Official schedule",
+      "Public YouTube metadata"
     ],
     "scheduleTracks": [],
     "scheduleRooms": [
@@ -1023,7 +1024,7 @@
       "schedule": 1,
       "youtube": 0,
       "slides": 0,
-      "resources": 0,
+      "resources": 1,
       "topics": 0,
       "transcripts": 0
     }
@@ -1088,7 +1089,7 @@
       "slides": 4,
       "resources": 2,
       "topics": 0,
-      "transcripts": 4
+      "transcripts": 5
     }
   },
   {
@@ -1144,7 +1145,7 @@
       "schedule": 41,
       "youtube": 34,
       "slides": 67,
-      "resources": 81,
+      "resources": 84,
       "topics": 12,
       "transcripts": 28
     }
@@ -1177,7 +1178,7 @@
       "schedule": 4,
       "youtube": 9,
       "slides": 21,
-      "resources": 4,
+      "resources": 5,
       "topics": 3,
       "transcripts": 3
     }
@@ -1233,7 +1234,7 @@
       "schedule": 1,
       "youtube": 2,
       "slides": 3,
-      "resources": 3,
+      "resources": 4,
       "topics": 2,
       "transcripts": 0
     }
@@ -1260,7 +1261,7 @@
       "schedule": 2,
       "youtube": 1,
       "slides": 3,
-      "resources": 3,
+      "resources": 4,
       "topics": 0,
       "transcripts": 0
     }
@@ -1352,7 +1353,7 @@
       "schedule": 1,
       "youtube": 6,
       "slides": 6,
-      "resources": 3,
+      "resources": 4,
       "topics": 1,
       "transcripts": 2
     }
@@ -1378,7 +1379,7 @@
     "evidenceCounts": {
       "schedule": 2,
       "youtube": 0,
-      "slides": 1,
+      "slides": 3,
       "resources": 1,
       "topics": 1,
       "transcripts": 0
@@ -1465,7 +1466,7 @@
       "schedule": 3,
       "youtube": 3,
       "slides": 9,
-      "resources": 3,
+      "resources": 4,
       "topics": 1,
       "transcripts": 0
     }
@@ -1605,7 +1606,7 @@
       "schedule": 3,
       "youtube": 4,
       "slides": 6,
-      "resources": 3,
+      "resources": 4,
       "topics": 0,
       "transcripts": 2
     }
@@ -1689,7 +1690,7 @@
       "schedule": 10,
       "youtube": 0,
       "slides": 8,
-      "resources": 2,
+      "resources": 3,
       "topics": 2,
       "transcripts": 4
     }
@@ -1721,7 +1722,7 @@
       "schedule": 3,
       "youtube": 3,
       "slides": 8,
-      "resources": 4,
+      "resources": 5,
       "topics": 3,
       "transcripts": 9
     }
@@ -1736,6 +1737,7 @@
     ],
     "sourceLabels": [
       "Official schedule",
+      "Public YouTube metadata",
       "Transcript evidence"
     ],
     "scheduleTracks": [
@@ -1748,7 +1750,7 @@
       "schedule": 1,
       "youtube": 0,
       "slides": 0,
-      "resources": 0,
+      "resources": 1,
       "topics": 0,
       "transcripts": 2
     }
@@ -1771,7 +1773,7 @@
       "schedule": 0,
       "youtube": 4,
       "slides": 14,
-      "resources": 3,
+      "resources": 4,
       "topics": 0,
       "transcripts": 1
     }
@@ -1798,7 +1800,7 @@
       "schedule": 4,
       "youtube": 0,
       "slides": 0,
-      "resources": 2,
+      "resources": 3,
       "topics": 1,
       "transcripts": 0
     }
@@ -1820,7 +1822,7 @@
       "schedule": 0,
       "youtube": 1,
       "slides": 3,
-      "resources": 3,
+      "resources": 4,
       "topics": 0,
       "transcripts": 0
     }

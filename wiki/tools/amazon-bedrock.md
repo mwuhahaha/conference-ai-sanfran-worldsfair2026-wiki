@@ -22,6 +22,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[2026-06-30-elizabeth-fuentes-leone-the-infinite-context-window-is-a-myth-context-engineering-for-ai-agents]] — The Infinite Context Window Is a Myth: Context Engineering for AI Agents (track TBD / Expo Stage 3 SW)
 
 ### Resource Pages
+- [[aie-wiki-generation-delta]]
 - [[talk-video-transcript-map]]
 
 ### Slide/OCR Pages

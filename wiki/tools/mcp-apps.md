@@ -31,6 +31,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
+- [[aie-wiki-generation-delta]]
 - [[talk-video-transcript-map]]
 - [[worldsfair-phrase-word-cloud]]
 - [[youtube-_xIwFcnHqp4]]

@@ -5,24 +5,24 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "btxGmN8RvNU"
-last_enriched: "2026-07-10T19:40:48.878606+00:00"
+last_enriched: "2026-07-11T22:29:38.359922+00:00"
 ---
 # Your Agent's Biggest Lie: "I Searched the Web" — Rafael Levi, Bright Data
 
 ## What It Is
-A public YouTube video used as supporting context for the AI Engineer World's Fair 2026 wiki. It is not part of the confirmed World's Fair San Francisco 2026 official event-video set.
+An official AI Engineer YouTube channel video with a cached transcript. It is retained as supporting context only because it has not been verified as an actual AI Engineer World's Fair San Francisco 2026 event recording.
 
 ## Source Classification
-- Source role: supporting contextual video source.
-- Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
-- Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
+- Source role: supporting official-channel video context, not first-class event evidence.
+- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
+- Use: background, speaker, company, or historical AIE context only; do not use for World's Fair San Francisco 2026 session claims unless manually verified against the official event.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/btxGmN8RvNU.txt` (2,716 words).
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[agentic-search|Agentic Search]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `room`, `keyword`, `basic`, `error`, `system`, `levers`, `navigate`, `asking`
+- Transcript keywords: `keeps`, `blocked`, `background`, `bigger`, `product`, `huge`, `rightmove`, `difference`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=btxGmN8RvNU)

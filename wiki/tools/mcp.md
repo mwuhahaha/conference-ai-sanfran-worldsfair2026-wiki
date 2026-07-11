@@ -44,13 +44,13 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[advanced-slide-logic-page-audit]]
 - [[agent-source-index]]
 - [[ai-engineer-livestream-corpus]]
+- [[aie-wiki-generation-delta]]
 - [[talk-video-transcript-map]]
 - [[worldsfair-phrase-word-cloud]]
 - [[youtube--x5GEVnkuRw]]
 - [[youtube-1IdzkRVmWAA]]
 - [[youtube-2IxD9OB3XuQ]]
 - [[youtube-2e9ANoOEn28]]
-- [[youtube-3hXJI2q0Jz8]]
 
 ### Slide/OCR Pages
 - [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-rebuilding-the-web-for-agents-slides]]

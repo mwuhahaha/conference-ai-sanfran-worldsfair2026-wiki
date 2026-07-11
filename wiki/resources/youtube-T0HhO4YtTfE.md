@@ -5,24 +5,24 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "T0HhO4YtTfE"
-last_enriched: "2026-07-10T19:40:47.218039+00:00"
+last_enriched: "2026-07-11T22:29:36.495194+00:00"
 ---
 # AI System Design: From Idea to Production - Apoorva Joshi, MongoDB
 
 ## What It Is
-A public YouTube video used as supporting context for the AI Engineer World's Fair 2026 wiki. It is not part of the confirmed World's Fair San Francisco 2026 official event-video set.
+An official AI Engineer YouTube channel video with a cached transcript. It is retained as supporting context only because it has not been verified as an actual AI Engineer World's Fair San Francisco 2026 event recording.
 
 ## Source Classification
-- Source role: supporting contextual video source.
-- Channel/source: public YouTube or AI Engineer channel video outside the confirmed World's Fair San Francisco 2026 event-video set.
-- Use: background, speaker, company, or historical AIE context; not primary evidence for World's Fair San Francisco 2026 session facts.
+- Source role: supporting official-channel video context, not first-class event evidence.
+- Channel/source: official AI Engineer YouTube channel AI Engineer cut video.
+- Use: background, speaker, company, or historical AIE context only; do not use for World's Fair San Francisco 2026 session claims unless manually verified against the official event.
 
 ## Transcript Status
 Cached transcript text is available at `raw/sources/youtube-transcripts/T0HhO4YtTfE.txt` (4,200 words).
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agentic-search|Agentic Search]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `require`, `between`, `already`, `focus`, `behaves`, `evaluated`, `health`, `recommendation`
+- Transcript keywords: `explore`, `yourself`, `directly`, `senior`, `product`, `whenever`, `usually`, `having`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=T0HhO4YtTfE)

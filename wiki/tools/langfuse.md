@@ -24,6 +24,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [YouTube vNCY9kXXyDQ](https://www.youtube.com/watch?v=vNCY9kXXyDQ) — Skill issue: Lessons from skilling up coding agents to use Langfuse - Marc Klingen, Clickhouse
 
 ### Resource Pages
+- [[aie-wiki-generation-delta]]
 - [[talk-video-transcript-map]]
 
 ### Transcript Files

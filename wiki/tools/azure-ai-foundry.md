@@ -26,6 +26,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Resource Pages
 - [[advanced-slide-logic-page-audit]]
+- [[aie-wiki-generation-delta]]
 - [[room-attendance-calibration]]
 - [[talk-video-transcript-map]]
 - [[video-attendance-visibility]]

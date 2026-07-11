@@ -26,6 +26,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [YouTube kTnfJszFxCg](https://www.youtube.com/watch?v=kTnfJszFxCg) — 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph
 - [YouTube sn79oS4MZFI](https://www.youtube.com/watch?v=sn79oS4MZFI) — Case Study + Deep Dive: Telemedicine Support Agents with LangGraph/MCP - Dan Mason
 
+### Resource Pages
+- [[aie-wiki-generation-delta]]
+
 ### Slide/OCR Pages
 - [[youtube-8SUJEqQNClw-reconstructed-slides]]
 - [[youtube-8SUJEqQNClw-slides]]
