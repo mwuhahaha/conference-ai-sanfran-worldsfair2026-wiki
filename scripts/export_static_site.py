@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import html
+import hashlib
 import json
 import os
 import re
@@ -604,7 +605,8 @@ def render_graph(pages: list[Page]) -> str:
   <noscript><p>This interactive graph requires JavaScript. The underlying dataset remains available at <a href="/graph-data.json">/graph-data.json</a>.</p></noscript>
 </section>
 <script type="module" src="/graph.js?v=__ASSET_VERSION__"></script>"""
-    body = body.replace("__ASSET_VERSION__", html.escape(ASSET_VERSION))
+    graph_version = hashlib.sha256((DIST / "graph.js").read_bytes()).hexdigest()[:12]
+    body = body.replace("__ASSET_VERSION__", graph_version)
     return render_layout("Knowledge graph", body, pages, "graph")
 
 
