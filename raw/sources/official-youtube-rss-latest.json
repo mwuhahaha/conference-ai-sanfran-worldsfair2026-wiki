@@ -1,7 +1,107 @@
 {
   "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
-  "checked_at": "2026-07-11T22:23:42.395070+00:00",
+  "checked_at": "2026-07-13T03:11:40.408814+00:00",
   "entries": [
+    {
+      "channel": "AI Engineer",
+      "id": "8oyalrfwgjw",
+      "published": "2026-07-12T23:00:06+00:00",
+      "published_date": "2026-07-12",
+      "source": "official_youtube_rss",
+      "title": "RLM: Recursive Language Models for Large Codebases - Shashi, Superagentic AI",
+      "updated": "2026-07-12T23:19:33+00:00",
+      "url": "https://www.youtube.com/watch?v=8oyalrfwgjw"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "7JgIS42mz7U",
+      "published": "2026-07-12T22:00:09+00:00",
+      "published_date": "2026-07-12",
+      "source": "official_youtube_rss",
+      "title": "The AI bugpocalypse is here. Now what? - Jack Cable, Corridor",
+      "updated": "2026-07-12T22:00:40+00:00",
+      "url": "https://www.youtube.com/watch?v=7JgIS42mz7U"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "EUsPvBeIx70",
+      "published": "2026-07-12T16:00:36+00:00",
+      "published_date": "2026-07-12",
+      "source": "official_youtube_rss",
+      "title": "Semantic Blindness: 500,000 Sensors Confused an LLM - Raahul Singh & Vanč Levstik, Phaidra",
+      "updated": "2026-07-12T16:01:08+00:00",
+      "url": "https://www.youtube.com/watch?v=EUsPvBeIx70"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "sum9DgexFRQ",
+      "published": "2026-07-12T14:00:07+00:00",
+      "published_date": "2026-07-12",
+      "source": "official_youtube_rss",
+      "title": "The Agentic Web and the Bazaar Era of AI - Ramesh Raskar, MIT Media Lab",
+      "updated": "2026-07-12T14:14:17+00:00",
+      "url": "https://www.youtube.com/watch?v=sum9DgexFRQ"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "UlFB6efYN5Q",
+      "published": "2026-07-12T12:45:05+00:00",
+      "published_date": "2026-07-12",
+      "source": "official_youtube_rss",
+      "title": "A Song of Types and Agents - Roberto Stagi, Ratel",
+      "updated": "2026-07-12T12:45:38+00:00",
+      "url": "https://www.youtube.com/watch?v=UlFB6efYN5Q"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "TJPInBjhE4Q",
+      "published": "2026-07-12T12:15:38+00:00",
+      "published_date": "2026-07-12",
+      "source": "official_youtube_rss",
+      "title": "ReviewDebt: a practical framework for scoring every pull request — Sachin Gupta, Ebay",
+      "updated": "2026-07-12T12:16:10+00:00",
+      "url": "https://www.youtube.com/watch?v=TJPInBjhE4Q"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "5192csoTkVo",
+      "published": "2026-07-12T08:47:17+00:00",
+      "published_date": "2026-07-12",
+      "source": "official_youtube_rss",
+      "title": "remobi.app: Don't change your terminal workflow for mobile",
+      "updated": "2026-07-12T08:47:50+00:00",
+      "url": "https://www.youtube.com/watch?v=5192csoTkVo"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "EfcfUB2uprc",
+      "published": "2026-07-12T08:00:21+00:00",
+      "published_date": "2026-07-12",
+      "source": "official_youtube_rss",
+      "title": "Stop Evaluating Models Like It's the 50s - Alejandro Vidal, Mindmakers",
+      "updated": "2026-07-12T08:25:06+00:00",
+      "url": "https://www.youtube.com/watch?v=EfcfUB2uprc"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "7P0elyLIxXo",
+      "published": "2026-07-12T06:45:06+00:00",
+      "published_date": "2026-07-12",
+      "source": "official_youtube_rss",
+      "title": "What Does Done Even Mean? Agents and Paperclip's Liveness Model - Dotta, Paperclip",
+      "updated": "2026-07-12T06:54:20+00:00",
+      "url": "https://www.youtube.com/watch?v=7P0elyLIxXo"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "xg1zNlzw7Jk",
+      "published": "2026-07-11T22:30:06+00:00",
+      "published_date": "2026-07-11",
+      "source": "official_youtube_rss",
+      "title": "Claws Out: Securing and Building with OpenClaw - Nick Taylor, Pomerium",
+      "updated": "2026-07-11T22:49:18+00:00",
+      "url": "https://www.youtube.com/watch?v=xg1zNlzw7Jk"
+    },
     {
       "channel": "AI Engineer",
       "id": "vJukHCIv7Ck",
@@ -39,7 +139,7 @@
       "published_date": "2026-07-11",
       "source": "official_youtube_rss",
       "title": "State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman",
-      "updated": "2026-07-11T17:16:36+00:00",
+      "updated": "2026-07-11T23:33:28+00:00",
       "url": "https://www.youtube.com/watch?v=KB41dTlX1Uc"
     },
     {
@@ -51,106 +151,6 @@
       "title": "Every Solo Agent Builder Eventually Reinvents a Worse Version of CI/CD - Sumaiya Shrabony",
       "updated": "2026-07-11T16:30:37+00:00",
       "url": "https://www.youtube.com/watch?v=WLXxTaPagA8"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "9arM9b7JgOo",
-      "published": "2026-07-11T14:45:18+00:00",
-      "published_date": "2026-07-11",
-      "source": "official_youtube_rss",
-      "title": "Develop at Idea Velocity - Jeffrey Lee-Chan, Snapchat",
-      "updated": "2026-07-11T14:45:50+00:00",
-      "url": "https://www.youtube.com/watch?v=9arM9b7JgOo"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "GdvKNwMcfd0",
-      "published": "2026-07-11T14:00:06+00:00",
-      "published_date": "2026-07-11",
-      "source": "official_youtube_rss",
-      "title": "From Writing Code to Designing Systems: How the Developer Role is Changing — Chris Noring, Microsoft",
-      "updated": "2026-07-11T14:25:11+00:00",
-      "url": "https://www.youtube.com/watch?v=GdvKNwMcfd0"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "YZQsWVeN3rE",
-      "published": "2026-07-11T00:57:36+00:00",
-      "published_date": "2026-07-11",
-      "source": "official_youtube_rss",
-      "title": "Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
-      "updated": "2026-07-11T08:12:34+00:00",
-      "url": "https://www.youtube.com/watch?v=YZQsWVeN3rE"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "WkBPX-oDMnA",
-      "published": "2026-07-10T22:14:52+00:00",
-      "published_date": "2026-07-10",
-      "source": "official_youtube_rss",
-      "title": "Understanding is the new bottleneck — Geoffrey Litt, Notion",
-      "updated": "2026-07-10T22:24:02+00:00",
-      "url": "https://www.youtube.com/watch?v=WkBPX-oDMnA"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "ZpK5PWX2YRM",
-      "published": "2026-07-10T18:00:06+00:00",
-      "published_date": "2026-07-10",
-      "source": "official_youtube_rss",
-      "title": "Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI",
-      "updated": "2026-07-10T19:39:35+00:00",
-      "url": "https://www.youtube.com/watch?v=ZpK5PWX2YRM"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "pMggiOb18tc",
-      "published": "2026-07-09T18:53:34+00:00",
-      "published_date": "2026-07-09",
-      "source": "official_youtube_rss",
-      "title": "The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
-      "updated": "2026-07-10T00:21:36+00:00",
-      "url": "https://www.youtube.com/watch?v=pMggiOb18tc"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "xUnRQ9vLXxo",
-      "published": "2026-07-08T19:59:33+00:00",
-      "published_date": "2026-07-08",
-      "source": "official_youtube_rss",
-      "title": "Everything we knew about software has changed — Theo Browne, @t3dotgg ​",
-      "updated": "2026-07-11T01:24:12+00:00",
-      "url": "https://www.youtube.com/watch?v=xUnRQ9vLXxo"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "grdoOC1BT1s",
-      "published": "2026-07-08T15:00:06+00:00",
-      "published_date": "2026-07-08",
-      "source": "official_youtube_rss",
-      "title": "Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta",
-      "updated": "2026-07-10T05:28:11+00:00",
-      "url": "https://www.youtube.com/watch?v=grdoOC1BT1s"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "iRcX54EO5g8",
-      "published": "2026-07-08T13:45:06+00:00",
-      "published_date": "2026-07-08",
-      "source": "official_youtube_rss",
-      "title": "Your agent is blindfolded — Johan Lajili, Poolside AI",
-      "updated": "2026-07-10T08:20:52+00:00",
-      "url": "https://www.youtube.com/watch?v=iRcX54EO5g8"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "HsxQICTLF84",
-      "published": "2026-07-08T12:00:07+00:00",
-      "published_date": "2026-07-08",
-      "source": "official_youtube_rss",
-      "title": "Building an ACP-Compatible Agent Live — Bennet Fenner, Zed",
-      "updated": "2026-07-10T08:24:44+00:00",
-      "url": "https://www.youtube.com/watch?v=HsxQICTLF84"
     }
   ],
   "source_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"
