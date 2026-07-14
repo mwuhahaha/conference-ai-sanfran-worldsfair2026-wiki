@@ -12,19 +12,17 @@ highlightPriority: "high"
 # chrome-agent
 
 ## What It Is
-chrome-agent is an open source browser automation tool for AI agents. The GitHub project describes it as a small Rust binary that talks directly to Chrome through the Chrome DevTools Protocol and returns compact, agent-readable page state.
+chrome-agent is Corey Gallon's open source Python CLI for letting AI agents observe and interact with Chrome through the Chrome DevTools Protocol (CDP). It connects directly to a running browser rather than presenting a separate browser abstraction layer.
 
 ## Why It Matters At World's Fair
 chrome-agent is named in [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans|The Dark Arts of Web Automation]] as the tool Corey Gallon uses to make browser work programmatic. In the context of the talk, it represents a broader pattern: use CDP-level browser control to turn repeated web workflows into scripts instead of prompting an agent through every click.
 
 ## Important Capabilities
-- Direct CDP control of Chrome.
-- Compact page representation for agents.
-- Stable element identifiers based on Chrome backend node IDs.
-- Action plus observation in one command when using inspect-style workflows.
-- Article reading, list/table extraction, and network inspection.
-- Structured errors and hints that an agent can parse.
-- Session persistence so Chrome can remain alive between commands.
+- Direct CDP commands and event subscriptions against a running Chrome or Chromium instance.
+- Browser launch, status, navigation, JavaScript evaluation, screenshots, and live protocol help.
+- Multiple human and agent participants with isolated event subscriptions.
+- One-shot commands for scripts and persistent event streams for longer-running observation.
+- Access to the running browser's available CDP domains rather than a fixed curated browser-tool subset.
 
 ## Related Scheduled Sessions
 - [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans]] — The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans (Computer Use / Track 7)
@@ -36,7 +34,8 @@ chrome-agent is named in [[2026-06-30-corey-gallon-the-dark-arts-of-web-automati
 - [[ai-sandboxes]]
 
 ## Public Sources
-- [chrome-agent GitHub repository](https://github.com/sderosiaux/chrome-agent)
+- [Corey Gallon's chrome-agent repository](https://github.com/captivus/chrome-agent)
+- [chrome-agent PyPI package](https://pypi.org/project/chrome-agent/)
 
 ## Evidence Boundary
-The official schedule confirms the talk and describes chrome-agent as the tool being demonstrated. The GitHub repository is supporting technical context for what the tool does and how it frames browser automation for agents.
+The official schedule confirms the talk and describes chrome-agent as the tool being demonstrated. The repository and PyPI package are supporting technical context for the tool's implementation and capabilities; they do not substitute for a recording of the scheduled session.
