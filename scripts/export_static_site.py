@@ -1052,6 +1052,7 @@ pre {
   background: #101828;
   color: #f9fafb;
 }
+pre code { background: transparent; color: inherit; padding: 0; }
 .wiki-table-wrap { overflow-x: auto; margin: 1.15rem 0; border: 1px solid var(--line); border-radius: 8px; }
 .wiki-table { width: 100%; min-width: 680px; border-collapse: collapse; background: #fff; }
 .wiki-table th, .wiki-table td { padding: 11px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
