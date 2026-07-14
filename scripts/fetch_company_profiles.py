@@ -24,11 +24,12 @@ import requests
 from bs4 import BeautifulSoup
 
 from build_worldsfair_wiki import ROOT, assign_talk_slugs, day_to_date, slugify, talk_slug
+from third_party_connection_policy import INTERNAL_DIR, assess_connection, write_internal_policy
 
 
 RAW = ROOT / "raw" / "sources"
 PROFILES = RAW / "company-profiles.json"
-REPORT = RAW / "company-profile-fetch-report.json"
+REPORT = INTERNAL_DIR / "company-profile-fetch-report.json"
 
 USER_AGENT = "WorldsfairWikiCompanyEnricher/1.0 (+https://aie-worldsfair2026.plusrobot.ai/)"
 TIMEOUT = 7
@@ -170,6 +171,11 @@ def normalize_company_name(name: str) -> str:
     return cleaned
 
 
+def compact_company_brand(name: str) -> str:
+    """Preserve meaningful brand terms such as AI and Labs."""
+    return re.sub(r"[^a-z0-9]+", "", re.sub(r"\([^)]*\)", " ", name).lower())
+
+
 def domain_tokens(domain: str) -> str:
     host = urlparse(domain if "://" in domain else f"https://{domain}").netloc or domain
     host = host.lower().removeprefix("www.")
@@ -277,6 +283,29 @@ def score_final_metadata(company: str, candidate: Candidate, meta: dict) -> int:
     return score
 
 
+def validate_company_candidate(company: str, candidate: Candidate, meta: dict | None) -> dict:
+    company_norm = normalize_company_name(company)
+    company_brand = compact_company_brand(company)
+    host_norm = domain_tokens((meta or {}).get("url") or candidate.url)
+    metadata_blob = " ".join(str((meta or {}).get(key) or "") for key in ("title", "site_name", "description", "h1"))
+    metadata_norm = normalize_company_name(metadata_blob)
+    metadata_brand = compact_company_brand(metadata_blob)
+    domain_match = bool(company_norm and (company_norm == host_norm or company_norm in host_norm or host_norm in company_norm))
+    metadata_match = bool(
+        (company_norm and company_norm in metadata_norm)
+        or (company_brand and company_brand in metadata_brand)
+    )
+    search_corroboration = candidate.method == "duckduckgo" and company_norm in normalize_company_name(candidate.title + " " + candidate.snippet)
+    return assess_connection(
+        {
+            "primary_owner_metadata": metadata_match,
+            "independent_corroboration": search_corroboration,
+            "exact_name_only": domain_match and not metadata_match and not search_corroboration,
+        },
+        identity_required=True,
+    )
+
+
 def metadata_from_html(url: str, html_text: str) -> dict:
     soup = BeautifulSoup(html_text, "html.parser")
     title = soup.title.get_text(" ", strip=True) if soup.title else ""
@@ -337,13 +366,13 @@ def conference_context(company: str, people: list[dict], sessions: list[dict]) -
     return why, origin
 
 
-def build_profile(company: str, people: list[dict], sessions: list[dict], meta: dict | None, candidate: Candidate | None, status: str, score: int, slug: str = "") -> dict:
+def build_profile(company: str, people: list[dict], sessions: list[dict], meta: dict | None, candidate: Candidate | None, status: str, validation: dict, slug: str = "") -> dict:
     why, origin = conference_context(company, people, sessions)
     manual_summary = MANUAL_SUMMARIES.get(slug, "")
     if manual_summary:
         summary = f"{company} is represented at AI Engineer World's Fair 2026. {manual_summary}"
         source_labels = ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
-        if candidate:
+        if candidate and validation["disposition"] != "hold_for_review":
             origin = f"{origin} The public source was attached through a manual URL override because the fetched homepage metadata was generic or incomplete."
             links = [{"label": f"{company} public site", "url": candidate.url}]
         elif meta:
@@ -362,7 +391,7 @@ def build_profile(company: str, people: list[dict], sessions: list[dict], meta: 
         source_labels = ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
         origin = f"{origin} The public company site was discovered by {candidate.method if candidate else 'automated discovery'} and fetched, but usable metadata was limited."
         links = [{"label": title, "url": meta["url"]}]
-    elif candidate and candidate.method == "manual-url-override":
+    elif candidate and candidate.method == "manual-url-override" and validation["disposition"] != "hold_for_review":
         summary = (
             f"{company} is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. "
             f"A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass ({status})."
@@ -378,18 +407,22 @@ def build_profile(company: str, people: list[dict], sessions: list[dict], meta: 
         source_labels = ["Official speaker roster", "Official conference schedule", "Automated company profile fetch"]
         links = []
     profile = {
-        "website": meta.get("url") if meta else (candidate.url if candidate and candidate.method == "manual-url-override" else ""),
+        "website": meta.get("url") if meta else (
+            candidate.url
+            if candidate and candidate.method == "manual-url-override" and validation["disposition"] != "hold_for_review"
+            else ""
+        ),
         "summary": summary,
         "why_it_matters": why,
         "origin": origin,
         "notes": [
             f"Automated company profile fetch status: {status}.",
-            f"Discovery confidence score: {score}.",
+            f"Third-party identity validation: {validation['identity_status']}.",
         ],
         "sourceLabels": source_labels,
         "sourceLinks": links,
         "fetchStatus": status,
-        "fetchConfidence": score,
+        "thirdPartyValidation": {key: value for key, value in validation.items() if key != "internal_score"},
     }
     if meta:
         profile["fetchedMetadata"] = {k: v for k, v in meta.items() if k in ["title", "site_name", "description", "h1"]}
@@ -452,6 +485,7 @@ def fetch_profile_for_company(slug: str, company: str, people: list[dict], sessi
     attempts = []
     best_meta = None
     best_candidate = None
+    best_validation = assess_connection({}, identity_required=True)
     manual_candidate = candidates[0] if candidates and candidates[0].method == "manual-url-override" else None
     status = "no_candidates"
     score = 0
@@ -459,23 +493,26 @@ def fetch_profile_for_company(slug: str, company: str, people: list[dict], sessi
         time.sleep(delay)
         meta, fetch_status = fetch_site_metadata(candidate)
         final_score = score_final_metadata(company, candidate, meta) if meta else 0
-        attempts.append({"url": candidate.url, "method": candidate.method, "score": candidate.score, "final_score": final_score, "status": fetch_status, "final_url": meta.get("url") if meta else ""})
+        validation = validate_company_candidate(company, candidate, meta)
+        attempts.append({"url": candidate.url, "method": candidate.method, "score": candidate.score, "final_score": final_score, "validation": validation, "status": fetch_status, "final_url": meta.get("url") if meta else ""})
         if meta:
-            if final_score >= 55:
+            if final_score >= 55 and validation["disposition"] != "hold_for_review":
                 best_meta = meta
                 best_candidate = candidate
+                best_validation = validation
                 score = final_score
                 status = "fetched"
                 break
-            status = "rejected_low_confidence_site"
+            status = "held_for_identity_review" if validation["disposition"] == "hold_for_review" else "rejected_low_confidence_site"
             score = max(score, final_score)
             continue
         status = fetch_status
     if not best_meta and manual_candidate:
         best_candidate = manual_candidate
-        status = "manual_url_unfetched" if status in {"request_failed", "http_403", "http_429", "not_html", "generic_metadata"} else status
+        best_validation = validate_company_candidate(company, manual_candidate, None)
+        status = "manual_url_needs_identity_review"
         score = max(score, 50)
-    profile = build_profile(company, people, sessions, best_meta, best_candidate, status, score, slug)
+    profile = build_profile(company, people, sessions, best_meta, best_candidate, status, best_validation, slug)
     return profile, {"company": company, "status": status, "score": score, "attempts": attempts}
 
 
@@ -488,6 +525,7 @@ def main() -> int:
     parser.add_argument("--force", action="store_true", help="Refetch even when a profile summary already exists.")
     parser.add_argument("--slug", action="append", help="Only fetch this company slug. Repeatable.")
     args = parser.parse_args()
+    write_internal_policy()
 
     profiles = load_json(PROFILES, {})
     slug_to_company, people_by_company, sessions_by_company = collect_company_context()

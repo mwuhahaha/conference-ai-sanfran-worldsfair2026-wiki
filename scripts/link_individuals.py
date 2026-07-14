@@ -7,8 +7,11 @@ import argparse
 import itertools
 import json
 import re
+from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
+
+from third_party_connection_policy import assess_connection, write_internal_policy
 
 ROOT = Path(__file__).resolve().parents[1]
 PEOPLE = ROOT / "wiki" / "people"
@@ -18,7 +21,7 @@ URL_RE = re.compile(r'https?://[^\s)\]>"\']+')
 PROFILE_HOSTS = ("github.com", "linkedin.com", "x.com", "twitter.com")
 
 # Internal calibration only. Never include these values in wiki output.
-WEIGHTS = {"shared_session": 5, "explicit_person_link": 5, "shared_organization": 4, "shared_external_resource": 3}
+WEIGHTS = {"shared_session": 5, "explicit_person_link": 5, "shared_organization": 4}
 
 
 @dataclass(frozen=True)
@@ -57,13 +60,38 @@ def compare(left: Person, right: Person) -> dict | None:
         evidence.append({"type": "shared_organization", "target": value})
     if right.slug in left.people or left.slug in right.people:
         evidence.append({"type": "explicit_person_link", "target": right.slug if right.slug in left.people else left.slug})
-    for value in sorted(left.resources & right.resources):
-        evidence.append({"type": "shared_external_resource", "target": value})
     if not evidence:
         return None
     score = sum(WEIGHTS[item["type"]] for item in evidence)
     confidence = "high" if score >= 5 else "medium"
-    return {"left": left.slug, "right": right.slug, "confidence": confidence, "evidence": evidence, "internal_score": score}
+    validation = assess_connection(
+        {"official_exact_source": any(item["type"] == "shared_session" for item in evidence)},
+        identity_required=False,
+    )
+    return {
+        "left": left.slug,
+        "right": right.slug,
+        "confidence": confidence,
+        "evidence": evidence,
+        "validation": validation,
+        "internal_score": score,
+    }
+
+
+def profile_identity_collisions(people: list[Person]) -> list[dict]:
+    owners: dict[str, list[str]] = defaultdict(list)
+    for person in people:
+        for resource in person.resources:
+            owners[resource].append(person.slug)
+    return [
+        {
+            "resource": resource,
+            "people": sorted(set(slugs)),
+            "validation": assess_connection({"identity_conflict": True}, identity_required=True),
+        }
+        for resource, slugs in sorted(owners.items())
+        if len(set(slugs)) > 1
+    ]
 
 
 def main() -> int:
@@ -73,18 +101,21 @@ def main() -> int:
     people = load_people()
     pairs = len(people) * (len(people) - 1) // 2
     connections = [item for left, right in itertools.combinations(people, 2) if (item := compare(left, right))]
+    collisions = profile_identity_collisions(people)
     payload = {
-        "version": 1,
+        "version": 2,
         "people": len(people),
         "pairs_evaluated": pairs,
         "connections": connections,
-        "research_boundary": "External profiles and repositories are candidate sources, not proof of a relationship without corroborating evidence.",
+        "identity_collisions": collisions,
+        "research_boundary": "Shared external profiles are identity-collision warnings, never positive evidence that two people are connected.",
     }
     if not args.check:
+        write_internal_policy()
         CACHE.mkdir(parents=True, exist_ok=True)
         (CACHE / "connections.json").write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-        (CACHE / "scoring-profile.json").write_text(json.dumps({"version": 1, "weights": WEIGHTS}, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    print(json.dumps({"people": len(people), "pairs_evaluated": pairs, "connections": len(connections), "written": not args.check}))
+        (CACHE / "scoring-profile.json").write_text(json.dumps({"version": 2, "weights": WEIGHTS}, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps({"people": len(people), "pairs_evaluated": pairs, "connections": len(connections), "identity_collisions": len(collisions), "written": not args.check}))
     return 0
 
 

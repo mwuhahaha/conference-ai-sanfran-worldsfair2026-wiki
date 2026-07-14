@@ -19,11 +19,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from third_party_connection_policy import INTERNAL_DIR, write_internal_policy
+
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "raw" / "sources"
 WIKI = ROOT / "wiki"
 REPORT = RAW / "external-video-discovery-latest.json"
+INTERNAL_REPORT = INTERNAL_DIR / "external-video-discovery-internal.json"
 REPORT_MD = WIKI / "resources" / "external-video-discovery.md"
 OFFICIAL_CHANNELS = {"AI Engineer", "AI Engineer and Theo - t3․gg"}
 DEFAULT_QUERIES = [
@@ -73,6 +76,31 @@ def load_json(path: Path, fallback: Any) -> Any:
 def write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text.rstrip() + "\n", encoding="utf-8")
+
+
+def public_report(report: dict[str, Any]) -> dict[str, Any]:
+    """Remove numeric ranking internals while preserving reviewable source labels."""
+    sanitized = {
+        key: json.loads(json.dumps(report[key]))
+        for key in ("checked_at", "queries", "query_errors", "tool")
+        if key in report
+    }
+    sanitized["results"] = []
+    for row in report.get("results", []):
+        best = row.get("best_match") or {}
+        sanitized["results"].append({
+            "video": json.loads(json.dumps(row.get("video") or {})),
+            "confidence": row.get("confidence"),
+            "transcript_status": row.get("transcript_status"),
+            "official_channel": row.get("official_channel"),
+            "best_match": {"session": json.loads(json.dumps(best.get("session") or {}))},
+        })
+    sanitized["policy"] = {
+        "high_confidence_is_secondary_source_only": True,
+        "identity_and_event_association_require_separate_review": True,
+        "numeric_ranking_is_internal_only": True,
+    }
+    return sanitized
 
 
 def split_frontmatter(text: str) -> tuple[str, str]:
@@ -578,11 +606,9 @@ def update_talk_pages(report: dict[str, Any]) -> int:
             video = row.get("video", {})
             best = row.get("best_match") or {}
             transcript = row.get("transcript_status") or {}
-            reasons = "; ".join(best.get("reasons", [])) or "No reasons recorded."
             lines.append(f"- [{video.get('title')}]({video.get('webpage_url') or video_url(video.get('id', ''))})")
             lines.append(f"  - Uploader: {video.get('uploader') or video.get('channel')}")
-            lines.append(f"  - Confidence: {row.get('confidence')} ({best.get('score')})")
-            lines.append(f"  - Match evidence: {reasons}")
+            lines.append(f"  - Confidence label: {row.get('confidence')}")
             if transcript:
                 status = transcript.get("status")
                 path_text = f" `{transcript.get('path')}`" if transcript.get("path") else ""
@@ -606,10 +632,9 @@ def render_candidate(row: dict[str, Any]) -> list[str]:
     lines = [
         f"- [{video.get('title')}]({video.get('webpage_url') or video_url(video.get('id', ''))})",
         f"  - Uploader: {video.get('uploader') or video.get('channel')}",
-        f"  - Confidence: {row.get('confidence')} ({best.get('score')})",
+        f"  - Confidence label: {row.get('confidence')}",
         f"  - Matched talk: [[{match.get('slug')}|{match.get('title')}]]",
         f"  - Schedule: {match.get('day')} · {match.get('time')} · {match.get('room') or match.get('track')}",
-        f"  - Reasons: {'; '.join(best.get('reasons', [])) or 'No reasons recorded.'}",
     ]
     if transcript:
         lines.append(f"  - Transcript status: {transcript.get('status')} {transcript.get('path', '')}".rstrip())
@@ -688,9 +713,12 @@ def main() -> int:
     args = parser.parse_args()
 
     report = discover(args)
-    write(REPORT, json.dumps(report, indent=2, ensure_ascii=False))
+    write_internal_policy()
+    write(INTERNAL_REPORT, json.dumps(report, indent=2, ensure_ascii=False))
+    sanitized = public_report(report)
+    write(REPORT, json.dumps(sanitized, indent=2, ensure_ascii=False))
     if args.write_wiki:
-        write(REPORT_MD, render_wiki(report))
+        write(REPORT_MD, render_wiki(sanitized))
     talk_pages_updated = update_talk_pages(report) if args.update_talk_pages else 0
     print(
         json.dumps(
