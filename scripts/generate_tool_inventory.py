@@ -351,6 +351,39 @@ def render_index(records: list[dict]) -> str:
     return "\n".join(lines)
 
 
+def external_comparison_records(existing_ids: set[str]) -> list[dict]:
+    """Keep intentionally authored, non-corpus comparison tools in the inventory.
+
+    These pages must declare their external-comparison status so unrelated manual
+    pages cannot silently become conference inventory entries.
+    """
+    records = []
+    for path in sorted((WIKI / "tools").glob("*.md")):
+        if path.stem in existing_ids:
+            continue
+        fields = existing_frontmatter(path.read_text(errors="ignore"))
+        if fields.get("status") != "external comparison":
+            continue
+        title = fields.get("title")
+        labels = fields.get("sourceLabels")
+        aliases = fields.get("aliases", [])
+        if not isinstance(title, str) or not isinstance(labels, list) or not isinstance(aliases, list):
+            continue
+        records.append(
+            {
+                "id": path.stem,
+                "title": title,
+                "path": f"wiki/tools/{path.name}",
+                "aliases": aliases,
+                "sourceLabels": labels,
+                "scheduleTracks": [],
+                "scheduleRooms": [],
+                "evidenceCounts": {"schedule": 0, "youtube": 0, "slides": 0, "resources": 0, "topics": 0, "transcripts": 0},
+            }
+        )
+    return records
+
+
 def main() -> int:
     records = []
     for tool in TOOLS:
@@ -381,6 +414,8 @@ def main() -> int:
                 "evidenceCounts": {key: len(value) for key, value in evidence.items()},
             }
         )
+
+    records.extend(external_comparison_records({record["id"] for record in records}))
 
     records.sort(key=lambda item: item["title"].lower())
     (WIKI / "tools" / "registry.json").write_text(json.dumps(records, indent=2, ensure_ascii=False) + "\n")

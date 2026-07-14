@@ -24,6 +24,9 @@ chrome-agent is named in [[2026-06-30-corey-gallon-the-dark-arts-of-web-automati
 - One-shot commands for scripts and persistent event streams for longer-running observation.
 - Access to the running browser's available CDP domains rather than a fixed curated browser-tool subset.
 
+## Alternative Implementation
+[[sderosiaux-chrome-agent|sderosiaux/chrome-agent]] is an independent Rust browser-agent CLI that also works through Chrome DevTools Protocol. It is not Corey Gallon's work and is not evidence for his scheduled session. See [[chrome-agent-implementation-delta|the implementation delta]] for the project identities, technical differences, and source boundary.
+
 ## Related Scheduled Sessions
 - [[2026-06-30-corey-gallon-the-dark-arts-of-web-automation-teaching-agents-to-use-websites-like-humans]] — The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans (Computer Use / Track 7)
 
@@ -32,6 +35,8 @@ chrome-agent is named in [[2026-06-30-corey-gallon-the-dark-arts-of-web-automati
 - [[rexmore]]
 - [[agentic-web]]
 - [[ai-sandboxes]]
+- [[sderosiaux-chrome-agent]]
+- [[chrome-agent-implementation-delta]]
 
 ## Public Sources
 - [Corey Gallon's chrome-agent repository](https://github.com/captivus/chrome-agent)

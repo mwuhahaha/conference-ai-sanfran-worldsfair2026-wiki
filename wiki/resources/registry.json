@@ -30,6 +30,11 @@
     "path": "wiki/resources/aie-wiki-generation-delta.md"
   },
   {
+    "id": "chrome-agent-implementation-delta",
+    "title": "chrome-agent Implementation Delta",
+    "path": "wiki/resources/chrome-agent-implementation-delta.md"
+  },
+  {
     "id": "external-video-discovery",
     "title": "External YouTube Video Discovery",
     "path": "wiki/resources/external-video-discovery.md"

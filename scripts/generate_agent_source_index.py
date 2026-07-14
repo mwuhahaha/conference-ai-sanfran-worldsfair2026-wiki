@@ -139,7 +139,7 @@ def main() -> int:
         f"- Slides: {count_pages('slides')} slide pages; standard decks: {count_slide_pages('standard')}; reconstructed decks: {count_slide_pages('reconstructed')}; dense decks: {count_slide_pages('dense')}.",
         f"- Transcripts: {count_pages('transcripts')} transcript markdown pages.",
         f"- Quotes: {count_pages('quotes')} selected quote pages tied back to source videos and topics.",
-        f"- Tools: {count_pages('tools')} tool/protocol/entity pages generated from the conference evidence layer.",
+        f"- Tools: {count_pages('tools')} tool/protocol/entity pages, primarily from the conference evidence layer; explicitly labeled external comparison pages may also appear.",
         *[f"- {label}: {count} {description}." for count, label, description in optional_corpus_lines if count],
         f"- Questions: {count_pages('questions')} question pages raised by the conference corpus.",
         f"- Harnesses: {count_pages('harnesses')} evaluation or implementation harness pages.",
