@@ -273,6 +273,21 @@ def render_safe_html_table(source: str, by_id: dict[str, Page], by_stem: dict[st
     return '<div class="wiki-table-wrap"><table class="wiki-table">' + "".join(sections) + "</table></div>"
 
 
+def render_code_block(code: str) -> str:
+    escaped = html.escape(code)
+    return f'''<div class="code-block">
+  <div class="code-toolbar" aria-label="Code block tools">
+    <span>Code</span>
+    <div class="code-actions">
+      <button type="button" data-code-action="copy">Copy</button>
+      <button type="button" data-code-action="select">Select</button>
+      <button type="button" data-code-action="wrap" aria-pressed="false">Wrap</button>
+    </div>
+  </div>
+  <pre><code>{escaped}</code></pre>
+</div>'''
+
+
 def render_markdown(markdown: str, by_id: dict[str, Page], by_stem: dict[str, Page]) -> str:
     rendered_tables: dict[str, str] = {}
 
@@ -312,7 +327,7 @@ def render_markdown(markdown: str, by_id: dict[str, Page], by_stem: dict[str, Pa
         stripped = line.rstrip()
         if stripped.startswith("```"):
             if in_code:
-                output.append(f"<pre><code>{html.escape(chr(10).join(code_lines))}</code></pre>")
+                output.append(render_code_block(chr(10).join(code_lines)))
                 code_lines = []
                 in_code = False
             else:
@@ -366,7 +381,7 @@ def render_markdown(markdown: str, by_id: dict[str, Page], by_stem: dict[str, Pa
     close_list()
     close_quote()
     if in_code:
-        output.append(f"<pre><code>{html.escape(chr(10).join(code_lines))}</code></pre>")
+        output.append(render_code_block(chr(10).join(code_lines)))
     rendered = "\n".join(output)
     for token, table in rendered_tables.items():
         rendered = rendered.replace(f"<p>{token}</p>", table)
@@ -415,6 +430,59 @@ def render_layout(title: str, body: str, pages: list[Page], current: str = "") -
   <main>
     {body}
   </main>
+  <script>
+    (() => {{
+      const fallbackCopy = (text) => {{
+        const textarea = document.createElement("textarea");
+        textarea.value = text;
+        textarea.setAttribute("readonly", "");
+        textarea.style.position = "fixed";
+        textarea.style.opacity = "0";
+        document.body.append(textarea);
+        textarea.select();
+        const copied = document.execCommand("copy");
+        textarea.remove();
+        return copied;
+      }};
+      document.addEventListener("click", async (event) => {{
+        const button = event.target.closest("[data-code-action]");
+        if (!button) return;
+        const block = button.closest(".code-block");
+        const code = block?.querySelector("code");
+        if (!block || !code) return;
+        const action = button.dataset.codeAction;
+        if (action === "wrap") {{
+          const wrapped = block.classList.toggle("code-wrap");
+          button.setAttribute("aria-pressed", String(wrapped));
+          button.textContent = wrapped ? "No wrap" : "Wrap";
+          return;
+        }}
+        if (action === "select") {{
+          const range = document.createRange();
+          range.selectNodeContents(code);
+          const selection = window.getSelection();
+          selection.removeAllRanges();
+          selection.addRange(range);
+          button.textContent = "Selected";
+          window.setTimeout(() => {{ button.textContent = "Select"; }}, 1400);
+          return;
+        }}
+        const text = code.textContent || "";
+        let copied = false;
+        try {{
+          if (navigator.clipboard?.writeText) {{
+            await navigator.clipboard.writeText(text);
+            copied = true;
+          }}
+        }} catch (_) {{
+          copied = false;
+        }}
+        copied = copied || fallbackCopy(text);
+        button.textContent = copied ? "Copied" : "Copy failed";
+        window.setTimeout(() => {{ button.textContent = "Copy"; }}, 1600);
+      }});
+    }})();
+  </script>
 </body>
 </html>
 """
@@ -1047,12 +1115,19 @@ p, li { max-width: 76ch; }
 code { background: #eef2ec; border-radius: 5px; padding: 0.1em 0.35em; }
 pre {
   overflow: auto;
+  margin: 0;
   padding: 14px;
-  border-radius: 8px;
+  border-radius: 0 0 8px 8px;
   background: #101828;
   color: #f9fafb;
 }
 pre code { background: transparent; color: inherit; padding: 0; }
+.code-block { margin: 1rem 0; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 0 rgba(16, 24, 40, 0.2); }
+.code-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 40px; padding: 6px 10px 6px 14px; background: #18243a; color: #b8c3d6; font: 700 0.78rem/1 system-ui, sans-serif; text-transform: uppercase; letter-spacing: 0.04em; }
+.code-actions { display: flex; align-items: center; gap: 6px; }
+.code-actions button { border: 1px solid #50617d; border-radius: 5px; padding: 5px 8px; background: transparent; color: #f8fafc; font: inherit; letter-spacing: 0; text-transform: none; cursor: pointer; }
+.code-actions button:hover, .code-actions button:focus-visible { border-color: #8bd2c8; background: #243653; outline: none; }
+.code-wrap pre { white-space: pre-wrap; overflow-wrap: anywhere; }
 .wiki-table-wrap { overflow-x: auto; margin: 1.15rem 0; border: 1px solid var(--line); border-radius: 8px; }
 .wiki-table { width: 100%; min-width: 680px; border-collapse: collapse; background: #fff; }
 .wiki-table th, .wiki-table td { padding: 11px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
