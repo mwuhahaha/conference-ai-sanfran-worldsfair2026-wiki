@@ -248,7 +248,40 @@ def render_inline(text: str, by_id: dict[str, Page], by_stem: dict[str, Page]) -
     return escaped
 
 
+def render_safe_html_table(source: str, by_id: dict[str, Page], by_stem: dict[str, Page]) -> str:
+    """Render a deliberately small, attribute-free HTML table subset.
+
+    Wiki markdown is escaped by default. Tables are the sole raw-HTML exception,
+    reconstructed from table/section/row/cell tags so page text cannot inject
+    scripts, attributes, styles, or arbitrary markup.
+    """
+    sections: list[str] = []
+    for section_name in ("thead", "tbody"):
+        match = re.search(rf"<{section_name}>\s*(.*?)\s*</{section_name}>", source, re.S)
+        if not match:
+            continue
+        rows = []
+        for row in re.findall(r"<tr>\s*(.*?)\s*</tr>", match.group(1), re.S):
+            cells = []
+            for tag, value in re.findall(r"<(th|td)>\s*(.*?)\s*</\1>", row, re.S):
+                value = re.sub(r"<code>(.*?)</code>", lambda match: f"`{match.group(1)}`", value, flags=re.S)
+                cells.append(f"<{tag}>{render_inline(' '.join(value.split()), by_id, by_stem)}</{tag}>")
+            if cells:
+                rows.append("<tr>" + "".join(cells) + "</tr>")
+        if rows:
+            sections.append(f"<{section_name}>" + "".join(rows) + f"</{section_name}>")
+    return '<div class="wiki-table-wrap"><table class="wiki-table">' + "".join(sections) + "</table></div>"
+
+
 def render_markdown(markdown: str, by_id: dict[str, Page], by_stem: dict[str, Page]) -> str:
+    rendered_tables: dict[str, str] = {}
+
+    def stash_table(match: re.Match[str]) -> str:
+        token = f"@@WIKI_TABLE_{len(rendered_tables)}@@"
+        rendered_tables[token] = render_safe_html_table(match.group(0), by_id, by_stem)
+        return token
+
+    markdown = re.sub(r"<table>\s*.*?\s*</table>", stash_table, markdown, flags=re.S)
     lines = markdown.splitlines()
     output: list[str] = []
     paragraph: list[str] = []
@@ -334,7 +367,10 @@ def render_markdown(markdown: str, by_id: dict[str, Page], by_stem: dict[str, Pa
     close_quote()
     if in_code:
         output.append(f"<pre><code>{html.escape(chr(10).join(code_lines))}</code></pre>")
-    return "\n".join(output)
+    rendered = "\n".join(output)
+    for token, table in rendered_tables.items():
+        rendered = rendered.replace(f"<p>{token}</p>", table)
+    return rendered
 
 
 def category_sort_key(category: str) -> tuple[int, str]:
@@ -1016,6 +1052,12 @@ pre {
   background: #101828;
   color: #f9fafb;
 }
+.wiki-table-wrap { overflow-x: auto; margin: 1.15rem 0; border: 1px solid var(--line); border-radius: 8px; }
+.wiki-table { width: 100%; min-width: 680px; border-collapse: collapse; background: #fff; }
+.wiki-table th, .wiki-table td { padding: 11px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.wiki-table th { background: #eef5f2; color: #173b36; font-size: 0.86rem; }
+.wiki-table tr:last-child td { border-bottom: 0; }
+.wiki-table td code { white-space: nowrap; }
 blockquote {
   margin: 1rem 0;
   padding: 0.2rem 0 0.2rem 1rem;

@@ -24,6 +24,56 @@ chrome-agent is named in [[2026-06-30-corey-gallon-the-dark-arts-of-web-automati
 - One-shot commands for scripts and persistent event streams for longer-running observation.
 - Access to the running browser's available CDP domains rather than a fixed curated browser-tool subset.
 
+## How To Use It
+Install the Python CLI with `uv tool install chrome-agent`, then launch an isolated Chrome instance. The instance name is the address used for all later CDP commands.
+
+```bash
+# Start an isolated, CDP-enabled browser.
+chrome-agent launch
+
+# Inspect available instances and page targets.
+chrome-agent status
+
+# Navigate and read an exact value from the page.
+chrome-agent myproject-01 Page.navigate '{"url":"https://example.com"}'
+chrome-agent myproject-01 Runtime.evaluate '{"expression":"document.title","returnByValue":true}'
+
+# Discover the protocol supported by this running Chrome.
+chrome-agent help myproject-01 Page.navigate
+
+# Shut down the isolated instance when the work is complete.
+chrome-agent stop myproject-01
+```
+
+For event-driven debugging, keep an `attach` process running while another process drives the page. The observer receives JSON lines only for the events it subscribed to.
+
+```bash
+chrome-agent attach myproject-01 +Page.loadEventFired +Network.requestWillBeSent > /tmp/chrome-agent-events.jsonl &
+chrome-agent myproject-01 Page.navigate '{"url":"https://example.com"}'
+```
+
+## Effective Use Cases
+<table>
+  <thead>
+    <tr><th>Situation</th><th>Useful approach</th><th>Why this tool fits</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Debug a web app against a real Chrome</td><td>Use <code>Runtime.evaluate</code>, <code>Network</code>, and <code>Log</code> commands against one named instance.</td><td>The CLI forwards arbitrary CDP methods instead of limiting work to a small browser-tool surface.</td></tr>
+    <tr><td>Observe a workflow while a human or another agent drives it</td><td>Run <code>attach</code> with narrow Page or Network subscriptions.</td><td>Each participant has an isolated event subscription, avoiding a shared noisy stream.</td></tr>
+    <tr><td>Turn a repeated browser check into a script</td><td>Use one-shot commands for navigation, evaluation, screenshots, and direct protocol calls.</td><td>The command interface is stable while the exact supported CDP surface comes from the running browser.</td></tr>
+    <tr><td>Operate a UI that ignores a synthetic DOM click</td><td>Locate coordinates, dispatch paired <code>Input.dispatchMouseEvent</code> press and release events, then observe the result.</td><td>Input-domain events go through Chrome's native input pipeline.</td></tr>
+    <tr><td>Investigate a SPA or network-backed page</td><td>Wait on a Page event or observable page condition, then observe the actual request rather than guessing endpoints.</td><td>Persistent event streaming exposes browser-observed navigation and network consequences.</td></tr>
+  </tbody>
+</table>
+
+## Operating Tricks And Guardrails
+- Ask the live browser for the command signature with `chrome-agent help <instance> Domain.method` before using a less familiar or newly added CDP capability; its protocol schema is more current than a static command list.
+- Use a sense-act-sense loop: inspect DOM, accessibility, runtime, or network state; act; then confirm an observable effect. A successful command response alone is not proof the UI changed.
+- Prefer `--url` or a target-id prefix when more than one tab is open. Numeric target positions can change as tabs are added or removed.
+- Avoid fixed sleeps after navigation. Wait for `Page.loadEventFired`, `document.readyState`, or the element/state that establishes page readiness.
+- Keep credentialed work within accounts and systems you are authorized to access. Use an isolated browser profile by default; do not treat CDP access as permission to extract credentials or bypass site controls.
+- Use `cleanup` after interrupted headless runs to remove stale instance records.
+
 ## Alternative Implementation
 [[sderosiaux-chrome-agent|sderosiaux/chrome-agent]] is an independent Rust browser-agent CLI that also works through Chrome DevTools Protocol. It is not Corey Gallon's work and is not evidence for his scheduled session. See [[chrome-agent-implementation-delta|the implementation delta]] for the project identities, technical differences, and source boundary.
 
