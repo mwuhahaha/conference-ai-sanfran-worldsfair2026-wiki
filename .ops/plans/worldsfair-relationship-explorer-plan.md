@@ -526,7 +526,7 @@ Acceptance:
 
 #### R3.S3 - Production Verification And Cleanup
 
-- [ ] Story status: pending.
+- [x] Story status: completed.
 
 - Run full local builds and Playwright matrices.
 - Deploy one commit through the existing Cloudflare Pages workflow.

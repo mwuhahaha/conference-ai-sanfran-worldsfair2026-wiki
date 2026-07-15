@@ -2,7 +2,7 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-15T10:54:20-04:00
+updated: 2026-07-15T11:05:04-04:00
 ---
 
 # AI Engineer World's Fair 2026 Project State
@@ -12,14 +12,15 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
 ## Relationship Explorer Release
 
 - Canonical plan: `.ops/plans/worldsfair-relationship-explorer-plan.md`.
-- Status: implementation and local verification complete; production verification remains.
+- Status: implementation, deployment, and live verification complete.
 - Primary templates: Vendor-Concept, Person-Concept, and Concept-Concept.
 - Current corpus: 75 explicit vendors, 555 people, 16 concepts, and 3,063 exact evidence-path relationship records.
 - `/graph/` is the search-first explorer; `/graph/all/` preserves the complete wiki-link graph.
 - `relationship-data.json` is separate from `graph-data.json`; internal review candidates remain under ignored `.ops/state/cache/` only.
 - The reusable implementation and conservative Worldsfair profile producer live in `/garage/obsidian/wiki-from-topic-maker`.
-- Next single story: R3.S3 production deployment and live verification.
-- The existing static-navigation S3 story remains parked until this release is verified; it is not cancelled or merged into the explorer work.
+- Deployment: commit `7fabb4c4`, GitHub Actions run `29426268484`, successful.
+- Live verification passed on desktop and mobile for all three templates, exact matrix/list totals, evidence drawers, zoom, relation filters, and the advanced dataset.
+- Next single story returns to S3 in `.ops/plans/worldsfair-static-navigation-followup.md`.
 
 ## Latest Completed Follow-Up Stories
 
