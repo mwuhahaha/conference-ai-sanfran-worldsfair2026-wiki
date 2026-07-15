@@ -35,6 +35,15 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
   `29428779987`, successful. The live Corey Gallon check shows 8 direct
   relationships across 9 entities at step 1, then a bounded 50-entity/100-edge
   step-2 scene, with the canonical `/people/corey-gallon/` link intact.
+- Entity neighborhoods now overlay the separately labeled wiki-navigation
+  layer, center the selected article with a distinct color, arrange each hop in
+  radial rings, reveal deeper labels through zoom, and make Fit recompute the
+  radial organization before resetting the camera.
+- Radial/navigation implementation: commit `bc5f296e`, GitHub Actions run
+  `29429936213`, successful. The live Corey Gallon direct scene contains 31
+  edges across 30 articles, including linked companies, highlights, resources,
+  slides, talks, tools, topics, and transcripts. Desktop/mobile checks passed
+  without page errors, failed requests, or document overflow.
 - Next single story returns to S3 in `.ops/plans/worldsfair-static-navigation-followup.md`.
 
 ## Latest Completed Follow-Up Stories
