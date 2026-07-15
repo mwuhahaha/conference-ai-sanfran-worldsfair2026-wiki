@@ -777,6 +777,7 @@ def render_relationship_explorer(pages: list[Page]) -> str:
   <div id="relationship-explorer" class="relationship-explorer" data-ready="false">
     <div class="relationship-toolbar">
       <div class="relationship-segments" aria-label="Relationship template">
+        <button type="button" data-relationship-template="entity_neighborhood">Entity neighborhood</button>
         <button type="button" data-relationship-template="vendor_concept">Vendors + Concepts</button>
         <button type="button" data-relationship-template="person_concept">People + Concepts</button>
         <button type="button" data-relationship-template="concept_concept">Concepts + Concepts</button>
@@ -1726,7 +1727,7 @@ blockquote {
 .relationship-toolbar { display: grid; grid-template-columns: minmax(210px, 1fr) minmax(170px, .7fr) minmax(170px, .7fr) auto auto; gap: 10px; align-items: end; padding: 14px; border: 1px solid var(--line); border-radius: 8px 8px 0 0; background: #f8faf9; }
 .relationship-toolbar label { position: relative; color: var(--muted); font-size: .76rem; font-weight: 800; }
 .relationship-toolbar input[type="search"], .relationship-toolbar select { display: block; width: 100%; min-height: 40px; margin-top: 4px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 7px; background: #fff; color: var(--ink); font: inherit; }
-.relationship-segments { display: grid; grid-column: 1 / -1; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2px; padding: 3px; border: 1px solid var(--line); border-radius: 7px; background: #eef2ef; }
+.relationship-segments { display: grid; grid-column: 1 / -1; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2px; padding: 3px; border: 1px solid var(--line); border-radius: 7px; background: #eef2ef; }
 .relationship-segments button, .relationship-tabs button { min-height: 36px; border: 0; border-radius: 5px; background: transparent; color: var(--muted); font: inherit; font-size: .82rem; font-weight: 800; cursor: pointer; }
 .relationship-segments button.active, .relationship-tabs button.active { background: #fff; color: var(--ink); box-shadow: 0 1px 4px rgba(16,24,40,.12); }
 .relationship-toggle { display: flex; align-items: center; gap: 7px; min-height: 40px; padding: 0 5px; white-space: nowrap; }

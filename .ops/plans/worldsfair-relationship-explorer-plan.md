@@ -617,6 +617,10 @@ Browser matrix:
   progressively expanded scenes at 100 nodes and 200 relationships.
 - [x] Reduce forced labels in multi-step scenes for readable desktop and mobile
   rendering without removing node or edge interaction.
+- [x] Add an `Entity neighborhood` union view: step 1 contains only the
+  selected entity's direct semantic relationships; the primary progressive
+  action then adds role-balanced connections-of-connections from the existing
+  Vendor-Concept, Person-Concept, and Concept-Concept records.
 
 ## Research Basis
 

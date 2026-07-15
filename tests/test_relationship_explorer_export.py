@@ -21,6 +21,7 @@ class RelationshipExplorerExportTests(unittest.TestCase):
 
         self.assertIn("Relationship explorer", rendered)
         self.assertIn('data-relationship-template="vendor_concept"', rendered)
+        self.assertIn('data-relationship-template="entity_neighborhood"', rendered)
         self.assertIn('data-relationship-template="person_concept"', rendered)
         self.assertIn('data-relationship-template="concept_concept"', rendered)
         self.assertIn('data-relationship-view="landscape"', rendered)
@@ -50,6 +51,8 @@ class RelationshipExplorerExportTests(unittest.TestCase):
         self.assertIn("const depthLimits = {1: [26, 60], 2: [50, 100], 3: [80, 160]}", script)
         self.assertIn("reachableIds.has(relationship.source) && reachableIds.has(relationship.target)", script)
         self.assertIn('selectedEntityLink.href = node.url', script)
+        self.assertIn('if (activeTemplate === "entity_neighborhood") return relationships', script)
+        self.assertIn("Show connections' connections", script)
         self.assertIn("relationship-expand", script)
         self.assertIn("relationship-type", script)
         self.assertIn("relationship.publicReason", script)

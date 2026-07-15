@@ -2,6 +2,7 @@ import Graph from "https://esm.sh/graphology@0.26.0";
 import Sigma from "https://esm.sh/sigma@3.0.3";
 
 const TEMPLATE_ROLES = {
+  entity_neighborhood: new Set(["vendor", "person", "concept"]),
   vendor_concept: new Set(["vendor", "concept"]),
   person_concept: new Set(["person", "concept"]),
   concept_concept: new Set(["concept"]),
@@ -14,6 +15,7 @@ const ROLE_COLORS = {
   organization: "#475569",
 };
 const TEMPLATE_LABELS = {
+  entity_neighborhood: "Entity neighborhood",
   vendor_concept: "Vendors + Concepts",
   person_concept: "People + Concepts",
   concept_concept: "Concepts + Concepts",
@@ -62,6 +64,7 @@ for (const node of nodes.values()) {
 const params = new URLSearchParams(location.search);
 let activeTemplate = TEMPLATE_ROLES[params.get("template")] ? params.get("template") : "vendor_concept";
 let activeView = ["landscape", "graph", "list", "matrix"].includes(params.get("view")) ? params.get("view") : "landscape";
+if (activeTemplate === "entity_neighborhood" && activeView === "matrix") activeView = "graph";
 let selectedId = nodes.has(params.get("entity")) ? params.get("entity") : "";
 let compareId = nodes.has(params.get("compare")) ? params.get("compare") : "";
 if (activeTemplate !== "concept_concept" || nodeRole(compareId) !== "concept") compareId = "";
@@ -80,6 +83,7 @@ function nodeTitle(id) {
 }
 
 function templateRelationships() {
+  if (activeTemplate === "entity_neighborhood") return relationships;
   return relationships.filter((relationship) => relationship.template === activeTemplate);
 }
 
@@ -125,6 +129,7 @@ function syncUrl() {
 
 function setTemplate(template) {
   activeTemplate = template;
+  if (activeTemplate === "entity_neighborhood" && activeView === "matrix") activeView = "graph";
   selectedId = "";
   compareId = "";
   selectedRelationshipId = "";
@@ -281,6 +286,10 @@ function roleAxis() {
 
 function renderMatrix() {
   clearElement(matrix);
+  if (activeTemplate === "entity_neighborhood") {
+    matrix.append(emptyMessage("Matrix view is available for the typed relationship templates."));
+    return;
+  }
   const rows = filteredRelationships();
   const [rowRole, columnRole] = roleAxis();
   const rowIds = new Set();
@@ -378,32 +387,69 @@ function renderGraph() {
       adjacency.get(id).push(relationship);
     });
   });
+  const distances = new Map(selectedId ? [[selectedId, 0]] : []);
+  const parentRelationships = new Map();
   const reachableIds = new Set(selectedId ? [selectedId] : []);
   let frontier = new Set(selectedId ? [selectedId] : []);
   for (let step = 0; step < neighborhoodDepth; step += 1) {
     const nextFrontier = new Set();
     frontier.forEach((id) => (adjacency.get(id) || []).forEach((relationship) => {
       const other = relationship.source === id ? relationship.target : relationship.source;
-      if (!reachableIds.has(other)) nextFrontier.add(other);
+      if (!reachableIds.has(other)) {
+        nextFrontier.add(other);
+        distances.set(other, step + 1);
+        parentRelationships.set(other, relationship);
+      }
       reachableIds.add(other);
     }));
     frontier = nextFrontier;
     if (!frontier.size) break;
   }
-  const eligible = allEligible.filter((relationship) => reachableIds.has(relationship.source) && reachableIds.has(relationship.target));
+  const eligible = neighborhoodDepth === 1
+    ? allEligible.filter((relationship) => relationship.source === selectedId || relationship.target === selectedId)
+    : allEligible.filter((relationship) => reachableIds.has(relationship.source) && reachableIds.has(relationship.target));
   const depthLimits = {1: [26, 60], 2: [50, 100], 3: [80, 160]};
   const [baseNodeLimit, baseRelationshipLimit] = depthLimits[neighborhoodDepth];
   const nodeLimit = expanded ? Math.min(100, baseNodeLimit + 30) : baseNodeLimit;
   const relationshipLimit = expanded ? Math.min(200, baseRelationshipLimit + 60) : baseRelationshipLimit;
-  const limitedRelationships = [];
   const visibleIds = new Set(selectedId ? [selectedId] : []);
-  for (const relationship of eligible) {
-    if (limitedRelationships.length >= relationshipLimit) break;
-    const additions = [relationship.source, relationship.target].filter((id) => !visibleIds.has(id));
-    if (visibleIds.size + additions.length > nodeLimit) continue;
-    additions.forEach((id) => visibleIds.add(id));
-    limitedRelationships.push(relationship);
+  const roleOrder = ["vendor", "person", "concept", "evidence"];
+  for (let distance = 1; distance <= neighborhoodDepth && visibleIds.size < nodeLimit; distance += 1) {
+    const buckets = new Map(roleOrder.map((role) => [role, []]));
+    [...reachableIds]
+      .filter((id) => distances.get(id) === distance)
+      .sort((left, right) => nodeTitle(left).localeCompare(nodeTitle(right)))
+      .forEach((id) => (buckets.get(nodeRole(id)) || buckets.get("evidence")).push(id));
+    while (visibleIds.size < nodeLimit && roleOrder.some((role) => buckets.get(role).length)) {
+      roleOrder.forEach((role) => {
+        const id = buckets.get(role).shift();
+        if (id && visibleIds.size < nodeLimit) visibleIds.add(id);
+      });
+    }
   }
+  const candidateRelationships = eligible
+    .filter((relationship) => visibleIds.has(relationship.source) && visibleIds.has(relationship.target))
+    .sort((left, right) => {
+      const leftIncident = left.source === selectedId || left.target === selectedId ? 0 : 1;
+      const rightIncident = right.source === selectedId || right.target === selectedId ? 0 : 1;
+      return leftIncident - rightIncident
+        || Math.max(distances.get(left.source) || 0, distances.get(left.target) || 0) - Math.max(distances.get(right.source) || 0, distances.get(right.target) || 0)
+        || left.id.localeCompare(right.id);
+    });
+  const limitedRelationships = [];
+  const includedRelationshipIds = new Set();
+  [...visibleIds].forEach((id) => {
+    const relationship = parentRelationships.get(id);
+    if (relationship && visibleIds.has(relationship.source) && visibleIds.has(relationship.target) && !includedRelationshipIds.has(relationship.id)) {
+      includedRelationshipIds.add(relationship.id);
+      limitedRelationships.push(relationship);
+    }
+  });
+  candidateRelationships.forEach((relationship) => {
+    if (limitedRelationships.length >= relationshipLimit || includedRelationshipIds.has(relationship.id)) return;
+    includedRelationshipIds.add(relationship.id);
+    limitedRelationships.push(relationship);
+  });
   emptyGraph.hidden = Boolean(selectedId && limitedRelationships.length);
   if (!selectedId) {
     emptyGraph.textContent = "Choose a vendor, person, or concept to draw a focused relationship scene.";
@@ -459,8 +505,14 @@ function renderGraph() {
   document.querySelector("#relationship-zoom-out").onclick = () => renderer?.getCamera().animatedUnzoom({duration: 200});
   document.querySelector("#relationship-fit").onclick = () => renderer?.getCamera().animatedReset({duration: 250});
   const omitted = eligible.length - limitedRelationships.length;
-  expand.hidden = omitted <= 0 || (nodeLimit === 100 && relationshipLimit === 200);
-  expand.textContent = expanded ? "At maximum" : "Show more nodes";
+  const hasFurtherConnections = neighborhoodDepth < 3 && allEligible.some((relationship) => (
+    reachableIds.has(relationship.source) !== reachableIds.has(relationship.target)
+  ));
+  const canExpandScene = omitted > 0 && !(nodeLimit === 100 && relationshipLimit === 200);
+  expand.hidden = !hasFurtherConnections && !canExpandScene;
+  expand.textContent = hasFurtherConnections
+    ? (neighborhoodDepth === 1 ? "Show connections' connections" : "Show one more step")
+    : "Show more nodes";
   emptyGraph.hidden = true;
   status.textContent = `${nodeTitle(selectedId)}: showing ${limitedRelationships.length.toLocaleString()} relationships among ${visibleIds.size.toLocaleString()} entities within ${neighborhoodDepth} step${neighborhoodDepth === 1 ? "" : "s"}.`;
   if (omitted > 0) status.textContent += ` ${omitted.toLocaleString()} more relationships are outside this bounded ${neighborhoodDepth}-step scene.`;
@@ -591,9 +643,10 @@ function updateControls() {
     item.classList.toggle("active", active);
     item.setAttribute("aria-selected", String(active));
   });
-  const placeholderRole = activeTemplate === "vendor_concept" ? "vendor or concept" : activeTemplate === "person_concept" ? "person or concept" : "concept";
+  const placeholderRole = activeTemplate === "entity_neighborhood" ? "person, vendor, or concept" : activeTemplate === "vendor_concept" ? "vendor or concept" : activeTemplate === "person_concept" ? "person or concept" : "concept";
   search.placeholder = `Find a ${placeholderRole}`;
   compareLabel.hidden = activeTemplate !== "concept_concept";
+  tabs.find((item) => item.dataset.relationshipView === "matrix").hidden = activeTemplate === "entity_neighborhood";
   depthControls.forEach((item) => {
     const active = Number(item.dataset.relationshipDepth) === neighborhoodDepth;
     item.classList.toggle("active", active);
@@ -667,8 +720,14 @@ layer.addEventListener("change", update);
 relationType.addEventListener("change", update);
 includeDerived.addEventListener("change", update);
 expand.addEventListener("click", () => {
-  expanded = true;
-  renderGraph();
+  if (neighborhoodDepth < 3) {
+    neighborhoodDepth += 1;
+    expanded = false;
+    update();
+  } else {
+    expanded = true;
+    renderGraph();
+  }
 });
 depthControls.forEach((item) => item.addEventListener("click", () => {
   neighborhoodDepth = Number(item.dataset.relationshipDepth);
