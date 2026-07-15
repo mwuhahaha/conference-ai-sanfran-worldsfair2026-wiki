@@ -31,6 +31,7 @@ class RelationshipExplorerExportTests(unittest.TestCase):
         self.assertIn('href="/graph/all/"', rendered)
         self.assertIn('id="relationship-selected-link"', rendered)
         self.assertIn('data-relationship-depth="3"', rendered)
+        self.assertIn("Wiki link", rendered)
         self.assertNotIn('id="graph-canvas"', rendered)
 
     def test_advanced_page_retains_full_graph_controls(self):
@@ -53,6 +54,10 @@ class RelationshipExplorerExportTests(unittest.TestCase):
         self.assertIn('selectedEntityLink.href = node.url', script)
         self.assertIn('if (activeTemplate === "entity_neighborhood") return relationships', script)
         self.assertIn("Show connections' connections", script)
+        self.assertIn('fetch("/graph-data.json")', script)
+        self.assertIn("organizeFocusedGraph", script)
+        self.assertIn("FOCUS_COLOR", script)
+        self.assertIn('derivation: "navigation"', script)
         self.assertIn("relationship-expand", script)
         self.assertIn("relationship-type", script)
         self.assertIn("relationship.publicReason", script)

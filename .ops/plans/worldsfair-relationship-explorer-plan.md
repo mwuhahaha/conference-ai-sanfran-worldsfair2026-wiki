@@ -621,6 +621,11 @@ Browser matrix:
   selected entity's direct semantic relationships; the primary progressive
   action then adds role-balanced connections-of-connections from the existing
   Vendor-Concept, Person-Concept, and Concept-Concept records.
+- [x] Extend entity neighborhoods with separately labeled direct wiki links so
+  all linked article types can appear without being promoted to semantic
+  claims. Keep the selected article fixed at the center with a distinct color,
+  arrange hops in radial rings, and make Fit recompute that organization before
+  resetting the camera.
 
 ## Research Basis
 

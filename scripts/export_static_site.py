@@ -814,11 +814,12 @@ def render_relationship_explorer(pages: list[Page]) -> str:
         <div class="relationship-graph-legend" aria-label="Relationship legend">
           <span><i class="direct"></i>Explicit</span>
           <span><i class="derived"></i>Labeled derived</span>
+          <span><i class="navigation"></i>Wiki link</span>
         </div>
         <div class="graph-zoom-controls" aria-label="Relationship graph zoom controls">
           <button type="button" id="relationship-zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
           <button type="button" id="relationship-zoom-out" title="Zoom out" aria-label="Zoom out">-</button>
-          <button type="button" id="relationship-fit" title="Fit visible relationships" aria-label="Fit visible relationships">Fit</button>
+          <button type="button" id="relationship-fit" title="Reorganize and fit visible relationships" aria-label="Reorganize and fit visible relationships">Fit</button>
         </div>
         <div id="relationship-depth" class="relationship-depth" aria-label="Neighborhood depth">
           <span>Steps</span>
@@ -1758,6 +1759,7 @@ blockquote {
 .relationship-graph-legend span { display: inline-flex; align-items: center; gap: 5px; }
 .relationship-graph-legend i { display: block; width: 22px; height: 2px; background: #475569; }
 .relationship-graph-legend i.derived { background: #b7791f; }
+.relationship-graph-legend i.navigation { background: #94a3b8; }
 .relationship-graph-empty { position: absolute; inset: 50% auto auto 50%; width: min(420px, calc(100% - 48px)); margin: 0; padding: 14px; transform: translate(-50%,-50%); border: 1px solid var(--line); border-radius: 7px; background: rgba(255,255,255,.94); color: var(--muted); text-align: center; }
 .relationship-depth { position: absolute; top: 12px; left: 12px; z-index: 3; display: flex; align-items: center; gap: 3px; padding: 4px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255,255,255,.95); }
 .relationship-depth span { padding: 0 5px; color: var(--muted); font-size: .72rem; font-weight: 800; text-transform: uppercase; }

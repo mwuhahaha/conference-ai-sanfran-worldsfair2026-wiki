@@ -14,6 +14,8 @@ const ROLE_COLORS = {
   evidence: "#64748b",
   organization: "#475569",
 };
+const ARTICLE_COLORS = ["#0f766e", "#b45309", "#2563eb", "#7c3aed", "#be123c", "#4d7c0f", "#0891b2", "#a16207", "#475569"];
+const FOCUS_COLOR = "#be123c";
 const TEMPLATE_LABELS = {
   entity_neighborhood: "Entity neighborhood",
   vendor_concept: "Vendors + Concepts",
@@ -45,13 +47,34 @@ const selectedEntityLink = document.querySelector("#relationship-selected-link")
 const tabs = [...document.querySelectorAll("[data-relationship-view]")];
 const templates = [...document.querySelectorAll("[data-relationship-template]")];
 
-const data = await fetch("/relationship-data.json").then((response) => {
-  if (!response.ok) throw new Error(`Relationship request failed: ${response.status}`);
-  return response.json();
-});
+const [data, navigationData] = await Promise.all([
+  fetch("/relationship-data.json").then((response) => {
+    if (!response.ok) throw new Error(`Relationship request failed: ${response.status}`);
+    return response.json();
+  }),
+  fetch("/graph-data.json").then((response) => {
+    if (!response.ok) throw new Error(`Graph request failed: ${response.status}`);
+    return response.json();
+  }),
+]);
 
 const nodes = new Map((data.nodes || []).map((node) => [node.id, node]));
+(navigationData.nodes || []).forEach((node) => {
+  if (!nodes.has(node.id)) nodes.set(node.id, {...node, role: "article"});
+});
 const relationships = data.relationships || [];
+const navigationRelationships = (navigationData.links || []).map((link, index) => ({
+  id: `wiki-link-${index}`,
+  source: link.source,
+  target: link.target,
+  template: "entity_neighborhood",
+  relationType: "wiki_link",
+  derivation: "navigation",
+  publicReason: "These wiki pages link directly to one another.",
+  boundary: "A wiki link is navigational context, not an endorsement or an independently verified factual relationship.",
+  sourceLayers: ["wiki_link"],
+  evidence: [],
+}));
 const roleIds = new Map();
 Object.entries(data.roles || {}).forEach(([plural, ids]) => {
   const role = plural === "vendors" ? "vendor" : plural === "people" ? "person" : plural === "concepts" ? "concept" : plural;
@@ -83,13 +106,13 @@ function nodeTitle(id) {
 }
 
 function templateRelationships() {
-  if (activeTemplate === "entity_neighborhood") return relationships;
+  if (activeTemplate === "entity_neighborhood") return relationships.concat(navigationRelationships);
   return relationships.filter((relationship) => relationship.template === activeTemplate);
 }
 
 function filteredRelationships({incident = true} = {}) {
   return templateRelationships().filter((relationship) => {
-    if (!includeDerived.checked && relationship.derivation !== "explicit") return false;
+    if (!includeDerived.checked && relationship.derivation === "derived") return false;
     if (layer.value && !(relationship.sourceLayers || []).includes(layer.value)) return false;
     if (relationType.value && relationship.relationType !== relationType.value) return false;
     if (incident && selectedId && relationship.source !== selectedId && relationship.target !== selectedId) return false;
@@ -372,6 +395,29 @@ function graphPosition(id, role, index, total) {
   return {x: x + jitter, y};
 }
 
+function articleColor(id) {
+  const category = nodes.get(id)?.category || nodeRole(id);
+  const hash = [...category].reduce((value, character) => Math.imul(value ^ character.charCodeAt(0), 16777619), 2166136261) >>> 0;
+  return ARTICLE_COLORS[hash % ARTICLE_COLORS.length];
+}
+
+function organizeFocusedGraph(graph, visibleIds, distances) {
+  if (activeTemplate !== "entity_neighborhood") return;
+  graph.setNodeAttribute(selectedId, "x", 0);
+  graph.setNodeAttribute(selectedId, "y", 0);
+  for (let distance = 1; distance <= neighborhoodDepth; distance += 1) {
+    const ring = [...visibleIds]
+      .filter((id) => distances.get(id) === distance)
+      .sort((left, right) => (nodes.get(left)?.category || "").localeCompare(nodes.get(right)?.category || "") || nodeTitle(left).localeCompare(nodeTitle(right)));
+    const radius = distance * 1.15;
+    ring.forEach((id, index) => {
+      const angle = -Math.PI / 2 + (index / Math.max(ring.length, 1)) * Math.PI * 2;
+      graph.setNodeAttribute(id, "x", Math.cos(angle) * radius);
+      graph.setNodeAttribute(id, "y", Math.sin(angle) * radius);
+    });
+  }
+}
+
 function renderGraph() {
   expand.hidden = true;
   if (renderer) {
@@ -410,7 +456,8 @@ function renderGraph() {
     : allEligible.filter((relationship) => reachableIds.has(relationship.source) && reachableIds.has(relationship.target));
   const depthLimits = {1: [26, 60], 2: [50, 100], 3: [80, 160]};
   const [baseNodeLimit, baseRelationshipLimit] = depthLimits[neighborhoodDepth];
-  const nodeLimit = expanded ? Math.min(100, baseNodeLimit + 30) : baseNodeLimit;
+  const initialNodeLimit = activeTemplate === "entity_neighborhood" && neighborhoodDepth === 1 ? Math.min(100, Math.max(baseNodeLimit, reachableIds.size)) : baseNodeLimit;
+  const nodeLimit = expanded ? Math.min(100, initialNodeLimit + 30) : initialNodeLimit;
   const relationshipLimit = expanded ? Math.min(200, baseRelationshipLimit + 60) : baseRelationshipLimit;
   const visibleIds = new Set(selectedId ? [selectedId] : []);
   const roleOrder = ["vendor", "person", "concept", "evidence"];
@@ -467,29 +514,30 @@ function renderGraph() {
     idsByRole.get(role).push(id);
   });
   idsByRole.forEach((ids, role) => ids.sort((left, right) => nodeTitle(left).localeCompare(nodeTitle(right))).forEach((id, index) => {
-    const point = graphPosition(id, role, index, ids.length);
+    const point = activeTemplate === "entity_neighborhood" ? {x: 0, y: 0} : graphPosition(id, role, index, ids.length);
     graph.addNode(id, {
       x: point.x,
       y: point.y,
       label: nodeTitle(id),
       role,
-      color: ROLE_COLORS[role] || ROLE_COLORS.evidence,
-      size: id === selectedId ? 12 : 8,
+      color: id === selectedId && activeTemplate === "entity_neighborhood" ? FOCUS_COLOR : activeTemplate === "entity_neighborhood" ? articleColor(id) : (ROLE_COLORS[role] || ROLE_COLORS.evidence),
+      size: id === selectedId ? 15 : 8,
       forceLabel: id === selectedId || neighborhoodDepth === 1,
     });
   }));
   limitedRelationships.forEach((relationship, index) => {
     graph.addEdgeWithKey(`relationship-${index}`, relationship.source, relationship.target, {
       relationshipId: relationship.id,
-      color: relationship.derivation === "explicit" ? "#475569" : "#b7791f",
-      size: relationship.derivation === "explicit" ? 1.4 : 1,
+      color: relationship.derivation === "navigation" ? "#94a3b8" : relationship.derivation === "explicit" ? "#475569" : "#b7791f",
+      size: relationship.derivation === "navigation" ? 0.7 : relationship.derivation === "explicit" ? 1.4 : 1,
     });
   });
+  organizeFocusedGraph(graph, visibleIds, distances);
   focusedGraph = graph;
   renderer = new Sigma(graph, canvas, {
-    labelDensity: 1,
-    labelGridCellSize: 90,
-    labelRenderedSizeThreshold: 0,
+    labelDensity: activeTemplate === "entity_neighborhood" && neighborhoodDepth > 1 ? 0.45 : 1,
+    labelGridCellSize: activeTemplate === "entity_neighborhood" && neighborhoodDepth > 1 ? 120 : 90,
+    labelRenderedSizeThreshold: activeTemplate === "entity_neighborhood" && neighborhoodDepth > 1 ? 8 : 0,
     zIndex: true,
     renderEdgeLabels: false,
     nodeReducer(node, attributes) {
@@ -503,7 +551,12 @@ function renderGraph() {
   renderer.on("clickEdge", ({edge}) => showRelationship(graph.getEdgeAttribute(edge, "relationshipId")));
   document.querySelector("#relationship-zoom-in").onclick = () => renderer?.getCamera().animatedZoom({duration: 200});
   document.querySelector("#relationship-zoom-out").onclick = () => renderer?.getCamera().animatedUnzoom({duration: 200});
-  document.querySelector("#relationship-fit").onclick = () => renderer?.getCamera().animatedReset({duration: 250});
+  document.querySelector("#relationship-fit").onclick = () => {
+    if (!renderer) return;
+    organizeFocusedGraph(graph, visibleIds, distances);
+    renderer.refresh();
+    renderer.getCamera().animatedReset({duration: 350});
+  };
   const omitted = eligible.length - limitedRelationships.length;
   const hasFurtherConnections = neighborhoodDepth < 3 && allEligible.some((relationship) => (
     reachableIds.has(relationship.source) !== reachableIds.has(relationship.target)
@@ -528,7 +581,7 @@ function renderSelectedEntity() {
 }
 
 function showRelationship(id) {
-  const relationship = relationships.find((item) => item.id === id);
+  const relationship = templateRelationships().find((item) => item.id === id);
   if (!relationship) return;
   selectedRelationshipId = id;
   detail.replaceChildren();
@@ -540,7 +593,7 @@ function showRelationship(id) {
   close.setAttribute("aria-label", "Close relationship details");
   const eyebrow = document.createElement("p");
   eyebrow.className = "eyebrow";
-  eyebrow.textContent = relationship.derivation === "explicit" ? "Explicit relationship" : "Labeled derived relationship";
+  eyebrow.textContent = relationship.derivation === "navigation" ? "Direct wiki link" : relationship.derivation === "explicit" ? "Explicit relationship" : "Labeled derived relationship";
   const heading = document.createElement("h2");
   heading.textContent = `${nodeTitle(relationship.source)} ${relationLabel(relationship.relationType)} ${nodeTitle(relationship.target)}`;
   const reason = document.createElement("p");
@@ -563,13 +616,14 @@ function showRelationship(id) {
     entry.append(meta);
     evidenceList.append(entry);
   });
-  detail.append(close, eyebrow, heading, reason, layers, boundary, evidenceHeading, evidenceList);
+  detail.append(close, eyebrow, heading, reason, layers, boundary);
+  if (evidenceList.children.length) detail.append(evidenceHeading, evidenceList);
   detail.classList.add("open");
   renderer?.refresh();
 }
 
 function populateLayerFilter() {
-  const layers = [...new Set(relationships.flatMap((relationship) => relationship.sourceLayers || []))].sort();
+  const layers = [...new Set(relationships.concat(navigationRelationships).flatMap((relationship) => relationship.sourceLayers || []))].sort();
   layers.forEach((name) => {
     const option = document.createElement("option");
     option.value = name;
