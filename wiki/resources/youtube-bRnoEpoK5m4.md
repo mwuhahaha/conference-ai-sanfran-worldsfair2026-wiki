@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "bRnoEpoK5m4"
-last_enriched: "2026-07-11T22:29:37.217212+00:00"
+last_enriched: "2026-07-15T11:40:39.910874+00:00"
 ---
 # The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/bRnoEpoK
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `fight`, `desirable`, `surprising`, `shipped`, `personas`, `shifts`, `diver`, `having`
+- Transcript keywords: `iris`, `asking`, `artifact`, `yeah`, `commit`, `validation`, `business`, `safe`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=bRnoEpoK5m4)

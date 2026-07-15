@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "hVJOnuhFmTA"
-last_enriched: "2026-07-11T22:29:37.226364+00:00"
+last_enriched: "2026-07-15T11:40:40.000208+00:00"
 ---
 # The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/hVJOnuhF
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[voice-agents|Voice Agents]], [[agent-memory|Agent Memory]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `paradigms`, `surprising`, `amplify`, `modality`, `punch`, `notices`, `quick`, `entire`
+- Transcript keywords: `excites`, `proposal`, `trade`, `deeper`, `yeah`, `writing`, `congrats`, `others`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=hVJOnuhFmTA)

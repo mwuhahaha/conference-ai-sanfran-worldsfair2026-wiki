@@ -47,6 +47,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 ### Transcript Files
 - `raw/sources/youtube-transcripts/-x5GEVnkuRw.txt`
 - `raw/sources/youtube-transcripts/B9h9ovW5H9U.txt`
+- `raw/sources/youtube-transcripts/V-EDrhIhHzQ.txt`
 
 ## Confidence
 High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

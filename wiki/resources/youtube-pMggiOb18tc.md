@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "pMggiOb18tc"
-last_enriched: "2026-07-11T22:29:37.162056+00:00"
+last_enriched: "2026-07-15T11:40:39.834187+00:00"
 ---
 # The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/pMggiOb1
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `persistent`, `keeps`, `yourself`, `blocked`, `injecting`, `directly`, `guest`, `surprising`
+- Transcript keywords: `pass`, `bring`, `unlock`, `reminds`, `relentless`, `yeah`, `writing`, `medium`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=pMggiOb18tc)

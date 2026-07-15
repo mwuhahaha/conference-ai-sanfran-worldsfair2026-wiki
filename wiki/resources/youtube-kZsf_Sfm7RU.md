@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "kZsf_Sfm7RU"
-last_enriched: "2026-07-11T22:29:37.206052+00:00"
+last_enriched: "2026-07-15T11:40:39.897939+00:00"
 ---
 # The Missing Layer After Launch - Raphael Kalandadze, Wandero AI
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/kZsf_Sfm
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[voice-agents|Voice Agents]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `keeps`, `explore`, `yourself`, `directly`, `teams`, `surprising`, `prefer`, `product`
+- Transcript keywords: `slice`, `yeah`, `calculating`, `demo`, `happens`, `safety`, `depend`, `customer`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=kZsf_Sfm7RU)

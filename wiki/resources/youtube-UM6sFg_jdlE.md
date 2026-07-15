@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "UM6sFg_jdlE"
-last_enriched: "2026-07-11T22:29:36.883140+00:00"
+last_enriched: "2026-07-15T11:40:39.514058+00:00"
 ---
 # RAG is dead, right?? — Kuba Rogut, Turbopuffer
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/UM6sFg_j
 
 ## Topic Signals
 - [[agentic-search|Agentic Search]], [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `repeat`, `usually`, `having`, `window`, `media`, `benchmark`, `cash`, `becoming`
+- Transcript keywords: `pass`, `generally`, `asking`, `yeah`, `obviously`, `happens`, `kuba`, `users`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=UM6sFg_jdlE)

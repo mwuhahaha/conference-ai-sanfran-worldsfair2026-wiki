@@ -65,28 +65,28 @@ These videos were discovered outside the official AI Engineer channel and matche
   - Confidence label: high
   - Transcript status: captions_imported `raw/sources/external-youtube-transcripts/AheG9p_JXVw.txt`
 
-## Synthesis
-### Synthesized Breakdown
+## Attendance Visibility
+No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+
+## Secondary Interview Context
+### Interview Opening (Secondary Source)
 Hi, we're building real and we're trying to tackle agenda video editing problem from video editing problem from the agent standpoint. I'm K. I'm founder and co. But let's first talk about what's agentic video editing is.
 
-### Speaker And Company Context
+### Official Schedule Identity
 - [[ekaterina-deyneka|Ekaterina Deyneka]] — Founder & CEO at [[reelful|Reelful]].
 
-### Topics Covered
+### Topics Mentioned In The Interview
 - [[agentic-search]]
 - [[ai-sandboxes]]
 - [[coding-agents]]
 
-### Derived Links And Source Material
+### Secondary Source Material
 - [[youtube-AheG9p_JXVw-transcript]] — transcript markdown; source cache `raw/sources/external-youtube-transcripts/AheG9p_JXVw.txt` (1,340 words).
 - [[youtube-AheG9p_JXVw]] — related YouTube source page.
 - [[youtube-AheG9p_JXVw-slides]] — slide evidence.
 
-### Novel Concepts / Clever Methods
+### Interview Concepts / Methods
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
-
-## Attendance Visibility
-No high-confidence attendance icon signal is shown for this talk. The sampled video evidence was either low confidence, source-proxy-only, or did not expose a clear audience view.
+This section presents a third-party interview, not an official recording or transcript of this scheduled session. It is retained as secondary context only; the official schedule remains the canonical source for the session title, time, room, status, and speaker attribution.

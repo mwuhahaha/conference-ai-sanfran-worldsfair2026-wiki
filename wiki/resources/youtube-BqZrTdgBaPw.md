@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "BqZrTdgBaPw"
-last_enriched: "2026-07-11T22:29:36.931787+00:00"
+last_enriched: "2026-07-15T11:40:39.571763+00:00"
 ---
 # Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/BqZrTdgB
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-evaluations|Agent Evaluations]], [[agent-security|Agent Security]]
-- Transcript keywords: `explore`, `targeting`, `jumps`, `background`, `excited`, `usually`, `quick`, `already`
+- Transcript keywords: `pass`, `exploding`, `yeah`, `reaches`, `modifying`, `obviously`, `safe`, `showed`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=BqZrTdgBaPw)

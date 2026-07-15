@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "r305-aQTaU0"
-last_enriched: "2026-07-11T22:29:37.104083+00:00"
+last_enriched: "2026-07-15T11:40:39.775378+00:00"
 ---
 # Text Diffusion — Brendan O’Donoghue, Google DeepMind
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/r305-aQT
 
 ## Topic Signals
 - [[inference-engineering|Inference Engineering]], [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `targeting`, `diffusion`, `bigger`, `excited`, `usually`, `already`, `entire`, `difference`
+- Transcript keywords: `pass`, `unlock`, `trade`, `yeah`, `fusion`, `cons`, `transfers`, `obviously`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=r305-aQTaU0)

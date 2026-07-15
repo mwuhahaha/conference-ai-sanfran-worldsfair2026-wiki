@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "qdZzND79mcg"
-last_enriched: "2026-07-11T22:29:36.561045+00:00"
+last_enriched: "2026-07-15T11:40:39.131840+00:00"
 ---
 # Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/qdZzND79
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[software-factories|Software Factories]], [[agent-memory|Agent Memory]], [[mcp|MCP]]
-- Transcript keywords: `keeps`, `explore`, `yourself`, `clusters`, `binary`, `product`, `doctor`, `entire`
+- Transcript keywords: `typology`, `bring`, `enables`, `tiny`, `trade`, `collapse`, `mess`, `thoughts`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=qdZzND79mcg)

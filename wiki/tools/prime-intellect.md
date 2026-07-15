@@ -34,6 +34,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[livestream-thematic-anchors]]
 - [[talk-video-transcript-map]]
 - [[youtube-PbHm2qKnu10]]
+- [[youtube-V-EDrhIhHzQ]]
 
 ### Slide/OCR Pages
 - [[youtube-4sX_He5c4sI-slides]]
@@ -41,14 +42,19 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-PbHm2qKnu10-dense-slides]]
 - [[youtube-PbHm2qKnu10-reconstructed-slides]]
 - [[youtube-PbHm2qKnu10-slides]]
+- [[youtube-V-EDrhIhHzQ-slides]]
 
 ### Topic Pages
+- [[agent-evaluations]]
 - [[agentic-search]]
 - [[ai-sandboxes]]
 - [[autoresearch]]
+- [[coding-agents]]
+- [[mcp]]
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/Rx8f05JI_WA.txt`
+- `raw/sources/youtube-transcripts/V-EDrhIhHzQ.txt`
 - `raw/sources/youtube-livestream-transcripts/4sX_He5c4sI.txt`
 - `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt`
 

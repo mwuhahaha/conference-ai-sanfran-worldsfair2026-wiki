@@ -16,9 +16,13 @@ AutoResearch is the use of agents to search, read, compare, synthesize, and some
 
 AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
 
+AutoResearch is the use of agents to search, read, compare, synthesize, and sometimes design experiments over a body of evidence. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, and follow-up planning.
+
 AutoResearch is the use of agents to search, read, compare, synthesize, benchmark, and sometimes design follow-up experiments over a body of evidence. In the WF2026 Autoresearch track, the concept spans automated AI research, dense retrieval with test-time compute over frozen embedding models, autonomous research-agent loops, reflective self-improvement of context and model weights, kernel optimization, and production pathways from frontier ML research into usable systems. The goal is not just summarization; it is repeatable research workflow support with source tracking, uncertainty management, evaluation, and clear next-step planning.
 
 ## Conference Context
+It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
+
 It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
 
 It grew from literature search, systematic review methods, research assistants, web search, RAG, and scientific-discovery tooling. LLM agents added the ability to decompose questions, inspect sources, generate hypotheses, and produce structured research artifacts.
@@ -34,9 +38,17 @@ Research work is expensive because it involves discovery, filtering, evidence co
 
 Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
 
+Research work is expensive because it involves discovery, filtering, evidence comparison, and synthesis under uncertainty. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps.
+
 Research work is expensive because it involves discovery, filtering, evidence comparison, synthesis under uncertainty, and judgment about what to try next. The connected sessions make the topic concrete: Richard Socher frames automated AI research as an emerging research direction, Han Xiao ties autoresearch to retrieval quality and test-time compute, Tim Sweeney focuses on autonomous research-agent loops, and Lakshya Agrawal connects self-improvement to context, harnesses, and model weights. Agents can accelerate the mechanical parts, but only if they preserve citations, distinguish claims from evidence, and expose gaps instead of hiding uncertainty behind polished prose.
 
 ## Applied Use
+Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
+
+AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
+
+Use it when the answer depends on multiple sources or evolving evidence. Avoid relying on it as a black-box oracle for high-stakes conclusions without human review.
+
 Start with a clear research question, use source-specific retrieval, keep a claim-evidence table, record search terms and inclusion criteria, and separate facts, interpretations, and open questions. Use humans for scope, judgment, and final conclusions.
 
 AutoResearch is useful for technical due diligence, market maps, literature reviews, competitive analysis, policy research, product discovery, and engineering design investigations.
@@ -131,6 +143,9 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 - [[elastic|Elastic]]
 - [[morph|Morph]]
 
+
+
+
 - [[2026-06-29-nachiket-paranjape-ai-evals-platform-for-cross-functional-teams-at-scale]] — AI Evals Platform for Cross-Functional Teams at Scale; [[nachiket-paranjape|Nachiket Paranjape]], [[swaroop-chitlur-haridas|Swaroop Chitlur Haridas]] (Day 2 — Session Day 1 · 1:55pm-2:15pm · AI-Native Enterprises; official schedule)
 
 - [[antje-barth|Antje Barth]]
@@ -151,6 +166,8 @@ Use it when the answer depends on multiple sources, evolving evidence, or repeat
 ### Transcript-backed resources
 - [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
 - [[youtube-WkBPX-oDMnA]] — Understanding is the new bottleneck — Geoffrey Litt, Notion
+
+### Transcript-backed resources
 
 ### Transcript-backed resources
 
@@ -318,6 +335,19 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Resources
 - [[youtube-WkBPX-oDMnA]]
+
+### Slides
+
+### Transcripts
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
 
 ### Slides
 

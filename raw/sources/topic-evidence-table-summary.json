@@ -1,16 +1,16 @@
 {
   "agent-evaluations": {
     "talks": 28,
-    "other": 59,
-    "tools": 2,
-    "resources": 21,
-    "slides": 13,
+    "other": 60,
+    "tools": 3,
+    "resources": 24,
+    "slides": 14,
     "transcripts": 1
   },
   "coding-agents": {
     "talks": 27,
     "other": 70,
-    "resources": 34,
+    "resources": 37,
     "tools": 2,
     "slides": 20,
     "transcripts": 2
@@ -26,16 +26,16 @@
     "talks": 24,
     "other": 50,
     "tools": 5,
-    "resources": 23,
+    "resources": 24,
     "slides": 16,
     "transcripts": 1
   },
   "agent-memory": {
     "talks": 25,
-    "other": 54,
-    "resources": 26,
+    "other": 56,
+    "resources": 28,
     "tools": 3,
-    "slides": 18,
+    "slides": 19,
     "transcripts": 1
   },
   "agent-security": {
@@ -47,22 +47,22 @@
   },
   "ai-sandboxes": {
     "talks": 26,
-    "other": 44,
-    "resources": 25,
+    "other": 45,
+    "resources": 26,
     "tools": 5,
-    "slides": 16
+    "slides": 17
   },
   "inference-engineering": {
     "talks": 25,
-    "other": 62,
-    "resources": 23,
+    "other": 63,
+    "resources": 24,
     "slides": 11,
     "transcripts": 1
   },
   "mcp": {
-    "talks": 30,
-    "other": 62,
-    "resources": 26,
+    "talks": 31,
+    "other": 63,
+    "resources": 27,
     "tools": 3,
     "slides": 11,
     "transcripts": 1

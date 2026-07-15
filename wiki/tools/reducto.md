@@ -24,6 +24,8 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[talk-video-transcript-map]]
 
 ### Slide/OCR Pages
+- [[youtube-0vphxNt4wyk-slides]]
+- [[youtube-8G_1-3IO4ZQ-slides]]
 - [[youtube-KB41dTlX1Uc-slides]]
 - [[youtube-WkBPX-oDMnA-slides]]
 - [[youtube-htM02KMNZnk-slides]]

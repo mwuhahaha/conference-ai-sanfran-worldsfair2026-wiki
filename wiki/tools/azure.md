@@ -46,6 +46,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-htM02KMNZnk-slides]]
 
 ### Transcript Files
+- `raw/sources/youtube-transcripts/0vphxNt4wyk.txt`
 - `raw/sources/youtube-transcripts/ObTPqBGsEbA.txt`
 - `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt`
 - `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt`

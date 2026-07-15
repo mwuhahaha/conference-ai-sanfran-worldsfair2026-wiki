@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "ghJmWQCIHRM"
-last_enriched: "2026-07-11T22:29:37.122223+00:00"
+last_enriched: "2026-07-15T11:40:39.794083+00:00"
 ---
 # The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/ghJmWQCI
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[ai-sandboxes|AI Sandboxes]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `directly`, `background`, `beats`, `curiosity`, `usually`, `forwards`, `having`, `already`
+- Transcript keywords: `pass`, `enables`, `thoughts`, `manually`, `interactions`, `eventually`, `clutch`, `demo`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=ghJmWQCIHRM)

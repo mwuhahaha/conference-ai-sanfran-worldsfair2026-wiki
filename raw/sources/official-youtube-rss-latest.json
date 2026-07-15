@@ -1,7 +1,97 @@
 {
   "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
-  "checked_at": "2026-07-13T09:12:40.579728+00:00",
+  "checked_at": "2026-07-15T11:35:02.071919+00:00",
   "entries": [
+    {
+      "channel": "AI Engineer",
+      "id": "8G_1-3IO4ZQ",
+      "published": "2026-07-14T22:45:06+00:00",
+      "published_date": "2026-07-14",
+      "source": "official_youtube_rss",
+      "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
+      "updated": "2026-07-14T23:26:29+00:00",
+      "url": "https://www.youtube.com/watch?v=8G_1-3IO4ZQ"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "0vphxNt4wyk",
+      "published": "2026-07-14T22:00:06+00:00",
+      "published_date": "2026-07-14",
+      "source": "official_youtube_rss",
+      "title": "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
+      "updated": "2026-07-14T22:23:52+00:00",
+      "url": "https://www.youtube.com/watch?v=0vphxNt4wyk"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "APqXGyCoGW4",
+      "published": "2026-07-14T21:00:06+00:00",
+      "published_date": "2026-07-14",
+      "source": "official_youtube_rss",
+      "title": "Forward Deployed Engineering at Cursor — Pauline Brunet",
+      "updated": "2026-07-14T21:22:53+00:00",
+      "url": "https://www.youtube.com/watch?v=APqXGyCoGW4"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "n97BCfyFIvw",
+      "published": "2026-07-14T17:16:43+00:00",
+      "published_date": "2026-07-14",
+      "source": "official_youtube_rss",
+      "title": "\"The engineer of the future is the person who is able to choose what is worth doing.\" — Addy Osmani",
+      "updated": "2026-07-15T00:22:04+00:00",
+      "url": "https://www.youtube.com/watch?v=n97BCfyFIvw"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "c35YoMdnI78",
+      "published": "2026-07-13T20:36:45+00:00",
+      "published_date": "2026-07-13",
+      "source": "official_youtube_rss",
+      "title": "The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents",
+      "updated": "2026-07-14T23:56:25+00:00",
+      "url": "https://www.youtube.com/watch?v=c35YoMdnI78"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "-CnA2lGfymY",
+      "published": "2026-07-13T19:25:09+00:00",
+      "published_date": "2026-07-13",
+      "source": "official_youtube_rss",
+      "title": "\"I've never seen anything scarier than an LLM with tool calls.\" — Erik Meijer aka @HeadinTheBox",
+      "updated": "2026-07-14T23:42:03+00:00",
+      "url": "https://www.youtube.com/watch?v=-CnA2lGfymY"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "O3FEoMYvUf8",
+      "published": "2026-07-13T17:56:55+00:00",
+      "published_date": "2026-07-13",
+      "source": "official_youtube_rss",
+      "title": "Stop Evaluating Models Like It's the 50s - Alejandro Vidal, Mindmakers",
+      "updated": "2026-07-14T07:00:22+00:00",
+      "url": "https://www.youtube.com/watch?v=O3FEoMYvUf8"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "OqM67QG_Ikk",
+      "published": "2026-07-13T17:00:06+00:00",
+      "published_date": "2026-07-13",
+      "source": "official_youtube_rss",
+      "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
+      "updated": "2026-07-14T23:55:08+00:00",
+      "url": "https://www.youtube.com/watch?v=OqM67QG_Ikk"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "V-EDrhIhHzQ",
+      "published": "2026-07-13T15:34:07+00:00",
+      "published_date": "2026-07-13",
+      "source": "official_youtube_rss",
+      "title": "The Prime Intellect Stack — Will Brown, Prime Intellect",
+      "updated": "2026-07-14T13:22:06+00:00",
+      "url": "https://www.youtube.com/watch?v=V-EDrhIhHzQ"
+    },
     {
       "channel": "AI Engineer",
       "id": "8oyalrfwgjw",
@@ -61,96 +151,6 @@
       "title": "ReviewDebt: a practical framework for scoring every pull request — Sachin Gupta, Ebay",
       "updated": "2026-07-12T12:16:10+00:00",
       "url": "https://www.youtube.com/watch?v=TJPInBjhE4Q"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "5192csoTkVo",
-      "published": "2026-07-12T08:47:17+00:00",
-      "published_date": "2026-07-12",
-      "source": "official_youtube_rss",
-      "title": "remobi.app: Don't change your terminal workflow for mobile",
-      "updated": "2026-07-12T08:47:50+00:00",
-      "url": "https://www.youtube.com/watch?v=5192csoTkVo"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "EfcfUB2uprc",
-      "published": "2026-07-12T08:00:21+00:00",
-      "published_date": "2026-07-12",
-      "source": "official_youtube_rss",
-      "title": "Stop Evaluating Models Like It's the 50s - Alejandro Vidal, Mindmakers",
-      "updated": "2026-07-12T08:25:06+00:00",
-      "url": "https://www.youtube.com/watch?v=EfcfUB2uprc"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "7P0elyLIxXo",
-      "published": "2026-07-12T06:45:06+00:00",
-      "published_date": "2026-07-12",
-      "source": "official_youtube_rss",
-      "title": "What Does Done Even Mean? Agents and Paperclip's Liveness Model - Dotta, Paperclip",
-      "updated": "2026-07-12T06:54:20+00:00",
-      "url": "https://www.youtube.com/watch?v=7P0elyLIxXo"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "xg1zNlzw7Jk",
-      "published": "2026-07-11T22:30:06+00:00",
-      "published_date": "2026-07-11",
-      "source": "official_youtube_rss",
-      "title": "Claws Out: Securing and Building with OpenClaw - Nick Taylor, Pomerium",
-      "updated": "2026-07-11T22:49:18+00:00",
-      "url": "https://www.youtube.com/watch?v=xg1zNlzw7Jk"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "vJukHCIv7Ck",
-      "published": "2026-07-11T21:45:00+00:00",
-      "published_date": "2026-07-11",
-      "source": "official_youtube_rss",
-      "title": "Stop AI Agent Hallucinations: 5 Techniques + Production Patterns - Elizabeth Fuentes, AWS",
-      "updated": "2026-07-11T21:45:26+00:00",
-      "url": "https://www.youtube.com/watch?v=vJukHCIv7Ck"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "jtzh-GBXBWc",
-      "published": "2026-07-11T20:00:27+00:00",
-      "published_date": "2026-07-11",
-      "source": "official_youtube_rss",
-      "title": "The Factory That Dreams: 39 AI Agents, No Framework - Rushabh Doshi, Machinecraft",
-      "updated": "2026-07-11T20:00:57+00:00",
-      "url": "https://www.youtube.com/watch?v=jtzh-GBXBWc"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "RGiXcVxSD3s",
-      "published": "2026-07-11T17:30:06+00:00",
-      "published_date": "2026-07-11",
-      "source": "official_youtube_rss",
-      "title": "Chat and citations won't save your vertical AI - Atul Ramachandran, Filed Inc",
-      "updated": "2026-07-11T17:47:18+00:00",
-      "url": "https://www.youtube.com/watch?v=RGiXcVxSD3s"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "KB41dTlX1Uc",
-      "published": "2026-07-11T16:30:06+00:00",
-      "published_date": "2026-07-11",
-      "source": "official_youtube_rss",
-      "title": "State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman",
-      "updated": "2026-07-11T23:33:28+00:00",
-      "url": "https://www.youtube.com/watch?v=KB41dTlX1Uc"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "WLXxTaPagA8",
-      "published": "2026-07-11T16:30:04+00:00",
-      "published_date": "2026-07-11",
-      "source": "official_youtube_rss",
-      "title": "Every Solo Agent Builder Eventually Reinvents a Worse Version of CI/CD - Sumaiya Shrabony",
-      "updated": "2026-07-11T16:30:37+00:00",
-      "url": "https://www.youtube.com/watch?v=WLXxTaPagA8"
     }
   ],
   "source_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"

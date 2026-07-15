@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "o-zkvb0iFDQ"
-last_enriched: "2026-07-11T22:29:36.846933+00:00"
+last_enriched: "2026-07-15T11:40:39.475500+00:00"
 ---
 # MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/o-zkvb0i
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[ai-sandboxes|AI Sandboxes]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `amazing`, `copilot`, `closes`, `directly`, `expedia`, `bigger`, `shipped`, `prefer`
+- Transcript keywords: `pass`, `bring`, `scary`, `asking`, `chunks`, `yeah`, `script`, `discussion`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=o-zkvb0iFDQ)

@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "qlHaO6laBlM"
-last_enriched: "2026-07-11T22:29:36.977062+00:00"
+last_enriched: "2026-07-15T11:40:39.631850+00:00"
 ---
 # Shipping Production AI Inside Government — William Tarr, Ministry of Justice
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/qlHaO6la
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `courts`, `keeps`, `amazing`, `directly`, `teams`, `excited`, `usually`, `product`
+- Transcript keywords: `pass`, `bring`, `asking`, `thoughts`, `mess`, `fixing`, `yeah`, `pivot`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=qlHaO6laBlM)

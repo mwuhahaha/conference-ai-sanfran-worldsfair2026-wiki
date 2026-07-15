@@ -53,7 +53,7 @@ No official session recording transcript was found by exact title match on the A
 # Self-Improvement of Context, Harness, and Model Weights through Reflective Optimization ## Conference Context - Date/time: 2026-06-30 · 2:25pm-2:45pm - Track/room: Autoresearch · Main Stage - Speaker(s): Lakshya Agrawal - Session type/status: session · confirmed - Track: Autoresearch - Room: Main Stage - Session type: session - Status: confirmed ## Session Description Large language models are increasingly adapted to downstream tasks via reinforcement learning methods like GRPO, which often require thousands of rollouts to learn new tasks. We argue that language provides a much richer learning medium: an LLM can reflect on full trajectories (including reasoning, tool calls and errors) to diagnose failures and propose targeted improvements. We introduce [GEPA](gepa-ai.github.io/gepa/), a reflective prompt optimizer that incorporates this principle outperforming GRPO by up to 20% while using up to 35x fewer rollouts across tasks spanning 5+ domains and also works with black-box models. Building on this, we then introduce [optimize_anything](gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/), a unified API that generalizes reflective optimization to arbitrary text parameters.
 
 ### Speaker And Company Context
-- [[lakshya-agrawal|Lakshya Agrawal]] — Creator and maintainer of GEPA at [[gepa|GEPA]].
+- [[lakshya-agrawal|Lakshya Agrawal]] — Creator and maintainer of GEPA at GEPA.
 
 ### Topics Covered
 - [[agentic-search]]

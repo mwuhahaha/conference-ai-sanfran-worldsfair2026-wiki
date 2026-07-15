@@ -55,6 +55,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/3hXJI2q0Jz8.txt`
+- `raw/sources/youtube-transcripts/V-EDrhIhHzQ.txt`
 - `raw/sources/youtube-transcripts/Xfl50508LZM.txt`
 - `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt`
 

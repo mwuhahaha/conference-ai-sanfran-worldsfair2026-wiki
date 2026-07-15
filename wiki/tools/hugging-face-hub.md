@@ -50,6 +50,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - `raw/sources/youtube-transcripts/IQkVMvXQKLY.txt`
 - `raw/sources/youtube-transcripts/TNwJ1LMiENk.txt`
 - `raw/sources/youtube-transcripts/TUnPNY4E2fw.txt`
+- `raw/sources/youtube-transcripts/V-EDrhIhHzQ.txt`
 - `raw/sources/youtube-transcripts/gHs5ZiY80PM.txt`
 - `raw/sources/youtube-transcripts/mFLlVpnGpds.txt`
 - `raw/sources/youtube-transcripts/o-zkvb0iFDQ.txt`

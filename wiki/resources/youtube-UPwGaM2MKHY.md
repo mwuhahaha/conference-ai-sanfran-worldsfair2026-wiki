@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "UPwGaM2MKHY"
-last_enriched: "2026-07-11T22:29:37.186897+00:00"
+last_enriched: "2026-07-15T11:40:39.873198+00:00"
 ---
 # The Log Is The Agent - Ishaan Sehgal, Omnara
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/UPwGaM2M
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `explore`, `runner`, `arguing`, `dispatch`, `background`, `repeat`, `usually`, `having`
+- Transcript keywords: `pass`, `bring`, `schemas`, `executor`, `reaches`, `writing`, `finite`, `requires`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=UPwGaM2MKHY)

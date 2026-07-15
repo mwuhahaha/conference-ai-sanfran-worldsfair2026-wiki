@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "4kYl2_mqmnQ"
-last_enriched: "2026-07-11T22:29:36.826866+00:00"
+last_enriched: "2026-07-15T11:40:39.453347+00:00"
 ---
 # I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/4kYl2_mq
 
 ## Topic Signals
 - [[agent-memory|Agent Memory]], [[coding-agents|Coding Agents]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `product`, `already`, `entire`, `managers`, `fills`, `window`, `workspaces`, `alignment`
+- Transcript keywords: `cycle`, `unlock`, `mess`, `slice`, `reaches`, `commit`, `lined`, `remote`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=4kYl2_mqmnQ)

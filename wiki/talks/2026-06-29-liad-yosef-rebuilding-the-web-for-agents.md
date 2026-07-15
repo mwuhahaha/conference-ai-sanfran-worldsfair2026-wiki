@@ -83,7 +83,7 @@ Related video transcript availability: English auto-captions. The transcript has
 This talk argues that AI apps are becoming the new browsers, so the web has to be designed for agents as operators, not only for human readers. It breaks agentic-web readiness into the whole journey of discovery, understanding, authentication, action, and human handoff. The key finding is reachability over format: agent-facing files and specs only help when agents can actually find them from trusted surfaces such as docs and homepages. The resulting design frame is a nearly headless web, where agents handle most execution while human-visible checkpoints remain available for judgment, comparison, and consent.
 
 ### Speaker And Company Context
-- [[liad-yosef|Liad Yosef]] — Co-creator at [[mcp-apps|MCP Apps]].
+- [[liad-yosef|Liad Yosef]] — Co-creator at MCP Apps.
 
 ### Topics Covered
 - [[agent-security]]

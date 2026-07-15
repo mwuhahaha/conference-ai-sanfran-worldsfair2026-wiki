@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "_B4Pv9ttFgY"
-last_enriched: "2026-07-11T22:29:36.612127+00:00"
+last_enriched: "2026-07-15T11:40:39.183777+00:00"
 ---
 # Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/_B4Pv9tt
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `amazing`, `detours`, `directly`, `guest`, `functional`, `surprising`, `product`, `quick`
+- Transcript keywords: `bring`, `imperfect`, `willison`, `hallway`, `enables`, `trade`, `fixing`, `worry`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=_B4Pv9ttFgY)

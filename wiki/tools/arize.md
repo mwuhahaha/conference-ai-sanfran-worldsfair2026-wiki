@@ -42,15 +42,15 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Slide/OCR Pages
 - [[youtube-0S8xe9ftGTM-slides]]
+- [[youtube-0vphxNt4wyk-slides]]
 - [[youtube-4sX_He5c4sI-slides]]
+- [[youtube-8G_1-3IO4ZQ-slides]]
 - [[youtube-JsCCrBF7F1g-dense-slides]]
 - [[youtube-JsCCrBF7F1g-reconstructed-slides]]
 - [[youtube-JsCCrBF7F1g-slides]]
 - [[youtube-KB41dTlX1Uc-slides]]
 - [[youtube-Lc8zRh9muoY-dense-slides]]
 - [[youtube-Lc8zRh9muoY-slides]]
-- [[youtube-SbcQYbrvAfI-dense-slides]]
-- [[youtube-SbcQYbrvAfI-reconstructed-slides]]
 
 ### Topic Pages
 - [[agent-evaluations]]

@@ -61,6 +61,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Transcript Files
 - `raw/sources/youtube-transcripts/-x5GEVnkuRw.txt`
+- `raw/sources/youtube-transcripts/0vphxNt4wyk.txt`
 - `raw/sources/youtube-transcripts/1IdzkRVmWAA.txt`
 - `raw/sources/youtube-transcripts/3hXJI2q0Jz8.txt`
 - `raw/sources/youtube-transcripts/HEFSExa0xl0.txt`
@@ -69,7 +70,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - `raw/sources/youtube-transcripts/QuuIywMG4s8.txt`
 - `raw/sources/youtube-transcripts/Rx8f05JI_WA.txt`
 - `raw/sources/youtube-transcripts/UM6sFg_jdlE.txt`
-- `raw/sources/youtube-transcripts/UPwGaM2MKHY.txt`
 
 ## Confidence
 High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

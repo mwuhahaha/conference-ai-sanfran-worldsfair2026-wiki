@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "zMiSRliEzv4"
-last_enriched: "2026-07-11T22:29:36.940829+00:00"
+last_enriched: "2026-07-15T11:40:39.585964+00:00"
 ---
 # Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/zMiSRliE
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[autoresearch|AutoResearch]], [[mcp|MCP]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `explore`, `amazing`, `yourself`, `normalize`, `spike`, `green`, `background`, `excited`
+- Transcript keywords: `pass`, `evidence`, `worry`, `yeah`, `manually`, `sentry`, `obviously`, `safe`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=zMiSRliEzv4)

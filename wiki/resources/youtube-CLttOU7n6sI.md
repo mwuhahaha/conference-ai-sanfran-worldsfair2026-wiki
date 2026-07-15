@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "CLttOU7n6sI"
-last_enriched: "2026-07-11T22:29:36.910757+00:00"
+last_enriched: "2026-07-15T11:40:39.545136+00:00"
 ---
 # Respect The Process - Andrew Dumit, Watershed Technology Inc.
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/CLttOU7n
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-memory|Agent Memory]], [[agent-security|Agent Security]]
-- Transcript keywords: `explore`, `amazing`, `directly`, `depended`, `excited`, `hill`, `emissions`, `product`
+- Transcript keywords: `bring`, `scary`, `executor`, `deeper`, `buys`, `writing`, `commit`, `artifact`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=CLttOU7n6sI)

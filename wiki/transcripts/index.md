@@ -9,11 +9,13 @@ sourceLabels: ["Cached transcript markdown"]
 These pages expose cached YouTube and livestream transcripts as linkable wiki markdown. They are generated from local transcript caches and should be regenerated whenever new transcripts are imported.
 
 ## Transcript Pages
+- [[youtube-0vphxNt4wyk-transcript|Transcript: 0Vphxnt4Wyk]]
 - [[youtube-hqHC6Z_lXyo-transcript|Transcript: 20 days of compute vs 7 hours: rethinking what state-of-the-art means — Bertrand Charpentier, Pruna]]
 - [[youtube-gUMwt4-5kn0-transcript|Transcript: 2026 AI Engineer Vibe Reel]]
 - [[youtube-4sX_He5c4sI-transcript|Transcript: 4Sx He5C4Si]]
 - [[youtube-UcYoMg-8-L8-transcript|Transcript: 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic]]
 - [[youtube-0S8xe9ftGTM-transcript|Transcript: 6 Things to Know about AIE World's Fair 2026]]
+- [[youtube-8G_1-3IO4ZQ-transcript|Transcript: 8G 1 3Io4Zq]]
 - [[youtube-jVjt-2g8NMY-transcript|Transcript: A Genius With Amnesia - Victor Savkin, Nx]]
 - [[youtube-aHhB3sjGjkI-transcript|Transcript: Agents Building Agents - Alfonso Graziano, Nearform]]
 - [[youtube-4uFVSLgD2Q4-transcript|Transcript: Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov]]
@@ -92,6 +94,7 @@ These pages expose cached YouTube and livestream transcripts as linkable wiki ma
 - [[youtube-Jx4ZFEAq6bY-transcript|Transcript: User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch]]
 - [[youtube-LrGCT7G_rU8-transcript|Transcript: Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon]]
 - [[youtube-IddXPepIAS4-transcript|Transcript: Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS]]
+- [[youtube-V-EDrhIhHzQ-transcript|Transcript: V Edrhihhzq]]
 - [[youtube-65X0pQ6Lmbg-transcript|Transcript: Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs]]
 - [[youtube-dRmWYHuIJxM-transcript|Transcript: We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco]]
 - [[youtube-xUnRQ9vLXxo-transcript|Transcript: What do we build now? — @t3dotgg]]

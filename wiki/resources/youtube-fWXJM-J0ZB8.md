@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "fWXJM-J0ZB8"
-last_enriched: "2026-07-11T22:29:36.761339+00:00"
+last_enriched: "2026-07-15T11:40:39.378449+00:00"
 ---
 # Frontier results, on device - RL Nabors, Arize
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/fWXJM-J0
 
 ## Topic Signals
 - [[inference-engineering|Inference Engineering]], [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `amazing`, `yourself`, `green`, `bigger`, `repeat`, `product`, `having`, `huge`
+- Transcript keywords: `evidence`, `account`, `asking`, `worry`, `deeper`, `yeah`, `writing`, `cheat`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=fWXJM-J0ZB8)

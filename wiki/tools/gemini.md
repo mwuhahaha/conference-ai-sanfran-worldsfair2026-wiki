@@ -54,19 +54,20 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-gemini-live-slides]]
 - [[google-photos-aie-slides-9gWZzS1EpXM1C5eK6-knowledge-agents-slides]]
 - [[youtube--TiET_K-E_g-slides]]
+- [[youtube-0vphxNt4wyk-slides]]
 - [[youtube-4sX_He5c4sI-slides]]
 - [[youtube-7Dtu2bilcFs-slides]]
 - [[youtube-84Vtz2IL1Ug-slides]]
 - [[youtube-Bc6Ojl2XS1w-dense-slides]]
 - [[youtube-Bc6Ojl2XS1w-reconstructed-slides]]
 - [[youtube-Bc6Ojl2XS1w-slides]]
-- [[youtube-F_RyElT_gJk-reconstructed-slides]]
 
 ### Topic Pages
 - [[autoresearch]]
 - [[voice-agents]]
 
 ### Transcript Files
+- `raw/sources/youtube-transcripts/0vphxNt4wyk.txt`
 - `raw/sources/youtube-transcripts/1IdzkRVmWAA.txt`
 - `raw/sources/youtube-transcripts/BqZrTdgBaPw.txt`
 - `raw/sources/youtube-transcripts/CDqzWpwkSls.txt`
@@ -76,7 +77,6 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - `raw/sources/youtube-transcripts/SS-A8sE7hkw.txt`
 - `raw/sources/youtube-transcripts/UM6sFg_jdlE.txt`
 - `raw/sources/youtube-transcripts/UPwGaM2MKHY.txt`
-- `raw/sources/youtube-transcripts/Xfl50508LZM.txt`
 
 ## Confidence
 High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

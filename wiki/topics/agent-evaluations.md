@@ -39,6 +39,12 @@ Evaluations are useful in coding agents, support agents, research agents, data a
 
 Use evals before launching, whenever prompts or models change, when adding new tools, after incidents, and when expanding an agent into a new user segment or task family. Lightweight evals should run continuously; deeper reviews should run before major releases.
 
+Start with real traces and representative tasks. Define the outcome that matters, add rubrics for intermediate behavior, keep golden examples for regressions, and separate fast pre-merge checks from slower production audits. Use model judges only when their decisions are calibrated against human review, and track cost, latency, and failure categories alongside quality.
+
+Evaluations are useful in coding agents, support agents, research agents, data agents, voice agents, retrieval systems, and any workflow where the agent can take a plausible but wrong path. They are especially valuable where correctness, trust, or operational cost matters.
+
+Use evals before launching, whenever prompts or models change, when adding new tools, after incidents, and when expanding an agent into a new user segment or task family. Lightweight evals should run continuously; deeper reviews should run before major releases.
+
 ## Connections
 - [[2026-06-30-maor-bril-evaling-video-slop]] — Evaling Video Slop; [[maor-bril|Maor Bril]] (Day 3 — Session Day 2 · 1:55pm-2:15pm · Evals; official schedule)
 - [[2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101]] — From Vibes to Production: Evaluating and Shipping AI Agents That Work 101; [[laurie-voss|Laurie Voss]] (Day 1 — Workshop Day · 9:00am-11:00am · Track 1; official schedule)
@@ -67,6 +73,7 @@ Use evals before launching, whenever prompts or models change, when adding new t
 
 - [[laurie-voss|Laurie Voss]]
 - [[pamela-fox|Pamela Fox]]
+- [[will-brown|Will Brown]]
 - [[fuad-ali|Fuad Ali]]
 - [[ahmad-osman|Ahmad Osman]]
 - [[brendan-rappazzo|Brendan Rappazzo]]
@@ -88,7 +95,6 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - [[dave-revere|Dave Revere]]
 - [[doug-keller|Doug Keller]]
 - [[nachiket-paranjape|Nachiket Paranjape]]
-- [[swaroop-chitlur-haridas|Swaroop Chitlur Haridas]]
 
 - [[google|Google]]
 - [[arize-ai|Arize AI]]
@@ -97,6 +103,7 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - [[braintrust|Braintrust]]
 - [[towards-ai|Towards AI]]
 - [[weights-and-biases-by-coreweave|Weights & Biases by CoreWeave]]
+- [[prime-intellect|Prime Intellect]]
 - [[nvidia|NVIDIA]]
 - [[ai21|AI21]]
 - [[sondermind|SonderMind]]
@@ -107,6 +114,10 @@ Use evals before launching, whenever prompts or models change, when adding new t
 - [[arize|Arize]]
 - [[poolside|poolside]]
 - [[g2i|G2i]]
+
+
+- [[swaroop-chitlur-haridas|Swaroop Chitlur Haridas]]
+
 - [[laude-institute|Laude Institute]]
 
 
@@ -130,9 +141,14 @@ Use evals before launching, whenever prompts or models change, when adding new t
 
 ## Evidence Graph
 ### Transcript-backed resources
+- [[youtube-0vphxNt4wyk]] — Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind
 - [[youtube-htM02KMNZnk]] — WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
+- [[youtube-V-EDrhIhHzQ]] — The Prime Intellect Stack — Will Brown, Prime Intellect
+- [[youtube-8G_1-3IO4ZQ]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar
 - [[youtube-I2cbIws9j10]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
 - [[youtube-ZpK5PWX2YRM]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
+
+### Transcript-backed resources
 
 ### Transcript-backed resources
 
@@ -319,8 +335,34 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Tools
 
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| other | 60 | Related pages outside the main evidence categories. |
+| resources | 24 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 14 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+| tools | 3 | Derived inventory pages; use as entity context, not independent proof. |
+
+### Talks
+
+### Resources
+- [[youtube-0vphxNt4wyk]]
+- [[youtube-V-EDrhIhHzQ]]
+- [[youtube-8G_1-3IO4ZQ]]
+
+### Slides
+
+### Transcripts
+
+### Tools
+- [[prime-intellect]]
+
 ## Active Use Cases
 - Regression tests for prompt, model, and tool changes.
 - Production trace review for agent reliability and cost drift.
 - Benchmarking coding agents, retrieval agents, and long-horizon workflows.
 - Reward-signal generation for continual learning and fine-tuning loops.
+
+## Slide-Derived Supporting Decks
+- [[youtube-V-EDrhIhHzQ-slides]] —  (5 extracted slide frames)
+
+These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.

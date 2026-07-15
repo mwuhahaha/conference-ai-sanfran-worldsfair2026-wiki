@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "u-rJwPPU3QA"
-last_enriched: "2026-07-11T22:29:36.800021+00:00"
+last_enriched: "2026-07-15T11:40:39.418973+00:00"
 ---
 # How to talk to statues — Joe Reeve, ElevenLabs
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/u-rJwPPU
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[voice-agents|Voice Agents]], [[autoresearch|AutoResearch]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `amazing`, `loading`, `directly`, `surprising`, `binary`, `background`, `shipped`, `excited`
+- Transcript keywords: `represent`, `pass`, `generally`, `asking`, `thoughts`, `dent`, `growth`, `yeah`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=u-rJwPPU3QA)

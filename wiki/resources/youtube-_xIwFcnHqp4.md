@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "_xIwFcnHqp4"
-last_enriched: "2026-07-11T22:29:36.665484+00:00"
+last_enriched: "2026-07-15T11:40:39.249214+00:00"
 ---
 # Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/_xIwFcnH
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[agent-security|Agent Security]]
-- Transcript keywords: `loading`, `copilot`, `directly`, `senior`, `usually`, `madelaine`, `quick`, `entire`
+- Transcript keywords: `generally`, `tiring`, `asking`, `yeah`, `showed`, `demo`, `programs`, `functions`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=_xIwFcnHqp4)

@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "ij-AU9dpJjc"
-last_enriched: "2026-07-11T22:29:37.043630+00:00"
+last_enriched: "2026-07-15T11:40:39.716235+00:00"
 ---
 # Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/ij-AU9dp
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[voice-agents|Voice Agents]], [[agent-memory|Agent Memory]], [[mcp|MCP]]
-- Transcript keywords: `keeps`, `yourself`, `teams`, `shifts`, `excited`, `shipped`, `prefer`, `product`
+- Transcript keywords: `pass`, `bring`, `asking`, `trade`, `writing`, `manually`, `business`, `refused`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=ij-AU9dpJjc)

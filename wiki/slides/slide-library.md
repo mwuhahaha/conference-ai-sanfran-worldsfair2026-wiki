@@ -9,9 +9,9 @@ sourceLabels: ["Public YouTube video frames", "Local OCR"]
 This page summarizes extracted slide decks from speaker-matched AI Engineer YouTube videos. OCR is best-effort and should be checked against the embedded slide images.
 
 ## Coverage
-- Slide decks: 403
-- Extracted slide/frame images: 2918
-- OCR text files: 2871
+- Slide decks: 406
+- Extracted slide/frame images: 2944
+- OCR text files: 2897
 
 ## Decks
 - [[youtube--TiET_K-E_g-dense-slides]] — 0 extracted frames
@@ -22,6 +22,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube--cKUW6n8hBU-slides]] — 24 extracted frames
 - [[youtube--x5GEVnkuRw-slides]] — 23 extracted frames
 - [[youtube-0S8xe9ftGTM-slides]] — 24 extracted frames
+- [[youtube-0vphxNt4wyk-slides]] — 11 extracted frames
 - [[youtube-12v5S1n1eOY-dense-slides]] — 0 extracted frames
 - [[youtube-12v5S1n1eOY-reconstructed-slides]] — 0 extracted frames
 - [[youtube-12v5S1n1eOY-slides]] — 18 extracted frames
@@ -66,6 +67,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-84Vtz2IL1Ug-dense-slides]] — 0 extracted frames
 - [[youtube-84Vtz2IL1Ug-reconstructed-slides]] — 0 extracted frames
 - [[youtube-84Vtz2IL1Ug-slides]] — 24 extracted frames
+- [[youtube-8G_1-3IO4ZQ-slides]] — 10 extracted frames
 - [[youtube-8SUJEqQNClw-reconstructed-slides]] — 0 extracted frames
 - [[youtube-8SUJEqQNClw-slides]] — 21 extracted frames
 - [[youtube-9-vGxMoUM9Y-dense-slides]] — 0 extracted frames
@@ -226,6 +228,7 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 - [[youtube-UNzCG3lw6O0-slides]] — 5 extracted frames
 - [[youtube-UPwGaM2MKHY-slides]] — 7 extracted frames
 - [[youtube-UcYoMg-8-L8-slides]] — 9 extracted frames
+- [[youtube-V-EDrhIhHzQ-slides]] — 5 extracted frames
 - [[youtube-WJjInLeaJjo-dense-slides]] — 0 extracted frames
 - [[youtube-WJjInLeaJjo-reconstructed-slides]] — 0 extracted frames
 - [[youtube-WJjInLeaJjo-slides]] — 24 extracted frames
@@ -421,13 +424,13 @@ This page summarizes extracted slide decks from speaker-matched AI Engineer YouT
 ## OCR-Derived Subject Signals
 - [[coding-agents]] — OCR keyword signal in 475 slide frames
 - [[agentic-search]] — OCR keyword signal in 342 slide frames
-- [[agent-evaluations]] — OCR keyword signal in 329 slide frames
-- [[agent-memory]] — OCR keyword signal in 275 slide frames
+- [[agent-evaluations]] — OCR keyword signal in 338 slide frames
+- [[agent-memory]] — OCR keyword signal in 281 slide frames
 - [[mcp]] — OCR keyword signal in 149 slide frames
 - [[inference-engineering]] — OCR keyword signal in 107 slide frames
 - [[agent-security]] — OCR keyword signal in 96 slide frames
 - [[voice-agents]] — OCR keyword signal in 75 slide frames
-- [[ai-sandboxes]] — OCR keyword signal in 74 slide frames
+- [[ai-sandboxes]] — OCR keyword signal in 75 slide frames
 
 ## Unresolved Video Failures
 - `bRnoEpoK5m4` — The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing

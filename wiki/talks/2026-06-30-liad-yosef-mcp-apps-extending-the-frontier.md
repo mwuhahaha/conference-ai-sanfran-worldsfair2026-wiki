@@ -76,8 +76,8 @@ Related video transcript availability: English auto-captions. The transcript has
 This talk frames MCP Apps as the interactive application runtime for agentic software. Instead of MCP servers returning only structured tool data or text, MCP Apps lets servers return UI views inside MCP hosts so models get actionable context and humans get usable controls. The session connects MCP UI, the MCP Apps extension, SEP-1865, host integration, real-world use cases, and the move from chat responses toward agentic applications. Its practical method is to separate model-operable data from human-operable interface while keeping both inside the same MCP interaction.
 
 ### Speaker And Company Context
-- [[liad-yosef|Liad Yosef]] — Co-creator at [[mcp-apps|MCP Apps]].
-- [[ido-salomon|Ido Salomon]] — Co-Creator at [[mcp-apps|MCP Apps]].
+- [[liad-yosef|Liad Yosef]] — Co-creator at MCP Apps.
+- [[ido-salomon|Ido Salomon]] — Co-Creator at MCP Apps.
 
 ### Topics Covered
 - [[agent-security]]

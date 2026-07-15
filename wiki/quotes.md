@@ -10,6 +10,11 @@ Transcript-backed pull quotes surfaced from AI Engineer World's Fair 2026 suppor
 
 ## Index
 
+### [[agent-memory|Agent Memory]]
+- [[quote-8G_1-3IO4ZQ-01-uh-quality-of-the-agent-often-dependent-uh-on-the-quality-of-context-e]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar
+- [[quote-8G_1-3IO4ZQ-02-uh-and-so-my-goal-today-is-to-talk-about-like-wtf-is-the-context-layer]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar
+- [[quote-8G_1-3IO4ZQ-03-uh-the-way-i-think-about-a-context-layer-is-it-s-a-system-that-turns-k]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar
+
 ### [[coding-agents|Coding Agents]]
 - [[quote-9fubhllmsBU-01-and-so-uh-and-we-tried-to-give-it-context-and-not-just-constraints]] — Field Guide to Fable — Thariq Shihipar, Anthropic
 - [[quote-4sX_He5c4sI-02-and-so-uh-and-we-tried-to-give-it-con-context-and-not-just-constraints]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
@@ -28,3 +33,6 @@ Transcript-backed pull quotes surfaced from AI Engineer World's Fair 2026 suppor
 - [[quote-o-zkvb0iFDQ-01-in-this-case-it-decides-to-actually-call-the-server-tool-but-the-contr]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
 - [[quote-o-zkvb0iFDQ-02-and-just-a-few-months-back-mcpui-we-partnered-with-anthropic-and-opena]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
 - [[quote-o-zkvb0iFDQ-03-obviously-shout-out-postman-and-goose-and-claude-the-first-one-that-re]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
+- [[quote-V-EDrhIhHzQ-04-um-and-to-give-people-an-option-to-not-just-use-the-open-source-models]] — The Prime Intellect Stack — Will Brown, Prime Intellect
+- [[quote-V-EDrhIhHzQ-05-people-talk-about-environment-in-the-context-of-rl-and-they-think-of-l]] — The Prime Intellect Stack — Will Brown, Prime Intellect
+- [[quote-V-EDrhIhHzQ-06-and-our-goal-is-to-just-make-this-a-really-flexible-toolkit-for-all-th]] — The Prime Intellect Stack — Will Brown, Prime Intellect

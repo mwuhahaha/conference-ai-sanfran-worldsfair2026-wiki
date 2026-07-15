@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "c-2eEv2ou7Y"
-last_enriched: "2026-07-11T22:29:38.296225+00:00"
+last_enriched: "2026-07-15T11:40:41.301267+00:00"
 ---
 # Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/c-2eEv2o
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]], [[agent-security|Agent Security]]
-- Transcript keywords: `yourself`, `injecting`, `loading`, `blocked`, `directly`, `green`, `product`, `quick`
+- Transcript keywords: `bring`, `yeah`, `script`, `business`, `discovering`, `ball`, `requires`, `polyfill`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=c-2eEv2ou7Y)

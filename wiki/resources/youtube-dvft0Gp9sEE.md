@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "dvft0Gp9sEE"
-last_enriched: "2026-07-11T22:29:36.513044+00:00"
+last_enriched: "2026-07-15T11:40:39.084972+00:00"
 ---
 # Analyzing 10,000 Sales Calls With AI In 2 Weeks — Charlie Guo
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/dvft0Gp9
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agentic-search|Agentic Search]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `rounds`, `directly`, `teams`, `product`, `having`, `entire`, `downloading`, `insight`
+- Transcript keywords: `generally`, `evidence`, `asking`, `schemas`, `writing`, `manually`, `prospect`, `ventureback`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=dvft0Gp9sEE)

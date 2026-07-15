@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "4sX_He5c4sI"
-last_enriched: "2026-07-11T22:29:37.364402+00:00"
+last_enriched: "2026-07-15T11:40:40.170094+00:00"
 ---
 # WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-livestream-transcrip
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[autoresearch|AutoResearch]], [[mcp|MCP]]
-- Transcript keywords: `explore`, `inspire`, `category`, `aent`, `procurement`, `productize`, `sponsoring`, `rewards`
+- Transcript keywords: `pass`, `hippastus`, `worry`, `swipe`, `manually`, `karma`, `medium`, `obviously`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=4sX_He5c4sI)

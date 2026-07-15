@@ -39,6 +39,12 @@ They are useful in feature slices, bug fixes, test generation, refactors, migrat
 
 Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
 
+Give the agent a narrow task, repository context, tests or acceptance criteria, and permission boundaries. Require it to read before editing, keep diffs scoped, run validation, report residual risk, and leave the workspace clean.
+
+They are useful in feature slices, bug fixes, test generation, refactors, migrations, docs updates, dependency audits, and operational scripts.
+
+Use coding agents when the task has clear acceptance criteria and the repo has enough structure to validate changes. Keep humans in the loop for architecture decisions, risky production operations, and ambiguous product calls.
+
 ## Connections
 - [[2026-06-29-will-bond-scaling-code-quality-building-ureview-uber-s-multi-agent-code-review-engine]] — Scaling Code Quality: Building uReview, Uber’s Multi-Agent Code Review Engine; [[will-bond|Will Bond]], [[ameya-ketkar|Ameya Ketkar]] (Day 2 — Session Day 1 · 12:05pm-12:25pm · AI-Native Enterprises; official schedule)
 - [[2026-06-29-owen-halpert-give-your-coding-agents-the-power-of-turbogrep]] — Give your coding agents the power of turbogrep!; [[owen-halpert|Owen Halpert]] (Day 2 — Session Day 1 · 11:10am-11:30am · Expo Stage 1 NE; official schedule)
@@ -73,6 +79,7 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[sandhya-subramani|Sandhya Subramani]]
 - [[thor-schaeff|Thor 雷神 Schaeff]]
 - [[dominik-kundel|Dominik Kundel]]
+- [[philipp-schmid|Philipp Schmid]]
 - [[liad-yosef|Liad Yosef]]
 - [[frank-coyle|Frank Coyle]]
 - [[kent-c-dodds|Kent C. Dodds]]
@@ -83,7 +90,6 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[keiji-kanazawa|Keiji Kanazawa]]
 - [[swyx|swyx]]
 - [[brendan-rappazzo|Brendan Rappazzo]]
-- [[philipp-schmid|Philipp Schmid]]
 - [[arun-sekhar|Arun Sekhar]]
 - [[christopher-manning|Christopher Manning]]
 - [[fuad-ali|Fuad Ali]]
@@ -108,6 +114,9 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[mcp-apps|MCP Apps]]
 - [[sonar|Sonar]]
 - [[uber|Uber]]
+
+
+
 
 
 
@@ -145,10 +154,13 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
 - [[youtube-WkBPX-oDMnA]] — Understanding is the new bottleneck — Geoffrey Litt, Notion
 - [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
+- [[youtube-0vphxNt4wyk]] — Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind
 - [[youtube-9fubhllmsBU]] — Field Guide to Fable — Thariq Shihipar, Anthropic
 - [[youtube-htM02KMNZnk]] — WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
 - [[youtube-I2cbIws9j10]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
 - [[youtube-o-zkvb0iFDQ]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
+- [[youtube-8G_1-3IO4ZQ]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar
+- [[youtube-V-EDrhIhHzQ]] — The Prime Intellect Stack — Will Brown, Prime Intellect
 
 ### Quote signals
 - “And so, uh, and we tried to give it context and not just constraints.” — [[youtube-9fubhllmsBU]]
@@ -159,6 +171,10 @@ Use coding agents when the task has clear acceptance criteria and the repo has e
 - “the local retrieval, the inprocess tools, the memory and the parts that do not shred under streaming and async record at the boundary instead because you need to capture what enters each node and what leaves it.” — [[youtube-htM02KMNZnk]]
 - “Um memory and persistent context is one that I'm watching very carefully right now.” — [[youtube-I2cbIws9j10]]
 - “And then more advanced version is really trying to start thinking of it as a teammate that is actually sort of holds context, has memory and can be proactive and that's just really changed how we operate internally.” — [[youtube-I2cbIws9j10]]
+
+### Transcript-backed resources
+
+### Quote signals
 
 ### Transcript-backed resources
 
@@ -355,6 +371,21 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Resources
 - [[youtube-WkBPX-oDMnA]]
+
+### Slides
+
+### Transcripts
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| resources | 37 | Video/resource pages; check source status before treating as primary event evidence. |
+
+### Talks
+
+### Resources
+- [[youtube-0vphxNt4wyk]]
 
 ### Slides
 

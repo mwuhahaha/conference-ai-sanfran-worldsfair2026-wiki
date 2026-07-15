@@ -80,6 +80,7 @@ Can you guys hear us? Sound check. All right, give it up for local AI, everyone.
 ### Topics Covered
 - [[agent-security]]
 - [[agentic-search]]
+- [[agentic-web]]
 - [[ai-sandboxes]]
 - [[coding-agents]]
 

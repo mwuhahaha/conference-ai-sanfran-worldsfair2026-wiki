@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "UcYoMg-8-L8"
-last_enriched: "2026-07-11T22:29:36.446398+00:00"
+last_enriched: "2026-07-15T11:40:39.026187+00:00"
 ---
 # 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/UcYoMg-8
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[autoresearch|AutoResearch]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `yourself`, `directly`, `teams`, `shipped`, `excited`, `product`, `huge`, `entire`
+- Transcript keywords: `bring`, `unlock`, `thoughts`, `artifact`, `others`, `requires`, `showed`, `project`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=UcYoMg-8-L8)

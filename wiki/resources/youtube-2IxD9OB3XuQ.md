@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "2IxD9OB3XuQ"
-last_enriched: "2026-07-11T22:29:36.695795+00:00"
+last_enriched: "2026-07-15T11:40:39.281606+00:00"
 ---
 # Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/2IxD9OB3
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[ai-sandboxes|AI Sandboxes]], [[mcp|MCP]], [[coding-agents|Coding Agents]]
-- Transcript keywords: `persistent`, `category`, `directly`, `teams`, `normalize`, `bigger`, `personas`, `thresholds`
+- Transcript keywords: `pass`, `fixing`, `properly`, `deeper`, `behaving`, `writing`, `replaces`, `medium`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=2IxD9OB3XuQ)

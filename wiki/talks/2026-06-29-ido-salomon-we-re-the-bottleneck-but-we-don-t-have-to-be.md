@@ -63,9 +63,10 @@ Related video transcript availability: English auto-captions. Treat this as supp
 The session explains MCP Apps as a way to add interactive UI to MCP-based workflows. It treats the MCP host as the place where tool data, model reasoning, and human controls meet.
 
 ### Speaker And Company Context
-- [[ido-salomon|Ido Salomon]] — Co-Creator at [[mcp-apps|MCP Apps]].
+- [[ido-salomon|Ido Salomon]] — Co-Creator at MCP Apps.
 
 ### Topics Covered
+- [[agent-security]]
 - [[coding-agents]]
 - [[mcp]]
 - [[mcp-apps]]

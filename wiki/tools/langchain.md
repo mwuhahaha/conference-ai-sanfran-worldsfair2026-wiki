@@ -35,6 +35,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - `raw/sources/youtube-transcripts/Jx4ZFEAq6bY.txt`
 - `raw/sources/youtube-transcripts/ObTPqBGsEbA.txt`
 - `raw/sources/youtube-transcripts/SKDJo2CopRs.txt`
+- `raw/sources/youtube-transcripts/V-EDrhIhHzQ.txt`
 - `raw/sources/youtube-transcripts/Xfl50508LZM.txt`
 - `raw/sources/youtube-transcripts/qdZzND79mcg.txt`
 - `raw/sources/youtube-livestream-transcripts/I2cbIws9j10.txt`

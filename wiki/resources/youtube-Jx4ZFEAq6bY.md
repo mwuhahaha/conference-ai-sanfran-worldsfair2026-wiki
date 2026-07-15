@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "Jx4ZFEAq6bY"
-last_enriched: "2026-07-11T22:29:37.282928+00:00"
+last_enriched: "2026-07-15T11:40:40.064265+00:00"
 ---
 # User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/Jx4ZFEAq
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[agentic-search|Agentic Search]], [[agent-memory|Agent Memory]], [[mcp|MCP]]
-- Transcript keywords: `keeps`, `product`, `measures`, `already`, `upgrade`, `score`, `usefulness`, `benchmark`
+- Transcript keywords: `pass`, `demo`, `fails`, `completion`, `happens`, `customer`, `pieces`, `bench`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=Jx4ZFEAq6bY)

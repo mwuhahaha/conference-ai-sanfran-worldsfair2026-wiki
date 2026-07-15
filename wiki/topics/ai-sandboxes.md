@@ -56,6 +56,12 @@ They are useful in coding assistants, data-analysis agents, browser agents, app 
 
 Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
 
+Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.
+
+They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.
+
+Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
+
 ## Practical Lesson
 Give each run the minimum tools, credentials, network reach, filesystem scope, and lifetime it needs; capture actions and outputs so approval and incident review use the same evidence trail.
 
@@ -90,6 +96,7 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[john-craft|John Craft]]
 - [[abhishek-bhardwaj|Abhishek Bhardwaj]]
 - [[arun-sekhar|Arun Sekhar]]
+- [[will-brown|Will Brown]]
 - [[tina-manghnani|Tina Manghnani]]
 - [[pierluca-d-oro|Pierluca D'Oro]]
 - [[robert-brennan|Robert Brennan]]
@@ -110,13 +117,13 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[corby-rosset|Corby Rosset]]
 - [[rowan-christmas|Rowan Christmas]]
 - [[rayan-garg|Rayan Garg]]
-- [[mahesh-sathiamoorthy|Mahesh Sathiamoorthy]]
 
 - [[docker|Docker]]
 - [[microsoft|Microsoft]]
 - [[openai|OpenAI]]
 - [[browserbase|Browserbase]]
 - [[amazon-agi-lab|Amazon AGI Lab]]
+- [[prime-intellect|Prime Intellect]]
 - [[mcp-apps|MCP Apps]]
 - [[cua|Cua]]
 - [[typedef|typedef]]
@@ -125,11 +132,14 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[navan|Navan]]
 - [[uber|Uber]]
 - [[warp|Warp]]
-- [[prime-intellect|Prime Intellect]]
 - [[meta|Meta]]
 - [[yugabyte|Yugabyte]]
 - [[programma-labs|Programma Labs]]
 - [[openhands|OpenHands]]
+
+
+- [[mahesh-sathiamoorthy|Mahesh Sathiamoorthy]]
+
 
 
 
@@ -155,8 +165,11 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 
 ## Evidence Graph
 ### Transcript-backed resources
+- [[youtube-V-EDrhIhHzQ]] — The Prime Intellect Stack — Will Brown, Prime Intellect
 - [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
 - [[youtube-o-zkvb0iFDQ]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
+
+### Transcript-backed resources
 
 ### Transcript-backed resources
 
@@ -325,8 +338,28 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Tools
 
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| other | 45 | Related pages outside the main evidence categories. |
+| resources | 26 | Video/resource pages; check source status before treating as primary event evidence. |
+| slides | 17 | OCR or reconstructed slide evidence; mark claims as OCR-derived unless image-reviewed. |
+
+### Talks
+
+### Resources
+- [[youtube-V-EDrhIhHzQ]]
+
+### Slides
+
+### Tools
+
 ## Active Use Cases
 - Running generated code and tests before suggesting a patch.
 - Browser or computer-use automation with constrained state.
 - Temporary workspaces for data analysis and document transformation.
 - Reproducible agent task environments for evaluations.
+
+## Slide-Derived Supporting Decks
+- [[youtube-V-EDrhIhHzQ-slides]] —  (5 extracted slide frames)
+
+These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.

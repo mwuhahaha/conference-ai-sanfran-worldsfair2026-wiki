@@ -30,6 +30,8 @@ In the last two years, models have gotten exponentially smarter. Two years ago t
 ## Media Evidence
 No related AI Engineer channel video found yet.
 
+- [[youtube-8G_1-3IO4ZQ-transcript]] — full cached transcript markdown for the related YouTube source.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
@@ -50,18 +52,29 @@ No official session recording transcript was found by exact title match on the A
 
 ## Synthesis
 ### Synthesized Breakdown
-# WTF Is the Context Layer? The Missing Infrastructure for Production Agents ## Conference Context - Date/time: 2026-06-30 · 1:55pm-2:15pm - Track/room: Context Engineering · Track 8 - Speaker(s): Prukalpa Sankar - Session type/status: session · confirmed - Track: Context Engineering - Room: Track 8 - Session type: session - Status: confirmed ## Session Description In the last two years, models have gotten exponentially smarter. Two years ago they couldn't pass the bar. Today, top 1% of test scorers.
+Hi everyone. Uh my name is Praalpa. I'm the founder of Atlan. Um and uh today I'm going to talk about this thing where context is having its moment.
 
 ### Speaker And Company Context
 - [[prukalpa-sankar|Prukalpa Sankar]] — Founder & Co-CEO at [[atlan|Atlan]].
 
 ### Topics Covered
+- [[agent-security]]
+- [[agentic-search]]
+- [[coding-agents]]
 - [[mcp]]
 
 ### Derived Links And Source Material
+- [[youtube-8G_1-3IO4ZQ-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/8G_1-3IO4ZQ.txt` (3,420 words).
+- [[youtube-8G_1-3IO4ZQ]] — related YouTube source page.
+- [[youtube-8G_1-3IO4ZQ-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Official YouTube Recording
+- [[youtube-8G_1-3IO4ZQ]] — official AI Engineer YouTube channel recording published 2026-07-14.
+- Evidence status: [[youtube-8G_1-3IO4ZQ-transcript]]; [[youtube-8G_1-3IO4ZQ-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.

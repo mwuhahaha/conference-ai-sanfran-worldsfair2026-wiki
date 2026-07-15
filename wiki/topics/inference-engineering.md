@@ -39,6 +39,12 @@ It matters in chat products, coding agents, voice agents, search and RAG systems
 
 Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
 
+Measure end-to-end latency and token costs, separate prefill from generation costs, cache stable context, route tasks to the smallest adequate model, batch where possible, and monitor quality regressions when optimizing speed or cost.
+
+It matters in chat products, coding agents, voice agents, search and RAG systems, enterprise assistants, on-device AI, and high-volume API products.
+
+Invest in inference engineering once prototypes need predictable user experience, margins, scale, or reliability. It becomes critical when workloads are high-volume, latency-sensitive, or model-provider dependent.
+
 ## Connections
 - [[2026-07-01-nishant-gupta-operating-distributed-inference-systems-at-scale]] — Operating Distributed Inference Systems at Scale; [[nishant-gupta|Nishant Gupta]], [[naman-ahuja|Naman Ahuja]] (Day 4 — Session Day 3 · 10:45am-11:05am · Inference; official schedule)
 - [[2026-06-29-bogdan-gaza-running-a-20t-token-data-pipeline-infrastructure-lessons-from-production]] — Running a 20T-Token Data Pipeline: Infrastructure Lessons from Production; [[bogdan-gaza|Bogdan Gaza]] (Day 2 — Session Day 1 · 3:20pm-3:40pm · Expo Stage 3 SW; official schedule)
@@ -100,6 +106,7 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[ai21|AI21]]
 - [[towards-ai|Towards AI]]
 - [[superlinked|Superlinked]]
+- [[google-deepmind|Google DeepMind]]
 - [[gradium|Gradium]]
 - [[audible|Audible]]
 - [[zions-bancorporation|Zions Bancorporation]]
@@ -107,6 +114,9 @@ Invest in inference engineering once prototypes need predictable user experience
 - [[stanford-university|Stanford University]]
 - [[red-hat|Red Hat]]
 - [[mckinsey-and-company|McKinsey & Company]]
+
+
+
 - [[google|Google]]
 
 
@@ -130,7 +140,10 @@ Invest in inference engineering once prototypes need predictable user experience
 ### Transcript-backed resources
 - [[youtube-I2cbIws9j10]] — WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
 - [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
+- [[youtube-0vphxNt4wyk]] — Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind
 - [[youtube-ZpK5PWX2YRM]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
+
+### Transcript-backed resources
 
 ### Transcript-backed resources
 
@@ -297,6 +310,20 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Talks
 
 ### Resources
+
+### Slides
+
+### Transcripts
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| other | 63 | Related pages outside the main evidence categories. |
+| resources | 24 | Video/resource pages; check source status before treating as primary event evidence. |
+
+### Talks
+
+### Resources
+- [[youtube-0vphxNt4wyk]]
 
 ### Slides
 

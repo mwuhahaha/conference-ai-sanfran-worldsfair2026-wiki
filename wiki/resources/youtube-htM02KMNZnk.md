@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "htM02KMNZnk"
-last_enriched: "2026-07-11T22:29:37.642868+00:00"
+last_enriched: "2026-07-15T11:40:40.515514+00:00"
 ---
 # WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-livestream-transcrip
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[agentic-search|Agentic Search]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `explore`, `inspire`, `category`, `aent`, `procurement`, `rewards`, `intricacy`, `incidents`
+- Transcript keywords: `pass`, `brother`, `worry`, `swipe`, `utilized`, `cheat`, `manually`, `freerange`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=htM02KMNZnk)

@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "SKDJo2CopRs"
-last_enriched: "2026-07-11T22:29:38.286801+00:00"
+last_enriched: "2026-07-15T11:40:41.287077+00:00"
 ---
 # Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/SKDJo2Co
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]], [[agent-security|Agent Security]]
-- Transcript keywords: `amazing`, `persistent`, `yourself`, `directly`, `nowadays`, `connects`, `background`, `bigger`
+- Transcript keywords: `bring`, `plugin`, `asking`, `tiny`, `brother`, `account`, `mess`, `worry`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=SKDJo2CopRs)

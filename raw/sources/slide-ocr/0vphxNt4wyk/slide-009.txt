@@ -1,0 +1,6 @@
+AIEWORLD'SFAIR-2OMINUTETALX Don't Ship Skills # Run skill evals with ablotion test
+WithoutEvals eval_runner run evals/dcploy_eval.yoml --with-vs-without-skills\
+--runs=3
+Building Reliable Agent Capabilities Ski11Lift:+35.2%（Readytoship!)
+Philipp Schmid, Staff Engineer, Google DeepMind
+Engineering the future of Al

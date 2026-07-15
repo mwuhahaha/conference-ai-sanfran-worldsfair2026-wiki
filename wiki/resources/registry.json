@@ -130,6 +130,11 @@
     "path": "wiki/resources/youtube-0S8xe9ftGTM.md"
   },
   {
+    "id": "youtube-0vphxNt4wyk",
+    "title": "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
+    "path": "wiki/resources/youtube-0vphxNt4wyk.md"
+  },
+  {
     "id": "youtube-12v5S1n1eOY",
     "title": "Building an Agentic Platform — Ben Kus, CTO Box",
     "path": "wiki/resources/youtube-12v5S1n1eOY.md"
@@ -233,6 +238,11 @@
     "id": "youtube-84Vtz2IL1Ug",
     "title": "Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter",
     "path": "wiki/resources/youtube-84Vtz2IL1Ug.md"
+  },
+  {
+    "id": "youtube-8G_1-3IO4ZQ",
+    "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
+    "path": "wiki/resources/youtube-8G_1-3IO4ZQ.md"
   },
   {
     "id": "youtube-8SUJEqQNClw",
@@ -648,6 +658,11 @@
     "id": "youtube-UcYoMg-8-L8",
     "title": "500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic",
     "path": "wiki/resources/youtube-UcYoMg-8-L8.md"
+  },
+  {
+    "id": "youtube-V-EDrhIhHzQ",
+    "title": "The Prime Intellect Stack — Will Brown, Prime Intellect",
+    "path": "wiki/resources/youtube-V-EDrhIhHzQ.md"
   },
   {
     "id": "youtube-WJjInLeaJjo",

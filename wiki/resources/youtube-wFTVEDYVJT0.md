@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "wFTVEDYVJT0"
-last_enriched: "2026-07-11T22:29:36.626463+00:00"
+last_enriched: "2026-07-15T11:40:39.198385+00:00"
 ---
 # Building Agents with Amazon Nova Act and MCP - Du'An Lightfoot, Amazon (Full Workshop)
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/wFTVEDYV
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agentic-search|Agentic Search]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `explore`, `loading`, `overact`, `background`, `already`, `aent`, `bookmarks`, `preferred`
+- Transcript keywords: `pass`, `worry`, `sake`, `deeper`, `yeah`, `obviously`, `demo`, `happens`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=wFTVEDYVJT0)

@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "mFLlVpnGpds"
-last_enriched: "2026-07-11T22:29:36.572438+00:00"
+last_enriched: "2026-07-15T11:40:39.142823+00:00"
 ---
 # Beyond Transcription: Building Voice AI That Understands Conversations — Hervé Bredin, pyannoteAI
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/mFLlVpnG
 
 ## Topic Signals
 - [[voice-agents|Voice Agents]], [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `guest`, `green`, `background`, `repeat`, `usually`, `quick`, `having`, `already`
+- Transcript keywords: `bring`, `laughing`, `account`, `mess`, `yeah`, `beep`, `reaches`, `manually`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=mFLlVpnGpds)

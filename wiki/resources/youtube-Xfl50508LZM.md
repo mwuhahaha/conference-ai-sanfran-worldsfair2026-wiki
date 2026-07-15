@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "Xfl50508LZM"
-last_enriched: "2026-07-11T22:29:36.960624+00:00"
+last_enriched: "2026-07-15T11:40:39.609732+00:00"
 ---
 # Ship Real Agents: Hands-On Evals for Agentic Applications — Laurie Voss, Arize
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/Xfl50508
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[coding-agents|Coding Agents]], [[mcp|MCP]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `category`, `rounds`, `measurably`, `background`, `notices`, `having`, `already`, `huge`
+- Transcript keywords: `pass`, `generally`, `bring`, `thoughts`, `worry`, `yeah`, `manually`, `prospect`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=Xfl50508LZM)

@@ -37,6 +37,8 @@ There are thousands agent skills. Almost none of them are tested. They get vibe-
 - Additional slide evidence: [[youtube-3_gYbhABcAE-slides|Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]], [[youtube-3_gYbhABcAE-reconstructed-slides|Reconstructed Slides: Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind]]
 - Slide-derived themes for `youtube-3_gYbhABcAE`: text, state, trap, treating, real, world, feels, safe.
 
+- [[youtube-0vphxNt4wyk-transcript]] — full cached transcript markdown for the related YouTube source.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
@@ -67,16 +69,21 @@ Related video transcript availability: English auto-captions. Treat this as supp
 
 ## Synthesis
 ### Synthesized Breakdown
-# Don't Ship Skills Without Evals ## Conference Context - Date/time: 2026-06-30 · 3:20pm-3:40pm - Track/room: Evals · Track 5 - Speaker(s): Philipp Schmid - Session type/status: sponsor · confirmed - Track: Evals - Room: Track 5 - Session type: sponsor - Status: confirmed ## Session Description There are thousands agent skills. Almost none of them are tested. They get vibe-checked with two manual runs, maybe a thumbs-up from a colleague, then shipped. You wouldn't merge code without tests — so why are we shipping skills without evals?
+Yes, so hi everyone. My name is Philip. I'm based out of Germany. I'm part of the Google DeepMind team mostly working on Gemini API and agents.
 
 ### Speaker And Company Context
 - [[philipp-schmid|Philipp Schmid]] — Staff Engineer at [[google-deepmind|Google DeepMind]].
 
 ### Topics Covered
 - [[agent-security]]
+- [[agentic-search]]
+- [[ai-sandboxes]]
 - [[coding-agents]]
 
 ### Derived Links And Source Material
+- [[youtube-0vphxNt4wyk-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/0vphxNt4wyk.txt` (3,965 words).
+- [[youtube-0vphxNt4wyk]] — related YouTube source page.
+- [[youtube-0vphxNt4wyk-slides]] — slide evidence.
 - [[youtube-3_gYbhABcAE]] — related YouTube source page.
 - [[youtube-3_gYbhABcAE-slides]] — slide evidence.
 - [[youtube-3_gYbhABcAE-reconstructed-slides]] — slide evidence.
@@ -86,4 +93,9 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Official YouTube Recording
+- [[youtube-0vphxNt4wyk]] — official AI Engineer YouTube channel recording published 2026-07-14.
+- Evidence status: [[youtube-0vphxNt4wyk-transcript]]; [[youtube-0vphxNt4wyk-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.

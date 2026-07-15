@@ -40,15 +40,15 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Slide/OCR Pages
 - [[youtube--TiET_K-E_g-slides]]
+- [[youtube-0vphxNt4wyk-slides]]
 - [[youtube-3_gYbhABcAE-slides]]
 - [[youtube-5ID22ACI7IM-slides]]
 - [[youtube-6YdPI9YbjbI-dense-slides]]
 - [[youtube-6YdPI9YbjbI-reconstructed-slides]]
 - [[youtube-6YdPI9YbjbI-slides]]
+- [[youtube-8G_1-3IO4ZQ-slides]]
 - [[youtube-B9h9ovW5H9U-slides]]
 - [[youtube-BM2JX9hqsVQ-slides]]
-- [[youtube-Bc6Ojl2XS1w-slides]]
-- [[youtube-BiG2ssibKGc-slides]]
 
 ### Topic Pages
 - [[agent-evaluations]]

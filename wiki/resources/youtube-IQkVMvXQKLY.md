@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "IQkVMvXQKLY"
-last_enriched: "2026-07-11T22:29:38.388302+00:00"
+last_enriched: "2026-07-15T11:40:41.425424+00:00"
 ---
 # Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/IQkVMvXQ
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[autoresearch|AutoResearch]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `yourself`, `green`, `bigger`, `shifts`, `senior`, `prefer`, `quick`, `already`
+- Transcript keywords: `pass`, `worry`, `slice`, `reaches`, `writing`, `doors`, `proving`, `recall`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=IQkVMvXQKLY)

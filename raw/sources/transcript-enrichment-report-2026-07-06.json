@@ -244,6 +244,38 @@
       "words": 3258
     },
     {
+      "video_id": "0vphxNt4wyk",
+      "title": "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
+      "event_video": true,
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          46
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          42
+        ],
+        [
+          "agent-memory",
+          "Agent Memory",
+          13
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          8
+        ]
+      ],
+      "matches": [
+        "2026-06-30-philipp-schmid-don-t-ship-skills-without-evals"
+      ],
+      "quotes": 3,
+      "words": 3965
+    },
+    {
       "video_id": "bk0TmxoZlUY",
       "title": "Evals 101 — Doug Guthrie, Braintrust",
       "event_video": false,
@@ -741,6 +773,38 @@
       "words": 8161
     },
     {
+      "video_id": "V-EDrhIhHzQ",
+      "title": "The Prime Intellect Stack — Will Brown, Prime Intellect",
+      "event_video": true,
+      "topics": [
+        [
+          "mcp",
+          "MCP",
+          42
+        ],
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          37
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          25
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          24
+        ]
+      ],
+      "matches": [
+        "2026-06-29-will-brown-the-prime-intellect-stack"
+      ],
+      "quotes": 3,
+      "words": 10228
+    },
+    {
       "video_id": "hVJOnuhFmTA",
       "title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
       "event_video": false,
@@ -1016,6 +1080,38 @@
       "words": 2859
     },
     {
+      "video_id": "8G_1-3IO4ZQ",
+      "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
+      "event_video": true,
+      "topics": [
+        [
+          "agent-memory",
+          "Agent Memory",
+          42
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          27
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          13
+        ],
+        [
+          "agentic-search",
+          "Agentic Search",
+          4
+        ]
+      ],
+      "matches": [
+        "2026-06-30-prukalpa-sankar-wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents"
+      ],
+      "quotes": 3,
+      "words": 3420
+    },
+    {
       "video_id": "6bmM45jkMDY",
       "title": "You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs",
       "event_video": false,
@@ -1105,6 +1201,6 @@
       "reason": "non-talk event reel"
     }
   ],
-  "quote_count": 24,
-  "updated_at": "2026-07-11T22:29:41.738299+00:00"
+  "quote_count": 33,
+  "updated_at": "2026-07-15T11:40:45.053809+00:00"
 }

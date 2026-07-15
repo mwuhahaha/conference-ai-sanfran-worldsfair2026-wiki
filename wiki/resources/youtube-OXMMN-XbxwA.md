@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "OXMMN-XbxwA"
-last_enriched: "2026-07-11T22:29:36.899033+00:00"
+last_enriched: "2026-07-15T11:40:39.531382+00:00"
 ---
 # Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/OXMMN-Xb
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[autoresearch|AutoResearch]], [[agentic-search|Agentic Search]], [[mcp|MCP]]
-- Transcript keywords: `explore`, `diffusion`, `teams`, `senior`, `product`, `having`, `grade`, `managers`
+- Transcript keywords: `pass`, `represent`, `bring`, `suites`, `trade`, `slice`, `yeah`, `remaining`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=OXMMN-XbxwA)

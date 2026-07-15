@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "HsxQICTLF84"
-last_enriched: "2026-07-11T22:29:36.640079+00:00"
+last_enriched: "2026-07-15T11:40:39.211734+00:00"
 ---
 # Building an ACP-Compatible Agent Live — Bennet Fenner, Zed
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/HsxQICTL
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[inference-engineering|Inference Engineering]], [[voice-agents|Voice Agents]]
-- Transcript keywords: `helpers`, `usually`, `having`, `already`, `necessary`, `stream`, `minute`, `anyone`
+- Transcript keywords: `bring`, `yeah`, `chunks`, `proxies`, `writing`, `obviously`, `remote`, `edit`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=HsxQICTLF84)

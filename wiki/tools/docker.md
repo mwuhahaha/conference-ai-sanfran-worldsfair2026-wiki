@@ -34,13 +34,15 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Slide/OCR Pages
 - [[youtube-0S8xe9ftGTM-slides]]
+- [[youtube-0vphxNt4wyk-slides]]
+- [[youtube-8G_1-3IO4ZQ-slides]]
 - [[youtube-Fzb1a24hF-o-slides]]
 - [[youtube-KB41dTlX1Uc-slides]]
+- [[youtube-V-EDrhIhHzQ-slides]]
 - [[youtube-WkBPX-oDMnA-slides]]
 - [[youtube-rcsliSIy_YU-slides]]
 - [[youtube-wcUJWP6WpGM-slides]]
 - [[youtube-wsFd22SL1s8-dense-slides]]
-- [[youtube-wsFd22SL1s8-slides]]
 
 ### Topic Pages
 - [[agent-security]]
@@ -52,6 +54,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - `raw/sources/youtube-transcripts/Akm1sqvWG4A.txt`
 - `raw/sources/youtube-transcripts/OXMMN-XbxwA.txt`
 - `raw/sources/youtube-transcripts/QuuIywMG4s8.txt`
+- `raw/sources/youtube-transcripts/V-EDrhIhHzQ.txt`
 - `raw/sources/youtube-transcripts/pmoDeA3RBZY.txt`
 - `raw/sources/youtube-transcripts/wcUJWP6WpGM.txt`
 - `raw/sources/youtube-transcripts/zDGHt0LB-dA.txt`
