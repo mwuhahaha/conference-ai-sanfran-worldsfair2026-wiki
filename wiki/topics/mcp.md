@@ -45,6 +45,12 @@ MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser a
 
 Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.
 
+Define focused MCP servers with clear tools, schemas, resources, and permission boundaries. Keep tool names concrete, return structured results, test with inspectors, and design for least privilege. For MCP Apps, treat UI and iframe boundaries as part of the security and product contract.
+
+MCP is useful in IDEs, desktop assistants, enterprise data connectors, browser agents, design tools, developer platforms, and internal operations systems.
+
+Use MCP when multiple AI clients need access to the same tools or when a tool provider wants a standard agent-facing integration. For a single narrow app, direct APIs may be simpler until reuse or interoperability matters.
+
 ## Connections
 - [[2026-07-01-jan-curn-mcp-doesn-t-suck-your-agent-does]] — MCP doesn’t suck — your agent does; [[jan-curn|Jan Curn]] (Day 4 — Session Day 3 · 1:55pm-2:15pm · Expo Stage 2 NW; official schedule)
 - [[2026-06-30-liad-yosef-mcp-apps-extending-the-frontier]] — MCP Apps - Extending the frontier; [[liad-yosef|Liad Yosef]], [[ido-salomon|Ido Salomon]] (Day 3 — Session Day 2 · 2:25pm-2:45pm · Context Engineering; verified event YouTube resource; via [[youtube-o-zkvb0iFDQ]])
@@ -68,8 +74,8 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[2026-06-29-will-brown-the-prime-intellect-stack]] — The Prime Intellect Stack; [[will-brown|Will Brown]] (Day 1 — Workshop Day · 4:30pm-5:30pm · Workshops Day 1; verified event YouTube resource; via [[youtube-V-EDrhIhHzQ]])
 - [[2026-06-29-pamela-fox-get-started-with-models-in-microsoft-foundry-to-build-ai-apps]] — Get Started with Models in Microsoft Foundry to Build AI Apps; [[pamela-fox|Pamela Fox]] (Day 1 — Workshop Day · 9:00am-10:15am · Track M; official schedule)
 - [[2026-06-30-ashu-joshi-deploy-agents-to-users-in-m365-teams-and-apps]] — Deploy agents to users in M365, Teams, and apps; [[ashu-joshi|Ashu Joshi]] (Day 3 — Session Day 2 · 3:20pm-3:40pm · Track M; official schedule)
+- [[2026-06-29-lee-robinson-recursive-model-improvement]] — Recursive Model Improvement; [[lee-robinson|Lee Robinson]] (Day 2 — Session Day 1 · 5:10pm-5:30pm · Software Factories; verified event YouTube resource; via [[youtube-q4Tr-DknG2M]])
 - [[2026-06-30-thariq-shihipar-field-guide-to-fable]] — Field Guide to Fable; [[thariq-shihipar|Thariq Shihipar]] (Day 3 — Session Day 2 · 9:05am-9:25am · Autoresearch; verified event YouTube resource; via [[youtube-9fubhllmsBU]])
-- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck]] — Understanding is the new bottleneck; [[geoffrey-litt|Geoffrey Litt]] (Day 3 — Session Day 2 · 10:45am-11:05am · Design Engineering; verified event YouTube resource; via [[youtube-WkBPX-oDMnA]])
 
 - [[john-craft|John Craft]]
 - [[pamela-fox|Pamela Fox]]
@@ -115,6 +121,10 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - [[nubank|Nubank]]
 - [[navan|Navan]]
 
+- [[2026-06-30-geoffrey-litt-understanding-is-the-new-bottleneck]] — Understanding is the new bottleneck; [[geoffrey-litt|Geoffrey Litt]] (Day 3 — Session Day 2 · 10:45am-11:05am · Design Engineering; verified event YouTube resource; via [[youtube-WkBPX-oDMnA]])
+
+
+
 - [[2026-06-29-liad-yosef-rebuilding-the-web-for-agents]] — Rebuilding the web for agents; [[liad-yosef|Liad Yosef]] (Day 2 — Session Day 1 · 12:05pm-12:25pm · Search & Retrieval; official schedule)
 
 
@@ -152,6 +162,7 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 ### Transcript-backed resources
 - [[youtube-o-zkvb0iFDQ]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
 - [[youtube-V-EDrhIhHzQ]] — The Prime Intellect Stack — Will Brown, Prime Intellect
+- [[youtube-q4Tr-DknG2M]] — Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI
 - [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
 - [[youtube-9fubhllmsBU]] — Field Guide to Fable — Thariq Shihipar, Anthropic
 - [[youtube-4sX_He5c4sI]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive
@@ -164,6 +175,10 @@ Use MCP when multiple AI clients need access to the same tools or when a tool pr
 - “Um and to give people an option to not just use the open-source models that are getting quite good, but to take them and make them even better on their own use cases.” — [[youtube-V-EDrhIhHzQ]]
 - “People talk about environment in the context of RL and they think of like RL environments, but environments are more than just for RL.” — [[youtube-V-EDrhIhHzQ]]
 - “And our goal is to just make this a really flexible toolkit for all the kinds of evaluation things people want to do both for API models as well as for post training.” — [[youtube-V-EDrhIhHzQ]]
+
+### Transcript-backed resources
+
+### Quote signals
 
 ### Transcript-backed resources
 
@@ -382,6 +397,23 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Resources
 - [[youtube-V-EDrhIhHzQ]]
+
+### Slides
+
+### Transcripts
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| other | 64 | Related pages outside the main evidence categories. |
+| resources | 28 | Video/resource pages; check source status before treating as primary event evidence. |
+| talks | 32 | Official schedule pages; use for titles, speakers, tracks, and stated talk framing. |
+
+### Talks
+
+### Resources
+- [[youtube-q4Tr-DknG2M]]
 
 ### Slides
 

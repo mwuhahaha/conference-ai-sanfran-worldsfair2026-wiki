@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "8G_1-3IO4ZQ"
-last_enriched: "2026-07-15T11:40:41.332965+00:00"
+last_enriched: "2026-07-15T23:40:59.265585+00:00"
 ---
 # WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/8G_1-3IO
 
 ## Topic Signals
 - [[agent-memory|Agent Memory]], [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `pass`, `cycle`, `bring`, `asking`, `thoughts`, `yeah`, `business`, `eventually`
+- Transcript keywords: `simple`, `getting`, `used`, `probably`, `companies`, `library`, `deal`, `self`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=8G_1-3IO4ZQ)

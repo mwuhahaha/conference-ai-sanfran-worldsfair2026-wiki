@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "ZpK5PWX2YRM"
-last_enriched: "2026-07-15T11:40:39.650748+00:00"
+last_enriched: "2026-07-15T23:40:57.503167+00:00"
 ---
 # Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/ZpK5PWX2
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[inference-engineering|Inference Engineering]], [[agent-security|Agent Security]]
-- Transcript keywords: `evidence`, `hallway`, `weave`, `asking`, `scary`, `fixing`, `effing`, `hung`
+- Transcript keywords: `worlds`, `pointing`, `collecting`, `accept`, `used`, `getting`, `noticed`, `plan`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=ZpK5PWX2YRM)

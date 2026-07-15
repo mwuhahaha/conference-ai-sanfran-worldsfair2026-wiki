@@ -35,6 +35,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-YRGjll7uu5w-dense-slides]]
 - [[youtube-YRGjll7uu5w-reconstructed-slides]]
 - [[youtube-YRGjll7uu5w-slides]]
+- [[youtube-q4Tr-DknG2M-slides]]
 
 ### Topic Pages
 - [[agentic-search]]

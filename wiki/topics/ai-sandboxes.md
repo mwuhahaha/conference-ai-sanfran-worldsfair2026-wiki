@@ -62,6 +62,12 @@ They are useful in coding assistants, data-analysis agents, browser agents, app 
 
 Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
 
+Choose isolation based on risk: separate processes for low-risk tasks, containers or microVMs for untrusted code, and policy-controlled network and secret access for production work. Capture logs, diffs, artifacts, and resource usage so human operators can review what happened.
+
+They are useful in coding assistants, data-analysis agents, browser agents, app builders, test runners, educational tools, and any system that executes generated code or commands.
+
+Use a sandbox whenever an agent can execute code, inspect user files, download dependencies, browse unknown sites, or run untrusted scripts. Loosen limits only after the workflow and threat model are well understood.
+
 ## Practical Lesson
 Give each run the minimum tools, credentials, network reach, filesystem scope, and lifetime it needs; capture actions and outputs so approval and incident review use the same evidence trail.
 
@@ -138,6 +144,9 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[openhands|OpenHands]]
 
 
+
+
+
 - [[mahesh-sathiamoorthy|Mahesh Sathiamoorthy]]
 
 
@@ -166,8 +175,15 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 ## Evidence Graph
 ### Transcript-backed resources
 - [[youtube-V-EDrhIhHzQ]] — The Prime Intellect Stack — Will Brown, Prime Intellect
+- [[youtube-ZSQb5fzRFPw]] — Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua
 - [[youtube-pMggiOb18tc]] — The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI
 - [[youtube-o-zkvb0iFDQ]] — MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps
+
+### Quote signals
+- “So there is a lot of like dark magic like happening behind the wood just to uh give you some context.” — [[youtube-ZSQb5fzRFPw]]
+- “And if you ask us how we trust that agent, the answer is that it's just evows all the way down.” — [[youtube-ZSQb5fzRFPw]]
+
+### Transcript-backed resources
 
 ### Transcript-backed resources
 
@@ -353,6 +369,19 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Tools
 
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| resources | 27 | Video/resource pages; check source status before treating as primary event evidence. |
+
+### Talks
+
+### Resources
+- [[youtube-ZSQb5fzRFPw]]
+
+### Slides
+
+### Tools
+
 ## Active Use Cases
 - Running generated code and tests before suggesting a patch.
 - Browser or computer-use automation with constrained state.
@@ -360,6 +389,6 @@ This table summarizes the local evidence already linked from this topic. It is a
 - Reproducible agent task environments for evaluations.
 
 ## Slide-Derived Supporting Decks
-- [[youtube-V-EDrhIhHzQ-slides]] —  (5 extracted slide frames)
+- [[youtube-ZSQb5fzRFPw-slides]] —  (17 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.

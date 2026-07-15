@@ -15,6 +15,10 @@ Transcript-backed pull quotes surfaced from AI Engineer World's Fair 2026 suppor
 - [[quote-8G_1-3IO4ZQ-02-uh-and-so-my-goal-today-is-to-talk-about-like-wtf-is-the-context-layer]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar
 - [[quote-8G_1-3IO4ZQ-03-uh-the-way-i-think-about-a-context-layer-is-it-s-a-system-that-turns-k]] — WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar
 
+### [[ai-sandboxes|AI Sandboxes]]
+- [[quote-ZSQb5fzRFPw-01-so-there-is-a-lot-of-like-dark-magic-like-happening-behind-the-wood-ju]] — Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua
+- [[quote-ZSQb5fzRFPw-02-and-if-you-ask-us-how-we-trust-that-agent-the-answer-is-that-it-s-just]] — Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua
+
 ### [[coding-agents|Coding Agents]]
 - [[quote-9fubhllmsBU-01-and-so-uh-and-we-tried-to-give-it-context-and-not-just-constraints]] — Field Guide to Fable — Thariq Shihipar, Anthropic
 - [[quote-4sX_He5c4sI-02-and-so-uh-and-we-tried-to-give-it-con-context-and-not-just-constraints]] — WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive

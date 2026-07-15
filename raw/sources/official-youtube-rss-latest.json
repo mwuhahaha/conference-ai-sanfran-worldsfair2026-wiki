@@ -1,7 +1,27 @@
 {
   "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
-  "checked_at": "2026-07-15T17:36:02.148247+00:00",
+  "checked_at": "2026-07-15T23:37:04.530361+00:00",
   "entries": [
+    {
+      "channel": "AI Engineer",
+      "id": "ZSQb5fzRFPw",
+      "published": "2026-07-15T22:45:06+00:00",
+      "published_date": "2026-07-15",
+      "source": "official_youtube_rss",
+      "title": "Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua",
+      "updated": "2026-07-15T23:03:47+00:00",
+      "url": "https://www.youtube.com/watch?v=ZSQb5fzRFPw"
+    },
+    {
+      "channel": "AI Engineer",
+      "id": "q4Tr-DknG2M",
+      "published": "2026-07-15T20:13:51+00:00",
+      "published_date": "2026-07-15",
+      "source": "official_youtube_rss",
+      "title": "Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI",
+      "updated": "2026-07-15T20:30:11+00:00",
+      "url": "https://www.youtube.com/watch?v=q4Tr-DknG2M"
+    },
     {
       "channel": "AI Engineer",
       "id": "uU5Gv2h8-9g",
@@ -9,7 +29,7 @@
       "published_date": "2026-07-15",
       "source": "official_youtube_rss",
       "title": "Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic",
-      "updated": "2026-07-15T16:36:39+00:00",
+      "updated": "2026-07-15T22:51:53+00:00",
       "url": "https://www.youtube.com/watch?v=uU5Gv2h8-9g"
     },
     {
@@ -19,7 +39,7 @@
       "published_date": "2026-07-14",
       "source": "official_youtube_rss",
       "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
-      "updated": "2026-07-15T12:44:25+00:00",
+      "updated": "2026-07-15T19:11:05+00:00",
       "url": "https://www.youtube.com/watch?v=8G_1-3IO4ZQ"
     },
     {
@@ -51,16 +71,6 @@
       "title": "\"The engineer of the future is the person who is able to choose what is worth doing.\" — Addy Osmani",
       "updated": "2026-07-15T00:22:04+00:00",
       "url": "https://www.youtube.com/watch?v=n97BCfyFIvw"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "c35YoMdnI78",
-      "published": "2026-07-13T20:36:45+00:00",
-      "published_date": "2026-07-13",
-      "source": "official_youtube_rss",
-      "title": "The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents",
-      "updated": "2026-07-15T11:59:06+00:00",
-      "url": "https://www.youtube.com/watch?v=c35YoMdnI78"
     },
     {
       "channel": "AI Engineer",
@@ -99,7 +109,7 @@
       "published_date": "2026-07-13",
       "source": "official_youtube_rss",
       "title": "The Prime Intellect Stack — Will Brown, Prime Intellect",
-      "updated": "2026-07-14T13:22:06+00:00",
+      "updated": "2026-07-15T18:53:22+00:00",
       "url": "https://www.youtube.com/watch?v=V-EDrhIhHzQ"
     },
     {
@@ -141,16 +151,6 @@
       "title": "The Agentic Web and the Bazaar Era of AI - Ramesh Raskar, MIT Media Lab",
       "updated": "2026-07-12T14:14:17+00:00",
       "url": "https://www.youtube.com/watch?v=sum9DgexFRQ"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "UlFB6efYN5Q",
-      "published": "2026-07-12T12:45:05+00:00",
-      "published_date": "2026-07-12",
-      "source": "official_youtube_rss",
-      "title": "A Song of Types and Agents - Roberto Stagi, Ratel",
-      "updated": "2026-07-12T12:45:38+00:00",
-      "url": "https://www.youtube.com/watch?v=UlFB6efYN5Q"
     }
   ],
   "source_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"

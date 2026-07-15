@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "XovaGv4f39A"
-last_enriched: "2026-07-15T11:40:41.275740+00:00"
+last_enriched: "2026-07-15T23:40:59.218959+00:00"
 ---
 # When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/XovaGv4f
 
 ## Topic Signals
 - [[agent-memory|Agent Memory]], [[agentic-search|Agentic Search]], [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `represent`, `pass`, `caches`, `specific`, `matters`, `trade`, `across`, `leave`
+- Transcript keywords: `simple`, `currently`, `sounds`, `much`, `uses`, `particular`, `distribute`, `internal`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=XovaGv4f39A)

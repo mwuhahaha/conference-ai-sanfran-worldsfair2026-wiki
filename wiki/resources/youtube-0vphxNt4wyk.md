@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "0vphxNt4wyk"
-last_enriched: "2026-07-15T11:40:39.300777+00:00"
+last_enriched: "2026-07-15T23:40:57.093546+00:00"
 ---
 # Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/0vphxNt4
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `pass`, `philip`, `ablation`, `yeah`, `writing`, `cheat`, `script`, `holiday`
+- Transcript keywords: `simple`, `accept`, `used`, `share`, `adding`, `self`, `based`, `detailed`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=0vphxNt4wyk)

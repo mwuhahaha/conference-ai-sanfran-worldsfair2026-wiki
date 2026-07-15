@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "WkBPX-oDMnA"
-last_enriched: "2026-07-15T11:40:40.037994+00:00"
+last_enriched: "2026-07-15T23:40:57.940887+00:00"
 ---
 # Understanding is the new bottleneck — Geoffrey Litt, Notion
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/WkBPX-oD
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[autoresearch|AutoResearch]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `pass`, `bring`, `willison`, `asking`, `fixing`, `deeper`, `yeah`, `writing`
+- Transcript keywords: `currently`, `hate`, `simple`, `worlds`, `origins`, `getting`, `used`, `internal`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=WkBPX-oDMnA)

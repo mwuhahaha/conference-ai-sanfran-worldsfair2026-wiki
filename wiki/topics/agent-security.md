@@ -62,6 +62,12 @@ Agent security matters in coding agents, MCP servers, browser agents, enterprise
 
 Apply strong controls whenever an agent can read sensitive data, write state, call external APIs, spend money, deploy code, or influence another system. Lower-risk chat-only agents still need data handling and logging rules.
 
+Use least-privilege tool scopes, explicit approval gates for high-risk actions, isolated execution environments, secret redaction, provenance checks, and audit trails. Treat retrieved content as untrusted input, test prompt-injection cases, and design rollback paths for destructive operations.
+
+Agent security matters in coding agents, MCP servers, browser agents, enterprise assistants, finance and compliance workflows, internal operations tools, and any system connected to privileged APIs or private data.
+
+Apply strong controls whenever an agent can read sensitive data, write state, call external APIs, spend money, deploy code, or influence another system. Lower-risk chat-only agents still need data handling and logging rules.
+
 ## Practical Lesson
 Give each run the minimum tools, credentials, network reach, filesystem scope, and lifetime it needs; capture actions and outputs so approval and incident review use the same evidence trail.
 
@@ -126,6 +132,7 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[paypal|PayPal]]
 - [[microsoft|Microsoft]]
 - [[better-auth|Better Auth]]
+- [[cua|Cua]]
 - [[navan|Navan]]
 - [[stripe|Stripe]]
 - [[moonlake-ai|Moonlake AI]]
@@ -135,6 +142,9 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 - [[gas-town|Gas Town]]
 - [[openhands|OpenHands]]
 - [[pydantic|Pydantic]]
+
+
+
 - [[daytona|Daytona]]
 
 
@@ -151,7 +161,10 @@ Give each run the minimum tools, credentials, network reach, filesystem scope, a
 
 ## Evidence Graph
 ### Transcript-backed resources
+- [[youtube-ZSQb5fzRFPw]] — Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua
 - [[youtube-ZpK5PWX2YRM]] — Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI
+
+### Transcript-backed resources
 
 ### Transcript-backed resources
 
@@ -320,6 +333,20 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Talks
 
 ### Resources
+
+### Slides
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+| other | 40 | Related pages outside the main evidence categories. |
+| resources | 19 | Video/resource pages; check source status before treating as primary event evidence. |
+
+### Talks
+
+### Resources
+- [[youtube-ZSQb5fzRFPw]]
 
 ### Slides
 

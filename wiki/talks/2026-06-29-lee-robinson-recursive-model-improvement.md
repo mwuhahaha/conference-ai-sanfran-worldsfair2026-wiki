@@ -46,6 +46,8 @@ No official description published in the schedule data.
 - Additional slide evidence: [[youtube-htM02KMNZnk-slides|Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF]], [[youtube-htM02KMNZnk-reconstructed-slides|Reconstructed Slides: WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF]]
 - Slide-derived themes for `youtube-htM02KMNZnk`: cycles, stacking, loops, tokens, tools, tasks, throughput, many.
 
+- [[youtube-q4Tr-DknG2M-transcript]] — full cached transcript markdown for the related YouTube source.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
@@ -101,6 +103,7 @@ The session explains MCP Apps as a way to add interactive UI to MCP-based workfl
 
 ### Derived Links And Source Material
 - [[youtube-htM02KMNZnk-transcript]] — transcript markdown; source cache `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt` (89,050 words).
+- [[youtube-q4Tr-DknG2M-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/q4Tr-DknG2M.txt` (4,039 words).
 - [[youtube-fL1iJHtl51Q]] — related YouTube source page.
 - [[youtube-fL1iJHtl51Q-slides]] — slide evidence.
 - [[youtube-fL1iJHtl51Q-reconstructed-slides]] — slide evidence.
@@ -109,6 +112,8 @@ The session explains MCP Apps as a way to add interactive UI to MCP-based workfl
 - [[youtube-htM02KMNZnk-slides]] — slide evidence.
 - [[youtube-htM02KMNZnk-reconstructed-slides]] — slide evidence.
 - [[youtube-htM02KMNZnk-dense-slides]] — slide evidence.
+- [[youtube-q4Tr-DknG2M]] — related YouTube source page.
+- [[youtube-q4Tr-DknG2M-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
 - [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
@@ -116,3 +121,8 @@ The session explains MCP Apps as a way to add interactive UI to MCP-based workfl
 
 ### Evidence Boundary
 This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Official YouTube Recording
+- [[youtube-q4Tr-DknG2M]] — official AI Engineer YouTube channel recording published 2026-07-15.
+- Evidence status: [[youtube-q4Tr-DknG2M-transcript]]; [[youtube-q4Tr-DknG2M-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.

@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "MpZzWMdmQCE"
-last_enriched: "2026-07-15T11:40:41.412905+00:00"
+last_enriched: "2026-07-15T23:40:59.348408+00:00"
 ---
 # Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/MpZzWMdm
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-security|Agent Security]], [[agentic-search|Agentic Search]], [[mcp|MCP]]
-- Transcript keywords: `bring`, `tiny`, `deeper`, `yeah`, `others`, `fails`, `project`, `contract`
+- Transcript keywords: `share`, `ripping`, `thanks`, `companies`, `adding`, `somebody`, `failed`, `sort`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=MpZzWMdmQCE)

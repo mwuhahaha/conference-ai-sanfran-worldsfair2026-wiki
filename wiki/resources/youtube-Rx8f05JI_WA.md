@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "Rx8f05JI_WA"
-last_enriched: "2026-07-15T11:40:39.735038+00:00"
+last_enriched: "2026-07-15T23:40:57.578830+00:00"
 ---
 # SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/Rx8f05JI
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[ai-sandboxes|AI Sandboxes]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `pass`, `suites`, `fixing`, `writing`, `cheat`, `validation`, `headroom`, `middleware`
+- Transcript keywords: `simple`, `noticed`, `used`, `getting`, `asked`, `probably`, `library`, `starting`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=Rx8f05JI_WA)

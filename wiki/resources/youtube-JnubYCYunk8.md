@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "JnubYCYunk8"
-last_enriched: "2026-07-15T11:40:39.148648+00:00"
+last_enriched: "2026-07-15T23:40:56.894368+00:00"
 ---
 # Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/JnubYCYu
 
 ## Topic Signals
 - [[ai-sandboxes|AI Sandboxes]], [[inference-engineering|Inference Engineering]], [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `core`, `plugin`, `yeah`, `until`, `challenge`, `other`, `back`, `taken`
+- Transcript keywords: `simple`, `commands`, `taken`, `sequence`, `much`, `particular`, `noticed`, `founding`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=JnubYCYunk8)

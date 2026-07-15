@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "KB41dTlX1Uc"
-last_enriched: "2026-07-15T11:40:39.697387+00:00"
+last_enriched: "2026-07-15T23:40:57.541784+00:00"
 ---
 # State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/KB41dTlX
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[agent-memory|Agent Memory]], [[mcp|MCP]]
-- Transcript keywords: `pass`, `exploding`, `generally`, `bring`, `yeah`, `discovering`, `ball`, `obviously`
+- Transcript keywords: `simple`, `collecting`, `distribution`, `luminaries`, `thanks`, `probably`, `came`, `companies`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=KB41dTlX1Uc)

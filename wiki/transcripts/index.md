@@ -59,6 +59,7 @@ These pages expose cached YouTube and livestream transcripts as linkable wiki ma
 - [[youtube-o-zkvb0iFDQ-transcript|Transcript: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps]]
 - [[youtube-akk6KRlcwW4-transcript|Transcript: OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack]]
 - [[youtube-vljxQZfJ9wY-transcript|Transcript: Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs]]
+- [[youtube-q4Tr-DknG2M-transcript|Transcript: Q4Tr Dkng2M]]
 - [[youtube-UM6sFg_jdlE-transcript|Transcript: RAG is dead, right?? — Kuba Rogut, Turbopuffer]]
 - [[youtube-3hXJI2q0Jz8-transcript|Transcript: Recursive Coding Agents - Raymond Weitekamp, OpenProse]]
 - [[youtube-OXMMN-XbxwA-transcript|Transcript: Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc]]
@@ -116,4 +117,5 @@ These pages expose cached YouTube and livestream transcripts as linkable wiki ma
 - [[youtube-MpZzWMdmQCE-transcript|Transcript: Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com]]
 - [[youtube-IQkVMvXQKLY-transcript|Transcript: Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis]]
 - [[youtube-ZpK5PWX2YRM-transcript|Transcript: Zpk5Pwx2Yrm]]
+- [[youtube-ZSQb5fzRFPw-transcript|Transcript: Zsqb5Fzrfpw]]
 - [[youtube-ObTPqBGsEbA-transcript|Transcript: £85K Burned on a Failed PoC: What Actually Gets Agents to Production — Sandipan Bhaumik, Databricks]]

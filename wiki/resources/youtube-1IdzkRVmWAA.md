@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "1IdzkRVmWAA"
-last_enriched: "2026-07-15T11:40:39.431732+00:00"
+last_enriched: "2026-07-15T23:40:57.269267+00:00"
 ---
 # How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/1IdzkRVm
 
 ## Topic Signals
 - [[agentic-search|Agentic Search]], [[mcp|MCP]], [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `gibberish`, `achieved`, `evidence`, `properly`, `deeper`, `yeah`, `chunks`, `writing`
+- Transcript keywords: `simple`, `fine`, `getting`, `precise`, `used`, `ndcg`, `bottleneck`, `based`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=1IdzkRVmWAA)

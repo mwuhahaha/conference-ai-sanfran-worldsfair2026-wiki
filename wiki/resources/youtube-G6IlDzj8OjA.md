@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "G6IlDzj8OjA"
-last_enriched: "2026-07-15T11:40:39.397964+00:00"
+last_enriched: "2026-07-15T23:40:57.227849+00:00"
 ---
 # GTM Is You - Victoria Melnikova, Evil Martians
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/G6IlDzj8
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[voice-agents|Voice Agents]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `bring`, `evidence`, `account`, `rocha`, `yeah`, `quirks`, `business`, `sentry`
+- Transcript keywords: `hate`, `night`, `simple`, `conferences`, `loud`, `proposition`, `warm`, `distribution`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=G6IlDzj8OjA)

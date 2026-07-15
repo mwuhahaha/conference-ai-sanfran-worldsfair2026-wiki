@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "HvZXAOZ3iv8"
-last_enriched: "2026-07-15T11:40:41.266628+00:00"
+last_enriched: "2026-07-15T23:40:59.212984+00:00"
 ---
 # What Lies Beneath the API — Benjamin Cowen, Modal
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/HvZXAOZ3
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `account`, `growth`, `yeah`, `business`, `nutshell`, `publishing`, `workloads`, `functions`
+- Transcript keywords: `fine`, `collecting`, `getting`, `thanks`, `probably`, `companies`, `cross`, `booth`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=HvZXAOZ3iv8)

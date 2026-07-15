@@ -28,6 +28,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-8G_1-3IO4ZQ-slides]]
 - [[youtube-KB41dTlX1Uc-slides]]
 - [[youtube-WkBPX-oDMnA-slides]]
+- [[youtube-ZSQb5fzRFPw-slides]]
 - [[youtube-htM02KMNZnk-slides]]
 
 ### Topic Pages

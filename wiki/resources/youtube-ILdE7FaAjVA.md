@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "ILdE7FaAjVA"
-last_enriched: "2026-07-15T11:40:40.028367+00:00"
+last_enriched: "2026-07-15T23:40:57.931043+00:00"
 ---
 # Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/ILdE7FaA
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]]
-- Transcript keywords: `pass`, `bring`, `yeah`, `remote`, `workloads`, `users`, `bought`, `abstracted`
+- Transcript keywords: `pardeep`, `used`, `getting`, `engaged`, `probably`, `thanks`, `companies`, `figure`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=ILdE7FaAjVA)

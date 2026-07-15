@@ -58,7 +58,7 @@ Tool pages distinguish confirmed mentions from inferred relevance and cite the s
 - [[sderosiaux-chrome-agent]] — sderosiaux/chrome-agent (Public GitHub project, Supporting comparison context)
 - [[snowflake]] — Snowflake (Official schedule, Transcript evidence)
 - [[sonarqube]] — SonarQube (Official schedule, Public YouTube metadata)
-- [[sourcegraph-amp]] — Sourcegraph Amp (Official schedule, Public YouTube metadata, Local slide OCR, Topic synthesis)
+- [[sourcegraph-amp]] — Sourcegraph Amp (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
 - [[spin]] — Spin (Official schedule, Public YouTube metadata, Transcript evidence, Topic synthesis)
 - [[strands-agents]] — Strands Agents (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR)
 - [[tailscale]] — Tailscale (Official schedule, Public YouTube metadata, Local slide OCR)

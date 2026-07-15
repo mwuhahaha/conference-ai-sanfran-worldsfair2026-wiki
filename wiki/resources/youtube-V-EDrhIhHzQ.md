@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "V-EDrhIhHzQ"
-last_enriched: "2026-07-15T11:40:39.933514+00:00"
+last_enriched: "2026-07-15T23:40:57.774093+00:00"
 ---
 # The Prime Intellect Stack — Will Brown, Prime Intellect
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/V-EDrhIh
 
 ## Topic Signals
 - [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]], [[agent-evaluations|Agent Evaluations]], [[coding-agents|Coding Agents]]
-- Transcript keywords: `generally`, `bring`, `torch`, `worry`, `deeper`, `yeah`, `happens`, `functions`
+- Transcript keywords: `currently`, `collecting`, `games`, `thanks`, `companies`, `came`, `adding`, `self`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=V-EDrhIhHzQ)

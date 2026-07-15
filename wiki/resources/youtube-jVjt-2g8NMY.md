@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "jVjt-2g8NMY"
-last_enriched: "2026-07-15T11:40:39.043048+00:00"
+last_enriched: "2026-07-15T23:40:56.788734+00:00"
 ---
 # A Genius With Amnesia - Victor Savkin, Nx
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/jVjt-2g8
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[agentic-search|Agentic Search]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `generally`, `bring`, `enables`, `tiny`, `asking`, `plugin`, `manually`, `obviously`
+- Transcript keywords: `simple`, `unavoidable`, `getting`, `used`, `plan`, `share`, `probably`, `came`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=jVjt-2g8NMY)

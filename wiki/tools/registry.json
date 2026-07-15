@@ -80,7 +80,7 @@
     "evidenceCounts": {
       "schedule": 1,
       "youtube": 10,
-      "slides": 21,
+      "slides": 23,
       "resources": 7,
       "topics": 6,
       "transcripts": 2
@@ -188,7 +188,7 @@
     "evidenceCounts": {
       "schedule": 1,
       "youtube": 11,
-      "slides": 42,
+      "slides": 44,
       "resources": 5,
       "topics": 2,
       "transcripts": 0
@@ -218,7 +218,7 @@
     "evidenceCounts": {
       "schedule": 2,
       "youtube": 1,
-      "slides": 5,
+      "slides": 6,
       "resources": 4,
       "topics": 4,
       "transcripts": 0
@@ -387,7 +387,7 @@
       "slides": 15,
       "resources": 8,
       "topics": 2,
-      "transcripts": 29
+      "transcripts": 30
     }
   },
   {
@@ -425,10 +425,10 @@
     "evidenceCounts": {
       "schedule": 9,
       "youtube": 8,
-      "slides": 33,
-      "resources": 5,
-      "topics": 1,
-      "transcripts": 21
+      "slides": 34,
+      "resources": 7,
+      "topics": 7,
+      "transcripts": 22
     }
   },
   {
@@ -512,10 +512,10 @@
     "evidenceCounts": {
       "schedule": 12,
       "youtube": 0,
-      "slides": 11,
+      "slides": 13,
       "resources": 2,
       "topics": 4,
-      "transcripts": 9
+      "transcripts": 10
     }
   },
   {
@@ -1172,7 +1172,7 @@
       "schedule": 41,
       "youtube": 34,
       "slides": 67,
-      "resources": 85,
+      "resources": 86,
       "topics": 12,
       "transcripts": 30
     }
@@ -1204,7 +1204,7 @@
     "evidenceCounts": {
       "schedule": 4,
       "youtube": 9,
-      "slides": 21,
+      "slides": 22,
       "resources": 5,
       "topics": 3,
       "transcripts": 3
@@ -1406,7 +1406,7 @@
     "evidenceCounts": {
       "schedule": 2,
       "youtube": 0,
-      "slides": 5,
+      "slides": 6,
       "resources": 1,
       "topics": 1,
       "transcripts": 0
@@ -1500,6 +1500,7 @@
     "sourceLabels": [
       "Official schedule",
       "Public YouTube metadata",
+      "Transcript evidence",
       "Local slide OCR",
       "Topic synthesis"
     ],
@@ -1518,7 +1519,7 @@
       "slides": 9,
       "resources": 4,
       "topics": 1,
-      "transcripts": 0
+      "transcripts": 1
     }
   },
   {

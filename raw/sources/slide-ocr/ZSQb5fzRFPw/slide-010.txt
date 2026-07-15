@@ -1,0 +1,6 @@
+rld's Fair Cua One open catalog. 130TASKS-CUA-SENCH
+130 42 5
+VERIFIABLETASKS ENVIRONMENTS PLATFORMS
+Scb run dataset cua-bench-kicad -m sonnet-4-5
+Linuxndondridmcose cua.ai
+Vorld'sFair Computer Use TRACK 7·JULY 1.2026

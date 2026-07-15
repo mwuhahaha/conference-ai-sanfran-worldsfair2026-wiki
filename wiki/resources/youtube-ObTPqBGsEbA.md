@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "ObTPqBGsEbA"
-last_enriched: "2026-07-15T11:40:41.438406+00:00"
+last_enriched: "2026-07-15T23:40:59.375746+00:00"
 ---
 # £85K Burned on a Failed PoC: What Actually Gets Agents to Production — Sandipan Bhaumik, Databricks
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/ObTPqBGs
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[ai-sandboxes|AI Sandboxes]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `pass`, `generally`, `bring`, `account`, `asking`, `deeper`, `commit`, `validation`
+- Transcript keywords: `coordination`, `simple`, `fine`, `sequence`, `schema`, `collecting`, `noticed`, `getting`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=ObTPqBGsEbA)

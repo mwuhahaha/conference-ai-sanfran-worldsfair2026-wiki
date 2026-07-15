@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "DqtmZE6Hl0g"
-last_enriched: "2026-07-15T11:40:40.007171+00:00"
+last_enriched: "2026-07-15T23:40:57.885587+00:00"
 ---
 # The Prompt is the Platform - Dominik Tornow, Resonate HQ
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/DqtmZE6H
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[ai-sandboxes|AI Sandboxes]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `bring`, `account`, `asking`, `artifact`, `others`, `senadia`, `fruit`, `fails`
+- Transcript keywords: `scheduled`, `simple`, `schema`, `library`, `starting`, `tough`, `concurrent`, `failed`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=DqtmZE6Hl0g)

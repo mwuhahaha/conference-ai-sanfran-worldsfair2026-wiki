@@ -62,6 +62,12 @@ They fit engineering organizations, platform teams, internal tools groups, migra
 
 Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
 
+Model the workflow as stages with inputs, outputs, owners, and acceptance checks. Give agents scoped roles, shared artifacts, test gates, traceability, and rollback paths. Measure cycle time, defect rate, review burden, and production outcomes.
+
+They fit engineering organizations, platform teams, internal tools groups, migration projects, and product teams with repeatable implementation patterns.
+
+Use a software-factory approach when many similar tasks flow through the same path or when agent work needs governance. Avoid overbuilding it for occasional one-off tasks.
+
 ## Practical Lesson
 Evaluate the complete agent loop: task definition, context assembly, tool permissions, sandbox execution, verification, review, and provenance. Model capability alone is not the system boundary.
 
@@ -103,6 +109,9 @@ Evaluate the complete agent loop: task definition, context assembly, tool permis
 - [[qodo-ai|Qodo AI]]
 - [[badass-dev-egghead-io|badass.dev / egghead.io]]
 - [[warp|Warp]]
+
+
+
 
 
 
@@ -225,6 +234,17 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ### Resources
 - [[aie-wiki-generation-delta]]
+
+### Slides
+
+### Transcripts
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
 
 ### Slides
 

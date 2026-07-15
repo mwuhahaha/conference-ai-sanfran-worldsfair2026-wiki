@@ -226,6 +226,38 @@
       "words": 6285
     },
     {
+      "video_id": "ZSQb5fzRFPw",
+      "title": "Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua",
+      "event_video": true,
+      "topics": [
+        [
+          "ai-sandboxes",
+          "AI Sandboxes",
+          34
+        ],
+        [
+          "inference-engineering",
+          "Inference Engineering",
+          19
+        ],
+        [
+          "coding-agents",
+          "Coding Agents",
+          14
+        ],
+        [
+          "agent-security",
+          "Agent Security",
+          12
+        ]
+      ],
+      "matches": [
+        "2026-06-30-francesco-bonacci-computer-use-2-0-agents-just-got-multi-cursor"
+      ],
+      "quotes": 2,
+      "words": 2617
+    },
+    {
       "video_id": "2IxD9OB3XuQ",
       "title": "Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI",
       "event_video": false,
@@ -473,6 +505,38 @@
       "matches": [],
       "quotes": 0,
       "words": 3697
+    },
+    {
+      "video_id": "q4Tr-DknG2M",
+      "title": "Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI",
+      "event_video": true,
+      "topics": [
+        [
+          "coding-agents",
+          "Coding Agents",
+          51
+        ],
+        [
+          "agent-evaluations",
+          "Agent Evaluations",
+          30
+        ],
+        [
+          "mcp",
+          "MCP",
+          18
+        ],
+        [
+          "autoresearch",
+          "AutoResearch",
+          13
+        ]
+      ],
+      "matches": [
+        "2026-06-29-lee-robinson-recursive-model-improvement"
+      ],
+      "quotes": 3,
+      "words": 4039
     },
     {
       "video_id": "OXMMN-XbxwA",
@@ -1201,6 +1265,6 @@
       "reason": "non-talk event reel"
     }
   ],
-  "quote_count": 33,
-  "updated_at": "2026-07-15T11:40:45.053809+00:00"
+  "quote_count": 38,
+  "updated_at": "2026-07-15T23:41:02.726537+00:00"
 }

@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "UNzCG3lw6O0"
-last_enriched: "2026-07-15T11:40:39.236239+00:00"
+last_enriched: "2026-07-15T23:40:56.985216+00:00"
 ---
 # Building Great Agent Skills: The Missing Manual
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/UNzCG3lw
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[inference-engineering|Inference Engineering]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `pass`, `cycle`, `generally`, `asking`, `schemas`, `modeling`, `properly`, `slice`
+- Transcript keywords: `simple`, `pointing`, `getting`, `internal`, `used`, `plan`, `asked`, `probably`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=UNzCG3lw6O0)

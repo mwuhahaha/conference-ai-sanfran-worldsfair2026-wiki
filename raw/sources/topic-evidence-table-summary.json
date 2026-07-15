@@ -3,14 +3,14 @@
     "talks": 28,
     "other": 60,
     "tools": 3,
-    "resources": 24,
+    "resources": 25,
     "slides": 14,
     "transcripts": 1
   },
   "coding-agents": {
     "talks": 27,
     "other": 70,
-    "resources": 37,
+    "resources": 39,
     "tools": 2,
     "slides": 20,
     "transcripts": 2
@@ -40,37 +40,37 @@
   },
   "agent-security": {
     "talks": 24,
-    "other": 39,
+    "other": 40,
     "tools": 4,
-    "resources": 18,
+    "resources": 19,
     "slides": 16
   },
   "ai-sandboxes": {
     "talks": 26,
     "other": 45,
-    "resources": 26,
+    "resources": 27,
     "tools": 5,
     "slides": 17
   },
   "inference-engineering": {
     "talks": 25,
     "other": 63,
-    "resources": 24,
-    "slides": 11,
+    "resources": 25,
+    "slides": 12,
     "transcripts": 1
   },
   "mcp": {
-    "talks": 31,
-    "other": 63,
-    "resources": 27,
+    "talks": 32,
+    "other": 64,
+    "resources": 28,
     "tools": 3,
     "slides": 11,
     "transcripts": 1
   },
   "autoresearch": {
-    "talks": 29,
-    "other": 60,
-    "resources": 20,
+    "talks": 30,
+    "other": 61,
+    "resources": 21,
     "tools": 2,
     "transcripts": 1,
     "slides": 6

@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "xUnRQ9vLXxo"
-last_enriched: "2026-07-15T11:40:41.238991+00:00"
+last_enriched: "2026-07-15T23:40:59.189485+00:00"
 ---
 # What do we build now? — @t3dotgg
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/xUnRQ9vL
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-memory|Agent Memory]], [[software-factories|Software Factories]]
-- Transcript keywords: `represent`, `scary`, `worry`, `deeper`, `writing`, `commit`, `eventually`, `project`
+- Transcript keywords: `currently`, `fine`, `pointing`, `used`, `getting`, `share`, `probably`, `companies`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=xUnRQ9vLXxo)

@@ -40,9 +40,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-KB41dTlX1Uc-slides]]
 - [[youtube-V-EDrhIhHzQ-slides]]
 - [[youtube-WkBPX-oDMnA-slides]]
+- [[youtube-ZSQb5fzRFPw-slides]]
+- [[youtube-q4Tr-DknG2M-slides]]
 - [[youtube-rcsliSIy_YU-slides]]
-- [[youtube-wcUJWP6WpGM-slides]]
-- [[youtube-wsFd22SL1s8-dense-slides]]
 
 ### Topic Pages
 - [[agent-security]]
@@ -55,6 +55,7 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - `raw/sources/youtube-transcripts/OXMMN-XbxwA.txt`
 - `raw/sources/youtube-transcripts/QuuIywMG4s8.txt`
 - `raw/sources/youtube-transcripts/V-EDrhIhHzQ.txt`
+- `raw/sources/youtube-transcripts/ZSQb5fzRFPw.txt`
 - `raw/sources/youtube-transcripts/pmoDeA3RBZY.txt`
 - `raw/sources/youtube-transcripts/wcUJWP6WpGM.txt`
 - `raw/sources/youtube-transcripts/zDGHt0LB-dA.txt`

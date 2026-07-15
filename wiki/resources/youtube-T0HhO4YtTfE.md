@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "T0HhO4YtTfE"
-last_enriched: "2026-07-15T11:40:39.070161+00:00"
+last_enriched: "2026-07-15T23:40:56.814369+00:00"
 ---
 # AI System Design: From Idea to Production - Apoorva Joshi, MongoDB
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/T0HhO4Yt
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agentic-search|Agentic Search]], [[agent-evaluations|Agent Evaluations]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `verdict`, `slas`, `persist`, `yeah`, `chunks`, `business`, `recall`, `overrides`
+- Transcript keywords: `currently`, `fine`, `sequence`, `used`, `getting`, `internal`, `probably`, `consider`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=T0HhO4YtTfE)

@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "2e9ANoOEn28"
-last_enriched: "2026-07-15T11:40:41.254386+00:00"
+last_enriched: "2026-07-15T23:40:59.205076+00:00"
 ---
 # What if the harness mattered more than the model? - Aditya Bhargava, Etsy
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/2e9ANoOE
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `pass`, `achieved`, `asking`, `writing`, `manually`, `modifying`, `constrain`, `requires`
+- Transcript keywords: `simple`, `schema`, `used`, `getting`, `asked`, `cutting`, `companies`, `library`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=2e9ANoOEn28)

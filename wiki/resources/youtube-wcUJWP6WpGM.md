@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "wcUJWP6WpGM"
-last_enriched: "2026-07-15T11:40:39.744116+00:00"
+last_enriched: "2026-07-15T23:40:57.587304+00:00"
 ---
 # SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/wcUJWP6W
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[mcp|MCP]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `pass`, `yeah`, `cheat`, `permissive`, `manually`, `commit`, `validation`, `ordering`
+- Transcript keywords: `simple`, `night`, `fine`, `sequence`, `used`, `share`, `came`, `domains`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=wcUJWP6WpGM)

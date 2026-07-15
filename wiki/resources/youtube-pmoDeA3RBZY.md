@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "pmoDeA3RBZY"
-last_enriched: "2026-07-15T11:40:39.290748+00:00"
+last_enriched: "2026-07-15T23:40:57.078966+00:00"
 ---
 # Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/pmoDeA3R
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[software-factories|Software Factories]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `pass`, `generally`, `bring`, `born`, `reminds`, `plugin`, `yeah`, `writing`
+- Transcript keywords: `simple`, `night`, `flipping`, `worlds`, `used`, `plan`, `asked`, `probably`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=pmoDeA3RBZY)

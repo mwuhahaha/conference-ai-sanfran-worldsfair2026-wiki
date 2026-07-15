@@ -30,6 +30,8 @@ Computer-use agents still inherit a basic desktop limitation: one machine has on
 ## Media Evidence
 No related AI Engineer channel video found yet.
 
+- [[youtube-ZSQb5fzRFPw-transcript]] — full cached transcript markdown for the related YouTube source.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
@@ -51,19 +53,30 @@ No official session recording transcript was found by exact title match on the A
 
 ## Synthesis
 ### Synthesized Breakdown
-# Computer-Use 2.0: Agents Just Got Multi-Cursor ## Conference Context - Date/time: 2026-06-30 · 2:25pm-2:45pm - Track/room: Computer Use · Track 7 - Speaker(s): Francesco Bonacci, Dillon DuPont - Session type/status: session · confirmed - Track: Computer Use - Room: Track 7 - Session type: session - Status: confirmed ## Session Description Computer-use agents still inherit a basic desktop limitation: one machine has one foreground app, one hardware cursor, and one active actor. Once you try to run more than one agent per desktop, they start stealing focus from the user and from each other. We built cua-driver around a different model: multiple agents operating real desktop applications in parallel, each with its own synthetic pointer, while the user's cursor and keyboard stay undisturbed. The key move is to stop treating hardware mouse and keyboard events as the primary automation layer.
+Thank you for taking the time for coming over here. Um I'm Franchesco. I'm the CEO of the company. Uh alongside me, a couple of other folks.
 
 ### Speaker And Company Context
 - [[francesco-bonacci|Francesco Bonacci]] — Co-founder & CEO at [[cua|Cua]].
 - [[dillon-dupont|Dillon DuPont]] — CTO at [[cua|Cua]].
 
 ### Topics Covered
-- Topic links are pending transcript-backed classification.
+- [[agent-security]]
+- [[agentic-search]]
+- [[ai-sandboxes]]
+- [[coding-agents]]
 
 ### Derived Links And Source Material
+- [[youtube-ZSQb5fzRFPw-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/ZSQb5fzRFPw.txt` (2,617 words).
+- [[youtube-ZSQb5fzRFPw]] — related YouTube source page.
+- [[youtube-ZSQb5fzRFPw-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Official YouTube Recording
+- [[youtube-ZSQb5fzRFPw]] — official AI Engineer YouTube channel recording published 2026-07-15.
+- Evidence status: [[youtube-ZSQb5fzRFPw-transcript]]; [[youtube-ZSQb5fzRFPw-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.

@@ -2,7 +2,7 @@
 title: "Sourcegraph Amp"
 category: "tools"
 aliases: ["Sourcegraph", "Amp"]
-sourceLabels: ["Official schedule", "Public YouTube metadata", "Local slide OCR", "Topic synthesis"]
+sourceLabels: ["Official schedule", "Public YouTube metadata", "Transcript evidence", "Local slide OCR", "Topic synthesis"]
 scheduleTracks: ["Agentic Commerce", "Agentic Engineering"]
 scheduleRooms: ["Expo Stage 2 NW", "Track 2", "Track 8"]
 ---
@@ -45,6 +45,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 
 ### Topic Pages
 - [[mcp]]
+
+### Transcript Files
+- `raw/sources/youtube-transcripts/ZSQb5fzRFPw.txt`
 
 ## Confidence
 High confidence for presence in the corpus. Interpret broader importance through the linked schedule, transcript, slide, and topic evidence.

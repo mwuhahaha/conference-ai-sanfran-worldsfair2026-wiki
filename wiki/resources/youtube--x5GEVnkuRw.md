@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "-x5GEVnkuRw"
-last_enriched: "2026-07-15T11:40:39.725434+00:00"
+last_enriched: "2026-07-15T23:40:57.569762+00:00"
 ---
 # Structuring the Unstructured - Cedric Clyburn, Red Hat
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/-x5GEVnk
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agentic-search|Agentic Search]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `worry`, `properly`, `growth`, `validation`, `vectors`, `demo`, `project`, `happens`
+- Transcript keywords: `simple`, `chunking`, `fine`, `cell`, `used`, `getting`, `microservice`, `asked`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=-x5GEVnkuRw)

@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "uiP88SpCi1Q"
-last_enriched: "2026-07-15T11:40:41.384366+00:00"
+last_enriched: "2026-07-15T23:40:59.313115+00:00"
 ---
 # Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/uiP88SpC
 
 ## Topic Signals
 - [[mcp|MCP]], [[coding-agents|Coding Agents]], [[inference-engineering|Inference Engineering]], [[agent-memory|Agent Memory]]
-- Transcript keywords: `hanchett`, `trade`, `deeper`, `default`, `back`, `before`, `thank`, `looping`
+- Transcript keywords: `looks`, `much`, `reduce`, `thanks`, `deal`, `language`, `imagine`, `based`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=uiP88SpCi1Q)

@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "6bmM45jkMDY"
-last_enriched: "2026-07-15T11:40:41.357211+00:00"
+last_enriched: "2026-07-15T23:40:59.287476+00:00"
 ---
 # You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/6bmM45jk
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-memory|Agent Memory]], [[agent-security|Agent Security]]
-- Transcript keywords: `cycle`, `asking`, `trade`, `writing`, `makers`, `testers`, `business`, `obviously`
+- Transcript keywords: `currently`, `getting`, `internal`, `used`, `designs`, `asked`, `suggesting`, `figure`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=6bmM45jkMDY)

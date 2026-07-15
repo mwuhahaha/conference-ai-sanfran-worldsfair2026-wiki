@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "aHhB3sjGjkI"
-last_enriched: "2026-07-15T11:40:39.052667+00:00"
+last_enriched: "2026-07-15T23:40:56.797728+00:00"
 ---
 # Agents Building Agents - Alfonso Graziano, Nearform
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/aHhB3sjG
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-evaluations|Agent Evaluations]], [[mcp|MCP]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `pass`, `proposal`, `fixing`, `properly`, `validation`, `hyper`, `testers`, `implemented`
+- Transcript keywords: `currently`, `simple`, `collecting`, `getting`, `internal`, `thanks`, `services`, `self`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=aHhB3sjGjkI)

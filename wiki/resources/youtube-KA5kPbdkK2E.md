@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "KA5kPbdkK2E"
-last_enriched: "2026-07-15T11:40:39.407420+00:00"
+last_enriched: "2026-07-15T23:40:57.242347+00:00"
 ---
 # How Lovable self-improves every hour — Benjamin Verbeek, Lovable
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/KA5kPbdk
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-memory|Agent Memory]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `generally`, `unlock`, `scary`, `asking`, `schemas`, `fixing`, `properly`, `artifact`
+- Transcript keywords: `simple`, `fine`, `warm`, `used`, `getting`, `internal`, `share`, `asked`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=KA5kPbdkK2E)

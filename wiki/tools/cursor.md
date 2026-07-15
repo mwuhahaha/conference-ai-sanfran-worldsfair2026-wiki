@@ -42,7 +42,9 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[aie-wiki-generation-delta]]
 - [[external-video-discovery]]
 - [[talk-video-transcript-map]]
+- [[youtube-ZSQb5fzRFPw]]
 - [[youtube-fL1iJHtl51Q]]
+- [[youtube-q4Tr-DknG2M]]
 
 ### Slide/OCR Pages
 - [[youtube-0S8xe9ftGTM-slides]]
@@ -57,6 +59,12 @@ This page records confirmed mentions and keeps them separate from broader inferr
 - [[youtube-JIsgyk0Paic-dense-slides]]
 
 ### Topic Pages
+- [[agent-evaluations]]
+- [[agent-security]]
+- [[ai-sandboxes]]
+- [[autoresearch]]
+- [[coding-agents]]
+- [[inference-engineering]]
 - [[mcp]]
 
 ### Transcript Files

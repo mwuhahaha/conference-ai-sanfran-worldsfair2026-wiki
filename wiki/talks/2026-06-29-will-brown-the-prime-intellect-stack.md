@@ -85,6 +85,7 @@ Hey guys, how's it going? Thanks for showing up. This was a little bit of a last
 ### Topics Covered
 - [[agent-security]]
 - [[agentic-search]]
+- [[agentic-web]]
 - [[ai-sandboxes]]
 - [[coding-agents]]
 - [[mcp]]

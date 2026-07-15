@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "grdoOC1BT1s"
-last_enriched: "2026-07-15T11:40:40.020311+00:00"
+last_enriched: "2026-07-15T23:40:57.897244+00:00"
 ---
 # Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/grdoOC1B
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[ai-sandboxes|AI Sandboxes]], [[mcp|MCP]]
-- Transcript keywords: `achieved`, `bring`, `modeling`, `yeah`, `commit`, `modifying`, `obviously`, `safe`
+- Transcript keywords: `simple`, `coordination`, `currently`, `getting`, `used`, `games`, `share`, `probably`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=grdoOC1BT1s)

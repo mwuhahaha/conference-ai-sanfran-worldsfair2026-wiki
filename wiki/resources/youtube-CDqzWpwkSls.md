@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "CDqzWpwkSls"
-last_enriched: "2026-07-15T11:40:39.164358+00:00"
+last_enriched: "2026-07-15T23:40:56.910416+00:00"
 ---
 # Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/CDqzWpwk
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agentic-search|Agentic Search]], [[agent-evaluations|Agent Evaluations]], [[agent-security|Agent Security]]
-- Transcript keywords: `cycle`, `evidence`, `livelihood`, `asking`, `trade`, `properly`, `writing`, `signifying`
+- Transcript keywords: `currently`, `conservative`, `simple`, `fairness`, `collecting`, `used`, `getting`, `accept`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=CDqzWpwkSls)

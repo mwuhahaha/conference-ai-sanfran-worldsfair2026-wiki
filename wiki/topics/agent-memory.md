@@ -45,6 +45,12 @@ Memory is useful in coding agents, customer support, research assistants, enterp
 
 Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.
 
+Separate working context from durable memory. Store source-backed facts, decisions, user preferences, and artifacts with timestamps and provenance. Retrieve by task intent, not just lexical similarity. Add policies for freshness, deletion, permissions, and summarization, and test memory behavior with scenario-based evals.
+
+Memory is useful in coding agents, customer support, research assistants, enterprise knowledge agents, personal productivity tools, and any workflow that spans multiple sessions or documents.
+
+Use durable memory when repeated interaction or long-horizon work matters. Avoid it for one-shot tasks, sensitive data without clear retention rules, or cases where stale state would be more harmful than asking again.
+
 ## Connections
 - [[2026-06-29-anders-swanson-from-context-to-memory-your-agents-need-a-real-memory-layer]] — From Context to Memory: Your Agents Need a Real Memory Layer; [[anders-swanson|Anders Swanson]] (Day 2 — Session Day 1 · 3:20pm-3:40pm · Expo Stage 2 NW; official schedule)
 - [[2026-06-30-stefania-druga-memory-harnesses-for-long-running-research-agents]] — Memory Harnesses for Long-Running Research Agents; [[stefania-druga|Stefania Druga]] (Day 3 — Session Day 2 · 11:40am-12:00pm · Memory & Continual Learning; official schedule)
@@ -116,6 +122,9 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 - [[roboflow|Roboflow]]
 
 
+
+
+
 - [[yoni-michael|Yoni Michael]]
 
 - [[llamaindex|LlamaIndex]]
@@ -153,6 +162,10 @@ Use durable memory when repeated interaction or long-horizon work matters. Avoid
 - “Uh quality of the agent often dependent uh on the quality of context engineering and that led to a lot of weird lost trust cases with our stakeholders.” — [[youtube-8G_1-3IO4ZQ]]
 - “Uh and so my goal today is to talk about like WTF is the context layer.” — [[youtube-8G_1-3IO4ZQ]]
 - “Uh the way I think about a context layer is it's a system that turns knowledge and expertise and norms that we talked about that Maya knows into a machine usable context for AI systems.” — [[youtube-8G_1-3IO4ZQ]]
+
+### Transcript-backed resources
+
+### Quote signals
 
 ### Transcript-backed resources
 
@@ -364,6 +377,19 @@ This table summarizes the local evidence already linked from this topic. It is a
 ### Resources
 - [[youtube-8G_1-3IO4ZQ]]
 - [[youtube-0vphxNt4wyk]]
+
+### Slides
+
+### Transcripts
+
+### Tools
+
+This table summarizes the local evidence already linked from this topic. It is a navigation aid, not a claim that every linked page has been fully reviewed.
+
+
+### Talks
+
+### Resources
 
 ### Slides
 

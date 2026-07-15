@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "bk0TmxoZlUY"
-last_enriched: "2026-07-15T11:40:39.332690+00:00"
+last_enriched: "2026-07-15T23:40:57.131876+00:00"
 ---
 # Evals 101 — Doug Guthrie, Braintrust
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/bk0TmxoZ
 
 ## Topic Signals
 - [[agent-evaluations|Agent Evaluations]], [[coding-agents|Coding Agents]], [[mcp|MCP]], [[autoresearch|AutoResearch]]
-- Transcript keywords: `pass`, `bring`, `numerous`, `enables`, `deeper`, `yeah`, `releasing`, `manually`
+- Transcript keywords: `simple`, `easiest`, `getting`, `used`, `accept`, `luminaries`, `asked`, `probably`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=bk0TmxoZlUY)

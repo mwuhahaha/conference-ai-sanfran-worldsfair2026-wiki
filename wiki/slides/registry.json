@@ -1422,6 +1422,12 @@
     "slide_count": 24
   },
   {
+    "id": "youtube-ZSQb5fzRFPw-slides",
+    "title": "Slides: ZSQb5fzRFPw",
+    "path": "wiki/slides/youtube-ZSQb5fzRFPw-slides.md",
+    "slide_count": 17
+  },
+  {
     "id": "youtube-ZuiJjkbX0Og-dense-slides",
     "title": "Dense Slides: How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand",
     "path": "wiki/slides/youtube-ZuiJjkbX0Og-dense-slides.md",
@@ -2044,6 +2050,12 @@
     "title": "Slides: Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw",
     "path": "wiki/slides/youtube-pmoDeA3RBZY-slides.md",
     "slide_count": 8
+  },
+  {
+    "id": "youtube-q4Tr-DknG2M-slides",
+    "title": "Slides: q4Tr-DknG2M",
+    "path": "wiki/slides/youtube-q4Tr-DknG2M-slides.md",
+    "slide_count": 12
   },
   {
     "id": "youtube-qaJXBMwUkoE-dense-slides",

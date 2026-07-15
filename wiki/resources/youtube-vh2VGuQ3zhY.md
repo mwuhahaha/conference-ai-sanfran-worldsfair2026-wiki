@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "vh2VGuQ3zhY"
-last_enriched: "2026-07-15T11:40:39.784687+00:00"
+last_enriched: "2026-07-15T23:40:57.629959+00:00"
 ---
 # The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/vh2VGuQ3
 
 ## Topic Signals
 - [[mcp|MCP]], [[inference-engineering|Inference Engineering]], [[coding-agents|Coding Agents]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `pass`, `generally`, `schemas`, `asking`, `trade`, `properly`, `yeah`, `hotels`
+- Transcript keywords: `currently`, `simple`, `fine`, `schema`, `pointing`, `used`, `share`, `asked`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=vh2VGuQ3zhY)

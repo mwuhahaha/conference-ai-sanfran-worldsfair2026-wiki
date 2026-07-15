@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "HEFSExa0xl0"
-last_enriched: "2026-07-15T11:40:39.765054+00:00"
+last_enriched: "2026-07-15T23:40:57.608910+00:00"
 ---
 # Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/HEFSExa0
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-memory|Agent Memory]], [[agent-evaluations|Agent Evaluations]]
-- Transcript keywords: `fuzzy`, `fixing`, `yeah`, `manually`, `others`, `obviously`, `edit`, `eventually`
+- Transcript keywords: `simple`, `schema`, `getting`, `used`, `internal`, `plan`, `probably`, `figure`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=HEFSExa0xl0)

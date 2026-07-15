@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "EcqMYoIV57A"
-last_enriched: "2026-07-15T11:40:41.313605+00:00"
+last_enriched: "2026-07-15T23:40:59.247086+00:00"
 ---
 # Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/EcqMYoIV
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[agent-memory|Agent Memory]], [[mcp|MCP]], [[agentic-search|Agentic Search]]
-- Transcript keywords: `pass`, `asking`, `yeah`, `validation`, `prospect`, `impacts`, `implemented`, `happens`
+- Transcript keywords: `currently`, `simple`, `getting`, `used`, `accept`, `plan`, `collects`, `share`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=EcqMYoIV57A)

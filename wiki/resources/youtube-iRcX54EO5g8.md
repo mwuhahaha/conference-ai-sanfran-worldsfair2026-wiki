@@ -5,7 +5,7 @@ sourceLabels:
   - "Public YouTube metadata"
   - "YouTube transcript"
 videoId: "iRcX54EO5g8"
-last_enriched: "2026-07-15T11:40:41.377280+00:00"
+last_enriched: "2026-07-15T23:40:59.306383+00:00"
 ---
 # Your agent is blindfolded — Johan Lajili, Poolside AI
 
@@ -22,7 +22,7 @@ Cached transcript text is available at `raw/sources/youtube-transcripts/iRcX54EO
 
 ## Topic Signals
 - [[coding-agents|Coding Agents]], [[mcp|MCP]], [[agent-security|Agent Security]], [[inference-engineering|Inference Engineering]]
-- Transcript keywords: `mimics`, `yeah`, `writing`, `joan`, `others`, `unity`, `implemented`, `users`
+- Transcript keywords: `simple`, `fine`, `getting`, `used`, `experiences`, `companies`, `multiplying`, `services`
 
 ## Link
 [YouTube](https://www.youtube.com/watch?v=iRcX54EO5g8)
