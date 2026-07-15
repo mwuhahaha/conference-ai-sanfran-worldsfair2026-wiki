@@ -38,6 +38,26 @@ PREFERRED_CATEGORIES = [
     "transcripts",
     "events",
 ]
+GRAPH_PROJECTION_MAX_FANOUT = 12
+GRAPH_PROJECTION_RULES = {
+    "claims": ("patterns", "topics", "talks"),
+    "companies": ("people", "talks"),
+    "evaluations": ("topics", "tools", "talks"),
+    "events": ("talks", "people"),
+    "harnesses": ("topics", "tools", "talks"),
+    "highlights": ("talks", "people", "topics"),
+    "patterns": ("claims", "topics", "talks"),
+    "people": ("companies", "talks"),
+    "playbooks": ("topics", "tools", "talks"),
+    "questions": ("topics", "talks", "tools"),
+    "quotes": ("talks", "people", "topics"),
+    "resources": ("talks", "people", "tools", "topics"),
+    "slides": ("talks", "resources"),
+    "talks": ("people", "companies", "tools"),
+    "tools": ("talks", "topics", "people"),
+    "topics": ("talks", "tools", "people", "companies"),
+    "transcripts": ("talks", "resources"),
+}
 
 
 @dataclass
@@ -172,8 +192,58 @@ def resolve_wikilink_page(target: str, by_id: dict[str, Page], by_stem: dict[str
     return by_id.get(target) or by_stem.get(Path(target).name)
 
 
-def extract_graph(pages: list[Page], by_id: dict[str, Page], by_stem: dict[str, Page]) -> dict[str, list[dict]]:
-    graph_pages = [page for page in pages if not is_category_index(page)]
+def build_category_projections(nodes: list[dict], links: list[dict]) -> dict[str, list[dict]]:
+    """Build bounded, labeled two-hop relationships for same-category views."""
+    by_id = {node["id"]: node for node in nodes}
+    adjacency = {node_id: set() for node_id in by_id}
+    source_pairs = set()
+    for link in links:
+        source, target = link["source"], link["target"]
+        if source not in adjacency or target not in adjacency:
+            continue
+        adjacency[source].add(target)
+        adjacency[target].add(source)
+        source_pairs.add(tuple(sorted((source, target))))
+
+    projections: dict[str, list[dict]] = {}
+    for category, connector_categories in GRAPH_PROJECTION_RULES.items():
+        members = {node["id"] for node in nodes if node["category"] == category}
+        pair_connectors: dict[tuple[str, str], list[dict]] = {}
+        for connector_id in sorted(adjacency):
+            connector = by_id[connector_id]
+            if connector_id in members or connector["category"] not in connector_categories:
+                continue
+            connected_members = sorted(adjacency[connector_id] & members)
+            if not 2 <= len(connected_members) <= GRAPH_PROJECTION_MAX_FANOUT:
+                continue
+            connector_summary = {
+                "id": connector_id,
+                "title": connector["title"],
+                "category": connector["category"],
+            }
+            for left_index, source in enumerate(connected_members):
+                for target in connected_members[left_index + 1 :]:
+                    pair = (source, target)
+                    if pair in source_pairs:
+                        continue
+                    pair_connectors.setdefault(pair, []).append(connector_summary)
+
+        projections[category] = [
+            {
+                "source": source,
+                "target": target,
+                "connectors": sorted(
+                    connectors,
+                    key=lambda item: (item["category"], item["title"], item["id"]),
+                )[:4],
+            }
+            for (source, target), connectors in sorted(pair_connectors.items())
+        ]
+    return projections
+
+
+def extract_graph(pages: list[Page], by_id: dict[str, Page], by_stem: dict[str, Page]) -> dict:
+    graph_pages = [page for page in pages if not is_category_index(page) and page.category != "root"]
     graph_page_ids = {page.id for page in graph_pages}
     outgoing: dict[str, set[str]] = {page.id: set() for page in graph_pages}
     backlinks: dict[str, set[str]] = {page.id: set() for page in graph_pages}
@@ -202,12 +272,22 @@ def extract_graph(pages: list[Page], by_id: dict[str, Page], by_stem: dict[str, 
             }
         )
 
-    links = [
-        {"source": source, "target": target}
-        for source in sorted(outgoing)
-        for target in sorted(outgoing[source])
-    ]
-    return {"nodes": nodes, "links": links}
+    link_pairs = {
+        tuple(sorted((source, target)))
+        for source in outgoing
+        for target in outgoing[source]
+    }
+    links = [{"source": source, "target": target} for source, target in sorted(link_pairs)]
+    return {
+        "nodes": nodes,
+        "links": links,
+        "categoryProjections": build_category_projections(nodes, links),
+        "projectionPolicy": {
+            "maxConnectorFanout": GRAPH_PROJECTION_MAX_FANOUT,
+            "connectorCategories": {key: list(value) for key, value in GRAPH_PROJECTION_RULES.items()},
+            "boundary": "Projected category relationships are labeled inferences and are not source links.",
+        },
+    }
 
 
 def render_inline(text: str, by_id: dict[str, Page], by_stem: dict[str, Page]) -> str:
@@ -697,7 +777,7 @@ def render_graph(pages: list[Page]) -> str:
     <div class="graph-zoom-controls" aria-label="Graph zoom controls">
       <button type="button" id="graph-zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
       <button type="button" id="graph-zoom-out" title="Zoom out" aria-label="Zoom out">-</button>
-      <button type="button" id="graph-zoom-reset" title="Show entire graph" aria-label="Show entire graph">All</button>
+      <button type="button" id="graph-zoom-reset" title="Fit visible graph" aria-label="Fit visible graph">Fit</button>
     </div>
     <p id="graph-status" class="graph-status" aria-live="polite">Loading graph…</p>
     <aside id="graph-detail" class="graph-detail">
@@ -1447,16 +1527,18 @@ blockquote {
   border-color: var(--accent);
   color: var(--accent);
 }
-.graph-status { position: absolute; z-index: 4; left: 14px; bottom: 51px; max-width: calc(100% - 150px); margin: 0; padding: 5px 8px; border-radius: 6px; background: rgba(255,255,255,.88); color: var(--muted); font-size: 0.76rem; }
+.graph-status { position: absolute; z-index: 4; left: 14px; bottom: 78px; max-width: calc(100% - 150px); margin: 0; padding: 5px 8px; border-radius: 6px; background: rgba(255,255,255,.9); color: var(--muted); font-size: 0.76rem; }
 .graph-legend {
   display: flex;
+  flex-wrap: wrap;
   gap: 5px;
   position: absolute;
   z-index: 4;
   right: 0;
   bottom: 0;
   left: 0;
-  overflow-x: auto;
+  max-height: 74px;
+  overflow-y: auto;
   padding: 8px 10px;
   border-top: 1px solid rgba(208,213,221,.8);
   background: rgba(255,255,255,.93);
@@ -1482,6 +1564,7 @@ blockquote {
   color: var(--accent);
   outline: none;
 }
+.graph-legend-item.active { border-color: var(--accent); background: #eef4f1; color: var(--ink); }
 .graph-legend-all {
   color: var(--ink);
   font-weight: 800;
@@ -1559,6 +1642,7 @@ blockquote {
   .graph-controls { grid-template-columns: 1fr; width: calc(100% - 88px); }
   .graph-canvas-wrap { height: 72vh; min-height: 520px; }
   .graph-status { bottom: 49px; max-width: calc(100% - 86px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .graph-legend { flex-wrap: nowrap; max-height: none; overflow-x: auto; overflow-y: hidden; }
   .graph-detail { top: auto; right: 8px; bottom: 52px; left: 8px; width: auto; max-height: 48%; }
   .page-graph .sidebar { padding: 12px 16px; }
   .page-graph .sidebar > .eyebrow, .page-graph .sidebar > .subtitle, .page-graph .sidebar > .search { display: none; }
@@ -1589,21 +1673,34 @@ const data=await fetch('/graph-data.json').then(r=>r.ok?r.json():Promise.reject(
 const graph=new Graph({type:'undirected'}),categories=[...new Set(data.nodes.map(n=>n.category).filter(c=>c!=='root'))].sort(),palette=new Map(categories.map((c,i)=>[c,colors[i%colors.length]]));
 const seed=(id,category)=>{let h=2166136261;for(const char of `${category}:${id}`){h^=char.charCodeAt(0);h=Math.imul(h,16777619)}const a=(h>>>0)/4294967296*Math.PI*2,r=2+((h>>>8)&1023)/150,g=categories.indexOf(category)/Math.max(categories.length,1)*Math.PI*2;return{x:Math.cos(g)*18+Math.cos(a)*r,y:Math.sin(g)*18+Math.sin(a)*r}};
 data.nodes.filter(n=>n.category!=='root').forEach(n=>{const p=seed(n.id,n.category);graph.addNode(n.id,{...n,...p,label:n.title,size:Math.min(15,3+Math.sqrt(n.degree+1)),color:palette.get(n.category)||'#64748b'})});
-data.links.forEach((e,i)=>{if(graph.hasNode(e.source)&&graph.hasNode(e.target)&&!graph.hasEdge(e.source,e.target))graph.addEdgeWithKey(`e${i}`,e.source,e.target,{size:.3,color:'#94a3b8'})});
-const addLabel=(name,label,color='')=>{const item=document.createElement('button');item.type='button';item.className=`graph-legend-item${name?'':' graph-legend-all'}`;if(color){const swatch=document.createElement('i');swatch.style.background=color;item.append(swatch)}item.append(document.createTextNode(label));item.onclick=()=>setCategory(name);legend.append(item)};
+data.links.forEach((e,i)=>{if(graph.hasNode(e.source)&&graph.hasNode(e.target)&&!graph.hasEdge(e.source,e.target))graph.addEdgeWithKey(`source-${i}`,e.source,e.target,{projected:false,size:.35,color:'#94a3b8'})});
+const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+const compactView=window.matchMedia('(max-width: 880px)').matches;
+const legendItems=new Map();
+const addLabel=(name,label,color='')=>{const item=document.createElement('button');item.type='button';item.className=`graph-legend-item${name?'':' graph-legend-all'}`;item.setAttribute('aria-pressed','false');if(color){const swatch=document.createElement('i');swatch.style.background=color;item.append(swatch)}item.append(document.createTextNode(label));item.onclick=()=>setCategory(name);legendItems.set(name,item);legend.append(item)};
 addLabel('','All categories');categories.forEach(name=>{const option=document.createElement('option');option.value=name;option.textContent=`${name.replaceAll('-',' ')} (${data.nodes.filter(n=>n.category===name).length})`;category.append(option);addLabel(name,name.replaceAll('-',' '),palette.get(name))});
-let selected='',hovered='',categoryNodes=null;
-function projectCategory(name){graph.filterEdges((edge,a)=>a.projected).forEach(edge=>graph.dropEdge(edge));if(!name)return null;const seeds=new Set(graph.filterNodes((node,a)=>a.category===name));let projected=0;graph.forEachNode(connector=>{if(seeds.has(connector))return;const members=graph.neighbors(connector).filter(node=>seeds.has(node));for(let left=0;left<members.length;left+=1){for(let right=left+1;right<members.length;right+=1){const source=members[left],target=members[right];if(graph.hasEdge(source,target))continue;graph.addEdgeWithKey(`projected-${projected++}`,source,target,{projected:true,size:.32,color:'#94a3b8'})}}});return seeds}
-const renderer=new Sigma(graph,canvas,{labelDensity:.06,labelGridCellSize:110,labelRenderedSizeThreshold:9,zIndex:true,nodeReducer(node,a){const q=search.value.trim().toLowerCase(),matches=!q||`${a.label} ${a.excerpt}`.toLowerCase().includes(q),hidden=Boolean(categoryNodes&&!categoryNodes.has(node)),active=node===(selected||hovered);return{...a,hidden,size:active?a.size*1.75:a.size,zIndex:active||matches&&q?2:1,color:active?'#111827':q&&!matches?'#cbd5e1':a.color,forceLabel:active||Boolean(q&&matches||a.category===category.value)}},edgeReducer(edge,a){const focus=selected||hovered;if(!focus)return{...a,hidden:false,color:search.value.trim()?'#e2e8f0':'#cbd5e1',size:.18};const active=graph.extremities(edge).includes(focus);return{...a,hidden:!active,color:'#475569',size:active?1.5:.2,zIndex:active?1:0}}});
+let selected='',hovered='',categoryNodes=null,categoryLabelNodes=new Set(),layoutRunning=true;
+function sourceDegree(node){return graph.edges(node).filter(edge=>!graph.getEdgeAttribute(edge,'projected')).length}
+function categoryMembers(name){return name?new Set(graph.filterNodes((node,a)=>a.category===name)):null}
+function chooseCategoryLabels(name,members){if(!name||!members)return new Set();const ranked=[...members].sort((left,right)=>sourceDegree(right)-sourceDegree(left)||graph.getNodeAttribute(left,'label').localeCompare(graph.getNodeAttribute(right,'label'))),limit=compactView?0:members.size<=20?8:members.size<=100?12:8;return new Set(ranked.slice(0,limit))}
+function clearProjectedEdges(){graph.filterEdges((edge,a)=>a.projected).forEach(edge=>graph.dropEdge(edge))}
+function projectCategory(name){clearProjectedEdges();if(!name){categoryLabelNodes=new Set();return null}const members=categoryMembers(name);(data.categoryProjections?.[name]||[]).forEach((row,index)=>{if(members.has(row.source)&&members.has(row.target)&&!graph.hasEdge(row.source,row.target)){graph.addEdgeWithKey(`inferred-${index}`,row.source,row.target,{projected:true,connectors:row.connectors||[],size:.7,color:'#b7791f'})}});categoryLabelNodes=chooseCategoryLabels(name,members);return members}
+function updateLegend(){legendItems.forEach((item,name)=>{const active=name===category.value;item.classList.toggle('active',active);item.setAttribute('aria-pressed',String(active))})}
+function edgeIsVisible(source,target){return !categoryNodes||categoryNodes.has(source)&&categoryNodes.has(target)}
+const renderer=new Sigma(graph,canvas,{labelDensity:compactView ? 0.04 : 0.08,labelGridCellSize:compactView?150:120,labelRenderedSizeThreshold:compactView?100:13,zIndex:true,nodeReducer(node,a){const q=search.value.trim().toLowerCase(),matches=!q||`${a.label} ${a.excerpt}`.toLowerCase().includes(q),hidden=Boolean(categoryNodes&&!categoryNodes.has(node)),active=node===(selected||hovered);return{...a,hidden,size:active?a.size*1.75:a.size,zIndex:active||matches&&q?2:1,color:active?'#111827':q&&!matches?'#cbd5e1':a.color,forceLabel:active||Boolean(q&&matches)||categoryLabelNodes.has(node)}},edgeReducer(edge,a){const [source,target]=graph.extremities(edge),focus=selected||hovered,visible=edgeIsVisible(source,target),active=Boolean(focus&&graph.extremities(edge).includes(focus));if(!visible||focus&&!active)return{...a,hidden:true};const faded=Boolean(search.value.trim()&&!active);return{...a,hidden:false,color:faded?'#e2e8f0':a.projected?'#b7791f':active?'#475569':'#94a3b8',size:active ? 1.6 : (a.projected ? 0.72 : 0.35),zIndex:active?2:a.projected?1:0}}});
 function matches(){const q=search.value.trim().toLowerCase();return q?data.nodes.filter(n=>n.category!=='root'&&(!category.value||n.category===category.value)&&`${n.title} ${n.excerpt}`.toLowerCase().includes(q)):[]}
-function update(){const found=matches(),visible=data.nodes.filter(n=>n.category!=='root'&&(!category.value||n.category===category.value)).length;status.textContent=search.value.trim()?`${found.length.toLocaleString()} matches highlighted within ${visible.toLocaleString()} visible pages. The surrounding graph remains in view.`:`${visible.toLocaleString()} pages and ${graph.size.toLocaleString()} resolved links. Drag to pan, scroll to zoom, and click any label to explore.`}
-function focusNode(node){selected=node;const a=graph.getNodeAttributes(node),neighbors=graph.neighbors(node).sort((x,y)=>graph.degree(y)-graph.degree(x)).slice(0,18);detail.classList.add('open');detail.innerHTML=`<button class="graph-detail-close" type="button" aria-label="Close details">×</button><p class="eyebrow">${a.category}</p><h2>${a.label}</h2><p>${a.excerpt||''}</p><p class="graph-counts">${graph.degree(node)} connected pages</p><a class="graph-open-page" href="${a.url}">Open page</a>${neighbors.length?'<h3>Nearby pages</h3><ul class="graph-nearby">'+neighbors.map(id=>`<li><a href="${graph.getNodeAttribute(id,'url')}">${graph.getNodeAttribute(id,'label')}</a><small>${graph.getNodeAttribute(id,'category')}</small></li>`).join('')+'</ul>':''}`;detail.querySelector('.graph-detail-close').onclick=()=>{selected='';detail.classList.remove('open');renderer.refresh()};renderer.refresh();const p=renderer.getNodeDisplayData(node);if(p)renderer.getCamera().animate({x:p.x,y:p.y,ratio:.3},{duration:500})}
-function fitCategory(){if(!category.value){renderer.getCamera().animatedReset({duration:500});return}const points=graph.filterNodes((node,a)=>a.category===category.value).map(node=>renderer.getNodeDisplayData(node)).filter(Boolean);if(!points.length)return;const x=points.reduce((sum,p)=>sum+p.x,0)/points.length,y=points.reduce((sum,p)=>sum+p.y,0)/points.length,ratio=Math.min(1,Math.max(.52,.42+Math.sqrt(points.length)/35));renderer.getCamera().animate({x,y,ratio},{duration:500})}
-function setCategory(name){category.value=name;categoryNodes=projectCategory(name);selected='';detail.classList.remove('open');const url=new URL(location.href);name?url.searchParams.set('category',name):url.searchParams.delete('category');history.replaceState({},'',url);renderer.refresh();requestAnimationFrame(fitCategory);update()}
-const requested=new URLSearchParams(location.search).get('category');if(requested&&categories.includes(requested)){category.value=requested;categoryNodes=projectCategory(requested)}
+function visibleEdgeCounts(){let source=0,inferred=0;graph.forEachEdge((edge,a,s,t)=>{if(!edgeIsVisible(s,t))return;a.projected?inferred+=1:source+=1});return{source,inferred}}
+function update(){const found=matches(),visible=data.nodes.filter(n=>!category.value||n.category===category.value).length,counts=visibleEdgeCounts(),scope=category.value?`${visible.toLocaleString()} pages in ${category.value.replaceAll('-',' ')}`:`${visible.toLocaleString()} pages`,sourceLabel=counts.source===1?'direct source link':'direct source links',relationshipText=`${counts.source.toLocaleString()} ${sourceLabel}${counts.inferred?` and ${counts.inferred.toLocaleString()} labeled inferred relationships`:''}`;status.textContent=search.value.trim()?`${found.length.toLocaleString()} matches highlighted within ${scope}; ${relationshipText}.`:`${scope}; ${relationshipText}. Drag to pan, scroll to zoom, and click a label to inspect its evidence.`;updateLegend()}
+function neighborEntries(node,projected){return graph.edges(node).filter(edge=>Boolean(graph.getEdgeAttribute(edge,'projected'))===projected).map(edge=>{const [source,target]=graph.extremities(edge),other=source===node?target:source;return{node:other,edge}}).sort((left,right)=>sourceDegree(right.node)-sourceDegree(left.node)||graph.getNodeAttribute(left.node,'label').localeCompare(graph.getNodeAttribute(right.node,'label')))}
+function neighborList(entries,inferred=false){if(!entries.length)return'';return`<h3>${inferred?'Inferred category relationships':'Direct source neighbors'}</h3><ul class="graph-nearby">${entries.slice(0,inferred?10:18).map(({node,edge})=>{const connectors=inferred?(graph.getEdgeAttribute(edge,'connectors')||[]):[],reason=connectors.map(item=>`${item.category.replaceAll('-',' ')}: ${item.title}`).join('; ');return`<li><a href="${escapeHtml(graph.getNodeAttribute(node,'url'))}">${escapeHtml(graph.getNodeAttribute(node,'label'))}</a><small>${inferred?`Inferred via ${escapeHtml(reason)}`:escapeHtml(graph.getNodeAttribute(node,'category'))}</small></li>`}).join('')}</ul>`}
+function focusNode(node){selected=node;const a=graph.getNodeAttributes(node),direct=neighborEntries(node,false),inferred=neighborEntries(node,true);detail.classList.add('open');detail.innerHTML=`<button class="graph-detail-close" type="button" aria-label="Close details">×</button><p class="eyebrow">${escapeHtml(a.category)}</p><h2>${escapeHtml(a.label)}</h2><p>${escapeHtml(a.excerpt||'')}</p><p class="graph-counts">${direct.length.toLocaleString()} direct source neighbors${inferred.length?` · ${inferred.length.toLocaleString()} inferred category relationships`:''}</p><a class="graph-open-page" href="${escapeHtml(a.url)}">Open page</a>${neighborList(direct)}${neighborList(inferred,true)}`;detail.querySelector('.graph-detail-close').onclick=()=>{selected='';detail.classList.remove('open');renderer.refresh()};renderer.refresh();const p=renderer.getNodeDisplayData(node);if(p)renderer.getCamera().animate({x:p.x,y:p.y,ratio:.3},{duration:500})}
+function fitCategory(){if(!category.value){renderer.getCamera().animatedReset({duration:500});return}const points=graph.filterNodes((node,a)=>a.category===category.value).map(node=>renderer.getNodeDisplayData(node)).filter(Boolean);if(!points.length)return;const x=points.reduce((sum,p)=>sum+p.x,0)/points.length,y=points.reduce((sum,p)=>sum+p.y,0)/points.length,ratio=Math.min(1.15,Math.max(.68,.5+Math.sqrt(points.length)/30));renderer.getCamera().animate({x,y:y+.07,ratio},{duration:500})}
+function stopLayout(){if(layoutRunning){layout.stop();layoutRunning=false}}
+function setCategory(name){stopLayout();category.value=name;categoryNodes=projectCategory(name);selected='';detail.classList.remove('open');const url=new URL(location.href);name?url.searchParams.set('category',name):url.searchParams.delete('category');history.replaceState({},'',url);renderer.refresh();requestAnimationFrame(fitCategory);update()}
+const requested=new URLSearchParams(location.search).get('category');if(requested&&categories.includes(requested)){category.value=requested;categoryNodes=categoryMembers(requested);categoryLabelNodes=chooseCategoryLabels(requested,categoryNodes)}
 category.onchange=()=>setCategory(category.value);search.oninput=()=>{selected='';const found=matches().slice(0,8);searchResults.replaceChildren(...found.map(item=>{const button=document.createElement('button');button.type='button';button.textContent=item.title;button.onclick=()=>{searchResults.replaceChildren();focusNode(item.id)};return button}));searchResults.classList.toggle('open',Boolean(found.length));renderer.refresh();update()};search.onkeydown=event=>{if(event.key==='Enter'){const first=matches()[0];if(first){event.preventDefault();searchResults.replaceChildren();focusNode(first.id)}}};renderer.on('enterNode',({node})=>{hovered=node;renderer.refresh()});renderer.on('leaveNode',()=>{hovered='';renderer.refresh()});renderer.on('clickNode',({node})=>focusNode(node));
-document.querySelector('#graph-zoom-in').onclick=()=>renderer.getCamera().animatedZoom({duration:250});document.querySelector('#graph-zoom-out').onclick=()=>renderer.getCamera().animatedUnzoom({duration:250});document.querySelector('#graph-zoom-reset').onclick=()=>{category.value='';categoryNodes=projectCategory('');search.value='';searchResults.replaceChildren();selected='';detail.classList.remove('open');renderer.refresh();renderer.getCamera().animatedReset({duration:400});update()};
-const layout=new FA2Layout(graph,{settings:{gravity:1,scalingRatio:10,slowDown:5,barnesHutOptimize:true}});layout.start();setTimeout(()=>{layout.stop();fitCategory()},4500);update();
+document.querySelector('#graph-zoom-in').onclick=()=>renderer.getCamera().animatedZoom({duration:250});document.querySelector('#graph-zoom-out').onclick=()=>renderer.getCamera().animatedUnzoom({duration:250});document.querySelector('#graph-zoom-reset').onclick=fitCategory;
+const layout=new FA2Layout(graph,{settings:{gravity:1,scalingRatio:10,slowDown:5,barnesHutOptimize:true}});layout.start();setTimeout(()=>{if(layoutRunning){layout.stop();layoutRunning=false}if(category.value)categoryNodes=projectCategory(category.value);renderer.refresh();fitCategory();update()},4500);update();
 """,
         encoding="utf-8",
     )
