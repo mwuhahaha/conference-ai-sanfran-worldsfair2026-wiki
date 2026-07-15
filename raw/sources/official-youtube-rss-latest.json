@@ -1,7 +1,17 @@
 {
   "channel_id": "UCLKPca3kwwd-B59HNr-_lvA",
-  "checked_at": "2026-07-15T11:35:02.071919+00:00",
+  "checked_at": "2026-07-15T17:36:02.148247+00:00",
   "entries": [
+    {
+      "channel": "AI Engineer",
+      "id": "uU5Gv2h8-9g",
+      "published": "2026-07-15T15:05:06+00:00",
+      "published_date": "2026-07-15",
+      "source": "official_youtube_rss",
+      "title": "Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic",
+      "updated": "2026-07-15T16:36:39+00:00",
+      "url": "https://www.youtube.com/watch?v=uU5Gv2h8-9g"
+    },
     {
       "channel": "AI Engineer",
       "id": "8G_1-3IO4ZQ",
@@ -9,7 +19,7 @@
       "published_date": "2026-07-14",
       "source": "official_youtube_rss",
       "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
-      "updated": "2026-07-14T23:26:29+00:00",
+      "updated": "2026-07-15T12:44:25+00:00",
       "url": "https://www.youtube.com/watch?v=8G_1-3IO4ZQ"
     },
     {
@@ -19,7 +29,7 @@
       "published_date": "2026-07-14",
       "source": "official_youtube_rss",
       "title": "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
-      "updated": "2026-07-14T22:23:52+00:00",
+      "updated": "2026-07-15T12:03:58+00:00",
       "url": "https://www.youtube.com/watch?v=0vphxNt4wyk"
     },
     {
@@ -29,7 +39,7 @@
       "published_date": "2026-07-14",
       "source": "official_youtube_rss",
       "title": "Forward Deployed Engineering at Cursor — Pauline Brunet",
-      "updated": "2026-07-14T21:22:53+00:00",
+      "updated": "2026-07-15T11:57:04+00:00",
       "url": "https://www.youtube.com/watch?v=APqXGyCoGW4"
     },
     {
@@ -49,7 +59,7 @@
       "published_date": "2026-07-13",
       "source": "official_youtube_rss",
       "title": "The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents",
-      "updated": "2026-07-14T23:56:25+00:00",
+      "updated": "2026-07-15T11:59:06+00:00",
       "url": "https://www.youtube.com/watch?v=c35YoMdnI78"
     },
     {
@@ -69,7 +79,7 @@
       "published_date": "2026-07-13",
       "source": "official_youtube_rss",
       "title": "Stop Evaluating Models Like It's the 50s - Alejandro Vidal, Mindmakers",
-      "updated": "2026-07-14T07:00:22+00:00",
+      "updated": "2026-07-15T12:54:56+00:00",
       "url": "https://www.youtube.com/watch?v=O3FEoMYvUf8"
     },
     {
@@ -141,16 +151,6 @@
       "title": "A Song of Types and Agents - Roberto Stagi, Ratel",
       "updated": "2026-07-12T12:45:38+00:00",
       "url": "https://www.youtube.com/watch?v=UlFB6efYN5Q"
-    },
-    {
-      "channel": "AI Engineer",
-      "id": "TJPInBjhE4Q",
-      "published": "2026-07-12T12:15:38+00:00",
-      "published_date": "2026-07-12",
-      "source": "official_youtube_rss",
-      "title": "ReviewDebt: a practical framework for scoring every pull request — Sachin Gupta, Ebay",
-      "updated": "2026-07-12T12:16:10+00:00",
-      "url": "https://www.youtube.com/watch?v=TJPInBjhE4Q"
     }
   ],
   "source_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"
