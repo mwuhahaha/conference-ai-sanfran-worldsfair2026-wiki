@@ -27,6 +27,14 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
 - Refinement implementation: commit `995fb20c`, GitHub Actions run
   `29427893690`, successful. Live desktop/mobile checks passed with no page
   errors, failed requests, or document overflow.
+- `Entity neighborhood` is now the cross-template person/vendor/concept lookup
+  mode. It unions only existing evidence-bearing semantic records: step 1 is
+  strictly direct to the selected entity, while the progressive graph action
+  adds role-balanced connections-of-connections.
+- Entity-neighborhood implementation: commit `d17f7768`, GitHub Actions run
+  `29428779987`, successful. The live Corey Gallon check shows 8 direct
+  relationships across 9 entities at step 1, then a bounded 50-entity/100-edge
+  step-2 scene, with the canonical `/people/corey-gallon/` link intact.
 - Next single story returns to S3 in `.ops/plans/worldsfair-static-navigation-followup.md`.
 
 ## Latest Completed Follow-Up Stories
