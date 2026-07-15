@@ -12,6 +12,8 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
+from build_relationship_dataset import build_relationship_dataset, validate_dataset
+
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
@@ -762,11 +764,86 @@ render();
     return render_layout("Search", body, pages, "search")
 
 
-def render_graph(pages: list[Page]) -> str:
+def render_relationship_explorer(pages: list[Page]) -> str:
+    body = """<section class="landing relationship-landing">
+  <p class="eyebrow">Conference relationships</p>
+  <div class="relationship-heading">
+    <div>
+      <h1>Relationship explorer</h1>
+      <p class="relationship-intro">Trace how conference vendors, people, and concepts connect through labeled evidence.</p>
+    </div>
+    <a id="relationship-advanced" class="relationship-advanced-link" href="/graph/all/">Advanced dataset</a>
+  </div>
+  <div id="relationship-explorer" class="relationship-explorer" data-ready="false">
+    <div class="relationship-toolbar">
+      <div class="relationship-segments" aria-label="Relationship template">
+        <button type="button" data-relationship-template="vendor_concept">Vendors + Concepts</button>
+        <button type="button" data-relationship-template="person_concept">People + Concepts</button>
+        <button type="button" data-relationship-template="concept_concept">Concepts + Concepts</button>
+      </div>
+      <label class="relationship-search-label">Find an entity
+        <input id="relationship-search" type="search" autocomplete="off" placeholder="Find a vendor or concept">
+        <span id="relationship-search-results" class="graph-search-results"></span>
+      </label>
+      <label id="relationship-compare-label" class="relationship-search-label" hidden>Compare with
+        <input id="relationship-compare" type="search" autocomplete="off" placeholder="Find a second concept">
+        <span id="relationship-compare-results" class="graph-search-results"></span>
+      </label>
+      <label>Evidence layer
+        <select id="relationship-layer"><option value="">All evidence layers</option></select>
+      </label>
+      <label>Relationship type
+        <select id="relationship-type"><option value="">All relationship types</option></select>
+      </label>
+      <label class="relationship-toggle"><input id="relationship-derived" type="checkbox" checked> Include labeled derived</label>
+      <button id="relationship-clear" class="relationship-clear" type="button">Clear</button>
+    </div>
+    <div class="relationship-tabs" role="tablist" aria-label="Relationship view">
+      <button type="button" role="tab" data-relationship-view="landscape">Landscape</button>
+      <button type="button" role="tab" data-relationship-view="graph">Graph</button>
+      <button type="button" role="tab" data-relationship-view="list">List</button>
+      <button type="button" role="tab" data-relationship-view="matrix">Matrix</button>
+    </div>
+    <p id="relationship-status" class="relationship-status" aria-live="polite">Loading relationships...</p>
+    <section id="relationship-landscape" class="relationship-panel" aria-label="Concept landscape"></section>
+    <section id="relationship-graph-panel" class="relationship-panel" aria-label="Focused relationship graph" hidden>
+      <div class="relationship-graph-wrap">
+        <div id="relationship-canvas" class="relationship-canvas" role="img" aria-label="Focused relationship graph"></div>
+        <p id="relationship-graph-empty" class="relationship-graph-empty"></p>
+        <div class="relationship-graph-legend" aria-label="Relationship legend">
+          <span><i class="direct"></i>Explicit</span>
+          <span><i class="derived"></i>Labeled derived</span>
+        </div>
+        <div class="graph-zoom-controls" aria-label="Relationship graph zoom controls">
+          <button type="button" id="relationship-zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
+          <button type="button" id="relationship-zoom-out" title="Zoom out" aria-label="Zoom out">-</button>
+          <button type="button" id="relationship-fit" title="Fit visible relationships" aria-label="Fit visible relationships">Fit</button>
+        </div>
+        <button type="button" id="relationship-expand" class="relationship-expand" hidden>Show more</button>
+      </div>
+    </section>
+    <section id="relationship-list" class="relationship-panel" aria-label="Relationship list" hidden></section>
+    <section id="relationship-matrix" class="relationship-panel" aria-label="Relationship matrix" hidden></section>
+    <aside id="relationship-detail" class="relationship-detail" aria-live="polite"></aside>
+  </div>
+  <noscript><p>This explorer requires JavaScript. The underlying semantic dataset remains available at <a href="/relationship-data.json">/relationship-data.json</a>.</p></noscript>
+</section>
+<script type="module" src="/relationship.js?v=__ASSET_VERSION__"></script>"""
+    relationship_version = hashlib.sha256((DIST / "relationship.js").read_bytes()).hexdigest()[:12]
+    body = body.replace("__ASSET_VERSION__", relationship_version)
+    return render_layout("Relationship explorer", body, pages, "graph")
+
+
+def render_advanced_graph(pages: list[Page]) -> str:
     body = """<section class="landing graph-landing">
   <p class="eyebrow">Conference map</p>
-  <h1>Knowledge graph</h1>
-  <p class="graph-intro">Explore every wiki relationship in one view. Search highlights matching pages without removing the surrounding network.</p>
+  <div class="relationship-heading">
+    <div>
+      <h1>Advanced dataset</h1>
+      <p class="graph-intro">Inspect the complete public page-link graph.</p>
+    </div>
+    <a class="relationship-advanced-link" href="/graph/">Relationship explorer</a>
+  </div>
   <div class="graph-canvas-wrap">
     <div id="graph-canvas" class="graph-canvas" role="img" aria-label="Wiki relationship graph"></div>
     <div class="graph-controls" aria-label="Graph filters">
@@ -791,7 +868,7 @@ def render_graph(pages: list[Page]) -> str:
 <script type="module" src="/graph.js?v=__ASSET_VERSION__"></script>"""
     graph_version = hashlib.sha256((DIST / "graph.js").read_bytes()).hexdigest()[:12]
     body = body.replace("__ASSET_VERSION__", graph_version)
-    return render_layout("Knowledge graph", body, pages, "graph")
+    return render_layout("Advanced dataset", body, pages, "graph")
 
 
 def write_graph_script() -> None:
@@ -1629,6 +1706,60 @@ blockquote {
 .graph-nearby { display: grid; gap: 8px; padding-left: 1.1rem; }
 .graph-nearby a, .graph-nearby small { display: block; }
 .graph-nearby small { color: var(--muted); text-transform: capitalize; }
+.relationship-landing { max-width: 1400px; }
+.relationship-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 22px; }
+.relationship-heading h1 { margin: 0; }
+.relationship-intro { max-width: 68ch; margin: 8px 0 0; color: var(--muted); }
+.relationship-advanced-link { flex: 0 0 auto; padding: 9px 12px; border: 1px solid var(--line); border-radius: 7px; background: #fff; font-weight: 750; }
+.relationship-explorer { position: relative; min-height: 640px; }
+.relationship-explorer[data-ready="false"] { opacity: .72; }
+.relationship-toolbar { display: grid; grid-template-columns: minmax(210px, 1fr) minmax(170px, .7fr) minmax(170px, .7fr) auto auto; gap: 10px; align-items: end; padding: 14px; border: 1px solid var(--line); border-radius: 8px 8px 0 0; background: #f8faf9; }
+.relationship-toolbar label { position: relative; color: var(--muted); font-size: .76rem; font-weight: 800; }
+.relationship-toolbar input[type="search"], .relationship-toolbar select { display: block; width: 100%; min-height: 40px; margin-top: 4px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 7px; background: #fff; color: var(--ink); font: inherit; }
+.relationship-segments { display: grid; grid-column: 1 / -1; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2px; padding: 3px; border: 1px solid var(--line); border-radius: 7px; background: #eef2ef; }
+.relationship-segments button, .relationship-tabs button { min-height: 36px; border: 0; border-radius: 5px; background: transparent; color: var(--muted); font: inherit; font-size: .82rem; font-weight: 800; cursor: pointer; }
+.relationship-segments button.active, .relationship-tabs button.active { background: #fff; color: var(--ink); box-shadow: 0 1px 4px rgba(16,24,40,.12); }
+.relationship-toggle { display: flex; align-items: center; gap: 7px; min-height: 40px; padding: 0 5px; white-space: nowrap; }
+.relationship-toggle input { width: 16px; height: 16px; }
+.relationship-clear { min-height: 40px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 7px; background: #fff; color: var(--ink); font: inherit; font-weight: 750; cursor: pointer; }
+.relationship-tabs { display: flex; gap: 4px; padding: 8px 10px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); border-left: 1px solid var(--line); background: #fff; }
+.relationship-tabs button { min-width: 92px; padding: 6px 12px; }
+.relationship-tabs button.active { background: #eef5f2; color: var(--accent); box-shadow: none; }
+.relationship-status { margin: 0; padding: 9px 12px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); border-left: 1px solid var(--line); color: var(--muted); font-size: .82rem; }
+.relationship-panel { min-height: 520px; border: 1px solid var(--line); border-top: 0; background: #fff; }
+.relationship-panel[hidden] { display: none; }
+.relationship-table-wrap { width: 100%; overflow: auto; }
+.relationship-table { width: 100%; border-collapse: collapse; background: #fff; }
+.relationship-table th, .relationship-table td { padding: 11px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.relationship-table thead th { position: sticky; z-index: 2; top: 0; background: #eef5f2; color: #173b36; font-size: .78rem; text-transform: uppercase; }
+.relationship-table tbody tr { cursor: pointer; }
+.relationship-table tbody tr:hover, .relationship-table tbody tr:focus { background: #f8fbf9; outline: none; }
+.relationship-text-button { border: 0; padding: 0; background: transparent; color: var(--accent); font: inherit; font-weight: 750; text-align: left; cursor: pointer; }
+.relationship-matrix-wrap { max-height: 650px; }
+.relationship-matrix { width: max-content; min-width: 100%; }
+.relationship-matrix th:first-child { position: sticky; z-index: 3; left: 0; min-width: 190px; background: #eef5f2; }
+.relationship-matrix thead th:not(:first-child) { width: 72px; max-width: 72px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.relationship-matrix td { min-width: 72px; text-align: center; }
+.relationship-matrix-cell { width: 36px; height: 30px; border: 1px solid #9fc5bc; border-radius: 5px; background: #e4f2ee; color: #12574e; font: inherit; font-weight: 850; cursor: pointer; }
+.relationship-graph-wrap { position: relative; height: 620px; overflow: hidden; background: #f8fafc; }
+.relationship-canvas { width: 100%; height: 100%; }
+.relationship-graph-legend { display: flex; gap: 12px; position: absolute; z-index: 2; bottom: 12px; left: 12px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: rgba(255,255,255,.94); color: var(--muted); font-size: .76rem; }
+.relationship-graph-legend span { display: inline-flex; align-items: center; gap: 5px; }
+.relationship-graph-legend i { display: block; width: 22px; height: 2px; background: #475569; }
+.relationship-graph-legend i.derived { background: #b7791f; }
+.relationship-graph-empty { position: absolute; inset: 50% auto auto 50%; width: min(420px, calc(100% - 48px)); margin: 0; padding: 14px; transform: translate(-50%,-50%); border: 1px solid var(--line); border-radius: 7px; background: rgba(255,255,255,.94); color: var(--muted); text-align: center; }
+.relationship-expand { position: absolute; z-index: 3; right: 12px; bottom: 12px; min-height: 36px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 6px; background: rgba(255,255,255,.96); color: var(--accent); font: inherit; font-weight: 800; cursor: pointer; }
+.relationship-detail { display: none; position: absolute; z-index: 9; top: 148px; right: 12px; width: min(390px, calc(100% - 24px)); max-height: 610px; overflow-y: auto; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: rgba(255,255,255,.98); box-shadow: 0 16px 38px rgba(16,24,40,.2); }
+.relationship-detail.open { display: block; }
+.relationship-detail h2 { margin-top: 0; padding-top: 0; border-top: 0; font-size: 1.2rem; }
+.relationship-detail h3 { font-size: 1rem; }
+.relationship-detail-close { float: right; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--ink); font-size: 1.2rem; cursor: pointer; }
+.relationship-boundary { padding: 10px 12px; border-left: 3px solid #b7791f; background: #fff8e8; color: #5f4717; font-size: .88rem; }
+.relationship-layer-list { color: var(--accent-2); font-size: .76rem; font-weight: 800; text-transform: capitalize; }
+.relationship-evidence-list { display: grid; gap: 9px; padding-left: 1.2rem; }
+.relationship-evidence-list a, .relationship-evidence-list small { display: block; }
+.relationship-evidence-list small { color: var(--muted); text-transform: capitalize; }
+.relationship-empty { margin: 0; padding: 28px; color: var(--muted); text-align: center; }
 @media (max-width: 880px) {
   .sidebar { position: static; width: auto; border-right: 0; border-bottom: 1px solid var(--line); padding: 22px 20px; }
   .brand { font-size: 1.28rem; }
@@ -1653,6 +1784,16 @@ blockquote {
   .page-graph .graph-landing { padding: 18px 14px; }
   .page-graph .graph-landing > .eyebrow { margin-bottom: 8px; }
   .page-graph .graph-landing h1 { margin-top: 0; font-size: 2rem; }
+  .relationship-heading { align-items: start; flex-direction: column; gap: 12px; }
+  .relationship-toolbar { grid-template-columns: 1fr; }
+  .relationship-segments { grid-template-columns: 1fr; }
+  .relationship-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2px; padding-right: 4px; padding-left: 4px; }
+  .relationship-tabs button { min-width: 0; padding-right: 2px; padding-left: 2px; font-size: .72rem; white-space: normal; }
+  .relationship-panel { min-height: 480px; }
+  .relationship-graph-wrap { height: 66vh; min-height: 480px; }
+  .relationship-detail { position: fixed; top: auto; right: 8px; bottom: 8px; left: 8px; width: auto; max-height: 62vh; }
+  .relationship-table th, .relationship-table td { padding: 9px; }
+  .relationship-matrix th:first-child { min-width: 150px; }
 }
 """.strip()
         + "\n",
@@ -1710,13 +1851,30 @@ def export() -> None:
     pages = [parse_page(path) for path in sorted(WIKI.rglob("*.md"))]
     by_id, by_stem = build_link_maps(pages)
     graph = extract_graph(pages, by_id, by_stem)
+    relationship_profile = load_json(RAW / "relationship-explorer-profile.json", {})
+    relationship_data = build_relationship_dataset(
+        pages,
+        relationship_profile,
+        company_profiles=load_json(RAW / "company-profiles.json", {}),
+    )
+    relationship_errors = validate_dataset(relationship_data, relationship_profile)
+    if relationship_errors:
+        raise ValueError(
+            "Relationship dataset validation failed: "
+            + "; ".join(relationship_errors)
+        )
 
     if DIST.exists():
         shutil.rmtree(DIST)
     DIST.mkdir(parents=True)
     write_styles()
     write_sigma_graph_script()
+    shutil.copyfile(ROOT / "scripts" / "relationship_explorer.js", DIST / "relationship.js")
     (DIST / "graph-data.json").write_text(json.dumps(graph, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    (DIST / "relationship-data.json").write_text(
+        json.dumps(relationship_data, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
 
     assets = WIKI / "assets"
     if assets.exists():
@@ -1742,7 +1900,13 @@ def export() -> None:
 
     graph_dir = DIST / "graph"
     graph_dir.mkdir()
-    (graph_dir / "index.html").write_text(render_graph(pages), encoding="utf-8")
+    (graph_dir / "index.html").write_text(render_relationship_explorer(pages), encoding="utf-8")
+    advanced_graph_dir = graph_dir / "all"
+    advanced_graph_dir.mkdir()
+    (advanced_graph_dir / "index.html").write_text(render_advanced_graph(pages), encoding="utf-8")
+    explore_dir = DIST / "explore"
+    explore_dir.mkdir()
+    (explore_dir / "index.html").write_text(render_relationship_explorer(pages), encoding="utf-8")
 
     (DIST / "_headers").write_text(
         """/*

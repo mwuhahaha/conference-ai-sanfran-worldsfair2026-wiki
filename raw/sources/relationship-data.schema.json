@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aie-worldsfair2026.plusrobot.ai/schemas/relationship-data.schema.json",
+  "title": "Static relationship explorer dataset",
+  "type": "object",
+  "required": ["schemaVersion", "profile", "roles", "nodes", "relationships", "facets", "matrix"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "profile": {
+      "type": "object",
+      "required": ["id", "version"],
+      "properties": {"id": {"type": "string"}, "version": {"type": "integer"}},
+      "additionalProperties": false
+    },
+    "roles": {
+      "type": "object",
+      "required": ["vendors", "people", "concepts"],
+      "properties": {
+        "vendors": {"type": "array", "items": {"type": "string"}},
+        "people": {"type": "array", "items": {"type": "string"}},
+        "concepts": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "nodes": {"type": "array", "items": {"$ref": "#/$defs/node"}},
+    "relationships": {"type": "array", "items": {"$ref": "#/$defs/relationship"}},
+    "facets": {
+      "type": "object",
+      "required": ["templates", "relationTypes", "sourceLayers"],
+      "properties": {
+        "templates": {"$ref": "#/$defs/countMap"},
+        "relationTypes": {"$ref": "#/$defs/countMap"},
+        "sourceLayers": {"$ref": "#/$defs/countMap"}
+      },
+      "additionalProperties": false
+    },
+    "matrix": {
+      "type": "object",
+      "required": ["vendorConcept", "personConcept", "conceptConcept"],
+      "properties": {
+        "vendorConcept": {"$ref": "#/$defs/matrix"},
+        "personConcept": {"$ref": "#/$defs/matrix"},
+        "conceptConcept": {"$ref": "#/$defs/matrix"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "node": {
+      "type": "object",
+      "required": ["id", "title", "category", "role", "url", "excerpt", "navigationOnly"],
+      "properties": {
+        "id": {"type": "string"}, "title": {"type": "string"}, "category": {"type": "string"},
+        "role": {"enum": ["vendor", "organization", "person", "concept", "evidence"]},
+        "url": {"type": "string"}, "excerpt": {"type": "string"}, "navigationOnly": {"type": "boolean"},
+        "roleReason": {"type": "string"}, "roleSourceRefs": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "countMap": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 0}
+    },
+    "matrix": {
+      "type": "object",
+      "required": ["rows", "columns", "cells"],
+      "properties": {
+        "rows": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "columns": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "cells": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["source", "target", "count", "relationshipIds"],
+            "properties": {
+              "source": {"type": "string"}, "target": {"type": "string"},
+              "count": {"type": "integer", "minimum": 1},
+              "relationshipIds": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true}
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object", "required": ["id", "sourceLayer"],
+      "properties": {"id": {"type": "string"}, "sourceLayer": {"enum": ["official_schedule", "official_event_media", "transcript", "slide_ocr", "curated_public_source", "supporting_context", "synthesis"]}}, "additionalProperties": false
+    },
+    "relationship": {
+      "type": "object",
+      "required": ["id", "template", "relationType", "source", "target", "direction", "derivation", "publicReason", "evidence", "sourceLayers", "boundary"],
+      "properties": {
+        "id": {"type": "string"},
+        "template": {"enum": ["vendor_concept", "person_concept", "concept_concept"]},
+        "relationType": {"enum": ["represented_at_talk_about", "featured_in_talk_about", "presented_at_talk_about", "co_occurs_in_talk", "shares_vendor", "shares_person", "supported_by_same_evidence", "enables", "depends_on", "contrasts_with", "related_via_synthesis"]}, "source": {"type": "string"}, "target": {"type": "string"},
+        "direction": {"enum": ["directed", "undirected"]}, "derivation": {"enum": ["explicit", "derived"]},
+        "publicReason": {"type": "string", "minLength": 1},
+        "evidence": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/evidence"}},
+        "sourceLayers": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["official_schedule", "official_event_media", "transcript", "slide_ocr", "curated_public_source", "supporting_context", "synthesis"]}},
+        "boundary": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    }
+  }
+}

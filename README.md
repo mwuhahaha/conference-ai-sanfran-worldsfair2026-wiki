@@ -36,7 +36,7 @@ From this directory:
 npm run build
 ```
 
-The build sanitizes public text, refreshes the agent index, normalizes article section shapes by page type, then writes the deployable static site to `dist/`. The export includes a complete static wiki-link dataset at `dist/graph-data.json` and a read-only graph browser at `dist/graph/index.html`.
+The build sanitizes public text, refreshes the agent index, normalizes article section shapes by page type, then writes the deployable static site to `dist/`. The export includes the complete wiki-link dataset at `dist/graph-data.json`, an evidence-bearing semantic dataset at `dist/relationship-data.json`, the relationship explorer at `dist/graph/index.html`, and the full advanced graph at `dist/graph/all/index.html`.
 
 ## Wiki Toolkit
 
@@ -84,7 +84,7 @@ Local build:
 npm run build
 ```
 
-The build normalizes article shapes and writes a pre-rendered static site to `dist/`, including `/graph/`, `/graph-data.json`, and the standalone `/agent-index.md` contract.
+The build normalizes article shapes and writes a pre-rendered static site to `dist/`, including `/graph/`, `/graph/all/`, `/relationship-data.json`, `/graph-data.json`, and the standalone `/agent-index.md` contract.
 
 Cloudflare Pages Git integration settings:
 
