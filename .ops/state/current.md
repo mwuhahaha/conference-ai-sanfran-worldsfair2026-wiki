@@ -20,6 +20,13 @@ The completed AIE-specific conversion plan remains closed. Follow-up public navi
 - The reusable implementation and conservative Worldsfair profile producer live in `/garage/obsidian/wiki-from-topic-maker`.
 - Deployment: commit `7fabb4c4`, GitHub Actions run `29426268484`, successful.
 - Live verification passed on desktop and mobile for all three templates, exact matrix/list totals, evidence drawers, zoom, relation filters, and the advanced dataset.
+- Post-release neighborhood refinement is complete: selected entities now link
+  to their canonical wiki pages below the graph, and focused scenes support
+  URL-restored one-, two-, and three-step expansion with progressive caps up to
+  100 nodes and 200 relationships.
+- Refinement implementation: commit `995fb20c`, GitHub Actions run
+  `29427893690`, successful. Live desktop/mobile checks passed with no page
+  errors, failed requests, or document overflow.
 - Next single story returns to S3 in `.ops/plans/worldsfair-static-navigation-followup.md`.
 
 ## Latest Completed Follow-Up Stories
