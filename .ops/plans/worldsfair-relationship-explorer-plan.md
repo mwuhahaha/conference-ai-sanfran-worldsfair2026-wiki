@@ -608,6 +608,16 @@ Browser matrix:
 5. Retain the advanced full graph and old data contract for at least one release cycle.
 6. Roll back by restoring the previous `/graph/` entrypoint; semantic artifacts are additive and do not mutate wiki content.
 
+## Post-Release Refinement
+
+- [x] Show the selected vendor, person, or concept and its canonical wiki-page
+  link directly below the focused graph.
+- [x] Add URL-restored one-, two-, and three-step neighborhood controls.
+- [x] Preserve every eligible semantic edge among included nodes while bounding
+  progressively expanded scenes at 100 nodes and 200 relationships.
+- [x] Reduce forced labels in multi-step scenes for readable desktop and mobile
+  rendering without removing node or edge interaction.
+
 ## Research Basis
 
 - Large node-link diagrams require aggregation or progressive disclosure: https://arxiv.org/abs/2008.07944

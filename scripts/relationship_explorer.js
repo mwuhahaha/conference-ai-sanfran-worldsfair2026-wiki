@@ -36,6 +36,10 @@ const list = document.querySelector("#relationship-list");
 const matrix = document.querySelector("#relationship-matrix");
 const detail = document.querySelector("#relationship-detail");
 const expand = document.querySelector("#relationship-expand");
+const depthControls = [...document.querySelectorAll("[data-relationship-depth]")];
+const selectedEntity = document.querySelector("#relationship-selected");
+const selectedEntityName = document.querySelector("#relationship-selected-name");
+const selectedEntityLink = document.querySelector("#relationship-selected-link");
 const tabs = [...document.querySelectorAll("[data-relationship-view]")];
 const templates = [...document.querySelectorAll("[data-relationship-template]")];
 
@@ -65,6 +69,7 @@ let selectedRelationshipId = "";
 let renderer = null;
 let focusedGraph = null;
 let expanded = false;
+let neighborhoodDepth = [1, 2, 3].includes(Number(params.get("depth"))) ? Number(params.get("depth")) : 1;
 
 function nodeRole(id) {
   return roleIds.get(id) || "evidence";
@@ -114,6 +119,7 @@ function syncUrl() {
   includeDerived.checked ? next.searchParams.delete("derivation") : next.searchParams.set("derivation", "explicit");
   layer.value ? next.searchParams.set("layer", layer.value) : next.searchParams.delete("layer");
   relationType.value ? next.searchParams.set("relation", relationType.value) : next.searchParams.delete("relation");
+  neighborhoodDepth > 1 ? next.searchParams.set("depth", String(neighborhoodDepth)) : next.searchParams.delete("depth");
   history.replaceState({}, "", next);
 }
 
@@ -126,6 +132,7 @@ function setTemplate(template) {
   compare.value = "";
   detail.classList.remove("open");
   expanded = false;
+  neighborhoodDepth = 1;
   update();
 }
 
@@ -142,6 +149,7 @@ function selectNode(id, preferredView = "graph") {
   selectedRelationshipId = "";
   detail.classList.remove("open");
   expanded = false;
+  neighborhoodDepth = 1;
   update();
 }
 
@@ -362,13 +370,37 @@ function renderGraph() {
     renderer = null;
   }
   clearElement(canvas);
-  const eligible = selectedId ? filteredRelationships() : [];
+  const allEligible = selectedId ? filteredRelationships({incident: Boolean(compareId)}) : [];
+  const adjacency = new Map();
+  allEligible.forEach((relationship) => {
+    [relationship.source, relationship.target].forEach((id) => {
+      if (!adjacency.has(id)) adjacency.set(id, []);
+      adjacency.get(id).push(relationship);
+    });
+  });
+  const reachableIds = new Set(selectedId ? [selectedId] : []);
+  let frontier = new Set(selectedId ? [selectedId] : []);
+  for (let step = 0; step < neighborhoodDepth; step += 1) {
+    const nextFrontier = new Set();
+    frontier.forEach((id) => (adjacency.get(id) || []).forEach((relationship) => {
+      const other = relationship.source === id ? relationship.target : relationship.source;
+      if (!reachableIds.has(other)) nextFrontier.add(other);
+      reachableIds.add(other);
+    }));
+    frontier = nextFrontier;
+    if (!frontier.size) break;
+  }
+  const eligible = allEligible.filter((relationship) => reachableIds.has(relationship.source) && reachableIds.has(relationship.target));
+  const depthLimits = {1: [26, 60], 2: [50, 100], 3: [80, 160]};
+  const [baseNodeLimit, baseRelationshipLimit] = depthLimits[neighborhoodDepth];
+  const nodeLimit = expanded ? Math.min(100, baseNodeLimit + 30) : baseNodeLimit;
+  const relationshipLimit = expanded ? Math.min(200, baseRelationshipLimit + 60) : baseRelationshipLimit;
   const limitedRelationships = [];
   const visibleIds = new Set(selectedId ? [selectedId] : []);
   for (const relationship of eligible) {
-    if (limitedRelationships.length >= (expanded ? 80 : 60)) break;
+    if (limitedRelationships.length >= relationshipLimit) break;
     const additions = [relationship.source, relationship.target].filter((id) => !visibleIds.has(id));
-    if (visibleIds.size + additions.length > (expanded ? 40 : 26)) continue;
+    if (visibleIds.size + additions.length > nodeLimit) continue;
     additions.forEach((id) => visibleIds.add(id));
     limitedRelationships.push(relationship);
   }
@@ -397,7 +429,7 @@ function renderGraph() {
       role,
       color: ROLE_COLORS[role] || ROLE_COLORS.evidence,
       size: id === selectedId ? 12 : 8,
-      forceLabel: true,
+      forceLabel: id === selectedId || neighborhoodDepth === 1,
     });
   }));
   limitedRelationships.forEach((relationship, index) => {
@@ -427,9 +459,20 @@ function renderGraph() {
   document.querySelector("#relationship-zoom-out").onclick = () => renderer?.getCamera().animatedUnzoom({duration: 200});
   document.querySelector("#relationship-fit").onclick = () => renderer?.getCamera().animatedReset({duration: 250});
   const omitted = eligible.length - limitedRelationships.length;
-  expand.hidden = omitted <= 0 || expanded;
+  expand.hidden = omitted <= 0 || (nodeLimit === 100 && relationshipLimit === 200);
+  expand.textContent = expanded ? "At maximum" : "Show more nodes";
   emptyGraph.hidden = true;
-  if (omitted > 0) status.textContent += ` ${omitted.toLocaleString()} additional relationships are available in List view.`;
+  status.textContent = `${nodeTitle(selectedId)}: showing ${limitedRelationships.length.toLocaleString()} relationships among ${visibleIds.size.toLocaleString()} entities within ${neighborhoodDepth} step${neighborhoodDepth === 1 ? "" : "s"}.`;
+  if (omitted > 0) status.textContent += ` ${omitted.toLocaleString()} more relationships are outside this bounded ${neighborhoodDepth}-step scene.`;
+}
+
+function renderSelectedEntity() {
+  const node = nodes.get(selectedId);
+  selectedEntity.hidden = !node;
+  if (!node) return;
+  selectedEntityName.textContent = `${node.title} · ${nodeRole(node.id)}`;
+  selectedEntityLink.href = node.url || `/${node.id}/`;
+  selectedEntityLink.setAttribute("aria-label", `Open ${node.title} wiki page`);
 }
 
 function showRelationship(id) {
@@ -551,6 +594,11 @@ function updateControls() {
   const placeholderRole = activeTemplate === "vendor_concept" ? "vendor or concept" : activeTemplate === "person_concept" ? "person or concept" : "concept";
   search.placeholder = `Find a ${placeholderRole}`;
   compareLabel.hidden = activeTemplate !== "concept_concept";
+  depthControls.forEach((item) => {
+    const active = Number(item.dataset.relationshipDepth) === neighborhoodDepth;
+    item.classList.toggle("active", active);
+    item.setAttribute("aria-pressed", String(active));
+  });
 }
 
 function updatePanels() {
@@ -581,6 +629,7 @@ function update() {
   renderList();
   renderMatrix();
   updateStatus();
+  renderSelectedEntity();
   if (activeView === "graph") renderGraph();
   syncUrl();
 }
@@ -621,6 +670,11 @@ expand.addEventListener("click", () => {
   expanded = true;
   renderGraph();
 });
+depthControls.forEach((item) => item.addEventListener("click", () => {
+  neighborhoodDepth = Number(item.dataset.relationshipDepth);
+  expanded = false;
+  update();
+}));
 
 document.querySelector("#relationship-clear").addEventListener("click", () => {
   selectedId = "";
@@ -631,6 +685,7 @@ document.querySelector("#relationship-clear").addEventListener("click", () => {
   activeView = "landscape";
   relationType.value = "";
   expanded = false;
+  neighborhoodDepth = 1;
   detail.classList.remove("open");
   update();
 });

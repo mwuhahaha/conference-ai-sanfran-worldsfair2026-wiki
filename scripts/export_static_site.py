@@ -819,7 +819,17 @@ def render_relationship_explorer(pages: list[Page]) -> str:
           <button type="button" id="relationship-zoom-out" title="Zoom out" aria-label="Zoom out">-</button>
           <button type="button" id="relationship-fit" title="Fit visible relationships" aria-label="Fit visible relationships">Fit</button>
         </div>
+        <div id="relationship-depth" class="relationship-depth" aria-label="Neighborhood depth">
+          <span>Steps</span>
+          <button type="button" data-relationship-depth="1">1</button>
+          <button type="button" data-relationship-depth="2">2</button>
+          <button type="button" data-relationship-depth="3">3</button>
+        </div>
         <button type="button" id="relationship-expand" class="relationship-expand" hidden>Show more</button>
+      </div>
+      <div id="relationship-selected" class="relationship-selected" hidden>
+        <span id="relationship-selected-name"></span>
+        <a id="relationship-selected-link" href="/">Open wiki page</a>
       </div>
     </section>
     <section id="relationship-list" class="relationship-panel" aria-label="Relationship list" hidden></section>
@@ -1748,7 +1758,15 @@ blockquote {
 .relationship-graph-legend i { display: block; width: 22px; height: 2px; background: #475569; }
 .relationship-graph-legend i.derived { background: #b7791f; }
 .relationship-graph-empty { position: absolute; inset: 50% auto auto 50%; width: min(420px, calc(100% - 48px)); margin: 0; padding: 14px; transform: translate(-50%,-50%); border: 1px solid var(--line); border-radius: 7px; background: rgba(255,255,255,.94); color: var(--muted); text-align: center; }
+.relationship-depth { position: absolute; top: 12px; left: 12px; z-index: 3; display: flex; align-items: center; gap: 3px; padding: 4px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255,255,255,.95); }
+.relationship-depth span { padding: 0 5px; color: var(--muted); font-size: .72rem; font-weight: 800; text-transform: uppercase; }
+.relationship-depth button { min-width: 34px; min-height: 32px; border: 0; border-radius: 5px; background: transparent; color: var(--muted); font: inherit; font-size: .8rem; font-weight: 800; cursor: pointer; }
+.relationship-depth button.active { background: var(--accent); color: #fff; }
 .relationship-expand { position: absolute; z-index: 3; right: 12px; bottom: 12px; min-height: 36px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 6px; background: rgba(255,255,255,.96); color: var(--accent); font: inherit; font-weight: 800; cursor: pointer; }
+.relationship-selected { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 11px 13px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); border-left: 1px solid var(--line); background: #f8faf9; }
+.relationship-selected[hidden] { display: none; }
+.relationship-selected-name { min-width: 0; overflow: hidden; font-weight: 800; text-overflow: ellipsis; white-space: nowrap; }
+.relationship-selected a { flex: 0 0 auto; padding: 7px 10px; border-radius: 6px; background: var(--accent); color: #fff; font-size: .82rem; font-weight: 800; }
 .relationship-detail { display: none; position: absolute; z-index: 9; top: 148px; right: 12px; width: min(390px, calc(100% - 24px)); max-height: 610px; overflow-y: auto; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: rgba(255,255,255,.98); box-shadow: 0 16px 38px rgba(16,24,40,.2); }
 .relationship-detail.open { display: block; }
 .relationship-detail h2 { margin-top: 0; padding-top: 0; border-top: 0; font-size: 1.2rem; }

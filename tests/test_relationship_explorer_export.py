@@ -28,6 +28,8 @@ class RelationshipExplorerExportTests(unittest.TestCase):
         self.assertIn('data-relationship-view="list"', rendered)
         self.assertIn('data-relationship-view="matrix"', rendered)
         self.assertIn('href="/graph/all/"', rendered)
+        self.assertIn('id="relationship-selected-link"', rendered)
+        self.assertIn('data-relationship-depth="3"', rendered)
         self.assertNotIn('id="graph-canvas"', rendered)
 
     def test_advanced_page_retains_full_graph_controls(self):
@@ -45,8 +47,9 @@ class RelationshipExplorerExportTests(unittest.TestCase):
     def test_client_bounds_initial_scene_and_uses_public_relationship_fields(self):
         script = (ROOT / "scripts" / "relationship_explorer.js").read_text(encoding="utf-8")
 
-        self.assertIn("visibleIds.size + additions.length > (expanded ? 40 : 26)", script)
-        self.assertIn("limitedRelationships.length >= (expanded ? 80 : 60)", script)
+        self.assertIn("const depthLimits = {1: [26, 60], 2: [50, 100], 3: [80, 160]}", script)
+        self.assertIn("reachableIds.has(relationship.source) && reachableIds.has(relationship.target)", script)
+        self.assertIn('selectedEntityLink.href = node.url', script)
         self.assertIn("relationship-expand", script)
         self.assertIn("relationship-type", script)
         self.assertIn("relationship.publicReason", script)
