@@ -53,13 +53,13 @@ Human-rendered page: https://aie-worldsfair2026.plusrobot.ai/resources/agent-sou
 ## Corpus Map
 - Talks: 560 rendered talk pages; official schedule sessions indexed: 560.
 - People: 555 rendered people pages; official speakers indexed: 552.
-- Companies: 344 rendered company pages.
+- Companies: 342 rendered company pages.
 - Topics: 16 synthesis pages across repeated conference themes.
 - Resources: 229 pages for source maps, YouTube evidence, livestreams, and processing audits.
 - Slides: 420 slide pages; standard decks: 202; reconstructed decks: 107; dense decks: 94.
 - Transcripts: 105 transcript markdown pages.
 - Quotes: 15 selected quote pages tied back to source videos and topics.
-- Tools: 61 tool/protocol/entity pages, primarily from the conference evidence layer; explicitly labeled external comparison pages may also appear.
+- Tools: 62 tool/protocol/entity pages, primarily from the conference evidence layer; explicitly labeled external comparison pages may also appear.
 - Claims: 3 evidence-backed claim pages.
 - Patterns: 3 reusable AI engineering pattern pages.
 - Questions: 6 question pages raised by the conference corpus.

@@ -3,15 +3,15 @@ title: "Latent Space / AI Engineer"
 category: "companies"
 aliases: ["Latent Space / AI Engineer"]
 website: "https://www.latent.space/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Combined roster affiliation", "Constituent publication site", "Manual source URL override", "Automated company profile fetch"]
 ---
 # Latent Space / AI Engineer
 
 ## Overview
-Latent Space / AI Engineer is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
+Latent Space / AI Engineer is the canonical affiliation string in the official roster. The attached Latent Space publication site supplies constituent context only and does not show that the combined roster affiliation is one legal organization.
 
 ## Background
-The official speaker roster connects Latent Space / AI Engineer to swyx. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+The official speaker roster lists swyx with Latent Space / AI Engineer. The attached URL represents the Latent Space constituent publication; the roster string remains canonical for the event relationship but does not establish one combined legal entity.
 
 ## Conference Relevance
 Latent Space / AI Engineer matters to this wiki through 1 official speaker(s) and 6 scheduled session(s), including: The Highest Loop; How Anthropic Builds: Lessons from Labs; Latent Space Live: the Inference Inflection from First Principles.
@@ -28,7 +28,7 @@ Latent Space / AI Engineer matters to this wiki through 1 official speaker(s) an
 - [[swyx]] - Curator
 
 ## Sources
-- [Latent Space / AI Engineer public site](https://www.latent.space/)
+- [Latent Space publication site](https://www.latent.space/)
 
 ## Evidence Graph
 This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
@@ -56,7 +56,7 @@ This evidence graph summarizes how this organization appears across the conferen
 
 ## Notes
 - Automated company profile fetch status: manual_url_unfetched.
-- Discovery confidence score: 50.
+- Publication validation: identity and event association verified; context only, not endorsed.
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

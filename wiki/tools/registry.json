@@ -650,6 +650,33 @@
     }
   },
   {
+    "id": "gepa",
+    "title": "GEPA",
+    "path": "wiki/tools/gepa.md",
+    "aliases": [
+      "GEPA"
+    ],
+    "sourceLabels": [
+      "Official speaker roster",
+      "Official conference schedule",
+      "Public repository"
+    ],
+    "scheduleTracks": [
+      "Autoresearch"
+    ],
+    "scheduleRooms": [
+      "Main Stage"
+    ],
+    "evidenceCounts": {
+      "schedule": 1,
+      "youtube": 2,
+      "slides": 7,
+      "resources": 0,
+      "topics": 0,
+      "transcripts": 0
+    }
+  },
+  {
     "id": "github-copilot",
     "title": "GitHub Copilot",
     "path": "wiki/tools/github-copilot.md",

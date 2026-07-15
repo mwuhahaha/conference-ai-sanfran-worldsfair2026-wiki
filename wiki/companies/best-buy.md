@@ -2,16 +2,16 @@
 title: "Best Buy"
 category: "companies"
 aliases: ["Best Buy"]
-website: "https://bestbuy.org/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+website: "https://www.bestbuy.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Primary-source identity verification"]
 ---
 # Best Buy
 
 ## Overview
-Best Buy is represented at AI Engineer World's Fair 2026. Its public site describes it this way: This website is for sale! bestbuy.org is your first and best source for information about bestbuy. Here you will also find topics relating to issues of general interest. We hope you find what you are looking for!
+Best Buy is represented at AI Engineer World's Fair 2026. Best Buy's official company profile describes a retailer that combines technology expertise with online, in-store, and in-home customer service.
 
 ## Background
-The official speaker roster connects Best Buy to Ahnaf Prio. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Best Buy to Ahnaf Prio. Best Buy's owner-controlled retail and corporate sites were manually verified for public company context.
 
 ## Conference Relevance
 Best Buy matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: The Agentic Commerce Stack.
@@ -23,7 +23,8 @@ Best Buy matters to this wiki through 1 official speaker(s) and 1 scheduled sess
 - [[ahnaf-prio]] - Senior Engineering Manager
 
 ## Sources
-- [bestbuy.org - This website is for sale! - bestbuy Resources and Information.](https://bestbuy.org/)
+- [Best Buy official online store](https://www.bestbuy.com/)
+- [About Best Buy](https://corporate.bestbuy.com/about-best-buy/)
 
 ## Evidence Graph
 This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
@@ -35,8 +36,8 @@ This evidence graph summarizes how this organization appears across the conferen
 No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
-- Automated company profile fetch status: fetched.
-- Discovery confidence score: 105.
+- Public source fetch status: fetched.
+- Primary-source identity validation: verified against Best Buy's owner-controlled retail and corporate sites.
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

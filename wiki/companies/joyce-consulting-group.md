@@ -3,15 +3,15 @@ title: "Joyce Consulting Group"
 category: "companies"
 aliases: ["Joyce Consulting Group"]
 website: "https://www.joycezhang.io/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Manual company URL override", "Automated company profile fetch"]
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public professional profile", "Manual source URL override", "Automated company profile fetch"]
 ---
 # Joyce Consulting Group
 
 ## Overview
-Joyce Consulting Group is represented at AI Engineer World's Fair 2026 through the official roster and related scheduled sessions. A known public site was attached for source navigation, but automated metadata extraction was unavailable in this pass (manual_url_unfetched).
+Joyce Consulting Group is represented through the official roster and schedule. The attached Joyce Zhang professional site provides speaker context only; it is not labeled as a public company site.
 
 ## Background
-The official speaker roster connects Joyce Consulting Group to Joyce Zhang. A manual URL override attaches the public site for source navigation because automated discovery or metadata extraction was inconclusive.
+The official speaker roster connects Joyce Consulting Group to Joyce Zhang. The attached URL is Joyce Zhang's public professional site, not independently verified evidence of a separate company website.
 
 ## Conference Relevance
 Joyce Consulting Group matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Human Connection in the Age of AI.
@@ -23,7 +23,7 @@ Joyce Consulting Group matters to this wiki through 1 official speaker(s) and 1 
 - [[joyce-zhang]] - Dating Coach for Tech Founders
 
 ## Sources
-- [Joyce Consulting Group public site](https://www.joycezhang.io/)
+- [Joyce Zhang professional site](https://www.joycezhang.io/)
 
 ## Evidence Graph
 This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
@@ -36,7 +36,7 @@ No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
 - Automated company profile fetch status: manual_url_unfetched.
-- Discovery confidence score: 50.
+- Supporting profile validation: identity and event association verified; context only, not endorsed.
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

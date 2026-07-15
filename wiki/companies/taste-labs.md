@@ -2,16 +2,16 @@
 title: "Taste Labs"
 category: "companies"
 aliases: ["Taste Labs"]
-website: "https://taste.dev/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+website: "https://tastelabs.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Primary-source identity verification"]
 ---
 # Taste Labs
 
 ## Overview
-Taste Labs is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Tech Founder / Builder.
+Taste Labs is represented at AI Engineer World's Fair 2026. Its official site describes a research and infrastructure company working to give AI models and agents stronger judgment, vision, and design capabilities.
 
 ## Background
-The official speaker roster connects Taste Labs to Thais Castello Branco. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Taste Labs to Thais Castello Branco. The owner-controlled Taste Labs site was manually verified and fetched for public company context.
 
 ## Conference Relevance
 Taste Labs matters to this wiki through 1 official speaker(s) and 2 scheduled session(s), including: Ending AI Slop; Training Taste.
@@ -24,7 +24,7 @@ Taste Labs matters to this wiki through 1 official speaker(s) and 2 scheduled se
 - [[thais-castello-branco]] - Founder & CEO
 
 ## Sources
-- [Terry Xu](https://taste.dev/)
+- [Taste Labs - The taste layer for AI](https://tastelabs.com/)
 
 ## Evidence Graph
 This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
@@ -37,8 +37,8 @@ This evidence graph summarizes how this organization appears across the conferen
 No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
-- Automated company profile fetch status: fetched.
-- Discovery confidence score: 65.
+- Public source fetch status: fetched.
+- Primary-source identity validation: verified against the owner-controlled Taste Labs site.
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

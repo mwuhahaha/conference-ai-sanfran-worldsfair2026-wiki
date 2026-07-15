@@ -1,6 +1,5 @@
 {
   "checked_at": "2026-07-09T19:59:44.344481+00:00",
-  "tool": "scripts/discover_external_event_videos.py",
   "queries": [
     "AI Engineer Worldsfair 2026 talk",
     "\"AI Engineer\" \"World's Fair\" \"2026\"",
@@ -9,16 +8,8 @@
     "\"AI Engineer World's Fair\" \"San Francisco\" talk",
     "\"The Dark Arts of Web Automation\" Corey Gallon"
   ],
-  "limits": {
-    "per_query": 20,
-    "metadata": true
-  },
-  "policy": {
-    "high_confidence_is_secondary_source_only": true,
-    "official_channel_results_are_penalized": true,
-    "recap_or_vlog_language_is_penalized_for_talk_matching": true
-  },
   "query_errors": [],
+  "tool": "scripts/discover_external_event_videos.py",
   "results": [
     {
       "video": {
@@ -37,9 +28,14 @@
         "live_status": "not_live"
       },
       "confidence": "high",
-      "usefulness": "secondary_source_candidate_for_talk",
+      "transcript_status": {
+        "status": "captions_imported",
+        "path": "raw/sources/external-youtube-transcripts/AheG9p_JXVw.txt",
+        "caption_path": "raw/sources/external-youtube-subtitles/AheG9p_JXVw.en-orig.vtt",
+        "word_count": 1340
+      },
+      "official_channel": false,
       "best_match": {
-        "score": 0.74,
         "session": {
           "slug": "2026-07-01-ekaterina-deyneka-building-an-agentic-video-editor-for-mass-consumer",
           "title": "Building an Agentic Video Editor for Mass Consumer",
@@ -53,34 +49,7 @@
           "time": "11:40am-12:00pm",
           "room": "Track 1",
           "track": "Generative Media"
-        },
-        "title_overlap": 0.4,
-        "phrase_overlap": 0.5,
-        "speaker_hits": [],
-        "company_hits": [
-          "Reelful"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "ordered title phrase match 0.50",
-          "company match: Reelful",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": true,
-      "operator_promotion": {
-        "reason": "Human review promoted this from medium to high: title and description explicitly identify an AI Engineer World's Fair talk; official schedule title/description match the Reelful agentic video editor session; uploader is the Reelful founder account.",
-        "reviewed_at": "2026-07-09T20:10:00+00:00"
-      },
-      "transcript_status": {
-        "status": "captions_imported",
-        "path": "raw/sources/external-youtube-transcripts/AheG9p_JXVw.txt",
-        "caption_path": "raw/sources/external-youtube-subtitles/AheG9p_JXVw.en-orig.vtt",
-        "word_count": 1340
+        }
       }
     },
     {
@@ -100,9 +69,9 @@
         "live_status": "not_live"
       },
       "confidence": "medium",
-      "usefulness": "needs_human_review_or_context_source",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.58,
         "session": {
           "slug": "2026-07-01-michael-grinich-auth-for-agents-unblock-autonomous-ai-with-auth-md",
           "title": "Auth for Agents: Unblock Autonomous AI with auth.md",
@@ -116,27 +85,8 @@
           "time": "11:40am-12:00pm",
           "room": "Main Stage",
           "track": "Agentic Engineering"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [
-          "Michael Grinich"
-        ],
-        "company_hits": [
-          "WorkOS"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "speaker match: Michael Grinich",
-          "company match: WorkOS",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": true
+        }
+      }
     },
     {
       "video": {
@@ -155,9 +105,9 @@
         "live_status": "not_live"
       },
       "confidence": "medium",
-      "usefulness": "needs_human_review_or_context_source",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.58,
         "session": {
           "slug": "2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor",
           "title": "How Forward Deployed Engineering is done at Cursor",
@@ -171,27 +121,8 @@
           "time": "11:10am-11:30am",
           "room": "Track 8",
           "track": "Forward Deployed Engineering"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [
-          "Pauline Brunet"
-        ],
-        "company_hits": [
-          "Cursor"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "speaker match: Pauline Brunet",
-          "company match: Cursor",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": true
+        }
+      }
     },
     {
       "video": {
@@ -210,9 +141,9 @@
         "live_status": "not_live"
       },
       "confidence": "medium",
-      "usefulness": "needs_human_review_or_context_source",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.58,
         "session": {
           "slug": "2026-06-29-jean-denis-greze-agents-next-frontier-agent-to-agent-and-network-effects",
           "title": "Agents' next frontier: agent-to-agent and network effects",
@@ -226,27 +157,8 @@
           "time": "1:30pm-1:50pm",
           "room": "Track 1",
           "track": "Claws & Personal Agents"
-        },
-        "title_overlap": 0.111,
-        "phrase_overlap": 0.143,
-        "speaker_hits": [
-          "Jean-Denis Greze"
-        ],
-        "company_hits": [
-          "Town"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "speaker match: Jean-Denis Greze",
-          "company match: Town",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": true
+        }
+      }
     },
     {
       "video": {
@@ -265,9 +177,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.55,
         "session": {
           "slug": "2026-06-29-jakub-hojsan-agentic-search-for-coding-agents",
           "title": "Agentic Search for Coding Agents",
@@ -281,22 +193,8 @@
           "time": "10:45am-11:05am",
           "room": "Expo Stage 4 SE",
           "track": ""
-        },
-        "title_overlap": 0.25,
-        "phrase_overlap": 0.5,
-        "speaker_hits": [],
-        "company_hits": [],
-        "reasons": [
-          "event marker in title/metadata",
-          "ordered title phrase match 0.50",
-          "plausible talk/workshop duration",
-          "capped: generic phrase match without speaker/company/strong title identity"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": false
+        }
+      }
     },
     {
       "video": {
@@ -315,9 +213,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.5,
         "session": {
           "slug": "2026-06-29-vinoth-govindarajan-your-agent-didn-t-fail-your-harness-did",
           "title": "Your Agent Didn’t Fail. Your Harness Did.",
@@ -331,26 +229,8 @@
           "time": "11:10am-11:30am",
           "room": "Track 1",
           "track": "Claws & Personal Agents"
-        },
-        "title_overlap": 0.222,
-        "phrase_overlap": 0.2,
-        "speaker_hits": [
-          "Vinoth Govindarajan"
-        ],
-        "company_hits": [
-          "OpenAI"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "speaker match: Vinoth Govindarajan",
-          "company match: OpenAI",
-          "talk/session-shaped title"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": true
+        }
+      }
     },
     {
       "video": {
@@ -369,9 +249,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.46,
         "session": {
           "slug": "2026-06-29-charlie-guo-cooking-with-codex",
           "title": "Cooking with Codex",
@@ -386,24 +266,8 @@
           "time": "9:00am-11:00am",
           "room": "Track 3",
           "track": "Workshops Day 1"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "OpenAI"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: OpenAI",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": true
+        }
+      }
     },
     {
       "video": {
@@ -422,9 +286,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.42,
         "session": {
           "slug": "2026-06-29-swyx-the-highest-loop",
           "title": "The Highest Loop",
@@ -438,23 +302,8 @@
           "time": "9:00am-9:05am",
           "room": "Main Stage",
           "track": "Software Factories"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [
-          "swyx"
-        ],
-        "company_hits": [],
-        "reasons": [
-          "event marker in title/metadata",
-          "speaker match: swyx",
-          "plausible talk/workshop duration"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": false
+        }
+      }
     },
     {
       "video": {
@@ -473,9 +322,9 @@
         "live_status": "was_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.42,
         "session": {
           "slug": "2026-06-30-alex-volkov-the-z-l-continuum-should-ai-engineers-still-read-code",
           "title": "The Z/L Continuum: Should AI Engineers Still Read Code?",
@@ -489,23 +338,8 @@
           "time": "10:45am-11:05am",
           "room": "Leadership 2",
           "track": "AI Architects: Tokenmaxxing"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [
-          "Alex Volkov"
-        ],
-        "company_hits": [],
-        "reasons": [
-          "event marker in title/metadata",
-          "speaker match: Alex Volkov",
-          "talk/session-shaped title"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": true
+        }
+      }
     },
     {
       "video": {
@@ -524,9 +358,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.3,
         "session": {
           "slug": "2026-07-01-garry-tan-closing-keynote-garry-tan",
           "title": "Closing Keynote: Garry Tan",
@@ -540,28 +374,8 @@
           "time": "4:50pm-5:10pm",
           "room": "Main Stage",
           "track": "Main Stage"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [
-          "Garry Tan"
-        ],
-        "company_hits": [
-          "Y Combinator"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "speaker match: Garry Tan",
-          "company match: Y Combinator",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": true
+        }
+      }
     },
     {
       "video": {
@@ -580,9 +394,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.3,
         "session": {
           "slug": "2026-06-30-benoit-schillings-research-to-reality-with-google-deepmind",
           "title": "Research to Reality with Google DeepMind",
@@ -596,28 +410,8 @@
           "time": "10:05am-10:25am",
           "room": "Main Stage",
           "track": "Autoresearch"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [
-          "Benoit Schillings"
-        ],
-        "company_hits": [
-          "Google DeepMind"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "speaker match: Benoit Schillings",
-          "company match: Google DeepMind",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": true
+        }
+      }
     },
     {
       "video": {
@@ -636,9 +430,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.3,
         "session": {
           "slug": "2026-06-29-charlie-guo-cooking-with-codex",
           "title": "Cooking with Codex",
@@ -653,22 +447,8 @@
           "time": "9:00am-11:00am",
           "room": "Track 3",
           "track": "Workshops Day 1"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "OpenAI"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: OpenAI"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": false
+        }
+      }
     },
     {
       "video": {
@@ -687,9 +467,9 @@
         "live_status": "was_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.26,
         "session": {
           "slug": "2026-06-30-gaurav-mishra-from-rl-to-irl",
           "title": "From RL to IRL",
@@ -703,21 +483,8 @@
           "time": "1:30pm-1:50pm",
           "room": "Track 7",
           "track": "Computer Use"
-        },
-        "title_overlap": 1.0,
-        "phrase_overlap": 0.333,
-        "speaker_hits": [],
-        "company_hits": [],
-        "reasons": [
-          "event marker in title/metadata",
-          "title token overlap 1.00",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": false
+        }
+      }
     },
     {
       "video": {
@@ -736,9 +503,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.18,
         "session": {
           "slug": "2026-06-29-kwindla-kramer-the-new-primitives-building-ai-native-software",
           "title": "The New Primitives: Building AI-Native Software",
@@ -752,23 +519,8 @@
           "time": "10:45am-11:05am",
           "room": "Track 6",
           "track": "Voice & Realtime AI"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "Daily"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: Daily",
-          "short video; likely clip/recap"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": false
+        }
+      }
     },
     {
       "video": {
@@ -787,9 +539,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.18,
         "session": {
           "slug": "2026-06-30-vincent-wendy-one-designer-al-hundreds-of-deliverables",
           "title": "One Designer + Al. Hundreds of Deliverables.",
@@ -803,23 +555,8 @@
           "time": "3:45pm-4:05pm",
           "room": "Track 6",
           "track": "Design Engineering"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "AI Engineer"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: AI Engineer",
-          "short video; likely clip/recap"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": false
+        }
+      }
     },
     {
       "video": {
@@ -838,9 +575,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.18,
         "session": {
           "slug": "2026-06-29-charlie-guo-cooking-with-codex",
           "title": "Cooking with Codex",
@@ -855,25 +592,8 @@
           "time": "9:00am-11:00am",
           "room": "Track 3",
           "track": "Workshops Day 1"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "OpenAI"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: OpenAI",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": true
+        }
+      }
     },
     {
       "video": {
@@ -892,9 +612,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.1,
         "session": {
           "slug": "2026-06-29-charles-frye-what-is-an-inference-engine-anyway",
           "title": "What is an Inference Engine, Anyway?",
@@ -908,24 +628,8 @@
           "time": "11:05am-12:05pm",
           "room": "Track 8",
           "track": "Workshops Day 1"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "Modal"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: Modal",
-          "plausible talk/workshop duration",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": false
+        }
+      }
     },
     {
       "video": {
@@ -944,9 +648,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.1,
         "session": {
           "slug": "2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer",
           "title": "Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer",
@@ -960,24 +664,8 @@
           "time": "11:05am-12:05pm",
           "room": "Track 5",
           "track": "Workshops Day 1"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "Nvidia"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: Nvidia",
-          "plausible talk/workshop duration",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": false
+        }
+      }
     },
     {
       "video": {
@@ -996,9 +684,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.1,
         "session": {
           "slug": "2026-06-29-dhruv-nathawani-teaching-agents-to-search-building-synthetic-training-pipelines-with-nvidia-data-designer",
           "title": "Teaching Agents to Search: Building Synthetic Training Pipelines with NVIDIA Data Designer",
@@ -1012,24 +700,8 @@
           "time": "11:05am-12:05pm",
           "room": "Track 5",
           "track": "Workshops Day 1"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [
-          "Nvidia"
-        ],
-        "reasons": [
-          "event marker in title/metadata",
-          "company match: Nvidia",
-          "plausible talk/workshop duration",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": false
+        }
+      }
     },
     {
       "video": {
@@ -1048,9 +720,9 @@
         "live_status": "not_live"
       },
       "confidence": "low",
-      "usefulness": "event_context_only",
+      "transcript_status": null,
+      "official_channel": false,
       "best_match": {
-        "score": 0.0,
         "session": {
           "slug": "2026-06-29-laurie-voss-from-vibes-to-production-evaluating-and-shipping-ai-agents-that-work-101",
           "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 101",
@@ -1064,21 +736,8 @@
           "time": "9:00am-11:00am",
           "room": "Track 1",
           "track": "Track 1"
-        },
-        "title_overlap": 0.0,
-        "phrase_overlap": 0.0,
-        "speaker_hits": [],
-        "company_hits": [],
-        "reasons": [
-          "event marker in title/metadata",
-          "short video; likely clip/recap",
-          "recap/vlog/event-footage language"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": true,
-      "talkish": false
+        }
+      }
     },
     {
       "video": {
@@ -1090,9 +749,14 @@
         "webpage_url": "https://www.youtube.com/watch?v=qakTj_xI0gk"
       },
       "confidence": "high",
-      "usefulness": "secondary_source_candidate_for_talk",
+      "transcript_status": {
+        "status": "captions_imported",
+        "path": "raw/sources/external-youtube-transcripts/qakTj_xI0gk.txt",
+        "caption_path": "raw/sources/external-youtube-subtitles/qakTj_xI0gk.en-orig.vtt",
+        "word_count": 2375
+      },
+      "official_channel": false,
       "best_match": {
-        "score": 0.8,
         "session": {
           "slug": "2026-06-29-session-self-driving-production-ai-wrote-your-code-ai-should-fix-it-too",
           "title": "Self-Driving Production: AI Wrote your Code. AI Should Fix It, Too",
@@ -1102,32 +766,13 @@
           "time": "2:50pm-3:10pm",
           "room": "Expo Stage 4 SE",
           "track": ""
-        },
-        "title_overlap": 0.3,
-        "phrase_overlap": 0.375,
-        "speaker_hits": [],
-        "company_hits": [],
-        "reasons": [
-          "event marker in title/metadata",
-          "leading official title phrase appears in video title",
-          "talk/session-shaped title",
-          "plausible talk/workshop duration"
-        ]
-      },
-      "event_marker": true,
-      "official_channel": false,
-      "recapish": false,
-      "talkish": true,
-      "transcript_status": {
-        "status": "captions_imported",
-        "path": "raw/sources/external-youtube-transcripts/qakTj_xI0gk.txt",
-        "caption_path": "raw/sources/external-youtube-subtitles/qakTj_xI0gk.en-orig.vtt",
-        "word_count": 2375
-      },
-      "carry_forward": {
-        "reason": "Prior high-confidence external source retained even though it did not appear in the latest query set.",
-        "from_report_checked_at": "2026-07-09T05:00:47.679734+00:00"
+        }
       }
     }
-  ]
+  ],
+  "policy": {
+    "high_confidence_is_secondary_source_only": true,
+    "identity_and_event_association_require_separate_review": true,
+    "numeric_ranking_is_internal_only": true
+  }
 }

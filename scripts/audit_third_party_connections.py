@@ -26,6 +26,31 @@ PARKED_SITE_MARKERS = {
     "for sale",
     "spaceship",
 }
+EXTERNAL_REPORT_FORBIDDEN_KEYS = {
+    "company_hits",
+    "event_marker",
+    "known_in_official_channel_cache",
+    "limits",
+    "operator_promotion",
+    "phrase_overlap",
+    "reasons",
+    "recapish",
+    "score",
+    "speaker_hits",
+    "talkish",
+    "title_overlap",
+    "usefulness",
+}
+PUBLIC_COMPANY_FORBIDDEN_KEYS = {"fetchConfidence"}
+EXTERNAL_SECTION_RE = re.compile(
+    r"^## External (?:Video Discovery|Secondary Source Candidates)\n.*?(?=^## |\Z)",
+    re.M | re.S,
+)
+PUBLIC_RANKING_LINE_PATTERNS = (
+    ("numeric confidence", re.compile(r"^\s*-\s+Confidence(?: label)?:\s*[^\n]*\(\s*\d", re.M | re.I)),
+    ("match reasons", re.compile(r"^\s*-\s+(?:Match evidence|Reasons):", re.M | re.I)),
+    ("calibration rules", re.compile(r"^## Matching Rules\s*$", re.M)),
+)
 
 
 def load_json(path: Path, fallback):
@@ -61,6 +86,19 @@ def host(value: str) -> str:
     return (urlsplit(value).hostname or "").lower().removeprefix("www.")
 
 
+def package_project_names(text: str) -> set[str]:
+    """Return owner-controlled package names that can corroborate a repository."""
+    names: set[str] = set()
+    for value in urls(text):
+        parts = urlsplit(value)
+        if host(value) != "pypi.org":
+            continue
+        segments = [segment for segment in parts.path.split("/") if segment]
+        if len(segments) >= 2 and segments[0].lower() == "project":
+            names.add(slugify(segments[1]))
+    return names
+
+
 def severity_rank(value: str) -> int:
     return {"critical": 0, "high": 1, "medium": 2, "low": 3}.get(value, 4)
 
@@ -74,6 +112,73 @@ def finding(severity: str, kind: str, path: Path, reason: str, *, url: str = "",
         "reason": reason,
         "evidence": evidence or [],
     }
+
+
+def forbidden_json_key_paths(value, forbidden: set[str], prefix: str = "$") -> list[str]:
+    """Return structural key paths without treating ordinary prose as a leak."""
+    paths: list[str] = []
+    if isinstance(value, dict):
+        for key, child in value.items():
+            child_path = f"{prefix}.{key}"
+            if key in forbidden:
+                paths.append(child_path)
+            paths.extend(forbidden_json_key_paths(child, forbidden, child_path))
+    elif isinstance(value, list):
+        for index, child in enumerate(value):
+            paths.extend(forbidden_json_key_paths(child, forbidden, f"{prefix}[{index}]"))
+    return paths
+
+
+def public_ranking_markers(text: str) -> list[str]:
+    """Find generated ranking syntax while ignoring prose uses of confidence."""
+    return [label for label, pattern in PUBLIC_RANKING_LINE_PATTERNS if pattern.search(text)]
+
+
+def audit_public_ranking_artifacts(findings: list[dict], counters: Counter) -> int:
+    leak_count = 0
+    json_targets = (
+        (RAW / "external-video-discovery-latest.json", EXTERNAL_REPORT_FORBIDDEN_KEYS),
+        (RAW / "company-profiles.json", PUBLIC_COMPANY_FORBIDDEN_KEYS),
+    )
+    for path, forbidden in json_targets:
+        if not path.exists():
+            continue
+        key_paths = forbidden_json_key_paths(load_json(path, {}), forbidden)
+        if not key_paths:
+            counters["public_json_without_internal_ranking_keys"] += 1
+            continue
+        leak_count += len(key_paths)
+        findings.append(finding(
+            "critical",
+            "public_internal_ranking_key",
+            path,
+            "A public JSON artifact contains internal ranking or calibration keys that belong only under ignored .ops state.",
+            evidence=key_paths[:25],
+        ))
+
+    markdown_targets: list[tuple[Path, str]] = []
+    resource = WIKI / "resources" / "external-video-discovery.md"
+    if resource.exists():
+        markdown_targets.append((resource, resource.read_text(encoding="utf-8", errors="ignore")))
+    for path in sorted((WIKI / "talks").glob("*.md")):
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        sections = EXTERNAL_SECTION_RE.findall(text)
+        if sections:
+            markdown_targets.append((path, "\n".join(sections)))
+    for path, text in markdown_targets:
+        markers = public_ranking_markers(text)
+        if not markers:
+            counters["public_external_video_markdown_without_ranking_details"] += 1
+            continue
+        leak_count += len(markers)
+        findings.append(finding(
+            "critical",
+            "public_internal_ranking_markdown",
+            path,
+            "A public external-video section exposes numeric confidence, match reasons, or calibration rules.",
+            evidence=markers,
+        ))
+    return leak_count
 
 
 def official_speaker_sources() -> tuple[dict[str, set[str]], dict[str, dict]]:
@@ -162,6 +267,14 @@ def audit_talk_sources(findings: list[dict], counters: Counter) -> None:
                 counters["talk_sources_backed_by_canonical_data"] += 1
                 continue
             if domain == "github.com":
+                repo_name = slugify(urlsplit(value).path.rstrip("/").split("/")[-1])
+                session_names_tool = any(
+                    repo_name and repo_name in slugify(str(session.get("description") or ""))
+                    for session in matched
+                )
+                if repo_name in package_project_names(text) and session_names_tool:
+                    counters["talk_repositories_with_package_provenance"] += 1
+                    continue
                 assessment = assess_connection({"exact_name_only": True}, identity_required=True, event_claim=True)
                 findings.append(finding(
                     "high",
@@ -195,6 +308,23 @@ def metadata_corroborates_company(company: str, metadata: str) -> bool:
         (company_core and company_core in metadata_core)
         or (company_brand and company_brand in metadata_brand)
     )
+
+
+def official_tool_maintainer_evidence(tool_name: str, official_descriptions: str) -> bool:
+    """Require both roster ownership language and a canonical session mention."""
+    tool_slug = slugify(tool_name)
+    if not tool_slug or tool_slug not in slugify(official_descriptions):
+        return False
+    _sources, records = official_speaker_sources()
+    for speaker in records.values():
+        affiliation = slugify(str(speaker.get("company") or ""))
+        role_and_bio = slugify(" ".join(
+            str(speaker.get(key) or "") for key in ("role", "bio")
+        ))
+        ownership_language = any(term in role_and_bio for term in ("creator", "maintainer", "author"))
+        if affiliation == tool_slug and tool_slug in role_and_bio and ownership_language:
+            return True
+    return False
 
 
 def audit_company_profiles(findings: list[dict], counters: Counter) -> None:
@@ -277,8 +407,13 @@ def audit_tool_repositories(findings: list[dict], counters: Counter) -> None:
             counters["explicit_external_comparison_repositories"] += len(repositories)
             continue
         for value in repositories:
-            corroborated = "pypi.org" in text or "crates.io" in text or "npmjs.com" in text
             tool_name = fields.get("title", path.stem).lower()
+            corroborated = (
+                "pypi.org" in text
+                or "crates.io" in text
+                or "npmjs.com" in text
+                or official_tool_maintainer_evidence(tool_name, official_descriptions)
+            )
             official_event_evidence = bool(tool_name and tool_name in official_descriptions)
             assessment = assess_connection(
                 {
@@ -313,6 +448,7 @@ def main() -> int:
     audit_company_profiles(findings, counters)
     audit_malformed_urls(findings)
     audit_tool_repositories(findings, counters)
+    public_ranking_leaks = audit_public_ranking_artifacts(findings, counters)
     findings.sort(key=lambda row: (severity_rank(row["severity"]), row["kind"], row["page"], row["url"]))
     payload = {
         "schemaVersion": 1,
@@ -331,7 +467,7 @@ def main() -> int:
         INTERNAL_DIR.mkdir(parents=True, exist_ok=True)
         REPORT_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps({**payload["summary"], "written": not args.check}, sort_keys=True))
-    return 0
+    return 1 if args.check and public_ranking_leaks else 0
 
 
 if __name__ == "__main__":

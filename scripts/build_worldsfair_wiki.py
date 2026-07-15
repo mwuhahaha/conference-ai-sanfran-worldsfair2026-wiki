@@ -135,6 +135,11 @@ def load_company_profiles() -> dict:
     return load_json(ROOT / "raw" / "sources" / "company-profiles.json", {})
 
 
+def load_affiliation_types() -> dict:
+    """Load roster-affiliation type overrides keyed by affiliation slug."""
+    return load_json(ROOT / "raw" / "sources" / "affiliation-types.json", {})
+
+
 def related_transcript_status(video: dict, status: dict | None) -> str:
     return (
         f"Related video transcript availability: {caption_label(status)}. "
@@ -527,12 +532,20 @@ def unique_list(items) -> list:
     return values
 
 
-def build_company_pages(company_people: dict, sessions_by_speaker: dict | None = None, profiles: dict | None = None) -> dict:
+def build_company_pages(
+    company_people: dict,
+    sessions_by_speaker: dict | None = None,
+    profiles: dict | None = None,
+    affiliation_types: dict | None = None,
+) -> dict:
     sessions_by_speaker = sessions_by_speaker or {}
     profiles = profiles or {}
+    affiliation_types = load_affiliation_types() if affiliation_types is None else affiliation_types
     grouped = defaultdict(lambda: {"aliases": [], "people": []})
     for company, people in company_people.items():
         company_slug = slugify(company)
+        if affiliation_types.get(company_slug, {}).get("type", "company") != "company":
+            continue
         grouped[company_slug]["aliases"].append(company)
         grouped[company_slug]["people"].extend(people)
     pages = {}

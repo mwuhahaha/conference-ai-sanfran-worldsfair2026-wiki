@@ -6,7 +6,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 from third_party_connection_policy import assess_connection, normalize_url
-from audit_third_party_connections import metadata_corroborates_company
+from audit_third_party_connections import (
+    forbidden_json_key_paths,
+    metadata_corroborates_company,
+    official_tool_maintainer_evidence,
+    package_project_names,
+    public_ranking_markers,
+)
 from discover_external_event_videos import public_report
 from fetch_company_profiles import Candidate, validate_company_candidate
 
@@ -73,6 +79,34 @@ class ThirdPartyConnectionPolicyTests(unittest.TestCase):
             result["results"][0]["best_match"],
             {"session": {"slug": "example-talk", "title": "Example Talk"}},
         )
+        self.assertEqual(
+            forbidden_json_key_paths(
+                result,
+                {"score", "title_overlap", "reasons", "speaker_hits", "usefulness", "limits"},
+            ),
+            [],
+        )
+
+    def test_public_ranking_marker_check_ignores_ordinary_confidence_prose(self):
+        text = "Confidence in the source is limited, and benchmark scores need context."
+        self.assertEqual(public_ranking_markers(text), [])
+
+    def test_public_ranking_marker_check_finds_generated_details(self):
+        text = """## External Video Discovery
+- Confidence: high (0.81)
+- Match evidence: speaker exact
+"""
+        self.assertEqual(public_ranking_markers(text), ["numeric confidence", "match reasons"])
+
+    def test_package_project_names_extracts_pypi_identity(self):
+        text = "[Package](https://pypi.org/project/chrome-agent/)"
+        self.assertEqual(package_project_names(text), {"chrome-agent"})
+
+    def test_official_tool_maintainer_requires_roster_and_session_evidence(self):
+        descriptions = "We introduce GEPA, a reflective prompt optimizer."
+        self.assertTrue(official_tool_maintainer_evidence("GEPA", descriptions))
+        self.assertFalse(official_tool_maintainer_evidence("GEPA", "Unrelated session"))
+        self.assertFalse(official_tool_maintainer_evidence("Unknown Tool", descriptions))
 
     def test_company_collector_accepts_owner_metadata_with_spaced_brand_terms(self):
         result = validate_company_candidate(

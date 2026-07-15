@@ -2,16 +2,16 @@
 title: "Indeed"
 category: "companies"
 aliases: ["Indeed"]
-website: "https://indeed.co/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+website: "https://www.indeed.com/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Primary-source identity verification"]
 ---
 # Indeed
 
 ## Overview
-Indeed is represented at AI Engineer World's Fair 2026. The automated fetch found a likely public site titled "Juneteenth Recommendations At Our Favorite Independent Bookstore Order Today!", but the page did not expose a concise public description in metadata.
+Indeed is represented at AI Engineer World's Fair 2026. Its official company profile describes a global job-matching and hiring platform that serves job seekers and employers.
 
 ## Background
-The official speaker roster connects Indeed to Dustin Mihalik. The public company site was discovered by domain-guess and fetched, but usable metadata was limited.
+The official speaker roster connects Indeed to Dustin Mihalik. Indeed's owner-controlled site and company profile were manually verified for public company context.
 
 ## Conference Relevance
 Indeed matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: MCP Apps: Give the Model Data, Give the User a UI.
@@ -23,7 +23,8 @@ Indeed matters to this wiki through 1 official speaker(s) and 1 scheduled sessio
 - [[dustin-mihalik]] - Technical Fellow
 
 ## Sources
-- [Juneteenth Recommendations At Our Favorite Independent Bookstore Order Today!](https://indeed.co/)
+- [Indeed job search](https://www.indeed.com/)
+- [About Indeed](https://www.indeed.com/about)
 
 ## Evidence Graph
 This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
@@ -35,8 +36,8 @@ This evidence graph summarizes how this organization appears across the conferen
 No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
-- Automated company profile fetch status: fetched.
-- Discovery confidence score: 65.
+- Public source fetch status: fetched.
+- Primary-source identity validation: verified against Indeed's owner-controlled site and company profile.
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

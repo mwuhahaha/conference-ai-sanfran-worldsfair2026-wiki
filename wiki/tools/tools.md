@@ -30,6 +30,7 @@ Tool pages distinguish confirmed mentions from inferred relevance and cite the s
 - [[exa]] — Exa (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
 - [[factory-ai]] — Factory AI (Public YouTube metadata, Local slide OCR)
 - [[gemini]] — Gemini (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR, Topic synthesis)
+- [[gepa]] — GEPA (Official speaker roster, Official conference schedule, Public repository)
 - [[github-copilot]] — GitHub Copilot (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR)
 - [[glm-5-2]] — GLM-5.2 (Official schedule, Public YouTube metadata, Transcript evidence, Local slide OCR)
 - [[google-antigravity]] — Google Antigravity (Official schedule, Transcript evidence, Local slide OCR)

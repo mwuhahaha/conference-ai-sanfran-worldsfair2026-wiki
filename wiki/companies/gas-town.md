@@ -2,16 +2,16 @@
 title: "Gas Town"
 category: "companies"
 aliases: ["Gas Town"]
-website: "https://gastown.ai/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+website: "https://github.com/gastownhall/gastown"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Official project repository", "Primary-source identity verification"]
 ---
 # Gas Town
 
 ## Overview
-Gas Town is represented at AI Engineer World's Fair 2026. Its public site describes it this way: This domain is available for acquisition.
+Gas Town is represented at AI Engineer World's Fair 2026. Its maintained repository describes a workspace manager for coordinating multiple AI coding agents with persistent, git-backed work tracking.
 
 ## Background
-The official speaker roster connects Gas Town to Steve Yegge. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects Gas Town to Steve Yegge. The maintained Gas Town repository was manually verified as the project's primary public source.
 
 ## Conference Relevance
 Gas Town matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Agentic Security: Permissions, Provenance, and the Agent Supply Chain.
@@ -23,7 +23,7 @@ Gas Town matters to this wiki through 1 official speaker(s) and 1 scheduled sess
 - [[steve-yegge]] - Icon
 
 ## Sources
-- [For Sale](https://gastown.ai/)
+- [Gas Town - multi-agent workspace manager](https://github.com/gastownhall/gastown)
 
 ## Evidence Graph
 This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
@@ -37,8 +37,8 @@ This evidence graph summarizes how this organization appears across the conferen
 - Evidence links for `youtube-7Dtu2bilcFs`: [[youtube-7Dtu2bilcFs]], [[youtube-7Dtu2bilcFs-slides]], [[youtube-7Dtu2bilcFs-dense-slides]], [[youtube-7Dtu2bilcFs-reconstructed-slides]]
 
 ## Notes
-- Automated company profile fetch status: fetched.
-- Discovery confidence score: 78.
+- Public source fetch status: fetched.
+- Primary-source identity validation: verified against the maintained Gas Town repository.
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

@@ -6,7 +6,7 @@ time: "12:05pm-12:25pm"
 track: "Computer Use"
 room: "Track 7"
 speakers: ["Corey Gallon"]
-sourceLabels: ["Official conference schedule", "Official speaker roster", "Public company site", "Public GitHub project", "Public YouTube metadata", "Synthesis"]
+sourceLabels: ["Official conference schedule", "Official speaker roster", "Public company site", "Public GitHub project", "Public package registry", "Public YouTube metadata", "Synthesis"]
 scheduleTrack: "Computer Use"
 scheduleRoom: "Track 7"
 scheduleLabels: ["Computer Use", "Track 7", "session", "confirmed"]
@@ -131,7 +131,8 @@ These are phone-photo slide captures from the Google Photos `AIE Slides` album. 
 ## Sources
 - [Corey Gallon official speaker page](https://aie-wf.sentry.dev/speakers/spk_corey_gallon)
 - [Rexmore official site](https://rexmore.ai/)
-- [chrome-agent GitHub repository](https://github.com/sderosiaux/chrome-agent)
+- [Corey Gallon's chrome-agent GitHub repository](https://github.com/captivus/chrome-agent)
+- [chrome-agent package on PyPI](https://pypi.org/project/chrome-agent/)
 - [Corey Gallon website](https://gallon.me)
 - [Corey Gallon LinkedIn](https://www.linkedin.com/in/coreygallon)
 

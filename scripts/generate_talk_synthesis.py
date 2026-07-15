@@ -90,6 +90,16 @@ def upsert_section(markdown: str, heading: str, section: str) -> str:
     return fm + body
 
 
+def remove_generated_section(markdown: str, heading: str, marker: str) -> str:
+    fm, body, _fields = split_frontmatter(markdown)
+    pattern = re.compile(rf"^## {re.escape(heading)}\n.*?(?=^## |\Z)", re.M | re.S)
+    match = pattern.search(body)
+    if not match or marker not in match.group(0):
+        return markdown
+    body = pattern.sub("", body).rstrip() + "\n"
+    return fm + body
+
+
 def video_ids(text: str) -> list[str]:
     ids = set(re.findall(r"(?:watch\?v=|youtu\.be/)([A-Za-z0-9_-]{11})", text))
     ids.update(re.findall(r"youtube-([A-Za-z0-9_-]{11})(?=[\]\)\s/#-]|$)", text))
@@ -180,7 +190,7 @@ def detect_concepts(blob: str) -> list[dict]:
     return hits
 
 
-def section_for(path: Path, text: str, people: dict[str, dict], company_slugs: dict[str, str]) -> tuple[str, list[dict]]:
+def section_for(path: Path, text: str, people: dict[str, dict], company_slugs: dict[str, str]) -> tuple[str, str, list[dict]]:
     _fm, body, fields = split_frontmatter(text)
     title = fields.get("title") or path.stem.replace("-", " ").title()
     speakers = list_from_frontmatter(fields.get("speakers", ""))
@@ -190,8 +200,10 @@ def section_for(path: Path, text: str, people: dict[str, dict], company_slugs: d
     for video_id in ids:
         tpath, ttext = transcript_for(video_id)
         if tpath and ttext:
-            transcripts.append((video_id, tpath, len(ttext.split())))
+            source_layer = "external" if tpath.parent.name == "external-youtube-transcripts" else "official"
+            transcripts.append((video_id, tpath, len(ttext.split()), source_layer))
             transcript_text += "\n" + ttext
+    external_only = bool(transcripts) and all(item[3] == "external" for item in transcripts)
     source_blob = title + "\n" + body + "\n" + transcript_text
     topics = detect_topics(source_blob)
     concepts = detect_concepts(source_blob)
@@ -211,23 +223,24 @@ def section_for(path: Path, text: str, people: dict[str, dict], company_slugs: d
     if not synopsis:
         synopsis = "No transcript-backed synthesis is available yet; this page currently relies on official schedule context."
 
+    heading = "Secondary Interview Context" if external_only else "Synthesis"
     lines = [
-        "### Synthesized Breakdown",
+        "### Interview Opening (Secondary Source)" if external_only else "### Synthesized Breakdown",
         synopsis,
         "",
-        "### Speaker And Company Context",
+        "### Official Schedule Identity" if external_only else "### Speaker And Company Context",
         *speaker_lines,
         "",
-        "### Topics Covered",
+        "### Topics Mentioned In The Interview" if external_only else "### Topics Covered",
     ]
     if topics:
         for topic in topics:
             lines.append(f"- [[{topic}]]")
     else:
         lines.append("- Topic links are pending transcript-backed classification.")
-    lines.extend(["", "### Derived Links And Source Material"])
+    lines.extend(["", "### Secondary Source Material" if external_only else "### Derived Links And Source Material"])
     if transcripts:
-        for video_id, tpath, words in transcripts:
+        for video_id, tpath, words, _source_layer in transcripts:
             lines.append(f"- [[youtube-{video_id}-transcript]] — transcript markdown; source cache `{tpath.relative_to(ROOT)}` ({words:,} words).")
     for video_id in ids:
         if (WIKI / "resources" / f"youtube-{video_id}.md").exists():
@@ -235,18 +248,20 @@ def section_for(path: Path, text: str, people: dict[str, dict], company_slugs: d
         for suffix in ["slides", "reconstructed-slides", "dense-slides"]:
             if (WIKI / "slides" / f"youtube-{video_id}-{suffix}.md").exists():
                 lines.append(f"- [[youtube-{video_id}-{suffix}]] — slide evidence.")
-    lines.extend(["", "### Novel Concepts / Clever Methods"])
+    lines.extend(["", "### Interview Concepts / Methods" if external_only else "### Novel Concepts / Clever Methods"])
     if concepts:
         for concept in concepts:
             lines.append(f"- [[{concept['slug']}|{concept['title']}]] — {concept['summary']}")
     else:
         lines.append("- No highlighted novel concept has been detected yet.")
     lines.extend(["", "### Evidence Boundary"])
-    if transcripts:
+    if external_only:
+        lines.append("This section presents a third-party interview, not an official recording or transcript of this scheduled session. It is retained as secondary context only; the official schedule remains the canonical source for the session title, time, room, status, and speaker attribution.")
+    elif transcripts:
         lines.append("This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.")
     else:
         lines.append("This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.")
-    return "\n".join(lines), concepts
+    return heading, "\n".join(lines), concepts
 
 
 def write_registry(category: str) -> None:
@@ -279,8 +294,10 @@ def main() -> int:
             continue
         if not args.all and not wanted:
             continue
-        section, concepts = section_for(path, text, people, companies)
-        new_text = upsert_section(text, "Synthesis", section)
+        heading, section, concepts = section_for(path, text, people, companies)
+        if heading == "Secondary Interview Context":
+            text = remove_generated_section(text, "Synthesis", "### Synthesized Breakdown")
+        new_text = upsert_section(text, heading, section)
         if new_text != text:
             path.write_text(new_text, encoding="utf-8")
             updated += 1

@@ -38,7 +38,6 @@ No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
 - Automated company profile fetch status: fetched.
-- Discovery confidence score: 118.
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

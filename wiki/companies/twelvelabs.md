@@ -2,16 +2,16 @@
 title: "TwelveLabs"
 category: "companies"
 aliases: ["TwelveLabs"]
-website: "https://twelvelabs.com/"
-sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Automated company profile fetch"]
+website: "https://www.twelvelabs.io/"
+sourceLabels: ["Official speaker roster", "Official conference schedule", "Public company site", "Primary-source identity verification"]
 ---
 # TwelveLabs
 
 ## Overview
-TwelveLabs is represented at AI Engineer World's Fair 2026. Its public site describes it this way: Skip Baney: Software Engineer living in Austin, TX.
+TwelveLabs is represented at AI Engineer World's Fair 2026. Its official site describes a multimodal video intelligence platform and API for searching, analyzing, and understanding video across vision, audio, and language.
 
 ## Background
-The official speaker roster connects TwelveLabs to James Le. The public company site was discovered by domain-guess and fetched for homepage metadata.
+The official speaker roster connects TwelveLabs to James Le. The owner-controlled TwelveLabs site was manually verified and fetched for public company context.
 
 ## Conference Relevance
 TwelveLabs matters to this wiki through 1 official speaker(s) and 1 scheduled session(s), including: Video Has No Memory. Here's How We Built One..
@@ -23,7 +23,7 @@ TwelveLabs matters to this wiki through 1 official speaker(s) and 1 scheduled se
 - [[james-le]] - Head of Developer Experience
 
 ## Sources
-- [Home](https://twelvelabs.com/)
+- [TwelveLabs: Video Intelligence Platform & API](https://www.twelvelabs.io/)
 
 ## Evidence Graph
 This evidence graph summarizes how this organization appears across the conference source graph: scheduled sessions, linked videos, transcripts, and slide-derived evidence.
@@ -35,8 +35,8 @@ This evidence graph summarizes how this organization appears across the conferen
 No linked video, transcript, or slide source has been attached yet.
 
 ## Notes
-- Automated company profile fetch status: fetched.
-- Discovery confidence score: 65.
+- Public source fetch status: fetched.
+- Primary-source identity validation: verified against the owner-controlled TwelveLabs site.
 
 ## Evidence Boundary
 Official roster and schedule facts are treated as canonical for conference participation. Public company sites, documentation, and professional profiles are supporting context used to explain what the organization does and why it is relevant.

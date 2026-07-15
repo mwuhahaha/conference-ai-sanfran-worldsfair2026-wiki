@@ -51,29 +51,28 @@ These videos were discovered outside the official AI Engineer channel and matche
 
 - [Why Self-Driving Production Is the Future — Eric Schwartz, Traversal | AI Engineer World's Fair 2026](https://www.youtube.com/watch?v=qakTj_xI0gk)
   - Uploader: WorkOS
-  - Confidence: high (0.8)
-  - Match evidence: event marker in title/metadata; leading official title phrase appears in video title; talk/session-shaped title; plausible talk/workshop duration
+  - Confidence label: high
   - Transcript status: captions_imported `raw/sources/external-youtube-transcripts/qakTj_xI0gk.txt`
   - Transcript markdown: [[youtube-qakTj_xI0gk-transcript]]
 
-## Synthesis
-### Synthesized Breakdown
+## Secondary Interview Context
+### Interview Opening (Secondary Source)
 Hey everybody, we are back here at the AI Engineer World Fair 2026 in San Francisco and I'm thrilled to have Eric here from Traversal. Hey everybody, nice to meet you. All right, so Eric, uh to get started, tell us a little bit about you, the company, and what you guys do today. Yeah, so I'm a product manager at Traversal.
 
-### Speaker And Company Context
+### Official Schedule Identity
 - No speaker profile is attached in the official schedule data.
 
-### Topics Covered
+### Topics Mentioned In The Interview
 - [[agent-security]]
 - [[agentic-search]]
 - [[coding-agents]]
 - [[mcp]]
 
-### Derived Links And Source Material
+### Secondary Source Material
 - [[youtube-qakTj_xI0gk-transcript]] — transcript markdown; source cache `raw/sources/external-youtube-transcripts/qakTj_xI0gk.txt` (2,375 words).
 
-### Novel Concepts / Clever Methods
+### Interview Concepts / Methods
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+This section presents a third-party interview, not an official recording or transcript of this scheduled session. It is retained as secondary context only; the official schedule remains the canonical source for the session title, time, room, status, and speaker attribution.

@@ -19,6 +19,7 @@ TOOLS = [
     {"title": "Codex", "slug": "codex", "aliases": ["Codex"]},
     {"title": "Model Context Protocol", "slug": "mcp", "aliases": ["MCP", "Model Context Protocol"]},
     {"title": "MCP Apps", "slug": "mcp-apps", "aliases": ["MCP Apps", "MCP UI", "MCP-UI"]},
+    {"title": "GEPA", "slug": "gepa", "aliases": ["GEPA"]},
     {"title": "mcpc", "slug": "mcpc", "aliases": ["mcpc"]},
     {"title": "DSPy", "slug": "dspy", "aliases": ["DSPy"]},
     {"title": "LangGraph", "slug": "langgraph", "aliases": ["LangGraph"]},

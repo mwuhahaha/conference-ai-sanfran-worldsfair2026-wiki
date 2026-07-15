@@ -1,0 +1,12 @@
+{
+  "gepa": {
+    "officialAffiliation": "GEPA",
+    "type": "tool",
+    "target": "wiki/tools/gepa.md"
+  },
+  "mcp-apps": {
+    "officialAffiliation": "MCP Apps",
+    "type": "tool",
+    "target": "wiki/tools/mcp-apps.md"
+  }
+}

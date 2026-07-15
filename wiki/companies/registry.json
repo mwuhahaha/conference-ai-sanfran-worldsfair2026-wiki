@@ -650,11 +650,6 @@
     "path": "wiki/companies/general-reasoning-inc.md"
   },
   {
-    "id": "gepa",
-    "title": "GEPA",
-    "path": "wiki/companies/gepa.md"
-  },
-  {
     "id": "gimlet-labs",
     "title": "Gimlet Labs",
     "path": "wiki/companies/gimlet-labs.md"
@@ -903,11 +898,6 @@
     "id": "mckinsey-and-company",
     "title": "McKinsey & Company",
     "path": "wiki/companies/mckinsey-and-company.md"
-  },
-  {
-    "id": "mcp-apps",
-    "title": "MCP Apps",
-    "path": "wiki/companies/mcp-apps.md"
   },
   {
     "id": "merge",

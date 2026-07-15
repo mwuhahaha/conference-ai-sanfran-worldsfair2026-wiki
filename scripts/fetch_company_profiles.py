@@ -441,7 +441,6 @@ def merge_profile(existing: dict, fetched: dict, force: bool = False) -> dict:
         merged["website"] = fetched.get("website", "")
     if not existing.get("fetchStatus"):
         merged["fetchStatus"] = fetched.get("fetchStatus", "")
-        merged["fetchConfidence"] = fetched.get("fetchConfidence", 0)
     return merged
 
 

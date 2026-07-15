@@ -62,8 +62,7 @@ These videos were discovered outside the official AI Engineer channel and matche
 
 - [AI Engineer World's Fair: Building Reelful - Agentic Video Editor](https://www.youtube.com/watch?v=AheG9p_JXVw)
   - Uploader: Kate | AI Founder · Building Reelful
-  - Confidence: high (0.74)
-  - Match evidence: event marker in title/metadata; ordered title phrase match 0.50; company match: Reelful; talk/session-shaped title; plausible talk/workshop duration
+  - Confidence label: high
   - Transcript status: captions_imported `raw/sources/external-youtube-transcripts/AheG9p_JXVw.txt`
 
 ## Synthesis
