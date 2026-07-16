@@ -110,6 +110,11 @@
     "path": "wiki/resources/worldsfair-phrase-word-cloud.md"
   },
   {
+    "id": "youtube--CnA2lGfymY",
+    "title": "\\\"I've never seen anything scarier than an LLM with tool calls.\\\" — Erik Meijer aka @HeadinTheBox",
+    "path": "wiki/resources/youtube--CnA2lGfymY.md"
+  },
+  {
     "id": "youtube--TiET_K-E_g",
     "title": "From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google",
     "path": "wiki/resources/youtube--TiET_K-E_g.md"
@@ -268,6 +273,11 @@
     "id": "youtube-APh1Vx0oLmQ",
     "title": "Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs",
     "path": "wiki/resources/youtube-APh1Vx0oLmQ.md"
+  },
+  {
+    "id": "youtube-APqXGyCoGW4",
+    "title": "Forward Deployed Engineering at Cursor — Pauline Brunet",
+    "path": "wiki/resources/youtube-APqXGyCoGW4.md"
   },
   {
     "id": "youtube-AheG9p_JXVw",
@@ -580,6 +590,11 @@
     "path": "wiki/resources/youtube-QuuIywMG4s8.md"
   },
   {
+    "id": "youtube-RGSFUqzqErE",
+    "title": "On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft",
+    "path": "wiki/resources/youtube-RGSFUqzqErE.md"
+  },
+  {
     "id": "youtube-Rx8f05JI_WA",
     "title": "SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI",
     "path": "wiki/resources/youtube-Rx8f05JI_WA.md"
@@ -698,6 +713,11 @@
     "id": "youtube-YYH0DMQr30A",
     "title": "Task Fidelity Scaling Laws — Kobie Crawdord, Snorkel",
     "path": "wiki/resources/youtube-YYH0DMQr30A.md"
+  },
+  {
+    "id": "youtube-YZQsWVeN3rE",
+    "title": "Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
+    "path": "wiki/resources/youtube-YZQsWVeN3rE.md"
   },
   {
     "id": "youtube-Ywl4LsvHKzU",
@@ -980,6 +1000,11 @@
     "path": "wiki/resources/youtube-mQ7_Zje7WKE.md"
   },
   {
+    "id": "youtube-n97BCfyFIvw",
+    "title": "\\\"The engineer of the future is the person who is able to choose what is worth doing.\\\" — Addy Osmani",
+    "path": "wiki/resources/youtube-n97BCfyFIvw.md"
+  },
+  {
     "id": "youtube-o-zkvb0iFDQ",
     "title": "MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps",
     "path": "wiki/resources/youtube-o-zkvb0iFDQ.md"
@@ -1083,6 +1108,11 @@
     "id": "youtube-u3NofYYstaY",
     "title": "Cohere for VPs of AI: Vivek Muppalla",
     "path": "wiki/resources/youtube-u3NofYYstaY.md"
+  },
+  {
+    "id": "youtube-uIiA6DquRiE",
+    "title": "Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth",
+    "path": "wiki/resources/youtube-uIiA6DquRiE.md"
   },
   {
     "id": "youtube-uiP88SpCi1Q",

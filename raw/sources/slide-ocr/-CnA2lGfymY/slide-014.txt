@@ -1,0 +1,12 @@
+World's Fair ea
+def IsSafeExpr i
+
+(q : Question) “
+
+(v : IsProper q) Be
+
+: Prop
+a a
+ane nn |
+i In Code They Act, In Proof We Trust
+Erik Meijer Leibniz Labs

@@ -34,6 +34,8 @@ A couple of years ago, everyone worried about AI hallucinating. We rarely hear t
 ## Media Evidence
 No related AI Engineer channel video found yet.
 
+- [[youtube-YZQsWVeN3rE-transcript]] — full cached transcript markdown for the related YouTube source.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
@@ -61,18 +63,33 @@ No official session recording transcript was found by exact title match on the A
 
 ## Synthesis
 ### Synthesized Breakdown
-# How Juries and Librarians Can Solve GTM's AI Trust Problem ## Conference Context - Date/time: 2026-07-01 · 1:30pm-1:50pm - Track/room: AI in GTM · Track 6 - Speaker(s): Alex Bauer - Session type/status: session · confirmed - Track: AI in GTM - Room: Track 6 - Session type: session - Status: confirmed ## Session Description A couple of years ago, everyone worried about AI hallucinating. We rarely hear that word anymore, but it’s just because the problem grew up. Today, your AI still doesn’t know how to say “I’m not sure.” Instead, it hands you a revenue number that’s wrong in ways that look exactly like being right. The good news is we already solved this once, for people: you onboard a new hire so they understand your business; you put subjective, high-stakes calls in front of more than one set of eyes.
+Well, hopefully this is the one talk that's different from all the others today. So, let's start with audience participation. Who here has kids? Oh.
 
 ### Speaker And Company Context
 - No speaker profile is attached in the official schedule data.
 
 ### Topics Covered
 - [[agent-security]]
+- [[agentic-search]]
+- [[agentic-web]]
+- [[coding-agents]]
+- [[mcp]]
 
 ### Derived Links And Source Material
+- [[youtube-YZQsWVeN3rE-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/YZQsWVeN3rE.txt` (2,901 words).
+- [[youtube-YZQsWVeN3rE]] — related YouTube source page.
+- [[youtube-YZQsWVeN3rE-slides]] — slide evidence.
 
 ### Novel Concepts / Clever Methods
-- No highlighted novel concept has been detected yet.
+- [[agent-ready-accessibility|Agent-Ready Accessibility]] — Designing for agents and designing for accessibility converge around explicit structure, reachable controls, and understandable state.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Official YouTube Recording
+- [[youtube-YZQsWVeN3rE]] — official AI Engineer YouTube channel recording published 2026-07-11.
+- Evidence status: [[youtube-YZQsWVeN3rE-transcript]]; [[youtube-YZQsWVeN3rE-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
+
+## Supporting Slides
+- [[youtube-YZQsWVeN3rE-slides]] — extracted from the related public AI Engineer video.

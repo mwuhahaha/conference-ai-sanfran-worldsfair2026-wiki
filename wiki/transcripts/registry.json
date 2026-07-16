@@ -1,5 +1,13 @@
 [
   {
+    "id": "youtube--CnA2lGfymY-transcript",
+    "title": "Transcript: \"I've never seen anything scarier than an LLM with tool calls.\" — Erik Meijer aka @HeadinTheBox",
+    "path": "wiki/transcripts/youtube--CnA2lGfymY-transcript.md",
+    "videoId": "-CnA2lGfymY",
+    "wordCount": 3148,
+    "sourceLabel": "YouTube transcript"
+  },
+  {
     "id": "youtube--x5GEVnkuRw-transcript",
     "title": "Transcript: Structuring the Unstructured - Cedric Clyburn, Red Hat",
     "path": "wiki/transcripts/youtube--x5GEVnkuRw-transcript.md",
@@ -17,7 +25,7 @@
   },
   {
     "id": "youtube-0vphxNt4wyk-transcript",
-    "title": "Transcript: 0Vphxnt4Wyk",
+    "title": "Transcript: Don't Ship Skills Without Evals",
     "path": "wiki/transcripts/youtube-0vphxNt4wyk-transcript.md",
     "videoId": "0vphxNt4wyk",
     "wordCount": 3965,
@@ -97,7 +105,7 @@
   },
   {
     "id": "youtube-8G_1-3IO4ZQ-transcript",
-    "title": "Transcript: 8G 1 3Io4Zq",
+    "title": "Transcript: WTF Is the Context Layer?",
     "path": "wiki/transcripts/youtube-8G_1-3IO4ZQ-transcript.md",
     "videoId": "8G_1-3IO4ZQ",
     "wordCount": 3420,
@@ -105,10 +113,18 @@
   },
   {
     "id": "youtube-9fubhllmsBU-transcript",
-    "title": "Transcript: Field Guide to Fable — Thariq Shihipar, Anthropic",
+    "title": "Transcript: Field Guide to Fable",
     "path": "wiki/transcripts/youtube-9fubhllmsBU-transcript.md",
     "videoId": "9fubhllmsBU",
     "wordCount": 3542,
+    "sourceLabel": "YouTube transcript"
+  },
+  {
+    "id": "youtube-APqXGyCoGW4-transcript",
+    "title": "Transcript: Forward Deployed Engineering at Cursor — Pauline Brunet",
+    "path": "wiki/transcripts/youtube-APqXGyCoGW4-transcript.md",
+    "videoId": "APqXGyCoGW4",
+    "wordCount": 3956,
     "sourceLabel": "YouTube transcript"
   },
   {
@@ -273,7 +289,7 @@
   },
   {
     "id": "youtube-KB41dTlX1Uc-transcript",
-    "title": "Transcript: Kb41Dtlx1Uc",
+    "title": "Transcript: State of the Union: Why Local, Why Now",
     "path": "wiki/transcripts/youtube-KB41dTlX1Uc-transcript.md",
     "videoId": "KB41dTlX1Uc",
     "wordCount": 9219,
@@ -409,7 +425,7 @@
   },
   {
     "id": "youtube-V-EDrhIhHzQ-transcript",
-    "title": "Transcript: V Edrhihhzq",
+    "title": "Transcript: The Prime Intellect Stack",
     "path": "wiki/transcripts/youtube-V-EDrhIhHzQ-transcript.md",
     "videoId": "V-EDrhIhHzQ",
     "wordCount": 10228,
@@ -417,7 +433,7 @@
   },
   {
     "id": "youtube-WkBPX-oDMnA-transcript",
-    "title": "Transcript: Wkbpx Odmna",
+    "title": "Transcript: Understanding is the new bottleneck",
     "path": "wiki/transcripts/youtube-WkBPX-oDMnA-transcript.md",
     "videoId": "WkBPX-oDMnA",
     "wordCount": 3765,
@@ -448,6 +464,14 @@
     "sourceLabel": "YouTube transcript"
   },
   {
+    "id": "youtube-YZQsWVeN3rE-transcript",
+    "title": "Transcript: Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
+    "path": "wiki/transcripts/youtube-YZQsWVeN3rE-transcript.md",
+    "videoId": "YZQsWVeN3rE",
+    "wordCount": 2901,
+    "sourceLabel": "YouTube transcript"
+  },
+  {
     "id": "youtube-ZD9-4fW2HhM-transcript",
     "title": "Transcript: Build Systems, Not Code - Angie Jones, Agentic AI Foundation",
     "path": "wiki/transcripts/youtube-ZD9-4fW2HhM-transcript.md",
@@ -457,7 +481,7 @@
   },
   {
     "id": "youtube-ZSQb5fzRFPw-transcript",
-    "title": "Transcript: Zsqb5Fzrfpw",
+    "title": "Transcript: Computer-Use 2.0: Agents Just Got Multi-Cursor",
     "path": "wiki/transcripts/youtube-ZSQb5fzRFPw-transcript.md",
     "videoId": "ZSQb5fzRFPw",
     "wordCount": 2617,
@@ -465,7 +489,7 @@
   },
   {
     "id": "youtube-ZpK5PWX2YRM-transcript",
-    "title": "Transcript: Zpk5Pwx2Yrm",
+    "title": "Transcript: Should AI Engineers Still Read Code in 2026?",
     "path": "wiki/transcripts/youtube-ZpK5PWX2YRM-transcript.md",
     "videoId": "ZpK5PWX2YRM",
     "wordCount": 3931,
@@ -672,8 +696,16 @@
     "sourceLabel": "YouTube transcript"
   },
   {
+    "id": "youtube-n97BCfyFIvw-transcript",
+    "title": "Transcript: \"The engineer of the future is the person who is able to choose what is worth doing.\" — Addy Osmani",
+    "path": "wiki/transcripts/youtube-n97BCfyFIvw-transcript.md",
+    "videoId": "n97BCfyFIvw",
+    "wordCount": 3068,
+    "sourceLabel": "YouTube transcript"
+  },
+  {
     "id": "youtube-o-zkvb0iFDQ-transcript",
-    "title": "Transcript: MCP UI: Extending the frontier — Liad Yosef and Ido Salomon, MCP Apps",
+    "title": "Transcript: MCP UI: Extending the frontier",
     "path": "wiki/transcripts/youtube-o-zkvb0iFDQ-transcript.md",
     "videoId": "o-zkvb0iFDQ",
     "wordCount": 3969,
@@ -681,7 +713,7 @@
   },
   {
     "id": "youtube-pMggiOb18tc-transcript",
-    "title": "Transcript: The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
+    "title": "Transcript: The Golden Age of AI Engineering",
     "path": "wiki/transcripts/youtube-pMggiOb18tc-transcript.md",
     "videoId": "pMggiOb18tc",
     "wordCount": 4606,
@@ -705,7 +737,7 @@
   },
   {
     "id": "youtube-q4Tr-DknG2M-transcript",
-    "title": "Transcript: Q4Tr Dkng2M",
+    "title": "Transcript: Recursive Model Improvement",
     "path": "wiki/transcripts/youtube-q4Tr-DknG2M-transcript.md",
     "videoId": "q4Tr-DknG2M",
     "wordCount": 4039,
@@ -841,7 +873,7 @@
   },
   {
     "id": "youtube-4sX_He5c4sI-transcript",
-    "title": "Transcript: 4Sx He5C4Si",
+    "title": "Transcript: WF2026: Autoresearch & Keynotes",
     "path": "wiki/transcripts/youtube-4sX_He5c4sI-transcript.md",
     "videoId": "4sX_He5c4sI",
     "wordCount": 82600,
@@ -849,7 +881,7 @@
   },
   {
     "id": "youtube-I2cbIws9j10-transcript",
-    "title": "Transcript: I2Cbiws9J10",
+    "title": "Transcript: WF26: Harness Engineering & Startup Battlefield",
     "path": "wiki/transcripts/youtube-I2cbIws9j10-transcript.md",
     "videoId": "I2cbIws9j10",
     "wordCount": 91792,
@@ -857,7 +889,7 @@
   },
   {
     "id": "youtube-htM02KMNZnk-transcript",
-    "title": "Transcript: Htm02Kmnznk",
+    "title": "Transcript: WF2026: Software Factories & Keynotes",
     "path": "wiki/transcripts/youtube-htM02KMNZnk-transcript.md",
     "videoId": "htM02KMNZnk",
     "wordCount": 89050,

@@ -30,6 +30,8 @@ AI agents today execute on blind trust, and the failure modes are already in the
 ## Media Evidence
 No related AI Engineer channel video found yet.
 
+- [[youtube--CnA2lGfymY-transcript]] — full cached transcript markdown for the related YouTube source.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
@@ -50,7 +52,7 @@ No official session recording transcript was found by exact title match on the A
 
 ## Synthesis
 ### Synthesized Breakdown
-# In Code They Act, In Proof We Trust ## Conference Context - Date/time: 2026-06-29 · 4:50pm-5:10pm - Track/room: Harness Engineering · Main Stage - Speaker(s): Erik Meijer - Session type/status: keynote · confirmed - Track: Harness Engineering - Room: Main Stage - Session type: keynote - Status: confirmed ## Session Description AI agents today execute on blind trust, and the failure modes are already in the headlines: a dealership chatbot agreeing to sell a $76,000 Chevy Tahoe for $1, a coding agent wiping a production database during a code freeze, an "agent skill" quietly installing a keylogger on a developer's machine. These are not edge cases. They are the predictable consequence of allowing agents to act without any mechanical guarantee of correctness or safety. Execution is irreversible.
+Please welcome to the stage the research scholar at Linet's Labs, Eric Meyer. Well, um, can you go back one slide? Sorry. All right.
 
 ### Speaker And Company Context
 - [[erik-meijer|Erik Meijer]] — Research Scholar at [[leibniz-labs|Leibniz Labs]].
@@ -62,9 +64,19 @@ No official session recording transcript was found by exact title match on the A
 - [[coding-agents]]
 
 ### Derived Links And Source Material
+- [[youtube--CnA2lGfymY-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/-CnA2lGfymY.txt` (3,148 words).
+- [[youtube--CnA2lGfymY]] — related YouTube source page.
 
 ### Novel Concepts / Clever Methods
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Official YouTube Recording
+- [[youtube--CnA2lGfymY]] — official AI Engineer YouTube channel recording published 2026-07-13.
+- Evidence status: [[youtube--CnA2lGfymY-transcript]]; [[youtube--CnA2lGfymY-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
+
+## Supporting Slides
+- [[youtube--CnA2lGfymY-slides]] — extracted from the related public AI Engineer video.

@@ -1,0 +1,22 @@
+def isSafeDomain (target : String) : Bool :=
+Miter ere: target.endsWith "@valleysharks.com”
+World's Fair Mad $= inductive TT where
+nn, ar |safePure ; IsSafeExpr (Expr. pureValue val)
+a oe | safeFetch ; IsSafeExpr Expe.fetchEmails
+C cael | safeSend_ : (to : String) -- (body : String) --
+. ae (isSafeDomain to = true) —-
+ar rN es IsSafeExpr (Expr.sendEmail to body)
+: ; | safeBind : IsSafeExpr first — (v x. lsSafeExpr (next x)) +
+isSafeExpr (Expr. bindAction first next)
+def interpret (expr : Expr 10 a)
+(proof : IsSafeExpr q expr) 10 a :=
+match expr with
+7 — eee | Expr.pureValue val => pure val
+a A ge | Expr.fetchEmails => realWorldFetchEmails ()
+; a \ | Expr.sendEmail to Address bodyContent =>
+a : = tealWorldSendEmail toAddress bodyContent
+3 a | Expr.bindAction firstAction nextAction => do
+“a fot let result — interpret firstAction (proveFirstSubGoal proof)
+: oe . interpret (nextAction result) (proveNextSubGoal proof result)
+- InCode They Act, In Proof We Trust
+_. Erik Meijer Leibniz Labs

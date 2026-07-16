@@ -35,6 +35,7 @@ STATE_DIR = ROOT / ".ops" / "state" / "youtube-monitor"
 STATUS_JSON = STATE_DIR / "status.json"
 STATUS_HTML = STATE_DIR / "status.html"
 RSS_SNAPSHOT = RAW / "official-youtube-rss-latest.json"
+OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
 CHANNEL_ID = "UCLKPca3kwwd-B59HNr-_lvA"
 CHANNEL_RSS = f"https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL_ID}"
 OFFICIAL_CHANNEL = "AI Engineer"
@@ -47,6 +48,10 @@ class VideoEntry:
     published: str
     updated: str
     url: str
+    description: str = ""
+    live_status: str = ""
+    release_date: str = ""
+    has_english_captions: bool = False
 
     @property
     def published_date(self) -> date:
@@ -164,15 +169,43 @@ def slides_path(video_id: str) -> Path:
     return WIKI / "slides" / f"youtube-{video_id}-slides.md"
 
 
+def frontmatter_speaker_names(text: str) -> list[str]:
+    match = re.search(r"^speakers:[ \t]*(.*)$", text, re.M)
+    if not match:
+        return []
+    inline = match.group(1).strip()
+    if inline:
+        return parse_speaker_names(inline)
+    tail = text[match.end() :]
+    names: list[str] = []
+    for line in tail.splitlines():
+        item = re.match(r"^[ \t]+-[ \t]+(.+?)\s*$", line)
+        if item:
+            names.append(item.group(1).strip().strip('"\''))
+            continue
+        if line.strip():
+            break
+    return names
+
+
 def read_talk_pages() -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     for path in sorted((WIKI / "talks").glob("*.md")):
         text = path.read_text(encoding="utf-8", errors="ignore")
         title_match = re.search(r'^title:\s*"?(.+?)"?\s*$', text, re.M)
-        speakers_match = re.search(r"^speakers:\s*(.+?)\s*$", text, re.M)
+        description_match = re.search(r"^## Session Description\n(.*?)(?=^## |\Z)", text, re.M | re.S)
         title = title_match.group(1).strip().strip('"') if title_match else path.stem.replace("-", " ").title()
-        speakers = speakers_match.group(1) if speakers_match else ""
-        rows.append({"id": path.stem, "path": str(path), "title": title, "speakers": speakers, "text": text})
+        speakers = json.dumps(frontmatter_speaker_names(text), ensure_ascii=False)
+        rows.append(
+            {
+                "id": path.stem,
+                "path": str(path),
+                "title": title,
+                "speakers": speakers,
+                "description": description_match.group(1).strip() if description_match else "",
+                "text": text,
+            }
+        )
     return rows
 
 
@@ -209,13 +242,242 @@ def match_talks(video: VideoEntry, talks: list[dict[str, str]]) -> list[dict[str
 
 def explicit_wf26_event_title(video: VideoEntry) -> bool:
     title = video.title.lower()
-    if "wf26" in title or "wf2026" in title:
+    if re.search(r"\b(?:wf26|wf2026)\s*:", title):
         return True
-    if "world" in title and "fair" in title and "2026" in title:
-        return True
-    if "worldsfair" in title and "2026" in title:
-        return True
+    if ("world" in title and "fair" in title and "2026" in title) or ("worldsfair" in title and "2026" in title):
+        return any(marker in title for marker in ("livestream", "keynote", "talk", "session", "workshop", "recording"))
     return False
+
+
+def parse_speaker_names(value: str) -> list[str]:
+    try:
+        parsed = json.loads(value)
+    except (json.JSONDecodeError, TypeError):
+        parsed = []
+    if isinstance(parsed, list):
+        return [str(item).strip() for item in parsed if str(item).strip()]
+    return []
+
+
+def normalize_evidence_text(value: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", value.lower())).strip()
+
+
+def phrase_present(phrase: str, blob: str) -> bool:
+    return bool(phrase) and f" {phrase} " in f" {blob} "
+
+
+def verified_schedule_matches(video: VideoEntry, talks: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Match rewritten official-channel titles using schedule text, not popularity signals."""
+    strict = strict_schedule_matches(video, talks)
+    matched = {talk["id"]: talk for talk in strict}
+    evidence_blob = normalize_evidence_text(f"{video.title}\n{video.description}")
+    description_blob = normalize_evidence_text(video.description)
+    for talk in talks:
+        if talk["id"] in matched:
+            continue
+        speaker_names = parse_speaker_names(talk.get("speakers", ""))
+        if not any(phrase_present(normalize_evidence_text(name), evidence_blob) for name in speaker_names):
+            continue
+        title_phrase = normalize_evidence_text(talk["title"])
+        schedule_description = normalize_evidence_text(talk.get("description", ""))
+        title_signal = len(title_phrase) >= 12 and phrase_present(title_phrase, evidence_blob)
+        description_signal = len(schedule_description) >= 120 and schedule_description[:120] in description_blob
+        if title_signal or description_signal:
+            matched[talk["id"]] = talk
+    return sorted(matched.values(), key=lambda item: item["title"])
+
+
+def yt_dlp_binary() -> str:
+    command = shutil.which("yt-dlp")
+    if command:
+        return command
+    local = Path.home() / ".local" / "bin" / "yt-dlp"
+    return str(local) if local.exists() else "yt-dlp"
+
+
+def video_entry_from_metadata(payload: dict[str, object]) -> VideoEntry:
+    upload_date = str(payload.get("upload_date") or payload.get("release_date") or "")
+    if not re.fullmatch(r"\d{8}", upload_date):
+        raise ValueError(f"video metadata has no usable upload/release date: {payload.get('id')}")
+    published_date = datetime.strptime(upload_date, "%Y%m%d").date().isoformat()
+    release_raw = str(payload.get("release_date") or "")
+    release_date = datetime.strptime(release_raw, "%Y%m%d").date().isoformat() if re.fullmatch(r"\d{8}", release_raw) else ""
+    languages = set((payload.get("subtitles") or {}).keys()) | set((payload.get("automatic_captions") or {}).keys())
+    video_id = str(payload.get("id") or "")
+    return VideoEntry(
+        video_id=video_id,
+        title=str(payload.get("title") or video_id),
+        published=f"{published_date}T00:00:00+00:00",
+        updated=f"{published_date}T00:00:00+00:00",
+        url=str(payload.get("webpage_url") or f"https://www.youtube.com/watch?v={video_id}"),
+        description=str(payload.get("description") or ""),
+        live_status=str(payload.get("live_status") or ""),
+        release_date=release_date,
+        has_english_captions=any(lang == "en" or lang.startswith("en-") for lang in languages),
+    )
+
+
+def fetch_video_metadata(video_id: str) -> VideoEntry:
+    cp = subprocess.run(
+        [
+            yt_dlp_binary(),
+            "--skip-download",
+            "--ignore-no-formats-error",
+            "--no-warnings",
+            "--dump-single-json",
+            f"https://www.youtube.com/watch?v={video_id}",
+        ],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        timeout=180,
+    )
+    if cp.returncode != 0:
+        raise RuntimeError(f"yt-dlp metadata failed for {video_id}: {(cp.stderr or cp.stdout)[-1200:]}")
+    payload = json.loads(cp.stdout)
+    if not isinstance(payload, dict):
+        raise RuntimeError(f"yt-dlp returned no metadata for {video_id}")
+    return video_entry_from_metadata(payload)
+
+
+def manifest_video_ids() -> set[str]:
+    payload = load_json(OFFICIAL_VIDEO_MANIFEST, {})
+    if not isinstance(payload, dict):
+        return set()
+    return {str(item.get("id")) for item in payload.get("videos", []) if isinstance(item, dict) and item.get("id")}
+
+
+def scheduled_manifest_video_ids() -> set[str]:
+    payload = load_json(OFFICIAL_VIDEO_MANIFEST, {})
+    if not isinstance(payload, dict):
+        return set()
+    return {
+        str(item.get("id"))
+        for item in payload.get("videos", [])
+        if isinstance(item, dict)
+        and item.get("id")
+        and item.get("mediaType") == "scheduled_premiere"
+    }
+
+
+def pending_manifest_video_ids() -> set[str]:
+    payload = load_json(OFFICIAL_VIDEO_MANIFEST, {})
+    if not isinstance(payload, dict):
+        return set()
+    return {
+        str(item.get("id"))
+        for item in payload.get("videos", [])
+        if isinstance(item, dict)
+        and item.get("id")
+        and (item.get("mediaType") == "scheduled_premiere" or item.get("transcriptStatus") == "pending")
+    }
+
+
+def discover_recent_channel_event_rows(
+    talks: list[dict[str, str]], *, limit: int = 100
+) -> tuple[list[tuple[VideoEntry, list[dict[str, str]]]], dict[str, object]]:
+    """Inspect recent official-channel titles, fetching details only for roster candidates."""
+    cp = subprocess.run(
+        [
+            yt_dlp_binary(),
+            "--flat-playlist",
+            "--playlist-end",
+            str(limit),
+            "--dump-single-json",
+            "https://www.youtube.com/@aiDotEngineer/videos",
+        ],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        timeout=300,
+    )
+    if cp.returncode != 0:
+        return [], {"status": "channel_scan_failed", "error": (cp.stderr or cp.stdout)[-1200:]}
+    payload = json.loads(cp.stdout)
+    if not isinstance(payload, dict) or payload.get("channel_id") != CHANNEL_ID:
+        return [], {"status": "channel_identity_mismatch"}
+
+    known_ids = manifest_video_ids()
+    pending_ids = pending_manifest_video_ids()
+    speaker_phrases = {
+        normalize_evidence_text(name)
+        for talk in talks
+        for name in parse_speaker_names(talk.get("speakers", ""))
+        if name
+    }
+    rows: list[tuple[VideoEntry, list[dict[str, str]]]] = []
+    metadata_errors: list[dict[str, str]] = []
+    candidates = 0
+    for item in payload.get("entries", []):
+        if not isinstance(item, dict) or not item.get("id"):
+            continue
+        if item.get("id") in known_ids and item.get("id") not in pending_ids:
+            continue
+        lightweight = VideoEntry(
+            video_id=str(item["id"]),
+            title=str(item.get("title") or item["id"]),
+            published="1970-01-01T00:00:00+00:00",
+            updated="1970-01-01T00:00:00+00:00",
+            url=str(item.get("url") or f"https://www.youtube.com/watch?v={item['id']}"),
+        )
+        title_blob = normalize_evidence_text(lightweight.title)
+        roster_candidate = any(phrase_present(phrase, title_blob) for phrase in speaker_phrases)
+        if not roster_candidate and not strict_schedule_matches(lightweight, talks):
+            continue
+        candidates += 1
+        try:
+            video = fetch_video_metadata(lightweight.video_id)
+        except Exception as exc:
+            metadata_errors.append({"id": lightweight.video_id, "error": str(exc)})
+            continue
+        matched = verified_schedule_matches(video, talks)
+        if matched:
+            rows.append((video, matched))
+    return rows, {
+        "status": "ok",
+        "scanned": min(limit, len(payload.get("entries", []))),
+        "metadata_candidates": candidates,
+        "verified_event_videos": len(rows),
+        "metadata_errors": metadata_errors,
+    }
+
+
+def update_official_video_manifest(rows: list[tuple[VideoEntry, list[dict[str, str]]]]) -> bool:
+    payload = load_json(OFFICIAL_VIDEO_MANIFEST, {})
+    if not isinstance(payload, dict):
+        payload = {}
+    videos = {
+        str(item.get("id")): item
+        for item in payload.get("videos", [])
+        if isinstance(item, dict) and item.get("id")
+    }
+    changed = False
+    for video, matched in rows:
+        entry = {
+            "id": video.video_id,
+            "title": video.title,
+            "mediaType": "scheduled_premiere" if video.live_status == "is_upcoming" else "talk_recording",
+            "associationEvidence": "official_channel_plus_schedule_text",
+            "matchedTalks": [talk["id"] for talk in matched],
+            "uploadDate": video.published_date.isoformat(),
+            "releaseDate": video.release_date,
+            "transcriptStatus": "available_on_youtube" if video.has_english_captions else "pending",
+        }
+        if videos.get(video.video_id) != entry:
+            videos[video.video_id] = entry
+            changed = True
+    if not changed:
+        return False
+    payload.update(
+        {
+            "schemaVersion": 1,
+            "sourceBoundary": "Only official AI Engineer channel media independently associated with the WF2026 schedule is primary event video evidence.",
+            "videos": sorted(videos.values(), key=lambda item: (str(item.get("uploadDate", "")), str(item.get("id", "")))),
+        }
+    )
+    write_json(OFFICIAL_VIDEO_MANIFEST, payload)
+    return True
 
 
 def excluded_non_wf26_event_title(video: VideoEntry) -> bool:
@@ -299,13 +561,20 @@ def write_resource_page(video: VideoEntry, matched_talks: list[dict[str, str]], 
         else f"Transcript import status: {transcript_status}."
     )
     slide_line = f"- [[youtube-{video.video_id}-slides]]" if slides_path(video.video_id).exists() else f"- Slide extraction status: {slide_status}."
+    upcoming = video.live_status == "is_upcoming"
+    media_description = (
+        "A scheduled official AI Engineer YouTube premiere independently matched to an AI Engineer World's Fair San Francisco 2026 session. The page records the pending media source now; transcript and slide evidence remain unavailable until the premiere is playable."
+        if upcoming
+        else "An official AI Engineer YouTube recording independently matched to an AI Engineer World's Fair San Francisco 2026 session. Official schedule pages remain canonical for schedule metadata."
+    )
+    release_line = f"- Scheduled premiere date: {video.release_date}." if upcoming and video.release_date else ""
     text = "\n".join(
         [
             frontmatter(
                 {
                     "title": video.title,
                     "category": "resources",
-                    "sourceLabels": ["Official AI Engineer YouTube channel", "Public YouTube RSS metadata"],
+                    "sourceLabels": ["Official AI Engineer YouTube channel", "Official-channel video metadata"],
                     "videoId": video.video_id,
                     "publishedDate": video.published_date.isoformat(),
                     "last_enriched": datetime.now(timezone.utc).isoformat(),
@@ -314,11 +583,12 @@ def write_resource_page(video: VideoEntry, matched_talks: list[dict[str, str]], 
             f"# {video.title}",
             "",
             "## What It Is",
-            "An official AI Engineer YouTube video detected by the World's Fair 2026 monitor and admitted only after the title or strict schedule match identified it as AI Engineer World's Fair San Francisco 2026 event media. Official schedule pages remain canonical for schedule metadata.",
+            media_description,
             "",
             "## Source Classification",
             "- Source role: primary event video source for AI Engineer World's Fair San Francisco 2026.",
             f"- Published date: {video.published_date.isoformat()}",
+            release_line,
             f"- Channel/source: {OFFICIAL_CHANNEL}.",
             "- Use: use as media/transcript/slide evidence for the event recording; keep schedule facts tied to the official schedule pages.",
             "",
@@ -351,9 +621,14 @@ def update_talk_pages(video: VideoEntry, matched_talks: list[dict[str, str]]) ->
     if slides_path(video.video_id).exists():
         transcript_bits.append(f"[[youtube-{video.video_id}-slides]]")
     evidence = "; ".join(transcript_bits) if transcript_bits else "transcript/slide enrichment pending"
+    media_line = (
+        f"- [[youtube-{video.video_id}]] — scheduled official AI Engineer YouTube premiere for {video.release_date or 'a pending date'}."
+        if video.live_status == "is_upcoming"
+        else f"- [[youtube-{video.video_id}]] — official AI Engineer YouTube channel recording published {video.published_date.isoformat()}."
+    )
     body = "\n".join(
         [
-            f"- [[youtube-{video.video_id}]] — official AI Engineer YouTube channel recording published {video.published_date.isoformat()}.",
+            media_line,
             f"- Evidence status: {evidence}.",
             "- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.",
         ]
@@ -396,6 +671,8 @@ def vtt_to_text(path: Path) -> str:
 def try_import_captions(video: VideoEntry) -> dict[str, object]:
     if transcript_path(video.video_id).exists():
         return {"status": "already_cached", "path": str(transcript_path(video.video_id).relative_to(ROOT))}
+    if video.live_status == "is_upcoming":
+        return {"status": "pending_premiere", "release_date": video.release_date}
     subtitle_dir = RAW / "youtube-subtitles"
     subtitle_dir.mkdir(parents=True, exist_ok=True)
     before = set(subtitle_dir.glob(f"{video.video_id}*.vtt"))
@@ -480,11 +757,16 @@ def try_extract_slides(video: VideoEntry, matched_talks: list[dict[str, str]], *
         return {"status": "already_extracted", "path": str(slides_path(video.video_id).relative_to(ROOT))}
     if not enabled:
         return {"status": "skipped_by_configuration"}
-    cmd = [sys.executable, "scripts/extract_video_slides.py", "--scene-detect", "--video-id", video.video_id, "--max-slides", "32"]
-    cp = run(cmd, timeout=1500)
-    if cp.returncode != 0:
-        return {"status": "slide_extraction_failed", "error": (cp.stderr or cp.stdout)[-1600:]}
-    return {"status": "slide_extraction_ran", "path": str(slides_path(video.video_id).relative_to(ROOT)) if slides_path(video.video_id).exists() else ""}
+    if video.live_status == "is_upcoming":
+        return {"status": "pending_premiere", "release_date": video.release_date}
+    cmd = [sys.executable, "scripts/extract_video_slides.py", "--scene-detect", f"--video-id={video.video_id}", "--max-slides", "32"]
+    outputs: list[str] = []
+    for _attempt in range(2):
+        cp = run(cmd, timeout=1500)
+        outputs.append((cp.stderr or cp.stdout)[-1600:])
+        if slides_path(video.video_id).exists():
+            return {"status": "slide_extraction_ran", "path": str(slides_path(video.video_id).relative_to(ROOT))}
+    return {"status": "slide_extraction_failed", "error": "\n".join(outputs)[-2400:]}
 
 
 def update_channel_snapshot(entries: list[VideoEntry]) -> bool:
@@ -516,22 +798,23 @@ def update_channel_snapshot(entries: list[VideoEntry]) -> bool:
     return True
 
 
-def run_enrichment(imported_transcripts: int) -> list[dict[str, object]]:
+def run_enrichment(imported_transcripts: int, video_ids: list[str]) -> list[dict[str, object]]:
     commands: list[list[str]] = []
     if imported_transcripts:
         commands.extend(
             [
                 [sys.executable, "scripts/generate_transcript_markdown_pages.py"],
-                [sys.executable, "scripts/enrich_from_youtube_transcripts.py"],
                 [sys.executable, "scripts/generate_talk_synthesis.py", "--all"],
-                [sys.executable, "scripts/generate_tool_inventory.py"],
-                [sys.executable, "scripts/generate_question_layer.py"],
-                [sys.executable, "scripts/generate_highlights.py"],
-                [sys.executable, "scripts/generate_synthesis_layers.py"],
             ]
         )
     commands.extend(
         [
+            [
+                sys.executable,
+                "scripts/classify_video_resource_sources.py",
+                "--manifest-only",
+                *(flag for video_id in video_ids for flag in ("--video-id", video_id)),
+            ],
             [sys.executable, "scripts/normalize_article_shapes.py"],
             ["npm", "run", "build"],
         ]
@@ -660,7 +943,14 @@ def main() -> int:
     entries = fetch_rss()
     snapshot_changed = False if args.dry_run else update_channel_snapshot(entries)
     talks = read_talk_pages()
-    event_rows = event_entries(entries, talks)
+    rss_event_rows = event_entries(entries, talks)
+    discovered_rows, discovery = discover_recent_channel_event_rows(talks)
+    combined_rows = {entry.video_id: (entry, matched) for entry, matched in rss_event_rows}
+    combined_rows.update({entry.video_id: (entry, matched) for entry, matched in discovered_rows})
+    event_rows = list(combined_rows.values())
+    scheduled_manifest_ids = scheduled_manifest_video_ids()
+    pending_manifest_ids = pending_manifest_video_ids()
+    manifest_changed = False if args.dry_run else update_official_video_manifest(discovered_rows)
     today = checked_at.date()
     cutoff = today - timedelta(days=6)
     latest_date = max((entry.published_date for entry, _matched in event_rows), default=None)
@@ -672,6 +962,7 @@ def main() -> int:
         "latest_published_date": latest_date.isoformat() if latest_date else "",
         "processed": [],
         "dry_run": args.dry_run,
+        "channel_discovery": discovery,
     }
 
     if latest_date is None or latest_date < cutoff:
@@ -687,11 +978,24 @@ def main() -> int:
         return 0
 
     recent_rows = [(entry, matched) for entry, matched in event_rows if entry.published_date >= cutoff]
-    new_rows = [(entry, matched) for entry, matched in recent_rows if not resource_path(entry.video_id).exists()]
+    process_rows = [
+        (entry, matched)
+        for entry, matched in recent_rows
+        if not resource_path(entry.video_id).exists()
+        or (
+            entry.video_id in scheduled_manifest_ids
+            and entry.live_status != "is_upcoming"
+        )
+        or (
+            entry.video_id in pending_manifest_ids
+            and entry.has_english_captions
+            and not transcript_path(entry.video_id).exists()
+        )
+    ]
     processed: list[dict[str, object]] = []
     transcript_imports = 0
 
-    for entry, matched in new_rows:
+    for entry, matched in process_rows:
         transcript = {"status": "dry_run"}
         slides = {"status": "dry_run"}
         resource_status = "dry_run"
@@ -721,7 +1025,7 @@ def main() -> int:
 
     report["processed"] = processed
     if not args.dry_run:
-        enrichment = run_enrichment(transcript_imports) if new_rows else []
+        enrichment = run_enrichment(transcript_imports, [entry.video_id for entry, _matched in process_rows]) if process_rows else []
         report["enrichment"] = enrichment
         enrichment_failed = any(item.get("returncode") != 0 for item in enrichment)
         if enrichment_failed:
@@ -730,13 +1034,13 @@ def main() -> int:
                     "state": "degraded",
                     "message": "A monitor enrichment command failed; changes were not published and the timer will retry.",
                     "recent_entry_count": len(recent_rows),
-                    "new_entry_count": len(new_rows),
+                    "new_entry_count": len(process_rows),
                 }
             )
             write_status(report)
             return 1
         report["publish"] = maybe_commit_and_push(
-            auto_push and (bool(new_rows) or snapshot_changed),
+            auto_push and (bool(process_rows) or snapshot_changed or manifest_changed),
             "Import new official AI Engineer YouTube videos",
         )
         publish = report["publish"]
@@ -746,7 +1050,7 @@ def main() -> int:
                     "state": "degraded",
                     "message": "Monitor publishing failed; generated changes remain local and the timer will retry.",
                     "recent_entry_count": len(recent_rows),
-                    "new_entry_count": len(new_rows),
+                    "new_entry_count": len(process_rows),
                 }
             )
             write_status(report)
@@ -757,7 +1061,7 @@ def main() -> int:
             "state": "active",
             "message": f"Confirmed AI Engineer World's Fair 2026 event videos are still being published within the last seven calendar dates. Processed {len(processed)} new RSS entries; monitor remains active.",
             "recent_entry_count": len(recent_rows),
-            "new_entry_count": len(new_rows),
+            "new_entry_count": len(process_rows),
         }
     )
     write_status(report)

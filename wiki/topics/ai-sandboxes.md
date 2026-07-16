@@ -389,6 +389,10 @@ This table summarizes the local evidence already linked from this topic. It is a
 - Reproducible agent task environments for evaluations.
 
 ## Slide-Derived Supporting Decks
+- [[youtube--CnA2lGfymY-slides]] — "I've never seen anything scarier than an LLM with tool calls." — Erik Meijer aka @HeadinTheBox (32 extracted slide frames)
 - [[youtube-ZSQb5fzRFPw-slides]] —  (17 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
+## Slide-Derived Scheduled Session Signals
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust

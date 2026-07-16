@@ -81,6 +81,7 @@ The session explains MCP Apps as a way to add interactive UI to MCP-based workfl
 
 ### Derived Links And Source Material
 - [[youtube-htM02KMNZnk-transcript]] — transcript markdown; source cache `raw/sources/youtube-livestream-transcripts/htM02KMNZnk.txt` (89,050 words).
+- [[youtube-RGSFUqzqErE]] — related YouTube source page.
 - [[youtube-htM02KMNZnk]] — related YouTube source page.
 - [[youtube-htM02KMNZnk-slides]] — slide evidence.
 - [[youtube-htM02KMNZnk-reconstructed-slides]] — slide evidence.
@@ -92,3 +93,8 @@ The session explains MCP Apps as a way to add interactive UI to MCP-based workfl
 
 ### Evidence Boundary
 This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Official YouTube Recording
+- [[youtube-RGSFUqzqErE]] — scheduled official AI Engineer YouTube premiere for 2026-07-17.
+- Evidence status: transcript/slide enrichment pending.
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.

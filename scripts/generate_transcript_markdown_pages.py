@@ -19,6 +19,7 @@ TRANSCRIPT_DIRS = [
 VIDEO_CATALOG = RAW / "aidotengineer-channel-videos-latest.json"
 IMPORT_REPORT = RAW / "new-video-import-2026-07-09.json"
 EXTERNAL_DISCOVERY = RAW / "external-video-discovery-latest.json"
+OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
 
 
 def yaml_value(value: object) -> str:
@@ -60,6 +61,11 @@ def load_titles() -> dict[str, str]:
             video = item.get("video") or {}
             if video.get("id") and video.get("title"):
                 titles[video["id"]] = video["title"]
+    if OFFICIAL_VIDEO_MANIFEST.exists():
+        data = json.loads(OFFICIAL_VIDEO_MANIFEST.read_text(encoding="utf-8"))
+        for item in data.get("videos", []):
+            if item.get("id") and item.get("title"):
+                titles[item["id"]] = item["title"]
     return titles
 
 

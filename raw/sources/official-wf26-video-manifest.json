@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "sourceBoundary": "Only official AI Engineer channel media independently associated with the WF2026 schedule is primary event video evidence.",
+  "videos": [
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "0vphxNt4wyk",
+      "mediaType": "talk_recording",
+      "title": "Don't Ship Skills Without Evals"
+    },
+    {
+      "associationEvidence": "explicit_wf26_official_livestream",
+      "id": "4sX_He5c4sI",
+      "mediaType": "event_livestream",
+      "title": "WF2026: Autoresearch & Keynotes"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "8G_1-3IO4ZQ",
+      "mediaType": "talk_recording",
+      "title": "WTF Is the Context Layer?"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "9fubhllmsBU",
+      "mediaType": "talk_recording",
+      "title": "Field Guide to Fable"
+    },
+    {
+      "associationEvidence": "explicit_wf26_official_livestream",
+      "id": "I2cbIws9j10",
+      "mediaType": "event_livestream",
+      "title": "WF26: Harness Engineering & Startup Battlefield"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "KB41dTlX1Uc",
+      "mediaType": "talk_recording",
+      "title": "State of the Union: Why Local, Why Now"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "OqM67QG_Ikk",
+      "mediaType": "talk_recording",
+      "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "V-EDrhIhHzQ",
+      "mediaType": "talk_recording",
+      "title": "The Prime Intellect Stack"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "WkBPX-oDMnA",
+      "mediaType": "talk_recording",
+      "title": "Understanding is the new bottleneck"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "ZSQb5fzRFPw",
+      "mediaType": "talk_recording",
+      "title": "Computer-Use 2.0: Agents Just Got Multi-Cursor"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "ZpK5PWX2YRM",
+      "mediaType": "talk_recording",
+      "title": "Should AI Engineers Still Read Code in 2026?"
+    },
+    {
+      "associationEvidence": "explicit_wf26_official_livestream",
+      "id": "htM02KMNZnk",
+      "mediaType": "event_livestream",
+      "title": "WF2026: Software Factories & Keynotes"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "o-zkvb0iFDQ",
+      "mediaType": "talk_recording",
+      "title": "MCP UI: Extending the frontier"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "pMggiOb18tc",
+      "mediaType": "talk_recording",
+      "title": "The Golden Age of AI Engineering"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "q4Tr-DknG2M",
+      "mediaType": "talk_recording",
+      "title": "Recursive Model Improvement"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "sRpqPgKeXNk",
+      "mediaType": "talk_recording",
+      "title": "Trends Across the AI Frontier"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "RGSFUqzqErE",
+      "matchedTalks": [
+        "2026-06-29-pablo-castro-on-ai-and-knowledge"
+      ],
+      "mediaType": "scheduled_premiere",
+      "releaseDate": "2026-07-17",
+      "title": "On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft",
+      "transcriptStatus": "pending",
+      "uploadDate": "2026-07-11"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "YZQsWVeN3rE",
+      "matchedTalks": [
+        "2026-07-01-alex-bauer-how-juries-and-librarians-can-solve-gtm-s-ai-trust-problem"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "",
+      "title": "Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
+      "transcriptStatus": "available_on_youtube",
+      "uploadDate": "2026-07-11"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "uIiA6DquRiE",
+      "matchedTalks": [
+        "2026-06-29-daniel-han-special-topics-in-kernels-rl-reward-hacking-in-agents"
+      ],
+      "mediaType": "scheduled_premiere",
+      "releaseDate": "2026-07-17",
+      "title": "Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth",
+      "transcriptStatus": "pending",
+      "uploadDate": "2026-07-11"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "-CnA2lGfymY",
+      "matchedTalks": [
+        "2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "",
+      "title": "\"I've never seen anything scarier than an LLM with tool calls.\" — Erik Meijer aka @HeadinTheBox",
+      "transcriptStatus": "available_on_youtube",
+      "uploadDate": "2026-07-13"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "APqXGyCoGW4",
+      "matchedTalks": [
+        "2026-06-29-pauline-brunet-how-forward-deployed-engineering-is-done-at-cursor"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "2026-07-14",
+      "title": "Forward Deployed Engineering at Cursor — Pauline Brunet",
+      "transcriptStatus": "available_on_youtube",
+      "uploadDate": "2026-07-14"
+    },
+    {
+      "associationEvidence": "official_channel_plus_schedule_text",
+      "id": "n97BCfyFIvw",
+      "matchedTalks": [
+        "2026-06-30-addy-osmani-closing-keynote"
+      ],
+      "mediaType": "talk_recording",
+      "releaseDate": "",
+      "title": "\"The engineer of the future is the person who is able to choose what is worth doing.\" — Addy Osmani",
+      "transcriptStatus": "available_on_youtube",
+      "uploadDate": "2026-07-14"
+    }
+  ]
+}

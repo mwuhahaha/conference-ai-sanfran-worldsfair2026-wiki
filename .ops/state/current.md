@@ -2,7 +2,7 @@
 type: orchestration-current
 scope: project-local
 status: active
-updated: 2026-07-16T03:47:25-04:00
+updated: 2026-07-16T04:45:42-04:00
 ---
 
 # AI Engineer World's Fair 2026 Project State
@@ -98,6 +98,13 @@ The project-local official YouTube monitor was hardened in commit `324e0e2c`:
 - the auto-push path refuses to run in a dirty worktree so it cannot commit unrelated operator changes.
 
 The updated user unit was installed and verified at `2026-07-16T07:47:25Z`. The controlled systemd run exited successfully with `state: active`, six recent confirmed WF2026 event entries, zero new entries, and a clean `main` checkout synchronized with `origin/main`. The timer remains enabled on its six-hour cadence.
+
+The official-video ingest was expanded on 2026-07-16 from RSS-only discovery to a bounded scan of the latest 100 official-channel uploads, with exact schedule/speaker evidence required before admission. The durable verified manifest now contains 22 WF26 media items: 19 talk recordings or scheduled premieres and 3 event livestreams. This run added six previously missing official items:
+- Four playable recordings with cached transcripts, transcript pages, slide/OCR pages, resource pages, and talk synthesis: Pauline Brunet, Addy Osmani, Erik Meijer, and Alex Bauer.
+- Two verified scheduled premieres with pending media status: Daniel Han and Pablo Castro. The monitor now revisits manifest premieres and imports captions/slides after they become playable instead of permanently skipping known IDs.
+- Three older official recordings that had been treated as supporting context were corrected to primary WF26 event-video status after schedule verification.
+
+Validation at `2026-07-16T08:44:32Z`: the live 100-video scan found no additional unprocessed verified WF26 uploads, all 43 tests passed, and the static export completed with 2,408 pages.
 
 ## Next Step
 

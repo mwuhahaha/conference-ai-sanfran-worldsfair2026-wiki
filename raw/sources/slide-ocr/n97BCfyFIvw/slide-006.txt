@@ -1,0 +1,23 @@
+a Boris Cherny @ Or
+Are @dcherny
+D H As engineering, product, design, DS, etc. melt Into a new kind of role, |
+World s Fair was reflecting on what roles might look like in the future. For example,
+when | look at the Claude Code team | see what I think is five archetypes:
+1. Prototyper: comes up with brand new ideas; chums out many ideas,
+most of which don't ship
+F 2. Bullder: quickly turns a prototype/idea into production-grade
+product/infra
+i 5 3. Sweeper: cleans up the Ul, simplifies the code and system, unships,
+T | M Icros revat optimizes performance
+4. Grower: takes a product that has been built and iterates on it to
+improve Product-Market Fit
+5. Maintainer: owns a mature system to make it secure, reliable, fast,
+and efficient as it scales
+Many people span across 2 roles, and sometimes 3 roles. | also notice
+tsrair Ivit that these roles are not really tied to job function -- eg. across Anthropic,
+some designers match category 1, some 2, some 3; same for engineers,
+: PM, OS.
+a
+eral Worlc @addyosmani
+I's Fa Ak eynote
+ee >) Ori ra) Google

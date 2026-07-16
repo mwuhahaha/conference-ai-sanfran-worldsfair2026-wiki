@@ -79,9 +79,15 @@ Related video transcript availability: English auto-captions. Treat this as supp
 - [[youtube-OkEGJ5G3foU-slides]] — slide evidence.
 - [[youtube-OkEGJ5G3foU-reconstructed-slides]] — slide evidence.
 - [[youtube-OkEGJ5G3foU-dense-slides]] — slide evidence.
+- [[youtube-uIiA6DquRiE]] — related YouTube source page.
 
 ### Novel Concepts / Clever Methods
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
 This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+
+## Official YouTube Recording
+- [[youtube-uIiA6DquRiE]] — scheduled official AI Engineer YouTube premiere for 2026-07-17.
+- Evidence status: transcript/slide enrichment pending.
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.

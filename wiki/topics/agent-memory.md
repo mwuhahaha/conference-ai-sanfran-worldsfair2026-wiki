@@ -405,5 +405,9 @@ This table summarizes the local evidence already linked from this topic. It is a
 
 ## Slide-Derived Supporting Decks
 - [[youtube-8G_1-3IO4ZQ-slides]] —  (10 extracted slide frames)
+- [[youtube-n97BCfyFIvw-slides]] — "The engineer of the future is the person who is able to choose what is worth doing." — Addy Osmani (32 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
+## Slide-Derived Scheduled Session Signals
+- [[2026-06-30-addy-osmani-closing-keynote]] — Closing Keynote

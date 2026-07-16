@@ -30,6 +30,8 @@ No official description published in the schedule data.
 ## Media Evidence
 No related AI Engineer channel video found yet.
 
+- [[youtube-APqXGyCoGW4-transcript]] — full cached transcript markdown for the related YouTube source.
+
 ## Evidence Graph
 This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits.
 
@@ -50,18 +52,30 @@ No official session recording transcript was found by exact title match on the A
 
 ## Synthesis
 ### Synthesized Breakdown
-# How Forward Deployed Engineering is done at Cursor ## Conference Context - Date/time: 2026-06-29 · 11:10am-11:30am - Track/room: Forward Deployed Engineering · Track 8 - Speaker(s): Pauline Brunet - Session type/status: session · confirmed - Track: Forward Deployed Engineering - Room: Track 8 - Session type: session - Status: confirmed ## Session Description No official description published in the schedule data. ## Media Evidence No related AI Engineer channel video found yet. ## Evidence Graph This evidence graph is generated from currently linked source material: official schedule text, related video pages, cached transcripts, visible slide text, dense/reconstructed slide pages, and AI slide-classification audits. ### Media Signals No linked video, transcript, or slide source has been attached yet.
+Hello everyone. Can you hear me okay? Fantastic. Are we having a great conference?
 
 ### Speaker And Company Context
 - [[pauline-brunet|Pauline Brunet]] — VP, Forward Deployed Engineering at [[cursor|Cursor]].
 
 ### Topics Covered
-- Topic links are pending transcript-backed classification.
+- [[agent-security]]
+- [[agentic-search]]
+- [[coding-agents]]
 
 ### Derived Links And Source Material
+- [[youtube-APqXGyCoGW4-transcript]] — transcript markdown; source cache `raw/sources/youtube-transcripts/APqXGyCoGW4.txt` (3,956 words).
+- [[youtube-APqXGyCoGW4]] — related YouTube source page.
 
 ### Novel Concepts / Clever Methods
 - No highlighted novel concept has been detected yet.
 
 ### Evidence Boundary
-This synthesis is based on the official schedule and linked source pages. It should be revisited when exact session recordings or transcript-backed secondary sources are available.
+This synthesis uses the official schedule plus cached video transcripts. Official AI Engineer World's Fair San Francisco 2026 livestreams and cut videos are primary event video sources for transcript/slide evidence; external, historical, or speaker-matched videos remain supporting context unless manually verified as exact official event recordings.
+
+## Official YouTube Recording
+- [[youtube-APqXGyCoGW4]] — official AI Engineer YouTube channel recording published 2026-07-14.
+- Evidence status: [[youtube-APqXGyCoGW4-transcript]]; [[youtube-APqXGyCoGW4-slides]].
+- Boundary: use this recording as media evidence; keep date/time/room facts tied to the official schedule.
+
+## Supporting Slides
+- [[youtube-APqXGyCoGW4-slides]] — extracted from the related public AI Engineer video.

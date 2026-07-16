@@ -430,6 +430,12 @@ This table summarizes the local evidence already linked from this topic. It is a
 - Agentic software factories that coordinate planning, coding, testing, and release steps.
 
 ## Slide-Derived Supporting Decks
+- [[youtube--CnA2lGfymY-slides]] — "I've never seen anything scarier than an LLM with tool calls." — Erik Meijer aka @HeadinTheBox (32 extracted slide frames)
+- [[youtube-n97BCfyFIvw-slides]] — "The engineer of the future is the person who is able to choose what is worth doing." — Addy Osmani (32 extracted slide frames)
 - [[youtube-WkBPX-oDMnA-slides]] —  (12 extracted slide frames)
 
 These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.
+
+## Slide-Derived Scheduled Session Signals
+- [[2026-06-29-erik-meijer-in-code-they-act-in-proof-we-trust]] — In Code They Act, In Proof We Trust
+- [[2026-06-30-addy-osmani-closing-keynote]] — Closing Keynote

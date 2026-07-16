@@ -20,6 +20,85 @@ RSS_XML = b"""<?xml version="1.0" encoding="UTF-8"?>
 
 
 class YoutubeMonitorTests(unittest.TestCase):
+    def test_manifest_refresh_sets_distinguish_premieres_and_pending_captions(self):
+        with tempfile.TemporaryDirectory() as directory:
+            manifest = Path(directory) / "manifest.json"
+            manifest.write_text(json.dumps({"videos": [
+                {"id": "pending", "mediaType": "scheduled_premiere"},
+                {"id": "caption-later", "mediaType": "talk_recording", "transcriptStatus": "pending"},
+                {"id": "ready", "mediaType": "talk_recording"},
+            ]}), encoding="utf-8")
+            with patch.object(monitor, "OFFICIAL_VIDEO_MANIFEST", manifest):
+                self.assertEqual({"pending"}, monitor.scheduled_manifest_video_ids())
+                self.assertEqual({"pending", "caption-later"}, monitor.pending_manifest_video_ids())
+
+    def test_multiline_frontmatter_speakers_are_parsed(self):
+        text = '---\ntitle: "Talk"\nspeakers:\n  - Alex Bauer\n  - "Second Speaker"\ncategory: talks\n---\n'
+        self.assertEqual(["Alex Bauer", "Second Speaker"], monitor.frontmatter_speaker_names(text))
+
+    def test_wf26_promo_title_is_not_treated_as_an_event_recording(self):
+        video = monitor.VideoEntry(
+            "promo",
+            "6 Things to Know about AIE World's Fair 2026",
+            "2026-06-21T00:00:00+00:00",
+            "2026-06-21T00:00:00+00:00",
+            "https://www.youtube.com/watch?v=promo",
+        )
+        self.assertFalse(monitor.explicit_wf26_event_title(video))
+
+    def test_rewritten_title_matches_schedule_description_and_exact_speaker(self):
+        talks = [{
+            "id": "talk-one",
+            "title": "In Code They Act, In Proof We Trust",
+            "speakers": '["Erik Meijer"]',
+            "description": "AI agents today execute on blind trust, and the failure modes are already in the headlines. " * 2,
+        }]
+        video = monitor.VideoEntry(
+            "video-1",
+            '"I have never seen anything scarier than an LLM with tool calls." - Erik Meijer',
+            "2026-07-13T00:00:00+00:00",
+            "2026-07-13T00:00:00+00:00",
+            "https://www.youtube.com/watch?v=video-1",
+            description=talks[0]["description"] + " Speaker biography follows.",
+        )
+
+        self.assertEqual(["talk-one"], [row["id"] for row in monitor.verified_schedule_matches(video, talks)])
+
+    def test_shared_speaker_without_schedule_text_is_not_event_association(self):
+        talks = [{
+            "id": "talk-one",
+            "title": "Closing Keynote",
+            "speakers": '["Example Speaker"]',
+            "description": "TBD",
+        }]
+        video = monitor.VideoEntry(
+            "video-1",
+            "An unrelated interview - Example Speaker",
+            "2026-07-13T00:00:00+00:00",
+            "2026-07-13T00:00:00+00:00",
+            "https://www.youtube.com/watch?v=video-1",
+            description="A conversation from a different event.",
+        )
+
+        self.assertEqual([], monitor.verified_schedule_matches(video, talks))
+
+    def test_upcoming_video_metadata_retains_release_state_without_captions(self):
+        video = monitor.video_entry_from_metadata({
+            "id": "premiere-1",
+            "title": "On AI and Knowledge - Pablo Castro",
+            "upload_date": "20260711",
+            "release_date": "20260717",
+            "live_status": "is_upcoming",
+            "description": "Pending premiere",
+            "subtitles": {"live_chat": []},
+            "automatic_captions": {},
+        })
+
+        self.assertEqual("2026-07-11", video.published_date.isoformat())
+        self.assertEqual("2026-07-17", video.release_date)
+        self.assertEqual("is_upcoming", video.live_status)
+        self.assertFalse(video.has_english_captions)
+
     @patch.object(monitor.time, "sleep")
     @patch.object(monitor, "urlopen")
     def test_fetch_rss_retries_network_and_parse_failures(self, mocked_open, mocked_sleep):

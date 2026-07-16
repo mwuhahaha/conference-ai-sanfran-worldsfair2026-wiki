@@ -138,6 +138,18 @@ def video_metadata_by_id() -> dict[str, dict]:
                     "source_kind": "channel_stream" if "streams" in source_path.name else "channel_video",
                 },
             )
+    manifest_path = ROOT / "raw" / "sources" / "official-wf26-video-manifest.json"
+    if manifest_path.exists():
+        for entry in load_json(manifest_path).get("videos", []):
+            video_id = entry.get("id")
+            if not video_id:
+                continue
+            videos[video_id] = {
+                "video_id": video_id,
+                "youtube_title": entry.get("title") or video_id,
+                "youtube_url": f"https://www.youtube.com/watch?v={video_id}",
+                "source_kind": "official_wf26_manifest",
+            }
     return videos
 
 
@@ -149,6 +161,19 @@ def related_sessions_by_video() -> dict[str, list[dict]]:
         video_id = video.get("video_id")
         if video_id:
             grouped.setdefault(video_id, []).append(row)
+    manifest_path = ROOT / "raw" / "sources" / "official-wf26-video-manifest.json"
+    talk_registry = {
+        item.get("id"): item
+        for item in load_json(ROOT / "wiki" / "talks" / "registry.json")
+        if isinstance(item, dict) and item.get("id")
+    }
+    if manifest_path.exists():
+        for video in load_json(manifest_path).get("videos", []):
+            video_id = video.get("id")
+            for talk_id in video.get("matchedTalks") or []:
+                talk = talk_registry.get(talk_id)
+                if video_id and talk and talk not in grouped.setdefault(video_id, []):
+                    grouped[video_id].append(talk)
     return grouped
 
 
@@ -368,6 +393,8 @@ def ocr_slides(video_id: str, slides: list[Path]) -> dict[str, str]:
 
 
 def talk_slug(session: dict) -> str:
+    if session.get("id"):
+        return session["id"]
     # Match build_worldsfair_wiki.py output when possible by reading talk registry.
     title = session.get("title", "")
     registry = load_json(ROOT / "wiki" / "talks" / "registry.json")
@@ -381,6 +408,16 @@ def write_slide_page(video_id: str, video: dict, sessions: list[dict], slides: l
     SLIDE_PAGES.mkdir(parents=True, exist_ok=True)
     page = SLIDE_PAGES / f"youtube-{video_id}-slides.md"
     title = f"Slides: {video.get('youtube_title') or video_id}"
+    if video.get("source_kind") == "official_wf26_manifest":
+        relationship = (
+            "These slides are extracted from a verified official AI Engineer World's Fair San Francisco 2026 recording. "
+            "Use them as slide and OCR evidence; official schedule pages remain canonical for titles, times, rooms, tracks, speakers, and affiliations."
+        )
+    else:
+        relationship = (
+            "These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. "
+            "Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material."
+        )
     lines = [
         frontmatter(
             {
@@ -396,7 +433,7 @@ def write_slide_page(video_id: str, video: dict, sessions: list[dict], slides: l
         f"[{md_label(video.get('youtube_title'))}]({video.get('youtube_url')})",
         "",
         "## Relationship To World's Fair 2026",
-        "These slides are extracted from a public AI Engineer YouTube video connected to World's Fair 2026. Speaker-matched clips are supporting context unless later confirmed as exact session recordings; official livestream recordings are day-level/event-level source material.",
+        relationship,
         "",
         "## Related Scheduled Sessions",
     ]
@@ -417,7 +454,7 @@ def write_slide_page(video_id: str, video: dict, sessions: list[dict], slides: l
             lines.append("")
             lines.append("OCR text:")
             lines.append("")
-            lines.append("> " + compact.replace("\n", "\n> "))
+            lines.append("\n".join(">" if not line else f"> {line}" for line in compact.splitlines()))
             lines.append("")
     lines.extend(
         [
@@ -444,6 +481,20 @@ def upsert_section(path: Path, heading: str, body: str) -> None:
     else:
         text = text.rstrip() + block
     path.write_text(text.rstrip() + "\n")
+
+
+def merge_bullet_section(path: Path, heading: str, new_lines: list[str], footer: str = "") -> None:
+    text = path.read_text()
+    pattern = re.compile(rf"\n## {re.escape(heading)}\n(.*?)(?=\n## |\Z)", re.S)
+    existing: list[str] = []
+    match = pattern.search(text)
+    if match:
+        existing = [line.strip() for line in match.group(1).splitlines() if line.strip().startswith("- ")]
+    lines = sorted(set(existing + new_lines), key=str.casefold)
+    body = "\n".join(lines)
+    if footer:
+        body += f"\n\n{footer}"
+    upsert_section(path, heading, body)
 
 
 def update_resource_and_talk_pages(video_id: str, sessions: list[dict]) -> None:
@@ -498,14 +549,14 @@ def update_subjects(processed: list[tuple[str, dict, list[dict], list[Path], dic
                     session_lines.append(f"- [[{slugged}]] — {session.get('title')}")
         topic_path = topic_dir / f"{slug}.md"
         if topic_path.exists():
-            upsert_section(
+            merge_bullet_section(
                 topic_path,
                 "Slide-Derived Supporting Decks",
-                "\n".join(slide_lines)
-                + "\n\nThese decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.",
+                slide_lines,
+                "These decks are slide/OCR support only; keep the article synopsis, origin, use cases, and schedule sections as the primary topic narrative.",
             )
             if session_lines:
-                upsert_section(topic_path, "Slide-Derived Scheduled Session Signals", "\n".join(session_lines))
+                merge_bullet_section(topic_path, "Slide-Derived Scheduled Session Signals", session_lines)
         else:
             lines = [
                 frontmatter({"title": data["title"], "category": "topics", "sourceLabels": ["Slide/video-derived supporting context"]}),

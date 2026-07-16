@@ -1,5 +1,11 @@
 [
   {
+    "id": "youtube--CnA2lGfymY-slides",
+    "title": "Slides: \\\"I've never seen anything scarier than an LLM with tool calls.\\\" — Erik Meijer aka @HeadinTheBox",
+    "path": "wiki/slides/youtube--CnA2lGfymY-slides.md",
+    "slide_count": 32
+  },
+  {
     "id": "youtube--TiET_K-E_g-dense-slides",
     "title": "Dense Slides: From 46% to 90%: Fine-Tuning Tiny LLMs for On-Device Agents — Cormac Brick, Google",
     "path": "wiki/slides/youtube--TiET_K-E_g-dense-slides.md",
@@ -394,6 +400,12 @@
     "title": "Slides: Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs",
     "path": "wiki/slides/youtube-APh1Vx0oLmQ-slides.md",
     "slide_count": 13
+  },
+  {
+    "id": "youtube-APqXGyCoGW4-slides",
+    "title": "Slides: Forward Deployed Engineering at Cursor — Pauline Brunet",
+    "path": "wiki/slides/youtube-APqXGyCoGW4-slides.md",
+    "slide_count": 7
   },
   {
     "id": "youtube-AheG9p_JXVw-slides",
@@ -1380,6 +1392,12 @@
     "slide_count": 2
   },
   {
+    "id": "youtube-YZQsWVeN3rE-slides",
+    "title": "Slides: Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
+    "path": "wiki/slides/youtube-YZQsWVeN3rE-slides.md",
+    "slide_count": 4
+  },
+  {
     "id": "youtube-Ywl4LsvHKzU-dense-slides",
     "title": "Dense Slides: RAG Evaluation Is Broken! Here's Why (And How to Fix It) - Yuval Belfer and Niv Granot",
     "path": "wiki/slides/youtube-Ywl4LsvHKzU-dense-slides.md",
@@ -2020,6 +2038,12 @@
     "title": "Slides: The 2025 AI Engineering Report — Barr Yaron, Amplify",
     "path": "wiki/slides/youtube-mQ7_Zje7WKE-slides.md",
     "slide_count": 10
+  },
+  {
+    "id": "youtube-n97BCfyFIvw-slides",
+    "title": "Slides: \\\"The engineer of the future is the person who is able to choose what is worth doing.\\\" — Addy Osmani",
+    "path": "wiki/slides/youtube-n97BCfyFIvw-slides.md",
+    "slide_count": 32
   },
   {
     "id": "youtube-o-zkvb0iFDQ-dense-slides",
