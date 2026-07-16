@@ -19,6 +19,12 @@ WIKI = ROOT / "wiki"
 DEFAULT_PROFILE = ROOT / "raw" / "sources" / "evolution-context-profile.json"
 DEFAULT_CATEGORIES = ("topics", "questions", "harnesses", "playbooks", "evaluations")
 SECTION_NAMES = ("How This Theme Evolved", "Why This Matters Now", "Practical Lesson")
+WRITER_CONTRACT = {
+    "writer_id": "enrich-evolution-context",
+    "scope": "owned_block",
+    "owned_output_keys": [f"section:{name}" for name in SECTION_NAMES],
+    "incremental_safe": True,
+}
 
 
 def read(path: Path) -> str:
@@ -137,15 +143,15 @@ def candidate_paths(paths: list[str], categories: list[str]) -> list[Path]:
     ]
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__, allow_abbrev=False)
     parser.add_argument("--profile", type=Path, default=DEFAULT_PROFILE)
     parser.add_argument("--path", action="append", default=[], help="Project-relative markdown input; repeatable.")
     parser.add_argument("--category", action="append", choices=DEFAULT_CATEGORIES, default=[])
     parser.add_argument("--all", action="store_true", help="Scan every supported synthesis category.")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--check", action="store_true", help="Exit 1 if an eligible page is not current.")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     profile = json.loads(read(args.profile))
     validate_profile(profile)

@@ -7,8 +7,18 @@ import argparse
 import json
 import re
 from collections import Counter, defaultdict
+from dataclasses import dataclass
+from html.parser import HTMLParser
 from pathlib import Path
+from typing import Any, Iterable, Mapping
 from urllib.parse import urlsplit
+
+try:
+    from wiki_from_topic_maker.public_artifact_policy import scan_public_artifacts as _shared_scan_public_artifacts
+except ModuleNotFoundError as exc:
+    if exc.name not in {"wiki_from_topic_maker", "wiki_from_topic_maker.public_artifact_policy"}:
+        raise
+    _shared_scan_public_artifacts = None
 
 from third_party_connection_policy import INTERNAL_DIR, assess_connection, normalize_url, write_internal_policy
 
@@ -51,6 +61,61 @@ PUBLIC_RANKING_LINE_PATTERNS = (
     ("match reasons", re.compile(r"^\s*-\s+(?:Match evidence|Reasons):", re.M | re.I)),
     ("calibration rules", re.compile(r"^## Matching Rules\s*$", re.M)),
 )
+PUBLIC_ARTIFACT_SUFFIXES = {".md", ".markdown", ".json", ".jsonl", ".html", ".htm"}
+PRIVATE_ARTIFACT_DIRECTORIES = {".git", ".ops", "__pycache__", "node_modules"}
+RANKING_METADATA_TERMS = {
+    "score", "scores", "scoring", "rank", "ranks", "ranking", "weight", "weights",
+    "weighted", "calibration", "calibrated", "confidence",
+}
+INTERNAL_KEY_CONTEXT_TERMS = {
+    "internal", "match", "matched", "matching", "candidate", "retrieval", "relevance",
+    "credibility", "ranking",
+}
+MATCH_DETAIL_TERMS = {
+    "basis", "company", "confidence", "evidence", "overlap", "rank", "reasons", "score",
+    "signals", "speakers", "terms", "title", "weight",
+}
+CALIBRATION_DETAIL_TERMS = {"fixture", "marker", "policy", "rank", "rules", "score", "weight"}
+GENERIC_RANKING_KEYS = {"score", "rank", "weight"}
+INTERNAL_JSON_CONTAINER_TERMS = {
+    "match", "matches", "matched", "matching", "candidate", "candidates", "retrieval", "relevance",
+}
+CAMEL_BOUNDARY_RE = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
+NUMERIC_VALUE_RE = re.compile(r"^[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:e[-+]?\d+)?%?$", re.I)
+INTERNAL_TEXT_RE = re.compile(
+    r"\(\s*(?:internal|match|matching|candidate|ranking|retrieval|relevance|credibility)"
+    r"[ _-]+(?:score|rank|ranking|weight|calibration)\s*(?:[:=]|is)?\s*[-+]?(?:\d+(?:\.\d*)?|\.\d+)"
+    r"|^\s*(?:[-*+]\s*)?(?:internal|match|matching|candidate|ranking|retrieval|relevance|credibility)"
+    r"[ _-]+(?:score|rank|ranking|weight|calibration)\s*(?:[:=]|is)?\s*[-+]?(?:\d+(?:\.\d*)?|\.\d+)%?\s*$"
+    r"|^\s*#{1,6}\s+matching rules\s*$",
+    re.I | re.M,
+)
+HTML_ATTRIBUTE_RE = re.compile(r"\b([a-zA-Z_:][\w:.-]*)\s*=\s*([\"'])(.*?)\2", re.S)
+INTERNAL_RELATIONSHIP_TEXT_RE = re.compile(
+    r"\b(?:speaker|topic|title|candidate)[ _-]+match(?:ed|ing)?\b"
+    r"|\b(?:match|matching|candidate|retrieval|relevance)\b.{0,80}"
+    r"\b(?:basis|rationale|reason|related)\b",
+    re.I,
+)
+
+
+@dataclass(frozen=True)
+class FallbackPublicArtifactIssue:
+    path: Path
+    artifact_format: str
+    code: str
+    location: str
+    marker: str
+
+
+@dataclass(frozen=True)
+class FallbackPublicArtifactScanResult:
+    checked_files: tuple[Path, ...]
+    issues: tuple[FallbackPublicArtifactIssue, ...]
+
+    @property
+    def ok(self) -> bool:
+        return not self.issues
 
 
 def load_json(path: Path, fallback):
@@ -103,11 +168,20 @@ def severity_rank(value: str) -> int:
     return {"critical": 0, "high": 1, "medium": 2, "low": 3}.get(value, 4)
 
 
-def finding(severity: str, kind: str, path: Path, reason: str, *, url: str = "", evidence: list[str] | None = None) -> dict:
+def finding(
+    severity: str,
+    kind: str,
+    path: Path,
+    reason: str,
+    *,
+    url: str = "",
+    evidence: list[str] | None = None,
+    project_root: Path = ROOT,
+) -> dict:
     return {
         "severity": severity,
         "kind": kind,
-        "page": str(path.relative_to(ROOT)),
+        "page": str(path.relative_to(project_root)),
         "url": url,
         "reason": reason,
         "evidence": evidence or [],
@@ -134,11 +208,353 @@ def public_ranking_markers(text: str) -> list[str]:
     return [label for label, pattern in PUBLIC_RANKING_LINE_PATTERNS if pattern.search(text)]
 
 
-def audit_public_ranking_artifacts(findings: list[dict], counters: Counter) -> int:
+def _fallback_key_terms(value: str) -> tuple[str, ...]:
+    separated = CAMEL_BOUNDARY_RE.sub("_", value.removeprefix("data-").strip())
+    return tuple(term for term in re.split(r"[^a-zA-Z0-9]+", separated.lower()) if term)
+
+
+def _fallback_forbidden_key(value: str, metadata_value: Any = None) -> bool:
+    terms = set(_fallback_key_terms(value))
+    if not terms or _fallback_categorical_internal_boundary(terms, metadata_value):
+        return False
+    if terms == {"confidence", "score"}:
+        return True
+    if terms & {"match", "matching", "retrieval", "relevance", "credibility", "ranking"}:
+        if isinstance(metadata_value, (int, float)) and not isinstance(metadata_value, bool):
+            return True
+    if "calibration" in terms and terms & CALIBRATION_DETAIL_TERMS:
+        return True
+    if terms & {"match", "matched", "matching"} and terms & MATCH_DETAIL_TERMS:
+        return True
+    return bool(terms & INTERNAL_KEY_CONTEXT_TERMS and terms & RANKING_METADATA_TERMS)
+
+
+def _fallback_categorical_internal_boundary(terms: set[str], value: Any) -> bool:
+    return bool(
+        {"internal", "only"} <= terms
+        and isinstance(value, (bool, str))
+        and (value is True or str(value).strip().lower() == "true")
+    )
+
+
+def _fallback_numeric_confidence(key: str, value: Any) -> bool:
+    terms = set(_fallback_key_terms(key))
+    if "confidence" not in terms:
+        return False
+    if not terms & INTERNAL_KEY_CONTEXT_TERMS and terms != {"confidence", "score"}:
+        return False
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        return True
+    return isinstance(value, str) and bool(NUMERIC_VALUE_RE.fullmatch(value.strip()))
+
+
+def _fallback_generic_ranking_key(value: str) -> bool:
+    terms = _fallback_key_terms(value)
+    return len(terms) == 1 and terms[0] in GENERIC_RANKING_KEYS
+
+
+def _fallback_container_proves_internal_matching(value: str) -> bool:
+    terms = set(_fallback_key_terms(value))
+    return bool(
+        terms & INTERNAL_JSON_CONTAINER_TERMS
+        or {"related", "video"} <= terms
+    )
+
+
+def _fallback_mapping_proves_internal_matching(value: Mapping[Any, Any]) -> bool:
+    for key, child in value.items():
+        terms = set(_fallback_key_terms(str(key)))
+        if "matched" in terms and not isinstance(child, Mapping):
+            return True
+        if not isinstance(child, Mapping) and (
+            {"speaker", "hit"} <= terms or {"topic", "overlap"} <= terms
+        ):
+            return True
+        if "basis" in terms and terms & {"match", "matching"}:
+            return True
+        if (
+            terms & {"relationship", "rationale", "reason"}
+            and isinstance(child, str)
+            and INTERNAL_RELATIONSHIP_TEXT_RE.search(child)
+        ):
+            return True
+    return False
+
+
+def _fallback_files(roots: Iterable[Path]) -> tuple[Path, ...]:
+    found: set[Path] = set()
+    for root in roots:
+        if root.name in PRIVATE_ARTIFACT_DIRECTORIES:
+            continue
+        paths = (root,) if root.is_file() else root.rglob("*") if root.is_dir() else ()
+        for path in paths:
+            if not path.is_file() or path.suffix.lower() not in PUBLIC_ARTIFACT_SUFFIXES:
+                continue
+            if any(part in PRIVATE_ARTIFACT_DIRECTORIES for part in path.relative_to(root).parts):
+                continue
+            found.add(path)
+    return tuple(sorted(found))
+
+
+def _fallback_json_issues(
+    path: Path,
+    value: Any,
+    location: str = "$",
+    *,
+    internal_context: bool = False,
+) -> list[FallbackPublicArtifactIssue]:
+    issues: list[FallbackPublicArtifactIssue] = []
+    if isinstance(value, Mapping):
+        mapping_context = internal_context or _fallback_mapping_proves_internal_matching(value)
+        for key, child in value.items():
+            child_location = f"{location}.{key}"
+            if _fallback_forbidden_key(str(key), child):
+                issues.append(FallbackPublicArtifactIssue(path, "json", "internal_metadata_key", child_location, str(key)))
+            elif mapping_context and _fallback_generic_ranking_key(str(key)):
+                issues.append(FallbackPublicArtifactIssue(path, "json", "internal_metadata_key", child_location, str(key)))
+            elif _fallback_numeric_confidence(str(key), child):
+                issues.append(FallbackPublicArtifactIssue(path, "json", "numeric_confidence", child_location, str(child)))
+            issues.extend(
+                _fallback_json_issues(
+                    path,
+                    child,
+                    child_location,
+                    internal_context=(
+                        mapping_context or _fallback_container_proves_internal_matching(str(key))
+                    ),
+                )
+            )
+    elif isinstance(value, list):
+        for index, child in enumerate(value):
+            issues.extend(
+                _fallback_json_issues(
+                    path,
+                    child,
+                    f"{location}[{index}]",
+                    internal_context=internal_context,
+                )
+            )
+    elif isinstance(value, str):
+        for match in INTERNAL_TEXT_RE.finditer(value):
+            issues.append(FallbackPublicArtifactIssue(path, "json", "internal_metadata_text", location, match.group(0)))
+    return issues
+
+
+class _FallbackArtifactHTMLParser(HTMLParser):
+    def __init__(self, path: Path) -> None:
+        super().__init__(convert_charrefs=True)
+        self.path = path
+        self.issues: list[FallbackPublicArtifactIssue] = []
+        self.blockquote_depth = 0
+        self.json_script_depth = 0
+        self.json_script_chunks: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "blockquote":
+            self.blockquote_depth += 1
+        attrs_map = {name: value for name, value in attrs}
+        if tag == "script" and (attrs_map.get("type") or "").lower() in {
+            "application/json",
+            "application/ld+json",
+        }:
+            self.json_script_depth += 1
+        for name, value in attrs:
+            if _fallback_forbidden_key(name, value or ""):
+                self.issues.append(FallbackPublicArtifactIssue(
+                    self.path,
+                    "html",
+                    "internal_html_attribute",
+                    f"line {self.getpos()[0]}",
+                    name,
+                ))
+            elif _fallback_numeric_confidence(name, value or ""):
+                self.issues.append(FallbackPublicArtifactIssue(
+                    self.path,
+                    "html",
+                    "numeric_confidence",
+                    f"line {self.getpos()[0]}",
+                    value or "",
+                ))
+        if tag == "meta":
+            metadata_name = attrs_map.get("name") or attrs_map.get("property") or ""
+            metadata_value = attrs_map.get("content") or ""
+            if _fallback_forbidden_key(metadata_name, metadata_value):
+                self.issues.append(FallbackPublicArtifactIssue(
+                    self.path,
+                    "html",
+                    "internal_html_metadata",
+                    f"line {self.getpos()[0]}",
+                    metadata_name,
+                ))
+            elif _fallback_numeric_confidence(metadata_name, metadata_value):
+                self.issues.append(FallbackPublicArtifactIssue(
+                    self.path,
+                    "html",
+                    "numeric_confidence",
+                    f"line {self.getpos()[0]}",
+                    metadata_value,
+                ))
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "blockquote" and self.blockquote_depth:
+            self.blockquote_depth -= 1
+        if tag == "script" and self.json_script_depth:
+            raw = "".join(self.json_script_chunks).strip()
+            if raw:
+                try:
+                    value = json.loads(raw)
+                except json.JSONDecodeError as exc:
+                    self.issues.append(FallbackPublicArtifactIssue(
+                        self.path,
+                        "html",
+                        "invalid_json",
+                        f"embedded JSON line {exc.lineno}, column {exc.colno}",
+                        exc.msg,
+                    ))
+                else:
+                    for issue in _fallback_json_issues(self.path, value):
+                        self.issues.append(FallbackPublicArtifactIssue(
+                            self.path,
+                            "html",
+                            issue.code,
+                            f"embedded JSON {issue.location}",
+                            issue.marker,
+                        ))
+            self.json_script_chunks.clear()
+            self.json_script_depth -= 1
+
+    def handle_data(self, data: str) -> None:
+        if self.json_script_depth:
+            self.json_script_chunks.append(data)
+            return
+        if self.blockquote_depth:
+            return
+        for match in INTERNAL_TEXT_RE.finditer(data):
+            self.issues.append(FallbackPublicArtifactIssue(
+                self.path,
+                "html",
+                "internal_metadata_text",
+                f"line {self.getpos()[0]}",
+                match.group(0),
+            ))
+
+
+def _fallback_text_issues(path: Path, text: str, artifact_format: str) -> list[FallbackPublicArtifactIssue]:
+    issues: list[FallbackPublicArtifactIssue] = []
+    if artifact_format == "html":
+        parser = _FallbackArtifactHTMLParser(path)
+        parser.feed(text)
+        parser.close()
+        return parser.issues
+    if artifact_format == "markdown":
+        lines = text.splitlines()
+        in_frontmatter = bool(lines and lines[0].strip() == "---")
+        for line_number, line in enumerate(lines, start=1):
+            if line_number == 1 and in_frontmatter:
+                continue
+            if in_frontmatter and line.strip() == "---":
+                in_frontmatter = False
+                continue
+            if in_frontmatter:
+                key, separator, value = line.partition(":")
+                if separator and _fallback_forbidden_key(key.strip(), value.strip()):
+                    issues.append(FallbackPublicArtifactIssue(path, "markdown", "internal_frontmatter_key", f"line {line_number}", key.strip()))
+                elif separator and _fallback_numeric_confidence(key.strip(), value.strip()):
+                    issues.append(FallbackPublicArtifactIssue(path, "markdown", "numeric_confidence", f"line {line_number}", value.strip()))
+                continue
+            if line.lstrip().startswith(">"):
+                continue
+            for match in INTERNAL_TEXT_RE.finditer(line):
+                issues.append(FallbackPublicArtifactIssue(path, "markdown", "internal_metadata_text", f"line {line_number}", match.group(0)))
+    for match in HTML_ATTRIBUTE_RE.finditer(text):
+        name, _quote, value = match.groups()
+        line_number = text.count("\n", 0, match.start()) + 1
+        if _fallback_forbidden_key(name, value):
+            issues.append(FallbackPublicArtifactIssue(path, artifact_format, "internal_html_attribute", f"line {line_number}", name))
+        elif _fallback_numeric_confidence(name, value):
+            issues.append(FallbackPublicArtifactIssue(path, artifact_format, "numeric_confidence", f"line {line_number}", value))
+    return issues
+
+
+def _fallback_scan_public_artifacts(roots: tuple[Path, ...]) -> FallbackPublicArtifactScanResult:
+    files = _fallback_files(roots)
+    issues: list[FallbackPublicArtifactIssue] = []
+    for path in files:
+        text = path.read_text(encoding="utf-8")
+        suffix = path.suffix.lower()
+        if suffix in {".json", ".jsonl"}:
+            rows = (
+                ((line_number, line) for line_number, line in enumerate(text.splitlines(), start=1) if line.strip())
+                if suffix == ".jsonl"
+                else ((1, text),)
+            )
+            for line_number, raw in rows:
+                try:
+                    value = json.loads(raw)
+                except json.JSONDecodeError as exc:
+                    issues.append(FallbackPublicArtifactIssue(
+                        path,
+                        "json",
+                        "invalid_json",
+                        f"line {line_number + exc.lineno - 1}, column {exc.colno}",
+                        exc.msg,
+                    ))
+                    continue
+                prefix = f"$line[{line_number}]" if suffix == ".jsonl" else "$"
+                issues.extend(_fallback_json_issues(path, value, prefix))
+        else:
+            artifact_format = "html" if suffix in {".html", ".htm"} else "markdown"
+            issues.extend(_fallback_text_issues(path, text, artifact_format))
+    ordered = tuple(sorted(issues, key=lambda issue: (str(issue.path), issue.location, issue.code, issue.marker)))
+    return FallbackPublicArtifactScanResult(files, ordered)
+
+
+def scan_publishable_artifacts(project_root: Path = ROOT):
+    """Scan every public wiki, static, and raw-source Markdown/JSON/HTML artifact."""
+    roots = (project_root / "wiki", project_root / "dist", project_root / "raw" / "sources")
+    if _shared_scan_public_artifacts is not None:
+        return _shared_scan_public_artifacts(roots)
+    return _fallback_scan_public_artifacts(roots)
+
+
+def _public_artifact_finding(issue, project_root: Path) -> dict:
+    raw_source = _is_raw_source_path(issue.path, project_root)
+    return finding(
+        "critical",
+        (
+            f"raw_source_internal_ranking_{issue.artifact_format}"
+            if raw_source
+            else f"public_internal_ranking_{issue.artifact_format}"
+        ),
+        issue.path,
+        (
+            "A raw source artifact contains structurally identified internal matching or ranking metadata."
+            if raw_source
+            else "A publishable artifact contains structurally identified internal ranking or calibration metadata."
+        ),
+        evidence=[f"{issue.code} at {issue.location}: {issue.marker}"],
+        project_root=project_root,
+    )
+
+
+def _is_raw_source_path(path: Path, project_root: Path) -> bool:
+    try:
+        path.relative_to(project_root / "raw" / "sources")
+    except ValueError:
+        return False
+    return True
+
+
+def audit_public_ranking_artifacts(
+    findings: list[dict],
+    counters: Counter,
+    project_root: Path = ROOT,
+) -> int:
     leak_count = 0
+    raw = project_root / "raw" / "sources"
     json_targets = (
-        (RAW / "external-video-discovery-latest.json", EXTERNAL_REPORT_FORBIDDEN_KEYS),
-        (RAW / "company-profiles.json", PUBLIC_COMPANY_FORBIDDEN_KEYS),
+        (raw / "external-video-discovery-latest.json", EXTERNAL_REPORT_FORBIDDEN_KEYS),
+        (raw / "company-profiles.json", PUBLIC_COMPANY_FORBIDDEN_KEYS),
     )
     for path, forbidden in json_targets:
         if not path.exists():
@@ -150,34 +566,33 @@ def audit_public_ranking_artifacts(findings: list[dict], counters: Counter) -> i
         leak_count += len(key_paths)
         findings.append(finding(
             "critical",
-            "public_internal_ranking_key",
+            "raw_source_internal_ranking_key",
             path,
             "A public JSON artifact contains internal ranking or calibration keys that belong only under ignored .ops state.",
             evidence=key_paths[:25],
+            project_root=project_root,
         ))
 
-    markdown_targets: list[tuple[Path, str]] = []
-    resource = WIKI / "resources" / "external-video-discovery.md"
-    if resource.exists():
-        markdown_targets.append((resource, resource.read_text(encoding="utf-8", errors="ignore")))
-    for path in sorted((WIKI / "talks").glob("*.md")):
-        text = path.read_text(encoding="utf-8", errors="ignore")
-        sections = EXTERNAL_SECTION_RE.findall(text)
-        if sections:
-            markdown_targets.append((path, "\n".join(sections)))
-    for path, text in markdown_targets:
-        markers = public_ranking_markers(text)
-        if not markers:
-            counters["public_external_video_markdown_without_ranking_details"] += 1
-            continue
-        leak_count += len(markers)
-        findings.append(finding(
-            "critical",
-            "public_internal_ranking_markdown",
-            path,
-            "A public external-video section exposes numeric confidence, match reasons, or calibration rules.",
-            evidence=markers,
-        ))
+    scan = scan_publishable_artifacts(project_root)
+    raw_files = {path for path in scan.checked_files if _is_raw_source_path(path, project_root)}
+    public_files = set(scan.checked_files) - raw_files
+    raw_affected_files = {
+        issue.path for issue in scan.issues if _is_raw_source_path(issue.path, project_root)
+    }
+    public_affected_files = {issue.path for issue in scan.issues} - raw_affected_files
+    counters["publishable_artifact_files_scanned"] += len(public_files)
+    counters["publishable_artifact_files_without_internal_ranking"] += (
+        len(public_files) - len(public_affected_files)
+    )
+    counters["raw_source_artifact_files_scanned"] += len(raw_files)
+    counters["raw_source_artifact_files_without_internal_ranking"] += (
+        len(raw_files) - len(raw_affected_files)
+    )
+    counters["raw_source_internal_ranking_findings"] += sum(
+        1 for issue in scan.issues if _is_raw_source_path(issue.path, project_root)
+    )
+    leak_count += len(scan.issues)
+    findings.extend(_public_artifact_finding(issue, project_root) for issue in scan.issues)
     return leak_count
 
 

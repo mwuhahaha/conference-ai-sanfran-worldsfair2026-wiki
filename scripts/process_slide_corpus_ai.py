@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 RUNS = ROOT / ".ops" / "state" / "runs"
 POLICY_VERSION = "agent-triage-ocr-reconcile-v2"
+MAX_WORKERS = 8
 
 DECKS = {
     "dense": WIKI / "assets" / "dense-slides",
@@ -125,8 +126,8 @@ def run_one(item: dict, args: argparse.Namespace) -> dict:
     return record
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser()
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(allow_abbrev=False)
     parser.add_argument("--model", default="gpt-5.4-mini")
     parser.add_argument("--min-confidence", type=float, default=0.72)
     parser.add_argument("--timeout", type=int, default=120)
@@ -142,13 +143,15 @@ def main() -> int:
     parser.add_argument("--shard-index", type=int, default=0)
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     work = selected_work()
     if args.shard_count < 1:
         raise SystemExit("--shard-count must be >= 1")
     if args.shard_index < 0 or args.shard_index >= args.shard_count:
         raise SystemExit("--shard-index must be between 0 and shard-count - 1")
+    if args.workers < 1 or args.workers > MAX_WORKERS:
+        raise SystemExit(f"--workers must be between 1 and {MAX_WORKERS}")
     if args.shard_count > 1:
         work = [item for index, item in enumerate(work) if index % args.shard_count == args.shard_index]
 
@@ -160,7 +163,6 @@ def main() -> int:
     if args.limit:
         pending = pending[: args.limit]
 
-    RUNS.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     report_path = RUNS / f"{stamp}-slide-ai-corpus-s{args.shard_index}-of-{args.shard_count}.json"
     report = {
@@ -175,16 +177,16 @@ def main() -> int:
         "dry_run": args.dry_run,
         "no_advanced_ocr": args.no_advanced_ocr,
         "workers": args.workers,
+        "status": "planned" if args.dry_run else "running",
         "items": [],
     }
 
     if args.dry_run:
         report["items"] = pending
-        report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
         print(json.dumps({k: report[k] for k in report if k != "items"}, sort_keys=True))
-        print(report_path)
         return 0
 
+    RUNS.mkdir(parents=True, exist_ok=True)
     failures = 0
     workers = max(1, args.workers)
     if workers == 1:
@@ -202,7 +204,19 @@ def main() -> int:
                 ),
                 flush=True,
             )
-            result = run_one(item, args)
+            try:
+                result = run_one(item, args)
+            except Exception as exc:
+                result = {
+                    **item,
+                    "elapsed_seconds": None,
+                    "returncode": 1,
+                    "stdout": "",
+                    "stderr": repr(exc),
+                    "status": "failed",
+                }
+            else:
+                result["status"] = "succeeded" if result["returncode"] == 0 else "failed"
             report["items"].append(result)
             if result["returncode"] != 0:
                 failures += 1
@@ -237,7 +251,10 @@ def main() -> int:
                         "returncode": 1,
                         "stdout": "",
                         "stderr": repr(exc),
+                        "status": "failed",
                     }
+                else:
+                    result["status"] = "succeeded" if result["returncode"] == 0 else "failed"
                 report["items"].append(result)
                 if result["returncode"] != 0:
                     failures += 1
@@ -245,8 +262,10 @@ def main() -> int:
                     json.dumps(
                         {
                             "completed": len(report["items"]),
+                            "finished": len(report["items"]),
                             "pending": len(pending),
                             "video_id": result["video_id"],
+                            "status": result["status"],
                             "returncode": result["returncode"],
                             "elapsed_seconds": result["elapsed_seconds"],
                             "accepted_count": result.get("accepted_count"),
@@ -259,8 +278,9 @@ def main() -> int:
                 report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
 
     report["failures"] = failures
+    report["status"] = "degraded" if failures else "succeeded"
     report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
-    print(json.dumps({"processed": len(pending), "failures": failures, "report": str(report_path)}, sort_keys=True))
+    print(json.dumps({"status": report["status"], "processed": len(pending), "failures": failures, "report": str(report_path)}, sort_keys=True))
     return 1 if failures else 0
 
 

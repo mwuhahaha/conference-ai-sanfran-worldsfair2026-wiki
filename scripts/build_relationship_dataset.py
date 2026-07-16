@@ -563,13 +563,15 @@ def _json_bytes(value: Any) -> bytes:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=__doc__, allow_abbrev=False)
     parser.add_argument("--profile", type=Path, default=DEFAULT_PROFILE)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--check", action="store_true", help="Build and validate without writing public output")
     parser.add_argument("--validate", type=Path, metavar="PATH", help="Validate an existing relationship dataset")
     parser.add_argument("--write-internal-audit", action="store_true", help="Write the audit under ignored project-local state")
     args = parser.parse_args(argv)
+    if args.check and args.write_internal_audit:
+        parser.error("--write-internal-audit cannot be combined with --check")
 
     profile = load_profile(args.profile)
     if args.validate:

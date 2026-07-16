@@ -568,8 +568,8 @@ def write_resource(video_id: str, video: dict, text: str, topics: list[tuple[str
     ]
     if matches:
         lines.extend(["", "## Related Scheduled Sessions"])
-        for score, session in matches:
-            lines.append(f"- [[{session_slug(session)}]] — {md_escape(session.get('title'))} (match score {score})")
+        for _score, session in matches:
+            lines.append(f"- [[{session_slug(session)}]] — {md_escape(session.get('title'))}")
     page = RESOURCES / f"youtube-{video_id}.md"
     existing = page.read_text(errors="ignore") if page.exists() else ""
     preserved_sections = set()

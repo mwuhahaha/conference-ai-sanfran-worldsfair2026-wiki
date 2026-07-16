@@ -1,10 +1,14 @@
+import io
 import json
 import tempfile
 import unittest
+from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
+from unittest.mock import patch
 
 import jsonschema
 
+from scripts import build_relationship_dataset as relationship_module
 from scripts.build_relationship_dataset import (
     audit_dataset,
     build_relationship_dataset,
@@ -169,6 +173,43 @@ class RelationshipDatasetTests(unittest.TestCase):
             profile_path = Path(directory) / "profile.json"
             profile_path.write_text(json.dumps(self.profile), encoding="utf-8")
             self.assertEqual(0, main(["--profile", str(profile_path), "--validate", str(path)]))
+
+    def test_check_builds_without_writing_public_or_internal_output(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            profile_path = root / "profile.json"
+            output_path = root / "relationship-data.json"
+            audit_path = root / "audit.json"
+            profile_path.write_text(json.dumps(self.profile), encoding="utf-8")
+
+            with patch.object(relationship_module, "ROOT", root), patch.object(
+                relationship_module, "DEFAULT_INTERNAL_AUDIT", audit_path
+            ), patch.object(relationship_module, "load_wiki_pages", return_value=self.pages), redirect_stdout(io.StringIO()):
+                self.assertEqual(
+                    0,
+                    relationship_module.main(
+                        ["--profile", str(profile_path), "--output", str(output_path), "--check"]
+                    ),
+                )
+
+            self.assertFalse(output_path.exists())
+            self.assertFalse(audit_path.exists())
+
+    def test_check_rejects_internal_audit_write_before_generation(self):
+        with patch.object(relationship_module, "load_profile") as generator, redirect_stderr(io.StringIO()), self.assertRaises(
+            SystemExit
+        ) as raised:
+            relationship_module.main(["--check", "--write-internal-audit"])
+
+        self.assertEqual(2, raised.exception.code)
+        generator.assert_not_called()
+
+    def test_help_and_unknown_arguments_do_not_build_relationships(self):
+        for argv in (["--help"], ["--unknown"], ["--chec"]):
+            with self.subTest(argv=argv), patch.object(relationship_module, "load_profile") as generator:
+                with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
+                    relationship_module.main(argv)
+                generator.assert_not_called()
 
 
 if __name__ == "__main__":

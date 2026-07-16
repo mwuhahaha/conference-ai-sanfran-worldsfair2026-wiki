@@ -1,19 +1,27 @@
+import json
 import sys
+import tempfile
 import unittest
+from collections import Counter
 from pathlib import Path
+from unittest.mock import patch
 
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
+import audit_third_party_connections as connection_audit
 from third_party_connection_policy import assess_connection, normalize_url
 from audit_third_party_connections import (
+    audit_public_ranking_artifacts,
     forbidden_json_key_paths,
     metadata_corroborates_company,
     official_tool_maintainer_evidence,
     package_project_names,
     public_ranking_markers,
+    scan_publishable_artifacts,
 )
 from discover_external_event_videos import public_report
+import enrich_from_youtube_transcripts as youtube_enrichment
 from fetch_company_profiles import Candidate, validate_company_candidate
 
 
@@ -97,6 +105,277 @@ class ThirdPartyConnectionPolicyTests(unittest.TestCase):
 - Match evidence: speaker exact
 """
         self.assertEqual(public_ranking_markers(text), ["numeric confidence", "match reasons"])
+
+    def test_publishable_tree_scan_finds_structural_markdown_json_and_html_leaks(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "wiki").mkdir()
+            (root / "dist").mkdir()
+            (root / "wiki" / "page.md").write_text(
+                "---\ntitle: Unsafe\ninternal_score: 0.91\n---\n\nCandidate (match score 92).\n"
+            )
+            (root / "dist" / "agent.json").write_text(
+                json.dumps({"id": "unsafe", "rankingWeight": 0.7})
+            )
+            (root / "dist" / "index.html").write_text(
+                '<html><body><div data-candidate-rank="2">Candidate</div></body></html>'
+            )
+
+            scan = scan_publishable_artifacts(root)
+            findings = []
+            counters = Counter()
+            leak_count = audit_public_ranking_artifacts(findings, counters, root)
+
+            self.assertFalse(scan.ok)
+            self.assertEqual({issue.artifact_format for issue in scan.issues}, {"markdown", "json", "html"})
+            self.assertEqual(leak_count, len(scan.issues))
+            self.assertEqual(counters["publishable_artifact_files_scanned"], 3)
+            self.assertEqual({finding["page"] for finding in findings}, {"wiki/page.md", "dist/agent.json", "dist/index.html"})
+
+    def test_publishable_tree_scan_keeps_source_backed_score_discussion(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "wiki").mkdir()
+            (root / "dist").mkdir()
+            prose = (
+                "According to the linked conference transcript, the evaluation scores rose from "
+                "71 to 84, while benchmark rankings still required task-specific context."
+            )
+            (root / "wiki" / "evaluation.md").write_text(
+                "---\nsourceLabels: [Conference transcript]\n---\n\n" + prose + "\n"
+            )
+            (root / "dist" / "evaluation.json").write_text(
+                json.dumps({"content": prose, "confidence": "high", "sourceLabels": ["Conference transcript"]})
+            )
+            (root / "dist" / "evaluation.html").write_text(f"<p>{prose}</p>")
+
+            scan = scan_publishable_artifacts(root)
+
+            self.assertTrue(scan.ok)
+            self.assertEqual(len(scan.checked_files), 3)
+
+    def test_raw_source_scan_separates_internal_match_metadata_from_measurements(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw = root / "raw" / "sources"
+            raw.mkdir(parents=True)
+            (raw / "livestream-match.json").write_text(
+                json.dumps(
+                    {
+                        "confidence": "high",
+                        "confidence_score": 141,
+                        "matched_speakers": ["Example Speaker"],
+                        "matched_title_terms": ["example"],
+                        "match_basis": "speaker and title",
+                    }
+                )
+            )
+            (raw / "technical-measurements.json").write_text(
+                json.dumps(
+                    {
+                        "score": 4,
+                        "bestScore": 177.4,
+                        "benchmark_score": 0.83,
+                        "rank": 2,
+                        "weight": 0.7,
+                        "ocr_confidence": 0.91,
+                        "calibration": {"pixels_per_meter": 18.2},
+                        "numeric_ranking_is_internal_only": True,
+                    }
+                )
+            )
+            findings = []
+            counters = Counter()
+
+            shared = scan_publishable_artifacts(root)
+            with patch.object(connection_audit, "_shared_scan_public_artifacts", None):
+                standalone = connection_audit.scan_publishable_artifacts(root)
+            leak_count = audit_public_ranking_artifacts(findings, counters, root)
+
+            self.assertEqual(
+                [
+                    (issue.path.name, issue.artifact_format, issue.code, issue.marker)
+                    for issue in shared.issues
+                ],
+                [
+                    (issue.path.name, issue.artifact_format, issue.code, issue.marker)
+                    for issue in standalone.issues
+                ],
+            )
+            self.assertEqual(leak_count, 4)
+            self.assertEqual(counters["raw_source_artifact_files_scanned"], 2)
+            self.assertEqual(counters["raw_source_artifact_files_without_internal_ranking"], 1)
+            self.assertEqual(counters["raw_source_internal_ranking_findings"], 4)
+            self.assertEqual(
+                {finding["kind"] for finding in findings},
+                {"raw_source_internal_ranking_json"},
+            )
+            self.assertTrue(all(finding["page"] == "raw/sources/livestream-match.json" for finding in findings))
+
+    def test_speaker_video_map_score_uses_parent_and_sibling_matching_context(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw = root / "raw" / "sources"
+            raw.mkdir(parents=True)
+            (raw / "speaker-video-map.json").write_text(
+                json.dumps(
+                    [
+                        {
+                            "title": "From Vibes to Production",
+                            "speakers": ["Laurie Voss"],
+                            "related_video": {
+                                "score": 105,
+                                "speaker_hit": ["Laurie Voss"],
+                                "topic_overlap": 5,
+                                "video_id": "Xfl50508LZM",
+                                "relationship": (
+                                    "speaker-match related prior/adjacent AI Engineer video"
+                                ),
+                            },
+                        }
+                    ]
+                )
+            )
+
+            shared = scan_publishable_artifacts(root)
+            with patch.object(connection_audit, "_shared_scan_public_artifacts", None):
+                standalone = connection_audit.scan_publishable_artifacts(root)
+
+            shared_signature = [
+                (issue.artifact_format, issue.code, issue.location, issue.marker)
+                for issue in shared.issues
+            ]
+            standalone_signature = [
+                (issue.artifact_format, issue.code, issue.location, issue.marker)
+                for issue in standalone.issues
+            ]
+            self.assertEqual(shared_signature, standalone_signature)
+            self.assertEqual(
+                shared_signature,
+                [
+                    (
+                        "json",
+                        "internal_metadata_key",
+                        "$[0].related_video.score",
+                        "score",
+                    )
+                ],
+            )
+
+    def test_publishable_tree_scan_has_standalone_fail_closed_fallback(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "wiki").mkdir()
+            (root / "dist").mkdir()
+            (root / "wiki" / "unsafe.md").write_text("---\ncandidate_rank: 2\n---\n")
+            (root / "dist" / "safe.html").write_text(
+                "<p>The conference source compared benchmark scores across tasks.</p>"
+            )
+
+            with patch.object(connection_audit, "_shared_scan_public_artifacts", None):
+                scan = connection_audit.scan_publishable_artifacts(root)
+
+            self.assertFalse(scan.ok)
+            self.assertEqual(len(scan.issues), 1)
+            self.assertEqual(scan.issues[0].code, "internal_frontmatter_key")
+
+    def test_shared_and_standalone_scans_align_for_embedded_html_json(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "dist").mkdir()
+            for name, script_type in (
+                ("json", "application/json"),
+                ("json-ld", "application/ld+json"),
+            ):
+                (root / "dist" / f"{name}.html").write_text(
+                    f'<script type="{script_type}">'
+                    '{"name":"Candidate","rankingWeight":0.7}'
+                    "</script>"
+                )
+
+            shared = scan_publishable_artifacts(root)
+            with patch.object(connection_audit, "_shared_scan_public_artifacts", None):
+                standalone = connection_audit.scan_publishable_artifacts(root)
+
+            shared_signature = [
+                (issue.path.name, issue.artifact_format, issue.code, issue.marker)
+                for issue in shared.issues
+            ]
+            standalone_signature = [
+                (issue.path.name, issue.artifact_format, issue.code, issue.marker)
+                for issue in standalone.issues
+            ]
+            self.assertEqual(shared_signature, standalone_signature)
+            self.assertEqual(len(shared_signature), 2)
+
+    def test_shared_and_standalone_html_scans_align_for_meta_and_blockquotes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "dist").mkdir()
+            (root / "dist" / "meta-name.html").write_text(
+                '<meta name="rankingWeight" content="0.7">'
+            )
+            (root / "dist" / "meta-property.html").write_text(
+                '<meta property="candidateRank" content="2">'
+            )
+            (root / "dist" / "quoted-source.html").write_text(
+                "<blockquote><p>Related candidate (match score 92).</p></blockquote>"
+                "<p>Source-backed discussion outside the quote.</p>"
+            )
+
+            shared = scan_publishable_artifacts(root)
+            with patch.object(connection_audit, "_shared_scan_public_artifacts", None):
+                standalone = connection_audit.scan_publishable_artifacts(root)
+
+            shared_signature = [
+                (issue.path.name, issue.artifact_format, issue.code, issue.marker)
+                for issue in shared.issues
+            ]
+            standalone_signature = [
+                (issue.path.name, issue.artifact_format, issue.code, issue.marker)
+                for issue in standalone.issues
+            ]
+            self.assertEqual(shared_signature, standalone_signature)
+            self.assertEqual(
+                shared_signature,
+                [
+                    ("meta-name.html", "html", "internal_html_metadata", "rankingWeight"),
+                    ("meta-property.html", "html", "internal_html_metadata", "candidateRank"),
+                ],
+            )
+
+    def test_resource_generator_keeps_match_score_internal(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            wiki = root / "wiki"
+            resources = wiki / "resources"
+            talks = wiki / "talks"
+            talks.mkdir(parents=True)
+            (talks / "registry.json").write_text("[]\n")
+            video = {
+                "youtube_title": "Example Talk - Example Speaker, Example Co",
+                "youtube_url": "https://www.youtube.com/watch?v=example",
+                "source_kind": "channel_video",
+            }
+            session = {"title": "Example Talk", "speakers": ["Example Speaker"]}
+
+            with patch.object(youtube_enrichment, "WIKI", wiki), patch.object(
+                youtube_enrichment, "RESOURCES", resources
+            ):
+                youtube_enrichment.write_resource(
+                    "example",
+                    video,
+                    "A representative conference transcript with useful engineering details.",
+                    [],
+                    [(92, session)],
+                    is_event_video=True,
+                )
+
+            generated = resources / "youtube-example.md"
+            text = generated.read_text()
+            self.assertIn("[[example-talk]]", text)
+            self.assertNotIn("match score", text.lower())
+            self.assertTrue(scan_publishable_artifacts(root).ok)
 
     def test_package_project_names_extracts_pypi_identity(self):
         text = "[Package](https://pypi.org/project/chrome-agent/)"

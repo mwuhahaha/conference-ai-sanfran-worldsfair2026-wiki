@@ -94,10 +94,10 @@ def profile_identity_collisions(people: list[Person]) -> list[dict]:
     ]
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__, allow_abbrev=False)
     parser.add_argument("--check", action="store_true", help="Evaluate without writing internal artifacts.")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
     people = load_people()
     pairs = len(people) * (len(people) - 1) // 2
     connections = [item for left, right in itertools.combinations(people, 2) if (item := compare(left, right))]

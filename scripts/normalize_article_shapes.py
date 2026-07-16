@@ -169,6 +169,12 @@ ORDER: dict[str, list[str]] = {
 }
 
 TARGET_DIRS = ["talks", "people", "companies", "topics", "questions", "harnesses", "playbooks", "evaluations"]
+WRITER_CONTRACT = {
+    "writer_id": "normalize-article-shapes",
+    "scope": "whole_page",
+    "owned_output_keys": [],
+    "incremental_safe": False,
+}
 
 
 def read(path: Path) -> str:
@@ -289,7 +295,7 @@ def ordered_sections(kind: str, merged: OrderedDict[str, list[str]]) -> list[tup
     return output
 
 
-def normalize_page(path: Path, kind: str) -> bool:
+def normalize_page(path: Path, kind: str, *, write_changes: bool = True) -> bool:
     original = read(path)
     fm, content = split_frontmatter(original)
     h1, rest = split_h1(content, path.stem.replace("-", " ").title())
@@ -307,16 +313,17 @@ def normalize_page(path: Path, kind: str) -> bool:
         blocks.append(f"## {heading}\n{body}")
     normalized = fm + "\n\n".join(blocks).rstrip() + "\n"
     if normalized != original:
-        write(path, normalized)
+        if write_changes:
+            write(path, normalized)
         return True
     return False
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser()
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(allow_abbrev=False)
     parser.add_argument("--kind", action="append", choices=TARGET_DIRS)
     parser.add_argument("--check", action="store_true")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     kinds = args.kind or TARGET_DIRS
     counts = defaultdict(int)
@@ -325,7 +332,7 @@ def main() -> int:
         for path in sorted((WIKI / kind).glob("*.md")):
             if path.name in {"index.md"}:
                 continue
-            changed = normalize_page(path, kind)
+            changed = normalize_page(path, kind, write_changes=not args.check)
             if changed:
                 counts[kind] += 1
                 changed_paths.append(str(path.relative_to(ROOT)))

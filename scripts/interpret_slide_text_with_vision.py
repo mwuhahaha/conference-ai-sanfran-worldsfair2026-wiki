@@ -28,6 +28,7 @@ AI_VISION_PAGE = ROOT / "wiki" / "resources" / "slide-ocr-ai-vision-audit.md"
 
 JSON_RE = re.compile(r"\{.*\}", re.S)
 DEFAULT_CODEX_VISION_MODEL = "gpt-5.4-mini"
+MAX_JOBS = 8
 
 
 PROMPT = """Read the visible text on this conference slide or video frame.
@@ -55,8 +56,10 @@ def parse_json(text: str) -> dict:
     payload = match.group(0) if match else text
     try:
         data = json.loads(payload)
-    except Exception:
-        return {"text": "", "confidence": 0.0, "notes": f"unparseable response: {text[:180]}"}
+    except (json.JSONDecodeError, TypeError) as exc:
+        raise ValueError(f"model returned malformed JSON: {text[:180]}") from exc
+    if not isinstance(data, dict):
+        raise ValueError("model returned malformed JSON: expected an object")
     return {
         "text": str(data.get("text") or "").strip(),
         "confidence": float(data.get("confidence") or 0),
@@ -238,12 +241,12 @@ def process_slide(provider: str, slide: Path, args: argparse.Namespace) -> dict:
                 }
             )
             return record
+    record["attempted"] = True
     try:
         result = interpret(provider, slide, ocr_text, args)
     except Exception as exc:
         record["error"] = repr(exc)
         return record
-    record["attempted"] = True
     record.update(result)
     if result["text"] and result["confidence"] >= args.min_confidence:
         out = text_path(AI_VISION_OCR, slide)
@@ -281,8 +284,8 @@ def write_audit_page(audit: dict) -> None:
     write_text(AI_VISION_PAGE, "\n".join(lines))
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser()
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(allow_abbrev=False)
     parser.add_argument("--provider", choices=["auto", "ollama", "codex-cli", "openai"], default="auto")
     parser.add_argument("--ollama-model", default=os.environ.get("OLLAMA_VISION_MODEL", "llava:latest"))
     parser.add_argument("--codex-model", default=os.environ.get("CODEX_VISION_MODEL", DEFAULT_CODEX_VISION_MODEL))
@@ -297,9 +300,11 @@ def main() -> int:
     parser.add_argument("--ignore-rapidmerge-audit", action="store_true")
     parser.add_argument("--timeout", type=int, default=90)
     parser.add_argument("--dry-run", action="store_true")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
+    if args.jobs < 1 or args.jobs > MAX_JOBS:
+        raise SystemExit(f"--jobs must be between 1 and {MAX_JOBS}")
 
-    provider = choose_provider(args.provider)
+    provider = None if args.dry_run else choose_provider(args.provider)
     slides = candidate_slides(args)
     if args.limit:
         slides = slides[: args.limit]
@@ -323,12 +328,18 @@ def main() -> int:
         "skipExisting": args.skip_existing,
         "records": [],
     }
-    if not provider or args.dry_run:
-        audit["providerStatus"] = "dry-run" if args.dry_run else "unavailable"
+    if args.dry_run:
+        audit["status"] = "planned"
+        audit["providerStatus"] = "dry-run"
+        print(json.dumps({k: audit[k] for k in ["status", "provider", "slidesQueued", "slidesAttempted", "visionFilesWritten"]}, sort_keys=True))
+        return 0
+    if not provider:
+        audit["status"] = "blocked"
+        audit["providerStatus"] = "unavailable"
         AI_VISION_AUDIT.write_text(json.dumps(audit, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         write_audit_page(audit)
-        print(json.dumps({k: audit[k] for k in ["provider", "slidesQueued", "slidesAttempted", "visionFilesWritten"]}, sort_keys=True))
-        return 0
+        print(json.dumps({k: audit[k] for k in ["status", "provider", "slidesQueued", "slidesAttempted", "visionFilesWritten"]}, sort_keys=True))
+        return 2
 
     if args.jobs <= 1:
         records = [process_slide(provider, slide, args) for slide in slides]
@@ -349,10 +360,12 @@ def main() -> int:
 
     audit["finishedAtEpoch"] = time.time()
     audit["elapsedSeconds"] = round(audit["finishedAtEpoch"] - audit["startedAtEpoch"], 2)
+    audit["failures"] = sum(1 for record in records if record.get("error"))
+    audit["status"] = "degraded" if audit["failures"] else "succeeded"
     AI_VISION_AUDIT.write_text(json.dumps(audit, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     write_audit_page(audit)
-    print(json.dumps({k: audit[k] for k in ["provider", "slidesQueued", "slidesAttempted", "visionFilesWritten"]}, sort_keys=True))
-    return 0
+    print(json.dumps({k: audit[k] for k in ["status", "provider", "slidesQueued", "slidesAttempted", "visionFilesWritten", "failures"]}, sort_keys=True))
+    return 1 if audit["failures"] else 0
 
 
 if __name__ == "__main__":

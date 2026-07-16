@@ -39,6 +39,12 @@ OFFICIAL_VIDEO_MANIFEST = RAW / "official-wf26-video-manifest.json"
 CHANNEL_ID = "UCLKPca3kwwd-B59HNr-_lvA"
 CHANNEL_RSS = f"https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL_ID}"
 OFFICIAL_CHANNEL = "AI Engineer"
+CAPTION_FAILURE_STATUSES = {
+    "chrome_agent_unavailable",
+    "chrome_caption_import_failed",
+    "empty_caption_file",
+}
+SLIDE_FAILURE_STATUSES = {"slide_extraction_failed"}
 
 
 @dataclass
@@ -908,13 +914,13 @@ def stop_timer_if_present() -> None:
         subprocess.run(["systemctl", "--user", "disable", "--now", "aie-wf2026-youtube-monitor.timer"], text=True, capture_output=True)
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser()
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(allow_abbrev=False)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--no-slides", action="store_true", help="Skip slide extraction attempts for new videos.")
     parser.add_argument("--auto-push", action="store_true", help="Commit and push successful import changes to origin/main.")
     parser.add_argument("--open-status", action="store_true", help="Open the status page after this run.")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     checked_at = datetime.now(timezone.utc)
     auto_push = args.auto_push or os.environ.get("AIE_WF2026_MONITOR_AUTO_PUSH") == "1"
@@ -938,7 +944,7 @@ def main() -> int:
                 "dry_run": False,
             }
             write_status(report)
-            return 0
+            return 2
 
     entries = fetch_rss()
     snapshot_changed = False if args.dry_run else update_channel_snapshot(entries)
@@ -972,9 +978,12 @@ def main() -> int:
                 "message": "No confirmed AI Engineer World's Fair 2026 event video was published within the last seven calendar dates; monitor disabled.",
             }
         )
-        write_status(report)
-        stop_timer_if_present()
-        open_status_page()
+        if args.dry_run:
+            print(json.dumps(report, sort_keys=True))
+        else:
+            write_status(report)
+            stop_timer_if_present()
+            open_status_page()
         return 0
 
     recent_rows = [(entry, matched) for entry, matched in event_rows if entry.published_date >= cutoff]
@@ -1025,6 +1034,27 @@ def main() -> int:
 
     report["processed"] = processed
     if not args.dry_run:
+        item_failures = media_item_failures(processed)
+        report["item_failures"] = item_failures
+        report["failure_count"] = len(item_failures)
+        if item_failures:
+            every_component_failed = bool(processed) and all(
+                str(item.get("transcript", {}).get("status")) in CAPTION_FAILURE_STATUSES
+                and str(item.get("slides", {}).get("status")) in SLIDE_FAILURE_STATUSES
+                for item in processed
+            )
+            failure_state = "failed" if every_component_failed else "degraded"
+            report.update(
+                {
+                    "state": failure_state,
+                    "status": failure_state,
+                    "message": "One or more monitor media-import items failed; changes were not published and the timer will retry.",
+                    "recent_entry_count": len(recent_rows),
+                    "new_entry_count": len(process_rows),
+                }
+            )
+            write_status(report)
+            return 1
         enrichment = run_enrichment(transcript_imports, [entry.video_id for entry, _matched in process_rows]) if process_rows else []
         report["enrichment"] = enrichment
         enrichment_failed = any(item.get("returncode") != 0 for item in enrichment)
@@ -1064,27 +1094,63 @@ def main() -> int:
             "new_entry_count": len(process_rows),
         }
     )
-    write_status(report)
-    if args.open_status:
-        open_status_page()
+    if args.dry_run:
+        print(json.dumps(report, sort_keys=True))
+    else:
+        write_status(report)
+        if args.open_status:
+            open_status_page()
     return 0
 
 
-if __name__ == "__main__":
+def media_item_failures(processed: list[dict[str, object]]) -> list[dict[str, str]]:
+    failures: list[dict[str, str]] = []
+    for item in processed:
+        for component, failure_statuses in (
+            ("transcript", CAPTION_FAILURE_STATUSES),
+            ("slides", SLIDE_FAILURE_STATUSES),
+        ):
+            result = item.get(component)
+            if not isinstance(result, dict):
+                continue
+            status = str(result.get("status") or "")
+            if status not in failure_statuses and not status.endswith("_failed"):
+                continue
+            failures.append(
+                {
+                    "id": str(item.get("id") or ""),
+                    "component": component,
+                    "status": status,
+                    "error": str(result.get("error") or result.get("yt_dlp_error") or ""),
+                }
+            )
+    return failures
+
+
+def run_entrypoint(argv: list[str] | None = None) -> int:
+    arguments = list(sys.argv[1:] if argv is None else argv)
     try:
-        raise SystemExit(main())
+        return main(arguments)
     except Exception as exc:
         previous = load_json(STATUS_JSON, {})
         report = {
             "checked_at": datetime.now(timezone.utc).isoformat(),
             "channel_id": CHANNEL_ID,
             "state": "degraded",
+            "status": "degraded",
             "message": "The monitor failed before completing. The systemd service will retry automatically.",
             "error": {"type": type(exc).__name__, "message": str(exc)},
             "previous_checked_at": previous.get("checked_at", "") if isinstance(previous, dict) else "",
             "processed": [],
-            "dry_run": False,
+            "dry_run": "--dry-run" in arguments,
         }
-        write_status(report)
+        if report["dry_run"]:
+            print(json.dumps(report, sort_keys=True))
+        else:
+            write_status(report)
         traceback.print_exc()
-        raise SystemExit(1)
+        return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(run_entrypoint())
